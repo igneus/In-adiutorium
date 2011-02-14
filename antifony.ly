@@ -116,7 +116,82 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 f g a( c d c) a a4. \breathe b4 c b c( d) d4. \breathe
+    d4( c) a b g g4. \bar "|"
+    g4 f( g) a( c d c) d4.( e4.) \breathe c4 a f g \breathe g4( a) a g4. g4. \bar "||"
+  }
+  \addlyrics {
+    Ja -- ko tři mlá -- den -- ci v_oh -- ni -- vé pe -- ci zpí -- vej -- me Bo -- hu:
+    Po -- že -- hna -- ný jsi, náš Bo -- že. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G (Dan 3,57-88)"
+  }
+}
 
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 d' c  b( c) d( e) e4. \breathe d4 c a b4.( d4.) \breathe
+    c4 a g( a) a \breathe g4( c) b g4. a4. \bar "||"
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu ať já -- sa -- jí nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VII.a (Žalm 149)"
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 bes a g a  f e f f4. \breathe e4 d e f g a a bes a g f f4. \breathe
+    e4 g g( f) f4. \bar "||"
+  }
+  \addlyrics {
+    U -- tí -- kej -- me se k_Hos -- po -- di -- nu,
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - VI.F (Žalm 118(117)-I)"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) g4. \breathe a4 bes c( bes) a g f g g4. \breathe g4 a f4. f \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la a sta -- teč -- nost. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VI.F (Žalm 118(117)-II)"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes c bes( a) g4. \breathe a4 bes c d( bes) g g4. \breathe
+    g4 a g( f) f4. \bar "||"
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne, že jsi mě vy -- sly -- šel. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VI.F (Žalm 118(117)-III)"
+  }
+}
+
+ 
 %{
 \score {
   \relative c' {
