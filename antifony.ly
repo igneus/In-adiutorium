@@ -184,13 +184,72 @@
     g4 a g( f) f4. \bar "||"
   }
   \addlyrics {
-    Dě -- ku -- ji ti, Hos -- po -- di -- ne, že jsi mě vy -- sly -- šel. A -- le -- lu -- ja.
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne, že jsi mě vy -- sly -- šel. 
+A -- le -- lu -- ja.
   }
   \header {
     piece = "3. ant. - VI.F (Žalm 118(117)-III)"
   }
 }
 
+\markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a( c) d c4. \bar "||"    
+  }
+  \addlyrics {
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu: Seď po mé pra -- vi -- ci. 
+A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - VII.c2 (Žalm 110(109),1-5.7)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f d f( g) bes a4. \breathe g4 a f d4. c \breathe f4 e d4. d \bar "||"
+  }
+  \addlyrics {
+    Ze -- mě se za -- chvě -- la před tvá -- ří Pá -- ně. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - per. (Žalm 114(113A))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
+  }
+  \addlyrics {
+    Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VI.F (srov. Zj 19,1-7)"
+  }
+}
+
+\markup {\nadpisDen {Neděle 2. týdne}}
+
+\markup {\nadpisHodinka {"1. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d( c b) b4. \breathe a4 c d( e) d \breathe c4 b( a) c4. d \bar "||"
+  }
+  \addlyrics {
+    Sví -- til -- nou mým no -- hám je tvé slo -- vo. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - VII.d (Žalm 119(119)-XIV)"
+  }
+}
  
 %{
 \score {
