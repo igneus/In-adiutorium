@@ -1,5 +1,7 @@
 ﻿\version "2.12.3"
 
+\include "spolecne.ly"
+
 \header {
   title = "Kantikum Zj 15,3-4 (páteční nešpory)"
   composer = "Jakub Pavlík"

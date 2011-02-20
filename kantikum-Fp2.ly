@@ -1,5 +1,7 @@
 ﻿\version "2.12.3"
 
+\include "spolecne.ly"
+
 \header {
   title = "Kantikum Fp 2,6-11 (neděle, I. nešpory)"
   composer = "Jakub Pavlík"
