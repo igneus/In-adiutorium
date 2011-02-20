@@ -20,6 +20,14 @@
 		     (markup #:smallCaps
 			     #:with-color #'red arg)))
 
+%{
+#(define-markup-command (nadpisAntifony layout props cislo tonus odkaz) 
+   (integer? string? string?)
+"Nadpis antifony, ktery se pouziva jako polozka title v jeji hlavicce"
+   (interpret-markup layout props
+		     (markup #:concat cislo ".ant. - " tonus " (" odkaz ")")))
+%}
+
 \markup {\nadpisDen {Neděle 1. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -66,13 +74,16 @@
   }
 }
 
+aFlatKey = {
+  % nestandartni predznamenani: snizene A (napev je z byzantske oblasti, 
+  % podle irmosu na 4. hlas...)
+  \set Staff.keySignature = #`(((0 . 5) . ,FLAT))
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-
-    % nestandartni predznamenani: snizene A (napev je z byzantske oblasti, 
-    % podle irmosu na 4. hlas...)
-    \set Staff.keySignature = #`(((0 . 5) . ,FLAT))
+    \aFlatKey
 
     g4 g g g f e e4. \breathe
     g4 g g g g g g f g as g g4. \bar "||"
@@ -241,15 +252,66 @@ A -- le -- lu -- ja.
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g b c d( c b) b4. \breathe a4 c d( e) d \breathe c4 b( a) c4. d \bar "||"
+    g4 g b c d( c b) b4. \breathe a4 c d e d c d d4. \breathe c4 b( a) c4. d \bar "||"
   }
   \addlyrics {
-    Sví -- til -- nou mým no -- hám je tvé slo -- vo. A -- le -- lu -- ja.
+    Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
   }
   \header {
     piece = "1. ant. - VII.d (Žalm 119(119)-XIV)"
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b c d a a4. c4 b c( d) d4. \breathe c4 a b( g) g4. \bar "||"
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G (Žalm 16(15))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    \aFlatKey
+
+    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
+    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
+  }
+}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a4. bes4 c a4. a \breathe a4 a g( a) bes c d4. d \breathe
+    c4 d bes( c) a4.( g) \bar "||"
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
+    jmé -- nu. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - I.a2 (Žalm 118(117)"
+  }
+}
+
+%}
  
 %{
 \score {
