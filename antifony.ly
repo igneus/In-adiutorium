@@ -311,7 +311,34 @@ A -- le -- lu -- ja.
   }
 }
 
-%}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c c d c d e e4. \breathe c4 a g( a g) g4. \bar "||"
+  }
+  \addlyrics {
+    Zpí -- vej -- te chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G - Dan 3,52-7"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f2 g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na pro je -- ho svr -- cho -- va -- nou 
+    ve -- leb -- nost. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = ""
+  }
+}
+
  
 %{
 \score {

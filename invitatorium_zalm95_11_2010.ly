@@ -1,5 +1,7 @@
 ﻿\version "2.12.3"
 
+\include "spolecne.ly"
+
 \header {
   title = "Invitatorium"
   composer = "Jakub Pavlík"
@@ -648,4 +650,127 @@
       piece = "svátek Křtu Páně"
     }
   }
+}
+
+% Antifony - doba postni
+
+\bookpart {
+  
+  \header {
+    subtitle = "Antifony - doba postní"
+  }
+  
+  \markup {
+    \justify {
+      Následující dvě antifony jsou od Popeleční středy do soboty po 5. neděli
+      postní k volnému výběru; od Květné neděle do Zeleného čtvrtku
+      se pak používá jen ta první.
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d4 f8 f e d e e | r d c a c( d) d r | d d d d f( e) f( g) |
+      g4 r8 f e c d d
+      \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu,
+      on byl pro nás po -- kou -- šen a za nás tr -- pěl.
+    }
+    \header {
+      piece = "1. možnost"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d8 f g g r g f g | a g f e d r r4
+      \bar "||"
+    }
+    \addlyrics {
+      O -- brať -- te se a věř -- te e -- van -- ge -- li -- u.
+    }
+    \header {
+      piece = "2. možnost"
+    }
+  }
+}
+
+\bookpart {
+  
+  \header {
+    subtitle = "Antifony - velikonoční triduum a doba velikonoční"
+  }
+  
+  \markup {
+    \justify {
+      Na Velký pátek a Bílou sobotu se žalm nebude zpívat
+      na melodii z prvních dvou stránek tohoto materiálu,
+      ale každý verš se zpívá podle následujícího schématu.
+      Flexu (+) ve verších, kde je, je možné ignorovat nebo vložit malou pomlku.
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d\breve c8 c \bar "|" d\breve \slurDashed f8( e) \parenthesize d d d
+      \bar "||"
+    }
+    \header {
+      piece = "nápěv žalmu pro Velký pátek a Bílou sobotu"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d\breve c8 c \bar "|" d\breve f8 e d d
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText #'self-alignment-X = #-1
+      "Pojďme, klaňme se Kristu, Božímu" Sy -- nu;
+      \once \override LyricText #'self-alignment-X = #-1
+      "on nás vykou" -- pil svou kr -- ví.
+    }
+    \header {
+      piece = "Velký pátek"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d\breve c8 c \bar "|" d\breve c8 a c( d) d
+      \bar "||"
+    }
+    \addlyrics {
+      \once \override LyricText #'self-alignment-X = #-1
+      "Pojďme, klaňme se Kristu, našemu" Pá -- nu;
+      \once \override LyricText #'self-alignment-X = #-1
+      "on byl pro nás umu" -- čen a po -- hřben.
+    }
+    \header {
+      piece = "Bílá sobota"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d8 c d( g) g4 r8 g | f g e( c) f e d4 | \time 2/4 d r
+      \bar "||"
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých. A -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      piece = "od slavnosti Zmrtvýchvstání Páně po celou dobu velikonoční"
+    }
+  }
+  
 }
