@@ -339,6 +339,54 @@ A -- le -- lu -- ja.
   }
 }
 
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( b) c c b c d b b \breathe c d a c b b4. \breathe
+    c4 a f( g) g4. \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
+    past -- vi -- nách. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - III.a (Žalm 23(22))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f e g4. \breathe g4 a b c b a g f( g) g4. \breathe 
+    a4 c g( a g) g4. \bar "||"
+  }
+  \addlyrics {
+    Slav -- ný je Bůh a je -- ho jmé -- no je ve -- li -- ké.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G* (Žalm 76(75) - I)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c b c4.( d) \breathe
+    d4 c c b c a g f f4.( g) \breathe
+    f4 c' b g4.( a) \bar "||"
+  }
+  \addlyrics {
+    Když Bůh po -- vstal k_sou -- du, ze -- mě se zdě -- si -- la a zmlk -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VIII.G* (Žalm 76(75) - II)"
+  }
+}
+
  
 %{
 \score {
