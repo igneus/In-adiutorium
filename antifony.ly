@@ -387,6 +387,52 @@ A -- le -- lu -- ja.
   }
 }
 
+\markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a b c a a4. b4 c d d d d c d e4. b \breathe a4 e' c( d) b4.( a)
+    \bar "||"
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky po -- dle 
+    Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d c f e f f4.( g) \breathe a4 bes a g f g g4. \breathe
+    f4 e c d4. \bar "||"
+  }
+  \addlyrics {
+    Bůh náš je na ne -- be -- sích, u -- či -- nil vše -- chno, co chtěl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - per (Žalm 115(113B))"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f f f bes c a g g4. \breathe f4 g a c c4. \breathe a4 g f f4. \bar "||"
+  }
+  \addlyrics {
+    Chval -- te Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
+    ma -- lí i vel -- cí. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VI.F (Zj 19,1-17)"
+  }
+}
  
 %{
 \score {
