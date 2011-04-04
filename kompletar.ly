@@ -112,7 +112,7 @@
   \relative c' {
     \choralniRezim
     d4 f g( a) a a g f g g \breathe
-    g g g g a a g f d4. d4. \bar "||"
+    g g g g a a g f d4 d4. \bar "||"
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,
