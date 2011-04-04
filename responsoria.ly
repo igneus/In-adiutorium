@@ -7,38 +7,6 @@
 
 \include "spolecne.ly"
 
-% vlastni tagline kvuli netypicke licenci
-\header {
-  tagline = \markup {
-    \column {
-      \line { datum: \dnesniDatum }
-      \line { vysázel: \sazeciProgram }
-      \line { licence: viz výše }
-      \line { projekt: \inAdiutorium }
-    }
-  }
-}
-
-Response = \lyricmode { 
-  \markup { 
-    \with-color ##'red { 
-      \concat { \override #'(font-name . "Festa Dies A") {R} : }
-      % \char ##x0211F :
-    }
-  }
-}
-
-Verse = \lyricmode { 
-  \markup { 
-    \with-color ##'red {
-      \concat { \override #'(font-name . "Festa Dies A") {V} : }
-    % \char ##x02123 :
-    }
-  }
-}
-
-Hvezdicka = \lyricmode { "*" }
-
 % mrtvou notu davam tam, kde je v textu znacka responsoria, verse 
 % nebo hvezdicka
 mrtvaNota = { \hideNotes a \unHideNotes }
@@ -104,27 +72,5 @@ mrtvaNota = { \hideNotes a \unHideNotes }
 
   \header {
     piece = "Responsorium breve I"
-  }
-}
-
-\markup {
-  \justify {
-    Licence: Aby svět nebyl moc jednoduchý, na tyto noty se vztahují dvě různé 
-    licence: vysázený PDF soubor je výjimečně pod licencí
-    \with-url #"http://creativecommons.org/licenses/by-nc-sa/3.0/deed.cs" { 
-      Creative Commons Attribution- \bold { NonCommercial } -ShareAlike 3.0 
-      Unported 
-    } ,
-    protože v sazbě je využit 
-    \with-url #"http://sites.google.com/site/gregorianicantus/festa-dies" {
-      font \italic { Festa Dies } od Juana Andrése Alzate Peláeze 
-    } ,
-    který se nesmí využívat komerčně.
-
-    Pro zdrojový kód ale platí podmínky benevolentnější licence
-    \with-url #"http://creativecommons.org/licenses/by-sa/3.0/deed.cs" {
-      Creative Commons Attribution-ShareAlike 3.0 Unported
-    } ,
-    stejně jako na většinu ostatních not z webu In adiutorium.
   }
 }

@@ -3,13 +3,14 @@
 
 % vypnout cisla taktu na zacatku radku
 \layout {
+  ragged-last = ##t
   \context {
     \Score
     \remove "Bar_number_engraver"
   }
 }
 
-% "tiraz"
+% "tiraz" -------------------------------------------------------
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
 sazeciProgram = \markup {        
@@ -39,10 +40,45 @@ inAdiutorium = \markup {
   }
 }
 
+% choral --------------------------------------------------------
+
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
 
+  % zvlastni tvar not
+  \override Staff.NoteHead  #'style = #'neomensural
+
   % nedelat taktove cary    
   \cadenzaOn
 }
+
+% Specialni znaky pro responsoria -------------------------------
+
+Response = \lyricmode { 
+  \markup { 
+    \with-color ##'red { 
+      \concat { \override #'(font-name . "liturgy") {R} : }
+      % \char ##x0211F :
+    }
+  }
+}
+
+Verse = \lyricmode { 
+  \markup { 
+    \with-color ##'red {
+      \concat { \override #'(font-name . "liturgy") {V} : }
+    % \char ##x02123 :
+    }
+  }
+}
+
+Hvezdicka = \lyricmode { "*" }
+
+neviditelna = #(define-music-function (parser location note)
+                                     (ly:music?)
+  #{
+    \hideNotes
+    $note
+    \unHideNotes
+  #})

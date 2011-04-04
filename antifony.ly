@@ -208,7 +208,7 @@ A -- le -- lu -- ja.
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a( c) d c4. \bar "||"    
+    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"    
   }
   \addlyrics {
     Hos -- po -- din ře -- kl mé -- mu Pá -- nu: Seď po mé pra -- vi -- ci. 
