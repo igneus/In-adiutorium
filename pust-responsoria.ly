@@ -2,7 +2,7 @@
 
 \header {
   title = "Doba postní - responsoria"
-  author = "Jakub Pavlík"
+  composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"

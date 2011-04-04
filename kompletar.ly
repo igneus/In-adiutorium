@@ -2,7 +2,7 @@
 
 \header {
   title = "Kompletář"
-  author = "Jakub Pavlík"
+  composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
