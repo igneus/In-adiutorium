@@ -42,10 +42,29 @@ mrtvaNota = { \hideNotes a \unHideNotes }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
+    \neviditelna a
+    a4 b c a f4.( g) \breathe a4 a b g f e d4. \bar "|"
+    e4 e f f a g f( e) e4. \bar "||"
     
+    \neviditelna d
+    d4( e) e4. \breathe f4 f f f g a g f e d d4. \bar "|"
+    \neviditelna e
+    e4 e f f a g f( e) e4. \bar "||" \break
+    
+    a4 a c b c a a4. \bar "|"
+    a4 b g f e e4. \bar "||"
+  }
+  \addlyrics {
+    \Response Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+    zhře -- ši -- li jsme pro -- ti to -- bě.
+
+    \Verse Kris -- te, vy -- slyš na -- še vo -- lá -- ní a od -- pusť nám,_*
+    \Response zhře -- ši -- li jsme pro -- ti to -- bě.
+    
+    Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
   }
   \header {
     piece = "neděle - nešpory"
