@@ -7,6 +7,11 @@
 
 \include "spolecne.ly"
 
+\paper {
+  % neroztahovat noty na celou stranku, ale nechat misto dole:
+  ragged-bottom = ##t 
+}
+
 % mrtvou notu davam tam, kde je v textu znacka responsoria, verse 
 % nebo hvezdicka
 mrtvaNota = { \hideNotes a \unHideNotes }
@@ -70,6 +75,8 @@ mrtvaNota = { \hideNotes a \unHideNotes }
     piece = "neděle - nešpory"
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
