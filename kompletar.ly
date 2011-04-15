@@ -7,6 +7,11 @@
 
 \include "spolecne.ly"
 
+\paper {
+  ragged-bottom=##f
+  ragged-last-bottom=##f
+}
+
 \markup {
   \justify {
     Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum} (Řím 1912;
@@ -91,6 +96,8 @@
     piece = "pondělí"
   }
 }
+
+\pageBreak % -----------------------------------------
 
 \score {
   \relative c' {
