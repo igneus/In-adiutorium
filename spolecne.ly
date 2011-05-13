@@ -46,8 +46,8 @@ choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
 
-  % zvlastni tvar not
-  \override Staff.NoteHead  #'style = #'neomensural
+  % noty bez nozicek
+  \override Stem #'transparent = ##t
 
   % nedelat taktove cary    
   \cadenzaOn
