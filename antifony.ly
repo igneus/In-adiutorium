@@ -28,6 +28,14 @@
 		     (markup #:concat cislo ".ant. - " tonus " (" odkaz ")")))
 %}
 
+
+
+% Promenne s melodii nebo textem antifony pro vicenasobne pouziti:
+%
+% pr.: t2nedele2nespAnt1noty
+% tyden / den / hodinka / antifona / "noty" nebo "text"
+
+
 \markup {\nadpisDen {Neděle 1. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -205,14 +213,21 @@ A -- le -- lu -- ja.
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
+tIInedeleIInespAntInoty = {
+  g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"
+}
+tIInedeleIInespAntItext = \lyricmode {
+  Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
+  Seď po mé pra -- vi -- ci. A -- le -- lu -- ja.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"    
+    \tIInedeleIInespAntInoty
   }
   \addlyrics {
-    Hos -- po -- din ře -- kl mé -- mu Pá -- nu: Seď po mé pra -- vi -- ci. 
-A -- le -- lu -- ja.
+    \tIInedeleIInespAntItext
   }
   \header {
     piece = "1. ant. - VII.c2 (Žalm 110(109),1-5.7)"
@@ -232,13 +247,20 @@ A -- le -- lu -- ja.
   }
 }
 
+
+tIInedeleIInespAntIIInoty = {
+  a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
+}
+tIInedeleIInespAntIIItext = \lyricmode {
+  Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+}
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
+    \tIInedeleIInespAntIIInoty
   }
   \addlyrics {
-    Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+    \tIInedeleIInespAntIIItext
   }
   \header {
     piece = "3. ant. - VI.F (srov. Zj 19,1-7)"
@@ -433,7 +455,144 @@ A -- le -- lu -- ja.
     piece = "3. ant. - VI.F (Zj 19,1-17)"
   }
 }
+
+\markup {\nadpisDen {Neděle 3. týdne}}
+
+\markup {\nadpisHodinka {"1. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 bes g a f g e d f g4. \breathe a4 bes g( a) a4. \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - I.a (Žalm 93(92))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a d d \breathe c d e c4. a b4( c) a a4. \breathe
+    g4 c( b) g a4. \bar "||"
+  }
+  \addlyrics {
+    Ve -- le -- be -- ný jsi, Pa -- ne,
+    a pl -- ný slá -- vy na -- vě -- ky. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G (Dan 3,57-88)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) a4.( c) d4 d c( d) a \breathe c4( b) a \breathe
+    b4 c a a \bar "||"
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VII.a (Žalm 148)"
+  }
+}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup { \huge {antifony pro ranní chvály chybí} }
+
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d d d e d c b4. \breathe g4 c b a4. g \breathe a4 b g4. g \bar "||"
+  }
+  \addlyrics {
+    V_sou -- že -- ní jsem vo -- lal Hos -- po -- di -- na
+    a vy -- sly -- šel mě. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "1. ant. - VIII.G (Žalm 118(117)-I)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c c b c a g a g g \breathe a4 b g4. g \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.G (Žalm 118(117)-II)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c b4. \breathe c4 d e d c( b) b4. \breathe c4 b g a4. \bar "||"
+  }
+  \addlyrics {
+    Bůh je Hos -- po -- din a do -- přál nám svět -- lo. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "3. ant. - VIII.G (Žalm 118(117)-III)"
+  }
+}
+
+\markup {\nadpisHodinka {"2. nešpory"}}
  
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tIInedeleIInespAntInoty
+  }
+  \addlyrics {
+    \tIInedeleIInespAntItext
+  }
+  \header {
+    piece = "1. ant. - VII.c2 (Žalm 110(109))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b g g a b c d e d d4. \breathe
+    c4 c c c a g a g4. \breathe a4 c d c4. \bar "||"
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    piece = "2. ant. - VIII.c (Žalm 111(110))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tIInedeleIInespAntIIInoty
+  }
+  \addlyrics {
+    \tIInedeleIInespAntIIItext
+  }
+  \header {
+    piece = "3. ant. - VI.F (Zj 19)"
+  }
+}
+
 %{
 \score {
   \relative c' {
