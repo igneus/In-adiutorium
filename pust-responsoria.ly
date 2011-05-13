@@ -12,10 +12,6 @@
   ragged-bottom = ##t 
 }
 
-% mrtvou notu davam tam, kde je v textu znacka responsoria, verse 
-% nebo hvezdicka
-mrtvaNota = { \hideNotes a \unHideNotes }
-
 \score {
   \relative c'' {
     \choralniRezim
