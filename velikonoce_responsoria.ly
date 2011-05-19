@@ -22,6 +22,7 @@ slava = { d4 d d d d c d \bar "|" d4 c a b c d \bar "||" }
 
 \score {
   \relative c'' {
+    \choralniPredznamenaniII "VII" "Resp."
     \choralniRezim
     
     % R
@@ -46,12 +47,13 @@ slava = { d4 d d d d c d \bar "|" d4 c a b c d \bar "||" }
     \slavaRespText
   }
   \header {
-    piece = "pondělí až sobota - ranní chvály (ton. VII)"
+    piece = "pondělí až sobota - ranní chvály"
   }
 }
 
 \score {
   \relative c'' {
+    \choralniPredznamenaniII "VII" "Resp."
     \choralniRezim
     
     %R
@@ -76,7 +78,7 @@ slava = { d4 d d d d c d \bar "|" d4 c a b c d \bar "||" }
     \slavaRespText
   }
   \header {
-    piece = "pondělí až první nešpory neděle - nešpory (ton. VII)"
+    piece = "pondělí až první nešpory neděle - nešpory"
   }
 }
 
@@ -86,6 +88,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 
 \score {
   \relative c'' {
+    \choralniPredznamenaniII "VII" "Resp."
     \choralniRezim
     
     %R
@@ -112,21 +115,25 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
     \slavaRespText
   }
   \header {
-    piece = "neděle - ranní chvály (ton. VII)"
+    piece = "neděle - ranní chvály"
   }
 }
 
 \score {
   \relative c'' {
+    \choralniPredznamenaniII "VII" "Resp."
     \choralniRezim
     
     %R
-    d4. a a b c4.( d) \bar "|"
-    \alelResp
+    \neviditelna d
+    d4. a4 a b c4.( d) \bar "|"
+    \alelResp \bar "||"
     
     %V
+    \neviditelna f
     f4 d d d c d d \bar "|"
-    \alelResp
+    \neviditelna d
+    \alelResp \bar "||"
     
     \slava
   }
@@ -138,7 +145,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
     \slavaRespText
   }
   \header {
-    piece = "neděle - druhé nešpory (ton. VII)"
+    piece = "neděle - druhé nešpory"
   }
 }
 
