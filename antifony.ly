@@ -460,6 +460,10 @@ tIInedeleIInespAntIIItext = \lyricmode {
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup { \huge {antifony pro 1. nešpory chybí} }
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -502,10 +506,6 @@ tIInedeleIInespAntIIItext = \lyricmode {
     piece = "3. ant. - VII.a (Žalm 148)"
   }
 }
-
-\markup {\nadpisHodinka {"ranní chvály"}}
-
-\markup { \huge {antifony pro ranní chvály chybí} }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
