@@ -53,6 +53,24 @@ choralniRezim = {
   \cadenzaOn
 }
 
+choralniPredznamenaniIII = 
+#(define-music-function (parser location tonus co odkaz )
+                        (string? string? string?)
+  #{
+    \set Staff.instrumentName = \markup {
+      \column { \bold { $tonus } $co \tiny { \italic $odkaz } }
+    }
+  #})
+
+choralniPredznamenaniII = 
+#(define-music-function (parser location tonus co )
+                        (string? string?)
+  #{
+    \set Staff.instrumentName = \markup {
+      \column { \bold { $tonus } $co }
+    }
+  #})
+
 % Specialni znaky pro responsoria -------------------------------
 
 Response = \lyricmode { 
