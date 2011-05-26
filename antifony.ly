@@ -88,31 +88,42 @@ aFlatKey = {
   \set Staff.keySignature = #`(((0 . 5) . ,FLAT))
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
+tInedeleInespAntIIItext = \lyricmode {
+  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+  po -- vý -- šil na -- vě -- ky.
+}
+
+tInedeleInespAntIIInotyBulhar = {
     \aFlatKey
 
     g4 g g g f e e4. \breathe
     g4 g g g g g g f g as g g4. \bar "||"
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tInedeleInespAntIIInotyBulhar
   }
   \addlyrics {
-    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-    po -- vý -- šil na -- vě -- ky.
+    \tInedeleInespAntIIItext
   }
   \header {
     piece = "3. ant. - zvláštní nápěv (kantikum Flp 2, 6-11)"
   }
 }
 
+tInedeleInespAntIIInotyChoral = {
+    c4 d a g a g g \breathe g f g g a a4.( g4.) a4 d c d a g4. \bar "||"
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d a g a g g \breathe g f g g a a4.( g4.) a4 d c d a g4. \bar "||"
+    \tInedeleInespAntIIInotyChoral
   }
   \addlyrics {
-    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-    po -- vý -- šil na -- vě -- ky.
+    \tInedeleInespAntIIItext
   }
   \header {
     piece = "3. ant. - VIII.G (kantikum Flp 2,6-11)"
@@ -267,6 +278,7 @@ tIInedeleIInespAntIIItext = \lyricmode {
   }
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \markup {\nadpisDen {Neděle 2. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -299,17 +311,23 @@ tIInedeleIInespAntIIItext = \lyricmode {
   }
 }
 
+tIInedeleInespAntIIInoty = {
+    \aFlatKey
+    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
+}
+
+tIInedeleInespAntIIItext = \lyricmode {
+  Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
+    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-
-    \aFlatKey
-
-    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
+    \tIInedeleInespAntIIInoty
   }
   \addlyrics {
-    Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
-    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+    \tIInedeleInespAntIIItext
   }
   \header {
     piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
@@ -456,11 +474,69 @@ tIInedeleIInespAntIIItext = \lyricmode {
   }
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \markup {\nadpisDen {Neděle 3. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-\markup { \huge {antifony pro 1. nešpory chybí} }
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c g g f( d) d4. \breathe
+    f4 f a c g4. g \breathe
+    f4 e( f) d d \breathe
+    a' g f g a f4. f \bar "||"
+  }
+  \addlyrics {
+    Od vý -- cho -- du slun -- ce až na je -- ho zá -- pad
+    buď chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+  }
+  \header {
+    piece = "1. ant. - V.F (Žalm 113(112))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g f d4. c \breathe
+    e4 f g a4. g \breathe
+    a4 a g f e( f) d d \bar "||"
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
+    jmé -- no Hos -- po -- di -- no -- vo.
+  }
+  \header {
+    piece = "2. ant. - I.D (Žalm 116(115))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tInedeleInespAntIIInotyBulhar
+  }
+  \addlyrics {
+    \tInedeleInespAntIIItext
+  }
+  \header {
+    piece = "3. ant. - zvláštní nápěv - viz noty v sekci Kantika z nešpor (kantikum Flp 2, 6-11)"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tInedeleInespAntIIInotyChoral
+  }
+  \addlyrics {
+    \tInedeleInespAntIIItext
+  }
+  \header {
+    piece = "3. ant. - VIII.G (kantikum Flp 2,6-11)"
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -592,6 +668,60 @@ tIInedeleIInespAntIIItext = \lyricmode {
     piece = "3. ant. - VI.F (Zj 19)"
   }
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\markup {\nadpisDen {Neděle 4. týdne}}
+
+\markup {\nadpisHodinka {"1. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g( a) a \breathe a a a c g f( e) d4. \bar "||"
+  }
+  \addlyrics {
+    Vy -- pro -- šuj -- te Je -- ru -- za -- lé -- mu po -- koj.
+  }
+  \header {
+    piece = "1. ant. - per (Žalm 122(121))"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d4. d \breathe
+    f4 g a f g \breathe
+    a4 g f e d c d4. d \bar "||"
+  }
+  \addlyrics {
+    Od čas -- né -- ho rá -- na až do noč -- ní tmy 
+    če -- ká má du -- še na Pá -- na.
+  }
+  \header {
+    piece = "2. ant. - II.D (Žalm 130(129))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \tIInedeleInespAntIIInoty
+  }
+  \addlyrics {
+    \tIInedeleInespAntIIItext
+  }
+  \header {
+    piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
+  }
+}
+
+%{
+\markup {\nadpisHodinka {"1. nešpory"}}
+\markup {\nadpisHodinka {"ranní chvály"}}
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\markup {\nadpisHodinka {"2. nešpory"}}
+%}
 
 %{
 \score {
