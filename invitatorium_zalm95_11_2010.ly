@@ -773,4 +773,42 @@
     }
   }
   
+  \score {
+    \relative c' {
+      \key f \major
+      d4 d8 d f g a a
+      r8 c c c a a r4
+      r8 a g a f d d r8
+      \time 2/4
+      a' f e d \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on vstou -- pil do ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      piece = "slavnost Nanebevstoupení Páně"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d4 d8 d f g a a
+      r8 bes a g a a r4
+      f8 g a a bes c a g
+      \time 3/4
+      g r f e d d \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      piece = "od slavnosti Nanebevstoupení Páně do předvečera slavnosti Seslání Ducha svatého"
+    }
+  }
+  
 }
