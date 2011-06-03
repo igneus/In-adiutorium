@@ -30,28 +30,22 @@
   }
 }
 
-tIInedeleInespAntIIInoty = {
-    \aFlatKey
-    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
-}
-
-tIInedeleInespAntIIItext = \lyricmode {
-  Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
-    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
-}
-
-\score {
+tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    \tIInedeleInespAntIIInoty
+    \aFlatKey
+    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
   }
   \addlyrics {
-    \tIInedeleInespAntIIItext
+    Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
+    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
   }
   \header {
     piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
   }
 }
+
+\score { \tIInedeleInespAntIII }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

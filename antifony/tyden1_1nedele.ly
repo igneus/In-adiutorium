@@ -179,26 +179,21 @@ A -- le -- lu -- ja.
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
-tIInedeleIInespAntInoty = {
-  g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"
-}
-tIInedeleIInespAntItext = \lyricmode {
-  Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
-  Seď po mé pra -- vi -- ci. A -- le -- lu -- ja.
-}
-
-\score {
+tInedeleIInespAntI = \score {
   \relative c'' {
     \choralniRezim
-    \tIInedeleIInespAntInoty
+    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"
   }
   \addlyrics {
-    \tIInedeleIInespAntItext
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
+    Seď po mé pra -- vi -- ci. A -- le -- lu -- ja.
   }
   \header {
     piece = "1. ant. - VII.c2 (Žalm 110(109),1-5.7)"
   }
 }
+
+\score { \tInedeleIInespAntI }
 
 \score {
   \relative c'' {
@@ -213,22 +208,17 @@ tIInedeleIInespAntItext = \lyricmode {
   }
 }
 
-
-tIInedeleIInespAntIIInoty = {
-  a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
-}
-tIInedeleIInespAntIIItext = \lyricmode {
-  Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
-}
-\score {
+tInedeleIInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    \tIInedeleIInespAntIIInoty
+    a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
   }
   \addlyrics {
-    \tIInedeleIInespAntIIItext
+    Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
   }
   \header {
     piece = "3. ant. - VI.F (srov. Zj 19,1-7)"
   }
 }
+
+\score { \tInedeleIInespAntIII }

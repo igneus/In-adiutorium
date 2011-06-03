@@ -128,19 +128,8 @@
 }
 
 \markup {\nadpisHodinka {"2. nešpory"}}
- 
-\score {
-  \relative c'' {
-    \choralniRezim
-    \tIInedeleIInespAntInoty
-  }
-  \addlyrics {
-    \tIInedeleIInespAntItext
-  }
-  \header {
-    piece = "1. ant. - VII.c2 (Žalm 110(109))"
-  }
-}
+
+\score { \tInedeleIInespAntI }
 
 \score {
   \relative c'' {
@@ -157,15 +146,4 @@
   }
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
-    \tIInedeleIInespAntIIInoty
-  }
-  \addlyrics {
-    \tIInedeleIInespAntIIItext
-  }
-  \header {
-    piece = "3. ant. - VI.F (Zj 19)"
-  }
-}
+\score { \tInedeleIInespAntIII }

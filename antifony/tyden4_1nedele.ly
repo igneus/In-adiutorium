@@ -31,19 +31,7 @@
   }
 }
 
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    \tIInedeleInespAntIIInoty
-  }
-  \addlyrics {
-    \tIInedeleInespAntIIItext
-  }
-  \header {
-    piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
-  }
-}
+\score { \tIInedeleInespAntIII }
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
