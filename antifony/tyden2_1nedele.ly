@@ -173,7 +173,7 @@ tIInedeleInespAntIII = \score {
   }
 }
 
-\score {
+tIInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
     f4 f f f f f bes c a g g4. \breathe f4 g a c c4. \breathe a4 g f f4. \bar "||"
@@ -186,3 +186,5 @@ tIInedeleInespAntIII = \score {
     piece = "3. ant. - VI.F (Zj 19,1-17)"
   }
 }
+
+\score { \tIInedeleIInespAntIII }

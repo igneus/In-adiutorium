@@ -42,6 +42,13 @@
 \include "antifony/tyden4_1nedele.ly"
 
 %{
+\markup {\nadpisHodinka {"1. nešpory"}}
+\markup {\nadpisHodinka {"ranní chvály"}}
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\markup {\nadpisHodinka {"2. nešpory"}}
+%}
+
+%{
 \score {
   \relative c' {
     \choralniRezim
