@@ -88,7 +88,7 @@ tIInedeleInespAntIII = \score {
     ve -- leb -- nost. A -- le -- lu -- ja.
   }
   \header {
-    piece = ""
+    piece = "3. ant. - VI.F (Žalm 150)"
   }
 }
 
