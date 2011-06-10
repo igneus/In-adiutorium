@@ -33,6 +33,8 @@
 
 \score { \tIInedeleInespAntIII }
 
+\score { \tIInedeleInespResp }
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -86,6 +88,8 @@
     piece = "3. ant. - I.f (Žalm 150)"
   }
 }
+
+\score { \tIInedeleLaudResp }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -176,3 +180,5 @@
 }
 
 \score { \tIInedeleIInespAntIII }
+
+\score { \tIInedeleIInespResp }
