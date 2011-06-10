@@ -61,4 +61,30 @@
     piece = ""
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna
+    
+    % V
+    \neviditelna
+    
+    % R
+    \neviditelna
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response
+    \Verse
+    \Response
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - "
+  }
+}
 %}

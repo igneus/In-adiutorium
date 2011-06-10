@@ -85,6 +85,39 @@ tInedeleInespAntIIIchoral = \score {
 
 \score { \tInedeleInespAntIIIchoral }
 
+tInedeleInespResp = \score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    a4 f( g) a a a a a f e d d \bar "|"
+    d d d f g a a a \bar "||"
+    
+    % V
+    \neviditelna c
+    c4 c c a a f e d d \bar "|"
+    % R
+    \neviditelna d
+    d d d f g a a a \bar "||"
+    
+    % Slava
+    c4 c d c d a a \breathe a f e d d d \bar "||"
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - I"
+  }
+}
+
+\score { \tInedeleInespResp }
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -131,6 +164,41 @@ tInedeleInespAntIIIchoral = \score {
     piece = "3. ant. - VII.a (Žalm 149)"
   }
 }
+
+% krome verse stejne (text i melodie) jako ranni chvaly nedeli 
+% v dobe postni: (neni na zadny greg. tonus)
+
+tInedeleLaudResp = \score {
+  \relative c'' {
+    \choralniRezim
+    
+    \neviditelna a
+    a4( c) b a a g f g( a) f( e) d4. \bar "|"
+    e4 g a f e4. e \bar "||"
+    
+    \neviditelna d
+    d4 d d a' a c c b c a( f) e4.( d) \bar "|"
+    \neviditelna e
+    e4 g a f e4. e \bar "||"
+    
+    a4 a c b c a a4 \breathe
+    a4 b g f e e4 \bar "||"
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
+    \Response smi -- luj se nad ná -- mi.
+
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium"
+  }
+}
+
+\score { \tInedeleLaudResp }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -222,3 +290,36 @@ tInedeleIInespAntIII = \score {
 }
 
 \score { \tInedeleIInespAntIII }
+
+tInedeleIInespResp = \score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 g a a a a a c c c a( g) a \bar "|"
+    a4 b c a( g) g g f g a f e d d \bar "||"
+    
+    % V
+    \neviditelna a
+    a'4 f( g) a( c) c4. b4 c d c b c a4. a \bar "|"
+    % R
+    \neviditelna a
+    a4 b c a( g) g g f g a f e d d \bar "||"
+    
+    % Slava
+    a'4 a a a a g a \breathe a f e f d d \bar "||"
+  }
+  \addlyrics {
+    \Response Po -- že -- hna -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
+    Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+    \Verse Po -- že -- hna -- né je tvé slav -- né sva -- té jmé -- no.
+    \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - I"
+  }
+}
+
+\score { \tInedeleIInespResp }
