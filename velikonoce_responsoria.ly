@@ -13,9 +13,6 @@
 }
 
 dvaleluja = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-slavaRespText = \lyricmode {
-  Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
-}
 
 alelResp = { d4 c d a b c d4. d }
 slava = { d4 d d d d c d \bar "|" d4 c a b c d \bar "||" }
