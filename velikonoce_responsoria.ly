@@ -19,6 +19,7 @@ slavaRespText = \lyricmode {
 
 alelResp = { d4 c d a b c d4. d }
 slava = { d4 d d d d c d \bar "|" d4 c a b c d \bar "||" }
+slavaDelsi = { a4 a g( a) a \breathe a c( a) a \breathe a g a b( c) a4. a }
 
 alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 
@@ -40,7 +41,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
     \alelRespDelsi \bar "||"
     
     % Slava
-    a4 a g( a) a \breathe a c( a) a \breathe a g a b( c) a4. a \bar "||"
+    \slavaDelsi \bar "||"
   }
   \addlyrics {
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,
@@ -82,6 +83,40 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
   }
   \header {
     piece = "neděle - druhé nešpory"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniPredznamenaniII "VII" "Resp."
+    \choralniRezim
+    
+    % R
+    \neviditelna d
+    d4 a a a b( c) d4. \breathe
+    d4 c a g a4.( b4 c) a a \bar "|"
+    \alelRespDelsi \bar "||"
+    
+    % V
+    \neviditelna d
+    d4 c( d) a( g) f g a a \breathe
+    a4 b c a a \bar "|"
+    % R
+    \neviditelna a
+    \alelRespDelsi \bar "||"
+    
+    \slavaDelsi \bar "||"
+  }
+  \addlyrics {
+    \Response Pří -- mluv -- ce, Duch sva -- tý, ten vás na -- u -- čí
+    vše -- mu._*
+    \dvaleluja
+    \Verse Při -- po -- me -- ne vám vše -- chno, co jsem vám ře -- kl._*
+    \Response \dvaleluja
+    \slavaRespText
+  }
+  \header {
+    piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle)"
   }
 }
 
