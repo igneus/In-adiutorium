@@ -53,6 +53,45 @@ choralniRezim = {
   \cadenzaOn
 }
 
+% Nasledujici zvlastni choralni rezimy umoznuji hybridni notaci:
+% moderni noty ve ctyrradkove osnove s choralnim klicem
+
+choralniRezimCI = {
+  \choralniRezim
+  
+  % osnova ma jen ctyri linky a ty jsou jinak umistene nez v moderni
+  % notaci: linka neprochazi notou h (0), ale c (1)
+  \override Staff.StaffSymbol #'line-positions = #'(-5 -3 -1 1)
+
+  % choralni klic c
+  \set Staff.clefGlyph = #"clefs.vaticana.do"
+  \set Staff.clefPosition = #1
+}
+
+choralniRezimCII = {
+  \choralniRezim
+  
+  \override Staff.StaffSymbol #'line-positions = #'(-3 -1 1 3)
+  \set Staff.clefGlyph = #"clefs.vaticana.do"
+  \set Staff.clefPosition = #1
+}
+
+choralniRezimCIII = {
+  \choralniRezim
+  
+  \override Staff.StaffSymbol #'line-positions = #'(-1 1 3 5)
+  \set Staff.clefGlyph = #"clefs.vaticana.do"
+  \set Staff.clefPosition = #1
+}
+
+choralniRezimCIV = {
+  \choralniRezim
+  
+  \override Staff.StaffSymbol #'line-positions = #'(1 3 5 7)
+  \set Staff.clefGlyph = #"clefs.vaticana.do"
+  \set Staff.clefPosition = #1
+}
+
 choralniPredznamenaniIII = 
 #(define-music-function (parser location tonus co odkaz )
                         (string? string? string?)
