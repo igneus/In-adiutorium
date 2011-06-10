@@ -101,6 +101,7 @@ neviditelna = #(define-music-function (parser location note)
     \hideNotes
     $note
     \unHideNotes
+    \override Stem #'transparent = ##t
   #})
 
 % text "Slava Otci" pro responsoria
