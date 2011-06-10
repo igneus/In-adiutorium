@@ -23,7 +23,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniPredznamenaniII "VII" "Resp."
-    \choralniRezim
+    \choralniRezimCII
     
     %R
     \neviditelna a
@@ -56,7 +56,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniPredznamenaniII "VII" "Resp."
-    \choralniRezim
+    \choralniRezimCII
     
     %R
     \neviditelna d
@@ -86,7 +86,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniPredznamenaniII "VII" "Resp."
-    \choralniRezim
+    \choralniRezimCII
     
     % R
     \neviditelna d
@@ -122,7 +122,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniPredznamenaniII "VII" "Resp."
-    \choralniRezim
+    \choralniRezimCII
     
     % R
     \neviditelna d
@@ -153,7 +153,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \breathe c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniPredznamenaniII "VII" "Resp."
-    \choralniRezim
+    \choralniRezimCII
     
     %R
     \neviditelna d 
