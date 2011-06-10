@@ -93,6 +93,8 @@ Verse = \lyricmode {
 
 Hvezdicka = \lyricmode { "*" }
 
+% prikay pro vyrobu neviditelnych not
+
 neviditelna = #(define-music-function (parser location note)
                                      (ly:music?)
   #{
@@ -100,3 +102,9 @@ neviditelna = #(define-music-function (parser location note)
     $note
     \unHideNotes
   #})
+
+% text "Slava Otci" pro responsoria
+
+slavaRespText = \lyricmode {
+  Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
+}
