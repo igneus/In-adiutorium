@@ -23,7 +23,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     
     f\breve f4-| \parenthesize d d4. \breathe \mark "+"
     f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
@@ -36,7 +36,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
 
     d4 f f g g f d d \breathe e f d c( d) d \bar "||"
   }
@@ -50,7 +50,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 a( c) d( e) d d4. \breathe
     f4 e f e c d d4. \bar "||"
   }
@@ -64,7 +64,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4( f d) c( d) e( f) f \breathe
     g( f) e d f e d \bar "|"
     f e( c) d e f \breathe
@@ -81,7 +81,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     f4 f e f g f d d4. \breathe
     c4 a( c) d f e c d4. \bar "||"
   }
@@ -97,7 +97,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     a4 c( d) d \breathe
     e f e d( c) a4. \breathe
     f'4 f e d( c) d4. \bar "||"
@@ -113,7 +113,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 f g( a) a a g f g g \breathe
     g g g g a a g f d4 d4. \bar "||"
   }
@@ -128,7 +128,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 c( d) e f g f e f d d \bar "||"
   }
   \addlyrics {
@@ -141,7 +141,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 f( g) e4.( d) c4 f( e) c d d4. \bar "||"
   }
   \addlyrics {
@@ -154,7 +154,7 @@
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 d \breathe
     d d c d f a g f( e) d4. \bar "||"
   }
