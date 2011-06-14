@@ -92,6 +92,14 @@ choralniRezimCIV = {
   \set Staff.clefPosition = #1
 }
 
+choralniRezimFII = {
+  \choralniRezim
+  
+  \override Staff.StaffSymbol #'line-positions = #'(-7 -5 -3 -1)
+  \set Staff.clefGlyph = #"clefs.vaticana.fa"
+  \set Staff.clefPosition = #-3
+}
+
 choralniPredznamenaniIII = 
 #(define-music-function (parser location tonus co odkaz )
                         (string? string? string?)
