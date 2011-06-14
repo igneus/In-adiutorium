@@ -811,4 +811,22 @@
     }
   }
   
+  \score {
+    \relative c' {
+      \key f \major
+      r8 d d4. e8 f g
+      a bes a g a r r4
+      c4 bes a8 g f( g)
+      a8 r f e d4 d
+      \bar "||"
+    }
+    \addlyrics {
+      Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět;
+      pojď -- me, kla -- něj -- me se, a -- le -- lu -- ja!
+    }
+    \header {
+      piece = "slavnost Seslání Ducha svatého"
+    }
+  }
+  
 }
