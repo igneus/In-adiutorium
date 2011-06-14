@@ -100,7 +100,7 @@
     \choralniRezim
     a4 c( d) d \breathe
     e f e d( c) a4. \breathe
-    f'4 f e d( c) d4.
+    f'4 f e d( c) d4. \bar "||"
   }
   \addlyrics {
     Ne -- skrý -- vej pře -- de mnou svou tvář,
