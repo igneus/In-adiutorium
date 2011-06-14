@@ -38,6 +38,7 @@
 
 \include "antifony/tyden1_1nedele.ly"
 \include "antifony/tyden1_2pondeli.ly"
+\include "antifony/tyden1_3utery.ly"
 \include "antifony/tyden2_1nedele.ly"
 \include "antifony/tyden3_1nedele.ly"
 \include "antifony/tyden4_1nedele.ly"
