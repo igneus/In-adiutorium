@@ -1,7 +1,7 @@
 \version "2.12.3"
 
 \header {
-  title = "Antifony ze žaltáře"
+  title = "Antifony ze žaltáře - neděle"
   composer = "Jakub Pavlík"
 }
 

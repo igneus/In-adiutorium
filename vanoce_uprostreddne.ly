@@ -21,13 +21,10 @@
 
 \score {
   \relative c'  {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
-    
-    \cadenzaOn
     
     \new StaffGroup {
       \new Staff {
+        \choralniRezim
         c\breve d4 c4. 
         \breathe \mark "+"
         c\breve e4 g f \parenthesize e e4. 
@@ -40,6 +37,7 @@
         \new Staff {
           % neviditelny klic
           \override Staff.Clef #'stencil = ##f
+          \choralniRezim
           
           e4^\markup{\tiny {2.}} d \parenthesize c c4. 
         }
@@ -47,6 +45,7 @@
         \new Staff {
           % neviditelny klic
           \override Staff.Clef #'stencil = ##f
+          \choralniRezim
           
           g'4^\markup{\tiny {3.}} a \parenthesize g g4. 
         }
@@ -63,10 +62,7 @@
 
 \score {
   \relative c''  {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
-    
-    \cadenzaOn
+    \choralniRezim
     
     g4 f( g) g g g f( e) f e c d \bar "|"
     d d d f g a g f g g \bar "|"
@@ -94,15 +90,12 @@
 }
 \score {
   \relative c''  {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
+    \choralniRezim
     
-    \cadenzaOn
-    
-    \hideNotes g \unHideNotes %skryta nota pro uvodni "V:"
+    \neviditelna g %skryta nota pro uvodni "V:"
     g\breve a4 g \breathe g f( g) g( a) a4. \bar "|"
     
-    \hideNotes g \unHideNotes
+    \neviditelna g
     a\breve g4 a \breathe
     
     % ruzne varianty zaverecneho aleluja:
@@ -110,10 +103,12 @@
       { a g( a) b( c a g) a4. \bar "||" }
       \new Staff {
         \override Staff.Clef #'stencil = ##f
+        \choralniRezim
         a4 g( a) c( d a g) a4.
       }
       \new Staff {
         \override Staff.Clef #'stencil = ##f
+        \choralniRezim
         a4 g( a) c( d c b) a4.
       }
     >>
@@ -135,10 +130,7 @@
 
 \score {
   \relative c'  {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
-    
-    \cadenzaOn
+    \choralniRezim
     
     c4 d e e4. \breathe e4 e f g a( g) g4. \bar "|"
     g4 g g g g g f( e) c d4. \bar "|"

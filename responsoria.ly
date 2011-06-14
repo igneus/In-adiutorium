@@ -9,17 +9,18 @@
 
 % mrtvou notu davam tam, kde je v textu znacka responsoria, verse 
 % nebo hvezdicka
-mrtvaNota = { \hideNotes a \unHideNotes }
+mrtvaNota = { \neviditelna a }
 
 \score {
   <<
-  \relative c' {
+  \relative c'' {
     \key f \major
     \choralniRezim
 
     % R
     \new Voice = "respa1" {
-      \mrtvaNota f'4 \parenthesize e d d\breve f4 g \parenthesize a a4.
+      \choralniRezim
+      \mrtvaNota f4 \parenthesize e d d\breve f4 g \parenthesize a a4.
     }
 
     \new Voice = "hvezda1" {
@@ -27,11 +28,13 @@ mrtvaNota = { \hideNotes a \unHideNotes }
     }
 
     \new Voice = "respa2" {
+      \choralniRezim
       bes\breve a4 g \parenthesize a a4. \bar "||" \break
     }
 
     % V
     \new Voice = "vers" {
+      \choralniRezim
       \mrtvaNota bes\breve c4 bes a \parenthesize g g4.
     }
 
@@ -41,12 +44,14 @@ mrtvaNota = { \hideNotes a \unHideNotes }
 
     % R
     \new Voice = "respb" {
+      \choralniRezim
       \mrtvaNota bes\breve a4 g \parenthesize a a4. \bar "||" \break
     }
 
     % Slava
     \new Voice = "slava" {
-      bes4 bes a( bes) c bes a g4. \mrtvaNota \bar "|"
+      \choralniRezim
+      bes4 bes a( bes) c bes a g4.
       bes4 a f g bes a4. \bar "||"
     }
   }
@@ -66,7 +71,7 @@ mrtvaNota = { \hideNotes a \unHideNotes }
     \Response
   }
   \new Lyrics \lyricsto slava \lyricmode {
-    Slá -- va Ot -- ci i Sy -- nu \Hvezdicka i Du -- chu sva -- té -- mu.
+    Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
   }
   >>
 

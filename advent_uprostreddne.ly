@@ -40,10 +40,7 @@
 
 \score {
   \relative c'  {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
-    
-    \cadenzaOn
+    \choralniRezim
     
     d\breve
     \breathe \mark "+" 
@@ -60,14 +57,11 @@
 
 \score {
   \relative c' {
-    % nepsat predznamenani tempa (neni tempo)
-    \override Score.TimeSignature #'stencil = ##f
+    \choralniRezim
     
-    \cadenzaOn
-    
-    d4 f( d) d \breathe
-    d e f g( f) e \bar "|"
-    d c( d) d \bar "|"
+    d4 f( d) d
+    d e f g( f) e \breathe
+    d c( d) d \breathe
     d d c d d f e c d d \bar "|."
   }
   \addlyrics {
