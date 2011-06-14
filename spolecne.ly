@@ -46,8 +46,8 @@ choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
 
-  % zvlastni tvar not
-  \override Staff.NoteHead  #'style = #'neomensural
+  % noty bez nozicek
+  \override Stem #'transparent = ##t
 
   % nedelat taktove cary    
   \cadenzaOn
@@ -98,9 +98,10 @@ Hvezdicka = \lyricmode { "*" }
 neviditelna = #(define-music-function (parser location note)
                                      (ly:music?)
   #{
-    \hideNotes
+    \once \override NoteHead #'transparent = ##t
+    \once \override Stem #'transparent = ##t
+    \once \override Dots #'transparent = ##t
     $note
-    \unHideNotes
   #})
 
 % text "Slava Otci" pro responsoria
