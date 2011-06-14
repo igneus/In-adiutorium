@@ -38,11 +38,7 @@
   \relative c' {
     \choralniRezim
 
-    % h bude mit nozicku nahoru - jinak se tu totiz prekryva becko s ligaturou
-    \override Stem #'neutral-direction = #up
-
-    d4 f g a a( bes) g bes a4. \breathe
-    a4 g f e( f) d4. \bar "||"
+    d4 f f g g f d d \breathe e f d c( d) d \bar "||"
   }
   \addlyrics {
     Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
@@ -86,11 +82,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f e d e( f) f4. \breathe
-    g4 a( c) b a g e f4. \bar "||"
+    f4 f e f g f d d4. \breathe
+    c4 a( c) d f e c d4. \bar "||"
   }
   \addlyrics {
-    Bo -- že, tys sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
+    Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
     piece = "pondělí"
@@ -102,9 +98,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    g'4( f) d( c) c \breathe
-    b c d e( f) d \breathe
-    e f f d d4. \bar "||"
+    a4 c( d) d \breathe
+    e f e d( c) a4. \breathe
+    f'4 f e d( c) d4.
   }
   \addlyrics {
     Ne -- skrý -- vej pře -- de mnou svou tvář,
