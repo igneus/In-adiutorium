@@ -32,9 +32,11 @@
 
 tIInedeleInespAntIII = \score {
   \relative c'' {
-    \choralniRezim
+    \override Score.TimeSignature #'stencil = ##f
+    \cadenzaOn
+    
     \aFlatKey
-    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g \bar "||"
+    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g2 \bar "||"
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé

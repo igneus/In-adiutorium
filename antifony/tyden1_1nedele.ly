@@ -52,11 +52,13 @@ aFlatKey = {
 
 tInedeleInespAntIIIbulhar = \score {
   \relative c'' {
-    \choralniRezim
+    \override Score.TimeSignature #'stencil = ##f
+    \cadenzaOn
+    
     \aFlatKey
 
-    g4 g g g f e e4. \breathe
-    g4 g g g g g g f g as g g4. \bar "||"
+    g4 g g g f e e2 \breathe
+    g4 g g g g g g f g as g g2 \bar "||"
   }
   \addlyrics {
     Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
