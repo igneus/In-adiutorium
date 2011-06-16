@@ -66,6 +66,8 @@ choralniRezimCI = {
   % choralni klic c
   \set Staff.clefGlyph = #"clefs.vaticana.do"
   \set Staff.clefPosition = #1
+  
+  \override BreathingSign #'Y-offset = #0.5
 }
 
 choralniRezimCII = {
@@ -98,6 +100,8 @@ choralniRezimFII = {
   \override Staff.StaffSymbol #'line-positions = #'(-7 -5 -3 -1)
   \set Staff.clefGlyph = #"clefs.vaticana.fa"
   \set Staff.clefPosition = #-3
+  
+  \override BreathingSign #'Y-offset = #-0.5
 }
 
 choralniPredznamenaniIII = 
