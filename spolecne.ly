@@ -98,9 +98,10 @@ Hvezdicka = \lyricmode { "*" }
 neviditelna = #(define-music-function (parser location note)
                                      (ly:music?)
   #{
-    \once \override NoteHead #'transparent = ##t
-    \once \override Stem #'transparent = ##t
-    \once \override Dots #'transparent = ##t
+    \once \override NoteHead #'transparent = ##t % hlavicka
+    \once \override Stem #'transparent = ##t % nozicka
+    \once \override Dots #'transparent = ##t % prip. prodluzujici tecka
+    \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
 
