@@ -23,7 +23,7 @@ al = \lyricmode { A -- le -- lu -- ja. }
 alal = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
 \relative c'  {
-\choralniRezim
+\choralniRezimCI
 % Vitezstvi..
 f f f f f f f f f e g a
 \mal

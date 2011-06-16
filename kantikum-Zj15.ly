@@ -9,7 +9,7 @@
 
 \relative c''  {
   \key f \major
-  \choralniRezim
+  \choralniRezimCI
   
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
