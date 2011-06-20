@@ -31,7 +31,7 @@
     jmé -- no Hos -- po -- di -- no -- vo.
   }
   \header {
-    piece = "2. ant. - I.D (Žalm 116(115))"
+    piece = "2. ant. - I.a2 (Žalm 116(115))"
   }
 }
 
@@ -114,7 +114,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Žalm 118(117)-II)"
+    piece = "2. ant. - VIII.c (Žalm 118(117)-II)"
   }
 }
 
@@ -127,7 +127,7 @@
     Bůh je Hos -- po -- din a do -- přál nám svět -- lo. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.G (Žalm 118(117)-III)"
+    piece = "3. ant. - VIII.c (Žalm 118(117)-III)"
   }
 }
 
@@ -146,7 +146,7 @@
     o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c (Žalm 111(110))"
+    piece = "2. ant. - VIII.G (Žalm 111(110))"
   }
 }
 

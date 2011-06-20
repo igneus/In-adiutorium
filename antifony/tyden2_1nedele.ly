@@ -12,7 +12,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.d (Žalm 119(119)-XIV)"
+    piece = "1. ant. - VII.b (Žalm 119(119)-XIV)"
   }
 }
 
@@ -26,7 +26,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Žalm 16(15))"
+    piece = "2. ant. - VIII.G* (Žalm 16(15))"
   }
 }
 
@@ -95,7 +95,7 @@ tIInedeleInespResp = \score {
     jmé -- nu. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.a2 (Žalm 118(117)"
+    piece = "1. ant. - I.f (Žalm 118(117)"
   }
 }
 
@@ -116,7 +116,7 @@ tIInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f2 g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
+    f4. g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na pro je -- ho svr -- cho -- va -- nou 
@@ -173,7 +173,7 @@ tIInedeleLaudResp = \score {
     past -- vi -- nách. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - III.a (Žalm 23(22))"
+    piece = "1. ant. - III.g (Žalm 23(22))"
   }
 }
 
@@ -188,7 +188,7 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G* (Žalm 76(75) - I)"
+    piece = "2. ant. - VIII.G (Žalm 76(75) - I)"
   }
 }
 

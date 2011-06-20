@@ -81,7 +81,7 @@ tInedeleInespAntIIIchoral = \score {
   po -- vý -- šil na -- vě -- ky.
   }
   \header {
-    piece = "3. ant. - VIII.G (kantikum Flp 2,6-11)"
+    piece = "3. ant. - VIII.c (kantikum Flp 2,6-11)"
   }
 }
 
@@ -132,7 +132,7 @@ tInedeleInespResp = \score {
     Bo -- že, ty jsi můj Bůh, snaž -- ně tě hle -- dám. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.D2 (Žalm 63,2-9)"
+    piece = "1. ant. - I.f (Žalm 63,2-9)"
   }
 }
 
@@ -163,7 +163,7 @@ tInedeleInespResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VII.a (Žalm 149)"
+    piece = "3. ant. - VII.d (Žalm 149)"
   }
 }
 
@@ -259,7 +259,7 @@ tInedeleIInespAntI = \score {
     Seď po mé pra -- vi -- ci. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.c2 (Žalm 110(109),1-5.7)"
+    piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
   }
 }
 

@@ -15,7 +15,7 @@
     vy -- stou -- pí na Hos -- po -- di -- no -- vu ho -- ru.
   }
   \header {
-    piece = "1. ant. - I.D (Žalm 24(23))"
+    piece = "1. ant. - I.a2 (Žalm 24(23))"
   }
 }
 
@@ -44,7 +44,7 @@
     Slu -- ší se, a -- by do -- bří chvá -- li -- li Hos -- po -- di -- na.
   }
   \header {
-    piece = "3. ant. - III.g (Žalm 33(32))"
+    piece = "3. ant. - III.a (Žalm 33(32))"
   }
 }
 
