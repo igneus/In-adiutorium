@@ -280,7 +280,7 @@ tIInedeleIInespResp = \score {
     \Response Ve -- li -- ký je náš Bůh,_*
     je -- mu pa --tří vše -- chna moc na ne -- bi i na ze -- mi.
     \Verse Je -- ho mou -- drost pře -- vy -- šu -- je vše -- chno,
-    \Response je -- mu pa --tří vše -- chna moc na ne -- bi i na ze -- mi.
+    \Response je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
     \slavaRespText
   }
   \header {
