@@ -133,7 +133,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    piece = "2. ant. - VII.d (Žalm 15(14))"
+    piece = "2. ant. - VII.a (Žalm 15(14))"
   }
 }
 

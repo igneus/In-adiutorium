@@ -139,7 +139,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c (Žalm 76(75) II)"
+    piece = "3. ant. - VIII.c (Žalm 76(75) II)"
   }
 }
 
@@ -158,7 +158,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.c (Žalm 110(109))"
+    piece = "1. ant. - VII.a (Žalm 110(109))"
   }
 }
 

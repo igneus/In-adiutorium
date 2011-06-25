@@ -15,7 +15,7 @@
     vy -- stou -- pí na Hos -- po -- di -- no -- vu ho -- ru.
   }
   \header {
-    piece = "1. ant. - I.D (Žalm 24(23))"
+    piece = "1. ant. - I.a2 (Žalm 24(23))"
   }
 }
 
@@ -44,6 +44,68 @@
     Slu -- ší se, a -- by do -- bří chvá -- li -- li Hos -- po -- di -- na.
   }
   \header {
-    piece = "3. ant. - III.g (Žalm 33(32))"
+    piece = "3. ant. - III.a (Žalm 33(32))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a f( g) a a g a bes( c) bes a( g) g \breathe
+    f g( a) a c c d4. a \breathe
+    a4 g f g( a) a f( e) d d4. \bar "||"
+  }
+  \addlyrics {
+    Bůh nám vzbu -- dil moc -- né -- ho spa -- si -- te -- le,
+    jak slí -- bil od pra -- dáv -- na ús -- ty svých sva -- tých
+    pro -- ro -- ků.
+  }
+  \header {
+    piece = "ant. k Benedictus - I.D"
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g a( f) d d4. \breathe e4. f4 d f d c d d4. \bar "||"
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo krá -- če -- jí v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
+  }
+  \header {
+    piece = "1. ant. - I.D (Žalm 119(118))"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( a c) d \breathe f g f d4.( c) f4( e) c d \bar "||"
+  }
+  \addlyrics {
+    Pro tvou po -- moc ať za -- ple -- sá mé srd -- ce.
+  }
+  \header {
+    piece = "2. ant. - II.D (Žalm 13(12))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a c d4.( c4 a4.) \breathe
+    b4 c a a g f a a a g g g4. \breathe
+    c4 d( c) a4. b4( c) a( g) f4.( g) \bar "||"
+  }
+  \addlyrics {
+    Kde se roz -- mno -- žil hřích, tam se v_mí -- ře ješ -- tě da -- le -- ko
+    ště -- dřej -- ší u -- ká -- za -- la mi -- lost.
+  }
+  \header {
+    piece = "3. ant. - VIII.G (Žalm 14(13))"
   }
 }

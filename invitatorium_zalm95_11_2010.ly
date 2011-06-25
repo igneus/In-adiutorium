@@ -7,8 +7,8 @@
   composer = "Jakub Pavlík"
 }
 
-#(set-global-staff-size 16)
-#(set-default-paper-size "a5")
+% #(set-global-staff-size 16)
+% #(set-default-paper-size "a5")
 
 % vypnout cisla taktu na zacatku radku
 \layout {
@@ -446,23 +446,6 @@
     }
   }
   
-  %{ Kostra antifony
-  
-  \score {
-    \relative c' {
-      \key f \major
-      
-      \bar "||"
-    }
-    \addlyrics {
-    
-    }
-    \header {
-      piece = ""
-    }
-  }
-  
-  %}
 }
 
 % Antifony - doba adventni -------------------------------------
@@ -652,7 +635,7 @@
   }
 }
 
-% Antifony - doba postni
+% Antifony - doba postni -----------------------------------------
 
 \bookpart {
   
@@ -699,10 +682,12 @@
   }
 }
 
+% Antifony - velikonocni triduum ---------------------------------
+
 \bookpart {
   
   \header {
-    subtitle = "Antifony - velikonoční triduum a doba velikonoční"
+    subtitle = "Antifony - velikonoční triduum"
   }
   
   \markup {
@@ -757,6 +742,15 @@
     \header {
       piece = "Bílá sobota"
     }
+  }
+}
+
+% Antifony - doba velikonocni -------------------------------------
+
+\bookpart {
+
+  \header {
+    subtitle = "Antifony - doba velikonoční"
   }
   
   \score {
@@ -830,3 +824,87 @@
   }
   
 }
+
+% Antifony - slavnosti Pane v mezidobi --------------------------
+
+\bookpart {
+  \header {
+    subtitle = "Antifony - slavnosti Páně v liturgickém mezidobí"
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d4 d f8 f d r
+      c d f( a4) f8 g( f)
+      d4 c \breathe d f
+      g8 f e e d4 r
+      \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se je -- di -- né -- mu pra -- vé -- mu
+      Bo -- hu ve třech o -- so -- bách!
+    }
+    \header {
+      piece = "slavnost Nejsvětější Trojice"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d4 d r8 f e d
+      a'( bes) a4 r8 c c c
+      a4( g) f g
+      a d, f8( g) e4 
+      \time 2/4
+      d r
+      \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on je chléb ži -- vo -- ta.
+    }
+    \header {
+      piece = "slavnost Těla a Krve Páně"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      d4 a' d  c8 a
+      g a bes c a4 a
+      f f g2
+      f8 e d4 d
+      \bar "||"
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Je -- ží -- šo -- vu srd -- ci
+      z_lás -- ky k_nám zra -- ně -- né -- mu.
+    }
+    \header {
+      piece = "slavnost Nejsvětějšího srdce Ježíšova"
+    }
+  }
+}
+
+% Antifony - slavnosti Pane v mezidobi ----------------------------
+
+%{ Kostra antifony
+  
+  \score {
+    \relative c' {
+      \key f \major
+      
+      \bar "||"
+    }
+    \addlyrics {
+    
+    }
+    \header {
+      piece = ""
+    }
+  }
+  
+  %}
