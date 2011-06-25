@@ -51,6 +51,9 @@ choralniRezim = {
 
   % nedelat taktove cary    
   \cadenzaOn
+  
+  % vzdycky vypsat becka
+  #(set-accidental-style 'forget) 
 }
 
 choralniPredznamenaniIII = 
