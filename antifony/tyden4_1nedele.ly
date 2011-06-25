@@ -111,7 +111,7 @@
 
 \score {
   \relative c'' {
-    \choralniRezimCI
+    \choralniRezimCII
     c4 c d c( a) g f g4. g \breathe
     g4 g f g a c c c \breathe
     d4 a c c4. \bar "||"
@@ -128,7 +128,7 @@
 
 \score {
   \relative c'' {
-    \choralniRezimCI
+    \choralniRezimCII
     g4 a c c c d e d d \breathe 
     c b a a g f g g \breathe
     a4 c d c \bar "||"
@@ -139,7 +139,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.c (Žalm 76(75) II)"
+    piece = "2. ant. - VIII.c (Žalm 76(75) II)"
   }
 }
 
@@ -158,7 +158,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.a (Žalm 110(109))"
+    piece = "1. ant. - VII.c (Žalm 110(109))"
   }
 }
 

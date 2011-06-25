@@ -4,7 +4,7 @@
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     g4 g b c d( c b) b4. \breathe a4 c d e d c d d4. \breathe c4 b( a) c4. d \bar "||"
   }
   \addlyrics {
@@ -18,7 +18,7 @@
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     a4 g a b c d a a4. c4 b c( d) d4. \breathe c4 a b( g) g4. \bar "||"
   }
   \addlyrics {
@@ -51,7 +51,7 @@ tIInedeleInespAntIII = \score {
 
 tIInedeleInespResp = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     
     % R
     \neviditelna d
@@ -86,7 +86,7 @@ tIInedeleInespResp = \score {
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     f4 g a a4. bes4 c a4. a \breathe a4 a g( a) bes c d4. d \breathe
     c4 d bes( c) a4.( g) \bar "||"
   }
@@ -101,7 +101,7 @@ tIInedeleInespResp = \score {
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     g4 a b c c c d c d e e4. \breathe c4 a g( a g) g4. \bar "||"
   }
   \addlyrics {
@@ -114,7 +114,7 @@ tIInedeleInespResp = \score {
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     \key f \major
     f4. g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
   }
@@ -129,7 +129,7 @@ tIInedeleInespResp = \score {
 
 tIInedeleLaudResp = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     
     % R
     \neviditelna a
@@ -164,7 +164,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     e4 g( b) c c b c d b b \breathe c d a c b b4. \breathe
     c4 a f( g) g4. \bar "||"
   }
@@ -179,7 +179,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     g4 f e g4. \breathe g4 a b c b a g f( g) g4. \breathe 
     a4 c g( a g) g4. \bar "||"
   }
@@ -194,7 +194,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     a4 g a c b c4.( d) \breathe
     d4 c c b c a g f f4.( g) \breathe
     f4 c' b g4.( a) \bar "||"
@@ -212,7 +212,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     g4 g a b c a a4. b4 c d d d d c d e4. b \breathe a4 e' c( d) b4.( a)
     \bar "||"
   }
@@ -228,7 +228,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     c4 d c f e f f4.( g) \breathe a4 bes a g f g g4. \breathe
     f4 e c d4. \bar "||"
   }
@@ -243,7 +243,7 @@ tIInedeleLaudResp = \score {
 
 tIInedeleIInespAntIII = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     f4 f f f f f bes c a g g4. \breathe f4 g a c c4. \breathe a4 g f f4. \bar "||"
   }
   \addlyrics {
@@ -259,7 +259,7 @@ tIInedeleIInespAntIII = \score {
 
 tIInedeleIInespResp = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     
     % R
     \neviditelna a
