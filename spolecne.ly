@@ -76,7 +76,7 @@ choralniPredznamenaniII =
 
 % Vytvori hlavicku "piece" pro antifonu
 % pouziti: \header { piece = \markup {\choralAutoPiece}}
-% Predpoklada, ze jsou definovane nestandartni hlavicky
+% Predpoklada, ze jsou definovane (nestandartni) hlavicky
 % quid, tonus, differentia, psalmus
 choralAutoPiece = \markup {
   \concat {
