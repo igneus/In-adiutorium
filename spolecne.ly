@@ -74,6 +74,23 @@ choralniPredznamenaniII =
     }
   #})
 
+% Vytvori hlavicku "piece" pro antifonu
+% pouziti: \header { piece = \markup {\choralAutoPiece}}
+% Predpoklada, ze jsou definovane nestandartni hlavicky
+% quid, tonus, differentia, psalmus
+choralAutoPiece = \markup {
+  \concat {
+    \fromproperty #'header:quid 
+    " - " 
+    \fromproperty #'header:tonus 
+    . 
+    \fromproperty #'header:differentia 
+    " (" 
+    \fromproperty #'header:psalmus 
+    )
+  }
+}
+
 % Specialni znaky pro responsoria -------------------------------
 
 Response = \lyricmode { 
@@ -96,7 +113,7 @@ Verse = \lyricmode {
 
 Hvezdicka = \lyricmode { "*" }
 
-% prikay pro vyrobu neviditelnych not
+% prikaz pro vyrobu neviditelnych not
 
 neviditelna = #(define-music-function (parser location note)
                                      (ly:music?)
