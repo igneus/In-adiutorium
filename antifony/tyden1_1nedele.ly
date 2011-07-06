@@ -140,8 +140,8 @@ tInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
     g'4 f g a( c d c) a a4. \breathe b4 c b c( d) d4. \breathe
-    d4( c) a b g g4. \bar "|"
-    g4 f( g) a( c d c) d4.( e4.) \breathe c4 a f g \breathe g4( a) a g4. g4. \bar "||"
+    c4( b) a b g g4. \bar "|"
+    g4 f( g) a( c d c) d4.( e4.) c4 a f g \breathe g4( a) a g4. g4. \bar "||"
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci v_oh -- ni -- vé pe -- ci zpí -- vej -- me Bo -- hu:

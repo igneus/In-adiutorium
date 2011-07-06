@@ -51,7 +51,7 @@ tIuteryAntBenedictus = \score {
     pro -- ro -- ků.
   }
   \header {
-    piece = "ant. k Benedictus - I.D"
+    piece = "ant. k Benedictus - I.a"
   }
 }
 
