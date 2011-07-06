@@ -54,20 +54,7 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    d4( f d c d) e( f) f \breathe
-    f g( f) d d4. \breathe
-    f4( e) c4.( d) \bar "||"
-  }
-  \addlyrics {
-    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
-  }
-  \header {
-    piece = "ant. k Benedictus - II.D"
-  }
-}
+\score { \tIpondeliAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -188,18 +175,4 @@
   }
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
-    g4 f( g) a( c4.) c4 d c b c a( g) f4.( g) \breathe
-    a4 b c4. g \breathe
-    c4 c c c c c a f g g \bar "||"
-  }
-  \addlyrics {
-    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
-    ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
-  }
-  \header {
-    piece = "ant. k Magnificat - VIII.G"
-  }
-}
+\score { \tIpondeliAntMagnificat }
