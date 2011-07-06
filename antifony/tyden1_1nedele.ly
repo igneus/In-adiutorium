@@ -90,21 +90,25 @@ tInedeleInespAntIIIchoral = \score {
 tInedeleInespResp = \score {
   \relative c'' {
     \choralniRezim
+    \key f\major
     
     % R
     \neviditelna a
-    a4 f( g) a a a a a f e d d \bar "|"
-    d d d f g a a a \bar "||"
+    a4 f( g f) f4. g4 a bes4. c a4 g g g \bar "|"
+    f e f g4. a f4 d d \bar "||"
     
     % V
-    \neviditelna c
-    c4 c c a a f e d d \bar "|"
-    % R
     \neviditelna d
-    d d d f g a a a \bar "||"
+    c'4( bes a) g4.( a) a4 a a g a bes( c a) g \bar "|"
+    
+    % R
+    \neviditelna g
+    f e f g4. a f4 d d \bar "||"
     
     % Slava
-    c4 c d c d a a \breathe a f e d d d \bar "||"
+    c'4 c d( c) a4.( g) \breathe
+    a4 f( g) f4.( d) \breathe
+    d4 f g a( c) a4. a \bar "||"
   }
   \addlyrics {
     \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
