@@ -100,9 +100,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f d( c) d4. \breathe
+    e4 f d( c) c4.( d) \breathe
     f4 f e( c) a4. e'4 f( d) d4. \breathe
-    d4 c d d4. f4 f g f e c d d \bar "||"
+    d4 e( f) d4. d f4 f g f e c d d \bar "||"
   }
   \addlyrics {
     Bůh je soud -- ce spra -- ved -- li -- vý a moc -- ný;
