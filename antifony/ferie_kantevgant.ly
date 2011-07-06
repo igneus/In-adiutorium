@@ -6,7 +6,7 @@
 
 tIpondeliAntBenedictus = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4( f d c d) e( f) f \breathe
     f g( f) d d4. \breathe
     f4( e) c4.( d) \bar "||"
@@ -21,7 +21,7 @@ tIpondeliAntBenedictus = \score {
 
 tIpondeliAntMagnificat = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     g4 f( g) a( c4.) c4 d c b c a( g) f4.( g) \breathe
     a4 b c4. g \breathe
     c4 c c c c c a f g g \bar "||"
@@ -39,7 +39,7 @@ tIpondeliAntMagnificat = \score {
 
 tIuteryAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     \key f \major
     a4 a f( g) a a g a bes( c) bes a( g) g \breathe
     f g( a) a c c d4. a \breathe
@@ -57,7 +57,7 @@ tIuteryAntBenedictus = \score {
 
 tIuteryAntMagnificat = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     g4 a c( b c4.) a4. c4( b) a4. g4( f) a a g g \bar "||"
   }
   \addlyrics {
@@ -72,7 +72,7 @@ tIuteryAntMagnificat = \score {
 
 tIstredaAntBenedictus = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 e f d c4. a e'4 f d d \breathe
     a'( g) f( g) f4. d 
     e4 e( f) g f d4. d \bar "||"
@@ -88,7 +88,7 @@ tIstredaAntBenedictus = \score {
 
 tIstredaAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     f4 g( a) a a bes c d bes( a) a \breathe
     a a g f g a4. \breathe
@@ -108,7 +108,7 @@ tIstredaAntMagnificat = \score {
 
 tIctvrtekAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     g4 a c a a g \breathe
     a a f g f d4. c \breathe
@@ -128,7 +128,7 @@ tIctvrtekAntBenedictus = \score {
 
 tIctvrtekAntMagnificat = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     a4 c d d d d e( d c4.) a \breathe
     f4 f g a a b( c) a4. a \bar "||"
   }
@@ -145,7 +145,7 @@ tIctvrtekAntMagnificat = \score {
 
 tIpatekAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     g4 g f g( a)  c( bes a) a \breathe
     c4 d( c) bes( a g) a g( f d4.) d \bar "||"
@@ -160,7 +160,7 @@ tIpatekAntBenedictus = \score {
 
 tIpatekAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     f4( g f) d c d f( g a) a a c a g4. a \breathe
     f4 g a a a a b a g f4. f \bar "||"
   }
@@ -177,7 +177,7 @@ tIpatekAntMagnificat = \score {
 
 tIsobotaAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     a4( g a) c( d) d c \breathe
     d4 e c a( g) g \breathe
     a4 c d d( c) a( b) a4.( g) a4( b) c a g( a) g \bar "||"
@@ -197,7 +197,7 @@ tIsobotaAntBenedictus = \score {
 
 tIIpondeliAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCII
     c4 c b c a( g) f( g) g \breathe
     a b c d( e) d d d c( a) b a( g) g \bar "||"
   }
@@ -212,7 +212,7 @@ tIIpondeliAntBenedictus = \score {
 
 tIIpondeliAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     e4 g( a) c( b) c a4.( g4 a) g f e( d) e \bar "||"
   }
   \addlyrics {
@@ -227,7 +227,7 @@ tIIpondeliAntMagnificat = \score {
 
 tIIuteryAntBenedictus = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 e f g( a g) f d d( c) \breathe
     d4( c d) e( f) f4.( e) \breathe
     f4 e( f) g f d( c d) d4. \bar "||"
@@ -243,7 +243,7 @@ tIIuteryAntBenedictus = \score {
 
 tIIuteryAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     f4 a g4. g f4 g a bes c a  g g g \breathe
     bes c bes a( g) g4. \breathe
@@ -263,7 +263,7 @@ tIIuteryAntMagnificat = \score {
 
 tIIstredaAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     g4 a c a a g \breathe
     a a f g f d4. c \breathe
@@ -280,7 +280,7 @@ tIIstredaAntBenedictus = \score {
 
 tIIstredaAntMagnificat = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     a4 b c c4.( b) \breathe
     a4( c) c c c c c d c d a( g) f4.( g) \breathe
     g4 a b a g( f) e e4. \bar "||"
@@ -299,7 +299,7 @@ tIIstredaAntMagnificat = \score {
 
 tIIctvrtekAntBenedictus = \score {
   \relative c'' {
-    \choralniRezim
+    \choralniRezimCI
     g4 c b a4.( g) \breathe
     g4 g g g g g f g a( b c4.) c \breathe
     c4 d c c b( c a) g a4. g \bar "||"
@@ -315,7 +315,7 @@ tIIctvrtekAntBenedictus = \score {
 
 tIIctvrtekAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     e4 d e e( a) a a c c b c a( g) a4. \breathe
     a4 b c a( g) f( g) a4. \breathe
     b4 c a a a g f e( d) e4. \bar "||"
@@ -333,7 +333,7 @@ tIIctvrtekAntMagnificat = \score {
 
 tIIpatekAntBenedictus = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4( e f) g( f) d( e) d4.( c) \breathe
     a4( c) c d e d c( d) d4. \breathe
     d4 e( f) d4. c \breathe
@@ -350,7 +350,7 @@ tIIpatekAntBenedictus = \score {
 
 tIIpatekAntMagnificat = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimFII
     d4 e f d c c a \breathe
     f' f f e f d4. d \breathe
     f4 g a4. g \breathe
@@ -370,7 +370,7 @@ tIIpatekAntMagnificat = \score {
 
 tIIsobotaAntBenedictus = \score {
   \relative c' {
-    \choralniRezim
+    \choralniRezimCI
     \key f\major
     d4 f g a4. \breathe
     a4 g a bes g g4. \breathe
