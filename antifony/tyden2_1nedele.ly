@@ -5,7 +5,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g b c d( c b) b4. \breathe a4 c d e d c d d4. \breathe c4 b( a) c4. d \bar "||"
+    g4 g b c d( c b) b4. \breathe a4 c d e d c d d \breathe c4 a g f4.( g) \bar "||"
   }
   \addlyrics {
     Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
@@ -19,7 +19,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b c d a a4. c4 b c( d) d4. \breathe c4 a b( g) g4. \bar "||"
+    a4( g) g( a) a a b c b( a g) g \breathe
+    b c c b4. \breathe
+    a4 g f( g) g4. \bar "||"
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
@@ -66,7 +68,7 @@ tIInedeleInespResp = \score {
     c4 a c( d) d d \breathe f e d e c d4. d \bar "||"
     
     % Slava
-    d4 d f( d) d4. \breathe d4 c( a) a \breathe c4 a c d d d \bar "||"
+    d4 d f( d) d4. \breathe d4 c( a) a \breathe c4 a c d( e) d4. d \bar "||"
   }
   \addlyrics {
     \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -87,8 +89,9 @@ tIInedeleInespResp = \score {
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a4. bes4 c a4. a \breathe a4 a g( a) bes c d4. d \breathe
-    c4 d bes( c) a4.( g) \bar "||"
+    \key f\major
+    f4 g a a4. \breathe bes4 c a4. a \breathe a4 a g( a) bes c a4. a \breathe
+    g4 a f( e c) d4. \bar "||"
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
@@ -102,7 +105,9 @@ tIInedeleInespResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c c c d c d e e4. \breathe c4 a g( a g) g4. \bar "||"
+    g4 a b c( b) c c4.( d) \breathe
+    c4( b) a b g g \breathe
+    a4( c) b4.( a4 g) f( g) g4. \bar "||"
   }
   \addlyrics {
     Zpí -- vej -- te chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
@@ -116,7 +121,7 @@ tIInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4. g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
+    f4. g a4 bes c a \breathe a a a bes bes c bes a g g4 \breathe g4 a f4. f \bar "||"
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na pro je -- ho svr -- cho -- va -- nou 
@@ -166,7 +171,7 @@ tIInedeleLaudResp = \score {
   \relative c' {
     \choralniRezim
     e4 g( b) c c b c d b b \breathe c d a c b b4. \breathe
-    c4 a f( g) g4. \bar "||"
+    c4 a f e4. \bar "||"
   }
   \addlyrics {
     Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
