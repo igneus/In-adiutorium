@@ -48,23 +48,7 @@
   }
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
-    \key f \major
-    a4 a f( g) a a g a bes( c) bes a( g) g \breathe
-    f g( a) a c c d4. a \breathe
-    a4 g f g( a) a f( e) d d4. \bar "||"
-  }
-  \addlyrics {
-    Bůh nám vzbu -- dil moc -- né -- ho spa -- si -- te -- le,
-    jak slí -- bil od pra -- dáv -- na ús -- ty svých sva -- tých
-    pro -- ro -- ků.
-  }
-  \header {
-    piece = "ant. k Benedictus - I.D"
-  }
-}
+\score { \tIuteryAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 

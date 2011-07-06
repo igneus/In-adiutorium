@@ -35,6 +35,7 @@
 % pr.: t2nedele2nespAnt1noty
 % tyden / den / hodinka / antifona / "noty" nebo "text"
 
+\include "antifony/ferie_kantevgant.ly"
 
 \include "antifony/tyden1_1nedele.ly"
 \include "antifony/tyden1_2pondeli.ly"
