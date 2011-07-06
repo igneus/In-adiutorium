@@ -82,7 +82,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g a c d4.( c4 a4.) \breathe
-    b4 c a a g f a a a g g g4. \breathe
+    b4 c a a g f g a g( f) f g g4. \breathe
     c4 d( c) a4. b4( c) a( g) f4.( g) \bar "||"
   }
   \addlyrics {
