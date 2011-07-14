@@ -13,11 +13,10 @@
 }
 
 \markup {
-  \justify {
-    Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum} (Řím 1912;
+  \wordwrap {
+    Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum}, Řím 1912, s. *26.
     \typewriter{http://imslp.org/wiki/Antiphonale_(Gregorian_Chant)} - 
-    staženo 17.1.2011),
-    ze str. *26 (ke konci, sekce "Toni communes").
+    staženo 17.1.2011
   }
 }
 
@@ -25,12 +24,12 @@
   \relative c' {
     \choralniRezim
     
-    f\breve f4-| \parenthesize d d4. \breathe \mark "+"
+    c d f f\breve f4-| \parenthesize d d4. \breathe \mark "+"
     f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
     f\breve c4 d e-| \parenthesize d d4. \bar "||"
   }
   \header {
-    piece = "psalmodie"
+    piece = "psalmodie (modus II)"
   }
 }
 
