@@ -93,3 +93,45 @@
     piece = "3. ant. - VIII.G (Žalm 14(13))"
   }
 }
+
+\markup {\nadpisHodinka {"nešpory"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f\major
+    f4 g a a bes( c) a a4. \breathe c4. a4 bes g a g( f) f \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    piece = "1. ant. - VI.F (Žalm 20(19))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a f) d f( g) g \breathe a g( a) c a f g f( d) d \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tvou moc o -- sla -- ví -- me zpě -- vem.
+  }
+  \header {
+    piece = "2. ant. - I.g2 (Žalm 21(20))"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) \breathe a e( f) d d c4. d4 d e a a \breathe c a a4. g4( f) e e \bar "||"
+  }
+  \addlyrics {
+    Pa -- ne, vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství a kně -- ze.
+  }
+  \header {
+    piece = "3. ant. - IV.E (Zj 4)"
+  }
+}
