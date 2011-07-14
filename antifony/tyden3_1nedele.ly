@@ -47,7 +47,9 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 bes g a f g e d f g4. \breathe a4 bes g( a) a4. \bar "||"
+    a4 a a a c( bes) a( g) a4. \breathe
+    f4 f( g) e4.( d) \breathe
+    d4 f( e) c d4. \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
@@ -60,8 +62,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b a d d \breathe c d e c4. a b4( c) a a4. \breathe
-    g4 c( b) g a4. \bar "||"
+    g4 a g a c c( b) c4. \breathe
+    c4 d e c4. a b4( c) a( g) g \breathe
+    g4 g( a) g4. g \bar "||"
   }
   \addlyrics {
     Ve -- le -- be -- ný jsi, Pa -- ne,
@@ -75,8 +78,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a4.( c) d4 d c( d) a \breathe c4( b) a \breathe
-    b4 c a a \bar "||"
+    a4( g) a4.( c) d4 d c( d) a \breathe c4( b) a4.( g) \breathe
+    a4 g f( a) g4. \bar "||"
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.
@@ -89,6 +92,12 @@
 \score { \tInedeleLaudResp }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\markup\justify {
+  K následujícím antifonám je - z důvodu jednoty žalmu -
+  vhodné zpívat žalm vždy na tonus VIII.G, i když druhá a
+  třetí antifona si žádají VIII.c a VIII.G*.
+}
 
 \score {
   \relative c'' {
@@ -121,7 +130,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b4. \breathe c4 d e d c( b) b4. \breathe c4 b g a4. \bar "||"
+    a4 b c c b4. \breathe c4 c b a f( a) g4. \breathe f4 a g4. g \bar "||"
   }
   \addlyrics {
     Bůh je Hos -- po -- din a do -- přál nám svět -- lo. A -- le -- lu -- ja.
@@ -139,14 +148,14 @@
   \relative c'' {
     \choralniRezim
     a4 b g g a b c d e d d4. \breathe
-    c4 c c c a g a g4. \breathe a4 c d c4. \bar "||"
+    c4 c b a g f f( g) g4. \breathe g4 a g4. g \bar "||"
   }
   \addlyrics {
     Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
     o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Žalm 111(110))"
+    piece = "2. ant. - VIII.G* (Žalm 111(110))"
   }
 }
 

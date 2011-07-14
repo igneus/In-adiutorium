@@ -172,7 +172,7 @@ tInedeleInespResp = \score {
 }
 
 % krome verse stejne (text i melodie) jako ranni chvaly nedeli 
-% v dobe postni: (neni na zadny greg. tonus)
+% v dobe postni
 
 tInedeleLaudResp = \score {
   \relative c'' {
@@ -200,7 +200,7 @@ tInedeleLaudResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium"
+    piece = "responsorium - III"
   }
 }
 
@@ -283,9 +283,10 @@ tInedeleIInespAntI = \score {
 }
 
 tInedeleIInespAntIII = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c d a g a4. \breathe a4 c b a g g4. \breathe a4 c( b) g4. a \bar "||"
+    f4 f f e( f) g( a) a4. a4 g a g( a) g g4.( f) \breathe
+    f4 a g( f) f4. \bar "||"
   }
   \addlyrics {
     Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
