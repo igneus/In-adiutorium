@@ -130,13 +130,14 @@ tInedeleInespResp = \score {
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 a bes g a e4. \bar "|" f4 a bes g a4. \breathe g4 a f( d) d4. \bar "||"
+    d4 d \breathe f a g( f) g4. \breathe a4 bes a g( a f e) d4. \bar "||"
   }
   \addlyrics {
-    Bo -- že, ty jsi můj Bůh, snaž -- ně tě hle -- dám. A -- le -- lu -- ja.
+    Bo -- že, ty jsi můj Bůh, snaž -- ně tě hle -- dám. 
+    % A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 63,2-9)"
+    piece = "1. ant. - I.D2 (Žalm 63,2-9)"
   }
 }
 
@@ -256,7 +257,8 @@ A -- le -- lu -- ja.
 tInedeleIInespAntI = \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe g a c( d) c4. \bar "||"
+    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe 
+    g f g g4. \bar "||"
   }
   \addlyrics {
     Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
