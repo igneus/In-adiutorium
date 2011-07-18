@@ -38,9 +38,9 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g( a) f e d e c c \breathe
+    f4 g f e d e c c \breathe
     f f f g a bes a4. \breathe
     g4 a g f f \breathe
     g4 a f f \bar "||"
@@ -58,10 +58,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c b4.( a) \breathe
-    c4 b a g a4. g \breathe
-    b4 c a g( f) g4. \breathe
-    a4 c( b) g a4. \bar "||"
+    g4 f a( c) c4. \breathe
+    c4 d c a b( c) c \breathe c4 b c b( a g) g \breathe
+    f a g( f g) g4. \bar "||"
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -85,7 +84,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - I.f (Žalm 150)"
+    piece = "3. ant. - VI.F (Žalm 150)"
   }
 }
 
@@ -96,8 +95,9 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f\major
     f4 f g g a4. \breathe
-    bes4 c bes a g g4. \breathe
+    a4 bes a g f f \breathe
     g4 a f f \bar "||"
   }
   \addlyrics {
@@ -105,16 +105,15 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 23(22))"
+    piece = "1. ant. - VI.F (Žalm 23(22))"
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c d c( a) g f g4. g \breathe
-    g4 g f g a c c c \breathe
-    d4 a c c4. \bar "||"
+    c4 c c b( c) a g b4. c \breathe
+    c4 d c a b a g g \breathe a4 b g g4. \bar "||"
   }
   \addlyrics {
     Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
@@ -129,9 +128,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c c c d e d d \breathe 
-    c b a a g f g g \breathe
-    a4 c d c \bar "||"
+    c4 c c b( c) c d e d d \breathe
+    c4 b a a g f f( g) g \breathe
+    g a g g4. \bar "||"
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
@@ -148,9 +147,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a a g( f) g( a) a g a b( c) a a \breathe
-    g4 g g f g a( c) c4. \breathe
-    d4 e c c4. \bar "||"
+    d4 a a g( f) g( a) a g a c( d) d d \breathe
+    f( d) d c b c a( g) g \breathe
+    a4 a g( f) g4. \bar "||"
   }
   \addlyrics {
     O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 
@@ -166,7 +165,7 @@
   \relative c'' {
     \choralniRezim
     a4( c) a a g g4.( a) \breathe
-    e4 g a a a a a b c a g g \breathe
+    e4 g( a) a a a a b c a g e( a) a \breathe
     e4 g a a a a c b g a \bar "||"
   }
   \addlyrics {
