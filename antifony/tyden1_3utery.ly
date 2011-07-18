@@ -135,3 +135,5 @@
     piece = "3. ant. - IV.E (Zj 4)"
   }
 }
+
+\score { \tIuteryAntMagnificat }
