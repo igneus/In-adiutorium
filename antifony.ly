@@ -37,11 +37,20 @@
 
 \include "antifony/ferie_kantevgant.ly"
 
+\markup {\nadpisDen {1. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden1_1nedele.ly"
 \include "antifony/tyden1_2pondeli.ly"
 \include "antifony/tyden1_3utery.ly"
+\include "antifony/tyden1_4streda.ly"
+\include "antifony/tyden1_5ctvrtek.ly"
+
+\markup {\nadpisDen {2. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden2_1nedele.ly"
+
+\markup {\nadpisDen {3. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden3_1nedele.ly"
+
+\markup {\nadpisDen {4. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden4_1nedele.ly"
 
 %{
