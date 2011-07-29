@@ -34,18 +34,17 @@
 
 tIInedeleInespAntIII = \score {
   \relative c'' {
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
-    
-    \aFlatKey
-    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g2 \bar "||"
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \breathe
+    c4 c d c c b a b( c) c c \breathe
+    d c a b a g g \bar "||"
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
     ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
+    piece = "3. ant. - VIII.G (Flp 2, 6-11)"
   }
 }
 

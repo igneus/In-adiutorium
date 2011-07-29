@@ -35,9 +35,7 @@
   }
 }
 
-\score { \tInedeleInespAntIIIbulhar }
-
-\score { \tInedeleInespAntIIIchoral }
+\score { \tInedeleInespAntIII }
 
 \score { \tInedeleInespResp }
 

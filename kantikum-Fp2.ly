@@ -7,7 +7,7 @@
   composer = "Jakub Pavlík"
 }
 
-\relative c''  {
+nastaveni = {
   \cadenzaOn
 
   % nestandartni predznamenani: snizene A (napev je z byzantske oblasti, podle irmosu na 4. hlas...)
@@ -15,6 +15,10 @@
   
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
+}
+
+\relative c''  {
+  \nastaveni
   
   % Kristus Jezis
   g4 g b( as) g( f) e f g g g8( f) g4 as( g) f as g2 \bar "|"
@@ -69,4 +73,40 @@
   
   Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
   po všech -- ny vě -- ky vě -- ků. A -- men.
+}
+
+\bookpart {
+  \header {
+    subtitle = "Antifony"
+  }
+  
+  \score {
+    \relative c'' {
+      \nastaveni
+      g4 g g g f e e2 \breathe
+      g4 g g g g g g f g as g g2 \bar "||"
+    }
+    \addlyrics {
+      Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+      po -- vý -- šil na -- vě -- ky.
+    }
+    \header {
+      piece = "neděle 1. a 3. týdne - 1. nešpory - 3. ant."
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \nastaveni
+      g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe 
+      as as f g2 \bar "||"
+    }
+    \addlyrics {
+      Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
+      ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+    }
+    \header {
+      piece = "neděle 2. a 4. týdne - 1. nešpory - 3. ant."
+    }
+  }
 }

@@ -35,57 +35,23 @@
   }
 }
 
-\markup {
-  \justify {
-    Následující antifona předpokládá, že se kantikum zpívá na bulharský
-    4. hlas (viz noty v sekci \italic {Kantika z nešpor}). Níže je varianta
-    pro totéž kantikum na běžný gregoriánský nápěv, protože předpokládám,
-    že ten bulharský se nebude líbit každému.
-  }
-}
-
-aFlatKey = {
-  % nestandartni predznamenani: snizene A (napev je z byzantske oblasti, 
-  % podle irmosu na 4. hlas...)
-  \set Staff.keySignature = #`(((0 . 5) . ,FLAT))
-}
-
-tInedeleInespAntIIIbulhar = \score {
-  \relative c'' {
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
-    
-    \aFlatKey
-
-    g4 g g g f e e2 \breathe
-    g4 g g g g g g f g as g g2 \bar "||"
-  }
-  \addlyrics {
-    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-  po -- vý -- šil na -- vě -- ky.
-  }
-  \header {
-    piece = "3. ant. - zvláštní nápěv (kantikum Flp 2, 6-11)"
-  }
-}
-
-\score { \tInedeleInespAntIIIbulhar } 
-
-tInedeleInespAntIIIchoral = \score {
+tInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    c4 d a g a g g \breathe g f g g a a4.( g4.) a4 d c d a g4. \bar "||"
+    g4 g( c) c c b( d c a) g( f) g \breathe
+    g f g a b c4.( d) \breathe
+    c4 c a f g g \bar "||"
   }
   \addlyrics {
     Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-  po -- vý -- šil na -- vě -- ky.
+    po -- vý -- šil na -- vě -- ky.
   }
   \header {
-    piece = "3. ant. - VIII.c (kantikum Flp 2,6-11)"
+    piece = "3. ant. - VIII.G (kantikum Flp 2,6-11)"
   }
 }
 
-\score { \tInedeleInespAntIIIchoral }
+\score { \tInedeleInespAntIII }
 
 tInedeleInespResp = \score {
   \relative c'' {
