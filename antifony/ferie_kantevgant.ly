@@ -229,7 +229,7 @@ tIIpondeliAntMagnificat = \score {
 tIIuteryAntBenedictus = \score {
   \relative c' {
     \choralniRezim
-    d4 e f g( a g) f d d( c) \breathe
+    d4 e f g( a g) f d d4.( c) \breathe
     d4( c d) e( f) f4.( e) \breathe
     f4 e( f) g f d( c d) d4. \bar "||"
   }
