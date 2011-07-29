@@ -3,6 +3,7 @@
 \header {
   title = "památka sv. Marie Magdalény (22.7.)"
   composer = "Jakub Pavlík"
+  dedication = "Magdě k svátku"
 }
 
 \include "../spolecne.ly"

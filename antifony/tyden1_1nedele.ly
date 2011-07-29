@@ -14,7 +14,7 @@
     ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
   }
   \header {
-    piece = "1.ant. - VIII.c (Žalm 141,1-9)"
+    piece = "1.ant. - VIII.G (Žalm 141,1-9)"
   }
 }
 
@@ -130,11 +130,12 @@ tInedeleInespResp = \score {
   \relative c' {
     \key f \major
     \choralniRezim
-    d4 d \breathe f a g( f) g4. \breathe a4 bes a g( a f e) d4. \bar "||"
+    d4 d \breathe f a g( f) g4. \breathe a4 bes a g( a f e) d4. \breathe
+    c4 f e( c) d4. \bar "||"
   }
   \addlyrics {
     Bo -- že, ty jsi můj Bůh, snaž -- ně tě hle -- dám. 
-    % A -- le -- lu -- ja.
+    A -- le -- lu -- ja.
   }
   \header {
     piece = "1. ant. - I.D2 (Žalm 63,2-9)"
@@ -287,11 +288,12 @@ tInedeleIInespAntI = \score {
 tInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
-    f4 f f e( f) g( a) a4. a4 g a g( a) g g4.( f) \breathe
-    f4 a g( f) f4. \bar "||"
+    \key f\major
+    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. f4 f( g a) bes g f f4. \breathe
+    d4 f( g) g f \bar "||"
   }
   \addlyrics {
-    Pán, náš Bůh vše -- vlád -- ný, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+    Pán, náš Bůh vše -- mo -- hou -- cí, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
   }
   \header {
     piece = "3. ant. - VI.F (srov. Zj 19,1-7)"
