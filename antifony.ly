@@ -15,8 +15,6 @@
 		     (markup #:concat cislo ".ant. - " tonus " (" odkaz ")")))
 %}
 
-
-
 % Promenne s melodii nebo textem antifony pro vicenasobne pouziti:
 %
 % pr.: t2nedele2nespAnt1noty
@@ -30,6 +28,7 @@
 \include "antifony/tyden1_3utery.ly"
 \include "antifony/tyden1_4streda.ly"
 \include "antifony/tyden1_5ctvrtek.ly"
+\include "antifony/tyden1_6patek.ly"
 
 \markup {\nadpisDen {2. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden2_1nedele.ly"
@@ -57,7 +56,11 @@
 
   }
   \header {
-    piece = ""
+    quid = ". ant."  
+    tonus = ""
+    differentia = "" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
   }
 }
 

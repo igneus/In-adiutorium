@@ -43,3 +43,93 @@
     piece = "3. ant. - I.a (Žalm 48(47))"
   }
 }
+
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f d d( g) g4. \breathe a4 c a g a \breathe a a g f e( f) d d \bar "||"
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či, ať po -- zo -- ru -- ji 
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    piece = "1. ant. - I.f (Žalm 119(118)-III)"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d e f( d) d \breathe g f e d \bar "||"
+  }
+  \addlyrics {
+    Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
+  }
+  \header {
+    piece = "2. ant. - II.D (Žalm 25(24)-I)"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c( a) a e' f f e f d d \breathe
+    f g a g f4. d4 f e( d) c( d) d4. \bar "||"
+  }
+  \addlyrics {
+    O -- brať se ke mně a smi -- luj se na -- de mnou,
+    vždyť já jsem tak sám a tak u -- bo -- hý.
+  }
+  \header {
+    piece = "3. ant. - II.D (Žalm 25(24)-II)"
+  }
+}
+
+\markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) a \breathe a a a g( a) a a c a g( a) a \breathe
+    g a bes( c a4.) a4. f4( e) d d \bar "||"
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, vo -- lal jsem k_to -- bě a 
+    u -- zdra -- vils mě; chci tě chvá -- lit na -- vě -- ky.
+  }
+  \header {
+    piece = "1. ant. - I.g (Žalm 30(29))"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d c d( e f) f \breathe a c a f( g) a a a g a f d( f) f \bar "||"
+  }
+  \addlyrics {
+    Šťast -- ný je člo -- věk, kte -- ré -- mu Hos -- po -- din
+    ne -- při -- čí -- tá vi -- nu.
+  }
+  \header {
+    piece = "2. ant. - VI.F (Žalm 32(31))"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b( c a) g g4.( a) c4 c( d) d d a( g) a4. \breathe
+    d4 d d c( a) a c( d) a g a a \bar "||"
+  }
+  \addlyrics {
+    Bůh mu dal moc a čest i krá -- lov -- skou vlá -- du;
+    bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
+  }
+  \header {
+    piece = "3. ant. - IV alt.A (Zj 11)"
+  }
+}
