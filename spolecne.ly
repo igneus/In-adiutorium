@@ -54,6 +54,11 @@ inAdiutorium = \markup {
    (interpret-markup layout props
 		     (markup #:smallCaps
 			     #:with-color #'red arg)))
+                            
+% sestavi titulek z ruznych semanticky vyznamnych polozek z header
+sestavTitulek = \markup {
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:tonus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
+}
 
 % choral --------------------------------------------------------
 
