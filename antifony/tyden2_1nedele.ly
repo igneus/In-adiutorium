@@ -5,7 +5,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g b c d( c b) b4. \breathe a4 c d e d c d d \breathe c4 a g f4.( g) \bar "||"
+    c4 c a g c( d) d4. c4 d c( b a) a \breathe
+    b c a( g) g \breathe f a g( f g) g4. \bar "||"
   }
   \addlyrics {
     Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
@@ -19,9 +20,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) g( a) a a b c b( a g) g \breathe
-    b c c b4. \breathe
-    a4 g f( g) g4. \bar "||"
+    c4 c c c b( c a) g b( c) c \breathe
+    d b( c) a( g) g \breathe f a g g4. \bar "||"
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
@@ -89,8 +89,8 @@ tIInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g a a4. \breathe bes4 c a4. a \breathe a4 a g( a) bes c a4. a \breathe
-    g4 a f( e c) d4. \bar "||"
+    f4 g a a4. \breathe bes4 c a4. a \breathe a4 a g( a) bes c a4. g \breathe
+    f4 e c( d) d4. \bar "||"
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
@@ -104,12 +104,11 @@ tIInedeleInespResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c( b) c c4.( d) \breathe
-    c4( b) a b g g \breathe
-    a4( c) b4.( a4 g) f( g) g4. \bar "||"
+    g4( f) f( a) a b( c) a( g) a \breathe
+    c( d) c( b) a( b) a( g) g \breathe f a g( f) g4. \bar "||"
   }
   \addlyrics {
-    Zpí -- vej -- te chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
+    Zpí -- vej -- me chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
   }
   \header {
     piece = "2. ant. - VIII.G - Dan 3,52-7"
@@ -148,7 +147,7 @@ tIInedeleLaudResp = \score {
     b4 c a g f g4. g \bar "||"
     
     % Slava
-    a4 a a g f g g \breathe g c b a a a \bar "||"
+    c4 c a( c) c \breathe c d( c) c \breathe c d c b( c) a( g) g \bar "||"
   }
   \addlyrics {
     \Response Ve -- le -- bí -- me tě, Bo -- že,_*
@@ -167,9 +166,9 @@ tIInedeleLaudResp = \score {
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 g( b) c c b c d b b \breathe c d a c b b4. \breathe
+    g4 b( c) c c b c d b b \breathe c d a c b b4. \breathe
     c4 a f e4. \bar "||"
   }
   \addlyrics {
@@ -278,7 +277,7 @@ tIInedeleIInespResp = \score {
     f4 f g g a( c) a a g f g e f d d \bar "||"
     
     % Slava
-    a'4 a a g f a a \breathe a c c a a a \bar "||"
+    a'4 a a g f a a \breathe a c a f( g) a4. a \bar "||"
   }
   \addlyrics {
     \Response Ve -- li -- ký je náš Bůh,_*
