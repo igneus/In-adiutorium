@@ -51,16 +51,23 @@ choralniRezim = {
 
   % nedelat taktove cary    
   \cadenzaOn
+}
+
+choralniRezimCtyrlinkovy = {
+  \choralniRezim
   
   % vzdycky vypsat becka
-  #(set-accidental-style 'forget) 
+  #(set-accidental-style 'forget)
+  
+  % vetsi rozestupy mezi linkami, mensi noty
+  \tiny
 }
 
 % Nasledujici zvlastni choralni rezimy umoznuji hybridni notaci:
 % moderni noty ve ctyrradkove osnove s choralnim klicem
 
 choralniRezimCI = {
-  \choralniRezim
+  \choralniRezimCtyrlinkovy
   
   % osnova ma jen ctyri linky a ty jsou jinak umistene nez v moderni
   % notaci: linka neprochazi notou h (0), ale c (1)
@@ -74,7 +81,7 @@ choralniRezimCI = {
 }
 
 choralniRezimCII = {
-  \choralniRezim
+  \choralniRezimCtyrlinkovy
   
   \override Staff.StaffSymbol #'line-positions = #'(-3 -1 1 3)
   \set Staff.clefGlyph = #"clefs.vaticana.do"
@@ -82,7 +89,7 @@ choralniRezimCII = {
 }
 
 choralniRezimCIII = {
-  \choralniRezim
+  \choralniRezimCtyrlinkovy
   
   \override Staff.StaffSymbol #'line-positions = #'(-1 1 3 5)
   \set Staff.clefGlyph = #"clefs.vaticana.do"
@@ -90,7 +97,7 @@ choralniRezimCIII = {
 }
 
 choralniRezimCIV = {
-  \choralniRezim
+  \choralniRezimCtyrlinkovy
   
   \override Staff.StaffSymbol #'line-positions = #'(1 3 5 7)
   \set Staff.clefGlyph = #"clefs.vaticana.do"
@@ -98,7 +105,7 @@ choralniRezimCIV = {
 }
 
 choralniRezimFII = {
-  \choralniRezim
+  \choralniRezimCtyrlinkovy
   
   \override Staff.StaffSymbol #'line-positions = #'(-7 -5 -3 -1)
   \set Staff.clefGlyph = #"clefs.vaticana.fa"
