@@ -1,3 +1,5 @@
+\markup {\nadpisDen {Pátek 1. týdne}}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
