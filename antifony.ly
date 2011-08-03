@@ -33,6 +33,8 @@
 
 \markup {\nadpisDen {2. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden2_1nedele.ly"
+\include "antifony/tyden2_2pondeli.ly"
+\include "antifony/tyden2_3utery.ly"
 
 \markup {\nadpisDen {3. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden3_1nedele.ly"
