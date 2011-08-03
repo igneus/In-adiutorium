@@ -29,6 +29,7 @@
 \include "antifony/tyden1_4streda.ly"
 \include "antifony/tyden1_5ctvrtek.ly"
 \include "antifony/tyden1_6patek.ly"
+\include "antifony/tyden1_7sobota.ly"
 
 \markup {\nadpisDen {2. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden2_1nedele.ly"
@@ -44,6 +45,10 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\markup {\nadpisHodinka {"nešpory"}}
 %}
 
 %{
@@ -56,7 +61,7 @@
 
   }
   \header {
-    quid = ". ant."  
+    quid = ". ant."
     tonus = ""
     differentia = "" 
     psalmus = ""
