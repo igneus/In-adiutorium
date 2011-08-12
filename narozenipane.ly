@@ -8,6 +8,95 @@
 
 \include "spolecne.ly"
 
+\markup {\nadpisHodinka {"1. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( d) d d c( b) a( g) g \breathe \bar ""
+    a b c a g( f g4.) g \bar "|"
+    a4( d) d e( f d) d \breathe c a b c a g g4. \bar "||"
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je je ob -- klo -- pen slá -- vou,
+    ce -- lá ze -- mě tou -- ží spa -- třit je -- ho tvář.
+  }
+  \header {
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 113"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f g a f e \breathe f g a( bes a) a f e d d \bar "||"
+  }
+  \addlyrics {
+    Se -- sí -- lá svůj roz -- kaz na ze -- mi, ry -- chle bě -- ží je -- ho slo -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    tonus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 147"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b( c) c \breathe \bar "" d( e) c( b c) c4. \breathe \bar ""
+    d4 c b c( a) a b c a g a( g) g \breathe \bar ""
+    a a b c c( b) b \breathe \bar "" c d e c b c( a) g( f) g \bar "||"
+  }
+  \addlyrics {
+    Věč -- né Slo -- vo, Syn Bo -- ží,
+    zro -- ze -- ný z_Ot -- ce pře -- de vše -- mi vě -- ky,
+    po -- ní -- žil sám se -- be a stal se pro nás člo -- vě -- kem.
+  }
+  \header {
+    quid = "3. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Fp 2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna c
+    c c c c c d( e c) b c4. \bar "|" c4 c c d b c4. a b4 c a( g) g \bar "||"
+    % V
+    \neviditelna c
+    g4 g a( c) c \breathe c d( e) c( b) c4. \bar "|"
+    % R
+    \neviditelna c
+    c4 c c d b c4. a b4 c a( g) g \bar "||"
+    % Slava
+    g4 g g g a b( c) c \breathe d e e c( b) c4. c \bar "||"
+  }
+  \addlyrics {
+    \Response Dnes po -- zná -- te, že při -- jde Pán_* a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+    \Verse On sám při -- jde a spa -- sí vás_*
+    \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - VIII"
+  }
+}
+
+\markup {Následuja totéž responsorium ve starší verzi, kterou časem smažu.}
+
 vInoty = { 
   r8 d f g a g f g
   g4
@@ -57,6 +146,26 @@ doxotext = \lyricmode {
     \vItext \rtext
   }
   \header {
-    piece = "responsorium (\"zpěv po krátkém čtení\")"
+    piece = "responsorium"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g g( c) c b( c) a( g) g \breathe
+    g f g a4. a4 b c a4. g \breathe
+    g4 a g a( c) c b c a( g) g \bar "||"
+  }
+  \addlyrics {
+    Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+    krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+  }
+  \header {
+    quid = "ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
   }
 }
