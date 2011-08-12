@@ -13,6 +13,7 @@
 % "tiraz" -------------------------------------------------------
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
+
 sazeciProgram = \markup {        
   \with-url #"http://lilypond.org/web/" {
     LilyPond \simple #(lilypond-version) (http://lilypond.org/)

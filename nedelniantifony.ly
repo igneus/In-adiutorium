@@ -7,6 +7,15 @@
 
 \include "spolecne.ly"
 
+\paper {
+  oddFooterMarkup = \markup\small { 
+    \fill-line {
+      \fromproperty #'header:title
+      \dnesniDatum 
+    }
+  }
+}
+
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props

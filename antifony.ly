@@ -7,6 +7,15 @@
 
 \include "spolecne.ly"
 
+\paper {
+  oddFooterMarkup = \markup\small { 
+    \fill-line {
+      \fromproperty #'header:title
+      \dnesniDatum 
+    }
+  }
+}
+
 %{
 #(define-markup-command (nadpisAntifony layout props cislo tonus odkaz) 
    (integer? string? string?)
@@ -24,23 +33,35 @@
 
 \markup {\nadpisDen {1. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden1_1nedele.ly"
+\pageBreak
 \include "antifony/tyden1_2pondeli.ly"
+\pageBreak
 \include "antifony/tyden1_3utery.ly"
+\pageBreak
 \include "antifony/tyden1_4streda.ly"
+\pageBreak
 \include "antifony/tyden1_5ctvrtek.ly"
+\pageBreak
 \include "antifony/tyden1_6patek.ly"
+\pageBreak
 \include "antifony/tyden1_7sobota.ly"
+\pageBreak
 
 \markup {\nadpisDen {2. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden2_1nedele.ly"
+\pageBreak
 \include "antifony/tyden2_2pondeli.ly"
+\pageBreak
 \include "antifony/tyden2_3utery.ly"
+\pageBreak
 
 \markup {\nadpisDen {3. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden3_1nedele.ly"
+\pageBreak
 
 \markup {\nadpisDen {4. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden4_1nedele.ly"
+\pageBreak
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
