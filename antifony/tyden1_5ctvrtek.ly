@@ -90,7 +90,7 @@
   }
 }
 
-\markup {\nadpisHodinka {"2. nešpory"}}
+\markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c'' {
