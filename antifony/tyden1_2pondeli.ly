@@ -21,9 +21,9 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c a a g f g( a) a \breathe b( c) a a \bar "||"
+    f4( f) a4. a g4( a) bes c a( g) g \breathe f( g) e d \bar "||"
   }
   \addlyrics {
     Chvá -- lí -- me tvé slav -- né jmé -- no, náš Bo -- že.
@@ -32,7 +32,7 @@
     piece = \markup {\choralAutoPiece}
     quid = "2. ant."
     tonus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = "1 Kron 29"
   }
 }
@@ -40,7 +40,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c a( g) a4.( g) a4 b d c c \bar "||"
+    c4 c c d( c) c \breathe b( c) a g f( g) g \bar "||"
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -131,7 +131,7 @@
     piece = \markup {\choralAutoPiece}
     quid = "1. ant."
     tonus = "I"
-    differentia = "D2" 
+    differentia = "a" 
     psalmus = "Žalm 11(10)"
   }
 }
@@ -139,9 +139,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) b( c) d d4. \breathe
-    d4 c a c( d) d4. \breathe
-    a4 c d d d d f e c( f) e4.( d) \bar "||"
+    a4 c( d) d c d4. \breathe
+    d4 c a c( d) d \breathe
+    a4 c d d d d b c a( g) g \bar "||"
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
@@ -157,11 +157,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f \major
-    a4 a a bes( c bes) a( g) g \breathe
-    f4 f g a( bes) a a c bes bes g bes a \bar "||"
+    f4 g a g( a) f( d) d \breathe
+    f g a a g a bes( a g) a f g f( d) d \bar "||"
   }
   \addlyrics {
     Bůh si nás vy -- vo -- lil a skr -- ze Kris -- ta nás při -- jal 
@@ -171,7 +170,7 @@
     piece = \markup {\choralAutoPiece}
     quid = "3. ant."
     tonus = "I"
-    differentia = "a" 
+    differentia = "f" 
     psalmus = "Ef 1,3-10"
   }
 }

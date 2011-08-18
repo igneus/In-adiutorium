@@ -51,23 +51,24 @@ tIInedeleInespAntIII = \score {
 \score { \tIInedeleInespAntIII }
 
 tIInedeleInespResp = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
-    \neviditelna d
-    d4 a c d d( c) d \breathe f f e f g( f) d d \bar "|"
-    c a c( d) d d \breathe f e d e c d4. d \bar "||"
+    \neviditelna g
+    g4 g f g a( c) c \breathe c d c b a( b) a( g) g \bar "|"
+    a4 a b( c) a( g) g \breathe f f g a f g4. g \bar "||"
     
     % V
-    \neviditelna a
-    a4 c( d) d d d d d d e( f) g d4. d \bar "|"    
-    % R
     \neviditelna c
-    c4 a c( d) d d \breathe f e d e c d4. d \bar "||"
+    c4 a g a c c( d) c4. \breathe c4 d c b( c a4.) a \bar "|"
+    
+    % R
+    \neviditelna a
+    a4 a b( c) a( g) g \breathe f f g a f g4. g \bar "||"
     
     % Slava
-    d4 d f( d) d4. \breathe d4 c( a) a \breathe c4 a c d( e) d4. d \bar "||"
+    c4 c d d \breathe c a( c) c \breathe c b c a( g) f( g) g \bar "||"
   }
   \addlyrics {
     \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -77,7 +78,7 @@ tIInedeleInespResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - II"
+    piece = "responsorium - VIII"
   }
 }
 

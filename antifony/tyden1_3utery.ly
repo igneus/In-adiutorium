@@ -36,9 +36,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 e e g b c c \breathe
-    b( c) d( c) a4. \breathe
-    g4 f g g \bar "||"
+    a4 c c b c a( g) g4. \breathe a4 a a g f e e \bar "||"
   }
   \addlyrics {
     Slu -- ší se, a -- by do -- bří chvá -- li -- li Hos -- po -- di -- na.
