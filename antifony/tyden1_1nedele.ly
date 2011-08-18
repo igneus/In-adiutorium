@@ -179,6 +179,7 @@ tInedeleLaudResp = \score {
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     f4 bes a g a  f e f f4. \breathe e4 d e f g a a bes a g f f4. \breathe
     e4 g g( f) f4. \bar "||"
   }
@@ -194,6 +195,7 @@ tInedeleLaudResp = \score {
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     f4( g) g( a) g4. \breathe a4 bes c( bes) a g f g g4. \breathe g4 a f4. f \bar "||"
   }
   \addlyrics {
@@ -207,6 +209,7 @@ tInedeleLaudResp = \score {
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     f4 g a a bes c bes( a) g4. \breathe a4 bes c d( bes) g g4. \breathe
     g4 a g( f) f4. \bar "||"
   }

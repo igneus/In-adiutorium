@@ -159,6 +159,7 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
     a4 a a bes( c bes) a( g) g \breathe
     f4 f g a( bes) a a c bes bes g bes a \bar "||"
   }
