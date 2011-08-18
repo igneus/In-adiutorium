@@ -8,10 +8,14 @@
 \include "spolecne.ly"
 
 \paper {
-  oddFooterMarkup = \markup\small { 
-    \fill-line {
-      \fromproperty #'header:title
-      \dnesniDatum 
+  oddFooterMarkup = \markup { 
+    \on-the-fly #last-page \fromproperty #'header:tagline
+    
+    \small { 
+      \fill-line {
+        \fromproperty #'header:title
+        \dnesniDatum 
+      } 
     }
   }
 }
@@ -53,6 +57,8 @@
 \include "antifony/tyden2_2pondeli.ly"
 \pageBreak
 \include "antifony/tyden2_3utery.ly"
+\pageBreak
+\include "antifony/tyden2_4streda.ly"
 \pageBreak
 
 \markup {\nadpisDen {3. TÝDEN ŽALTÁŘE}}
