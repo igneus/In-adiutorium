@@ -44,6 +44,8 @@
   }
 }
 
+\score { \tIctvrtekAntBenedictus }
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -133,3 +135,5 @@
     piece = "3. ant. - IV alt.A (Zj 11)"
   }
 }
+
+\score { \tIctvrtekAntMagnificat }

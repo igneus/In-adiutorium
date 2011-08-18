@@ -53,6 +53,8 @@
   }
 }
 
+\score { \tIIuteryAntBenedictus }
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -160,3 +162,5 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score { \tIIuteryAntMagnificat }
