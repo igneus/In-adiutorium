@@ -156,7 +156,7 @@
   }
 }
 
-\score {
+tIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
     f4 g a g( a) f( d) d \breathe
@@ -174,5 +174,7 @@
     psalmus = "Ef 1,3-10"
   }
 }
+
+\score { \tIpondeliNespAntIII }
 
 \score { \tIpondeliAntMagnificat }
