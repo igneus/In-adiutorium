@@ -119,7 +119,7 @@
   }
 }
 
-\score {
+tIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4( d) d d d d c( a) c( d) d d e f d( c) c4.( d) \breathe
@@ -133,5 +133,7 @@
     piece = "3. ant. - IValt.A (Kol 1)"
   }
 }
+
+\score { \tIstredaNespAntIII }
 
 \score { \tIstredaAntMagnificat }

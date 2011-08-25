@@ -115,23 +115,21 @@
   }
 }
 
-%{
-
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 a a a bes( c) a \breathe a f g a g( f) f \bar "||"
   }
   \addlyrics {
-
+    Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du.
   }
   \header {
-    quid = ". ant."
-    tonus = ""
-    differentia = "" 
-    psalmus = ""
+    quid = "1. ant."
+    tonus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 125"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -139,22 +137,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f f f f f f f f e f d( c) c \breathe
+    d a c d d d d f g f e c d d4. \bar "||"
   }
   \addlyrics {
-
+    Jest -- li -- že zno -- vu ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te do ne -- bes -- ké -- ho krá -- lov -- ství.
   }
   \header {
-    quid = ". ant."
-    tonus = ""
-    differentia = "" 
-    psalmus = ""
+    quid = "2. ant."
+    tonus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 131"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\score {}
+\score { \tIuteryNespAntIII }
 
 \score { \tIuteryAntMagnificat }
-
-%}

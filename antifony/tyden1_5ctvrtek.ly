@@ -121,7 +121,7 @@
   }
 }
 
-\score {
+tIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 g a b( c a) g g4.( a) c4 c( d) d d a( g) a4. \breathe
@@ -135,5 +135,7 @@
     piece = "3. ant. - IV alt.A (Zj 11)"
   }
 }
+
+\score { \tIctvrtekNespAntIII }
 
 \score { \tIctvrtekAntMagnificat }

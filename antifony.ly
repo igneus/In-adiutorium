@@ -72,6 +72,12 @@
 \pageBreak
 \include "antifony/tyden3_2pondeli.ly"
 \pageBreak
+\include "antifony/tyden3_3utery.ly"
+\pageBreak
+\include "antifony/tyden3_4streda.ly"
+\pageBreak
+\include "antifony/tyden3_5ctvrtek.ly"
+\pageBreak
 
 \markup {\nadpisDen {4. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden4_1nedele.ly"

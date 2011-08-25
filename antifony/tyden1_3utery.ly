@@ -121,7 +121,7 @@
   }
 }
 
-\score {
+tIuteryNespAntIII = \score {
   \relative c' {
     \choralniRezim
     f4 g( a) \breathe a e( f) d d c4. d4 d e a a \breathe c a a4. g4( f) e e \bar "||"
@@ -133,5 +133,7 @@
     piece = "3. ant. - IV.E (Zj 4)"
   }
 }
+
+\score { \tIuteryNespAntIII }
 
 \score { \tIuteryAntMagnificat }
