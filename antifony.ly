@@ -86,6 +86,10 @@
 \markup {\nadpisDen {4. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden4_1nedele.ly"
 \pageBreak
+\include "antifony/tyden4_2pondeli.ly"
+\pageBreak
+\include "antifony/tyden4_3utery.ly"
+\pageBreak
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}

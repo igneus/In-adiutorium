@@ -148,7 +148,7 @@
   }
 }
 
-\score {
+tIIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f \major
@@ -169,5 +169,7 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score { \tIIpondeliNespAntIII }
 
 \score { \tIIpondeliAntMagnificat }

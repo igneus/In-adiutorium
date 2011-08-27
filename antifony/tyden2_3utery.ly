@@ -144,7 +144,7 @@
   }
 }
 
-\score {
+tIIuteryNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 c( d) d d c d c( b a g) a \breathe a b( c) a( g) g4. \breathe
@@ -162,5 +162,7 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score { \tIIuteryNespAntIII }
 
 \score { \tIIuteryAntMagnificat }
