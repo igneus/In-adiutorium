@@ -34,9 +34,9 @@ inAdiutorium = \markup {
   tagline = \markup {
     \column {
       \line { datum: \dnesniDatum }
-      \line { vysázel: \sazeciProgram }
       \line { licence: \licenceCcAsU }
       \line { projekt: \inAdiutorium }
+      \line { sazba programem \sazeciProgram }
     }
   }
 }
