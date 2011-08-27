@@ -155,7 +155,7 @@
   }
 }
 
-\score {
+tIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     g4 a b( c) a a g f f( g) g \breathe
@@ -173,5 +173,7 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score { \tIpatekNespAntIII }
 
 \score { \tIpatekAntMagnificat }
