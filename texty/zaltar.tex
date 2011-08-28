@@ -3,7 +3,7 @@
 \usepackage{czech}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{setspace}
-\usepackage{datetime}
+% \usepackage{datetime}
 
 
 \newcommand{\cervene}[1]{%
@@ -18,25 +18,19 @@
 \newcommand{\nadpisHodinka}[1]{%
   \noindent \textbf{#1}}
   
-\newcommand{\nadpisCast}[1]{%
-  \vspace{3 mm}
-  \noindent {\textsc{\cervene{#1}}}}
-  
 \newcommand{\nadpisZalm}[1]{%
   \begin{center}
   \cervene{#1}
-  \end{center}}
+  \end{center}
+  \nopagebreak}
 
-\newcommand{\komentarZalm}[2]{%
-  \noindent {\small \textit{#1} (#2)}}
-  
 \newcommand{\rubrika}[1]{%
   \noindent {\small \cervene{#1}}}
   
   
   
 \pagestyle{headings}
-\onehalfspacing
+\doublespacing
   
 \begin{document}
 
@@ -47,7 +41,9 @@
 % \nadpisTyden{Třetí týden}
 % \nadpisTyden{Čtvrtý týden}
 
-datum: \currenttime \\
+\\
+\\
+\noindent datum: \today \\
 projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)\\
 liturgické texty převzaty z webu http://ebreviar.cz\\
 sazba programem \LaTeX
