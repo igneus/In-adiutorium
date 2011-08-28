@@ -1,4 +1,4 @@
-\markup {\nadpisDen {Čtvrtek 1. týdne}}
+\markup {\nadpisDen {Čtvrtek 2. týdne}}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -157,7 +157,7 @@
   }
 }
 
-\score {
+tIIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 a a a a a c( d) d( c) d4. d4 f( e) d e c4. a \breathe
@@ -175,5 +175,7 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score { \tIIctvrtekNespAntIII }
 
 \score { \tIIctvrtekAntMagnificat }

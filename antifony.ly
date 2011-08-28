@@ -90,6 +90,10 @@
 \pageBreak
 \include "antifony/tyden4_3utery.ly"
 \pageBreak
+\include "antifony/tyden4_4streda.ly"
+\pageBreak
+\include "antifony/tyden4_5ctvrtek.ly"
+\pageBreak
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
