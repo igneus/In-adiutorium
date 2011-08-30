@@ -96,6 +96,7 @@
 \pageBreak
 \include "antifony/tyden4_6patek.ly"
 \pageBreak
+\include "antifony/tyden4_7sobota.ly"
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
