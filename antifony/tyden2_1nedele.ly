@@ -13,7 +13,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.b (Žalm 119(119)-XIV)"
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 119-XIV"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -28,7 +32,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G* (Žalm 16(15))"
+    quid = "2. ant."
+    tonus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 16"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -44,7 +52,11 @@ tIInedeleInespAntIII = \score {
     ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.G (Flp 2, 6-11)"
+    quid = "3. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -98,7 +110,11 @@ tIInedeleInespResp = \score {
     jmé -- nu. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 118(117)"
+    quid = "1. ant."
+    tonus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 118"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -112,7 +128,11 @@ tIInedeleInespResp = \score {
     Zpí -- vej -- me chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G - Dan 3,52-7"
+    quid = "2. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -127,7 +147,11 @@ tIInedeleInespResp = \score {
     ve -- leb -- nost. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (Žalm 150)"
+    quid = "3. ant."
+    tonus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 150"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -177,7 +201,11 @@ tIInedeleLaudResp = \score {
     past -- vi -- nách. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - III.g (Žalm 23(22))"
+    quid = "1. ant."
+    tonus = "III"
+    differentia = "g" 
+    psalmus = "Žalm 23"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -192,7 +220,11 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Žalm 76(75) - I)"
+    quid = "2. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 76-I"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -208,7 +240,11 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.G* (Žalm 76(75) - II)"
+    quid = "3. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 76-II"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -226,7 +262,11 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -241,7 +281,11 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - per (Žalm 115(113B))"
+    quid = "2. ant."
+    tonus = "per"
+    differentia = "" 
+    psalmus = "Žalm 115"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -255,7 +299,11 @@ tIInedeleIInespAntIII = \score {
     ma -- lí i vel -- cí. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (Zj 19,1-17)"
+    quid = "3. ant."
+    tonus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    piece = \markup {\sestavTitulek}
   }
 }
 
