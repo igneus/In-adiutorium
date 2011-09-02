@@ -1,0 +1,29 @@
+\version "2.14.2"
+
+\header {
+  title = "Invitatorium (chorální)"
+  composer = "Jakub Pavlík"
+}
+
+\include "spolecne.ly"
+\include "antifony/invitatoria.ly"
+
+\bookpart {
+  \header {
+    subtitle = "Antifony - 1. a 3. týden žaltáře"
+  }
+  
+  \score { \tInedeleInvitatorium }
+  
+  \score { \tIpondeliInvitatorium }
+  
+  \score { \tIuteryInvitatorium }
+  
+  \score { \tIstredaInvitatorium }
+  
+  \score { \tIctvrtekInvitatorium }
+  
+  \score { \tIpatekInvitatorium }
+  
+  \score { \tIsobotaInvitatorium }
+}
