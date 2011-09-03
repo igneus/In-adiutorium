@@ -5,7 +5,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c d4.) d d4 d d d d e f f( g) g4. \breathe
+    d4( c d4.) d \breathe d4 d d d d e f f( g) g4. \breathe
     f4 e d d \bar "|"
     d4 d d( f) d( c) f( e) d( c) d \bar "||"
   }

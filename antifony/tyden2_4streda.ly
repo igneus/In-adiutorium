@@ -65,7 +65,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f g g a a g( f) f \breathe f g( a) a( g) a a a g( f) g g a g f4. f \bar "||"
+    f4 e f g g a a g( f) f \breathe f g( a) a( g) a a a g( f) g \breathe g a g f4. f \bar "||"
    }
   \addlyrics {
     U -- va -- žo -- val jsem o svých ces -- tách a o -- brá -- til jsem své no -- hy
@@ -102,7 +102,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a b c( a) a \breathe a g f g e e \bar "||"
+    g4 g a b c( a) a \breathe a g f g e4. e \bar "||"
   }
   \addlyrics {
     Bu -- du vo -- lat k_Bo -- hu a on mě za -- chrá -- ní.
@@ -121,7 +121,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g a( g) f( g) g \breathe a a a a a bes g a4. g f4 g g a f e( d) d \bar "||"
+    d4 f g a( g) f( g) g \breathe 
+    a a a a a bes g a4. g \breathe
+    f4 g g a f e( d) d \bar "||"
   }
   \addlyrics {
     V_bla -- že -- né na -- dě -- ji o -- če -- ká -- vej -- me slav -- ný
@@ -157,7 +159,7 @@
 tIIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    d4 d d e( f) d c c( d) d \breathe d c a b( c) a a \bar "||"
+    d4 d d e( f) d c c( d) d \breathe d c a b( c) a a4. \bar "||"
   }
   \addlyrics {
     V_něm by -- lo stvo -- ře -- no všech -- no a všech -- no v_něm tr -- vá.

@@ -62,7 +62,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a a a a a c b a4. a b4 b a g \breathe
+    \key f \major
+    f4 f g a a a a a c bes a4. a bes4 bes a g \breathe
     f e f( g) a f e d( c) d \bar "||"
   }
   \addlyrics {
