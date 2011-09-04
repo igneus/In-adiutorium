@@ -27,3 +27,23 @@
   
   \score { \tIsobotaInvitatorium }
 }
+
+\bookpart {
+  \header {
+    subtitle = "Antifony - 2. a 4. týden žaltáře"
+  }
+  
+  \score { \tIInedeleInvitatorium }
+  
+  \score { \tIIpondeliInvitatorium }
+  
+  \score { \tIIuteryInvitatorium }
+  
+  \score { \tIIstredaInvitatorium }
+  
+  \score { \tIIctvrtekInvitatorium }
+  
+  \score { \tIIpatekInvitatorium }
+  
+  \score { \tIIsobotaInvitatorium }
+}
