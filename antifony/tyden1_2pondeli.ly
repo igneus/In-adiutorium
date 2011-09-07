@@ -160,10 +160,12 @@ tIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
     f4 g a g( a) f( d) d \breathe
-    f g a a g a bes( a g) a f g f( d) d \bar "||"
+    f g a a g a bes( a g) a \breathe
+    f g f( d) d \bar "||"
   }
   \addlyrics {
-    Bůh si nás vy -- vo -- lil a skr -- ze Kris -- ta nás při -- jal 
+    Bůh si nás vy -- vo -- lil 
+    a skr -- ze Kris -- ta nás při -- jal 
     za své dě -- ti.
   }
   \header {

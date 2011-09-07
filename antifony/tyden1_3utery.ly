@@ -79,13 +79,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a c d4.( c4 a4.) \breathe
-    b4 c a a g f g a g( f) f g g4. \breathe
-    c4 d( c) a4. b4( c) a( g) f4.( g) \bar "||"
+    g4 g g( a) g f f4.( g) \breathe
+    g4 a c c c c d d d c a a4. \breathe
+    b4 c a g f( g a) a4.( g) \bar "||"
   }
   \addlyrics {
-    Kde se roz -- mno -- žil hřích, tam se v_mí -- ře ješ -- tě da -- le -- ko
-    ště -- dřej -- ší u -- ká -- za -- la mi -- lost.
+    Kde se roz -- mno -- žil hřích, 
+    tam se v_mí -- ře ješ -- tě da -- le -- ko ště -- dřej -- ší 
+    u -- ká -- za -- la mi -- lost.
   }
   \header {
     piece = "3. ant. - VIII.G (Žalm 14(13))"

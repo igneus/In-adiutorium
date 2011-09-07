@@ -65,7 +65,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f g g a a g( f) f \breathe f g( a) a( g) a a a g( f) g \breathe g a g f4. f \bar "||"
+    f4 e f g g a a g( f) f4. \breathe 
+    f4 g( a) a a a a g( f) g \breathe 
+    g f g g( f) f4. \bar "||"
    }
   \addlyrics {
     U -- va -- žo -- val jsem o svých ces -- tách a o -- brá -- til jsem své no -- hy
@@ -126,8 +128,9 @@
     f4 g g a f e( d) d \bar "||"
   }
   \addlyrics {
-    V_bla -- že -- né na -- dě -- ji o -- če -- ká -- vej -- me slav -- ný
-    pří -- chod na -- še -- ho Spa -- si -- te -- le.
+    V_bla -- že -- né na -- dě -- ji 
+    o -- če -- ká -- vej -- me slav -- ný pří -- chod 
+    na -- še -- ho Spa -- si -- te -- le.
   }
   \header {
     quid = "1. ant."

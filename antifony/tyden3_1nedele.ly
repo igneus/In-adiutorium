@@ -15,7 +15,7 @@
     buď chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
   }
   \header {
-    piece = "1. ant. - V.F (Žalm 113(112))"
+    piece = "1. ant. - V.a (Žalm 113(112))"
   }
 }
 

@@ -152,13 +152,15 @@ tIIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( a') c c c c a g g( a) a \breathe \bar "" 
-    c bes a g a f g4. g \breathe \bar ""
-    a4 bes c bes a4. a \bar "" g4( a) f e f( d c4.) d \bar "||"
+    d4 e f f f g a a( bes) a \breathe
+    a a a bes( g) f g g( a) a \breathe
+    a a a g f f4.( g) \breathe
+    g4 a f d4. d \bar "||"
   }
   \addlyrics {
-    Bůh sám u se -- be u -- sta -- no -- vil, že vše -- chno
-    sjed -- no -- tí v_Kris -- tu, až se na -- pl -- ní čas 
+    Bůh sám u se -- be u -- sta -- no -- vil, 
+    že vše -- chno sjed -- no -- tí v_Kris -- tu, 
+    až se na -- pl -- ní čas 
     pro dí -- lo spá -- sy.
   }
   \header {

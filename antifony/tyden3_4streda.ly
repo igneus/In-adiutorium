@@ -63,8 +63,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a( g) f f( g) g \breathe a a a g a g( f) f \breathe
-    d f g g g f g a( bes) a a \breathe g( a) f4. f \bar "||"
+    f4 g a( g) f f( g) g \breathe 
+    a a a g a g( f) f \bar "|"
+    d f g g g f g a( bes) a a \breathe \bar ""
+    g( a) f4. f \bar "||"
   }
   \addlyrics {
     Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
