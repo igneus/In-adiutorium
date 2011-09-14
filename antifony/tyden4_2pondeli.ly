@@ -99,7 +99,7 @@
 \score {
   \relative c''{
     \choralniRezim
-    a4 bes a a a g( f) g \breathe g a f d d \bar "||"
+    a4( bes) a a a a g( f) g \breathe g a f d4. d \bar "||"
   }
   \addlyrics {
     K_Hos -- po -- di -- nu jsem vo -- lal, a vy -- sly -- šel mě.

@@ -253,8 +253,9 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a b c a a4. b4 c d d d d c d e4. b \breathe a4 e' c( d) b4.( a)
-    \bar "||"
+    a4( b) b b a( b) c( d e) c( b) b \breathe
+    b b e d e d( c) b a g4. a \breathe
+    a4( b) a g4. g \bar "||"
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky po -- dle 
@@ -271,9 +272,9 @@ tIInedeleLaudResp = \score {
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4 d c f e f f4.( g) \breathe a4 bes a g f g g4. \breathe
+    a4 a a g f g g4.( a) \breathe a4 bes a g f g g4. \breathe
     f4 e c d4. \bar "||"
   }
   \addlyrics {
@@ -292,7 +293,10 @@ tIInedeleLaudResp = \score {
 tIInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
-    f4 f f f f f bes c a g g4. \breathe f4 g a c c4. \breathe a4 g f f4. \bar "||"
+    f4 f g( a) a \breathe
+    a a a g bes( a) g( f) f \breathe
+    f e f g( a g f) f \breathe
+    d f( g) g f4. \bar "||"
   }
   \addlyrics {
     Chval -- te Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
@@ -312,6 +316,7 @@ tIInedeleIInespAntIII = \score {
 tIInedeleIInespResp = \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
     
     % R
     \neviditelna a

@@ -69,7 +69,8 @@
     \choralniRezim
     \key f \major
     d4 d d f( g) g a( bes) a a \breathe
-    a g f( c') bes c a g g g \breathe f( e) d4. d \bar "||"
+    a g a c( bes a) g g a a a \breathe
+    f( g) e4. d \bar "||"
   }
   \addlyrics {
     Ne -- be a ze -- mě po -- mi -- nou, a -- le má slo -- va ne -- po -- mi -- nou,
