@@ -60,48 +60,75 @@ doxologieResponsoriumVI = \relative c'' {
   \markup\nadpisDen{"pondělí"}
   
   \score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f4 f f e d e f g \bar "|"
-    g e f d f e \bar "||"
-    
-    % V
-    \neviditelna c
-    c d f f f( d) e( f) g( a) g \bar "|"
-    
-    % R
-    \neviditelna g
-    g e f d f e \bar "||"
-    
-    % Slava
-    \doxologieResponsoriumIV \bar "||"
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f e d e f g \bar "|"
+      g e f d f e \bar "||"
+      % V
+      \neviditelna c
+      c d f f f( d) e( f) g( a) g \bar "|"
+      % R
+      \neviditelna g
+      g e f d f e \bar "||"
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Po -- že -- hna -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
+      \Verse Je -- nom on sám ko -- ná di -- vy_*
+      \Response od vě -- ků na vě -- ky.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
   }
-  \addlyrics {
-    \Response Po -- že -- hna -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
-    \Verse Je -- nom on sám ko -- ná di -- vy_*
-    \Response od vě -- ků na vě -- ky.
-    \slavaRespText
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f g f( e) f( g) g4.( a) \bar "|" 
+      g4 f d f g g( f) f \bar "||"      
+      % V
+      \neviditelna g
+      a( bes) a a g( f) g g4( a g) \bar "|"
+      % R
+      \neviditelna g
+      g4 f d f g g( f) f \bar "||"      
+      % Slava
+      \doxologieResponsoriumVI \bar "||"
+    }
+    \addlyrics {
+      \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
+      \Verse Smi -- luj se na -- de mnou,
+      \Response zhře -- šil jsem pro -- ti to -- bě.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
   }
-  \header {
-    piece = "responsorium - IV"
-  }
-}
   
+  %{
   \markup\nadpisDen{"úterý"}
-  
+
   \markup\nadpisDen{"středa"}
-  
+
   \markup\nadpisDen{"čtvrtek"}
-  
+
   \markup\nadpisDen{"pátek"}
-  
+
   \markup\nadpisDen{"sobota"}
-  
+  %}
 }
 
+%{
 \bookpart {
   \header {
     subtitle = "2. a 4. týden žaltáře"
@@ -120,3 +147,4 @@ doxologieResponsoriumVI = \relative c'' {
   \markup\nadpisDen{"sobota"}
   
 }
+%}
