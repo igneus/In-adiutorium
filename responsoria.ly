@@ -1,81 +1,122 @@
-\version "2.12.3"
+\version "2.14.2"
 
 \header {
   title = "Responsoria"
-  composer = "Jakub Pavlík"
+  % composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
 
-% mrtvou notu davam tam, kde je v textu znacka responsoria, verse 
-% nebo hvezdicka
-mrtvaNota = { \neviditelna a }
+doxologieResponsoriumIV = \relative c' {
+  e4 g g( a) a a g( a) e \breathe
+  f e d e( f) g g
+}
 
+doxologieResponsoriumVI = \relative c'' {
+  a4 a a a a g( a) g \breathe
+  g a g f( g) g( a) a
+}
+
+%{
 \score {
-  <<
   \relative c'' {
-    \key f \major
     \choralniRezim
-
+    
     % R
-    \new Voice = "respa1" {
-      \choralniRezim
-      \mrtvaNota f4 \parenthesize e d d\breve f4 g \parenthesize a a4.
-    }
-
-    \new Voice = "hvezda1" {
-      \mrtvaNota \bar "|"
-    }
-
-    \new Voice = "respa2" {
-      \choralniRezim
-      bes\breve a4 g \parenthesize a a4. \bar "||" \break
-    }
-
+    \neviditelna
+    
     % V
-    \new Voice = "vers" {
-      \choralniRezim
-      \mrtvaNota bes\breve c4 bes a \parenthesize g g4.
-    }
-
-    \new Voice = "hvezda2" {
-      \mrtvaNota \bar "|"
-    }
-
+    \neviditelna
+    
     % R
-    \new Voice = "respb" {
-      \choralniRezim
-      \mrtvaNota bes\breve a4 g \parenthesize a a4. \bar "||" \break
-    }
-
+    \neviditelna
+    
     % Slava
-    \new Voice = "slava" {
-      \choralniRezim
-      bes4 bes a( bes) c bes a g4.
-      bes4 a f g bes a4. \bar "||"
-    }
+    \doxologieResponsorium \bar "||"
   }
-  \new Lyrics \lyricsto "respa1" \lyricmode {
+  \addlyrics {
     \Response
-  }
-  \new Lyrics \lyricsto "hvezda1" \lyricmode {
-    \Hvezdicka    
-  }
-  \new Lyrics \lyricsto vers \lyricmode {
     \Verse
-  }
-  \new Lyrics \lyricsto "hvezda2" \lyricmode {
-    \Hvezdicka    
-  }
-  \new Lyrics \lyricsto respb \lyricmode {
     \Response
+    \slavaRespText
   }
-  \new Lyrics \lyricsto slava \lyricmode {
-    Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
-  }
-  >>
-
   \header {
-    piece = "Responsorium breve I"
+    piece = "responsorium - "
   }
+}
+%}
+
+\bookpart {
+  \header {
+    subtitle = "1. a 3. týden žaltáře"
+  }
+  
+  \markup\justify {
+    Responsoria pro ranní chvály a nešpory férií. Nápěvy jsou
+    převzaté z 
+    Antiphonarium sacri ordinis praedicatorum pro diurnis horis, Romae 1933.
+  }
+  
+  \markup\nadpisDen{"pondělí"}
+  
+  \score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f e d e f g \bar "|"
+    g e f d f e \bar "||"
+    
+    % V
+    \neviditelna c
+    c d f f f( d) e( f) g( a) g \bar "|"
+    
+    % R
+    \neviditelna g
+    g e f d f e \bar "||"
+    
+    % Slava
+    \doxologieResponsoriumIV \bar "||"
+  }
+  \addlyrics {
+    \Response Po -- že -- hna -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
+    \Verse Je -- nom on sám ko -- ná di -- vy_*
+    \Response od vě -- ků na vě -- ky.
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - IV"
+  }
+}
+  
+  \markup\nadpisDen{"úterý"}
+  
+  \markup\nadpisDen{"středa"}
+  
+  \markup\nadpisDen{"čtvrtek"}
+  
+  \markup\nadpisDen{"pátek"}
+  
+  \markup\nadpisDen{"sobota"}
+  
+}
+
+\bookpart {
+  \header {
+    subtitle = "2. a 4. týden žaltáře"
+  }
+  
+  \markup\nadpisDen{"pondělí"}
+  
+  \markup\nadpisDen{"úterý"}
+  
+  \markup\nadpisDen{"středa"}
+  
+  \markup\nadpisDen{"čtvrtek"}
+  
+  \markup\nadpisDen{"pátek"}
+  
+  \markup\nadpisDen{"sobota"}
+  
 }
