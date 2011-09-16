@@ -41,7 +41,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d c b a( g) g \breathe a( b) c a c a g4. g \bar "||"
+    c4 d d c b a( g) g \breathe a( b) c a b a g4. g \bar "||"
   }
   \addlyrics {
     Zpí -- vej -- te Hos -- po -- di -- nu,
@@ -63,9 +63,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4 g g a bes a g a a a bes c a a \breathe g f f( g) g \bar "|"
-    f f g a a f e f( d) d \bar "||"
+    e4 f g a g f e e \breathe
+    d c( d) e f e e4. \breathe
+    f4( a) g f( e) e \bar "|"
+    a c( b) c a \breathe \bar ""
+    a g f f( g e) e \bar "||"
   }
   \addlyrics {
     Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
@@ -73,8 +75,8 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
-    differentia = "f" 
+    tonus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 119-XII"
     piece = \markup {\sestavTitulek}
   }
@@ -119,8 +121,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f f( a) a a a a b c a( g) g \breathe
-    a a a b a a g f f e \bar "||"
+    g4 g g( a) a a a b c a g g \breathe
+    f f f g g g f g e e \bar "||"
   }
   \addlyrics {
     Na -- še o -- či hle -- dí na Hos -- po -- di -- na,

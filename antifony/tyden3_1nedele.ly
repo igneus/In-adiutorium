@@ -45,9 +45,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 a a a c( bes) a( g) a4. \breathe
-    f4 f( g) e4.( d) \breathe
-    d4 f( e) c d4. \bar "||"
+    a4 bes a g g a a4. \breathe g4 f( d) d4. \breathe 
+    c4 f e d \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
@@ -76,8 +75,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a4.( c) d4 d c( d) a \breathe c4( b) a4.( g) \breathe
-    a4 g f( a) g4. \bar "||"
+    a4( c) c d d c d c( b a) a \breathe g f f( g) g \bar "||"
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.

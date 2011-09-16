@@ -54,27 +54,24 @@ tInedeleInespAntIII = \score {
 \score { \tInedeleInespAntIII }
 
 tInedeleInespResp = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f\major
     
     % R
-    \neviditelna a
-    a4 f( g f) f4. g4 a bes4. c a4 g g g \bar "|"
-    f e f g4. a f4 d d \bar "||"
+    \neviditelna e
+    e4 g( a) a( g a4.) a4 b g4. e \breathe f4 d( f) e e \bar "|"
+    f4 f f f( d) f e e e \bar "||"
     
     % V
-    \neviditelna d
-    c'4( bes a) g4.( a) a4 a a g a bes( c a) g \bar "|"
+    \neviditelna a
+    a4 a a b( c) c4. b4( c) a g4. e \bar "|"
     
     % R
-    \neviditelna g
-    f e f g4. a f4 d d \bar "||"
+    \neviditelna f
+    f4 f f f( d) f e e e \bar "||"
     
     % Slava
-    c'4 c d( c) a4.( g) \breathe
-    a4 f( g) f4.( d) \breathe
-    d4 f g a( c) a4. a \bar "||"
+    a4 a c b g g( a) a \breathe a g f f( g) e4. e \bar "||"
   }
   \addlyrics {
     \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
@@ -288,7 +285,7 @@ tInedeleIInespResp = \score {
     a4 b c a( g) g g f g a f e d d \bar "||"
     
     % Slava
-    a'4 a a a a g a \breathe a f e f d d \bar "||"
+    a'4 a a( c) c \breathe c b( c) a \breathe a b g f( g) a4. a \bar "||"
   }
   \addlyrics {
     \Response Po -- že -- hna -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
