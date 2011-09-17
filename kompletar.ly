@@ -10,13 +10,14 @@
 \paper {
   ragged-bottom=##f
   ragged-last-bottom=##f
+  
+  % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
+  markup-markup-spacing #'minimum-distance = #5
 }
 
 \markup {
   \wordwrap {
     Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum}, Řím 1912, s. *26.
-    \typewriter{http://imslp.org/wiki/Antiphonale_(Gregorian_Chant)} - 
-    staženo 17.1.2011
   }
 }
 
@@ -92,8 +93,6 @@
   }
 }
 
-\pageBreak % -----------------------------------------
-
 \score {
   \relative c' {
     \choralniRezim
@@ -113,8 +112,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g( a) a a g f g g \breathe
-    g g g g a a g f d4 d4. \bar "||"
+    d4 d f e f d c c( d) d \breathe
+    f f f f g f e c d d \bar "||"
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,
@@ -128,7 +127,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) e f g f e f d d \bar "||"
+    d4 d c d e( f) d \breathe
+    g f e d \bar "||"
   }
   \addlyrics {
     Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
@@ -141,7 +141,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( g) e4.( d) c4 f( e) c d d4. \bar "||"
+    d4 f( g) e4.( d) f4 e c d d4. \bar "||"
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
@@ -154,11 +154,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d \breathe
-    d d c d f a g f( e) d4. \bar "||"
+    d4( c bes) a \breathe
+    d d e( f) d \breathe
+    g f e e( f d) d \bar "||"
   }
   \addlyrics {
-    Bo -- že, ve dne i v_no -- ci k_to -- bě vo -- lám.
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
   }
   \header {
     piece = "pátek"
