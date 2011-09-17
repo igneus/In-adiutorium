@@ -66,7 +66,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 a a a bes a g a f( d) d \bar "||"
+    a4 a g a a( bes) bes( a) a \breathe
+    g( f) e( f d4.) d \bar "||"
   }
   \addlyrics {
     Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
@@ -120,7 +121,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a a a bes( c) a \breathe a f g a g( f) f \bar "||"
+    f4 g g g a( bes a) a \breathe
+    a a g a g( f) f \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du.
