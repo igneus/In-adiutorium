@@ -47,3 +47,14 @@
   
   \score { \tIIsobotaInvitatorium }
 }
+
+\include "invitatoria/zalm95text.ly"
+\include "invitatoria/zalm95_I_D.ly"
+
+\bookpart {
+  \header {
+    subtitle = "Žalm 95"
+  }
+  
+  \score { \zalmXCVtonusID }
+}
