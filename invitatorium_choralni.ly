@@ -56,5 +56,7 @@
     subtitle = "Žalm 95"
   }
   
+  \markup { \zalmXCVtonusIDpoznamka }
+  
   \score { \zalmXCVtonusID }
 }
