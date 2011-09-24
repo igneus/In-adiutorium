@@ -14,7 +14,7 @@ zalmXCVtext = \lyricmode {
   Pojď -- me, pad -- ně -- me, klaň -- me se,_*
   po -- klek -- ně -- me před svým tvůr -- cem, Hos -- po -- di -- nem!
   Ne -- boť on je náš Bůh_*
-  a my jsme lid, kte -- rý pa -- se, stád -- ce je -- ho ru -- kou ve -- de -- né.
+  a my jsme lid, kte -- rý pa -- se, stád -- ce ve -- de -- né je -- ho ru -- kou.
   
   Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:_+
   Ne -- za -- tvr -- zuj -- te svá srd -- ce ja -- ko v_Me -- ri -- bě,_*
