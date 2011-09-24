@@ -14,16 +14,16 @@ zalmXCVtonusID = \score {
     % Pojdme
     d4( a' bes) a 
     a a g a( bes) a a( g) a \bar "|"
-    a g f( e) f e g f e( d e) d \bar "|"
+    a g f( e) f g f f e( d e) d \bar "|"
     d4 f g a a a a( bes) a a( g) a \bar "|"
-    g f( g) a( g) f e g( f) e( d) c( d e4.) d4. \strofa
+    a g( a bes a) g( f) e e g( f) e( d) c( d e4.) d4. \strofa
     
     % Nebot veliky
     d4( a' bes) a a a g a( bes) a g g( a) a \bar "|"
-    g a g f e( f) d e c g' f( e d e) d \bar "|"
+    g a g f e( f) d e c g' f( e c) d \bar "|"
     f g a a a a a g a( bes) a \bar "|"
     a a a g f g f e d( e d) \bar "|"
-    d( f) f f f f \breathe f f f g( f) g( a) g( f e) \bar "|"
+    d( f) f f f f \breathe f f f g( a) g( f e) e \bar "|"
     f f g f e d e d c( d) d( e4. d) \strofa
     
     % Pojdme, padneme
@@ -43,7 +43,7 @@ zalmXCVtonusID = \score {
     % Ctyricet let
     d4( a') bes( a) g a a a a a a a a a a a g( f) f \bar "|"
     a a a a a a a g a( bes) a a( g) a \bar "|"
-    g f g a g( f) e( d e) d \bar "|"
+    a a a g f e( d e) d \bar "|"
     d f g a a a a g a( bes a) a \bar "|"
     a( g) f( e) e g f e e d c( d) d( e4. d) \strofa
     
@@ -51,7 +51,7 @@ zalmXCVtonusID = \score {
     d4( a' bes) a a( bes) a g g( a) a \bar "|"
     a g f g( f) e( d e) d \bar "|"
     f g a a a a a a a a( bes) a g g( a) a \bar "|"
-    a a a( bes) a f( g) f( e d) \breathe c( d) d( e4. d) \strofa
+    a a( bes) a a f( g) f( e d) \breathe c( d) d( e4. d) \strofa
   }
   \addlyrics {
     \zalmXCVtext
