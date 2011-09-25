@@ -31,9 +31,9 @@
   }
 }
 
-\score { \tIInedeleInespAntIII }
+% \score { \tIInedeleInespAntIII }
 
-\score { \tIInedeleInespResp }
+% \score { \tIInedeleInespResp }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -87,7 +87,7 @@
   }
 }
 
-\score { \tIInedeleLaudResp }
+% \score { \tIInedeleLaudResp }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -177,6 +177,6 @@
   }
 }
 
-\score { \tIInedeleIInespAntIII }
+% \score { \tIInedeleIInespAntIII }
 
-\score { \tIInedeleIInespResp }
+% \score { \tIInedeleIInespResp }

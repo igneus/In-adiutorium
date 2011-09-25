@@ -59,7 +59,7 @@
   }
 }
 
-\score { \tIIpatekAntBenedictus }
+% \score { \tIIpatekAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -161,6 +161,6 @@
   }
 }
 
-\score { \tIIpatekNespAntIII }
+% \score { \tIIpatekNespAntIII }
 
-\score { \tIIpatekAntMagnificat }
+% \score { \tIIpatekAntMagnificat }

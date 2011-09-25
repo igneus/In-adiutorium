@@ -1,5 +1,14 @@
 \version "2.12.3"
 
+%% Toto je git branch "antiphons_without_repeats"
+%% verze souboru antifon, kde antifony a responsoria
+%% opakujici se v dvoutydennim cyklu jsou uvedeny
+%% pouze jednou.
+%% Smyslem toho je snazsi udrzeni poradku ve vytistenych
+%% papirech - kdyz ve vytisku opravim antifonu,
+%% nemusim myslet na to, abych si opravu zanesl i do jejiho
+%% druheho vyskytu.
+
 \header {
   title = "Antifony ze žaltáře"
   composer = "Jakub Pavlík"
@@ -34,6 +43,10 @@
 % tyden / den / hodinka / antifona / "noty" nebo "text"
 
 \include "antifony/ferie_kantevgant.ly"
+
+vizI = \markup { viz 1. týden žaltáře }
+vizII = \markup { viz 2. týden žaltáře }
+% \markup {\vizI}
 
 \markup {\nadpisDen {1. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden1_1nedele.ly"

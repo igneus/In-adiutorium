@@ -56,7 +56,7 @@
   }
 }
 
-\score { \tIsobotaAntBenedictus }
+% \score { \tIsobotaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
