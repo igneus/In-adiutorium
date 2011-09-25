@@ -288,9 +288,9 @@ tInedeleIInespResp = \score {
     a'4 a a( c) c \breathe c b( c) a \breathe a b g f( g) a4. a \bar "||"
   }
   \addlyrics {
-    \Response Po -- že -- hna -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
+    \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
     Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-    \Verse Po -- že -- hna -- né je tvé slav -- né sva -- té jmé -- no.
+    \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
     \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
     \slavaRespText
   }
