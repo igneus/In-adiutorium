@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Responsoria"
+  title = "Responsoria ze žaltáře"
   % composer = "Jakub Pavlík"
 }
 
@@ -23,32 +23,32 @@ doxologieResponsoriumVI = \relative c'' {
 }
 
 %{
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna
-    
-    % V
-    \neviditelna
-    
-    % R
-    \neviditelna
-    
-    % Slava
-    \doxologieResponsorium \bar "||"
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna
+      
+      % V
+      \neviditelna
+      
+      % R
+      \neviditelna
+      
+      % Slava
+      \doxologieResponsorium \bar "||"
+    }
+    \addlyrics {
+      \Response
+      \Verse
+      \Response
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - "
+    }
   }
-  \addlyrics {
-    \Response
-    \Verse
-    \Response
-    \slavaRespText
-  }
-  \header {
-    piece = "responsorium - "
-  }
-}
 %}
 
 \bookpart {
@@ -57,10 +57,99 @@ doxologieResponsoriumVI = \relative c'' {
   }
   
   \markup\justify {
-    Responsoria pro ranní chvály a nešpory férií. Nápěvy volně podle
+    Responsoria pro ranní chvály a nešpory. Nápěvy volně podle
     Antiphonarium sacri ordinis praedicatorum pro diurnis horis, Romae 1933.
   }
   
+  \markup\nadpisDen{"neděle"}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f( d) d \breathe e f f( g) g \bar "|"
+      g e e f( d) f e e e \bar "||"
+      % V
+      \neviditelna d
+      d( f) f f f f f( d) e f( g) g \bar "|"
+      % R
+      \neviditelna g
+      g e e f( d) f e e e \bar "||"
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+      vše -- chno jsi mou -- dře u -- či -- nil.
+      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+      \Response vše -- chno jsi mou -- dře u -- či -- nil.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f( d) e f f( g) g \bar "|"
+      g e f d e e \bar "||"
+      % V
+      \neviditelna d
+      c d( f) f f f f f f e f( g) g \bar "|"
+      % R
+      \neviditelna g
+      g e f d e e \bar "||"
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
+      \Response smi -- luj se nad ná -- mi.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f f f( d) e f f( g) g \bar "|"
+      g f g f( e) e e d e f g f e e \bar "||"
+      % V
+      \neviditelna
+      c d( f) f f f f f f f f( d) e( f) g g \bar "|"
+      % R
+      \neviditelna g
+      g f g f( e) e e d e f g f e e \bar "||"
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
+      Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+      \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
+      \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+
   \markup\nadpisDen{"pondělí"}
   
   \score {
