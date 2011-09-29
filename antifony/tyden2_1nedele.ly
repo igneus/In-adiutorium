@@ -24,8 +24,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c b( c a) g b( c) c \breathe
-    d b( c) a( g) g \breathe f a g g4. \bar "||"
+    g4 g g g a( c) c d( b) c \breathe
+    b c a g \breathe
+    f a g( f) g4. \bar "||"
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
@@ -34,7 +35,7 @@
   \header {
     quid = "2. ant."
     tonus = "VIII"
-    differentia = "c" 
+    differentia = "G" 
     psalmus = "Žalm 16"
     piece = \markup {\sestavTitulek}
   }

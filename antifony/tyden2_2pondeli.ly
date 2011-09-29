@@ -60,7 +60,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a b c c4. \breathe c4 d d c d c( b) b \breathe a c c b c a( g) g \bar "||"
+    a4 a b c c4. \breathe c4 d d c d c( b) b \breathe
+    b c( d) c( a) g f g4. g \bar "||"
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slo -- vo

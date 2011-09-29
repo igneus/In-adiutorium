@@ -63,7 +63,7 @@
     \choralniRezim
     a4 c bes a g4. a \breathe
     a4 g a bes c bes( a) a \breathe
-    a4 c a g a f( g e) d \bar "||"
+    a4 a( d,) e( f) g f e d \bar "||"
   }
   \addlyrics {
     Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
