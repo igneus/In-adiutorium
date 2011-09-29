@@ -161,7 +161,7 @@ tIpondeliNespAntIII = \score {
     \choralniRezim
     f4 g a g( a) f( d) d \breathe
     f g a a g a bes( a g) a \breathe
-    f g f( d) d \bar "||"
+    g f e( d) d \bar "||"
   }
   \addlyrics {
     Bůh si nás vy -- vo -- lil 

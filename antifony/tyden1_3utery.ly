@@ -5,9 +5,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a4. \breathe
-    a4 c c d( c) a4.( g) \breathe
-    f4 g( a) a4. \breathe
+    a4 a a g f g( a) a4. \breathe \bar ""
+    a4 c c d( c) a4.( g) \bar "|"
+    f4 g( a) a4. \breathe \bar ""
     a4 a a a f e d d \bar "||"
   }
   \addlyrics {

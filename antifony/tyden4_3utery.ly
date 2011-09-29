@@ -83,7 +83,7 @@
   \relative c' {
     \choralniRezim
     d4 c( d) e( f) f( e) f( d) d \breathe
-    e g( f) d d c f e d \bar "||"
+    e g( f) d d \breathe c f e d \bar "||"
   }
   \addlyrics {
     Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,

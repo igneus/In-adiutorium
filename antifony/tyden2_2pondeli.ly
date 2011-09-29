@@ -117,7 +117,7 @@
   \relative c'' {
     \choralniRezim
     g4 g a( g) a( c) c4. \breathe d4 c b a( b g) g \breathe
-    f f g a a a g( a) g4. g \bar "||"
+    f f g a a a b( a) g4. g \bar "||"
   }
   \addlyrics {
     Krá -- sou vy -- ni -- káš nad lid -- ské sy -- ny,
@@ -135,7 +135,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \breathe c c c b( c) a( g) g \bar "||"
+    g4 f g a( c) c \breathe d c b a( b) a( g) g \bar "||"
   }
   \addlyrics {
     Že -- nich je ta -- dy, jdě -- te mu na -- pro -- ti!

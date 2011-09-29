@@ -81,7 +81,7 @@ tIInedeleInespResp = \score {
     a4 a b( c) a( g) g \breathe f f g a f g4. g \bar "||"
     
     % Slava
-    c4 c d d \breathe c a( c) c \breathe c b c a( g) f( g) g \bar "||"
+    c4 c c( d) d \breathe c a( c) c \breathe c b c a( g) f( g) g \bar "||"
   }
   \addlyrics {
     \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*

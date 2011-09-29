@@ -255,7 +255,7 @@ tInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. f4 f( g a) bes g f f4. \breathe
+    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. \breathe f4 f( g a) bes g f f4. \breathe
     d4 f( g) g f \bar "||"
   }
   \addlyrics {
