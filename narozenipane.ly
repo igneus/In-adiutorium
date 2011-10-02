@@ -95,7 +95,8 @@
   }
 }
 
-\markup {Následuja totéž responsorium ve starší verzi, kterou časem smažu.}
+\markup {Následuja totéž responsorium ve starší verzi 
+(z Vánoc 2010, odvozené z antifony invitatoria), kterou časem smažu.}
 
 vInoty = { 
   r8 d f g a g f g
@@ -166,6 +167,83 @@ doxotext = \lyricmode {
     tonus = "VIII"
     differentia = "G" 
     psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {Další verze téže antifony, kterou jsem omylem složil, zapomenuv,
+že už jeden nápěv má:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d e f) f g f e( f) d( c) c \breathe
+    c d e e( f) f f( g f) d e4. e \breathe
+    e4( g) g g a( f e) d \breathe
+    c d d( f e) d \bar "||"
+  }
+  \addlyrics {
+    Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+    krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+  }
+  \header {
+    quid = "ant."
+    tonus = "II"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a a g a a b c a( g) g \bar "|"
+    a a a a( c) \breathe c( d) a a g( a) a \bar "|"
+    d4 d d d c( b) c( d) d \breathe 
+    d f d d f( e) d( c) d \breathe
+    d d b( c) b a b( g) g \bar "|"
+    b c a( g) g \bar "||"
+  }
+  \addlyrics {
+    Ko -- ho jste, pas -- tý -- ři, u -- vi -- dě -- li?
+    Řek -- ně -- te nám: Kdo při -- šel na svět?
+    Vi -- dě -- li jsme dě -- ťát -- ko
+    a zá -- stu -- py an -- dě -- lů,
+    kte -- ří chvá -- li -- li Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \breathe
+    c c c c d b c b( a g) g \bar "|"
+    f f g a( c) b( a) a \breathe
+    b( c) a a g( f g) g \bar "|"
+    c( b c) a( g) g( a g) g \bar "||"
+  }
+  \addlyrics {
+    An -- děl ře -- kl pas -- tý -- řům:
+    Zvěs -- tu -- ji vám ve -- li -- kou ra -- dost,
+    dnes se vám na -- ro -- dil Spa -- si -- tel svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = ""
     piece = \markup {\sestavTitulek}
   }
 }
