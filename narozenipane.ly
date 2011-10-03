@@ -200,6 +200,25 @@ doxotext = \lyricmode {
 \score {
   \relative c'' {
     \choralniRezim
+    d4( e) c d c b( c) a( g) g \breathe
+    b( c d4.) d c4 b a( g) g \bar "||"
+  }
+  \addlyrics {
+    Kris -- tus se nám na -- ro -- dil:
+    pojď -- me, kla -- něj -- me se!
+  }
+  \header {
+    quid = "ant."
+    tonus = "VII"
+    differentia = "d" 
+    psalmus = "invitatorium"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 a a g a a b c a( g) g \bar "|"
     a a a a( c) \breathe c( d) a a g( a) a \bar "|"
     d4 d d d c( b) c( d) d \breathe 
@@ -245,5 +264,69 @@ doxotext = \lyricmode {
     differentia = "G" 
     psalmus = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e f f( g) g \breathe
+    f( e) d e c4.( d) \breathe
+    d4 f d g( f e4.) e \breathe \bar ""
+    e4( f) d( c) d \breathe \bar ""
+    c f e d \bar "||"
+  }
+  \addlyrics {
+    Dí -- tě se nám na -- ro -- di -- lo,
+    syn je nám dán,
+    a do -- stal jmé -- no:
+    moc -- ný Bůh.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    tonus = "II"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+respAlelujaVI = { 
+  a4 a( g) g f \breathe d f( g) g f 
+}
+
+respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
+
+doxologieRespAlelujaVI = {
+  f4 e g( a) a a a( bes) a \breathe
+  a a g a( g) f f
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f f f f f f e g a \bar "|"
+    \respAlelujaVI \bar "||"
+    % V
+    \neviditelna f
+    f4 f f f f f f f f f e g a \bar "|"
+    % R
+    \neviditelna a
+    \respAlelujaVI \bar "||"
+    % Slava
+    \doxologieRespAlelujaVI \bar "||"
+  }
+  \addlyrics {
+    \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su._* \respAlelujaText
+    \Verse Roz -- po -- me -- nul se na svou do -- bro -- tu a věr -- nost._*
+    \Response \respAlelujaText
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - VI"
   }
 }
