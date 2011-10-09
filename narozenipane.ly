@@ -330,3 +330,193 @@ doxologieRespAlelujaVI = {
     piece = "responsorium - VI"
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d f e d e c( d) d \bar "|"
+    d c b a b c b( d) d \breathe \bar ""
+    d d c4. b4( a) b g g g \bar "|"
+    a f a g \bar "||"
+  }
+  \addlyrics {
+    Slá -- va na vý -- sos -- tech Bo -- hu
+    a na ye -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    tonus = "VII"
+    differentia = "c" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( g) g g a bes a g a f g a a \breathe
+    a a g a bes( f) g a \breathe
+    a bes a a a g f g d d \bar "||"
+  }
+  \addlyrics {
+    Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+    kte -- rá o něm sly -- še -- li.
+  }
+  \header {
+    quid = "ant."
+    tonus = "I"
+    differentia = "f" 
+    psalmus = "dopoledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c b c a g a a \breathe
+    a a a d( c d) e( f) d c c d d \breathe
+    d c b c b a g g \bar "||"
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co vy -- prá -- vě -- li pas -- tý -- ři,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant."
+    tonus = "VII"
+    differentia = "a" 
+    psalmus = "v poledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d( a') a a g bes a g a4. g \breathe
+    g4 a bes a g g g a f e d d \bar "||"
+  }
+  \addlyrics {
+    Mo -- je o -- či u -- vi -- dě -- ly tvou spá -- su,
+    kte -- rou jsi při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+  }
+  \header {
+    quid = "ant."
+    tonus = "I"
+    differentia = "D" 
+    psalmus = "odpoledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % melodie postavena na 1. ant 2. nespor nedele 4. tydne
+    % zaltare - 9.10.2011
+    % (obe antifony maji velkou cast textu spolecnou, i do budoucna
+    % by mohlo byt vhodne zachovat podobnost melodie)
+    
+    % prevzate:
+    a4 a a g( f) g( a) a g a c( d) d d \breathe \bar ""
+    d4( e c4.) c d4 c b a( g) g \breathe \bar ""
+    
+    % novy kousek:
+    a( d) c d4. a b4 c a( g) g \bar "||"
+  }
+  \addlyrics {
+    O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 
+    v_po -- svát -- ném les -- ku:
+    zplo -- dil jsem tě před ji -- třen -- kou.
+  }
+  \header {
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a a bes g a4. g \breathe
+    f4 f g a a a g f e d \bar "||"
+  }
+  \addlyrics {
+    U Hos -- po -- di -- na je sli -- to -- vá -- ní,
+    hoj -- né je u ně -- ho vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    tonus = "I"
+    differentia = "f" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g a( c) c \breathe
+    c c d b c a4.( g) \bar "|"
+    g4 a b c c c \breathe \bar ""
+    c c b( d) c a g( f) g \bar "||"
+  }
+  \addlyrics {
+    Na po -- čát -- ku by -- lo Slo -- vo,
+    a to Slo -- vo byl Bůh;
+    Bůh se nám na -- ro -- dil 
+    ja -- ko Spa -- si -- tel svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f e g a \bar "|"
+    \respAlelujaVI \bar "||"
+    % V
+    \neviditelna f
+    f4 f f f f f e g( a) a \bar "|"
+    % R
+    \neviditelna a
+    \respAlelujaVI \bar "||"
+    % Slava
+    \doxologieRespAlelujaVI \bar "||"
+  }
+  \addlyrics {
+    \Response Slo -- vo se sta -- lo tě -- lem._*
+    \respAlelujaText
+    \Verse A pře -- bý -- va -- lo me -- zi ná -- mi._*
+    \Response \respAlelujaText
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - VI"
+  }
+}
