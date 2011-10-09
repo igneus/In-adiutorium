@@ -61,11 +61,10 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f \major
-    g4 g g( a g) g \breathe a a bes c bes( a) a \breathe
-    a g f e e d \bar "||"
+    f4 g g( a) a \breathe a f g a f4. e \breathe
+    e4 f g e e d \bar "||"
   }
   \addlyrics {
     Bla -- ze to -- mu, kdo zná Bo -- ží vů -- li a ži -- je po -- dle ní.
@@ -73,7 +72,7 @@
   \header {
     quid = "1. ant."
     tonus = "I"
-    differentia = "g" 
+    differentia = "f" 
     psalmus = "Žalm 119-XVIII"
     piece = \markup {\sestavTitulek}
   }
