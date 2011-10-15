@@ -177,8 +177,9 @@ tInedeleLaudResp = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 bes a g a  f e f f4. \breathe e4 d e f g a a bes a g f f4. \breathe
-    e4 g g( f) f4. \bar "||"
+    f4 g g g g a f g g \breathe
+    a a bes g g a a a c bes( a) f f \breathe
+    g a f f \bar "||"
   }
   \addlyrics {
     U -- tí -- kej -- me se k_Hos -- po -- di -- nu,
