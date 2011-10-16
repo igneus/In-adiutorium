@@ -2,22 +2,17 @@
 
 \header {
   title = "Kompletář"
-  composer = "Jakub Pavlík"
+  author = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
 
-\paper {
-  ragged-bottom=##f
-  ragged-last-bottom=##f
-  
-  % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
-  markup-markup-spacing #'minimum-distance = #5
-}
-
 \markup {
-  \wordwrap {
-    Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum}, Řím 1912, s. *26.
+  \justify {
+    Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum} (Řím 1912;
+    \typewriter{http://imslp.org/wiki/Antiphonale_(Gregorian_Chant)} - 
+    staženo 17.1.2011),
+    ze str. *26 (ke konci, sekce "Toni communes").
   }
 }
 
@@ -25,12 +20,12 @@
   \relative c' {
     \choralniRezim
     
-    c d f f\breve f4-| \parenthesize d d4. \breathe \mark "+"
+    f\breve f4-| \parenthesize d d4. \breathe \mark "+"
     f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
     f\breve c4 d e-| \parenthesize d d4. \bar "||"
   }
   \header {
-    piece = "psalmodie (modus II)"
+    piece = "psalmodie"
   }
 }
 
@@ -38,7 +33,11 @@
   \relative c' {
     \choralniRezim
 
-    d4 f f g g f d d \breathe e f d c( d) d \bar "||"
+    % h bude mit nozicku nahoru - jinak se tu totiz prekryva becko s ligaturou
+    \override Stem #'neutral-direction = #up
+
+    d4 f g a a( bes) g bes a4. \breathe
+    a4 g f e( f) d4. \bar "||"
   }
   \addlyrics {
     Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
@@ -82,11 +81,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f e f g f d d4. \breathe
-    c4 a( c) d f e c d4. \bar "||"
+    f4 g f e d e( f) f4. \breathe
+    g4 a( c) b a g e f4. \bar "||"
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
+    Bo -- že, tys sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
     piece = "pondělí"
@@ -96,9 +95,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    a4 c( d) d \breathe
-    e f e d( c) a4. \breathe
-    f'4 f e d( c) d4. \bar "||"
+    g'4( f) d( c) c \breathe
+    b c d e( f) d \breathe
+    e f f d d4. \bar "||"
   }
   \addlyrics {
     Ne -- skrý -- vej pře -- de mnou svou tvář,
@@ -112,8 +111,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f d c c( d) d \breathe
-    f f f f g f e c d d \bar "||"
+    d4 f g( a) a a g f g g \breathe
+    g g g g a a g f d4. d4. \bar "||"
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,
@@ -127,8 +126,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d e( f) d \breathe
-    g f e d \bar "||"
+    d4 c( d) e f g f e f d d \bar "||"
   }
   \addlyrics {
     Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
@@ -141,7 +139,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( g) e4.( d) f4 e c d d4. \bar "||"
+    d4 d d f g e d d4. \bar "||"
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
@@ -154,12 +152,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c bes) a \breathe
-    d d e( f) d \breathe
-    g f e e( f d) d \bar "||"
+    d4 d \breathe
+    d d c d f a g f( e) d4. \bar "||"
   }
   \addlyrics {
-    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+    Bo -- že, ve dne i v_no -- ci k_to -- bě vo -- lám.
   }
   \header {
     piece = "pátek"
