@@ -81,7 +81,7 @@ tInedeleInespResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - I"
+    piece = "responsorium - IV"
   }
 }
 
@@ -178,7 +178,8 @@ tInedeleLaudResp = \score {
     \choralniRezim
     \key f \major
     f4 g g g g a f g g \breathe
-    a a bes g g a a a c bes( a) f f \breathe
+    a c bes a g f g \breathe
+    a f g f f \breathe
     g a f f \bar "||"
   }
   \addlyrics {

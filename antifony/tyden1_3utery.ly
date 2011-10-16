@@ -125,9 +125,9 @@
 tIuteryNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    e4( f) e \breathe
-    f f f f f g f g e e \breathe
-    d d c d d( f) e \bar "||"
+    e4( a) a \breathe
+    b c a g e f( a) g f e e \breathe
+    d( a') b( g) a4. g4( f) e( d e) e \bar "||"
   }
   \addlyrics {
     Pa -- ne, vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství a kně -- ze.

@@ -480,7 +480,7 @@ doxologieRespAlelujaVI = {
       d d( g) g g a f g g( a) a a \breathe \bar ""
       c b c4. a g4 f f( g) g \bar "|"
       
-      d d( g) g g a bes c a \breathe \bar ""
+      d d( g) g g a bes? c a \breathe \bar ""
       g( bes c a4.) a4. f4 f a f e( d) d \bar "|"
       
       c f e d \bar "||"
@@ -587,6 +587,70 @@ doxologieRespAlelujaVI = {
       quid = "ant."
       tonus = "IV"
       differentia = "E" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {26. prosince}}
+  
+  \markup {(Malá odchylka od textu breviáře:)}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 g( a) g f f( a) a b( c) a g f f( g) g \bar "|"
+      
+      d d c d e( f) f \breathe \bar "" g a g f d4. d \bar "|"
+      
+      d4( a') bes( d) c bes c bes a( g) g \breathe \bar ""
+      a( c d) c( bes a g) f( e) e \breathe
+      d d d f d c d f4. e d4 d \bar "|"
+      c f( e) c d \bar "||"
+    }
+    \addlyrics {
+      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
+      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
+      tvé vše -- moc -- né Slo -- vo, Bo -- že,
+      se -- stou -- pi -- lo ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "g" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {27. prosince}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b c d c b a b g g \breathe \bar ""
+      f g( a) a a g b c b a g( a) g g \bar "|"
+      
+      g( f) g g a a \breathe \bar ""
+      b( c a) g a g g \bar "|"
+      
+      c( d c) b a g g g f g a f f( g) g \bar "||"
+    }
+    \addlyrics {
+      Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,
+      co pro -- po -- ci před -- po -- vě -- dě -- li o Kris -- tu:
+      
+      pan -- na po -- ča -- la,
+      pan -- nou zů -- sta -- la,
+      
+      pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "c" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
     }
