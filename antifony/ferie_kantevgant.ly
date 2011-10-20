@@ -41,8 +41,8 @@ tIuteryAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 a g( a) a a g a bes( c) bes a( g) g \breathe \bar ""
-    f g( a) a c c d4. a \breathe \bar ""
+    a4 a f( g) a a g a bes( c) bes a( g) g \breathe
+    f g( a) a c c d4. a \breathe
     a4 g f g( a) a f( e) d d4. \bar "||"
   }
   \addlyrics {
@@ -51,7 +51,7 @@ tIuteryAntBenedictus = \score {
     pro -- ro -- ků.
   }
   \header {
-    piece = "ant. k Benedictus - I.a"
+    piece = "ant. k Benedictus - I.D"
   }
 }
 
@@ -74,13 +74,12 @@ tIstredaAntBenedictus = \score {
   \relative c' {
     \choralniRezim
     d4 e f d c4. a e'4 f d d \breathe
-    a'( g) f( g) f4. d \breathe
+    a'( g) f( g) f4. d 
     e4 e( f) g f d4. d \bar "||"
   }
   \addlyrics {
     Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
-    roz -- po -- meň se 
-    na svou sva -- tou smlou -- vu.
+    roz -- po -- meň se na svou sva -- tou smlou -- vu.
   }
   \header {
     piece = "ant. k Benedictus - II.D"
@@ -149,7 +148,7 @@ tIpatekAntBenedictus = \score {
     \choralniRezim
     \key f\major
     g4 g f g( a)  c( bes a) a \breathe
-    c4 d( c) bes( a g) a \breathe g( f d4.) d \bar "||"
+    c4 d( c) bes( a g) a g( f d4.) d \bar "||"
   }
   \addlyrics {
     Hos -- po -- din na -- vští -- vil a vy -- kou -- pil svůj lid.
@@ -162,9 +161,8 @@ tIpatekAntBenedictus = \score {
 tIpatekAntMagnificat = \score {
   \relative c' {
     \choralniRezim
-    \key f\major
-    f4( e) g( a) a a a( c) a a c bes a( g) a4. \breathe
-    a4 a a a a a bes a g f f4. \bar "||"
+    f4( g f) d c d f( g a) a a c a g4. a \breathe
+    f4 g a a a a b a g f4. f \bar "||"
   }
   \addlyrics {
     Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
@@ -182,7 +180,7 @@ tIsobotaAntBenedictus = \score {
     \choralniRezim
     a4( g a) c( d) d c \breathe
     d4 e c a( g) g \breathe
-    a4 c d d( c) a( b) a4.( g) a4( b) c a g( f) g \bar "||"
+    a4 c d d( c) a( b) a4.( g) a4( b) c a g( a) g \bar "||"
   }
   \addlyrics {
     Hos -- po -- di -- ne, buď svět -- lem pro ty,
@@ -201,8 +199,7 @@ tIIpondeliAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     c4 c b c a( g) f( g) g \breathe
-    a b c d( e) d4. d \breathe 
-    d4 c( a) b a( g) g \bar "||"
+    a b c d( e) d d d c( a) b a( g) g \bar "||"
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din,
@@ -231,7 +228,7 @@ tIIpondeliAntMagnificat = \score {
 tIIuteryAntBenedictus = \score {
   \relative c' {
     \choralniRezim
-    d4 e f g( a g) f d d4.( c) \breathe
+    d4 e f g( a g) f d d( c) \breathe
     d4( c d) e( f) f4.( e) \breathe
     f4 e( f) g f d( c d) d4. \bar "||"
   }
@@ -248,7 +245,7 @@ tIIuteryAntMagnificat = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 a g4. g \breathe f4 g a bes c a  g g g \breathe
+    f4 a g4. g f4 g a bes c a  g g g \breathe
     bes c bes a( g) g4. \breathe
     f4 f g( f) g a g( f) f4. \bar "||"
   }
@@ -372,10 +369,10 @@ tIIpatekAntMagnificat = \score {
 % sobota
 
 tIIsobotaAntBenedictus = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f\major
-    g4 a a a4. \breathe
+    d4 f g a4. \breathe
     a4 g a bes g g4. \breathe
     g4 f e d( f) d d \bar "||"
   }
@@ -384,6 +381,6 @@ tIIsobotaAntBenedictus = \score {
     na ces -- tu po -- ko -- je.
   }
   \header {
-    piece = "ant. k Benedictus - I.g"
+    piece = "ant. k Benedictus - I.D"
   }
 }
