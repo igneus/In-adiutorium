@@ -289,7 +289,7 @@ doxologieRespAlelujaVI = {
     }
     \addlyrics {
       Slá -- va na vý -- sos -- tech Bo -- hu
-      a na ye -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
       A -- le -- lu -- ja.
     }
     \header {
@@ -655,5 +655,98 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
-
+    
+  \markup {\nadpisDen {28. prosince}}
+  
+  \markup\justify {(V následující antifoně jsem si dovolil úpravu
+  konce textu, která při zachování smyslu odstraňuje nelibě znějící
+  pseudorým.)}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f f g( d) f e d c c( d) d e( f) e d \bar "|"
+      
+      d d( a' g) f( g) f e f( e) d \breathe \bar ""
+      c d d d e d f( e) d4. d \breathe \bar ""
+      d4 f( d) d f e( d) d \bar "|"
+      
+      d( a') g f g( f) e f( d) c \breathe \bar ""
+      c c c( d) d f e f d( c d) d \bar "||"
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý při -- šel, a -- by nás spa -- sil.
+    }
+    \header {
+      quid = "ant."
+      tonus = "II"
+      differentia = "D" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {29. prosince}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 d c d e c b c c( d) d \breathe \bar ""
+      e( b) b d c b4. b \breathe \bar ""
+      a4 a a a b( c) c c b c d d \breathe \bar ""
+      e b b d c( b) a4. a \bar "||"
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to, co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant."
+      tonus = "IV alt"
+      differentia = "A" 
+      psalmus = "Benedictus"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      
+      d4 d d c d f( g) g g \breathe \bar ""
+      g a( bes) a g( f) e \breathe \bar ""
+      e( f) d c d d \bar "|"
+      
+      a'( bes a) g c( bes a) g g( a) a \breathe \bar ""
+      a a bes( g) g a g f g4. e \breathe \bar ""
+      d4( f) d c f( g a) \breathe \bar ""
+      a f a g f d d d \bar "||"
+    }
+    \addlyrics {
+      Syn Bo -- ží se stal člo -- vě -- kem
+      a na -- ro -- dil se z_Pan -- ny Ma -- ri -- e;
+      
+      při -- šel z_ne -- be na svět,
+      a -- by lid -- stvo pro -- pad -- lé hří -- chu
+      po -- vo -- lal zpět
+      do ne -- bes -- ké -- ho krá -- lov -- ství.
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
 }
