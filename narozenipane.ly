@@ -749,4 +749,65 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \markup {\nadpisDen {29. prosince}}
+
+  \markup\justify {Následující antifona si vypůjčuje kousek
+  melodie (Svatý...) z chorálního Te Deum.}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g g( a) a a c( b) a( g) g \bar "|"
+      
+      \repeat unfold 2 { g4( a b c) b4.( a) \breathe \bar "" }
+      a4( e g a) a a b( a) \breathe \bar ""
+      g( a) f e e \bar "|"
+      
+      f g g( a) a a c( a) a \breathe \bar ""
+      g a g( f e4.) e \bar "||"
+    }
+    \addlyrics {
+      Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
+      
+      Sva -- tý, sva -- tý, sva -- tý je Pán, Bůh zá -- stu -- pů,
+      
+      ce -- lá ze -- mě je pl -- ná je -- ho slá -- vy.
+    }
+    \header {
+      quid = "ant."
+      tonus = "III"
+      differentia = "g" 
+      psalmus = "Benedictus"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g g a( g) a a b b \breathe \bar ""
+      b a b c( d) a \breathe \bar ""
+      c( b) a a( b) g a a \bar "|"
+      
+      a( d) c b c( a) g \breathe \bar ""
+      f f f f c' a g g \bar "||"
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti, Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
 }
