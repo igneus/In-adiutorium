@@ -1,0 +1,54 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Kompletář}
+\author{Jakub Pavlík}
+
+\begin{document}
+
+\maketitle
+
+Psalmodie - modus II
+
+\begin{lilypond}
+  \include "../spolecne.ly"
+  
+  \relative c' {
+    \choralniRezim
+    
+    c d f f\breve f4-| \parenthesize d d4. \breathe \mark "+"
+    f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
+    f\breve c4 d e-| \parenthesize d d4. \bar "||"
+  }
+\end{lilypond}
+
+\section*{Neděle po 1. nešporách}
+
+\begin{lilypond}
+  \include "../spolecne.ly"
+  
+  \relative c' {
+    \choralniRezim
+    d4 a( c) d( e) d d4. \breathe
+    f4 e f e c d d4. \bar "||"
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+\end{lilypond}
+
+Žalm 134
+
+Nuže, velebte Hospo\underline{di}na,~* všichni Hospodinovi služeb\underline{ní}ci, 
+
+kteří sloužíte v Hospodinově \underline{do}mě~* v nočních \underline{ho}dinách. 
+
+Zvedněte ruce ke sva\underline{ty}ni~* a velebte Hospo\underline{di}na! 
+
+Požehnej ti Hospodin ze Si\underline{ó}nu,~* neboť on učinil nebe i \underline{ze}mi. 
+
+Sláva Otci i \underline{Sy}nu~* i Duchu \underline{sva}tému, 
+
+jako byla na počátku, i nyní i \underline{vždyc}ky~* a na věky věků. \underline{A}men.
+
+\end{document}
