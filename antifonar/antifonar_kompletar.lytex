@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry} % okraje stranky
 
 \title{Kompletář}
 \author{Jakub Pavlík}
@@ -8,7 +9,7 @@
 
 \maketitle
 
-Psalmodie - modus II
+psalmodie - modus II
 
 \begin{lilypond}
   \include "../spolecne.ly"
