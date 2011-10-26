@@ -6,6 +6,7 @@
 \author{Jakub Pavlík}
 
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \maketitle
 
@@ -23,7 +24,24 @@ psalmodie - modus II
   }
 \end{lilypond}
 
-\section*{Neděle po 1. nešporách}
+\section*{Neděle po 1. nešporách} %%%%%%%%%%%%%%%%%
+
+\begin{lilypond}
+  \include "../spolecne.ly"
+  
+  \relative c' {
+    \choralniRezim
+
+    d4 f f g g f d d \breathe e f d c( d) d \bar "||"
+  }
+  \addlyrics {
+    Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
+  }
+\end{lilypond}
+
+\input{zalm4.tex}
+
+\input{doxologie.tex}
 
 \begin{lilypond}
   \include "../spolecne.ly"
@@ -38,18 +56,8 @@ psalmodie - modus II
   }
 \end{lilypond}
 
-Žalm 134
+\input{zalm134.tex}
+\input{doxologie.tex}
 
-Nuže, velebte Hospo\underline{di}na,~* všichni Hospodinovi služeb\underline{ní}ci, 
-
-kteří sloužíte v Hospodinově \underline{do}mě~* v nočních \underline{ho}dinách. 
-
-Zvedněte ruce ke sva\underline{ty}ni~* a velebte Hospo\underline{di}na! 
-
-Požehnej ti Hospodin ze Si\underline{ó}nu,~* neboť on učinil nebe i \underline{ze}mi. 
-
-Sláva Otci i \underline{Sy}nu~* i Duchu \underline{sva}tému, 
-
-jako byla na počátku, i nyní i \underline{vždyc}ky~* a na věky věků. \underline{A}men.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
