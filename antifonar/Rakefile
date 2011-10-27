@@ -1,0 +1,29 @@
+file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex"] do
+  chdir "vystup"
+  sh "pdflatex antifonar_kompletar"
+end
+
+cislazalmu = [4, 134, 91, 86, 143, 31, 130, 16, 88]
+
+zalmy_syrove = cislazalmu.map {|i| "zalmy/zalm"+i.to_s+".zalm"}
+zalmy_pecene = cislazalmu.map {|i| "zalm"+i.to_s+".tex"}
+
+zalmy_syrove.each_index do |i|
+  file zalmy_pecene[i] => [zalmy_syrove[i]] do |t|
+    sh "ruby ../nastroje/psalmpreprocessor.rb --last-accent-only #{zalmy_syrove[i]}"
+  end
+end
+
+file "doxologie.tex" => ["zalmy/doxologie.zalm"] do
+  sh "ruby ../nastroje/psalmpreprocessor.rb --last-accent-only --no-title zalmy/doxologie.zalm"
+end
+
+file "vystup/antifonar_kompletar.tex" => ["antifonar_kompletar.lytex", "kompletar_1.ly", "doxologie.tex"]+zalmy_pecene do
+  sh "lilypond-book --out=vystup --pdf antifonar_kompletar.lytex"
+end
+
+file "kompletar_1.ly" => ["../kompletar.ly"] do
+  sh "ruby ../nastroje/splitscores.rb ../kompletar.ly"
+end
+
+task :default => ["vystup/antifonar_kompletar.pdf"]
