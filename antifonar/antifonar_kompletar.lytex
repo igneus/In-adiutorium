@@ -11,51 +11,15 @@
 \maketitle
 
 psalmodie - modus II
-
-\begin{lilypond}
-  \include "../spolecne.ly"
-  
-  \relative c' {
-    \choralniRezim
-    
-    c d f f\breve f4-| \parenthesize d d4. \breathe \mark "+"
-    f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
-    f\breve c4 d e-| \parenthesize d d4. \bar "||"
-  }
-\end{lilypond}
+\lilypondfile{kompletar_1.ly}
 
 \section*{Neděle po 1. nešporách} %%%%%%%%%%%%%%%%%
 
-\begin{lilypond}
-  \include "../spolecne.ly"
-  
-  \relative c' {
-    \choralniRezim
-
-    d4 f f g g f d d \breathe e f d c( d) d \bar "||"
-  }
-  \addlyrics {
-    Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
-  }
-\end{lilypond}
-
+\lilypondfile{kompletar_2.ly}
 \input{zalm4.tex}
-
 \input{doxologie.tex}
 
-\begin{lilypond}
-  \include "../spolecne.ly"
-  
-  \relative c' {
-    \choralniRezim
-    d4 a( c) d( e) d d4. \breathe
-    f4 e f e c d d4. \bar "||"
-  }
-  \addlyrics {
-    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
-  }
-\end{lilypond}
-
+\lilypondfile{kompletar_3.ly}
 \input{zalm134.tex}
 \input{doxologie.tex}
 
