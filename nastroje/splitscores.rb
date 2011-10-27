@@ -1,13 +1,18 @@
 # splits a LilyPond music file to many numbered files, one file per score
 
+def File.name_without_extension(fname)
+  
+end
+
 def split_file(file_to_be_processed)
   File.open(file_to_be_processed, "r") do |f|
     file_without_extension = File.basename(file_to_be_processed).slice(0..-4)
     store = ''
     score_number = 0
     beginning = true
-    while l = f.gets do
-      if l =~ /\\score\s+\{/ then        
+    loop do
+      l = f.gets
+      if l =~ /\\score\s+\{/ || !l then        
         if beginning then
           beginning = false
           write_to_file = file_without_extension+'_beginning.ly'
@@ -22,9 +27,13 @@ def split_file(file_to_be_processed)
         end
         # print write_to_file+" "
         store = l
+        
+        unless l
+          break
+        end
       else
         store += l
-      end
+      end      
     end
   end
 end
