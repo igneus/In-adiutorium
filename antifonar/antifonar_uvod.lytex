@@ -1,0 +1,117 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{datetime} % formaty data
+\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
+\usepackage[margin=2.5cm]{geometry} % okraje stranky
+
+\author{Jakub Pavlík}
+\title{Úvod k antifonáři}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\begin{document}
+
+\input{spolecne.tex}
+\dmyyyydate
+\maketitle
+
+Rád bych těm, kdo nemají zkušenost s latinskou chorální psalmodií,
+nabídl jednoduché uvedení do zpěvu žalmů podle textů
+Antifonáře k Denní modlitbě církve.
+
+Chorální psalmodie je jednoduchý recitativ s malou melodickou
+ozdobou na začátku (při zpěvu žalmů se zpívá
+pouze na začátku prvního verše, při zpěvu kantik z evangelií
+se zpívá na začátku každého verše), v polovině a na konci verše.
+Některé verše mají první poloverš rozdělený ještě jednou
+melodickou ozdobou, tkzv. flexou.
+
+V textech breviáře je polovina verše označena hvězdičkou,
+flexa "křížkem".
+
+Existuje devět základních chorálních nápěvů 
+psalmodie\footnote{Výzkum dějin gregoriánského chorálu mě v tomto
+bodě obžalovává z nedovoleného zjednodušení. Nové chorální knihy 
+ze Solesmes, např. Psalterium monasticum (1981) užívají
+více starých rekonstruovaných nápěvů. Já jsem ale pro potřeby
+Antifonáře k Denní modlitbě církve podržel systém devíti tonů,
+jak byl známý a užívaný v liturgických knihách v 1. polovině 20. století.}.
+Osm jich odpovídá osmi modům středověké hudby, devátý je poněkud
+výjimečný.
+
+K některým nápěvům existuje větší množství zakončení (tkzv.
+differentiae), která umožňují přizpůsobení žalmu antifoně.
+(Poslední tón žalmu by měl umožnit plynulý přechod k antifoně.)
+
+Melodické ozdoby recitativu jsou vázány na přízvuky
+přednášeného textu.
+Přízvuky jsou v tabulce
+nápěvů vyznačeny šikmými čárkami nahoře nad osnovou, v tomto úvodu je
+budu značit svislými čárkami přímo pod notami.
+
+\begin{lilypond}
+\include "../spolecne.ly"
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    c d f f\breve f4-| \parenthesize d d4. \breathe \mark "+"
+    f\breve g4 g-| \parenthesize d d4. \bar "|" \mark "*"
+    f\breve c4 d e-| \parenthesize d d4. \bar "||"
+  }
+}
+\end{lilypond}
+
+Zde je vzorec pro nápěv psalmodie užívaný v kompletáři.
+Neodpovídá žádnému z devíti standardních obsažených
+v tabulce. Pochází z Antiphonale Romanum 1913, kde byl určen
+ke zpěvu žalmů bez antifony.\footnote{Tento způsob zpěvu
+žalmů současná Denní modlitba církve nezná - je ale zachován
+v oficiu některých mnišských komunit - mj. v benediktinském 
+kompletáři.} Tonálními charakteristikami přísluší k modu II.
+
+Následující text je vzat z žalmu 91, který se modlíme
+v kompletáři po 2. nešporách neděle. Všimneme si, že
+některé slabiky jsou podtržené. To jsou právě slabiky s přízvukem
+důležitým pro zpěv žalmu.\footnote{Chorální nápěvy byly
+konstruovány pro latinu, nikoli pro češtinu, a přízvučná struktura
+českého jazyka jim odpovídá pouze částečně. Proto jsem musel
+označit řadu umělých přízvuků, které neodpovídají skutečnému
+hlavnímu přízvuku slova. Někdy se mi nepodařilo vyhnout se
+přitom velké násilnosti na mém rodném jazyce...
+Němci mají na základě gergoriánských nápěvů postavené
+vlastní nápěvy plně respektující vlastnosti německého jazyka -
+bylo by velice žádoucí udělat něco podobného i pro nás.}
+Dále je hodné povšimnutí rozdělení textu na odstavce.
+To zde plní podobnou funkci jako červené pomlčky v textu
+breviáře - dělí text žalmu na malé relativně uzavřené logické
+celky, po kterých je možné vkládat antifonu, pokud je žalm
+zpíván responsoriálně (tj. tak, že jeden zpívá žalm a
+ostatní odpovídají antifonou).
+
+\begin{quote}
+Kdo přebýváš v ochraně Nejvyš\underline{ší}ho,~* 
+kdo dlíš ve stínu Všemoc\underline{né}ho, 
+
+řekni Hospodinu: "Mé útočiště jsi a \underline{má} tvrz,~* 
+můj Bůh, v něhož \underline{dou}fám!" 
+\\
+
+Neboť on tě vysvobodí z léčky \underline{ptáč}níka,~* 
+ze zhoubného \underline{mo}ru. 
+
+Ochrání tě svými peru\underline{tě}mi,~+ 
+uchýlíš se pod jeho \underline{kříd}la,~* 
+štít a pavéza je věrnost \underline{je}ho. 
+
+Nemusíš se bát noční \underline{hrů}zy,~* 
+šípu létajícího \underline{ve} dne, 
+
+moru, který se plíží \underline{ve} tmě,~* 
+nákazy, jež pustoší o po\underline{led}nách. 
+\end{quote}
+
+
+
+\end{document}
