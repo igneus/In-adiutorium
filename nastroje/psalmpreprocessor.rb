@@ -15,10 +15,25 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
       # first line contains the title
       if has_title then
         fw.puts "\\nadpisZalmu{"+fr.gets.chomp+"}"
+        fw.puts fr.gets # the second line is empty then
       end
       
-      while l = fr.gets do
+      nextl = nil
+      
+      loop do
+        if nextl then
+          l = nextl
+        else
+          l = fr.gets
+        end
+        nextl = fr.gets
+        
+        unless l
+          break
+        end
+        
         l.chomp!
+        
         unless last_accent_only
           l.gsub! "[", "\\underline{"
           l.gsub! "]", "}"
@@ -27,6 +42,9 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
           l[i] = "\\underline{" if i
           j = l.rindex "]"
           l[j] = "}" if j
+          if (i && !j) || (!i && j) then
+            STDERR.puts "Warning: error, non-complete accent brackets!"
+          end
           
           l.gsub! "[", ""
           l.gsub! "]", ""
@@ -39,6 +57,9 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
           fw.print " "
         else
           fw.puts l
+          if nextl && nextl =~ /^\s*$/ then
+            fw.puts "\\\\"
+          end
           fw.puts
         end
       end

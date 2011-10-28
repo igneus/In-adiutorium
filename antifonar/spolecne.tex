@@ -1,0 +1,62 @@
+% Definice prikazu uzivanych ve vsech svazcich antifonare
+
+% Predpokladane balicky: 
+% datetime, hyperref
+
+% Nasledujici dva prikazy vyuzivaji prikazy, ktere musi byt
+% definovany v dokumentu:
+% \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+
+\newcommand{\titulniStrankaSvazkuAntifonare}{
+  \begin{titlepage}
+    \begin{center}
+      \soubornyNazev
+      
+      Svazeček \cisloSvazku.
+      
+      \vspace*{9cm}
+      
+      {\Huge \textbf{\nazev}}
+          
+      \vspace{1cm}
+      
+      {\large \autor}
+      
+      \vfill
+      In adiutorium
+      
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
+\newcommand{\tirazSvazkuAntifonare}{
+  \setlength{\parskip}{0.6cm}
+
+  \begin{center}
+    \soubornyNazev, svazeček \cisloSvazku.
+    
+    {\Large \textbf{\nazev}}
+
+    {\large \autor}
+
+    projekt In adiutorium - hudba k české liturgii hodin\\  
+    \url{http://inadiutorium.xf.cz}
+    
+    Vysázeno programy \LaTeX  a LilyPond.
+  \end{center}
+
+  \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
+  \textDoTiraze
+
+  \begin{center}
+    \dmyyyydate \today
+  \end{center}
+}
+
+% cesky format data:
+\renewcommand{\dateseparator}{.}
+
+% format data, kde je jen rok
+\newdateformat{onlyyeardate}{%
+\THEYEAR}
