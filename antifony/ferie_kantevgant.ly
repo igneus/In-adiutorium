@@ -149,7 +149,7 @@ tIpatekAntBenedictus = \score {
     \choralniRezim
     \key f\major
     g4 g f g( a)  c( bes a) a \breathe
-    c4 d( c) bes( a g) a g( f d4.) d \bar "||"
+    c4 d( c) bes( a g) a \breathe g( f d4.) d \bar "||"
   }
   \addlyrics {
     Hos -- po -- din na -- vští -- vil a vy -- kou -- pil svůj lid.
@@ -248,7 +248,7 @@ tIIuteryAntMagnificat = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 a g4. g f4 g a bes c a  g g g \breathe
+    f4 a g4. g \breathe f4 g a bes c a  g g g \breathe
     bes c bes a( g) g4. \breathe
     f4 f g( f) g a g( f) f4. \bar "||"
   }

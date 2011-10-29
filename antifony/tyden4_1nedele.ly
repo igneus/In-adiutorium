@@ -146,9 +146,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a a g( f) g( a) a g a c( d) d d \breathe
-    f( d) d c b c a( g) g \breathe
-    a4 a g( f) g4. \bar "||"
+    a4 a a g( f) g( a) a g a c( d) d d \breathe
+    d4( e c4.) c d4 c b a( g) g \breathe
+    g a g( f) g \bar "||"
   }
   \addlyrics {
     O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 

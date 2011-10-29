@@ -81,7 +81,7 @@ tInedeleInespResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - I"
+    piece = "responsorium - IV"
   }
 }
 
@@ -177,8 +177,10 @@ tInedeleLaudResp = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 bes a g a  f e f f4. \breathe e4 d e f g a a bes a g f f4. \breathe
-    e4 g g( f) f4. \bar "||"
+    f4 g g g g a f g g \breathe
+    a c bes a g f g \breathe
+    a f g f f \breathe
+    g a f f \bar "||"
   }
   \addlyrics {
     U -- tí -- kej -- me se k_Hos -- po -- di -- nu,
@@ -255,7 +257,7 @@ tInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. f4 f( g a) bes g f f4. \breathe
+    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. \breathe f4 f( g a) bes g f f4. \breathe
     d4 f( g) g f \bar "||"
   }
   \addlyrics {

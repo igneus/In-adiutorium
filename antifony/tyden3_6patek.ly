@@ -118,8 +118,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c b) a g c d d \breathe
-    d d d( f d) \breathe d c c c b a( g) g \bar "||"
+    a4( d c d e) c b c d d \breathe
+    d d d d e d c b c( a g) g \bar "||"
   }
   \addlyrics {
     Vel -- ký je Hos -- po -- din
@@ -128,7 +128,7 @@
   \header {
     quid = "1. ant."
     tonus = "VII"
-    differentia = "d" 
+    differentia = "a" 
     psalmus = "Žalm 135-I"
     piece = \markup {\sestavTitulek}
   }

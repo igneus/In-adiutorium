@@ -60,7 +60,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a b c c4. \breathe c4 d d c d c( b) b \breathe a c c b c a( g) g \bar "||"
+    a4 a b c c4. \breathe c4 d d c d c( b) b \breathe
+    b c( d) c( a) g f g4. g \bar "||"
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slo -- vo
@@ -115,8 +116,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( g) a( c) c4. \breathe d4 c b a( b g) g \breathe
-    f f g a a a g( a) g4. g \bar "||"
+    g4 g a( g) a( c) c4. \breathe d4 c b a( b g) g \bar "|"
+    f f g a a a b( a) g4. g \bar "||"
   }
   \addlyrics {
     Krá -- sou vy -- ni -- káš nad lid -- ské sy -- ny,
@@ -134,7 +135,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \breathe c c c b( c) a( g) g \bar "||"
+    g4 f g a( c) c \breathe d c b a( b) a( g) g \bar "||"
   }
   \addlyrics {
     Že -- nich je ta -- dy, jdě -- te mu na -- pro -- ti!
@@ -153,8 +154,8 @@ tIIpondeliNespAntIII = \score {
     \choralniRezim
     \key f \major
     d4 e f f f g a a( bes) a \breathe
-    a a a bes( g) f g g( a) a \breathe
-    a a a g f f4.( g) \breathe
+    a a a bes( g) f g g( a) a \bar "|"
+    a a a g f f4.( g) \breathe \bar ""
     g4 a f d4. d \bar "||"
   }
   \addlyrics {

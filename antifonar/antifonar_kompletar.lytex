@@ -1,0 +1,100 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
+\newcommand{\cisloSvazku}{1}
+\newcommand{\nazev}{Kompletář}
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons Attribution-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
+  \emph{Texty liturgie hodin} jsou majetkem České biskupské konference. 
+  Autor tohoto díla neobdržel licenci k jejich šíření. Publikace tohoto 
+  antifonáře je tedy, přísně vzato, protiprávní. Výše uvedenou
+  licenci hudební složky díla nelze v žádném případě vztahovat
+  na dílo jako celek.
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\nadpisZalmu}[1]{
+  \begin{center}
+    \textbf{#1}
+  \end{center}
+  \nopagebreak
+}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{spolecne.tex}
+
+\titulniStrankaSvazkuAntifonare
+
+psalmodie - modus II\footnote{}
+\lilypondfile{kompletar_1.ly}
+
+\section*{Neděle po 1. nešporách}
+
+\lilypondfile{kompletar_2.ly}
+\input{zalm4.tex}
+\input{doxologie.tex}
+
+\lilypondfile{kompletar_3.ly}
+\input{zalm134.tex}
+\input{doxologie.tex}
+
+\section*{Neděle po 2. nešporách}
+
+\lilypondfile{kompletar_4.ly}
+\input{zalm91.tex}
+\input{doxologie.tex}
+
+\section*{Pondělí}
+
+\lilypondfile{kompletar_5.ly}
+\input{zalm86.tex}
+\input{doxologie.tex}
+
+\section*{Úterý}
+
+\lilypondfile{kompletar_6.ly}
+\input{zalm143.tex}
+\input{doxologie.tex}
+
+\section*{Středa}
+
+\lilypondfile{kompletar_7.ly}
+\input{zalm31.tex}
+\input{doxologie.tex}
+
+\lilypondfile{kompletar_8.ly}
+\input{zalm130.tex}
+\input{doxologie.tex}
+
+\section*{Čtvrtek}
+
+\lilypondfile{kompletar_9.ly}
+\input{zalm16.tex}
+\input{doxologie.tex}
+
+\section*{Pátek}
+
+\lilypondfile{kompletar_10.ly}
+\input{zalm88.tex}
+\input{doxologie.tex}
+
+\clearpage
+\tirazSvazkuAntifonare
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

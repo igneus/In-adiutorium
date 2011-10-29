@@ -63,7 +63,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) g \breathe a a g a bes a a \breathe g a f f \bar "||"
+    f4( d) e( f) g( a) g \breathe
+    a a g a bes( a) f g \breathe g a g( f) f \bar "||"
   }
   \addlyrics {
     Veď mé kro -- ky po -- dle své -- ho vý -- ro -- ku, Hos -- po -- di -- ne.
@@ -80,8 +81,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 b b b b b b b a b a( g) g \breathe
-    c c c b \breathe b b g a( b) a( g) g \bar "||"
+    g4 g( c) c c d b c a4. g4 f g4. g \breathe
+    g4( b) c( b) c c \breathe c a b a g g \bar "||"
   }
   \addlyrics {
     Jen je -- den je zá -- ko -- no -- dár -- ce a soud -- ce;
@@ -118,8 +119,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c c b c c( d) d \breathe d c b a( g) g \breathe
-    a b d c b g( a) a \breathe a b a g g \bar "||"
+    g4 c c c b c c( d) d \breathe d c b a( g) g \bar "|"
+    g g f g a( c) b4. a \breathe g4 f f g g \bar "||"
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -139,8 +140,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a( b) b4. \breathe b4 d c b g a4. \breathe
-    a4 g b b a( g) g \bar "||"
+    g4 a( c) c c d b c a( g) g4.( a) \breathe
+    a4 g( f) g a b( c a) g \bar "||"
   }
   \addlyrics {
     Ve -- li -- ké a po -- di -- vu -- hod -- né jsou tvé skut -- ky, Bo -- že.

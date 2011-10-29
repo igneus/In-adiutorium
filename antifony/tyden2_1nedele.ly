@@ -24,8 +24,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c b( c a) g b( c) c \breathe
-    d b( c) a( g) g \breathe f a g g4. \bar "||"
+    g4 g g g a( c) c d( b) c \breathe
+    b c a g \breathe
+    f a g( f) g4. \bar "||"
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
@@ -34,7 +35,7 @@
   \header {
     quid = "2. ant."
     tonus = "VIII"
-    differentia = "c" 
+    differentia = "G" 
     psalmus = "Žalm 16"
     piece = \markup {\sestavTitulek}
   }
@@ -80,7 +81,7 @@ tIInedeleInespResp = \score {
     a4 a b( c) a( g) g \breathe f f g a f g4. g \bar "||"
     
     % Slava
-    c4 c d d \breathe c a( c) c \breathe c b c a( g) f( g) g \bar "||"
+    c4 c c( d) d \breathe c a( c) c \breathe c b c a( g) f( g) g \bar "||"
   }
   \addlyrics {
     \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -295,7 +296,7 @@ tIInedeleIInespAntIII = \score {
     \choralniRezim
     f4 f g( a) a \breathe
     a a a g bes( a) g( f) f \breathe
-    f e f g( a g f) f \breathe
+    f e f g( a f) f \breathe
     d f( g) g f4. \bar "||"
   }
   \addlyrics {

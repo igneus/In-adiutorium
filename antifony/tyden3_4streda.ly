@@ -5,8 +5,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 g f g d d c e f d4. d \breathe
-    c4 d f f f f g f d e c( d) d \bar "||"
+    d4 g f g d d c bes c d4. d \breathe
+    d4 d e f f d \breathe
+    c( d) f( g) f4.( e) d4( c) d d \bar "||"
   }
   \addlyrics {
     Ob -- ve -- sel ži -- vot své -- ho slu -- žeb -- ní -- ka,
@@ -137,9 +138,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b c d c c c b( a) a4. \breathe g4 g f g f( e) e \bar "||"
+    f4 g a bes g g g a( bes) c \breathe
+    a g a a g( f) f \bar "||"
   }
   \addlyrics {
     Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
@@ -147,8 +149,8 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "III"
-    differentia = "a" 
+    tonus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 127"
     piece = \markup {\sestavTitulek}
   }

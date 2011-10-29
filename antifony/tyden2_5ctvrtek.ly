@@ -65,7 +65,7 @@
     \choralniRezim
     \key f \major
     a4 g a f( g a) a \breathe bes bes a g g a a a \breathe
-    a bes( a) g( f) e \breathe d e f d c4. d \bar "||"
+    a bes( a) g( f) e \breathe d e f g d4. d \bar "||"
   }
   \addlyrics {
     Lep -- ší je pro mě zá -- kon tvých úst, Hos -- po -- di -- ne,
