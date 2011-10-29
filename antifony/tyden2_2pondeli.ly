@@ -116,7 +116,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( g) a( c) c4. \breathe d4 c b a( b g) g \breathe
+    g4 g a( g) a( c) c4. \breathe d4 c b a( b g) g \bar "|"
     f f g a a a b( a) g4. g \bar "||"
   }
   \addlyrics {
@@ -154,8 +154,8 @@ tIIpondeliNespAntIII = \score {
     \choralniRezim
     \key f \major
     d4 e f f f g a a( bes) a \breathe
-    a a a bes( g) f g g( a) a \breathe
-    a a a g f f4.( g) \breathe
+    a a a bes( g) f g g( a) a \bar "|"
+    a a a g f f4.( g) \breathe \bar ""
     g4 a f d4. d \bar "||"
   }
   \addlyrics {

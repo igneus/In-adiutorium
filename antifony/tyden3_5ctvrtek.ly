@@ -141,7 +141,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g g a g a bes( g) g \breathe a a g( f) f \bar "||"
+    f4 g g g a g a bes( g) g \breathe g a g( f) f \bar "||"
   }
   \addlyrics {
     Hos -- po -- din si vy -- vo -- lil Si -- ón za své síd -- lo.

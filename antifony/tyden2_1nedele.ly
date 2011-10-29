@@ -296,7 +296,7 @@ tIInedeleIInespAntIII = \score {
     \choralniRezim
     f4 f g( a) a \breathe
     a a a g bes( a) g( f) f \breathe
-    f e f g( a g f) f \breathe
+    f e f g( a f) f \breathe
     d f( g) g f4. \bar "||"
   }
   \addlyrics {
