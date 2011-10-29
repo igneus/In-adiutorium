@@ -20,21 +20,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a g( f) g( a) a a a g a bes( c g) a \breathe g a g( f e) d \bar "||"
-    g^\markup{Nebo:} a f( a e) d \bar "||"
+    b4 b b a( b) c( d) d \breathe
+    c d( c) b g a a \breathe
+    g a g( f e) e \bar "||"
   }
   \addlyrics {
     Hos -- po -- din za -- pla -- vil Je -- ru -- za -- lém bla -- hem
     ja -- ko ře -- kou.
-    % znovu - pro alternativni konec:
-    ja -- ko ře -- kou.
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
-    differentia = "f" 
+    tonus = "III"
+    differentia = "h" 
     psalmus = "Iz 66"
     piece = \markup {\sestavTitulek}
   }
@@ -121,11 +120,12 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g g f g a b( c) c4. \breathe 
-    c4 d( c) b( a) g( b) b \breathe
-    b c a g g \bar "||"
+    \key f \major
+    f4 g g g g bes a f f( g) g4. \breathe
+    a4 bes( g) g f( d) d \breathe
+    e c c d d \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
@@ -134,25 +134,26 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "VIII"
-    differentia = "G" 
+    tonus = "I"
+    differentia = "f" 
     psalmus = "Žalm 144-I"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( f) g a( b c4.) c \breathe c4 c b( d) c b a g g \bar "||"
+    f4( g a) f g4. g \breathe
+    f4 g a( g) f g f d d \bar "||"
   }
   \addlyrics {
     Šťast -- ný ná -- rod, je -- hož Bo -- hem je Hos -- po -- din.
   }
   \header {
     quid = "2. ant."
-    tonus = "VIII"
-    differentia = "G" 
+    tonus = "I"
+    differentia = "f" 
     psalmus = "Žalm 144-II"
     piece = \markup {\sestavTitulek}
   }
