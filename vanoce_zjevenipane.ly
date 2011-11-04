@@ -7,6 +7,17 @@
 
 \include "spolecne.ly"
 
+respAlelujaVI = { 
+  a4 a( g) g f \breathe d f( g) g f 
+}
+
+respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
+
+doxologieRespAlelujaVI = {
+  f4 e g( a) a a a( bes) a \breathe
+  a a g a( g) f f
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -132,6 +143,67 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f f e g a \bar "|"
+    \respAlelujaVI \bar "||"
+    % V
+    \neviditelna
+    f4 f f f f f f f f e g g a \bar "|"
+    % R
+    \neviditelna a
+    \respAlelujaVI \bar "||"
+    % Slava
+    \doxologieRespAlelujaVI \bar "||"
+  }
+  \addlyrics {
+    \Response V_něm bu -- dou po -- žeh -- ná -- na 
+    všech -- na ple -- me -- na ze -- mě._*
+    \respAlelujaText
+    \Verse Bla -- ho -- sla -- vit ho bu -- dou všech -- ny ná -- ro -- dy._*
+    \Response \respAlelujaText
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - VI"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) d d f( e) d e c( d) d \breathe \bar ""
+    e c c d e d d \bar "|"
+    d d d( g) g g a g f g f( d) d \bar "|"
+    f( d) d \breathe \bar ""
+    g f f d c \breathe \bar ""
+    c d f f e c d d \bar "|"
+    e( f d) d \breathe \bar ""
+    c f e c d4. d \bar "||"
+  }
+  \addlyrics {
+    Když mu -- dr -- ci vi -- dě -- li hvěz -- du,
+    řek -- li si me -- zi se -- bou:
+    To je zna -- me -- ní ve -- li -- ké -- ho krá -- le;
+    pojď -- me,
+    vy -- hle -- dej -- me ho
+    a o -- bě -- tuj -- me mu da -- ry:
+    zla -- to,
+    ka -- di -- dlo a myr -- hu.
+  }
+  \header {
+    quid = "ant."
+    tonus = "II"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -149,6 +221,58 @@
     tonus = "II"
     differentia = "D" 
     psalmus = "invitatorium"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( f e) f( g) g \breathe \bar ""
+    g a c b a( g) f g g g \breathe \bar ""
+    g a( b) c d b c a4. a \breathe \bar ""
+    c4( b a g) g a f f a g4. g \bar "|"
+    g4 g( a) g4. g \bar "||"
+  }
+  \addlyrics {
+    Mu -- dr -- ci
+    o -- te -- vře -- li své po -- klad -- ni -- ce
+    a o -- bě -- to -- va -- li Pá -- nu
+    zla -- to, ka -- di -- dlo a myr -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a f g) g \breathe \bar ""
+    a( b) c a g4. g \bar "|"
+    c4 d( c) b( a) g \breathe \bar ""
+    a( f) e e g g \bar "|"
+    f a a g \bar "||"
+  }
+  \addlyrics {
+    Mo -- ře a ře -- ky,
+    ve -- leb -- te Pá -- na,
+    ve -- leb -- te ho,
+    všech -- ny pra -- me -- ny.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = ""
     piece = \markup {\sestavTitulek}
   }
 }
