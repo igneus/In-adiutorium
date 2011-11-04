@@ -165,3 +165,57 @@
     piece = "pátek"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f \breathe f f g f g g4.( a) \bar "|"
+    g4 f g( a g) g \breathe f d f g g( f) f \bar "||"
+    % V
+    \neviditelna a
+    a4 a a( bes) a g g( a) g \breathe g( a g) f g g4.( a) \bar "|"
+    % R
+    \neviditelna g
+    g4 f g( a g) g \breathe f d f g g( f) f \bar "||"
+    % Slava
+    a4 a a( bes) a g g( a) g \breathe g a g f g g4.( a) \bar "||"
+  }
+  \addlyrics {
+    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \slavaRespText
+  }
+  \header {
+    piece = "responsorium - VI"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( c) a4. a \breathe \bar ""
+    a4 b g f g g( a) a \bar "|" 
+    g a c c d( e) d c( b a4.) g \breathe \bar ""
+    f4 g g a g a g f e e e \bar "||"
+    f^\markup{V době velikonoční:} g e e \bar "||"
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    tonus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+  }
+}
