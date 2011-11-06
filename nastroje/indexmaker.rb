@@ -1,5 +1,5 @@
 # Processes given music files, prints a list of lyrics with
-# filenames (sort of "index of pieces by text")
+# filenames of sources (sort of "index of pieces by text")
 
 $: << "."
 
