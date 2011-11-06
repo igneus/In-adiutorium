@@ -366,12 +366,81 @@ doxologieRespAlelujaVI = {
     quid = "ant."
     tonus = "VIII"
     differentia = "G" 
-    psalmus = "Magnificat"
+    psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a4. a \breathe
+    b4 c d c b c a a a \breathe \bar ""
+    b c b a g g \bar "|"
+    f g g( a4.) a4 g f e e \bar "||"
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    tonus = "III"
+    differentia = "g" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( f) d f( g) g \breathe
+    a bes( a) g a f( g) g \bar "|"
+    bes4.( g) a4 a bes c bes g g g \breathe \bar ""
+    a f e e e f d4. d \bar "||"
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    tonus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+% Antifona je zkopirovana z nespor ctvrtka 2. tydne zaltare:
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d c( d) d d f g g( a) a \breathe
+    bes bes a bes g( a) a \breathe a a a a g g f e f( d) d \bar "||"
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa roz -- ší -- ři -- la až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    tonus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
