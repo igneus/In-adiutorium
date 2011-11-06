@@ -1,5 +1,11 @@
 # utility which finds all available versions of each score in a given music file
 
+# Warning: as this tool uses 'git checkout commithash file', which automatically
+# schedules the file for the next commit (automatic git add),
+# it is necessary to run 'git reset HEAD file' before the next commit
+# to prevent committing accidentally some ancient version of the file
+# as the latest one...
+
 require 'fileutils'
 require_relative 'musicreader.rb'
 
@@ -78,6 +84,10 @@ log.each_line do |line|
   
   puts
 end
+
+# Checkout the current version again
+`git reset HEAD  #{file_to_be_processed}`
+`git checkout  #{file_to_be_processed}`
 
 # collect different versions of each score
 
