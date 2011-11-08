@@ -3,9 +3,13 @@
 % Predpokladane balicky: 
 % datetime, hyperref
 
-% Nasledujici dva prikazy vyuzivaji prikazy, ktere musi byt
+
+%
+% Titulni strana a tiraz svazku antifonare.
+% prikazy vyuzivaji prikazy, ktere musi byt
 % definovany v dokumentu:
 % \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+%
 
 \newcommand{\titulniStrankaSvazkuAntifonare}{
   \begin{titlepage}
@@ -54,9 +58,53 @@
   \end{center}
 }
 
+
+%
+% Nasledujici prikazy vyrabeji hlavicku a paticku pro
+% male materialy obsahem a razem podobne materialum
+% z LilyPondu
+%
+
+\newcommand{\malyTitulek}{
+  \begin{center}
+    {\large \textbf{\nazev}}
+  \end{center}
+  \begin{flushright}
+    \autor
+  \end{flushright}
+}
+
+\newcommand{\malaTiraz}{
+  datum: \dmyyyydate \today
+  
+  licence: Creative Commons Attribution-ShareAlike 3.0 Unported
+  
+  projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
+  
+  sazba programy LilyPond a \LaTeX
+}
+
 % cesky format data:
 \renewcommand{\dateseparator}{.}
 
 % format data, kde je jen rok
 \newdateformat{onlyyeardate}{%
 \THEYEAR}
+
+
+%
+% Nasledujici prikazy slouzi strukturovani uvnitr textu antifonare
+%
+
+% Cislo zalmu
+\newcommand{\nadpisZalmu}[1]{
+  \begin{center}
+    \textbf{#1}
+  \end{center}
+  \nopagebreak
+}
+
+% Napr. "hymnus", "responsorium", "zalmy", "kratke cteni"
+\newcommand{\nadpisTypTextu}[1]{
+  \textsc{#1}
+}

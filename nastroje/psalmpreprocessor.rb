@@ -4,7 +4,7 @@
 # - makes space in front of * and + unbreakable
 # - underlines syllables enclosed in square brackets  [ ]
 
-def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
+def preprocess_psalmfile(file, last_accent_only=false, has_title=true, no_formatting=false)
   File.open(file, "r") do |fr|
     fwn = File.basename(file)
     fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
@@ -32,23 +32,15 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
           break
         end
         
+        if no_formatting then
+          l = process_accents(l, last_accent_only)
+          fw.puts l
+          next
+        end
+        
         l.chomp!
         
-        unless last_accent_only
-          l.gsub! "[", "\\underline{"
-          l.gsub! "]", "}"
-        else
-          i = l.rindex "["
-          l[i] = "\\underline{" if i
-          j = l.rindex "]"
-          l[j] = "}" if j
-          if (i && !j) || (!i && j) then
-            STDERR.puts "Warning: error, non-complete accent brackets!"
-          end
-          
-          l.gsub! "[", ""
-          l.gsub! "]", ""
-        end
+        l = process_accents(l, last_accent_only)
         
         if l.rindex("+") || l.rindex("*") then
           l.gsub!(" +", "~+")
@@ -67,10 +59,31 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true)
   end
 end
 
+def process_accents(l, last_accent_only=false)
+  unless last_accent_only
+    l.gsub! "[", "\\underline{"
+    l.gsub! "]", "}"
+  else
+    i = l.rindex "["
+    l[i] = "\\underline{" if i
+    j = l.rindex "]"
+    l[j] = "}" if j
+    if (i && !j) || (!i && j) then
+      STDERR.puts "Warning: error, non-complete accent brackets!"
+    end
+    
+    l.gsub! "[", ""
+    l.gsub! "]", ""
+  end
+  
+  return l
+end
+
 require 'optparse'
 
 last_accents_only = false
 has_title = true
+no_formatting = false
 
 optparse = OptionParser.new do|opts|
   opts.on "-l", "--last-accents-only", "Include only the last accent of each halb-verse in the produced file" do
@@ -79,6 +92,11 @@ optparse = OptionParser.new do|opts|
   
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
     has_title = false
+  end
+  
+  opts.on "-f", "--no-formatting", "Just process accents and don't do anything else with the document" do
+    has_title = false
+    no_formatting = true
   end
 end
 
@@ -89,5 +107,5 @@ if ARGV.empty? then
 end
 
 ARGV.each do |f|
-  preprocess_psalmfile f, last_accents_only, has_title
+  preprocess_psalmfile f, last_accents_only, has_title, no_formatting
 end
