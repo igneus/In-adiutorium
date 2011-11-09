@@ -565,3 +565,92 @@ doxologieRespAlelujaVI = {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\bookpart {
+  \header {
+    subtitle = "Oktáv"
+  }
+  
+  \markup {\nadpisDen {svátek Křtu Páně}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f e f( g) g \breathe
+      f( e) d f( e) d4. d \bar "|"
+      d4 d d d f g f d d \breathe \bar ""
+      d d c d e f f \breathe \bar ""
+      f g f e c d d \bar "||"
+    }
+    \addlyrics {
+      Spa -- si -- tel se dal po -- křtít
+      vo -- dou Jor -- dá -- nu,
+      a vo -- da se sta -- la zna -- me -- ním
+      no -- vé spra -- ve -- dl -- nos -- ti
+      a no -- vé -- ho ži -- vo -- ta.
+    }
+    \header {
+      quid = "ant."
+      tonus = "II"
+      differentia = "D" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g e a \breathe
+      a b( c) a a c( b) g4. e \bar "|"
+      f4 f f f f f f d f e4. e \breathe \bar ""
+      f4 g a a g a b( c) c \breathe \bar ""
+      d c a b g g \breathe \bar ""
+      g a( g) f d( e) e \bar "||"
+    }
+    \addlyrics {
+      Kris -- to -- vým křtem
+      byl po -- svě -- cen ce -- lý svět;
+      do -- sta -- lo se nám od -- puš -- tě -- ní hří -- chů,
+      pro -- to -- že jsme by -- li všich -- ni
+      o -- čiš -- tě -- ni vo -- dou
+      a Du -- chem sva -- tým.
+    }
+    \header {
+      quid = "ant."
+      tonus = "III"
+      differentia = "a" 
+      psalmus = "Benedictus"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c c c \breathe
+      c d c c b c g4. g \bar "|"
+      g4 a f f f e f f f( g) g \breathe \bar ""
+      g a a b( c a) a \breathe \bar ""
+      b( c) a g4. g \bar "|"
+      g4 g g a f e g4. g \breathe \bar ""
+      a4( b) c a g( f g) g \bar "||"
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "c" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+}
