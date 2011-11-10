@@ -1,0 +1,43 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
+\newcommand{\cisloSvazku}{2}
+\newcommand{\nazev}{Žaltář}
+
+\newcommand{\textDoTiraze}{
+  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\begin{document}
+
+\input{spolecne.tex}
+
+\titulniStrankaSvazkuAntifonare
+
+Tento žaltář obsahuje texty žalmů a kantik ze žaltáře
+Denní modlitby církve s označkovanými přízvuky důležitými
+pro zpěv.
+Je na jednu stranu přípravou pro žaltář s notovanými antifonami,
+zároveň však jeho univerzálnějším doplňkem - lze jej používat
+s různými sadami antifon.
+
+\nadpisTyden{První týden}
+
+\nadpisDen{Neděle}
+
+\nesporyI
+
+\input{generovane/zalm141.tex}
+  
+\clearpage
+\tirazSvazkuAntifonare
+
+\end{document}
