@@ -16,11 +16,10 @@
   o autorovi původního díla a při dalším šíření zachová licenční 
   podmínky.
   
-  \emph{Texty liturgie hodin} jsou majetkem České biskupské konference. 
-  Autor tohoto díla neobdržel licenci k jejich šíření. Publikace tohoto 
-  antifonáře je tedy, přísně vzato, protiprávní. Výše uvedenou
-  licenci hudební složky díla nelze v žádném případě vztahovat
-  na dílo jako celek.
+  \emph{Texty Denní modlitby církve} 
+  jsou majetkem České biskupské konference. 
+  Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
+  týká se pouze jeho hudební složky.
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
@@ -56,6 +55,7 @@ každý den stejně a u následujících dnů se proto neopakují.
 
 \nadpisTypTextu{Simeonovo kantikum}
 
+ant. - III.a
 \lilypondfile{kompletar_12.ly}
 \input{generovane/kantikum_nuncdimittis.tex}
 \input{generovane/doxologie.tex}

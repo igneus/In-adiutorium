@@ -42,7 +42,7 @@ end
 file_to_be_processed = ARGV[0]
 
 # text to be added at the beginning of each score-file
-prepend_text = "\\include \"../spolecne.ly\""
+prepend_text = "\\include \"spolecne.ly\""
 
 unless file_to_be_processed 
   raise "Please, specify LilyPond file which is to be processed."

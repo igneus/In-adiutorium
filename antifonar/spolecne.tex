@@ -96,6 +96,56 @@
 % Nasledujici prikazy slouzi strukturovani uvnitr textu antifonare
 %
 
+% tyden
+\newcommand{\nadpisTyden}[1]{
+  \clearpage
+  \begin{center}
+  {\LARGE \textsc{#1}}
+  \end{center}
+}
+
+% den
+\newcommand{\nadpisDen}[1]{
+  \begin{center}
+  {\LARGE #1}
+  \end{center}
+}
+
+% hodinka
+\newcommand{\nadpisHodinka}[1]{
+  \begin{center}
+  \textbf{#1}
+  \end{center}
+}
+
+\newcommand{\modlitbaSeCtenim}{
+  \nadpisHodinka{Modlitba se čtením}
+}
+
+\newcommand{\ranniChvaly}{
+  \nadpisHodinka{Ranní chvály}
+}
+
+\newcommand{\modlitbaUprostredDne}{
+  \nadpisHodinka{Modlitba uprostřed dne}
+}
+
+\newcommand{\nespory}{
+  \nadpisHodinka{Nešpory}
+}
+
+\newcommand{\nesporyI}{
+  \nadpisHodinka{První nešpory}
+}
+
+\newcommand{\nesporyII}{
+  \nadpisHodinka{Druhé nešpory}
+}
+
+\newcommand{\kompletar}{
+  \nadpisHodinka{Kompletář}
+}
+
 % Cislo zalmu
 \newcommand{\nadpisZalmu}[1]{
   \begin{center}
@@ -104,7 +154,9 @@
   \nopagebreak
 }
 
-% Napr. "hymnus", "responsorium", "zalmy", "kratke cteni"
+% Napr. "hymnus", "responsorium", "zalmy"
 \newcommand{\nadpisTypTextu}[1]{
+  \vspace{2mm}
   \textsc{#1}
+  \vspace{1mm}
 }
