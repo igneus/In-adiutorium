@@ -4,10 +4,19 @@
 # - makes space in front of * and + unbreakable
 # - underlines syllables enclosed in square brackets  [ ]
 
-def preprocess_psalmfile(file, last_accent_only=false, has_title=true, no_formatting=false)
+def preprocess_psalmfile(file, 
+                                      last_accent_only=false, 
+                                      has_title=true, 
+                                      no_formatting=false, 
+                                      output_file=nil,
+                                      line_break_last_line=false)
   File.open(file, "r") do |fr|
-    fwn = File.basename(file)
-    fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+    if output_file then
+      fwn = output_file
+    else
+      fwn = File.basename(file)
+      fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+    end
     
     puts "#{file} -> #{fwn}"
     
@@ -49,7 +58,8 @@ def preprocess_psalmfile(file, last_accent_only=false, has_title=true, no_format
           fw.print " "
         else
           fw.puts l
-          if nextl && nextl =~ /^\s*$/ then
+          if (nextl && nextl =~ /^\s*$/) ||
+              (!nextl && line_break_last_line) then
             fw.puts "\\\\"
           end
           fw.puts
@@ -84,6 +94,8 @@ require 'optparse'
 last_accents_only = false
 has_title = true
 no_formatting = false
+output_file = nil
+line_break_last_line = false
 
 optparse = OptionParser.new do|opts|
   opts.on "-l", "--last-accents-only", "Include only the last accent of each halb-verse in the produced file" do
@@ -98,6 +110,16 @@ optparse = OptionParser.new do|opts|
     has_title = false
     no_formatting = true
   end
+  
+  opts.on "-o", "--output FILE", "Save output to given path." do |out|
+    output_file = out
+  end
+  
+  # This is useful when we want to append a doxology after the psalm
+  # as a separate paragraph
+  opts.on "-e", "--linebreak-at-the-end", "Make a line-break after the last line" do
+    line_break_last_line = true
+  end
 end
 
 optparse.parse!
@@ -107,5 +129,5 @@ if ARGV.empty? then
 end
 
 ARGV.each do |f|
-  preprocess_psalmfile f, last_accents_only, has_title, no_formatting
+  preprocess_psalmfile f, last_accents_only, has_title, no_formatting, output_file, line_break_last_line
 end

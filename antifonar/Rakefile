@@ -4,9 +4,10 @@
 def genzalm(zalm, options="")
   syrovy = "zalmy/"+zalm
   peceny = "generovane/"+zalm.gsub(/\.zalm/, '')+'.tex'
-  file peceny => [syrovy] do
+  preprocessor = "../nastroje/psalmpreprocessor.rb"
+  file peceny => [syrovy, preprocessor] do
     chdir "generovane"
-    sh "ruby ../../nastroje/psalmpreprocessor.rb #{options} ../#{syrovy}"
+    sh "ruby ../#{preprocessor} #{options} ../#{syrovy}"
     chdir ".."
   end
 end
@@ -23,13 +24,21 @@ zalmy_syrove = cislazalmu.map {|i| "zalm"+i.to_s+".zalm"}
 zalmy_pecene = cislazalmu.map {|i| "generovane/zalm"+i.to_s+".tex"}
 
 zalmy_syrove.each_index do |i|
-  genzalm zalmy_syrove[i], "--last-accent-only"
+  genzalm zalmy_syrove[i], "--last-accent-only --linebreak-at-the-end"
 end
 
-genzalm "doxologie.zalm", "--last-accent-only --no-title"
-genzalm "kantikum_nuncdimittis.zalm"
+genzalm "kantikum_nuncdimittis.zalm", "--linebreak-at-the-end"
 
-file "vystup/antifonar_kompletar.tex" => ["antifonar_kompletar.lytex", "kompletar_1.ly", "generovane/doxologie.tex", "generovane/kantikum_nuncdimittis.tex"]+zalmy_pecene do
+# doxologie s jednim akcentem na polovers
+genzalm "doxologie.zalm", "--last-accent-only --no-title"
+# doxologie se dvema akcenty na polovers
+file "generovane/doxologie_2akcenty.tex" => ['zalmy/doxologie.zalm'] do
+  chdir "generovane"
+  sh "ruby ../../nastroje/psalmpreprocessor.rb --no-title --output doxologie_2akcenty.tex ../zalmy/doxologie.zalm"
+  chdir ".."
+end
+  
+file "vystup/antifonar_kompletar.tex" => ["antifonar_kompletar.lytex", "kompletar_1.ly", "generovane/doxologie.tex", "generovane/doxologie_2akcenty.tex", "generovane/kantikum_nuncdimittis.tex"]+zalmy_pecene do
   sh "lilypond-book --out=vystup --pdf antifonar_kompletar.lytex"
 end
 

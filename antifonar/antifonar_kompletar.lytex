@@ -33,7 +33,9 @@
 
 \titulniStrankaSvazkuAntifonare
 
-psalmodie - modus II
+psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
+kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
+na který jinak odkazujeme, a proto je tu výjimečně reprodukován.}
 \lilypondfile{kompletar_1.ly}
 
 \section*{Neděle po 1. nešporách}
@@ -46,8 +48,8 @@ psalmodie - modus II
 \input{generovane/zalm134.tex}
 \input{generovane/doxologie.tex}
 
-Responsorium a Simeonovo kantikum s antifonou se zpívají
-každý den stejně a u následujících dnů se proto neopakují.
+\rubrika{Responsorium a Simeonovo kantikum s antifonou se zpívají
+každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisTypTextu{Responsorium}
 
@@ -58,7 +60,7 @@ každý den stejně a u následujících dnů se proto neopakují.
 ant. - III.a
 \lilypondfile{kompletar_12.ly}
 \input{generovane/kantikum_nuncdimittis.tex}
-\input{generovane/doxologie.tex}
+\input{generovane/doxologie_2akcenty.tex}
 
 \section*{Neděle po 2. nešporách}
 
