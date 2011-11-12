@@ -82,8 +82,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f e f g f d d4. \breathe
-    c4 a( c) d f e c d4. \bar "||"
+    d4 d d d c d e( f) f4. \breathe f4 g f e f d d4. \bar "||"
   }
   \addlyrics {
     Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
@@ -127,8 +126,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d e( f) d \breathe
-    g f e d \bar "||"
+    d4 d c d e( f) f \breathe
+    e c d d \bar "||"
   }
   \addlyrics {
     Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
@@ -141,7 +140,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( g) e4.( d) f4 e c d d4. \bar "||"
+    d4 e c f e d d d \bar "||"
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
@@ -154,9 +153,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c bes) a \breathe
-    d d e( f) d \breathe
-    g f e e( f d) d \bar "||"
+    d4 d f d d( e) e \breathe e f e d d \bar "||"
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
