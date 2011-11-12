@@ -1,4 +1,5 @@
 # splits a LilyPond music file to many numbered files, one file per score
+# * removes score header!
 
 def File.name_without_extension(fname)
   
@@ -38,6 +39,40 @@ def split_file(file_to_be_processed)
   end
 end
 
+# str - string with a valid structure of braces {}
+# opening_brace_i - index, where search for the first opening brace { should start
+# Returns index of the coresponding closing brace } or raises error
+def matching_brace_index(str, opening_brace_i)
+  i1 = str.index "{", opening_brace_i
+  unless i1
+    raise "No opening brace found!"
+  end
+  
+  opening_braces_stack = []
+  opening_braces_stack << i1
+  
+  position = i1+1
+  
+  begin
+    i = str.index "{", position
+    j = str.index "}", position
+    
+    if j.nil? then
+      raise "No closing brace more, #{opening_braces_stack.size} more braces open."
+    end
+    
+    if i && i < j then
+      opening_braces_stack << i
+      position = i+1
+    else
+      opening_braces_stack.pop
+      position = j+1
+      if opening_braces_stack.empty? then
+        return j
+      end
+    end
+  end while ! opening_braces_stack.empty?
+end
 
 file_to_be_processed = ARGV[0]
 
@@ -51,7 +86,7 @@ end
 split_file(file_to_be_processed) do |scoretext|
   i1 = scoretext.index("\\header")
   if i1 then
-    i2 = scoretext.index("}", i1)
+    i2 = matching_brace_index(scoretext, i1)
     newtext = scoretext.slice(0,i1)+scoretext.slice(i2+1, scoretext.size-1)
   else
     newtext = scoretext
