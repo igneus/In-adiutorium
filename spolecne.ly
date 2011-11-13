@@ -112,6 +112,20 @@ choralAutoPiece = \markup {
   }
 }
 
+% Choralni "pomlky" (divisiones)
+
+barMin = {
+  \breathe
+  \bar ""
+}
+barMaior = {
+  \once \override Staff.BarLine #'extra-offset = #'(0 . 2)
+  \once \override Staff.BarLine #'bar-extent = #'(-3 . -1) 
+  \bar "|" 
+}
+barMax = { \bar "|" }
+barFinalis = { \bar "||" }
+
 % Specialni znaky pro responsoria -------------------------------
 
 Response = \lyricmode { 
