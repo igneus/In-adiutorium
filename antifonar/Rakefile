@@ -10,6 +10,7 @@ def genzalm(zalm, options="")
     sh "ruby ../#{preprocessor} #{options} ../#{syrovy}"
     chdir ".."
   end
+  return peceny
 end
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex"] do
@@ -66,3 +67,27 @@ file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   sh "pdflatex zalm136"
   cd ".."
 end
+
+#######################
+# zaltar
+
+zalmyzaltare = []
+
+cislazalmu = [141, 142, 
+                  63, 149]
+
+zalmy_syrove = cislazalmu.map {|i| "zalm"+i.to_s+".zalm"}
+zalmy_pecene = cislazalmu.map {|i| "generovane/zalm"+i.to_s+".tex"}
+
+zalmy_syrove.each_index do |i|
+  zalmyzaltare << genzalm(zalmy_syrove[i])
+end
+
+zalmyzaltare << genzalm('kantikum_fp2.zalm')
+zalmyzaltare << genzalm('kantikum_dan3i.zalm')
+
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex']+zalmyzaltare do
+  sh "pdflatex antifonar_zaltar"
+end
+
+task :zaltar => ["antifonar_zaltar.pdf"]
