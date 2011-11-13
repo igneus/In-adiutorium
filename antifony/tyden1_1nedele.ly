@@ -114,7 +114,7 @@ tInedeleInespResp = \score {
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci v_oh -- ni -- vé pe -- ci zpí -- vej -- me Bo -- hu:
-    Po -- že -- hna -- ný jsi, náš Bo -- že. A -- le -- lu -- ja.
+    Po -- žeh -- na -- ný jsi, náš Bo -- že. A -- le -- lu -- ja.
   }
   \header {
     piece = "2. ant. - VIII.G (Dan 3,57-88)"
