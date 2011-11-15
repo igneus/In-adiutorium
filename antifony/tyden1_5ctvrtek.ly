@@ -33,14 +33,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a f( g) a a4. \breathe a4 a a c a f( g) a \breathe a4 a f g f d d \bar "||"
+    g4 a a a d( b) c c4. \barMin
+    b4 c d c b a( g) g \barMin
+    a f a b a g g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je ve -- li -- ký, vel -- mi je hod -- ný chvá -- ly
+    Hos -- po -- din je ve -- li -- ký, 
+    vel -- mi je hod -- ný chvá -- ly
     v_měs -- tě na -- še -- ho Bo -- ha.
   }
   \header {
-    piece = "3. ant. - I.a (Žalm 48(47))"
+    quid = "3. ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 48"
+    piece = \markup {\sestavTitulek}
   }
 }
 

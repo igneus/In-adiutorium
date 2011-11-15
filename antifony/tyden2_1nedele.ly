@@ -24,9 +24,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a( c) c d( b) c \breathe
-    b c a g \breathe
-    f a g( f) g4. \bar "||"
+    g4 g g g a c d( c) c \barMin b c g g \barMin
+    a a g( f) g4. \bar "||"
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
@@ -44,13 +43,16 @@
 tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) a( c) c c b( c a4.) a \breathe
-    c4 c d c c b a b( c) c c \breathe
-    d c a b a g g \bar "||"
+    g4 f( g) a( c) c c b( c a4.) a \barMin
+    c4 c d c c b a b( c) c c \barMin
+    d c a b a g g \barMin
+    a f( a) g g4. \barFinalis
   }
   \addlyrics {
-    Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
-    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+    Při Je -- ží -- šo -- vě jmé -- nu 
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no 
+    na ne -- bi i na ze -- mi. 
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -122,16 +124,19 @@ tIInedeleInespResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f) f( a) a b( c) a( g) a \breathe
-    c( d) c( b) a( b) a( g) g \breathe f a g( f) g4. \bar "||"
+    c4 a g a( c) d( c) c \barMin
+    b c a g g \barMin
+    a f f( g) g \barFinalis
   }
   \addlyrics {
-    Zpí -- vej -- me chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
+    Zpí -- vej -- me chva -- lo -- zpěv 
+    na -- še -- mu Bo -- hu. 
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     tonus = "VIII"
-    differentia = "G" 
+    differentia = "c" 
     psalmus = "Dan 3"
     piece = \markup {\sestavTitulek}
   }
@@ -254,13 +259,13 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b) b b a( b) c( d e) c( b) b \breathe
-    b b e d e d( c) b a g4. a \breathe
-    a4( b) a g4. g \bar "||"
+    a4 c b c c d d \barMin
+    d d e c b a g f g4. g \barMin
+    g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
-    Kris -- tus je kněz na -- vě -- ky po -- dle 
-    Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    Kris -- tus je kněz na -- vě -- ky 
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
     A -- le -- lu -- ja.
   }
   \header {

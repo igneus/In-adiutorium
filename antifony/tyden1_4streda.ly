@@ -93,29 +93,38 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f\major
-    f4 e f f f g( a bes) a4. \breathe c4 a g4. a \breathe a4 a g f f4. \bar "||"
+    d4 a' g f g g( a) a \barMin g f e4. e \barMin
+    e4 f d c d4. \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mé svět -- lo a má spá -- sa, ko -- ho bych se bál?
+    Hos -- po -- din je mé svět -- lo a má spá -- sa, 
+    ko -- ho bych se bál?
   }
   \header {
-    piece = "1. ant. - VI.F (Žalm 27(26)-I)"
+    quid = "1. ant."
+    tonus = "I"
+    differentia = "D2" 
+    psalmus = "Žalm 27-I"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
     \choralniRezim
-    \key f\major
-    f4 f e f g a a( g f) g4.( f) \breathe f4 f e g a g f f \bar "||"
+    d4 f f f g f g( a) a \barMin
+    a bes a g a f f d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, hle -- dám tvou tvář;
     ne -- skrý -- vej svou tvář pře -- de mnou.
   }
   \header {
-    piece = "2. ant. - VI.F (Žalm 27(26)-II)"
+    quid = "1. ant."
+    tonus = "I"
+    differentia = "D2" 
+    psalmus = "Žalm 27-II"
+    piece = \markup {\sestavTitulek}
   }
 }
 

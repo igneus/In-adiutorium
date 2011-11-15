@@ -226,12 +226,14 @@ A -- le -- lu -- ja.
 tInedeleIInespAntI = \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a b c a g4. a \breathe c4 d e c a a \breathe 
-    g f g g4. \bar "||"
+    g4 a g a b c b c( d) d \barMin
+    d( c) b c a g g \barMin
+    g g( a) g4. g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
-    Seď po mé pra -- vi -- ci. A -- le -- lu -- ja.
+    Seď po mé pra -- vi -- ci. 
+    A -- le -- lu -- ja.
   }
   \header {
     piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
