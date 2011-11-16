@@ -73,8 +73,9 @@ end
 
 zalmyzaltare = []
 
-cislazalmu = [141, 142, 
-                  63, 149]
+cislazalmu = [95, 100, 67, 24, # invitatorium
+                  141, 142, 63, 149 # ne 1.t.
+                  ]
 
 zalmy_syrove = cislazalmu.map {|i| "zalm"+i.to_s+".zalm"}
 zalmy_pecene = cislazalmu.map {|i| "generovane/zalm"+i.to_s+".tex"}
@@ -85,6 +86,8 @@ end
 
 zalmyzaltare << genzalm('kantikum_fp2.zalm')
 zalmyzaltare << genzalm('kantikum_dan3i.zalm')
+zalmyzaltare << genzalm('kantikum_benedictus.zalm')
+zalmyzaltare << genzalm('kantikum_magnificat.zalm')
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex']+zalmyzaltare do
   sh "pdflatex antifonar_zaltar"
