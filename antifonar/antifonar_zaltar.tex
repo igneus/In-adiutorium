@@ -1,6 +1,7 @@
-\documentclass[a4paper]{article}
+\documentclass[a5paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=2.5cm]{geometry} % okraje stranky
+% \usepackage{czech}
+\usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 
@@ -11,6 +12,14 @@
 
 \newcommand{\textDoTiraze}{
   Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+  
+  Texty žalmů a kantik jsou převzaté z webu ebreviar.cz,
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
@@ -62,6 +71,18 @@ s různými sadami antifon.
 \input{generovane/zalm63.tex}
 \input{generovane/kantikum_dan3i.tex}
 \input{generovane/zalm149.tex}
+
+\modlitbaUprostredDne
+
+\input{generovane/zalm118i.tex}
+\input{generovane/zalm118ii.tex}
+\input{generovane/zalm118iii.tex}
+
+\nesporyII
+
+\input{generovane/zalm110.tex}
+\input{generovane/zalm114.tex}
+\input{generovane/kantikum_zj19.tex}
   
 \clearpage
 \tirazSvazkuAntifonare

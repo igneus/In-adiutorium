@@ -47,7 +47,9 @@ file "kompletar_1.ly" => ["../kompletar.ly"] do
   sh "ruby ../nastroje/splitscores.rb ../kompletar.ly"
 end
 
-task :default => ["vystup/antifonar_kompletar.pdf"]
+task :kompletar => ["vystup/antifonar_kompletar.pdf"]
+
+task :default => [:kompletar]
 
 ###############
 # material k responsorialnimu prednesu zalmu 136
@@ -73,23 +75,22 @@ end
 
 zalmyzaltare = []
 
-cislazalmu = [95, 100, 67, 24, # invitatorium
-                  141, 142, 63, 149 # ne 1.t.
-                  ]
+cislazalmu = %w( 95 100 67 24
+                  141 142 63 149 118i 118ii 118iii 110 114
+                  )
 
-zalmy_syrove = cislazalmu.map {|i| "zalm"+i.to_s+".zalm"}
-zalmy_pecene = cislazalmu.map {|i| "generovane/zalm"+i.to_s+".tex"}
-
-zalmy_syrove.each_index do |i|
-  zalmyzaltare << genzalm(zalmy_syrove[i])
+cislazalmu.each do |z|
+  zalmyzaltare << genzalm("zalm"+z+".zalm")
 end
 
 zalmyzaltare << genzalm('kantikum_fp2.zalm')
 zalmyzaltare << genzalm('kantikum_dan3i.zalm')
 zalmyzaltare << genzalm('kantikum_benedictus.zalm')
 zalmyzaltare << genzalm('kantikum_magnificat.zalm')
+zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting')
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex']+zalmyzaltare do
+
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'spolecne.tex']+zalmyzaltare do
   sh "pdflatex antifonar_zaltar"
 end
 
