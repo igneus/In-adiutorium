@@ -140,7 +140,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e c f e d d d \bar "||"
+    d4 d( f e) e \barMin e( f) d c d d \bar "||"
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
