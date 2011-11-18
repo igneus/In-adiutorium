@@ -479,6 +479,36 @@
   }
   
   \markup {\nadpisDen {24. prosince}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      % R
+      \neviditelna d
+      d4 d d d d( a') a a d( c) a g g( a) a \barMax
+      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+      % V
+      \neviditelna d
+      a'4 a c d c c( d) d \barMin c bes g g( a) a \barMax
+      % R
+      \neviditelna bes
+      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+      % Slava
+      a'4 a c d c c( d) d \barMin c bes g g a a \barFinalis
+    }
+    \addlyrics {
+      \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+      při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+      \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+      \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - I"
+    }
+  }
+
   \score {
     \relative c'' {
       \choralniRezim
