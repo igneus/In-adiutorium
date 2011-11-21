@@ -24,8 +24,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a c d( c) c \barMin b c g g \barMin
-    a a g( f) g4. \bar "||"
+    g4 g g g a( c) c c( d c) c \barMin
+    b( c) a a( g) g \barMin
+    a f( e) g g \barFinalis
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 

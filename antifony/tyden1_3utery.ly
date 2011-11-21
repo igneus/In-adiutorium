@@ -96,29 +96,40 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f\major
-    f4 g a a bes( c) a a4. \breathe c4. a4 bes g a g( f) f \bar "||"
+    g4 a a a f( e) f f4. \barMin
+    f4( g) g g f e d4. d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din dal ví -- těz -- ství své -- mu po -- ma -- za -- né -- mu.
+    Hos -- po -- din dal ví -- těz -- ství 
+    své -- mu po -- ma -- za -- né -- mu.
   }
   \header {
-    piece = "1. ant. - VI.F (Žalm 20(19))"
+    quid = "1. ant."
+    tonus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 20"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a f) d f( g) g \breathe a g( a) c a f g f( d) d \bar "||"
+    g4 g g( a) a \barMaior
+    a f4.( d) \barMin e4 f g f d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, tvou moc o -- sla -- ví -- me zpě -- vem.
+    Hos -- po -- di -- ne, 
+    tvou moc o -- sla -- ví -- me zpě -- vem.
   }
   \header {
-    piece = "2. ant. - I.g2 (Žalm 21(20))"
+    quid = "2. ant."
+    tonus = "I"
+    differentia = "g2" 
+    psalmus = "Žalm 21"
+    piece = \markup {\sestavTitulek}
   }
 }
 
