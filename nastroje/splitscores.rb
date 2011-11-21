@@ -74,23 +74,37 @@ def matching_brace_index(str, opening_brace_i)
   end while ! opening_braces_stack.empty?
 end
 
-file_to_be_processed = ARGV[0]
+require 'optparse'
 
-# text to be added at the beginning of each score-file
-prepend_text = "\\include \"spolecne_antifonar.ly\""
+setup = {:remove_headers => false,
+              :prepend_text => ""}
+
+optparse = OptionParser.new do|opts|
+  opts.on "-h", "--remove-headers", "Remove header from each score" do
+    setup[:remove_headers] = true
+  end
+  opts.on "-t", "--prepend-text TEXT", "Text to be printed at the beginning of each file with a score" do |text|
+    setup[:prepend_text] = text
+  end
+end
+optparse.parse!
+
+file_to_be_processed = ARGV[0]
 
 unless file_to_be_processed 
   raise "Please, specify LilyPond file which is to be processed."
 end
 
 split_file(file_to_be_processed) do |scoretext|
-  i1 = scoretext.index("\\header")
-  if i1 then
-    i2 = matching_brace_index(scoretext, i1)
-    newtext = scoretext.slice(0,i1)+scoretext.slice(i2+1, scoretext.size-1)
-  else
-    newtext = scoretext
+  if setup[:remove_headers] then
+    i1 = scoretext.index("\\header")
+    if i1 then
+      i2 = matching_brace_index(scoretext, i1)
+      newtext = scoretext.slice(0,i1)+scoretext.slice(i2+1, scoretext.size-1)
+    else
+      newtext = scoretext
+    end
   end
   
-  prepend_text + "\n" + newtext
+  setup[:prepend_text] + "\n" + newtext
 end
