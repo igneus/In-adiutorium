@@ -119,8 +119,7 @@ barMin = {
   \bar ""
 }
 barMaior = {
-  \once \override Staff.BarLine #'extra-offset = #'(0 . 2)
-  \once \override Staff.BarLine #'bar-extent = #'(-3 . -1) 
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
   \bar "|" 
 }
 barMax = { \bar "|" }
