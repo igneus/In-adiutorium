@@ -120,7 +120,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f g g( a) a \breathe a( c) a a g f e( f d) d \bar "||"
+    d4 d f g g( a) a \breathe a( bes) a a g f e( f d) d \bar "||"
   }
   \addlyrics {
     Kdo nás su -- žo -- va -- li, žá -- da -- li od nás ra -- dost.

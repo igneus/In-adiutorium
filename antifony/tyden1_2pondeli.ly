@@ -23,7 +23,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( f) a4. a g4( a) bes c a( g) g \breathe f( g) e d \bar "||"
+    f4. a a g4( a) bes c a( g) g \breathe f( g) e d \bar "||"
   }
   \addlyrics {
     Chvá -- lí -- me tvé slav -- né jmé -- no, náš Bo -- že.
@@ -139,9 +139,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c( d) d c d4. \breathe
-    d4 c a c( d) d \breathe
-    a4 c d d d d b c a( g) g \bar "||"
+    a4 c( d) d c d4. \barMin
+    d4 c a c( d) d \barMaior
+    a4 c d d d d b c a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,

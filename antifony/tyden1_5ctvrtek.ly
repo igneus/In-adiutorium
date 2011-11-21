@@ -72,7 +72,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d e f( d) d \breathe g f e d \bar "||"
+    d4 c d e f( d) d \breathe e f d d \bar "||"
   }
   \addlyrics {
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
@@ -131,11 +131,13 @@
 tIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b( c a) g g4.( a) c4 c( d) d d a( g) a4. \breathe
-    d4 d d c( a) a c( d) a g a a \bar "||"
+    a4 g a b( c a) g g4.( a) \barMin 
+    c4 c( d) d d a( g) a4. \barMin
+    d4 d d c( a) a c( d) a g a a \barFinalis
   }
   \addlyrics {
-    Bůh mu dal moc a čest i krá -- lov -- skou vlá -- du;
+    Bůh mu dal moc a čest 
+    i krá -- lov -- skou vlá -- du;
     bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
   }
   \header {

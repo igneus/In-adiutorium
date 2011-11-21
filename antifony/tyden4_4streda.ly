@@ -65,10 +65,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( d) c \breathe b c a( g) g \breathe a b c a g f( g) g \bar "||"
+    g4 a c( d) c \barMin 
+    b c a( g) g \barMax 
+    a b c a g f( g) g \barFinalis
   }
   \addlyrics {
-    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    Vo -- lám k_to -- bě, 
+    Hos -- po -- di -- ne,
     spo -- lé -- hám na tvá slo -- va.
   }
   \header {
