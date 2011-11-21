@@ -15,13 +15,15 @@ nastaveni = {
   
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
+  
+  \autoBeamOn
 }
 
 \relative c''  {
   \nastaveni
   
   % Kristus Jezis
-  g4 g b( as) g( f) e f g g g8( f) g4 as( g) f as g2 \bar "|"
+  g4^\markup{\italic{ison G}} g b( as) g( f) e f g g g8( f) g4 as( g) f as g2 \bar "|"
   g4 g g as g f g as g f( as) g2 \bar "||"
   
   % ale sam sebe
