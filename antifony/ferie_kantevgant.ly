@@ -7,7 +7,7 @@
 tIpondeliAntBenedictus = \score {
   \relative c' {
     \choralniRezim
-    d4( f d c d) e( f) f \breathe
+    d4( f d c d) e( f) f 
     f g( f) d d4. \breathe
     f4( e) c4.( d) \bar "||"
   }
