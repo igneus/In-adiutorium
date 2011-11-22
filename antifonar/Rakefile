@@ -79,15 +79,16 @@ cislazalmu = %w( 95 100 67 24
                   141 142 63 149 118i 118ii 118iii 110 114
                   )
 
+commonoptions = '--columns --lettrine'
 cislazalmu.each do |z|
-  zalmyzaltare << genzalm("zalm"+z+".zalm")
+  zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions)
 end
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm')
-zalmyzaltare << genzalm('kantikum_dan3i.zalm')
-zalmyzaltare << genzalm('kantikum_benedictus.zalm')
-zalmyzaltare << genzalm('kantikum_magnificat.zalm')
-zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting')
+zalmyzaltare << genzalm('kantikum_fp2.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+commonoptions)
 
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'spolecne.tex']+zalmyzaltare do

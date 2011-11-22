@@ -4,15 +4,10 @@
 # - makes space in front of * and + unbreakable
 # - underlines syllables enclosed in square brackets  [ ]
 
-def preprocess_psalmfile(file, 
-                                      last_accent_only=false, 
-                                      has_title=true, 
-                                      no_formatting=false, 
-                                      output_file=nil,
-                                      line_break_last_line=false)
+def preprocess_psalmfile(file, setup={})
   File.open(file, "r") do |fr|
-    if output_file then
-      fwn = output_file
+    if setup[:output_file] then
+      fwn = setup[:output_file]
     else
       fwn = File.basename(file)
       fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
@@ -21,13 +16,18 @@ def preprocess_psalmfile(file,
     puts "#{file} -> #{fwn}"
     
     File.open(fwn, "w") do |fw|
+      if setup[:columns] then
+        fw.puts "\\begin{multicols}{2}"
+      end
+      
       # first line contains the title
-      if has_title then
+      if setup[:has_title] then
         fw.puts "\\nadpisZalmu{"+fr.gets.chomp+"}"
         fw.puts fr.gets # the second line is empty then
       end
       
       nextl = nil
+      first_line = true
       
       loop do
         if nextl then
@@ -41,30 +41,43 @@ def preprocess_psalmfile(file,
           break
         end
         
-        if no_formatting then
-          l = process_accents(l, last_accent_only)
+        if first_line then
+          first_line = false
+          if setup[:lettrine] then
+            is = l.index " "
+            l = "\\lettrine{"+l[0]+"}{"+l[1..is]+"} "+l[is+1..-1]
+          end
+        end
+        
+        if setup[:no_formatting] then
+          l = process_accents(l, setup[:last_accent_only])
           fw.puts l
           next
         end
         
         l.chomp!
         
-        l = process_accents(l, last_accent_only)
+        l = process_accents(l, setup[:last_accent_only])
         
         if l.rindex("+") || l.rindex("*") then
-          l.gsub!(" +", "~+")
-          l.gsub!(" *", "~*")
+          l.gsub!(" +", "~\\dag\mbox{}")
+          l.gsub!(" *", "~* ")
           fw.print l
           fw.print " "
         else
           fw.puts l
           if (nextl && nextl =~ /^\s*$/) ||
-              (!nextl && line_break_last_line) then
+              (!nextl && setup[:line_break_last_line]) then
             fw.puts "\\\\"
           end
           fw.puts
         end
       end
+      
+      if setup[:columns] then
+        fw.puts "\\end{multicols}"
+      end
+      
     end
   end
 end
@@ -91,34 +104,48 @@ end
 
 require 'optparse'
 
-last_accents_only = false
-has_title = true
-no_formatting = false
-output_file = nil
-line_break_last_line = false
+setup = {
+  :last_accents_only => false,
+  :has_title => true,
+  :no_formatting => false,
+  :output_file => nil,
+  :line_break_last_line => false,
+  :columns => false,
+  :lettrine => false
+}
 
 optparse = OptionParser.new do|opts|
   opts.on "-l", "--last-accents-only", "Include only the last accent of each halb-verse in the produced file" do
-    last_accents_only = true
+    setup[:last_accents_only] = true
   end
   
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
-    has_title = false
+    setup[:has_title] = false
   end
   
   opts.on "-f", "--no-formatting", "Just process accents and don't do anything else with the document" do
-    has_title = false
-    no_formatting = true
+    setup[:has_title] = false
+    setup[:no_formatting] = true
+  end
+  
+  # Needs package multicol!
+  opts.on "-c", "--columns", "Typeset psalm in two columns" do
+    setup[:columns] = true
+  end
+  
+  # Needs package lettrine!
+  opts.on "-l", "--lettrine", "Large first character of the psalm." do
+    setup[:lettrine] = true
   end
   
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
-    output_file = out
+    setup[:output_file] = out
   end
   
   # This is useful when we want to append a doxology after the psalm
   # as a separate paragraph
   opts.on "-e", "--linebreak-at-the-end", "Make a line-break after the last line" do
-    line_break_last_line = true
+    setup[:line_break_last_line] = true
   end
 end
 
@@ -129,5 +156,5 @@ if ARGV.empty? then
 end
 
 ARGV.each do |f|
-  preprocess_psalmfile f, last_accents_only, has_title, no_formatting, output_file, line_break_last_line
+  preprocess_psalmfile f, setup
 end

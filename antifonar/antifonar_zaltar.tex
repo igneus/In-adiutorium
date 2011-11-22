@@ -1,9 +1,11 @@
 \documentclass[a5paper]{article}
 \usepackage[utf8]{inputenc}
-% \usepackage{czech}
+% \usepackage{czech} % cestina hazi pri prekladu error a tak zdrzuje
 \usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -39,6 +41,10 @@ zároveň však jeho univerzálnějším doplňkem - lze jej používat
 s různými sadami antifon.
 
 % \input{generovane/.tex}
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
 
 \section*{Kantika z evangelií}
 
