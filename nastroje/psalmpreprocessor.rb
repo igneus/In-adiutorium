@@ -60,7 +60,7 @@ def preprocess_psalmfile(file, setup={})
         l = process_accents(l, setup[:last_accent_only])
         
         if l.rindex("+") || l.rindex("*") then
-          l.gsub!(" +", "~\\dag\mbox{}")
+          l.gsub!(" +", "~\\dag\\mbox{}")
           l.gsub!(" *", "~* ")
           fw.print l
           fw.print " "
