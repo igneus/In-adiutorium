@@ -69,14 +69,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f( d) d \breathe e f f( g) g \bar "|"
-      g e e f( d) f e e e \bar "||"
+      c4 d( f) f f f f( d) d \breathe e f f( g) g \bar "|"
+      g e f d( c) d f f e \bar "||"
       % V
       \neviditelna d
-      d( f) f f f f f( d) e f( g) g \bar "|"
+      d( f) f f f f f( d) d e( f) g \bar "|"
       % R
       \neviditelna g
-      g e e f( d) f e e e \bar "||"
+      g e f d( c) d f f e \bar "||"
       % Slava
       \doxologieResponsoriumIV \bar "||"
     }
@@ -98,14 +98,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f( d) e f f( g) g \bar "|"
-      g e f d e e \bar "||"
+      d4( f) f f f f( e) d d e( f) g \bar "|"
+      e f d f f( e) e \bar "||"
       % V
       \neviditelna d
-      c d( f) f f f f f f e f( g) g \bar "|"
+      c d( f) f f f f f f d e( f) g \bar "|"
       % R
       \neviditelna g
-      g e f d e e \bar "||"
+      e f d f f( e) e \bar "||"
       % Slava
       \doxologieResponsoriumIV \bar "||"
     }
@@ -127,14 +127,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f f f( d) e f f( g) g \bar "|"
-      g f g f( e) e e d e f g f e e \bar "||"
+      c4 d( f) f f f f f f( d) e f f( g) g \bar "|"
+      g e f d( c) c c d e f d f f e \bar "||"
       % V
-      \neviditelna
-      c d( f) f f f f f f f f( d) e( f) g g \bar "|"
+      \neviditelna e
+      c4 d( f) f f f f f f f( d) e( f) f( g) g \bar "|"
       % R
       \neviditelna g
-      g f g f( e) e e d e f g f e e \bar "||"
+      g e f d( c) c c d e f d f f e \bar "||"
       % Slava
       \doxologieResponsoriumIV \bar "||"
     }
@@ -478,6 +478,8 @@ doxologieResponsoriumVI = \relative c'' {
   \header {
     subtitle = "2. a 4. týden žaltáře"
   }
+  
+  \markup\nadpisDen{"neděle"}
   
   \markup\nadpisDen{"pondělí"}
   
