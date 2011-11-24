@@ -19,7 +19,7 @@ doxologieResponsoriumIV = \relative c' {
 
 doxologieResponsoriumVI = \relative c'' {
   a4 a a a a g( a) g \breathe
-  g a g f( g) g( a) a
+  g a g f g g( a)
 }
 
 %{
@@ -158,14 +158,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f( g) f e f( g) g( a) a \bar "|"
-      g f g( a) g f f \bar "||"
+      f4 f f f f g( f) g( a) a( g) \bar "|"
+      f d f( g) g f f \bar "||"
       % V
       \neviditelna a
-      a a a a a( bes) a( g) g( a) g \bar "|"
+      a a a a a( bes) a( g) g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g f g( a) g f f \bar "||"
+      f d f( g) g f f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -186,11 +186,11 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g f( e) f( g) g4.( a) \bar "|" 
+      f4 f f g f g( a) a( g) \bar "|" 
       g4 f d f g g( f) f \bar "||"      
       % V
       \neviditelna g
-      a( bes) a a g( f) g g4( a g) \bar "|"
+      a( bes) a a g a a( g) \bar "|"
       % R
       \neviditelna g
       g4 f d f g g( f) f \bar "||"      
