@@ -18,7 +18,7 @@ doxologieResponsoriumIV = \relative c' {
 }
 
 doxologieResponsoriumVI = \relative c'' {
-  a4 a a a a g( a) g \breathe
+  a4 a a( bes) a a g( a) g \breathe
   g a g f g g( a)
 }
 
@@ -216,14 +216,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 e f g( a) a \bar "|"
-      g f d f( g) g f \bar "||"
+      f4 f f g( a) a( g) \bar "|"
+      f d f( g) g f f \bar "||"
       % V
       \neviditelna a
-      a a a a( bes) g( a) g g \breathe g f( g) a a \bar "|"
+      a a a a( bes) g g( a) g \breathe g f g g( a) \bar "|"
       % R
       \neviditelna g
-      g f d f( g) g f \bar "||"
+      f d f( g) g f f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -244,14 +244,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g f e( d) d d f g g( a) a \bar "|"
-      g g( a g) g \breathe f d f( g) g f \bar "||"
+      f4 f f f f f f f g f g( a) a( g) \bar "|"
+      f g( a) g g( f d) f( g) g f f \bar "||"
       % V
       \neviditelna a
-      a a( bes) a a a a a g( a) g \breathe g f g g g( a) \bar "|"
+      a a( bes) a a a a a g( a) g \breathe g f g g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g g( a g) g \breathe f d f( g) g f \bar "||"
+      f g( a) g g( f d) f( g) g f f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -274,14 +274,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f \breathe f f f f f f g f g( a) a \bar "|"
-      g f g g( a) g( f d) f( g) g f \bar "||"
+      f f \breathe f f f f f f g f g( a) a( g) \bar "|"
+      f g a g( f) d f( g) g f \bar "||"
       % V
       \neviditelna a
-      a( bes) a a g( a) g g g( f) g( a) a( g) \bar "|"
+      a( bes) a a g( a) g \breathe g g( f) g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g f g g( a) g( f d) f( g) g f \bar "||"
+      f g a g( f) d f( g) g f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -302,14 +302,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f( g) g( f) f e f g( a) a \bar "|"
-      g f g( a) g \breathe g g f d f( g) g( f) f \bar "||"
+      f4 f f f f f g f g( a) a( g) \bar "|"
+      g f g( a) g \breathe g g( f d) f g g f f \bar "||"
       % V
       \neviditelna a
       a a a a a g( a) g \breathe f( g) g( a) a \bar "|"
       % R
       \neviditelna g
-      g f g( a) g \breathe g g f d f( g) g( f) f \bar "||"
+      g f g( a) g \breathe g g( f d) f g g f f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -332,14 +332,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f g f g g( a) a \bar "|"
-      g( a) g g f( d) f( g) g( f) f \bar "||"
+      f f g f g g( a) a( g) \bar "|"
+      g g( a) g g( f d) f( g) g f \bar "||"
       % V
       \neviditelna a
       a a( bes) a a a g f g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g( a) g g f( d) f( g) g( f) f \bar "||"
+      g g( a) g g( f d) f( g) g f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -360,14 +360,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f( g) f f f g g( a) a \bar "|"
-      g g g g g f( d) f( g) g( f) f \bar "||"
+      f4 f f f f f g f g( a) a( g) \bar "|"
+      g g g g( f d) f g g f f \bar "||"
       % V
       \neviditelna g
       a a a( bes) a a a( g) g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g g g g g f( d) f( g) g( f) f \bar "||"
+      g g g g( f d) f g g f f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -390,14 +390,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f( d) f e e \breathe d d d d e( f) f f f g( a) a \bar "|"
-      g f g( a) g( f) f \bar "||"
+      f4 f f f f f f f f f f g( f) g( a) a( g) \bar "|"
+      g g( f d) f( g) g f \bar "||"
       % V
       \neviditelna a
       a a a a( bes) a a g f g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g f g( a) g( f) f \bar "||"
+      g g( f d) f( g) g f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -419,14 +419,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g( f) g( a) a \bar "|"
-      g a( bes) a( g) g g g g f d f( g) g f \bar "||"
+      f4 f f g( f) g( a) a( g) \bar "|"
+      g g( a) g g g g g f d f( g) g f \bar "||"
       % V
       \neviditelna a
-      a( bes) a a a a a a g( a) g \breathe g g g g f g( a) a( g) \bar "|"
+      a a a a a( bes) a a g( a) g \breathe g g g g f g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g a( bes) a( g) g g g g f d f( g) g f \bar "||"
+      g g( a) g g g g g f d f( g) g f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
@@ -449,14 +449,14 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f f f g f g( a) a \bar "|"
-      g f d f g g( f) f \bar "||"
+      f f f f g f g( a) a( g) \bar "|"
+      g g g f( d) f( g) g f \bar "||"
       % V
       \neviditelna a
       a a a a( bes) a g f g( a) a( g) \bar "|"
       % R
       \neviditelna g
-      g f d f g g( f) f \bar "||"
+      g g g f( d) f( g) g f \bar "||"
       % Slava
       \doxologieResponsoriumVI \bar "||"
     }
