@@ -37,7 +37,7 @@ doxologieResponsoriumVI = \relative c'' {
       \neviditelna
       
       % Slava
-      \doxologieResponsorium \bar "||"
+      \doxologieResponsoriumVI \bar "||"
     }
     \addlyrics {
       \Response
@@ -473,7 +473,6 @@ doxologieResponsoriumVI = \relative c'' {
   
 }
 
-%{
 \bookpart {
   \header {
     subtitle = "2. a 4. týden žaltáře"
@@ -481,6 +480,94 @@ doxologieResponsoriumVI = \relative c'' {
   
   \markup\nadpisDen{"neděle"}
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna c
+      c4 d( f) f f f( g) f \barMin f f f f( d) e f g \barMax
+      g e f d( c) c \barMin d d d d f e e \barFinalis
+      % V
+      \neviditelna d
+      d4( f) f f f f f f f f f( d) e( f g) g \barMax
+      % R
+      \neviditelna g
+      g e f d( c) c \barMin d d d d f e e \barFinalis
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
+      ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě._*
+      \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna d
+      f4 f f f d e( f) g \barMax
+      g e f d f e e \barFinalis
+      % V
+      \neviditelna d
+      c d( f) f f f f d e( f) g \barMax
+      % R
+      \neviditelna g
+      g e f d f e e \barFinalis
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Ve -- le -- bí -- me tě, Bo -- že,_*
+      a vzý -- vá -- me tvé jmé -- no.
+      \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech_*
+      \Response a vzý -- vá -- me tvé jmé -- no.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna d
+      f4 f f f f( d) e( g) \barMax
+      g g e f d c c \barMin d f e d d e e \barFinalis
+      % V
+      \neviditelna d
+      c c d( f) f f f f d e( f) g \barMax
+      % R
+      \neviditelna g
+      g g e f d c c \barMin d f e d d e e \barFinalis
+      % Slava
+      \doxologieResponsoriumIV \bar "||"
+    }
+    \addlyrics {
+      \Response Ve -- li -- ký je náš Bůh,_*
+      je -- mu pat -- ří všech -- na moc na ne -- bi i na ze -- mi.
+      \Verse Je -- ho moud -- rost pře -- vy -- šu -- je všech -- no,_*
+      \Response je -- mu pat -- ří všech -- na moc na ne -- bi i na ze -- mi.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - IV"
+    }
+  }
+  
+  %{
   \markup\nadpisDen{"pondělí"}
   
   \markup\nadpisDen{"úterý"}
@@ -492,6 +579,5 @@ doxologieResponsoriumVI = \relative c'' {
   \markup\nadpisDen{"pátek"}
   
   \markup\nadpisDen{"sobota"}
-  
+  %}
 }
-%}
