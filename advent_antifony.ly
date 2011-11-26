@@ -318,7 +318,7 @@
 
 \bookpart {
   \header {
-    subtitle = "Předvánoční týden - řada textů podle dat"
+    subtitle = "Předvánoční týden - antifony k Benedictus"
   }
   
   \markup\justify {Antifony k Magnificat - "velké antifony" nebo
@@ -526,6 +526,218 @@
       tonus = "VIII"
       differentia = "G" 
       psalmus = "Benedictus"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "Předvánoční týden - antifony k žalmům"
+  }
+  
+  \markup {\nadpisDen {pondělí}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 b c c( d4.) \barMin
+      c4 a g g( a) a \barMax
+      f g a \barMin
+      a a g a f e \barMin
+      e f d d e \barFinalis
+    }
+    \addlyrics {
+      Hle, při -- jde Pán,
+      Král krá -- lů ze -- mě;
+      bla -- ze těm,
+      kdo jsou při -- pra -- ve -- ni
+      na set -- ká -- ní s_ním.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "III"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a bes g g \barMin a f f( g) e \barMax
+      a d, d f g e d d \barFinalis
+    }
+    \addlyrics {
+      Zpí -- vej -- te Hos -- po -- di -- nu pí -- seň no -- vou,
+      chval -- te ho po ce -- lé ze -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "I"
+      differentia = "f" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e d d g g \barMin
+      f g f e4. c \barMin
+      e4( f) d( c d) d \barFinalis
+    }
+    \addlyrics {
+      Na -- lez -- ne Syn člo -- vě -- ka
+      na ze -- mi ví -- ru,
+      až při -- jde?
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "II"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {úterý}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 d c c( b) a( g) g \barMin
+      a f f e e f f( g) g \barMax
+      g( c) c b( g) g f( a) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din se -- stou -- pí
+      ze své -- ho sva -- té -- ho síd -- la,
+      při -- jde spa -- sit svůj lid.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a a a bes a g f f( g) g \barMin
+      f g g g g a g a a( bes a) a \barMax
+      a d c d4. a \barMin
+      g4( a) f e d4. \barMax
+      d4( a' f) g( f) e( f) d4. \barFinalis
+    }
+    \addlyrics {
+      Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
+      Spa -- si -- tel je v_něm hrad -- bou a va -- lem:
+      o -- tevř -- te brá -- ny,
+      s_ná -- mi je Bůh.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "I"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g f g g g a( c) c4.( b) \barMin
+      c4 b( c) c c c c d( c) b( c) c4.( b) \barMin
+      b4 c a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Kéž se po -- zná na ze -- mi, jak jed -- náš,
+      kéž po -- zna -- jí všech -- ny ná -- ro -- dy,
+      jak za -- chra -- ňu -- ješ.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {středa}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e f f4.( g) \barMin
+      f4( e) d c d bes4. a \barMin
+      a4 c d d c( e) d \barFinalis
+    }
+    \addlyrics {
+      Vše -- mo -- hou -- cí Pán
+      při -- jde ze Si -- ó -- nu
+      a za -- chrá -- ní svůj lid.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "II"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4 e f g( a) a a c a g g( a) a \barMin
+      a bes c d d bes( a) a \barMin
+      g f g a f e4. d \barFinalis
+    }
+    \addlyrics {
+      Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
+      do -- kud ne -- vzej -- de svět -- lo
+      je -- ho spra -- ved -- li -- vé -- mu.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "I"
+      differentia = "f" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4 d( f) e d d( a') a a \barMax
+      bes( g bes) a( g) g \barMin
+      g f g( a) a a f( g) g \barMin
+      g a f e4.( d) \barFinalis
+    }
+    \addlyrics {
+      Duch Pá -- ně je na -- de mnou,
+      po -- slal mě,
+      a -- bych při -- ne -- sl chu -- dým
+      ra -- dost -- nou zvěst.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = ""
       piece = \markup {\sestavTitulek}
     }
   }
