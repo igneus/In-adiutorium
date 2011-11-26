@@ -77,6 +77,7 @@ zalmyzaltare = []
 
 cislazalmu = %w( 95 100 67 24
                   141 142 63 149 118i 118ii 118iii 110 114
+                  5 29
                   )
 
 commonoptions = '--columns --lettrine'
@@ -86,6 +87,7 @@ end
 
 zalmyzaltare << genzalm('kantikum_fp2.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_1kron29.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+commonoptions)

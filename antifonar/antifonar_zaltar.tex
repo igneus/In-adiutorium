@@ -1,4 +1,4 @@
-\documentclass[a5paper]{article}
+\documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 % \usepackage{czech} % cestina hazi pri prekladu error a tak zdrzuje
 \usepackage[margin=1.5cm]{geometry} % okraje stranky
@@ -6,6 +6,7 @@
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -46,7 +47,14 @@ s různými sadami antifon.
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
 \setlength{\columnsep}{20pt} % prostor mezi sloupci
 
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
 \section*{Kantika z evangelií}
+\fancyhead[CE,CO]{Kantika z evangelií}
 
 \nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
 \input{generovane/kantikum_benedictus.tex}
@@ -54,15 +62,17 @@ s různými sadami antifon.
 \input{generovane/kantikum_magnificat.tex}
 
 \section*{Žalmy invitatoria}
+\fancyhead[CE,CO]{Žalmy invitatoria}
 
 \input{generovane/zalm95.tex}
 \input{generovane/zalm100.tex}
 \input{generovane/zalm67.tex}
 \input{generovane/zalm24.tex}
 
+\clearpage
 \section*{Čtyřtýdenní cyklus žaltáře}
 
-\nadpisTyden{První týden}
+\nadpisTyden{První týden}{1. týden žaltáře}
 
 \nadpisDen{Neděle}
 
@@ -89,8 +99,13 @@ s různými sadami antifon.
 \input{generovane/zalm110.tex}
 \input{generovane/zalm114.tex}
 \input{generovane/kantikum_zj19.tex}
-  
+
+\ranniChvaly
+\input{generovane/zalm5.tex}
+\input{generovane/kantikum_1kron29.tex}
+
 \clearpage
+\pagestyle{plain}
 \tirazSvazkuAntifonare
 
 \end{document}
