@@ -12,15 +12,25 @@
   markup-markup-spacing #'minimum-distance = #5
 }
 
+% Normalne u responsorii nejsou doxologie, protoze jsou stale stejne
+% a staci je uvest na zacatku. V pripade potreby lze doxologie "zapnout"
+% odkomentovanim nasledujicich radku a zakomentovanim dvou radku pod nimi.
+%{
 doxologieResponsoriumIV = \relative c' {
-  e4 g g( a) a a g( a) e \breathe
+  e4 g g( a) a a g( a) e \barMin
   f e d e( f) g g
+  \barFinalis
 }
 
 doxologieResponsoriumVI = \relative c'' {
-  a4 a a( bes) a a g( a) g \breathe
+  a4 a a( bes) a a g( a) g \barMin
   g a g f g g( a)
+  \barFinalis
 }
+%}
+
+doxologieResponsoriumIV = {}
+doxologieResponsoriumVI = {}
 
 %{
   \score {
@@ -28,16 +38,16 @@ doxologieResponsoriumVI = \relative c'' {
       \choralniRezim
       
       % R
-      \neviditelna
+      \neviditelna f
       
       % V
-      \neviditelna
+      \neviditelna g
       
       % R
-      \neviditelna
+      \neviditelna g
       
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response
@@ -46,7 +56,7 @@ doxologieResponsoriumVI = \relative c'' {
       \slavaRespText
     }
     \header {
-      piece = "responsorium - "
+      piece = "responsorium - VI"
     }
   }
 %}
@@ -60,7 +70,37 @@ doxologieResponsoriumVI = \relative c'' {
     Responsoria pro ranní chvály a nešpory. Nápěvy volně podle
     Antiphonarium sacri ordinis praedicatorum pro diurnis horis, Romae 1933.
   }
-  
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g g( a) a a g( a) e \barMin
+      f e d e( f) g g
+      \barFinalis
+    }
+    \addlyrics {
+      \slavaRespText
+    }
+    \header {
+      piece = "doxologie pro responsoria modu IV"
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a( bes) a a g( a) g \barMin
+      g a g f g g( a)
+      \barFinalis
+    }
+    \addlyrics {
+      \slavaRespText
+    }
+    \header {
+      piece = "doxologie pro responsoria modu VI"
+    }
+  }
+
   \markup\nadpisDen{"neděle"}
   
   \score {
@@ -69,16 +109,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      c4 d( f) f f f f( d) d \breathe e f f( g) g \bar "|"
-      g e f d( c) d f f e \bar "||"
+      c4 d( f) f f f f( d) d \barMin e f f( g) g \barMax
+      g e f d( c) d f f e \barFinalis
       % V
       \neviditelna d
-      d( f) f f f f f( d) d e( f) g \bar "|"
+      d( f) f f f f f( d) d e( f) g \barMax
       % R
       \neviditelna g
-      g e f d( c) d f f e \bar "||"
+      g e f d( c) d f f e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
@@ -98,16 +138,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      d4( f) f f f f( e) d d e( f) g \bar "|"
-      e f d f f( e) e \bar "||"
+      d4( f) f f f f( e) d d e( f) g \barMax
+      e f d f f( e) e \barFinalis
       % V
       \neviditelna d
-      c d( f) f f f f f f d e( f) g \bar "|"
+      c d( f) f f f f f f d e( f) g \barMax
       % R
       \neviditelna g
-      e f d f f( e) e \bar "||"
+      e f d f f( e) e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
@@ -127,16 +167,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      c4 d( f) f f f f f f( d) e f f( g) g \bar "|"
-      g e f d( c) c c d e f d f f e \bar "||"
+      c4 d( f) f f f f f f( d) e f f( g) g \barMax
+      g e f d( c) c c d e f d f f e \barFinalis
       % V
       \neviditelna e
-      c4 d( f) f f f f f f f( d) e( f) f( g) g \bar "|"
+      c4 d( f) f f f f f f f( d) e( f) f( g) g \barMax
       % R
       \neviditelna g
-      g e f d( c) c c d e f d f f e \bar "||"
+      g e f d( c) c c d e f d f f e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
@@ -158,16 +198,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f g( f) g( a) a( g) \bar "|"
-      f d f( g) g f f \bar "||"
+      f4 f f f f g( f) g( a) a( g) \barMax
+      f d f( g) g f f \barFinalis
       % V
       \neviditelna a
-      a a a a a( bes) a( g) g( a) a( g) \bar "|"
+      a a a a a( bes) a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \bar "||"
+      f d f( g) g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
@@ -186,16 +226,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g f g( a) a( g) \bar "|" 
-      g4 f d f g g( f) f \bar "||"      
+      f4 f f g f g( a) a( g) \barMax 
+      g4 f d f g g( f) f \barFinalis      
       % V
       \neviditelna g
-      a( bes) a a g a a( g) \bar "|"
+      a( bes) a a g a a( g) \barMax
       % R
       \neviditelna g
-      g4 f d f g g( f) f \bar "||"      
+      g4 f d f g g( f) f \barFinalis      
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
@@ -216,16 +256,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g( a) a( g) \bar "|"
-      f d f( g) g f f \bar "||"
+      f4 f f g( a) a( g) \barMax
+      f d f( g) g f f \barFinalis
       % V
       \neviditelna a
-      a a a a( bes) g g( a) g \breathe g f g g( a) \bar "|"
+      a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \bar "||"
+      f d f( g) g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
@@ -244,16 +284,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f f f g f g( a) a( g) \bar "|"
-      f g( a) g g( f d) f( g) g f f \bar "||"
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      f g( a) g g( f d) f( g) g f f \barFinalis
       % V
       \neviditelna a
-      a a( bes) a a a a a g( a) g \breathe g f g g( a) a( g) \bar "|"
+      a a( bes) a a a a a g( a) g \barMin g f g g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g( a) g g( f d) f( g) g f f \bar "||"
+      f g( a) g g( f d) f( g) g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Tvůj zá -- kon, Hos -- po -- di -- ne, je do -- ko -- na -- lý,_* tvé slo -- vo tr -- vá na -- vě -- ky.
@@ -274,16 +314,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f \breathe f f f f f f g f g( a) a( g) \bar "|"
-      f g a g( f) d f( g) g f \bar "||"
+      f f \barMin f f f f f f g f g( a) a( g) \barMax
+      f g a g( f) d f( g) g f \barFinalis
       % V
       \neviditelna a
-      a( bes) a a g( a) g \breathe g g( f) g( a) a( g) \bar "|"
+      a( bes) a a g( a) g \barMin g g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g a g( f) d f( g) g f \bar "||"
+      f g a g( f) d f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
@@ -302,16 +342,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f g f g( a) a( g) \bar "|"
-      g f g( a) g \breathe g g( f d) f g g f f \bar "||"
+      f4 f f f f f g f g( a) a( g) \barMax
+      g f g( a) g \barMin g g( f d) f g g f f \barFinalis
       % V
       \neviditelna a
-      a a a a a g( a) g \breathe f( g) g( a) a \bar "|"
+      a a a a a g( a) g \barMin f( g) g( a) a \barMax
       % R
       \neviditelna g
-      g f g( a) g \breathe g g( f d) f g g f f \bar "||"
+      g f g( a) g \barMin g g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Na te -- be spo -- lé -- hám, Hos -- po -- di -- ne,_* vy -- svo -- boď mě a smi -- luj se na -- de mnou.
@@ -332,16 +372,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f g f g g( a) a( g) \bar "|"
-      g g( a) g g( f d) f( g) g f \bar "||"
+      f f g f g g( a) a( g) \barMax
+      g g( a) g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
-      a a( bes) a a a g f g( a) a( g) \bar "|"
+      a a( bes) a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g( f d) f( g) g f \bar "||"
+      g g( a) g g( f d) f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vo -- lám z_ce -- lé -- ho srd -- ce:_* Vy -- slyš mě, Hos -- po -- di -- ne.
@@ -360,16 +400,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f g f g( a) a( g) \bar "|"
-      g g g g( f d) f g g f f \bar "||"
+      f4 f f f f f g f g( a) a( g) \barMax
+      g g g g( f d) f g g f f \barFinalis
       % V
       \neviditelna g
-      a a a( bes) a a a( g) g( a) a( g) \bar "|"
+      a a a( bes) a a a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( f d) f g g f f \bar "||"
+      g g g g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
@@ -390,16 +430,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f f f f f f f f f g( f) g( a) a( g) \bar "|"
-      g g( f d) f( g) g f \bar "||"
+      f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
+      g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
-      a a a a( bes) a a g f g( a) a( g) \bar "|"
+      a a a a( bes) a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( f d) f( g) g f \bar "||"
+      g g( f d) f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
@@ -419,16 +459,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f4 f f g( f) g( a) a( g) \bar "|"
-      g g( a) g g g g g f d f( g) g f \bar "||"
+      f4 f f g( f) g( a) a( g) \barMax
+      g g( a) g g g g g f d f( g) g f \barFinalis
       % V
       \neviditelna a
-      a a a a a( bes) a a g( a) g \breathe g g g g f g( a) a( g) \bar "|"
+      a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g g g g f d f( g) g f \bar "||"
+      g g( a) g g g g g f d f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
@@ -449,16 +489,16 @@ doxologieResponsoriumVI = \relative c'' {
       
       % R
       \neviditelna f
-      f f f f g f g( a) a( g) \bar "|"
-      g g g f( d) f( g) g f \bar "||"
+      f f f f g f g( a) a( g) \barMax
+      g g g f( d) f( g) g f \barFinalis
       % V
       \neviditelna a
-      a a a a( bes) a g f g( a) a( g) \bar "|"
+      a a a a( bes) a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f( d) f( g) g f \bar "||"
+      g g g f( d) f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI \bar "||"
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vo -- lám k_to -- bě, Hos -- po -- di -- ne,_* ty jsi mé ú -- to -- čiš -- tě.
@@ -495,7 +535,7 @@ doxologieResponsoriumVI = \relative c'' {
       \neviditelna g
       g e f d( c) c \barMin d d d d f e e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -524,7 +564,7 @@ doxologieResponsoriumVI = \relative c'' {
       \neviditelna g
       g e f d f e e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Ve -- le -- bí -- me tě, Bo -- že,_*
@@ -553,7 +593,7 @@ doxologieResponsoriumVI = \relative c'' {
       \neviditelna g
       g g e f d c c \barMin d f e d d e e \barFinalis
       % Slava
-      \doxologieResponsoriumIV \bar "||"
+      \doxologieResponsoriumIV
     }
     \addlyrics {
       \Response Ve -- li -- ký je náš Bůh,_*
@@ -584,7 +624,7 @@ doxologieResponsoriumVI = \relative c'' {
       \neviditelna g
       f g( a) a a g f d f( g) g f f \barFinalis      
       % Slava
-      \doxologieResponsoriumVI \barFinalis
+      \doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
@@ -599,24 +639,27 @@ doxologieResponsoriumVI = \relative c'' {
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
       
       % R
       \neviditelna f
-      
+      f f f f f f f f f g f g( a) a( g) \barMax
+      f f( d) f( g) g g f f \barFinalis
       % V
       \neviditelna a
-      
+      a a( bes) a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
       % R
       \neviditelna f
-      
+      f f( d) f( g) g g f f \barFinalis
       % Slava
+      \doxologieResponsoriumVI 
     }
     \addlyrics {
-      \Response
-      \Verse
-      \Response
+      \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
+      ja -- ko vů -- ně ka -- did -- la.
+      \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť_*
+      \Response ja -- ko vů -- ně ka -- did -- la.
       \slavaRespText
     }
     \header {
@@ -625,15 +668,274 @@ doxologieResponsoriumVI = \relative c'' {
   }
 
   
-  %{
   \markup\nadpisDen{"úterý"}
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f f f g f g( a) a( g) \barMax
+      g a g( f d) f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a a(bes) a g( a) g \barMin g a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g a g( f d) f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Vy -- slyš mě, Hos -- po -- di -- ne,_*
+      spo -- lé -- hám na tvá slo -- va.
+      \Verse Při -- chá -- zím na ú -- svi -- tě a o po -- moc vo -- lám,_*
+      \Response spo -- lé -- hám na tvá slo -- va.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f d( f) f f \barMin g f g( a) a( g) \barMax
+      g g g g g( f d) f( g) g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a4 a a( bes) a a a g( a g) f g( a) \barMax
+      % R
+      \neviditelna g
+      g g g g g( f d) f( g) g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
+      u te -- be je hoj -- ná ra -- dost.
+      \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
+      \Response u te -- be je hoj -- ná ra -- dost.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+
   \markup\nadpisDen{"středa"}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a a a a( bes) a g g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI 
+    }
+    \addlyrics {
+      \Response U -- sta -- vič -- ně chci ve -- le -- bit Hos -- po -- di -- na,_*
+      vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
+      \Verse Vy -- svo -- bo -- dil mě ze všech mých o -- bav,_*
+      \Response vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f f f g( a) a( g) \barMax
+      g g g f g( a) g( f) d f( g) g f \barFinalis
+      % V
+      \neviditelna g
+      a a a g( a) g \barMin g f g( a) a g \barMax
+      % R
+      \neviditelna g
+      g g g f g( a) g( f) d f( g) g f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI 
+    }
+    \addlyrics {
+      \Response Bo -- že, o -- pat -- ruj mě ja -- ko zří -- tel -- ni -- ci o -- ka,_*
+      do stí -- nu svých pe -- ru -- tí mě u -- kryj.
+      \Verse Po -- přej mi slu -- chu, slyš mé vo -- lá -- ní,_*
+      \Response do stí -- nu svých pe -- ru -- tí mě u -- kryj.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
   
   \markup\nadpisDen{"čtvrtek"}
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      g g( a) g g g( f d) f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a( bes) a a a g( f) g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g( a) g g g( f d) f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Má du -- še po to -- bě žíz -- ní, Bo -- že,_*
+      hle -- dám tě od čas -- né -- ho rá -- na.
+      \Verse Tvá pra -- vi -- ce mě pod -- pí -- rá,_*
+      \Response hle -- dám tě od čas -- né -- ho rá -- na.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a( g) \barMax
+      g g( f d) f( g) g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a g( a) g g g g f g a a( g) \barMax
+      % R
+      \neviditelna g
+      g g( f d) f( g) g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI 
+    }
+    \addlyrics {
+      \Response Hos -- po -- din je můj pas -- týř,_*
+      nic ne -- po -- strá -- dám.
+      \Verse Dá -- vá mi pro -- dlé -- vat na svě -- žích past -- vi -- nách,_*
+      \Response nic ne -- po -- strá -- dám.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
   \markup\nadpisDen{"pátek"}
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f g f g( a) a( g) \barMax
+      g g g( a) g( f) d f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a( bes) a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g( a) g( f) d f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI 
+    }
+    \addlyrics {
+      \Response Vo -- lám k_to -- bě, Bo -- že,_*
+      ty mi po -- sí -- láš po -- moc z_ne -- be.
+      \Verse Pl -- né dů -- vě -- ry je mé srd -- ce,_*
+      \Response ty mi po -- sí -- láš po -- moc z_ne -- be.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g g g a g g f( d) f( g) g f f \barFinalis
+      % V
+      \neviditelna g
+      a a a a g( a) g f g( a) \barMax
+      % R
+      \neviditelna g
+      g g g a g g f( d) f( g) g f f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Kris -- tus ze -- mřel za na -- še hří -- chy,_*
+      a -- by nám o -- te -- vřel ces -- tu k_ži -- vo -- tu.
+      \Verse Vzal na se -- be bo -- lest a smrt,_*
+      \Response a -- by nám o -- te -- vřel ces -- tu k_ži -- vo -- tu.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+  
   \markup\nadpisDen{"sobota"}
-  %}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f e f g f g( a) a( g) \barMax
+      f g a g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a g( a) g g g g g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f g a g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Bu -- du tě o -- sla -- vo -- vat, Bo -- že,_*
+      bu -- du ti zpí -- vat.
+      \Verse Můj ja -- zyk bu -- de chvá -- lit tvou spra -- ve -- dl -- nost,_*
+      \Response bu -- du ti zpí -- vat.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
 }
