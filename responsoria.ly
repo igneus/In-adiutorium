@@ -567,9 +567,65 @@ doxologieResponsoriumVI = \relative c'' {
     }
   }
   
-  %{
   \markup\nadpisDen{"pondělí"}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      f g( a) a a g f d f( g) g f f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a a( bes a) g g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f g( a) a a g f d f( g) g f f \barFinalis      
+      % Slava
+      \doxologieResponsoriumVI \barFinalis
+    }
+    \addlyrics {
+      \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
+      slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \Verse Zpí -- vej -- te mu pí -- seň no -- vou:_*
+      \Response slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      
+      % V
+      \neviditelna a
+      
+      % R
+      \neviditelna f
+      
+      % Slava
+    }
+    \addlyrics {
+      \Response
+      \Verse
+      \Response
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
+
   
+  %{
   \markup\nadpisDen{"úterý"}
   
   \markup\nadpisDen{"středa"}
