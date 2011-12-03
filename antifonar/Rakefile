@@ -1,5 +1,4 @@
-##############
-# Antifonar: kompletar
+RUBY_COMMAND = 'ruby1.9.1'
 
 def genzalm(zalm, options="")
   syrovy = "zalmy/"+zalm
@@ -7,11 +6,14 @@ def genzalm(zalm, options="")
   preprocessor = "../nastroje/psalmpreprocessor.rb"
   file peceny => [syrovy, preprocessor] do
     chdir "generovane"
-    sh "ruby ../#{preprocessor} #{options} ../#{syrovy}"
+    sh "#{RUBY_COMMAND} ../#{preprocessor} #{options} ../#{syrovy}"
     chdir ".."
   end
   return peceny
 end
+
+##############
+# Antifonar: kompletar
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex"] do
   chdir "vystup"
@@ -52,6 +54,25 @@ task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 task :default => [:kompletar]
 
 ###############
+# uvod
+
+file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
+  sh "#{RUBY_COMMAND} ../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' uvod_priklady.ly"
+end
+
+file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
+  sh 'lilypond-book --pdf --out=vystup antifonar_uvod.lytex'
+end
+
+file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
+  chdir 'vystup'
+  sh 'pdflatex antifonar_uvod.tex'
+  chdir '..'
+end
+
+task :uvod => ['vystup/antifonar_uvod.pdf']
+
+###############
 # material k responsorialnimu prednesu zalmu 136
 
 file "generovane/zalm136responsorialni.tex" => ["zalmy/zalm136responsorialni.zalm"] do
@@ -77,7 +98,7 @@ zalmyzaltare = []
 
 cislazalmu = %w( 95 100 67 24
                   141 142 63 149 118i 118ii 118iii 110 114
-                  5 29
+                  5 29 19b 7i 7ii
                   )
 
 commonoptions = '--columns --lettrine'
