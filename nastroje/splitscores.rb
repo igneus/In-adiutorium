@@ -11,30 +11,41 @@ def split_file(file_to_be_processed)
     store = ''
     score_number = 0
     beginning = true
+    line_number = 0
     loop do
       l = f.gets
-      if l =~ /\\score\s+\{/ || !l then        
-        if beginning then
-          beginning = false
-          write_to_file = file_without_extension+'_beginning.ly'
+      line_number += 1
+      
+      begin
+        if l =~ /\\score\s+\{/ || !l then        
+          if beginning then
+            beginning = false
+            write_to_file = file_without_extension+'_beginning.ly'
+          else
+            score_number += 1
+            write_to_file = file_without_extension+'_'+score_number.to_s+'.ly'
+          end
+          
+          unless write_to_file =~ /beginning.ly$/
+            File.open(write_to_file, "w") do |fw|
+              output = yield store
+              fw.puts output
+            end
+          end
+          
+          # print write_to_file+" "
+          store = l
+          
+          unless l
+            break
+          end
         else
-          score_number += 1
-          write_to_file = file_without_extension+'_'+score_number.to_s+'.ly'
-        end
-        
-        File.open(write_to_file, "w") do |fw|
-          output = yield store
-          fw.puts output
-        end
-        # print write_to_file+" "
-        store = l
-        
-        unless l
-          break
-        end
-      else
-        store += l
-      end      
+          store += l
+        end      
+      rescue
+        STDERR.puts "Error occurred on line #{line_number} of file '#{file_to_be_processed}':"
+        raise
+      end
     end
   end
 end
@@ -104,6 +115,8 @@ split_file(file_to_be_processed) do |scoretext|
     else
       newtext = scoretext
     end
+  else
+    newtext = scoretext
   end
   
   setup[:prepend_text] + "\n" + newtext
