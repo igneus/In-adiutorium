@@ -46,7 +46,7 @@ file "vystup/antifonar_kompletar.tex" => ["antifonar_kompletar.lytex", "kompleta
 end
 
 file "kompletar_1.ly" => ["../kompletar.ly"] do
-  sh "ruby ../nastroje/splitscores.rb ../kompletar.ly"
+  sh "ruby ../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../kompletar.ly"
 end
 
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
