@@ -50,21 +50,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
-    \neviditelna e
-    e4 g g a g a a \barMin a b a g e4. e \barMax
-    f4 f d f e( d e4.) e \barFinalis
+    \neviditelna g
+    g4( c) a( g) g4.( a) g4 f e e \barMin
+    e d( g) f g a a4. \barMax
+    b4 c d4. c4( d) c( b a g) g \barFinalis
     % V
-    \neviditelna a
-    a4( b) a g g( a) a \barMin a g f e e \barMax
+    \neviditelna b
+    c4 b c a(b c) b \barMin
+    a g( a) f g( a) a \barMax
     % R
-    \neviditelna e
-    f4 f d f e( d e4.) e \barFinalis
+    \neviditelna b
+    b4 c d4. c4( d) c( b a g) g \barFinalis
     % Slava
-    f4 g a a a b a \barMin a g f e e e \barFinalis
+    c4 c d c b a( b c) b \barMin
+    a b g a( f) g( a) a \barFinalis
   }
   \addlyrics {
     \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
@@ -74,7 +77,7 @@
     \slavaRespText
   }
   \header {
-    piece = "neděle - nešpory (IV)"
+    piece = "neděle - nešpory (VIII)"
   }
 }
 
@@ -117,16 +120,16 @@
     
     % R
     \neviditelna d
-    d4 d d d c d e( f) f f \barMax
-    g( a) f d d d \barFinalis
+    d4 d d d f( e) f f( g) g g \barMax
+    a( g) f g( f) e( f) d \barFinalis
     % V
     \neviditelna f
-    f4 d f e4. e \barMin e4 d d e f f f \barMax
+    f4( g) f d f( g) g \barMin g f g g a( g) f( g) g \barMax
     % R
     \neviditelna g
-    g( a) f d d d \barFinalis
+    a( g) f g( f) e( f) d \barFinalis
     % Slava
-    d d f e f f( g) g \barMin g f e e( f) d4. d \barFinalis
+    f4 f f( g) f d f( g) g \barMin g f g a( f) g4. g \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
