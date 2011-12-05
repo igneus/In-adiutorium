@@ -99,6 +99,7 @@ zalmyzaltare = []
 cislazalmu = %w( 95 100 67 24
                   141 142 63 149 118i 118ii 118iii 110 114
                   5 29 19b 7i 7ii 11 15
+                  33 119alef 13 14
                   )
 
 commonoptions = '--columns --lettrine'
@@ -110,13 +111,14 @@ zalmyzaltare << genzalm('kantikum_fp2.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_ef1.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_1kron29.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_tob13.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+commonoptions)
 
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'spolecne.tex']+zalmyzaltare do
-  sh "pdflatex antifonar_zaltar"
+  2.times { sh "pdflatex antifonar_zaltar" }
 end
 
 task :zaltar => ["antifonar_zaltar.pdf"]
