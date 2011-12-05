@@ -82,7 +82,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c d e( f) f4. \breathe f4 g f e f d d4. \bar "||"
+    d4 d d d c d e( f) e4.( d) \breathe f4 g( a) a e f d d4. \bar "||"
   }
   \addlyrics {
     Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
