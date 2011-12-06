@@ -104,6 +104,8 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   33 119alef 13 14 20 21
                   36 47 119beth 17i 17ii 27i 27ii
                   57 48 119gimel 25i 25ii 30 32
+                  51 119dalet 26 28 41 46
+                  119kof 117 119he 34i 34ii
                   )
 
 commonoptions = '--columns --lettrine'
@@ -118,11 +120,14 @@ zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_kol1.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_zj11.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_zj15.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_1kron29.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_tob13.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_jdt16.zalm', )
-zalmyzaltare << genzalm('kantikum_jer31.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_jdt16.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_jer31.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_iz45.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_ex15.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)

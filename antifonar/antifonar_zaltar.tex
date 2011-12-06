@@ -8,29 +8,34 @@
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 
-\newcommand{\autor}{Jakub Pavlík}
+\input{spolecne.tex}
+
+\newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
 \newcommand{\cisloSvazku}{2}
 \newcommand{\nazev}{Žaltář}
 
+\renewcommand{\tirazSazbaProgramem}{
+  Vysázeno programem \LaTeX.
+}
 \newcommand{\textDoTiraze}{
   Texty Denní modlitby církve jsou majetkem České biskupské konference. 
   
-  Texty žalmů a kantik jsou převzaté z webu ebreviar.cz,
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
   Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
   nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
   nadpisy žalmů a připojené citáty z Písma a Otců)
   a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
   podle něj opraveny.
+  
+  Text žalmů a kantik značkami opatřil a k sazbě připravil Jakub Pavlík.
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \begin{document}
-
-\input{spolecne.tex}
 
 \titulniStrankaSvazkuAntifonare
 
@@ -162,7 +167,34 @@ nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 
 \nadpisDen{Pátek}
 
+\ranniChvaly
+\input{generovane/zalm51.tex}
+\input{generovane/kantikum_iz45.tex}
+\rubrika{Pokud se následující žalm zpíval jako invitatorium,
+nahradí se zde žalmem 95, str. \pageref{zalm24}.}
+\input{generovane/zalm100.tex}
+
+\modlitbaUprostredDne
+\input{generovane/zalm119dalet.tex}
+\input{generovane/zalm26.tex}
+\input{generovane/zalm28.tex}
+
+\nespory
+\input{generovane/zalm41.tex}
+\input{generovane/zalm46.tex}
+\input{generovane/kantikum_zj15.tex}
+
 \nadpisDen{Sobota}
+
+\ranniChvaly
+\input{generovane/zalm119kof.tex}
+\input{generovane/kantikum_ex15.tex}
+\input{generovane/zalm117.tex}
+
+\modlitbaUprostredDne
+\input{generovane/zalm119he.tex}
+\input{generovane/zalm34i.tex}
+\input{generovane/zalm34ii.tex}
 
 \clearpage
 \pagestyle{plain}
