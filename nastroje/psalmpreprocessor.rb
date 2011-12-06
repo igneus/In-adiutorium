@@ -22,7 +22,11 @@ def preprocess_psalmfile(file, setup={})
       
       # first line contains the title
       if setup[:has_title] then
-        fw.puts "\\nadpisZalmu{"+fr.gets.chomp+"}"
+        fw.print "\\nadpisZalmu{"
+        if setup[:text_before_title] then
+          fw. print setup[:text_before_title]
+        end
+        fw.puts fr.gets.chomp+"}"
         fw.puts fr.gets # the second line is empty then
       end
       
@@ -45,7 +49,15 @@ def preprocess_psalmfile(file, setup={})
           first_line = false
           if setup[:lettrine] then
             is = l.index " "
-            l = "\\lettrine{"+l[0]+"}{"+l[1..is]+"} "+l[is+1..-1]
+            
+            # Czech Ch is one letter
+            if l =~ /^[Cc][Hh]/ then
+              cap = l[0..1]
+            else
+              cap = l[0]
+            end
+            
+            l = "\\lettrine{"+cap+"}{"+l[cap.size..is]+"} "+l[is+1..-1]
           end
         end
         
@@ -111,7 +123,8 @@ setup = {
   :output_file => nil,
   :line_break_last_line => false,
   :columns => false,
-  :lettrine => false
+  :lettrine => false,
+  :text_before_title => nil
 }
 
 optparse = OptionParser.new do|opts|
@@ -136,6 +149,10 @@ optparse = OptionParser.new do|opts|
   # Needs package lettrine!
   opts.on "-l", "--lettrine", "Large first character of the psalm." do
     setup[:lettrine] = true
+  end
+  
+  opts.on "-p", "--pretitle TEXT", "Text to be printed as beginning of the title." do |t|
+    setup[:text_before_title] = t
   end
   
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
