@@ -36,15 +36,15 @@
 psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
 kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
 na který jinak odkazujeme, a proto je tu výjimečně reprodukován.}
-\lilypondfile{kompletar_1.ly}
+\lilypondfile{generovane/kompletar_1.ly}
 
 \section*{Neděle po 1. nešporách}
 
-\lilypondfile{kompletar_2.ly}
+\lilypondfile{generovane/kompletar_2.ly}
 \input{generovane/zalm4.tex}
 \input{generovane/doxologie.tex}
 
-\lilypondfile{kompletar_3.ly}
+\lilypondfile{generovane/kompletar_3.ly}
 \input{generovane/zalm134.tex}
 \input{generovane/doxologie.tex}
 
@@ -53,52 +53,52 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisTypTextu{Responsorium}
 
-\lilypondfile{kompletar_11.ly}
+\lilypondfile{generovane/kompletar_11.ly}
 
 \nadpisTypTextu{Simeonovo kantikum}
 
 ant. - III.a
-\lilypondfile{kompletar_12.ly}
+\lilypondfile{generovane/kompletar_12.ly}
 \input{generovane/kantikum_nuncdimittis.tex}
 \input{generovane/doxologie_2akcenty.tex}
 
 \section*{Neděle po 2. nešporách}
 
-\lilypondfile{kompletar_4.ly}
+\lilypondfile{generovane/kompletar_4.ly}
 \input{generovane/zalm91.tex}
 \input{generovane/doxologie.tex}
 
 \section*{Pondělí}
 
-\lilypondfile{kompletar_5.ly}
+\lilypondfile{generovane/kompletar_5.ly}
 \input{generovane/zalm86.tex}
 \input{generovane/doxologie.tex}
 
 \section*{Úterý}
 
-\lilypondfile{kompletar_6.ly}
+\lilypondfile{generovane/kompletar_6.ly}
 \input{generovane/zalm143.tex}
 \input{generovane/doxologie.tex}
 
 \section*{Středa}
 
-\lilypondfile{kompletar_7.ly}
+\lilypondfile{generovane/kompletar_7.ly}
 \input{generovane/zalm31.tex}
 \input{generovane/doxologie.tex}
 
-\lilypondfile{kompletar_8.ly}
+\lilypondfile{generovane/kompletar_8.ly}
 \input{generovane/zalm130.tex}
 \input{generovane/doxologie.tex}
 
 \section*{Čtvrtek}
 
-\lilypondfile{kompletar_9.ly}
+\lilypondfile{generovane/kompletar_9.ly}
 \input{generovane/zalm16.tex}
 \input{generovane/doxologie.tex}
 
 \section*{Pátek}
 
-\lilypondfile{kompletar_10.ly}
+\lilypondfile{generovane/kompletar_10.ly}
 \input{generovane/zalm88.tex}
 \input{generovane/doxologie.tex}
 

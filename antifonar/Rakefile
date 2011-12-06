@@ -21,32 +21,32 @@ file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex"] do
   chdir ".."
 end
 
-cislazalmu = [4, 134, 91, 86, 143, 31, 130, 16, 88]
-
-zalmy_syrove = cislazalmu.map {|i| "zalm"+i.to_s+".zalm"}
-zalmy_pecene = cislazalmu.map {|i| "generovane/zalm"+i.to_s+".tex"}
-
-zalmy_syrove.each_index do |i|
-  genzalm zalmy_syrove[i], "--last-accent-only --linebreak-at-the-end"
+cislazalmu_kompletar = [4, 134, 91, 86, 143, 31, 130, 16, 88]
+zalmy_kompletar = []
+cislazalmu_kompletar.each do |i|
+  zalmy_kompletar << genzalm("zalm#{i}.zalm", "--last-accent-only --linebreak-at-the-end")
 end
 
-genzalm "kantikum_nuncdimittis.zalm", "--linebreak-at-the-end"
+zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", "--linebreak-at-the-end")
 
 # doxologie s jednim akcentem na polovers
-genzalm "doxologie.zalm", "--last-accent-only --no-title"
+zalmy_kompletar << genzalm("doxologie.zalm", "--last-accent-only --no-title")
 # doxologie se dvema akcenty na polovers
 file "generovane/doxologie_2akcenty.tex" => ['zalmy/doxologie.zalm'] do
   chdir "generovane"
   sh "ruby ../../nastroje/psalmpreprocessor.rb --no-title --output doxologie_2akcenty.tex ../zalmy/doxologie.zalm"
   chdir ".."
 end
-  
-file "vystup/antifonar_kompletar.tex" => ["antifonar_kompletar.lytex", "kompletar_1.ly", "generovane/doxologie.tex", "generovane/doxologie_2akcenty.tex", "generovane/kantikum_nuncdimittis.tex"]+zalmy_pecene do
-  sh "lilypond-book --out=vystup --pdf antifonar_kompletar.lytex"
+zalmy_kompletar << 'generovane/doxologie_2akcenty.tex'
+
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", "kompletar_1.ly"]+zalmy_kompletar) do
+  sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
 file "kompletar_1.ly" => ["../kompletar.ly"] do
-  sh "ruby ../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../kompletar.ly"
+  chdir 'generovane'
+  sh "ruby ../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../../kompletar.ly"
+  chdir '..'
 end
 
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
@@ -57,11 +57,13 @@ task :default => [:kompletar]
 # uvod
 
 file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
-  sh "#{RUBY_COMMAND} ../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' uvod_priklady.ly"
+  chdir 'generovane'
+  sh "#{RUBY_COMMAND} ../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' ../uvod_priklady.ly"
+  chdir '..'
 end
 
 file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
-  sh 'lilypond-book --pdf --out=vystup antifonar_uvod.lytex'
+  sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
 end
 
 file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
@@ -96,7 +98,7 @@ end
 
 zalmyzaltare = []
 
-cislazalmu = %w( 95 100 67 24
+cislazalmu_zaltar = %w( 95 100 67 24
                   141 142 63 149 118i 118ii 118iii 110 114
                   5 29 19b 7i 7ii 11 15
                   33 119alef 13 14 20 21
@@ -105,7 +107,7 @@ cislazalmu = %w( 95 100 67 24
 
 commonoptions = '--columns --lettrine'
 # commonoptions = '--lettrine'
-cislazalmu.each do |z|
+cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions)
 end
 
