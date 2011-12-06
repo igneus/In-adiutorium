@@ -103,6 +103,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   5 29 19b 7i 7ii 11 15
                   33 119alef 13 14 20 21
                   36 47 119beth 17i 17ii 27i 27ii
+                  57 48 119gimel 25i 25ii 30 32
                   )
 
 commonoptions = '--columns --lettrine'
@@ -111,17 +112,20 @@ cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions)
 end
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_ef1.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_zj4.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_kol1.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_1kron29.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_tob13.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_jdt16.zalm', commonoptions)
+canticleoptions = commonoptions+' --pretitle "kantikum\\newline "'
+zalmyzaltare << genzalm('kantikum_fp2.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_kol1.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_zj11.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_1kron29.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_tob13.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_jdt16.zalm', )
+zalmyzaltare << genzalm('kantikum_jer31.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+commonoptions)
+zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
