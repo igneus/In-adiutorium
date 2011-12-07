@@ -108,13 +108,15 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119kof 117 119he 34i 34ii
                   )
 
-commonoptions = '--columns --lettrine'
-# commonoptions = '--lettrine'
+commonoptions = '--columns --lettrine' # sazba do sloupcu
+# commonoptions = ''
+# commonoptions = '--novydvur-newlines'
+
 cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions)
 end
 
-canticleoptions = commonoptions+' --pretitle "kantikum\\newline "'
+canticleoptions = commonoptions+" --pretitle \"kantikum\\\\\\\\ \""
 zalmyzaltare << genzalm('kantikum_fp2.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions)
@@ -138,3 +140,9 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'sp
 end
 
 task :zaltar => ["antifonar_zaltar.pdf"]
+
+task :zaltar_clean do
+  sh 'rm generovane/zalm*.tex'
+  sh 'rm generovane/kantikum*.tex'
+  sh 'rm antifonar_zaltar.pdf'
+end
