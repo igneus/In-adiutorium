@@ -74,6 +74,9 @@ def preprocess_psalmfile(file, setup={})
         if l.rindex("+") || l.rindex("*") then
           l.gsub!(" +", "~\\dag\\mbox{}")
           l.gsub!(" *", "~* ")
+          if setup[:novydvur_newlines] then
+            l += '\\\\' # break line after each flex and halb-verse
+          end
           fw.print l
           fw.print " "
         else
@@ -122,6 +125,7 @@ setup = {
   :no_formatting => false,
   :output_file => nil,
   :line_break_last_line => false,
+  :novydvur_newlines => false,
   :columns => false,
   :lettrine => false,
   :text_before_title => nil
@@ -151,9 +155,15 @@ optparse = OptionParser.new do|opts|
     setup[:lettrine] = true
   end
   
+  opts.on "-n", "--novydvur-newlines", "Lines broken like in the psalter of the Novy Dvur trappist abbey" do
+    setup[:novydvur_newlines] = true
+  end
+  
   opts.on "-p", "--pretitle TEXT", "Text to be printed as beginning of the title." do |t|
     setup[:text_before_title] = t
   end
+  
+  
   
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
     setup[:output_file] = out
