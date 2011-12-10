@@ -38,16 +38,28 @@ def preprocess_psalmfile(file, setup={})
           l = nextl
         else
           l = fr.gets
+          
+          # remove comments
+          if l then
+            l = remove_comment l
+          end
         end
         nextl = fr.gets
+        # remove comments
+        if nextl then
+          nextl = remove_comment nextl
+        end
         
         unless l
           break
         end
         
         if first_line then
-          first_line = false
           if setup[:lettrine] then
+            if l =~ /^\s*$/ then
+              next
+            end
+            
             is = l.index " "
             
             # Czech Ch is one letter
@@ -59,6 +71,8 @@ def preprocess_psalmfile(file, setup={})
             
             l = "\\lettrine{"+cap+"}{"+l[cap.size..is]+"} "+l[is+1..-1]
           end
+          
+          first_line = false
         end
         
         if setup[:no_formatting] then
@@ -115,6 +129,23 @@ def process_accents(l, last_accent_only=false)
   end
   
   return l
+end
+
+# Comment is from '#' to the end of line. Returns the given string without
+# comment.
+
+def remove_comment(str)
+  i = str.index '#'
+  
+  unless i
+    return str
+  end
+  
+  if i == 0 then
+    return ''
+  end
+  
+  return str[0..(i-1)]
 end
 
 require 'optparse'
