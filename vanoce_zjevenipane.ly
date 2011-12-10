@@ -573,6 +573,107 @@ doxologieRespAlelujaVI = {
   
   \markup {\nadpisDen {svátek Křtu Páně}}
 
+  \markup {\nadpisHodinka {"1. nešpory"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a( f) f e d e f g g \barMax
+      a c c d c( b) a4. a \barMin
+      b4 g g g a f f a g4. g \barFinalis
+    }
+    \addlyrics {
+      Jan Křti -- tel vy -- stou -- pil na pouš -- ti
+      a hlá -- sal křest po -- ká -- ní,
+      a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+      fons = "Větší kus melodie vzat z antifony k Benedictus 2. neděle adventní cyklu B (velice podobný text)."
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4. c4 b a( b g) g \barMax
+      a a b c c4.( d) \barMin
+      e4( d) c d( b) g \barMin
+      b a( b g) g \barFinalis
+    }
+    \addlyrics {
+      Já vás křtím vo -- dou;
+      on vás bu -- de křtít
+      Du -- chem sva -- tým
+      a oh -- něm.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e f g( a) a f( e) e \barMin
+      g f e f d4. d \barMax
+      
+      d4( g f) g( a) g f e f f( g) g \barMin
+      g a( f) f f e( f e) c d \barFinalis
+    }
+    \addlyrics {
+      Jak -- mi -- le byl Je -- žíš po -- křtěn,
+      vy -- stou -- pil hned z_vo -- dy.
+      
+      O -- tev -- ře -- lo se mu ne -- be 
+      a z_ne -- be se o -- zval hlas.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      
+      % R
+      \neviditelna g
+      g4 g g a g a b( c) b4. b \barMin b4( c) d c b a( b) b \barMax
+      c4 c c c a4.( c) b4 a a( b) b \barMin g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      % V
+      \neviditelna c
+      c4( a) c d( c) c c a b c4. b \barFinalis
+      % R
+      \neviditelna c
+      c4 c c c a4.( c) b4 a a( b) b \barMin g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      % Slava
+      c4 c a( c) c c a( b c) b \barMin c c( d) a a b b \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, tys u -- ha -- sil na pouš -- ti ží -- zeň své -- ho li -- du;_*
+      o -- tev -- ři i nám pra -- men vo -- dy trys -- ka -- jí -- cí do ži -- vo -- ta věč -- né -- ho.
+      \Verse Roz -- množ ví -- ru svých slu -- žeb -- ní -- ků;_*
+      \Response o -- tev -- ři i nám pra -- men vo -- dy trys -- ka -- jí -- cí do ži -- vo -- ta věč -- né -- ho.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VIII"
+    }
+  }
+
   \score {
     \relative c' {
       \choralniRezim
@@ -597,6 +698,8 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
     \relative c'' {
@@ -625,6 +728,8 @@ doxologieRespAlelujaVI = {
     }
   }
   
+  \markup {\nadpisHodinka {"2. nešpory"}}
+
   \score {
     \relative c'' {
       \choralniRezim
