@@ -8,6 +8,7 @@ def genzalm(zalm, options="")
     chdir "generovane"
     sh "#{RUBY_COMMAND} ../#{preprocessor} #{options} ../#{syrovy}"
     chdir ".."
+    sh "vlna #{peceny}"
   end
   return peceny
 end
@@ -107,9 +108,10 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   51 119dalet 26 28 41 46
                   119kof 117 119he 34i 34ii
                   119nun 16 118 150 23 76i 76ii 115
+                  42 19a 119vau 40i 40ii 45i 45ii
                   )
 
-commonoptions = '--columns --lettrine' # sazba do sloupcu
+commonoptions = '--columns --lettrine --dashes --no-paragraph' # sazba do sloupcu
 # commonoptions = ''
 # commonoptions = '--novydvur-newlines'
 
@@ -132,6 +134,7 @@ zalmyzaltare << genzalm('kantikum_jer31.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_iz45.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_ex15.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_dan3ii.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_sir36.zalm', canticleoptions)
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
 zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)

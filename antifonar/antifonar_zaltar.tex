@@ -1,12 +1,18 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
-% \usepackage{czech} % cestina hazi pri prekladu error a tak zdrzuje
+
+% cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
+% pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
+% rucne, ne pres rake.
+% \usepackage{czech} 
+
 \usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
+\usepackage{color} % barevny text
 
 \input{spolecne.tex}
 
@@ -219,6 +225,23 @@ nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 \input{generovane/zalm110.tex}
 \input{generovane/zalm115.tex}
 \input{kantikum_zj19.tex}
+
+\nadpisDen{Pondělí}
+
+\ranniChvaly
+\input{generovane/zalm42.tex}
+\input{generovane/kantikum_sir36.tex}
+\input{generovane/zalm19a.tex}
+
+\modlitbaUprostredDne
+\input{generovane/zalm119vau.tex}
+\input{generovane/zalm40i.tex}
+\input{generovane/zalm40ii.tex}
+
+\nespory
+\input{generovane/zalm45i.tex}
+\input{generovane/zalm45ii.tex}
+\input{generovane/kantikum_ef1.tex}
 
 \clearpage
 \pagestyle{plain}
