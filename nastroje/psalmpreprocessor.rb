@@ -85,7 +85,7 @@ def preprocess_psalmfile(file, setup={})
         
         l = process_accents(l, setup[:last_accent_only])
         
-        if l.rindex("+") || l.rindex("*") then
+        if l.rindex("+") || l.rindex("*") then # lines ending with flex or asterisk:
           l.gsub!(" +", "~\\dag\\mbox{}")
           l.gsub!(" *", "~* ")
           if setup[:novydvur_newlines] then
@@ -93,13 +93,21 @@ def preprocess_psalmfile(file, setup={})
           end
           fw.print l
           fw.print " "
-        else
-          fw.puts l
+        else # second halb-verses and empty lines:
           if (nextl && nextl =~ /^\s*$/) ||
               (!nextl && setup[:line_break_last_line]) then
-            fw.puts "\\\\"
+            if setup[:dashes] then
+              l += "~\\znackaStrofaZalmu"
+            end
+            #if setup[:paragraph_space] then
+            #  l += "\\\\"
+            #end
           end
-          fw.puts
+          
+          if (l !~ /^\s*$/) || setup[:paragraph_space] then
+            fw.puts l
+            fw.puts
+          end
         end
       end
       
@@ -159,7 +167,9 @@ setup = {
   :novydvur_newlines => false,
   :columns => false,
   :lettrine => false,
-  :text_before_title => nil
+  :text_before_title => nil,
+  :dashes => false,
+  :paragraph_space => true
 }
 
 optparse = OptionParser.new do|opts|
@@ -194,8 +204,6 @@ optparse = OptionParser.new do|opts|
     setup[:text_before_title] = t
   end
   
-  
-  
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
     setup[:output_file] = out
   end
@@ -204,6 +212,14 @@ optparse = OptionParser.new do|opts|
   # as a separate paragraph
   opts.on "-e", "--linebreak-at-the-end", "Make a line-break after the last line" do
     setup[:line_break_last_line] = true
+  end
+  
+  opts.on "-d", "--dashes", "Dash at the end of each psalm paragraph" do
+    setup[:dashes] = true
+  end
+  
+  opts.on "-p", "--no-paragraph", "No empty line after each psalm paragraph." do
+    setup[:paragraph_space] = false
   end
 end
 
