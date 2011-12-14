@@ -51,8 +51,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 a( c) d( e) d d4. \breathe
-    f4 e f e c d d4. \bar "||"
+    d4 a( c) d( e) d d \breathe
+    f4 e f e c d d4 \bar "||"
   }
   \addlyrics {
     V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
@@ -95,9 +95,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    a4 c( d) d \breathe
-    e f e d( c) a4. \breathe
-    f'4 f e d( c) d4. \bar "||"
+    d4 g( f) g \barMin a f f e4. d \barMax
+    e4 f d d( c) d \bar "||"
   }
   \addlyrics {
     Ne -- skrý -- vej pře -- de mnou svou tvář,
