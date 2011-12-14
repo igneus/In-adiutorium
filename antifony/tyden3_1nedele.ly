@@ -45,8 +45,9 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 bes a g g a a4. \breathe g4 f( d) d4. \breathe 
-    c4 f e d \bar "||"
+    a4( c d) c a g g c a \barMin
+    a f( d e) d \barMax
+    d f e( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
@@ -75,7 +76,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) c d d c d c( b a) a \breathe g f f( g) g \bar "||"
+    a4( c) c d d c b c( a g) g \barMin
+    g f f( a) g \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.
@@ -98,11 +100,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 b d d d d e d c b4. \breathe g4 c b a4. g \breathe a4 b g4. g \bar "||"
+    g4( f) g g4.( a) \barMin
+    a4 g( a) a b c c( b) c \barMaior
+    c b( a) g( a) e( f) g \barMax
+    e f g4. g \barFinalis
   }
   \addlyrics {
-    V_sou -- že -- ní jsem vo -- lal Hos -- po -- di -- na
-    a vy -- sly -- šel mě. A -- le -- lu -- ja.
+    V_sou -- že -- ní 
+    jsem vo -- lal Hos -- po -- di -- na
+    a vy -- sly -- šel mě. 
+    A -- le -- lu -- ja.
   }
   \header {
     piece = "1. ant. - VIII.G (Žalm 118(117)-I)"
