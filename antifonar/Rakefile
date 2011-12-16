@@ -13,6 +13,15 @@ def genzalm(zalm, options="")
   return peceny
 end
 
+def test_lilypondbook_version
+  v = `lilypond-book --version`
+  if v !~ /^2\.14/ then
+    STDERR.puts
+    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.14.x !!!"
+    STDERR.puts
+  end
+end
+
 ##############
 # Antifonar: kompletar
 
@@ -41,6 +50,7 @@ end
 zalmy_kompletar << 'generovane/doxologie_2akcenty.tex'
 
 file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", "kompletar_1.ly"]+zalmy_kompletar) do
+  test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
@@ -64,6 +74,7 @@ file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
 end
 
 file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
+  test_lilypondbook_version
   sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
 end
 
