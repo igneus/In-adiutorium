@@ -12,6 +12,8 @@
     subtitle = "Invitatorium"
   }
   
+  \markup {\nadpisDen {do 16. prosince}}
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -50,6 +52,27 @@
       quid = "ant."
       tonus = "III"
       differentia = "c" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisDen {po 16. prosinci}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d( f g4.) g \barMin
+      a4( f) e e f d d \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
     }
@@ -482,6 +505,24 @@
   }
   
   \markup {\nadpisDen {24. prosince}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c c c c c d( e c) b c4. \bar "|" c4 c c d b c4. a b4 c a( g) g \bar "||"
+    }
+    \addlyrics {
+      Dnes po -- zná -- te, že při -- jde Pán, a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "c" 
+      psalmus = "invitatorium"
+      piece = \markup {\sestavTitulek}
+      fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
+    }
+  }
   
   \score {
     \relative c' {
