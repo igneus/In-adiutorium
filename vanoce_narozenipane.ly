@@ -845,6 +845,104 @@ doxologieRespAlelujaVI = {
   }
 
   \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
+  
+  \markup {Responsoria jsou jako ze slavnosti Narození Páně (viz breviář).}
+
+  \markup {\nadpisHodinka {"1. nešpory"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a g( f) g a( f) g e \barMax
+      
+      f g a a( bes) a a g f e f g4.( a) \barMin
+      a4 g a g f e( f d) d \barMax
+      
+      d d f( g) g g f g a( bes a) a \barMin
+      a bes4. c4( bes) a4. d, \barMin
+      e4 f g( e) d \barFinalis
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "I"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      b4 c c a( g) a \barMin
+      a g f g a b c c \barMin
+      c d c b( c a) g4. g \barMax
+      
+      a4( f) e e d d e e( f) e \barMin
+      a( c) c b( g) e \barMin
+      f a a a g f e4. e \barFinalis
+    }
+    \addlyrics {
+      Když se Syn Bo -- ží
+      na -- ro -- dil z_Pan -- ny Ma -- ri -- e,
+      a -- by nás vy -- kou -- pil,
+      
+      se -- stou -- pil zá -- zrač -- ně z_ne -- be
+      ja -- ko ro -- sa
+      na Ge -- de -- o -- no -- vo rou -- no.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "III"
+      differentia = "b" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4( b c) d c b( c a) \barMin
+      a g( f) e f f a a \barMax
+      
+      a g4.( a) \barMin
+      b4 c a b( c) c \barMin
+      d( c) d e c( b a4.) a \barMin
+      g4 g f g a b c a g g a a \barMax
+      
+      a( c d) c( b) a b g a4. \barFinalis
+    }
+    \addlyrics {
+      Moj -- ží -- šův keř,
+      kte -- rý v_oh -- ni ne -- sho -- řel,
+      
+      je nám,
+      Ro -- dič -- ko Bo -- ží,
+      zna -- me -- ním tvé -- ho
+      slav -- né -- ho, ne -- po -- ru -- še -- né -- ho pa -- nen -- ství.
+      
+      Při -- mlou -- vej se za nás.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "IV alt"
+      differentia = "A" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
 
   \score {
     \relative c' {
@@ -880,6 +978,134 @@ doxologieRespAlelujaVI = {
     }
   }
   
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4 e f f e d e( f) e4.( d) \barMin
+      e4( f) f g a a \barMax
+      a g a bes( g bes) a \barMin
+      g a f e( d) d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- me Mat -- ku Bo -- ží,
+      Pan -- nu Ma -- ri -- i;
+      klaň -- me se Kris -- tu,
+      je -- jí -- mu Sy -- nu!
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+      fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      a( b c) d c( b) a c( b) a( g) g \barMaior
+      g( a) f g a a a g a g g \barMax
+      
+      a( b) c c4.( d) \barMin
+      c4 b a( g) a( f) g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      
+      Bo -- že náš, te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      b4 c d c4.( b) \barMin
+      c4 b a a a( b) a g g \barMax
+      
+      g f g a( c) c c c( d) d \barMax
+      
+      d d( f) e d c( d) d \barMaior
+      d c d b( c a4.) a \barMin
+      c4 b a( g) g \barMax
+      
+      g g( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a nám 
+      po -- ro -- di -- la Spa -- si -- te -- le.
+      
+      Když ho Jan u -- vi -- děl, zvo -- lal:
+      
+      Hle, Be -- rá -- nek Bo -- ží,
+      ten, kte -- rý sní -- má
+      hří -- chy svě -- ta.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "b" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 a a c b c c( d) d \barMin
+      d d d( e c4.) c \barMin
+      d4 c( a) b b g \barMax
+      
+      a( c) b c( d) d d c b c d d \barMaior
+      d c b a4. a a4( b) c a g g \barMax
+      
+      a f g a c c \barMin
+      b a g( a) g g \barMax
+      
+      g f( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Ro -- dič -- ka zro -- di -- la Krá -- le,
+      je -- hož jmé -- no
+      tr -- vá na -- vě -- ky;
+      
+      ra -- du -- je se ze své -- ho ma -- teř -- ství
+      a zů -- stá -- vá jí slá -- va pa -- nen -- ství.
+      
+      Ne -- ní jí po -- dob -- né me -- zi že -- na -- mi.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -906,6 +1132,10 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \markup {Antifony k žalmům jako v 1. nešporách.}
   
   \score {
     \relative c' {
