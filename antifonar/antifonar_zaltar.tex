@@ -41,11 +41,17 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
+\newenvironment{hora}{
+  \begin{multicols}{2}
+}{
+  \end{multicols}
+}
+
 \begin{document}
 
 \titulniStrankaSvazkuAntifonare
 
-% \input{generovane/.tex}
+% \input{generovane/zaltar/.tex}
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -60,19 +66,24 @@
 \section*{Kantika z evangelií}
 \fancyhead[CE,CO]{Kantika z evangelií}
 
+\begin{hora}
 \nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
-\input{generovane/kantikum_benedictus.tex}
+\input{generovane/zaltar/kantikum_benedictus.tex}
+\columnbreak
 \nadpisTypTextu{Kantikum Panny Marie (Magnificat)}
-\input{generovane/kantikum_magnificat.tex}
+\input{generovane/zaltar/kantikum_magnificat.tex}
+\end{hora}
 
 \section*{Žalmy invitatoria}
 \fancyhead[CE,CO]{Žalmy invitatoria}
 
-\input{generovane/zalm95.tex}
-\input{generovane/zalm100.tex}
-\input{generovane/zalm67.tex}
-\input{generovane/zalm24.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm95.tex}
+\input{generovane/zaltar/zalm100.tex}
+\input{generovane/zaltar/zalm67.tex}
+\input{generovane/zaltar/zalm24.tex}
 \label{zalm24}
+\end{hora}
 
 \clearpage
 \section*{Čtyřtýdenní cyklus žaltáře}
@@ -82,183 +93,245 @@
 \nadpisDen{Neděle}
 
 \nesporyI
-\input{generovane/zalm141.tex}
-\input{generovane/zalm142.tex}
-\input{generovane/kantikum_fp2.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm141.tex}
+\input{generovane/zaltar/zalm142.tex}
+\input{generovane/zaltar/kantikum_fp2.tex}
+\end{hora}
 
 \ranniChvaly
-\input{generovane/zalm63.tex}
-\input{generovane/kantikum_dan3i.tex}
-\input{generovane/zalm149.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm63.tex}
+\input{generovane/zaltar/kantikum_dan3i.tex}
+\input{generovane/zaltar/zalm149.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm118i.tex}
-\input{generovane/zalm118ii.tex}
-\input{generovane/zalm118iii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm118i.tex}
+\input{generovane/zaltar/zalm118ii.tex}
+\input{generovane/zaltar/zalm118iii.tex}
+\end{hora}
 
 \nesporyII
-\input{generovane/zalm110.tex}
-\input{generovane/zalm114.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm110.tex}
+\input{generovane/zaltar/zalm114.tex}
 \input{kantikum_zj19.tex}
+\end{hora}
 
 \nadpisDen{Pondělí}
 
 \ranniChvaly
-\input{generovane/zalm5.tex}
-\input{generovane/kantikum_1kron29.tex}
-\input{generovane/zalm29.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm5.tex}
+\input{generovane/zaltar/kantikum_1kron29.tex}
+\input{generovane/zaltar/zalm29.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm19b.tex}
-\input{generovane/zalm7i.tex}
-\input{generovane/zalm7ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm19b.tex}
+\input{generovane/zaltar/zalm7i.tex}
+\input{generovane/zaltar/zalm7ii.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm11.tex}
-\input{generovane/zalm15.tex}
-\input{generovane/kantikum_ef1.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm11.tex}
+\input{generovane/zaltar/zalm15.tex}
+\input{generovane/zaltar/kantikum_ef1.tex}
+\end{hora}
 
 \nadpisDen{Úterý}
 
 \ranniChvaly
+\begin{hora}
 \rubrika{Pokud se následující žalm zpíval jako invitatorium,
 nahradí se zde žalmem 95, str. \pageref{zalm24}.}
-\input{generovane/zalm24.tex}
-\input{generovane/kantikum_tob13.tex}
-\input{generovane/zalm33.tex}
+\input{generovane/zaltar/zalm24.tex}
+\input{generovane/zaltar/kantikum_tob13.tex}
+\input{generovane/zaltar/zalm33.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119alef.tex}
-\input{generovane/zalm13.tex}
-\input{generovane/zalm14.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119alef.tex}
+\input{generovane/zaltar/zalm13.tex}
+\input{generovane/zaltar/zalm14.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm20.tex}
-\input{generovane/zalm21.tex}
-\input{generovane/kantikum_zj4.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm20.tex}
+\input{generovane/zaltar/zalm21.tex}
+\input{generovane/zaltar/kantikum_zj4.tex}
+\end{hora}
 
 \nadpisDen{Středa}
 
 \ranniChvaly
-\input{generovane/zalm36.tex}
-\input{generovane/kantikum_jdt16.tex}
-\input{generovane/zalm47.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm36.tex}
+\input{generovane/zaltar/kantikum_jdt16.tex}
+\input{generovane/zaltar/zalm47.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119beth.tex}
-\input{generovane/zalm17i.tex}
-\input{generovane/zalm17ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119beth.tex}
+\input{generovane/zaltar/zalm17i.tex}
+\input{generovane/zaltar/zalm17ii.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm27i.tex}
-\input{generovane/zalm27ii.tex}
-\input{generovane/kantikum_kol1.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm27i.tex}
+\input{generovane/zaltar/zalm27ii.tex}
+\input{generovane/zaltar/kantikum_kol1.tex}
+\end{hora}
 
 \nadpisDen{Čtvrtek}
 
 \ranniChvaly
-\input{generovane/zalm57.tex}
-\input{generovane/kantikum_jer31.tex}
-\input{generovane/zalm48.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm57.tex}
+\input{generovane/zaltar/kantikum_jer31.tex}
+\input{generovane/zaltar/zalm48.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119gimel.tex}
-\input{generovane/zalm25i.tex}
-\input{generovane/zalm25ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119gimel.tex}
+\input{generovane/zaltar/zalm25i.tex}
+\input{generovane/zaltar/zalm25ii.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm30.tex}
-\input{generovane/zalm32.tex}
-\input{generovane/kantikum_zj11.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm30.tex}
+\input{generovane/zaltar/zalm32.tex}
+\input{generovane/zaltar/kantikum_zj11.tex}
+\end{hora}
 
 \nadpisDen{Pátek}
 
 \ranniChvaly
-\input{generovane/zalm51.tex}
-\input{generovane/kantikum_iz45.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm51.tex}
+\input{generovane/zaltar/kantikum_iz45.tex}
 \rubrika{Pokud se následující žalm zpíval jako invitatorium,
 nahradí se zde žalmem 95, str. \pageref{zalm24}.}
-\input{generovane/zalm100.tex}
+\input{generovane/zaltar/zalm100.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119dalet.tex}
-\input{generovane/zalm26.tex}
-\input{generovane/zalm28.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119dalet.tex}
+\input{generovane/zaltar/zalm26.tex}
+\input{generovane/zaltar/zalm28.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm41.tex}
-\input{generovane/zalm46.tex}
-\input{generovane/kantikum_zj15.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm41.tex}
+\input{generovane/zaltar/zalm46.tex}
+\input{generovane/zaltar/kantikum_zj15.tex}
+\end{hora}
 
 \nadpisDen{Sobota}
 
 \ranniChvaly
-\input{generovane/zalm119kof.tex}
-\input{generovane/kantikum_ex15.tex}
-\input{generovane/zalm117.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119kof.tex}
+\input{generovane/zaltar/kantikum_ex15.tex}
+\input{generovane/zaltar/zalm117.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119he.tex}
-\input{generovane/zalm34i.tex}
-\input{generovane/zalm34ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119he.tex}
+\input{generovane/zaltar/zalm34i.tex}
+\input{generovane/zaltar/zalm34ii.tex}
+\end{hora}
 
 \nadpisTyden{Druhý týden}{2. týden žaltáře}
 
 \nadpisDen{Neděle}
 
 \nesporyI
-\input{generovane/zalm119nun.tex}
-\input{generovane/zalm16.tex}
-\input{generovane/kantikum_fp2.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119nun.tex}
+\input{generovane/zaltar/zalm16.tex}
+\input{generovane/zaltar/kantikum_fp2.tex}
+\end{hora}
 
 \ranniChvaly
-\input{generovane/zalm118.tex}
-\input{generovane/kantikum_dan3ii.tex}
-\input{generovane/zalm150.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm118.tex}
+\input{generovane/zaltar/kantikum_dan3ii.tex}
+\input{generovane/zaltar/zalm150.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm23.tex}
-\input{generovane/zalm76i.tex}
-\input{generovane/zalm76ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm23.tex}
+\input{generovane/zaltar/zalm76i.tex}
+\input{generovane/zaltar/zalm76ii.tex}
+\end{hora}
 
 \nesporyII
-\input{generovane/zalm110.tex}
-\input{generovane/zalm115.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm110.tex}
+\input{generovane/zaltar/zalm115.tex}
 \input{kantikum_zj19.tex}
+\end{hora}
 
 \nadpisDen{Pondělí}
 
 \ranniChvaly
-\input{generovane/zalm42.tex}
-\input{generovane/kantikum_sir36.tex}
-\input{generovane/zalm19a.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm42.tex}
+\input{generovane/zaltar/kantikum_sir36.tex}
+\input{generovane/zaltar/zalm19a.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119vau.tex}
-\input{generovane/zalm40i.tex}
-\input{generovane/zalm40ii.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119vau.tex}
+\input{generovane/zaltar/zalm40i.tex}
+\input{generovane/zaltar/zalm40ii.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm45i.tex}
-\input{generovane/zalm45ii.tex}
-\input{generovane/kantikum_ef1.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm45i.tex}
+\input{generovane/zaltar/zalm45ii.tex}
+\input{generovane/zaltar/kantikum_ef1.tex}
+\end{hora}
 
 \nadpisDen{Úterý}
 
 \ranniChvaly
-\input{generovane/zalm43.tex}
-\input{generovane/kantikum_iz38.tex}
-\input{generovane/zalm65.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm43.tex}
+\input{generovane/zaltar/kantikum_iz38.tex}
+\input{generovane/zaltar/zalm65.tex}
+\end{hora}
 
 \modlitbaUprostredDne
-\input{generovane/zalm119zajin.tex}
-\input{generovane/zalm53.tex}
-\input{generovane/zalm54.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm119zajin.tex}
+\input{generovane/zaltar/zalm53.tex}
+\input{generovane/zaltar/zalm54.tex}
+\end{hora}
 
 \nespory
-\input{generovane/zalm49i.tex}
-\input{generovane/zalm49ii.tex}
-\input{generovane/kantikum_zj4.tex}
+\begin{hora}
+\input{generovane/zaltar/zalm49i.tex}
+\input{generovane/zaltar/zalm49ii.tex}
+\input{generovane/zaltar/kantikum_zj4.tex}
+\end{hora}
 
 \clearpage
 \pagestyle{plain}

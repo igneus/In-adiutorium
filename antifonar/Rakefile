@@ -113,6 +113,8 @@ end
 
 zalmyzaltare = []
 
+adresar_zaltar = 'generovane/zaltar/'
+
 cislazalmu_zaltar = %w( 95 100 67 24
 
                   141 142 63 149 118i 118ii 118iii 110 114
@@ -128,36 +130,36 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   43 65 119zajin 53 54 49i 49ii
                   )
 
-commonoptions = '--columns --lettrine --dashes --no-paragraph' # sazba do sloupcu
+commonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
 # commonoptions = ''
 # commonoptions = '--novydvur-newlines'
 
 cislazalmu_zaltar.each do |z|
-  zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions)
+  zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
 canticleoptions = commonoptions+" --pretitle \"kantikum\\\\\\\\ \""
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_kol1.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_zj11.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_zj15.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_fp2.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_kol1.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_zj11.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_zj15.zalm', canticleoptions, adresar_zaltar)
 
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_1kron29.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_tob13.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_jdt16.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_jer31.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_iz45.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_ex15.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_dan3ii.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_sir36.zalm', canticleoptions)
-zalmyzaltare << genzalm('kantikum_iz38.zalm', canticleoptions)
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_1kron29.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_tob13.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_jdt16.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_jer31.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_iz45.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_ex15.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_dan3ii.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_sir36.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_iz38.zalm', canticleoptions, adresar_zaltar)
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
