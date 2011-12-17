@@ -97,7 +97,7 @@ def preprocess_psalmfile(file, setup={})
           if (nextl && nextl =~ /^\s*$/) ||
               (!nextl && setup[:line_break_last_line]) then
             if setup[:dashes] then
-              l += "~\\znackaStrofaZalmu"
+              l += "\\hfill \\znackaStrofaZalmu"
             end
             #if setup[:paragraph_space] then
             #  l += "\\\\"
