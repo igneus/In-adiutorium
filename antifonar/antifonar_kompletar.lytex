@@ -1,8 +1,10 @@
-\documentclass[a4paper]{article}
+\documentclass[a5paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=2.5cm]{geometry} % okraje stranky
+\usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -36,71 +38,71 @@
 psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
 kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
 na který jinak odkazujeme, a proto je tu výjimečně reprodukován.}
-\lilypondfile{generovane/kompletar_1.ly}
+\lilypondfile{generovane/kompletar/kompletar_1.ly}
 
 \section*{Neděle po 1. nešporách}
 
-\lilypondfile{generovane/kompletar_2.ly}
-\input{generovane/zalm4.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_2.ly}
+\input{generovane/kompletar/zalm4.tex}
+\input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile{generovane/kompletar_3.ly}
-\input{generovane/zalm134.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_3.ly}
+\input{generovane/kompletar/zalm134.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \rubrika{Responsorium a Simeonovo kantikum s antifonou se zpívají
 každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisTypTextu{Responsorium}
 
-\lilypondfile{generovane/kompletar_11.ly}
+\lilypondfile{generovane/kompletar/kompletar_11.ly}
 
 \nadpisTypTextu{Simeonovo kantikum}
 
 ant. - III.a
-\lilypondfile{generovane/kompletar_12.ly}
-\input{generovane/kantikum_nuncdimittis.tex}
-\input{generovane/doxologie_2akcenty.tex}
+\lilypondfile{generovane/kompletar/kompletar_12.ly}
+\input{generovane/kompletar/kantikum_nuncdimittis.tex}
+\input{generovane/kompletar/doxologie_2akcenty.tex}
 
 \section*{Neděle po 2. nešporách}
 
-\lilypondfile{generovane/kompletar_4.ly}
-\input{generovane/zalm91.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_4.ly}
+\input{generovane/kompletar/zalm91.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \section*{Pondělí}
 
-\lilypondfile{generovane/kompletar_5.ly}
-\input{generovane/zalm86.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_5.ly}
+\input{generovane/kompletar/zalm86.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \section*{Úterý}
 
-\lilypondfile{generovane/kompletar_6.ly}
-\input{generovane/zalm143.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_6.ly}
+\input{generovane/kompletar/zalm143.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \section*{Středa}
 
-\lilypondfile{generovane/kompletar_7.ly}
-\input{generovane/zalm31.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_7.ly}
+\input{generovane/kompletar/zalm31.tex}
+\input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile{generovane/kompletar_8.ly}
-\input{generovane/zalm130.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_8.ly}
+\input{generovane/kompletar/zalm130.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \section*{Čtvrtek}
 
-\lilypondfile{generovane/kompletar_9.ly}
-\input{generovane/zalm16.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_9.ly}
+\input{generovane/kompletar/zalm16.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \section*{Pátek}
 
-\lilypondfile{generovane/kompletar_10.ly}
-\input{generovane/zalm88.tex}
-\input{generovane/doxologie.tex}
+\lilypondfile{generovane/kompletar/kompletar_10.ly}
+\input{generovane/kompletar/zalm88.tex}
+\input{generovane/kompletar/doxologie.tex}
 
 \clearpage
 \tirazSvazkuAntifonare
