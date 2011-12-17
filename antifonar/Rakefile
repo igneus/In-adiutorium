@@ -28,7 +28,9 @@ end
 
 adresar_kompletar = 'generovane/kompletar/'
 
-file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex"] do
+kompletar_options = "--columns --lettrine --dashes --no-paragraph"
+
+file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
   sh "pdflatex antifonar_kompletar"
   chdir ".."
@@ -37,10 +39,10 @@ end
 cislazalmu_kompletar = [4, 134, 91, 86, 143, 31, 130, 16, 88]
 zalmy_kompletar = []
 cislazalmu_kompletar.each do |i|
-  zalmy_kompletar << genzalm("zalm#{i}.zalm", "--last-accent-only --linebreak-at-the-end", adresar_kompletar)
+  zalmy_kompletar << genzalm("zalm#{i}.zalm", kompletar_options+" --last-accent-only", adresar_kompletar)
 end
 
-zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", "--linebreak-at-the-end", adresar_kompletar)
+zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options, adresar_kompletar)
 
 # doxologie s jednim akcentem na polovers
 zalmy_kompletar << genzalm("doxologie.zalm", "--last-accent-only --no-title", adresar_kompletar)
