@@ -13,7 +13,7 @@
   \relative c'' {
     \choralniRezim
     a4 b c d a \breathe g f e f( a) a4. \breathe
-    a4 a g f e( d) f d \breathe
+    a4 a g f e( d) e d \breathe
     d4 f( e) c d4. \bar "||"
   }
   \addlyrics {
