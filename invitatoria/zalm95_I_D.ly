@@ -34,15 +34,15 @@ zalmXCVtonusID = \score {
     a a a g f e d c( d) d( e4. d) \strofa
     
     % Kez byste dnes
-    c4 d( a') a a a a a a a a g( f) f \bar "|"
-    a a a a a a a a a g a( bes) a( g) a \bar "|"
+    c4 d( a') a a a a a a a g a( bes a) a \bar "|"
+    f g a a a a a a a g a( bes) a( g) a \bar "|"
     a a a a g f e( d) e d \bar "|"
     f g a a a a g a( bes) a( g) a \bar "|"
     a( g f) g( a) g( f) e \breathe e g f e e c( d) d( e4. d) \strofa
     
     % Ctyricet let
-    d4( a') bes( a) g a a a a a a a a a a a g( f) f \bar "|"
-    a a a a a a a g a( bes) a a( g) a \bar "|"
+    d4( a') bes( a) g a a a a a a a a a a g a( bes) a \bar "|"
+    f g a a a a a g a( bes) a a( g) a \bar "|"
     a a a g f e( d e) d \bar "|"
     d f g a a a a g a( bes a) a \bar "|"
     a( g) f( e) e g f e e d c( d) d( e4. d) \strofa
@@ -54,7 +54,7 @@ zalmXCVtonusID = \score {
     a a( bes) a a f( g) f( e d) \breathe c( d) d( e4. d) \strofa
   }
   \addlyrics {
-    \zalmXCVtext
+    \zalmXCVtextBezZnamenek
   }
   \header {
     piece = "Žalm 95 - I.D"
