@@ -7,11 +7,6 @@
 
 \include "spolecne.ly"
 
-#(define-markup-command (nadpisHodinka layout props arg) (markup?)
-   "Nova hodinka - dalsi uroven nadpisu pode dnem"
-   (interpret-markup layout props
-		     (markup #:smallCaps arg)))
-                             
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -27,7 +22,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.D2 - Žalm 63(62)"
+    quid = "1. ant."
+    tonus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -46,7 +45,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c - Dan 3"
+    quid = "2. ant."
+    tonus = "VII??"
+    differentia = "c??" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -55,14 +58,18 @@
     \choralniRezim
     d4 c b( c) d4. \breathe
     d4 c b c a g b c a( g) g \breathe
-    a4 c b( g) a4. \bar "||"
+    a4 g f( g) g4. \bar "||"
   }
   \addlyrics {
     A -- le -- lu -- ja. Pán vstal z_mrt -- vých, jak to před -- po -- vě -- děl.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VII.a -- Žalm 149"
+    quid = "3. ant."
+    tonus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -80,7 +87,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "ant. dopoledne - VIII.G"
+    quid = "ant. dopoledne"
+    tonus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -89,9 +100,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c d d d d d d e d d c b c( d) d a4. \breathe 
-    c4 c c c d d c d a a g \breathe
-    g4 c b g4.( a) \bar "||"
+    a4 b c d d d d d d e d d c b c( d) d a4 \barMin 
+    g4 a b c d c b c a g g  \barMin
+    f a g4. g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
@@ -99,16 +110,20 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.a - Žalm 110(109)"
+    quid = "1. ant."
+    tonus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    a4 d, d f g a a a c d a4. a \breathe
-    b4 c d d c d \breathe
-    a4 g( f) g( a c) d4. \bar "||"
+    a4 d, d f g a a a c d a4. a \barMin
+    g4 f g( a) f d d \barMax
+    e4 f d( c) d4. \barFinalis
   }
   \addlyrics {
     Pojď -- te a po -- dí -- vej -- te se na to mís -- to, 
@@ -116,7 +131,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - per - Žalm 114(113A)"
+    quid = "2. ant."
+    tonus = "per"
+    differentia = "" 
+    psalmus = "Žalm 114"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -125,9 +144,7 @@
     \choralniRezim
     a4 a a a b c b a4. \breathe
     g4 g a b b c d a a \breathe
-    g4 f g g g f g a a \breathe 
-    \once \override Staff.BarLine #'break-visibility = #'#(#f #f #f)
-    \bar "|"
+    g4 f g g g f g a a \breathe \bar ""
     c4 c d d d4. \breathe
     d4 d c d4. \bar "||"
   }
@@ -139,6 +156,10 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F - Zj 19"
+    quid = "3. ant."
+    tonus = "VI???"
+    differentia = "F???" 
+    psalmus = "Zj 19"
+    piece = \markup {\sestavTitulek}
   }
 }
