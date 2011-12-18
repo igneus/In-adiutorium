@@ -69,47 +69,6 @@ task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
 task :default => [:kompletar]
 
-###############
-# uvod
-
-file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
-  chdir 'generovane'
-  sh "#{RUBY_COMMAND} ../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' ../uvod_priklady.ly"
-  chdir '..'
-end
-
-file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
-  test_lilypondbook_version
-  sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
-end
-
-file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
-  chdir 'vystup'
-  sh 'pdflatex antifonar_uvod.tex'
-  chdir '..'
-end
-
-task :uvod => ['vystup/antifonar_uvod.pdf']
-
-###############
-# material k responsorialnimu prednesu zalmu 136
-
-file "generovane/zalm136responsorialni.tex" => ["zalmy/zalm136responsorialni.zalm"] do
-  chdir "generovane"
-  sh "ruby ../../nastroje/psalmpreprocessor.rb --no-formatting ../zalmy/zalm136responsorialni.zalm"
-  chdir ".."
-end
-
-file "vystup/zalm136.tex" => ["generovane/zalm136responsorialni.tex", "zalm136noty.ly", "spolecne.tex"] do
-  sh "lilypond-book --out=vystup --pdf zalm136.lytex"
-end
-
-file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
-  cd "vystup"
-  sh "pdflatex zalm136"
-  cd ".."
-end
-
 #######################
 # zaltar
 
@@ -184,3 +143,45 @@ task :zaltar_clean do
   sh 'rm generovane/kantikum*.tex'
   sh 'rm antifonar_zaltar.pdf'
 end
+
+###############
+# uvod
+
+file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
+  chdir 'generovane'
+  sh "#{RUBY_COMMAND} ../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' ../uvod_priklady.ly"
+  chdir '..'
+end
+
+file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
+  test_lilypondbook_version
+  sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
+end
+
+file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
+  chdir 'vystup'
+  sh 'pdflatex antifonar_uvod.tex'
+  chdir '..'
+end
+
+task :uvod => ['vystup/antifonar_uvod.pdf']
+
+###############
+# material k responsorialnimu prednesu zalmu 136
+
+file "generovane/zalm136responsorialni.tex" => ["zalmy/zalm136responsorialni.zalm"] do
+  chdir "generovane"
+  sh "ruby ../../nastroje/psalmpreprocessor.rb --no-formatting ../zalmy/zalm136responsorialni.zalm"
+  chdir ".."
+end
+
+file "vystup/zalm136.tex" => ["generovane/zalm136responsorialni.tex", "zalm136noty.ly", "spolecne.tex"] do
+  sh "lilypond-book --out=vystup --pdf zalm136.lytex"
+end
+
+file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
+  cd "vystup"
+  sh "pdflatex zalm136"
+  cd ".."
+end
+
