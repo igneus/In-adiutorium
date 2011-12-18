@@ -3,6 +3,7 @@
 #
 # - makes space in front of * and + unbreakable
 # - underlines syllables enclosed in square brackets  [ ]
+# ... (see the commandline options)
 
 def preprocess_psalmfile(file, setup={})
   File.open(file, "r") do |fr|
@@ -76,14 +77,14 @@ def preprocess_psalmfile(file, setup={})
         end
         
         if setup[:no_formatting] then
-          l = process_accents(l, setup[:last_accent_only])
+          l = process_accents(l, setup[:last_accents_only])
           fw.puts l
           next
         end
         
         l.chomp!
         
-        l = process_accents(l, setup[:last_accent_only])
+        l = process_accents(l, setup[:last_accents_only])
         
         if l.rindex("+") || l.rindex("*") then # lines ending with flex or asterisk:
           l.gsub!(" +", "~\\dag\\mbox{}")
