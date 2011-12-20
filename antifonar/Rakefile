@@ -185,3 +185,4 @@ file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd ".."
 end
 
+task :zalm136 => ["vystup/zalm136.pdf"]
