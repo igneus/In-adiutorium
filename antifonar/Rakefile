@@ -133,18 +133,26 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zalta
 
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
-  #2.times { 
-    sh "cslatex antifonar_zaltar" 
-  #}
-  sh "dvipdf antifonar_zaltar.dvi"
+  2.times { 
+    # sh "cslatex antifonar_zaltar" 
+    sh "pdflatex antifonar_zaltar"
+  }
+  # sh "dvipdf antifonar_zaltar.dvi"
 end
 
 task :zaltar => ["antifonar_zaltar.pdf"]
 
-task :zaltar_clean do
+task :zaltar_clean => [:zaltar_texclean] do
   sh 'rm generovane/zaltar/zalm*.tex'
   sh 'rm generovane/zaltar/kantikum*.tex'
-  sh 'rm antifonar_zaltar.pdf'
+end
+
+task :zaltar_texclean do
+  (['pdf', 'aux', 'log', 'out'].map {|e| "antifonar_zaltar."+e}).each {|f|
+    if File.exists? f then
+      sh "rm #{f}"
+    end
+  }
 end
 
 ###############
