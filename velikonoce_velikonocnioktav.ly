@@ -33,10 +33,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 f e d c a g( a) a \breathe
-    g4 a c c( d) c c \breathe
-    e4 c f e c d c \breathe
-    b4 d d( c) c4. \bar "||"
+    c4 b( c) a g( a g) g \barMin a( b c) c( d) d \barMaior
+    d e c d( a) b( g) g \barMin
+    b( c a4.) a \barMin g4 a f f( g) g \barMax
+    g g( a) g4. g \barFinalis
   }
   \addlyrics {
     Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
@@ -46,8 +46,8 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "VII??"
-    differentia = "c??" 
+    tonus = "VII"
+    differentia = "c" 
     psalmus = "Dan 3"
     piece = \markup {\sestavTitulek}
   }
