@@ -93,6 +93,8 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   80 81 119tet 56 57 72i 72ii
                   147 119jod 59 60 116 121
                   92 8 119kaf 61 64
+                  
+                  113 116ii 93 148 111
                   )
 
 commonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
