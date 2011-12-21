@@ -154,6 +154,91 @@ doxologieRespAlelujaVI = {
     }
   }
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a( c) c \barMin
+      c( b) c a( b g4.) g \barMax
+      a4 f f f e( g) g \barFinalis
+    }
+    \addlyrics {
+      Pán mi ře -- kl:
+      Ty jsi můj Syn,
+      já jsem tě dnes zplo -- dil.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f g a a b( c d) c( d) d \barMax
+      d c( b) a4.( g) \barMin
+      g4 a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Slun -- ce spra -- ve -- dl -- nos -- ti vy -- chá -- zí
+      a zá -- ří
+      ce -- lé -- mu svě -- tu.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "a" 
+      psalmus = "Žalm 19A"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( g) a( c) c4. \barMin
+      d4 c b a( b g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 45"
+      fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d( e c4.) c a4 c c( d) d \barMaior
+      d f( e) f e4.( d4 c) \barMin
+      f( e d) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      tonus = "II"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
