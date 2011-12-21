@@ -65,7 +65,7 @@ def preprocess_psalmfile(file, setup={})
             
             # Czech Ch is one letter
             if l =~ /^[Cc][Hh]/ then
-              cap = l[0..1]
+              cap = l[0..1].upcase
             else
               cap = l[0]
             end
