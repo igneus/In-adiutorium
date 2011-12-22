@@ -70,6 +70,10 @@ choralniRezim = {
   % noty bez nozicek
   \override Stem #'transparent = ##t
 
+  % nozky maji nulovou delku a tak neovlivnuji legatove cary
+  % (tento radek resi problem "vznasejicich se car")
+  \override Stem #'Y-extent = ##f
+  
   % nedelat taktove cary    
   \cadenzaOn
   
