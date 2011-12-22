@@ -95,6 +95,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   92 8 119kaf 61 64
                   
                   113 116ii 93 148 111
+                  84 96 119lamed 71i 71ii 123 124
                   )
 
 commonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
@@ -128,6 +129,7 @@ zalmyzaltare << genzalm('kantikum_1sam2.zalm', canticleoptions, adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_iz12.zalm', canticleoptions, adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_hab3.zalm', canticleoptions, adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_dt32.zalm', canticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_iz2.zalm', canticleoptions, adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions, adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zaltar)
