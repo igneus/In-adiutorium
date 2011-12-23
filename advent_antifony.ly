@@ -481,9 +481,7 @@
       piece = \markup {\sestavTitulek}
     }
   }
-  
-  \pageBreak
-  
+    
   \markup {\nadpisDen {23. prosince}}
   \score {
     \relative c' {
@@ -499,76 +497,6 @@
       quid = "ant."
       tonus = "II"
       differentia = "D" 
-      psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
-    }
-  }
-  
-  \markup {\nadpisDen {24. prosince}}
-  
-  \score {
-    \relative c'' {
-      \choralniRezim
-      c c c c c d( e c) b c4. \bar "|" c4 c c d b c4. a b4 c a( g) g \bar "||"
-    }
-    \addlyrics {
-      Dnes po -- zná -- te, že při -- jde Pán, a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
-    }
-    \header {
-      quid = "ant."
-      tonus = "VIII"
-      differentia = "c" 
-      psalmus = "invitatorium"
-      piece = \markup {\sestavTitulek}
-      fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
-    }
-  }
-  
-  \score {
-    \relative c' {
-      \choralniRezim
-      \key f \major
-      % R
-      \neviditelna d
-      d4 d d d d( a') a a d( c) a g g( a) a \barMax
-      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
-      % V
-      \neviditelna d
-      a'4 a c d c c( d) d \barMin c bes g g( a) a \barMax
-      % R
-      \neviditelna bes
-      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
-      % Slava
-      a'4 a c d c c( d) d \barMin c bes g g a a \barFinalis
-    }
-    \addlyrics {
-      \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
-      při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
-      \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
-      \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
-      \slavaRespText
-    }
-    \header {
-      piece = "responsorium - I"
-    }
-  }
-
-  \score {
-    \relative c'' {
-      \choralniRezim
-      g4 c b g a \barMin
-      g a b c b c d d \barMin
-      c d c b4. g a4 f f g a a g g \barFinalis
-    }
-    \addlyrics {
-      Na -- pl -- nil se čas,
-      kdy mě -- la Pan -- na Ma -- ri -- a
-      po -- ro -- dit své -- ho pr -- vo -- ro -- ze -- né -- ho sy -- na.
-    }
-    \header {
-      quid = "ant."
-      tonus = "VIII"
-      differentia = "G" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
     }
@@ -978,6 +906,153 @@
       psalmus = ""
       piece = \markup {\sestavTitulek}
       fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "Předvánoční týden - 24. prosince"
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c c c d( e c) b c4. \bar "|" c4 c c d b c4. a b4 c a( g) g \bar "||"
+    }
+    \addlyrics {
+      Dnes po -- zná -- te, že při -- jde Pán, a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "c" 
+      psalmus = "invitatorium"
+      piece = \markup {\sestavTitulek}
+      fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
+    }
+  }
+  
+  \markup\nadpisHodinka {ranní chvály}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e( f) g( f d4.) d \barMin
+      e4 d c( d) d \barMaior
+      d d d( f) f e( f) d( c) c \barMax
+      
+      d a c d f f f g( a f4.) d \barMin
+      f4 e d e d a a \barMin
+      a( d) d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      A ty, Bet -- lé -- me
+      v_jud -- ské ze -- mi,
+      ne -- jsi vů -- bec nej -- men -- ší,
+      
+      pro -- to -- že z_te -- be vy -- jde vlád -- ce,
+      kte -- rý bu -- de pa -- no -- vat
+      mé -- mu iz -- ra -- el -- ské -- mu li -- du.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "II"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 d c a( b c) c \barMin
+      d c b c b( a g4.) g \barMin
+      a4( b) b c a g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Zdvih -- ně -- te hla -- vu,
+      pro -- to -- že se blí -- ží
+      va -- še vy -- kou -- pe -- ní.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 d d e( d) c b( c g4.) g \barMaior
+      a4 b c a a \barMin
+      g( f) f( g) g g \barFinalis
+    }
+    \addlyrics {
+      Zít -- ra k_vám při -- jde spá -- sa,
+      pra -- ví Hos -- po -- din,
+      Bůh zá -- stu -- pů.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VII"
+      differentia = "c" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      % R
+      \neviditelna d
+      d4 d d d d( a') a a d( c) a g g( a) a \barMax
+      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+      % V
+      \neviditelna d
+      a'4 a c d c c( d) d \barMin c bes g g( a) a \barMax
+      % R
+      \neviditelna bes
+      bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+      % Slava
+      a'4 a c d c c( d) d \barMin c bes g g a a \barFinalis
+    }
+    \addlyrics {
+      \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+      při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+      \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+      \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - I"
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 c b g a \barMin
+      g a b c b c d d \barMin
+      c d c b4. g a4 f f g a a g g \barFinalis
+    }
+    \addlyrics {
+      Na -- pl -- nil se čas,
+      kdy mě -- la Pan -- na Ma -- ri -- a
+      po -- ro -- dit své -- ho pr -- vo -- ro -- ze -- né -- ho sy -- na.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Benedictus"
+      piece = \markup {\sestavTitulek}
     }
   }
 }
