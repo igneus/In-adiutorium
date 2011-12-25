@@ -70,7 +70,7 @@ def preprocess_psalmfile(file, setup={})
               cap = l[0]
             end
             
-            l = "\\lettrine{"+cap+"}{"+l[cap.size..is]+"} "+l[is+1..-1]
+            l = "\\lettrine{"+cap+"}{"+l[cap.size..is-1]+"} "+l[is+1..-1]
           end
           
           first_line = false
