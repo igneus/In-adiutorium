@@ -113,9 +113,9 @@ doxologieRespAlelujaVI = {
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a g g( c) c b( c) a( g) g \breathe
-      g f g a4. a4 b c a4. g \breathe
-      g4 a g a( c) c b c a( g) g \bar "||"
+      g4 a g g( c) c b( c) a( g) g \barMin
+      g f g a4. a4 b c d4. d \barMax
+      c4( d) a a b( c) c b a g( a g) g \barFinalis
     }
     \addlyrics {
       Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
@@ -129,27 +129,26 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
-
-  \markup {Další verze téže antifony, kterou jsem omylem složil, zapomenuv,
-  že už jeden nápěv má:}
-
+  
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
   \score {
     \relative c' {
       \choralniRezim
-      d4 c( d e f) f g f e( f) d( c) c \breathe
-      c d e e( f) f f( g f) d e4. e \breathe
-      e4( g) g g a( f e) d \breathe
-      c d d( f e) d \bar "||"
+      e4 d e g4.( a) \barMin
+      b4( a b) g( f) e \barMax
+      d( f) f \barMin
+      e d d( e) e \barFinalis
     }
     \addlyrics {
-      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
-      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
     }
     \header {
       quid = "ant."
-      tonus = "II"
-      differentia = "D" 
-      psalmus = "Magnificat"
+      tonus = "IV"
+      differentia = "E" 
+      psalmus = ""
       piece = \markup {\sestavTitulek}
     }
   }
@@ -240,25 +239,6 @@ doxologieRespAlelujaVI = {
   }
 
   \markup {\nadpisHodinka {"ranní chvály"}}
-
-  \score {
-    \relative c'' {
-      \choralniRezim
-      d4( e) c d c b( c) a( g) g \breathe
-      b( c d4.) d c4 b a( g) g \bar "||"
-    }
-    \addlyrics {
-      Kris -- tus se nám na -- ro -- dil:
-      pojď -- me, kla -- něj -- me se!
-    }
-    \header {
-      quid = "ant."
-      tonus = "VII"
-      differentia = "d" 
-      psalmus = "invitatorium"
-      piece = \markup {\sestavTitulek}
-    }
-  }
 
   \score {
     \relative c'' {
@@ -413,9 +393,9 @@ doxologieRespAlelujaVI = {
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a c b c a g a a \breathe
-      a a a d( c d) e( f) d c c d d \breathe
-      d c b c b a g g \bar "||"
+      a4 a a c b c d d c( b) b \barMin
+      d d d d( c d) e( f) d c c d d \barMin
+      d d( a) c b a b g g \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
