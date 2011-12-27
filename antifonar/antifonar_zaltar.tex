@@ -4,10 +4,10 @@
 % cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
 % pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
 % rucne, ne pres rake.
-% \usepackage{czech} 
+\usepackage{czech} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
@@ -63,6 +63,8 @@
 
 \begin{document}
 
+\pagestyle{empty}
+
 \titulniStrankaSvazkuAntifonare
 
 \newpage \mbox{}
@@ -104,7 +106,7 @@
 
 \clearpage
 % \section*{Čtyřtýdenní cyklus žaltáře}
-\nadpisTyden{Čtyřtýdenní cyklus žaltáře:}{}
+\nadpisTyden{Čtyřtýdenní cyklus žaltáře:}{Čtyřtýdenní cyklus žaltáře}
 
 \nadpisTyden{První týden}{1. týden žaltáře}
 
@@ -793,7 +795,10 @@
 \end{hora}
 
 \clearpage
-\pagestyle{plain}
+\pagestyle{empty} % bez hlavicky a bez cisla stranky
+\tableofcontents
+
+\clearpage
 \tirazSvazkuAntifonare
 
 \end{document}
