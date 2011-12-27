@@ -184,6 +184,30 @@ task :zaltar_texclean do
 end
 
 ###############
+# zaltar k modlitbe se ctenim
+
+zalmy_cteni = []
+
+adresar_cteni = 'generovane/ctenizaltar/'
+
+cislazalmu_cteni = %w(
+                                      1 2 3
+                                      6 9i 9ii
+                                      )
+                                      
+cislazalmu_cteni.each do |z|
+  zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
+end
+
+file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex']+zalmy_cteni do
+  2.times { 
+    sh "pdflatex antifonar_ctenizaltar"
+  }
+end
+
+task :cteni => ['antifonar_ctenizaltar.pdf']
+
+###############
 # uvod
 
 file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
