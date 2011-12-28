@@ -38,7 +38,7 @@
     Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
   }
   \header {
-    piece = "neděle - ranní chvály"
+    piece = "neděle - ranní chvály (III)"
   }
 }
 
@@ -68,7 +68,7 @@
     Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
   }
   \header {
-    piece = "neděle - nešpory"
+    piece = "neděle - nešpory (III)"
   }
 }
 
@@ -99,7 +99,7 @@
     Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
   }
   \header {
-    piece = "všední dny - ranní chvály"
+    piece = "všední dny - ranní chvály (IV alt)"
   }
 }
 
@@ -128,6 +128,6 @@
     Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
   }
   \header {
-    piece = "všední dny - nešpory"
+    piece = "všední dny - nešpory (IV alt)"
   }
 }
