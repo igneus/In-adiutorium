@@ -193,6 +193,10 @@ adresar_cteni = 'generovane/ctenizaltar/'
 cislazalmu_cteni = %w(
                                       1 2 3
                                       6 9i 9ii
+                                      10i 10ii 12
+                                      18i 18ii 18iii
+                                      18iv 18v 18vi
+                                      35i 35ii 35iii
                                       )
                                       
 cislazalmu_cteni.each do |z|

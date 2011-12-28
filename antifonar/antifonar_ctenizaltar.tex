@@ -13,6 +13,7 @@
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
+\usepackage{setspace} % radkovani
 
 \usepackage[T1]{fontenc}
 % font Palatino:
@@ -28,7 +29,12 @@
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
 \newcommand{\cisloSvazku}{3}
-\newcommand{\nazev}{Žaltář\\ - modlitba se čtením}
+\newcommand{\nazev}{
+  \begin{spacing}{1.5}
+    Žaltář\\ 
+    \LARGE{- modlitba se čtením}
+  \end{spacing}
+}
 
 \renewcommand{\tirazSazbaProgramem}{
   Vysázeno programem \LaTeX.
@@ -95,6 +101,33 @@
 \input{generovane/zaltar/zalm9ii.tex}
 \end{hora}
 
+\nadpisDen{Úterý}
+\begin{hora}
+\input{generovane/zaltar/zalm10i.tex}
+\input{generovane/zaltar/zalm10ii.tex}
+\input{generovane/zaltar/zalm12.tex}
+\end{hora}
+
+\nadpisDen{Středa}
+\begin{hora}
+\input{generovane/zaltar/zalm18i.tex}
+\input{generovane/zaltar/zalm18ii.tex}
+\input{generovane/zaltar/zalm18iii.tex}
+\end{hora}
+
+\nadpisDen{Čtvrtek}
+\begin{hora}
+\input{generovane/zaltar/zalm18iv.tex}
+\input{generovane/zaltar/zalm18v.tex}
+\input{generovane/zaltar/zalm18vi.tex}
+\end{hora}
+
+\nadpisDen{Pátek}
+\begin{hora}
+\input{generovane/zaltar/zalm35i.tex}
+\input{generovane/zaltar/zalm35ii.tex}
+\input{generovane/zaltar/zalm35iii.tex}
+\end{hora}
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
