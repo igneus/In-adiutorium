@@ -18,7 +18,7 @@
     g4 b d d d d d c b c4. d \bar "|"
     d4 d a( b) c c b c b c d a a \bar "|"
     d d d d f e c d d \breathe
-    c b c d a4. g4 g c b a a \bar "||"
+    c b c d a4. g4 g c b g g \bar "||"
   }
   \addlyrics {
     By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky. 
@@ -48,6 +48,6 @@
     a za své ov -- ce dá -- vám svůj ži -- vot.
   }
   \header {
-    piece = "antifona - poledne - VII.a"
+    piece = "antifona - poledne - IV alt.d"
   }
 }
