@@ -39,7 +39,7 @@
       \choralniRezim
       a4 a a c b c d d c( b) b \barMin
       d d d d( c d) e( f) d c c d d \barMin
-      d d( a) c b a b g g \barFinalis
+      d c( d) c b a b g g \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
