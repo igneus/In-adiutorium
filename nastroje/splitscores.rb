@@ -7,15 +7,28 @@ def File.name_without_extension(fname)
   return fname[0..i-1]
 end
 
-def split_file(file_to_be_processed, outputdir=nil)
+def split_file(file_to_be_processed, outputdir=nil, ids=false, verbose=false)
+  puts "file: #{file_to_be_processed}" if verbose
+  
   m = LilyPondMusic.new file_to_be_processed
   m.scores.each_with_index do |score,i|
-    write_to_file = File.name_without_extension(File.basename(file_to_be_processed))+'_'+(i+1).to_s+'.ly'
+    
+    write_to_file = File.name_without_extension(File.basename(file_to_be_processed))+'_'
+    if ids then
+      write_to_file += score.header['id']
+    else
+      write_to_file += (i+1).to_s
+    end
+    write_to_file += '.ly'
+    
     if outputdir then
       write_to_file = outputdir + "/" + write_to_file
     end
+    
+    puts "  writing to file #{write_to_file}" if verbose
+    
     File.open(write_to_file, "w") do |fw|
-      output = yield score.text
+      output = yield score
       fw.puts output
     end
   end
@@ -25,7 +38,10 @@ require 'optparse'
 
 setup = {:remove_headers => false,
               :prepend_text => "",
-              :output_dir => nil}
+              :output_dir => nil,
+              :ids => false,
+              :mode_info => false,
+              :verbose => false}
 
 optparse = OptionParser.new do|opts|
   opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
@@ -37,6 +53,15 @@ optparse = OptionParser.new do|opts|
   opts.on "-t", "--prepend-text TEXT", "Text to be printed at the beginning of each file with a score" do |text|
     setup[:prepend_text] = text
   end
+  opts.on "-i", "--ids", "Instead of numbering the produced files, use property 'id' of each score" do
+    setup[:ids] = true
+  end
+  opts.on "-m", "--mode-info", "Puts contents of properties quid, modus and differentia in front of the piece" do
+    setup[:mode_info] = true
+  end
+  opts.on "-v", "--verbose", "Run verbose" do
+    setup[:verbose] = true
+  end
 end
 optparse.parse!
 
@@ -46,8 +71,11 @@ unless file_to_be_processed
   raise "Please, specify LilyPond file which is to be processed."
 end
 
-split_file(file_to_be_processed, setup[:output_dir]) do |scoretext|
+split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose]) do |score|
+  scoretext = score.text
+  
   if setup[:remove_headers] then
+    puts "  removing headers" if setup[:verbose]
     ih = scoretext.index("\\header")
     i1 = scoretext.index '{', ih
     if i1 then
@@ -60,5 +88,29 @@ split_file(file_to_be_processed, setup[:output_dir]) do |scoretext|
     newtext = scoretext
   end
   
-  setup[:prepend_text] + "\n" + newtext
+  if setup[:mode_info] then
+    i = newtext.index "\\relative"
+    i = newtext.index '{', i
+    case score.header['quid']
+    when /ant/
+      puts "  adding mode information to score" if setup[:verbose]
+      modinfo = "\n\\set Staff.instrumentName = \\markup {
+        \\column { \\bold { #{score.header['modus']}.#{score.header['differentia']} } #{score.header['quid']} }
+      }"
+      newtext[i+1] = modinfo
+    when /resp/
+      puts "  adding mode information to score" if setup[:verbose]
+      modinfo = "\n\\set Staff.instrumentName = \\markup {
+        \\column { \\bold { #{score.header['modus']} } #{score.header['quid']} }
+      }"
+      newtext[i+1] = modinfo
+    end
+  end
+  
+  if setup[:prepend_text]  then
+    puts "  prepending given text" if setup[:verbose]
+    newtext = setup[:prepend_text] + "\n" + newtext
+  end
+  
+  newtext
 end
