@@ -54,13 +54,13 @@ file adresar_kompletar+"doxologie_2akcenty.tex" => ['zalmy/doxologie.zalm'] do
 end
 zalmy_kompletar << adresar_kompletar+'doxologie_2akcenty.tex'
 
-file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_1.ly"]+zalmy_kompletar) do
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly"]+zalmy_kompletar) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
-file (adresar_kompletar+"kompletar_1.ly") => ["../kompletar.ly"] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../kompletar.ly"
+file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
 end
 
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
