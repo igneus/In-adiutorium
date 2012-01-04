@@ -60,8 +60,8 @@ def score_index(text, index=0)
   return start..score_end
 end
 
-ARGV.each do |a|
-  find_all_scores(File.readlines(a).join("\n")).each do |s|
-    puts s.match(/\\addlyrics \{(?<text>.*)\}/m)[:text]
-  end
-end
+#ARGV.each do |a|
+#  find_all_scores(File.readlines(a).join("\n")).each do |s|
+#    puts s.match(/\\addlyrics \{(?<text>.*)\}/m)[:text]
+#  end
+#end
