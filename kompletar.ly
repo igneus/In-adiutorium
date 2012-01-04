@@ -30,7 +30,11 @@
     f\breve c4 d e-| \parenthesize d d4. \barFinalis
   }
   \header {
+    quid = "psalmodie"
+    modus = "II"
+    differentia = ""
     piece = "psalmodie (modus II)"
+    id = "psalmodie"
   }
 }
 
@@ -44,7 +48,11 @@
     Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
   }
   \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     piece = "neděle po 1. nešporách - 1. antifona"
+    id = "nei1"
   }
 }
 
@@ -58,7 +66,11 @@
     V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
   }
   \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
   }
 }
 
@@ -75,7 +87,11 @@
     ne -- mu -- síš se bát noč -- ní hrů -- zy.
   }
   \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
     piece = "neděle po 2. nešporách"
+    id = "neii"
   }
 }
 
@@ -88,7 +104,11 @@
     Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
     piece = "pondělí"
+    id = "po"
   }
 }
 
@@ -103,7 +123,11 @@
     vždyť v_te -- be dou -- fám.
   }
   \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
     piece = "úterý"
+    id = "ut"
   }
 }
 
@@ -118,7 +142,11 @@
     o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
   }
   \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     piece = "středa - 1. antifona"
+    id = "st1"
   }
 }
 
@@ -132,7 +160,11 @@
     Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
   }
   \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     piece = "středa - 2. antifona"
+    id = "st2"
   }
 }
 
@@ -145,7 +177,11 @@
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
   }
   \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
     piece = "čtvrtek"
+    id = "ct"
   }
 }
 
@@ -158,7 +194,11 @@
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
   }
   \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
     piece = "pátek"
+    id = "pa"
   }
 }
 
@@ -187,7 +227,10 @@
     \slavaRespText
   }
   \header {
+    quid = "resp."
+    modus = "VI"
     piece = "responsorium - VI"
+    id = "resp"
   }
 }
 
@@ -209,9 +252,10 @@
   }
   \header {
     quid = "ant."
-    tonus = "III"
+    modus = "III"
     differentia = "a" 
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
+    id = "sim"
   }
 }
