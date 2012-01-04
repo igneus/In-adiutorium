@@ -1,96 +1,36 @@
 # splits a LilyPond music file to many numbered files, one file per score
-# * removes score header!
+
+require 'musicreader.rb'
 
 def File.name_without_extension(fname)
-  
+  i = fname.rindex '.'
+  return fname[0..i-1]
 end
 
-def split_file(file_to_be_processed)
-  File.open(file_to_be_processed, "r") do |f|
-    file_without_extension = File.basename(file_to_be_processed).slice(0..-4)
-    store = ''
-    score_number = 0
-    beginning = true
-    line_number = 0
-    loop do
-      l = f.gets
-      line_number += 1
-      
-      begin
-        if l =~ /\\score\s+\{/ || !l then        
-          if beginning then
-            beginning = false
-            write_to_file = file_without_extension+'_beginning.ly'
-          else
-            score_number += 1
-            write_to_file = file_without_extension+'_'+score_number.to_s+'.ly'
-          end
-          
-          unless write_to_file =~ /beginning.ly$/
-            File.open(write_to_file, "w") do |fw|
-              output = yield store
-              fw.puts output
-            end
-          end
-          
-          # print write_to_file+" "
-          store = l
-          
-          unless l
-            break
-          end
-        else
-          store += l
-        end      
-      rescue
-        STDERR.puts "Error occurred on line #{line_number} of file '#{file_to_be_processed}':"
-        raise
-      end
+def split_file(file_to_be_processed, outputdir=nil)
+  m = LilyPondMusic.new file_to_be_processed
+  m.scores.each_with_index do |score,i|
+    write_to_file = File.name_without_extension(File.basename(file_to_be_processed))+'_'+(i+1).to_s+'.ly'
+    if outputdir then
+      write_to_file = outputdir + "/" + write_to_file
+    end
+    File.open(write_to_file, "w") do |fw|
+      output = yield score.text
+      fw.puts output
     end
   end
-end
-
-# str - string with a valid structure of braces {}
-# opening_brace_i - index, where search for the first opening brace { should start
-# Returns index of the coresponding closing brace } or raises error
-def matching_brace_index(str, opening_brace_i)
-  i1 = str.index "{", opening_brace_i
-  unless i1
-    raise "No opening brace found!"
-  end
-  
-  opening_braces_stack = []
-  opening_braces_stack << i1
-  
-  position = i1+1
-  
-  begin
-    i = str.index "{", position
-    j = str.index "}", position
-    
-    if j.nil? then
-      raise "No closing brace more, #{opening_braces_stack.size} more braces open."
-    end
-    
-    if i && i < j then
-      opening_braces_stack << i
-      position = i+1
-    else
-      opening_braces_stack.pop
-      position = j+1
-      if opening_braces_stack.empty? then
-        return j
-      end
-    end
-  end while ! opening_braces_stack.empty?
 end
 
 require 'optparse'
 
 setup = {:remove_headers => false,
-              :prepend_text => ""}
+              :prepend_text => "",
+              :output_dir => nil}
 
 optparse = OptionParser.new do|opts|
+  opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
+    setup[:output_dir] = dir
+  end
   opts.on "-h", "--remove-headers", "Remove header from each score" do
     setup[:remove_headers] = true
   end
@@ -106,12 +46,13 @@ unless file_to_be_processed
   raise "Please, specify LilyPond file which is to be processed."
 end
 
-split_file(file_to_be_processed) do |scoretext|
+split_file(file_to_be_processed, setup[:output_dir]) do |scoretext|
   if setup[:remove_headers] then
-    i1 = scoretext.index("\\header")
+    ih = scoretext.index("\\header")
+    i1 = scoretext.index '{', ih
     if i1 then
-      i2 = matching_brace_index(scoretext, i1)
-      newtext = scoretext.slice(0,i1)+scoretext.slice(i2+1, scoretext.size-1)
+      i2 = LilyPondScore.index_matching_brace(scoretext, i1)
+      newtext = scoretext.slice(0,ih)+scoretext.slice(i2+1, scoretext.size-1)
     else
       newtext = scoretext
     end
