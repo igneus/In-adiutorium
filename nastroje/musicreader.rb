@@ -41,7 +41,7 @@ class LilyPondScore
       return
     end
     i1 = @text.index '{', i1
-    i2 = index_matching_brace @text, i1
+    i2 = LilyPondScore.index_matching_brace @text, i1
     htext = @text[i1+1..i2-1]
     hlines = htext.split "\n"
     hlines.each do |l|
@@ -57,10 +57,12 @@ class LilyPondScore
     end
   end
   
+  public 
+  
   # finds index of a brace matching to a brace at index i1
-  def index_matching_brace(str, i1)
+  def LilyPondScore.index_matching_brace(str, i1)
     braces_stack = [i1]
-    i = i1
+    i = i1+1
     loop do
       io = str.index '{', i
       ic = str.index '}', i
@@ -99,28 +101,36 @@ class LilyPondMusic
           if beginning then
             beginning = false
             @preamble = store
-            store = ''
+            store = l
             next
           else
             score_number += 1
+            create_score store
+            store = l
           end
-          
-          begin
-            @scores << LilyPondScore.new(store)
-          rescue
-            puts "Error in score:"
-            puts store
-            puts
-            raise
-          end
-          store = l
         else
           store += l
         end
       end
+      
+      # last score:
+      create_score store
     end
   end
   
   attr_reader :scores
   attr_reader :preamble
+  
+  private
+  
+  def create_score(store)
+    begin
+      @scores << LilyPondScore.new(store)
+    rescue
+      puts "Error in score:"
+      puts store
+      puts
+      raise
+    end
+  end
 end
