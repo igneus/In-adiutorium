@@ -60,9 +60,7 @@ file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_
 end
 
 file (adresar_kompletar+"kompletar_1.ly") => ["../kompletar.ly"] do
-  chdir adresar_kompletar
-  sh "ruby ../../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../../../kompletar.ly"
-  chdir '../..'
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers ../kompletar.ly"
 end
 
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
