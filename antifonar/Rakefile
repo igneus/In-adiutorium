@@ -232,6 +232,49 @@ end
 task :uvod => ['vystup/antifonar_uvod.pdf']
 
 ###############
+# nedele - notovane
+
+zalmynedele = []
+
+adresar_nedele = 'generovane/nedele/'
+
+cislazalmu_nedele = %w( 95 100 67 24
+
+                  141 142 63 149 118i 118ii 118iii 110 114
+
+                  119nun 16 118 150 23 76i 76ii 115
+                  
+                  113 116ii 93 148 111
+                  
+                  122 130 112
+                  )
+
+nedelenedelecommonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
+
+cislazalmu_nedele.each do |z|
+  zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_)
+end
+
+nedelecanticleoptions = nedelecommonoptions+" --pretitle \"kantikum\\\\\\\\ \""
+
+zalmyzaltare << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_zaltar)
+
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_zaltar)
+
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_zaltar)
+
+file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex'] do
+  chdir 'vystup'
+  sh 'pdflatex antifonar_nedele.tex'
+  chdir '..'
+end
+
+
+task :nedele => ['vystup/antifonar_nedele.pdf']
+
+###############
 # material k responsorialnimu prednesu zalmu 136
 
 file "generovane/zalm136responsorialni.tex" => ["zalmy/zalm136responsorialni.zalm"] do
