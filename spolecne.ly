@@ -61,6 +61,10 @@ sestavTitulek = \markup {
 \concat {\fromproperty #'header:quid " - " \fromproperty #'header:tonus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
 }
 
+sestavTitulekResp = \markup {
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus}
+}
+
 % choral --------------------------------------------------------
 
 choralniRezim = {
@@ -98,23 +102,6 @@ choralniPredznamenaniII =
       \column { \bold { $tonus } $co }
     }
   #})
-
-% Vytvori hlavicku "piece" pro antifonu
-% pouziti: \header { piece = \markup {\choralAutoPiece}}
-% Predpoklada, ze jsou definovane (nestandartni) hlavicky
-% quid, tonus, differentia, psalmus
-choralAutoPiece = \markup {
-  \concat {
-    \fromproperty #'header:quid 
-    " - " 
-    \fromproperty #'header:tonus 
-    . 
-    \fromproperty #'header:differentia 
-    " (" 
-    \fromproperty #'header:psalmus 
-    )
-  }
-}
 
 % Choralni "pomlky" (divisiones)
 
