@@ -15,7 +15,12 @@
     buď chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
   }
   \header {
-    piece = "1. ant. - V.a (Žalm 113(112))"
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = "Žalm 113"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -31,7 +36,12 @@
     jmé -- no Hos -- po -- di -- no -- vo.
   }
   \header {
-    piece = "2. ant. - I.a2 (Žalm 116(115))"
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a2" 
+    psalmus = "Žalm 116"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -53,7 +63,12 @@
     Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.a (Žalm 93(92))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 93"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -69,7 +84,12 @@
     a pl -- ný slá -- vy na -- vě -- ky. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Dan 3,57-88)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -83,7 +103,12 @@
     Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VII.a (Žalm 148)"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -112,7 +137,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VIII.G (Žalm 118(117)-I)"
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 118-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -126,7 +156,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c (Žalm 118(117)-II)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -139,7 +174,12 @@
     Bůh je Hos -- po -- din a do -- přál nám svět -- lo. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.c (Žalm 118(117)-III)"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -158,7 +198,12 @@
     o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G* (Žalm 111(110))"
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 111"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
