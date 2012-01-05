@@ -58,11 +58,11 @@ inAdiutorium = \markup {
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:tonus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
 }
 
 sestavTitulekResp = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus}
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
 }
 
 % choral --------------------------------------------------------
