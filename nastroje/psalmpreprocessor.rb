@@ -38,18 +38,20 @@ def preprocess_psalmfile(file, setup={})
         if nextl then
           l = nextl
         else
-          l = fr.gets
-          
-          # remove comments
-          if l then
-            l = remove_comment l
+          begin
+            l = fr.gets
+            if l then
+              l = remove_comment l
+            end
+          end while l == false
+        end
+        
+        begin
+          nextl = fr.gets
+          if nextl then
+            nextl = remove_comment nextl
           end
-        end
-        nextl = fr.gets
-        # remove comments
-        if nextl then
-          nextl = remove_comment nextl
-        end
+        end while l == false
         
         unless l
           break
@@ -100,9 +102,9 @@ def preprocess_psalmfile(file, setup={})
             if setup[:dashes] then
               l += "\\hfill \\znackaStrofaZalmu"
             end
-            #if setup[:paragraph_space] then
-            #  l += "\\\\"
-            #end
+            if setup[:paragraph_space] then
+              l += "\\\\"
+            end
           end
           
           if (l !~ /^\s*$/) || setup[:paragraph_space] then
@@ -151,7 +153,7 @@ def remove_comment(str)
   end
   
   if i == 0 then
-    return ''
+    return false
   end
   
   return str[0..(i-1)]
