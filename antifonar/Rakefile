@@ -109,7 +109,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
                   )
 
-commonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
+commonoptions = '--novydvur-newlines'
 # commonoptions = ''
 # commonoptions = '--novydvur-newlines'
 

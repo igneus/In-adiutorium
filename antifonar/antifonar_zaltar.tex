@@ -4,9 +4,9 @@
 % cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
 % pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
 % rucne, ne pres rake.
-\usepackage{czech} 
+% \usepackage{czech} 
 
-\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
@@ -50,11 +50,7 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newenvironment{hora}{
-  \begin{multicols}{2}
-}{
-  \end{multicols}
-}
+\newenvironment{hora}{}{}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
@@ -70,10 +66,6 @@
 \newpage \mbox{}
 \newpage % empty page
 
-% Nastaveni sazby do sloupcu:
-\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
-\setlength{\columnsep}{20pt} % prostor mezi sloupci
-
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage}
 \fancyfoot{}
@@ -87,7 +79,6 @@
 \begin{hora}
 \nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
 \input{generovane/zaltar/kantikum_benedictus.tex}
-\columnbreak
 \nadpisTypTextu{Kantikum Panny Marie (Magnificat)}
 \input{generovane/zaltar/kantikum_magnificat.tex}
 \end{hora}
