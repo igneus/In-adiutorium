@@ -14,7 +14,12 @@
     ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
   }
   \header {
-    piece = "1.ant. - VIII.G (Žalm 141,1-9)"
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -31,7 +36,12 @@
     můj ú -- děl v_ze -- mi ži -- vých.
   }
   \header {
-    piece = "2. ant. - II.D (Žalm 142)"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -47,7 +57,12 @@ tInedeleInespAntIII = \score {
     po -- vý -- šil na -- vě -- ky.
   }
   \header {
-    piece = "3. ant. - VIII.G (kantikum Flp 2,6-11)"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -81,7 +96,10 @@ tInedeleInespResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - IV"
+    quid = "resp."
+    modus = "IV"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -101,7 +119,12 @@ tInedeleInespResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.D2 (Žalm 63,2-9)"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -117,7 +140,12 @@ tInedeleInespResp = \score {
     Po -- žeh -- na -- ný jsi, náš Bo -- že. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Dan 3,57-88)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -132,7 +160,12 @@ tInedeleInespResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VII.d (Žalm 149)"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -165,7 +198,10 @@ tInedeleLaudResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - III"
+    quid = "resp."
+    modus = "III"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -187,7 +223,12 @@ tInedeleLaudResp = \score {
     je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VI.F (Žalm 118(117)-I)"
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 118-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -201,7 +242,12 @@ tInedeleLaudResp = \score {
     Hos -- po -- din je má sí -- la a sta -- teč -- nost. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VI.F (Žalm 118(117)-II)"
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -214,10 +260,15 @@ tInedeleLaudResp = \score {
   }
   \addlyrics {
     Dě -- ku -- ji ti, Hos -- po -- di -- ne, že jsi mě vy -- sly -- šel. 
-A -- le -- lu -- ja.
+    A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (Žalm 118(117)-III)"
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -236,7 +287,12 @@ tInedeleIInespAntI = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -251,7 +307,12 @@ tInedeleIInespAntI = \score {
     Ze -- mě se za -- chvě -- la před tvá -- ří Pá -- ně. A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - per. (Žalm 114(113A))"
+    quid = "2. ant."
+    modus = "per"
+    differentia = "" 
+    psalmus = "Žalm 114"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -266,7 +327,12 @@ tInedeleIInespAntIII = \score {
     Pán, náš Bůh vše -- mo -- hou -- cí, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (srov. Zj 19,1-7)"
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "2ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -299,7 +365,10 @@ tInedeleIInespResp = \score {
     \slavaRespText
   }
   \header {
-    piece = "responsorium - I"
+    quid = "resp."
+    modus = "I"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
