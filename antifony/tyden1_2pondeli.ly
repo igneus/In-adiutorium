@@ -14,7 +14,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 5"
   }
@@ -31,7 +31,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f"
     psalmus = "1 Kron 29"
   }
@@ -48,7 +48,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 29(28)"
   }
@@ -72,7 +72,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a"
     psalmus = "Žalm 19(18)"
   }
@@ -91,7 +91,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "2. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-I"
   }
@@ -111,7 +111,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-II"
   }
@@ -130,7 +130,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a" 
     psalmus = "Žalm 11(10)"
   }
@@ -150,7 +150,7 @@
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "2. ant." 
-    tonus = "VII"
+    modus = "VII"
     differentia = "a"
     psalmus = "Žalm 15(14)"
   }
@@ -171,7 +171,7 @@ tIpondeliNespAntIII = \score {
   \header {
     piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f" 
     psalmus = "Ef 1,3-10"
   }
