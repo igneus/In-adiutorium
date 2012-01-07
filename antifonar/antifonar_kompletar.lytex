@@ -5,6 +5,10 @@
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -39,12 +43,20 @@
 
 \titulniStrankaSvazkuAntifonare
 
+\prazdnaStranka
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
 psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
 kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
 na který jinak odkazujeme, a proto je tu výjimečně reprodukován.}
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_psalmodie.ly}
 
-\section*{Neděle po 1. nešporách}
+\nadpisDen{Neděle po 1. nešporách}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_nei1.ly}
 \input{generovane/kompletar/zalm4.tex}
@@ -67,25 +79,25 @@ každý den stejně a u následujících dnů se proto neopakují.}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
 % \input{generovane/kompletar/doxologie_2akcenty.tex}
 
-\section*{Neděle po 2. nešporách}
+\nadpisDen{Neděle po 2. nešporách}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_neii.ly}
 \input{generovane/kompletar/zalm91.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\section*{Pondělí}
+\nadpisDen{Pondělí}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_po.ly}
 \input{generovane/kompletar/zalm86.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\section*{Úterý}
+\nadpisDen{Úterý}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ut.ly}
 \input{generovane/kompletar/zalm143.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\section*{Středa}
+\nadpisDen{Středa}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st1.ly}
 \input{generovane/kompletar/zalm31.tex}
@@ -95,13 +107,13 @@ každý den stejně a u následujících dnů se proto neopakují.}
 \input{generovane/kompletar/zalm130.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\section*{Čtvrtek}
+\nadpisDen{Čtvrtek}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ct.ly}
 \input{generovane/kompletar/zalm16.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\section*{Pátek}
+\nadpisDen{Pátek}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_pa.ly}
 \input{generovane/kompletar/zalm88.tex}
