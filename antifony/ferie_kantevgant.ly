@@ -20,7 +20,7 @@ tIpondeliAntBenedictus = \score {
     differentia = "D" 
     psalmus = ""
     id = "t1-po-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -41,7 +41,7 @@ tIpondeliAntMagnificat = \score {
     differentia = "G" 
     psalmus = ""
     id = "t1-po-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -66,7 +66,7 @@ tIuteryAntBenedictus = \score {
     differentia = "a" 
     psalmus = ""
     id = "t1-ut-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -84,7 +84,7 @@ tIuteryAntMagnificat = \score {
     differentia = "G" 
     psalmus = ""
     id = "t1-ut-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -108,7 +108,7 @@ tIstredaAntBenedictus = \score {
     differentia = "D" 
     psalmus = ""
     id = "t1-st-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -131,7 +131,7 @@ tIstredaAntMagnificat = \score {
     differentia = "f" 
     psalmus = ""
     id = "t1-st-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -158,7 +158,7 @@ tIctvrtekAntBenedictus = \score {
     differentia = "g" 
     psalmus = ""
     id = "t1-ct-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -178,7 +178,7 @@ tIctvrtekAntMagnificat = \score {
     differentia = "A" 
     psalmus = ""
     id = "t1-ct-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -200,7 +200,7 @@ tIpatekAntBenedictus = \score {
     differentia = "g" 
     psalmus = ""
     id = "t1-pa-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -221,7 +221,7 @@ tIpatekAntMagnificat = \score {
     differentia = "F" 
     psalmus = ""
     id = "t1-pa-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -244,7 +244,7 @@ tIsobotaAntBenedictus = \score {
     differentia = "a" 
     psalmus = ""
     id = "t1-so-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -269,7 +269,7 @@ tIIpondeliAntBenedictus = \score {
     differentia = "c" 
     psalmus = ""
     id = "t2-po-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -287,7 +287,7 @@ tIIpondeliAntMagnificat = \score {
     differentia = "E" 
     psalmus = ""
     id = "t2-po-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -310,7 +310,7 @@ tIIuteryAntBenedictus = \score {
     differentia = "D" 
     psalmus = ""
     id = "t2-ut-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -333,7 +333,7 @@ tIIuteryAntMagnificat = \score {
     differentia = "F" 
     psalmus = ""
     id = "t2-ut-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -357,7 +357,7 @@ tIIstredaAntBenedictus = \score {
     differentia = "g" 
     psalmus = ""
     id = "t2-st-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -379,7 +379,7 @@ tIIstredaAntMagnificat = \score {
     differentia = "a" 
     psalmus = ""
     id = "t2-st-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -402,7 +402,7 @@ tIIctvrtekAntBenedictus = \score {
     differentia = "G" 
     psalmus = ""
     id = "t2-ct-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -423,7 +423,7 @@ tIIctvrtekAntMagnificat = \score {
     differentia = "E" 
     psalmus = ""
     id = "t2-ct-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -447,7 +447,7 @@ tIIpatekAntBenedictus = \score {
     differentia = "D" 
     psalmus = ""
     id = "t2-pa-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -470,7 +470,7 @@ tIIpatekAntMagnificat = \score {
     differentia = "D" 
     psalmus = ""
     id = "t2-pa-mag"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -494,6 +494,6 @@ tIIsobotaAntBenedictus = \score {
     differentia = "g" 
     psalmus = ""
     id = "t2-so-ben"
-    piece = \markup {\sestavTitulekResp}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }

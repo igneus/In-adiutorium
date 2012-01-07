@@ -61,6 +61,10 @@ sestavTitulek = \markup {
 \concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
 }
 
+sestavTitulekBezZalmu = \markup {
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
+}
+
 sestavTitulekResp = \markup {
 \concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
 }
