@@ -15,6 +15,18 @@
   }
 }
 
+\paper {
+  myStaffSize = #18
+
+  #(define fonts
+    (make-pango-font-tree 
+                          "URW Bookman L"
+                          "Helvetica"
+                          "Courier"
+     (/ myStaffSize 20)))
+
+}
+
 % choral --------------------------------------------------------
 
 choralniRezim = {
