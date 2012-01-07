@@ -15,7 +15,12 @@ tIpondeliAntBenedictus = \score {
     Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
   }
   \header {
-    piece = "ant. k Benedictus - II.D"
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -31,7 +36,12 @@ tIpondeliAntMagnificat = \score {
     ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
   }
   \header {
-    piece = "ant. k Magnificat - VIII.G"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -51,7 +61,12 @@ tIuteryAntBenedictus = \score {
     pro -- ro -- ků.
   }
   \header {
-    piece = "ant. k Benedictus - I.a"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a" 
+    psalmus = ""
+    id = "t1-ut-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -64,7 +79,12 @@ tIuteryAntMagnificat = \score {
     Můj duch já -- sá v_Bo -- hu, mém spa -- si -- te -- li.
   }
   \header {
-    piece = "ant. k Magnificat - VIII.G"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "t1-ut-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -83,7 +103,12 @@ tIstredaAntBenedictus = \score {
     na svou sva -- tou smlou -- vu.
   }
   \header {
-    piece = "ant. k Benedictus - II.D"
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "t1-st-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -101,7 +126,12 @@ tIstredaAntMagnificat = \score {
     je -- ho jmé -- no je sva -- té.
   }
   \header {
-    piece = "ant. k Magnificat - I.f"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f" 
+    psalmus = ""
+    id = "t1-st-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -123,7 +153,12 @@ tIctvrtekAntBenedictus = \score {
     z_ru -- kou na -- šich ne -- přá -- tel.
   }
   \header {
-    piece = "ant. k Benedictus - I.g"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    id = "t1-ct-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -138,7 +173,12 @@ tIctvrtekAntMagnificat = \score {
     a po -- ní -- že -- né po -- vý -- šil.
   }
   \header {
-    piece = "ant. k Magnificat - IV-alt.A"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -155,7 +195,12 @@ tIpatekAntBenedictus = \score {
     Hos -- po -- din na -- vští -- vil a vy -- kou -- pil svůj lid.
   }
   \header {
-    piece = "ant. k Benedictus - I.g"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -171,7 +216,12 @@ tIpatekAntMagnificat = \score {
     pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
   }
   \header {
-    piece = "ant. k Magnificat - VI.F"
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F" 
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -189,7 +239,12 @@ tIsobotaAntBenedictus = \score {
     kdo ži -- jí v_tem -- no -- tě a v_stí -- nu smr -- ti.
   }
   \header {
-    piece = "ant. k Benedictus - VII.a"
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a" 
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -209,7 +264,12 @@ tIIpondeliAntBenedictus = \score {
     ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil.
   }
   \header {
-    piece = "ant. k Benedictus - VIII.c"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = "t2-po-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -222,7 +282,12 @@ tIIpondeliAntMagnificat = \score {
     Ve -- leb, du -- še má, Hos -- po -- di -- na.
   }
   \header {
-    piece = "ant. k Magnificat - IV.E"
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -240,7 +305,12 @@ tIIuteryAntBenedictus = \score {
     z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
   }
   \header {
-    piece = "ant. k Benedictus - II.D"
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -258,7 +328,12 @@ tIIuteryAntMagnificat = \score {
     a tvé jmé -- no je sva -- té.
   }
   \header {
-    piece = "ant. k Magnificat - VI.F"
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F" 
+    psalmus = ""
+    id = "t2-ut-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -277,7 +352,12 @@ tIIstredaAntBenedictus = \score {
     po vše -- chny dny své -- ho ži -- vo -- ta.
   }
   \header {
-    piece = "ant. k Benedictus - I.g"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    id = "t2-st-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -294,7 +374,12 @@ tIIstredaAntMagnificat = \score {
     a po -- vyš po -- ní -- že -- né.
   }
   \header {
-    piece = "ant. k Magnificat - III.a"
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a" 
+    psalmus = ""
+    id = "t2-st-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -312,7 +397,12 @@ tIIctvrtekAntBenedictus = \score {
     a od -- pusť nám na -- še hří -- chy.
   }
   \header {
-    piece = "ant. k Benedictus - VIII.G"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -328,7 +418,12 @@ tIIctvrtekAntMagnificat = \score {
     Hos -- po -- din na -- sy -- til a na -- pl -- nil do -- brý -- mi věc -- mi.
   }
   \header {
-    piece = "ant. k Magnificat - IV.E"
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = "t2-ct-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -347,7 +442,12 @@ tIIpatekAntBenedictus = \score {
     nás na -- vští -- vil ten, kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
   }
   \header {
-    piece = "ant. k Benedictus - II.D"
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "t2-pa-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -365,7 +465,12 @@ tIIpatekAntMagnificat = \score {
     jak jsi slí -- bil na -- šim před -- kům.
   }
   \header {
-    piece = "ant. k Magnificat - II.D"
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "t2-pa-mag"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -384,6 +489,11 @@ tIIsobotaAntBenedictus = \score {
     na ces -- tu po -- ko -- je.
   }
   \header {
-    piece = "ant. k Benedictus - I.g"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    id = "t2-so-ben"
+    piece = \markup {\sestavTitulekResp}
   }
 }

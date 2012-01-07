@@ -11,7 +11,12 @@
     V_tvé zá -- ři, Hos -- po -- di -- ne, vi -- dí -- me svět -- lo.
   }
   \header {
-    piece = "1. ant. - III.g (Žalm 36(35))"
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g" 
+    psalmus = "Žalm 36"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -26,7 +31,12 @@
     po -- di -- vu -- hod -- ný mo -- cí a ne -- pře -- mo -- ži -- tel -- ný.
   }
   \header {
-    piece = "2. ant. - VIII.G (Jdt 16)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Jdt 16"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -39,7 +49,12 @@
     Já -- sej -- te Bo -- hu ra -- dost -- ným hla -- sem.
   }
   \header {
-    piece = "3. ant. - VII.c (Žalm 47(46))"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 47"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -57,7 +72,12 @@
     Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.
   }
   \header {
-    piece = "1. ant. - VI.F (Žalm 119(118)-II)"
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 119-II"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -70,7 +90,12 @@
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
   }
   \header {
-    piece = "2. ant. - I.a (Žalm 17(16)-I)"
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 17-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -84,7 +109,12 @@
     Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.
   }
   \header {
-    piece = "3. ant. - I.a (Žalm 17(16)-II)"
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 17-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -105,6 +135,7 @@
     tonus = "I"
     differentia = "D2" 
     psalmus = "Žalm 27-I"
+    id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -120,10 +151,11 @@
     ne -- skrý -- vej svou tvář pře -- de mnou.
   }
   \header {
-    quid = "1. ant."
+    quid = "2. ant."
     tonus = "I"
     differentia = "D2" 
     psalmus = "Žalm 27-II"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -139,7 +171,12 @@ tIstredaNespAntIII = \score {
     on má ve všem pr -- ven -- ství.
   }
   \header {
-    piece = "3. ant. - IValt.A (Kol 1)"
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
