@@ -249,21 +249,21 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelenedelecommonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
+nedelecommonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
 
 cislazalmu_nedele.each do |z|
-  zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_)
+  zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
 end
 
 nedelecanticleoptions = nedelecommonoptions+" --pretitle \"kantikum\\\\\\\\ \""
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_nedele)
+zalmyzaltare << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_nedele)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_nedele)
 
 file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex'] do
   chdir 'vystup'
