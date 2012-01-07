@@ -3,5 +3,7 @@
 *.dvi
 *.aux
 *.log
+*.out
+*.toc
 *.*~
 nahledantifon.ly
