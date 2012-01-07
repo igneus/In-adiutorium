@@ -121,8 +121,9 @@
 \score {
   \relative c' {
     \choralniRezim
+    \stemUp % aby ligaturova cara byla dole a nekolidovala s beckem
     f4 g g g a( bes a) a \breathe
-    a a g a g( f) f \bar "||"
+    g f a a g( f) f \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du.
@@ -139,8 +140,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f f f f f f f e f d( c) c \breathe
-    d a c d d d d f g f e c d d4. \bar "||"
+    d4 f f f f f f f f e f d( c) c \barMax
+    d a c d d d \barMin d f g f e c d d4. \barFinalis
   }
   \addlyrics {
     Jest -- li -- že zno -- vu ne -- bu -- de -- te ja -- ko dě -- ti,
