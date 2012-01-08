@@ -158,15 +158,15 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zalta
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
+file "antifonar_zaltar_1sl.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
-    sh "pdflatex antifonar_zaltar"
+    sh "pdflatex -jobname antifonar_zaltar_1sl antifonar_zaltar"
   }
   # sh "dvipdf antifonar_zaltar.dvi"
 end
 
-task :zaltar => ["antifonar_zaltar.pdf"]
+task :zaltar => ["antifonar_zaltar_1sl.pdf"]
 
 task :zaltar_clean => [:zaltar_texclean] do
   sh 'rm generovane/zaltar/zalm*.tex'
