@@ -12,9 +12,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c d a \breathe g f e f( a) a4. \breathe
-    a4 a g f e( d) f d \breathe
-    d4 f( e) c d4. \bar "||"
+    a4 g a c( d) a \barMin g f e f( a) a4. \barMaior
+    a4 a g f e( d) f d \barMin
+    d4 f( e) c d4. \barFinalis
   }
   \addlyrics {
     Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
@@ -34,7 +34,7 @@
   \relative c'' {
     \choralniRezim
     c4 b( c) a g( a g) g \barMin a( b c) c( d) d \barMaior
-    d e c d( a) b( g) g \barMin
+    d c b c( b) a( g) g \barMin
     b( c a4.) a \barMin g4 a f f( g) g \barMax
     g g( a) g4. g \barFinalis
   }
@@ -56,12 +56,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c b( c) d4. \barMaior
-    d4 c b c a g b c a( g) g \breathe
+    d4 e( d) c( d) d4. \barMaior
+    d4( c) b( c) c( d) d \barMin 
+    d( c) b a b a( g) g \breathe
     a4 g f( g) g4. \bar "||"
   }
   \addlyrics {
-    A -- le -- lu -- ja. Pán vstal z_mrt -- vých, jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja. Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
     A -- le -- lu -- ja.
   }
   \header {
@@ -78,9 +80,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g a( g) a4.( c) \barMin
-    c4 b a g4. g \barMaior
-    f4 a g4. g \barFinalis
+    c4 c a( c) c( e) e \barMin
+    d c b c( a g4.) g \barMaior
+    a4 f f( a g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých, už ne -- u -- mí -- rá. 
@@ -88,8 +90,48 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Byl vy -- dán na smrt pro na -- še hří -- chy,
+    a vstal z_mrt -- vých
+    pro na -- še o -- spra -- ve -- dl -- ně -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = ""
+    differentia = "" 
     psalmus = ""
     piece = \markup {\sestavTitulek}
   }
