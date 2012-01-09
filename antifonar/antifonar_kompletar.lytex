@@ -1,4 +1,4 @@
-\documentclass[a5paper]{article}
+\documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
@@ -97,6 +97,7 @@ každý den stejně a u následujících dnů se proto neopakují.}
 \input{generovane/kompletar/zalm143.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
+\newpage % ZLOM
 \nadpisDen{Středa}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st1.ly}
