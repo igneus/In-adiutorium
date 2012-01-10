@@ -248,15 +248,21 @@ module PsalmPreprocessor
     end
     
     def puts(s="\n")
+      tostore = String.new(s).freeze
+      
       if @store then
-        @core.puts @store
+        @core.puts @store.dup # the 'dup' is important here -
+        # because #puts method of the other nested strategies
+        # modifies the printed string and we need it unmodified
+        # for the following test
         
-        if @store =~ /\w+/ && @store !~ /[\+\*]\s*$/ && s =~ /\w+/  then
+        if @store =~ /\w+/ && @store !~ /[\+\*]/ && s =~ /\w+/  then
+          # STDOUT.puts @store
           @core.puts
         end
       end
       
-      @store = s
+      @store = tostore
     end
     
     def close
@@ -289,14 +295,16 @@ module PsalmPreprocessor
     end
     
     def puts(s="\n")
+      tostore = s.dup
+      
       if @store then
         if @store =~ /\w+/ && @store !~ /[\+\*]\s*$/ && s =~ /^\s*$/ && @store !~ /^\\nadpis/ then
-          @store += "\\hfill \\znackaStrofaZalmu"
+          @store += " \\hfill\\znackaStrofaZalmu"
         end
         @core.puts @store
       end
       
-      @store = s
+      @store = tostore
     end
     
     def close
@@ -456,6 +464,7 @@ ARGV.each do |f|
   if setup[:columns] then
     output = ColumnsOutputStrategy.new output
   end
+  
   output = LatexifySymbolsOutputStrategy.new output
   output = ParagraphifyVerseOutputStrategy.new output
   
