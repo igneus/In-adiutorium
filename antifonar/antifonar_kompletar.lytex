@@ -53,7 +53,8 @@
 
 psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
 kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
-na který jinak odkazujeme, a proto je tu výjimečně reprodukován.}
+na který jinak odkazujeme, a proto je tu výjimečně reprodukován.
+Pochází z {\it Antiphonale Romanum}, Řím 1912, s. *26.}
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_psalmodie.ly}
 
 \nadpisDen{Neděle po 1. nešporách}
