@@ -451,21 +451,27 @@ ARGV.each do |f|
   
   output = File.open(fwn, "w")
   
-  # order matters!
+  # order matters! Some of the outputters need to be applied
+  # before processing +, * and empty lines.
   if setup[:columns] then
     output = ColumnsOutputStrategy.new output
   end
   output = LatexifySymbolsOutputStrategy.new output
   output = ParagraphifyVerseOutputStrategy.new output
+  
+  # Two outputters which need to have emty lines as in the source
   if setup[:paragraph_space] then
     output = EmptyLineAfterStanzaOutputStrategy.new output
   end
   if setup[:dashes] then
     output = DashAfterStanzaOutputStrategy.new output
   end
+  
+  # This needs + and * as in the source
   if setup[:novydvur_newlines] then
     output = NovyDvurNewlinesOutputStrategy.new output
   end
+  
   output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
   
   preprocess_psalmfile input, output, setup
