@@ -111,7 +111,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
                   )
 
-commonoptions = "--lettrine --dashes --no-paragraph --append \"Sláva Otci.\"" 
+commonoptions = "--lettrine --dashes --no-paragraph --append \"\\nopagebreak Sláva Otci.\"" 
 # commonoptions = ''
 # commonoptions = '--novydvur-newlines'
 
