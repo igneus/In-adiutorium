@@ -1,11 +1,17 @@
 # Preprocesses "psalm markup language" :] and creates
 # a LaTeX .tex file with the psalm
 #
-# - makes space in front of * and + unbreakable
-# - underlines syllables enclosed in square brackets  [ ]
-# ... (see the commandline options)
+# Psalm markup language elements:
+# - syllable enclosed in square brackets [] is an accented one
+# - line ending with + is flex of a psalmverse
+# - line ending with * is a first halb-verse
+# - line ending without a special character at the end is a second-halbverse
+# - empty line means a new paragraph
+# - anything following a # is ignored
+# - the first line of the file may be considered a title; then the next line must be empty
 
 module PsalmPreprocessor
+
   class Strategy
     def initialize(core)
       @core = core
@@ -14,6 +20,12 @@ module PsalmPreprocessor
     def wrap(strategy)
       strategy.core = @core
       @core = strategy
+    end
+    
+    # All the strategies operate on IO streams and thus closing is needed
+    
+    def close
+      @core.close
     end
     
     protected
@@ -34,6 +46,9 @@ module PsalmPreprocessor
     return e
   end
   
+  # Input strategies:
+  # they modify the input (written in 'psalm markup language' :) )
+  
   class PrependInputStrategy < Strategy
     def initialize(io, text)
       super(io)
@@ -50,10 +65,6 @@ module PsalmPreprocessor
       else
         return @core.gets
       end
-    end
-    
-    def close
-      @core.close
     end
   end
   
@@ -75,24 +86,65 @@ module PsalmPreprocessor
         end
       end
     end
+  end
+  
+  class RemoveCommentsInputStrategy < Strategy
+    def gets
+      l = @core.gets
+      
+      # ignore lines containing nothing but comments
+      if l =~ /^\s*#/ then
+        return self.gets
+      end
+      
+      if l && (i = l.index('#')) then
+        l.slice!(i..-1) # remove # and anything that follows
+      end
+      return l
+    end
+  end
+  
+  class ColumnsOutputStrategy < Strategy
+    def initialize(io, columns=2)
+      super(io)
+      @beginning = true
+      
+      @t_beg = "\\begin{multicols}{#{columns}}"
+      @t_end = "\\end{multicols}"
+    end
+    
+    def puts(s="\n")
+      puts_beginning      
+      @core.puts s
+    end
+    
+    def print(s)
+      puts_beginning
+      @core.print s
+    end
     
     def close
-      @core.close
+      @core.puts @t_end
+      super
+    end
+    
+    private
+    
+    def puts_beginning
+      if @beginning then
+        @core.puts @t_beg
+        @beginning = false
+      end
     end
   end
 end
 
 include PsalmPreprocessor
 
-def preprocess_psalmfile(input, output, setup)
-  if setup[:columns] then
-    output.puts "\\begin{multicols}{2}"
-  end
-  
+def preprocess_psalmfile(input, output, setup)  
   # first line contains the title
   if setup[:has_title] then
-    output.print "\\nadpisZalmu{"
-    output.puts input.gets.chomp+"}"
+    output.puts "\\nadpisZalmu{"+input.gets.chomp+"}"
     output.puts input.gets # the second line is empty then
   end
   
@@ -103,20 +155,10 @@ def preprocess_psalmfile(input, output, setup)
     if nextl then
       l = nextl
     else
-      begin
-        l = input.gets
-        if l then
-          l = remove_comment l
-        end
-      end while l == false
+      l = input.gets
     end
     
-    begin
-      nextl = input.gets
-      if nextl then
-        nextl = remove_comment nextl
-      end
-    end while l == false
+    nextl = input.gets
     
     unless l
       break
@@ -178,11 +220,6 @@ def preprocess_psalmfile(input, output, setup)
       end
     end
   end
-  
-  if setup[:columns] then
-    output.puts "\\end{multicols}"
-  end
-
 end
 
 def process_accents(l, last_accent_only=false)
@@ -203,23 +240,6 @@ def process_accents(l, last_accent_only=false)
   end
   
   return l
-end
-
-# Comment is from '#' to the end of line. Returns the given string without
-# comment.
-
-def remove_comment(str)
-  i = str.index '#'
-  
-  unless i
-    return str
-  end
-  
-  if i == 0 then
-    return false
-  end
-  
-  return str[0..(i-1)]
 end
 
 require 'optparse'
@@ -302,6 +322,7 @@ end
 
 ARGV.each do |f|
   input = File.open(f, "r")
+  input = RemoveCommentsInputStrategy.new input
   if setup[:prepend_text] then
     input = PrependInputStrategy.new input, setup[:prepend_text]
   end
@@ -319,6 +340,10 @@ ARGV.each do |f|
   puts "#{f} -> #{fwn}"
   
   output = File.open(fwn, "w")
+  
+  if setup[:columns] then
+    output = ColumnsOutputStrategy.new output
+  end
   
   preprocess_psalmfile input, output, setup
   
