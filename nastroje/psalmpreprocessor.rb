@@ -5,121 +5,184 @@
 # - underlines syllables enclosed in square brackets  [ ]
 # ... (see the commandline options)
 
-def preprocess_psalmfile(file, setup={})
-  File.open(file, "r") do |fr|
-    if setup[:output_file] then
-      fwn = setup[:output_file]
-    else
-      fwn = File.basename(file)
-      fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+module PsalmPreprocessor
+  class Strategy
+    def initialize(core)
+      @core = core
     end
     
-    puts "#{file} -> #{fwn}"
+    def wrap(strategy)
+      strategy.core = @core
+      @core = strategy
+    end
     
-    File.open(fwn, "w") do |fw|
-      if setup[:columns] then
-        fw.puts "\\begin{multicols}{2}"
-      end
-      
-      # first line contains the title
-      if setup[:has_title] then
-        fw.print "\\nadpisZalmu{"
-        if setup[:text_before_title] then
-          fw. print setup[:text_before_title]
-        end
-        fw.puts fr.gets.chomp+"}"
-        fw.puts fr.gets # the second line is empty then
-      end
-      
-      nextl = nil
-      first_line = true
-      
-      loop do
-        if nextl then
-          l = nextl
+    protected
+    
+    attr_accessor :core
+  end
+  
+  # splits a String and leaves "\n" at the end of each substring
+  
+  def customsplit(t)
+    e = []
+    while i = t.index("\n") do
+      e.push(t.slice!(0..i))
+    end
+    if t.size != 0 then
+      e.push t
+    end
+    return e
+  end
+  
+  class PrependInputStrategy < Strategy
+    def initialize(io, text)
+      super(io)
+      @text = customsplit(text)
+    end
+    
+    def gets
+      if ! @text.empty? then
+        if @text.size == 1 && @text[0][-1] != "\n"
+          return @text.shift + @core.gets
         else
-          begin
-            l = fr.gets
-            if l then
-              l = remove_comment l
-            end
-          end while l == false
+          return @text.shift
         end
-        
-        begin
-          nextl = fr.gets
-          if nextl then
-            nextl = remove_comment nextl
-          end
-        end while l == false
-        
-        unless l
-          break
+      else
+        return @core.gets
+      end
+    end
+    
+    def close
+      @core.close
+    end
+  end
+  
+  class AppendInputStrategy < Strategy
+    def initialize(io, text)
+      super(io)
+      @text = customsplit(text)
+    end
+    
+    def gets
+      l = @core.gets
+      if l then
+        return l
+      else
+        if ! @text.empty? then
+          return @text.shift
+        else
+          return nil
         end
-        
-        if first_line then
-          if setup[:lettrine] then
-            if l =~ /^\s*$/ then
-              next
-            end
-            
-            is = l.index " "
-            
-            # Czech Ch is one letter
-            if l =~ /^[Cc][Hh]/ then
-              cap = l[0..1].upcase
-            else
-              cap = l[0]
-            end
-            
-            l = "\\lettrine{"+cap+"}{"+l[cap.size..is-1]+"} "+l[is+1..-1]
-          end
-          
-          first_line = false
+      end
+    end
+    
+    def close
+      @core.close
+    end
+  end
+end
+
+include PsalmPreprocessor
+
+def preprocess_psalmfile(input, output, setup)
+  if setup[:columns] then
+    output.puts "\\begin{multicols}{2}"
+  end
+  
+  # first line contains the title
+  if setup[:has_title] then
+    output.print "\\nadpisZalmu{"
+    output.puts input.gets.chomp+"}"
+    output.puts input.gets # the second line is empty then
+  end
+  
+  nextl = nil
+  first_line = true
+  
+  loop do
+    if nextl then
+      l = nextl
+    else
+      begin
+        l = input.gets
+        if l then
+          l = remove_comment l
         end
-        
-        if setup[:no_formatting] then
-          l = process_accents(l, setup[:last_accents_only])
-          fw.puts l
+      end while l == false
+    end
+    
+    begin
+      nextl = input.gets
+      if nextl then
+        nextl = remove_comment nextl
+      end
+    end while l == false
+    
+    unless l
+      break
+    end
+    
+    if first_line then
+      if setup[:lettrine] then
+        if l =~ /^\s*$/ then
           next
         end
         
-        l.chomp!
+        is = l.index " "
         
-        l = process_accents(l, setup[:last_accents_only])
+        # Czech Ch is one letter
+        if l =~ /^[Cc][Hh]/ then
+          cap = l[0..1].upcase
+        else
+          cap = l[0]
+        end
         
-        if l.rindex("+") || l.rindex("*") then # lines ending with flex or asterisk:
-          l.gsub!(" +", "~\\dag\\mbox{}")
-          l.gsub!(" *", "~* ")
-          if setup[:novydvur_newlines] then
-            l += '\\\\' # break line after each flex and halb-verse
-          end
-          fw.print l
-          fw.print " "
-        else # second halb-verses and empty lines:
-          if (nextl && nextl =~ /^\s*$/) ||
-              (!nextl && setup[:line_break_last_line]) then
-            if setup[:dashes] then
-              l += "\\hfill \\znackaStrofaZalmu"
-            end
-            if setup[:paragraph_space] then
-              l += "\\\\"
-            end
-          end
-          
-          if (l !~ /^\s*$/) || setup[:paragraph_space] then
-            fw.puts l
-            fw.puts
-          end
+        l = "\\lettrine{"+cap+"}{"+l[cap.size..is-1]+"} "+l[is+1..-1]
+      end
+      
+      first_line = false
+    end
+    
+    if setup[:no_formatting] then
+      l = process_accents(l, setup[:last_accents_only])
+      output.puts l
+      next
+    end
+    
+    l.chomp!
+    
+    l = process_accents(l, setup[:last_accents_only])
+    
+    if l.rindex("+") || l.rindex("*") then # lines ending with flex or asterisk:
+      l.gsub!(" +", "~\\dag\\mbox{}")
+      l.gsub!(" *", "~* ")
+      if setup[:novydvur_newlines] then
+        l += '\\\\' # break line after each flex and halb-verse
+      end
+      output.print l
+      output.print " "
+    else # second halb-verses and empty lines:
+      if (nextl && nextl =~ /^\s*$/) ||
+          (!nextl && setup[:line_break_last_line]) then
+        if setup[:dashes] then
+          l += "\\hfill \\znackaStrofaZalmu"
+        end
+        if setup[:paragraph_space] then
+          l += "\\\\"
         end
       end
       
-      if setup[:columns] then
-        fw.puts "\\end{multicols}"
+      if (l !~ /^\s*$/) || setup[:paragraph_space] then
+        output.puts l
+        output.puts
       end
-      
     end
   end
+  
+  if setup[:columns] then
+    output.puts "\\end{multicols}"
+  end
+
 end
 
 def process_accents(l, last_accent_only=false)
@@ -170,7 +233,8 @@ setup = {
   :novydvur_newlines => false,
   :columns => false,
   :lettrine => false,
-  :text_before_title => nil,
+  :prepend_text => nil,
+  :append_text => nil,
   :dashes => false,
   :paragraph_space => true
 }
@@ -204,7 +268,11 @@ optparse = OptionParser.new do|opts|
   end
   
   opts.on "-p", "--pretitle TEXT", "Text to be printed as beginning of the title." do |t|
-    setup[:text_before_title] = t
+    setup[:prepend_text] = t
+  end
+  
+  opts.on "-a", "--append TEXT", "Text to be appended at the end." do |t|
+    setup[:append_text] = t
   end
   
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
@@ -233,5 +301,27 @@ if ARGV.empty? then
 end
 
 ARGV.each do |f|
-  preprocess_psalmfile f, setup
+  input = File.open(f, "r")
+  if setup[:prepend_text] then
+    input = PrependInputStrategy.new input, setup[:prepend_text]
+  end
+  if setup[:append_text] then
+    input = AppendInputStrategy.new input, setup[:append_text]
+  end
+  
+  if setup[:output_file] then
+    fwn = setup[:output_file]
+  else
+    fwn = File.basename(f)
+    fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+  end
+  
+  puts "#{f} -> #{fwn}"
+  
+  output = File.open(fwn, "w")
+  
+  preprocess_psalmfile input, output, setup
+  
+  input.close
+  output.close
 end
