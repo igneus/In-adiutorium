@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 RUBY_COMMAND = 'ruby1.9.1'
 
 def genzalm(zalm, options="", adresar='generovane/')
@@ -109,7 +111,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
                   )
 
-commonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
+commonoptions = "--lettrine --dashes --no-paragraph --append \"Sláva Otci.\"" 
 # commonoptions = ''
 # commonoptions = '--novydvur-newlines'
 
