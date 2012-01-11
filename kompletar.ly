@@ -259,3 +259,89 @@
     id = "sim"
   }
 }
+
+respAlelujaVI = { 
+  a4 a( g) g f \breathe d f( g) g f 
+}
+
+respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
+
+doxologieRespAlelujaVI = {
+  f4 e g( a) a a a( bes) a \breathe
+  a a g a( g) f f
+}
+  
+\bookpart {
+  \header {
+    subtitle = "Doba velikonoční" 
+  }
+  
+  % Tato cast obsahuje mene not a proto je lepsi, aby se, narozdil
+  % od prvni casti, noty neroztahovaly na celou stranku, ale byly
+  % nakupene nahore:
+  \paper {
+    ragged-bottom=##f
+    ragged-last-bottom=##t
+  }
+  
+  \markup {Následující antifona z: Liber usualis, New York-Tournai, 1961, 266.}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a g4.( f) \barMin
+      a4 c b( c) a4.( g4 f)
+      g( a) a g4. g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k žalmům"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "pasch"
+      piece = \markup {\sestavTitulekBezZalmu}
+      fons = "Liber usualis, New York-Tournai, 1961, 266."
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f \barMin f f g f e( d) d \barMaior
+      d e f f f f f e g a \barMax
+      \respAlelujaVI \barFinalis
+      % V
+      \neviditelna f
+      f4 f f f f f( g f) f \barMin f e g( a) a \barMax
+      % R
+      \neviditelna a
+      \respAlelujaVI \barFinalis
+      % Slava
+      \doxologieRespAlelujaVI \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,
+      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot._* \respAlelujaText
+      \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že._*
+      \Response \respAlelujaText
+      \slavaRespText
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "paschresp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
+  jak je v jejích notách zapsáno.}
+}
