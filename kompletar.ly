@@ -310,6 +310,32 @@ doxologieRespAlelujaVI = {
   }
   
   \score {
+    \relative c'' {
+      \choralniRezim
+      a4( d) d d e4.( f) \barMin
+      e4 d e( f) e d c a a \barMax
+      a( g a) c( d) d4.( e) \barMin
+      e4 d( c) b( g) b c a( g) g \barMax
+      g a( c) b( g) g \barFinalis
+    }
+    \addlyrics {
+      To -- to je den,
+      kte -- rý u -- či -- nil Hos -- po -- din,
+      já -- sej -- me 
+      a ra -- duj -- me se z_ně -- ho.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. /místo responsoria ve vel. oktávu/"
+      modus = "VII"
+      differentia = "a" 
+      psalmus = ""
+      id = "paschoctant"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
     \relative c' {
       \choralniRezim
       
