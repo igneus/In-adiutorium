@@ -13,22 +13,24 @@
   }
 
   %{
+    \markup {\nadpisDen {"X. neděle"}}
+    
     \score {
-    \relative c' {
-    \choralniRezim
-
-    }
-    \addlyrics {
-
-    }
-    \header {
-    quid = "ant. k"
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
-    }
+      \relative c' {
+        \choralniRezim
+  
+      }
+      \addlyrics {
+  
+      }
+      \header {
+        quid = "ant. k"
+        modus = ""
+        differentia = ""
+        psalmus = ""
+        id = ""
+        piece = \markup {\sestavTitulekBezZalmu}
+      }
     }
   %}
 
@@ -83,7 +85,7 @@
       \choralniRezim
       g4 a a( c) c b c a a \barMaior
       d( c b) a( b) g g b c a( g) g \barMax
-      a b g g f d d f g a( g) g \barFinalis
+      g f g g f d d f g g g \barFinalis
     }
     \addlyrics {
       On -- dřej ře -- kl Ši -- mo -- no -- vi:
@@ -99,4 +101,80 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisDen {"3. neděle"}}
+    
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a g f g( a) g( a) a \barMaior
+      a b( c) c( a) a \barMin 
+      a( g) f g( f) e e( f) d d \barMax
+      
+      d d d c d \barMin
+      f g g g g g g f g( a) a a \barMaior
+      bes( a g) a( g) f( e) f4.( d) \barMin
+      d4 c( d) d f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš při -- šel do Ga -- li -- le -- je
+      a hlá -- sal tam 
+      Bo -- ží e -- van -- ge -- li -- um:
+      
+      Na -- pl -- nil se čas
+      a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "ne3b-ne1-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b( a) b \barMaior
+      g a b g4.( e) \barMin
+      f4 g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- te za mnou;
+      u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "ne3b-rch-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f f e( d e4.) e \barMin
+      e4 f( e) d c d e e( d) d \barFinalis
+    }
+    \addlyrics {
+      Ne -- cha -- li své sí -- tě
+      a ná -- sle -- do -- va -- li Pá -- na.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "ne3b-ne2-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+    
 }
