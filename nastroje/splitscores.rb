@@ -13,13 +13,22 @@ def split_file(file_to_be_processed, outputdir=nil, ids=false, verbose=false)
   m = LilyPondMusic.new file_to_be_processed
   m.scores.each_with_index do |score,i|
     
+    # ignore one-line scores - these don't contain music, they only contain variables
+    if score.text.chomp.lines.count == 1 then
+      next
+    end
+    
     write_to_file = File.name_without_extension(File.basename(file_to_be_processed))+'_'
     if ids then
-      write_to_file += score.header['id']
+      if score.header['id'] != nil then
+        write_to_file += score.header['id'] + '.ly'
+      else
+        write_to_file += (i+1).to_s + '.ly'
+        STDERR.puts "Warning: no header 'id' in a score, fallback to numbering: #{write_to_file}"
+      end
     else
-      write_to_file += (i+1).to_s
+      write_to_file += (i+1).to_s + '.ly'
     end
-    write_to_file += '.ly'
     
     if outputdir then
       write_to_file = outputdir + "/" + write_to_file
@@ -77,7 +86,7 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
   if setup[:remove_headers] then
     puts "  removing headers" if setup[:verbose]
     ih = scoretext.index("\\header")
-    i1 = scoretext.index '{', ih
+    i1 = scoretext.index '{', ih if ih
     if i1 then
       i2 = LilyPondScore.index_matching_brace(scoretext, i1)
       newtext = scoretext.slice(0,ih)+scoretext.slice(i2+1, scoretext.size-1)
@@ -88,9 +97,20 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
     newtext = scoretext
   end
   
+  # remove eventual variable assignment
+  varassignment = /^\s*\w+\s*=/ 
+  if newtext =~ varassignment then
+    newtext.gsub!(varassignment, '')
+  end
+  
   if setup[:mode_info] then
     i = newtext.index "\\relative"
-    i = newtext.index '{', i
+    i = newtext.index '{', i if i
+    unless i
+      puts newtext
+      raise "Couldn't find, where notes begin, couldn't thus insert mode info (score no. #{score.number})."
+    end
+    
     case score.header['quid']
     when /ant/
       puts "  adding mode information to score" if setup[:verbose]
