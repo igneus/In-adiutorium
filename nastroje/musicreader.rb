@@ -1,6 +1,8 @@
 class LilyPondScore
-  def initialize(text)
+  def initialize(text, number)
     @text = text
+    @number = number
+    init_text
     init_lyrics
     init_header
   end
@@ -9,8 +11,17 @@ class LilyPondScore
   attr_reader :lyrics_raw
   attr_reader :lyrics_readable
   attr_reader :header
+  attr_reader :number # position of the score in the file
   
   private
+  
+  def init_text
+    # remove possible characters at the end which do not belong to the score -
+    # because the "parser" of class LilyPondMusic isn't any clever
+    i = @text.index '{'
+    end_i = LilyPondScore.index_matching_brace(@text, i)
+    @text = @text[0..end_i]
+  end
   
   def init_lyrics
     i1 = @text.index '\addlyrics'
@@ -105,7 +116,7 @@ class LilyPondMusic
             next
           else
             score_number += 1
-            create_score store
+            create_score store, score_number
             store = l
           end
         else
@@ -114,7 +125,7 @@ class LilyPondMusic
       end
       
       # last score:
-      create_score store
+      create_score store, score_number
     end
   end
   
@@ -123,9 +134,9 @@ class LilyPondMusic
   
   private
   
-  def create_score(store)
+  def create_score(store, number)
     begin
-      @scores << LilyPondScore.new(store)
+      @scores << LilyPondScore.new(store, number)
     rescue
       puts "Error in score:"
       puts store
