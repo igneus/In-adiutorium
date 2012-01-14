@@ -251,7 +251,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = '--lettrine --dashes --no-paragraph' # sazba do sloupcu
+nedelecommonoptions = '--lettrine --dashes --no-paragraph --columns'
 
 cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
@@ -259,13 +259,31 @@ end
 
 nedelecanticleoptions = nedelecommonoptions+" --pretitle \"kantikum\\\\\\\\ \""
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_nedele)
-zalmyzaltare << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_nedele)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_nedele)
+
+noty_nedele = (1..4).map do |i| 
+  # nazev vygenerovaneho souboru s prvni antifonou
+  afn = adresar_nedele+"tyden#{i.to_s}_1nedele_1ne-ant1.ly"
+  # zpracovavany soubor s antifonami
+  sfn = "../antifony/tyden#{i.to_s}_1nedele.ly"
+  
+  file afn => [sfn] do
+    sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids #{sfn}"
+  end
+  
+  afn
+end
+
+file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
+  test_lilypondbook_version
+  sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
+end
 
 file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex'] do
   chdir 'vystup'
