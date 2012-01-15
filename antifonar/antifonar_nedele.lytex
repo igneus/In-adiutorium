@@ -28,6 +28,13 @@
 \newcommand{\nazev}{Neděle v mezidobí}
 
 \newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons Attribution-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
   Texty Denní modlitby církve jsou majetkem České biskupské konference. 
   
   Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
@@ -37,8 +44,6 @@
   nadpisy žalmů a připojené citáty z Písma a Otců)
   a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
   podle něj opraveny.
-  
-  Text žalmů a kantik značkami opatřil a k sazbě připravil Jakub Pavlík.
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
@@ -100,9 +105,9 @@
 \label{invitatorium}
 
 \begin{hora}
-\noindent 1. a 3. neděle
+\noindent \rubrika{1. a 3. neděle}
 \lilypondfile{generovane/nedele/invitatoria_t1ne.ly}
-\noindent 2. a 4. neděle
+\noindent \rubrika{2. a 4. neděle}
 \lilypondfile{generovane/nedele/invitatoria_t2ne.ly}
 \input{generovane/nedele/zalm95.tex}
 \label{zalm24}
@@ -191,7 +196,7 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm150.tex}
 
-\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
 \end{hora}
 \rubrikaBenedictus
 
@@ -214,7 +219,7 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
 \input{kantikum_zj19.tex}
 
-\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
 
