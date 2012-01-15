@@ -153,6 +153,8 @@
 \input{generovane/nedele/zalm118ii.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm118iii.tex}
+
+\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
 \end{hora}
 
 \nesporyII
@@ -162,7 +164,9 @@
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm114.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
-\input{kantikum_zj19.tex}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
 
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -208,6 +212,8 @@
 \input{generovane/nedele/zalm76i.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
+
+\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
 
 \nesporyII
@@ -217,7 +223,9 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm115.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
-\input{kantikum_zj19.tex}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
 
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
@@ -263,6 +271,8 @@
 \input{generovane/nedele/zalm118ii.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm118iii.tex}
+
+\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
 \end{hora}
 
 \nesporyII
@@ -272,7 +282,9 @@
 \lilypondfile{generovane/nedele/tyden3_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm111.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
-\input{kantikum_zj19.tex}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
 
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -318,6 +330,8 @@
 \input{generovane/nedele/zalm76i.tex}
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
+
+\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
 
 \nesporyII
@@ -327,7 +341,9 @@
 \lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm112.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
-\input{kantikum_zj19.tex}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
 \end{hora}
 \rubrikaMagnificat 
 

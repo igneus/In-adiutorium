@@ -285,6 +285,11 @@ file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
+file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids nedele_verse.ly"
+end
+noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
+
 file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
