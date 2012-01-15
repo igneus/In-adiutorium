@@ -280,14 +280,19 @@ noty_nedele = (1..4).map do |i|
   afn
 end
 
+file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../antifony/invitatoria.ly"
+end
+noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
+
 file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
 end
 
-file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex'] do
+file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex', 'spolecne.tex'] do
   chdir 'vystup'
-  sh 'pdflatex antifonar_nedele.tex'
+  2.times { sh 'pdflatex antifonar_nedele.tex' }
   chdir '..'
 end
 
