@@ -251,7 +251,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = '--lettrine --dashes --no-paragraph --columns'
+nedelecommonoptions = "--lettrine --dashes --no-paragraph --columns  --append \"\\nopagebreak Sláva Otci.\""
 
 cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
