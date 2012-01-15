@@ -5,10 +5,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c g g f( d) d4. \breathe
-    f4 f a c g4. g \breathe
-    f4 e( f) d d \breathe
-    a' g f g a f4. f \bar "||"
+    a4 c g g f( d) d4. \barMin
+    f4 f a c g4. g \barMin
+    f4 e( f) d d \barMin
+    a' g f g a f4. f \barFinalis
   }
   \addlyrics {
     Od vý -- cho -- du slun -- ce až na je -- ho zá -- pad
@@ -27,9 +27,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g f d4. c \breathe
-    e4 f g a4. g \breathe
-    a4 a g f e( f) d d \bar "||"
+    a4 f g f d4. c \barMin
+    e4 f g a4. g \barMin
+    a4 a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
@@ -75,9 +75,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a c c( b) c4. \breathe
-    c4 d e c4. a b4( c) a( g) g \breathe
-    g4 g( a) g4. g \bar "||"
+    g4 a g a c c( b) c4. \barMin
+    c4 d e c4. a b4( c) a( g) g \barMin
+    g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
     Ve -- le -- be -- ný jsi, Pa -- ne,
@@ -149,7 +149,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c b c a g a g g \breathe a4 b g4. g \bar "||"
+    c4 c c c c b c a g a g g \barMin
+    a4 b g4. g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
@@ -168,10 +169,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b4. \breathe c4 c b a f( a) g4. \breathe f4 a g4. g \bar "||"
+    a4 b c c b4. \barMin
+    c4 c b a f( a) g4. \barMin
+    f4 a g4. g \barFinalis
   }
   \addlyrics {
-    Bůh je Hos -- po -- din a do -- přál nám svět -- lo. A -- le -- lu -- ja.
+    Bůh je Hos -- po -- din
+    a do -- přál nám svět -- lo. 
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -190,8 +195,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g g a b c d e d d4. \breathe
-    c4 c b a g f f( g) g4. \breathe g4 a g4. g \bar "||"
+    a4 b g g a b c d e d d4. \barMin
+    c4 c b a g f f( g) g4. \barMin
+    g4 a g4. g \barFinalis
   }
   \addlyrics {
     Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
@@ -202,7 +208,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 111"
-    id = "2ne-ant1"
+    id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

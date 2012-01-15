@@ -5,7 +5,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g( a) a \breathe a a a c g f( e) d4. \bar "||"
+    a4 f g( a) a \barMin
+    a a a c g f( e) d4. \barFinalis
   }
   \addlyrics {
     Vy -- pro -- šuj -- te Je -- ru -- za -- lé -- mu po -- koj.
@@ -23,9 +24,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f e f d4. d \breathe
-    f4 g a f g \breathe
-    a4 g f e d c d4. d \bar "||"
+    f4 f e f d4. d \barMin
+    f4 g a f g \barMin
+    a4 g f e d c d4. d \barFinalis
   }
   \addlyrics {
     Od čas -- né -- ho rá -- na až do noč -- ní tmy 
@@ -50,9 +51,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f e d e c c \breathe
-    f f f g a bes a4. g4 a g f f \breathe
-    g4 a f f \bar "||"
+    f4 g f e d e c c \barMin
+    f f f g a bes a4. g4 a g f f \barMin
+    g4 a f f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -96,9 +97,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f g( a) a4. \breathe
-    a4 c( d) c4.( a) bes4 a g f \breathe
-    bes a g( f) f \bar "||"
+    f4 g f g( a) a4. \barMin
+    a4 c( d) c4.( a) bes4 a g f \barMin
+    bes a g( f) f \barFinalis
   }
   \addlyrics {
     Vše -- chno, co dý -- chá, ať chvá -- lí Hos -- po -- di -- na.
@@ -165,9 +166,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b( c) c d e d d \breathe
-    c4 b a a g f f( g) g \breathe
-    g a g g4. \bar "||"
+    c4 c c b( c) c d e d d \barMin
+    c4 b a a g f f( g) g \barMin
+    g a g g4. \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
@@ -189,9 +190,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( f) g( a) a g a c( d) d d \breathe
-    d4( e c4.) c d4 c b a( g) g \breathe
-    g a g( f) g \bar "||"
+    a4 a a g( f) g( a) a g a c( d) d d \barMin
+    d4( e c4.) c d4 c b a( g) g \barMin
+    g a g( f) g \barFinalis
   }
   \addlyrics {
     O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 
@@ -211,9 +212,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a a g g4.( a) \breathe
-    e4 g( a) a a a a b c a g e( a) a \breathe
-    e4 g a a a a c b g a \bar "||"
+    a4( c) a a g g4.( a) \barMin
+    e4 g( a) a a a a b c a g e( a) a \barMin
+    e4 g a a a a c b g a \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo lač -- ní a žíz -- ní 
