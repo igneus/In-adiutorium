@@ -56,14 +56,30 @@
   nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 }
 \newcommand{\rubrikaBenedictus}{
-  \rubrika{Zachariášovo kantikum, str. \pageref{benedictus}.}
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{Zachariášovo kantikum,} str. \pageref{benedictus}.}
+  \end{flushleft}
 }
 \newcommand{\rubrikaMagnificat}{
-  \rubrika{Kantikum Panny Marie, str. \pageref{magnificat}.}
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{Kantikum Panny Marie,} str. \pageref{magnificat}.}
+  \end{flushleft}
 }
 \newcommand{\rubrikaInvitatorium}{
   \rubrika{Jsou-li ranní chvály první modlitbou dne, předchází jim
   invitatorium, str. \pageref{invitatorium}.}
+}
+
+\newcommand{\typZalmy}{
+  \nadpisTypTextu{Žalmy}
+}
+\newcommand{\typResponsorium}{
+  \nadpisTypTextu{Responsorium}
+}
+\newcommand{\typVers}{
+  \nadpisTypTextu{Verš}
 }
 
 \begin{document}
@@ -120,6 +136,7 @@
 
 \nesporyI
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant1.ly}
 \input{generovane/nedele/zalm141.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant2.ly}
@@ -127,6 +144,7 @@
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -134,6 +152,7 @@
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm63.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant2.ly}
@@ -141,12 +160,14 @@
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm149.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
 \end{hora}
 \rubrikaBenedictus
 
 \modlitbaUprostredDne
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden1_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm118i.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_up-ant2.ly}
@@ -154,11 +175,13 @@
 \lilypondfile{generovane/nedele/tyden1_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm118iii.tex}
 
+\typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
 \end{hora}
 
 \nesporyII
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant1.ly}
 \input{generovane/nedele/zalm110.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant2.ly}
@@ -168,6 +191,7 @@
   \input{kantikum_zj19.tex}
 \end{multicols}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -179,6 +203,7 @@
 
 \nesporyI
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant1.ly}
 \input{generovane/nedele/zalm119nun.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant2.ly}
@@ -186,6 +211,7 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -193,6 +219,7 @@
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm118.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant2.ly}
@@ -200,12 +227,14 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm150.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
 \end{hora}
 \rubrikaBenedictus
 
 \modlitbaUprostredDne
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden2_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm23.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_up-ant2.ly}
@@ -213,11 +242,13 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
 
+\typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
 
 \nesporyII
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant1.ly}
 \input{generovane/nedele/zalm110.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant2.ly}
@@ -227,6 +258,7 @@
   \input{kantikum_zj19.tex}
 \end{multicols}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -238,6 +270,7 @@
 
 \nesporyI
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant1.ly}
 \input{generovane/nedele/zalm113.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant2.ly}
@@ -245,6 +278,7 @@
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -252,6 +286,7 @@
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm93.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant2.ly}
@@ -259,12 +294,14 @@
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm148.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
 \end{hora}
 \rubrikaBenedictus
 
 \modlitbaUprostredDne
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm118i.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant2.ly}
@@ -272,11 +309,13 @@
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm118iii.tex}
 
+\typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
 \end{hora}
 
 \nesporyII
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant1.ly}
 \input{generovane/nedele/zalm110.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_2ne-ant2.ly}
@@ -286,6 +325,7 @@
   \input{kantikum_zj19.tex}
 \end{multicols}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -297,6 +337,7 @@
 
 \nesporyI
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden4_1nedele_1ne-ant1.ly}
 \input{generovane/nedele/zalm122.tex}
 \lilypondfile{generovane/nedele/tyden4_1nedele_1ne-ant2.ly}
@@ -304,6 +345,7 @@
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat
@@ -311,6 +353,7 @@
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm118.tex}
 \lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant2.ly}
@@ -318,12 +361,14 @@
 \lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm150.tex}
 
+\typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
 \end{hora}
 \rubrikaBenedictus
 
 \modlitbaUprostredDne
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm23.tex}
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant2.ly}
@@ -331,11 +376,13 @@
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
 
+\typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
 
 \nesporyII
 \begin{hora}
+\typZalmy
 \lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant1.ly}
 \input{generovane/nedele/zalm110.tex}
 \lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant2.ly}
@@ -344,6 +391,9 @@
 \begin{multicols}{2}
   \input{kantikum_zj19.tex}
 \end{multicols}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
 \rubrikaMagnificat 
 
