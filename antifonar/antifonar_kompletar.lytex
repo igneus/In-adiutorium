@@ -92,6 +92,8 @@ každý den stejně a u následujících dnů se proto neopakují.}
 \input{generovane/kompletar/zalm86.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
+\newpage % ZLOM
+
 \nadpisDen{Úterý}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ut.ly}
@@ -99,6 +101,7 @@ každý den stejně a u následujících dnů se proto neopakují.}
 % \input{generovane/kompletar/doxologie.tex}
 
 \newpage % ZLOM
+
 \nadpisDen{Středa}
 
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st1.ly}
@@ -108,6 +111,8 @@ každý den stejně a u následujících dnů se proto neopakují.}
 \lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st2.ly}
 \input{generovane/kompletar/zalm130.tex}
 % \input{generovane/kompletar/doxologie.tex}
+
+\newpage % ZLOM
 
 \nadpisDen{Čtvrtek}
 
