@@ -13,25 +13,25 @@
   }
 
   %{
-    \markup {\nadpisDen {"X. neděle"}}
-    
-    \score {
-      \relative c' {
-        \choralniRezim
+  \markup {\nadpisDen {"X. neděle"}}
   
-      }
-      \addlyrics {
-  
-      }
-      \header {
-        quid = "ant. k"
-        modus = ""
-        differentia = ""
-        psalmus = ""
-        id = ""
-        piece = \markup {\sestavTitulekBezZalmu}
-      }
+  \score {
+    \relative c' {
+      \choralniRezim
+
     }
+    \addlyrics {
+
+    }
+    \header {
+      quid = "ant. k"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
   %}
 
   \markup {\nadpisDen {"2. neděle"}}
@@ -173,6 +173,68 @@
       differentia = "D"
       psalmus = ""
       id = "ne3b-ne2-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  % \markup {\nadpisDen {"4. neděle"}} 
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Všich -- ni žas -- li nad Je -- ží -- šo -- vým u -- če -- ním,
+      pro -- to -- že je u -- čil ja -- ko ten,
+      kdo má moc.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      No -- vé u -- če -- ní_- 
+      a s_ta -- ko -- vou mo -- cí!
+      I ne -- čis -- tým du -- chům po -- rou -- čí
+      a po -- slou -- cha -- jí ho!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Po -- věst o Je -- ží -- šo -- vi se roz -- nes -- la
+      po ce -- lém ga -- li -- lej -- ském kra -- ji.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
