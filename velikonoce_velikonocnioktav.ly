@@ -7,6 +7,11 @@
 
 \include "spolecne.ly"
 
+\bookpart {
+  \header {
+   subtitle = "Společné pro všechny dny" 
+  }
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -72,6 +77,33 @@
     differentia = "d" 
     psalmus = "Žalm 149"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d e4.( f) \barMin
+    e4 d e( f) e d c a a \barMax
+    d( c d ) c( a) a \barMin
+    b c( a) g( f) a a g g \barMax
+    g f( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    To -- to je den,
+    kte -- rý u -- či -- nil Hos -- po -- din,
+    já -- sej -- me 
+    a ra -- duj -- me se z_ně -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. /místo responsoria/"
+    modus = "VII"
+    differentia = "a" 
+    psalmus = ""
+    id = "paschoctant"
+    fons = "Z materiálu pro kompletář."
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -204,5 +236,72 @@
     differentia = "F" 
     psalmus = "Zj 19"
     piece = \markup {\sestavTitulek}
+  }
+}
+}
+
+\bookpart {
+  \header {
+    subtitle = "Antifony ke kantikům z evangelií" 
+  }
+ 
+  \markup\nadpisDen {pondělí velikonoční}
+ 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d( f) f g g g g f e d d \barMaior
+      e( d) c c d c a a \barMin
+      a c d f g f e d4. d \barMax
+      e4 f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Zá -- hy zrá -- na prv -- ní -- ho dne po so -- bo -- tě
+      při -- šly že -- ny ke hro -- bu,
+      když prá -- vě vy -- chá -- ze -- lo slun -- ce.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a a g f a4. a \barMin
+      a4( b c) a a( b) g g4.( e) \barMin
+      f4 g a g f e f e4. e \barMaior
+      e4 d e f f f f f g f e e e \barMax
+      
+      e( a) a a a c b c c( d) d \barMin
+      d( c b) c g4.( a) \barMax
+      
+      a4 g( f) e( f e) e \barFinalis
+    }
+    \addlyrics {
+      Ve -- čer prv -- ní -- ho dne v_týd -- nu
+      při -- šel Je -- žíš tam,
+      kde by -- li je -- ho u -- čed -- ní -- ci.
+      Ze stra -- chu před ži -- dy mě -- li dve -- ře za -- vře -- ny.
+      
+      Sta -- nul me -- zi ni -- mi a ře -- kl:
+      Po -- koj vám!
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "III"
+      differentia = "a" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
   }
 }
