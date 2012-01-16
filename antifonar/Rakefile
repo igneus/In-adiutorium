@@ -65,6 +65,7 @@ file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do
   sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
 end
 
+desc "Antiphonal for the completory."
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
 task :default => [:kompletar]
@@ -168,13 +169,16 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'sp
   # sh "dvipdf antifonar_zaltar.dvi"
 end
 
+desc "Psalter."
 task :zaltar => ["antifonar_zaltar.pdf"]
 
+desc "Remove ALL files generated during the creation of a psalter."
 task :zaltar_clean => [:zaltar_texclean] do
   sh 'rm generovane/zaltar/zalm*.tex'
   sh 'rm generovane/zaltar/kantikum*.tex'
 end
 
+desc "Remove LaTeX files generated during the creation of a psalter."
 task :zaltar_texclean do
   (['pdf', 'aux', 'log', 'out'].map {|e| "antifonar_zaltar."+e}).each {|f|
     if File.exists? f then
@@ -209,6 +213,7 @@ file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex'
   }
 end
 
+desc "Psalter for the reading-office."
 task :cteni => ['antifonar_ctenizaltar.pdf']
 
 ###############
@@ -231,6 +236,7 @@ file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
   chdir '..'
 end
 
+desc "Introduction to the whole set of antiphonal volumes."
 task :uvod => ['vystup/antifonar_uvod.pdf']
 
 ###############
@@ -301,7 +307,7 @@ file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex', 'spolecne.
   chdir '..'
 end
 
-
+desc "Sunday antiphonal."
 task :nedele => ['vystup/antifonar_nedele.pdf']
 
 ###############
@@ -323,4 +329,5 @@ file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd ".."
 end
 
+desc "Psalm 136 - responsorial arrangement."
 task :zalm136 => ["vystup/zalm136.pdf"]
