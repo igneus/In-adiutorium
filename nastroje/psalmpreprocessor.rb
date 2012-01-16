@@ -248,7 +248,7 @@ module PsalmPreprocessor
     end
     
     def puts(s="\n")
-      tostore = String.new(s).freeze
+      tostore = String.new(s)
       
       if @store then
         @core.puts @store.dup # the 'dup' is important here -
@@ -389,6 +389,7 @@ optparse = OptionParser.new do|opts|
   opts.on "-f", "--no-formatting", "Just process accents and don't do anything else with the document" do
     setup[:has_title] = false
     setup[:no_formatting] = true
+    setup[:paragraph_space] = false
   end
   
   # Needs package multicol!
@@ -466,7 +467,9 @@ ARGV.each do |f|
   end
   
   output = LatexifySymbolsOutputStrategy.new output
-  output = ParagraphifyVerseOutputStrategy.new output
+  unless setup[:no_formatting]
+    output = ParagraphifyVerseOutputStrategy.new output
+  end
   
   # Two outputters which need to have emty lines as in the source
   if setup[:paragraph_space] then
