@@ -245,7 +245,7 @@
     subtitle = "Antifony ke kantikům z evangelií" 
   }
  
-  \markup\nadpisDen {pondělí velikonoční}
+  \markup\nadpisDen {slavnost Zmrtvýchvstání Páně}
  
   \score {
     \relative c' {
@@ -304,4 +304,62 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\nadpisDen {pondělí velikonoční}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c b( g) g \barMin
+      g g( a) a a g f g( a) a \barMaior
+      a b4.( c) b4( c) a( g) g \barMax
+      f a g4. g \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( a) a c( b c) c( d) c b a a a \barMaior
+      a( g) f g( a) a g( a) b( c) c \barMin
+      c c( b a) c( b) g g \barMax
+      
+      g g f e d e d d \barMin
+      d e f g a g g \barMax
+      
+      g f( a) g( f g) g \barFinalis
+    }
+    \addlyrics {
+      Když že -- ny od -- chá -- ze -- ly od hro -- bu,
+      šel jim Je -- žíš na -- pro -- ti a po -- zdra -- vil je;
+      
+      o -- ny k_ně -- mu při -- stou -- pi -- ly
+      a po -- klo -- ni -- ly se mu.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
 }
