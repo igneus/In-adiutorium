@@ -9,7 +9,7 @@
 
 \bookpart {
   \header {
-   subtitle = "Společné pro všechny dny" 
+   subtitle = "1. Společné pro všechny dny" 
   }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -125,14 +125,17 @@
     modus = "VII"
     differentia = "c" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d( f) f g f g g( a) a \barMaior
+    a g( bes) a( g) f4.( g) \barMin
+    g4 f g a f e f d d \barMax
+    d f( e) c d \barFinalis
   }
   \addlyrics {
     Byl vy -- dán na smrt pro na -- še hří -- chy,
@@ -142,30 +145,35 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a( c) c b( c d) d \barMin
+    d( c) b c( e) e e \barMaior
+    f( e) d e d c( a) a \barMin
+    c c( b c) d( c) b a4. a \barMax
+    a4 c( b) g a \barFinalis
   }
   \addlyrics {
-    Když jste s_Kris -- tem by -- li vzkří -- še -- ni,
+    Když jste s_Kris -- tem 
+    by -- li vzkří -- še -- ni,
     u -- si -- luj -- te o to,
     co po -- chá -- zí shů -- ry.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -242,7 +250,7 @@
 
 \bookpart {
   \header {
-    subtitle = "Antifony ke kantikům z evangelií" 
+    subtitle = "2. Antifony ke kantikům z evangelií" 
   }
  
   \markup\nadpisDen {slavnost Zmrtvýchvstání Páně}
