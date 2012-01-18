@@ -56,15 +56,94 @@ end
 def content(line)
   tokens = []
   
+  line.strip.split(/\s*,\s*/).each do |rt|
+    if rt.index(" ") then
+      # most probably two text codes and a text between them
+      while (i = rt.index("(")) do
+        # process token before the brace:
+        tokens << [:ps, rt[0..i-1].strip]
+        # the braced text:
+        j = rt.index ")", i
+        tokens << [:txt, rt[i+1..j-1]]
+        rt = rt[j+1..-1]
+      end
+      # token after brace:
+      if rt.strip! != "" then
+        tokens << [:ps, rt]
+      end
+    else
+      # simple token - number of a psalm or a code of a canticle
+      tokens << [:ps, rt.strip]
+    end
+  end
+  
+  psalms = []
+  
+  tokens.each do |t|
+    t[1].strip!
+    
+    case t[0]
+    when :ps
+      if t[1] == "rchne1t" then
+        puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
+      elsif t[1] =~ /^\d+i*$/ then
+        # psalm
+        prettyt = t[1]
+        if i = prettyt.index('i') then
+          prettyt = prettyt[0..i-1]+'-'+prettyt[i..-1].upcase
+        end
+        puts "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
+        psalms << t[1]
+      else
+        # canticle
+        sigle = String.new(t[1])
+        sigle[0] = sigle[0].capitalize
+        i = sigle.index /\d/
+        sigle.insert(i, " ")
+        puts "\\textRef{kant#{t[1]}}{#{sigle}}"
+      end
+    when :txt
+      puts t[1]
+    end
+  end
+  
+  return psalms
 end
+
+
+require 'optparse'
+
+dir = ''
+
+optparse = OptionParser.new do|opts|
+  opts.on "-d", "--directory DIR", "Directory to put the output files in." do |d|
+    dir = d
+  end
+end
+optparse.parse!
 
 file  = ARGV.shift
 unless file
   raise "File to be processed expected as an argument."
 end
 
+psalms = []
+
+if dir then
+  $stdout = File.open(dir+'/'+File.basename(file)+'.index.tex', 'w')
+end
+
 File.open(file, 'r') do |fr|
   while l = fr.gets do
+    # remove comments
+    if y = l.index('#') then
+      if l =~ /\s*#/ then
+        next
+      else
+        l = l[0..y-1]
+      end
+    end
+    
     i = ilevel(l)
     case i
     when 0
@@ -74,9 +153,26 @@ File.open(file, 'r') do |fr|
     when 2
       hour_title l
     when 3
-      content l
+      psalms += content l
     else
       # nothing
     end
   end
 end
+
+psalms.uniq!
+psalms.sort! {|x,y| x.to_i <=> y.to_i}
+
+File.open(dir+'/'+File.basename(file)+'.psalmsnums', 'w') do |fw|
+  fw.puts psalms.join "\n"
+end
+
+File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
+  psalms.each do |p|
+    fw.puts "\\labelZalm{#{p}}"
+    fw.puts "\\input{generovane/zaltar/zalm#{p}.tex}"
+    fw.puts
+  end
+end
+
+$stdout.close

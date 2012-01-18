@@ -22,7 +22,6 @@
 % font Bookman:
 \usepackage{bookman}
 
-
 \input{spolecne.tex}
 
 \newcommand{\autor}{}
@@ -58,6 +57,26 @@
   nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 }
 
+% Vytvori pro text (zalm/kantikum) label a polozku v obsahu
+% label, citelny nazev
+\newcommand{\labelText}[2]{
+  \label{#1}
+  \addcontentsline{toc}{subsection}{#2}
+}
+
+% Staci jediny argument - cislo zalmu
+\newcommand{\labelZalm}[1]{
+  \labelText{z#1}{Žalm #1}
+}
+
+\newcommand{\zalmRef}[1]{
+  Žalm #1, str. \pageref{z#1}
+}
+
+\newcommand{\textRef}[2]{
+  #2, str. \pageref{#1}
+}
+
 \begin{document}
 
 \pagestyle{empty}
@@ -91,47 +110,48 @@ a svátků, které mají vlastní žalmy, spolu s odkazy na texty.
 Doporučuji opatřit výtisky dostatečným množstvím záložek (ideální se
 zdají být 3-4).
 
-\nadpisTyden{Kantika z evangelií}{Kantika z evangelií}
-\fancyhead[CE,CO]{Kantika z evangelií}
+\section{Kantika z evangelií}
 
 \begin{hora}
+\labelText{ben}{Zachariášovo kantikum}
 \nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
 \input{generovane/zaltar/kantikum_benedictus.tex}
 \columnbreak
+\labelText{mag}{kantikum Panny Marie}
 \nadpisTypTextu{Kantikum Panny Marie (Magnificat)}
 \input{generovane/zaltar/kantikum_magnificat.tex}
 \end{hora}
 
-% \section*{Žalmy invitatoria}
-\nadpisTyden{Žalmy invitatoria}{Žalmy invitatoria}
-\fancyhead[CE,CO]{Žalmy invitatoria}
+\section{Žalmy invitatoria}
 
 \begin{hora}
+\labelZalm{95}
 \input{generovane/zaltar/zalm95.tex}
+\labelZalm{100}
 \input{generovane/zaltar/zalm100.tex}
+\labelZalm{67}
 \input{generovane/zaltar/zalm67.tex}
+\labelZalm{24}
 \input{generovane/zaltar/zalm24.tex}
-\label{zalm24}
 \end{hora}
 
 \clearpage
 
 \section{Často užívané celky}
 
-\nadpisDen{Neděle 1. týdne - ranní chvály}
+\subsection{Neděle 1. týdne - ranní chvály}
 
 \ranniChvaly
 \begin{hora}
+\label{zalmyne1trch}
 \input{generovane/zaltar/zalm63.tex}
 \input{generovane/zaltar/kantikum_dan3i.tex}
 \input{generovane/zaltar/zalm149.tex}
 \end{hora}
 
-\clearpage
-\fancyhead{} % vynulovat hlavicky
-\nadpisTyden{Doplňovací cyklus žalmů pro modlitbu uprostřed dne}{Doplňovací cyklus žalmů}
-\fancyhead[CE,CO]{Doplňovací cyklus žalmů}
-  
+\subsection{Doplňovací cyklus žalmů pro modlitbu uprostřed dne}{Doplňovací cyklus žalmů}
+
+\label{zalmydoplncyklus}
 \nadpisHodinka{První oddíl (dopoledne)}
 \begin{hora}
 \input{generovane/zaltar/zalm120.tex}
@@ -155,29 +175,41 @@ zdají být 3-4).
 
 \section{Žalmy}
 
+\begin{hora}
+% soubor generovany skriptem listofpsalms.rb:
+\input{generovane/svatecnizaltar/svatecnizaltar_index.txt.psalms.tex}
+\end{hora}
+
 \section{Starozákonní kantika}
+
+\begin{hora}
+\labelText{kantiz38}{Iz 38}
+\input{generovane/zaltar/kantikum_iz38.tex}
+\end{hora}
 
 \section{Novozákonní kantika}
 
 \begin{hora}
+\labelText{kantef1}{Ef 1}
 \input{generovane/zaltar/kantikum_ef1.tex}
+\labelText{kantfp2}{Flp 2}
 \input{generovane/zaltar/kantikum_fp2.tex}
+\labelText{kantkol1}{Kol 1}
 \input{generovane/zaltar/kantikum_kol1.tex}
+\labelText{kantzj4}{Zj 4}
 \input{generovane/zaltar/kantikum_zj4.tex}
+\labelText{kantzj11}{Zj 11}
 \input{generovane/zaltar/kantikum_zj11.tex}
+\labelText{kantzj15}{Zj 15}
 \input{generovane/zaltar/kantikum_zj15.tex}
+\labelText{kantzj19}{Zj 19}
 \input{kantikum_zj19.tex}
 \end{hora}
 
 \section{Index svátků}
 
-\subsection{Temporál}
-
-\subsection{Společné texty}
-
-\subsection{Sanktorál}
-
-\section{Index všech obsažených textů}
+% generovany soubor
+\input{generovane/svatecnizaltar/svatecnizaltar_index.txt.index.tex}
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
