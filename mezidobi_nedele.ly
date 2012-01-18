@@ -243,5 +243,80 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-    
+  
+  \markup {\nadpisDen {"5. neděle"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c( b) c a a \barMin
+      b c a a( g) f( e) e \barMax
+      g a( c) c c b c d( c) c \barMin
+      d c b c a( g) a a( g) \barMax
+      d f g a( g f) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Když na -- stal ve -- čer
+      a slun -- ce za -- pad -- lo,
+      při -- ná -- še -- li k_Je -- ží -- šo -- vi
+      ne -- moc -- né i po -- sed -- lé
+      a on je u -- zdra -- vil.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "ne5b-1ne-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c( d) d f g f4.( e) \barMin
+      e4 f( e d) e c4.( d) \barMaior
+      d4 d d d c d c a c( d) d \barMin
+      d e f d( c d) d \barFinalis
+    }
+    \addlyrics {
+      Br -- zo rá -- no Je -- žíš vstal 
+      a vy -- šel ven,
+      o -- de -- šel na o -- puš -- tě -- né mís -- to
+      a tam se mod -- lil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "ne5b-rch-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a( g f) g( f) g4.( a) \barMin
+      g4 bes( c) bes g g( a) a \barMaior
+      a a( g f g4.) d \barMin
+      f4 f g f d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- chá -- zel 
+      ce -- lou Ga -- li -- le -- jí
+      a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "ne5b-2ne-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
