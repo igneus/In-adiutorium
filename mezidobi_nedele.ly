@@ -319,4 +319,75 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisDen {"6. neděle"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g( a) a \barMin
+      c c c d( c) a a4.( g) \barMax
+      g4 g( a) f( d) d \barMaior
+      f4.( g) \barMin
+      g4( a) g( f g) g \barFinalis
+    }
+    \addlyrics {
+      Pa -- ne, chceš -- -li, 
+      mů -- žeš mě o -- čis -- tit.
+      Je -- žíš ře -- kl:
+      Chci, 
+      buď čis -- tý!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 e e( g) g g( a) a \barMin
+      a( b) a a g a b b( a) a \barMin
+      a g f e e( f g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš vztá -- hl ru -- ku,
+      do -- tkl se ma -- lo -- moc -- né -- ho,
+      a ten byl hned o -- čiš -- těn.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Je -- žíš u -- zdra -- vil ma -- lo -- moc -- né -- ho
+      a ře -- kl mu:
+      Jdi, u -- kaž se kně -- zi
+      a při -- nes o -- běť za své o -- čiš -- tě -- ní.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
