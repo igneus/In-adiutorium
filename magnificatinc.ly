@@ -16,11 +16,36 @@
 
 \include "spolecne.ly"
 
-magnificatIncipitText = \lyricmode {
+% Text s ruznymi kombinacemi poctu vyznamnych prizvuku:
+magnificatIncipitTextIIetII = \lyricmode {
   Ve -- le -- bí_* 
   má du -- še \markup\underline{Hos} -- po -- \markup\underline{di} -- na 
   
   a můj duch já -- sá v_Bo -- hu, mém \markup\underline{spa} -- si -- \markup\underline{te} -- li,_* 
+  ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou \markup\underline{slu} -- žeb -- \markup\underline{ni} -- ci.
+}
+
+magnificatIncipitTextIIetI = \lyricmode {
+  Ve -- le -- bí_* 
+  má du -- še Hos -- po -- \markup\underline{di} -- na 
+  
+  a můj duch já -- sá v_Bo -- hu, mém \markup\underline{spa} -- si -- \markup\underline{te} -- li,_* 
+  ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- \markup\underline{ni} -- ci.
+}
+
+magnificatIncipitTextIetI = \lyricmode {
+  Ve -- le -- bí_* 
+  má du -- še Hos -- po -- \markup\underline{di} -- na 
+  
+  a můj duch já -- sá v_Bo -- hu, mém spa -- si -- \markup\underline{te} -- li,_* 
+  ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- \markup\underline{ni} -- ci.
+}
+
+magnificatIncipitTextIetII = \lyricmode {
+  Ve -- le -- bí_* 
+  má du -- še \markup\underline{Hos} -- po -- \markup\underline{di} -- na 
+  
+  a můj duch já -- sá v_Bo -- hu, mém spa -- si -- \markup\underline{te} -- li,_* 
   ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou \markup\underline{slu} -- žeb -- \markup\underline{ni} -- ci.
 }
 
@@ -50,7 +75,7 @@ magnificatIncipitText = \lyricmode {
     a a a a a a a a a a \bar ""  g f g( a) g( f e d) \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIIetI
   }
   \header {
     modus = "I"
@@ -68,7 +93,7 @@ magnificatIncipitText = \lyricmode {
     f f f f f f f f f f f e c d \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIetI
   }
   \header {
     modus = "II"
@@ -86,7 +111,7 @@ magnificatIncipitText = \lyricmode {
     c c c c \bar "" c c c c c c c a c b \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIIetI
   }
   \header {
     modus = "III"
@@ -104,7 +129,7 @@ magnificatIncipitText = \lyricmode {
     a a a a a a a a a a a a a g \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIetI
   }
   \header {
     modus = "IV"
@@ -122,7 +147,7 @@ magnificatIncipitText = \lyricmode {
     c c c c c c c c c c d b c a \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIetII
   }
   \header {
     modus = "V"
@@ -140,7 +165,7 @@ magnificatIncipitText = \lyricmode {
     a a a a \bar "" a a a a a a \bar "" f g( a) g f \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIIetI
   }
   \header {
     modus = "VI"
@@ -158,7 +183,7 @@ magnificatIncipitText = \lyricmode {
     d d d d \bar "" d d d d d d \bar "" e d c b( a) \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIIetII
   }
   \header {
     modus = "VII"
@@ -176,7 +201,7 @@ magnificatIncipitText = \lyricmode {
     c c c c c c c c c c b c a g \barFinalis
   }
   \addlyrics {
-    \magnificatIncipitText
+    \magnificatIncipitTextIetI
   }
   \header {
     modus = "VIII"
