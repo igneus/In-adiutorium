@@ -221,11 +221,34 @@ task :cteni => ['antifonar_ctenizaltar.pdf']
 
 svatzalt_adresar = 'generovane/svatecnizaltar/'
 
-file 'generovane/svatecnizaltar/svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt'] do
+svatzalt_kantika = []
+%w( ef1 fp2 kol1 1petr2 zj4 zj11 zj15 zj19
+      iz38 dan3i ).each do |k|
+  svatzalt_kantika << genzalm("kantikum_"+k+".zalm", canticleoptions, svatzalt_adresar)
+end
+
+file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{svatzalt_adresar} svatecnizaltar_index.txt"
 end
 
-file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', 'generovane/svatecnizaltar/svatecnizaltar_index.txt.index.tex'] do
+task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums'] do |t|
+  File.open(t.prerequisites.first, 'r') do |f|
+    # vlastni zalmy pro slavnosti a svatky:
+    f.each_line do |n|
+      z = genzalm("zalm"+n.strip+".zalm", commonoptions, svatzalt_adresar)
+      Rake::Task[z].invoke
+    end
+    # zalmy invitatoria a rannich chval ne 1. tydne a doplnovaciho cyklu:
+    [95,100,67,24,
+    63, 149,
+    120,121,122, 123,124,125, 126,127,128].each do |n|
+      z = genzalm("zalm"+n.to_s+".zalm", commonoptions, svatzalt_adresar)
+      Rake::Task[z].invoke
+    end
+  end
+end
+
+file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
   2.times { sh "pdflatex antifonar_svatecnizaltar" }
 end
 
