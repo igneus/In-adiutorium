@@ -86,7 +86,7 @@ def content(line)
     when :ps
       if t[1] == "rchne1t" then
         puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
-      elsif t[1] =~ /^\d+i*$/ then
+      elsif t[1] =~ /^\d+[iab]*$/ then
         # psalm
         prettyt = t[1]
         if i = prettyt.index('i') then
@@ -149,7 +149,10 @@ if dir then
 end
 
 File.open(file, 'r') do |fr|
+  lnum = 0
   while l = fr.gets do
+    lnum += 1
+    
     # remove comments
     if y = l.index('#') then
       if l =~ /\s*#/ then
@@ -159,18 +162,28 @@ File.open(file, 'r') do |fr|
       end
     end
     
-    i = ilevel(l)
-    case i
-    when 0
-      section_title l
-    when 1
-      occasion_title l
-    when 2
-      hour_title l
-    when 3
-      psalms += content l
-    else
-      # nothing
+    # ignore empty lines
+    if l =~ /^\s*$/ then
+      next
+    end
+    
+    begin
+      i = ilevel(l)
+      case i
+      when 0
+        section_title l
+      when 1
+        occasion_title l
+      when 2
+        hour_title l
+      when 3
+        psalms += content l
+      else
+        # nothing
+      end
+    rescue
+      STDERR.puts "Error on line #{lnum} of input file '#{file}':"
+      raise
     end
   end
 end
