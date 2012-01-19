@@ -185,14 +185,19 @@
   \nopagebreak
 }
 
-% rubrika
+% rubrikovany text - treba i pro vlozeni do nerubrikovaneho
+\newcommand{\rubr}[1]{
+  \textcolor{red}{#1}
+}
+
+% rubrika - samostatna
 \newcommand{\rubrika}[1]{
   \vspace{3mm}
   % \textit{#1}
-  \textcolor{red}{#1}
+  \rubr{#1}
   \vspace{1mm}
 }
 
 \newcommand{\znackaStrofaZalmu}{ 
-  \textcolor{red}{--}
+  \rubr{--}
 }
