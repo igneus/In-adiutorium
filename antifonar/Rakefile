@@ -223,7 +223,7 @@ svatzalt_adresar = 'generovane/svatecnizaltar/'
 
 svatzalt_kantika = []
 %w( ef1 fp2 kol1 1petr2 zj4 zj11 zj15 zj19
-      iz38 dan3i ).each do |k|
+      iz38 dan3i hab3 ).each do |k|
   svatzalt_kantika << genzalm("kantikum_"+k+".zalm", canticleoptions, svatzalt_adresar)
 end
 

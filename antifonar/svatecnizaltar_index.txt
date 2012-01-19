@@ -25,6 +25,58 @@ Doba vánoční
       47, 86i, 98
     2. nešpory
       110, 112, zj15
+      
+Velikonoční triduum
+  
+  Velký pátek
+    ranní chvály
+      51, hab3, 147ii
+    modlitba uprostřed dne
+      40i (+) 40ii, 54, 88
+    nešpory
+      116ii, 143, fp2
+      
+  Bílá sobota
+    ranní chvály
+      64, iz38, 150
+    modlitba uprostřed dne
+      27i (+) 27ii, 30, 76i (+) 76ii
+    nešpory
+      116ii, 143, fp2
+      
+Doba velikonoční
+
+  Zmrtvýchvstání Páně (slavnost)
+    ranní chvály
+      rchne1t
+    modlitba uprostřed dne
+      118i, 118ii, 118iii
+    nešpory
+      110, 114, zj19
+      
+  pondělí ve velikonočním oktávu
+    modlitba uprostřed dne
+      8, 19a, 19b
+      
+  úterý ve velikonočním oktávu
+    modlitba uprostřed dne
+      119alef, 16, 23
+      
+  středa ve velikonočním oktávu
+    modlitba uprostřed dne
+      119beth, 28, 116ii
+      
+  čtvrtek ve velikonočním oktávu
+    modlitba uprostřed dne
+      119gimel, 30i, 30ii
+      
+  pátek ve velikonočním oktávu
+    modlitba uprostřed dne
+      119dalet, 76i, 76ii
+      
+  sobota ve velikonočním oktávu
+    modlitba uprostřed dne
+      119he, 96i, 96ii
 
 #######################################
 Sanktorál
