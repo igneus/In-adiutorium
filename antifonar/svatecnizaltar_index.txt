@@ -4,7 +4,27 @@
 # Pro spravne vygenerovani je dulezite spravne odsazeni radku.
 
 #######################################
-Temporál
+Doba vánoční
+  
+  Narození Páně (slavnost, 25.12.)
+    1. nešpory
+      113, 147ii, fp2
+    ranní chvály
+      rchne1t
+    modlitba uprostřed dne
+      19b, 47, 48
+    2. nešpory
+      110, 130, kol1
+      
+  Zjevení Páně (slavnost, 6.1. nebo v neděli od 2. do 8.1.)
+    1. nešpory
+      135i, 135ii, 1tim3
+    ranní chvály
+      rchne1t
+    modlitba uprostřed dne
+      47, 86i, 98
+    2. nešpory
+      110, 112, zj15
 
 #######################################
 Sanktorál
