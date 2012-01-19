@@ -3,8 +3,13 @@
 #
 # Pro spravne vygenerovani je dulezite spravne odsazeni radku.
 
+#######################################
 Temporál
+
+#######################################
 Sanktorál
+
+#######################################
 Společné texty
 
   O posvěcení kostela
@@ -29,7 +34,7 @@ Společné texty
     ranní chvály
       rchne1t
     2. nešpory
-      116, 126, ef1
+      116ii, 126, ef1
       
   O více mučednících
     1. nešpory
@@ -41,7 +46,7 @@ Společné texty
       
   O jednom mučedníkovi nebo o jedné mučednici
     1. nešpory
-      118i+118ii, 118iii, 1petr2
+      118i (+) 118ii, 118iii, 1petr2
     ranní chvály
       rchne1t
     2. nešpory
