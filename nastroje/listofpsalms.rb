@@ -79,7 +79,7 @@ def content(line)
   
   psalms = []
   
-  tokens.each do |t|
+  tokens.each_with_index do |t,ti|
     t[1].strip!
     
     case t[0]
@@ -92,18 +92,33 @@ def content(line)
         if i = prettyt.index('i') then
           prettyt = prettyt[0..i-1]+'-'+prettyt[i..-1].upcase
         end
-        puts "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
+        print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
         psalms << t[1]
+        if ti != (tokens.size - 1) then
+          puts "; "
+        else
+          puts
+        end
       else
         # canticle
         sigle = String.new(t[1])
-        sigle[0] = sigle[0].capitalize
-        i = sigle.index /\d/
+        if sigle[0] =~ /\d/ then
+          sigle[1] = sigle[1].capitalize
+          sigle.insert(1, " ")
+        else
+          sigle[0] = sigle[0].capitalize
+        end
+        i = sigle.index /\d$/
         sigle.insert(i, " ")
-        puts "\\textRef{kant#{t[1]}}{#{sigle}}"
+        print "\\textRef{kant#{t[1]}}{#{sigle}}"
+        if ti != (tokens.size - 1) then
+          puts "; "
+        else
+          puts
+        end
       end
     when :txt
-      puts t[1]
+      puts "\\rubr{#{t[1]}}"
     end
   end
   
@@ -170,7 +185,7 @@ end
 File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
   psalms.each do |p|
     fw.puts "\\labelZalm{#{p}}"
-    fw.puts "\\input{generovane/zaltar/zalm#{p}.tex}"
+    fw.puts "\\input{generovane/svatecnizaltar/zalm#{p}.tex}"
     fw.puts
   end
 end
