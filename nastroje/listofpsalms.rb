@@ -86,10 +86,10 @@ def content(line)
     when :ps
       if t[1] == "rchne1t" then
         puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
-      elsif t[1] =~ /^\d+[iab]*$/ then
+      elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
         # psalm
         prettyt = t[1]
-        if i = prettyt.index('i') then
+        if i = prettyt.index(/i+$/) then
           prettyt = prettyt[0..i-1]+'-'+prettyt[i..-1].upcase
         end
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
