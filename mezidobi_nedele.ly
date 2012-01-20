@@ -343,7 +343,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      id = ""
+      id = "ne6b-1ne-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -365,7 +365,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
-      id = ""
+      id = "ne6b-rch-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -373,20 +373,26 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      \key f \major
+      d4 d d( a') a a bes a g f( g) g \barMin
+      g g( bes) a a \barMax
+      g4.( d) \barMin d4 e f d d \barMaior
+      f g a g( f g) g4.( a) \barMin
+      g4 f( e) e f d d \barFinalis
     }
     \addlyrics {
       Je -- žíš u -- zdra -- vil ma -- lo -- moc -- né -- ho
       a ře -- kl mu:
       Jdi, u -- kaž se kně -- zi
-      a při -- nes o -- běť za své o -- čiš -- tě -- ní.
+      a při -- nes o -- běť 
+      za své o -- čiš -- tě -- ní.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "I"
+      differentia = "D"
       psalmus = ""
-      id = ""
+      id = "ne6b-2ne-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
