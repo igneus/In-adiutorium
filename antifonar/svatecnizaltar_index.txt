@@ -135,6 +135,58 @@ Liturgické mezidobí
 #######################################
 Sanktorál
 
+  Uvedení Páně do chrámu (svátek, 2.2.)
+    1. nešpory
+      113, 147ii, fp2
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 130, kol1
+      
+  Zvěstování Páně (slavnost, 25.3.)
+    1. nešpory
+      113, 147ii, fp2
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 130, kol1
+      
+  Proměnění Páně (svátek, 6.8.)
+    1. nešpory
+      113, 117, zj19
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 121, 1tim3
+      
+  Povýšení svatého kříže (svátek, 14.9.)
+    1. nešpory
+      147i, 147ii, fp2
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 116ii, zj4
+      
+  sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
+    ranní chvály
+      rchne1t
+    nešpory
+      8, 138, kol1
+      
+  Svatých andělů strážných (památka, 2.10.)
+    ranní chvály
+      rchne1t
+    nešpory
+      34i, 34ii, zj11
+      
+  Všech svatých (slavnost, 1.11.)
+    1. nešpory
+      113, 147ii, zj19
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 116ii, zj4
+
 #######################################
 Společné texty
 
