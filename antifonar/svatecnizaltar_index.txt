@@ -77,7 +77,61 @@ Doba velikonoční
   sobota ve velikonočním oktávu
     modlitba uprostřed dne
       119he, 96i, 96ii
+      
+  Nanebevstoupení Páně (slavnost)
+    1. nešpory
+      113, 117, zj11
+    ranní chvály
+      rchne1t
+    modlitba uprostřed dne
+      8, 19a, 19b
+    2. nešpory
+      110, 47, zj11
+      
+  Seslání Ducha svatého (slavnost)
+    1. nešpory
+      113, 147i, zj15
+    ranní chvály
+      rchne1t
+    modlitba uprostřed dne
+      118i, 118ii, 118iii
+    2. nešpory
+      110, 114, zj19
 
+Liturgické mezidobí
+
+  Ježíše Krista Krále (slavnost)
+    1. nešpory
+      113, 117, zj4
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 145i, zj19
+      
+  Nejsvětější Trojice (slavnost)
+    1. nešpory
+      113, 147ii, ef1
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 114, zj19
+      
+  Těla a Krve Páně (slavnost)
+    1. nešpory
+      111, 147ii, zj11
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 116ii, zj19
+      
+  Nejsvětějšího Srdce Ježíšova (slavnost)
+    1. nešpory
+      113, 146, zj4
+    ranní chvály
+      rchne1t
+    2. nešpory
+      110, 111, fp2
+      
 #######################################
 Sanktorál
 
