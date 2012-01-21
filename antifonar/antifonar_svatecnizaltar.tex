@@ -24,6 +24,13 @@
 
 \input{spolecne.tex}
 
+% v tomto svazecku se nadpis hodinky pouziva pouze v indexu
+% na konci knihy a tak je zadouci jiny vzhled -
+% predevsim zarovnani doleva
+\renewcommand{\nadpisHodinka}[1]{
+  \noindent\textbf{#1}:
+}
+
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
 \newcommand{\cisloSvazku}{5}
