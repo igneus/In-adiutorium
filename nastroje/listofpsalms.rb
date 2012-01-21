@@ -37,6 +37,8 @@ end
 
 def hour_title(line)
   t = line.strip
+  puts
+  puts
   puts case t
           when "1. nešpory"
             "\\nesporyI"
@@ -82,6 +84,10 @@ def content(line)
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
+    if ti == 0 || tokens[ti-1][0] != :txt then
+      print "\\indent "
+    end
+    
     case t[0]
     when :ps
       if t[1] == "rchne1t" then
@@ -94,11 +100,6 @@ def content(line)
         end
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
         psalms << t[1]
-        if ti != (tokens.size - 1) then
-          puts "; "
-        else
-          puts
-        end
       else
         # canticle
         sigle = String.new(t[1])
@@ -111,11 +112,12 @@ def content(line)
         i = sigle.index /\d$/
         sigle.insert(i, " ")
         print "\\textRef{kant#{t[1]}}{#{sigle}}"
-        if ti != (tokens.size - 1) then
-          puts "; "
-        else
-          puts
-        end
+      end
+      # for both psalms and canticles:
+      if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
+        puts ";\\\\"
+      else
+        puts
       end
     when :txt
       puts "\\rubr{#{t[1]}}"
