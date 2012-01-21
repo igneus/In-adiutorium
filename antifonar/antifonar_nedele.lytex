@@ -82,6 +82,19 @@
   \nadpisTypTextu{Verš}
 }
 
+% Obchazi system nadpisu generujicich hlavicky stranek
+% a zaznamy v obsahu -
+% protoze v antifonari pro nedele je zbytecna dvoustupnova
+% struktura tyden -> den.
+\newcommand{\nadpisNedele}[1]{
+  \begin{center}
+  {\LARGE Neděle #1. týdne}
+  \end{center}
+  \fancyhead[CE]{#1. týden žaltáře}
+  \fancyhead[CO]{Neděle}
+  \addcontentsline{toc}{section}{Neděle #1. týdne}
+}
+
 \begin{document}
 
 \input{spolecne.tex}
@@ -123,14 +136,16 @@
 \lilypondfile{generovane/nedele/invitatoria_t1ne.ly}
 \noindent \rubrika{2. a 4. neděle}
 \lilypondfile{generovane/nedele/invitatoria_t2ne.ly}
+\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
+strofě.}
 \input{generovane/nedele/zalm95.tex}
 \label{zalm24}
 \end{hora}
 
 \clearpage
-\nadpisTyden{První týden}{1. týden žaltáře}
-
-\nadpisDen{Neděle}
+% \nadpisTyden{První týden}{1. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{1}
 
 \nesporyI
 \begin{hora}
@@ -195,9 +210,9 @@
 \rubrikaMagnificat
 
 \clearpage
-\nadpisTyden{Druhý týden}{2. týden žaltáře}
-
-\nadpisDen{Neděle}
+% \nadpisTyden{Druhý týden}{2. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{2}
 
 \nesporyI
 \begin{hora}
@@ -262,9 +277,9 @@
 \rubrikaMagnificat
 
 \clearpage
-\nadpisTyden{Třetí týden}{3. týden žaltáře}
-
-\nadpisDen{Neděle}
+% \nadpisTyden{Třetí týden}{3. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{1}
 
 \nesporyI
 \begin{hora}
@@ -329,9 +344,9 @@
 \rubrikaMagnificat
 
 \clearpage
-\nadpisTyden{Čtvrtý týden}{4. týden žaltáře}
-
-\nadpisDen{Neděle}
+% \nadpisTyden{Čtvrtý týden}{4. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{4}
 
 \nesporyI
 \begin{hora}
