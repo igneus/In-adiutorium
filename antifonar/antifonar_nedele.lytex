@@ -107,11 +107,9 @@
 \fancyhead[CE,CO]{Kantika z evangelií}
 
 \begin{hora}
-\nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
 \label{benedictus}
 \input{generovane/nedele/kantikum_benedictus.tex}
 
-\nadpisTypTextu{Kantikum Panny Marie (Magnificat)}
 \label{magnificat}
 \input{generovane/nedele/kantikum_magnificat.tex}
 \end{hora}

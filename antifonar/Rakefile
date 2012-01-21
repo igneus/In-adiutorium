@@ -135,8 +135,8 @@ iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk|
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions, adresar_zaltar)
 end
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
@@ -288,8 +288,8 @@ zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedel
 zalmynedele << genzalm('kantikum_dan3i.zalm', nedelecanticleoptions, adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions, adresar_nedele)
-zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
+zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_nedele)
 
 noty_nedele = (1..4).map do |i| 
   # nazev vygenerovaneho souboru s prvni antifonou
