@@ -204,9 +204,9 @@
     o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
   }
   \header {
-    quid = "1. ant."
-    modus = "VIII"
-    differentia = "G*" 
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 111"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
