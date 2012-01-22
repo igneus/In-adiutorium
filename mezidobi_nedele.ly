@@ -396,4 +396,76 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisDen {"7. neděle"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g( a) a g f g g( a) a \barMaior
+      c( b c) a4.( g) \barMin
+      g4 a g f e f d4. d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl o -- chr -- nu -- lé -- mu:
+      Sy -- nu, od -- pouš -- tě -- jí se ti hří -- chy.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g"
+      psalmus = ""
+      id = "ne7b-mag1"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d f f f e4.( c) \barMin
+      a4 c d e d c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Syn člo -- vě -- ka má moc
+      od -- pouš -- tět na ze -- mi hří -- chy.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "ne7b-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 g g f4.( g) \barMin
+      a4 bes c bes a bes( g) g( f) f \barMaior
+      f f f( g) g( d) d4 d e( c) c( d) d \barMax
+      
+      d c d( f) f g( f g) g4.( a) \barMin
+      a4 a( g) f e f d d \barFinalis
+    }
+    \addlyrics {
+      O -- chr -- nu -- lý, 
+      kte -- ré -- ho Kris -- tus u -- zdra -- vil,
+      vzal své le -- hát -- ko a o -- de -- šel,
+      
+      tak -- že všich -- ni žas -- li 
+      a ve -- le -- bi -- li Bo -- ha.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g"
+      psalmus = ""
+      id = "ne7b-mag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
