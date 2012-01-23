@@ -168,6 +168,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -188,6 +190,115 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f( g) e4.( d) \barMin
+    c4( f) e( c) c d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( e f) d4.( c) \barMin
+    d4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) f( g) g \barMin
+    g( f) e f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( c d) d4.( e) \barMin
+    e4 f d c d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( c d) d4.( e) \barMin
+    e4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( e f) e( d c) \barMin
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f d d( e) e \barMin e f e d d \barFinalis
   }
   \addlyrics {
@@ -201,6 +312,26 @@
     id = "pa"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f( d) c \barMin
+    d c e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

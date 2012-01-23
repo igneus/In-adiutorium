@@ -207,6 +207,54 @@ tInedeleInespResp = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    g4 bes a g a4. d, \barMin
+    d4 e f d d \barMax
+    c4 f e( c) d4. \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 c a c d( f) d \barMin
+    f g f d d \barMax
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
