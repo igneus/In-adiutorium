@@ -1,8 +1,8 @@
-__Branch 'variationes' is for experiments with antiphons - one antiphon
-may have many different melodies next to each other.__
+*Branch 'variationes' is for experiments with antiphons - one antiphon
+may have many different melodies next to each other.*
 
-In adiutorium
-========
+# In adiutorium #
+
 music for catholic Divine Office (liturgy of hours) in Czech language.
 
 Liturgical music (mostly monophonic chant) typesetted in LilyPond.
