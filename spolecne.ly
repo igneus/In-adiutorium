@@ -47,7 +47,7 @@ inAdiutorium = \markup {
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props
 		     (markup #:bold
-			     #:huge 
+			     #:large
 			     #:with-color #'red obsah)))
 
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
