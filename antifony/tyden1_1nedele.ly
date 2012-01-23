@@ -1,3 +1,5 @@
+%%master: master.ly
+
 \markup {\nadpisDen {Neděle 1. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -26,6 +28,29 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d f( e) f f4.( g) \barMax
+    f4 f g( a) f( d) d \barMin
+    d d d e( f) e c c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c( d) e( f) g( f) d d4. \barMin
     g4 f( g) g( a) a4. \barMax
     a4 g( f e) e \barMin
@@ -44,6 +69,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 tInedeleInespAntIII = \score {
   \relative c'' {
@@ -67,6 +94,28 @@ tInedeleInespAntIII = \score {
 }
 
 \score { \tInedeleInespAntIII }
+
+
+\relative c' {
+  \choralniRezim
+  d4 c( d) d d f( e) d4. d \barMin
+  f4 e f g f d4.( c) \barMin
+  d4( f) e c c d d \barFinalis
+}
+\addlyrics {
+  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+  po -- vý -- šil na -- vě -- ky.
+}
+\header {
+  quid = "3. ant."
+  modus = "II"
+  differentia = "D" 
+  psalmus = "Flp 2"
+  id = "1ne-ant3"
+  piece = \markup {\sestavTitulek}
+}
+
+\pageBreak
 
 tInedeleInespResp = \score {
   \relative c' {
@@ -105,6 +154,8 @@ tInedeleInespResp = \score {
 
 \score { \tInedeleInespResp }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -133,6 +184,32 @@ tInedeleInespResp = \score {
 }
 
 \score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    g4 a g f g4. d \barMin
+    d4 e f d d \barMax
+    c4 f e( c) d4. \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     g'4 f g a( c d c) a a4. \barMin
@@ -158,6 +235,8 @@ tInedeleInespResp = \score {
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -181,6 +260,56 @@ tInedeleInespResp = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b( d) c4. c \barMin
+    c4 d( e c) a a \barMin
+    b g g( a) a \barMax
+    a a( b) a4. a \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu 
+    ať já -- sa -- jí 
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( f) d4. d \barMaior
+    d4 f( g f) g( a) a4.( g4 f) \barMin
+    e f d4. d \barMax
+    d4 f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu 
+    ať já -- sa -- jí 
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 % krome verse stejne (text i melodie) jako ranni chvaly nedeli 
 % v dobe postni
@@ -220,6 +349,8 @@ tInedeleLaudResp = \score {
 
 \score { \tInedeleLaudResp }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -244,6 +375,8 @@ tInedeleLaudResp = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
