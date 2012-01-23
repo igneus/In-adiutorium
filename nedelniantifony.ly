@@ -14,6 +14,9 @@
       \dnesniDatum 
     }
   }
+  
+  ragged-bottom=##t
+  ragged-last-bottom=##t
 }
 
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
