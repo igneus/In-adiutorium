@@ -8,8 +8,8 @@
 \include "spolecne.ly"
 
 \paper {
-  ragged-bottom=##f
-  ragged-last-bottom=##f
+  ragged-bottom=##t
+  ragged-last-bottom=##t
   
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
@@ -294,6 +294,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c) d( f) f \barMin
+    g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
 \pageBreak
 
 \score {
@@ -318,6 +336,43 @@
     \choralniRezim
     d4 d f e f( d) c \barMin
     d c e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e( f) d \barMin
+    c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e c) c4.( d) \barMin
+    d4( f) f e( c) a \barMin
+    c d f e( f d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
