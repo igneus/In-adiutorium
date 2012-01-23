@@ -40,7 +40,7 @@ canticleoptions = commonoptions+o_canticletitle
 
 adresar_kompletar = 'generovane/kompletar/'
 
-kompletar_options = commonoptions+"--columns"
+kompletar_options = commonoptions
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
@@ -280,7 +280,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = commonoptions+" --columns"
+nedelecommonoptions = commonoptions
 
 cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
@@ -290,7 +290,7 @@ nedelecanticleoptions = nedelecommonoptions+o_canticletitle
 
 zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmynedele << genzalm('kantikum_dan3i.zalm', dan3ioptions+" --columns", adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
