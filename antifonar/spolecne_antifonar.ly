@@ -15,6 +15,18 @@
   }
 }
 
+\paper {
+  myStaffSize = #18
+
+  #(define fonts
+    (make-pango-font-tree 
+                          "URW Bookman L"
+                          "Helvetica"
+                          "Courier"
+     (/ myStaffSize 20)))
+
+}
+
 % choral --------------------------------------------------------
 
 choralniRezim = {
@@ -65,14 +77,20 @@ barFinalis = { \bar "||" }
 % Specialni znaky pro responsoria -------------------------------
 
 Response = \lyricmode { 
-  \markup {
-    \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+  \markup { 
+    \with-color ##'red { 
+      % \concat { \override #'(font-name . "liturgy") {R} : }
+      \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+    }
   }
 }
 
 Verse = \lyricmode { 
   \markup { 
-    \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+    \with-color ##'red {
+      % \concat { \override #'(font-name . "liturgy") {V} : }
+      \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+    }
   }
 }
 

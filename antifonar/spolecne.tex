@@ -12,6 +12,7 @@
 %
 
 \newcommand{\titulniStrankaSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \begin{titlepage}
     \begin{center}
       \soubornyNazev
@@ -44,6 +45,7 @@
 }
 
 \newcommand{\tirazSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \setlength{\parskip}{0.6cm}
 
   \begin{center}
@@ -66,6 +68,14 @@
   \end{center}
 }
 
+%
+% Vyrobi prazdnou stranku
+%
+
+\newcommand{\prazdnaStranka}{
+  \newpage \mbox{}
+  \newpage
+}
 
 %
 % Nasledujici prikazy vyrabeji hlavicku a paticku pro
@@ -168,22 +178,26 @@
 
 % Napr. "hymnus", "responsorium", "zalmy"
 \newcommand{\nadpisTypTextu}[1]{
-  \vspace{2mm}
   \begin{flushleft}
   \noindent
-  \textsc{#1}
+  \rubrika{\textsc{#1}}
   \end{flushleft}
-  \vspace{1mm}
+  \nopagebreak
 }
 
-% rubrika
+% rubrikovany text - treba i pro vlozeni do nerubrikovaneho
+\newcommand{\rubr}[1]{
+  \textcolor{red}{#1}
+}
+
+% rubrika - samostatna
 \newcommand{\rubrika}[1]{
   \vspace{3mm}
   % \textit{#1}
-  \textcolor{red}{#1}
+  \rubr{#1}
   \vspace{1mm}
 }
 
 \newcommand{\znackaStrofaZalmu}{ 
-  \rubrika{--} 
+  \rubr{--}
 }

@@ -120,9 +120,10 @@
   }
   \header {
     quid = ". ant."
-    tonus = ""
+    modus = ""
     differentia = "" 
     psalmus = ""
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }
@@ -149,7 +150,10 @@
     \slavaRespText
   }
   \header {
-    piece = "responsorium - "
+    quid = "resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
   }
 }
 %}

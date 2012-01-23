@@ -189,4 +189,30 @@ Rytmus je dán rytmem řeči. Délka not zčásti odpovídá
 přirozené délce té které slabiky v mluveném projevu, někdy
 je v notách naznačeno prodloužení.
 
+\section{Zásady uplatňované při značkování textu}
+
+Chorální nápěvy psalmodie, pro jejichž zpěv jsou texty antifonáře označkovány,
+jsou spjaty s latinským jazykem. Latina má jiné harakteristiky než čeština
+a české texty proto někdy nelze na chorální nápěvy zpívat bez jistého
+většího nebo menšího "bezpráví".
+
+Pro nápěvy psalmodie jsou významné jeden nebo dva poslední přízvuky 
+poloverše. Po každém z těchto přízvuků může následovat jedna nebo dvě
+nepřízvučné slabiky.
+
+Při určování přízvuků významných pro psalmodii jsem používal následující
+pravidla:
+
+1. Přirozený přízvuk leží v češtině na první slabice slova. Předchází-li slovu
+jednoslabičná předložka (ve, ze, pod a podobně), přebírá přízvuk ona.
+
+\begin{quote}
+  Nenávidíš \underline{kaž}dého \underline{zlo}čince,~*
+  hubíš \underline{všech}ny \underline{lhá}ře.
+\end{quote}
+
+\section{Čtení not}
+\subsection{Délky not a rytmus}
+\subsection{Výška tónů a možnosti transposice}
+
 \end{document}

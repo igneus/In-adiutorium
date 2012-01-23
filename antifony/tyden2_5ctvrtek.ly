@@ -12,9 +12,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f" 
     psalmus = "Žalm 80"
+    id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -32,9 +33,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "VI"
+    modus = "VI"
     differentia = "F" 
     psalmus = "Iz 12"
+    id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,9 +51,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "V"
+    modus = "V"
     differentia = "a" 
     psalmus = "Žalm 81"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,9 +76,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a" 
     psalmus = "Žalm 119-IX"
+    id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -92,9 +96,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Žalm 56"
+    id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,9 +114,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Žalm 57"
+    id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -131,9 +137,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = "Žalm 72-I"
+    id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -150,9 +157,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = "Žalm 72-II"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -169,9 +177,10 @@ tIIctvrtekNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Zj 11"
+    id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

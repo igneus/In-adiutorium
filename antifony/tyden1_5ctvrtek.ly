@@ -13,7 +13,12 @@
     Pro -- buď se, má du -- še, pro -- buď se, ci -- te -- ro a har -- fo.
   }
   \header {
-    piece = "1. ant. - D2 (Žalm 57(56))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2" 
+    psalmus = "Žalm 57"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -26,7 +31,12 @@
     Můj lid se na -- sy -- tí mým do -- bro -- di -- ním, pra -- ví Hos -- po -- din.
   }
   \header {
-    piece = "2. ant. - VIII.G (Jer 31)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Jer 31"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -47,6 +57,7 @@
     tonus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 48"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +76,12 @@
     di -- vy tvé -- ho zá -- ko -- na.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 119(118)-III)"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 119-III"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -78,7 +94,12 @@
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
   }
   \header {
-    piece = "2. ant. - II.D (Žalm 25(24)-I)"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 25-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -93,7 +114,12 @@
     vždyť já jsem tak sám a tak u -- bo -- hý.
   }
   \header {
-    piece = "3. ant. - II.D (Žalm 25(24)-II)"
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 25-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -110,7 +136,12 @@
     u -- zdra -- vils mě; chci tě chvá -- lit na -- vě -- ky.
   }
   \header {
-    piece = "1. ant. - I.g (Žalm 30(29))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 30"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -124,7 +155,12 @@
     ne -- při -- čí -- tá vi -- nu.
   }
   \header {
-    piece = "2. ant. - VI.F (Žalm 32(31))"
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 32"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -141,7 +177,12 @@ tIctvrtekNespAntIII = \score {
     bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
   }
   \header {
-    piece = "3. ant. - IV alt.A (Zj 11)"
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Zj 11"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 

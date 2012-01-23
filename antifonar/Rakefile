@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 RUBY_COMMAND = 'ruby1.9.1'
 
 def genzalm(zalm, options="", adresar='generovane/')
@@ -24,11 +26,21 @@ def test_lilypondbook_version
 end
 
 ##############
+# promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
+o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
+o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
+o_columns = " --columns"
+
+commonoptions_withoutdoxology = '--novydvur-newlines'
+commonoptions = commonoptions_withoutdoxology+o_doxology
+canticleoptions = commonoptions+o_canticletitle
+
+##############
 # Antifonar: kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
 
-kompletar_options = "--columns --lettrine --dashes --no-paragraph"
+kompletar_options = commonoptions+"--columns"
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
@@ -63,6 +75,7 @@ file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do
   sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
 end
 
+desc "Antiphonal for the completory."
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
 task :default => [:kompletar]
@@ -89,7 +102,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   43 65 119zajin 53 54 49i 49ii
                   77 97 119chet 55i 55ii 62
                   80 81 119tet 56 57 72i 72ii
-                  147ii 119jod 59 60 116 121
+                  147ii 119jod 59 60 116i 121
                   92 8 119kaf 61 64
                   
                   113 116ii 93 148 111
@@ -109,52 +122,26 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
                   )
 
-commonoptions = '--novydvur-newlines'
-# commonoptions = ''
-# commonoptions = '--novydvur-newlines'
-
 cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
-canticleoptions = commonoptions+" --pretitle \"kantikum\\\\\\\\ \""
+dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrika{Na konci tohoto kantika se nepřipojuju doxologie Sláva Otci.}\""
 
-zalmyzaltare << genzalm('kantikum_fp2.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_ef1.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_zj4.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_kol1.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_zj11.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_zj15.zalm', canticleoptions, adresar_zaltar)
+# jedine kantikum bez doxologie
+zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
+# ostatni kantika
+%w( fp2 ef1 zj4 kol1 1petr2 zj11 zj15
 
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_1kron29.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_tob13i.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_jdt16.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_jer31.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz45.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_ex15.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_dan3ii.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_sir36.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz38.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_1sam2.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz12.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_hab3.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_dt32.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz2.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz26.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz33.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz40.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_jer14.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_mdr9.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz42.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_dan3iii.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz61.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_iz66.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_tob13ii.zalm', canticleoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_ez36.zalm', canticleoptions, adresar_zaltar)
+1kron29 tob13i jdt16 jer31 iz45 ex15 
+dan3ii sir36 iz38 1sam2 iz12 hab3 
+dt32 iz2 iz26 iz33 iz40 jer14 mdr9
+iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk| 
+  zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions, adresar_zaltar)
+end
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions, adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
@@ -168,11 +155,13 @@ end
 
 task :zaltar => ["antifonar_zaltar_1sl.pdf"]
 
+desc "Remove ALL files generated during the creation of a psalter."
 task :zaltar_clean => [:zaltar_texclean] do
   sh 'rm generovane/zaltar/zalm*.tex'
   sh 'rm generovane/zaltar/kantikum*.tex'
 end
 
+desc "Remove LaTeX files generated during the creation of a psalter."
 task :zaltar_texclean do
   (['pdf', 'aux', 'log', 'out'].map {|e| "antifonar_zaltar."+e}).each {|f|
     if File.exists? f then
@@ -207,7 +196,48 @@ file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex'
   }
 end
 
+desc "Psalter for the reading-office."
 task :cteni => ['antifonar_ctenizaltar.pdf']
+
+###############
+# zaltar pro slavnosti a svatky
+
+svatzalt_adresar = 'generovane/svatecnizaltar/'
+
+svatzalt_kantika = []
+%w( ef1 fp2 kol1 1petr2 zj4 zj11 zj15 zj19
+      iz38 hab3 ).each do |k|
+  svatzalt_kantika << genzalm("kantikum_"+k+".zalm", canticleoptions, svatzalt_adresar)
+end
+svatzalt_kantika << genzalm("kantikum_dan3i.zalm", dan3ioptions, svatzalt_adresar)
+
+file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt'] do
+  sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{svatzalt_adresar} svatecnizaltar_index.txt"
+end
+
+task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums'] do |t|
+  File.open(t.prerequisites.first, 'r') do |f|
+    # vlastni zalmy pro slavnosti a svatky - nacist cisla z generovaneho seznamu:
+    f.each_line do |n|
+      z = genzalm("zalm"+n.strip+".zalm", commonoptions, svatzalt_adresar)
+      Rake::Task[z].invoke
+    end
+    # zalmy invitatoria a rannich chval ne 1. tydne a doplnovaciho cyklu:
+    [95,100,67,24,
+    63, 149,
+    120,121,122, 123,124,125, 126,127,128].each do |n|
+      z = genzalm("zalm"+n.to_s+".zalm", commonoptions, svatzalt_adresar)
+      Rake::Task[z].invoke
+    end
+  end
+end
+
+file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
+  2.times { sh "pdflatex antifonar_svatecnizaltar" }
+end
+
+desc "Festal psalter"
+task :festzaltar => ['antifonar_svatecnizaltar.pdf']
 
 ###############
 # uvod
@@ -229,7 +259,79 @@ file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
   chdir '..'
 end
 
+desc "Introduction to the whole set of antiphonal volumes."
 task :uvod => ['vystup/antifonar_uvod.pdf']
+
+###############
+# nedele - notovane
+
+zalmynedele = []
+
+adresar_nedele = 'generovane/nedele/'
+
+cislazalmu_nedele = %w( 95 100 67 24
+
+                  141 142 63 149 118i 118ii 118iii 110 114
+
+                  119nun 16 118 150 23 76i 76ii 115
+                  
+                  113 116ii 93 148 111
+                  
+                  122 130 112
+                  )
+
+nedelecommonoptions = commonoptions+" --columns"
+
+cislazalmu_nedele.each do |z|
+  zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
+end
+
+nedelecanticleoptions = nedelecommonoptions+o_canticletitle
+
+zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
+
+zalmynedele << genzalm('kantikum_dan3i.zalm', dan3ioptions+" --columns", adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
+
+zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
+zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_nedele)
+
+noty_nedele = (1..4).map do |i| 
+  # nazev vygenerovaneho souboru s prvni antifonou
+  afn = adresar_nedele+"tyden#{i.to_s}_1nedele_1ne-ant1.ly"
+  # zpracovavany soubor s antifonami
+  sfn = "../antifony/tyden#{i.to_s}_1nedele.ly"
+  
+  file afn => [sfn] do
+    sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids #{sfn}"
+  end
+  
+  afn
+end
+
+file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../antifony/invitatoria.ly"
+end
+noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
+
+file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids nedele_verse.ly"
+end
+noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
+
+file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
+  test_lilypondbook_version
+  sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
+end
+
+file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex', 'spolecne.tex'] do
+  chdir 'vystup'
+  2.times { sh 'pdflatex antifonar_nedele.tex' }
+  chdir '..'
+end
+
+desc "Sunday antiphonal."
+task :nedele => ['vystup/antifonar_nedele.pdf']
 
 ###############
 # material k responsorialnimu prednesu zalmu 136
@@ -250,4 +352,5 @@ file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd ".."
 end
 
+desc "Psalm 136 - responsorial arrangement."
 task :zalm136 => ["vystup/zalm136.pdf"]

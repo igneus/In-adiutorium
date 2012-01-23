@@ -12,11 +12,12 @@
     zrá -- na sly -- šíš můj hlas.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 5"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -29,11 +30,12 @@
     Chvá -- lí -- me tvé slav -- né jmé -- no, náš Bo -- že.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f"
     psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -46,11 +48,12 @@
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 29(28)"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -70,11 +73,12 @@
     a o -- svět -- lu -- je o -- či.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a"
     psalmus = "Žalm 19(18)"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -89,11 +93,12 @@
     ná -- ro -- dy po -- dle prá -- va.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "2. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -109,11 +114,12 @@
     on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -128,11 +134,12 @@
     Hos -- po -- din zkou -- má srd -- ce člo -- vě -- ka.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a" 
     psalmus = "Žalm 11(10)"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -148,11 +155,12 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "2. ant." 
-    tonus = "VII"
+    modus = "VII"
     differentia = "a"
     psalmus = "Žalm 15(14)"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -169,11 +177,12 @@ tIpondeliNespAntIII = \score {
     za své dě -- ti.
   }
   \header {
-    piece = \markup {\choralAutoPiece}
     quid = "3. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f" 
     psalmus = "Ef 1,3-10"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
