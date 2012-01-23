@@ -26,11 +26,20 @@ def test_lilypondbook_version
 end
 
 ##############
+# promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
+o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
+o_doxology = " --append \"\\nopagebreak Sláva Otci.\"" 
+
+commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph"
+commonoptions = commonoptions_withoutdoxology+o_doxology
+canticleoptions = commonoptions+o_canticletitle
+
+##############
 # Antifonar: kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
 
-kompletar_options = "--columns --lettrine --dashes --no-paragraph"
+kompletar_options = commonoptions+"--columns"
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
@@ -112,18 +121,11 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
                   )
 
-commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph"
-commonoptions = commonoptions_withoutdoxology+" --append \"\\nopagebreak Sláva Otci.\"" 
-# commonoptions = ''
-# commonoptions = '--novydvur-newlines'
-
 cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
-canticleoptions = commonoptions+" --pretitle \"kantikum\\\\\\\\ \""
-
-dan3ioptions = commonoptions_withoutdoxology+" --pretitle \"kantikum\\\\\\\\ \"  --append \"\\rubrika{Na konci tohoto kantika se nepřipojuju doxologie Sláva Otci.}\""
+dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrika{Na konci tohoto kantika se nepřipojuju doxologie Sláva Otci.}\""
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
@@ -284,7 +286,7 @@ cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
 end
 
-nedelecanticleoptions = nedelecommonoptions+" --pretitle \"kantikum\\\\\\\\ \""
+nedelecanticleoptions = nedelecommonoptions+o_canticletitle
 
 zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
