@@ -28,7 +28,8 @@ end
 ##############
 # promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
 o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
-o_doxology = " --append \"\\nopagebreak Sláva Otci.\"" 
+o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
+o_columns = " --columns"
 
 commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph"
 commonoptions = commonoptions_withoutdoxology+o_doxology
