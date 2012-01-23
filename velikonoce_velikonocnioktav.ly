@@ -433,4 +433,51 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\nadpisDen {středa velikonoční}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Je -- žíš za -- čal od Moj -- ží -- še,
+      pro -- bral všech -- ny pro -- ro -- ky
+      a vy -- klá -- dal u -- čed -- ní -- kům,
+      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Je -- žíš ve -- šel s_u -- čed -- ní -- ky do do -- mu,
+      a když byl s_ni -- mi u sto -- lu,
+      vzal chléb,
+      pro -- ne -- sl nad ním po -- žeh -- ná -- ní,
+      roz -- lá -- mal ho a po -- dá -- val jim.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
