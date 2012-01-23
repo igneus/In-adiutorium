@@ -98,8 +98,8 @@ tInedeleInespAntIII = \score {
 
 \relative c' {
   \choralniRezim
-  d4 c( d) d d f( e) d4. d \barMin
-  f4 e f g f d4.( c) \barMin
+  d4 c( d) d d f( e) d4. d \barMaior
+  f4 e d e f d4.( c) \barMin
   d4( f) e c c d d \barFinalis
 }
 \addlyrics {
@@ -233,7 +233,6 @@ tInedeleInespResp = \score {
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
     d4 c a c d( f) d \barMin
     f g f d d \barMax
@@ -247,8 +246,77 @@ tInedeleInespResp = \score {
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "g" 
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c( d) f \barMin
+    g f e d d \barMax
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d f e d( c) a4.( g) \barMin
+    \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c f e( c) d \barMin
+    c( b) a b g g \barMax
+    a a g4. g
+    \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Žalm 63"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
