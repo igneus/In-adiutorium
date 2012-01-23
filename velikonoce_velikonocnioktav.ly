@@ -370,4 +370,67 @@
     }
   }
   
+  \markup\nadpisDen {úterý velikonoční}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f e( d) d d( a' g) g( a) a \barMaior
+      a a a a a g f g( a) a
+      a g( bes) a a \barMaior
+      c( d c) a( g) g4.( a) \barMin
+      a4 a( g f) g f d4. d \barMax
+      
+      d4 d d f( g) g
+      a g f g( a) a \barMaior
+      a a a a a g a a( c) c4.( a) \barMin
+      a4 f e d4. d \barMax
+      
+      d4 f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl: Ma -- ri -- e!
+      O -- na se k_ně -- mu o -- brá -- ti -- la 
+      a zvo -- la -- la: 
+      Rab -- bo -- ni!_- 
+      to zna -- me -- ná Mis -- tře!
+      
+      Je -- žíš jí ře -- kl:
+      Ne -- za -- dr -- žuj mě!
+      Ne -- boť jsem ješ -- tě ne -- vy -- stou -- pil
+      ke své -- mu Ot -- ci.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a( g f) g( f) e f( a) a a \barMin
+      b( c) a g( e) e f( e) f d4. d \barMax
+      d4 f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Když jsem pla -- ka -- la u hro -- bu,
+      spat -- ři -- la jsem své -- ho Pá -- na.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
