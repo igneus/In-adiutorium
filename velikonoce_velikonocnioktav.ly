@@ -437,21 +437,30 @@
   \markup\nadpisDen {středa velikonoční}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4 a a( c) c b c c( b a4.) a \barMin
+      a4 g f( e) d f f( g) g \barMaior
       
+      g g( f g) a( c) c b c a4. a \barMin
+      b4 c d c b c b( g) g \barMin
+      a4 g g( f) f( g) g \barMax
+      
+      g g( a) g4. g \barFinalis
     }
     \addlyrics {
       Je -- žíš za -- čal od Moj -- ží -- še,
       pro -- bral všech -- ny pro -- ro -- ky
+      
       a vy -- klá -- dal u -- čed -- ní -- kům,
-      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
+      co se ve všech čás -- tech Pís -- ma 
+      na něj vzta -- hu -- je.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -459,9 +468,14 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a a( e) e f g a a g a a \barMax
+      a b c a a b( g) g( e) e \barMaior
+      e d4.( e) \barMin
+      e4 d e f f g f g( a) a \barMaior
+      a( b a) g( f) e e \barMin e d c d( e) e \barMax
+      d d( f) e4. e \barFinalis
     }
     \addlyrics {
       Je -- žíš ve -- šel s_u -- čed -- ní -- ky do do -- mu,
@@ -473,8 +487,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
