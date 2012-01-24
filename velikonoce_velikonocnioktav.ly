@@ -494,4 +494,56 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\nadpisDen {čtvrtek velikonoční}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      a4 g( f) e( f e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c b) d( c) b( c) a( g) g( a) \barMin
+      a b b( c) c c a g a( f) f( e) \barMaior
+      d f g f( g) \barMax
+      g a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Po -- dí -- vej -- te 
+      se na mé ru -- ce a na mé no -- hy:
+      vždyť jsem to já!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
