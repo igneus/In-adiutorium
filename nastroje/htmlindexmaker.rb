@@ -13,6 +13,10 @@ puts <<EOS
 EOS
 i.each_line do |l|
   sep = l.index "/"
+  unless sep
+    STDERR.puts "Warning: skipping line '#{l}'"
+    next
+  end
   lyrics = l[0..sep-1]
   file = l[sep+1..-1].strip
   puts "    <tr> <td>#{lyrics}</td> <td>#{file}</td> </tr>"
