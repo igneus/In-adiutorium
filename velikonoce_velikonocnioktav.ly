@@ -546,4 +546,56 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\nadpisDen {pátek velikonoční}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g( f) f g f g( a) a \barMin
+      a c( b c) a( g) g( a) \barMaior
+      a a g f e f d d \barMax
+      d f( e) d d \barFinalis 
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "a" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a f) f( g) g \barMin
+      g f g a a g( a) a( g) g \barMin
+      f( g a) a \barMaior
+      a a c4.( g) \barMin
+      a4 f f( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
