@@ -96,13 +96,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a a f( g) a4. \breathe 
-    c4 b c a a a a g f e g( a) a \breathe \bar ""
-    a a a a b( g) g \breathe e g a( e) d e4. \bar "||"
+    g4 g( a) a g( a) b( c) c \barMin
+    c4 b c a a a a( b a) g f g a a \barMaior
+    a a a a g( e) e \barMin
+    f e d d( e) e \barFinalis
   }
   \addlyrics {
-    Když Je -- žíš vstal z_mrt -- vých, zje -- vil se nej -- dří -- ve
-    Ma -- ri -- i Mag -- dal -- ské, z_kte -- ré kdy -- si vy -- hnal
+    Když Je -- žíš vstal z_mrt -- vých, 
+    zje -- vil se nej -- dří -- ve
+    Ma -- ri -- i Mag -- dal -- ské, 
+    z_kte -- ré kdy -- si vy -- hnal
     se -- dm zlých du -- chů.
   }
   \header {
