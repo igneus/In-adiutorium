@@ -133,9 +133,10 @@ vizII = \markup { viz 2. týden žaltáře }
   }
   \header {
     quid = ". ant."
-    tonus = ""
+    modus = ""
     differentia = "" 
     psalmus = ""
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }
@@ -162,7 +163,10 @@ vizII = \markup { viz 2. týden žaltáře }
     \slavaRespText
   }
   \header {
-    piece = "responsorium - "
+    quid = "resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
   }
 }
 %}

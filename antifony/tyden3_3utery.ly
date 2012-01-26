@@ -15,9 +15,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "f" 
     psalmus = "Žalm 85"
+    id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -34,9 +35,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Iz 26"
+    id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,9 +53,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 67"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,9 +77,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a" 
     psalmus = "Žalm 119-XIII"
+    id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,9 +95,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 74-I"
+    id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,9 +114,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 74-II"
+    id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -121,17 +127,19 @@
 \score {
   \relative c' {
     \choralniRezim
+    \stemUp % aby ligaturova cara byla dole a nekolidovala s beckem
     f4 g g g a( bes a) a \breathe
-    a a g a g( f) f \bar "||"
+    g f a a g( f) f \bar "||"
   }
   \addlyrics {
     Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du.
   }
   \header {
     quid = "1. ant."
-    tonus = "VI"
+    modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 125"
+    id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -139,8 +147,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f f f f f f f e f d( c) c \breathe
-    d a c d d d d f g f e c d d4. \bar "||"
+    d4 f f f f f f f f e f d( c) c \barMax
+    d a c d d d \barMin d f g f e c d d4. \barFinalis
   }
   \addlyrics {
     Jest -- li -- že zno -- vu ne -- bu -- de -- te ja -- ko dě -- ti,
@@ -148,9 +156,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Žalm 131"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

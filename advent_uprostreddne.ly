@@ -2,56 +2,28 @@
 
 \header {
   title = "Modlitba uprostřed dne - doba adventní"
+  composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
 
-% Napev psalmodie a antifony maji ruzne autory - tato finta
-% zajisti zobrazeni autora u kazdeho kousku
-\paper {
-  scoreTitleMarkup = \markup {
-   \fill-line {
-     \fromproperty #'header:piece
-     \italic { \fromproperty #'header:composer }
-   }
-  }
-}
-
-\markup {
-  \justify {
-      Modlitba uprostřed dne o nedělích i všedních dnech celé doby
-      adventní má jedinou antifonu opakovanou ke všem třem
-      žalmům. Zde tedy nabízím jednoduchý nápěv pro žalmy i
-      pro antifonu. (Prozatím jen pro antifonu polední, protože
-      předpokládám, že většina lidí se modlí modlitbu uprostřed dne
-      jen jednou - a mnišské komunity, které se podle starobylého úzu
-      modlí tercii, sextu i nónu, mají beztak nápěvy vlastní
-      a krásnější.)
-  }
-}
-\markup {  
-  \justify {
-      Nápěv psalmodie je převzatý z jednoho webu amerických
-      katolíků byzantského ritu
-      (\typewriter {\tiny {http://www.patronagechurch.com/chant/Psalm%20Tones/Preshov.htm}}).
-      Antifona je nová.
-  }
-}
-
 \score {
-  \relative c'  {
+  \relative c'' {
     \choralniRezim
-    
-    d\breve
-    \breathe \mark "+" 
-    d\breve
-    \bar "|" \mark "*" 
-    e\breve f4 e \parenthesize d d2 
-    \bar "||"
+    g4 g g g( a) f e( g) g g \barMin
+    g g a c c d( b) c( a) a \barMin
+    b( c a) g f g g \barFinalis
+  }
+  \addlyrics {
+    Pro -- ro -- ci před -- po -- ví -- da -- li,
+    že se Spa -- si -- tel na -- ro -- dí z_Pan -- ny Ma -- ri -- e.
   }
   \header {
-    piece = "Psalmodie"
-    composer = "tradiční ruténský nápěv"
+    quid = "ant."
+    tonus = "VIII"
+    differentia = "G" 
+    psalmus = "dopoledne"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -60,9 +32,9 @@
     \choralniRezim
     
     d4 f( d) d
-    d e f g( f) e \breathe
-    d c( d) d \breathe
-    d d c d d f e c d d \bar "|."
+    d e f g( f) e \barMin
+    d c( d) d \barMin
+    d d c d d f e c d d \barFinalis
   }
   \addlyrics {
     Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
@@ -70,7 +42,33 @@
     Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
   }
   \header {
-    piece = "Antifona (poledne)"
-    composer = "Jakub Pavlík"
+    quid = "ant."
+    tonus = "II"
+    differentia = "D" 
+    psalmus = "poledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f g a a a bes a g f g g g \barMax
+    g g f e f( g a) a \barMin
+    a g a f( d) d \barMin
+    d f f f e f d d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el o -- zná -- mil Pan -- ně Ma -- ri -- i,
+    že se má stát mat -- kou
+    Bo -- ží -- ho Sy -- na,
+    a ne -- pře -- sta -- ne být pan -- nou.
+  }
+  \header {
+    quid = "ant."
+    tonus = "I"
+    differentia = "f" 
+    psalmus = "odpoledne"
+    piece = \markup {\sestavTitulek}
   }
 }

@@ -3,18 +3,23 @@
 % Predpokladane balicky: 
 % datetime, hyperref
 
-% Nasledujici dva prikazy vyuzivaji prikazy, ktere musi byt
+
+%
+% Titulni strana a tiraz svazku antifonare.
+% prikazy vyuzivaji prikazy, ktere musi byt
 % definovany v dokumentu:
 % \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+%
 
 \newcommand{\titulniStrankaSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \begin{titlepage}
     \begin{center}
       \soubornyNazev
       
       Svazeček \cisloSvazku.
       
-      \vspace*{9cm}
+      \vspace*{7cm}
       
       {\Huge \textbf{\nazev}}
           
@@ -30,7 +35,17 @@
   \end{titlepage}
 }
 
+\newcommand{\tirazProjekt}{
+  projekt In adiutorium - hudba k české liturgii hodin\\  
+    \url{http://inadiutorium.xf.cz}
+}
+
+\newcommand{\tirazSazbaProgramem}{
+  Vysázeno programy \LaTeX  a LilyPond.
+}
+
 \newcommand{\tirazSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \setlength{\parskip}{0.6cm}
 
   \begin{center}
@@ -40,10 +55,9 @@
 
     {\large \autor}
 
-    projekt In adiutorium - hudba k české liturgii hodin\\  
-    \url{http://inadiutorium.xf.cz}
+    \tirazProjekt
     
-    Vysázeno programy \LaTeX  a LilyPond.
+    \tirazSazbaProgramem
   \end{center}
 
   \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
@@ -54,9 +68,136 @@
   \end{center}
 }
 
+%
+% Vyrobi prazdnou stranku
+%
+
+\newcommand{\prazdnaStranka}{
+  \newpage \mbox{}
+  \newpage
+}
+
+%
+% Nasledujici prikazy vyrabeji hlavicku a paticku pro
+% male materialy obsahem a razem podobne materialum
+% z LilyPondu
+%
+
+\newcommand{\malyTitulek}{
+  \begin{center}
+    {\large \textbf{\nazev}}
+  \end{center}
+  \begin{flushright}
+    \autor
+  \end{flushright}
+}
+
+\newcommand{\malaTiraz}{
+  datum: \dmyyyydate \today
+  
+  licence: Creative Commons Attribution-ShareAlike 3.0 Unported
+  
+  projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
+  
+  sazba programy LilyPond a \LaTeX
+}
+
 % cesky format data:
 \renewcommand{\dateseparator}{.}
 
 % format data, kde je jen rok
 \newdateformat{onlyyeardate}{%
 \THEYEAR}
+
+
+%
+% Nasledujici prikazy slouzi strukturovani uvnitr textu antifonare
+%
+
+% tyden
+\newcommand{\nadpisTyden}[2]{
+  \begin{center}
+  {\LARGE \textsc{#1}}
+  \end{center}
+  \fancyhead[CE]{#2}
+  \addcontentsline{toc}{section}{#2}
+}
+
+% den
+\newcommand{\nadpisDen}[1]{
+  \begin{center}
+  {\LARGE #1}
+  \end{center}
+  \fancyhead[CO]{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+% hodinka
+\newcommand{\nadpisHodinka}[1]{
+  \begin{center}
+  \textbf{#1}
+  \end{center}
+}
+
+\newcommand{\modlitbaSeCtenim}{
+  \nadpisHodinka{Modlitba se čtením}
+}
+
+\newcommand{\ranniChvaly}{
+  \nadpisHodinka{Ranní chvály}
+}
+
+\newcommand{\modlitbaUprostredDne}{
+  \nadpisHodinka{Modlitba uprostřed dne}
+}
+
+\newcommand{\nespory}{
+  \nadpisHodinka{Nešpory}
+}
+
+\newcommand{\nesporyI}{
+  \nadpisHodinka{První nešpory}
+}
+
+\newcommand{\nesporyII}{
+  \nadpisHodinka{Druhé nešpory}
+}
+
+\newcommand{\kompletar}{
+  \nadpisHodinka{Kompletář}
+}
+
+% obvykle napr. "zalm 94"
+\newcommand{\nadpisZalmu}[1]{
+  \vspace{2mm}
+  \begin{center}
+    \textbf{#1}
+  \end{center}
+  \nopagebreak
+}
+
+% Napr. "hymnus", "responsorium", "zalmy"
+\newcommand{\nadpisTypTextu}[1]{
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{#1}}
+  \end{flushleft}
+  \nopagebreak
+}
+
+% rubrikovany text - treba i pro vlozeni do nerubrikovaneho
+\newcommand{\rubr}[1]{
+  \textcolor{red}{#1}
+}
+
+% rubrika - samostatna
+\newcommand{\rubrika}[1]{
+  \vspace{3mm}
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{1mm}
+}
+
+\newcommand{\znackaStrofaZalmu}{ 
+  \rubr{--}
+}

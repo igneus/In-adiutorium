@@ -1,0 +1,420 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+% cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
+% pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
+% rucne, ne pres rake.
+% \usepackage{czech} 
+
+\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+\usepackage{color} % barevny text
+
+\usepackage[T1]{fontenc}
+% font Palatino:
+% \usepackage[sc]{mathpazo}
+% \linespread{1.05}        
+
+% font Bookman:
+\usepackage{bookman}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
+\newcommand{\cisloSvazku}{4}
+\newcommand{\nazev}{Neděle v mezidobí}
+
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
+  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+  
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newenvironment{hora}{}{}
+
+\newcommand{\rubrikaZalmBylvInvitatoriu}{
+  \rubrika{Pokud se následující žalm zpíval jako invitatorium,
+  nahradí se zde žalmem 95, str. \pageref{zalm24}.}
+}
+\newcommand{\rubrikaBenedictus}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{Zachariášovo kantikum,} str. \pageref{benedictus}.}
+  \end{flushleft}
+}
+\newcommand{\rubrikaMagnificat}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{Kantikum Panny Marie,} str. \pageref{magnificat}.}
+  \end{flushleft}
+}
+\newcommand{\rubrikaInvitatorium}{
+  \rubrika{Jsou-li ranní chvály první modlitbou dne, předchází jim
+  invitatorium, str. \pageref{invitatorium}.}
+}
+
+\newcommand{\typZalmy}{
+  \nadpisTypTextu{Žalmy}
+}
+\newcommand{\typResponsorium}{
+  \nadpisTypTextu{Responsorium}
+}
+\newcommand{\typVers}{
+  \nadpisTypTextu{Verš}
+}
+
+% Obchazi system nadpisu generujicich hlavicky stranek
+% a zaznamy v obsahu -
+% protoze v antifonari pro nedele je zbytecna dvoustupnova
+% struktura tyden -> den.
+\newcommand{\nadpisNedele}[1]{
+  \begin{center}
+  {\LARGE Neděle #1. týdne}
+  \end{center}
+  \fancyhead[CE]{#1. týden žaltáře}
+  \fancyhead[CO]{Neděle}
+  \addcontentsline{toc}{section}{Neděle #1. týdne}
+}
+
+\begin{document}
+
+\input{spolecne.tex}
+
+\pagestyle{empty}
+
+\titulniStrankaSvazkuAntifonare
+
+\newpage \mbox{}
+\newpage % empty page
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
+\nadpisTyden{Kantika z evangelií}{Kantika z evangelií}
+\fancyhead[CE,CO]{Kantika z evangelií}
+
+\begin{hora}
+\label{benedictus}
+\input{generovane/nedele/kantikum_benedictus.tex}
+
+\label{magnificat}
+\input{generovane/nedele/kantikum_magnificat.tex}
+\end{hora}
+
+\nadpisTyden{Invitatorium}{Invitatorium}
+\fancyhead[CE,CO]{Invitatorium}
+\label{invitatorium}
+
+\begin{hora}
+\noindent \rubrika{1. a 3. neděle}
+\lilypondfile{generovane/nedele/invitatoria_t1ne.ly}
+\noindent \rubrika{2. a 4. neděle}
+\lilypondfile{generovane/nedele/invitatoria_t2ne.ly}
+\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
+strofě.}
+\input{generovane/nedele/zalm95.tex}
+\label{zalm24}
+\end{hora}
+
+\clearpage
+% \nadpisTyden{První týden}{1. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{1}
+
+\nesporyI
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant1.ly}
+\input{generovane/nedele/zalm141.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant2.ly}
+\input{generovane/nedele/zalm142.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
+\input{generovane/nedele/kantikum_fp2.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\ranniChvaly
+\rubrikaInvitatorium
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant1.ly}
+\input{generovane/nedele/zalm63.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant2.ly}
+\input{generovane/nedele/kantikum_dan3i.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant3.ly}
+\input{generovane/nedele/zalm149.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
+\end{hora}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden1_1nedele_up-ant1.ly}
+\input{generovane/nedele/zalm118i.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_up-ant2.ly}
+\input{generovane/nedele/zalm118ii.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_up-ant3.ly}
+\input{generovane/nedele/zalm118iii.tex}
+
+\typVers
+\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
+\end{hora}
+
+\nesporyII
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant1.ly}
+\input{generovane/nedele/zalm110.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant2.ly}
+\input{generovane/nedele/zalm114.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\clearpage
+% \nadpisTyden{Druhý týden}{2. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{2}
+
+\nesporyI
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant1.ly}
+\input{generovane/nedele/zalm119nun.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant2.ly}
+\input{generovane/nedele/zalm16.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
+\input{generovane/nedele/kantikum_fp2.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\ranniChvaly
+\rubrikaInvitatorium
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant1.ly}
+\input{generovane/nedele/zalm118.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant2.ly}
+\input{generovane/nedele/kantikum_dan3ii.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-ant3.ly}
+\input{generovane/nedele/zalm150.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
+\end{hora}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden2_1nedele_up-ant1.ly}
+\input{generovane/nedele/zalm23.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_up-ant2.ly}
+\input{generovane/nedele/zalm76i.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_up-ant3.ly}
+\input{generovane/nedele/zalm76ii.tex}
+
+\typVers
+\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
+\end{hora}
+
+\nesporyII
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant1.ly}
+\input{generovane/nedele/zalm110.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant2.ly}
+\input{generovane/nedele/zalm115.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\clearpage
+% \nadpisTyden{Třetí týden}{3. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{3}
+
+\nesporyI
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant1.ly}
+\input{generovane/nedele/zalm113.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant2.ly}
+\input{generovane/nedele/zalm116ii.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
+\input{generovane/nedele/kantikum_fp2.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\ranniChvaly
+\rubrikaInvitatorium
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant1.ly}
+\input{generovane/nedele/zalm93.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant2.ly}
+\input{generovane/nedele/kantikum_dan3i.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant3.ly}
+\input{generovane/nedele/zalm148.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
+\end{hora}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden3_1nedele_up-ant1.ly}
+\input{generovane/nedele/zalm118i.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_up-ant2.ly}
+\input{generovane/nedele/zalm118ii.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_up-ant3.ly}
+\input{generovane/nedele/zalm118iii.tex}
+
+\typVers
+\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
+\end{hora}
+
+\nesporyII
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant1.ly}
+\input{generovane/nedele/zalm110.tex}
+\lilypondfile{generovane/nedele/tyden3_1nedele_2ne-ant2.ly}
+\input{generovane/nedele/zalm111.tex}
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\clearpage
+% \nadpisTyden{Čtvrtý týden}{4. týden žaltáře}
+% \nadpisDen{Neděle}
+\nadpisNedele{4}
+
+\nesporyI
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden4_1nedele_1ne-ant1.ly}
+\input{generovane/nedele/zalm122.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_1ne-ant2.ly}
+\input{generovane/nedele/zalm130.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
+\input{generovane/nedele/kantikum_fp2.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat
+
+\ranniChvaly
+\rubrikaInvitatorium
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant1.ly}
+\input{generovane/nedele/zalm118.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant2.ly}
+\input{generovane/nedele/kantikum_dan3ii.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_rch-ant3.ly}
+\input{generovane/nedele/zalm150.tex}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
+\end{hora}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden4_1nedele_up-ant1.ly}
+\input{generovane/nedele/zalm23.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_up-ant2.ly}
+\input{generovane/nedele/zalm76i.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_up-ant3.ly}
+\input{generovane/nedele/zalm76ii.tex}
+
+\typVers
+\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
+\end{hora}
+
+\nesporyII
+\begin{hora}
+\typZalmy
+\lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant1.ly}
+\input{generovane/nedele/zalm110.tex}
+\lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant2.ly}
+\input{generovane/nedele/zalm112.tex}
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
+\begin{multicols}{2}
+  \input{kantikum_zj19.tex}
+\end{multicols}
+
+\typResponsorium
+\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
+\end{hora}
+\rubrikaMagnificat 
+
+\clearpage
+\pagestyle{empty} % bez hlavicky a bez cisla stranky
+\tableofcontents
+
+\clearpage
+\tirazSvazkuAntifonare
+
+\end{document}

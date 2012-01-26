@@ -7,10 +7,6 @@
 
 \include "spolecne.ly"
 
-\markup {
-  Žalm se zpívá na gregoriánský tonus VIII.G*
-}
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -35,7 +31,7 @@
     Ne -- chci, a -- by bez -- bož -- ný ze -- mřel, a -- le a -- by se o -- brá -- til a žil, pra -- ví Pán. 
   }
   \header {
-    piece = "antifona - poledne - VIII.G*"
+    piece = "antifona - poledne - VIII.G"
   }
 }
 
@@ -49,6 +45,6 @@
     Svou věr -- nost ve služ -- bě Bo -- hu a bliž -- ním pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
   }
   \header {
-    piece = "antifona - odpoledne - VIII.G*"
+    piece = "antifona - odpoledne - VII.d"
   }
 }

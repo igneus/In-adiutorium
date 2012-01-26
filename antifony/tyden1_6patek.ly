@@ -13,10 +13,11 @@
     o -- bě -- tech na svém ol -- tá -- ři, Hos -- po -- di -- ne.
   }
   \header {
-    tonus = "III"
+    modus = "III"
     differentia = "a" 
     quid = "1. ant."  
     psalmus = "Žalm 51"
+    id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -32,10 +33,11 @@
     ce -- lý rod Iz -- ra -- e -- le.
   }
   \header {
-    tonus = "VII"
+    modus = "VII"
     differentia = "c" 
     quid = "2. ant."  
     psalmus = "Iz 45"
+    id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -50,9 +52,10 @@
   }
   \header {
     quid = "3. ant."  
-    tonus = "VII"
+    modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 100"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -72,10 +75,11 @@
     dal jsem před -- nost tvým roz -- hod -- nu -- tím.
   }
   \header {
-    tonus = "IV"
+    modus = "IV"
     differentia = "g" 
     quid = "1. ant."  
     psalmus = "Žalm 119-IV"
+    id = "rch-up1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -90,10 +94,11 @@
     a pro -- to jsem ne -- vrá -- vo -- ral.
   }
   \header {
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "c" 
     quid = "2. ant."  
     psalmus = "Žalm 26"
+    id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -108,10 +113,11 @@
     dos -- tal jsem po -- moc.
   }
   \header {
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     quid = "3. ant."  
     psalmus = "Žalm 28"
+    id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,10 +134,11 @@
     pro -- ti to -- bě.
   }
   \header {
-    tonus = "IV"
+    modus = "IV"
     differentia = "g" 
     quid = "1. ant."  
     psalmus = "Žalm 41"
+    id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -147,10 +154,11 @@
     Bůh Ja -- ku -- bův je na -- ší tvr -- zí.
   }
   \header {
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     quid = "2. ant."  
     psalmus = "Žalm 46"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -166,10 +174,11 @@ tIpatekNespAntIII = \score {
     před te -- bou kla -- nět.
   }
   \header {
-    tonus = "IV"
+    modus = "IV"
     differentia = "g" 
     quid = "3. ant."  
     psalmus = "Zj. 15"
+    id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

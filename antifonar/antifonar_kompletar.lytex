@@ -1,8 +1,14 @@
-\documentclass[a4paper]{article}
+\documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=2.5cm]{geometry} % okraje stranky
+\usepackage[margin=1.5cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -10,88 +16,115 @@
 \newcommand{\nazev}{Kompletář}
 \newcommand{\textDoTiraze}{
   Používání \emph{nápěvů antifon} je vázáno licencí 
-  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons Attribution-ShareAlike 3.0 Unported},
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
   která dává komukoli právo je dále šířit, upravovat a využívat
   ve svých vlastních dílech, za předpokladu, že uvede informaci
   o autorovi původního díla a při dalším šíření zachová licenční 
   podmínky.
   
-  \emph{Texty liturgie hodin} jsou majetkem České biskupské konference. 
-  Autor tohoto díla neobdržel licenci k jejich šíření. Publikace tohoto 
-  antifonáře je tedy, přísně vzato, protiprávní. Výše uvedenou
-  licenci hudební složky díla nelze v žádném případě vztahovat
-  na dílo jako celek.
+  \emph{Texty Denní modlitby církve} 
+  jsou majetkem České biskupské konference. 
+  Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
+  týká se pouze jeho hudební složky.
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newcommand{\nadpisZalmu}[1]{
-  \begin{center}
-    \textbf{#1}
-  \end{center}
-  \nopagebreak
-}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{spolecne.tex}
 
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
 \titulniStrankaSvazkuAntifonare
 
-psalmodie - modus II\footnote{}
-\lilypondfile{kompletar_1.ly}
+\prazdnaStranka
 
-\section*{Neděle po 1. nešporách}
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
 
-\lilypondfile{kompletar_2.ly}
-\input{zalm4.tex}
-\input{doxologie.tex}
+\pagestyle{fancy}
 
-\lilypondfile{kompletar_3.ly}
-\input{zalm134.tex}
-\input{doxologie.tex}
+psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
+kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
+na který jinak odkazujeme, a proto je tu výjimečně reprodukován.
+Pochází z {\it Antiphonale Romanum}, Řím 1912, s. *26.}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_psalmodie.ly}
 
-\section*{Neděle po 2. nešporách}
+\nadpisDen{Neděle po 1. nešporách}
 
-\lilypondfile{kompletar_4.ly}
-\input{zalm91.tex}
-\input{doxologie.tex}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_nei1.ly}
+\input{generovane/kompletar/zalm4.tex}
+% \input{generovane/kompletar/doxologie.tex}
 
-\section*{Pondělí}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_nei2.ly}
+\input{generovane/kompletar/zalm134.tex}
+% \input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile{kompletar_5.ly}
-\input{zalm86.tex}
-\input{doxologie.tex}
+\rubrika{Responsorium a Simeonovo kantikum s antifonou se zpívají
+každý den stejně a u následujících dnů se proto neopakují.}
 
-\section*{Úterý}
+\nadpisTypTextu{Responsorium}
 
-\lilypondfile{kompletar_6.ly}
-\input{zalm143.tex}
-\input{doxologie.tex}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_resp.ly}
 
-\section*{Středa}
+\nadpisTypTextu{Simeonovo kantikum}
 
-\lilypondfile{kompletar_7.ly}
-\input{zalm31.tex}
-\input{doxologie.tex}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_sim.ly}
+\input{generovane/kompletar/kantikum_nuncdimittis.tex}
+% \input{generovane/kompletar/doxologie_2akcenty.tex}
 
-\lilypondfile{kompletar_8.ly}
-\input{zalm130.tex}
-\input{doxologie.tex}
+\nadpisDen{Neděle po 2. nešporách}
 
-\section*{Čtvrtek}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_neii.ly}
+\input{generovane/kompletar/zalm91.tex}
+% \input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile{kompletar_9.ly}
-\input{zalm16.tex}
-\input{doxologie.tex}
+\nadpisDen{Pondělí}
 
-\section*{Pátek}
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_po.ly}
+\input{generovane/kompletar/zalm86.tex}
+% \input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile{kompletar_10.ly}
-\input{zalm88.tex}
-\input{doxologie.tex}
+\newpage % ZLOM
+
+\nadpisDen{Úterý}
+
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ut.ly}
+\input{generovane/kompletar/zalm143.tex}
+% \input{generovane/kompletar/doxologie.tex}
+
+\newpage % ZLOM
+
+\nadpisDen{Středa}
+
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st1.ly}
+\input{generovane/kompletar/zalm31.tex}
+% \input{generovane/kompletar/doxologie.tex}
+
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st2.ly}
+\input{generovane/kompletar/zalm130.tex}
+% \input{generovane/kompletar/doxologie.tex}
+
+\newpage % ZLOM
+
+\nadpisDen{Čtvrtek}
+
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ct.ly}
+\input{generovane/kompletar/zalm16.tex}
+% \input{generovane/kompletar/doxologie.tex}
+
+\nadpisDen{Pátek}
+
+\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_pa.ly}
+\input{generovane/kompletar/zalm88.tex}
+% \input{generovane/kompletar/doxologie.tex}
 
 \clearpage
 \tirazSvazkuAntifonare

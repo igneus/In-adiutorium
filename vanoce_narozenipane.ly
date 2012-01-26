@@ -113,9 +113,9 @@ doxologieRespAlelujaVI = {
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a g g( c) c b( c) a( g) g \breathe
-      g f g a4. a4 b c a4. g \breathe
-      g4 a g a( c) c b c a( g) g \bar "||"
+      g4 a g g( c) c b( c) a( g) g \barMin
+      g f g a4. a4 b c d4. d \barMax
+      c4( d) a a b( c) c b a g( a g) g \barFinalis
     }
     \addlyrics {
       Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
@@ -129,38 +129,16 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
-
-  \markup {Další verze téže antifony, kterou jsem omylem složil, zapomenuv,
-  že už jeden nápěv má:}
-
+  
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
   \score {
     \relative c' {
       \choralniRezim
-      d4 c( d e f) f g f e( f) d( c) c \breathe
-      c d e e( f) f f( g f) d e4. e \breathe
-      e4( g) g g a( f e) d \breathe
-      c d d( f e) d \bar "||"
-    }
-    \addlyrics {
-      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
-      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
-    }
-    \header {
-      quid = "ant."
-      tonus = "II"
-      differentia = "D" 
-      psalmus = "Magnificat"
-      piece = \markup {\sestavTitulek}
-    }
-  }
-
-  \markup {\nadpisHodinka {"ranní chvály"}}
-
-  \score {
-    \relative c'' {
-      \choralniRezim
-      d4( e) c d c b( c) a( g) g \breathe
-      b( c d4.) d c4 b a( g) g \bar "||"
+      e4 d e g4.( a) \barMin
+      b4( a b) g( f) e \barMax
+      d( f) f \barMin
+      e d d( e) e \barFinalis
     }
     \addlyrics {
       Kris -- tus se nám na -- ro -- dil:
@@ -168,12 +146,99 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VII"
-      differentia = "d" 
-      psalmus = "invitatorium"
+      tonus = "IV"
+      differentia = "E" 
+      psalmus = ""
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a( c) c \barMin
+      c( b) c a( b g4.) g \barMax
+      a4 f f f e( g) g \barFinalis
+    }
+    \addlyrics {
+      Pán mi ře -- kl:
+      Ty jsi můj Syn,
+      já jsem tě dnes zplo -- dil.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f g a a b( c d) c( d) d \barMax
+      d c( b) a4.( g) \barMin
+      g4 a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Slun -- ce spra -- ve -- dl -- nos -- ti vy -- chá -- zí
+      a zá -- ří
+      ce -- lé -- mu svě -- tu.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "a" 
+      psalmus = "Žalm 19A"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( g) a( c) c4. \barMin
+      d4 c b a( b g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 45"
+      fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d( e c4.) c a4 c c( d) d \barMaior
+      d f( e) f e4.( d4 c) \barMin
+      f( e d) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      tonus = "II"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c'' {
@@ -328,9 +393,9 @@ doxologieRespAlelujaVI = {
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a c b c a g a a \breathe
-      a a a d( c d) e( f) d c c d d \breathe
-      d c b c b a g g \bar "||"
+      a4 a a c b c d d c( b) b \barMin
+      d d d d( c d) e( f) d c c d d \barMin
+      d c( d) c b a b g g \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
@@ -517,6 +582,87 @@ doxologieRespAlelujaVI = {
   pro rok s nedělním cyklem B.}
   
   \markup {\nadpisHodinka {"1. nešpory"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g f g g( a) a a \barMin
+      g f g f( e) d \barMaior
+      d c d f( a) a a g( a) f4.( e4 d) \barMin
+      e e( f) g f d4. d \barFinalis
+    }
+    \addlyrics {
+      Ja -- kub byl O -- tec Jo -- se -- fa,
+      mu -- že Ma -- ri -- e,
+      z_kte -- ré se na -- ro -- dil Je -- žíš,
+      na -- zý -- va -- ný Kris -- tus.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "I"
+      differentia = "g" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      b4 d d \barMin
+      e c c d d \barMaior
+      
+      d d d c b a4.( b) \barMin
+      b4 b g a a b b \barMin
+      
+      d d( e c d) d \barMin
+      d c( b) a( g) g( a) a \barMin
+      a g a b( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Jo -- se -- fe,
+      sy -- nu Da -- vi -- dův,
+      
+      ne -- boj se k_so -- bě vzít
+      svou man -- žel -- ku Ma -- ri -- i;
+      
+      vždyť dí -- tě,
+      kte -- ré po -- ča -- la,
+      je z_Du -- cha sva -- té -- ho.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "b" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g a a a f e d4. d \barMax
+      d4( g) g g a a g f g a a \barMaior
+      a g( c) a4. a \barMin
+      f4 f a f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa 
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "I"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {Responsorium ze slavnosti Narození Páně.}
 
   \score {
     \relative c' {
@@ -537,7 +683,134 @@ doxologieRespAlelujaVI = {
     }
   }
   
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4( a) a \barMin
+      a( g a b a) g f e e \barMin
+      e d f e( d e) e \barMax
+      
+      f a b( g a) a \barMin
+      g a g f e d e e \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      tonus = "IV"
+      differentia = "E" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g a g g f e f( g) g g f( e) d4. d \barMin
+      f4 g a a c4. b \barMaior
+      c4 d c b a g a( f g4.) g \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g a a a g( f) g( a) a \barMin
+      a a b g g a a \barMin
+      a g a b g \barMin
+      e e g( f e) \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě rost -- lo a sí -- li -- lo,
+      by -- lo pl -- né moud -- ros -- ti
+      a mi -- lost Bo -- ží by -- la s_ním.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "IV"
+      differentia = "E" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulek}
+      fons = "Doslova - z tohoto materiálu, tento den, 2. nešpory, k Magnificat"
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4 g a g f g( a) a \barMin
+      a a g a bes( f) g a \barMin
+      a bes a a a g f g d d \barFinalis
+    }
+    \addlyrics {
+      Je -- ho o -- tec i mat -- ka
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = ". ant."
+      tonus = ""
+      differentia = "" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+      fons = "Kromě počátku z: slavnost Narození Páně, modlitba uprostřed dne - dopoledne"
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      
+      \neviditelna a
+      a4( c) b a a g f g( a) f( e) d4. \bar "|"
+      e4 g a f e4. e \bar "||" % \break
+      
+      \neviditelna d
+      a'4 a a a b( c) c \breathe a f f g f e d d \bar "|"
+      \neviditelna e
+      e4 g a f e4. e \bar "||" % \break
+      
+      a4 a c b c a a4. \bar "|"
+      a4 b g f e e4. \bar "||"
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+
+      \Verse Ty, kte -- rýs byl pod -- dán Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+      \Response smi -- luj se nad ná -- mi.
+
+      Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
+    }
+    \header {
+      piece = "responsorium - III"
+      fons = "Kromě verše melodie i text viz doba postní, neděle, ranní chvály"
+    }
+  }
   
   \markup\justify {Následující antifona se při zachování významu
   textem mírně liší od té, která je uvedena v breviáři -
@@ -569,6 +842,105 @@ doxologieRespAlelujaVI = {
   }
   
   \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4( bes) f f( g a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e f) d d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "I"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g f g g( a) a \barMin
+      g f e f e e \barMax
+      f f e d f( g) g g a( f) g( f) e e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c( d) e( d) c b c d d \barMin
+      c( d) d d c( b) a( g) g \barMaior
+      a b c a g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- spí -- val moud -- ros -- tí,
+      vě -- kem i ob -- li -- bou
+      u Bo -- ha i u li -- dí.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f g f g a a( g) \barMax
+      g g f d f g g( f) f \barFinalis
+      % V
+      \neviditelna a4
+      a a g( a) g g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g f d f g g( f) f \barFinalis
+      % Slava
+      a4 a a( bes) a a g( a) g \barMin
+      g a g f g g( a)
+      \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- tus byl vy -- zkou -- šen ve všem ja -- ko my,_*
+      a pro -- to má s_ná -- mi sou -- cit.
+      \Verse Stal se člo -- vě -- kem a žil me -- zi lid -- mi,_*
+      \Response a pro -- to má s_ná -- mi sou -- cit.
+      \slavaRespText
+    }
+    \header {
+      piece = "responsorium - VI"
+    }
+  }
   
   \score {
     \relative c' {
@@ -845,6 +1217,104 @@ doxologieRespAlelujaVI = {
   }
 
   \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
+  
+  \markup {Responsoria jsou jako ze slavnosti Narození Páně (viz breviář).}
+
+  \markup {\nadpisHodinka {"1. nešpory"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a g( f) g a( f) g e \barMax
+      
+      f g a a( bes) a a g f e f g4.( a) \barMin
+      a4 g a g f e( f d) d \barMax
+      
+      d d f( g) g g f g a( bes a) a \barMin
+      a bes4. c4( bes) a4. d, \barMin
+      e4 f g( e) d \barFinalis
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "I"
+      differentia = "a" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      b4 c c a( g) a \barMin
+      a g f g a b c c \barMin
+      c d c b( c a) g4. g \barMax
+      
+      a4( f) e e d d e e( f) e \barMin
+      a( c) c b( g) e \barMin
+      f a a a g f e4. e \barFinalis
+    }
+    \addlyrics {
+      Když se Syn Bo -- ží
+      na -- ro -- dil z_Pan -- ny Ma -- ri -- e,
+      a -- by nás vy -- kou -- pil,
+      
+      se -- stou -- pil zá -- zrač -- ně z_ne -- be
+      ja -- ko ro -- sa
+      na Ge -- de -- o -- no -- vo rou -- no.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "III"
+      differentia = "b" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4( b c) d c b( c a) \barMin
+      a g( f) e f f a a \barMax
+      
+      a g4.( a) \barMin
+      b4 c a b( c) c \barMin
+      d( c) d e c( b a4.) a \barMin
+      g4 g f g a b c a g g a a \barMax
+      
+      a( c d) c( b) a b g a4. \barFinalis
+    }
+    \addlyrics {
+      Moj -- ží -- šův keř,
+      kte -- rý v_oh -- ni ne -- sho -- řel,
+      
+      je nám,
+      Ro -- dič -- ko Bo -- ží,
+      zna -- me -- ním tvé -- ho
+      slav -- né -- ho, ne -- po -- ru -- še -- né -- ho pa -- nen -- ství.
+      
+      Při -- mlou -- vej se za nás.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "IV alt"
+      differentia = "A" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
 
   \score {
     \relative c' {
@@ -880,6 +1350,134 @@ doxologieRespAlelujaVI = {
     }
   }
   
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4 e f f e d e( f) e4.( d) \barMin
+      e4( f) f g a a \barMax
+      a g a bes( g bes) a \barMin
+      g a f e( d) d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- me Mat -- ku Bo -- ží,
+      Pan -- nu Ma -- ri -- i;
+      klaň -- me se Kris -- tu,
+      je -- jí -- mu Sy -- nu!
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+      fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      a( b c) d c( b) a c( b) a( g) g \barMaior
+      g( a) f g a a a g a g g \barMax
+      
+      a( b) c c4.( d) \barMin
+      c4 b a( g) a( f) g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      
+      Bo -- že náš, te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      tonus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      b4 c d c4.( b) \barMin
+      c4 b a a a( b) a g g \barMax
+      
+      g f g a( c) c c c( d) d \barMax
+      
+      d d( f) e d c( d) d \barMaior
+      d c d b( c a4.) a \barMin
+      c4 b a( g) g \barMax
+      
+      g g( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a nám 
+      po -- ro -- di -- la Spa -- si -- te -- le.
+      
+      Když ho Jan u -- vi -- děl, zvo -- lal:
+      
+      Hle, Be -- rá -- nek Bo -- ží,
+      ten, kte -- rý sní -- má
+      hří -- chy svě -- ta.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      tonus = "VII"
+      differentia = "b" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 a a c b c c( d) d \barMin
+      d d d( e c4.) c \barMin
+      d4 c( a) b b g \barMax
+      
+      a( c) b c( d) d d c b c d d \barMaior
+      d c b a4. a a4( b) c a g g \barMax
+      
+      a f g a c c \barMin
+      b a g( a) g g \barMax
+      
+      g f( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Ro -- dič -- ka zro -- di -- la Krá -- le,
+      je -- hož jmé -- no
+      tr -- vá na -- vě -- ky;
+      
+      ra -- du -- je se ze své -- ho ma -- teř -- ství
+      a zů -- stá -- vá jí slá -- va pa -- nen -- ství.
+      
+      Ne -- ní jí po -- dob -- né me -- zi že -- na -- mi.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      tonus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -906,6 +1504,10 @@ doxologieRespAlelujaVI = {
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \markup {Antifony k žalmům jako v 1. nešporách.}
   
   \score {
     \relative c' {

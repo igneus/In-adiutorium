@@ -15,7 +15,7 @@
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
 
 sazeciProgram = \markup {        
-  \with-url #"http://lilypond.org/web/" {
+  \with-url #"http://lilypond.org/" {
     LilyPond \simple #(lilypond-version) (http://lilypond.org/)
   }
 }
@@ -47,7 +47,7 @@ inAdiutorium = \markup {
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props
 		     (markup #:bold
-			     #:huge 
+			     #:large
 			     #:with-color #'red obsah)))
 
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
@@ -58,7 +58,15 @@ inAdiutorium = \markup {
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:tonus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
+}
+
+sestavTitulekBezZalmu = \markup {
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
+}
+
+sestavTitulekResp = \markup {
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
 }
 
 % choral --------------------------------------------------------
@@ -70,6 +78,10 @@ choralniRezim = {
   % noty bez nozicek
   \override Stem #'transparent = ##t
 
+  % nozky maji nulovou delku a tak neovlivnuji legatove cary
+  % (tento radek resi problem "vznasejicich se car")
+  \override Stem #'Y-extent = ##f
+  
   % nedelat taktove cary    
   \cadenzaOn
   
@@ -95,22 +107,18 @@ choralniPredznamenaniII =
     }
   #})
 
-% Vytvori hlavicku "piece" pro antifonu
-% pouziti: \header { piece = \markup {\choralAutoPiece}}
-% Predpoklada, ze jsou definovane (nestandartni) hlavicky
-% quid, tonus, differentia, psalmus
-choralAutoPiece = \markup {
-  \concat {
-    \fromproperty #'header:quid 
-    " - " 
-    \fromproperty #'header:tonus 
-    . 
-    \fromproperty #'header:differentia 
-    " (" 
-    \fromproperty #'header:psalmus 
-    )
-  }
+% Choralni "pomlky" (divisiones)
+
+barMin = {
+  \breathe
+  \bar ""
 }
+barMaior = {
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
+  \bar "|" 
+}
+barMax = { \bar "|" }
+barFinalis = { \bar "||" }
 
 % Specialni znaky pro responsoria -------------------------------
 

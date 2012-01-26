@@ -14,9 +14,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 108"
+    id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -34,9 +35,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "g" 
     psalmus = "Iz 61"
+    id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,9 +53,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "VI"
+    modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 146"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,17 +68,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( d) c \breathe b c a( g) g \breathe a b c a g f( g) g \bar "||"
+    g4 a c( d) c \barMin 
+    b c a( g) g \barMax 
+    a b c a g f( g) g \barFinalis
   }
   \addlyrics {
-    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    Vo -- lám k_to -- bě, 
+    Hos -- po -- di -- ne,
     spo -- lé -- hám na tvá slo -- va.
   }
   \header {
     quid = "1. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 119-XIX"
+    id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -90,9 +97,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "IV"
+    modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 94-I"
+    id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -108,9 +116,10 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "IV"
+    modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 94-II"
+    id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,9 +137,10 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 139-I"
+    id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -147,9 +157,10 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 139-II"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
