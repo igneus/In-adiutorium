@@ -85,8 +85,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) e( f) f( e) f( d) d \breathe
-    e g( f) d d \breathe c f e d \bar "||"
+    d4 d( f) e f g f e e( f) d d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,
