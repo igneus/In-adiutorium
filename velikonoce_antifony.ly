@@ -12,6 +12,14 @@
     subtitle = "Společné"
   }
   
+  \markup\justify {Následující zpěvy se užívají
+  po celou dobu velikonoční s výjimkou velikonočního
+  oktávu a dnů, které mají zpěvy vlastní.
+  Ke zpěvům společným pro celou dobu velikonoční
+  patří i responsoria, která jsou ale
+  z praktických důvodů vyčleněna do samostatného
+  souboru.}
+  
   \markup {\nadpisHodinka {"invitatorium"}}
   
   \score {
