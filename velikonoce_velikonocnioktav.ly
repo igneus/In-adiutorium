@@ -662,17 +662,21 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d c b c d( e d) d \barMin
+      d d( f) e d d \barMaior
+      f( g) a f( d) d f e( d) \barMax
+      e c c( d) d \barFinalis
     }
     \addlyrics {
-      Po -- hleď na mé jiz -- vy a do -- tkni se jich,
+      Po -- hleď na mé jiz -- vy 
+      a do -- tkni se jich,
       ne -- po -- chy -- buj a věř.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -680,12 +684,19 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      \key f \major
+      a4 a a a a bes( a) g( f) e \barMin
+      f( g) g( a) a \barMaior
+      a4( g f) g( f) d4. d \barMax
+      d4( g) f f g g \barMaior
+      g bes( a bes) g( a) g( f) f \barMin
+      f g( f) e( f) d d \barMax
     }
     \addlyrics {
-      Pro -- to -- že jsi mě u -- vi -- děl, To -- má -- ši,
+      Pro -- to -- že jsi mě u -- vi -- děl, 
+      To -- má -- ši,
       u -- vě -- řil jsi.
       Bla -- ho -- sla -- ve -- ní,
       kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
@@ -693,8 +704,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
