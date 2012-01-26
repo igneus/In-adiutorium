@@ -261,7 +261,7 @@
       d4 d d( f) f g g g g f e d d \barMaior
       e( d) c c d c a a \barMin
       a c d f g f e d4. d \barMax
-      e4 f( e) c d \barFinalis
+      d4 f( e) d4. d \barFinalis
     }
     \addlyrics {
       Zá -- hy zrá -- na prv -- ní -- ho dne po so -- bo -- tě
@@ -382,7 +382,7 @@
       a4 a( g f) g f d4. d \barMax
       
       d4 d d f( g) g
-      a g f g( a) a \barMaior
+      a g f g g \barMaior
       a a a a a g a a( c) c4.( a) \barMin
       a4 f e d4. d \barMax
       
@@ -604,8 +604,11 @@
   \score {
     \relative c' {
       \choralniRezim
+      % zatim jsem v antifone nenasel zadnou dobrou
+      % delici logiku a tak jsou divisiones maiores
+      % rozmistene proste tak, aby se antifona "dala udychat"
       e f( g) a g a4. a \barMin
-      a4 a( b) a g( a g f e) e \barMin
+      a4 a( b) a g( a g f e) e \barMaior
       d( e) e f g a a a g g( a) a \barMin
       a a a a( b a) g f g( f) g( a) a \barMaior
       a a b g g( e) e \barMin
