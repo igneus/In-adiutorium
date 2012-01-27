@@ -22,6 +22,8 @@
   
   \markup {\nadpisHodinka {"invitatorium"}}
   
+  \markup{Od konce velikonočního oktávu do slavnosti Nanebevstoupení Páně:}
+  
   \score {
     \relative c' {
       \choralniRezim
@@ -30,6 +32,29 @@
     \addlyrics {
       Pán vstal z_mrt -- vých,
       a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup{Od slavnosti Nanebevstoupení Páně:}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
     }
     \header {
       quid = "ant."
