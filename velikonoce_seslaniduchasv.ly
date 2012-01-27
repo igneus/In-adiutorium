@@ -88,9 +88,18 @@
 % !!!!! Responsorium vzit z lonska nebo slozit nove?
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4( d) d( a) a b( g) g \barMin
+    a g a c b a a \barMaior
+    a a( g f) g( f) g( a) \barMin g( f) e f d d \barMax
     
+    d d d( a') a( g a) g( f) f( g) g g \barMin
+    a( b c) b g a a \barMaior
+    a g a( c) c c b( g) g \barMin
+    a( b a) g( f) f( g a) g g \barMax
+    
+    g a( b c a) g( a g) g \barFinalis
   }
   \addlyrics {
     Přijď, Du -- chu sva -- tý,
@@ -99,14 +108,15 @@
     
     ty jsi shro -- máž -- dil ná -- ro -- dy
     v_jed -- no -- tě ví -- ry,
-    i když kaž -- dý z_nich mlu -- ví ji -- ným ja -- zy -- kem.
+    i když kaž -- dý z_nich mlu -- ví 
+    ji -- ným ja -- zy -- kem.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
