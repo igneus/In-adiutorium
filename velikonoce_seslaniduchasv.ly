@@ -214,17 +214,21 @@ doxologieRespAlelujaVI = {
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 g( a) a( g) a f( g) g( a g f) g( a) a \barMin
+    b( c) a( g) g a( g) f( e) e \barMin
+    e( d g) g( a) f( e) d f( e) e \barMax
+    e d( g) f( e) e \barFinalis
   }
   \addlyrics {
-    A -- po -- što -- lo -- vé hlá -- sa -- li ci -- zí -- mi ja -- zy -- ky
+    A -- po -- što -- lo -- vé hlá -- sa -- li 
+    ci -- zí -- mi ja -- zy -- ky
     vel -- ké Bo -- ží skut -- ky.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -268,7 +272,9 @@ doxologieRespAlelujaVI = {
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( f d c) c d f e( f) f \barMin
+    g f e e f c( d) d \barMax
+    c d d( e d) d \barFinalis
   }
   \addlyrics {
     Ko -- mu hří -- chy od -- pus -- tí -- te,
@@ -277,8 +283,8 @@ doxologieRespAlelujaVI = {
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
