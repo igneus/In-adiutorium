@@ -27,7 +27,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d( a') g( a) a \barMaior
+      g a b( c) a4.( g) \barMin a4 f e( d) d \barFinalis
     }
     \addlyrics {
       Pán vstal z_mrt -- vých,
@@ -35,8 +36,8 @@
     }
     \header {
       quid = "ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
