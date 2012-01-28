@@ -292,4 +292,203 @@ doxologieRespAlelujaVI = {
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d( a) c( d) d \barMin
+    d( e f) d( c) c d( c) b c b c( d) d \barMaior
+    d d( e) d c d4.( a) \barMin
+    f4( g) a b c( a g4.) g \barMax
+    g4 g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý 
+    na -- pl -- nil srd -- ce a -- po -- što -- lů
+    a za -- pá -- lil v_nich 
+    o -- heň své lás -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d e d c( d) d( c a4.) a \barMaior
+    a4 a( g a) c( d) c4.( d) \barMin
+    d4( e) f f( c) c b( c) a( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Roz -- množ v_nás, Pa -- ne, svou ví -- ru,
+    a o -- svěť nás 
+    svět -- lem Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "a" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g a) g f e4. e \barMin
+    f4( e) f g( a) a e f d \barMax
+    e c d4. d \barFinalis
+  }
+  \addlyrics {
+    Duch va -- še -- ho Ot -- ce
+    bu -- de mlu -- vit skr -- ze vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) f( e d) d \barMin
+    c b a a b( a) g g \barMax
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 114"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Všich -- ni by -- li na -- pl -- ně -- ni Du -- chem sva -- tým
+    a za -- ča -- li mlu -- vit.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Zj 19"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f f f e g g a \barMax
+    \respAlelujaVI \barFinalis
+    
+    % V
+    \neviditelna f
+    f f f f f f f f( g) f f e( d) \barMin
+    f f f f f e g g a \barMax
+    % R
+    \neviditelna a
+    \respAlelujaVI \barFinalis
+    
+    % Slava
+    \doxologieRespAlelujaVI \barFinalis
+  }
+  \addlyrics {
+    \Response Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět._*
+    \respAlelujaText
+    \Verse Všech -- no u -- dr -- žu -- je a ob -- no -- vu -- je,
+    pro -- mlou -- vá k_li -- dem všech ja -- zy -- ků._*
+    \Response \respAlelujaText
+    \slavaRespText
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    O let -- ni -- cích
+    se Duch sva -- tý
+    zje -- vil a -- po -- što -- lům v_oh -- ni
+    a na -- pl -- nil je svý -- mi da -- ry;
+    
+    po -- slal je do ce -- lé -- ho svě -- ta
+    hlá -- sat e -- van -- ge -- li -- um
+    a vy -- dá -- vat svě -- dec -- tví:
+    Kdo u -- vě -- ří a dá se po -- křtít,
+    bu -- de spa -- sen.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
