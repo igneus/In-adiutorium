@@ -145,5 +145,136 @@
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) g g( a) a \barMin
+    c( b) b( c) a g g( a g) g \barMax
+    e( f g) g \barMin
+    g f g a( c) b a c( b) a( g) g \barMaior
+    a( f) e e( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé z_Ga -- li -- le -- je,
+    proč hle -- dí -- te k_ne -- bi?
+    Je -- žíš, 
+    kte -- rý byl vzat od vás do ne -- be,
+    za -- se při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c d) c( a) a b( c) b c( d) d \barMin
+    d d( b c) a( g) g a( g) f f g g \barMax
+    g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Krá -- le krá -- lů
+    a zpí -- vej -- te Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e d e e( a) a a \barMin
+    a b( g) g f e f e e \barMax
+    d d( f) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Před je -- jich zra -- ky byl vy -- zdvi -- žen
+    a ob -- lak jim ho vzal z_o -- čí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f g( f) \barMin f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- tus byl vzat do Ot -- co -- vy slá -- vy._* \textRespAleluja
+    \Verse Je mu dá -- na všech -- na moc na ne -- bi i na ze -- mi._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+} 
+
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( g) f f( g) g a( g) f f( g) g \barMin
+    a a( f) e f d4. d \barMax
+    a'4( c) c b( a) a \barMin
+    a g( f) e f d d \barMax
+    d f( e) d4. d \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 \markup {\nadpisHodinka {"2. nešpory"}}
