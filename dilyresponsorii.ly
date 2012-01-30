@@ -21,6 +21,38 @@ respVIalelujaDoxologie = {
   a a g a( g) f f
 }
 
+%{ Kostra alelujatickeho responsoria modu VI:
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response * \textRespAleluja
+    \Verse 
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+} 
+%}
+
 %% Nealelujaticka responsoria modu VI:
 
 respVIdoxologie = {
