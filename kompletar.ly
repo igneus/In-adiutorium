@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \paper {
   ragged-bottom=##f
@@ -217,14 +218,14 @@
     \neviditelna g
     g4 f g( a g) g \barMin f d f g g( f) f \barFinalis
     % Slava
-    a4 a a( bes) a g g( a) g \barMin g a g f g g4.( a) \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
     do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
     \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
     \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -258,17 +259,6 @@
     piece = \markup {\sestavTitulek}
     id = "sim"
   }
-}
-
-respAlelujaVI = { 
-  a4 a( g) g f \breathe d f( g) g f 
-}
-
-respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \breathe
-  a a g a( g) f f
 }
   
 \bookpart {
@@ -343,22 +333,22 @@ doxologieRespAlelujaVI = {
       \neviditelna f
       f4 f \barMin f f g f e( d) d \barMaior
       d e f f f f f e g a \barMax
-      \respAlelujaVI \barFinalis
+      \respVIalelujaResponsum \barFinalis
       % V
       \neviditelna f
       f4 f f f f f( g f) f \barMin f e g( a) a \barMax
       % R
       \neviditelna a
-      \respAlelujaVI \barFinalis
+      \respVIalelujaResponsum \barFinalis
       % Slava
-      \doxologieRespAlelujaVI \barFinalis
+      \respVIalelujaDoxologie \barFinalis
     }
     \addlyrics {
       \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,
-      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot._* \respAlelujaText
+      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot._* \textRespAleluja
       \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že._*
-      \Response \respAlelujaText
-      \slavaRespText
+      \Response \textRespAleluja
+      \textRespDoxologie
     }
     \header {
       quid = "resp."
