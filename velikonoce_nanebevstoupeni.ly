@@ -277,4 +277,74 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f( g) g \barMin
+    g f e d c c( d) d d \barMax
+    d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí 
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4( f) g f( d) d f g a a( bes a) a \barMin
+    a a( g f) e f d d \barMax
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) c \barMin
+    d( a) a \barMin
+    b c( a) g f f( g) g \barMax
+    g g( a) g4 g \barFinalis
+  }
+  \addlyrics {
+    Zve -- dl ru -- ce,
+    žeh -- nal
+    a vzná -- šel se k_ne -- bi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"2. nešpory"}}
