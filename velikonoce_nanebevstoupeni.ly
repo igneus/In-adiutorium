@@ -348,3 +348,119 @@
 }
 
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( d) d c( b) a a \barMin
+    b a( g) a c b c a( g) g \barMax
+    a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstou -- pil do ne -- be,
+    se -- dí po pra -- vi -- ci Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bůh se vzná -- ší za já -- so -- tu,
+    Hos -- po -- din vy -- stu -- pu -- je za hla -- ho -- lu trub.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 47"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    a Bůh je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Zj 11"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f f f f f f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- stu -- pu -- ji k_své -- mu Ot -- ci a va -- še -- mu Ot -- ci._* \textRespAleluja
+    \Verse Za -- se vás u -- vi -- dím a va -- še srd -- ce se bu -- de ra -- do -- vat._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+} 
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Krá -- li slá -- vy,
+    Vlád -- ce vše -- ho tvor -- stva,
+    dnes vy -- stu -- pu -- ješ ja -- ko ví -- těz na ne -- be -- sa;
+    ne -- ne -- chá -- vej nás sa -- mot -- né,
+    a -- le po -- šli nám slí -- be -- né -- ho Du -- cha prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
