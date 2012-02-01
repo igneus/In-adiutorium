@@ -7,10 +7,6 @@
 
 \include "spolecne.ly"
 
-\markup {
-  Žalm se zpívá na gregoriánský tonus VII.a
-}
-
 \score {
   \relative c'' {
     \choralniRezim
