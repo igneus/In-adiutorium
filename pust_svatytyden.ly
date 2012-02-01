@@ -7,6 +7,41 @@
 
 \include "spolecne.ly"
 
+\bookpart {
+  \header {
+    subtitle = "Společné"
+  }
+  
+  \markup\justify{
+    Následující zpěvy jsou společné pro dobu od prvních nešpor
+    Květné neděle do modlitby uprostřed dne ve čtvrtek Svatého
+    týdne.
+  }
+  
+  \markup {\nadpisHodinka {"invitatorium"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on byl pro nás po -- kou -- šen a za nás tr -- pěl.
+    }
+    \header {
+      quid = "ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -85,4 +120,18 @@
     id = "odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
+}
+} % bookpart
+
+\bookpart {
+  \header {
+    subtitle = "Vlastní texty pro jednotlivé dny"
+  }
+  
+  \markup\nadpisDen{Květná neděle}
+  
+  \markup {\nadpisHodinka {"1. nešpory"}}
+  \markup {\nadpisHodinka {"ranní chvály"}}
+  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  \markup {\nadpisHodinka {"2. nešpory"}}
 }
