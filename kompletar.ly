@@ -274,7 +274,7 @@
     ragged-last-bottom=##t
   }
   
-  \markup {Následující antifona z: Liber usualis, New York-Tournai, 1961, 266.}
+  \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
   
   \score {
     \relative c'' {
