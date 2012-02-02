@@ -207,17 +207,21 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 g( a) a a bes a g a f( g a4.) a \barMaior
+      a4 a( g) f e f e d d \barMax
+      e f f f g a g g \barMin
+      g a f e f d d \barFinalis
     }
     \addlyrics {
       Tak dlou -- ho jsem u -- čil u vás v_chrá -- mě,
       a ne -- zmoc -- ni -- li jste se mě;
-      ny -- ní jste mě zbi -- čo -- va -- li a ve -- de -- te mě na kříž.
+      ny -- ní jste mě zbi -- čo -- va -- li 
+      a ve -- de -- te mě na kříž.
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "f" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -267,20 +271,30 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g( a) a( g) \barMin
+      a( c) c b( g) g b a g a( g) g \barMaior
+      g g f e f( g) f( g) g \barMin 
+      g g a g f g g( a) g g \barMaior
+      g g g f( g) a( c) c \barMin
+      c( d c) b( g) g a g f( g) g \barFinalis
     }
     \addlyrics {
-      Mno -- ho li -- dí pro -- stí -- ra -- lo na ces -- tu pláš -- tě,
-      ji -- ní za -- se vět -- vič -- ky, kte -- ré na -- ře -- za -- li na po -- lích,
-      a vo -- la -- li:
+      Mno -- ho li -- dí 
+      pro -- stí -- ra -- lo na ces -- tu pláš -- tě,
+      ji -- ní za -- se vět -- vič -- ky, 
+      kte -- ré na -- ře -- za -- li na po -- lích,
+      % Slovo 'vsichni' jsem pridal, protoze stavba
+      % melodie by jinak svadela k pochopeni, ze volali
+      % jen ti s vetvickami
+      a všich -- ni vo -- la -- li:
       Ho -- sa -- na na vý -- sos -- tech!
     }
     \header {
       quid = "ant. k Magnificat /cyklus B/"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
