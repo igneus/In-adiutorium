@@ -210,15 +210,59 @@
       
     }
     \addlyrics {
-  
+      Tak dlou -- ho jsem u -- čil u vás v_chrá -- mě,
+      a ne -- zmoc -- ni -- li jste se mě;
+      ny -- ní jste mě zbi -- čo -- va -- li a ve -- de -- te mě na kříž.
     }
     \header {
-      quid = ". ant."
+      quid = "1. ant."
       modus = ""
       differentia = "" 
       psalmus = ""
       id = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a a b( a) g( e) e \barMin
+      f g a g f e e \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din mi po -- má -- há,
+      pro -- to ne -- jsem za -- han -- ben.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a bes( a g) f( d) d \barMin
+      e e f a a g g( a) a \barMin
+      a bes a g a d, d \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se po -- ní -- žil 
+      a byl po -- sluš -- ný až k_smr -- ti,
+      a to k_smr -- ti na kří -- ži.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -228,46 +272,13 @@
       
     }
     \addlyrics {
-  
+      Mno -- ho li -- dí pro -- stí -- ra -- lo na ces -- tu pláš -- tě,
+      ji -- ní za -- se vět -- vič -- ky, kte -- ré na -- ře -- za -- li na po -- lích,
+      a vo -- la -- li:
+      Ho -- sa -- na na vý -- sos -- tech!
     }
     \header {
-      quid = ". ant."
-      modus = ""
-      differentia = "" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulek}
-    }
-  }
-  
-  \score {
-    \relative c' {
-      \choralniRezim
-      
-    }
-    \addlyrics {
-  
-    }
-    \header {
-      quid = ". ant."
-      modus = ""
-      differentia = "" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulek}
-    }
-  }
-  
-  \score {
-    \relative c' {
-      \choralniRezim
-      
-    }
-    \addlyrics {
-  
-    }
-    \header {
-      quid = "ant. k Magnificat"
+      quid = "ant. k Magnificat /cyklus B/"
       modus = ""
       differentia = "" 
       psalmus = ""
