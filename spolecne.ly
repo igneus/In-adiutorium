@@ -10,6 +10,10 @@
   }
 }
 
+\paper {
+  markup-markup-spacing #'padding = #2
+}
+
 % "tiraz" -------------------------------------------------------
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
