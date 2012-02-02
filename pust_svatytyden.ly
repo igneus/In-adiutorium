@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 
 \header {
   title = "Modlitba uprostřed dne - Svatý týden"
@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \bookpart {
   \header {
@@ -23,7 +24,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+      d4 d d d e( d) c( a) a \barMin a c d e( d) d \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -32,13 +35,48 @@
     }
     \header {
       quid = "ant."
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisHodinka {"ranní chvály"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      
+      % R
+      \neviditelna a
+      a4 a a a a b a g( e) e \barMax
+      e f f f g f e( d) e \barFinalis
+      % V
+      \neviditelna a
+      a( b a) g( e) e \barMin e d e f a g f( e) e \barMax
+      % R
+      \neviditelna a
+      e f f f g f e( d) e \barFinalis
+      % Slava
+      a a a( b) a a g( a) a \barMin a g f f( d) e4. e \barFinalis
+    }
+    \addlyrics {
+      \Response Pa -- ne, ty ses dal při -- bít na kříž_*
+      a pro -- lil jsi za nás svou krev.
+      \Verse Vy -- dal ses za spá -- su ce -- lé -- ho svě -- ta_*
+      \Response a pro -- lil jsi za nás svou krev.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      id = ""
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -121,6 +159,40 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+  \markup {\nadpisHodinka {"nešpory"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      % R
+      \neviditelna d
+      d4( a' g) a( g) f g( a) a \barMin a( bes) a g f e a4. a \barMax
+      a4 g a bes( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
+      % V
+      \neviditelna a
+      c' c4.( a) c4 c( b c) d( c) b a4. a \barMax
+      % R
+      \neviditelna a
+      a4 g a bes!( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
+      % Slava
+      a'4 a a g f g( a) a \barMin a bes a g( bes) a4. a \barFinalis
+    }
+    \addlyrics {
+      \Response Kla -- ní -- me se ti, Pa -- ne Je -- ží -- ši Kris -- te,_*
+      svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \Verse Tvůj kříž je zna -- me -- ním spá -- sy,_*
+      \Response svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "I"
+      id = ""
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
 } % bookpart
 
 \bookpart {
@@ -131,6 +203,79 @@
   \markup\nadpisDen{Květná neděle}
   
   \markup {\nadpisHodinka {"1. nešpory"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"ranní chvály"}}
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
   \markup {\nadpisHodinka {"2. nešpory"}}
