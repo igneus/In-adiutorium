@@ -222,6 +222,47 @@ doxologieResponsoriumVI = \relative c'' {
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a a a a b g g( a) a \barMin
+    a g( f) g f d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on vzal dí -- tě do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    b c c c c c d c b( g) g \barMin
+    g g( c) b g a( f g) g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on vzal dí -- tě do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = ""
+    fons = "Část melodie z antifony k Benedictus tohoto svátku"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a( d) d e( f) d( c) d \barMaior
     d( c) b c( a g) g \barMin
     a( g) f g( a g) g \barFinalis
@@ -273,6 +314,8 @@ doxologieResponsoriumVI = \relative c'' {
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -296,6 +339,32 @@ doxologieResponsoriumVI = \relative c'' {
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) a( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    a b b( c) c c d c b( g) g \barMin
+    g g( c) b g a( f g) g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
