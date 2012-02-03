@@ -85,8 +85,8 @@
     \choralniRezim
     
     g4 b d d d d d c b c4. d \barMaior
-    d4 d a( b) c c b c b c d a a \barMax
-    d d d d f e c d d \barMin
+    d4 d c( b c) c \barMin c b c b c d a a \barMax
+    d d d d f e c c( d) d \barMin
     c b c d a4. g4 g c b g g \barFinalis
   }
   \addlyrics {
@@ -302,6 +302,168 @@
   }
   
   \markup {\nadpisHodinka {"ranní chvály"}}
-  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Zá -- stu -- py, kte -- ré při -- šly na svát -- ky, vo -- la -- ly:
+      Po -- žeh -- na -- ný, jenž při -- chá -- zí ve jmé -- nu Pá -- ně,
+      ho -- sa -- na na vý -- sos -- tech.
+    }
+    \header {
+      quid = "1. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Spo -- lu s_an -- dě -- ly a dět -- mi u -- kaž -- me svou ví -- ru 
+      a vo -- lej -- me vstříc ví -- tě -- zi nad smr -- tí:
+      Ho -- sa -- na na vý -- sos -- tech!
+    }
+    \header {
+      quid = "2. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Po -- žeh -- na -- ný ten,
+      kte -- rý při -- chá -- zí ve jmé -- nu Hos -- po -- di -- no -- vě;
+      po -- koj na ne -- bi a slá -- va na vý -- sos -- tech!
+    }
+    \header {
+      quid = "3. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Ho -- sa -- na!
+      Po -- žeh -- na -- ný ten,
+      kte -- rý při -- chá -- zí ve jmé -- nu Pá -- ně!
+      Po -- žeh -- na -- né krá -- lov -- ství na -- še -- ho ot -- ce Da -- vi -- da,
+      kte -- ré při -- chá -- zí.
+    }
+    \header {
+      quid = "ant. k Benedictus /cyklus B/"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Kris -- ta zbi -- té -- ho a po -- ní -- že -- né -- ho
+      po -- vý -- šil Bůh svou pra -- vi -- cí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Kris -- tus sám na svém tě -- le
+      vy -- ne -- sl na -- še hří -- chy na dře -- vo kří -- že,
+      a -- by -- chom by -- li mrt -- ví hří -- chům
+      a ži -- li spra -- ved -- li -- vě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Buď po -- zdra -- ven, náš Krá -- li, 
+      sy -- nu Da -- vi -- dův, Vy -- ku -- pi -- te -- li svě -- ta!
+      O to -- bě před -- po -- ví -- da -- li pro -- ro -- ci,
+      že nám při -- ne -- seš spá -- su.
+    }
+    \header {
+      quid = "ant. k Magnificat /cyklus B/"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
