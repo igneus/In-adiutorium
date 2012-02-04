@@ -297,6 +297,21 @@ zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_ne
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
 zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_nedele)
 
+# prikaz pouzivany ke zpracovani vsech extrahovanych not pro
+# nedelni antifonar.
+# na konec se pouze pripoji jmeno souboru ke zpracovani.
+nedele_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        " --output-dir #{adresar_nedele} "+
+                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--insert-text \"\\layout { indent = 1.5\\cm \n short-indent = 0\\cm \n"+
+                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
+                                                                            "}\n\" "+
+                        "--remove-headers "+
+                        "--mode-info "+
+                        "--one-clef "+
+                        "--ids "
+
 noty_nedele = (1..4).map do |i| 
   # nazev vygenerovaneho souboru s prvni antifonou
   afn = adresar_nedele+"tyden#{i.to_s}_1nedele_1ne-ant1.ly"
@@ -304,31 +319,14 @@ noty_nedele = (1..4).map do |i|
   sfn = "../antifony/tyden#{i.to_s}_1nedele.ly"
   
   file afn => [sfn] do
-    sh "#{RUBY_COMMAND} -I ../nastroje "+ 
-          "../nastroje/splitscores.rb  --output-dir #{adresar_nedele} "+
-                                      "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
-                                      "--insert-text '\\layout { indent = 1.5\\cm \n short-indent = 0\\cm }\n' "+
-                                      "--remove-headers "+
-                                      "--mode-info "+
-                                      "--one-clef "+
-                                      "--ids "+
-                                      sfn
+    sh nedele_splitscores_command + sfn
   end
   
   afn
 end
 
 file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |t|
-  sh "#{RUBY_COMMAND} -I ../nastroje "+
-          "../nastroje/splitscores.rb "+
-                                      "--output-dir #{adresar_nedele} "+
-                                      "--prepend-text '\\include \"spolecne_antifonar.ly\"' "+
-                                      "--insert-text '\\layout { indent = 1.5\\cm \n short-indent = 0\\cm }\n' "+
-                                      "--remove-headers "+
-                                      "--mode-info "+
-                                      "--one-clef "+
-                                      "--ids "+
-                                      t.prerequisites.first
+  sh nedele_splitscores_command + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
