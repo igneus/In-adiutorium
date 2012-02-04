@@ -320,7 +320,7 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 
-file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
+file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex", "kantikum-Zj19.ly"]+zalmynedele+noty_nedele) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
 end
