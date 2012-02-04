@@ -50,7 +50,8 @@ setup = {:remove_headers => false,
               :output_dir => nil,
               :ids => false,
               :mode_info => false,
-              :verbose => false}
+              :verbose => false,
+              :insert_text => nil}
 
 optparse = OptionParser.new do|opts|
   opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
@@ -61,6 +62,9 @@ optparse = OptionParser.new do|opts|
   end
   opts.on "-t", "--prepend-text TEXT", "Text to be printed at the beginning of each file with a score" do |text|
     setup[:prepend_text] = text
+  end
+  opts.on "-i", "--insert-text TEXT", "Text to be inserted IN the score before the closing brace" do |text|
+    setup[:insert_text] = text
   end
   opts.on "-i", "--ids", "Instead of numbering the produced files, use property 'id' of each score" do
     setup[:ids] = true
@@ -130,6 +134,12 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
   if setup[:prepend_text]  then
     puts "  prepending given text" if setup[:verbose]
     newtext = setup[:prepend_text] + "\n" + newtext
+  end
+  
+  if setup[:insert_text] then
+    puts "  inserting given text" if setup[:verbose]
+    i = newtext.rindex "}"
+    newtext[i-1] = setup[:insert_text]
   end
   
   newtext
