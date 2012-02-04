@@ -323,6 +323,7 @@ file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |
           "../nastroje/splitscores.rb "+
                                       "--output-dir #{adresar_nedele} "+
                                       "--prepend-text '\\include \"spolecne_antifonar.ly\"' "+
+                                      "--insert-text '\\layout { indent = 1.5\\cm \n short-indent = 0\\cm }\n' "+
                                       "--remove-headers "+
                                       "--mode-info "+
                                       "--one-clef "+
