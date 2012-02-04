@@ -113,7 +113,7 @@
     b4 c a g a a \bar "||" % \break
     
     \neviditelna a
-    a4( g f) e \breathe a4 a a g f g a \bar "|"
+    a4( g f) e e \breathe a4 a a g f g a \bar "|"
     \neviditelna b
     b4 c a g a a \bar "||" % \break
 
