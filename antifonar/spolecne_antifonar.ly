@@ -105,9 +105,3 @@ neviditelna = #(define-music-function (parser location note)
     \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
-
-% text "Slava Otci" pro responsoria
-
-slavaRespText = \lyricmode {
-  Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
-}
