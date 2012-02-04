@@ -310,14 +310,24 @@ noty_nedele = (1..4).map do |i|
                                       "--insert-text '\\layout { indent = 1.5\\cm \n short-indent = 0\\cm }\n' "+
                                       "--remove-headers "+
                                       "--mode-info "+
-                                      "--ids #{sfn}"
+                                      "--one-clef "+
+                                      "--ids "+
+                                      sfn
   end
   
   afn
 end
 
-file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../antifony/invitatoria.ly"
+file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |t|
+  sh "#{RUBY_COMMAND} -I ../nastroje "+
+          "../nastroje/splitscores.rb "+
+                                      "--output-dir #{adresar_nedele} "+
+                                      "--prepend-text '\\include \"spolecne_antifonar.ly\"' "+
+                                      "--remove-headers "+
+                                      "--mode-info "+
+                                      "--one-clef "+
+                                      "--ids "+
+                                      t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
