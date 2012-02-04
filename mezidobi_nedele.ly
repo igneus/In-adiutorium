@@ -265,7 +265,7 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "VIII"
-      differentia = "G"
+      differentia = "c"
       psalmus = ""
       id = "ne5b-1ne-mag"
       piece = \markup {\sestavTitulekBezZalmu}
