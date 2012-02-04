@@ -304,7 +304,13 @@ noty_nedele = (1..4).map do |i|
   sfn = "../antifony/tyden#{i.to_s}_1nedele.ly"
   
   file afn => [sfn] do
-    sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' --remove-headers --mode-info --ids #{sfn}"
+    sh "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb  --output-dir #{adresar_nedele} "+
+                                      "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                                      "--insert-text '\\layout { indent = 1.5\\cm \n short-indent = 0\\cm }\n' "+
+                                      "--remove-headers "+
+                                      "--mode-info "+
+                                      "--ids #{sfn}"
   end
   
   afn
@@ -320,7 +326,7 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 
-file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex", "kantikum-Zj19.ly"]+zalmynedele+noty_nedele) do
+file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex", "kantikum-Zj19.ly", "spolecne_antifonar.ly"]+zalmynedele+noty_nedele) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
 end
