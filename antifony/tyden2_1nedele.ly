@@ -357,8 +357,8 @@ tIInedeleIInespResp = \score {
     f4 f g g a( c) a a g f g e f d d \barFinalis
     
     % V
-    \neviditelna a
-    a'4 a a a bes c bes a g( a) a \barMax
+    \neviditelna a'
+    a4 a a a bes c bes a g( a) a \barMax
     % R
     \neviditelna f
     f4 f g g a( c) a a g f g e f d d \barFinalis
