@@ -51,7 +51,8 @@ setup = {:remove_headers => false,
               :ids => false,
               :mode_info => false,
               :verbose => false,
-              :insert_text => nil}
+              :insert_text => nil,
+              :one_clef => false}
 
 optparse = OptionParser.new do|opts|
   opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
@@ -66,6 +67,14 @@ optparse = OptionParser.new do|opts|
   opts.on "-i", "--insert-text TEXT", "Text to be inserted IN the score before the closing brace" do |text|
     setup[:insert_text] = text
   end
+  
+  # ostatni volby jsou co mozna obecne, ale tato je velice konkretni
+  # a vklada po prvnich nekolika notach konkretni kousek kodu.
+  # Obecnejsi reseni jsem zatim nevymyslel a ani neni potreba.
+  opts.on "-c", "--one-clef", "Clef only on the first line" do
+    setup[:one_clef] = true
+  end
+  
   opts.on "-i", "--ids", "Instead of numbering the produced files, use property 'id' of each score" do
     setup[:ids] = true
   end
@@ -128,6 +137,25 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
         \\column { \\bold { #{score.header['modus']} } #{score.header['quid']} }
       }"
       newtext[i+1] = modinfo
+    end
+  end
+  
+  if setup[:one_clef] then
+    i = newtext.index "\\relative"
+    i = newtext.index '{', i if i
+    unless i
+      puts newtext
+      raise "Couldn't find, where notes begin."
+    end
+    begin
+      4.times {
+        i = newtext.index /\s[cdefgab]\d*[\(\)]*/, i+1
+        raise "Unable to find enough notes" unless i
+      }
+      
+      newtext[i] = "\n\\override Staff.Clef #'stencil = ##f\n"
+    rescue
+      STDERR.puts "Wasn't able to switch clef off."
     end
   end
   
