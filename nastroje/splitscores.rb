@@ -128,13 +128,13 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
     when /ant/
       puts "  adding mode information to score" if setup[:verbose]
       modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\column { \\bold { #{score.header['modus']}.#{score.header['differentia']} } \"#{score.header['quid']}\" }
+        \\center-column { \\bold { #{score.header['modus']}.#{score.header['differentia']} } \"#{score.header['quid']}\" }
       }"
       newtext[i+1] = modinfo
     when /resp/
       puts "  adding mode information to score" if setup[:verbose]
       modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\column { \\bold { #{score.header['modus']} } #{score.header['quid']} }
+        \\center-column { \\bold { #{score.header['modus']} } #{score.header['quid']} }
       }"
       newtext[i+1] = modinfo
     end
