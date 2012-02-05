@@ -31,7 +31,7 @@ o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
 o_columns = " --columns"
 
-commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph"
+commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets"
 commonoptions = commonoptions_withoutdoxology+o_doxology
 canticleoptions = commonoptions+o_canticletitle
 
