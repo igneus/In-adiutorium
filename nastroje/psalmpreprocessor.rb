@@ -312,6 +312,26 @@ module PsalmPreprocessor
       super
     end
   end
+  
+  class FrenchQuotesOutputStrategy < Strategy
+    def initialize(io)
+      super(io)
+      @quotenum = 0
+    end
+    
+    def puts(s="\n")
+      while i = s.index('"') do
+        @quotenum += 1
+        if (@quotenum % 2) == 1 then
+          s[i] = "\\guillemotright "
+        else
+          s[i] = "\\guillemotleft "
+        end
+      end
+      
+      @core.puts s
+    end
+  end
 end
 
 include PsalmPreprocessor
@@ -374,7 +394,8 @@ setup = {
   :prepend_text => nil,
   :append_text => nil,
   :dashes => false,
-  :paragraph_space => true
+  :paragraph_space => true,
+  :guillemets => false
 }
 
 optparse = OptionParser.new do|opts|
@@ -431,6 +452,10 @@ optparse = OptionParser.new do|opts|
   opts.on "-p", "--no-paragraph", "No empty line after each psalm paragraph." do
     setup[:paragraph_space] = false
   end
+  
+  opts.on "-g", "--guillemets", "Convert american quotes to french ones (guillemets)." do
+    setup[:guillemets] = true
+  end
 end
 
 optparse.parse!
@@ -469,6 +494,10 @@ ARGV.each do |f|
   output = LatexifySymbolsOutputStrategy.new output
   unless setup[:no_formatting]
     output = ParagraphifyVerseOutputStrategy.new output
+  end
+  
+  if setup[:guillemets] then
+    output = FrenchQuotesOutputStrategy.new output
   end
   
   # Two outputters which need to have emty lines as in the source
