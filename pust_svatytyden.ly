@@ -304,9 +304,11 @@
   \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a a a a b( c b) a b a g g( a) a a \barMax
+      a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
+      g e e g a g( a) a \barFinalis
     }
     \addlyrics {
       Zá -- stu -- py, kte -- ré při -- šly na svát -- ky, vo -- la -- ly:
@@ -315,8 +317,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "A" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -324,9 +326,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      c4 c c b a a b( c) c \barMin d c b c a4. a \barMaior
+      a4 a b g g4.( e) \barMin f4( e) d d f g g \barMaior
+      g( c b) c( a) a g f f( g) g \barFinalis
     }
     \addlyrics {
       Spo -- lu s_an -- dě -- ly a dět -- mi u -- kaž -- me svou ví -- ru 
@@ -335,8 +339,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -344,9 +348,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a a a a4.( e) \barMin
+      f4 g a a a a g a c b a g a \barMaior
+      a( c) b b( c) a a \barMin a b( g e4.) e \barMin d4 f f( e) e \barFinalis
     }
     \addlyrics {
       Po -- žeh -- na -- ný ten,
@@ -355,8 +361,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "III"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -365,8 +371,13 @@
   
   \score {
     \relative c' {
+      \key f \major
       \choralniRezim
-      
+      d4( a' g) g( a) a \barMaior
+      c( bes) a( g) f( g) g4. g \barMin
+      f4 g f( g) g( a) a \barMin g( a) f e d4. d \barMax
+      a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
+      g f e( f) d4. d \barFinalis
     }
     \addlyrics {
       Ho -- sa -- na!
@@ -377,8 +388,8 @@
     }
     \header {
       quid = "ant. k Benedictus /cyklus B/"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
