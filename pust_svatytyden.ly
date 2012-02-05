@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Modlitba uprostřed dne - Svatý týden"
+  title = "Svatý týden"
   composer = "Jakub Pavlík"
 }
 
