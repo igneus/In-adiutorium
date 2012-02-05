@@ -401,7 +401,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d f f f e d e d4. d \barMaior
+      f4( a) a a g4.( d) f4( e) c d d \barFinalis
     }
     \addlyrics {
       Kris -- ta zbi -- té -- ho a po -- ní -- že -- né -- ho
@@ -409,8 +410,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D2" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -420,7 +421,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 g a a a g f g( a) a \barMaior
+      a g f f g f( d) d \barMin d( f) e f d d \barFinalis
     }
     \addlyrics {
       Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
@@ -428,8 +430,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "f" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -437,9 +439,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 g g4.( a) g4 f e( f d) d \barMin
+      d c d f e f( g) g g f g g( a) a \barMaior
+      a a a a a g f e4. e \barMin
+      d4 e f g f d d \barFinalis
     }
     \addlyrics {
       Kris -- tus sám na svém tě -- le
@@ -449,8 +454,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -458,9 +463,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 f g g g( f) g( a) a \barMin
+      g( a) f g a a \barMin b c b c( a) a g( f g) g \barMax
+      g g g g f e d d f( g) f( g) g \barMin
+      a b c( d) c b c( a g4.) g \barFinalis
     }
     \addlyrics {
       Buď po -- zdra -- ven, náš Krá -- li, 
@@ -470,8 +478,8 @@
     }
     \header {
       quid = "ant. k Magnificat /cyklus B/"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
