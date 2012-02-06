@@ -377,7 +377,7 @@ module PsalmPreprocessor
       
       # lettrine is to be made of the first non-empty LateX-markup-less line:
       if @first && (@lineno <= 3) && 
-          (! s.index "\\") &&  (s !~ /^\s*$/) then
+          (s[0] != "\\") &&  (s !~ /^\s*$/) then
         STDOUT.puts "+++"+s
         @first = false
         
