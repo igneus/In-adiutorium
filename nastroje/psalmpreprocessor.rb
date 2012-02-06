@@ -339,53 +339,66 @@ module PsalmPreprocessor
       @core.puts s
     end
   end
+  
+  class TitleOutputStrategy < Strategy
+    # First line is a title. Format it as a title.
+    
+    # '#' in the pattern is the place where title text will be inserted
+    DEFAULT_PATTERN = "\\nadpisZalmu{#}"
+    
+    def initialize(io, pattern=DEFAULT_PATTERN)
+      super(io)
+      @pattern = pattern
+      @first = true
+    end
+    
+    def puts(s="\n")
+      if @first then
+        @first = false
+        i = @pattern.index '#'
+        sa = @pattern[0..i-1]+s+@pattern[i+1..-1]
+        @core.puts sa
+        STDOUT.puts sa
+      else
+        @core.puts s
+      end
+    end
+  end
+  
+  class LettrineOutputStrategy < Strategy
+    def initialize(io)
+      super(io)
+      @first = true
+      @lineno = 0
+    end
+    
+    def puts(s="\n")
+      @lineno += 1
+      
+      # lettrine is to be made of the first non-empty LateX-markup-less line:
+      if @first && (@lineno <= 3) && 
+          (! s.index "\\") &&  (s !~ /^\s*$/) then
+        STDOUT.puts "+++"+s
+        @first = false
+        
+        is = s.index " "
+        
+        # Czech Ch is one letter
+        if s =~ /^[Cc][Hh]/ then
+          cap = s[0..1].upcase
+        else
+          cap = s[0]
+        end
+        
+        @core.puts "\\lettrine{"+cap+"}{"+s[cap.size..is-1]+"} "+s[is+1..-1]
+      else
+        @core.puts s
+      end
+    end
+  end
 end
 
 include PsalmPreprocessor
-
-def preprocess_psalmfile(input, output, setup)  
-  # first line contains the title
-  if setup[:has_title] then
-    output.puts "\\nadpisZalmu{"+input.gets.chomp+"}"
-    output.puts input.gets # the second line is empty then
-  end
-  
-  nextl = nil
-  first_line = true
-  
-  loop do
-    l = input.gets
-    
-    unless l
-      break
-    end
-    
-    if first_line then
-      if setup[:lettrine] then
-        if l =~ /^\s*$/ then
-          next
-        end
-        
-        is = l.index " "
-        
-        # Czech Ch is one letter
-        if l =~ /^[Cc][Hh]/ then
-          cap = l[0..1].upcase
-        else
-          cap = l[0]
-        end
-        
-        l = "\\lettrine{"+cap+"}{"+l[cap.size..is-1]+"} "+l[is+1..-1]
-      end
-      
-      first_line = false
-    end
-    
-    l.chomp!
-        
-    output.puts l
-  end
-end
 
 require 'optparse'
 
@@ -505,7 +518,7 @@ ARGV.each do |f|
   
   if setup[:guillemets] then
     output = FrenchQuotesOutputStrategy.new output
-  end
+  end  
   
   # Two outputters which need to have emty lines as in the source
   if setup[:paragraph_space] then
@@ -522,7 +535,20 @@ ARGV.each do |f|
   
   output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
   
-  preprocess_psalmfile input, output, setup
+  # this must be applied later than TitleOutputStrategy
+  if setup[:lettrine] then
+    output = LettrineOutputStrategy.new output
+  end
+  
+  # first line contains the title
+  if setup[:has_title] then
+    output = TitleOutputStrategy.new output
+  end
+
+  while l = input.gets do
+    l.chomp!
+    output.puts l
+  end
   
   input.close
   output.close
