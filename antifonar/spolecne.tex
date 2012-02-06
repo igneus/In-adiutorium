@@ -180,7 +180,7 @@
 \newcommand{\nadpisTypTextu}[1]{
   \begin{flushleft}
   \noindent
-  \rubrika{\textsc{#1}}
+  \rubr{\textsc{#1}}
   \end{flushleft}
   \nopagebreak
 }
@@ -192,10 +192,26 @@
 
 % rubrika - samostatna
 \newcommand{\rubrika}[1]{
-  \vspace{3mm}
+  \vspace{2mm}
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{2mm}
+}
+
+% rubrika - predchazejici
+\newcommand{\rubrikaPred}[1]{
+  \vspace{2mm}
   % \textit{#1}
   \rubr{#1}
   \vspace{1mm}
+}
+
+% rubrika - nasledujici
+\newcommand{\rubrikaPo}[1]{
+  \vspace{1mm}
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{2mm}
 }
 
 \newcommand{\znackaStrofaZalmu}{ 
