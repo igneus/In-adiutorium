@@ -148,7 +148,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
-    sh "pdfcslatex antifonar_zaltar"
+    sh "pdflatex antifonar_zaltar"
   }
   # sh "dvipdf antifonar_zaltar.dvi"
 end
