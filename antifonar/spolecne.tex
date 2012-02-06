@@ -167,12 +167,17 @@
   \nadpisHodinka{Kompletář}
 }
 
-% obvykle napr. "zalm 94"
-\newcommand{\nadpisZalmu}[1]{
-  \vspace{2mm}
+\newcommand{\nadpisZalmuBezMezery}[1]{
   \begin{center}
     \textbf{#1}
   \end{center}
+  \nopagebreak
+}
+
+% obvykle napr. "zalm 94"
+\newcommand{\nadpisZalmu}[1]{
+  \vspace*{2mm}
+  \nadpisZalmuBezMezery{#1}
   \nopagebreak
 }
 
@@ -198,9 +203,15 @@
   \vspace{2mm}
 }
 
+% mezera, kterou se oddeli rubrika od textu, ke kteremu se _nevztahuje_,
+% aby byla vic prilepena k tomu, ke kteremu se vztahuje
+\newcommand{\rubrikaMezera}{
+  \vspace{4mm}
+}
+
 % rubrika - predchazejici
 \newcommand{\rubrikaPred}[1]{
-  \vspace{2mm}
+  \rubrikaMezera
   % \textit{#1}
   \rubr{#1}
   \vspace{1mm}
@@ -211,7 +222,7 @@
   \vspace{1mm}
   % \textit{#1}
   \rubr{#1}
-  \vspace{2mm}
+  \rubrikaMezera
 }
 
 \newcommand{\znackaStrofaZalmu}{ 

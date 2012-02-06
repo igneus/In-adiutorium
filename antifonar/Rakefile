@@ -131,7 +131,7 @@ dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubr
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
 # ostatni kantika
-%w( fp2 ef1 zj4 kol1 1petr2 zj11 zj15
+%w( fp2 ef1 zj4 kol1 zj11 zj15
 
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
@@ -139,6 +139,8 @@ dt32 iz2 iz26 iz33 iz40 jer14 mdr9
 iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions, adresar_zaltar)
 end
+# this canticle is special: it needs a special title, because it's preceded by a rubric.
+zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
