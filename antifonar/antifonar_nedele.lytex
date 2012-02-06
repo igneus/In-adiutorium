@@ -128,6 +128,7 @@
 \input{generovane/nedele/kantikum_magnificat.tex}
 \end{hora}
 
+\newpage % ZLOM0
 
 \nadpisTyden{Invitatorium}{Invitatorium}
 \fancyhead[CE,CO]{Invitatorium}
