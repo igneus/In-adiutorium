@@ -128,7 +128,6 @@
 \input{generovane/nedele/kantikum_magnificat.tex}
 \end{hora}
 
-\newpage % ZLOM1
 
 \nadpisTyden{Invitatorium}{Invitatorium}
 \fancyhead[CE,CO]{Invitatorium}
@@ -181,8 +180,6 @@ strofě.}
 \end{hora}
 \rubrikaBenedictus
 
-\newpage % ZLOM1
-
 \modlitbaUprostredDne
 \begin{hora}
 \typZalmy
@@ -232,8 +229,6 @@ strofě.}
 \end{hora}
 \rubrikaMagnificat
 
-\newpage % ZLOM1
-
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
@@ -260,7 +255,6 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden2_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
 
-\newpage % ZLOM1
 \typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
@@ -272,11 +266,9 @@ strofě.}
 \input{generovane/nedele/zalm110.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm115.tex}
-\newpage % ZLOM1
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
-\newpage % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
@@ -292,7 +284,6 @@ strofě.}
 \typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant1.ly}
 \input{generovane/nedele/zalm113.tex}
-\newpage % ZLOM1
 \lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant2.ly}
 \input{generovane/nedele/zalm116ii.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
@@ -303,8 +294,6 @@ strofě.}
 \end{hora}
 \rubrikaMagnificat
 
-\newpage % ZLOM1
-
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
@@ -313,7 +302,6 @@ strofě.}
 \input{generovane/nedele/zalm93.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant2.ly}
 \input{generovane/nedele/kantikum_dan3i.tex}
-\newpage % ZLOM1
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm148.tex}
 
@@ -335,8 +323,6 @@ strofě.}
 \typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
 \end{hora}
-
-\newpage % ZLOM1
 
 \nesporyII
 \begin{hora}
@@ -368,7 +354,6 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
-\newpage % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
 \end{hora}
@@ -390,8 +375,6 @@ strofě.}
 \end{hora}
 \rubrikaBenedictus
 
-\newpage % ZLOM1
-
 \modlitbaUprostredDne
 \begin{hora}
 \typZalmy
@@ -405,8 +388,6 @@ strofě.}
 \typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
 \end{hora}
-
-\newpage % ZLOM1
 
 \nesporyII
 \begin{hora}
