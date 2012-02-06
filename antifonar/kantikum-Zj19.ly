@@ -5,12 +5,27 @@
 
 \include "spolecne_antifonar.ly"
 
+DoubleResponse = \lyricmode { 
+  \markup { 
+    \with-color ##'red { 
+      % \concat { \override #'(font-name . "liturgy") {R} : }
+      \concat { \override #'(font-name . "Junicode") { \char ##x0211F \char ##x0211F } : }
+    }
+  }
+}
+
 % melodie aleluja
-mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
-malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
+imal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
+imalal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
 % text aleluja
-al = \lyricmode { \Response A -- le -- lu -- ja. }
-alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
+ial = \lyricmode { \Response A -- le -- lu -- ja. }
+ialal = \lyricmode { \DoubleResponse A -- le -- lu -- ja, a -- le -- lu -- ja. }
+
+mal = { \bar "||" \neviditelna f \bar "||" \break }
+malal = { \bar "||" \neviditelna a \bar "||" \break }
+% text aleluja
+al = \lyricmode { \Response }
+alal = \lyricmode { \DoubleResponse }
 
 \score {
   \relative c'  {
@@ -21,10 +36,10 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     
     \override Staff.Clef #'stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
     
-    \mal
+    \imal
     \neviditelna f
     f f f f f f f f f f f f e g a
-    \malal
+    \imalal
 
     % Chvalte...
     \neviditelna f
@@ -60,9 +75,9 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
   }
   \addlyrics {
     \Verse Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
-    \al
+    \ial
     \Verse ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
-    \alal
+    \ialal
 
     \Verse Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
     \al

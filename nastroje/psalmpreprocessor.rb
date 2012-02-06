@@ -289,6 +289,13 @@ module PsalmPreprocessor
   end
   
   class DashAfterStanzaOutputStrategy < Strategy
+    
+    # LaTeX code to produce the dash.
+    # \hfill flushes it to the right margin.
+    # \hspace*{0pt} is a magical spell to have it flushed right even if
+    # it's just after a line-break
+    DASH = " \\hspace*{0pt}\\hfill\\znackaStrofaZalmu"
+    
     def initialize(io)
       super(io)
       @store = nil
@@ -299,7 +306,7 @@ module PsalmPreprocessor
       
       if @store then
         if @store =~ /\w+/ && @store !~ /[\+\*]\s*$/ && s =~ /^\s*$/ && @store !~ /^\\nadpis/ then
-          @store += " \\hfill\\znackaStrofaZalmu"
+          @store += DASH
         end
         @core.puts @store
       end
