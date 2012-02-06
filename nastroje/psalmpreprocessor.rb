@@ -405,6 +405,7 @@ require 'optparse'
 setup = {
   :accents => [2,2],
   :has_title => true,
+  :title_pattern => nil,
   :no_formatting => false,
   :output_file => nil,
   :line_break_last_line => false,
@@ -425,6 +426,10 @@ optparse = OptionParser.new do|opts|
   
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
     setup[:has_title] = false
+  end
+  
+  opts.on "-T", "--title-pattern [PATTERN]", "Use a specified pattern instead of the default one.", do |p|
+    setup[:title_pattern] = p
   end
   
   opts.on "-f", "--no-formatting", "Just process accents and don't do anything else with the document" do
@@ -536,13 +541,18 @@ ARGV.each do |f|
   output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
   
   # this must be applied later than TitleOutputStrategy
+  # and before underlining the accents
   if setup[:lettrine] then
     output = LettrineOutputStrategy.new output
   end
   
   # first line contains the title
   if setup[:has_title] then
-    output = TitleOutputStrategy.new output
+    if setup[:title_pattern] then
+      output = TitleOutputStrategy.new output, setup[:title_pattern]
+    else
+      output = TitleOutputStrategy.new output
+    end
   end
 
   while l = input.gets do
