@@ -171,6 +171,8 @@
 % a tak umoznoval "prilepeni" predchazejici rubriky.
 \newcommand{\nadpisZalmuBezMezery}[1]{
 
+  % Nepouziva prostredi center, protoze to si svevolne pridava
+  % dodatecny vertikalni prostor
   \begingroup\centering 
     \textbf{#1}
   \endgroup
@@ -180,6 +182,7 @@
 
 % obvykle napr. "zalm 94"
 \newcommand{\nadpisZalmu}[1]{
+  \vspace{2mm}
   \begin{center}
     \textbf{#1}
   \end{center}
