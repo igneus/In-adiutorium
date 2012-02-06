@@ -126,7 +126,7 @@ cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
-dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrika{Na konci tohoto kantika se nepřipojuju doxologie Sláva Otci.}\""
+dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
