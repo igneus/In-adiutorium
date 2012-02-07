@@ -130,19 +130,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin a( bes a) g( f) g g( a) a \barMaior
+    a4 a a( g f) g( f) e f d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
     on nás vy -- kou -- pil svou kr -- ví.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -151,7 +154,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f e f( a) a g a bes a( g a) a \barMaior
+    a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
   }
   \addlyrics {
     Bůh ne -- u -- šet -- řil vlast -- ní -- ho Sy -- na,
@@ -159,8 +163,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D2" 
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -170,7 +174,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( f) f f g( f) f( g) g \barMin
+    g g f( d) d f e c d4. d \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus nás mi -- lu -- je
@@ -178,10 +183,11 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Hab 3"
     id = ""
+    notitia = "Textově téměř shodný je začátek ant. k Magn. ze svátku Křtu Páně, ale její melodie (k 7.2.2012) nebyla použitelná, protože je (i když kousek končí na tónice) příliš nesena dynamikou rozjezdu k něčemu, co následuje."
     piece = \markup {\sestavTitulek}
   }
 }
