@@ -102,7 +102,6 @@
     differentia = "a" 
     psalmus = ""
     id = "paschoctant"
-    fons = "Z materiálu pro kompletář."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

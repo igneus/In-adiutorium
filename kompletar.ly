@@ -300,32 +300,6 @@
   }
   
   \score {
-    \relative c'' {
-      \choralniRezim
-      a4( d) d d e4.( f) \barMin
-      e4 d e( f) e d c a a \barMax
-      d( c d ) c( a) a \barMin
-      b c( a) g( f) a a g g \barMax
-      g f( a) g4. g \barFinalis
-    }
-    \addlyrics {
-      To -- to je den,
-      kte -- rý u -- či -- nil Hos -- po -- din,
-      já -- sej -- me 
-      a ra -- duj -- me se z_ně -- ho.
-      A -- le -- lu -- ja.
-    }
-    \header {
-      quid = "ant. /místo responsoria ve vel. oktávu/"
-      modus = "VII"
-      differentia = "a" 
-      psalmus = ""
-      id = "paschoctant"
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
-  }
-  
-  \score {
     \relative c' {
       \choralniRezim
       
@@ -357,6 +331,10 @@
       piece = \markup {\sestavTitulekResp}
     }
   }
+  
+  \markup\justify {Antifony, které se ve Velikonočním triduu
+  a ve Velikonočním oktávu zpívají místo responsoria, jsou
+  "v materiálech" pro tyto liturgické doby.}
 
   \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
   jak je v jejích notách zapsáno.}
