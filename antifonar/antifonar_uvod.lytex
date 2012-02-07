@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
 \usepackage{datetime} % formaty data
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage[margin=2.5cm]{geometry} % okraje stranky
@@ -219,6 +220,11 @@ třetí, pátou.
 
 Problematické je, končí-li část verše sérií jednoslabičných slov - pak často
 nejde najít žádné elegantní řešení.
+
+Nevyřešená otázka: 
+\uv{To je pokolení těch, kdo \underline{po} něm \underline{tou}ží}, 
+nebo \uv{To je pokolení těch, \underline{kdo} po něm \underline{tou}ží} (Žalm 24)?
+
 
 \section{Čtení not}
 \subsection{Délky not a rytmus}
