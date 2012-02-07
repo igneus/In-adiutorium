@@ -83,19 +83,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
   }
   \addlyrics {
     Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti.
   }
   \header {
     quid = "ant. místo responsoria"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = ""
     id = ""
+    fons = "Bílá sobota, ant. místo responsoria."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -123,4 +124,50 @@
 }
 
 \markup\nadpisDen{Velký pátek}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
+    a g g( e) e f( e) f( g a4.) a4 \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti,
+    a to k_smr -- ti na kří -- ži.
+  }
+  \header {
+    quid = "ant. místo responsoria"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    fons = "Bílá sobota, ant. místo responsoria."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Bílá sobota}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
+    a g g( e) e f( e) f( g a4.) a4 \barMax
+    a a a a g a a( b c d) e( c d4.) d \barMaior
+    d4 d d d( e c a) a \barMin a g a a( c) b a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti,
+    a to k_smr -- ti na kří -- ži.
+    Pro -- to ho ta -- ké Bůh po -- vý -- šil
+    a dal mu Jmé -- no nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "ant. místo responsoria"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
