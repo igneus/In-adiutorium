@@ -34,34 +34,39 @@
     psalmus = ""
     id = ""
     fons = "slavnost Ježíše Krista Krále, ant. k Benedictus"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 g f e d d e e \barMin
+    e d e e f e c c d d \barMaior
+    d( c) d c( a) a \barMin
+    a c d d f e c d4. d \barFinalis
   }
   \addlyrics {
     Pán vy -- svo -- bo -- dí chu -- dá -- ka,
     kte -- rý se do -- vo -- lá -- vá po -- mo -- ci,
-    u -- bo -- žá -- ka, je -- hož se ni -- kdo ne -- u -- jí -- má.
+    u -- bo -- žá -- ka, 
+    je -- hož se ni -- kdo ne -- u -- jí -- má.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a c( b) c c( a) a c( d) e d c d( a) a \barMaior
+    a b( g e) e \barMin e( f) e g( a) a a \barFinalis
   }
   \addlyrics {
     Sva -- tí zví -- tě -- zi -- li Be -- rán -- ko -- vou kr -- ví
@@ -69,11 +74,11 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -91,14 +96,16 @@
     differentia = "" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 f( g) g \barMin g f g g4.( a) \barMaior
+    bes4 a g( f) g \barMaior
+    f( d) d \barMin d d( f) f f e f d d \barFinalis
   }
   \addlyrics {
     Když jed -- li, vzal Je -- žíš chléb,
@@ -107,11 +114,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
