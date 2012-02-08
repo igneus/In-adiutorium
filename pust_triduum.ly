@@ -260,7 +260,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g a a a a a( bes) a g( a) a \barMin
+    a g( bes) a g f e e( f) d4. d \barFinalis
   }
   \addlyrics {
     By -- lo de -- vět ho -- din do -- po -- led -- ne,
@@ -268,8 +269,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -279,7 +280,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d e f e( f) f \barMaior
+    f( g) a a g4.( d) \barMin f4 e f e( c) c \barMin
+    a c d f e d d \barFinalis
   }
   \addlyrics {
     Když by -- lo dva -- náct ho -- din,
@@ -288,8 +291,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -299,17 +302,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 e d( e) e e
+    e( a) a b( g) g \barMin a( g) f e( d e) e \barMaior
+    e e e4.( a) \barMin g4( a) g( f) e \barMaior
+    e( d g) f e d( f) f( e) e \barFinalis
   }
   \addlyrics {
     Ve tři ho -- di -- ny
     zvo -- lal Je -- žíš moc -- ným hla -- sem:
-    Bo -- že můj, Bo -- že můj, proč jsi mě o -- pus -- til?
+    Bo -- že můj, Bo -- že můj, 
+    proč jsi mě o -- pus -- til?
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
