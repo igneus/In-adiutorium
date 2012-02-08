@@ -326,9 +326,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d d d( c) b c( d) d4.( a) \barMin
+    b4( c) a( g) a g g \barMaior
+    a c( d) c( a) a \barMin b g g( a g) g \barFinalis
   }
   \addlyrics {
     Po -- zor -- ně na -- slou -- chej -- te,
@@ -337,8 +339,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -346,9 +348,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a( c) b g( a) a \barMin
+    a e e f e f d( e) e \barFinalis
   }
   \addlyrics {
     Můj duch ve mně chřad -- ne,
@@ -356,8 +359,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 143"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -367,17 +370,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d d c d d( f) f \barMin
+    g( f) e e( f) c c4.( d) \barMaior
+    d4 d d d( f) e c d d \barFinalis
   }
   \addlyrics {
-    Když Je -- žíš při -- jal o -- cet, že -- kl:
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:
     Do -- ko -- ná -- no je.
     Pak sklo -- nil hla -- vu a sko -- nal.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -385,9 +390,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 c b c( d) d c b a( g) g \barMin
+    a( g) f g g g( a g) g \barMaior
+    a( c) c \barMin c c c c c b a b a a g g \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni
@@ -396,8 +403,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
