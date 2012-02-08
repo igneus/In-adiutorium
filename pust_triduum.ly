@@ -193,9 +193,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a( d) d d d( c d) e c c( d) d \barMaior
+    d d( c d) c( a) a b c a a( g) g( a) a \barMax
+    a a g4.( e) \barMin f4 e f g( a) a c b c a( g a) a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
@@ -204,8 +206,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 147-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -236,7 +238,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d c d d d f e f g f d4. d \barMaior
+    d4 d d d c( a) a \barMin c d e e4.( d) \barFinalis
   }
   \addlyrics {
     Pi -- lát dal zho -- to -- vit a při -- pev -- nit na kříž ná -- pis:
@@ -244,8 +247,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -402,7 +405,7 @@
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
     a g g( e) e f( e) f( g a4.) a4 \barMax
     a a a a g a a( b c d) e( c d4.) d \barMaior
-    d4 d d d( e c a) a \barMin a g a a( c) b a a \barFinalis
+    d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
   }
   \addlyrics {
     Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti,
