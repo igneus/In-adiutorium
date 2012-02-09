@@ -554,7 +554,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d f g a a a \barMin a( bes) a g f g f( e) d \barMaior
+    d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Vě -- řím, že u -- vi -- dím bla -- ho od Hos -- po -- di -- na
@@ -562,18 +563,19 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g( a) f( e) e \barMaior
+    e( g) g( a) a \barMin a c b a b g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -581,31 +583,33 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g a f( e d) \barMin d f g a a c b a b g( a) a \barMaior
+    a b g g( e) e f e f g( a) a \barMin
+    a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Po ú -- tra -- pách se je -- ho du -- še na -- sy -- ti -- la svět -- lem
     a spo -- či -- nu -- la v_Je -- ru -- za -- lé -- mě,
-    na mís -- te po -- ko -- je.
+    na mís -- tě po -- ko -- je.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
