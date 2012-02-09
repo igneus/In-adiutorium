@@ -464,8 +464,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f( e f) d( c) c4.( d) \barMin
-    d4( f) e f( g) g f( g) f( e c) d \barFinalis
+    d4 d f( e f) d( c) c4.( d) \barMaior
+    d4( f) e f( g) g \barMin f( g) f( e c) d \barFinalis
   }
   \addlyrics {
     Z_mo -- ci pod -- svě -- tí 
@@ -616,9 +616,10 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c( b c) a( g) g a g f g g( a) a( g) g \barMaior
+    a( c) c \barMin d c b c a g g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně je smrt na -- vždy zni -- če -- na!
@@ -626,8 +627,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -637,16 +638,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d( f) f \barMin
+    f f e f g f f e d e d( a) a \barMaior
+    a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Ja -- ko byl Jo -- náš v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
+    Ja -- ko byl Jo -- náš 
+    v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
     tak bu -- de Syn člo -- vě -- ka v_nit -- ru ze -- mě.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 143"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -656,7 +660,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f g g( a) a \barMaior
+    bes a g a f4.( g) \barMaior
+    g4 g( a) f f4.( d) \barMin d4 c d d( f e) d d \barMax
+    d d d d f( g) g( a g4.) g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ře -- kl:
@@ -666,8 +673,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
