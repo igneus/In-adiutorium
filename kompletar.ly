@@ -252,11 +252,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Nunc dimittis"
     modus = "III"
     differentia = "a" 
     psalmus = "Nunc dimittis"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
     id = "sim"
   }
 }
@@ -332,10 +332,10 @@
     }
   }
   
+  \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
+  jak je v jejích notách zapsáno.}
+  
   \markup\justify {Antifony, které se ve Velikonočním triduu
   a ve Velikonočním oktávu zpívají místo responsoria, jsou
   "v materiálech" pro tyto liturgické doby.}
-
-  \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
-  jak je v jejích notách zapsáno.}
 }
