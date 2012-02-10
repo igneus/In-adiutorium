@@ -144,6 +144,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) f e f e( c) c( d) d \barMaior
+    f g a a( bes) a a a( bes) a g f( d) \barMin 
+    d e f e( c d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh shlé -- dl na mou po -- ko -- ru,
+    ve -- li -- ké vě -- ci mi u -- či -- nil ten, 
+    kte -- rý je moc -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -165,6 +188,70 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \breathe a g a bes( g bes) a \breathe
+    a\mark\sipka g f e( d) d \bar "||"
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \breathe a g a bes( g bes) a \breathe
+    a(\mark\sipka bes) a g f( d) d \bar "||"
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \breathe 
+    a g a bes(\mark\sipka c bes a) a \breathe
+    a g f e( f d) d \bar "||"
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -190,6 +277,35 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\justify{Z nějakého důvodu se mi líbí oddíl 5;
+jako přepracováníhodný vidím oddíl 6n, a zejména odvrženíhodná
+je "\"skororepetice\"" melodie 2 v 4.}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c c e e4. d \barMin \mark "2" c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c( d) \barMin \mark "4" d( e) c b a( g) g \barMax
+    \mark "5" g a b c c c d( e) d c d4. d \barMaior
+    \mark "6" d4 d d d b c4. \barMin c4 a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
+    při -- mlou -- vej se za nás u své -- ho sy -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
