@@ -169,6 +169,80 @@
   }
   
   \markup\nadpisDen{1. neděle postní /cyklus B/}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
+      a byl po -- kou -- šen od sa -- ta -- na,
+      žil tam me -- zi di -- vo -- ký -- mi zví -- řa -- ty
+      a an -- dě -- lé mu slou -- ži -- li.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a g f g( a) g( a) a \barMaior
+      a b( c) c( a) a \barMin 
+      a( g) f g( f) e e( f) d d \barMax
+      
+      d d d c d \barMin
+      f g g g g g g f g( a) a a \barMaior
+      bes( a g) a( g) f( e) f4.( d) \barMin
+      d4 c( d) d f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš při -- šel do Ga -- li -- le -- je
+      a hlá -- sal tam 
+      Bo -- ží e -- van -- ge -- li -- um:
+      
+      Na -- pl -- nil se čas
+      a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = ""
+      fons = "3. neděle v mezidobí, cyklus B, 1. nešpory, k Magnificat"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Bdi nad ná -- mi, náš Spa -- si -- te -- li,
+      ať nás ne -- pře -- mů -- že lsti -- vý po -- ku -- ši -- tel;
+      vždyť ty jsi náš po -- moc -- ník v_kaž -- dé do -- bě.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
   \markup\nadpisDen{2. neděle postní /cyklus B/}
   \markup\nadpisDen{3. neděle postní /cyklus B/}
   \markup\nadpisDen{4. neděle postní /cyklus B/}
