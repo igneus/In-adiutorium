@@ -38,17 +38,19 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g( a g) f( g) f( e) e \barMin
+      e d( f) f f( g) f e( f) e e \barFinalis
     }
     \addlyrics {
-      Ob -- rať -- te se a věř -- te e -- van -- ge -- li -- u!
+      Ob -- rať -- te se 
+      a věř -- te e -- van -- ge -- li -- u!
     }
     \header {
       quid = "ant."
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -124,9 +126,10 @@
   \markup\nadpisDen{Popeleční středa}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a g( a) f( g a4.) a \barMin
+      bes4 a a a g( a) f e f d d \barMin e d c d d \barFinalis
     }
     \addlyrics {
       Když se pos -- tí -- te,
@@ -135,8 +138,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -144,9 +147,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      c4 c( b a) a b( a g) g( a) a4.( g) \barMaior
+      g4 f( g) g f( e) d f( g) g( a) a \barMaior
+      a a( c b) a4.( g) \barMin a4( g) f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Když dá -- váš al -- muž -- nu,
@@ -155,8 +160,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
