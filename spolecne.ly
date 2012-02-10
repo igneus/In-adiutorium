@@ -188,3 +188,5 @@ bgcolor =
 
 zvyraznovacZeleny = { \bgcolor "(rgb-color 0.3 1 0.3)" }
 zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
+
+sipka = \markup { \char ##x2193 }
