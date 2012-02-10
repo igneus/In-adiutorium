@@ -191,8 +191,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( g) e4.( d) \barMin
-    c4( f) e( c) c d d \barFinalis
+    d4 f( e f) d4.( c) \barMin
+    d4 f e( f) d d \barFinalis
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
@@ -209,8 +209,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( e f) d4.( c) \barMin
-    d4 f e( f) d d \barFinalis
+    d4 f( g) e4.( d) \barMin
+    c4( f) e( c) c d d \barFinalis
   }
   \addlyrics {
     Mé tě -- lo byd -- lí v_bez -- pe -- čí.
