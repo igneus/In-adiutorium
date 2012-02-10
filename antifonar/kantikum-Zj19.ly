@@ -1,26 +1,31 @@
 \version "2.12.3"
 
-\header {
-  title = "Kantikum podle Zj 19,1-7 (neděle, 2. nešpory)"
-}
+% Obsahove se shoduje s ../kantikum-Zj19.ly ,
+% lisi se tim, ze nema zadny text v \markup a v nekterych nastavenich
 
-\include "spolecne.ly"
+\include "spolecne_antifonar.ly"
 
-\markup {
-  \justify {
-Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu 
-\with-url #"http://www.transitofvenus.nl/LiturgiaHorarum/" {
-\italic {Liturgia horarum in cantu gregoriano} (http://www.transitofvenus.nl/LiturgiaHorarum/)    
-  } . Rozložením refrénů se tedy drobně liší od schváleného textu českého breviáře.
-}
+DoubleResponse = \lyricmode { 
+  \markup { 
+    \with-color ##'red { 
+      % \concat { \override #'(font-name . "liturgy") {R} : }
+      \concat { \override #'(font-name . "Junicode") { \char ##x0211F \char ##x0211F } : }
+    }
+  }
 }
 
 % melodie aleluja
-mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
-malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
+imal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
+imalal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
 % text aleluja
-al = \lyricmode { \Response A -- le -- lu -- ja. }
-alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
+ial = \lyricmode { \Response A -- le -- lu -- ja. }
+ialal = \lyricmode { \DoubleResponse A -- le -- lu -- ja, a -- le -- lu -- ja. }
+
+mal = { \bar "||" \neviditelna f \bar "||" \break }
+malal = { \bar "||" \neviditelna a \bar "||" \break }
+% text aleluja
+al = \lyricmode { \Response }
+alal = \lyricmode { \DoubleResponse }
 
 \score {
   \relative c'  {
@@ -28,10 +33,13 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     % Vitezstvi..
     \neviditelna f
     f f f f f f f f f e g a
-    \mal
+    
+    \override Staff.Clef #'stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
+    
+    \imal
     \neviditelna f
     f f f f f f f f f f f f e g a
-    \malal
+    \imalal
 
     % Chvalte...
     \neviditelna f
@@ -67,9 +75,9 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
   }
   \addlyrics {
     \Verse Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
-    \al
+    \ial
     \Verse ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
-    \alal
+    \ialal
 
     \Verse Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
     \al
@@ -91,7 +99,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \Verse po všech -- ny vě -- ky vě -- ků. A -- men.
     \alal
   }
-  \header {
-    piece = "kantikum Zj 19 - modus VI"
+  \layout {
+    ragged-right = ##t
   }
 }

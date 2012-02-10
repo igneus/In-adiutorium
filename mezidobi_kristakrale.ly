@@ -24,7 +24,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
@@ -49,7 +49,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "VII"
+    modus = "VII"
     differentia = "b" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}

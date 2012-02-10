@@ -95,6 +95,7 @@
   \addcontentsline{toc}{section}{Neděle #1. týdne}
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \input{spolecne.tex}
@@ -126,6 +127,8 @@
 \label{magnificat}
 \input{generovane/nedele/kantikum_magnificat.tex}
 \end{hora}
+
+\newpage % ZLOM0
 
 \nadpisTyden{Invitatorium}{Invitatorium}
 \fancyhead[CE,CO]{Invitatorium}
@@ -200,9 +203,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm114.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
-\begin{multicols}{2}
-  \input{kantikum_zj19.tex}
-\end{multicols}
+\lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
@@ -267,9 +268,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm115.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
-\begin{multicols}{2}
-  \input{kantikum_zj19.tex}
-\end{multicols}
+\lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
@@ -334,9 +333,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden3_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm111.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
-\begin{multicols}{2}
-  \input{kantikum_zj19.tex}
-\end{multicols}
+\lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
@@ -401,9 +398,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden4_1nedele_2ne-ant2.ly}
 \input{generovane/nedele/zalm112.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-ant3.ly}
-\begin{multicols}{2}
-  \input{kantikum_zj19.tex}
-\end{multicols}
+\lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}

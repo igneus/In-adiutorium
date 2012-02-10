@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \paper {
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
@@ -17,14 +18,12 @@
 % odkomentovanim nasledujicich radku a zakomentovanim dvou radku pod nimi.
 %{
 doxologieResponsoriumIV = \relative c' {
-  e4 g g( a) a a g( a) e \barMin
-  f e d e( f) g g
+  \respIVdoxologie
   \barFinalis
 }
 
 doxologieResponsoriumVI = \relative c'' {
-  a4 a a( bes) a a g( a) g \barMin
-  g a g f g g( a)
+  \respVIdoxologie
   \barFinalis
 }
 %}
@@ -53,7 +52,7 @@ doxologieResponsoriumVI = {}
       \Response
       \Verse
       \Response
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -74,12 +73,11 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      e4 g g( a) a a g( a) e \barMin
-      f e d e( f) g g
+      \respIVdoxologie
       \barFinalis
     }
     \addlyrics {
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "doxologie pro responsoria modu IV"
@@ -89,12 +87,11 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a( bes) a a g( a) g \barMin
-      g a g f g g( a)
+      \respVIdoxologie
       \barFinalis
     }
     \addlyrics {
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "doxologie pro responsoria modu VI"
@@ -125,7 +122,7 @@ doxologieResponsoriumVI = {}
       vše -- chno jsi mou -- dře u -- či -- nil.
       \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
       \Response vše -- chno jsi mou -- dře u -- či -- nil.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -154,7 +151,7 @@ doxologieResponsoriumVI = {}
       smi -- luj se nad ná -- mi.
       \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
       \Response smi -- luj se nad ná -- mi.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -183,7 +180,7 @@ doxologieResponsoriumVI = {}
       Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
       \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
       \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -213,7 +210,7 @@ doxologieResponsoriumVI = {}
       \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
       \Verse Je -- nom on sám ko -- ná di -- vy_*
       \Response od vě -- ků na vě -- ky.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -241,7 +238,7 @@ doxologieResponsoriumVI = {}
       \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
       \Verse Smi -- luj se na -- de mnou,
       \Response zhře -- šil jsem pro -- ti to -- bě.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -271,7 +268,7 @@ doxologieResponsoriumVI = {}
       \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
       \Verse On je mé ú -- to -- čiš -- tě, můj za -- chrán -- ce,_*
       \Response k_ně -- mu se u -- tí -- kám.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -299,7 +296,7 @@ doxologieResponsoriumVI = {}
       \Response Tvůj zá -- kon, Hos -- po -- di -- ne, je do -- ko -- na -- lý,_* tvé slo -- vo tr -- vá na -- vě -- ky.
       \Verse Tvá věr -- nost je od po -- ko -- le -- ní do po -- ko -- le -- ní,_*
       \Response tvé slo -- vo tr -- vá na -- vě -- ky.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -329,7 +326,7 @@ doxologieResponsoriumVI = {}
       \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
       \Verse U -- kaž mi ces -- tu svých pří -- ka -- zů,_*
       \Response ať za -- cho -- vá -- vám tvůj zá -- kon.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -357,7 +354,7 @@ doxologieResponsoriumVI = {}
       \Response Na te -- be spo -- lé -- hám, Hos -- po -- di -- ne,_* vy -- svo -- boď mě a smi -- luj se na -- de mnou.
       \Verse Ne -- za -- hla -- zuj mou du -- ši s_hříš -- ní -- ky,_*
       \Response vy -- svo -- boď mě a smi -- luj se na -- de mnou.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -387,7 +384,7 @@ doxologieResponsoriumVI = {}
       \Response Vo -- lám z_ce -- lé -- ho srd -- ce:_* Vy -- slyš mě, Hos -- po -- di -- ne.
       \Verse Tvé pří -- ka -- zy chci za -- cho -- vá -- vat._*
       \Response Vy -- slyš mě, Hos -- po -- di -- ne.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -415,7 +412,7 @@ doxologieResponsoriumVI = {}
       \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
       \Verse Me -- dem ze ská -- ly nás sy -- tí,_*
       \Response ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -446,7 +443,7 @@ doxologieResponsoriumVI = {}
       vždyť v_te -- be dou -- fám.
       \Verse U -- kaž mi ces -- tu, po níž mám krá -- čet,_*
       \Response vždyť v_te -- be dou -- fám.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -474,7 +471,7 @@ doxologieResponsoriumVI = {}
       \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
       \Verse U -- dě -- lal z_nás krá -- lov -- ský ná -- rod a kně -- ze Bo -- ha Ot -- ce_*
       \Response a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -504,7 +501,7 @@ doxologieResponsoriumVI = {}
       \Response Vo -- lám k_to -- bě, Hos -- po -- di -- ne,_* ty jsi mé ú -- to -- čiš -- tě.
       \Verse Ty jsi můj ú -- děl v_ze -- mi ži -- vých,_*
       \Response ty jsi mé ú -- to -- čiš -- tě.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -542,7 +539,7 @@ doxologieResponsoriumVI = {}
       ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
       \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě._*
       \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -571,7 +568,7 @@ doxologieResponsoriumVI = {}
       a vzý -- vá -- me tvé jmé -- no.
       \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech_*
       \Response a vzý -- vá -- me tvé jmé -- no.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -600,7 +597,7 @@ doxologieResponsoriumVI = {}
       je -- mu pat -- ří všech -- na moc na ne -- bi i na ze -- mi.
       \Verse Je -- ho moud -- rost pře -- vy -- šu -- je všech -- no,_*
       \Response je -- mu pat -- ří všech -- na moc na ne -- bi i na ze -- mi.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - IV"
@@ -631,7 +628,7 @@ doxologieResponsoriumVI = {}
       slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
       \Verse Zpí -- vej -- te mu pí -- seň no -- vou:_*
       \Response slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -660,7 +657,7 @@ doxologieResponsoriumVI = {}
       ja -- ko vů -- ně ka -- did -- la.
       \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť_*
       \Response ja -- ko vů -- ně ka -- did -- la.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -692,7 +689,7 @@ doxologieResponsoriumVI = {}
       spo -- lé -- hám na tvá slo -- va.
       \Verse Při -- chá -- zím na ú -- svi -- tě a o po -- moc vo -- lám,_*
       \Response spo -- lé -- hám na tvá slo -- va.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -721,7 +718,7 @@ doxologieResponsoriumVI = {}
       u te -- be je hoj -- ná ra -- dost.
       \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
       \Response u te -- be je hoj -- ná ra -- dost.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -752,7 +749,7 @@ doxologieResponsoriumVI = {}
       vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
       \Verse Vy -- svo -- bo -- dil mě ze všech mých o -- bav,_*
       \Response vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -781,7 +778,7 @@ doxologieResponsoriumVI = {}
       do stí -- nu svých pe -- ru -- tí mě u -- kryj.
       \Verse Po -- přej mi slu -- chu, slyš mé vo -- lá -- ní,_*
       \Response do stí -- nu svých pe -- ru -- tí mě u -- kryj.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -812,7 +809,7 @@ doxologieResponsoriumVI = {}
       hle -- dám tě od čas -- né -- ho rá -- na.
       \Verse Tvá pra -- vi -- ce mě pod -- pí -- rá,_*
       \Response hle -- dám tě od čas -- né -- ho rá -- na.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -841,7 +838,7 @@ doxologieResponsoriumVI = {}
       nic ne -- po -- strá -- dám.
       \Verse Dá -- vá mi pro -- dlé -- vat na svě -- žích past -- vi -- nách,_*
       \Response nic ne -- po -- strá -- dám.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -872,7 +869,7 @@ doxologieResponsoriumVI = {}
       ty mi po -- sí -- láš po -- moc z_ne -- be.
       \Verse Pl -- né dů -- vě -- ry je mé srd -- ce,_*
       \Response ty mi po -- sí -- láš po -- moc z_ne -- be.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -901,7 +898,7 @@ doxologieResponsoriumVI = {}
       a -- by nám o -- te -- vřel ces -- tu k_ži -- vo -- tu.
       \Verse Vzal na se -- be bo -- lest a smrt,_*
       \Response a -- by nám o -- te -- vřel ces -- tu k_ži -- vo -- tu.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -932,7 +929,7 @@ doxologieResponsoriumVI = {}
       bu -- du ti zpí -- vat.
       \Verse Můj ja -- zyk bu -- de chvá -- lit tvou spra -- ve -- dl -- nost,_*
       \Response bu -- du ti zpí -- vat.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"

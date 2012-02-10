@@ -31,7 +31,7 @@ o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
 o_columns = " --columns"
 
-commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph"
+commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets"
 commonoptions = commonoptions_withoutdoxology+o_doxology
 canticleoptions = commonoptions+o_canticletitle
 
@@ -72,7 +72,7 @@ file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_
 end
 
 file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
+  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
 end
 
 desc "Antiphonal for the completory."
@@ -126,12 +126,12 @@ cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
-dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrika{Na konci tohoto kantika se nepřipojuju doxologie Sláva Otci.}\""
+dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
 # ostatni kantika
-%w( fp2 ef1 zj4 kol1 1petr2 zj11 zj15
+%w( fp2 ef1 zj4 kol1 zj11 zj15
 
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
@@ -139,6 +139,8 @@ dt32 iz2 iz26 iz33 iz40 jer14 mdr9
 iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions, adresar_zaltar)
 end
+# this canticle is special: it needs a special title, because it's preceded by a rubric.
+zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
@@ -297,6 +299,21 @@ zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_ne
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
 zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_nedele)
 
+# prikaz pouzivany ke zpracovani vsech extrahovanych not pro
+# nedelni antifonar.
+# na konec se pouze pripoji jmeno souboru ke zpracovani.
+nedele_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        " --output-dir #{adresar_nedele} "+
+                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--insert-text \"\\layout { indent = 1.5\\cm \n short-indent = 0\\cm \n"+
+                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
+                                                                            "}\n\" "+
+                        "--remove-headers "+
+                        "--mode-info "+
+                        "--one-clef "+
+                        "--ids "
+
 noty_nedele = (1..4).map do |i| 
   # nazev vygenerovaneho souboru s prvni antifonou
   afn = adresar_nedele+"tyden#{i.to_s}_1nedele_1ne-ant1.ly"
@@ -304,14 +321,14 @@ noty_nedele = (1..4).map do |i|
   sfn = "../antifony/tyden#{i.to_s}_1nedele.ly"
   
   file afn => [sfn] do
-    sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids #{sfn}"
+    sh nedele_splitscores_command + sfn
   end
   
   afn
 end
 
-file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids ../antifony/invitatoria.ly"
+file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |t|
+  sh nedele_splitscores_command + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
@@ -320,7 +337,7 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 
-file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex"]+zalmynedele+noty_nedele) do
+file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex", "kantikum-Zj19.ly", "spolecne_antifonar.ly"]+zalmynedele+noty_nedele) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
 end

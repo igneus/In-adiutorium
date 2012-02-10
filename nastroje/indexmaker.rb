@@ -5,7 +5,7 @@ $: << "."
 
 require 'musicreader.rb'
 
-lyricsmaxsize = 55
+lyricsmaxsize = 100
 print_indices = false
 pieces = []
 

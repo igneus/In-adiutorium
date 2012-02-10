@@ -142,7 +142,7 @@ tInedeleInespResp = \score {
     vše -- chno jsi mou -- dře u -- či -- nil.
     \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
     \Response vše -- chno jsi mou -- dře u -- či -- nil.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -453,7 +453,7 @@ tInedeleLaudResp = \score {
     \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
     \Response smi -- luj se nad ná -- mi.
 
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -635,7 +635,7 @@ tInedeleIInespResp = \score {
     Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
     \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
     \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
