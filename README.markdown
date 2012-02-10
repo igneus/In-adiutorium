@@ -1,6 +1,8 @@
 *Branch 'variationes' is for experiments with antiphons - one antiphon
 may have many different melodies next to each other.*
 
+*The first variant of each antiphon should be the one, which is in master.*
+
 # In adiutorium #
 
 music for catholic Divine Office (liturgy of hours) in Czech language.
