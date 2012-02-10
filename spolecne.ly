@@ -12,6 +12,12 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
+  
+  % specificke jen pro branch 'variationes' - tam je casto
+  % jen nekolik malo antifon na stranku a neni zadouci, aby
+  % byly roztahane
+  ragged-bottom=##t
+  ragged-last-bottom=##t
 }
 
 % "tiraz" -------------------------------------------------------
