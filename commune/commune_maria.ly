@@ -52,28 +52,6 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    \zvyraznovacZeleny
-    d4( g) f f( g) g g( a) a \barMin
-    a g bes a( g a) a \barMaior
-    a a( g a) f( d) d d( f) e f d d \barFinalis
-  }
-  \addlyrics {
-    Zro -- di -- la jsi to -- ho, 
-    kte -- rý tě stvo -- řil,
-    a na -- vě -- ky zů -- stá -- váš Pan -- nou.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "I"
-    differentia = "D" 
-    psalmus = "Žalm 147"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
 \pageBreak
 
 \score {
@@ -129,30 +107,6 @@
     a( b) g g \barMin a g f f f( e) e \barMaior
     g a a( c) c b( c a) a \barMin 
     a g g a g f g( a) a( g) g \barFinalis
-  }
-  \addlyrics {
-    Po -- žeh -- na -- ná jsi, dce -- ro,
-    od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha:
-    skr -- ze te -- be má -- me 
-    ú -- čast na o -- vo -- ci ži -- vo -- ta.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "VIII"
-    differentia = "c" 
-    psalmus = "Ef 1"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    \zvyraznovacZeleny
-    c4 b( c) a( g) g4. a \barMin f4( g a) a \barMaior
-    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
-    g a a( c) c b( c a4.) a \barMin 
-    a4( c) c d c b c a g g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, dce -- ro,
