@@ -421,6 +421,8 @@
   }
 }
 
+\pageBreak 
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -428,7 +430,23 @@
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    f^\markup{V době velikonoční:} g e e \barFinalis
+    
+    % ruzne verze Aleluja:
+    <<
+    { f^\markup{V době velikonoční:} g e e  }
+    \new Staff { { \choralniRezim f g( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f g( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
+    % \new Staff { { \choralniRezim f4 g( a g f) e( d e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f4 e( d) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f f( g) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f d( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f f d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e e( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e4 e( f) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e f d( f e) e } \addlyrics { A -- le -- lu -- ja. } }
+    >>
+    
+    \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,
