@@ -242,7 +242,7 @@
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    f^\markup{V době velikonoční:} g e e \barFinalis
+    f^\markup{V době velikonoční:} g( f) e4. e \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,
