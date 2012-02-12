@@ -173,7 +173,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 f g a( bes) a a a g f g4.( a) \barMin
+      a4 a a( bes) a( d,) d e f d d \barMax
+      d d d d f( e) f g( a g) f g( a) a a \barMin
+      a a( g) f e4.( d) d4 e( c) d( e d) d \barFinalis      
     }
     \addlyrics {
       Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
@@ -183,8 +186,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "f" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -225,9 +228,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a( d) c d4. a \barMin a4 a( b) g g( a) a \barMaior
+      a a a( g) f e( f d4.) d \barMin f4 e( d) f e g( a) a \barMaior
+      a g4.( a) \barMin a4 b( c) c( d e) d( c) c4.( d) \barMin d4 c( b) a( b g a) a \barFinalis
     }
     \addlyrics {
       Bdi nad ná -- mi, náš Spa -- si -- te -- li,
@@ -236,8 +241,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "A" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
