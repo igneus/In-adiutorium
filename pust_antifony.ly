@@ -252,9 +252,12 @@
   \markup\nadpisDen{2. neděle postní /cyklus B/}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a a a a a g( a) b( c) c \barMaior
+      c c c d( a) a \barMin c( b) a g g( a g) g \barMax
+      a( c) c c c c b c d( c) b( a) a \barMaior
+      a a( b a) g( f) e e e( f) e4. e \barFinalis
     }
     \addlyrics {
       Je -- žíš byl před ni -- mi pro -- mě -- něn
@@ -264,8 +267,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "III"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -273,9 +276,10 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g g f g g( a) a \barMaior
+      g4( bes a) a \barMin a g( d) d f e d d \barFinalis
     }
     \addlyrics {
       Pe -- tr ře -- kl Je -- ží -- šo -- vi:
@@ -283,8 +287,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -294,7 +298,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4( c d) d( f) f f e( g a) a \barMin a g( f) e( f) d d \barMax
+      d4 d d d e( f) f e4.( c) \barMaior
+      % a je mimo bezny rozsah modu I - ale budiz mi odpusteno.
+      a4( d) d e4.( f) g4 a g d e \barMin
+      d d d( f) e c( d) d \barFinalis
     }
     \addlyrics {
       Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
@@ -304,14 +312,16 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
+  %{
+    
   \markup\nadpisDen{3. neděle postní /cyklus B/}
   
   \score {
@@ -500,4 +510,6 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  %}
 }
