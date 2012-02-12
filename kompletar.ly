@@ -252,11 +252,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. k Nunc dimittis"
+    quid = "ant."
     modus = "III"
     differentia = "a" 
     psalmus = "Nunc dimittis"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
     id = "sim"
   }
 }
