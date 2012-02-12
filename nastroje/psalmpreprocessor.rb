@@ -428,7 +428,7 @@ optparse = OptionParser.new do|opts|
     setup[:has_title] = false
   end
   
-  opts.on "-T", "--title-pattern [PATTERN]", "Use a specified pattern instead of the default one.", do |p|
+  opts.on "-T", "--title-pattern [PATTERN]", "Use a specified pattern instead of the default one." do |p|
     setup[:title_pattern] = p
   end
   
