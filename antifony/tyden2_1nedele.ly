@@ -1,5 +1,7 @@
 \markup {\nadpisDen {Neděle 2. týdne}}
 
+% -*- master: ../nedelniantifony.ly;
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -95,7 +97,7 @@ tIInedeleInespResp = \score {
     ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
     \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě.
     \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -200,7 +202,7 @@ tIInedeleLaudResp = \score {
     a vzý -- vá -- me tvé jmé -- no.
     \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech
     \Response a vzý -- vá -- me tvé jmé -- no.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -357,8 +359,8 @@ tIInedeleIInespResp = \score {
     f4 f g g a( c) a a g f g e f d d \barFinalis
     
     % V
-    \neviditelna a
-    a'4 a a a bes c bes a g( a) a \barMax
+    \neviditelna a'
+    a4 a a a bes c bes a g( a) a \barMax
     % R
     \neviditelna f
     f4 f g g a( c) a a g f g e f d d \barFinalis
@@ -371,7 +373,7 @@ tIInedeleIInespResp = \score {
     je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
     \Verse Je -- ho mou -- drost pře -- vy -- šu -- je vše -- chno,
     \Response je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."

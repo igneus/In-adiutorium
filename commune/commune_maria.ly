@@ -12,8 +12,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( b) c a4. a \breathe g4 a c( b) a( g) g \bar "|"
-    g f g a a a c( d) d \breathe d c b( c) a g( f) g \bar "||"
+    g4( c) c c( b) c a4. a \breathe g4 a c( b) a( g) g \bar "|"
+    g f g g( a) a a c( d) d \breathe d c b( c) a g( a g) g \bar "||"
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -22,7 +22,7 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 113"
     piece = \markup {\sestavTitulek}
@@ -30,39 +30,44 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g f f f( g) g \breathe a b c a a \breathe
-    b c b b a g f f( g) g \bar "||"
+    d4( g) f f( g) g g( a) a \barMin
+    a g bes a( g a) a \barMaior
+    a a( g a) f( d) d d( f) e f d d \barFinalis
   }
   \addlyrics {
-    Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,
+    Zro -- di -- la jsi to -- ho, 
+    kte -- rý tě stvo -- řil,
     a na -- vě -- ky zů -- stá -- váš Pan -- nou.
   }
   \header {
     quid = "2. ant."
-    tonus = "VIII"
-    differentia = "G" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 147"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 g a a a b( c) c \breathe b( a) g g a a b c a a \bar "|"
-    a g a f g( a) a \breathe c c b d c b a( g) f e \bar "||"
+    c4 b( c) a( g) g4. a \barMin f4( g a) a \barMaior
+    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
+    g a a( c) c b( c a4.) a \barMin 
+    a4( c) c d c b c a g g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, dce -- ro,
     od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha:
-    skr -- ze te -- be má -- me ú -- čast na o -- vo -- ci ži -- vo -- ta.
+    skr -- ze te -- be má -- me 
+    ú -- čast na o -- vo -- ci ži -- vo -- ta.
   }
   \header {
     quid = "3. ant."
-    tonus = "IV"
-    differentia = "E" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Ef 1"
     piece = \markup {\sestavTitulek}
   }
@@ -80,7 +85,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
@@ -102,7 +107,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = ""
     piece = \markup {\sestavTitulek}
@@ -127,7 +132,7 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "VII"
+    modus = "VII"
     differentia = "c" 
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
@@ -139,7 +144,7 @@
     \choralniRezim
     g4 a c4. c \breathe d4 c b b( c) a \bar "|"
     a a b( c) a( g) c d d( c) c \bar "|"
-    b( c) a a4.( g) \breathe f4 f a g( f) g \bar "||"
+    b( c) a a4.( g) \breathe f4 g a g( a g) g \bar "||"
   }
   \addlyrics {
     Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
@@ -148,7 +153,7 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Dan 3"
     piece = \markup {\sestavTitulek}
@@ -168,7 +173,7 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "a" 
     psalmus = "Žalm 149"
     piece = \markup {\sestavTitulek}
@@ -187,7 +192,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
@@ -209,7 +214,7 @@
   }
   \header {
     quid = "ant. v poledne"
-    tonus = "I"
+    modus = "I"
     differentia = "f" 
     psalmus = ""
     piece = \markup {\sestavTitulek}
@@ -229,7 +234,7 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 122"
     piece = \markup {\sestavTitulek}
@@ -248,7 +253,7 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "VII"
+    modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 127"
     piece = \markup {\sestavTitulek}
@@ -258,8 +263,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d e f f g g \breathe g a a a a g \breathe
-    g f e c4. d \bar "||"
+    d( f) e f( g) g g f g g a a \breathe g a a a a g4.( d) \breathe
+    f4 e c d d \bar "||"
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
@@ -267,7 +272,7 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "II"
+    modus = "I"
     differentia = "D" 
     psalmus = "Ef 1"
     piece = \markup {\sestavTitulek}
@@ -288,7 +293,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
@@ -312,7 +317,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}

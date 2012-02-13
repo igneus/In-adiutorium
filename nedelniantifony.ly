@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \paper {
   oddFooterMarkup = \markup\small { 

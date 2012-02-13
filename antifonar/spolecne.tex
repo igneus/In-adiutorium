@@ -167,6 +167,19 @@
   \nadpisHodinka{Kompletář}
 }
 
+% Cilem je, aby tento nadpis nad sebou nemel tolik mista
+% a tak umoznoval "prilepeni" predchazejici rubriky.
+\newcommand{\nadpisZalmuBezMezery}[1]{
+
+  % Nepouziva prostredi center, protoze to si svevolne pridava
+  % dodatecny vertikalni prostor
+  \begingroup\centering 
+    \textbf{#1}
+  \endgroup
+  \vspace{3mm}
+  \nopagebreak
+}
+
 % obvykle napr. "zalm 94"
 \newcommand{\nadpisZalmu}[1]{
   \vspace{2mm}
@@ -180,7 +193,7 @@
 \newcommand{\nadpisTypTextu}[1]{
   \begin{flushleft}
   \noindent
-  \rubrika{\textsc{#1}}
+  \rubr{\textsc{#1}}
   \end{flushleft}
   \nopagebreak
 }
@@ -192,10 +205,32 @@
 
 % rubrika - samostatna
 \newcommand{\rubrika}[1]{
-  \vspace{3mm}
+  \vspace{2mm}
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{2mm}
+}
+
+% mezera, kterou se oddeli rubrika od textu, ke kteremu se _nevztahuje_,
+% aby byla vic prilepena k tomu, ke kteremu se vztahuje
+\newcommand{\rubrikaMezera}{
+  \vspace{4mm}
+}
+
+% rubrika - predchazejici
+\newcommand{\rubrikaPred}[1]{
+  \rubrikaMezera
   % \textit{#1}
   \rubr{#1}
   \vspace{1mm}
+}
+
+% rubrika - nasledujici
+\newcommand{\rubrikaPo}[1]{
+  \vspace{1mm}
+  % \textit{#1}
+  \rubr{#1}
+  \rubrikaMezera
 }
 
 \newcommand{\znackaStrofaZalmu}{ 

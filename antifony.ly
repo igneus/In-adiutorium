@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \paper {
   oddFooterMarkup = \markup { 
@@ -129,7 +130,7 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     
     % R
@@ -147,7 +148,7 @@
     \Response
     \Verse
     \Response
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."

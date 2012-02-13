@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.14.2"
 
 \header {
   title = "Velikonoční oktáv"
@@ -102,7 +102,6 @@
     differentia = "a" 
     psalmus = ""
     id = "paschoctant"
-    fons = "Z materiálu pro kompletář."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -261,7 +260,7 @@
       d4 d d( f) f g g g g f e d d \barMaior
       e( d) c c d c a a \barMin
       a c d f g f e d4. d \barMax
-      e4 f( e) c d \barFinalis
+      d4 f( e) d4. d \barFinalis
     }
     \addlyrics {
       Zá -- hy zrá -- na prv -- ní -- ho dne po so -- bo -- tě
@@ -382,7 +381,7 @@
       a4 a( g f) g f d4. d \barMax
       
       d4 d d f( g) g
-      a g f g( a) a \barMaior
+      a g f g g \barMaior
       a a a a a g a a( c) c4.( a) \barMin
       a4 f e d4. d \barMax
       
@@ -437,21 +436,30 @@
   \markup\nadpisDen {středa velikonoční}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4 a a( c) c b c c( b a4.) a \barMin
+      a4 g f( e) d f f( g) g \barMaior
       
+      g g( f g) a( c) c b c a4. a \barMin
+      b4 c d c b c b( g) g \barMin
+      a4 g g( f) f( g) g \barMax
+      
+      g g( a) g4. g \barFinalis
     }
     \addlyrics {
       Je -- žíš za -- čal od Moj -- ží -- še,
       pro -- bral všech -- ny pro -- ro -- ky
+      
       a vy -- klá -- dal u -- čed -- ní -- kům,
-      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
+      co se ve všech čás -- tech Pís -- ma 
+      na něj vzta -- hu -- je.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -459,9 +467,14 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a a( e) e f g a a g a a \barMax
+      a b c a a b( g) g( e) e \barMaior
+      e d4.( e) \barMin
+      e4 d e f f g f g( a) a \barMaior
+      a( b a) g( f) e e \barMin e d c d( e) e \barMax
+      d d( f) e4. e \barFinalis
     }
     \addlyrics {
       Je -- žíš ve -- šel s_u -- čed -- ní -- ky do do -- mu,
@@ -473,8 +486,228 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisDen {čtvrtek velikonoční}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      a4 g( f) e( f e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c b) d( c) b( c) a( g) g( a) \barMin
+      a b b( c) c c a g a( f) f( e) \barMaior
+      d f g f( g) \barMax
+      g a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Po -- dí -- vej -- te 
+      se na mé ru -- ce a na mé no -- hy:
+      vždyť jsem to já!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisDen {pátek velikonoční}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g( f) f g f g( a) a \barMin
+      a c( b c) a( g) g( a) \barMaior
+      a a g f e f d d \barMax
+      d f( e) d d \barFinalis 
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "a" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a f) f( g) g \barMin
+      g f g a a g( a) a( g) g \barMin
+      f( g a) a \barMaior
+      a a c4.( g) \barMin
+      a4 f f( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisDen {sobota velikonoční}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      % zatim jsem v antifone nenasel zadnou dobrou
+      % delici logiku a tak jsou divisiones maiores
+      % rozmistene proste tak, aby se antifona "dala udychat"
+      e f( g) a g a4. a \barMin
+      a4 a( b) a g( a g f e) e \barMaior
+      d( e) e f g a a a g g( a) a \barMin
+      a a a a( b a) g f g( f) g( a) a \barMaior
+      a a b g g( e) e \barMin
+      f e d d( e) e \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "E" 
+      psalmus = ""
+      id = ""
+      fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisDen {neděle v oktávu velikonočním}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( d c) b( c) a( g) a4.( g) \barMin
+      g4( f) e f( g) g a( c) b a b g4. g \barMaior
+      g4 f( g) g g a g a( c) c \barMin
+      d( a) c b4.( g) \barMax
+      a4 f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Os -- mé -- ho dne
+      Je -- žíš při -- šel za -- vře -- ný -- mi dveř -- mi
+      a ře -- kl svým u -- čed -- ní -- kům:
+      Po -- koj vám!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d c b c d( e d) d \barMin
+      d d( f) e d d \barMaior
+      f( g) a f( d) d f e( d) \barMax
+      e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po -- hleď na mé jiz -- vy 
+      a do -- tkni se jich,
+      ne -- po -- chy -- buj a věř.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a a a bes( a) g( f) e \barMin
+      f( g) g( a) a \barMaior
+      a4( g f) g( f) d4. d \barMax
+      d4( g) f f g g \barMaior
+      g bes( a bes) g( a) g( f) f \barMin
+      f g( f) e( f) d d \barMax
+    }
+    \addlyrics {
+      Pro -- to -- že jsi mě u -- vi -- děl, 
+      To -- má -- ši,
+      u -- vě -- řil jsi.
+      Bla -- ho -- sla -- ve -- ní,
+      kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}

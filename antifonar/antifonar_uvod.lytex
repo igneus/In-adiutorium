@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
 \usepackage{datetime} % formaty data
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage[margin=2.5cm]{geometry} % okraje stranky
@@ -210,6 +211,23 @@ jednoslabičná předložka (ve, ze, pod a podobně), přebírá přízvuk ona.
   Nenávidíš \underline{kaž}dého \underline{zlo}čince,~*
   hubíš \underline{všech}ny \underline{lhá}ře.
 \end{quote}
+
+Je-li to možné, dávám vždy přednost přirozeným přízvukům.
+
+2. Vedlejší přízvuky ve slově delším než dvě slabiky kladu (svévolně - 
+to v jazyce samém nemá žádnou oporu) na liché slabiky - tedy na slabiku
+třetí, pátou.
+
+Problematické je, končí-li část verše sérií jednoslabičných slov - pak často
+nejde najít žádné elegantní řešení.
+
+Nevyřešená otázka: 
+\uv{To je pokolení těch, kdo \underline{po} něm \underline{tou}ží}, 
+nebo \uv{To je pokolení těch, \underline{kdo} po něm \underline{tou}ží} (Žalm 24)?
+
+ÚKOL: Zmínit nedořešené problémy s jednoslabičnými slovy.
+(Třeba přízvuk na "se" je opravdu zcela nepřirozený, a občas jsem byl nucen
+ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
 
 \section{Čtení not}
 \subsection{Délky not a rytmus}

@@ -7,11 +7,7 @@
 }
 
 \include "../spolecne.ly"
-
-doxologieResponsoriumVI = \relative c'' {
-  a4 a a( bes) a a g( a) g \barMin
-  g a g f g g( a)
-}
+\include "../dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -102,14 +98,14 @@ doxologieResponsoriumVI = \relative c'' {
     \neviditelna g
     g g( a) g f d \barMin f d f( g) g f f \barFinalis
     % Slava
-    \doxologieResponsoriumVI \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su,_*
     kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
     \Verse Všech -- ny kon -- či -- ny ze -- mě u -- zře -- ly spá -- su na -- še -- ho Bo -- ha,_*
     \Response kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -256,14 +252,14 @@ doxologieResponsoriumVI = \relative c'' {
     \neviditelna g
     g g( f d) f g g( f) f \barFinalis
     % Slava
-    \doxologieResponsoriumVI \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Zdvih -- ně -- te, brá -- ny, své klen -- by,_*
     ať ve -- jde král slá -- vy.
     \Verse Zvyš -- te se, pra -- sta -- ré vcho -- dy,_*
     \Response ať ve -- jde král slá -- vy.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
