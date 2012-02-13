@@ -1,5 +1,3 @@
-%%master: master.ly
-
 \markup {\nadpisDen {Neděle 1. týdne}}
 
 % -*- master: ../nedelniantifony.ly;
@@ -97,6 +95,71 @@ tInedeleInespAntIII = \score {
 
 \score { \tInedeleInespAntIII }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 g( c) c c b( a b) a( g) g \barMaior
+     g g g f g a4.( c) \barMin
+    c4( d) c b a g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 g( c) c c b( a b) a( g) g \barMaior
+    g g g a b c4.( a) \barMin
+    c4( d c) b( g) g g( a) a( g) g  \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 g( a) a a g( f e) d( f e4.) e \barMaior
+    d4 d f g a c4.( a) \barMin
+    c4( d c) b( g) g g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \relative c' {
   \choralniRezim
