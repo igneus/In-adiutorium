@@ -1,5 +1,7 @@
 \markup {\nadpisDen {Neděle 2. týdne}}
 
+% -*- master: ../nedelniantifony.ly;
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {

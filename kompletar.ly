@@ -433,8 +433,8 @@
     
     % ruzne verze Aleluja:
     <<
-    { f^\markup{V době velikonoční:} g e e  }
-    \new Staff { { \choralniRezim f g( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    { f^\markup{V době velikonoční:} g( f) e4. e \barFinalis }
+    \new Staff { { \choralniRezim f4 g( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim f g( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
     % \new Staff { { \choralniRezim f4 g( a g f) e( d e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim f4 e( d) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
@@ -444,6 +444,8 @@
     \new Staff { { \choralniRezim e e( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim e4 e( f) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim e f d( f e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f^\markup{Stará verze:} g e e  } \addlyrics { A -- le -- lu -- ja. } }
+    
     >>
     
     \barFinalis
@@ -456,11 +458,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. k Nunc dimittis"
+    quid = "ant."
     modus = "III"
     differentia = "a" 
     psalmus = "Nunc dimittis"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
     id = "sim"
   }
 }

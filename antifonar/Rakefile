@@ -35,12 +35,29 @@ commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets
 commonoptions = commonoptions_withoutdoxology+o_doxology
 canticleoptions = commonoptions+o_canticletitle
 
+# prikaz pouzivany ke zpracovani vsech extrahovanych not pro
+# nedelni antifonar.
+# na konec se pouze pripoji (pripadne dalsi volby a) jmeno souboru ke zpracovani.
+splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--insert-text \"\\layout { indent = 1.5\\cm \n short-indent = 0\\cm \n"+
+                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
+                                                                            "}\n\" "+
+                        "--remove-headers "+
+                        "--mode-info "+
+                        "--one-clef "+
+                        "--ids "
+
+
 ##############
 # Antifonar: kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
 
-kompletar_options = commonoptions+"--columns"
+kompletar_options = commonoptions+" --columns"
+
+kompletar_splitscores_command = splitscores_command + " --output-dir #{adresar_kompletar} "
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
@@ -71,8 +88,8 @@ file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
-file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_kompletar} --prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' --remove-headers --mode-info --ids ../kompletar.ly"
+file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do |t|
+  sh kompletar_splitscores_command + t.prerequisites.first
 end
 
 desc "Antiphonal for the completory."
@@ -285,6 +302,8 @@ cislazalmu_nedele = %w( 95 100 67 24
 
 nedelecommonoptions = commonoptions+" --columns"
 
+nedele_splitscores_command = splitscores_command + " --output-dir #{adresar_nedele} "
+
 cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
 end
@@ -298,21 +317,6 @@ zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_ne
 
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
 zalmynedele << genzalm('kantikum_magnificat.zalm', nedelecommonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_nedele)
-
-# prikaz pouzivany ke zpracovani vsech extrahovanych not pro
-# nedelni antifonar.
-# na konec se pouze pripoji jmeno souboru ke zpracovani.
-nedele_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
-          "../nastroje/splitscores.rb "+
-                        " --output-dir #{adresar_nedele} "+
-                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
-                        "--insert-text \"\\layout { indent = 1.5\\cm \n short-indent = 0\\cm \n"+
-                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
-                                                                            "}\n\" "+
-                        "--remove-headers "+
-                        "--mode-info "+
-                        "--one-clef "+
-                        "--ids "
 
 noty_nedele = (1..4).map do |i| 
   # nazev vygenerovaneho souboru s prvni antifonou
@@ -332,8 +336,8 @@ file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
-file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do
-  sh "#{RUBY_COMMAND} -I ../nastroje ../nastroje/splitscores.rb --output-dir #{adresar_nedele} --prepend-text '\\include \"spolecne_antifonar.ly\"' --remove-headers --mode-info --ids nedele_verse.ly"
+file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
+  sh nedele_splitscores_command + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 

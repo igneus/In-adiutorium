@@ -59,11 +59,11 @@ Pochází z {\it Antiphonale Romanum}, Řím 1912, s. *26.}
 
 \nadpisDen{Neděle po 1. nešporách}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_nei1.ly}
+\lilypondfile{generovane/kompletar/kompletar_nei1.ly}
 \input{generovane/kompletar/zalm4.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_nei2.ly}
+\lilypondfile{generovane/kompletar/kompletar_nei2.ly}
 \input{generovane/kompletar/zalm134.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
@@ -72,23 +72,23 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisTypTextu{Responsorium}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_resp.ly}
+\lilypondfile{generovane/kompletar/kompletar_resp.ly}
 
 \nadpisTypTextu{Simeonovo kantikum}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_sim.ly}
+\lilypondfile{generovane/kompletar/kompletar_sim.ly}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
 % \input{generovane/kompletar/doxologie_2akcenty.tex}
 
 \nadpisDen{Neděle po 2. nešporách}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_neii.ly}
+\lilypondfile{generovane/kompletar/kompletar_neii.ly}
 \input{generovane/kompletar/zalm91.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
 \nadpisDen{Pondělí}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_po.ly}
+\lilypondfile{generovane/kompletar/kompletar_po.ly}
 \input{generovane/kompletar/zalm86.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
@@ -96,7 +96,7 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisDen{Úterý}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ut.ly}
+\lilypondfile{generovane/kompletar/kompletar_ut.ly}
 \input{generovane/kompletar/zalm143.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
@@ -104,11 +104,11 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisDen{Středa}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st1.ly}
+\lilypondfile{generovane/kompletar/kompletar_st1.ly}
 \input{generovane/kompletar/zalm31.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_st2.ly}
+\lilypondfile{generovane/kompletar/kompletar_st2.ly}
 \input{generovane/kompletar/zalm130.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
@@ -116,13 +116,13 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \nadpisDen{Čtvrtek}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_ct.ly}
+\lilypondfile{generovane/kompletar/kompletar_ct.ly}
 \input{generovane/kompletar/zalm16.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
 \nadpisDen{Pátek}
 
-\lilypondfile[staffsize=16]{generovane/kompletar/kompletar_pa.ly}
+\lilypondfile{generovane/kompletar/kompletar_pa.ly}
 \input{generovane/kompletar/zalm88.tex}
 % \input{generovane/kompletar/doxologie.tex}
 

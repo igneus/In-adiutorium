@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "památka sv. Augustina (5.7.)"
+  title = "památka sv. Augustina (28.8.)"
   composer = "Jakub Pavlík"
 }
 
@@ -23,7 +23,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "IV alt"
+    modus = "IV alt"
     differentia = "A" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
@@ -47,7 +47,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "II"
+    modus = "II"
     differentia = "D" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
