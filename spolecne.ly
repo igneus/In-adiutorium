@@ -187,6 +187,10 @@ bgcolor =
 #})
 
 zvyraznovacZeleny = { \bgcolor "(rgb-color 0.3 1 0.3)" }
+zvyraznovacZelenyII = { \bgcolor "(rgb-color 0.6 1 0.6)" }
+zvyraznovacZelenyIII = { \bgcolor "(rgb-color 0.8 1 0.8)" }
 zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
 
 sipka = \markup { \char ##x2193 }
+
+cerveneX = \markup\large\bold\sans{ \with-color #red "x" }
