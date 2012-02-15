@@ -4,6 +4,13 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\justify{Tuto antifonu mám v první verzi moc rád, 
+horní F je už ale 
+dost mimo rozsah modu VIII. Změnit modus na VII?}
+\markup\justify{Každopádně se mi žádná z níže navržených verzí
+nelíbí víc než verze původní - ty, které jsou světle zelené,
+nejsu úplně marné, ale na původní nemají.}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -27,6 +34,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyIII
     \choralniRezim
     d4 d d d f( e) f f4.( g) \barMax
     f4 f g( a) f( d) d \barMin
@@ -40,6 +48,100 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    d4 d d d f( e) f f4.( g) \barMax
+    f4 f g( a) f( d) d \barMin
+    d d d d( \mark\sipka f) e c c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacCerveny
+    \choralniRezim
+    d4 d d d e( c) a4. a \barMaior
+    a4 a c( d) d( e)^\markup{\cerveneX Tenor na E je v modu IV e-e.} e \barMin
+    e d c d( e f) e \barMin d( c) b( c) a a \barFinalis
+    \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo 
+    ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacCerveny
+    \choralniRezim
+    d4 d d d e( c) a4. a \barMaior
+    g4( \parenthesize a)^\markup{Je lepší, když tu je, nebo když ne?} g a( c) c( d) d \barMin
+    d c b c(^\markup{\cerveneX druhý vrchol tady melodii destabilisuje (text tady druhý vrchol nechce)} d e d) d c( b) c( a) a( g) g \barFinalis
+    \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo 
+    ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    d4 d d d e( c) a4. a \barMaior
+    g4( \parenthesize a)^\markup{Je lepší, když tu je, nebo když ne?} g a( c) c( d) d \barMin
+    d c b c( d c a) a \barMin b( g) g a a \barFinalis
+    \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo 
+    ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = "Žalm 141"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -75,7 +177,7 @@
 tInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) c c b( d c a) g( f) g \barMin
+    g4 g( c) c c b(^\markup{\cerveneX dlouhé melisma se sem nehodí} d c a) g( f) g \barMin
     g f g a b c4.( d) \barMin
     c4 c a f g g \barFinalis
   }
@@ -119,10 +221,10 @@ tInedeleInespAntIII = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 g( c) c c b( a b) a( g) g \barMaior
-    g g g a b c4.( a) \barMin
+    g g g \mark\sipka a b c4.( a) \barMin
     c4( d c) b( g) g g( a) a( g) g  \barFinalis
   }
   \addlyrics {
@@ -180,6 +282,45 @@ tInedeleInespAntIII = \score {
   piece = \markup {\sestavTitulek}
 }
 
+\relative c' {
+  \zvyraznovacZelenyII
+  \choralniRezim
+  d4 c( d) d d f( e) d4. d \barMaior
+  d4 d e e f d4.( c) \barMin
+  d4( f g) f( e) d c d d \barFinalis
+}
+\addlyrics {
+  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+  po -- vý -- šil na -- vě -- ky.
+}
+\header {
+  quid = "3. ant."
+  modus = "II"
+  differentia = "D" 
+  psalmus = "Flp 2"
+  id = "1ne-ant3"
+  piece = \markup {\sestavTitulek}
+}
+
+\relative c'' {
+  \zvyraznovacZeleny
+  \choralniRezim
+  a4 a( e) e g f( e) d4. d \barMaior
+  d4 d d f g g4.( a) \barMin a4( g bes) a( g f d) d \barMin e( c) c( d) d \barFinalis
+}
+\addlyrics {
+  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+  po -- vý -- šil na -- vě -- ky.
+}
+\header {
+  quid = "3. ant."
+  modus = "I"
+  differentia = "a" 
+  psalmus = "Flp 2"
+  id = "1ne-ant3"
+  piece = \markup {\sestavTitulek}
+}
+
 \pageBreak
 
 tInedeleInespResp = \score {
@@ -223,6 +364,7 @@ tInedeleInespResp = \score {
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup{Velký důraz na "\"hledám\"".}
 \score {
   \relative c' {
     \key f \major
@@ -390,6 +532,9 @@ tInedeleInespResp = \score {
 
 \pageBreak
 
+\markup\justify{Tato se proviňuje proti rozsahu modu VIII.
+Nepatří vlastně k modu VII? Každopádně mám její melodii
+moc rád a nechci ji měnit.}
 \score {
   \relative c' {
     \choralniRezim
@@ -847,6 +992,11 @@ tInedeleIInespAntI = \score {
 
 \pageBreak
 
+\markup\justify{Tuhle mám rád, myslím, že melodie i docela
+dobře vyjadřuje obsah. Alternativy nejsou akutně potřebné,
+ale časem není od věci si přeci jen s nějakými pohrát -
+co když se objeví nějaká ještě lepší...}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -866,6 +1016,8 @@ tInedeleIInespAntI = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 tInedeleIInespAntIII = \score {
   \relative c' {
@@ -889,6 +1041,8 @@ tInedeleIInespAntIII = \score {
 }
 
 \score { \tInedeleIInespAntIII }
+
+\pageBreak
 
 tInedeleIInespResp = \score {
   \relative c' {
