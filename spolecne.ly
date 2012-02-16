@@ -194,3 +194,13 @@ zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
 sipka = \markup { \char ##x2193 }
 
 cerveneX = \markup\large\bold\sans{ \with-color #red "x" }
+
+% Napevy stejneho textu vetsinou vznikaji po "rodinach":
+% jeden hudebni napad je postupne ruzne rozvijen,
+% upravovan, pak prijde jiny novy a cela hra se opakuje.
+% Tento druh nadpisu slouzi k oznaceni techto rodin
+% pribuznych napevu.
+#(define-markup-command (nadpisSkupiny layout props obsah)(markup?)
+   "Skupina verzi"
+   (interpret-markup layout props
+		     (markup #:bold #:box obsah)))
