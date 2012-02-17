@@ -319,15 +319,16 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
-  %{
     
   \markup\nadpisDen{3. neděle postní /cyklus B/}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a b( c) c \barMaior
+      % d e d c b a g a c b a( b) a a \barFinalis
+      d( e d) c( d) d( a) a \barMin
+      a( g) f g a c b a( b) a a \barFinalis
     }
     \addlyrics {
       Je -- žíš ře -- kl:
@@ -335,8 +336,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "A" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -344,9 +345,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a a g a f4.( g) \barMin g4( bes) a4. a \barMaior
+      a4 g( a) f f4.( d) \barMin d4 c d d( f e) d d \barMax
+      d d d f( g) g( a g4.) g \barMin f4( g f) e c( d) d \barFinalis
     }
     \addlyrics {
       Zboř -- te ten -- to chrám, pra -- ví Pán,
@@ -355,18 +358,21 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
+      fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 f g a c c c d c b c a4. a \barMaior
+      a4 g( a) a a g( f) f( d) d \barMin 
+      d e( f) e( f d) d \barFinalis
     }
     \addlyrics {
       Mno -- ho jich u -- vě -- ři -- lo v_Je -- ží -- šo -- vo jmé -- no,
@@ -374,14 +380,15 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
+  %{
   \markup\nadpisDen{4. neděle postní /cyklus B/}
   
   \score {
