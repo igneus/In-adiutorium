@@ -388,13 +388,15 @@
     }
   }
   
-  %{
   \markup\nadpisDen{4. neděle postní /cyklus B/}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+      g g g g a( c) b( c) c c d( c) b( a) a \barMax
+      a a a( g) g \barMin g f g g( a) a \barMaior
+      a b c c( a) a g( a) f g( a g) g \barFinalis
     }
     \addlyrics {
       Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
@@ -404,29 +406,35 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
+      fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a g4.( a) a4( b) g e e \barMaior
+      d e d( b) b c( b) c d f e d e e \barMax
+      e e e( a) a \barMin a g a b( g) g \barMin
+      f g( a) g( f e) e \barMaior 
+      d c d f f e( f e) e \barFinalis
     }
     \addlyrics {
       Tak Bůh mi -- lo -- val svět,
       že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na,
       a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
-      ne -- za -- hy -- nul, a -- le měl ži -- vot věč -- ný.
+      ne -- za -- hy -- nul, 
+      a -- le měl ži -- vot věč -- ný.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -434,9 +442,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 f( e) e f( e) f f( g) g \barMin
+      f( g) a( c) b( a) a \barMaior
+      a b c c( d c) b( a) g g \barMin
+      g f e d( e) d \barMin d f e f f g( a g) g \barFinalis
     }
     \addlyrics {
       Kdo jed -- ná po -- dle prav -- dy, 
@@ -446,14 +457,15 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
+  %{
   \markup\nadpisDen{5. neděle postní /cyklus B/}
   
   \score {
