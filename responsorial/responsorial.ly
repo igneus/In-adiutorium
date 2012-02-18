@@ -185,27 +185,6 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   \include "pust_responsoria_4.ly"
 }
 
-%%% tohle je neporadek, zkopirovany z velikonoce_responsoria.ly
-
-% text
-dvaleluja = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-% dily do 'mych' responsorii
-alelResp = { d4 c d a b c d4. d }
-slava = { d4 d d d d c d \barMax d4 c a b c d \barFinalis }
-slavaDelsi = { a4 a g( a) a \barMin a c( a) a \barMin a g a b( c) a4. a }
-
-alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
-
-% dily do 'tradicnich' responsorii
-respAlelujaVI = { 
-  a4 a( g) g f \barMin d f( g) g f 
-}
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \barMin
-  a a g a( g) f f
-}
-
 \bookpart {
   \header {
     subtitle = "5. Doba velikonoční"
