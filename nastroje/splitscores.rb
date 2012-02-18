@@ -113,7 +113,7 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
   # remove eventual variable assignment
   varassignment = /^\s*\w+\s*=\s*\\score/ 
   if newtext =~ varassignment then
-    newtext.gsub!(varassignment, '')
+    newtext.gsub!(varassignment, '\score')
   end
   
   if setup[:mode_info] then
