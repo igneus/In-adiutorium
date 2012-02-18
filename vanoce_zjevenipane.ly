@@ -8,17 +8,6 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
-respAlelujaVI = { 
-  a4 a( g) g f \breathe d f( g) g f 
-}
-
-respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \breathe
-  a a g a( g) f f
-}
-
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -151,22 +140,22 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f4 f f f f f f f f f f e g a \bar "|"
-    \respAlelujaVI \bar "||"
+    \respVIalelujaResponsum \bar "||"
     % V
     \neviditelna
     f4 f f f f f f f f e g g a \bar "|"
     % R
     \neviditelna a
-    \respAlelujaVI \bar "||"
+    \respVIalelujaResponsum \bar "||"
     % Slava
-    \doxologieRespAlelujaVI \bar "||"
+    \respVIalelujaDoxologie \bar "||"
   }
   \addlyrics {
     \Response V_něm bu -- dou po -- žeh -- ná -- na 
     všech -- na ple -- me -- na ze -- mě._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Bla -- ho -- sla -- vit ho bu -- dou všech -- ny ná -- ro -- dy._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -311,21 +300,21 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f4 f f f f f f f e g a \bar "|"
-    \respAlelujaVI \bar "||"
+    \respVIalelujaResponsum \bar "||"
     % V
     \neviditelna
     f4 f f f f f f e g g a \bar "|"
     % R
     \neviditelna a
-    \respAlelujaVI \bar "||"
+    \respVIalelujaResponsum \bar "||"
     % Slava
-    \doxologieRespAlelujaVI \bar "||"
+    \respVIalelujaDoxologie \bar "||"
   }
   \addlyrics {
     \Response Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Všech -- ny ná -- ro -- dy mu bu -- dou slou -- žit._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
