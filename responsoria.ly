@@ -125,6 +125,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "1ne-1ne"
       piece = "responsorium - IV"
     }
   }
@@ -154,6 +157,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "1ne-rch"
       piece = "responsorium - IV"
     }
   }
@@ -183,6 +189,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "1ne-2ne"
       piece = "responsorium - IV"
     }
   }
@@ -213,6 +222,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1po-rch"
       piece = "responsorium - VI"
     }
   }
@@ -241,6 +253,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1po-ne"
       piece = "responsorium - VI"
     }
   }
@@ -271,6 +286,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1ut-rch"
       piece = "responsorium - VI"
     }
   }
@@ -299,6 +317,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1ut-ne"
       piece = "responsorium - VI"
     }
   }
@@ -329,6 +350,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1st-rch"
       piece = "responsorium - VI"
     }
   }
@@ -357,6 +381,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1st-ne"
       piece = "responsorium - VI"
     }
   }
@@ -387,6 +414,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1ct-rch"
       piece = "responsorium - VI"
     }
   }
@@ -415,6 +445,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1ct-ne"
       piece = "responsorium - VI"
     }
   }
@@ -446,6 +479,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1pa-rch"
       piece = "responsorium - VI"
     }
   }
@@ -474,6 +510,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1pa-ne"
       piece = "responsorium - VI"
     }
   }
@@ -504,6 +543,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1so-rch"
       piece = "responsorium - VI"
     }
   }
@@ -542,6 +584,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "2ne-1ne"
       piece = "responsorium - IV"
     }
   }
@@ -571,6 +616,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "2ne-rch"
       piece = "responsorium - IV"
     }
   }
@@ -600,6 +648,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "IV"
+      id = "2ne-2ne"
       piece = "responsorium - IV"
     }
   }
@@ -631,6 +682,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2po-rch"
       piece = "responsorium - VI"
     }
   }
@@ -660,6 +714,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2po-ne"
       piece = "responsorium - VI"
     }
   }
@@ -692,6 +749,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2ut-rch"
       piece = "responsorium - VI"
     }
   }
@@ -721,6 +781,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2ut-ne"
       piece = "responsorium - VI"
     }
   }
@@ -752,6 +815,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2st-rch"
       piece = "responsorium - VI"
     }
   }
@@ -781,6 +847,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2st-ne"
       piece = "responsorium - VI"
     }
   }
@@ -812,6 +881,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2ct-rch"
       piece = "responsorium - VI"
     }
   }
@@ -841,6 +913,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2ct-ne"
       piece = "responsorium - VI"
     }
   }
@@ -872,6 +947,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2pa-rch"
       piece = "responsorium - VI"
     }
   }
@@ -901,6 +979,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2pa-ne"
       piece = "responsorium - VI"
     }
   }
@@ -932,6 +1013,9 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
+      quid = "resp"
+      modus = "VI"
+      id = "2so-rch"
       piece = "responsorium - VI"
     }
   }
