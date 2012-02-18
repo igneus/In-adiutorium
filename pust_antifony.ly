@@ -465,25 +465,30 @@
     }
   }
   
-  %{
   \markup\nadpisDen{5. neděle postní /cyklus B/}
   
   \score {
     \relative c' {
       \choralniRezim
-      
+      e4 e e f e f g( a) a
+      a( b) a g g( a) a a \barMin a
+      a4 a a( e) e \barMaior
+      f( e f) d f f( e) e \barMax
+      e( a g) g( a) g f g4.( a) \barMaior
+      a4 g a b( g) g g( a g) f( g f e) e \barFinalis
     }
     \addlyrics {
       Jest -- li -- že pše -- nič -- né zr -- no
-      ne -- pad -- ne do ze -- mě a ne -- o -- du -- mře,
+      ne -- pad -- ne do ze -- mě a 
+      ne -- o -- du -- mře,
       zů -- sta -- ne sa -- mo;
       o -- du -- mře -- -li však,
       při -- ne -- se hoj -- ný u -- ži -- tek.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "E" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -493,7 +498,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d d c d f( a) a \barMin
+      a g a( bes) a g( a) a \barMaior
+      g4 g( a) f f4.( d) \barMin 
+      f4 e f g f e( f) d d \barFinalis
     }
     \addlyrics {
       Jest -- li -- že mi kdo chce slou -- žit,
@@ -503,8 +511,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -514,7 +522,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d f g g a( g a c b) a4. a \barMaior
+      a4( g) g( d) d \barMin d( e) f g f e( f d) d \barFinalis
     }
     \addlyrics {
       Až bu -- du ze ze -- mě vy -- vý -- šen,
@@ -522,13 +531,12 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
-  %}
 }
