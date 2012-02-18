@@ -3,13 +3,16 @@ RUBY_COMMAND = 'ruby1.9.1'
 $splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "
 
-def task_scoresplit(scf)
+def task_scoresplit(scf, outputname='', options='')
   i = scf.rindex('.ly')
-  wanted = scf[0..i-1]+'_1'+scf[i..-1]
-  wanted = File.basename(wanted)
-  puts wanted
+  if outputname == '' then
+    wanted = scf[0..i-1]+'_1'+scf[i..-1]
+    wanted = File.basename(wanted)
+  else
+    wanted = outputname
+  end
   file wanted => [scf] do |t|
-    sh $splitscores_command+scf
+    sh $splitscores_command+options+' '+scf
   end
 end
 
@@ -17,12 +20,16 @@ task_scoresplit '../responsoria.ly'
 task_scoresplit '../advent_responsoria.ly'
 task_scoresplit '../pust_responsoria.ly'
 task_scoresplit '../velikonoce_responsoria.ly'
+task_scoresplit '../antifony/tyden1_1nedele.ly', 'tyden1_1nedele_1ne-resp.ly', '--ids'
+task_scoresplit '../antifony/tyden2_1nedele.ly', 'tyden2_1nedele_1ne-resp.ly', '--ids'
 
 file 'responsorial.pdf' => ['responsorial.ly',
                                           'responsoria_1.ly',
                                           'advent_responsoria_1.ly',
                                           'pust_responsoria_1.ly',
-                                          'velikonoce_responsoria_1.ly'] do
+                                          'velikonoce_responsoria_1.ly',
+                                          'tyden1_1nedele_1ne-resp.ly',
+                                          'tyden2_1nedele_1ne-resp.ly'] do
   sh "lilypond responsorial.ly"
 end
 
