@@ -9,6 +9,7 @@ rok = #(strftime "%Y" (localtime (current-time)))
   title = "Responsoriál"
   composer = "Jakub Pavlík"
   
+  % misto normalni velke tiraze jen malicka
   tagline = \markup {
     \line { 
       "In adiutorium" 
@@ -23,6 +24,7 @@ rok = #(strftime "%Y" (localtime (current-time)))
   
   ragged-bottom=##t
   
+  % cisla stranek: na vsech strankach, dole uprostred
   print-page-number = ##t
   print-first-page-number = ##t
   oddHeaderMarkup = \markup \fill-line { " " }
@@ -157,6 +159,20 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
 
 \bookpart {
   \header {
+    subtitle = "3. Doba vánoční"
+  }
+  
+  \markup\nadpisTyden{do slavnosti Zjevení Páně}
+  \include "vanoce_narozenipane_narozeni-rch-resp.ly"
+  \include "vanoce_narozenipane_narozeni-2ne-resp.ly"
+  
+  \markup\nadpisTyden{od slavnosti Zjevení Páně}
+  \include "vanoce_zjevenipane_epifanie-rch-resp.ly"
+  \include "vanoce_zjevenipane_epifanie-1ne-resp.ly"
+}
+
+\bookpart {
+  \header {
     subtitle = "4. Doba postní"
   }
   
@@ -199,6 +215,7 @@ doxologieRespAlelujaVI = {
   \include "velikonoce_responsoria_6.ly"
   \include "velikonoce_responsoria_7.ly"
   \include "velikonoce_responsoria_8.ly"
+  \pageBreak % ZLOM
   
   \markup\nadpisDen{ferie}
   \include "velikonoce_responsoria_9.ly"
