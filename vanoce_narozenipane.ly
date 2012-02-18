@@ -6,17 +6,7 @@
 }
 
 \include "spolecne.ly"
-
-respAlelujaVI = { 
-  a4 a( g) g f \breathe d f( g) g f 
-}
-
-respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \breathe
-  a a g a( g) f f
-}
+\include "dilyresponsorii.ly"
 
 \bookpart {
   \header {
@@ -38,7 +28,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "d" 
       psalmus = "Žalm 113"
       piece = \markup {\sestavTitulek}
@@ -55,7 +45,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Žalm 147"
       piece = \markup {\sestavTitulek}
@@ -76,7 +66,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Fp 2"
       piece = \markup {\sestavTitulek}
@@ -103,7 +93,7 @@ doxologieRespAlelujaVI = {
       \Response Dnes po -- zná -- te, že při -- jde Pán_* a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
       \Verse On sám při -- jde a spa -- sí vás_*
       \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VIII"
@@ -123,7 +113,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -146,7 +136,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -169,7 +159,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Žalm 2"
       piece = \markup {\sestavTitulek}
@@ -190,7 +180,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = "Žalm 19A"
       piece = \markup {\sestavTitulek}
@@ -209,7 +199,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Žalm 45"
       fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
@@ -231,7 +221,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant. ke kantikům vigilie"
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -260,7 +250,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "d" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -284,7 +274,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -309,7 +299,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -323,21 +313,21 @@ doxologieRespAlelujaVI = {
       % R
       \neviditelna f
       f4 f f f f f f f f e g a \bar "|"
-      \respAlelujaVI \bar "||"
+      \respVIalelujaResponsum \bar "||"
       % V
       \neviditelna f
       f4 f f f f f f f f f e g a \bar "|"
       % R
       \neviditelna a
-      \respAlelujaVI \bar "||"
+      \respVIalelujaResponsum \bar "||"
       % Slava
-      \doxologieRespAlelujaVI \bar "||"
+      \respVIalelujaDoxologie \bar "||"
     }
     \addlyrics {
-      \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su._* \respAlelujaText
+      \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su._* \textRespAleluja
       \Verse Roz -- po -- me -- nul se na svou do -- bro -- tu a věr -- nost._*
-      \Response \respAlelujaText
-      \slavaRespText
+      \Response \textRespAleluja
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -359,7 +349,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "c" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -383,7 +373,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "f" 
       psalmus = "dopoledne"
       piece = \markup {\sestavTitulek}
@@ -404,7 +394,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = "v poledne"
       piece = \markup {\sestavTitulek}
@@ -424,7 +414,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "odpoledne"
       piece = \markup {\sestavTitulek}
@@ -456,7 +446,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -475,7 +465,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "f" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -498,7 +488,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -512,22 +502,22 @@ doxologieRespAlelujaVI = {
       % R
       \neviditelna f
       f4 f f f e g a \bar "|"
-      \respAlelujaVI \bar "||"
+      \respVIalelujaResponsum \bar "||"
       % V
       \neviditelna f
       f4 f f f f f e g( a) a \bar "|"
       % R
       \neviditelna a
-      \respAlelujaVI \bar "||"
+      \respVIalelujaResponsum \bar "||"
       % Slava
-      \doxologieRespAlelujaVI \bar "||"
+      \respVIalelujaDoxologie \bar "||"
     }
     \addlyrics {
       \Response Slo -- vo se sta -- lo tě -- lem._*
-      \respAlelujaText
+      \textRespAleluja
       \Verse A pře -- bý -- va -- lo me -- zi ná -- mi._*
-      \Response \respAlelujaText
-      \slavaRespText
+      \Response \textRespAleluja
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -563,7 +553,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -599,7 +589,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "g" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -632,7 +622,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "b" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -655,7 +645,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -676,7 +666,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -705,7 +695,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -728,7 +718,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -750,7 +740,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -773,7 +763,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = ". ant."
-      tonus = ""
+      modus = ""
       differentia = "" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -834,7 +824,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "f" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -862,7 +852,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -883,7 +873,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "g" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -904,7 +894,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "d" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -935,7 +925,7 @@ doxologieRespAlelujaVI = {
       a pro -- to má s_ná -- mi sou -- cit.
       \Verse Stal se člo -- vě -- kem a žil me -- zi lid -- mi,_*
       \Response a pro -- to má s_ná -- mi sou -- cit.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - VI"
@@ -957,7 +947,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -990,7 +980,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "g" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1021,7 +1011,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "c" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1058,7 +1048,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1083,7 +1073,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "IV alt"
+      modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -1115,7 +1105,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1148,7 +1138,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "III"
+      modus = "III"
       differentia = "g" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -1175,7 +1165,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1209,7 +1199,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -1247,7 +1237,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1276,7 +1266,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "III"
+      modus = "III"
       differentia = "b" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1309,7 +1299,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "IV alt"
+      modus = "IV alt"
       differentia = "A" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1343,7 +1333,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -1369,7 +1359,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1400,7 +1390,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "1. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1435,7 +1425,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "2. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "b" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1471,7 +1461,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "3. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "d" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1498,7 +1488,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -1533,7 +1523,7 @@ doxologieRespAlelujaVI = {
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
