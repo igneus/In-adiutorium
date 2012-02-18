@@ -159,6 +159,7 @@
     \textRespDoxologie
   }
   \header {
+    id = "epifanie-1ne-resp"
     piece = "responsorium - VI"
   }
 }
@@ -318,6 +319,7 @@
     \textRespDoxologie
   }
   \header {
+    id = "epifanie-rch-resp"
     piece = "responsorium - VI"
   }
 }
