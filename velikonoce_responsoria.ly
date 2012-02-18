@@ -262,7 +262,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       
       % R
       \neviditelna d
-      f4 f f g( f) d( f) \barMin f f f f f e g a \barMax
+      f4 f f g( f) d( f) f \barMin f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
       
       % V
