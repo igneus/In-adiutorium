@@ -11,6 +11,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \markup\justify {
   Následující responsorium využívá melodii podobného responsoria
@@ -42,7 +43,7 @@
 
     \Verse Ty, na kte -- ré -- ho če -- ká -- me,_*
     \Response smi -- luj se nad ná -- mi.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "neděle - ranní chvály (III)"
@@ -74,7 +75,7 @@
     a dej nám svou spá -- su.
     \Verse Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
     \Response a dej nám svou spá -- su.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "neděle - nešpory (VIII)"
@@ -107,7 +108,7 @@
     Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
     \Verse U -- vi -- díš ra -- dost, kte -- rá k_to -- bě při -- chá -- zí od tvé -- ho Bo -- ha;_*
     \Response Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "ferie - ranní chvály (I)"
@@ -136,7 +137,7 @@
     přijď a ob -- nov nás.
     \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
     \Response přijď a ob -- nov nás.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "ferie - nešpory (II)"
