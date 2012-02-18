@@ -96,8 +96,9 @@ doxologieRespAlelujaVI = {
     subtitle = "5. Doba velikonoční"
   }
   
-  \include "velikonoce_responsoria_5.ly"
   \include "velikonoce_responsoria_6.ly"
   \include "velikonoce_responsoria_7.ly"
   \include "velikonoce_responsoria_8.ly"
+  \include "velikonoce_responsoria_9.ly"
+  \include "velikonoce_responsoria_10.ly"
 }
