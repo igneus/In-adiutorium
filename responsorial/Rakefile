@@ -16,7 +16,7 @@ def task_scoresplit(scf, outputname='', options='')
   end
 end
 
-task_scoresplit '../responsoria.ly'
+task_scoresplit '../responsoria.ly', 'responsoria_1ne-rch.ly', '--ids'
 task_scoresplit '../advent_responsoria.ly'
 task_scoresplit '../pust_responsoria.ly'
 task_scoresplit '../velikonoce_responsoria.ly'
@@ -24,7 +24,7 @@ task_scoresplit '../antifony/tyden1_1nedele.ly', 'tyden1_1nedele_1ne-resp.ly', '
 task_scoresplit '../antifony/tyden2_1nedele.ly', 'tyden2_1nedele_1ne-resp.ly', '--ids'
 
 file 'responsorial.pdf' => ['responsorial.ly',
-                                          'responsoria_1.ly',
+                                          'responsoria_1ne-rch.ly',
                                           'advent_responsoria_1.ly',
                                           'pust_responsoria_1.ly',
                                           'velikonoce_responsoria_1.ly',
