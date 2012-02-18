@@ -96,6 +96,7 @@
       \textRespDoxologie
     }
     \header {
+      id = "narozeni-1ne-resp"
       piece = "responsorium - VIII"
     }
   }
@@ -330,6 +331,7 @@
       \textRespDoxologie
     }
     \header {
+      id = "narozeni-rch-resp"
       piece = "responsorium - VI"
     }
   }
@@ -520,6 +522,7 @@
       \textRespDoxologie
     }
     \header {
+      id = "narozeni-2ne-resp"
       piece = "responsorium - VI"
     }
   }
