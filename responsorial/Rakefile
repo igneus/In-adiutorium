@@ -34,3 +34,8 @@ file 'responsorial.pdf' => ['responsorial.ly',
 end
 
 task :default => ['responsorial.pdf']
+
+task :clean do
+  sh "rm *_*.ly"
+  sh "rm *.pdf"
+end
