@@ -1,3 +1,5 @@
+*This branch contains materials prepared only for special occasions*
+
 # In adiutorium #
 
 music for catholic Divine Office (liturgy of hours) in Czech language.
