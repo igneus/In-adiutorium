@@ -18,9 +18,11 @@ unless file_to_be_processed
   raise "Please, specify LilyPond file which is to be processed."
 end
 
-log = `git log --oneline #{file_to_be_processed}`
+# git log format: %h - short commit hash; %ci - date
+log = `git log \"--format=format:%h %ci\" #{file_to_be_processed}`
 
 commits = []
+commit_dates = {}
 
 temporary_files = []
 delete_temporary_files = true
@@ -34,8 +36,11 @@ beginning_code = '\include "spolecne.ly"'
 
 log.each_line do |line|
   commit_hash = line.slice!(0..6)
-  comment = line
+  date = line.strip
+  date = date[0..date.index(" ")-1]  # only date is interesting, not the time
+  
   commits.push commit_hash
+  commit_dates[commit_hash] = date
   
   print commit_hash
   print "..."
@@ -115,18 +120,18 @@ end
       
       if first_version then
         s = LilyPondScore.new data
-        fw.puts '\markup\wordwrap\bold{'+s.lyrics_readable+'}'
+        fw.puts '\markup\sans\wordwrap\bold{'+s.lyrics_readable+'}'
         first_version = false
       end
       
       fw.puts "% commit: "+c
       if data != last_data then
-        fw.puts '\markup {git commit: '+c+'}'
+        fw.puts '\markup\sans{git commit: '+c+' ['+commit_dates[c]+']}'
         fw.puts
         fw.puts(data)
         print "+"
       else
-        fw.puts '\markup {git commit: '+c+' without change}'
+        fw.puts '\markup\sans{git commit: '+c+' ['+commit_dates[c]+'] without change}'
         fw.puts
       end
       
