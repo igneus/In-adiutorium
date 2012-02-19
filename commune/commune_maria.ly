@@ -49,6 +49,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c c e e4. d \barMin 
+    c4( d) e c c( d) d  \barMaior
+    d d d e( d c) c d d( a) a \barMin
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la to -- ho,
+    kte -- rý všech -- no stvo -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 113"
+    piece = \markup {\sestavTitulek}
+  }
+}
+    
 \pageBreak
 
 \score {
@@ -305,16 +326,52 @@ je "\"skororepetice\"" melodie 2 v 4.}
 \score {
   \relative c'' {
     \choralniRezim
-    c4( b) c c e e4. d \barMin \mark "2" c4( b) a b a( g) g \barMaior
-    g( c) c c c( d e) d( c) c( d) \barMin \mark "4" d( e) c b a( g) g \barMax
+    c4( b) c c e e4. d \barMin 
+    \mark "2" c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c( d) \barMin 
+    \mark "4" d( e) c b a( g) g \barMax
     \mark "5" g a b c c c d( e) d c d4. d \barMaior
-    \mark "6" d4 d d d b c4. \barMin c4 a b a( g) g \barFinalis
+    \mark "6" d4 d d d b c4. \barMin 
+    c4 a b a( g) g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
-    z_te -- be se na -- ro -- dil Spa -- si -- tel svě -- ta;
+    Bla -- ho -- sla -- ve -- ná jsi, 
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil 
+    Spa -- si -- tel svě -- ta;
     ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
-    při -- mlou -- vej se za nás u své -- ho sy -- na.
+    při -- mlou -- vej se za nás 
+    u své -- ho sy -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4( b) c c e e4. d \barMin 
+    \mark "2" c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c4.( d) \barMin 
+    \mark "4" f4 e c d( c) c \barMax
+    \mark "5" g a b c c c d( e) d c d4. d \barMaior
+    \mark "6" d4 d d d b c4. \barMin 
+    d4 b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, 
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil 
+    Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
+    při -- mlou -- vej se za nás 
+    u své -- ho sy -- na.
   }
   \header {
     quid = "1. ant."
