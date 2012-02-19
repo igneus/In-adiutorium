@@ -115,7 +115,7 @@ end
       
       if first_version then
         s = LilyPondScore.new data
-        fw.puts '\markup { \bold {'+s.lyrics_readable+'} }'
+        fw.puts '\markup\wordwrap\bold{'+s.lyrics_readable+'}'
         first_version = false
       end
       
