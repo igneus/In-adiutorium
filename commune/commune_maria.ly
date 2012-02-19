@@ -29,6 +29,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \breathe g4 a c( b) a( g) g \bar "|"
+    g f g g( a) a a c( d) d \breathe d \mark\sipka d b( c) a g( a g) g \bar "||"
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la to -- ho,
+    kte -- rý všech -- no stvo -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 113"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
