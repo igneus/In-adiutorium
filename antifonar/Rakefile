@@ -25,6 +25,28 @@ def test_lilypondbook_version
   end
 end
 
+def make_dirs(struc)
+  wd = Dir.pwd
+  
+  struc.each_key do |k|
+    if ! FileTest.directory?(k) then
+      Dir.mkdir k
+    end
+    chdir k
+    make_dirs struc[k]
+    chdir '..'
+  end
+end
+
+# create directory structure used by the tasks
+dirs = { 'generovane' => {'kompletar' => {},
+                                                'nedele' => {},
+                                                'zaltar' => {},
+                                                'ctenizaltar' => {},
+                                                'svatecnizaltar' => {}},
+              'vystup' => {}}
+make_dirs dirs
+
 ##############
 # promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
 o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
