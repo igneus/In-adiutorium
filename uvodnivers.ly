@@ -7,7 +7,7 @@
 \include "spolecne.ly"
 
 \markup {
-  Nápěvy: Antiphonale monasticum, Parisiis-Tornaci-Romae 1934, s. 1205nn.
+  Nápěvy: \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.
 }
 \markup {
   Aleluja se v postní době vynechává.
