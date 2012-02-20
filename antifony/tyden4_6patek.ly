@@ -152,8 +152,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 g g( a) \breathe a g a bes a f g a a \breathe
-    a a a g f g g \breathe f( e) d4. d \bar "||"
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    a a a g f g g f( e) d4. d \barFinalis
   }
   \addlyrics {
     O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,

@@ -86,7 +86,7 @@
   \relative c' {
     \choralniRezim
     f4 f e f d d \breathe
-    d4 c d e f a( a) g f e f d4. d \bar "||"
+    d4 c d e f a4. g f e f d4. d \bar "||"
   }
   \addlyrics {
     Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
@@ -167,7 +167,7 @@
 tIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    f4 g a g( a) f( d) d \breathe
+    f4 g a g( a) f( d) d \barMaior
     f g a a g a bes( a g) a \breathe
     g f e( d) d \bar "||"
   }

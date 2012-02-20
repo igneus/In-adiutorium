@@ -43,7 +43,7 @@
   \relative c'' {
     \choralniRezim
     c4 a b4. g b4( d) c( b) g a a4 \breathe
-    b4 d d c( b) a a \breathe g a b c b a( g) g \bar "||"
+    b4 d d c( b) a4. a \breathe g4 a b c b a( g) g \bar "||"
   }
   \addlyrics {
     Chval -- te jmé -- no Hos -- po -- di -- no -- vo,

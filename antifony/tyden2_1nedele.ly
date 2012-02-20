@@ -328,7 +328,7 @@ tIInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
     f4 f g( a) a \barMin
-    a a a g bes( a) g( f) f \barMin
+    a a a g bes( a) g( f) f \barMaior
     f e f g( a f) f \barMin
     d f( g) g f4. \barFinalis
   }
