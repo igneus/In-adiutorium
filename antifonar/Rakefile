@@ -127,7 +127,7 @@ file 'vystup/antifonar_kompletar-broz.pdf' => ["vystup/antifonar_kompletar.pdf"]
 end
 
 desc "Completory arranged for printing as a booklet"
-task :kompletbooklet => ['vystup/antifonar_kompletar-broz.pdf']
+task :kompletar_booklet => ['vystup/antifonar_kompletar-broz.pdf']
 
 #######################
 # zaltar
@@ -206,6 +206,18 @@ end
 
 desc "Psalter."
 task :zaltar => ["antifonar_zaltar.pdf"]
+
+# Zatimco 'brozurkovy ' kompletar je tisten jako sesitek (stranky A4 se
+# prehnou, poskladaji do sebe a uprostred sesiji), zaltar je velky a
+# nasledujici uloha ho chysta napr. pro krouzkovou vazbu -
+# stranky se rozrezou napul a daji svazat
+file 'vystup/antifonar_zaltar-broz.pdf' => ["antifonar_zaltar.pdf"] do |t|
+  nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
+  sh "pdfbook -o vystup --signature 4 --suffix broz #{nws}.pdf"
+end
+
+desc "Psalter arranged for printing"
+task :zaltar_booklet => ['vystup/antifonar_zaltar-broz.pdf']
 
 desc "Remove ALL files generated during the creation of a psalter."
 task :zaltar_clean => [:zaltar_texclean] do
