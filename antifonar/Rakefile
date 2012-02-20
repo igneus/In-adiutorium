@@ -32,9 +32,9 @@ def make_dirs(struc)
     if ! FileTest.directory?(k) then
       Dir.mkdir k
     end
-    chdir k
+    Dir.chdir k
     make_dirs struc[k]
-    chdir '..'
+    Dir.chdir '..'
   end
 end
 
