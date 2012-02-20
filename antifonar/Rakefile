@@ -117,7 +117,17 @@ end
 desc "Antiphonal for the completory."
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
-task :default => [:kompletar]
+file 'vystup/antifonar_kompletar-broz.pdf' => ["vystup/antifonar_kompletar.pdf"] do |t|
+  nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
+  pages_count =  `pdftk vystup/antifonar_kompletar.pdf dump_data output | grep -i NumberOfPages`.split(" ")[1].to_i
+  n = (pages_count % 4 == 0) ? pages_count : pages_count+(4 - (pages_count % 4))
+  # argument --signature urcuje pocet stranek na knizni slozku;
+  # nastavime ho tak, aby cely kompletar byl v jedinem sesitku
+  sh "pdfbook -o vystup --signature #{n} --suffix broz #{nws}.pdf"
+end
+
+desc "Completory arranged for printing as a booklet"
+task :kompletbooklet => ['vystup/antifonar_kompletar-broz.pdf']
 
 #######################
 # zaltar
