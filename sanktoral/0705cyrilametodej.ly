@@ -24,6 +24,38 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \choralniPredznamenaniII "IV-alt.A" "ant. k Ben."
+    a4( d) c c d f( d) c a b( c) a g a4. a \breathe
+    \mark\sipka a4 g a c c a g a a \bar "||"
+  }
+  \addlyrics {
+    Zbož -- ně a spra -- ve -- dli -- vě slou -- ži -- li Pá -- nu
+    po všech -- ny dny své -- ho ži -- vo -- ta.
+  }
+  \header {
+    piece = ""
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \choralniPredznamenaniII "IV-alt.A" "ant. k Ben."
+    a4( d) c c d f( d) c a b( c) a g a4. a \breathe
+    a4 g a \mark\sipka b( c) a g g a a \bar "||"
+  }
+  \addlyrics {
+    Zbož -- ně a spra -- ve -- dli -- vě slou -- ži -- li Pá -- nu
+    po všech -- ny dny své -- ho ži -- vo -- ta.
+  }
+  \header {
+    piece = ""
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     \choralniPredznamenaniII "I.D" "ant. k Magn."
