@@ -1,5 +1,7 @@
 % dvoutýdenní cyklus feriálních antifon ke kantikům z evangelií
 
+% -*- master: ../kantevgantifony.ly;
+
 % LICHE TYDNY -------------------------------------------------
 
 % pondeli
@@ -27,7 +29,7 @@ tIpondeliAntBenedictus = \score {
 tIpondeliAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) a( c4.) c4 d c b c a( g) f4.( g) \breathe
+    g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \breathe
     c4 c c c c c a f g g \bar "||"
   }
@@ -188,7 +190,7 @@ tIpatekAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     \key f\major
-    g4 g f g( a)  c( bes a) a \breathe
+    g4 g f g( a)  c( bes a4.) a \breathe
     c4 d( c) bes( a g) a \breathe g( f d4.) d \bar "||"
   }
   \addlyrics {
@@ -298,7 +300,7 @@ tIIuteryAntBenedictus = \score {
     \choralniRezim
     d4 e f g( a g) f d d4.( c) \breathe
     d4( c d) e( f) f4.( e) \breathe
-    f4 e( f) g f d( c d) d4. \bar "||"
+    f4 e( f) g f d( c d) d \bar "||"
   }
   \addlyrics {
     Za -- chraň nás, Hos -- po -- di -- ne,
@@ -318,12 +320,12 @@ tIIuteryAntMagnificat = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 a g4. g \breathe f4 g a bes c a  g g g \breathe
-    bes c bes a( g) g4. \breathe
-    f4 f g( f) g a g( f) f4. \bar "||"
+    f4 a g4. g \breathe f4 g a bes c a g g g \barMaior
+    bes c bes a( g) g4 \breathe
+    f4 f g( f) g a g( f) f4 \bar "||"
   }
   \addlyrics {
-    U -- čiň s_ná -- mi ve -- li -- ké vě --ci, Hos -- po -- di -- ne,
+    U -- čiň s_ná -- mi ve -- li -- ké vě -- ci, Hos -- po -- di -- ne,
     ne -- boť jsi moc -- ný
     a tvé jmé -- no je sva -- té.
   }
@@ -432,10 +434,10 @@ tIIctvrtekAntMagnificat = \score {
 tIIpatekAntBenedictus = \score {
   \relative c' {
     \choralniRezim
-    d4( e f) g( f) d( e) d4.( c) \breathe
-    a4( c) c d e d c( d) d4. \breathe
-    d4 e( f) d4. c \breathe
-    d4 d d e( f g) a4. g f4( e) c( d) d4. \bar "||"
+    d4( e f) g( f) d( e) d4.( c) \barMin
+    a4( c) c d e d c( d) d \barMaior
+    d4 e( f) d4. c \barMin
+    d4 d d e( f g) a4. g f4( e) c( d) d \barFinalis
   }
   \addlyrics {
     Z_mi -- lo -- srd -- né lás -- ky na -- še -- ho Bo -- ha
@@ -454,9 +456,9 @@ tIIpatekAntBenedictus = \score {
 tIIpatekAntMagnificat = \score {
   \relative c' {
     \choralniRezim
-    d4 e f d c c a \breathe
-    f' f f e f d4. d \breathe
-    f4 g a4. g \breathe
+    d4 e f d c c a \barMin
+    f' f f e f d4. d \barMaior
+    f4 g a4. g \barMin
     f4 e c( d) d4. \bar "||"
   }
   \addlyrics {
@@ -482,7 +484,7 @@ tIIsobotaAntBenedictus = \score {
     \key f\major
     g4 a a a4. \breathe
     a4 g a bes g g4. \breathe
-    g4 f e d( f) d d \bar "||"
+    g4 f e d( f) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, u -- veď na -- še kro -- ky 

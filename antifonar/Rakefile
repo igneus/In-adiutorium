@@ -25,6 +25,28 @@ def test_lilypondbook_version
   end
 end
 
+def make_dirs(struc)
+  wd = Dir.pwd
+  
+  struc.each_key do |k|
+    if ! FileTest.directory?(k) then
+      Dir.mkdir k
+    end
+    Dir.chdir k
+    make_dirs struc[k]
+    Dir.chdir '..'
+  end
+end
+
+# create directory structure used by the tasks
+dirs = { 'generovane' => {'kompletar' => {},
+                                                'nedele' => {},
+                                                'zaltar' => {},
+                                                'ctenizaltar' => {},
+                                                'svatecnizaltar' => {}},
+              'vystup' => {}}
+make_dirs dirs
+
 ##############
 # promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
 o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
@@ -95,7 +117,17 @@ end
 desc "Antiphonal for the completory."
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
-task :default => [:kompletar]
+file 'vystup/antifonar_kompletar-broz.pdf' => ["vystup/antifonar_kompletar.pdf"] do |t|
+  nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
+  pages_count =  `pdftk vystup/antifonar_kompletar.pdf dump_data output | grep -i NumberOfPages`.split(" ")[1].to_i
+  n = (pages_count % 4 == 0) ? pages_count : pages_count+(4 - (pages_count % 4))
+  # argument --signature urcuje pocet stranek na knizni slozku;
+  # nastavime ho tak, aby cely kompletar byl v jedinem sesitku
+  sh "pdfbook -o vystup --signature #{n} --suffix broz #{nws}.pdf"
+end
+
+desc "Completory arranged for printing as a booklet"
+task :kompletar_booklet => ['vystup/antifonar_kompletar-broz.pdf']
 
 #######################
 # zaltar
@@ -174,6 +206,18 @@ end
 
 desc "Psalter."
 task :zaltar => ["antifonar_zaltar.pdf"]
+
+# Zatimco 'brozurkovy ' kompletar je tisten jako sesitek (stranky A4 se
+# prehnou, poskladaji do sebe a uprostred sesiji), zaltar je velky a
+# nasledujici uloha ho chysta vazbu -
+# vytvari slozky po 12 stranach (3 listy A4 uprostred prehnute a slozene do sebe)
+file 'vystup/antifonar_zaltar-broz.pdf' => ["antifonar_zaltar.pdf"] do |t|
+  nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
+  sh "pdfbook -o vystup --signature 12 --suffix broz #{nws}.pdf"
+end
+
+desc "Psalter arranged for printing"
+task :zaltar_book => ['vystup/antifonar_zaltar-broz.pdf']
 
 desc "Remove ALL files generated during the creation of a psalter."
 task :zaltar_clean => [:zaltar_texclean] do

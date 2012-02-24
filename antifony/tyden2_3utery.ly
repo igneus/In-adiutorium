@@ -21,17 +21,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 e e e e( f) d \breathe e f f f d( c d) d \bar "||"
+    a4 a g f g( f) d \barMin f f e f d( c d) d \barFinalis
   }
   \addlyrics {
     O -- chra -- ňuj nás, Pa -- ne, po ce -- lý náš ži -- vot.
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Iz 38"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -61,9 +61,9 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g4. a \breathe a4 c bes a( g) a4. f4 g e d \bar "||"
+    f4 e f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
   }
   \addlyrics {
     Chci za -- cho -- vá -- vat tvá při -- ká -- zá -- ní, Hos -- po -- di -- ne.
@@ -71,7 +71,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "f" 
     psalmus = "Žalm 119-VII"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}

@@ -1,10 +1,23 @@
 class LilyPondScore
-  def initialize(text, number)
+  def initialize(text, number=nil)
     @text = text
-    @number = number
+    if !@number then
+      @number = LilyPondScore.autonum
+    else
+      @number = number
+    end
     init_text
     init_lyrics
     init_header
+  end
+  
+  def LilyPondScore.autonum
+    if defined? @@scorenum then
+      @@scorenum += 1
+    else
+      @@scorenum = 1
+    end
+    return @@scorenum
   end
   
   attr_reader :text

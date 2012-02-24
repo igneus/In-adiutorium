@@ -66,15 +66,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f g a g f e e \breathe
-    d c( d) e f e e4. \breathe
-    f4( a) g f( e) e \bar "|"
-    a c( b) c a \breathe \bar ""
-    a g f f( g e) e \bar "||"
+    e4 f g a g f e e \barMin
+    d c( d) e f e e4. \barMin
+    f4( a) g f( e) e \barMaior
+    a c( b) c a a g f f( g e) e \bar "||"
   }
   \addlyrics {
     Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
-    Hos -- po -- di -- ne, vždyť skr -- ze ně jsi mi dal ži -- vot.
+    Hos -- po -- di -- ne, 
+    vždyť skr -- ze ně jsi mi dal ži -- vot.
   }
   \header {
     quid = "1. ant."

@@ -23,7 +23,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a \breathe d c d a( g a) a \breathe b c a g a a4. \bar "||"
+    a4( c) c \breathe d c d a( g a) a \breathe b c a g a a4. \bar "||"
   }
   \addlyrics {
     Pa -- ne, u -- kaž všem li -- dem své mi -- lo -- sr -- den -- ství.

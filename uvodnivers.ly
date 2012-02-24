@@ -5,10 +5,9 @@
 }
 
 \include "spolecne.ly"
-\include "common/gregorian_extract.ly"
 
 \markup {
-  Nápěvy: Antiphonale monasticum, Parisiis-Tornaci-Romae 1934, s. 1205nn.
+  Nápěvy: \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.
 }
 \markup {
   Aleluja se v postní době vynechává.
@@ -28,15 +27,15 @@ uvodniVers = \lyricmode {
   \relative c'' {
     \choralniRezim
     \neviditelna c
-    c4 c \divisioMinima c c c c( d) c c \finalis
+    c4 c \barMin c c c c( d) c c \barFinalis
     \neviditelna c
-    c c c c c c \divisioMaxima
+    c c c c c c \barMax
     
-    c c c c c c c \divisioMinima
-    c c c c c c \divisioMaxima
-    c c c c c c c c c c c c c c \divisioMinima
-    c c c c c c c c \finalis
-    c c( d) c c4. \finalis
+    c c c c c c c \barMin
+    c c c c c c \barMax
+    c c c c c c c c c c c c c c \barMin
+    c c c c c c c c \barFinalis
+    c c( d) c c4. \barFinalis
   }
   \addlyrics {
     \uvodniVers
@@ -50,12 +49,12 @@ uvodniVers = \lyricmode {
   \relative c'' {
     \choralniRezim
     \neviditelna a
-    a4 a \divisioMinima a b a g g( a) a \finalis
+    a4 a \barMin a b a g g( a) a \barFinalis
     \neviditelna a
-    a a a g g( a) a \divisioMaxima
-    a a a a a a g \divisioMinima g a a g g( a) a \divisioMaxima
-    a a a a a a a a a a a a a g \divisioMinima g a a a a g g( a) a \finalis
-    a a( b) a( g) g4. \finalis
+    a a a g g( a) a \barMax
+    a a a a a a g \barMin g a a g g( a) a \barMax
+    a a a a a a a a a a a a a g \barMin g a a a a g g( a) a \barFinalis
+    a a( b) a( g) g4. \barFinalis
   }
   \addlyrics {
     \uvodniVers

@@ -144,8 +144,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 g a bes( c) a \breathe a g f g( a) g \breathe
-    a a c( bes) a( g) g g f e f( d c) d \bar "||"
+    a4 g a bes( c) a \barMin a g f g( a) g \barMaior
+    a a c( bes) a( g) g g f e f( d c) d \barFinalis
   }
   \addlyrics {
     Po -- moc mi při -- jde od Hos -- po -- di -- na,
@@ -163,7 +163,7 @@
 tIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f4. g4 a g f g4. \breathe a4 a a( b) g4. \breathe
+    g4 g g f4. g4 a g f( g) g4. \breathe a4 a a( b) g4. \breathe
     a4( g) f g g e4. \bar "||"
   }
   \addlyrics {

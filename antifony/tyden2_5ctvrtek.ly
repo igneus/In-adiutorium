@@ -67,8 +67,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 g a f( g a) a \breathe bes bes a g g a a a \breathe
-    a bes( a) g( f) e \breathe d e f g d4. d \bar "||"
+    a4 g a f( g a) a \barMin bes bes a g g a a a \barMaior
+    a bes( a) g( f) e \barMin d e f g d4. d \barFinalis
   }
   \addlyrics {
     Lep -- ší je pro mě zá -- kon tvých úst, Hos -- po -- di -- ne,
@@ -87,8 +87,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d e( f) f \breathe f g f d e d4.( c) \breathe
-    d4 d e( f) f f e f d( c) d \bar "||"
+    d4 d c d e( f) f \barMin f g f d e d4.( c) \barMaior
+    d4 d e( f) f f e f d( c) d \barFinalis
   }
   \addlyrics {
     V_Bo -- ha dů -- vě -- řu -- ji a ne -- bu -- du se bát,
@@ -128,8 +128,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d c( d) d d f g g( a) a \breathe
-    bes bes a bes g( a) a \breathe a a a a g g f e f( d) d \bar "||"
+    d4 d c( d) d d f g g( a) a \barMaior
+    bes bes a bes g( a) a \barMin a a a a g g f e f( d) d \barFinalis
   }
   \addlyrics {
     Dám tě ná -- ro -- dům ja -- ko svět -- lo,

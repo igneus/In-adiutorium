@@ -46,7 +46,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 c d( f) f \breathe f g( a bes4.) a f4 a g( f) f \bar "||"
+    f4 c d( f) f \breathe f g( a bes4.) a g4 a g( f) f \bar "||"
   }
   \addlyrics {
     Po -- kud ži -- ji, chci chvá -- lit Hos -- po -- di -- na.

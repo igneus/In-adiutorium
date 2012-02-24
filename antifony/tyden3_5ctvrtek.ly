@@ -44,8 +44,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a b( c d) c( b) a a \breathe a g f f( g) e \breathe
-    g a( c) b a( g) g f f g a f g( a g) g \bar "||"
+    g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
+    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
@@ -86,7 +86,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a c( a) a \breathe a b c a a \breathe a a a a g f f( g e4.) e \bar "||"
+    g4 a a c( a) a \barMin a b c a a \barMaior 
+    a a a a g f f( g e4.) e \barFinalis
   }
   \addlyrics {
     Po -- moz nám, Bo -- že, náš spa -- si -- te -- li,
