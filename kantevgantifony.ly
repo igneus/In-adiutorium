@@ -6,13 +6,6 @@
   dedication = "sv. Prokopu, poustevníku a sázavskému opatu"
 }
 
-#(define-markup-command (nadpisDen layout props obsah)(markup?)
-   "Novy den - vycentrovany vyrazny nadpis na nove strance"
-   (interpret-markup layout props
-		     (markup #:bold
-			     #:huge 
-			     #:with-color #'red obsah)))
-
 \include "spolecne.ly"
 
 \include "antifony/ferie_kantevgant.ly"
