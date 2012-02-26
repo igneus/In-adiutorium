@@ -472,6 +472,65 @@
   \score {
     \relative c' {
       \choralniRezim
+      
+    }
+    \addlyrics {
+      Vlo -- žím svůj zá -- kon do je -- jich srd -- ce,
+      bu -- du je -- jich Bo -- hem
+      a o -- ni bu -- dou mým li -- dem.
+    }
+    \header {
+      quid = "1. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = "Žalm 141"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Všech -- no po -- va -- žu -- ji za ško -- du
+      ve srov -- ná -- ní s_o -- ním ne -- smír -- ně cen -- ným
+      po -- zná -- ním Je -- ží -- še Kris -- ta, své -- ho Pá -- na.
+    }
+    \header {
+      quid = "2. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = "Žalm 142"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c( d) d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
+    }
+    \addlyrics {
+      Syn Bo -- ží byl po -- sluš -- ný až k_smr -- ti.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "IV alt"
+      differentia = "d" 
+      psalmus = "Flp 2"
+      id = ""
+      fons = "Zelený čtvtek, antifona namísto responsoria (velký kus spol. textu i melodie)"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       e4 e e f e f g( a) a
       a( b) a g g( a) a a \barMin a
       a4 a a( e) e \barMaior
