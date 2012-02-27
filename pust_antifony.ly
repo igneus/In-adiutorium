@@ -168,6 +168,31 @@
     }
   }
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c f( g f) g( a) a \barMaior
+      a bes a g g a f( e) d \barMaior
+      g a g g e f( g) e( d) d \barFinalis
+    }
+    \addlyrics {
+      Když dá -- váš al -- muž -- nu,
+      ať ne -- ví tvo -- je le -- vi -- ce,
+      co dě -- lá tvo -- je pra -- vi -- ce.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      fons = "Antiphonale sacrosanctae romanae ecclesiae pro diurnis horis, Romae 1912, 303. (Ant. Cum facis eleemosynam)"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \markup\nadpisDen{1. neděle postní /cyklus B/}
   
   \score {
