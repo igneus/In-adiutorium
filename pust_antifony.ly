@@ -469,10 +469,14 @@
   
   \markup\nadpisDen{5. neděle postní /cyklus B/}
   
+  \markup {\nadpisHodinka {"1. nešpory"}}
+
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4( e) e e c( d e4.) e \barMin e4 f g f( e) d \barMaior
+      d d c b c( d e) e \barMaior
+      e f f f e c c( d) d \barFinalis
     }
     \addlyrics {
       Vlo -- žím svůj zá -- kon do je -- jich srd -- ce,
@@ -481,8 +485,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = "Žalm 141"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -556,6 +560,8 @@
     }
   }
   
+  \markup {\nadpisHodinka {"ranní chvály"}}
+  
   \score {
     \relative c' {
       \choralniRezim
@@ -579,6 +585,8 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisHodinka {"2. nešpory"}}
   
   \score {
     \relative c' {
