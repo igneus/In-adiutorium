@@ -171,7 +171,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d c f( g f) g( a) a \barMaior
+      d4 d c f( g f) g( a) a \barMin
       a bes a g g a f( e) d \barMaior
       g a g g e f( g) e( d) d \barFinalis
     }
