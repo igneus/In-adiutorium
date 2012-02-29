@@ -56,6 +56,7 @@
 \score {
   \relative c' {
     \choralniRezim
+    % f f % siditko pro splitscores.rb
     \neviditelna f f\breve d4 \barFinalis
   }
   \addlyrics {
@@ -79,15 +80,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    \neviditelna f f\breve d4 \barFinalis
+    % f % siditko pro splitscores.rb
+    \neviditelna f f\breve \bar "" f\breve d4 \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Hospodine, kdo smí prodlévat v tvém stán" -- ku?,
+    \Verse "Hospodine, kdo smí prodlévat" "v tvém stán" -- -ku?
   }
   \addlyrics {
     \set stanza = #""
-    \Response "Ten, kdo žije bez vady a upřímně smýšlí ve svém srd" -- -ci.
+    \Response "Ten, kdo žije bez vady a upřímně smýšlí" "ve svém srd" -- ci.
   }
   \header {
     quid = "verš"
