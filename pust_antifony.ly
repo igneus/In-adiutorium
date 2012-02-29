@@ -494,9 +494,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      \key f \major
+      g4( a) a a( g) a f( e) d f( bes) a a \barMaior
+      a( bes) a g( a) a4.( e) \barMin e4 e d e e g( a) a \barMaior
+      a( g) g( a) a c( b) a b g( e) e \barMin f( g) f e( c d4.) d \barFinalis
     }
     \addlyrics {
       Všech -- no po -- va -- žu -- ji za ško -- du
@@ -505,8 +508,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "g" 
       psalmus = "Žalm 142"
       id = ""
       piece = \markup {\sestavTitulek}
