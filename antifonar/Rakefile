@@ -381,7 +381,17 @@ end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
 file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
-  sh nedele_splitscores_command + t.prerequisites.first
+  # verse nemaji odsazovani a proto maji svuj vlastni delici prikaz:
+  sh "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--insert-text \"\\layout { indent = 0 \n short-indent = 0\\cm \n"+
+                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
+                                                                            "}\n\" "+
+                        "--remove-headers "+
+                        " --output-dir #{adresar_nedele} "+
+                        "--one-clef "+
+                        "--ids " + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 
