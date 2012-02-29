@@ -322,7 +322,7 @@ strofě.}
 \input{generovane/nedele/zalm118iii.tex}
 
 \typVers
-\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
+\lilypondfile{generovane/nedele/nedele_verse_ne3v.ly}
 \end{hora}
 
 \nesporyII
@@ -387,7 +387,7 @@ strofě.}
 \input{generovane/nedele/zalm76ii.tex}
 
 \typVers
-\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
+\lilypondfile{generovane/nedele/nedele_verse_ne4v.ly}
 \end{hora}
 
 \nesporyII
