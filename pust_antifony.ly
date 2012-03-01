@@ -568,6 +568,66 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 f( g) g \barMin g( bes) a g a f g4. g \barFinalis
+    }
+    \addlyrics {
+      Můj Bo -- že, stal ses mým po -- moc -- ní -- kem.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 63"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Vy -- svo -- boď nás, Bo -- že,
+      svý -- mi po -- di -- vu -- hod -- ný -- mi skut -- ky
+      a za -- chraň nás z_mo -- ci smr -- ti.
+    }
+    \header {
+      quid = "2. ant."
+      modus = ""
+      differentia = "" 
+      psalmus = "Dan 3-III"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a a( d f) c c4.( d) \barMaior
+      d4 c c( d) a a \barMin
+      g f f( g f) g( a) a \barFinalis
+    }
+    \addlyrics {
+      Při -- šla ho -- di -- na,
+      kdy Syn člo -- vě -- ka 
+      bu -- de o -- sla -- ven.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "IV alt"
+      differentia = "A" 
+      psalmus = "Žalm 149"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
       d4 d d d c d f( a) a \barMin
       a g a( bes) a g( a) a \barMaior
       g4 g( a) f f4.( d) \barMin 
