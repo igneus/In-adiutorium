@@ -9,14 +9,6 @@
 \markup {
   Nápěvy podle \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.
 }
-\markup\italic {
-  Aleluja se v postní době vynechává.
-}
-\markup\italic\justify {
-  Protože melodie aleluja vytváří závěr a ten by bez aleluja
-  chyběl, je vhodné v postní době při vynechání aleluja nahradit
-  melodii "\"a na věky věků. Amen\"" melodií uvedenou na konci.
-}
 
 uvodniVers = \lyricmode {
   \Verse Bo -- že, po -- spěš mi na po -- moc.
@@ -24,9 +16,9 @@ uvodniVers = \lyricmode {
   Slá -- va Ot -- ci i Sy -- nu
   i Du -- chu sva -- té -- mu
   ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
-  \Dagger a na vě -- ky vě -- ků. A -- men.
+  a na vě -- ky vě -- ků. A -- men.
   A -- le -- lu -- ja.
-  \Dagger a na vě -- ky vě -- ků. A -- men.
+  a na vě -- ky vě -- ků. A -- men.
 }
 
 \score {
@@ -40,13 +32,12 @@ uvodniVers = \lyricmode {
     
     c c c c c c c \barMaior
     c c c c c c \barMax
-    c c c c c c c c c c c c c c \barMaior
-    \neviditelna c c c c c c c c c \barFinalis
+    c c c c c c c c c c c c c c \barMaior \break
     
+    c^\markup\italic{mimo dobu postní:} c c c c c c c \barMax
     c c( d) c4. c \barFinalis
     
-    \neviditelna c4 
-    c^\markup\italic{v době postní:} c c c c c( d) c4. c \barFinalis
+    c4^\markup\italic{v době postní:} c c c c c( d) c4. c \barFinalis
   }
   \addlyrics {
     \uvodniVers
@@ -65,12 +56,12 @@ uvodniVers = \lyricmode {
     \neviditelna a
     a a a g g( a) a \barMax
     a a a a a a g \barMaior g a a g g( a) a \barMax
-    a a a a a a a a a a a a a g \barMaior \neviditelna a g a a a a g g( a) a \barFinalis
+    a a a a a a a a a a a a a g \barMaior \break
     
+    g^\markup\italic{mimo dobu postní:} a a a a g g( a) a \barMax
     a a( b) a( g) g4. \barFinalis
     
-    \neviditelna a4 
-    g^\markup\italic{v době postní:} a a a a( b) a a( g) g \barFinalis
+    g4^\markup\italic{v době postní:} a a a a( b) a a( g) g \barFinalis
   }
   \addlyrics {
     \uvodniVers
