@@ -583,10 +583,19 @@
     }
   }
   
+  % Zkusenost s opravdovym gregorianskym choralem z Roudnice
+  % mi dala odvahu skladat i antifony, ktere jsou krasne,
+  % formalne maji kvality prislusneho modu, ale v mych usich
+  % s napevem zalmu moc dobre neladi.
+  % Ale nevim, nevim, neni ta nasledujici uz moc mimo?
+  % Intonovat po ni zalm je pro me male peklo...
+  
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4( c d) f( e) d e c( d c) d \barMin
+      d( c) d f e d e c d bes a \barMaior
+      a a( g a) bes( c) g4.( a) \barMin a4( bes) f g g \barFinalis
     }
     \addlyrics {
       Vy -- svo -- boď nás, Bo -- že,
@@ -595,8 +604,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VII"
+      differentia = "a" 
       psalmus = "Dan 3-III"
       id = ""
       piece = \markup {\sestavTitulek}
