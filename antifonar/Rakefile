@@ -95,17 +95,7 @@ end
 
 zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options, adresar_kompletar)
 
-# doxologie s jednim akcentem na polovers
-zalmy_kompletar << genzalm("doxologie.zalm", "--last-accent-only --no-title", adresar_kompletar)
-# doxologie se dvema akcenty na polovers
-file adresar_kompletar+"doxologie_2akcenty.tex" => ['zalmy/doxologie.zalm'] do
-  chdir adresar_kompletar
-  sh "ruby ../../../nastroje/psalmpreprocessor.rb --no-title --output doxologie_2akcenty.tex ../../zalmy/doxologie.zalm"
-  chdir "../.."
-end
-zalmy_kompletar << adresar_kompletar+'doxologie_2akcenty.tex'
-
-file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly"]+zalmy_kompletar) do
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly", 'spolecne_antifonar.ly']+zalmy_kompletar) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
