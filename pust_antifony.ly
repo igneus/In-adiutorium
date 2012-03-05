@@ -661,6 +661,71 @@
   \markup {\nadpisHodinka {"2. nešpory"}}
   
   \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 g g f( g a) bes( a) g bes a( f) f( g) g \barMaior
+      g4 g g g g( a) f( d) d \barMin f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+      tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "g" 
+      psalmus = "Žalm 110"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c d d d c( d) b4. a \barMin
+      a4 c b g g( e) e \barMaior
+      f g( a) a c b g a a \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů po -- má -- há 
+      a vy -- svo -- bo -- zu -- je,
+      od -- pouš -- tí a za -- chra -- ňu -- je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV alt"
+      differentia = "A" 
+      psalmus = "Žalm 114"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 e e c( d) e( f) f4.( e) \barMin g4 a f f( e) e \barMaior
+      a a a c b g g( a) a \barMax
+      a a g( a e4.) e4 e f d d( e) e \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus byl pro -- bo -- den pro na -- še hří -- chy,
+      roz -- dr -- cen pro na -- še vi -- ny;
+      je -- ho rá -- ny nás u -- zdra -- vi -- ly.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "IV"
+      differentia = "E" 
+      psalmus = "1Petr 2"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
     \relative c' {
       \choralniRezim
       d4 d d f g g a( g a c b) a4. a \barMaior
