@@ -52,6 +52,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4( c) c c( b) c a4. a \breathe g4 a c( b) a( g) g \bar "|"
+    g f g \mark\sipka a b b c( d) d \breathe d d b( c) a g( a g) g \bar "||"
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la to -- ho,
+    kte -- rý všech -- no stvo -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 113"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( b) c c e e4. d \barMin 
     c4( d) e c c( d) d  \barMaior
     d d d e( d c) c d d( a) a \barMin
