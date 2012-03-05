@@ -35,6 +35,10 @@
   }
 }
 
+\pageBreak
+
+\markup{ \nadpisSkupiny{1} zatím master }
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -58,6 +62,106 @@
   }
 }
 
+\markup{ \nadpisSkupiny{2} značně nevyrovnané }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a a( g) g \barMin a( c) c( d) d \barMaior
+    d f f e( f) d( c) c \barMin
+    d( e c4.) c \barMin d4 a g a( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a a( g) g \barMin a( c) c( d) d \barMaior
+    d f f \mark\sipka g( f) e( d) d \barMin
+    d( e c4.) c \barMin \mark\sipka b4 c a a( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 g a a( c) c \barMin b( c) c( d) d \barMaior
+    d( f) e f d c c4.( a) \barMaior
+    c a \barMin g4 a f f( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 g a a( c) c \barMin b( c) c( d) d \barMaior
+    d( f) e f d c c4.( a) \barMaior
+    c a \barMin \mark\sipka f4 g a a( g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -79,6 +183,84 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\justify{ \nadpisSkupiny{C} Nápěv se mi líbí, ale do pléna nepůjde -
+žádá si totiž neoktoichový nápěv žalmu C z generace \italic{Psalterii monastici}
+a In adiutorium se omezuje na staré známé modální nápěvy.}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) d \barMaior
+    f e( f) e( c) c \barMin
+    d c bes d d( c) c \barMaior
+    bes! c c4. c \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. 
+    Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "C"
+    differentia = "" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    f4. f4( g) g( a) a \barMin
+    c c b c a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. 
+    Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    f4. f4( g) g( a) a \barMin
+    c c \mark\sipka d c c( a) a \barMaior
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. 
+    Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
