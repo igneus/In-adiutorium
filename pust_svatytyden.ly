@@ -486,6 +486,8 @@
     }
   }
   
+  \pageBreak % ZLOM
+  
   \markup\nadpisDen{Pondělí}
   
   \score {
@@ -631,6 +633,8 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak % ZLOM
   
   \markup\nadpisDen{Čtvrtek}
   
