@@ -442,6 +442,73 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') g( a) a \barMin
+    a c b a4. g \barMaior
+    \mark\sipka f4 g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{4}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( f) e( a) a \barMin
+    a g f e4. d \barMaior
+    e4 f f( g) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{4b}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c a \barMin
+    a g f e4. e \barMaior
+    f4 f f( g) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -492,6 +559,8 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
@@ -514,6 +583,30 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
+    d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
+    d f( e) d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
+    při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 110"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
