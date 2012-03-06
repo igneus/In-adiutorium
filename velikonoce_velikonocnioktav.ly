@@ -35,6 +35,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) a \barMin g f e f( a) a4. \barMaior
+    a4 a g f \mark\sipka e( f) d d \barMin
+    d4 f( e) c d4. \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{ \nadpisSkupiny{1} zatím master }
@@ -288,6 +309,8 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -309,6 +332,117 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( a) a \barMin
+    f g a g4. a \barMaior
+    g4 f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( a) a \barMin
+    f g a \mark\sipka a4. g \barMaior
+    a4 a g4. g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') g( a) a \barMin
+    g a f e4. d \barMaior
+    d4 f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') g( a) a \barMin
+    \mark\sipka a c b a4. g \barMaior
+    f4 g a( f) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') g( a) a \barMin
+    a c b a4. g \barMaior
+    \mark\sipka a4 f d4. d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
