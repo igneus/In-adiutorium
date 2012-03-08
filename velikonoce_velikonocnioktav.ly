@@ -35,12 +35,15 @@
   }
 }
 
+\markup{Jenom malá oprava verze dosavadní:}
+
 \score {
   \relative c'' {
+    \zvyraznovacZelenyIII
     \choralniRezim
-    a4 g a c( d) a \barMin g f e f( a) a4. \barMaior
+    a4 g a c( d) a \barMin g f e f( a) a \barMaior
     a4 a g f \mark\sipka e( f) d d \barMin
-    d4 f( e) c d4. \barFinalis
+    d4 f( e) c d \barFinalis
   }
   \addlyrics {
     Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
@@ -50,6 +53,49 @@
   \header {
     quid = "1. ant."
     modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) a \barMin g f e f( a) a4. \barMaior
+    a4 c a a b( c) a4. a \barMaior
+    g4 a b a \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacCerveny
+    \choralniRezim
+    a4 g a c( d) d \barMin d f g d( c) d \barMaior
+    d d( a) a b( c) a g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
@@ -135,7 +181,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacZelenyIII
     \choralniRezim
     a4 g a a( c) c \barMin b( c) c( d) d \barMaior
     d( f) e f d c c4.( a) \barMaior
@@ -183,6 +229,8 @@
 
 \pageBreak
 
+\markup\nadpisSkupiny{1}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -190,6 +238,55 @@
     d4( c) b( c) c( d) d \barMin 
     d( c) b a b a( g) g \breathe
     a4 g f( g) g4. \bar "||"
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{Drobné opravy původní verze. Ani původní
+verze ale není špatná.}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    d4 e( d) c( d) d4. \barMax
+    d4. b4( c) c( d) d \barMin 
+    d c b c a( g) g \barMin
+    g4 a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 e( d) c( d) d4. \barMax
+    d4. b4( c) c( d) d \barMin 
+    \mark\sipka c b c b b( g) g \barMin
+    g4 a a( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja. Pán vstal z_mrt -- vých, 
@@ -584,6 +681,8 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\markup\nadpisSkupiny{1}
+
 \score {
   \relative c' {
     \zvyraznovacZelenyII
@@ -591,6 +690,28 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
     d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
     d f( e) d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
+    při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 110"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
+    d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
+    d f( e) \mark\sipka d( e) e( d) \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
@@ -631,13 +752,40 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \key f \major
+    \choralniRezim
+    d4( \mark\sipka f) f4.( g) \barMin g4 f g a a a \mark\sipka bes bes a( g) a \barMaior
+    g4 f \mark\sipka f4.( g4 a) f d d \barMax
+    e4 f d( c) d4. \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te a po -- dí -- vej -- te se na to mís -- to, 
+    kde byl Pán po -- lo -- žen.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 114"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\markup\nadpisSkupiny{1.1}
+
+\score {
+  \relative c' {
     \choralniRezim
     \key f \major
     f4 g g( a) a \barMin a( g f) g( a) g( f) f \barMax
     f( d) d \barMin d f g g g f( g) g( a) \barMaior
     g a bes a g f g( a) g( f) f \barMin
     d f( g) g f f \barMax
-    d f( g) g f \bar "||"
+    d f( g) g f \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl: Ne -- boj -- te se! 
@@ -654,7 +802,65 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny{1.2}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
+    d4 d \barMin d f f e f d( c) c \barMaior
+    c d f f g f g( a) a( g) g \barMin
+    f f g( a) g( f) f \barMax
+    d f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl: Ne -- boj -- te se! 
+    Jdě -- te a o -- znam -- te mým bra -- třím,
+    ať o -- de -- jdou do Ga -- li -- le -- je;
+    tam mě u -- vi -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    piece = \markup {\sestavTitulek}
+  }
 }
+
+\markup\justify\italic{ Jenom mě napadlo zajímavé "\"do Galileje\"":}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
+    d4 d \barMin d f f e f d( c) c \barMaior
+    c d f f g f g( a) \mark\sipka g( d) f \barMin
+    g g \mark\sipka a g f \barMax
+    d f g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl: Ne -- boj -- te se! 
+    Jdě -- te a o -- znam -- te mým bra -- třím,
+    ať o -- de -- jdou do Ga -- li -- le -- je;
+    tam mě u -- vi -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+} % bookpart
 
 \bookpart {
   \header {
