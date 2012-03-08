@@ -186,13 +186,19 @@ bgcolor =
            staff)))
 #})
 
+% zeleny - kandidat na misto v oficialni verzi
 zvyraznovacZeleny = { \bgcolor "(rgb-color 0.3 1 0.3)" }
 zvyraznovacZelenyII = { \bgcolor "(rgb-color 0.6 1 0.6)" }
 zvyraznovacZelenyIII = { \bgcolor "(rgb-color 0.8 1 0.8)" }
+% cerveny - to do oficialni verze rozhodne nepatri (ulet, slepa ulicka)
 zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
+% modry - tohle je ted v oficialni verzi. Neupravovat, antifonu
+% si zkopirovat a hrat si s kopii.
+zvyraznovacModry = { \bgcolor "(rgb-color 0.3 0.3 1)" }
 
+% sipka oznacuje, v cem se tato verze lisi od verze, ze ktere je odvozena
 sipka = \markup { \char ##x2193 }
-
+% cervene X oznacuje chybu, kterou je nutno opravit
 cerveneX = \markup\large\bold\sans{ \with-color #red "x" }
 
 % Napevy stejneho textu vetsinou vznikaji po "rodinach":
