@@ -1,7 +1,8 @@
 *Branch 'variationes' is for experiments with antiphons - one antiphon
 may have many different melodies next to each other.*
 
-*The first variant of each antiphon should be the one, which is in master.*
+*The first variant of each antiphon should be the one, which is in master.
+Or, the variant, which is in master, is coloured blue instead of being on the top.*
 
 # In adiutorium #
 
