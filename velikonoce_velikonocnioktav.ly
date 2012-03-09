@@ -39,7 +39,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyIII
+    \zvyraznovacZeleny
     \choralniRezim
     a4 g a c( d) a \barMin g f e f( a) a \barMaior
     a4 a g f \mark\sipka e( f) d d \barMin
@@ -205,7 +205,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacZeleny
     \choralniRezim
     a4 g a a( c) c \barMin b( c) c( d) d \barMaior
     d( f) e f d c c4.( a) \barMaior
@@ -222,6 +222,56 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "a" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{4}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    a4 b a g( a) a g( a) f( g a) a \barMaior
+    a( g a) g f g g g( f d) \barMaior
+    c( d f4.) e \barMin e4 f e c( d) d \barMax
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a3" 
+    psalmus = "Dan 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    a4 b a g( a) a g( a) f( g a) a \barMaior
+    a( g a) g f g g g( f d) \barMaior
+    c( d f4.) d \barMin f4 g f d d \barMax
+    e f c( d) d \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel vstal z_hro -- bu, 
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a3" 
     psalmus = "Dan 3"
     piece = \markup {\sestavTitulek}
   }
@@ -333,12 +383,35 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     a4 a a( g) g \barMaior
     f4. f4( g) g( a) a \barMin
     c c b c a( g) g \barMaior
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja. 
+    Pán vstal z_mrt -- vých, 
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    f4. f4( g) g( a) a \barMin
+    c c b c a( g) g \barMaior
+    \mark\sipka g a a( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja. 
@@ -606,6 +679,31 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\markup\nadpisSkupiny{5}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \key f \major
+    d4 d c( d) c( g) g \barMin
+    bes a g f4. f \barMaior
+    g4 bes g4. g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých, 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -707,11 +805,11 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacZeleny
     \choralniRezim
     f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
     d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
-    d f( e) \mark\sipka d( e) e( d) \barFinalis
+    d f( e) \mark\sipka d( e) e4.( d) \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
@@ -773,6 +871,29 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \key f \major
+    \choralniRezim
+    d4( f) f4.( g) \barMin g4 f g a a a bes bes a( g \mark\sipka a4.) a \barMaior
+    g4 f f4.( g4 a) f d d \barMax
+    e4 f d( c) d4. \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te a po -- dí -- vej -- te se na to mís -- to, 
+    kde byl Pán po -- lo -- žen.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 114"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny{1.1}
@@ -807,7 +928,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacZeleny
     \choralniRezim
     \key f \major
     f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
