@@ -35,11 +35,9 @@
   }
 }
 
-\markup{Jenom malá oprava verze dosavadní:}
-
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c( d) a \barMin g f e f( a) a \barMaior
     a4 a g f \mark\sipka e( f) d d \barMin
@@ -80,31 +78,9 @@
   }
 }
 
-\score {
-  \relative c'' {
-    \zvyraznovacCerveny
-    \choralniRezim
-    a4 g a c( d) d \barMin d f g d( c) d \barMaior
-    d d( a) a b( c) a g g \barMin
-    f g a( g) g \barFinalis
-  }
-  \addlyrics {
-    Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
-    svou kr -- ví nás vy -- kou -- pil.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "1. ant."
-    modus = "VII"
-    differentia = "a" 
-    psalmus = "Žalm 63"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
 \pageBreak
 
-\markup{ \nadpisSkupiny{1} zatím master }
+\markup\nadpisSkupiny{1}
 
 \score {
   \relative c'' {
@@ -205,7 +181,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     a4 g a a( c) c \barMin b( c) c( d) d \barMaior
     d( f) e f d c c4.( a) \barMaior
@@ -406,7 +382,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     a4 a a( g) g \barMaior
     f4. f4( g) g( a) a \barMin
@@ -683,7 +659,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4 d c( d) c( g) g \barMin
@@ -805,7 +781,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
     d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
@@ -873,7 +849,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \key f \major
     \choralniRezim
     d4( f) f4.( g) \barMin g4 f g a a a bes bes a( g \mark\sipka a4.) a \barMaior
@@ -928,7 +904,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
