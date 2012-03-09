@@ -1,4 +1,4 @@
-RUBY_COMMAND = 'ruby1.9.1'
+RUBY_COMMAND = 'ruby'
 
 $splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "
