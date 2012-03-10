@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-RUBY_COMMAND = 'ruby1.9.1'
+RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
 
 def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
