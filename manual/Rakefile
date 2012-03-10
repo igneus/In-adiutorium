@@ -1,0 +1,6 @@
+file "manual.pdf" => ['manual.tex', 
+                      'stavebnikameny.tex'] do |t|
+  2.times { sh "pdflatex #{t.prerequisites.first}" }
+end
+
+task :default => ['manual.pdf']
