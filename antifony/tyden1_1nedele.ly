@@ -4,6 +4,8 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\nadpisSkupiny{1}
+
 \markup\justify{Tuto antifonu mám v první verzi moc rád, 
 horní F je už ale 
 dost mimo rozsah modu VIII. Změnit modus na VII?}
@@ -13,6 +15,7 @@ nejsu úplně marné, ale na původní nemají.}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a g b c d c4. \barMax
     c4( b a) b c( d) e d4. \barMin
@@ -31,6 +34,52 @@ nejsu úplně marné, ale na původní nemají.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{minimální úpravy:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g b c d c \barMax
+    c4( b a) b c( d) e d \barMin
+    d4 f e d( c) a b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII-[nebo VII?]"
+    differentia = "G" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g b c d c \barMax
+    c4( b a) b g( a) a( b) b \barMin
+    b c c b( c) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
 
 \score {
   \relative c' {
@@ -75,6 +124,8 @@ nejsu úplně marné, ale na původní nemají.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny{3}
 
 \score {
   \relative c'' {
@@ -148,6 +199,37 @@ nejsu úplně marné, ale na původní nemají.}
   }
 }
 
+\markup\nadpisSkupiny{4}
+
+\markup\justify{Tuto považuji za dost povedenou, ale přeci
+alespoň zatím nemám potřebu s ní nahrazovat původní verzi,
+která mi přirostla k srdci a není úplně špatná.}
+\markup\justify{Navíc tato, tím, že se ani nedotýká tenoru C,
+je atypická a může bt těžké z ní přejít na žalm.}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g g a( b) g4. g \barMaior
+    g4( e) e f( g) a( g) g \barMaior
+    g f( g) f4.( e) \barMin d4( a') a b( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo 
+    ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -173,6 +255,8 @@ nejsu úplně marné, ale na původní nemají.}
 }
 
 \pageBreak
+
+\markup\nadpisSkupiny{1}
 
 tInedeleInespAntIII = \score {
   \relative c'' {
@@ -263,62 +347,72 @@ tInedeleInespAntIII = \score {
   }
 }
 
-\relative c' {
-  \choralniRezim
-  d4 c( d) d d f( e) d4. d \barMaior
-  f4 e d e f d4.( c) \barMin
-  d4( f) e c c d d \barFinalis
-}
-\addlyrics {
-  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-  po -- vý -- šil na -- vě -- ky.
-}
-\header {
-  quid = "3. ant."
-  modus = "II"
-  differentia = "D" 
-  psalmus = "Flp 2"
-  id = "1ne-ant3"
-  piece = \markup {\sestavTitulek}
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) d d f( e) d4. d \barMaior
+    f4 e d e f d4.( c) \barMin
+    d4( f) e c c d d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Flp 2"
+    % id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
-\relative c' {
-  \zvyraznovacZelenyII
-  \choralniRezim
-  d4 c( d) d d f( e) d4. d \barMaior
-  d4 d e e f d4.( c) \barMin
-  d4( f g) f( e) d c d d \barFinalis
-}
-\addlyrics {
-  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-  po -- vý -- šil na -- vě -- ky.
-}
-\header {
-  quid = "3. ant."
-  modus = "II"
-  differentia = "D" 
-  psalmus = "Flp 2"
-  id = "1ne-ant3"
-  piece = \markup {\sestavTitulek}
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c( d) d d f( e) d4. d \barMaior
+    d4 d e e f d4.( c) \barMin
+    d4( f g) f( e) d c d d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Flp 2"
+    % id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
-\relative c'' {
-  \zvyraznovacZeleny
-  \choralniRezim
-  a4 a( e) e g f( e) d4. d \barMaior
-  d4 d d f g g4.( a) \barMin a4( g bes) a( g f d) d \barMin e( c) c( d) d \barFinalis
-}
-\addlyrics {
-  Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-  po -- vý -- šil na -- vě -- ky.
-}
-\header {
-  quid = "3. ant."
-  modus = "I"
-  differentia = "a" 
-  psalmus = "Flp 2"
-  id = "1ne-ant3"
-  piece = \markup {\sestavTitulek}
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a( e) e g f( e) d4. d \barMaior
+    d4 d d f g g4.( a) \barMin a4( g bes) a( g f d) d \barMin e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
 \pageBreak
@@ -360,6 +454,188 @@ tInedeleInespResp = \score {
 
 \score { \tInedeleInespResp }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    f4 g( a) g4.( a4.) a4 bes a( g a4.) g \barMin f4 f f( g) g \barMax
+    g f g g( a) g f d d \barFinalis
+    
+    % V
+    \neviditelna a'
+    % g4 g g f( g) g 
+    
+    % R
+    \neviditelna f
+    % g f g g( a) g f d d \barFinalis
+    
+    % Slava
+    % a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    f4 g( a) g4.( a4.) a4 bes a( g a4.) g \barMin f4 f f( g) g \barMax
+    a c bes a g f g g \barFinalis
+    
+    % V
+    \neviditelna a
+    g4( a) a a g( a) a \barMin c( d c) b a a \barMax
+    
+    % R
+    \neviditelna a
+    a c bes a g f g g \barFinalis
+    
+    % Slava
+    % a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    f4 g( a) g4.( a4.) a4 bes a( g a4.) g \barMin f4 f f( g) g \barMax
+    \mark\sipka
+    a g f g( a) a g g g \barFinalis
+    
+    % V
+    \neviditelna a
+    g4( a) a a g( a) a \barMin c( d c) b a a \barMax
+    
+    % R
+    \neviditelna a
+    a g f g( a) a g g g \barFinalis
+    
+    % Slava
+    % a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup{Není marné, ale nahrazovat zatím nechci.}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    f4 g( a) g4.( a4.) a4 g( f) g( f d4.) d \barMin f4 g g( a) a \barMax
+    a4 g f g( a) a g g g \barFinalis
+    
+    % V
+    \neviditelna a
+    g4( a) a a g( a) a \barMin c( d c) b a4. a \barMax
+    
+    % R
+    \neviditelna a
+    a4 g f g( a) a g g g \barFinalis
+    
+    % Slava
+    % a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    f4 g( a) g4.( a4.) a4 bes a( g a4.) g \barMin f4 f f( g) g \barMax
+    \mark\sipka
+    a bes a g f g g g \barFinalis
+    
+    % V
+    \neviditelna a
+    g4( a) a a g( a) a \barMin c( d c) b a a \barMax
+    
+    % R
+    \neviditelna a
+    a bes a g f g g g \barFinalis
+    
+    % Slava
+    % a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -390,6 +666,8 @@ tInedeleInespResp = \score {
   }
 }
 
+\markup\nadpisSkupiny{2}
+
 \score {
   \relative c'' {
     \key f \major
@@ -418,7 +696,7 @@ tInedeleInespResp = \score {
   \relative c'' {
     \key f \major
     \choralniRezim
-    g4 bes a g a4. d, \barMin
+    g4 \mark\sipka bes a g a4. d, \barMin
     d4 e f d d \barMax
     c4 f e( c) d4. \barFinalis
   }
@@ -437,6 +715,8 @@ tInedeleInespResp = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny{neskupina}
 
 \score {
   \relative c' {
