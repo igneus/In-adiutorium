@@ -1,0 +1,96 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[czech]{babel} 
+
+\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+
+% \usepackage[T1]{fontenc}
+% \usepackage{bookman}
+
+
+\input{../antifonar/spolecne.tex}
+
+\newcommand{\titulniStranka}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \begin{titlepage}
+    \begin{center}
+      
+      \vspace*{5cm}
+      
+      {\Large\textbf{\nazev}}
+          
+      \vspace{1cm}
+      
+      \autor
+      
+      \vfill
+      In adiutorium
+      
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\nazev}{
+  {\Huge Manuál}
+  \vspace{1cm}
+
+  ke společnému slavení\\
+  denní modlitby církve
+}
+
+\newcommand{\refStranka}[1]{
+(str. \pageref{#1})
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\titulniStranka
+\prazdnaStranka
+
+\section*{Úvod}
+
+V současné době není slavení denní modlitby církve chórovým způsobem
+příliš rozšířené, takže není pro každého snadné získat příslušné
+dovednosti přirozeným způsobem, pozorováním a napodobováním.
+Navíc od liturgické reformy zřejmě neexistuje autoritativní příručka,
+která by způsob slavení určovala a mohla sloužit jak jako učební text,
+tak jako reference v případě pochybností.
+
+Toto dílko má za cíl posbírat z různých míst autoritativní pravidla,
+a v otázkách, které nejsou autoritativně upravené, upozornit na možnosti.
+Využívá, vedle směrnic církevních liturgických autorit, jak zkušenosti 
+se slavením liturgie hodin v různých komunitách
+a společenstvích dnes, tak, s přihlédnutím ke změnám, staré liturgické
+příručky.
+Chce být pomocí pro ty, kdo usilují společné slavení denní modlitby církve
+smysluplně, prakticky a důstojně uspořádat.
+
+\section{Liturgický prostor a čas}
+\subsection{Uspořádání a vybavení liturgického prostoru}
+\subsection{Otázky času slavení}
+
+% \section{Liturgické úlohy}
+\input{ulohy}
+
+% \section{Stavební kameny liturgie hodin}
+\input{stavebnikameny}
+
+\section{Uspořádání denní modlitby církve}
+\subsection{Uvedení do první modlitby dne (invitatorium)}
+\subsection{Modlitba se čtením}
+\subsection{Ranní chvály}
+\subsection{Modlitba uprostřed dne}
+\subsection{Nešpory}
+\subsection{Kompletář}
+
+\section{Liturgický rok}
+
+\section{Možnosti uzpůsobení}
+
+\end{document}

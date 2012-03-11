@@ -151,7 +151,7 @@ module PsalmPreprocessor
     
     def puts(s="\n")
       st = process_accents(s)
-      @core.puts s
+      @core.puts st
     end
     
     def print(s)
@@ -206,7 +206,32 @@ module PsalmPreprocessor
     end
   end
   
+  class BreakableAccentsOutputStrategy < Strategy
+    # LaTeX doesn't break words with special symbols (like underlines)
+    # automatically. Create a break-hint at the end of each accented
+    # syllable. (I find it better to break a word _after_ an accented syllable -
+    # it is more readable for the singer, I think.)
+    
+    def puts(s="\n")
+      st = process_accents(s)
+      @core.puts st
+    end
+    
+    def print(s)
+      st = process_accents(s)
+      @core.print st
+    end
+    
+    private
+    
+    def process_accents(s)
+      return s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>')
+    end
+  end
+  
   class LatexifySymbolsOutputStrategy < Strategy
+    # latexifies symbols + and * at the end of half-verses
+    
     def puts(s="\n")
       @core.puts(latexify_symbols(s))
     end
@@ -539,6 +564,8 @@ ARGV.each do |f|
   end
   
   output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
+  
+  output = BreakableAccentsOutputStrategy.new output
   
   # this must be applied later than TitleOutputStrategy
   # and before underlining the accents

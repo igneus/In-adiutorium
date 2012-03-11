@@ -151,6 +151,7 @@ Verse = \lyricmode {
 }
 
 Hvezdicka = \lyricmode { "*" }
+Dagger = \markup { \char ##x02020 }
 
 % prikaz pro vyrobu neviditelnych not
 

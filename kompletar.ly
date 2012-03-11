@@ -26,8 +26,8 @@
   \relative c' {
     \choralniRezim
     
-    c d f f\breve f4-| \parenthesize d d4. \barMin \mark "+"
-    f\breve g4 g-| \parenthesize d d4. \barMax \mark "*"
+    c d f\breve f4-| \parenthesize d d4.^\markup\large\Dagger \barMin
+    f\breve g4 g-| \parenthesize d d4.^\markup\large{*} \barMax 
     f\breve c4 d e-| \parenthesize d d4. \barFinalis
   }
   \header {

@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-RUBY_COMMAND = 'ruby1.9.1'
+RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
 
 def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
@@ -95,17 +95,7 @@ end
 
 zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options, adresar_kompletar)
 
-# doxologie s jednim akcentem na polovers
-zalmy_kompletar << genzalm("doxologie.zalm", "--last-accent-only --no-title", adresar_kompletar)
-# doxologie se dvema akcenty na polovers
-file adresar_kompletar+"doxologie_2akcenty.tex" => ['zalmy/doxologie.zalm'] do
-  chdir adresar_kompletar
-  sh "ruby ../../../nastroje/psalmpreprocessor.rb --no-title --output doxologie_2akcenty.tex ../../zalmy/doxologie.zalm"
-  chdir "../.."
-end
-zalmy_kompletar << adresar_kompletar+'doxologie_2akcenty.tex'
-
-file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly"]+zalmy_kompletar) do
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly", 'spolecne_antifonar.ly']+zalmy_kompletar) do
   test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
@@ -381,7 +371,17 @@ end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
 
 file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
-  sh nedele_splitscores_command + t.prerequisites.first
+  # verse nemaji odsazovani a proto maji svuj vlastni delici prikaz:
+  sh "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--insert-text \"\\layout { indent = 0 \n short-indent = 0\\cm \n"+
+                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
+                                                                            "}\n\" "+
+                        "--remove-headers "+
+                        " --output-dir #{adresar_nedele} "+
+                        "--one-clef "+
+                        "--ids " + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 

@@ -94,6 +94,9 @@ Verse = \lyricmode {
   }
 }
 
+Hvezdicka = \lyricmode { "*" }
+Dagger = \markup { \char ##x02020 }
+
 % prikaz pro vyrobu neviditelnych not
 
 neviditelna = #(define-music-function (parser location note)

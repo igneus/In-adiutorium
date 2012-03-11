@@ -154,4 +154,83 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Tak je psá -- no:
+      Kris -- tus bu -- de tr -- pět
+      a tře -- tí -- ho dne vsta -- ne z_mrt -- vých
+      a v_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
+      a -- by všem ná -- ro -- dům by -- ly od -- puš -- tě -- ny hří -- chy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {4. neděle velikonoční}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+  
+    }
+    \header {
+      quid = ". ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
 }
