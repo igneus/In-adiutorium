@@ -189,7 +189,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
-    sh "pdflatex antifonar_zaltar"
+    sh "pdflatex -output-directory=vystup antifonar_zaltar"
   }
   # sh "dvipdf antifonar_zaltar.dvi"
 end
@@ -246,7 +246,7 @@ end
 
 file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex']+zalmy_cteni do
   2.times { 
-    sh "pdflatex antifonar_ctenizaltar"
+    sh "pdflatex -output-didectory=vystup antifonar_ctenizaltar"
   }
 end
 
@@ -287,7 +287,7 @@ task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums']
 end
 
 file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
-  2.times { sh "pdflatex antifonar_svatecnizaltar" }
+  2.times { sh "pdflatex -output-didectory=vystup antifonar_svatecnizaltar" }
 end
 
 desc "Festal psalter"
@@ -414,7 +414,7 @@ end
 
 file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd "vystup"
-  sh "pdflatex zalm136"
+  sh "pdflatex -output-directory=#{vystup} zalm136"
   cd ".."
 end
 
