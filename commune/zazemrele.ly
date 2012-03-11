@@ -175,9 +175,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c( d) a \barMin g f e f( a) a4. \barMaior
-    a4 a g f e( d) f d \barMin
-    d4 f( e) c d4. \barFinalis
+    a4 g a c( d) a \barMin g f e f( a) a \barMaior
+    a4 a g f e( f) d d \barMin
+    d4 f( e) c d \barFinalis
   }
   \addlyrics {
     Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
