@@ -78,6 +78,8 @@
     }
   }
   
+  \pageBreak
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -94,9 +96,33 @@
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
-      piece = "antifona - poledne - VIII.G"
     }
   }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      
+      g4 g g g a a g f( d) d \barMaior
+      c d f f f g a g f e \barMin
+      e c d \barFinalis
+    }
+    \addlyrics {
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel, 
+      a -- le a -- by se o -- brá -- til a žil, 
+      pra -- ví Pán. 
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "I"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
   
   \score {
     \relative c'' {
