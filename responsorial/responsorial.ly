@@ -145,6 +145,8 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
 \bookpart {
   \header {
     subtitle = "2. Doba adventní"
+    title = "" 
+    composer = ""
   }
   
   \markup\nadpisDen{neděle}
@@ -160,6 +162,8 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
 \bookpart {
   \header {
     subtitle = "3. Doba vánoční"
+    title = ""
+    composer = ""
   }
   
   \markup\nadpisTyden{do slavnosti Zjevení Páně}
@@ -174,6 +178,8 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
 \bookpart {
   \header {
     subtitle = "4. Doba postní"
+    title = ""
+    composer = ""
   }
   
   \markup\nadpisDen{neděle}
@@ -188,6 +194,8 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
 \bookpart {
   \header {
     subtitle = "5. Doba velikonoční"
+    title = ""
+    composer = ""
   }
   
   \markup\nadpisDen{neděle}
