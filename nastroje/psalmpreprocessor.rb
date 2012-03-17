@@ -141,6 +141,14 @@ module PsalmPreprocessor
     end
   end
   
+  class PsalmOutputStrategy < ColumnsOutputStrategy
+    def initialize(io)
+      super(io, 0)      
+      @t_beg = "\\begin{psalmus}"
+      @t_end = "\\end{psalmus}"
+    end
+  end
+  
   class UnderlineAccentsOutputStrategy < Strategy
     def initialize(io, first_halfverse=2, second_halfverse=2, flex=1)
       super(io)
@@ -534,6 +542,8 @@ ARGV.each do |f|
   puts "#{f} -> #{fwn}"
   
   output = File.open(fwn, "w")
+  
+  output = PsalmOutputStrategy.new output
   
   # order matters! Some of the outputters need to be applied
   # before processing +, * and empty lines.
