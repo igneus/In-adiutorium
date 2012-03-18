@@ -50,13 +50,13 @@
 }
 
 \newcommand{\typRespAntifona}{
-  \nadpisTypTextu{Antifona po čtení}
+  \nadpisTypTextu{Antifona po krátkém čtení}
 }
 
 \newcommand{\rubrikaResp}[1]{
   \begin{flushleft}
   \noindent
-  \rubrika{\textsc{Antifona po čtení}, str. \pageref{#1_resp}.}
+  \rubrika{\textsc{Antifona po krátkém čtení}, str. \pageref{#1_resp}.}
   \end{flushleft}
 }
 
@@ -66,6 +66,28 @@
 
 \input{spolecne.tex}
 \input{rubriky.tex}
+
+\renewcommand{\nadpisDen}[1]{
+  \begin{center}
+  {\LARGE #1}
+  \end{center}
+  \fancyhead[CE,CO]{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\renewcommand{\rubrikaBenedictus}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{Zachariášovo kantikum je na str. \pageref{benedictus}.}
+  \end{flushleft}
+}
+
+\renewcommand{\rubrikaMagnificat}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{Kantikum Panny Marie je na str. \pageref{magnificat}.}
+  \end{flushleft}
+}
 
 % Vlastni titulni stranka - s podtitulem, ktery v tirazi neni:
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
@@ -83,7 +105,9 @@
     
     \setlength{\parskip}{0.3cm}
     
-    {\bf \large Zelený čtvrtek, Velký pátek, Bílá sobota,
+    {\bf \Large Zelený čtvrtek, Velký pátek, 
+    
+    Bílá sobota,
     
     neděle Zmrtvýchvstání Páně}
         
@@ -115,13 +139,13 @@
 \nadpisTyden{Kantika z evangelií}{Kantika z evangelií}
 \fancyhead[CE,CO]{Kantika z evangelií}
 
-% \begin{hora}
 \label{benedictus}
 \input{generovane/triduum/kantikum_benedictus.tex}
 
 \label{magnificat}
 \input{generovane/triduum/kantikum_magnificat.tex}
-% \end{hora}
+
+\newpage % ZLOM0
 
 %%% invitatorium
 
@@ -134,6 +158,7 @@
 \lilypondfile{generovane/triduum/pust_triduum_pa-invit.ly}
 \noindent \rubrika{Bílá sobota}
 \lilypondfile{generovane/triduum/pust_triduum_so-invit.ly}
+\newpage % ZLOM1
 \noindent \rubrika{Zmrtvýchvstání Páně}
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_invit.ly}
 
@@ -142,11 +167,12 @@ strofě.}
 \input{generovane/triduum/zalm95.tex}
 \end{hora}
 
-\fancyhead[CE,CO]{}
-
 %%% Zeleny ctvrtek
 
 \clearpage
+
+\fancyhead[CE,CO]{}
+
 \nadpisDen{Zelený čtvrtek}
 
 \nespory
@@ -162,6 +188,7 @@ strofě.}
 \typRespAntifona
 \lilypondfile{generovane/triduum/pust_triduum_ct-resp.ly}
 
+\typMagnificat
 \lilypondfile{generovane/triduum/pust_triduum_ct-nesp-mag.ly}
 \rubrikaMagnificat
 
@@ -182,10 +209,12 @@ strofě.}
 \lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant3.ly}
 \input{generovane/triduum/zalm147ii.tex}
 
+\newpage % ZLOM1
 \typRespAntifona
 \label{pa_resp}
 \lilypondfile{generovane/triduum/pust_triduum_pa-resp.ly}
 
+\typBenedictus
 \lilypondfile{generovane/triduum/pust_triduum_pa-rch-ben.ly}
 \rubrikaBenedictus
 
@@ -193,6 +222,7 @@ strofě.}
 
 \rubrika{dopoledne:}
 \lilypondfile{generovane/triduum/pust_triduum_pa-up-dopo.ly}
+\newpage % ZLOM1
 \rubrika{v poledne:}
 \lilypondfile{generovane/triduum/pust_triduum_pa-up-po.ly}
 \rubrika{odpoledne:}
@@ -203,6 +233,7 @@ strofě.}
 \input{generovane/triduum/zalm54.tex}
 \input{generovane/triduum/zalm88.tex}
 
+\newpage % ZLOM1
 \nespory
 
 \lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant1.ly}
@@ -214,6 +245,7 @@ strofě.}
 
 \rubrikaResp{pa}
 
+\typMagnificat
 \lilypondfile{generovane/triduum/pust_triduum_pa-nesp-mag.ly}
 \rubrikaMagnificat
 
@@ -238,6 +270,8 @@ strofě.}
 \label{so_resp}
 \lilypondfile{generovane/triduum/pust_triduum_so-resp.ly}
 
+\newpage % ZLOM1
+\typBenedictus
 \lilypondfile{generovane/triduum/pust_triduum_so-rch-ben.ly}
 \rubrikaBenedictus
 
@@ -260,6 +294,7 @@ strofě.}
 \typZalmy
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant1.ly}
 \input{generovane/triduum/zalm116ii.tex}
+\newpage % ZLOM1
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant2.ly}
 \input{generovane/triduum/zalm143.tex}
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant3.ly}
@@ -267,6 +302,8 @@ strofě.}
 
 \rubrikaResp{so}
 
+\newpage % ZLOM1
+\typMagnificat
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-mag.ly}
 \rubrikaMagnificat
 
@@ -282,6 +319,7 @@ strofě.}
 \typZalmy
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant1.ly}
 \input{generovane/triduum/zalm63.tex}
+\newpage % ZLOM1
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant2.ly}
 \input{generovane/triduum/kantikum_dan3i.tex}
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant3.ly}
@@ -291,6 +329,8 @@ strofě.}
 \label{ne_resp}
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_resp.ly}
 
+\newpage % ZLOM1
+\typBenedictus
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-ben.ly}
 \rubrikaBenedictus
 
@@ -320,6 +360,8 @@ strofě.}
 
 \rubrikaResp{ne}
 
+\newpage % ZLOM1
+\typMagnificat
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-mag.ly}
 \rubrikaMagnificat
 
