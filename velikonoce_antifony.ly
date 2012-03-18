@@ -22,7 +22,7 @@
   
   \markup {\nadpisHodinka {"invitatorium"}}
   
-  \markup{Od konce velikonočního oktávu do slavnosti Nanebevstoupení Páně:}
+  \markup{Od slavnosti Zmrtvýchvstání Páně do slavnosti Nanebevstoupení Páně:}
   
   \score {
     \relative c' {
