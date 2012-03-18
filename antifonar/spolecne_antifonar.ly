@@ -15,9 +15,10 @@
   }
 }
 
-\paper {
-  myStaffSize = #18
+myStaffSize = #18
+#(set-global-staff-size myStaffSize)
 
+\paper {
   #(define fonts
     (make-pango-font-tree 
                           "URW Bookman L"
