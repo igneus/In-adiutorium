@@ -199,10 +199,7 @@ strofě.}
 \lilypondfile{generovane/triduum/pust_triduum_pa-up-odpo.ly}
 \rubrikaDoplnovaciCyklus
 
-\rubrika{(Obě dvě části žalmu 40 se zpívají dohromady jako jeden žalm.
-Rozdělený je tu jen z technických důvodů, v breviáři je v celku.)}
-\input{generovane/triduum/zalm40i.tex}
-\input{generovane/triduum/zalm40ii.tex}
+\input{generovane/triduum/zalm40.tex}
 \input{generovane/triduum/zalm54.tex}
 \input{generovane/triduum/zalm88.tex}
 
@@ -254,15 +251,9 @@ Rozdělený je tu jen z technických důvodů, v breviáři je v celku.)}
 \lilypondfile{generovane/triduum/pust_triduum_so-up-odpo.ly}
 \rubrikaDoplnovaciCyklus
 
-\rubrika{(Obě dvě části žalmu 27 se zpívají dohromady jako jeden žalm.
-Rozdělený je tu jen z technických důvodů, v breviáři je v celku.)}
-\input{generovane/triduum/zalm27i.tex}
-\input{generovane/triduum/zalm27ii.tex}
+\input{generovane/triduum/zalm27.tex}
 \input{generovane/triduum/zalm30.tex}
-\rubrika{(Obě dvě části žalmu 76 se zpívají dohromady jako jeden žalm.
-Rozdělený je tu jen z technických důvodů, v breviáři je v celku.)}
-\input{generovane/triduum/zalm76i.tex}
-\input{generovane/triduum/zalm76ii.tex}
+\input{generovane/triduum/zalm76.tex}
 
 \nespory
 

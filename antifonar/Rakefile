@@ -19,6 +19,20 @@ def genzalm(zalm, options="", adresar='generovane/')
   return peceny
 end
 
+def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
+  wd = Dir.pwd
+  syrove = zdroje.map {|zalm| wd+"/zalmy/"+zalm }
+  peceny = adresar+vysledek
+  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
+  file peceny => syrove+[preprocessor] do
+    chdir adresar
+    sh "#{RUBY_COMMAND} #{preprocessor} #{options} --output #{vysledek} --join #{syrove.join " "}"
+    chdir wd
+    sh "vlna #{peceny}"
+  end
+  return peceny
+end
+
 def test_lilypondbook_version
   v = `lilypond-book --version`
   if v !~ /^2\.14/ then
@@ -417,13 +431,16 @@ zalmy_triduum << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle 
 
 %w( 95 
         72i 72ii
-        51 147ii   40i 40ii 54 88   116ii 143 
-        64 150     27i 27ii 30 76i 76ii 
+        51 147ii   54 88   116ii 143 
+        64 150     30
         63 149     118i 118ii 118iii   110 114
         
         120 121 122 123 124 125 126 127 128 ).each do |z|
   zalmy_triduum << genzalm("zalm"+z+".zalm", commonoptions, adresar_triduum)
 end
+zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
 %w( zj11 hab3 fp2 iz38 dan3i ).each do |k|
   zalmy_triduum << genzalm("kantikum_"+k+".zalm", commonoptions, adresar_triduum)
