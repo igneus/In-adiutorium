@@ -125,6 +125,7 @@
   }
   \header {
     quid = "ant. /místo responsoria/"
+    quidbreve = "ant."
     modus = "VII"
     differentia = "a" 
     psalmus = ""
@@ -307,6 +308,7 @@
     }
     \header {
       quid = "ant. k Benedictus"
+      quidbreve = "ant."
       modus = "II"
       differentia = "D" 
       psalmus = ""
@@ -341,6 +343,7 @@
     }
     \header {
       quid = "ant. k Magnificat"
+      quidbreve = "ant."
       modus = "III"
       differentia = "a" 
       psalmus = ""

@@ -92,6 +92,7 @@
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
@@ -115,6 +116,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "I"
     differentia = "g" 
     psalmus = ""
@@ -226,6 +228,7 @@
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
@@ -247,6 +250,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
+    quidbreve = "ant."
     modus = "II"
     differentia = "D" 
     psalmus = ""
@@ -269,6 +273,7 @@
   }
   \header {
     quid = "ant. dopoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "f" 
     psalmus = ""
@@ -291,6 +296,7 @@
   }
   \header {
     quid = "ant. v poledne"
+    quidbreve = "ant."
     modus = "II"
     differentia = "D" 
     psalmus = ""
@@ -315,6 +321,7 @@
   }
   \header {
     quid = "ant. odpoledne"
+    quidbreve = "ant."
     modus = "IV"
     differentia = "E" 
     psalmus = ""
@@ -403,6 +410,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VIII"
     differentia = "G*" 
     psalmus = ""
@@ -519,6 +527,7 @@
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
@@ -541,6 +550,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
+    quidbreve = "ant."
     modus = "I"
     differentia = "D" 
     psalmus = ""
@@ -563,6 +573,7 @@
   }
   \header {
     quid = "ant. dopoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "D" 
     psalmus = ""
@@ -583,6 +594,7 @@
   }
   \header {
     quid = "ant. v poledne"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
@@ -605,6 +617,7 @@
   }
   \header {
     quid = "ant. odpoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "a" 
     psalmus = ""
@@ -695,6 +708,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
