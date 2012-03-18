@@ -32,7 +32,7 @@
     modus = "VII"
     differentia = "b"
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant1"
     fons = "slavnost Ježíše Krista Krále, ant. k Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -57,7 +57,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -77,7 +77,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -95,7 +95,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "ct-resp"
     fons = "Bílá sobota, ant. místo responsoria."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -118,7 +118,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -144,7 +144,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -166,7 +166,7 @@
     modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "pa-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -186,7 +186,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Hab 3"
-    id = ""
+    id = "pa-rch-ant2"
     notitia = "Textově téměř shodný je začátek ant. k Magn. ze svátku Křtu Páně, ale její melodie (k 7.2.2012) nebyla použitelná, protože je (i když kousek končí na tónice) příliš nesena dynamikou rozjezdu k něčemu, co následuje."
     piece = \markup {\sestavTitulek}
   }
@@ -209,7 +209,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "pa-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -229,7 +229,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "pa-resp"
     fons = "Bílá sobota, ant. místo responsoria."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -250,7 +250,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -272,7 +272,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "pa-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -294,7 +294,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -318,7 +318,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -342,7 +342,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "pa-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -362,7 +362,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 143"
-    id = ""
+    id = "pa-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -384,7 +384,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Flp 2"
-    id = ""
+    id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -406,7 +406,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = ""
-    id = ""
+    id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -431,7 +431,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -456,7 +456,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 64"
-    id = ""
+    id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -476,7 +476,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Iz 38"
-    id = ""
+    id = "so-rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -498,7 +498,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 150"
-    id = ""
+    id = "so-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -522,7 +522,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "so-resp"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -544,7 +544,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -566,7 +566,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -586,7 +586,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "so-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -608,7 +608,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "so-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -630,7 +630,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -652,7 +652,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 143"
-    id = ""
+    id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -676,7 +676,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Flp 2"
-    id = ""
+    id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -698,7 +698,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "so-nesp-mag"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
