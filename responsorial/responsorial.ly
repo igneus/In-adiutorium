@@ -169,6 +169,7 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   \markup\nadpisTyden{do slavnosti Zjevení Páně}
   \include "vanoce_narozenipane_narozeni-rch-resp.ly"
   \include "vanoce_narozenipane_narozeni-2ne-resp.ly"
+  \pageBreak % ZLOM
   
   \markup\nadpisTyden{od slavnosti Zjevení Páně}
   \include "vanoce_zjevenipane_epifanie-rch-resp.ly"
@@ -201,6 +202,7 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   \markup\nadpisDen{neděle}
   \include "velikonoce_responsoria_6.ly"
   \include "velikonoce_responsoria_7.ly"
+  \pageBreak % ZLOM
   \include "velikonoce_responsoria_8.ly"
   \pageBreak % ZLOM
   
