@@ -1,10 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-% cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
-% pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
-% rucne, ne pres rake.
-% \usepackage{czech} 
+\usepackage[czech]{babel} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
@@ -15,11 +12,6 @@
 \usepackage{color} % barevny text
 
 \usepackage[T1]{fontenc}
-% font Palatino:
-% \usepackage[sc]{mathpazo}
-% \linespread{1.05}        
-
-% font Bookman:
 \usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
@@ -50,6 +42,7 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newenvironment{hora}{}{}
+\newenvironment{psalmus}{}{}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
@@ -100,12 +93,8 @@
 
 \input{spolecne.tex}
 
-\pagestyle{empty}
-
 \titulniStrankaSvazkuAntifonare
-
-\newpage \mbox{}
-\newpage % empty page
+\prazdnaStranka
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -142,7 +131,6 @@
 \rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
 strofě.}
 \input{generovane/nedele/zalm95.tex}
-\label{zalm24}
 \end{hora}
 
 \clearpage
