@@ -107,6 +107,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \score {
   \relative c' {
     \choralniRezim
@@ -251,9 +253,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
     
+    e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
+    a g bes a( g a4.) d, \barMin f4 f e f c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, náš Pa -- ne,
@@ -264,27 +270,32 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a2" 
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
+\pageBreak % ZLOM
+
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g f( g) g g bes a g a g f( g) g \barMax
+    g g g g bes( c) bes g4. g \barMaior
+    a4 g f( g) g \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
-    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    a bu -- de jen jed -- no stád -- ce, 
+    je -- den pas -- týř.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -308,6 +319,7 @@
     a a a( g f) g( f) d f d( c) \barMin
     d e f e( f) c f e d4. d \barFinalis
     % Slava
+    a'4( g) a a( c) a g g( a) a \barMin a a( bes) a a( g) a a \barFinalis
   }
   \addlyrics {
     \Response Bo -- ží slo -- vo nám při -- nes -- lo no -- vý ži -- vot,_*
