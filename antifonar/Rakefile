@@ -101,7 +101,7 @@ kompletar_splitscores_command = splitscores_command + " --output-dir #{adresar_k
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
-  sh "pdflatex antifonar_kompletar"
+  sh "pdflatex -shell-escape antifonar_kompletar"
   chdir ".."
 end
 
@@ -207,7 +207,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
-    sh "pdflatex -output-directory=vystup antifonar_zaltar"
+    sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
   }
   # sh "dvipdf antifonar_zaltar.dvi"
 end
@@ -264,7 +264,7 @@ end
 
 file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex']+zalmy_cteni do
   2.times { 
-    sh "pdflatex -output-directory=vystup antifonar_ctenizaltar"
+    sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
   }
 end
 
@@ -305,7 +305,7 @@ task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums']
 end
 
 file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
-  2.times { sh "pdflatex -output-directory=vystup antifonar_svatecnizaltar" }
+  2.times { sh "pdflatex -shell-escape -output-directory=vystup antifonar_svatecnizaltar" }
 end
 
 desc "Festal psalter"
@@ -327,7 +327,7 @@ end
 
 file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
   chdir 'vystup'
-  sh 'pdflatex antifonar_uvod.tex'
+  sh 'pdflatex -shell-escape antifonar_uvod.tex'
   chdir '..'
 end
 
@@ -410,7 +410,7 @@ end
 
 file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex', 'spolecne.tex'] do
   chdir 'vystup'
-  2.times { sh 'pdflatex antifonar_nedele.tex' }
+  2.times { sh 'pdflatex -shell-escape antifonar_nedele.tex' }
   chdir '..'
 end
 
@@ -467,7 +467,7 @@ end
 
 file 'vystup/antifonar_triduum.pdf' => ['vystup/antifonar_triduum.tex', 'spolecne.tex', 'rubriky.tex'] do |t|
   chdir 'vystup'
-  2.times { sh 'pdflatex antifonar_triduum.tex' }
+  2.times { sh 'pdflatex -shell-escape antifonar_triduum.tex' }
   chdir '..'
 end
 
@@ -489,7 +489,7 @@ end
 
 file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd "vystup"
-  sh "pdflatex -output-directory=#{vystup} zalm136"
+  sh "pdflatex -shell-escape zalm136"
   cd ".."
 end
 
