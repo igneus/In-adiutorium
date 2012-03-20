@@ -109,3 +109,5 @@ neviditelna = #(define-music-function (parser location note)
     \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
+
+sestavTitulek = \markup {}

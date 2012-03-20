@@ -446,12 +446,13 @@ zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex',
   zalmy_triduum << genzalm("kantikum_"+k+".zalm", commonoptions, adresar_triduum)
 end
 
-noty_triduum = {'pust_triduum.ly' => 'pa-invit', 
-                            'velikonoce_velikonocnioktav.ly' => 'invit'}.map do |file, sampleid| 
+noty_triduum = {'../pust_triduum.ly' => 'pa-invit', 
+                '../velikonoce_velikonocnioktav.ly' => 'invit',
+                'triduum_verse.ly' => 'ne'}.map do |file, sampleid| 
   # nazev vygenerovaneho souboru s prvni antifonou
-  afn = adresar_triduum+file.gsub('.ly', '_'+sampleid+'.ly')
+  afn = adresar_triduum+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
   # zpracovavany soubor s antifonami
-  sfn = "../"+file
+  sfn = file
   
   file afn => [sfn] do
     sh triduum_splitscores_command + sfn

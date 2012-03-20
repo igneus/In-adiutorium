@@ -233,7 +233,15 @@ strofě.}
 \input{generovane/triduum/zalm54.tex}
 \input{generovane/triduum/zalm88.tex}
 
+\typVers
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-po.ly}
 \newpage % ZLOM1
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-odpo.ly}
+
 \nespory
 
 \lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant1.ly}
@@ -289,12 +297,20 @@ strofě.}
 \input{generovane/triduum/zalm30.tex}
 \input{generovane/triduum/zalm76.tex}
 
+\typVers
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-po.ly}
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-odpo.ly}
+
+\newpage % ZLOM1
 \nespory
 
 \typZalmy
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant1.ly}
 \input{generovane/triduum/zalm116ii.tex}
-\newpage % ZLOM1
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant2.ly}
 \input{generovane/triduum/zalm143.tex}
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant3.ly}
@@ -302,7 +318,6 @@ strofě.}
 
 \rubrikaResp{so}
 
-\newpage % ZLOM1
 \typMagnificat
 \lilypondfile{generovane/triduum/pust_triduum_so-nesp-mag.ly}
 \rubrikaMagnificat
@@ -348,19 +363,25 @@ strofě.}
 \input{generovane/triduum/zalm118ii.tex}
 \input{generovane/triduum/zalm118iii.tex}
 
+\typVers
+\rubrika{dopoledne, v poledne i odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_ne.ly}
+
+\newpage % ZLOM1
 \nespory
 
 \typZalmy
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant1.ly}
 \input{generovane/triduum/zalm110.tex}
+\newpage % ZLOM1
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant2.ly}
 \input{generovane/triduum/zalm114.tex}
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
+\newpage % ZLOM1
 \rubrikaResp{ne}
 
-\newpage % ZLOM1
 \typMagnificat
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-mag.ly}
 \rubrikaMagnificat
@@ -395,6 +416,8 @@ strofě.}
 
 \clearpage
 \tableofcontents
+
+\prazdnaStranka
 
 \clearpage
 \tirazSvazkuAntifonare
