@@ -50,10 +50,12 @@
   \end{multicols}
 }
 
+\newenvironment{psalmus}{}{}
+
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
 
   \rubr{Pokud se následující žalm zpíval jako invitatorium,
-  nahradí se zde žalmem 95, str. \pageref{zalm24}.}
+  nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
 % Poznamky k netypickym versum zalmu:
@@ -67,7 +69,13 @@
 
 \titulniStrankaSvazkuAntifonare
 
-\prazdnaStranka
+Poznámka: Za posledním veršem každého žalmu je \uv{verš} u\-po\-zor\-ňu\-jí\-cí,
+že se má přidat doxologie. V liturgických obdobích, kdy se žalmy modlitby uprostřed
+dne zpívají s jedinou antifonou, je však možné (a snad dokonce žádoucí)
+tam, kde je hodinka složena z částí
+rozděleného žalmu, doxologii vynechat a žalm zpívat v celku.
+
+\newpage
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -94,11 +102,23 @@
 \fancyhead[CE,CO]{Žalmy invitatoria}
 
 \begin{hora}
+\label{zalm95}
 \input{generovane/zaltar/zalm95.tex}
+
 \input{generovane/zaltar/zalm100.tex}
+
+{\footnotesize \noindent \textit{(pátek 1. týdne, pátek 3. týdne)}\footnote{
+Dny, kdy je ten který žalm zařazen v psalmodii a není tedy vhodné použít ho
+jako žalm invitatoria.}}
+
 \input{generovane/zaltar/zalm67.tex}
+
+{\footnotesize \noindent \textit{(středa 2. týdne, úterý 3. týdne)}}
+
 \input{generovane/zaltar/zalm24.tex}
-\label{zalm24}
+
+{\footnotesize \noindent \textit{(úterý 1. týdne)}}
+
 \end{hora}
 
 \clearpage

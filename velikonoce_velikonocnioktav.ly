@@ -11,6 +11,29 @@
   \header {
    subtitle = "1. Společné pro všechny dny" 
   }
+  
+  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d( a') g( a) a \barMaior
+      g a b( c) a4.( g) \barMin a4 f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D" 
+      psalmus = ""
+      id = "invit"
+      fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -32,6 +55,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 63"
+    id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -178,6 +202,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Dan 3"
+    id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -405,6 +430,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 149"
+    id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -429,10 +455,12 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
   \header {
     quid = "ant. /místo responsoria/"
+    quidbreve = "ant."
     modus = "VII"
     differentia = "a" 
     psalmus = ""
     id = "paschoctant"
+    id = "resp"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -659,6 +687,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "VII"
     differentia = "d" 
     psalmus = ""
+    id = "up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -684,6 +713,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "I"
     differentia = "D" 
     psalmus = ""
+    id = "up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -709,6 +739,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
+    id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -780,6 +811,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 110"
+    id = "nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -849,6 +881,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 114"
+    id = "nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -908,6 +941,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     modus = "VI"
     differentia = "F" 
     psalmus = "Zj 19"
+    id = "nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -965,10 +999,11 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     }
     \header {
       quid = "ant. k Benedictus"
+      quidbreve = "ant."
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      id = ""
+      id = "zmrtvychvstani-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -999,10 +1034,11 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     }
     \header {
       quid = "ant. k Magnificat"
+      quidbreve = "ant."
       modus = "III"
       differentia = "a" 
       psalmus = ""
-      id = ""
+      id = "zmrtvychvstani-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1028,7 +1064,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "po-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1059,7 +1095,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "po-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1101,7 +1137,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "I"
       differentia = "f" 
       psalmus = ""
-      id = ""
+      id = "ut-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1123,7 +1159,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "I"
       differentia = "a" 
       psalmus = ""
-      id = ""
+      id = "ut-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1156,7 +1192,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "st-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1184,7 +1220,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "IV"
       differentia = "g" 
       psalmus = ""
-      id = ""
+      id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1211,7 +1247,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "III"
       differentia = "g" 
       psalmus = ""
-      id = ""
+      id = "ct-ben"
       fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1236,7 +1272,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "ct-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1262,7 +1298,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "I"
       differentia = "a" 
       psalmus = ""
-      id = ""
+      id = "pa-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1288,7 +1324,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "pa-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1322,7 +1358,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "IV"
       differentia = "E" 
       psalmus = ""
-      id = ""
+      id = "so-ben"
       fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1351,7 +1387,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
-      id = ""
+      id = "ne2-mag1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1375,7 +1411,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      id = ""
+      id = "ne2-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1404,7 +1440,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
       modus = "I"
       differentia = "a" 
       psalmus = ""
-      id = ""
+      id = "ne2-mag2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

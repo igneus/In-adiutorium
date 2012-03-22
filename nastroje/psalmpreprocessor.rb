@@ -104,6 +104,44 @@ module PsalmPreprocessor
     end
   end
   
+  class JoinInputStrategy < Strategy
+    def initialize()
+      @cores = []
+      yield self # cores should be added in the block
+      if @cores.empty? then
+        raise "Panic! No cores!!!"
+      end
+    end
+    
+    def add_core(core)
+      @cores << core
+    end
+    
+    def gets
+      if @cores.empty? then
+        return nil
+      end
+      
+      l = @cores.first.gets
+      
+      unless l
+        @cores.first.close
+        @cores.shift
+        unless @cores.empty?
+          @cores.first.gets # drop the first line - it contains the title
+        end
+        return self.gets
+      end
+      
+      return l
+    end
+    
+    def close
+      @cores.each {|c| c.close }
+      @cores = []
+    end
+  end
+  
   # Output strategies:
   # strategies that create and modify the TeX output
   
@@ -138,6 +176,14 @@ module PsalmPreprocessor
         @core.puts @t_beg
         @beginning = false
       end
+    end
+  end
+  
+  class PsalmOutputStrategy < ColumnsOutputStrategy
+    def initialize(io)
+      super(io, 0)      
+      @t_beg = "\\begin{psalmus}"
+      @t_end = "\\end{psalmus}"
     end
   end
   
@@ -381,7 +427,11 @@ module PsalmPreprocessor
       if @first then
         @first = false
         i = @pattern.index '#'
-        sa = @pattern[0..i-1]+s+@pattern[i+1..-1]
+        if i then
+          sa = @pattern[0..i-1]+s+@pattern[i+1..-1]
+        else
+          sa = @pattern
+        end
         @core.puts sa
         STDOUT.puts sa
       else
@@ -441,70 +491,70 @@ setup = {
   :append_text => nil,
   :dashes => false,
   :paragraph_space => true,
-  :guillemets => false
+  :guillemets => false,
+  :join => false
 }
 
 optparse = OptionParser.new do|opts|
   opts.on "-l", "--last-accents-only", "Include only the last accent of each halb-verse in the produced file" do
     setup[:accents] = [1,1]
   end
-  
+  opts.on "-a", "--accents NUMS", "a:b - Numbers of accents to be processed in each half-verse" do |str|
+    a1, a2 = str.split ':'
+    if a1 && a1 != "" then
+      setup[:accents][0] = a1.to_i
+    end
+    if a2 && a2 != "" then
+      setup[:accents][1] = a2.to_i
+    end
+  end
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
     setup[:has_title] = false
   end
-  
   opts.on "-T", "--title-pattern [PATTERN]", "Use a specified pattern instead of the default one." do |p|
     setup[:title_pattern] = p
   end
-  
   opts.on "-f", "--no-formatting", "Just process accents and don't do anything else with the document" do
     setup[:has_title] = false
     setup[:no_formatting] = true
     setup[:paragraph_space] = false
   end
-  
   # Needs package multicol!
   opts.on "-c", "--columns", "Typeset psalm in two columns" do
     setup[:columns] = true
   end
-  
   # Needs package lettrine!
   opts.on "-l", "--lettrine", "Large first character of the psalm." do
     setup[:lettrine] = true
   end
-  
   opts.on "-n", "--novydvur-newlines", "Lines broken like in the psalter of the Novy Dvur trappist abbey" do
     setup[:novydvur_newlines] = true
   end
-  
   opts.on "-p", "--pretitle TEXT", "Text to be printed as beginning of the title." do |t|
     setup[:prepend_text] = t
   end
-  
   opts.on "-a", "--append TEXT", "Text to be appended at the end." do |t|
     setup[:append_text] = t
   end
-  
   opts.on "-o", "--output FILE", "Save output to given path." do |out|
     setup[:output_file] = out
   end
-  
   # This is useful when we want to append a doxology after the psalm
   # as a separate paragraph
   opts.on "-e", "--linebreak-at-the-end", "Make a line-break after the last line" do
     setup[:line_break_last_line] = true
   end
-  
   opts.on "-d", "--dashes", "Dash at the end of each psalm paragraph" do
     setup[:dashes] = true
   end
-  
   opts.on "-p", "--no-paragraph", "No empty line after each psalm paragraph." do
     setup[:paragraph_space] = false
   end
-  
   opts.on "-g", "--guillemets", "Convert american quotes to french ones (guillemets)." do
     setup[:guillemets] = true
+  end
+  opts.on "-j", "--join", "Join all given input files" do
+    setup[:join] = true
   end
 end
 
@@ -514,26 +564,10 @@ if ARGV.empty? then
   raise "Program expects filenames as arguments."
 end
 
-ARGV.each do |f|
-  input = File.open(f, "r")
-  input = RemoveCommentsInputStrategy.new input
-  if setup[:prepend_text] then
-    input = PrependInputStrategy.new input, setup[:prepend_text]
-  end
-  if setup[:append_text] then
-    input = AppendInputStrategy.new input, setup[:append_text]
-  end
-  
-  if setup[:output_file] then
-    fwn = setup[:output_file]
-  else
-    fwn = File.basename(f)
-    fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
-  end
-  
-  puts "#{f} -> #{fwn}"
-  
+def output_procedure(input, fwn, setup)
   output = File.open(fwn, "w")
+  
+  output = PsalmOutputStrategy.new output
   
   # order matters! Some of the outputters need to be applied
   # before processing +, * and empty lines.
@@ -589,4 +623,59 @@ ARGV.each do |f|
   
   input.close
   output.close
+end # def output_procedure
+
+if setup[:join] then
+  
+  input = JoinInputStrategy.new do |jis|
+    ARGV.each do |f|
+      i = File.open(f, "r")
+      i = RemoveCommentsInputStrategy.new i
+      jis.add_core i
+    end
+  end
+  
+  if setup[:prepend_text] then
+      input = PrependInputStrategy.new input, setup[:prepend_text]
+    end
+    if setup[:append_text] then
+      input = AppendInputStrategy.new input, setup[:append_text]
+    end
+    
+    if setup[:output_file] then
+      fwn = setup[:output_file]
+    else
+      fwn = File.basename(ARGV[0])
+      fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+    end
+    
+    puts "#{ARGV.join ', '} -> #{fwn}"
+    
+    output_procedure(input, fwn, setup)
+    
+else
+  
+  ARGV.each do |f|
+    input = File.open(f, "r")
+    input = RemoveCommentsInputStrategy.new input
+    if setup[:prepend_text] then
+      input = PrependInputStrategy.new input, setup[:prepend_text]
+    end
+    if setup[:append_text] then
+      input = AppendInputStrategy.new input, setup[:append_text]
+    end
+    
+    if setup[:output_file] then
+      fwn = setup[:output_file]
+    else
+      fwn = File.basename(f)
+      fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
+    end
+    
+    puts "#{f} -> #{fwn}"
+    
+    output_procedure(input, fwn, setup)
+  end
+  
 end
+

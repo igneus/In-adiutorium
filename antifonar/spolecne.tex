@@ -40,8 +40,12 @@
     \url{http://inadiutorium.xf.cz}
 }
 
+\newcommand{\lilypondbookVersion}{
+  \input{|"lilypond-book --version"}
+}
+
 \newcommand{\tirazSazbaProgramem}{
-  Vysázeno programy \LaTeX  a LilyPond.
+  Vysázeno programy \LaTeX  a LilyPond % \lilypondbookVersion
 }
 
 \newcommand{\tirazSvazkuAntifonare}{
@@ -99,7 +103,7 @@
   
   projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
   
-  sazba programy LilyPond a \LaTeX
+  sazba programy \LaTeX a LilyPond \lilypondbookVersion
 }
 
 % cesky format data:

@@ -22,7 +22,7 @@
   
   \markup {\nadpisHodinka {"invitatorium"}}
   
-  \markup{Od konce velikonočního oktávu do slavnosti Nanebevstoupení Páně:}
+  \markup{Od slavnosti Zmrtvýchvstání Páně do slavnosti Nanebevstoupení Páně:}
   
   \score {
     \relative c' {
@@ -31,7 +31,7 @@
       g a b( c) a4.( g) \barMin a4 f e( d) d \barFinalis
     }
     \addlyrics {
-      Pán vstal z_mrt -- vých,
+      Pán vstal z_mrt -- vých,_*
       a -- le -- lu -- ja, a -- le -- lu -- ja.
     }
     \header {

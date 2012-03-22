@@ -21,7 +21,7 @@
     d( c) a b a g g g \bar "||"
   }
   \addlyrics {
-    Kris -- tus,
+    Kris -- tus,_*
     pr -- vo -- ro -- ze -- ný z_mrt -- vých
     a Král krá -- lů,
     z_nás vy -- tvo -- řil Bo -- hu, 
@@ -32,7 +32,7 @@
     modus = "VII"
     differentia = "b"
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant1"
     fons = "slavnost Ježíše Krista Krále, ant. k Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -47,7 +47,7 @@
     a c d d f e c d4. d \barFinalis
   }
   \addlyrics {
-    Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+    Pán vy -- svo -- bo -- dí chu -- dá -- ka,_*
     kte -- rý se do -- vo -- lá -- vá po -- mo -- ci,
     u -- bo -- žá -- ka, 
     je -- hož se ni -- kdo ne -- u -- jí -- má.
@@ -57,7 +57,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -69,7 +69,7 @@
     a b( g e) e \barMin e( f) e g( a) a a \barFinalis
   }
   \addlyrics {
-    Sva -- tí zví -- tě -- zi -- li Be -- rán -- ko -- vou kr -- ví
+    Sva -- tí zví -- tě -- zi -- li_* Be -- rán -- ko -- vou kr -- ví
     a slo -- vem své -- ho svě -- dec -- tví.
   }
   \header {
@@ -77,7 +77,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -88,14 +88,15 @@
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
   }
   \addlyrics {
-    Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti.
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti.
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "ct-resp"
     fons = "Bílá sobota, ant. místo responsoria."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -109,16 +110,17 @@
     f( d) d \barMin d d( f) f f e f d d \barFinalis
   }
   \addlyrics {
-    Když jed -- li, vzal Je -- žíš chléb,
+    Když jed -- li,_* vzal Je -- žíš chléb,
     po -- žeh -- nal ho,
     lá -- mal a dá -- val svým u -- čed -- ní -- kům.
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "I"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ct-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -135,7 +137,7 @@
     a4 a a( g f) g( f) e f d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,_* 
     klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
     on nás vy -- kou -- pil svou kr -- ví.
   }
@@ -144,7 +146,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -158,7 +160,7 @@
     a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
   }
   \addlyrics {
-    Bůh ne -- u -- šet -- řil vlast -- ní -- ho Sy -- na,
+    Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,
     a -- le vy -- dal ho za nás za všec -- ky.
   }
   \header {
@@ -166,7 +168,7 @@
     modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "pa-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -178,7 +180,7 @@
     g g f( d) d f e c d4. d \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus nás mi -- lu -- je
+    Je -- žíš Kris -- tus nás mi -- lu -- je_*
     a svou kr -- ví nás zba -- vil hří -- chů.
   }
   \header {
@@ -186,7 +188,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Hab 3"
-    id = ""
+    id = "pa-rch-ant2"
     notitia = "Textově téměř shodný je začátek ant. k Magn. ze svátku Křtu Páně, ale její melodie (k 7.2.2012) nebyla použitelná, protože je (i když kousek končí na tónice) příliš nesena dynamikou rozjezdu k něčemu, co následuje."
     piece = \markup {\sestavTitulek}
   }
@@ -200,7 +202,7 @@
     a a g4.( e) \barMin f4 e f g( a) a c b c a( g a) a \barFinalis
   }
   \addlyrics {
-    Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
+    Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
     a sla -- ví -- me tvé sva -- té vzkří -- še -- ní.
     Ne -- boť kříž při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
   }
@@ -209,7 +211,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "pa-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -221,15 +223,16 @@
     a g g( e) e f( e) f( g a4.) a4 \barFinalis
   }
   \addlyrics {
-    Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti,
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
     a to k_smr -- ti na kří -- ži.
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "pa-resp"
     fons = "Bílá sobota, ant. místo responsoria."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -242,15 +245,16 @@
     d4 d d d c( a) a \barMin c d e e4.( d) \barFinalis
   }
   \addlyrics {
-    Pi -- lát dal zho -- to -- vit a při -- pev -- nit na kříž ná -- pis:
+    Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
     Je -- žíš Na -- za -- ret -- ský, ži -- dov -- ský král.
   }
   \header {
     quid = "ant. k Benedictus"
+    quidbreve = "ant."
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -264,15 +268,16 @@
     a g( bes) a g f e e( f) d4. d \barFinalis
   }
   \addlyrics {
-    By -- lo de -- vět ho -- din do -- po -- led -- ne,
+    By -- lo de -- vět ho -- din do -- po -- led -- ne,_*
     když u -- kři -- žo -- va -- li Je -- ží -- še.
   }
   \header {
     quid = "ant. dopoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "pa-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -285,16 +290,17 @@
     a c d f e d d \barFinalis
   }
   \addlyrics {
-    Když by -- lo dva -- náct ho -- din,
+    Když by -- lo dva -- náct ho -- din,_*
     na -- sta -- la tma po ce -- lém kra -- ji
     až do tří od -- po -- led -- ne.
   }
   \header {
     quid = "ant. v poledne"
+    quidbreve = "ant."
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "pa-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -308,17 +314,18 @@
     e( d g) f e d( f) f( e) e \barFinalis
   }
   \addlyrics {
-    Ve tři ho -- di -- ny
+    Ve tři ho -- di -- ny_*
     zvo -- lal Je -- žíš moc -- ným hla -- sem:
     Bo -- že můj, Bo -- že můj, 
     proč jsi mě o -- pus -- til?
   }
   \header {
     quid = "ant. odpoledne"
+    quidbreve = "ant."
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -333,7 +340,7 @@
     a c( d) c( a) a \barMin b g g( a g) g \barFinalis
   }
   \addlyrics {
-    Po -- zor -- ně na -- slou -- chej -- te,
+    Po -- zor -- ně na -- slou -- chej -- te,_*
     všech -- ny ná -- ro -- dy,
     a po -- hleď -- te na mou bo -- lest.
   }
@@ -342,7 +349,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "pa-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -354,7 +361,7 @@
     a e e f e f d( e) e \barFinalis
   }
   \addlyrics {
-    Můj duch ve mně chřad -- ne,
+    Můj duch ve mně chřad -- ne,_*
     srd -- ce mi str -- nu -- lo v_nit -- ru.
   }
   \header {
@@ -362,7 +369,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 143"
-    id = ""
+    id = "pa-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -375,7 +382,7 @@
     d4 d d d( f) e c d d \barFinalis
   }
   \addlyrics {
-    Když Je -- žíš při -- jal o -- cet, ře -- kl:
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
     Do -- ko -- ná -- no je.
     Pak sklo -- nil hla -- vu a sko -- nal.
   }
@@ -384,7 +391,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Flp 2"
-    id = ""
+    id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -397,16 +404,17 @@
     a( c) c \barMin c c c c c b a b a a g g \barFinalis
   }
   \addlyrics {
-    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
     smr -- tí je -- ho Sy -- na
     v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VIII"
     differentia = "G*" 
     psalmus = ""
-    id = ""
+    id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -423,7 +431,7 @@
     a4 a a a a( g f) g( f) e f d( c d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    Pojď -- me,_* klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
     on byl pro nás u -- mu -- čen a po -- hřben.
   }
   \header {
@@ -431,7 +439,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -447,7 +455,7 @@
     a a a a( bes) a g f4.( g) \barMin f4( e) c( d) d \barFinalis
   }
   \addlyrics {
-    Bu -- dou nad ním na -- ří -- kat
+    Bu -- dou nad ním na -- ří -- kat_*
     ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
     pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
   }
@@ -456,7 +464,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 64"
-    id = ""
+    id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -468,7 +476,7 @@
     d4( f) e f( g) g \barMin f( g) f( e c) d \barFinalis
   }
   \addlyrics {
-    Z_mo -- ci pod -- svě -- tí 
+    Z_mo -- ci pod -- svě -- tí_* 
     za -- chraň, Pa -- ne, mou du -- ši.    
   }
   \header {
@@ -476,7 +484,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Iz 38"
-    id = ""
+    id = "so-rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -489,7 +497,7 @@
     d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
   }
   \addlyrics {
-    Byl jsem mr -- tev,
+    Byl jsem mr -- tev,_*
     a hle, jsem živ na vě -- ky vě -- ků
     a mám klí -- če od smr -- ti a pod -- svě -- tí.
   }
@@ -498,7 +506,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 150"
-    id = ""
+    id = "so-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -512,17 +520,18 @@
     d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
   }
   \addlyrics {
-    Kris -- tus byl pro nás po -- sluš -- ný až k_smr -- ti,
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
     a to k_smr -- ti na kří -- ži.
     Pro -- to ho ta -- ké Bůh po -- vý -- šil
     a dal mu Jmé -- no nad kaž -- dé ji -- né jmé -- no.
   }
   \header {
     quid = "ant. místo responsoria"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "so-resp"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -535,16 +544,17 @@
     d4 d( f) f4.( e) \barMin e4( d c d) e d \barFinalis
   }
   \addlyrics {
-    Za -- chraň nás, Spa -- si -- te -- li svě -- ta,
+    Za -- chraň nás,_* Spa -- si -- te -- li svě -- ta,
     tys nás vy -- kou -- pil svou kr -- ví pro -- li -- tou na kří -- ži;
     stůj při nás, Bo -- že náš.
   }
   \header {
     quid = "ant. k Benedictus"
+    quidbreve = "ant."
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -558,15 +568,16 @@
     d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Vě -- řím, že u -- vi -- dím bla -- ho od Hos -- po -- di -- na
+    Vě -- řím, že u -- vi -- dím_* bla -- ho od Hos -- po -- di -- na
     v_ze -- mi ži -- vých.
   }
   \header {
     quid = "ant. dopoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "so-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -578,15 +589,16 @@
     e( g) g( a) a \barMin a c b a b g( a) a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne,
+    Hos -- po -- di -- ne,_*
     z_pod -- svě -- tí jsi vy -- ve -- dl mou du -- ši.
   }
   \header {
     quid = "ant. v poledne"
+    quidbreve = "ant."
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "so-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -599,16 +611,17 @@
     a g f e( f) d d \barFinalis
   }
   \addlyrics {
-    Po ú -- tra -- pách se je -- ho du -- še na -- sy -- ti -- la svět -- lem
+    Po ú -- tra -- pách_* se je -- ho du -- še na -- sy -- ti -- la svět -- lem
     a spo -- či -- nu -- la v_Je -- ru -- za -- lé -- mě,
     na mís -- tě po -- ko -- je.
   }
   \header {
     quid = "ant. odpoledne"
+    quidbreve = "ant."
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "so-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -622,7 +635,7 @@
     a( c) c \barMin d c b c a g g \barFinalis
   }
   \addlyrics {
-    Ví -- těz -- ně je smrt na -- vždy zni -- če -- na!
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
     Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
   }
   \header {
@@ -630,7 +643,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -643,7 +656,7 @@
     a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Ja -- ko byl Jo -- náš 
+    Ja -- ko byl Jo -- náš_* 
     v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
     tak bu -- de Syn člo -- vě -- ka v_nit -- ru ze -- mě.
   }
@@ -652,7 +665,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 143"
-    id = ""
+    id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -666,7 +679,7 @@
     d d d d f( g) g( a g4.) g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus ře -- kl:
+    Kris -- tus ře -- kl:_*
     Zboř -- te ten -- to chrám,
     a ve třech dnech jej za -- se po -- sta -- vím;
     ře -- kl to však o chrá -- mu své -- ho tě -- la.
@@ -676,7 +689,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Flp 2"
-    id = ""
+    id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -689,16 +702,17 @@
     g a c c b( c) c \barMin d( c) b a( g a g) g \barFinalis
   }
   \addlyrics {
-    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    Ny -- ní je o -- sla -- ven_* Syn člo -- vě -- ka
     a Bůh je o -- sla -- ven v_něm;
     a zje -- ví se na něm Bo -- ží slá -- va.
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "so-nesp-mag"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }

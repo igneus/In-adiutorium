@@ -1,5 +1,8 @@
 # encoding: utf-8
 
+task :all => [:kompletar, :zaltar, :cteni, :festzaltar, :nedele]
+task :default => [:all]
+
 RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
 
 def genzalm(zalm, options="", adresar='generovane/')
@@ -10,6 +13,20 @@ def genzalm(zalm, options="", adresar='generovane/')
   file peceny => [syrovy, preprocessor] do
     chdir adresar
     sh "#{RUBY_COMMAND} #{preprocessor} #{options} #{syrovy}"
+    chdir wd
+    sh "vlna #{peceny}"
+  end
+  return peceny
+end
+
+def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
+  wd = Dir.pwd
+  syrove = zdroje.map {|zalm| wd+"/zalmy/"+zalm }
+  peceny = adresar+vysledek
+  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
+  file peceny => syrove+[preprocessor] do
+    chdir adresar
+    sh "#{RUBY_COMMAND} #{preprocessor} #{options} --output #{vysledek} --join #{syrove.join " "}"
     chdir wd
     sh "vlna #{peceny}"
   end
@@ -43,7 +60,8 @@ dirs = { 'generovane' => {'kompletar' => {},
                                                 'nedele' => {},
                                                 'zaltar' => {},
                                                 'ctenizaltar' => {},
-                                                'svatecnizaltar' => {}},
+                                                'svatecnizaltar' => {},
+                                                'triduum' => {}},
               'vystup' => {}}
 make_dirs dirs
 
@@ -73,7 +91,7 @@ splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
 
 
 ##############
-# Antifonar: kompletar
+# sv. 1: kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
 
@@ -83,7 +101,7 @@ kompletar_splitscores_command = splitscores_command + " --output-dir #{adresar_k
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
-  sh "pdflatex antifonar_kompletar"
+  sh "pdflatex -shell-escape antifonar_kompletar"
   chdir ".."
 end
 
@@ -93,7 +111,7 @@ cislazalmu_kompletar.each do |i|
   zalmy_kompletar << genzalm("zalm#{i}.zalm", kompletar_options+" --last-accent-only", adresar_kompletar)
 end
 
-zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options, adresar_kompletar)
+zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --accents 2:1', adresar_kompletar)
 
 file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly", 'spolecne_antifonar.ly']+zalmy_kompletar) do
   test_lilypondbook_version
@@ -189,7 +207,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
-    sh "pdflatex antifonar_zaltar"
+    sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
   }
   # sh "dvipdf antifonar_zaltar.dvi"
 end
@@ -225,7 +243,7 @@ task :zaltar_texclean do
 end
 
 ###############
-# zaltar k modlitbe se ctenim
+# sv. 3: zaltar k modlitbe se ctenim
 
 zalmy_cteni = []
 
@@ -246,7 +264,7 @@ end
 
 file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex']+zalmy_cteni do
   2.times { 
-    sh "pdflatex antifonar_ctenizaltar"
+    sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
   }
 end
 
@@ -254,7 +272,7 @@ desc "Psalter for the reading-office."
 task :cteni => ['antifonar_ctenizaltar.pdf']
 
 ###############
-# zaltar pro slavnosti a svatky
+# sv. 5: zaltar pro slavnosti a svatky
 
 svatzalt_adresar = 'generovane/svatecnizaltar/'
 
@@ -287,14 +305,14 @@ task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums']
 end
 
 file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
-  2.times { sh "pdflatex antifonar_svatecnizaltar" }
+  2.times { sh "pdflatex -shell-escape -output-directory=vystup antifonar_svatecnizaltar" }
 end
 
 desc "Festal psalter"
 task :festzaltar => ['antifonar_svatecnizaltar.pdf']
 
 ###############
-# uvod
+# sv. 0: uvod
 
 file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
   chdir 'generovane'
@@ -309,7 +327,7 @@ end
 
 file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
   chdir 'vystup'
-  sh 'pdflatex antifonar_uvod.tex'
+  sh 'pdflatex -shell-escape antifonar_uvod.tex'
   chdir '..'
 end
 
@@ -317,7 +335,7 @@ desc "Introduction to the whole set of antiphonal volumes."
 task :uvod => ['vystup/antifonar_uvod.pdf']
 
 ###############
-# nedele - notovane
+# sv. 4: nedele - notovane
 
 zalmynedele = []
 
@@ -392,12 +410,70 @@ end
 
 file 'vystup/antifonar_nedele.pdf' => ['vystup/antifonar_nedele.tex', 'spolecne.tex'] do
   chdir 'vystup'
-  2.times { sh 'pdflatex antifonar_nedele.tex' }
+  2.times { sh 'pdflatex -shell-escape antifonar_nedele.tex' }
   chdir '..'
 end
 
 desc "Sunday antiphonal."
 task :nedele => ['vystup/antifonar_nedele.pdf']
+
+###############
+# sv. 6:  velikonocni triduum - notovane
+
+zalmy_triduum = []
+noty_triduum = []
+adresar_triduum = 'generovane/triduum/'
+
+triduum_splitscores_command = splitscores_command + " --output-dir #{adresar_triduum} "
+
+zalmy_triduum << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_triduum)
+zalmy_triduum << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_triduum)
+
+%w( 95 
+        72i 72ii
+        51 147ii   54 88   116ii 143 
+        64 150     30
+        63 149     118i 118ii 118iii   110 114
+        
+        120 121 122 123 124 125 126 127 128 ).each do |z|
+  zalmy_triduum << genzalm("zalm"+z+".zalm", commonoptions, adresar_triduum)
+end
+zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
+
+%w( zj11 hab3 fp2 iz38 dan3i ).each do |k|
+  zalmy_triduum << genzalm("kantikum_"+k+".zalm", commonoptions, adresar_triduum)
+end
+
+noty_triduum = {'../pust_triduum.ly' => 'pa-invit', 
+                '../velikonoce_velikonocnioktav.ly' => 'invit',
+                'triduum_verse.ly' => 'ne'}.map do |file, sampleid| 
+  # nazev vygenerovaneho souboru s prvni antifonou
+  afn = adresar_triduum+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
+  # zpracovavany soubor s antifonami
+  sfn = file
+  
+  file afn => [sfn] do
+    sh triduum_splitscores_command + sfn
+  end
+  
+  afn
+end
+
+file "vystup/antifonar_triduum.tex" => (["antifonar_triduum.lytex", "spolecne_antifonar.ly", "../dilyresponsorii.ly"]+zalmy_triduum+noty_triduum) do |t|
+  test_lilypondbook_version
+  sh "lilypond-book --output=vystup --pdf "+t.prerequisites.first
+end
+
+file 'vystup/antifonar_triduum.pdf' => ['vystup/antifonar_triduum.tex', 'spolecne.tex', 'rubriky.tex'] do |t|
+  chdir 'vystup'
+  2.times { sh 'pdflatex -shell-escape antifonar_triduum.tex' }
+  chdir '..'
+end
+
+desc "Triduum sacrum."
+task :triduum => ['vystup/antifonar_triduum.pdf']
 
 ###############
 # material k responsorialnimu prednesu zalmu 136
@@ -414,7 +490,7 @@ end
 
 file "vystup/zalm136.pdf" => ["vystup/zalm136.tex"] do
   cd "vystup"
-  sh "pdflatex zalm136"
+  sh "pdflatex -shell-escape zalm136"
   cd ".."
 end
 

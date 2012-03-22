@@ -5,7 +5,7 @@
   composer = "Jakub Pavlík"
 }
 
-\include "../spolecne.ly"
+\include "spolecne_antifonar.ly"
 
 \score {
   \relative c' {
