@@ -36,6 +36,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f e f e c( d) d \barMin
+    d e d c( a) a \barMaior
+    \mark\sipka a( g) a a( c b) c( b) a a \barMaior
+    a( c b) c( e) e^\markup{odtud nepřirozené} f g a g f g d \barMaior
+    d d( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu, 
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
