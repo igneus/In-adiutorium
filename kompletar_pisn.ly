@@ -19,10 +19,10 @@ opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC. (Viz též níže.
 \score {
   \relative c'' {
     \time 4/4
-    r4 a a a b a gis gis b2 \breathe
-    c4 b a gis a2 a \breathe \break
-    b2 d4 b c a b2 a 
-    c4 b a gis e gis b a a2 \bar "|."
+    r4 a a a | b a gis gis | b2 \breathe
+    c4 b | a gis a2 | a \breathe \bar "" \break
+    b2 | d4 b c a | b2 a |
+    c4 b a gis | e gis b a | a2 \bar "|."
   }
   \addlyrics {
     Smi -- luj se, Pa -- ne, když bdí -- me,
