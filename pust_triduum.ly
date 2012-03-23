@@ -396,6 +396,9 @@
   }
 }
 
+% Opravdu oskliva melodie. Protoze text je osklivy,
+% hudbe se vzpouzi.
+% Svrchovane predelanihodna.
 \score {
   \relative c'' {
     \choralniRezim
