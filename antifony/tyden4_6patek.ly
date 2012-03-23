@@ -2,6 +2,8 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup\nadpisSkupiny{1}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -20,6 +22,89 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka g( a) a g a bes( a) g \barMaior f g g( a) a \breathe a a g f g( f) e d \bar "||"
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka g( a) a g a a( bes a) a \barMaior 
+    bes( c) bes bes( a) a \barMin g f g a f e d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g a a( bes a) a \barMaior 
+    a( bes) c bes( a) a \barMin g f a g f e d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g d d \barMaior
+    d( f) e d( a) a \barMin bes c d f e c d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -42,6 +127,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -61,6 +148,28 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d \breathe c( b c) c( d) d \barMaior
+    d4 c( d) c( b g) g \barMin g g( f) g a g g \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score { \tIIpatekAntBenedictus }
 
