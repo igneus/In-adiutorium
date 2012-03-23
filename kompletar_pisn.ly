@@ -13,7 +13,8 @@
 }
 \markup\justify {
 Nápěv psalmodie je vytvořený speciálně pro ni. Je určen pro text
-opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC.}
+opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC. (Viz též níže.)}
+\markup{ "" }
 
 \score {
   \relative c'' {
@@ -41,11 +42,11 @@ opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC.}
     b\breve c4 b a-| a \parenthesize a \barFinalis
   }
   \header {
-    piece = "psalmodie (resp. Simeonovo kantikum)"
+    piece = "psalmodie (Simeonovo kantikum)"
   }
 }
 
-\markup\column {
+\markup\large\column {
 \line{
   Nyní můžeš, Pane, propustit svého \concat{služeb\underline{ní}ka} * 
 podle svého slova \concat{\underline{v po}koji,}
