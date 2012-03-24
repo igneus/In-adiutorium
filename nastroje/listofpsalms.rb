@@ -20,6 +20,7 @@ $lamed mem nun samech ajin pe sade res sin tau )
 $roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 
 $psalmname_re = /(?<num>\d+)(?<suff>\w*)/
+$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>[ivx]*)/
 
 
 # indentation level
@@ -107,15 +108,7 @@ def content(line)
         psalms << t[1]
       else
         # canticle
-        sigle = String.new(t[1])
-        if sigle[0] =~ /\d/ then
-          sigle[1] = sigle[1].capitalize
-          sigle.insert(1, " ")
-        else
-          sigle[0] = sigle[0].capitalize
-        end
-        i = sigle.index /\d$/
-        sigle.insert(i, " ")
+        sigle = canticle_name_pretty t[1]
         print "\\textRef{kant#{t[1]}}{#{sigle}}"
       end
       # for both psalms and canticles:
@@ -148,6 +141,34 @@ def psalm_name_pretty(p)
   end
 
   return pp[:num]+suff
+end
+ 
+def canticle_name_pretty(c)
+  cp = c.match $canticlename_re
+
+  book = cp[:bookcode]
+  book[0] = book[0].upcase
+  
+  sigle = book + ' ' + cp[:chapter]
+
+  if cp[:booknum] != '' then
+    sigle = cp[:booknum]+sigle
+  end
+
+  suff = cp[:suff]
+  if suff != "" then
+    # nothing
+    if $roman_numbers.member? suff
+      suff.upcase!
+      suff = '-'+suff
+    elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+      suff[0] = suff[0].upcase
+      suff = '-'+suff
+    end
+    sigle += '-'+suff
+  end
+
+  return sigle
 end
 
 
