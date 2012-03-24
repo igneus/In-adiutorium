@@ -17,6 +17,10 @@
 
 \input{spolecne.tex}
 
+% !!!! KE ZLOMU: 24.3.2012 jsem musel pri zlomu zasahovat i do automaticky
+% generovanych souboru (zalmy; dokonce i do textu jednoho kantika!).
+% Kniha tedy obsahuje nektere zlomove znacky, ale ne vsechny. !!!
+
 % v tomto svazecku se nadpis hodinky pouziva pouze v indexu
 % na konci knihy a tak je zadouci jiny vzhled -
 % predevsim zarovnani doleva
@@ -116,6 +120,7 @@
 \begin{hora}
 \labelZalm{95}
 \input{generovane/svatecnizaltar/zalm95.tex}
+\columnbreak % ZLOM1
 \labelZalm{100}
 \input{generovane/svatecnizaltar/zalm100.tex}
 \labelZalm{67}
@@ -179,6 +184,7 @@
 \begin{hora}
 \labelText{kantiz38}{Iz 38}
 \input{generovane/svatecnizaltar/kantikum_iz38.tex}
+\columnbreak % ZLOM3
 \labelText{kanthab3}{Hab 3}
 \input{generovane/svatecnizaltar/kantikum_hab3.tex}
 \end{hora}
@@ -190,6 +196,7 @@
 \begin{hora}
 \labelText{kantef1}{Ef 1}
 \input{generovane/svatecnizaltar/kantikum_ef1.tex}
+\columnbreak % ZLOM3
 \labelText{kantfp2}{Flp 2}
 \input{generovane/svatecnizaltar/kantikum_fp2.tex}
 \labelText{kantkol1}{Kol 1}
