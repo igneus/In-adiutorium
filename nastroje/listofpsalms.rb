@@ -152,7 +152,7 @@ def canticle_name_pretty(c)
   sigle = book + ' ' + cp[:chapter]
 
   if cp[:booknum] != '' then
-    sigle = cp[:booknum]+sigle
+    sigle = cp[:booknum]+' '+sigle
   end
 
   suff = cp[:suff]
