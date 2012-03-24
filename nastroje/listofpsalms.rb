@@ -14,6 +14,14 @@
 
 IUNIT = 2 # two spaces as indentation unit
 
+# patterns for sorting according to standard suffixes
+$hebrew_alphabet = %w( alef beth gimel dalet he vau zajin chet tet jod kaf
+$lamed mem nun samech ajin pe sade res sin tau )
+$roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
+
+$psalmname_re = /(?<num>\d+)(?<suff>\w*)/
+
+
 # indentation level
 def ilevel(line)
   if line =~ /^\s$/ then
@@ -94,10 +102,7 @@ def content(line)
         puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
       elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
         # psalm
-        prettyt = t[1]
-        if i = prettyt.index(/i+$/) then
-          prettyt = prettyt[0..i-1]+'-'+prettyt[i..-1].upcase
-        end
+        prettyt = psalm_name_pretty t[1]
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
         psalms << t[1]
       else
@@ -125,6 +130,24 @@ def content(line)
   end
   
   return psalms
+end
+
+# gets psalm code lik '15', '19a' or '119bet' und makes it to a pretty one
+def psalm_name_pretty(p)
+  pp = p.match($psalmname_re)
+  suff = pp[:suff]
+
+  if suff == "" then
+    # nothing
+  elsif $roman_numbers.member? suff
+    suff.upcase!
+    suff = '-'+suff
+  elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+    suff[0] = suff[0].upcase
+    suff = '-'+suff
+  end
+
+  return pp[:num]+suff
 end
 
 
@@ -190,17 +213,10 @@ File.open(file, 'r') do |fr|
   end
 end
 
-# patterns for sorting according to standard suffixes
-hebrew_alphabet = %w( alef beth gimel dalet he vau zajin chet tet jod kaf
-lamed mem nun samech ajin pe sade res sin tau )
-roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
-
-psalmname_re = /(?<num>\d+)(?<suff>\w*)/
-
 psalms.uniq!
 psalms.sort! {|x,y| 
-  mx = x.match(psalmname_re)
-  my = y.match(psalmname_re)
+  mx = x.match($psalmname_re)
+  my = y.match($psalmname_re)
 
   if mx[:num].to_i < my[:num].to_i then
     -1
@@ -211,11 +227,11 @@ psalms.sort! {|x,y|
     if mx[:suff] == my[:suff] then
       0
     elsif mx[:num] == '119' then # alef, beth, ...
-      hebrew_alphabet.index(mx[:suff]) <=> hebrew_alphabet.index(my[:suff])
+      $hebrew_alphabet.index(mx[:suff]) <=> $hebrew_alphabet.index(my[:suff])
     elsif mx[:suff] =~ /^[ivx]+$/ || 
         my[:suff] =~ /^[ivx]+$/ then # i, ii, iii, iv, ...
-      a = roman_numbers.index(mx[:suff])
-      b = roman_numbers.index(my[:suff])
+      a = $roman_numbers.index(mx[:suff])
+      b = $roman_numbers.index(my[:suff])
       # without suffix or unknown suffix:
       a = -1 if a == nil
       b = -1 if b == nil
@@ -233,19 +249,7 @@ end
 
 File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
   psalms.each do |p|
-    pp = p.match(psalmname_re)
-    suff = pp[:suff]
-    if suff == "" then
-      # nothing
-    elsif roman_numbers.member? suff
-      suff.upcase!
-      suff = '-'+suff
-    elsif hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
-      suff[0] = suff[0].upcase
-      suff = '-'+suff
-    end
-    pr = pp[:num]+suff
-
+    pr = psalm_name_pretty p
     fw.puts "\\labelText{z#{p}}{Žalm #{pr}}"
     fw.puts "\\input{generovane/svatecnizaltar/zalm#{p}.tex}"
     fw.puts
