@@ -190,8 +190,39 @@ File.open(file, 'r') do |fr|
   end
 end
 
+hebrew_alphabet = %w( alef beth gimel dalet he vau zajin chet tet jod kaf
+lamed mem nun samech ajin pe sade res sin tau )
+roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
+
 psalms.uniq!
-psalms.sort! {|x,y| x.to_i <=> y.to_i}
+psalms.sort! {|x,y| 
+  # x.to_i <=> y.to_i
+  psalmname_re = /(?<num>\d+)(?<suff>\w*)/
+  mx = x.match(psalmname_re)
+  my = y.match(psalmname_re)
+
+  if mx[:num].to_i < my[:num].to_i then
+    -1
+  elsif mx[:num].to_i > my[:num].to_i then
+    1
+  else
+    # parts of the same psalm
+    if mx[:suff] == my[:suff] then
+      0
+    elsif mx[:num] == '119' then # alef, beth, ...
+      hebrew_alphabet.index(mx[:suff]) <=> hebrew_alphabet.index(my[:suff])
+    elsif mx[:suff] =~ /^[ivx]+$/ || 
+        my[:suff] =~ /^[ivx]+$/ then # i, ii, iii, iv, ...
+      a = roman_numbers.index(mx[:suff])
+      b = roman_numbers.index(my[:suff])
+      a = -1 if a == nil
+      b = -1 if b == nil
+      a <=> b
+    else
+      mx[:suff] <=> my[:suff] # string comparison, not numeric comparison
+    end
+  end
+}
 
 File.open(dir+'/'+File.basename(file)+'.psalmsnums', 'w') do |fw|
   fw.puts psalms.join "\n"
