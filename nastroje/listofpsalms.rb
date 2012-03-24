@@ -196,7 +196,6 @@ roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 
 psalms.uniq!
 psalms.sort! {|x,y| 
-  # x.to_i <=> y.to_i
   psalmname_re = /(?<num>\d+)(?<suff>\w*)/
   mx = x.match(psalmname_re)
   my = y.match(psalmname_re)
@@ -215,8 +214,10 @@ psalms.sort! {|x,y|
         my[:suff] =~ /^[ivx]+$/ then # i, ii, iii, iv, ...
       a = roman_numbers.index(mx[:suff])
       b = roman_numbers.index(my[:suff])
+      # without suffix or unknown suffix:
       a = -1 if a == nil
       b = -1 if b == nil
+
       a <=> b
     else
       mx[:suff] <=> my[:suff] # string comparison, not numeric comparison
