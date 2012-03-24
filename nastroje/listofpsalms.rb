@@ -190,13 +190,15 @@ File.open(file, 'r') do |fr|
   end
 end
 
+# patterns for sorting according to standard suffixes
 hebrew_alphabet = %w( alef beth gimel dalet he vau zajin chet tet jod kaf
 lamed mem nun samech ajin pe sade res sin tau )
 roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 
+psalmname_re = /(?<num>\d+)(?<suff>\w*)/
+
 psalms.uniq!
 psalms.sort! {|x,y| 
-  psalmname_re = /(?<num>\d+)(?<suff>\w*)/
   mx = x.match(psalmname_re)
   my = y.match(psalmname_re)
 
@@ -231,7 +233,20 @@ end
 
 File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
   psalms.each do |p|
-    fw.puts "\\labelZalm{#{p}}"
+    pp = p.match(psalmname_re)
+    suff = pp[:suff]
+    if suff == "" then
+      # nothing
+    elsif roman_numbers.member? suff
+      suff.upcase!
+      suff = '-'+suff
+    elsif hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+      suff[0] = suff[0].upcase
+      suff = '-'+suff
+    end
+    pr = pp[:num]+suff
+
+    fw.puts "\\labelText{z#{p}}{Žalm #{pr}}"
     fw.puts "\\input{generovane/svatecnizaltar/zalm#{p}.tex}"
     fw.puts
   end

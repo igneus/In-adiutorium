@@ -283,7 +283,7 @@ svatzalt_kantika = []
 end
 svatzalt_kantika << genzalm("kantikum_dan3i.zalm", dan3ioptions, svatzalt_adresar)
 
-file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt'] do
+file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{svatzalt_adresar} svatecnizaltar_index.txt"
 end
 
