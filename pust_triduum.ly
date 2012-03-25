@@ -396,26 +396,28 @@
   }
 }
 
-% Opravdu oskliva melodie. Protoze text je osklivy,
-% hudbe se vzpouzi.
-% Svrchovane predelanihodna.
+\markup\tiny{Text následující antifony je oproti tomu,
+který je v breviáři, zkrácený - nepřišel jsem na to, jak
+jinak zachránit její zpívatelnost.}
+
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c b c( d) d c b a( g) g \barMin
-    a( g) f g g g( a g) g \barMaior
-    a( c) c \barMin c c c c c b a b a a g g \barFinalis
+    d4 d d c( d) d e( d c) d( c) c( a) a \barMaior
+    a( g) a a( c) b a a \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
-    smr -- tí je -- ho Sy -- na
-    v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
+    smr -- tí je -- ho Sy -- na.
+    % v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
+    %% Vedome a dobrovolne menim text antifony, aby se dala zpivat.
+    %% Viz dokumentace.
   }
   \header {
     quid = "ant. k Magnificat"
     quidbreve = "ant."
-    modus = "VIII"
-    differentia = "G*" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = ""
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
