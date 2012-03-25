@@ -506,6 +506,8 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -524,6 +526,30 @@ je "\"skororepetice\"" melodie 2 v 4.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 f f e f d4. d \barMaior
+    d4 c d e( f) f g f e f d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    ať se mi sta -- ne po -- dle tvé -- ho slo -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 127"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
