@@ -5,7 +5,7 @@
   composer = "Jakub Pavlík"
 }
 
-\include "spolecne.ly"
+\include "../spolecne.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -19,11 +19,11 @@
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
-    ra -- duj -- te se, pro -- to -- že kra -- lu -- je s_kris -- tem na -- vě -- ky.
+    ra -- duj -- te se, pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
   }
   \header {
     quid = "ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
@@ -46,7 +46,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "c" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
@@ -71,7 +71,7 @@
   }
   \header {
     quid = "ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G*" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
