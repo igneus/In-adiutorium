@@ -13,13 +13,14 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 c( d) e( f) g( f d) d \breathe d d e( a) a bes( c) bes( a g) g \bar "|"
-    f4 g a( bes) a \breathe \bar "" a a a bes c bes a( g f) g \breathe \bar ""
-    f( d) c d \bar "||"
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    a( bes) a g( a) a \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
-    ra -- duj -- te se, pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
   }
   \header {
     quid = "ant."
@@ -58,15 +59,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f a( c) c \breathe b c a a g( f) g4. \bar "|"
-    a4 b c c d( e) d( c) c \breathe \bar ""
-    b c a g( f) g \breathe \bar "" a a a a b( c a g) g4. \breathe \bar ""
-    f4 a g( f) g4. \bar "||"
+    a4 a a g f g( a) a \barMin 
+    b c d c b( c) a4.( g) \barMax
+    a4 b c c d( c) d d4.( c) \barMin
+    c4 b g a( g) g \barMaior
+    g f e f g( a g) g \barMax
+    g g( a) g4. g \barFinalis
   }
   \addlyrics {
-    Bu -- dou mě bla -- ho -- sla -- vit vše -- chna po -- ko -- le -- ní,
-    pro -- to -- že mi u -- či -- nil ve -- li -- ké vě -- ci ten,
-    kte -- rý je moc -- ný.
+    Bu -- dou mě bla -- ho -- sla -- vit 
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil 
+    ve -- li -- ké vě -- ci 
+    ten, kte -- rý je moc -- ný.
     A -- le -- lu -- ja.
   }
   \header {
