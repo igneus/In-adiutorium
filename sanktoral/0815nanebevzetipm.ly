@@ -26,9 +26,146 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek \italic{--- master do 25.3.2012}}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    a( bes a) g( f) f( g) g \barMin 
+    g f e g a a f( e) e \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem 
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    a( bes a) \mark\sipka g( bes) a( g) g \barMin 
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem 
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    \mark\sipka a g( f) f( g) g \barMin 
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem 
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    \mark\sipka a bes a a \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \zvyraznovacModry
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    \mark\sipka a( bes) a g( a) a \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    \mark\sipka a( g) bes a( g) g \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se, 
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -53,7 +190,11 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\markup\nadpisSkupiny{1}
 
 \score {
   \relative c'' {
@@ -73,6 +214,92 @@
     quid = "ant."
     modus = "VIII"
     differentia = "G*" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek \italic{--- master do 25.3.2012}}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMin 
+    b c d c b( c) a( g) \barMax
+    a4 b c c d( c) d d( c) \barMin
+    c a g a( g) g \barMin 
+    g f e f g( a g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou mě bla -- ho -- sla -- vit 
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil 
+    ve -- li -- ké vě -- ci ten,
+    kte -- rý je moc -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin 
+    b c d c b( c) a4.( g) \barMax
+    a4 b c c d( c) d d4.( c) \barMin
+    c4 \mark\sipka b g a( g) g \barMaior
+    g f e f g( a g) g \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou mě bla -- ho -- sla -- vit 
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil 
+    ve -- li -- ké vě -- ci ten,
+    kte -- rý je moc -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{1-III}
+
+\markup{Odvozený od předchozích, ale spadne do modu III.}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMin 
+    b c d c b( c) a( g) \barMax
+    a4 b c c d( c) d d( c) \barMin
+    \mark\sipka c( b) a b g( e) e \barMin 
+    d e f g d e \barMax
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou mě bla -- ho -- sla -- vit 
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil 
+    ve -- li -- ké vě -- ci ten,
+    kte -- rý je moc -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
   }
