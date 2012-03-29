@@ -234,3 +234,17 @@
     }
   }
 }
+
+\bookpart {
+  \header {
+    subtitle = "Čtyřtýdenní cyklus feriálních antifon"
+  }
+  
+  \markup {\nadpisDen {1. TÝDEN}}
+  
+  \markup {\nadpisDen {2. TÝDEN}}
+  \include "antifony/velikonoce_tyden2_2pondeli.ly"
+  
+  \markup {\nadpisDen {3. TÝDEN}}
+  \markup {\nadpisDen {4. TÝDEN}}
+}
