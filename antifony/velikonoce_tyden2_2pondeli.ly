@@ -12,7 +12,7 @@
     e f d( c) d \barFinalis
   }
   \addlyrics {
-    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,
+    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
     tak prah -- ne du -- še má po to -- bě, Bo -- že.
     A -- le -- lu -- ja.
   }
@@ -35,7 +35,7 @@
     e( a) g f( g f) e \barFinalis
   }
   \addlyrics {
-    Bo -- že, dej, ať po -- zná -- me tvé skut -- ky
+    Bo -- že, dej,_* ať po -- zná -- me tvé skut -- ky
     a vy -- pra -- vu -- je -- me
     o tvých po -- di -- vu -- hod -- ných či -- nech.
     A -- le -- lu -- ja.
@@ -58,7 +58,7 @@
     c4 d( e) d d \barFinalis
   }
   \addlyrics {
-    Bo -- ží ve -- leb -- nost
+    Bo -- ží ve -- leb -- nost_*
     o -- za -- řu -- je sva -- té měs -- to
     a je -- ho svět -- lem je Be -- rá -- nek.
     A -- le -- lu -- ja.
@@ -85,7 +85,7 @@
     f4 e c( d) d \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- ný, jenž při -- chá -- zí
+    Po -- žeh -- na -- ný,_* jenž při -- chá -- zí
     ve jmé -- nu Pá -- ně!
     A -- le -- lu -- ja.
   }
@@ -108,7 +108,7 @@
     d e( f) e( d) d \barFinalis
   }
   \addlyrics {
-    Bla -- ze těm,
+    Bla -- ze těm,_*
     kdo jsou po -- zvá -- ni
     k_Be -- rán -- ko -- vě sva -- teb -- ní hos -- ti -- ně.
     A -- le -- lu -- ja.
@@ -131,7 +131,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Všich -- ni jsme dos -- ta -- li z_je -- ho pl -- nos -- ti,
+    Všich -- ni jsme dos -- ta -- li_* z_je -- ho pl -- nos -- ti,
     a to mi -- lost za mi -- los -- tí.
     A -- le -- lu -- ja.
   }

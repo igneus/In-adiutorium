@@ -77,7 +77,7 @@
       g( a) a g4. g \barFinalis
     }
     \addlyrics {
-      A -- le -- lu -- ja,
+      A -- le -- lu -- ja,_*
       a -- le -- lu -- ja,
       a -- le -- lu -- ja.
     }
@@ -110,7 +110,7 @@
       a4 g( f) e( f e) e \barFinalis
     }
     \addlyrics {
-      Je -- žíš sta -- nul me -- zi svý -- mi u -- čed -- ní -- ky
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
       a ře -- kl jim:
       Po -- koj vám!
       A -- le -- lu -- ja!
@@ -137,8 +137,8 @@
       g a( g) f( g) g \barFinalis
     }
     \addlyrics {
-      Po -- dí -- vej -- te 
-      se na mé ru -- ce a na mé no -- hy:
+      Po -- dí -- vej -- te se_* 
+      na mé ru -- ce a na mé no -- hy:
       vždyť jsem to já!
       Do -- tkně -- te se mě 
       a pře -- svěd -- čte se.
