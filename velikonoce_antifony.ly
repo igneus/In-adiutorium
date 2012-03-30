@@ -247,5 +247,7 @@
   \include "antifony/velikonoce_tyden2_6patek.ly"
   
   \markup {\nadpisDen {3. TÝDEN}}
+  \include "antifony/velikonoce_tyden3_2pondeli.ly"
+  
   \markup {\nadpisDen {4. TÝDEN}}
 }
