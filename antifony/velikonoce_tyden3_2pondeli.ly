@@ -5,9 +5,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 c c b a b( g) g \barMin
+    a( g) f g a( c) c \barMin c( d) c( a) b g g \barMaior
+    g f( a) a( g) g \barFinalis
   }
   \addlyrics {
     Mé srd -- ce i mé tě -- lo
@@ -16,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Žalm 84"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -27,7 +29,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4( f g) a( c) b a b4. g \barMin a4( g a) a( c) b g a \barMax
+    a b c c d( c b c) a( g) \barMin g( f e) d d e e \barMaior
+    e e( f) e e \barFinalis
   }
   \addlyrics {
     Do vý -- še se zdví -- há Hos -- po -- di -- nův dům,
@@ -36,18 +40,24 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "g" 
     psalmus = "Iz 2"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
+% Neni snadna - zacatek na d ani bes prechod mezi
+% antifonou a zalmem neusnadnuji - ale libi se mi.
+
 \score {
   \relative c' {
     \choralniRezim
-    
+    \key f \major
+    d4( g) g g a bes a g g \barMaior
+    c bes a bes g f \barMin
+    d f f( a) g \barFinalis
   }
   \addlyrics {
     Hlá -- sej -- te me -- zi po -- ha -- ny:
@@ -56,8 +66,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 96"
     id = ""
     piece = \markup {\sestavTitulek}
