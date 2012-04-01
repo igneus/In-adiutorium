@@ -7,6 +7,7 @@
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
+\usepackage{zref-savepos} % potreba pro znacky na okraji
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
@@ -59,14 +60,40 @@
   nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
-\newcommand{\zalmVersUpozorneni}{ \marginnote{\textup{\textbf{!}}} }
+% Macro written for me by Yiannis Lazarides
+% http://tex.stackexchange.com/questions/50216/margin-notes-in-a-multicolumn-environment
+% uses package zref-savepos
+%
+% Arguments: 
+% #1 unique label identifier
+% #2 text
+%
+% In the two-columned setup it puts given text besides the column
+% where the macro is called
+%
+% Numbers which depend on the page's geometry:
+% 14107934 is the width of the first column (in sp)
+% 1.4cm and 4.2cm are values one has to find by trying
+\def\putmarginpar#1#2{%
+  \zsavepos{#1}%
+  \ifnum14107934>\number\zposx{#1}%
+     \hbox to 0pt{\hskip\dimexpr-\zposx{#1}sp +1.4cm \relax#2}%
+  \else
+     \hbox to 0pt{\hskip4.2cm #2}%
+  \fi%
+}
 
-% Poznamky k netypickym versum zalmu:
-% * První poloverš je příliš krátký pro mediaci většiny modů.
-% * Druhý poloverš je příliš krátký pro kterýkoli nápěv kromě IV.g.
-% * První poloverš je příliš krátký pro všechny nápěvy.
+% Places a warning symbol (bold exclamation mark) next to the
+% psalm verse. Two-columned layout is expected.
+\newcommand{\zalmVersUpozorneni}{
+  \stepcounter{zalmVersUpozorneni}
+  \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\textup{\textbf{!}}}
+}
 
 \begin{document}
+
+\newcounter{zalmVersUpozorneni}
+\setcounter{zalmVersUpozorneni}{1}
 
 \pagestyle{empty}
 
@@ -76,7 +103,12 @@ Poznámka: Za posledním veršem každého žalmu je \uv{verš} u\-po\-zor\-ňu\
 že se má přidat doxologie. V liturgických obdobích, kdy se žalmy modlitby uprostřed
 dne zpívají s jedinou antifonou, je však možné (a snad dokonce žádoucí)
 tam, kde je hodinka složena z částí
-rozděleného žalmu, doxologii vynechat a žalm zpívat v celku.
+rozděleného žalmu, doxologii vynechat a žalm zpívat v celku.\\
+
+Některé verše několika žalmů a kantik jsou příliš krátké a na některé,
+příp. na žádný modus se nedají normálně zazpívat a je proto potřeba
+předem jim věnovat trochu pozornosti a určit způsob přednesu.
+Na okraji stránky vedle takového verše je vždy upozorňující vykřičník.
 
 \newpage
 
