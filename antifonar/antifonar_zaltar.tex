@@ -7,7 +7,11 @@
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
+
 \usepackage{zref-savepos} % potreba pro znacky na okraji
+\usepackage{ifthen}
+\usepackage{changepage}
+
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
@@ -74,12 +78,34 @@
 % Numbers which depend on the page's geometry:
 % 14107934 is the width of the first column (in sp)
 % 1.4cm and 4.2cm are values one has to find by trying
+
+\def\pulstranky{13773045}%sp; vypocteno; pul stranky A5
+\def\vzdalenostZnackyOdTextu{0.5}%cm
+
+% argument: label ulozene pozice. Vrati hodnotu pro \hskip na levy okr. stranky
+\def\kLevemuOkraji#1{%
+  -\zposx{#1}%
+}
+
 \def\putmarginpar#1#2{%
   \zsavepos{#1}%
-  \ifnum14107934>\number\zposx{#1}%
-     \hbox to 0pt{\hskip\dimexpr-\zposx{#1}sp +1.4cm \relax#2}%
+  \checkoddpage
+  \ifnum\pulstranky>\number\zposx{#1}%
+    % tady je dimen100 levy okraj stranek
+    \ifoddpage% liche - siroky
+      \dimen100=2.0cm%
+    \else%
+      \dimen100=1.5cm%
+    \fi%
+    \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp + \dimen100 - \vzdalenostZnackyOdTextu cm \relax#2}%
   \else
-     \hbox to 0pt{\hskip4.2cm #2}%
+    % tady je dimen100 pravy okraj stranek
+    \ifoddpage% liche - uzky
+      \dimen100=1.5cm%
+    \else%
+      \dimen100=2cm%
+    \fi%
+     \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp +\pulstranky sp * 2 - \dimen100 + \vzdalenostZnackyOdTextu cm \relax#2}%
   \fi%
 }
 
@@ -91,6 +117,8 @@
 }
 
 \begin{document}
+
+\strictpagecheck % pro makra tvorici vystrazne znacky
 
 \newcounter{zalmVersUpozorneni}
 \setcounter{zalmVersUpozorneni}{1}
