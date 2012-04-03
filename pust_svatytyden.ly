@@ -131,6 +131,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -159,6 +161,83 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f g a f g \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f g bes c d \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f bes a c d \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
   \markup {\nadpisHodinka {"nešpory"}}
 
