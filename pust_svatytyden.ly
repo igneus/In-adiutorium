@@ -298,7 +298,7 @@
     differentia = "D" 
     psalmus = ""
     id = "odpo"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulekBezZalmu \sans\italic{ -- Je to víc modus I nebo II?}}
   }
 }
 
