@@ -60,7 +60,7 @@
       \neviditelna a
       e f f f g f e( d) e \barFinalis
       % Slava
-      a a a( b) a a g( a) a \barMin a g f f( d) e4. e \barFinalis
+      a a a a a g( a) a \barMin a g f f( d) e4. e \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
@@ -177,7 +177,7 @@
       \neviditelna a
       a4 g a bes!( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
       % Slava
-      a'4 a a g f g( a) a \barMin a bes a g( bes) a4. a \barFinalis
+      a'4 a a g f g( a) a \barMin a g a a( bes) a4. a \barFinalis
     }
     \addlyrics {
       \Response Kla -- ní -- me se ti, Pa -- ne Je -- ží -- ši Kris -- te,_*
@@ -496,7 +496,7 @@
       f4 g g g f( d) d \barMaior
       g( a) a a( bes) a a \barMin
       a a bes a g a( d,) d \barMaior
-      d e f e c c( d) d \barFinalis
+      d e f e c d d \barFinalis
     }
     \addlyrics {
       Spra -- ved -- li -- vý Ot -- če,
