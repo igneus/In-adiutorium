@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-task :all => [:kompletar, :zaltar, :cteni, :festzaltar, :nedele]
+task :all => [:kompletar, :zaltar, :cteni, :festzaltar, :nedele, :triduum]
 task :default => [:all]
 
 RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
