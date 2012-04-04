@@ -135,7 +135,122 @@
   }
 }
 
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se
+    je -- di -- né -- mu pra -- vé -- mu Bo -- hu
+    ve třech o -- so -- bách!
+  }
+  \header {
+    quid = "ant."
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    To -- bě pat -- ří čest a chvá -- la,
+    tvá je všech -- na moc a slá -- va,
+    nej -- svě -- těj -- ší Tro -- ji -- ce!
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 63"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Te -- be chvá -- lí,
+    to -- bě se kla -- ní,
+    te -- be o -- sla -- vu -- je
+    
+    všech -- no, co jsi stvo -- řil,
+    troj -- je -- di -- ný Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Dan 3-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response Chvá -- lí -- me tě, tro -- je -- di -- ný Bo -- že,_*
+    a o -- sla -- vu -- je -- me tě.
+    \Verse Vzdá -- vá -- me ti dí -- ky_*
+    \Response a o -- sla -- vu -- je -- me tě.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
 
 \score {
   \relative c'' {
@@ -162,7 +277,132 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Te -- be pro -- sí -- me,
+    te -- be chvá -- lí -- me,
+    to -- bě se kla -- ní -- me,
+    slav -- ná sva -- tá Tro -- ji -- ce!
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Tys na -- še na -- dě -- je,
+    tys na -- še spá -- sa i slá -- va,
+    nej -- svě -- těj -- ší Tro -- ji -- ce!
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vě -- ří -- me a vy -- zná -- vá -- me,
+    že od věč -- nos -- ti všech -- no tvo -- říš,
+    vše -- mu dá -- váš ži -- vot
+    a všech -- no moud -- ře ří -- díš,
+    sva -- tá Bo -- ží Tro -- ji -- ce.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Kla -- ní -- me se ti,
+    je -- di -- né pra -- vé a věč -- né bož -- ství
+    ve třech o -- so -- bách:
+    Ot -- če i Sy -- nu i Du -- chu sva -- tý.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás, za -- chraň nás
+    a dej nám věč -- ný ži -- vot,
+    troj -- je -- di -- ný Bo -- že!
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 114"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- tý, sva -- tý, sva -- tý je Pán,
+    vše -- mo -- hou -- cí Bůh,
+    kte -- rý byl, kte -- rý je a kte -- rý při -- jde.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Zj 19"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \markup\italic{Responsorium jako v prvních nešporách.}
 
