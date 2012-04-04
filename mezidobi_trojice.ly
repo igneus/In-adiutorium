@@ -138,9 +138,11 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g( d') d e( d) c( d) d \barMaior
+    d( c) b d d d( e) c c c( d) d \barMaior
+    d( c) b a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se
@@ -149,8 +151,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -223,19 +225,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
     \neviditelna a
-    
+    a g g( a) a \barMin b( c) d( e) d c c( d) d \barMax
+    c4 d c b a g a \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna d
+    d4( c d) d( e) d c d4. d \barMax
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    c4 d c b a g a \barFinalis
     % Slava
+    d4( c d4.) d \barMin e4 d e c( a) a \barMin a b c c( d) d4. d \barFinalis
   }
   \addlyrics {
     \Response Chvá -- lí -- me tě, tro -- je -- di -- ný Bo -- že,_*
@@ -246,7 +250,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "IV alt."
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
