@@ -204,7 +204,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex']+zalmyzaltare do
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
@@ -262,7 +262,7 @@ cislazalmu_cteni.each do |z|
   zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
 end
 
-file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex']+zalmy_cteni do
+file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do
   2.times { 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
   }
@@ -304,7 +304,7 @@ task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums']
   end
 end
 
-file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
+file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', 'znacky.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
   2.times { sh "pdflatex -shell-escape -output-directory=vystup antifonar_svatecnizaltar" }
 end
 
