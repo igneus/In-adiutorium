@@ -11,7 +11,7 @@
 \usepackage{zref-savepos} % potreba pro znacky na okraji
 \usepackage{changepage}
 
-\usepackage[explicit]{titlesec}
+\usepackage{titlesec}
 
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
@@ -73,7 +73,7 @@
   #2, str. \pageref{#1}}
 
 % no section numbers
-\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}
 \renewcommand{\thesubsubsection}{}
 
 \begin{document}
@@ -99,8 +99,8 @@ Na okraji stránky vedle takového verše je vždy upozorňující vykřičník.
 
 % s pomoci baliku titlesec zmenit format nadpisu uzivanych generatorem
 % indexu svatku
-\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{#1}
-\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{#1}
+\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
+\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
 
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage}
@@ -287,7 +287,7 @@ jako žalm invitatoria.}}
 \begin{hora}
 \input{generovane/zaltar/zalm57.tex}
 \input{generovane/zaltar/kantikum_jer31.tex}
-\label{z}
+\label{z48}
 \input{generovane/zaltar/zalm48.tex}
 \end{hora}
 
