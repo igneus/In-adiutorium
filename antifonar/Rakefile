@@ -203,8 +203,11 @@ zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
+file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
+  sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
+end
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex']+zalmyzaltare do
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
@@ -241,35 +244,6 @@ task :zaltar_texclean do
     end
   }
 end
-
-###############
-# sv. 3: zaltar k modlitbe se ctenim
-
-zalmy_cteni = []
-
-adresar_cteni = 'generovane/ctenizaltar/'
-
-cislazalmu_cteni = %w(
-                                      1 2 3
-                                      6 9i 9ii
-                                      10i 10ii 12
-                                      18i 18ii 18iii
-                                      18iv 18v 18vi
-                                      35i 35ii 35iii
-                                      )
-                                      
-cislazalmu_cteni.each do |z|
-  zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
-end
-
-file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do
-  2.times { 
-    sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
-  }
-end
-
-desc "Psalter for the reading-office."
-task :cteni => ['antifonar_ctenizaltar.pdf']
 
 ###############
 # sv. 5: zaltar pro slavnosti a svatky
@@ -310,6 +284,35 @@ end
 
 desc "Festal psalter"
 task :festzaltar => ['antifonar_svatecnizaltar.pdf']
+
+###############
+# sv. 3: zaltar k modlitbe se ctenim
+
+zalmy_cteni = []
+
+adresar_cteni = 'generovane/ctenizaltar/'
+
+cislazalmu_cteni = %w(
+                                      1 2 3
+                                      6 9i 9ii
+                                      10i 10ii 12
+                                      18i 18ii 18iii
+                                      18iv 18v 18vi
+                                      35i 35ii 35iii
+                                      )
+                                      
+cislazalmu_cteni.each do |z|
+  zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
+end
+
+file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do
+  2.times { 
+    sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
+  }
+end
+
+desc "Psalter for the reading-office."
+task :cteni => ['antifonar_ctenizaltar.pdf']
 
 ###############
 # sv. 0: uvod

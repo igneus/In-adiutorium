@@ -143,6 +143,12 @@
   \end{center}
 }
 
+% nadpis hodinky uzivany v indexu svatku svatecniho zaltare
+\newcommand{\nadpisHodinkaVIndexu}[1]{
+  \noindent\textbf{#1}:
+  \newline
+}
+
 \newcommand{\modlitbaSeCtenim}{
   \nadpisHodinka{Modlitba se čtením}
 }
@@ -170,6 +176,36 @@
 \newcommand{\kompletar}{
   \nadpisHodinka{Kompletář}
 }
+
+% Varianty tech samych prikazu pro index svatku:
+\newcommand{\idxModlitbaSeCtenim}{
+  \nadpisHodinkaVIndexu{Modlitba se čtením}
+}
+
+\newcommand{\idxRanniChvaly}{
+  \nadpisHodinkaVIndexu{Ranní chvály}
+}
+
+\newcommand{\idxModlitbaUprostredDne}{
+  \nadpisHodinkaVIndexu{Modlitba uprostřed dne}
+}
+
+\newcommand{\idxNespory}{
+  \nadpisHodinkaVIndexu{Nešpory}
+}
+
+\newcommand{\idxNesporyI}{
+  \nadpisHodinkaVIndexu{První nešpory}
+}
+
+\newcommand{\idxNesporyII}{
+  \nadpisHodinkaVIndexu{Druhé nešpory}
+}
+
+\newcommand{\idxKompletar}{
+  \nadpisHodinkaVIndexu{Kompletář}
+}
+
 
 % Cilem je, aby tento nadpis nad sebou nemel tolik mista
 % a tak umoznoval "prilepeni" predchazejici rubriky.

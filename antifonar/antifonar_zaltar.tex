@@ -64,6 +64,24 @@
   nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
+% Vytvori pro text (zalm/kantikum) label a polozku v obsahu
+% label, citelny nazev
+\newcommand{\labelText}[2]{
+  \label{#1}
+  \addcontentsline{toc}{subsection}{#2}
+}
+
+% Staci jediny argument - cislo zalmu
+\newcommand{\labelZalm}[1]{
+  \labelText{z#1}{Žalm #1}
+  }
+
+\newcommand{\zalmRef}[1]{
+  Žalm #1, str. \pageref{z#1}}
+
+\newcommand{\textRef}[2]{
+  #2, str. \pageref{#1}}
+
 \begin{document}
 
 \pagestyle{empty}
@@ -862,6 +880,13 @@ jako žalm invitatoria.}}
 \input{generovane/zaltar/zalm127.tex}
 \input{generovane/zaltar/zalm128.tex}
 \end{hora}
+
+\clearpage
+\section{Index svátků}
+\fancyhead[CE,CO]{Index svátků}
+
+% generovany soubor
+\input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky

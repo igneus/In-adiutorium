@@ -50,15 +50,15 @@ def hour_title(line)
   puts
   puts case t
           when "1. nešpory"
-            "\\nesporyI"
+            "\\idxNesporyI"
           when "ranní chvály"
-            "\\ranniChvaly"
+            "\\idxRanniChvaly"
           when "modlitba uprostřed dne"
-            "\\modlitbaUprostredDne"
+            "\\idxModlitbaUprostredDne"
           when "2. nešpory"
-            "\\nesporyII"
+            "\\idxNesporyII"
           when "nešpory"
-            "\\nespory"
+            "\\idxNespory"
           else
             raise "Unknown hour type '#{t}'"
           end
