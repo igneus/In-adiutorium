@@ -7,9 +7,14 @@
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
+
+\usepackage{zref-savepos} % potreba pro znacky na okraji
+\usepackage{changepage}
+
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
+\usepackage{marginnote}
 
 \usepackage[T1]{fontenc}
 % font Palatino:
@@ -21,6 +26,7 @@
 
 
 \input{spolecne.tex}
+\input{znacky.tex}
 
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -58,11 +64,6 @@
   nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
-% Poznamky k netypickym versum zalmu:
-% * První poloverš je příliš krátký pro mediaci většiny modů.
-% * Druhý poloverš je příliš krátký pro kterýkoli nápěv kromě IV.g.
-% * První poloverš je příliš krátký pro všechny nápěvy.
-
 \begin{document}
 
 \pagestyle{empty}
@@ -73,7 +74,12 @@ Poznámka: Za posledním veršem každého žalmu je \uv{verš} u\-po\-zor\-ňu\
 že se má přidat doxologie. V liturgických obdobích, kdy se žalmy modlitby uprostřed
 dne zpívají s jedinou antifonou, je však možné (a snad dokonce žádoucí)
 tam, kde je hodinka složena z částí
-rozděleného žalmu, doxologii vynechat a žalm zpívat v celku.
+rozděleného žalmu, doxologii vynechat a žalm zpívat v celku.\\
+
+Některé verše několika žalmů a kantik jsou příliš krátké a na některé,
+příp. na žádný modus se nedají normálně zazpívat a je proto potřeba
+předem jim věnovat trochu pozornosti a určit způsob přednesu.
+Na okraji stránky vedle takového verše je vždy upozorňující vykřičník.
 
 \newpage
 
