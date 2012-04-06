@@ -11,6 +11,8 @@
 \usepackage{zref-savepos} % potreba pro znacky na okraji
 \usepackage{changepage}
 
+\usepackage[explicit]{titlesec}
+
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
@@ -64,28 +66,19 @@
   nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
-% Vytvori pro text (zalm/kantikum) label a polozku v obsahu
-% label, citelny nazev
-\newcommand{\labelText}[2]{
-  \label{#1}
-  \addcontentsline{toc}{subsection}{#2}
-}
-
-% Staci jediny argument - cislo zalmu
-\newcommand{\labelZalm}[1]{
-  \labelText{z#1}{Žalm #1}
-  }
-
 \newcommand{\zalmRef}[1]{
   Žalm #1, str. \pageref{z#1}}
 
 \newcommand{\textRef}[2]{
   #2, str. \pageref{#1}}
 
+% no section numbers
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{}
+
 \begin{document}
 
 \pagestyle{empty}
-
 \titulniStrankaSvazkuAntifonare
 
 Poznámka: Za posledním veršem každého žalmu je \uv{verš} u\-po\-zor\-ňu\-jí\-cí,
@@ -98,12 +91,16 @@ Některé verše několika žalmů a kantik jsou příliš krátké a na někter
 příp. na žádný modus se nedají normálně zazpívat a je proto potřeba
 předem jim věnovat trochu pozornosti a určit způsob přednesu.
 Na okraji stránky vedle takového verše je vždy upozorňující vykřičník.
-
 \newpage
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
 \setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+% s pomoci baliku titlesec zmenit format nadpisu uzivanych generatorem
+% indexu svatku
+\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{#1}
+\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{#1}
 
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage}
@@ -954,8 +951,8 @@ jako žalm invitatoria.}}
 \nadpisTyden{Sváteční žalmy}{Sváteční žalmy}
 \fancyhead[CE,CO]{Sváteční žalmy}
 
-Následující žalmy a kantika se nevyskytují v cyklu žaltáře
-a používají se pouze o některých slavnostech a svátcích.
+\rubrika{Následující žalmy a kantika se nevyskytují v cyklu žaltáře
+a používají se pouze o některých slavnostech a svátcích.}
 
 \begin{hora}
 \label{z30i}
@@ -972,7 +969,7 @@ a používají se pouze o některých slavnostech a svátcích.
 \end{hora}
 
 \clearpage
-\section{Index svátků}
+\nadpisTyden{Index svátků}{Index svátků}
 \fancyhead[CE,CO]{Index svátků}
 
 % generovany soubor
