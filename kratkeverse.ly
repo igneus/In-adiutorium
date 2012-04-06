@@ -6,6 +6,13 @@
 
 \include "spolecne.ly"
 
+#(define-markup-command (kapitola layout props obsah)(markup?)
+   "Nadpis kapitoly"
+   (interpret-markup layout props
+		     (markup #:bold
+			     #:huge
+                             #:caps obsah)))
+
 #(define-markup-command (sekce layout props obsah)(markup?)
    "Nadpis sekce"
    (interpret-markup layout props
@@ -13,7 +20,7 @@
 			     #:large obsah)))
 
 #(define-markup-command (subsekce layout props obsah)(markup?)
-   "Nadpis sekce"
+   "Nadpis subsekce"
    (interpret-markup layout props
 		     (markup #:bold #:italic obsah)))
 
@@ -25,6 +32,15 @@ Nabízí možnosti, jak zpívat verše žalmů a kantik,
 které jsou příliš krátké než aby se daly normálně zazpívat
 na chorální žalmový nápěv předepsaný u antifony.
 }
+
+\markup\justify{
+Pro kantika Benedictus a Magnificat jsou řešení problémů
+rozepsána jmenovitě, pro ostatní žalmy a kantika
+je níže přehledná typologie problémů a návrhy jejich řešení
+s typickými příklady.
+}
+  
+\markup\kapitola{1. Benedictus a Magnificat}
 
 \markup\sekce{kantikum Benedictus - "\"že nám dopřeje\""}
 
@@ -324,3 +340,6 @@ V latinském textu Magnificat je totiž tento problém také.
     id = "magnificat_IV"
   }
 }
+
+}
+
