@@ -94,7 +94,7 @@ def content(line)
     t[1].strip!
     
     if ti == 0 || (tokens[ti][0] != :txt && tokens[ti-1][0] != :txt) then
-      print "\\indent "
+      # print "\\indent "
     end
     
     case t[0]
@@ -113,7 +113,8 @@ def content(line)
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
-        puts ";\\\\"
+        puts " \\textbf{|} "
+        # puts ";\\\\"
       else
         puts
       end
