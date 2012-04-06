@@ -93,7 +93,7 @@ def content(line)
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
-    if ti == 0 || tokens[ti-1][0] != :txt then
+    if ti == 0 || (tokens[ti][0] != :txt && tokens[ti-1][0] != :txt) then
       print "\\indent "
     end
     
