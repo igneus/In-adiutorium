@@ -74,11 +74,11 @@
 %      jednoakcentove s delsi pripravou take
 
 \def\txtZnacka{\textup{\textbf{!}}} % symbol vkladany jako upozorneni
-\newcommand{\zalmVersUpozorneni}[1]{
-  \stepcounter{zalmVersUpozorneni}
-  \ifnumequal{#1}{3}{
-    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka\txtZnacka}}
-  }{ % else
-    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka}}
-  } 
+\newcommand{\zalmVersUpozorneni}[1]{%
+  \stepcounter{zalmVersUpozorneni}%
+  \ifnumequal{#1}{3}{%
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka\txtZnacka}}%
+  }{% else
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka}}%
+  }%
 }
