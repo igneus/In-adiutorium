@@ -1,8 +1,5 @@
 # Antiphonal for the liturgy of hours #
 
-* This branch is an attempt to integrate the festal psalter
-in the regular psalter, so that the festal psalter is never more needed. *
-
 To be able to compile the volumes of the Antiphonal,
 you need:
 
