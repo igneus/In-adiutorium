@@ -37,17 +37,18 @@ def ilevel(line)
 end
 
 def section_title(line)
+  puts
   puts "\\subsection{#{line.strip}}"
 end
 
 def occasion_title(line)
+  puts
   puts "\\subsubsection{#{line.strip}}"
 end
 
 def hour_title(line)
+  puts
   t = line.strip
-  puts
-  puts
   puts case t
           when "1. nešpory"
             "\\idxNesporyI"
