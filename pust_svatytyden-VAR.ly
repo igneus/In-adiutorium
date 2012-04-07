@@ -60,7 +60,7 @@
       \neviditelna a
       e f f f g f e( d) e \barFinalis
       % Slava
-      a a a a a g( a) a \barMin a g f f( d) e4. e \barFinalis
+      a a a( b) a a g( a) a \barMin a g f f( d) e4. e \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
@@ -131,6 +131,10 @@
   }
 }
 
+\pageBreak
+
+\markup\nadpisSkupiny{1.1}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -160,6 +164,147 @@
   }
 }
 
+\markup\nadpisSkupiny{1.2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f g a f g \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{1.3}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f g bes c d \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g f bes a c d \barMax
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{1.4}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    \mark\sipka g a a f f g \barMax
+    a g a f( d) d e f d d \barMaior
+    d c( d f) f \barMin
+    f e f d( c) c \barMin c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f f g \barMax
+    a g a f( d) d e f d d \barMin
+    d c( d f) f \barMaior
+    \mark\sipka g f g d d \barMin c( f) e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu \sans\italic{ -- Je to víc modus I nebo II?}}
+  }
+}
+
+
+\pageBreak
+
   \markup {\nadpisHodinka {"nešpory"}}
 
   \score {
@@ -177,7 +322,7 @@
       \neviditelna a
       a4 g a bes!( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
       % Slava
-      a'4 a a g f g( a) a \barMin a g a a( bes) a4. a \barFinalis
+      a'4 a a g f g( a) a \barMin a bes a g( bes) a4. a \barFinalis
     }
     \addlyrics {
       \Response Kla -- ní -- me se ti, Pa -- ne Je -- ží -- ši Kris -- te,_*
@@ -496,7 +641,7 @@
       f4 g g g f( d) d \barMaior
       g( a) a a( bes) a a \barMin
       a a bes a g a( d,) d \barMaior
-      d e f e c d d \barFinalis
+      d e f e c c( d) d \barFinalis
     }
     \addlyrics {
       Spra -- ved -- li -- vý Ot -- če,

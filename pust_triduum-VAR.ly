@@ -396,12 +396,34 @@
   }
 }
 
-\markup\tiny{Text následující antifony je oproti tomu,
-který je v breviáři, zkrácený - nepřišel jsem na to, jak
-jinak zachránit její zpívatelnost.}
+\pageBreak
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 c b c( d) d c b a( g) g \barMin
+    a( g) f g g g( a g) g \barMaior
+    a( c) c \barMin c c c c c b a b a a g g \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na
+    v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = ""
+    id = "pa-nesp-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c( d) d e( d c) d( c) c( a) a \barMaior
     a( g) a a( c) b a a \barFinalis
@@ -423,6 +445,8 @@ jinak zachránit její zpívatelnost.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup\nadpisDen{Bílá sobota}
 
