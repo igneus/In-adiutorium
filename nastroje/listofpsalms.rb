@@ -50,15 +50,15 @@ def hour_title(line)
   puts
   puts case t
           when "1. nešpory"
-            "\\nesporyI"
+            "\\idxNesporyI"
           when "ranní chvály"
-            "\\ranniChvaly"
+            "\\idxRanniChvaly"
           when "modlitba uprostřed dne"
-            "\\modlitbaUprostredDne"
+            "\\idxModlitbaUprostredDne"
           when "2. nešpory"
-            "\\nesporyII"
+            "\\idxNesporyII"
           when "nešpory"
-            "\\nespory"
+            "\\idxNespory"
           else
             raise "Unknown hour type '#{t}'"
           end
@@ -93,8 +93,8 @@ def content(line)
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
-    if ti == 0 || tokens[ti-1][0] != :txt then
-      print "\\indent "
+    if ti == 0 || (tokens[ti][0] != :txt && tokens[ti-1][0] != :txt) then
+      # print "\\indent "
     end
     
     case t[0]
@@ -113,7 +113,8 @@ def content(line)
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
-        puts ";\\\\"
+        puts " \\textbf{|} "
+        # puts ";\\\\"
       else
         puts
       end
