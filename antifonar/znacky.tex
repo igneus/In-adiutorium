@@ -65,7 +65,20 @@
 % (Prikaz predpoklada dvousloupcove usporadani, v jednosloupcovem bude
 % pracovat nelogicky)
 %
-\newcommand{\zalmVersUpozorneni}{
+% Jediny argument je cislo - zavaznost anomalie, na kterou se
+% upozornuje:
+% 3 =  nema prvni akcent -> problem maji nejen dvouakcentove napevy,
+%      ale i vsechny jednoakcentove s pripravou > 1
+% 2 =  prvni akcent na prvni slabice -> dvouakcentove napevy bez pripravy
+%      jdou, ale je to tezke; dvouakcentove s pripravou maji problem;
+%      jednoakcentove s delsi pripravou take
+
+\def\txtZnacka{\textup{\textbf{!}}} % symbol vkladany jako upozorneni
+\newcommand{\zalmVersUpozorneni}[1]{
   \stepcounter{zalmVersUpozorneni}
-  \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\textup{\textbf{!}}}
+  \ifnumequal{#1}{3}{
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\large{\txtZnacka}..}
+  }{ % else
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka}}
+  } 
 }
