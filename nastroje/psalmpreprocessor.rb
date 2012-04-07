@@ -193,6 +193,9 @@ module PsalmPreprocessor
       @first_hv = first_halfverse
       @second_hv = second_halfverse
       @flex = flex
+
+      @accent_error = false # place for second 'return value' 
+      # of #underline_last_accent
     end
     
     def puts(s="\n")
@@ -213,7 +216,11 @@ module PsalmPreprocessor
       elsif s =~ /\*\s*$/ then
         @first_hv.times { s = underline_last_accent s }
       elsif s =~ /\w+/ then
-        @second_hv.times { s = underline_last_accent s }
+        if s !~ /^[^\[\]]*$/ then
+          # Lines with no accents at all won't be processed -
+          # we suppose these are titles or so.
+          @second_hv.times { s = underline_last_accent s }
+        end
       end
       
       s = remove_accents s # remove the remaining ones
@@ -228,6 +235,7 @@ module PsalmPreprocessor
     end
     
     def underline_last_accent(str)
+      @accent_error = false
       s = str
       i = s.rindex "["
       s[i] = "\\underline{" if i
@@ -235,19 +243,18 @@ module PsalmPreprocessor
       s[j] = "}" if j
       
       if (!i && j) || (i && !j) then
-        raise "Non-complete pair of square brackets on line '#{s}'"
+        @accent_error = "Non-complete pair of square brackets on line '#{s}'"
+        raise @accent_error
       elsif !i && !j then
-        STDERR.puts "Warning: Missing pair of square brackets on line '#{s}'"
+        @accent_error = "Warning: Missing pair of square brackets on line '#{s}'"
+        STDERR.puts @accent_error
       end
       
       if (i && j) && (i > j) then
-        raise "Malformed pair of square brackets on line '#{s}'"
+        @accent_error = "Malformed pair of square brackets on line '#{s}'"
+        raise @accent_error
       end
-      
-      if ! (i && j) then
-        STDERR.puts "Warning: Looked for an accent, did not find any more."
-      end
-      
+     
       return s
     end
   end
@@ -433,7 +440,7 @@ module PsalmPreprocessor
           sa = @pattern
         end
         @core.puts sa
-        STDOUT.puts sa
+        # STDOUT.puts sa
       else
         @core.puts s
       end
@@ -453,7 +460,7 @@ module PsalmPreprocessor
       # lettrine is to be made of the first non-empty LateX-markup-less line:
       if @first && (@lineno <= 3) && 
           (s[0] != "\\") &&  (s !~ /^\s*$/) then
-        STDOUT.puts "+++"+s
+        # STDOUT.puts "+++"+s
         @first = false
         
         is = s.index " "
