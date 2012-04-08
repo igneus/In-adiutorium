@@ -73,12 +73,12 @@
 %      jdou, ale je to tezke; dvouakcentove s pripravou maji problem;
 %      jednoakcentove s delsi pripravou take
 
-\def\txtZnacka{\textup{\textbf{!}}} % symbol vkladany jako upozorneni
+\def\txtZnackaPrikaz#1{\textup{\small{\textbf{#1}}}}
 \newcommand{\zalmVersUpozorneni}[1]{%
   \stepcounter{zalmVersUpozorneni}%
   \ifnumequal{#1}{3}{%
-    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka\txtZnacka}}%
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\txtZnackaPrikaz{!!}}%
   }{% else
-    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\small{\txtZnacka}}%
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\txtZnackaPrikaz{!}}%
   }%
 }
