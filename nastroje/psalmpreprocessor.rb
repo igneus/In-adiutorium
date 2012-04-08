@@ -478,6 +478,143 @@ module PsalmPreprocessor
       end
     end
   end
+
+  class MarkShortVersesOutputStrategy < Strategy
+    # Adds a warning sign, where a half-verse is too short, and italicizes
+    # the short half-verse
+
+    def initialize(io)
+      super(io)
+      @cache = []
+      @line = 0
+    end
+
+    def puts(str="\n")
+      @line += 1
+      s = str.dup
+      if title? then
+        @core.puts s
+      elsif s =~ /^\s*$/
+        process_cache
+        @core.puts s
+      elsif second_halfverse? s then
+        @cache.push s
+        process_cache
+      else
+        @cache.push s
+      end
+    end
+
+    def close
+      process_cache
+      @core.close
+    end
+
+    private
+
+    class OneWordVerseError < RuntimeError
+    end
+
+    def process_cache
+      return if @cache.empty?
+
+      if @cache.size == 1 then
+        if count_accents(@cache.first) != 0 then
+          raise "Invalid state: a single line with some accents in a paragraph: '#{@cache.first}'."
+        else
+          # a 'verse' of a single line without accent - probably a doxology
+          @core.puts @cache.shift
+        end
+      end
+
+      mark_needed = false
+
+      @cache.each_index do |si| 
+        ultrashort_halfverse = 
+          ((count_accents(@cache[si]) < 2) && !flex?(@cache[si]))
+        accentuated_first_syllable =
+          (@cache[si][0] == '[' || @cache[si][1] == '[')
+        
+        if ultrashort_halfverse then
+          # always set to 3
+          mark_needed = 3
+        elsif accentuated_first_syllable && mark_needed == false then
+          # set to 2 only if it isn't yet 2 or 3
+          mark_needed = 2
+        end
+
+        if ultrashort_halfverse || accentuated_first_syllable then          
+          # italicize
+          begin
+            # opening
+            if lettrine_possible? && si == 0 then
+              i = @cache[si].index " "
+              if @cache[si].size - i <= 3 then
+                raise OneWordVerseError
+              end
+              @cache[si][i] = " "+'\textit{'
+            else
+              @cache[si] = '\textit{'+@cache[si]
+            end
+            # closing
+            if second_halfverse?(@cache[si]) then
+              @cache[si] += "}"
+            else
+              i = @cache[si].index(/ [\+\*]\s*$/)
+              if i.nil? then
+                raise "Panic: '#{@cache[si]}'"
+              end
+              @cache[si][i] = "} "
+            end
+          rescue OneWordVerseError
+            # Simply do nothing, don't italicize the verse
+          end
+        end
+      end
+
+      # make the warning mark if needed
+      if mark_needed then
+        mark = '\zalmVersUpozorneni{'+mark_needed.to_s+'} '
+        
+        i = @cache[0].index " "
+        @cache[0][i] = " "+mark
+      end
+
+      # write lines out
+      while n = @cache.shift do
+        @core.puts n
+      end
+    end
+
+    def title?
+      @line == 1
+    end
+
+    def lettrine_possible?
+      (@line - @cache.size) < 4
+    end
+
+    def second_halfverse?(s)
+      s !~ /[\*\+]\s*$/
+    end
+
+    def flex?(s)
+      (s =~ /\+\s*$/) != nil
+    end
+
+    def count_accents(s)
+      i = 0
+      j = 0
+      accents = 0
+      while i = s.index('[', j) do
+        break unless i
+        j = s.index(']', i)
+        break unless j
+        accents += 1
+      end
+      return accents
+    end
+  end
 end
 
 include PsalmPreprocessor
@@ -613,6 +750,8 @@ def output_procedure(input, fwn, setup)
   if setup[:lettrine] then
     output = LettrineOutputStrategy.new output
   end
+
+  output = MarkShortVersesOutputStrategy.new output
   
   # first line contains the title
   if setup[:has_title] then
