@@ -156,25 +156,30 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a g( a) a \barMin
+      a b c c d a \barMaior
+      a a g a g( d) \barMin f g g( a) a \barMax
+      a a c( b a4.) a \barMin a4 b b( c) c c d b b \barMaior
+      c b a( g) a e e \barMin a g a c b g a4. a \barMax
+      a4 a( c) g( b) a \barFinalis
     }
     \addlyrics {
       Tak je psá -- no:
       Kris -- tus bu -- de tr -- pět
-      a tře -- tí -- ho dne vsta -- ne z_mrt -- vých
-      a v_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
+      a tře -- tí -- ho dne vsta -- ne z_mrt -- vých.
+      V_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
       a -- by všem ná -- ro -- dům by -- ly od -- puš -- tě -- ny hří -- chy.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "A" 
       psalmus = ""
       id = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
