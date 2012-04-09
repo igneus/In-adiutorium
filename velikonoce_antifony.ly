@@ -186,9 +186,11 @@
   \markup {\nadpisDen {4. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g a f( d) d \barMaior
+      d( g) f g( a) a \barMin b c d c b c a( g) g \barMaior
+      a a g g \barFinalis
     }
     \addlyrics {
       Já jsem pas -- týř dob -- rý.
@@ -197,8 +199,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -206,9 +208,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g a f( g) g \barMaior
+      a c b( g) g \barMin a( g) f e d d \barMax
+      d d e f( g) g \barMin g a b c b a g a \barMaior
+      b a g g \barFinalis
     }
     \addlyrics {
       Já jsem dob -- rý pas -- týř;
@@ -218,8 +223,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -229,7 +234,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d f e d d \barMin d d c( d) d e d e c a a \barMax
+      a a a g a c( d) a \barMax
+      a( e') e d c d c d( e) e \barMaior
+      e e e e d f e e \barMin g a f( e) d \barMaior
+      c d e( d) d \barFinalis
     }
     \addlyrics {
       Mám ta -- ké ji -- né ov -- ce,
@@ -241,8 +250,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
