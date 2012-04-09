@@ -262,20 +262,23 @@
   \markup {\nadpisDen {5. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+       c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
+       g4 g g( c) c c \barMin c c d( c b) a( g) a( g a) a( g) g \barMaior
+       a( b g) g( a) \barMin a a g( a) a b( c) a( g) g g( a g) f f g g \barMaior
+       g g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Já jsem pra -- vý vin -- ný kmen a můj O -- tec je vi -- nař.
-      Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, čis -- tí,
-      a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
+      Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, 
+      čis -- tí, a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -283,20 +286,21 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g( c) c c b( c a) a \barMin a b( c) a4.( g) \barMaior
+      a4 c( d) d c( d) c b g g \barMin g( a) a4. g \barMaior 
+      a4 g f( g) g \barFinalis
     }
     \addlyrics {
       Kdo zůs -- tá -- vá ve mně a já v_něm,
-      ten ne -- se mno -- ho o -- vo -- ce,
-      pra -- ví Pán.
+      ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -304,9 +308,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g a g f g g( a) a \barMaior
+      a b c c c c( d) c c d d \barMaior
+      d d( a b) a g g( a) a( g) \barMin a b a( g) g f( g) a( b) g g \barMaior
+      g a a( g) g \barFinalis
     }
     \addlyrics {
       Tím bu -- de o -- sla -- ven můj O -- tec,
@@ -316,8 +323,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
