@@ -232,13 +232,14 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4 d d f e d d \barMin d d c( d) d e d e c a a \barMax
-      a a a g a c( d) a \barMax
-      a( e') e d c d c d( e) e \barMaior
-      e e e e d f e e \barMin g a f( e) d \barMaior
-      c d e( d) d \barFinalis
+      a4 a g c b c( a) a \barMin
+      a a g( e) e f e f d e e \barMax
+      f g a a a g( a) a \barMaior
+      a( b) c b( a) a b( a) g a( e) e \barMaior
+      e d e f f g d d \barMin e f f( e) e \barMaior
+      f d d( e) e \barFinalis
     }
     \addlyrics {
       Mám ta -- ké ji -- né ov -- ce,
@@ -250,8 +251,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "II"
-      differentia = "D" 
+      modus = "III"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
