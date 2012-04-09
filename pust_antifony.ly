@@ -78,8 +78,6 @@
     }
   }
   
-  \pageBreak
-  
   \score {
     \relative c'' {
       \choralniRezim
@@ -96,33 +94,9 @@
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
+      piece = "antifona - poledne - VIII.G"
     }
   }
-  
-  \score {
-    \relative c'' {
-      \choralniRezim
-      
-      g4 g g g a a g f( d) d \barMaior
-      c d f f f g a g f e \barMin
-      e c d \barFinalis
-    }
-    \addlyrics {
-      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel, 
-      a -- le a -- by se o -- brá -- til a žil, 
-      pra -- ví Pán. 
-    }
-    \header {
-      quid = "ant. v poledne"
-      modus = "I"
-      differentia = "g" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
-  }
-  
-  \pageBreak
   
   \score {
     \relative c'' {
@@ -193,31 +167,6 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
-  \score {
-    \relative c' {
-      \choralniRezim
-      d4 d c f( g f) g( a) a \barMin
-      a bes a g g a f( e) d \barMaior
-      g a g g e f( g) e( d) d \barFinalis
-    }
-    \addlyrics {
-      Když dá -- váš al -- muž -- nu,
-      ať ne -- ví tvo -- je le -- vi -- ce,
-      co dě -- lá tvo -- je pra -- vi -- ce.
-    }
-    \header {
-      quid = "ant. k Magnificat"
-      modus = "I"
-      differentia = "D" 
-      psalmus = ""
-      id = ""
-      fons = "Antiphonale sacrosanctae romanae ecclesiae pro diurnis horis, Romae 1912, 303. (Ant. Cum facis eleemosynam)"
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
-  }
-  
-  \pageBreak
   
   \markup\nadpisDen{1. neděle postní /cyklus B/}
   
@@ -747,7 +696,7 @@
     \header {
       quid = "2. ant."
       modus = "IV alt"
-      differentia = "A" 
+      differentia = "d" 
       psalmus = "Žalm 114"
       id = ""
       piece = \markup {\sestavTitulek}
