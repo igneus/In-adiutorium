@@ -35,12 +35,16 @@ na chorální žalmový nápěv předepsaný u antifony.
 
 \markup\justify{
 Pro kantika Benedictus a Magnificat jsou řešení problémů
-rozepsána jmenovitě, pro ostatní žalmy a kantika
-je níže přehledná typologie problémů a návrhy jejich řešení
-s typickými příklady.
+rozepsána jmenovitě, protože evangelní kantika si zasluhují
+při provedení větší pozornost a protože obě anomálie v nich se
+vyskytující jsou netypické.
+Dále jsou tu vzory pro zpěv veršů žalmů a kantik, 
+které mají pouze jeden akcent \concat{(str. " "\page-ref #'jedenakcent "0" "?"),} a těch, které mají akcent
+už na první slabice \concat{(str. " "\page-ref #'akcentprvni "0" "?").}
 }
   
 \markup\kapitola{1. Benedictus a Magnificat}
+\label #'benmag
 
 \markup\sekce{kantikum Benedictus - "\"že nám dopřeje\""}
 
@@ -341,7 +345,10 @@ V latinském textu Magnificat je totiž tento problém také.
   }
 }
 
+\pageBreak
+
 \markup\kapitola{2. Verše s pouze jedním akcentem}
+\label #'jedenakcent
 
 \markup\sekce{kantikum 1Petr 2: "\"On" \concat{\underline{ne}zhřešil"\""}}
 \markup\column{
@@ -578,6 +585,8 @@ analogicky naložíme i s ostatními.)
   }
 }
 
+\pageBreak % ZLOM
+
 \markup\subsekce{modus V}
 \score {
   \relative c'' {
@@ -651,6 +660,7 @@ analogicky naložíme i s ostatními.)
 }
 
 \markup\kapitola{3. Verše s akcentem již na první slabice}
+\label #'akcentprvni
 \markup\justify{
 Veršů s akcentem již na první slabice je v žaltáři velké
 množství. Následují dva vzory, podle kterých se všechny
@@ -674,6 +684,8 @@ dají zazpívat.
     id = ""
   }
 }
+
+\pageBreak % ZLOM
 
 \markup\subsekce{modus III}
 \score {
@@ -734,3 +746,89 @@ dají zazpívat.
 \markup\kapitola{3.2 ve druhém poloverši}
 
 \markup\sekce{Žalm 27-II: \concat{"\"" \underline{V ze} mi " " \underline{ži} vých "\""}}
+
+\markup\subsekce{modus I}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \barMax g f g( a) g( f e d) \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus IV}
+\markup{differentia E:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \barMax a b( a) g( f) e \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
+\markup{differentiae A, A*, d:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \barMax d4 e c a \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\pageBreak % ZLOM
+
+\markup\subsekce{modus VI}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \barMax f g( a) g f \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VII}
+\score {
+  \relative c'' {
+    \choralniRezim
+    e4 \barMax e d c b( a) \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VIII}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \barMax b c a g \barMax
+  }
+  \addlyrics {
+    \skip 1 \markup\underline{V ze} -- mi \markup\underline{ži} -- vých.
+  }
+  \header {
+    id = ""
+  }
+}
