@@ -341,5 +341,396 @@ V latinském textu Magnificat je totiž tento problém také.
   }
 }
 
+\markup\kapitola{2. Verše s pouze jedním akcentem}
+
+\markup\sekce{kantikum 1Petr 2: "\"On" \concat{\underline{ne}zhřešil"\""}}
+\markup\column{
+\line{Podle tohoto vzoru se zpívá také:}
+\line{- kantikum Dt 32: "\"Tak" \underline{ho} "vzal\""}
 }
 
+\markup\subsekce{modus I}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus III}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) c \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+\markup\justify{Následující varianta melodicky využívá i
+přebytečnou čtvrtou slabiku a nedá se proto použít pro
+ještě kratší verše, jako např. "\"Tak" \underline{ho} "vzal\"".
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d( c) b( a) c \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus IV}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b a a \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VI}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f f \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VII}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e e \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 f( e) d( e) e \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{tonus peregrinus}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a g f f \barMax
+  }
+  \addlyrics {
+    On \markup\underline{ne} -- zhře -- šil_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\sekce{Žalm 7-II: "\"Bůh" je \underline{můj} "štít\""}
+\markup\justify{
+V žaltáři má tento verš značku jako verš s pouze jedním 
+akcentem. Ve skutečnosti je to verš s prvním akcentem na prvním
+slově (Bůh). Atypické je to, že to je zároveň první verš
+oddílu. Vynecháme intonaci a zazpíváme ho jako verš s akcentem
+na první slabice (viz níže).
+}
+
+\markup\sekce{Žalm 14: "\"Bůh" \concat{\underline{ne}ní"\""}}
+\markup\column{
+\line{Podle tohoto vzoru se zpívá také:}
+\line{- Žalm 32: "\"V čas" \concat{\underline{tís}ně"\""}}
+\line{- Žalm 53: "\"Bůh" \concat{\underline{ne}ní"\""}}
+}
+
+\markup\subsekce{modus I}
+\markup\justify{
+Vynecháme přípravu terminace. (V příkladu je differentia I.D,
+analogicky naložíme i s ostatními.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a \barMax a4 a g( f e d) \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus II}
+\score {
+  \relative c' {
+    \choralniRezim
+    f \barMax e c d \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus III}
+\markup{differentiae b, a, a2:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c \barMax a c b \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+\markup{differentiae a2, g, g2: skončíme na tenoru c}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c \barMax a c c \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus IV}
+\markup{differentiae g, c nemají problém.}
+\markup{differentia E:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \barMax a g( f) e \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+\markup{differentiae A, A*, d:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \barMax e c a \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus V}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c \barMax c d c \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VI}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a \barMax g( a) g f \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VII}
+\markup{Zcela vynechat tenor d; první dva tóny terminace svázat.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    e \barMax e( d) c b( a) \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VIII}
+\markup{Zcela vynechat tenor c; první dva tóny terminace svázat.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c \barMax b( c) a g \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{tonus peregrinus}
+\score {
+  \relative c' {
+    \choralniRezim
+    f \barMax g f e( d) \barMax
+  }
+  \addlyrics {
+    \skip 1 Bůh \markup\underline{ne} -- ní.
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\kapitola{3. Verše s akcentem již na první slabice}
+\markup\justify{
+Veršů s akcentem již na první slabice je v žaltáři velké
+množství. Následují dva vzory, podle kterých se všechny
+dají zazpívat.
+}
+
+\markup\kapitola{3.1 v prvním poloverši}
+
+\markup\sekce{Žalm 118-II: \concat{"\"" \underline{Já} sot " " \underline{ze} " " spásy "\""}}
+
+\markup\subsekce{modus I}
+\score {
+  \relative c'' {
+    \choralniRezim
+    bes a g a a \barMax
+  }
+  \addlyrics {
+    \markup\underline{Já} -- sot \markup\underline{ze} spá -- sy_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus III}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c c b( a) c \barMax
+  }
+  \addlyrics {
+    \markup\underline{Já} -- sot \markup\underline{ze} spá -- sy_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus IV}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b a a \barMax
+  }
+  \addlyrics {
+    \markup\underline{Já} -- sot \markup\underline{ze} spá -- sy_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{modus VII}
+\score {
+  \relative c'' {
+    \choralniRezim
+    f4 e d e e \barMax
+  }
+  \addlyrics {
+    \markup\underline{Já} -- sot \markup\underline{ze} spá -- sy_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\subsekce{tonus peregrinus}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( bes) a g f f \barMax
+  }
+  \addlyrics {
+    \markup\underline{Já} -- sot \markup\underline{ze} spá -- sy_*
+  }
+  \header {
+    id = ""
+  }
+}
+
+\markup\kapitola{3.2 ve druhém poloverši}
+
+\markup\sekce{Žalm 27-II: \concat{"\"" \underline{V ze} mi " " \underline{ži} vých "\""}}
