@@ -193,6 +193,9 @@ module PsalmPreprocessor
       @first_hv = first_halfverse
       @second_hv = second_halfverse
       @flex = flex
+
+      @accent_error = false # place for second 'return value' 
+      # of #underline_last_accent
     end
     
     def puts(s="\n")
@@ -213,7 +216,11 @@ module PsalmPreprocessor
       elsif s =~ /\*\s*$/ then
         @first_hv.times { s = underline_last_accent s }
       elsif s =~ /\w+/ then
-        @second_hv.times { s = underline_last_accent s }
+        if s !~ /^[^\[\]]*$/ then
+          # Lines with no accents at all won't be processed -
+          # we suppose these are titles or so.
+          @second_hv.times { s = underline_last_accent s }
+        end
       end
       
       s = remove_accents s # remove the remaining ones
@@ -228,6 +235,7 @@ module PsalmPreprocessor
     end
     
     def underline_last_accent(str)
+      @accent_error = false
       s = str
       i = s.rindex "["
       s[i] = "\\underline{" if i
@@ -235,19 +243,18 @@ module PsalmPreprocessor
       s[j] = "}" if j
       
       if (!i && j) || (i && !j) then
-        raise "Non-complete pair of square brackets on line '#{s}'"
+        @accent_error = "Non-complete pair of square brackets on line '#{s}'"
+        raise @accent_error
       elsif !i && !j then
-        STDERR.puts "Warning: Missing pair of square brackets on line '#{s}'"
+        @accent_error = "Warning: Missing pair of square brackets on line '#{s}'"
+        STDERR.puts @accent_error
       end
       
       if (i && j) && (i > j) then
-        raise "Malformed pair of square brackets on line '#{s}'"
+        @accent_error = "Malformed pair of square brackets on line '#{s}'"
+        raise @accent_error
       end
-      
-      if ! (i && j) then
-        STDERR.puts "Warning: Looked for an accent, did not find any more."
-      end
-      
+     
       return s
     end
   end
@@ -433,7 +440,7 @@ module PsalmPreprocessor
           sa = @pattern
         end
         @core.puts sa
-        STDOUT.puts sa
+        # STDOUT.puts sa
       else
         @core.puts s
       end
@@ -453,7 +460,7 @@ module PsalmPreprocessor
       # lettrine is to be made of the first non-empty LateX-markup-less line:
       if @first && (@lineno <= 3) && 
           (s[0] != "\\") &&  (s !~ /^\s*$/) then
-        STDOUT.puts "+++"+s
+        # STDOUT.puts "+++"+s
         @first = false
         
         is = s.index " "
@@ -469,6 +476,143 @@ module PsalmPreprocessor
       else
         @core.puts s
       end
+    end
+  end
+
+  class MarkShortVersesOutputStrategy < Strategy
+    # Adds a warning sign, where a half-verse is too short, and italicizes
+    # the short half-verse
+
+    def initialize(io)
+      super(io)
+      @cache = []
+      @line = 0
+    end
+
+    def puts(str="\n")
+      @line += 1
+      s = str.dup
+      if title? then
+        @core.puts s
+      elsif s =~ /^\s*$/
+        process_cache
+        @core.puts s
+      elsif second_halfverse? s then
+        @cache.push s
+        process_cache
+      else
+        @cache.push s
+      end
+    end
+
+    def close
+      process_cache
+      @core.close
+    end
+
+    private
+
+    class OneWordVerseError < RuntimeError
+    end
+
+    def process_cache
+      return if @cache.empty?
+
+      if @cache.size == 1 then
+        if count_accents(@cache.first) != 0 then
+          raise "Invalid state: a single line with some accents in a paragraph: '#{@cache.first}'."
+        else
+          # a 'verse' of a single line without accent - probably a doxology
+          @core.puts @cache.shift
+        end
+      end
+
+      mark_needed = false
+
+      @cache.each_index do |si| 
+        ultrashort_halfverse = 
+          ((count_accents(@cache[si]) < 2) && !flex?(@cache[si]))
+        accentuated_first_syllable =
+          (@cache[si][0] == '[' || @cache[si][1] == '[')
+        
+        if ultrashort_halfverse then
+          # always set to 3
+          mark_needed = 3
+        elsif accentuated_first_syllable && mark_needed == false then
+          # set to 2 only if it isn't yet 2 or 3
+          mark_needed = 2
+        end
+
+        if ultrashort_halfverse || accentuated_first_syllable then          
+          # italicize
+          begin
+            # opening
+            if lettrine_possible? && si == 0 then
+              i = @cache[si].index " "
+              if @cache[si].size - i <= 3 then
+                raise OneWordVerseError
+              end
+              @cache[si][i] = " "+'\textit{'
+            else
+              @cache[si] = '\textit{'+@cache[si]
+            end
+            # closing
+            if second_halfverse?(@cache[si]) then
+              @cache[si] += "}"
+            else
+              i = @cache[si].index(/ [\+\*]\s*$/)
+              if i.nil? then
+                raise "Panic: '#{@cache[si]}'"
+              end
+              @cache[si][i] = "} "
+            end
+          rescue OneWordVerseError
+            # Simply do nothing, don't italicize the verse
+          end
+        end
+      end
+
+      # make the warning mark if needed
+      if mark_needed then
+        mark = '\zalmVersUpozorneni{'+mark_needed.to_s+'} '
+        
+        i = @cache[0].index " "
+        @cache[0][i] = " "+mark
+      end
+
+      # write lines out
+      while n = @cache.shift do
+        @core.puts n
+      end
+    end
+
+    def title?
+      @line == 1
+    end
+
+    def lettrine_possible?
+      (@line - @cache.size) < 4
+    end
+
+    def second_halfverse?(s)
+      s !~ /[\*\+]\s*$/
+    end
+
+    def flex?(s)
+      (s =~ /\+\s*$/) != nil
+    end
+
+    def count_accents(s)
+      i = 0
+      j = 0
+      accents = 0
+      while i = s.index('[', j) do
+        break unless i
+        j = s.index(']', i)
+        break unless j
+        accents += 1
+      end
+      return accents
     end
   end
 end
@@ -606,6 +750,8 @@ def output_procedure(input, fwn, setup)
   if setup[:lettrine] then
     output = LettrineOutputStrategy.new output
   end
+
+  output = MarkShortVersesOutputStrategy.new output
   
   # first line contains the title
   if setup[:has_title] then

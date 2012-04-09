@@ -1,3 +1,5 @@
+\version "2.15.34"
+
 % nekolik vychytavek standartne importovanych do vsech projektu
 % z webu inadiutorium.xf.cz
 
@@ -96,7 +98,8 @@ choralniRezim = {
   \cadenzaOn
   
   % vzdycky vypsat becka
-  #(set-accidental-style 'forget) 
+  % #(set-accidental-style 'forget) % for Lily 2.14
+  \accidentalStyle "forget" % 2.15
 }
 
 choralniPredznamenaniIII = 

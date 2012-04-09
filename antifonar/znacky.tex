@@ -1,0 +1,84 @@
+% znacky.tex
+%
+% potrebuje baliky: zref-savepos, changepage
+%
+% Umoznuje ve dvousloupcovem usporadani stranky umistit na okraj
+% (pravy nebo levy, podle sloupce) varovnou znacku.
+
+% Nastaveni dulezita pro spravne fungovani:
+% -----------------------------------
+\strictpagecheck % pro makra tvorici vystrazne znacky
+
+\newcounter{zalmVersUpozorneni}
+\setcounter{zalmVersUpozorneni}{1}
+% ------------------------------------
+
+% konstanty uzivane v nasledujicich makrech
+\def\pulstranky{13773045}%sp; vypocteno; pul stranky A5
+\def\vzdalenostZnackyOdTextu{0.5}%cm
+
+% argument: label ulozene pozice. Vrati hodnotu pro \hskip na levy okr. stranky
+\def\kLevemuOkraji#1{%
+  -\zposx{#1}%
+}
+
+% Macro written for me by Yiannis Lazarides
+% http://tex.stackexchange.com/questions/50216/margin-notes-in-a-multicolumn-environment
+% I modified it slightly for my needs.
+%
+% uses package zref-savepos
+%
+% Arguments: 
+% #1 unique label identifier
+% #2 text
+%
+% In the two-columned setup it puts given text besides the column
+% where the macro is called
+%
+% Numbers which depend on the page's geometry!!!!!!!:
+% 2.0cm & 1.5cm: margins of the page (I don't want to have them hardcoded,
+% but I haven't found any way to determine them at runtime.)
+\def\putmarginpar#1#2{%
+  \zsavepos{#1}%
+  \checkoddpage
+  \ifnum\pulstranky>\number\zposx{#1}%
+    % tady je dimen100 levy okraj stranek
+    \ifoddpage% liche - siroky
+      \dimen100=2.0cm%
+    \else%
+      \dimen100=1.5cm%
+    \fi%
+    \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp + \dimen100 - \vzdalenostZnackyOdTextu cm \relax#2}%
+  \else
+    % tady je dimen100 pravy okraj stranek
+    \ifoddpage% liche - uzky
+      \dimen100=1.5cm%
+    \else%
+      \dimen100=2cm%
+    \fi%
+     \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp +\pulstranky sp * 2 - \dimen100 + \vzdalenostZnackyOdTextu cm \relax#2}%
+  \fi%
+}
+
+%
+% Znacka: varovny vykricnik na okraji stranky vedle aktualni radky
+% (Prikaz predpoklada dvousloupcove usporadani, v jednosloupcovem bude
+% pracovat nelogicky)
+%
+% Jediny argument je cislo - zavaznost anomalie, na kterou se
+% upozornuje:
+% 3 =  nema prvni akcent -> problem maji nejen dvouakcentove napevy,
+%      ale i vsechny jednoakcentove s pripravou > 1
+% 2 =  prvni akcent na prvni slabice -> dvouakcentove napevy bez pripravy
+%      jdou, ale je to tezke; dvouakcentove s pripravou maji problem;
+%      jednoakcentove s delsi pripravou take
+
+\def\txtZnackaPrikaz#1{\textup{\footnotesize{\textbf{#1}}}}
+\newcommand{\zalmVersUpozorneni}[1]{%
+  \stepcounter{zalmVersUpozorneni}%
+  \ifnumequal{#1}{3}{%
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\txtZnackaPrikaz{!!}}%
+  }{% else
+    \putmarginpar{znac:\arabic{zalmVersUpozorneni}}{\txtZnackaPrikaz{!}}%
+  }%
+}

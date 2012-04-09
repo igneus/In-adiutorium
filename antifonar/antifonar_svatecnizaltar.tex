@@ -11,23 +11,20 @@
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
 
-\usepackage[T1]{fontenc}
-% font Palatino:
-% \usepackage[sc]{mathpazo}
-% \linespread{1.05}        
+% potreba pro znacky.tex:
+\usepackage{zref-savepos}
+\usepackage{changepage}
 
+\usepackage[T1]{fontenc}
 % font Bookman:
 \usepackage{bookman}
 
 \input{spolecne.tex}
+\input{znacky.tex}
 
-% v tomto svazecku se nadpis hodinky pouziva pouze v indexu
-% na konci knihy a tak je zadouci jiny vzhled -
-% predevsim zarovnani doleva
-\renewcommand{\nadpisHodinka}[1]{
-  \noindent\textbf{#1}:
-  \newline
-}
+% !!!! KE ZLOMU: 24.3.2012 jsem musel pri zlomu zasahovat i do automaticky
+% generovanych souboru (zalmy; dokonce i do textu jednoho kantika!).
+% Kniha tedy obsahuje nektere zlomove znacky, ale ne vsechny. !!!
 
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
@@ -100,38 +97,25 @@
 
 \pagestyle{fancy}
 
-\section{Úvod}
-
-Tento žaltář je určen pro dny, kdy se v breviáři nepoužívají žalmy
-z cyklu žaltáře, ale ze společných textů o svatých nebo z vlastních textů 
-slavnosti nebo svátku.
-
-V zájmu úspory místa a za cenu jistého zmenšení uživatelského pohodlí
-nejsou žalmy a kantika řazeny jako v breviáři a neopakují se,
-nýbrž jsou v příslušných oddílech řazeny podle pořadí v katolickém
-biblickém kánonu. Na konci knihy je přehledný seznam všech slavností
-a svátků, které mají vlastní žalmy, spolu s odkazy na texty.
-
-Doporučuji opatřit výtisky dostatečným množstvím záložek (ideální se
-zdají být 3-4).
-
 \section{Kantika z evangelií}
+\fancyhead[CE,CO]{Kantika z evangelií}
 
 \begin{hora}
 \labelText{ben}{Zachariášovo kantikum}
-\nadpisTypTextu{Zachariášovo kantikum (Benedictus)}
 \input{generovane/zaltar/kantikum_benedictus.tex}
 \columnbreak
 \labelText{mag}{kantikum Panny Marie}
-\nadpisTypTextu{Kantikum Panny Marie (Magnificat)}
 \input{generovane/zaltar/kantikum_magnificat.tex}
 \end{hora}
 
+\clearpage
 \section{Žalmy invitatoria}
+\fancyhead[CE,CO]{Invitatorium}
 
 \begin{hora}
 \labelZalm{95}
 \input{generovane/svatecnizaltar/zalm95.tex}
+\columnbreak % ZLOM1
 \labelZalm{100}
 \input{generovane/svatecnizaltar/zalm100.tex}
 \labelZalm{67}
@@ -141,10 +125,10 @@ zdají být 3-4).
 \end{hora}
 
 \clearpage
-
 \section{Často užívané celky}
 
 \subsection{Neděle 1. týdne - ranní chvály}
+\fancyhead[CE,CO]{Ranní chvály neděle 1. týdne}
 
 \ranniChvaly
 \begin{hora}
@@ -154,7 +138,8 @@ zdají být 3-4).
 \input{generovane/svatecnizaltar/zalm149.tex}
 \end{hora}
 
-\subsection{Doplňovací cyklus žalmů pro modlitbu uprostřed dne}{Doplňovací cyklus žalmů}
+\subsection{Doplňovací cyklus žalmů pro modlitbu uprostřed dne}
+\fancyhead[CE,CO]{Doplňovací cyklus}
 
 \label{zalmydoplncyklus}
 \nadpisHodinka{První oddíl (dopoledne)}
@@ -178,27 +163,35 @@ zdají být 3-4).
 \input{generovane/svatecnizaltar/zalm128.tex}
 \end{hora}
 
+\clearpage
 \section{Žalmy}
+\fancyhead[CE,CO]{Žalmy}
 
 \begin{hora}
 % soubor generovany skriptem listofpsalms.rb:
 \input{generovane/svatecnizaltar/svatecnizaltar_index.txt.psalms.tex}
 \end{hora}
 
+\clearpage
 \section{Starozákonní kantika}
+\fancyhead[CE,CO]{Starozákonní kantika}
 
 \begin{hora}
 \labelText{kantiz38}{Iz 38}
 \input{generovane/svatecnizaltar/kantikum_iz38.tex}
+\columnbreak % ZLOM3
 \labelText{kanthab3}{Hab 3}
 \input{generovane/svatecnizaltar/kantikum_hab3.tex}
 \end{hora}
 
+\clearpage
 \section{Novozákonní kantika}
+\fancyhead[CE,CO]{Novozákonní kantika}
 
 \begin{hora}
 \labelText{kantef1}{Ef 1}
 \input{generovane/svatecnizaltar/kantikum_ef1.tex}
+\columnbreak % ZLOM3
 \labelText{kantfp2}{Flp 2}
 \input{generovane/svatecnizaltar/kantikum_fp2.tex}
 \labelText{kantkol1}{Kol 1}
@@ -217,7 +210,9 @@ zdají být 3-4).
 \input{kantikum_zj19.tex}
 \end{hora}
 
+\clearpage
 \section{Index svátků}
+\fancyhead[CE,CO]{Index svátků}
 
 % generovany soubor
 \input{generovane/svatecnizaltar/svatecnizaltar_index.txt.index.tex}
