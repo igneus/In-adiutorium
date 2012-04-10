@@ -411,21 +411,23 @@
   \markup {\nadpisDen {7. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      d4 d e( c) c \barMaior
+      d( e) f d c d c a a \barMin a g f g a \barMaior
+      a a c( d) d e( d c) a( g) \barMin a( c b) g a \barMaior
+      g c b( a) a \barFinalis
     }
     \addlyrics {
       Ot -- če sva -- tý,
-      za -- cho -- vej je ve svém jmé -- nu,
-      kte -- ré jsi mi dal,
+      za -- cho -- vej je ve svém jmé -- nu, kte -- ré jsi mi dal,
       a -- by by -- li jed -- no ja -- ko my.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "d" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
