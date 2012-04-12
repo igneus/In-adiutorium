@@ -77,9 +77,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c( d) d d d( c) c( d) d d( f e) d( c d) c b( c d) d \barMaior
+    d f4.( d) \barMin d4 c b c( a g4.) g \barMaior
+    g4 a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din ti bu -- de na -- vě -- ky svět -- lem,
@@ -88,8 +90,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Žalm 123"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -99,7 +101,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4( d) c d e g g \barMin
+    g a b a( g) g \barMaior
+    e c d( e) e \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la
@@ -108,8 +112,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 124"
     id = ""
     piece = \markup {\sestavTitulek}

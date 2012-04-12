@@ -1,5 +1,7 @@
 % antifony invitatoria ze zaltare - dvoutydenni cyklus
 
+% -*- master: ../invitatorium_choralni.ly;
+
 sestavInvitTitulek = \markup {
   \concat {\fromproperty #'header:dies ": " \fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
 }
@@ -249,20 +251,20 @@ tIIstredaInvitatorium = \score {
 }
 
 tIIctvrtekInvitatorium = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 c c d f g g \barMin 
-    f( d) c( d) d \barFinalis
+    d4( c) a4.( b) g4 g a c d a( g) f( g) g \bar "||"
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem!
+    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "d" 
     id = "t2ct"
+    fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavInvitTitulek}
   }
 }
