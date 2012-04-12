@@ -486,8 +486,6 @@
     }
   }
 }
-
-%{
   
 \bookpart {
   \header {
@@ -505,5 +503,3 @@
   
   \markup {\nadpisDen {4. TÝDEN}}
 }
-
-%}
