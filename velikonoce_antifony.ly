@@ -67,7 +67,7 @@
     }
   }
   
-  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  \markup {\nadpisHodinka {"modlitba uprostřed dne"} a \nadpisHodinka {"kompletář"}}
   
   \markup{Následující antifona je z \italic{Liber usualis,} New York-Tournai, 1961, 266.}
   
