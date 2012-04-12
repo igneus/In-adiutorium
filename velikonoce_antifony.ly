@@ -487,6 +487,8 @@
   }
 }
 
+%{
+  
 \bookpart {
   \header {
     subtitle = "Čtyřtýdenní cyklus feriálních antifon"
@@ -503,3 +505,5 @@
   
   \markup {\nadpisDen {4. TÝDEN}}
 }
+
+%}
