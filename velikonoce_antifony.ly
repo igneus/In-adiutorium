@@ -69,6 +69,8 @@
   
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
   
+  \markup{Následující antifona je z \italic{Liber usualis,} New York-Tournai, 1961, 266.}
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -435,9 +437,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4( a) a \barMin d, e e( f g) g( a) a \barMax
+      a a g( f) f g( f g) g \barMin g( f) g f d d \barMaior
+      d d c( d) d d( f) f \barMin g( a bes) a g bes( a g) f( g) g( d) \barMaior
+      e c c( d) d \barFinalis
     }
     \addlyrics {
       Ot -- če, ny -- ní jdu k_to -- bě,
@@ -447,8 +452,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a2" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -456,9 +461,13 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4( a) a \barMin d, e f g( a) a( g a) g f( g) g( a) a \barMaior
+      a a c a g a g f d d \barMax
+      d d d d d( a' bes) a g( a) a \barMaior
+      a a a bes( a) a \barMin a a g( a g) g f e e( f) d \barMaior
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,
@@ -469,8 +478,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a2" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
