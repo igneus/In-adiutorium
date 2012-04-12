@@ -500,6 +500,7 @@
   
   \markup {\nadpisDen {3. TÝDEN}}
   \include "antifony/velikonoce_tyden3_2pondeli.ly"
-  
+  \include "antifony/velikonoce_tyden3_6patek.ly"
+
   \markup {\nadpisDen {4. TÝDEN}}
 }
