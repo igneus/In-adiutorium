@@ -506,4 +506,5 @@
 
   \markup {\nadpisDen {4. TÝDEN}}
   \include "antifony/velikonoce_tyden4_2pondeli.ly"
+  \include "antifony/velikonoce_tyden4_6patek.ly"
 }

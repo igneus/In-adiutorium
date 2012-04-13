@@ -29,3 +29,26 @@ velikTIIpondeliNespAntIII = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+velikTIIpatekNespAntIII = \score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a f( e) f( g) g a b c c \barMaior
+    c b c( a) g( f g4.) g4. \barMaior
+    a4 a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la a sta -- teč -- nost,_*
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Zj 15"
+    id = ""
+    fons = "úlomek převzat z: žaltář, so 1.t., r.ch., 2. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
