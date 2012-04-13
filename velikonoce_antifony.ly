@@ -486,6 +486,8 @@
     }
   }
 }
+
+\include "antifony/velikonoce_knzkantikum.ly"
   
 \bookpart {
   \header {
@@ -503,4 +505,5 @@
   \include "antifony/velikonoce_tyden3_6patek.ly"
 
   \markup {\nadpisDen {4. TÝDEN}}
+  \include "antifony/velikonoce_tyden4_2pondeli.ly"
 }
