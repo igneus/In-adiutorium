@@ -7,7 +7,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( c d) d \barMin
+    d( f) e( f) f g f e f d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Bo -- že,
@@ -16,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -117,9 +119,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 c( b) c b a \barMin
+    b c a a c d c a( g) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,
@@ -128,8 +132,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 135-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -161,10 +165,14 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 e( a) a b( a) g g( a) a \barMin
+    a g a a( b a) g f e e \barMaior
+    e f( d) d( e) e \barFinalis
   }
   \addlyrics {
     Chci zpí -- vat Hos -- po -- di -- nu,
@@ -173,8 +181,54 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a b( a) g g( a) a \barMin
+    a g a a( b a) g f e e \barMaior
+    \mark\sipka e( d e) e( g f d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 c'4. c4 d c b( g) g \barMin
+    a g f g( a) a a g g \barMaior
+    f c'( b) g g \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
