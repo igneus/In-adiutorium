@@ -1,7 +1,7 @@
 # Processes given music files, prints a list of lyrics with
 # filenames of sources (sort of "index of pieces by text")
 
-$: << "."
+$: << File.dirname(__FILE__)
 
 require 'musicreader.rb'
 

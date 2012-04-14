@@ -486,6 +486,8 @@
     }
   }
 }
+
+\include "antifony/velikonoce_knzkantikum.ly"
   
 \bookpart {
   \header {
@@ -493,14 +495,20 @@
   }
   
   \markup {\nadpisDen {1. TÝDEN}}
+  \include "antifony/velikonoce_tyden1_2pondeli.ly"
   
+  \pageBreak
   \markup {\nadpisDen {2. TÝDEN}}
   \include "antifony/velikonoce_tyden2_2pondeli.ly"
   \include "antifony/velikonoce_tyden2_6patek.ly"
   
+  \pageBreak
   \markup {\nadpisDen {3. TÝDEN}}
   \include "antifony/velikonoce_tyden3_2pondeli.ly"
   \include "antifony/velikonoce_tyden3_6patek.ly"
-
+  
+  \pageBreak
   \markup {\nadpisDen {4. TÝDEN}}
+  \include "antifony/velikonoce_tyden4_2pondeli.ly"
+  \include "antifony/velikonoce_tyden4_6patek.ly"
 }
