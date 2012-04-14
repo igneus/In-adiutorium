@@ -7,7 +7,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f g a g g( a) a \barMaior
+    a c( d c a) a \barMin a g f g( a) f( d) d \barMaior
+    c f e( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj na mě, Pa -- ne,
@@ -16,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -25,9 +27,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4( c) c( d) d \barMin d c d c( a) a \barMaior
+    g( a) b c a g a( g) f( g) g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     O -- prav -- du, ty jsi Bůh skry -- tý,
@@ -36,8 +40,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Iz 45"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -45,9 +49,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( c) c d b c a g( a) a( g) g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Služ -- te Hos -- po -- di -- nu s_ra -- dos -- tí.
@@ -55,8 +60,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -66,9 +71,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a b g a g( e) e \barMaior
+    e d4.( g) g4( a g) f f g g \barMaior
+    f f( g) a( c) a4.( g) \barFinalis
   }
   \addlyrics {
     Kris -- tus se pro nás stal chu -- dým,
@@ -77,8 +84,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Žalm 41"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -86,9 +93,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( f) g( f) g( a g) g \barMaior
+    g a( b) c( a) a b( c) a g a( g) g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin
