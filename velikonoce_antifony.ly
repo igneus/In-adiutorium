@@ -497,6 +497,7 @@
   \markup {\nadpisDen {1. TÝDEN}}
   \include "antifony/velikonoce_tyden1_2pondeli.ly"
   \include "antifony/velikonoce_tyden1_6patek.ly"
+  \include "antifony/velikonoce_tyden1_7sobota.ly"
 
   \pageBreak
   \markup {\nadpisDen {2. TÝDEN}}
