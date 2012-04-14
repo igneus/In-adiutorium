@@ -7,7 +7,11 @@ toolsdir = File.dirname(__FILE__)
 # get In adiutorium top directory:
 x = toolsdir.split '/'
 x.pop
-rootdir = x.join '/'
+if x.empty? then
+  rootdir = '.'
+else
+  rootdir = x.join '/'
+end
 
 Dir.chdir rootdir
 
