@@ -305,6 +305,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -329,6 +331,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a) \barMin d( c) d a \barMin
+    a c d c d d \barFinalis
+  }
+  \addlyrics {
+    % Ve tři ho -- di -- ny_*
+    % zvo -- lal Je -- žíš moc -- ným hla -- sem:
+    Bo -- že můj, Bo -- že můj, 
+    proč jsi mě o -- pus -- til?
+  }
+  \header {
+    quid = "ant. odpoledne"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "pa-up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
