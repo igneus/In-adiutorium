@@ -434,6 +434,7 @@
     % ruzne verze Aleluja:
     <<
     { f^\markup{V době velikonoční:} g( f) e4. e \barFinalis }
+    \new Staff { { \zvyraznovacModry \choralniRezim f4 f( g) e4. e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim f4 g( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim f g( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
     % \new Staff { { \choralniRezim f4 g( a g f) e( d e) e } \addlyrics { A -- le -- lu -- ja. } }
