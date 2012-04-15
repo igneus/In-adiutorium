@@ -70,6 +70,7 @@ make_dirs dirs
 o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
 o_columns = " --columns"
+o_warnmarks = ' --mark-short-verses'
 
 commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets"
 commonoptions = commonoptions_withoutdoxology+o_doxology
@@ -144,8 +145,8 @@ zalmyzaltare = []
 
 adresar_zaltar = 'generovane/zaltar/'
 
-options_zaltar = commonoptions+' --mark-short-verses'
-canticleoptions_zaltar = canticleoptions+' --mark-short-verses'
+options_zaltar = commonoptions+o_warnmarks
+canticleoptions_zaltar = canticleoptions+o_warnmarks
 
 cislazalmu_zaltar = %w( 95 100 67 24
 
@@ -431,11 +432,12 @@ task :nedele => ['vystup/antifonar_nedele.pdf']
 zalmy_triduum = []
 noty_triduum = []
 adresar_triduum = 'generovane/triduum/'
+options_triduum = commonoptions+o_warnmarks
 
 triduum_splitscores_command = splitscores_command + " --output-dir #{adresar_triduum} "
 
-zalmy_triduum << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_triduum)
-zalmy_triduum << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_triduum)
+zalmy_triduum << genzalm('kantikum_benedictus.zalm', options_triduum+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_triduum)
+zalmy_triduum << genzalm('kantikum_magnificat.zalm', options_triduum+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_triduum)
 
 %w( 95 
         72i 72ii
@@ -444,14 +446,14 @@ zalmy_triduum << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle 
         63 149     118i 118ii 118iii   110 114
         
         120 121 122 123 124 125 126 127 128 ).each do |z|
-  zalmy_triduum << genzalm("zalm"+z+".zalm", commonoptions, adresar_triduum)
+  zalmy_triduum << genzalm("zalm"+z+".zalm", options_triduum, adresar_triduum)
 end
-zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', commonoptions+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
 %w( zj11 hab3 fp2 iz38 dan3i ).each do |k|
-  zalmy_triduum << genzalm("kantikum_"+k+".zalm", commonoptions, adresar_triduum)
+  zalmy_triduum << genzalm("kantikum_"+k+".zalm", options_triduum, adresar_triduum)
 end
 
 noty_triduum = {'../pust_triduum.ly' => 'pa-invit', 

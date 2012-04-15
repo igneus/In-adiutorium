@@ -11,6 +11,11 @@
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
 
+% kvuli znacky.tex:
+\usepackage{zref-savepos}
+\usepackage{changepage}
+\usepackage{etoolbox}
+
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
@@ -66,6 +71,7 @@
 
 \input{spolecne.tex}
 \input{rubriky.tex}
+\input{znacky.tex}
 
 \renewcommand{\nadpisDen}[1]{
   \begin{center}
