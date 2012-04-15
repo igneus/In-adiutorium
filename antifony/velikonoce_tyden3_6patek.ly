@@ -119,24 +119,4 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    e4 e( a) a b( a) g g( a) a \barMin
-    a g a a( b a) g f e e \barMaior
-    e f( d) d( e) e \barFinalis
-  }
-  \addlyrics {
-    Chci zpí -- vat Hos -- po -- di -- nu,
-    ne -- boť je vel -- mi vzne -- še -- ný.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "IV"
-    differentia = "E" 
-    psalmus = "Zj 15"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
+\score { \velikTIpatekNespAntIII }
