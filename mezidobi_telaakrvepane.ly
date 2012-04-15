@@ -13,7 +13,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d( a' g a) f4.( g) \barMin f4 f( a) g f g( f) e \barMaior
+    f a g f4.( d) f4 e f d4. d \barMax
     
+    d4( c d4.) d f4 g f g( a) g( a) a \barMaior
+    b c c a( g) g a g f g( f) f \barMaior
+    f e( f) f( g) g \barMin g( f) e f d4. d \barFinalis
   }
   \addlyrics {
     Jak dob -- rý a štěd -- rý jsi, Bo -- že,
@@ -25,8 +30,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -36,9 +41,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax 
+    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
+    a b( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý, kte -- rý se -- stou -- pil z_ne -- be.
@@ -47,8 +54,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
