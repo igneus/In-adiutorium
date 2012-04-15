@@ -101,7 +101,7 @@ kompletar_splitscores_command = splitscores_command + " --output-dir #{adresar_k
 
 file "vystup/antifonar_kompletar.pdf" => ["vystup/antifonar_kompletar.tex", "spolecne.tex"] do
   chdir "vystup"
-  sh "pdflatex -shell-escape antifonar_kompletar"
+  2.times { sh "pdflatex -shell-escape antifonar_kompletar" }
   chdir ".."
 end
 
@@ -144,6 +144,9 @@ zalmyzaltare = []
 
 adresar_zaltar = 'generovane/zaltar/'
 
+options_zaltar = commonoptions+' --mark-short-verses'
+canticleoptions_zaltar = canticleoptions+' --mark-short-verses'
+
 cislazalmu_zaltar = %w( 95 100 67 24
 
                   141 142 63 149 118i 118ii 118iii 110 114
@@ -182,7 +185,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   )
 
 cislazalmu_zaltar.each do |z|
-  zalmyzaltare << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
+  zalmyzaltare << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
 end
 
 dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
@@ -196,13 +199,13 @@ zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
 dan3ii sir36 iz38 1sam2 iz12 hab3 
 dt32 iz2 iz26 iz33 iz40 jer14 mdr9
 iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk| 
-  zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions, adresar_zaltar)
+  zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
-zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
+zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
 
-zalmyzaltare << genzalm('kantikum_benedictus.zalm', commonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', commonoptions+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_benedictus.zalm', options_zaltar+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', options_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
