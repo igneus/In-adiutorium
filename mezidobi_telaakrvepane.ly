@@ -61,7 +61,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d( f) e d( e d) c( d) d( c) \barMaior
+    d d d c( d) d g( f g) g \barMin g g( a g) g( f d) g g( f) d( c) c \barMaior
+    d d d e( f) f( g) g \barMin g( f) g a( g) f f( g) g \barMaior
+    f( g) g g g g a( bes a g) a g( f) f \barMaior
+    g f g g g g( f g) g( f) f \barMin d( g) f d c( d) d \barMax
+    c f( e) d d \barFinalis
   }
   \addlyrics {
     % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
@@ -75,8 +80,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
