@@ -467,6 +467,89 @@
     id = "sim"
   }
 }
+
+\markup\nadpisSkupiny{2}
+\markup\justify{První a poslední oddíl (opatřené značkou sn)
+sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark "sn" a4 a a( c) c c( d c) b a( b) g g \barMaior
+    a g f g( a) a g( a) g \barMax
+    g a c c d( c) d c( b a) a \barMaior
+    \mark "sn" a a a g f g( a) g f e e e \barFinalis
+    g g( f) e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g( a) a c( b) a a \barMaior
+    b c d c a g( f) g \barMax
+    g f a a c( b) c a a \barMaior
+    a b b c( b) a g f e d e e \barFinalis
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g( a) a c( b) a a \barMaior
+    b c d c a g( f) g \barMax
+    g f a a c( b) c a(\mark\sipka b g) g \barMaior
+    f g a a( b) a g f e d e e \barFinalis
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
   
 \bookpart {
   \header {
