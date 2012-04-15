@@ -9,8 +9,8 @@
 \include "dilyresponsorii.ly"
 
 \paper {
-  ragged-bottom=##f
-  ragged-last-bottom=##f
+  ragged-bottom=##t
+  ragged-last-bottom=##t
   
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
@@ -169,6 +169,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -189,6 +191,133 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f( e f) d4.( c) \barMin
+    d4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( g) e4.( d) \barMin
+    c4( f) e( c) c d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) f( g) g \barMin
+    g( f) e f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( c d) d4.( e) \barMin
+    e4 f d c d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( c d) d4.( e) \barMin
+    e4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( e f) e( d c) \barMin
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c) d( f) f \barMin
+    g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f d d( e) e \barMin e f e d d \barFinalis
   }
   \addlyrics {
@@ -202,6 +331,63 @@
     id = "pa"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f( d) c \barMin
+    d c e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e( f) d \barMin
+    c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e c) c4.( d) \barMin
+    d4( f) f e( c) a \barMin
+    c d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -235,6 +421,8 @@
   }
 }
 
+\pageBreak 
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -242,7 +430,25 @@
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    f^\markup{V době velikonoční:} g( f) e4. e \barFinalis
+    
+    % ruzne verze Aleluja:
+    <<
+    { f^\markup{V době velikonoční:} g( f) e4. e \barFinalis }
+    \new Staff { { \choralniRezim f4 g( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f g( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
+    % \new Staff { { \choralniRezim f4 g( a g f) e( d e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f4 e( d) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f f( g) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f d( f) f( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f f d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e e( f) e4. e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e4 e( f) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim e f d( f e) e } \addlyrics { A -- le -- lu -- ja. } }
+    \new Staff { { \choralniRezim f^\markup{Stará verze:} g e e  } \addlyrics { A -- le -- lu -- ja. } }
+    
+    >>
+    
+    \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,
