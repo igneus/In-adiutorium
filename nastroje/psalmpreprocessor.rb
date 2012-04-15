@@ -634,6 +634,7 @@ setup = {
   :prepend_text => nil,
   :append_text => nil,
   :dashes => false,
+  :mark_short_verses => false,
   :paragraph_space => true,
   :guillemets => false,
   :join => false
@@ -697,6 +698,9 @@ optparse = OptionParser.new do|opts|
   opts.on "-g", "--guillemets", "Convert american quotes to french ones (guillemets)." do
     setup[:guillemets] = true
   end
+  opts.on "-m", "--mark-short-verses", "Insert warning marks in verses that are too short" do
+    setup[:mark_short_verses] = true
+  end
   opts.on "-j", "--join", "Join all given input files" do
     setup[:join] = true
   end
@@ -751,8 +755,10 @@ def output_procedure(input, fwn, setup)
     output = LettrineOutputStrategy.new output
   end
 
-  output = MarkShortVersesOutputStrategy.new output
-  
+  if setup[:mark_short_verses] then
+    output = MarkShortVersesOutputStrategy.new output
+  end
+
   # first line contains the title
   if setup[:has_title] then
     if setup[:title_pattern] then
