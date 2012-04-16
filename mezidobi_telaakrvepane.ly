@@ -13,17 +13,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f g g g a4 bes a( g) f g a f g g \barMaior
+    d g g g f( e) f( g) g f e( f) f( g) g \barMaior
+    f( e) f( g f) e d( c) \barMin d f e d d( e d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- tivý:
-    usta -- no -- vil pa -- mát -- ku na své di -- vy,
+    Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
+    u -- sta -- no -- vil pa -- mát -- ku na své di -- vy,
     dal po -- krm těm, kdo se ho bo -- jí.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 111"
     id = ""
     piece = \markup {\sestavTitulek}
