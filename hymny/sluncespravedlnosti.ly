@@ -18,8 +18,8 @@
     \column {
       \line { datum: \dnesniDatum }
       \line { 
-        text je převzat z breviáře, 
-        nápěv z webu \with-url #"http://www.3pe.cz/index.php?page=pisne_komplet&select=%D3" { www.3pe.cz } 
+        text je převzat z breviáře;
+        nápěv viz \italic{Evangelický zpěvník,} Synodní rada ČCE 1979, č. 209.
       }
       \line { sazba programem \sazeciProgram }
     }
@@ -36,7 +36,7 @@
     a2 c a g4 f e2 d |
     r2 g f4 e d d c2 r | \break
     f2 f4 g a bes g2 f r |
-    a2 g4 f g2 e d r \bar "|."
+    a2 g4 f g2 e d1 \bar "|."
   }
   \addlyrics {
     \set stanza = #"1."
