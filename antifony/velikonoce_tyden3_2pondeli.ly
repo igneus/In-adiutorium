@@ -12,7 +12,7 @@
     g f( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Mé srd -- ce i mé tě -- lo
+    Mé srd -- ce i mé tě -- lo_*
     s_já -- so -- tem tíh -- nou k_ži -- vé -- mu Bo -- hu.
     A -- le -- lu -- ja.
   }
@@ -34,7 +34,7 @@
     e e( f) e e \barFinalis
   }
   \addlyrics {
-    Do vý -- še se zdví -- há Hos -- po -- di -- nův dům,
+    Do vý -- še se zdví -- há_* Hos -- po -- di -- nův dům,
     bu -- dou k_ně -- mu prou -- dit všech -- ny ná -- ro -- dy.
     A -- le -- lu -- ja.
   }
@@ -60,7 +60,7 @@
     d f f( a) g \barFinalis
   }
   \addlyrics {
-    Hlá -- sej -- te me -- zi po -- ha -- ny:
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
     Hos -- po -- din kra -- lu -- je.
     A -- le -- lu -- ja.
   }
@@ -84,7 +84,7 @@
     g4 a a( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din ti bu -- de na -- vě -- ky svět -- lem,
+    Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
     tvůj Bůh bu -- de tvou slá -- vou.
     A -- le -- lu -- ja.
   }
@@ -106,7 +106,7 @@
     e c d( e) e \barFinalis
   }
   \addlyrics {
-    Léč -- ka se pře -- trh -- la
+    Léč -- ka se pře -- trh -- la_*
     a my jsme vol -- ní.
     A -- le -- lu -- ja.
   }

@@ -12,7 +12,7 @@
     e f d( c) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus vy -- dal sám se -- be za nás v_o -- běť,
+    Kris -- tus vy -- dal_* sám se -- be za nás v_o -- běť,
     Bo -- hu vel -- mi pří -- jem -- nou.
     A -- le -- lu -- ja.
   }
@@ -34,7 +34,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- ru -- za -- lé -- me, měs -- to Bo -- ží,
+    Je -- ru -- za -- lé -- me,_* měs -- to Bo -- ží,
     bu -- deš zá -- řit ve -- li -- kým svět -- lem.
     A -- le -- lu -- ja.
   }
@@ -56,7 +56,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém,
+    U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém,_*
     jak se -- stu -- pu -- je z_ne -- be.
     A -- le -- lu -- ja.
   }
@@ -81,7 +81,7 @@
     e f( d) d( e) e \barFinalis
   }
   \addlyrics {
-    Tak Bůh mi -- lo -- val svět,
+    Tak Bůh mi -- lo -- val svět,_*
     že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na.
     A -- le -- lu -- ja.
   }
@@ -105,7 +105,7 @@
     g g( f) e( d) e \barFinalis
   }
   \addlyrics {
-    Krá -- li vě -- ků,
+    Krá -- li vě -- ků,_*
     ne -- smr -- tel -- né -- mu a ne -- vi -- di -- tel -- né -- mu,
     buď všech -- na čest a slá -- va.
     A -- le -- lu -- ja.

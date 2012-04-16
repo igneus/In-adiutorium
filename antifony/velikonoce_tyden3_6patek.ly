@@ -12,7 +12,7 @@
     e f d( c) d \barFinalis
   }
   \addlyrics {
-    Bo -- že,
+    Bo -- že,_*
     smyj ze mne ú -- pl -- ně mou vi -- nu.
     A -- le -- lu -- ja.
   }
@@ -34,7 +34,7 @@
     e d c( d) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus ve svém tě -- le
+    Kris -- tus ve svém tě -- le_*
     vy -- ne -- sl na -- še hří -- chy na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
@@ -56,7 +56,7 @@
     b c a( g) g \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
     A -- le -- lu -- ja.
   }
   \header {
@@ -80,7 +80,7 @@
     g a a( g) g \barFinalis
   }
   \addlyrics {
-    Já jsem Hos -- po -- din,
+    Já jsem Hos -- po -- din,_*
     tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
     A -- le -- lu -- ja.
   }
@@ -103,7 +103,7 @@
     e4 d f( d) d \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na né krá -- lov -- ství
+    Po -- žeh -- na né krá -- lov -- ství_*
     na -- še -- ho ot -- ce Da -- vi -- da,
     kte -- ré při -- chá -- zí.
     A -- le -- lu -- ja.

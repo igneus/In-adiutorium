@@ -14,7 +14,7 @@ velikTIpondeliNespAntIII = \score {
     e c c( d) d \barFinalis
   }
   \addlyrics {
-    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
     po -- táh -- nu všech -- ny li -- di k_so -- bě.
     A -- le -- lu -- ja.
   }
@@ -37,7 +37,7 @@ velikTIpatekNespAntIII = \score {
     e f( d) d( e) e \barFinalis
   }
   \addlyrics {
-    Chci zpí -- vat Hos -- po -- di -- nu,
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
     ne -- boť je vel -- mi vzne -- še -- ný.
     A -- le -- lu -- ja.
   }

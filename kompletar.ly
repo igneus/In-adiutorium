@@ -46,7 +46,7 @@
     d4 f f g g f d d \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
-    Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
+    Smi -- luj se na -- de mnou, Bo -- že,_* a slyš mou pros -- bu.
   }
   \header {
     quid = "1. ant."
@@ -64,7 +64,7 @@
     f4 e f e c d d4 \barFinalis
   }
   \addlyrics {
-    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+    V_noč -- ních ho -- di -- nách_* ve -- leb -- te Hos -- po -- di -- na.
   }
   \header {
     quid = "2. ant."
@@ -84,7 +84,7 @@
     e( c) f d4. d4. \barFinalis
   }
   \addlyrics {
-    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    O -- chrá -- ní tě_* svý -- mi pe -- ru -- tě -- mi;
     ne -- mu -- síš se bát noč -- ní hrů -- zy.
   }
   \header {
@@ -102,7 +102,7 @@
     d4 d d d c d e( f) e4.( d) \barMin f4 g( a) a e f d d4. \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý a nej -- výš mi -- lo -- srd -- ný.
+    Bo -- že, ty jsi sho -- ví -- va -- vý_* a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
     quid = "ant."
@@ -120,7 +120,7 @@
     e4 f d d( c) d \barFinalis
   }
   \addlyrics {
-    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    Ne -- skrý -- vej_* pře -- de mnou svou tvář,
     vždyť v_te -- be dou -- fám.
   }
   \header {
@@ -139,7 +139,7 @@
     f f f f g f e c d d \barFinalis
   }
   \addlyrics {
-    Buď mi o -- chran -- nou ská -- lou, Bo -- že,
+    Buď mi o -- chran -- nou ská -- lou, Bo -- že,_*
     o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
   }
   \header {
@@ -158,7 +158,7 @@
     e c d d \barFinalis
   }
   \addlyrics {
-    Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
+    Z_hlu -- bin_* vo -- lám k_to -- bě, Hos -- po -- di -- ne.
   }
   \header {
     quid = "2. ant."
@@ -175,7 +175,7 @@
     d4 d( f e) e \barMin e( f) d c d d \barFinalis
   }
   \addlyrics {
-    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+    Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
   }
   \header {
     quid = "ant."
@@ -192,7 +192,7 @@
     d4 d f d d( e) e \barMin e f e d d \barFinalis
   }
   \addlyrics {
-    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+    Bo -- že, vo -- lám k_to -- bě_* ve dne i v_no -- ci.
   }
   \header {
     quid = "ant."
@@ -245,7 +245,7 @@
     f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
   }
   \addlyrics {
-    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,_*
     a -- by -- chom bdě -- li s_Kris -- tem,
     a o -- chra -- ňuj nás, když spí -- me,
     a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
@@ -284,7 +284,7 @@
       g( a) a g4. g \barFinalis
     }
     \addlyrics {
-      A -- le -- lu -- ja,
+      A -- le -- lu -- ja,_*
       a -- le -- lu -- ja,
       a -- le -- lu -- ja.
     }
