@@ -19,6 +19,22 @@ temporálem a sanktorálem.
 složil.)
 }
 
+\markup\column{
+  \line\bold{Invitatoria typu Pojďme ze společných textů:}
+  \line\italic{1. Pojďme, klaňme se Kristu, našemu Pánu;}
+  \line{- on si z nás staví svůj duchovní chrám. (Aleluja.)}
+  \line{- on je nejvyšší Pastýř církve. (Aleluja.)}
+  \line{- on je pramen moudrosti. (Aleluja.)}
+  
+  \line\italic{2. Pojďme, klaňme se Kristu;}
+  \line{- on je Pán a Král apoštolů.}
+  \line{Aleluja. ... on je Pán a Král apoštolů, aleluja.}
+  \line{- on je Pán a Král mučedníků. (Aleluja.)}
+  \line{- on je Pán a Král panen. (Aleluja.)}
+  \line{- on je Beránek, kterého následují panny. (Aleluja.)}
+  \line{Pojďme, klaňme se Bohu; on ukazuje svou slávu na svých svatých. (Aleluja.)}
+}
+
 \markup\large\bold{Krátký typ Pojďme, klaňme se Kristu}
 
 \markup\nadpisSkupiny{"Z officia defunctorum"}
