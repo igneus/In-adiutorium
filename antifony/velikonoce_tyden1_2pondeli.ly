@@ -12,7 +12,7 @@
     a f( a) g g \barFinalis
   }
   \addlyrics {
-    Ať se ra -- du -- jí v_to -- bě všich -- ni,
+    Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
     kdo mi -- lu -- jí tvé jmé -- no.
     A -- le -- lu -- ja.
   }
@@ -35,7 +35,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    To -- bě, Hos -- po -- di -- ne, 
+    To -- bě, Hos -- po -- di -- ne,_* 
     pří -- slu -- ší kra -- lo -- vat,
     ty jsi svr -- cho -- va -- ně po -- vý -- še -- ný na -- de vším.
     A -- le -- lu -- ja.
@@ -57,7 +57,7 @@
     f g g g \barFinalis
   }
   \addlyrics {
-    Pán bu -- de kra -- lo -- vat na -- vě -- ky.
+    Pán bu -- de kra -- lo -- vat na -- vě -- ky._*
     A -- le -- lu -- ja.
   }
   \header {
@@ -80,7 +80,7 @@
     g f( g) f f \barFinalis
   }
   \addlyrics {
-    Buď -- te do -- bré mys -- li,
+    Buď -- te do -- bré mys -- li,_*
     já jsem pře -- mo -- hl svět.
     A -- le -- lu -- ja.
   }
@@ -102,7 +102,7 @@
     e d c( d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, kdo smí pro -- dlé -- vat v_tvém stán -- ku,
+    Hos -- po -- di -- ne,_* kdo smí pro -- dlé -- vat v_tvém stán -- ku,
     kdo pře -- bý -- vat na tvé sva -- té ho -- ře?
     A -- le -- lu -- ja.
   }

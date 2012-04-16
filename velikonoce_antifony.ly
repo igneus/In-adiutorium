@@ -168,7 +168,7 @@
       a4 a( c) g( b) a \barFinalis
     }
     \addlyrics {
-      Tak je psá -- no:
+      Tak je psá -- no:_*
       Kris -- tus bu -- de tr -- pět
       a tře -- tí -- ho dne vsta -- ne z_mrt -- vých.
       V_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
@@ -195,7 +195,7 @@
       a a g g \barFinalis
     }
     \addlyrics {
-      Já jsem pas -- týř dob -- rý.
+      Já jsem pas -- týř dob -- rý._*
       Dob -- rý pas -- týř dá -- vá za ov -- ce svůj ži -- vot.
       A -- le -- lu -- ja!
     }
@@ -218,7 +218,7 @@
       b a g g \barFinalis
     }
     \addlyrics {
-      Já jsem dob -- rý pas -- týř;
+      Já jsem dob -- rý pas -- týř;_*
       já jsem ces -- ta, prav -- da a ži -- vot.
       Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
       A -- le -- lu -- ja!
@@ -244,7 +244,7 @@
       f d d( e) e \barFinalis
     }
     \addlyrics {
-      Mám ta -- ké ji -- né ov -- ce,
+      Mám ta -- ké ji -- né ov -- ce,_*
       kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
       Ta -- ké ty mu -- sím při -- vést;
       u -- po -- slech -- nou mé -- ho hla -- su
@@ -272,7 +272,7 @@
        g g( a) a( g) g \barFinalis
     }
     \addlyrics {
-      Já jsem pra -- vý vin -- ný kmen a můj O -- tec je vi -- nař.
+      Já jsem pra -- vý vin -- ný kmen_* a můj O -- tec je vi -- nař.
       Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, 
       čis -- tí, a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
       A -- le -- lu -- ja.
@@ -295,7 +295,7 @@
       a4 g f( g) g \barFinalis
     }
     \addlyrics {
-      Kdo zůs -- tá -- vá ve mně a já v_něm,
+      Kdo zůs -- tá -- vá ve mně_* a já v_něm,
       ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
       A -- le -- lu -- ja.
     }
@@ -318,7 +318,7 @@
       g a a( g) g \barFinalis
     }
     \addlyrics {
-      Tím bu -- de o -- sla -- ven můj O -- tec,
+      Tím bu -- de o -- sla -- ven můj O -- tec,_*
       že po -- ne -- se -- te mno -- ho o -- vo -- ce
       a o -- svěd -- čí -- te se ja -- ko mo -- ji u -- čed -- ní -- ci.
       A -- le -- lu -- ja.
@@ -343,7 +343,7 @@
       d( e f) g( f) e f d( c) c \barMin d f e( d) d \barFinalis
     }
     \addlyrics {
-      Ja -- ko O -- tec mi -- lo -- val mne,
+      Ja -- ko O -- tec mi -- lo -- val mne,_*
       tak jsem já mi -- lo -- val vás.
       Zů -- staň -- te v_mé lás -- ce.
       A -- le -- lu -- ja.
@@ -367,7 +367,7 @@
       a a a a g f g( a g) f e f d( c) c \barMin d f e( d) d \barFinalis
     }
     \addlyrics {
-      To jsem k_vám mlu -- vil,
+      To jsem k_vám mlu -- vil,_*
       a -- by mo -- je ra -- dost by -- la ve vás
       a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
       A -- le -- lu -- ja.
@@ -393,7 +393,7 @@
       d e c( d) d \barFinalis
     }
     \addlyrics {
-      To je mé při -- ká -- zá -- ní:
+      To je mé při -- ká -- zá -- ní:_*
       Mi -- luj -- te se na -- vzá -- jem, 
       ja -- ko jsem já mi -- lo -- val vás.
       Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
@@ -421,7 +421,7 @@
       g c b( a) a \barFinalis
     }
     \addlyrics {
-      Ot -- če sva -- tý,
+      Ot -- če sva -- tý,_*
       za -- cho -- vej je ve svém jmé -- nu, kte -- ré jsi mi dal,
       a -- by by -- li jed -- no ja -- ko my.
       A -- le -- lu -- ja.
@@ -445,7 +445,7 @@
       e c c( d) d \barFinalis
     }
     \addlyrics {
-      Ot -- če, ny -- ní jdu k_to -- bě,
+      Ot -- če, ny -- ní jdu k_to -- bě,_*
       a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
       a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
       A -- le -- lu -- ja.
@@ -470,7 +470,7 @@
       e f d( c) d \barFinalis
     }
     \addlyrics {
-      Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,
+      Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,_*
       tak i já jsem je pos -- lal do svě -- ta;
       a pro ně se za -- svě -- cu -- ji,
       a -- by i o -- ni by -- li po -- svě -- ce -- ni v_prav -- dě.

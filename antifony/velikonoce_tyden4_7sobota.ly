@@ -12,7 +12,7 @@
     c a a( g) g \barFinalis
   }
   \addlyrics {
-    Jak vel -- ko -- le -- pá jsou tvá dí -- la,
+    Jak vel -- ko -- le -- pá_* jsou tvá dí -- la,
     Hos -- po -- di -- ne.
     A -- le -- lu -- ja.
   }
@@ -33,7 +33,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Po -- kro -- pím vás o -- čist -- nou vo -- dou.
+    Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
     A -- le -- lu -- ja.
   }
   \header {
@@ -55,7 +55,7 @@
     d e c( d) d \barFinalis
   }
   \addlyrics {
-    Všech -- no je na -- še,
+    Všech -- no je na -- še,_*
     my však pat -- ří -- me Kris -- tu
     a Kris -- tus Bo -- hu.
     A -- le -- lu -- ja.

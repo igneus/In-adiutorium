@@ -12,7 +12,7 @@
     a f( a) g g \barFinalis
   }
   \addlyrics {
-    Smi -- luj se, Bo -- že,
+    Smi -- luj se, Bo -- že,_*
     a o -- tev -- ři mi ces -- tu k_ži -- vo -- tu.
     A -- le -- lu -- ja.
   }
@@ -36,7 +36,7 @@
     a b( a) g( a) a \barFinalis
   }
   \addlyrics {
-    Kdo zví -- tě -- zí,
+    Kdo zví -- tě -- zí,_*
     bu -- dou zpí -- vat pí -- seň 
     Moj -- ží -- še,
       Bo -- ží -- ho slu -- žeb -- ní -- ka,
@@ -61,7 +61,7 @@
     d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Moc -- ně vlád -- ne nad ná -- mi
+    Moc -- ně vlád -- ne nad ná -- mi_*
     je -- ho mi -- lo -- sr -- den -- ství.
     A -- le -- lu -- ja.
   }

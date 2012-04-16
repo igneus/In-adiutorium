@@ -12,7 +12,7 @@
     c f e( d) d \barFinalis
   }
   \addlyrics {
-    Pa -- ma -- tuj na mě, Pa -- ne,
+    Pa -- ma -- tuj na mě, Pa -- ne,_*
     až při -- jdeš do své -- ho krá -- lov -- ství.
     A -- le -- lu -- ja.
   }
@@ -34,7 +34,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    O -- prav -- du, ty jsi Bůh skry -- tý,
+    O -- prav -- du,_* ty jsi Bůh skry -- tý,
     Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
     A -- le -- lu -- ja.
   }
@@ -55,7 +55,7 @@
     f g g g \barFinalis
   }
   \addlyrics {
-    Služ -- te Hos -- po -- di -- nu s_ra -- dos -- tí.
+    Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
     A -- le -- lu -- ja.
   }
   \header {
@@ -78,7 +78,7 @@
     f f( g) a( c) a4.( g) \barFinalis
   }
   \addlyrics {
-    Kris -- tus se pro nás stal chu -- dým,
+    Kris -- tus se pro nás stal chu -- dým,_*
     a nám dal své bo -- hat -- ství.
     A -- le -- lu -- ja.
   }
@@ -100,14 +100,14 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Prou -- dy bys -- třin
+    Prou -- dy bys -- třin_*
     jsou k_ra -- dos -- ti Bo -- ží -- mu měs -- tu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 46"
     id = ""
     piece = \markup {\sestavTitulek}
