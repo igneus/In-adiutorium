@@ -341,8 +341,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c a d( c) a a \barMin b c b a g( a) a \barMaior
-    g a( b) a a \barFinalis
+    d4 c a d( c) a a \barMin d e d c a( g) g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Po -- zna -- li Je -- ží -- še při lá -- má -- ní chle -- ba.
