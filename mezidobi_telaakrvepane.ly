@@ -15,7 +15,7 @@
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     d g g g f( e) f( g) g f e( f) f( g) g \barMaior
-    f( e) f( g f) e d( c) \barMin d f e d d( e d) d \barFinalis
+    f( e) f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
@@ -140,9 +140,12 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    d4( a) c b g4. g \barMax
+    a4 b c4.( a) \barMin c4( a) a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -150,10 +153,9 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
-    id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
