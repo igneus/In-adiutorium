@@ -35,7 +35,10 @@ složil.)
   \line{Pojďme, klaňme se Bohu; on ukazuje svou slávu na svých svatých. (Aleluja.)}
 }
 
-\markup\large\bold{Krátký typ Pojďme, klaňme se Kristu}
+\bookpart {
+  \header {
+    subtitle = "Krátký typ Pojďme, klaňme se Kristu"
+  }
 
 \markup\nadpisSkupiny{"Z officia defunctorum"}
 
@@ -59,31 +62,84 @@ složil.)
   }
 }
 
-\markup\nadpisSkupiny{"Adventní"}
-
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f \major
-    g4( a) a \barMin
-    bes a g a4. g \barMin
-    a4 c bes a g f f \barFinalis
+    d4( f) f \barMin g( f) e f d( c) c \barMaior
+    d d c d f4.( g) \barMin f4 e c( d) d \barFinalis
+    f e c( d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me,
-    klaň -- me se krá -- li,
-    na kte -- ré -- ho če -- ká -- me.
+    \set stanza = #"a)"
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů. A -- le -- lu -- ja.
+  }
+  \addlyrics {
+    \set stanza = #"b)"
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    mu -- čed -- ní -- ků. A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = "VI"
-    differentia = "g" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-\markup\large\bold{Dlouhý typ Pojďme, klaňme se Kristu, našemu Pánu apod.}
+\markup\nadpisSkupiny{"II-B"}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin g( f) e f e( d) d \barMaior
+    d c d( e f) d e4.( f) \barMin g4( f) e f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král ži -- vých i mrt -- vých.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{"II-B-2"}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin g( f) e f e( d) d \barMaior
+    \mark\sipka f f g4.( e4) f e4.( d) \barMaior f4 e c c( d) d \barFinalis 
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král ži -- vých i mrt -- vých.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+
+} % bookpart
+
+\bookpart {
+  \header {
+    subtitle = "Dlouhý typ Pojďme, klaňme se Kristu, našemu Pánu apod."
+  }
 
 \markup\nadpisSkupiny{Postní}
 
@@ -212,7 +268,158 @@ složil.)
   }
 }
 
-\markup\large\bold{Ultrakrátký typ typ Klaňme se}
+\markup\nadpisSkupiny{"Křtu Páně - úpravy"}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( f e c) \mark\sipka c4.( d) \barMin
+    c4( a) b c \mark\sipka c( d) d \barMin
+    \mark\sipka d4( e) c( a) b a( g) g \barMax
+    a( f) f4.( g4 a) b( c b) b( a) \barMin 
+    a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Bo -- ží -- mu Sy -- nu;
+    v_něm má O -- tec
+    za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \zvyraznovacZelenyII
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    \mark\sipka d4( c a g) a( b) a g4. g \barMax
+    a4( f) f4.( g4 a) b( c b) a \barMin 
+    b a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Bo -- ží -- mu Sy -- nu;
+    v_něm má O -- tec
+    za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{"Křtu Páně - pro jiné texty"}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    d4( c a g) a( b) a g4. g \barMax
+    g4 f( g4 a c) c d( e) d( c d) d \barMaior
+    d b c a4.( g) a4 b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    % musel jsem pridat jedno aleluja, abych vysel s melodii.
+    a -- le -- lu -- ja, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    d4( a) c b g4. g \barMax
+    g4 a( c) c d( c)  a( b) a4.( g) \barMin 
+    a4 b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    d4( a) c b g4. g \barMax
+    a4 f f4.( a4 b) c( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on je chléb ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( f e c) c4.( d) \barMin
+    c4( a) b c c( d) d \barMin
+    d4( a) c b g4. g \barMax
+    a4 b c4.( a) \barMin c4( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on je chléb ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+} % bookpart
+
+\bookpart {
+  \header {
+    subtitle = "Ultrakrátký typ Klaňme se"
+  }
 
 \markup\nadpisSkupiny{"Advent 2"}
 
@@ -235,4 +442,6 @@ složil.)
     psalmus = ""
     piece = \markup {\sestavTitulek}
   }
+}
+
 }
