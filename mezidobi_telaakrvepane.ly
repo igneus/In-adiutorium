@@ -350,7 +350,7 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d" 
     psalmus = ""
     id = ""
