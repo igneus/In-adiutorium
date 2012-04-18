@@ -1,3 +1,5 @@
+% -*- master: ../velikonoce_antifony.ly;
+
 % Antifony k nz kantikum nespor se opakuji v dvoutydennim
 % cyklu - podobne jako v zaltari.
 % Do zvlastniho souboru jsou vytazeny proto, ze v souboru
@@ -25,6 +27,28 @@ velikTIpondeliNespAntIII = \score {
     psalmus = "Ef 1"
     id = ""
     fons = "5. ne postní, 2. nešp, ad Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+velikTIuteryNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( bes a) a \barMin bes( c) d c a c( a) g \barMaior
+    a g( a) f( d) d \barMin f( g) a( bes a) a c( a) g g \barMaior
+    f g e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží všech -- no tvor -- stvo, Bo -- že, 
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Zj 4"
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }

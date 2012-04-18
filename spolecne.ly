@@ -8,7 +8,12 @@
   ragged-last = ##t
   \context {
     \Score
-    \remove "Bar_number_engraver"
+    \remove Bar_number_engraver
+  }
+  \context {
+    \Staff
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel
   }
 }
 
