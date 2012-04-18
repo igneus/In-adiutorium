@@ -9,8 +9,11 @@
   \context {
     \Score
     \remove Bar_number_engraver
-    % \consists Custos_engraver
-    % \override Custos #'style = #'hufnagel
+  }
+  \context {
+    \Staff
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel
   }
 }
 
