@@ -53,6 +53,31 @@ velikTIuteryNespAntIII = \score {
   }
 }
 
+velikTIstredaNespAntIII = \score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
+    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    g f g a( b a) g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Kol 1"
+    id = ""
+    fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 velikTIpatekNespAntIII = \score {
   \relative c' {
     \choralniRezim
