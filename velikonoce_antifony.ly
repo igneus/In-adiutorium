@@ -510,6 +510,7 @@
   \include "antifony/velikonoce_tyden3_2pondeli.ly"
   \include "antifony/velikonoce_tyden3_3utery.ly"
   \include "antifony/velikonoce_tyden3_4streda.ly"
+  \include "antifony/velikonoce_tyden3_5ctvrtek.ly"
   \include "antifony/velikonoce_tyden3_6patek.ly"
   \include "antifony/velikonoce_tyden3_7sobota.ly"
   
