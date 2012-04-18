@@ -202,7 +202,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       
       %R
       \neviditelna f
-      f f f f f f f f f f f e g a a \barMax
+      f f f f f f f g f \barMin f f e g a a \barMax
       \respVIalelujaResponsum \barFinalis
       
       %V
