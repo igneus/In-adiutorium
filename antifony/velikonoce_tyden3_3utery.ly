@@ -79,10 +79,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) c b( g) \barMaior
-    g a( f) f( e) e \barMin
-    d f g f( g) \barMax
-    g a( g) f( g) g \barFinalis
+    a4( g) a a4.( g4 e) \barMaior
+    a b( a) g( a) a \barMin g f d e \barMaior
+    d f e e \barFinalis
   }
   \addlyrics {
     Po -- koj vám!
@@ -91,11 +90,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 125"
     id = ""
-    fons = "závěr: Velikonoční oktáv, čtvrtek, ad Magnificat"
     piece = \markup {\sestavTitulek}
   }
 }
