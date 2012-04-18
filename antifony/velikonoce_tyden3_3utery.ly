@@ -77,9 +77,12 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( a) c b( g) \barMaior
+    g a( f) f( e) e \barMin
+    d f g f( g) \barMax
+    g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Po -- koj vám!
@@ -88,10 +91,11 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 125"
     id = ""
+    fons = "závěr: Velikonoční oktáv, čtvrtek, ad Magnificat"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -99,7 +103,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d( c a) c4.( d) \barMin d4( f) e d( c) c d e d d \barMaior
+    e c( a) c( d) d \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
@@ -107,8 +112,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 131"
     id = ""
     piece = \markup {\sestavTitulek}
