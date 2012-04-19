@@ -146,6 +146,26 @@ velikTIIpondeliNespAntIII = \score {
   }
 }
 
+velikTIIuteryNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,
+    nád -- he -- ra, lesk i vzne -- še -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Zj 4"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 velikTIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
