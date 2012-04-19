@@ -81,7 +81,9 @@ velikTIstredaNespAntIII = \score {
 velikTIctvrtekNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    
+    d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMax
+    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMax 
+    e c d d \barFinalis
   }
   \addlyrics {
     Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,
@@ -90,8 +92,8 @@ velikTIctvrtekNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
