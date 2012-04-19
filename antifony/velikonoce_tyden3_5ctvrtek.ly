@@ -93,12 +93,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e( f) f( d) d \barMin
-    d d f g a( bes) a a \barMaior
-    bes a( g a) a \barMin g a f( d) d \barMaior
-    e f d d \barFinalis
+    g4 a a( c) c c d e d c( d) d( c) c \barMaior
+    d c( d a4.) a \barMin f4 g g( a) a \barMaior
+    c bes( g) a a \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus 
@@ -108,8 +107,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 132-II"
     id = ""
     piece = \markup {\sestavTitulek}
