@@ -5,19 +5,24 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g f g a( c a4.) a \barMin
+    a4( g) a g f e f f( a) a \barMaior
+    a( c b g) g \barMin
+    f e f g f d e e \barMaior
+    f d e e \barFinalis
   }
   \addlyrics {
-    Ten, kdo pl -- ní vů -- li mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+    Ten, kdo pl -- ní vů -- li 
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 101"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -25,9 +30,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    b( d) d \barMin
+    b c( d) d d c b d( e) d( c) b \barMaior
+    b a( b) c a a( g) g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Bo -- že,
@@ -37,8 +45,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "b" 
     psalmus = "Dan 3-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -46,9 +54,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 a a a a4 bes g f( d) d \barMin
+    e c c( e) d4. d \barMaior
+    f4 d e( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě
@@ -57,10 +67,11 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = ""
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 144-I"
     id = ""
+    fons = "melodie adaptována z: žaltář, čtvrtek 4. týdne, nešp., 1. ant."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -70,7 +81,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4( a) g f e4.( d) \barMin
+    c4 b c d d( e) e \barMaior
+    f f e( f) e \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te nám ze si -- ón -- ských pís -- ní.
@@ -78,8 +91,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 137"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -87,9 +100,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g a g f f4.( d) \barMin
+    a'4 c a( g) f g g( a) a \barMaior
+    f d e( d) d \barFinalis
   }
   \addlyrics {
     Když pro -- chá -- zím sou -- že -- ním,
@@ -98,8 +113,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Žalm 138"
     id = ""
     piece = \markup {\sestavTitulek}

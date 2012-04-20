@@ -147,9 +147,11 @@ velikTIIpondeliNespAntIII = \score {
 }
 
 velikTIIuteryNespAntIII = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( c) c d c a a c b a g a4.( g) \barMaior
+    g4 f g a( c) b g a a \barMaior
+    c a g( f) g \barFinalis
   }
   \addlyrics {
     Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,
@@ -158,8 +160,8 @@ velikTIIuteryNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
