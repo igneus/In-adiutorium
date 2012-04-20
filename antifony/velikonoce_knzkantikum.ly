@@ -168,6 +168,26 @@ velikTIIuteryNespAntIII = \score {
   }
 }
 
+velikTIIstredaNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bo -- že, ne -- be -- sa jsou pl -- ná tvé slá -- vy
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Kol 1"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 velikTIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
