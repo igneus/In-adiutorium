@@ -39,7 +39,7 @@ velikTIuteryNespAntIII = \score {
     f g e( d) d \barFinalis
   }
   \addlyrics {
-    Ať ti slou -- ží všech -- no tvor -- stvo, Bo -- že, 
+    Ať ti slou -- ží_* všech -- no tvor -- stvo, Bo -- že, 
     ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
     A -- le -- lu -- ja.
   }
@@ -62,7 +62,7 @@ velikTIstredaNespAntIII = \score {
     f g( a) g g \barFinalis
   }
   \addlyrics {
-    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    Všech -- no po -- chá -- zí_* od te -- be, Bo -- že;
     v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
     to -- bě buď slá -- va na -- vě -- ky.
     A -- le -- lu -- ja.
@@ -86,7 +86,7 @@ velikTIctvrtekNespAntIII = \score {
     e c d d \barFinalis
   }
   \addlyrics {
-    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,
+    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,_*
     kdo je ja -- ko ty vzne -- še -- ný ve sva -- tos -- ti?
     A -- le -- lu -- ja.
   }
@@ -154,7 +154,7 @@ velikTIIuteryNespAntIII = \score {
     c a g( f) g \barFinalis
   }
   \addlyrics {
-    Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,
+    Tvá je, Hos -- po -- di -- ne,_* ve -- li -- kost a moc,
     nád -- he -- ra, lesk i vzne -- še -- nost.
     A -- le -- lu -- ja.
   }
@@ -176,7 +176,7 @@ velikTIIstredaNespAntIII = \score {
     b4 g g( a) a \barFinalis
   }
   \addlyrics {
-    Ne -- be -- sa jsou pl -- ná tvé slá -- vy, Bo -- že, 
+    Ne -- be -- sa_* jsou pl -- ná tvé slá -- vy, Bo -- že, 
     a ce -- lá ze -- mě tě chvá -- lí.
     A -- le -- lu -- ja.
   }
@@ -198,7 +198,7 @@ velikTIIctvrtekNespAntIII = \score {
     c d e d \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus je stej -- ný
+    Je -- žíš Kris -- tus je stej -- ný_*
     vče -- ra i dnes i na -- vě -- ky.
     A -- le -- lu -- ja.
   }

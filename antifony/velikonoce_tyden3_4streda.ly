@@ -12,7 +12,7 @@
     f f( g) e e \barFinalis
   }
   \addlyrics {
-    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne, a bu -- dou se
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne,_* a bu -- dou se
     před te -- bou kla -- nět.
     A -- le -- lu -- ja.
   }
@@ -30,12 +30,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') a a( g bes) a g g( f) f( g) \barMaior
-    f( g f) e d( e d) d \barMaior
-    e c c( d) d \barFinalis
+    d4 d d( a') a a( g bes) a g g( f) f4.( g) \barMaior
+    f4( g f) e d( e d4.) d \barMaior
+    e4 c c( d) d \barFinalis
   }
   \addlyrics {
-    Na -- še o -- či u -- vi -- dí Kris -- ta,
+    Na -- še o -- či_* u -- vi -- dí Kris -- ta,
     krá -- le slá -- vy.
     A -- le -- lu -- ja.
   }
@@ -60,7 +60,7 @@
     bes bes a a \barFinalis
   }
   \addlyrics {
-    Kaž -- dý člo -- věk 
+    Kaž -- dý člo -- věk_*
     u -- zří Bo -- ží spá -- su.
     A -- le -- lu -- ja.
   }
@@ -83,7 +83,7 @@
     g f( d) d( e) e \barFinalis
   }
   \addlyrics {
-    Váš zá -- rmu -- tek se změ -- ní v_ra -- dost.
+    Váš zá -- rmu -- tek_* se změ -- ní v_ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {
@@ -104,7 +104,7 @@
     a b a( g) g \barFinalis
   }
   \addlyrics {
-    Ať ži -- je -- me ne -- bo u -- mí -- rá -- me,
+    Ať ži -- je -- me_* ne -- bo u -- mí -- rá -- me,
     pat -- ří -- me Pá -- nu.
     A -- le -- lu -- ja.
   }

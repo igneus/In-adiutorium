@@ -13,7 +13,7 @@
     e c f( d) d \barFinalis
   }
   \addlyrics {
-    Pro své jmé -- no, Hos -- po -- di -- ne,
+    Pro své jmé -- no,_* Hos -- po -- di -- ne,
     za -- cho -- vej mě na -- ži -- vu.
     A -- le -- lu -- ja.
   }
@@ -35,7 +35,7 @@
     a b( a) g g \barFinalis
   }
   \addlyrics {
-    O -- pět vás u -- vi -- dím
+    O -- pět vás u -- vi -- dím_*
     a va -- še srd -- ce se za -- ra -- du -- je.
     A -- le -- lu -- ja.
   }
@@ -57,7 +57,7 @@
     c d e d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din bu -- du -- je Je -- ru -- za -- lém
+    Hos -- po -- din bu -- du -- je Je -- ru -- za -- lém_*
     % a % vypustka 
     u -- zdra -- vu -- je ty, jimž pu -- ká srd -- ce.
     A -- le -- lu -- ja.
@@ -82,7 +82,7 @@
     f4 d e( c) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mé ú -- to -- čiš -- tě
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
     a můj za -- chrán -- ce.
     A -- le -- lu -- ja.
   }
@@ -107,7 +107,7 @@
     c d e( d) d \barFinalis
   }
   \addlyrics {
-    Vzdá -- vej -- me dí -- ky Bo -- hu,
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
     on nám po -- přá -- vá ví -- těz -- ství
     skr -- ze na -- še -- ho Pá -- na 
     Je -- ží -- še Kris -- ta.

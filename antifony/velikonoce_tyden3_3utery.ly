@@ -13,7 +13,7 @@
     c c( d a) b!( a) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, da -- ruj nám svůj ži -- vot,
+    Bo -- že,_* da -- ruj nám svůj ži -- vot,
     a -- by -- chom se v_to -- bě ra -- do -- va -- li.
     A -- le -- lu -- ja.
   }
@@ -35,7 +35,7 @@
     d f g( f) f \barFinalis
   }
   \addlyrics {
-    Dou -- fa -- li jsme v_Hos -- po -- di -- na
+    Dou -- fa -- li jsme v_Hos -- po -- di -- na_*
     a on nám da -- ro -- val po -- koj.
     A -- le -- lu -- ja.
   }
@@ -59,7 +59,7 @@
   \addlyrics {
     % V breviari hrozny text :(
     % Radsi obetuji doslovnou citaci zalmu a udelam text zpevnejsi:
-    Ze -- mě vy -- da -- la svou ú -- ro -- du;
+    Ze -- mě_* vy -- da -- la svou ú -- ro -- du;
     % nechť se li -- dé ra -- du -- jí a já -- sa -- jí.
     já -- sej -- te a ra -- duj -- te se, li -- dé!
     A -- le -- lu -- ja.
@@ -84,7 +84,7 @@
     d f e e \barFinalis
   }
   \addlyrics {
-    Po -- koj vám!
+    Po -- koj vám!_*
     Ne -- boj -- te se, vždyť jsem to já.
     A -- le -- lu -- ja.
   }
@@ -105,7 +105,7 @@
     e c( a) c( d) d \barFinalis
   }
   \addlyrics {
-    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    Dou -- fej,_* Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
     A -- le -- lu -- ja.
   }
   \header {

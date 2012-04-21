@@ -11,7 +11,7 @@
     a4 g f( g) g \barFinalis
   }
   \addlyrics {
-    Všech -- na zříd -- la mé spá -- sy jsou v_to -- bě.
+    Všech -- na zříd -- la mé spá -- sy_* jsou v_to -- bě.
     A -- le -- lu -- ja.
   }
   \header {
@@ -33,7 +33,7 @@
     e g( a) f( e) e \barFinalis
   }
   \addlyrics {
-    Dob -- rý pas -- týř 
+    Dob -- rý pas -- týř_* 
     shro -- maž -- ďu -- je be -- rán -- ky
     a ve svém klí -- nu je ne -- se.
     A -- le -- lu -- ja.
@@ -55,7 +55,7 @@
     f e f( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký
+    Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*
     a na -- de vše -- mi ná -- ro -- dy vy -- vý -- še -- ný.
     A -- le -- lu -- ja.
   }
@@ -78,7 +78,7 @@
     g a a( c) a \barFinalis
   }
   \addlyrics {
-    Pán Bůh mu dal trůn je -- ho před -- ka Da -- vi -- da.
+    Pán Bůh mu dal trůn_* je -- ho před -- ka Da -- vi -- da.
     A -- le -- lu -- ja.
   }
   \header {
@@ -100,7 +100,7 @@
     c bes( g) a a \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus_* 
     je je -- di -- ný Pa -- nov -- ník,
     Král krá -- lů a Pán pá -- nů.
     A -- le -- lu -- ja.

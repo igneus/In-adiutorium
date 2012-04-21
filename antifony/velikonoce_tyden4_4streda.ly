@@ -11,7 +11,7 @@
     d c a g g( a g) g \barMaior g g( a) g g \barFinalis
   }
   \addlyrics {
-    U -- kaž se ve své vzne -- še -- nos -- ti 
+    U -- kaž se_* ve své vzne -- še -- nos -- ti 
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
@@ -35,7 +35,7 @@
     a g f( e) e \barFinalis
   }
   \addlyrics {
-    Pán, Hos -- po -- din,
+    Pán, Hos -- po -- din,_*
     dá vy -- ra -- šit 
     spra -- ve -- dl -- nos -- ti a slá -- vě
     pře -- de vše -- mi ná -- ro -- dy.
@@ -59,7 +59,7 @@
     a4 a a( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
     tvůj Bůh, Si -- ó -- ne.
     A -- le -- lu -- ja.
   }
@@ -81,7 +81,7 @@
     d4 c d d( g) f d c c \barMin a c c( d) d \barFinalis
   }
   \addlyrics {
-    Noc ja -- ko den se roz -- jas -- ní.
+    Noc ja -- ko den se roz -- jas -- ní._*
     A -- le -- lu -- ja.
   }
   \header {
@@ -102,7 +102,7 @@
     a4 c c( d) d \barFinalis
   }
   \addlyrics {
-    Já znám svo -- je ov -- ce
+    Já znám svo -- je ov -- ce_*
     a mo -- je ov -- ce zna -- jí mne.
     A -- le -- lu -- ja.
   }

@@ -14,7 +14,7 @@
     f d e e \barFinalis
   }
   \addlyrics {
-    Ten, kdo pl -- ní vů -- li 
+    Ten, kdo pl -- ní vů -- li_* 
     mé -- ho ne -- bes -- ké -- ho Ot -- ce,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
     A -- le -- lu -- ja.
@@ -38,7 +38,7 @@
     a b g g \barFinalis
   }
   \addlyrics {
-    Bo -- že,
+    Bo -- že,_*
     ať po -- zna -- jí všech -- ny ná -- ro -- dy,
     že jsi mi -- lo -- srd -- ný.
     A -- le -- lu -- ja.
@@ -61,7 +61,7 @@
     f4 d e( c) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mé ú -- to -- čiš -- tě
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
     a můj za -- chrán -- ce.
     A -- le -- lu -- ja.
   }
@@ -86,7 +86,7 @@
     f f e( f) e \barFinalis
   }
   \addlyrics {
-    Zpí -- vej -- te nám ze si -- ón -- ských pís -- ní.
+    Zpí -- vej -- te nám_* ze si -- ón -- ských pís -- ní.
     A -- le -- lu -- ja.
   }
   \header {
@@ -107,7 +107,7 @@
     f d e( d) d \barFinalis
   }
   \addlyrics {
-    Když pro -- chá -- zím sou -- že -- ním,
+    Když pro -- chá -- zím sou -- že -- ním,_*
     za -- cho -- vá -- váš mi ži -- vot.
     A -- le -- lu -- ja.
   }
