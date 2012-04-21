@@ -144,6 +144,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -299,6 +301,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
