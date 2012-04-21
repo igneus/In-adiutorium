@@ -414,6 +414,101 @@ složil.)
   }
 }
 
+\markup\nadpisSkupiny{"Nanebevstoupení 1"}
+\markup{Vyvíjeno zde}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a) a \barMin g f g f( d) d \barMin f e f d d \barMaior
+    d d4( a') a b( c) b( a) a \barMaior
+    g e f d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a) a \barMin g f g f( d) d \barMin f e f d d \barMaior
+    d d4( a') a b( c) b( a) a \barMaior
+    a g a g4.( d) f4 e d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a) a \barMin g f g f( d) d \barMin f e f d d \barMaior
+    d d4( a') a b( c) b( a) a \barMaior
+    a a a( d,) d \barMin f4 e d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{"Nanebevstoupení 2"}
+\markup{Vyvíjeno zde}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g a4. a \barMaior
+    d4 c( d) d c( b) a( g) g \barMin
+    a a g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 } % bookpart
 
 \bookpart {
