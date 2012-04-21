@@ -190,6 +190,28 @@ velikTIIstredaNespAntIII = \score {
   }
 }
 
+velikTIIctvrtekNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    a4( d) d c d e d4. d \barMaior
+    f4 d f g( f) d c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Zj 11"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 velikTIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
