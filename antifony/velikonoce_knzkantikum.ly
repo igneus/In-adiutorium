@@ -39,7 +39,7 @@ velikTIuteryNespAntIII = \score {
     f g e( d) d \barFinalis
   }
   \addlyrics {
-    Ať ti slou -- ží všech -- no tvor -- stvo, Bo -- že, 
+    Ať ti slou -- ží_* všech -- no tvor -- stvo, Bo -- že, 
     ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
     A -- le -- lu -- ja.
   }
@@ -62,7 +62,7 @@ velikTIstredaNespAntIII = \score {
     f g( a) g g \barFinalis
   }
   \addlyrics {
-    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    Všech -- no po -- chá -- zí_* od te -- be, Bo -- že;
     v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
     to -- bě buď slá -- va na -- vě -- ky.
     A -- le -- lu -- ja.
@@ -86,7 +86,7 @@ velikTIctvrtekNespAntIII = \score {
     e c d d \barFinalis
   }
   \addlyrics {
-    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,
+    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,_*
     kdo je ja -- ko ty vzne -- še -- ný ve sva -- tos -- ti?
     A -- le -- lu -- ja.
   }
@@ -141,6 +141,72 @@ velikTIIpondeliNespAntIII = \score {
     modus = "VIII"
     differentia = "c" 
     psalmus = "Ef 1"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+velikTIIuteryNespAntIII = \score {
+  \relative c'' {
+    \choralniRezim
+    a4( c) c d c a a c b a g a4.( g) \barMaior
+    g4 f g a( c) b g a a \barMaior
+    c a g( f) g \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Hos -- po -- di -- ne,_* ve -- li -- kost a moc,
+    nád -- he -- ra, lesk i vzne -- še -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Zj 4"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+velikTIIstredaNespAntIII = \score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) c( e) e4.( d) \barMaior d4 d( e) e4.( c) \barMin d4( c) a g g( a) a \barMaior
+    f g a c( d) c b a4. a \barMaior
+    b4 g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- be -- sa_* jsou pl -- ná tvé slá -- vy, Bo -- že, 
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Kol 1"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+velikTIIctvrtekNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    a4( d) d c d e d4. d \barMaior
+    f4 d f g( f) d c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
   }
