@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Společné texty O Panně Marii a sobotní památka Panny Marie"
+  title = "Společné texty o Panně Marii a sobotní památka Panny Marie"
   composer = "Jakub Pavlík"
 }
 
