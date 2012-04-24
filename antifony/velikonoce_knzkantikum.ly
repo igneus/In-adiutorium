@@ -36,7 +36,7 @@ velikTIuteryNespAntIII = \score {
     \choralniRezim
     f4 g a( bes a) a \barMin bes( c) d c a c( a) g \barMaior
     a g( a) f( d) d \barMin f( g) a( bes a) a c( a) g g \barMaior
-    f g e( d) d \barFinalis
+    a f e( d) d \barFinalis
   }
   \addlyrics {
     Ať ti slou -- ží_* všech -- no tvor -- stvo, Bo -- že, 
