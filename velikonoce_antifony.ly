@@ -507,6 +507,7 @@
   \include "antifony/velikonoce_tyden2_2pondeli.ly"
   \include "antifony/velikonoce_tyden2_3utery.ly"
   \include "antifony/velikonoce_tyden2_4streda.ly"
+  \include "antifony/velikonoce_tyden2_5ctvrtek.ly"
   \include "antifony/velikonoce_tyden2_6patek.ly"
   \include "antifony/velikonoce_tyden2_7sobota.ly"
   
