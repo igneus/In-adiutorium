@@ -52,8 +52,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a4.( b) \barMin g4 g a c d c a a \barMaior
-    b c a( g) g \barFinalis
+    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    a a g g \barFinalis
   }
   \addlyrics {
     Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
@@ -65,7 +65,7 @@
     differentia = "d" 
     psalmus = "Žalm 100"
     id = ""
-    fons = "žaltář, pátek 1.t., rch, 3.ant.; upraveno"
+    fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
