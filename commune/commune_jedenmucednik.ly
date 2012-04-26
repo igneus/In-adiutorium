@@ -212,7 +212,7 @@
     
   }
   \addlyrics {
-    Poj ď -- me, klaň -- me se Kris -- tu;
+    Pojď -- me, klaň -- me se Kris -- tu;
     on je Pán a Král mu -- čed -- ní -- ků.
     
     A -- le -- lu -- ja.
