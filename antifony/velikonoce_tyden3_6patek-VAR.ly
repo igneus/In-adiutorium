@@ -72,6 +72,72 @@
   }
 }
 
+\markup\nadpisSkupiny{doslovně}
+\markup{Přebírá celý nápěv z žaltáře a doplní jen Aleluja.}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    a a g g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 100"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    \mark\sipka a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 100"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    \mark\sipka f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 100"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{melisma}
+
 \score {
   \relative c'' {
     \choralniRezim
