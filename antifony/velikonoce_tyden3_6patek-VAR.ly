@@ -26,6 +26,12 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{První dvě třetiny (po "\"hříchy\"") jsou úryvek z delší antifony, která
+graduje ke slovu "\"kříže\""; takhle zkrácená ale melodie není
+funkční, je nevyvážená.}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -45,6 +51,60 @@
     psalmus = "Jer 14"
     id = ""
     fons = "Svatý týden - Květná neděle - 2. nešp. - 3.ant. (první část, upravena)"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 e f g a( bes a) a \barMaior
+    a g a bes a bes( a) a \barMin
+    bes a f d4. d \barMaior
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le
+    vy -- ne -- sl na -- še hří -- chy 
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Jer 14"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    f4 e f g a( bes a) a \barMaior
+    a g a bes a \mark\sipka bes( a g a) a \barMin
+    g f d c( d) d \barMaior
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le
+    vy -- ne -- sl na -- še hří -- chy 
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Jer 14"
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }
