@@ -1,4 +1,4 @@
-\markup {\nadpisDen {Čtvrtek 3. týdne}}
+\markup {\nadpisDen {Čtvrtek 1. týdne}}
 
 % -*- master: ../velikonoce_antifony.ly;
 
