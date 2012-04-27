@@ -27,24 +27,26 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g4 f e( f d) d \barMin
-    d c d f e f( g) g \barMaior g( a) f e d d \barMaior
-    e d c( d) d \barFinalis
+    \key f \major
+    f4 e f g a( bes a) a \barMaior
+    a g a bes a bes( a) a \barMin
+    bes a f d4. d \barMaior
+    e4 f d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le_*
-    vy -- ne -- sl na -- še hří -- chy na dře -- vo kří -- že.
+    vy -- ne -- sl na -- še hří -- chy 
+    na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "f" 
     psalmus = "Jer 14"
     id = ""
-    fons = "Svatý týden - Květná neděle - 2. nešp. - 3.ant. (první část, upravena)"
     piece = \markup {\sestavTitulek}
   }
 }
