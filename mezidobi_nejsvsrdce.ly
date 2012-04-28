@@ -223,17 +223,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    \key f \major
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    d4( f) f f g f e f f( d) \barMin
+    f g( a) g f g( a) a a \barMax
+    bes a g a( d,) d \barMin c d( f) e c c( d) d \barFinalis
     % V
     \neviditelna a
-    
+    a'( bes) a a( bes) a g f g( a) a \barMax
     % R
     \neviditelna a
-    
+    bes a g a( d,) d \barMin c d( f) e c c( d) d \barFinalis
     % Slava
+    a'4 a a( bes) a g a( bes a) a \barMin a g f g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Vez -- mě -- te na se -- be mé jho
@@ -245,7 +248,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
