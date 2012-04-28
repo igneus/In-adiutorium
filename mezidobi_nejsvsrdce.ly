@@ -11,30 +11,36 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g( b g) g( a) a \barMin g( a g) f e4. e \barMaior
+    d4( c) d e e f( g) g( a) a \barMaior
+    a g f e( a) a a a( b a g) g( a) \barMaior
+    a( b) g g( f e) \barMin e( f) d d( e) e \barFinalis
   }
   \addlyrics {
     Pán nás mi -- lo -- val věč -- nou lás -- kou;
     smi -- lo -- val se nad ná -- mi,
     a když byl vy -- vý -- šen na kříž,
-    táh -- ne ná k_své -- mu srd -- ci.
+    táh -- ne nás k_své -- mu srd -- ci.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 113"
     id = ""
+    fons = "první část: dnes, antifona k Benedictus"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 b a c( d) d( c) c \barMin
+    c d e c( a) a \barMin c c( d) c b a( g) g \barMaior
+    g g( c) d d( c) c \barMin d d c( d c) b a g g( a) g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
@@ -43,8 +49,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Žalm 146"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -52,9 +58,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c b a c( d) d \barMaior
+    d( e) c d( c) a4. a \barMin
+    a4 g( a) a c b g g( a) a \barFinalis
   }
   \addlyrics {
     Já jsem dob -- rý pas -- týř,
@@ -63,10 +71,11 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = "Zj 4"
     id = ""
+    fons = "první část a motiv třetí části: Svatý týden, modlitba uprostřed dne, ant. v poledne"
     piece = \markup {\sestavTitulek}
   }
 }
