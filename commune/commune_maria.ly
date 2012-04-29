@@ -13,8 +13,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \breathe g4 a c( b) a( g) g \bar "|"
-    g f g g( a) a a c( d) d \breathe d c b( c) a g( a g) g \bar "||"
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
+    g f g g( a) a a c( d) d \barMin d c b( c) a g( a g) g \barFinalis
+    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -38,6 +39,7 @@
     d4( g) f f( g) g g( a) a \barMin
     a g bes a( g a) a \barMaior
     a a( g a) f( d) d d( f) e f d d \barFinalis
+    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
   }
   \addlyrics {
     Zro -- di -- la jsi to -- ho, 
@@ -62,6 +64,7 @@
     a( b) g4. g \barMin a4 g f f f( e) e \barMaior
     g a a( c) c b( c a4.) a \barMin 
     a4( c) c d c b c a g g \barFinalis
+    g^\markup\small\italic{V době velikonoční:} a g g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, dce -- ro,
@@ -153,8 +156,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) d f g f d d \bar "|"
-    d c d e e e f( g) f( e) e \breathe e f d d c( d) d4. \bar "|"
+    d4 c( d) d f g f d d \barMax
+    d c d e e e f( g) f( e) e \barMin e f d d c( d) d4. \barFinalis
+    c4^\markup\small\italic{V době velikonoční:} d e d \barFinalis
   }
   \addlyrics {
     Bůh shlé -- dl na mou po -- ko -- ru,
@@ -200,8 +204,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 e f f e f g a a \breathe a g a bes( g bes) a \breathe
-    a bes g f( e) d \bar "||"
+    d4 e f f e f g a a \barMin a g a bes( g bes) a \barMin
+    a bes g f( e) d \barFinalis
+    e^\markup\small\italic{V době velikonoční:} g f( d) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -246,10 +251,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c e e4. d \breathe c4 a b b g \bar "|"
-    c b c e e e \breathe d e c a( g) g \bar "|"
-    g a b c c c d( e) d c d4. d \bar "|" 
-    d4 d d d b c4. \breathe c4 a b g4. g \bar "||"
+    c4 b c e e4. d \barMin c4 a b b g \barMax
+    c b c e e e \barMin d e c a( g) g \barMax
+    g a b c c c d( e) d c d4. d \barMax 
+    d4 d d d b c4. \barMin c4 a b g4. g \barFinalis
+    a4^\markup\small\italic{V době velikonoční:} b a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -271,9 +277,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c4. c \breathe d4 c b b( c) a \bar "|"
-    a a b( c) a( g) c d d( c) c \bar "|"
-    b( c) a a4.( g) \breathe f4 g a g( a g) g \bar "||"
+    g4 a c4. c \barMin d4 c b b( c) a \barMax
+    a a b( c) a( g) c d d( c) c \barMax
+    b( c) a a4.( g) \barMin f4 g a g( a g) g \barFinalis
+    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
   }
   \addlyrics {
     Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
@@ -294,8 +301,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) f( g) g \breathe f e c d d \bar "|"
-    d e f g g g a( bes) a \breathe a a g f e( d) d \bar "||"
+    a4( g) f( g) g \barMin f e c d d \barMax
+    d e f g g g a( bes) a \barMin a a g f e( d) d \barFinalis
+    d^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
   }
   \addlyrics {
     Ra -- duj se, Pan -- no Ma -- ri -- a,
@@ -383,8 +391,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a a( c) c( a) a \breathe b( c) b a g4. g \bar "|"
-    f4 a a a a g a b c b( a g) g \bar "||"
+    g4 g a a( c) c( a) a \barMin b( c) b a g4. g \barMax
+    f4 a a a a g a b c b( a g) g \barFinalis
+    b(^\markup\small\italic{V době velikonoční:} c) b( a) g a( g) \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la ne -- bes -- kou brá -- nu,
@@ -394,8 +403,8 @@
   }
   \header {
     quid = "ant."
-    modus = "I"
-    differentia = "D" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulek}
   }
@@ -427,8 +436,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 a a a bes g g( a) a \breathe 
-    bes bes bes bes a( g) g \breathe f e d d \bar "||"
+    f4 a a a bes g g( a) a \barMin 
+    bes bes bes bes a( g) g \barMin f e d d \barFinalis
+    f^\markup\small\italic{V době velikonoční:} e d d \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka řek -- la:
@@ -473,7 +483,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a c( d) d d \breathe c d b c b4. \breathe b4( c) a( g) g \bar "||"
+    g4 a a c( d) d d \barMin c d b c b4. \barMin 
+    b4( c) a( g) g \barFinalis
+    a^\markup\small\italic{V době velikonoční:} a g g \barFinalis
   }
   \addlyrics {
     Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
@@ -493,8 +505,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b) c d d d a( g a4.) a \breathe
-    c4 d d e( c b) b \breathe a b b a g g \bar "||"
+    a4( b) c d d d a( g a4.) a \barMin
+    c4 d d e( c b) b \barMin a b b a g g \barFinalis
+    a^\markup\small\italic{V době velikonoční:} b a( g) g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
@@ -514,8 +527,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) e f( g) g g f g g a a \breathe g a a a a g4.( d) \breathe
-    f4 e c d d \bar "||"
+    d( f) e f( g) g g f g g a a \barMin g a a a a g4.( d) \barMin
+    f4 e c d d \barFinalis
+    e^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
@@ -609,8 +623,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( c) d f( g) a a a bes bes c( g) g( a) a \breathe
-    a bes g g g f g g( a) a \breathe a a a a g a f e d4. d \bar "||"
+    d4( c) d f( g) a a a bes bes c( g) g( a) a \barMin
+    a bes g g g f g g( a) a \barMin a a a a g a f e d4. d \barFinalis
+    e4^\markup\small\italic{V době velikonoční:} c c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -699,9 +714,9 @@
   \relative c' {
     \choralniRezim
     d4 f( d) d
-    d e f g( f) e \breathe
-    d c( d) d \breathe
-    d d c d d f e c d d \bar "||"
+    d e f g( f) e \barMin
+    d c( d) d \barMin
+    d d c d d f e c d d \barFinalis
   }
   \addlyrics {
     Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
