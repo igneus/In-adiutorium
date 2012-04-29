@@ -183,7 +183,13 @@
     }
   }
   
+  \pageBreak
+  
   \markup {\nadpisDen {4. neděle velikonoční}}
+  
+  \markup\justify{Tahle (první, kterou jsem složil) se mi nezdá.
+  Jako by modálně nedržela pohromadě (I-VIII?); Nový začátek na
+  \italic{Dobrý pastýř} působí divně; a tak...}
   
   \score {
     \relative c'' {
@@ -207,6 +213,66 @@
     }
   }
   
+  \markup\nadpisSkupiny{2}
+  
+  \markup{Myslím, že je dobrá - ale poměrně prostá.}
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      g4 g f g a( c) c \barMaior
+      c( d) c b( c b a) a4.( g) \barMin 
+      a4( g) f g a a b( a) a( g) g \barMaior
+      g g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Já jsem pas -- týř dob -- rý.
+      Dob -- rý pas -- týř 
+      dá -- vá za ov -- ce svůj ži -- vot.
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny{3}
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( a b) b4.( c) \barMin c4 c( b) g( a g) g \barMaior
+      g( a) f g( a) a \barMin
+      \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+      a4 g f g( a) a( g) g \barMaior
+      g g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Já jsem pas -- týř dob -- rý.
+      Dob -- rý pas -- týř 
+      dá -- vá 
+      za ov -- ce svůj ži -- vot.
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -214,6 +280,31 @@
       a c b( g) g \barMin a( g) f e d d \barMax
       d d e f( g) g \barMin g a b c b a g a \barMaior
       b a g g \barFinalis
+    }
+    \addlyrics {
+      Já jsem dob -- rý pas -- týř;
+      já jsem ces -- ta, prav -- da a ži -- vot.
+      Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g a f( g) g \barMaior
+      a c b( g) g \barMin a( g) f e \mark\sipka d( e d) d \barMax
+      \mark\sipka f( e) g a g( a) a \barMin a b c c( d c) b a( g) f( g) g \barMaior
+      g a g g \barFinalis
     }
     \addlyrics {
       Já jsem dob -- rý pas -- týř;
@@ -526,14 +617,5 @@
     subtitle = "Čtyřtýdenní cyklus feriálních antifon"
   }
   
-  \markup {\nadpisDen {1. TÝDEN}}
-  
-  \markup {\nadpisDen {2. TÝDEN}}
-  \include "antifony/velikonoce_tyden2_2pondeli.ly"
-  \include "antifony/velikonoce_tyden2_6patek.ly"
-  
-  \markup {\nadpisDen {3. TÝDEN}}
-  \include "antifony/velikonoce_tyden3_2pondeli.ly"
-  
-  \markup {\nadpisDen {4. TÝDEN}}
+  \markup { Viz jednotlivé soubory velikonoce_* v adresáři antifony.}
 }
