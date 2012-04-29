@@ -190,19 +190,23 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g a f( d) d \barMaior
-      d( g) f g( a) a \barMin b c d c b c a( g) g \barMaior
-      a a g g \barFinalis
+      c4( a b) b4.( c) \barMin c4 c( b) g( a g) g \barMaior
+      g( a) f g( a) a \barMin
+      \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+      a4 g f g( a) a( g) g \barMaior
+      g g( a) g g \barFinalis
     }
     \addlyrics {
       Já jsem pas -- týř dob -- rý._*
-      Dob -- rý pas -- týř dá -- vá za ov -- ce svůj ži -- vot.
+      Dob -- rý pas -- týř 
+      dá -- vá 
+      za ov -- ce svůj ži -- vot.
       A -- le -- lu -- ja!
     }
     \header {
       quid = "ant. k Magnificat"
       modus = "VIII"
-      differentia = "G" 
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -213,9 +217,9 @@
     \relative c'' {
       \choralniRezim
       g4 g g a f( g) g \barMaior
-      a c b( g) g \barMin a( g) f e d d \barMax
-      d d e f( g) g \barMin g a b c b a g a \barMaior
-      b a g g \barFinalis
+      a c b( g) g \barMin a( g) f e d( e d) d \barMax
+      f( e) g a g( a) a \barMin a b c c( d c) b a( g) f( g) g \barMaior
+      g a g g \barFinalis
     }
     \addlyrics {
       Já jsem dob -- rý pas -- týř;_*
