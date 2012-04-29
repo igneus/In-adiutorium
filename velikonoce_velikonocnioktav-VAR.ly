@@ -465,6 +465,47 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\markup{\nadpisSkupiny{AR} Pokus o adaptaci nápěvu z AR1912, s. 394.}
+
+\markup\justify{Je to zatím velice hrubé, nedotažené,
+natahovat nápěv na úplně jiná slova v jiném jinak stavěném jazyce
+je vždycky trochu jako natahovat nápěv i slova na skřipec
+a aby výsledek k něčemu byl, chce to hodně práce. Zatím je to
+polotovar na někdy příště. 
+Z toho, jak mi antifona ale i v tomto nehotovém tvaru zní,
+se mi zdá, že český text
+ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g bes) a( g a f) a( c) \[ c( c c \] \[ a g a) \] \barMaior
+    g( a) a c( b c) \[ d( e c \] \[ c a g) \] a \barMin c( a c) c( d e c d) d( c) \barMax
+    a( c c b \[ c d e c b \] c c b) a( c a g a c) c( b a c g g f) \barMax
+    f( g a) a( g a) c( a c c c d) c a \barMaior
+    f( g c a c d) d( c d e d c) \barMax
+    e( c e f d b c a g) a( b c d c d e) \barMin d( e d e c a b c) b( a) \barFinalis
+  }
+  \addlyrics {
+    To -- to je den,_*
+    kte -- rý u -- či -- nil Hos -- po -- din,
+    já -- sej -- me 
+    a ra -- duj -- me se 
+    z_ně -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. /místo responsoria/"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "A" 
+    psalmus = ""
+    id = "paschoctant"
+    id = "resp"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
