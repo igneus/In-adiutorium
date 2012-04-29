@@ -34,12 +34,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( g) f f( g) g g( a) a \barMin
-    a g bes a( g a) a \barMaior
-    a a( g a) f( d) d d( f) e f d d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
+    c4 a g f g( a) a \barMin b c c a( g) g \barMaior
+    a c( d c) b( c a g) g \barMin a( g f) a a g( a g) g \barFinalis
+    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
   }
   \addlyrics {
     Zro -- di -- la jsi to -- ho, 
@@ -50,8 +49,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "D" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Žalm 147"
     piece = \markup {\sestavTitulek}
   }
@@ -208,9 +207,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 e f f e f g a a \barMin a g a bes( g bes) a \barMin
-    a bes g f( e) d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} g f( d) d \barFinalis
+    d4 e f f e f g a a \barMin 
+    a g a bes( c bes a) a \barMin
+    a g f e( f d) d \barFinalis
+    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -255,17 +255,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c e e4. d \barMin c4 a b b g \barMax
-    c b c e e e \barMin d e c a( g) g \barMax
-    g a b c c c d( e) d c d4. d \barMax 
-    d4 d d d b c4. \barMin c4 a b g4. g \barFinalis
-    a4^\markup\small\italic{V době velikonoční:} b a( g) g \barFinalis
+    c4( b) c c e e4. d \barMin 
+    c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c4.( d) \barMin 
+    f4 e c d( c) c \barMax
+    g a b c c c d( e) d c d4. d \barMaior
+    d4 d d d b c4. \barMin 
+    d4 b c a( g) g \barFinalis
+    
+    b^\markup\small\italic{V době velikonoční:} c a4. g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
-    z_te -- be se na -- ro -- dil Spa -- si -- tel svě -- ta;
+    Bla -- ho -- sla -- ve -- ná jsi, 
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil 
+    Spa -- si -- tel svě -- ta;
     ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
-    při -- mlou -- vej se za nás u své -- ho sy -- na.
+    při -- mlou -- vej se za nás 
+    u své -- ho sy -- na.
     
     A -- le -- lu -- ja.
   }
@@ -533,15 +540,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) e f( g) g g f g g a a \barMin g a a a a g4.( d) \barMin
-    f4 e c d d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
+    d( f) e f( g) g \barMin g f g g a a \barMaior 
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+    f^\markup\small\italic{V době velikonoční:} e f d d \barMaior e c c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+    a po -- žeh -- na -- ný plod \markup{\Dagger ži} -- vo -- ta tvé -- ho.
     
-    A -- le -- lu -- ja.
+    \markup{\Dagger ži} -- vo -- ta tvé -- ho. A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -626,12 +633,11 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4( c) d f( g) a a a bes bes c( g) g( a) a \barMin
-    a bes g g g f g g( a) a \barMin a a a a g a f e d4. d \barFinalis
-    e4^\markup\small\italic{V době velikonoční:} c c( d) d \barFinalis
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
+    c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
+    c^\markup\small\italic{V době velikonoční:} a( g) a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -642,8 +648,8 @@
   }
   \header {
     quid = "ant."
-    modus = "I"
-    differentia = "D" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
   }
