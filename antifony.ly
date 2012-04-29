@@ -101,6 +101,7 @@
 
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
+\markup {\nadpisHodinka {"invitatorium"}}
 \markup {\nadpisHodinka {"ranní chvály"}}
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 \markup {\nadpisHodinka {"2. nešpory"}}

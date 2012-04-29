@@ -27,24 +27,26 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g4 f e( f d) d \barMin
-    d c d f e f( g) g \barMaior g( a) f e d d \barMaior
-    e d c( d) d \barFinalis
+    \key f \major
+    f4 e f g a( bes a) a \barMaior
+    a g a bes a bes( a) a \barMin
+    bes a f d4. d \barMaior
+    e4 f d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le_*
-    vy -- ne -- sl na -- še hří -- chy na dře -- vo kří -- že.
+    vy -- ne -- sl na -- še hří -- chy 
+    na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "f" 
     psalmus = "Jer 14"
     id = ""
-    fons = "Svatý týden - Květná neděle - 2. nešp. - 3.ant. (první část, upravena)"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,8 +54,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a4.( b) \barMin g4 g a c d c a a \barMaior
-    b c a( g) g \barFinalis
+    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    a a g g \barFinalis
   }
   \addlyrics {
     Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
@@ -65,7 +67,7 @@
     differentia = "d" 
     psalmus = "Žalm 100"
     id = ""
-    fons = "žaltář, pátek 1.t., rch, 3.ant.; upraveno"
+    fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
