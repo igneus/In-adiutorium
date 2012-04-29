@@ -77,19 +77,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
     \neviditelna a
-    
+    g4( f) g g a a a b c a g g( a) \barMax
+    c4 c d( c) b( a) a c( b) a( g) g \barFinalis
     % V
     \neviditelna a
-    
+    g c( d c) b g a a \barMax
     % R
     \neviditelna a
-    
+    c4 c d( c) b( a) a c( b) a( g) g \barFinalis
     % Slava
+    c( d) d c( d) c b b( c) c \barMin c b g g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,_*
@@ -100,7 +102,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VIII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -135,7 +137,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( g) g \barMin a( bes) a g a( bes) a g f( d) d \barMaior
+    g f g( f e) d( e d4.) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
@@ -143,8 +146,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -275,7 +278,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f e d( e) e \barMin e f d c a4. a \barMaior
+    f'4 g f e( d c) \barMin d c f( e) d4. d \barFinalis
   }
   \addlyrics {
     Pán je náš soud -- ce,
@@ -285,8 +289,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
