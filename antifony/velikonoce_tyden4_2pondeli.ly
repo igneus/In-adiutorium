@@ -7,9 +7,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( bes) a( g) g \barMin a g f g f( g) g \barMaior
-    g( f) e f d d \barMaior
-    f e( f) e( d) d \barFinalis
+    g4 g a( bes) a( g) g \barMin a g f g d d \barMaior
+    f e c c( d) d \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Ať je nad ná -- mi_* do -- bro -- ti -- vost Pá -- na,
@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "g" 
     psalmus = "Žalm 90"
     id = ""
     piece = \markup {\sestavTitulek}
