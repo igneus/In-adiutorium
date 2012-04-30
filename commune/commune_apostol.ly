@@ -8,6 +8,8 @@
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 
+rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -33,9 +35,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a g( f) d d d( f) f( g) g \barMin
+    f f( g) f e d d \barFinalis
     
+    d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
     O -- pus -- ti -- li své sí -- tě
@@ -45,8 +50,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Žalm 147-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -54,9 +59,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 e d( c) d d( c) c( a) a \barMaior
+    g a a b( c d) c( d) c b a( g) g( a) a \barFinalis
     
+    a^\markup\rubrVelikAleluja b a a \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
@@ -66,8 +74,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -444,9 +452,11 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g f g a f e d e( f) d d \barFinalis
     
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Vy jste se mnou vy -- tr -- va -- li v_mých zkouš -- kách.
@@ -455,8 +465,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -464,9 +474,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a a a b g g \barMin f g a g f( e) e \barFinalis
     
+    f^\markup\rubrVelikAleluja g e e \barFinalis
   }
   \addlyrics {
     Já jsem me -- zi vá -- mi ja -- ko ten, kdo slou -- ží.
@@ -475,8 +487,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 126"
     id = ""
     piece = \markup {\sestavTitulek}
