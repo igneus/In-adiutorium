@@ -392,7 +392,7 @@
       \key f \major
       d4 d d4.( f4 g) a g a a \barMaior
       a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barMax
-      d f g( a) a g( a) bes c( bes) a g g( a) \barMaior
+      d f g( a) a a( g) a c( bes) a g g( a) \barMaior
       a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barMaior
       d e c( d) d \barFinalis
     }

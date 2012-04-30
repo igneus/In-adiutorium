@@ -408,21 +408,35 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    \key f \major
+    g4( f) g bes( a) a( g) g \barMin
+    g f( g) g( bes c) bes c d d \barMaior
     
+    <<
+    { d d f( d) c( a) a \barMin }
+    \new Staff { { \choralniRezim d d d( e c) c } \addlyrics { a -- by po -- znal, } }
+    >>
+    
+    a c d d c( d) c( a) a \barMin
+    bes( a) g g( a) a \barFinalis
+    
+    a^\markup\small\italic{V době velikonoční:} bes bes( a) a \barFinalis
   }
   \addlyrics {
-    V těž -- kém zá -- pa -- su ho_(ji) Bůh ve -- dl k ví -- těz -- ství,
-    a -- by po -- znal -- (a), 
+    V_těž -- kém zá -- pa -- su 
+    ji_(ho) Bůh ve -- dl k_ví -- těz -- ství,
+    
+    a -- by po -- znal -- a,
     že na -- de vším ví -- tě -- zí Bo -- ží moud -- rost.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -432,18 +446,25 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    % Tahle antifona se mi zda zvlast krasna.
+    d4 d d( c d) d( f) f \barMin
+    f( g f) e( d) d e( d) c d d( c) c \barMaior
+    c d f g( a g f) g( d) \barMin
+    f( g f) e c e( f d) d \barFinalis
+    c^\markup\small\italic{V době velikonoční:} e( f) e( d) d \barFinalis
   }
   \addlyrics {
-    Bůh ho_(ji) o -- věn -- čil ko -- ru -- nou spra -- ve -- dl -- nos -- ti
-    a dal mu_(jí) ú -- čast na věč -- né slá -- vě.
+    Bůh ho_(ji) o -- věn -- čil 
+    ko -- ru -- nou spra -- ve -- dl -- nos -- ti
+    a dal mu_(jí) ú -- čast 
+    na věč -- né slá -- vě.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -543,5 +564,121 @@
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Mimo dobu velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response Zkou -- šel jsi nás, Bo -- že,_*
+    a -- le ne -- od -- ňals nám svou lás -- ku.
+    \Verse Tří -- bil jsi nás oh -- něm, ja -- ko se tří -- bí stříb -- ro,_*
+    \Response a -- le ne -- od -- ňals nám svou lás -- ku.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
+    a pře -- bý -- va -- jí v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí bu -- dou zá -- řit 
+    v ne -- bes -- kém krá -- lov -- ství ja -- ko slun -- ce._* \textRespAleluja
+    \Verse Všich -- ni, kdo jsou u -- přím -- né -- ho srd -- ce,
+    bu -- dou já -- sat._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e f g( a) a
+    a( b) a g g( a) a a \barMin a
+    a4 a a( e) e \barMaior
+    f( e f) d f f( e) e \barMax
+    e( a g) g( a) g f g4.( a) \barMaior
+    a4 g a b( g) g g( a g) f( g f e) e \barMax
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že pše -- nič -- né zr -- no
+    ne -- pad -- ne do ze -- mě a 
+    ne -- o -- du -- mře,
+    zů -- sta -- ne sa -- mo;
+    o -- du -- mře -- -li však,
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = ""
+    fons = "5. neděle postní, 1. nešp., k Magn.; přidáno aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
