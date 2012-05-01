@@ -224,15 +224,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f g f g g( a) a( g) \barMax
+    g g( a g) g( f) d d \barMin c( d) f( g) g g( f) g g f f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a g( a) g( f) g( a) a( g) \barMax
     % R
     \neviditelna a
-    
+    g g( a g) g( f) d d \barMin c( d) f( g) g g( f) g g f f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bo -- že, tvo -- ji věr -- ní tě chvá -- lí_*
@@ -243,7 +245,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -412,18 +414,23 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    e4 d( e) e e d( c) d d( e) e \barMin
+    g a g f g g \barMax
+    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a( b) a g( a) a \barMin 
+    a a( e) e a( g) f g f e g a a \barMax
     % R
     \neviditelna a
-    
+    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
     % Slava
+    a a a( b) a a g( a) a \barMin a g f g( a) a a \barFinalis
   }
   \addlyrics {
-    \Response Bůh po -- ma -- zal své -- ho Sy -- na na kně -- ze a krá -- le;_*
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    na kně -- ze a krá -- le;_*
     je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
     \Verse Žez -- lo je -- ho vlá -- dy
     je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
@@ -432,7 +439,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "IV"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
