@@ -626,17 +626,18 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g( a) a( b) a a \barMin a( b c) c( b) b \barMin c b( a) b( a) g a( g) \barMaior
-    a g f g g g( a g) g \barMax
-    a( b) b( c) c c c b c( a) \barMin c b a b( a) a \barMaior
-    a( g) a g( f e) e \barMin f g g g a g f f( g) g \barFinalis
+    g4 g f( g) d d \barMin g f g g a f d f( g) \barMaior
+    g f g f e d( c) c \barMax
+    c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
+    f g a( f e d) d \barMin f e f g f e d c( d) d \barFinalis
     
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
-    Až Syn člo -- vě -- ka za -- sed -- ne na svůj slav -- ný trůn 
+    Až Syn člo -- vě -- ka 
+    za -- sed -- ne na svůj slav -- ný trůn 
     při ob -- no -- ve -- ní svě -- ta,
     u -- sed -- ne -- te ta -- ké vy na dva -- náct trů -- nů
     ja -- ko soud -- ci dva -- nác -- ti iz -- ra -- el -- ských kme -- nů.
@@ -645,8 +646,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
