@@ -162,6 +162,10 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 } 
 
+\pageBreak
+
+\markup\nadpisSkupiny{1}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -194,6 +198,74 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    d c bes c d d c d \barMaior
+    d d f4.( d) \barMin d4 c bes c a \barMax
+    
+    a bes c c c c( d) d \barMaior
+    d e d d( a) \barMin \mark\sipka a c d d d c( d) a a \barMaior
+    g f \mark\sipka g a a \barMin c bes a g a a \barFinalis
+    
+    a^\markup\rubrVelikAleluja bes g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ne vy jste vy -- vo -- li -- li mne,
+    a -- le já jsem vy -- vo -- lil vás
+    
+    a u -- rčil jsem vás k_to -- mu,
+    a -- bys -- te šli a při -- ná -- še -- li u -- ži -- tek
+    a váš u -- ži -- tek a -- by byl tr -- va -- lý.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a b a g g( a) \barMaior
+    a a g( f g) \barMin g f( g f) e( f) d( c) c( d) \barMax
+    d d( f d) d d d f( g) g \barMaior
+    a a a g( a e) \barMin f g a a a b( a g) g( a) a \barMaior
+    a g( a) g( a g) f( e) e \barMin d e f e( f) e e \barFinalis
+    
+    f f e e \barFinalis
+  }
+  \addlyrics {
+    Ne vy jste vy -- vo -- li -- li mne,
+    a -- le já jsem vy -- vo -- lil vás
+    
+    a u -- rčil jsem vás k_to -- mu,
+    a -- bys -- te šli a při -- ná -- še -- li u -- ži -- tek
+    a váš u -- ži -- tek a -- by byl tr -- va -- lý.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
