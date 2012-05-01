@@ -561,22 +561,27 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    
+    \key f \major
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    d4( a' bes) a( g) g( a) a \barMin
+    g a a( bes a) g a g g \barMaior
+    f g a bes a g a( bes a) a \barMax
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
     % V
     \neviditelna a
-    
+    d( a' bes) a( g) g( a) a \barMin g f g g bes a( bes a) a \barMax
     % R
     \neviditelna a
-    
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
     % Slava
+    d4( a' bes) a a( g) g a g( a) g \barMin g g( f e) f g( a) a a \barFinalis
   }
   \addlyrics {
-    \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    \Response Vy -- pra -- vuj -- te 
+    me -- zi vše -- mi ná -- ro -- dy
     o Hos -- po -- di -- no -- vých či -- nech,_*
     o -- sla -- vuj -- te je -- ho jmé -- no.
     \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
@@ -585,7 +590,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -599,10 +604,13 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     
     % R
     \neviditelna f
+    f f f f f f g a g f f \barMin 
+    g f e d e f d d \barMaior
+    d f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f f f f f g f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
