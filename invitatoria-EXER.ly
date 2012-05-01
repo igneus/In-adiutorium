@@ -133,6 +133,201 @@ složil.)
   }
 }
 
+\markup\nadpisSkupiny{"3"}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin d( f) d e c c \barMaior 
+    d d d e f( g e) \barMin f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin d( f) \mark\sipka e d c c \barMaior 
+    d \mark\sipka c d e f( g e) \barMin f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{"3v / velikonoční verze"}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d f( d e) d( c) \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f \mark\sipka d( e) c c \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f \mark\sipka d( e) f( d) c \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d \mark\sipka e c( d) d \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c \mark\sipka d( e d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{4}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c( d) d( a' bes a) g( a) a \barMaior
+    bes( g bes) a \barMin bes( a g) f e d d \barMaior
+    d( c) d f( g f) e g( a) \barMin f e d( e d) d \barMaior
+    d f( e) d( e d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    c( d) d( a' bes a) g( a) a \barMaior
+    bes( g bes) a \barMin bes( a g) f e d d \barMaior
+    d( c) d f( g f) e g( a) \barMin f e d( e d) d \barMaior
+    d f( e) \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 
 } % bookpart
 
