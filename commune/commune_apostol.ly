@@ -211,16 +211,17 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( e d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu;
-    on je Pán a Král a -- po -- što -- lů.
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -232,18 +233,21 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
-    
+    d e c( d) d \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c d( e d) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja,
-    pojď -- me, klaň -- me se Kris -- tu;
-    on je Pán a Král a -- po -- što -- lů,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
     a -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
