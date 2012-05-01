@@ -629,6 +629,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacCerveny
     \choralniRezim
     f4 g( a) a( b) a a \barMin a( b c) c( b) b \barMin c b( a) b( a) g a( g) \barMaior
     a g f g g g( a g) g \barMax
@@ -716,7 +717,6 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c'' {
     \choralniRezim
-    \zvyraznovacZelenyIII
     g4 g f d d \barMin g f g g a f d f( g) \barMaior
     g f g f d f( d) c \barMax
     c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
@@ -744,12 +744,13 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g f( \mark\sipka g) d d \barMin g f g g a f d f( g) \barMaior
     g f g f \mark\sipka e d( c) c \barMax
     c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
     f g a( f e d) d \barMin f e f g f e d c( d) d \barFinalis
-    d e d d \barFinalis
+    d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
     Až Syn člo -- vě -- ka 
