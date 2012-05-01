@@ -558,6 +558,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
@@ -566,7 +568,9 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     
     % R
     \neviditelna a
-    
+    a4( g a) a( c) c( a) a \barMin g f g( a) g g a a \barMaior
+    b c d c b c c( d) d \barMax    
+    c4( d c) b( a) g g a( f) e g g \barFinalis
     % V
     \neviditelna a
     
@@ -590,6 +594,78 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    a4 a a( d) d e d c d d a a \barMaior
+    g f g a a a b( c d) d \barMax
+    e( d c) b( c) a a b a g( a) a \barFinalis
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,_*
+    o -- sla -- vuj -- te je -- ho jmé -- no.
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response o -- sla -- vuj -- te je -- ho jmé -- no.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna d
+    d4( a' bes) a( g) g( a) a \barMin
+    g a a( bes a) g a g g \barMaior
+    f g a bes a g a( bes a) a \barMax
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    % V
+    \neviditelna a
+    d( a' bes) a( g) g( a) a \barMin g f g g bes a( bes a) a \barMax
+    % R
+    \neviditelna a
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    % Slava
+    d4( a' bes) a a( g) g a g( a) g \barMin g g( f e) f g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te 
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,_*
+    o -- sla -- vuj -- te je -- ho jmé -- no.
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response o -- sla -- vuj -- te je -- ho jmé -- no.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
