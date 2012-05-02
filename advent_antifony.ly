@@ -6,13 +6,14 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \bookpart {
   \header {
-    subtitle = "Invitatorium"
+    subtitle = "Společné"
   }
   
-  \markup {\nadpisDen {do 16. prosince}}
+  \markup {\nadpisHodinka {invitatorium - do 16. prosince}}
 
   \score {
     \relative c'' {
@@ -29,7 +30,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "VI"
+      modus = "VI"
       differentia = "g" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -50,14 +51,14 @@
     }
     \header {
       quid = "ant."
-      tonus = "III"
+      modus = "III"
       differentia = "c" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
     }
   }
 
-  \markup {\nadpisDen {po 16. prosinci}}
+  \markup {\nadpisHodinka {invitatorium - po 16. prosinci}}
 
   \score {
     \relative c' {
@@ -71,9 +72,77 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( a) f e( g) g g \barMin
+      g g a c c d( b) c( a) a \barMin
+      b( c a) g f g g \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "dopoledne"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      d4 f( d) d
+      d e f g( f) e \barMin
+      d c( d) d \barMin
+      d d c d d f e c d d \barFinalis
+    }
+    \addlyrics {
+      Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+      Pán s_te bou!
+      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = "poledne"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4( g) f g a a a bes a g f g g g \barMax
+      g g f e f( g a) a \barMin
+      a g a f( d) d \barMin
+      d f f f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl Ga -- bri -- el o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      že se má stát mat -- kou
+      Bo -- ží -- ho Sy -- na,
+      a ne -- pře -- sta -- ne být pan -- nou.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "f" 
+      psalmus = "odpoledne"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -101,7 +170,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -129,7 +198,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -153,7 +222,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -177,7 +246,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a2" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -196,7 +265,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -223,7 +292,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -251,7 +320,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -278,7 +347,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -307,7 +376,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "g" 
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulek}
@@ -331,7 +400,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "IV alt"
+      modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -367,7 +436,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -387,7 +456,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "g" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -412,7 +481,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -432,7 +501,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "IV alt"
+      modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
       fons = "tento materiál - 4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
@@ -453,7 +522,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "g" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -475,7 +544,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -495,7 +564,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
@@ -528,7 +597,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "III"
+      modus = "III"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -547,7 +616,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "f" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -568,7 +637,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -591,7 +660,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "c" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -617,7 +686,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -638,7 +707,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -661,7 +730,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -683,7 +752,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "f" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -707,7 +776,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -731,7 +800,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -752,7 +821,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -775,7 +844,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -798,7 +867,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "d" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -817,7 +886,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "g" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -838,7 +907,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "I"
+      modus = "I"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -859,7 +928,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "III"
+      modus = "III"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -882,7 +951,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "V"
+      modus = "V"
       differentia = "a" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -901,7 +970,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "IV"
+      modus = "IV"
       differentia = "g" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -925,7 +994,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "c" 
       psalmus = "invitatorium"
       piece = \markup {\sestavTitulek}
@@ -957,7 +1026,7 @@
     }
     \header {
       quid = "1. ant."
-      tonus = "II"
+      modus = "II"
       differentia = "D" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -978,7 +1047,7 @@
     }
     \header {
       quid = "2. ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "c" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -999,7 +1068,7 @@
     }
     \header {
       quid = "3. ant."
-      tonus = "VII"
+      modus = "VII"
       differentia = "c" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
@@ -1028,7 +1097,7 @@
       při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
       \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
       \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
-      \slavaRespText
+      \textRespDoxologie
     }
     \header {
       piece = "responsorium - I"
@@ -1049,7 +1118,7 @@
     }
     \header {
       quid = "ant."
-      tonus = "VIII"
+      modus = "VIII"
       differentia = "G" 
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulek}
