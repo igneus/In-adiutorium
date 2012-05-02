@@ -15,19 +15,27 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
+    f4( a) a( g) a a( c d) c( b) b( a) \barMin
+    g( a g) f g g( a) a \barMaior
+    a( c d) c( d c b) b( c b) \barMin a( c) a( g) g a( g) f( g) g f f \barMaior
+    f( a c d c) c( d c b) a( g) f( g) g \barMin
+    g( f g) g( a) g g( f) f \barFinalis
     
+    g^\markup\rubrVelikAleluja g( a) g( f) f \barFinalis
   }
   \addlyrics {
-    Vy -- ra -- zí ra -- to -- lest z_pa -- hý -- lu Jes -- se,
+    Vy -- ra -- zí ra -- to -- lest 
+    z_pa -- hý -- lu Jes -- se,
     vý -- ho -- nek vy -- pu -- čí z_je -- ho ko -- ře -- nů,
-    spo -- či -- ne na něm Duch Hos -- po -- di -- nův.
+    spo -- či -- ne na něm 
+    Duch Hos -- po -- di -- nův.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -90,15 +98,17 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f g g( a) a( g) \barMax
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a a a bes a g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vy -- ra -- zi -- la ra -- to -- lest z_pa -- hý -- lu Jes -- se,_*
@@ -109,7 +119,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -423,11 +433,13 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( f) f f \breathe \bar ""
-    f f f g f e e( f) d c d d \bar "|"
-    d( f) f \breathe \bar ""
-    f g f e d d \bar "|"
-    e f d( c) d4. \bar "||"
+    d4 d d e( f) f f \barMin
+    f f f g f e e( f) d c d d \barMax
+    d( f) f \barMin
+    f g f g g( f) f \barMaior
+    f g f d( f) e( d c) \barMin
+    d( c) d d( f) e d d \barFinalis
+    e^\markup\small\italic{V době velikonoční:} f d( c) d4. \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -471,6 +483,39 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 }
 
 \markup\italic{V době postní:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    g g( a) g g( f d) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a( bes a) g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) g g( f d) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slo -- vo se sta -- lo tě -- lem_*
+    a pře -- bý -- va -- lo me -- zi ná -- mi.
+    \Verse To Slo -- vo při -- šlo na svět._*
+    \Response a pře -- bý -- va -- lo me -- zi ná -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \markup\italic{V době velikonoční:}
 
 \score {
@@ -502,36 +547,6 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna a
-    
-    % V
-    \neviditelna a
-    
-    % R
-    \neviditelna a
-    
-    % Slava
-  }
-  \addlyrics {
-    \Response Slo -- vo se sta -- lo tě -- lem_*
-    a pře -- bý -- va -- lo me -- zi ná -- mi.
-    \Verse To Slo -- vo při -- šlo na svět._*
-    \Response a pře -- bý -- va -- lo me -- zi ná -- mi.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = ""
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
