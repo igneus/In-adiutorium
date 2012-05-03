@@ -361,6 +361,32 @@ složil.)
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin g( f) e f d d \barMaior
+    d4 \barMin d e d( c a) a \barMin a c c( d) d d \barFinalis
+    
+    d f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
+    on, věč -- né Slo -- vo, se stal člo -- vě -- kem.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Z antifon pro Svatý týden."
+    piece = \markup{\sestavTitulekBezZalmu - adaptace pro slavnost Zvěstování Páně}
+  }
+}
+
 \markup\nadpisSkupiny{"Velký pátek / Bílá sobota"}
 
 \score {
