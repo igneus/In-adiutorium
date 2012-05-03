@@ -353,7 +353,10 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
+    c4( d) e e e( g) g \barMin g( f g a) a a( c) a g( f) f( g) g \barMaior
+    g a( b) c( d c) b( a g) g \barMin g( a f e) d c( d) d d \barFinalis
     
+    f^\markup\small\italic{V době velikonoční:} g f( d) d \barFinalis
   }
   \addlyrics {
     Z_ko -- ře -- ne Jes -- se vze -- šla Pan -- na Ma -- ri -- a,
@@ -363,8 +366,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -376,6 +379,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     \choralniRezim
     c( f) \barMin f( e) f d( f e) e \barMin e e( f g) f( e) d d( c) c \barMaior
     c d( f) f( e) d d \barMin f( g f) e( c) c( d) d \barFinalis
+    
+    c^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
   }
   \addlyrics {
     Hle, pan -- na poč -- ne a po -- ro -- dí sy -- na
@@ -396,18 +401,25 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
+    d4( f d c) c4.( d) \barMin 
+    c4 d e( f) f g( f g) f e d c d( c) bes( a) a \barMaior
+    a a( f' e d4.) d \barMin d4( e f) f e f( g) g \barMin 
+    f f( g f) e( d) d e( d) c( d) d \barFinalis
     
+    d^\markup\small\italic{V době velikonoční:} e( d) c( d) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus, je -- hož pří -- chod o -- zna -- mo -- va -- li pro -- ro -- ci,
-    je Pá -- nem ce -- lé -- ho svě -- ta a pů -- vod -- cem po -- ko -- je.
+    Kris -- tus, 
+    je -- hož pří -- chod o -- zna -- mo -- va -- li pro -- ro -- ci,
+    je Pá -- nem ce -- lé -- ho svě -- ta 
+    a pů -- vod -- cem po -- ko -- je.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
