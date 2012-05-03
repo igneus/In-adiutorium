@@ -155,6 +155,9 @@ Verse = \lyricmode {
 Hvezdicka = \lyricmode { "*" }
 Dagger = \markup { \char ##x02020 }
 
+% oznacuje volitelne aleluja na konci
+rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
+
 % prikaz pro vyrobu neviditelnych not
 
 neviditelna = #(define-music-function (parser location note)
