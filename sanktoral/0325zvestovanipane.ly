@@ -156,7 +156,11 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin g( f) e f d d \barMaior
+    d4 \barMin d e d( c a) a \barMin a c c( d) d d \barFinalis
     
+    d^\markup\small\italic{V době velikonoční:} f e( c) d \barFinalis
   }
   \addlyrics {
     Pojď -- te, klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
@@ -166,11 +170,11 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup{\sestavTitulekBezZalmu}
   }
 }
 
