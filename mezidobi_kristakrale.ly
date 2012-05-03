@@ -157,9 +157,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g g( a b) b c( d) c b a( b) b \barMaior
+    c c c( d) b( a) a \barMin g a b c c c c d b b \barMaior
+    c a( c) b( a) a \barMin a( b) g e f( g a) g \barFinalis
   }
   \addlyrics {
     Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
@@ -167,9 +169,9 @@
     všem ná -- ro -- dům při -- ná -- ší po -- koj.
   }
   \header {
-    quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
