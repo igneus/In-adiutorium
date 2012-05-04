@@ -13,18 +13,21 @@
 \markup\italic{1. antifona viz 2. nešpory, 1. antifona: \upright{"\"Ježíš vzal s sebou\""}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a c d d c( b) c( d) d \barMin
+    f( d e) d( c) c d d( e) c a a \barMaior
+    f g a a a b( c) a a \barFinalis
   }
   \addlyrics {
-    U -- čed -- ní -- ci vi -- dě -- li Moj -- ží -- še a E -- li -- á -- še,
+    U -- čed -- ní -- ci vi -- dě -- li 
+    Moj -- ží -- še a E -- li -- á -- še,
     jak roz -- mlou -- va -- jí s_Je -- ží -- šem.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 117"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -59,10 +62,11 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f( g) f f f f f e d d \barMin f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -72,7 +76,7 @@
   \addlyrics {
     \Response Bůh za -- hr -- nul své -- ho Sy -- na ctí a slá -- vou._* \textRespAleluja
     \Verse U -- čed -- ní -- ci vi -- dě -- li na po -- svát -- né ho -- ře
-    Kris -- to -- vu le -- leb -- nost._*
+    Kris -- to -- vu ve -- leb -- nost._*
     \Response \textRespAleluja
     \textRespDoxologie
   }
@@ -133,7 +137,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
+    g a b c( a) \barMin b( c) d( c) b a g( f g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va tvář zá -- ři -- la ja -- ko slun -- ce
@@ -141,8 +146,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -197,10 +202,11 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -311,9 +317,11 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g f g g( a) a \barMin g( a) g( f) e f d d \barMaior
+    f( g) a( c) b a \barMin c b( c) d( c) b a( c a) a \barMaior
+    a g( f g) f( d) d f g g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra, Ja -- ku -- ba a Ja -- na,
@@ -322,8 +330,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 111"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -333,18 +341,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( g a) g( a) g f g( a g) f f( g) g \barMaior
+    g a g g g f( g f) e e( f) d( c) c \barMax
+    d d d( f g) \barMin f g f e d \barMaior
+    f e( d) e c d d \barFinalis
   }
   \addlyrics {
     Za -- stí -- nil je svět -- lý ob -- lak
     a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
     To je můj mi -- lo -- va -- ný Syn,
-    v něm mám za -- lí -- be -- ní.
+    v_něm mám za -- lí -- be -- ní.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 121"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -379,10 +390,12 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f f f f f g f f \barMin
+    f f f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
