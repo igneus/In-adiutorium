@@ -65,7 +65,7 @@
   \relative c' {
     \choralniRezim
     d4 d a'( g a) a( c) c( a) a a( b c) a( g) g \barMaior
-    g f g( a) a \bar"" a a g a f e e \barMaior
+    f g g( a) a \bar"" a a g a f e e \barMaior
     d e f e( f) d d \barMax
     e d c( d) d \barFinalis
   }
