@@ -159,9 +159,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a b) b c( d) c b a( b) b \barMaior
-    c c c( d) b( a) a \barMin g a b c c c c d b b \barMaior
-    c a( c) b( a) a \barMin a( b) g e f( g a) g \barFinalis
+    g4 g g g( d' c) b c( a) g f g g \barMaior
+    a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
+    a a( c) b( a) a g( f g) a a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
@@ -170,8 +170,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
