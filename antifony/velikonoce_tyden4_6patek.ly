@@ -102,7 +102,7 @@
     a4 a g( a) a \barMaior
     a( e) f e d d d f g a g a a \barMaior
     a g( a) a a( b) g g( f e) e \barMaior
-    g g( f) e( d) e \barFinalis
+    g g( f) e e \barFinalis
   }
   \addlyrics {
     Krá -- li vě -- ků,_*
