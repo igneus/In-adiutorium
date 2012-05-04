@@ -89,7 +89,7 @@
     
     % R
     \neviditelna f
-    f4 f f f f f f f e g g a \barMax
+    f4 f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
@@ -123,6 +123,7 @@
     e f g( a) g( a) a \barMin
     a a( c) c b( c a) a \barMin
     b a g f g \barMax
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Ot -- če, 
