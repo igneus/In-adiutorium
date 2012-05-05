@@ -282,7 +282,7 @@
     f4( g a) b( c) a a b( c d) c c( d) d \barMaior
     d c( b a) b( a) g a4. a \barMax
     c4( d c b a) b a( g) g \barMaior
-    a g( f) g g g( a f) f \barMax
+    f g( a) g a f( g f) f \barMax
     g g( a) f f \barFinalis
   }
   \addlyrics {
