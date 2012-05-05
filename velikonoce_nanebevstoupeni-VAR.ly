@@ -520,12 +520,38 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     f4( g a) b( c) a a b( c d) c c( d) d \barMaior
     d c( b a) b( a) g a4. a \barMax
     c4( d c b a) b a( g) g \barMaior
     a g( f) g g g( a f) f \barMax
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g a) b( c) a a b( c d) c c( d) d \barMaior
+    d c( b a) b( a) g a4. a \barMax
+    c4( d c b a) b a( g) g \barMaior
+    f g( a) g a f( g f) f \barMax
     g g( a) f f \barFinalis
   }
   \addlyrics {
