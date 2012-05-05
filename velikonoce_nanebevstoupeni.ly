@@ -332,7 +332,7 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4( f) g f( d) d f g a a( bes a) a \barMin
+    g4( f) g f( d) d f g a a( bes a) a \barMaior
     a a( g f) e f d d \barMax
     e d c( d) d \barFinalis
   }
@@ -382,7 +382,7 @@
     \choralniRezim
     a( d) d c( b) a a \barMin
     b a( g) a c b c a( g) g \barMax
-    a f f( g) g \barFinalis
+    a a a( g) g \barFinalis
   }
   \addlyrics {
     Vstou -- pil do ne -- be,
