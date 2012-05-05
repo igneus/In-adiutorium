@@ -148,11 +148,12 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g a4. a \barMaior
-    d4 c( d) d c( b) a( g) g \barMin
-    a a g g \barFinalis
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4( a) a( g a c) c \barMin c( d c b a) b( a g) a4.( g) \barMin
+    f4 a g( f) f \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -162,8 +163,8 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
