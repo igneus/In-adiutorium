@@ -16,7 +16,7 @@
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
     g g f( e) f( e) f( g) g \barMin
-    g g( a) a( b g4.) g \barMax
+    g a a( b g4.) g \barMax
     a4 g f( g) g \barFinalis
   }
   \addlyrics {
@@ -63,7 +63,7 @@
   \relative c' {
     \choralniRezim
     d4 d a'( g a) a( c) c( a) a a( b c) a( g) g \barMaior
-    f g g( a) a \bar"" a a g a f e e \barMaior
+    f g g( a) a \barMin a a g a f e e \barMaior
     d e f e( f) d d \barMax
     e d c( d) d \barFinalis
   }
