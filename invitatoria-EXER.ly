@@ -709,7 +709,6 @@ složil.)
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
     \choralniRezim
     c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g a4. a \barMaior
     d4 c( d) d c( b) a( g) g \barMin
@@ -725,6 +724,77 @@ složil.)
     quid = "ant."
     modus = "VII"
     differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g g( a g) g \barMaior
+    a4( d4) c( d c) b c( b) a( g) g \barMin
+    a a g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g g( a g) g \barMaior
+    a4( d4) c( d c) b c( b) a( b) a( g) \barMin
+    a a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{"Nanebevstoupení 3"}
+\markup{Vyvíjeno zde}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4( a) a( g a c) c \barMin c( d c b a) b( a g) a4.( g) \barMin
+    f4 a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on vstou -- pil do ne -- be, 
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
