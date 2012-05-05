@@ -36,7 +36,7 @@
   \relative c'' {
     \choralniRezim
     d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a g( f g4.) g4 a b c d c( a g) a \barMaior
+    a g( f g4.) g4 a b c d c( a g a) a \barMaior
     a b( c) a( g) a \barFinalis
   }
   \addlyrics {
