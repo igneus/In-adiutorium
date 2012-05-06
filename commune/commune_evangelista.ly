@@ -151,20 +151,23 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a a a a g e a( g e) d( e) e \barMaior
+    c d e e( g) a e4. e \barMin f4( g a g) f( e) f( d) d( e) e \barFinalis
     
+    e^\markup\rubrVelikAleluja e( f) e( d) e \barFinalis
   }
   \addlyrics {
-    Bůh ho svou mi -- los - tí po -- vo -- lal,
+    Bůh ho svou mi -- los -- tí po -- vo -- lal,
     a -- by byl slu -- žeb -- ní -- kem e -- van -- ge -- li -- a.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -193,9 +196,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g g a b( c) c c( a g a) f4.( g) \barMaior
+    c4( d c) b c c( d) a( g) a \barMaior
+    g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
     
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     By -- la mi dá -- na mi -- lost:
@@ -206,8 +213,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
