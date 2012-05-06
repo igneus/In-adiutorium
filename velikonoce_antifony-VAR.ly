@@ -415,20 +415,110 @@
   \markup {\nadpisDen {5. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+       c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
+       g4 g g( c) c c \barMin c c d( c b) a( g) a( g a) a( g) g \barMaior
+       a( b g) g( a) \barMin a a g( a) a b( c) a( g) g g( a g) f f g g \barMaior
+       g g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Já jsem pra -- vý vin -- ný kmen_* a můj O -- tec je vi -- nař.
+      Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, 
+      čis -- tí, a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny{2}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( f) g( a) a g( a c d c) b( a c) b4.( a) \barMaior
+      a4 a a( c a g) g g f( e) e \barMax
+      g f( g) g( a) a a \barMin 
+      g f g( a c d) c( b a) c( d c) b( c a g) g \barMin 
+      f( g a) a \barMaior
       
     }
     \addlyrics {
-      Já jsem pra -- vý vin -- ný kmen a můj O -- tec je vi -- nař.
-      Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, čis -- tí,
+      Já jsem pra -- vý vin -- ný kmen_* 
+      a můj O -- tec je vi -- nař.
+      Kaž -- dou ra -- to -- lest, 
+      kte -- rá ne -- se o -- vo -- ce, 
+      čis -- tí, 
       a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
+  \markup\nadpisSkupiny{1.1}
+  
+  \markup\justify{
+  Tak krátké antifoně výrazné melodické rozštípnutí uprostřed nesvědčí.
+  Působí pak příliš symetricky a nudně.
+  Dále "\"skupina s D\"" ve druhé polovině působí divně...
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( c) c c b( c a) a \barMin a b( c) a4.( g) \barMaior
+      a4 c( d) d c( d) c b g g \barMin g( a) a4. g \barMaior 
+      a4 g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Kdo zůs -- tá -- vá ve mně_* a já v_něm,
+      ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny{1.2}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( c) c c c( d c) c \barMin c c( a b) b( c) \barMaior
+      c d( c b g) g a( b) a g( a) g g \barMin f g g \barMaior 
+      a4 g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Kdo zůs -- tá -- vá ve mně_* a já v_něm,
+      ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -436,41 +526,77 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
+      \zvyraznovacZeleny
       \choralniRezim
-      
+      g4 g( c) c c c( d c) c \barMin c c( a b) b( c) \barMaior
+      c d( c b g) g b( c) a( g) a g g \barMin f g g \barMaior 
+      g4 a a( g) g \barFinalis
     }
     \addlyrics {
-      Kdo zůs -- tá -- vá ve mně a já v_něm,
-      ten ne -- se mno -- ho o -- vo -- ce,
+      Kdo zůs -- tá -- vá ve mně_* a já v_něm,
+      ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny{2}
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      a4 a( g f) a( g) g( a c d c) b( a c) b4.( a) \barMaior
+      a4 a( c b) a( g f) \barMax
+      g g( a c d) d \barMin d( e f e) d( c) d( e) c c4.( a) \barMaior
+      g4( a) b4. a \barMaior
+      a4 b a( g) a \barFinalis
+    }
+    \addlyrics {
+      Kdo zůs -- tá -- vá ve mně_* 
+      a já v_něm,
+      ten ne -- se mno -- ho o -- vo -- ce, 
       pra -- ví Pán.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "IV alt"
+      differentia = "A" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
+  \pageBreak
+  
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g a g f g g( a) a \barMaior
+      a b c c c c( d) c c d d \barMaior
+      d d( a b) a g g( a) a( g) \barMin a b a( g) g f( g) a( b) g g \barMaior
+      g a a( g) g \barFinalis
     }
     \addlyrics {
-      Tím bu -- de o -- sla -- ven můj O -- tec,
+      Tím bu -- de o -- sla -- ven můj O -- tec,_*
       že po -- ne -- se -- te mno -- ho o -- vo -- ce
       a o -- svěd -- čí -- te se ja -- ko mo -- ji u -- čed -- ní -- ci.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
