@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 respAlelujaVI = { 
   a4 a( g) g f \breathe d f( g) g f 
@@ -259,7 +260,7 @@ doxologieRespAlelujaVI = {
     \respAlelujaText
     \Verse Za -- ča -- li mlu -- vit ci -- zí -- mi ja -- zy -- ky._*
     \Response \respAlelujaText
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -459,7 +460,7 @@ doxologieRespAlelujaVI = {
     \Verse Všech -- no u -- dr -- žu -- je a ob -- no -- vu -- je,
     pro -- mlou -- vá k_li -- dem všech ja -- zy -- ků._*
     \Response \respAlelujaText
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
