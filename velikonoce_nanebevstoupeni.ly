@@ -16,7 +16,7 @@
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
     g g f( e) f( e) f( g) g \barMin
-    g g( a) a( b g4.) g \barMax
+    g a a( b g4.) g \barMax
     a4 g f( g) g \barFinalis
   }
   \addlyrics {
@@ -63,7 +63,7 @@
   \relative c' {
     \choralniRezim
     d4 d a'( g a) a( c) c( a) a a( b c) a( g) g \barMaior
-    f g g( a) a \bar"" a a g a f e e \barMaior
+    f g g( a) a \barMin a a g a f e e \barMaior
     d e f e( f) d d \barMax
     e d c( d) d \barFinalis
   }
@@ -148,11 +148,12 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( d) d \barMin a( d) c b a( g) g \barMin a( g) f g a4. a \barMaior
-    d4 c( d) d c( b) a( g) g \barMin
-    a a g g \barFinalis
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4( a) a( g a c) c \barMin c( d c b a) b( a g) a4.( g) \barMin
+    f4 a g( f) f \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -162,8 +163,8 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -281,7 +282,7 @@
     f4( g a) b( c) a a b( c d) c c( d) d \barMaior
     d c( b a) b( a) g a4. a \barMax
     c4( d c b a) b a( g) g \barMaior
-    a g( f) g g g( a f) f \barMax
+    f g( a) g a f( g f) f \barMax
     g g( a) f f \barFinalis
   }
   \addlyrics {
@@ -331,7 +332,7 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4( f) g f( d) d f g a a( bes a) a \barMin
+    g4( f) g f( d) d f g a a( bes a) a \barMaior
     a a( g f) e f d d \barMax
     e d c( d) d \barFinalis
   }
@@ -381,7 +382,7 @@
     \choralniRezim
     a( d) d c( b) a a \barMin
     b a( g) a c b c a( g) g \barMax
-    a f f( g) g \barFinalis
+    a a a( g) g \barFinalis
   }
   \addlyrics {
     Vstou -- pil do ne -- be,

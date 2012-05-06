@@ -8,8 +8,6 @@
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 
-rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
-
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
