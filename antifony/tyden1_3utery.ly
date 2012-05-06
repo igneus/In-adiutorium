@@ -5,9 +5,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a4. \breathe
-    a4 c c d( c) a4.( g) \breathe
-    f4 g( a) a4. \breathe
+    a4 a a g f g( a) a4. \breathe \bar ""
+    a4 c c d( c) a4.( g) \bar "|"
+    f4 g( a) a4. \breathe \bar ""
     a4 a a a f e d d \bar "||"
   }
   \addlyrics {
@@ -15,7 +15,12 @@
     vy -- stou -- pí na Hos -- po -- di -- no -- vu ho -- ru.
   }
   \header {
-    piece = "1. ant. - I.a2 (Žalm 24(23))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2" 
+    psalmus = "Žalm 24"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -29,22 +34,30 @@
     Svý -- mi či -- ny ve -- leb -- te věč -- né -- ho krá -- le.
   }
   \header {
-    piece = "2. ant. - IV.E (Tob 13)"
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Tob 13"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    a4 e e g b c c \breathe
-    b( c) d( c) a4. \breathe
-    g4 f g g \bar "||"
+    a4 c c b c a( g) g4. \breathe a4 a a g f e e \bar "||"
   }
   \addlyrics {
     Slu -- ší se, a -- by do -- bří chvá -- li -- li Hos -- po -- di -- na.
   }
   \header {
-    piece = "3. ant. - III.a (Žalm 33(32))"
+    quid = "3. ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -61,7 +74,12 @@
     Bla -- ze těm, kdo krá -- če -- jí v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
   }
   \header {
-    piece = "1. ant. - I.D (Žalm 119(118))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 119-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -74,22 +92,99 @@
     Pro tvou po -- moc ať za -- ple -- sá mé srd -- ce.
   }
   \header {
-    piece = "2. ant. - II.D (Žalm 13(12))"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 13"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a c d4.( c4 a4.) \breathe
-    b4 c a a g f a a a g g g4. \breathe
-    c4 d( c) a4. b4( c) a( g) f4.( g) \bar "||"
+    g4 g g( a) g f f4.( g) \breathe
+    g4 a c c c c d d d c a a4. \breathe
+    b4 c a g f( g a) a4.( g) \bar "||"
   }
   \addlyrics {
-    Kde se roz -- mno -- žil hřích, tam se v_mí -- ře ješ -- tě da -- le -- ko
-    ště -- dřej -- ší u -- ká -- za -- la mi -- lost.
+    Kde se roz -- mno -- žil hřích, 
+    tam se v_mí -- ře ješ -- tě da -- le -- ko ště -- dřej -- ší 
+    u -- ká -- za -- la mi -- lost.
   }
   \header {
-    piece = "3. ant. - VIII.G (Žalm 14(13))"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 14"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisHodinka {"nešpory"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a f( e) f f4. \barMin
+    f4( g) g g f e d4. d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství 
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMaior
+    a f4.( d) \barMin e4 f g f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, 
+    tvou moc o -- sla -- ví -- me zpě -- vem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g2" 
+    psalmus = "Žalm 21"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+tIuteryNespAntIII = \score {
+  \relative c' {
+    \choralniRezim
+    e4( a) a \breathe
+    b c a g e f( a) g f e e \breathe
+    d( a') b( g) a4. g4( f) e( d e) e \bar "||"
+  }
+  \addlyrics {
+    Pa -- ne, vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství a kně -- ze.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Zj 4"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score { \tIuteryNespAntIII }
+
+\score { \tIuteryAntMagnificat }

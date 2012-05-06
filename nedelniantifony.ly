@@ -6,6 +6,16 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
+
+\paper {
+  oddFooterMarkup = \markup\small { 
+    \fill-line {
+      \fromproperty #'header:title
+      \dnesniDatum 
+    }
+  }
+}
 
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
@@ -19,6 +29,7 @@
    (interpret-markup layout props
 		     (markup #:smallCaps
 			     #:with-color #'red arg)))
+
 
 \include "antifony/tyden1_1nedele.ly"
 \pageBreak

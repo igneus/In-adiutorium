@@ -1,0 +1,279 @@
+% Definice prikazu uzivanych ve vsech svazcich antifonare
+
+% Predpokladane balicky: 
+% datetime, hyperref
+
+
+%
+% Titulni strana a tiraz svazku antifonare.
+% prikazy vyuzivaji prikazy, ktere musi byt
+% definovany v dokumentu:
+% \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+%
+
+\newcommand{\titulniStrankaSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \begin{titlepage}
+    \begin{center}
+      \soubornyNazev
+      
+      Svazeček \cisloSvazku.
+      
+      \vspace*{7cm}
+      
+      {\Huge \textbf{\nazev}}
+          
+      \vspace{1cm}
+      
+      {\large \autor}
+      
+      \vfill
+      In adiutorium
+      
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
+\newcommand{\tirazProjekt}{
+  projekt In adiutorium - hudba k české liturgii hodin\\  
+    \url{http://inadiutorium.xf.cz}
+}
+
+\newcommand{\lilypondbookVersion}{
+  \input{|"lilypond-book --version"}
+}
+
+\newcommand{\tirazSazbaProgramem}{
+  Vysázeno programy \LaTeX  a LilyPond % \lilypondbookVersion
+}
+
+\newcommand{\tirazSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \setlength{\parskip}{0.6cm}
+
+  \begin{center}
+    \soubornyNazev, svazeček \cisloSvazku.
+    
+    {\Large \textbf{\nazev}}
+
+    {\large \autor}
+
+    \tirazProjekt
+    
+    \tirazSazbaProgramem
+  \end{center}
+
+  \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
+  \textDoTiraze
+
+  \begin{center}
+    \dmyyyydate \today
+  \end{center}
+}
+
+%
+% Vyrobi prazdnou stranku
+%
+
+\newcommand{\prazdnaStranka}{
+  \newpage \mbox{}
+  \newpage
+}
+
+%
+% Nasledujici prikazy vyrabeji hlavicku a paticku pro
+% male materialy obsahem a razem podobne materialum
+% z LilyPondu
+%
+
+\newcommand{\malyTitulek}{
+  \begin{center}
+    {\large \textbf{\nazev}}
+  \end{center}
+  \begin{flushright}
+    \autor
+  \end{flushright}
+}
+
+\newcommand{\malaTiraz}{
+  datum: \dmyyyydate \today
+  
+  licence: Creative Commons Attribution-ShareAlike 3.0 Unported
+  
+  projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
+  
+  sazba programy \LaTeX a LilyPond \lilypondbookVersion
+}
+
+% cesky format data:
+\renewcommand{\dateseparator}{.}
+
+% format data, kde je jen rok
+\newdateformat{onlyyeardate}{%
+\THEYEAR}
+
+
+%
+% Nasledujici prikazy slouzi strukturovani uvnitr textu antifonare
+%
+
+% tyden
+\newcommand{\nadpisTyden}[2]{
+  \begin{center}
+  {\LARGE \textsc{#1}}
+  \end{center}
+  \fancyhead[CE]{#2}
+  \addcontentsline{toc}{section}{#2}
+}
+
+% den
+\newcommand{\nadpisDen}[1]{
+  \begin{center}
+  {\LARGE #1}
+  \end{center}
+  \fancyhead[CO]{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+% hodinka
+\newcommand{\nadpisHodinka}[1]{
+  \begin{center}
+  \textbf{#1}
+  \end{center}
+}
+
+\newcommand{\modlitbaSeCtenim}{
+  \nadpisHodinka{Modlitba se čtením}
+}
+
+\newcommand{\ranniChvaly}{
+  \nadpisHodinka{Ranní chvály}
+}
+
+\newcommand{\modlitbaUprostredDne}{
+  \nadpisHodinka{Modlitba uprostřed dne}
+}
+
+\newcommand{\nespory}{
+  \nadpisHodinka{Nešpory}
+}
+
+\newcommand{\nesporyI}{
+  \nadpisHodinka{První nešpory}
+}
+
+\newcommand{\nesporyII}{
+  \nadpisHodinka{Druhé nešpory}
+}
+
+\newcommand{\kompletar}{
+  \nadpisHodinka{Kompletář}
+}
+
+% nadpis hodinky uzivany v indexu svatku svatecniho zaltare
+\newcommand{\nadpisHodinkaVIndexu}[1]{
+  \noindent#1:
+  \newline\indent
+}
+
+% Varianty tech samych prikazu pro index svatku:
+\newcommand{\idxModlitbaSeCtenim}{
+  \nadpisHodinkaVIndexu{modlitba se čtením}
+}
+
+\newcommand{\idxRanniChvaly}{
+  \nadpisHodinkaVIndexu{ranní chvály}
+}
+
+\newcommand{\idxModlitbaUprostredDne}{
+  \nadpisHodinkaVIndexu{modlitba uprostřed dne}
+}
+
+\newcommand{\idxNespory}{
+  \nadpisHodinkaVIndexu{nešpory}
+}
+
+\newcommand{\idxNesporyI}{
+  \nadpisHodinkaVIndexu{první nešpory}
+}
+
+\newcommand{\idxNesporyII}{
+  \nadpisHodinkaVIndexu{druhé nešpory}
+}
+
+\newcommand{\idxKompletar}{
+  \nadpisHodinkaVIndexu{kompletář}
+}
+
+
+% Cilem je, aby tento nadpis nad sebou nemel tolik mista
+% a tak umoznoval "prilepeni" predchazejici rubriky.
+\newcommand{\nadpisZalmuBezMezery}[1]{%
+
+  % Nepouziva prostredi center, protoze to si svevolne pridava
+  % dodatecny vertikalni prostor
+  \begingroup\centering%
+    \textbf{#1}%
+  \endgroup%
+  \vspace{3mm}%
+  \nopagebreak
+}
+
+% obvykle napr. "zalm 94"
+\newcommand{\nadpisZalmu}[1]{%
+  \vspace{2mm}%
+  \begin{center}%
+    \textbf{#1}%
+  \end{center}%
+  \nopagebreak%
+}
+
+
+% Napr. "hymnus", "responsorium", "zalmy"
+\newcommand{\nadpisTypTextu}[1]{
+  \begin{flushleft}
+  \noindent
+  \rubr{\textsc{#1}}
+  \end{flushleft}
+  \nopagebreak
+}
+
+% rubrikovany text - treba i pro vlozeni do nerubrikovaneho
+\newcommand{\rubr}[1]{
+  \textcolor{red}{#1}
+}
+
+% rubrika - samostatna
+\newcommand{\rubrika}[1]{
+  \vspace{2mm}
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{2mm}
+}
+
+% mezera, kterou se oddeli rubrika od textu, ke kteremu se _nevztahuje_,
+% aby byla vic prilepena k tomu, ke kteremu se vztahuje
+\newcommand{\rubrikaMezera}{
+  \vspace{4mm}
+}
+
+% rubrika - predchazejici
+\newcommand{\rubrikaPred}[1]{
+  \rubrikaMezera
+  % \textit{#1}
+  \rubr{#1}
+  \vspace{1mm}
+}
+
+% rubrika - nasledujici
+\newcommand{\rubrikaPo}[1]{
+  \vspace{1mm}
+  % \textit{#1}
+  \rubr{#1}
+  \rubrikaMezera
+}
+
+\newcommand{\znackaStrofaZalmu}{ 
+  \rubr{--}
+}

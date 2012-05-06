@@ -1,147 +1,147 @@
-\version "2.12.3"
+\version "2.14.2"
 
 \header {
-  title = "Modlitba uprostřed dne - doba vánoční"
+  title = "Doba vánoční - modlitba uprostřed dne"
   composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
 
-\layout {
-  ragged-last = ##t
-}
+% Nasledujici antifony jsou zkopirovane z materialu
+% ke slavnostem Narozeni Pane a Zjeveni Pane
 
-\markup {
-  \justify {
-    Nabízený nápěv pro žalmy má tři různá zakončení verše k výběru
-    (takže je možné zpívat např. každý žalm hodinky na trochu jiný
-    nápěv).
-  }
-}
+\markup {\nadpisDen {do slavnosti Zjevení Páně}}
 
 \score {
-  \relative c'  {
-    
-    \new StaffGroup {
-      \new Staff {
-        \choralniRezim
-        c\breve d4 c4. 
-        \breathe \mark "+"
-        c\breve e4 g f \parenthesize e e4. 
-        \bar "|" \mark "*"
-        f\breve
-        
-        <<
-        { e4^\markup {\tiny {1. možnost zakončení}} c \parenthesize d d4. \bar "||" }
-        
-        \new Staff {
-          % neviditelny klic
-          \override Staff.Clef #'stencil = ##f
-          \choralniRezim
-          
-          e4^\markup{\tiny {2.}} d \parenthesize c c4. 
-        }
-        
-        \new Staff {
-          % neviditelny klic
-          \override Staff.Clef #'stencil = ##f
-          \choralniRezim
-          
-          g'4^\markup{\tiny {3.}} a \parenthesize g g4. 
-        }
-        >>
-        
-      }
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4( g) g g a bes a g a f g a a \breathe
+      a a g a bes( f) g a \breathe
+      a bes a a a g f g d d \bar "||"
     }
+    \addlyrics {
+      Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "f" 
+      psalmus = "dopoledne"
+      piece = \markup {\sestavTitulek}
+    }
+  }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a c b c d d c( b) b \barMin
+      d d d d( c d) e( f) d c c d d \barMin
+      d c( d) c b a b g g \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+      vše -- chno, co vy -- prá -- vě -- li pas -- tý -- ři,
+      a roz -- va -- žo -- va -- la o tom.
+    }
+    \header {
+      quid = "ant."
+      tonus = "VII"
+      differentia = "a" 
+      psalmus = "v poledne"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4 d d( a') a a g bes a g a4. g \breathe
+      g4 a bes a g g g a f e d d \bar "||"
+    }
+    \addlyrics {
+      Mo -- je o -- či u -- vi -- dě -- ly tvou spá -- su,
+      kte -- rou jsi při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    }
+    \header {
+      quid = "ant."
+      tonus = "I"
+      differentia = "D" 
+      psalmus = "odpoledne"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisDen {od slavnosti Zjevení Páně}}
+  
+  \score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a4. a \breathe
+    b4 c d c b c a a a \breathe \bar ""
+    b c b a g g \bar "|"
+    f g g( a4.) a4 g f e e \bar "||"
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní
+    by -- lo nám teď od -- ha -- le -- no.
   }
   \header {
-    piece = "Psalmodie"
+    quid = "ant."
+    tonus = "III"
+    differentia = "g" 
+    psalmus = "dopoledne"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c''  {
+  \relative c' {
     \choralniRezim
-    
-    g4 f( g) g g g f( e) f e c d \bar "|"
-    d d d f g a g f g g \bar "|"
-    g g g g f e c c \bar "||"
+    \key f \major
+    d4( f) d f( g) g \breathe
+    a bes( a) g a f( g) g \bar "|"
+    bes4.( g) a4 a bes c bes g g g \breathe \bar ""
+    a f e e e f d4. d \bar "||"
   }
   \addlyrics {
-    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
-    vše -- chno, co vy -- prá -- vě -- li pas -- tý -- ři
-    a roz -- va -- žo -- va -- la o tom.
-  }
-  \header {
-    piece = "Antifona - do Zjevení Páně - v poledne"
-  }
-}
-
-\markup {
-  \justify {
-    Verš po krátkém čtení se tradičně
-    zpívá \italic {recto tono} s melismatickým zakončením (srov. \italic{versicles} v Liber usualis), 
-    což umožňuje snadné použití nápěvu i pro jiný text
-    (zde pro všechny verše po krátkém čtení v době vánoční
-    do slavnosti Zjevení Páně).
-    Pro závěrečné aleluja odpovědi jsou na výběr tři různé nápěvy.
-  }
-}
-\score {
-  \relative c''  {
-    \choralniRezim
-    
-    \neviditelna g %skryta nota pro uvodni "V:"
-    g\breve a4 g \breathe g f( g) g( a) a4. \bar "|"
-    
-    \neviditelna g
-    a\breve g4 a \breathe
-    
-    % ruzne varianty zaverecneho aleluja:
-    <<
-      { a g( a) b( c a g) a4. \bar "||" }
-      \new Staff {
-        \override Staff.Clef #'stencil = ##f
-        \choralniRezim
-        a4 g( a) c( d a g) a4.
-      }
-      \new Staff {
-        \override Staff.Clef #'stencil = ##f
-        \choralniRezim
-        a4 g( a) c( d c b) a4.
-      }
-    >>
-  }
-  \addlyrics {
-    \markup {\bold {V:}}
-    % kouzlo pro kus textu na jedinou notu s \breve:
-    \once \override LyricText #'self-alignment-X = #-1
-    "Uzřely všechny končiny" ze -- mě, a -- le -- lu -- ja,
-    
-    \markup {\bold {O: }}
-    \once \override LyricText #'self-alignment-X = #-1
-    "spásu našeho" Bo -- ha, a -- le -- lu -- ja.
-  }
-  \header {
-    piece = "Verš po krátkém čtení - do Zjevení Páně - v poledne"
-  }
-}
-
-\score {
-  \relative c'  {
-    \choralniRezim
-    
-    c4 d e e4. \breathe e4 e f g a( g) g4. \bar "|"
-    g4 g g g g g f( e) c d4. \bar "|"
-    f4 f f f g a g4. g4. \bar "||"
-  }
-  \addlyrics {
-    Kris -- tus při -- šel a zvěs -- to -- val po -- koj
-    vám, kte -- ří jste by -- li da -- le -- ko
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
     i těm, kte -- ří by -- li blíz -- ko.
   }
   \header {
-    piece = "Antifona - od Zjevení Páně - v poledne"
+    quid = "ant."
+    tonus = "I"
+    differentia = "D" 
+    psalmus = "v poledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+% Antifona je zkopirovana z nespor ctvrtka 2. tydne zaltare:
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d c( d) d d f g g( a) a \breathe
+    bes bes a bes g( a) a \breathe a a a a g g f e f( d) d \bar "||"
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa roz -- ší -- ři -- la až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "ant."
+    tonus = "I"
+    differentia = "D" 
+    psalmus = "odpoledne"
+    piece = \markup {\sestavTitulek}
   }
 }

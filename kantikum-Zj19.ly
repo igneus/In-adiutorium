@@ -16,67 +16,83 @@ Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu
 }
 
 % melodie aleluja
-mal = { \bar "||" f f d c \bar "||" }
-malal = { \bar "||" a a( g) g f \breathe d f( g) g f \bar "||" }
+mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
+malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
 % text aleluja
-al = \lyricmode { A -- le -- lu -- ja. }
-alal = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
+al = \lyricmode { \Response A -- le -- lu -- ja. }
+alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
-\relative c'  {
-\choralniRezimCI
-% Vitezstvi..
-f f f f f f f f f e g a
-\mal
-f f f f f f f f f f f f e g a
-\malal
 
-% Chvalte...
-f f f f f f f f f f e g g a
-\mal
-f f f f f f f f f e g a
-\malal
+\score {
+  \relative c'  {
+    \choralniRezimCI
+    % Vitezstvi..
+    \neviditelna f
+    f f f f f f f f f e g a
+    \mal
+    \neviditelna f
+    f f f f f f f f f f f f e g a
+    \malal
 
-% Pan, nas...
-f f f f f f f f e g g a
-\mal
-f f f f f f f f f e g a
-\malal
+    % Chvalte...
+    \neviditelna f
+    f f f f f f f f f f e g g a
+    \mal
+    \neviditelna f
+    f f f f f f f f f e g a
+    \malal
 
-% Nebot...
-f f f f f f f f e g a
-\mal
-f f f f f f f e g a
-\malal
+    % Pan, nas...
+    \neviditelna f
+    f f f f f f f f e g g a
+    \mal
+    \neviditelna f
+    f f f f f f f f f e g a
+    \malal
 
-% Slava...
-f f f f f f f f f e g g a
-\mal
-f f f f f f e g a
-\malal
-}
-\addlyrics {
-Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
-\al
-ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
-\alal
+    % Nebot...
+    \neviditelna f
+    f f f f f f f f e g a
+    \mal
+    \neviditelna f
+    f f f f f f f e g a
+    \malal
 
-Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
-\al
-a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí!
-\alal
+    % Slava...
+    \neviditelna f
+    f f f f f f f f f e g g a
+    \mal
+    \neviditelna f
+    f f f f f f e g a
+    \malal
+  }
+  \addlyrics {
+    \Verse Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
+    \al
+    \Verse ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
+    \alal
 
-Pán, náš Bůh vše -- vlád -- ný se u -- jal krá -- lov -- ství!
-\al
-Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
-\alal
+    \Verse Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
+    \al
+    \Verse a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí!
+    \alal
 
-Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
-\al
-je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
-\alal
+    \Verse Pán, náš Bůh vše -- vlád -- ný se u -- jal krá -- lov -- ství!
+    \al
+    \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
+    \alal
 
-Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
-\al
-po všech -- ny vě -- ky vě -- ků. A -- men.
-\alal
+    \Verse Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
+    \al
+    \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
+    \alal
+
+    \Verse Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
+    \al
+    \Verse po všech -- ny vě -- ky vě -- ků. A -- men.
+    \alal
+  }
+  \header {
+    piece = "kantikum Zj 19 - modus VI"
+  }
 }

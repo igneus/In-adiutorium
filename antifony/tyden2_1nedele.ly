@@ -1,49 +1,72 @@
 \markup {\nadpisDen {Neděle 2. týdne}}
 
+% -*- master: ../nedelniantifony.ly;
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
   \relative c'' {
     \choralniRezimCII
-    g4 g b c d( c b) b4. \breathe a4 c d e d c d d4. \breathe c4 b( a) c4. d \bar "||"
+    c4 c a g c( d) d4. c4 d c( b a) a \barMin
+    b c a( g) g \barMin
+    f a g( f g) g4. \barFinalis
   }
   \addlyrics {
     Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.b (Žalm 119(119)-XIV)"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 119-XIV"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCII
-    a4 g a b c d a a4. c4 b c( d) d4. \breathe c4 a b( g) g4. \bar "||"
+    g4 g g g a( c) c c( d c) c \barMin
+    b( c) a a( g) g \barMin
+    a f( e) g g \barFinalis
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G* (Žalm 16(15))"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 tIInedeleInespAntIII = \score {
   \relative c'' {
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
-    
-    \aFlatKey
-    g4 as as g f g g g g g g g as g f e e f g as g f g g \breathe as as f g2 \bar "||"
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMin
+    c4 c d c c b a b( c) c c \barMin
+    d c a b a g g \barMin
+    a f( a) g g4. \barFinalis
   }
   \addlyrics {
-    Při Je -- ží -- šo -- vě jmé -- nu mu -- sí po -- klek -- nout kaž -- dé
-    ko -- le -- no na ne -- bi i na ze -- mi. A -- le -- lu -- ja.
+    Při Je -- ží -- šo -- vě jmé -- nu 
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no 
+    na ne -- bi i na ze -- mi. 
+    A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - [zvláštní nápěv] (Flp 2, 6-11)"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -54,29 +77,33 @@ tIInedeleInespResp = \score {
     \choralniRezimFII
     
     % R
-    \neviditelna d
-    d4 a c d d( c) d \breathe f f e f g( f) d d \bar "|"
-    c a c( d) d d \breathe f e d e c d4. d \bar "||"
+    \neviditelna g
+    g4 g f g a( c) c \barMin c d c b a( b) a( g) g \barMax
+    a4 a b( c) a( g) g \barMin f f g a f g4. g \barFinalis
     
     % V
-    \neviditelna a
-    a4 c( d) d d d d d d e( f) g d4. d \bar "|"    
-    % R
     \neviditelna c
-    c4 a c( d) d d \breathe f e d e c d4. d \bar "||"
+    c4 a g a c c( d) c4. \barMin c4 d c b( c a4.) a \barMax
+    
+    % R
+    \neviditelna a
+    a4 a b( c) a( g) g \barMin f f g a f g4. g \barFinalis
     
     % Slava
-    d4 d f( d) d4. \breathe d4 c( a) a \breathe c4 a c d d d \bar "||"
+    c4 c c( d) d \barMin c a( c) c \barMin c b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
     ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
     \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě.
     \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
-    piece = "responsorium - II"
+    quid = "resp."
+    modus = "VIII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -87,28 +114,45 @@ tIInedeleInespResp = \score {
 \score {
   \relative c' {
     \choralniRezimCI
-    f4 g a a4. bes4 c a4. a \breathe a4 a g( a) bes c d4. d \breathe
-    c4 d bes( c) a4.( g) \bar "||"
+    \key f\major
+    f4 g a a4. \barMin
+    bes4 c a4. a \barMin
+    a4 a g( a) bes c a4. g \barMin
+    f4 e c( d) d4. \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
     jmé -- nu. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 118(117)"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCII
-    g4 a b c c c d c d e e4. \breathe c4 a g( a g) g4. \bar "||"
+    c4 a g a( c) d( c) c \barMin
+    b c a g g \barMin
+    a f f( g) g \barFinalis
   }
   \addlyrics {
-    Zpí -- vej -- te chva -- lo -- zpěv na -- še -- mu Bo -- hu. A -- le -- lu -- ja.
+    Zpí -- vej -- me chva -- lo -- zpěv 
+    na -- še -- mu Bo -- hu. 
+    A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G - Dan 3,52-7"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -116,14 +160,21 @@ tIInedeleInespResp = \score {
   \relative c' {
     \choralniRezimCI
     \key f \major
-    f4. g a4 bes c a \breathe a a a bes bes c bes a g g4. \breathe f4 e c d4. \bar "||"
+    f4. g a4 bes c a \barMin
+    a a a bes bes c bes a g g4 \barMin
+    g4 a f4. f \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na pro je -- ho svr -- cho -- va -- nou 
     ve -- leb -- nost. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (Žalm 150)"
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 150"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -133,28 +184,31 @@ tIInedeleLaudResp = \score {
     
     % R
     \neviditelna a
-    a4 g a c b g( a) a4. \bar "|"
-    b4 c a g f g4. g \bar "||"
+    a4 g a c b g( a) a4. \barMax
+    b4 c a g f g4. g \barFinalis
     
     % V
     \neviditelna c
-    c4 b a a a g f g( a) a4. \bar "|"
+    c4 b a a a g f g( a) a4. \barMax
     % R
     \neviditelna b
-    b4 c a g f g4. g \bar "||"
+    b4 c a g f g4. g \barFinalis
     
     % Slava
-    a4 a a g f g g \breathe g c b a a a \bar "||"
+    c4 c a( c) c \barMin c d( c) c \barMin c d c b( c) a( g) g \barFinalis
   }
   \addlyrics {
     \Response Ve -- le -- bí -- me tě, Bo -- že,_*
     a vzý -- vá -- me tvé jmé -- no.
     \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech
     \Response a vzý -- vá -- me tvé jmé -- no.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
-    piece = "responsorium - VIII?"
+    quid = "resp."
+    modus = "VIII?"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -163,48 +217,65 @@ tIInedeleLaudResp = \score {
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezimCI
-    e4 g( b) c c b c d b b \breathe c d a c b b4. \breathe
-    c4 a f( g) g4. \bar "||"
+    g4 b( c) c c b c d b b \barMin
+    c d a c b b4. \barMin
+    c4 a f e4. \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
     past -- vi -- nách. A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - III.g (Žalm 23(22))"
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g" 
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCI
-    g4 f e g4. \breathe g4 a b c b a g f( g) g4. \breathe 
-    a4 c g( a g) g4. \bar "||"
+    g4 f e g4. \barMin
+    g4 a b c b a g f( g) g4. \barMin
+    a4 c g( a g) g4. \barFinalis
   }
   \addlyrics {
     Slav -- ný je Bůh a je -- ho jmé -- no je ve -- li -- ké.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Žalm 76(75) - I)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCI
-    a4 g a c b c4.( d) \breathe
-    d4 c c b c a g f f4.( g) \breathe
-    f4 c' b g4.( a) \bar "||"
+    a4 g a c b c4.( d) \barMin
+    d4 c c b c a g f f4.( g) \barMin
+    f4 c' b g4.( a) \barFinalis
   }
   \addlyrics {
     Když Bůh po -- vstal k_sou -- du, ze -- mě se zdě -- si -- la a zmlk -- la.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VIII.G* (Žalm 76(75) - II)"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -213,45 +284,65 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezimCII
-    g4 g a b c a a4. b4 c d d d d c d e4. b \breathe a4 e' c( d) b4.( a)
-    \bar "||"
+    a4 c b c c d d \barMin
+    d d e c b a g f g4. g \barMin
+    g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
-    Kris -- tus je kněz na -- vě -- ky po -- dle 
-    Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    Kris -- tus je kněz na -- vě -- ky 
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.a (Žalm 110(109),1-5.7)"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezimCI
-    c4 d c f e f f4.( g) \breathe a4 bes a g f g g4. \breathe
-    f4 e c d4. \bar "||"
+    a4 a a g f g g4.( a) \barMin
+    a4 bes a g f g g4. \barMin
+    f4 e c d4. \barFinalis
   }
   \addlyrics {
     Bůh náš je na ne -- be -- sích, u -- či -- nil vše -- chno, co chtěl.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - per (Žalm 115(113B))"
+    quid = "2. ant."
+    modus = "per"
+    differentia = "" 
+    psalmus = "Žalm 115"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 tIInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezimCI
-    f4 f f f f f bes c a g g4. \breathe f4 g a c c4. \breathe a4 g f f4. \bar "||"
+    f4 f g( a) a \barMin
+    a a a g bes( a) g( f) f \barMaior
+    f e f g( a f) f \barMin
+    d f( g) g f4. \barFinalis
   }
   \addlyrics {
     Chval -- te Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
     ma -- lí i vel -- cí. A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - VI.F (Zj 19,1-17)"
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "2ne-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -260,31 +351,35 @@ tIInedeleIInespAntIII = \score {
 tIInedeleIInespResp = \score {
   \relative c'' {
     \choralniRezimCI
+    \key f \major
     
     % R
     \neviditelna a
-    a4 c a4. g4 d d \bar "|"
-    f4 f g g a( c) a a g f g e f d d \bar "||"
+    a4 c a4. g4 d d \barMax
+    f4 f g g a( c) a a g f g e f d d \barFinalis
     
     % V
-    \neviditelna a
-    a'4 a a a bes c bes a g( a) a \bar "|"    
+    \neviditelna a'
+    a4 a a a bes c bes a g( a) a \barMax
     % R
     \neviditelna f
-    f4 f g g a( c) a a g f g e f d d \bar "||"
+    f4 f g g a( c) a a g f g e f d d \barFinalis
     
     % Slava
-    a'4 a a g f a a \breathe a c c a a a \bar "||"
+    a'4 a a g f a a \barMin a c a f( g) a4. a \barFinalis
   }
   \addlyrics {
     \Response Ve -- li -- ký je náš Bůh,_*
-    je -- mu pa --tří vše -- chna moc na ne -- bi i na ze -- mi.
+    je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
     \Verse Je -- ho mou -- drost pře -- vy -- šu -- je vše -- chno,
     \Response je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
-    piece = "responsorium - I"
+    quid = "resp."
+    modus = "I"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 

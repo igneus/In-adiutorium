@@ -1,0 +1,51 @@
+\documentclass[12pt, twoside, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{czech}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{setspace}
+% \usepackage{datetime}
+
+
+\newcommand{\cervene}[1]{%
+  \textcolor{BrickRed}{#1}}
+
+\newcommand{\nadpisTyden}[1]{%
+  {\textsc{\Large \cervene{#1}}}}
+  
+\newcommand{\nadpisDen}[1]{%
+  {\large #1}}
+  
+\newcommand{\nadpisHodinka}[1]{%
+  \noindent \textbf{#1}}
+  
+\newcommand{\nadpisZalm}[1]{%
+  \begin{center}
+  \cervene{#1}
+  \end{center}
+  \nopagebreak}
+
+\newcommand{\rubrika}[1]{%
+  \noindent {\small \cervene{#1}}}
+  
+  
+  
+\pagestyle{headings}
+\doublespacing
+  
+\begin{document}
+
+\section{První týden}
+\input{tyden1_1nedele.tex}
+  
+% \nadpisTyden{Druhý týden}
+% \nadpisTyden{Třetí týden}
+% \nadpisTyden{Čtvrtý týden}
+
+\\
+\\
+\noindent datum: \today \\
+projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)\\
+liturgické texty převzaty z webu http://ebreviar.cz\\
+sazba programem \LaTeX
+
+\end{document}

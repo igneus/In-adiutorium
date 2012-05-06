@@ -1,33 +1,46 @@
 \markup {\nadpisDen {Neděle 4. týdne}}
 
+% -*- master: ../nedelniantifony.ly;
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
   \relative c'' {
     \choralniRezimCI
-    a4 f g( a) a \breathe a a a c g f( e) d4. \bar "||"
+    a4 f g( a) a \barMin
+    a a a c g f( e) d4. \barFinalis
   }
   \addlyrics {
     Vy -- pro -- šuj -- te Je -- ru -- za -- lé -- mu po -- koj.
   }
   \header {
-    piece = "1. ant. - per (Žalm 122(121))"
+    quid = "1. ant."
+    modus = "per"
+    differentia = "" 
+    psalmus = "Žalm 122"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
     \choralniRezimFII
-    f4 f e f d4. d \breathe
-    f4 g a f g \breathe
-    a4 g f e d c d4. d \bar "||"
+    f4 f e f d4. d \barMin
+    f4 g a f g \barMin
+    a4 g f e d c d4. d \barFinalis
   }
   \addlyrics {
     Od čas -- né -- ho rá -- na až do noč -- ní tmy 
     če -- ká má du -- še na Pá -- na.
   }
   \header {
-    piece = "2. ant. - II.D (Žalm 130(129))"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 130"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -38,12 +51,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezimCI
-    a4 g( a) f e d e c c \breathe
-    f f f g a bes a4. \breathe
-    g4 a g f f \breathe
-    g4 a f f \bar "||"
+    f4 g f e d e c c \barMin
+    f f f g a bes a4. g4 a g f f \barMin
+    g4 a f f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -51,41 +63,57 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VI.F (Žalm 118(117))"
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCI
-    g4 a c b4.( a) \breathe
-    c4 b a g a4. g \breathe
-    b4 c a g( f) g4. \breathe
-    a4 c( b) g a4. \bar "||"
+    g4 a g a4.( c) \barMaior
+    c4 d c a b4. g \barMin
+    a4 f e f( g) g \barMaior
+    g a f( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
-    Vše -- chna dí -- la Pá -- ně, ve -- leb -- te Pá -- na.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.G (Dan 3, 52-57)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
     \choralniRezimCI
-    f4 g f g( a) a4. \breathe
-    a4 c( d) c4.( a) bes4 a g f \breathe
-    bes a g( f) f \bar "||"
+    f4 g f g( a) a4. \barMin
+    a4 c( d) c4.( a) bes4 a g f \barMin
+    bes a g( f) f \barFinalis
   }
   \addlyrics {
     Vše -- chno, co dý -- chá, ať chvá -- lí Hos -- po -- di -- na.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "3. ant. - I.f (Žalm 150)"
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 150"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -96,25 +124,31 @@
 \score {
   \relative c' {
     \choralniRezimCI
-    f4 f g g a4. \breathe
-    bes4 c bes a g g4. \breathe
-    g4 a f f \bar "||"
+    d4 d( g) g f g4.( a) \barMaior
+    g4( a) f e4.( d) e4( f) d d \barMax
+    e d c( d) d \barFinalis
   }
   \addlyrics {
-    Kdo jí ten -- to chléb, bu -- de žít na -- vě -- ky.
+    Kdo jí ten -- to chléb, 
+    bu -- de žít na -- vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - I.f (Žalm 23(22))"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCII
-    c4 c d c( a) g f g4. g \breathe
-    g4 g f g a c c c \breathe
-    d4 a c c4. \bar "||"
+    c4 c c b( c) a g a( b c4.) c \barMin
+    c4 d c a b a g g \barMax
+    a4 b g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
@@ -122,16 +156,21 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c (Žalm 76(75) I)"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCII
-    g4 a c c c d e d d \breathe 
-    c b a a g f g g \breathe
-    a4 c d c \bar "||"
+    c4 c c b( c) c d e d d \barMin
+    c4 b a a g f f( g) g \barMin
+    g a g g4. \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
@@ -139,7 +178,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "2. ant. - VIII.c (Žalm 76(75) II)"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -148,9 +192,9 @@
 \score {
   \relative c'' {
     \choralniRezimCII
-    d4 a a g( f) g( a) a g a b( c) a a \breathe
-    g4 g g f g a( c) c4. \breathe
-    d4 e c c4. \bar "||"
+    a4 a a g( f) g( a) a g a c( d) d d \barMin
+    d4( e c4.) c d4 c b a( g) g \barMin
+    g a g( f) g \barFinalis
   }
   \addlyrics {
     O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 
@@ -158,16 +202,21 @@
     A -- le -- lu -- ja.
   }
   \header {
-    piece = "1. ant. - VII.c (Žalm 110(109))"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezimCI
-    a4( c) a a g g4.( a) \breathe
-    e4 g a a a a a b c a g g \breathe
-    e4 g a a a a c b g a \bar "||"
+    a4( c) a a g g4.( a) \barMin
+    e4 g( a) a a a a b c a g e( a) a \barMin
+    e4 g a a a a c b g a \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo lač -- ní a žíz -- ní 
@@ -175,7 +224,12 @@
     ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
   }
   \header {
-    piece = "2. ant. - IV.g (Žalm 112(111))"
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
   }
 }
 
