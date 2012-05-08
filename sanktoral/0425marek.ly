@@ -10,7 +10,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -18,8 +20,8 @@
   }
   \header {
     quid = "ant. k invitatoriu"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -48,7 +50,7 @@
     differentia = "c" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
