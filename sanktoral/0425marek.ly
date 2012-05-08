@@ -7,23 +7,45 @@
 
 \include "../spolecne.ly"
 
-\markup\large\bold{invitatorium zkopírovat z Lukáše!!!}
-
 \score {
   \relative c' {
     \choralniRezim
     
   }
   \addlyrics {
-    Je -- žíš Kris -- tus po -- vo -- lal e -- van -- ge -- lis -- ty
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c a( g) a( g) g4.( \grace { f4 d) } \barMin 
+    f( g f) g( a) a c( b c) c( d) a g a4.( g) \barMaior
+    g4 f g g g g( a) a \barMax
+    a a g a b( c) c \barMin b( c d) c b b( c a) g a( g) g \barMax
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus 
+    po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
     a -- by v_je -- ho círk -- vi ko -- na -- li služ -- bu slo -- va.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulek}
@@ -31,22 +53,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( d c) c c( d) d e( d) c d d a \barMaior
+    a( d) c( b) c b a g a4.( g) \barMin
+    g4 f g g( a) a c b a a \barMaior
+    a c a( g) a \barFinalis
   }
   \addlyrics {
-    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky -
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
     slo -- vo e -- van -- ge -- li -- a,
     kte -- ré vám by -- lo zvěs -- to -- vá -- no.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
+    fons = "Od druhého oddílu jsem si vzal jako vzor antifonu O mulier, AntRom1912 s. 315."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

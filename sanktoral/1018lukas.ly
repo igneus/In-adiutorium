@@ -7,24 +7,7 @@
 
 \include "../spolecne.ly"
 
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
-  }
-  \header {
-    quid = "ant. k invitatoriu"
-    modus = ""
-    differentia = "" 
-    psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
+\markup\large\bold{invitatorium zkopírovat z Marka!!!}
 
 \score {
   \relative c' {
