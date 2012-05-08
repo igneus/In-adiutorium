@@ -387,6 +387,27 @@ složil.)
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu - pro evangelisty}
+  }
+}
+
 \markup\nadpisSkupiny{"Velký pátek / Bílá sobota"}
 
 \score {
