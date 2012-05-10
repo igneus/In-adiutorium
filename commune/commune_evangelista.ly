@@ -39,21 +39,29 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4( a) a c( b a) g4. g \barMin c4( d) e d( c) c( d) d \barMaior
+    g, a b g( a) g \barMax
+    c d e f e d c d4. d \barMaior
+    d4 d( e) d c d( c a4.) a \barMaior
+    g4( a) c d a4. a \barMin c4( b c) a g a( g) g \barFinalis
     
+    f^\markup\rubrVelikAleluja g g( a g) g \barFinalis
   }
   \addlyrics {
-    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a po -- vo -- lal k_to -- mu,
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a 
+    po -- vo -- lal k_to -- mu,
     a -- by -- chom u -- vě -- ři -- li v_prav -- du
-    a do -- sáh -- li slá -- vy na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+    a do -- sáh -- li slá -- vy 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -86,33 +94,39 @@
 
 \markup\italic{Mimo dobu velikonoční:}
 
+% Zvlastni napev jsem mu slozil proto, ze je nesoumerne
+% a pro klasicky v modu VI se mi delkami textu nezdalo
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    f4( g) a bes a a \barMin c bes a a( bes) a g f g g( a) a \barMax
+    a a f d e( f d) d \barFinalis
     % V
     \neviditelna a
-    
+    a'4( c d) a a( g a) \barMin
+    a g a bes bes bes a g g( a) a \barMax
     % R
     \neviditelna a
-    
+    a a f d e( f d) d \barFinalis
     % Slava
+    a'( c d a) a a( bes) a a g( a) a \barMin a g( f g) f g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Vy -- pra -- vo -- va -- li o slav -- ných
     Hos -- po -- di -- no -- vých či -- nech_*
     a o je -- ho mo -- ci.
     \Verse Mlu -- vi -- li o je -- ho po -- di -- vu -- hod -- ných
-    skut - cích_*
+    skut -- cích_*
     \Response a o je -- ho mo -- ci.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
