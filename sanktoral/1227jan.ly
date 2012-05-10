@@ -15,7 +15,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d f( e d) c d( c) c( a) a \barMin c( b c) d( e) d( c) c( d) d \barMaior
+    f f e f g( f) e( f d) d \barMin d( f) e( c) d d( c) c \barMaior
+    d d( f g) f( e) d e c( d) d e e( f) d d \barFinalis
   }
   \addlyrics {
     Jan při -- lnul ke Kris -- tu ce -- lou svou lás -- kou
@@ -24,8 +26,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -84,17 +86,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 c d f g f( d) d \barMin 
+    f g a g f g( a) a g g \barMin
+    a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
+    c d e d \barFinalis
   }
   \addlyrics {
-    Slo -- vo se sta -- lo tě -- lem a pře -- bý -- va -- lo me -- zi ná -- mi.
+    Slo -- vo se sta -- lo tě -- lem 
+    a pře -- bý -- va -- lo me -- zi ná -- mi.
     Vi -- dě -- li jsme je -- ho slá -- vu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
