@@ -39,15 +39,16 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a) a c( b a) g4. g \barMin c4( d) e d( c) c( d) d \barMaior
-    g, a b g( a) g \barMax
-    c d e f e d c d4. d \barMaior
-    d4 d( e) d c d( c a4.) a \barMaior
-    g4( a) c d a4. a \barMin c4( b c) a g a( g) g \barFinalis
+    \key f \major
+    d4( a') a f g e g f e d d4.( e) \barMin
+    f4 g a g( a) a \barMaior
+    g a a bes a bes a g( a) a \barMin
+    a a( g f) a( g f) e d d \barMaior
+    c( d) e f g( f d4.) d \barMin f4 e c c( d) d \barFinalis
     
-    f^\markup\rubrVelikAleluja g g( a g) g \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a 
@@ -60,8 +61,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -106,8 +107,8 @@
     f4( g) a bes a a \barMin c bes a a( bes) a g f g g( a) a \barMax
     a a f d e( f d) d \barFinalis
     % V
-    \neviditelna a
-    a'4( c d) a a( g a) \barMin
+    \neviditelna a'
+    a4( c d) a a( g a) \barMin
     a g a bes bes bes a g g( a) a \barMax
     % R
     \neviditelna a
