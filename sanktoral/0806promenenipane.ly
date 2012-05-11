@@ -35,9 +35,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4( d) d \barMin d f e d c c( d) d \barMaior
+    c( d a) a \barMin b( c d) c( b) a a b a a( g) g \barMaior
+    a a b( c) c \barMin b c d( c b) c( d) a( g) g \barMin
+    a g a c( a) g g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, je dob -- ře, že jsme ta -- dy.
@@ -48,8 +51,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -91,7 +94,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( c) d f( e f g) g \barMin f g a bes c( a) a bes( c) g g \barMaior
+    f f f( d) d f( g) a g( f) f \barMin
+    g g( a) g f g g d g f( e) d c c \barMaior
+    d f( e f g) g a bes a( g) f \barMin g f( g) f e( d c d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus zje -- vil na vy -- so -- ké ho -- ře svou slá -- vu;
@@ -101,8 +107,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
