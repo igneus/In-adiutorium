@@ -34,20 +34,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMax
+    d f g g g f g g( a) f f \barFinalis
     
+    a(^\markup\small\italic{V době velikonoční:} bes) a a \barMin
+    g a g( f) f \barFinalis
   }
   \addlyrics {
-    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit v_tem -- no -- tě,
-    ale bu -- de mít svět -- lo ži -- vo -- ta.
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo \markup{\Dagger ži} -- vo -- ta.
     
+    \markup{\Dagger ži} -- vo -- ta.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 118-III"
     id = ""
+    fons = "upraveno z: žaltář, středa 3. týdne, uprostřed dne, 1. ant."
     piece = \markup {\sestavTitulek}
   }
 }
