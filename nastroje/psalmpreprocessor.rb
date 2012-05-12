@@ -188,11 +188,22 @@ module PsalmPreprocessor
   end
   
   class UnderlineAccentsOutputStrategy < Strategy
-    def initialize(io, first_halfverse=2, second_halfverse=2, flex=1)
+
+    # different style of emphasizing the accentuated syllable
+    ACCENT_STYLES = {
+      :underline => ["\\underline{", "}"],
+      :bold => ["\\textbf{", "}"]
+    }
+
+    def initialize(io, first_halfverse=2, second_halfverse=2, flex=1, style=:underline)
       super(io)
       @first_hv = first_halfverse
       @second_hv = second_halfverse
       @flex = flex
+
+      @style = style
+      @emphopen = ACCENT_STYLES[@style][0]
+      @emphclose = ACCENT_STYLES[@style][1]
 
       @accent_error = false # place for second 'return value' 
       # of #underline_last_accent
@@ -238,9 +249,9 @@ module PsalmPreprocessor
       @accent_error = false
       s = str
       i = s.rindex "["
-      s[i] = "\\underline{" if i
+      s[i] = @emphopen if i
       j = s.rindex "]"
-      s[j] = "}" if j
+      s[j] = @emphclose if j
       
       if (!i && j) || (i && !j) then
         @accent_error = "Non-complete pair of square brackets on line '#{s}'"
@@ -623,6 +634,7 @@ require 'optparse'
 
 setup = {
   :accents => [2,2],
+  :accent_style => :underline,
   :has_title => true,
   :title_pattern => nil,
   :no_formatting => false,
@@ -652,6 +664,13 @@ optparse = OptionParser.new do|opts|
     if a2 && a2 != "" then
       setup[:accents][1] = a2.to_i
     end
+  end
+  opts.on "-s", "--accents-style SYM", "underline (default) | bold" do |s|
+    sym = s.to_sym
+    unless UnderlineAccentsOutputStrategy::ACCENT_STYLES.include? sym 
+      raise "Unknown style '#{sym}'"
+    end
+    setup[:accent_style] = sym
   end
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
     setup[:has_title] = false
@@ -745,7 +764,7 @@ def output_procedure(input, fwn, setup)
     output = NovyDvurNewlinesOutputStrategy.new output
   end
   
-  output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
+  output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1], 1, setup[:accent_style]
   
   output = BreakableAccentsOutputStrategy.new output
   
