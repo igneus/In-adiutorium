@@ -1,0 +1,397 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[czech]{babel} 
+
+\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+
+\usepackage{titlesec}
+
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+% font Palatino:
+% \usepackage[sc]{mathpazo}
+% \linespread{1.05}        
+
+% font Bookman:
+\usepackage{bookman}
+
+\input{spolecne.tex}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\nazev}{Nešporní zpěvy}
+
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
+  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+  
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
+}
+
+\renewcommand{\titulniStrankaSvazkuAntifonare}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \begin{titlepage}
+    \begin{center}
+            
+      \vspace*{7cm}
+      
+      {\Huge \textbf{\nazev}}
+          
+      \vspace{1cm}
+      
+      {\large \autor}
+      
+      \vfill
+      In adiutorium
+      
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\nadpisOkruh}[1]{\section{#1}}
+\renewcommand{\nadpisDen}[1]{\subsection{#1}}
+
+\newcommand{\odkazBozePospes}{\emph{Bože, pospěš mi na pomoc}, str. \pageref{pospes}.
+
+}
+\newcommand{\odkazZakonceni}{Zakončení, str. \pageref{zakonceni}
+
+}
+\newcommand{\odkazZalm}[2]{Žalm #2, str. \pageref{#1}.
+
+}
+\newcommand{\odkazKantikum}[2]{Kantikum #2, str. \pageref{#1}.
+
+}
+\newcommand{\odkazMagnificat}{Kantikum Panny Marie, str. \pageref{magnificat}.
+
+}
+\newcommand{\rubrikaCteni}{Následuje krátké čtení.
+
+}
+\newcommand{\rubrikaPrimluvy}{Následují přímluvy, Modlitba Páně a závěrečná
+modlitba.
+
+}
+
+\newenvironment{psalmus}{}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\titulniStrankaSvazkuAntifonare
+
+\nadpisOkruh{Společné nápěvy}
+
+\label{pospes}
+\label{zakonceni}
+
+\nadpisOkruh{Nešporní žalmy a kantika}
+% 15 Josefa, JanaKr, CyrMet
+% 46 Posveceni
+% 47 Nanebevstoupeni
+% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych
+% 111 Srdce
+% 112 Zjeveni, Josefa, JanaKr, CyrMet
+% 114 Zmrtvychvstani, Seslani, Trojice
+% 116-I JanaNep, Vaclava
+% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych
+% 121 Zemrele
+% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni
+% 126 PetraPavla
+% 127 Matky Bozi, Nanebevzeti, Neposkvrnene
+% 130 Narozeni, Zvestovani, Zemrele
+% 145-I Krale
+
+% Fp 2 Srdce, Zemrele
+% Kol 1 Narozeni, Zvestovani
+% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene
+% Zj 4 JanaNep, Vaclava, VsSvatych
+% Zj 11 Nanebevstoupeni
+% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet
+% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni
+
+\nadpisZalmu{kantikum Panny Marie}
+\label{magnificat}
+\lilypondfile{generovane/nespornizpevy/zalmy_magnificat.ly}
+\input{generovane/nespornizpevy/kantikum_magnificat.tex}
+
+\nadpisZalmu{Žalm 110, 1-5.7}
+\label{z110}
+\lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
+
+\nadpisZalmu{kantikum Zj 19}
+\label{kzj19}
+\lilypondfile{kantikum-Zj19.ly}
+
+\nadpisOkruh{Vánoce}
+
+\nadpisDen{Narození Páně (24.12.)}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z130}{130}
+\odkazKantikum{kkol1}{Kol 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Matky Boží, Panny Marie (1.1.)}
+
+\odkazBozePospes
+\odkazZalm{z122}{122}
+\odkazZalm{z127}{127}
+\odkazKantikum{kef1}{Ef 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Zjevení Páně (6.1.)}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+% \nadpisDen{Křtu Páně} % ?
+
+\nadpisOkruh{Velikonoce}
+\nadpisDen{Zmrtvýchvstání Páně}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z114}{114}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Nanebevstoupení Páně}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z47}{47}
+\odkazKantikum{kzj11}{Zj 11}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Seslání Ducha svatého}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z114}{114}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
+\nadpisDen{Nejsvětější Trojice}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z114}{114}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Těla a Krve Páně}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z116ii}{116-II}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Nejsvětějšího Srdce Ježíšova}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z111}{111}
+\odkazKantikum{kfp2}{Fp 2}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Ježíše Krista Krále}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z145i}{145-I}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisOkruh{Sanktorál}
+% vsechny slavnosti + dva svatky hlavnich zemskych patronu:
+% Jana Nep. a Cyrila s Metodejem
+\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)}
+
+\odkazBozePospes
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Zvěstování Páně (25.3.)}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z130}{130}
+\odkazKantikum{kkol1}{Kol 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)}
+
+\odkazBozePospes
+\odkazZalm{z116i}{116-I}
+\odkazZalm{z116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Narození sv. Jana Křtitele (24.6.)}
+
+\odkazBozePospes
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)}
+
+\odkazBozePospes
+\odkazZalm{z116ii}{116-II}
+\odkazZalm{z126}{126}
+\odkazKantikum{kef1}{Ef 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)}
+
+\odkazBozePospes
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Nanebevzetí Panny Marie (15.8.)}
+
+\odkazBozePospes
+\odkazZalm{z122}{122}
+\odkazZalm{z127}{127}
+\odkazKantikum{kef1}{Ef 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{sv. Václava, mučedníka (28.9.)}
+
+\odkazBozePospes
+\odkazZalm{116i}{116-I}
+\odkazZalm{116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Všech svatých (1.11.)}
+
+\odkazBozePospes
+\odkazZalm{z110}{110}
+\odkazZalm{z116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)}
+
+\odkazBozePospes
+\odkazZalm{z121}{121}
+\odkazZalm{z130}{130}
+\odkazKantikum{kfp2}{Fp 2}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)}
+
+\odkazBozePospes
+\odkazZalm{z122}{122}
+\odkazZalm{z127}{127}
+\odkazKantikum{kef1}{Ef 1}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
+
+\odkazBozePospes
+\odkazZalm{z46}{46}
+\odkazZalm{z122}{122}
+\odkazKantikum{kzj19}{Zj 19}
+\rubrikaCteni
+\odkazMagnificat
+\rubrikaPrimluvy
+\odkazZakonceni
+
+\end{document}

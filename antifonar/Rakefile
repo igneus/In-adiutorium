@@ -61,7 +61,8 @@ dirs = { 'generovane' => {'kompletar' => {},
                                                 'zaltar' => {},
                                                 'ctenizaltar' => {},
                                                 'svatecnizaltar' => {},
-                                                'triduum' => {}},
+                                                'triduum' => {},
+    'nespornizpevy' => {}},
               'vystup' => {}}
 make_dirs dirs
 
@@ -90,6 +91,14 @@ splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         "--one-clef "+
                         "--ids "
 
+desc "Delete LilyPond-Book's stored snippets"
+task :snipclean do
+  cd 'vystup'
+  sh 'rm -rf tmp*'
+  sh 'rm -rf snippet*'
+  Dir['*'].each {|f| sh "rm -rf #{f}" if f.size == 2 }
+  cd '..'
+end
 
 ##############
 # sv. 1: kompletar
@@ -506,3 +515,73 @@ end
 
 desc "Psalm 136 - responsorial arrangement."
 task :zalm136 => ["vystup/zalm136.pdf"]
+
+######################################################
+# Nesporni zpevy (nespory nejvetsich slavnosti liturgickeho roku
+# pro farni provoz)
+
+adresar_nesporni = 'generovane/nespornizpevy/'
+nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
+          "../nastroje/splitscores.rb "+
+                        "--prepend-text '\\include \"nespornizpevy/spolecne_nespory.ly\"' "+
+                        "--remove-headers "+
+                        # "--mode-info "+
+                        "--one-clef "+
+                        "--ids " + " --output-dir #{adresar_nesporni} "
+nesporni_options = '--accents-style bold'
+
+# pole: [prvni polovers:[akcentu, pripravnych slabik], druhy:...]
+psalmodie = {
+  'VIII.G' => [[1,0], [1,2]],
+  'VII.a' => [[2,0], [2,0]]}
+nesporni_zalmy = {'110' => 'VII.a'}
+nesporni_kantika = {'magnificat' => 'VIII.G'}
+
+def ps_accents(pattern)
+  return "#{pattern[0][0]}:#{pattern[1][0]}"
+end
+
+def ps_prep(pattern)
+  return "#{pattern[0][1]}:#{pattern[1][1]}"
+end
+
+zalmy = []
+nesporni_kantika.each_pair do |canticle,psalmcode|
+  wd = Dir.pwd
+  syrovy = "nespornizpevy/zalmy/kantikum_"+canticle+'.zalm'
+  peceny = adresar_nesporni+"kantikum_"+canticle+'.tex'
+  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
+  psalm_pattern = psalmodie[psalmcode]
+  file peceny => [syrovy, preprocessor] do
+    chdir adresar_nesporni
+    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} ../../#{syrovy}"
+    chdir wd
+    sh "vlna #{peceny}"
+  end
+  zalmy << peceny
+end
+
+noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid| 
+  # nazev vygenerovaneho souboru s prvni antifonou
+  afn = adresar_nesporni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
+  # zpracovavany soubor s antifonami
+  sfn = file
+  
+  file afn => [sfn] do
+    sh nesporni_splitscores_command + sfn
+  end
+  
+  afn
+end
+
+file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni do |t|
+  sh "lilypond-book --out=vystup --pdf "+t.prerequisites.first
+end
+
+file 'vystup/nespornizpevy.pdf' => ['vystup/nespornizpevy.tex']+zalmy do
+  cd 'vystup'
+  2.times { sh 'pdflatex nespornizpevy' }
+  cd '..'
+end
+
+task :nesporni => ["vystup/nespornizpevy.pdf"]
