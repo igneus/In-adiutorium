@@ -686,6 +686,29 @@ module PsalmPreprocessor
       return accents
     end
   end
+
+  class SkipVersesOutputStrategy < Strategy
+    def initialize(io, verses_to_skip, has_title=true)
+      super(io)
+      @verses_to_skip = verses_to_skip
+      @verses_skipped = 0
+      @has_title = has_title
+      @lineno = 0
+    end
+
+    def puts(s="\n")
+      if @verses_skipped == @verses_to_skip then
+        @core.puts s
+      else
+        @lineno += 1
+        if !@has_title || @lineno > 2 then
+          if s =~ /\w+[^\+\*]\s*$/ then # second half-verse: non-empty, not ending with + or *
+            @verses_skipped += 1
+          end
+        end
+      end
+    end
+  end
 end
 
 include PsalmPreprocessor
@@ -794,7 +817,7 @@ optparse = OptionParser.new do|opts|
   opts.on "-j", "--join", "Join all given input files" do
     setup[:join] = true
   end
-  opts.on "-k", "--skip_verses NUM", Integer, "Skip initial verses" do |i|
+  opts.on "-k", "--skip-verses NUM", Integer, "Skip initial verses" do |i|
     setup[:skip_verses] = i
   end
 end
@@ -853,6 +876,10 @@ def output_procedure(input, fwn, setup)
 
   if setup[:mark_short_verses] then
     output = MarkShortVersesOutputStrategy.new output
+  end
+
+  if setup[:skip_verses] > 0 then
+    output = SkipVersesOutputStrategy.new output, setup[:skip_verses], setup[:has_title]
   end
 
   # first line contains the title
