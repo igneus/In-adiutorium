@@ -106,7 +106,15 @@ modlitba.
 
 }
 
-\newcommand{\cisloPisne}[1]{\marginnote{\begin{center}\small\textbf{#1}\end{center}}[-40pt]}
+\newcounter{castPisne}
+\newcommand{\cisloPisne}[1]{
+  \marginnote{\begin{center}\small\textbf{#1}\end{center}}[-40pt]
+  \setcounter{castPisne}{1}
+}
+\newcommand{\cisloCastiPisne}{
+  \marginnote{\begin{center}\footnotesize{\arabic{castPisne}}\end{center}}[-10pt]
+  \stepcounter{castPisne}
+}
 
 \newenvironment{psalmus}{}{}
 
@@ -304,21 +312,26 @@ ze stránek http://www.op.cz}}
 
 \odkazBozePospes
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant1.ly}
 
 \odkazZalm{z110}{110}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant2.ly}
 
 \odkazZalm{z130}{130}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant3.ly}
 
 \odkazKantikum{kkol1}{Kol 1}
 \rubrikaCteni
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-antmag.ly}
 
 \odkazMagnificat
@@ -330,16 +343,19 @@ ze stránek http://www.op.cz}}
 
 \odkazBozePospes
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant1.ly}
 
 \odkazZalm{z122}{122}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant2.ly}
 
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
 \rubrikaCteni
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
 
 \odkazMagnificat
@@ -350,10 +366,12 @@ ze stránek http://www.op.cz}}
 
 \odkazBozePospes
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant1.ly}
 
 \odkazZalm{z110}{110}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant2.ly}
 
 \odkazZalm{z112}{112}
@@ -361,8 +379,10 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj15}{Zj 15}
 \rubrikaCteni
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-resp.ly}
 
+\cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-antmag.ly}
 
 \odkazMagnificat
