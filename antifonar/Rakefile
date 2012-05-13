@@ -528,7 +528,7 @@ nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         # "--mode-info "+
                         "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
-nesporni_options = '--accents-style bold'
+nesporni_options = '--accents-style bold --guillemets'
 
 # pole: [prvni polovers:[akcentu, pripravnych slabik], druhy:...]
 psalmodie = {
@@ -547,14 +547,15 @@ def ps_prep(pattern)
 end
 
 def ps_skip(canticle)
-  if $skip_verses[canticle] then
+  if $skip_verses[canticle] != nil then
     return $skip_verses[canticle]
   else
     return 1
   end
 end
 
-nesporni_zalmy = []
+nesporni_zalmotexty_pec = []
+
 nesporni_kantika.each_pair do |canticle,psalmcode|
   wd = Dir.pwd
   syrovy = "nespornizpevy/zalmy/kantikum_"+canticle+'.zalm'
@@ -567,7 +568,22 @@ nesporni_kantika.each_pair do |canticle,psalmcode|
     chdir wd
     sh "vlna #{peceny}"
   end
-  nesporni_zalmy << peceny
+  nesporni_zalmotexty_pec << peceny
+end
+
+nesporni_zalmy.each_pair do |psalm,psalmcode|
+  wd = Dir.pwd
+  syrovy = "nespornizpevy/zalmy/zalm"+psalm+'.zalm'
+  peceny = adresar_nesporni+"zalm"+psalm+'.tex'
+  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
+  psalm_pattern = psalmodie[psalmcode]
+  file peceny => [syrovy, preprocessor] do
+    chdir adresar_nesporni
+    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} --skip-verses #{ps_skip(psalm)} ../../#{syrovy}"
+    chdir wd
+    sh "vlna #{peceny}"
+  end
+  nesporni_zalmotexty_pec << peceny
 end
 
 noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid| 
@@ -583,7 +599,7 @@ noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid|
   afn
 end
 
-file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni+nesporni_zalmy do |t|
+file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni+nesporni_zalmotexty_pec do |t|
   sh "lilypond-book --out=vystup --pdf "+t.prerequisites.first
 end
 

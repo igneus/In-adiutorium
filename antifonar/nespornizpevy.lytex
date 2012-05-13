@@ -138,6 +138,7 @@ modlitba.
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
 \lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
+\input{generovane/nespornizpevy/zalm110.tex}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
