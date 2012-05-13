@@ -196,110 +196,110 @@ ze stránek http://www.op.cz}}
 \clearpage
 
 \nadpisOkruh{Nešporní žalmy a kantika}
-% 15 Josefa, JanaKr, CyrMet /101
-% 46 Posveceni /102
-% 47 Nanebevstoupeni /103
-% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych /104
-% 111 Srdce /105
-% 112 Zjeveni, Josefa, JanaKr, CyrMet /106
-% 114 Zmrtvychvstani, Seslani, Trojice /107
-% 116-I JanaNep, Vaclava /108
-% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych /109
-% 121 Zemrele /110
-% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni /111
-% 126 PetraPavla /112
-% 127 Matky Bozi, Nanebevzeti, Neposkvrnene /113
-% 130 Narozeni, Zvestovani, Zemrele /114
-% 145-I Krale /115
+% 15 Josefa, JanaKr, CyrMet
+% 46 Posveceni
+% 47 Nanebevstoupeni
+% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych
+% 111 Srdce
+% 112 Zjeveni, Josefa, JanaKr, CyrMet
+% 114 Zmrtvychvstani, Seslani, Trojice
+% 116-I JanaNep, Vaclava 
+% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych
+% 121 Zemrele
+% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni
+% 126 PetraPavla
+% 127 Matky Bozi, Nanebevzeti, Neposkvrnene
+% 130 Narozeni, Zvestovani, Zemrele
+% 145-I Krale
 
-% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene / 120
-% Fp 2 Srdce, Zemrele /121
-% Kol 1 Narozeni, Zvestovani /122
-% Zj 4 JanaNep, Vaclava, VsSvatych /123
-% Zj 11 Nanebevstoupeni /124
-% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet /125
-% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni /126
+% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene / 151
+% Fp 2 Srdce, Zemrele /152
+% Kol 1 Narozeni, Zvestovani /153
+% Zj 4 JanaNep, Vaclava, VsSvatych /154
+% Zj 11 Nanebevstoupeni /155
+% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet /156
+% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni /157
 
 \nadpisZalmu{kantikum Panny Marie}
 \label{magnificat}
-\cisloPisne{100}
+\cisloPisne{004}
 \lilypondfile{generovane/nespornizpevy/zalmy_magnificat.ly}
 
 \input{generovane/nespornizpevy/kantikum_magnificat.tex}
 
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
-\cisloPisne{104}
+\cisloPisne{110}
 \lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
 
 \input{generovane/nespornizpevy/zalm110.tex}
 
 \nadpisZalmu{Žalm 111}
 \label{z111}
-\cisloPisne{105}
+\cisloPisne{111}
 \lilypondfile{generovane/nespornizpevy/zalmy_z111.ly}
 
 \input{generovane/nespornizpevy/zalm111.tex}
 
 \nadpisZalmu{Žalm 112}
 \label{z112}
-\cisloPisne{106}
+\cisloPisne{112}
 \lilypondfile{generovane/nespornizpevy/zalmy_z112.ly}
 
 \input{generovane/nespornizpevy/zalm112.tex}
 
 \nadpisZalmu{Žalm 114}
 \label{z114}
-\cisloPisne{107}
+\cisloPisne{114}
 \lilypondfile{generovane/nespornizpevy/zalmy_z114.ly}
 
 \input{generovane/nespornizpevy/zalm114.tex}
 
 \nadpisZalmu{Žalm 116-I}
 \label{z116i}
-\cisloPisne{108}
+\cisloPisne{116-I}
 \lilypondfile{generovane/nespornizpevy/zalmy_z116i.ly}
 
 \input{generovane/nespornizpevy/zalm116i.tex}
 
 \nadpisZalmu{Žalm 116-II}
 \label{z116ii}
-\cisloPisne{109}
+\cisloPisne{116-II}
 \lilypondfile{generovane/nespornizpevy/zalmy_z116ii.ly}
 
 \input{generovane/nespornizpevy/zalm116ii.tex}
 
 \nadpisZalmu{Žalm 122}
 \label{z122}
-\cisloPisne{111}
+\cisloPisne{122}
 \lilypondfile{generovane/nespornizpevy/zalmy_z122.ly}
 
 \input{generovane/nespornizpevy/zalm122.tex}
 
 \nadpisZalmu{Žalm 127}
 \label{z127}
-\cisloPisne{113}
+\cisloPisne{127}
 \lilypondfile{generovane/nespornizpevy/zalmy_z127.ly}
 
 \input{generovane/nespornizpevy/zalm127.tex}
 
 \nadpisZalmu{Žalm 130}
 \label{z130}
-\cisloPisne{114}
+\cisloPisne{130}
 \lilypondfile{generovane/nespornizpevy/zalmy_z130.ly}
 
 \input{generovane/nespornizpevy/zalm130.tex}
 
 \nadpisZalmu{kantikum Kol 1}
 \label{kkol1}
-\cisloPisne{122}
+\cisloPisne{153}
 \lilypondfile{generovane/nespornizpevy/zalmy_kkol1.ly}
 
 \input{generovane/nespornizpevy/kantikum_kol1.tex}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
-\cisloPisne{126}
+\cisloPisne{157}
 \lilypondfile{nespornizpevy/kantikum-Zj19.ly}
 
 %%% JEDNOTLIVA OFICIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
