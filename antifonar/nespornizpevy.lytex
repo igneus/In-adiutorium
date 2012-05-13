@@ -122,6 +122,10 @@ zacházení s nápěvy žalmů (každý žalm má napříč liturgickým rokem
 stále stejný nápěv), antifon (jsou pokud možno snadné), pro
 určení rozsahu.
 
+Protože se zdá, že různá česká vydání lidových nešpor více či méně zachovávala
+přiřazení nápěvů k žalmům, jak se prvně objevily ve Svatojanském
+kancionálu (1864), přijímáme i zde alespoň zčásti tento kánon.
+
 Kvůli některým koncepčním volbám (neměnící se nápěvy žalmů,
 snadnost antifon) knížka často obsahuje jiný nápěv, než se pro stejný
 text nachází v jiných materiálech projektu In adiutorium.
@@ -144,6 +148,10 @@ nápěvy žalmů, ...
 \lilypondfile{generovane/nespornizpevy/tonicommunes_pozehnani.ly}
 \nadpisZalmu{- není-li přítomen kněz}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
+
+\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze 
+je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat 
+ze stránek http://www.op.cz}
 
 \nadpisOkruh{Nešporní žalmy a kantika}
 % 15 Josefa, JanaKr, CyrMet
@@ -173,12 +181,32 @@ nápěvy žalmů, ...
 \nadpisZalmu{kantikum Panny Marie}
 \label{magnificat}
 \lilypondfile{generovane/nespornizpevy/zalmy_magnificat.ly}
+
 \input{generovane/nespornizpevy/kantikum_magnificat.tex}
 
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
 \lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
+
 \input{generovane/nespornizpevy/zalm110.tex}
+
+\nadpisZalmu{Žalm 111}
+\label{z111}
+\lilypondfile{generovane/nespornizpevy/zalmy_z111.ly}
+
+\input{generovane/nespornizpevy/zalm111.tex}
+
+\nadpisZalmu{Žalm 112}
+\label{z112}
+\lilypondfile{generovane/nespornizpevy/zalmy_z112.ly}
+
+\input{generovane/nespornizpevy/zalm112.tex}
+
+\nadpisZalmu{Žalm 114}
+\label{z114}
+\lilypondfile{generovane/nespornizpevy/zalmy_z114.ly}
+
+\input{generovane/nespornizpevy/zalm114.tex}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}

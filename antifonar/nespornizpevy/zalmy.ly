@@ -6,26 +6,6 @@
 
 \include "spolecne_nespory.ly"
 
-%{
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    
-  } 
-  \header {
-    quid = "Žalm "
-    modus = ""
-    differentia = "" 
-    psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-%}
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -71,3 +51,86 @@
     piece = \markup {\sestavTitulek}
   }
 }  
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c( d) d\breve d4-| c \parenthesize c \barMin 
+    d\breve f4-| e \parenthesize e d-| e \parenthesize e \barMax
+    d\breve e4-| d \parenthesize d c-| \parenthesize c b( c) \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- \skip 1 \skip 1 \skip 1 \skip 1 "vím Hospodina" \lb ce -- \ln lým \skip 1 \lb srd -- \ln cem_* \skip 1
+    "ve sboru spravedlivých i" \lb ve \ln shro -- \lb \skip 1 máž -- \ln dě -- ní.	
+  } 
+  \header {
+    quid = "Žalm "
+    modus = "VII"
+    differentia = "c" 
+    psalmus = ""
+    id = "z111"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c\breve c4-| a \parenthesize a \barMin
+    c\breve d4-| c \parenthesize c b(-| a) c \barMax
+    c\breve a4 c-| \parenthesize c b( a) \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze \skip 1 \skip 1 \skip 1 \skip 1 "muži, který se bojí" \lb Hos -- \ln po -- \skip 1 \lb di -- \ln na,_*
+    "který má velkou zálibu v jeho při" -- \li ká -- \ln \lb zá -- \ln \skip 1 ních.
+  } 
+  \header {
+    quid = "Žalm 112"
+    modus = "III"
+    differentia = "a" 
+    psalmus = ""
+    id = "z112"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4( bes) a\breve g4 bes a g-| f \parenthesize f \barMax
+    g\breve d4 f-| \parenthesize f e( d) \barFinalis
+  }
+  \addlyrics {
+    Když "vytáhl" \li Iz -- ra -- el \ln \lb z_E -- \ln gyp -- ta,_*
+    "Jakubův dům z cizácké" -- \li ho \ln \lb li -- \ln \skip 1 du, 
+  } 
+  \header {
+    quid = "Žalm 114"
+    modus = "per"
+    differentia = "" 
+    psalmus = ""
+    id = "z114"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+%{
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    
+  } 
+  \header {
+    quid = "Žalm "
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+%}

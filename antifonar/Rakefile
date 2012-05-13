@@ -529,16 +529,32 @@ nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
 nesporni_options = "--accents-style bold --guillemets --append \""+
-  "Sláva [Ot]ci i [Sy]nu * 
+  "\n\nSláva [Ot]ci i [Sy]nu * 
 i [Du]chu [sva]tému, 
 jako byla na počátku, i [ny]ní i [vždyc]ky * 
 a na věky [vě]ků. [A]men.\""
 
 # pole: [prvni polovers:[akcentu, pripravnych slabik], druhy:...]
 psalmodie = {
+  'I.D' => [[2,0], [1,2]],
+  'I.D2' => [[2,0], [1,2]],
+  'II.D' => [[1,0], [1,1]],
+  'III.a' => [[2,0], [1,1]],
+  'VII.a' => [[2,0], [2,0]],
+  'VII.c' => [[2,0], [2,0]],
   'VIII.G' => [[1,0], [1,2]],
-  'VII.a' => [[2,0], [2,0]]}
-nesporni_zalmy = {'110' => 'VII.a'}
+  'per' => [[1,3], [1,1]]}
+nesporni_zalmy = {
+  '110' => 'VII.a',
+  '111' => 'VII.c',
+  '112' => 'III.a',
+  '114' => 'per',
+  #'116i' => 'II.D',
+  #'116ii' => 'II.D',
+  #'122' => 'I.D2',
+  #'127' => 'IV.E',
+  #'130' => 'VII.c'
+}
 nesporni_kantika = {'magnificat' => 'VIII.G'}
 $skip_verses = {'magnificat' => 2}
 
