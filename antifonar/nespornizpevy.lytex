@@ -100,10 +100,50 @@ modlitba.
 
 \titulniStrankaSvazkuAntifonare
 
+\nadpisOkruh{Úvod}
+
+Publikace \emph{Nešporní zpěvy} nabízí podklady pro zpívané nešpory
+o všech slavnostech liturgického roku a o svátcích nejvýznačnějších
+zemských patronů. Je připravována se zvláštním zřetelem k podmínkám
+společenství, kde je společné slavení liturgie hodin výjimečnou
+událostí, zejm. farností.
+
+Vědomě, i názvem,\footnote{Název jsem si vypůjčil ze sešitku
+P. Františka Micky \emph{Nešporní zpěvy pro lid}. \uv{Pro lid}
+jsem ovšem vypustil - zatímco v 19. století byly nešpory
+v národním jazyce pouhou pobožností \uv{pro lid}, dnes jsou plnohodnotnou
+součástí liturgie církve.}
+ přitom navazuje na tradici
+tkzv. lidových nešpor, které se slavily v českých kostelích ve třetí
+čtvrtině devatenáctého a první polovině dvacátého století.
+Je samozřejmě zcela dnešní - liturgické texty jsou vzaty ze současného
+českého breviáře. Staré lidové nešpory byly inspirací především pro
+zacházení s nápěvy žalmů (každý žalm má napříč liturgickým rokem
+stále stejný nápěv), antifon (jsou pokud možno snadné), pro
+určení rozsahu.
+
+Kvůli některým koncepčním volbám (neměnící se nápěvy žalmů,
+snadnost antifon) knížka často obsahuje jiný nápěv, než se pro stejný
+text nachází v jiných materiálech projektu In adiutorium.
+
+Způsobem úpravy se \emph{Nešporní zpěvy} v mnoha ohledech liší od ostatních
+materiálů vzniklých v rámci projektu In adiutorium, protože předpokládají
+jiného uživatele. Jsou zpěvníkem do kostelní lavice, který by měl
+být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá 
+s denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
+nápěvy žalmů, ...
+
 \nadpisOkruh{Společné nápěvy}
 
+\nadpisZalmu{Úvodní verš}
 \label{pospes}
+\lilypondfile{generovane/nespornizpevy/tonicommunes_pospes.ly}
+
+\nadpisZalmu{Zakončení - požehnání}
 \label{zakonceni}
+\lilypondfile{generovane/nespornizpevy/tonicommunes_pozehnani.ly}
+\nadpisZalmu{- není-li přítomen kněz}
+\lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
 
 \nadpisOkruh{Nešporní žalmy a kantika}
 % 15 Josefa, JanaKr, CyrMet

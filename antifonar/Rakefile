@@ -590,7 +590,9 @@ nesporni_zalmy.each_pair do |psalm,psalmcode|
   nesporni_zalmotexty_pec << peceny
 end
 
-noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid| 
+noty_nesporni = {
+  'nespornizpevy/zalmy.ly' => 'z110',
+  'nespornizpevy/tonicommunes.ly' => 'pospes'}.map do |file, sampleid| 
   # nazev vygenerovaneho souboru s prvni antifonou
   afn = adresar_nesporni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
   # zpracovavany soubor s antifonami
