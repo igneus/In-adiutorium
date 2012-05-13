@@ -545,7 +545,7 @@ def ps_prep(pattern)
   return "#{pattern[0][1]}:#{pattern[1][1]}"
 end
 
-zalmy = []
+nesporni_zalmy = []
 nesporni_kantika.each_pair do |canticle,psalmcode|
   wd = Dir.pwd
   syrovy = "nespornizpevy/zalmy/kantikum_"+canticle+'.zalm'
@@ -554,11 +554,11 @@ nesporni_kantika.each_pair do |canticle,psalmcode|
   psalm_pattern = psalmodie[psalmcode]
   file peceny => [syrovy, preprocessor] do
     chdir adresar_nesporni
-    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} ../../#{syrovy}"
+    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} ../../#{syrovy}"
     chdir wd
     sh "vlna #{peceny}"
   end
-  zalmy << peceny
+  nesporni_zalmy << peceny
 end
 
 noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid| 
@@ -574,14 +574,19 @@ noty_nesporni = {'nespornizpevy/zalmy.ly' => 'z110'}.map do |file, sampleid|
   afn
 end
 
-file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni do |t|
+file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni+nesporni_zalmy do |t|
   sh "lilypond-book --out=vystup --pdf "+t.prerequisites.first
 end
 
-file 'vystup/nespornizpevy.pdf' => ['vystup/nespornizpevy.tex']+zalmy do
+file 'vystup/nespornizpevy.pdf' => ['vystup/nespornizpevy.tex'] do
   cd 'vystup'
   2.times { sh 'pdflatex nespornizpevy' }
   cd '..'
 end
 
 task :nesporni => ["vystup/nespornizpevy.pdf"]
+
+task :nesporni_clean => [:snipclean] do
+  sh "rm -rf vystup/nespornizpevy.*"
+  sh "rm -rf generovane/nespornizpevy/*"
+end
