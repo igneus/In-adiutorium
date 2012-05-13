@@ -309,6 +309,10 @@ module PsalmPreprocessor
             bi -= 1
           end
           i = s.rindex(/[\s\/\[\]]/, bi)
+          while i > 0 && s[i-1] =~ /[\s\/\[\]]/ do
+            i -= 1
+          end
+
           unless i 
             raise "too short"
           end
