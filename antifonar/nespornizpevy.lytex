@@ -3,7 +3,7 @@
 
 \usepackage[czech]{babel} 
 
-\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[left=1cm, right=2cm, top=2cm, bottom=1cm, marginparwidth=1.2cm, marginparsep=0.3cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 
@@ -17,7 +17,8 @@
 % \linespread{1.05}        
 
 % font Bookman:
-\usepackage{bookman}
+% \usepackage{bookman}
+\usepackage{tgschola}
 
 \input{spolecne.tex}
 
@@ -68,18 +69,19 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newcommand{\nadpisOkruh}[1]{
-  \section{#1}
+  \section*{#1}
   % jenom v oddilech na zacatku bude opravdu fungovat - v ostatnich bude
   % vzdy prepsano nazvem svatku
   \fancyhead[CE,CO]{#1}
 }
 
 \renewcommand{\nadpisDen}[1]{
-  \subsection{#1}
+  \subsection*{#1}
   \fancyhead[CE,CO]{#1}
 }
 
-\newcommand{\odkazBozePospes}{\emph{Bože, pospěš mi na pomoc}, str. \pageref{pospes}.
+\newcommand{\odkazBozePospes}{
+\emph{\indent Bože, pospěš mi na pomoc}, str. \pageref{pospes}.
 
 }
 \newcommand{\odkazZakonceni}{Zakončení, str. \pageref{zakonceni}
@@ -102,6 +104,8 @@ se zpívá responsorium:
 modlitba.
 
 }
+
+\newcommand{\cisloPisne}[1]{\marginpar{\begin{center}\small\textbf{#1}\end{center}}}
 
 \newenvironment{psalmus}{}{}
 
@@ -161,12 +165,14 @@ nápěvy žalmů, ...
 
 \nadpisZalmu{Úvodní verš}
 \label{pospes}
+\cisloPisne{001}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_pospes.ly}
 
-\nadpisZalmu{Zakončení - požehnání}
+\nadpisZalmu{Zakončení - požehnání}\cisloPisne{002}
 \label{zakonceni}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_pozehnani.ly}
-\nadpisZalmu{- není-li přítomen kněz}
+
+\nadpisZalmu{- není-li přítomen kněz}\cisloPisne{003}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
 
 {\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze 
@@ -176,103 +182,119 @@ ze stránek http://www.op.cz}}
 \clearpage
 
 \nadpisOkruh{Nešporní žalmy a kantika}
-% 15 Josefa, JanaKr, CyrMet
-% 46 Posveceni
-% 47 Nanebevstoupeni
-% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych
-% 111 Srdce
-% 112 Zjeveni, Josefa, JanaKr, CyrMet
-% 114 Zmrtvychvstani, Seslani, Trojice
-% 116-I JanaNep, Vaclava
-% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych
-% 121 Zemrele
-% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni
-% 126 PetraPavla
-% 127 Matky Bozi, Nanebevzeti, Neposkvrnene
-% 130 Narozeni, Zvestovani, Zemrele
-% 145-I Krale
+% 15 Josefa, JanaKr, CyrMet /101
+% 46 Posveceni /102
+% 47 Nanebevstoupeni /103
+% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych /104
+% 111 Srdce /105
+% 112 Zjeveni, Josefa, JanaKr, CyrMet /106
+% 114 Zmrtvychvstani, Seslani, Trojice /107
+% 116-I JanaNep, Vaclava /108
+% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych /109
+% 121 Zemrele /110
+% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni /111
+% 126 PetraPavla /112
+% 127 Matky Bozi, Nanebevzeti, Neposkvrnene /113
+% 130 Narozeni, Zvestovani, Zemrele /114
+% 145-I Krale /115
 
-% Fp 2 Srdce, Zemrele
-% Kol 1 Narozeni, Zvestovani
-% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene
-% Zj 4 JanaNep, Vaclava, VsSvatych
-% Zj 11 Nanebevstoupeni
-% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet
-% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni
+% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene / 120
+% Fp 2 Srdce, Zemrele /121
+% Kol 1 Narozeni, Zvestovani /122
+% Zj 4 JanaNep, Vaclava, VsSvatych /123
+% Zj 11 Nanebevstoupeni /124
+% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet /125
+% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni /126
 
 \nadpisZalmu{kantikum Panny Marie}
 \label{magnificat}
+\cisloPisne{100}
 \lilypondfile{generovane/nespornizpevy/zalmy_magnificat.ly}
 
 \input{generovane/nespornizpevy/kantikum_magnificat.tex}
 
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
+\cisloPisne{104}
 \lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
 
 \input{generovane/nespornizpevy/zalm110.tex}
 
 \nadpisZalmu{Žalm 111}
 \label{z111}
+\cisloPisne{105}
 \lilypondfile{generovane/nespornizpevy/zalmy_z111.ly}
 
 \input{generovane/nespornizpevy/zalm111.tex}
 
 \nadpisZalmu{Žalm 112}
 \label{z112}
+\cisloPisne{106}
 \lilypondfile{generovane/nespornizpevy/zalmy_z112.ly}
 
 \input{generovane/nespornizpevy/zalm112.tex}
 
 \nadpisZalmu{Žalm 114}
 \label{z114}
+\cisloPisne{107}
 \lilypondfile{generovane/nespornizpevy/zalmy_z114.ly}
 
 \input{generovane/nespornizpevy/zalm114.tex}
 
 \nadpisZalmu{Žalm 116-I}
 \label{z116i}
+\cisloPisne{108}
 \lilypondfile{generovane/nespornizpevy/zalmy_z116i.ly}
 
 \input{generovane/nespornizpevy/zalm116i.tex}
 
 \nadpisZalmu{Žalm 116-II}
 \label{z116ii}
+\cisloPisne{109}
 \lilypondfile{generovane/nespornizpevy/zalmy_z116ii.ly}
 
 \input{generovane/nespornizpevy/zalm116ii.tex}
 
 \nadpisZalmu{Žalm 122}
 \label{z122}
+\cisloPisne{111}
 \lilypondfile{generovane/nespornizpevy/zalmy_z122.ly}
 
 \input{generovane/nespornizpevy/zalm122.tex}
 
 \nadpisZalmu{Žalm 127}
 \label{z127}
+\cisloPisne{113}
 \lilypondfile{generovane/nespornizpevy/zalmy_z127.ly}
 
 \input{generovane/nespornizpevy/zalm127.tex}
 
 \nadpisZalmu{Žalm 130}
 \label{z130}
+\cisloPisne{114}
 \lilypondfile{generovane/nespornizpevy/zalmy_z130.ly}
 
 \input{generovane/nespornizpevy/zalm130.tex}
 
 \nadpisZalmu{kantikum Kol 1}
 \label{kkol1}
+\cisloPisne{122}
 \lilypondfile{generovane/nespornizpevy/zalmy_kkol1.ly}
 
 \input{generovane/nespornizpevy/kantikum_kol1.tex}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
+\cisloPisne{126}
 \lilypondfile{nespornizpevy/kantikum-Zj19.ly}
+
+%%% JEDNOTLIVA OFICIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Vanocni okruh
 
 \nadpisOkruh{Vánoce}
 
-\nadpisDen{Narození Páně (24.12.)}
+\nadpisDen{Narození Páně (24.12.)} \cisloPisne{200}
 
 \odkazBozePospes
 
@@ -298,7 +320,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Matky Boží, Panny Marie (1.1.)}
+\nadpisDen{Matky Boží, Panny Marie (1.1.)} \cisloPisne{201}
 
 \odkazBozePospes
 
@@ -318,7 +340,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Zjevení Páně (6.1.)}
+\nadpisDen{Zjevení Páně (6.1.)} \cisloPisne{202}
 
 \odkazBozePospes
 
@@ -343,8 +365,10 @@ ze stránek http://www.op.cz}}
 
 % \nadpisDen{Křtu Páně} % ?
 
+%% Velikonocni okruh
+
 \nadpisOkruh{Velikonoce}
-\nadpisDen{Zmrtvýchvstání Páně}
+\nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -355,7 +379,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nanebevstoupení Páně}
+\nadpisDen{Nanebevstoupení Páně} \cisloPisne{301}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -366,7 +390,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Seslání Ducha svatého}
+\nadpisDen{Seslání Ducha svatého} \cisloPisne{302}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -376,9 +400,12 @@ ze stránek http://www.op.cz}}
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
+
+%% Slavnosti Pane v mezidobi
 
 \nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
-\nadpisDen{Nejsvětější Trojice}
+
+\nadpisDen{Nejsvětější Trojice} \cisloPisne{400}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -389,7 +416,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Těla a Krve Páně}
+\nadpisDen{Těla a Krve Páně} \cisloPisne{401}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -400,7 +427,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nejsvětějšího Srdce Ježíšova}
+\nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -411,7 +438,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Ježíše Krista Krále}
+\nadpisDen{Ježíše Krista Krále} \cisloPisne{403}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -422,10 +449,12 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
+%% Sanktoral - jaro+leto
+
 \nadpisOkruh{Sanktorál}
 % vsechny slavnosti + dva svatky hlavnich zemskych patronu:
 % Jana Nep. a Cyrila s Metodejem
-\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)}
+\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)} \cisloPisne{501}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -436,7 +465,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Zvěstování Páně (25.3.)}
+\nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{502}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -447,7 +476,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)}
+\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{503}
 
 \odkazBozePospes
 \odkazZalm{z116i}{116-I}
@@ -458,7 +487,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Narození sv. Jana Křtitele (24.6.)}
+\nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{504}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -469,7 +498,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)}
+\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{505}
 
 \odkazBozePospes
 \odkazZalm{z116ii}{116-II}
@@ -480,7 +509,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)}
+\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{506}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -491,7 +520,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nanebevzetí Panny Marie (15.8.)}
+\nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{507}
 
 \odkazBozePospes
 \odkazZalm{z122}{122}
@@ -502,7 +531,9 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Václava, mučedníka (28.9.)}
+%% Sanktoral - podzim+zima
+
+\nadpisDen{sv. Václava, mučedníka (28.9.)} \cisloPisne{508}
 
 \odkazBozePospes
 \odkazZalm{116i}{116-I}
@@ -513,7 +544,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Všech svatých (1.11.)}
+\nadpisDen{Všech svatých (1.11.)} \cisloPisne{509}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -524,7 +555,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)}
+\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{510}
 
 \odkazBozePospes
 \odkazZalm{z121}{121}
@@ -535,7 +566,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)}
+\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{511}
 
 \odkazBozePospes
 \odkazZalm{z122}{122}
@@ -547,6 +578,7 @@ ze stránek http://www.op.cz}}
 \odkazZakonceni
 
 \nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
+\cisloPisne{512}
 
 \odkazBozePospes
 \odkazZalm{z46}{46}
