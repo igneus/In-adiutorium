@@ -697,12 +697,12 @@ module PsalmPreprocessor
     end
 
     def puts(s="\n")
-      if @verses_skipped == @verses_to_skip then
+      if @verses_skipped >= @verses_to_skip then
         @core.puts s
       else
         @lineno += 1
-        if !@has_title || @lineno > 2 then
-          if s =~ /\w+[^\+\*]\s*$/ then # second half-verse: non-empty, not ending with + or *
+        if (!@has_title) || @lineno > 2 then
+          if s =~ /[^\s\+\*]\s*$/ then # second half-verse: non-empty, not ending with + or *
             @verses_skipped += 1
           end
         end
