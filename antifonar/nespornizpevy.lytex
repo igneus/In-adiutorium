@@ -7,7 +7,8 @@
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 
-\usepackage{titlesec}
+\usepackage[small]{titlesec}
+\usepackage{marginnote}
 
 \usepackage{fancyhdr} % hlavicky stranek
 
@@ -69,14 +70,14 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newcommand{\nadpisOkruh}[1]{
-  \section*{#1}
+  \section{#1}
   % jenom v oddilech na zacatku bude opravdu fungovat - v ostatnich bude
   % vzdy prepsano nazvem svatku
   \fancyhead[CE,CO]{#1}
 }
 
 \renewcommand{\nadpisDen}[1]{
-  \subsection*{#1}
+  \subsection{#1}
   \fancyhead[CE,CO]{#1}
 }
 
@@ -105,9 +106,14 @@ modlitba.
 
 }
 
-\newcommand{\cisloPisne}[1]{\marginpar{\begin{center}\small\textbf{#1}\end{center}}}
+\newcommand{\cisloPisne}[1]{\marginnote{\begin{center}\small\textbf{#1}\end{center}}[-40pt]}
 
 \newenvironment{psalmus}{}{}
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+% change \section title format using titlesec
+% \titleformat*{\section}{\bfseries\filcenter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
