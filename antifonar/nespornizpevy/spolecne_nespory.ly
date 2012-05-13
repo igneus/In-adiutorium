@@ -21,6 +21,17 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
+  
+  scoreTitleMarkup = \markup\small{ 
+    \fill-line {
+      " "
+      " "
+      \concat{ 
+        % \fromproperty #'header:quid "  "
+        \fromproperty #'header:modus "." \fromproperty #'header:differentia
+      }
+    }
+  }
 }
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header

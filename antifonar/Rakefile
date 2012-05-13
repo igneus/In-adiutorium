@@ -524,7 +524,7 @@ adresar_nesporni = 'generovane/nespornizpevy/'
 nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "+
                         "--prepend-text '\\include \"nespornizpevy/spolecne_nespory.ly\"' "+
-                        "--remove-headers "+
+                        # "--remove-headers "+
                         # "--mode-info "+
                         "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
@@ -536,6 +536,7 @@ psalmodie = {
   'VII.a' => [[2,0], [2,0]]}
 nesporni_zalmy = {'110' => 'VII.a'}
 nesporni_kantika = {'magnificat' => 'VIII.G'}
+$skip_verses = {'magnificat' => 2}
 
 def ps_accents(pattern)
   return "#{pattern[0][0]}:#{pattern[1][0]}"
@@ -543,6 +544,14 @@ end
 
 def ps_prep(pattern)
   return "#{pattern[0][1]}:#{pattern[1][1]}"
+end
+
+def ps_skip(canticle)
+  if $skip_verses[canticle] then
+    return $skip_verses[canticle]
+  else
+    return 1
+  end
 end
 
 nesporni_zalmy = []
@@ -554,7 +563,7 @@ nesporni_kantika.each_pair do |canticle,psalmcode|
   psalm_pattern = psalmodie[psalmcode]
   file peceny => [syrovy, preprocessor] do
     chdir adresar_nesporni
-    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} ../../#{syrovy}"
+    sh "#{RUBY_COMMAND} #{preprocessor} #{nesporni_options} --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} --skip-verses #{ps_skip(canticle)} ../../#{syrovy}"
     chdir wd
     sh "vlna #{peceny}"
   end
