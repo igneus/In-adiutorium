@@ -320,12 +320,17 @@ module PsalmPreprocessor
       rescue
         # verse too short; do nothing, return it, as it is
         # STDOUT.puts s
-        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
-        return s
+        # s = s.gsub('/', '') # remove all remaining syllable-separating slashes
+        # return s
+        i = 0
       end
 
       s[ai] = cl+'['
-      s[i] = (s[i] == " " ? " " : "") + op
+      if i == 0 then
+        s = op+s
+      else
+        s[i] = (s[i] == " " ? " " : "") + op
+      end
       s.gsub!('/', '') # remove all remaining syllable-separating slashes
       
       # STDOUT.puts s
