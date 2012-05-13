@@ -140,6 +140,97 @@
   }
 }
 
+%%% MATKY BOZI, PANNY MARIE
+
+% Mirne upraven jen zacatek
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 f g g( f) g a( f) g e \barMax
+    
+    f g a a( bes) a a g f e f g4.( a) \barMin
+    a4 g a g f e( f d) d \barMax
+    
+    d d f( g) g g f g a( bes a) a \barMin
+    a bes4. c4( bes) a4. d, \barMin
+    e4 f g( e) d \barFinalis
+  }
+  \addlyrics {
+    Po -- di -- vu -- hod -- ná zá -- mě -- na:
+    
+    Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+    a na -- ro -- dil se z_pan -- ny;
+    
+    při -- jal  ú -- čast na na -- šem lid -- ství
+    a nám dal ú -- čast
+    na svém bož -- ství.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2" 
+    psalmus = ""
+    id = "mb-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f g g( a) a 
+    g( a) g( f e) e e( f) g f e e \barMaior
+    d c d d( f) f( e) e \barMax
+    
+    e( a) g( a) a a( b a) g f f( e) e \barMaior
+    c d e( g f) f( e) \barMin 
+    g a g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Když se Syn Bo -- ží
+    na -- ro -- dil z_Pan -- ny Ma -- ri -- e,
+    a -- by nás vy -- kou -- pil,
+    
+    se -- stou -- pil zá -- zrač -- ně z_ne -- be
+    ja -- ko ro -- sa
+    na Ge -- de -- o -- no -- vo rou -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = "mb-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+  
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ný ži -- vot,
+    kte -- rý tě no -- sil, Kris -- te,
+    
+    a bla -- ho -- sla -- ve -- né pr -- sy,
+    kte -- ré ko -- ji -- ly te -- be,
+    Pá -- na a Spa -- si -- te -- le svě -- ta.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Magnificat"
+    id = "mb-antmag"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %%% ZJEVENI PANE
 
 \score {

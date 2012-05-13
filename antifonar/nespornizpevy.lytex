@@ -301,7 +301,13 @@ ze stránek http://www.op.cz}}
 \nadpisDen{Matky Boží, Panny Marie (1.1.)}
 
 \odkazBozePospes
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant1.ly}
+
 \odkazZalm{z122}{122}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant2.ly}
+
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
 \rubrikaCteni
