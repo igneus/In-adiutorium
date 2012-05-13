@@ -528,7 +528,11 @@ nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         # "--mode-info "+
                         "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
-nesporni_options = '--accents-style bold --guillemets'
+nesporni_options = "--accents-style bold --guillemets --append \""+
+  "Sláva [Ot]ci i [Sy]nu * 
+i [Du]chu [sva]tému, 
+jako byla na počátku, i [ny]ní i [vždyc]ky * 
+a na věky [vě]ků. [A]men.\""
 
 # pole: [prvni polovers:[akcentu, pripravnych slabik], druhy:...]
 psalmodie = {
