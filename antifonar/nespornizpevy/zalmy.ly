@@ -21,7 +21,7 @@
     "neboť shlédl na svou nepatrnou" \li slu -- žeb -- \ln \lb ni -- \ln ci.
   } 
   \header {
-    quid = "Magnificat"
+    quiddd = "Magnificat"
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
@@ -43,7 +43,7 @@
     "dokud nepoložím tvé nepřátele za pod" -- \lb nož \ln tvým \skip 1 \lb no -- \ln \skip 1 hám.
   }
   \header {
-    quid = "Žalm 110"
+    quiddd = "Žalm 110"
     modus = "VII"
     differentia = "a" 
     psalmus = ""
@@ -64,7 +64,7 @@
     "ve sboru spravedlivých i" \lb ve \ln shro -- \lb \skip 1 máž -- \ln dě -- ní.	
   } 
   \header {
-    quid = "Žalm "
+    quiddd = "Žalm "
     modus = "VII"
     differentia = "c" 
     psalmus = ""
@@ -85,7 +85,7 @@
     "který má velkou zálibu v jeho při" -- \li ká -- \ln \lb zá -- \ln \skip 1 ních.
   } 
   \header {
-    quid = "Žalm 112"
+    quiddd = "Žalm 112"
     modus = "III"
     differentia = "a" 
     psalmus = ""
@@ -106,11 +106,114 @@
     "Jakubův dům z cizácké" -- \li ho \ln \lb li -- \ln \skip 1 du, 
   } 
   \header {
-    quid = "Žalm 114"
+    quiddd = "Žalm 114"
     modus = "per"
     differentia = "" 
     psalmus = ""
     id = "z114"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f\breve f4-| d \parenthesize d \barMin
+    f\breve g4-| f \parenthesize f \barMax
+    f\breve e4 c-| d \parenthesize d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lu -- \skip 1 \skip 1 \skip 1 \skip 1  "ji Hospodina, neboť" \lb sly -- \ln šel_* \skip 1
+    "můj pro" -- \li seb -- \ln \lb ný \ln hlas,
+  } 
+  \header {
+    quiddd = "Žalm 116-I"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "z116i"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f\breve f4-| d \parenthesize d \barMin
+    f\breve g4-| f \parenthesize f \barMax
+    f\breve e4 c-| d \parenthesize d \barFinalis
+  }
+  \addlyrics {
+    Měl jsem \skip 1 \skip 1 \skip 1 \skip 1  "důvěru, i když jsem si" \lb ře -- \ln kl:_* \skip 1
+    "„Jsem" tak \lb sklí -- \ln čen!“
+  } 
+  \header {
+    quiddd = "Žalm 116-II"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "z116ii"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a\breve bes4-| a \parenthesize a g-| a \parenthesize a \barMax
+    a\breve g4 f \parenthesize g g(-| f) d \barFinalis
+  }
+  \addlyrics {
+    Za -- ra -- "doval jsem se," \lb když \ln mi \skip 1 \lb řek -- \ln li:_* \skip 1
+    "Do domu Hospodi" -- \li no -- va \ln \lb půj -- \ln de -- me!
+  } 
+  \header {
+    quiddd = "Žalm 122"
+    modus = "I"
+    differentia = "D2" 
+    psalmus = ""
+    id = "z122"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a\breve a4-| g \parenthesize g \barMin
+    a\breve g4 a b-| a \parenthesize a \barMax
+    a\breve g4 a b( a) \parenthesize g g(-| f) e \barFinalis
+  }
+  \addlyrics {
+    Když ne -- \skip 1 \skip 1 \skip 1 \skip 1  sta -- ví dům \lb Hos -- \ln po -- din,_*
+    "marně se lopo" -- \li tí, kdo ho \ln \lb sta -- \ln vě -- jí;
+  } 
+  \header {
+    quiddd = "Žalm 127"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = "z127"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c( d) d\breve f4-| e \parenthesize e d-| e \parenthesize e \barMax
+    d\breve e4-| d \parenthesize d c-| \parenthesize c b( c) \barFinalis
+  }
+  \addlyrics {
+    Z_hlu -- bin "volám k tobě," \lb Hos -- \ln po -- \lb \skip 1 di -- \ln ne,_* \skip 1
+    "Pane," \lb vy -- \ln slyš \skip 1 \lb můj \ln \skip 1 hlas! 
+  } 
+  \header {
+    quiddd = "Žalm 130"
+    modus = "VII"
+    differentia = "c" 
+    psalmus = ""
+    id = "z130"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -125,7 +228,7 @@
     
   } 
   \header {
-    quid = "Žalm "
+    quiddd = "Žalm "
     modus = ""
     differentia = "" 
     psalmus = ""

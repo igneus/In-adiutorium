@@ -32,7 +32,7 @@
     a na vě -- ky vě -- ků. A -- men.
   }
   \header {
-    quid = "úvodní verš"
+    quiddd = "úvodní verš"
     modus = ""
     differentia = "" 
     psalmus = ""
@@ -65,7 +65,7 @@
     \Response A -- men.
   }
   \header {
-    quid = "požehnání"
+    quiddd = "požehnání"
     modus = ""
     differentia = "" 
     psalmus = ""
@@ -92,7 +92,7 @@
     \Response A -- men.
   }
   \header {
-    quid = "závěr, není-li přítomen kněz"
+    quiddd = "závěr, není-li přítomen kněz"
     modus = ""
     differentia = "" 
     psalmus = ""

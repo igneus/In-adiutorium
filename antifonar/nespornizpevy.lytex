@@ -67,8 +67,17 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newcommand{\nadpisOkruh}[1]{\section{#1}}
-\renewcommand{\nadpisDen}[1]{\subsection{#1}}
+\newcommand{\nadpisOkruh}[1]{
+  \section{#1}
+  % jenom v oddilech na zacatku bude opravdu fungovat - v ostatnich bude
+  % vzdy prepsano nazvem svatku
+  \fancyhead[CE,CO]{#1}
+}
+
+\renewcommand{\nadpisDen}[1]{
+  \subsection{#1}
+  \fancyhead[CE,CO]{#1}
+}
 
 \newcommand{\odkazBozePospes}{\emph{Bože, pospěš mi na pomoc}, str. \pageref{pospes}.
 
@@ -76,16 +85,17 @@
 \newcommand{\odkazZakonceni}{Zakončení, str. \pageref{zakonceni}
 
 }
-\newcommand{\odkazZalm}[2]{Žalm #2, str. \pageref{#1}.
+\newcommand{\odkazZalm}[2]{- Žalm #2, str. \pageref{#1}.
 
 }
-\newcommand{\odkazKantikum}[2]{Kantikum #2, str. \pageref{#1}.
+\newcommand{\odkazKantikum}[2]{- Kantikum #2, str. \pageref{#1}.
 
 }
-\newcommand{\odkazMagnificat}{Kantikum Panny Marie, str. \pageref{magnificat}.
+\newcommand{\odkazMagnificat}{- Kantikum Panny Marie, str. \pageref{magnificat}.\\
 
 }
-\newcommand{\rubrikaCteni}{Následuje krátké čtení.
+\newcommand{\rubrikaCteni}{Následuje krátké čtení. Po krátkém čtení
+se zpívá responsorium:
 
 }
 \newcommand{\rubrikaPrimluvy}{Následují přímluvy, Modlitba Páně a závěrečná
@@ -99,6 +109,14 @@ modlitba.
 \begin{document}
 
 \titulniStrankaSvazkuAntifonare
+
+\cleardoublepage
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
 
 \nadpisOkruh{Úvod}
 
@@ -137,6 +155,8 @@ být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá
 s denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
 nápěvy žalmů, ...
 
+\clearpage
+
 \nadpisOkruh{Společné nápěvy}
 
 \nadpisZalmu{Úvodní verš}
@@ -149,9 +169,11 @@ nápěvy žalmů, ...
 \nadpisZalmu{- není-li přítomen kněz}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
 
-\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze 
+{\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze 
 je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat 
-ze stránek http://www.op.cz}
+ze stránek http://www.op.cz}}
+
+\clearpage
 
 \nadpisOkruh{Nešporní žalmy a kantika}
 % 15 Josefa, JanaKr, CyrMet
@@ -208,20 +230,62 @@ ze stránek http://www.op.cz}
 
 \input{generovane/nespornizpevy/zalm114.tex}
 
+\nadpisZalmu{Žalm 116-I}
+\label{z116i}
+\lilypondfile{generovane/nespornizpevy/zalmy_z116i.ly}
+
+\input{generovane/nespornizpevy/zalm116i.tex}
+
+\nadpisZalmu{Žalm 116-II}
+\label{z116ii}
+\lilypondfile{generovane/nespornizpevy/zalmy_z116ii.ly}
+
+\input{generovane/nespornizpevy/zalm116ii.tex}
+
+\nadpisZalmu{Žalm 122}
+\label{z122}
+\lilypondfile{generovane/nespornizpevy/zalmy_z122.ly}
+
+\input{generovane/nespornizpevy/zalm122.tex}
+
+\nadpisZalmu{Žalm 127}
+\label{z127}
+\lilypondfile{generovane/nespornizpevy/zalmy_z127.ly}
+
+\input{generovane/nespornizpevy/zalm127.tex}
+
+\nadpisZalmu{Žalm 130}
+\label{z130}
+\lilypondfile{generovane/nespornizpevy/zalmy_z130.ly}
+
+\input{generovane/nespornizpevy/zalm130.tex}
+
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
-\lilypondfile{kantikum-Zj19.ly}
+\lilypondfile{nespornizpevy/kantikum-Zj19.ly}
 
 \nadpisOkruh{Vánoce}
 
 \nadpisDen{Narození Páně (24.12.)}
 
 \odkazBozePospes
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant2.ly}
+
 \odkazZalm{z130}{130}
 \odkazKantikum{kkol1}{Kol 1}
 \rubrikaCteni
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-antmag.ly}
+
 \odkazMagnificat
+
 \rubrikaPrimluvy
 \odkazZakonceni
 
@@ -232,6 +296,9 @@ ze stránek http://www.op.cz}
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
 \rubrikaCteni
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni

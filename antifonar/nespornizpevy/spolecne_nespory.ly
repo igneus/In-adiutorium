@@ -27,7 +27,7 @@
       " "
       " "
       \concat{ 
-        % \fromproperty #'header:quid "  "
+        \fromproperty #'header:quid "  "
         \fromproperty #'header:modus "." \fromproperty #'header:differentia
       }
     }
@@ -87,19 +87,19 @@ barFinalis = { \bar "||" }
 
 Response = \lyricmode { 
   \markup { 
-    \with-color ##'red { 
+    % \with-color ##'red { 
       % \concat { \override #'(font-name . "liturgy") {R} : }
       \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
-    }
+    % }
   }
 }
 
 Verse = \lyricmode { 
   \markup { 
-    \with-color ##'red {
+    % \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
       \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
-    }
+    % }
   }
 }
 
