@@ -218,6 +218,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c\breve c4-| a4 \parenthesize a \barMin
+    c\breve d4-| c \parenthesize c \barMax
+    c\breve b4 c a-| g \parenthesize g \barFinalis
+  }
+  \addlyrics {
+    Ra -- dost -- \skip 1 \skip 1 \skip 1 \skip 1 "ně děkujme Bohu" \lb Ot -- \ln ci,_* \skip 1
+    "že nás uschopnil k účasti na dědictví vě" -- \li ří -- cích \ln \lb ve \ln svět -- le.
+  } 
+  \header {
+    quiddd = "Kol 1"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "kkol1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+
 %{
 \score {
   \relative c' {

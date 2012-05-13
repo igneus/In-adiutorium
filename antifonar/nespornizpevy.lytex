@@ -260,6 +260,12 @@ ze stránek http://www.op.cz}}
 
 \input{generovane/nespornizpevy/zalm130.tex}
 
+\nadpisZalmu{kantikum Kol 1}
+\label{kkol1}
+\lilypondfile{generovane/nespornizpevy/zalmy_kkol1.ly}
+
+\input{generovane/nespornizpevy/kantikum_kol1.tex}
+
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
 \lilypondfile{nespornizpevy/kantikum-Zj19.ly}
@@ -277,6 +283,9 @@ ze stránek http://www.op.cz}}
 \lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant2.ly}
 
 \odkazZalm{z130}{130}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant3.ly}
+
 \odkazKantikum{kkol1}{Kol 1}
 \rubrikaCteni
 
@@ -306,10 +315,22 @@ ze stránek http://www.op.cz}}
 \nadpisDen{Zjevení Páně (6.1.)}
 
 \odkazBozePospes
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant2.ly}
+
 \odkazZalm{z112}{112}
+
 \odkazKantikum{kzj15}{Zj 15}
 \rubrikaCteni
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-resp.ly}
+
+\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
@@ -529,5 +550,9 @@ ze stránek http://www.op.cz}}
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
+
+\clearpage
+\fancyhead[CE,CO]{}
+\tableofcontents
 
 \end{document}
