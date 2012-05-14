@@ -561,7 +561,8 @@ nesporni_zalmy = {
 nesporni_kantika = {
   'magnificat' => 'VIII.G',
   'kol1' => 'VIII.G',
-  'fp2' => 'I.D'}
+  'fp2' => 'I.D',
+  'zj11' => 'VIII.G'}
 $skip_verses = {'magnificat' => 2}
 
 def ps_accents(pattern)

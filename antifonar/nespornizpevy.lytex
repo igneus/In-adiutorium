@@ -353,7 +353,7 @@ ze stránek http://www.op.cz}}
 \cisloPisne{155}
 \lilypondfile{generovane/nespornizpevy/zalmy_kzj11.ly}
 
-\input{generovane/nespornizpevy/kantikum_kol1.tex}
+\input{generovane/nespornizpevy/kantikum_zj11.tex}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
