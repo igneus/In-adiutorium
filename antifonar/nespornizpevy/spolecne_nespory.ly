@@ -32,6 +32,14 @@
       }
     }
   }
+  
+    myStaffSize = #14
+  #(define fonts
+    (make-pango-font-tree 
+                          "TexGyreSchola"
+                          "Helvetica"
+                          "Courier"
+     (/ myStaffSize 20)))
 }
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
