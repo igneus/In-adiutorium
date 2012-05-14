@@ -40,12 +40,13 @@
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
   Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
   nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
-  nadpisy žalmů a připojené citáty z Písma a Otců)
-  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  nadpisy žalmů a připojené citáty z Písma a Otců), naopak jsou doplněny
+  o značky usnadňující zpěv.
+  Kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
   podle něj opraveny.
 }
 
-\renewcommand{\titulniStrankaSvazkuAntifonare}{
+\newcommand{\titulniStranka}{
   \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \begin{titlepage}
     \begin{center}
@@ -64,6 +65,28 @@
       \onlyyeardate \today
     \end{center}
   \end{titlepage}
+}
+
+\newcommand{\tiraz}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \setlength{\parskip}{0.6cm}
+
+  \begin{center}
+    {\Large \textbf{\nazev}}
+
+    {\large \autor}
+
+    \tirazProjekt
+    
+    \tirazSazbaProgramem
+  \end{center}
+
+  \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
+  \textDoTiraze
+
+  \begin{center}
+    \dmyyyydate \today
+  \end{center}
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
@@ -126,7 +149,7 @@ modlitba.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\titulniStrankaSvazkuAntifonare
+\titulniStranka
 
 \cleardoublepage
 
@@ -138,40 +161,43 @@ modlitba.
 
 \nadpisOkruh{Úvod}
 
-Publikace \emph{Nešporní zpěvy} nabízí podklady pro zpívané nešpory
-o všech slavnostech liturgického roku a o svátcích nejvýznačnějších
-zemských patronů. Je připravována se zvláštním zřetelem k podmínkám
-společenství, kde je společné slavení liturgie hodin výjimečnou
+Publikace \emph{Nešporní zpěvy} nabízí podklady pro zpívané druhé nešpory
+o~všech slavnostech liturgického roku a o~svátcích nejvýznačnějších
+zemských patronů. Je připravována se zvláštním zřetelem k~podmínkám
+společenství, kde je společné slavení liturgie hodin spíše výjimečnou
 událostí, zejm. farností.
 
 Vědomě, i názvem,\footnote{Název jsem si vypůjčil ze sešitku
 P. Františka Micky \emph{Nešporní zpěvy pro lid}. \uv{Pro lid}
 jsem ovšem vypustil - zatímco v 19. století byly nešpory
-v národním jazyce pouhou pobožností \uv{pro lid}, dnes jsou plnohodnotnou
+v~národním jazyce pouhou pobožností \uv{pro lid}, dnes jsou plnohodnotnou
 součástí liturgie církve.}
  přitom navazuje na tradici
-tkzv. lidových nešpor, které se slavily v českých kostelích ve třetí
+tkzv. lidových nešpor, které se slavily v~českých kostelích ve třetí
 čtvrtině devatenáctého a první polovině dvacátého století.
 Je samozřejmě zcela dnešní - liturgické texty jsou vzaty ze současného
 českého breviáře. Staré lidové nešpory byly inspirací především pro
-zacházení s nápěvy žalmů (každý žalm má napříč liturgickým rokem
-stále stejný nápěv), antifon (jsou pokud možno snadné), pro
+uspořádání, pro zacházení s nápěvy žalmů (každý žalm má napříč liturgickým 
+rokem stále stejný nápěv), antifon (jsou pokud možno snadné), pro
 určení rozsahu.
 
 Protože se zdá, že různá česká vydání lidových nešpor více či méně zachovávala
-přiřazení nápěvů k žalmům, jak se prvně objevily ve Svatojanském
-kancionálu (1864), přijímáme i zde alespoň zčásti tento kánon.
+přiřazení nápěvů k~žalmům, jak se prvně objevily ve Svatojanském
+kancionálu (1864), přijímáme i zde, pro ty žalmy, které se v~nešporách zpívaly
+tehdy a zpívají se i dnes, tento kánon.
 
 Kvůli některým koncepčním volbám (neměnící se nápěvy žalmů,
 snadnost antifon) knížka často obsahuje jiný nápěv, než se pro stejný
-text nachází v jiných materiálech projektu In adiutorium.
+text nachází v~jiných materiálech projektu In adiutorium.
 
 Způsobem úpravy se \emph{Nešporní zpěvy} v mnoha ohledech liší od ostatních
 materiálů vzniklých v rámci projektu In adiutorium, protože předpokládají
 jiného uživatele. Jsou zpěvníkem do kostelní lavice, který by měl
 být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá 
-s denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
-nápěvy žalmů, ...
+s~denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
+nápěvy žalmů,~... Na kostelní podmínky bylo myšleno při opatření všech
+zpěvů čísly, takže lze při nešporách využít číselníku normálně ukazujícího
+čísla písní v kancionálu.
 
 \clearpage
 
@@ -303,7 +329,7 @@ ze stránek http://www.op.cz}}
 
 \nadpisZalmu{Žalm 145-I}
 \label{z145i}
-\cisloPisne{145-I}
+\cisloPisne{145}
 \lilypondfile{generovane/nespornizpevy/zalmy_z145i.ly}
 
 \input{generovane/nespornizpevy/zalm145i.tex}
@@ -773,5 +799,8 @@ ze stránek http://www.op.cz}}
 \clearpage
 \fancyhead[CE,CO]{}
 \tableofcontents
+
+\clearpage
+\tiraz
 
 \end{document}
