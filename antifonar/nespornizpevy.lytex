@@ -227,6 +227,13 @@ ze stránek http://www.op.cz}}
 
 \input{generovane/nespornizpevy/kantikum_magnificat.tex}
 
+\nadpisZalmu{Žalm 47}
+\label{z47}
+\cisloPisne{47}
+\lilypondfile{generovane/nespornizpevy/zalmy_z47.ly}
+
+\input{generovane/nespornizpevy/zalm47.tex}
+
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
 \cisloPisne{110}
@@ -294,6 +301,13 @@ ze stránek http://www.op.cz}}
 \label{kkol1}
 \cisloPisne{153}
 \lilypondfile{generovane/nespornizpevy/zalmy_kkol1.ly}
+
+\input{generovane/nespornizpevy/kantikum_kol1.tex}
+
+\nadpisZalmu{kantikum Zj 11}
+\label{kzj11}
+\cisloPisne{155}
+\lilypondfile{generovane/nespornizpevy/zalmy_kzj11.ly}
 
 \input{generovane/nespornizpevy/kantikum_kol1.tex}
 
@@ -394,7 +408,7 @@ ze stránek http://www.op.cz}}
 %% Velikonocni okruh
 
 \nadpisOkruh{Velikonoce}
-\nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300}
+\nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300} %%%%
 
 \odkazBozePospes
 
@@ -424,24 +438,52 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nanebevstoupení Páně} \cisloPisne{301}
+\nadpisDen{Nanebevstoupení Páně} \cisloPisne{301} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant2.ly}
+
 \odkazZalm{z47}{47}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant3.ly}
+
 \odkazKantikum{kzj11}{Zj 11}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-resp.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Seslání Ducha svatého} \cisloPisne{302}
+\nadpisDen{Seslání Ducha svatého} \cisloPisne{302} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant1.ly}
+
 \odkazZalm{z110}{110}
 \odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant3.ly}
+
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-resp.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni

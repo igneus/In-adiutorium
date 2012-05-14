@@ -33,6 +33,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c\breve d4-| c \parenthesize c \barMax
+    c\breve b4 c a-| g \parenthesize g \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny "národy, tleskejte" \lb ru -- \ln ka -- ma,_*
+    "jásejte Bohu ra" -- \li dost -- ným \ln \lb hla -- \ln sem,
+  } 
+  \header {
+    quiddd = "Žalm 47"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "z47"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( b) c( d) d\breve d4-| c \parenthesize c \barMin 
     d\breve f4-| e \parenthesize e d-| e \parenthesize e \barMax
     d\breve e4-| d \parenthesize d c-| \parenthesize c b( a) \barFinalis
@@ -235,6 +255,26 @@
     differentia = "G" 
     psalmus = ""
     id = "kkol1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c\breve d4-| c \parenthesize c \barMax
+    c\breve b4 c a-| g \parenthesize g \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- "jeme ti, Pane, Bože" \lb vše -- \ln vlád -- ný,_*
+    "který jsi a" \li kte -- rý \ln \lb jsi \ln byl,
+  } 
+  \header {
+    quiddd = "Zj 11"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "kzj11"
     piece = \markup {\sestavTitulek}
   }
 }
