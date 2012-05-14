@@ -175,6 +175,9 @@ nápěvy žalmů, ...
 
 \clearpage
 
+% From now on, we don't want the first line of a paragraph to be indented
+\setlength{\parindent}{0pt} 
+
 \nadpisOkruh{Společné nápěvy}
 
 \nadpisZalmu{Úvodní verš}
@@ -264,14 +267,15 @@ ze stránek http://www.op.cz}}
 
 \nadpisZalmu{Žalm 116-I}
 \label{z116i}
-\cisloPisne{116-I}
+\cisloPisne{116}
 \lilypondfile{generovane/nespornizpevy/zalmy_z116i.ly}
 
 \input{generovane/nespornizpevy/zalm116i.tex}
 
 \nadpisZalmu{Žalm 116-II}
 \label{z116ii}
-\cisloPisne{116-II}
+\cisloPisne{117} % zalm 117 ve slavnostnich nesporach neni a 116-II zase
+% vetsinou neni v moznostech kostelnich ukazatelu cisel :)
 \lilypondfile{generovane/nespornizpevy/zalmy_z116ii.ly}
 
 \input{generovane/nespornizpevy/zalm116ii.tex}
@@ -296,6 +300,20 @@ ze stránek http://www.op.cz}}
 \lilypondfile{generovane/nespornizpevy/zalmy_z130.ly}
 
 \input{generovane/nespornizpevy/zalm130.tex}
+
+\nadpisZalmu{Žalm 145-I}
+\label{z145i}
+\cisloPisne{145-I}
+\lilypondfile{generovane/nespornizpevy/zalmy_z145i.ly}
+
+\input{generovane/nespornizpevy/zalm145i.tex}
+
+\nadpisZalmu{kantikum Fp 2}
+\label{kfp2}
+\cisloPisne{152}
+\lilypondfile{generovane/nespornizpevy/zalmy_kfp2.ly}
+
+\input{generovane/nespornizpevy/kantikum_fp2.tex}
 
 \nadpisZalmu{kantikum Kol 1}
 \label{kkol1}
@@ -492,46 +510,122 @@ ze stránek http://www.op.cz}}
 
 \nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
 
-\nadpisDen{Nejsvětější Trojice} \cisloPisne{400}
+\nadpisDen{Nejsvětější Trojice} \cisloPisne{400} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant2.ly}
+
 \odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant3.ly}
+
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Těla a Krve Páně} \cisloPisne{401}
+\nadpisDen{Těla a Krve Páně} \cisloPisne{401} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant2.ly}
+
 \odkazZalm{z116ii}{116-II}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant3.ly}
+
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402}
+\nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant2.ly}
+
 \odkazZalm{z111}{111}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant3.ly}
+
 \odkazKantikum{kfp2}{Fp 2}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Ježíše Krista Krále} \cisloPisne{403}
+\nadpisDen{Ježíše Krista Krále} \cisloPisne{403} %%%%
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant2.ly}
+
 \odkazZalm{z145i}{145-I}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant3.ly}
+
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni

@@ -555,11 +555,13 @@ nesporni_zalmy = {
   '116ii' => 'II.D',
   '122' => 'I.D2',
   '127' => 'IV.E',
-  '130' => 'VII.c'
+  '130' => 'VII.c',
+  '145i' => 'I.D'
 }
 nesporni_kantika = {
   'magnificat' => 'VIII.G',
-  'kol1' => 'VIII.G'}
+  'kol1' => 'VIII.G',
+  'fp2' => 'I.D'}
 $skip_verses = {'magnificat' => 2}
 
 def ps_accents(pattern)
@@ -614,7 +616,8 @@ noty_nesporni = {
   'nespornizpevy/zalmy.ly' => 'z110',
   'nespornizpevy/tonicommunes.ly' => 'pospes',
   'nespornizpevy/antifony_vanoce.ly' => 'narozeni-ant1',
-  'nespornizpevy/antifony_velikonoce.ly' => 'zmrtvychvstani-ant3'}.map do |file, sampleid| 
+  'nespornizpevy/antifony_velikonoce.ly' => 'zmrtvychvstani-ant3',
+  'nespornizpevy/antifony_slavnostipane.ly' => 'krale-ant1'}.map do |file, sampleid| 
   # nazev vygenerovaneho souboru s prvni antifonou
   afn = adresar_nesporni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
   # zpracovavany soubor s antifonami
@@ -628,7 +631,7 @@ noty_nesporni = {
 end
 
 file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni+nesporni_zalmotexty_pec do |t|
-  sh "lilypond-book --out=vystup --pdf "+t.prerequisites.first
+  sh "lilypond-book --out=vystup --left-padding=0 --pdf "+t.prerequisites.first
 end
 
 file 'vystup/nespornizpevy.pdf' => ['vystup/nespornizpevy.tex'] do

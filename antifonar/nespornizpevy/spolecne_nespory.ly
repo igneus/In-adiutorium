@@ -21,7 +21,7 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
-  
+    
   scoreTitleMarkup = \markup\small{ 
     \fill-line {
       " "

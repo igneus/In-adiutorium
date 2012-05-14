@@ -239,6 +239,47 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a\breve bes4-| a \parenthesize a g-| a \parenthesize a \barMax
+    a\breve g4 f g(-| a) \parenthesize g g( f e d) \barFinalis
+  }
+  \addlyrics {
+    Bu -- du "tě oslavovat, můj" \lb Bo -- \ln že, \lb \skip 1 krá -- \ln li,_* \skip 1
+    "budu velebit tvé jméno po" \li všech -- ny \ln \lb vě -- \ln \skip 1 ky.
+  } 
+  \header {
+    quiddd = "Žalm 145-I"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "z145i"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a\breve a4-| g \parenthesize g \barMin
+    a\breve bes4-| a \parenthesize a g-| a \parenthesize a \barMax
+    a\breve g4 f g(-| a) \parenthesize g g( f e d) \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus \skip 1 \skip 1 \skip 1 \skip 1  "Ježíš, ačkoli má božskou" \lb při -- \ln ro -- \lb \skip 1 ze -- \ln nost,_*  \skip 1
+    "nic nelpěl na tom, že je" \li rov -- ný \ln \lb Bo -- \ln \skip 1 hu, 
+  } 
+  \header {
+    quiddd = "Fp 2"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "kfp2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c\breve c4-| a4 \parenthesize a \barMin
