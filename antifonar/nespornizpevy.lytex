@@ -480,7 +480,7 @@ ze stránek http://www.op.cz}}
 \nadpisOkruh{Sanktorál}
 % vsechny slavnosti + dva svatky hlavnich zemskych patronu:
 % Jana Nep. a Cyrila s Metodejem
-\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)} \cisloPisne{501}
+\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)} \cisloPisne{500}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -491,7 +491,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{502}
+\nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{501}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -502,7 +502,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{503}
+\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{502}
 
 \odkazBozePospes
 \odkazZalm{z116i}{116-I}
@@ -513,7 +513,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{504}
+\nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{503}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -524,7 +524,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{505}
+\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{504}
 
 \odkazBozePospes
 \odkazZalm{z116ii}{116-II}
@@ -535,7 +535,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{506}
+\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{505}
 
 \odkazBozePospes
 \odkazZalm{z15}{15}
@@ -546,7 +546,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{507}
+\nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{506}
 
 \odkazBozePospes
 \odkazZalm{z122}{122}
@@ -559,7 +559,7 @@ ze stránek http://www.op.cz}}
 
 %% Sanktoral - podzim+zima
 
-\nadpisDen{sv. Václava, mučedníka (28.9.)} \cisloPisne{508}
+\nadpisDen{sv. Václava, mučedníka (28.9.)} \cisloPisne{507}
 
 \odkazBozePospes
 \odkazZalm{116i}{116-I}
@@ -570,7 +570,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Všech svatých (1.11.)} \cisloPisne{509}
+\nadpisDen{Všech svatých (1.11.)} \cisloPisne{508}
 
 \odkazBozePospes
 \odkazZalm{z110}{110}
@@ -581,7 +581,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{510}
+\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{509}
 
 \odkazBozePospes
 \odkazZalm{z121}{121}
@@ -592,7 +592,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{511}
+\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{510}
 
 \odkazBozePospes
 \odkazZalm{z122}{122}
@@ -604,7 +604,7 @@ ze stránek http://www.op.cz}}
 \odkazZakonceni
 
 \nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
-\cisloPisne{512}
+\cisloPisne{511}
 
 \odkazBozePospes
 \odkazZalm{z46}{46}
