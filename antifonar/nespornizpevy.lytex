@@ -397,10 +397,29 @@ ze stránek http://www.op.cz}}
 \nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300}
 
 \odkazBozePospes
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant1.ly}
+
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant2.ly}
+
 \odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant3.ly}
+
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni

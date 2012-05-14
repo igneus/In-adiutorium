@@ -612,7 +612,8 @@ end
 noty_nesporni = {
   'nespornizpevy/zalmy.ly' => 'z110',
   'nespornizpevy/tonicommunes.ly' => 'pospes',
-  'nespornizpevy/antifony_vanoce.ly' => 'narozeni-ant1'}.map do |file, sampleid| 
+  'nespornizpevy/antifony_vanoce.ly' => 'narozeni-ant1',
+  'nespornizpevy/antifony_velikonoce.ly' => 'zmrtvychvstani-ant3'}.map do |file, sampleid| 
   # nazev vygenerovaneho souboru s prvni antifonou
   afn = adresar_nesporni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
   # zpracovavany soubor s antifonami
