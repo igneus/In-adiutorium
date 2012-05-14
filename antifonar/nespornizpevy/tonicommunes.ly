@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Toni communes"
+  title = "Nešporní zpěvy: Toni communes"
 }
 
 \include "spolecne_nespory.ly"
