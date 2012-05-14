@@ -1,11 +1,13 @@
 \version "2.15.37"
 
 \header {
-  title = "Antifony: Vánoce"
+  title = "Nešporní zpěvy: Antifony: Vánoce"
 }
 
 \include "spolecne_nespory.ly"
 \include "../../dilyresponsorii.ly"
+
+\markup\bold{Narození}
 
 % ZKOPIROVANA
 \score {
@@ -141,6 +143,7 @@
 }
 
 %%% MATKY BOZI, PANNY MARIE
+\markup\bold{Matky Boží, Panny Marie}
 
 % Mirne upraven jen zacatek
 \score {
@@ -232,6 +235,7 @@
 }
 
 %%% ZJEVENI PANE
+\markup\bold{Zjevení}
 
 \score {
   \relative c'' {
