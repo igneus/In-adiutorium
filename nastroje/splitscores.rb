@@ -163,8 +163,8 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
       }
       
       newtext[i] = "\n\\override Staff.Clef #'stencil = ##f\n"
-    rescue
-      STDERR.puts "Wasn't able to switch clef off."
+    rescue => e
+      STDERR.puts "Wasn't able to switch clef off: "+e.message
     end
   end
   

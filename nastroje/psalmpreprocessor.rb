@@ -3,6 +3,7 @@
 #
 # Psalm markup language elements:
 # - syllable enclosed in square brackets [] is an accented one
+# - / separates syllables (optional)
 # - line ending with + is flex of a psalmverse
 # - line ending with * is a first halb-verse
 # - line ending without a special character at the end is a second-halbverse
@@ -188,11 +189,33 @@ module PsalmPreprocessor
   end
   
   class UnderlineAccentsOutputStrategy < Strategy
-    def initialize(io, first_halfverse=2, second_halfverse=2, flex=1)
+
+    # different style of emphasizing the accentuated syllable
+    ACCENT_STYLES = {
+      :underline => ["\\underline{", "}"],
+      :bold => ["\\textbf{", "}"]
+    }
+
+    PREPARATION_STYLES = {
+      :italic => ["\\emph{", "}"]
+    }
+
+    def initialize(io, 
+                   first_halfverse=2, second_halfverse=2, 
+                   first_halfverse_prep=0, second_halfverse_prep=0,
+                   style=:underline)
       super(io)
+      # accents to be emphasized in each part of a verse
       @first_hv = first_halfverse
       @second_hv = second_halfverse
-      @flex = flex
+      @flex = 1
+      # preparatory syllables in each part of a verse
+      @first_hv_prep = first_halfverse_prep
+      @second_hv_prep = second_halfverse_prep
+
+      @style = style
+      @emphopen = ACCENT_STYLES[@style][0]
+      @emphclose = ACCENT_STYLES[@style][1]
 
       @accent_error = false # place for second 'return value' 
       # of #underline_last_accent
@@ -214,12 +237,22 @@ module PsalmPreprocessor
       if s =~ /\+\s*$/ then
         @flex.times { s = underline_last_accent s }
       elsif s =~ /\*\s*$/ then
-        @first_hv.times { s = underline_last_accent s }
+        @first_hv.times {|i|
+          if i == (@first_hv-1) then
+            s = emphasize_preparatory_syllables s, @first_hv_prep
+          end
+          s = underline_last_accent s 
+        }
       elsif s =~ /\w+/ then
         if s !~ /^[^\[\]]*$/ then
           # Lines with no accents at all won't be processed -
           # we suppose these are titles or so.
-          @second_hv.times { s = underline_last_accent s }
+          @second_hv.times {|i|
+            if i == (@second_hv-1) then
+              s = emphasize_preparatory_syllables s, @second_hv_prep
+            end
+            s = underline_last_accent s 
+          }
         end
       end
       
@@ -238,9 +271,9 @@ module PsalmPreprocessor
       @accent_error = false
       s = str
       i = s.rindex "["
-      s[i] = "\\underline{" if i
+      s[i] = @emphopen if i
       j = s.rindex "]"
-      s[j] = "}" if j
+      s[j] = @emphclose if j
       
       if (!i && j) || (i && !j) then
         @accent_error = "Non-complete pair of square brackets on line '#{s}'"
@@ -255,6 +288,53 @@ module PsalmPreprocessor
         raise @accent_error
       end
      
+      return s
+    end
+
+    def emphasize_preparatory_syllables(s, num_syllables)
+      if num_syllables < 1
+        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
+        return s
+      end
+
+      op, cl = PREPARATION_STYLES[:italic]
+      
+      ai = s.rindex "[" # beginning of the first accent
+      i = ai
+      begin
+        raise "too short" if i == 0
+        num_syllables.times {
+          bi = i-1
+          if s[bi] == " " then
+            bi -= 1
+          end
+          i = s.rindex(/[\s\/\[\]]/, bi)
+          while i > 0 && s[i-1] =~ /[\s\/\[\]]/ do
+            i -= 1
+          end
+
+          unless i 
+            raise "too short"
+          end
+        }
+      rescue
+        # verse too short; do nothing, return it, as it is
+        # STDOUT.puts s
+        # s = s.gsub('/', '') # remove all remaining syllable-separating slashes
+        # return s
+        i = 0
+      end
+
+      s[ai] = cl+'['
+      if i == 0 then
+        s = op+s
+      else
+        s[i] = (s[i] == " " ? " " : "") + op
+      end
+      s.gsub!('/', '') # remove all remaining syllable-separating slashes
+      
+      # STDOUT.puts s
+
       return s
     end
   end
@@ -615,6 +695,29 @@ module PsalmPreprocessor
       return accents
     end
   end
+
+  class SkipVersesOutputStrategy < Strategy
+    def initialize(io, verses_to_skip, has_title=true)
+      super(io)
+      @verses_to_skip = verses_to_skip
+      @verses_skipped = 0
+      @has_title = has_title
+      @lineno = 0
+    end
+
+    def puts(s="\n")
+      if @verses_skipped >= @verses_to_skip then
+        @core.puts s
+      else
+        @lineno += 1
+        if (!@has_title) || @lineno > 2 then
+          if s =~ /[^\s\+\*]\s*$/ then # second half-verse: non-empty, not ending with + or *
+            @verses_skipped += 1
+          end
+        end
+      end
+    end
+  end
 end
 
 include PsalmPreprocessor
@@ -623,6 +726,8 @@ require 'optparse'
 
 setup = {
   :accents => [2,2],
+  :preparatory => [0,0],
+  :accent_style => :underline,
   :has_title => true,
   :title_pattern => nil,
   :no_formatting => false,
@@ -637,7 +742,8 @@ setup = {
   :mark_short_verses => false,
   :paragraph_space => true,
   :guillemets => false,
-  :join => false
+  :join => false,
+  :skip_verses => 0
 }
 
 optparse = OptionParser.new do|opts|
@@ -652,6 +758,22 @@ optparse = OptionParser.new do|opts|
     if a2 && a2 != "" then
       setup[:accents][1] = a2.to_i
     end
+  end
+  opts.on "-P", "--preparatory-syllables NUMS", "a:b - How many preparatory syllables in each half-verse" do |str|
+    a1, a2 = str.split ':'
+    if a1 && a1 != "" then
+      setup[:preparatory][0] = a1.to_i
+    end
+    if a2 && a2 != "" then
+      setup[:preparatory][1] = a2.to_i
+    end
+  end
+  opts.on "-s", "--accents-style SYM", "underline (default) | bold" do |s|
+    sym = s.to_sym
+    unless UnderlineAccentsOutputStrategy::ACCENT_STYLES.include? sym 
+      raise "Unknown style '#{sym}'"
+    end
+    setup[:accent_style] = sym
   end
   opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
     setup[:has_title] = false
@@ -704,6 +826,9 @@ optparse = OptionParser.new do|opts|
   opts.on "-j", "--join", "Join all given input files" do
     setup[:join] = true
   end
+  opts.on "-k", "--skip-verses NUM", Integer, "Skip initial verses" do |i|
+    setup[:skip_verses] = i
+  end
 end
 
 optparse.parse!
@@ -745,7 +870,10 @@ def output_procedure(input, fwn, setup)
     output = NovyDvurNewlinesOutputStrategy.new output
   end
   
-  output = UnderlineAccentsOutputStrategy.new output, setup[:accents][0], setup[:accents][1]
+  output = UnderlineAccentsOutputStrategy.new(output, 
+                                              setup[:accents][0], setup[:accents][1], 
+                                              setup[:preparatory][0], setup[:preparatory][1], 
+                                              setup[:accent_style])
   
   output = BreakableAccentsOutputStrategy.new output
   
@@ -757,6 +885,10 @@ def output_procedure(input, fwn, setup)
 
   if setup[:mark_short_verses] then
     output = MarkShortVersesOutputStrategy.new output
+  end
+
+  if setup[:skip_verses] > 0 then
+    output = SkipVersesOutputStrategy.new output, setup[:skip_verses], setup[:has_title]
   end
 
   # first line contains the title

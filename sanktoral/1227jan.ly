@@ -37,17 +37,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d f e f f( g) g g( f g) g( a) f e e( f) d d \barMaior
+    d( f d) c( d) \barMin f( e) d f( e) c( a) a \barMaior
+    c d f e d e( f d) d \barFinalis
   }
   \addlyrics {
+    % hrozny text. psychische Farblosigkeit im höchsten Grad
     Své -- mu mi -- lo -- va -- né -- mu u -- čed -- ní -- ku Ja -- no -- vi
     svě -- řil Kris -- tus na kří -- ži
     do o -- chra -- ny svou mat -- ku.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
