@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Nešporní zpěvy: Antifony: Vánoce"
+  title = "Nešporní zpěvy: Antifony: Slavnosti Páně"
 }
 
 \include "spolecne_nespory.ly"
@@ -427,12 +427,11 @@
   }
 }
 
-% ZKOPIROVANA
 \score {
   \relative c' {
     \choralniRezim
     d4 f( g) g( a) a \barMin a g a g f f( g) g \barMaior
-    d d( f) d( c) c \barMin c d f e f e c c( d) d \barFinalis
+    g f( e) f( d c) c \barMin c d f e f e c c( d) d \barFinalis
   }
   \addlyrics {
     Tvé krá -- lov -- ství je krá -- lov -- ství všech vě -- ků
@@ -453,7 +452,7 @@
     \choralniRezim
     f4 f d( f) f f g( f) g g \barMin
     a bes( a) g( f g) g \barMaior
-    g g g a( f) e d c c \barMin 
+    g f e f( g) f e d d \barMin 
     c d f g( f) f \barFinalis
   }
   \addlyrics {
@@ -478,18 +477,16 @@
     
     % R
     \neviditelna d
-    e4 d( e) e e d( c) d d( e) e \barMin
-    g a g f g g \barMax
-    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
+    f4 f f f f f g( f) f \barMin g g g f g( a) a( g) \barMax
+    g g g( a) g( f d) d \barMin d f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a( b) a g( a) a \barMin 
-    a a( e) e a( g) f g f e g a a \barMax
+    a4 a a a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
+    g g g( a) g( f d) d \barMin d f( d) f g g( f) f \barFinalis
     % Slava
-    a a a( b) a a g( a) a \barMin a g f g( a) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh po -- ma -- zal své -- ho Sy -- na 
@@ -502,7 +499,7 @@
   }
   \header {
     quid = "resp."
-    modus = "IV"
+    modus = "VI"
     id = "krale-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -511,9 +508,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a( c) c c b c d( c) \barMin
-    d c b a b g g \barMin
-    a f g \barFinalis
+    f4 g a( c) c d c d d( c) \barMin
+    b c d b a g g \barMin
+    a a g \barFinalis
   }
   \addlyrics {
     Je mi dá -- na veš -- ke -- rá moc
