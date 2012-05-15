@@ -17,7 +17,7 @@
   }
 }
 
-#(set-global-staff-size 14)
+% #(set-global-staff-size 14)
 
 \paper {
   markup-markup-spacing #'padding = #2
@@ -33,13 +33,13 @@
     }
   }
   
-    myStaffSize = #14
-  #(define fonts
-    (make-pango-font-tree 
-                          "TexGyreSchola"
-                          "Helvetica"
-                          "Courier"
-     (/ myStaffSize 20)))
+    % myStaffSize = #14
+  % #(define fonts
+    %(make-pango-font-tree 
+     %                     "TexGyreSchola"
+      %                    "Helvetica"
+       %                   "Courier"
+     %(/ myStaffSize 20)))
 }
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
