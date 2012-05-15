@@ -631,7 +631,7 @@ noty_nesporni = {
   afn
 end
 
-file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly']+noty_nesporni+nesporni_zalmotexty_pec do |t|
+file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly', 'nespornizpevy/kantikum-Zj19.ly']+noty_nesporni+nesporni_zalmotexty_pec do |t|
   sh "lilypond-book --out=vystup --left-padding=0 --pdf "+t.prerequisites.first
 end
 
