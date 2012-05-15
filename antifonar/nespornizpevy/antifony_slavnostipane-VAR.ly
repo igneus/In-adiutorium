@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Nešporní zpěvy: Antifony: Vánoce"
+  title = "Nešporní zpěvy: Antifony: Slavnosti Páně"
 }
 
 \include "spolecne_nespory.ly"
@@ -629,6 +629,79 @@
 \score {
   \relative c' {
     \choralniRezim
+    
+    % R
+    \neviditelna d
+    e4 d( e) e e d( c) d d( e) e \barMin
+    g a g f g g \barMax
+    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( b) a g( a) a \barMin 
+    a a( e) e \mark\sipka a g f e d f a a \barMax
+    % R
+    \neviditelna a
+    a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
+    % Slava
+    a a a( b) a a g( a) a \barMin a g f g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    na kně -- ze a krá -- le;_*
+    je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \Verse Žez -- lo je -- ho vlá -- dy
+    je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
+    \Response je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "krale-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \zvyraznovacModry
+    
+    % R
+    \neviditelna d
+    f4 f f f f f g( f) f \barMin g g g f g( a) a( g) \barMax
+    g g g( a) g( f d) d \barMin d f( d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g( a) g( f d) d \barMin d f( d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie
+  }
+  \addlyrics {
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    na kně -- ze a krá -- le;_*
+    je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \Verse Žez -- lo je -- ho vlá -- dy
+    je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
+    \Response je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "krale-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a( c) c c b c d( c) \barMin
     d c b a b g g \barMin
     a f g \barFinalis
@@ -648,3 +721,113 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c \mark\sipka d c d d( c) \barMin
+    d c b a b g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    id = "krale-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c  d c d d( c) \barMin
+    d c b a \mark\sipka g e e \barMin
+    f g a( g) \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    id = "krale-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c \mark\sipka c( d) c d d( c) \barMin
+    d c b a b g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    id = "krale-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c c( d) c \mark\sipka b c( d) \barMin
+    d c b a b g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    id = "krale-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a( c) c d c d d( c) \barMin
+    \mark\sipka b c d b a g g \barMin
+    a \mark\sipka a g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Magnificat"
+    id = "krale-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
