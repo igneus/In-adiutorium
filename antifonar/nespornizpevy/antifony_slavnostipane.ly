@@ -282,16 +282,15 @@
 
 \markup\bold{Nejsvětějšího Srdce}
 
-% jen mirne upravena
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b c) b c( d) d \barMin d e d c c( d) a a \barMaior
-    c( d) c b a( g) \barMin a b( a) g( f) f( g) g \barFinalis
+    a4 a g( f) g( a) \barMin b c d c c d d \barMaior
+    e d c a( g) \barMin a g f g g \barFinalis
   }
   \addlyrics {
     Pa -- nuj, Pa -- ne, u -- pro -- střed svých ne -- přá -- tel,
-    po -- drob je jhu, kte -- ré ne -- tla -- čí.
+    pod -- rob je jhu, kte -- ré ne -- tla -- čí.
   }
   \header {
     quid = "1. ant."
@@ -306,8 +305,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a) a( c) c c d e d( c) c c b c a a \barMaior
-    g( a) c( d c) b a( g) \barMin a g f g( a g) g \barFinalis
+    c4 c c c b c d( e) d e f e d( c) d \barMaior
+    e( d c) d( c) b a( g) \barMin a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a do -- bro -- ti -- vý;
@@ -319,7 +318,6 @@
     differentia = "c" 
     psalmus = "Žalm 111"
     id = "srdce-ant2"
-    fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
     piece = \markup {\sestavTitulek}
   }
 }
