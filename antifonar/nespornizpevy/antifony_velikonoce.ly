@@ -250,6 +250,38 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f( c') c \barMin
+    b c c( d) c a a \barMaior
+    a b c c c b a g g \barMin a g f( g) g \barMax
+    
+    f e d d d f g g \barMaior
+    f g a c b( a g) \barMin a c c c b g a( g) g \barMaior
+    
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Krá -- li slá -- vy,
+    Vlád -- ce vše -- ho tvor -- stva,
+    dnes vy -- stu -- pu -- ješ 
+    ja -- ko ví -- těz na ne -- be -- sa;
+    
+    ne -- ne -- chá -- vej nás sa -- mot -- né,
+    a -- le po -- šli nám slí -- be -- né -- ho Du -- cha prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "nanebevstoupeni-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\bold{Seslání Ducha svatého}
 
 \score {
@@ -355,13 +387,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g g g g g f g g( a) a \barMin
+    a( g) a a b c( b c) c \barMaior
+    d d a a a b( a) g a( g) g \barMax
     
+    g( a) g g g g f g g( a) a \barMin
+    a a b c b c( d) d \barMin
+    d d a a g( a) a( g) g \barMax
+    
+    g g( a) a a b c d c( a) a \barMin
+    c a g( f g) g \barMaior
+    
+    g g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    O let -- ni -- cích
-    se Duch sva -- tý zje -- vil 
+    O let -- ni -- cích se Duch sva -- tý zje -- vil 
     a -- po -- što -- lům v_oh -- ni
     a na -- pl -- nil je 
     svý -- mi da -- ry;
@@ -369,8 +411,8 @@
     po -- slal je do ce -- lé -- ho svě -- ta
     hlá -- sat e -- van -- ge -- li -- um
     a vy -- dá -- vat svě -- dec -- tví:
-    Kdo u -- vě -- ří 
-    a dá se po -- křtít,
+    
+    Kdo u -- vě -- ří a dá se po -- křtít,
     bu -- de spa -- sen.
     
     A -- le -- lu -- ja.
@@ -380,7 +422,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "seslani-antmag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
