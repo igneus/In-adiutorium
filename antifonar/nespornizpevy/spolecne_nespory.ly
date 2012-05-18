@@ -6,6 +6,7 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
+  ragged-bottom=##t
   
   indent = 0\cm
   short-indent = 0\cm
