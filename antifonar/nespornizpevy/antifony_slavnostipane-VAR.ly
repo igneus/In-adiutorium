@@ -148,6 +148,8 @@
   }
 }
 
+\pageBreak
+
 \markup\bold{Těla a Krve Páně}
 
 \score {
@@ -175,6 +177,133 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a c( d) d \barMin
+    d c( \mark\sipka b) a a \barMin c a g f g a g f \mark\sipka f( g) g  \barMaior
+    f g( a) g a( c) c \barMin
+    d( e) d c( b) a a c( a) g f g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je 
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "tela-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c( d) d \barMaior
+    d e d d \barMin c d c( d) d d c b a g g  \barMaior
+    f g( a) g a( c) c \barMin
+    d( e) d c( b) a a c( a) g f g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je 
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "tela-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c( d) d \barMaior
+    d e d d \barMin c d c( d) d d c b a g g  \barMaior
+    g a( c) c( d) d( c) c \barMin
+    d c b a g a( g) f g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je 
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "tela-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c( d) d \barMaior
+    d e d d \barMin c d c( d) d d c b a g g  \barMaior
+    g c d d( c) c \barMin
+    d c b a g a( g) f g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je 
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "tela-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{3}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a a( d) d \barMaior
+    c d( e) c( d) d \barMin d c b a c b a g a( g) g \barMaior
+    a a( c d) c b a( g) \barMin
+    a a a b c( a) g f g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je 
+    pod způ -- so -- bou chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "tela-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d d c d d( f) f \barMin
@@ -193,6 +322,28 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f e c d c \barMin
+    d d( f) e d d( e d) c d d \barFinalis
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy
+    a při -- ne -- su o -- běť dí -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 116-II"
+    id = "tela-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 % ZKOPIROVANA
 \score {
@@ -216,6 +367,97 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a a( bes) a \barMaior
+    g a bes( a) g \barMin a f e f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty jsi ces -- ta, 
+    ty jsi prav -- da,
+    ty jsi ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "tela-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a a( bes) a \barMaior
+    g bes a( g) g \barMin f e f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty jsi ces -- ta, 
+    ty jsi prav -- da,
+    ty jsi ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "tela-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a a( bes) a \barMaior
+    g bes a( g) g \barMin f e d e g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty jsi ces -- ta, 
+    ty jsi prav -- da,
+    ty jsi ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "tela-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 g a a a( bes) a \barMaior
+    g bes a( g f) g \barMin f e d e g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty jsi ces -- ta, 
+    ty jsi prav -- da,
+    ty jsi ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = "tela-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 % ZKOPIROVANE
 \score {
@@ -249,6 +491,8 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
