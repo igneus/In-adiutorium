@@ -821,6 +821,171 @@ složil.)
   }
 }
 
+\markup\nadpisSkupiny{"Nanebevstoupení 3 - úprava pro dny svatodušní novény"}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4 g a( c) c \barMin d( c b) a b a g \barMin
+    f4 a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4 f g( a) a \barMin a( c b g) g a( g) f \barMin
+    f4 a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4 f g( a) a \barMin c( d c a) b( g) f4( a) g( f) f \barMin
+    g4 a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4 a b( c) c \barMin c( d c a) b( g) f4( a) g( f) f \barMin
+    g4 a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a bes c) c \barMin 
+    c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f4. f \barMaior
+    f4 a b( c) c d( c a b) a( g) \barMin a( g) g( f) f \barMaior
+    g4 a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{"Předsvatodušní"}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a4.( b) \barMin
+    a4( b) c d d( e d) d \barMin e( g f) e( d) c d d \barMaior
+    d c( b) c( d c a) a \barMin b( a g) f g( a) g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a4.( b) \barMin
+    a4( b) c d d( e d) d \barMin e( g f) e( d) c d d \barMaior
+    d \mark\sipka d c( d c a) \mark\sipka b4.( a) \barMin b4( a g) f g( a) g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 } % bookpart
 
 \bookpart {
