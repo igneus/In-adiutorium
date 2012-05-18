@@ -47,25 +47,27 @@
   \markup{Od slavnosti Nanebevstoupení Páně:}
   
   \score {
-    \relative c' {
-      \choralniRezim
-      
-    }
-    \addlyrics {
-      Pojď -- me,
-      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-      on nám slí -- bil Du -- cha sva -- té -- ho,
-      a -- le -- lu -- ja.
-    }
-    \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a4.( b) \barMin
+    a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
+    d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
+    d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis 
   }
+  \addlyrics {
+    Pojď -- me, 
+    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on nám slí -- bil Du -- cha sva -- té -- ho,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
   
   \markup {\nadpisHodinka {"modlitba uprostřed dne"} a \nadpisHodinka {"kompletář"}}
   
