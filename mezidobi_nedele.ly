@@ -472,18 +472,20 @@
   \markup {\nadpisDen {"8. neděle"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      d4 d( a) c b g( a) a( g) \barMin g f g g a a c b c( d) d \barMaior
+      d( e d) c( b) a g a( g) g \barFinalis
     }
     \addlyrics {
-      Do -- kud ma -- jí hos -- té na svat -- bě že -- ni -- cha me -- zi se -- bou,
+      Do -- kud ma -- jí hos -- té na svat -- bě že -- ni -- cha 
+      me -- zi se -- bou,
       ne -- mo -- hou se pos -- tit.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "d"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -493,7 +495,10 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 d d f g g( a) g g( a) a \barMaior
+      a( g a g) f a( g) f g g \barMaior
+      d g g( f g) a( g) f e f d d \barMin 
+      c d f( e c d) d \barFinalis
     }
     \addlyrics {
       Bůh nám dal skr -- ze Kris -- ta schop -- nost
@@ -503,8 +508,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = ""
+      modus = "I"
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -512,9 +517,10 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      c4 c a g a g \barMin a a g( e) e f e f d( e) e \barMaior
+      f( g a) b c c \barMin c c( b g) a( g) g \barMin f e d d( e) e \barFinalis
     }
     \addlyrics {
       Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
@@ -522,8 +528,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "III"
+      differentia = "b"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -532,10 +538,16 @@
   
   \markup {\nadpisDen {"9. neděle"}}
   
+  \markup\italic\justify{V závěru dvou následujících antifon je potřeba
+  položit přízvuk tak, jak to odpovídá logice jazyka (poznačeno
+  "\"kapkou\"" pod notou), ne tak, jak by k tomu sváděla melodie,
+  o slabiku později.}
+  
   \score {
     \relative c' {
       \choralniRezim
-
+      d( c) d( f) f f g f e( d) d \barMaior
+      c a a( c) c d-| e d d \barFinalis
     }
     \addlyrics {
       So -- bo -- ta je pro člo -- vě -- ka,
@@ -543,8 +555,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -554,15 +566,15 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 d f f f e( c) c c d-| e d d \barFinalis
     }
     \addlyrics {
       Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -572,18 +584,20 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 d f g g f g a g f g g( d) \barMax
+      g f( e) f( g f) d d \barMin c d f e( d) d \barFinalis
     }
     \addlyrics {
       Smí se v_so -- bo -- tu jed -- nat dob -- ře,
-      a -- ne -- bo zle?
+      % a -- 
+      ne -- bo zle?
       Ži -- vot za -- chrá -- nit,
       a -- ne -- bo za -- bít?
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "I"
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -593,9 +607,10 @@
   \markup {\nadpisDen {"10. neděle"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
+      d c b a( g a) g \barMin a( b c) a g( a) g g \barFinalis
     }
     \addlyrics {
       Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
@@ -603,8 +618,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -612,9 +627,10 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4 a a( d) d( c) c( d) \barMin e d c d c( a) a \barMaior
+      d d c d c( b a) a \barMin c a g a( g) f f( g) g g \barFinalis
     }
     \addlyrics {
       Ny -- ní na -- stá -- vá soud nad tím -- to svě -- tem,
@@ -622,8 +638,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -631,9 +647,10 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4( d) d \barMin d f e d c d( a) a \barMaior
+      g f g g( a) a b c a g( f) g( a g) g \barFinalis
     }
     \addlyrics {
       Kaž -- dý, kdo pl -- ní vů -- li Bo -- ží,
@@ -641,8 +658,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
