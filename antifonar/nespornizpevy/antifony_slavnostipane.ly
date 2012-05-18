@@ -224,11 +224,11 @@
     
     % R
     \neviditelna f
-    f4 f f f( e) g a \barMax
+    f4 f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f( e) g a \barMax
+    f4 f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
