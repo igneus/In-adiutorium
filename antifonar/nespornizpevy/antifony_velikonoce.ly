@@ -276,7 +276,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+    a4( bes) a g a e \barMin f g f e d d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     U -- pev -- ňuj, Bo -- že,
@@ -288,7 +289,7 @@
     modus = "per"
     differentia = "" 
     psalmus = "Žalm 114"
-    id = ""
+    id = "seslani-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

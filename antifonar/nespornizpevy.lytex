@@ -517,6 +517,10 @@ ze stránek http://www.op.cz}}
 \lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant1.ly}
 
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant2.ly}
+
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
