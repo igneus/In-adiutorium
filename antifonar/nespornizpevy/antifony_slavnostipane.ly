@@ -153,16 +153,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a c( d) d \barMin
-    d c( d) c( a) a \barMin c a g f g a g f g g  \barMaior
-    f g( a) g a( c) c \barMin
-    d( e) d c( b) a a c( a) g f g g \barFinalis
+    a a( d) d \barMaior
+    c d( e) c( d) d \barMin d c b a c b a g a( g) g \barMaior
+    a a( c d) c b a( g) \barMin
+    a a a b c( a) g f g g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
     kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
     se o -- bě -- tu -- je 
-    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+    pod způ -- so -- bou chle -- ba a ví -- na.
   }
   \header {
     quid = "1. ant."
@@ -194,13 +194,12 @@
   }
 }
 
-% ZKOPIROVANA
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f \major
-    a4 a f g a( bes a) a \barMaior
-    c( bes) c bes( a) a \barMin g f a g f( g f) f \barFinalis
+    f4 g a a a( bes) a \barMaior
+    g bes a( g f) g \barMin f e d e g( f) f \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty jsi ces -- ta, 
@@ -217,7 +216,6 @@
   }
 }
 
-% ZKOPIROVANE
 \score {
   \relative c' {
     \choralniRezim
