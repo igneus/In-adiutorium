@@ -193,12 +193,11 @@
   }
 }
 
-% ZKOPIROVANE
 \score {
   \relative c'' {
     \choralniRezim
     g4 g g f( e f) g( a) a a b( c) c c \barMin
-    c b4.( g) g4 a( g f) e( f) g4. g \barMax
+    c b4.( g) g4 a( g) f g g \barMax
     g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
@@ -326,13 +325,12 @@
   }
 }
 
-% ZKOPIROVANE
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a( bes a) g g( a g) g \barMin
+    f4 g a a a( bes) a g f \barMin
     g( f) g g( a) a \barMaior
-    a bes( a g) g( f) g g( a f) f \barMax
+    a bes( a g) f g g( a f) f \barMax
     d f g( f) f \barFinalis
   }
   \addlyrics {
@@ -362,7 +360,7 @@
     % V
     \neviditelna f
     f f f f f f f f( g) f f e( d) \barMin
-    f f f f f e g g a \barMax
+    f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -375,7 +373,7 @@
     \textRespAleluja
     \Verse Všech -- no u -- dr -- žu -- je a ob -- no -- vu -- je,
     pro -- mlou -- vá k_li -- dem všech ja -- zy -- ků._*
-    \Response textRespAleluja
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -389,18 +387,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g g f g g( a) a \barMin
-    a( g) a a b c( b c) c \barMaior
-    d d a a a b( a) g a( g) g \barMax
+    g4 a a a a a g a c( d) d( c) \barMin
+    c a( g) a g f( g) g \barMaior
+    g f e d d f g g( a g) g \barMax
     
-    g( a) g g g g f g g( a) a \barMin
-    a a b c b c( d) d \barMin
-    d d a a g( a) a( g) g \barMax
+    a( c) c c c c b c d( c) c \barMin
+    d c b( c) a a g g \barMin
+    a g( a) g f f( g) g g \barMax
     
-    g g( a) a a b c d c( a) a \barMin
-    c a g( f g) g \barMaior
+    g f( g) g g \barMin a b c b( c) c \barMin
+    b c a( g) g \barMaior
     
-    g g( a) a( g) g \barFinalis
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     O let -- ni -- cích se Duch sva -- tý zje -- vil 
