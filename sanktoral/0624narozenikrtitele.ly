@@ -52,16 +52,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+    a4 a g( a) a \barMin b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin c( d) c( b) g( a) a \barFinalis
   }
   \addlyrics {
-    Me -- zi tě -- mi, kdo se na -- ro -- di -- li z_že -- ny,
+    Me -- zi tě -- mi, kdo se na -- ro -- di -- li ze že -- ny,
     ne -- po -- vstal ni -- kdo vět -- ší než Jan Křti -- tel.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -73,15 +74,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    g( a) g( f) d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a a( bes) a g( a) a( g) \barMin g g f g a a \barMax
     % R
     \neviditelna a
-    
+    g( a) g( f) d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Při -- prav -- te ces -- tu Pá -- nu,_*
@@ -92,7 +95,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -217,15 +220,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f g( a) a g \barMax
+    g g a g( f) d \barMin f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a( bes) a a \barMin a a a a a a g( a) g f g( a) \barMax
     % R
     \neviditelna a
-    
+    g g a g( f) d \barMin f d f( g) g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bu -- de ve -- li -- ký před Pá -- nem_*
@@ -237,7 +242,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -268,9 +273,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c d( e) d c d a a \barMaior
+    d c b a( g) a \barMin b( c) b( c) c( d) a a \barMaior
+    g( f) g c b a g a4. g \barFinalis
   }
   \addlyrics {
     Bu -- de ve -- li -- ký před Pá -- nem
@@ -279,8 +286,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -314,9 +321,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c a( c) c c d( e) d c d a a \barMaior
+    d c b a( b) a g a( g) \barFinalis
   }
   \addlyrics {
     To -- to dí -- tě je ve -- li -- ké před Pá -- nem,
@@ -324,8 +332,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -379,15 +387,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( c) d f( g f e) d4.( c) \barMin d4( e f) e( d) d e d( c) c( d) d \barFinalis
   }
   \addlyrics {
     Jan byl lam -- pa ho -- ří -- cí a zá -- ří -- cí.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -397,23 +405,32 @@
 \markup\italic{Responsorium jako v 1. nešporách.}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g( a) a b a b c( d) e d c( d) d \barMin
+    d c( b a) g( a) a( g) g \barMax
     
+    f g g a g g( a) a \barMaior
+    
+    a4 a g( a) a \barMin b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin c( d) c( b) g( a) a \barFinalis
   }
   \addlyrics {
     Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
     je víc než pro -- rok.
+    
     Spa -- si -- tel o něm ře -- kl:
-    Me -- zi tě -- mi, kdo se na -- ro -- di -- li z_že -- ny,
+    
+    Me -- zi tě -- mi, kdo se na -- ro -- di -- li ze že -- ny,
     ne -- po -- vstal ni -- kdo vět -- ší než Jan Křti -- tel.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
+    fons = "2. část viz 1. nešp, 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
