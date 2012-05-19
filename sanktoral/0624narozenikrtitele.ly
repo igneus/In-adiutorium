@@ -50,7 +50,7 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
   }
@@ -145,18 +145,21 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g f g( d) \barMaior
+    g f g a( bes) a g( a) a \barMin 
+    a g a g( f) e e( f) d d \barFinalis
   }
   \addlyrics {
     Dáš mu jmé -- no Jan
-    a z_je -- ho na -- ro -- ze -- ní se bu -- dou mno -- zí ra -- do -- vat.
+    a z_je -- ho na -- ro -- ze -- ní 
+    se bu -- dou mno -- zí ra -- do -- vat.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -164,9 +167,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g d' c d d( e d) c d d \barMaior
+    d e d d( c) c \barMaior
+    b a g a( b) b c( d e) c b a( g) g \barFinalis
   }
   \addlyrics {
     Bu -- de při -- pra -- vo -- vat ces -- tu Pá -- nu
@@ -175,8 +180,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -186,17 +191,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 f e( d e f) f \barMin
+    f f g( a) g f g( a g) f d d \barMaior
+    c d f( g) g f( g) d d \barMaior
+    f e f g f e c( d) d \barFinalis
   }
   \addlyrics {
-    A ty, sy -- nu, bu -- deš pro -- ro -- kem Nej -- vyš -- ší -- ho,
+    A ty, sy -- nu, 
+    bu -- deš pro -- ro -- kem Nej -- vyš -- ší -- ho,
     ne -- boť pů -- jdeš před Pá -- nem,
     a -- bys mu při -- pra -- vil ces -- tu.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -307,7 +316,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     To -- to dí -- tě je ve -- li -- ké před Pá -- nem,
