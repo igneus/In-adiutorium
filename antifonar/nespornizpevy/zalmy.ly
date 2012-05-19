@@ -165,7 +165,7 @@
   }
   \addlyrics {
     Měl jsem \skip 1 \skip 1 \skip 1 \skip 1  "důvěru, i když jsem si" \lb ře -- \ln kl:_* \skip 1
-    "„Jsem" tak \lb sklí -- \ln čen!“
+    "„Jsem" \li tak \ln \lb sklí -- \ln čen!“
   } 
   \header {
     quiddd = "Žalm 116-II"

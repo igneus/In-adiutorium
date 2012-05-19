@@ -43,7 +43,7 @@ alal = \lyricmode { \DoubleResponse }
 
     % Chvalte...
     \neviditelna f
-    f f f f f f f f f f e g g a
+    f f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f f f f e g a
@@ -51,10 +51,10 @@ alal = \lyricmode { \DoubleResponse }
 
     % Pan, nas...
     \neviditelna f
-    f f f f f f f f e g g a
+    f f f f f f f f e g a a
     \mal
     \neviditelna f
-    f f f f f f f f f e g a
+    f f f f f f f f f f e g( a)
     \malal
 
     % Nebot...
@@ -67,7 +67,7 @@ alal = \lyricmode { \DoubleResponse }
 
     % Slava...
     \neviditelna f
-    f f f f f f f f f e g g a
+    f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f e g a

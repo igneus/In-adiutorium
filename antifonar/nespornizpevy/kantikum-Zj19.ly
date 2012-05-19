@@ -1,9 +1,10 @@
-\version "2.12.3"
+\version "2.15.37"
 
 % Obsahove se shoduje s ../kantikum-Zj19.ly ,
 % lisi se tim, ze nema zadny text v \markup a v nekterych nastavenich
 
 \include "nespornizpevy/spolecne_nespory.ly"
+% \include "spolecne_nespory.ly"
 
 DoubleResponse = \lyricmode { 
   \markup { 
@@ -43,7 +44,7 @@ alal = \lyricmode { \DoubleResponse }
 
     % Chvalte...
     \neviditelna f
-    f f f f f f f f f f e g g a
+    f f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f f f f e g a
@@ -51,10 +52,10 @@ alal = \lyricmode { \DoubleResponse }
 
     % Pan, nas...
     \neviditelna f
-    f f f f f f f f e g g a
+    f f f f f f f f e g a a
     \mal
     \neviditelna f
-    f f f f f f f f f e g a
+    f f f f f f f f f f e g( a)
     \malal
 
     % Nebot...
@@ -67,7 +68,7 @@ alal = \lyricmode { \DoubleResponse }
 
     % Slava...
     \neviditelna f
-    f f f f f f f f f e g g a
+    f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f e g a

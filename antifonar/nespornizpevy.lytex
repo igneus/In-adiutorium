@@ -505,6 +505,9 @@ ze stránek http://www.op.cz}}
 \cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-resp.ly}
 
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-antmag.ly}
+
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
@@ -517,6 +520,10 @@ ze stránek http://www.op.cz}}
 \lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant1.ly}
 
 \odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant2.ly}
+
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
@@ -527,6 +534,9 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 \lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-resp.ly}
+
+\cisloCastiPisne
+\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-antmag.ly}
 
 \odkazMagnificat
 \rubrikaPrimluvy
