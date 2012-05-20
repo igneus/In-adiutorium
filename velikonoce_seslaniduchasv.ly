@@ -8,17 +8,6 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
-respAlelujaVI = { 
-  a4 a( g) g f \breathe d f( g) g f 
-}
-
-respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \breathe
-  a a g a( g) f f
-}
-
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -243,23 +232,23 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f f f f f f f f f e g a \barMax
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % V
     \neviditelna f
-    f f f f f f f e g g a \barMax
+    f f f f f f f e g a a \barMax
     % R
     \neviditelna a
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % Slava
-    \doxologieRespAlelujaVI \barFinalis
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response Všich -- ni by -- li na -- pl -- ně -- ni Du -- chem sva -- tým._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Za -- ča -- li mlu -- vit ci -- zí -- mi ja -- zy -- ky._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -274,7 +263,7 @@ doxologieRespAlelujaVI = {
   \relative c' {
     \choralniRezim
     d4 d d( f d c) c d f e( f) f \barMin
-    g f e e f c( d) d \barMax
+    g f g f e c( d) d \barMax
     c d d( e d) d \barFinalis
   }
   \addlyrics {
@@ -349,7 +338,7 @@ doxologieRespAlelujaVI = {
     \choralniRezim
     f4 f( g a) g f e4. e \barMin
     f4( e) f g( a) a e f d \barMax
-    e c d4. d \barFinalis
+    e f d4. d \barFinalis
   }
   \addlyrics {
     Duch va -- še -- ho Ot -- ce
@@ -414,7 +403,7 @@ doxologieRespAlelujaVI = {
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a( bes a) g g( a g) g \barMin
+    f4 g a a a( bes) a g( a g) g \barMin
     g( f) g g( a) a \barMaior
     a bes( a g) g( f) g g( a f) f \barMax
     d f g( f) f \barFinalis
@@ -441,25 +430,25 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f4 f f f f f e g g a \barMax
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % V
     \neviditelna f
     f f f f f f f f( g) f f e( d) \barMin
-    f f f f f e g g a \barMax
+    f f f f f e g a a \barMax
     % R
     \neviditelna a
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % Slava
-    \doxologieRespAlelujaVI \barFinalis
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Všech -- no u -- dr -- žu -- je a ob -- no -- vu -- je,
     pro -- mlou -- vá k_li -- dem všech ja -- zy -- ků._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -473,16 +462,16 @@ doxologieRespAlelujaVI = {
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f f \barMin
+    f4 g f( g) g \barMin
     g g( a) g( a g) f f( g a) a \barMin
-    c( b) c a( b a) g a( b c) b4.( c) \barMaior
+    a4 g g( a) a c( d c d) d \barMaior
     c4 d( c) b a( g) g \barMin
     f( e) f f( g) g \barMax
     
     d( c d) d( f) f4.( d) \barMin
     d4( g) f g g a( bes a) a \barMin
     a( g) f g f g g g4.( a) \barMin
-    a4 a( g f) g f d d d \barMaior
+    a4 a( g f) g f d( e) d d \barMaior
     
     d d( f d) d( c) c4.( d) \barMin
     d4 f( g) f g( a) a \barMin
