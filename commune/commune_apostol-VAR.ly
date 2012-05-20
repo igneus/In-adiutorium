@@ -274,16 +274,17 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( e d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu;
-    on je Pán a Král a -- po -- što -- lů.
+    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -295,23 +296,136 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c' {
     \choralniRezim
-    
+    d e c( d) d \barMaior
+    c4( d) d \barMin d( f) e d c c \barMaior 
+    d c d e f( g e) \barMin f e d( c) c \barMaior
+    a c d( e d) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja,
-    pojď -- me, klaň -- me se Kris -- tu;
-    on je Pán a Král a -- po -- što -- lů,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
     a -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( a c d) d \barMin d( e) d c d( c a) a \barMaior
+    g a c( d c) b c( d) \barMin c( b a) g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( a c d) d \barMin d( e) d c d( c a) a \barMaior
+    g a c( d c) b c( d) \barMin c( b) a( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( a c d) d \barMin d( e) d c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a c d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král a -- po -- što -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a c( d) d \barMaior
+    c( d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
