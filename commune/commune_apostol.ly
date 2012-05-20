@@ -207,19 +207,19 @@
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4( d) d \barMin d( f) e d c c \barMaior 
-    d c d e f( g e) \barMin f e d( e d) d \barFinalis
+    d4( a c d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
-    a -- po -- što -- lů.
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král a -- po -- što -- lů.
   }
   \header {
     quid = "ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -229,12 +229,12 @@
 \markup\italic{V době velikonoční:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d e c( d) d \barMaior
-    c4( d) d \barMin d( f) e d c c \barMaior 
-    d c d e f( g e) \barMin f e d( c) c \barMaior
-    a c d( e d) d \barFinalis
+    d4 a c( d) d \barMaior
+    c( d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja,
@@ -244,8 +244,8 @@
   }
   \header {
     quid = "ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
