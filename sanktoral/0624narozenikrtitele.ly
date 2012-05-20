@@ -1,12 +1,17 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
 \header {
-  title = "Narození sv. Jana Křtitele (slavnost, 24.6.)"
+  title = \markup\titleSvatek 
+            "Narození sv. Jana Křtitele"
+            slavnost
+            24.6.
   composer = "Jakub Pavlík"
 }
 
-\include "../spolecne.ly"
-\include "../dilyresponsorii.ly"
+
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
