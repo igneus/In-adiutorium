@@ -35,7 +35,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( f) f \barMin g( d) d \barMaior
+    d d e f f g f e f d( c) c( d) \barFinalis
   }
   \addlyrics {
     Ty jsi Pe -- tr_- Ská -- la_- 
@@ -43,8 +44,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 147-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -273,9 +274,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g a c b a( b) a a \barMaior
+    g( a) c( d) d c d c( b) a( g) a( g) \barMin
+    f g a a( b a) a \barFinalis
   }
   \addlyrics {
     Když by -- lo ko -- lem po -- led -- ne,
@@ -284,8 +287,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -293,9 +296,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g( a) a a c b a( g) g \barMin
+    a b c d( e) d c c d d \barMaior
+    d c( d) c b a( g) \barMin f g a a( b) a a \barFinalis
   }
   \addlyrics {
     Ve tři ho -- di -- ny od -- po -- led -- ne,
@@ -304,8 +309,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
