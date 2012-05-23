@@ -56,6 +56,8 @@
   }
 }
 
+\markup\vspace #3
+
 \markup\huge\column {
   \line{
     \bold{2.}
@@ -68,8 +70,8 @@
       
       a vnitřní obnovení dáváš nám svým Duchem."
   }
-}
-\markup\huge\column {   
+
+  \line{ \vspace #1 }
   \line{
     \bold{3.}
     \wordwrap-string #"
