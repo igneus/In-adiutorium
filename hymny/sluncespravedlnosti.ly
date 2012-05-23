@@ -48,6 +48,11 @@
   }
   \layout { 
     indent = 0\cm
+    ragged-last = ##f
+    \context {
+      \Staff
+      \remove Custos_engraver
+    }
   }
 }
 
