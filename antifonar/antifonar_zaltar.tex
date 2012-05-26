@@ -68,13 +68,16 @@
 }
 
 \newcommand{\zalmRef}[1]{
-  \mbox{\smallŽalm #1, str. \pageref{z#1}}}
+  \mbox{Žalm #1, str. \pageref{z#1}}}
 
 \newcommand{\textRef}[2]{
-  \mbox{\small#2, str. \pageref{#1}}}
+  \mbox{#2, str. \pageref{#1}}}
 
 \newcommand{\laudyNedelePrvnihoTydne}{
-  \mbox{\smallŽalmy nedělní z 1. týdne, str. \pageref{zalmyne1trch}}}
+  \mbox{Žalmy nedělní z 1. týdne, str. \pageref{zalmyne1trch}}}
+
+\newenvironment{idxObsahHory}{
+  \begin{quote}\small}{\end{quote}}
 
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}

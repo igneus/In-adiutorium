@@ -91,6 +91,8 @@ def content(line)
   
   psalms = []
   
+  puts "\\begin{idxObsahHory}"
+
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
@@ -124,6 +126,8 @@ def content(line)
       puts "\\rubr{#{t[1]}}"
     end
   end
+
+  puts "\\end{idxObsahHory}"
   
   return psalms
 end
