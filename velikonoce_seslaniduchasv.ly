@@ -171,9 +171,9 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F" 
-    psalmus = ""
+    psalmus = "Žalm 63"
     id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -195,9 +195,9 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G" 
-    psalmus = ""
+    psalmus = "Dan 3-III"
     id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -219,9 +219,9 @@
     quid = "3. ant."
     modus = "IV"
     differentia = "E" 
-    psalmus = ""
+    psalmus = "Žalm 149"
     id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
