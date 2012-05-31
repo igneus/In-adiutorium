@@ -206,7 +206,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D" 
     psalmus = ""
