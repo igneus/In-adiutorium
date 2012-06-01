@@ -91,7 +91,7 @@
     \neviditelna a
     a4 g( f) g f d4. d \barFinalis
     % Slava - melodie i text temer totozny s versem
-    a'4 a a( g) g b b( a) a \barMin g a a b g4. a \barMax
+    a'4 a a( g) g b b( a) a \barMin g a a b g4. a \barFinalis
   }
   \addlyrics {
     \Response Troj -- je -- di -- né -- mu Bo -- hu_*
@@ -176,7 +176,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G*" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
