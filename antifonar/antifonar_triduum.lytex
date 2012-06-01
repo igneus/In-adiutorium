@@ -342,7 +342,7 @@ strofě.}
 \input{generovane/triduum/zalm63.tex}
 \newpage % ZLOM1
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant2.ly}
-\input{generovane/triduum/kantikum_dan3i.tex}
+\input{generovane/triduum/kantikum_dan3iii.tex}
 \lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant3.ly}
 \input{generovane/triduum/zalm149.tex}
 

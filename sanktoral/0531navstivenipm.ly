@@ -134,7 +134,7 @@
     \neviditelna a
     g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
@@ -206,7 +206,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D" 
     psalmus = ""
@@ -216,7 +216,7 @@
   }
 }
 
-\markup {\nadpisHodinka {"2. nešpory"}}
+\markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c'' {

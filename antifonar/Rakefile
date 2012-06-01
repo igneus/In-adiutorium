@@ -198,17 +198,17 @@ cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
 end
 
-dan3ioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
+dan3iiioptions = commonoptions_withoutdoxology+o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 # jedine kantikum bez doxologie
-zalmyzaltare << genzalm('kantikum_dan3i.zalm', dan3ioptions, adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_zaltar)
 # ostatni kantika
 %w( fp2 ef1 zj4 kol1 zj11 zj15
 
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
 dt32 iz2 iz26 iz33 iz40 jer14 mdr9
-iz42 dan3iii iz61 iz66 tob13ii ez36 ).each do |kk| 
+iz42 dan3i iz61 iz66 tob13ii ez36 ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
@@ -270,7 +270,7 @@ svatzalt_kantika = []
       iz38 hab3 ).each do |k|
   svatzalt_kantika << genzalm("kantikum_"+k+".zalm", canticleoptions, svatzalt_adresar)
 end
-svatzalt_kantika << genzalm("kantikum_dan3i.zalm", dan3ioptions, svatzalt_adresar)
+svatzalt_kantika << genzalm("kantikum_dan3iii.zalm", dan3iiioptions, svatzalt_adresar)
 
 file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{svatzalt_adresar} svatecnizaltar_index.txt"
@@ -382,7 +382,7 @@ nedelecanticleoptions = nedelecommonoptions+o_canticletitle
 
 zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmynedele << genzalm('kantikum_dan3i.zalm', dan3ioptions+" --columns", adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions+" --columns", adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
@@ -461,7 +461,7 @@ zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex',
 zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
 zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
-%w( zj11 hab3 fp2 iz38 dan3i ).each do |k|
+%w( zj11 hab3 fp2 iz38 dan3iii ).each do |k|
   zalmy_triduum << genzalm("kantikum_"+k+".zalm", options_triduum, adresar_triduum)
 end
 

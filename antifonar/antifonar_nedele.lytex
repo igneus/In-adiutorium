@@ -160,7 +160,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm63.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant2.ly}
-\input{generovane/nedele/kantikum_dan3i.tex}
+\input{generovane/nedele/kantikum_dan3iii.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm149.tex}
 
@@ -290,7 +290,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm93.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant2.ly}
-\input{generovane/nedele/kantikum_dan3i.tex}
+\input{generovane/nedele/kantikum_dan3iii.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm148.tex}
 

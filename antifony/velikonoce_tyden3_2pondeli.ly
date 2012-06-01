@@ -80,7 +80,7 @@
   \relative c'' {
     \choralniRezim
     c( d) d d d( c) c( d) d d( f e) d( c d) c b( c d) d \barMaior
-    d f4.( d) \barMin d4 c b c( a g4.) g \barMaior
+    d d( e d) \barMin d4 c b c( a g4.) g \barMaior
     g4 a a( g) g \barFinalis
   }
   \addlyrics {

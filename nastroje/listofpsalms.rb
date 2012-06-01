@@ -91,6 +91,8 @@ def content(line)
   
   psalms = []
   
+  puts "\\begin{idxObsahHory}"
+
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
@@ -101,7 +103,8 @@ def content(line)
     case t[0]
     when :ps
       if t[1] == "rchne1t" then
-        puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
+        # puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
+        puts "\\laudyNedelePrvnihoTydne"
       elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
         # psalm
         prettyt = psalm_name_pretty t[1]
@@ -123,6 +126,8 @@ def content(line)
       puts "\\rubr{#{t[1]}}"
     end
   end
+
+  puts "\\end{idxObsahHory}"
   
   return psalms
 end

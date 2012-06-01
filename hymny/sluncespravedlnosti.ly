@@ -48,8 +48,15 @@
   }
   \layout { 
     indent = 0\cm
+    ragged-last = ##f
+    \context {
+      \Staff
+      \remove Custos_engraver
+    }
   }
 }
+
+\markup\vspace #3
 
 \markup\huge\column {
   \line{
@@ -63,8 +70,8 @@
       
       a vnitřní obnovení dáváš nám svým Duchem."
   }
-}
-\markup\huge\column {   
+
+  \line{ \vspace #1 }
   \line{
     \bold{3.}
     \wordwrap-string #"
