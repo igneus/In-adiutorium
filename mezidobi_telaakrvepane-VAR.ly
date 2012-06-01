@@ -92,12 +92,13 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d( f) e d( e d) c( d) d( c) \barMaior
     d d d c( d) d g( f g) g \barMin g g( a g) g( f d) g g( f) d( c) c \barMaior
     d d d e( f) f( g) g \barMin g( f) g a( g) f f( g) g \barMaior
     \mark\sipka f g g g g a( bes a g) a g( f) f \barMaior
-    g f g g g g( f g) g( f) f \barMin d( g) f d c( d) d \barMax
+    g f g g g g( f g) g( f) f \barMin d( \mark\sipka f g) f d c( d) d \barMax
     c f( e) d d \barFinalis
   }
   \addlyrics {
@@ -214,6 +215,58 @@ zpetOranz = { \revert NoteHead #'color }
     
     a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
     A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{(Finální verze; shodná s předchozí, akorát má navíc aleluja na výběr.)}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4( a c d) c d( e f e) d( c) c \barMaior
+    c c a( g a) bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
+    
+    a( c d e) d( c) c f,( a bes c) d( bes c) c \barMaior
+    c e f( g f) e d( c) c \barMax
+    
+    d( bes) c( d) c( a) \barMin c c c( bes a) g( a) 
+    bes( a g) f( g a) \barMax
+    
+    bes a( g) c( d) bes( c bes) a \barMin
+    c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
+    
+    f^\markup\small\italic{Snazší aleluja:} f( e d c a4. bes4) g( f) f \barFinalis
+    
+    f'^\markup\small\italic{Aleluja z předlohy:}
+    \once \override Slur #'stencil = ##f
+    \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
+    \[ c d c \] \[ a g a \] \[ f g a) \]
+    bes( a g f) f \barFinalis
+  }
+  \addlyrics {
+    % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
+    % sdeleni.
+    Sva -- tá hos -- ti -- no,
+    při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
+    
+    sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
+    
+    do du -- še se nám vlé -- vá mi -- lost
+    
+    a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
+    \markup{\Dagger A} -- le -- lu -- ja.
+    
+    \markup{\Dagger A} -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
