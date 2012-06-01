@@ -11,7 +11,7 @@
 mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
 malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
 % text aleluja
-ial = \lyricmode { A -- le -- lu -- ja. }
+ial = \lyricmode { \markup\bold\large\with-color #red {A} -- le -- lu -- ja. }
 al = \lyricmode { \Response A -- le -- lu -- ja. }
 alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
@@ -121,10 +121,42 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
       
       % Vitezstvi
       \modVIIial
-      c( d) d( c) c \barMin d( e) d c c( d) \barMin d c d d( c) c \barFinalis
+      c4( d) d( c) c \barMin d( e) d c c( d) \barMin d c d d( c) c \barFinalis
       \modVIIal
       \neviditelna c
       d d e f e( d) d d c d c( b) \barMin b c b a( g) g \barFinalis
+      \modVIIalal
+      
+      % Chvalte
+      \modVIIial
+      c4( d) d c b c c( d) d \barMin d e d c c( d) d( c) c \barFinalis
+      \modVIIal
+      \neviditelna c
+      d4 d d d e( f) e( d) d \barMin c b a b( c a g) g \barFinalis
+      \modVIIalal
+      
+      % Pan nas Buh
+      \modVIIial
+      c4( b c) c( d) d( c) \barMin d( e) d( c) c( d) \barMin d d d c( d) d( c) c \barFinalis
+      \modVIIal
+      \neviditelna c
+      d4 d d d e( f) d( c) c \barMin b c b g f( g) \barFinalis
+      \modVIIalal
+      
+      % Nebot nadesla
+      \modVIIial
+      c4 b c( d) d( c) c \barMin d e d c d( c) c \barFinalis
+      \modVIIal
+      \neviditelna c
+      d d e( f) e( d) d d c b a( g) g \barFinalis
+      \modVIIalal
+      
+      % Slava
+      \modVIIial
+      c4( d) d d( c) c b c( d) d \barMin d e d c( d) d( c) c \barFinalis
+      \modVIIal
+      \neviditelna c
+      d c d e f e d c( b a g) g \barFinalis
       \modVIIalal
     }
     \addlyrics {
