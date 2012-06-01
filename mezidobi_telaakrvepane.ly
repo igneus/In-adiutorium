@@ -386,6 +386,7 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
     d4 d d a' g( a bes4.) a4 \barMaior
     g a( bes a) g( a g) f e f d d \barFinalis
@@ -406,6 +407,7 @@
 
 \score {
   \relative c'' {
+    \key f \major
     \choralniRezim
     a4 a f g a( bes a) a \barMaior
     c( bes) c bes( a) a \barMin g f a g f( g f) f \barFinalis
@@ -427,20 +429,32 @@
 
 \markup\italic{Responsorium jako v prvních nešporách.}
 
+\pageBreak
+
+\markup\justify{Antifona k Magnificat následuje ve dvou úpravách
+na výběr. První vznikla u mého stolu a je snazší.
+Druhá je pokusem o přenesení nápěvu latinské verze této antifony
+\concat{( \italic{"O sacrum convivium"} ),} nakolik to bylo možné,
+na český text. Podle \italic{Antiphonale Romanum,} Romae 1912, 448.
+
+Části melodie přenést nešly a musel jsem vytvořit
+vlastní. Kromě toho jsem uznal za vhodné vedle originálního
+dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
+
 \score {
   \relative c' {
     \choralniRezim
     d( f) e d( e d) c( d) d( c) \barMaior
     d d d c( d) d g( f g) g \barMin g g( a g) g( f d) g g( f) d( c) c \barMaior
     d d d e( f) f( g) g \barMin g( f) g a( g) f f( g) g \barMaior
-    f( g) g g g g a( bes a g) a g( f) f \barMaior
-    g f g g g g( f g) g( f) f \barMin d( g) f d c( d) d \barMax
+    f g g g g a( bes a g) a g( f) f \barMaior
+    g f g g g g( f g) g( f) f \barMin d( f g) f d c( d) d \barMax
     c f( e) d d \barFinalis
   }
   \addlyrics {
     % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
     % sdeleni.
-    Sva -- tá hos -- ti -- no,_*
+    Sva -- tá hos -- ti -- no,
     při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
     sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
     do du -- še se nám vlé -- vá mi -- lost
@@ -451,6 +465,55 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( a c d) c d( e f e) d( c) c \barMaior
+    c c a( g a) bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
+    
+    a( c d e) d( c) c f,( a bes c) d( bes c) c \barMaior
+    c e f( g f) e d( c) c \barMax
+    
+    d( bes) c( d) c( a) \barMin c c c( bes a) g( a) 
+    bes( a g) f( g a) \barMax
+    
+    bes a( g) c( d) bes( c bes) a \barMin
+    c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
+    
+    f^\markup\small\italic{Snazší aleluja:} f( e d c a4. bes4) g( f) f \barFinalis
+    
+    f'^\markup\small\italic{Aleluja z předlohy:}
+    \once \override Slur #'stencil = ##f
+    \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
+    \[ c d c \] \[ a g a \] \[ f g a) \]
+    bes( a g f) f \barFinalis
+  }
+  \addlyrics {
+    % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
+    % sdeleni.
+    Sva -- tá hos -- ti -- no,
+    při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
+    
+    sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
+    
+    do du -- še se nám vlé -- vá mi -- lost
+    
+    a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
+    \markup{\Dagger A} -- le -- lu -- ja.
+    
+    \markup{\Dagger A} -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
