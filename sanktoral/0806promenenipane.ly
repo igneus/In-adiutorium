@@ -1,16 +1,19 @@
 \version "2.15.37"
 
-\header {
-  title = "Proměnění Páně (svátek, 6.8.)"
-  composer = "Jakub Pavlík"
-}
-
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 
+\header {
+  title = \markup\titleSvatek
+            "Proměnění Páně" 
+            svátek
+            6.8.
+  composer = "Jakub Pavlík"
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-\markup\italic{1. antifona viz 2. nešpory, 1. antifona: \upright{"\"Ježíš vzal s sebou\""}}
+\markup\italic{1. antifona viz 1. antifonu 2. nešpor: \upright{"\"Ježíš vzal s sebou\""}}
 
 \score {
   \relative c'' {
