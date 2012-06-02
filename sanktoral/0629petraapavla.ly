@@ -116,8 +116,12 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
-    
+    d4 d f( g) a g f f g f g f( d) d \barMaior
+    d c d d( f) e d( e) d d \barMin f( g a) g f f( g) g \barMax
+    g g a( bes a) g g( a g f) f \barMaior g g g f e d e( d) d \barMax
+    d d( a' bes) a g bes( a) g( f) e \barMin f( e f) g( f) e d d \barFinalis
   }
   \addlyrics {
     Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel
@@ -127,8 +131,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -252,9 +256,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
+    \key f \major
     \choralniRezim
-    
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a g( a) g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    d e f g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    f e( d) e( d) d \barFinalis
   }
   \addlyrics {
     Ši -- mon Pe -- tr ře -- kl:
@@ -267,8 +277,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a3" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
