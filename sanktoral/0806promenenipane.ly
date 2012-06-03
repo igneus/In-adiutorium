@@ -13,7 +13,7 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-\markup\italic{1. antifona viz 1. antifonu 2. nešpor: \upright{"\"Ježíš vzal s sebou\""}}
+\markup\italic{1. antifona viz 1. antifonu 2. nešpor: \upright{"\"Ježíš vzal s sebou\""} (Žalm 113)}
 
 \score {
   \relative c'' {
@@ -274,19 +274,23 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a c( d e) d c b( c d) a a \barMaior
+    g a a( b) a( g) g f f( g) f g( a) a \barMax
+    a a a c( d e) d( c) c( d) \barMaior
+    c( d) c( b) a g a( b) a a \barFinalis
   }
   \addlyrics {
     Je -- žíš se u -- ká -- zal ve slá -- vě
     me -- zi Moj -- ží -- šem a E -- li -- á -- šem,
-    a -- by měl svě -- dec -- tví Zá -- ko -- na a pro -- ro -- ků.
+    a -- by měl svě -- dec -- tví 
+    Zá -- ko -- na a pro -- ro -- ků.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -294,18 +298,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g( a) g f g( a) g a( c) c \barMaior
+    c b g a g f( e) \barMin d( f) g g a( b c d) d( c) \barMaior
+    d( a) c b a g a g f g g \barFinalis
   }
   \addlyrics {
     Náš spa -- si -- tel Je -- žíš Kris -- tus
-    nám v_e -- van -- ge -- li -- u při -- ne -- sl svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+    nám v_e -- van -- ge -- li -- u při -- ne -- sl svět -- lo 
+    ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -313,9 +320,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g a a( c) c \barMin d c b a g g( a) a a \barMaior
+    a4( d) a a( g) a a( g) g \barMin
+    f g( a) g f e e \barFinalis
   }
   \addlyrics {
     Když u -- čed -- ní -- ci u -- sly -- še -- li hlas z_ob -- la -- ku,
@@ -324,8 +333,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -438,7 +447,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f f f f f g f f \barMin
+    f4 f f f f f f f f f g f \barMin
     f f f f f f f e g a a \barMax
     % R
     \neviditelna a
@@ -462,24 +471,34 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 g a a( c) c \barMin d c b a g g( a) a a \barMaior
+    a4( d) a a( g) a a( g) g \barMin
+    f g( a) g f e e \barMax
     
+    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    c( d c a) a \barMin g( a) g( f) e e \barMaior
+    e d( g) g( f) e \barFinalis
   }
   \addlyrics {
     Když u -- čed -- ní -- ci u -- sly -- še -- li hlas z_ob -- la -- ku,
     pad -- li tvá -- ří k_ze -- mi
     a vel -- mi se bá -- li.
-    Je -- žíš při -- stou -- pil, do -- tkl se jich a ře -- kl jim:
+    
+    % Puvodne:
+    % Je -- žíš při -- stou -- pil, do -- tkl se jich a ře -- kl jim:
+    Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
     Vstaň -- te, ne -- boj -- te se!
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "a" 
     psalmus = ""
     id = ""
+    fons = "1. část: zde, uprostřed dne, odpoledne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
