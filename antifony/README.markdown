@@ -4,6 +4,6 @@ too large to be maintained comfortably in a single file.
 
   tyden*, doplnovaci.ly, ferie_kantevgant.ly => ../antifony.ly
 
-  mezidoni_nedele* => ../mezidobi_nedele.ly
+  mezidobi_nedele* => ../mezidobi_nedele.ly
 
   velikonoce_* => ../velikonoce_antifony.ly
