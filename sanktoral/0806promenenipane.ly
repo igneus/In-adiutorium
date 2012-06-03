@@ -23,7 +23,7 @@
     f g a a a b( c) a a \barFinalis
   }
   \addlyrics {
-    U -- čed -- ní -- ci vi -- dě -- li 
+    U -- čed -- ní -- ci vi -- dě -- li_* 
     Moj -- ží -- še a E -- li -- á -- še,
     jak roz -- mlou -- va -- jí s_Je -- ží -- šem.
   }
@@ -46,7 +46,7 @@
     a g a c( a) g g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Pa -- ne, je dob -- ře, že jsme ta -- dy.
+    Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
     Chceš -- li, po -- sta -- ví -- me tu tři sta -- ny:
     je -- den to -- bě,
     je -- den Moj -- ží -- šo -- vi
@@ -103,7 +103,7 @@
     d f( e f g) g a bes a( g) f \barMin g f( g) f e( d c d) d \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus zje -- vil na vy -- so -- ké ho -- ře svou slá -- vu;
+    Je -- žíš Kris -- tus zje -- vil_* na vy -- so -- ké ho -- ře svou slá -- vu;
     on je od -- lesk Bo -- ha Ot -- ce
     a vý -- raz -- ná po -- do -- ba je -- ho pod -- sta -- ty,
     on všech -- no u -- dr -- žu -- je svým moc -- ným slo -- vem.
@@ -150,7 +150,7 @@
     g a b c( a) \barMin b( c) d( c) b a g( f g) g \barFinalis
   }
   \addlyrics {
-    Je -- ží -- šo -- va tvář zá -- ři -- la ja -- ko slun -- ce
+    Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
     a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
   }
   \header {
@@ -173,7 +173,7 @@
     a4 g f g( a) a g( a g) f( g) g \barFinalis
   }
   \addlyrics {
-    Moj -- žíš a E -- li -- áš 
+    Moj -- žíš a E -- li -- áš_* 
     mě -- li ú -- čast na slá -- vě 
     pro -- mě -- ně -- né -- ho Pá -- na;
     sly -- še -- li Ot -- co -- vo svě -- dec -- tví
@@ -199,7 +199,7 @@
     g a( g a) g( a) g f f( g) g g \barFinalis
   }
   \addlyrics {
-    Moj -- žíš, před -- sta -- vi -- tel Zá -- ko -- na,
+    Moj -- žíš,_* před -- sta -- vi -- tel Zá -- ko -- na,
     a E -- li -- áš, zá -- stup -- ce pro -- ro -- ků,
     se zje -- vi -- li ve slá -- vě
     a roz -- mlou -- va -- li s_Je -- ží -- šem.
@@ -255,7 +255,7 @@
     g a g g \barFinalis
   }
   \addlyrics {
-    Z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    Z_ob -- la -- ku se o -- zval Ot -- cův hlas:_*
     To je můj mi -- lo -- va -- ný Syn,
     v_něm mám za -- lí -- be -- ní;
     to -- ho po -- slou -- chej -- te.
@@ -282,7 +282,7 @@
     c( d) c( b) a g a( b) a a \barFinalis
   }
   \addlyrics {
-    Je -- žíš se u -- ká -- zal ve slá -- vě
+    Je -- žíš se u -- ká -- zal ve slá -- vě_*
     me -- zi Moj -- ží -- šem a E -- li -- á -- šem,
     a -- by měl svě -- dec -- tví 
     Zá -- ko -- na a pro -- ro -- ků.
@@ -305,7 +305,7 @@
     d( a) c b a g a g f g g \barFinalis
   }
   \addlyrics {
-    Náš spa -- si -- tel Je -- žíš Kris -- tus
+    Náš spa -- si -- tel Je -- žíš Kris -- tus_*
     nám v_e -- van -- ge -- li -- u při -- ne -- sl svět -- lo 
     ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
   }
@@ -327,7 +327,7 @@
     f g( a) g f e e \barFinalis
   }
   \addlyrics {
-    Když u -- čed -- ní -- ci u -- sly -- še -- li hlas z_ob -- la -- ku,
+    Když u -- čed -- ní -- ci_* u -- sly -- še -- li hlas z_ob -- la -- ku,
     pad -- li na tvář k_ze -- mi
     a vel -- mi se bá -- li.
   }
@@ -351,7 +351,7 @@
     a g( f g) f( d) d f g g( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš vzal s_se -- bou Pet -- ra, Ja -- ku -- ba a Ja -- na,
+    Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
     vy -- ve -- dl je na vy -- so -- kou ho -- ru
     a u -- ká -- zal se jim ve slá -- vě.
   }
@@ -374,7 +374,7 @@
     f e( d) e c d d \barFinalis
   }
   \addlyrics {
-    Za -- stí -- nil je svět -- lý ob -- lak
+    Za -- stí -- nil je svět -- lý ob -- lak_*
     a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
     To je můj mi -- lo -- va -- ný Syn,
     v_něm mám za -- lí -- be -- ní.
@@ -399,7 +399,7 @@
     c d e d \barFinalis
   }
   \addlyrics {
-    Když se -- stu -- po -- va -- li s_ho -- ry,
+    Když se -- stu -- po -- va -- li s_ho -- ry,_*
     při -- ká -- zal jim Je -- žíš,
     a -- by ni -- ko -- mu ne -- vy -- pra -- vo -- va -- li o tom, co vi -- dě -- li,
     do -- kud Syn člo -- vě -- ka ne -- vsta -- ne z_mrt -- vých.
@@ -482,7 +482,7 @@
     e d( g) g( f) e \barFinalis
   }
   \addlyrics {
-    Když u -- čed -- ní -- ci u -- sly -- še -- li hlas z_ob -- la -- ku,
+    Když u -- čed -- ní -- ci_* u -- sly -- še -- li hlas z_ob -- la -- ku,
     pad -- li tvá -- ří k_ze -- mi
     a vel -- mi se bá -- li.
     
