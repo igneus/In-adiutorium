@@ -9,7 +9,7 @@
   tagline = \markup {
     \column {
       \line { datum: \dnesniDatum }
-      \line { autor a tedy ani právní status díla není znám, snad je volné "(\"public domain\");"}
+      \line { autor a tedy ani právní status díla není znám, snad je volné "(\"public domain\")"}
       \line { sazba programem \sazeciProgram }
     }
   }
@@ -64,7 +64,7 @@
     
     f\breve d4 f( g) g \barMax d\breve f4 d c d \barFinalis \break
     
-    f\breve d4 f g \barMax d\breve f4 d( c) d \barFinalis \break
+    f\breve d4 f( g) g \barMax d\breve f4 d( c) d \barFinalis \break
   }
   \addlyrics {
     "Nyní můžeš, Pane, propustit své" -- ho slu -- žebníka_*
