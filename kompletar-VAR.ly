@@ -387,6 +387,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f( d) d \barMin e f g d d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = ". ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
 \pageBreak
 
 \score {
