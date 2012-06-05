@@ -69,9 +69,113 @@
   }
 }
   
-  \markup {\nadpisHodinka {"modlitba uprostřed dne"} a \nadpisHodinka {"kompletář"}}
+  \markup\nadpisHodinka {"modlitba uprostřed dne"}
   
-  \markup{Následující antifona je z \italic{Liber usualis,} New York-Tournai, 1961, 266.}
+  \markup{Následující antifony pocházejí
+  z \italic{Antiphonale Romanum,} Romae 1912, ss. 14, 25, 29, 34.}
+  
+  \markup\justify{Původně náležejí čtyřem malým denním hodinkám,
+  primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
+  každý den. V současné době lze tam, kde se během dne slaví jen
+  jedna hodinka, buďto vybrat jednu, odpovídající denní době,
+  nebo během týdne vystřídat všechny čtyři.}
+  
+  %ar14
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 c c b \barMin
+      a g a f
+      g g( f) e e \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "III"
+      differentia = "b" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  %ar 25
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( f) g( a) g \barMin
+      a c a( g) f 
+      g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  % ar29
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c( d) \[ c( b \] \[ c d c) \] \barMin
+      a( \grace c) c( b a g) a f
+      a b( a) g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "c" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  % ar 34
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f( g) g( f) d( e \[ f e c) \] \barMin
+      f( a) a g( a) f( e d) e c( d) d d \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisHodinka {"kompletář"}
+  
+  \markup{z \italic{Liber usualis,} New York-Tournai, 1961, 266. 
+          (srov. \italic{Antiphonale Romanum,} Romae 1912, 47.)}
   
   \score {
     \relative c'' {
