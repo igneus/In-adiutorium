@@ -174,7 +174,7 @@
   
   \markup\nadpisHodinka {"kompletář"}
   
-  \markup{z \italic{Liber usualis,} New York-Tournai, 1961, 266. 
+  \markup{z \italic{Liber usualis,} New York-Tournai 1961, 266. 
           (srov. \italic{Antiphonale Romanum,} Romae 1912, 47.)}
   
   \score {
