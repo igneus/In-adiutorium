@@ -70,3 +70,128 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup {\nadpisDen {"12. neděle"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Vl -- ny do -- rá -- že -- ly na loď
+    a u -- čed -- ní - ci vo -- la -- li:
+    Pa -- ne, za -- chraň nás,
+    hy -- ne -- me!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Je -- žíš po -- hro -- zil vět -- ru
+    a po -- ru -- čil mo -- ři;
+    ví -- tr u -- stal
+    a za -- vlád -- lo ú -- pl -- né ti -- cho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci si ří -- ka -- li me -- zi se -- bou:
+    Kdo to a -- si je,
+    že ho po -- slou -- chá ví -- tr a mo -- ře?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {"13. neděle"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Jed -- na ne -- moc -- ná že -- na 
+    se do -- tkla Je -- ží -- šo -- vých ša -- tů,
+    a hned po -- cí -- ti -- la, že je vy -- lé -- če -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl že -- ně:
+    Tvá ví -- ra tě za -- chrá -- ni -- la,
+    jdi v_po -- ko -- ji!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Je -- žíš vzal dí -- tě za ru -- ku a ře -- kl:
+    Děv -- če, ří -- kám ti, vstaň!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
