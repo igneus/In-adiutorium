@@ -1,12 +1,15 @@
-\version "2.14.2"
-
-\header {
-  title = "památka sv. Vojtěcha (23.4.)"
-  composer = "Jakub Pavlík"
-}
+\version "2.15.39"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek 
+            "sv. Vojtěcha, biskupa a mučedníka" 
+            "památka"
+            23.4.
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
