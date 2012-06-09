@@ -74,20 +74,23 @@
 \markup {\nadpisDen {"12. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g) a( g e) \barMin a g a g a( g) e \barMin
+    d c d e e f( g) a a \barMaior
+    g( a b) a \barMin g( a b) a a( e) \barMin
+    f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Vl -- ny do -- rá -- že -- ly na loď
-    a u -- čed -- ní - ci vo -- la -- li:
+    a u -- čed -- ní -- ci vo -- la -- li:
     Pa -- ne, za -- chraň nás,
     hy -- ne -- me!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -95,9 +98,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( g a) a \barMin a( b) a g g( a) a \barMin
+    a a g f e( d) e \barMaior
+    c d e( f) e \barMin
+    f f g g g f e d( e) e \barFinalis
   }
   \addlyrics {
     Je -- žíš po -- hro -- zil vět -- ru
@@ -107,8 +113,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -116,9 +122,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 b a a a a( b) a g f d e e \barMaior
+    f f f g e \barMin
+    f g a a a g( a) g f d( e) e \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci si ří -- ka -- li me -- zi se -- bou:
