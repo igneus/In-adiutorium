@@ -157,7 +157,6 @@ složil.)
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     c4( d) d \barMin d( f) \mark\sipka e d c c \barMaior 
     d \mark\sipka c d e f( g e) \barMin f e d( e d) d \barFinalis
@@ -252,7 +251,6 @@ složil.)
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     d \mark\sipka e c( d) d \barMaior
     c4( d) d \barMin d( f) e d c c \barMaior 
