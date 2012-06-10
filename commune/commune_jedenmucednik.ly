@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Společné texty o jednom mučedníkovi nebo mučednici"
+  title = \markup\center-column{"Společné texty" "o jednom mučedníkovi nebo mučednici"}
   composer = "Jakub Pavlík"
 }
 
