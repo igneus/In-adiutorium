@@ -248,22 +248,26 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4( a c d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
     
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu;
-    on je Pán a Král mu -- čed -- ní -- ků.
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král mu -- čed  -- ní -- ků.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
+    fons = "commune o apoštolech (upraven text, přidáno aleluja)"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -349,17 +353,17 @@
     \choralniRezim
     
     % R
-    \neviditelna 
+    \neviditelna f 
     f4 f f f g( f) g( a) a( g) \barMax
     g g g f( d) f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a a g( a) g \barMin g f g g( a) \barMax
+    a4 a a a g( a) g \barMin g f g( a) a \barMax
     % R
     \neviditelna a
     g g g f( d) f g g f f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- din mi po -- má -- há,_*
@@ -501,9 +505,9 @@
     c^\markup\small\italic{V době velikonoční:} e( f) e( d) d \barFinalis
   }
   \addlyrics {
-    Bůh ho_(ji) o -- věn -- čil 
+    Bůh ji_(ho) o -- věn -- čil 
     ko -- ru -- nou spra -- ve -- dl -- nos -- ti
-    a dal mu_(jí) ú -- čast 
+    a dal jí_(mu) ú -- čast 
     na věč -- né slá -- vě.
     
     A -- le -- lu -- ja.
