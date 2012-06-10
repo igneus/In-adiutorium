@@ -103,7 +103,7 @@
     \choralniRezim
     e4( d) c d e g g \barMin
     g a b a( g) g \barMaior
-    e c d( e) e \barFinalis
+    a b g g \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
@@ -112,8 +112,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "E" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 124"
     id = ""
     piece = \markup {\sestavTitulek}

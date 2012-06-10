@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Společné texty o Panně Marii a sobotní památka Panny Marie"
+  title = \markup\center-column{ "Společné texty o Panně Marii" "a sobotní památka Panny Marie" }
   composer = "Jakub Pavlík"
 }
 
@@ -51,7 +51,7 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "c" 
-    psalmus = "Žalm 147"
+    psalmus = "Žalm 147-II"
     piece = \markup {\sestavTitulek}
   }
 }

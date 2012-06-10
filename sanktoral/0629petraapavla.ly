@@ -20,7 +20,7 @@
     a b( c a) a \barMaior b b( c) c c c( d) \barMin c( d) c b a( g) g \barFinalis
   }
   \addlyrics {
-    Ši -- mo -- ne Pet -- ře,
+    Ši -- mo -- ne Pet -- ře,_*
     tys vy -- znal, že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
   }
   \header {
@@ -40,7 +40,7 @@
     d d e f f g f e f d( c) c( d) \barFinalis
   }
   \addlyrics {
-    Ty jsi Pe -- tr_- Ská -- la_- 
+    Ty jsi Pe -- tr_- Ská -- la_-_*
     a na té ská -- le zbu -- du -- ji svou cír -- kev.
   }
   \header {
@@ -63,7 +63,7 @@
     g( a) g f e( d) d \barFinalis
   }
   \addlyrics {
-    Sva -- tý a -- poš -- to -- le Pav -- le,
+    Sva -- tý a -- poš -- to -- le Pav -- le,_*
     te -- be si Pán vy -- vo -- lil,
     a -- bys hlá -- sal prav -- du 
     po ce -- lém svě -- tě.
@@ -116,19 +116,23 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
-    
+    d4 d f( g) a g f f g f g f( d) d \barMaior
+    d c d d( f) e d( e) d d \barMin f( g a) g f f( g) g \barMax
+    g g a( bes a) g g( a g f) f \barMaior g g g f e d e( d) d \barMax
+    d d( a' bes) a g bes( a) g( f) e \barMin f( e f) g( f) e d d \barFinalis
   }
   \addlyrics {
-    Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel
+    Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
     po ce -- lý ži -- vot spo -- leč -- ně slou -- ži -- li Kris -- tu,
     o -- ba z_lás -- ky k_ně -- mu o -- bě -- to -- va -- li svůj ži -- vot
     a při -- ja -- li od ně -- ho ko -- ru -- nu slá -- vy.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -150,7 +154,7 @@
     e e e e( d c) b( c) a( g) a( g) \barMin f g a( c b g) g \barFinalis
   }
   \addlyrics {
-    Vím, ko -- mu jsem u -- vě -- řil,
+    Vím, ko -- mu jsem u -- vě -- řil,_*
     a jsem pře -- svěd -- čen, že on, spra -- ved -- li -- vý soud -- ce,
     má dost mo -- ci,
     a -- by mi o -- chrá -- nil to, co mi svě -- řil.
@@ -173,7 +177,7 @@
     f g a( c) c c( d c) b a f( g) g \barFinalis
   }
   \addlyrics {
-    Mi -- lost, kte -- rou mi Bůh u -- dě -- lil,
+    Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
     ne -- zů -- sta -- la le -- žet la -- dem,
     a -- le stá -- le zů -- stá -- vá ve mně.
   }
@@ -195,7 +199,7 @@
     f( g f) e c d d \barFinalis
   }
   \addlyrics {
-    Do -- brý boj jsem bo -- jo -- val,
+    Do -- brý boj jsem bo -- jo -- val,_*
     svůj běh jsem skon -- čil,
     ví -- ru u -- cho -- val.
   }
@@ -252,12 +256,18 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
+    \key f \major
     \choralniRezim
-    
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a g( a) g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    d e f g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    f e( d) e( d) d \barFinalis
   }
   \addlyrics {
-    Ši -- mon Pe -- tr ře -- kl:
+    Ši -- mon Pe -- tr ře -- kl:_*
     % Je to spravne prelozene? Neni lepsi "Ke komu bychom sli?"
     Pa -- ne, ke ko -- mu pů -- jde -- me?
     Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
@@ -267,8 +277,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a3" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -287,7 +297,7 @@
     g a c b c a a \barFinalis
   }
   \addlyrics {
-    Když Pe -- tr ješ -- tě mlu -- vil,
+    Když Pe -- tr ješ -- tě mlu -- vil,_*
     se -- stou -- pil Duch sva -- tý 
     na všech -- ny, kdo tu řeč po -- slou -- cha -- li,
     i mlu -- vi -- li ci -- zí -- mi ja -- zy -- ky
@@ -311,7 +321,7 @@
     f g a a( b a) a \barFinalis
   }
   \addlyrics {
-    Když by -- lo ko -- lem po -- led -- ne,
+    Když by -- lo ko -- lem po -- led -- ne,_*
     vy -- stou -- pil Pe -- tr na stře -- chu,
     a -- by se mod -- lil.
   }
@@ -333,7 +343,7 @@
     d c( d) c b a( g) \barMin f g a a( b) a a \barFinalis
   }
   \addlyrics {
-    Ve tři ho -- di -- ny od -- po -- led -- ne,
+    Ve tři ho -- di -- ny od -- po -- led -- ne,_*
     v_ho -- di -- nu ur -- če -- nou k_mod -- lit -- bě,
     šel Pe -- tr a Jan na -- ho -- ru do chrá -- mu.
   }
@@ -357,7 +367,7 @@
     d e( a) \barMin g a g f e e \barFinalis
   }
   \addlyrics {
-    Pe -- tře, já jsem za te -- be pro -- sil,
+    Pe -- tře,_* já jsem za te -- be pro -- sil,
     a -- by tvo -- je ví -- ra ne -- za -- nik -- la,
     a ty u -- tvr -- zuj své bra -- try.
   }
@@ -379,7 +389,7 @@
     g g g g g( a g) f( e) d d \barMin d( e f) e( d) c c( d) \barFinalis 
   }
   \addlyrics {
-    Vel -- mi rád se bu -- du chlu -- bit spí -- še svý -- mi sla -- bost -- mi,
+    Vel -- mi rád_* se bu -- du chlu -- bit spí -- še svý -- mi sla -- bost -- mi,
     a -- by na mně spo -- či -- nu -- la Kris -- to -- va moc.
   }
   \header {
@@ -401,7 +411,7 @@
     a( g f) a( g) f e d c d d \barFinalis
   }
   \addlyrics {
-    Ty jsi pas -- týř ov -- cí,
+    Ty jsi pas -- týř ov -- cí,_*
     prv -- ní me -- zi a -- poš -- to -- ly,
     to -- bě by -- ly dá -- ny klí -- če
     od ne -- bes -- ké -- ho krá -- lov -- ství.
@@ -426,7 +436,7 @@
     d( f d) c( e) c b( a) \barMin d( c b) a g a g g \barFinalis
   }
   \addlyrics {
-    Pe -- tr, prv -- ní z_a -- poš -- to -- lů,
+    Pe -- tr,_* prv -- ní z_a -- poš -- to -- lů,
     a Pa -- vel, u -- či -- tel ná -- ro -- dů,
     pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
   }
