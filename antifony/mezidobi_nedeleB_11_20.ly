@@ -135,8 +135,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -146,9 +146,11 @@
 \markup {\nadpisDen {"13. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a c b c( d) d \barMin
+    d d( e d) c d c b c a a \barMaior
+    g a a( c d) a a( g) g \barMin f g a b g g \barFinalis
   }
   \addlyrics {
     Jed -- na ne -- moc -- ná že -- na 
@@ -157,8 +159,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -166,9 +168,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g a( c) d c( d) d \barMaior
+    d d( e f4.) e4 d c d c( b) a \barMin
+    g( a b) a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl že -- ně:
@@ -177,8 +181,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -186,9 +190,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g a c c( d) c c \barMin c c( b a) a \barMaior
+    g( f g) d \barMin d f g f( g) \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal dí -- tě za ru -- ku a ře -- kl:
@@ -196,8 +201,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
