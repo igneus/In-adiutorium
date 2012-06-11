@@ -57,9 +57,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g f g c d d d d( f) e d( e) d d \barMaior
+    d d d c( b c) a( g) a( g) g \barFinalis
     
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci po -- lo -- ži -- li ži -- vot pro Kris -- ta
@@ -69,8 +72,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "1 Petr 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -217,9 +220,14 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 g a a( c d) c a a \barMaior
+    g( e) f( e) e f g g g g a( b) a b( d) d \barMin
+    d d( a c) b( g) g( e) \barMaior
+    f( g a c) b( c) \barMin d( a c) b( g) g( a) a \barFinalis
     
+    g^\markup\rubrVelikAleluja a a a \barFinalis
   }
   \addlyrics {
     Kris -- to -- vi mu -- čed -- ní -- ci
@@ -231,8 +239,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
