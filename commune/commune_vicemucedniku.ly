@@ -32,9 +32,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a c( b) c d d( e) e \barMin d e d c d d a a \barMaior
+    a a b g e e f f( e) e \barMin e f g a( b a) a \barFinalis
     
+    g^\markup\rubrVelikAleluja a b a \barFinalis
   }
   \addlyrics {
     Sva -- tí ví -- těz -- ně do -- šli do ne -- bes -- ké -- ho krá -- lov -- ství
@@ -44,10 +47,11 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 118-III"
     id = ""
+    fons = "podle 3. ant. nešp. Zeleného čtvrtku"
     piece = \markup {\sestavTitulek}
   }
 }
