@@ -91,7 +91,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) g( a) a b c d c( b) a \barMaior
+    g4( f g) g( a) a \barMin b c d c( b) a \barMaior
     c d a f( g a) g \barFinalis
   }
   \addlyrics {
@@ -167,7 +167,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+    g4 g f g g( a) a \barMin c d c( b) a( g a) g \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě_* ve dne i v_no -- ci.
