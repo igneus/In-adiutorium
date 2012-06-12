@@ -49,11 +49,12 @@
     Smi -- luj se na -- de mnou, Bo -- že,_* a slyš mou pros -- bu.
   }
   \header {
-    quid = "1. ant."
+    quid = "neděle po 1. nešporách - 1. ant."
     modus = "II"
     differentia = "D"
-    piece = "neděle po 1. nešporách - 1. antifona"
+    psalmus = "Žalm 4"
     id = "nei1"
+    piece = \markup\sestavTitulek
   }
 }
 
@@ -67,10 +68,11 @@
     V_noč -- ních ho -- di -- nách_* ve -- leb -- te Hos -- po -- di -- na.
   }
   \header {
-    quid = "2. ant."
+    quid = "neděle po 1. nešporách - 2. ant."
     modus = "II"
     differentia = "D"
-    piece = "neděle po 1. nešporách - 2. antifona"
+    psalmus = "Žalm 134"
+    piece = \markup\sestavTitulek
     id = "nei2"
   }
 }
@@ -88,10 +90,11 @@
     ne -- mu -- síš se bát noč -- ní hrů -- zy.
   }
   \header {
-    quid = "ant."
+    quid = "neděle po 2. nešporách - ant."
     modus = "II"
     differentia = "D"
-    piece = "neděle po 2. nešporách"
+    psalmus = "Žalm 91"
+    piece = \markup\sestavTitulek
     id = "neii"
   }
 }
@@ -105,10 +108,11 @@
     Bo -- že, ty jsi sho -- ví -- va -- vý_* a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
-    quid = "ant."
+    quid = "pondělí - ant."
     modus = "II"
     differentia = "D"
-    piece = "pondělí"
+    piece = \markup\sestavTitulek
+    psalmus = "Žalm 86"
     id = "po"
   }
 }
@@ -124,10 +128,11 @@
     vždyť v_te -- be dou -- fám.
   }
   \header {
-    quid = "ant."
+    quid = "úterý - ant."
     modus = "II"
     differentia = "D"
-    piece = "úterý"
+    psalmus = "Žalm 143"
+    piece = \markup\sestavTitulek
     id = "ut"
   }
 }
@@ -143,10 +148,11 @@
     o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
   }
   \header {
-    quid = "1. ant."
+    quid = "středa - 1. ant."
     modus = "II"
     differentia = "D"
-    piece = "středa - 1. antifona"
+    psalmus = "Žalm 31"
+    piece = \markup\sestavTitulek
     id = "st1"
   }
 }
@@ -161,10 +167,11 @@
     Z_hlu -- bin_* vo -- lám k_to -- bě, Hos -- po -- di -- ne.
   }
   \header {
-    quid = "2. ant."
+    quid = "středa - 2. ant."
     modus = "II"
     differentia = "D"
-    piece = "středa - 2. antifona"
+    psalmus = "Žalm 130"
+    piece = \markup\sestavTitulek
     id = "st2"
   }
 }
@@ -178,10 +185,11 @@
     Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
   }
   \header {
-    quid = "ant."
+    quid = "čtvrtek - ant."
     modus = "II"
     differentia = "D"
-    piece = "čtvrtek"
+    psalmus = "Žalm 16"
+    piece = \markup\sestavTitulek
     id = "ct"
   }
 }
@@ -195,10 +203,11 @@
     Bo -- že, vo -- lám k_to -- bě_* ve dne i v_no -- ci.
   }
   \header {
-    quid = "ant."
+    quid = "pátek - ant."
     modus = "II"
     differentia = "D"
-    piece = "pátek"
+    psalmus = "Žalm 88"
+    piece = \markup\sestavTitulek
     id = "pa"
   }
 }
