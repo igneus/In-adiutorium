@@ -76,10 +76,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 c d( f) f \breathe f g( a bes4.) a g4 a g( f) f \bar "||"
+    f4 c d( f) f \barMin 
+    f \stemUp g( a bes4.) a g4 a g( f) f \barFinalis
   }
   \addlyrics {
-    Po -- kud ži -- ji, chci chvá -- lit Hos -- po -- di -- na.
+    Po -- kud ži -- ji, 
+    chci chvá -- lit Hos -- po -- di -- na.
   }
   \header {
     quid = "3. ant."
@@ -246,7 +248,7 @@
   \relative c' {
     \choralniRezim
     d( f) f g( f) g( a) a \barMin c b c a4. a \barMaior
-    a4 g( bes) a g f g f( d) d \barFinalis
+    a4 \stemUp g( bes) a g f g f( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- chraň mě 
