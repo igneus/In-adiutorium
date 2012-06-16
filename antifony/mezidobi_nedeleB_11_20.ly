@@ -214,7 +214,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c( d) d d d d e f f f \barMin
+    f g f e f e d( e) d d \barMaior
+    d( e) c a( c d f) d f f( g) f d d \barFinalis
   }
   \addlyrics {
     Mno -- ho li -- dí Je -- ží -- še po -- slou -- cha -- lo
@@ -223,8 +225,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -234,7 +236,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d( e) c a( c d f) d d \barMin f f( g) f g f e d d \barMaior
+    e e d c a c c d d \barFinalis
   }
   \addlyrics {
     Ja -- ké zá -- zra -- ky se dě -- jí je -- ho ru -- ka -- ma!
@@ -242,8 +245,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -253,7 +256,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( c) d d( f) f( d) \barMin f e f e d c( a) a \barMaior
+    c c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kde pro -- rok ne -- zna -- me -- ná tak má -- lo
