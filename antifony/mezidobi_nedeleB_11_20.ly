@@ -487,9 +487,12 @@
 \markup {\nadpisDen {"18. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d d d e d d 
+    c b c( d) d d \barMaior
+    d d e g g \barMin
+    e d c( d) c b \barMin a g a a g g \barFinalis
   }
   \addlyrics {
     Ne -- u -- si -- luj -- te o po -- krm,
@@ -499,8 +502,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -532,7 +535,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f g( f e) e( f) d d \barMax
+    d c( d f) f( g) f g( a) a \barMin
+    a g f g a g f f( d) \barMaior
+    d c d( f g) a g( f) f( g) \barMin
+    g g f g( a g) f d( e d) d \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vo -- ta.
@@ -543,8 +550,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
