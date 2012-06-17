@@ -654,20 +654,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a( c) c c d c b a( b) b \barMin
+    b b c( b) a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMin
+    g f e f( g) g g( f) e e \barFinalis
   }
   \addlyrics {
     Mé tě -- lo je sku -- teč -- ný po -- krm
-    a má krev je sku -- teč -- ný ná -- poj.
+    a má krev sku -- teč -- ný ná -- poj.
     Kdo jí mé tě -- lo a pi -- je mou krev,
     zů -- stá -- vá ve mně a já v_něm.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -675,18 +678,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g( a) a a b c c( d) d \barMin
+    d d f( g f) e d d \barMaior
+    d d c( a) \barMin d c( b a) a \barMin g f g g( a) g \barFinalis
   }
   \addlyrics {
-    Ja -- ko mne po -- slal ži -- vý O -- tec a já ži -- ji z_Ot -- ce,
+    Ja -- ko mne po -- slal ži -- vý O -- tec 
+    a já ži -- ji z_Ot -- ce,
     tak i ten, kdo jí mne, bu -- de žít ze mne.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
