@@ -561,19 +561,21 @@
 \markup {\nadpisDen {"19. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c d( e) c c \barMin d a b( g) g \barMaior
+    f g a b c d c c \barMin
+    c( d) d c( d) c b a( g a) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
-    jest -- li -- že ho ne -- při -- táh -- ne O -- tec,
-    kte -- rý mě po -- slal.
+    jest -- li -- že ho ne -- při -- táh -- ne 
+    O -- tec, kte -- rý mě po -- slal.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -581,9 +583,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin a g( a) g f( d e) d \barFinalis
   }
   \addlyrics {
     A -- mem, a -- men, pra -- vím vám:
@@ -591,8 +595,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -605,7 +609,8 @@
     c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax 
     g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
     
-    g
+    g f e d d \barMin f g g( a) a \barMaior
+    a( c d) c b a( g) g( a) \barMin a b a a( g) g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
