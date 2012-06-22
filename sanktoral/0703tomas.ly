@@ -78,7 +78,7 @@
     psalmus = "Žalm 149"
     id = ""
     fons = "Velikonoční oktáv, neděle v oktávu, k Benedictus"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -113,6 +113,9 @@
   }
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\italic{Antifony jako k ranním chválám.
+(K nim: Žalm 116-II; Žalm 126; kantikum Ef 1.)}
 
 \score {
   \relative c' {
