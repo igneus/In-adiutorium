@@ -237,20 +237,25 @@
 \markup\italic{Nebo:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4( c) d f( e d c) c \barMin c a g a a \barMaior
+    g a c c( d) d c d c( b a) a \barMin
+    g( a) f g( a) g g \barFinalis
     
+    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
-    a o -- sla -- vuj -- me je -- ho Mat -- ku, Pan -- nu Ma -- ri -- i!
+    a o -- sla -- vuj -- me je -- ho Mat -- ku, 
+    Pan -- nu Ma -- ri -- i!
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
