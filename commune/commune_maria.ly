@@ -435,17 +435,23 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f c d e f f 
+    g f e( f) d c d c c( a) \barMaior 
+    c d e f f f e c c( d) d d \barFinalis
     
+    f^\markup\small\italic{V době velikonoční:} g( f) d d \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně 
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
     spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -471,14 +477,20 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    \key f \major
+    d4 c a bes( c bes) a a \barMaior
+    g( a) a \barMin c d d( c) d \barMax
+    d d c d f e d( e) d d \barMaior
+    d c( a) bes( c bes) a a \barFinalis
     
+    g^\markup\small\italic{V době velikonoční:} bes bes( a) a \barFinalis
   }
   \addlyrics {
     Pán ře -- kl své mat -- ce:
@@ -490,8 +502,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
