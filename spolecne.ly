@@ -216,6 +216,8 @@ zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
 % modry - tohle je ted v oficialni verzi. Neupravovat, antifonu
 % si zkopirovat a hrat si s kopii.
 zvyraznovacModry = { \bgcolor "(rgb-color 0.3 0.3 1)" }
+% sedy - nekdy kdysi bylo v oficialni verzi
+zvyraznovacSedy = { \bgcolor "(rgb-color 0.9 0.9 0.9)" }
 
 % sipka oznacuje, v cem se tato verze lisi od verze, ze ktere je odvozena
 sipka = \markup { \char ##x2193 }
