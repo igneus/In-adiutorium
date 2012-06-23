@@ -361,12 +361,12 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d c( b c) c( d) \barMaior
-    d( g f) f d c \barMin bes! c d( f) f g( f g) f( e) d( e) d c c( d) \barMaior
-    d c( f e) f( e) d( c) c( d e) \barMaior 
-    g( f) e f d( c) c \barMin d( c) bes! c d( f d) d \barFinalis
+    a4 a( d) d \barMaior
+    c( d e) c a a \barMin c b a g f g f e f( a) a \barMaior
+    a a( b c) c( d) d( c) d( c) \barMin 
+    d c b a( g) g a( g) f g g( a g) g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
@@ -376,8 +376,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -389,7 +389,7 @@
     \key f \major
     \choralniRezim
     d4 d d a' g( a bes4.) a4 \barMaior
-    g a( bes a) g( a g) f e f d d \barFinalis
+    a a g f g( a g) f e( f d) d \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy
@@ -406,11 +406,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \key f \major
     \choralniRezim
-    a4 a f g a( bes a) a \barMaior
-    c( bes) c bes( a) a \barMin g f a g f( g f) f \barFinalis
+    f4 f e f g( a g f) d( c) \barMin
+    e f g( a bes g) a \barMin
+    bes a( g) f( e) d( c) d( f g a) g( f) \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty jsi ces -- ta, 
