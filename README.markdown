@@ -6,10 +6,10 @@ Or, the variant, which is in master, is coloured blue instead of being on the to
 
 # In adiutorium #
 
-music for catholic Divine Office (liturgy of hours) in Czech language.
+music for Catholic Divine Office (liturgy of the hours) in Czech language.
 
-Liturgical music (mostly monophonic chant) typesetted in LilyPond 
-(and some pieces in LaTeX).
+Liturgical music (mostly monophonic chant) engraved with LilyPond 
+(+ some pieces typeset in LaTeX).
 For further information see project homepage (Czech language only):
 http://inadiutorium.xf.cz
 

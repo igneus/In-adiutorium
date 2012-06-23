@@ -71,8 +71,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c b g a a \barMaior
-    c b a g a b( a) g \barFinalis
+    g4 g g g f e d d \barMaior
+    e f g a( b) a a( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, ty jsi sho -- ví -- va -- vý_* 
@@ -131,7 +131,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c d a \barMaior c b g g \barFinalis
+    g4 f g c c( d) a \barMin f g a g \barFinalis
   }
   \addlyrics {
     Z_hlu -- bin_* vo -- lám k_to -- bě, Hos -- po -- di -- ne.

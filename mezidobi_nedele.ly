@@ -19,7 +19,43 @@
 
   }
   \header {
-    quid = "ant. k"
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+
+  }
+  \header {
+    quid = "ant. k Magnificat"
     modus = ""
     differentia = ""
     psalmus = ""
@@ -36,4 +72,5 @@
 
   \include "antifony/mezidobi_nedeleB_02_10.ly" 
   \include "antifony/mezidobi_nedeleB_11_20.ly"
+  \include "antifony/mezidobi_nedeleB_21_30.ly"
 }
