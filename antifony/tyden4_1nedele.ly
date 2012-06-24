@@ -54,7 +54,7 @@
   \relative c' {
     \choralniRezim
     f4 g f e d e c c \barMaior
-    f f f g a bes a \barMin g4 a g f f \barMin
+    f f g a bes a a \barMin g4 a g f f \barMin
     g4 a f f \barFinalis
   }
   \addlyrics {
@@ -75,10 +75,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a4.( c) \barMaior
-    c4 d c a b4. g \barMin
-    a4 f e f( g) g \barMaior
-    g a f( g) g \barFinalis
+    d4 d d( c) b \barMaior
+    a g a b d d \barMin
+    e( d) c e d d \barMaior
+    c b a( g) a \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -88,8 +88,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -125,9 +125,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( g) g f g4.( a) \barMaior
-    g4( a) f e4.( d) e4( f) d d \barMaior
-    e d c( d) d \barFinalis
+    d4 d4.( f) g4( f) g e \barMaior
+    d c d4.( a) bes4( c) c( d) d \barMaior
+    e f e( d) d \barFinalis
   }
   \addlyrics {
     Kdo jí ten -- to chléb, 
@@ -136,7 +136,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D" 
     psalmus = "Žalm 23"
     id = "up-ant1"
@@ -215,9 +215,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a a g g4.( a) \barMin
-    e4 g( a) a a a a b c a g e( a) a \barMin
-    e4 g a a a a c b g a \barFinalis
+    a4( c) a a g g4.( a) \barMaior
+    e4 g( a) a a a a b c a g e( a) a \barMaior
+    e4 g a a a a g f e( d) e \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo lač -- ní a žíz -- ní 
