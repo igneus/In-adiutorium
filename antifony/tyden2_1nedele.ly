@@ -28,12 +28,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a( c) c c( d c) c \barMin
-    b( c) a a( g) g \barMin
-    a f( e) g g \barFinalis
+    g4 a a a c( d c) b a( g a) g \barMin 
+    a( b c) a g( f) g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
-    U te -- be je hoj -- ná ra -- dost, Hos -- po -- di -- ne. 
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
     A -- le -- lu -- ja.
   }
   \header {
@@ -137,9 +138,9 @@ tIInedeleInespResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g a( c) d( c) c \barMin
-    b c a g g \barMin
-    a f f( g) g \barFinalis
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    a( g f) g( a) a g g \barMaior
+    b c( a) g( a) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv 
@@ -284,13 +285,13 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c b c c d d \barMin
-    d d e c b a g f g4. g \barMin
-    g4 g( a) g4. g \barFinalis
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    g4 g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky 
-    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
     A -- le -- lu -- ja.
   }
   \header {
@@ -330,7 +331,7 @@ tIInedeleIInespAntIII = \score {
     f4 f g( a) a \barMin
     a a a g bes( a) g( f) f \barMaior
     f e f g( a f) f \barMin
-    d f( g) g f4. \barFinalis
+    d f( g) g f4 \barFinalis
   }
   \addlyrics {
     Chval -- te Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
