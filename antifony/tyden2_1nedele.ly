@@ -331,7 +331,7 @@ tIInedeleIInespAntIII = \score {
     f4 f g( a) a \barMin
     a a a g bes( a) g( f) f \barMaior
     f e f g( a f) f \barMin
-    d f( g) g f4. \barFinalis
+    d f( g) g f4 \barFinalis
   }
   \addlyrics {
     Chval -- te Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
