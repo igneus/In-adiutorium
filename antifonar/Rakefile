@@ -370,7 +370,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = commonoptions+" --columns"
+nedelecommonoptions = commonoptions+o_warnmarks+" --columns"
 
 nedele_splitscores_command = splitscores_command + " --output-dir #{adresar_nedele} "
 
