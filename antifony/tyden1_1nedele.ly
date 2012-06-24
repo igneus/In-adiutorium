@@ -341,8 +341,8 @@ tInedeleIInespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g4. \barMaior
-    f4 f( g a) bes g f f4. \barMin
+    f4( e) f( g) a4.( c) a4( bes) g( f) f( g) g \barMaior
+    f4 f( g a) bes g f f \barMin
     d4 f( g) g f \barFinalis
   }
   \addlyrics {
