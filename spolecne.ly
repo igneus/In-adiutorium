@@ -215,7 +215,7 @@ zvyraznovacZelenyIII = { \bgcolor "(rgb-color 0.8 1 0.8)" }
 zvyraznovacCerveny = { \bgcolor "(rgb-color 1 0.3 0.3)" }
 % modry - tohle je ted v oficialni verzi. Neupravovat, antifonu
 % si zkopirovat a hrat si s kopii.
-zvyraznovacModry = { \bgcolor "(rgb-color 0.3 0.3 1)" }
+zvyraznovacModry = { \bgcolor "(rgb-color 0.3 0.5 1)" }
 % sedy - nekdy kdysi bylo v oficialni verzi
 zvyraznovacSedy = { \bgcolor "(rgb-color 0.9 0.9 0.9)" }
 
