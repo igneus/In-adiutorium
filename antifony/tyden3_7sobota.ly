@@ -5,8 +5,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b a a( g) g \breathe
-    a b c c b( c) a g g( a g4.) g \bar "||"
+    c4 c c b a a( g) g \barMin
+    a b c c b( c) a g g( a g4.) g \barFinalis
   }
   \addlyrics {
     Blíz -- ko jsi, Hos -- po -- di -- ne,
@@ -25,7 +25,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c d d d c d c( b a) a \breathe a b c a( g) g( a) a \bar "||"
+    a4 a c d d d c d c( b a) a \barMin a b c a( g) g( a) a \barFinalis
   }
   \addlyrics {
     Ať mi po -- má -- há, Bo -- že, tvá moud -- rost,
@@ -44,7 +44,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g a( c) c \breathe b c a g g \bar "||"
+    g4 g g f g a( c) c \barMin b c a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- va věr -- nost tr -- vá na -- vě -- ky.
@@ -66,7 +66,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g g a bes a a \breathe a g( f) e( d) d \bar "||"
+    f4 g g g a bes a a \barMin a g( f) e( d) d \barFinalis
   }
   \addlyrics {
     Za -- staň se mě, Hos -- po -- di -- ne, a po -- moz mi.
@@ -84,7 +84,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a b c b( c) c \breathe c c d b c a4. g \bar "||"
+    g4 a a b c b( c) c \barMin c c d b c a4. g \barFinalis
   }
   \addlyrics {
     Po -- hleď -- te k_Hos -- po -- di -- nu, ať se roz -- ve -- se -- lí -- te.
@@ -102,7 +102,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c c c \breathe c c c c c( a) b c a( g) g \bar "||"
+    g4 a b c c c \barMin c c c c c( a) b c a( g) g \barFinalis
   }
   \addlyrics {
     Blíz -- ko je Hos -- po -- din těm, kdo ma -- jí zkrou -- še -- né srd -- ce.

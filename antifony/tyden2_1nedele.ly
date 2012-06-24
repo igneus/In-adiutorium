@@ -8,8 +8,8 @@
   \relative c'' {
     \choralniRezim
     c4 c a g c( d) d4. c4 d c( b a) a \barMin
-    b c a( g) g \barMin
-    f a g( f g) g4. \barFinalis
+    b c a( g) g \barMaior
+    f a g( f) g \barFinalis
   }
   \addlyrics {
     Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
@@ -49,10 +49,10 @@
 tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) a( c) c c b( c a4.) a \barMin
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b a b( c) c c \barMin
-    d c a b a g g \barMin
-    a f( a) g g4. \barFinalis
+    d c a b a g g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu 
@@ -115,10 +115,10 @@ tIInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g a a4. \barMin
-    bes4 c a4. a \barMin
+    f4 g a a
+    bes4 c a4. a \barMaior
     a4 a g( a) bes c a4. g \barMin
-    f4 e c( d) d4. \barFinalis
+    f4 e c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
@@ -263,7 +263,7 @@ tIInedeleLaudResp = \score {
     \choralniRezim
     a4 g a c b c4.( d) \barMin
     d4 c c b c a g f f4.( g) \barMin
-    f4 c' b g4.( a) \barFinalis
+    f4 c'( b) g g \barFinalis
   }
   \addlyrics {
     Když Bůh po -- vstal k_sou -- du, ze -- mě se zdě -- si -- la a zmlk -- la.

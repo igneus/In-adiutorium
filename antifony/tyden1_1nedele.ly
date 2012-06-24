@@ -17,8 +17,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 141"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -76,8 +76,8 @@ tInedeleInespResp = \score {
     
     % R
     \neviditelna e
-    e4 g( a) a( g a4.) a4 b g4. e \barMin f4 d( f) e e \barMax
-    f4 f f f( d) f e e e \barFinalis
+    e4 g( a) a4.( g) a4 b g( f e) e \barMin f4( g a) g f( e) e \barMax
+    f4 f f f( e d) f e( f) e e \barFinalis
     
     % V
     \neviditelna a
@@ -85,10 +85,10 @@ tInedeleInespResp = \score {
     
     % R
     \neviditelna f
-    f4 f f f( d) f e e e \barFinalis
+    f4 f f f( e d) f e( f) e e \barFinalis
     
     % Slava
-    a4 a c b g g( a) a \barMin a g f f( g) e4. e \barFinalis
+    a4 a c b g g( a) a \barMin a g f e( f) e4. e \barFinalis
   }
   \addlyrics {
     \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
@@ -114,9 +114,9 @@ tInedeleInespResp = \score {
     \key f \major
     \choralniRezim
     d4 d \barMin
-    f a g( f) g \barMaior
-    a4 bes a g( a f e) d \barMaior
-    c4 f e( c) d4. \barFinalis
+    f a g( f) g \barMin
+    a4 bes a g( a f e) d \barMax
+    c4 f( e) d d \barFinalis
   }
   \addlyrics {
     Bo -- že, 
@@ -163,10 +163,10 @@ tInedeleInespResp = \score {
 \score {
   \relative c' {
     \choralniRezim
-    g'4 d' c  b( c) d( e) e \barMin
+    g'4 d' c  b( c) d( e) e \barMaior
     d4 c a b4.( d4.) \barMin
-    c4 a g( a) a \barMin
-    g4( c) b g4. a4. \barFinalis
+    c4 a g( f g) g \barMaior
+    g g( a) g g  \barFinalis
   }
   \addlyrics {
     Sy -- no -- vé Si -- ó -- nu 
@@ -226,9 +226,9 @@ tInedeleLaudResp = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g g g g a f g g \barMin
-    a c bes a g f g \barMin
-    a f g f f \barMin
+    f4( a g) f e d d f g g( a) a \barMaior
+    a a bes a g f g \barMin
+    a f g f f \barMaior
     g a f f \barFinalis
   }
   \addlyrics {
@@ -296,9 +296,9 @@ tInedeleLaudResp = \score {
 tInedeleIInespAntI = \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a b c b c( d) d \barMin
-    d( c) b c a g g \barMin
-    g g( a) g g \barFinalis
+    g4 a g a( b) b c d c( b a) a \barMaior
+    c( d e) d c c d d \barMin
+    d a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 

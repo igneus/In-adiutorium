@@ -5,7 +5,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d e f f f( e) e \breathe f( g) g f e c d \bar "||"
+    d4 d d d e f f f( e) e \barMin f( g) g f e c d \barFinalis
   }
   \addlyrics {
     Zkrou -- še -- ným a po -- kor -- ným srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
@@ -23,8 +23,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c b c d d4. c4 b a( g) g \breathe a4 b c4. a \breathe
-    b4 c d c b g( a) a4. \bar "||"
+    a4 c b c d d4. c4 b a( g) g \barMin a4 b c4. a \barMin
+    b4 c d c b g( a) a4. \barFinalis
   }
   \addlyrics {
     Kdy -- ko -- li se hně -- váš, Hos -- po -- di -- ne,
@@ -43,7 +43,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c d4. c \breathe c4 d c b c a( g) g \bar "||"
+    g4 a c d4. c \barMin c4 d c b c a( g) g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me, o -- sla -- vuj Hos -- po -- di -- na.
@@ -66,8 +66,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g a a a a a c bes a4. a bes4 bes a g \breathe
-    f e f( g) a f e d( c) d \bar "||"
+    f4 f g a a a a a c bes a4. a bes4 bes a g \barMin
+    f e f( g) a f e d( c) d \barFinalis
   }
   \addlyrics {
     Ať se mi dos -- ta -- ne tvé -- ho sli -- to -- vá -- ní,
@@ -86,7 +86,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a b c a a \breathe b( c) a( g f) g \bar "||"
+    g4 g f g a b c a a \barMin b( c) a( g f) g \barFinalis
   }
   \addlyrics {
     Vy -- svo -- boď mě od mých ne -- přá -- tel, můj Bo -- že.
@@ -104,7 +104,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) d4.( c) \breathe d4 e f e c4. d \bar "||"
+    d4 d( f) d4.( c) \barMin d4 e f e c4. d \barFinalis
   }
   \addlyrics {
     Bůh tres -- tá to -- ho. ko -- ho má rád.
@@ -124,7 +124,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f( g) f e( d) d \breathe a' a a g g f e d4. d \bar "||"
+    d4 d d f( g) f e( d) d \barMin a' a a g g f e d4. d \barFinalis
   }
   \addlyrics {
     Náš Bůh je mi -- lo -- srd -- ný, po -- mo -- hl mi,
@@ -163,8 +163,8 @@
 tIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f4. g4 a g f( g) g4. \breathe a4 a a( b) g4. \breathe
-    a4( g) f g g e4. \bar "||"
+    g4 g g f4. g4 a g f( g) g4. \barMin a4 a a( b) g4. \barMin
+    a4( g) f g g e4. \barFinalis
   }
   \addlyrics {
     Spra -- ve -- dli -- vé a spo -- le -- hli -- vé jsou tvé ces -- ty,
