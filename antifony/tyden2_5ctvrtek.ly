@@ -5,7 +5,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a( g) a f( d) d \breathe e e f g( f) d4. d \bar "||"
+    f4 g a a( g) a f( d) d \barMin e e f g( f) d4. d \barFinalis
   }
   \addlyrics {
     Pro -- buď svou sí -- lu, Pa -- ne, a přijď nás za -- chrá -- nit.
@@ -24,8 +24,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g a a a bes bes a bes g( f) g4. \breathe
-    g4 f g a4. a a4 g a g( f) f \bar "||"
+    f4 f g a a a bes bes a bes g( f) g4. \barMin
+    g4 f g a4. a a4 g a g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,
@@ -44,7 +44,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) g b d( c) c \breathe c a g( a) f4. f \bar "||"
+    f4( a) g b d( c) c \barMin c a g( a) f4. f \barFinalis
   }
   \addlyrics {
     Ple -- sej -- te Bo -- hu, on nám po -- má -- há.
@@ -107,7 +107,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 g g f( e) e \breathe e f( d) c d4. \bar "||"
+    d4 g g f( e) e \barMin e f( d) c d4. \barFinalis
   }
   \addlyrics {
     Tvá mi -- lost, Bo -- že, je ve -- li -- ká.
@@ -149,7 +149,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d f g a a a \breathe a a a a a( bes) a a g( f) e( d) d \bar "||"
+    d4 d f g a a a \barMin a a a a a( bes) a a g( f) e( d) d \barFinalis
   }
   \addlyrics {
     Pán po -- mů -- že chu -- dá -- kům,
@@ -168,8 +168,8 @@
 tIIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a c( d) d( c) d4. d4 f( e) d e c4. a \breathe
-    a4 b g g( a) a \bar "||"
+    a4 a a a a a c( d) d( c) d4. d4 f( e) d e c4. a \barMin
+    a4 b g g( a) a \barFinalis
   }
   \addlyrics {
     Od ny -- něj -- ška pa -- tří ví -- těz -- ství a krá -- lov -- ská vlá -- da

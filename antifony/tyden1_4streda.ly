@@ -5,7 +5,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a( c b a4.) a4 b( c) d a( g) a \breathe a4 g f f( g e) e \bar "||"
+    g4 a( c b a4.) a4 b( c) d a( g) a \barMin a4 g f f( g e) e \barFinalis
   }
   \addlyrics {
     V_tvé zá -- ři, Hos -- po -- di -- ne, vi -- dí -- me svět -- lo.
@@ -23,8 +23,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) c4. \breathe c4 d e d c a( g) g4. \bar "|"
-    a4 a b c a g( f) g4. \breathe c4 d c b c a4. g \bar "||"
+    g4( c b) c4. \barMin c4 d e d c a( g) g4. \barMax
+    a4 a b c a g( f) g4. \barMin c4 d c b c a4. g \barFinalis
   }
   \addlyrics {
     Pa -- ne, jsi ve -- li -- ký a slav -- ný,
@@ -43,7 +43,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( b) c d e d \breathe c b a( b) a( g) g \bar "||"
+    c4( b) c d e d \barMin c b a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Já -- sej -- te Bo -- hu ra -- dost -- ným hla -- sem.
@@ -66,7 +66,7 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g( a) a a bes c a g \breathe bes bes a f g f f4. \bar "||"
+    f4 g( a) a a bes c a g \barMin bes bes a f g f f4. \barFinalis
   }
   \addlyrics {
     Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.
@@ -84,7 +84,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g( f) g4. \breathe a4 f e( d) d4. \bar "||"
+    a4 a a a g( f) g4. \barMin a4 f e( d) d4. \barFinalis
   }
   \addlyrics {
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
@@ -103,7 +103,7 @@
   \relative c'' {
     \choralniRezim
     \key f\major
-    a4 g( a) bes c a a \breathe f g a( f) e( d) d \bar "||"
+    a4 g( a) bes c a a \barMin f g a( f) e( d) d \barFinalis
   }
   \addlyrics {
     Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.
@@ -163,8 +163,8 @@
 tIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4( d) d d d d c( a) c( d) d d e f d( c) c4.( d) \breathe
-    d4 d c a b( c) a a4. \bar "||"
+    a4( d) d d d d c( a) c( d) d d e f d( c) c4.( d) \barMin
+    d4 d c a b( c) a a4. \barFinalis
   }
   \addlyrics {
     Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvot -- stvo,

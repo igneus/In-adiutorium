@@ -5,9 +5,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c d4.) d \breathe d4 d d d d e f f( g) g4. \breathe
-    f4 e d d \bar "|"
-    d4 d d( f) d( c) f( e) d( c) d \bar "||"
+    d4( c d4.) d \barMin d4 d d d d e f f( g) g4. \barMin
+    f4 e d d \barMax
+    d4 d d( f) d( c) f( e) d( c) d \barFinalis
   }
   \addlyrics {
     Zrá -- na hlá -- sá -- me tvé mi -- lo -- sr -- den -- ství,
@@ -27,7 +27,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d) c d \breathe d b c a( g) g \bar "||"
+    a4( d) c d \barMin d b c a( g) g \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
@@ -46,8 +46,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 a bes a \breathe a g f g a( bes) a4. bes4 bes c( a) a \breathe
-    a f e d d \bar "||"
+    g4 a bes a \barMin a g f g a( bes) a4. bes4 bes c( a) a \barMin
+    a f e d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, jak po -- di -- vu -- hod -- né
@@ -71,9 +71,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d f( g) g a( bes) a a \breathe
-    a g a c( bes a) g g a a a \breathe
-    f( g) e4. d \bar "||"
+    d4 d d f( g) g a( bes) a a \barMin
+    a g a c( bes a) g g a a a \barMin
+    f( g) e4. d \barFinalis
   }
   \addlyrics {
     Ne -- be a ze -- mě po -- mi -- nou, a -- le má slo -- va ne -- po -- mi -- nou,
@@ -92,7 +92,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d f e d( c) d \breathe f( g) d4. d c4 c f e d d \bar "||"
+    d4 d d c d f e d( c) d \barMin f( g) d4. d c4 c f e d d \barFinalis
   }
   \addlyrics {
     Bo -- že, ty jsi mé ú -- to -- čiš -- tě,
@@ -111,7 +111,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f g g( f) g \breathe g f e f d d( c) d \bar "||"
+    d4 d f g g( f) g \barMin g f e f d d( c) d \barFinalis
   }
   \addlyrics {
     Bo -- že, chraň můj ži -- vot před stra -- chem z_ne -- pří -- te -- le.

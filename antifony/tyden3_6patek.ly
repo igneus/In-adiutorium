@@ -5,7 +5,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f d d d e g f d d \breathe e f d c d d \bar "||"
+    d4 d f d d d e g f d d \barMin e f d c d d \barFinalis
   }
   \addlyrics {
     Pro -- ti to -- bě jsem se pro -- hře -- šil, Bo -- že,
@@ -24,7 +24,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f( e) e \breathe f g a a a g a bes( a) g \breathe a f e d \bar "||"
+    a4 g f( e) e \barMin f g a a a g a bes( a) g \barMin a f e d \barFinalis
   }
   \addlyrics {
     Po -- zná -- vá -- me, že jsme zhře -- ši -- li pro -- ti to -- bě,
@@ -43,7 +43,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b4.( d) \breathe d4 d a b c \breathe c d a c b g4. g \bar "||"
+    a4 b c c b4.( d) \barMin d4 d a b c \barMin c d a c b g4. g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je Bůh, my jsme je -- ho lid a stád -- ce je -- ho past -- vy.
@@ -65,8 +65,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) e( f) f f e f d c c4. \breathe
-    d4 d c a c( d) d d4. \breathe f4 f g f e d4. \bar "||"
+    d4 d( f) e( f) f f e f d c c4. \barMin
+    d4 d c a c( d) d d4. \barMin f4 f g f e d4. \barFinalis
   }
   \addlyrics {
     Muž bo -- les -- ti byl o -- po -- vr -- že -- ný,
@@ -85,7 +85,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f e( d) d \breathe g g f e f( e) d \bar "||"
+    d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
   }
   \addlyrics {
     Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
@@ -103,7 +103,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f f e f g( d) d4. \breathe d4 c d e f e c d4. \bar "||"
+    d4 e f f e f g( d) d4. \barMin d4 c d e f e c d4. \barFinalis
   }
   \addlyrics {
     Před Hos -- po -- di -- nem se sklo -- ní 
@@ -124,8 +124,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c d e) c b c d d \breathe
-    d d d d e d c b c( a g) g \bar "||"
+    a4( d c d e) c b c d d \barMin
+    d d d d e d c b c( a g) g \barFinalis
   }
   \addlyrics {
     Vel -- ký je Hos -- po -- din
@@ -144,8 +144,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a c d d d4. \breathe e4 d c b c a( g) g \breathe
-    a( d) b( c) a g b c a( g) g \bar "||"
+    d4 a c d d d4. \barMin e4 d c b c a( g) g \barMin
+    a( d) b( c) a g b c a( g) g \barFinalis
   }
   \addlyrics {
     Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na,

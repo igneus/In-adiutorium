@@ -6,8 +6,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g g g \breathe g g bes a bes g a f( g) g \breathe
-    a a a bes g g f f( d) d \bar "||"
+    f4 g g g \barMin g g bes a bes g a f( g) g \barMin
+    a a a bes g g f f( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, byl jsi mi -- los -- ti -- vý své ze -- mi,
@@ -26,8 +26,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major d4 a' a a g a f g g( a) a \breathe
-    a bes( g) g bes a( g) a4. g4( a) f( d) d \bar "||"
+    \key f \major d4 a' a a g a f g g( a) a \barMin
+    a bes( g) g bes a( g) a4. g4( a) f( d) d \barFinalis
   }
   \addlyrics {
     Svou du -- ší po to -- bě tou -- žím v_no -- ci
@@ -46,7 +46,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c \breathe d c a b a g g \bar "||"
+    g4( c) c \barMin d c a b a g g \barFinalis
   }
   \addlyrics {
     Bo -- že, u -- kaž nám svou jas -- nou tvář.
@@ -69,8 +69,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 a g a a( bes) bes( a) a \breathe
-    g( f) e( f d4.) d \bar "||"
+    a4 a g a a( bes) bes( a) a \barMin
+    g( f) e( f d4.) d \barFinalis
   }
   \addlyrics {
     Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
@@ -88,7 +88,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c( d) d c( d) a4. a \breathe b4 c a g a a \bar "||"
+    a4 b c c( d) d c( d) a4. a \barMin b4 c a g a a \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj, Bo -- že, na svůj lid, kte -- rý sis vy -- vo -- lil.
@@ -106,8 +106,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c d d c d a \breathe
-    c c c b c a4. a \bar "||"
+    a4 a c d d c d a \barMin
+    c c c b c a4. a \barFinalis
   }
   \addlyrics {
     Bo -- že, u -- jmi se své vě -- ci, ne -- pří -- tel se ti rou -- hal.
@@ -128,8 +128,8 @@
   \relative c' {
     \choralniRezim
     \stemUp % aby ligaturova cara byla dole a nekolidovala s beckem
-    f4 g g g a( bes a) a \breathe
-    g f a a g( f) f \bar "||"
+    f4 g g g a( bes a) a \barMin
+    g f a a g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du.
