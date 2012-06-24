@@ -1,15 +1,13 @@
-\markup {\nadpisDen {Neděle 1. týdne}}
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
 
-% -*- master: ../nedelniantifony.ly;
+\markup {\nadpisDen {Neděle 1. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \markup\nadpisSkupiny{1}
 
-\markup\justify{Tuto antifonu mám v první verzi moc rád, 
-horní F je už ale 
-dost mimo rozsah modu VIII. Změnit modus na VII?}
-\markup\justify{Každopádně se mi žádná z níže navržených verzí
+\markup\justify{Žádná z níže navržených verzí se mi
 nelíbí víc než verze původní - ty, které jsou světle zelené,
 nejsu úplně marné, ale na původní nemají.}
 
@@ -27,8 +25,8 @@ nejsu úplně marné, ale na původní nemají.}
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 141"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -261,7 +259,7 @@ je atypická a může bt těžké z ní přejít na žalm.}
 tInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) c c b(^\markup{\cerveneX dlouhé melisma se sem nehodí} d c a) g( f) g \barMin
+    g4 g( c) c c b( d c a) g( f) g \barMin
     g f g a b c4.( d) \barMin
     c4 c a f g g \barFinalis
   }
@@ -329,7 +327,7 @@ tInedeleInespAntIII = \score {
   \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
-    g4 g( a) a a g( f e) d( f e4.) e \barMaior
+    \mark\sipka g4 g( a) a a g( f e) d( f e4.) e \barMaior
     d4 d f g a c4.( a) \barMin
     c4( d c) b( g) g g( a) a( g) g \barFinalis
   }
@@ -375,7 +373,7 @@ tInedeleInespAntIII = \score {
     \zvyraznovacZelenyII
     \choralniRezim
     d4 c( d) d d f( e) d4. d \barMaior
-    d4 d e e f d4.( c) \barMin
+    \mark\sipka d4 d e e f d4.( c) \barMin
     d4( f g) f( e) d c d d \barFinalis
   }
   \addlyrics {
@@ -393,6 +391,8 @@ tInedeleInespAntIII = \score {
 }
 
 \markup\nadpisSkupiny{3}
+
+\markup{Ta se mi zdá fakt dobrá.}
 
 \score {
   \relative c'' {
@@ -417,8 +417,9 @@ tInedeleInespAntIII = \score {
 
 \pageBreak
 
-tInedeleInespResp = \score {
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -452,7 +453,43 @@ tInedeleInespResp = \score {
   }
 }
 
-\score { \tInedeleInespResp }
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    
+    % R
+    \neviditelna e
+    e4 g( a) a4.( g) a4 b g( f e) e \barMin f4( g a) g f( e) e \barMax
+    f4 f f f( e d) f e( f) e e \barFinalis
+    
+    % V
+    \neviditelna a
+    a4 a a b( c) c4. b4( c) a g4. e \barMax
+    
+    % R
+    \neviditelna f
+    f4 f f f( e d) f e( f) e e \barFinalis
+    
+    % Slava
+    a4 a c b g g( a) a \barMin a g f e( f) e4. e \barFinalis
+  }
+  \addlyrics {
+    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+    vše -- chno jsi mou -- dře u -- či -- nil.
+    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+    \Response vše -- chno jsi mou -- dře u -- či -- nil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny 2
 
 \score {
   \relative c' {
@@ -640,15 +677,46 @@ tInedeleInespResp = \score {
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
-\markup{Velký důraz na "\"hledám\"".}
+\markup{
+  Velký důraz na "\"hledám\"". (Později: už to nepovažuji
+  za nedostatek.)
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     d4 d \barMin
     f a g( f) g4. \barMin
     a4 bes a g( a f e) d4. \barMax
     c4 f e( c) d4. \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, 
+    ty jsi můj Bůh, 
+    snaž -- ně tě hle -- dám. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2" 
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    d4 d \barMin
+    f a g( f) g \barMin
+    a4 bes a g( a f e) d \barMax
+    \mark\sipka c4 f( e) d d \barFinalis
   }
   \addlyrics {
     Bo -- že, 
@@ -843,8 +911,11 @@ moc rád a nechci ji měnit.}
 
 \pageBreak
 
+\markup{Nedodržuje modus.}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     g'4 d' c  b( c) d( e) e4. \barMin
     d4 c a b4.( d4.) \barMin
@@ -866,6 +937,57 @@ moc rád a nechci ji měnit.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 d' c  b( c) d( e) e \barMin
+    d4 c a b4.( d4.) \barMin
+    c4 \mark\sipka a( g) f( g) g \barMin
+    g g( a) g g  \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu 
+    ať já -- sa -- jí 
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    g'4 d' c  b( c) d( e) e \barMaior
+    d4 c a b4.( d4.) \barMin
+    c4 \mark\sipka a g( f g) g \barMaior
+    g g( a) g g  \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu 
+    ať já -- sa -- jí 
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
 
 \score {
   \relative c'' {
@@ -891,12 +1013,38 @@ moc rád a nechci ji měnit.}
   }
 }
 
+\markup\nadpisSkupiny 3
+
 \score {
   \relative c'' {
     \choralniRezim
     a4 g f g( f) d4. d \barMaior
     d4 f( g f) g( a) a4.( g4 f) \barMin
     e f d4. d \barMax
+    d4 f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu 
+    ať já -- sa -- jí 
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( f) d4. d \barMaior
+    d4 f( g f) g( a) a4.( g4 f) \barMin
+    \mark\sipka e( g) f d4. d \barMax
     d4 f( e) c d \barFinalis
   }
   \addlyrics {
@@ -967,6 +1115,7 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g^\markup{\cerveneX delší tenor na G} g g g a f g g \barMin
@@ -990,11 +1139,12 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
-    f4( a g) f e d d f g g( a) a \barMin
+    f4( a g) f e d d f g g( a) a \barMaior
     a a bes a g f g \barMin
-    a f g f f \barMin
+    a f g f f \barMaior
     g a f f \barFinalis
   }
   \addlyrics {
@@ -1013,7 +1163,6 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyIII
     \choralniRezim
     \key f \major
     f4 f f e f  g a a a \barMaior
@@ -1060,7 +1209,7 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacZelenyIII
     \choralniRezim
     \key f \major
     f4 g f e d e f d d \barMaior
@@ -1159,6 +1308,7 @@ tInedeleLaudResp = \score {
 
 tInedeleIInespAntI = \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g a b c b c( d) d \barMin
     d( c) b c a g g \barMin
@@ -1249,7 +1399,31 @@ tInedeleIInespAntI = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacCerveny
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g a( b) b c d c( b a) a \barMaior
+    c( d e) d c c d d \barMin
+    d a( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
+    Seď po mé pra -- vi -- ci. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
     \choralniRezim
     d4 d d b( a) a b a g4. g \barMin
     a4( d) b a g a a \barMaior
@@ -1269,6 +1443,7 @@ tInedeleIInespAntI = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
 
 \pageBreak
 
