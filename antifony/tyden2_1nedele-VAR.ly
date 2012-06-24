@@ -1,11 +1,13 @@
-\markup {\nadpisDen {Neděle 2. týdne}}
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
 
-% -*- master: ../nedelniantifony.ly;
+\markup {\nadpisDen {Neděle 2. týdne}}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a g c( d) d4. c4 d c( b a) a \barMin
     b c a( g) g \barMin
@@ -67,10 +69,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a g c( d) d4. c4 d c( b a) a \barMin
+    b c a( g) g \barMaior
+    f a g( f) g \barFinalis
+  }
+  \addlyrics {
+    Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 119-XIV"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g a( c) c c( d c) c \barMin
     b( c) a a( g) g \barMin
@@ -105,6 +130,121 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a c( d c) b a( g a) g \barMin 
+    a( b c) a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c( d c) b a( g) \mark\sipka a( g) \barMin 
+    a( b c) a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c( d c) b a( g a) g \barMin 
+    a( \mark\sipka c b) a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c( d c) b a( g a) \mark\sipka g( f) \barMin 
+    g( a c) a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2.1
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c( d) c d( e) c( a) \barMin
+    c a a( g) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost, 
+    Hos -- po -- di -- ne. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 16"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -207,6 +347,7 @@ tIInedeleInespResp = \score {
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 a g a( c) d( c) c \barMin
     b c a g g \barMin
@@ -327,6 +468,29 @@ tIInedeleInespResp = \score {
     g4( a g) g( c) c c( d) c c( b a) \barMaior
     a( g f) g( a) a g( a g) g \barMaior
     \mark\sipka g a( f) e( f g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv 
+    na -- še -- mu Bo -- hu. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    a( g f) g( a) a \mark\sipka g g \barMaior
+    b c( a) g( a) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv 
@@ -541,10 +705,13 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c b c c d d \barMin
     d d e c b a g f g4. g \barMin
@@ -564,6 +731,55 @@ tIInedeleLaudResp = \score {
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b c c d d \barMin
+    d d \mark\sipka c b a( g f) g( a) a g( a) g g \barMin
+    g4 g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky 
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    g4 g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky 
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
