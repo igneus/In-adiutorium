@@ -2,10 +2,12 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup\nadpisSkupiny{1}
+
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g a bes( a) g \barMin f g g( a) a \barMin a a g f g( f) e d \barFinalis
+    f4 g a a g a bes( a) g \breathe f g g( a) a \breathe a a g f g( f) e d \bar "||"
   }
   \addlyrics {
     Stvoř mi čis -- té srd -- ce, Bo -- že,
@@ -22,10 +24,93 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka g( a) a g a bes( a) g \barMaior f g g( a) a \breathe a a g f g( f) e d \bar "||"
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka g( a) a g a a( bes a) a \barMaior 
+    bes( c) bes bes( a) a \barMin g f g a f e d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g a a( bes a) a \barMaior 
+    a( bes) c bes( a) a \barMin g f a g f e d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g d d \barMaior
+    d( f) e d( a) a \barMin bes c d f e c d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
-    c4 c a \barMin d c b a( g) g \barMin f a c b c c \breathe
-    c c c b( d) c( b) a \barMin a g f g4. g \barFinalis
+    c4 c a \breathe d c b a( g) g \breathe f a c b c c \breathe
+    c c c b( d) c( b) a \breathe a g f g4. g \bar "||"
   }
   \addlyrics {
     Ra -- duj se, Je -- ru -- za -- lé -- me,
@@ -42,11 +127,13 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c( d) d \barMin c( b) a4. a \barMin
-    d4 f( e) d( c) a4. \barMin a4 b c a g g \barFinalis
+    a4 b c c( d) d \breathe c( b) a4. a \breathe
+    d4 f( e) d( c) a4. \breathe a4 b c a g g \bar "||"
   }
   \addlyrics {
     Chval své -- ho Bo -- ha, Si -- ó -- ne,
@@ -62,6 +149,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d \breathe c( b c) c( d) d \barMaior
+    d4 c( d) c( b g) g \barMin g g( f) g a g g \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score { \tIIpatekAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
@@ -70,8 +179,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g( a) a( g) a \barMin a bes bes a g a( g) g \barMin
-    f e d d \barFinalis
+    f4 f g( a) a( g) a \breathe a bes bes a g a( g) g \breathe
+    f e d d \bar "||"
   }
   \addlyrics {
     Hoj -- ný po -- koj těm, kdo mi -- lu -- jí tvůj zá -- kon,
@@ -90,8 +199,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c d( e) d( c) c \barMin a a b c c( d) d \barMin
-    d b c a( g) g \barFinalis
+    c4 c d( e) d( c) c \breathe a a b c c( d) d \breathe
+    d b c a( g) g \bar "||"
   }
   \addlyrics {
     O -- bec vě -- ří -- cích mě -- la jed -- no srd -- ce a jed -- nu du -- ši.
@@ -109,7 +218,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f g( f e4.) e \barMin f4 d d c d f e d \barFinalis
+    d4 d d e f g( f e4.) e \breathe f4 d d c d f e d \bar "||"
   }
   \addlyrics {
     Hos -- po -- di -- ne, má spá -- so,
@@ -131,8 +240,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 a bes bes bes bes c c bes c bes( a) a \barMin
-    a f g a a f e d d \barFinalis
+    g4 a bes bes bes bes c c bes c bes( a) a \breathe
+    a f g a a f e d d \bar "||"
   }
   \addlyrics {
     Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,
