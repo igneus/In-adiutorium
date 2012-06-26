@@ -149,7 +149,7 @@
   }
 }
 
-tIuteryAntMagnificat = \score {
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c( b c4.) a4. \barMaior 
@@ -171,7 +171,7 @@ tIuteryAntMagnificat = \score {
 
 % streda
 
-tIstredaAntBenedictus = \score {
+\score {
   \relative c' {
     \choralniRezim
     d4 e f d c4. a e'4 f d d \barMaior
@@ -193,7 +193,7 @@ tIstredaAntBenedictus = \score {
   }
 }
 
-tIstredaAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     \key f\major
@@ -218,7 +218,7 @@ tIstredaAntMagnificat = \score {
 
 % ctvrtek
 
-tIctvrtekAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     \key f\major
@@ -243,7 +243,7 @@ tIctvrtekAntBenedictus = \score {
   }
 }
 
-tIctvrtekAntMagnificat = \score {
+\score {
   \relative c'' {
     \choralniRezim
     a4 c d d d d e( d c4.) a \barMin
@@ -265,7 +265,7 @@ tIctvrtekAntMagnificat = \score {
 
 % patek
 
-tIpatekAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     \key f\major
@@ -285,7 +285,7 @@ tIpatekAntBenedictus = \score {
   }
 }
 
-tIpatekAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     \key f\major
@@ -308,7 +308,7 @@ tIpatekAntMagnificat = \score {
 
 % sobota
 
-tIsobotaAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     a4( g a) c( d) d c \barMin
@@ -335,7 +335,7 @@ tIsobotaAntBenedictus = \score {
 
 % pondeli
 
-tIIpondeliAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
@@ -356,7 +356,7 @@ tIIpondeliAntBenedictus = \score {
   }
 }
 
-tIIpondeliAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     e4 g( a) c( b) c a4.( g4 a) g f e( d) e \barFinalis
@@ -376,7 +376,7 @@ tIIpondeliAntMagnificat = \score {
 
 % utery
 
-tIIuteryAntBenedictus = \score {
+\score {
   \relative c' {
     \choralniRezim
     d4 e f g( a g) f d d4.( c) \barMaior
@@ -397,7 +397,7 @@ tIIuteryAntBenedictus = \score {
   }
 }
 
-tIIuteryAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     \key f\major
@@ -422,7 +422,7 @@ tIIuteryAntMagnificat = \score {
 
 % streda
 
-tIIstredaAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     \key f\major
@@ -444,7 +444,7 @@ tIIstredaAntBenedictus = \score {
   }
 }
 
-tIIstredaAntMagnificat = \score {
+\score {
   \relative c'' {
     \choralniRezim
     a4 b c c4.( b) \barMaior
@@ -468,7 +468,7 @@ tIIstredaAntMagnificat = \score {
 
 % ctvrtek
 
-tIIctvrtekAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     g4 c b a4.( g) \barMin
@@ -489,7 +489,7 @@ tIIctvrtekAntBenedictus = \score {
   }
 }
 
-tIIctvrtekAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     e4 d e e( a) a a c c b c a( g) a \barMin
@@ -512,7 +512,7 @@ tIIctvrtekAntMagnificat = \score {
 
 % patek
 
-tIIpatekAntBenedictus = \score {
+\score {
   \relative c' {
     \choralniRezim
     d4( e f) g( f) d( e) d4.( c) \barMin
@@ -534,7 +534,7 @@ tIIpatekAntBenedictus = \score {
   }
 }
 
-tIIpatekAntMagnificat = \score {
+\score {
   \relative c' {
     \choralniRezim
     d4 e f d c c a \barMin
@@ -559,7 +559,7 @@ tIIpatekAntMagnificat = \score {
 
 % sobota
 
-tIIsobotaAntBenedictus = \score {
+\score {
   \relative c'' {
     \choralniRezim
     \key f\major
