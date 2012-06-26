@@ -1,11 +1,14 @@
 \markup {\nadpisDen {Pondělí 1. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f \barMin g a f d \barMin f f f e c d \barFinalis
+    d4 d e f f \barMin g a f d \barMaior
+    f f f e c d \barFinalis
   }
   \addlyrics {
     K_to -- bě se mo -- dlím, Hos -- po -- di -- ne,
@@ -64,7 +67,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c bes a g4. a \barMin
+    \key f \major
+    a4 c bes a g4. a \barMaior
     a4 g a bes c bes( a) a \barMin
     a4 a( d,) e( f) g f e d \barFinalis
   }
@@ -86,7 +90,7 @@
   \relative c' {
     \choralniRezim
     f4 f e f d d \barMin
-    d4 c d e f a4. g f e f d4. d \barFinalis
+    d4 c d e f a4. g4 f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
@@ -105,12 +109,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f d( c) c4.( d) \barMin
-    f4 f e( c) a4. e'4 f( d) d4. \barMin
-    d4 e( f) f( g) g4. f4 f g f e c d d \barFinalis
+    e4 f d( c) c4.( d) \barMaior
+    f4 f e( c) a4. \barMin e'4 f( d) d4. \barMax
+    d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
   }
   \addlyrics {
-    Bůh je soud -- ce spra -- ved -- li -- vý a moc -- ný;
+    Bůh je soud -- ce 
+    spra -- ved -- li -- vý a moc -- ný;
     on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
   }
   \header {
@@ -167,8 +172,9 @@
 tIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     f4 g a g( a) f( d) d \barMaior
-    f g a a g a bes( a g) a \barMin
+    f g a a g a a( bes a) a \barMin
     g f e( d) d \barFinalis
   }
   \addlyrics {
