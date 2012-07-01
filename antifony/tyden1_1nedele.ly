@@ -107,6 +107,68 @@ tInedeleInespResp = \score {
 
 \score { \tInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f) g a( g) \barMin
+    a a( bes a) g4.( f4 e) \barMin e( f g) f( e) d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův kříž
+    je pro nás stro -- mem ži -- vo -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 1"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( a c) b( a) g g \barMin
+    f g a( c) c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem u -- sta -- no -- vil 
+    své -- ho krá -- le na Si -- ó -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f g a( g) e \barMin
+    d e e( f) e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Hos -- po -- di -- ne, můj štít,
+    ty mi po -- zve -- dáš hla -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 3"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
