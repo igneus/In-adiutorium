@@ -1,12 +1,15 @@
-\version "2.12.3"
-
-\header {
-  title = "svátek sv. Cyrila a Metoděje (5.7.)"
-  composer = "Jakub Pavlík"
-}
+\version "2.15.40"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "sv. Cyrila, mnicha, a Metoděje, biskupa"
+            svátek
+            5.7.
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
