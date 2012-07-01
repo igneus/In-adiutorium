@@ -48,6 +48,65 @@
 
 \score { \tIInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Kdo smí vy -- stou -- pit na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 24"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 66-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
+    co pro -- ká -- zal Bůh mé du -- ši.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 66-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

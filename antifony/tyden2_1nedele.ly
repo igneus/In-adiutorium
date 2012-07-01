@@ -110,6 +110,69 @@ tIInedeleInespResp = \score {
 
 \score { \tIInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    ve -- leb -- nos -- tí a vzne -- še -- nos -- tí ses o -- děl,
+    svět -- lem se ha -- líš ja -- ko pláš -- těm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 104-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no k_ra -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 104-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 104-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

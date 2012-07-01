@@ -51,6 +51,64 @@
 
 \score { \tInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 145-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Tvé krá -- lov -- ství, Hos -- po -- di -- ne,
+    je krá -- lov -- ství všech vě -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 145-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Věr -- ný je Hos -- po -- din ve všech svých sli -- bech
+    a sva -- tý ve všech svých či -- nech.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 145-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
