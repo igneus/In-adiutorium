@@ -203,8 +203,10 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna e
+    e4 e e e( g b) \barMin c b a b a e e \barMaior
+    f g g g g( a g f e) e \barMax
+    e d e e( a b) a a b b \barMin b b( c b a) g f g( f e) e \barFinalis
     % V
     \neviditelna a
     
@@ -226,7 +228,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "III"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
