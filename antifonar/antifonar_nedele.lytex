@@ -11,6 +11,10 @@
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
 
+\usepackage{zref-savepos} % potreba pro znacky na okraji
+\usepackage{changepage}
+\usepackage{etoolbox}
+
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
@@ -92,6 +96,7 @@
 \begin{document}
 
 \input{spolecne.tex}
+\input{znacky.tex}
 
 \titulniStrankaSvazkuAntifonare
 \prazdnaStranka
@@ -148,6 +153,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
 \end{hora}
@@ -164,6 +170,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm149.tex}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
 \end{hora}
@@ -193,6 +200,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -218,6 +226,7 @@ strofě.}
 \end{hora}
 \rubrikaMagnificat
 
+\pagebreak % ZLOM1
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
@@ -304,6 +313,7 @@ strofě.}
 \typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm118i.tex}
+\pagebreak % ZLOM1
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant2.ly}
 \input{generovane/nedele/zalm118ii.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant3.ly}
@@ -323,6 +333,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -374,6 +385,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
 
+\pagebreak % ZLOM1
 \typVers
 \lilypondfile{generovane/nedele/nedele_verse_ne4v.ly}
 \end{hora}

@@ -10,6 +10,7 @@
 \score {
   \relative c' {
     \choralniRezim
+    % a a
     \neviditelna f f\breve d4 \barFinalis 
   }
   \addlyrics {
