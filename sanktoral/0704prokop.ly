@@ -203,15 +203,21 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna e
+    e4 e e e( g b) \barMin c b a b a e e \barMaior
+    f g g g g( a g a) a( b) \barMax
+    c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna g
+    g( b c d) c( b) \barMin d c b b( c b a) a( b) b \barMin 
+    b( c d c) b( a) a g a g( f) e \barMaior
+    e d( e) e g( a) a b a b c4. b \barMin
+    c4 c c c d c b( c b) b \barMax
     % R
-    \neviditelna a
-    
+    \neviditelna b
+    c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % Slava
+    g4( b c d) d \barMin c( d) c b b( c b a) a( b) \barMin b b( c d) c b( a) a( b) b \barFinalis
   }
   \addlyrics {
     \Response O -- de -- šel sám na o -- puš -- tě -- né mís -- to,
@@ -226,7 +232,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "III"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
