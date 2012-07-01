@@ -136,7 +136,7 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response Jo -- sef bbyl muž spra -- ved -- li -- vý,*
+    \Response Jo -- sef byl muž spra -- ved -- li -- vý,*
     od -- da -- ně slou -- žil Bo -- ží -- mu Sy -- nu._* \textRespAleluja
     \Verse Byl to slu -- žeb -- ník moud -- rý a věr -- ný,_*
     \Response \textRespAleluja
