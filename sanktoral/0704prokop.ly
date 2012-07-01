@@ -117,18 +117,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( e) d4. d4 d c b a( b) a \barMaior
+    a b c d( e) e \barMin f g f e d d \barMax
+    f f f f f( g a) g f f( e) e \barMin
+    g f e f e d c d d \barFinalis
   }
   \addlyrics {
-    Od rá -- na se ce -- lým srd -- cem o -- bra -- cí k_Bo -- hu,
-    své -- mu Stvo -- ři -- te -- li,
+    Od rá -- na se ce -- lým srd -- cem 
+    o -- bra -- cí k_Bo -- hu, své -- mu Stvo -- ři -- te -- li,
     k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
     k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -244,9 +247,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a( d c) c( d) d \barMaior 
+    d d d d( f) d c c( d) d \barMaior
+    d d d c a a \barMin bes( a) g f g g \barMax
+    f g a b! c d( c) c( d) d \barMaior
+    d d d c d c( b a) \barMin
+    b c d d d( f e) c c( d) \barMaior
+    d d( c b) a( g) a( g) \barMin f( g a) b c( a g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
@@ -259,8 +268,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
