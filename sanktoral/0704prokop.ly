@@ -78,19 +78,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna g
+    g4 g a c c d c b c c( a) \barMin
+    c c b( c) b a c( d) d \barMax
+    e d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna c
+    d4 d c d d( e) e \barMin e f g f e d( c) c( d) d \barMaior
+    d d e( c a b g) g \barMin a( f) g a c c b c( d) \barMax
     % R
     \neviditelna a
-    
+    e' d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
     % Slava
+    d'4 d c( d e d) c( d) \barMin e f( g f e) d \barMaior
+    d e( c a b) a( g) \barMin a( c) c( d) d \barFinalis
   }
   \addlyrics {
     \Response Chci ti u -- ká -- zat ces -- tu moud -- ros -- ti,
@@ -103,7 +108,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
