@@ -730,6 +730,38 @@ myStaffSize = #20
   }
 }
 
+\score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
+      g g( f d) f( g) g f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g( f d) f( g) g f \barFinalis
+      % Slava
+      \respVIdoxologie
+    }
+    \addlyrics {
+      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
+      vždyť v_te -- be dou -- fám.
+      \Verse U -- kaž mi ces -- tu, po níž mám krá -- čet,_*
+      \Response vždyť v_te -- be dou -- fám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1pa-rch"
+      piece = "responsorium - VI"
+    }
+  }
+
 \score { \tIpatekAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
@@ -853,6 +885,37 @@ myStaffSize = #20
   }
 }
 
+\score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f f g( f) g( a) a( g) \barMax
+      g g( a) g g g g g f d f( g) g f \barFinalis
+      % V
+      \neviditelna a
+      a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g( a) g g g g g f d f( g) g f \barFinalis
+      % Slava
+      \respVIdoxologie 
+    }
+    \addlyrics {
+      \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
+      \Verse U -- dě -- lal z_nás krá -- lov -- ský ná -- rod a kně -- ze Bo -- ha Ot -- ce_*
+      \Response a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1pa-ne"
+      piece = "responsorium - VI"
+    }
+  }
+
 \score { \tIpatekAntMagnificat }
 
 }
@@ -922,6 +985,37 @@ myStaffSize = #20
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f f f f g f g( a) a( g) \barMax
+      g g g f( d) f( g) g f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g f( d) f( g) g f \barFinalis
+      % Slava
+      \respVIdoxologie
+    }
+    \addlyrics {
+      \Response Vo -- lám k_to -- bě, Hos -- po -- di -- ne,_* ty jsi mé ú -- to -- čiš -- tě.
+      \Verse Ty jsi můj ú -- děl v_ze -- mi ži -- vých,_*
+      \Response ty jsi mé ú -- to -- čiš -- tě.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp"
+      modus = "VI"
+      id = "1so-rch"
+      piece = "responsorium - VI"
+    }
+  }
 
 \score { \tIsobotaAntBenedictus }
 
