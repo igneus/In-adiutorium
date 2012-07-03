@@ -18,9 +18,11 @@ unless file_to_be_processed
   raise "Please, specify LilyPond file which is to be processed."
 end
 
-log = `git log --oneline #{file_to_be_processed}`
+# git log format: %h - short commit hash; %ci - date
+log = `git log \"--format=format:%h %ci\" #{file_to_be_processed}`
 
 commits = []
+commit_dates = {}
 
 temporary_files = []
 delete_temporary_files = true
@@ -34,8 +36,11 @@ beginning_code = '\include "spolecne.ly"'
 
 log.each_line do |line|
   commit_hash = line.slice!(0..6)
-  comment = line
+  date = line.strip
+  date = date[0..date.index(" ")-1]  # only date is interesting, not the time
+  
   commits.push commit_hash
+  commit_dates[commit_hash] = date
   
   print commit_hash
   print "..."
@@ -48,37 +53,26 @@ log.each_line do |line|
   
   temporary_files << folder+'/'+versioned_file_name
   
-  File.open(folder+'/'+versioned_file_name, "r") do |f|
-    store = ''
-    score_number = 0
-    beginning = true
-    while l = f.gets do
-      if l =~ /\\score\s+\{/ then
-
-        # some scores are defined first as variables; make them to normal scores
-        l.gsub!(/^\s*\w+\s*=/, '')
-
-        if beginning then
-          beginning = false
-          write_to_file = folder+"/"+file_without_extension+"_"+commit_hash+'_beginning.ly'
-          temporary_files << write_to_file
-        else
-          score_number += 1
-          if score_number > highest_score_number then
-            highest_score_number = score_number
-          end
-          write_to_file = folder+"/"+file_without_extension+"_"+commit_hash+'_'+score_number.to_s+'.ly'
-          temporary_files << write_to_file
-        end
+  m = LilyPondMusic.new folder+'/'+versioned_file_name
+  m.scores.each_with_index do |score,i|
+    
+    # ignore one-line scores - these don't contain music, they only contain variables
+    if score.text.chomp.lines.count == 1 then
+      next
+    end
+    
+    # some scores are defined first as variables; make them to normal scores
+    score.text.gsub!(/^\s*\w+\s*=\s*\\score/, '\score')
+    
+    if i > highest_score_number then
+      highest_score_number = i
+    end
+    
+    write_to_file = folder+"/"+file_without_extension+"_"+commit_hash+'_'+i.to_s+'.ly'
+    temporary_files << write_to_file
         
-        File.open(write_to_file, "w") do |fw|
-          fw.puts store
-        end
-        # print write_to_file+" "
-        store = l
-      else
-        store += l
-      end
+    File.open(write_to_file, "w") do |fw|
+      fw.puts score.text
     end
   end
   
@@ -91,7 +85,7 @@ end
 
 # collect different versions of each score
 
-1.upto(highest_score_number) do |i|
+0.upto(highest_score_number) do |i|
   score_versions_file = folder+'/'+file_without_extension+"_score"+i.to_s+".ly"
   print score_versions_file+" "
   
@@ -115,18 +109,23 @@ end
       
       if first_version then
         s = LilyPondScore.new data
-        fw.puts '\markup { \bold {'+s.lyrics_readable+'} }'
+        score_heading = '\markup\sans\wordwrap\bold{'
+        if s.header['quid'] then
+          score_heading += s.header['quid']+': '
+        end
+        score_heading += s.lyrics_readable+'}'
+        fw.puts score_heading
         first_version = false
       end
       
       fw.puts "% commit: "+c
       if data != last_data then
-        fw.puts '\markup {git commit: '+c+'}'
+        fw.puts '\markup\sans{git commit: '+c+' ['+commit_dates[c]+']}'
         fw.puts
         fw.puts(data)
         print "+"
       else
-        fw.puts '\markup {git commit: '+c+' without change}'
+        fw.puts '\markup\sans{git commit: '+c+' ['+commit_dates[c]+'] without change}'
         fw.puts
       end
       
@@ -143,7 +142,7 @@ end
 top_file = folder+'/'+file_without_extension+"_evolution.ly"
 puts top_file
 File.open(top_file, 'w') do |fw|
-  1.upto(highest_score_number) do |i|
+  0.upto(highest_score_number) do |i|
     score_versions_file = folder+'/'+file_without_extension+"_score"+i.to_s+".ly"
     fw.puts(File.open(score_versions_file).read)
     fw.puts

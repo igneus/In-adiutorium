@@ -14,6 +14,15 @@
 
 IUNIT = 2 # two spaces as indentation unit
 
+# patterns for sorting according to standard suffixes
+$hebrew_alphabet = %w( alef beth gimel dalet he vau zajin chet tet jod kaf
+$lamed mem nun samech ajin pe sade res sin tau )
+$roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
+
+$psalmname_re = /(?<num>\d+)(?<suff>\w*)/
+$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>[ivx]*)/
+
+
 # indentation level
 def ilevel(line)
   if line =~ /^\s$/ then
@@ -28,28 +37,29 @@ def ilevel(line)
 end
 
 def section_title(line)
+  puts
   puts "\\subsection{#{line.strip}}"
 end
 
 def occasion_title(line)
+  puts
   puts "\\subsubsection{#{line.strip}}"
 end
 
 def hour_title(line)
+  puts
   t = line.strip
-  puts
-  puts
   puts case t
           when "1. nešpory"
-            "\\nesporyI"
+            "\\idxNesporyI"
           when "ranní chvály"
-            "\\ranniChvaly"
+            "\\idxRanniChvaly"
           when "modlitba uprostřed dne"
-            "\\modlitbaUprostredDne"
+            "\\idxModlitbaUprostredDne"
           when "2. nešpory"
-            "\\nesporyII"
+            "\\idxNesporyII"
           when "nešpory"
-            "\\nespory"
+            "\\idxNespory"
           else
             raise "Unknown hour type '#{t}'"
           end
@@ -81,41 +91,34 @@ def content(line)
   
   psalms = []
   
+  puts "\\begin{idxObsahHory}"
+
   tokens.each_with_index do |t,ti|
     t[1].strip!
     
-    if ti == 0 || tokens[ti-1][0] != :txt then
-      print "\\indent "
+    if ti == 0 || (tokens[ti][0] != :txt && tokens[ti-1][0] != :txt) then
+      # print "\\indent "
     end
     
     case t[0]
     when :ps
       if t[1] == "rchne1t" then
-        puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
+        # puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
+        puts "\\laudyNedelePrvnihoTydne"
       elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
         # psalm
-        prettyt = t[1]
-        if i = prettyt.index(/i+$/) then
-          prettyt = prettyt[0..i-1]+'-'+prettyt[i..-1].upcase
-        end
+        prettyt = psalm_name_pretty t[1]
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
         psalms << t[1]
       else
         # canticle
-        sigle = String.new(t[1])
-        if sigle[0] =~ /\d/ then
-          sigle[1] = sigle[1].capitalize
-          sigle.insert(1, " ")
-        else
-          sigle[0] = sigle[0].capitalize
-        end
-        i = sigle.index /\d$/
-        sigle.insert(i, " ")
+        sigle = canticle_name_pretty t[1]
         print "\\textRef{kant#{t[1]}}{#{sigle}}"
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
-        puts ";\\\\"
+        puts " \\textbf{|} "
+        # puts ";\\\\"
       else
         puts
       end
@@ -123,8 +126,56 @@ def content(line)
       puts "\\rubr{#{t[1]}}"
     end
   end
+
+  puts "\\end{idxObsahHory}"
   
   return psalms
+end
+
+# gets psalm code lik '15', '19a' or '119bet' und makes it to a pretty one
+def psalm_name_pretty(p)
+  pp = p.match($psalmname_re)
+  suff = pp[:suff]
+
+  if suff == "" then
+    # nothing
+  elsif $roman_numbers.member? suff
+    suff.upcase!
+    suff = '-'+suff
+  elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+    suff[0] = suff[0].upcase
+    suff = '-'+suff
+  end
+
+  return pp[:num]+suff
+end
+ 
+def canticle_name_pretty(c)
+  cp = c.match $canticlename_re
+
+  book = cp[:bookcode]
+  book[0] = book[0].upcase
+  
+  sigle = book + ' ' + cp[:chapter]
+
+  if cp[:booknum] != '' then
+    sigle = cp[:booknum]+' '+sigle
+  end
+
+  suff = cp[:suff]
+  if suff != "" then
+    # nothing
+    if $roman_numbers.member? suff
+      suff.upcase!
+      suff = '-'+suff
+    elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+      suff[0] = suff[0].upcase
+      suff = '-'+suff
+    end
+    sigle += '-'+suff
+  end
+
+  return sigle
 end
 
 
@@ -191,7 +242,34 @@ File.open(file, 'r') do |fr|
 end
 
 psalms.uniq!
-psalms.sort! {|x,y| x.to_i <=> y.to_i}
+psalms.sort! {|x,y| 
+  mx = x.match($psalmname_re)
+  my = y.match($psalmname_re)
+
+  if mx[:num].to_i < my[:num].to_i then
+    -1
+  elsif mx[:num].to_i > my[:num].to_i then
+    1
+  else
+    # parts of the same psalm
+    if mx[:suff] == my[:suff] then
+      0
+    elsif mx[:num] == '119' then # alef, beth, ...
+      $hebrew_alphabet.index(mx[:suff]) <=> $hebrew_alphabet.index(my[:suff])
+    elsif mx[:suff] =~ /^[ivx]+$/ || 
+        my[:suff] =~ /^[ivx]+$/ then # i, ii, iii, iv, ...
+      a = $roman_numbers.index(mx[:suff])
+      b = $roman_numbers.index(my[:suff])
+      # without suffix or unknown suffix:
+      a = -1 if a == nil
+      b = -1 if b == nil
+
+      a <=> b
+    else
+      mx[:suff] <=> my[:suff] # string comparison, not numeric comparison
+    end
+  end
+}
 
 File.open(dir+'/'+File.basename(file)+'.psalmsnums', 'w') do |fw|
   fw.puts psalms.join "\n"
@@ -199,7 +277,8 @@ end
 
 File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
   psalms.each do |p|
-    fw.puts "\\labelZalm{#{p}}"
+    pr = psalm_name_pretty p
+    fw.puts "\\labelText{z#{p}}{Žalm #{pr}}"
     fw.puts "\\input{generovane/svatecnizaltar/zalm#{p}.tex}"
     fw.puts
   end

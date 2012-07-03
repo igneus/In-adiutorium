@@ -7,8 +7,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c g g f( d) d4. \barMin
-    f4 f a c g4. g \barMin
+    a4 c g g f( d) d \barMin
+    f4 f a c g4. g \barMaior
     f4 e( f) d d \barMin
     a' g f g a f4. f \barFinalis
   }
@@ -18,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "V"
-    differentia = "a" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 113"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -29,7 +29,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g f d4. c \barMin
+    a4 f g f d4. c \barMaior
     e4 f g a4. g \barMin
     a4 a g f e( f) d d \barFinalis
   }
@@ -77,9 +77,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a c c( b) c4. \barMin
-    c4 d e c4. a b4( c) a( g) g \barMin
-    g4 g( a) g4. g \barFinalis
+    g4 a g a c c( b) c \barMin
+    c4 d e c4. a b4( c) a( g) g \barMaior
+    g4 g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- be -- ný jsi, Pa -- ne,
@@ -118,19 +118,13 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
-\markup\justify {
-  K následujícím antifonám je - z důvodu jednoty žalmu -
-  vhodné zpívat žalm vždy na tonus VIII.G, i když druhá a
-  třetí antifona si žádají VIII.c a VIII.G*.
-}
-
 \score {
   \relative c'' {
     \choralniRezim
     g4( f) g g4.( a) \barMin
     a4 g( a) a b c c( b) c \barMaior
     c b( a) g( a) e( f) g \barMax
-    e f g4. g \barFinalis
+    e f g g \barFinalis
   }
   \addlyrics {
     V_sou -- že -- ní 
@@ -151,8 +145,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c b c a g a g g \barMin
-    a4 b g4. g \barFinalis
+    g4 a c c c b c a g g( a) g g \barMin
+    a4 b g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
@@ -161,7 +155,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "G" 
     psalmus = "Žalm 118-II"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -171,9 +165,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b4. \barMin
-    c4 c b a f( a) g4. \barMin
-    f4 a g4. g \barFinalis
+    g4( a) b c c b \barMin
+    c4 c b a f( a) g \barMin
+    f4 a g g \barFinalis
   }
   \addlyrics {
     Bůh je Hos -- po -- din
@@ -183,7 +177,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G" 
     psalmus = "Žalm 118-III"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -197,9 +191,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g g a b c d e d d4. \barMin
-    c4 c b a g f f( g) g4. \barMin
-    g4 a g4. g \barFinalis
+    a4 b g g a b c d e d d \barMin
+    c4 c b a g f f( g) g \barMin
+    g4 a g g \barFinalis
   }
   \addlyrics {
     Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy

@@ -1,13 +1,15 @@
 \markup {\nadpisDen {Čtvrtek 1. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
     \key f\major
-    d4 a' g bes a( g) a4. \breathe a4 bes a4. \breathe
-    a4 f f g f( d) d \bar "||"
+    d4 a' g bes a( g) a4. \barMin a4 bes a4. \barMin
+    a4 f f g f( d) d \barFinalis
   }
   \addlyrics {
     Pro -- buď se, má du -- še, pro -- buď se, ci -- te -- ro a har -- fo.
@@ -25,7 +27,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) a4.( c) \breathe c4 d c c c b c a( g) g \breathe f a g( f) g g4. \bar "||"
+    g4( f g) a4.( c) \barMin c4 d c c c b c a( g) g \barMin f a g( f) g g4. \barFinalis
   }
   \addlyrics {
     Můj lid se na -- sy -- tí mým do -- bro -- di -- ním, pra -- ví Hos -- po -- din.
@@ -69,7 +71,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f d d( g) g4. \breathe a4 c a g a \breathe a a g f e( f) d d \bar "||"
+    f4 g f d d( g) g4. \barMin a4 c a g a \barMin a a g f e( f) d d \barFinalis
   }
   \addlyrics {
     O -- te -- vři mé o -- či, ať po -- zo -- ru -- ji 
@@ -88,7 +90,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d e f( d) d \breathe e f d d \bar "||"
+    d4 c d e f( d) d \barMin e f d d \barFinalis
   }
   \addlyrics {
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
@@ -106,8 +108,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c( a) a e' f f e f d d \breathe
-    f g a g f4. d4 f e( d) c( d) d4. \bar "||"
+    d4 d d c( a) a e' f f e f d d \barMin
+    f g a g f4. d4 f e( d) c( d) d4. \barFinalis
   }
   \addlyrics {
     O -- brať se ke mně a smi -- luj se na -- de mnou,
@@ -128,8 +130,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g( a) a \breathe a a a g( a) a a c a g( a) a \breathe
-    g a bes( c a4.) a4. f4( e) d d \bar "||"
+    g4 f g( a) a \barMin a a a g( a) a a c a g( a) a \barMin
+    g a bes( c a4.) a4. f4( e) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, vo -- lal jsem k_to -- bě a 
@@ -148,7 +150,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 d c d( e f) f \breathe a c a f( g) a a a g a f d( f) f \bar "||"
+    f4 d c d( e f) f \barMin a c a f( g) a a a g a f d( f) f \barFinalis
   }
   \addlyrics {
     Šťast -- ný je člo -- věk, kte -- ré -- mu Hos -- po -- din

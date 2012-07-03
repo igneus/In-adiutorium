@@ -364,9 +364,9 @@
     \relative c' {
       \choralniRezim
       \key f \major
-      f4( g) g g a bes a g a f g a a \breathe
-      a a g a bes( f) g a \breathe
-      a bes a a a g f g d d \bar "||"
+      f4( g) g g a bes a g a f g a a \barMin
+      a a g a bes( f) g a \barMin
+      a bes a a a g f g d d \barFinalis
     }
     \addlyrics {
       Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a

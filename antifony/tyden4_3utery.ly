@@ -6,8 +6,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g a bes a( g) a \breathe \bar "" a g c c g a( bes) a a \breathe \bar ""
-    f g a( bes) g( a) a\bar "" a g( f) g f d( c) d  \bar "||"
+    f4 g a bes a( g) a \barMin \bar "" a g c c g a( bes) a a \barMin \bar ""
+    f g a( bes) g( a) a\bar "" a g( f) g f d( c) d  \barFinalis
   }
   \addlyrics {
     Chci tě, Hos -- po -- di -- ne, chvá -- lit ce -- lým svým ži -- vo -- tem,
@@ -26,7 +26,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g a a a b( a) a \breathe a g a g g e4. \bar "||"
+    e4 g a a a b( a) a \barMin a g a g g e4. \barFinalis
   }
   \addlyrics {
     Ne -- vzda -- luj od nás, Pa -- ne, své mi -- lo -- sr -- den -- ství.
@@ -44,7 +44,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d \breathe f e d c a b a( g) g \bar "||"
+    c4( d) d \barMin f e d c a b a( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
@@ -66,8 +66,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a \breathe a f g a f4. e \breathe
-    e4 f g e e d \bar "||"
+    f4 g g( a) a \barMin a f g a f4. e \barMin
+    e4 f g e e d \barFinalis
   }
   \addlyrics {
     Bla -- ze to -- mu, kdo zná Bo -- ží vů -- li a ži -- je po -- dle ní.
@@ -105,7 +105,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e c c f e c a \breathe d c d f f e c d4. \bar "||"
+    d4 e c c f e c a \barMin d c d f f e c d4. \barFinalis
   }
   \addlyrics {
     Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
@@ -126,7 +126,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f g g( a) a \breathe a( bes) a a g f e( f d) d \bar "||"
+    d4 d f g g( a) a \barMin a( bes) a a g f e( f d) d \barFinalis
   }
   \addlyrics {
     Kdo nás su -- žo -- va -- li, žá -- da -- li od nás ra -- dost.
@@ -144,7 +144,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 e d c4.( b) c4 d d( e) d \breathe c b( d) a( g) g \bar "||"
+    d4 e d c4.( b) c4 d d( e) d \barMin c b( d) a( g) g \barFinalis
   }
   \addlyrics {
     Bu -- du ti hrát, Hos -- po -- di -- ne, před an -- dě -- ly.

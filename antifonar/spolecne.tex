@@ -40,8 +40,12 @@
     \url{http://inadiutorium.xf.cz}
 }
 
+\newcommand{\lilypondbookVersion}{
+  \input{|"lilypond-book --version"}
+}
+
 \newcommand{\tirazSazbaProgramem}{
-  Vysázeno programy \LaTeX  a LilyPond.
+  Vysázeno programy \LaTeX  a LilyPond % \lilypondbookVersion
 }
 
 \newcommand{\tirazSvazkuAntifonare}{
@@ -99,7 +103,7 @@
   
   projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
   
-  sazba programy LilyPond a \LaTeX
+  sazba programy \LaTeX a LilyPond \lilypondbookVersion
 }
 
 % cesky format data:
@@ -167,27 +171,63 @@
   \nadpisHodinka{Kompletář}
 }
 
+% nadpis hodinky uzivany v indexu svatku svatecniho zaltare
+\newcommand{\nadpisHodinkaVIndexu}[1]{
+  \noindent#1:
+}
+
+% Varianty tech samych prikazu pro index svatku:
+\newcommand{\idxModlitbaSeCtenim}{
+  \nadpisHodinkaVIndexu{modlitba se čtením}
+}
+
+\newcommand{\idxRanniChvaly}{
+  \nadpisHodinkaVIndexu{ranní chvály}
+}
+
+\newcommand{\idxModlitbaUprostredDne}{
+  \nadpisHodinkaVIndexu{modlitba uprostřed dne}
+}
+
+\newcommand{\idxNespory}{
+  \nadpisHodinkaVIndexu{nešpory}
+}
+
+\newcommand{\idxNesporyI}{
+  \nadpisHodinkaVIndexu{první nešpory}
+}
+
+\newcommand{\idxNesporyII}{
+  \nadpisHodinkaVIndexu{druhé nešpory}
+}
+
+\newcommand{\idxKompletar}{
+  \nadpisHodinkaVIndexu{kompletář}
+}
+
+
 % Cilem je, aby tento nadpis nad sebou nemel tolik mista
 % a tak umoznoval "prilepeni" predchazejici rubriky.
-\newcommand{\nadpisZalmuBezMezery}[1]{
+\newcommand{\nadpisZalmuBezMezery}[1]{%
 
   % Nepouziva prostredi center, protoze to si svevolne pridava
   % dodatecny vertikalni prostor
-  \begingroup\centering 
-    \textbf{#1}
-  \endgroup
-  \vspace{3mm}
+  \begingroup\centering%
+    \textbf{#1}%
+  \endgroup%
+  \vspace{3mm}%
   \nopagebreak
 }
 
 % obvykle napr. "zalm 94"
-\newcommand{\nadpisZalmu}[1]{
-  \vspace{2mm}
-  \begin{center}
-    \textbf{#1}
-  \end{center}
-  \nopagebreak
+\newcommand{\nadpisZalmu}[1]{%
+  \vspace{2mm}%
+  \begin{center}%
+    \textbf{#1}%
+  \end{center}%
+  \nopagebreak%
 }
+
 
 % Napr. "hymnus", "responsorium", "zalmy"
 \newcommand{\nadpisTypTextu}[1]{

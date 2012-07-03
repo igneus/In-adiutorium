@@ -1,10 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-% cestina hazi pri prekladu error a tak zdrzuje a blokuje automaticke generovani;
-% pri tvorbe finalniho vystupu je treba ji odkomentovat a preklad spoustet
-% rucne, ne pres rake.
-% \usepackage{czech} 
+\usepackage[czech]{babel} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
@@ -14,12 +11,11 @@
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{color} % barevny text
 
-\usepackage[T1]{fontenc}
-% font Palatino:
-% \usepackage[sc]{mathpazo}
-% \linespread{1.05}        
+\usepackage{zref-savepos} % potreba pro znacky na okraji
+\usepackage{changepage}
+\usepackage{etoolbox}
 
-% font Bookman:
+\usepackage[T1]{fontenc}
 \usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
@@ -50,6 +46,7 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newenvironment{hora}{}{}
+\newenvironment{psalmus}{}{}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
@@ -99,13 +96,10 @@
 \begin{document}
 
 \input{spolecne.tex}
-
-\pagestyle{empty}
+\input{znacky.tex}
 
 \titulniStrankaSvazkuAntifonare
-
-\newpage \mbox{}
-\newpage % empty page
+\prazdnaStranka
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -142,7 +136,6 @@
 \rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
 strofě.}
 \input{generovane/nedele/zalm95.tex}
-\label{zalm24}
 \end{hora}
 
 \clearpage
@@ -160,6 +153,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
 \input{generovane/nedele/kantikum_fp2.tex}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
 \end{hora}
@@ -172,10 +166,11 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm63.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant2.ly}
-\input{generovane/nedele/kantikum_dan3i.tex}
+\input{generovane/nedele/kantikum_dan3iii.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm149.tex}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
 \end{hora}
@@ -205,6 +200,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -230,6 +226,7 @@ strofě.}
 \end{hora}
 \rubrikaMagnificat
 
+\pagebreak % ZLOM1
 \ranniChvaly
 \rubrikaInvitatorium
 \begin{hora}
@@ -302,7 +299,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant1.ly}
 \input{generovane/nedele/zalm93.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant2.ly}
-\input{generovane/nedele/kantikum_dan3i.tex}
+\input{generovane/nedele/kantikum_dan3iii.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_rch-ant3.ly}
 \input{generovane/nedele/zalm148.tex}
 
@@ -316,13 +313,14 @@ strofě.}
 \typZalmy
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant1.ly}
 \input{generovane/nedele/zalm118i.tex}
+\pagebreak % ZLOM1
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant2.ly}
 \input{generovane/nedele/zalm118ii.tex}
 \lilypondfile{generovane/nedele/tyden3_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm118iii.tex}
 
 \typVers
-\lilypondfile{generovane/nedele/nedele_verse_ne1v.ly}
+\lilypondfile{generovane/nedele/nedele_verse_ne3v.ly}
 \end{hora}
 
 \nesporyII
@@ -335,6 +333,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-ant3.ly}
 \lilypondfile{kantikum-Zj19.ly}
 
+\pagebreak % ZLOM1
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
 \end{hora}
@@ -386,8 +385,9 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden4_1nedele_up-ant3.ly}
 \input{generovane/nedele/zalm76ii.tex}
 
+\pagebreak % ZLOM1
 \typVers
-\lilypondfile{generovane/nedele/nedele_verse_ne2v.ly}
+\lilypondfile{generovane/nedele/nedele_verse_ne4v.ly}
 \end{hora}
 
 \nesporyII

@@ -5,8 +5,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f) d c d e f g g( a) a \breathe
-    a a c( a) g a g f e( d) d \bar "||"
+    d4 d d( f) d c d e f g g( a) a \barMin
+    a a c( a) g a g f e( d) d \barFinalis
   }
   \addlyrics {
     Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
@@ -26,8 +26,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 g a( bes) bes( a) a f g g( a) a \breathe
-    a bes( f) g( a) g \breathe f g a f e d4. d \bar "||"
+    g4 g a( bes) bes( a) a f g g( a) a \barMin
+    a bes( f) g( a) g \barMin f g a f e d4. d \barFinalis
   }
   \addlyrics {
     Bůh mě ob -- lé -- kl v_rou -- cho spá -- sy
@@ -46,7 +46,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 c d( f) f \breathe f g( a bes4.) a f4 a g( f) f \bar "||"
+    f4 c d( f) f \barMin f g( a bes4.) a g4 a g( f) f \barFinalis
   }
   \addlyrics {
     Po -- kud ži -- ji, chci chvá -- lit Hos -- po -- di -- na.
@@ -90,7 +90,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a4. \breathe c4 b c a( g) g4. \breathe a4 g f f( g) e4. \bar "||"
+    g4 f g a4. \barMin c4 b c a( g) g4. \barMin a4 g f f( g) e4. \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zná myš -- len -- ky li -- dí: jsou vě -- ru mar -- né.
@@ -108,7 +108,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a a a b a g( f) e \breathe c d d d d f f e \bar "||"
+    g4 a a a a a b a g( f) e \barMin c d d d d f f e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm 
@@ -129,8 +129,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( bes') a g f( g a) a4. \breathe a4 a a a g( f g) g \breathe
-    a f e( d) d \bar "||"
+    d4( bes') a g f( g a) a4. \barMin a4 a a a g( f g) g \barMin
+    a f e( d) d \barFinalis
   }
   \addlyrics {
     Po -- di -- vu -- hod -- ná je pro mě tvá zna -- lost, Hos -- po -- di -- ne.
@@ -148,8 +148,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( g f) e f g g( a) a \breathe
-    a a a( bes) a g g a a \breathe f g a f e( d) d4. \bar "||"
+    d4 d d e( g f) e f g g( a) a \barMin
+    a a a( bes) a g g a a \barMin f g a f e( d) d4. \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zkou -- má lid -- ské srd -- ce,

@@ -1,11 +1,14 @@
 \markup {\nadpisDen {Pondělí 1. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f \breathe g a f d \breathe f f f e c d \bar "||"
+    d4 d e f f \barMin g a f d \barMaior
+    f f f e c d \barFinalis
   }
   \addlyrics {
     K_to -- bě se mo -- dlím, Hos -- po -- di -- ne,
@@ -24,7 +27,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4. a a g4( a) bes c a( g) g \breathe f( g) e d \bar "||"
+    f4. a a g4( a) bes c a( g) g \barMin f( g) e d \barFinalis
   }
   \addlyrics {
     Chvá -- lí -- me tvé slav -- né jmé -- no, náš Bo -- že.
@@ -42,7 +45,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c d( c) c \breathe b( c) a g f( g) g \bar "||"
+    c4 c c d( c) c \barMin b( c) a g f( g) g \barFinalis
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -64,9 +67,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c bes a g4. a \breathe
-    a4 g a bes c bes( a) a \breathe
-    a4 a( d,) e( f) g f e d \bar "||"
+    \key f \major
+    a4 c bes a g4. a \barMaior
+    a4 g a bes c bes( a) a \barMin
+    a4 a( d,) e( f) g f e d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
@@ -85,8 +89,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f e f d d \breathe
-    d4 c d e f a( a) g f e f d4. d \bar "||"
+    f4 f e f d d \barMin
+    d4 c d e f a4. g4 f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
@@ -105,12 +109,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f d( c) c4.( d) \breathe
-    f4 f e( c) a4. e'4 f( d) d4. \breathe
-    d4 e( f) f( g) g4. f4 f g f e c d d \bar "||"
+    e4 f d( c) c4.( d) \barMaior
+    f4 f e( c) a4. \barMin e'4 f( d) d4. \barMax
+    d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
   }
   \addlyrics {
-    Bůh je soud -- ce spra -- ved -- li -- vý a moc -- ný;
+    Bůh je soud -- ce 
+    spra -- ved -- li -- vý a moc -- ný;
     on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
   }
   \header {
@@ -128,7 +133,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a f( e) d4. e4 f g( f) d d \bar "||"
+    a4 a a f( e) d4. e4 f g( f) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zkou -- má srd -- ce člo -- vě -- ka.
@@ -167,9 +172,10 @@
 tIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    f4 g a g( a) f( d) d \breathe
-    f g a a g a bes( a g) a \breathe
-    g f e( d) d \bar "||"
+    \key f \major
+    f4 g a g( a) f( d) d \barMaior
+    f g a a g a a( bes a) a \barMin
+    g f e( d) d \barFinalis
   }
   \addlyrics {
     Bůh si nás vy -- vo -- lil 

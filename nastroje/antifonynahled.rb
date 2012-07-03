@@ -43,6 +43,8 @@ f.puts <<EOS
 %% AUTOMATICKY VYTVORENO SKRIPTEM antifonynahled.rb %%
 
 \\include "spolecne.ly"
+\\include "dilyresponsorii.ly"
+
 \\include "antifony/ferie_kantevgant.ly"
 
 EOS

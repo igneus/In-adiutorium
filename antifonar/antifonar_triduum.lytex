@@ -1,0 +1,432 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[czech]{babel} 
+
+\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+\usepackage{color} % barevny text
+
+% kvuli znacky.tex:
+\usepackage{zref-savepos}
+\usepackage{changepage}
+\usepackage{etoolbox}
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
+\newcommand{\cisloSvazku}{6}
+\newcommand{\nazev}{Velikonoční triduum}
+
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
+  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+  
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newenvironment{hora}{}{}
+
+\newenvironment{psalmus}{
+  \begin{multicols}{2}
+}{
+  \end{multicols}
+}
+
+\newcommand{\typRespAntifona}{
+  \nadpisTypTextu{Antifona po krátkém čtení}
+}
+
+\newcommand{\rubrikaResp}[1]{
+  \begin{flushleft}
+  \noindent
+  \rubrika{\textsc{Antifona po krátkém čtení}, str. \pageref{#1_resp}.}
+  \end{flushleft}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\input{spolecne.tex}
+\input{rubriky.tex}
+\input{znacky.tex}
+
+\renewcommand{\nadpisDen}[1]{
+  \begin{center}
+  {\LARGE #1}
+  \end{center}
+  \fancyhead[CE,CO]{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\renewcommand{\rubrikaBenedictus}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{Zachariášovo kantikum je na str. \pageref{benedictus}.}
+  \end{flushleft}
+}
+
+\renewcommand{\rubrikaMagnificat}{
+  \begin{flushleft}
+  \noindent
+  \rubrika{Kantikum Panny Marie je na str. \pageref{magnificat}.}
+  \end{flushleft}
+}
+
+% Vlastni titulni stranka - s podtitulem, ktery v tirazi neni:
+\pagestyle{empty} % bez hlavicky a bez cisla stranky
+\begin{titlepage}
+  \begin{center}
+    \soubornyNazev
+    
+    Svazeček \cisloSvazku.
+    
+    \vspace*{4cm}
+    
+    {\Huge \textbf{\nazev}}
+    
+    \vspace*{1cm}
+    
+    \setlength{\parskip}{0.3cm}
+    
+    {\bf \Large Zelený čtvrtek, Velký pátek, 
+    
+    Bílá sobota,
+    
+    neděle Zmrtvýchvstání Páně}
+        
+    \vspace{1cm}
+    
+    {\large \autor}
+    
+    \vfill
+    In adiutorium
+    
+    \onlyyeardate \today
+  \end{center}
+\end{titlepage}
+  
+\prazdnaStranka
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
+%%% kantika z evangelii
+
+\nadpisTyden{Kantika z evangelií}{Kantika z evangelií}
+\fancyhead[CE,CO]{Kantika z evangelií}
+
+\label{benedictus}
+\input{generovane/triduum/kantikum_benedictus.tex}
+
+\label{magnificat}
+\input{generovane/triduum/kantikum_magnificat.tex}
+
+\newpage % ZLOM0
+
+%%% invitatorium
+
+\nadpisTyden{Invitatorium}{Invitatorium}
+\fancyhead[CE,CO]{Invitatorium}
+\label{invitatorium}
+
+\begin{hora}
+\noindent \rubrika{Velký pátek}
+\lilypondfile{generovane/triduum/pust_triduum_pa-invit.ly}
+\noindent \rubrika{Bílá sobota}
+\lilypondfile{generovane/triduum/pust_triduum_so-invit.ly}
+\newpage % ZLOM1
+\noindent \rubrika{Zmrtvýchvstání Páně}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_invit.ly}
+
+\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
+strofě.}
+\input{generovane/triduum/zalm95.tex}
+\end{hora}
+
+%%% Zeleny ctvrtek
+
+\clearpage
+
+\fancyhead[CE,CO]{}
+
+\nadpisDen{Zelený čtvrtek}
+
+\nespory
+
+\typZalmy
+\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant1.ly}
+\input{generovane/triduum/zalm72i.tex}
+\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant2.ly}
+\input{generovane/triduum/zalm72ii.tex}
+\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant3.ly}
+\input{generovane/triduum/kantikum_zj11.tex}
+
+\typRespAntifona
+\lilypondfile{generovane/triduum/pust_triduum_ct-resp.ly}
+
+\typMagnificat
+\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-mag.ly}
+\rubrikaMagnificat
+
+%%% Velky patek
+
+\clearpage
+\nadpisDen{Velký pátek}
+
+\ranniChvaly
+
+\rubrikaInvitatorium
+
+\typZalmy
+\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant1.ly}
+\input{generovane/triduum/zalm51.tex}
+\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant2.ly}
+\input{generovane/triduum/kantikum_hab3.tex}
+\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant3.ly}
+\input{generovane/triduum/zalm147ii.tex}
+
+\newpage % ZLOM1
+\typRespAntifona
+\label{pa_resp}
+\lilypondfile{generovane/triduum/pust_triduum_pa-resp.ly}
+
+\typBenedictus
+\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ben.ly}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/pust_triduum_pa-up-dopo.ly}
+\newpage % ZLOM1
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/pust_triduum_pa-up-po.ly}
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/pust_triduum_pa-up-odpo.ly}
+\rubrikaDoplnovaciCyklus
+
+\input{generovane/triduum/zalm40.tex}
+\input{generovane/triduum/zalm54.tex}
+\input{generovane/triduum/zalm88.tex}
+
+\typVers
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-po.ly}
+\newpage % ZLOM1
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_pa-odpo.ly}
+
+\nespory
+
+\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant1.ly}
+\input{generovane/triduum/zalm116ii.tex}
+\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant2.ly}
+\input{generovane/triduum/zalm143.tex}
+\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant3.ly}
+\input{generovane/triduum/kantikum_fp2.tex}
+
+\rubrikaResp{pa}
+
+\typMagnificat
+\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-mag.ly}
+\rubrikaMagnificat
+
+%%% Bila sobota
+
+\clearpage
+\nadpisDen{Bílá sobota}
+
+\ranniChvaly
+
+\rubrikaInvitatorium
+
+\typZalmy
+\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant1.ly}
+\input{generovane/triduum/zalm64.tex}
+\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant2.ly}
+\input{generovane/triduum/kantikum_iz38.tex}
+\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant3.ly}
+\input{generovane/triduum/zalm150.tex}
+
+\typRespAntifona
+\label{so_resp}
+\lilypondfile{generovane/triduum/pust_triduum_so-resp.ly}
+
+\newpage % ZLOM1
+\typBenedictus
+\lilypondfile{generovane/triduum/pust_triduum_so-rch-ben.ly}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/pust_triduum_so-up-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/pust_triduum_so-up-po.ly}
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/pust_triduum_so-up-odpo.ly}
+\rubrikaDoplnovaciCyklus
+
+\input{generovane/triduum/zalm27.tex}
+\input{generovane/triduum/zalm30.tex}
+\input{generovane/triduum/zalm76.tex}
+
+\typVers
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-po.ly}
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_so-odpo.ly}
+
+\newpage % ZLOM1
+\nespory
+
+\typZalmy
+\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant1.ly}
+\input{generovane/triduum/zalm116ii.tex}
+\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant2.ly}
+\input{generovane/triduum/zalm143.tex}
+\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant3.ly}
+\input{generovane/triduum/kantikum_fp2.tex}
+
+\rubrikaResp{so}
+
+\typMagnificat
+\lilypondfile{generovane/triduum/pust_triduum_so-nesp-mag.ly}
+\rubrikaMagnificat
+
+%%% Zmrtvychvstani
+
+\clearpage
+\nadpisDen{Neděle Zmrtvýchvstání Páně}
+
+\ranniChvaly
+
+\rubrikaInvitatorium
+
+\typZalmy
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant1.ly}
+\input{generovane/triduum/zalm63.tex}
+\newpage % ZLOM1
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant2.ly}
+\input{generovane/triduum/kantikum_dan3iii.tex}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant3.ly}
+\input{generovane/triduum/zalm149.tex}
+
+\typRespAntifona
+\label{ne_resp}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_resp.ly}
+
+\newpage % ZLOM1
+\typBenedictus
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-ben.ly}
+\rubrikaBenedictus
+
+\modlitbaUprostredDne
+
+\rubrika{dopoledne:}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-dopo.ly}
+\rubrika{v poledne:}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-po.ly}
+\rubrika{odpoledne:}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-odpo.ly}
+\rubrikaDoplnovaciCyklus
+
+\input{generovane/triduum/zalm118i.tex}
+\input{generovane/triduum/zalm118ii.tex}
+\input{generovane/triduum/zalm118iii.tex}
+
+\typVers
+\rubrika{dopoledne, v poledne i odpoledne:}
+\lilypondfile{generovane/triduum/triduum_verse_ne.ly}
+
+\newpage % ZLOM1
+\nespory
+
+\typZalmy
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant1.ly}
+\input{generovane/triduum/zalm110.tex}
+\newpage % ZLOM1
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant2.ly}
+\input{generovane/triduum/zalm114.tex}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant3.ly}
+\lilypondfile{kantikum-Zj19.ly}
+
+\newpage % ZLOM1
+\rubrikaResp{ne}
+
+\typMagnificat
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-mag.ly}
+\rubrikaMagnificat
+
+%%% Doplnovaci cyklus zalmu
+
+\clearpage
+\nadpisDen{Doplňovací cyklus žalmů}
+\label{doplnovacicyklus}
+
+\nadpisHodinka{První oddíl (dopoledne)}
+\begin{hora}
+\input{generovane/triduum/zalm120.tex}
+\input{generovane/triduum/zalm121.tex}
+\input{generovane/triduum/zalm122.tex}
+\end{hora}
+
+\nadpisHodinka{Druhý oddíl (v poledne)}
+\begin{hora}
+\input{generovane/triduum/zalm123.tex}
+\input{generovane/triduum/zalm124.tex}
+\input{generovane/triduum/zalm125.tex}
+\end{hora}
+
+\nadpisHodinka{Třetí oddíl (odpoledne)}
+\begin{hora}
+\input{generovane/triduum/zalm126.tex}
+\input{generovane/triduum/zalm127.tex}
+\input{generovane/triduum/zalm128.tex}
+\end{hora}
+
+
+\clearpage
+\pagestyle{empty}
+\tableofcontents
+
+\prazdnaStranka
+
+\clearpage
+\tirazSvazkuAntifonare
+
+\end{document}

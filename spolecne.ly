@@ -1,3 +1,5 @@
+\version "2.15.34"
+
 % nekolik vychytavek standartne importovanych do vsech projektu
 % z webu inadiutorium.xf.cz
 
@@ -6,7 +8,12 @@
   ragged-last = ##t
   \context {
     \Score
-    \remove "Bar_number_engraver"
+    \remove Bar_number_engraver
+  }
+  \context {
+    \Staff
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel
   }
 }
 
@@ -59,6 +66,15 @@ inAdiutorium = \markup {
    (interpret-markup layout props
 		     (markup #:smallCaps
 			     #:with-color #'red arg)))
+
+#(define-markup-command (titleSvatek layout props titul rank datum) (markup? markup? markup?)
+   "Sestavi header:title pro oficium svatku"
+   (interpret-markup layout props
+     (markup 
+        #:center-column 
+          (#:medium #:large datum 
+           titul 
+           #:medium #:large rank))))
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
@@ -90,7 +106,8 @@ choralniRezim = {
   \cadenzaOn
   
   % vzdycky vypsat becka
-  #(set-accidental-style 'forget) 
+  % #(set-accidental-style 'forget) % for Lily 2.14
+  \accidentalStyle "forget" % 2.15
 }
 
 choralniPredznamenaniIII = 
@@ -145,6 +162,10 @@ Verse = \lyricmode {
 }
 
 Hvezdicka = \lyricmode { "*" }
+Dagger = \markup { \char ##x02020 }
+
+% oznacuje volitelne aleluja na konci
+rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 % prikaz pro vyrobu neviditelnych not
 

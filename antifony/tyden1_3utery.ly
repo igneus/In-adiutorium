@@ -1,14 +1,16 @@
 \markup {\nadpisDen {Úterý 1. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a4. \breathe \bar ""
-    a4 c c d( c) a4.( g) \bar "|"
-    f4 g( a) a4. \breathe \bar ""
-    a4 a a a f e d d \bar "||"
+    a4 a a g f g( a) a4. \barMin \bar ""
+    a4 c c d( c) a4.( g) \barMax
+    f4 g( a) a4. \barMin \bar ""
+    a4 a a a f e d d \barFinalis
   }
   \addlyrics {
     Kdo  má ne -- vin -- né ru -- ce a čis -- té srd -- ce,
@@ -27,8 +29,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g a a \breathe
-    a a g a f d e4. e \bar "||"
+    e4 g a a \barMin
+    a a g a f d e4. e \barFinalis
   }
   \addlyrics {
     Svý -- mi či -- ny ve -- leb -- te věč -- né -- ho krá -- le.
@@ -46,7 +48,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c c b c a( g) g4. \breathe a4 a a g f e e \bar "||"
+    a4 c c b c a( g) g4. \barMin a4 a a g f e e \barFinalis
   }
   \addlyrics {
     Slu -- ší se, a -- by do -- bří chvá -- li -- li Hos -- po -- di -- na.
@@ -68,7 +70,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g g a( f) d d4. \breathe e4. f4 d f d c d d4. \bar "||"
+    d4 f g g a( f) d d4. \barMin e4. f4 d f d c d d4. \barFinalis
   }
   \addlyrics {
     Bla -- ze těm, kdo krá -- če -- jí v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
@@ -86,7 +88,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( a c) d \breathe f g f d4.( c) f4( e) c d \bar "||"
+    d4 d c( a c) d \barMin f g f d4.( c) f4( e) c d \barFinalis
   }
   \addlyrics {
     Pro tvou po -- moc ať za -- ple -- sá mé srd -- ce.
@@ -104,9 +106,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g f f4.( g) \breathe
-    g4 a c c c c d d d c a a4. \breathe
-    b4 c a g f( g a) a4.( g) \bar "||"
+    g4 g g( a) g f f4.( g) \barMin
+    g4 a c c c c d d d c a a4. \barMin
+    b4 c a g f( g a) a4.( g) \barFinalis
   }
   \addlyrics {
     Kde se roz -- mno -- žil hřích, 
@@ -168,9 +170,9 @@
 tIuteryNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    e4( a) a \breathe
-    b c a g e f( a) g f e e \breathe
-    d( a') b( g) a4. g4( f) e( d e) e \bar "||"
+    e4( a) a \barMin
+    b c a g e f( a) g f e e \barMin
+    d( a') b( g) a4. g4( f) e( d e) e \barFinalis
   }
   \addlyrics {
     Pa -- ne, vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství a kně -- ze.

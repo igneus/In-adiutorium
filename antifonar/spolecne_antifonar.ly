@@ -15,9 +15,10 @@
   }
 }
 
-\paper {
-  myStaffSize = #18
+myStaffSize = #18
+#(set-global-staff-size myStaffSize)
 
+\paper {
   #(define fonts
     (make-pango-font-tree 
                           "URW Bookman L"
@@ -94,6 +95,9 @@ Verse = \lyricmode {
   }
 }
 
+Hvezdicka = \lyricmode { "*" }
+Dagger = \markup { \char ##x02020 }
+
 % prikaz pro vyrobu neviditelnych not
 
 neviditelna = #(define-music-function (parser location note)
@@ -105,3 +109,5 @@ neviditelna = #(define-music-function (parser location note)
     \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
+
+sestavTitulek = \markup {}

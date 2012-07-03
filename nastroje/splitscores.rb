@@ -124,17 +124,26 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
       raise "Couldn't find, where notes begin, couldn't thus insert mode info (score no. #{score.number})."
     end
     
-    case score.header['quid']
+    
+    if score.header['quidbreve'] then
+      quid = score.header['quidbreve']
+    else
+      quid = score.header['quid']
+    end
+    
+    # Why are both "mode.differentia" and "quid" in quotation marks?
+    # Because - even if one of them contains a space, we want to avoid line-break.
+    case quid
     when /ant/
       puts "  adding mode information to score" if setup[:verbose]
       modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\center-column { \\bold { #{score.header['modus']}.#{score.header['differentia']} } \"#{score.header['quid']}\" }
+        \\center-column { \\bold { \"#{score.header['modus']}.#{score.header['differentia']}\" } \"#{quid}\" }
       }"
       newtext[i+1] = modinfo
     when /resp/
       puts "  adding mode information to score" if setup[:verbose]
       modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\center-column { \\bold { #{score.header['modus']} } #{score.header['quid']} }
+        \\center-column { \\bold { \"#{score.header['modus']}\" } #{quid} }
       }"
       newtext[i+1] = modinfo
     end
@@ -154,8 +163,8 @@ split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose
       }
       
       newtext[i] = "\n\\override Staff.Clef #'stencil = ##f\n"
-    rescue
-      STDERR.puts "Wasn't able to switch clef off."
+    rescue => e
+      STDERR.puts "Wasn't able to switch clef off: "+e.message
     end
   end
   

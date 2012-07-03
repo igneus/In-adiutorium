@@ -8,7 +8,7 @@
 # such tagged lines.
 #
 # Invoking:
-# pagebreakmanager.rb <on|off|delete|show> <file> [options] <tag>
+INVOKING = "pagebreakmanager.rb <on|off|delete|show> <file> [options] <tag>"
 
 require 'optparse'
 require 'stringio'
@@ -47,7 +47,9 @@ end
 
 # Parse options
 
-optparse = OptionParser.new do|opts|
+optparse = OptionParser.new do |opts|
+  opts.banner = INVOKING
+
   opts.on "-f", "--from LINE", Integer, "Start processing at a given line" do |l|
     setup[:from] = l
   end
@@ -58,6 +60,11 @@ optparse = OptionParser.new do|opts|
   
   opts.on "-o", "--overwrite", "Write output into the input file instead of writing it to STDOUT." do
     setup[:overwrite] = true
+  end
+
+  opts.on "-h", "--help", "Print this help." do
+    puts opts
+    exit
   end
 end
 

@@ -6,7 +6,7 @@
   composer = "Jakub Pavlík"
 }
 
-\include "spolecne.ly"
+\include "../spolecne.ly"
 
 \markup {
   \justify {

@@ -10,6 +10,8 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
+\newenvironment{psalmus}{}{}
+
 \begin{document}
 
 \input{spolecne.tex}

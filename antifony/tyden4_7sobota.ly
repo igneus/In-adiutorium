@@ -5,8 +5,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f a g a f e f4. f \breathe e4 f d( c) c4. \breathe
-    f4 g g( a) a a bes a g f f4. \bar "||"
+    f4 f f a g a f e f4. f \barMin e4 f d( c) c4. \barMin
+    f4 g g( a) a a bes a g f f4. \barFinalis
   }
   \addlyrics {
     Do -- bré je o -- pě -- vo -- vat tvé jmé -- no, Svr -- cho -- va -- ný,
@@ -25,8 +25,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') g( f) f( a) a \breathe 
-    a g bes a a4. \breathe g4 f e f( d) d \bar "||"
+    d4 d d( a') g( f) f( a) a \barMin 
+    a g bes a a4. \barMin g4 f e f( d) d \barFinalis
   }
   \addlyrics {
     Dám vám no -- vé srd -- ce
@@ -45,7 +45,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a( c) c4. \breathe c4 b( c) a( g) g \breathe f g a f g4. g \bar "||"
+    c4 a( c) c4. \barMin c4 b( c) a( g) g \barMin f g a f g4. g \barFinalis
   }
   \addlyrics {
     Z_úst dě -- tí a ne -- mluv -- ňat sis při -- pra -- vil slá -- vu.
@@ -67,9 +67,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f g f( d) d \breathe
-    d f g a( bes) a( g) f \breathe
-    e g f d d \bar "||"
+    d4 d f e f g f( d) d \barMin
+    d f g a( bes) a( g) f \barMin
+    e g f d d \barFinalis
   }
   \addlyrics {
     Kéž mi po -- mů -- že tvá ru -- ka,
@@ -88,7 +88,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d( c) c( d) c \breathe d d d b c a( g) g \bar "||"
+    c4( d) d( c) c( d) c \barMin d d d b c a( g) g \barFinalis
   }
   \addlyrics {
     Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
@@ -106,9 +106,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c a b c d d( c) d4.( c) \breathe
-    d4 d f( e) d( c) d \breathe
-    b c d d d b c a( g) g( a g) g \bar "||"
+    c4 c c c a b c d d( c) d4.( c) \barMin
+    d4 d f( e) d( c) d \barMin
+    b c d d d b c a( g) g( a g) g \barFinalis
   }
   \addlyrics {
     U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém

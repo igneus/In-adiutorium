@@ -35,7 +35,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Chvalte...
     \neviditelna f
-    f f f f f f f f f f e g g a
+    f f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f f f f e g a
@@ -43,10 +43,10 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Pan, nas...
     \neviditelna f
-    f f f f f f f f e g g a
+    f f f f f f f f e g a a
     \mal
     \neviditelna f
-    f f f f f f f f f e g a
+    f f f f f f f f f f e g( a)
     \malal
 
     % Nebot...
@@ -59,7 +59,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Slava...
     \neviditelna f
-    f f f f f f f f f e g g a
+    f f f f f f f f f e g a a
     \mal
     \neviditelna f
     f f f f f f e g a

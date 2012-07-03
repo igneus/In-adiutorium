@@ -5,7 +5,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d( f) e( f) d \breathe f f g( f d) d e f d d \bar "||"
+    d4 c d( f) e( f) d \barMin f f g( f d) d e f d d \barFinalis
   }
   \addlyrics {
     Se -- šli své svět -- lo a svou věr -- nost, Hos -- po -- di -- ne.
@@ -21,17 +21,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 e e e e( f) d \breathe e f f f d( c d) d \bar "||"
+    a4 a g f g( f) d \barMin f f e f d( c d) d \barFinalis
   }
   \addlyrics {
     O -- chra -- ňuj nás, Pa -- ne, po ce -- lý náš ži -- vot.
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Iz 38"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -41,7 +41,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a( b c) c \breathe b c d( b) c( a) g \breathe f a g( f) f \bar "||"
+    a4 g a( b c) c \barMin b c d( b) c( a) g \barMin f a g( f) f \barFinalis
   }
   \addlyrics {
     To -- bě, Bo -- že, pa -- tří chva -- lo -- zpěv na Si -- ó -- nu.
@@ -61,9 +61,9 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g4. a \breathe a4 c bes a( g) a4. f4 g e d \bar "||"
+    f4 e f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
   }
   \addlyrics {
     Chci za -- cho -- vá -- vat tvá při -- ká -- zá -- ní, Hos -- po -- di -- ne.
@@ -71,7 +71,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "f" 
     psalmus = "Žalm 119-VII"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -81,7 +81,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a( c) c d( e) c( b c) c \breathe b c c a g f g g \bar "||"
+    c4 a( c) c d( e) c( b c) c \barMin b c c a g f g g \barFinalis
   }
   \addlyrics {
     Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
@@ -99,7 +99,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) e4. d \breathe e4 f g g f e c d d \bar "||"
+    d4 d c( d) e4. d \barMin e4 f g g f e c d d \barFinalis
   }
   \addlyrics {
     Bůh mi po -- má -- há, Pán mě u -- dr -- žu -- je na -- ži -- vu.
@@ -119,7 +119,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 c d f f( g) f \breathe a( c) a a bes( a) g( f) f \bar "||"
+    f4 c d f f( g) f \barMin a( c) a a bes( a) g( f) f \barFinalis
   }
   \addlyrics {
     Ne -- mů -- že -- te slou -- žit Bo -- hu i ma -- mo -- nu.
@@ -137,7 +137,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f f f( g) a c bes( a) a \breathe g( a) f4. f \bar "||"
+    f4 f f f f f( g) a c bes( a) a \barMin g( a) f4. f \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.
@@ -155,8 +155,8 @@
 tIIuteryNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4 c( d) d d c d c( b a g) a \breathe a b( c) a( g) g4. \breathe
-    f4 g a b c a g a \bar "||"
+    a4 c( d) d d c d c( b a g) a \barMin a b( c) a( g) g4. \barMin
+    f4 g a b c a g a \barFinalis
   }
   \addlyrics {
     Be -- rá -- nek, kte -- rý byl za -- bit, si za -- slou -- ží,

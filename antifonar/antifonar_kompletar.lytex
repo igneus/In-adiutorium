@@ -1,6 +1,6 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=1.5cm]{geometry} % okraje stranky
+\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
@@ -31,6 +31,7 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
+\newenvironment{psalmus}{}{}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,18 +75,21 @@ každý den stejně a u následujících dnů se proto neopakují.}
 
 \lilypondfile{generovane/kompletar/kompletar_resp.ly}
 
+\newpage % ZLOM
 \nadpisTypTextu{Simeonovo kantikum}
 
 \lilypondfile{generovane/kompletar/kompletar_sim.ly}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
 % \input{generovane/kompletar/doxologie_2akcenty.tex}
 
+\newpage % ZLOM
 \nadpisDen{Neděle po 2. nešporách}
 
 \lilypondfile{generovane/kompletar/kompletar_neii.ly}
 \input{generovane/kompletar/zalm91.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
+\newpage % ZLOM
 \nadpisDen{Pondělí}
 
 \lilypondfile{generovane/kompletar/kompletar_po.ly}

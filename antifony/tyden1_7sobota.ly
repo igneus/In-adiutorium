@@ -1,11 +1,13 @@
 \markup {\nadpisDen {Sobota 1. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    d4 f( g) g a g f( g) g \breathe a bes a g4.( f) e4 f d( c) d \bar "||"
+    d4 f( g) g a g f( g) g \barMin a bes a g4.( f) e4 f d( c) d \barFinalis
   }
   \addlyrics {
     Při -- chá -- zím na ú -- svi -- tě a spo -- lé -- hám na tvá slo -- va.
@@ -23,8 +25,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a b c4. c \breathe c4 b( c) a( g) g( a g) g \breathe
-    a b c( a) g( f g4.) g4. \bar "||"
+    g4 f g a b c4. c \barMin c4 b( c) a( g) g( a g) g \barMin
+    a b c( a) g( f g4.) g4. \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
@@ -43,7 +45,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d f e d( c) c \breathe c d c( b g) g4. \bar "||"
+    c4( d) d f e d( c) c \barMin c d c( b g) g4. \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na, vši -- chni li -- dé.
@@ -65,7 +67,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a a \breathe a a a a f g f( e) d4. \bar "||"
+    g4 g f g a a \barMin a a a a f g f( e) d4. \barFinalis
   }
   \addlyrics {
     Veď mě, Hos -- po -- di -- ne, po stez -- ce svých na -- ří -- ze -- ní.
@@ -83,7 +85,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d c a4.( g) \breathe b4 c c a4. g4 f g g \bar "||"
+    c4 d d c a4.( g) \barMin b4 c c a4. g4 f g g \barFinalis
   }
   \addlyrics {
     Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
@@ -101,7 +103,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d c) c \breathe b c a g g( a) g \bar "||"
+    c4 c c( d c) c \barMin b c a g g( a) g \barFinalis
   }
   \addlyrics {
     Hle -- dej po -- koj a u -- si -- luj o něj.

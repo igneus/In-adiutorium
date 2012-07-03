@@ -202,7 +202,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       
       %R
       \neviditelna f
-      f f f f f f f f f f f e g a a \barMax
+      f f f f f f f g f \barMin f f e g a a \barMax
       \respVIalelujaResponsum \barFinalis
       
       %V
@@ -223,7 +223,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
-      piece = "neděle - ranní chvály (IV alt.)"
+      piece = "neděle - ranní chvály (VI)"
     }
   }
   
@@ -252,7 +252,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
-      piece = "neděle - druhé nešpory (II)"
+      piece = "neděle - druhé nešpory (VI)"
     }
   }
   
@@ -262,7 +262,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       
       % R
       \neviditelna d
-      f4 f f g( f) d( f) \barMin f f f f f e g a \barMax
+      f4 f f g( f) d( f) f \barMin f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
       
       % V
@@ -283,7 +283,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
-      piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (IV alt.)"
+      piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
     }
   }
   
@@ -315,7 +315,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
-      piece = "pondělí až sobota - ranní chvály (II)"
+      piece = "pondělí až sobota - ranní chvály (VI)"
     }
   }
   
@@ -345,7 +345,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
-      piece = "pondělí až první nešpory neděle - nešpory (II)"
+      piece = "pondělí až první nešpory neděle - nešpory (VI)"
     }
   }
 
