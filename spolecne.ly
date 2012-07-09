@@ -75,6 +75,14 @@ inAdiutorium = \markup {
           (#:medium #:large datum 
            titul 
            #:medium #:large rank))))
+
+#(define-markup-command (titleCommune layout props titul) (markup?)
+   "Sestavi header:title pro oficium svatku"
+   (interpret-markup layout props
+     (markup 
+        #:center-column 
+          (#:medium #:large "společné texty"
+           titul))))
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
