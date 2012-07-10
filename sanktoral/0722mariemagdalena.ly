@@ -1,12 +1,16 @@
 \version "2.12.3"
 
-\header {
-  title = "památka sv. Marie Magdalény (22.7.)"
-  composer = "Jakub Pavlík"
-  dedication = "Magdě k svátku"
-}
-
 \include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "sv. Marie Magdalény"
+            památka
+            22.7.
+  composer = "Jakub Pavlík"
+  dedication = \markup\italic "Magdě k svátku"
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -86,7 +90,7 @@
     \Response Ma -- ri -- e, proč plá -- češ? Pán vstal z_mrt -- vých.
     \Verse Jdi a po -- věz je -- ho u -- čed -- ní -- kům:
     \Response Pán vstal z_mrt -- vých.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "responsorium - VIII"
@@ -162,7 +166,7 @@
   }
 }
 
-\markup { Responsorium po krátkém čtení jako v ranních chválách. }
+\markup { Responsorium jako v ranních chválách. }
 
 \score {
   \relative c'' {
