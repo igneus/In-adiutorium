@@ -308,13 +308,18 @@ zalmy_cteni = []
 adresar_cteni = 'generovane/ctenizaltar/'
 
 cislazalmu_cteni = %w(
-                                      1 2 3
-                                      6 9i 9ii
-                                      10i 10ii 12
-                                      18i 18ii 18iii
-                                      18iv 18v 18vi
-                                      35i 35ii 35iii
-                                      )
+1 2 3
+6 9i 9ii
+10i 10ii 12
+18i 18ii 18iii
+18iv 18v 18vi
+35i 35ii 35iii
+
+104i 104ii 104iii
+31i 31ii 31iii
+37i 37ii 37iii
+39i 39ii 52
+)
                                       
 cislazalmu_cteni.each do |z|
   zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
