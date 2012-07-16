@@ -1,12 +1,15 @@
-\version "2.12.3"
-
-\header {
-  title = "svátek sv. Cyrila a Metoděje (5.7.)"
-  composer = "Jakub Pavlík"
-}
+\version "2.15.40"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "sv. Cyrila, mnicha, a Metoděje, biskupa"
+            svátek
+            5.7.
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -15,7 +18,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b( c) c c( b a) a a a b( c) a( g) \barMaior
+    b( c) c c( b a) a a b( c) a( g) g \barMaior
     g f e d( e) d d \barMin d( f) e f f g( a) g4. g \barMax
     g4 g g f( c') b b( c) c b( c a) a \barMaior
     a( b) c b( c) a4. a \barMin a4( g) f g( a) a( g) g \barFinalis 
@@ -172,7 +175,7 @@
   \relative c'' {
     \choralniRezim
     g f e d( e) d d \barMin f( e f) g( a) a \barMaior
-    a a a a b( c) b g g f g( a) a g g \barFinalis
+    a a a a b( c) b g g \barMin f g( a) a g g \barFinalis
   }
   \addlyrics {
     Bůh je svou mi -- los -- tí po -- vo -- lal,
@@ -282,6 +285,7 @@
 
 \score {
   \relative c'' {
+    \key f \major
     \choralniRezim
     g4 g f( g) g g bes a g a g f( g) g \barMax
     g g g g bes( c) bes g4. g \barMaior

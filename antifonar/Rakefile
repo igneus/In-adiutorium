@@ -59,7 +59,6 @@ end
 dirs = { 'generovane' => {'kompletar' => {},
                                                 'nedele' => {},
                                                 'zaltar' => {},
-                                                'ctenizaltar' => {},
                                                 'svatecnizaltar' => {},
                                                 'triduum' => {},
     'nespornizpevy' => {}},
@@ -305,16 +304,30 @@ task :festzaltar => ['antifonar_svatecnizaltar.pdf']
 
 zalmy_cteni = []
 
-adresar_cteni = 'generovane/ctenizaltar/'
-
 cislazalmu_cteni = %w(
-                                      1 2 3
-                                      6 9i 9ii
-                                      10i 10ii 12
-                                      18i 18ii 18iii
-                                      18iv 18v 18vi
-                                      35i 35ii 35iii
-                                      )
+1 2 3
+6 9i 9ii
+10i 10ii 12
+18i 18ii 18iii
+18iv 18v 18vi
+35i 35ii 35iii
+
+104i 104ii 104iii
+31i 31ii 31iii
+37i 37ii 37iii
+39i 39ii 52
+44i 44ii 44iii
+38i 38ii 38iii
+136i 136cii 136ciii
+
+145ci 145cii 145ciii
+50i 50ii 50iii
+68i 68ii 68iii
+89i 89ii 89iii
+89iv 89v 90
+69i 69ii 69iii
+107i 107ii 107iii
+)
                                       
 cislazalmu_cteni.each do |z|
   zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)

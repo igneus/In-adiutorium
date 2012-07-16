@@ -482,9 +482,19 @@ module PsalmPreprocessor
     def initialize(io)
       super(io)
       @quotenum = 0
+      @lineno = 0
     end
     
     def puts(s="\n")
+      @lineno += 1
+
+      # No better idea how to prevent the first letter of the first verse
+      # (i.e. the lettrine) being a guillemot
+      if @lineno <= 3 && s[0] == '"' then
+        s[0] = ''
+        @quotenum += 1
+      end
+
       while i = s.index('"') do
         @quotenum += 1
         if (@quotenum % 2) == 1 then
@@ -544,7 +554,7 @@ module PsalmPreprocessor
         @first = false
         
         is = s.index " "
-        
+
         # Czech Ch is one letter
         if s =~ /^[Cc][Hh]/ then
           cap = s[0..1].upcase
@@ -853,10 +863,6 @@ def output_procedure(input, fwn, setup)
     output = ParagraphifyVerseOutputStrategy.new output
   end
   
-  if setup[:guillemets] then
-    output = FrenchQuotesOutputStrategy.new output
-  end  
-  
   # Two outputters which need to have emty lines as in the source
   if setup[:paragraph_space] then
     output = EmptyLineAfterStanzaOutputStrategy.new output
@@ -882,6 +888,12 @@ def output_procedure(input, fwn, setup)
   if setup[:lettrine] then
     output = LettrineOutputStrategy.new output
   end
+
+  # This must get the string before the LettrineOutputStrategy,
+  # to prevent a guillemot becoming a lettrine.
+  if setup[:guillemets] then
+    output = FrenchQuotesOutputStrategy.new output
+  end  
 
   if setup[:mark_short_verses] then
     output = MarkShortVersesOutputStrategy.new output

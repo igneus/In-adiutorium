@@ -78,19 +78,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna g
+    g4 g a c c d c b c c( a) \barMin
+    c c b( c) b a c( d) d \barMax
+    e d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna c
+    d4 d c d d( e) e \barMin e f g f e d( c) c( d) d \barMaior
+    d d e( c a b g) g \barMin a( f) g a c c b c( d) \barMax
     % R
     \neviditelna a
-    
+    e' d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
     % Slava
+    d'4 d c( d e d) c( d) \barMin e f( g f e) d \barMaior
+    d e( c a b) a( g) \barMin a( c) c( d) d \barFinalis
   }
   \addlyrics {
     \Response Chci ti u -- ká -- zat ces -- tu moud -- ros -- ti,
@@ -103,7 +108,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -112,18 +117,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( e) d4. d4 d c b a( b) a \barMaior
+    a b c d( e) e \barMin f g f e d d \barMax
+    f f f f f( g a) g f f( e) e \barMin
+    g f e f e d c d d \barFinalis
   }
   \addlyrics {
-    Od rá -- na se ce -- lým srd -- cem o -- bra -- cí k_Bo -- hu,
-    své -- mu Stvo -- ři -- te -- li,
+    Od rá -- na se ce -- lým srd -- cem 
+    o -- bra -- cí k_Bo -- hu, své -- mu Stvo -- ři -- te -- li,
     k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
     k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -205,15 +213,19 @@
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
-    f g g g g( a g f e) e \barMax
-    e d e e( a b) a a b b \barMin b b( c b a) g f g( f e) e \barFinalis
+    f g g g g( a g a) a( b) \barMax
+    c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna g
+    g( b c d) c( b) \barMin d c b b( c b a) a( b) b \barMin 
+    b( c d c) b( a) a g a g( f) e \barMaior
+    e d( e) e g( a) a b a b c4. b \barMin
+    c4 c c c d c b( c b) b \barMax
     % R
-    \neviditelna a
-    
+    \neviditelna b
+    c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % Slava
+    g4( b c d) d \barMin c( d) c b b( c b a) a( b) \barMin b b( c d) c b( a) a( b) b \barFinalis
   }
   \addlyrics {
     \Response O -- de -- šel sám na o -- puš -- tě -- né mís -- to,
@@ -235,9 +247,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a( d c) c( d) d \barMaior 
+    d d d d( f) d c c( d) d \barMaior
+    d d d c a a \barMin bes( a) g f g g \barMax
+    f g a b! c d( c) c( d) d \barMaior
+    d d d c d c( b a) \barMin
+    b c d d d( f e) c c( d) \barMaior
+    d d( c b) a( g) a( g) \barMin f( g a) b c( a g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
@@ -250,8 +268,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

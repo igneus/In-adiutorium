@@ -1,20 +1,24 @@
-\version "2.12.3"
-
-\header {
-  title = "památka sv. Marie Magdalény (22.7.)"
-  composer = "Jakub Pavlík"
-  dedication = "Magdě k svátku"
-}
+\version "2.15.37"
 
 \include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "sv. Marie Magdalény"
+            památka
+            22.7.
+  composer = "Jakub Pavlík"
+  dedication = \markup\italic "Magdě k svátku"
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d d( f) f \breathe f f f g a f e e4. \breathe
-    d4 d c( d) d \breathe e f g f e( f) d d \bar "||"
+    d4 f e d d( f) f \barMin f f f g a f e e4. \barMin
+    d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
   }
   \addlyrics {
     Prv -- ní -- ho dne v_týd -- nu při -- šla Ma -- ri -- e
@@ -28,10 +32,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( d) d b( c d) a g( a) a \breathe
-    a( g) a b c a4. a \breathe \bar ""
-    b4( c d) d4. d4 f( d) d4. c4 d c b g( a) a \breathe \bar ""
-    c b g( a) a \bar "||"
+    a4 a a( d) d b( c d) a g( a) a \barMin
+    a( g) a b c a4. a \barMin
+    b4( c d) d4. d4 f( d) d4. c4 d c b g( a) a \barMin
+    c b g( a) a \barFinalis
   }
   \addlyrics {
     Mo -- je srd -- ce pla -- ne tou -- hou spa -- třit mé -- ho Pá -- na;
@@ -47,10 +51,10 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 a a a bes( a) a g a f e f d d \breathe
-    e f d d f( g) a a \breathe \bar ""
-    g( a f) e c( d) d \breathe \bar ""
-    f e c d4. \bar "||"
+    f4 a a a bes( a) a g a f e f d d \barMin
+    e f d d f( g) a a \barMin
+    g( a f) e c( d) d \barMin
+    f e c d4. \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se s_plá -- čem na -- klo -- ni -- la do hro -- bu;
@@ -68,25 +72,25 @@
     
     % R
     \neviditelna c
-    c4( a) f f4.( g) a4( b) g4. g4 \bar "|"
-    a4( b c d4.) b4( c) a( g) g4. \bar "||"
+    c4( a) f f4.( g) a4( b) g4. g4 \barMax
+    a4( b c d4.) b4( c) a( g) g4. \barFinalis
     
     % V
     \neviditelna g
-    c4 c d c c c b c a( g) g4. \bar "|"  
+    c4 c d c c c b c a( g) g4. \barMax  
     
     % R
     \neviditelna g
-    a4( b c d4.) b4( c) a( g) g4. \bar "||"
+    a4( b c d4.) b4( c) a( g) g4. \barFinalis
     
     % Slava
-    c4 c a( c) c c d( c) c \breathe c d c b( c) a4. a \bar "||"
+    c4 c a( c) c c d( c) c \barMin c d c b( c) a4. a \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- e, proč plá -- češ? Pán vstal z_mrt -- vých.
     \Verse Jdi a po -- věz je -- ho u -- čed -- ní -- kům:
     \Response Pán vstal z_mrt -- vých.
-    \slavaRespText
+    \textRespDoxologie
   }
   \header {
     piece = "responsorium - VIII"
@@ -118,8 +122,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g f( g) a( g) g4. \breathe
-    c4 d e c4. a \breathe f4 g g( a g) g4. \bar "||"
+    c4 c a g f( g) a( g) g4. \barMin
+    c4 d e c4. a \barMin f4 g g( a g) g4. \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ma -- ri -- i: Že -- no, proč plá -- češ?
@@ -133,8 +137,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a a g a b( a g4.) a \breathe
-    a4 g( a) a4. g4 a g f e e \bar "||"
+    g4( a) a a g a b( a g4.) a \barMin
+    a4 g( a) a4. g4 a g f e e \barFinalis
   }
   \addlyrics {
     Od -- nes -- li mé -- ho Pá -- na a ne -- vím, 
@@ -148,10 +152,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d \breathe
-    d( c d) c( b a) g4.( a) \bar "|"
-    g4 g a c d d c d c b b \breathe \bar ""
-    a4( c b g4.) g \bar "||"
+    d4 d c( d) d \barMin
+    d( c d) c( b a) g4.( a) \barMax
+    g4 g a c d d c d c b b \barMin
+    a4( c b g4.) g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl: Ma -- ri -- e!
@@ -162,15 +166,15 @@
   }
 }
 
-\markup { Responsorium po krátkém čtení jako v ranních chválách. }
+\markup { Responsorium jako v ranních chválách. }
 
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g c( d) d \breathe
-    d c d d d c d c4. c \breathe
-    d4( c d) e( f) d c a( c d4.) d \breathe
-    d4 c( d e c4. a4) f( g) g4. \bar "||"
+    c4 a g c( d) d \barMin
+    d c d d d c d c4. c \barMin
+    d4( c d) e( f) d c a( c d4.) d \barMin
+    d4 c( d e c4. a4) f( g) g4. \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e při -- šla a o -- zná -- mi -- la u -- čed -- ní -- kům:
