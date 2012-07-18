@@ -1,12 +1,12 @@
-\version "2.14.2"
-
-\header {
-  title = \markup\center-column{ "Společné texty o Panně Marii" "a sobotní památka Panny Marie" }
-  composer = "Jakub Pavlík"
-}
+\version "2.15.34"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleCommune{ \center-column { "O Panně Marii" "a sobotní památka Panny Marie" } }
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 

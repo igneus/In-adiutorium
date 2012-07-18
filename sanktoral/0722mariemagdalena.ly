@@ -18,7 +18,7 @@
   \relative c' {
     \choralniRezim
     d4 f e d d( f) f \barMaior
-    f f f g a f e e4. \barMaior
+    f f f g a f e e \barMaior
     d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -39,9 +39,9 @@
   \relative c'' {
     \choralniRezim
     a4 a a( d) d b( c d) a g( a) a \barMin
-    a( g) a b c a4. a \barMax
-    b4( c d) d4. d4 f( d) d4. c4 d c b g( a) a \barMaior
-    c b g( a) a \barFinalis
+    a( g) a b c a a \barMax
+    b4( c d) d4. d4 f( d) d4. \barMin c4 d c b g( a) a \barMaior
+    f g( a) c( b) a \barFinalis
   }
   \addlyrics {
     Mo -- je srd -- ce_* pla -- ne tou -- hou 
@@ -63,13 +63,15 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 a a a bes( a) a g a f e f d d \barMaior
-    e f d d f( g) a a \barMin
+    f4 a a a bes( a) a \barMin
+    g a f e f d d \barMaior
+    e f d d f( g) g g \barMin
     g( a f) e c( d) d \barMaior
-    f e c d4. \barFinalis
+    f e c d \barFinalis
   }
   \addlyrics {
-    Ma -- ri -- a se s_plá -- čem_* na -- klo -- ni -- la do hro -- bu;
+    Ma -- ri -- a se s_plá -- čem_* 
+    na -- klo -- ni -- la do hro -- bu;
     spa -- tři -- la dva an -- dě -- ly 
     v_bí -- lém rou -- chu.
     A -- le -- lu -- ja.
@@ -85,24 +87,24 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     
     % R
     \neviditelna c
-    c4( a) f f4.( g) a4( b) g4. g4 \barMax
-    a4( b c d4.) b4( c) a( g) g4. \barFinalis
+    f4( g) a( bes) a \barMin c( a) g g \barMax
+    a4. f4( d) e( d) d \barFinalis
     
     % V
     \neviditelna g
-    c4 c d c c c b c a( g) g4. \barMax  
+    f4.( g) \barMin g4 a bes a g a f g g \barMax  
     
     % R
     \neviditelna g
-    a4( b c d4.) b4( c) a( g) g4. \barFinalis
+    a4. f4( d) e( d) d \barFinalis
     
     % Slava
-    c4 c a( c) c c d( c) c \barMin c d c b( c) a4. a \barFinalis
+    a'4( g) a g( f) e g g( a) a \barMin g( a) c( d c) a g( f) g g \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- e, proč plá -- češ?_* Pán vstal z_mrt -- vých.
@@ -112,18 +114,19 @@
   }
   \header {
     quid = "resp."
-    modus = "VIII"
+    modus = "I"
     piece = \markup\sestavTitulekResp
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a g( a) b( c) c \barMaior
-    c4 b c a a a a( b a) g f g a a \barMaior
-    a a a a g( e) e \barMin
-    f e d d( e) e \barFinalis
+    g4 f e d( a') bes( a) a \barMaior
+    g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
+    g g g( a) g f( d) d \barMin f e d e( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš vstal z_mrt -- vých,_* 
@@ -134,7 +137,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
+    modus = "I"
     differentia = "g" 
     psalmus = ""
     id = ""
@@ -147,8 +150,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g f( g) a( g) g4. \barMaior
-    c4 d e c4. a \barMin f4 g g( a g) g4. \barFinalis
+    c4 c a g f( g) a( g) g \barMaior
+    c4 d e c4. a \barMin f4 g g( a g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ma -- ri -- i:_* Že -- no, proč plá -- češ?
@@ -165,19 +168,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a) a a g a b( a g4.) a \barMin
-    a4 g( a) a4. g4 a g f e e \barFinalis
+    d4 d d d( f e) f a a \barMaior
+    a a( c b g) a( g) \barMin 
+    f( e d) c f e d d \barFinalis
   }
   \addlyrics {
     Od -- nes -- li mé -- ho Pá -- na_* 
-    a ne -- vím, kam ho po -- lo -- ži -- li.
+    a ne -- vím, 
+    kam ho po -- lo -- ži -- li.
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 127"
     id = ""
     piece = \markup\sestavTitulek
@@ -207,7 +212,7 @@
   }
 }
 
-\markup { Responsorium jako v ranních chválách. }
+\markup\italic { Responsorium jako v ranních chválách. }
 
 \score {
   \relative c'' {
@@ -215,7 +220,7 @@
     c4 a g c( d) d \barMin
     d c d d d c d c4. c \barMaior
     d4( c d) e( f) d c a( c d4.) d \barMaior
-    d4 c( d e c4. a4) f( g) g4. \barFinalis
+    d4 c( d e c4. a4) f( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e při -- šla_* 
