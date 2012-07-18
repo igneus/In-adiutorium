@@ -119,6 +119,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -210,7 +212,7 @@
   }
 }
 
-\markup { Responsorium jako v ranních chválách. }
+\markup\italic { Responsorium jako v ranních chválách. }
 
 \score {
   \relative c'' {
