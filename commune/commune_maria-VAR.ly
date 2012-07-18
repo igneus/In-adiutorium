@@ -537,24 +537,141 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a a( c) c( a) a \barMin b( c) b a g4. g \barMax
     f4 a a a a g a b c b( a g) g \barFinalis
+    b(^\markup\small\italic{V době velikonoční:} c) b( a) g a( g) \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la ne -- bes -- kou brá -- nu,
     Ma -- ri -- a nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c b c( e g a) g( f) g \barMin
+    c,( d e g) a( b) a g g \barMaior
+    b( c b) a( g) e( g) \barMin
+    g g e( d) d c d e( g) e( d) \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D" 
     psalmus = "Benedictus"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d d( f g f) f( e d c) c( d) \barMin
+    d( c b) a( b) a d( e d) d \barMaior
+    d( a d) d( e f d) d( c) \barMin
+    d d d( f) e a( g f e) d( f) e( d) d \barFinalis
+    
+    d4^\markup\rubrVelikAleluja d( a' g f) d( f) e( d) \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a 
+    nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a b) a( g) \barMaior
+    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
+    d d c( d) d d( c d) c( b) a( g) a( g) \barFinalis
+    
+    g^\markup\rubrVelikAleluja \[ a( g \] \[ b a) \] g( a) g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a 
+    nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a \mark\sipka g) g \barMaior
+    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
+    d d c( d) d \mark\sipka c( d c) b g( a) g \barFinalis
+    
+    g^\markup\rubrVelikAleluja \[ a( g \] \[ b a) \] g( a) g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a 
+    nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Benedictus"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
