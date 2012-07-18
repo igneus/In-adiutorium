@@ -416,22 +416,27 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a a( c) c( a) a \barMin b( c) b a g4. g \barMax
-    f4 a a a a g a b c b( a g) g \barFinalis
-    b(^\markup\small\italic{V době velikonoční:} c) b( a) g a( g) \barFinalis
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a g) g \barMaior
+    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
+    d d c( d) d c( d c) b g( a) g \barFinalis
+    
+    g^\markup\rubrVelikAleluja \[ a( g \] \[ b a) \] g( a) g \barFinalis
   }
   \addlyrics {
-    E -- va nám za -- vře -- la ne -- bes -- kou brá -- nu,
-    Ma -- ri -- a nám ji za -- se o -- te -- vře -- la.
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a 
+    nám ji za -- se o -- te -- vře -- la.
     
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
-    modus = "VIII"
-    differentia = "G" 
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Benedictus"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
