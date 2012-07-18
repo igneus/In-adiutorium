@@ -94,31 +94,36 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
     \neviditelna a
-    
+    a( g f) g( a) a \barMin a g a( c d) e d( c) c( d) d \barMax
+    a( d c) d( e d) c d d( c a) a \barMin f g a( c) b( a g) g \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna d
+    d'( c) d d( f e d) c( d) d \barMin
+    d( c b) c( b a) g( a) a \barMaior
+    f f g( a) a c( d) c b a g( a) \barMax
     % R
     \neviditelna a
-    
+    a( d c) d( e d) c d d( c a) a \barMin f g a( c) b( a g) g \barFinalis
     % Slava
+    d'( c d) d \barMin d( f) e d c( d) d \barMaior d d( e d c) c( a) \barMin g( f) f( g) g \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- a by -- la vza -- ta do ne -- be,_*
     ra -- duj -- me se z_to -- ho spo -- lu s_an -- dě -- ly.
-    \Verse Dár -- ce ži -- vo -- ta ne -- do -- pus -- til,
-    a -- by nad ní pa -- no --- va -- la smrt,_*
+    \Verse Dár -- ce ži -- vo -- ta 
+    ne -- do -- pus -- til,
+    a -- by nad ní pa -- no -- va -- la smrt,_*
     \Response ra -- duj -- me se z_to -- ho spo -- lu s_an -- dě -- ly.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
