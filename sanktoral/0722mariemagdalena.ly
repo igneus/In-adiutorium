@@ -18,7 +18,7 @@
   \relative c' {
     \choralniRezim
     d4 f e d d( f) f \barMaior
-    f f f g a f e e4. \barMaior
+    f f f g a f e e \barMaior
     d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -39,7 +39,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a( d) d b( c d) a g( a) a \barMin
-    a( g) a b c a4. a \barMax
+    a( g) a b c a a \barMax
     b4( c d) d4. d4 f( d) d4. \barMin c4 d c b g( a) a \barMaior
     f g( a) c( b) a \barFinalis
   }
@@ -67,7 +67,7 @@
     g a f e f d d \barMaior
     e f d d f( g) g g \barMin
     g( a f) e c( d) d \barMaior
-    f e c d4. \barFinalis
+    f e c d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se s_plá -- čem_* 
@@ -148,8 +148,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g f( g) a( g) g4. \barMaior
-    c4 d e c4. a \barMin f4 g g( a g) g4. \barFinalis
+    c4 c a g f( g) a( g) g \barMaior
+    c4 d e c4. a \barMin f4 g g( a g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ma -- ri -- i:_* Že -- no, proč plá -- češ?
@@ -218,7 +218,7 @@
     c4 a g c( d) d \barMin
     d c d d d c d c4. c \barMaior
     d4( c d) e( f) d c a( c d4.) d \barMaior
-    d4 c( d e c4. a4) f( g) g4. \barFinalis
+    d4 c( d e c4. a4) f( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e při -- šla_* 
