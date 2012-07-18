@@ -34,8 +34,33 @@
   }
 }
 
-% 2. ant.: Eva nam zavrela nebeskou branu s aleluja - commune de Beata;
-% tu musim nejdriv zlidstit, nez ji sem zkopiruji - je hrozna
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a g) g \barMaior
+    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
+    d d c( d) d c( d c) b g( a) g \barMaior
+    
+    g \[ a( g \] \[ b a) \] g( a) g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la 
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a 
+    nám ji za -- se o -- te -- vře -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 147-II"
+    fons = "společné texty o Panně Marii, ant. k Benedictus"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c' {
