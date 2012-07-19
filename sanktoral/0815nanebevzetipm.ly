@@ -69,18 +69,13 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) d( c) d \barMin
-    d a( b c) d( e) d d f( g) f e( d) d \barMaior
-    f( g) g f g f( e d c) d \barMin
-    c( a) b c d( e d) d \barFinalis
-    
-    f( g) g f g f( g a) g \barMin
-    f( g f) e d e( f d) d \barFinalis
+    d d( f g) e f( d) d e d c( d) d \barMaior
+    f( g a) g f e d d \barMin
+    e( c) a c d( e d) d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a 
     je vy -- vý -- še -- na nad ne -- be -- sa;
-    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
-    
     chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
   }
   \header {
@@ -218,8 +213,9 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) d( c) d \barMin
-    d a( b c) d( e) d d \barMin f( g) a g( f) f g( f) e( d) c \barMax
-    d( g f) e( d) c d d( c) c \barMaior
+    d d( f g) e f( d) d \barMaior
+    f( g) a g( f) f g( f) e( d) c \barMax
+    d( g f) d( e) d c d( c) c \barMaior
     d c d e( f) f \barMin f( g f) e( d) c d f( e d) d \barFinalis
   }
   \addlyrics {
