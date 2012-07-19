@@ -103,6 +103,7 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
     modus = "VI"
     id = "narozeni-resp"
     piece = "responsorium - VI"
@@ -307,6 +308,7 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
     id = "zjeveni-resp"
     modus = "VI"
     piece = "responsorium - VI"
