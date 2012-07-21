@@ -31,18 +31,27 @@ myStaffSize = #16
 \layout {
   indent = 0\cm
   short-indent = 0\cm
+  
+  \context {
+    \Staff
+    \remove Custos_engraver % pridano ve spolecne.ly
+  }
 }
 
 %% nadpisy oddilu
 Hymnus = \markup\smallCaps{Hymnus}
 Zalmy = \markup\smallCaps{Žalmy}
-Cteni = \markup\smallCaps{Krátké čtení}
+Cteni = \markup\column{
+  \line\smallCaps{Krátké čtení}
+  \line\italic{přečíst z breviáře.}
+}
 Responsorium = \markup\smallCaps{Zpěv po krátkém čtení}
 Magnificat = \markup\smallCaps{Evangelijní kantikum}
 Prosby = \markup\column{
   \line{\smallCaps{Prosby}}
   \line{\italic{přečíst z breviáře.}}
 }
+OtceNas = \markup\smallCaps{Modlitba Páně}
 Modlitba = \markup\column{
   \line{\smallCaps{Závěrečná modlitba}}
   \line{\italic{z breviáře vlastní modlitba příslušné neděle.}}
@@ -54,6 +63,10 @@ antII = { \key d \minor }
 antIII = { \key d \major }
 antIIIpostni = {} % musim napev kantika slozit sam
 antMagnificat = { \key c \major }
+
+%% v kancionalu zavedene znacky, kdo co ma zpivat
+znSchola = \markup\small\bold\italic{S}
+znLid = \markup\small\bold\italic{L}
 
 choralniRezimKancional = {
   % nepsat predznamenani tempa (neni tempo)
@@ -68,7 +81,7 @@ choralniRezimKancional = {
 
 \markup\justify\large{
   \vspace #2
-  Jednotný kancionál obsahuje pod č. 084 nedělní 2. nešpory zhudebněné Zdeňkem
+  Jednotný kancionál obsahuje pod č. \bold{084} nedělní 2. nešpory zhudebněné Zdeňkem
   Pololáníkem. Většina textů je z neděle 1. týdne žaltáře,
   antifona k Magnificat je schválně univerzální
   (vybravá z feriálního cyklu), nedotýká se vlastního
@@ -87,13 +100,13 @@ choralniRezimKancional = {
     title = "Adventní"
   }
   
-  \markup\justify{
-    \vspace #1
-    Antifony k žalmům jsou z 1. neděle adventní.
-    \vspace #1
-  }
-  
   \markup\Hymnus
+  
+  \markup\justify{
+    Č. \bold{106}, \italic{Vítej, milý Jezu Kriste}.
+    (Hymnus breviáře má ze stejné staré písně trochu jiný výběr strof,
+    ale to snad můžeme zanedbat.)
+  }
   
   \markup\Zalmy
   
@@ -114,6 +127,12 @@ choralniRezimKancional = {
     }
   }
   %}
+  
+  \markup\justify{
+    \vspace #1
+    (Antifony k žalmům jsou z 1. neděle adventní.)
+    \vspace #1
+  }
   
   \score {
     \relative c'' {
@@ -177,7 +196,74 @@ choralniRezimKancional = {
   
   \markup\Responsorium
   
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \key d \minor
+      
+      % R
+      \mark\markup{\znSchola \znLid}
+      \repeat volta 2 { 
+        f8 f f g a a a a bes a g f e4 \bar "|" 
+        e8 f( g) f d e4 d
+      }
+      % V
+      \mark\markup{\znSchola} 
+      a'8 a a bes( a) a \breathe a g f e e \bar "||"
+      % R
+      \mark\markup{\znLid} 
+      e8 f( g) f d e4 d \bar "||"
+      % Slava
+      \mark\markup{\znSchola} 
+      a'8 a a a a bes a \breathe a bes a g( f) e4 e \bar "||"
+      % R
+      \mark\markup{\znLid} 
+      f8 f f g a a a a bes a g f e4 \bar "|" 
+      e8 f( g) f d e4 d \bar "|."
+    }
+    \addlyrics {
+      U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+      a dej nám svou spá -- su.
+      Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
+      a dej nám svou spá -- su.
+      \textRespDoxologie
+      U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+      a dej nám svou spá -- su.
+    }
+    \header {
+      quid = ""
+      id = ""
+    }
+  }
+  
+  \pageBreak % ZLOM
+  
   \markup\Magnificat
   
+  \markup{(Sobota 1. adventního týdne, ant. k Zachariášovu kantiku.)}
+  
+  \score {
+    \relative c'' {
+      \choralniRezimKancional
+      \antMagnificat
+      g8( a) a( c) c4 a8 g a( g) g4 \bar "|"
+      c8( b g) a( g) e4 e8 f e( d) c4 \bar "|."
+    }
+    \addlyrics {
+      Ne -- boj se, li -- de Bo -- ží:
+      Při -- chá -- zí k_to -- bě tvůj Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
   \markup\Prosby
+  
+  \markup\OtceNas
+  
+  \markup\Modlitba
 }
