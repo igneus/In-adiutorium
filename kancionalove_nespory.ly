@@ -267,3 +267,25 @@ choralniRezimKancional = {
   
   \markup\Modlitba
 }
+
+\bookpart {
+  \header {
+    title = "Postní"
+  }
+  
+  \markup\Hymnus
+  
+  \markup\Zalmy
+  
+  \markup\Cteni
+  
+  \markup\Responsorium
+  
+  \markup\Magnificat
+  
+  \markup\Prosby
+  
+  \markup\OtceNas
+  
+  \markup\Modlitba
+}
