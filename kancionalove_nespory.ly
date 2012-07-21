@@ -98,6 +98,8 @@ choralniRezimKancional = {
 \bookpart {
   \header {
     title = "Adventní"
+    composer = "" % ne ze bych ty zpevy neslozil, ale staci, ze je to napsano
+    % na titulni strance.
   }
   
   \markup\Hymnus
@@ -129,9 +131,7 @@ choralniRezimKancional = {
   %}
   
   \markup\justify{
-    \vspace #1
     (Antifony k žalmům jsou z 1. neděle adventní.)
-    \vspace #1
   }
   
   \score {
@@ -271,17 +271,147 @@ choralniRezimKancional = {
 \bookpart {
   \header {
     title = "Postní"
+    composer = ""
   }
   
   \markup\Hymnus
   
+  \markup\justify{(Denní modlitba církve - Hymny a básnické modlitby, Praha 1993, "s. 26.)"}
+  
+  \score {
+    \relative c'' {
+      % \choralniRezimKancional
+      \time 2/4
+      \partial 4
+      r8 g8 a a c c g g e4 \breathe
+      r8 f8 g a g f e f g4 \breathe \bar ""
+      r8 g8 a g f g d d c4 \breathe
+      r8 c8 d e d c d c c4 \bar "||" \cadenzaOn a8( c) c4 \bar "|."
+    }
+    \addlyrics {
+      Půst čty -- ři -- ce -- ti -- den -- ní jsi
+      po -- svě -- til, moud -- rý Je -- ží -- ši,
+      a k_na -- ší spá -- se je -- di -- ně
+      při -- ká -- zals, ať se pos -- tí -- me. A -- men.
+    }
+    \header {
+      quid = ""
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \markup\justify{
+    2. I nyní při své církvi stůj, / k pokání srdce vyburcuj, /
+    abychom s nitrem kajícím / se vymanili z moci vin.
+  }
+  \markup\justify{
+    3. Spáchané hříchy, slabosti / kéž nám tvá láska odpustí /
+    a před vinami příštími / nás ochrání a posilní.
+  }
+  \markup\justify{
+    4. Ať skutky svého pokání / rok co rok očišťováni, /
+    dosáhnem hlubší účasti / na velkonoční slavnosti. Amen.
+  }
+  
   \markup\Zalmy
+  
+  \markup\justify{
+    (Antifony k žalmům jsou z 1. neděle postní.)
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antI
+      bes4 bes c8 d f( g) g g a bes a( g f) f \breathe \bar ""
+      f8 d( c) d( es) d bes4 bes \bar "|."
+    }
+    \addlyrics {
+      Pá -- nu, své -- mu Bo -- hu se bu -- deš kla -- nět
+      a jen je -- mu slou -- žit.
+    }
+    \header {
+      quid = "1. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antII
+      f8 g a g f g g d4 \breathe f8( g) f e f d4 d \bar "|."
+    }
+    \addlyrics {
+      Teď je ta do -- ba pří -- hod -- ná,
+      teď je ten den spá -- sy.
+    }
+    \header {
+      quid = "2. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antIII
+    }
+    \addlyrics {
+      Hle, jde -- me vzhů -- ru do Je -- ru -- za -- lé -- ma
+      a tam se spl -- ní všech -- no,
+      co je psá -- no o Sy -- nu člo -- vě -- ka.
+    }
+    \header {
+      quid = "3. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \markup\justify{
+    V postní době je kantikum 2. nedělních nešpor jiné než
+    po zbytek liturgického roku:
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      
+    }
+    \addlyrics {
+      
+    }
+    \header {
+      quid = "kantikum 1 Petr 2,21-24"
+      psalmus = ""
+      id = ""
+    }
+  }
   
   \markup\Cteni
   
   \markup\Responsorium
   
   \markup\Magnificat
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antMagnificat
+    }
+    \addlyrics {
+      
+    }
+    \header {
+      quid = "antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
   
   \markup\Prosby
   
