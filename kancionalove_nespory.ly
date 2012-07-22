@@ -503,3 +503,125 @@ choralniRezimKancional = {
   
   \markup\Modlitba
 }
+
+\bookpart {
+  \header {
+    title = "Velikonoční"
+    composer = ""
+  }
+  
+  \markup\Hymnus
+  
+  \markup\Zalmy
+  
+  \markup\justify{(Antifony k žalmům jsou ze slavnosti Zmrtvýchvstání Páně.)}
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antI
+    }
+    \addlyrics {
+      Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
+      při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antII
+    }
+    \addlyrics {
+      Pojď -- te a po -- dí -- vej -- te se na to mís -- to, 
+      kde byl Pán po -- lo -- žen.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antIII
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl: Ne -- boj -- te se! 
+      Jdě -- te a o -- znam -- te mým bra -- třím,
+      ať o -- de -- jdou do Ga -- li -- le -- je;
+      tam mě u -- vi -- dí.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \markup\Cteni
+  
+  \markup\Responsorium
+  
+  \markup\justify{Ve velikonočním oktávu se namísto zpěvu po krátkém čtení
+  zpívá antifona \italic{Toto je den}, č. \bold{627}.
+  Mimo velikonoční oktáv:}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      
+      % V
+      
+      % R
+      
+      % Slava
+    }
+    \addlyrics {
+      Pán sku -- teč -- ně vstal._*
+      \textRespAleluja
+      Zje -- vil se Ši -- mo -- no -- vi._*
+      \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = ""
+      id = ""
+    }
+  }
+  
+  \markup\Magnificat
+  
+  \score {
+    \relative c' {
+      \choralniRezimKancional
+      \antMagnificat
+    }
+    \addlyrics {
+      
+    }
+    \header {
+      quid = "antifona"
+      psalmus = ""
+      id = ""
+    }
+  }
+  
+  \markup\Prosby
+  
+  \markup\OtceNas
+  
+  \markup\Modlitba
+}
