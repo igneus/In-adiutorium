@@ -84,7 +84,7 @@ choralniRezimKancional = {
   Jednotný kancionál obsahuje pod č. \bold{084} nedělní 2. nešpory zhudebněné Zdeňkem
   Pololáníkem. Většina textů je z neděle 1. týdne žaltáře,
   antifona k Magnificat je schválně univerzální
-  (vybravá z feriálního cyklu), nedotýká se vlastního
+  (vybraná z feriálního cyklu), nedotýká se vlastního
   tématu žádné neděle. Nešpory jsou tak koncipovány jako "\"univerzální"
   nešpory pro neděle v "mezidobí\"."
 }
@@ -240,7 +240,7 @@ choralniRezimKancional = {
   
   \markup\Magnificat
   
-  \markup{(Sobota 1. adventního týdne, ant. k Zachariášovu kantiku.)}
+  \markup{(Pův. antifona k Zachariášovu kantiku, sobota 1. adventního týdne.)}
   
   \score {
     \relative c'' {
@@ -358,7 +358,11 @@ choralniRezimKancional = {
   \score {
     \relative c' {
       \choralniRezimKancional
-      \antIII
+      \antII % antifona je sice III, ale kantikum nize je na stejny napev
+      % jako zalm 2.
+      d8 c d f4 f g8 a g f f( g) g \breathe \bar "|"
+      g8 a f g f f( d) d \breathe
+      f8 f g4 f f8 e d e( f) d d \bar "|."
     }
     \addlyrics {
       Hle, jde -- me vzhů -- ru do Je -- ru -- za -- lé -- ma
@@ -373,17 +377,26 @@ choralniRezimKancional = {
   }
   
   \markup\justify{
-    V postní době je kantikum 2. nedělních nešpor jiné než
-    po zbytek liturgického roku:
+    Kantikum 2. nedělních nešpor je v postní době jiné než
+    po zbytek liturgického roku. 
+    (Autorem nápěvu kantika je Z. Pololáník. Viz 2. žalm nešpor
+    v kancionálu.)
   }
   
   \score {
     \relative c' {
       \choralniRezimKancional
-      
+      e\breve e8 d \bar ":"
+      e\breve g8 \parenthesize g f e e \bar "|"
+      d\breve f8 e d d \parenthesize d r \bar "||"
     }
     \addlyrics {
-      
+      \once \override LyricText #'self-alignment-X = #LEFT
+      "Kristus trpěl" za \markup{nás \Dagger}
+      \once \override LyricText #'self-alignment-X = #LEFT
+      "a zanechal" \markup\underline{nám} \skip1 tak pří -- klad,_*
+      \once \override LyricText #'self-alignment-X = #LEFT
+      "abychom šli" \markup\underline{v je} -- ho šlé -- pě -- jích.
     }
     \header {
       quid = "kantikum 1 Petr 2,21-24"
@@ -392,19 +405,90 @@ choralniRezimKancional = {
     }
   }
   
+  \markup\column{
+    \line{\underline{On} nezhřešil * 
+          a nikdo od něho neslyšel nic \concat{\underline{ne}upřímného.}}
+    \line{\underline{Když mu} spílali, *
+          on jim to spíláním \concat{\underline{ne}oplácel,}}
+    \line{když trpěl, \concat{\underline{nevy}hrožoval,} * 
+          ale ponechal vše tomu, který soudí }
+    \line{\concat{\underline{spra}vedlivě.}}
+    \line{On sám na svém \concat{\underline{tě}le} vynesl *
+          naše hříchy na \concat{\underline{dře}vo} kříže,}
+    \line{abychom byli \concat{\underline{mrt}ví} hříchům *
+          a žili \concat{\underline{spra}vedlivě.}}
+    \line{\concat{\underline{Je}ho} ranami *
+          jsme \concat{\underline{u}zdraveni.}}
+    \line{Sláva \underline{Otci} i Synu * 
+          i \concat{\underline{Du}chu} svatému,}
+    \line{jako byla na počátku, i \underline{nyní} i vždycky * 
+          a na věky \concat{\underline{vě}ků.} Amen.}
+  }
+  
   \markup\Cteni
   
   \markup\Responsorium
   
-  \markup\Magnificat
-  
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezimKancional
-      \antMagnificat
+      
+      % R
+      \mark\markup{\znSchola \znLid}
+      \repeat volta 2 {
+      g8 g a a e4 \breathe a8 a c c b g a \bar "|"
+      c8 c d d c a c( b) a4 
+      }
+      % V
+      \mark\markup{\znSchola}
+      g8( a) e4 \breathe a8 a a a c c c b g a a4 \bar "|"
+      % R
+      \mark\markup{\znLid}
+      c8 c d d c a c( b) a4 \bar "||"
+      % Slava
+      \mark\markup{\znSchola}
+      a8 a a a a g( e) e \breathe a c b g( a) a4 a \bar "||"
+      % R
+      \mark\markup{\znLid}
+      g8 g a a e4 \breathe a8 a c c b g a \bar "|"
+      c8 c d d c a c( b) a4 \bar "|."
     }
     \addlyrics {
+      Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+      zhře -- ši -- li jsme pro -- ti to -- bě.
+  
+      Kris -- te, vy -- slyš na -- še vo -- lá -- ní a od -- pusť nám,_*
+      zhře -- ši -- li jsme pro -- ti to -- bě.
+      \textRespDoxologie
       
+      Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+      zhře -- ši -- li jsme pro -- ti to -- bě.
+    }
+    \header {
+      quid = ""
+      id = ""
+    }
+  }
+  
+  \markup\Magnificat
+  
+  \markup\justify{
+    (Pův. antifona k Zachariášovu kantiku, středa 2. postního týdne.)
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezimKancional
+      \antMagnificat
+      a8 a c c g g g \breathe 
+      f g a f e d4 d \bar "|"
+      g8 g a b c( a g4) g \breathe g8 f e d( c) d \breathe \bar"" d d e e d d c c \bar "|."
+    }
+    \addlyrics {
+      Syn člo -- vě -- ka ne -- při -- šel,
+      a -- by si ne -- chal slou -- žit,
+      a -- le a -- by slou -- žil
+      a dal svůj ži -- vot ja -- ko vý -- kup -- né za všech -- ny.
     }
     \header {
       quid = "antifona"
