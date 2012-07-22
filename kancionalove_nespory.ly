@@ -520,10 +520,15 @@ choralniRezimKancional = {
     \relative c' {
       \choralniRezimKancional
       \antI
+      bes8 bes bes es f f4 g8 a bes c bes bes 
+      a g f( g) f f \bar "|"
+      bes bes a g f d d es c bes bes \bar "|"
+      es8 f( d) c( bes) bes4 \bar "|."
     }
     \addlyrics {
       Ma -- ri -- e Mag -- dal -- ská a dru -- há Ma -- ri -- e
-      při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+      při -- šly ke hro -- bu, 
+      tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
       A -- le -- lu -- ja.
     }
     \header {
@@ -534,9 +539,11 @@ choralniRezimKancional = {
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezimKancional
       \antII
+      a4 f8 a c a g a a4 g8 f g( a f4) f \bar "|"
+      d8 f f4( d) c8 d d \bar "|" e8 f d4 d \bar "|."
     }
     \addlyrics {
       Pojď -- te a po -- dí -- vej -- te se na to mís -- to, 
@@ -554,6 +561,11 @@ choralniRezimKancional = {
     \relative c' {
       \choralniRezimKancional
       \antIII
+      fis8 g g( a) a4 b8( cis d) b b( a) a4 \bar "|"
+      g8 g g g g g a fis( e) e4 \breathe
+      d8 e fis fis \bar "" g a b a a4 \breathe \bar ""
+      g8( a) fis( e) e d d4 \bar "|"
+      b8 d e( d) d4 \bar "|."
     }
     \addlyrics {
       Je -- žíš ře -- kl: Ne -- boj -- te se! 
@@ -579,15 +591,28 @@ choralniRezimKancional = {
   
   \score {
     \relative c' {
-      \choralniRezim
+      \choralniRezimKancional
+      \key d \major
       
       % R
-      
+      \mark\markup{\znSchola \znLid}
+      \repeat volta 2 {
+        fis4( g) g8 g g a4 \bar "|"
+        b8 cis d a4( fis) g8 e d4 d 
+      }
       % V
-      
+      \mark\markup{\znSchola}
+      a'8 b a fis g g( a) a \bar "|"
       % R
-      
+      \mark\markup{\znLid}
+      b8 cis d a4( fis) g8 e d4 d \bar "||"
       % Slava
+      \mark\markup{\znSchola}
+      a'8 a a b cis d d \breathe cis d b a( b) a4 a \bar "||"
+      % R
+      \mark\markup{\znLid}
+      fis4( g) g8 g g a4 \bar "|"
+      b8 cis d a4( fis) g8 e d4 d \bar "|."
     }
     \addlyrics {
       Pán sku -- teč -- ně vstal._*
@@ -595,6 +620,8 @@ choralniRezimKancional = {
       Zje -- vil se Ši -- mo -- no -- vi._*
       \textRespAleluja
       \textRespDoxologie
+      Pán sku -- teč -- ně vstal._*
+      \textRespAleluja
     }
     \header {
       quid = ""
@@ -604,13 +631,23 @@ choralniRezimKancional = {
   
   \markup\Magnificat
   
+  \markup\justify{(Pův. antifona ke kantiku Panny Marie, pátek 2. velikonočního týdne.)}
+  
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezimKancional
       \antMagnificat
+      g8 g g f( e) d g( a) g4 g \bar ""
+      c8 a b a( g) g \bar "|"
+      a8 a a f( e) d4
+      f8( g) f f f e c4 c \bar "|"
+      e8 f( d) d( c) c4 \bar "|."
     }
     \addlyrics {
-      
+      Ten, kte -- rý ze -- mřel na kří -- ži,
+      zlo -- mil moc smr -- ti
+      a vlast -- ní mo -- cí vstal tře -- tí -- ho dne z_mrt -- vých.
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "antifona"
