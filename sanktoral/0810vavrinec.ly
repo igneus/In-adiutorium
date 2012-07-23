@@ -1,0 +1,250 @@
+\version "2.15.40"
+
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "sv. Vavřince, jáhna a mučedníka"
+            svátek
+            10.8.
+  composer = "Jakub Pavlík"
+  dedication = \markup\italic "fra Vavřinci Š. OPraem"
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+  }
+  \addlyrics {
+    \Response Jest -- li -- že mi kdo chce slou -- žit,
+    ať mě ná -- sle -- du -- je;_*
+    a kde jsem já, tam bu -- de i můj slu -- žeb -- ník.
+    \Verse Ke kaž -- dé -- mu, kdo se ke mně při -- zná před lid -- mi,
+    i já se při -- znám před svým Ot -- cem v_ne -- bi._*
+    \Response A kde jsem já, tam bu -- de i můj slu -- žeb -- ník.
+  }
+  \header {
+    quid = "1. resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+  }
+  \addlyrics {
+    \Response Sva -- tý Vav -- ři -- nec zvo -- lal:
+    Ctím své -- ho Bo -- ha
+    a je -- mu je -- di -- né -- mu slou -- žím;_*
+    pro -- to se ne -- bo -- jím tvé -- ho mu -- če -- ní.
+    \Verse Mně po -- má -- há můj Bůh, v_ně -- ho dou -- fám._*
+    \Response Pro -- to se ne -- bo -- jím tvé -- ho mu -- če -- ní.
+  }
+  \header {
+    quid = "2. resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
+    c c( d) d c d c( b) a a( b) \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis 
+  }
+  \addlyrics {
+    Má du -- še při -- lnu -- la k_to -- bě, můj Bo -- že,
+    mé tě -- lo by -- lo pro te -- be pá -- le -- no oh -- něm.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 63"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
+    a( d) c d d( e c d) d( c) \barMin d( c b) a( b) a f( g a) a( g) \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Dan 3-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a a g( a b c) a( g) \barMaior
+    f( g) a( g) f e f( e d) e \barMaior
+    f g g g( a) a \barMin a( g f) a( g f) d( c d e) e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Vav -- ři -- nec se mod -- lil:
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Responsorium z ranních chval ze společných textů
+o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( f g) g( c) c \barMin c d b a( g) g \barMaior
+    a a f( a) a a( g) a c4. b \barMin
+    \[ c4( a c \] \[ b g b) \] b( a) \barMin a a( g f) g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se, vždyť já jsem s_te -- bou!
+    I když mu -- síš pro -- jít oh -- něm,
+    pla -- men ti ne -- u -- ško -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"nešpory"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vav -- ři -- nec vy -- dal svě -- dec -- tví o Kris -- tu,
+    a vstou -- pil tak do zá -- stu -- pu mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 116-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 116-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Zj 4"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Responsorium z 2. nešpor ze společných textů
+o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a( b) a g g( a) a \barMaior
+    c4 c c( a c) b( g) b b( a) a \barMin
+    g a( c d) \[ c4.( b4 a g \] \[ a4. g) \] f4( g a) f e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec ře -- kl:
+    Mo -- je noc ne -- ní tem -- ná,
+    % a -- le % -- to mi tu nesedi
+    je jas -- ná ja -- ko den.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
