@@ -118,11 +118,14 @@
   \relative c'' {
     \choralniRezim
     d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
-    a( d) c d d( e c d) d( c) \barMin d( c b) a( b) a f( g a) a( g) \barFinalis
+    % a( d) c d d( e c d) d( c) \barMin 
+    a( g) a b a( b c d) d \barMin 
+    d( c b) a( b) a f( g a) a( g) \barFinalis
   }
   \addlyrics {
     Pán po -- slal_* své -- ho an -- dě -- la,
-    a -- by mě chrá -- nil u -- pro -- střed oh -- ně.
+    a -- by mě chrá -- nil 
+    u -- pro -- střed oh -- ně.
   }
   \header {
     quid = "2. ant."
