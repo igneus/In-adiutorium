@@ -15,47 +15,64 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
     \neviditelna a
+    g4 g f g a( c b) c d( c d) d( c) \barMaior
+    c b( a) c( b a) g a( g) f( g) \barMax
     
+    c d( e d) c \[ a( g \] \[ a g) \] \barMaior
+    f f g a b( a) g( a) g g \barFinalis
     % V
     \neviditelna a
+    c c c c c c d( c) c \barMin b( c d) a( g) a g f( g) \barMaior
+    f g a b( c d) c( d) \barMin c b b( c b) a g( f) g \barMax
     
     % R
     \neviditelna a
+    c d( e d) c \[ a( g \] \[ a g) \] \barMaior
+    f f g a b( a) g( a) g g \barFinalis
   }
   \addlyrics {
     \Response Jest -- li -- že mi kdo chce slou -- žit,
     ať mě ná -- sle -- du -- je;_*
-    a kde jsem já, tam bu -- de i můj slu -- žeb -- ník.
+    
+    a kde jsem já, 
+    tam bu -- de i můj slu -- žeb -- ník.
     \Verse Ke kaž -- dé -- mu, kdo se ke mně při -- zná před lid -- mi,
     i já se při -- znám před svým Ot -- cem v_ne -- bi._*
+    
     \Response A kde jsem já, tam bu -- de i můj slu -- žeb -- ník.
   }
   \header {
     quid = "1. resp."
-    modus = ""
+    modus = "VIII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
     % R
     \neviditelna a
+    a4 a a a a g( a) a \barMaior
+    a( d) f( e) d c( d) d \barMin
+    d d d c b a a c( a c) c( d) \barMax
+    
+    d c d d( f e) d( e) d( c) \barMin a( g) f g( a) g g \barFinalis
     
     % V
     \neviditelna a
+    a4 a( d) d d c( d) d( c) \barMaior d( e f) g f( e d e) e( d) \barMax
     
     % R
     \neviditelna a
-    
+    d c d d( f e) d( e) d( c) \barMin a( g) f g( a) g g \barFinalis
   }
   \addlyrics {
     \Response Sva -- tý Vav -- ři -- nec zvo -- lal:
@@ -67,7 +84,7 @@
   }
   \header {
     quid = "2. resp."
-    modus = ""
+    modus = "VII"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -167,7 +184,8 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d( f d) d c( e) d c c d d \barMaior
+    d f( g f) e( f) e( d) \barMin e c c c d e d d \barFinalis
   }
   \addlyrics {
     Vav -- ři -- nec vy -- dal svě -- dec -- tví o Kris -- tu,
@@ -175,8 +193,8 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -186,7 +204,9 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( f) d c c( d) d \barMaior
+    f( g f e) f( e) d e d( c) c \barMin
+    d c bes c d( f) \barMin g( f g) g( d) d c( d) d d \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec zvo -- lal:
@@ -195,8 +215,8 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -204,9 +224,11 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 f g a a a c( b c) a( g f) \barMaior
+    d( e f) g( a) g f g( f) d \barMaior
+    f g a c( b c a) b( a g) \barMin a( g f) g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec se mod -- lil:
@@ -215,8 +237,8 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
