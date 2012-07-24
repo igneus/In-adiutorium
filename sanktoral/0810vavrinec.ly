@@ -99,7 +99,7 @@
     c c( d) d c d c( b) a a( b) \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis 
   }
   \addlyrics {
-    Má du -- še při -- lnu -- la k_to -- bě, můj Bo -- že,
+    Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
     mé tě -- lo by -- lo pro te -- be pá -- le -- no oh -- něm.
   }
   \header {
@@ -121,7 +121,7 @@
     a( d) c d d( e c d) d( c) \barMin d( c b) a( b) a f( g a) a( g) \barFinalis
   }
   \addlyrics {
-    Pán po -- slal své -- ho an -- dě -- la,
+    Pán po -- slal_* své -- ho an -- dě -- la,
     a -- by mě chrá -- nil u -- pro -- střed oh -- ně.
   }
   \header {
@@ -166,7 +166,7 @@
     f g a c( b c a) b( a g) \barMin a( g f) g( a) g g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Va -- vři -- nec se mod -- lil:
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
     Dě -- ku -- ji ti, Bo -- že,
     že mo -- hu vstou -- pit do tvé slá -- vy.
   }
@@ -191,7 +191,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     \[ c4( a c \] \[ b g b) \] b( a) \barMin a a( g f) g( a) f( e) e \barFinalis
   }
   \addlyrics {
-    Ne -- boj se, vždyť já jsem s_te -- bou!
+    Ne -- boj se,_* vždyť já jsem s_te -- bou!
     I když mu -- síš pro -- jít oh -- něm,
     pla -- men ti ne -- u -- ško -- dí.
   }
@@ -214,7 +214,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     d f( g f) e( f) e( d) \barMin e c c c d e d d \barFinalis
   }
   \addlyrics {
-    Vav -- ři -- nec vy -- dal svě -- dec -- tví o Kris -- tu,
+    Vav -- ři -- nec vy -- dal svě -- dec -- tví o Kris -- tu,_*
     a vstou -- pil tak do zá -- stu -- pu mu -- čed -- ní -- ků.
   }
   \header {
@@ -235,7 +235,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     d c bes c d( f) \barMin g( f g) g( d) d c( d) d d \barFinalis
   }
   \addlyrics {
-    Sva -- tý Va -- vři -- nec zvo -- lal:
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
     Ra -- du -- ji se z_to -- ho,
     že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
   }
@@ -262,7 +262,7 @@ o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
     g a( c d) \[ c4.( b4 a g \] \[ a4. g) \] f4( g a) f e \barFinalis
   }
   \addlyrics {
-    Sva -- tý Va -- vři -- nec ře -- kl:
+    Sva -- tý Va -- vři -- nec ře -- kl:_*
     Mo -- je noc ne -- ní tem -- ná,
     % a -- le % -- to mi tu nesedi
     je jas -- ná ja -- ko den.
