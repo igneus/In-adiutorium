@@ -240,7 +240,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g( a) a g( f) g( f) d( c) \barMaior
+    f e f g a g f f \barFinalis
     
+    d^\markup\rubrVelikAleluja f g f \barFinalis
   }
   \addlyrics {
     Má du -- še lne k_to -- bě,
@@ -250,8 +253,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -395,7 +398,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g a( c) b! c c 
+    c bes c d bes c c \barMaior
+    d( e f d) c( d c) c( a) \barMin g( a bes) c a( g f) f \barFinalis
   }
   \addlyrics {
     Na své slu -- žeb -- ní -- ky
@@ -406,8 +411,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -442,7 +447,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    e d( e f e) e \barMin f( g a) g f( g) e e \barMaior
+    f g( f) d d( e) \barFinalis
     
+    g^\markup\rubrVelikAleluja a f( e) e \barFinalis
   }
   \addlyrics {
     Já pat -- řím své -- mu mi -- lé -- mu
@@ -452,8 +460,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
