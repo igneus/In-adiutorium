@@ -9,7 +9,7 @@
             svátek
             10.8.
   composer = "Jakub Pavlík"
-  dedication = \markup\italic "fra Vavřinci Š. OPraem"
+  dedication = \markup\italic "fr. Vavřinci Š. OPraem"
 }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -112,6 +112,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -132,6 +134,7 @@
   }
 }
 
+%{
 \score {
   \relative c' {
     \choralniRezim
@@ -148,6 +151,29 @@
     quid = "3. ant."
     modus = "IV"
     differentia = "E" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+%}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a a c( b c) a( g f) \barMaior
+    d( e f) g( a) g f g( f) d \barMaior
+    f g a c( b c a) b( a g) \barMin a( g f) g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -223,27 +249,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
-    g4 f g a a a c( b c) a( g f) \barMaior
-    d( e f) g( a) g f g( f) d \barMaior
-    f g a c( b c a) b( a g) \barMin a( g f) g( a) g g \barFinalis
-  }
-  \addlyrics {
-    Sva -- tý Va -- vři -- nec se mod -- lil:
-    Dě -- ku -- ji ti, Bo -- že,
-    že mo -- hu vstou -- pit do tvé slá -- vy.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "VIII"
-    differentia = "G" 
-    psalmus = "Zj 4"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
+\markup\italic{3. ant. je stejná jako 3. ant. ranních chval \concat{(\upright{"Svatý Vavřinec se modlil"});} k ní kantikum Zj 4.}
 
 \markup\italic{Responsorium z 2. nešpor ze společných textů
 o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
