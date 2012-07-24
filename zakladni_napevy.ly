@@ -322,6 +322,7 @@ uvodniVers = \lyricmode {
   \markup\justify{
     3. S ohledem na mezitím provedené změny v uspořádání liturgického roku
     se mi zdá vhodné následující schéma:
+    (Nevnucuji, neordinuji, nabízím jako možnost. Sám je zachovávám.)
     
     \column{
       \line{\italic{Alma Redemptoris Mater}
@@ -366,5 +367,14 @@ uvodniVers = \lyricmode {
     Jedna je v Jednotném kancionálu v závěru kompletáře (č. 089);
     všechny jsou v Olejníkově autografu tohoto kompletáře,
     který je oscanovaný ke stažení na stránkách \typewriter{http://breviar.ic.cz} .
+  }
+  
+  \markup\justify{
+    5. Starší zpracování českých překladů mariánských antifon obsahuje např. 
+    \italic{Český kancionál}, Praha 1921, s. 565nn.
+    Ostatní kancionály obsahující překlad částí oficia do národního jazyka
+    obvykle ve funkci závěrečných mariánských antifon mají strofické
+    písně, které jsou vůči původním latinským antifonám ve vztahu
+    velice volného překladu.
   }
 }
