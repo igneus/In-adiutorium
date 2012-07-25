@@ -89,15 +89,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f g f f g( a) a( g) \barMax
+    g( f d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    
+    g( f d) f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bu -- du se ra -- do -- vat, Bo -- že,_*
@@ -108,7 +110,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -149,9 +151,12 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a( g f) g g( f) \barMin a a a a a g( f) g \barMaior
+    f g g( f d) d \barMin d c( d) d e d c( d) d \barFinalis
     
+    c(^\markup\rubrVelikAleluja d e) f( e) d d \barFinalis
   }
   \addlyrics {
     Dej -- te jí z_vý -- těž -- ku je -- jích ru -- kou,
@@ -161,8 +166,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -328,19 +333,21 @@
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    \key f \major
     % R
     \neviditelna a
-    
+    a4 a a g( f d e) e( d) \barMax
+    c d f e( d) d \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna a'
+    a4 a a a a( bes a g) f( d) d( e) e( d) \barMax
     % R
     \neviditelna a
-    
+    c d f e( d) d \barFinalis
     % Slava
+    a'4 a a( bes) a a a( g) g \barMin g g g f( d) d( e) e( d) \barFinalis
   }
   \addlyrics {
     \Response Bůh se k_ní sklo -- nil_*
@@ -351,7 +358,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -365,10 +372,11 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f e g( a) \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -391,13 +399,24 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4( c d) d( c) d d( e d) d( c) c( d) \barMaior 
+    d d( c d) d( c) c d( c b) a( g) a g \barMaior
+    f g a( b c) a4.( g4 f) f g a( g) g \barMax
     
+    g a( c b c d) d \barMin d d d( e f) d( c) d c b( c d) d \barMaior
+    d4.( c) \barMin
+    d4 d d( e) d d d( c) \barMin 
+    g g( a) g g \barFinalis
+    
+    d'4 \[ d( e d c \] \[ d c b a \] \[ b a) \]   f( g a)   a( g) \barFinalis
   }
   \addlyrics {
-    Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né ob -- chod -- ní -- ku,
+    Ne -- bes -- ké krá -- lov -- ství 
+    je po -- dob -- né ob -- chod -- ní -- ku,
     kte -- rý hle -- dá vzác -- né per -- ly.
+    
     Když na -- jde jed -- nu dra -- ho -- cen -- nou per -- lu,
     jde, 
     pro -- dá všech -- no, co má, 
@@ -407,8 +426,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -523,7 +542,7 @@
     a4 a a( e) e g f e d( e) d d \barMaior
     f g a a g e \barMin f f e c c( d) d \barFinalis
     
-    
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Ja -- ko pev -- né zá -- kla -- dy na ská -- le
@@ -550,15 +569,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f g( f) g g( a) \barMax
+    g g( a g) f( e) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a g f g g g( a) \barMax
     % R
     \neviditelna a
-    
+    g g( a g) f( e) d d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh si ji vy -- vo -- lil_*
@@ -569,7 +590,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -583,10 +604,11 @@
     
     % R
     \neviditelna f
+    f4 f f g f f \barMin f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
