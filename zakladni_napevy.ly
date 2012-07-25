@@ -35,18 +35,7 @@ uvodniVers = \lyricmode {
   
   \markup\sekce{I.1 První modlitba dne}
   
-  \markup\justify{
-    Klasické podání verše \italic{Domine, labia mea aperies}
-    má nejprostší myslitelný nápěv.
-    Do pokoncilní liturgické reformy po něm ovšem bezprostředně
-    následoval verš \italic{Deus, in adiutorium meum intende},
-    který je melodicky o něco bohatší.
-    V současném kontextu, kdy verš \italic{Domine, labia mea aperies}
-    stojí na začátku první modlitby sám, se mi s klasickým
-    nápěvem zdá být pro hodinku slabým začátkem.
-    Proto vedle nápěvu podle \italic{Antiphonale Romanum} (nahoře)
-    nabízím i několik vlastních pokusů o jeho zpracování.
-  }
+  \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 3*.}
   
   \score {
     \relative c'' {
@@ -60,11 +49,25 @@ uvodniVers = \lyricmode {
       \paneOtevri
     }
     \header {
-      piece = "tradiční"
+      piece = ""
       fons = "Antiphonale Romanum 1912, 3*"
     }
   }
   
+  \markup\justify{
+    Klasické podání verše \italic{Domine, labia mea aperies}
+    má nejprostší myslitelný nápěv (viz výše).
+    Do pokoncilní liturgické reformy po něm ovšem bezprostředně
+    následoval verš \italic{Deus, in adiutorium meum intende},
+    který je melodicky o něco bohatší.
+    V současném kontextu, kdy verš \italic{Domine, labia mea aperies}
+    stojí na začátku první modlitby sám, se mi s klasickým
+    nápěvem zdá být pro hodinku slabým začátkem.
+    Proto vedle nápěvu podle \italic{Antiphonale Romanum} 
+    nabízím i několik vlastních pokusů o jeho zpracování:
+  }
+  
+  %{
   \score {
     \relative c' {
       \choralniRezim
@@ -78,6 +81,7 @@ uvodniVers = \lyricmode {
       piece = "J.P."
     }
   }
+  %}
   
   \score {
     \relative c'' {
