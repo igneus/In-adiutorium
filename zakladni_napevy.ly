@@ -254,11 +254,168 @@ uvodniVers = \lyricmode {
   \markup\sekce{IV.1 Ranní chvály a nešpory}
   
   \markup\sekce{IV.1.1 s knězem nebo jáhnem}
+  
+  \markup\wordwrap{Z liturgických zdrojů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
+  
+  \score {
+    \transpose f' c'' { \relative c' {
+      \choralniRezim
+      \neviditelna f
+      f4 f d \barFinalis
+      \neviditelna f
+      e e f \barFinalis
+      \neviditelna f
+      f f f f f f e d f \barMaior
+      f e d f \barMaior
+      f f f d \barFinalis
+      \neviditelna f
+      e f \barFinalis
+    } }
+    \addlyrics {
+      \Verse Pán s_vá -- mi.
+      \Response I s_te -- bou.
+      \Verse Po -- žeh -- nej vás vše -- mo -- hou -- cí Bůh
+      O -- tec i Syn
+      i Duch sva -- tý.
+      \Response A -- men.
+    }
+    \header {
+      fons = "dominikáni: http://www.op.cz/download/liturgie/initio_tisk.pdf"
+      piece = ""
+    }
+  }
+
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
+  
+  \markup{Podle \italic{Antiphonale Romanum}, Romae 1912, 29*n. (Nápěv absoluce před čteními matutina.)}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c c c c b a c c \barMin 
+      c c b a c c \barMin
+      c c c c c c c c c a a \barFinalis
+      \neviditelna c
+      b c \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
+      chraň nás vše -- ho zlé -- ho,
+      a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
+      \Response A -- men.
+    }
+    \header {
+      fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
+      piece = ""
+    }
+  }
   
   \markup\sekce{IV.2 Modlitba se čtením a modlitba uprostřed dne}
   
+  \markup{Podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c c4 c c( d) d d d( c b) \barMax
+      \neviditelna c d d d d( c b) \barFinalis
+    }
+    \addlyrics {
+      \Verse Do -- bro -- řeč -- me Pá -- nu.
+      \Response Bo -- hu dí -- ky.
+    }
+    \header {
+      id = ""
+      piece = ""
+    }
+  }
+  
+  \markup\justify{
+    Následující je variantou předchozího, melisma je však
+    přesunuté
+    na přízvučnou slabiku.
+    Zdá se to tak být českému uchu příjemnější.
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c c4 c c( d) d d( c b) b \barMax
+      \neviditelna c d d d( c b) b \barFinalis
+    }
+    \addlyrics {
+      \Verse Do -- bro -- řeč -- me Pá -- nu.
+      \Response Bo -- hu dí -- ky.
+    }
+    \header {
+      id = ""
+      piece = ""
+    }
+  }
+  
+  \markup\justify{
+    Další možností je zpívat tento verš na běžný prostý nápěv verše (viz oddíl III.2).
+  }
+  
+  \markup\justify{
+    Následující úpravu používají novodvorští trapisté.
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c c4 c c( d) c b b \barMax
+      \neviditelna c c4( d) c b b \barFinalis
+    }
+    \addlyrics {
+      \Verse Do -- bro -- řeč -- me Pá -- nu.
+      \Response Bo -- hu dí -- ky.
+    }
+    \header {
+      id = ""
+      piece = ""
+    }
+  }
+  
+  \pageBreak
+  
   \markup\sekce{IV.3 Kompletář}
+  
+  \markup\justify{
+    Verš (mírně jiného znění) ve stejné liturgické funkci
+    se podle \italic{Antiphonale Romanum} nezpívá, ale recituje -
+    hlubokým hlasem a "\"protaženě\"" (snad ve smyslu pomaleji).
+  }
+  
+  \markup\justify{
+    Jako varianta kousek liturgické tvořivosti bez sebemenší 
+    opory v tradici:
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \neviditelna d
+      d4 d d( f) d \barMin c( d e) f d d( c d) \barMaior
+      f g( a) g f( e d) d \barMaior
+      f g f f f e( c) a c d( e) d d \barFinalis
+      
+      \neviditelna d
+      d( f e) c( d) \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, po -- koj -- nou noc,
+      a po -- si -- luj nás,
+      ať vy -- tr -- vá -- me v_dob -- rém až do kon -- ce.
+      \Response A -- men.
+    }
+    \header {
+      modus = "II"
+      id = ""
+      piece = ""
+    }
+  }
 }
 
 \bookpart {
