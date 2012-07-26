@@ -103,9 +103,86 @@ uvodniVers = \lyricmode {
   
   \markup\sekce{I.2.1 nápěvy podle \italic{Antiphonale Romanum (1912)}}
   
+  \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 1*nn.}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c \barMin c( d) c c b( c) c c \barFinalis
+      \neviditelna c
+      c c c b( c) c c \barMax
+      c c c c c c c \barMin c c c b( c) c c \barMax
+      c c c c c c c c c c c c c c \barMin c c c c c c b( c) c \barMaior
+      c d c( b) b \barFinalis
+    }
+    \addlyrics {
+      \uvodniVers
+    }
+    \header {
+      id = ""
+      piece = "k ranním chválám a nešporám nedělí a svátků"
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c \barMin d c c b c c \barFinalis
+      \neviditelna c
+      c c c b c c \barMax
+      c c c c c c c \barMin c c c b c c \barMax
+      c c c c c c c c c c c c c c \barMin c c c c c c b c \barMaior
+      c d c( b) b \barFinalis
+    }
+    \addlyrics {
+      \uvodniVers
+    }
+    \header {
+      id = ""
+      piece = "o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;
+      o památkách a fériích ke všem hodinkám"
+    }
+  }
+  
+  \pageBreak
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      
+      \neviditelna f
+      f4 g( a) a a a g( a bes) a( g) g( a) \barFinalis
+      \neviditelna f
+      f4 g( a) a g( a bes) a( g) g( a) \barMax
+      
+      f4 g( a) a a a a a \barMin
+      a g( a bes) a a g g( a) \barMaior
+      f4 g( a) a a a a a a \barMin a g( a bes) a a a( g) g( a) \barMaior
+      a a a a a bes a g \barMaior
+      a bes a( g) g \barFinalis
+    }
+    \addlyrics {
+      \uvodniVers
+    }
+    \header {
+      id = ""
+      piece = "volitelně k nešporám slavností"
+    }
+  }
+  
   \markup\sekce{I.2.2 nápěvy podle \italic{Antiphonale Monasticum (1933)}}
   
-  \markup{Podle \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.}
+  \markup\justify{
+    Podle \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.
+    (Za pro projekt In adiutorium určitým způsobem směrodatnou považuji
+    tradici římského "\"sekulárního\"", tedy ne-mnišského oficia;
+    nápěvy podle Antiphonale Monasticum jsou tu však uvedeny jako možnost,
+    zejm. proto, že s projektem In adiutorium ušly kus cesty a nechci je teď
+    hned zahodit.)
+  }
   
   \score {
     \relative c'' {
