@@ -113,8 +113,10 @@ uvodniVers = \lyricmode {
       \neviditelna c
       c c c b( c) c c \barMax
       c c c c c c c \barMin c c c b( c) c c \barMax
-      c c c c c c c c c c c c c c \barMin c c c c c c b( c) c \barMaior
+      c c c c c c c c c c c c c c \barMin \break
+      c^\markup\italic{mimo dobu postní:} c c c c c b( c) c \barMaior
       c d c( b) b \barFinalis
+      c^\markup\italic{v době postní:} c c c d c c( b) a \barFinalis
     }
     \addlyrics {
       \uvodniVers
@@ -133,16 +135,19 @@ uvodniVers = \lyricmode {
       \neviditelna c
       c c c b c c \barMax
       c c c c c c c \barMin c c c b c c \barMax
-      c c c c c c c c c c c c c c \barMin c c c c c c b c \barMaior
+      c c c c c c c c c c c c c c \barMin \break
+      
+      c^\markup\italic{mimo dobu postní:} c c c c c b c \barMaior
       c d c( b) b \barFinalis
+      c^\markup\italic{v době postní:} c c c d c c( b) a \barFinalis
     }
     \addlyrics {
       \uvodniVers
     }
     \header {
       id = ""
-      piece = "o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;
-      o památkách a fériích ke všem hodinkám"
+      piece = \markup\column{"o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;"
+                             "o památkách a fériích ke všem hodinkám"}
     }
   }
   
@@ -162,7 +167,7 @@ uvodniVers = \lyricmode {
       a g( a bes) a a g g( a) \barMaior
       f4 g( a) a a a a a a \barMin a g( a bes) a a a( g) g( a) \barMaior
       a a a a a bes a g \barMaior
-      a bes a( g) g \barFinalis
+      a^\markup\italic{mimo dobu postní:} bes a( g) g \barFinalis
     }
     \addlyrics {
       \uvodniVers
