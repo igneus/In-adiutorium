@@ -30,6 +30,7 @@
 % "tiraz" -------------------------------------------------------
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
+rok = #(strftime "%Y" (localtime (current-time)))
 
 sazeciProgram = \markup {        
   \with-url #"http://lilypond.org/" {
@@ -47,15 +48,25 @@ inAdiutorium = \markup {
   }
 }
 
-\header {
-  tagline = \markup {
-    \column {
-      \line { datum: \dnesniDatum }
-      \line { licence: \licenceCcAsU }
-      \line { projekt: \inAdiutorium }
-      \line { sazba programem \sazeciProgram }
-    }
+tirazVelka = \markup {
+  \column {
+    \line { datum: \dnesniDatum }
+    \line { licence: \licenceCcAsU }
+    \line { projekt: \inAdiutorium }
+    \line { sazba programem \sazeciProgram }
   }
+}
+
+tirazMala = \markup { 
+  \with-url #"http://inadiutorium.xf.cz" {
+    In adiutorium
+  }
+  - 
+  \dnesniDatum 
+}
+
+\header {
+  tagline = \tirazVelka
 }
 
 % nadpisy ------------------------------------------------------

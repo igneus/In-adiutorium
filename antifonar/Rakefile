@@ -327,6 +327,13 @@ cislazalmu_cteni = %w(
 89iv 89v 90
 69i 69ii 69iii
 107i 107ii 107iii
+
+24 66i 66ii
+73i 73ii 73iii
+102i 102ii 102iii
+103i 103ii 103iii
+
+55ci 55cii 55ciii
 )
                                       
 cislazalmu_cteni.each do |z|
