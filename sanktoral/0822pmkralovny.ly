@@ -16,7 +16,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    \key f \major
+    d4( g a) a \barMin bes( a) g a g g \barMin f g a f( e d) d \barMaior
+    d g( a bes) g( a) a \barMin a a( bes) a g f g( f e d) c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -25,8 +27,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -36,9 +38,12 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g( a c) b( a g) a \barMaior
+    c d e d( c) d c \barMaior
+    b b( c) d e c b a a \barMaior
+    c( b a) g a g f( g a) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -48,8 +53,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -73,8 +78,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     fons = "commune o PM, 2. nešp., k Magnificat; doplněn závěr"
