@@ -53,7 +53,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e e g( a b c) a( b) a \barMin g g g g e d d( e) e \barMaior
+    g a c4.( b4 a c4.) \barMin d4 a a g f e e \barFinalis
   }
   \addlyrics {
     Kdo smí vy -- stou -- pit na Hos -- po -- di -- no -- vu ho -- ru,
@@ -61,8 +62,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "g" 
     psalmus = "Žalm 24"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -72,7 +73,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( g a) g( f) g f f d \barMin c d f g g \barMaior
+    a a g( f d) d( f) f g a( g f) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
@@ -80,8 +82,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 66-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -91,16 +93,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( a f g) g( f) \barMin d c d f f f \barMaior
+    g a( g) \barMin g g g a g( f) f \barFinalis
   }
   \addlyrics {
     Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
-    co pro -- ká -- zal Bůh mé du -- ši.
+    co Bůh pro -- ká -- zal mé du -- ši.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 66-II"
     id = ""
     piece = \markup {\sestavTitulek}
