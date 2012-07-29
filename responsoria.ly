@@ -65,11 +65,20 @@ doxologieResponsoriumVI = {}
     subtitle = "1. a 3. týden žaltáře"
   }
   
+  %{
+  %  Ne ze by to nebyla pravda - z te knizky jsem se naucil neco jako
+  % "typickou melodii" - ale nasledujici komentar pusobi dojmem, jako
+  % by slo o preneseni napevu ze zminene knizky na _odpovidajici_
+  % responsoria ze soucasneho breviare - a to neni pravda,
+  % ani to nejde, protoze soucasny breviar ma vic ruznych textu responsorii
+  % nez kterykoli pred nim...
   \markup\justify {
     Responsoria pro ranní chvály a nešpory. Nápěvy volně podle
     Antiphonarium sacri ordinis praedicatorum pro diurnis horis, Romae 1933.
   }
+  %}
 
+  %{
   \score {
     \relative c' {
       \choralniRezim
@@ -83,6 +92,7 @@ doxologieResponsoriumVI = {}
       piece = "doxologie pro responsoria modu IV"
     }
   }
+  %}
 
   \score {
     \relative c'' {
@@ -106,16 +116,16 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      c4 d( f) f f f f( d) d \barMin e f f( g) g \barMax
-      g e f d( c) d f f e \barFinalis
+      f4 f f f f f f g f g( a) a( g) \barMax
+      g g a g( f d) f g f f \barFinalis
       % V
-      \neviditelna d
-      d( f) f f f f f( d) d e( f) g \barMax
+      \neviditelna f
+      a4 a a g( a) g \barMin g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g e f d( c) d f f e \barFinalis
+      g g a g( f d) f g f f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
@@ -125,10 +135,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "IV"
       id = "1ne-1ne"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -138,16 +148,16 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      d4( f) f f f f( e) d d e( f) g \barMax
-      e f d f f( e) e \barFinalis
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
       % V
-      \neviditelna d
-      c d( f) f f f f f f d e( f) g \barMax
+      \neviditelna f
+      a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      e f d f f( e) e \barFinalis
+      g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
@@ -157,10 +167,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
-      modus = "IV"
+      quid = "resp."
+      modus = "VI"
       id = "1ne-rch"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -170,14 +180,14 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      c4 d( f) f f f f f f( d) e f f( g) g \barMax
-      g e f d( c) c c d e f d f f e \barFinalis
+      f4 f f f f g( f) f \barMin g f f g( a) a( g) \barMax
+      g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
       % V
       \neviditelna e
-      c4 d( f) f f f f f f f( d) e( f) f( g) g \barMax
+      a a a a a a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g e f d( c) c c d e f d f f e \barFinalis
+      g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
       % Slava
       \doxologieResponsoriumIV
     }
@@ -189,10 +199,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "IV"
       id = "1ne-2ne"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -205,13 +215,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f g( f) g( a) a( g) \barMax
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % V
       \neviditelna a
       a a a a a( bes) a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -222,10 +232,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1po-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -253,10 +263,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1po-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -269,13 +279,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f g( a) a( g) \barMax
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -286,10 +296,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1ut-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -300,13 +310,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      f g( a) g g( f d) f( g) g f f \barFinalis
+      g( a) g( f d) d f g g f f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a a a g( a) g \barMin g f g g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g( a) g g( f d) f( g) g f f \barFinalis
+      g( a) g( f d) d f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -317,10 +327,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1ut-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -333,13 +343,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f \barMin f f f f f f g f g( a) a( g) \barMax
-      f g a g( f) d f( g) g f \barFinalis
+      g g a g( f) d f( g) g f \barFinalis
       % V
       \neviditelna a
       a( bes) a a g( a) g \barMin g g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g a g( f) d f( g) g f \barFinalis
+      g g a g( f) d f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -350,10 +360,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1st-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -381,10 +391,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1st-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -397,13 +407,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f g f g g( a) a( g) \barMax
-      g g( a) g g( f d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g( f d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -414,10 +424,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1ct-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -445,10 +455,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1ct-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -461,13 +471,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
-      g g( f d) f( g) g f \barFinalis
+      g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( f d) f( g) g f \barFinalis
+      g g( f d) f( g) g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -479,10 +489,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1pa-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -510,10 +520,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1pa-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -526,13 +536,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f f f g f g( a) a( g) \barMax
-      g g g f( d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f( d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -543,10 +553,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "1so-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -564,17 +574,17 @@ doxologieResponsoriumVI = {}
       \choralniRezim
       
       % R
-      \neviditelna c
-      c4 d( f) f f f( g) f \barMin f f f f( d) e f g \barMax
-      g e f d( c) c \barMin d d d d f e e \barFinalis
+      \neviditelna f
+      f4 f f f f( g) f \barMin f f f f g( f) g( a) a( g) \barMax
+      g g g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
       % V
-      \neviditelna d
-      d4( f) f f f f f f f f f( d) e( f g) g \barMax
+      \neviditelna f
+      a4 a a a a g( a) g \barMin g g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g e f d( c) c \barMin d d d d f e e \barFinalis
+      g g g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -584,10 +594,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
-      modus = "IV"
+      quid = "resp."
+      modus = "VI"
       id = "2ne-1ne"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -596,17 +606,17 @@ doxologieResponsoriumVI = {}
       \choralniRezim
       
       % R
-      \neviditelna d
-      f4 f f f d e( f) g \barMax
-      g e f d f e e \barFinalis
+      \neviditelna f
+      f4 f f f f g( a) a( g) \barMax
+      g g( a) g( f d) d f( g) g( f) f \barFinalis
       % V
-      \neviditelna d
-      c d( f) f f f f d e( f) g \barMax
+      \neviditelna f
+      a a a a a g( a) g(f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g e f d f e e \barFinalis
+      g g( a) g( f d) d f( g) g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ve -- le -- bí -- me tě, Bo -- že,_*
@@ -616,10 +626,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
-      modus = "IV"
+      quid = "resp."
+      modus = "VI"
       id = "2ne-rch"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -629,16 +639,16 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna d
-      f4 f f f f( d) e( g) \barMax
-      g g e f d c c \barMin d f e d d e e \barFinalis
+      f4 f f f g( a) a( g) \barMax
+      g g g g g a g( f d) f f f g g f f \barFinalis
       % V
-      \neviditelna d
-      c c d( f) f f f f d e( f) g \barMax
+      \neviditelna f
+      a4 a a a g a g f g( a) a( g)  \barMax
       % R
       \neviditelna g
-      g g e f d c c \barMin d f e d d e e \barFinalis
+      g g g g g a g( f d) f f f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ve -- li -- ký je náš Bůh,_*
@@ -648,10 +658,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
-      modus = "IV"
+      quid = "resp."
+      modus = "VI"
       id = "2ne-2ne"
-      piece = "responsorium - IV"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -664,13 +674,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      f g( a) a a g f d f( g) g f f \barFinalis
+      g a g g f d f g g f f \barFinalis
       % V
       \neviditelna a
       a4 a a a a( bes a) g g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g( a) a a g f d f( g) g f f \barFinalis      
+      g a g g f d f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -682,10 +692,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2po-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -696,13 +706,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f f f f f f f f g f g( a) a( g) \barMax
-      f f( d) f( g) g g f f \barFinalis
+      g g g( f d) f( g) g f f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
       % R
       \neviditelna f
-      f f( d) f( g) g g f f \barFinalis
+      g g g( f d) f( g) g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -714,10 +724,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2po-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -749,10 +759,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2ut-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -762,7 +772,7 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      f4 f f f f f d( f) f f \barMin g f g( a) a( g) \barMax
+      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
       g g g g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
@@ -781,10 +791,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2ut-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -797,13 +807,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      g g g g( a) g( f d) d f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a a a a a( bes) a g g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      g g g g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -815,10 +825,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2st-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -847,10 +857,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2st-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -863,13 +873,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g g( a) g g g( f d) f g g( f) f \barFinalis
+      g( a) g( f d) d f f f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a( bes) a a a g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g g( f d) f g g( f) f \barFinalis
+      g( a) g( f d) d f f f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -881,10 +891,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2ct-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -913,10 +923,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2ct-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -947,10 +957,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2pa-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -961,13 +971,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f g f f g( a) a( g) \barMax
-      g g g a g g f( d) f( g) g f f \barFinalis
+      g g g g( a) g g f( d) f( g) g f f \barFinalis
       % V
       \neviditelna g
       a a a a g( a) g f g( a) \barMax
       % R
       \neviditelna g
-      g g g a g g f( d) f( g) g f f \barFinalis
+      g g g g( a) g g f( d) f( g) g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -979,10 +989,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2pa-ne"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -994,7 +1004,7 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      f4 f f e f g f g( a) a( g) \barMax
+      f4 f f g f f f g( a) a( g) \barMax
       f g a g( f) f \barFinalis
       % V
       \neviditelna g
@@ -1013,10 +1023,10 @@ doxologieResponsoriumVI = {}
       \textRespDoxologie
     }
     \header {
-      quid = "resp"
+      quid = "resp."
       modus = "VI"
       id = "2so-rch"
-      piece = "responsorium - VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 }

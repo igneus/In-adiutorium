@@ -24,6 +24,7 @@
 % "tiraz" -------------------------------------------------------
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
+rok = #(strftime "%Y" (localtime (current-time)))
 
 sazeciProgram = \markup {        
   \with-url #"http://lilypond.org/" {
@@ -41,15 +42,25 @@ inAdiutorium = \markup {
   }
 }
 
-\header {
-  tagline = \markup {
-    \column {
-      \line { datum: \dnesniDatum }
-      \line { licence: \licenceCcAsU }
-      \line { projekt: \inAdiutorium }
-      \line { sazba programem \sazeciProgram }
-    }
+tirazVelka = \markup {
+  \column {
+    \line { datum: \dnesniDatum }
+    \line { licence: \licenceCcAsU }
+    \line { projekt: \inAdiutorium }
+    \line { sazba programem \sazeciProgram }
   }
+}
+
+tirazMala = \markup { 
+  \with-url #"http://inadiutorium.xf.cz" {
+    In adiutorium
+  }
+  - 
+  \dnesniDatum 
+}
+
+\header {
+  tagline = \tirazVelka
 }
 
 % nadpisy ------------------------------------------------------
@@ -75,6 +86,14 @@ inAdiutorium = \markup {
           (#:medium #:large datum 
            titul 
            #:medium #:large rank))))
+
+#(define-markup-command (titleCommune layout props titul) (markup?)
+   "Sestavi header:title pro oficium svatku"
+   (interpret-markup layout props
+     (markup 
+        #:center-column 
+          (#:medium #:large "společné texty"
+           titul))))
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {

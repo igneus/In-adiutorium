@@ -129,7 +129,7 @@
     differentia = "" 
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup\sestavTitulek
   }
 }
 
