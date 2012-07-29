@@ -10,17 +10,29 @@ rok = #(strftime "%Y" (localtime (current-time)))
   composer = "Jakub Pavlík"
   
   % misto normalni velke tiraze jen malicka
-  tagline = \markup {
-    \line { 
-      "In adiutorium" 
-      - 
-      \rok
-    }
-  }
+  tagline = \tirazMala
 }
 
 \paper {
+     
+
+     
+
+     
+     
+} 
+
+
+\paper {
   #(set-paper-size "a6")
+  
+  % zkopirovano z mailove konference:
+  %% cf. ly/titling-init.ly
+  #(define (not-last-page layout props arg)
+      (if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+          (chain-assoc-get 'page:is-last-bookpart props #f))
+          empty-stencil
+          (interpret-markup layout props arg)))
   
   ragged-bottom=##t
   
@@ -29,13 +41,16 @@ rok = #(strftime "%Y" (localtime (current-time)))
   print-first-page-number = ##t
   oddHeaderMarkup = \markup \fill-line { " " }
   evenHeaderMarkup = \markup \fill-line { " " }
-  oddFooterMarkup = \markup { \fill-line {
-     \on-the-fly #print-page-number-check-first
-     \fromproperty #'page:page-number-string } }
-  evenFooterMarkup = \markup { \fill-line {
-     \on-the-fly #print-page-number-check-first
-     \fromproperty #'page:page-number-string } }
+  oddFooterMarkup = \markup\fill-line { 
+    \center-column {
+      \on-the-fly #last-page 
+        \fromproperty #'header:tagline
+      \on-the-fly #print-page-number-check-first
+        \fromproperty #'page:page-number-string
+    } 
+  }
 }
+
 
 #(set-global-staff-size 14)
 
@@ -66,7 +81,7 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   \include "tyden1_1nedele_1ne-resp.ly"
   \markup{ranní chvály}
   \include "tyden1_1nedele_rch-resp.ly"
-  \pageBreak % ZLOM
+  % \pageBreak % ZLOM
   \markup{2. nešpory}
   \include "tyden1_1nedele_2ne-resp.ly"
   

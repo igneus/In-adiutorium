@@ -34,7 +34,7 @@ file 'responsorial.pdf' => ['responsorial.ly',
                                           'velikonoce_responsoria_1.ly',
                                           'tyden1_1nedele_1ne-resp.ly',
                                           'tyden2_1nedele_1ne-resp.ly'] do
-  sh "lilypond responsorial.ly"
+  sh "lilypond -dno-point-and-click responsorial.ly"
 end
 
 task :default => ['responsorial.pdf']
