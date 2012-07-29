@@ -215,13 +215,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f g( f) g( a) a( g) \barMax
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % V
       \neviditelna a
       a a a a a( bes) a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -279,13 +279,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f g( a) a( g) \barMax
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
       % R
       \neviditelna g
-      f d f( g) g f f \barFinalis
+      g( f d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -310,13 +310,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      f g( a) g g( f d) f( g) g f f \barFinalis
+      g( a) g( f d) d f g g f f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a a a g( a) g \barMin g f g g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g( a) g g( f d) f( g) g f f \barFinalis
+      g( a) g( f d) d f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -343,13 +343,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f \barMin f f f f f f g f g( a) a( g) \barMax
-      f g a g( f) d f( g) g f \barFinalis
+      g g a g( f) d f( g) g f \barFinalis
       % V
       \neviditelna a
       a( bes) a a g( a) g \barMin g g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g a g( f) d f( g) g f \barFinalis
+      g g a g( f) d f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -407,13 +407,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f g f g g( a) a( g) \barMax
-      g g( a) g g( f d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g( f d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -471,13 +471,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
-      g g( f d) f( g) g f \barFinalis
+      g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( f d) f( g) g f \barFinalis
+      g g( f d) f( g) g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -536,13 +536,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f f f g f g( a) a( g) \barMax
-      g g g f( d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f( d) f( g) g f \barFinalis
+      g g g g( f d) f( g) g f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -674,13 +674,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      f g( a) a a g f d f( g) g f f \barFinalis
+      g a g g f d f g g f f \barFinalis
       % V
       \neviditelna a
       a4 a a a a( bes a) g g( a) a( g) \barMax
       % R
       \neviditelna g
-      f g( a) a a g f d f( g) g f f \barFinalis      
+      g a g g f d f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -706,13 +706,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f f f f f f f f g f g( a) a( g) \barMax
-      f f( d) f( g) g g f f \barFinalis
+      g g g( f d) f( g) g f f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
       % R
       \neviditelna f
-      f f( d) f( g) g g f f \barFinalis
+      g g g( f d) f( g) g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -772,7 +772,7 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      f4 f f f f f d( f) f f \barMin g f g( a) a( g) \barMax
+      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
       g g g g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
@@ -807,13 +807,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      g g g g( a) g( f d) d f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a a a a a( bes) a g g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f g( a) g( f d) f g g( f) f \barFinalis
+      g g g g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI 
     }
@@ -873,13 +873,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g g( a) g g g( f d) f g g( f) f \barFinalis
+      g( a) g( f d) d f f f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a( bes) a a a g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g g( f d) f g g( f) f \barFinalis
+      g( a) g( f d) d f f f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -971,13 +971,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f g f f g( a) a( g) \barMax
-      g g g a g g f( d) f( g) g f f \barFinalis
+      g g g g( a) g g f( d) f( g) g f f \barFinalis
       % V
       \neviditelna g
       a a a a g( a) g f g( a) \barMax
       % R
       \neviditelna g
-      g g g a g g f( d) f( g) g f f \barFinalis
+      g g g g( a) g g f( d) f( g) g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -1004,7 +1004,7 @@ doxologieResponsoriumVI = {}
       
       % R
       \neviditelna f
-      f4 f f e f g f g( a) a( g) \barMax
+      f4 f f g f f f g( a) a( g) \barMax
       f g a g( f) f \barFinalis
       % V
       \neviditelna g
