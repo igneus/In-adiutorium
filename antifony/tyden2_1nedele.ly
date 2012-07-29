@@ -113,9 +113,12 @@ tIInedeleInespResp = \score {
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a g a a( b) a \barMaior
+    c4 c c( d) c d e d c d c b( a g) a( g) \barMaior
+    f4 g a b( c d c) c( d) \barMin c( b g) a g g \barMaior
+    f g( a) g( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, můj Bo -- že,
@@ -125,8 +128,8 @@ tIInedeleInespResp = \score {
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 104-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -134,9 +137,11 @@ tIInedeleInespResp = \score {
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin c( d e) c( a) a c c a g g \barMaior
+    g f( g a) g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
@@ -145,8 +150,8 @@ tIInedeleInespResp = \score {
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 104-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -154,9 +159,11 @@ tIInedeleInespResp = \score {
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g( d') d e e d c d d \barMaior
+    b c c b g f f( g) g \barMaior
+    f g a g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,
@@ -165,8 +172,8 @@ tIInedeleInespResp = \score {
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 104-III"
     id = ""
     piece = \markup {\sestavTitulek}
