@@ -337,7 +337,7 @@ cislazalmu_cteni = %w(
 )
                                       
 cislazalmu_cteni.each do |z|
-  zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
+  zalmy_cteni << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
 end
 
 file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do
