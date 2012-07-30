@@ -541,7 +541,10 @@ uvodniVers = \lyricmode {
     1. Platné \italic{Uspořádání Denní modlitby církve} (viz breviář)
     užívání závěrečných mariánských antifon vzhledem k liturgickým
     dobám nijak neomezuje. "(\"Použije se" některá ze závěrečných
-    mariánských "antifon.\")."
+    mariánských "antifon.\")." Jediné závazné ustanovení určuje,
+    aby se v době velikonoční vždy zpívala antifona
+    \italic{Regina caeli} 
+    (\italic{Všeobecný úvod k Denní modlitbě církve}, odst. 92).
   }
   \markup\justify{
     2. Dříve platné přiřazení bylo:
