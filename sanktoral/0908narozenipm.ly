@@ -14,37 +14,37 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     \choralniRezim
     \key f \major
-    d4 e f f e f g g f g g a a \barMin 
-    a g a bes( c bes a) a \barMin
-    a g f e( f d) d \barFinalis
+    a4 f g( a) g \barMin g g g g a f e( f) d d \barMaior
+    a'( c g) f( g) a g( f g) f \barMin e( f g) f e d d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- ro -- ze -- ní Pan -- ny Ma -- ri -- e;
     klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
-    
-    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "a" 
     psalmus = ""
     id = ""
-    fons = "commune o PM; upraveno"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulekBezZalmu (zpívat z žalmem 95 na nápěv I.D)}
   }
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 f g g g f g f( d) d \barMaior
+    a'( g f) d d g g \barMaior
+    d g g g f( g a) g \barMin g( f g) f( e) d( e) d d \barMaior
+    d g( a bes) a( g) a g \barMin g g a( g) f( g) f \barMaior
+    f f g( a) f e d d \barFinalis
   }
   \addlyrics {
     Z_A -- bra -- há -- mo -- va po -- ko -- le -- ní,
@@ -55,8 +55,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -85,9 +85,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( g f) g( a) a \barMin b c c c d c d d( c) \barMin a( c b) g( a) a( g) \barMaior
+    c b c d( c b) a a \barMin a( f) a a( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí sla -- ví -- me tvé na -- ro -- ze -- ní, Ma -- ri -- a,
@@ -95,8 +96,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
