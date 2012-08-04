@@ -169,6 +169,30 @@ tInedeleInespResp = \score {
   }
 }
 
+\markup{Koná-li se vigilie:}
+
+\label #'vigilieAntMezidobi
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin g f g( a) f( e) e \barMaior
+    d d e f( g) g g( a) f e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, buď nám mi -- los -- tiv,
+    buď na -- ší spá -- sou v_do -- bě tís -- ně.
+  }
+  \header {
+    quid = "ant. ke kantikům (pro neděle v mezidobí)"
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

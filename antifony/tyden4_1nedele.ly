@@ -110,6 +110,11 @@
   }
 }
 
+\markup{
+  Koná-li se vigilie: antifona viz neděle 1. týdne, 
+  s. \page-ref #'vigilieAntMezidobi "0" "?" 
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
