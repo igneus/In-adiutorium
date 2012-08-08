@@ -136,7 +136,7 @@ doxologieResponsoriumVI = {}
     }
     \header {
       quid = "resp."
-      modus = "IV"
+      modus = "VI"
       id = "1ne-1ne"
       piece = \markup\sestavTitulekResp
     }
@@ -200,7 +200,7 @@ doxologieResponsoriumVI = {}
     }
     \header {
       quid = "resp."
-      modus = "IV"
+      modus = "VI"
       id = "1ne-2ne"
       piece = \markup\sestavTitulekResp
     }
@@ -611,7 +611,7 @@ doxologieResponsoriumVI = {}
       g g( a) g( f d) d f( g) g( f) f \barFinalis
       % V
       \neviditelna f
-      a a a a a g( a) g(f) g( a) a( g) \barMax
+      a a a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g( a) g( f d) d f( g) g( f) f \barFinalis
