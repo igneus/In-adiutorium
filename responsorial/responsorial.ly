@@ -14,16 +14,6 @@ rok = #(strftime "%Y" (localtime (current-time)))
 }
 
 \paper {
-     
-
-     
-
-     
-     
-} 
-
-
-\paper {
   #(set-paper-size "a6")
   
   % zkopirovano z mailove konference:
@@ -78,12 +68,14 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   
   \markup\nadpisDen{neděle}
   \markup{1. nešpory}  
-  \include "tyden1_1nedele_1ne-resp.ly"
+  % \include "tyden1_1nedele_1ne-resp.ly"
+  \include "responsoria_1ne-1ne.ly"
   \markup{ranní chvály}
-  \include "tyden1_1nedele_rch-resp.ly"
-  % \pageBreak % ZLOM
+  % \include "tyden1_1nedele_rch-resp.ly"
+  \include "responsoria_1ne-rch.ly"
   \markup{2. nešpory}
-  \include "tyden1_1nedele_2ne-resp.ly"
+  % \include "tyden1_1nedele_2ne-resp.ly"
+  \include "responsoria_1ne-2ne.ly"
   
   \pageBreak % ZLOM
   
@@ -120,12 +112,15 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   
   \markup\nadpisDen{neděle}
   \markup{1. nešpory}
-  \include "tyden2_1nedele_1ne-resp.ly"
+  % \include "tyden2_1nedele_1ne-resp.ly"
+  \include "responsoria_2ne-1ne.ly"
   \markup{ranní chvály}
-  \include "tyden2_1nedele_rch-resp.ly"
+  % \include "tyden2_1nedele_rch-resp.ly"
+  \include "responsoria_2ne-rch.ly"
   \pageBreak % ZLOM
   \markup{2. nešpory}
-  \include "tyden2_1nedele_2ne-resp.ly"
+  % \include "tyden2_1nedele_2ne-resp.ly"
+  \include "responsoria_2ne-2ne.ly"
   \pageBreak % ZLOM
   
   \markup\nadpisDen{pondělí}
