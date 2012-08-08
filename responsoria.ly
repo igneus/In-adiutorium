@@ -611,7 +611,7 @@ doxologieResponsoriumVI = {}
       g g( a) g( f d) d f( g) g( f) f \barFinalis
       % V
       \neviditelna f
-      a a a a a g( a) g(f) g( a) a( g) \barMax
+      a a a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g( a) g( f d) d f( g) g( f) f \barFinalis
