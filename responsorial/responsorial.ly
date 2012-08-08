@@ -5,6 +5,12 @@
 
 rok = #(strftime "%Y" (localtime (current-time))) 
 
+licenceCCASmala = \markup {
+  \with-url #"http://creativecommons.org/licenses/by-sa/3.0/deed.cs" {
+    CC BY-SA 3.0
+  }
+}
+
 \header {
   title = "Responsoriál"
   composer = "Jakub Pavlík"
@@ -15,14 +21,6 @@ rok = #(strftime "%Y" (localtime (current-time)))
 
 \paper {
   #(set-paper-size "a6")
-  
-  % zkopirovano z mailove konference:
-  %% cf. ly/titling-init.ly
-  #(define (not-last-page layout props arg)
-      (if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-          (chain-assoc-get 'page:is-last-bookpart props #f))
-          empty-stencil
-          (interpret-markup layout props arg)))
   
   ragged-bottom=##t
   
@@ -35,6 +33,8 @@ rok = #(strftime "%Y" (localtime (current-time)))
     \center-column {
       \on-the-fly #last-page 
         \fromproperty #'header:tagline
+      \on-the-fly #last-page
+        \line{licence: \licenceCCASmala}
       \on-the-fly #print-page-number-check-first
         \fromproperty #'page:page-number-string
     } 
@@ -117,7 +117,7 @@ doxologieResponsoriumVI = { \respVIdoxologie \barFinalis }
   \markup{ranní chvály}
   % \include "tyden2_1nedele_rch-resp.ly"
   \include "responsoria_2ne-rch.ly"
-  \pageBreak % ZLOM
+  % \pageBreak % ZLOM
   \markup{2. nešpory}
   % \include "tyden2_1nedele_2ne-resp.ly"
   \include "responsoria_2ne-2ne.ly"
