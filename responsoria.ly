@@ -136,7 +136,7 @@ doxologieResponsoriumVI = {}
     }
     \header {
       quid = "resp."
-      modus = "IV"
+      modus = "VI"
       id = "1ne-1ne"
       piece = \markup\sestavTitulekResp
     }
@@ -200,7 +200,7 @@ doxologieResponsoriumVI = {}
     }
     \header {
       quid = "resp."
-      modus = "IV"
+      modus = "VI"
       id = "1ne-2ne"
       piece = \markup\sestavTitulekResp
     }
