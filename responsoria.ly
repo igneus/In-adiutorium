@@ -189,7 +189,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
       % Slava
-      \doxologieResponsoriumIV
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
