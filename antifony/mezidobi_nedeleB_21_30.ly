@@ -211,19 +211,21 @@
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g g g( a) \barMin a( g f) g f( e) e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
     bu -- de za -- bit
-    a po třech dnech vsta -- ne z_mrt -- vých-
+    a po třech dnech vsta -- ne z_mrt -- vých.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -253,18 +255,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a( d c a) a \barMin d e( c) d c c \barMaior
+    b c( d e) f e d e e \barMaior
+    d( a c) b( g) a g g \barFinalis
   }
   \addlyrics {
-    Kdo ztra -- tí svůj ži -- vot pro mě a pro e -- van -- ge -- li -- um,
+    Kdo ztra -- tí svůj ži -- vot pro mě 
+    a pro e -- van -- ge -- li -- um,
     za -- chrá -- ní si ho.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -276,7 +281,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f g( a) a \barMaior
+    g f g a f d d( c) \barMin 
+    d d( f g) e( f) e c d \barFinalis
   }
   \addlyrics {
     Kdo chce být prv -- ní,
@@ -285,8 +292,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -294,19 +301,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g f f( g a) a \barMin
+    a( b c) c( b) a b a( g) \barMaior
+    c c b( d a g) g \barMin f a f f( g) g \barFinalis
   }
   \addlyrics {
     Kdo mne při -- jme,
     ne -- při -- jí -- má mne,
-    ale to -- ho, kte -- rý mě po -- slal.
+    a -- le to -- ho, kte -- rý mě po -- slal.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -316,7 +325,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d( a') f f( g) g \barMin
+    f e d( e) d d \barMaior
+    d f g a( g f) g f( e d e) e( d) \barMin
+    c d f( e c) c( d) d \barFinalis
   }
   \addlyrics {
     Kdo se po -- vy -- šu -- je,
@@ -326,8 +338,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
