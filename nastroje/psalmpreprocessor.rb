@@ -753,7 +753,7 @@ setup = {
   :paragraph_space => true,
   :guillemets => false,
   :join => false,
-  :skip_verses => 0
+  :skip_verses => nil
 }
 
 optparse = OptionParser.new do|opts|
@@ -899,7 +899,7 @@ def output_procedure(input, fwn, setup)
     output = MarkShortVersesOutputStrategy.new output
   end
 
-  if setup[:skip_verses] > 0 then
+  if setup[:skip_verses] != nil then
     output = SkipVersesOutputStrategy.new output, setup[:skip_verses], setup[:has_title]
   end
 
