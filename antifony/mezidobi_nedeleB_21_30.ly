@@ -349,19 +349,21 @@
 \markup {\nadpisDen {"26. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g( a) a \barMin a a g( a) a a( c d) c b a( g a) a \barMaior
+    g g g g f( g) \barMin a a g f a( g) g \barMax
+    a g a c( e d) c c( d) \barMin a g( a) a \barFinalis
   }
   \addlyrics {
-    Žád -- ný, kdo ve jmé -- nu mém vy -- ko -- ná zá -- zrak,
+    Žád -- ný, kdo v_mém jmé -- nu vy -- ko -- ná zá -- zrak,
     ne -- mů -- že tak hned o mně mlu -- vit špat -- ně.
-    Kdo ne -- ní pro --- ti nám, je s_ná -- mi.
+    Kdo ne -- ní pro -- ti nám, je s_ná -- mi.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -369,19 +371,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a g a f \barMin g g f( g) g \barMaior
+    f g a b c( d c) a a \barMaior
+    c( d c) b( a g) g \barMin f g( a) g( a) g g \barFinalis
   }
   \addlyrics {
-    Kdo -- ko -- li vám po -- dá čí --- ši vo -- dy
+    Kdo -- ko -- li vám po -- dá čí -- ši vo -- dy
     pro -- to, že jste Kris -- to -- vi,
     ne -- při -- jde o svou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -391,18 +395,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 a' a e f4. d \barMaior
+    e4 e e e f g f e d( e) d d \barMax
+    f a a g g e f e d \barMin
+    c d f( c) c( d) d \barFinalis
   }
   \addlyrics {
-    Je pro te -- be é -- pe,
+    Je pro te -- be lé -- pe,
     a -- bys ve -- šel do ži -- vo -- ta bez ru -- ky,
-    než a -- bys při -- šel s_o -- bě -- ma ru -- ka -- ma
-    do pek -- la.
+    než a -- bys s_o -- bě -- ma ru -- ka -- ma
+    při -- šel do pek -- la.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
