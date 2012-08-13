@@ -6,6 +6,7 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
+  indent = 1\cm
   \context {
     \Score
     \remove Bar_number_engraver
@@ -19,6 +20,14 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
+  
+  myStaffSize = #20
+  #(define fonts
+    (make-pango-font-tree 
+                          "URW Palladio L"
+                          "VL Gothic"
+                          "Courier"
+     (/ myStaffSize 20)))
 }
 
 % "tiraz" -------------------------------------------------------
@@ -68,8 +77,8 @@ tirazMala = \markup {
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props
-		     (markup #:bold
-			     #:large
+		     (markup #:vspace 2
+                             #:huge
 			     #:with-color #'red obsah)))
 
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
