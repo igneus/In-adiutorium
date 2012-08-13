@@ -419,9 +419,10 @@
 \markup {\nadpisDen {"27. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g( c b g) a( g) \barMin 
+    f f a f f( g) g \barFinalis
   }
   \addlyrics {
     Co Bůh spo -- jil,
@@ -429,8 +430,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -438,9 +439,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
+    f g a a a b( c d) d( c) \barMin a( g) f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,
@@ -448,8 +450,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -457,18 +459,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d( f e) c( d) d( c) \barMaior
+    bes c d( f) e d e c d d \barMaior
+    c c b! g g a( g) f( g) g \barFinalis
   }
   \addlyrics {
-    Kdo ne -- při -- jme Bo -- ží krá -- lov -- ství ja -- ko dí -- tě,
-    vů -- bec do ně -- ho ne -- ve --- jde.
+    Kdo ne -- při -- jme 
+    Bo -- ží krá -- lov -- ství ja -- ko dí -- tě,
+    vů -- bec do ně -- ho ne -- ve -- jde.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
