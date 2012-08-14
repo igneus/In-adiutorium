@@ -629,7 +629,13 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d d d( f e) d( c) \barMax
+    d4( f) d d( a') a a \barMin g( bes) g g \barMin
+    f( e f) f g f e e \barFinalis
+    % U teto antifony si jsem krajne nejisty.
+    % Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
+    % zaver mmodu IV.
+    % Co s ni?
   }
   \addlyrics {
     Sle -- pec u Je -- ri -- cha vo -- lal:
@@ -638,8 +644,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -647,9 +653,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) a( g) \barMin f f f g g g( a) a a \barMaior
+    f( g f d) d \barMin c( f) e( d) d \barFinalis
   }
   \addlyrics {
     Co chceš, a -- bych pro te -- be u -- dě -- lal?
@@ -657,8 +664,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -668,15 +675,15 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a' g bes g) \barMin f f( g) f e d e d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
