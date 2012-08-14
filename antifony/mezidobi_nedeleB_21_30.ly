@@ -483,9 +483,16 @@
 \markup {\nadpisDen {"28. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) \barMin g g f( g) f f a \barMaior
+    a c c a( g) g( e) \barMax
+    e f f f f( g) f f( e) e \barFinalis
+    % Kdyz ctu u Konrada jeho vyklady duchovniho rozpolozeni autoru
+    % starych ceskych zpevu, dost se sklebim.
+    % Ale tady charakter zpevu dobre vystihuje muj postoj k Jezisovu
+    % pozadavku: ten je pro me opravdu desivy a tvrdy...
+    % "Vsechno, co mam", to je taky kyrara, balalajka, antifonare, pocitac, ...
   }
   \addlyrics {
     Jdi, pro -- dej všech -- no, co máš,
@@ -494,8 +501,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -503,18 +510,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a( e f d) e \barMin f f f g g g f( g) e e \barMaior
+    d d d( g) f d( f) e e \barFinalis
   }
   \addlyrics {
-    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství ti,
-    kdo ma -- jí bo -- hat -- ství.
+    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství 
+    ti, kdo ma -- jí bo -- hat -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
