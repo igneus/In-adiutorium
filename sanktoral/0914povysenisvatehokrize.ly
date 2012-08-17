@@ -39,7 +39,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d( f e d4. c) \barMin d4 d d4( f e) d c e( d) \barMaior
+    f( g a) g f4.( e4 d) \barMin f( e g) f( e) d( e) d d \barMaior
+    c d( e) d d \barFinalis
   }
   \addlyrics {
     Kříž, kte -- rý zna -- me -- nal smrt,
@@ -48,8 +50,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "147-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -57,18 +59,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 g a g f g g \barMaior
+    g a4.( c) \bar ":" \[ d4(^\markup{možno vynechat} c b \] \[ c d c b \] \[ a4. g \] \barMin \[ a4 c d c) \] \bar ":"
+    c4( d e) c b a a \barMin g( f e) f g a( g) g \barFinalis
   }
   \addlyrics {
     Na -- ší je -- di -- nou chlou -- bou
-    je kříž na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+    je kříž \skip 1 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -109,16 +114,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d a' a f( g a) a( g a) \barMin
+    a a( c g) a( g) f \barMaior
+    g g f( e d e) e( d) \barMin d( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus mu -- sel tr -- pět a vstát z_mrt -- vých,
+    Kris -- tus mu -- sel tr -- pět 
+    a vstát z_mrt -- vých,
     a tak ve -- jít do své slá -- vy.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -130,7 +138,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( a' g a) a \barMin a a a a( c g) a( g) f f \barMaior
+    g g f( e d) d( e) e( d) \barMin d d d( f) d c c d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu Krá -- li;
@@ -138,10 +147,11 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
+    fons = "melodie podle ant. k Magnificat 1. nešpor"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
