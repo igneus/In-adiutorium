@@ -571,7 +571,7 @@ uvodniVers = \lyricmode {
       % Kriste
       g( a) a a b g e \barFinalis
       % tys od veku
-      a b a a g a b g e \barFinalis
+      a b a a \barMin g a b g e \barFinalis
       % abys cloveka
       g c c b a b( c) b a \barMaior a a a a a a a g a b g e \barFinalis
       % zlomil
@@ -600,7 +600,7 @@ uvodniVers = \lyricmode {
       c d( f) f( e) d f g( a) g( f) g( f) e( d) \barMaior c d( f) f f e d f g( a) g( f g f e) e \barFinalis
     }
     \addlyrics {
-      Bo -- že, te -- be chvá -- lí -- me, te -- be, Pa -- ne, ve -- le -- bí -- me.
+      Bo -- že, te -- be chvá -- lí -- me,_* te -- be, Pa -- ne, ve -- le -- bí -- me.
       Te -- be, věč -- ný Ot -- če, o -- sla -- vu -- je ce -- lá ze -- mě.
       Všich -- ni an -- dě -- lé, che -- ru -- bo -- vé i se -- ra -- fo -- vé,
       všech -- ny moc -- né ne -- bes -- ké zá -- stu -- py bez u -- stá -- ní vo -- la -- jí:
@@ -626,7 +626,7 @@ uvodniVers = \lyricmode {
       
       % * Poslední část (prosby) se může vynechat.
       
-      Za -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
+      \markup{\bold{\with-color #red "*"} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
       veď ho a stá -- le po -- zve -- dej.
       Kaž -- dý den tě bu -- de -- me ve -- le -- bit a chvá -- lit tvé jmé -- no po všech -- ny vě -- ky.
       Po -- má -- hej nám i dnes, ať se ne -- do -- sta -- ne -- me do pod -- ru -- čí hří -- chu.
@@ -644,6 +644,8 @@ uvodniVers = \lyricmode {
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
 }
 
 \bookpart {
