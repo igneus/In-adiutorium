@@ -85,15 +85,18 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna e
+    e e a a a g g( a) a \barMax
+    a( b a) g( a) g a g e e \barMin f f f f( g a) f e( f) e e \barFinalis
     % V
     \neviditelna a
-    
+    e( a) a a \barMin g e( a) a a b( a) a \barMaior
+    a a a a f( e d) d \barMin e e f( a) g g( a) a \barMax
     % R
     \neviditelna a
-    
+    a( b a) g( a) g a g e e \barMin f f f f( g a) f e( f) e e \barFinalis
     % Slava
+    e( a) a a( g) g b b( a) a \barMin f g a g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Až se při -- blí -- ží den sou -- du,_*
@@ -105,7 +108,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "IV"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -433,29 +436,34 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     
     % R
-    \neviditelna a
-    
+    \neviditelna c
+    % c4 c c( a) c d d \barMin c c c c c c( a) a c c d d \barMax
+    d d e( f g) a f e \barMaior 
+    f g a a( bes) a \barMin bes( c d) c bes a( bes) a a \barMax
+    a a g f g( a) g \barMin g( f g) f e d( e d) d \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna a'
+    a a( bes) a \barMin bes( c d) c bes a bes bes a a \barMax
     % R
     \neviditelna a
-    
+    a a g f g( a) g \barMin g( f g) f e d( e d) d \barFinalis
     % Slava
+    a' a a( bes) a c d( c bes c) a \barMin a g f g( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Slav -- ný sva -- tý kří -- ži,
     na to -- bě Kris -- tus zví -- tě -- zil nad smr -- tí,_*
     a při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
-    \Verse Svou kr -- ví vy --- myl rá -- ny na -- šich hří -- chů_*
+    \Verse Svou kr -- ví vy -- myl rá -- ny na -- šich hří -- chů_*
     \Response a při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
