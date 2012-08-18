@@ -529,7 +529,8 @@ uvodniVers = \lyricmode {
     3. Adaptace jednoho z tradičních latinských nápěvů 
     pro český text. (Mírně ztrátová - některé melodické ozdoby nebylo
     lze smysluplně převést; místy je v jednom verši řečeno to, co je v latině
-    rozděleno do dvou.):
+    rozděleno do dvou. Text je doslovně převzat z českého překladu
+    breviáře, ale dělení na verše je místy upraveno podle latinské předlohy.):
   }
   
   \score {
