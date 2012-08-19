@@ -13,7 +13,7 @@
 			     #:large obsah)))
 
 paneOtevri = \lyricmode {
-  \Verse Pa -- ne, o -- tev -- ři mé rty,_*
+  \Verse Pa -- ne, o -- tev -- ři mé rty,
   \Response a má ús -- ta tě bu -- dou chvá -- lit.
 }
 
@@ -525,9 +525,128 @@ uvodniVers = \lyricmode {
     společenství.
   }
   
-  % chtelo by to vytvorit choralni zpracovani ceskeho textu
-  % na zaklade latinskeho napevu;
-  % to z Ceskeho kancionalu nepovazuji za pouzitelne
+  \markup\justify{
+    3. Adaptace jednoho z tradičních latinských nápěvů 
+    pro český text. (Mírně ztrátová - některé melodické ozdoby nebylo
+    lze smysluplně převést; místy je v jednom verši řečeno to, co je v latině
+    rozděleno do dvou. Text je doslovně převzat z českého překladu
+    breviáře, ale dělení na verše je místy upraveno podle latinské předlohy.):
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      % Boze, tebe chvalime
+      g4( a) a a g a( b c) b( a) a \barMaior a a a g a b a g \barFinalis
+      % Tebe, vecny Otce
+      c c c b a( b) a \barMaior a a a g a b a g \barFinalis
+      % Vsichni andele
+      c c b a( b) a \barMaior a a a a g a b a g \barFinalis
+      % vsechny mocne
+      c c c c c c b a( b) a a \barMaior a a a g a b a( g) \barFinalis
+      % Svaty
+      g( a b c) b( a) \barFinalis 
+      g( a b c) b( a) \barFinalis
+      a( e g a) a \barMin a( g) a( b) a a g \barFinalis
+      % Plna jsou
+      c c c c c c b a( b) a \barMaior a g a b a g \barFinalis
+      
+      % Oslavuje te
+      c c( b) a( b) a a \barMaior a g a b a g \barFinalis
+      % Chvali te
+      c( b) a( b) a \barMaior a g a b a a g \barFinalis
+      % Vydava
+      c c c c c b a( b) a a \barMaior a g a b a g \barFinalis
+      % a po celem
+      c c c b a( b) a \barMaior a a g a b a g \barFinalis
+      % neskoale
+      % - tady bohuzel vynechavame vyznamuplnou - strukturujici - ozdobu 
+      % pritomnou v lat. orignalu; na cesky text nesedi (jiny slovosled,
+      % vyznamuplne slovo je v jine casti verse)
+      c c c b a( b) a a \barMaior a g a b a g \barFinalis
+      % uctyhodny
+      c c c c c b a( b) a \barMaior g a b a a g \barFinalis
+      % bozsky
+      c c c b a( b) a a \barMaior a g a( b) a( g) \barFinalis
+      
+      % Kriste
+      g( a) a a b g e \barFinalis
+      % tys od veku
+      a b a a \barMin g a b g e \barFinalis
+      % abys cloveka
+      g c c b a b( c) b a \barMaior a a a a a a a g a b g e \barFinalis
+      % zlomil
+      g c c b a b( c) b( a) \barMaior a a a a g a b g e \barFinalis
+      % sedis
+      g c c c b a b( c) b a \barMaior a a a a g a b g e \barFinalis
+      % verime
+      a a a g a b g e \barFinalis
+      % a proto
+      g c c c c c c c c c c b a b c b a \barMaior a a a a a a a g a b g e \barFinalis
+      f f( e) d f e( d) c \barMaior e f g g g g a f g( f e) e \barFinalis
+      
+      % Zachran
+      c d( f) f f e( d) c \barMaior c d( f) f f f g( a) g( f e) e \barFinalis
+      % ved
+      f( e d f) e( d c) \barMaior d f g a( f) g( f e) e \barFinalis
+      % Kazdy den
+      a a a a a a g b c b( a) \barMaior a a a a a a g a b g e \barFinalis
+      % Pomahej
+      a a g b c b( a) \barMaior a a a a a a a a g a b g e \barFinalis
+      % Smiluj se
+      a a a a a g b( c) b( a) \barMaior g a b g g e \barFinalis
+      % At spocine
+      a a a a a a g b c b a a \barMaior a g a b g e \barFinalis
+      % Pane, k tobe
+      c d( f) f( e) d f g( a) g( f) g( f) e( d) \barMaior c d( f) f f e d f g( a) g( f g f e) e \barFinalis
+    }
+    \addlyrics {
+      Bo -- že, te -- be chvá -- lí -- me,_* te -- be, Pa -- ne, ve -- le -- bí -- me.
+      Te -- be, věč -- ný Ot -- če, o -- sla -- vu -- je ce -- lá ze -- mě.
+      Všich -- ni an -- dě -- lé, che -- ru -- bo -- vé i se -- ra -- fo -- vé,
+      všech -- ny moc -- né ne -- bes -- ké zá -- stu -- py bez u -- stá -- ní vo -- la -- jí:
+      Sva -- tý, Sva -- tý, Sva -- tý, Pán, Bůh zá -- stu -- pů.
+      Pl -- ná jsou ne -- be -- sa i ze -- mě tvé vzne -- še -- né slá -- vy.
+      
+      O -- sla -- vu -- je tě sbor tvých a -- po -- što -- lů,
+      chvá -- lí tě vel -- ký po -- čet pro -- ro -- ků,
+      vy -- dá -- vá o to -- bě svě -- dec -- tví zá -- stup mu -- čed -- ní -- ků;
+      a po ce -- lém svě -- tě vy -- zná -- vá tě tvá cír -- kev:
+      ne -- sko -- na -- le ve -- leb -- ný, vše -- mo -- hou -- cí Ot -- če,
+      úc -- ty -- hod -- ný Sy -- nu Bo -- ží, pra -- vý a je -- di -- ný,
+      bož -- ský U -- tě -- ši -- te -- li, Du -- chu sva -- tý.
+      
+      Kris -- te, Krá -- li slá -- vy, 
+      tys od vě -- ků Syn Bo -- ha Ot -- ce;
+      a -- bys člo -- vě -- ka vy -- kou -- pil, stal ses člo -- vě -- kem a na -- ro -- dil ses z_Pan -- ny;
+      zlo -- mil jsi os -- ten smr -- ti a o -- te -- vřel vě -- ří -- cím ne -- be;
+      se -- díš po Ot -- co -- vě pra -- vi -- ci a máš ú -- čast na je -- ho slá -- vě.
+      Vě -- ří -- me, že při -- jdeš sou -- dit, 
+      a pro -- to tě pro -- sí -- me: při -- spěj na po -- moc svým slu -- žeb -- ní -- kům, vždyť jsi je vy -- kou -- pil svou pře -- dra -- hou kr -- ví;
+      dej, ať se ra -- du -- jí s_tvý -- mi sva -- tý -- mi ve věč -- né slá -- vě.
+      
+      % * Poslední část (prosby) se může vynechat.
+      
+      \markup{\bold{\with-color #red "*"} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
+      veď ho a stá -- le po -- zve -- dej.
+      Kaž -- dý den tě bu -- de -- me ve -- le -- bit a chvá -- lit tvé jmé -- no po všech -- ny vě -- ky.
+      Po -- má -- hej nám i dnes, ať se ne -- do -- sta -- ne -- me do pod -- ru -- čí hří -- chu.
+      Smi -- luj se nad ná -- mi, Pa -- ne, smi -- luj se nad ná -- mi.
+      Ať spo -- či -- ne na nás tvé mi -- lo -- sr -- den -- ství, jak dou -- fá -- me v_te -- be.
+      Pa -- ne, k_to -- bě se u -- tí -- ká -- me, ať ne -- jsme za -- han -- be -- ni na vě -- ky. 
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = "" 
+      psalmus = ""
+      id = "tedeum"
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
 }
 
 \bookpart {

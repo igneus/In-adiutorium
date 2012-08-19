@@ -483,9 +483,16 @@
 \markup {\nadpisDen {"28. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) \barMin g g f( g) f f a \barMaior
+    a c c a( g) g( e) \barMax
+    e f f f f( g) f f( e) e \barFinalis
+    % Kdyz ctu u Konrada jeho vyklady duchovniho rozpolozeni autoru
+    % starych ceskych zpevu, dost se sklebim.
+    % Ale tady charakter zpevu dobre vystihuje muj postoj k Jezisovu
+    % pozadavku: ten je pro me opravdu desivy a tvrdy...
+    % "Vsechno, co mam", to je taky kyrara, balalajka, antifonare, pocitac, ...
   }
   \addlyrics {
     Jdi, pro -- dej všech -- no, co máš,
@@ -494,8 +501,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -503,18 +510,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a( e f d) e \barMin f f f g g g f( g) e e \barMaior
+    d d d( g) f d( f) e e \barFinalis
   }
   \addlyrics {
-    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství ti,
-    kdo ma -- jí bo -- hat -- ství.
+    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství 
+    ti, kdo ma -- jí bo -- hat -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -551,18 +559,20 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d( g) g g f g a( g f) g \barMin f( g) f d d \barMaior
+    d( g a) a( g) \barMin g g g bes( a g) a g g d d \barMaior
+    f f f e f d d \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji,
     pít bu -- de -- te,
     a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
-    po -- no -- ře -- ni bu -- de -- te.
+    bu -- de -- te po -- no -- ře -- ni.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -595,19 +605,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d( e) d c c( d) d4.( c4 b) a( b) a g g \barMaior
+    f f g a( c b c d) d( c) \barMin d d d( c b) a g g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Syn člo -- vě -- ka při -- šel, 
-    a -- by slou -- žil
+    Syn člo -- vě -- ka při -- šel, a -- by slou -- žil
     a dal svůj ži -- vot ja -- ko vý -- kup -- né za všech -- ny.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -619,7 +629,13 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d d d( f e) d( c) \barMax
+    d4( f) d d( a') a a \barMin g( bes) g g \barMin
+    f( e f) f g f e e \barFinalis
+    % U teto antifony si jsem krajne nejisty.
+    % Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
+    % zaver mmodu IV.
+    % Co s ni?
   }
   \addlyrics {
     Sle -- pec u Je -- ri -- cha vo -- lal:
@@ -628,8 +644,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -637,9 +653,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) a( g) \barMin f f f g g g( a) a a \barMaior
+    f( g f d) d \barMin c( f) e( d) d \barFinalis
   }
   \addlyrics {
     Co chceš, a -- bych pro te -- be u -- dě -- lal?
@@ -647,8 +664,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -658,15 +675,15 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a' g bes g) \barMin f f( g) f e d e d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
