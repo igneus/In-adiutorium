@@ -1,3 +1,10 @@
+This branch: attempt to make a distinctive look-and-feel for all the
+In adiutorium scores.
+
+The project is here for two years (08/2012) and it will continue for some more
+years, so I think it's time to leave the not-very elegant defaults and
+make the scores more eye-friendly.
+
 # In adiutorium #
 
 music for Catholic Divine Office (liturgy of the hours) in Czech language.

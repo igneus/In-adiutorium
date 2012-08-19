@@ -77,7 +77,7 @@
   }
   \addlyrics {
     Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
-    dí -- tě se ra -- dost -- ne po -- hnu -- lo v_je -- jím lů -- ně,
+    dí -- tě se ra -- dost -- ně po -- hnu -- lo v_je -- jím lů -- ně,
     a by -- la na -- pl -- ně -- na Du -- chem sva -- tým.
     
     A -- le -- lu -- ja.

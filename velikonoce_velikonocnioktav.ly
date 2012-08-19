@@ -734,7 +734,7 @@
       a4( g f) g( f) d4. d \barMax
       d4( g) f f g g \barMaior
       g bes( a bes) g( a) g( f) f \barMin
-      f g( f) e( f) d d \barMax
+      f g( f) e( f) d d \barFinalis
     }
     \addlyrics {
       Pro -- to -- že jsi mě u -- vi -- děl,_* 
