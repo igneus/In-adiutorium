@@ -9,9 +9,20 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
+  indent = 1.5\cm
+  short-indent = 0\cm
+
   \context {
     \Score
     \remove "Bar_number_engraver"
+  }
+  
+  \context {
+    \Staff
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel 
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
   }
 }
 
