@@ -131,22 +131,29 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4( b c) c( d) d \barMin 
+    c4 b a a( g) g \barMaior
+    f g a a( c) b b( c) c \barMin 
+    d d a c b \barMax
     
+    c b a c( d e) c( b( a) \barMin 
+    a( d c) a( g) a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj se, bo -- lest -- ná Mat -- ko,
     ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
-    ny -- ní s ním vlád -- neš 
+    ny -- ní s_ním vlád -- neš 
     v_ne -- bes -- ké slá -- vě.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = ""
     id = ""
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -154,9 +161,10 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a a( d c) a a d d \barMaior
+    c c d e4. c \barMin d4 c b c( a) a \barFinalis
   }
   \addlyrics {
     Kris -- tus je dár -- ce po -- ko -- je,
@@ -164,8 +172,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 122"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -173,9 +181,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a a( c) a a( g) f g g( f) f \barMaior
+    f g( a c) b( a b) a \barMin 
+    g f e d f g e e \barFinalis
   }
   \addlyrics {
     Při -- stup -- me k_měs -- tu ži -- vé -- ho Bo -- ha
@@ -184,8 +194,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "a" 
     psalmus = "Žalm 127"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -195,7 +205,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d f d c( e) d \barMin
+    d e c c a \barMaior
+    a bes c d f( e d e) d \barMin
+    f f f g( f) e d c( d e) d \barFinalis
   }
   \addlyrics {
     V_Kris -- tu má -- me vy -- kou -- pe -- ní 
@@ -205,8 +218,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -246,7 +259,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    \key f \major
+    d4 d( a') a \barMin bes bes bes bes c c bes c a a \barMaior
+    g f g g a a a g g f g e \barMin
+    e f e( d) d \barMax
+    d( f g f a g) g \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin e d e( f e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl svou mat -- ku ve -- dle kří -- že
@@ -258,8 +276,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
