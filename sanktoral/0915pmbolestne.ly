@@ -16,7 +16,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    \key f \major
+    d4( a') a \barMin g( a) bes c bes( a) a \barMin
+    bes( a) g a g f( e) e \barMaior
+    f g a a( bes) a a g f g( f) e e \barMin
+    f( g) f d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -26,10 +30,11 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
+    fons = "zejm. 1. část podle invitatoria z Narození sv. Jana Křtitele"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -105,15 +110,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    d d d( f) d \barMin c d e f d \barMax
+    f e g f e d d \barFinalis
     % V
     \neviditelna a
-    
+    a( c d) d c e( f d) \barMax
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f e g f e d d \barFinalis
     % Slava
+    a c c( d) d c e( f d) d \barMin f e g f( e) d d \barFinalis
   }
   \addlyrics {
     \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
@@ -124,7 +131,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "II"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -229,17 +236,20 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f g f e d d \barMin f e g a a \barMax
+    bes bes a g a f e( f) d \barMin e g f d d \barFinalis
     % V
-    \neviditelna a
-    
+    \neviditelna g
+    a4 a a a g( a) g g \barMin f g bes a g( a) a \barMax
     % R
     \neviditelna a
-    
+    bes bes a g a f e( f) d \barMin e g f d d \barFinalis
     % Slava
+    a' a g( a) g f g( bes) a \barMin a g f g( f) a a \barFinalis
   }
   \addlyrics {
     \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
@@ -250,7 +260,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "I"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
