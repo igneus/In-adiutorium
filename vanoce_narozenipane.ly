@@ -140,7 +140,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -211,6 +211,64 @@
   \score {
     \relative c' {
       \choralniRezim
+      
+      % R
+      \neviditelna a
+      
+      % V
+      \neviditelna a
+      
+    }
+    \addlyrics {
+      \Response Dnes se nám na -- ro -- dil z_Pan -- ny Ma -- ri -- e 
+      Král ne -- bes, 
+      a -- by po -- vo -- lal zblou -- di -- lé -- ho člo -- vě -- ka 
+      zpět do ne -- bes -- ké -- ho krá -- lov -- ství:_* 
+      Zá -- stu -- py an -- dě -- lů se ra -- du -- jí, 
+      pro -- to -- že se lid -- stvu zje -- vi -- la věč -- ná spá -- sa.
+      \Verse Slá -- va na vý -- sos -- tech Bo -- hu 
+      a na ze -- mi po -- koj li -- dem, 
+      ne -- boť Bůh má v_nich za -- lí -- be -- ní._* 
+      Zá -- stu -- py an -- dě -- lů.
+    }
+    \header {
+      quid = "1. resp."
+      modus = ""
+      id = ""
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna a
+      
+      % V
+      \neviditelna a
+      
+    }
+    \addlyrics {
+      \Response Dnes nám se -- stou -- pil z_ne -- be pra -- vý po -- koj._* 
+      Dnes se ne -- be roz -- zá -- ři -- lo nad ce -- lou ze -- mí.
+      \Verse Dnes nám za -- zá -- řil 
+      o -- de -- dáv -- na při -- pra -- vo -- va -- ný den spá -- sy, 
+      den věč -- né bla -- že -- nos -- ti._* 
+      Dnes.
+    }
+    \header {
+      quid = "2. resp."
+      modus = ""
+      id = ""
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
       d4 d d d( e c4.) c a4 c c( d) d \barMaior
       d f( e) f e4.( d4 c) \barMin
       f( e d) c( d) d \barFinalis
@@ -225,7 +283,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
