@@ -8,17 +8,11 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
-#(define (not-last-page layout props arg)
- 		(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-    	(chain-assoc-get 'page:is-last-bookpart props #f))
-	empty-stencil
-	(interpret-markup layout props arg))) 
-
 \paper {
   oddFooterMarkup = \markup { 
-    \on-the-fly #last-page \fill-line { " " \fromproperty #'header:tagline " " }
+    \on-the-fly #last-page \fromproperty #'header:tagline
     
-    \on-the-fly #not-last-page \small { 
+    \small { 
       \fill-line {
         \fromproperty #'header:title
         \dnesniDatum 
@@ -111,6 +105,7 @@
 %{
 \markup {\nadpisHodinka {"1. nešpory"}}
 \markup {\nadpisHodinka {"invitatorium"}}
+\markup {\nadpisHodinka {"modlitba se čtením"}}
 \markup {\nadpisHodinka {"ranní chvály"}}
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -135,7 +130,7 @@
     differentia = "" 
     psalmus = ""
     id = ""
-    piece = \markup\sestavTitulek
+    piece = \markup {\sestavTitulek}
   }
 }
 
