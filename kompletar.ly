@@ -50,6 +50,7 @@
   }
   \header {
     quid = "neděle po 1. nešporách - 1. ant."
+    quidbreve = "1. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 4"
@@ -69,6 +70,7 @@
   }
   \header {
     quid = "neděle po 1. nešporách - 2. ant."
+    quidbreve = "2. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 134"
@@ -91,6 +93,7 @@
   }
   \header {
     quid = "neděle po 2. nešporách - ant."
+    quidbreve = "ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 91"
@@ -109,6 +112,7 @@
   }
   \header {
     quid = "pondělí - ant."
+    quidbreve = "ant."
     modus = "II"
     differentia = "D"
     piece = \markup\sestavTitulek
@@ -129,6 +133,7 @@
   }
   \header {
     quid = "úterý - ant."
+    quidbreve = "ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
@@ -149,6 +154,7 @@
   }
   \header {
     quid = "středa - 1. ant."
+    quidbreve = "1. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 31"
@@ -168,6 +174,7 @@
   }
   \header {
     quid = "středa - 2. ant."
+    quidbreve = "2. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 130"
@@ -186,6 +193,7 @@
   }
   \header {
     quid = "čtvrtek - ant."
+    quidbreve = "ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 16"
@@ -204,6 +212,7 @@
   }
   \header {
     quid = "pátek - ant."
+    quidbreve = "ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88"
@@ -261,11 +270,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Nunc dimittis"
+    quidbreve = "ant."
     modus = "III"
     differentia = "a" 
     psalmus = "Nunc dimittis"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
     id = "sim"
   }
 }
@@ -299,6 +309,7 @@
     }
     \header {
       quid = "ant. k žalmům"
+      quidbreve = "ant."
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
