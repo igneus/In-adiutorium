@@ -31,7 +31,7 @@
   myStaffSize = #20
   #(define fonts
     (make-pango-font-tree 
-                          "URW Palladio L"
+                          "Charis SIL"
                           "VL Gothic"
                           "Courier"
      (/ myStaffSize 20)))
@@ -182,7 +182,8 @@ Response = \lyricmode {
   \markup { 
     \with-color ##'red { 
       % \concat { \override #'(font-name . "liturgy") {R} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+      % \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+      \concat { \char ##x0211F : }
     }
   }
 }
@@ -191,7 +192,8 @@ Verse = \lyricmode {
   \markup { 
     \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+      % \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+      \concat { \char ##x02123 : }
     }
   }
 }
