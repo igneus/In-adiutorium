@@ -39,7 +39,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( f) f \barMin g g g f e d d \barMaior
+    d e c c a c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, stal ses mým po -- moc -- ní -- kem,
@@ -47,8 +48,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -56,9 +57,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 f g g g( a) a \barMaior
+    a c a b g \barMin
+    f f f f g f e e \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se z_to -- ho,
@@ -67,8 +70,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -76,9 +79,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g( a b) a( g) a \barMaior
+    a b( c d) d c e d \barMin
+    c( d c) b a g g f( a) a g g \barFinalis
   }
   \addlyrics {
     Bůh roz -- ho -- dl,
@@ -87,8 +92,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
