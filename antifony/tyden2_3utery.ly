@@ -1,5 +1,69 @@
 \markup {\nadpisDen {Úterý 2. týdne}}
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a a e e \barMaior
+    c d e( g) g g \barMin
+    a a g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 37-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f bes a g d f d d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 37-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a( bes) g g( a) a \barMaior
+    g a g d( f) f d d \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej v_Hos -- po -- di -- na
+    a drž se je -- ho ces -- ty.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g" 
+    psalmus = "Žalm 37-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
