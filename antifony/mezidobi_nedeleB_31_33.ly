@@ -165,9 +165,11 @@
 \markup {\nadpisDen {"33. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a c( b c) c( d) d \barMin d d d( e d) c( b a) a \barMaior
+    a( b) b4. a \barMin b4( c d) c( d) d \barMaior
+    e d c d( c) b g a( f g) g \barFinalis
   }
   \addlyrics {
     Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
@@ -176,8 +178,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -185,18 +187,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d c( b) c( b) \barMin
+    c( d e) c b a a \barMaior
+    g f g a( c) b g( a) a \barFinalis
   }
   \addlyrics {
     Na kon -- ci vě -- ků
-    shro -- máž -- dí Kris -- tus všech -- ny své vy -- vo -- le -- né.
+    shro -- máž -- dí Kris -- tus 
+    všech -- ny své vy -- vo -- le -- né.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -206,7 +211,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    \key f \major
+    d4 d d f( g) g a( bes) a a \barMin
+    g f g a( f e) d e f d d \barFinalis
   }
   \addlyrics {
     Ne -- be a ze -- mě po -- mi -- nou,
@@ -214,10 +221,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D2"
     psalmus = ""
     id = ""
+    fons = "začátek: sobota 2.t., uprostřed dne, 1. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
