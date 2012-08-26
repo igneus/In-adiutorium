@@ -15,9 +15,9 @@
     \choralniRezim
     a4 a g a b c a g g a a4. \barMin
     b4 c d d c( b) c d e( d c d) d4.( c) \barMax
-    a4 c c c b( c) a( g) f g g \barMaior 
-    a g a b( c) a a c b a( g) g \barMin
-    a a d c b c a( g) a \barFinalis
+    a4 b c c d( c) d d c c \barMaior 
+    d e d c( b) a a b g a( b) c \barMaior
+    c c c( d c) b( c) a g g( a) a \barFinalis
   }
   \addlyrics {
     Bo -- že, ty nás na -- pl -- ňu -- ješ ra -- dos -- tí
@@ -39,9 +39,9 @@
   \relative c' {
     \choralniRezim
     d4 d d c d f e d( c) d \barMaior
-    g f g g( a) a4. \barMin a4 a g f e( d) e4. \barMaior
+    g f g g( a) a4. \barMin a4 a g f e e4. \barMaior
     f4 d d c d e f d d \barMax
-    d d( g) g g e( f e) e \barMin e e e f f f d c d d \barFinalis
+    d a( c d f) d f g( f d) d \barMin e e e e f e d c d d \barFinalis
   }
   \addlyrics {
     Poz -- dě jsem si tě za -- mi -- lo -- val,
