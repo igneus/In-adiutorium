@@ -361,7 +361,7 @@
     \neviditelna a
     g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*

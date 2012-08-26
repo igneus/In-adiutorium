@@ -35,9 +35,9 @@ end
 
 def test_lilypondbook_version
   v = `lilypond-book --version`
-  if v !~ /^2\.14/ then
+  if v !~ /^2\.15/ then
     STDERR.puts
-    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.14.x !!!"
+    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.15.x !!!"
     STDERR.puts
   end
 end
@@ -81,13 +81,9 @@ canticleoptions = commonoptions+o_canticletitle
 # na konec se pouze pripoji (pripadne dalsi volby a) jmeno souboru ke zpracovani.
 splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "+
-                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
-                        "--insert-text \"\\layout { indent = 1.5\\cm \n short-indent = 0\\cm \n"+
-                                                                            "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
-                                                                            "}\n\" "+
+                        "--prepend-text '\\include \"../../spolecne_antifonar.ly\"\n \\include \"../../../dilyresponsorii.ly\"' "+
                         "--remove-headers "+
                         "--mode-info "+
-                        "--one-clef "+
                         "--ids "
 
 desc "Delete LilyPond-Book's stored snippets"
@@ -337,7 +333,7 @@ cislazalmu_cteni = %w(
 )
                                       
 cislazalmu_cteni.each do |z|
-  zalmy_cteni << genzalm("zalm"+z+".zalm", commonoptions, adresar_zaltar)
+  zalmy_cteni << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
 end
 
 file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do

@@ -6,6 +6,7 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
+  indent = 1\cm
   \context {
     \Score
     \remove Bar_number_engraver
@@ -14,6 +15,8 @@
     \Staff
     \consists Custos_engraver
     \override Custos #'style = #'hufnagel
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
   }
 }
 
@@ -25,6 +28,19 @@
   % byly roztahane
   ragged-bottom=##t
   ragged-last-bottom=##t
+  
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+  top-margin = 1\cm
+  bottom-margin = 1\cm
+  
+  myStaffSize = #20
+  #(define fonts
+    (make-pango-font-tree 
+                          "Charis SIL"
+                          "VL Gothic"
+                          "Courier"
+     (/ myStaffSize 20)))
 }
 
 % "tiraz" -------------------------------------------------------
@@ -74,8 +90,8 @@ tirazMala = \markup {
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props
-		     (markup #:bold
-			     #:large
+		     (markup #:vspace 2
+                             #:huge
 			     #:with-color #'red obsah)))
 
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
@@ -93,13 +109,18 @@ tirazMala = \markup {
            titul 
            #:medium #:large rank))))
 
-#(define-markup-command (titleCommune layout props titul) (markup?)
-   "Sestavi header:title pro oficium svatku"
+#(define-markup-command (titleSOddilem layout props oddil titul) (markup? markup?)
+   "Sestavi header:title pro oficium z vetsiho oddilu (napr. liturgicke doby)"
    (interpret-markup layout props
      (markup 
         #:center-column 
-          (#:medium #:large "společné texty"
+          (#:medium #:large oddil
            titul))))
+
+#(define-markup-command (titleCommune layout props titul) (markup?)
+   "Sestavi header:title pro oficium svatku"
+   (interpret-markup layout props
+     (markup #:titleSOddilem "společné texty" titul)))
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
@@ -172,7 +193,8 @@ Response = \lyricmode {
   \markup { 
     \with-color ##'red { 
       % \concat { \override #'(font-name . "liturgy") {R} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+      % \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
+      \concat { \char ##x0211F : }
     }
   }
 }
@@ -181,7 +203,8 @@ Verse = \lyricmode {
   \markup { 
     \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+      % \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
+      \concat { \char ##x02123 : }
     }
   }
 }
