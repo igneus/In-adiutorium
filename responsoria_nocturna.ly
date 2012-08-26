@@ -578,12 +578,102 @@
   % R Ne perdideris me domine cum iniquitatib. meis
   % neq. in finem iratus reserues mala mea
   % U Miserere mei deus miserere mei quoniam in te confidit anima mea. Neq
-  % 
+  
+  %{
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna a
+      
+      % V
+      \neviditelna a
+      
+      % R
+      
+    }
+    \addlyrics {
+      \Response --?
+      \Verse Smiluj se nade mnou, [Bo]že, [smi]luj se, *
+      neboť k tobě se utí[ká] má [du]še,
+    }
+    \header {
+      quid = "resp."
+      modus = ""
+      id = ""
+      scriptura = "Žalm 57,2"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  %}
+  
   % R Paratum cor meum deus paratum cor meum cantabo et psalmum dicam oio1
   % U Exsurge gloria mea exsurge psalterium et cythara exsurgam diluculo. Cant
-  % 
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna a
+      
+      % V
+      \neviditelna a
+      
+      % R
+      
+    }
+    \addlyrics {
+      \Response Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že, 
+      pl -- né dů -- vě -- ry je mé srd -- ce;_*
+      bu -- du zpí -- vat a hrát.
+      \Verse Pro -- buď se, má du -- še, 
+      pro -- buď se, ci -- te -- ro a har -- fo,
+      chci vzbu -- dit ji -- třen -- ku.
+      Bu -- du zpí -- vat.
+    }
+    \header {
+      quid = "resp."
+      modus = ""
+      id = ""
+      scriptura = "Žalm 57,8-9"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  
   % R Adiutor meus tibi psallam quia deus susceptor meus es deus meus misericordia mea
   % U Eripe me de inimicis meis deus meus et ab insurgentib. in me ie a e2. Ds
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna a
+      
+      % V
+      \neviditelna a
+      
+      % R
+      
+    }
+    \addlyrics {
+      \Response Má sí -- lo, to -- bě bu -- du zpí -- vat,
+      Bo -- že, tys mé ú -- to -- čiš -- tě,_*
+      můj Bůh, má lás -- ka!
+      \Verse Vy -- svo -- boď mě od mých ne -- přá -- tel, můj Bo -- že,
+      před mý -- mi pro -- tiv -- ní -- ky mě o -- chraň!
+      Můj Bůh.
+    }
+    \header {
+      quid = "resp."
+      modus = ""
+      id = ""
+      scriptura = "Žalm 59,18.2"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
   
   \markup\nadpisDen (středa)
   
