@@ -92,15 +92,18 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g g( a) g( f d) e^"!" d c \barMin d( f) g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a a a a a a a a( bes) a g( a) g \barMaior
+    g g g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    
+    g g( a) g( f d) e^"!" d c \barMin d( f) g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Du -- še spra -- ved -- li -- vých jsou v_Bo -- ží ru -- ce,_*
@@ -112,7 +115,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -150,10 +153,11 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f g f f \barMin f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -335,15 +339,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a g( a) g \barMin g g g g g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    
+    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
@@ -355,7 +361,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -619,15 +625,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f f g f g g( a) a( g) \barMax
+    g g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a a g( a) g g \barMin f g( a) g g \barMax
     % R
     \neviditelna a
-    
+    g g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Spra -- ved -- li -- vým při -- chá -- zí spá -- sa od Hos -- po -- di -- na,_*
