@@ -170,11 +170,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
-    psalmus = "Benedictus"
-    piece = \markup {\sestavTitulek}
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -199,12 +199,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
-    psalmus = "Benedictus"
+    psalmus = "Magnificat"
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -676,15 +676,17 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G" 
     psalmus = "Magnificat"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-\markup {\nadpisHodinka {"Sobotní památka Panny Marie - ranní chvály"}}
+\pageBreak
+\markup\nadpisDen "Sobotní památka Panny Marie"
+\markup\nadpisHodinka "ranní chvály"
 
 \markup\italic{
   Responsorium 
