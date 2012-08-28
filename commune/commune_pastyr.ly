@@ -11,9 +11,12 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d f( e f) d( c) c( d) \barMin d b c( b) g f( g) g \barMaior
+    a b c b d( c a) \barMin c( d c) b( a) g a g g \barFinalis
     
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Dám vám pas -- tý -- ře po -- dle své -- ho srd -- ce
@@ -23,8 +26,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -32,9 +35,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 b c d( c a) b( g) a a \barMaior
+    c c d( e f) e d( e) d d \barMin
+    c( b c) d c b g a g g \barFinalis
     
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Já bu -- du pást své stá -- do;
@@ -45,8 +52,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 146"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -54,20 +61,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g( a) f g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+    a4 g f g( a) a( g) g \barFinalis
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř
     dá -- vá za ov -- ce svůj ži -- vot.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Ef 1"
     id = ""
+    fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -447,7 +460,9 @@
   \relative c'' {
     \choralniRezim
     g f e d( e) d d \barMin f( e f) g( a) a \barMaior
-    a a a a b( c) b g g \barMin f g( a) a g g \barFinalis
+    a a a b( c) b g g \barMin f g( a) a g g \barFinalis
+    
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh ho svou mi -- los -- tí po -- vo -- lal,
@@ -491,6 +506,8 @@
     g4 g f( g) g g bes a g a g f( g) g \barMax
     g g g g bes( c) bes g4. g \barMaior
     a4 g f( g) g \barFinalis
+    
+    f^\markup\rubrVelikAleluja g a g \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
