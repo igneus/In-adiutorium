@@ -686,7 +686,10 @@
 
 \markup {\nadpisHodinka {"Sobotní památka Panny Marie - ranní chvály"}}
 
-\markup\italic{Responsorium \upright{Bůh si ji vyvolil} nebo \upright{Buď zdráva, Maria.}}
+\markup\italic{
+  Responsorium 
+  \upright{Bůh si ji vyvolil} (viz výše, 2. nešpory) nebo 
+  \upright{Buď zdráva, Maria} (výše, ranní chvály).}
 
 \score {
   \relative c'' {
