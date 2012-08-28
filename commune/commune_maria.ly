@@ -119,6 +119,7 @@
   }
 }
 
+\pageBreak % ZLOM
 \markup\italic{V době velikonoční:}
 
 \score {
@@ -377,6 +378,8 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup\italic{V době velikonoční:}
 
