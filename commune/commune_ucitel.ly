@@ -21,15 +21,17 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g a g( f d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a a g( a) g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    
+    g a g( f d) f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Ús -- ta spra -- ved -- li -- vé -- ho mlu -- ví moud -- ře;_*
@@ -40,7 +42,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -54,10 +56,12 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f g( f) f \barMin 
+    f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -172,10 +176,12 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f f f g( f) f \barMin
+    f f f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -263,10 +269,12 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f f f f g( f) f \barMin
+    f f f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
