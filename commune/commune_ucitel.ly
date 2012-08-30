@@ -86,7 +86,11 @@
 \score {
   \relative c' {
     \choralniRezim
+    d e f g a g a bes a bes a g a a \barMin
+    g e f( e) e \barMaior
+    a a g( bes) a g a f e d( e) d d \barFinalis
     
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
@@ -97,8 +101,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -108,9 +112,13 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4( a) g \barMin a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d e f( g a) g f( g) f f \barFinalis
     
+    d^\markup\rubrVelikAleluja f( g) f f \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -121,8 +129,8 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "a" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -206,6 +214,11 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a( c a) \barMin a bes g a a( bes) a a g a g f e e \barMaior
+    d e d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+    
     
   }
   \addlyrics {
@@ -218,8 +231,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
