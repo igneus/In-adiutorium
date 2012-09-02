@@ -219,7 +219,7 @@
     d e d( a' bes) a a( c a) g g( a) a \barMaior
     g( a) f( e) d e( d c) d \barFinalis
     
-    
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
@@ -248,15 +248,18 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f g( a) g f( g) f \barMin
+    f f f f f g( a) a( g) \barMax
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a a g( a) g f( g) g( a) \barMax
     % R
     \neviditelna a
-    
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response U -- pro -- střed shro -- máž -- dě -- ní 
@@ -268,7 +271,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -311,12 +314,17 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 a
+    \bar ":" a( g) \parenthesize f a\breve \bar ":"
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
   }
   \addlyrics {
-    Sva -- tý \markup\concat{\with-color #red {N} , }
+    Sva -- tý 
+    \markup\concat{\with-color #red {N} , } \skip 1 \skip 1
     u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
     tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
     při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
@@ -325,8 +333,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
