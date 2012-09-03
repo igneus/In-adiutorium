@@ -119,6 +119,7 @@
   }
 }
 
+\pageBreak % ZLOM
 \markup\italic{V době velikonoční:}
 
 \score {
@@ -170,11 +171,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
-    psalmus = "Benedictus"
-    piece = \markup {\sestavTitulek}
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -199,12 +200,12 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
-    psalmus = "Benedictus"
+    psalmus = "Magnificat"
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -261,6 +262,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -377,6 +380,8 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup\italic{V době velikonoční:}
 
@@ -676,17 +681,22 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G" 
     psalmus = "Magnificat"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-\markup {\nadpisHodinka {"Sobotní památka Panny Marie - ranní chvály"}}
+\pageBreak
+\markup\nadpisDen "Sobotní památka Panny Marie"
+\markup\nadpisHodinka "ranní chvály"
 
-\markup\italic{Responsorium \upright{Bůh si ji vyvolil} nebo \upright{Buď zdráva, Maria.}}
+\markup\italic{
+  Responsorium 
+  \upright{Bůh si ji vyvolil} (viz výše, 2. nešpory) nebo 
+  \upright{Buď zdráva, Maria} (výše, ranní chvály).}
 
 \score {
   \relative c'' {
