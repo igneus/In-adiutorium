@@ -235,8 +235,7 @@
   \relative c'' {
     \choralniRezim
     d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a g( f g4.) g4 a b c d c( a g a) a \barMaior
-    a b( c) a( g) a \barFinalis
+    a g( f g4.) g4 a c d c( a) b( a) a \barFinalis
   }
   \addlyrics {
     Buď věr -- ný až do smr -- ti,
@@ -248,7 +247,7 @@
     differentia = "d" 
     psalmus = ""
     id = ""
-    fons = "Jana Sarkandra, k Magnificat; upraveno pro trochu jiný text"
+    fons = "Jana Sarkandra, k Magnificat; konec upraven"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
