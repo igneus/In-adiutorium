@@ -18,17 +18,6 @@
   obsažených ve zpěvníku \italic{Mešní zpěvy.}
 }
 
-% pokus: pisen "Svaty Vaclave, knize nas" je modus IV alt nebo ne?
-\score {
-  \transpose e a \relative c' {
-    e4 e g fis e g a b d c b a g fis2.
-    fis4 g fis g a b b a a b g fis4. e8 e2.
-  }
-  \header {
-    piece = "pokus"
-  }
-}
-
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 %{
@@ -81,6 +70,7 @@
     differentia = "a" 
     psalmus = ""
     id = ""
+    fons = "Svatý Václave, MZ 738"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -108,19 +98,18 @@
     differentia = "a" 
     psalmus = ""
     id = ""
+    fons = "Svatý Václave, MZ 738"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
-
-%{
   
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( d) c c b a g( a) f( e) \barMaior
-    f( a b) c( d b) a \barMin c( b) g a( g) f g( a) g g \barFinalis
+    f4 g f d c d( e) f \barMaior
+    a( c) d c \barMin a f g f d( c) d( f) f \barFinalis
   }
   \addlyrics {
     Cho -- dil po správ -- ných ces -- tách,
@@ -128,20 +117,21 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "c" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 63"
     id = ""
+    fons = "Svatý nám milý, MZ 737"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( d) b g( a f) e \barMaior
-    f4 a b b c c \barMin d c b c( d) a a \barMaior
-    g f g a( g) g \barFinalis
+    f4 e f( g a) g \barMaior  
+    g g bes a g( f) g \barMin g f e d( e) c c \barMaior
+    d c d d( f) f \barFinalis
   }
   \addlyrics {
     V_no -- ci vstá -- val
@@ -150,10 +140,11 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "c" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Dan 3-III"
     id = ""
+    fons = "Patrone české vlasti, MZ 736"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -161,8 +152,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d( e) e g f d f e \barMaior
-    f f e( d) c( e) e \barMin e( f) e c d d \barFinalis 
+    f4 f f g f e d( c) c \barMaior
+    g' bes( a) g f g \barMin f( d) e f g f \barFinalis
   }
   \addlyrics {
     Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
@@ -170,13 +161,16 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 149"
     id = ""
+    fons = "Patrone české vlasti, MZ 736"
     piece = \markup {\sestavTitulek}
   }
 }
+
+%{
 
 \score {
   \relative c' {
@@ -230,6 +224,7 @@
     differentia = "f" 
     psalmus = ""
     id = ""
+    fons = "Svatý Václave, MZ 738"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -303,13 +298,25 @@
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
+% pokus: pisen "Svaty Vaclave, knize nas" je modus IV alt nebo ne?
 %{
+\score {
+  \transpose e a \relative c' {
+    e4 e g fis e g a b d c b a g fis2.
+    fis4 g fis g a b b a a b g fis4. e8 e2.
+  }
+  \header {
+    piece = "pokus"
+  }
+}
+%}
+
 \score {
   \relative c'' {
     \choralniRezim
-    d4 b c d c( b) g g \barMaior
-    g g( a) \barMin b c d c e( d) \barMaior
-    c c d c( b a) g a( f g) g \barFinalis
+    a4 c b a c d e \barMaior 
+    g e f e d c b \barMin
+    a g a b( c a) g a a \barFinalis
   }
   \addlyrics {
     Byl sta -- teč -- ným vla -- da -- řem
@@ -318,10 +325,11 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 116-I"
     id = ""
+    fons = "Svatý Václave, kníže náš, MZ 734"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -329,23 +337,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c b a b c d( e) d \barMin
-    e e d e d \barMaior
-    e e g e f d c \barMin d c b a( g) \barMaior
-    a a a a b( a) g a( g) g \barFinalis
+    a4 c b a c d e e \barMin
+    a, b c d e \barMaior
+    f d e e d c b \barMin c b c c( d) \barMin
+    e d c b c a a \barFinalis
   }
   \addlyrics {
     Ne -- spo -- lé -- hal na své ko -- pí
     a -- ni na svůj meč,
     a -- le s_Bo -- ží po -- mo -- cí pře -- má -- hal ty,
-    kdo na ně -- ho ú -- to -- či -- li.
+    kdo na něj ú -- to -- či -- li.
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 116-II"
     id = ""
+    fons = "Svatý Václave, kníže náš, MZ 734"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -353,8 +362,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g f d e \barMaior
-    f g g bes a( g) f \barMin e d c c( d) d \barFinalis
+    a4 c b a b g a \barMaior
+    c d d d e( c b) b \barMin a g g g( a) a \barFinalis
   }
   \addlyrics {
     Vel -- ko -- duš -- ně při -- jal smrt
@@ -362,17 +371,16 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Zj 4"
     id = ""
+    fons = "Svatý Václave, kníže náš, MZ 734"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \markup\italic{Responsorium jako v 1. nešporách.}
-
-%}
 
 \score {
   \relative c' {
@@ -392,6 +400,7 @@
     differentia = "D" 
     psalmus = ""
     id = ""
+    fons = "Svatý Václave, MZ 738"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
