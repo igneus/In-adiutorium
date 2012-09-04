@@ -230,14 +230,12 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
-
-%{
   
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g a f( g) f f \barMin
-    e d c d d( f) f g a f f \barFinalis
+    f4 e f g a g \barMin
+    a bes a g f d e f g f \barFinalis
   }
   \addlyrics {
     Za -- čá -- tek moud -- ros -- ti
@@ -249,6 +247,7 @@
     differentia = "F" 
     psalmus = ""
     id = ""
+    fons = "Patrone české vlasti, MZ 736"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -256,8 +255,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a g( f g4.) g4 a c d c( a) b( a) a \barFinalis
+    a4 c b a c d e \barMin
+    e d d c d b a g a \barFinalis
   }
   \addlyrics {
     Buď věr -- ný až do smr -- ti,
@@ -266,10 +265,10 @@
   \header {
     quid = "ant. v poledne"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "A" 
     psalmus = ""
     id = ""
-    fons = "Jana Sarkandra, k Magnificat; konec upraven"
+    fons = "Svatý Václave, kníže náš, MZ 734"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -277,8 +276,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a' g) f( g) f \barMin g g g a g( f) d d \barMaior
-    c d d( f d f g) g g \barMin f( c) c( d) d \barFinalis
+    d4 e f \barMin g g f e f d d \barMaior
+    d d bes c d f e( d) d \barFinalis
   }
   \addlyrics {
     Ne -- do -- pusť, a -- by tě zlo pře -- moh -- lo,
@@ -286,15 +285,14 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "I"
+    modus = "II"
     differentia = "D" 
     psalmus = ""
     id = ""
+    fons = "Svatý Václave, MZ 739"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%}
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
