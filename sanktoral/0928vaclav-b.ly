@@ -378,7 +378,7 @@
   }
 }
 
-\markup\italic{Responsorium jako v 1. nešporách.}
+% \markup\italic{Responsorium jako v 1. nešporách.}
 
 \score {
   \relative c' {
