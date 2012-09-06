@@ -16,6 +16,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -48,6 +49,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     
     % R
@@ -116,6 +118,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a b) c( d c) b a( g) a( f) e \barMin f( g a) a( b) g g \barMaior
     g b( c d) b( g) a( f) \barMin f( a) a g( a) g \barFinalis
@@ -133,6 +136,69 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) d d c b a a \barMaior
+    c d a a g f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
+    a na -- pl -- nil mno -- hé vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( b) b c b b d c b a \barMaior
+    
+  }
+  \addlyrics {
+    Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
+    a na -- pl -- nil mno -- hé vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b c d c b g a a \barMaior
+    b c b g a f e e \barFinalis
+  }
+  \addlyrics {
+    Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
+    a na -- pl -- nil mno -- hé vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -165,6 +231,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) c c b a g( a) f( e) \barMaior
     f( a b) c( d b) a \barMin c( b) g a( g) f g( a) g g \barFinalis
@@ -269,8 +336,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d( e) e g f d f e \barMaior
     f f e( d) c( e) e \barMin e( f) e c d d \barFinalis 
@@ -288,6 +358,134 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( e f) f( d) d \barMin f( g e) f e d d \barMaior
+    c a c( d) e d \barMin 
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( c b) g g \barMin c( d e) d c c( d) d \barMaior
+    d e( c) d( c) a a \barMin g f f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    a( c b) g g \barMin c( d e) d c c( d) d \barMaior
+    d e( c) d( c) a a \barMin c b g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g d g f e e \barMaior
+    d d c d e g g f e e \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a g d g f e e \barMaior
+    d d c \mark\sipka d d g g f e e \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g d g f e e \barMaior
+    d d c d e \mark\sipka e( g) f g e e \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
