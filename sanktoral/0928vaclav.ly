@@ -21,13 +21,13 @@
     % R
     \neviditelna f
     f4 g a g a f g d d \barMin g g( f e) d( c) c \barMax
-    d( g f) a( g) g \barMin f( e d) c c( d) d d \barFinalis
+    d( g f) f( g) g \barMin f( e d) c c( d) d d \barFinalis
     % V
     \neviditelna g
     a4 a a( g a) g( f) f \barMin g g g a g f( e) d( c) c \barMax
     % R
     \neviditelna a
-    d( g f) a( g) g \barMin f( e d) c c( d) d d \barFinalis
+    d( g f) f( g) g \barMin f( e d) c c( d) d d \barFinalis
     % Slava
     a'4 a a( g a) g f g( a) g \barMin g a g f( e) d d \barFinalis
   }
@@ -49,8 +49,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a b) c( d c) b a( g) a( f) e \barMin f( g a) a( b) g g \barMaior
-    g b( c d) b( g) a( f) \barMin f( a) a g( a) g \barFinalis
+    g4 a b c d c b g a a \barMaior
+    b c b g a f e e \barFinalis
   }
   \addlyrics {
     Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
@@ -58,8 +58,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G" 
+    modus = "III"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -96,8 +96,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) c c b a g( a) f( e) \barMaior
-    f( a b) c( d b) a \barMin c( b) g a( g) f g( a) g g \barFinalis
+    c4( d) c c b g a( f) e \barMaior
+    f( a b) c( d) b \barMin c b g f g( a) g g \barFinalis
   }
   \addlyrics {
     Cho -- dil po správ -- ných ces -- tách,
@@ -138,8 +138,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d( e) e g f d f e \barMaior
-    f f e( d) c( e) e \barMin e( f) e c d d \barFinalis 
+    e4 a g d g f e e \barMaior
+    d d c d d g g f e e \barFinalis
   }
   \addlyrics {
     Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
@@ -147,8 +147,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
