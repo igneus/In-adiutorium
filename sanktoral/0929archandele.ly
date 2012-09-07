@@ -161,9 +161,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( a g) g( d') c \barMin 
+    a g a f a g \barMin 
+    f a f f g g \barFinalis
   }
   \addlyrics {
     Mi -- cha -- el,
@@ -172,8 +174,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -183,7 +185,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4 d( f) f \barMin
+    f g f e f g bes a g g \barMaior
+    d g g( f e) d( c) d( c) \barMin
+    d f e d f g f d d \barFinalis
   }
   \addlyrics {
     Ga -- bri -- el,
@@ -193,8 +198,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -202,9 +207,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c a( b a) a( g) g \barMaior
+    a f( a b c) b \barMin c c c b a b g g \barMaior
+    f g a g( a) g g \barFinalis
   }
   \addlyrics {
     An -- děl Ra -- fa -- el 
@@ -213,8 +220,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -224,9 +231,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 b c d c \barMin
+    d e c d c a \barMin
+    g( f g) a a g g \barFinalis
   }
   \addlyrics {
     Svou ve -- leb -- nos -- tí
@@ -235,8 +244,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 8"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -263,7 +272,7 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
   }
