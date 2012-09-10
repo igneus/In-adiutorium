@@ -305,15 +305,18 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna d
+    f4 f f f f f f f g f f \barMin
+    f f f g f g g a a( g) \barMax
+    g( a g) f( d) f g g f f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a( bes) a a a a g( a) g \barMin g g g g g g g f g( a) \barMax
     % R
     \neviditelna a
-    
+    g( a g) f( d) f g g f f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response An -- dě -- lo -- vi by -- lo dá -- no ka -- did -- lo,
@@ -326,7 +329,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
