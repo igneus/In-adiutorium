@@ -3,6 +3,19 @@
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 
+% Temporary HACK:
+% Due to some funny bug I need a different fonr than the great
+% Charis SIL if I want the "Z" to be printed correctly and not as an "a"
+% instead. And in this score it is that case.
+\paper {
+  #(define fonts
+    (make-pango-font-tree 
+                          "URW Bookman L"
+                          "VL Gothic"
+                          "Courier"
+     (/ myStaffSize 20)))
+}
+
 \header {
   title = \markup\titleSvatek
             "sv. Michaela, Gabriela a Rafaela, archandělů"
