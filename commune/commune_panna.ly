@@ -273,7 +273,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
+    f4( a) g g \barMin a bes a g a f d( e) d \barMaior
+    f g a bes bes bes a( g) a \barMaior
+    bes( g a f) d \barMin d d( e) c c d d \barFinalis
     
+    d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
     Pro Kris -- ta se svo -- bod -- ně roz -- ho -- du -- ji,
@@ -284,8 +289,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -295,7 +300,16 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 a c( d) c d b g a a \barMax
+    c d c d b g a( g) \barMaior
+    f g f f g( a) f g g a \barMin
+    a b c b c c( b) a \barMaior
+    a( c b) a( g) f g f f \barFinalis
     
+    a^\markup\rubrVelikAleluja c( b g) a f \barFinalis
+    % tohle aleluja zni jako nejaka typicka formule z pasiji.
+    % Omylem. Ale snad je to tak dobre - muze to naznacovat,
+    % ktera je ta cesta, po ktere "je privedl k sobe".
   }
   \addlyrics {
     Sva -- té pan -- ny, ve -- leb -- te Pá -- na;
@@ -308,8 +322,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
