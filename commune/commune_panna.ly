@@ -276,13 +276,17 @@
     
   }
   \addlyrics {
+    Pro Kris -- ta se svo -- bod -- ně roz -- ho -- du -- ji,
+    po Kris -- tu ho -- rouc -- ně tou -- žím,
+    s_Kris -- tem chci zů -- stat na -- vě -- ky.
     
+    A -- le -- lu -- ja.
   }
   \header {
-    quid = ". ant."
+    quid = "1. ant."
     modus = ""
     differentia = "" 
-    psalmus = ""
+    psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -294,32 +298,45 @@
     
   }
   \addlyrics {
+    Sva -- té pan -- ny, ve -- leb -- te Pá -- na;
+    te, kte -- rý vás po -- vo -- lal,
+    a -- by -- ste ho ná -- sle -- do -- va -- ly
+    s_ne -- roz -- dě -- le -- ným srd -- cem,
+    při -- ve -- dl vás k_so -- bě.
     
+    A -- le -- lu -- ja.
   }
   \header {
-    quid = ". ant."
+    quid = "2. ant."
     modus = ""
     differentia = "" 
-    psalmus = ""
+    psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 g( a) a a( d c d) d( c) c \barMin b( c d) e f( e) e \barMaior
+    e d( c d) b \barMin b a( g) a( b) b( a) a \barFinalis
     
+    g^\markup\rubrVelikAleluja a b( a) a \barFinalis
   }
   \addlyrics {
+    Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
+    vždyť sla -- ví skvě -- lé ví -- těz -- ství.
     
+    A -- le -- lu -- ja.
   }
   \header {
-    quid = ". ant."
-    modus = ""
-    differentia = "" 
-    psalmus = ""
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 149"
     id = ""
+    fons = "commune o svatých mužích, r.ch., 3. ant."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -342,9 +359,10 @@
     % Slava
   }
   \addlyrics {
-    \Response
-    \Verse
-    \Response
+    \Response Slyš, Hos -- po -- di -- ne, můj hlas,_*
+    hle -- dám tvou tvář.
+    \Verse Mé srd -- ce k_to -- bě mlu -- ví,_*
+    \Response hle -- dám tvou tvář.
     \textRespDoxologie
   }
   \header {
@@ -374,8 +392,9 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response \textRespAleluja
-    \Verse 
+    \Response Slyš, Hos -- po -- di -- ne, můj hlas,
+    hle -- dám tvou tvář._*\textRespAleluja
+    \Verse Mé srd -- ce k_to -- bě mlu -- ví._*
     \Response \textRespAleluja
     \textRespDoxologie
   }
