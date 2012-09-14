@@ -13,9 +13,11 @@
 \markup\italic{Mimo dobu postní:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g a c a b c d e c d \barMaior
+    c c d e f d c c d b a g g \barMaior
+    f g a4. g \barFinalis
   }
   \addlyrics {
     Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
@@ -24,8 +26,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 147-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -35,7 +37,7 @@
 \markup\italic{V době postní:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     
   }
