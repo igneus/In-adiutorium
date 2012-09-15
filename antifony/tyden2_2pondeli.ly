@@ -1,5 +1,7 @@
 \markup {\nadpisDen {Pondělí 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
