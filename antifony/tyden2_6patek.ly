@@ -1,5 +1,69 @@
 \markup {\nadpisDen {Pátek 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c \barMin
+    d e d c b g a f g g \barFinalis 
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ne -- ká -- rej mě ve svém roz -- hor -- le -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 38-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d g,( a g) \barMin
+    a c b f g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš 
+    o kaž -- dé mé tou -- ze.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 38-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( e) d \barMin d e d c d c b g g \barMaior
+    a f f a a c c b g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,
+    ne -- o -- puš -- těj mě, Pa -- ne, má spá -- so.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 38-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
