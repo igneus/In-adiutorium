@@ -1,5 +1,69 @@
 \markup {\nadpisDen {Úterý 4. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d e f \barMin f g f g a \barMaior
+    a4 d d d bes \barMin g f g a d, d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
+    a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 102-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d c f e f g \barMin
+    a g f g f e d \barFinalis
+  }
+  \addlyrics {
+    Skloň se, Hos -- po -- di -- ne,
+    k_mod -- lit -- bě o -- puš -- tě -- ných.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 102-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f \barMin f g a a bes a g( a) a \barMaior
+    d c( d) d( a) a \barMin a a g f g( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
+    a ne -- be -- sa jsou dí -- lo tvých ru -- kou.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 102-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
