@@ -48,6 +48,10 @@
 
 \score { \tIInedeleInespResp }
 
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIInedeleInvitatorium }
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {

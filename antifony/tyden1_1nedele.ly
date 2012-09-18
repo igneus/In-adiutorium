@@ -107,6 +107,10 @@ tInedeleInespResp = \score {
 
 \score { \tInedeleInespResp }
 
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tInedeleInvitatorium }
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {

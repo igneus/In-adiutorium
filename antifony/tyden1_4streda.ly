@@ -2,6 +2,10 @@
 
 % -*- master: ../antifony.ly;
 
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIstredaInvitatorium }
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
