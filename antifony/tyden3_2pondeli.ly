@@ -1,5 +1,70 @@
 \markup {\nadpisDen {Pondělí 3. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e f d) d \barMin
+    d c a a a b g a a \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh při -- jde
+    % prehozeni poslednich slov - z rytmickych duvodu
+    a u -- ká -- že svou moc a slá -- vu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = "Žalm 50-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d( c d) c a a( d) d \barMin
+    d( e) c a a \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šej Bo -- hu
+    o -- běť chvá -- ly.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = "Žalm 50-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a g g( a) \barMin f g a( b a) a \barMaior
+    c c c c( d) d d d( a) \barMin b a g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci, a ne o -- běť:
+    po -- zná -- ní Bo -- ha je víc než ce -- lo -- pa -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = "Žalm 50-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

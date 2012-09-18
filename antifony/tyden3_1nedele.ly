@@ -51,6 +51,71 @@
 
 \score { \tInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d f( g a) \barMin a g a f e d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 145-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f( g a) g( a) a \barMin g f g g \barMaior
+    d d f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tvé krá -- lov -- ství, Hos -- po -- di -- ne,
+    je krá -- lov -- ství všech vě -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 145-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d d f d d f g f g g \barMaior
+    g a( g f a) e( d) \barMin c c c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Věr -- ný je Hos -- po -- din ve všech svých sli -- bech
+    a sva -- tý ve všech svých či -- nech.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 145-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Koná-li se vigilie: antifona viz neděle 1. týdne, 
+  s. \page-ref #'vigilieAntMezidobi "0" "?" 
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -2,6 +2,70 @@
 
 % -*- master: ../antifony.ly;
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') f e( g) f e( f) d \barMaior
+    d( f d) d( c) c e( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 10-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') f \barMin
+    e f g g a g e f d \barMaior
+    d d d d( f d) d( c) c e( g) f( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, 
+    ty sle -- du -- ješ ú -- tra -- py i žal,
+    na te -- be spo -- lé -- há u -- bo -- žák.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 10-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g f e( f) d d \barMin
+    e e( f g) f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 12"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

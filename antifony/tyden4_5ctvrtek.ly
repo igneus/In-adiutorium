@@ -1,5 +1,73 @@
 \markup {\nadpisDen {Čtvrtek 4. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b c b a d c b \barMin
+    d d d d e d c b \barMaior
+    a g a b \barMin
+    a g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství
+    nad na -- ši -- mi ne -- přá -- te -- li,
+    za -- han -- bils ty, 
+    kte -- ří nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 44-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b b b c d e d \barMaior
+    c b c d b g g \barMin a( f) g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
+    on od vás ne -- od -- vrá -- tí svou tvář.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 44-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b d d e( c) d \barMaior
+    e b c b g \barMin f g a c c b g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ne -- skrý -- vej svou tvář,
+    ne -- za -- po -- mí -- nej na na -- ši bí -- du a ú -- tisk.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 44-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

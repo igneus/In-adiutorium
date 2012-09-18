@@ -1,5 +1,69 @@
 \markup {\nadpisDen {Pondělí 4. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g \barMin
+    a b c c d c b g g \barFinalis
+  }
+  \addlyrics {
+    Jak dob -- rý je Bůh 
+    k_těm, kdo ma -- jí čis -- té srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 73-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c a) g f e f f g a g g \barMaior
+    c b c d b a g g \barFinalis
+  }
+  \addlyrics {
+    Smích hříš -- ní -- ků se ob -- rá -- tí v_ná -- řek
+    a je -- jich ra -- dost ve smu -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 73-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( f g) e \barMin f g a a a g g \barMaior
+    b c d c c b g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 73-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

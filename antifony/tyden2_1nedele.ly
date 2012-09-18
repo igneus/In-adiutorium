@@ -110,6 +110,81 @@ tIInedeleInespResp = \score {
 
 \score { \tIInedeleInespResp }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a a( b) a \barMaior
+    c4 c c( d) c d e d c d c b( a g) a( g) \barMaior
+    f4 g a b( c d c) c( d) \barMin c( b g) a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    ve -- leb -- nos -- tí a vzne -- še -- nos -- tí ses o -- děl,
+    svět -- lem se ha -- líš ja -- ko pláš -- těm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 104-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin c( d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no k_ra -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 104-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    b c c b g f f( g) g \barMaior
+    f g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 104-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Koná-li se vigilie: antifona viz neděle 1. týdne, 
+  s. \page-ref #'vigilieAntMezidobi "0" "?" 
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

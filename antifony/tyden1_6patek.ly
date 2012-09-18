@@ -2,6 +2,69 @@
 
 % -*- master: ../antifony.ly;
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f g \barMaior a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 35-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f g f a f g g \barMaior 
+    g( a) f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- jmi se mě, Hos -- po -- di -- ne,
+    chraň mě svou mo -- cí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 35-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d( e f) e \barMin
+    f g a a a( bes) g g( bes) a \barMin
+    g f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Můj ja -- zyk
+    bu -- de stá -- le o -- sla -- vo -- vat 
+    tvou spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 35-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

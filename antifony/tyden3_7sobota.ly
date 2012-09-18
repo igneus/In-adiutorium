@@ -1,5 +1,75 @@
 \markup {\nadpisDen {Sobota 3. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
+    g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 107-I"
+    id = ""
+    fons = "žaltář, po 4.t., nešp., 1. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a a \barMin g a b b c c c \barMaior
+    c d c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve své tís -- ni vo -- lej -- te k_Hos -- po -- di -- nu,
+    a on vás vy -- svo -- bo -- dí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 107-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) a \barMin g f e f g a( b c) c \barMaior
+    c c( d) d c c \barMaior 
+    b a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví vi -- dí 
+    Hos -- po -- di -- no -- vy di -- vy
+    a ra -- du -- jí se,
+    po -- zná -- va -- jí je -- ho lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 107-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

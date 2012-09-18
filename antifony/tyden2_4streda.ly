@@ -1,5 +1,70 @@
 \markup {\nadpisDen {Středa 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( bes) a g g \barMin
+    f g f e f d f g a g \barMin f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- ří -- ká -- me 
+    a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní na -- še -- ho tě -- la.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 39-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a g a bes a g f( g) e \barMin
+    a a f e d \barFinalis
+  }
+  \addlyrics {
+    Slyš, Hos -- po -- di -- ne, mou pros -- bu:
+    ne -- mlč k_mým sl -- zám.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 39-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) d e \barMin f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Stá -- le 
+    % se
+    spo -- lé -- hám
+    na Bo -- ží sli -- tov -- nost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 52"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
