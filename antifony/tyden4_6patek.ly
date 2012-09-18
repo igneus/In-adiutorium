@@ -1,5 +1,70 @@
 \markup {\nadpisDen {Pátek 4. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a \barMin g a b a g a g a g f d e e \barMaior
+    f f f( g) g \barMin g g g g f g e e \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    ne -- od -- vra -- cej se od mé ú -- pěn -- li -- vé pros -- by
+    a za -- chraň mě před ú -- kla -- dy bez -- bož -- ní -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 55-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e d( f e) g a( f) e \barMin 
+    a a b a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Pán mě vy -- svo -- bo -- dí 
+    od těch, kte -- ří na mě do -- rá -- že -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 55-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d( c d) d \barMin e( f g) a f g g g \barMaior
+    g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 55-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
