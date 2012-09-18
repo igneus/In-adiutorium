@@ -20,8 +20,8 @@
     
     \on-the-fly #not-last-page \small { 
       \fill-line {
-        \fromproperty #'header:title
-        \dnesniDatum 
+        ""
+        \concat{ \fromproperty #'header:title " | " \dnesniDatum }
       } 
     }
   }
@@ -33,6 +33,7 @@
 % tyden / den / hodinka / antifona / "noty" nebo "text"
 
 \include "antifony/ferie_kantevgant.ly"
+\include "antifony/invitatoria.ly"
 
 \markup {\nadpisDen {1. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden1_1nedele.ly"
