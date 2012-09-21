@@ -424,12 +424,21 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f( g) g \barMin
+    a( bes) a g \barMin f g a f( e) d \barMaior
+    f e f g( a) f e d d \barMax
     
+    a' a g f g f d( f) e \barMin
+    f g( a bes) a g bes a a \barMaior
+    g( a bes a) g \barMin f g f e d c f e d d \barFinalis
+    
+    c^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
     »Za -- che -- e, pojď ry -- chle do -- lů:
     dnes mu -- sím zů -- stat v_tvém do -- mě«
+    
     a on ry -- chle sle -- zl do -- lů
     a s_ra -- dos -- tí ho při -- jal;
     s_Kris -- tem při -- šla do to -- ho -- to do -- mu spá -- sa.
@@ -438,8 +447,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -449,9 +458,12 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g d f g( a g) g \barMaior
+    a4 a b c b( g) g \barMin a g f( g) g \barFinalis
     
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bo -- ží chrám je sva -- tý:
@@ -462,18 +474,22 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
+    fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 f g( a) g \barMin a b c d c b g a a \barMaior
+    f g a a( g) g \barFinalis
     
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Tvé -- mu do -- mu pří -- slu -- ší sva -- tost, Hos -- po -- di -- ne,
@@ -483,8 +499,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -492,9 +508,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g f( g) \barMin g a g c b a b \barMaior
+    a b c g g g f g a g g \barFinalis
     
+    c^\markup\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Bo -- ží dům je pev -- ně zbu -- do -- va -- ný,
@@ -504,8 +523,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -538,7 +557,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g a g a bes a a \barMin
+    g( f d) e f g f f \barFinalis
   }
   \addlyrics {
     Do do -- mu Hos -- po -- di -- no -- va
@@ -548,8 +568,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 122"
     id = ""
     piece = \markup {\sestavTitulek}
