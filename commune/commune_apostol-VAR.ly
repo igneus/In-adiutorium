@@ -646,6 +646,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
 
 \score {
   \relative c'' {
@@ -669,6 +670,30 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a d c b g \barMin f g a b c( a) g( a) a \barFinalis
+    
+    a^\markup\rubrVelikAleluja a( b) a a \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí za -- chrá -- ní -- te svou du -- ši.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
