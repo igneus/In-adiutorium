@@ -669,7 +669,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
     c^\markup\small\italic{V době velikonoční:} a( g) a( g) g \barFinalis
   }
