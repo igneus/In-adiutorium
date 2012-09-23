@@ -206,6 +206,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
+      id = "predvanocni-17-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -226,6 +227,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = "Benedictus"
+      id = "predvanocni-18-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -251,6 +253,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
+      id = "predvanocni-19-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -271,7 +274,9 @@
       modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
-      fons = "tento materiál - 4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
+      fons = "4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
+      fial = "fial://antifony/advent_nedeleB.ly#ivben"
+      id = "predvanocni-20-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -292,6 +297,7 @@
       modus = "IV"
       differentia = "g" 
       psalmus = "Benedictus"
+      id = "predvanocni-21-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -314,6 +320,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
+      id = "predvanocni-22-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -334,6 +341,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
+      id = "predvanocni-23-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -764,6 +772,7 @@
       id = "predvanocni-zlm-so-a3"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
+      fial = "advent_antifony.ly#predvanocni-21-ben?1. polovina"
     }
   }
 }

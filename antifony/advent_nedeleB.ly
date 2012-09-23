@@ -19,6 +19,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Magnificat"
+    id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -47,6 +48,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Benedictus"
+    id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -71,6 +73,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Magnificat"
+    id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -94,6 +97,7 @@
     modus = "I"
     differentia = "a2" 
     psalmus = "Magnificat"
+    id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -113,6 +117,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Benedictus"
+    id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -140,6 +145,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Magnificat"
+    id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -167,6 +173,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Magnificat"
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -194,6 +201,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Benedictus"
+    id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -223,6 +231,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Magnificat"
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -246,6 +255,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Benedictus"
+    id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

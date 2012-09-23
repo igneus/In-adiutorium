@@ -31,7 +31,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,7 +51,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -75,6 +75,7 @@
     differentia = "G" 
     psalmus = "Magnificat"
     fons = "commune P.M., 2. nešp., k Magnificat; upraveno jen formálně"
+    id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -96,7 +97,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -120,7 +121,7 @@
     modus = "I"
     differentia = "a2" 
     psalmus = ""
-    id = ""
+    id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -142,7 +143,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iimag2"
     fons = "nápěv podle: 23. ne v mez., cyk. B, 1. nešp., k Magnificat;
     k recykleci napevu me vedl podobny 'rytmus' textu;
     uvědomuji si, že se krapet vytrácí spojení textu a melodie -
@@ -175,7 +176,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -197,7 +198,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "iiiben"
     fons = "za základ jsem vzal 2. ant. 1. nešp. svátku Křtu Páně;
     nový prostřední díl se mi však nepodařilo bezešvě zapojit a tak
     z výchozí melodie kromě začátku skoro nic nezbylo."
@@ -224,7 +225,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -246,7 +247,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 122"
-    id = ""
+    id = "ivben"
     fons = "31.5. Navštívení P.M.: nešpory, 1. ant.; odstraněno aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
