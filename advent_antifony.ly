@@ -191,11 +191,11 @@
       ne -- dá se za -- dr -- žet.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -211,11 +211,11 @@
       ne -- boť Pán, náš Bůh, je už blíz -- ko.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "I"
       differentia = "g" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -236,11 +236,11 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -256,12 +256,12 @@
       za -- snou -- be -- né s_Jo -- se -- fem.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
       fons = "tento materiál - 4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -277,11 +277,11 @@
       při -- jde už za čty -- ři dny.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "IV"
       differentia = "g" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -299,11 +299,11 @@
       po -- hnu -- lo v_mém lů -- ně.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "I"
       differentia = "D" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
     
@@ -319,11 +319,11 @@
       co ře -- kl an -- děl o Ma -- ri -- i.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "II"
       differentia = "D" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
@@ -356,7 +356,7 @@
       modus = "III"
       differentia = "a" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -375,7 +375,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -396,7 +396,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -419,7 +419,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -445,7 +445,7 @@
       modus = "I"
       differentia = "a" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -466,9 +466,11 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak % ZLOM
   
   \markup {\nadpisDen {středa}}
   
@@ -489,7 +491,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -511,7 +513,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -535,7 +537,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -559,7 +561,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -580,7 +582,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -603,9 +605,11 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak % ZLOM
 
   \markup\nadpisDen {pátek}
   
@@ -626,7 +630,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -645,7 +649,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -666,7 +670,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -687,7 +691,7 @@
       modus = "III"
       differentia = "a" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -710,7 +714,7 @@
       modus = "V"
       differentia = "a" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -729,7 +733,7 @@
       modus = "IV"
       differentia = "g" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
       fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
     }
   }
@@ -739,6 +743,8 @@
   \header {
     subtitle = "Předvánoční týden - 24. prosince"
   }
+  
+  \markup\nadpisHodinka {invitatorium}
   
   \score {
     \relative c'' {
@@ -753,7 +759,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = "invitatorium"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
       fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
     }
   }
@@ -785,7 +791,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -806,7 +812,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -827,7 +833,7 @@
       modus = "VII"
       differentia = "c" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -856,7 +862,10 @@
       \textRespDoxologie
     }
     \header {
-      piece = "responsorium - I"
+      quid = "resp."
+      modus = "I"
+      id = ""
+      piece = \markup {\sestavTitulekResp}
     }
   }
 
@@ -873,11 +882,11 @@
       po -- ro -- dit své -- ho pr -- vo -- ro -- ze -- né -- ho sy -- na.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "VIII"
       differentia = "G" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
