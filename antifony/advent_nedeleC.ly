@@ -157,9 +157,12 @@
 \markup {\nadpisDen {3. neděle adventní}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g bes g a a \barMin
+    a a a g f g f e f d d \barMaior
+    c c d f g a g \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Kdo má dvo -- je ša -- ty,
@@ -169,8 +172,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -178,9 +181,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4. c4 b a( b g) g \barMaior
+    f( g) a( d) b a \barMin c d a a a( g f) \barMaior
+    a a b c c4.( d) \barMaior d4( c) d b( a) g \barMin f( g a) g g \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou.
@@ -189,18 +194,24 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
+    fons = "za základ jsem vzal 2. ant. 1. nešp. svátku Křtu Páně;
+    nový prostřední díl se mi však nepodařilo bezešvě zapojit a tak
+    z výchozí melodie kromě začátku skoro nic nezbylo."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g \barMaior
+    f( g) a( d) b \barMin c d a a a( g f) \barMaior
+    g g g( c a) g( f) g \barMin a b c d c e d \barMaior
+    d d( e d) c( d) c \barMin b g f g( a) g g \barFinalis
   }
   \addlyrics {
     Jan ří -- kal: 
@@ -210,8 +221,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
