@@ -5,11 +5,21 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d( f d) d( c a) a \barMin
+    d c d f e d f g d \barMaior
+    d e d f( e) d c d d( c) \barMax
     
+    a g( a) a bes c d( f) d d \barMin f( e) f f( g f) e( d c) c \barMaior
+    d( e f) d c c( d) c c \barMin
+    f e f g f e d d \barFinalis
   }
   \addlyrics {
-    Bu -- dou zna -- me -- ní na slun -- ci,
-    na mě -- sí -- ci i na hvěz -- dách,
+    Bu -- dou zna -- me -- ní 
+    na slun -- ci,
+    %na 
+    mě -- sí -- ci i 
+    %na 
+    hvěz -- dách,
     na ze -- mi úz -- kost ná -- ro -- dů,
     
     a teh -- dy li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
@@ -18,8 +28,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -29,7 +39,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( a') g g \barMin f g bes g a a \barMaior
+    a a a a g( f d) d \barMin d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
@@ -37,8 +48,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -71,9 +82,10 @@
 \markup {\nadpisDen {2. neděle adventní}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( c) d a \barMin b c a g f f g g \barMaior
+    g f e d d e( a) b c a g a a \barFinalis
   }
   \addlyrics {
     Přijď, Pa -- ne, a na -- plň nás svým po -- ko -- jem,
@@ -81,8 +93,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -90,9 +102,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( g a) \barMin a c b a g g \barMin
+    g f g g a a a( b c) a b( c d a) a \barMaior
+    a a( g) g f f( g) e d \barMin
+    e f e f g f e c d d \barFinalis
   }
   \addlyrics {
     Jan, syn Za -- cha -- ri -- á -- šův,
@@ -102,8 +117,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a2" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -113,7 +128,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( a') g a g f g f e e \barMaior
+    d d d( a') a a g a c b a a( b) a \barMaior
+    a a \[ a( c b a \] \[ g a g f e d) \] c( d) \barMin d( c) d f e d( e d) d \barFinalis 
   }
   \addlyrics {
     Kaž -- dé ú -- do -- lí ať je za -- sy -- pá -- no,
@@ -122,10 +139,17 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
+    fons = "nápěv podle: 23. ne v mez., cyk. B, 1. nešp., k Magnificat;
+    k recykleci napevu me vedl podobny 'rytmus' textu;
+    uvědomuji si, že se krapet vytrácí spojení textu a melodie -
+    nabobtnání slova 'člověk' neodpovídá jeho významu v celku antifony -
+    ale melodie se mi líbí tak, že si tento prohřešek dovolím...;
+    v budoucnu ale stojí za to zkusit pro antifonu najít nápěv srovnatelně
+    krásnný a přitom vlastní"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
