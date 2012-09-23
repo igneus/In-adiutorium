@@ -33,7 +33,7 @@
       modus = "VI"
       differentia = "g" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -54,7 +54,7 @@
       modus = "III"
       differentia = "c" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -75,7 +75,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -84,7 +84,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g g( a) f e( g) g g \barMin
+      g4 g g g( a) f e( g) g g \barMaior
       g g a c c d( b) c( a) a \barMin
       b( c a) g f g g \barFinalis
     }
@@ -93,11 +93,11 @@
       že se Spa -- si -- tel na -- ro -- dí z_Pan -- ny Ma -- ri -- e.
     }
     \header {
-      quid = "ant."
+      quid = "ant. dopoledne"
       modus = "VIII"
       differentia = "G" 
-      psalmus = "dopoledne"
-      piece = \markup {\sestavTitulek}
+      psalmus = ""
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -107,7 +107,7 @@
       
       d4 f( d) d
       d e f g( f) e \barMin
-      d c( d) d \barMin
+      d c( d) d \barMaior
       d d c d d f e c d d \barFinalis
     }
     \addlyrics {
@@ -116,20 +116,20 @@
       Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
     }
     \header {
-      quid = "ant."
+      quid = "ant. v poledne"
       modus = "II"
       differentia = "D" 
-      psalmus = "poledne"
-      piece = \markup {\sestavTitulek}
+      psalmus = ""
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
   \score {
     \relative c' {
       \choralniRezim
-      f4( g) f g a a a bes a g f g g g \barMax
+      f4( g) f g a a a bes a g f g g g \barMaior
       g g f e f( g a) a \barMin
-      a g a f( d) d \barMin
+      a g a f( d) d \barMaior
       d f f f e f d d \barFinalis
     }
     \addlyrics {
@@ -139,11 +139,11 @@
       a ne -- pře -- sta -- ne být pan -- nou.
     }
     \header {
-      quid = "ant."
+      quid = "ant. odpoledne"
       modus = "I"
       differentia = "f" 
-      psalmus = "odpoledne"
-      piece = \markup {\sestavTitulek}
+      psalmus = ""
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
