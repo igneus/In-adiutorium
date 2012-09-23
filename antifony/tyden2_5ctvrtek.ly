@@ -1,5 +1,81 @@
 \markup {\nadpisDen {Čtvrtek 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIIctvrtekInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b c d c a b b \barMaior
+    c b c a g a c d b a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
+    na -- vě -- ky bu -- de -- me 
+    %chvá -- lit % záměna slov kvůli rytmu
+    ve -- le -- bit
+    tvé jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 44-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+% Tady vedome porusuji zasadu "jeden zalm, jeden napev psalmodie":
+% meni se tu totiz ton zalmu i antifon z oslavneho na truchlivy, kajici
+% a prosebny, a takovou zmenu nedokazu v ramci modu VIII dobre vyjadrit.
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a e \barMin g f e d e e \barMaior
+    %c d e g a a g f g g e \barFinalis
+    f4 g f e g a g f e e e \barFinalis
+  }
+  \addlyrics {
+    U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
+    ne -- vy -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 44-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \barMin a a f f g g \barMaior
+    d d e f g f g e e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, po -- vstaň nám na po -- moc
+    a vy -- svo -- boď nás pro svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 44-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

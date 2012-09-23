@@ -1,5 +1,74 @@
 \markup {\nadpisDen {Sobota 4. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIIsobotaInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c a d( c) a( b) a \barMin c( d e) d c d( c b a) \barMaior
+    a a a g( e) e \barMin f( g a b) c( b) a d d c a b a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí sou -- dit svůj lid;
+    ne -- be i ze -- mě zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 50-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( d a) g( c a) a \barMin c( d e) d( c b) a \barMaior
+    d d( c) \barMin c c( d c) b( a) g a \barFinalis
+  }
+  \addlyrics {
+    Vzý -- vej mě v_sou -- že -- ní,
+    % a vy -- svo -- bo -- dím tě.
+    a já tě vy -- svo -- bo -- dím.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 50-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a( c d) e4. d \barMin c4 d e c4. b \barMaior
+    a4( b a) g a \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- ná -- ší o -- bě -- ti chvá -- ly, 
+    ten mě ctí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 50-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

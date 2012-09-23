@@ -1,5 +1,75 @@
 \markup {\nadpisDen {Pátek 3. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIpatekInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g a f e d \barMin
+    a' g f e g a \barMaior
+    a a g f g e f d \barFinalis
+  }
+  \addlyrics {
+    U -- na -- ven jsem již vo -- lá -- ním,
+    o -- či mi ze -- sláb -- ly,
+    když vy -- hlí -- žím své -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 69-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a a g f g \barMin
+    g f g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Do po -- kr -- mu mi da -- li žluč
+    a v_žíz -- ni mě na -- po -- ji -- li oc -- tem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 69-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a bes( g) a \barMin
+    f e f g f d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 69-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

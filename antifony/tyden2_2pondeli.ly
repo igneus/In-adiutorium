@@ -1,5 +1,77 @@
 \markup {\nadpisDen {Pondělí 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIIpondeliInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin
+    a a a b g g a( f) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- přej mi slu -- chu a za -- chraň mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 31-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g( a) \barMin
+    g a g f e f e d \barMin
+    g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou jas -- nou tvář
+    u -- kaž své -- mu slu -- žeb -- ní -- ku,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 31-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f( g a) g \barMin g a( c b) g a( g) \barMaior
+    g g f( e f) e( d) d \barMin
+    e f g a g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- nán buď Hos -- po -- din,
+    že mi pro -- ká -- zal
+    po -- di -- vu -- hod -- né mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 31-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

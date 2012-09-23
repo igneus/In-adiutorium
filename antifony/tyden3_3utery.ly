@@ -1,5 +1,75 @@
 \markup {\nadpisDen {Úterý 3. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIuteryInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( d') c d \barMaior
+    d c d c e d c( d) d \barMin b a g a( f) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá 
+    a ti, kdo ho ne -- ná -- vi -- dí, pr -- cha -- jí před ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 68-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( b) d \barMin e d c d d \barMaior
+    d c d c( b) g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je Bo -- hem spá -- sy;
+    on dá -- vá u -- nik -- nout smr -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 68-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d d \barMaior
+    e d c d( b) g \barMin 
+    b a b g g \barFinalis
+  }
+  \addlyrics {
+    Po -- zem -- ské ří -- še,
+    zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 68-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

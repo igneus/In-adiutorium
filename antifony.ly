@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.15.34"
 
 \header {
   title = "Antifony ze žaltáře"
@@ -8,26 +8,24 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
+#(define (not-last-page layout props arg)
+ 		(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+    	(chain-assoc-get 'page:is-last-bookpart props #f))
+	empty-stencil
+	(interpret-markup layout props arg))) 
+
 \paper {
   oddFooterMarkup = \markup { 
-    \on-the-fly #last-page \fromproperty #'header:tagline
+    \on-the-fly #last-page \fill-line { " " \fromproperty #'header:tagline " " }
     
-    \small { 
+    \on-the-fly #not-last-page \small { 
       \fill-line {
-        \fromproperty #'header:title
-        \dnesniDatum 
+        ""
+        \concat{ \fromproperty #'header:title " | " \dnesniDatum }
       } 
     }
   }
 }
-
-%{
-#(define-markup-command (nadpisAntifony layout props cislo tonus odkaz) 
-   (integer? string? string?)
-"Nadpis antifony, ktery se pouziva jako polozka title v jeji hlavicce"
-   (interpret-markup layout props
-		     (markup #:concat cislo ".ant. - " tonus " (" odkaz ")")))
-%}
 
 % Promenne s melodii nebo textem antifony pro vicenasobne pouziti:
 %
@@ -35,6 +33,7 @@
 % tyden / den / hodinka / antifona / "noty" nebo "text"
 
 \include "antifony/ferie_kantevgant.ly"
+\include "antifony/invitatoria.ly"
 
 \markup {\nadpisDen {1. TÝDEN ŽALTÁŘE}}
 \include "antifony/tyden1_1nedele.ly"

@@ -1,5 +1,75 @@
 \markup {\nadpisDen {Středa 3. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIstredaInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e g( a g) f \barMin
+    a a a g bes a g f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat 
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 89-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f f \barMin g a( f) g \barMaior
+    a bes a g a f f \barMin d f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    po -- chá -- zí ja -- ko člo -- věk z_ro -- du Da -- vi -- do -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 89-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g a) g f g f d e d \barMin
+    c d f g g g \barMaior
+    f g a( bes) a a \barMin a g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pří -- sa -- hal jsem Da -- vi -- do -- vi,
+    své -- mu slu -- žeb -- ní -- ku;
+    je -- ho po -- tom -- stvo po -- tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 89-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

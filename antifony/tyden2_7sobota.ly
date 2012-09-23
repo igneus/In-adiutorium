@@ -1,5 +1,79 @@
 \markup {\nadpisDen {Sobota 2. týdne}}
 
+% -*- master: ../antifony.ly;
+
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIIsobotaInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+% zalm neni nevhodne zpivat responsorialne;
+% pak kantor zpiva prvni polovinu kazdeho verse
+% * na druhou polovinu napevu VIII.G
+% * nebo treba ||c|| ǵ (g) g
+% a chor odpovida druhou polovinou antifony
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c c c d d b a f g g \barMaior
+    g4 g c c a a f \barMin a b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- či -- nil vel -- ké di -- vy,
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 136-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d c b a g g \barMaior
+    g g d e f g g \barMin a a a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 136-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c c a c d d \barMin c b a c b g g \barMaior
+    g c b d c a g \barMin a f f g g \barFinalis
+  }
+  \addlyrics {
+    On nás vy -- svo -- bo -- dil od na -- šich pro -- tiv -- ní -- ků,
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 136-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -8,28 +8,28 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
+%%% zkopirovano z antifony.ly %%%
+#(define (not-last-page layout props arg)
+ 		(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+    	(chain-assoc-get 'page:is-last-bookpart props #f))
+	empty-stencil
+	(interpret-markup layout props arg))) 
+
 \paper {
-  oddFooterMarkup = \markup\small { 
-    \fill-line {
-      \fromproperty #'header:title
-      \dnesniDatum 
+  oddFooterMarkup = \markup { 
+    \on-the-fly #last-page \fill-line { " " \fromproperty #'header:tagline " " }
+    
+    \on-the-fly #not-last-page \small { 
+      \fill-line {
+        ""
+        \concat{ \fromproperty #'header:title " | " \dnesniDatum }
+      } 
     }
   }
 }
+%%%
 
-#(define-markup-command (nadpisDen layout props obsah)(markup?)
-   "Novy den - vycentrovany vyrazny nadpis na nove strance"
-   (interpret-markup layout props
-		     (markup #:bold
-			     #:huge 
-			     #:with-color #'red obsah)))
-
-#(define-markup-command (nadpisHodinka layout props arg) (markup?)
-   "Nova hodinka - dalsi uroven nadpisu pode dnem"
-   (interpret-markup layout props
-		     (markup #:smallCaps
-			     #:with-color #'red arg)))
-
+\include "antifony/invitatoria.ly"
 
 \include "antifony/tyden1_1nedele.ly"
 \pageBreak

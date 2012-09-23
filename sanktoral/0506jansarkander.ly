@@ -1,11 +1,14 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Jana Sarkandera (6.5.)"
+  title = \markup\titleSvatek
+            "sv. Jana Sarkandra, kněze a mučedníka"
+            "nezávazná památka"
+            6.5.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \score {
   \relative c'' {
