@@ -1,5 +1,7 @@
 \version "2.15.37"
 
+% pouť na Sázavu, 4.-8.7.2012
+
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 \include "../antifony/ferie_kantevgant.ly"
