@@ -6,10 +6,10 @@ Unique identifier of an instance of a chant in the project structure.
 
 fial://path#id?additional info
 
-fial:// - prefix saying that the string that follows is a FIAL
-path - *absolute* path inside the project structure
-id - id of the score (must be unique in the file)
-additional info - entries separated by &
+- fial:// - prefix saying that the string that follows is a FIAL
+- path - *absolute* path inside the project structure
+- id - id of the score (must be unique in the file)
+- additional info - entries separated by &
 
 ## Purpose ##
 
