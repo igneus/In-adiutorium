@@ -275,7 +275,7 @@
       differentia = "A" 
       psalmus = "Benedictus"
       fons = "4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
-      fial = "fial://antifony/advent_nedeleB.ly#ivben"
+      fial = "fial://antifony/advent_nedeleB.ly#ivben?-aleluja"
       id = "predvanocni-20-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
