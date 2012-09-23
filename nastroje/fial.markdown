@@ -33,4 +33,4 @@ nastroje/getfial.rb FIAL
 - finds and prints a score referenced by the given FIAL
 
 nastroje/getchildrenfial.rb FIAL
-- finds and prints all scores referencing the given fial as their source
+- finds and prints all scores referencing the given FIAL as their source
