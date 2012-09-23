@@ -150,6 +150,17 @@
 
 \bookpart {
   \header {
+    subtitle = "Dny doby adventní"
+  }
+
+  \include "antifony/advent_tyden1.ly"
+  \include "antifony/advent_tyden2.ly"
+  \include "antifony/advent_tyden3.ly"
+  \include "antifony/advent_tyden4.ly"
+}
+
+\bookpart {
+  \header {
     subtitle = "Adventní neděle - ant. k Benedictus a Magnificat - cyklus B"
   }
 
@@ -356,6 +367,7 @@
       modus = "III"
       differentia = "a" 
       psalmus = ""
+      id = "predvanocni-zlm-po-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -375,6 +387,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
+      id = "predvanocni-zlm-po-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -396,6 +409,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-po-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -419,6 +433,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
+      id = "predvanocni-zlm-ut-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -445,6 +460,7 @@
       modus = "I"
       differentia = "a" 
       psalmus = ""
+      id = "predvanocni-zlm-ut-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -466,6 +482,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "predvanocni-zlm-ut-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -491,6 +508,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-st-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -513,6 +531,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
+      id = "predvanocni-zlm-st-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -537,6 +556,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-st-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -561,6 +581,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-ct-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -582,6 +603,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "predvanocni-zlm-ct-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -605,6 +627,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-ct-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -630,6 +653,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
+      id = "predvanocni-zlm-pa-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -649,6 +673,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = ""
+      id = "predvanocni-zlm-pa-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -670,6 +695,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-zlm-pa-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -691,6 +717,7 @@
       modus = "III"
       differentia = "a" 
       psalmus = ""
+      id = "predvanocni-zlm-so-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -714,6 +741,7 @@
       modus = "V"
       differentia = "a" 
       psalmus = ""
+      id = "predvanocni-zlm-so-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -733,6 +761,7 @@
       modus = "IV"
       differentia = "g" 
       psalmus = ""
+      id = "predvanocni-zlm-so-a3"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
     }
