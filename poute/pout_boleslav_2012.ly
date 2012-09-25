@@ -15,16 +15,45 @@
 
 \header {
   title = \markup\titleSvatek
-            "středa"
-            "(férie, 1. týden žaltáře)"
+            "sv. Kosmy a Damiána, mučedníků"
+            "nezávazná památka"
             26.9.
 }
 
+\markup\italic{(Antifony k žalmům jsou ze středy 1. týdne žaltáře.)}
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\score { \tIstredaInvitatorium }
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( a c d) d \barMin c( d) e c d d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
+    
+    %a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu; 
+    on je Pán a Král mu -- čed  -- ní -- ků.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    fons = "commune jednoho mučedníka"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup\justify\italic{
+  Hymnus \upright{Svaté Boží oslavujme} se zpívá jako \upright{Ó dej nám, Pane, pomoc svou}.
+}
 
 \score {
   \relative c'' {
@@ -88,32 +117,55 @@
     
     % R
     \neviditelna f
-    f f \barMin f f f f f f g f g( a) a( g) \barMax
-    g g a g( f) d f( g) g f \barFinalis
+    f4 f f f g f g a a( g) \barMax
+    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
     % V
     \neviditelna a
-    a( bes) a a g( a) g \barMin g g( f) g( a) a( g) \barMax
+    a4 a g( a) g \barMin g g g g g g g g f g a a( g) \barMax
     % R
-    \neviditelna g
-    g g a g( f) d f( g) g f \barFinalis
+    \neviditelna a
+    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
-    \Verse U -- kaž mi ces -- tu svých pří -- ka -- zů,_*
-    \Response ať za -- cho -- vá -- vám tvůj zá -- kon.
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
     modus = "VI"
-    id = "1st-rch"
-    piece = \markup\sestavTitulekResp
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}  
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
+    e( d c) d c c( a) a \barMax
+    b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni 
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-\score { \tIstredaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -174,6 +226,10 @@
 }
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\justify\italic{
+  Hymnus \upright{Lidé svatí, dokonalí} se zpívá jako \upright{Nikdy Bůh spravedlivého}.
+}
 
 \score {
   \relative c' {
@@ -241,32 +297,57 @@
     
     % R
     \neviditelna f
-    f4 f f f f f g f g( a) a( g) \barMax
-    g f g( a) g \barMin g g( f d) f g g f f \barFinalis
+    f4 f f f f( g) f f \barMin f f g f g g( a) a( g) \barMax
+    g g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a a a a a g( a) g \barMin f( g) g( a) a \barMax
+    a4 a a a g( a) g g \barMin f g( a) g g \barMax
     % R
-    \neviditelna g
-    g f g( a) g \barMin g g( f d) f g g f f \barFinalis
+    \neviditelna a
+    g g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Na te -- be spo -- lé -- hám, Hos -- po -- di -- ne,_* vy -- svo -- boď mě a smi -- luj se na -- de mnou.
-    \Verse Ne -- za -- hla -- zuj mou du -- ši s_hříš -- ní -- ky,_*
-    \Response vy -- svo -- boď mě a smi -- luj se na -- de mnou.
+    \Response Spra -- ved -- li -- vým při -- chá -- zí spá -- sa od Hos -- po -- di -- na,_*
+    v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
+    \Verse Hos -- po -- din jim po -- má -- há a chrá -- ní je,_*
+    \Response v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
     modus = "VI"
-    id = "1st-ne"
-    piece = \markup\sestavTitulekResp
+    id = ""
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
-\score { \tIstredaAntMagnificat }
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( b) g c( b a) g a a \barMin 
+    c c( d e) d c f( e d e) e \barMax
+    d c b c b a b c a a \barMaior
+    b c d f e f e d c d \barMax
+    d d d d( e d) c( b a) a \barMin b( a g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci 
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 }
 
@@ -309,6 +390,10 @@
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup\justify\italic{
+  Hymnus \upright{Ó Otče náš, jenž jsi v nebesích} se zpívá jako \upright{Vší cti, chvály nade vše hodný}.
+}
 
 \score {
   \relative c' {
@@ -666,6 +751,26 @@
 
 \score {
   \relative c'' {
+    \key g \major
+    \time 4/4
+    \repeat volta 2 {
+      \partial 4 g4
+      g fis g a b2 a4 \breathe a g fis e4. d8 d2.
+    }
+    a'4 c b a g a2. \breathe a4 c b a g a2. \breathe d4 c b a4. g8 g2. \bar "|." 
+  }
+  \header {
+    quid = "hymnus; 133"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\fromproperty #'header:quid }
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4( d) c c b g a( f) e \barMaior
     f( a b) c( d) b \barMin c b g f g( a) g g \barFinalis
@@ -844,6 +949,25 @@
 }
 
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c' {
+    \key g \major
+    \time 4/4
+    
+    \partial 4 e4
+    e g fis e g a b d c b a g fis2. \breathe
+    fis4 g fis g a b b a a b g fis4. e8 e2. \bar "|." 
+  }
+  \header {
+    quid = "hymnus; 137"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\fromproperty #'header:quid }
+  }
+}
 
 \score {
   \relative c'' {
