@@ -4,10 +4,14 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+% omylem slozena antifona v C-dur. Zatim schovame "pro strejcka Prihodu"
+%{
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4 e d e g e g a g( e) d d \barMaior
+    c c c d c( a) \barMin c d e f g e( d) d \barMin
+    c c( d c) b c d( c) c \barFinalis
   }
   \addlyrics {
     Ra -- duj se a ple -- sej, no -- vý Si -- ó -- ne:
@@ -24,22 +28,27 @@
     piece = \markup {\sestavTitulek}
   }
 }
+%}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a a g( e) e \barMin a a g( a) e e \barMin
+    d d d g e \barMaior
+    a a c b g a g \barMin
+    f f g g e e \barFinalis
   }
   \addlyrics {
-    Vzmuž -- te se a řek -- ně -- te:
-    Náš Bůh při -- jde a spa -- sí nás.
-    A -- le -- lu -- ja.
+    Ra -- duj se a ple -- sej, no -- vý Si -- ó -- ne:
+    při -- chá -- zí tvůj král,
+    je po -- kor -- ný a ti -- chý,
+    a při -- ná -- ší spá -- su.
   }
   \header {
-    quid = "2. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = "Žalm 16"
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 119-Nun"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -48,7 +57,30 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 f g a b a a \barMaior
+    g a( b) c( b c) a \barMin a g( f) e e \barMaior
+    e d( g) g( f) e \barFinalis
+  }
+  \addlyrics {
+    Vzmuž -- te se a řek -- ně -- te:
+    Náš Bůh při -- jde a spa -- sí nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 16"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a f g) g \barMin a b c d c( b a g) a( f e) e \barMaior
+    a( c) a c d( c a b) a \barMin g a g f a( b) a b g g \barFinalis
   }
   \addlyrics {
     Zá -- kon byl dán skr -- ze Moj -- ží -- še,
@@ -56,8 +88,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
