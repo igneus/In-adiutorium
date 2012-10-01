@@ -214,3 +214,241 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
+    a po -- hleď na moc -- né -- ho krá -- le:
+    při -- chá -- zí ja -- ko spa -- si -- tel,
+    a -- by tě vy -- svo --- bo -- dil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin a4( b) c( d) d d( e d) c b a a \barMaior
+    a g a c( d) c( b a) a \barMin b( a) g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Pan -- ně Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 122"
+    id = "po-amag"
+    fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
+    fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vy -- ra -- zí ra -- to -- lest z_ko -- ře -- ne Jes -- se,
+    ze -- mě bu -- de pl -- ná Hos -- po -- di -- no -- vy slá -- vy
+    a kaž -- dý člo -- věk u -- zří Bo -- ží spá -- su.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den a -- ni roz -- vá -- zat ře -- mí -- nek
+    u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu vy -- jde na -- u -- ka,
+    z_Je -- ru -- za -- lé -- ma Hos -- po -- di --no -- vo slo -- vo.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na, své -- ho spa -- si -- te -- le,
+    a če -- kám na ně -- ho, ne -- boť už je blíz -- ko.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) e f( g) g \barMin g f g g a a \barMaior 
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "ct-amag"
+    fons = "commune P.M., 2. nešp., 3. ant.; bez aleluja"
+    fial = "fial://commune/commune_maria.ly#2ne-a3?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Syn Bo -- ží se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
+    při -- jde, a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Sobota 1. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ne -- boj se, li -- de Bo -- ží:
+    Při -- chá -- zí k_to -- bě tvůj Pán.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
