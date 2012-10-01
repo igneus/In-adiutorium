@@ -23,7 +23,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 31-I"
-    id = ""
+    id = "cte-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 31-II"
-    id = ""
+    id = "cte-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -67,7 +67,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 31-III"
-    id = ""
+    id = "cte-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
