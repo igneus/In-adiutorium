@@ -124,6 +124,7 @@
     psalmus = "Žalm 122"
     id = ""
     fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
+    fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
