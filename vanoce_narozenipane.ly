@@ -31,6 +31,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = "Žalm 113"
+      id = "vden-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -48,6 +49,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Žalm 147"
+      id = "vden-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -69,6 +71,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Fp 2"
+      id = "vden-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -117,6 +120,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
+      id = "vden-1ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -140,6 +144,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = ""
+      id = "vden-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -163,6 +168,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Žalm 2"
+      id = "vden-cte-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -184,6 +190,7 @@
       modus = "VII"
       differentia = "a" 
       psalmus = "Žalm 19A"
+      id = "vden-cte-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -204,6 +211,8 @@
       differentia = "G" 
       psalmus = "Žalm 45"
       fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
+      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1"
+      id = "vden-cte-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -234,7 +243,7 @@
     \header {
       quid = "1. resp."
       modus = ""
-      id = ""
+      id = "vden-cte-r1"
       piece = \markup {\sestavTitulekResp}
     }
   }
@@ -261,7 +270,7 @@
     \header {
       quid = "2. resp."
       modus = ""
-      id = ""
+      id = "vden-cte-r2"
       piece = \markup {\sestavTitulekResp}
     }
   }
@@ -283,6 +292,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "vden-cte-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -312,6 +322,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
+      id = "vden-rch-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -336,6 +347,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "vden-rch-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -361,6 +373,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "vden-rch-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -412,6 +425,7 @@
       modus = "VII"
       differentia = "c" 
       psalmus = "Benedictus"
+      id = "vden-rch-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -436,6 +450,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = "dopoledne"
+      id = "vden-atercie"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -457,6 +472,7 @@
       modus = "VII"
       differentia = "a" 
       psalmus = "v poledne"
+      id = "vden-asexta"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -477,6 +493,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "odpoledne"
+      id = "vden-anona"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -509,6 +526,7 @@
       modus = "VII"
       differentia = "a" 
       psalmus = ""
+      id = "vden-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -528,6 +546,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
+      id = "vden-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -551,6 +570,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "vden-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -617,6 +637,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "vden-2ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -653,6 +674,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = ""
+      id = "svrodiny-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -686,6 +708,7 @@
       modus = "VII"
       differentia = "b" 
       psalmus = ""
+      id = "svrodiny-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -709,6 +732,7 @@
       modus = "I"
       differentia = "a" 
       psalmus = ""
+      id = "svrodiny-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -730,6 +754,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "svrodiny-1ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -759,6 +784,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = ""
+      id = "svrodiny-invit"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -782,6 +808,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -803,9 +830,11 @@
       quid = "2. ant."
       modus = "IV"
       differentia = "E" 
-      psalmus = "Magnificat"
+      psalmus = ""
+      id = "svrodiny-rch-a2"
       piece = \markup {\sestavTitulek}
       fons = "Doslova - z tohoto materiálu, tento den, 2. nešpory, k Magnificat"
+      fial = "fial://vanoce_narozenipane.ly#svrodiny-2ne-amag"
     }
   }
   
@@ -823,12 +852,13 @@
       kte -- rá o něm sly -- še -- li.
     }
     \header {
-      quid = ". ant."
-      modus = ""
-      differentia = "" 
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f" 
       psalmus = ""
       piece = \markup {\sestavTitulek}
       fons = "Kromě počátku z: slavnost Narození Páně, modlitba uprostřed dne - dopoledne"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie"
     }
   }
   
@@ -859,7 +889,9 @@
     }
     \header {
       piece = "responsorium - III"
+      id = "svrodiny-rch-resp"
       fons = "Kromě verše melodie i text viz doba postní, neděle, ranní chvály"
+      fial = "fial://pust_responsoria.ly#ne-rch"
     }
   }
   
@@ -888,6 +920,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = "Benedictus"
+      id = "svrodiny-rch-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -916,6 +949,7 @@
       modus = "I"
       differentia = "a" 
       psalmus = ""
+      id = "svrodiny-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -937,6 +971,7 @@
       modus = "IV"
       differentia = "g" 
       psalmus = ""
+      id = "svrodiny-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -958,6 +993,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
+      id = "svrodiny-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -990,6 +1026,7 @@
     }
     \header {
       piece = "responsorium - VI"
+      id = "svrodiny-2ne-resp"
     }
   }
   
@@ -1011,6 +1048,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
+      id = "svrodiny-2ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1044,6 +1082,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = "Magnificat"
+      id = "26-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1075,6 +1114,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = "Magnificat"
+      id = "27-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1112,6 +1152,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "28-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1137,6 +1178,7 @@
       modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
+      id = "29-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1169,6 +1211,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "29-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1202,6 +1245,7 @@
       modus = "III"
       differentia = "g" 
       psalmus = "Benedictus"
+      id = "30-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1229,14 +1273,12 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
+      id = "30-amag"
       piece = \markup {\sestavTitulek}
     }
   }
   
   \markup {\nadpisDen {31. prosince}}
-  
-  % Druha cast nasledujici antifony je melodicky i textove shodna
-  % s antifonou k Benedictus ze slavnosti Narozeni Pane.
   
   \score {
     \relative c'' {
@@ -1263,6 +1305,9 @@
       modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
+      id = "31-aben"
+      fons = "Druha cast je melodicky i textove shodna s antifonou k Benedictus ze slavnosti Narozeni Pane."
+      fial = "fial://vanoce_narozenipane.ly#vden-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1301,6 +1346,7 @@
       modus = "I"
       differentia = "a" 
       psalmus = ""
+      id = "bohorodicka-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1330,6 +1376,7 @@
       modus = "III"
       differentia = "b" 
       psalmus = ""
+      id = "bohorodicka-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1363,6 +1410,7 @@
       modus = "IV alt"
       differentia = "A" 
       psalmus = ""
+      id = "bohorodicka-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1397,6 +1445,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "bohorodicka-1ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1423,6 +1472,7 @@
       modus = "I"
       differentia = "D" 
       psalmus = ""
+      id = "bohorodicka-invit"
       piece = \markup {\sestavTitulek}
       fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
     }
@@ -1454,6 +1504,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "bohorodicka-rch-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1489,6 +1540,7 @@
       modus = "VII"
       differentia = "b" 
       psalmus = ""
+      id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1525,6 +1577,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
+      id = "bohorodicka-rch-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1552,6 +1605,7 @@
       modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1587,6 +1641,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
+      id = "bohorodicka-2ne-amag"
       piece = \markup {\sestavTitulek}
     }
   }
