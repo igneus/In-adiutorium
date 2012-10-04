@@ -350,13 +350,13 @@
     % R
     \neviditelna f
     f4 f f f f g f g( a) a( g) \barMax
-    g g g( a) g g( f) d f g g( f) f \barFinalis
+    g g g a g( f) d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a a a( bes) a \barMin a a a a g( a) g f( g) g( a) \barMax
     % R
     \neviditelna a
-    g g g( a) g g( f) d f g g( f) f \barFinalis
+    g g g a g( f) d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
