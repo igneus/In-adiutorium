@@ -158,8 +158,11 @@
   }
 
   \include "antifony/advent_tyden1.ly"
+  \pageBreak
   \include "antifony/advent_tyden2.ly"
+  \pageBreak
   \include "antifony/advent_tyden3.ly"
+  \pageBreak
   \include "antifony/advent_tyden4.ly"
 }
 
