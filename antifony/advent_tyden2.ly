@@ -244,3 +244,233 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Pán ří -- ká: 
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hle, při -- chá -- zí Král, Pán ze -- mě,
+    on sám zlo -- mí jho na -- ší po -- ro -- by.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
+    ne -- boť hle_- při -- chá -- zím a bu -- du byd -- let
+    u -- pro -- střed te -- be,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te stez -- ky na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
+    a bu -- de vlád -- nout po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bu -- deš zno -- vu zbu -- do -- vá -- no, Bo -- ží měs -- to,
+    a u -- vi -- díš spra -- ved -- li -- vé -- ho,
+    kte -- rý k_to -- bě při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Já ti po -- má --- hám, pra -- ví Hos -- po -- din,
+    jsem tvůj vy -- ku -- pi -- tel, Iz -- ra -- e -- lův Sva -- tý.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Po mně při -- jde ten, kte -- rý byl dří -- ve než já;
+    je -- mu ne -- jsem ho -- den roz -- vá -- zat o -- pán -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Řek -- ně -- te ma -- lo -- my -- sl -- ným:
+    Vzmuž -- te se, ne -- boj -- te se,
+    při -- chá -- zí Pán, náš Bůh.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    S_ra -- dos -- tí bu -- de -- te čer -- pat vo -- du
+    z_pra -- me -- nů spá -- sy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Sobota 2. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev ne -- zi ná -- ro -- dy
+    a shro -- máž -- dí roz -- ptý -- le -- ný Iz -- ra -- el.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
