@@ -61,7 +61,7 @@ class LilyPondScore
     @header = {}
     i1 = @text.index '\header'
     unless i1
-      puts "no header"
+      # puts "no header"
       return
     end
     i1 = @text.index '{', i1

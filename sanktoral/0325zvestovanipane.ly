@@ -35,7 +35,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -59,7 +59,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "1ne-a2"
     fons = "1. část: Krista Krále, 1. nešp., k Magnificat"
     piece = \markup {\sestavTitulek}
   }
@@ -86,7 +86,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Fp 2"
+    id = "1ne-a3"
     fons = "Narození Páně, 1. nešp., 3. ant., doplněno aleluja."
+    fial = "fial://vanoce_narozenipane.ly#vden-1ne-a3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -118,7 +120,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -144,7 +146,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -171,7 +173,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup{\sestavTitulekBezZalmu}
   }
 }
@@ -197,7 +199,9 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 63"
+    id = "rch-a1"
     fons = "4. neděle adventní, cyklus B, k Benedictus"
+    fial = "fial://antifony/advent_nedeleB.ly#ivben"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -220,7 +224,9 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Dan 3-III"
+    id = "rch-a2"
     fons = "spol. texty o P.M., 2. nešp., 3. ant."
+    fial = "fial://commune/commune-maria.ly#2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -246,8 +252,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -283,8 +290,9 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     fons = "spol. texty o P.M., 2. nešp."
+    fial = "fial://commune/commune_maria.ly#2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -321,8 +329,9 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp-velik"
     fons = "spol. texty o P.M., 2. nešp."
+    fial = "fial://commune/commune_maria.ly#2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 } 
@@ -345,7 +354,7 @@
     modus = ""
     differentia = "" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -371,7 +380,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -395,7 +404,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -423,7 +432,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -449,7 +458,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -478,7 +487,9 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 130"
+    id = "2ne-a2"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
+    fial = "fial://antifony/advent_nedeleB.ly#imag2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -501,7 +512,9 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Kol 1"
+    id = "2ne-a3"
     fons = "spol. texty o P.M., 2. nešp., 2. ant."
+    fial = "fial://commune/commune_maria.ly#2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -535,7 +548,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -571,7 +584,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -601,8 +614,9 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
-    psalmus = ""
+    psalmus = "2ne-amag"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

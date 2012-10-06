@@ -40,6 +40,7 @@
   }
   \header {
     piece = "neděle - ranní chvály (III)"
+    id = "ne-rch"
   }
 }
 
@@ -70,6 +71,7 @@
   }
   \header {
     piece = "neděle - nešpory (III)"
+    id = "ne-ne"
   }
 }
 
@@ -101,6 +103,7 @@
   }
   \header {
     piece = "všední dny - ranní chvály (IV alt)"
+    id = "fe-rch"
   }
 }
 
@@ -130,5 +133,6 @@
   }
   \header {
     piece = "všední dny - nešpory (IV alt)"
+    id = "fe-ne"
   }
 }

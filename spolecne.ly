@@ -41,6 +41,16 @@
                           "VL Gothic"
                           "Courier"
      (/ myStaffSize 20)))
+  
+  % tagline on the very last page only
+  % (this used to be default, but changed cca with lily 2.16.0 in favour
+  % of tagline at the end of each bookpart)
+  oddFooterMarkup = \markup {
+    \fill-line {
+      %% Tagline header field only on last page.
+      \on-the-fly #last-page \fromproperty #'header:tagline
+    }
+  }
 }
 
 % "tiraz" -------------------------------------------------------
@@ -49,8 +59,8 @@ dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
 rok = #(strftime "%Y" (localtime (current-time)))
 
 sazeciProgram = \markup {        
-  \with-url #"http://lilypond.org/" {
-    LilyPond \simple #(lilypond-version) (http://lilypond.org/)
+  \with-url #"http://lilypond.org" {
+    LilyPond \simple #(lilypond-version) (http://lilypond.org)
   }
 }
 licenceCcAsU = \markup {

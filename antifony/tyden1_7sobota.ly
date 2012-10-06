@@ -2,6 +2,76 @@
 
 % -*- master: ../antifony.ly;
 
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\score { \tIsobotaInvitatorium }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( b a) g( a) a \barMin g f d( e) e \barMaior
+    f g a( c) b a d( c b) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 131"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g g \barMin f g a a a( bes) a g( a) a \barMaior
+    a( g f) a( g) f e f d d \barMin d d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    všech -- no, co jsem o -- bě -- to -- val,
+    da -- ro -- val jsem s_ra -- dos -- tí
+    a s_u -- přím -- ným srd -- cem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 132-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a bes a g( a) g g \barMin 
+    f f g a a a a( bes) a g( a) a \barMaior
+    a( g a) f( d) e \barMin f f f( a) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din spl -- nil pří -- sa -- hu,
+    kte -- rou se za -- vá -- zal Da -- vi -- do -- vi:
+    u -- pev -- nil je -- ho krá -- lov -- ství na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 132-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

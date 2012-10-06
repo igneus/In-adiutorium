@@ -8,6 +8,7 @@
 \include "spolecne.ly"
 \include "antifony/invitatoria.ly"
 
+%{
 \bookpart {
   \header {
     subtitle = "Antifony - 1. a 3. týden žaltáře"
@@ -47,6 +48,7 @@
   
   \score { \tIIsobotaInvitatorium }
 }
+%}
 
 \include "invitatoria/zalm95text.ly"
 \include "invitatoria/zalm95_I_D.ly"
