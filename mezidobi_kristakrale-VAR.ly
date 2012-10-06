@@ -10,8 +10,15 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\justify{
+Sluší se poznamenat, že antifon postavených podle tohoto vzoru 
+(který mi s odstupem přijde velmi nelibý a snažím se ho potlačit)
+bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( g) g g a( c b) a g( f) f( g) g \barMaior
     g a b c4.( a) \barMin c4 c b( g) g a( g) f( g) g \barFinalis
@@ -30,8 +37,54 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d c( d) d d f( e d) c c d d \barMaior
+    f g g g( f e d) \barMin c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 113"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d d f( e d) c c d d \barMaior
+    f g g g( f e d) \barMin \mark\sipka e c f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 113"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d f( g) g g \barMin g a c c c( d c a) a \barMaior
     g a b( c) a a b c( d) d c( b a g) a4.( g) \barMaior
@@ -51,6 +104,33 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( d c) c( d) d \barMin d c b a b( a g a) a \barMaior
+    f g a( b) a a b c d c( d e) d \barMin
+    c b a g a( f) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né;
+    všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
+    a bu -- dou ho po -- slou -- chat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 117"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -76,8 +156,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -107,6 +190,41 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f g f f f g f g a a( g) \barMax
+    g g g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 g( a) g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,_*
+    to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \Verse Ty vlád -- neš na -- de vším,_*
+    \Response to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -270,6 +388,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -301,6 +421,40 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f f f g f g g( a) a( g) \barMax
+    \mark\sipka g g a g f g( f) d d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g( f) g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g a g f g( f) d d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, tvo -- ji věr -- ní tě chvá -- lí_*
+    a vy -- pra -- vu -- jí o slá -- vě tvé -- ho krá -- lov -- ství.
+    \Verse Mlu -- ví o tvé sí -- le_*
+    \Response a vy -- pra -- vu -- jí o slá -- vě tvé -- ho krá -- lov -- ství.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -460,6 +614,10 @@
   }
 }
 
+\pageBreak
+
+\markup\nadpisSkupiny 1
+
 \score {
   \relative c' {
     \choralniRezim
@@ -495,6 +653,81 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna d
+    e4 d( e) e e d( c) d d( e) e \barMin
+    g a g f g g \barMax
+    a a g( a) a( g) g \barMin \mark\sipka f g( a) g f e( f e) e \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( b) a g( a) a \barMin 
+    a a( e) e \mark\sipka f g f e d g a a \barMax
+    % R
+    \neviditelna a
+    a a g( a) a( g) g \barMin \mark\sipka f g( a) g f e( f e) e \barFinalis
+    % Slava
+    a a a( b) a \mark\sipka g g( a) a \barMin a g f g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    na kně -- ze a krá -- le;_*
+    je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \Verse Žez -- lo je -- ho vlá -- dy
+    je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
+    \Response je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f( g) f f g( a g) f g f \barMin
+    d f f f g( a) a( g) \barMax
+    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    na kně -- ze a krá -- le;_*
+    je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \Verse Žez -- lo je -- ho vlá -- dy
+    je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
+    \Response je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
