@@ -9,7 +9,7 @@
 adresar_nesporni = 'generovane/nespornizpevy/'
 nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "+
-                        "--prepend-text '\\include \"nespornizpevy/spolecne_nespory.ly\"\n\\include \"../dilyresponsorii.ly\"' "+
+                        "--prepend-text '\\include \"../nespornizpevy/spolecne_nespory.ly\"\n\\include \"../../dilyresponsorii.ly\"' "+
                         # "--remove-headers "+
                         # "--mode-info "+
                         "--one-clef "+
