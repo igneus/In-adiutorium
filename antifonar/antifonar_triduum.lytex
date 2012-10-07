@@ -4,12 +4,11 @@
 \usepackage[czech]{babel} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
-\usepackage{color} % barevny text
 
 % kvuli znacky.tex:
 \usepackage{zref-savepos}
@@ -21,7 +20,8 @@
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\cisloSvazku}{6}
+\newcommand{\edicniRada}{výběrová řada}
+\newcommand{\cisloSvazku}{2}
 \newcommand{\nazev}{Velikonoční triduum}
 
 \newcommand{\textDoTiraze}{
