@@ -198,7 +198,7 @@ Response = \lyricmode {
     \with-color ##'red { 
       % \concat { \override #'(font-name . "liturgy") {R} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
-      \concat { \char ##x0211F : }
+      \concat { \char ##x0211F . }
     }
   }
 }
@@ -208,7 +208,7 @@ Verse = \lyricmode {
     \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
-      \concat { \char ##x02123 : }
+      \concat { \char ##x02123 . }
     }
   }
 }
