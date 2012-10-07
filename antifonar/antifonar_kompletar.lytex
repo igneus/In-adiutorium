@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
+\usepackage[left=1.5cm, right=1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
@@ -12,20 +12,11 @@
 
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\cisloSvazku}{1}
+\newcommand{\edicniRada}{úplné vydání}
+\newcommand{\cisloSvazku}{IV.2}
 \newcommand{\nazev}{Kompletář}
 \newcommand{\textDoTiraze}{
-  Používání \emph{nápěvů antifon} je vázáno licencí 
-  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
-  která dává komukoli právo je dále šířit, upravovat a využívat
-  ve svých vlastních dílech, za předpokladu, že uvede informaci
-  o autorovi původního díla a při dalším šíření zachová licenční 
-  podmínky.
-  
-  \emph{Texty Denní modlitby církve} 
-  jsou majetkem České biskupské konference. 
-  Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
-  týká se pouze jeho hudební složky.
+  \licencniPoznamka
 }
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
@@ -52,11 +43,27 @@
 
 \pagestyle{fancy}
 
-psalmodie - modus II\footnote{Tento nápěv, zvolený zde pro žalmy 
-kompletáře, není zahrnut v přehledu nápěvů z Liber usualis,
-na který jinak odkazujeme, a proto je tu výjimečně reprodukován.
-Pochází z {\it Antiphonale Romanum}, Řím 1912, s. *26.}
+\nadpisTypTextu{Nápěv žalmů}
+
+\rubrika{Pro žalmy kompletáře o všech dnech mimo dobu velikonoční 
+na\-vr\-hu\-je\-me místo obyčejného nápěvu II.D 
+tento:\footnote{{\it Antiphonale Romanum}, Řím 1912, s. *26.}}
 \lilypondfile{generovane/kompletar/kompletar_psalmodie-proantifonar.ly}
+
+\nadpisTypTextu{Antifona k žalmům v době velikonoční}
+
+\rubrika{Po celou dobu velikonoční se všechny žalmy kompletáře zpívají
+pod jedinou 
+antifonou:\footnote{{\it Liber usualis}, New York-Tournai 1961, s. 266.}}
+
+\lilypondfile{generovane/kompletar/kompletar_pasch.ly}
+
+\rubrika{Mimo dobu velikonoční se každý žalm zpívá s vlastní antifonou,
+která je u něj uvedena.}
+
+\vfill
+
+\pagebreak
 
 \nadpisDen{Neděle po 1. nešporách}
 
@@ -68,14 +75,39 @@ Pochází z {\it Antiphonale Romanum}, Řím 1912, s. *26.}
 \input{generovane/kompletar/zalm134.tex}
 % \input{generovane/kompletar/doxologie.tex}
 
+\newpage % ZLOM
+
 \rubrika{Responsorium a Simeonovo kantikum s antifonou se zpívají
-každý den stejně a u následujících dnů se proto neopakují.}
+každý den v týdnu stejně. Proto jsou uvedeny jen zde a u následujících
+dnů se neopakují.}
 
 \nadpisTypTextu{Responsorium}
 
+\rubrika{Mimo Velikonoční triduum a dobu velikonoční:}
+
 \lilypondfile{generovane/kompletar/kompletar_resp.ly}
 
+\rubrika{V době velikonoční:}
+
+\lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
+
 \newpage % ZLOM
+
+\nadpisTypTextu{Antifony zpívané místo responsoria}
+
+\rubrika{1. ve Velikonočním triduu se místo responsoria zpívá po krátkém
+čtení následující antifona, a to tak, že se na Zelený čtvrtek
+vezme jen první část, na Velký pátek první dvě části
+a na Bílou sobotu se antifona zpívá celá.}
+
+\lilypondfile{generovane/kompletar/pust_triduum_resp-casti.ly}
+
+\rubrika{2. ve Velikonočním oktávu.}
+
+\lilypondfile{generovane/kompletar/velikonoce_velikonocnioktav_resp.ly}
+
+\newpage % ZLOM
+
 \nadpisTypTextu{Simeonovo kantikum}
 
 \lilypondfile{generovane/kompletar/kompletar_sim.ly}
@@ -83,6 +115,7 @@ každý den stejně a u následujících dnů se proto neopakují.}
 % \input{generovane/kompletar/doxologie_2akcenty.tex}
 
 \newpage % ZLOM
+
 \nadpisDen{Neděle po 2. nešporách}
 
 \lilypondfile{generovane/kompletar/kompletar_neii.ly}

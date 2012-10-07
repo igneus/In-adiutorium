@@ -24,12 +24,21 @@ end
 
 zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --accents 2:1', adresar_kompletar)
 
-file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly", 'spolecne_antifonar.ly']+zalmy_kompletar) do
-  sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
+# noty:
+noty_kompletar = []
+
+[['../kompletar.ly', 'po'],
+ ['../pust_triduum.ly', 'ct-resp'],
+ ['../velikonoce_velikonocnioktav.ly', 'resp']].each do |n|
+  nn = adresar_kompletar+'/'+File.basename(n[0]).gsub(/\.ly$/, '_'+n[1]+'.ly')
+  noty_kompletar << nn
+  file nn => [n[0]] do |t|
+    sh kompletar_splitscores_command + t.prerequisites.first
+  end
 end
 
-file (adresar_kompletar+"kompletar_po.ly") => ["../kompletar.ly"] do |t|
-  sh kompletar_splitscores_command + t.prerequisites.first
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", 'spolecne_antifonar.ly']+zalmy_kompletar+noty_kompletar) do
+  sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
 desc "Antiphonal for the completory."
