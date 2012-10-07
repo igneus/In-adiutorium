@@ -25,7 +25,6 @@ end
 zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --accents 2:1', adresar_kompletar)
 
 file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", adresar_kompletar+"kompletar_po.ly", 'spolecne_antifonar.ly']+zalmy_kompletar) do
-  test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 

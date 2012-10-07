@@ -190,7 +190,6 @@ end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
 
 file "vystup/antifonar_nedele.tex" => (["antifonar_nedele.lytex", "kantikum-Zj19.ly", "spolecne_antifonar.ly"]+zalmynedele+noty_nedele) do
-  test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf antifonar_nedele.lytex"
 end
 
@@ -236,7 +235,6 @@ file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
 end
 
 file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
-  test_lilypondbook_version
   sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
 end
 
