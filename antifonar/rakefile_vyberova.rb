@@ -47,7 +47,6 @@ noty_triduum = {'../pust_triduum.ly' => 'pa-invit',
 end
 
 file "vystup/antifonar_triduum.tex" => (["antifonar_triduum.lytex", "spolecne_antifonar.ly", "../dilyresponsorii.ly"]+zalmy_triduum+noty_triduum) do |t|
-  test_lilypondbook_version
   sh "lilypond-book --output=vystup --pdf "+t.prerequisites.first
 end
 
