@@ -68,6 +68,80 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a g a b b( c) \barMin
+    d d c( a c) b \barMaior
+    g g( f e d) d( e) \barMin 
+    f f g( a) a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde vzne -- še -- ný Král 
+    s_vel -- kou mo -- cí 
+    a spa -- sí 
+    li -- di všech ná -- ro -- dů. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 1"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a b c( b c d) c \barMin
+    b c d b a( g) g \barMaior
+    a f e f a a( g) g \barMax
+    c( b c) c( d) c \barMin c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se a já -- sej, 
+    sva -- té měs -- to Bo -- ží: 
+    při -- chá -- zí k_to -- bě tvůj Král, 
+    ne -- boj se, tvá spá -- sa je blíz -- ko.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e d c f( g) f \barMin
+    f c( d e) f g f( d) \barMin e e d c c \barMaior
+    f( e d c) d \barMin c bes c d f d d \barFinalis
+  }
+  \addlyrics {
+    O -- čisť -- me své srd -- ce 
+    a spě -- chej -- me vstříc na -- še -- mu Krá -- li: 
+    při -- jde a nic mu ne -- za -- brá -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 3"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
