@@ -129,7 +129,6 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = "paschoctant"
     id = "resp"
     piece = \markup {\sestavTitulekBezZalmu}
   }
