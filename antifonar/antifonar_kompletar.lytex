@@ -46,7 +46,7 @@
 \nadpisTypTextu{Nápěv žalmů}
 
 \rubrika{Pro žalmy kompletáře o všech dnech mimo dobu velikonoční 
-na\-vr\-hu\-je\-me místo obyčejného nápěvu II.D 
+na\-vr\-hu\-je\-me místo běžného nápěvu II.D 
 tento:\footnote{{\it Antiphonale Romanum}, Řím 1912, s. *26.}}
 \lilypondfile{generovane/kompletar/kompletar_psalmodie-proantifonar.ly}
 
@@ -156,6 +156,8 @@ a na Bílou sobotu se antifona zpívá celá.}
 \lilypondfile{generovane/kompletar/kompletar_ct.ly}
 \input{generovane/kompletar/zalm16.tex}
 % \input{generovane/kompletar/doxologie.tex}
+
+\newpage % ZLOM
 
 \nadpisDen{Pátek}
 
