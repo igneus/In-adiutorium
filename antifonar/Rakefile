@@ -33,14 +33,18 @@ def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
   return peceny
 end
 
-def test_lilypondbook_version
-  v = `lilypond-book --version`
-  if v !~ /^2\.15/ then
+task "test_lilypondbook_version" do
+  v = `lilypond-book --version`.rstrip
+  if v !~ /^2\.1[67]/ then
     STDERR.puts
-    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.15.x !!!"
+    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.15.x !!! [#{v} found]"
     STDERR.puts
+  else
+    puts "LilyPond version [#{v}] OK."
   end
 end
+
+Rake::Task["test_lilypondbook_version"].execute
 
 def make_dirs(struc)
   wd = Dir.pwd
