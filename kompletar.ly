@@ -39,6 +39,28 @@
   }
 }
 
+%{
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    c d f\breve f4-| \parenthesize d d4. \mark\markup\large\Dagger \barMin
+    f\breve g4 g-| \parenthesize d d4. \mark\markup\large{*} \barMax 
+    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+  }
+  \header {
+    quid = "psalmodie"
+    modus = "II"
+    differentia = ""
+    piece = "psalmodie (modus II)"
+    id = "psalmodie-proantifonar"
+  }
+  \layout{
+    indent = 0\cm
+  }
+}
+%}
+
 \score {
   \relative c' {
     \choralniRezim
