@@ -70,6 +70,8 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\label #'adventNedeleIcteni
+
 \score {
   \relative c'' {
     \choralniRezim

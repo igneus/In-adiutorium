@@ -96,6 +96,14 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\markup\justify{
+  Antifony jako o 1. neděli adventní, 
+  str. \concat{\page-ref #'adventNedeleIcteni "0" "?" . }
+  Žalm 104-I, 104-II, 104-III.
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
