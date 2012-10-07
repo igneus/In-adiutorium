@@ -541,6 +541,43 @@ jinak zachránit její zpívatelnost.}
   }
 }
 
+%{
+\score {
+  \relative c'' {
+    \choralniRezim
+    \neviditelna d
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
+    
+    \neviditelna a
+    a g g( e) e f( e) f( g a4.) a4 \barFinalis
+    
+    \neviditelna a
+    a a a a g a a( b c d) e( c d4.) d \barMaior
+    d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
+  }
+  \addlyrics {
+    \markup\bold{I.} 
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
+    
+    \markup\bold{II.} 
+    a to k_smr -- ti na kří -- ži.
+    
+    \markup\bold{III.} 
+    Pro -- to ho ta -- ké Bůh po -- vý -- šil
+    a dal mu Jmé -- no nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "ant. místo responsoria"
+    quidbreve = "ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = "resp-casti"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+%}
+
 \score {
   \relative c' {
     \choralniRezim
