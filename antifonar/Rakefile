@@ -350,7 +350,7 @@ task :cteni => ['antifonar_ctenizaltar.pdf']
 
 file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
   chdir 'generovane'
-  sh "#{RUBY_COMMAND} ../../nastroje/splitscores.rb --prepend-text '\\include \"spolecne_antifonar.ly\"' ../uvod_priklady.ly"
+  sh "#{RUBY_COMMAND} -I ../../nastroje ../../nastroje/splitscores.rb --prepend-text '\\include \"../spolecne_antifonar.ly\"' ../uvod_priklady.ly"
   chdir '..'
 end
 
@@ -426,7 +426,7 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
   # verse nemaji odsazovani a proto maji svuj vlastni delici prikaz:
   sh "#{RUBY_COMMAND} -I ../nastroje "+ 
           "../nastroje/splitscores.rb "+
-                        "--prepend-text '\\include \"spolecne_antifonar.ly\"\n \\include \"../dilyresponsorii.ly\"' "+
+                        "--prepend-text '\\include \"../spolecne_antifonar.ly\"\n \\include \"../../dilyresponsorii.ly\"' "+
                         "--insert-text \"\\layout { indent = 0 \n short-indent = 0\\cm \n"+
                                                                             "\\context {\n \\Staff \n \\consists Custos_engraver \n \\override Custos #'style = #'hufnagel }"+
                                                                             "}\n\" "+

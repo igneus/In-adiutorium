@@ -3,7 +3,7 @@
 % Obsahove se shoduje s ../kantikum-Zj19.ly ,
 % lisi se tim, ze nema zadny text v \markup a v nekterych nastavenich
 
-\include "spolecne_antifonar.ly"
+\include "../spolecne_antifonar.ly"
 
 DoubleResponse = \lyricmode { 
   \markup { 
