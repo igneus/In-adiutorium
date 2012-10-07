@@ -8,7 +8,7 @@
 % Titulni strana a tiraz svazku antifonare.
 % prikazy vyuzivaji prikazy, ktere musi byt
 % definovany v dokumentu:
-% \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+% \soubornyNazev, \edicniRada, \nazev, \cisloSvazku, \autor, \textDoTiraze
 %
 
 \newcommand{\titulniStrankaSvazkuAntifonare}{
@@ -16,10 +16,14 @@
   \begin{titlepage}
     \begin{center}
       \soubornyNazev
+
+      \vspace{0.5cm}
+
+      \edicniRada
       
-      Svazeček \cisloSvazku.
+      svazek \cisloSvazku.
       
-      \vspace*{7cm}
+      \vspace*{6cm}
       
       {\Huge \textbf{\nazev}}
           
@@ -70,6 +74,29 @@
   \begin{center}
     \dmyyyydate \today
   \end{center}
+}
+
+%
+% Standartni licencni poznamka pouzitelna pro vetsinu svazku
+% Antifonare k Denni modlitbe cirkve
+%
+
+\newcommand{\licencniPoznamka}{%
+  Používání \emph{nápěvů} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons 
+    At\-tri\-bu\-tion-\-Sha\-re-A\-li\-ke 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová původní licenční 
+  podmínky.
+  (Výjimku představují nápěvy převzaté z jiných publikací - je to vždy
+  výslovně uvedeno. Tyto nápěvy vesměs patří k prastarému pokladu
+  gregoriánského chorálu a jsou tedy public domain.)
+  
+  \emph{Texty Denní modlitby církve} 
+  jsou majetkem České biskupské konference. 
+  Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
+  týká se pouze jeho hudební složky.
 }
 
 %
