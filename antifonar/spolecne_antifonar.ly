@@ -26,7 +26,7 @@
   }
 }
 
-myStaffSize = #18
+myStaffSize = #16
 #(set-global-staff-size myStaffSize)
 
 \paper {
