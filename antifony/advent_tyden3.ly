@@ -223,3 +223,266 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
+
+\markup {\nadpisDen {Pondělí 3. týdne}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( c) a d( c) d f e( d) \barMaior
+    c c( b) a \barMin g a b c b g g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be při -- jde Vlád -- ce a Pán,
+    má v_ru -- ce krá -- lov -- skou moc a vlá -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( a c) b( g a) f( g) g g f( g) g4.( a) \barMin 
+    b4 c d b a( g) g \barMaior
+    g b c( d c) d( e d4.) d \barMin
+    d4 d d( e d) c( b) a g a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- vit mě bu -- dou 
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl 
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Magnificat"
+    id = ""
+    fons = "mariánské commune, 1. nešp., k Magnificat; bez aleluja"
+    fial = "fial://commune/commune_maria.ly#1ne-amag2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý 3. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( g) e a g a g e d d( e) e \barMaior
+    d c d( e f) e \barMin f g a b g a a \barMin 
+    g f g e e \barFinalis
+  }
+  \addlyrics {
+    Vzchop se, Je -- ru -- za -- lé -- me, a po -- vstaň,
+    roz -- lom jař -- mo, kte -- ré tě zo -- tro -- ču -- je,
+    dce -- ro si -- ón -- ská.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+%{
+  % tak, jak je, ta melodie nedrzi pohromade, ale nechci ji ztratit.
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e) e e e e f e d e d \barMin
+    c d c( b) a b \barMaior 
+    c d( e) f e d( g) g( f) e \barMin
+    f f e( f) d c \barMin d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se, 
+    že Ma -- ri -- a po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+%}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g f g f( e) d \barMin
+    d f f d d( c) \barMaior
+    d d f e a g g( a) \barMin
+    a( g) a g( f e) c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se, 
+    že Ma -- ri -- a po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa 3. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( e d f) e c d c \barMaior
+    c d d( e) \barMin e( d) d \barFinalis
+  }
+  \addlyrics {
+    Těš -- te můj ná -- rod,
+    ří -- ká Pán, váš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin d c d e( d) c( d) d \barMaior
+    d4 a d b c a( g) a g \barMin g f( g) g a( c a) a \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Pa -- ne, ten, kte -- rý má při -- jít,
+    ten, od kte -- ré -- ho če -- ká -- me, že spa -- sí svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = ""
+    id = ""
+    fons = "jeden ze stereotypních grego nápěvů"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek 3. týdne}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( d) \barMaior
+    c c c b( a g) g \barMin f g a b a f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstaň už, vstaň,
+    ob -- lék -- ni sí -- lu, Hos -- po -- di -- no -- va pa -- že.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' f) g( e) f g a g e f d \barMaior
+    a' a( c) b g a( g f) e \barMin
+    d d d d d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se s_Je -- ru -- za -- lé -- mem
+    a já -- sej -- te nad ním,
+    všich -- ni, kdo ho mi -- lu -- je -- te.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "o posv. kostela, 1. nešp., k Magnificat; bez aleluja"
+    fial = "fial://commune/commune_kostel.ly#1ne-amag?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek 3. týdne}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Jed -- nej -- te po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a b c \barMin c c d c d c( b a) \barMaior
+    g f g a( b c) d c( b) c \barMin c b( g) g a( b) a( g) \barFinalis
+  }
+  \addlyrics {
+    To je svě -- dec -- tví, kte -- ré vy -- dá -- val Jan:
+    Ten, kte -- rý při -- jde po mně, byl dří -- ve než já.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify\italic{
+  Sobota má texty z příslušného dne v předvánočním týdnu.
+  (Totéž platí pochopitelně i pro ferie 4. adventního týdne.)
+}
