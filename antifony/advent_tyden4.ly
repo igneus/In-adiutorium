@@ -66,6 +66,14 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\markup\justify{
+  Antifony jako o 1. neděli adventní, 
+  str. \concat{\page-ref #'adventNedeleIcteni "0" "?" . }
+  Žalmy 24, 66-I a 66-II.
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -143,6 +151,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 

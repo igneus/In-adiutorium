@@ -4,16 +4,16 @@
 \usepackage[czech]{babel} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
-\usepackage{color} % barevny text
 
 % potreba pro znacky.tex:
 \usepackage{zref-savepos}
 \usepackage{changepage}
+\usepackage{etoolbox}
 
 \usepackage[T1]{fontenc}
 % font Bookman:
@@ -28,7 +28,8 @@
 
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\cisloSvazku}{5}
+\newcommand{\edicniRada}{mimo řady}
+\newcommand{\cisloSvazku}{Q (svazek na odstavné koleji)}
 \newcommand{\nazev}{Žaltář pro slavnosti a svátky}
 
 \renewcommand{\tirazSazbaProgramem}{
@@ -60,6 +61,9 @@
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
   nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 }
+
+\newcommand{\laudyNedelePrvnihoTydne}{
+  \mbox{Žalmy nedělní z 1. týdne, str. \pageref{zalmyne1trch}}}
 
 % Vytvori pro text (zalm/kantikum) label a polozku v obsahu
 % label, citelny nazev

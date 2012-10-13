@@ -1,4 +1,4 @@
-\include "../spolecne.ly"
+\include "../../spolecne.ly"
 
 \score {
   \relative c'' {

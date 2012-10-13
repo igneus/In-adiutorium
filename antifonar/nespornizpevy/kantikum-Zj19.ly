@@ -3,7 +3,7 @@
 % Obsahove se shoduje s ../kantikum-Zj19.ly ,
 % lisi se tim, ze nema zadny text v \markup a v nekterych nastavenich
 
-\include "nespornizpevy/spolecne_nespory.ly"
+\include "../nespornizpevy/spolecne_nespory.ly"
 % \include "spolecne_nespory.ly"
 
 DoubleResponse = \lyricmode { 

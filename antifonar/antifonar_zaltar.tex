@@ -4,7 +4,7 @@
 \usepackage[czech]{babel} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 
@@ -16,7 +16,6 @@
 
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
-\usepackage{color} % barevny text
 \usepackage{marginnote}
 
 \usepackage[T1]{fontenc}
@@ -33,7 +32,8 @@
 
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\cisloSvazku}{2}
+\newcommand{\edicniRada}{mimo řady}
+\newcommand{\cisloSvazku}{A}
 \newcommand{\nazev}{Žaltář}
 
 \renewcommand{\tirazSazbaProgramem}{
@@ -75,9 +75,6 @@
 
 \newcommand{\laudyNedelePrvnihoTydne}{
   \mbox{Žalmy nedělní z 1. týdne, str. \pageref{zalmyne1trch}}}
-
-\newenvironment{idxObsahHory}{
-  \begin{quote}\small}{\end{quote}}
 
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}

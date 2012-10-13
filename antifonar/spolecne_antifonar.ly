@@ -26,7 +26,7 @@
   }
 }
 
-myStaffSize = #18
+myStaffSize = #16
 #(set-global-staff-size myStaffSize)
 
 \paper {
@@ -90,19 +90,15 @@ barFinalis = { \bar "||" }
 
 Response = \lyricmode { 
   \markup { 
-    \with-color ##'red { 
-      % \concat { \override #'(font-name . "liturgy") {R} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
-    }
+    % \concat { \override #'(font-name . "liturgy") {R} : }
+    \bold\concat { \override #'(font-name . "Junicode") { \char ##x0211F } . }
   }
 }
 
 Verse = \lyricmode { 
   \markup { 
-    \with-color ##'red {
-      % \concat { \override #'(font-name . "liturgy") {V} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
-    }
+    % \concat { \override #'(font-name . "liturgy") {V} : }
+    \bold\concat { \override #'(font-name . "Junicode") { \char ##x02123 } . }
   }
 }
 
