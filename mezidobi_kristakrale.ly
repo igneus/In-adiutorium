@@ -1,12 +1,15 @@
-\version "2.14.2"
-
-\header {
-  title = "slavnost Ježíše Krista Krále"
-  composer = "Jakub Pavlík"
-}
+\version "2.16.0"
 
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "Ježíše Krista Krále"
+            slavnost
+            "34. neděle v mezidobí"
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
