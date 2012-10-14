@@ -159,9 +159,10 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g c b a g a f \barMin g a g( a) g \barMaior
+    f d e e( f) \barMin f g g a a g g \barFinalis
   }
   \addlyrics {
     Bůh ho u -- sta -- no -- vil krá -- lem své -- ho li -- du
@@ -169,8 +170,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Žalm 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -180,7 +181,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g g( a) a a g f d e d( c) c \barMaior
+    d e f d d d g f d d \barFinalis
   }
   \addlyrics {
     Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět,
@@ -188,8 +190,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 72-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -199,7 +201,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f g a a g bes a \barMin g g g a g f( e) d \barMaior
+    g g g( a) g f e( d) d d( e) c c d d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- na všech -- na ple -- me -- na ze -- mě,
@@ -207,11 +210,88 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 72-II"
     id = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna d
+    d4 d d( e d) d( e f d) d \barMin f g a( g a) c( b a b) b( a) \barMaior
+    g( a c) b( c) a c c a( g f) \barMaior
+    c' b c d b d d c \barMax
+    
+    c c c b( c b g) f g a( g a) a( g) \barMaior
+    f( a f) e d e( d c) d \barFinalis
+    % V
+    \neviditelna a
+    a'( d c) a( b g) a \barMin a a( b g) a( c d) c c( a) \barMaior
+    c b c b g a \barMaior
+    f g a a( b) a b c d c c( d) d( c) \barMax
+    % R
+    \neviditelna a
+    c c c b( c b g) f g a( g a) a( g) \barMaior
+    f( a f) e d e( d c) d \barFinalis
+  }
+  \addlyrics {
+    \Response Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka 
+    při -- chá -- zet v_ob -- la -- cích 
+    s_ve -- li -- kou mo -- cí a slá -- vou._* 
+    
+    Je -- mu buď slá -- va a vlá -- da na věč -- né vě -- ky!
+    \Verse Shro -- máž -- dí své vy -- vo -- le -- né 
+    ze čtyř svě -- to -- vých stran, 
+    od kon -- čin ze -- mě až po ko -- nec ne -- be._*
+    \Response Je -- mu buď slá -- va a vlá -- da na věč -- né vě -- ky!
+  }
+  \header {
+    quid = "1. resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 g a f g f \barMin f e c d c \barMin
+    c c( d f) \barMaior 
+    f g a g f g g \barMax
+    
+    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g( f d e) e( d) \barMin f g a a c b a( b) a \barMaior
+    a a a g a g f g f e g a \barMax
+    % R
+    \neviditelna a
+    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    \Response Teď se u -- jal vlá -- dy nad tím -- to svě -- tem 
+    náš Pán 
+    a je -- ho Po -- ma -- za -- ný_* 
+    a bu -- de kra -- lo -- vat na věč -- né vě -- ky!
+    \Verse Před ním se sklo -- ní všech -- na lid -- ská po -- ko -- le -- ní, 
+    pro -- to -- že Hos -- po -- di -- nu ná -- le -- ží vlá -- da._*
+    \Response a bu -- de kra -- lo -- vat na věč -- né vě -- ky!
+  }
+  \header {
+    quid = "2. resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
