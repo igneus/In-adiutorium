@@ -228,6 +228,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g a c( d a4.) c4 b a b g( a) a a \barMax
     f g a a a a c d d d c d d( e) e e \barMin
@@ -249,6 +250,33 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c( d a4.) c4 b a b g( a) a a \barMax
+    f g a a a a c d d d c d \mark\sipka d e e \barMin
+    e e e d( b) c( b) a \barMin
+    b4 g g b a4. a \barMax
+    a4 b g a \barFinalis
+  }
+  \addlyrics {
+    Pán Bůh mu dá trůn je -- ho před -- ka Da -- vi -- da;
+    bu -- de kra -- lo -- vat nad Ja -- ku -- bo -- vým ro -- dem na -- vě -- ky
+    a je -- ho krá -- lov -- ství ne -- bu -- de mít kon -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -297,6 +325,8 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny 2
 
 \score {
   \relative c'' {
@@ -392,6 +422,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -424,6 +455,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     
     % R
@@ -432,7 +464,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \mark\sipka g g a g f g( f) d d f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a g( a) g( f) g( a) a( g) \barMax
+    a4 a \mark\sipka g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g a g f g( f) d d f g g f f \barFinalis
@@ -549,10 +581,13 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d( c) c \barMin d c d c b a a \barMaior
     c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
@@ -574,6 +609,53 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka c( d) c \barMin d c d c b a a \barMaior
+    c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c \barMin \mark\sipka b c d c b a a \barMaior
+    c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f( g) g( a) a \barMin a g a g f f( g) g \barMaior
@@ -593,8 +675,11 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( g) g g a( c) b( c) c \barMin c a( g) g( a g) g \barMaior
     c b c d( c) b a g g \barMin f g a a( g) g \barFinalis
@@ -614,12 +699,65 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( g) g g a( c) b( c) c \barMin \mark\sipka b a g g \barMaior
+    c b c \mark\sipka d c b a a \barMin f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Zj 19"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\markup\justify{
+  Tady není důvodem nahrazení ani tak moc vyšší kvalita nového nápěvu
+  (upravená verze původního, viz výše, mi také nepřijde špatná,
+  je kvalitativně s vybranou srovnatelná),
+  ale moje lenost skládat teď melodii pro kantikum Zj 19 v modu VIII.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( d) d d f( e) g f \barMin g a a( g f) g \barMaior
+    f f f g f e d( e) d \barMin e f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Zj 19"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny 1
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -694,6 +832,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     
     % R
