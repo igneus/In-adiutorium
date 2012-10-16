@@ -527,6 +527,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f \barMin f f g f g g( a) \barMax
+    g4 f \mark\sipka g( a) g \barMin f d f g \mark\sipka g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a \mark\sipka a g( a) g \barMin \mark\sipka g f g g( a) \barMax
+    % R
+    \neviditelna g
+    g4 f \mark\sipka g( a) g \barMin f d f g \mark\sipka g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    piece = "responsorium - VI"
+    id = "resp"
+  }
+}
+
 \pageBreak 
 
 \score {
@@ -656,6 +688,83 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     id = "sim"
   }
 }
+
+\markup\nadpisSkupiny{4}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( d) c( b) a \barMaior
+    c b g a g e e \barMax
+    c' c b a g a e e \barMaior
+    f g g a g f a g f e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( d) c( b) a \barMaior
+    c b g a g e e \barMax
+    c' c b a g a \mark\sipka g( f) e \barMaior
+    f g g a g f a g f e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( d) c( b) a \barMaior
+    c b g a g e e \barMax
+    c' c b \mark\sipka d c b a a \barMaior
+    f g g a g \mark\sipka a g f e e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
   
 \bookpart {
   \header {
@@ -695,8 +804,11 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     }
   }
   
+  \pageBreak
+  
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       
       % R
@@ -727,6 +839,44 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
       piece = \markup {\sestavTitulekResp}
     }
   }
+  
+  \markup\nadpisSkupiny "less is sometimes more"
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f f f f f f g f \barMin
+      f f f f f f f e g a \barMax
+      \respVIalelujaResponsum \barFinalis
+      % V
+      \neviditelna f
+      f4 f f f f f f f e g a \barMax
+      % R
+      \neviditelna a
+      \respVIalelujaResponsum \barFinalis
+      % Slava
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,
+      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot._* \textRespAleluja
+      \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že._*
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "paschresp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  
+  \pageBreak
   
   \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
   jak je v jejích notách zapsáno.}
