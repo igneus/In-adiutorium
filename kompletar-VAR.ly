@@ -313,6 +313,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g f d \mark\sipka c( d) \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
 \pageBreak
 
 \score {
@@ -390,7 +424,61 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d f e( d c) c \barMin d d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e( d c) c \barMin d d \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\markup\nadpisSkupiny "Nad upraveným textem"
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d e f( d) d \barMin e f g d d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = ". ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( c a) a \barMin d e f d d( c) d \barFinalis
   }
   \addlyrics {
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
