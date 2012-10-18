@@ -1,6 +1,6 @@
 % antifony invitatoria ze zaltare - dvoutydenni cyklus
 
-% -*- master: ../invitatorium_choralni.ly;
+% -*- master: ../antifony.ly;
 
 sestavInvitTitulek = \markup {
   \concat {\fromproperty #'header:dies ": " \fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
@@ -29,7 +29,7 @@ tInedeleInvitatorium = \score {
     differentia = "D" 
     dies = "neděle"
     id = "t1ne"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -49,7 +49,7 @@ tIpondeliInvitatorium = \score {
     differentia = "F" 
     dies = "pondělí"
     id = "t1po"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -77,7 +77,7 @@ tIuteryInvitatorium = \score {
     differentia = "D" 
     dies = "úterý"
     id = "t1ut"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -97,7 +97,7 @@ tIstredaInvitatorium = \score {
     differentia = "E" 
     dies = "středa"
     id = "t1st"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -116,7 +116,7 @@ tIctvrtekInvitatorium = \score {
     differentia = "D" 
     dies = "čtvrtek"
     id = "t1ct"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -138,7 +138,7 @@ tIpatekInvitatorium = \score {
     differentia = "g" 
     dies = "pátek"
     id = "t1pa"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -159,7 +159,7 @@ tIsobotaInvitatorium = \score {
     differentia = "D" 
     dies = "sobota"
     id = "t1so"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -185,7 +185,7 @@ tIInedeleInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2ne"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -206,7 +206,7 @@ tIIpondeliInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2po"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -225,7 +225,7 @@ tIIuteryInvitatorium = \score {
     modus = "II"
     differentia = "D" 
     id = "t2ut"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -246,7 +246,7 @@ tIIstredaInvitatorium = \score {
     modus = "VII"
     differentia = "d" 
     id = "t2st"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -265,7 +265,7 @@ tIIctvrtekInvitatorium = \score {
     differentia = "d" 
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -284,7 +284,7 @@ tIIpatekInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2pa"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -306,6 +306,6 @@ tIIsobotaInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2so"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
