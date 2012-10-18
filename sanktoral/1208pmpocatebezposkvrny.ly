@@ -14,9 +14,10 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g a g f e f e d e \barMin d e g g g e e \barMaior
+    g g a g f a g e e \barFinalis
   }
   \addlyrics {
     Ne -- přá -- tel -- ství u -- sta -- no -- vu -- ji
@@ -25,10 +26,12 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 113"
     id = "1ne-a1"
+    fons = "zde, k Benedictus, prostřední část, upravena"
+    fial = "fial://sanktoral/1208pmpocatebezposkvrny.ly#rch-aben?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -145,7 +148,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( a g) a( c) a a \barMin c d c( a) b( g) a \barMaior
+    c d c b a g g a g f g a a \barMax
+    c( d e) c( b a) g a a \barMin f g a g( f) f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i,
@@ -154,8 +159,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -290,6 +295,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
