@@ -126,6 +126,8 @@ cislazalmu_cteni = %w(
 18i 18ii 18iii
 18iv 18v 18vi
 35i 35ii 35iii
+131 132i 132ii
+105i 105ii 105iii
 
 104i 104ii 104iii
 31i 31ii 31iii
