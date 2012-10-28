@@ -78,7 +78,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d f( g a) g( a) a \barMin g f g g \barMaior
+    d f( g) g( a) a \barMin g f g g \barMaior
     d d f d c c( d) d \barFinalis
   }
   \addlyrics {
@@ -125,18 +125,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    a4( c d) c a g g c a \barMin
-    a f( d e) d \barMax
-    d f e( c) d \barFinalis
+    a4 c b c d e d c d( c b) a \barMaior
+    b g b( c) a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je ve -- li -- ký a moc -- ný. A -- le -- lu -- ja.
+    Hos -- po -- din je ve -- li -- ký a moc -- ný. 
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "a" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 93"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -167,16 +166,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) c d d c b c( a g) g \barMin
-    g f f( a) g \barFinalis
+    d4( c b a) b \barMin
+    c c a g a( g) f \barMaior
+    g a g g \barFinalis
   }
   \addlyrics {
-    Chval -- te Hos -- po -- di -- na z_ne -- bes. A -- le -- lu -- ja.
+    Chval -- te 
+    Hos -- po -- di -- na z_ne -- bes. 
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "d" 
     psalmus = "Žalm 148"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -190,10 +192,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f) g g4.( a) \barMin
-    a4 g( a) a b c c( b) c \barMaior
-    c b( a) g( a) e( f) g \barMax
-    e f g g \barFinalis
+    g4 g f( e d) \barMin g a g c b a b \barMaior
+    b c a g g \barMin f g g( a) g \barFinalis
   }
   \addlyrics {
     V_sou -- že -- ní 
@@ -214,8 +214,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c c c b c a g g( a) g g \barMin
-    a4 b g g \barFinalis
+    g4 g g f g f e d d f( g) a( g) g \barMaior
+    a4 b c( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
@@ -234,7 +234,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) b c c b \barMin
+    g4 a c c b \barMin
     c4 c b a f( a) g \barMin
     f4 a g g \barFinalis
   }

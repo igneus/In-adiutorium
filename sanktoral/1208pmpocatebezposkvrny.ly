@@ -14,9 +14,10 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g a g f e f e d e \barMin d e g g g e e \barMaior
+    g g a g f a g e e \barFinalis
   }
   \addlyrics {
     Ne -- přá -- tel -- ství u -- sta -- no -- vu -- ji
@@ -25,10 +26,12 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
+    fons = "zde, k Benedictus, prostřední část, upravena"
+    fial = "fial://sanktoral/1208pmpocatebezposkvrny.ly#rch-aben?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +52,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "1ne-a2"
     fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
     fial = "fial://antifony/tyden4_4streda.ly#rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -71,7 +74,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Ef 1"
-    id = ""
+    id = "1ne-a3"
     fons = "commune o P.M., 2. nesp., 1.a; bez aleluja"
     fial = "fial://commune/commune_maria.ly#2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -105,7 +108,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -132,7 +135,7 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G*" 
-    id = ""
+    id = "1ne-amag"
     psalmus = "Magnificat"
     fons = "Nanebevzetí, 1. nešp., k Magnificat"
     fial = "fial://sanktoral/0815nanebevzetipm.ly#1ne-amag"
@@ -145,7 +148,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( a g) a( c) a a \barMin c d c( a) b( g) a \barMaior
+    c d c b a g g a g f g a a \barMax
+    c( d e) c( b a) g a a \barMin f g a g( f) f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i,
@@ -154,10 +159,10 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -181,7 +186,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -205,7 +210,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     fons = "sobotní památka P.M., jedna z možností k Benedictus"
     fial = "fial://commune/commune_maria.ly#sob-aben2"
     piece = \markup {\sestavTitulek}
@@ -227,7 +232,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -259,20 +264,19 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
 
-% Jeste doladit!!!
 \score {
   \relative c' {
     \choralniRezim
     e4 e e d( e) a g b a a \barMaior
     g a g f e f e d e \barMin d e g g g e e \barMin
-    g g a g f f g e e \barMaior
-    d c d e f e g a g f e e \barMaior
-    f g e e \barFinalis
+    g g a g a b a c b \barMaior
+    g f g g( f) e e \barMin d d c d e g
+    g f e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din Bůh ře -- kl ha -- do -- vi:
@@ -287,10 +291,12 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -309,7 +315,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     fons = "commune o sv. zene, 1.nesp., 1.a; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -331,7 +337,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     fons = "commune o sv. zene, 1.nesp., 3.a.; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -352,7 +358,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -374,7 +380,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 122"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -396,7 +402,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 127"
-    id = ""
+    id = "2ne-a2"
     fons = "commune o P.M., r.ch., 2.a.; bez aleluja"
     fial = "fial://commune/commune_maria.ly#rch-a2"
     piece = \markup {\sestavTitulek}
@@ -418,7 +424,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = "Ef 1"
-    id = ""
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -452,7 +458,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -482,7 +488,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     fons = "volně podle nějaké verze ant. Ave Maria 
     (i se Sancta Maria ... mortis nostrae. Amen), kterou jsem kdysi stahl
     z internetu a mam vytistenou; srov. tez (kratsi verze) v AR1912, s. 564 a par."
