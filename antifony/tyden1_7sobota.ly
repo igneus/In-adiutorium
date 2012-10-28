@@ -72,6 +72,66 @@
   }
 }
 
+\markup\italic{V době adventní a vánoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 105-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a chrá -- nil ho před hříš -- ní -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 105-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
+    a vy -- svo -- bo -- dil svůj lid.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 105-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

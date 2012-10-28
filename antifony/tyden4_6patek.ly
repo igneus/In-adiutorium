@@ -69,6 +69,67 @@
   }
 }
 
+\markup\italic{V době adventní a vánoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
+    o Hos -- po -- di -- no -- vě mo -- ci
+    a o je -- ho slav -- ných či -- nech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 78-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sy -- no -- vé Iz -- ra -- e -- le jed -- li ma -- nu
+    a pi -- li z_du -- chov -- ní ská -- ly,
+    kte -- rá je do -- pro -- vá -- ze -- la.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 78-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 78-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
