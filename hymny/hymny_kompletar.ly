@@ -1,11 +1,20 @@
 \version "2.16.0"
 
+\include "../spolecne.ly"
+
 \header {
   title = "Hymny ke kompletáři"
   % composer = "Jakub Pavlík" % transcriber, not composer :)
+  
+  tagline = \markup {
+    \column {
+      \line { datum: \dnesniDatum }
+      \line { licence: --- }
+      \line { projekt: \inAdiutorium }
+      \line { sazba programem \sazeciProgram }
+    }
+  }
 }
-
-\include "../spolecne.ly"
 
 \layout{
   ragged-last = ##f
