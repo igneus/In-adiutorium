@@ -72,17 +72,18 @@
 \markup\italic{V době adventní a vánoční:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d f( e c) c( d) d \barMin
+    c( a) b a g g \barFinalis
   }
   \addlyrics {
     Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 78-IV"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -90,17 +91,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis
   }
   \addlyrics {
     Bůh je při -- ve -- dl do své sva -- té ze -- mě.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 78-V"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -108,9 +109,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d d e d e f( d) d \barMin e e d c b \barMaior
+    a( g) g( a) a \barMin a( d c) a( b) g g \barMin f g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
@@ -118,8 +120,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 78-VI"
     id = ""
     piece = \markup {\sestavTitulek}
