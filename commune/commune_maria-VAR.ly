@@ -1165,8 +1165,112 @@ začátkem v jednom oficiu patřily k různým modům.
 }
 
 \pageBreak
+\markup\nadpisDen "Sobotní památka Panny Marie"
+\markup\nadpisHodinka "ranní chvály"
 
-\markup {\nadpisHodinka {"Sobotní památka Panny Marie - ranní chvály"}}
+\markup\italic{
+  Responsorium 
+  \upright{Bůh si ji vyvolil} (viz výše, 2. nešpory) nebo 
+  \upright{Buď zdráva, Maria} (výše, ranní chvály).}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a e f( g) a a \barMin
+    b c d c c b a b( c) a a \barMaior
+    g f g a c b a( g) g \barMin
+    c c d d a a \barMin a( g f) g f d d \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně slav -- me pa -- mát -- ku 
+    bla -- ho -- sla -- ve -- né Pan -- ny Ma -- ri -- e;
+    o -- na za nás o -- ro -- du -- je
+    u na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Benedictus"
+    id = "sob-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a e f( g) a a \barMin
+    b c d c c b a b( c) a a \barMaior
+    g f g a c b a( g) g \barMin
+    c c d d a a \barMin a( g f) g \mark\sipka g d d \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně slav -- me pa -- mát -- ku 
+    bla -- ho -- sla -- ve -- né Pan -- ny Ma -- ri -- e;
+    o -- na za nás o -- ro -- du -- je
+    u na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Benedictus"
+    id = "sob-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( c) a( g) g4. a \barMin 
+    f4 g a( c) b( a) a \barMaior
+    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
+    d e f( g a) a \barMin a( g c) a g f( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi, 
+    Pan -- no Ma -- ri -- a,
+    od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha,
+    me -- zi vše -- mi že -- na -- mi na ze -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Benedictus"
+    id = "sob-aben2"
+    fons = "podle: zde, 1. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f g( a) a \barMin c c c b a b( a) a \barMaior
+    a a g( a b c a) a \barMin g( a) g f e( f e) e \barMaior
+    e e e d( f) g( a) a \barMin a( c) b a( c) a a \barMaior
+    a bes a g f e \barMin d c d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze te -- be, ne -- po -- skvr -- ně -- ná Pan -- no,
+    nám byl vrá -- cen ztra -- ce -- ný ži -- vot,
+    ne -- boť tys po -- ča -- la z_Du -- cha sva -- té -- ho
+    a po -- ro -- di -- la jsi svě -- tu Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Benedictus"
+    id = "sob-aben3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -1182,11 +1286,40 @@ začátkem v jednom oficiu patřily k různým modům.
     Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D" 
     psalmus = "Benedictus"
+    id = "sob-aben4"
     piece = \markup {\sestavTitulek}
-    notitia = "Tuto antifonu jsem původně napsal (v adventu 2010) pro modlitbu uprostřed dne v době adventní a sem jsem ji pouze zkopíroval."
+    fons = "Doba adventní, modlitba uprostřed dne."
+    fial = "fial://advent_antifony.ly#spol-sexta"
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a( c d) f( e) d c d d \barMaior
+    d( f) d d c d c a a g( f) g g a a \barMax
+    a g a c( d) d \barMin d c( d) d d f g f e d( c) \barMaior
+    d d d e( c a) a \barMin g( a) g f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mů -- že vy -- zpí -- vat tvou chvá -- lu,
+    sva -- tá a ne -- po -- skvr -- ně -- ná Pan -- no Ma -- ri -- a?
+    Vždyť skr -- ze te -- be jsme dos -- ta -- li Vy -- ku -- pi -- te -- le,
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Benedictus"
+    id = "sob-aben5"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\italic{Další možností je antifona \upright{Ty jsi sláva Jeruzaléma} - 
+viz společné texty o Panně Marii, ranní chvály, 2. ant.}
