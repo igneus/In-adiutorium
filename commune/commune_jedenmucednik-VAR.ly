@@ -654,8 +654,11 @@
 
 \pageBreak
 
+\markup{Závěr je takový dryjáčnický.}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e( g) g g \barMin a g f f g g \barMaior
     a c d c( d) d( c) \barMin a( g) f d f( g f) f \barFinalis
@@ -759,10 +762,63 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 g a( c) a( c) c \barMin d d d c b a \barMaior
     \mark\sipka a a( b a) b( c) g g \barMin  f g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
+    a pře -- bý -- va -- jí v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 31
+
+\markup\justify{
+Začátek varianty 3 (dosáhli) evokuje pohyb vzhůru, symbolisující mj. lidské úsilí
+o svatost.
+Tato varianta se snaží melodií stejného slova naznačit,
+že ono "\"dosažení\"" je jednak především darem milosti,
+jednak, že v něm má důležité místo sestup
+(viz Bonaventurovo schéma duchovního života 
+z \italic{Itinerarium mentis in Deum,} které má tak rád prof. Pospíšil,
+a Greenovu \italic{Spiritualitu zdola}).
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g c( b g) c( b) g \barMin a a a g f g \barMaior
+    g a c d c \barMin b c a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
+    a pře -- bý -- va -- jí v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g c( b g) c( b) g \barMin a a a g f g \barMaior
+    g a c \mark\sipka d( c) b \barMin a g f g g \barFinalis
   }
   \addlyrics {
     Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
