@@ -58,16 +58,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( a') f f( g) g \barMin g f g g a g( bes) a \barMaior
+    a g a g g g g f e d( c) c( d) d \barFinalis
   }
   \addlyrics {
     Mar -- tin po -- zdvi -- ho -- val o -- či i ru -- ce k_ne -- bi
-    a ne -- ú -- nav --- ně se -- tr -- vá -- val v_mod -- lit -- bě.
+    a ne -- ú -- nav -- ně se -- tr -- vá -- val v_mod -- lit -- bě.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -75,9 +76,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4( d) d \barMin d c d e d c c( d) d \barMaior
+    d d d c b a( b) a a \barMaior
+    f g a a a( c a) g f g a g g \barFinalis
   }
   \addlyrics {
     Mar -- tin, na ze -- mi chu -- dý a skrom -- ný,
@@ -86,8 +89,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -145,7 +148,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f( g) g \barMin g g g g a g bes g a g f \barMaior
+    g g g g f e d( e) d d \barMaior
+    d d \[ f( g \] \[ a g) \] f e( f) d d \barFinalis
   }
   \addlyrics {
     Pa -- ne, jsem -- li do -- sud tvé -- mu li -- du po -- třeb -- ný,
@@ -154,8 +159,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -163,9 +168,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c c( d) c \barMin c c( b) a g g g( a g) \barMaior
+    f g a a( c) g g( f) \barMin g g a( f) f \barFinalis
   }
   \addlyrics {
     Bis -- kup Mar -- tin o -- pus -- til ten -- to svět
@@ -173,8 +179,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
