@@ -180,7 +180,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( f) e d a' g f g e e \barFinalis
+    e4 e e( f) e d g f f g e e \barFinalis
   }
   \addlyrics {
     A -- ni v_stá -- ří mě, Bo -- že, ne -- o -- pouš -- těj.
