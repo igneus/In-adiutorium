@@ -133,6 +133,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d( a') a \barMin 
+    g a f e f g a \mark\sipka g f d d \barFinalis
+  }
+  \addlyrics {
+    Vzhů -- ru, 
+    vy -- stup -- me na Hos -- po -- di -- no -- vu ho -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Iz 2"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -324,9 +344,28 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e( f) e d a' g f g e e \barFinalis
+  }
+  \addlyrics {
+    A -- ni v_stá -- ří mě, Bo -- že, ne -- o -- pouš -- těj.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 71-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek - v master jen krátce, do 5.11.2012}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e( f) e d \mark\sipka g f f g e e \barFinalis
   }
   \addlyrics {
     A -- ni v_stá -- ří mě, Bo -- že, ne -- o -- pouš -- těj.
