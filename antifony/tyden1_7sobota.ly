@@ -72,6 +72,71 @@
   }
 }
 
+\markup\italic{V době adventní a vánoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) e f g a bes a \barMaior
+    g g a g f d d d e( d) c d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 105-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( g a) g a bes a( g a) g \barMaior
+    g g g g f e d d( e d) \barMaior
+    d d( f e) f( g) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a chrá -- nil ho před hříš -- ní -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 105-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d d d d( a' bes) g g( a) a \barMin a g bes g a( g f) e \barMaior
+    d d( e f) e( f) d d e( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
+    a vy -- svo -- bo -- dil svůj lid.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 105-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
