@@ -430,6 +430,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -449,9 +451,51 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f( e) f f g f e \barMaior d c c d d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g f g a( c) c b c a4. a \barMin
+    c4 c c c d c b c c \barMin c b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- bu -- de sou -- dit po -- dle zdá -- ní,
+    a -- le po -- dle spra -- ve -- dl -- nos -- ti a po -- dle prá -- va.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 75"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( c) c b c a4. a \barMaior
     c4 c c c d c b c c \barMin c b c a( g) g \barFinalis
   }
   \addlyrics {
@@ -618,7 +662,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacZelenyII
     \choralniRezim
     a a a b c d c d( e) d \barMaior
     d d( e) c a g g \barFinalis    
@@ -631,6 +675,72 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "a" 
+    psalmus = "Žalm 127"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 d d f e f g a( g f) g \barMaior
+    g a( bes a) g f d( f e) d \barFinalis
+  }
+  \addlyrics {
+    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
+    a chraň na -- še měs -- to.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 127"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 d d f e f g a( g f) g \barMaior
+    g a( bes a) g f d( f) \mark\sipka e( d) \barFinalis
+  }
+  \addlyrics {
+    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
+    a chraň na -- še měs -- to.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 127"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 d d f e f g a( g f) g \barMaior
+    g a( \mark\sipka bes) a g d( f e) d \barFinalis
+  }
+  \addlyrics {
+    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
+    a chraň na -- še měs -- to.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 127"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
