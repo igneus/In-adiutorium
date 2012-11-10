@@ -274,7 +274,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = ""
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -294,7 +294,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -319,7 +319,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -342,7 +342,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -368,7 +368,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -392,7 +392,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -414,7 +414,7 @@
     modus = "III"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -434,7 +434,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -459,7 +459,7 @@
     modus = "I"
     differentia = "a2" 
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -481,7 +481,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     fons = "doba velikonoční, feriální cyklus, čt. 2.t., r.ch., 2. ant.; ubráno aleluja;
     na tomto místě bylo 'čerpat', ale to je, myslím, jen inkonsistence překladu
     a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá"
@@ -507,7 +507,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
