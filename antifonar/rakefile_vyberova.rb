@@ -2,7 +2,52 @@
 # volumes of the "Small/Selective Edition" of the antiphonal
 
 ###############
-# sv. 6:  velikonocni triduum - notovane
+# sv. 1: Narozeni Pane
+
+zalmy_narozeni = []
+noty_narozeni = []
+adresar_narozeni = 'generovane/narozenipane/'
+options_narozeni = $commonoptions+$o_warnmarks
+
+narozeni_splitscores_command = $splitscores_command + " --output-dir #{adresar_narozeni} "
+
+noty_narozeni = {
+  '../vanoce_narozenipane.ly' => 'vden-1ne-a1'
+}.map do |file, sampleid| 
+  # nazev vygenerovaneho souboru s prvni antifonou
+  afn = adresar_narozeni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
+  # zpracovavany soubor s antifonami
+  sfn = file
+  
+  file afn => [sfn] do
+    sh narozeni_splitscores_command + sfn
+  end
+  
+  afn
+end
+
+file "vystup/antifonar_narozenipane.tex" => (["antifonar_narozenipane.lytex", 
+                                              "spolecne_antifonar.ly", 
+                                              "../dilyresponsorii.ly"]
+                                             + zalmy_narozeni
+                                             + noty_narozeni) do |t|
+  sh "lilypond-book --output=vystup --pdf "+t.prerequisites.first
+end
+
+file 'vystup/antifonar_narozenipane.pdf' => ['vystup/antifonar_narozenipane.tex',
+                                             'spolecne.tex', 
+                                             'rubriky.tex'] do |t|
+  chdir 'vystup'
+  2.times { sh 'pdflatex -shell-escape antifonar_narozenipane.tex' }
+  chdir '..'
+end
+
+desc "Nativity of out Lord."
+task :triduum => ['vystup/antifonar_narozenipane.pdf']
+
+###############
+# budouci sv. 2:  Svaty tyden a Velikonocni oktav
+# (zatim jen: velikonocni triduum)
 
 zalmy_triduum = []
 noty_triduum = []
