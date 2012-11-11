@@ -1,6 +1,7 @@
-\version "2.15.40"
+\version "2.16.0"
 
-\include "spolecne.ly"
+\include "spolecne/tiraz.ly"
+\include "spolecne/choral.ly"
 \include "dilyresponsorii.ly"
 
 \header {
@@ -14,6 +15,10 @@ myStaffSize = #16
 
 \paper {
   #(set-paper-size "a6")
+  top-margin = 5\mm
+  bottom-margin = 5\mm
+  left-margin = 5\mm
+  right-margin = 5\mm
   
   % Bezpatkovy font jako v kancionalu
   #(define fonts
