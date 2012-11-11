@@ -13,7 +13,7 @@
     \choralniRezim
     a4 bes a g a f e d \barMin
     a' g f e g a \barMaior
-    a a g f g e f d \barFinalis
+    a a g a g e f d \barFinalis
   }
   \addlyrics {
     U -- na -- ven jsem již vo -- lá -- ním,
@@ -113,10 +113,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b4.( d) \barMin d4 d a b c \barMin c d a c b g4. g \barFinalis
+    a4 b c c b4.( d) \barMaior 
+    d4 d a b c \barMin c d a c b g4. g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je Bůh, my jsme je -- ho lid a stád -- ce je -- ho past -- vy.
+    Hos -- po -- din je Bůh, 
+    my jsme je -- ho lid a stád -- ce je -- ho past -- vy.
   }
   \header {
     quid = "3. ant."
@@ -194,8 +196,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c d e) c b c d d \barMin
-    d d d d e d c b c( a g) g \barFinalis
+    d4( f) e c c d d \barMaior
+    a g a \barMin a c b a g a( g) g \barFinalis
   }
   \addlyrics {
     Vel -- ký je Hos -- po -- din
@@ -204,7 +206,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "d" 
     psalmus = "Žalm 135-I"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
