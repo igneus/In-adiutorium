@@ -95,14 +95,14 @@ choralniRezimKancional = {
 }
 \markup\justify\large{
   Chci zde tuto myšlenku poněkud rozšířit a doplnit
-  ke kancionálu "\"univerzální nešpory\"" pro neděle adventní, postní a velikonoční,
+  ke kancionálu nešpory pro neděle adventní, postní a velikonoční,
   přičemž co možná nejvíce využiji to, co už je v kancionálu
   od Zdeňka Pololáníka (především nápěvy žalmů a kantik).
 }
 
 \bookpart {
   \header {
-    title = "Adventní"
+    title = "1. neděle adventní"
     composer = "" % ne ze bych ty zpevy neslozil, ale staci, ze je to napsano
     % na titulni strance.
   }
