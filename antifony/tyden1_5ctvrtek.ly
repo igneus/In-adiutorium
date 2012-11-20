@@ -11,7 +11,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
+    d4 d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
@@ -74,11 +74,12 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    d4 a' g bes a( g) a4. \barMin a4 bes a4. \barMin
-    a4 f f g f( d) d \barFinalis
+    d4 a' g bes a( g) a \barMaior
+    a4 bes a \barMin a4 f f g f( d) d \barFinalis
   }
   \addlyrics {
-    Pro -- buď se, má du -- še, pro -- buď se, ci -- te -- ro a har -- fo.
+    Pro -- buď se, má du -- še, 
+    pro -- buď se, ci -- te -- ro a har -- fo.
   }
   \header {
     quid = "1. ant."
@@ -93,10 +94,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) a4.( c) \barMin c4 d c c c b c a( g) g \barMin f a g( f) g g4. \barFinalis
+    g4( f g) a4.( c) \barMin 
+    c4 d c c c b c a( g) g \barMin
+    f a g( f) g g \barFinalis
   }
   \addlyrics {
-    Můj lid se na -- sy -- tí mým do -- bro -- di -- ním, pra -- ví Hos -- po -- din.
+    Můj lid 
+    se na -- sy -- tí mým do -- bro -- di -- ním, 
+    pra -- ví Hos -- po -- din.
   }
   \header {
     quid = "2. ant."
@@ -111,7 +116,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a d( b) c c4. \barMin
+    g4 a a a d( b) c c \barMaior
     b4 c d c b a( g) g \barMin
     a f a b a g g \barFinalis
   }
@@ -122,7 +127,7 @@
   }
   \header {
     quid = "3. ant."
-    tonus = "VIII"
+    modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 48"
     id = "rch-ant3"
@@ -137,10 +142,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f d d( g) g4. \barMin a4 c a g a \barMin a a g f e( f) d d \barFinalis
+    f4 g f d d( g) g \barMaior 
+    a4 c a g a \barMin 
+    a a g f e( f) d d \barFinalis
   }
   \addlyrics {
-    O -- te -- vři mé o -- či, ať po -- zo -- ru -- ji 
+    O -- te -- vři mé o -- či, 
+    ať po -- zo -- ru -- ji 
     di -- vy tvé -- ho zá -- ko -- na.
   }
   \header {
@@ -156,7 +164,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d e f( d) d \barMin e f d d \barFinalis
+    d4 d d d d( f e g) f \barMin e d e d \barFinalis
   }
   \addlyrics {
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
@@ -196,8 +204,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g( a) a \barMin a a a g( a) a a c a g( a) a \barMin
-    g a bes( c a4.) a4. f4( e) d d \barFinalis
+    g4 f g( a) a \barMin a a a g( a) a a c a g( a) a \barMaior
+    g a bes( c a) a \barMin f4( e) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, vo -- lal jsem k_to -- bě a 

@@ -138,10 +138,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g g a( f) d d4. \barMin e4. f4 d f d c d d4. \barFinalis
+    d4 f g g a( g f) g f \barMaior
+    f g a f d e d d \barFinalis
   }
   \addlyrics {
-    Bla -- ze těm, kdo krá -- če -- jí v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
+    Bla -- ze těm, kdo krá -- če -- jí 
+    v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
   }
   \header {
     quid = "1. ant."
@@ -198,8 +200,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a f( e) f f4. \barMin
-    f4( g) g g f e d4. d \barFinalis
+    a4 b c d e e d \barMaior
+    c c d b g a a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dal ví -- těz -- ství 
@@ -207,8 +209,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "g" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Žalm 20"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}

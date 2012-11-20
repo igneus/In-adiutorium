@@ -136,8 +136,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a a a g f g( a) a \barMin
-    a a c( d) a a g f g e4. \barFinalis
+    g4 g( a) a a a g f g( a) g \barMaior
+    f e d( a') a a g( a g) f e e \barFinalis
   }
   \addlyrics {
     Vy -- vo -- lil jsem si ces -- tu prav -- dy,
@@ -148,23 +148,24 @@
     differentia = "g" 
     quid = "1. ant."  
     psalmus = "Žalm 119-IV"
-    id = "rch-up1"
+    id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c c c d e d d \barMin c b a a g f g g \barFinalis
+    d4 f e d c e d c d \barMaior
+    f g a g f d e d \barFinalis
   }
   \addlyrics {
     Spo -- lé -- hal jsem na Hos -- po -- di -- na
     a pro -- to jsem ne -- vrá -- vo -- ral.
   }
   \header {
-    modus = "VIII"
-    differentia = "c" 
+    modus = "II"
+    differentia = "D" 
     quid = "2. ant."  
     psalmus = "Žalm 26"
     id = "up-ant2"
@@ -215,8 +216,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b a4.) a4 a g b c b a a4. \barMin
-    c4 b( c) a( g) g4. g4 f a g g4. \barFinalis
+    g4( c b a4.) a4 a g b c b a a \barMaior
+    c4 b( c) a( g) g \barMin g4 f a g g \barFinalis
   }
   \addlyrics {
     S_ná -- mi je Hos -- po -- din zá -- stu -- pů,
