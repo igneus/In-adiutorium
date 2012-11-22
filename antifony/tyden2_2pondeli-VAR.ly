@@ -4,7 +4,7 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\score { \tIIpondeliInvitatorium }
+%\score { \tIIpondeliInvitatorium }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -72,6 +72,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -91,6 +93,155 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
+    \mark\sipka a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
+    \mark\sipka a g( a) f e c d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
+    \mark\sipka a g( bes a) g f e d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
+    a g( bes a) g f \mark\sipka d e( d) \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 1.2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g bes a \barMin 
+    a f d f e d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 e f g( f) e \barMin
+    f g( a bes) a g f g \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "per"     
+    differentia = "" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f) e \barMin
+    f e c e f d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "II"     
+    differentia = "D" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -130,6 +281,8 @@
 
 %\score { \tIIpondeliAntBenedictus }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -151,6 +304,77 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g f e \barMaior
+    f g a g b c a \barMin
+    a g a f d e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, 
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 119-VI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g f e \barMaior
+    f g a g b c a \barMin
+    a g a \mark\sipka g d e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, 
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 119-VI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a g f e \barMaior
+    f g a g b c a \barMin
+    a g a \mark\sipka g f e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, 
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 119-VI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -262,7 +486,8 @@
 
 \pageBreak
 
-tIIpondeliNespAntIII = \score {
+%tIIpondeliNespAntIII = 
+\score {
   \relative c' {
     \choralniRezim
     \key f \major
@@ -287,6 +512,6 @@ tIIpondeliNespAntIII = \score {
   }
 }
 
-\score { \tIIpondeliNespAntIII }
+%\score { \tIIpondeliNespAntIII }
 
 %\score { \tIIpondeliAntMagnificat }
