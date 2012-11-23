@@ -118,7 +118,49 @@
   \relative c' {
     \choralniRezim
     d4 a' g f( g) a \barMin 
+    a g f \mark\sipka e f d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
     \mark\sipka a g( a) f e c d \barFinalis
+  }
+  \addlyrics {
+    Kdy už smím při -- jít 
+    a spa -- třit Bo -- ží tvář?
+  }
+  \header {
+    quid = "1. ant."     
+    modus = "I"     
+    differentia = "D2" 
+    psalmus = "Žalm 42"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 a' g f( g) a \barMin 
+    a g( a) f e \mark\sipka f d \barFinalis
   }
   \addlyrics {
     Kdy už smím při -- jít 
@@ -178,6 +220,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     d4 a' g bes a \barMin 
     a f d f e d \barFinalis
@@ -374,6 +417,28 @@
   }
 }
 
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b a \barMin a b c b d c( b) a \barMin
+    g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 119-VI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -413,10 +478,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( g) a( c) c4. \barMin d4 c b a( b g) g \barMax
     f f g a a a b( a) g4. g \barFinalis
@@ -435,10 +503,30 @@
   }
 }
 
-\pageBreak
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a( g) a( c) c \barMin d4 c b a( b g) g \barMaior
+    f f g a a a b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Krá -- sou vy -- ni -- káš nad lid -- ské sy -- ny,
+    pů -- vab se roz -- lé -- vá po tvých rtech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 45-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a( c) c \barMin d c b a( b) a( g) g \barFinalis
   }
@@ -455,15 +543,58 @@
   }
 }
 
-% 13.10.2012
-% "Krasou vynikas" se mi libi v modu VIII, tak, jak je, a nechci ji menit
-% ani nahrazovat. Antifona ke druhemu dilu zalmu, "Zenich je tady",
-% je v puvodni verzi (vyse) mdla. Napadlo me, ze by nutne nemusela zachovavat
-% zasadu jeden zalm - jeden napev, a spotanne me napadla nasledujici melodie
-% v modu IV. Inspiraci - co do "nalady" - byl byzantsky zpev 
-% "Idou ho nymfios erchetai", diky nemuz jsem si uvedomil, ze evangelni postava
-% "zenicha", jak o ni promlouva Kristus a Jan Krtitel, neni jen typem
-% Krista prichazejiciho ve slave, ale take Krista Velikonoc.
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( c b c d) c \barMaior
+    b c a b a g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy, 
+    jdě -- te mu na -- pro -- ti!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 45-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4( a) g g g( c b c d) c \barMin
+    \mark\sipka b( a g) f a a g g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy, 
+    jdě -- te mu na -- pro -- ti!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 45-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  13.10.2012
+  "\"Krasou vynikas\"" se mi libi v modu VIII, tak, jak je, a nechci ji menit
+  ani nahrazovat. Antifona ke druhemu dilu zalmu, "\"Zenich je tady\"",
+  je v puvodni verzi (vyse) mdla. Napadlo me, ze by nutne nemusela zachovavat
+  zasadu jeden zalm - jeden napev, a spotanne me napadla nasledujici melodie
+  v modu IV. Inspiraci - co do "\"nalady\"" - byl byzantsky zpev 
+  "\"Idou ho nymfios erchetai\"", diky nemuz jsem si uvedomil, ze evangelni postava
+  "\"zenicha\"", jak o ni promlouva Kristus a Jan Krtitel, neni jen typem
+  Krista prichazejiciho ve slave, ale take Krista Velikonoc.
+}
 \score {
   \relative c' {
     \choralniRezim
