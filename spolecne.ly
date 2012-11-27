@@ -20,6 +20,8 @@
 \include "spolecne/nadpisy.ly"
 \include "spolecne/choral.ly"
 
+\include "spolecne/variationes.ly"
+
 
 % oznacuje volitelne aleluja na konci
 
