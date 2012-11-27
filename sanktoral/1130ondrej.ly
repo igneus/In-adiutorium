@@ -33,19 +33,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g d' d d c e d \barMin
+    c c c c c( d c) b a( b) \barMaior
+    g g( a g) f f g g \barFinalis
   }
   \addlyrics {
     On -- dřej o -- bě -- to -- val svůj ži -- vot
     pro ne -- bes -- ké krá -- lov -- ství,
-    a Pán ho mi --- lo -- val.
+    a Pán ho mi -- lo -- val.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -55,7 +57,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d e( f) e \barMin f g f f e( f) d c( d) \barMaior
+    a a( c d) e( f) e d( c) d \barMin e f e c d( e) d d \barFinalis
   }
   \addlyrics {
     On -- dřej po -- znal, že Je -- žíš je Me -- si -- áš,
@@ -63,8 +66,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -78,7 +81,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d( a' g) a( c) a \barMin c c b( a g a) a \barMaior
+    a bes a g( a g f) e \barMin f f d f e e \barMax
+    d d d( f) g f( e d) \barMin c d e f d d \barFinalis
   }
   \addlyrics {
     Buď po -- zdra -- ven, sva -- tý kří -- ži,
@@ -87,8 +92,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -98,9 +103,10 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g g( c b) a( g) a \barMin g a a f e d \barMaior
+    f g a g g \barFinalis
   }
   \addlyrics {
     Pán u -- vi -- děl Pet -- ra a On -- dře -- je
@@ -108,8 +114,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -117,9 +123,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c b( a) b \barMaior
+    g a b g4.( e) \barMin
+    f4 g a a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- te za mnou;
@@ -127,10 +135,11 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 126"
     id = ""
+    fial="fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-rch-ben"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -161,10 +170,27 @@
   Responsorium ze společných textů o apoštolech \upright{Vypravujte mezi všemi národy.}
 }
 
+% ceske zneni antifony se mi moc nelibi. Tu je latinsky original
+% pro pripad, ze bych se pustil do uprav textu.
+
+% Andréas, 
+% Christi fámulus, 
+% dignus Dei apóstolus, 
+% germánus Petri 
+% et in passióne sócius.
+
+% breviar OP ma otroctejsi preklad:
+
+% Kristův služebník, apoštol Ondřej, 
+% byl rodným bratrem apoštola Petra 
+% a stal se jeho druhem v utrpení.
+
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g c b a \barMin c c g a( g) f \barMaior
+    g a b c( d) c b c b g a a \barMaior
+    a g( f e) e \barMin 
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
