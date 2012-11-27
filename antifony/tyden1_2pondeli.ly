@@ -111,7 +111,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c d( c) c \barMin b( c) a g f( g) g \barFinalis
+    c4 a c b( a) g \barMin a f a g g \barFinalis
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -135,8 +135,8 @@
     \choralniRezim
     \key f \major
     a4 c bes a g4. a \barMaior
-    a4 g a bes c bes( a) a \barMin
-    a4 a( d,) e( f) g f e d \barFinalis
+    a4 g a bes c bes( a) a \barMaior
+    a4 g( a g) f e d e d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
@@ -215,11 +215,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c( d) d c d4. \barMin
-    d4 c a c( d) d \barMaior
-    a4 c d d d d b c a( g) g \barFinalis
+    f4 g a g f bes a g a g \barMaior
+    g g f e d d g( a bes) a g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
@@ -227,8 +226,8 @@
   }
   \header {
     quid = "2. ant." 
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 15(14)"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}

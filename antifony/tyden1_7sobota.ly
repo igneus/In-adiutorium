@@ -160,8 +160,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a b c4. c \barMin c4 b( c) a( g) g( a g) g \barMin
-    a b c( a) g( f g4.) g4. \barFinalis
+    g4 f g a b c4. c \barMin c4 d c b( g) a \barMaior
+    g f a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
@@ -180,15 +180,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d f e d( c) c \barMin c d c( b g) g4. \barFinalis
+    g4 c d b c a \barMin g f f( g) g \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na, vši -- chni li -- dé.
   }
   \header {
     quid = "3. ant."  
-    modus = "VII"
-    differentia = "c" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 117"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -218,17 +218,17 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d d c a4.( g) \barMin b4 c c a4. g4 f g g \barFinalis
+    d4 d e f d( c d) \barMin d f g f e d e d \barFinalis
   }
   \addlyrics {
     Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
   }
   \header {
     quid = "2. ant."  
-    modus = "VIII"
-    differentia = "c" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 34-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -236,17 +236,17 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c( d c) c \barMin b c a g g( a) g \barFinalis
+    d4 f e( d) c \barMin d f f e f d \barFinalis
   }
   \addlyrics {
     Hle -- dej po -- koj a u -- si -- luj o něj.
   }
   \header {
     quid = "3. ant."  
-    modus = "VIII"
-    differentia = "c" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 34-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
