@@ -14,18 +14,44 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4( d) c \barMin b c d c b a( g) a \barMaior
+    a g a a c a \barMin
+    c d e c b a g a a \barFinalis
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
-    byl me -- zi prv -- ní -- mi, kte -- ří ná -- sle -- do -- va -- li Pá -- na.
+    byl me -- zi prv -- ní -- mi, 
+    kte -- ří ná -- sle -- do -- va -- li Pá -- na.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 63"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g a) g \barMin f g a g f g f \barMaior
+    g g a f e d \barMin
+    f f g f e d c d d \barFinalis
+  }
+  \addlyrics {
+    On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
+    byl me -- zi prv -- ní -- mi, 
+    kte -- ří ná -- sle -- do -- va -- li Pá -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
