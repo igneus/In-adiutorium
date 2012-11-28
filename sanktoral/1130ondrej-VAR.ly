@@ -32,6 +32,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -53,6 +55,30 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g d' d d \mark\sipka c d c \barMin
+    b c d e d c g \barMaior
+    g g( a g) f f g g \barFinalis
+  }
+  \addlyrics {
+    On -- dřej o -- bě -- to -- val svůj ži -- vot
+    pro ne -- bes -- ké krá -- lov -- ství,
+    a Pán ho mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Dan 3-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -210,6 +236,75 @@
     quid = "ant. k Magnificat"
     modus = ""
     differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 g a c c \barMin d c d c( b) a \barMaior
+    g f g g( a) g a b c c c( d c) b \barMaior
+    
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g g \barMin 
+    
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 f f( a) g f \barMin g e f d( c) c \barMaior
+    c d e f( g) f g a bes a g( a) a \barMaior
+    a bes bes a g a g e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+    % text podle dominikanskeho breviare
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
