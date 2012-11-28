@@ -1,4 +1,9 @@
-% prikazy specificke pro branch 'variationes':
+% nastaveni a prikazy specificke pro branch 'variationes':
+
+\paper {
+  ragged-bottom=##t
+  ragged-last-bottom=##t
+}
 
 % obarvi notovou osnovu
 % (to se hodi jako zvyraznovac upozornujici na urcite noty
