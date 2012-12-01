@@ -313,12 +313,38 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    f4 f f( a) g f \barMin g e f d( c) c \barMaior
+    c d e f( g) f g a bes a g( a) a \barMaior
+    a bes bes a g a g e^\markup{\cerveneX překlep} d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+    % text podle dominikanskeho breviare
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 f f( a) g f \barMin g e f d( c) c \barMaior
     c d e f( g) f g a bes a g( a) a \barMaior
-    a bes bes a g a g e d c( d) d \barFinalis
+    a bes bes a g a g f^\mark\sipka e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
