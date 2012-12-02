@@ -194,7 +194,7 @@
     \key f \major
     f4 f f( a) g f \barMin g e f d( c) c \barMaior
     c d e f( g) f g a bes a g( a) a \barMaior
-    a bes bes a g a g e d c( d) d \barFinalis
+    a bes bes a g a g f e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
