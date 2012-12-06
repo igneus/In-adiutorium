@@ -39,6 +39,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -56,6 +58,26 @@
     id = "nei1"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    d4 d c f f e d d \barMin f g f e( d e) d \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se na -- de mnou, Bo -- že, a slyš mou pros -- bu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 1. antifona"
+    id = "nei1"
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
