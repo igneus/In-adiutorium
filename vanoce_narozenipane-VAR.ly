@@ -884,6 +884,26 @@
     }
   }
   
+  \score {
+    \relative c' {
+      \choralniRezim
+      f g g a g f d e d \barMaior
+      f f e d c( f) d d \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná: Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály"}}
