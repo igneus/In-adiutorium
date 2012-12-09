@@ -131,7 +131,7 @@
     \choralniRezim
     d4 d d( a') g a g f g f e e \barMaior
     d d d( a') a a g a c b a a( b) a \barMaior
-    a a \[ a( c b a \] \[ g a g f e d) \] c( d) \barMin d( c) d f e d( e d) d \barFinalis 
+    a a \[ a( c b a \] \[ g a g f \] \[ e d) \] c( d) \barMin d( c) d f e d( e d) d \barFinalis 
   }
   \addlyrics {
     Kaž -- dé ú -- do -- lí ať je za -- sy -- pá -- no,
@@ -150,7 +150,7 @@
     nabobtnání slova 'člověk' neodpovídá jeho významu v celku antifony -
     ale melodie se mi líbí tak, že si tento prohřešek dovolím...;
     v budoucnu ale stojí za to zkusit pro antifonu najít nápěv srovnatelně
-    krásnný a přitom vlastní"
+    krásný a přitom vlastní"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
