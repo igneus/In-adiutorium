@@ -822,6 +822,7 @@
   
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d d( e c4.) c a4 c c( d) d \barMaior
       d f( e) f e4.( d4 c) \barMin
@@ -893,6 +894,74 @@
     \addlyrics {
       Da -- jí mu jmé -- no E -- ma -- nu -- el,
       to zna -- me -- ná: Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 5
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g g( c) c a g a( g) g \barMaior
+      g f e d f( g) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( c) c a g a( g) g \barMaior
+      \mark\sipka b c d c b( g) a g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 6
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g( a) a bes( c d) c( a) b!( g) a \barMaior
+      a f e d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
     }
     \header {
       quid = "ant. ke kantikům vigilie"
