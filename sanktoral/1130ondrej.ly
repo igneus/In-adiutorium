@@ -16,16 +16,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( g a) g \barMin f g a g f g f \barMaior
+    g g a f e d \barMin
+    f f g f e d c d d \barFinalis
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
-    byl me -- zi prv -- ní -- mi, kte -- ří ná -- sle -- do -- va -- li Pá -- na.
+    byl me -- zi prv -- ní -- mi, 
+    kte -- ří ná -- sle -- do -- va -- li Pá -- na.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -186,21 +189,24 @@
 % a stal se jeho druhem v utrpení.
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g c b a \barMin c c g a( g) f \barMaior
-    g a b c( d) c b c b g a a \barMaior
-    a g( f e) e \barMin 
+    \key f \major
+    f4 f f( a) g f \barMin g e f d( c) c \barMaior
+    c d e f( g) f g a bes a g( a) a \barMaior
+    a bes bes a g a g f e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-    a o -- ba pod -- stou -- pi -- li smrt na kří -- ži.
+    
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+    % text podle dominikanskeho breviare
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
