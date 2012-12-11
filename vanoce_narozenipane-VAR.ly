@@ -974,11 +974,14 @@
   }
   
   \pageBreak
+  
+  % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 a a g a a b c a( g) g \barMax
       a a a a( c) \barMin c( d) a a g( a) a \barMax
@@ -1004,6 +1007,37 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 a a g a a b c a( g) g \barMaior
+      a a a a( c) \barMin c( d) a a g( a) a \barMax
+      d4 d d d c( b) c( d) d \barMaior
+      d f d d f( e) d( c) d \barMaior
+      d d b( c) b a b( g) g \barMaior
+      b c a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ko -- ho jste, pas -- tý -- ři, u -- vi -- dě -- li?
+      Řek -- ně -- te nám: Kdo při -- šel na svět?
+      Vi -- dě -- li jsme dě -- ťát -- ko
+      a zá -- stu -- py an -- dě -- lů,
+      kte -- ří chvá -- li -- li Bo -- ha.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d" 
+      psalmus = "Žalm 63"
+      id = "vden-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \pageBreak
 
   \score {
     \relative c'' {
@@ -1029,9 +1063,12 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \pageBreak
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 e f f e f f( g) g \barMin
       f( e) d e c4.( d) \barMin
@@ -1055,6 +1092,61 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 e f f e f f( g) g \barMin
+      f( e) d e c4( d) \barMaior
+      d4 f d g( f e4) e \barMin
+      e4( f) d( c) d \barMaior
+      c f e d \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě se nám na -- ro -- di -- lo,
+      syn je nám dán,
+      a do -- stal jmé -- no:
+      moc -- ný Bůh.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = "Žalm 149"
+      id = "vden-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 e f f e f f( g) g \barMin
+      f( e) d e c( d) \barMaior
+      \mark\sipka d4 e d d( c a) a \barMin
+      c c( d) d \barMaior
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě se nám na -- ro -- di -- lo,
+      syn je nám dán,
+      a do -- stal jmé -- no:
+      moc -- ný Bůh.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = "Žalm 149"
+      id = "vden-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \pageBreak
 
   \label #'respHospodinUvedl
   \score {
