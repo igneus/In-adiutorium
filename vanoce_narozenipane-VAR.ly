@@ -999,7 +999,7 @@
       quid = "1. ant."
       modus = "VII"
       differentia = "d" 
-      psalmus = ""
+      psalmus = "Žalm 63"
       id = "vden-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1024,7 +1024,7 @@
       quid = "2. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Dan 3-III"
       id = "vden-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1050,12 +1050,13 @@
       quid = "3. ant."
       modus = "II"
       differentia = "D" 
-      psalmus = ""
+      psalmus = "Žalm 149"
       id = "vden-rch-a3"
       piece = \markup {\sestavTitulek}
     }
   }
 
+  \label #'respHospodinUvedl
   \score {
     \relative c' {
       \choralniRezim
@@ -1081,7 +1082,9 @@
     }
     \header {
       id = "narozeni-rch-resp"
-      piece = "responsorium - VI"
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -1099,12 +1102,12 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "VII"
       differentia = "c" 
       psalmus = "Benedictus"
       id = "vden-rch-aben"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -1124,12 +1127,12 @@
       kte -- rá o něm sly -- še -- li.
     }
     \header {
-      quid = "ant."
+      quid = "ant. dopoledne"
       modus = "I"
       differentia = "f" 
       psalmus = "dopoledne"
       id = "vden-atercie"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -1146,12 +1149,12 @@
       a roz -- va -- žo -- va -- la o tom.
     }
     \header {
-      quid = "ant."
+      quid = "ant. v poledne"
       modus = "VII"
       differentia = "a" 
       psalmus = "v poledne"
       id = "vden-asexta"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -1167,12 +1170,12 @@
       kte -- rou jsi při -- pra -- vil pro všech -- ny ná -- ro -- dy.
     }
     \header {
-      quid = "ant."
+      quid = "ant. odpoledne"
       modus = "I"
       differentia = "D" 
       psalmus = "odpoledne"
       id = "vden-anona"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -1181,11 +1184,6 @@
   \score {
     \relative c'' {
       \choralniRezim
-      
-      % melodie postavena na 1. ant 2. nespor nedele 4. tydne
-      % zaltare - 9.10.2011
-      % (obe antifony maji velkou cast textu spolecnou, i do budoucna
-      % by mohlo byt vhodne zachovat podobnost melodie)
       
       % prevzate:
       a4 a a g( f) g( a) a g a c( d) d d \barMin
@@ -1203,8 +1201,10 @@
       quid = "1. ant."
       modus = "VII"
       differentia = "a" 
-      psalmus = ""
+      psalmus = "Žalm 110"
       id = "vden-2ne-a1"
+      fons = "prvni cast z 1. ant 2. nespor nedele 4. tydne zaltare"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1223,7 +1223,7 @@
       quid = "2. ant."
       modus = "I"
       differentia = "f" 
-      psalmus = ""
+      psalmus = "Žalm 130"
       id = "vden-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1247,12 +1247,13 @@
       quid = "3. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Kol 1"
       id = "vden-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
 
+  \label #'respSlovoSeStalo
   \score {
     \relative c' {
       \choralniRezim
@@ -1279,7 +1280,9 @@
     }
     \header {
       id = "narozeni-2ne-resp"
-      piece = "responsorium - VI"
+      quid = "resp."
+      modus = "VIII"
+      piece = \markup\sestavTitulekResp
     }
   }
   
@@ -1311,12 +1314,12 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "vden-2ne-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
@@ -1328,7 +1331,7 @@
   
   \markup {\nadpisDen {svátek Svaté Rodiny}}
   
-  \markup\justify {Následují antifony k Benedictus a Magnificat
+  \markup\justify\huge {!!! Následují antifony k Benedictus a Magnificat
   pro rok s nedělním cyklem B.}
   
   \markup {\nadpisHodinka {"1. nešpory"}}
@@ -1351,7 +1354,7 @@
       quid = "1. ant."
       modus = "I"
       differentia = "g" 
-      psalmus = ""
+      psalmus = "Žalm 113"
       id = "svrodiny-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1385,7 +1388,7 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "b" 
-      psalmus = ""
+      psalmus = "Žalm 147-II"
       id = "svrodiny-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1409,13 +1412,16 @@
       quid = "3. ant."
       modus = "I"
       differentia = "a" 
-      psalmus = ""
+      psalmus = "Ef 1"
       id = "svrodiny-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }
   
-  \markup {Responsorium ze slavnosti Narození Páně.}
+  \markup\italic{
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
+  }
 
   \score {
     \relative c' {
@@ -1428,12 +1434,12 @@
       a -- by ho před -- sta -- vi -- li Pá -- nu.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "svrodiny-1ne-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1463,7 +1469,7 @@
       differentia = "E" 
       psalmus = ""
       id = "svrodiny-invit"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -1485,7 +1491,7 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Žalm 63"
       id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1508,7 +1514,7 @@
       quid = "2. ant."
       modus = "IV"
       differentia = "E" 
-      psalmus = ""
+      psalmus = "Dan 3-III"
       id = "svrodiny-rch-a2"
       piece = \markup {\sestavTitulek}
       fons = "Doslova - z tohoto materiálu, tento den, 2. nešpory, k Magnificat"
@@ -1533,7 +1539,7 @@
       quid = "3. ant."
       modus = "I"
       differentia = "f" 
-      psalmus = ""
+      psalmus = "Žalm 149"
       piece = \markup {\sestavTitulek}
       fons = "Kromě počátku z: slavnost Narození Páně, modlitba uprostřed dne - dopoledne"
       fial = "fial://vanoce_narozenipane.ly#vden-atercie"
@@ -1566,17 +1572,14 @@
       Slá -- va Ot -- ci i Sy -- nu_* i Du -- chu sva -- té -- mu.
     }
     \header {
-      piece = "responsorium - III"
+      quid = "resp."
+      modus = "III"
+      piece = \markup\sestavTitulekResp
       id = "svrodiny-rch-resp"
       fons = "Kromě verše melodie i text viz doba postní, neděle, ranní chvály"
       fial = "fial://pust_responsoria.ly#ne-rch"
     }
   }
-  
-  \markup\justify {Následující antifona se při zachování významu
-  textem mírně liší od té, která je uvedena v breviáři -
-  sáhl jsem totiž po textu i nápěvu textově velice podobné
-  antifony k modlitbě uprostřed dne v době vánoční. (Viz výše.)}
   
   \score {
     \relative c' {
@@ -1589,17 +1592,22 @@
     }
     \addlyrics {
       Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      % v breviari zde jen "Josef a Maria"
+      
       by -- li pl -- ni ú -- di -- vu 
       nad slo -- vy, kte -- rá o něm sly -- še -- li.
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "I"
       differentia = "f" 
       psalmus = "Benedictus"
       id = "svrodiny-rch-aben"
-      piece = \markup {\sestavTitulek}
+      fons = "melodie podle: Narození Páně, ant. v poledne; 
+      proto zde také košatější text než je v breviáři"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?upraveno"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1626,7 +1634,7 @@
       quid = "1. ant."
       modus = "I"
       differentia = "a" 
-      psalmus = ""
+      psalmus = "Žalm 122"
       id = "svrodiny-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1648,7 +1656,7 @@
       quid = "2. ant."
       modus = "IV"
       differentia = "g" 
-      psalmus = ""
+      psalmus = "Žalm 127"
       id = "svrodiny-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1670,7 +1678,7 @@
       quid = "3. ant."
       modus = "VII"
       differentia = "d" 
-      psalmus = ""
+      psalmus = "Ef 1"
       id = "svrodiny-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1703,7 +1711,9 @@
       \textRespDoxologie
     }
     \header {
-      piece = "responsorium - VI"
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
       id = "svrodiny-2ne-resp"
     }
   }
@@ -1722,18 +1732,19 @@
       a mi -- lost Bo -- ží by -- la s_ním.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
       id = "svrodiny-2ne-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
-  \markup {\nadpisDen {26. prosince}}
+  \pageBreak % svatek Svate Rodiny ma vic stranek, prijde mi
+  % tedy pro prehlednost dobre, aby dalsi den zacinal na nove
   
-  \markup {(Malá odchylka od textu breviáře:)}
+  \markup {\nadpisDen {26. prosince}}
   
   \score {
     \relative c'' {
@@ -1752,16 +1763,18 @@
       Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
       a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
       tvé vše -- moc -- né Slo -- vo, Bo -- že,
-      se -- stou -- pi -- lo ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      se -- stou -- pi -- lo 
+      % v breviari neni "ze sveho", ale proste "z"
+      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "I"
       differentia = "g" 
       psalmus = "Magnificat"
       id = "26-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1788,20 +1801,16 @@
       pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "c" 
       psalmus = "Magnificat"
       id = "27-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
     
   \markup {\nadpisDen {28. prosince}}
-  
-  \markup\justify {(V následující antifoně jsem si dovolil úpravu
-  konce textu, která při zachování smyslu odstraňuje nelibě znějící
-  pseudorým.)}
   
   \score {
     \relative c' {
@@ -1824,14 +1833,15 @@
       
       vši -- chni se klaň -- me to -- mu,
       kte -- rý při -- šel, a -- by nás spa -- sil.
+      % v breviari je "ktery nas prisel spasit", coz vytvari neliby pseudorym.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnigicat"
       modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "28-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1852,12 +1862,12 @@
       jak nám to Pán o -- zná -- mil.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "IV alt"
       differentia = "A" 
       psalmus = "Benedictus"
       id = "29-aben"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1885,12 +1895,12 @@
       do ne -- bes -- ké -- ho krá -- lov -- ství.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "29-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1919,12 +1929,13 @@
       ce -- lá ze -- mě je pl -- ná je -- ho slá -- vy.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "III"
       differentia = "g" 
       psalmus = "Benedictus"
       id = "30-aben"
-      piece = \markup {\sestavTitulek}
+      fons = "'Svaty...' je hudebni citat z choralniho Te Deum"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1947,12 +1958,12 @@
       kdo se k_to -- bě u -- tí -- ka -- jí.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
       id = "30-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -1979,22 +1990,21 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
       id = "31-aben"
       fons = "Druha cast je melodicky i textove shodna s antifonou k Benedictus ze slavnosti Narozeni Pane."
       fial = "fial://vanoce_narozenipane.ly#vden-aben"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
   \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
   
-  \markup {Responsoria jsou jako ze slavnosti Narození Páně (viz breviář).}
-
   \markup {\nadpisHodinka {"1. nešpory"}}
+  \label #'slavMatkyBoziNesporyI
 
   \score {
     \relative c'' {
@@ -2023,7 +2033,7 @@
       quid = "1. ant."
       modus = "I"
       differentia = "a" 
-      psalmus = ""
+      psalmus = "Žalm 113"
       id = "bohorodicka-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -2053,7 +2063,7 @@
       quid = "2. ant."
       modus = "III"
       differentia = "b" 
-      psalmus = ""
+      psalmus = "Žalm 147-II"
       id = "bohorodicka-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -2087,10 +2097,15 @@
       quid = "3. ant."
       modus = "IV alt"
       differentia = "A" 
-      psalmus = ""
+      psalmus = "Ef 1"
       id = "bohorodicka-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
+  }
+  
+  \markup\italic{
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
   }
 
   \score {
@@ -2119,12 +2134,12 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "bohorodicka-1ne-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -2151,7 +2166,7 @@
       differentia = "D" 
       psalmus = ""
       id = "bohorodicka-invit"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
       fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
     }
   }
@@ -2181,7 +2196,7 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Žalm 63"
       id = "bohorodicka-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -2217,7 +2232,7 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "b" 
-      psalmus = ""
+      psalmus = "Dan 3-III"
       id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -2254,10 +2269,15 @@
       quid = "3. ant."
       modus = "VII"
       differentia = "d" 
-      psalmus = ""
+      psalmus = "Žalm 149"
       id = "bohorodicka-rch-a3"
       piece = \markup {\sestavTitulek}
     }
+  }
+  
+  \markup\italic{
+    Responsorium \upright{Hospodin uvedl ve známost svou spásu} ze slavnosti Narození Páně,
+    s. \page-ref #'respHospodinUvedl "0" "?" .
   }
   
   \score {
@@ -2279,18 +2299,24 @@
       při -- jal na -- še lid -- ství.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "VII"
       differentia = "a" 
       psalmus = "Benedictus"
       id = "bohorodicka-rch-aben"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
   \markup {\nadpisHodinka {"2. nešpory"}}
   
-  \markup {Antifony k žalmům jako v 1. nešporách.}
+  \markup\justify\italic{
+    Antifony k žalmům jako v 1. nešporách,
+    s. \page-ref #'slavMatkyBoziNesporyI "00" "?" ,
+    s nimi žalmy 122, 127 a kantikum Ef 1.
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
+  }
   
   \score {
     \relative c' {
@@ -2315,12 +2341,12 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
       id = "bohorodicka-2ne-amag"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
