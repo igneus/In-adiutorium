@@ -75,7 +75,8 @@
       piece = \markup {\sestavTitulek}
     }
   }
-
+  
+  \label #'respDnesPoznate
   \score {
     \relative c'' {
       \choralniRezim
@@ -385,6 +386,7 @@
     }
   }
 
+  \label #'respHospodinUvedl
   \score {
     \relative c' {
       \choralniRezim
@@ -581,6 +583,7 @@
     }
   }
 
+  \label #'respSlovoSeStalo
   \score {
     \relative c' {
       \choralniRezim
@@ -658,7 +661,7 @@
   
   \markup {\nadpisDen {svátek Svaté Rodiny}}
   
-  \markup\justify {Následují antifony k Benedictus a Magnificat
+  \markup\justify\huge {!!! Následují antifony k Benedictus a Magnificat
   pro rok s nedělním cyklem B.}
   
   \markup {\nadpisHodinka {"1. nešpory"}}
@@ -745,7 +748,10 @@
     }
   }
   
-  \markup {Responsorium ze slavnosti Narození Páně.}
+  \markup\italic{
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
+  }
 
   \score {
     \relative c' {
@@ -905,11 +911,6 @@
     }
   }
   
-  \markup\justify {Následující antifona se při zachování významu
-  textem mírně liší od té, která je uvedena v breviáři -
-  sáhl jsem totiž po textu i nápěvu textově velice podobné
-  antifony k modlitbě uprostřed dne v době vánoční. (Viz výše.)}
-  
   \score {
     \relative c' {
       \choralniRezim
@@ -921,6 +922,8 @@
     }
     \addlyrics {
       Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      % v breviari zde jen "Josef a Maria"
+      
       by -- li pl -- ni ú -- di -- vu 
       nad slo -- vy, kte -- rá o něm sly -- še -- li.
       A -- le -- lu -- ja.
@@ -931,6 +934,9 @@
       differentia = "f" 
       psalmus = "Benedictus"
       id = "svrodiny-rch-aben"
+      fons = "melodie podle: Narození Páně, ant. v poledne; 
+      proto zde také košatější text než je v breviáři"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?upraveno"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1070,8 +1076,6 @@
   
   \markup {\nadpisDen {26. prosince}}
   
-  \markup {(Malá odchylka od textu breviáře:)}
-  
   \score {
     \relative c'' {
       \choralniRezim
@@ -1089,7 +1093,9 @@
       Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
       a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
       tvé vše -- moc -- né Slo -- vo, Bo -- že,
-      se -- stou -- pi -- lo ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      se -- stou -- pi -- lo 
+      % v breviari neni "ze sveho", ale proste "z"
+      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
       A -- le -- lu -- ja.
     }
     \header {
@@ -1136,10 +1142,6 @@
     
   \markup {\nadpisDen {28. prosince}}
   
-  \markup\justify {(V následující antifoně jsem si dovolil úpravu
-  konce textu, která při zachování smyslu odstraňuje nelibě znějící
-  pseudorým.)}
-  
   \score {
     \relative c' {
       \choralniRezim
@@ -1161,6 +1163,7 @@
       
       vši -- chni se klaň -- me to -- mu,
       kte -- rý při -- šel, a -- by nás spa -- sil.
+      % v breviari je "ktery nas prisel spasit", coz vytvari neliby pseudorym.
     }
     \header {
       quid = "ant. k Magnigicat"
@@ -1261,6 +1264,7 @@
       differentia = "g" 
       psalmus = "Benedictus"
       id = "30-aben"
+      fons = "'Svaty...' je hudebni citat z choralniho Te Deum"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1329,9 +1333,8 @@
 
   \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
   
-  \markup {Responsoria jsou jako ze slavnosti Narození Páně (viz breviář).}
-
   \markup {\nadpisHodinka {"1. nešpory"}}
+  \label #'slavMatkyBoziNesporyI
 
   \score {
     \relative c'' {
@@ -1428,6 +1431,11 @@
       id = "bohorodicka-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
+  }
+  
+  \markup\italic{
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
   }
 
   \score {
@@ -1597,6 +1605,11 @@
     }
   }
   
+  \markup\italic{
+    Responsorium \upright{Hospodin uvedl ve známost svou spásu} ze slavnosti Narození Páně,
+    s. \page-ref #'respHospodinUvedl "0" "?" .
+  }
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -1627,7 +1640,13 @@
   
   \markup {\nadpisHodinka {"2. nešpory"}}
   
-  \markup {Antifony k žalmům jako v 1. nešporách.}
+  \markup\justify\italic{
+    Antifony k žalmům jako v 1. nešporách,
+    s. \page-ref #'slavMatkyBoziNesporyI "00" "?" ,
+    s nimi žalmy 122, 127 a kantikum Ef 1.
+    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    s. \page-ref #'respSlovoSeStalo "0" "?" .
+  }
   
   \score {
     \relative c' {
