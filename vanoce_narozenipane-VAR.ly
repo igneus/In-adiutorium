@@ -685,6 +685,91 @@
     }
   }
   
+  \score {
+    \relative c' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      d c d d( f e) f( g f) e( c) d \barMaior
+      d( c) d f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( c a b) c c d( c b) a g a \barMaior
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f d g f) d( e d) \barMin d d( c a) d( e) d d \barMaior
+      f( d e d c) c( d) \barMin e f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny "podle písně"
+  
+  \score {
+    \relative c' {
+      \cadenzaOn
+      
+      f4 f8( g) a4 b c c c \barMaior
+      d8( c b c) a4 \barMin
+      g8 a f4 f \barFinalis
+    }
+    \addlyrics {
+      Na -- ro -- dil se Kris -- tus Pán,
+      pojď -- me, 
+      kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "V"
+      differentia = "a" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba se čtením"}}
