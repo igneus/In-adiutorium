@@ -1273,12 +1273,39 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g f g g a a \barMin
       c c c c d b c b( a g) g \barMax
       f f g a( c) b( a) a \barMin
       b( c) a a g( f g) g \barMax
       c( b c) a( g) g( a g) g \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl pas -- tý -- řům:
+      Zvěs -- tu -- ji vám ve -- li -- kou ra -- dost,
+      dnes se vám na -- ro -- dil Spa -- si -- tel svě -- ta.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Dan 3-III"
+      id = "vden-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g f g g a a \barMin
+      c c c c d b c b( a g) g \barMax
+      f f g a( c) b( a) a \barMin
+      b( c) a a \mark\sipka g( f) g \barMax
+      \mark\sipka c b( c) a( g) g \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl pas -- tý -- řům:
@@ -1411,9 +1438,12 @@
       piece = \markup\sestavTitulekResp
     }
   }
+  
+  \pageBreak
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4( d) d f e d e c( d) d \barMax
       d c b a b c b( d) d \barMin
@@ -1434,11 +1464,38 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      g f( a) g g \barFinalis
+    }
+    \addlyrics {
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c" 
+      psalmus = "Benedictus"
+      id = "vden-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       f4( g) g g a bes a g a f g a a \barMin
@@ -1459,9 +1516,84 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4( g) g g a bes a g \mark\sipka f g g a g \barMaior
+      f f e c c( d) d d \barMin
+      a bes a a a g f g d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "f" 
+      psalmus = "dopoledne"
+      id = "vden-atercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 2
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4 f f g a g f d f f e d \barMaior
+      d d c d f g a \barMin
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "f" 
+      psalmus = "dopoledne"
+      id = "vden-atercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      f4 f f g a g f d f f e d \barMaior
+      d d c d f g \mark\sipka g \barMin
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "f" 
+      psalmus = "dopoledne"
+      id = "vden-atercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a c b c d d c( b) b \barMin
       d d d d( c d) e( f) d c c d d \barMin
@@ -1481,6 +1613,55 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup\nadpisSkupiny 2
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d c d e d c d d \barMaior
+      f f f e f g f d d d \barMaior
+      d c d f e c d d \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+      vše -- chno, co vy -- prá -- vě -- li pas -- tý -- ři,
+      a roz -- va -- žo -- va -- la o tom.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "II"
+      differentia = "D" 
+      psalmus = "v poledne"
+      id = "vden-asexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d c d e d c d d \barMaior
+      f f f e f g f d d d \barMaior
+      d \mark\sipka e d c a c d d  \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+      vše -- chno, co vy -- prá -- vě -- li pas -- tý -- ři,
+      a roz -- va -- žo -- va -- la o tom.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "II"
+      differentia = "D" 
+      psalmus = "v poledne"
+      id = "vden-asexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
 
   \score {
     \relative c' {
@@ -1502,11 +1683,14 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       
       % prevzate:
@@ -1532,6 +1716,37 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      
+      % prevzate:
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d4( e c4.) c d4 c b a( g) g \barMax
+      
+      % novy kousek:
+      a( d) \mark\sipka d c b c c a( g) g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout 
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a" 
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fons = "prvni cast z 1. ant 2. nespor nedele 4. tydne zaltare"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \pageBreak
 
   \score {
     \relative c' {
@@ -1552,9 +1767,32 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a a a bes g a4. g \barMin
+      f4 f g a a a g \mark\sipka e f d \barFinalis
+    }
+    \addlyrics {
+      U Hos -- po -- di -- na je sli -- to -- vá -- ní,
+      hoj -- né je u ně -- ho vy -- kou -- pe -- ní.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "f" 
+      psalmus = "Žalm 130"
+      id = "vden-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \pageBreak
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g f g a( c) c \barMin
       c c d b c a4.( g) \barMax
@@ -1576,6 +1814,59 @@
       piece = \markup {\sestavTitulek}
     }
   }
+  
+  \markup\nadpisSkupiny 2
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a a f e d( e) d \barMin
+      a' a c b a b( a) \barMaior
+      a g c b g a \barMin
+      g g f e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Na po -- čát -- ku by -- lo Slo -- vo,
+      a to Slo -- vo byl Bůh;
+      Bůh se nám na -- ro -- dil 
+      ja -- ko Spa -- si -- tel svě -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = "Kol 1"
+      id = "vden-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a a f e d( e) d \barMin
+      a' a c b a b( a) \barMaior
+      a g c \mark\sipka b( g) a a \barMin
+      g g \mark\sipka g a f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Na po -- čát -- ku by -- lo Slo -- vo,
+      a to Slo -- vo byl Bůh;
+      Bůh se nám na -- ro -- dil 
+      ja -- ko Spa -- si -- tel svě -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = "Kol 1"
+      id = "vden-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \pageBreak
 
   \label #'respSlovoSeStalo
   \score {
