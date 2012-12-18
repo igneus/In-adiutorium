@@ -1302,9 +1302,9 @@
       \zvyraznovacModry
       \choralniRezim
       g4 g f g g a a \barMin
-      c c c c d b c b( a g) g \barMax
+      c c c c d b c b( a g) g \barMaior
       f f g a( c) b( a) a \barMin
-      b( c) a a \mark\sipka g( f) g \barMax
+      b( c) a a \mark\sipka g( f) g \barMaior
       \mark\sipka c b( c) a( g) g \barFinalis
     }
     \addlyrics {
