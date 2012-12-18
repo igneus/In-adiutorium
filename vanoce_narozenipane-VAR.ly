@@ -644,6 +644,7 @@
   
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4 d e g4.( a) \barMin
       b4( a b) g( f) e \barMax
@@ -739,6 +740,130 @@
       quid = "ant."
       modus = "II"
       differentia = "D" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 6
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a g f e f d \barMin 
+      f e a bes g f \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a g f e f d \barMin 
+      f f a g f f \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 7
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a c c( b a) d( c b) a( g) a \barMaior
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a c c( b a) d( c b) a( \mark\sipka b) a \barMaior
+      g( a) g f g f f \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a c c( b a) d( c b) a( b) a \barMaior
+      \mark\sipka g g a g f f \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 a c c( b a) \mark\sipka c( d) d( c) c \barMaior
+      g g a g f f \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se nám na -- ro -- dil:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
       psalmus = ""
       id = "vden-invit"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -842,25 +967,41 @@
   
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       
       % R
       \neviditelna a
       g4 g g \[ g( d' c \] \[ d f e d) \] c( d) d( c) \barMaior
       b b c b a b( c a) g( f) g \barMax
+      
+      g g f( g) g( f) f \barMin
+      g a g f g a a c( d c) \barMaior
+      d e d c e e d d \barMax
+      
+      c c c e d c d c a a \barMaior
+      g a b c d( e) d c d d( c) \barMin
+      a( g) f g g \barFinalis \break
+      
       % V
       \neviditelna a
+      \[ g( a g \] \[ c d) \] c \barMin d e d c c( d) d \barMaior
+      d d d d c b c b \barMin 
+      a b c( d) c b c d d d \barFinalis
       
+      c c c \barFinalis
     }
     \addlyrics {
       \Response Dnes se nám na -- ro -- dil 
       z_Pan -- ny Ma -- ri -- e Král ne -- bes, 
       
-      a -- by po -- vo -- lal zblou -- di -- lé -- ho člo -- vě -- ka 
-      zpět do ne -- bes -- ké -- ho krá -- lov -- ství:_* 
+      a -- by po -- vo -- lal 
+      zblou -- di -- lé -- ho člo -- vě -- ka zpět 
+      do ne -- bes -- ké -- ho krá -- lov -- ství:_* 
       
       Zá -- stu -- py an -- dě -- lů se ra -- du -- jí, 
-      pro -- to -- že se lid -- stvu zje -- vi -- la věč -- ná spá -- sa.
+      pro -- to -- že se lid -- stvu zje -- vi -- la 
+      věč -- ná spá -- sa.
       
       \Verse Slá -- va na vý -- sos -- tech Bo -- hu 
       a na ze -- mi po -- koj li -- dem, 
@@ -870,7 +1011,7 @@
     }
     \header {
       quid = "1. resp."
-      modus = ""
+      modus = "VII"
       id = "vden-cte-r1"
       piece = \markup {\sestavTitulekResp}
     }
@@ -878,14 +1019,20 @@
   
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       
       % R
-      \neviditelna a
-      
+      \neviditelna d
+      d4 d d c a d c e d f d \barMax
+      f f f( g) f g a g( f) d \barMin e e c c( d) d \barFinalis
       % V
-      \neviditelna a
+      \neviditelna d
+      d d c( d a) a( d) d \barMin
+      c d e f g f e d c d a a \barMaior
+      c c( d) c d f e( d) e \barFinalis
       
+      f f f( g) f \barFinalis
     }
     \addlyrics {
       \Response Dnes nám se -- stou -- pil z_ne -- be pra -- vý po -- koj._* 
@@ -893,11 +1040,11 @@
       \Verse Dnes nám za -- zá -- řil 
       o -- de -- dáv -- na při -- pra -- vo -- va -- ný den spá -- sy, 
       den věč -- né bla -- že -- nos -- ti._* 
-      Dnes.
+      Dnes ne -- be.
     }
     \header {
       quid = "2. resp."
-      modus = ""
+      modus = "II"
       id = "vden-cte-r2"
       piece = \markup {\sestavTitulekResp}
     }
