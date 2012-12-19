@@ -682,8 +682,8 @@
   
   \markup {\nadpisDen {svátek Svaté Rodiny}}
   
-  \markup\justify\huge {!!! Následují antifony k Benedictus a Magnificat
-  pro rok s nedělním cyklem B.}
+  %\markup\justify\huge {!!! Následují antifony k Benedictus a Magnificat
+  %pro rok s nedělním cyklem B.}
   
   \markup {\nadpisHodinka {"1. nešpory"}}
   
@@ -773,6 +773,27 @@
     Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
     s. \page-ref #'respSlovoSeStalo "0" "?" .
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
 
   \score {
     \relative c' {
@@ -789,8 +810,30 @@
       modus = "I"
       differentia = "D" 
       psalmus = "Magnificat"
-      id = "svrodiny-1ne-amag"
-      piece = \markup {\sestavTitulekBezZalmu}
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Chla -- pec Je -- žíš zů -- stal v_Je -- ru -- za -- lé -- mě,
+      a je -- ho ro -- di -- če ho mar -- ně hle -- da -- li
+      me -- zi pří -- buz -- ný -- mi a zná -- mý -- mi.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-1ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
