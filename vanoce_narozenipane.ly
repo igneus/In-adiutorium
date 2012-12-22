@@ -777,7 +777,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 a g f e f d d \barMaior
+      f f g( a) g g f g g( f) d \barMin 
+      f e c c d d d \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl Jo -- se -- fo -- vi:
@@ -786,8 +788,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "f" 
       psalmus = ""
       annus = "A"
       id = "svrodiny-1ne-amagA"
@@ -819,7 +821,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d( e) d \barMin c d f e f d d \barMaior
+      d d d d g g g f( g f) e d c d \barMaior 
+      d d f e f d c c( d) d d \barFinalis
     }
     \addlyrics {
       Chla -- pec Je -- žíš zů -- stal v_Je -- ru -- za -- lé -- mě,
@@ -828,8 +832,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       annus = "C"
       id = "svrodiny-1ne-amagC"
@@ -976,6 +980,31 @@
   }
   
   \score {
+    \relative c'' {
+      \choralniRezim
+      c4( d c) a g f g g \barMaior
+      f g a c b a( c) b c a g g \barMax
+      c c c( d) c c d b a( g) g \barMaior
+      g f( a) a \barMin c b c b a g g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
     \relative c' {
       \choralniRezim
       \key f \major
@@ -997,11 +1026,42 @@
       modus = "I"
       differentia = "f" 
       psalmus = "Benedictus"
-      id = "svrodiny-rch-aben"
+      annus = "B"
+      id = "svrodiny-rch-abenB"
       fons = "melodie podle: Narození Páně, ant. v poledne; 
       proto zde také košatější text než je v breviáři"
       fial = "fial://vanoce_narozenipane.ly#vden-atercie?upraveno"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      % 12/2012: zda se mi dost povedena
+      d4. d \barMin f4 f e d c d d \barMaior
+      f \barMin f g f e d( c) \barMin d d d c b a a a \barMax
+      
+      d e f e g f \barMaior
+      g a g f d \barMin g g g f e d( c) \barMin
+      d d e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě, proč jsi nám to u -- dě -- lal?
+      Hle, tvůj o -- tec i já jsme tě s_bo -- les -- tí hle -- da -- li.
+      
+      Proč jste mě hle -- da -- li?
+      Ne -- vě -- dě -- li jste, že já mu -- sím být v_tom,
+      co je mé -- ho Ot -- ce?
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-rch-abenC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
@@ -1115,6 +1175,29 @@
   \score {
     \relative c' {
       \choralniRezim
+      
+    }
+    \addlyrics {
+      U -- sa -- di -- li se s_Je -- ží -- šem ve měs -- tě,
+      kte -- ré se jme -- nu -- je Na -- za -- ret,
+      a -- by se spl -- ni -- lo, 
+      co je ře -- če -- no ús -- ty pro -- ro -- ků:
+      Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-2ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
       e4 g a a a g( f) g( a) a \barMin
       a a b g g a a \barMin
       a g a b g \barMin
@@ -1130,8 +1213,29 @@
       modus = "IV"
       differentia = "E" 
       psalmus = "Magnificat"
-      id = "svrodiny-2ne-amag"
-      piece = \markup {\sestavTitulekBezZalmu}
+      annus = "B"
+      id = "svrodiny-2ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = "C"
+      annus = ""
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
