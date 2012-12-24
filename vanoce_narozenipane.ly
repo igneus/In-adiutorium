@@ -1175,19 +1175,23 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 a g a g f( g) f f \barMin
+      f f f f e f g( a) g f g g g \barMaior
+      g f e d( e) d d \barMin 
+      f g a a a a( c) a g a a \barMaior
+      a a g a g( f d) f g g f \barFinalis
     }
     \addlyrics {
-      U -- sa -- di -- li se s_Je -- ží -- šem ve měs -- tě,
-      kte -- ré se jme -- nu -- je Na -- za -- ret,
+      U -- sa -- di -- li se s_Je -- ží -- šem 
+      ve měs -- tě, kte -- ré se jme -- nu -- je Na -- za -- ret,
       a -- by se spl -- ni -- lo, 
       co je ře -- če -- no ús -- ty pro -- ro -- ků:
       Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VI"
+      differentia = "F" 
       psalmus = ""
       annus = "A"
       id = "svrodiny-2ne-amagA"
@@ -1233,8 +1237,8 @@
       quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D" 
-      psalmus = "C"
-      annus = ""
+      psalmus = ""
+      annus = "C"
       id = "svrodiny-2ne-amagC"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
