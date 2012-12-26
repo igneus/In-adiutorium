@@ -48,3 +48,9 @@ sestavTitulekBezZalmu = \markup {
 sestavTitulekResp = \markup {
 \concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
 }
+
+% u antifon, ktere se meni s rocnim cyklem, se proste prida do piece
+% za \sestavTitulek
+rocniCyklus = \markup {
+  \concat { " - rok " \bold{\fromproperty #'header:annus }}
+}
