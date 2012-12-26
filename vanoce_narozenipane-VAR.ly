@@ -2545,6 +2545,40 @@
     }
   }
   
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 g( a) g f f( a) a \barMin b( c) a g f f( g) g \barMaior
+      
+      d d c d e( f) f \barMin g a g f d4. d \barMax
+      
+      d4( a') bes( d) c bes c bes a( g) g \barMaior
+      a( c d) c( bes a g) f( e) e \barMin
+      d d d f d c d f4. e d4 d \barMaior
+      c f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
+      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
+      tvé vše -- moc -- né Slo -- vo, Bo -- že,
+      se -- stou -- pi -- lo 
+      % v breviari neni "ze sveho", ale proste "z"
+      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g" 
+      psalmus = "Magnificat"
+      id = "26-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \markup {\nadpisDen {27. prosince}}
   
   \score {
