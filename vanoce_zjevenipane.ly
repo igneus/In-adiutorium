@@ -159,8 +159,10 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "VI"
     id = "epifanie-1ne-resp"
-    piece = "responsorium - VI"
+    piece = \markup\sestavTitulekResp
   }
 }
 
@@ -187,11 +189,11 @@
     ka -- di -- dlo a myr -- hu.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
     psalmus = "Magnificat"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -212,7 +214,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "invitatorium"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -238,7 +240,7 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G" 
-    psalmus = ""
+    psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -263,7 +265,7 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G" 
-    psalmus = ""
+    psalmus = "Dan 3-III"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -289,7 +291,7 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D" 
-    psalmus = ""
+    psalmus = "Žalm 149"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -319,8 +321,10 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "VI"
     id = "epifanie-rch-resp"
-    piece = "responsorium - VI"
+    piece = \markup\sestavTitulekResp
   }
 }
 
@@ -355,11 +359,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G" 
     psalmus = "Benedictus"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -384,7 +388,7 @@
     modus = "III"
     differentia = "g" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -408,7 +412,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -430,7 +434,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -511,7 +515,7 @@
   }
 }
 
-\markup {Responsorium jako v 1. nešporách.}
+\markup\italic {Responsorium jako v 1. nešporách.}
 
 \score {
   \relative c' {
@@ -550,11 +554,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D" 
     psalmus = "Magnificat"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -583,7 +587,7 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Žalm 135-I"
       piece = \markup {\sestavTitulek}
       fons = "Větší kus melodie vzat z antifony k Benedictus 2. neděle adventní cyklu B (velice podobný text)."
     }
@@ -607,7 +611,7 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "d" 
-      psalmus = ""
+      psalmus = "Žalm 135-II"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -632,7 +636,7 @@
       quid = "3. ant."
       modus = "I"
       differentia = "D" 
-      psalmus = ""
+      psalmus = "1 Tim 3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -662,7 +666,9 @@
       \textRespDoxologie
     }
     \header {
-      piece = "responsorium - VIII"
+      quid = "resp."
+      modus = "VIII"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -683,11 +689,11 @@
       a no -- vé -- ho ži -- vo -- ta.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D" 
       psalmus = "Magnificat"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -714,7 +720,7 @@
       modus = "VII"
       differentia = "d" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -749,7 +755,7 @@
       quid = "1. ant."
       modus = "IV"
       differentia = "E" 
-      psalmus = ""
+      psalmus = "Žalm 63"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -788,7 +794,7 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "a" 
-      psalmus = ""
+      psalmus = "Dan 3-III"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -816,7 +822,7 @@
       quid = "3. ant."
       modus = "VIII"
       differentia = "c" 
-      psalmus = ""
+      psalmus = "Žalm 149"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -847,7 +853,9 @@
       \textRespDoxologie
     }
     \header {
-      piece = "responsorium - III"
+      quid = "resp."
+      modus = "III"
+      piece = \markup\sestavTitulekResp
       fons = "Kromě verše vše viz neděle 1. týdne žaltáře."
     }
   }
@@ -871,11 +879,11 @@
       a Du -- chem sva -- tým.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Benedictus"
       modus = "III"
       differentia = "a" 
       psalmus = "Benedictus"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -900,7 +908,7 @@
       modus = "III"
       differentia = "b" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
       notitia = "Antifona nekončí na finále modu - tázací věty mohou končit netypicky výš."
     }
   }
@@ -922,7 +930,7 @@
       modus = "VIII"
       differentia = "G*" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -947,7 +955,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = ""
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
   
@@ -971,7 +979,7 @@
       quid = "1. ant."
       modus = "VII"
       differentia = "d" 
-      psalmus = ""
+      psalmus = "Žalm 110"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -994,7 +1002,7 @@
       quid = "2. ant."
       modus = "I"
       differentia = "D" 
-      psalmus = ""
+      psalmus = "Žalm 112"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1017,7 +1025,7 @@
       quid = "3. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = ""
+      psalmus = "Zj 15"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1069,7 +1077,9 @@
       \textRespDoxologie
     }
     \header {
-      piece = "responsorium - I"
+      quid = "resp."
+      modus = "I"
+      piece = \markup\sestavTitulekResp
     }
   }
 
@@ -1094,11 +1104,11 @@
       na věč -- né vě -- ky.
     }
     \header {
-      quid = "ant."
+      quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "c" 
       psalmus = "Magnificat"
-      piece = \markup {\sestavTitulek}
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }
