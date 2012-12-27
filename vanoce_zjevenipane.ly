@@ -14,8 +14,8 @@
   \relative c'' {
     \choralniRezim
     g4 c4.( a) \barMin 
-    a4 b( c) c( b) b \barMin
-    d c( b) a( b g) g f g a f f g g \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b g) g f g a f f g g \barMaior
     a b( c) b( c a) g a( g) g \barFinalis
   }
   \addlyrics {
@@ -56,8 +56,7 @@
   \relative c'' {
     \choralniRezim
     g4( a) g g( c) c \barMin
-    c( d c) b a( b g) g \barMax
-    
+    c( d c) b a( b g) g \barMaior    
     g e( f) g( a) a g a( c b) a b( g) g \barMin
     f( a) g f g4. g \barMax
     
@@ -67,7 +66,6 @@
   \addlyrics {
     Hvěz -- da zá -- ří
     ja -- ko o -- heň
-    
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
     Krá -- li všech krá -- lů;
     
@@ -171,10 +169,10 @@
     \choralniRezim
     d4 c( d) d d f( e) d e c( d) d \barMin
     e c c d e d d \barMax
-    d d d( g) g g a g f g f( d) d \barMax
+    d d d( g) g g a g f g f( d) d \barMaior
     f( d) d \barMin
     g f f d c \barMin
-    c d f f e c d d \barMax
+    c d f f e c d d \barMaior
     e( f d) d \barMin
     c f e c d4. d \barFinalis
   }
@@ -202,7 +200,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e( d) d d( g) f e f( g) g \barMin
+    d4( f) e( d) d d( g) f e f( g) g \barMaior
     a( d,) d e g f( e) d \barFinalis
   }
   \addlyrics {
@@ -224,9 +222,9 @@
   \relative c'' {
     \choralniRezim
     g4( f e) f( g) g \barMin
-    g a c b a( g) f g g g \barMin
-    g a( b) c d b c a4. a \barMin
-    c4( b a g) g a f f a g4. g \barMax
+    g a c b a( g) f g g g \barMaior
+    g a( b) c d b c a4. a \barMaior
+    c4( b a g) g \barMin a f f a g4. g \barMaior
     g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
@@ -249,9 +247,9 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( a f g) g \barMin
-    a( b) c a g4. g \barMax
+    a( b) c a g4. g \barMaior
     c4 d( c) b( a) g \barMin
-    a( f) e e g g \barMax
+    a( f) e e g g \barMaior
     f a a g \barFinalis
   }
   \addlyrics {
@@ -331,16 +329,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f g a \barMin
+    g4( a) f g a \barMaior
     a b c c c b( a g4.) g4 \barMin
-    a f e e( g) g g \barMax
-    
+    a f e e( g) g g \barMaior
     g a b c c c d( c) a4. a \barMin
     b4( c) a g f f( g) g \barMax
     
     g g g a g a b( c) c \barMin
-    c b a b g g \barMax
-    
+    c b a b g g \barMaior
     g g( a) a a f( g) a a \barMin
     c c d c b c a( g) f4. g \barFinalis
   }
@@ -348,7 +344,6 @@
     Dneš -- ní -- ho dne
     se za -- snou -- bi -- la cír -- kev
     s_ne -- bes -- kým že -- ni -- chem,
-    
     pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
     všech -- ny je -- jí vi -- ny,
     
@@ -373,8 +368,8 @@
   \relative c'' {
     \choralniRezim
     g4( c) a4. a \barMin
-    b4 c d c b c a a a \barMin
-    b c b a g g \barMax
+    b4 c d c b c a a a \barMaior
+    b c b a g g \barMaior
     f g g( a4.) a4 g f e e \barFinalis
   }
   \addlyrics {
@@ -397,8 +392,8 @@
     \choralniRezim
     \key f \major
     d4( f) d f( g) g \barMin
-    a bes( a) g a f( g) g \barMax
-    bes4.( g) a4 a bes c bes g g g \barMin
+    a bes( a) g a f( g) g \barMaior
+    bes4.( g) a4 a bes c bes g g g \barMaior
     a f e e e f d4. d \barFinalis
   }
   \addlyrics {
@@ -422,7 +417,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d c( d) d d f g g( a) a \barMin
+    d4 d c( d) d d f g g( a) a \barMaior
     bes bes a bes g( a) a \barMin a a a a g g f e f( d) d \barFinalis
   }
   \addlyrics {
@@ -440,13 +435,10 @@
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
-% Nasledujici antifona exploituje melodii 1. ant. 1. nesp.
-% slavnosti Narozeni Pane, ktera ma podobny text.
-
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d d c( b) a( g) g \barMin
+    d4 c( d) d d c( b) a( g) g \barMaior
     a b c c b( d) d \barMin
     d( c) b a b g4. g \barFinalis
   }
@@ -459,6 +451,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
+    fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -469,7 +462,7 @@
     \key f \major
     f4 e f f4.( g) \barMin
     a4 bes a( g) a \barMin
-    a bes g g f e4.( d) \barMax
+    a bes g g f e4.( d) \barMaior
     d4( f e) d f( g) g g \barMin
     f g a a f e d d \barFinalis
   }
@@ -496,7 +489,7 @@
   \relative c'' {
     \choralniRezim
     g4 a b( c) a a \barMin
-    a b g f g g( a) a \barMax
+    a b g f g g( a) a \barMaior
     c( a) a \barMin
     b c a a a g f f( g e) e \barFinalis
   }
@@ -532,7 +525,7 @@
     bes g g g g a g( f) d4. d \barMax
     
     d4( f) e f f( g) g \barMin
-    g g a g g f g a( bes) a a \barMin
+    g g a g g f g a( bes) a a \barMaior
     a g f g( a) f( e d4.) d \barMax
     
     e4 f( d) c d \barFinalis
@@ -574,8 +567,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a( f) f e d e f g g \barMax
-      a c c d c( b) a4. a \barMin
+      g4 a( f) f e d e f g g \barMaior
+      a c c d c( b) a4. a \barMaior
       b4 g g g a f f a g4. g \barFinalis
     }
     \addlyrics {
@@ -596,8 +589,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4. c4 b a( b g) g \barMax
-      a a b c c4.( d) \barMin
+      d4. c4 b a( b g) g \barMaior
+      a a b c c4.( d) \barMaior
       e4( d) c d( b) g \barMin
       b a( b g) g \barFinalis
     }
@@ -620,9 +613,9 @@
     \relative c' {
       \choralniRezim
       d4 f e f g( a) a f( e) e \barMin
-      g f e f d4. d \barMax
+      g f e f d4. d \barMaior
       
-      d4( g f) g( a) g f e f f( g) g \barMin
+      d4( g f) g( a) g f e f f( g) g \barMaior
       g a( f) f f e( f e) c d \barFinalis
     }
     \addlyrics {
@@ -648,13 +641,13 @@
       % R
       \neviditelna g
       g4 g g a g a b( c) b4. b \barMin b4( c) d c b a( b) b \barMax
-      c4 c c c a4.( c) b4 a a( b) b \barMin g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
       % V
       \neviditelna c
       c4( a) c d( c) c c a b c4. b \barFinalis
       % R
       \neviditelna c
-      c4 c c c a4.( c) b4 a a( b) b \barMin g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
       % Slava
       c4 c a( c) c c a( b c) b \barMin c c( d) a a b b \barFinalis
     }
@@ -676,8 +669,8 @@
     \relative c' {
       \choralniRezim
       d4 d d f e f( g) g \barMin
-      f( e) d f( e) d4. d \barMax
-      d4 d d d f g f d d \barMin
+      f( e) d f( e) d4. d \barMaior
+      d4 d d d f g f d d \barMaior
       d d c d e f f \barMin
       f g f e c d d \barFinalis
     }
@@ -703,7 +696,7 @@
     \relative c'' {
       \choralniRezim
       d4( f e c) d \barMin
-      c( a) b c d4. d \barMin
+      c( a) b c d4. d \barMaior
       d4 b c a( g) g \barMax
       a( f) g a( c b) b \barMin 
       a f g g \barFinalis
@@ -733,8 +726,8 @@
       e4 d( c) b4. b \barMin
       b4( c) d f e( d) e \barMax
       
-      a a a( b) g a a( c) b \barMin
-      a g( a) f( g) g g f e d( f) e e \barMin
+      a a a( b) g a a( c) b \barMaior
+      a g( a) f( g) g g f e d( f) e e \barMaior
       e c( b) b c( d e) f e \barMax
       
       e a g( a e) \barMin
@@ -803,7 +796,7 @@
     \relative c'' {
       \choralniRezim
       c4( d c) c \barMin
-      c b( c) a g( a g) g \barMin
+      c b( c) a g( a g) g \barMaior
       a f e d f g( a) a( g) g \barMax
       
       g a g a b b( c) b a g4. g \barMaior
@@ -892,7 +885,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      b4 c c c c a4. a \barMin
+      b4 c c c c a4. a \barMaior
       g4( f) e d d4.( e) \barMin
       f4( g) d f e e \barMaior
       f g a( c) b c a4. a \barFinalis
@@ -916,8 +909,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 g( f) g( a) a b( c) a( g) g \barMax
-      g a( c) c c c c b c d( c) b( a g) g \barMin
+      a4 g( f) g( a) a b( c) a( g) g \barMaior
+      g a( c) c c c c b c d( c) b( a g) g \barMaior
       f( e) f( g) a( b g4.) g \barFinalis
     }
     \addlyrics {
@@ -938,9 +931,9 @@
     \relative c' {
       \choralniRezim
       e4 g( a) a b( a) g( a) a \barMax
-      b( a g) g( a) f4.( e) \barMin
-      f4 g( a) g( a g) f( e d4.) d4( f) f( e) d \barMin
-      c d e f f( e) e \barMin
+      b( a g) g( a) f4.( e) \barMaior
+      f4 g( a) g( a g) f( e d4.) d4( f) f( e) d \barMaior
+      c d e f f( e) e \barMaior
       e g( f e f) d d( f e) e \barFinalis
     }
     \addlyrics {
@@ -965,8 +958,8 @@
     \relative c'' {
       \choralniRezim
       d4 d d c( b g) g a( c b) c c4.( d) \barMax
-      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMin
-      g4( f) g4.( a4 b) b c b( d) d \barMin
+      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+      g4( f) g4.( a4 b) b c b( d) d \barMaior
       d d c( d c) b( a g) f( g) g \barFinalis
     }
     \addlyrics {
@@ -1011,7 +1004,7 @@
     \relative c'' {
       \choralniRezim
       g4 a( c) c c b c b( d) c4. b4 a c( b) a( g) g \barMax
-      g g a f g g( a) a \barMin
+      g g a f g g( a) a \barMaior
       a4. b4( c) a4. a \barMin
       b4 c d c( b) a g f f( g) g \barFinalis
     }
@@ -1088,7 +1081,7 @@
       \choralniRezim
       c4 c c b a c c c \barMin
       c d c c b c g4. g \barMax
-      g4 a f f f e f f f( g) g \barMin
+      g4 a f f f e f f f( g) g \barMaior
       g a a b( c a) a \barMin
       b( c) a g4. g \barMax
       g4 g g a f e g4. g \barMin
