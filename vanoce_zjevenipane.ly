@@ -13,10 +13,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c4.( a) \breathe 
-    a4 b( c) c( b) b \breathe \bar ""
-    d c( b) a( b g) g f g a f f g g \breathe \bar ""
-    a b( c) b( c a) g a( g) g \bar "||"
+    g4 c4.( a) \barMin 
+    a4 b( c) c( b) b \barMin
+    d c( b) a( b g) g f g a f f g g \barMin
+    a b( c) b( c a) g a( g) g \barFinalis
   }
   \addlyrics {
     Náš Pán
@@ -36,8 +36,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c b c d4.( b) a4( g) g \bar "|"
-    a a b( c a4.) a b4 a a g g \bar "||"
+    g4 c b c d4.( b) a4( g) g \barMax
+    a a b( c a4.) a b4 a a g g \barFinalis
   }
   \addlyrics {
     Ve -- li -- ký je Pán, náš Bůh,
@@ -55,14 +55,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) g g( c) c \breathe \bar ""
-    c( d c) b a( b g) g \bar "|"
+    g4( a) g g( c) c \barMin
+    c( d c) b a( b g) g \barMax
     
-    g e( f) g( a) a g a( c b) a b( g) g \breathe \bar ""
-    f( a) g f g4. g \bar "|"
+    g e( f) g( a) a g a( c b) a b( g) g \barMin
+    f( a) g f g4. g \barMax
     
-    f4 g g g a( c) b( a g) g \breathe \bar ""
-    g a f f f e e \bar "||"
+    f4 g g g a( c) b( a g) g \barMin
+    g a f f f e e \barFinalis
   }
   \addlyrics {
     Hvěz -- da zá -- ří
@@ -86,8 +86,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) a b( g) g \breathe
-    a( g) f g g e \bar "||"
+    g4( c b) a b( g) g \barMin
+    a( g) f g g e \barFinalis
   }
   \addlyrics {
     Chval -- te Pá -- na,
@@ -105,14 +105,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a( c) c c c d c c b( a) c \bar "|"
-    c d( c) a c b a g g \bar "||" \break
+    g4 a( c) c c c d c c b( a) c \barMax
+    c d( c) a c b a g g \barFinalis \break
     
-    c c c c d( c) b( a) c \bar "|"
-    a c b a g g \bar "||" \break
+    c c c c d( c) b( a) c \barMax
+    a c b a g g \barFinalis \break
     
-    c c d c c b( a) c \bar "|"
-    a c( b) a g g \bar "||" \break
+    c c d c c b( a) c \barMax
+    a c( b) a g g \barFinalis \break
   }
   \addlyrics {
     On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_*
@@ -139,16 +139,16 @@
     
     % R
     \neviditelna f
-    f4 f f f f f f f f f f e g a \bar "|"
-    \respVIalelujaResponsum \bar "||"
+    f4 f f f f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna
-    f4 f f f f f f f f e g g a \bar "|"
+    f4 f f f f f f f f e g g a \barMax
     % R
     \neviditelna a
-    \respVIalelujaResponsum \bar "||"
+    \respVIalelujaResponsum \barFinalis
     % Slava
-    \respVIalelujaDoxologie \bar "||"
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response V_něm bu -- dou po -- žeh -- ná -- na 
@@ -169,14 +169,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) d d f( e) d e c( d) d \breathe \bar ""
-    e c c d e d d \bar "|"
-    d d d( g) g g a g f g f( d) d \bar "|"
-    f( d) d \breathe \bar ""
-    g f f d c \breathe \bar ""
-    c d f f e c d d \bar "|"
-    e( f d) d \breathe \bar ""
-    c f e c d4. d \bar "||"
+    d4 c( d) d d f( e) d e c( d) d \barMin
+    e c c d e d d \barMax
+    d d d( g) g g a g f g f( d) d \barMax
+    f( d) d \barMin
+    g f f d c \barMin
+    c d f f e c d d \barMax
+    e( f d) d \barMin
+    c f e c d4. d \barFinalis
   }
   \addlyrics {
     Když mu -- dr -- ci vi -- dě -- li hvěz -- du,
@@ -202,8 +202,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e( d) d d( g) f e f( g) g \breathe
-    a( d,) d e g f( e) d \bar "||"
+    d4( f) e( d) d d( g) f e f( g) g \barMin
+    a( d,) d e g f( e) d \barFinalis
   }
   \addlyrics {
     Zje -- vil se Spa -- si -- tel svě -- ta:
@@ -223,11 +223,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f e) f( g) g \breathe \bar ""
-    g a c b a( g) f g g g \breathe \bar ""
-    g a( b) c d b c a4. a \breathe \bar ""
-    c4( b a g) g a f f a g4. g \bar "|"
-    g4 g( a) g4. g \bar "||"
+    g4( f e) f( g) g \barMin
+    g a c b a( g) f g g g \barMin
+    g a( b) c d b c a4. a \barMin
+    c4( b a g) g a f f a g4. g \barMax
+    g4 g( a) g4. g \barFinalis
   }
   \addlyrics {
     Mu -- dr -- ci
@@ -248,11 +248,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a f g) g \breathe \bar ""
-    a( b) c a g4. g \bar "|"
-    c4 d( c) b( a) g \breathe \bar ""
-    a( f) e e g g \bar "|"
-    f a a g \bar "||"
+    g4 g g g( a f g) g \barMin
+    a( b) c a g4. g \barMax
+    c4 d( c) b( a) g \barMin
+    a( f) e e g g \barMax
+    f a a g \barFinalis
   }
   \addlyrics {
     Mo -- ře a ře -- ky,
@@ -274,11 +274,11 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( f) e d f( g) g \breathe a( f) g f d4. d \bar "|"
-    d4 d d d d f g g g f g a( bes) a a \breathe \bar ""
-    a c( g) bes( a) g \breathe \bar ""
-    g g a f e d d \bar "|"
-    d f( e) c d \bar "||"
+    d4( f) e d f( g) g \barMin a( f) g f d4. d \barMax
+    d4 d d d d f g g g f g a( bes) a a \barMin
+    a c( g) bes( a) g \barMin
+    g g a f e d d \barMax
+    d f( e) c d \barFinalis
   }
   \addlyrics {
     Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
@@ -302,16 +302,16 @@
     
     % R
     \neviditelna f
-    f4 f f f f f f f e g a \bar "|"
-    \respVIalelujaResponsum \bar "||"
+    f4 f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna
-    f4 f f f f f f e g g a \bar "|"
+    f4 f f f f f f e g g a \barMax
     % R
     \neviditelna a
-    \respVIalelujaResponsum \bar "||"
+    \respVIalelujaResponsum \barFinalis
     % Slava
-    \respVIalelujaDoxologie \bar "||"
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět._*
@@ -331,18 +331,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f g a \breathe
-    a b c c c b( a g4.) g4 \breathe \bar ""
-    a f e e( g) g g \bar "|"
+    g4( a) f g a \barMin
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMax
     
-    g a b c c c d( c) a4. a \breathe \bar ""
-    b4( c) a g f f( g) g \bar "|"
+    g a b c c c d( c) a4. a \barMin
+    b4( c) a g f f( g) g \barMax
     
-    g g g a g a b( c) c \breathe \bar ""
-    c b a b g g \bar "|"
+    g g g a g a b( c) c \barMin
+    c b a b g g \barMax
     
-    g g( a) a a f( g) a a \breathe \bar ""
-    c c d c b c a( g) f4. g \bar "||"
+    g g( a) a a f( g) a a \barMin
+    c c d c b c a( g) f4. g \barFinalis
   }
   \addlyrics {
     Dneš -- ní -- ho dne
@@ -372,10 +372,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) a4. a \breathe
-    b4 c d c b c a a a \breathe \bar ""
-    b c b a g g \bar "|"
-    f g g( a4.) a4 g f e e \bar "||"
+    g4( c) a4. a \barMin
+    b4 c d c b c a a a \barMin
+    b c b a g g \barMax
+    f g g( a4.) a4 g f e e \barFinalis
   }
   \addlyrics {
     Ta -- jem -- ství,
@@ -396,10 +396,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( f) d f( g) g \breathe
-    a bes( a) g a f( g) g \bar "|"
-    bes4.( g) a4 a bes c bes g g g \breathe \bar ""
-    a f e e e f d4. d \bar "||"
+    d4( f) d f( g) g \barMin
+    a bes( a) g a f( g) g \barMax
+    bes4.( g) a4 a bes c bes g g g \barMin
+    a f e e e f d4. d \barFinalis
   }
   \addlyrics {
     Kris -- tus při -- šel
@@ -422,8 +422,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d c( d) d d f g g( a) a \breathe
-    bes bes a bes g( a) a \breathe a a a a g g f e f( d) d \bar "||"
+    d4 d c( d) d d f g g( a) a \barMin
+    bes bes a bes g( a) a \barMin a a a a g g f e f( d) d \barFinalis
   }
   \addlyrics {
     Dám tě ná -- ro -- dům ja -- ko svět -- lo,
@@ -446,9 +446,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d d c( b) a( g) g \breathe \bar ""
-    a b c c b( d) d \breathe \bar ""
-    d( c) b a b g4. g \bar "||"
+    d4 c( d) d d c( b) a( g) g \barMin
+    a b c c b( d) d \barMin
+    d( c) b a b g4. g \barFinalis
   }
   \addlyrics {
     Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
@@ -467,11 +467,11 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 e f f4.( g) \breathe
-    a4 bes a( g) a \breathe \bar ""
-    a bes g g f e4.( d) \bar "|"
-    d4( f e) d f( g) g g \breathe \bar ""
-    f g a a f e d d \bar "||"
+    f4 e f f4.( g) \barMin
+    a4 bes a( g) a \barMin
+    a bes g g f e4.( d) \barMax
+    d4( f e) d f( g) g g \barMin
+    f g a a f e d d \barFinalis
   }
   \addlyrics {
     Mi -- lo -- srd -- ný,
@@ -495,10 +495,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b( c) a a \breathe
-    a b g f g g( a) a \bar "|"
-    c( a) a \breathe \bar ""
-    b c a a a g f f( g e) e \bar "||"
+    g4 a b( c) a a \barMin
+    a b g f g g( a) a \barMax
+    c( a) a \barMin
+    b c a a a g f f( g e) e \barFinalis
   }
   \addlyrics {
     Všech -- ny ná -- ro -- dy,
@@ -522,20 +522,20 @@
     \choralniRezim
     \key f \major
     
-    d4 g f g \breathe
-    a f f f e f d d \bar "|"
+    d4 g f g \barMin
+    a f f f e f d d \barMax
     
-    d c( d) d d e( f) f \breathe \bar ""
-    g f e d d d \bar "|"
+    d c( d) d d e( f) f \barMin
+    g f e d d d \barMax
     
-    d f g g( a) a a \breathe
-    bes g g g g a g( f) d4. d \bar "|"
+    d f g g( a) a a \barMin
+    bes g g g g a g( f) d4. d \barMax
     
-    d4( f) e f f( g) g \breathe \bar ""
-    g g a g g f g a( bes) a a \breathe \bar ""
-    a g f g( a) f( e d4.) d \bar "|"
+    d4( f) e f f( g) g \barMin
+    g g a g g f g a( bes) a a \barMin
+    a g f g( a) f( e d4.) d \barMax
     
-    e4 f( d) c d \bar "||"
+    e4 f( d) c d \barFinalis
   }
   \addlyrics {
     Sla -- ví -- me den
@@ -675,11 +675,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d f e f( g) g \breathe
-      f( e) d f( e) d4. d \bar "|"
-      d4 d d d f g f d d \breathe \bar ""
-      d d c d e f f \breathe \bar ""
-      f g f e c d d \bar "||"
+      d4 d d f e f( g) g \barMin
+      f( e) d f( e) d4. d \barMax
+      d4 d d d f g f d d \barMin
+      d d c d e f f \barMin
+      f g f e c d d \barFinalis
     }
     \addlyrics {
       Spa -- si -- tel se dal po -- křtít
@@ -840,7 +840,7 @@
       \neviditelna e
       e4 g a f e4. e \barFinalis
       
-      a4 a c b c a a4 \breathe
+      a4 a c b c a a4 \barMin
       a4 b g f e e4 \barFinalis
     }
     \addlyrics {
@@ -863,12 +863,12 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 g e a \breathe
-      a b( c) a a c( b) g4. e \bar "|"
-      f4 f f f f f f d f e4. e \breathe \bar ""
-      f4 g a a g a b( c) c \breathe \bar ""
-      d c a b g g \breathe \bar ""
-      g a( g) f d( e) e \bar "||"
+      a4 g e a \barMin
+      a b( c) a a c( b) g4. e \barMax
+      f4 f f f f f f d f e4. e \barMin
+      f4 g a a g a b( c) c \barMin
+      d c a b g g \barMin
+      g a( g) f d( e) e \barFinalis
     }
     \addlyrics {
       Kris -- to -- vým křtem
@@ -1086,13 +1086,13 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c c b a c c c \breathe
-      c d c c b c g4. g \bar "|"
-      g4 a f f f e f f f( g) g \breathe \bar ""
-      g a a b( c a) a \breathe \bar ""
-      b( c) a g4. g \bar "|"
-      g4 g g a f e g4. g \breathe \bar ""
-      a4( b) c a g( f g) g \bar "||"
+      c4 c c b a c c c \barMin
+      c d c c b c g4. g \barMax
+      g4 a f f f e f f f( g) g \barMin
+      g a a b( c a) a \barMin
+      b( c) a g4. g \barMax
+      g4 g g a f e g4. g \barMin
+      a4( b) c a g( f g) g \barFinalis
     }
     \addlyrics {
       Je -- žíš Kris -- tus nás mi -- lu -- je,
