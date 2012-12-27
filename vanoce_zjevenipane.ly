@@ -701,7 +701,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 a c b c d d b a g \barMaior
+      a a a f g 
+      a g f f \barFinalis
     }
     \addlyrics {
       Všech -- ny ná -- ro -- dy při -- jdou z_da -- le -- ka
@@ -710,8 +712,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "V"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -721,7 +723,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      e4 g a( b) a g( a g) g( f e) e \barMaior
+      e e( f) f( e) e g g a g( f) e e \barMaior
+      d c d( e) e \barFinalis
     }
     \addlyrics {
       Při -- jdou všich -- ni ze Sá -- by
@@ -730,8 +734,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "E" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -743,7 +747,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d f d c d e f f \barMin
+      g( f) d e( c) d \barMaior
+      d d d d c( d a) a \barMin a c c( d) d \barFinalis
     }
     \addlyrics {
       Ti, kte -- ří te -- bou po -- hr -- da -- li,
@@ -752,8 +758,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -761,9 +767,10 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g g f g g( a g) e \barMin f f f e c c \barMaior
+      d e f g( a g f) f( g) g \barMin f g a a g f e e \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
@@ -771,8 +778,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -782,24 +789,29 @@
   \markup {\nadpisDen {12. ledna}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a4 a g a f( g) g \barMaior
+      g f e d d f g a c b g a \barMaior
+      a a g( a g) f e( f) d d \barFinalis
     }
     \addlyrics {
       V_ga -- li -- lej -- ské Ká -- ně
-      Je -- žíš u -- či -- nil po -- čá -- tek všech zna -- me -- ní,
+      % prohozeno 'Jezis' a 'ucinil'
+      u -- či -- nil Je -- žíš po -- čá -- tek všech zna -- me -- ní,
       a tím zje -- vil svou slá -- vu.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak
   
   \markup {\nadpisDen {svátek Křtu Páně}}
 
