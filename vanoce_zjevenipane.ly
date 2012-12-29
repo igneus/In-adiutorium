@@ -911,6 +911,26 @@
   }
   
   \score {
+    \relative c' {
+      \choralniRezim
+      d4 a' a( bes) g \barMin
+      f f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Chval -- te Pá -- na, 
+      všech -- ny ná -- ro -- dy.
+    }
+    \header {
+      quid = "responsum vkládané do kantika"
+      modus = "I"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
     \relative c'' {
       \choralniRezim
       
