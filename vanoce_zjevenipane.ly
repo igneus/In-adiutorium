@@ -338,7 +338,9 @@
     g g g a g a b( c) c \barMin
     c b a b g g \barMaior
     g g( a) a a f( g) a a \barMin
-    c c d c b c a( g) f4. g \barFinalis
+    c c d c b c a( g) f4. g \barMaior
+    
+    g4 a a( g) g \barFinalis
   }
   \addlyrics {
     Dneš -- ní -- ho dne
