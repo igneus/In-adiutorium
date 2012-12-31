@@ -812,14 +812,18 @@ ale na diferenci žalmového nápěvu?}
     modus = "I"
     differentia = "D" 
     psalmus = ""
+    fial = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) d d c( b) a( g) g \barMaior
     a b c c b( d) d \barMin
@@ -838,6 +842,74 @@ ale na diferenci žalmového nápěvu?}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( d) d d c( b) a( g) g \barMaior
+    a a a g a( b c d) c \barMin
+    b c d a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 110"
+    fons = "cast z Narozeni Pane, 1. nesp., 1.a."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c( d) d d c( b) a( g) g \barMaior
+    a a a g a( b c d) c \barMin
+    \mark\sipka d d d a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 110"
+    fons = "cast z Narozeni Pane, 1. nesp., 1.a."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f e d( e) d d \barMin e f g g g( a g c) a \barMin
+    b c c a g g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 110"
+    fons = "cast z Narozeni Pane, 1. nesp., 1.a."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -865,6 +937,34 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 e f f4.( g) \barMin
+    a4 bes a( g) a \barMin
+    a bes g g f e4.( d) \barMaior
+    d4( f e) d \mark\sipka e d c \barMin
+    \mark\sipka d d f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Žalm 112"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 % Melodie castecne prevzata z antifon ze zaltare:
 % patek 1. tydne, nespory, 3. ant.
 
@@ -890,6 +990,69 @@ ale na diferenci žalmového nápěvu?}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g g \barMin 
+    g a a g f e( f) e \barMaior
+    d( c d e) e \barMin
+    e f g g g g f e e \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou,
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Zj 15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d c c \barMin d e f d c c( d) c( b) \barMaior
+    a( g) a \barMin a a g f g a a f f \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = "Zj 15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g( a) a \barMin b c d c b a g a \barMaior
+    g( a) g \barMin g g a b c c a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Zj 15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic {Responsorium jako v 1. nešporách.}
 
