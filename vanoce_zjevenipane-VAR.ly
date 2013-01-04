@@ -913,6 +913,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 e f f4.( g) \barMin
@@ -939,6 +940,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 e f f4.( g) \barMin
@@ -970,6 +972,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b( c) a a \barMin
     a b g f g g( a) a \barMaior
@@ -1036,7 +1039,7 @@ ale na diferenci žalmového nápěvu?}
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g( a) a \barMin b c d c b a g a \barMaior
+    g4 g g( a) g( a) a \barMin b c d c b a a \barMaior
     g( a) g \barMin g g a b c c a g g \barFinalis
   }
   \addlyrics {
@@ -1047,6 +1050,45 @@ ale na diferenci žalmového nápěvu?}
     quid = "3. ant."
     modus = "VIII"
     differentia = "G" 
+    psalmus = "Zj 15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d d \barMin d e f g f e( f e) d \barMaior
+    
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Zj 15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a c b a \barMin c b c d d e( d b c) b( a) \barMaior
+    g( a) a \barMin a g a a b d c a a \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
