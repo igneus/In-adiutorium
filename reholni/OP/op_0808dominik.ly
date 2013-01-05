@@ -14,12 +14,22 @@
 
 \markup\poznamkaOP
 
+\markup\small\justify{
+  Nápěvy zpracovány s přihlédnutím 
+  k \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum}
+  (Augustin Thompson OP, 
+  \with-url #"http://dominican-liturgy.blogspot.com" {http://dominican-liturgy.blogspot.com)}
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 c d f g f( g a) g( f) g( a) \barMaior
+    a( bes a) g a c d c( b a) g a \barMaior
+    a g f g a f e d \barMaior
+    f( e) d( c) d f g f d( c) d \barFinalis
   }
   \addlyrics {
     Když ko -- nec vě -- ku nad -- chá -- zel, 
@@ -29,8 +39,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = "Žalm 141"
     id = ""
     piece = \markup {\sestavTitulek}
