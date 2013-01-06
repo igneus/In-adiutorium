@@ -16,7 +16,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( g) f g a f g g \barMaior
+    g g a g a bes a g f( g) g \barMin
+    f d f g g f f \barFinalis
   }
   \addlyrics {
     Chval -- me na -- še -- ho Bo -- ha;
@@ -25,8 +27,8 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -63,7 +65,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 c a c( d) d f f d( f) e( d) \barMaior
+    f f f g f g a f e d \barMin 
+    e d c e f d d \barFinalis
   }
   \addlyrics {
     Sta -- čí ti, Pav -- le, mo -- je mi -- lost,
@@ -72,8 +76,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -159,7 +163,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d( f) f \barMin
+    f f f g f e d( e) d( c) \barMaior
+    d d d d d( f g) f e d( c) c( d) d \barMax
+    d d c d e f( e) d \barMaior
+    f g( a g) f e c d( c) \barMin bes c d( f) e( d) d \barFinalis
   }
   \addlyrics {
     Brat -- ře Šav -- le,
@@ -170,8 +178,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
