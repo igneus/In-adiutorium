@@ -76,3 +76,11 @@
   \include "antifony/mezidobi_nedeleB_21_30.ly"
   \include "antifony/mezidobi_nedeleB_31_33.ly"
 }
+
+\bookpart {
+  \header {
+    subtitle = "Cyklus C"
+  }
+  
+  \include "antifony/mezidobi_nedeleC_02_10.ly" 
+}
