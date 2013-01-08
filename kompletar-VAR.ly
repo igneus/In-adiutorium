@@ -628,6 +628,62 @@
   }
 }
 
+\markup\nadpisSkupiny{1.2}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( c) a4. a \barMin
+    a4 b g f g g( a) a \barMax
+    g a c c \mark\sipka b( c d) c( b) a a \barMin
+    \mark\sipka g4 g g a g a g f e e e \barFinalis
+    
+    f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c) c b( c) a4. a \barMin
+    a4 b g f g g( a) a \barMax
+    g a c c b( c d) c( b) \mark\sipka a( b g) g \barMin
+    \mark\sipka f4 g g a g a g f e e e \barFinalis
+    
+    f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
 \markup\nadpisSkupiny{2}
 \markup\justify{První a poslední oddíl (opatřené značkou sn)
 sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
