@@ -5,7 +5,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 a c a c a c d c c \barMaior
+    c c c b( a g) g \barMin f f g a f f f \barFinalis
   }
   \addlyrics {
     V_ga -- li -- lej -- ské Ká -- ně by -- la svat -- ba
@@ -13,8 +14,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -25,7 +26,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f( g a) a( g) a \barMin a g a bes a g( f) d( c) c \barMaior
+    d d d f g g( f) f \barFinalis
   }
   \addlyrics {
     Je -- žíš pro -- mě -- nil na svat -- bě vo -- du ve ví -- no
@@ -33,8 +35,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = ""
@@ -43,9 +45,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 c d d e( d) d \barMin d d d( e) d c a g \barMaior
+    g f g a g a( c) c c b a g g \barFinalis
   }
   \addlyrics {
     V_ga -- li -- lej -- ské Ká -- ně Je -- žíš zje -- vil svou slá -- vu
@@ -53,8 +56,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -65,9 +68,11 @@
 \markup {\nadpisDen {"3. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a e( f g a) a \barMin a a a( b) a g f f( g) e e \barMaior
+    f f f f e d d( e) e \barMin
+    c d e e g g e( f) e e \barFinalis
   }
   \addlyrics {
     Je -- žíš při -- šel v_sí -- le Du -- cha do Ga -- li -- le -- je;
@@ -76,8 +81,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = ""
@@ -114,9 +119,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g f) g a g a c a a \barMin
+    c d c b g a g f \barFinalis
   }
   \addlyrics {
     Dnes se na -- pl -- ni -- lo Pís -- mo,
@@ -124,8 +130,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
