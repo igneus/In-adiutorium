@@ -139,6 +139,73 @@
   }
 }
 
+\markup {\nadpisDen {"4. neděle"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Všich -- ni se di -- vi -- li mi -- lým slo -- vům
+    vy -- chá -- ze -- jí -- cím z_Je -- ží -- šo -- vých úst.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    annus = "C"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Žád -- ný pro -- rok ne -- ní ví -- ta -- ný 
+    ve svém do -- mo -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    annus = "C"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
+    a ved -- li Je -- ží -- še na sráz ho -- ry,
+    a -- by ho sra -- zi -- li do -- lů.
+    
+    On však pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    annus = "C"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 %{
 \markup {\nadpisDen {"X. neděle"}}
 
