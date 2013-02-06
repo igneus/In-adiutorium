@@ -136,3 +136,11 @@
   
   \include "antifony/pust_nedeleB.ly"
 }
+
+\bookpart {
+  \header {
+    subtitle = "Neděle - ant. k Benedictus a Magnificat - cyklus C"
+  }
+  
+  \include "antifony/pust_nedeleC.ly"
+}
