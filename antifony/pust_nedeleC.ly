@@ -5,7 +5,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 c d d( g) d e f d d \barMin
+    d d c( a) a d( c) c( d) d \barMax
+    d d d( e f g) e f( e d) d \barMin c d c b( c a) \barMaior
+    c d f f e( d) e( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš se vrá -- til od Jor -- dá -- nu
@@ -15,8 +18,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -26,13 +29,20 @@
 \score {
   \relative c' {
     \choralniRezim
+    e e a a g f a( b) a \barMaior
+    e e e e( f) e \barMin
+    g g a g a f e e \barMin
+    d d d g( f) g e \barMax
     
+    e e e d( e d) c e e \barMaior
+    e d( a') a \barMin
+    b a g e f f e e \barFinalis
   }
   \addlyrics {
     Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
     Jsi -- -li Syn Bo -- ží, 
     řek -- ni to -- mu -- to ka -- me -- ní,
-    ať se z_ně -- ho sta -- ne chléb!
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
     
     Je -- žíš mu od -- po -- vě -- děl:
     Je psá -- no:
@@ -40,8 +50,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -49,9 +59,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 f g a c b c d c b a a \barMaior
+    g g g g a g \barMin
+    a a c b a b g g \barFinalis
   }
   \addlyrics {
     Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
@@ -60,8 +72,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
