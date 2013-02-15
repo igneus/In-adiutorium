@@ -85,11 +85,16 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 e e e f( g) e \barMin
+    g g g g a g a c b \barMaior
+    c c c a( g f) g g g f d d \barMax
     
+    e e( f) \barMin g g f e g a g g \barMaior
+    a a a a( c) g g a( f) f( e) e \barFinalis
   }
   \addlyrics {
     Když se Je -- žíš mod -- lil,
-    výraz tvá -- ře se mu změ -- nil
+    vý -- raz je -- ho tvá -- ře se změ -- nil % orig: výraz tvá -- ře se mu změ -- nil
     a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
     
     A hle, roz -- mlou -- va -- li s_ním dva mu -- ži_-
@@ -97,8 +102,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -106,19 +111,27 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a( g a) c( d) c b( c) a \barMin
+    c c c( d e) d( c) d \barMaior
+    d c b a a b a g a a( g) \barMin
     
+    % bylo by asi hezci, za cenu modifikace textu:
+    % f( g) g a( b c) a g g a a \barFinalis %%% vec -- ne -- ho zi -- vo -- ta
+    
+    f( g) g a b c d c b c a a a \barFinalis
   }
   \addlyrics {
-    Náš Pán Je -- žíš Kris -- tus zlo -- mil moc smr -- ti
+    Náš Pán Je -- žíš Kris -- tus 
+    zlo -- mil moc smr -- ti
     a při -- ne -- sl nám v_e -- van -- ge -- li -- u
     svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -128,7 +141,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4( a) a( g) g a a( c b) g a \barMaior
+    c c c d c b c a \barMin
+    g g a g f f \barFinalis
   }
   \addlyrics {
     Z_ob -- la -- ku se o -- zval hlas:
@@ -137,13 +152,15 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup\nadpisDen{3. neděle postní}
 
@@ -312,3 +329,5 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%}
