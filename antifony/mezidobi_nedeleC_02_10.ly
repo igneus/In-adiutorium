@@ -18,7 +18,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne2c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -39,7 +39,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne2c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -60,7 +60,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne2c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -85,7 +85,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne3c-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -110,10 +110,9 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
     fial = "fial://advent_antifony.ly#predvanocni-zlm-st-a3"
     annus = "C"
-    id = ""
+    id = "ne3c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -134,7 +133,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne3c-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -157,7 +156,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne4c-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -180,7 +179,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne4c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -209,7 +208,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne4c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -234,7 +233,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne5c-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -258,7 +257,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne5c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -281,7 +280,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne5c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
