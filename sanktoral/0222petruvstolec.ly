@@ -84,9 +84,13 @@
 \markup\italic{Responsorium ze společných textů o apoštolech.}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g a a g f e e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f g f d e e e \barMin
+    g g g a g( f) e \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
@@ -97,10 +101,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -172,7 +177,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 f a a g( f) f \barMin
+    g f g g a f g g \barMaior
+    a a a a g f d( e c) c \barMin
+    d e f g a g f f \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,
@@ -182,8 +190,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
