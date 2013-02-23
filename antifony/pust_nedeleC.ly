@@ -160,22 +160,22 @@
   }
 }
 
-%{
-
 \markup\nadpisDen{3. neděle postní}
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f e d f e g( a) \barMaior
+    a a a f g f( e) d \barMin c d e e d d \barMaior
   }
   \addlyrics {
-    
+    O -- brať -- te se, pra -- ví Pán,
+    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -183,17 +183,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 b c c d c b c c( a) a \barMin
+    g a g f e d \barMaior
+    e a a g( a) a a c( a) a \barMin
+    c c c d d a a \barMin g g f g( e) e \barFinalis
   }
   \addlyrics {
-    
+    Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
+    na zá -- kla -- dě ví -- ry,
+    ži -- je -- me v_po -- ko -- ji s_Bo -- hem
+    skr -- ze na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "III"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -203,15 +209,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d c d( f) f g g f g f( e d) e( d) d \barMaior
+    d d d d( e) e( d) d \barMin f f f g g( f e d) \barMaior
+    c d c d f e c a \barMin
+    d d d d( e f) e d c( e) d d \barFinalis
   }
   \addlyrics {
-    
+    Vi -- nař ře -- kl ma -- ji -- te -- li vi -- ni -- ce:
+    Nech tu ten fí -- kov -- ník ješ -- tě ten -- to rok;
+    o -- ko -- pám ho a po -- hno -- jím,
+    snad příš -- tě o -- vo -- ce po -- ne -- se.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -226,7 +238,9 @@
     
   }
   \addlyrics {
-    
+    Vsta -- nu a pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
+    Ot -- če, zhře -- šil jsem pro -- ti Bo -- hu i pro -- ti to -- bě;
+    už ne -- jsem ho -- den, a -- bych se na -- zý -- val tvým sy -- nem.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -244,7 +258,9 @@
     
   }
   \addlyrics {
-    
+    O -- tec u -- vi -- děl své -- ho sy -- na 
+    a po -- hnut sou -- ci -- tem vy -- šel mu vstříc,
+    ob -- jal ho a po -- lí -- bil.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -262,7 +278,11 @@
     
   }
   \addlyrics {
-    
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co je mo -- je, je i tvo -- je.
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -282,7 +302,8 @@
     
   }
   \addlyrics {
-    
+    Je -- žíš se se -- hnul a psal prs -- tem na zem, po -- tom ře -- kl:
+    Kdo z_vás je bez hří -- chu, ať ho -- dí ka -- me -- nem prv -- ní!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -300,7 +321,9 @@
     
   }
   \addlyrics {
-    
+    Je -- den za dru -- hým se vy -- trá -- ce -- li,
+    star -- ší na -- před,
+    až zů -- stal Je -- žíš sám a že -- na před ním.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -318,7 +341,9 @@
     
   }
   \addlyrics {
-    
+    Ni -- kdo tě ne -- od -- sou -- dil?
+    A -- ni já tě ne -- od -- su -- zu -- ji.
+    Jdi a od ny -- něj -- ška už ne -- hřeš!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -329,5 +354,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%}
