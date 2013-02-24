@@ -235,17 +235,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d \barMin d d c d e f g f e e \barMaior
+    e( a) a c a g \barMin a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin e e e e f e g f( d e) e \barFinalis
   }
   \addlyrics {
-    Vsta -- nu a pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
+    Vsta -- nu, pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
     Ot -- če, zhře -- šil jsem pro -- ti Bo -- hu i pro -- ti to -- bě;
     už ne -- jsem ho -- den, a -- bych se na -- zý -- val tvým sy -- nem.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -255,7 +257,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d e f e f d d \barMaior
+    f f f e( g) f f g( a) f g e( d) \barMaior
+    e d c a c d d \barFinalis
   }
   \addlyrics {
     O -- tec u -- vi -- děl své -- ho sy -- na 
@@ -264,8 +268,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
