@@ -64,7 +64,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g f g( a g) a a \barMaior
+    c c d c( b a) a \barMin
+    g f e f g g f f \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Pet -- ro -- vi:
@@ -73,8 +75,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
