@@ -279,19 +279,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 d \barMin f g a g f( g) f \barMaior
+    g g f g f( e d) e e d d \barMax
     
+    f g a( bes) a g f g g g a g( a) g g( f) \barMaior
+    f f f f f f g f e d d \barMin d c d d( f) f \barMaior
+    f f( g) f \barMin g a bes a g f f \barFinalis
   }
   \addlyrics {
     Dí -- tě, ty jsi po -- řád se mnou
-    a všech -- no, co je mo -- je, je i tvo -- je.
+    a všech -- no, co 
+    mám, %orig: je mo -- je, 
+    je i tvo -- je.
+    
     A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
     pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
     byl ztra -- cen, a je za -- se na -- le -- zen.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -301,18 +309,22 @@
 \markup\nadpisDen{5. neděle postní}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a e( f) d \barMin e e d c d d \barMaior
+    f f g( a) a \barMin
+    a g( f e) g g( a) a a \barMin
+    f e d f e d c( d) d \barFinalis
   }
   \addlyrics {
-    Je -- žíš se se -- hnul a psal prs -- tem na zem, po -- tom ře -- kl:
+    Je -- žíš se se -- hnul a psal prs -- tem na zem, 
+    po -- tom ře -- kl:
     Kdo z_vás je bez hří -- chu, ať ho -- dí ka -- me -- nem prv -- ní!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -322,7 +334,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g e f e f g f e e \barMin
+    d d d( f) f( d) \barMaior
+    d d d f( g) a g( f g) \barMin d c d e( d) d \barFinalis
   }
   \addlyrics {
     Je -- den za dru -- hým se vy -- trá -- ce -- li,
@@ -331,8 +345,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -340,9 +354,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g a b a b b( c) b \barMaior
+    c c c( d) c a g f e e \barMin
+    f g a a a g a a( g) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo tě ne -- od -- sou -- dil?
@@ -351,8 +367,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
