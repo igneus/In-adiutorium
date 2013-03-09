@@ -226,6 +226,8 @@
     d4( g) g g a a g f g a a \barMaior
     a g( c) a4. a \barMin
     f4 f a f e( d) d \barFinalis
+    
+    e^\markup\rubrVelikAleluja c d d \barFinalis
   }
   \addlyrics {
     Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
@@ -252,6 +254,8 @@
     f4( g) g g a bes a g a f g a a \barMin
     a a g a bes( f) g a \barMin
     a bes a a a g f g d d \barFinalis
+    
+    g^\markup\rubrVelikAleluja f( e) d d \barFinalis
   }
   \addlyrics {
     Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
@@ -273,7 +277,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c( d) d( a') \barMin
+    g g g g( a) g g f( g) f d( c) c \barMaior
+    d e f f g f g f( e d) \barMaior
+    f f f( g) \barMin f g f e d e e( d) d \barFinalis
     
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Jo -- sef vstal,
@@ -361,7 +370,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d e d c d e e( d) d \barMaior
+    d d d d( g) f f( g) \barMin
+    f f g f e d( e) d d \barMin e( d c) a c d d \barMaior
+    d d d f d g f d d \barFinalis
     
+    c^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Jo -- sef se u -- sa -- dil v_Na -- za -- re -- tě,
@@ -373,8 +387,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -389,6 +403,8 @@
     g4 g g g a g g f e f( g) g g f( e) d4. d \barMin
     f4 g a a c4. b \barMaior
     c4 d c b a g a( f g4.) g \barFinalis
+    
+    g4^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- vi ro -- di -- če pu -- to -- vá -- va -- li kaž -- dý rok
@@ -409,9 +425,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 g a bes a g( a) a \barMin
+    f f g a a( bes) a g f e d d \barMaior
+    f f f g a g g f e d c c( d) d \barFinalis
     
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Když se vra -- ce -- li do -- mů,
@@ -422,8 +442,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a2" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -431,9 +451,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 bes a g f( g) g( a) a \barMaior
+    f f f f f f g a g a g f e d d \barMaior
+    d c( f e) d( c) c( d) d \barMaior
     
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- ží -- še ne -- na -- šli,
@@ -444,8 +468,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a2" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -463,6 +487,8 @@
     g4 g g g g g f e d d \barMaior
     f e f( g) g \barMin
     g a a a f( e f) d d \barFinalis
+    
+    f^\markup\rubrVelikAleluja e c( d) d \barFinalis
   }
   \addlyrics {
     Po třech dnech
@@ -486,21 +512,31 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d d f e( d) c \barMaior
     
+    d4. d \barMin f4 f e d c d d \barMaior
+    f \barMin f g f e d( c) \barMin d d d e f 
+    d( e) d d \barFinalis
+    
+    d( e) d d( c) \barMin c d d d \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka řek -- la:
     Dí -- tě, proč jsi nám to u -- dě -- lal?
-    Hle, tvůj o -- tec i já jsme tě s_bo -- les -- tí hle -- da -- li.
+    Hle, tvůj o -- tec i já jsme tě s_bo -- les -- tí 
+    \markup{\Dagger hle} -- da -- li.
     
+    \markup{\Dagger hle} -- da -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 112"
     id = ""
+    fons = "kousek z: Svaté Rodiny, cyklus C, k Benedictus"
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-abenC?cast"
     piece = \markup {\sestavTitulek}
   }
 }
