@@ -65,7 +65,7 @@ text = \lyricmode {
 akordy = \chords {
   % 1
   f1 c1 
-  f2 c4 f4
+  f2 c4 f4 s2
   c4 f4 c2    c4 f4 c2   f2 c4 f4
   
   
@@ -83,11 +83,13 @@ melodie = \relative c' {
   
   % 1
   r8 f a g a g a bes c4 c r2 |
-  a8( c) bes a g f f r8
-  g g f a g g8~ g4  g4 f8 a g g r4 c8 c c a g8( f) f4
+  a8( c) bes a g f f r8 \time 2/4 r2
+  \time 4/4 g8 g f a g g8~ g4  g4 f8 a g g r4 c8 c c a g8( f) f4 
+  r1 \bar "||" \break
   
   % 2
-  a8 a g f g4 g8 a4. a4 bes8 bes bes4 a8 g f( g) g
+  a8 a g f g4 g8 a~ a4 a r4 bes8 bes bes4 a8 g f( g) g4 r2.
+  f8 f~ f r8 f f g a g f~ \time 2/4 f4 f4 \time 4/4 r1 \bar "||" \break
 }
 
 % zalm

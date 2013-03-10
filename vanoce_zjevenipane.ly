@@ -15,8 +15,8 @@
     \choralniRezim
     g4 c4.( a) \barMin 
     a4 b( c) c( b) b \barMaior
-    d c( b) a( b g) g f g a f f g g \barMaior
-    a b( c) b( c a) g a( g) g \barFinalis
+    d c( b) a( b) g f g a f f g g \barMaior
+    a b b( c) g a( g) g \barFinalis
   }
   \addlyrics {
     Náš Pán
@@ -56,11 +56,11 @@
   \relative c'' {
     \choralniRezim
     g4( a) g g( c) c \barMin
-    c( d c) b a( b g) g \barMaior    
+    b a a( b g) g \barMaior    
     g e( f) g( a) a g a( c b) a b( g) g \barMin
     f( a) g f g4. g \barMax
     
-    f4 g g g a( c) b( a g) g \barMin
+    f4 g g g a( c) b( g) g \barMin
     g a f f f e e \barFinalis
   }
   \addlyrics {
@@ -84,8 +84,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) a b( g) g \barMin
-    a( g) f g g e \barFinalis
+    g( c d) c b( a) c \barMin
+    b g a a g \barFinalis
   }
   \addlyrics {
     Chval -- te Pá -- na,
@@ -104,10 +104,10 @@
   \relative c'' {
     \choralniRezim
     g4 a( c) c c c d c c b( a) c \barMax
-    c d( c) a c b a g g \barFinalis \break
+    c c c b a b a g \barFinalis \break
     
     c c c c d( c) b( a) c \barMax
-    a c b a g g \barFinalis \break
+    c c( b) a( b) a g g \barFinalis \break
     
     c c d c c b( a) c \barMax
     a c( b) a g g \barFinalis \break
@@ -200,8 +200,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e( d) d d( g) f e f( g) g \barMaior
-    a( d,) d e g f( e) d \barFinalis
+    d4( c a) c( d) d d( f) d c f( e) d \barMaior
+    d( f g f) f( d c) \barMin a c c( d) d \barFinalis
   }
   \addlyrics {
     Zje -- vil se Spa -- si -- tel svě -- ta:
@@ -223,9 +223,9 @@
     \choralniRezim
     g4( f e) f( g) g \barMin
     g a c b a( g) f g g g \barMaior
-    g a( b) c d b c a4. a \barMaior
-    c4( b a g) g \barMin a f f a g4. g \barMaior
-    g4 g( a) g4. g \barFinalis
+    g a( c) b a b a g g \barMaior
+    a( c b g) g \barMin a f f a g g \barMaior
+    g4 g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- dr -- ci
@@ -247,10 +247,10 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( a f g) g \barMin
-    a( b) c a g4. g \barMaior
+    a( b) c a g g \barMaior
     c4 d( c) b( a) g \barMin
     a( f) e e g g \barMaior
-    f a a g \barFinalis
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Mo -- ře a ře -- ky,
@@ -273,10 +273,10 @@
     \choralniRezim
     \key f \major
     d4( f) e d f( g) g \barMin a( f) g f d4. d \barMax
-    d4 d d d d f g g g f g a( bes) a a \barMin
-    a c( g) bes( a) g \barMin
-    g g a f e d d \barMax
-    d f( e) c d \barFinalis
+    d4 d d d d f g g g f g a( bes) a a \barMaior
+    a g( a) g( f) d \barMin
+    f f g f e d c 
+    e f d d \barFinalis
   }
   \addlyrics {
     Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
@@ -304,7 +304,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna
-    f4 f f f f f f e g g a \barMax
+    f4 f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -332,13 +332,13 @@
     g4( a) f g a \barMaior
     a b c c c b( a g4.) g4 \barMin
     a f e e( g) g g \barMaior
-    g a b c c c d( c) a4. a \barMin
+    g a b c c c d( c) a a \barMin
     b4( c) a g f f( g) g \barMax
     
     g g g a g a b( c) c \barMin
     c b a b g g \barMaior
-    g g( a) a a f( g) a a \barMin
-    c c d c b c a( g) f4. g \barMaior
+    g g( a) a a f( g) g( a) a \barMin
+    c c d c b a a( b) g g \barMaior
     
     g4 a a( g) g \barFinalis
   }
@@ -440,9 +440,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d d c( b) a( g) g \barMaior
-    a b c c b( d) d \barMin
-    d( c) b a b g4. g \barFinalis
+    g4 g f e d( e) d d \barMin e f g g g( a g c) a \barMin
+    b c c a g g \barFinalis
   }
   \addlyrics {
     Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
@@ -450,8 +449,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
@@ -465,8 +464,8 @@
     f4 e f f4.( g) \barMin
     a4 bes a( g) a \barMin
     a bes g g f e4.( d) \barMaior
-    d4( f e) d f( g) g g \barMin
-    f g a a f e d d \barFinalis
+    d4( f e) d e d c \barMin
+    d d f f e c d d \barFinalis
   }
   \addlyrics {
     Mi -- lo -- srd -- ný,
@@ -484,27 +483,20 @@
   }
 }
 
-% Melodie castecne prevzata z antifon ze zaltare:
-% patek 1. tydne, nespory, 3. ant.
-
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b( c) a a \barMin
-    a b g f g g( a) a \barMaior
-    c( a) a \barMin
-    b c a a a g f f( g e) e \barFinalis
+    a4 a c b a \barMin c b c d d e( d b c) b( a) \barMaior
+    g( a) a \barMin a g a a b d c a a \barFinalis
   }
   \addlyrics {
-    Všech -- ny ná -- ro -- dy,
-    kte -- ré jsi, Bo -- že, stvo -- řil,
-    při -- jdou,
-    a bu -- dou se před te -- bou kla -- nět.
+    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
   }
   \header {
     quid = "3. ant."
-    modus = "IV"
-    differentia = "g" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
