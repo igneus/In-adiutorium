@@ -682,18 +682,15 @@
   
   \markup {\nadpisDen {svátek Svaté Rodiny}}
   
-  %\markup\justify\huge {!!! Následují antifony k Benedictus a Magnificat
-  %pro rok s nedělním cyklem B.}
-  
   \markup {\nadpisHodinka {"1. nešpory"}}
   
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g f g g( a) a a \barMin
-      g f g f( e) d \barMaior
-      d c d f( a) a a g( a) f4.( e4 d) \barMin
-      e e( f) g f d4. d \barFinalis
+      g4 g g f g g a a \barMin
+      a g a( c) b g( a) \barMaior
+      a g a a( b c) a( g) g a( g) g( f d) \barMin
+      f f g a g g \barFinalis
     }
     \addlyrics {
       Ja -- kub byl O -- tec Jo -- se -- fa,
@@ -703,8 +700,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = "I"
-      differentia = "g" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = "Žalm 113"
       id = "svrodiny-1ne-a1"
       piece = \markup {\sestavTitulek}
@@ -748,10 +745,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a g a a a f e d4. d \barMax
-      d4( g) g g a a g f g a a \barMaior
-      a g( c) a4. a \barMin
-      f4 f a f e( d) d \barFinalis
+      g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
+      f g a c( b) c( d) d d c( b) a a \barMaior
+      c b( g) a g \barMin 
+      a g f a a( g) g \barFinalis
     }
     \addlyrics {
       Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
@@ -761,7 +758,7 @@
     }
     \header {
       quid = "3. ant."
-      modus = "I"
+      modus = "VII"
       differentia = "a" 
       psalmus = "Ef 1"
       id = "svrodiny-1ne-a3"
@@ -874,11 +871,11 @@
   \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 g g g a g g f e f( g) g g f( e) d4. d \barMin
-      f4 g a a c4. b \barMaior
-      c4 d c b a g a( f g4.) g \barFinalis
+      f4 f f f g a a f( g a) g f e d g d e( d c) \barMin
+      d( e f) g( a) f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
     }
     \addlyrics {
       Je -- ží -- šo -- vi ro -- di -- če pu -- to -- vá -- va -- li kaž -- dý rok
@@ -887,8 +884,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = "VIII"
-      differentia = "G" 
+      modus = "I"
+      differentia = "f" 
       psalmus = "Žalm 63"
       id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
@@ -1075,7 +1072,7 @@
       a g bes( a) g f g4. g \barMax
       g4 g g g g g f e d d \barMaior
       f e f( g) g \barMin
-      g a a a f( e f) d d \barFinalis
+      g a a a f( e) c( d) d \barFinalis
     }
     \addlyrics {
       Po třech dnech
@@ -1097,9 +1094,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g f g g( a) a \barMin
-      g f e f e e \barMax
-      f f e d f( g) g g a( f) g( f) e e \barFinalis
+      a4 a a b c b( a) g \barMin
+      c d e e d( c d) c( b a) \barMaior
+      d d( e d) c b a( g) g g c b g g \barFinalis
     }
     \addlyrics {
       Je -- žíš se s_ni -- mi vy -- dal
@@ -1108,8 +1105,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = "IV"
-      differentia = "g" 
+      modus = "VII"
+      differentia = "a" 
       psalmus = "Žalm 127"
       id = "svrodiny-2ne-a2"
       piece = \markup {\sestavTitulek}
