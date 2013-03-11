@@ -102,7 +102,7 @@
     \textRespDoxologie
   }
   \header {
-    piece = "všední dny - ranní chvály (IV alt)"
+    piece = "všední dny - ranní chvály (II)"
     id = "fe-rch"
   }
 }
@@ -132,7 +132,7 @@
     \textRespDoxologie
   }
   \header {
-    piece = "všední dny - nešpory (IV alt)"
+    piece = "všední dny - nešpory (II)"
     id = "fe-ne"
   }
 }
