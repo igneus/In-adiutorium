@@ -54,6 +54,7 @@ uvodniVers = \lyricmode {
     }
   }
   
+  %{
   \markup\justify{
     Klasické podání verše \italic{Domine, labia mea aperies}
     má nejprostší myslitelný nápěv (viz výše).
@@ -66,22 +67,6 @@ uvodniVers = \lyricmode {
     Proto vedle nápěvu podle \italic{Antiphonale Romanum} 
     nabízím i několik vlastních pokusů o jeho zpracování:
   }
-  
-  %{
-  \score {
-    \relative c' {
-      \choralniRezim
-      \neviditelna f
-      f4 g a a a a( b g) g( a) \barMax
-    }
-    \addlyrics {
-      \paneOtevri
-    }
-    \header {
-      piece = "J.P."
-    }
-  }
-  %}
   
   \score {
     \relative c'' {
@@ -98,6 +83,7 @@ uvodniVers = \lyricmode {
       piece = "J.P."
     }
   }
+  %}
   
   \markup\sekce{I.2 Ostatní hodinky}
   
@@ -116,7 +102,7 @@ uvodniVers = \lyricmode {
       c c c c c c c c c c c c c c \barMin \break
       c^\markup\italic{mimo dobu postní:} c c c c c b( c) c \barMaior
       c d c( b) b \barFinalis
-      c^\markup\italic{v době postní:} c c c d c c( b) a \barFinalis
+      c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
     }
     \addlyrics {
       \uvodniVers
@@ -139,7 +125,7 @@ uvodniVers = \lyricmode {
       
       c^\markup\italic{mimo dobu postní:} c c c c c b c \barMaior
       c d c( b) b \barFinalis
-      c^\markup\italic{v době postní:} c c c d c c( b) a \barFinalis
+      c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
     }
     \addlyrics {
       \uvodniVers
@@ -379,8 +365,9 @@ uvodniVers = \lyricmode {
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c4 c c c c b a c c \barMin 
-      c c b a c c \barMin
+      \stemUp % kvuli poloze akcentovych znacek
+      c4 c c c c c c c-| a \barMin 
+      c c b a c-| c \barMin
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
@@ -469,11 +456,40 @@ uvodniVers = \lyricmode {
   \markup\sekce{IV.3 Kompletář}
   
   \markup\justify{
-    Verš (mírně jiného znění) ve stejné liturgické funkci
+    Verš (poněkud jiného znění) ve stejné funkci závěru hodinky
     se podle \italic{Antiphonale Romanum} nezpívá, ale recituje -
     hlubokým hlasem a "\"protaženě\"" (snad ve smyslu pomaleji).
   }
   
+  \markup\justify{
+    Verš téhož znění, ale umístěný na začátku, nikoli na konci
+    kompletáře, se tamtéž notuje takto:
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna d
+      c4 c c c c b a c \barMaior
+      c c c c c c c c c c c c c c f, f \barFinalis
+      
+      \neviditelna g
+      b c \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, po -- koj -- nou noc,
+      a po -- si -- luj nás,
+      ať vy -- tr -- vá -- me v_dob -- rém až do kon -- ce.
+      \Response A -- men.
+    }
+    \header {
+      modus = "II"
+      id = ""
+      piece = ""
+    }
+  }
+  
+  %{
   \markup\justify{
     Jako varianta kousek liturgické tvořivosti bez sebemenší 
     opory v tradici:
@@ -502,6 +518,7 @@ uvodniVers = \lyricmode {
       piece = ""
     }
   }
+  %}
 }
 
 \bookpart {
