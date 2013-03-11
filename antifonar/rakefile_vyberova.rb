@@ -28,8 +28,8 @@ end
 
 file "vystup/antifonar_narozenipane.tex" => (["antifonar_narozenipane.lytex", 
                                               "spolecne_antifonar.ly", 
-                                              "../dilyresponsorii.ly"]
-                                             + zalmy_narozeni
+                                              "../dilyresponsorii.ly"] \
+                                             + zalmy_narozeni \
                                              + noty_narozeni) do |t|
   sh "lilypond-book --output=vystup --pdf "+t.prerequisites.first
 end
