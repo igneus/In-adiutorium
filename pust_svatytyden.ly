@@ -305,7 +305,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      e4 g g g f( g a) g f e d e f g e d \barMaior
+      d d( a') g( a) g f g g f( g) e e \barFinalis
     }
     \addlyrics {
       U -- čed -- ní -- ci pře -- ho -- di -- li pláš -- tě přes os -- lát -- ko
@@ -314,8 +315,8 @@
     \header {
       quid = "ant. k Magnificat"
       annus = "C"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "E" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
@@ -408,23 +409,31 @@
       kte -- ré při -- chá -- zí.
     }
     \header {
-      quid = "ant. k Benedictus /cyklus B/"
+      quid = "ant. k Benedictus"
+      annus = "B"
       modus = "I"
       differentia = "D" 
       psalmus = ""
       id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
   \score {
     \relative c' {
+      \key f \major
       \choralniRezim
+      d4 d d( g f) e f g g g \barMin
+      a g g g bes( c bes) a( g) g a( g f) g f( d) d \barMax
       
+      f( a) g f( g) f f \barMaior
+      g g g g a( g) \barMin a bes c bes a g g g( a g) \barMin g f e d( c) d \barMaior
+      d e f g( a) g \barMin f g( a f) e d e d d \barFinalis      
     }
     \addlyrics {
       Ce -- lý zá -- stup u -- čed -- ní -- ků
       ra -- dost -- ně a hla -- si -- tě chvá -- lil Bo -- ha.
+      
       Pro -- vo -- lá -- va -- li:
       Po -- žeh -- na -- ný ten,
       kte -- rý při -- chá -- zí ja -- ko král ve jmé -- nu Pá -- ně!
@@ -433,8 +442,8 @@
     \header {
       quid = "ant. k Benedictus"
       annus = "C"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
@@ -522,19 +531,23 @@
       že nám při -- ne -- seš spá -- su.
     }
     \header {
-      quid = "ant. k Magnificat /cyklus B/"
+      quid = "ant. k Magnificat"
+      annus = "B"
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
       id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 f f f( g) g \barMin
+      f f e d f e d( e) d d \barMaior
+      c d d d d( c) c \barMin
+      d d d d( e d) e( f) d d \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
@@ -545,8 +558,8 @@
     \header {
       quid = "ant. k Magnificat"
       annus = "C"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
