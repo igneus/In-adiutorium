@@ -400,9 +400,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g f f \barMaior
+      g g( a) a f( g a) a c b g g \barMin
+      f a g g \barFinalis
     }
     \addlyrics {
       Byl jsem mr -- tev,
@@ -411,8 +413,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = "Žalm 3"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -736,17 +738,21 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 f g a g( e) f d( c) c \barMaior
+      d d e f e f g \barMin 
+      a a g f f \barMaior
+      g a f f \barFinalis
     }
     \addlyrics {
       Nechť řek -- ne dům Iz -- ra -- e -- lův:
       Je -- ho mi -- lo -- sr -- den -- ství
       tr -- vá na -- vě -- ky.
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VI" % zalm 118 ma "smulu" na mod VI; fakt jsem mel dobrou vuli slozit tuhle radku v jinem, ale zase to spadlo do sestky
+      differentia = "F" 
       psalmus = "Žalm 118-I"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -756,7 +762,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f( a) a( g) g \barMin g f( g f) e d c \barMaior
+      d f g( f) f \barFinalis
     }
     \addlyrics {
       Hos -- po -- din se stal mou spá -- sou.
@@ -764,8 +771,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VI"
+      differentia = "F" 
       psalmus = "Žalm 118-II"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -775,7 +782,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      f4 f f e f g f f a f f( g) g \barMaior
+      g g a g f g( f) d \barMin e f g g 
+      g a( g) f f \barFinalis
     }
     \addlyrics {
       Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,
@@ -784,8 +793,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VI"
+      differentia = "F" 
       psalmus = "Žalm 118-III"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -856,6 +865,7 @@
     \addlyrics {
       O -- sla -- vuj -- te Hos -- po -- di -- na,
       on sám u -- či -- nil vel -- ké di -- vy.
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "1. ant."
