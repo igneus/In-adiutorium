@@ -491,7 +491,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      
+      d4 d d b( d) c b \barMin 
+      c a a( b) g g \barMaior
+      f g a( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din zá -- stu -- pů,
@@ -500,8 +502,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VII"
+      differentia = "d" 
       psalmus = "Žalm 24"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -876,9 +878,12 @@
   \markup {\nadpisHodinka {"modlitba se čtením"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      \key f \major
+      a4 g a bes c bes a( g) g \barMaior
+      f f f( e) d( c) c f e f( d) d \barMaior
+      f g( f) d d \barFinalis
     }
     \addlyrics {
       O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -887,8 +892,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = "Žalm 136-I"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -896,9 +901,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      \key f \major
+      a4 g f a a g a a( bes) a a( g f) \barMaior
+      g f a g f e d \barMin c f e( f) d d \barMaior
+      g f d d \barFinalis
     }
     \addlyrics {
       Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,
@@ -907,8 +915,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = "Žalm 136-II"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -916,9 +924,12 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      \key f \major
+      a4( bes) g g a a \barMin
+      f g a e f d d \barMin
+      e g f( d) d \barFinalis
     }
     \addlyrics {
       Vy -- svo -- bo -- dil nás
@@ -927,8 +938,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a" 
       psalmus = "Žalm 136-III"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -992,9 +1003,11 @@
   \markup {\nadpisHodinka {"modlitba se čtením"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4( a) a( c) c c d( c) c( b) g \barMaior
+      a a f a g b c a g( a) g \barMaior
+      f f g g \barFinalis
     }
     \addlyrics {
       Ve -- li -- ký je Hos -- po -- din,
@@ -1003,8 +1016,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = "Žalm 145-I"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -1012,9 +1025,11 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g g( a) g g g( c) b( c) c \barMaior
+      c( d b c) a( g f) \barMin f d( f) f( g) a g g \barMaior
+      f f f( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din u -- ve -- dl ve zná -- most
@@ -1023,8 +1038,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = "Žalm 145-II"
       id = ""
       piece = \markup {\sestavTitulek}
@@ -1032,20 +1047,25 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g f( g a) a \barMin
+      a b( c) c( b) a4.( g4 a f4. e) \barMaior
+      g4 g g( a) g g a( c d) c b( c) a \barMin
+      g g g g( f) d
+      f g g g \barFinalis      
     }
     \addlyrics {
       Vše, co ži -- je,
-      ať ve -- le -- bí Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      ať ve -- le -- bí 
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
       po všech -- ny vě -- ky.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = "Žalm 145-III"
       id = ""
       piece = \markup {\sestavTitulek}
