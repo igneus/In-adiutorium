@@ -34,6 +34,53 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      f4 f( e d) f( g) a \barMaior
+      a c c( a) a4.( f) \barMin g4 f d4. d \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "invit"
+      fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4( f e \barMin f g a b c a4. g) \barMin 
+      a4 g( a) f( e) e \barMaior
+      g g g( a) g( f) \barMin g a( g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Vstal_* 
+      z_mrt -- vých náš Pán,
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "E" 
+      psalmus = ""
+      id = "invit"
+      fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
