@@ -367,7 +367,7 @@
       e f d d \barFinalis
     }
     \addlyrics {
-      Já jsem, kte -- rý jsem,
+      Já jsem, kte -- rý jsem,_*
       ne -- jed -- nám po -- dle ra -- dy bez -- bož -- ných,
       a -- le mám za -- lí -- be -- ní
       v_Hos -- po -- di -- no -- vě zá -- ko -- ně.
@@ -391,7 +391,7 @@
       a f e e \barFinalis
     }
     \addlyrics {
-      Po -- žá -- dal jsem své -- ho Ot -- ce,
+      Po -- žá -- dal jsem_* své -- ho Ot -- ce,
       a dal mi v_ma -- je -- tek ná -- ro -- dy.
       A -- le -- lu -- ja.
     }
@@ -413,7 +413,7 @@
       f a g g \barFinalis
     }
     \addlyrics {
-      Byl jsem mr -- tev,
+      Byl jsem mr -- tev,_*
       a hle, jsem živ na vě -- ky vě -- ků.
       A -- le -- lu -- ja.
     }
@@ -496,7 +496,7 @@
       f g a( g) g \barFinalis
     }
     \addlyrics {
-      Hos -- po -- din zá -- stu -- pů,
+      Hos -- po -- din zá -- stu -- pů,_*
       on je král slá -- vy.
       A -- le -- lu -- ja.
     }
@@ -519,7 +519,7 @@
       e f d d \barFinalis
     }
     \addlyrics {
-      Ná -- ro -- dy, ve -- leb -- te na -- še -- ho Bo -- ha,
+      Ná -- ro -- dy,_* ve -- leb -- te na -- še -- ho Bo -- ha,
       on mě pro -- bu -- dil k_ži -- vo -- tu.
       A -- le -- lu -- ja.
     }
@@ -542,7 +542,7 @@
       e f d d \barFinalis 
     }
     \addlyrics {
-      Pojď -- te a slyš -- te,
+      Pojď -- te a slyš -- te,_*
       co Bůh pro -- ká -- zal mé du -- ši.
       A -- le -- lu -- ja.
     }
@@ -632,7 +632,7 @@
       a g f( g) g \barFinalis
     }
     \addlyrics {
-      Hos -- po -- di -- ne, můj Bo -- že,
+      Hos -- po -- di -- ne, můj Bo -- že,_*
       jsi nad -- mí -- ru vel -- ký!
       A -- le -- lu -- ja.
     }
@@ -654,7 +654,7 @@
       a g f( g) g \barFinalis
     }
     \addlyrics {
-      Ze -- mě se sy -- tí
+      Ze -- mě se sy -- tí_*
       plo -- dy tvé -- ho dí -- la.
       A -- le -- lu -- ja.
     }
@@ -676,7 +676,7 @@
       a g f( g) g \barFinalis
     }
     \addlyrics {
-      Nechť věč -- ně tr -- vá
+      Nechť věč -- ně tr -- vá_*
       Hos -- po -- di -- no -- va slá -- va.
       A -- le -- lu -- ja.
     }
@@ -764,7 +764,7 @@
       g a f f \barFinalis
     }
     \addlyrics {
-      Nechť řek -- ne dům Iz -- ra -- e -- lův:
+      Nechť řek -- ne dům Iz -- ra -- e -- lův:_*
       Je -- ho mi -- lo -- sr -- den -- ství
       tr -- vá na -- vě -- ky.
       A -- le -- lu -- ja.
@@ -786,7 +786,7 @@
       d f g( f) f \barFinalis
     }
     \addlyrics {
-      Hos -- po -- din se stal mou spá -- sou.
+      Hos -- po -- din_* se stal mou spá -- sou.
       A -- le -- lu -- ja.
     }
     \header {
@@ -807,7 +807,7 @@
       g a( g) f f \barFinalis
     }
     \addlyrics {
-      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,
+      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
       je to po -- di -- vu -- hod -- né v_na -- šich o -- čích.
       A -- le -- lu -- ja.
     }
@@ -886,7 +886,7 @@
       f g( f) d d \barFinalis
     }
     \addlyrics {
-      O -- sla -- vuj -- te Hos -- po -- di -- na,
+      O -- sla -- vuj -- te Hos -- po -- di -- na,_*
       on sám u -- či -- nil vel -- ké di -- vy.
       A -- le -- lu -- ja.
     }
@@ -909,7 +909,7 @@
       g f d d \barFinalis
     }
     \addlyrics {
-      Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,
+      Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,_*
       je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
       A -- le -- lu -- ja.
     }
@@ -932,7 +932,7 @@
       e g f( d) d \barFinalis
     }
     \addlyrics {
-      Vy -- svo -- bo -- dil nás
+      Vy -- svo -- bo -- dil nás_*
       od na -- šich pro -- tiv -- ní -- ků.
       A -- le -- lu -- ja.
     }
@@ -1010,7 +1010,7 @@
       f f g g \barFinalis
     }
     \addlyrics {
-      Ve -- li -- ký je Hos -- po -- din,
+      Ve -- li -- ký je Hos -- po -- din,_*
       je -- ho ve -- li -- kost je ne -- vy -- stiž -- ná.
       A -- le -- lu -- ja.
     }
@@ -1032,7 +1032,7 @@
       f f f( g) g \barFinalis
     }
     \addlyrics {
-      Hos -- po -- din u -- ve -- dl ve zná -- most
+      Hos -- po -- din u -- ve -- dl ve zná -- most_*
       slá -- vu své vzne -- še -- né ří -- še.
       A -- le -- lu -- ja.
     }
@@ -1056,7 +1056,7 @@
       f g g g \barFinalis      
     }
     \addlyrics {
-      Vše, co ži -- je,
+      Vše, co ži -- je,_*
       ať ve -- le -- bí 
       Hos -- po -- di -- no -- vo sva -- té jmé -- no
       po všech -- ny vě -- ky.
