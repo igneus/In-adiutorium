@@ -71,6 +71,16 @@
   nahradí se zde žalmem 95, str. \pageref{zalm24}.}
 }
 
+% texty opakovanych rubrik
+\newcommand{\rubrikaZalmyvMezidobi}{
+V liturgickém mezidobí se zpívají
+následující žalmy. V době adventní, vánoční,
+postní a velikonoční pak % text se vzdy doplni
+}
+\newcommand{\rubrikaZalmyveZvlastnichDobach}{
+V době adventní, vánoční, postní a velikonoční:
+}
+
 \begin{document}
 
 \pagestyle{empty}
@@ -141,9 +151,7 @@
 \nadpisDen{Sobota}
 \begin{hora}
 
-\rubrika{Po celý rok kromě doby adventní a vánoční se zpívají
-následující žalmy. V době adventní a vánoční však místo nich oddíly žalmu 105, 
-str. \pageref{AdvVanSoTI}.}
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 105, str. \pageref{AdvVanSoTI}.}
 
 \input{generovane/zaltar/zalm131.tex}
 \input{generovane/zaltar/zalm132i.tex}
@@ -152,7 +160,7 @@ str. \pageref{AdvVanSoTI}.}
 \oddelovac
 
 \label{AdvVanSoTI}
-\rubrika{V době adventní a vánoční:}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \input{generovane/zaltar/zalm105i.tex}
 \input{generovane/zaltar/zalm105ii.tex}
@@ -209,9 +217,7 @@ str. \pageref{AdvVanSoTI}.}
 \nadpisDen{Sobota}
 \begin{hora}
 
-\rubrika{Po celý rok kromě doby adventní a vánoční se zpívá
-následující žalm. V době adventní a vánoční však místo něj oddíly žalmu 106, 
-str. \pageref{AdvVanSoTII}.}
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 106, str. \pageref{AdvVanSoTII}.}
 
 \input{generovane/zaltar/zalm136i.tex}
 \input{generovane/zaltar/zalm136cii.tex}
@@ -220,7 +226,7 @@ str. \pageref{AdvVanSoTII}.}
 \oddelovac
 
 \label{AdvVanSoTII}
-\rubrika{V době adventní a vánoční:}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \input{generovane/zaltar/zalm106i.tex}
 \input{generovane/zaltar/zalm106ii.tex}
@@ -324,8 +330,7 @@ str. \pageref{AdvVanSoTII}.}
 \nadpisDen{Pátek}
 \begin{hora}
 
-\rubrika{Po celý rok kromě doby adventní a vánoční se zpívá
-následující žalm. V době adventní a vánoční však místo něj oddíly žalmu 78, 
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
 str. \pageref{AdvVanPaTIV}.}
 
 \input{generovane/zaltar/zalm55ci.tex}
@@ -335,7 +340,7 @@ str. \pageref{AdvVanPaTIV}.}
 \oddelovac
 
 \label{AdvVanPaTIV}
-\rubrika{V době adventní a vánoční:}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \input{generovane/zaltar/zalm78i.tex}
 \input{generovane/zaltar/zalm78ii.tex}
@@ -346,8 +351,7 @@ str. \pageref{AdvVanPaTIV}.}
 \nadpisDen{Sobota}
 \begin{hora}
 
-\rubrika{Po celý rok kromě doby adventní a vánoční se zpívá
-následující žalm. V době adventní a vánoční však místo něj oddíly žalmu 78, 
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
 str. \pageref{AdvVanSoTIV}.}
 
 \input{generovane/zaltar/zalm50i.tex}
@@ -357,7 +361,7 @@ str. \pageref{AdvVanSoTIV}.}
 \oddelovac
 
 \label{AdvVanSoTIV}
-\rubrika{V době adventní a vánoční:}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \input{generovane/zaltar/zalm78iv.tex}
 \input{generovane/zaltar/zalm78v.tex}

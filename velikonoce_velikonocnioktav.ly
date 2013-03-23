@@ -286,10 +286,12 @@
 
 \bookpart {
   \header {
-    subtitle = "2. Antifony ke kantikům z evangelií" 
+    subtitle = "2. Vlastní zpěvy pro jednotlivé dny" 
   }
  
   \markup\nadpisDen {slavnost Zmrtvýchvstání Páně}
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
  
   \score {
     \relative c' {
@@ -353,6 +355,80 @@
   
   \markup\nadpisDen {pondělí velikonoční}
   
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( a) f g( a) a \barMin
+      a a a a g f e f e d( e d) \barMaior
+      d f g a( c) b a( b) a \barMin
+      g g g f g f( e) d c \barMin
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Já jsem, kte -- rý jsem,_*
+      ne -- jed -- nám po -- dle ra -- dy bez -- bož -- ných,
+      a -- le mám za -- lí -- be -- ní
+      v_Hos -- po -- di -- no -- vě zá -- ko -- ně.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "g" 
+      psalmus = "Žalm 1"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4( g a) a( b) a a a( b) a g( f) e( d) \barMaior
+      c d( e) e e( f g) f e f( g) g g 
+      a f e e \barFinalis
+    }
+    \addlyrics {
+      Po -- žá -- dal jsem_* své -- ho Ot -- ce,
+      a dal mi v_ma -- je -- tek ná -- ro -- dy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV"
+      differentia = "E" 
+      psalmus = "Žalm 2"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g f f \barMaior
+      g g( a) a f( g a) a c b g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Byl jsem mr -- tev,_*
+      a hle, jsem živ na vě -- ky vě -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 3"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -409,6 +485,78 @@
   }
   
   \markup\nadpisDen {úterý velikonoční}
+  
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d b( d) c b \barMin 
+      c a a( b) g g \barMaior
+      f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d" 
+      psalmus = "Žalm 24"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \key f \major
+      \choralniRezim
+      d4 d( c) d \barMin f( g a) a( g) g bes g g g( a) a \barMaior
+      f f f( a bes) g( f) f e( d) c( d) d \barMaior
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Ná -- ro -- dy,_* ve -- leb -- te na -- še -- ho Bo -- ha,
+      on mě pro -- bu -- dil k_ži -- vo -- tu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D" 
+      psalmus = "Žalm 66-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4( f) e f f( a) a \barMaior
+      a a( bes g) a a a( g f) \barMin g e( f d) c
+      e f d d \barFinalis 
+    }
+    \addlyrics {
+      Pojď -- te a slyš -- te,_*
+      co Bůh pro -- ká -- zal mé du -- ši.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "D" 
+      psalmus = "Žalm 66-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
   
   \score {
     \relative c' {
@@ -474,6 +622,76 @@
   
   \markup\nadpisDen {středa velikonoční}
   
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g( c) c a a( g) f \barMin
+      a c a b g g \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- ne, můj Bo -- že,_*
+      jsi nad -- mí -- ru vel -- ký!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 104-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g g g g( c) c \barMin 
+      a b c a g g \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ze -- mě se sy -- tí_*
+      plo -- dy tvé -- ho dí -- la.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 104-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g g( c b) c d c \barMin
+      d a a g f a( b g) g \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Nechť věč -- ně tr -- vá_*
+      Hos -- po -- di -- no -- va slá -- va.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 104-III"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -535,6 +753,76 @@
   
   \markup\nadpisDen {čtvrtek velikonoční}
   
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g a g( e) f d( c) c \barMaior
+      d d e f e f g \barMin 
+      a a g f f \barMaior
+      g a f f \barFinalis
+    }
+    \addlyrics {
+      Nechť řek -- ne dům Iz -- ra -- e -- lův:_*
+      Je -- ho mi -- lo -- sr -- den -- ství
+      tr -- vá na -- vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VI" % zalm 118 ma "smulu" na mod VI; fakt jsem mel dobrou vuli slozit tuhle radku v jinem, ale zase to spadlo do sestky
+      differentia = "F" 
+      psalmus = "Žalm 118-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f( a) a( g) g \barMin g f( g f) e d c \barMaior
+      d f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din_* se stal mou spá -- sou.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = "Žalm 118-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f e f g f f a f f( g) g \barMaior
+      g g a g f g( f) d \barMin e f g g 
+      g a( g) f f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
+      je to po -- di -- vu -- hod -- né v_na -- šich o -- čích.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = "Žalm 118-III"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -586,6 +874,79 @@
   }
   
   \markup\nadpisDen {pátek velikonoční}
+  
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 g a bes c bes a( g) g \barMaior
+      f f f( e) d( c) c f e f( d) d \barMaior
+      f g( f) d d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- te Hos -- po -- di -- na,_*
+      on sám u -- či -- nil vel -- ké di -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = "Žalm 136-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 g f a a g a a( bes) a a( g f) \barMaior
+      g f a g f e d \barMin c f e( f) d d \barMaior
+      g f d d \barFinalis
+    }
+    \addlyrics {
+      Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,_*
+      je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = "Žalm 136-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4( bes) g g a a \barMin
+      f g a e f d d \barMin
+      e g f( d) d \barFinalis
+    }
+    \addlyrics {
+      Vy -- svo -- bo -- dil nás_*
+      od na -- šich pro -- tiv -- ní -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a" 
+      psalmus = "Žalm 136-III"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
   
   \score {
     \relative c'' {
@@ -639,6 +1000,80 @@
   
   \markup\nadpisDen {sobota velikonoční}
   
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a( c) c c d( c) c( b) g \barMaior
+      a a f a g b c a g( a) g \barMaior
+      f f g g \barFinalis
+    }
+    \addlyrics {
+      Ve -- li -- ký je Hos -- po -- din,_*
+      je -- ho ve -- li -- kost je ne -- vy -- stiž -- ná.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 145-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( a) g g g( c) b( c) c \barMaior
+      c( d b c) a( g f) \barMin f d( f) f( g) a g g \barMaior
+      f f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most_*
+      slá -- vu své vzne -- še -- né ří -- še.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 145-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g f( g a) a \barMin
+      a b( c) c( b) a4.( g4 a f4. e) \barMaior
+      g4 g g( a) g g a( c d) c b( c) a \barMin
+      g g g g( f) d
+      f g g g \barFinalis      
+    }
+    \addlyrics {
+      Vše, co ži -- je,_*
+      ať ve -- le -- bí 
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      po všech -- ny vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 145-III"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+  
   \score {
     \relative c' {
       \choralniRezim
@@ -674,6 +1109,8 @@
   
   \markup\nadpisDen {neděle v oktávu velikonočním}
   
+  \markup {\nadpisHodinka {"1. nešpory"}}
+  
   \score {
     \relative c'' {
       \choralniRezim
@@ -699,6 +1136,12 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \markup\italic{Žalmy a antifony jako o velikonočním pondělí.}
+  
+  \markup {\nadpisHodinka {"ranní chvály a 2. nešpory"}}
   
   \score {
     \relative c' {

@@ -18,16 +18,16 @@
     \choralniRezim
     
     \neviditelna a
-    a4( c) b a a g f g( a) f( e) d \bar "|"
-    e4 g a f e4. e \bar "||" % \break
+    a4( c) b a a g f g( a) f( e) d \barMax
+    e4 g a f e4. e \barFinalis
     
     \neviditelna d
-    d4 e a a c b a a c b a4. f \breathe e4 g a a a g f e d \bar "|"
+    d4 e a a c b a a c b a4. f \barMin e4 g a a a g f e d \barMax
     \neviditelna e
-    e4 g a f e4. e \bar "||" % \break
+    e4 g a f e4. e \barFinalis
     
     a4 a c b c a a \barMin
-    a4 b g f e e \bar "||"
+    a4 b g f e e \barFinalis
   }
   \addlyrics {
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
@@ -49,16 +49,16 @@
     \choralniRezim
     
     \neviditelna a
-    a4 b c a f4.( g) \breathe a4 a b g f e d \bar "|"
-    e4 e f f a g f( e) e \bar "||"
+    a4 b c a f4.( g) \barMin a4 a b g f e d \barMax
+    e4 e f f a g f( e) e \barFinalis
     
     \neviditelna d
-    d4( e) e4. \breathe f4 f f f g a g f e d d \bar "|"
+    d4( e) e4. \barMin f4 f f f g a g f e d d \barMax
     \neviditelna e
-    e4 e f f a g f( e) e \bar "||" \break
+    e4 e f f a g f( e) e \barFinalis \break
     
     a4 a c b c a a \barMin
-    a4 b g f e e \bar "||"
+    a4 b g f e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
@@ -82,15 +82,15 @@
     \choralniRezim
     
     \neviditelna g
-    g4 g f g a c b( a) a \bar "|"
-    a4 g f g a( c) c4. b4 a c( d) a a \bar "||" % \break
+    g4 g f g a c b( a) a \barMax
+    a4 g f g a( c) c4. b4 a c( d) a a \barFinalis
     
     \neviditelna  a
-    a4( g a) b( c) a a \breathe b4 c d a4. a \bar "|"
+    a4( g a) b( c) a a \barMin b4 c d a4. a \barMax
     \neviditelna a
-    a4 g f g a( c) c4. b4 a c( d) a a4. \bar "||" % \break
+    a4 g f g a( c) c4. b4 a c( d) a a4. \barFinalis
     
-    a4 a g( a) a \breathe a4 b( c) a4.( g) \barMin a4 g a b( c) a4. a \bar "||"
+    a4 a g( a) a \barMin a4 b( c) a4.( g) \barMin a4 g a b( c) a4. a \barFinalis
   }
   \addlyrics {
     \Response Stvoř mi čis -- té srd -- ce, Bo -- že,_*
@@ -102,7 +102,7 @@
     \textRespDoxologie
   }
   \header {
-    piece = "všední dny - ranní chvály (IV alt)"
+    piece = "všední dny - ranní chvály (II)"
     id = "fe-rch"
   }
 }
@@ -112,15 +112,15 @@
     \choralniRezim
     
     \neviditelna a 
-    a4 a b c a a \bar "|"
-    b4 c a g a a \bar "||" % \break
+    a4 a b c a a \barMax
+    b4 c a g a a \barFinalis
     
     \neviditelna a
-    a4( g f) e e \breathe a4 a a g f g a \bar "|"
+    a4( g f) e e \barMin a4 a a g f g a \barMax
     \neviditelna b
-    b4 c a g a a \bar "||" % \break
+    b4 c a g a a \barFinalis
 
-    a4 a a g a c a \barMin b c a g f g \bar "||"
+    a4 a a g a c a \barMin b c a g f g \barFinalis
   }
   \addlyrics {
     \Response Vo -- lám k_to -- bě, Bo -- že,
@@ -132,7 +132,7 @@
     \textRespDoxologie
   }
   \header {
-    piece = "všední dny - nešpory (IV alt)"
+    piece = "všední dny - nešpory (II)"
     id = "fe-ne"
   }
 }
