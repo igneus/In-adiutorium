@@ -58,6 +58,48 @@
   }
   
   \score {
+    \relative c'' {
+      \choralniRezim
+      a4. g4( a) c( d) d \barMaior
+      
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = "invit"
+      fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4.( e) f4( g a) a( g) a \barMaior
+      a a( bes) a( g) g \barMin f g( a) f f \barFinalis 
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "invit"
+      fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
     \relative c' {
       \choralniRezim
       e4( f e \barMin f g a b c a4. g) \barMin 

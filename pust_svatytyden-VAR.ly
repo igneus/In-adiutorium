@@ -302,6 +302,97 @@
   }
 }
 
+\markup\nadpisSkupiny{1.5}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+    
+    d e f g( a) a g bes a( g) g \barMaior
+    a g( f) e \barMaior
+    d4 e f f( g) g f d e d d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+    
+    d e f g( a) a g bes a( g) g \barMaior
+    a g( f \mark\sipka e) e \barMaior
+    d4 e f f( g) g f d e d d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{2}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c c c( d) d \barMin
+    d f e d e c( d) \barMaior
+    
+    f f f f( g) g f g f( d) d \barMin
+    d c( d e f) d( c) \barMin
+    d c b a a \barMin c( d) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem 
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \pageBreak
 
@@ -334,6 +425,38 @@
     \header {
       quid = "resp."
       modus = "I"
+      id = ""
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      % R
+      \neviditelna d
+      d4 e f f f e f g f e d d \barMax
+      g f g f d d d c( e) d c d \barFinalis
+      % V
+      \neviditelna d
+      d c( b a) \barMin d e( f) d c f d \barMax
+      % R
+      \neviditelna d
+      g f g f d d d c( e) d c d \barFinalis
+      % Slava
+      d4 e f f f e( g) f \barMin g f d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      \Response Kla -- ní -- me se ti, Pa -- ne Je -- ží -- ši Kris -- te,_*
+      svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \Verse Tvůj kříž je zna -- me -- ním spá -- sy,_*
+      \Response svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "II"
       id = ""
       piece = \markup {\sestavTitulekResp}
     }
