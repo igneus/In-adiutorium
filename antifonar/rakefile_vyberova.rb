@@ -42,8 +42,8 @@ file 'vystup/antifonar_narozenipane.pdf' => ['vystup/antifonar_narozenipane.tex'
   chdir '..'
 end
 
-desc "Nativity of out Lord."
-task :triduum => ['vystup/antifonar_narozenipane.pdf']
+desc "Nativity of our Lord."
+task :narozeni => ['vystup/antifonar_narozenipane.pdf']
 
 ###############
 # budouci sv. 2:  Svaty tyden a Velikonocni oktav
