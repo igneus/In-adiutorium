@@ -686,6 +686,8 @@
     }
   }
   
+  %{
+  
   \markup {\nadpisDen {4. neděle velikonoční}}
   
   \score {
@@ -958,5 +960,7 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  %}
   
 }
