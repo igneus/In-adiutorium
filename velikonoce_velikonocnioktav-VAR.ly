@@ -37,7 +37,7 @@
   
   \score {
     \relative c' {
-      \zvyraznovacZeleny
+      \zvyraznovacZelenyII
       \choralniRezim
       f4 f( e d) f( g) a \barMaior
       a c c( a) a4.( f) \barMin g4 f d4. d \barFinalis
@@ -1173,6 +1173,8 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \pageBreak
+  
   \markup\nadpisDen {pondělí velikonoční}
   
   \score {
@@ -1198,6 +1200,33 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      g4( c) c b( g) g \barMin
+      g g( a) a a g f g( a) a \barMaior
+      a b4.( c) b4( c) a( g) g \barMax
+      \mark\sipka g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te_*
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "po-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
   
   \score {
     \relative c'' {
