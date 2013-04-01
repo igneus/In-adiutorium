@@ -10,6 +10,7 @@ adresar_zaltar = 'generovane/zaltar/'
 
 options_zaltar = $commonoptions+$o_warnmarks
 canticleoptions_zaltar = $canticleoptions+$o_warnmarks
+magnificatoptions_zaltar = $commonoptions_withoutdoxology+$o_doxology_full+$o_warnmarks
 
 cislazalmu_zaltar = %w( 95 100 67 24
 
@@ -69,7 +70,7 @@ end
 zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', options_zaltar+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
-zalmyzaltare << genzalm('kantikum_magnificat.zalm', options_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
+zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 
 file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do

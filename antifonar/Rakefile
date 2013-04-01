@@ -73,6 +73,7 @@ make_dirs dirs
 # promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb
 $o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 $o_doxology = " --append \"\\nopagebreak Sláva Otci.\""
+$o_doxology_full = ' --append "' + File.read('zalmy/doxologie.zalm') + '"'
 $o_columns = " --columns"
 $o_warnmarks = ' --mark-short-verses'
 

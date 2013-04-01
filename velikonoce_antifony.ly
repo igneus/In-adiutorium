@@ -203,7 +203,7 @@
 
 \bookpart {
   \header {
-    subtitle = "Neděle (cyklus B)"
+    subtitle = "Neděle - cyklus B"
   }
   
   \markup {\nadpisDen {3. neděle velikonoční}}
@@ -443,6 +443,8 @@
     }
   }
   
+  \pageBreak % ZLOM
+  
   \markup {\nadpisDen {6. neděle velikonoční}}
   
   \score {
@@ -597,46 +599,368 @@
   }
 }
 
-\include "antifony/velikonoce_knzkantikum.ly"
-  
 \bookpart {
   \header {
-    subtitle = "Čtyřtýdenní cyklus feriálních antifon"
+    subtitle = "Neděle - cyklus C"
   }
   
-  \markup {\nadpisDen {1. TÝDEN}}
-  \include "antifony/velikonoce_tyden1_2pondeli.ly"
-  \include "antifony/velikonoce_tyden1_3utery.ly"
-  \include "antifony/velikonoce_tyden1_4streda.ly"
-  \include "antifony/velikonoce_tyden1_5ctvrtek.ly"
-  \include "antifony/velikonoce_tyden1_6patek.ly"
-  \include "antifony/velikonoce_tyden1_7sobota.ly"
-
-  \pageBreak
-  \markup {\nadpisDen {2. TÝDEN}}
-  \include "antifony/velikonoce_tyden2_2pondeli.ly"
-  \include "antifony/velikonoce_tyden2_3utery.ly"
-  \include "antifony/velikonoce_tyden2_4streda.ly"
-  \include "antifony/velikonoce_tyden2_5ctvrtek.ly"
-  \include "antifony/velikonoce_tyden2_6patek.ly"
-  \include "antifony/velikonoce_tyden2_7sobota.ly"
+  \markup {\nadpisDen {3. neděle velikonoční}}
   
-  \pageBreak
-  \markup {\nadpisDen {3. TÝDEN}}
-  \include "antifony/velikonoce_tyden3_2pondeli.ly"
-  \include "antifony/velikonoce_tyden3_3utery.ly"
-  \include "antifony/velikonoce_tyden3_4streda.ly"
-  \include "antifony/velikonoce_tyden3_5ctvrtek.ly"
-  \include "antifony/velikonoce_tyden3_6patek.ly"
-  \include "antifony/velikonoce_tyden3_7sobota.ly"
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f e f g a( g) g \barMaior
+      a g g a g f g( a) \barMin
+      f f f f( g) f d d d \barMax
+      
+      d d d c c( f) d d \barMaior
+      d c( d e f) e f( g) f e( f e d) \barMaior
+      c c c( f) f f( e c) 
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl svým u -- čed -- ní -- kům:
+      Při -- nes -- te ně -- ko -- lik ryb,
+      kte -- ré jste prá -- vě chy -- ti -- li.
+      
+      Ši -- mon Pe -- tr vy -- stou -- pil
+      a tá -- hl na zem síť pl -- nou vel -- kých ryb.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
   
-  \pageBreak
-  \markup {\nadpisDen {4. TÝDEN}}
-  \include "antifony/velikonoce_tyden4_2pondeli.ly"
-  \include "antifony/velikonoce_tyden4_3utery.ly"
-  \include "antifony/velikonoce_tyden4_4streda.ly"
-  \include "antifony/velikonoce_tyden4_5ctvrtek.ly"
-  \include "antifony/velikonoce_tyden4_6patek.ly"
-  \include "antifony/velikonoce_tyden4_7sobota.ly"
-
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g c( d) c c \barMin b( c) b a g a( g) g \barMin
+      g f( e) g a c( d) d \barMaior
+      c c c b( a g) a a( g f) g g( f) \barMin 
+      f( a g) a c b 
+      a g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+      po svém zmrt -- vých -- vstá -- ní;
+      při -- stou -- pil k_nim a po -- dal jim chléb a ry -- bu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f( e) d \barMin e d e( f) e \barMin d d( g) g( f) e \barMax
+      a a \barMin a a( g) b g \barMaior
+      f f \barMin g f e e e \barMaior
+      d e f( g) e \barFinalis
+    }
+    \addlyrics {
+      Ši -- mo -- ne, sy -- nu Ja -- nův, mi -- lu -- ješ mě?
+      Pa -- ne, ty víš všech -- no_-
+      ty víš, že tě mi -- lu -- ji!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  %{
+  
+  \markup {\nadpisDen {4. neděle velikonoční}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Mo -- je ov -- ce sly -- ší můj hlas;
+      a já, je -- jich Pán, je znám.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Já dá -- vám svým ov -- cím věč -- ný ži -- vot.
+      Ne -- za -- hy -- nou na -- vě -- ky
+      a nik -- do mi je ne -- vy -- rve z_ru -- kou.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Můj O -- tec je vět -- ší než všich -- ni;
+      ov -- ce, kte -- ré mi dal,
+      ni -- kdo ne -- mů -- že vy -- rvat z_je -- ho ru -- kou.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup {\nadpisDen {5. neděle velikonoční}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g f( e f) g( a) a a b( c) c c \barMin
+      c b4.( g) g4 a( g f) e( f) g4. g \barMax
+      g4 g( a) g4. g \barFinalis
+    }
+    \addlyrics {
+      Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+      a Bůh je o -- sla -- ven v_něm.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      fial = "velikonoce_nanebevstoupeni.ly#2ne-a3"
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Nové při -- ká -- zá -- ní vám dá -- vám:
+      Mi -- luj -- te se na -- vzá -- jem,
+      jak jsem já mi -- lo -- val vás,
+      pra -- ví Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Po -- dle to -- ho všich -- ni po -- zna -- jí,
+      že jste mo -- ji u -- čed -- ní -- ci,
+      bu -- de -- te -li mít lás -- ku k_so -- bě na -- vzá -- jem.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup {\nadpisDen {6. neděle velikonoční}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Kdo mě  mi -- lu -- je,
+      bu -- de za -- cho -- vá -- vat mé slo -- vo
+      a můj O -- tec ho bu -- de mi -- lo -- vat;
+      a při -- jde -- me k_ně -- mu
+      a u -- či -- ní -- me si u ně -- ho pří -- by -- tek.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Duch sva -- tý,
+      kte -- ré -- ho O -- tec po -- šle ve jmé -- nu mém,
+      ten vás na -- u -- čí vše -- mu
+      a při -- po -- me -- ne vám všech -- no,
+      co jsem vám ře -- kl já.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Po -- koj vám za -- ne -- chá -- vám,
+      svůj po -- koj vám dá -- vám;
+      ne ten, kte -- rý dá -- vá svět, já vám dá -- vám.
+      Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup {\nadpisDen {7. neděle velikonoční}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Pro -- sím ne -- jen za ně,
+      ale ta -- ké za ty, kdo pro je -- jich slo -- vo u -- vě -- ří ve mne:
+      Ať všich -- ni jsou jed -- no
+      ja -- ko ty, Ot -- če, ve mně a já v_to -- bě,
+      a -- by svět u -- vě -- řil, že ty jsi mě po -- slal.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Slá -- vu, kte -- rou jsi, Ot -- če, dal mně,
+      dal jsem já jim,
+      a -- by by -- li jed -- no,
+      ja -- ko my jsme jed -- no;
+      já v_nich a ty ve mně,
+      tak ať i o -- ni jsou v_do -- ko -- na -- lé jed -- no -- tě.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+    }
+    \addlyrics {
+      Ot -- če, chci,
+      a -- by tam, kde jsem já,
+      by -- li se mnou i ti, kte -- ré jsi mi dal,
+      a -- by vi -- dě -- li mou slá -- vu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  %}
+  
 }
