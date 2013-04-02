@@ -851,6 +851,57 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a g( f) f g g f d d \barMaior
+    c c( f) g f \barMin 
+    g f f a g f g f f \barMaior
+    g f a( g) f \barFinalis
+  }
+  \addlyrics {
+    Byl vy -- dán na smrt_* pro na -- še hří -- chy,
+    a vstal z_mrt -- vých
+    pro na -- še o -- spra -- ve -- dl -- ně -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VI"
+    differentia = "F" 
+    psalmus = ""
+    id = "up-po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 e d f( d) d c d e d d \barMaior
+    f f( g a) f e \barMin 
+    d d d f e d c c( d) d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Byl vy -- dán na smrt pro na -- še hří -- chy,_*
+    a vstal z_mrt -- vých
+    pro na -- še o -- spra -- ve -- dl -- ně -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = "up-po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a( c) c b( c d) d \barMin
     d( c) b c( e) e e \barMaior
     f( e) d e d c( a) a \barMin
@@ -868,6 +919,54 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     quid = "ant. odpoledne"
     modus = "IV alt"
     differentia = "A" 
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( f) d f( g) g f g a( bes) g g \barMaior
+    
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_* 
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I?"
+    differentia = "g" 
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g f g a a a \barMaior
+    c b c b a( g) g \barMin
+    f e f( a) a g g \barMaior
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_* 
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
