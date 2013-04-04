@@ -290,6 +290,8 @@ uvodniVers = \lyricmode {
     }
   }
   
+  \pageBreak
+  
   \markup\justify{
     Pro verše s aleluja se vzorec výše dle mého soudu nehodí.
     Protože jsem v pokladu gregoriánského chorálu zatím vzorec
@@ -298,12 +300,12 @@ uvodniVers = \lyricmode {
   }
   
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
+      \neviditelna f
+      f4 f f f f f f f f f( d) \barMin c d( e f) g( f) f \barMax
       \neviditelna c 
-      c4 c c c c c c c c c c c c c c b c( b a g) a( b) b( a) \barMax
-      \neviditelna c 
-      c c c c c c c c c c c c c c c b c( b a g) a( b) b( a) \barFinalis
+      f4 f f f f f f( d) \barMin c d( e f) g( f) f \barFinalis
     }
     \addlyrics {
       \Verse U -- čed -- ní -- ci se za -- ra -- do -- va -- li, 
@@ -315,6 +317,47 @@ uvodniVers = \lyricmode {
       ragged-last = ##f
     }
   }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      \neviditelna f
+      f4 f f f f f f f( g) f f \barMin f( g f) a( bes a g) f( g) f \barMax
+      \neviditelna c 
+      f4 f f f f f( g) f \parenthesize f \barMin f( g f) a( bes a g) f( g) f \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se za -- ra -- \markup\underline{do} -- va -- li, 
+      a -- le -- lu -- ja,
+      \Response když u -- vi -- dě -- li \markup\underline{Pá} -- na, \skip 1
+      a -- le -- lu -- ja.
+    }
+    \layout {
+      ragged-last = ##f
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      \neviditelna f
+      f4 f f f f f f f( g) f f \barMin f( g f) a( bes a g) f( g) \mark\sipka f( e) \barMax
+      \neviditelna c 
+      f4 f f f f f( g) f \parenthesize f \barMin f( g f) a( bes a g) f( g) f( e) \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se za -- ra -- \markup\underline{do} -- va -- li, 
+      a -- le -- lu -- ja,
+      \Response když u -- vi -- dě -- li \markup\underline{Pá} -- na, \skip 1
+      a -- le -- lu -- ja.
+    }
+    \layout {
+      ragged-last = ##f
+    }
+  }
+  
+  \pageBreak
   
   \markup\sekce{III.2 v modlitbě uprostřed dne (odpověď na Boží slovo)}
   
