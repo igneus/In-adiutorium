@@ -758,8 +758,6 @@
     }
   }
   
-  %{
-  
   \markup {\nadpisDen {5. neděle velikonoční}}
   
   \score {
@@ -786,21 +784,25 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      c4 c b a c( d) d c( d) c c \barMaior
+      a a g f g a a \barMin
+      g a b c( a) \barMin c( d) a a a( g f) \barMin 
+      f g g \barMaior
+      f g g g \barFinalis
     }
     \addlyrics {
-      Nové při -- ká -- zá -- ní vám dá -- vám:
+      No -- vé při -- ká -- zá -- ní vám dá -- vám:
       Mi -- luj -- te se na -- vzá -- jem,
-      jak jsem já mi -- lo -- val vás,
+      ja -- ko jsem já mi -- lo -- val vás,
       pra -- ví Pán.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -810,7 +812,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4 d d( f) f d c d c c \barMin 
+      d e f e f g a( g) g \barMaior
+      a a a a a g( f e d) d \barMin c d d( f) f f 
+      g f d d \barFinalis
     }
     \addlyrics {
       Po -- dle to -- ho všich -- ni po -- zna -- jí,
@@ -820,13 +825,15 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  %{
   
   \markup {\nadpisDen {6. neděle velikonoční}}
   
