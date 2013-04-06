@@ -833,27 +833,32 @@
     }
   }
   
-  %{
-  
   \markup {\nadpisDen {6. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4 g g( a g) f( g) g( f) \barMin
+      a a b a b c a a( g) g \barMaior
+      f f f( g) f f d f g( a) a( g) g \barMax
       
+      g g( a b c) b a b( g) g \barMin
+      a g f e d d e f g g( a) a( g) g \barMaior
+      a c( b) g g \barFinalis
     }
     \addlyrics {
       Kdo mě  mi -- lu -- je,
       bu -- de za -- cho -- vá -- vat mé slo -- vo
       a můj O -- tec ho bu -- de mi -- lo -- vat;
+      
       a při -- jde -- me k_ně -- mu
       a u -- či -- ní -- me si u ně -- ho pří -- by -- tek.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -861,9 +866,14 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      a( g) c( d) c \barMin 
+      c c c c( d) d d( e d c) a \barMin c b g a( g) \barMaior
+      a a a b c d( c) c \barMaior
+      d d d c b a( b) \barMin
+      b( c) c c b g a a g \barMaior
+      f g a( b) g \barFinalis
     }
     \addlyrics {
       Duch sva -- tý,
@@ -875,8 +885,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VII"
+      differentia = "a" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -886,7 +896,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      
+      d4( f) f f e d c c \barMin
+      f f f( g) a f e \barMaior
+      d d d e d c d( c a) c d d d \barMax
+      d d d d f g f e d d e c a \barMin 
+      c d d d \barFinalis
     }
     \addlyrics {
       Po -- koj vám za -- ne -- chá -- vám,
@@ -897,13 +911,15 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  %{
   
   \markup {\nadpisDen {7. neděle velikonoční}}
   
