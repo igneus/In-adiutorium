@@ -1427,6 +1427,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a a g f a4. a \barMin
       a4( b c) a a( b) g g4.( e) \barMin
@@ -1437,6 +1438,47 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
       d( c b) c g4.( a) \barMax
       
       a4 g( f) e( f e) e \barFinalis
+    }
+    \addlyrics {
+      Ve -- čer prv -- ní -- ho dne v_týd -- nu_*
+      při -- šel Je -- žíš tam,
+      kde by -- li je -- ho u -- čed -- ní -- ci.
+      Ze stra -- chu před ži -- dy mě -- li dve -- ře za -- vře -- ny.
+      
+      Sta -- nul me -- zi ni -- mi a ře -- kl:
+      Po -- koj vám!
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      quidbreve = "ant."
+      modus = "III"
+      differentia = "a" 
+      psalmus = ""
+      id = "zmrtvychvstani-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\justify{
+    Backport aleluja z antifony, jejíž melodie je od této částečně
+    odvozená:
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a a g f a4. a \barMin
+      a4( b c) a a( b) g g4.( e) \barMin
+      f4 g a g f e f e4. e \barMaior
+      e4 d e f f f f f g f e e e \barMax
+      
+      e( a) a a a c b c c( d) d \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka g4 g( a) f( e) e \barFinalis
     }
     \addlyrics {
       Ve -- čer prv -- ní -- ho dne v_týd -- nu_*
