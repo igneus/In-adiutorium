@@ -329,7 +329,7 @@
       e( a) a a a c b c c( d) d \barMin
       d( c b) c g4.( a) \barMax
       
-      a4 g( f) e( f e) e \barFinalis
+      g4 g( a) f( e) e \barFinalis
     }
     \addlyrics {
       Ve -- čer prv -- ní -- ho dne v_týd -- nu_*
