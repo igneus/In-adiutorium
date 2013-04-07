@@ -976,8 +976,17 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \pageBreak
 
+\markup\justify{
+  Tato není vysloveně špatná.
+  Proti antifoně níže, kterou jsem ji nahradil, je o kousek
+  radostnější a bezstarostnější.
+  (Snad to sedí k Velikonočnímu oktávu lépe než vážná melodie v modu II?
+  Hudební řečí o kousek konvenčnější, konfekčnější :) .
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) f g f g g( a) a \barMaior
     a g( bes) a( g) f4.( g) \barMin
@@ -1026,7 +1035,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d4 e d f( d) d c d e d d \barMaior
     f f( g a) f e \barMin 
@@ -1154,7 +1163,6 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
     \choralniRezim
     f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
     d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
@@ -1222,7 +1230,6 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
     \key f \major
     \choralniRezim
     d4( \mark\sipka f) f4.( g) \barMin g4 f g a a a \mark\sipka bes bes a( g) a \barMaior
@@ -1708,10 +1715,13 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \pageBreak
+  
   \markup\nadpisDen {středa velikonoční}
   
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 a a( c) c b c c( b a4.) a \barMin
       a4 g f( e) d f f( g) g \barMaior
@@ -1744,6 +1754,63 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   \score {
     \relative c'' {
       \choralniRezim
+      a4 a g f a g g( a) a \barMin
+      
+    }
+    \addlyrics {
+      Je -- žíš za -- čal_* od Moj -- ží -- še,
+      pro -- bral všech -- ny pro -- ro -- ky
+      
+      a vy -- klá -- dal u -- čed -- ní -- kům,
+      co se ve všech čás -- tech Pís -- ma 
+      na něj vzta -- hu -- je.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = ""
+      differentia = "" 
+      psalmus = ""
+      id = "st-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d d d( e f) e( f) d d \barMin
+      c d c b c( d) e( d) d \barMaior
+      f f( g f) e( d) d f e d d \barMin
+      c c c d c b a a \barMin
+      c d d( f) e( d) d \barMaior
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš za -- čal od Moj -- ží -- še,_*
+      pro -- bral všech -- ny pro -- ro -- ky
+      
+      a vy -- klá -- dal u -- čed -- ní -- kům,
+      co se ve všech čás -- tech Pís -- ma 
+      na něj vzta -- hu -- je.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = "st-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 a a( e) e f g a a g a a \barMax
       a b c a a b( g) g( e) e \barMaior
       e d4.( e) \barMin
@@ -1769,10 +1836,13 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \pageBreak
+  
   \markup\nadpisDen {čtvrtek velikonoční}
   
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g a( c) c c c b c d c a4. a4
       b b( c) c c \barMin
@@ -1800,6 +1870,167 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   \score {
     \relative c'' {
       \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka a4 g( f) e( f) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka g4 f e( f) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka g4 a f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka g4 g( a) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+      
+      \mark\sipka a4 b( g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 2
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f( a) a f g f e d e c c \barMin
+      d d( f) g( f) f \barMaior
+      a( f g) f e( f g) \barMin
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
       g4( c b) d( c) b( c) a( g) g( a) \barMin
       a b b( c) c c a g a( f) f( e) \barMaior
       d f g f( g) \barMax
@@ -1807,7 +2038,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
     \addlyrics {
       Po -- dí -- vej -- te se_* 
-      se na mé ru -- ce a na mé no -- hy:
+      na mé ru -- ce a na mé no -- hy:
       vždyť jsem to já!
       A -- le -- lu -- ja.
     }
@@ -1821,10 +2052,38 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( c b) d( c) b( c) a( g) g( a) \barMin
+      a b b( c) c c a g a( f) f( e) \barMaior
+      d f g f( g) \barMax
+      \mark\sipka a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Po -- dí -- vej -- te se_* 
+      na mé ru -- ce a na mé no -- hy:
+      vždyť jsem to já!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "ct-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \markup\nadpisDen {pátek velikonoční}
   
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a g( f) f g f g( a) a \barMin
       a c( b c) a( g) g( a) \barMaior
@@ -1848,7 +2107,59 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   }
   
   \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d( f e) f( d c) d e d d \barMin
+      f f( g d) d( c) c \barMaior
+      a c c( d) d c d( e f) d( e) d \barMaior
+      c d e( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = "pa-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d d( f e) f( d c) d e d d \barMin
+      f f( g d) d( c) c \barMaior
+      \mark\sipka d d d c d d( e f) d( e) d( c) \barMaior
+      a c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = "pa-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
+  \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4( a f) f( g) g \barMin
       g f g a a g( a) a( g) g \barMin
@@ -1873,10 +2184,94 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( a) a \barMin
+      g f g a a g( a) a( g) g \barMin
+      f( g a) a \barMaior
+      a a c4.( g) \barMin
+      a4 f f( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 2
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g( a) a \barMin
+      a g f g g f( g) d d 
+      c( d) d \barMaior
+      c d f4.( g \barMin f4 g a f g4. \barMin f4 g f e d c d4. c \barMin d4 f e c d) \barMax
+      f g( a f d) e( f) d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 g( a) a \barMin
+      a g f g g f( g) \mark\sipka f f( e d) 
+      c( d) d \barMaior
+      c d f4.( g \barMin f4 g a f g4. \barMin f4 g f e d c d4. c \barMin d4 f e c d) \barMax
+      \mark\sipka d d( f g f e c) e( f) d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \markup\nadpisDen {sobota velikonoční}
   
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       % zatim jsem v antifone nenasel zadnou dobrou
       % delici logiku a tak jsou divisiones maiores
@@ -1907,6 +2302,43 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      % zatim jsem v antifone nenasel zadnou dobrou
+      % delici logiku a tak jsou divisiones maiores
+      % rozmistene proste tak, aby se antifona "dala udychat"
+      e f( g) a g a4. a \barMin
+      a4 a( b) a g( a g f e) e \barMaior
+      d( e) e f g a a a g g( a) a \barMin
+      a a a a( b a) g f g( f) g( a) a \barMaior
+      a a b g g( e) e \barMin
+      f e d d( e) e \barMaior
+      \mark\sipka e f( g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "E" 
+      psalmus = ""
+      id = "so-ben"
+      fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
   
   \markup\nadpisDen {neděle v oktávu velikonočním}
   
@@ -1960,8 +2392,41 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     }
   }
   
+  \pageBreak
+  
   \score {
     \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      \key f \major
+      a4 a a a a bes( a) g( f) e \barMin
+      f( g) g( a) a \barMaior
+      a4( g f) g( f) d4. d \barMax
+      d4( g) f f g g \barMaior
+      g bes( a bes) g( a) g( f) f \barMaior
+      f g( f) e( f) d d \barMax
+    }
+    \addlyrics {
+      Pro -- to -- že jsi mě u -- vi -- děl,_* 
+      To -- má -- ši,
+      u -- vě -- řil jsi.
+      Bla -- ho -- sla -- ve -- ní,
+      kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a" 
+      psalmus = ""
+      id = "ne2-mag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       \key f \major
       a4 a a a a bes( a) g( f) e \barMin
@@ -1970,6 +2435,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
       d4( g) f f g g \barMaior
       g bes( a bes) g( a) g( f) f \barMin
       f g( f) e( f) d d \barMax
+      \mark\sipka d g( f) e( f) d \barFinalis
     }
     \addlyrics {
       Pro -- to -- že jsi mě u -- vi -- děl,_* 
