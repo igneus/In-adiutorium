@@ -1,15 +1,15 @@
 \markup {\nadpisDen {Středa 2. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g f g a( bes a) g f( g) g \barMaior
-    f g g g f e d( e d) d \barMaior
-    f e d d \barFinalis
+    a4 a a a f( e d) f a( b) a \barMaior
+    a b a g g( a) g e e \barMaior
+    g a f( e) e \barFinalis
   }
   \addlyrics {
     Po -- slech -- ly tě vo -- dy, Bo -- že;
@@ -18,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 77"
     id = ""
     piece = \markup {\sestavTitulek}
