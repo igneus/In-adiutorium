@@ -918,15 +918,18 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
-  %{
-  
+    
   \markup {\nadpisDen {7. neděle velikonoční}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 g g( a) g f( g) g \barMin
+      f g a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
+      g g( a) g g( f) g( a) a \barMaior
+      a a g( c) d b c a \barMin b c c( d) d \barMaior
+      d c d( c) a( b) g g \barMin g f( g a) a b g g \barMaior
+      f g a( g) g \barFinalis
     }
     \addlyrics {
       Pro -- sím ne -- jen za ně,
@@ -938,8 +941,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -947,23 +950,27 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      c( a c g) g \barMin f g a a( c) c b( d) c( b) \barMin
+      c c b( a g) a( g) \barMaior
+      g g f e d( e) d \barMin f e f( a) a g g \barMin
+      a a( b c) a a g g \barMaior
+      c b d d( c) c \barMin c b a g g g( a) g f 
+      a b g g \barFinalis
     }
     \addlyrics {
       Slá -- vu, kte -- rou jsi, Ot -- če, dal mně,
       dal jsem já jim,
-      a -- by by -- li jed -- no,
-      ja -- ko my jsme jed -- no;
+      a -- by by -- li jed -- no, ja -- ko my jsme jed -- no;
       já v_nich a ty ve mně,
       tak ať i o -- ni jsou v_do -- ko -- na -- lé jed -- no -- tě.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -971,9 +978,13 @@
   }
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      
+      g4 f g( a) \barMin
+      a b c a g g( a g) \barMaior
+      c c c a c g( f) \barMin d f g g a( f g) \barMaior
+      a a a( b c) a a a( b) g g \barMaior
+      f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Ot -- če, chci,
@@ -984,14 +995,12 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
-  %}
-  
+    
 }
