@@ -195,6 +195,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g( a) a \barMin g( a) g f g4. g \barMaior
     d4 e f f( g) g \barMin a g f g f e f( g) g( d) d \barMaior
@@ -234,7 +235,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
+    modus = "IV"
     differentia = "g" 
     psalmus = ""
     id = ""
@@ -259,8 +260,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "g" 
+    modus = ""
+    differentia = "" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -297,6 +298,59 @@
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f e) f d( c) c \barMin d d c d d \barMaior
+    d g f e( f) g \barMin f e d e e d c( d) c c \barMaior
+    d d d d( e f) e( f) g a f e( d) \barMaior
+    c c( f) e c( d) d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
+    že po -- si -- lo -- val sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
+    a -- by mu vy -- dá -- val svě -- dec -- tví i v_u -- tr -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) f d( c) c \barMin d d c d d \barMaior
+    d g f e( f) g \barMin f e d e e d c( d) c c \barMaior
+    d d d d( e f) e( f) g a f \mark\sipka e( f e4. d) \barMaior
+    c4 c( f) e c( d) d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
+    že po -- si -- lo -- val sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
+    a -- by mu vy -- dá -- val svě -- dec -- tví i v_u -- tr -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
