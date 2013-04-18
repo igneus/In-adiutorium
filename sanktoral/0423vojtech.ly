@@ -17,8 +17,8 @@
   \relative c'' {
     \choralniRezim
     a4( g f) e d( c) d c c( d) d \barMaior
-    d e f f f( d) d d f g a4. a \barMaior
-    g4 a g f( e) d e c d d \barMaior
+    d e f f f( d) d f g a g g \barMaior
+    g4 g( a) g f( e) d e c d d \barMaior
     c d e d \barFinalis
   }
   \addlyrics {
@@ -66,7 +66,7 @@
     \choralniRezim
     c4( a) g a b( c d) c \barMaior
     d d( e) c c d c a( b g4.) g \barMax
-    a4 g( a) a( d) d \barMin
+    a4 a a( c) c \barMin
     d e f e d( c) d4.( c) \barMin a4 g f g( a) g g \barMaior
     g f( a) g g \barFinalis
   }
@@ -131,12 +131,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 f g( a) a \barMin g( a) g f g4. g \barMaior
-    d4 e f f( g) g \barMin a g f g f e f( g) g( d) d \barMaior
-    d c d d( f) f f f( g) d d \barMaior g f e c c( d) \barMaior
-    d f e( d) d \barFinalis
+    d4( f e) f d( c) c \barMin d d c d d \barMaior
+    d g f e( f) g \barMin f e d e e d c( d) c c \barMaior
+    d d d d( e f) e( f) g a f e( d) \barMaior
+    c c( f) e c( d) d \barMaior
+    c d e d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
@@ -146,8 +147,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "g" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
