@@ -699,6 +699,11 @@
 
 \markup\nadpisSkupiny{1.2}
 
+\markup\justify{
+  Tady se ještě víc než v původní erfurtské verzi zesiluje \italic{nás,}
+  které by naopak mělo být zvláštního důrazu zbaveno.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -895,6 +900,58 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     c b g a g e e \barMax
     c' c b \mark\sipka d c b a a \barMaior
     f g g a g \mark\sipka a g f e e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a a a b( c) c b( d) c( b) a \barMaior
+    c b g a g e e \barMax
+    c' c b d c b a a \barMaior
+    \mark\sipka g g g a g a g f e e e \barFinalis
+  }
+  \addlyrics {
+    O -- pat -- ruj nás, Bo -- že, když bdí -- me,
+    a -- by -- chom bdě -- li s_Kris -- tem,
+    a o -- chra -- ňuj nás, když spí -- me,
+    a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "III"
+    differentia = "a" 
+    psalmus = "Nunc dimittis"
+    piece = \markup {\sestavTitulek}
+    id = "sim"
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a a a b( c) c b( d) c( b) a \barMaior
+    c b g a g e e \barMax
+    c' c b d c b a a \barMaior
+    g g g \mark\sipka f g a g f e e e \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,
