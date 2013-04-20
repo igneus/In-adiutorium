@@ -367,9 +367,10 @@
 \markup {\nadpisDen {"7. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( f) g \barMin g a a( c) c b( d) c b a( g a) \barMaior
+    c c b( a g) a( g) f a a( g) \barFinalis
   }
   \addlyrics {
     Co chce -- te, a -- by li -- dé dě -- la -- li vám,
@@ -377,8 +378,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
@@ -386,10 +387,17 @@
   }
 }
 
+% zacatek vypadal jako volna citace z jednoho stereotypniho
+% vzorce modu IV. alt., a pak to najednou spadlo do VII ...
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( c) c( d) d \barMin
+    d c d e c d d d \barMaior
+    d c d c( a) a \barMin
+    a c b a g g a a( g) g \barMaior
+    f( g a) c( d) d( c) c \barMin
+    d d e c( b a) g a a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- suď -- te, 
@@ -401,8 +409,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -413,7 +421,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f( d) d f g f a( g) g \barMaior
+    f g a a a f g( f) d d \barMin
+    d d d d c d d( g) f e d \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, a do -- sta -- ne -- te,
@@ -422,8 +432,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = ""
