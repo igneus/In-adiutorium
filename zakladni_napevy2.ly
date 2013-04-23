@@ -1,64 +1,52 @@
-\version "2.16.0"
+\version "2.17.6"
 
-\include "spolecne.ly"
+\include "spolecne/tiraz.ly"
 
 \header {
-  title = "Základní nápěvy"
+  title = "PROSBA O POŽEHNÁNÍ"
+  tagline = \tirazMala
 }
 
-#(define-markup-command (sekce layout props obsah)(markup?)
-   "Nadpis sekce"
-   (interpret-markup layout props
-		     (markup #:bold
-			     #:large obsah)))
+\paper {
+  #(set-paper-size "a5landscape")
+  
+  top-margin = 1\cm
+  bottom-margin = 1\cm
+  right-margin = 1\cm
+  left-margin = 1.5\cm
+  
+  markup-system-spacing #'padding = #5
+}
 
-\bookpart {
+\layout {
+  indent = 0\cm
+}
+
+  
+\score {
+  \relative c' {
+    \override Score.TimeSignature #'stencil = ##f
+    \cadenzaOn
+    
+    \key es \major
+
+    es8 f g g g g g g4 f \bar "|"
+    g8 g f g as( g) g4 \bar "|"
+    r8 f8 f f f f f d es g f f4 \bar "||"
+    
+    es8( f) f4 \bar "||"
+  }
+  \addlyrics {
+    Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
+    chraň nás vše -- ho zlé -- ho,
+    a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
+    
+    \override LyricText #'font-series = #'bold
+    A -- men.
+  }
   \header {
-    subtitle = "IV. Zakončení hodinek"
+    fons = ""
+    piece = ""
+    composer = "Pseudoolejník"
   }
-  
-  \markup\sekce{IV.1 Ranní chvály a nešpory}
-  
-  \markup\sekce{IV.1.1 s knězem nebo jáhnem}
-  
-  \markup\justify\italic{
-    Mešní zpěvy 439 (Olejník).
-  }
-
-  \markup\sekce{IV.1.2 bez ordinovaného služebníka}
-  
-  \markup\justify\italic{
-    Pokus o vytvoření nápěvu závěrečné prosby o požehnání dobře
-    kompatibilního s Olejníkovým nápěvem orace.
-    Volně podle nápěvu požehnání téhož autora.
-  }
-  
-  \score {
-    \relative c' {
-      \override Score.TimeSignature #'stencil = ##f
-      \cadenzaOn
-      
-      \key es \major
-  
-      \neviditelna c
-      es8 f g g g g g g4 f \barMin
-      g8 g f g as( g) g4 \barMin
-      f8 f f f f f d es g f f4 \barFinalis
-      
-      \neviditelna c4
-      es8( f) f4 \barFinalis
-    }
-    \addlyrics {
-      \Verse Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
-      chraň nás vše -- ho zlé -- ho,
-      a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
-      \Response A -- men.
-    }
-    \header {
-      fons = ""
-      piece = ""
-      composer = "Pseudoolejník"
-    }
-  }
-
 }
