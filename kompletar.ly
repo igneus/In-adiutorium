@@ -276,6 +276,38 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f \barMin f f f f( d) e( f) g \barMax
+    g g e f d c d f f e \barFinalis
+    % V
+    \neviditelna d
+    c d( f) f f f f f f f( d) e( f) g \barMax
+    % R
+    \neviditelna g
+    g g e f d c d f f e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    piece = "responsorium - VI"
+    id = "resp-adv"
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a a a b( c) c b( c) a4. a \barMin

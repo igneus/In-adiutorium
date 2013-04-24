@@ -26,6 +26,7 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
+  score-markup-spacing #'padding = #2
   
   left-margin = 1.5\cm
   right-margin = 1.5\cm

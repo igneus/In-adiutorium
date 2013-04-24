@@ -1,4 +1,4 @@
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 % Antifony k nz kantikum nespor se opakuji v dvoutydennim
 % cyklu - podobne jako v zaltari.
@@ -147,11 +147,11 @@ velikTIIpondeliNespAntIII = \score {
 }
 
 velikTIIuteryNespAntIII = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( c) c d c a a c b a g a4.( g) \barMaior
-    g4 f g a( c) b g a a \barMaior
-    c a g( f) g \barFinalis
+    d4( f) f g f d d f e d c d4.( c) \barMaior
+    c4 bes c d( f) e c d d \barMaior
+    c d d( e) d \barFinalis
   }
   \addlyrics {
     Tvá je, Hos -- po -- di -- ne,_* ve -- li -- kost a moc,
@@ -160,8 +160,8 @@ velikTIIuteryNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G*" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
