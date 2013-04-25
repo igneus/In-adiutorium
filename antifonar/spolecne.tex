@@ -8,7 +8,7 @@
 % Titulni strana a tiraz svazku antifonare.
 % prikazy vyuzivaji prikazy, ktere musi byt
 % definovany v dokumentu:
-% \soubornyNazev, \nazev, \cisloSvazku, \autor, \textDoTiraze
+% \soubornyNazev, \edicniRada, \nazev, \cisloSvazku, \autor, \textDoTiraze
 %
 
 \newcommand{\titulniStrankaSvazkuAntifonare}{
@@ -16,10 +16,14 @@
   \begin{titlepage}
     \begin{center}
       \soubornyNazev
+
+      \vspace{0.5cm}
+
+      \edicniRada
       
-      Svazeček \cisloSvazku.
+      svazek \cisloSvazku
       
-      \vspace*{7cm}
+      \vspace*{6cm}
       
       {\Huge \textbf{\nazev}}
           
@@ -45,7 +49,7 @@
 }
 
 \newcommand{\tirazSazbaProgramem}{
-  Vysázeno programy \LaTeX  a LilyPond % \lilypondbookVersion
+  Sazba programy \LaTeX\mbox{} a LilyPond % \lilypondbookVersion
 }
 
 \newcommand{\tirazSvazkuAntifonare}{
@@ -53,7 +57,8 @@
   \setlength{\parskip}{0.6cm}
 
   \begin{center}
-    \soubornyNazev, svazeček \cisloSvazku.
+    \soubornyNazev\\
+    \edicniRada, svazek \cisloSvazku
     
     {\Large \textbf{\nazev}}
 
@@ -70,6 +75,37 @@
   \begin{center}
     \dmyyyydate \today
   \end{center}
+}
+
+%
+% Standartni licencni poznamka pouzitelna pro vetsinu svazku
+% Antifonare k Denni modlitbe cirkve
+%
+
+\newcommand{\licencniPoznamka}{%
+  Používání \emph{nápěvů} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons 
+    At\-tri\-bu\-tion-\-Sha\-re-A\-li\-ke 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová původní licenční 
+  podmínky.
+  (Výjimku představují nápěvy převzaté z jiných publikací - je to vždy
+  výslovně uvedeno. Tyto nápěvy vesměs patří k prastarému pokladu
+  gregoriánského chorálu a jsou tedy public domain.)
+  
+  \emph{Texty Denní modlitby církve} 
+  jsou majetkem České biskupské konference. 
+  Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
+  týká se pouze jeho hudební složky.
+
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
 }
 
 %
@@ -205,6 +241,9 @@
   \nadpisHodinkaVIndexu{kompletář}
 }
 
+\newenvironment{idxObsahHory}{
+  \begin{quote}\small}{\end{quote}}
+
 
 % Cilem je, aby tento nadpis nad sebou nemel tolik mista
 % a tak umoznoval "prilepeni" predchazejici rubriky.
@@ -233,20 +272,19 @@
 \newcommand{\nadpisTypTextu}[1]{
   \begin{flushleft}
   \noindent
-  \rubr{\textsc{#1}}
+  \textsc{#1}
   \end{flushleft}
   \nopagebreak
 }
 
 % rubrikovany text - treba i pro vlozeni do nerubrikovaneho
 \newcommand{\rubr}[1]{
-  \textcolor{red}{#1}
+  \textit{#1}
 }
 
 % rubrika - samostatna
 \newcommand{\rubrika}[1]{
   \vspace{2mm}
-  % \textit{#1}
   \rubr{#1}
   \vspace{2mm}
 }
@@ -275,4 +313,10 @@
 
 \newcommand{\znackaStrofaZalmu}{ 
   \rubr{--}
+}
+
+% horizontalni cara dlouha jako pul stranky siroky sloupec sloupec
+% ve svazku antifonare
+\newcommand{\oddelovac}{
+\noindent \line(1,0){150}
 }

@@ -1,6 +1,7 @@
-\version "2.15.40"
+\version "2.16.0"
 
-\include "spolecne.ly"
+\include "spolecne/tiraz.ly"
+\include "spolecne/choral.ly"
 \include "dilyresponsorii.ly"
 
 \header {
@@ -14,6 +15,10 @@ myStaffSize = #16
 
 \paper {
   #(set-paper-size "a6")
+  top-margin = 5\mm
+  bottom-margin = 5\mm
+  left-margin = 5\mm
+  right-margin = 5\mm
   
   % Bezpatkovy font jako v kancionalu
   #(define fonts
@@ -90,14 +95,14 @@ choralniRezimKancional = {
 }
 \markup\justify\large{
   Chci zde tuto myšlenku poněkud rozšířit a doplnit
-  ke kancionálu "\"univerzální nešpory\"" pro neděle adventní, postní a velikonoční,
+  ke kancionálu nešpory pro neděle adventní, postní a velikonoční,
   přičemž co možná nejvíce využiji to, co už je v kancionálu
   od Zdeňka Pololáníka (především nápěvy žalmů a kantik).
 }
 
 \bookpart {
   \header {
-    title = "Adventní"
+    title = "1. neděle adventní"
     composer = "" % ne ze bych ty zpevy neslozil, ale staci, ze je to napsano
     % na titulni strance.
   }

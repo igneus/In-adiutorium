@@ -1,11 +1,14 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Marka, evangelisty (svátek, 25.4.)"
+  title = \markup\titleSvatek 
+            "sv. Marka, evangelisty" 
+            "svátek"
+            25.4.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \score {
   \relative c' {
@@ -31,23 +34,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c a( g) a( g) g4.( \grace { f4 d) } \barMin 
-    f( g f) g( a) a c( b c) c( d) a g a4.( g) \barMaior
-    g4 f g g g g( a) a \barMax
-    a a g a b( c) c \barMin b( c d) c b b( c a) g a( g) g \barMax
-    g a a( g) g \barFinalis
+    g4 g g( a) g g f g c b a g a \barMin
+    b c a a a g g \barMaior
+    a a f g g( a) a \barMin
+    c( d) c( a) a b a a( g) g \barMaior
+    g f( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus 
     po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
-    a -- by v_je -- ho círk -- vi ko -- na -- li služ -- bu slo -- va.
+    a -- by v_je -- ho círk -- vi 
+    ko -- na -- li služ -- bu slo -- va.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -55,12 +59,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( d c) c c( d) d e( d) c d d a \barMaior
-    a( d) c( b) c b a g a4.( g) \barMin
-    g4 f g g( a) a c b a a \barMaior
-    a c a( g) a \barFinalis
+    f4 f g( a) a \barMin a a a a g( f e d) \barMaior
+    a' a c b c d c( b a) \barMin
+    a g f g( a) f e f d d \barMaior
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
@@ -70,11 +74,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A" 
+    modus = "I"
+    differentia = "f" 
     psalmus = ""
     id = ""
-    fons = "Od druhého oddílu jsem si vzal jako vzor antifonu O mulier, AntRom1912 s. 315."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

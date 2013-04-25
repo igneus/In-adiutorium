@@ -17,7 +17,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c c c d d b a f g g \barMaior
+    c4 c c d d b a f g g \barMaior
     g4 g c c a a f \barMin a b a g g \barFinalis
   }
   \addlyrics {
@@ -69,6 +69,70 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 136-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{V době adventní a vánoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f) e f e d c \barMaior
+    d d d d c c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 106-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) f( d) c( d) c \barMaior
+    d e f g f g d \barMin
+    d( e d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj -- me 
+    na smlou -- vu s_Hos -- po -- di -- nem,
+    na -- ším Bo -- hem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 106-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d a \barMin d d d e f g e \barMaior
+    f f( g f) e( d) d \barMin f f e d c d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás, Hos -- po -- di -- ne, náš Bo -- že,
+    a shro -- máž -- di svůj roz -- ptý -- le -- ný lid.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 106-III"
     id = ""
     piece = \markup {\sestavTitulek}
   }

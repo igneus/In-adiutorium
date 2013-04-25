@@ -33,6 +33,7 @@
       modus = "VI"
       differentia = "g" 
       psalmus = ""
+      id = "spol-invit1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -53,7 +54,7 @@
       quid = "ant."
       modus = "III"
       differentia = "c" 
-      psalmus = ""
+      psalmus = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -74,7 +75,7 @@
       quid = "ant."
       modus = "I"
       differentia = "D" 
-      psalmus = ""
+      psalmus = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -97,6 +98,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
+      id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -120,6 +122,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "spol-sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -143,6 +146,7 @@
       modus = "I"
       differentia = "f" 
       psalmus = ""
+      id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -154,8 +158,11 @@
   }
 
   \include "antifony/advent_tyden1.ly"
+  \pageBreak
   \include "antifony/advent_tyden2.ly"
+  \pageBreak
   \include "antifony/advent_tyden3.ly"
+  \pageBreak
   \include "antifony/advent_tyden4.ly"
 }
 
@@ -797,6 +804,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = "invitatorium"
+      id = "predvanocni-24-invit"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
     }
@@ -829,6 +837,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
+      id = "predvanocni-24-rch-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -850,6 +859,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
+      id = "predvanocni-24-rch-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -871,6 +881,7 @@
       modus = "VII"
       differentia = "c" 
       psalmus = ""
+      id = "predvanocni-24-rch-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -902,7 +913,7 @@
     \header {
       quid = "resp."
       modus = "I"
-      id = ""
+      id = "predvanocni-24-rch-resp"
       piece = \markup {\sestavTitulekResp}
     }
   }
@@ -924,6 +935,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Benedictus"
+      id = "predvanocni-24-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

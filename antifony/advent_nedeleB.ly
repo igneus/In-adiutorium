@@ -131,6 +131,8 @@
     a b c a a \barMaior
     a g f e e \barMin
     e f g f e d4. e \barFinalis
+    % 2012 - asi rok po slozeni - se ptam:
+    % nekoncila by prirozeneji na D? (spadla by tak do modu I)
   }
   \addlyrics {
     Za mnou při -- chá -- zí

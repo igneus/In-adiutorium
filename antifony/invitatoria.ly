@@ -1,10 +1,6 @@
 % antifony invitatoria ze zaltare - dvoutydenni cyklus
 
-% -*- master: ../invitatorium_choralni.ly;
-
-sestavInvitTitulek = \markup {
-  \concat {\fromproperty #'header:dies ": " \fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
-}
+% -*- master: ../antifony.ly;
 
 % LICHE TYDNY --------------------------------------------
 
@@ -13,8 +9,8 @@ tInedeleInvitatorium = \score {
     \choralniRezim
     \key f \major
     d4( a') a \barMin
-    a( bes c bes) a( g) g f g g( bes) a \barMin
-    g( c) bes a( g) g a f e d4. d \barMin
+    a( bes c bes) a( g) g f g g( bes) a \barMaior
+    g( c) bes a( g) g a f e d4. d \barMaior
     e4 f( d) d( c) d4. \barFinalis
   }
   \addlyrics {
@@ -29,15 +25,15 @@ tInedeleInvitatorium = \score {
     differentia = "D" 
     dies = "neděle"
     id = "t1ne"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIpondeliInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    f4 e f g a bes g a \barMin
-    g f e( f) f \barFinalis
+    d4 d( a') a g f g f e \barMin 
+    d( e) g f( d) d \barFinalis
   }
   \addlyrics {
     Před -- stup -- me před Hos -- po -- di -- na 
@@ -45,11 +41,11 @@ tIpondeliInvitatorium = \score {
   }
   \header {
     quid = "ant."
-    modus = "VI"
-    differentia = "F" 
+    modus = "I"
+    differentia = "D" 
     dies = "pondělí"
     id = "t1po"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -77,15 +73,15 @@ tIuteryInvitatorium = \score {
     differentia = "D" 
     dies = "úterý"
     id = "t1ut"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIstredaInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    e4 b' b b a b c( a g) a \barMin
-    g( a) g f( e) e \barFinalis
+    f4 g a g a bes g( f) f \barMin
+    g a( f) d( f) e( d) \barFinalis
   }
   \addlyrics {
     Po -- klek -- ně -- me před svým tvůr -- cem 
@@ -93,11 +89,11 @@ tIstredaInvitatorium = \score {
   }
   \header {
     quid = "ant."
-    modus = "IV"
-    differentia = "E" 
+    modus = "I"
+    differentia = "f" 
     dies = "středa"
     id = "t1st"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -116,29 +112,31 @@ tIctvrtekInvitatorium = \score {
     differentia = "D" 
     dies = "čtvrtek"
     id = "t1ct"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIpatekInvitatorium = \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a g f g( a) a \barMin
-    a g f f( g) e4. \barMin
-    f4 f g a b c4. a \barMin
-    g4 f f g e \barFinalis
+    a4 a g f c' a g a \barMin 
+    f g f d( e) d \barMaior
+    c d f g f e d \barMin 
+    f e f d d \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na, ne -- boť je dob -- rý,
-      je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky!
+    O -- sla -- vuj -- me Hos -- po -- di -- na, 
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství 
+    tr -- vá na -- vě -- ky!
   }
   \header {
     quid = "ant."
-    modus = "IV"
-    differentia = "g" 
+    modus = "I"
+    differentia = "a" 
     dies = "pátek"
     id = "t1pa"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -159,7 +157,7 @@ tIsobotaInvitatorium = \score {
     differentia = "D" 
     dies = "sobota"
     id = "t1so"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -185,16 +183,15 @@ tIInedeleInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2ne"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIIpondeliInvitatorium = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4( a') g bes( a) g f g a a \barMin 
-    a bes g g g e g f( e) d \barFinalis
+    c4 d e d c d c( b) c \barMaior
+    d d( c b) a( g) g g f g a( f) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Hos -- po -- di -- na 
@@ -203,10 +200,10 @@ tIIpondeliInvitatorium = \score {
   \header {
     dies = "pondělí"
     quid = "ant."
-    modus = "I"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "c" 
     id = "t2po"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -225,16 +222,15 @@ tIIuteryInvitatorium = \score {
     modus = "II"
     differentia = "D" 
     id = "t2ut"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIIstredaInvitatorium = \score {
   \relative c'' {
     \choralniRezim
-    d4( e) c4. b c4 e e d \barMin
-    c( d a) a g( a) a \barMin
-    b c d d d c b( c) a( g) g4. \barFinalis
+    c4 d c f e d c \barMin b c b( g) a \barMaior
+    f g a b c a g( a) g g \barFinalis
   }
   \addlyrics {
     Ple -- sej -- te Hos -- po -- di -- nu, všech -- ny ze -- mě,
@@ -244,47 +240,50 @@ tIIstredaInvitatorium = \score {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "c" 
     id = "t2st"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIIctvrtekInvitatorium = \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a4.( b) g4 g a c d a( g) f( g) g \bar "||"
+    a4( bes a g) f \barMin 
+    e d e f g a g f \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    Vstup -- te 
+    před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
-    modus = "VII"
-    differentia = "d" 
+    modus = "VI"
+    differentia = "F" 
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 tIIpatekInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    d4 d d d bes'( a) g4. \barMin
-    f4( g) a a g f e4. d \barFinalis
+    f4 g a f g d \barMin
+    g f e d c e( f d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je dob -- rý, že -- hnej -- te je -- ho jmé -- nu.
+    Hos -- po -- din je dob -- rý, 
+    že -- hnej -- te je -- ho jmé -- nu.
   }
   \header {
     dies = "pátek"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "f" 
     id = "t2pa"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -306,6 +305,6 @@ tIIsobotaInvitatorium = \score {
     modus = "I"
     differentia = "D" 
     id = "t2so"
-    piece = \markup {\sestavInvitTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -21,7 +21,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 80"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Iz 12"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +65,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 81"
-    id = ""
+    id = "rch-a3"
     fons = "vyňato z: slavnost Těla a Krve Páně, 1.nešp., 2.ant."
     piece = \markup {\sestavTitulek}
   }
@@ -91,7 +91,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 72-I"
-    id = ""
+    id = "na-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -114,7 +114,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 72-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

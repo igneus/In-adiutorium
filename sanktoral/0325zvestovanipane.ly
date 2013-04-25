@@ -1,12 +1,15 @@
 \version "2.15.37"
 
-\header {
-  title = "Zvěstování Páně (slavnost, 25.3.)"
-  composer = "Jakub Pavlík"
-}
-
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "Zvěstování Páně"
+            slavnost
+            25.3.
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -35,7 +38,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -59,7 +62,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "1ne-a2"
     fons = "1. část: Krista Krále, 1. nešp., k Magnificat"
     piece = \markup {\sestavTitulek}
   }
@@ -86,7 +89,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Fp 2"
+    id = "1ne-a3"
     fons = "Narození Páně, 1. nešp., 3. ant., doplněno aleluja."
+    fial = "fial://vanoce_narozenipane.ly#vden-1ne-a3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -118,7 +123,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -130,7 +135,7 @@
     a( c d e) d( c b) a \barMin b a g g( a) a( g) g \barMaior
     g c( d c) b c b( a) a \barMin b c( a) a( g) g \barFinalis
     
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý 
@@ -144,7 +149,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -158,7 +163,7 @@
     d( f) f f f( g) g \barMin g( f) e f d d \barMaior
     d4 \barMin d e d( c a) a \barMin a c c( d) d d \barFinalis
     
-    d^\markup\small\italic{V době velikonoční:} f e( c) d \barFinalis
+    d^\markup\rubrVelikAleluja f e( c) d \barFinalis
   }
   \addlyrics {
     Pojď -- te, klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
@@ -171,7 +176,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup{\sestavTitulekBezZalmu}
   }
 }
@@ -184,7 +189,7 @@
     a4 b c( d) d d d e d c b c b a \barMin
     g c b g g( a) a a \barFinalis
     
-    b^\markup\small\italic{V době velikonoční:} c a( g) a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
@@ -197,7 +202,9 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 63"
+    id = "rch-a1"
     fons = "4. neděle adventní, cyklus B, k Benedictus"
+    fial = "fial://antifony/advent_nedeleB.ly#ivben"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -207,7 +214,7 @@
     \choralniRezim
     d( f) e f( g) g \barMin g f g g a a \barMaior 
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
-    f^\markup\small\italic{V době velikonoční:} e f d d \barMaior e c c( d) d \barFinalis
+    f^\markup\rubrVelikAleluja e f d d \barMaior e c c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
@@ -220,7 +227,9 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Dan 3-III"
+    id = "rch-a2"
     fons = "spol. texty o P.M., 2. nešp., 3. ant."
+    fial = "fial://commune/commune-maria.ly#2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -232,7 +241,7 @@
     b( c a) g a g g \barMaior
     c( d c) b a g g g f g a f f( g) g \barFinalis
     
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- na po -- ča -- la,
@@ -246,8 +255,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -283,8 +293,9 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     fons = "spol. texty o P.M., 2. nešp."
+    fial = "fial://commune/commune_maria.ly#2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -321,16 +332,23 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp-velik"
     fons = "spol. texty o P.M., 2. nešp."
+    fial = "fial://commune/commune_maria.ly#2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 } 
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
+    f4 f f g a a( g) g \barMin
+    g g g g( a) g a( bes) c bes( a) g \barMaior
+    f f f f( a) g g( f) f \barMin g( f e) d e c c \barMaior
+    d( e f) g a g f f \barFinalis
     
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Ve své ve -- li -- ké lás -- ce
@@ -342,10 +360,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -358,7 +376,7 @@
     c4( d) e e e( g) g \barMin g( f g a) a a( c) a g( f) f( g) g \barMaior
     g a( b) c( d c) b( a g) g \barMin g( a f e) d c( d) d d \barFinalis
     
-    f^\markup\small\italic{V době velikonoční:} g f( d) d \barFinalis
+    f^\markup\rubrVelikAleluja g f( d) d \barFinalis
   }
   \addlyrics {
     Z_ko -- ře -- ne Jes -- se vze -- šla Pan -- na Ma -- ri -- a,
@@ -371,7 +389,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -382,7 +400,7 @@
     c( f) \barMin f( e) f d( f e) e \barMin e e( f g) f( e) d d( c) c \barMaior
     c d( f) f( e) d d \barMin f( g f) e( c) c( d) d \barFinalis
     
-    c^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     Hle, pan -- na poč -- ne a po -- ro -- dí sy -- na
@@ -395,7 +413,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -408,7 +426,7 @@
     a a( f' e d4.) d \barMin d4( e f) f e f( g) g \barMin 
     f f( g f) e( d) d e( d) c( d) d \barFinalis
     
-    d^\markup\small\italic{V době velikonoční:} e( d) c( d) d \barFinalis
+    d^\markup\rubrVelikAleluja e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus, 
@@ -423,7 +441,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -436,7 +454,7 @@
     d4 d e( c d4.) d \barMin a4( b) c( d) d d( e d) c b a a \barMaior
     a g a c( d) c( b a) a \barMin b( a) g g( a) g g \barFinalis
     
-    a^\markup\small\italic{V době velikonoční:} b g g \barFinalis
+    a^\markup\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     An -- děl Pá -- ně zvěs -- to -- val Pan -- ně Ma -- ri -- i
@@ -449,7 +467,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -463,7 +481,7 @@
     f g f g g( f) f \barMaior
     f g f d( f) e( d c) \barMin
     d( c) d d( f) e d d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f d( c) d4. \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d4. \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -478,7 +496,9 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 130"
+    id = "2ne-a2"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
+    fial = "fial://antifony/advent_nedeleB.ly#imag2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -488,7 +508,7 @@
     \choralniRezim
     a4( b) c d d d a( g a4.) a \barMin
     c4 d d e( c b) b \barMin a b b a g g \barFinalis
-    a^\markup\small\italic{V době velikonoční:} b a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
@@ -501,7 +521,9 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Kol 1"
+    id = "2ne-a3"
     fons = "spol. texty o P.M., 2. nešp., 2. ant."
+    fial = "fial://commune/commune_maria.ly#2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -535,7 +557,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -571,7 +593,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -586,7 +608,7 @@
     d c( d) d \barMin
     d d c d d f e c d d \barFinalis
     
-    c^\markup\small\italic{V době velikonoční:} d e d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
@@ -601,8 +623,9 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
-    psalmus = ""
+    psalmus = "2ne-amag"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

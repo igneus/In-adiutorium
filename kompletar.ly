@@ -39,6 +39,28 @@
   }
 }
 
+%{
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    c d f\breve f4-| \parenthesize d d4. \mark\markup\large\Dagger \barMin
+    f\breve g4 g-| \parenthesize d d4. \mark\markup\large{*} \barMax 
+    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+  }
+  \header {
+    quid = "psalmodie"
+    modus = "II"
+    differentia = ""
+    piece = "psalmodie (modus II)"
+    id = "psalmodie-proantifonar"
+  }
+  \layout{
+    indent = 0\cm
+  }
+}
+%}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -250,6 +272,38 @@
     modus = "VI"
     piece = "responsorium - VI"
     id = "resp"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f \barMin f f f f( d) e( f) g \barMax
+    g g e f d c d f f e \barFinalis
+    % V
+    \neviditelna d
+    c d( f) f f f f f f f( d) e( f) g \barMax
+    % R
+    \neviditelna g
+    g g e f d c d f f e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    piece = "responsorium - VI"
+    id = "resp-adv"
   }
 }
 

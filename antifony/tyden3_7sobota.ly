@@ -118,15 +118,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g a( c) c \barMin b c a g g \barFinalis
+    c4 c d c d f( e d) c \barMin
+    b c( d) b a g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- no -- va věr -- nost tr -- vá na -- vě -- ky.
+    Hos -- po -- di -- no -- va věr -- nost 
+    tr -- vá na -- vě -- ky.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = "Žalm 117"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -140,15 +142,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g g a bes a a \barMin a g( f) e( d) d \barFinalis
+    d4 d d( e) f \barMin e d e d \barMaior
+    d e( c) c( d) d \barFinalis
   }
   \addlyrics {
-    Za -- staň se mě, Hos -- po -- di -- ne, a po -- moz mi.
+    Za -- staň se mě, Hos -- po -- di -- ne, 
+    a po -- moz mi.
   }     
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 119-XVI"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -158,10 +162,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a b c b( c) c \barMin c c d b c a4. g \barFinalis
+    g4 g f g( c) d c( b) a \barMin
+    b( c) a c a b g g \barFinalis
   }
   \addlyrics {
-    Po -- hleď -- te k_Hos -- po -- di -- nu, ať se roz -- ve -- se -- lí -- te.
+    Po -- hleď -- te k_Hos -- po -- di -- nu, 
+    ať se roz -- ve -- se -- lí -- te.
   }
   \header {
     quid = "2. ant."
@@ -176,10 +182,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c c c \barMin c c c c c( a) b c a( g) g \barFinalis
+    g c b a g a \barMin
+    a a g f g g a g g \barFinalis
   }
   \addlyrics {
-    Blíz -- ko je Hos -- po -- din těm, kdo ma -- jí zkrou -- še -- né srd -- ce.
+    Blíz -- ko je Hos -- po -- din 
+    těm, kdo ma -- jí zkrou -- še -- né srd -- ce.
   }
   \header {
     quid = "3. ant."

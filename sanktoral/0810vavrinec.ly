@@ -49,7 +49,7 @@
   \header {
     quid = "1. resp."
     modus = "VIII"
-    id = ""
+    id = "cte-r1"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -85,7 +85,7 @@
   \header {
     quid = "2. resp."
     modus = "VII"
-    id = ""
+    id = "cte-r2"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -107,7 +107,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -132,7 +132,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -178,7 +178,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -203,7 +203,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     modus = "III"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -225,7 +225,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 116-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -247,7 +247,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -275,7 +275,7 @@ o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
     modus = "III"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -7,12 +7,11 @@
 % \usepackage{czech} 
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
-\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
-\usepackage{color} % barevny text
 \usepackage{setspace} % radkovani
 
 \usepackage{zref-savepos} % potreba pro znacky na okraji
@@ -33,7 +32,8 @@
 
 \newcommand{\autor}{}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\cisloSvazku}{3}
+\newcommand{\edicniRada}{mimo řady}
+\newcommand{\cisloSvazku}{B}
 \newcommand{\nazev}{
   \begin{spacing}{1.5}
     Žaltář\\ 
@@ -69,6 +69,16 @@
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
   nahradí se zde žalmem 95, str. \pageref{zalm24}.}
+}
+
+% texty opakovanych rubrik
+\newcommand{\rubrikaZalmyvMezidobi}{
+V liturgickém mezidobí se zpívají
+následující žalmy. V době adventní, vánoční,
+postní a velikonoční pak % text se vzdy doplni
+}
+\newcommand{\rubrikaZalmyveZvlastnichDobach}{
+V době adventní, vánoční, postní a velikonoční:
 }
 
 \begin{document}
@@ -140,9 +150,22 @@
 
 \nadpisDen{Sobota}
 \begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 105, str. \pageref{AdvVanSoTI}.}
+
 \input{generovane/zaltar/zalm131.tex}
 \input{generovane/zaltar/zalm132i.tex}
 \input{generovane/zaltar/zalm132ii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTI}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm105i.tex}
+\input{generovane/zaltar/zalm105ii.tex}
+\input{generovane/zaltar/zalm105iii.tex}
+
 \end{hora}
 
 \pagebreak % ZLOM0
@@ -193,9 +216,22 @@
 
 \nadpisDen{Sobota}
 \begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 106, str. \pageref{AdvVanSoTII}.}
+
 \input{generovane/zaltar/zalm136i.tex}
 \input{generovane/zaltar/zalm136cii.tex}
 \input{generovane/zaltar/zalm136ciii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTII}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm106i.tex}
+\input{generovane/zaltar/zalm106ii.tex}
+\input{generovane/zaltar/zalm106iii.tex}
+
 \end{hora}
 
 \pagebreak % ZLOM0
@@ -293,16 +329,44 @@
 
 \nadpisDen{Pátek}
 \begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+str. \pageref{AdvVanPaTIV}.}
+
 \input{generovane/zaltar/zalm55ci.tex}
 \input{generovane/zaltar/zalm55cii.tex}
 \input{generovane/zaltar/zalm55ciii.tex}
+
+\oddelovac
+
+\label{AdvVanPaTIV}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm78i.tex}
+\input{generovane/zaltar/zalm78ii.tex}
+\input{generovane/zaltar/zalm78iii.tex}
+
 \end{hora}
 
 \nadpisDen{Sobota}
 \begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+str. \pageref{AdvVanSoTIV}.}
+
 \input{generovane/zaltar/zalm50i.tex}
 \input{generovane/zaltar/zalm50ii.tex}
 \input{generovane/zaltar/zalm50iii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTIV}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm78iv.tex}
+\input{generovane/zaltar/zalm78v.tex}
+\input{generovane/zaltar/zalm78vi.tex}
+
 \end{hora}
 
 \clearpage

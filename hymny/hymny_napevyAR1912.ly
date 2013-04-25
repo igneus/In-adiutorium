@@ -118,6 +118,13 @@ v \italic{Antiphonale Romanum 1912} (AR).
 
 \markup\nadpisHodinka{"modlitba se čtením"}
 \score {
+  <<
+  \chords {
+    c4 g2 a4:m g2.
+    a4:m g4 c4
+    c2 g2. 
+    a4:m f4 c4 g4 c4
+  }
   \relative c'' {
     \time 2/4
     c4 b8 g a g e f g4 \breathe
@@ -131,6 +138,7 @@ v \italic{Antiphonale Romanum 1912} (AR).
     A bez vá -- há -- ní za -- mí -- ří,
     kde vi -- dí hvěz -- du jas -- nou.
   }
+  >>
   \header {
     quid = "hymnus"
     modus = ""

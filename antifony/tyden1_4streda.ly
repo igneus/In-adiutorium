@@ -150,17 +150,17 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a g( f) g4. \barMin a4 f e( d) d4. \barFinalis
+    d4 d d( e f) g f d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 17-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -168,18 +168,17 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f\major
-    a4 g( a) bes c a a \barMin f g a( f) e( d) d \barFinalis
+    d4 c a c d d \barMin f f f g( f) d \barFinalis
   }
   \addlyrics {
     Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 17-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -191,8 +190,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 a' g f g g( a) a \barMin g f e4. e \barMin
-    e4 f d c d4. \barFinalis
+    d4 a' g f g g( a) a \barMin g f e4. e \barMaior
+    e4 f d c d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé svět -- lo a má spá -- sa, 
@@ -200,7 +199,7 @@
   }
   \header {
     quid = "1. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 27-I"
     id = "ne-ant1"
@@ -220,7 +219,7 @@
   }
   \header {
     quid = "2. ant."
-    tonus = "I"
+    modus = "I"
     differentia = "D2" 
     psalmus = "Žalm 27-II"
     id = "ne-ant2"

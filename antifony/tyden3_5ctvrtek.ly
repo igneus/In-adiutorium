@@ -71,9 +71,10 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a c c c c c c b c a( g) g4. \barMin f4 a g( f g) g4. \barFinalis
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d e( d) d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
@@ -81,8 +82,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 87"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -92,7 +93,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a( g) a b c a( g) g( a) a4. \barMin
+    d4( c) a( g) a \barMin b c a( g) g( a) a4. \barMaior
     f4 g a b( c) a g g4.( a) \barFinalis
   }
   \addlyrics {
@@ -155,7 +156,7 @@
   \relative c'' {
     \choralniRezim
     g4 a a c( a) a \barMin a b c a a \barMaior 
-    a a a a g f f( g e4.) e \barFinalis
+    a a g f g g e e \barFinalis
   }
   \addlyrics {
     Po -- moz nám, Bo -- že, náš spa -- si -- te -- li,
@@ -175,11 +176,12 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 a bes( a) g( f) e4. a4( g bes) a f( g) a \barMin
+    g4 a bes( a) g( f) e \barMin a4( g bes) a f( g) a \barMaior
     a a( bes) a a f e d4. d \barFinalis
   }
   \addlyrics {
-    Bo -- že zá -- stu -- pů, shléd -- ni z_ne -- be a pe -- čuj o tu -- to ré -- vu.
+    Bo -- že zá -- stu -- pů, shléd -- ni z_ne -- be 
+    a pe -- čuj o tu -- to ré -- vu.
   }
   \header {
     quid = "3. ant."
