@@ -12,8 +12,11 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
-    
+    f4 f f f( g) f a bes a( g) a \barMaior
+    bes c a a g f g g f f \barMaior
+    g f a( g) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te se mnou Hos -- po -- di -- na,
@@ -22,8 +25,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -31,9 +34,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g a f g a a \barMin a( g) f a( g) f \barMaior
+    g g g g g( a) g( f) f \barMin
+    d d d d( e f) d( c) c( d) d \barMaior
+    c d( e) e( d) d \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -li se hříš -- ník od svých hří -- chů,
@@ -43,8 +49,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
