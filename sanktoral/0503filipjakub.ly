@@ -15,7 +15,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4( d) d \barMin d( e f) g( f e) f d( e d) d \barMaior
+    d c d d( f) e 
+    f f d d \barFinalis
   }
   \addlyrics {
     Pa -- ne,
@@ -25,8 +27,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -36,7 +38,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 d d \barMin f f e f g f e d( e) d d \barMaior
+    f g( a) g f( e f) \barMin d( e f g) f d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
@@ -45,8 +49,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
