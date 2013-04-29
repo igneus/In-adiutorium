@@ -464,7 +464,7 @@
 
 \markup\fill-line {
   ""
-  \epsfile #X #50 #"skoky_obraz_1.eps"
+  \epsfile #X #50 #"skoky_obraz.eps"
   ""
 }
 
