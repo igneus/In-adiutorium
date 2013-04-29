@@ -23,6 +23,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\justify\italic{
+  Hymnus \upright{Mějme příklad vůdce svého}
+  se zpívá jako \upright{Soudce všeho světa, Bože.}
+}
+
+\markup\justify\italic{
   Antifony k žalmům z úterý 1. týdne žaltáře v době velikonoční.
 }
 
@@ -175,6 +180,44 @@
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\score {
+  \relative c'' {
+    \key g \major
+    \time 3/4
+    \autoBeamOff
+    
+    \repeat volta 2 {
+      g2 a4 b2 c4 a2 b4 g2. \breathe
+      a2 b4 g2 fis4 e2 d4 d2.
+    }
+    
+    fis2 g4 a2 a4 b2 g4 a2. \breathe
+    fis2 g4 a2 a4 b2 g4 a2 \breathe d4 
+    d2( c4) b8[ a b c] d4 c8[ b] a2 g2 \breathe d'4
+    d2( c4) b8[ a b c] d4 c8[ b] a2 g2. \bar "|."
+  }
+  \addlyrics {
+    <<
+      {
+        Vy -- chva -- luj -- me ve -- se -- le
+        Mat -- ku bla -- ho -- sla -- ve -- nou,
+      } 
+      \new Lyrics {
+        kte -- rou sva -- tí an -- dě -- lé
+        chvá -- lí pís -- ní vzne -- še -- nou.
+      }
+    >>
+    
+    S_ni -- mi i my s_vrouc -- nos -- tí,
+    s_hor -- li -- vos -- tí zbož -- nos -- tí
+    zvuč -- né pís -- ně zpí -- vej -- me,
+    v_chvá -- lách ne -- u -- stá -- vej -- me.
+  }
+  \header {
+    piece = hymnus
+  }
+}
 
 \score {
   \relative c'' {
@@ -331,6 +374,27 @@
 
 \score {
   \relative c' {
+    \key e \minor
+    \time 4/4
+    \partial 4 e4 
+    e b' c a b2. \breathe 
+    b4 a b g a fis2. \breathe \bar "" \break
+    fis4 g g a a b2. \breathe 
+    c4 b2 a4 g fis2 e \bar "|."
+  }
+  \addlyrics {
+    Zdrá -- vas, hvěz -- do moř -- ská,
+    Mat -- ko Bo -- ží štěd -- rá,
+    u -- sta -- vič -- ná Pan -- no,
+    šťast -- ná ne -- bes brá -- no.
+  }
+  \header {
+    piece = hymnus
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 d( a') a( f) f g( f) d( e d4.) d \barMin
     a'4 b!( g) g a a \barMaior
@@ -464,7 +528,7 @@
 
 \markup\fill-line {
   ""
-  \epsfile #X #50 #"skoky_obraz.eps"
+  \epsfile #X #45 #"skoky_obraz.eps"
   ""
 }
 
