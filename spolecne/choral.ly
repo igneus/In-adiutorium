@@ -44,8 +44,8 @@ choralniPredznamenaniII =
 % Choralni "rozdelovniky+pomlky" (divisiones) ------------------
 
 barMin = {
-  \breathe
-  \bar ""
+  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5) 
+  \bar "|" 
 }
 barMaior = {
   \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
