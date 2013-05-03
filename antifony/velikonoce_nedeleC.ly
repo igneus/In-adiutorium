@@ -28,7 +28,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -53,7 +53,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -77,7 +77,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -101,7 +101,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -125,7 +125,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -149,7 +149,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -174,7 +174,7 @@
     differentia = "G" 
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#2ne-a3"
-    id = ""
+    id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -200,7 +200,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -224,7 +224,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "vmagii"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -256,7 +256,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -284,7 +284,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -310,7 +310,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "vimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -340,7 +340,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -368,7 +368,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -394,7 +394,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
