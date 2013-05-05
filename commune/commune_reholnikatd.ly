@@ -74,7 +74,10 @@
   \score {
     \relative c' {
       \choralniRezim
+      e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
+      d e f f g f g( a) g f e e \barFinalis
       
+      f^\markup\rubrVelikAleluja d( f) f( e) e \barFinalis
     }
     \addlyrics {
       Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
@@ -84,8 +87,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "E" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -101,9 +104,14 @@
   \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f g e \barFinalis
       
+      f^\markup\rubrVelikAleluja g g( f) e \barFinalis
     }
     \addlyrics {
       Kaž -- dý, kdo pl -- ní vů -- li
@@ -115,10 +123,12 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -128,7 +138,10 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 e f g( a) g bes a g( a) g \barMaior
+      g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
       
+      g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
     }
     \addlyrics {
       Bůh je můj po -- díl, po němž tou -- žím;
@@ -138,8 +151,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "VI"
+      differentia = "F" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -170,7 +183,7 @@
       differentia = "G" 
       psalmus = ""
       id = ""
-      fial = "sanktoral/0825benediktabratri.ly#amag"
+      fial = "sanktoral/0825benediktabratri.ly#amag?+aleluja"
       fons = "+ pridano aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -179,21 +192,25 @@
   \markup\italic{Nebo:}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      c4 c( b d) c \barMin
+      b c d b a g g \barMin 
+      a g f a( c) b g g \barFinalis
       
+      f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
     }
     \addlyrics {
-      Bůh žeh -- ná těm,
-      kdo ho o -- sla -- vu -- jí
+      Bůh žeh -- ná 
+      těm, kdo ho o -- sla -- vu -- jí
       v_bra -- trs -- kém spo -- le -- čen -- ství.
       
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
