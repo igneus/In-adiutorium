@@ -21,7 +21,7 @@
       f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
       f g a g f g g e e \barMin e f e \barFinalis
       
-      
+      e^\markup\rubrVelikAleluja e( g) f( e) e \barFinalis
     }
     \addlyrics {
       Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
@@ -35,6 +35,7 @@
       differentia = "E" 
       psalmus = ""
       id = ""
+      fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
       fons = "25.8. pět bratří, k Benedictus; přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -45,13 +46,17 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g a( b c) d( c) c \barMin
+      g4 g \neviditelna g
+      \bar ";" a( b c) d( c) c \bar ";" a( b c) c \bar ";"
       d( e c d) c( b) a( g) a g g \barMaior
       g f g g( a b) c( d) d \barMin d d( f e) d( c) d c \barMaior
       d d( c b) a( g) f g a( b) g g \barFinalis
+      
+      f^\markup\rubrVelikAleluja a( b) g g \barFinalis
     }
     \addlyrics {
-      Sva -- tý Be -- ne -- dikt 
+      Sva -- tý \markup{ \with-color ##'red {N:} }
+      Be -- ne -- dikt Mar -- tin
       hle -- dal své -- ho Pá -- na,
       a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
       a do -- ve -- dl ho ke spá -- se.
@@ -168,6 +173,8 @@
       g c( b a) c b a g f( g) g \barMaior
       g g f( g) \barMin a( b c) b a( g) a \barMaior
       a a( c) b b( c) \barMin c c c c d( c b) a f( a) g \barFinalis
+      
+      g^\markup\rubrVelikAleluja f( a) g g \barFinalis
     }
     \addlyrics {
       Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
