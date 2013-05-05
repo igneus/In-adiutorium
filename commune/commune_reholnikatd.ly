@@ -340,9 +340,13 @@
   \markup {\nadpisHodinka {"1. nešpory"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4( c) b \barMin c c c a g a a g g \barMaior
+      a f a g g( a) g \barMin a b c d c a( b a) a \barMaior
+      c( a c) g \barMin f g a( c) b g g \barFinalis
       
+      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
@@ -353,8 +357,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -366,7 +370,10 @@
   \score {
     \relative c' {
       \choralniRezim
+      d4 c d d( f e) d c \barMin
+      f e f g f d d \barMin d( e) d c( d) d \barFinalis
       
+      e^\markup\rubrVelikAleluja d c( d) d \barFinalis
     }
     \addlyrics {
       Jen ten, kdo mi -- lu -- je,
@@ -376,8 +383,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = ""
-      differentia = "" 
+      modus = "II"
+      differentia = "D" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -391,6 +398,8 @@
       \choralniRezim
       d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
       f g a a a b( c d) d( c) \barMin a( g) f g( a) a( g) g \barFinalis
+      
+      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Nech -- te dě -- ti při -- chá -- zet ke mně,
