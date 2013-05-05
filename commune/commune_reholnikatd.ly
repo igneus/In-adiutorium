@@ -233,9 +233,13 @@
   \markup {\nadpisHodinka {"1. nešpory"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      \key f \major
+      g4 a f( e) d \barMin f g a a( bes a) g g( a) a \barMaior
+      a bes( g) bes bes( a) a \barMin g a g g a f e d d \barFinalis
       
+      f^\markup\rubrVelikAleluja g( e) d d \barFinalis
     }
     \addlyrics {
       Bla -- že -- ný je, kdo cí -- tí s_u -- bo -- žá -- ky;
@@ -245,8 +249,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "g" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -260,14 +264,19 @@
       \choralniRezim
       d4 d d( f) f d c d c c \barMin 
       d e f e f g a( g) g \barMaior
-      a a a a a g( f e d) d \barMin c d d( f) f f 
+      a a a a a g( f e d) d \barMin
+      c d d( f) e( d) d \barFinalis
+      
+      c^\markup\rubrVelikAleluja d d( f) f f 
       g f d d \barFinalis
     }
     \addlyrics {
       Po -- dle to -- ho všich -- ni po -- zna -- jí,
       že jste mo -- ji u -- čed -- ní -- ci,
-      bu -- de -- te -li mít lás -- ku k_so -- bě na -- vzá -- jem.
+      bu -- de -- te -li mít lás -- ku 
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
       
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
       A -- le -- lu -- ja.
     }
     \header {
@@ -285,9 +294,19 @@
   \markup {\nadpisHodinka {"2. nešpory"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      a4 g( a) f g a \barMaior
+      a bes a g a f g e \barMaior
+      d d d d d f d f g f d d \barMaior
+      a' g a g f e( f) d \barMax
       
+      d( a') a \barMin c c b a b c a a \barMaior
+      f( g) g( a) a a g a( c) b a( b) a a \barMaior
+      a a a g f g g f( e) d \barMaior
+      e d c e f d d \barFinalis
+      
+      e^\markup\rubrVelikAleluja d c( d) d \barFinalis
     }
     \addlyrics {
       A -- men, pra -- vím vám:
@@ -304,8 +323,8 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = ""
-      differentia = "" 
+      modus = "I"
+      differentia = "a2" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
