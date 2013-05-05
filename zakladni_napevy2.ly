@@ -41,7 +41,7 @@
 
     es8[ f] g[ g g] g[ g] g4 f \bar "|"
     g8[ g] f[ g] as([ g)] g4 \bar "|" \break
-    r8 f8 f[ f f] f[ f d es] g[ f] f4 \bar "||"
+    r8 f8 f[ f f] f[ f c es] g[ f] f4 \bar "||"
     
     es8([ f)] f4 \bar "||"
   }
