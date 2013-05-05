@@ -21,7 +21,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 119-Kof"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Mdr 9"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +65,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 117"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }

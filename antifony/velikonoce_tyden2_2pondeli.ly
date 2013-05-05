@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 42"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Sir 36"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -68,7 +68,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 19-A"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -94,7 +94,8 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 45-I"
-    id = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -118,7 +119,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 45-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

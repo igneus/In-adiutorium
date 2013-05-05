@@ -20,7 +20,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 57"
-    id = ""
+    id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
     piece = \markup {\sestavTitulek}
   }
@@ -40,7 +40,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Jer 31"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -60,7 +60,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 48"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -82,7 +82,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 30"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +104,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = "Žalm 32"
-    id = ""
+    id = "ne-a2"
     fons = "Velký pátek, ad Magnificat; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }

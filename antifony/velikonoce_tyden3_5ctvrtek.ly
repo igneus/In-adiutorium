@@ -19,7 +19,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 87"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +43,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Iz 40"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -64,7 +64,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 99"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -86,7 +86,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 132-I"
-    id = ""
+    id = "ne-a1"
     fons = "Krista Krále, 1. nešp., ad Magnificat, první část"
     piece = \markup {\sestavTitulek}
   }
@@ -110,7 +110,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 132-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

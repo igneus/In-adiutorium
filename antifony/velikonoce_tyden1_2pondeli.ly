@@ -21,7 +21,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 5"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "VII"
     differentia = "c" 
     psalmus = "1Kron 29"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +65,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 29"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -89,7 +89,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 11"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,7 +111,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 15"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

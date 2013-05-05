@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +43,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Tob 13"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +65,7 @@
     modus = "VII"
     differentia = "c" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "rch-a3"
     fons = "První část z žaltář, sobota 4.t., modlitba uprostřed dne, 3. ant."
     piece = \markup {\sestavTitulek}
   }
@@ -90,7 +90,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 145-I"
-    id = ""
+    id = "ne-a1"
     fons = "začátek viz 4. neděle postní, cyklus B, ad Benedictus"
     piece = \markup {\sestavTitulek}
   }
@@ -115,7 +115,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 145-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

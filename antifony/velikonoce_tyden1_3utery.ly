@@ -23,7 +23,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = "Žalm 24"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Tob 13"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -66,7 +66,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 33"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -96,7 +96,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 20"
-    id = ""
+    id = "ne-a1"
     fons = "začátek: žaltář, čt 2.t., nešp., 3.ant."
     piece = \markup {\sestavTitulek}
   }
@@ -119,7 +119,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 21"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
