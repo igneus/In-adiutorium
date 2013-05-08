@@ -169,7 +169,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( c d) f( e) f d( e d) d \barMaior
+    e f e d c d( c) \barMin d c d( f) e c( d) d \barFinalis
     
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
     Tří -- bils mě oh -- něm
@@ -179,8 +182,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -190,7 +193,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
+    f f( g f) e( f) e( d) \barMin d c( d f) e( c) c( d) d \barFinalis
     
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
     Zá -- to -- py vod ne -- mo -- hou u -- ha -- sit lás -- ku
@@ -200,8 +206,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
