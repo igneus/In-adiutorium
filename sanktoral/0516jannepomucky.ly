@@ -217,16 +217,21 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4( g f) g( a) g \barMin a b g a( f) e \barMaior
+    f g a g f f( a) g f e e \barFinalis
     
+    f^\markup\rubrVelikAleluja d( f) e e \barFinalis
   }
   \addlyrics {
     Pro -- šel jsem oh -- něm a vo -- dou,
     a -- le pak jsi mi do -- přál ú -- le -- vu.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -240,15 +245,18 @@
     \choralniRezim
     
     % R
-    \neviditelna a
-    
+    \neviditelna f
+    f4 f f f f f( g) f \barMin g f g( a) a( g) \barMax
+    f g( a) g f f \barFinalis
     % V
     \neviditelna a
-    
+    a4 a a a a( bes) a a \barMin g( a) g f g( a) a \barMin
+    f g( a) g a a g \barMax
     % R
     \neviditelna a
-    
+    f g( a) g f f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- din je mé svět -- lo a má spá -- sa._*
@@ -260,7 +268,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -274,10 +282,11 @@
     
     % R
     \neviditelna f
+    f4 f f f f f f f f f( g) f \barMin f f f e g( a) \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+    f4 f f f f f f f f f( g) f f \barMin f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
