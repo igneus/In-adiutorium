@@ -15,7 +15,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4( d) d \barMin d( e f) g( f e) f d( e d) d \barMaior
+    d c d d( f) e 
+    f f d d \barFinalis
   }
   \addlyrics {
     Pa -- ne,
@@ -25,8 +27,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -36,7 +38,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 d d \barMin f f e f g f e d( e) d d \barMaior
+    f g( a) g f( e f) \barMin d( e f g) f d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
@@ -45,8 +49,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -54,9 +58,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a a g a f g f e g a a \barMaior
+    a( c) c b( g) g \barMin f( a) a f e e \barMaior
+    a a a( b) g e e \barMin g f( g f) d d e e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
@@ -66,8 +73,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -77,7 +84,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d c( d) d f d f e( d) d e c( d) d d \barMaior
+    d( c a) c( d) d c( d) d \barMin
+    e f e d f( g) f g f( e) d( c) c( d) \barMaior
+    d d d( e f) e( d) \barMin f e( f) e d e d c( d) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Fi -- lip pot -- kal Na -- ta -- na -- e -- la
@@ -89,8 +100,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -143,7 +154,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g g g a g f( d) d \barMin 
+    f g a bes g g( a) a a g f e4. e \barMin
+    d4 f e d \barFinalis
   }
   \addlyrics {
     Jest -- li -- že mě mi -- lu -- je -- te,
@@ -152,10 +165,12 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Ef 1"
     id = ""
+    fons = ""
+    fial = "antifony/tyden4_5ctvrtek.ly#up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }

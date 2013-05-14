@@ -1,10 +1,9 @@
-% Žalm 95, tonus volně II.D podle trapistického antifonáře:
-% http://splendorveritatis.org/antiphonale/large-1895.html a další
+% -*- master: ../inkubator_pro_invitatoria.ly;
 
 strofa = { \bar "||" \break }
 
 zalmXCVtonusIIDpoznamka = \markup\justify {
-  Nápěv volně podle Antiphonarium Cisterciense, Westmalle: Typographia ordinis cisterciensium strictioris observantiae, 1947, 273*nn.
+  Nápěv volně podle \italic{Liber hymnarius,} Solesmes 1983, 133nn.
 }
 
 zalmXCVtonusIID = \score {
@@ -13,9 +12,9 @@ zalmXCVtonusIID = \score {
     
     % Pojdme
     d4 c4 d f f f g g f \barMax
-    d f f g g f e d( f e) d \barMax
-    d c d d f f g f e d \barMax
-    d c( a) c( d) d d f e( d) c( d e) d \strofa
+    d f f g g f e( d) e( f) e( d) \barMax % nevim, jestli vyresit kratka slova melismatem je dobre
+    d c d d f f e d e( f) e( d) \barMax
+    d c( a) c( d) d d f e( d) e( c d) d( e e d) \strofa
     
     % Nebot veliky
     d4 c d f f f g g f f \barMax

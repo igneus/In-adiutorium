@@ -1,3 +1,5 @@
+% -*- master: ../invitatorium_choralni.ly;
+
 % Žalm 95, tonus volně I.D podle trapistického antifonáře:
 % http://splendorveritatis.org/antiphonale/large-1895.html a další
 

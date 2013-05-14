@@ -21,7 +21,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -46,7 +46,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Jer 14"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -66,7 +66,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
     fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -91,7 +91,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 135-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -115,7 +115,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 135-II"
-    id = ""
+    id = "ne-a2"
     fons = "Květná neděle, ad Benedictus, poslední část."
     piece = \markup {\sestavTitulek}
   }
