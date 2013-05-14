@@ -201,6 +201,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d c bes c d d c d \barMaior
@@ -232,6 +233,44 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\markup\justify{
+  Po dlouhé době mi došlo, že se tahle dá transponovat a je to typický
+  modus IV, kdepak alterovaný ...
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a g f g a a g a \barMaior
+    a a c4.( a) \barMin a4 g f g e \barMax
+    
+    e f g g g g( a) a \barMaior
+    a b a a( e) \barMin e g a a a g( a) e e \barMaior
+    d c d e e \barMin g f e d e e \barFinalis
+    
+    e^\markup\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ne vy jste vy -- vo -- li -- li mne,
+    a -- le já jsem vy -- vo -- lil vás
+    
+    a u -- rčil jsem vás k_to -- mu,
+    a -- bys -- te šli a při -- ná -- še -- li u -- ži -- tek
+    a váš u -- ži -- tek a -- by byl tr -- va -- lý.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
@@ -257,8 +296,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
