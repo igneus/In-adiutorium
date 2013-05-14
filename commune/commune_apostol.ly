@@ -172,15 +172,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    d c bes c d d c d \barMaior
-    d d f4.( d) \barMin d4 c bes c a \barMax
+    a g f g a a g a \barMaior
+    a a c4.( a) \barMin a4 g f g e \barMax
     
-    a bes c c c c( d) d \barMaior
-    d e d d( a) \barMin a c d d d c( d) a a \barMaior
-    g f g a a \barMin c bes a g a a \barFinalis
+    e f g g g g( a) a \barMaior
+    a b a a( e) \barMin e g a a a g( a) e e \barMaior
+    d c d e e \barMin g f e d e e \barFinalis
     
-    a^\markup\rubrVelikAleluja bes g( a) a \barFinalis
+    e^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Ne vy jste vy -- vo -- li -- li mne,
@@ -194,8 +193,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
