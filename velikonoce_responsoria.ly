@@ -60,6 +60,9 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ne-rch"
       piece = "neděle - ranní chvály (VI)"
     }
   }
@@ -89,6 +92,9 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ne-2ne"
       piece = "neděle - druhé nešpory (VI)"
     }
   }
@@ -120,6 +126,9 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      quid = "resp."
+      modus = "VI"
+      id = "odnanebevstoupeni-ne"
       piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
     }
   }
@@ -152,6 +161,9 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ferie-rch"
       piece = "pondělí až sobota - ranní chvály (VI)"
     }
   }
@@ -182,6 +194,9 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ferie-ne"
       piece = "pondělí až první nešpory neděle - nešpory (VI)"
     }
   }
