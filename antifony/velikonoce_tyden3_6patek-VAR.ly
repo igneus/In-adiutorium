@@ -6,10 +6,36 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d) d \barMin
     d( f) e( f) f g f e f d d \barMaior
     e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 51"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aleluja o něco plynuleji navazující:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c d) d \barMin
+    d( f) e( f) f g f e f d d \barMaior
+    \mark\sipka e d c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že,
