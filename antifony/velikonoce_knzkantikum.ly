@@ -208,6 +208,7 @@ velikTIIctvrtekNespAntIII = \score {
     differentia = "D" 
     psalmus = "Zj 11"
     id = ""
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -231,6 +232,7 @@ velikTIIpatekNespAntIII = \score {
     psalmus = "Zj 15"
     id = ""
     fons = "úlomek převzat z: žaltář, so 1.t., r.ch., 2. ant."
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
