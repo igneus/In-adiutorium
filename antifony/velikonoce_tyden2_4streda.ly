@@ -42,6 +42,7 @@
     differentia = "G" 
     psalmus = "1Sam 2"
     id = "rch-a2"
+    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -88,6 +89,7 @@
     differentia = "g" 
     psalmus = "Žalm 62"
     id = "ne-a1"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pondělí 2. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -46,6 +46,7 @@
     differentia = "E" 
     psalmus = "Sir 36"
     id = "rch-a2"
+    placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
     piece = \markup {\sestavTitulek}
   }
 }

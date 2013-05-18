@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pondělí 3. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -70,6 +70,7 @@
     differentia = "G" 
     psalmus = "Žalm 96"
     id = "rch-a3"
+    placet = "r - to je možná ve skutečnosti čistý peregrinus? - rozhodně ale ne VIII"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -94,6 +95,7 @@
     differentia = "c" 
     psalmus = "Žalm 123"
     id = "ne-a1"
+    placet = "r - přetížená"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +106,7 @@
     e4( d) c d e g g \barMin
     g a b a( g) g \barMaior
     a b g g \barFinalis
-  }
+  }-
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
     a my jsme vol -- ní.
@@ -116,6 +118,7 @@
     differentia = "G" 
     psalmus = "Žalm 124"
     id = "ne-a2"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

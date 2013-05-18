@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Sobota 4. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -22,6 +22,7 @@
     differentia = "a" 
     psalmus = "Žalm 92"
     id = "rch-a1"
+    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -42,6 +43,7 @@
     differentia = "G" 
     psalmus = "Ex 36"
     id = "rch-a2"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -66,6 +68,7 @@
     differentia = "a" 
     psalmus = "Žalm 8"
     id = "rch-a3"
+    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }

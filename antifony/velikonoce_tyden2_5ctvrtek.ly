@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Čtvrtek 2. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -67,6 +67,7 @@
     psalmus = "Žalm 81"
     id = "rch-a3"
     fons = "vyňato z: slavnost Těla a Krve Páně, 1.nešp., 2.ant."
+    placet = "r - jako výtržek působí nevyváženě - radši složit jinou melodii"
     piece = \markup {\sestavTitulek}
   }
 }
