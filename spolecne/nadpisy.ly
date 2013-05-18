@@ -38,15 +38,15 @@
                             
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus ") " \fromproperty #'header:placet }
 }
 
 sestavTitulekBezZalmu = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " " \fromproperty #'header:placet }
 }
 
 sestavTitulekResp = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
+\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus " " \fromproperty #'header:placet }
 }
 
 % u antifon, ktere se meni s rocnim cyklem, se proste prida do piece
