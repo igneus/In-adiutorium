@@ -109,6 +109,39 @@
   }
 }
 
+\markup{Tady prospěje prořezat:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \mark\sipka a4 g a b( c) c \barMin
+    \mark\sipka c d e d c c( d e) d d \barMin
+    c( b a) b g g \barMaior
+    g g( c) c c c d( f) e d( c a) a \barMin
+    c( b) a g( a) a( g) \barMax
+    g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Nad a -- po -- što -- ly 
+    se u -- ká -- za -- ly ja -- zy -- ky
+    ja -- ko z_oh -- ně;
+    a všich -- ni by -- li na -- pl -- ně -- ni
+    Du -- chem sva -- tým.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a" 
+    psalmus = "Žalm 147-I (1-11)"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
