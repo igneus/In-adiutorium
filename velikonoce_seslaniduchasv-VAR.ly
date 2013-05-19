@@ -8,17 +8,6 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
-respAlelujaVI = { 
-  a4 a( g) g f \breathe d f( g) g f 
-}
-
-respAlelujaText = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
-
-doxologieRespAlelujaVI = {
-  f4 e g( a) a a a( bes) a \breathe
-  a a g a( g) f f
-}
-
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -292,23 +281,23 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f f f f f f f f f e g a \barMax
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % V
     \neviditelna f
-    f f f f f f f e g g a \barMax
+    f f f f f f f e g a a \barMax
     % R
     \neviditelna a
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % Slava
-    \doxologieRespAlelujaVI \barFinalis
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response Všich -- ni by -- li na -- pl -- ně -- ni Du -- chem sva -- tým._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Za -- ča -- li mlu -- vit ci -- zí -- mi ja -- zy -- ky._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -571,25 +560,25 @@ doxologieRespAlelujaVI = {
     % R
     \neviditelna f
     f4 f f f f f e g g a \barMax
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % V
     \neviditelna f
     f f f f f f f f( g) f f e( d) \barMin
-    f f f f f e g g a \barMax
+    f f f f f e g a a \barMax
     % R
     \neviditelna a
-    \respAlelujaVI \barFinalis
+    \respVIalelujaResponsum \barFinalis
     
     % Slava
-    \doxologieRespAlelujaVI \barFinalis
+    \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
     \Response Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět._*
-    \respAlelujaText
+    \textRespAleluja
     \Verse Všech -- no u -- dr -- žu -- je a ob -- no -- vu -- je,
     pro -- mlou -- vá k_li -- dem všech ja -- zy -- ků._*
-    \Response \respAlelujaText
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
