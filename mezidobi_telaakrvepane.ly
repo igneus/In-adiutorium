@@ -160,6 +160,69 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným: 
+    Hos -- ti -- nu jsem při -- chys -- tal, 
+    pojď -- te na svat -- bu! 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 23"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Kdo žíz -- ní, 
+    ať při -- jde ke mně 
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 42"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- din nás ži -- ví ja -- dr -- nou pše -- ni -- cí, 
+    me -- dem ze ská -- ly nás sy -- tí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 81"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
