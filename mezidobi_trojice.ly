@@ -49,7 +49,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "" 
+    differentia = "G" 
     psalmus = "Žalm 147-II"
     id = ""
     piece = \markup {\sestavTitulek}
