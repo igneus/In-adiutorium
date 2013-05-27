@@ -104,7 +104,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -132,10 +132,12 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -156,6 +158,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -165,7 +168,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 a' g f a g \barMaior
+    f g g g f( g) f( d) d \barMin
+    f( e f a) f e( f) d d \barMaior
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Řek -- ně -- te po -- zva -- ným: 
@@ -175,18 +181,20 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 23"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d d( e c d) d \barMin 
+    d c( b a) g g( a) a \barMin 
+    a a( c) b a g a a g g \barFinalis
   }
   \addlyrics {
     Kdo žíz -- ní, 
@@ -195,18 +203,26 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 42"
-    id = ""
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\markup\justify\italic{
+  Místo následující antifony lze ev. zpívat
+  3. antifonu ranních chval ze Čtvrtka svatého týdne,
+  která má téměř stejný text.
 }
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f e a a( g) g \barMin f( g a) g f g f e( d) \barMaior
+    d c d( f e) f( g) f e d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din nás ži -- ví ja -- dr -- nou pše -- ni -- cí, 
@@ -214,10 +230,12 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 81"
-    id = ""
+    id = "mc-a3"
+    notitia = "snadno by se dala textově a hudebně sjednotit s jednou 
+    již existující skupinou textově příbuzných antifon, ale záměrně jsem to neudělal"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -243,7 +261,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -266,7 +284,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -290,7 +308,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -322,7 +340,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -344,7 +362,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -370,8 +388,9 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "up-tercie"
     fons = "Svatý týden, čtvrtek, ad Benedictus; přidáno aleluja"
+    fial = "pust_svatytyden.ly#ct-rch-aben?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -395,8 +414,9 @@
     modus = "I"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "up-sexta"
     fons = "Velikonoční triduum, Zelený čtvrtek, ad Magnificat; přidáno aleluja"
+    fial = "pust_triduum.ly#ct-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -416,7 +436,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -442,7 +462,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -463,7 +483,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -486,7 +506,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Zj 19"
-    id = ""
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -530,7 +550,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag-var1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -579,7 +599,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     modus = "V"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag-var2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
