@@ -263,6 +263,71 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý žá -- dal od te -- be ži -- vot, Hos -- po -- di -- ne;
+    o -- zdo -- bils ho ctí a vzne -- še -- nos -- tí.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ces -- ta spra -- ved -- li -- vých
+    je ja -- ko den -- ní svět -- lo,
+    kte -- ré ros -- te od ú -- svi -- tu
+    do jas -- né -- ho dne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý po -- kve -- te jak pal -- ma,
+    po -- ros -- te jak ce -- dr na Li -- ba -- no -- nu.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

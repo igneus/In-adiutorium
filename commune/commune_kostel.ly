@@ -277,6 +277,75 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Zdvih -- ně -- te, brá -- ny, své klen -- by,
+    zvyš -- te se, pra -- sta -- ré vcho -- dy.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Jak mi -- lý je tvůj pří -- by -- tek, 
+    Hos -- po -- di -- ne zá -- stu -- pů!
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 84"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d e( d) d \barFinalis
+    
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    měs -- to Bo -- ží.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"  
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?+aleluja"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
