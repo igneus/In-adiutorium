@@ -18,6 +18,8 @@
     Náš Bůh při -- jde
     % prehozeni poslednich slov - z rytmickych duvodu
     a u -- ká -- že svou moc a slá -- vu.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -38,6 +40,8 @@
   \addlyrics {
     Při -- ná -- šej Bo -- hu
     o -- běť chvá -- ly.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -58,6 +62,8 @@
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci, a ne o -- běť:
     po -- zná -- ní Bo -- ha je víc než ce -- lo -- pa -- ly.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

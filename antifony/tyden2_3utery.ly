@@ -19,6 +19,8 @@
     Hos -- po -- di -- nu svěř svůj o -- sud,
     v_ně -- ho dů -- vě -- řuj,
     on sám bu -- de jed -- nat.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -39,6 +41,8 @@
   \addlyrics {
     Chraň se zlé -- ho a čiň do -- bré;
     Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
   \addlyrics {
     Dou -- fej v_Hos -- po -- di -- na
     a drž se je -- ho ces -- ty.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

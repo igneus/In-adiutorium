@@ -17,6 +17,8 @@
   \addlyrics {
     Na -- vě -- ky chci zpí -- vat 
     o Hos -- po -- di -- no -- vých mi -- los -- tech.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
     po -- chá -- zí ja -- ko člo -- věk z_ro -- du Da -- vi -- do -- va.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,
     své -- mu slu -- žeb -- ní -- ku;
     je -- ho po -- tom -- stvo po -- tr -- vá na -- vě -- ky.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

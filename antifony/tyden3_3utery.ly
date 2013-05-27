@@ -17,6 +17,8 @@
   \addlyrics {
     Bůh po -- vstá -- vá 
     a ti, kdo ho ne -- ná -- vi -- dí, pr -- cha -- jí před ním.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Náš Bůh je Bo -- hem spá -- sy;
     on dá -- vá u -- nik -- nout smr -- ti.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
     Po -- zem -- ské ří -- še,
     zpí -- vej -- te Bo -- hu,
     ve -- leb -- te Pá -- na.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

@@ -21,6 +21,8 @@
     nad na -- ši -- mi ne -- přá -- te -- li,
     za -- han -- bils ty, 
     kte -- ří nás ne -- ná -- vi -- dí.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -41,6 +43,8 @@
   \addlyrics {
     Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
     on od vás ne -- od -- vrá -- tí svou tvář.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -61,6 +65,8 @@
   \addlyrics {
     Pa -- ne, ne -- skrý -- vej svou tvář,
     ne -- za -- po -- mí -- nej na na -- ši bí -- du a ú -- tisk.
+    
+    % v breviari neni aleluja
   }
   \header {
     quid = "3. ant."

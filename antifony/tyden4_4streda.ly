@@ -17,6 +17,8 @@
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
     a ne -- za -- po -- meň na žád -- né z_je -- ho do -- bro -- di -- ní.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -39,6 +41,8 @@
     Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
     tak se smi -- lo -- vá -- vá Hos -- po -- din
     nad tě -- mi, kdo se ho bo -- jí.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
   \addlyrics {
     Ve -- leb -- te Hos -- po -- di -- na,
     všech -- na je -- ho dí -- la.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

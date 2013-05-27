@@ -17,6 +17,8 @@
   \addlyrics {
     Jak dob -- rý je Bůh 
     k_těm, kdo ma -- jí čis -- té srd -- ce.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Smích hříš -- ní -- ků se ob -- rá -- tí v_ná -- řek
     a je -- jich ra -- dost ve smu -- tek.
+    
+    % v breviari neni aleluja
   }
   \header {
     quid = "2. ant."
@@ -57,6 +61,8 @@
   \addlyrics {
     Mé štěs -- tí je být na -- blíz -- ku Bo -- hu;
     kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

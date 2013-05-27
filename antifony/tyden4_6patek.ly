@@ -8,6 +8,82 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup\italic{V době adventní a vánoční, postní a velikonoční:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c d c b c a a( g) a \barMaior
+    d d d d c d e( d c d) c \barMin
+    a a c d c a b( g) a \barFinalis
+  }
+  \addlyrics {
+    Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
+    o Hos -- po -- di -- no -- vě mo -- ci
+    a o je -- ho slav -- ných či -- nech.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 78-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a d c d a \barMin c c b( a g) a \barMax
+    a a( d c) c \barMin d d d d( e d c) b( a) \barMaior
+    b a b c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Iz -- ra -- e -- le jed -- li ma -- nu
+    a pi -- li z_du -- chov -- ní ská -- ly,
+    kte -- rá je 
+    % do -- 
+    pro -- vá -- ze -- la.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 78-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a( d) d c c \barMin
+    d c b a( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A" 
+    psalmus = "Žalm 78-III"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{V liturgickém mezidobí:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -64,74 +140,6 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Žalm 55-III"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\markup\italic{V době adventní a vánoční:}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4 a c d c b c a a( g) a \barMaior
-    d d d d c d e( d c d) c \barMin
-    a a c d c a b( g) a \barFinalis
-  }
-  \addlyrics {
-    Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
-    o Hos -- po -- di -- no -- vě mo -- ci
-    a o je -- ho slav -- ných či -- nech.
-  }
-  \header {
-    quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A" 
-    psalmus = "Žalm 78-I"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4 g a d c d a \barMin c c b( a g) a \barMax
-    a a( d c) c \barMin d d d d( e d c) b( a) \barMaior
-    b a b c a g( a) a \barFinalis
-  }
-  \addlyrics {
-    Sy -- no -- vé Iz -- ra -- e -- le jed -- li ma -- nu
-    a pi -- li z_du -- chov -- ní ská -- ly,
-    kte -- rá je 
-    % do -- 
-    pro -- vá -- ze -- la.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A" 
-    psalmus = "Žalm 78-II"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4 g a( d) d c c \barMin
-    d c b a( g) g( a) a \barFinalis
-  }
-  \addlyrics {
-    Bůh je na -- ší ská -- lou
-    a na -- ším za -- chrán -- cem.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A" 
-    psalmus = "Žalm 78-III"
     id = ""
     piece = \markup {\sestavTitulek}
   }
