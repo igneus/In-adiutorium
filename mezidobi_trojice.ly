@@ -105,6 +105,7 @@
     quid = "resp."
     modus = "I"
     id = ""
+    placet = "R"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -131,6 +132,7 @@
     differentia = "D" 
     psalmus = ""
     id = ""
+    placet = "~ je to fakt II? Závěr zní trochu cize."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -155,6 +157,7 @@
     differentia = "d" 
     psalmus = ""
     id = ""
+    placet = "jde, ale nic moc"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -331,6 +334,7 @@
     quid = "resp."
     modus = "IV alt."
     id = ""
+    placet = "~"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -355,6 +359,7 @@
     differentia = "g" 
     psalmus = ""
     id = ""
+    placet = "trochu divné je -stvořil-"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -384,6 +389,7 @@
     differentia = "D" 
     psalmus = ""
     id = ""
+    placet = "začátek je takový dryjáčnický"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -406,6 +412,7 @@
     differentia = "d" 
     psalmus = ""
     id = ""
+    placet = "r - zakončení na aktuální finále zní nepřesvědčivě; není třeba VII?"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -432,6 +439,7 @@
     differentia = "G" 
     psalmus = ""
     id = ""
+    placet = "R - tahle je jakoby spíš I než VIII"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
