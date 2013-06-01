@@ -126,7 +126,7 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
-    psalmus = "Žalm 29(28)"
+    psalmus = "Žalm 29"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -152,7 +152,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "a"
-    psalmus = "Žalm 19(18)"
+    psalmus = "Žalm 19"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -214,7 +214,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "a" 
-    psalmus = "Žalm 11(10)"
+    psalmus = "Žalm 11"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -234,7 +234,7 @@
     quid = "2. ant." 
     modus = "VI"
     differentia = "F"
-    psalmus = "Žalm 15(14)"
+    psalmus = "Žalm 15"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -257,7 +257,7 @@ tIpondeliNespAntIII = \score {
     quid = "3. ant."
     modus = "I"
     differentia = "f" 
-    psalmus = "Ef 1,3-10"
+    psalmus = "Ef 1"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
