@@ -161,7 +161,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f" 
-    psalmus = "Žalm 119-III"
+    psalmus = "Žalm 119-ג"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
