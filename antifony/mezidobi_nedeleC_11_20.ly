@@ -3,9 +3,11 @@
 \markup {\nadpisDen {"11. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( b a) g( a) a \barMin f g a a f e d( e) e( d) \barMaior
+    d c c( d) d f( e) f( d) d \barMin f( e) f f( a g) g \barMaior
+    g a g f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Že -- na hříš -- ni -- ce při -- stou -- pi -- la k_Je -- ží -- šo -- vi,
@@ -14,8 +16,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     annus = "C"
     id = ""
@@ -24,9 +26,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g g f a( g a) c( b) a( g) g \barMin a( b) a g g \barMaior
+    a a a a g f e d f g a( g) g \barMax
+    c c c c( d) c b a a \barMin
+    c( b) a a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Mu -- se -- lo jí být od -- puš -- tě -- no mno -- ho hří -- chů,
@@ -36,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
@@ -46,9 +51,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a( c) d c( d) d \barMaior
+    d d( e f4.) e4 d c d c( b) a \barMin
+    g( a b) a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl že -- ně:
@@ -57,14 +64,17 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a" 
     psalmus = ""
     annus = "C"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"12. neděle"}}
 
@@ -655,6 +665,7 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+%}
 
 %{
 \markup {\nadpisDen {"X. neděle"}}
