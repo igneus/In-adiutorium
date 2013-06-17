@@ -74,14 +74,14 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"12. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    e f g g g( a) \barMin g a f( e) e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
@@ -90,10 +90,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -124,7 +125,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d c bes c( d) c( d) d \barMin
+    f( e) d d \barMaior
+    f f f f f( g) g g f d( e c) c( d) \barMin
+    bes c( d) e( f) d d \barFinalis
   }
   \addlyrics {
     Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
@@ -134,14 +138,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"13. neděle"}}
 
