@@ -147,14 +147,15 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"13. neděle"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f e d f( g) f f \barMin
+    g g( a) g g a bes g g \barMaior
+    a a a a g f d d \barMin
+    e c c( f) e c d d \barFinalis
   }
   \addlyrics {
     Liš -- ky ma -- jí dou -- pa -- ta
@@ -164,8 +165,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = ""
@@ -174,17 +175,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( c) \barMin c d( c b c) a \barMin
+    a( b c) a g( a) g g \barFinalis
   }
   \addlyrics {
-    Jdi a zvěs -- tuj Bo -- ží krá -- lov -- ství!
+    Jdi a zvěs -- tuj 
+    Bo -- ží krá -- lov -- ství!
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
@@ -213,6 +216,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"14. neděle"}}
 
