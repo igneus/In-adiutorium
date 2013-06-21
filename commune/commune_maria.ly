@@ -273,9 +273,14 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
-    \choralniRezim
+  \relative c'' {
+    \key d \minor
     
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+    
+    d^\markup\rubrVelikAleluja d( e) c( d) d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
@@ -285,8 +290,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "g" 
     psalmus = "Žalm 24"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -296,7 +301,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f( a) a( g) g \barMin
+    f g a( f e) d( e) d d \barFinalis
     
+    c^\markup\rubrVelikAleluja d e( c) d \barFinalis
   }
   \addlyrics {
     Bůh ji po -- svě -- til 
@@ -306,8 +314,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "f" 
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -317,7 +325,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d f( e) d d \barFinalis
     
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
@@ -327,9 +338,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?upraveno"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
