@@ -15,7 +15,7 @@
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
     g f g g( a) a a c( d) d \barMin d c b( c) a g( a g) g \barFinalis
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -39,7 +39,7 @@
     \choralniRezim
     c4 a g f g( a) a \barMin b c c a( g) g \barMaior
     a c( d c) b( c a g) g \barMin a( g f) a a g( a g) g \barFinalis
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Zro -- di -- la jsi to -- ho, 
@@ -65,7 +65,7 @@
     a( b) g4. g \barMin a4 g f f f( e) e \barMaior
     g a a( c) c b( c a4.) a \barMin 
     a4( c) c d c b c a g g \barFinalis
-    g^\markup\small\italic{V době velikonoční:} a g g \barFinalis
+    g^\markup\rubrVelikAleluja a g g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, dce -- ro,
@@ -165,7 +165,7 @@
     \choralniRezim
     d4 c( d) d f g f d d \barMax
     d c d e e e f( g) f( e) e \barMin e f d d c( d) d4. \barFinalis
-    c4^\markup\small\italic{V době velikonoční:} d e d \barFinalis
+    c4^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     Bůh shlé -- dl na mou po -- ko -- ru,
@@ -222,7 +222,7 @@
     d4 e f f e f g a a \barMin 
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -249,7 +249,7 @@
     g a c c( d) d c d c( b a) a \barMin
     g( a) f g( a) g g \barFinalis
     
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
@@ -360,7 +360,7 @@
     d4 d d d b c4. \barMin 
     d4 b c a( g) g \barFinalis
     
-    b^\markup\small\italic{V době velikonoční:} c a4. g \barFinalis
+    b^\markup\rubrVelikAleluja c a4. g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, 
@@ -389,7 +389,7 @@
     g4 a c4. c \barMin d4 c b b( c) a \barMax
     a a b( c) a( g) c d d( c) c \barMax
     b( c) a a4.( g) \barMin f4 g a g( a g) g \barFinalis
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
@@ -413,7 +413,7 @@
     \choralniRezim
     a4( g) f( g) g \barMin f e c d d \barMax
     d e f g g g a( bes) a \barMin a a g f e( d) d \barFinalis
-    d^\markup\small\italic{V době velikonoční:} f e( d) d \barFinalis
+    d^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     Ra -- duj se, Pan -- no Ma -- ri -- a,
@@ -540,7 +540,7 @@
     g f e( f) d c d c c( a) \barMaior 
     c d e f f f e c c( d) d d \barFinalis
     
-    f^\markup\small\italic{V době velikonoční:} g( f) d d \barFinalis
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně 
@@ -565,7 +565,7 @@
     \key f \major
     f4 a a a bes g g( a) a \barMin 
     bes bes bes bes a( g) g \barMin f e d d \barFinalis
-    f^\markup\small\italic{V době velikonoční:} e d d \barFinalis
+    f^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka řek -- la:
@@ -592,7 +592,7 @@
     d d c d f e d( e) d d \barMaior
     d c( a) bes( c bes) a a \barFinalis
     
-    g^\markup\small\italic{V době velikonoční:} bes bes( a) a \barFinalis
+    g^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
   }
   \addlyrics {
     Pán ře -- kl své mat -- ce:
@@ -619,7 +619,7 @@
     \choralniRezim
     g4 a a c( d) d d \barMin c d b c b4. \barMin 
     b4( c) a( g) g \barFinalis
-    a^\markup\small\italic{V době velikonoční:} a g g \barFinalis
+    a^\markup\rubrVelikAleluja a g g \barFinalis
   }
   \addlyrics {
     Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
@@ -642,7 +642,7 @@
     \choralniRezim
     a4( b) c d d d a( g a4.) a \barMin
     c4 d d e( c b) b \barMin a b b a g g \barFinalis
-    a^\markup\small\italic{V době velikonoční:} b a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
@@ -665,7 +665,7 @@
     \choralniRezim
     d( f) e f( g) g \barMin g f g g a a \barMaior 
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
-    f^\markup\small\italic{V době velikonoční:} e f d d \barMaior e c c( d) d \barFinalis
+    f^\markup\rubrVelikAleluja e f d d \barMaior e c c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
@@ -761,7 +761,7 @@
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-    c^\markup\small\italic{V době velikonoční:} a( g) a( g) g \barFinalis
+    c^\markup\rubrVelikAleluja a( g) a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
