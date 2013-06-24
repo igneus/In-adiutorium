@@ -198,7 +198,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 e \barMin e e d e f e f( g e) d \barMin
+    f g a a a b a a \barMaior
+    a( g a) f( e) f e d d \barMin
+    c d f f e e \barFinalis
   }
   \addlyrics {
     Žád -- ný,
@@ -208,8 +211,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     annus = "C"
     id = ""
