@@ -236,18 +236,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 e e( a) a b( a) g( f) e \barMin
+    f d d f g f e( d) e \barMaior
+    f f d f e d \barMin
+    c c d e f g e e \barFinalis
     
+    e^\markup\rubrVelikAleluja f( d) f( e) e \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci pro -- li -- li na ze -- mi pro Kris -- ta svou krev,
-    pro -- to do -- stá -- va -- jí za od -- mě -- nu věč -- ný ži -- vot.
+    Mu -- čed -- ní -- ci pro -- li -- li 
+    na ze -- mi pro Kris -- ta svou krev,
+    pro -- to do -- stá -- va -- jí 
+    za od -- mě -- nu věč -- ný ži -- vot.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
