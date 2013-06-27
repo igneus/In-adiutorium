@@ -256,18 +256,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d( f) e( f) f \barMin
+    f( g a) f d e c 
+    c( d) \barFinalis
     
+    d(^\markup\rubrVelikAleluja c) \barMin
+    c c( d) d d \barFinalis
   }
   \addlyrics {
     Všu -- de na ze -- mi
-    pro -- ni -- kl je -- jich hlas.
+    pro -- ni -- kl je -- jich 
+    \markup{\Dagger hlas.}
     
+    \markup{\Dagger hlas.}
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -275,9 +282,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4( a g) g( f) g( a) a g \barMin a( b c) b a( f) g \barMaior
+    c c( d) b( c) a a \barMin a b a g g \barFinalis
     
+    f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Roz -- hla -- šo -- va -- li Bo -- ží skut -- ky
@@ -287,8 +297,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 64"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -298,7 +308,10 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4( a) f( g) g( f) \barMin d c d f f( g) f \barMaior
+    g g( a) f d d4.( e4 f d4. c) \barMin d4 c d( f) f g( a) g f f \barFinalis
     
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Hlá -- sa -- li Bo -- ží spra -- ve -- dl -- nost
@@ -308,8 +321,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VI"
+    differentia = "F" 
     psalmus = "Žalm 97"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
