@@ -16,6 +16,8 @@
   \addlyrics {
     Hos -- po -- di -- ne,
     po -- vstaň mi na po -- moc!
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -36,6 +38,8 @@
   \addlyrics {
     U -- jmi se mě, Hos -- po -- di -- ne,
     chraň mě svou mo -- cí.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
     Můj ja -- zyk
     bu -- de stá -- le o -- sla -- vo -- vat 
     tvou spra -- ve -- dl -- nost.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -147,7 +153,7 @@
     modus = "IV"
     differentia = "g" 
     quid = "1. ant."  
-    psalmus = "Žalm 119-IV"
+    psalmus = "Žalm 119-ד"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

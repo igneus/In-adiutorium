@@ -19,6 +19,8 @@
     U -- na -- ven jsem již vo -- lá -- ním,
     o -- či mi ze -- sláb -- ly,
     když vy -- hlí -- žím své -- ho Bo -- ha.
+    
+    % v breviari neni aleluja
   }
   \header {
     quid = "1. ant."
@@ -39,6 +41,8 @@
   \addlyrics {
     Do po -- kr -- mu mi da -- li žluč
     a v_žíz -- ni mě na -- po -- ji -- li oc -- tem.
+    
+    % nema aleluja
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
   \addlyrics {
     Hle -- dej -- te Bo -- ha,
     a bu -- de -- te se ra -- do -- vat.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

@@ -19,6 +19,8 @@
     ne -- boť je dob -- rý,
     je -- ho mi -- lo -- sr -- den -- ství
     tr -- vá na -- vě -- ky.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -40,6 +42,8 @@
   \addlyrics {
     Ve své tís -- ni vo -- lej -- te k_Hos -- po -- di -- nu,
     a on vás vy -- svo -- bo -- dí.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -63,6 +67,8 @@
     Hos -- po -- di -- no -- vy di -- vy
     a ra -- du -- jí se,
     po -- zná -- va -- jí je -- ho lás -- ku.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -90,7 +96,7 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c" 
-    psalmus = "Žalm 119-XIX"
+    psalmus = "Žalm 119-ק"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -153,7 +159,7 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D" 
-    psalmus = "Žalm 119-XVI"
+    psalmus = "Žalm 119-ע"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

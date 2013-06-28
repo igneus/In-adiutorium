@@ -256,6 +256,71 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    V_moud -- ros -- ti ot -- ví -- rá svo -- je ús -- ta,
+    na ja -- zy -- ku má las -- ka -- vé po -- u -- če -- ní.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- té že -- ny dů -- vě -- řo -- va -- ly v_Bo -- ha
+    a z_ce -- lé -- ho srd -- ce mu zpí -- va -- ly chvá -- lu.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 45-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    S_ra -- dost -- ným já -- so -- tem
+    vstu -- pu -- jí k_Pá -- nu.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 45-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -241,7 +241,6 @@
   \addlyrics {
     Kdo chce jít za mnou, za -- při sám se -- be,
     vez -- mi svůj kříž a ná -- sle -- duj mě.
-    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -250,6 +249,7 @@
     psalmus = ""
     id = "ne24b-rch-ben"
     fons = "commune jednoho mučedníka, 2. nešp., 1. ant."
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

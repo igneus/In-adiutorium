@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pondělí 4. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

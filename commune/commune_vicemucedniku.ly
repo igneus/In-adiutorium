@@ -231,6 +231,79 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( a) a b( a) g( f) e \barMin
+    f d d f g f e( d) e \barMaior
+    f f d f e d \barMin
+    c c d e f g e e \barFinalis
+    
+    e^\markup\rubrVelikAleluja f( d) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci pro -- li -- li 
+    na ze -- mi pro Kris -- ta svou krev,
+    pro -- to do -- stá -- va -- jí 
+    za od -- mě -- nu věč -- ný ži -- vot.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Na tom -- to svě -- tě jste ztra -- ti -- li svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um;
+    já sám bu -- du va -- ší od -- mě -- nou.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 33-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

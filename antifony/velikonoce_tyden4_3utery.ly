@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Úterý 4. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -117,6 +117,7 @@
     differentia = "a" 
     psalmus = "Žalm 138"
     id = "ne-a2"
+    placet = "?"
     piece = \markup {\sestavTitulek}
   }
 }

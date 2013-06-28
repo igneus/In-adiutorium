@@ -17,6 +17,8 @@
   \addlyrics {
     Hos -- po -- di -- ne,
     po -- přej mi slu -- chu a za -- chraň mě.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -39,6 +41,8 @@
     Svou jas -- nou tvář
     u -- kaž své -- mu slu -- žeb -- ní -- ku,
     Hos -- po -- di -- ne.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -61,6 +65,8 @@
     Po -- žeh -- nán buď Hos -- po -- din,
     že mi pro -- ká -- zal
     po -- di -- vu -- hod -- né mi -- lo -- sr -- den -- ství.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -146,7 +152,7 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G*" 
-    psalmus = "Žalm 119-VI"
+    psalmus = "Žalm 119-ו"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

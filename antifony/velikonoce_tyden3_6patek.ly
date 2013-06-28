@@ -47,6 +47,7 @@
     differentia = "f" 
     psalmus = "Jer 14"
     id = "rch-a2"
+    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }

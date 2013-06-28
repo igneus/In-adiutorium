@@ -17,6 +17,8 @@
   \addlyrics {
     Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
     po -- hleď na na -- še po -- ha -- ně -- ní.
+    
+    % v breviari neni aleluja
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
     zá -- ři -- vá jitř -- ní hvěz -- da.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -57,6 +61,8 @@
   \addlyrics {
     Na -- še lé -- ta jsou ja -- ko trá -- va, kte -- rá vad -- ne,
     jen ty, Bo -- že, zů -- stá -- váš na -- vě -- ky.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -146,7 +152,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f" 
-    psalmus = "Žalm 119-XV"
+    psalmus = "Žalm 119-ס"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

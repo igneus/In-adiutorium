@@ -118,6 +118,7 @@ velikTIpatekNespAntIII = \score {
     differentia = "E" 
     psalmus = "Zj 15"
     id = ""
+    placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ"
     piece = \markup {\sestavTitulek}
   }
 }
