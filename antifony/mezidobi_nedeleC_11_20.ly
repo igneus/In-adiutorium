@@ -250,19 +250,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d( f) d c e f f e( f) d d \barMaior
+    c( b c d) d f d f e( d) d \barMax
+    f f f f g( a) g f g f( e) d d \barMin
+    d c d f d f e( d c) d \barFinalis
   }
   \addlyrics {
-    Když něk -- de ve -- jde -- te do do -- mu,
-    řek -- ně -- te:
+    Když něk -- de ve -- jde -- te do do -- mu, řek -- ně -- te:
     Po -- koj to -- mu -- to do -- mu!
     Bu -- de -li tam člo -- věk hod -- ný po -- ko -- je,
     spo -- či -- ne na něm váš po -- koj.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
@@ -290,8 +292,6 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%{
 
 \markup {\nadpisDen {"15. neděle"}}
 
@@ -360,6 +360,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"16. neděle"}}
 
