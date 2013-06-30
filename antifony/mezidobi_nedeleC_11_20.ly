@@ -298,7 +298,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 a g( c) c \barMin c( d) b c( a g) g \barMin
+    f g a g( f) f \barMaior
+    g a g c a( g) g \barMin
+    a f g( a g) f f \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,
@@ -308,8 +311,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -320,7 +323,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f 
+    a a g f g( a) a g f g f f \barMin
+    g g g f e d( c) c \barMaior
+    d( e f) d c d( c) c \barMin
+    f g a g f g f f \barFinalis
   }
   \addlyrics {
     Sa -- ma -- ri -- tán
@@ -331,8 +338,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = ""
@@ -343,7 +350,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f g a a g f g g g 
+    f d e c c \barMaior
+    d( f) \barMin f g( a) a g f g f \barFinalis
   }
   \addlyrics {
     Sa -- ma -- ri -- tán pro -- ká -- zal své -- mu bliž -- ní -- mu
@@ -352,8 +361,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = ""
