@@ -20,6 +20,8 @@
     %chvá -- lit % záměna slov kvůli rytmu
     ve -- le -- bit
     tvé jmé -- no.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -45,6 +47,8 @@
   \addlyrics {
     U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
     ne -- vy -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
+    
+    % aleluja v breviari neni
   }
   \header {
     quid = "2. ant."
@@ -65,6 +69,8 @@
   \addlyrics {
     Pa -- ne, po -- vstaň nám na po -- moc
     a vy -- svo -- boď nás pro svou lás -- ku.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -154,7 +160,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "a" 
-    psalmus = "Žalm 119-IX"
+    psalmus = "Žalm 119-ט"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pátek 3. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -9,7 +9,7 @@
     \choralniRezim
     d4( c d) d \barMin
     d( f) e( f) f g f e f d d \barMaior
-    e f d( c) d \barFinalis
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -46,7 +46,8 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Jer 14"
-    id = ""
+    id = "rch-a2"
+    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -66,7 +67,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
     fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -91,7 +92,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 135-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -115,7 +116,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 135-II"
-    id = ""
+    id = "ne-a2"
     fons = "Květná neděle, ad Benedictus, poslední část."
     piece = \markup {\sestavTitulek}
   }

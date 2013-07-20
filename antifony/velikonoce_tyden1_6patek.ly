@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pátek 1. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +43,8 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Iz 45"
-    id = ""
+    id = "rch-a2"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -63,7 +64,8 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -87,7 +89,8 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 41"
-    id = ""
+    id = "ne-a1"
+    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,7 +112,8 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 46"
-    id = ""
+    id = "ne-a2"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

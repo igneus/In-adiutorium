@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Pondělí 2. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 42"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,8 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Sir 36"
-    id = ""
+    id = "rch-a2"
+    placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -68,7 +69,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 19-A"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -94,7 +95,8 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 45-I"
-    id = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -118,7 +120,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 45-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

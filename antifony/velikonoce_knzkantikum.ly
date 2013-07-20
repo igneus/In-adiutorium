@@ -118,6 +118,7 @@ velikTIpatekNespAntIII = \score {
     differentia = "E" 
     psalmus = "Zj 15"
     id = ""
+    placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -208,6 +209,7 @@ velikTIIctvrtekNespAntIII = \score {
     differentia = "D" 
     psalmus = "Zj 11"
     id = ""
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -231,6 +233,7 @@ velikTIIpatekNespAntIII = \score {
     psalmus = "Zj 15"
     id = ""
     fons = "úlomek převzat z: žaltář, so 1.t., r.ch., 2. ant."
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

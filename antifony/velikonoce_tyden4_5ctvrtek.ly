@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Čtvrtek 4. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -22,7 +22,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 143"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -44,7 +44,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Iz 66"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -67,7 +67,8 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 147-I"
-    id = ""
+    id = "rch-a3"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,7 +92,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 144-I"
-    id = ""
+    id = "ne-a1"
     fons = "antifona doslovně převzata z úterý 4. týdne velik. žaltáře (r.ch., 3. ant.)"
     piece = \markup {\sestavTitulek}
   }
@@ -118,7 +119,8 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 144-II"
-    id = ""
+    id = "ne-a2"
+    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }

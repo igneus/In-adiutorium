@@ -17,6 +17,8 @@
   \addlyrics {
     Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
     a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Skloň se, Hos -- po -- di -- ne,
     k_mod -- lit -- bě o -- puš -- tě -- ných.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -57,6 +61,8 @@
   \addlyrics {
     Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
     a ne -- be -- sa jsou dí -- lo tvých ru -- kou.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -144,7 +150,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f" 
-    psalmus = "Žalm 119-XVIII"
+    psalmus = "Žalm 119-צ"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

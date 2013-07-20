@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne11b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -46,7 +46,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne11b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -66,7 +66,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne11b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -92,7 +92,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne12b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -116,7 +116,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ne12b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -138,7 +138,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ne12b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -162,7 +162,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne13b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -184,7 +184,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "ne13b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -204,7 +204,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "ne13b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -228,7 +228,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne14b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -248,7 +248,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne14b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -268,7 +268,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "ne14b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -292,7 +292,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne15b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -314,7 +314,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ne15b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -338,7 +338,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne15b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -362,7 +362,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne16b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -382,7 +382,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne16b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -405,7 +405,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne16b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -434,7 +434,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne17b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -456,7 +456,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ne17b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -479,7 +479,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ne17b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -505,7 +505,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne18b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -526,7 +526,8 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ne18b-rch-ben"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast"
     fons = "Těla a Krve Páně, 1. nešp, 3. ant., prostřední část"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -553,7 +554,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne18b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -577,7 +578,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne19-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -598,7 +599,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne19b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -624,8 +625,9 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
     fons = "první část: Těla a Krve Páně, k Benedictus"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast"
+    id = "ne19b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -647,8 +649,9 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
+    id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -672,7 +675,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne20b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -694,7 +697,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne20b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

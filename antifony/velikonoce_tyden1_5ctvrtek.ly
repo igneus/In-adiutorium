@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Čtvrtek 1. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -20,8 +20,10 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 57"
-    id = ""
+    id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
+    fial = "antifony/velikonoce_tyden1_4streda.ly#rch-a1"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -40,7 +42,8 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Jer 31"
-    id = ""
+    id = "rch-a2"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -60,7 +63,8 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 48"
-    id = ""
+    id = "rch-a3"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -82,7 +86,8 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 30"
-    id = ""
+    id = "ne-a1"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +109,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = "Žalm 32"
-    id = ""
+    id = "ne-a2"
     fons = "Velký pátek, ad Magnificat; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }

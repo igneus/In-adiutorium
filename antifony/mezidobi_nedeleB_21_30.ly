@@ -17,7 +17,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne21b-1ne-mag"
     fons = "velikonoční feriální cyklus, sobota 3.t., r.ch., 1. ant.; konec upraven"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -38,7 +38,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne21b-rch-ben"
     fons = "nápěv podle: 19. ne. v mez., cyk. B, 1. nešp., k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -66,7 +66,7 @@
     modus = "I"
     differentia = "a3" 
     psalmus = ""
-    id = ""
+    id = "ne21b-2ne-mag"
     fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -91,7 +91,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ne22b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -113,7 +113,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne22b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -137,7 +137,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    id = ""
+    id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -161,7 +161,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne23b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -183,7 +183,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -203,7 +203,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ne23b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -227,7 +227,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -241,15 +241,15 @@
   \addlyrics {
     Kdo chce jít za mnou, za -- při sám se -- be,
     vez -- mi svůj kříž a ná -- sle -- duj mě.
-    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne24b-rch-ben"
     fons = "commune jednoho mučedníka, 2. nešp., 1. ant."
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -271,7 +271,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne24b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -295,7 +295,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne25b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -317,7 +317,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ne25b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -341,7 +341,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne25b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -365,7 +365,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "ne26b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -387,7 +387,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ne26b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -411,7 +411,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne26b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -433,7 +433,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ne27b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -453,7 +453,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne27b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -475,7 +475,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne27b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -504,7 +504,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne28b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -524,7 +524,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne28b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -548,7 +548,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "ne28b-2ne-mag"
     fons = "28.5., sv. Benedikta a bratří - k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -574,7 +574,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne29b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -598,7 +598,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ne29b-rch-ben"
     fons = "25.7. sv. Jakuba apoštola, k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -619,7 +619,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne29b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -647,7 +647,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne30b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -667,7 +667,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    id = ""
+    id = "ne30b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -685,7 +685,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne30b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

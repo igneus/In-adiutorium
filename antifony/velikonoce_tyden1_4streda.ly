@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Středa 1. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -21,7 +21,8 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 36"
-    id = ""
+    id = "rch-a1"
+    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +44,7 @@
     modus = "VII"
     differentia = "c" 
     psalmus = "Jdt 16"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +66,8 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 47"
-    id = ""
+    id = "rch-a3"
+    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,7 +93,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 27-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -113,7 +115,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 27-II"
-    id = ""
+    id = "ne-a2"
     fons = "Velik. triduum, Bílá sobota, uprostřed dne, ant. dopo; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }

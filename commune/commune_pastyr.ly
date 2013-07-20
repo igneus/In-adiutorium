@@ -244,6 +244,84 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a \barMaior
+    g f g a f d d( c) \barMin 
+    d d( f g) e( f) e c d \barFinalis
+    
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce být prv -- ní,
+    ať je ze všech po -- sled -- ní
+    a slu -- žeb -- ní -- kem všech.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 21"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-1ne-mag?+aleluja"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
+    
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a( c) c d( c) b c a a \barMaior
+    b c d( a) c( a) g \barMin f g a( b g) g \barFinalis
+    
+    a^\markup\rubrVelikAleluja f( a) b( a) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,
+    pojď se ra -- do -- vat se svým Pá -- nem.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-II"
+    fial = "commune/commune_svatymuz.ly#2ne-amag1"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

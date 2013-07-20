@@ -1,6 +1,6 @@
 \markup {\nadpisDen {Sobota 3. týdne}}
 
-% -*- master: ../velikonoce_antifony.ly;
+% -*- master: ../velikonoce_zaltar.ly;
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -21,7 +21,8 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 119-Kof"
-    id = ""
+    id = "rch-a1"
+    placet = "? tady si nejsem jist pravou finálou"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +46,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Mdr 9"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +66,8 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 117"
-    id = ""
+    id = "rch-a3"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }

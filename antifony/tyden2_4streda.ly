@@ -17,6 +17,8 @@
   \addlyrics {
     Na -- ří -- ká -- me 
     a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní na -- še -- ho tě -- la.
+    
+    % velikonocni aleluja v breviari neni
   }
   \header {
     quid = "1. ant."
@@ -37,6 +39,8 @@
   \addlyrics {
     Slyš, Hos -- po -- di -- ne, mou pros -- bu:
     ne -- mlč k_mým sl -- zám.
+    
+    % velikonocni aleluja v breviari neni
   }
   \header {
     quid = "2. ant."
@@ -58,6 +62,8 @@
     % se
     spo -- lé -- hám
     na Bo -- ží sli -- tov -- nost.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -149,7 +155,7 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F" 
-    psalmus = "Žalm 119-VIII"
+    psalmus = "Žalm 119-ח"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

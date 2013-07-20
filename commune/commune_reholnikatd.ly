@@ -20,6 +20,8 @@
       \choralniRezim
       f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
       f g a g f g g e e \barMin e f e \barFinalis
+      
+      e^\markup\rubrVelikAleluja e( g) f( e) e \barFinalis
     }
     \addlyrics {
       Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
@@ -33,6 +35,7 @@
       differentia = "E" 
       psalmus = ""
       id = ""
+      fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
       fons = "25.8. pět bratří, k Benedictus; přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -43,13 +46,17 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g a( b c) d( c) c \barMin
+      g4 g \neviditelna g
+      \bar ";" a( b c) d( c) c \bar ";" a( b c) c \bar ";"
       d( e c d) c( b) a( g) a g g \barMaior
       g f g g( a b) c( d) d \barMin d d( f e) d( c) d c \barMaior
       d d( c b) a( g) f g a( b) g g \barFinalis
+      
+      f^\markup\rubrVelikAleluja a( b) g g \barFinalis
     }
     \addlyrics {
-      Sva -- tý Be -- ne -- dikt 
+      Sva -- tý \markup{ \with-color ##'red {N:} }
+      Be -- ne -- dikt Mar -- tin
       hle -- dal své -- ho Pá -- na,
       a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
       a do -- ve -- dl ho ke spá -- se.
@@ -72,7 +79,10 @@
   \score {
     \relative c' {
       \choralniRezim
+      e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
+      d e f f g f g( a) g f e e \barFinalis
       
+      f^\markup\rubrVelikAleluja d( f) f( e) e \barFinalis
     }
     \addlyrics {
       Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
@@ -81,9 +91,9 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -92,60 +102,38 @@
   
   \markup {\nadpisHodinka {"invitatorium"}}
   
-  \score {
-    \relative c' {
-      \choralniRezim
-      
-    }
-    \addlyrics {
-      
-    }
-    \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
-  }
-  
-  \markup\italic{Nebo:}
-  
-  \score {
-    \relative c' {
-      \choralniRezim
-      
-    }
-    \addlyrics {
-      
-    }
-    \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
+  \markup\italic{
+    Antifony jako ve společných textech o svatých mužích.
   }
   
   \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f g e \barFinalis
       
+      f^\markup\rubrVelikAleluja g g( f) e \barFinalis
     }
     \addlyrics {
+      Kaž -- dý, kdo pl -- ní vů -- li
+      mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+      to je můj bra -- tr i ses -- tra i mat -- ka,
+      pra -- ví Pán.
       
+      A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "g" 
       psalmus = ""
       id = ""
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -155,15 +143,21 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 e f g( a) g bes a g( a) g \barMaior
+      g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
       
+      g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
     }
     \addlyrics {
+      Bůh je můj po -- díl, po němž tou -- žím;
+      je dob -- rý k_těm, kdo ho hle -- da -- jí.
       
+      A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -173,19 +167,31 @@
   \markup {\nadpisHodinka {"2. nešpory"}}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      g f e d f g g g a( g f) g \barMin
+      g c( b a) c b a g f( g) g \barMaior
+      g g f( g) \barMin a( b c) b a( g) a \barMaior
+      a a( c) b b( c) \barMin c c c c d( c b) a f( a) g \barFinalis
       
+      g^\markup\rubrVelikAleluja f( a) g g \barFinalis
     }
     \addlyrics {
+      Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
+      a ná -- sle -- do -- va -- li jste mě,
+      sto -- krát víc do -- sta -- ne -- te 
+      a za po -- díl bu -- de -- te mít ži -- vot věč -- ný.
       
+      A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
       psalmus = ""
       id = ""
+      fial = "sanktoral/0825benediktabratri.ly#amag?+aleluja"
+      fons = "+ pridano aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -193,17 +199,25 @@
   \markup\italic{Nebo:}
   
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
+      c4 c( b d) c \barMin
+      b c d b a g g \barMin 
+      a g f a( c) b g g \barFinalis
       
+      f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
     }
     \addlyrics {
+      Bůh žeh -- ná 
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
       
+      A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant."
-      modus = ""
-      differentia = "" 
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c" 
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
@@ -217,10 +231,105 @@
   }
   
   \markup {\nadpisHodinka {"1. nešpory"}}
-  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 a f( e) d \barMin f g a a( bes a) g g( a) a \barMaior
+      a bes( g) bes bes( a) a \barMin g a g g a f e d d \barFinalis
+      
+      f^\markup\rubrVelikAleluja g( e) d d \barFinalis
+    }
+    \addlyrics {
+      Bla -- že -- ný je, kdo cí -- tí s_u -- bo -- žá -- ky;
+      kdo vě -- ří v_Bo -- ha, pro -- ka -- zu -- je mi -- lo -- sr -- den -- ství.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"ranní chvály"}}
-  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d( f) f d c d c c \barMin 
+      d e f e f g a( g) g \barMaior
+      a a a a a g( f e d) d \barMin
+      c d d( f) e( d) d \barFinalis
+      
+      c^\markup\rubrVelikAleluja d d( f) f f 
+      g f d d \barFinalis
+    }
+    \addlyrics {
+      Po -- dle to -- ho všich -- ni po -- zna -- jí,
+      že jste mo -- ji u -- čed -- ní -- ci,
+      bu -- de -- te -li mít lás -- ku 
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
+      
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D" 
+      psalmus = ""
+      fial = "antifony/velikonoce_nedeleC.ly#vmagii?upraveno"
+      fons = "upraveno pro dobu nevelikonocni"
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) f g a \barMaior
+      a bes a g a f g e \barMaior
+      d d d d d f d f g f d d \barMaior
+      a' g a g f e( f) d \barMax
+      
+      d( a') a \barMin c c b a b c a a \barMaior
+      f( g) g( a) a a g a( c) b a( b) a a \barMaior
+      a a a g f g g f( e) d \barMaior
+      e d c e f d d \barFinalis
+      
+      e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+    }
+    \addlyrics {
+      A -- men, pra -- vím vám:
+      Co -- ko -- li jste u -- dě -- la -- li
+      pro jed -- no -- ho z_mých nej -- po -- sled -- něj -- ších brat -- ří,
+      pro mě jste u -- dě -- la -- li.
+      
+      Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
+      při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+      kte -- ré je pro vás při -- pra -- ve -- né
+      od za -- lo -- že -- ní svě -- ta.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
 
 \bookpart {
@@ -229,8 +338,83 @@
   }
   
   \markup {\nadpisHodinka {"1. nešpory"}}
-  \markup {\nadpisHodinka {"invitatorium"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) b \barMin c c c a g a a g g \barMaior
+      a f a g g( a) g \barMin a b c d c a( b a) a \barMaior
+      c( a c) g \barMin f g a( c) b g g \barFinalis
+      
+      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"ranní chvály"}}
-  \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d d( f e) d c \barMin
+      f e f g f d d \barMin d( e) d c( d) d \barFinalis
+      
+      e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
   \markup {\nadpisHodinka {"2. nešpory"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
+      f g a a a b( c d) d( c) \barMin a( g) f g( a) a( g) g \barFinalis
+      
+      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Nech -- te dě -- ti při -- chá -- zet ke mně,
+      ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+      
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleB_02_10.ly#ne27b-rch-ben?+aleluja"
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }

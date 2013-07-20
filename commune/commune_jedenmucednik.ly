@@ -272,6 +272,75 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bu -- de -- te o -- de všech ne -- ná -- vi -- dě -- ni
+    pro mé jmé -- no;
+    a -- le kdo vy -- tr -- vá až do kon -- ce,
+    bu -- de spa -- sen.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    U -- tr -- pe -- ní to -- ho -- to ča -- su
+    se ne -- da -- jí srov -- nat s_bu -- dou -- cí slá -- vou,
+    kte -- rá se zje -- ví na nás.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 11"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Pán zkou -- šel vy -- vo -- le -- né
+    ja -- ko zla -- to v_ta -- vi -- cím ke -- lím -- ku,
+    ja -- ko do -- ko -- na -- lá o -- běť se mu za -- lí -- bi -- li.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -11,23 +11,35 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 c b( c) c \barMin 
+    c c c( d) c c( b a) g( a) a( g) \barMaior
+    f g a g g( a) g \barMin
+    a g( a) a( c) b c( d c) b a g g \barMaior
+    g f g a a( g f) \barMin
+    a( b c) b( c) c c( d) c c( b g) \barMin
+    f g f a b g g \barFinalis
     
+    f^\markup\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
     Je -- den z_mu -- žů,
-    kte -- ří s_ná -- mi cho -- di -- li po ce -- lou tu do -- bu,
+    kte -- ří s_ná -- mi cho -- di -- li 
+    po ce -- lou tu do -- bu,
     kdy Pán Je -- žíš žil me -- zi ná -- mi,
-    ať vy -- dá -- vá tak ja -- ko my
-    svě -- dec -- tví o je -- ho zmrt -- vých -- vstá -- ní.
+    % menim slovosled; puvodne bylo:
+    % ať vy -- dá -- vá tak ja -- ko my
+    ať tak ja -- ko my
+    vy -- dá -- vá svě -- dec -- tví 
+    o je -- ho zmrt -- vých -- vstá -- ní.
     
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
