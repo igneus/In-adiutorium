@@ -182,7 +182,12 @@ module Typographus
       end
 
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
-        prepare_generic_score($1) + "\n\n" + prepare_psalm($1)
+        r = prepare_generic_score($1) + "\n\n" 
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone($1) + "\n\n"
+        end
+        r += prepare_psalm($1)
+        r
       end
 
       return l
@@ -213,6 +218,15 @@ module Typographus
 
       processed = @psalmpreprocessor.preprocess(psalm_fname(score.header['psalmus']))
       return "\\input{#{processed[0]}}"
+    end
+
+    def prepare_psalm_tone(fial)
+      src, id = decode_fial fial
+
+      score = @split_music_files[src][id]
+      psalm_tone = "#{score.header['modus']}-#{score.header['differentia']}"
+
+      return prepare_generic_score 'psalmodie.ly#'+psalm_tone
     end
 
     # converts a Czech psalm name how it is customarily used in the project
