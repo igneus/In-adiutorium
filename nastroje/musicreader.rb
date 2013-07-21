@@ -1,11 +1,12 @@
 class LilyPondScore
-  def initialize(text, number=nil)
+  def initialize(text, srcfile=nil, number=nil)
     @text = text
     if !@number then
       @number = LilyPondScore.autonum
     else
       @number = number
     end
+    @src_file = srcfile
     init_text
     init_lyrics
     init_header
@@ -25,6 +26,11 @@ class LilyPondScore
   attr_reader :lyrics_readable
   attr_reader :header
   attr_reader :number # position of the score in the file
+  attr_reader :src_file
+
+  def to_s
+    "#{@src_file}#" + (@header['id'] ? @header['id'] : @number).to_s
+  end
   
   private
   
@@ -114,6 +120,7 @@ class LilyPondMusic
   
   def initialize(filename)
     @scores = []
+    @id_index = {}
     @preamble = ''
     
     File.open(filename, "r") do |f|
@@ -128,8 +135,8 @@ class LilyPondMusic
             store = l
             next
           else
-            score_number += 1
             create_score store, score_number
+            score_number += 1
             store = l
           end
         else
@@ -144,12 +151,24 @@ class LilyPondMusic
   
   attr_reader :scores
   attr_reader :preamble
+
+  def [](i)
+    if i.is_a? Number then
+      return @scores[i]
+    elsif i.is_a? String then
+      return @id_index[i]
+    end
+  end
   
   private
   
   def create_score(store, number)
     begin
-      @scores << LilyPondScore.new(store, number)
+      score = LilyPondScore.new(store, number)
+      @scores << score
+      if score.header.has_key? 'id' then
+        @id_index[score.header['id']] = score
+      end
     rescue
       puts "Error in score:"
       puts store
