@@ -30,7 +30,7 @@ class MusicSplitter
           id = score.header['id']
         else
           id = i+1
-          STDERR.puts "Warning: no header 'id' in a score, fallback to numbering: #{write_to_file}"
+          STDERR.puts "Warning: no header 'id' in a score, fallback to numbering: #{file_to_be_processed}"
         end
       else
         id = i+1
