@@ -231,6 +231,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VII"
     differentia = "c" 
     psalmus = "Magnificat"
