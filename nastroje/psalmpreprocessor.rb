@@ -32,19 +32,19 @@ module PsalmPreprocessor
     protected
     
     attr_accessor :core
-  end
+
+    # splits a String and leaves "\n" at the end of each substring
   
-  # splits a String and leaves "\n" at the end of each substring
-  
-  def customsplit(t)
-    e = []
-    while i = t.index("\n") do
-      e.push(t.slice!(0..i))
+    def customsplit(t)
+      e = []
+      while i = t.index("\n") do
+        e.push(t.slice!(0..i))
+      end
+      if t.size != 0 then
+        e.push t
+      end
+      return e
     end
-    if t.size != 0 then
-      e.push t
-    end
-    return e
   end
   
   # Input strategies:
