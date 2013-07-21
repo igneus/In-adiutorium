@@ -36,6 +36,7 @@ module PsalmPreprocessor
     # splits a String and leaves "\n" at the end of each substring
   
     def customsplit(t)
+      t = t.dup
       e = []
       while i = t.index("\n") do
         e.push(t.slice!(0..i))
@@ -72,6 +73,7 @@ module PsalmPreprocessor
   class AppendInputStrategy < Strategy
     def initialize(io, text)
       super(io)
+      p text
       @text = customsplit(text)
     end
     
