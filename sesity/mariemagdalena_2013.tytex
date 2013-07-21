@@ -1,0 +1,180 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.5cm, right=1cm, top=1.5cm, bottom=2cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\cast}[1]{\begin{flushright}\textsc{#1}\end{flushright}}
+
+\input{../antifonar/spolecne.tex}
+
+\newenvironment{psalmus}{}{}
+
+\begin{document}
+
+\printHi
+
+\setChantBasedir{../}
+\setPsalmsDir{../antifonar/zalmy/}
+\setConfig{mariemagdalena_2013.yml}
+\setIncludes{../antifonar/spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{sanktoral/0722mariemagdalena.ly}
+
+\pagestyle{empty}
+
+\vspace*{3cm}
+
+\begin{center}
+22. července \vspace{3mm}
+
+{\Large sv. Marie Magdalény} \vspace{3mm}
+
+\textit{památka} 
+
+\vspace{2cm}
+
+{\huge \textsc{Nešpory}}
+
+\vfill
+
+In adiutorium
+      
+\onlyyeardate \today
+\end{center}
+
+\pagebreak
+
+\pagestyle{plain}
+
+\cast{Úvodní verš}
+
+\simpleScore{sesity/mariemagdalena_2013_noty.ly#zacatek-bezny}
+
+\cast{Hymnus}
+
+\simpleScore{sesity/mariemagdalena_2013_noty.ly#ne-hymnus}
+
+\begin{multicols}{2}
+
+\noindent Kde mám hledat Ježíše,\\
+jehož jsem ztratila,\\
+kdo ví, pověz a netaj,\\
+hřešit jsem přestala.\\
+
+\noindent Zemdlená jsem svou láskou\\
+hledajíc Milého,\\
+po městech a krajinách\\
+nenalézám jeho.\\
+
+\noindent Neb svou mysl nikterak\\
+utišit nemohu,\\
+pokud Krista Ježíše\\
+smutná nenaleznu.\\
+
+\noindent Jaká radost veliká\\
+pro mne teď nastala,\\
+když jsem Ježíše svého\\
+v zahradě viděla.\\
+
+\noindent Když mám tebe, všecko mám,\\
+nespustím se tebe,\\
+ó Ježíši, choti můj,\\
+zůstanu u tebe.\\
+
+\noindent Pro tebe svět opustím,\\
+marností se zbavím,\\
+rozkoší všech zanechám,\\
+tebe se přidržím. 
+
+\end{multicols}
+
+\vfill
+\pagebreak
+
+\cast{Žalmy}
+
+\antiphonWithPsalm{#ne-a1}
+
+\vfill
+\pagebreak
+
+\antiphonWithPsalm{#ne-a2}
+
+\vfill
+\pagebreak
+
+\antiphonWithPsalm{#ne-a3}
+
+\vfill
+\pagebreak
+
+\cast{Krátké čtení a responsorium}
+
+\begin{flushright}\textit{Řím 8, 28-30}\end{flushright}
+Víme, že těm, kteří milují Boha, všecko napomáhá k dobrému, 
+těm, kdo jsou z Boží vůle povoláni.
+Neboť ty, které si napřed vyhlédl, ty také předurčil, 
+aby byli ve shodě s obrazem jeho Syna, aby tak on byl první z mnoha bratří. 
+A ty, které předurčil, také povolal, a ty, které povolal, 
+také ospravedlnil, a ty, které ospravedlnil, také uvedl do slávy. 
+
+\vspace{1cm}
+
+\responsory{#rch-resp}
+
+\vfill
+\pagebreak
+
+\cast{Kantikum Panny Marie}
+
+\antiphonWithPsalm{#ne-amag}
+
+\vfill
+\pagebreak
+
+\cast{Prosby}
+
+Ježíš neopouští ty, kdo v něho doufají; proto ho pokorně prosme:\\
+\textit{Synu Boží, vyslyš nás.}\\
+
+\noindent Kriste, náš Pane, tys naše světlo, osvěť svou církev,\\
+— aby hlásala národům veliké tajemství lásky, která se nám v tobě zjevila.
+
+\noindent Ochraňuj kněze i ostatní služebníky své církve,\\
+— když káží jiným, ať sami věrně konají tvou službu.
+
+\noindent Tys zjednal svou krví světu mír,\\
+— odvrať hřích nesvornosti a metlu války.
+
+\noindent Bohatstvím své milosti pomáhej manželům,\\
+— aby dokonaleji zobrazovali tajemství tvé církve.
+
+\noindent Prokaž všem zemřelým milosrdenství a odpusť jim hříchy,\\
+— aby se radovali mezi tvými svatými.\\
+
+Otče náš.
+
+\cast{Závěrečná modlitba}
+
+Bože, tvůj jednorozený Syn poslal Marii Magdalénu, 
+aby jako první zvěstovala jeho učedníkům radostné velikonoční poselství;\\ 
+na její přímluvu dej, 
+ať i my hlásáme vzkříšeného Krista 
+a jednou ho spatříme ve věčné slávě. 
+
+Neboť on s tebou v jednotě Ducha svatého žije a kraluje po všechny věky věků.
+
+\cast{Závěr}
+
+\simpleScore{sesity/mariemagdalena_2013_noty.ly#konec-prosba}
+
+\end{document}
