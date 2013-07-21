@@ -18,39 +18,46 @@ require 'fial.rb'
 require 'splitscores.rb'
 require 'psalmpreprocessor.rb'
 
-module Typographus
+require 'ostruct'
+require 'yaml'
 
-  Setup = Struct.new(:chant_basedir,
-                     :psalms_dir,
-                     :psalm_pointing_options,
-                     :score_splitting_options,
-                     :includes,
-                     :generated_dir,
-                     :output_dir)
+module Typographus
 
   class Typographus
 
-    @@default_setup = Setup.new('.',
-                                '.',
-                                '',
-                                '',
-                                [],
-                                'generovane',
-                                'vystup')
+    @@default_setup = {
+      :chant_basedir => '.',
+      :psalms_dir => '.',
+      :includes => [],
+      :generated_dir => 'generovane',
+      :output_dir => 'vystup',
+      :doxology => false
+    }
     
     def initialize(fpath, utils_dir)
       @utils_dir = utils_dir
 
-      @setup = @@default_setup.dup
-      @current_chant_source = nil
+      @setup = OpenStruct.new @@default_setup
+      @psalmpreprocessor_setup = {:output_dir => @setup.generated_dir}
+      @musicsplitter_setup = {
+        :remove_headers => true,
+        :prepend_text => '',
+        :output_dir => @setup.generated_dir,
+        :ids => true,
+        :mode_info => true,
+        :verbose => false,
+        :insert_text => nil,
+        :one_clef => false
+      }
 
-      
+      @current_chant_source = nil
 
       @split_music_files = {}
 
       init_psalmpreprocessor
       init_musicsplitter
       make_dirs
+
       process_tytex fpath
     end
 
@@ -69,25 +76,58 @@ module Typographus
     end
 
     def init_psalmpreprocessor
-      @psalmpreprocessor = PsalmPreprocessor::Preprocessor.new({:output_dir => @setup.generated_dir})
+      @psalmpreprocessor_setup[:output_dir] = @setup.generated_dir
+      @psalmpreprocessor = PsalmPreprocessor::Preprocessor.new(@psalmpreprocessor_setup)
     end
 
     def init_musicsplitter
+      @musicsplitter_setup[:output_dir] = @setup.generated_dir
+
       prepend_text = @setup.includes.collect do |inc|
-        "\\include \"#{inc}\""
+        # ../ because the paths are relative to the source but here we need them
+        # relative to the output directory.
+        # This solution is quite dirty and not universally working ...
+        "\\include \"../#{inc}\""
       end
       prepend_text = prepend_text.join("\n")
+      @musicsplitter_setup[:prepend_text] = prepend_text
 
-      @splitter = MusicSplitter.new({
-                                      :remove_headers => true,
-                                      :prepend_text => prepend_text,
-                                      :output_dir => @setup.generated_dir,
-                                      :ids => true,
-                                      :mode_info => true,
-                                      :verbose => false,
-                                      :insert_text => nil,
-                                      :one_clef => false
-                                    })
+      @splitter = MusicSplitter.new(@musicsplitter_setup)
+    end
+
+    def load_config(ymlf)
+      conf = YAML.load(File.open(ymlf))
+      pp = ms = false
+
+      if conf.include? 'typographus' then
+        conf['typographus'].each_pair do |k,v|
+          @setup[k.to_sym] = v
+        end
+        pp = ms = true
+
+        if @setup[:doxology] == 'full' then
+          @psalmpreprocessor_setup[:append_text] = File.read(@setup.psalms_dir + '/doxologie.zalm')
+        elsif @setup[:doxology] then
+          @psalmpreprocessor_setup[:append_text] = "\\nopagebreak Sláva Otci."
+        end
+      end
+
+      if conf.include? 'psalmpreprocessor' then
+        conf['psalmpreprocessor'].each_pair do |k,v|
+          @psalmpreprocessor_setup[k.to_sym] = v
+        end
+        pp = true
+      end
+      
+      if conf.include? 'splitscores' then
+        conf['splitscores'].each_pair do |k,v|
+          @musicsplitter_setup[k.to_sym] = v
+        end
+        ms = true
+      end
+
+      init_psalmpreprocessor if pp
+      init_musicsplitter if ms
     end
 
     def expand_macros(l)
@@ -99,6 +139,11 @@ module Typographus
       end
 
       # setup macros (empty output)
+
+      l.gsub!(/\\setConfig\{(.*)\}/) do
+        load_config $1
+        ''
+      end
 
       l.gsub!(/\\setChantBasedir\{(.*)\}/) do
         @setup.chant_basedir = $1
