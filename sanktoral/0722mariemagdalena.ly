@@ -141,7 +141,7 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g" 
-    psalmus = ""
+    psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -233,7 +233,7 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c" 
-    psalmus = ""
+    psalmus = "Magnificat"
     id = "ne-amag"
     piece = \markup\sestavTitulekBezZalmu
   }
