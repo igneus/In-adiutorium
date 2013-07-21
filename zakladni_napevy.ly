@@ -51,6 +51,7 @@ uvodniVers = \lyricmode {
     \header {
       piece = ""
       fons = "Antiphonale Romanum 1912, 3*"
+      id = "zacatek-prvni"
     }
   }
   
@@ -108,7 +109,7 @@ uvodniVers = \lyricmode {
       \uvodniVers
     }
     \header {
-      id = ""
+      id = "zacatek-nedele"
       piece = "k ranním chválám a nešporám nedělí a svátků"
     }
   }
@@ -131,7 +132,7 @@ uvodniVers = \lyricmode {
       \uvodniVers
     }
     \header {
-      id = ""
+      id = "zacatek-bezny"
       piece = \markup\column{"o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;"
                              "o památkách a fériích ke všem hodinkám"}
     }
@@ -159,7 +160,7 @@ uvodniVers = \lyricmode {
       \uvodniVers
     }
     \header {
-      id = ""
+      id = "zacatek-slavnost"
       piece = "volitelně k nešporám slavností"
     }
   }
@@ -353,6 +354,7 @@ uvodniVers = \lyricmode {
     }
     \header {
       fons = "dominikáni: http://www.op.cz/download/liturgie/initio_tisk.pdf"
+      id = "konec-pozehnani"
       piece = ""
     }
   }
@@ -380,6 +382,7 @@ uvodniVers = \lyricmode {
     }
     \header {
       fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
+      id = "konec-prosba"
       piece = ""
     }
   }
