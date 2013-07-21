@@ -4,9 +4,12 @@ require 'musicreader.rb'
 
 class MusicSplitter
 
-  def MusicSplitter.name_without_extension(fname)
-    i = fname.rindex '.'
-    return fname[0..i-1]
+  def initialize(setup)
+    @setup = setup
+  end
+
+  def chunk_name(original_name, id)
+    original_name.sub(/\.ly$/, "_#{id}.ly")
   end
 
   # operates on files
@@ -22,20 +25,20 @@ class MusicSplitter
         next
       end
       
-      write_to_file = MusicSplitter.name_without_extension(File.basename(file_to_be_processed))+'_'
       if ids then
         if score.header['id'] != nil then
-          write_to_file += score.header['id'] + '.ly'
+          id = score.header['id']
         else
-          write_to_file += (i+1).to_s + '.ly'
+          id = i+1
           STDERR.puts "Warning: no header 'id' in a score, fallback to numbering: #{write_to_file}"
         end
       else
-        write_to_file += (i+1).to_s + '.ly'
+        id = i+1
       end
+      write_to_file = chunk_name file_to_be_processed, id
       
       if outputdir then
-        write_to_file = outputdir + "/" + write_to_file
+        write_to_file = outputdir + "/" + File.basename(write_to_file)
       end
       
       puts "  writing to file #{write_to_file}" if verbose
@@ -45,16 +48,18 @@ class MusicSplitter
         fw.puts output
       end
     end
+
+    return m
   end
 
   # operates on scores
 
-  def split_scores(file_to_be_processed, setup)
-    split_file(file_to_be_processed, setup[:output_dir], setup[:ids], setup[:verbose]) do |score|
+  def split_scores(file_to_be_processed)
+    split_file(file_to_be_processed, @setup[:output_dir], @setup[:ids], @setup[:verbose]) do |score|
       scoretext = score.text
       
-      if setup[:remove_headers] then
-        puts "  removing headers" if setup[:verbose]
+      if @setup[:remove_headers] then
+        puts "  removing headers" if @setup[:verbose]
         ih = scoretext.index("\\header")
         i1 = scoretext.index '{', ih if ih
         if i1 then
@@ -73,7 +78,7 @@ class MusicSplitter
         newtext.gsub!(varassignment, '\score')
       end
       
-      if setup[:mode_info] then
+      if @setup[:mode_info] then
         i = newtext.index "\\relative"
         i = newtext.index '{', i if i
         unless i
@@ -92,13 +97,13 @@ class MusicSplitter
         # Because - even if one of them contains a space, we want to avoid line-break.
         case quid
         when /ant/
-          puts "  adding mode information to score" if setup[:verbose]
+          puts "  adding mode information to score" if @setup[:verbose]
           modinfo = "\n\\set Staff.instrumentName = \\markup {
         \\center-column { \\bold { \"#{score.header['modus']}.#{score.header['differentia']}\" } \"#{quid}\" }
       }"
           newtext[i+1] = modinfo
         when /resp/
-          puts "  adding mode information to score" if setup[:verbose]
+          puts "  adding mode information to score" if @setup[:verbose]
           modinfo = "\n\\set Staff.instrumentName = \\markup {
         \\center-column { \\bold { \"#{score.header['modus']}\" } #{quid} }
       }"
@@ -106,7 +111,7 @@ class MusicSplitter
         end
       end
       
-      if setup[:one_clef] then
+      if @setup[:one_clef] then
         i = newtext.index "\\relative"
         i = newtext.index '{', i if i
         unless i
@@ -125,15 +130,15 @@ class MusicSplitter
         end
       end
       
-      if setup[:prepend_text]  then
-        puts "  prepending given text" if setup[:verbose]
-        newtext = setup[:prepend_text] + "\n" + newtext
+      if @setup[:prepend_text]  then
+        puts "  prepending given text" if @setup[:verbose]
+        newtext = @setup[:prepend_text] + "\n" + newtext
       end
       
-      if setup[:insert_text] then
-        puts "  inserting given text" if setup[:verbose]
+      if @setup[:insert_text] then
+        puts "  inserting given text" if @setup[:verbose]
         i = newtext.rindex "}"
-        newtext[i-1] = setup[:insert_text]
+        newtext[i-1] = @setup[:insert_text]
       end
       
       newtext
@@ -193,7 +198,7 @@ if $0 == __FILE__ then
     raise "Please, specify LilyPond file which is to be processed."
   end
 
-  MusicSplitter.new.split_scores(file_to_be_processed, setup)
+  MusicSplitter.new(setup).split_scores(file_to_be_processed)
 end
 
 
