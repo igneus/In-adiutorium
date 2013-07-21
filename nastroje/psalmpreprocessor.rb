@@ -757,16 +757,20 @@ module PsalmPreprocessor
       :output_dir => nil
     }
     
-    def initialize(setup)
+    def initialize(setup={})
       @setup = DEFAULT_SETUP.dup
       @setup.update setup
     end
 
     def preprocess(files)
+      unless files.is_a? Array
+        files = [files]
+      end
+
       if @setup[:join] then
         
         input = JoinInputStrategy.new do |jis|
-          ARGV.each do |f|
+          files.each do |f|
             i = File.open(f, "r")
             i = RemoveCommentsInputStrategy.new i
             jis.add_core i
@@ -783,17 +787,19 @@ module PsalmPreprocessor
         if @setup[:output_file] then
           fwn = @setup[:output_file]
         else
-          fwn = File.basename(ARGV[0])
+          fwn = File.basename(files[0])
           fwn = fwn.slice(0, fwn.rindex(".")) + ".tex"
         end
         
-        puts "#{ARGV.join ', '} -> #{fwn}"
+        puts "#{files.join ', '} -> #{fwn}"
         
-        output_procedure(input, fwn)
-        
+        return output_procedure(input, fwn)
+
       else
+
+        r = []
         
-        ARGV.each do |f|
+        files.each do |f|
           input = File.open(f, "r")
           input = RemoveCommentsInputStrategy.new input
           if @setup[:prepend_text] then
@@ -811,9 +817,11 @@ module PsalmPreprocessor
           end
           
           puts "#{f} -> #{fwn}"
-          
-          output_procedure(input, fwn)
+
+          r << output_procedure(input, fwn)
         end
+
+        return r
       end
     end
 
@@ -894,6 +902,8 @@ module PsalmPreprocessor
       
       input.close
       output.close
+
+      return fwn
     end # def output_procedure
 
   end
