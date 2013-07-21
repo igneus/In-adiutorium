@@ -1,8 +1,6 @@
 #!/usr/bin/ruby
 # -*- coding: utf-8 -*-
 
-# ruby 2.0 needed
-
 # Preprocesses a .tytex file and creates a .lytex file with
 # special TyTeX macros expanded to standard lytex ones.
 # At the same time generates necessary files to be included
@@ -174,6 +172,10 @@ module Typographus
       end
 
       # expanded macros
+
+      l.gsub!(/\\simpleScore\{(.*)\}/) do
+        prepare_generic_score $1
+      end
 
       l.gsub!(/\\responsory\{(.*)\}/) do
         prepare_generic_score $1
