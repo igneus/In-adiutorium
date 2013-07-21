@@ -1,0 +1,242 @@
+#!/usr/bin/ruby
+# -*- coding: utf-8 -*-
+
+# ruby 2.0 needed
+
+# Preprocesses a .tytex file and creates a .lytex file with
+# special TyTeX macros expanded to standard lytex ones.
+# At the same time generates necessary files to be included
+# like music scores or pointed psalm texts.
+
+# It doesn't descend into eventual included tex files, so you have
+# to preprocess these separately if needed.
+
+typo_src_dir = File.dirname __FILE__
+$: << typo_src_dir
+
+require 'fial.rb'
+require 'splitscores.rb'
+require 'psalmpreprocessor.rb'
+
+module Typographus
+
+  Setup = Struct.new(:chant_basedir,
+                     :psalms_dir,
+                     :psalm_pointing_options,
+                     :score_splitting_options,
+                     :includes,
+                     :generated_dir,
+                     :output_dir)
+
+  class Typographus
+
+    @@default_setup = Setup.new('.',
+                                '.',
+                                '',
+                                '',
+                                [],
+                                'generovane',
+                                'vystup')
+    
+    def initialize(fpath, utils_dir)
+      @utils_dir = utils_dir
+
+      @setup = @@default_setup.dup
+      @current_chant_source = nil
+
+      
+
+      @split_music_files = {}
+
+      init_psalmpreprocessor
+      init_musicsplitter
+      make_dirs
+      process_tytex fpath
+    end
+
+    class << self
+      alias :preprocess :new
+    end
+
+    private
+
+    def make_dirs
+      [:generated_dir, :output_dir].each do |d|
+        if ! FileTest.directory?(@setup[d]) then
+          Dir.mkdir @setup[d]
+        end
+      end
+    end
+
+    def init_psalmpreprocessor
+      @psalmpreprocessor = PsalmPreprocessor::Preprocessor.new({:output_dir => @setup.generated_dir})
+    end
+
+    def init_musicsplitter
+      prepend_text = @setup.includes.collect do |inc|
+        "\\include \"#{inc}\""
+      end
+      prepend_text = prepend_text.join("\n")
+
+      @splitter = MusicSplitter.new({
+                                      :remove_headers => true,
+                                      :prepend_text => prepend_text,
+                                      :output_dir => @setup.generated_dir,
+                                      :ids => true,
+                                      :mode_info => true,
+                                      :verbose => false,
+                                      :insert_text => nil,
+                                      :one_clef => false
+                                    })
+    end
+
+    def expand_macros(l)
+
+      # test macro
+
+      l.gsub!(/\\printHi/) do
+        '% Hi hey hello, Typographus seems to work!'
+      end
+
+      # setup macros (empty output)
+
+      l.gsub!(/\\setChantBasedir\{(.*)\}/) do
+        @setup.chant_basedir = $1
+        init_musicsplitter # reinitialization needed
+        ''
+      end
+
+      l.gsub!(/\\setPsalmsDir\{(.*)\}/) do
+        @setup.psalms_dir = $1
+        ''
+      end
+
+      l.gsub!(/\\setChantSource\{(.*)\}/) do
+        @current_chant_source = $1
+        split_music_file @current_chant_source
+        ''
+      end
+
+      l.gsub!(/\\setIncludes\{(.*)\}/) do
+        unless @split_music_files.empty?
+          STDERR.puts "Warning: setting common includes when some music files " + 
+            "(#{@split_music_files.keys.join(', ')}) are already processed."
+        end
+        incs = $1.split(',').collect {|s| s.strip}
+        @setup.includes += incs
+        init_musicsplitter # reinitialization needed
+        ''
+      end
+
+      # expanded macros
+
+      l.gsub!(/\\responsory\{(.*)\}/) do
+        prepare_generic_score $1
+      end
+
+      l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
+        prepare_generic_score($1) + "\n\n" + prepare_psalm($1)
+      end
+
+      return l
+    end
+
+    def prepare_generic_score(fial)
+      src, id = decode_fial fial
+      
+      src_name = File.basename(src)
+      score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
+      return "\\lilypondfile{#{score_path}}"
+    end
+
+    # prepares psalm according to the header information of a score
+    # identified by it's FIAL
+
+    def prepare_psalm(fial)
+      src, id = decode_fial fial
+
+      if @split_music_files[src][id].nil? then
+        raise "Score with id '#{src}##{id}' not found."
+      end
+
+      score = @split_music_files[src][id]
+      if score.header['psalmus'].nil? or score.header['psalmus'] == '' then
+        raise "Psalm information not found in score #{score}."
+      end
+
+      processed = @psalmpreprocessor.preprocess(psalm_fname(score.header['psalmus']))
+      return "\\input{#{processed[0]}}"
+    end
+
+    # converts a Czech psalm name how it is customarily used in the project
+    # to a psalm file name
+
+    def psalm_fname(name)
+      name = name.downcase.gsub(' ', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
+
+      if name !~ /^zalm/ then
+        name = 'kantikum_' + name
+      end
+
+      return @setup.psalms_dir + '/' + name + '.zalm'
+    end
+
+    # takes fial, returns a path and an id or raises exception
+
+    def decode_fial(fial)
+      if fial[0] != '#' then
+        fial_parsed = FIAL.new(fial)
+        src = fial_parsed.path
+        id = fial_parsed.id
+
+        unless @split_music_files.include? src
+          split_music_file src
+        end
+      else
+        if @current_chant_source.nil? then
+          raise "Relative chant reference '#{fial} found, but no chant source set.'"
+        end
+
+        src = @current_chant_source
+        id = fial[1..-1]
+      end
+
+      return src, id
+    end
+
+    # accepts "FIAL path" relative to the music base directory
+
+    def split_music_file(path)
+      if @split_music_files.include? path then
+        return
+      end
+
+      full_path = @setup.chant_basedir + '/' + path
+      # the values of @split_music_files are LilyPondMusic instances
+      @split_music_files[path] = @splitter.split_scores full_path
+    end
+
+    def process_tytex(fpath)
+      outfile = fpath.sub(/\.tytex$/, '.lytex')
+      File.open(outfile, 'w') do |out|
+
+        File.open(fpath) do |f|
+          f.each_line do |l|
+            out.print expand_macros(l)
+          end
+        end
+
+      end
+    end
+
+  end
+end
+
+
+if __FILE__ == $0
+  files_to_process = ARGV
+
+  files_to_process.each do |file|
+    Typographus::Typographus.preprocess(file, typo_src_dir)
+  end
+end
