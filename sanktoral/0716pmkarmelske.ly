@@ -1,7 +1,6 @@
 \version "2.17.17"
 
 \include "../spolecne.ly"
-\include "../dilyresponsorii.ly"
 
 \header {
   title = \markup\titleSvatek
