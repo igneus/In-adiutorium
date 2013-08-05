@@ -6,6 +6,7 @@
 }
 
 \include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -1081,6 +1082,153 @@ je "\"skororepetice\"" melodie 2 v 4.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
+
+\markup\italic{Mimo dobu velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
+    a4( g a) f( g f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
+    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
+    % R
+    \neviditelna a
+    a4( g a) f( g f) f \barFinalis
+    % Slava
+    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
+    \mark\sipka a4.( g4 a) f( g f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
+    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
+    % R
+    \neviditelna a
+    a4.( g4 a) f( g f) f \barFinalis
+    % Slava
+    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f4 f( g) f a g g \barMin f g a f e \barMax 
+    f( e) c( d) d \barFinalis
+    % V
+    \neviditelna d
+    d a' g( a) a \barMin a g f g g g \barMin
+    g a g f g g( f d) \barMin d e f a g \barMax
+    \neviditelna f
+    f( e) c( d) d \barFinalis
+    
+    d c c( f) e f a( g) g \barMin g a g f( g) a g \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna f
+    f f f f( g) f f \barMin g f g f( d) d \barMaior
+    f4.( g4 a) g( a) a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 g( f) d( f) f f \barMin f e( f) d c c \barMaior 
+    d d f f f g( f) \barMin f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!_* \textRespAleluja
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+} 
 
 \pageBreak
 
