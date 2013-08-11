@@ -141,12 +141,21 @@ def psalm_name_pretty(p)
 
   if suff == "" then
     # nothing
-  elsif $roman_numbers.member? suff
-    suff.upcase!
-    suff = '-'+suff
-  elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
-    suff[0] = suff[0].upcase
-    suff = '-'+suff
+  else
+    if not $hebrew_alphabet.member?(suff) and
+        suff.size > 1 and
+        suff[0] == 'c' then
+      suff.slice!(0)
+    end
+        
+
+    if $roman_numbers.member? suff
+      suff.upcase!
+      suff = '-'+suff
+    elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
+      suff[0] = suff[0].upcase
+      suff = '-'+suff
+    end
   end
 
   return pp[:num]+suff
