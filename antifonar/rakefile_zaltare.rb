@@ -83,7 +83,7 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   78i 78ii 78iii
                   78iv 78v 78vi
 
-                  33ci 33cii 92ci 92cii
+                  33ci 33cii 92ci 92cii 103ci 103cii
                   )
 
 cislazalmu_zaltar.each do |z|

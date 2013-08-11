@@ -146,6 +146,8 @@ Sanktorál
   Uvedení Páně do chrámu (svátek, 2.2.)
     1. nešpory
       113, 147ii, fp2
+    modlitba se čtením
+      2, 19a, 45i (+) 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -154,6 +156,8 @@ Sanktorál
   Zvěstování Páně (slavnost, 25.3.)
     1. nešpory
       113, 147ii, fp2
+    modlitba se čtením
+      2, 19a, 45i (+) 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -162,6 +166,8 @@ Sanktorál
   Proměnění Páně (svátek, 6.8.)
     1. nešpory
       113, 117, zj19
+    modlitba se čtením
+      84, 97, 99
     ranní chvály
       rchne1t
     2. nešpory
@@ -170,12 +176,16 @@ Sanktorál
   Povýšení svatého kříže (svátek, 14.9.)
     1. nešpory
       147i, 147ii, fp2
+    modlitba se čtením
+      2, 8, 96
     ranní chvály
       rchne1t
     2. nešpory
       110, 116ii, zj4
       
   sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
+    modlitba se čtením
+      97, 103ci, 103cii
     ranní chvály
       rchne1t
     nešpory
@@ -190,6 +200,8 @@ Sanktorál
   Všech svatých (slavnost, 1.11.)
     1. nešpory
       113, 147ii, zj19
+    modlitba se čtením
+      8, 15, 16
     ranní chvály
       rchne1t
     2. nešpory
