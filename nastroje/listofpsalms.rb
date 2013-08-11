@@ -50,19 +50,21 @@ def hour_title(line)
   puts
   t = line.strip
   puts case t
-          when "1. nešpory"
-            "\\idxNesporyI"
-          when "ranní chvály"
-            "\\idxRanniChvaly"
-          when "modlitba uprostřed dne"
-            "\\idxModlitbaUprostredDne"
-          when "2. nešpory"
-            "\\idxNesporyII"
-          when "nešpory"
-            "\\idxNespory"
-          else
-            raise "Unknown hour type '#{t}'"
-          end
+       when "1. nešpory"
+         "\\idxNesporyI"
+       when "modlitba se čtením"
+         "\\idxModlitbaSeCtenim"
+       when "ranní chvály"
+         "\\idxRanniChvaly"
+       when "modlitba uprostřed dne"
+         "\\idxModlitbaUprostredDne"
+       when "2. nešpory"
+         "\\idxNesporyII"
+       when "nešpory"
+         "\\idxNespory"
+       else
+         raise "Unknown hour type '#{t}'"
+       end
 end
 
 def content(line)
