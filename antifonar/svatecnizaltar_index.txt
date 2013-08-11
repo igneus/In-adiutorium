@@ -221,6 +221,8 @@ Společné texty
   O apoštolech
     1. nešpory
       117, 147ii, ef1
+    modlitba se čtením
+      19a, 64, 97
     ranní chvály
       rchne1t
     2. nešpory
@@ -229,6 +231,8 @@ Společné texty
   O více mučednících
     1. nešpory
       118i, 118ii, 1petr2
+    modlitba se čtením
+      2, 33ci, 33cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -237,6 +241,8 @@ Společné texty
   O jednom mučedníkovi nebo o jedné mučednici
     1. nešpory
       118i (+) 118ii, 118iii, 1petr2
+    modlitba se čtením
+      2, 11, 17i (+) 17ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -245,6 +251,8 @@ Společné texty
   O duchovních pastýřích
     1. nešpory
       113, 146, ef1
+    modlitba se čtením
+      21, 92ci, 92cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -253,6 +261,8 @@ Společné texty
   O pannách
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      19a, 45i, 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -261,6 +271,8 @@ Společné texty
   O svatých mužích
     1. nešpory
       113, 146, ef1
+    modlitba se čtením
+      21, 92ci, 92cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -269,12 +281,16 @@ Společné texty
   O svatých ženách
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      19a, 45i, 45ii
     ranní chvály
       rchne1t
     2. nešpory
       122, 127, ef1
       
   Za zemřelé
+    modlitba se čtením
+      40i, 40ii, 42
     ranní chvály
       51, iz38, 146 (nebo) 150
     modlitba uprostřed dne
