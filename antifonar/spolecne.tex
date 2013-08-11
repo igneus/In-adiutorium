@@ -209,40 +209,39 @@
 
 % nadpis hodinky uzivany v indexu svatku svatecniho zaltare
 \newcommand{\nadpisHodinkaVIndexu}[1]{
-  \noindent#1:
+  \noindent \underline{#1:}
 }
 
 % Varianty tech samych prikazu pro index svatku:
 \newcommand{\idxModlitbaSeCtenim}{
-  \nadpisHodinkaVIndexu{modlitba se čtením}
+  \nadpisHodinkaVIndexu{MČ}
 }
 
 \newcommand{\idxRanniChvaly}{
-  \nadpisHodinkaVIndexu{ranní chvály}
+  \nadpisHodinkaVIndexu{RCH}
 }
 
 \newcommand{\idxModlitbaUprostredDne}{
-  \nadpisHodinkaVIndexu{modlitba uprostřed dne}
+  \nadpisHodinkaVIndexu{MU}
 }
 
 \newcommand{\idxNespory}{
-  \nadpisHodinkaVIndexu{nešpory}
+  \nadpisHodinkaVIndexu{N}
 }
 
 \newcommand{\idxNesporyI}{
-  \nadpisHodinkaVIndexu{první nešpory}
+  \nadpisHodinkaVIndexu{1N}
 }
 
 \newcommand{\idxNesporyII}{
-  \nadpisHodinkaVIndexu{druhé nešpory}
+  \nadpisHodinkaVIndexu{2N}
 }
 
 \newcommand{\idxKompletar}{
-  \nadpisHodinkaVIndexu{kompletář}
+  \nadpisHodinkaVIndexu{K}
 }
 
-\newenvironment{idxObsahHory}{
-  \begin{quote}\small}{\end{quote}}
+\newenvironment{idxObsahHory}{}{}
 
 
 % Cilem je, aby tento nadpis nad sebou nemel tolik mista

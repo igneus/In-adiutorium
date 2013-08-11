@@ -47,7 +47,6 @@ def occasion_title(line)
 end
 
 def hour_title(line)
-  puts
   t = line.strip
   puts case t
        when "1. nešpory"
@@ -93,7 +92,7 @@ def content(line)
   
   psalms = []
   
-  puts "\\begin{idxObsahHory}"
+  #puts "\\begin{idxObsahHory}"
 
   tokens.each_with_index do |t,ti|
     t[1].strip!
@@ -119,17 +118,16 @@ def content(line)
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
-        puts " \\textbf{|} "
-        # puts ";\\\\"
+        puts "; "
       else
-        puts
+        puts ". "
       end
     when :txt
       puts "\\rubr{#{t[1]}}"
     end
   end
 
-  puts "\\end{idxObsahHory}"
+  #puts "\\end{idxObsahHory}"
   
   return psalms
 end
