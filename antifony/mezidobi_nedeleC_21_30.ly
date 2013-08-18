@@ -229,6 +229,8 @@
   }
 }
 
+%{
+
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
@@ -699,3 +701,5 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%}
