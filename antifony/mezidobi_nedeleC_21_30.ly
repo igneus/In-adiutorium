@@ -5,7 +5,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a g g( a) a \barMin
+    f g f d( e) d( c) \barMin
+    d d d f( e) d \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,
@@ -14,8 +16,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = ""
@@ -24,9 +26,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 c c b( c) c \barMin
+    b c c c c d c b( a) a \barMaior
+    a f a a g a b( c) a a \barMaior
+    c b c( d) d \barMin c d c b a a a \barMaior
+    g a f g( a) g g \barFinalis
   }
   \addlyrics {
     Mno -- ho jich při -- jde
@@ -37,8 +43,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
@@ -49,7 +55,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 e d f g a a a \barMaior
+    f a g f g e d \barFinalis
   }
   \addlyrics {
     Po -- sled -- ní bu -- dou prv -- ní -- mi 
@@ -57,8 +64,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = ""
