@@ -76,20 +76,25 @@
 \markup {\nadpisDen {"22. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g( a) a f g g( a) a \barMaior
+    f f d( f) f \barMin g g g f d d \barMax
+    d c d d d f d f g f d( e d) \barMaior
+    a' a a a a( c) g g( a) a \barMin
+    f f f f g f e( f) d d \barFinalis
   }
   \addlyrics {
     Když bu -- deš po -- zván na hos -- ti -- nu,
     jdi si sed -- nout na po -- sled -- ní mís -- to,
     a po -- zve -- -li tě hos -- ti -- tel do -- pře -- du,
-    bu -- de ti to ke cti u těch, kte -- ří bu -- dou s_te -- bou u sto -- lu.
+    bu -- de ti to ke cti u těch, 
+    kte -- ří bu -- dou s_te -- bou u sto -- lu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     annus = "C"
     id = ""
@@ -123,9 +128,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b( c a) a b a g( a g) \barMaior
+    g( c) d d( c) \barMin d d c d c b c d d \barMaior
+    a a( d) d d c b a( g) \barMin
+    g a a a c b a a \barFinalis
   }
   \addlyrics {
     Když stro -- jíš hos -- ti -- nu,
@@ -135,8 +143,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     annus = "C"
     id = ""
