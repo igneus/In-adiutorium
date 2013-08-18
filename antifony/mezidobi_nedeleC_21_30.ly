@@ -157,7 +157,13 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d d d( e f d) d \barMaior
+    d c d d f e f( d) d \barMin
+    f g f \barMin
+    g f f g( a) a \barMaior
+    a a a a( b c) a a \barMin
+    a g f f g( f) f \barMaior
+    g g g f d c d d d \barFinalis
   }
   \addlyrics {
     Kdo při -- chá -- zí ke mně
@@ -170,8 +176,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
@@ -182,7 +188,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f e f g a \barMin a a( c) g a( g f) g \barMaior
+    f f f f d c d d d \barFinalis
   }
   \addlyrics {
     Kdo ne -- ne -- se svůj kříž a ne -- jde za mnou,
@@ -190,8 +197,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
