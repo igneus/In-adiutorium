@@ -91,6 +91,9 @@ class MusicSplitter
           quid = score.header['quidbreve']
         else
           quid = score.header['quid']
+          if quid and quid.size > 7 then
+            quid = quid.split(/\s+/).shift
+          end
         end
         
         # Why are both "mode.differentia" and "quid" in quotation marks?
