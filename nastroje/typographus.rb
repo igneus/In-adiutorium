@@ -67,8 +67,8 @@ module Typographus
 
     def make_dirs
       [:generated_dir, :output_dir].each do |d|
-        if ! FileTest.directory?(@setup[d]) then
-          Dir.mkdir @setup[d]
+        if ! FileTest.directory?(@setup.send(d)) then
+          Dir.mkdir @setup.send(d)
         end
       end
     end
@@ -179,6 +179,10 @@ module Typographus
 
       l.gsub!(/\\responsory\{(.*)\}/) do
         prepare_generic_score $1
+      end
+
+      l.gsub!(/\\antiphon\{(.*)\}/) do
+        prepare_generic_score($1) + "\n\n" 
       end
 
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
