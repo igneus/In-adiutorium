@@ -516,15 +516,18 @@ module PsalmPreprocessor
     # '#' in the pattern is the place where title text will be inserted
     DEFAULT_PATTERN = "\\nadpisZalmu{#}"
     
-    def initialize(io, pattern=DEFAULT_PATTERN)
+    def initialize(io, skip=false, pattern=DEFAULT_PATTERN)
       super(io)
       @pattern = pattern
-      @first = true
+      @line = 0
+      @skip = skip
     end
     
     def puts(s="\n")
-      if @first then
-        @first = false
+      if @line == 0 then
+        @line += 1
+        return if @skip
+
         i = @pattern.index '#'
         if i then
           sa = @pattern[0..i-1]+s+@pattern[i+1..-1]
@@ -533,6 +536,11 @@ module PsalmPreprocessor
         end
         @core.puts sa
         # STDOUT.puts sa
+      elsif @line == 1 then
+        @line += 1
+        return if @skip
+
+        @core.puts s
       else
         @core.puts s
       end
@@ -741,6 +749,7 @@ module PsalmPreprocessor
       :preparatory => [0,0],
       :accent_style => :underline,
       :has_title => true,
+      :skip_title => false,
       :title_pattern => nil,
       :no_formatting => false,
       :output_file => nil,
@@ -891,9 +900,9 @@ module PsalmPreprocessor
       # first line contains the title
       if @setup[:has_title] then
         if @setup[:title_pattern] then
-          output = TitleOutputStrategy.new output, @setup[:title_pattern]
+          output = TitleOutputStrategy.new output, @setup[:skip_title], @setup[:title_pattern]
         else
-          output = TitleOutputStrategy.new output
+          output = TitleOutputStrategy.new output, @setup[:skip_title]
         end
       end
 
@@ -949,6 +958,9 @@ if $0 == __FILE__ then
     end
     opts.on "-t", "--no-title", "Don't consider the first line to contain a psalm title" do
       setup[:has_title] = false
+    end
+    opts.on "-q", "--skip-title", "Don't set the title" do
+      setup[:skip_title] = true
     end
     opts.on "-T", "--title-pattern [PATTERN]", "Use a specified pattern instead of the default one." do |p|
       setup[:title_pattern] = p
