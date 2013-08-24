@@ -180,6 +180,152 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c b a \barMin g g a g f g a g g \barMaior
+    g g( b c) d c c( d) c \barMin b g a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    Bůh do -- vr -- šil tvé vy -- kou -- pe -- ní
+    a ko -- ru -- no -- val tě ne -- bes -- kou slá -- vou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = "Žalm 24"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c( b) b \barMin
+    c d c b a a b a a( g) g \barMaior
+    a a c( b) c( a) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Pán ji vy -- vo -- lil
+    a vy -- zna -- me -- nal ji pře -- de vše -- mi,
+    dal jí pří -- by -- tek 
+    ve svém stán -- ku.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = "Žalm 46"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#mc-a3?-aleluja"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    g4( f g a) g \barMin c c( d c) b g( a) \barMin a c b a( b) a( g) g \barMaior
+    a a a g( f e) d \barMin f g a a a( c) b \barMax
+    c( d) a a \barMin b g g a a \barMaior
+    f g( c4. d4 c) c \barMin b( c b) a g g \barFinalis
+    % V
+    \neviditelna c
+    c4 c c( d) d( c) \barMin c b c a g a c b \barMax
+    % R
+    \neviditelna c
+    c( d) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Krás -- ná a vzne -- še -- ná je Pan -- na Ma -- ri -- a,
+    Kris -- tus ji při -- jal do ne -- bes -- ké slá -- vy._*
+    Vy -- ni -- ká me -- zi sva -- tý -- mi
+    a zá -- ří ja -- ko slun -- ce.
+    \Verse Z_je -- jí slá -- vy se ra -- du -- jí i an -- dě -- lé._*
+    \Response Vy -- ni -- ká.
+  }
+  \header {
+    quid = "1. resp."
+    modus = "VIII"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+    % R
+    \neviditelna d
+    d4 d d e d c \[ b( a g \] \[ a g) \] \barMaior
+    f f f a g( a) g \barMin 
+    f f( c') c4.( d4 \[ f e d c \] \[ d c) \] \barMin
+    \key f \major c bes c c( d) c bes bes( c) c \barMaior
+    \key c \major c( d c) c( d) d c c \barMin b a g a a g g \barMax
+    c4 f e( d) d \barMin d f e d c c \barMaior
+    c d d d d bes( a g) \barMin a g a f f \barFinalis
+    
+    % V
+    \neviditelna a
+    g4 f( g) g \barMin a b c a g( a) g g \barMin
+    a g a c c b a a \barMaior
+    c c c( d) c d( e d c) b( a) \barMin c c d c d( e) d d \barMaior
+    c( d c) b( g) g( a) g \barMax
+    % R
+    \neviditelna a
+    c4 f e( d) d \barFinalis
+  }
+  \addlyrics {
+    \Response Dnes je ten pře -- slav -- ný den,
+    kdy Ro -- dič -- ka Bo -- ží 
+    vstou -- pi -- la
+    do věč -- né ra -- dos -- ti v_ne -- bi;
+    ra -- du -- je -- me se spo -- lu s_ní a vo -- lá -- me:_*
+    Po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+    \Verse Šťast -- ná jsi, sva -- tá Pan -- no Ma -- ri -- a,
+    hod -- ná jsi veš -- ke -- ré chvá -- ly,
+    ne -- boť z_te -- be vze -- šlo slun -- ce spra -- ve -- dl -- nos -- ti,
+    Kris -- tus, náš Bůh._*
+    \Response Po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "2. resp."
+    modus = "V"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
