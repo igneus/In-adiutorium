@@ -250,7 +250,11 @@ module Typographus
 
     def decode_fial(fial)
       if fial[0] != '#' then
-        fial_parsed = FIAL.new(fial)
+        begin
+          fial_parsed = FIAL.new(fial)
+        rescue
+          raise "Failed to read fial '#{fial}'."
+        end
         src = fial_parsed.path
         id = fial_parsed.id
 
