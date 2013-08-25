@@ -1,0 +1,33 @@
+main = 'pout_velehrad2013'
+
+file "vystup/#{main}.tex" => ["#{main}.tytex", "../../nastroje/typographus.rb"] do
+  sh "ruby ../../nastroje/typographus.rb #{main}.tytex"
+  sh "lilypond-book --pdf --latex-program=xelatex -o vystup #{main}.lytex"
+end
+
+file "vystup/#{main}.pdf" => ["vystup/#{main}.tex"] do
+  chdir "vystup"
+  #2.times { sh "pdflatex #{main}.tex" }
+  2.times { sh "xelatex -output-driver=\"xdvipdfmx -q -E\" #{main}.tex" }
+  chdir ".."
+end
+
+file "vystup/#{main}-broz.pdf" => ["vystup/#{main}.pdf"] do
+  chdir "vystup"
+  pages_count =  `pdftk #{main}.pdf dump_data output | grep -i NumberOfPages`.split(" ")[1].to_i
+  n = (pages_count % 4 == 0) ? pages_count : pages_count+(4 - (pages_count % 4))
+  # argument --signature urcuje pocet stranek na knizni slozku;
+  # nastavime ho tak, aby cely kompletar byl v jedinem sesitku
+  sh "pdfbook --signature #{n} --suffix broz #{main}.pdf"
+  chdir ".."
+end
+
+task :clean do
+  sh 'rm generovane/*'
+  sh "rm #{main}.lytex"
+end
+
+task :default => ["vystup/#{main}.pdf"]
+
+desc "For booklet print on A4"
+task :booklet => ["vystup/#{main}-broz.pdf"]

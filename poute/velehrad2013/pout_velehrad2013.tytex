@@ -1,0 +1,835 @@
+\documentclass[a5paper, twoside, 10pt]{article}
+
+\usepackage{ifxetex}
+\ifxetex
+%xetex specific stuff
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra}
+\setmainfont{Charis SIL}
+\setsansfont{FreeSans}
+\else
+%This can be empty if you are not going to use pdftex
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{bookman}
+\fi
+%Here you can insert all packages that pdftex also understands
+
+\usepackage[czech]{babel}
+
+\usepackage[left=1cm, right=1cm, top=1cm, bottom=2cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{fancyhdr} % hlavicky stranek
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\newcommand{\postLilyPondExample}{ \vspace{1mm} }
+
+\newcommand{\inv}{
+  \textbf{invitatorium}}
+\newcommand{\rch}{
+  \textbf{ranní chvály}}
+\newcommand{\pol}{
+  \textbf{modlitba uprostřed dne}}
+\newcommand{\nes}{
+  \textbf{nešpory}}
+\newcommand{\nesi}{
+  \textbf{i. nešpory}}
+\newcommand{\nesii}{
+  \textbf{ii. nešpory}}
+
+\newcommand{\den}[1]{
+  \phantomsection
+  \hfill\textbf{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\begin{document}
+
+\setChantBasedir{../../}
+\setPsalmsDir{../../antifonar/zalmy/}
+\setIncludes{spolecne_velehrad.ly, ../../dilyresponsorii.ly}
+
+\pagestyle{empty}
+
+\begin{center}
+\mbox{}
+
+\vspace{2cm}
+
+\includegraphics[height=8cm]{cyril-methodius.jpg}
+
+\vfill
+
+{\Large Pouť na Velehrad}
+
+\vspace{5mm}
+
+27.8. - 2.9. 2013
+
+\vspace{3cm}
+
+In adiutorium
+\end{center}
+
+\pagebreak
+
+\mbox{}
+
+\vfill
+
+Všechny antifony a responsoria podléhají licenci Creative Commons 3.0 Unported.
+Vznikly v rámci projektu In adiutorium - http://inadiutorium.xf.cz
+
+\cleardoublepage
+
+\pagestyle{plain}
+
+\hfill 1. týden žaltáře
+
+\den{úterý 27.8. /
+sv. Moniky - památka}
+
+\setChantSource{antifony/tyden1_3utery.ly}
+
+\inv
+
+\antiphon{commune/commune_svatazena.ly#invit1}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{commune/commune_svatazena.ly#rch-resp}
+
+\antiphon{sanktoral/0827monika.ly#rch-aben}
+
+\pagebreak % ZLOM
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{commune/commune_svatazena.ly#2ne-resp}
+
+\antiphon{sanktoral/0827monika.ly#ne-amag}
+
+% ---------------------------------------------
+\den{středa 28.8. /
+sv. Augustina - památka}
+
+\label{augustin}
+
+\setChantSource{antifony/tyden1_4streda.ly}
+
+\inv
+
+\antiphon{commune/commune_pastyr.ly#invit}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{commune/commune_pastyr.ly#rch-resp}
+
+\antiphon{sanktoral/0828augustin.ly#rch-aben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{commune/commune_pastyr.ly#2ne-resp}
+
+\antiphon{sanktoral/0828augustin.ly#ne-amag}
+
+% ---------------------------------------------
+\den{čtvrtek 29.8. /
+Umučení sv. Jana Křtitele - památka}
+
+\setChantSource{sanktoral/0829umucenikrtitele.ly}
+
+\inv
+
+\antiphon{#invit}
+
+\rch
+
+\antiphon{#rch-a1}
+
+\antiphon{#rch-a2}
+
+\antiphon{#rch-a3}
+
+\antiphon{#rch-resp}
+
+\antiphon{#rch-aben}
+
+\pol
+
+\setChantSource{antifony/tyden1_5ctvrtek.ly}
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\setChantSource{sanktoral/0829umucenikrtitele.ly}
+
+\antiphon{#ne-a1}
+
+\antiphon{#ne-a2}
+
+\antiphon{#ne-a3}
+
+\antiphon{#ne-resp}
+
+\antiphon{#ne-amag}
+
+% ---------------------------------------------
+\den{pátek 30.8.}
+
+\setChantSource{antifony/tyden1_6patek.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t1pa}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#1pa-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t1-pa-ben}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{responsoria.ly#1pa-ne}
+
+\antiphon{antifony/ferie_kantevgant.ly#t1-pa-mag}
+
+% ---------------------------------------------
+\den{sobota 31.8.}
+
+\setChantSource{antifony/tyden1_7sobota.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t1so}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#1so-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t1-so-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+% ---------------------------------------------
+\den{neděle 1.9. - 
+22. v mezidobí}
+
+\hfill 2. týden žaltáře
+
+\setChantSource{antifony/tyden2_1nedele.ly}
+
+\nesi
+
+\antiphon{#1ne-ant1}
+
+\antiphon{#1ne-ant2}
+
+\antiphon{#1ne-ant3}
+
+\antiphon{responsoria.ly#2ne-1ne}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne22c-ne1-mag}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t2ne}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#2ne-rch}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne22c-rch-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\pagebreak % ZLOM
+
+\nesii
+
+\antiphon{#2ne-ant1}
+
+\antiphon{#2ne-ant2}
+
+\antiphon{#2ne-ant3}
+
+\antiphon{responsoria.ly#2ne-2ne}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne22c-ne2-mag}
+
+
+% ---------------------------------------------
+\den{pondělí 2.9.}
+
+\setChantSource{antifony/tyden2_2pondeli.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t2po}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#2po-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-po-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{responsoria.ly#2po-ne}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-po-mag}
+
+% ---------------------------------------------
+\den{úterý 3.9. /
+sv. Řehoře Velikého - památka}
+
+\textit{Invitatorium a responsoria jako o památce sv. Augustina, s. \pageref{augustin}.}
+
+\setChantSource{antifony/tyden2_3utery.ly}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{sanktoral/0903rehor.ly#rch-aben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{sanktoral/0903rehor.ly#ne-amag}
+
+% ---------------------------------------------
+\den{středa 4.9.}
+
+\setChantSource{antifony/tyden2_4streda.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t2st}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#2st-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-st-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{responsoria.ly#2st-ne}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-st-mag}
+
+% ---------------------------------------------
+\den{čtvrtek 5.9.}
+
+\setChantSource{antifony/tyden2_5ctvrtek.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t2ct}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#2ct-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-ct-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{responsoria.ly#2ct-ne}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-ct-mag}
+
+% ---------------------------------------------
+\den{pátek 6.9.}
+
+\setChantSource{antifony/tyden2_6patek.ly}
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t2pa}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#2pa-rch}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-pa-ben}
+
+\pagebreak % ZLOM
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\nes
+
+\antiphon{#ne-ant1}
+
+\antiphon{#ne-ant2}
+
+\antiphon{#ne-ant3}
+
+\antiphon{responsoria.ly#2pa-ne}
+
+\antiphon{antifony/ferie_kantevgant.ly#t2-pa-mag}
+
+\pagebreak % ZLOM
+
+% ---------------------------------------------
+\den{sobota 7.9. /
+sobotní památka Panny Marie} 
+
+(neděle potlačí svátek Narození)
+
+\setChantSource{antifony/tyden2_7sobota.ly}
+
+\inv
+
+\antiphon{commune/commune_maria.ly#invit1}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{commune/commune_maria.ly#2ne-resp}
+
+\antiphon{commune/commune_maria.ly#sob-aben4}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\vfill
+
+% ---------------------------------------------
+\den{neděle 8.9. -
+23. v mezidobí}
+
+\hfill 3. týden žaltáře
+
+\setChantSource{antifony/tyden3_1nedele.ly}
+
+\nesi
+
+\antiphon{#1ne-ant1}
+
+\antiphon{#1ne-ant2}
+
+\antiphon{antifony/tyden1_1nedele.ly#1ne-ant3}
+
+\antiphon{responsoria.ly#1ne-1ne}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne23c-ne1-mag}
+
+\pagebreak % ZLOM
+
+\inv
+
+\antiphon{antifony/invitatoria.ly#t1ne}
+
+\rch
+
+\antiphon{#rch-ant1}
+
+\antiphon{#rch-ant2}
+
+\antiphon{#rch-ant3}
+
+\antiphon{responsoria.ly#1ne-rch}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben}
+
+\pol
+
+\antiphon{#up-ant1}
+
+\antiphon{#up-ant2}
+
+\antiphon{#up-ant3}
+
+\pagebreak % ZLOM
+
+\nesii
+
+\antiphon{antifony/tyden1_1nedele.ly#2ne-ant1}
+
+\antiphon{#2ne-ant2}
+
+\antiphon{antifony/tyden1_1nedele.ly#2ne-ant3}
+
+\antiphon{responsoria.ly#1ne-2ne}
+
+\antiphon{antifony/mezidobi_nedeleC_21_30.ly#ne23c-ne2-mag}
+
+% ---------------------------------------------
+\den{votivní oficium o sv. Cyrilu a Metoději}
+
+\textit{O některém liturgicky volném dni na způsob památky. Invitatorium 
+o duchovních pastýřích viz
+památku sv. Augustina, s. \pageref{augustin}.}
+
+\setChantSource{sanktoral/0705cyrilametodej.ly}
+
+\responsory{#rch-resp}
+
+\antiphon{#rch-aben}
+
+\responsory{#2ne-resp}
+
+\antiphon{#2ne-amag}
+
+% ---------------------------------------------
+\den{kompletář}
+
+\setChantSource{kompletar.ly}
+
+\antiphon{#nei1}
+
+\antiphon{#nei2}
+
+\responsory{#resp}
+
+\antiphon{#sim}
+
+\antiphon{#po}
+
+\antiphon{#ut}
+
+\antiphon{#st1}
+
+\antiphon{#st2}
+
+\antiphon{#ct}
+
+\antiphon{#pa}
+
+\pagebreak % ZLOM
+
+\den{Proglas}
+
+\setlength{\columnseprule}{0pt} % cara oddelujici sloupce
+\setlength{\columnsep}{10pt} % prostor mezi sloupci
+\setlength{\parindent}{0pt}
+
+\begin{multicols}{2}
+%\begin{verse}
+  Proglasъ jesmь svętu jevanьgelьju:\\
+  Jako proroci prorekli sǫtъ prěžde,\\
+  Christъ grędetъ sъbьratъ językъ,\\
+  Světъ bo jestъ vьsemu miru semu.\\
+  Se sъbystъ sę vъ sedmyi věkъ sь.\\
+
+  Rěšę bo oni: slěpii prozьrętъ,\\
+  glusi slyšętъ slovo bukъvьnoje.\\
+  Boga že ubo poznati dostoitъ.\\
+  Togo že radi slyšite, Slověne, si:\\
+  Darъ bo jestъ otъ Boga sь danъ,\\
+
+  darъ božii jestъ desnyję čęsti,\\
+  darъ dušamъ, nikoliže tьlěję,\\
+  dušamъ těmъ, jęže i priimǫtъ.\\
+  Matъthei, Mar(ъ)ko, Luka i Ioanъ\\
+  učętъ vьsь narodъ glagoljǫšte:\\
+
+  Jeliko bo svoichъ dušь lěpotǫ\\
+  viditъ, ljubite bo radovati sę,\\
+  grěchovьnǫ že tьmǫ otъgъnati\\
+  i mira sego tьljǫ otъložiti\\
+  i raiskoje žitije priobrěsti\\
+
+  i izběžati otъ ogni gorǫšta,\\
+  slyšite nyně otъ svojego uma,\\
+  slyšite slověnьskъ narodъ vьsь,\\
+  slyšite slovo, otъ Boga prijde,\\
+  slovo že krъmę člověčьskyję dušę,\\
+
+  slovo že krěpę i srьdьce i umъ,\\
+  slovo se gotovaję Boga poznati.\\
+  Jako besvěta radostь ne bǫdetъ\\
+  oku vidęštju božijǫ tvarь vьsjǫ\\
+  nъ vьse ni lěpo ni vidimo jestъ, \columnbreak
+
+  tako i duša vьsjaka bez bukъvъ\\
+  ne sъvědǫšti zakona že božija,\\
+  zakona kъnižьna i duchovьna,\\
+  zakona rai božii javljajǫšta.\\
+  Kyi bo sluchъ gromьnajego tǫtьna \\
+
+  ne slyšę, Boga možetъ bojati sę?\\
+  Nozdri že paky, cvěta ne ǫchajǫšti,\\
+  kako božьje čjudo razumějete?\\
+  Usta bo, jaže sladъka ne čjujǫtъ,\\
+  jako kaměna tvorętъ že člověka.\\
+
+  Pače že sego duša bezbukъvьna\\
+  javljajetъ sę vъ člověcěchъ mrьtva.\\
+  Se že vьse my, bratije sъmyslęšte\\
+  glagoljemъ sъvětъ podobajǫštь,\\
+  iže člověky vьsję otъlǫčitъ\\
+
+  otъ žitija skotьska i pochoti,\\
+  da ne imǫšte umъ nerazumьnъ,\\
+  tu ždemь językomь slyšęšte slovo\\
+  jako mědьna zvona glasъ slyšite.\\
+  Se bo svętyi Pavьlъ učę reče:\\
+
+  Molitvǫ svojǫ vъzdaję prěžde Bogu,\\
+  jako choštjǫ slovesъ pętь izdrešti\\
+  sъ razumomь svoimь glagolati,\\
+  da i vьse bratьja razumějǫtъ,\\
+  neže tьmǫ slovesъ nerazumьnъ.\\
+
+  Kyi bo člověkъ ne razumějetъ,\\
+  kyi ne proložitъ pritъčę mǫdry,\\
+  sъkazajǫštiję besědy pravy namъ?\\
+  Jako bo tьlja plъtьchъ nastoitъ,\\
+  vьse tьlęšti, pače gnoja gnojęšti, \columnbreak
+
+  jegna svojego brašьna ne imatъ,\\
+  tako duša vьsjaka opadajetъ\\
+  žizni, božija ne imǫšti života,\\
+  jegda slovese božija ne slyšitъ.\\
+  Inǫ že paky pritъčǫ mǫdrǫ dzělo\\
+
+  da glagoljemъ, člověci, ljubęšte sę,\\
+  chotęšte rasti božijemь rastomь,\\
+  kъto bo věry seję ne věstъ pravy,\\
+  jako sěmeni padajǫštju na nivě,\\
+  tako na srьdьcichъ člověčьscěchъ,\\
+
+  dъždja božii bukъvъ trěbujǫšte,\\
+  da vъzdrastetъ plodъ božii pače.\\
+  Kъto možetъ pritъče vьsje rešti,\\
+  obličajǫštę bes knigъ języky,\\
+  vъ glasě sъmyslьně ne glagoljǫšte.\\
+
+  Ni ašte umějetъ języky vьsję,\\
+  možetъ sъkazati nemoštь sichъ.\\
+  Obače svojǫ pritъčjǫ da pristavljǫ,\\
+  mъnogъ umъ vъ malě rěči kažę.\\
+  Nazi bo vьsi bes knigъ języci\\
+
+  brati sę ne mogǫšte bez orǫžija\\
+  sъ protivьnikomь dušь našichъ\\
+  gotovi mǫky věčьnyję vъ plěnъ.\\
+  Iže bo vraga, języci, ne ljubite,\\
+  brati že sę sъ nimь myslęšte dzělo,\\
+
+  otъvrьzěte priležьno umu dvьri,\\
+  orǫžije priimъše tvrьdo nyně,\\
+  ježe kujǫtъ kъnigy Gospodьnje,\\
+  glavǫ tьrǫšte neprijazni velьmi.\\
+  Bukъvi siję, iže bo priimetъ\\
+
+  mǫdrostь tomu Christosъ glagoljetъ\\
+  i dušę vašę bukъvami krěpitъ,\\
+  apostoly že sъ proroky vьsěmi.\\
+  Iže bo sichъ slovesa glagoljǫšte\\
+  podobьni bǫdǫtъ vraga ubiti\\
+
+  pobědǫ prinosęšte kъ Bogu dobrǫ\\
+  plъti běžęšte tьlję gnojevьnyje\\
+  plъti, jejęže životъ jako vъ sъně\\
+  ne padajǫšte, krěpъko že stojęšte,\\
+  kъ Bogu javlьše sę jako chrabъri,\\
+
+  stojęšte o desnǫjǫ božija prěstola,\\
+  jegda ognьmь sǫditъ językomъ,\\
+  radujǫšte sę sъ anьěely vъ věky,\\
+  prisno slavjęšte Bogъ milostivyi\\
+  kъnižьnami vьsega že pěsnьmi\\
+
+  Bogu pojǫšte člověky milujǫštju.\\
+  Tomu podobajetъ vьsjaka slava,\\
+  čьstь i chvala, Božii Synu, vynǫ\\
+  sъ Otьcemь i Svętyimь Duchomь\\
+  vъ věky věkъ otъ vьseję tvari.
+  Aminъ. 
+%\end{verse}
+\end{multicols}
+
+\clearpage
+
+\tableofcontents
+
+\end{document}
