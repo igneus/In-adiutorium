@@ -315,16 +315,15 @@ module PsalmPreprocessor
             i -= 1
           end
 
-          unless i 
+          if i < 0
             raise "too short"
           end
         }
       rescue
         # verse too short; do nothing, return it, as it is
         # STDOUT.puts s
-        # s = s.gsub('/', '') # remove all remaining syllable-separating slashes
-        # return s
-        i = 0
+        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
+        return s
       end
 
       s[ai] = cl+'['
@@ -898,6 +897,10 @@ module PsalmPreprocessor
       end
 
       # first line contains the title
+      if @setup[:skip_title] and 
+          @setup[:skip_verses] and @setup[:skip_verses] > 0 then
+        @setup[:skip_title] = false
+      end
       if @setup[:has_title] then
         if @setup[:title_pattern] then
           output = TitleOutputStrategy.new output, @setup[:skip_title], @setup[:title_pattern]
