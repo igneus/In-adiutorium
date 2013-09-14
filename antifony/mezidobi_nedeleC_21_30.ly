@@ -229,14 +229,15 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f( a) \barMin a g f g( f) f \barMin f g g g f( e d c) c \barMaior
+    d d d d f e f f g f e d( e) d d \barMaior
+    d f( g a) g g a g f( g) g( f) f \barMin
+    e f g f( e) d d \barFinalis
   }
   \addlyrics {
     Kdo z_vás, když má sto ov -- cí a jed -- nu z_nich ztra -- tí,
@@ -246,11 +247,12 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne24c-ne1-mag"
+    fons = "melodie volně podle antifony k Magnificat druhých nešpor této neděle"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -258,18 +260,22 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f f( a) g g( a bes a) a \barMin
+    a a a a a g a bes( a) g( a) g \barMaior
+    g a g f e d d \barMin
+    d d f e f g a g f f \barFinalis
   }
   \addlyrics {
-    V_ne -- bi bu -- de vět -- ší ra -- dost nad hříš -- ní -- kem,
+    V_ne -- bi bu -- de vět -- ší ra -- dost 
+    nad hříš -- ní -- kem,
     kte -- rý se ob -- rá -- tí,
     než nad spra -- ved -- li -- vý -- mi,
     kte -- ří po -- ká -- ní ne -- po -- tře -- bu -- jí.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = "ne24c-rch-ben"
@@ -280,7 +286,12 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g f( a) a \barMin
+    a a a a g f f g( f) f \barMin
+    f g g g f( e d c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    d f( g a) g f g( f g) g( f) f \barMin
+    e f g f( e) d d \barFinalis
   }
   \addlyrics {
     Kte -- rá že -- na,
@@ -292,14 +303,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne24c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"25. neděle"}}
 
