@@ -312,14 +312,15 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"25. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c a g a g g( a g) \barMin
+    g g g g f g a( c b) a( g) g \barMaior
+    c c c c( d) c b g a \barMin
+    f g a( c) a a \barMin b c a a g g \barFinalis
   }
   \addlyrics {
     Zí -- ská -- vej -- te si přá -- te -- le
@@ -329,8 +330,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne25c-ne1-mag"
@@ -339,9 +340,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g( a) g f g g( a) a \barMaior
+    c c( b a) a \barMin a a b a a( g) g \barFinalis
   }
   \addlyrics {
     Kdo je věr -- ný v_ma -- lič -- kos -- ti,
@@ -349,8 +351,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = "ne25c-rch-ben"
@@ -359,24 +361,31 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g f( g) f f \barMin
+    f g a a( g) a bes c g g \barMaior
+    f f f e d d \barMin
+    f g f g( a) f f \barFinalis
   }
   \addlyrics {
-    Žád -- ný slu -- žeb -- ník ne -- mů -- že slou -- žit dvě -- ma pá -- nům.
-    Ne -- mů -- že -- te slou -- žit Bo -- hu i ma -- mo -- nu.
+    Žád -- ný slu -- žeb -- ník 
+    ne -- mů -- že slou -- žit dvě -- ma pá -- nům.
+    Ne -- mů -- že -- te slou -- žit 
+    Bo -- hu i ma -- mo -- nu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = "ne25c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"26. neděle"}}
 
