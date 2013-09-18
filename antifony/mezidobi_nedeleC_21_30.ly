@@ -385,14 +385,13 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"26. neděle"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 e e e f e d e d d \barMin c d e( f) e d( e) e \barMaior
+    a( g a g) f( d) \barMin f g f e e \barFinalis
   }
   \addlyrics {
     Bo -- háč, 
@@ -402,8 +401,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     annus = "C"
     id = "ne26c-ne1-mag"
@@ -414,7 +413,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    f f f f f e c c( d) d \barMaior
+    d d d d d c d e( f e4.) d \barMin
+    d4 d d( f e) c( d) d \barFinalis
   }
   \addlyrics {
     Sy -- nu, u -- vě -- dom si,
@@ -425,8 +428,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne26c-rch-ben"
@@ -459,6 +462,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"27. neděle"}}
 
