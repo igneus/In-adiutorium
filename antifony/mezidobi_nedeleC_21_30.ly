@@ -440,7 +440,14 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c c d d f e( f d) d \barMaior
+    d d c( a) a c d( f e) c c d d \barMax
+    
+    d c c d d \barMin d e f d c c( a) a \barMaior
+    d d c d d d( f) d c( d) d \barMax
+    
+    d d g f g \barMin g f g f( e) d d \barMaior
+    d c d d( g) f e d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
@@ -454,8 +461,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne26c-ne2-mag"
