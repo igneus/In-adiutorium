@@ -1,7 +1,7 @@
 \version "2.16.0"
 
-\include "spolecne/layout.ly"
-\include "spolecne/tiraz.ly"
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
 
 \header {
   title = "Žalm 110,1-5.7"

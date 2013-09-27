@@ -1,6 +1,25 @@
 \version "2.16.0"
 
-% -*- master: ../rytmicke_nespory_nedele.ly;
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/choral.ly"
+\include "../../spolecne/tiraz.ly"
+
+\header {
+  title = "Žalm 110,1-5.7"
+  composer = "Jakub Pavlík"
+  poet = \markup\column{
+           \line{"T: český liturgický překlad Bible a"}
+           \line{"Denní modlitba církve"}
+  }
+}
+
+rytmusVolny = {
+  % nepsat predznamenani tempa (neni tempo)
+  \override Score.TimeSignature #'stencil = ##f
+  
+  % nedelat taktove cary    
+  \cadenzaOn
+}
 
 zalmCXtext = \lyricmode {
   % 1
@@ -79,7 +98,7 @@ zalmCXmelodie = \relative c' {
 }
 
 % zalm
-zalmCXscore = \score {
+\score {
   <<
     \zalmCXakordy
     \zalmCXmelodie
@@ -109,8 +128,7 @@ zalmCXmelodieB = \relative c' {
   
 }
 
-% zalm
-zalmCXscoreB = \score {
+\score {
   <<
     \zalmCXakordyB
     \zalmCXmelodieB
