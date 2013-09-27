@@ -133,42 +133,42 @@ melodieB = \relative c'' {
   % chci znacky na konci radku, ne na zacatku noveho
   \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
   
-  \cadenzaOn
-    
   % 1
-  g4 g8 g a4 a c c b b \bar "|"
+  \time 2/4 g4 g8 g a4 a c c b b \bar "|"
   r4 a f e f8 g g4 r2 \bar "|"
   a4 a a8 c b g~ g2 \bar "|"
   a4 a8 c b g4. \bar "|"
-  a4 g f a a8( g) g4 \bar "||"
+  a4 g f a a8( g) g4~ g2 r \bar "||" 
   
   % 2
-  c4 c d8 c b a g4 g2 \bar "|"
-  a8 a a4 f8 e f( g) g4  \bar "|"
-  a8 f4 a8 a b a a g4 g \bar "||"
+  c4 c \time 6/8 d8 c b a g4 \time 2/4 g2 \bar "|"
+  a8 a a4 f8 e f( g) g2 r \bar "|"
+  a8 f4. a8 a b a a g4. g2 r \bar "||" 
   
   % 3 
-  e8 f g a g a4 \bar "|" a8 c b a g \bar "|"
-  c4 b \bar "|" a8 b c d4 d \bar "|"
-  e8 d c b c b a b c \bar "|" a g4 g \bar "||"
+  r8 e8 f g a g a4 \bar "|" a8 c b a g4 r \bar "|"
+  c4 b \bar "|" r8 a8 b c d4 d r2 \bar "|"
+  e8 d c b c b a b c a g4 g2 r \bar "||" 
   
   % 4
-  e8 f g a a a \bar "|" a a a a f e f g g \bar "|"
-  c8 c d( c) b a g \bar "|"
-  a a a a b a g f g g \bar "||"
+  r8 e8 f g a a a4 a8 a a a f e f g g2 r \bar "|"
+  c8 c d( c) b a g4 \bar "|"
+  a8 a a a b a g f g g r4 r2 \bar "||" 
   
   % 5
-  e8 f g4 g8 f g a a a \bar "|"
-  c8 c a4 a \bar "|" a8 f e f( g) g \bar "||"
+  e8 f g4~ g8 g8 f g a a a4 \bar "|"
+  r4 c8 c a4 a \bar "|" r8 a8 f e f( g) g4 r2 \bar "||" 
   
-  e8( f) g4 g8 e f g a g a \bar "|"
-  a8 g f g a g g \bar "||"
+  % 6
+  \time 3/4 e8( f) g4. g8 \time 6/8 e f g a g a \bar "|"
+  \time 2/4 r4 a8 g \time 6/8 f g a g g4 \time 2/4 r2 \bar "||"
   
-  g4 f8 g f g a( c) c4 \bar "|"
-  c8 d c b( a) g4 g \bar "|"
-  a8 a a a f e d4 d \bar "|" 
-  e8 d e f g( a) a \bar "|"
-  a a a a b a g4 g \bar "|."
+  % doxologie
+  g4. f8 r g f g a( c) c4 \bar "|"
+  r4. c8 d c b( a) g4 g r2 \bar "|"
+  a8 a a a \time 3/4 f e d4 d 
+  \time 2/4 e8 d e f g( a) a4 r2 \bar "|"
+  a8 a a a \time 3/4 b a g4 g \bar "|."
 }
 
 % zalm
