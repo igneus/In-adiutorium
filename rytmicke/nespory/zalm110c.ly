@@ -71,7 +71,10 @@ text = \lyricmode {
 
 akordyB = \chords {
   % 1
-  
+  c2 a:m f g
+  a:m f g s 
+  a:m a4:m g4 g2
+  a2:m g a:m f g s s
 }
 
 
