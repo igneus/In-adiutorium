@@ -1,7 +1,7 @@
 \version "2.16.0"
 
-\include "spolecne/layout.ly"
-\include "spolecne/tiraz.ly"
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
 
 \header {
   title = "Žalm 110,1-5.7"
@@ -68,53 +68,64 @@ text = \lyricmode {
   a na vě -- ky vě -- ků. A -- men.
 }
 
-akordy = \chords {
+
+akordyB = \chords {
   % 1
-  f1 c1 
-  f2 c4 f4 s2
-  c4 f4 c2    c4 f4 c2   f2 c4 f4
-  
   
 }
 
-po = \mark\markup{*}
-ve = \mark\markup{//}
 
-melodie = \relative c' {
+melodieB = \relative c'' {
   \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
   % chci znacky na konci radku, ne na zacatku noveho
   \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
   
-  \key f \major
-  
   % 1
-  r8 f a g a g a bes c4 c r2 |
-  a8( c) bes a g f f r8 \time 2/4 r2
-  \time 4/4 g8 g f a g g8~ g4  g4 f8 a g g r4 c8 c c a g8( f) f4 
-  r1 \bar "||" \break
+  \time 2/4 g4 g8 g a4 a c c b b \bar "|"
+  r4 a f e f8 g g4 r2 \bar "|"
+  a4 a a8 c b g~ g2 \bar "|"
+  a4 a8 c b g4. \bar "|"
+  a4 g f a a8( g) g4~ g2 r \bar "||" 
   
   % 2
-  a8 a g f g4 g8 a~ a4 a r4 bes8 bes bes4 a8 g f( g) g4 r2.
-  f8 f~ f r8 f f g a g f~ \time 2/4 f4 f4 \time 4/4 r1 \bar "||" \break
+  c4 c \time 6/8 d8 c b a g4 \time 2/4 g2 \bar "|"
+  a8 a a4 f8 e f( g) g2 r \bar "|"
+  a8 f4. a8 a b a a g4. g2 r \bar "||" 
+  
+  % 3 
+  r8 e8 f g a g a4 \bar "|" a8 c b a g4 r \bar "|"
+  c4 b \bar "|" r8 a8 b c d4 d r2 \bar "|"
+  e8 d c b c b a b c a g4 g2 r \bar "||" 
+  
+  % 4
+  r8 e8 f g a a a4 a8 a a a f e f g g2 r \bar "|"
+  c8 c d( c) b a g4 \bar "|"
+  a8 a a a b a g f g g r4 r2 \bar "||" 
+  
+  % 5
+  e8 f g4~ g8 g8 f g a a a4 \bar "|"
+  r4 c8 c a4 a \bar "|" r8 a8 f e f( g) g4 r2 \bar "||" 
+  
+  % 6
+  \time 3/4 e8( f) g4. g8 \time 6/8 e f g a g a \bar "|"
+  \time 2/4 r4 a8 g \time 6/8 f g a g g4 \time 2/4 r2 \bar "||"
+  
+  % doxologie
+  g4. f8 r g f g a( c) c4 \bar "|"
+  r4. c8 d c b( a) g4 g r2 \bar "|"
+  a8 a a a \time 3/4 f e d4 d 
+  \time 2/4 e8 d e f g( a) a4 r2 \bar "|"
+  a8 a a a \time 3/4 b a g4 g \bar "|."
 }
 
 % zalm
 \score {
   <<
-    \akordy
-    \melodie
+    \akordyB
+    \melodieB
     \addlyrics { \text }
   >>
   \header{
-    
+    piece = "(modus VIII)"
   }
-}
-
-\markup\justify{
-  * - Konec poloverše. Obvykle se hodí zařadit dvě až čtyři prázdné doby
-  (beze zpěvu, doprovod hraje dál.)
-}
-\markup\justify{
-  dvojitá taktová čára na konci řádku - Konec verše. 
-  i tady se většinou hodí podobná pomlka.
 }
