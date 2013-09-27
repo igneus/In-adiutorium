@@ -13,6 +13,7 @@
 
 \layout {
   ragged-last = ##f
+  
   \context {
     \Score
     \remove Bar_number_engraver
@@ -21,6 +22,10 @@
     \Staff
     \remove Custos_engraver
   }
+}
+
+\paper {
+  ragged-bottom = ##t
 }
 
 text = \lyricmode {
@@ -111,4 +116,69 @@ melodie = \relative c' {
 \markup\justify{
   dvojitá taktová čára na konci řádku - Konec verše. 
   i tady se většinou hodí podobná pomlka.
+}
+
+\pageBreak
+
+% ------------- jina verze
+
+akordyB = \chords {
+  % 1
+  
+}
+
+
+melodieB = \relative c'' {
+  \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
+  % chci znacky na konci radku, ne na zacatku noveho
+  \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
+  
+  \cadenzaOn
+    
+  % 1
+  g4 g8 g a4 a c c b b \bar "|"
+  r4 a f e f8 g g4 r2 \bar "|"
+  a4 a a8 c b g~ g2 \bar "|"
+  a4 a8 c b g4. \bar "|"
+  a4 g f a a8( g) g4 \bar "||"
+  
+  % 2
+  c4 c d8 c b a g4 g2 \bar "|"
+  a8 a a4 f8 e f( g) g4  \bar "|"
+  a8 f4 a8 a b a a g4 g \bar "||"
+  
+  % 3 
+  e8 f g a g a4 \bar "|" a8 c b a g \bar "|"
+  c4 b \bar "|" a8 b c d4 d \bar "|"
+  e8 d c b c b a b c \bar "|" a g4 g \bar "||"
+  
+  % 4
+  e8 f g a a a \bar "|" a a a a f e f g g \bar "|"
+  c8 c d( c) b a g \bar "|"
+  a a a a b a g f g g \bar "||"
+  
+  % 5
+  e8 f g4 g8 f g a a a \bar "|"
+  c8 c a4 a \bar "|" a8 f e f( g) g \bar "||"
+  
+  e8( f) g4 g8 e f g a g a \bar "|"
+  a8 g f g a g g \bar "||"
+  
+  g4 f8 g f g a( c) c4 \bar "|"
+  c8 d c b( a) g4 g \bar "|"
+  a8 a a a f e d4 d \bar "|" 
+  e8 d e f g( a) a \bar "|"
+  a a a a b a g4 g \bar "|."
+}
+
+% zalm
+\score {
+  <<
+    \akordyB
+    \melodieB
+    \addlyrics { \text }
+  >>
+  \header{
+    piece = "(modus VIII)"
+  }
 }
