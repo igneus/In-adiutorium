@@ -99,14 +99,14 @@ akordyB = \chords {
   f1 d2:m g4 s2
   
   % 7
-  c2. c4. a4.:m s2
-  f4. g4. s2
+  c1 s4 a1:m
+  f2. g1
   
   % dox
   g1 a:m 
   f2 g1
   
-  a2:m f4 d2:m c2 a1:m
+  a2:m f4 d2.:m c2 a1:m
   f2 c g
 }
 
@@ -145,15 +145,15 @@ melodieB = \relative c'' {
   r2 r4 c8 c a4 a r8 a8 f e f( g) g4 r2 \bar "||" 
   
   % 7
-  \time 3/4 e8( f) g4. g8 \time 6/8 e f g a g a \bar "|"
-  \time 2/4 r4 a8 g \time 6/8 f g a g g4 \time 2/4 r2 \bar "||"
+  e8( f) g4~ g g8 e f g a g a4 r \bar "|"
+  r4 a8 g f4 g8 a g g r4 r2 \bar "||"
   
   % doxologie
   g4 g r8 g f g a( c) c4 \bar "|"
   r4. c8 d c b( a) g4 g r2 \bar "||"
   
-  a8 a a a \time 3/4 f e d4 d 
-  \time 2/4 e8 d e f g( a) a4 r2 \bar "|"
+  a8 a a a f e d4 d r 
+  e8 d e f g( a) a4 r2 \bar "|"
   a8 a a b c( a g) f g4 g \bar "|."
 }
 
