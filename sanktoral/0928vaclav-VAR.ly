@@ -204,9 +204,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a e f) g \barMaior a( b) g a c b \barMin a( g f) e d( g) g \barMaior
     a e( f g) a( c b g) a( g) \barMaior
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, Krá -- li krá -- lů;
+    on o -- věn -- čil 
+    sva -- té -- ho Vác -- la -- va
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a e f) g \barMaior a( b) g a c b \barMin a( g f) e d( g) g \barMaior
+    \mark\sipka g e( f g) a( c b g) a( g) \barMaior
     a a a a( b) g g a( g f) d e e \barFinalis
   }
   \addlyrics {
