@@ -34,33 +34,33 @@
 }
 
 text = \lyricmode {
-  % 1
+  \set stanza = #"1"
   Hos -- po -- din ře -- kl mé -- mu Pá -- nu:_+
   Seď po mé pra -- vi -- ci,_*
   do -- kud ne -- po -- lo -- žím tvé ne -- přá -- te -- le 
   za pod -- nož tvým no -- hám.
 
-  % 2
+  \set stanza = #"2"
   Žez -- lo mo -- ci ti po -- dá -- vá 
   Hos -- po -- din ze Si -- ó -- nu:_*
   Pa -- nuj u -- pro -- střed svých ne -- přá -- tel! 
   
-  % 3
+  \set stanza = #"3"
   O -- de dne zro -- ze -- ní je ti ur -- če -- no 
   vlád -- nout v_po -- svát -- ném les -- ku:_*
   zplo -- dil jsem tě ja -- ko ro -- su před jit -- řen -- kou.
   
-  % 4
+  \set stanza = #"4"
   Hos -- po -- din pří -- sa -- hal 
   a ne -- bu -- de to -- ho li -- to -- vat:_*
   Ty jsi kněz na -- vě -- ky 
   po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va!
   
-  % 5
+  \set stanza = #"5"
   Hos -- po -- din je po tvé pra -- vi -- ci,_*
   po -- tře krá -- le v_den své -- ho hně -- vu. 
   
-  % 6
+  \set stanza = #"7"
   Ces -- tou se na -- pi -- je z_po -- to -- ka,_*
   pro -- to po -- vzne -- se hla -- vu.
   
@@ -81,7 +81,33 @@ akordyB = \chords {
   a1:m g1 a2:m f g s s
   
   % 2
-  c2 g a:m g2 a:m f g s
+  c2 g a:m g2 a:m f g1
+  f1 g s2
+  
+  % 3
+  c2 a1:m g2
+  c4 g a:m g8 c g1
+  c2 a:m c4 g4 s1 
+  
+  % 4
+  c2 a1:m f2 g1
+  c2. f4 g c2.
+  s4 a2.:m g4 c g1
+  
+  % 5
+  c1 a:m s4
+  f1 d2:m g4 s2
+  
+  % 7
+  c2. c4. a4.:m s2
+  f4. g4. s2
+  
+  % dox
+  g1 a:m 
+  f2 g1
+  
+  a2:m f4 d2:m c2 a1:m
+  f2 c g
 }
 
 
@@ -111,23 +137,24 @@ melodieB = \relative c'' {
   
   % 4
   r8 e8 f g a a a4 a8 a a a f e f g g2 r \bar "|"
-  c8 c d( c) b a g4 \bar "|"
-  a8 a a a b a g f g g r4 r2 \bar "||" 
+  c4 c r d8( c) b a g4 r2 \bar "|"
+  r4 a8 a a4. a8 b a g f g g r4 r2 \bar "||" 
   
   % 5
   e8 f g4~ g8 g8 f g a a a4 \bar "|"
-  r2 c8 c a4 a r8 a8 f e f( g) g2 r2 \bar "||" 
+  r2 r4 c8 c a4 a r8 a8 f e f( g) g4 r2 \bar "||" 
   
-  % 6
+  % 7
   \time 3/4 e8( f) g4. g8 \time 6/8 e f g a g a \bar "|"
   \time 2/4 r4 a8 g \time 6/8 f g a g g4 \time 2/4 r2 \bar "||"
   
   % doxologie
-  g4. f8 r g f g a( c) c4 \bar "|"
-  r4. c8 d c b( a) g4 g r2 \bar "|"
+  g4 g r8 g f g a( c) c4 \bar "|"
+  r4. c8 d c b( a) g4 g r2 \bar "||"
+  
   a8 a a a \time 3/4 f e d4 d 
   \time 2/4 e8 d e f g( a) a4 r2 \bar "|"
-  a8 a a a \time 3/4 b a g4 g \bar "|."
+  a8 a a b c( a g) f g4 g \bar "|."
 }
 
 % zalm
