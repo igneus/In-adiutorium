@@ -10,6 +10,10 @@
            \line{"T: český liturgický překlad Bible a"}
            \line{"Denní modlitba církve"}
   }
+  dedication = \markup{
+    Tomu, jenž na Přemyslově stolci %/
+    napodoboval pokoru nebeského Krále
+  }
 }
 
 \layout {
@@ -72,9 +76,12 @@ text = \lyricmode {
 akordyB = \chords {
   % 1
   c2 a:m f g
-  a:m f g s 
-  a:m a4:m g4 g2
-  a2:m g a:m f g s s
+  a:m f g1
+  a2:m s g1
+  a1:m g1 a2:m f g s s
+  
+  % 2
+  c2 g a:m g2 a:m f g s
 }
 
 
@@ -83,15 +90,17 @@ melodieB = \relative c'' {
   % chci znacky na konci radku, ne na zacatku noveho
   \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
   
+  \key g \mixolydian
+  
   % 1
   \time 2/4 g4 g8 g a4 a c c b b \bar "|"
   r4 a f e f8 g g4 r2 \bar "|"
-  a4 a a8 c b g~ g2 \bar "|"
-  a4 a8 c b g4. \bar "|"
+  a4 a r4 a8 c b g4.~ g2 \bar "|"
+  a2~ a4 a8 c b g4. r2 \bar "|"
   a4 g f a a8( g) g4~ g2 r \bar "||" 
   
   % 2
-  c4 c \time 6/8 d8 c b a g4 \time 2/4 g2 \bar "|"
+  c4 c d8 c4 b8 a g4. g2 \bar "|"
   a8 a a4 f8 e f( g) g2 r \bar "|"
   a8 f4. a8 a b a a g4. g2 r \bar "||" 
   
@@ -107,7 +116,7 @@ melodieB = \relative c'' {
   
   % 5
   e8 f g4~ g8 g8 f g a a a4 \bar "|"
-  r4 c8 c a4 a \bar "|" r8 a8 f e f( g) g4 r2 \bar "||" 
+  r2 c8 c a4 a r8 a8 f e f( g) g2 r2 \bar "||" 
   
   % 6
   \time 3/4 e8( f) g4. g8 \time 6/8 e f g a g a \bar "|"
