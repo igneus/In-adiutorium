@@ -35,7 +35,7 @@
 
 text = \lyricmode {
   \set stanza = #"1"
-  Hos -- po -- din ře -- kl mé -- mu Pá -- nu:_+
+  Hos -- po -- din ře -- kl mé -- mu Pá -- nu:_†
   Seď po mé pra -- vi -- ci,_*
   do -- kud ne -- po -- lo -- žím tvé ne -- přá -- te -- le 
   za pod -- nož tvým no -- hám.
@@ -128,7 +128,7 @@ melodieB = \relative c'' {
   % 2
   c4 c d8 c4 b8 a g4. g2 \bar "|"
   a8 a a4 f8 e f( g) g2 r \bar "|"
-  a8 f4. a8 a b a a g4. g2 r \bar "||" 
+  a8 a4. a8 a b a a g4. g2 r \bar "||" 
   
   % 3 
   r8 e8 f g a g a4 \bar "|" a8 c b a g4 r \bar "|"
@@ -160,11 +160,20 @@ melodieB = \relative c'' {
 % zalm
 \score {
   <<
-    \akordyB
-    \melodieB
+    % takhle se da snadno transponovat - treba g->d pro me
+    %\transpose g' d' {
+      \akordyB 
+    %}
+    %\transpose g' d' {
+      \melodieB
+    %}
     \addlyrics { \text }
   >>
   \header{
     piece = "(modus VIII)"
   }
+}
+
+\markup{
+  Pomlku v polovině a na konci verše podle libosti prodloužit.
 }
