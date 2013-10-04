@@ -470,22 +470,20 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"27. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a \barMin g a f d e d \barFinalis
   }
   \addlyrics {
     Pa -- ne, dej nám ví -- ce ví -- ry!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne27c-ne1-mag"
@@ -494,21 +492,27 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a b a g( a) a( g) \barMin
+    f g a g g g( a) a \barMaior
+    a a( b) a g( a) g f e e \barMaior
+    d( e f) e e g f e e \barMin
+    f f( a) g f e e e \barMaior
+    f f d f e \barFinalis
   }
   \addlyrics {
     Kdy -- by -- ste mě -- li ví -- ru
     ja -- ko hoř -- čič -- né zrn -- ko
     a řek -- li té -- to mo -- ru -- ši:
-    »Vy -- rvi se i s_ko -- ře -- ny a pře -- saď se do mo -- ře!«,
+    »Vy -- rvi se i s_ko -- ře -- ny 
+    a pře -- saď se do mo -- ře!«,
     po -- slech -- la by vás.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne27c-rch-ben"
@@ -519,7 +523,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 e f g f d c \barMaior
+    d d c d d \barMin
+    d d c d f f e d( e) d d \barFinalis
   }
   \addlyrics {
     Jsme je -- nom slu -- žeb -- ní -- ci.
@@ -528,14 +534,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne27c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"28. neděle"}}
 
