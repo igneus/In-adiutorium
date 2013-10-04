@@ -543,22 +543,21 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"28. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c a d( c b c) c( b) \barMin
+    a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne28c-ne1-mag"
@@ -569,7 +568,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f d) d c d e d \barMin
+    e d e( f) d c d d \barMaior
+    g f g a( f d) d \barMin 
+    c f e d d \barFinalis
   }
   \addlyrics {
     Je -- den z_ma -- lo -- moc -- ných,
@@ -578,8 +580,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne28c-rch-ben"
@@ -590,7 +592,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) e f( g f) \barMin
+    f e( d) d d e c d d \barFinalis
   }
   \addlyrics {
     Vstaň a jdi! 
@@ -598,14 +601,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne28c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"29. neděle"}}
 
