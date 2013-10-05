@@ -31,6 +31,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    id = "rch-a1"
     piece = \markup\sestavTitulek
   }
 }
@@ -54,7 +55,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup\sestavTitulek
   }
 }
@@ -81,7 +82,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup\sestavTitulek
   }
 }
@@ -115,6 +116,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
 }
@@ -139,8 +141,8 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g" 
-    psalmus = ""
-    id = ""
+    psalmus = "Benedictus"
+    id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -162,7 +164,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup\sestavTitulek
   }
 }
@@ -184,7 +186,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup\sestavTitulek
   }
 }
@@ -207,7 +209,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup\sestavTitulek
   }
 }
@@ -229,10 +231,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
+    quidbreve = "ant."
     modus = "VII"
     differentia = "c" 
-    psalmus = ""
-    id = ""
+    psalmus = "Magnificat"
+    id = "ne-amag"
     piece = \markup\sestavTitulekBezZalmu
   }
 }

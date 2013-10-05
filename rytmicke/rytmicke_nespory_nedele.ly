@@ -98,10 +98,6 @@ rytmusVolny = {
     subtitle = "1. žalm"
   }
   
-  \score{ \zalmCXscore }
-  
-  \score{ \zalmCXscoreB }
-  
   
 }
 

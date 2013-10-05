@@ -103,6 +103,8 @@ Liturgické mezidobí
   Ježíše Krista Krále (slavnost)
     1. nešpory
       113, 117, zj4
+    modlitba se čtením
+      2, 72i, 72ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -111,6 +113,8 @@ Liturgické mezidobí
   Nejsvětější Trojice (slavnost)
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      8, 33ci, 33cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -119,6 +123,8 @@ Liturgické mezidobí
   Těla a Krve Páně (slavnost)
     1. nešpory
       111, 147ii, zj11
+    modlitba se čtením
+      23, 42, 81
     ranní chvály
       rchne1t
     2. nešpory
@@ -127,6 +133,8 @@ Liturgické mezidobí
   Nejsvětějšího Srdce Ježíšova (slavnost)
     1. nešpory
       113, 146, zj4
+    modlitba se čtením
+      36, 61, 98
     ranní chvály
       rchne1t
     2. nešpory
@@ -138,6 +146,8 @@ Sanktorál
   Uvedení Páně do chrámu (svátek, 2.2.)
     1. nešpory
       113, 147ii, fp2
+    modlitba se čtením
+      2, 19a, 45i (+) 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -146,6 +156,8 @@ Sanktorál
   Zvěstování Páně (slavnost, 25.3.)
     1. nešpory
       113, 147ii, fp2
+    modlitba se čtením
+      2, 19a, 45i (+) 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -154,6 +166,8 @@ Sanktorál
   Proměnění Páně (svátek, 6.8.)
     1. nešpory
       113, 117, zj19
+    modlitba se čtením
+      84, 97, 99
     ranní chvály
       rchne1t
     2. nešpory
@@ -162,12 +176,16 @@ Sanktorál
   Povýšení svatého kříže (svátek, 14.9.)
     1. nešpory
       147i, 147ii, fp2
+    modlitba se čtením
+      2, 8, 96
     ranní chvály
       rchne1t
     2. nešpory
       110, 116ii, zj4
       
   sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
+    modlitba se čtením
+      97, 103ci, 103cii
     ranní chvály
       rchne1t
     nešpory
@@ -182,6 +200,8 @@ Sanktorál
   Všech svatých (slavnost, 1.11.)
     1. nešpory
       113, 147ii, zj19
+    modlitba se čtením
+      8, 15, 16
     ranní chvály
       rchne1t
     2. nešpory
@@ -193,6 +213,8 @@ Společné texty
   O posvěcení kostela
     1. nešpory
       147i, 147ii, zj19 (nebo v době postní) kol1
+    modlitba se čtením
+      24, 84, 87
     ranní chvály
       rchne1t
     2. nešpory
@@ -201,6 +223,8 @@ Společné texty
   O Panně Marii
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      24, 46, 87
     ranní chvály
       rchne1t
     2. nešpory
@@ -209,6 +233,8 @@ Společné texty
   O apoštolech
     1. nešpory
       117, 147ii, ef1
+    modlitba se čtením
+      19a, 64, 97
     ranní chvály
       rchne1t
     2. nešpory
@@ -217,6 +243,8 @@ Společné texty
   O více mučednících
     1. nešpory
       118i, 118ii, 1petr2
+    modlitba se čtením
+      2, 33ci, 33cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -225,6 +253,8 @@ Společné texty
   O jednom mučedníkovi nebo o jedné mučednici
     1. nešpory
       118i (+) 118ii, 118iii, 1petr2
+    modlitba se čtením
+      2, 11, 17i (+) 17ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -233,6 +263,8 @@ Společné texty
   O duchovních pastýřích
     1. nešpory
       113, 146, ef1
+    modlitba se čtením
+      21, 92ci, 92cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -241,6 +273,8 @@ Společné texty
   O pannách
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      19a, 45i, 45ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -249,6 +283,8 @@ Společné texty
   O svatých mužích
     1. nešpory
       113, 146, ef1
+    modlitba se čtením
+      21, 92ci, 92cii
     ranní chvály
       rchne1t
     2. nešpory
@@ -257,12 +293,16 @@ Společné texty
   O svatých ženách
     1. nešpory
       113, 147ii, ef1
+    modlitba se čtením
+      19a, 45i, 45ii
     ranní chvály
       rchne1t
     2. nešpory
       122, 127, ef1
       
   Za zemřelé
+    modlitba se čtením
+      40i, 40ii, 42
     ranní chvály
       51, iz38, 146 (nebo) 150
     modlitba uprostřed dne

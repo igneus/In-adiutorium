@@ -67,14 +67,23 @@
   nahradí se zde žalmem 95, str. \pageref{zalm95}.}
 }
 
+\newcommand{\rubrikaZalmyvMezidobi}{
+V liturgickém mezidobí se zpívají
+následující žalmy. V době adventní, vánoční,
+postní a velikonoční pak % text se vzdy doplni
+}
+\newcommand{\rubrikaZalmyveZvlastnichDobach}{
+V době adventní, vánoční, postní a velikonoční:
+}
+
 \newcommand{\zalmRef}[1]{
-  \mbox{Žalm #1, str. \pageref{z#1}}}
+  Žalm~#1, str.~\pageref{z#1}}
 
 \newcommand{\textRef}[2]{
-  \mbox{#2, str. \pageref{#1}}}
+  #2, str.~\pageref{#1}}
 
 \newcommand{\laudyNedelePrvnihoTydne}{
-  \mbox{Žalmy nedělní z 1. týdne, str. \pageref{zalmyne1trch}}}
+  Žalmy nedělní z 1. týdne, str.~\pageref{zalmyne1trch}}
 
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}
@@ -160,6 +169,7 @@ dá použít vždy.}}
 
 {\footnotesize \noindent \textit{(středa 2. týdne, úterý 3. týdne)}}
 
+\label{z24}
 \input{generovane/zaltar/zalm24.tex}
 
 {\footnotesize \noindent \textit{(úterý 1. týdne, neděle 4. týdne)}}
@@ -186,6 +196,16 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm142.tex}
 \label{kantfp2}
 \input{generovane/zaltar/kantikum_fp2.tex}
+\end{hora}
+
+\modlitbaSeCtenim
+\begin{hora}
+\label{z1}
+\input{generovane/zaltar/zalm1.tex}
+\label{z2}
+\input{generovane/zaltar/zalm2.tex}
+\label{z3}
+\input{generovane/zaltar/zalm3.tex}
 \end{hora}
 
 \ranniChvaly
@@ -226,15 +246,19 @@ dá použít vždy.}}
 
 \nadpisDen{Pondělí}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm6.tex}
+\input{generovane/zaltar/zalm9i.tex}
+\input{generovane/zaltar/zalm9ii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm5.tex}
 \input{generovane/zaltar/kantikum_1kron29.tex}
-\columnbreak % ZLOM1
 \input{generovane/zaltar/zalm29.tex}
 \end{hora}
-
-\pagebreak % ZLOM1
 
 \modlitbaUprostredDne
 \begin{hora}
@@ -246,6 +270,7 @@ dá použít vždy.}}
 
 \nespory
 \begin{hora}
+\label{z11}
 \input{generovane/zaltar/zalm11.tex}
 \label{z15}
 \input{generovane/zaltar/zalm15.tex}
@@ -255,11 +280,17 @@ dá použít vždy.}}
 
 \nadpisDen{Úterý}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm10i.tex}
+\input{generovane/zaltar/zalm10ii.tex}
+\input{generovane/zaltar/zalm12.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \rubrikaZalmBylvInvitatoriu
 \input{generovane/zaltar/zalm24.tex}
-\pagebreak % ZLOM1
 \input{generovane/zaltar/kantikum_tob13i.tex}
 \input{generovane/zaltar/zalm33.tex}
 \end{hora}
@@ -275,6 +306,7 @@ dá použít vždy.}}
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm20.tex}
+\label{z21}
 \input{generovane/zaltar/zalm21.tex}
 \label{kantzj4}
 \input{generovane/zaltar/kantikum_zj4.tex}
@@ -282,8 +314,16 @@ dá použít vždy.}}
 
 \nadpisDen{Středa}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm18i.tex}
+\input{generovane/zaltar/zalm18ii.tex}
+\input{generovane/zaltar/zalm18iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
+\label{z36}
 \input{generovane/zaltar/zalm36.tex}
 \input{generovane/zaltar/kantikum_jdt16.tex}
 \label{z47}
@@ -294,11 +334,12 @@ dá použít vždy.}}
 \begin{hora}
 \label{z119beth}
 \input{generovane/zaltar/zalm119beth.tex}
+\label{z17i}
 \input{generovane/zaltar/zalm17i.tex}
+\label{z17ii}
 \input{generovane/zaltar/zalm17ii.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 
 \nespory
 \begin{hora}
@@ -306,19 +347,23 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm27i.tex}
 \label{z27ii}
 \input{generovane/zaltar/zalm27ii.tex}
-% \columnbreak % ZLOM2
 \label{kantkol1}
 \input{generovane/zaltar/kantikum_kol1.tex}
 \end{hora}
 
-% \pagebreak % ZLOM2
 \nadpisDen{Čtvrtek}
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm18iv.tex}
+\input{generovane/zaltar/zalm18v.tex}
+\input{generovane/zaltar/zalm18vi.tex}
+\end{hora}
 
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm57.tex}
 \input{generovane/zaltar/kantikum_jer31.tex}
-% \pagebreak % ZLOM2
 \label{z48}
 \input{generovane/zaltar/zalm48.tex}
 \end{hora}
@@ -337,13 +382,19 @@ dá použít vždy.}}
 \label{z30}
 \input{generovane/zaltar/zalm30.tex}
 \input{generovane/zaltar/zalm32.tex}
-% \pagebreak % ZLOM2
 \label{kantzj11}
 \input{generovane/zaltar/kantikum_zj11.tex}
 \end{hora}
 
 
 \nadpisDen{Pátek}
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm35i.tex}
+\input{generovane/zaltar/zalm35ii.tex}
+\input{generovane/zaltar/zalm35iii.tex}
+\end{hora}
 
 \ranniChvaly
 \begin{hora}
@@ -364,20 +415,37 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm28.tex}
 \end{hora}
 
-
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm41.tex}
-% \pagebreak % ZLOM2
 \label{z46}
 \input{generovane/zaltar/zalm46.tex}
 \label{kantzj15}
 \input{generovane/zaltar/kantikum_zj15.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 
 \nadpisDen{Sobota}
+
+\modlitbaSeCtenim
+\begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 105, str. \pageref{AdvVanSoTI}.}
+
+\input{generovane/zaltar/zalm131.tex}
+\input{generovane/zaltar/zalm132i.tex}
+\input{generovane/zaltar/zalm132ii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTI}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm105i.tex}
+\input{generovane/zaltar/zalm105ii.tex}
+\input{generovane/zaltar/zalm105iii.tex}
+
+\end{hora}
 
 \ranniChvaly
 \begin{hora}
@@ -393,7 +461,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm119he.tex}
 \label{z34i}
 \input{generovane/zaltar/zalm34i.tex}
-\pagebreak % ZLOM1
 \label{z34ii}
 \input{generovane/zaltar/zalm34ii.tex}
 \end{hora}
@@ -411,6 +478,13 @@ dá použít vždy.}}
 \input{generovane/zaltar/kantikum_fp2.tex}
 \end{hora}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm104i.tex}
+\input{generovane/zaltar/zalm104ii.tex}
+\input{generovane/zaltar/zalm104iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm118.tex}
@@ -418,8 +492,6 @@ dá použít vždy.}}
 \label{z150}
 \input{generovane/zaltar/zalm150.tex}
 \end{hora}
-
-\pagebreak % ZLOM1
 
 \modlitbaUprostredDne
 \begin{hora}
@@ -447,8 +519,16 @@ dá použít vždy.}}
 
 \nadpisDen{Pondělí}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm31i.tex}
+\input{generovane/zaltar/zalm31ii.tex}
+\input{generovane/zaltar/zalm31iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
+\label{z42}
 \input{generovane/zaltar/zalm42.tex}
 \input{generovane/zaltar/kantikum_sir36.tex}
 \label{z19a}
@@ -466,12 +546,21 @@ dá použít vždy.}}
 
 \nespory
 \begin{hora}
+\label{z45i}
 \input{generovane/zaltar/zalm45i.tex}
+\label{z45ii}
 \input{generovane/zaltar/zalm45ii.tex}
 \input{generovane/zaltar/kantikum_ef1.tex}
 \end{hora}
 
 \nadpisDen{Úterý}
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm37i.tex}
+\input{generovane/zaltar/zalm37ii.tex}
+\input{generovane/zaltar/zalm37iii.tex}
+\end{hora}
 
 \ranniChvaly
 \begin{hora}
@@ -481,7 +570,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm65.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \modlitbaUprostredDne
 \begin{hora}
 \input{generovane/zaltar/zalm119zajin.tex}
@@ -490,7 +578,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm54.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm49i.tex}
@@ -500,10 +587,18 @@ dá použít vždy.}}
 
 \nadpisDen{Středa}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm39i.tex}
+\input{generovane/zaltar/zalm39ii.tex}
+\input{generovane/zaltar/zalm52.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm77.tex}
 \input{generovane/zaltar/kantikum_1sam2.tex}
+\label{z97}
 \input{generovane/zaltar/zalm97.tex}
 \end{hora}
 
@@ -523,13 +618,20 @@ dá použít vždy.}}
 \input{generovane/zaltar/kantikum_kol1.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nadpisDen{Čtvrtek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm44i.tex}
+\input{generovane/zaltar/zalm44ii.tex}
+\input{generovane/zaltar/zalm44iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm80.tex}
 \input{generovane/zaltar/kantikum_iz12.tex}
+\label{z81}
 \input{generovane/zaltar/zalm81.tex}
 \end{hora}
 
@@ -542,19 +644,27 @@ dá použít vždy.}}
 
 \nespory
 \begin{hora}
+\label{z72i}
 \input{generovane/zaltar/zalm72i.tex}
+\label{z72ii}
 \input{generovane/zaltar/zalm72ii.tex}
 \input{generovane/zaltar/kantikum_zj11.tex}
 \end{hora}
 
 \nadpisDen{Pátek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm38i.tex}
+\input{generovane/zaltar/zalm38ii.tex}
+\input{generovane/zaltar/zalm38iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm51.tex}
 \label{kanthab3}
 \input{generovane/zaltar/kantikum_hab3.tex}
-\pagebreak % ZLOM1
 \input{generovane/zaltar/zalm147ii.tex}
 \end{hora}
 
@@ -574,7 +684,27 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Sobota}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 106, str. \pageref{AdvVanSoTII}.}
+
+\input{generovane/zaltar/zalm136i.tex}
+\input{generovane/zaltar/zalm136cii.tex}
+\input{generovane/zaltar/zalm136ciii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTII}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm106i.tex}
+\input{generovane/zaltar/zalm106ii.tex}
+\input{generovane/zaltar/zalm106iii.tex}
+
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm92.tex}
@@ -586,9 +716,8 @@ dá použít vždy.}}
 \modlitbaUprostredDne
 \begin{hora}
 \input{generovane/zaltar/zalm119kaf.tex}
-\columnbreak % ZLOM1
+\label{z61}
 \input{generovane/zaltar/zalm61.tex}
-\pagebreak % ZLOM1
 \label{z64}
 \input{generovane/zaltar/zalm64.tex}
 \end{hora}
@@ -607,6 +736,13 @@ dá použít vždy.}}
 \input{generovane/zaltar/kantikum_fp2.tex}
 \end{hora}
 
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm145ci.tex}
+\input{generovane/zaltar/zalm145cii.tex}
+\input{generovane/zaltar/zalm145ciii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm93.tex}
@@ -621,7 +757,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm118iii.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nesporyII
 \begin{hora}
 \input{generovane/zaltar/zalm110.tex}
@@ -638,11 +773,20 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Pondělí}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm50i.tex}
+\input{generovane/zaltar/zalm50ii.tex}
+\input{generovane/zaltar/zalm50iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
+\label{z84}
 \input{generovane/zaltar/zalm84.tex}
 \input{generovane/zaltar/kantikum_iz2.tex}
+\label{z96}
 \input{generovane/zaltar/zalm96.tex}
 \end{hora}
 
@@ -661,7 +805,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Úterý}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm68i.tex}
+\input{generovane/zaltar/zalm68ii.tex}
+\input{generovane/zaltar/zalm68iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \label{z85}
@@ -687,7 +838,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Středa}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm89i.tex}
+\input{generovane/zaltar/zalm89ii.tex}
+\input{generovane/zaltar/zalm89iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \label{z86}
@@ -700,7 +858,6 @@ dá použít vždy.}}
 \modlitbaUprostredDne
 \begin{hora}
 \input{generovane/zaltar/zalm119nun.tex}
-\pagebreak % ZLOM1
 \label{z70}
 \input{generovane/zaltar/zalm70.tex}
 \input{generovane/zaltar/zalm75.tex}
@@ -714,25 +871,31 @@ dá použít vždy.}}
 \end{hora}
 
 
-\pagebreak % ZLOM1
 \nadpisDen{Čtvrtek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm89iv.tex}
+\input{generovane/zaltar/zalm89v.tex}
+\input{generovane/zaltar/zalm90.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
+\label{z87}
 \input{generovane/zaltar/zalm87.tex}
 \input{generovane/zaltar/kantikum_iz40.tex}
+\label{z99}
 \input{generovane/zaltar/zalm99.tex}
 \end{hora}
 
 \modlitbaUprostredDne
 \begin{hora}
 \input{generovane/zaltar/zalm119samech.tex}
-\columnbreak % ZLOM1
 \input{generovane/zaltar/zalm79.tex}
 \input{generovane/zaltar/zalm80.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm132i.tex}
@@ -741,7 +904,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Pátek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm69i.tex}
+\input{generovane/zaltar/zalm69ii.tex}
+\input{generovane/zaltar/zalm69iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm51.tex}
@@ -768,7 +938,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Sobota}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm107i.tex}
+\input{generovane/zaltar/zalm107ii.tex}
+\input{generovane/zaltar/zalm107iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm119kof.tex}
@@ -794,6 +971,13 @@ dá použít vždy.}}
 \label{z130}
 \input{generovane/zaltar/zalm130.tex}
 \input{generovane/zaltar/kantikum_fp2.tex}
+\end{hora}
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm24.tex}
+\input{generovane/zaltar/zalm66i.tex}
+\input{generovane/zaltar/zalm66ii.tex}
 \end{hora}
 
 \ranniChvaly
@@ -827,6 +1011,13 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Pondělí}
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm73i.tex}
+\input{generovane/zaltar/zalm73ii.tex}
+\input{generovane/zaltar/zalm73iii.tex}
+\end{hora}
   
 \ranniChvaly
 \begin{hora}
@@ -842,7 +1033,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm120.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm136i.tex}
@@ -851,7 +1041,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Úterý}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm102i.tex}
+\input{generovane/zaltar/zalm102ii.tex}
+\input{generovane/zaltar/zalm102iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm101.tex}
@@ -859,7 +1056,6 @@ dá použít vždy.}}
 \input{generovane/zaltar/zalm144.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \modlitbaUprostredDne
 \begin{hora}
 \input{generovane/zaltar/zalm119sade.tex}
@@ -878,7 +1074,14 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Středa}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm103i.tex}
+\input{generovane/zaltar/zalm103ii.tex}
+\input{generovane/zaltar/zalm103iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm108.tex}
@@ -897,13 +1100,19 @@ dá použít vždy.}}
 \nespory
 \begin{hora}
 \input{generovane/zaltar/zalm139i.tex}
-\columnbreak % ZLOM1
 \input{generovane/zaltar/zalm139ii.tex}
 \input{generovane/zaltar/kantikum_kol1.tex}
 \end{hora}
 
 \nadpisDen{Čtvrtek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+\input{generovane/zaltar/zalm44i.tex}
+\input{generovane/zaltar/zalm44ii.tex}
+\input{generovane/zaltar/zalm44iii.tex}
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \label{z143}
@@ -928,7 +1137,28 @@ dá použít vždy.}}
 \end{hora}
 
 \nadpisDen{Pátek}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+str. \pageref{AdvVanPaTIV}.}
+
+\input{generovane/zaltar/zalm55ci.tex}
+\input{generovane/zaltar/zalm55cii.tex}
+\input{generovane/zaltar/zalm55ciii.tex}
+
+\oddelovac
+
+\label{AdvVanPaTIV}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm78i.tex}
+\input{generovane/zaltar/zalm78ii.tex}
+\input{generovane/zaltar/zalm78iii.tex}
+
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm51.tex}
@@ -952,14 +1182,33 @@ dá použít vždy.}}
 \input{generovane/zaltar/kantikum_zj15.tex}
 \end{hora}
 
-\pagebreak % ZLOM1
 \nadpisDen{Sobota}
-  
+
+\modlitbaSeCtenim
+\begin{hora}
+
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+str. \pageref{AdvVanSoTIV}.}
+
+\input{generovane/zaltar/zalm50i.tex}
+\input{generovane/zaltar/zalm50ii.tex}
+\input{generovane/zaltar/zalm50iii.tex}
+
+\oddelovac
+
+\label{AdvVanSoTIV}
+\rubrika{\rubrikaZalmyveZvlastnichDobach}
+
+\input{generovane/zaltar/zalm78iv.tex}
+\input{generovane/zaltar/zalm78v.tex}
+\input{generovane/zaltar/zalm78vi.tex}
+
+\end{hora}
+
 \ranniChvaly
 \begin{hora}
 \input{generovane/zaltar/zalm92.tex}
 \input{generovane/zaltar/kantikum_ez36.tex}
-\pagebreak % ZLOM1
 \input{generovane/zaltar/zalm8.tex}
 \end{hora}
 
@@ -967,7 +1216,6 @@ dá použít vždy.}}
 \begin{hora}
 \input{generovane/zaltar/zalm119tau.tex}
 \input{generovane/zaltar/zalm45i.tex}
-% \columnbreak % ZLOM2
 \input{generovane/zaltar/zalm45ii.tex}
 \end{hora}
 
@@ -1004,7 +1252,8 @@ dá použít vždy.}}
 \nadpisTyden{Sváteční žalmy}{Sváteční žalmy}
 \fancyhead[CE,CO]{Sváteční žalmy}
 
-\rubrika{Následující žalmy a kantika se nevyskytují v cyklu žaltáře
+\rubrika{Následující žalmy a kantika se nevyskytují 
+(ať vůbec, ať takto rozdělené) v cyklu žaltáře
 a používají se pouze o některých slavnostech a svátcích.}
 
 \begin{hora}
@@ -1012,12 +1261,24 @@ a používají se pouze o některých slavnostech a svátcích.}
 \input{generovane/zaltar/zalm30i.tex}
 \label{z30ii}
 \input{generovane/zaltar/zalm30ii.tex}
+\label{z33ci}
+\input{generovane/zaltar/zalm33ci.tex}
+\label{z33cii}
+\input{generovane/zaltar/zalm33cii.tex}
 \label{z86i}
 \input{generovane/zaltar/zalm86i.tex}
+\label{z92ci}
+\input{generovane/zaltar/zalm92ci.tex}
+\label{z92cii}
+\input{generovane/zaltar/zalm92cii.tex}
 \label{z96i}
 \input{generovane/zaltar/zalm96i.tex}
 \label{z96ii}
 \input{generovane/zaltar/zalm96ii.tex}
+\label{z103ci}
+\input{generovane/zaltar/zalm103ci.tex}
+\label{z103cii}
+\input{generovane/zaltar/zalm103cii.tex}
 \label{kant1tim3}
 \input{kantikum_1tim3.tex}
 

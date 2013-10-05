@@ -182,6 +182,7 @@ tIctvrtekAntMagnificat = \score {
     differentia = "A" 
     psalmus = ""
     id = "t1-ct-mag"
+    placet = "r - zvlášť divné je odpřízvučení slova _sesadil_"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -225,6 +226,7 @@ tIpatekAntMagnificat = \score {
     differentia = "F" 
     psalmus = ""
     id = "t1-pa-mag"
+    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -293,6 +295,7 @@ tIIpondeliAntMagnificat = \score {
     differentia = "E" 
     psalmus = ""
     id = "t2-po-mag"
+    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -384,6 +387,7 @@ tIIstredaAntMagnificat = \score {
     modus = "III"
     differentia = "a" 
     psalmus = ""
+    placet = "~"
     id = "t2-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -407,6 +411,7 @@ tIIctvrtekAntBenedictus = \score {
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
+    placet = "~"
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

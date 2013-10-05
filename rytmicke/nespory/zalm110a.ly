@@ -1,6 +1,7 @@
 \version "2.16.0"
 
-\include "spolecne/tiraz.ly"
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
 
 \header {
   title = "Žalm 110,1-5.7"
@@ -13,6 +14,7 @@
 
 \layout {
   ragged-last = ##f
+  
   \context {
     \Score
     \remove Bar_number_engraver
@@ -21,6 +23,10 @@
     \Staff
     \remove Custos_engraver
   }
+}
+
+\paper {
+  ragged-bottom = ##t
 }
 
 text = \lyricmode {

@@ -46,7 +46,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response
@@ -125,7 +125,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g a g( f d) f g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
@@ -157,7 +157,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
@@ -189,7 +189,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
@@ -223,7 +223,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
@@ -254,7 +254,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g4 f d f g g( f) f \barFinalis      
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
@@ -287,7 +287,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
@@ -318,7 +318,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( a) g( f d) d f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Tvůj zá -- kon, Hos -- po -- di -- ne, je do -- ko -- na -- lý,_* tvé slo -- vo tr -- vá na -- vě -- ky.
@@ -351,7 +351,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g a g( f) d f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
@@ -382,7 +382,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g f g( a) g \barMin g g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Na te -- be spo -- lé -- hám, Hos -- po -- di -- ne,_* vy -- svo -- boď mě a smi -- luj se na -- de mnou.
@@ -415,7 +415,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( f d) f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vo -- lám z_ce -- lé -- ho srd -- ce:_* Vy -- slyš mě, Hos -- po -- di -- ne.
@@ -446,7 +446,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( f d) f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
@@ -479,7 +479,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( f d) f( g) g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
@@ -511,7 +511,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( a) g g g g g f d f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
@@ -544,7 +544,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( f d) f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vo -- lám k_to -- bě, Hos -- po -- di -- ne,_* ty jsi mé ú -- to -- čiš -- tě.
@@ -584,7 +584,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
@@ -616,7 +616,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( a) g( f d) d f( g) g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ve -- le -- bí -- me tě, Bo -- že,_*
@@ -648,7 +648,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g g a g( f d) f f f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ve -- li -- ký je náš Bůh,_*
@@ -682,7 +682,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g a g g f d f g g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
@@ -714,7 +714,7 @@ doxologieResponsoriumVI = {}
       \neviditelna f
       g g g( f d) f( g) g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
@@ -749,7 +749,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g a g( f d) f g g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vy -- slyš mě, Hos -- po -- di -- ne,_*
@@ -781,7 +781,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g g( f d) f( g) g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
@@ -815,7 +815,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response U -- sta -- vič -- ně chci ve -- le -- bit Hos -- po -- di -- na,_*
@@ -847,7 +847,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g f g( a) g( f) d f( g) g f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Bo -- že, o -- pat -- ruj mě ja -- ko zří -- tel -- ni -- ci o -- ka,_*
@@ -881,7 +881,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( a) g( f d) d f f f g g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Má du -- še po to -- bě žíz -- ní, Bo -- že,_*
@@ -913,7 +913,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( f d) f( g) g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Hos -- po -- din je můj pas -- týř,_*
@@ -947,7 +947,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g( a) g( f) d f g g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI 
     }
     \addlyrics {
       \Response Vo -- lám k_to -- bě, Bo -- že,_*
@@ -979,7 +979,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( a) g g f( d) f( g) g f f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Kris -- tus ze -- mřel za na -- še hří -- chy,_*
@@ -1013,7 +1013,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       f g a g( f) f \barFinalis
       % Slava
-      \doxologieResponsoriumVI
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bu -- du tě o -- sla -- vo -- vat, Bo -- že,_*

@@ -14,7 +14,7 @@ magnificatoptions_zaltar = $commonoptions_withoutdoxology+$o_doxology_full+$o_wa
 
 cislazalmu_zaltar = %w( 95 100 67 24
 
-                  141 142 63 149 118i 118ii 118iii 110 114
+                  141 142 1 2 3 63 149 118i 118ii 118iii 110 114
                   5 29 19b 7i 7ii 11 15
                   33 119alef 13 14 20 21
                   36 47 119beth 17i 17ii 27i 27ii
@@ -47,6 +47,43 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
 
                   30i 30ii 86i 96i 96ii
+                  ) + %w(
+                  1 2 3
+                  6 9i 9ii
+                  10i 10ii 12
+                  18i 18ii 18iii
+                  18iv 18v 18vi
+                  35i 35ii 35iii
+                  131 132i 132ii
+                  105i 105ii 105iii
+
+                  104i 104ii 104iii
+                  31i 31ii 31iii
+                  37i 37ii 37iii
+                  39i 39ii 52
+                  44i 44ii 44iii
+                  38i 38ii 38iii
+                  136i 136cii 136ciii
+                  106i 106ii 106iii
+
+                  145ci 145cii 145ciii
+                  50i 50ii 50iii
+                  68i 68ii 68iii
+                  89i 89ii 89iii
+                  89iv 89v 90
+                  69i 69ii 69iii
+                  107i 107ii 107iii
+
+                  24 66i 66ii
+                  73i 73ii 73iii
+                  102i 102ii 102iii
+                  103i 103ii 103iii
+
+                  55ci 55cii 55ciii
+                  78i 78ii 78iii
+                  78iv 78v 78vi
+
+                  33ci 33cii 92ci 92cii 103ci 103cii
                   )
 
 cislazalmu_zaltar.each do |z|
@@ -114,62 +151,6 @@ task :zaltar_texclean do
     end
   }
 end
-
-########################################################
-# sv. 3: zaltar k modlitbe se ctenim
-
-zalmy_cteni = []
-
-cislazalmu_cteni = %w(
-1 2 3
-6 9i 9ii
-10i 10ii 12
-18i 18ii 18iii
-18iv 18v 18vi
-35i 35ii 35iii
-131 132i 132ii
-105i 105ii 105iii
-
-104i 104ii 104iii
-31i 31ii 31iii
-37i 37ii 37iii
-39i 39ii 52
-44i 44ii 44iii
-38i 38ii 38iii
-136i 136cii 136ciii
-106i 106ii 106iii
-
-145ci 145cii 145ciii
-50i 50ii 50iii
-68i 68ii 68iii
-89i 89ii 89iii
-89iv 89v 90
-69i 69ii 69iii
-107i 107ii 107iii
-
-24 66i 66ii
-73i 73ii 73iii
-102i 102ii 102iii
-103i 103ii 103iii
-
-55ci 55cii 55ciii
-78i 78ii 78iii
-78iv 78v 78vi
-)
-                                      
-cislazalmu_cteni.each do |z|
-  zalmy_cteni << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
-end
-
-file "antifonar_ctenizaltar.pdf" => ['antifonar_ctenizaltar.tex', 'spolecne.tex', 'znacky.tex']+zalmy_cteni do
-  2.times { 
-    sh "pdflatex -shell-escape -output-directory=vystup antifonar_ctenizaltar"
-  }
-end
-
-desc "Psalter for the reading-office."
-task :cteni => ['antifonar_ctenizaltar.pdf']
-
 
 #################################################################
 # sv. 5: zaltar pro slavnosti a svatky (tady schovan pro strycka prihodu;
