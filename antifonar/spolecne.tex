@@ -319,3 +319,23 @@
 \newcommand{\oddelovac}{
 \noindent \line(1,0){150}
 }
+
+\newcommand{\versik}[3]{
+
+  \vspace{3mm}
+  \rubrika{#1}
+
+  \noindent \textbf{V.} #2\\
+  \textbf{O.} #3
+}
+
+\newcommand{\versikCteni}[2]{
+  
+  \vspace{1mm}
+  \noindent \textbf{V.} #1\\
+  \textbf{O.} #2
+}
+\newcommand{\versikTercie}[2]{\versik{dopoledne:}{#1}{#2}}
+\newcommand{\versikSexta}[2]{\versik{v poledne:}{#1}{#2}}
+\newcommand{\versikNona}[2]{\versik{odpoledne:}{#1}{#2}}
+

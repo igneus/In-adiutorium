@@ -113,11 +113,48 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" -
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
+# index svatecnich zalmu
 file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
 end
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex']+zalmyzaltare do
+# versiky
+file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
+  require 'yaml'
+  src = YAML.load File.open t.prerequisites[0]
+  File.open(t.name, 'w') do |o|
+    src.each do |wname, days|
+      days.each do |dname, hours|
+        midday = []
+        hours.each do |hname, versicle|
+          v, r = if hname == 'cteni' then
+                   # remove accents
+                   v, r = versicle.collect {|s| s.gsub(/[\[\]]/, '')}
+                 else
+                   # accents bold
+                   v, r = versicle.collect {|s| s.gsub('[', '\-\underline{').gsub(']', '}\-')}
+                 end
+          
+          vid = '\versik' + wname.upcase + dname + hname.capitalize
+
+          o.puts "\\newcommand{#{vid}}{\\versik#{hname.capitalize}{#{v}\n}{#{r}\n}}\n\n"
+          
+          if hname != 'cteni' then
+            midday << vid
+          end
+        end
+        
+        did = '\versiky' + wname.upcase + dname + 'Uprostred'
+        macros = midday.join "\n"
+        o.puts "\\newcommand{#{did}}{#{macros}}"
+      end
+    end
+  end
+
+  sh "vlna #{t.name}"
+end
+
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
