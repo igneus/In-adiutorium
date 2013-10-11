@@ -45,9 +45,9 @@
   }
 }
 
-\score { \tIInedeleInespAntIII }
+%\score { \tIInedeleInespAntIII }
 
-\score { \tIInedeleInespResp }
+%\score { \tIInedeleInespResp }
 
 \pageBreak
 
@@ -176,6 +176,15 @@
 
 \markup\nadpisSkupiny 2
 
+\markup\justify{
+  Ó obludnost ... již zanedlouho potom, co jsem tuto variantu
+  přijal do hlavní větve, bylo mi jasné, že to byl totální krok
+  vedle. Je odporná a se IV. alterovaným modem nemá nic společného
+  (je slyšet, že finála je pouze falešná, nesedí).
+  Ale celé měsíce trvalo, než jsem se odhodlal k dalšímu zkoušení,
+  abych ji nahradil a před "\"každožaltářními\"" mukami se zachránil.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacModry
@@ -195,6 +204,86 @@
     quid = "2. ant."
     modus = "IV alt"
     differentia = "d" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') a( g) g( a) \barMaior
+    a g f g g( a) a \barMin
+    g( a) g f e e \barMaior
+    d d( f) f( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a g( f) g( a) \barMaior
+    a a a g f( g f d) d \barMin
+    d e f d( c) c \barMaior
+    c d d d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 5
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c( d) c \barMaior
+    c c c( d) d a a \barMin
+    g a c c( b) a \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a" 
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -225,7 +314,7 @@
   }
 }
 
-\score { \tIInedeleLaudResp }
+%\score { \tIInedeleLaudResp }
 
 \pageBreak
 
@@ -487,6 +576,6 @@
   }
 }
 
-\score { \tIInedeleIInespAntIII }
+%\score { \tIInedeleIInespAntIII }
 
-\score { \tIInedeleIInespResp }
+%\score { \tIInedeleIInespResp }
