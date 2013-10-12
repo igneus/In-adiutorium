@@ -15,7 +15,7 @@
 
 % konstanty uzivane v nasledujicich makrech
 \def\pulstranky{13773045}%sp; vypocteno; pul stranky A5
-\def\vzdalenostZnackyOdTextu{0.5}%cm
+\def\vzdalenostZnackyOdTextu{0.2}%cm
 
 % argument: label ulozene pozice. Vrati hodnotu pro \hskip na levy okr. stranky
 \def\kLevemuOkraji#1{%
@@ -36,7 +36,7 @@
 % where the macro is called
 %
 % Numbers which depend on the page's geometry!!!!!!!:
-% 2.0cm & 1.5cm: margins of the page (I don't want to have them hardcoded,
+% 1.5cm & 1.1cm: margins of the page (I don't want to have them hardcoded,
 % but I haven't found any way to determine them at runtime.)
 \def\putmarginpar#1#2{%
   \zsavepos{#1}%
@@ -44,17 +44,17 @@
   \ifnum\pulstranky>\number\zposx{#1}%
     % tady je dimen100 levy okraj stranek
     \ifoddpage% liche - siroky
-      \dimen100=2.0cm%
-    \else%
       \dimen100=1.5cm%
+    \else%
+      \dimen100=1.1cm%
     \fi%
     \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp + \dimen100 - \vzdalenostZnackyOdTextu cm \relax#2}%
   \else
     % tady je dimen100 pravy okraj stranek
     \ifoddpage% liche - uzky
-      \dimen100=1.5cm%
+      \dimen100=1.1cm%
     \else%
-      \dimen100=2cm%
+      \dimen100=1.5cm%
     \fi%
      \hbox to 0pt{\hskip\dimexpr\kLevemuOkraji{#1}sp +\pulstranky sp * 2 - \dimen100 + \vzdalenostZnackyOdTextu cm \relax#2}%
   \fi%
