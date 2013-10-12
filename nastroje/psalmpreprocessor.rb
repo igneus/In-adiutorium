@@ -260,6 +260,10 @@ module PsalmPreprocessor
       
       s = remove_accents s # remove the remaining ones
 
+      # remove all syllable-separating slashes;
+      # replace them by a "hyphenable sign"
+      s.gsub!('/', '\-')
+
       return s
     end
     
@@ -295,7 +299,6 @@ module PsalmPreprocessor
 
     def emphasize_preparatory_syllables(s, num_syllables)
       if num_syllables < 1
-        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
         return s
       end
 
@@ -320,9 +323,6 @@ module PsalmPreprocessor
           end
         }
       rescue
-        # verse too short; do nothing, return it, as it is
-        # STDOUT.puts s
-        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
         return s
       end
 
@@ -332,7 +332,6 @@ module PsalmPreprocessor
       else
         s[i] = (s[i] == " " ? " " : "") + op
       end
-      s.gsub!('/', '') # remove all remaining syllable-separating slashes
       
       # STDOUT.puts s
 
