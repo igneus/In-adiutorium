@@ -87,6 +87,9 @@ V době adventní, vánoční, postní a velikonoční:
 \newcommand{\laudyNedelePrvnihoTydne}{
   Žalmy nedělní z 1. týdne, str.~\pageref{zalmyne1trch}}
 
+\newcommand{\poznamkaPod}[1]{
+  \hfill {\footnotesize \noindent \textit{#1}}}
+
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}
 \renewcommand{\thesubsubsection}{}
@@ -162,19 +165,19 @@ akcent. To znesnadňuje použití většiny nápěvů.
 
 \input{generovane/zaltar/zalm100.tex}
 
-{\footnotesize \noindent \textit{(pátek 1. týdne, pátek 3. týdne)}\footnote{
+\poznamkaPod{(pátek 1. týdne, pátek 3. týdne)\footnote{
 Dny, kdy je ten který žalm zařazen v psalmodii a není tedy vhodné použít ho
 jako žalm invitatoria. Žalm 95 není v psalmodii nikdy a v invitatoriu se proto
 dá použít vždy.}}
 
 \input{generovane/zaltar/zalm67.tex}
 
-{\footnotesize \noindent \textit{(středa 2. týdne, úterý 3. týdne)}}
+\poznamkaPod{(středa 2. týdne, úterý 3. týdne)}
 
 \label{z24}
 \input{generovane/zaltar/zalm24.tex}
 
-{\footnotesize \noindent \textit{(úterý 1. týdne, neděle 4. týdne)}}
+\poznamkaPod{(úterý 1. týdne, neděle 4. týdne)}
 
 \end{hora}
 
