@@ -610,14 +610,13 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g( a) a a g( f d) f e( g a) a \barMin
+    a b g f e e \barFinalis
   }
   \addlyrics {
     Je tře -- ba se stá -- le mod -- lit
@@ -625,8 +624,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne29c-ne1-mag"
@@ -637,7 +636,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d( a' b) a a c b g a a \barMin
+    a a a a g( a) f f g( a) g g( a) a \barMaior
+    f g f d d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
@@ -646,8 +647,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne29c-rch-ben"
@@ -678,6 +679,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"30. neděle"}}
 
