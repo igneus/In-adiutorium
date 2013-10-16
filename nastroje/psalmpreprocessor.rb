@@ -358,7 +358,7 @@ module PsalmPreprocessor
     private
     
     def process_accents(s)
-      return s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>')
+      return s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>').gsub(/(?<foo>\w+)\[/, '\k<foo>\-[')
     end
   end
   
