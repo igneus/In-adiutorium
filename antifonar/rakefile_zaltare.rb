@@ -96,6 +96,8 @@ dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_zaltar)
+# Te Deum, taky bez doxologie
+zalmyzaltare << genzalm('tedeum.zalm', $commonoptions_withoutdoxology+' --skip-title', adresar_zaltar)
 # ostatni kantika
 %w( fp2 ef1 zj4 kol1 zj11 zj15
 
