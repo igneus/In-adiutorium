@@ -72,6 +72,8 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době adventní a vánoční:}
 
 \score {
@@ -136,6 +138,59 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny{2}
+
+\markup{Načaté omylem, než jsem si všiml, že tyto antifony už mám}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g g a f( e) f \barMaior
+    f g g g f e d f g g( a) f f \barFinalis
+    
+    g^\markup\rubrVelikAleluja a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy,
+    kte -- ré vy -- ko -- nal.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F" 
+    psalmus = "Žalm 105-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 c d f f e d( e) f \barMaior
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a -- le chrá -- nil ho před hříš -- ní -- ky.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 105-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
