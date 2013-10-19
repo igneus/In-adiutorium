@@ -13,6 +13,8 @@
     \choralniRezim
     a4 a a b b c c b4. a \barMin
     g4( a) f f( e) e \barFinalis
+    
+    d^\markup\rubrVelikAleluja g g e \barFinalis
   }
   \addlyrics {
     Za -- chraň mě pro své sli -- to -- vá -- ní,
@@ -35,6 +37,8 @@
     \choralniRezim
     c4 d c b a c b a g f e f f e( f) e \barMaior
     f( g a) g( f) e e \barFinalis
+    
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din bu -- de u -- tla -- čo -- va -- né -- mu ú -- to -- čiš -- těm
@@ -57,6 +61,8 @@
     \choralniRezim
     b b c d d \barMin c b a a \barMaior
     c b a g( e) e g( a) f e e \barFinalis
+    
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Bu -- du tě chvá -- lit, Hos -- po -- di -- ne,
