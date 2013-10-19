@@ -8,7 +8,10 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-\markup\italic{V době adventní a vánoční:}
+\markup\italic{
+  V době adventní a vánoční,
+  postní a velikonoční:
+}
 
 \score {
   \relative c' {
@@ -66,72 +69,6 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D" 
-    psalmus = "Žalm 106-III"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\markup\italic{V době postní a velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
-    u -- jmi se mě a po -- moz mi.
-    
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "1. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = "Žalm 106-I"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Pa -- ma -- tuj -- me na smlou -- vu
-    s_Hos -- po -- di -- nem, na -- ším Bo -- hem.
-    
-    % aleluja v breviari neni
-  }
-  \header {
-    quid = "2. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = "Žalm 106-II"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Vy -- svo -- boď nás,
-    Hos -- po -- di -- ne, náš Bo -- že,
-    a shro -- máž -- di svůj roz -- ptý -- le -- ný lid.
-    
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "3. ant."
-    modus = ""
-    differentia = "" 
     psalmus = "Žalm 106-III"
     id = ""
     piece = \markup {\sestavTitulek}
