@@ -53,6 +53,8 @@ def hour_title(line)
          "\\idxNesporyI"
        when "modlitba se čtením"
          "\\idxModlitbaSeCtenim"
+       when "vigilie"
+         "\\idxVigilie"
        when "ranní chvály"
          "\\idxRanniChvaly"
        when "modlitba uprostřed dne"
@@ -74,14 +76,17 @@ def content(line)
       # most probably two text codes and a text between them
       while (i = rt.index("(")) do
         # process token before the brace:
-        tokens << [:ps, rt[0..i-1].strip]
+        if i > 1 then
+          tokens << [:ps, rt[0..i-1].strip]
+        end
         # the braced text:
         j = rt.index ")", i
         tokens << [:txt, rt[i+1..j-1]]
         rt = rt[j+1..-1]
       end
       # token after brace:
-      if rt.strip! != "" then
+      rt.strip!
+      if rt != "" then
         tokens << [:ps, rt]
       end
     else
@@ -93,6 +98,7 @@ def content(line)
   psalms = []
   
   #puts "\\begin{idxObsahHory}"
+
 
   tokens.each_with_index do |t,ti|
     t[1].strip!
@@ -114,6 +120,7 @@ def content(line)
       else
         # canticle
         sigle = canticle_name_pretty t[1]
+        
         print "\\textRef{kant#{t[1]}}{#{sigle}}"
       end
       # for both psalms and canticles:
