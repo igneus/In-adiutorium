@@ -254,7 +254,7 @@ Společné texty
     modlitba se čtením
       24, 46, 87
     vigilie
-      iz61c iz62c sir39
+      iz61cii, iz62c, sir39
     ranní chvály
       rchne1t
     2. nešpory
@@ -265,6 +265,8 @@ Společné texty
       117, 147ii, ef1
     modlitba se čtením
       19a, 64, 97
+    vigilie
+      iz61ci, mdr3ii, mdr10
     ranní chvály
       rchne1t
     2. nešpory
@@ -275,6 +277,8 @@ Společné texty
       118i, 118ii, 1petr2
     modlitba se čtením
       2, 33ci, 33cii
+    vigilie
+      mdr3i, mdr3ii, mdr10
     ranní chvály
       rchne1t
     2. nešpory
@@ -285,6 +289,8 @@ Společné texty
       118i (+) 118ii, 118iii, 1petr2
     modlitba se čtením
       2, 11, 17i (+) 17ii
+    vigilie
+      jer17, sir14, sir31
     ranní chvály
       rchne1t
     2. nešpory
@@ -315,6 +321,8 @@ Společné texty
       113, 146, ef1
     modlitba se čtením
       21, 92ci, 92cii
+    vigilie
+      jer17, sir14, sir31
     ranní chvály
       rchne1t
     2. nešpory
@@ -325,6 +333,8 @@ Společné texty
       113, 147ii, ef1
     modlitba se čtením
       19a, 45i, 45ii
+    vigilie
+      jer17, sir14, sir31
     ranní chvály
       rchne1t
     2. nešpory
