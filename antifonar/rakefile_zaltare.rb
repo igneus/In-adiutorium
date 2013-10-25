@@ -104,7 +104,9 @@ zalmyzaltare << genzalm('tedeum.zalm', $commonoptions_withoutdoxology+' --skip-t
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
 dt32 iz2 iz26 iz33 iz40 jer14 mdr9
-iz42 dan3i iz61 iz66 tob13ii ez36 ).each do |kk| 
+iz42 dan3i iz61 iz66 tob13ii ez36 
+
+iz33a sir36b tob13cii tob13ciii ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.

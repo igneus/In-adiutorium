@@ -112,11 +112,17 @@ Doba velikonoční
 
 Liturgické mezidobí
 
+  Neděle
+    vigilie
+      iz33a, iz33, sir36b
+
   Ježíše Krista Krále (slavnost)
     1. nešpory
       113, 117, zj4
     modlitba se čtením
       2, 72i, 72ii
+    vigilie
+      1kron29, iz12, iz61
     ranní chvály
       rchne1t
     2. nešpory
@@ -180,6 +186,8 @@ Sanktorál
       113, 117, zj19
     modlitba se čtením
       84, 97, 99
+    vigilie
+      (Jako o slavnosti Ježíše Krista Krále.)
     ranní chvály
       rchne1t
     2. nešpory
@@ -190,6 +198,8 @@ Sanktorál
       147i, 147ii, fp2
     modlitba se čtením
       2, 8, 96
+    vigilie
+      (Jako o slavnosti Ježíše Krista Krále.)
     ranní chvály
       rchne1t
     2. nešpory
@@ -198,6 +208,8 @@ Sanktorál
   sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
     modlitba se čtením
       97, 103ci, 103cii
+    vigilie
+      (Jako o slavnosti Všech svatých.)
     ranní chvály
       rchne1t
     nešpory
@@ -214,6 +226,8 @@ Sanktorál
       113, 147ii, zj19
     modlitba se čtením
       8, 15, 16
+    vigilie
+      tob13i, tob13cii, tob13ciii
     ranní chvály
       rchne1t
     2. nešpory
