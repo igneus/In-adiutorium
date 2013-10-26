@@ -17,6 +17,8 @@ Doba vánoční
       113, 147ii, fp2
     modlitba se čtením
       2, 19a, 45i (+) 45ii
+    vigilie
+      iz26, iz40i, iz66
     ranní chvály
       rchne1t
     modlitba uprostřed dne
@@ -29,18 +31,28 @@ Doba vánoční
       135i, 135ii, 1tim3
     modlitba se čtením
       72i (+) 72ii, 96, 97
+    vigilie
+      (jako o slavnosti Narození Páně)
     ranní chvály
       rchne1t
     modlitba uprostřed dne
       47, 86i, 98
     2. nešpory
       110, 112, zj15
+
+Doba postní
+
+  Neděle
+    vigilie
+      jer14, ez36, plac5
       
 Velikonoční triduum
   
   Velký pátek
     modlitba se čtením
       2, 22i (+) 22ii (- volitelně se může připojit) 22iii, 38i (+) 38ii (+) 38iii
+    vigilie
+      (Jako o postních nedělích.)
     ranní chvály
       51, hab3, 147ii
     modlitba uprostřed dne
@@ -51,6 +63,8 @@ Velikonoční triduum
   Bílá sobota
     modlitba se čtením
       4, 16, 24
+    vigilie
+      (Jako o postních nedělích.)
     ranní chvály
       64, iz38, 150
     modlitba uprostřed dne
