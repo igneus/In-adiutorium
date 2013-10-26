@@ -161,6 +161,8 @@ Liturgické mezidobí
       113, 147ii, ef1
     modlitba se čtením
       8, 33ci, 33cii
+    vigilie
+      (Jako o nedělích v mezidobí.)
     ranní chvály
       rchne1t
     2. nešpory
@@ -171,6 +173,8 @@ Liturgické mezidobí
       111, 147ii, zj11
     modlitba se čtením
       23, 42, 81
+    vigilie
+      pr9, jer31, mdr16
     ranní chvály
       rchne1t
     2. nešpory
@@ -181,6 +185,8 @@ Liturgické mezidobí
       113, 146, zj4
     modlitba se čtením
       36, 61, 98
+    vigilie
+      iz12, 1sam2i, 1sam2ii
     ranní chvály
       rchne1t
     2. nešpory
@@ -194,6 +200,8 @@ Sanktorál
       113, 147ii, fp2
     modlitba se čtením
       2, 19a, 45i (+) 45ii
+    vigilie
+      iz9, iz26, iz66
     ranní chvály
       rchne1t
     2. nešpory
