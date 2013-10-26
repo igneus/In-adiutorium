@@ -4,6 +4,12 @@
 # Pro spravne vygenerovani je dulezite spravne odsazeni radku.
 
 #######################################
+Doba adventní
+
+  Neděle
+    vigilie
+      iz40, iz42, iz49
+
 Doba vánoční
   
   Narození Páně (slavnost, 25.12.)
