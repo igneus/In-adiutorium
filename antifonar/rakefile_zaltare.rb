@@ -110,7 +110,7 @@ iz33a sir36b tob13cii tob13ciii
 iz2ci jer7 iz61cii iz62c sir39 
 iz61ci mdr3i mdr3ii mdr10 
 jer17 sir14 sir31 
-iz49 iz40i plac5 ).each do |kk| 
+iz49 iz40i plac5 iz63 oz6 sof3 ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
