@@ -103,11 +103,11 @@ zalmyzaltare << genzalm('tedeum.zalm', $commonoptions_withoutdoxology+' --skip-t
 
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
-dt32 iz2 iz26 iz33 iz40ii jer14 mdr9
+dt32 iz2 iz26 iz33ii iz40ii jer14 mdr9
 iz42 dan3i iz61 iz66 tob13ii ez36 
 
-iz33a sir36b tob13cii tob13ciii 
-iz2ci jer7 iz61cii iz62c sir39 
+iz33i sir36b tob13cii tob13ciii 
+iz2ci jer7 iz61cii iz62 sir39 
 iz61ci mdr3i mdr3ii mdr10 
 jer17 sir14 sir31 
 iz49 iz40i plac5 iz63 oz6 sof3 iz9 

@@ -116,7 +116,7 @@ Doba velikonoční
     modlitba se čtením
       68i, 68ii, 68iii
     vigilie
-      (Jako o nedělích.)
+      (Jako o velikonočních nedělích.)
     ranní chvály
       rchne1t
     modlitba uprostřed dne
@@ -130,7 +130,7 @@ Doba velikonoční
     modlitba se čtením
       104i, 104ii, 104iii
     vigilie
-      (Jako o nedělích.)
+      (Jako o velikonočních nedělích.)
     ranní chvály
       rchne1t
     modlitba uprostřed dne
@@ -142,7 +142,7 @@ Liturgické mezidobí
 
   Neděle
     vigilie
-      iz33a, iz33, sir36b
+      iz33i, iz33ii, sir36b
 
   Ježíše Krista Krále (slavnost)
     1. nešpory
@@ -292,7 +292,7 @@ Společné texty
     modlitba se čtením
       24, 46, 87
     vigilie
-      iz61cii, iz62c, sir39
+      iz61cii, iz62, sir39
     ranní chvály
       rchne1t
     2. nešpory

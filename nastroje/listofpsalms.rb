@@ -20,7 +20,7 @@ $lamed mem nun samech ajin pe sade res sin tau )
 $roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 
 $psalmname_re = /(?<num>\d+)(?<suff>\w*)/
-$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>[ivx]*)/
+$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>\w*)/
 
 $canticles_number_in_name = ['1sam', '1kron', '1petr', '1tim']
 
@@ -189,7 +189,12 @@ def canticle_name_pretty(c)
   end
 
   suff = cp[:suff]
+  STDERR.puts suff 
   if suff != "" then
+    if suff[0] == 'c' then
+      suff.slice!(0)
+    end
+
     # nothing
     if $roman_numbers.member? suff
       suff.upcase!
