@@ -22,6 +22,8 @@ $roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 $psalmname_re = /(?<num>\d+)(?<suff>\w*)/
 $canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>[ivx]*)/
 
+$canticles_number_in_name = ['1sam', '1kron', '1petr', '1tim']
+
 
 # indentation level
 def ilevel(line)
@@ -112,7 +114,8 @@ def content(line)
       if t[1] == "rchne1t" then
         # puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
         puts "\\laudyNedelePrvnihoTydne"
-      elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
+      elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
+          t[1] =~ /^\d+\w*$/ then
         # psalm
         prettyt = psalm_name_pretty t[1]
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
@@ -167,10 +170,17 @@ def psalm_name_pretty(p)
 end
  
 def canticle_name_pretty(c)
+  special_booknames = {'pr' => 'Př', 'plac' => 'Pláč'}
+
   cp = c.match $canticlename_re
 
   book = cp[:bookcode]
-  book[0] = book[0].upcase
+
+  if special_booknames.include? book then
+    book = special_booknames[book]
+  else
+    book[0] = book[0].upcase
+  end
   
   sigle = book + ' ' + cp[:chapter]
 
