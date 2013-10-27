@@ -17,6 +17,7 @@
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 \usepackage{marginnote}
+\usepackage{setspace} % upravy radkovani
 
 \usepackage[T1]{fontenc}
 % font Palatino:
@@ -62,7 +63,11 @@
   \end{multicols}
 }
 
-\newenvironment{psalmus}{}{}
+\newenvironment{psalmus}{%
+  \begin{spacing}{1.1}%
+}{%
+  \end{spacing}%
+}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
 
