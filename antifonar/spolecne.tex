@@ -300,8 +300,8 @@
 }
 
 % rubrikovany text - treba i pro vlozeni do nerubrikovaneho
-\newcommand{\rubr}[1]{
-  \textit{#1}
+\newcommand{\rubr}[1]{%
+  \textit{#1}%
 }
 
 % rubrika - samostatna
@@ -355,6 +355,10 @@
 }
 
 
+% z logiky liturgickych knih by znacky pro versiky mely byt
+% rubrikovane, ne tucne. Zkousel jsem to, to ale v okoli zanikaji
+% a myslim ze je dobre je vyrazne odlisit od psalmodie, ktera je alespon
+% v zaltari bez not obklopuje
 \newcommand{\versikCteni}[2]{
   
   \vspace{3mm}
