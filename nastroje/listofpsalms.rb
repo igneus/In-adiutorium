@@ -189,7 +189,6 @@ def canticle_name_pretty(c)
   end
 
   suff = cp[:suff]
-  STDERR.puts suff 
   if suff != "" then
     if suff[0] == 'c' then
       suff.slice!(0)
