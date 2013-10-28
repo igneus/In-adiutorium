@@ -141,7 +141,7 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
                    v, r = versicle.collect {|s| s.gsub(/[\[\]]/, '')}
                  else
                    # accents bold
-                   v, r = versicle.collect {|s| s.gsub('[', '\-\underline{').gsub(']', '}\-')}
+                   v, r = versicle.collect {|s| s.gsub('[', '\-\underline{').gsub(']', '}\-').gsub('/', '\-') }
                  end
           
           vid = '\versik' + wname.upcase + dname + hname.capitalize
