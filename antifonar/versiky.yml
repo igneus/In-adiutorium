@@ -5,8 +5,8 @@
 tI:
   nedele:
     cteni:
-      - "Kristova nauka ať je u vás ve své plné síle:"
-      - "modře se navzájem poučujte a napomínejte."
+      - "Kristova nauka ať je u vás ve své plné [sí]le:"
+      - "modře se navzájem poučujte a napo[mí]nejte."
     tercie:
       - "Nakloň mé srdce, Bože, k svým přiká[zá]ním,"
       - "a budu je věrně zacho[vá]vat."
@@ -18,8 +18,8 @@ tI:
       - "tvé příkazy chci zacho[vá]vat."
   pondeli:
     cteni:
-      - "Pouč mě, Hospodine, ať zachovám tvůj zákon"
-      - "a chráním ho celým svým srdcem."
+      - "Pouč mě, Hospodine, ať zachovám tvůj [zá]kon"
+      - "a chráním ho celým svým [srd]cem."
     tercie:
       - "Tys má pomoc, Hospodine, neza[vr]huj mě,"
       - "neopouštěj mě, Bože, můj spasi[te]li."
@@ -31,10 +31,10 @@ tI:
       - "ve shromáždění tě budu [chvá]lit."
   utery:
     cteni:
-      - "Hospodin učí pokorné správně jednat,"
-      - "vede je po svých cestách."
+      - "Hospodin učí pokorné správně [jed]nat,"
+      - "vede je po svých [ces]tách."
     tercie:
-      - "Hospodin neodepře štěstí nevin[né]mu,"
+      - "Hospodin neodepře štěstí ne/vin[né]mu,"
       - "blaze tomu, kdo v něho [dou]fá."
     sexta:
       - "Bože, tobě se líbí upřímné [srd]ce,"
@@ -44,8 +44,8 @@ tI:
       - "a nauč mě svým [pří]kazům."
   streda:
     cteni:
-      - "Všichni Ježíšovi přisvědčovali,"
-      - "a divili se milým slovům z jeho úst."
+      - "Všichni Ježíšovi přisvěd[čo]vali,"
+      - "a divili se milým slovům [z je]ho úst."
     tercie:
       - "Ukaž mi své cesty, Hospo[di]ne,"
       - "pouč mě o svých [stez]kách."
@@ -57,8 +57,8 @@ tI:
       - "nad těmi, kdo doufají v jeho [mi]lost."
   ctvrtek:
     cteni:
-      - "Otevři mé oči, Pane,"
-      - "ať pozoruji divy tvého zákona."
+      - "Otevři mé oči, [Pa]ne,"
+      - "ať pozoruji divy tvého [zá]kona."
     tercie:
       - "Všechna díla Páně, velebte [Pá]na,"
       - "chvalte a oslavujte ho [na]věky."
@@ -70,8 +70,8 @@ tI:
       - "a dílo jeho rukou zvěstuje [ob]loha."
   patek:
     cteni:
-      - "Můj synu, pamatuj na má slova,"
-      - "dbej na mé příkazy, a budeš žít."
+      - "Můj synu, pamatuj na má [slo]va,"
+      - "dbej na mé příkazy, a [bu]deš žít."
     tercie:
       - "Hospodinovo jednání je jen láska a [věr]nost"
       - "pro ty, kdo plní jeho smlouvu a naří[ze]ní."
@@ -83,8 +83,8 @@ tI:
       - "shovívavý a nadmíru dobro[ti]vý."
   sobota:
     cteni:
-      - "Pojďte, pozorujte Boží skutky,"
-      - "které učinil k úžasu země."
+      - "Pojďte, pozorujte Boží [skut]ky,"
+      - "které učinil k úžasu [ze]mě."
     tercie:
       - "Ukaž mi své cesty, Hospo[di]ne,"
       - "veď mě ve své pravdě a [uč] mě."
@@ -98,8 +98,8 @@ tI:
 tII:
   nedele:
     cteni:
-      - "Blahoslavené jsou vaše oči, že vidí,"
-      - "a vaše uši, že slyší."
+      - "Blahoslavené jsou vaše oči, že [vi]dí,"
+      - "a vaše uši, že [sly]ší."
     tercie:
       - "Navěky chci zpívat o Hospodinových [mi]lostech,"
       - "po všechna pokolení hlásat svými ústy tvou [věr]nost."
@@ -111,8 +111,8 @@ tII:
       - "Hospodin je záštita mého [ži]vota."
   pondeli:
     cteni:
-      - "Veď mě ve své pravdě a uč mě,"
-      - "neboť ty jsi Bůh, můj spasitel."
+      - "Veď mě ve své pravdě a [uč] mě,"
+      - "neboť ty jsi Bůh, můj [spa]sitel."
     tercie:
       - "Stvoř mi čisté srdce, [Bo]že,"
       - "neodvrhuj mě od své [tvá]ře."
@@ -124,8 +124,8 @@ tII:
       - "dává mi prodlévat na svěžích [past]vinách."
   utery:
     cteni:
-      - "Nauč mě dobrotě, moudrosti a vědění,"
-      - "neboť důvěřuji tvým předpisům."
+      - "Nauč mě dobrotě, moudrosti a [vě]dění,"
+      - "neboť důvěřuji tvým [před]pisům."
     tercie:
       - "Hospodinova spása je blízko těm, kteří se ho [bo]jí,"
       - "těm, kteří se k němu obracejí celým svým [srd]cem."
@@ -137,8 +137,8 @@ tII:
       - "abychom chválili tvé svaté [jmé]no."
   streda:
     cteni:
-      - "Doufám v Hospodina,"
-      - "má duše doufá v jeho slovo."
+      - "Doufám v Hospo[di]na,"
+      - "má duše doufá v jeho [slo]vo."
     tercie:
       - "Hospodin je spravedlivý, má rád spravedlivé [skut]ky,"
       - "zbožní uzří [je]ho tvář."
@@ -150,7 +150,7 @@ tII:
       - "veď mě cestou [od]věkou."
   ctvrtek:
     cteni:
-      - "Pane, ke komu půjdeme?"
+      - "Pane, ke komu [pů]jdeme?"
       - "Ty máš slova věčného [ži]vota."
     tercie:
       - "Bože, pouč mě o smyslu svých naří[ze]ní,"
@@ -163,8 +163,8 @@ tII:
       - "tvůj Duch ať mě vede a [chrá]ní."
   patek:
     cteni:
-      - "Mé oči toužebně vyhlížejí tvou pomoc,"
-      - "spoléhám na tvá zaslíbení."
+      - "Mé oči toužebně vyhlížejí tvou [po]moc,"
+      - "spoléhám na tvá zaslí[be]ní."
     tercie:
       - "Podporuj mě podle svého slibu, abych [byl] živ,"
       - "nezklam mou [na]ději."
@@ -176,8 +176,8 @@ tII:
       - "budu před ním kráčet v zemi [ži]vých."
   sobota:
     cteni:
-      - "Ukaž mi své cesty, Hospodine,"
-      - "pouč mě o svých stezkách."
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "pouč mě o svých [stez]kách."
     tercie:
       - "Bázeň před Hospodinem je upřímná a trvá [na]věky,"
       - "Hospodinovy výroky jsou pravdivé, všechny jsou spraved[li]vé."
@@ -191,8 +191,8 @@ tII:
 tIII:
   nedele:
     cteni:
-      - "Můj synu, dbej na má slova,"
-      - "uchovej je hluboko v srdci!"
+      - "Můj synu, dbej na má [slo]va,"
+      - "uchovej je hluboko [v srd]ci!"
     tercie:
       - "U tebe, Hospodine, je pramen [ži]vota,"
       - "v tvé záři vidíme [svět]lo."
@@ -204,8 +204,8 @@ tIII:
       - "a přivedl ho do své svaté [ze]mě."
   pondeli:
     cteni:
-      - "Slyš, můj lide, budu mluvit,"
-      - "slyš můj hlas, já jsem tvůj Bůh."
+      - "Slyš, můj lide, budu [mlu]vit,"
+      - "slyš můj hlas, já jsem [tvůj] Bůh."
     tercie:
       - "Hospodinovy oči hledí na spraved[li]vé,"
       - "k jejich volání se kloní [je]ho sluch."
@@ -217,8 +217,8 @@ tIII:
       - "vzdávejte díky jeho svatému [jmé]nu!"
   utery:
     cteni:
-      - "Kéž mohu slyšet, co mluví Hospodin, Bůh:"
-      - "jistě mluví o pokoji pro svůj lid."
+      - "Kéž mohu slyšet, co mluví Hospo[din], Bůh:"
+      - "jistě mluví o pokoji [pro] svůj lid."
     tercie:
       - "Hospodin bude soudit svět podle [prá]va,"
       - "vynese spravedlivý rozsudek nad [ná]rody."
@@ -230,8 +230,8 @@ tIII:
       - "zachraňuje ubožákům [ži]vot."
   streda:
     cteni:
-      - "Hospodine, tvé slovo osvěcuje,"
-      - "nezkušenému dává moudrost."
+      - "Hospodine, tvé slovo osvě[cu]je,"
+      - "nezkušenému dává [moud]rost."
     tercie:
       - "Ať jásají a plesají, kdo tě hledají, Hospo[di]ne,"
       - "ať tě mohou stále [ve]lebit."
@@ -243,8 +243,8 @@ tIII:
       - "budou se těšit z hlubokého [kli]du."
   ctvrtek:
     cteni:
-      - "U tebe, Hospodine, je pramen života,"
-      - "v tvé záři vidíme světlo."
+      - "U tebe, Hospodine, je pramen [ži]vota,"
+      - "v tvé záři vidíme [svět]lo."
     tercie:
       - "Ty jsi Bůh, který činí [di]vy,"
       - "národům jsi dal poznat [svou] moc."
@@ -256,8 +256,8 @@ tIII:
       - "a stal se mou [spá]sou."
   patek:
     cteni:
-      - "Ukaž mi své cesty, Hospodine,"
-      - "pouč nás o svých stezkách."
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "pouč nás o svých [stez]kách."
     tercie:
       - "Naše srdce se raduje v Hospo[di]nu,"
       - "důvěřujeme v jeho svaté [jmé]no."
@@ -269,8 +269,8 @@ tIII:
       - "kéž poznají všechny národy, jak zachra[ňu]ješ."
   sobota:
     cteni:
-      - "Hospodine, tvé milosrdenství sahá až do nebes,"
-      - "tvoje věrnost až k oblakům."
+      - "Hospodine, tvé milosrdenství sahá až [do] nebes,"
+      - "tvoje věrnost až [k ob]lakům."
     tercie:
       - "Kdo přináší oběť chvály, [ten] mě ctí,"
       - "kdo žije správně, tomu ukážu Boží [spá]su."
@@ -283,8 +283,8 @@ tIII:
 tIV:
   nedele:
     cteni:
-      - "Boží slovo je plné života,"
-      - "je ostřejší než každý dvojsečný meč."
+      - "Boží slovo je plné [ži]vota,"
+      - "je ostřejší než každý dvojseč[ný] meč."
     tercie:
       - "Touží, ba prahne má duše po Hospodinových [sí]ních,"
       - "mé srdce i mé tělo s jásotem tíhnou k živému [Bo]hu."
@@ -296,8 +296,8 @@ tIV:
       - "můj zachránce a spasi[te]li."
   pondeli:
     cteni:
-      - "Hospodine, miluji tvůj zákon,"
-      - "rozjímám o tvých přikázáních."
+      - "Hospodine, miluji tvůj [zá]kon,"
+      - "rozjímám o tvých přiká[zá]ních."
     tercie:
       - "Blaze národu, jehož Bohem je [Hos]podin,"
       - "blaze lidu, který si vyvolil za svůj [ma]jetek."
@@ -309,8 +309,8 @@ tIV:
       - "na milosrdenství, které trvá [věč]ně."
   utery:
     cteni:
-      - "Slyš, můj lide, mé naučení,"
-      - "naslouchej slovům mých úst!"
+      - "Slyš, můj lide, mé nau[če]ní,"
+      - "naslouchej slovům [mých] úst!"
     tercie:
       - "Blaze muži, který se slitovává a [půj]čuje,"
       - "bude ve věčné [pa]měti."
@@ -322,8 +322,8 @@ tIV:
       - "rychle běží jeho [slo]vo."
   streda:
     cteni:
-      - "Pouč mě, Hospodine, o smyslu svých nařízení,"
-      - "a budu rozjímat o tvých divech."
+      - "Pouč mě, Hospodine, o smyslu svých naří[ze]ní,"
+      - "a budu rozjímat o tvých [di]vech."
     tercie:
       - "Dobré je chválit Hospo[di]na,"
       - "opěvovat jeho svaté [jmé]no."
@@ -335,8 +335,8 @@ tIV:
       - "ty mně zachováváš můj [ú]děl."
   ctvrtek:
     cteni:
-      - "Jasnou tvář ukaž svému služebníku, Hospodine,"
-      - "nauč mě svým příkazům."
+      - "Jasnou tvář ukaž svému služebníku, Hospo[di]ne,"
+      - "nauč mě svým [pří]kazům."
     tercie:
       - "Hospodine, zastaň se spraved[li]vého,"
       - "ty zkoumáš srdce i [led]ví."
@@ -348,8 +348,8 @@ tIV:
       - "má duše doufá v jeho [slo]vo."
   patek:
     cteni:
-      - "Slyš mě, můj synu,"
-      - "neodchyluj se od slov mých úst."
+      - "Slyš mě, můj [sy]nu,"
+      - "neodchyluj se od slov [mých] úst."
     tercie:
       - "Hospodinova láska trvá od věků [na] věky"
       - "pro ty, kteří zachovávají jeho [smlou]vu."
@@ -361,8 +361,8 @@ tIV:
       - "smiluj se kvůli svému Poma[za]nému."
   sobota:
     cteni:
-      - "Nepřestáváme se za vás modlit,"
-      - "abyste dobře poznali Boží vůli."
+      - "Nepřestáváme se za vás [mod]lit,"
+      - "abyste dobře poznali Boží [vů]li."
     tercie:
       - "Pojďte, pozorujte mé [skut]ky,"
       - "uznejte, že [já] jsem Bůh."

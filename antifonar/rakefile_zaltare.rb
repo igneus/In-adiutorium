@@ -136,13 +136,9 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
       days.each do |dname, hours|
         midday = []
         hours.each do |hname, versicle|
-          v, r = if hname == 'cteni' then
-                   # remove accents
-                   v, r = versicle.collect {|s| s.gsub(/[\[\]]/, '')}
-                 else
-                   # accents bold
-                   v, r = versicle.collect {|s| s.gsub('[', '\-\underline{').gsub(']', '}\-').gsub('/', '\-') }
-                 end
+          v, r = versicle.collect {|s| 
+            s.gsub('[', '\-\underline{').gsub(']', '}\-').gsub('/', '\-') 
+          }
           
           vid = '\versik' + wname.upcase + dname + hname.capitalize
 
