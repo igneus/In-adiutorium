@@ -63,7 +63,7 @@ tI:
       - "Všechna díla Páně, velebte [Pá]na,"
       - "chvalte a oslavujte ho [na]věky."
     sexta:
-      - "Velebnost a vznešenost ho předchá[ze]jí,"
+      - "Velebnost a vznešenost ho před/chá[ze]jí,"
       - "moc a nádhera jsou v jeho [sva]tyni."
     nona:
       - "Nebesa vypravují o Boží [slá]vě,"
@@ -92,8 +92,8 @@ tI:
       - "Hospodine, očisť mě od chyb, jež jsou mi [skry]ty,"
       - "chraň svého služebníka před zpup[nos]tí."
     nona:
-      - "Jak velkolepá jsou tvá díla, Hospo[di]ne,"
-      - "jak hluboké tvé [myš]lenky."
+      - "Jak velkolepá jsou tvá díla, Hos/po[di]ne,"
+      - "jak hluboké tvé [myš]len/ky."
 
 tII:
   nedele:
