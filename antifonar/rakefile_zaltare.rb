@@ -128,7 +128,7 @@ file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_ind
 end
 
 # versiky
-file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
+file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |t|
   require 'yaml'
   src = YAML.load File.open t.prerequisites[0]
   File.open(t.name, 'w') do |o|
@@ -137,8 +137,8 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
         midday = []
         hours.each do |hname, versicle|
           v, r = versicle.collect {|s| 
-            s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>')
-              .gsub(/(?<foo>\w+)\[/, '\k<foo>\-[')
+            s.gsub(/\](?<foo>[^\s]+)/, ']\-\k<foo>')
+              .gsub(/(?<foo>[^\s]+)\[/, '\k<foo>\-[')
               .gsub('[', '\underline{').gsub(']', '}')
               .gsub('/', '\-')
           }
