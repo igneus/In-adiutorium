@@ -381,7 +381,7 @@ module PsalmPreprocessor
       end
       
       if s.rindex("+") then # lines ending with flex or asterisk:
-        s.gsub!(" +", "~\\dag\\mbox{} ")
+        s.gsub!(" +", "\\flexa ")
       elsif s.rindex("*") then
         s.gsub!(" *", "\\asterisk ")
       end
