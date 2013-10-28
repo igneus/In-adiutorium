@@ -137,7 +137,10 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml'] do |t|
         midday = []
         hours.each do |hname, versicle|
           v, r = versicle.collect {|s| 
-            s.gsub('[', '\-\underline{').gsub(']', '}\-').gsub('/', '\-') 
+            s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>')
+              .gsub(/(?<foo>\w+)\[/, '\k<foo>\-[')
+              .gsub('[', '\underline{').gsub(']', '}')
+              .gsub('/', '\-')
           }
           
           vid = '\versik' + wname.upcase + dname + hname.capitalize
