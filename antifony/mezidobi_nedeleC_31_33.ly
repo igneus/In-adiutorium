@@ -2,10 +2,14 @@
 
 \markup {\nadpisDen {"31. neděle"}}
 
+% v commune o posveceni kostela je antifona, ktera tento text
+% obsahuje, ale kdybych z ni vynal fragment melodie, nebylo by
+% to pekne, tak jsem slozil novou.
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c( d) d \barMin c c d c( b g) g \barMin
+    a g f g( a) a a g g \barFinalis
   }
   \addlyrics {
     Za -- che -- e, pojď rych -- le do -- lů;
@@ -13,8 +17,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "C"
     id = ""
