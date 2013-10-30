@@ -22,4 +22,4 @@ running LilyPond over them
 * .ly files in other directories are included in other ones and shouldn't be compiled themselves
 * in directory 'antifonar' volumes of the Czech antiphonal may be compiled by running rake tasks (run 'rake -T' to see what is available)
 
-LilyPond version: LilyPond 2.17.17 is currently being used in development.
+LilyPond version: LilyPond 2.17.24 is currently being used in development.
