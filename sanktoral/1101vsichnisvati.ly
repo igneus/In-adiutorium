@@ -369,7 +369,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d d( c a) d( c d) f( e d) d \barMaior
-    f e f g( d) d e( c) d \barMin c( b a) g g a a \barFinalis
+    f e f g( d) d e( c) d \barMin c( b a) g a g g  \barFinalis
   }
   \addlyrics {
     Vi -- děl jsem stát před trů -- nem
@@ -377,7 +377,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
     id = ""
@@ -391,7 +391,7 @@
     d4 d d d d( f e c) c( d) \barMin
     c b( c) c b c a g( a) a \barMaior
     g f g a a c( d e) c d( c) b \barMin
-    a g a b( c) a g( a) a \barFinalis
+    a g a b( c) a g g \barFinalis
   }
   \addlyrics {
     Bůh je pou -- ze zkou -- šel
@@ -401,7 +401,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 116-II"
     id = ""
