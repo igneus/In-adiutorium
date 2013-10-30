@@ -27,17 +27,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a( b c b) b \barMin a a a g g( a) g e e \barFinalis
   }
   \addlyrics {
     Dnes při -- šla do to -- ho -- to do -- mu spá -- sa.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = ""
@@ -46,18 +46,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c( d) c c b a a( b) b( a) \barMin
+    a g( a c) c( b) g a g f e e \barFinalis
   }
   \addlyrics {
-    Syn člo -- vě -- ka při -- šel hle -- dat a za -- chrá -- nit,
-    co za -- hy -- nu -- lo.
+    Syn člo -- vě -- ka při -- šel hle -- dat 
+    a za -- chrá -- nit, co za -- hy -- nu -- lo.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -70,7 +71,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( a' bes a) a \barMin
+    g( a) f e f d d \barFinalis
   }
   \addlyrics {
     Bůh nás vzkří -- sí
@@ -78,8 +80,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
@@ -88,9 +90,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a a( c) c c \barMin a( c) c c g g \barMaior
+    a a a a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
@@ -98,8 +101,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
@@ -108,9 +111,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a( c) c b a b a \barMin g a a( c) c( d) \barMaior
+    c c b( g) g \barMin a( g f) a a g g \barFinalis
   }
   \addlyrics {
     Bůh ne -- ní Bo -- hem mrt -- vých, a -- le ži -- vých,
@@ -118,8 +122,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = ""
