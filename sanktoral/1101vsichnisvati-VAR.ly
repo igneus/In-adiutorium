@@ -744,7 +744,7 @@ a přebývají v_nebeské slávě. -
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( c a) d( c d) f( e d) d \barMaior
     f e f g( d) d e( c) \mark\sipka d \barMin c( b a) g g a a \barFinalis
@@ -758,6 +758,84 @@ a přebývají v_nebeské slávě. -
     modus = "IV alt"
     differentia = "d" 
     psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d d d( f e c) c( d) \barMin
+    c b( c) c b c a g( a) a \barMaior
+    g f g a a c( d e) c d( c) b \barMin
+    a g a b( c) a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou 
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = "Žalm 116-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 1.vii
+
+\markup\justify{
+  Zdá se, že antifony původně složené jako modu IV alt. 
+  ve skutečnosti lépe padnou do VII (první více než druhá):
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( c a) d( c d) f( e d) d \barMaior
+    f e f g( d) d e( c) d \barMin c( b a) g \mark\sipka a g g  \barFinalis
+  }
+  \addlyrics {
+    Vi -- děl jsem stát před trů -- nem
+    ve -- li -- ký zá -- stup sva -- tých ze všech ná -- ro -- dů.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d( f e c) c( d) \barMin
+    c b( c) c b c a g( a) a \barMaior
+    g f g a a c( d e) c d( c) b \barMin
+    a g a b( c) a \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou 
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d" 
+    psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -811,30 +889,6 @@ a přebývají v_nebeské slávě. -
 }
 
 \pageBreak
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    d4 d d d d( f e c) c( d) \barMin
-    c b( c) c b c a g( a) a \barMaior
-    g f g a a c( d e) c d( c) b \barMin
-    a g a b( c) a g( a) a \barFinalis
-  }
-  \addlyrics {
-    Bůh je pou -- ze zkou -- šel
-    a shle -- dal, že jsou ho hod -- ni;
-    pro -- to ob -- dr -- ží z_je -- ho ru -- kou 
-    od -- mě -- nu věč -- né slá -- vy.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d" 
-    psalmus = "Žalm 116-II"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
 
 \score {
   \relative c' {
