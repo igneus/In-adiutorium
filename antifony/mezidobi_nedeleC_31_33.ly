@@ -134,9 +134,10 @@
 \markup {\nadpisDen {"33. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g a a( g) g \barMin
+    f f f f g g g f d \barFinalis
   }
   \addlyrics {
     Dej -- te si po -- zor,
@@ -144,8 +145,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = ""
@@ -156,17 +157,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f e d c e( f d) d \barMaior
+    f f g f g a f e f \barMin 
+    f f g e d d \barMaior
+    d d d c c d d d \barFinalis
   }
   \addlyrics {
     Já vám dám vý -- mluv -- nost i moud -- rost,
-    kte -- ré ne -- do -- ve -- dou o -- do -- lat a -- ni od -- po -- ro -- vat
+    kte -- ré ne -- do -- ve -- dou o -- do -- lat 
+    a -- ni od -- po -- ro -- vat
     žád -- ní va -- ši pro -- tiv -- ní -- ci.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = ""
@@ -175,9 +180,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( c d) c( b) c a a4.( g) \barMin 
+    f4 g a a b( a) g( a g) g \barFinalis
   }
   \addlyrics {
     Vy -- tr -- va -- los -- tí
@@ -185,10 +191,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
+    fial = "commune/commune_apostol.ly#nona"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
