@@ -43,7 +43,8 @@
     c4 d d c c \barMin b a b( a) g \barMaior
     a g f g a g( a) g \barMax
     f a c b c c \barMin
-    c c c b( d) c( b) a \barMin a g f g4. g \barFinalis
+    c c c b( d) c( b) a \barMin a g f g g \barMaior
+    g a g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
