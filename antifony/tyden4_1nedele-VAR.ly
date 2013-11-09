@@ -174,6 +174,58 @@
   }
 }
 
+\markup\nadpisSkupiny 1.1
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a \mark\sipka g( c) c \barMaior
+    c4 d c a b4. g \barMin
+    a4 f e f( g) g \barMaior
+    g a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g( c) c \barMaior
+    \mark\sipka c4 c c( d) d c c \barMin
+    a4 g a a( g) g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně, 
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \markup\justify{
@@ -187,7 +239,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) b \barMaior
     a g a b d d \barMin
