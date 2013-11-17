@@ -85,6 +85,7 @@
     psalmus = ""
     annus = "C"
     id = ""
+    placet = "r - banalni"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
