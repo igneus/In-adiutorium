@@ -19,6 +19,10 @@ require 'psalmpreprocessor.rb'
 require 'ostruct'
 require 'yaml'
 
+if RUBY_VERSION.split('.')[0].to_i < 2 then
+  STDERR.puts "WARNING: typographus expects ruby 2.0.x, you're running #{RUBY_VERSION}."
+end
+
 module Typographus
 
   class Typographus
