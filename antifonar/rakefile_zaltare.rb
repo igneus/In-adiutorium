@@ -179,7 +179,7 @@ task :zaltar => ["antifonar_zaltar.pdf"]
 # vytvari slozky po 12 stranach (3 listy A4 uprostred prehnute a slozene do sebe)
 file 'vystup/antifonar_zaltar-broz.pdf' => ["vystup/antifonar_zaltar.pdf"] do |t|
   nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
-  sh "pdfbook -o vystup --booklet false --signature 12 --suffix broz #{nws}.pdf"
+  sh "pdfbook -o vystup --booklet false --signature 16 --suffix broz #{nws}.pdf"
 end
 
 desc "Psalter arranged for printing"
