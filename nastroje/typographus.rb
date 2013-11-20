@@ -40,7 +40,9 @@ module Typographus
       @utils_dir = utils_dir
 
       @setup = OpenStruct.new @@default_setup
-      @psalmpreprocessor_setup = {:output_dir => @setup.generated_dir}
+      @psalmpreprocessor_setup = {
+        :output_dir => @setup.generated_dir
+      }
       @musicsplitter_setup = {
         :remove_headers => true,
         :prepend_text => '',
@@ -232,7 +234,9 @@ module Typographus
       src, id = decode_fial fial
 
       score = @split_music_files[src][id]
-      psalm_tone = "#{score.header['modus']}-#{score.header['differentia']}"
+      mod = score.header['modus'].gsub(' ', '')
+      diff = score.header['differentia'].gsub('*', 'x').gsub(' ', '')
+      psalm_tone = "#{mod}-#{diff}"
 
       return prepare_generic_score 'psalmodie.ly#'+psalm_tone
     end
@@ -241,7 +245,7 @@ module Typographus
     # to a psalm file name
 
     def psalm_fname(name)
-      name = name.downcase.gsub(' ', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
+      name = name.downcase.gsub(' ', '').gsub('-', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
 
       if name !~ /^zalm/ then
         name = 'kantikum_' + name
