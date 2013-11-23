@@ -33,7 +33,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     fons = "první část je z invitatoria Narození Jana Křtitele"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -58,7 +58,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +80,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -100,7 +100,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -132,7 +132,7 @@
   \header {
     quid = "resp."
     modus = "VII"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -156,7 +156,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -178,7 +178,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 116-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -220,7 +220,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -242,7 +242,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Zj 4"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -274,7 +274,7 @@
   \header {
     quid = "resp."
     modus = "VII"
-    id = ""
+    id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -296,7 +296,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

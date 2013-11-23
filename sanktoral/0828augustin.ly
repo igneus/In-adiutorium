@@ -31,6 +31,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Benedictus"
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -55,6 +56,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Magnificat"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

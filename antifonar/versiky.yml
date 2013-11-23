@@ -1,0 +1,374 @@
+# ve starych ceskych liturgickych knihach se versiculus casto
+# preklada "verssik" a mne se to libi, tak jsem tak -
+# v dnesnim chapani ponekud nevazne - nazval i tento soubor
+
+tI:
+  nedele:
+    cteni:
+      - "Kristova nauka ať je u vás ve své plné [sí]le:"
+      - "modře se navzájem poučujte a napo[mí]nejte."
+    tercie:
+      - "Nakloň mé srdce, Bože, k svým přiká[zá]ním,"
+      - "a budu je věrně zacho[vá]vat."
+    sexta:
+      - "Navěky, Hospodine, trvá tvé [slo]vo,"
+      - "od pokolení do pokolení je tvá [věr]nost."
+    nona:
+      - "Volám z celého srdce: vyslyš mě, Hospo[di]ne,"
+      - "tvé příkazy chci zacho[vá]vat."
+  pondeli:
+    cteni:
+      - "Pouč mě, Hospodine, ať zachovám tvůj [zá]kon"
+      - "a chráním ho celým svým [srd]cem."
+    tercie:
+      - "Tys má pomoc, Hospodine, neza[vr]huj mě,"
+      - "neopouštěj mě, Bože, můj spasi[te]li."
+    sexta:
+      - "Ustavičně chci velebit Hospo[di]na,"
+      - "vždy bude v mých ústech jeho [chvá]la."
+    nona:
+      - "Vysvoboď mě, Hospodine, a smiluj se [na]de mnou;"
+      - "ve shromáždění tě budu [chvá]lit."
+  utery:
+    cteni:
+      - "Hospodin učí pokorné správně [jed]nat,"
+      - "vede je po svých [ces]tách."
+    tercie:
+      - "Hospodin neodepře štěstí ne/vin[né]mu,"
+      - "blaze tomu, kdo v něho [dou]fá."
+    sexta:
+      - "Bože, tobě se líbí upřímné [srd]ce,"
+      - "ve skrytu mě učíš [mou]drosti."
+    nona:
+      - "Bože, jednej se mnou podle svého milo[sr]denství,"
+      - "a nauč mě svým [pří]kazům."
+  streda:
+    cteni:
+      - "Všichni Ježíšovi přisvěd[čo]vali,"
+      - "a divili se milým slovům [z je]ho úst."
+    tercie:
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "pouč mě o svých [stez]kách."
+    sexta:
+      - "Tvoji kněží ať obléknou sprave[dl]nost,"
+      - "a tvoji zbožní ať se rozjá[sa]jí."
+    nona:
+      - "Hospodinovo oko bdí nad těmi, kdo se ho [bo]jí,"
+      - "nad těmi, kdo doufají v jeho [mi]lost."
+  ctvrtek:
+    cteni:
+      - "Otevři mé oči, [Pa]ne,"
+      - "ať pozoruji divy tvého [zá]kona."
+    tercie:
+      - "Všechna díla Páně, velebte [Pá]na,"
+      - "chvalte a oslavujte ho [na]věky."
+    sexta:
+      - "Velebnost a vznešenost ho před/chá[ze]jí,"
+      - "moc a nádhera jsou v jeho [sva]tyni."
+    nona:
+      - "Nebesa vypravují o Boží [slá]vě,"
+      - "a dílo jeho rukou zvěstuje [ob]loha."
+  patek:
+    cteni:
+      - "Můj synu, pamatuj na má [slo]va,"
+      - "dbej na mé příkazy, a [bu]deš žít."
+    tercie:
+      - "Hospodinovo jednání je jen láska a [věr]nost"
+      - "pro ty, kdo plní jeho smlouvu a naří[ze]ní."
+    sexta:
+      - "V prachu leží má duše, Hospo[di]ne,"
+      - "pozvedni mě [k ži]votu."
+    nona:
+      - "Hospodin je milosrdný a milos[ti]vý,"
+      - "shovívavý a nadmíru dobro[ti]vý."
+  sobota:
+    cteni:
+      - "Pojďte, pozorujte Boží [skut]ky,"
+      - "které učinil k úžasu [ze]mě."
+    tercie:
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "veď mě ve své pravdě a [uč] mě."
+    sexta:
+      - "Hospodine, očisť mě od chyb, jež jsou mi [skry]ty,"
+      - "chraň svého služebníka před zpup[nos]tí."
+    nona:
+      - "Jak velkolepá jsou tvá díla, Hos/po[di]ne,"
+      - "jak hluboké tvé [myš]len/ky."
+
+tII:
+  nedele:
+    cteni:
+      - "Blahoslavené jsou vaše oči, že [vi]dí,"
+      - "a vaše uši, že [sly]ší."
+    tercie:
+      - "Navěky chci zpívat o Hospodinových [mi]lostech,"
+      - "po všechna pokolení hlásat svými ústy tvou [věr]nost."
+    sexta:
+      - "Kéž k tobě přijde mé volání, Hospo[di]ne,"
+      - "pouč mě svým [slo]vem."
+    nona:
+      - "Hospodin je mé světlo a má [spá]sa,"
+      - "Hospodin je záštita mého [ži]vota."
+  pondeli:
+    cteni:
+      - "Veď mě ve své pravdě a [uč] mě,"
+      - "neboť ty jsi Bůh, můj [spa]sitel."
+    tercie:
+      - "Stvoř mi čisté srdce, [Bo]že,"
+      - "neodvrhuj mě od své [tvá]ře."
+    sexta:
+      - "U Boha je má spása a [slá]va,"
+      - "v něm je mé úto[čiš]tě."
+    nona:
+      - "Hospodin je můj pastýř, nic nepo[strá]dám,"
+      - "dává mi prodlévat na svěžích [past]vinách."
+  utery:
+    cteni:
+      - "Nauč mě dobrotě, moudrosti a [vě]dění,"
+      - "neboť důvěřuji tvým [před]pisům."
+    tercie:
+      - "Hospodinova spása je blízko těm, kteří se ho [bo]jí,"
+      - "těm, kteří se k němu obracejí celým svým [srd]cem."
+    sexta:
+      - "Otče svatý, zachovej nás ve svém [jmé]nu,"
+      - "ať jsme v dokonalé [jed]notě."
+    nona:
+      - "Bože, shromáždi nás ze všech [ná]rodů,"
+      - "abychom chválili tvé svaté [jmé]no."
+  streda:
+    cteni:
+      - "Doufám v Hospo[di]na,"
+      - "má duše doufá v jeho [slo]vo."
+    tercie:
+      - "Hospodin je spravedlivý, má rád spravedlivé [skut]ky,"
+      - "zbožní uzří [je]ho tvář."
+    sexta:
+      - "Hospodine, Bože zástupů, kdo je [ja]ko ty?"
+      - "Jsi mocný a tvá věrnost tě obklo[pu]je."
+    nona:
+      - "Zkoumej mě, Bože, a poznej mé [srd]ce,"
+      - "veď mě cestou [od]věkou."
+  ctvrtek:
+    cteni:
+      - "Pane, ke komu [pů]jdeme?"
+      - "Ty máš slova věčného [ži]vota."
+    tercie:
+      - "Bože, pouč mě o smyslu svých naří[ze]ní,"
+      - "naplň mé srdce [lás]kou."
+    sexta:
+      - "Bože, ty jsi zdroj všeho [do]bra,"
+      - "uč mě chtít, [co] chceš ty."
+    nona:
+      - "Ukaž mi, Hospodine, cestu, po níž mám [krá]čet,"
+      - "tvůj Duch ať mě vede a [chrá]ní."
+  patek:
+    cteni:
+      - "Mé oči toužebně vyhlížejí tvou [po]moc,"
+      - "spoléhám na tvá zaslí[be]ní."
+    tercie:
+      - "Podporuj mě podle svého slibu, abych [byl] živ,"
+      - "nezklam mou [na]ději."
+    sexta:
+      - "U Hospodina je slito[vá]ní,"
+      - "hojné je u něho vykou[pe]ní."
+    nona:
+      - "Hospodin vysvobodil můj život [ze] smrti,"
+      - "budu před ním kráčet v zemi [ži]vých."
+  sobota:
+    cteni:
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "pouč mě o svých [stez]kách."
+    tercie:
+      - "Bázeň před Hospodinem je upřímná a trvá [na]věky,"
+      - "Hospodinovy výroky jsou pravdivé, všechny jsou spraved[li]vé."
+    sexta:
+      - "Voď mě po stezce svých předpisů, Hospo[di]ne,"
+      - "neboť v ní mám zalí[be]ní."
+    nona:
+      - "Mým dědictvím navěky jsou tvá přiká[zá]ní,"
+      - "jsou radostí mého [srd]ce."
+
+tIII:
+  nedele:
+    cteni:
+      - "Můj synu, dbej na má [slo]va,"
+      - "uchovej je hluboko [v srd]ci!"
+    tercie:
+      - "U tebe, Hospodine, je pramen [ži]vota,"
+      - "v tvé záři vidíme [svět]lo."
+    sexta:
+      - "Veleb, duše má, Hospo[di]na,"
+      - "on vykupuje tvůj život ze zá[hu]by."
+    nona:
+      - "Hospodin vodil a chránil [svůj] lid"
+      - "a přivedl ho do své svaté [ze]mě."
+  pondeli:
+    cteni:
+      - "Slyš, můj lide, budu [mlu]vit,"
+      - "slyš můj hlas, já jsem [tvůj] Bůh."
+    tercie:
+      - "Hospodinovy oči hledí na spraved[li]vé,"
+      - "k jejich volání se kloní [je]ho sluch."
+    sexta:
+      - "Bože, daruj nám svůj [ži]vot,"
+      - "abychom se v tobě rado[va]li."
+    nona:
+      - "Zpívejte Hospodinu, jeho [věr]ní,"
+      - "vzdávejte díky jeho svatému [jmé]nu!"
+  utery:
+    cteni:
+      - "Kéž mohu slyšet, co mluví Hospo[din], Bůh:"
+      - "jistě mluví o pokoji [pro] svůj lid."
+    tercie:
+      - "Hospodin bude soudit svět podle [prá]va,"
+      - "vynese spravedlivý rozsudek nad [ná]rody."
+    sexta:
+      - "Hospodine, ty slyšíš toužebné volání [u]bohých,"
+      - "vyslyš nás a posilni naše [srd]ce."
+    nona:
+      - "Hospodin vysvobozuje chudáka, jehož se nikdo neu[jí]má,"
+      - "zachraňuje ubožákům [ži]vot."
+  streda:
+    cteni:
+      - "Hospodine, tvé slovo osvě[cu]je,"
+      - "nezkušenému dává [moud]rost."
+    tercie:
+      - "Ať jásají a plesají, kdo tě hledají, Hospo[di]ne,"
+      - "ať tě mohou stále [ve]lebit."
+    sexta:
+      - "Ať spočine na nás, Hospodine, tvé milo[sr]denství,"
+      - "jak doufáme [v te]be."
+    nona:
+      - "Pokorní budou vlastnit [ze]mi,"
+      - "budou se těšit z hlubokého [kli]du."
+  ctvrtek:
+    cteni:
+      - "U tebe, Hospodine, je pramen [ži]vota,"
+      - "v tvé záři vidíme [svět]lo."
+    tercie:
+      - "Ty jsi Bůh, který činí [di]vy,"
+      - "národům jsi dal poznat [svou] moc."
+    sexta:
+      - "Blízko je Hospodin všem, kdo ho [vzý]vají,"
+      - "slyší jejich [vo]lání."
+    nona:
+      - "Děkuji ti, Hospodine, žes mě [vy]slyšel,"
+      - "a stal se mou [spá]sou."
+  patek:
+    cteni:
+      - "Ukaž mi své cesty, Hospo[di]ne,"
+      - "pouč nás o svých [stez]kách."
+    tercie:
+      - "Naše srdce se raduje v Hospo[di]nu,"
+      - "důvěřujeme v jeho svaté [jmé]no."
+    sexta:
+      - "Hospodinovy předpisy jsou správné, působí radost [srd]ci,"
+      - "Hospodinův rozkaz je jasný, osvětluje [o]či."
+    nona:
+      - "Kéž se pozná na zemi, Hospodine, jak [jed]náš,"
+      - "kéž poznají všechny národy, jak zachra[ňu]ješ."
+  sobota:
+    cteni:
+      - "Hospodine, tvé milosrdenství sahá až [do] nebes,"
+      - "tvoje věrnost až [k ob]lakům."
+    tercie:
+      - "Kdo přináší oběť chvály, [ten] mě ctí,"
+      - "kdo žije správně, tomu ukážu Boží [spá]su."
+    sexta:
+      - "Hle, jak je dobré a milé, když bratři bydlí [po]spolu:"
+      - "Hospodin jim uděluje požeh[ná]ní."
+    nona:
+      - "S radostí kráčím po cestě tvých přikázání, [Bo]že,"
+      - "nezapomenu na tvá [slo]va."
+tIV:
+  nedele:
+    cteni:
+      - "Boží slovo je plné [ži]vota,"
+      - "je ostřejší než každý dvojseč[ný] meč."
+    tercie:
+      - "Touží, ba prahne má duše po Hospodinových [sí]ních,"
+      - "mé srdce i mé tělo s jásotem tíhnou k živému [Bo]hu."
+    sexta:
+      - "Hospodine, kdo smí prodlévat v tvém [stán]ku?"
+      - "Ten, kdo žije bez vady a upřímně smýšlí ve svém [srd]ci."
+    nona:
+      - "Miluji tě, Hospodine, má [sí]lo,"
+      - "můj zachránce a spasi[te]li."
+  pondeli:
+    cteni:
+      - "Hospodine, miluji tvůj [zá]kon,"
+      - "rozjímám o tvých přiká[zá]ních."
+    tercie:
+      - "Blaze národu, jehož Bohem je [Hos]podin,"
+      - "blaze lidu, který si vyvolil za svůj [ma]jetek."
+    sexta:
+      - "Pane, ty jsi Bůh milosrdný a milos[ti]vý,"
+      - "váhavý k hněvu, svrchovaně laskavý a [věr]ný."
+    nona:
+      - "Rozpomeň se, Hospodine, na své slito[vá]ní,"
+      - "na milosrdenství, které trvá [věč]ně."
+  utery:
+    cteni:
+      - "Slyš, můj lide, mé nau[če]ní,"
+      - "naslouchej slovům [mých] úst!"
+    tercie:
+      - "Blaze muži, který se slitovává a [půj]čuje,"
+      - "bude ve věčné [pa]měti."
+    sexta:
+      - "Svítilnou mým nohám je tvé slovo, Hospo[di]ne,"
+      - "je světlem na mé [stez]ce."
+    nona:
+      - "Hospodin sesílá svůj rozkaz [na] zemi,"
+      - "rychle běží jeho [slo]vo."
+  streda:
+    cteni:
+      - "Pouč mě, Hospodine, o smyslu svých naří[ze]ní,"
+      - "a budu rozjímat o tvých [di]vech."
+    tercie:
+      - "Dobré je chválit Hospo[di]na,"
+      - "opěvovat jeho svaté [jmé]no."
+    sexta:
+      - "Přinesu ti, Hospodine, oběť [dí]ků,"
+      - "a budu vzývat tvé [jmé]no."
+    nona:
+      - "Ty jsi, Hospodine, mým dědičným podílem a mou [čí]ší,"
+      - "ty mně zachováváš můj [ú]děl."
+  ctvrtek:
+    cteni:
+      - "Jasnou tvář ukaž svému služebníku, Hospo[di]ne,"
+      - "nauč mě svým [pří]kazům."
+    tercie:
+      - "Hospodine, zastaň se spraved[li]vého,"
+      - "ty zkoumáš srdce i [led]ví."
+    sexta:
+      - "Doufej v Hospodina a čiň [do]bro,"
+      - "pak budeš přebývat v bezpečí a těšit se [kli]du."
+    nona:
+      - "Doufám v Hospo[di]na,"
+      - "má duše doufá v jeho [slo]vo."
+  patek:
+    cteni:
+      - "Slyš mě, můj [sy]nu,"
+      - "neodchyluj se od slov [mých] úst."
+    tercie:
+      - "Hospodinova láska trvá od věků [na] věky"
+      - "pro ty, kteří zachovávají jeho [smlou]vu."
+    sexta:
+      - "Chvalte Hospodina, neboť je [do]brý,"
+      - "jeho milosrdenství trvá [na]věky."
+    nona:
+      - "Bože buď naším [o]chráncem,"
+      - "smiluj se kvůli svému Poma[za]nému."
+  sobota:
+    cteni:
+      - "Nepřestáváme se za vás [mod]lit,"
+      - "abyste dobře poznali Boží [vů]li."
+    tercie:
+      - "Pojďte, pozorujte mé [skut]ky,"
+      - "uznejte, že [já] jsem Bůh."
+    sexta:
+      - "Hospodin miluje svůj [ná]rod"
+      - "a pokorné zdobí [ví]tězstvím."
+    nona:
+      - "Budu tě oslavovat, můj Bože, [krá]li,"
+      - "budu velebit tvé jméno po všechny [vě]ky."

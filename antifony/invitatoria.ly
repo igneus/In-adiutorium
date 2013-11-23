@@ -49,19 +49,11 @@ tIpondeliInvitatorium = \score {
   }
 }
 
-pojdmeKlanmeSeI = { 
-  d( f) f \barMin g f f e d e( f) d \barMin
-}
-
-pojdmeKlanmeSeCele = { 
-  \pojdmeKlanmeSeI 
-  c d f e c4. d \barFinalis
-}
-
 tIuteryInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    \pojdmeKlanmeSeCele
+    d( f) f \barMin g f f e d e( f) d \barMin 
+    c d f e c4. d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
@@ -100,7 +92,8 @@ tIstredaInvitatorium = \score {
 tIctvrtekInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    \pojdmeKlanmeSeCele
+    d( f) f \barMin g f f e d e( f) d \barMin 
+    c d f e c4. d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
@@ -143,7 +136,7 @@ tIpatekInvitatorium = \score {
 tIsobotaInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    \pojdmeKlanmeSeI
+    d( f) f \barMin g f f e d e( f) d \barMin 
     d4 d f e f f( g) g \barMin
     g a a f e d d \barFinalis
   }
@@ -210,7 +203,8 @@ tIIpondeliInvitatorium = \score {
 tIIuteryInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    \pojdmeKlanmeSeCele
+    d( f) f \barMin g f f e d e( f) d \barMin 
+    c d f e c4. d \barFinalis
   }
   \addlyrics {
      Pojď -- me, klaň -- me se Hos -- po -- di -- nu,

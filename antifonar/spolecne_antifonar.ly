@@ -75,12 +75,11 @@ choralAutoPiece = \markup {
 % Choralni "pomlky" (divisiones)
 
 barMin = {
-  \breathe
-  \bar ""
+  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5) 
+  \bar "|" 
 }
 barMaior = {
-  \once \override Staff.BarLine #'extra-offset = #'(0 . 2)
-  \once \override Staff.BarLine #'bar-extent = #'(-3 . -1) 
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
   \bar "|" 
 }
 barMax = { \bar "|" }
@@ -118,3 +117,6 @@ neviditelna = #(define-music-function (parser location note)
   #})
 
 sestavTitulek = \markup {}
+
+% oznacuje volitelne aleluja na konci
+rubrVelikAleluja = \markup\small\italic{V době velikonoční:}

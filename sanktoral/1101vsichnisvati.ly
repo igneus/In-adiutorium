@@ -43,7 +43,8 @@
     c4 d d c c \barMin b a b( a) g \barMaior
     a g f g a g( a) g \barMax
     f a c b c c \barMin
-    c c c b( d) c( b) a \barMin a g f g4. g \barFinalis
+    c c c b( d) c( b) a \barMin a g f g g \barMaior
+    g a g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
@@ -175,6 +176,81 @@
     id = ""
     notitia = "text není doslovně podle beviáře, ale zachovává smysl"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
+    
+    e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
+    a g bes a( g a4.) d, \barMin f4 f e f c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, náš Pa -- ne,
+    jak po -- di -- vu -- hod -- né je tvé jmé -- no po ce -- lé ze -- mi!
+    
+    Slá -- vou a ctí jsi o -- věn -- čil své sva -- té
+    a dals jim vlád -- nout nad dí -- lem svých ru -- kou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2" 
+    psalmus = "Žalm 8"
+    fons = "sanktoral/0705cyrilametodej.ly#2ne-a2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f bes a g a g \barMaior
+    g g f e d d g( a bes) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant." 
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 15"
+    fons = "antifony/tyden1_2pondeli.ly#ne-ant2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( g) g g g( a g) g( a) a \barMin
+    a( b c) a b( c) a( g) g \barMin
+    e g a a \barMaior
+    a a a a g( f) e d \barMin f d f f e e \barFinalis
+  }
+  \addlyrics {
+    Svým sva -- tým jsi u -- ká -- zal
+    ces -- tu k_ži -- vo -- tu,
+    Hos -- po -- di -- ne,
+    na -- pl -- níš je ra -- dos -- tí
+    z_pat -- ře -- ní na te -- be.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 16"
+    id = ""
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -369,7 +445,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d d( c a) d( c d) f( e d) d \barMaior
-    f e f g( d) d e( c) d \barMin c( b a) g g a a \barFinalis
+    f e f g( d) d e( c) d \barMin c( b a) g a g g  \barFinalis
   }
   \addlyrics {
     Vi -- děl jsem stát před trů -- nem
@@ -377,7 +453,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
     id = ""
@@ -391,7 +467,7 @@
     d4 d d d d( f e c) c( d) \barMin
     c b( c) c b c a g( a) a \barMaior
     g f g a a c( d e) c d( c) b \barMin
-    a g a b( c) a g( a) a \barFinalis
+    a g a b( c) a g g \barFinalis
   }
   \addlyrics {
     Bůh je pou -- ze zkou -- šel
@@ -401,7 +477,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 116-II"
     id = ""

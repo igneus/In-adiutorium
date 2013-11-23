@@ -20,7 +20,9 @@ $lamed mem nun samech ajin pe sade res sin tau )
 $roman_numbers = %w( i ii iii iv v vi vii viii ix x xi xii )
 
 $psalmname_re = /(?<num>\d+)(?<suff>\w*)/
-$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>[ivx]*)/
+$canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>\w*)/
+
+$canticles_number_in_name = ['1sam', '1kron', '1petr', '1tim']
 
 
 # indentation level
@@ -53,6 +55,8 @@ def hour_title(line)
          "\\idxNesporyI"
        when "modlitba se čtením"
          "\\idxModlitbaSeCtenim"
+       when "vigilie"
+         "\\idxVigilie"
        when "ranní chvály"
          "\\idxRanniChvaly"
        when "modlitba uprostřed dne"
@@ -74,14 +78,17 @@ def content(line)
       # most probably two text codes and a text between them
       while (i = rt.index("(")) do
         # process token before the brace:
-        tokens << [:ps, rt[0..i-1].strip]
+        if i > 1 then
+          tokens << [:ps, rt[0..i-1].strip]
+        end
         # the braced text:
         j = rt.index ")", i
         tokens << [:txt, rt[i+1..j-1]]
         rt = rt[j+1..-1]
       end
       # token after brace:
-      if rt.strip! != "" then
+      rt.strip!
+      if rt != "" then
         tokens << [:ps, rt]
       end
     else
@@ -93,6 +100,7 @@ def content(line)
   psalms = []
   
   #puts "\\begin{idxObsahHory}"
+
 
   tokens.each_with_index do |t,ti|
     t[1].strip!
@@ -106,7 +114,8 @@ def content(line)
       if t[1] == "rchne1t" then
         # puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
         puts "\\laudyNedelePrvnihoTydne"
-      elsif t[1] != '1petr2' && t[1] != '1tim3' && t[1] =~ /^\d+\w*$/ then
+      elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
+          t[1] =~ /^\d+\w*$/ then
         # psalm
         prettyt = psalm_name_pretty t[1]
         print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
@@ -114,6 +123,7 @@ def content(line)
       else
         # canticle
         sigle = canticle_name_pretty t[1]
+        
         print "\\textRef{kant#{t[1]}}{#{sigle}}"
       end
       # for both psalms and canticles:
@@ -160,10 +170,17 @@ def psalm_name_pretty(p)
 end
  
 def canticle_name_pretty(c)
+  special_booknames = {'pr' => 'Př', 'plac' => 'Pláč'}
+
   cp = c.match $canticlename_re
 
   book = cp[:bookcode]
-  book[0] = book[0].upcase
+
+  if special_booknames.include? book then
+    book = special_booknames[book]
+  else
+    book[0] = book[0].upcase
+  end
   
   sigle = book + ' ' + cp[:chapter]
 
@@ -173,6 +190,10 @@ def canticle_name_pretty(c)
 
   suff = cp[:suff]
   if suff != "" then
+    if suff[0] == 'c' then
+      suff.slice!(0)
+    end
+
     # nothing
     if $roman_numbers.member? suff
       suff.upcase!

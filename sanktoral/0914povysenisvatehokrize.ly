@@ -159,6 +159,139 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hle, Kris -- tův kříž!
+    Prch -- ně -- te, ne -- přá -- tel -- ské mo -- ci!
+    Zví -- tě -- zil lev z_Ju -- do -- va kme -- ne,
+    Da -- vi -- dův po -- to -- mek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
+    před ním se skloň kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 8"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    ty je -- di -- ný jsi byl ho -- den
+    nést Krá -- le a Pá -- na ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 96"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response Na -- ší je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta:
+    v_něm je na -- še na -- dě -- je, ži -- vot a vzkří -- še -- ní,_*
+    skr -- ze něj jsme spa -- se -- ni a vy -- svo -- bo -- ze -- ni.
+    \Verse Kříž zna -- me -- nal smrt,
+    a -- le stal se nám stro -- mem ži -- vo -- ta._*
+    \Response Skrze.
+  }
+  \header {
+    quid = "1. resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+    % R
+    \neviditelna a
+    
+    % V
+    \neviditelna a
+    
+    % R
+    \neviditelna a
+    
+    % Slava
+  }
+  \addlyrics {
+    \Response Slav -- ný kří -- ži,
+    na to -- bě vi -- sel Kris -- tus,
+    vy -- da -- ný za na -- ši spá -- su._*
+    Na to -- bě byl vy -- kou -- pen svět
+    kr -- ví na -- še -- ho Pá -- na.
+    \Verse Buď po -- zdra -- ven, kří -- ži,
+    Kris -- to -- vým tě -- lem jsi byl po -- svě -- cen
+    a je -- ho ú -- dy o -- zdo -- ben ja -- ko dra -- ho -- ka -- my._*
+    \Response Na to -- bě.
+  }
+  \header {
+    quid = "2. resp."
+    modus = ""
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

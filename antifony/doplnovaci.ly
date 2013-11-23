@@ -19,7 +19,8 @@
     differentia = "a" 
     psalmus = "Žalm 120"
     id = ""
-    fons = "žaltář, pondělí 4.t., r.ch., 3. ant."
+    fons = "žaltář, pondělí 4.t., up., 3. ant."
+    fial = "antifony/tyden4_2pondeli.ly#up-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -122,6 +123,7 @@
     psalmus = "Žalm 125"
     id = ""
     fons = "jen začátek podle žaltář, út 3.t., nešp., 1. ant."
+    fial = "antifony/tyden3_3utery#ne-ant1?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -150,9 +152,10 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
-    f4 g a bes g g g a( bes) c \barMin
-    a g a a g( f) f \barFinalis
+    f4 d d f e f g a( g f) g \barMaior
+    g a( bes a) g f d( f) e( d) \barFinalis
   }
   \addlyrics {
     Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
@@ -160,11 +163,12 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VI"
-    differentia = "F" 
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 127"
     id = ""
     fons = "žaltář, středa 3. týdne, nešp., 2. ant."
+    fial = "antifony/tyden3_4streda.ly#ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

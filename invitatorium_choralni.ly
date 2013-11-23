@@ -6,7 +6,7 @@
 }
 
 \include "spolecne.ly"
-\include "antifony/invitatoria.ly"
+%\include "antifony/invitatoria.ly"
 
 %{
 \bookpart {

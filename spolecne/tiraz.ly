@@ -15,8 +15,8 @@ licenceCcAsU = \markup {
   }
 }
 inAdiutorium = \markup {
-  \with-url #"http://inadiutorium.xf.cz" {
-    In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
+  \with-url #"http://www.inadiutorium.cz" {
+    In adiutorium - noty k liturgii hodin (http://www.inadiutorium.cz)
   }
 }
 
@@ -30,7 +30,7 @@ tirazVelka = \markup {
 }
 
 tirazMala = \markup { 
-  \with-url #"http://inadiutorium.xf.cz" {
+  \with-url #"http://www.inadiutorium.cz" {
     In adiutorium
   }
   - 

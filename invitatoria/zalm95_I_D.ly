@@ -43,7 +43,7 @@ zalmXCVtonusID = \score {
     a( g f) g( a) g( f) e \breathe e g f e e c( d) d( e4. d) \strofa
     
     % Ctyricet let
-    d4( a') bes( a) g a a a a a a a a a a g a( bes) a \bar "|"
+    d4( a') bes( a) g a a a a a a a a g a( bes) a a( g) a \bar "|"
     f g a a a a a g a( bes) a a( g) a \bar "|"
     a a a g f e( d e) d \bar "|"
     d f g a a a a g a( bes a) a \bar "|"

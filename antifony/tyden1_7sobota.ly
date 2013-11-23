@@ -8,7 +8,10 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-\markup\italic{V době adventní a vánoční:}
+\markup\italic{
+  V době adventní a vánoční, 
+  postní a velikonoční:
+}
 
 \score {
   \relative c' {
@@ -67,73 +70,6 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D" 
-    psalmus = "Žalm 105-III"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\markup\italic{V době postní a velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Zpí -- vej -- te Hos -- po -- di -- nu,
-    pa -- ma -- tuj -- te na di -- vy,
-    kte -- ré vy -- ko -- nal.
-    
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "1. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = "Žalm 105-I"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Když byl spra -- ved -- li -- vý pro -- dán,
-    Hos -- po -- din ho ne -- o -- pus -- til,
-    a -- le chrá -- nil ho před hříš -- ní -- ky.
-    
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "2. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = "Žalm 105-II"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
-    a vy -- svo -- bo -- dil svůj lid.
-    
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "3. ant."
-    modus = ""
-    differentia = "" 
     psalmus = "Žalm 105-III"
     id = ""
     piece = \markup {\sestavTitulek}

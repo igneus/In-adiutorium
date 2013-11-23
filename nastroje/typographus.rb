@@ -19,6 +19,10 @@ require 'psalmpreprocessor.rb'
 require 'ostruct'
 require 'yaml'
 
+if RUBY_VERSION.split('.')[0].to_i < 2 then
+  STDERR.puts "WARNING: typographus expects ruby 2.0.x, you're running #{RUBY_VERSION}."
+end
+
 module Typographus
 
   class Typographus
@@ -31,12 +35,14 @@ module Typographus
       :output_dir => 'vystup',
       :doxology => false
     }
-    
+
     def initialize(fpath, utils_dir)
       @utils_dir = utils_dir
 
       @setup = OpenStruct.new @@default_setup
-      @psalmpreprocessor_setup = {:output_dir => @setup.generated_dir}
+      @psalmpreprocessor_setup = {
+        :output_dir => @setup.generated_dir
+      }
       @musicsplitter_setup = {
         :remove_headers => true,
         :prepend_text => '',
@@ -67,8 +73,8 @@ module Typographus
 
     def make_dirs
       [:generated_dir, :output_dir].each do |d|
-        if ! FileTest.directory?(@setup[d]) then
-          Dir.mkdir @setup[d]
+        if ! FileTest.directory?(@setup.send(d)) then
+          Dir.mkdir @setup.send(d)
         end
       end
     end
@@ -116,7 +122,7 @@ module Typographus
         end
         pp = true
       end
-      
+
       if conf.include? 'splitscores' then
         conf['splitscores'].each_pair do |k,v|
           @musicsplitter_setup[k.to_sym] = v
@@ -162,7 +168,7 @@ module Typographus
 
       l.gsub!(/\\setIncludes\{(.*)\}/) do
         unless @split_music_files.empty?
-          STDERR.puts "Warning: setting common includes when some music files " + 
+          STDERR.puts "Warning: setting common includes when some music files " +
             "(#{@split_music_files.keys.join(', ')}) are already processed."
         end
         incs = $1.split(',').collect {|s| s.strip}
@@ -181,8 +187,12 @@ module Typographus
         prepare_generic_score $1
       end
 
+      l.gsub!(/\\antiphon\{(.*)\}/) do
+        prepare_generic_score($1) + "\n\n"
+      end
+
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
-        r = prepare_generic_score($1) + "\n\n" 
+        r = prepare_generic_score($1) + "\n\n"
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone($1) + "\n\n"
         end
@@ -195,7 +205,7 @@ module Typographus
 
     def prepare_generic_score(fial)
       src, id = decode_fial fial
-      
+
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
       return "\\lilypondfile{#{score_path}}"
@@ -216,15 +226,27 @@ module Typographus
         raise "Psalm information not found in score #{score}."
       end
 
-      processed = @psalmpreprocessor.preprocess(psalm_fname(score.header['psalmus']))
-      return "\\input{#{processed[0]}}"
+      if score.header['modus'] != nil then
+        tone = "-t '#{score.header['modus']}.#{score.header['differentia']}'"
+      else
+        tone = ''
+      end
+
+      psalmf = psalm_fname(score.header['psalmus'])
+      processed = File.join('generovane', File.basename(psalmf).sub(/\.zalm$/, '.tex'))
+      
+      puts "pslm.rb #{tone} -s bold -o #{processed} #{psalmf}"
+      `pslm.rb #{tone} -o #{processed} #{psalmf}`
+      return "\\input{#{processed}}"
     end
 
     def prepare_psalm_tone(fial)
       src, id = decode_fial fial
 
       score = @split_music_files[src][id]
-      psalm_tone = "#{score.header['modus']}-#{score.header['differentia']}"
+      mod = score.header['modus'].gsub(' ', '')
+      diff = score.header['differentia'].gsub('*', 'x').gsub(' ', '')
+      psalm_tone = "#{mod}-#{diff}"
 
       return prepare_generic_score 'psalmodie.ly#'+psalm_tone
     end
@@ -233,7 +255,7 @@ module Typographus
     # to a psalm file name
 
     def psalm_fname(name)
-      name = name.downcase.gsub(' ', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
+      name = name.downcase.gsub(' ', '').gsub('-', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
 
       if name !~ /^zalm/ then
         name = 'kantikum_' + name
@@ -246,7 +268,11 @@ module Typographus
 
     def decode_fial(fial)
       if fial[0] != '#' then
-        fial_parsed = FIAL.new(fial)
+        begin
+          fial_parsed = FIAL.new(fial)
+        rescue
+          raise "Failed to read fial '#{fial}'."
+        end
         src = fial_parsed.path
         id = fial_parsed.id
 
