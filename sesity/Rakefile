@@ -1,0 +1,15 @@
+
+file 'nedele_povoxu_2013.lytex' => ['nedele_povoxu_2013.tytex', '../psalmodie.ly', 'kristakrale.ly'] do |t|
+  sh "ruby ../nastroje/typographus.rb #{t.prerequisites[0]}"
+end
+
+file 'vystup/nedele_povoxu_2013.tex' => ['nedele_povoxu_2013.lytex'] do |t|
+  sh "lilypond-book --format=latex --output=vystup #{t.prerequisites[0]}"
+end
+
+file 'vystup/nedele_povoxu_2013.pdf' => ['vystup/nedele_povoxu_2013.tex'] do |t|
+  chdir 'vystup'
+  sh "pdflatex #{File.basename t.prerequisites[0]}"
+end
+
+task :povox => 'vystup/nedele_povoxu_2013.pdf'

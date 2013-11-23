@@ -1,0 +1,177 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.5cm, right=1cm, top=1.5cm, bottom=2cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
+
+\input{../antifonar/spolecne.tex}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\cast}[1]{\begin{flushright}\textsc{#1}\end{flushright}}
+
+\renewcommand{\versik}[2]{
+\noindent \textbf{V.} #1\\
+\textbf{R.} #2
+}
+
+\newcommand{\zalmVersUpozorneni}[1]{}
+
+\newenvironment{psalmus}{}{}
+
+\begin{document}
+
+\setChantBasedir{../}
+\setPsalmsDir{../antifonar/zalmy/}
+\setConfig{nedele.yml} % it is just ok
+\setIncludes{../antifonar/spolecne_antifonar.ly, ../dilyresponsorii.ly}
+
+\setChantSource{mezidobi_kristakrale.ly}
+
+\pagestyle{empty}
+
+\vspace*{3cm}
+
+\begin{center}
+{\Large Ježíše Krista Krále} \vspace{3mm}
+
+\textit{slavnost} 
+
+\vspace{2cm}
+
+{\Large {modlitba se čtením a ranní chvály}}
+
+\vfill
+
+In adiutorium
+      
+\onlyyeardate \today
+\end{center}
+
+\pagebreak
+
+\nadpisHodinka{invitatorium}
+
+\versik{Pane, otevři mé rty.}{A má ústa tě budou chválit.}
+
+\antiphon{#invit}
+
+\nadpisHodinka{modlitba se čtením}
+
+\cast{hymnus}
+
+\simpleScore{sesity/kristakrale.ly#hymnus-mc}
+
+Tys vinný kořen, k tobě kdo připojen, je v církvi tvé, /
+k spasení vydává plody mnohé, /
+ale kdo se odtrhne, ten se života zbavuje, /
+údem mrtvým jsa, zahyne.
+
+Tys jistá pravda, není v tobě křivda, bezpečnost má, /
+ve víře tvé pravé kdo zůstává; /
+ale kdo jinak věří, tak, jak slovo tvé nevelí, /
+cestou zahynutí běží.
+
+Tys světlo pravé, tvé učení zdravé; ve tmách zhyne, /
+koho drahé světlo tvoje mine; /
+bez tvého osvícení není pravého umění, /
+ale v bludy zavedení.
+
+Máš život věčný, sám v sobě bezpečný, který dáváš /
+těm, jež v společenství svoje voláš; /
+smrti zlé se nebojí, kdo v slovech tvých pevně stojí, /
+ze světa jde v tvém pokoji.
+
+Opatruj nás ty sám, neb tys Bůh náš i Pán, čeleď jsme tvá, /
+ať tvůj odpůrce v nás místa nemá, /
+od všelikého zlého vyprosť každého věrného, /
+přiveď do království svého.
+
+\cast{žalmy}
+
+\antiphonWithPsalm{#mc-a1}
+
+\antiphonWithPsalm{#mc-a2}
+\pagebreak
+
+\antiphonWithPsalm{#mc-a3}
+\pagebreak
+
+\versik{Dám tě národům jako světlo,}{aby se má spása rozšířila až do končin země.}
+
+\cast{responsorium po 1. čtení}
+
+\responsory{#mc-resp1}
+
+\cast{responsorium po 2. čtení}
+
+\responsory{#mc-resp2}
+
+\vfill
+
+
+\nadpisHodinka{ranní chvály}
+
+\cast{hymnus}
+
+\simpleScore{sesity/kristakrale.ly#hymnus-rch}
+
+My jsme tebou stvořeni, /
+obraz tvůj učiněni, /
+k tobě se přiznáváme, /
+tebe za Pána máme.
+
+Jsa věčným Slovem božským, /
+učiněns tělem lidským, /
+jímžs nás všechny vykoupil, /
+kdyžs těžkou smrt podstoupil.
+
+V něm nyní již kraluješ, /
+v nebi, v zemi panuješ, /
+jsa Bůh pravý a věčný, /
+a my lid tvůj dědičný.
+
+My jsme draze koupeni, /
+krví tvou zaplaceni, /
+ty jsi náš Pán jediný, /
+nemá k nám práva jiný.
+
+Ó Ježíši velebný, /
+Pane a Králi slavný, /
+dej se v slávě viděti, /
+věčně s tebou bydleti.
+
+\vfill
+
+\pagebreak
+\cast{žalmy}
+
+\antiphonWithPsalm{#rch-a1}
+\pagebreak
+
+\antiphonWithPsalm{#rch-a2}
+
+\antiphonWithPsalm{#rch-a3}
+
+\pagebreak
+\cast{responsorium}
+
+\responsory{#rch-resp}
+
+\cast{Zachariášovo kantikum}
+
+\antiphonWithPsalm{#rch-aben}
+
+\rubrika{Následují přímluvy, modlitba Páně a závěrečná modlitba.}
+
+\versik{Dej nám, Bože, své požehnání, chraň nás všeho zlého, a doveď nás do života věčného.}{Amen.}
+
+
+\end{document}
