@@ -35,7 +35,7 @@ module Typographus
       :output_dir => 'vystup',
       :doxology => false
     }
-    
+
     def initialize(fpath, utils_dir)
       @utils_dir = utils_dir
 
@@ -122,7 +122,7 @@ module Typographus
         end
         pp = true
       end
-      
+
       if conf.include? 'splitscores' then
         conf['splitscores'].each_pair do |k,v|
           @musicsplitter_setup[k.to_sym] = v
@@ -168,7 +168,7 @@ module Typographus
 
       l.gsub!(/\\setIncludes\{(.*)\}/) do
         unless @split_music_files.empty?
-          STDERR.puts "Warning: setting common includes when some music files " + 
+          STDERR.puts "Warning: setting common includes when some music files " +
             "(#{@split_music_files.keys.join(', ')}) are already processed."
         end
         incs = $1.split(',').collect {|s| s.strip}
@@ -188,11 +188,11 @@ module Typographus
       end
 
       l.gsub!(/\\antiphon\{(.*)\}/) do
-        prepare_generic_score($1) + "\n\n" 
+        prepare_generic_score($1) + "\n\n"
       end
 
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
-        r = prepare_generic_score($1) + "\n\n" 
+        r = prepare_generic_score($1) + "\n\n"
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone($1) + "\n\n"
         end
@@ -205,7 +205,7 @@ module Typographus
 
     def prepare_generic_score(fial)
       src, id = decode_fial fial
-      
+
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
       return "\\lilypondfile{#{score_path}}"
@@ -226,8 +226,18 @@ module Typographus
         raise "Psalm information not found in score #{score}."
       end
 
-      processed = @psalmpreprocessor.preprocess(psalm_fname(score.header['psalmus']))
-      return "\\input{#{processed[0]}}"
+      if score.header['modus'] != nil then
+        tone = "-t '#{score.header['modus']}.#{score.header['differentia']}'"
+      else
+        tone = ''
+      end
+
+      psalmf = psalm_fname(score.header['psalmus'])
+      processed = File.join('generovane', File.basename(psalmf).sub(/\.zalm$/, '.tex'))
+      
+      puts "pslm.rb #{tone} -s bold -o #{processed} #{psalmf}"
+      `pslm.rb #{tone} -o #{processed} #{psalmf}`
+      return "\\input{#{processed}}"
     end
 
     def prepare_psalm_tone(fial)
