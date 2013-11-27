@@ -168,6 +168,14 @@
 
 \bookpart {
   \header {
+    subtitle = "Adventní neděle - ant. k Benedictus a Magnificat - cyklus A"
+  }
+
+  \include "antifony/advent_nedeleA.ly"
+}
+
+\bookpart {
+  \header {
     subtitle = "Adventní neděle - ant. k Benedictus a Magnificat - cyklus B"
   }
 
