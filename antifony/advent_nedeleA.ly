@@ -27,7 +27,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d d f d f e( d) e \barMin
+    d d d d d( e) c a c c( d) d \barMaior
+    f f f g d d \barMin
+    d e d e d c d f e d c c d d \barFinalis
   }
   \addlyrics {
     Kdy -- by hos -- po -- dář vě -- děl,
@@ -38,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -47,20 +50,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( a) f( g) g( a) \barMin
+    a b c d( c) a( b g) g \barMin a f( e) d \barMaior
+    f f( g) g \barMin
+    a( b) a b c a g g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý na te -- be se -- stou -- pí, Ma -- ri -- a:
+    Duch sva -- tý 
+    na te -- be se -- stou -- pí, Ma -- ri -- a:
     Ne -- boj se,
     poč -- neš Bo -- ží -- ho Sy -- na.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -118,7 +126,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4 c c c( d) d \barMin f f g f d e d d \barMaior
+    a' a c c a b a a \barMin a c a b c a \barMaior
+    a a a a a( g f) \barMin
+    d d f d f c( d) d \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
@@ -128,13 +139,15 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {3. neděle adventní}}
 
@@ -257,3 +270,5 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%}
