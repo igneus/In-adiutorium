@@ -16,7 +16,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D" 
     psalmus = ""
     id = ""
