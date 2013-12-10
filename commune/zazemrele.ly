@@ -30,6 +30,76 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \barMin d a bes c d d \barMaior
+    d d f e f g g f \barMin
+    e( f) e d d \barMaior
+    d d d( c) c( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, můj Vy -- ku -- pi -- te -- li,
+    tě -- lo, kte -- rés mi u -- tvo -- řil
+    z_pra -- chu ze -- mě,
+    pro -- buď k_ži -- vo -- tu v_den po -- sled -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 40-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin f e f d \barMaior
+    f f g g d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď mě, Hos -- po -- di -- ne,
+    na po -- moc mi po -- spěš.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 40-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( b) a g a a \barMin 
+    f g f d d \barMaior
+    d d e d( c) c \barMin
+    f g f g f d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še žíz -- ní po Bo -- hu,
+    po ži -- vém Bo -- hu:
+    kdy už smím při -- jít
+    a spat -- řit Bo -- ží tvář?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 42"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

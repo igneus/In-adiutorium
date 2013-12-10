@@ -3,6 +3,11 @@
 % Predpokladane balicky: 
 % datetime, hyperref
 
+%
+% spolecna nastaveni
+%
+
+\setlength{\parindent}{0.4cm}
 
 %
 % Titulni strana a tiraz svazku antifonare.
@@ -37,6 +42,20 @@
       \onlyyeardate \today
     \end{center}
   \end{titlepage}
+}
+
+\newcommand{\patitulSvazkuAntifonare}{
+  \begin{center}
+    \soubornyNazev
+
+    \nazev
+  \end{center}
+
+  \vfill
+}
+
+\newcommand{\frontispisSvazkuAntifonare}{
+  \mbox{}
 }
 
 \newcommand{\tirazProjekt}{
@@ -177,6 +196,7 @@
   \begin{center}
   \textbf{#1}
   \end{center}
+  \nopagebreak
 }
 
 \newcommand{\modlitbaSeCtenim}{
@@ -217,6 +237,10 @@
   \nadpisHodinkaVIndexu{MČ}
 }
 
+\newcommand{\idxVigilie}{
+  \nadpisHodinkaVIndexu{VI}
+}
+
 \newcommand{\idxRanniChvaly}{
   \nadpisHodinkaVIndexu{RCH}
 }
@@ -248,13 +272,13 @@
 % a tak umoznoval "prilepeni" predchazejici rubriky.
 \newcommand{\nadpisZalmuBezMezery}[1]{%
 
-  % Nepouziva prostredi center, protoze to si svevolne pridava
-  % dodatecny vertikalni prostor
-  \begingroup\centering%
+  % prostredi center si svevolne pridava
+  % dodatecny vertikalni prostor - musime ho tedy umele ubrat:
+  \vspace{-5mm}%
+  \begin{center}%
     \textbf{#1}%
-  \endgroup%
-  \vspace{3mm}%
-  \nopagebreak
+  \end{center}%
+  \nopagebreak%
 }
 
 % obvykle napr. "zalm 94"
@@ -265,6 +289,8 @@
   \end{center}%
   \nopagebreak%
 }
+
+\newcommand{\titulusPsalmi}[1]{\nadpisZalmu{#1}}
 
 
 % Napr. "hymnus", "responsorium", "zalmy"
@@ -277,8 +303,8 @@
 }
 
 % rubrikovany text - treba i pro vlozeni do nerubrikovaneho
-\newcommand{\rubr}[1]{
-  \textit{#1}
+\newcommand{\rubr}[1]{%
+  \textit{#1}%
 }
 
 % rubrika - samostatna
@@ -310,8 +336,23 @@
   \rubrikaMezera
 }
 
+% mezera pred hvezdickou pulici vers zalmu muze byt v pripade potreby
+% zcela zkomprimovana
+\newcommand{\asterisk}{%
+\nobreak\hskip \fontdimen1\font plus \fontdimen2\font minus \fontdimen1\font
+* }
+
+\newcommand{\flexa}{%
+\nobreak\hskip \fontdimen1\font plus \fontdimen2\font minus \fontdimen1\font
+\dag\mbox{} }
+
 \newcommand{\znackaStrofaZalmu}{ 
   \rubr{--}
+}
+
+\newcommand{\doxologieZkratka}{%
+  \nopagebreak%
+  \hspace{\fill}\mbox{}\linebreak[0]\hspace*{\parindent}\mbox{Sláva Otci.}%
 }
 
 % horizontalni cara dlouha jako pul stranky siroky sloupec sloupec
@@ -319,3 +360,26 @@
 \newcommand{\oddelovac}{
 \noindent \line(1,0){150}
 }
+
+
+% z logiky liturgickych knih by znacky pro versiky mely byt
+% rubrikovane, ne tucne. Zkousel jsem to, to ale v okoli zanikaji
+% a myslim ze je dobre je vyrazne odlisit od psalmodie, ktera je alespon
+% v zaltari bez not obklopuje
+\newcommand{\versikCteni}[2]{
+  
+  \vspace{3mm}
+  \noindent \textbf{V.} #1\\
+  \textbf{O.} #2
+}
+\newcommand{\versik}[3]{
+
+  \vspace{1mm}
+  \rubrika{#1}\\
+  \noindent \textbf{V.} #2\\
+  \textbf{O.} #3
+}
+\newcommand{\versikTercie}[2]{\versik{dopoledne:}{#1}{#2}}
+\newcommand{\versikSexta}[2]{\versik{v poledne:}{#1}{#2}}
+\newcommand{\versikNona}[2]{\versik{odpoledne:}{#1}{#2}}
+

@@ -47,6 +47,8 @@ cislazalmu_zaltar = %w( 95 100 67 24
                   119tau
 
                   30i 30ii 86i 96i 96ii
+
+                  4 134 91 86 143 31 130 16 88
                   ) + %w(
                   1 2 3
                   6 9i 9ii
@@ -94,13 +96,22 @@ dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_zaltar)
+# Te Deum, taky bez doxologie
+zalmyzaltare << genzalm('tedeum.zalm', $commonoptions_withoutdoxology+' --skip-title', adresar_zaltar)
 # ostatni kantika
 %w( fp2 ef1 zj4 kol1 zj11 zj15
 
 1kron29 tob13i jdt16 jer31 iz45 ex15 
 dan3ii sir36 iz38 1sam2 iz12 hab3 
-dt32 iz2 iz26 iz33 iz40 jer14 mdr9
-iz42 dan3i iz61 iz66 tob13ii ez36 ).each do |kk| 
+dt32 iz2 iz26 iz33ii iz40ii jer14 mdr9
+iz42 dan3i iz61 iz66 tob13ii ez36 
+
+iz33i sir36b tob13cii tob13ciii 
+iz2ci jer7 iz61cii iz62 sir39 
+iz61ci mdr3i mdr3ii mdr10 
+jer17 sir14 sir31 
+iz49 iz40i plac5 iz63 oz6 sof3 iz9 
+pr9 mdr16 1sam2i 1sam2ii ).each do |kk| 
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
@@ -109,12 +120,49 @@ zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', options_zaltar+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
+zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
+# index svatecnich zalmu
 file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
 end
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex']+zalmyzaltare do
+# versiky
+file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |t|
+  require 'yaml'
+  src = YAML.load File.open t.prerequisites[0]
+  File.open(t.name, 'w') do |o|
+    src.each do |wname, days|
+      days.each do |dname, hours|
+        midday = []
+        hours.each do |hname, versicle|
+          v, r = versicle.collect {|s| 
+            s.gsub(/\](?<foo>[^\s]+)/, ']\-\k<foo>')
+              .gsub(/(?<foo>[^\s]+)\[/, '\k<foo>\-[')
+              .gsub('[', '\underline{').gsub(']', '}')
+              .gsub('/', '\-')
+          }
+          
+          vid = '\versik' + wname.upcase + dname + hname.capitalize
+
+          o.puts "\\newcommand{#{vid}}{\\versik#{hname.capitalize}{#{v}\n}{#{r}\n}}\n\n"
+          
+          if hname != 'cteni' then
+            midday << vid
+          end
+        end
+        
+        did = '\versiky' + wname.upcase + dname + 'Uprostred'
+        macros = midday.join "\n"
+        o.puts "\\newcommand{#{did}}{#{macros}}"
+      end
+    end
+  end
+
+  sh "vlna #{t.name}"
+end
+
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex']+zalmyzaltare do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
@@ -129,9 +177,9 @@ task :zaltar => ["antifonar_zaltar.pdf"]
 # prehnou, poskladaji do sebe a uprostred sesiji), zaltar je velky a
 # nasledujici uloha ho chysta vazbu -
 # vytvari slozky po 12 stranach (3 listy A4 uprostred prehnute a slozene do sebe)
-file 'vystup/antifonar_zaltar-broz.pdf' => ["antifonar_zaltar.pdf"] do |t|
+file 'vystup/antifonar_zaltar-broz.pdf' => ["vystup/antifonar_zaltar.pdf"] do |t|
   nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
-  sh "pdfbook -o vystup --signature 12 --suffix broz #{nws}.pdf"
+  sh "pdfbook -o vystup --booklet false --signature 16 --suffix broz #{nws}.pdf"
 end
 
 desc "Psalter arranged for printing"

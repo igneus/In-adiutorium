@@ -9,12 +9,12 @@
            \line{"T: český liturgický překlad Bible a"}
            \line{"Denní modlitba církve"}
   }
-  dedication = \markup\tiny\column{
-    "Té, kterou jsem nikdy neměl nějak zvlášť rád," 
-    "přestože jsem chtěl vstoupit do řádu, který se považuje za řád její;"
-    "které přesto patří řada mých nejkrásnějších melodií;"
-    "a o slavnosti jejíhož Nanebevzetí jsem tento nápěv napsal."
-  }
+  dedication = "Paní Nanebevzaté" %\markup\tiny\column{
+  %  "Té, kterou jsem nikdy neměl nějak zvlášť rád," 
+  %  "přestože jsem chtěl vstoupit do řádu, který se považuje za řád její;"
+  %  "které přesto patří řada mých nejkrásnějších melodií;"
+  %  "a o slavnosti jejíhož Nanebevzetí jsem tento nápěv napsal."
+  %}
 }
 
 \layout {

@@ -20,7 +20,7 @@
     g^\markup\rubrVelikAleluja a( b) a a \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci na ze -- mi 
+    Mu -- čed -- ní -- ci na ze -- mi_* 
     pro Kris -- ta mno -- ho vy -- tr -- pě -- li,
     a bez -- peč -- ně do -- sáh -- li věč -- né od -- mě -- ny.
     
@@ -39,14 +39,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c( b) c d d( e) e \barMin d e d c d d a a \barMaior
-    a a b g e e f f( e) e \barMin e f g a( b a) a \barFinalis
+    a4 a c( b) c d d( e) e \barMin 
+    d e d c d d a a \barMaior
+    a a b g e e f f( e) e \barMin 
+    e f g a( b a) a \barFinalis
     
     g^\markup\rubrVelikAleluja a b a \barFinalis
   }
   \addlyrics {
-    Sva -- tí ví -- těz -- ně do -- šli do ne -- bes -- ké -- ho krá -- lov -- ství
-    a ob -- dr -- že -- li z_Bo -- žích ru -- kou ko -- ru -- nu slá -- vy.
+    Sva -- tí ví -- těz -- ně do -- šli_* 
+    do ne -- bes -- ké -- ho krá -- lov -- ství
+    a ob -- dr -- že -- li z_Bo -- žích ru -- kou 
+    ko -- ru -- nu slá -- vy.
     
     A -- le -- lu -- ja.
   }
@@ -70,7 +74,7 @@
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci po -- lo -- ži -- li ži -- vot pro Kris -- ta
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
     a bu -- dou žít na -- vě -- ky.
     
     A -- le -- lu -- ja.
@@ -130,7 +134,7 @@
     a a( d c) b( g a) a( g) \barMin f( g) a g g \barFinalis
   }
   \addlyrics {
-    Ne -- bes -- ké krá -- lov -- ství pat -- ří těm,
+    Ne -- bes -- ké krá -- lov -- ství_* pat -- ří těm,
     kdo o -- bě -- to -- va -- li svůj ži -- vot pro Kris -- ta.
     Rou -- cho si vy -- pra -- li v_Be -- rán -- ko -- vě kr -- vi
     a do -- sáh -- li věč -- né slá -- vy.
@@ -187,7 +191,7 @@
     g a g g \barFinalis
   }
   \addlyrics {
-    Věč -- né svět -- lo sví -- tí tvým sva -- tým, Pa -- ne,
+    Věč -- né svět -- lo_* sví -- tí tvým sva -- tým, Pa -- ne,
     pat -- ří jim ce -- lá věč -- nost.
     A -- le -- lu -- ja.
   }
@@ -244,7 +248,7 @@
     e^\markup\rubrVelikAleluja f( d) f( e) e \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci pro -- li -- li 
+    Mu -- čed -- ní -- ci pro -- li -- li_* 
     na ze -- mi pro Kris -- ta svou krev,
     pro -- to do -- stá -- va -- jí 
     za od -- mě -- nu věč -- ný ži -- vot.
@@ -317,7 +321,7 @@
     g^\markup\rubrVelikAleluja a a a \barFinalis
   }
   \addlyrics {
-    Kris -- to -- vi mu -- čed -- ní -- ci
+    Kris -- to -- vi mu -- čed -- ní -- ci_*
     v_bo -- les -- tech o -- bra -- ce -- li svou my -- sl k_ne -- bi
     a vo -- la -- li:
     Pa -- ne, po -- má -- hej nám!
@@ -345,7 +349,7 @@
     a g( a) g g \barFinalis
   }
   \addlyrics {
-    Du -- še spra -- ved -- li -- vých,
+    Du -- še spra -- ved -- li -- vých,_*
     zpí -- vej -- te s_an -- dě -- ly 
     Bo -- hu chva -- lo -- zpěv.
     A -- le -- lu -- ja.
@@ -369,7 +373,7 @@
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci Pá -- ně,
+    Mu -- čed -- ní -- ci Pá -- ně,_*
     ve -- leb -- te Pá -- na na -- vě -- ky.
   }
   \header {
@@ -393,7 +397,7 @@
     c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
-    Zá -- stu -- py mu -- čed -- ní -- ků,
+    Zá -- stu -- py mu -- čed -- ní -- ků,_*
     chval -- te Pá -- na na vý -- sos -- tech.
     
     A -- le -- lu -- ja.
@@ -451,7 +455,7 @@
     b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní,
+    Bla -- ho -- sla -- ve -- ní,_*
     kdo jsou pro -- ná -- sle -- do -- vá -- ni 
     pro spra -- ve -- dl -- nost,
     ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
@@ -509,7 +513,7 @@
     g a g( f) f \barFinalis
   }
   \addlyrics {
-    Ra -- duj -- te se a já -- sej -- te, všich -- ni sva -- tí,
+    Ra -- duj -- te se_* a já -- sej -- te, všich -- ni sva -- tí,
     ne -- boť má -- te v_ne -- bi vel -- kou od -- mě -- nu.
     A -- le -- lu -- ja.
   }
@@ -542,7 +546,7 @@
     a^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
   }
   \addlyrics {
-    V_těž -- kém zá -- pa -- su 
+    V_těž -- kém zá -- pa -- su_* 
     je Bůh ve -- dl k_ví -- těz -- ství,
     
     a -- by po -- zna -- li,
@@ -573,7 +577,7 @@
     c^\markup\rubrVelikAleluja e( f) e( d) d \barFinalis
   }
   \addlyrics {
-    Bůh je o -- věn -- čil 
+    Bůh je o -- věn -- čil_* 
     ko -- ru -- nou spra -- ve -- dl -- nos -- ti
     a dal jim ú -- čast 
     na věč -- né slá -- vě.
@@ -601,7 +605,7 @@
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
-    Vy -- chá -- ze -- li s_plá -- čem, 
+    Vy -- chá -- ze -- li s_plá -- čem,_* 
     když nes -- li se -- me -- na k_se -- tí.
     
     A -- le -- lu -- ja.
@@ -629,7 +633,7 @@
     g^\markup\rubrVelikAleluja a( c b c) a( g) g \barFinalis
   }
   \addlyrics {
-    Tě -- la sva -- tých 
+    Tě -- la sva -- tých_* 
     by -- la po -- hřbe -- na v_po -- ko -- ji
     a je -- jich jmé -- no 
     ži -- je na -- vě -- ky.
@@ -649,14 +653,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) f( g) a a \barMin a b c( d) c b c b g a( g) g \barMaior
-    b c( d c) b( a) g g \barMin f g( a) g( a g) f( g) g \barFinalis
+    g4( a g) f( g) a a \barMin 
+    a b c( d) c b c b g a( g) g \barMaior
+    b c( d c) b( a) g g \barMin 
+    f g( a) g( a g) f( g) g \barFinalis
     
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci by -- li za -- bi -- ti pro Bo -- ží slo -- vo
-    a pro svě -- dec -- tví, kte -- ré vy -- da -- li.
+    Mu -- čed -- ní -- ci_* 
+    by -- li za -- bi -- ti pro Bo -- ží slo -- vo
+    a pro svě -- dec -- tví, 
+    kte -- ré vy -- da -- li.
     
     A -- le -- lu -- ja.
   }
@@ -681,7 +689,7 @@
     g^\markup\rubrVelikAleluja a( b) a a \barFinalis
   }
   \addlyrics {
-    Sva -- tí mu -- čed -- ní -- ci 
+    Sva -- tí mu -- čed -- ní -- ci_* 
     vy -- da -- li své tě -- lo pro Bo -- ží zá -- kon,
     a rou -- cho si do -- bě -- la vy -- pra -- li
     v_Be -- rán -- ko -- vě kr -- vi.
@@ -742,7 +750,7 @@
     d d d d( e d) c( b a) a \barMin b( a g) g( a) a \barFinalis
   }
   \addlyrics {
-    Sva -- tí mu -- čed -- ní -- ci 
+    Sva -- tí mu -- čed -- ní -- ci_* 
     se ra -- du -- jí v_ne -- bi,
     pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
     a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
@@ -803,7 +811,7 @@
     g a( b) a a \barFinalis
   }
   \addlyrics {
-    Ra -- duj -- te se, sva -- tí, před Be -- rán -- ko -- vým trů -- nem,
+    Ra -- duj -- te se, sva -- tí,_* před Be -- rán -- ko -- vým trů -- nem,
     v_krá -- lov -- ství,
     kte -- ré je pro vás při -- pra -- ve -- né
     od za -- lo -- že -- ní svě -- ta.

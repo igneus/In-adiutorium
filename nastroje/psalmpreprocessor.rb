@@ -260,6 +260,10 @@ module PsalmPreprocessor
       
       s = remove_accents s # remove the remaining ones
 
+      # remove all syllable-separating slashes;
+      # replace them by a "hyphenable sign"
+      s.gsub!('/', '\-')
+
       return s
     end
     
@@ -295,7 +299,6 @@ module PsalmPreprocessor
 
     def emphasize_preparatory_syllables(s, num_syllables)
       if num_syllables < 1
-        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
         return s
       end
 
@@ -320,9 +323,6 @@ module PsalmPreprocessor
           end
         }
       rescue
-        # verse too short; do nothing, return it, as it is
-        # STDOUT.puts s
-        s = s.gsub('/', '') # remove all remaining syllable-separating slashes
         return s
       end
 
@@ -332,7 +332,6 @@ module PsalmPreprocessor
       else
         s[i] = (s[i] == " " ? " " : "") + op
       end
-      s.gsub!('/', '') # remove all remaining syllable-separating slashes
       
       # STDOUT.puts s
 
@@ -359,7 +358,7 @@ module PsalmPreprocessor
     private
     
     def process_accents(s)
-      return s.gsub(/\](?<foo>\w+)/, ']\-\k<foo>')
+      return s.gsub(/\](?<foo>[^\s]+)/, ']\-\k<foo>').gsub(/(?<foo>[^\s]+)\[/, '\k<foo>\-[') 
     end
   end
   
@@ -382,9 +381,9 @@ module PsalmPreprocessor
       end
       
       if s.rindex("+") then # lines ending with flex or asterisk:
-        s.gsub!(" +", "~\\dag\\mbox{} ")
+        s.gsub!(" +", "\\flexa ")
       elsif s.rindex("*") then
-        s.gsub!(" *", "~* ")
+        s.gsub!(" *", "\\asterisk ")
       end
       
       return s      
@@ -738,6 +737,31 @@ module PsalmPreprocessor
     end
   end
 
+  class OutputAppendStrategy < Strategy
+    # append some text after the last line
+
+    def initialize(io, text)
+      super(io)
+      @text = text
+      @buff = nil
+    end
+
+    def puts(s="\n")
+      if @buff.nil? then
+        @buff = s
+        return
+      end
+
+      @core.puts @buff
+      @buff = s
+    end
+
+    def close
+      @core.puts(@buff.rstrip + @text)
+      @core.close
+    end
+  end
+
   # no more strategy, this one builds the queue of strategies and makes them process
   # the psalm text
 
@@ -758,6 +782,7 @@ module PsalmPreprocessor
       :lettrine => false,
       :prepend_text => nil,
       :append_text => nil,
+      :output_append_text => nil,
       :dashes => false,
       :mark_short_verses => false,
       :paragraph_space => true,
@@ -818,7 +843,7 @@ module PsalmPreprocessor
           if @setup[:append_text] then
             input = AppendInputStrategy.new input, @setup[:append_text]
           end
-          
+                    
           if @setup[:output_file] then
             fwn = @setup[:output_file]
           else
@@ -844,6 +869,10 @@ module PsalmPreprocessor
       output = File.open(fwn, "w")
       
       output = PsalmOutputStrategy.new output
+
+      if @setup[:output_append_text] then
+        output = OutputAppendStrategy.new output, @setup[:output_append_text]
+      end
       
       # order matters! Some of the outputters need to be applied
       # before processing +, * and empty lines.
@@ -987,8 +1016,11 @@ if $0 == __FILE__ then
     opts.on "-p", "--pretitle TEXT", "Text to be printed as beginning of the title." do |t|
       setup[:prepend_text] = t
     end
-    opts.on "-a", "--append TEXT", "Text to be appended at the end." do |t|
+    opts.on "-a", "--append TEXT", "Text to be appended at the end (before processing)." do |t|
       setup[:append_text] = t
+    end
+    opts.on "-A", "--output-append TEXT", "Text to be appended at the end (of the last line after processing)." do |t|
+      setup[:output_append_text] = t
     end
     opts.on "-o", "--output FILE", "Save output to given path." do |out|
       setup[:output_file] = out
