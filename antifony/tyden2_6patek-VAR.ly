@@ -74,6 +74,32 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) \barMin
+    f g a f e e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš 
+    o kaž -- dé mé tou -- ze.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 38-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
