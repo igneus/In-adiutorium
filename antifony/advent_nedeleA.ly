@@ -129,7 +129,7 @@
     c4 c c c( d) d \barMin f f g f d e d d \barMaior
     a' a c c a b a a \barMin a c a b c a \barMaior
     a a a a a( g f) \barMin
-    d d f d f c( d) d \barFinalis
+    d d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
