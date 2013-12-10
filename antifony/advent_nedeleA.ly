@@ -147,14 +147,15 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {3. neděle adventní}}
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4( e d) c( a) a c c( d) d \barMaior
+    f f g g d \barMin d e d c( d) d \barMax
+    d e f g( f) d( e d) d \barMin
+    d( e) c( a) c d d \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se ke mně,
@@ -163,8 +164,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -172,20 +173,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g( a) g f g a a \barMin c( d) c b a c( b a g) g \barMaior
+    g g f e f( g) g g a( b) a g g \barMin a( g) f( e) e \barMaior
+    g( c) d d( c) \barMin d c d c( b) a \barMaior
+    f g a a a( b) a g( a) g g \barFinalis
   }
   \addlyrics {
     Jan sly -- šel ve vě -- ze -- ní o Kris -- to -- vých či -- nech.
     Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky s_do -- ta -- zem:
     Ty jsi ten, kte -- rý má při -- jít,
-    a -- ne -- bo má -- me če -- kat ji -- né -- ho?
+    % a -- ne -- bo 
+    ne -- bo má -- me če -- kat ji -- né -- ho?
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -193,9 +198,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( a) a \barMin a g a a b a g e e( a) a a \barMax
+    e e e( f) e \barMin e e e( a) a g \barMaior
+    a a a b( a g a) a( g) \barMin f g g e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Jdě -- te a o -- znam -- te Ja -- no -- vi, co vi -- dí -- te:
@@ -205,8 +213,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -253,22 +261,3 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    
-  }
-  \addlyrics {
-    
-  }
-  \header {
-    quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
-    psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-%}
