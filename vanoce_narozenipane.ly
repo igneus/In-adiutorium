@@ -50,7 +50,7 @@
       quid = "2. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = "Žalm 147"
+      psalmus = "Žalm 147-II"
       id = "vden-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -148,7 +148,7 @@
       quid = "ant."
       modus = "VI"
       differentia = "F" 
-      psalmus = ""
+      psalmus = "Žalm 95"
       id = "vden-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
