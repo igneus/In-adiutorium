@@ -63,6 +63,8 @@ module Typographus
       make_dirs
 
       process_tytex fpath
+
+      @last_psalm_tone = nil
     end
 
     class << self
@@ -160,6 +162,12 @@ module Typographus
         ''
       end
 
+      l.gsub!(/\\setTmpDir\{(.*)\}/) do
+        @setup.generated_dir = $1
+        make_dirs
+        ''
+      end
+
       l.gsub!(/\\setChantSource\{(.*)\}/) do
         @current_chant_source = $1
         split_music_file @current_chant_source
@@ -196,7 +204,20 @@ module Typographus
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone($1) + "\n\n"
         end
-        r += prepare_psalm($1)
+        r += prepare_psalm_f($1)
+        r
+      end
+
+      l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
+        psalm_tone = $3 
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += prepare_psalm($1, psalm_tone)
         r
       end
 
@@ -208,13 +229,29 @@ module Typographus
 
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
+
+      score = @split_music_files[src][id]
+      if score.header['quid'] and 
+          score.header['quid'].downcase.include? 'ant' and 
+          score.header['modus'] then
+        @last_psalm_tone = "#{score.header['modus']}.#{score.header['differentia']}"
+      end
+      
       return "\\lilypondfile{#{score_path}}"
+    end
+
+    def prepare_psalm(psalm_name, tone)
+      psalmf = psalm_fname(psalm_name)
+      processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '.tex'))
+      
+      `pslm.rb -t '#{tone}' -o #{processed} #{psalmf}`
+      return "\\input{#{processed}}"
     end
 
     # prepares psalm according to the header information of a score
     # identified by it's FIAL
 
-    def prepare_psalm(fial)
+    def prepare_psalm_f(fial)
       src, id = decode_fial fial
 
       if @split_music_files[src][id].nil? then
@@ -227,17 +264,12 @@ module Typographus
       end
 
       if score.header['modus'] != nil then
-        tone = "-t '#{score.header['modus']}.#{score.header['differentia']}'"
+        tone = "#{score.header['modus']}.#{score.header['differentia']}"
       else
         tone = ''
       end
 
-      psalmf = psalm_fname(score.header['psalmus'])
-      processed = File.join('generovane', File.basename(psalmf).sub(/\.zalm$/, '.tex'))
-      
-      puts "pslm.rb #{tone} -s bold -o #{processed} #{psalmf}"
-      `pslm.rb #{tone} -o #{processed} #{psalmf}`
-      return "\\input{#{processed}}"
+      return prepare_psalm score.header['psalmus'], tone
     end
 
     def prepare_psalm_tone(fial)
