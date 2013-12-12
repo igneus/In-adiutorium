@@ -3,7 +3,7 @@
 
 \usepackage[czech]{babel} 
 
-\usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
 \usepackage{datetime} % formaty data
 \usepackage{multicol} % sazba ve sloupcich
@@ -14,6 +14,7 @@
 \usepackage{zref-savepos}
 \usepackage{changepage}
 \usepackage{etoolbox}
+\usepackage{setspace} % upravy radkovani
 
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
@@ -21,7 +22,7 @@
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
 \newcommand{\edicniRada}{výběrová řada}
-\newcommand{\cisloSvazku}{1}
+\newcommand{\cisloSvazku}{2}
 \newcommand{\nazev}{Narození Páně}
 
 \newcommand{\textDoTiraze}{
@@ -49,44 +50,168 @@
 \newenvironment{hora}{}{}
 
 \newenvironment{psalmus}{
-  \begin{multicols}{2}
+  \begin{multicols}{2}%
+    \begin{spacing}{1.1}%
 }{
-  \end{multicols}
+    \end{spacing}%
+  \end{multicols}%
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
 
 \input{spolecne.tex}
 \input{rubriky.tex}
 \input{znacky.tex}
 
-\titulniStrankaSvazkuAntifonare
-
-\prazdnaStranka
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
 \setlength{\columnsep}{20pt} % prostor mezi sloupci
 
+% Typographus
+\setChantBasedir{..}
+\setPsalmsDir{zalmy}
+\setTmpDir{generovane/narozeni}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{vanoce_narozenipane.ly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\titulniStrankaSvazkuAntifonare
+
+\prazdnaStranka
+
+
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage}
 \fancyfoot{}
-
 \pagestyle{fancy}
-%%%
 
 
 \nesporyI
 
+\antiphonWithPsalm{#vden-1ne-a1}
+
+\antiphonWithPsalm{#vden-1ne-a2}
+
+\antiphonWithPsalm{#vden-1ne-a3}
+
+\responsory{#narozeni-1ne-resp}
+
+\antiphonWithPsalm{#vden-1ne-amag}
+
+
+
+\kompletar
+
+\antiphonWithPsalm{kompletar.ly#nei1}
+
+\antiphonWithPsalm{kompletar.ly#nei2}
+
+\responsory{kompletar.ly#resp}
+
+\antiphonWithPsalm{kompletar.ly#sim}
+
+
+
+\invitatorium
+
+\antiphonWithPsalm{#vden-invit}
+
+
+
 \modlitbaSeCtenim
+
+\antiphonWithPsalm{#vden-cte-a1}
+
+\antiphonWithPsalm{#vden-cte-a2}
+
+\antiphon{#vden-cte-a3}
+
+\psalm{Žalm 45-I}
+
+\psalm{Žalm 45-II}
+
+\responsory{#vden-cte-r1}
+
+\responsory{#vden-cte-r2}
+
+
 
 \ranniChvaly
 
+\antiphonWithPsalm{#vden-rch-a1}
+
+\antiphonWithPsalm{#vden-rch-a2}
+
+\antiphonWithPsalm{#vden-rch-a3}
+
+\responsory{#narozeni-rch-resp}
+
+\antiphonWithPsalm{#vden-rch-aben}
+
+
+
 \modlitbaUprostredDne
 
+\rubrika{Pro modlitbu v poledne byla zvolena vlastní psalmodie z formuláře
+  dne, pro dopoledne a odpoledne jsou otištěny žalmy z doplňovacího cyklu.}
+
+\nadpisHodinka{dopoledne}
+
+\antiphon{#vden-atercie}
+
+\psalm{Žalm 120}
+
+\psalm{Žalm 121}
+
+\psalm{Žalm 122}
+
+\nadpisHodinka{v poledne}
+
+\antiphon{#vden-asexta}
+
+\psalm{Žalm 19}
+
+\psalm{Žalm 47}
+
+\psalm{Žalm 48}
+
+\nadpisHodinka{odpoledne}
+
+\antiphon{#vden-anona}
+
+\psalm{Žalm 126}
+
+\psalm{Žalm 127}
+
+\psalm{Žalm 128}
+
+
+
 \nesporyII
+
+\antiphonWithPsalm{#vden-2ne-a1}
+
+\antiphonWithPsalm{#vden-2ne-a2}
+
+\antiphonWithPsalm{#vden-2ne-a3}
+
+\responsory{#narozeni-2ne-resp}
+
+\antiphonWithPsalm{#vden-2ne-amag}
+
+
+
+\kompletar
+
+\antiphonWithPsalm{kompletar.ly#neii}
+
+\responsory{kompletar.ly#resp}
+
+\antiphonWithPsalm{kompletar.ly#sim}
+
 
 \pagebreak
 
