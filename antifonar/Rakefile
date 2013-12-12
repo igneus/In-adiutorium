@@ -44,6 +44,39 @@ task "test_lilypondbook_version" do
   end
 end
 
+def swap_ext(fname, newext)
+  return fname[0 .. fname.rindex('.')]+newext
+end
+
+# generates all necessary tasks to compile a booklet using Typographus
+def typographus(main)
+  outdir = 'vystup'
+  typographus = File.join '..', 'nastroje', 'typographus.rb'
+  
+  main_b = File.basename(main)
+  lytex = swap_ext main_b, 'lytex'
+  tex = File.join(outdir, swap_ext(main_b, 'tex'))
+  final = File.join(outdir, swap_ext(main_b, 'pdf'))
+
+  wd = Dir.pwd
+
+  file lytex => [main, typographus] do |t|
+    ruby typographus, main
+  end
+
+  file tex => [lytex] do |t|
+    sh "lilypond-book --output=#{outdir} --pdf #{t.prerequisites.first}"
+  end
+
+  file final => [tex] do |t|
+    chdir outdir
+    2.times { sh "pdflatex #{File.basename(t.prerequisites.first)}" }
+    chdir wd
+  end
+
+  return final
+end
+
 Rake::Task["test_lilypondbook_version"].execute
 
 def make_dirs(struc)
