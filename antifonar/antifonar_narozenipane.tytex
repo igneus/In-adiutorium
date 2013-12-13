@@ -74,6 +74,18 @@
 \setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
 \setChantSource{vanoce_narozenipane.ly}
 
+\newcommand{\zaverVelkeHodinky}{
+  \simpleScore{zakladni_napevy.ly#konec-pozehnani}
+
+  \rubrika{Není-li přítomen kněz nebo jáhen:}
+
+  \simpleScore{zakladni_napevy.ly#konec-prosba}
+}
+\newcommand{\zaverKompletar}{
+  Dej nám, Bože, pokojnou noc, a posiluj nás, ať vytrváme v dobrém až do konce.
+  \hspace{5mm} \textbf{O.} Amen.
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -91,6 +103,8 @@
 
 \nesporyI
 
+\responsory{zakladni_napevy.ly#zacatek-slavnost}
+
 \antiphonWithPsalm{#vden-1ne-a1}
 
 \antiphonWithPsalm{#vden-1ne-a2}
@@ -101,9 +115,13 @@
 
 \antiphonWithPsalm{#vden-1ne-amag}
 
+\zaverVelkeHodinky
+
 
 
 \kompletar
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
 
 \antiphonWithPsalm{kompletar.ly#nei1}
 
@@ -113,15 +131,23 @@
 
 \antiphonWithPsalm{kompletar.ly#sim}
 
+\zaverKompletar
+
 
 
 \invitatorium
+
+\responsory{zakladni_napevy.ly#zacatek-prvni}
 
 \antiphonWithPsalm{#vden-invit}
 
 
 
 \modlitbaSeCtenim
+
+\rubrika{Pokud modlitba se čtením není první modlitbou dne:}
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
 
 \antiphonWithPsalm{#vden-cte-a1}
 
@@ -137,9 +163,27 @@
 
 \responsory{#vden-cte-r2}
 
+\rubrika{koná-li se vigilie:}
+
+\antiphon{#vden-cte-avig}
+
+\psalm{Iz 26}
+
+\psalm{Iz 40-I}
+
+\psalm{Iz 66} 
+
+\responsory{zakladni_napevy.ly#tedeum}
+
+\simpleScore{zakladni_napevy.ly#dobrorecme2}
+
 
 
 \ranniChvaly
+
+\rubrika{Pokud ranní chvály nejsou první hodinkou dne:}
+
+\responsory{zakladni_napevy.ly#zacatek-nedele}
 
 \antiphonWithPsalm{#vden-rch-a1}
 
@@ -151,12 +195,16 @@
 
 \antiphonWithPsalm{#vden-rch-aben}
 
+\zaverVelkeHodinky
+
 
 
 \modlitbaUprostredDne
 
 \rubrika{Pro modlitbu v poledne byla zvolena vlastní psalmodie z formuláře
   dne, pro dopoledne a odpoledne jsou otištěny žalmy z doplňovacího cyklu.}
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
 
 \nadpisHodinka{dopoledne}
 
@@ -172,7 +220,7 @@
 
 \antiphon{#vden-asexta}
 
-\psalm{Žalm 19}
+\psalm{Žalm 19b}
 
 \psalm{Žalm 47}
 
@@ -188,9 +236,13 @@
 
 \psalm{Žalm 128}
 
+\simpleScore{zakladni_napevy.ly#dobrorecme2}
+
 
 
 \nesporyII
+
+\responsory{zakladni_napevy.ly#zacatek-slavnost}
 
 \antiphonWithPsalm{#vden-2ne-a1}
 
@@ -202,15 +254,21 @@
 
 \antiphonWithPsalm{#vden-2ne-amag}
 
+\zaverVelkeHodinky
+
 
 
 \kompletar
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
 
 \antiphonWithPsalm{kompletar.ly#neii}
 
 \responsory{kompletar.ly#resp}
 
 \antiphonWithPsalm{kompletar.ly#sim}
+
+\zaverKompletar
 
 
 \pagebreak
