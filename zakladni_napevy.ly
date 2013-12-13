@@ -422,7 +422,7 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme"
       piece = ""
     }
   }
@@ -445,7 +445,7 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme2"
       piece = ""
     }
   }
@@ -469,7 +469,7 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme-nd"
       piece = ""
     }
   }
