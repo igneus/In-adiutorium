@@ -159,11 +159,20 @@
 
 \psalm{Žalm 45-II}
 
+\versikSamostatny{Slovo se stalo tělem, aleluja,}{
+  a přebývalo mezi námi, aleluja.}
+
+\rubrika{První čtení - z breviáře. (Iz 11, 1-10.)}
+
 \responsory{#vden-cte-r1}
+
+\rubrika{Druhé čtení - z breviáře. (Z kázání sv. Lva Velikého, PL 54, 190-193.)}
 
 \responsory{#vden-cte-r2}
 
-\rubrika{koná-li se vigilie:}
+\rubrika{Koná-li se vigilie, zpívají se následující kantika s antifonou
+  a čte se evangelium. Jinak se pokračuje rovnou chvalozpěvem
+  \textnormal{Tebe, Bože, chválíme,} str. \pageref{tedeum}.}
 
 \antiphon{#vden-cte-avig}
 
@@ -173,7 +182,12 @@
 
 \psalm{Iz 66} 
 
+\rubrika{Evangelium - z breviáře. (J 20, 19-31.)}
+
+\label{tedeum}
 \responsory{zakladni_napevy.ly#tedeum}
+
+\rubrika{Závěrečná modlitba - z breviáře.}
 
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
 
@@ -216,6 +230,9 @@
 
 \psalm{Žalm 122}
 
+\versikSamostatny{Hospodin se rozpomenul na svou dobrotu, aleluja,}{
+  a na svou věrnost Izraelovu domu, aleluja.}
+
 \nadpisHodinka{v poledne}
 
 \antiphon{#vden-asexta}
@@ -226,6 +243,9 @@
 
 \psalm{Žalm 48}
 
+\versikSamostatny{Uzřely všechny končiny země, aleluja,}{
+  spásu našeho Boha, aleluja.}
+
 \nadpisHodinka{odpoledne}
 
 \antiphon{#vden-anona}
@@ -235,6 +255,9 @@
 \psalm{Žalm 127}
 
 \psalm{Žalm 128}
+
+\versikSamostatny{Milosrdenství a věrnost se potkají, aleluja,}{
+  políbí se spravedlnost a pokoj, aleluja.}
 
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
 

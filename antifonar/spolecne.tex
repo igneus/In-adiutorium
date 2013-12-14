@@ -373,11 +373,14 @@
 % rubrikovane, ne tucne. Zkousel jsem to, to ale v okoli zanikaji
 % a myslim ze je dobre je vyrazne odlisit od psalmodie, ktera je alespon
 % v zaltari bez not obklopuje
-\newcommand{\versikCteni}[2]{
-  
+\newcommand{\versikSamostatny}[2]{
+ 
   \vspace{3mm}
   \noindent \textbf{V.} #1\\
   \textbf{O.} #2
+}
+\newcommand{\versikCteni}[2]{
+  \versikSamostatny{#1}{#2}
 }
 \newcommand{\versik}[3]{
 
