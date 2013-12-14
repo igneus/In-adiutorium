@@ -14,8 +14,8 @@ $: << typo_src_dir
 
 require 'fial.rb'
 require 'splitscores.rb'
-require 'psalmpreprocessor.rb'
 
+require 'pslm'
 require 'ostruct'
 require 'yaml'
 
@@ -41,8 +41,18 @@ module Typographus
 
       @setup = OpenStruct.new @@default_setup
       @psalmpreprocessor_setup = {
-        :output_dir => @setup.generated_dir
+        :general => {
+          :format => 'latex', # latex|pslm
+        },
+        :input => {
+          :has_title => true,
+          :join => false,
+        },
+        :output => Pslm::Outputter::DEFAULT_SETUP.dup
       }
+      @psalmpreprocessor_setup[:output][:pointing].delete :accents
+      @psalmpreprocessor_setup[:output][:pointing].delete :preparatory
+
       @musicsplitter_setup = {
         :remove_headers => true,
         :prepend_text => '',
@@ -82,8 +92,7 @@ module Typographus
     end
 
     def init_psalmpreprocessor
-      @psalmpreprocessor_setup[:output_dir] = @setup.generated_dir
-      @psalmpreprocessor = PsalmPreprocessor::Preprocessor.new(@psalmpreprocessor_setup)
+      @psalmpreprocessor = Pslm::PsalmPointer.new(@psalmpreprocessor_setup)
     end
 
     def init_musicsplitter
@@ -188,11 +197,11 @@ module Typographus
       # expanded macros
 
       l.gsub!(/\\simpleScore\{(.*)\}/) do
-        prepare_generic_score $1
+        prepare_generic_score($1) + "\n\n"
       end
 
       l.gsub!(/\\responsory\{(.*)\}/) do
-        prepare_generic_score $1
+        prepare_generic_score($1) + "\n\n"
       end
 
       l.gsub!(/\\antiphon\{(.*)\}/) do
@@ -244,7 +253,7 @@ module Typographus
       psalmf = psalm_fname(psalm_name)
       processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '.tex'))
       
-      `pslm.rb -t '#{tone}' -o #{processed} #{psalmf}`
+      @psalmpreprocessor.process psalmf, processed, {:output => {:pointing => {:tone => tone}}}
       return "\\input{#{processed}}"
     end
 
