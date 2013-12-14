@@ -106,10 +106,15 @@
 \fancyfoot{}
 \pagestyle{fancy}
 
-
+%%%
 \nesporyI
 
 \responsory{zakladni_napevy.ly#zacatek-slavnost}
+
+\rubrika{Hymnus \textnormal{Z Hvězdy vyšlo Slunce,} 
+  hymnář,\footnote{Denní modlitba církve. Hymny, 
+    Praha \textsuperscript{1}1989, \textsuperscript{2}2008.} 
+  str. 17.}
 
 \antiphonWithPsalm{#vden-1ne-a1}
 
@@ -117,43 +122,62 @@
 
 \antiphonWithPsalm{#vden-1ne-a3}
 
+\rubrika{Krátké čtení - z breviáře. (Gal 4, 4-5.)}
+
 \responsory{#narozeni-1ne-resp}
 
 \antiphonWithPsalm{#vden-1ne-amag}
 
+\rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
+
 \zaverVelkeHodinky
 
 
-
+%%%
 \kompletar
 
 \responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Již se přiblížil čas noční,} hymnář, str. 163.}
 
 \antiphonWithPsalm{kompletar.ly#nei1}
 
 \antiphonWithPsalm{kompletar.ly#nei2}
 
+\rubrika{Krátké čtení - z breviáře. (Dt 6, 4-7.)}
+
 \responsory{kompletar.ly#resp}
 
 \antiphonWithPsalm{kompletar.ly#sim}
 
+\rubrika{Závěrečná modlitba - z breviáře.}
+
 \zaverKompletar
 
+\rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
 
+%%%
 \invitatorium
+
+\rubrika{Klade se před ranní chvály nebo před modlitbu se čtením podle toho,
+  kterou z těchto částí denní modlitba začíná.
+  Na začátku této hodinky se pak vynechává verš 
+  \textnormal{Bože, pospěš mi na pomoc.}}
 
 \responsory{zakladni_napevy.ly#zacatek-prvni}
 
 \antiphonWithPsalm{#vden-invit}
 
 
-
+%%%
 \modlitbaSeCtenim
 
 \rubrika{Pokud modlitba se čtením není první modlitbou dne:}
 
 \responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Věčný Syn jednorozený} - hymnář, str. 18.}
 
 \antiphonWithPsalm{#vden-cte-a1}
 
@@ -198,12 +222,14 @@
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
 
 
-
+%%%
 \ranniChvaly
 
 \rubrika{Pokud ranní chvály nejsou první hodinkou dne:}
 
 \responsory{zakladni_napevy.ly#zacatek-nedele}
+
+\rubrika{Hymnus \textnormal{Dítě se nám narodilo} - hymnář, str. 20.}
 
 \antiphonWithPsalm{#vden-rch-a1}
 
@@ -211,20 +237,26 @@
 
 \antiphonWithPsalm{#vden-rch-a3}
 
+\rubrika{Krátké čtení - z breviáře. (Žid 1, 1-2.)}
+
 \responsory{#narozeni-rch-resp}
 
 \antiphonWithPsalm{#vden-rch-aben}
 
+\rubrika{Prosby, Modlitba Páně, závěrečná modlitba - z breviáře.}
+
 \zaverVelkeHodinky
 
 
-
+%%%
 \modlitbaUprostredDne
 
 \rubrika{Pro modlitbu v poledne byla zvolena vlastní psalmodie z formuláře
   dne, pro dopoledne a odpoledne jsou otištěny žalmy z doplňovacího cyklu.}
 
 \responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Radujme se všichni spolu} - hymnář, str. 21.}
 
 \nadpisHodinka{dopoledne}
 
@@ -235,6 +267,8 @@
 \psalm{Žalm 121}
 
 \psalm{Žalm 122}
+
+\rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)} 
 
 \versikSamostatny{Hospodin se rozpomenul na svou dobrotu, aleluja,}{
   a na svou věrnost Izraelovu domu, aleluja.}
@@ -249,8 +283,12 @@
 
 \psalm{Žalm 48}
 
+\rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)} 
+
 \versikSamostatny{Uzřely všechny končiny země, aleluja,}{
   spásu našeho Boha, aleluja.}
+
+\rubrika{Zakončení, str. \pageref{up-konec}.}
 
 \nadpisHodinka{odpoledne}
 
@@ -262,16 +300,21 @@
 
 \psalm{Žalm 128}
 
+\rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)} 
+
 \versikSamostatny{Milosrdenství a věrnost se potkají, aleluja,}{
   políbí se spravedlnost a pokoj, aleluja.}
 
+\label{up-konec}
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
 
 
-
+%%%
 \nesporyII
 
 \responsory{zakladni_napevy.ly#zacatek-slavnost}
+
+\rubrika{Hymnus \textnormal{Kriste, světa Spasiteli} - hymnář, str. 22.}
 
 \antiphonWithPsalm{#vden-2ne-a1}
 
@@ -279,28 +322,41 @@
 
 \antiphonWithPsalm{#vden-2ne-a3}
 
+\rubrika{Krátké čtení - z breviáře. (1 Jan 1, 1-3.}
+
 \responsory{#narozeni-2ne-resp}
 
 \antiphonWithPsalm{#vden-2ne-amag}
 
+\rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
+
 \zaverVelkeHodinky
 
 
-
+%%%
 \kompletar
+
+\rubrika{Hymnus \textnormal{Chvála tobě, Otče věčný,} hymnář, str. 163.}
 
 \responsory{zakladni_napevy.ly#zacatek-bezny}
 
 \antiphonWithPsalm{kompletar.ly#neii}
 
+\rubrika{Krátké čtení - z breviáře. (Zj 22, 4-5.)}
+
 \responsory{kompletar.ly#resp}
 
 \antiphonWithPsalm{kompletar.ly#sim}
 
+\rubrika{Závěrečná modlitba - z breviáře.}
+
 \zaverKompletar
 
-\tableofcontents
+\rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
+
+
+\tableofcontents
 
 \pagebreak
 
