@@ -60,17 +60,13 @@ def typographus(main)
 
   wd = Dir.pwd
 
-  file lytex => [main, typographus] do |t|
+  task final do
     ruby typographus, main
-  end
 
-  file tex => [lytex] do |t|
-    sh "lilypond-book --output=#{outdir} --pdf #{t.prerequisites.first}"
-  end
-
-  file final => [tex] do |t|
+    sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
+    
     chdir outdir
-    2.times { sh "pdflatex #{File.basename(t.prerequisites.first)}" }
+    2.times { sh "pdflatex #{File.basename(tex)}" }
     chdir wd
   end
 
@@ -93,13 +89,17 @@ def make_dirs(struc)
 end
 
 # create directory structure used by the tasks
-dirs = { 'generovane' => {'kompletar' => {},
-                                                'nedele' => {},
-                                                'zaltar' => {},
-                                                'svatecnizaltar' => {},
-                                                'triduum' => {},
-    'nespornizpevy' => {}},
-              'vystup' => {}}
+dirs = { 
+  'generovane' => {
+    'kompletar' => {},
+    'nedele' => {},
+    'zaltar' => {},
+    'svatecnizaltar' => {},
+    'triduum' => {},
+    'nespornizpevy' => {}
+  },
+  'vystup' => {}
+}
 make_dirs dirs
 
 ##############
