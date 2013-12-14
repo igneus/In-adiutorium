@@ -53,6 +53,9 @@ module Typographus
       @psalmpreprocessor_setup[:output][:pointing].delete :accents
       @psalmpreprocessor_setup[:output][:pointing].delete :preparatory
 
+      @psalm_counter = 0
+      @psalm_suffix_size = 5
+
       @musicsplitter_setup = {
         :remove_headers => true,
         :prepend_text => '',
@@ -251,7 +254,7 @@ module Typographus
 
     def prepare_psalm(psalm_name, tone)
       psalmf = psalm_fname(psalm_name)
-      processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '.tex'))
+      processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
       
       @psalmpreprocessor.process psalmf, processed, {:output => {:pointing => {:tone => tone}}}
       return "\\input{#{processed}}"
@@ -355,6 +358,12 @@ module Typographus
         end
 
       end
+    end
+
+    def psalm_unique_suffix
+      r = @psalm_counter.to_s.rjust @psalm_suffix_size, '0'
+      @psalm_counter += 1
+      return r
     end
 
   end
