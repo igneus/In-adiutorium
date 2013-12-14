@@ -62,6 +62,12 @@
 \input{rubriky.tex}
 \input{znacky.tex}
 
+\let\puvodniNadpisHodinka\nadpisHodinka
+
+\renewcommand*{\nadpisHodinka}[1]{
+  \puvodniNadpisHodinka{#1}%
+  \addcontentsline{toc}{section}{#1}}
+
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -292,6 +298,8 @@
 \antiphonWithPsalm{kompletar.ly#sim}
 
 \zaverKompletar
+
+\tableofcontents
 
 
 \pagebreak
