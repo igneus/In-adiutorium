@@ -65,6 +65,7 @@
 \let\puvodniNadpisHodinka\nadpisHodinka
 
 \renewcommand*{\nadpisHodinka}[1]{
+  \phantomsection%
   \puvodniNadpisHodinka{#1}%
   \addcontentsline{toc}{section}{#1}}
 
