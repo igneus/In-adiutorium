@@ -257,6 +257,7 @@ module Typographus
       processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
       
       @psalmpreprocessor.process psalmf, processed, {:output => {:pointing => {:tone => tone}}}
+      `vlna #{processed}`
       return "\\input{#{processed}}"
     end
 

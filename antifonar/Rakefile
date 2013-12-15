@@ -62,6 +62,8 @@ def typographus(main)
 
   task final do
     ruby typographus, main
+    
+    sh "vlna #{lytex}"
 
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
     
