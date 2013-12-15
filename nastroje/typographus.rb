@@ -40,7 +40,7 @@ module Typographus
       @utils_dir = utils_dir
 
       @setup = OpenStruct.new @@default_setup
-      @psalmpreprocessor_setup = {
+      @psalmpreprocessor_setup = ::StructuredSetup.new({
         :general => {
           :format => 'latex', # latex|pslm
         },
@@ -49,9 +49,14 @@ module Typographus
           :join => false,
         },
         :output => Pslm::Outputter::DEFAULT_SETUP.dup
-      }
+      })
       @psalmpreprocessor_setup[:output][:pointing].delete :accents
       @psalmpreprocessor_setup[:output][:pointing].delete :preparatory
+      @psalmpreprocessor_setup.update({
+                                        :output => {
+                                          :lettrine => { :digraphs => ['ch'] }
+                                        }
+                                      })
 
       @psalm_counter = 0
       @psalm_suffix_size = 5
