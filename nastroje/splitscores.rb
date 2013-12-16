@@ -91,7 +91,7 @@ class MusicSplitter
           quid = score.header['quidbreve']
         else
           quid = score.header['quid']
-          if quid and quid.size > 7 then
+          if quid and quid.size > 8 then
             quid = quid.split(/\s+/).shift
           end
         end
@@ -108,7 +108,7 @@ class MusicSplitter
         when /resp/
           puts "  adding mode information to score" if @setup[:verbose]
           modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\center-column { \\bold { \"#{score.header['modus']}\" } #{quid} }
+        \\center-column { \\bold { \"#{score.header['modus']}\" } \"#{quid}\" }
       }"
           newtext[i+1] = modinfo
         end
