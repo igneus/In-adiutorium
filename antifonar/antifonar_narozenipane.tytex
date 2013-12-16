@@ -49,13 +49,8 @@
 
 \newenvironment{hora}{}{}
 
-\newenvironment{psalmus}{
-  \begin{multicols}{2}%
-    \begin{spacing}{1.1}%
-}{
-    \end{spacing}%
-  \end{multicols}%
-}
+\newenvironment{psalmodia}{ \begin{multicols}{2} }{ \end{multicols} }
+\newenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
 
 
 \input{spolecne.tex}
@@ -207,11 +202,7 @@
 
 \antiphon{#vden-cte-avig}
 
-\psalm{Iz 26}
-
-\psalm{Iz 40-I}
-
-\psalm{Iz 66} 
+\psalmGroup{Iz 26}{Iz 40-I}{Iz 66} 
 
 \rubrika{Evangelium - z breviáře. (J 20, 19-31.)}
 
@@ -263,11 +254,7 @@
 
 \antiphon{#vden-atercie}
 
-\psalm{Žalm 120}
-
-\psalm{Žalm 121}
-
-\psalm{Žalm 122}
+\psalmGroup{Žalm 120}{Žalm 121}{Žalm 122}
 
 \rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)} 
 
@@ -278,11 +265,7 @@
 
 \antiphon{#vden-asexta}
 
-\psalm{Žalm 19b}
-
-\psalm{Žalm 47}
-
-\psalm{Žalm 48}
+\psalmGroup{Žalm 19b}{Žalm 47}{Žalm 48}
 
 \rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)} 
 
@@ -295,11 +278,7 @@
 
 \antiphon{#vden-anona}
 
-\psalm{Žalm 126}
-
-\psalm{Žalm 127}
-
-\psalm{Žalm 128}
+\psalmGroup{Žalm 126}{Žalm 127}{Žalm 128}
 
 \rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)} 
 
@@ -356,8 +335,10 @@
 \rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
 
+\pagebreak
 
 \tableofcontents
+\vfill
 
 \pagebreak
 
