@@ -221,7 +221,7 @@ module Typographus
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone($1) + "\n\n"
         end
-        r += prepare_psalm_f($1)
+        r += wrap_psalmody { prepare_psalm_f($1) }
         r
       end
 
@@ -234,8 +234,31 @@ module Typographus
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
-        r += prepare_psalm($1, psalm_tone)
+        r += wrap_psalmody { prepare_psalm($1, psalm_tone) }
         r
+      end
+
+      # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
+      l.gsub!(/\\psalmGroup(\{.*\})/) do
+        args = $1.split(/[\}\{]+/)
+        args.delete ""
+        p args
+
+        psalm_tone = nil
+        psalm_tone = args.pop if args.last.include? '.' # weak condition!
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        psalms = args
+
+        wrap_psalmody do
+          r = ''
+          if @setup[:psalm_tones] then
+            r += prepare_psalm_tone(psalm_tone) + "\n\n"
+          end
+          psalms.each {|p| r += prepare_psalm(p, psalm_tone) }
+          r
+        end
       end
 
       return l
@@ -288,6 +311,12 @@ module Typographus
       end
 
       return prepare_psalm score.header['psalmus'], tone
+    end
+
+    def wrap_psalmody
+      "\\begin{psalmodia}\n" + 
+        yield +
+        "\\end{psalmodia}\n"
     end
 
     def prepare_psalm_tone(fial)
