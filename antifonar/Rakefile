@@ -49,7 +49,7 @@ def swap_ext(fname, newext)
 end
 
 # generates all necessary tasks to compile a booklet using Typographus
-def typographus(main)
+def typographus(main, latex='pdflatex')
   outdir = 'vystup'
   typographus = File.join '..', 'nastroje', 'typographus.rb'
   
@@ -66,9 +66,14 @@ def typographus(main)
     sh "vlna #{lytex}"
 
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
+
+    latex_commands = {
+      'pdflatex' => "pdflatex #{File.basename(tex)}",
+      'xelatex' => "xelatex -output-driver=\"xdvipdfmx -q -E\" #{File.basename(tex)}"
+    }
     
     chdir outdir
-    2.times { sh "pdflatex #{File.basename(tex)}" }
+    2.times { sh latex_commands[latex] }
     chdir wd
   end
 
