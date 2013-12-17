@@ -46,7 +46,7 @@ module Typographus
         },
         :input => {
           :has_title => true,
-          :join => false,
+          :join => true,
         },
         :output => Pslm::Outputter::DEFAULT_SETUP.dup
       })
@@ -75,6 +75,8 @@ module Typographus
       @current_chant_source = nil
 
       @split_music_files = {}
+
+      @doxology_noappend = ['kantikum_dan3iii.zalm', 'kantikum_zj19.zalm']
 
       init_psalmpreprocessor
       init_musicsplitter
@@ -270,7 +272,7 @@ module Typographus
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
 
-      score = @split_music_files[src][id]
+      score = get_score(src, id)
       if score.header['quid'] and 
           score.header['quid'].downcase.include? 'ant' and 
           score.header['modus'] then
@@ -282,9 +284,16 @@ module Typographus
 
     def prepare_psalm(psalm_name, tone)
       psalmf = psalm_fname(psalm_name)
+      gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
       processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
+
+      psalm_sources = [psalmf]
+      if @setup.doxology and 
+          not @doxology_noappend.include?(File.basename(psalmf)) then
+        psalm_sources << gloriapatri 
+      end
       
-      @psalmpreprocessor.process psalmf, processed, {:output => {:pointing => {:tone => tone}}}
+      @psalmpreprocessor.process psalm_sources, processed, {:output => {:pointing => {:tone => tone}}}
       `vlna #{processed}`
       return "\\input{#{processed}}"
     end
@@ -340,7 +349,21 @@ module Typographus
         name = 'kantikum_' + name
       end
 
-      return @setup.psalms_dir + '/' + name + '.zalm'
+      return File.join @setup.psalms_dir, "#{name}.zalm"
+    end
+
+    # looks for a score; raises error if it is not loaded
+
+    def get_score(file, score_id)
+      unless @split_music_files.include? file
+        raise "#{file} music file not found."
+      end
+
+      unless @split_music_files[file].include_id? score_id
+        raise "score ##{score_id} not found in file #{file}."
+      end
+
+      return @split_music_files[file][score_id]
     end
 
     # takes fial, returns a path and an id or raises exception
@@ -387,8 +410,15 @@ module Typographus
       File.open(outfile, 'w') do |out|
 
         File.open(fpath) do |f|
+          li = 0
           f.each_line do |l|
-            out.print expand_macros(l)
+            li += 1
+            begin
+              out.print expand_macros(l)
+            rescue => ex
+              STDERR.puts "tytex: #{fpath}:#{li}: #{ex.message} (#{ex.class})"
+              raise
+            end
           end
         end
 
