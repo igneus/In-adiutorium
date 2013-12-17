@@ -180,11 +180,7 @@
 
 \antiphonWithPsalm{#vden-cte-a2}
 
-\antiphon{#vden-cte-a3}
-
-\psalm{Žalm 45-I}
-
-\psalm{Žalm 45-II}
+\antiphonWithPsalm{#vden-cte-a3}
 
 \versikSamostatny{Slovo se stalo tělem, aleluja,}{
   a přebývalo mezi námi, aleluja.}
