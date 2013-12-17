@@ -182,8 +182,8 @@
 
 \antiphonWithPsalm{#vden-cte-a3}
 
-\versikSamostatny{Slovo se stalo tělem, aleluja,}{
-  a přebývalo mezi námi, aleluja.}
+\versikSamostatny{Slovo se stalo tělem, ale\underline{lu}ja,}{
+  a přebývalo mezi námi, ale\underline{lu}ja.}
 
 \rubrika{První čtení - z breviáře. (Iz 11, 1-10.)}
 
@@ -255,8 +255,8 @@
 
 \rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)} 
 
-\versikSamostatny{Hospodin se rozpomenul na svou dobrotu, aleluja,}{
-  a na svou věrnost Izraelovu domu, aleluja.}
+\versikSamostatny{Hospodin se rozpomenul na svou dobrotu, ale\underline{lu}ja,}{
+  a na svou věrnost Izraelovu domu, ale\underline{lu}ja.}
 
 \nadpisHodinka{v poledne}
 
@@ -266,8 +266,8 @@
 
 \rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)} 
 
-\versikSamostatny{Uzřely všechny končiny země, aleluja,}{
-  spásu našeho Boha, aleluja.}
+\versikSamostatny{Uzřely všechny končiny země, ale\underline{lu}ja,}{
+  spásu našeho Boha, ale\underline{lu}ja.}
 
 \rubrika{Zakončení, str. \pageref{up-konec}.}
 
@@ -279,8 +279,8 @@
 
 \rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)} 
 
-\versikSamostatny{Milosrdenství a věrnost se potkají, aleluja,}{
-  políbí se spravedlnost a pokoj, aleluja.}
+\versikSamostatny{Milosrdenství a věrnost se potkají, ale\underline{lu}ja,}{
+  políbí se spravedlnost a pokoj, ale\underline{lu}ja.}
 
 \label{up-konec}
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
