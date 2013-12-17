@@ -73,6 +73,7 @@
 \setChantBasedir{..}
 \setPsalmsDir{zalmy}
 \setTmpDir{generovane/narozeni}
+\setConfig{setup_antifonar_narozenipane.yml}
 \setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
 \setChantSource{vanoce_narozenipane.ly}
 
