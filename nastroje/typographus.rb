@@ -287,7 +287,23 @@ module Typographus
       gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
       processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
 
-      psalm_sources = [psalmf]
+      psalm_sources = []
+      if not File.exist? psalmf then
+        # try to find the psalm's parts and compose them
+        1.upto(3) do |i|
+          psalm_part_f = psalmf.sub(/\.zalm$/, 'i'*i + '.zalm')
+          if File.exist? psalm_part_f then
+            psalm_sources << psalm_part_f
+          end
+        end
+
+        if psalm_sources.size > 0 then
+          STDERR.puts "Warning: #{psalm_name} not found, but successfully composed from discovered parts of the same text: #{psalm_sources.join(' ')}; you'd better check the output."
+        end
+      else
+        psalm_sources << psalmf
+      end
+
       if @setup.doxology and 
           not @doxology_noappend.include?(File.basename(psalmf)) then
         psalm_sources << gloriapatri 
