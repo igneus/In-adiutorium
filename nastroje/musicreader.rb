@@ -1,3 +1,5 @@
+require 'delegate'
+
 class LilyPondScore
   def initialize(text, srcfile=nil, number=nil)
     @text = text
@@ -158,6 +160,10 @@ class LilyPondMusic
     elsif i.is_a? String then
       return @id_index[i]
     end
+  end
+
+  def include_id?(i)
+    @id_index.has_key? i
   end
   
   private
