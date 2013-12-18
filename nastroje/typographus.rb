@@ -54,7 +54,8 @@ module Typographus
       @psalmpreprocessor_setup[:output][:pointing].delete :preparatory
       @psalmpreprocessor_setup.update({
                                         :output => {
-                                          :lettrine => { :digraphs => ['ch'] }
+                                          :lettrine => { :digraphs => ['ch'] },
+                                          :quote => :guillemets
                                         }
                                       })
 
