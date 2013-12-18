@@ -86,6 +86,20 @@ describe PsalmTone do
     it 'adds recitanda by default' do
       @tone_ii.lilify(@tone_ii.mediatio).should eq 'f4 f g-| \parenthesize f f'
     end
+
+    it 'translates h and b' do
+      @tone_ii.lilify('b', false).should eq 'bes4'
+      @tone_ii.lilify('h', false).should eq 'b4'
+    end
+
+    it 'expands simple melismas' do
+      @tone_ii.lilify('f ga', false).should eq 'f4 g( a)'
+    end
+
+    it 'expands longer melismas' do
+      # simplified beginning of Alma Redemptoris Mater
+      @tone_ii.lilify('fabcdfedcbcdc aga', false).should eq 'f4( a bes c d f e d c bes c d c) a( g a)'
+    end
   end
 
   describe "#to_lilypond" do

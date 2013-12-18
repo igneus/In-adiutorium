@@ -98,10 +98,18 @@ class PsalmTone
     end
     r += part
 
+    r.gsub!(/\w{2,100}/) do |m| 
+      notes = m.split('')
+      notes[0] += '('
+      notes[-1] += ')'
+      notes.join(' ')
+    end
+    r.gsub!('b', 'bes')
+    r.gsub!('h', 'b')
     r.gsub!(/((\w{1})-)/) { $2+'-|' }
     r.gsub!(/(\{(\w{1})\})/) { '\parenthesize ' + $2}
 
-    r.insert(1, '4') # add duration to the very first note
+    r.insert((r.index(/[^\w]/) or -1), '4') # add duration to the very first note
 
     return r
   end
