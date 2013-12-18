@@ -55,7 +55,11 @@ module Typographus
       @psalmpreprocessor_setup.update({
                                         :output => {
                                           :lettrine => { :digraphs => ['ch'] },
-                                          :quote => :guillemets
+                                          :quote => :guillemets,
+                                          :strophes => { 
+                                            :end_marks => :semantic,
+                                            :paragraph_space => false
+                                          }
                                         }
                                       })
 
