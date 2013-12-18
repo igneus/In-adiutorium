@@ -1,0 +1,100 @@
+---
+#podle Liber usualis 196x
+#- ta sada napevu, ktera je s projektem In adiutorium od zacatku
+#
+#format:
+#  - inchoatio
+#  - tenor
+#  - flexa
+#  - mediatio
+#  - terminatio(nes)
+
+I:
+  - f ga
+  - a
+  - a- {g} g
+  - b- {a} a g- {a} a
+  - D: g f ga- {g} gfed
+    "D'": g f g- {g} gfed
+    D2: g f {g} gf d
+    f: g f ga- {g} gf
+    g: g f ga- {g} g
+    g2: g f g- {g} gag
+    g3: g f g- {g} g
+    a: g f g- {a} a
+    a2: g f g- {g} ga
+    a3: g f ga- {g} ga
+II:
+  - c d
+  - f
+  - f- {d} d
+  - g- {f} f
+  - e c- {d} d
+III:
+  - g ac
+  - c
+  - c- {a} a
+  - d- {c} c {c} ha- c
+  - b: a c- {c} h
+    a: a c- {c} ha
+    a2: ch ah a- {g} ga
+    g: ch ah a- {g} g
+    g2: a c h a- {g} g
+IV:
+  - a ga
+  - a
+  - a- {g} g
+  - h a b- {a} a
+  - g: a- {g} g
+    E: g a ha {g} gf- e
+IV alt:
+  - d cd
+  - d
+  - d- {c} c
+  - c d e- {d} d
+  - c: d- {c} c
+    A: c d e c- {a} a
+    A*: c d e c- {a} ag
+    d: c d e c- {d} d
+V:
+  - f a
+  - c
+  - c- {a} a
+  - d- {c} c
+  - d- {b} b c- {a} a
+VI:
+  - f ga
+  - a
+  - a- {g} g
+  - b- {a} a g- {a} a
+  - f ga g- {f} f
+VI alt:
+  - f ga
+  - a
+  - a- {g} g
+  - a g a- {f} f
+  - f ga g- {f} f
+VII:
+  - ch cd
+  - d
+  - d- {c} c
+  - f- {e} e c- {e} e
+  - a: e- {d} d c- {c} ha
+    b: e- {d} d c- {c} h
+    c: e- {d} d c- {c} hc
+    c2: e- {d} d c- {c} dc
+    d: e- {d} d c- {c} hd
+VIII:
+  - g a
+  - c
+  - c- {a} a
+  - d- {c} c
+  - G: h c a- {g} g
+    G*: h c a- {g} ga
+    c: a c d- {c} c
+per:
+  - ab
+  - [a, g]
+  - a- {g} g
+  - g b a g- {f} f
+  - d f- {f} ed
