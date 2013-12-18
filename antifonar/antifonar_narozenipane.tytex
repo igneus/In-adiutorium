@@ -52,6 +52,8 @@
 \newenvironment{psalmodia}{ \begin{multicols}{2} }{ \end{multicols} }
 \newenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
 
+\newcommand{\psalmStrophe}{%
+  \hspace*{0pt}\hfill\znackaStrofaZalmu}
 
 \input{spolecne.tex}
 \input{rubriky.tex}
