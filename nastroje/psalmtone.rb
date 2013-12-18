@@ -98,9 +98,14 @@ class PsalmTone
     end
     r += part
 
-    r.gsub!(/\w{2,100}/) do |m| 
-      notes = m.split('')
+    r.gsub!(/(\w{2,100})(-?)/) do 
+      notes_raw = $1
+      accent_mark = $2
+      notes = $1.split('')
       notes[0] += '('
+      if accent_mark.start_with? '-' then
+        notes[0] += '-|'
+      end
       notes[-1] += ')'
       notes.join(' ')
     end

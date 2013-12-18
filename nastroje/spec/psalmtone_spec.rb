@@ -100,6 +100,10 @@ describe PsalmTone do
       # simplified beginning of Alma Redemptoris Mater
       @tone_ii.lilify('fabcdfedcbcdc aga', false).should eq 'f4( a bes c d f e d c bes c d c) a( g a)'
     end
+
+    it 'handles accentuated melisma correctly' do
+      @tone_ii.lilify('f ga-', false).should eq 'f4 g(-| a)'
+    end
   end
 
   describe "#to_lilypond" do
