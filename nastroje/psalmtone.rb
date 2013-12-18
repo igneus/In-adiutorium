@@ -9,8 +9,9 @@ require 'yaml'
 
 class PsalmTone
 
-  def initialize(data)
+  def initialize(data, name)
     @inchoatio, @tenor, @flexa, @mediatio, @terminatio = data
+    @name = name
   end
 
   attr_reader :inchoatio, :tenor, :flexa, :mediatio, :terminatio
@@ -29,8 +30,8 @@ class PsalmTone
         tenor.dup,
         flexa.dup,
         mediatio.dup,
-        terminatio[differentia].dup
-      ])
+        {differentia => terminatio[differentia].dup}
+      ], @name)
     end
   end
 
@@ -53,7 +54,15 @@ class PsalmTone
     inch = lilify @inchoatio, false
     flex = lilify @flexa
     med = lilify @mediatio
-    term = lilify @terminatio
+    if @terminatio.is_a?(Hash) then
+      term = lilify(@terminatio.values.first) 
+      diff = @terminatio.keys.first
+    else
+      term = lilify(@terminatio)
+      diff = ''
+    end
+
+    score_id = [@name, diff].delete('').join('-')
 
     return "\\score{
   \\relative c' {
@@ -63,7 +72,9 @@ class PsalmTone
     #{term} \\barFinalis
   }
   \\header {
-
+    modus = \"#{@name}\"
+    differentia = \"#{diff}\"
+    id = \"#{score_id}\"
   }
 }"
   end
@@ -100,7 +111,7 @@ class PsalmToneGroup < SimpleDelegator
     @tones = {}
     super(@tones)
     data.each_pair do |key, val|
-      @tones[key] = PsalmTone.new val
+      @tones[key] = PsalmTone.new val, key
     end
   end
 

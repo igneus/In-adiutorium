@@ -29,7 +29,7 @@ describe PsalmTone do
     - f
     - f- {d} d
     - g- {f} f
-    - e c- {d} d
+    - D: e c- {d} d
     VIII:
     - g a
     - c
@@ -62,8 +62,8 @@ describe PsalmTone do
         @tone_viii.tenor,
         @tone_viii.flexa,
         @tone_viii.mediatio,
-        @tone_viii.terminatio['G']
-      ])
+        {'G' => @tone_viii.terminatio['G']}
+      ], 'VIII')
       @tone_viii.get('G').should eq viii_G
     end
   end
@@ -98,7 +98,9 @@ describe PsalmTone do
     f4 f e c-| \parenthesize d d \barFinalis
   }
   \header {
-
+    modus = "II"
+    differentia = "D"
+    id = "II-D"
   }
 }'
     end

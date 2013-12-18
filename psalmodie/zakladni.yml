@@ -29,7 +29,7 @@ II:
   - f
   - f- {d} d
   - g- {f} f
-  - e c- {d} d
+  - D: e c- {d} d
 III:
   - g ac
   - c
@@ -61,19 +61,19 @@ V:
   - c
   - c- {a} a
   - d- {c} c
-  - d- {b} b c- {a} a
+  - a: d- {b} b c- {a} a
 VI:
   - f ga
   - a
   - a- {g} g
   - b- {a} a g- {a} a
-  - f ga g- {f} f
+  - F: f ga g- {f} f
 VI alt:
   - f ga
   - a
   - a- {g} g
   - a g a- {f} f
-  - f ga g- {f} f
+  - F: f ga g- {f} f
 VII:
   - ch cd
   - d
