@@ -417,9 +417,31 @@ module Typographus
         return
       end
 
-      full_path = @setup.chant_basedir + '/' + path
+      full_path = File.join @setup.chant_basedir, path
       # the values of @split_music_files are LilyPondMusic instances
-      @split_music_files[path] = @splitter.split_scores full_path
+      @split_music_files[path] = @splitter.split_scores(full_path) do |score_text, score|
+        process_score score_text, score
+      end
+    end
+
+    # processes a score (once source file has been split)
+    # before it is saved to a chunk file; produces a string - valid
+    # lilypond source
+    def process_score(score_text, score)
+      # no indent for scores of types without mode info
+      quid = score.header['quid'] || ''
+      layout = []
+
+      unless quid.include?('ant') or quid.include?('resp')
+        layout << 'indent = 0'
+      end
+
+      layout = layout.join "\n"
+
+      closing_brace_i = score_text.rindex '}'
+      score_text.insert closing_brace_i, "\\layout{ #{layout} }"
+
+      return score_text 
     end
 
     def process_tytex(fpath)
