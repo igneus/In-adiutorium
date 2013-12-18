@@ -92,6 +92,7 @@ describe PsalmTone do
     it 'produces lilypond score' do
       @tone_ii.to_lilypond.should eq '\score{
   \relative c\' {
+    \choralniRezim
     c4 d
     f4 f f-| \parenthesize d d \barMin
     f4 f g-| \parenthesize f f \barMaior
@@ -101,6 +102,7 @@ describe PsalmTone do
     modus = "II"
     differentia = "D"
     id = "II-D"
+    piece = \markup\sestavTitulekBezZalmu
   }
 }'
     end

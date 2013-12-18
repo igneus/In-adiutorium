@@ -62,10 +62,11 @@ class PsalmTone
       diff = ''
     end
 
-    score_id = [@name, diff].delete('').join('-')
+    score_id = [@name, diff].select {|p| p != '' }.join('-')
 
     return "\\score{
   \\relative c' {
+    \\choralniRezim
     #{inch}
     #{flex} \\barMin
     #{med} \\barMaior
@@ -75,6 +76,7 @@ class PsalmTone
     modus = \"#{@name}\"
     differentia = \"#{diff}\"
     id = \"#{score_id}\"
+    piece = \\markup\\sestavTitulekBezZalmu
   }
 }"
   end
@@ -134,7 +136,9 @@ if $0 == __FILE__ then
   fw = STDOUT
   PsalmToneGroup.from_file(inf).each_pair do |name,tone|
     STDERR.puts name
-    tone.all.each {|t| puts t.to_lilypond }
+
+    fw.puts "\\include \"spolecne.ly\"\n\n"
+    tone.all.each {|t| fw.puts t.to_lilypond }
     puts
   end
   #end
