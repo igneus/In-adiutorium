@@ -65,7 +65,7 @@ class PsalmTone
     score_id = [@name, diff].select {|p| p != '' }.join('-')
 
     return "\\score{
-  \\relative c' {
+  \\relative #{octave} {
     \\choralniRezim
     #{inch}
     #{flex} \\barMin
@@ -117,6 +117,17 @@ class PsalmTone
     r.insert((r.index(/[^\w]/) or -1), '4') # add duration to the very first note
 
     return r
+  end
+
+  def octave
+    octave = "c'"
+
+    # this is quite dirty and not at all universal ...
+    if ['III', 'IV', 'IV alt', 'VII', 'VIII', 'per'].include? @name then
+      octave = "c''"
+    end
+
+    return octave
   end
 end
 

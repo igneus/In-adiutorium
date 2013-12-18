@@ -30,6 +30,12 @@ describe PsalmTone do
     - f- {d} d
     - g- {f} f
     - D: e c- {d} d
+    VII:
+    - ch cd
+    - d
+    - d- {c} c
+    - f- {e} e c- {e} e
+    - a: e- {d} d c- {c} ha
     VIII:
     - g a
     - c
@@ -42,6 +48,7 @@ describe PsalmTone do
     @group = PsalmToneGroup.from_yaml @data_yaml
     @tone_ii = @group['II']
     @tone_viii = @group['VIII']
+    @tone_vii = @group['VII']
   end
 
   describe "#differentiae" do
@@ -103,6 +110,21 @@ describe PsalmTone do
 
     it 'handles accentuated melisma correctly' do
       @tone_ii.lilify('f ga-', false).should eq 'f4 g(-| a)'
+    end
+  end
+
+  describe '#octave' do
+
+    it "chooses c' for low tones" do
+      @tone_ii.octave.should eq "c'"
+    end
+
+    it "chooses c'' for high tones" do
+      @tone_viii.octave.should eq "c''"
+    end
+
+    it "chooses c'' for tones beginning 'low' and ending 'lower'" do
+      @tone_vii.octave.should eq "c''"
     end
   end
 
