@@ -64,7 +64,8 @@
 \renewcommand*{\nadpisHodinka}[1]{
   \phantomsection%
   \puvodniNadpisHodinka{#1}%
-  \addcontentsline{toc}{section}{#1}}
+  \addcontentsline{toc}{section}{#1}%
+  \fancyhead[CE,CO]{#1}}
 
 
 % Nastaveni sazby do sloupcu:
