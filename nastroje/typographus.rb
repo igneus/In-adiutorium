@@ -226,7 +226,7 @@ module Typographus
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
         r = prepare_generic_score($1) + "\n\n"
         if @setup[:psalm_tones] then
-          r += prepare_psalm_tone($1) + "\n\n"
+          r += prepare_psalm_tone_f($1) + "\n\n"
         end
         r += wrap_psalmody { prepare_psalm_f($1) }
         r
@@ -239,7 +239,7 @@ module Typographus
 
         r = ''
         if @setup[:psalm_tones] then
-          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+          r += prepare_psalm_tone_(psalm_tone) + "\n\n"
         end
         r += wrap_psalmody { prepare_psalm($1, psalm_tone) }
         r
@@ -349,7 +349,12 @@ module Typographus
         "\\end{psalmodia}\n"
     end
 
-    def prepare_psalm_tone(fial)
+    def prepare_psalm_tone(tone)
+      tone = tone.gsub('.', '-')
+      return prepare_generic_score 'psalmodie.ly#'+tone
+    end
+
+    def prepare_psalm_tone_f(fial)
       src, id = decode_fial fial
 
       score = @split_music_files[src][id]
@@ -381,7 +386,7 @@ module Typographus
       end
 
       unless @split_music_files[file].include_id? score_id
-        raise "score ##{score_id} not found in file #{file}."
+        raise "score ##{score_id} not found in file #{file}. Found [#{@split_music_files[file].ids_included.join(' ')}]"
       end
 
       return @split_music_files[file][score_id]
