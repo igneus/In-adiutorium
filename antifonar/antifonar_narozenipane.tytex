@@ -130,7 +130,13 @@
 
 \rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
 
-\zaverVelkeHodinky
+% macro \zaverVelkeHodinky expanded manually to allow manual break
+\simpleScore{zakladni_napevy.ly#konec-pozehnani}
+
+\pagebreak % ZLOM
+\rubrika{Není-li přítomen kněz nebo jáhen:}
+
+\simpleScore{zakladni_napevy.ly#konec-prosba}
 
 
 %%%
@@ -157,6 +163,7 @@
 \rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
 
+\pagebreak % ZLOM
 %%%
 \invitatorium
 
@@ -170,6 +177,7 @@
 \antiphonWithPsalm{#vden-invit}
 
 
+\pagebreak % ZLOM
 %%%
 \modlitbaSeCtenim
 
@@ -198,7 +206,7 @@
 
 \rubrika{Koná-li se vigilie, zpívají se následující kantika s antifonou
   a čte se evangelium. Jinak se pokračuje rovnou chvalozpěvem
-  \textnormal{Tebe, Bože, chválíme,} str. \pageref{tedeum}.}
+  \textnormal{Bože, tebe chválíme,} str. \pageref{tedeum}.}
 
 \antiphon{#vden-cte-avig}
 
@@ -250,6 +258,7 @@
 
 \rubrika{Hymnus \textnormal{Radujme se všichni spolu} - hymnář, str. 21.}
 
+\pagebreak % ZLOM
 \nadpisHodinka{dopoledne}
 
 \antiphon{#vden-atercie}
@@ -285,8 +294,8 @@
 \versikSamostatny{Milosrdenství a věrnost se potkají, ale\underline{lu}ja,}{
   políbí se spravedlnost a pokoj, ale\underline{lu}ja.}
 
-\label{up-konec}
 \simpleScore{zakladni_napevy.ly#dobrorecme2}
+\label{up-konec}
 
 
 %%%
@@ -306,6 +315,7 @@
 
 \responsory{#narozeni-2ne-resp}
 
+\pagebreak % ZLOM
 \antiphonWithPsalm{#vden-2ne-amag}
 
 \rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
@@ -334,8 +344,8 @@
 
 \rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
-
-\pagebreak
+\pagestyle{empty}
+\cleardoublepage
 
 \tableofcontents
 \vfill
