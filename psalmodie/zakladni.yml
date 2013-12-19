@@ -66,13 +66,13 @@ VI:
   - f ga
   - a
   - a- {g} g
-  - b- {a} a g- {a} a
+  - a g a- {f} f
   - F: f ga g- {f} f
 VI alt:
   - f ga
   - a
   - a- {g} g
-  - a g a- {f} f
+  - b- {a} a g- {a} a
   - F: f ga g- {f} f
 VII:
   - ch cd
