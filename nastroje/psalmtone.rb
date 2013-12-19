@@ -158,10 +158,9 @@ if $0 == __FILE__ then
   #outf = File.basename(inf).delete('.yml')+'.ly'
   #File.open(outf, 'w') do |fw|
   fw = STDOUT
-  PsalmToneGroup.from_file(inf).each_pair do |name,tone|
-    STDERR.puts name
 
-    fw.puts "\\include \"spolecne.ly\"\n\n"
+  fw.puts "\\include \"spolecne.ly\"\n\n"
+  PsalmToneGroup.from_file(inf).each_pair do |name,tone|
     tone.all.each {|t| fw.puts t.to_lilypond }
     puts
   end
