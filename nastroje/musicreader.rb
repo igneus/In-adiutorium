@@ -130,7 +130,7 @@ class LilyPondMusic
       score_number = 0
       beginning = true
       while l = f.gets do
-        if l =~ /\\score\s+\{/ then        
+        if l =~ /\\score\s*\{/ then        
           if beginning then
             beginning = false
             @preamble = store
@@ -164,6 +164,10 @@ class LilyPondMusic
 
   def include_id?(i)
     @id_index.has_key? i
+  end
+
+  def ids_included
+    @scores.collect {|s| s.header['id'] }
   end
   
   private
