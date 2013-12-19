@@ -314,7 +314,17 @@ module Typographus
         psalm_sources << gloriapatri 
       end
       
-      @psalmpreprocessor.process psalm_sources, processed, {:output => {:pointing => {:tone => tone}}}
+      pslmpointer_opts = {
+        :output => { :pointing => {:tone => tone} }
+      }
+
+      @psalmpreprocessor.process(psalm_sources, processed, pslmpointer_opts) do |ps|
+        if psalm_sources.size > 2 then # psalm composed from parts
+          # part title to title of the whole psalm; only works for psalms
+          ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }
+        end
+      end
+
       `vlna #{processed}`
       return "\\input{#{processed}}"
     end
