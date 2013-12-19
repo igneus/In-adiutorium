@@ -258,14 +258,14 @@ module Typographus
 
         psalms = args
 
-        wrap_psalmody do
-          r = ''
-          if @setup[:psalm_tones] then
-            r += prepare_psalm_tone(psalm_tone) + "\n\n"
-          end
-          psalms.each {|p| r += prepare_psalm(p, psalm_tone) }
-          r
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
+        r += wrap_psalmody do
+          psalms.collect {|p| prepare_psalm(p, psalm_tone) }.join("\n")
+        end
+        r
       end
 
       return l
