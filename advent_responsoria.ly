@@ -83,7 +83,7 @@
   \header {
     quid = "resp."
     modus = "VIII"
-    piece = "neděle + ferie předvánočního týdne - nešpory (VIII)"
+    piece = "neděle + 17. a 18. 12. - nešpory (VIII)"
     id = "ne-ne"
   }
 }
