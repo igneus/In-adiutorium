@@ -13,7 +13,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d c d f g f d e( d) d \barMaior
+    f f f g f d d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
@@ -21,8 +22,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -30,9 +31,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 g g \barMin a c b c d d \barMaior
+    d e c d c c \barMin c a g g g a( g) g( a) a \barMax
+    a b c c( d) d a a \barMin a b g g( a) a a \barMaior
+    d d d( c a) d( c) c( d) d \barMin d d e f d e d d \barMaior
+    a a a a( bes) a g( a) a \barMin c c bes a a \barFinalis
   }
   \addlyrics {
     Lu -- ci -- e, ne -- věs -- to Kris -- to -- va,
@@ -44,8 +49,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "A" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
