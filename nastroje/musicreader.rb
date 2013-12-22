@@ -54,9 +54,9 @@ class LilyPondScore
     i1 = @text.index '{', i1
     i2 = @text.index '}', i1
     ltext = @text[i1+1..i2-1]
-    @lyrics_raw = ltext.strip
+    @lyrics_raw = ltext.split("\n").collect {|l| l.sub(/%.*$/, '') }.join("\n").strip
     
-    @lyrics_readable = ltext
+    @lyrics_readable = @lyrics_raw.dup
     # remove various garbage:
     @lyrics_readable.gsub!(' -- ', '') # syllable-separators
     @lyrics_readable.gsub!('_', ' ') # preposition-separators

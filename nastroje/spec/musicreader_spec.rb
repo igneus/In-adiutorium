@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require_relative '../musicreader.rb'
 
 describe LilyPondMusic do
@@ -37,3 +38,41 @@ describe LilyPondMusic do
   end
 end
 
+describe LilyPondScore do
+
+  before :each do
+    @score_with_comments_source = '\score {
+  \relative c\'\' {
+    \choralniRezim
+    c a c c a g f \barMin
+  }
+  \addlyrics {
+    % Hle, Pán při -- jde
+    Ej -- hle, Hos -- po -- din při -- jde
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a" 
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}'
+    @score_with_comments = LilyPondScore.new @score_with_comments_source
+  end
+
+  it 'does not strip comments from source text' do
+    @score_with_comments.text.should include '% Hle'
+  end
+  
+  it 'strips comments from lyrics_raw' do
+    @score_with_comments.lyrics_raw.should_not include '%'
+    @score_with_comments.lyrics_raw.should eq 'Ej -- hle, Hos -- po -- din při -- jde'
+  end
+
+  it 'strips comments from lyrics_readable' do
+    @score_with_comments.lyrics_readable.should_not include '%'
+    @score_with_comments.lyrics_readable.should eq 'Ejhle, Hospodin přijde'
+  end
+end
