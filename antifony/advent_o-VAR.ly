@@ -1,4 +1,13 @@
+\version "2.17.24"
+
 \include "../spolecne.ly"
+
+%% uzitecne pro porovnavani melodickych variant
+%\paper { #(set-paper-size "a4" 'landscape) }
+
+\paper {
+  ragged-bottom = ##t
+}
 
 % O-antifony k Magnificat pro predvanocni tyden.
 % Nejprve sebrany antifony ze starych roratniku dostupnych v Manuscriptoriu.
@@ -8,6 +17,10 @@
 % a textu.
 
 \markup\bold{Prameny:}
+\markup\justify{
+  \bold{Hr 11} - Rorátník český (1585 - 1586, 1763).
+  Hr-11 (II.A.11), Muzeum východních Čech v Hradci Králové, Hradec Králové
+}
 \markup\justify{
   \bold{SR} - 
   Sezemický rorátník (16. století).
@@ -28,6 +41,33 @@ sestavTitulekFons = \markup {
   \fill-line {
     \sestavTitulekBezZalmu
     \fromproperty #'header:fons
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f( e) d f( d) c( d) d \bar ""
+    d d( f) d d d d f( e) d( f) d c \bar ""
+    d c( d) d d d f d d d f d f f( g a g a c a) \bar ""
+    a a g f e f g e f d c c \barMin
+    c( f) f f d f \parenthesize f c( d) d( c a) c( d) f c c( f) d d \barFinalis
+  }
+  \addlyrics {
+    O Mau -- dros -- ti Bo -- zí, 
+    kte -- raž sy z_aust ney -- wyš -- ší -- ho po -- šla,
+    do -- sa -- hu -- gic od kon -- ce až do kon -- ce
+    sy -- lnie a o -- chot -- nie zpu -- so -- bu -- gic wšec -- ky wě -- cy,
+    przig -- diž a na -- u -- čiž nás wšem ces -- tam swe mau -- dros -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Hr 11, 14r"
+    piece = \markup {\sestavTitulekFons}
   }
 }
 
@@ -138,7 +178,8 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 34"
+    fons = "SR, 34; Hr 11, 14v"
+    % Hr 11: ma pouze mene strophicu
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -171,6 +212,34 @@ sestavTitulekFons = \markup {
 }
 
 \pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f( e) d f( d) c( d) d \barMin
+    d c( d) d d d d d f( e) d( f) d c \bar ""
+    d d( f) d d d d d f d d f d f f g( a g a c a) \bar ""
+    a a g f f f f f( e) d( f) f c \barMin
+    c( f) f f f f( e) d f c d c c( d) f f c c( f) d d \barFinalis
+  }
+  \addlyrics {
+    O ko -- rze -- nu Jes -- se, 
+    kte -- ryz sto -- giss na zna -- me -- ni na -- ro -- dum
+    na kte -- remz -- to dr -- ze -- ti bu -- dau kra -- lo -- we us -- ta swa
+    ge -- hoz -- to po -- ha -- ne bu -- dau zia -- da -- ti,
+    Przi -- gdiz k_wy -- swo -- bo -- ze -- ni na -- š -- emu 
+    a giz ne -- chteg mess -- ka -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Hr 11, 15v"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
 
 \score {
   \relative c' {
@@ -229,6 +298,33 @@ sestavTitulekFons = \markup {
 }
 
 \pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f( e) d f( d) c( d) d d d d d d f( e) d( f) d c \bar ""
+    d c( d) d d f d d f d d f f g( a g a c a) \bar ""
+    a a g f f( e) d( f) f d( f) d c \barMin
+    c( f) f f f( e) d e f d c( a) c( d) f( d) c( d c) \barMin
+    d f f( e) d f( d) c( d) d( c c a) c( d) f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O Kli -- czi Da -- wi -- duw a hul do -- mu Iz -- ra -- hel -- ske -- ho
+    kte -- ryž -- to ot -- wi -- rass a ziad -- ny ne -- za -- wi -- ra
+    za -- wi -- rass a ziad -- ny ne -- ot -- wi -- ra
+    Przi -- gdiž a wy -- weď wiez -- nie z_do -- mu zia -- la -- rze
+    kte -- rziz -- to se -- di we tmach a_w sti -- nu smr -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Hr 11, 16r"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
 
 \score {
   \relative c' {
