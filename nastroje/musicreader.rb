@@ -120,34 +120,19 @@ end
 
 class LilyPondMusic
   
-  def initialize(filename)
+  def initialize(src)
     @scores = []
     @id_index = {}
     @preamble = ''
     
-    File.open(filename, "r") do |f|
-      store = ''
-      score_number = 0
-      beginning = true
-      while l = f.gets do
-        if l =~ /\\score\s*\{/ then        
-          if beginning then
-            beginning = false
-            @preamble = store
-            store = l
-            next
-          else
-            create_score store, score_number
-            score_number += 1
-            store = l
-          end
-        else
-          store += l
-        end
-      end
-      
-      # last score:
-      create_score store, score_number
+    if src.is_a? IO then
+      load_from src
+    elsif src.is_a? String and src.include? '\score' then
+      load_from StringIO.new src
+    elsif src.is_a? String and File.exist? src
+      load_from File.open(src, "r")
+    else
+      raise ArgumentError.new("Unable to load LilyPond music from #{src.inspect}.")
     end
   end
   
@@ -185,5 +170,30 @@ class LilyPondMusic
       puts
       raise
     end
+  end
+
+  def load_from(stream)
+    store = ''
+    score_number = 0
+    beginning = true
+    while l = stream.gets do
+      if l =~ /\\score\s*\{/ then        
+        if beginning then
+          beginning = false
+          @preamble = store
+          store = l
+          next
+        else
+          create_score store, score_number
+          score_number += 1
+          store = l
+        end
+      else
+        store += l
+      end
+    end
+    
+    # last score:
+    create_score store, score_number
   end
 end
