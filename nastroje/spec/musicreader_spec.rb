@@ -24,7 +24,7 @@ describe LilyPondMusic do
         m = LilyPondMusic.new File.open @test_fname
       end.not_to raise_error
 
-      m.scores.size.should > 1
+      m.scores.size.should be > 1
     end
 
     it 'loads from a file specified by name' do
@@ -33,7 +33,7 @@ describe LilyPondMusic do
         m = LilyPondMusic.new @test_fname
       end.not_to raise_error
 
-      m.scores.size.should > 1
+      m.scores.size.should be > 1
     end
   end
 end
