@@ -404,7 +404,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 36"
+    fons = "SR, 36; Hr 11, 16v"
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -458,7 +458,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 40"
+    fons = "SR, 40; Hr 11, 17r"
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -510,7 +510,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 40"
+    fons = "SR, 40; Hr 11, 17v"
     piece = \markup {\sestavTitulekFons}
   }
 }
