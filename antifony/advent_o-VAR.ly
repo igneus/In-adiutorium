@@ -28,6 +28,12 @@
   \italic{divisio vkládám jen tam, kde je v prameni strophicus}
 }
 \markup\justify{
+  \bold{RD} -
+  Rorátník dašický (1612)
+  Rkp 369/44, Východočeské muzeum v Pardubicích, Pardubice
+  \italic{kromě strophiců píše i divisiones, což dělám po něm}
+}
+\markup\justify{
   \bold{Ro 1617} Rorate (tisk, 1617).
   DF II 40, Královská kanonie premonstrátů na Strahově, Praha
 }
@@ -94,6 +100,33 @@ sestavTitulekFons = \markup {
     psalmus = ""
     id = ""
     fons = "SR, 33"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f( d) f( d) c d d \barMax
+    d d d( f) d d d f( e) d( f) d c \barMax
+    d c( d) d d d f d d d f d f f( g a g a c a) \barMin
+    a a g f e f g e f d c c \barMax
+    c( f) f f d f c( d) d( c a) c( d) f c c( f) d d \barFinalis
+  }
+  \addlyrics {
+    O mau -- dros -- ti Bo -- ží, 
+    kte -- ráž gsy z_aust ney -- wyz -- ssy -- ho po -- ssla,
+    do -- sa -- hu -- gic od kon -- ce až do kon -- ce
+    sy -- lnie a o -- chot -- ně zpu -- so -- bu -- gic wssec -- ky wě -- cy,
+    Přig -- diž a \markup\underline{nau} -- čiž nás wssem ces -- tam swe mau -- dros -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "RD, 5r"
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -187,6 +220,34 @@ sestavTitulekFons = \markup {
 \score {
   \relative c' {
     \choralniRezim
+    d4 f f( d) f( d) c( d) \barMax
+    d d d d d d f( e) d( f) d c \barMin
+    d c( d) d d d f d d f d d f d f g( a g a c a) \bar ""
+    a a g f f f f f f( e) f g e f d \barMax
+    c( f) f f f( e) d f c d c( d) f f f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O A -- do -- na -- i, a wud -- ce do -- mu Iz -- ra -- hel -- ské -- ho,
+    genžs Mog -- ží -- sso -- vi we kři oh -- ni -- wém u -- ka -- zal sy se
+    a té -- muž na hu -- ře Sy -- na -- i za -- kon gsy wy -- dal:
+    Při -- gdiž a -- by nás wy -- kau -- pil w_ra -- me -- nu twém
+    pře -- moc -- nem.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "RD, 5r"
+    % Hr 11: ma pouze mene strophicu
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f) f( d) f( d) c( d) d 
     d d d d d d f( e) e( f) d d \barMin
     d c( d) d d d f d d f d c f d f f( g f a c a) \barMin
@@ -236,7 +297,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "Hr 11, 15v"
+    fons = "Hr 11, 15v; RD 5v"
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -330,6 +391,33 @@ sestavTitulekFons = \markup {
   \relative c' {
     \choralniRezim
     d4( f) f( e) d f( d) c( d) d d d d d d f( e) d( f) d c \bar ""
+    d c( d) d d f d d f d d f f g( a g a c a) \bar ""
+    a a g f f( e) d( f) f d( f) d c \barMin
+    c( f) f f f( e) d e f d c( a) c( d) f( d) c \barMin
+    d f f( e) d f( d) c( d) d( c c a) c( d) f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O Kli -- czi Da -- wi -- duw a hul do -- mu Iz -- ra -- hel -- ske -- ho
+    kte -- ryž -- to ot -- wi -- rass a ziad -- ny ne -- za -- wi -- ra
+    za -- wi -- rass a ziad -- ny ne -- ot -- wi -- ra
+    Przi -- gdiž a wy -- weď wiez -- nie z_do -- mu zia -- la -- rze
+    kte -- rziz -- to se -- di we tmach a_w sti -- nu smr -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "RD, 6r"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f( e) d f( d) c( d) d d d d d d f( e) d( f) d c \bar ""
     d c( d) d d f d d f d d f d c \barMin
     c( f) f f f( e) d e f d c( a) c( d) f( d) c \barMin
     d f f( e) d f( d) c( d) d( c a) c( d) f c c( f) d \barFinalis
@@ -412,6 +500,32 @@ sestavTitulekFons = \markup {
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f( d) d f( d) c( d) d d d d f( e) d( f) d c \barMax
+    d c( d) d d f g a( g a c a) \bar ""
+    a g f( e) d( f) d d( c) d f f( e) d \barMax 
+    f( d) c( d) d( c c a) \barMax
+    c( d) f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O Wi -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho 
+    a slun -- ce spra -- wedl -- nos -- ti
+    Při -- gdiž o -- swie -- tiž ty gess -- to se -- di w_tem -- nos -- tech 
+    a w_sti -- nu smr -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "RD, 6v"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f) f( d) d f( d) c( d) d d d d f( e) d( f) d c \barMin
     d c( d) d d f g a( g) a( c a) \bar ""
     a g f( e) d f d( f) d( c) d f f( e) d 
@@ -458,7 +572,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 40; Hr 11, 17r"
+    fons = "SR, 40; Hr 11, 17r; RD 6v"
     piece = \markup {\sestavTitulekFons}
   }
 }
@@ -510,7 +624,7 @@ sestavTitulekFons = \markup {
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "SR, 40; Hr 11, 17v"
+    fons = "SR, 40; Hr 11, 17v; RD 7r"
     piece = \markup {\sestavTitulekFons}
   }
 }
