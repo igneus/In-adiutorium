@@ -4,15 +4,17 @@ task :all => [:kompletar, :zaltar, :festzaltar, :nedele, :triduum]
 task :default => [:all]
 
 RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
+PSALM_PREPROCESSOR = 'pslm.rb'
+#PSALM_PREPROCESSOR = File.join Dir.pwd, '..', 'nastroje', 'psalmpreprocessor.rb'
 
 def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
   syrovy = wd+"/zalmy/"+zalm
   peceny = adresar+zalm.gsub(/\.zalm/, '')+'.tex'
-  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
-  file peceny => [syrovy, preprocessor] do
+  preprocessor = "pslm.rb"
+  file peceny => [syrovy] do
     chdir adresar
-    sh "#{RUBY_COMMAND} #{preprocessor} #{options} #{syrovy}"
+    sh preprocessor, options, syrovy
     chdir wd
     sh "vlna #{peceny}"
   end
@@ -23,10 +25,10 @@ def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
   wd = Dir.pwd
   syrove = zdroje.map {|zalm| wd+"/zalmy/"+zalm }
   peceny = adresar+vysledek
-  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
-  file peceny => syrove+[preprocessor] do
+  preprocessor = 
+  file peceny => syrove do
     chdir adresar
-    sh "#{RUBY_COMMAND} #{preprocessor} #{options} --output #{vysledek} --join #{syrove.join " "}"
+    sh preprocessor, options, "--output #{vysledek}", "--join #{syrove.join " "}"
     chdir wd
     sh "vlna #{peceny}"
   end
