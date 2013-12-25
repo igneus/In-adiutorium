@@ -79,6 +79,34 @@ sestavTitulekFons = \markup {
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d( f) f( e) d f( d) c( d) d \barMin
+    d d( f) d d d d f( e) d( f) d c \barMaior
+    d c( d) d d d f d d d f d f f( g a g a c a) \barMin
+    a a g f e f g e f d c c \barMax
+    c( f) f f d f f c( d) d( c a) \barMin c( d) f c c( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ó Mou -- dros -- ti Bo -- ží, 
+    kte -- ráž jsi z_úst Nej -- vyš -- ší -- ho vy -- šla,
+    do -- sa -- hu -- jíc od kon -- ce až do kon -- ce
+    sil -- ně a o -- chot -- ně způ -- so -- bu -- jíc všec -- ky vě -- ci,
+    při -- jdiž a na -- u -- čiž nás všem ces -- tám své mou -- dros -- ti.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Hr 11, 14r; upraveno"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d( f) f( e) d f( d) c( d) d \barMin
     d d d( f) d d d f( e) d( f) d c \barMin
@@ -213,6 +241,60 @@ sestavTitulekFons = \markup {
     id = ""
     fons = "SR, 34; Hr 11, 14v"
     % Hr 11: ma pouze mene strophicu
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f( d) f( d) c( d) \barMin
+    d d d d d d f( e) d( f) d c \barMin
+    d c( d) d d d f d d f d d f d f g( a g a c a) \bar ""
+    a a g f f f f f f( e) f g e f d \barMin
+    c( f) f f f( e) d f c d c( d) f f f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O A -- do -- naj, a vůd -- ce do -- mu Iz -- ra -- el -- ské -- ho,
+    jenžs Moj -- ží -- šo -- vi v_ke -- ři oh -- ni -- vém u -- ká -- zal jsi se
+    A té -- muž na ho -- ře Si -- na -- ji zá -- kon jsi vy -- dal,
+    při -- jdiž a -- bys nás vy -- kou -- pil v_ra -- me -- nu svém
+    pře -- moc -- ném.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "Hr 11, 14v; upraveno"
+    piece = \markup {\sestavTitulekFons}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f( d) f( d) c( d) \barMin
+    d d d d d f e d( f) d c \barMaior
+    d d c( d) d d d f d d f d d f g( a g a c a) \barMin
+    a a g f f f f f f( e) d( f) f f c \barMax
+    c( f) f f f e f c( d) \barMin c( d) f f f c c( f) d \barFinalis
+  }
+  \addlyrics {
+    O A -- do -- naj, a vůd -- ce do -- mu Iz -- ra -- el -- ské -- ho,
+    jenž ses Moj -- ží -- šo -- vi v_ke -- ři oh -- ni -- vém u -- ká -- zal
+    a té -- muž na ho -- ře Si -- na -- ji zá -- kon vy -- dal,
+    při -- jdiž a vy -- svo -- boď nás 
+    ra -- me -- nem svým pře -- moc -- ným.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    fons = "volně podle Hr 11, 14v"
     piece = \markup {\sestavTitulekFons}
   }
 }
