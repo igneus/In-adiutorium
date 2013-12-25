@@ -9,11 +9,9 @@
 # It doesn't descend into eventual included tex files, so you have
 # to preprocess these separately if needed.
 
-typo_src_dir = File.dirname __FILE__
-$: << typo_src_dir
-
-require 'fial.rb'
-require 'splitscores.rb'
+require_relative 'fial.rb'
+require_relative 'splitscores.rb'
+require_relative 'lib/typographus/scoremodifier.rb'
 
 require 'pslm'
 require 'ostruct'
@@ -33,12 +31,11 @@ module Typographus
       :includes => [],
       :generated_dir => 'generovane',
       :output_dir => 'vystup',
-      :doxology => false
+      :doxology => false,
+      :remove_optional_alleluia => false
     }
 
-    def initialize(fpath, utils_dir)
-      @utils_dir = utils_dir
-
+    def initialize(fpath)
       @setup = OpenStruct.new @@default_setup
       @psalmpreprocessor_setup = ::StructuredSetup.new({
         :general => {
@@ -278,9 +275,7 @@ module Typographus
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
 
       score = get_score(src, id)
-      if score.header['quid'] and 
-          score.header['quid'].downcase.include? 'ant' and 
-          score.header['modus'] then
+      if is_antiphon?(score) and score.header['modus'] then
         @last_psalm_tone = "#{score.header['modus']}.#{score.header['differentia']}"
       end
       
@@ -447,18 +442,23 @@ module Typographus
     # before it is saved to a chunk file; produces a string - valid
     # lilypond source
     def process_score(score_text, score)
-      # no indent for scores of types without mode info
-      quid = score.header['quid'] || ''
       layout = []
 
-      unless quid.include?('ant') or quid.include?('resp')
+      # remove optional alleluia
+      
+      if @setup[:remove_optional_alleluia] and
+          is_antiphon? score then
+        score_text = ScoreModifier.remove_optional_alleluia score_text
+      end
+
+      # no indent for scores of types without mode info
+      unless is_antiphon?(score) or is_responsory?(score)
         layout << 'indent = 0'
       end
 
-      layout = layout.join "\n"
-
-      closing_brace_i = score_text.rindex '}'
-      score_text.insert closing_brace_i, "\\layout{ #{layout} }"
+      unless layout.empty?
+        score_text = ScoreModifier.layout score_text, layout.join("\n")
+      end
 
       return score_text 
     end
@@ -489,6 +489,14 @@ module Typographus
       return r
     end
 
+    def is_antiphon?(score)
+      score.header['quid'] and score.header['quid'].downcase.include? 'ant'
+    end
+
+    def is_responsory?(score)
+      score.header['quid'] and score.header['quid'].downcase.include? 'resp'
+    end
+
   end
 end
 
@@ -497,6 +505,6 @@ if __FILE__ == $0
   files_to_process = ARGV
 
   files_to_process.each do |file|
-    Typographus::Typographus.preprocess(file, typo_src_dir)
+    Typographus::Typographus.preprocess(file)
   end
 end

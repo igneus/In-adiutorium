@@ -1,6 +1,6 @@
 # splits a LilyPond music file to many numbered files, one file per score
 
-require 'musicreader.rb'
+require_relative 'musicreader.rb'
 
 class MusicSplitter
 
