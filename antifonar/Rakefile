@@ -28,13 +28,13 @@ def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
   peceny = adresar+vysledek
   add_options = [
                  "--output #{peceny}", 
-                 "--join #{syrove.join " "}"
+                 "--join" 
                 ]
   file peceny => syrove do
     if options.is_a? Array then
-      sh PSALM_PREPROCESSOR, *(add_options + options), syrovy
+      sh PSALM_PREPROCESSOR, *(options + add_options + syrove)
     else
-      sh "#{PSALM_PREPROCESSOR} #{options} #{add_options.join(' ')} #{syrovy}"
+      sh "#{PSALM_PREPROCESSOR} #{options} #{add_options.join(' ')} #{syrove.join ' '}"
     end
     sh "vlna #{peceny}"
   end

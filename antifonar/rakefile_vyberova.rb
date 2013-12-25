@@ -30,9 +30,9 @@ zalmy_triduum << genzalm('kantikum_magnificat.zalm', options_triduum+" --pretitl
         120 121 122 123 124 125 126 127 128 ).each do |z|
   zalmy_triduum << genzalm("zalm"+z+".zalm", options_triduum, adresar_triduum)
 end
-zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
 %w( zj11 hab3 fp2 iz38 dan3iii ).each do |k|
   zalmy_triduum << genzalm("kantikum_"+k+".zalm", options_triduum, adresar_triduum)
