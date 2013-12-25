@@ -11,11 +11,12 @@ def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
   syrovy = wd+"/zalmy/"+zalm
   peceny = adresar+zalm.gsub(/\.zalm/, '')+'.tex'
-  preprocessor = "pslm.rb"
   file peceny => [syrovy] do
-    chdir adresar
-    sh preprocessor, options, syrovy
-    chdir wd
+    if options.is_a? Array then
+      sh PSALM_PREPROCESSOR, *options, syrovy
+    else
+      sh "#{PSALM_PREPROCESSOR} --output #{peceny} #{options} #{syrovy}"
+    end
     sh "vlna #{peceny}"
   end
   return peceny
@@ -25,11 +26,16 @@ def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
   wd = Dir.pwd
   syrove = zdroje.map {|zalm| wd+"/zalmy/"+zalm }
   peceny = adresar+vysledek
-  preprocessor = 
+  add_options = [
+                 "--output #{peceny}", 
+                 "--join #{syrove.join " "}"
+                ]
   file peceny => syrove do
-    chdir adresar
-    sh preprocessor, options, "--output #{vysledek}", "--join #{syrove.join " "}"
-    chdir wd
+    if options.is_a? Array then
+      sh PSALM_PREPROCESSOR, *(add_options + options), syrovy
+    else
+      sh "#{PSALM_PREPROCESSOR} #{options} #{add_options.join(' ')} #{syrovy}"
+    end
     sh "vlna #{peceny}"
   end
   return peceny
@@ -116,7 +122,6 @@ make_dirs dirs
 $o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 $o_doxology = " --output-append \" \\doxologieZkratka\""
 $o_doxology_full = ' --append "' + File.read('zalmy/doxologie.zalm') + '"'
-$o_columns = " --columns"
 $o_warnmarks = ' --mark-short-verses'
 
 $commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets"

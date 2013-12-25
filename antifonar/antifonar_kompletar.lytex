@@ -22,7 +22,7 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newenvironment{psalmus}{}{}
+\newenvironment{psalmus}{\begin{multicols}{2}}{\end{multicols}}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

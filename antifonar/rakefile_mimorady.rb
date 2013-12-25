@@ -137,7 +137,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = $commonoptions+$o_warnmarks+" --columns"
+nedelecommonoptions = $commonoptions+$o_warnmarks
 dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 nedele_splitscores_command = $splitscores_command + " --output-dir #{adresar_nedele} "
@@ -150,7 +150,7 @@ nedelecanticleoptions = nedelecommonoptions+$o_canticletitle
 
 zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions+" --columns", adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
