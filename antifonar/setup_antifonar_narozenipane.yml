@@ -1,3 +1,4 @@
 typographus:
   doxology: 'full'
   psalm_tones: true
+  remove_optional_alleluia: true
