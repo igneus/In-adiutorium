@@ -4,8 +4,10 @@
 ###############
 # sv. 2: Narozeni Pane
 
+narozeni_pdf = typographus('antifonar_narozenipane.tytex')
+
 desc "Nativity of our Lord."
-task :narozeni => [typographus('antifonar_narozenipane.tytex')]
+task :narozeni => [narozeni_pdf]
 
 ###############
 # sv. 1:  Svaty tyden a Velikonocni oktav
