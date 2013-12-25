@@ -12,9 +12,8 @@ nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         "--prepend-text '\\include \"../nespornizpevy/spolecne_nespory.ly\"\n\\include \"../../dilyresponsorii.ly\"' "+
                         # "--remove-headers "+
                         # "--mode-info "+
-                        "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
-nesporni_options = "--accents-style bold --guillemets --append \""+
+nesporni_options = "--accents-style bold --guillemets --skip-title --append \""+
   "\n\nSláva [Ot]ci i [Sy]nu * 
 i [Du]chu [sva]tému, 
 jako byla na počátku, i [ny]ní i [vždyc]ky * 
@@ -184,7 +183,6 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
                                                                             "}\n\" "+
                         "--remove-headers "+
                         " --output-dir #{adresar_nedele} "+
-                        "--one-clef "+
                         "--ids " + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
