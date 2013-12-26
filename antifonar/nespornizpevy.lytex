@@ -139,7 +139,7 @@ modlitba.
   \stepcounter{castPisne}
 }
 
-\newenvironment{psalmus}{}{}
+\renewenvironment{psalmus}{}{}
 
 \renewcommand{\thesection}{}
 \renewcommand{\thesubsection}{}
