@@ -127,6 +127,9 @@ file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_ind
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
 end
 
+# zalmy zpracovavat ve vice vlaknech
+multitask :zalmy_zaltare_multitask => zalmyzaltare
+
 # versiky
 file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |t|
   require 'yaml'
@@ -162,7 +165,7 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |
   sh "vlna #{t.name}"
 end
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex']+zalmyzaltare do
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
