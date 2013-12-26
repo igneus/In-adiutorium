@@ -115,7 +115,7 @@ pr9 mdr16 1sam2i 1sam2ii ).each do |kk|
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
-zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-template \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
+zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-template \\\\nadpisZalmuBezMezery{%s}", adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', options_zaltar+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
