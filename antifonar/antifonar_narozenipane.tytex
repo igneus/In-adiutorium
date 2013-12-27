@@ -1,0 +1,357 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[czech]{babel} 
+
+\usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+% kvuli znacky.tex:
+\usepackage{zref-savepos}
+\usepackage{changepage}
+\usepackage{etoolbox}
+\usepackage{setspace} % upravy radkovani
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
+
+\input{spolecne.tex}
+\input{rubriky.tex}
+\input{znacky.tex}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
+\newcommand{\edicniRada}{výběrová řada}
+\newcommand{\cisloSvazku}{2}
+\newcommand{\nazev}{Narození Páně}
+
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí 
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční 
+  podmínky.
+  
+  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
+  
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců)
+  a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newenvironment{hora}{}{}
+
+\newenvironment{psalmodia}{ \begin{multicols}{2} }{ \end{multicols} }
+\renewenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
+
+\newcommand{\psalmStrophe}{%
+  \hspace*{0pt}\hfill\znackaStrofaZalmu}
+
+\let\puvodniNadpisHodinka\nadpisHodinka
+
+\renewcommand*{\nadpisHodinka}[1]{
+  \phantomsection%
+  \puvodniNadpisHodinka{#1}%
+  \addcontentsline{toc}{section}{#1}%
+  \fancyhead[CE,CO]{#1}}
+
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+% Typographus
+\setChantBasedir{..}
+\setPsalmsDir{zalmy}
+\setTmpDir{generovane/narozeni}
+\setConfig{setup_antifonar_narozenipane.yml}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{vanoce_narozenipane.ly}
+
+\newcommand{\zaverVelkeHodinky}{
+  \simpleScore{zakladni_napevy.ly#konec-pozehnani}
+
+  \rubrika{Není-li přítomen kněz nebo jáhen:}
+
+  \simpleScore{zakladni_napevy.ly#konec-prosba}
+}
+\newcommand{\zaverKompletar}{
+  Dej nám, Bože, pokojnou noc, a posiluj nás, ať vytrváme v dobrém až do konce.
+  \hspace{5mm} \textbf{O.} Amen.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\titulniStrankaSvazkuAntifonare
+
+\prazdnaStranka
+
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+\pagestyle{fancy}
+
+%%%
+\nesporyI
+
+\responsory{zakladni_napevy.ly#zacatek-slavnost}
+
+\rubrika{Hymnus \textnormal{Z Hvězdy vyšlo Slunce,} 
+  hymnář,\footnote{Denní modlitba církve. Hymny, 
+    Praha \textsuperscript{1}1989, \textsuperscript{2}2008.} 
+  str. 17.}
+
+\antiphonWithPsalm{#vden-1ne-a1}
+
+\antiphonWithPsalm{#vden-1ne-a2}
+
+\antiphonWithPsalm{#vden-1ne-a3}
+
+\rubrika{Krátké čtení - z breviáře. (Gal 4, 4-5.)}
+
+\responsory{#narozeni-1ne-resp}
+
+\antiphonWithPsalm{#vden-1ne-amag}
+
+\rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
+
+% macro \zaverVelkeHodinky expanded manually to allow manual break
+\simpleScore{zakladni_napevy.ly#konec-pozehnani}
+
+\pagebreak % ZLOM
+\rubrika{Není-li přítomen kněz nebo jáhen:}
+
+\simpleScore{zakladni_napevy.ly#konec-prosba}
+
+
+%%%
+\kompletar
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Již se přiblížil čas noční,} hymnář, str. 163.}
+
+\antiphonWithPsalm{kompletar.ly#nei1}
+
+\antiphonWithPsalm{kompletar.ly#nei2}
+
+\rubrika{Krátké čtení - z breviáře. (Dt 6, 4-7.)}
+
+\responsory{kompletar.ly#resp}
+
+\antiphonWithPsalm{kompletar.ly#sim}
+
+\rubrika{Závěrečná modlitba - z breviáře.}
+
+\zaverKompletar
+
+\rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
+
+
+\pagebreak % ZLOM
+%%%
+\invitatorium
+
+\rubrika{Klade se před ranní chvály nebo před modlitbu se čtením podle toho,
+  kterou z těchto částí denní modlitba začíná.
+  Na začátku této hodinky se pak vynechává verš 
+  \textnormal{Bože, pospěš mi na pomoc.}}
+
+\responsory{zakladni_napevy.ly#zacatek-prvni}
+
+\antiphonWithPsalm{#vden-invit}
+
+
+\pagebreak % ZLOM
+%%%
+\modlitbaSeCtenim
+
+\rubrika{Pokud modlitba se čtením není první modlitbou dne:}
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Věčný Syn jednorozený} - hymnář, str. 18.}
+
+\antiphonWithPsalm{#vden-cte-a1}
+
+\antiphonWithPsalm{#vden-cte-a2}
+
+\antiphonWithPsalm{#vden-cte-a3}
+
+\versikSamostatny{Slovo se stalo tělem, ale\underline{lu}ja,}{
+  a přebývalo mezi námi, ale\underline{lu}ja.}
+
+\rubrika{První čtení - z breviáře. (Iz 11, 1-10.)}
+
+\responsory{#vden-cte-r1}
+
+\rubrika{Druhé čtení - z breviáře. (Z kázání sv. Lva Velikého, PL 54, 190-193.)}
+
+\responsory{#vden-cte-r2}
+
+\rubrika{Koná-li se vigilie, zpívají se následující kantika s antifonou
+  a čte se evangelium. Jinak se pokračuje rovnou chvalozpěvem
+  \textnormal{Bože, tebe chválíme,} str. \pageref{tedeum}.}
+
+\antiphon{#vden-cte-avig}
+
+\psalmGroup{Iz 26}{Iz 40-I}{Iz 66} 
+
+\rubrika{Evangelium - z breviáře. (J 20, 19-31.)}
+
+\label{tedeum}
+\responsory{zakladni_napevy.ly#tedeum}
+
+\rubrika{Závěrečná modlitba - z breviáře.}
+
+\simpleScore{zakladni_napevy.ly#dobrorecme2}
+
+
+%%%
+\ranniChvaly
+
+\rubrika{Pokud ranní chvály nejsou první hodinkou dne:}
+
+\responsory{zakladni_napevy.ly#zacatek-nedele}
+
+\rubrika{Hymnus \textnormal{Dítě se nám narodilo} - hymnář, str. 20.}
+
+\antiphonWithPsalm{#vden-rch-a1}
+
+\antiphonWithPsalm{#vden-rch-a2}
+
+\antiphonWithPsalm{#vden-rch-a3}
+
+\rubrika{Krátké čtení - z breviáře. (Žid 1, 1-2.)}
+
+\responsory{#narozeni-rch-resp}
+
+\antiphonWithPsalm{#vden-rch-aben}
+
+\rubrika{Prosby, Modlitba Páně, závěrečná modlitba - z breviáře.}
+
+\zaverVelkeHodinky
+
+
+%%%
+\modlitbaUprostredDne
+
+\rubrika{Pro modlitbu v poledne byla zvolena vlastní psalmodie z formuláře
+  dne, pro dopoledne a odpoledne jsou otištěny žalmy z doplňovacího cyklu.}
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\rubrika{Hymnus \textnormal{Radujme se všichni spolu} - hymnář, str. 21.}
+
+\pagebreak % ZLOM
+\nadpisHodinka{dopoledne}
+
+\antiphon{#vden-atercie}
+
+\psalmGroup{Žalm 120}{Žalm 121}{Žalm 122}
+
+\rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)} 
+
+\versikSamostatny{Hospodin se rozpomenul na svou dobrotu, ale\underline{lu}ja,}{
+  a na svou věrnost Izraelovu domu, ale\underline{lu}ja.}
+
+\nadpisHodinka{v poledne}
+
+\antiphon{#vden-asexta}
+
+\psalmGroup{Žalm 19b}{Žalm 47}{Žalm 48}
+
+\rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)} 
+
+\versikSamostatny{Uzřely všechny končiny země, ale\underline{lu}ja,}{
+  spásu našeho Boha, ale\underline{lu}ja.}
+
+\rubrika{Zakončení, str. \pageref{up-konec}.}
+
+\nadpisHodinka{odpoledne}
+
+\antiphon{#vden-anona}
+
+\psalmGroup{Žalm 126}{Žalm 127}{Žalm 128}
+
+\rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)} 
+
+\versikSamostatny{Milosrdenství a věrnost se potkají, ale\underline{lu}ja,}{
+  políbí se spravedlnost a pokoj, ale\underline{lu}ja.}
+
+\simpleScore{zakladni_napevy.ly#dobrorecme2}
+\label{up-konec}
+
+
+%%%
+\nesporyII
+
+\responsory{zakladni_napevy.ly#zacatek-slavnost}
+
+\rubrika{Hymnus \textnormal{Kriste, světa Spasiteli} - hymnář, str. 22.}
+
+\antiphonWithPsalm{#vden-2ne-a1}
+
+\antiphonWithPsalm{#vden-2ne-a2}
+
+\antiphonWithPsalm{#vden-2ne-a3}
+
+\rubrika{Krátké čtení - z breviáře. (1 Jan 1, 1-3.)}
+
+\responsory{#narozeni-2ne-resp}
+
+\pagebreak % ZLOM
+\antiphonWithPsalm{#vden-2ne-amag}
+
+\rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
+
+\zaverVelkeHodinky
+
+
+%%%
+\kompletar
+
+\rubrika{Hymnus \textnormal{Chvála tobě, Otče věčný,} hymnář, str. 163.}
+
+\responsory{zakladni_napevy.ly#zacatek-bezny}
+
+\antiphonWithPsalm{kompletar.ly#neii}
+
+\rubrika{Krátké čtení - z breviáře. (Zj 22, 4-5.)}
+
+\responsory{kompletar.ly#resp}
+
+\antiphonWithPsalm{kompletar.ly#sim}
+
+\rubrika{Závěrečná modlitba - z breviáře.}
+
+\zaverKompletar
+
+\rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
+
+\pagestyle{empty}
+\cleardoublepage
+
+\tableofcontents
+\vfill
+
+\pagebreak
+
+\tirazSvazkuAntifonare
+
+\end{document}

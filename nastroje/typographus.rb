@@ -9,13 +9,11 @@
 # It doesn't descend into eventual included tex files, so you have
 # to preprocess these separately if needed.
 
-typo_src_dir = File.dirname __FILE__
-$: << typo_src_dir
+require_relative 'fial.rb'
+require_relative 'splitscores.rb'
+require_relative 'lib/typographus/scoremodifier.rb'
 
-require 'fial.rb'
-require 'splitscores.rb'
-require 'psalmpreprocessor.rb'
-
+require 'pslm'
 require 'ostruct'
 require 'yaml'
 
@@ -33,16 +31,38 @@ module Typographus
       :includes => [],
       :generated_dir => 'generovane',
       :output_dir => 'vystup',
-      :doxology => false
+      :doxology => false,
+      :remove_optional_alleluia => false
     }
 
-    def initialize(fpath, utils_dir)
-      @utils_dir = utils_dir
-
+    def initialize(fpath)
       @setup = OpenStruct.new @@default_setup
-      @psalmpreprocessor_setup = {
-        :output_dir => @setup.generated_dir
-      }
+      @psalmpreprocessor_setup = ::StructuredSetup.new({
+        :general => {
+          :format => 'latex', # latex|pslm
+        },
+        :input => {
+          :has_title => true,
+          :join => true,
+        },
+        :output => Pslm::Outputter::DEFAULT_SETUP.dup
+      })
+      @psalmpreprocessor_setup[:output][:pointing].delete :accents
+      @psalmpreprocessor_setup[:output][:pointing].delete :preparatory
+      @psalmpreprocessor_setup.update({
+                                        :output => {
+                                          :lettrine => { :digraphs => ['ch'] },
+                                          :quote => :guillemets,
+                                          :strophes => { 
+                                            :end_marks => :semantic,
+                                            :paragraph_space => false
+                                          }
+                                        }
+                                      })
+
+      @psalm_counter = 0
+      @psalm_suffix_size = 5
+
       @musicsplitter_setup = {
         :remove_headers => true,
         :prepend_text => '',
@@ -58,11 +78,15 @@ module Typographus
 
       @split_music_files = {}
 
+      @doxology_noappend = ['kantikum_dan3iii.zalm', 'kantikum_zj19.zalm']
+
       init_psalmpreprocessor
       init_musicsplitter
       make_dirs
 
       process_tytex fpath
+
+      @last_psalm_tone = nil
     end
 
     class << self
@@ -80,8 +104,7 @@ module Typographus
     end
 
     def init_psalmpreprocessor
-      @psalmpreprocessor_setup[:output_dir] = @setup.generated_dir
-      @psalmpreprocessor = PsalmPreprocessor::Preprocessor.new(@psalmpreprocessor_setup)
+      @psalmpreprocessor = Pslm::PsalmPointer.new(@psalmpreprocessor_setup)
     end
 
     def init_musicsplitter
@@ -160,6 +183,12 @@ module Typographus
         ''
       end
 
+      l.gsub!(/\\setTmpDir\{(.*)\}/) do
+        @setup.generated_dir = $1
+        make_dirs
+        ''
+      end
+
       l.gsub!(/\\setChantSource\{(.*)\}/) do
         @current_chant_source = $1
         split_music_file @current_chant_source
@@ -180,11 +209,11 @@ module Typographus
       # expanded macros
 
       l.gsub!(/\\simpleScore\{(.*)\}/) do
-        prepare_generic_score $1
+        prepare_generic_score($1) + "\n\n"
       end
 
       l.gsub!(/\\responsory\{(.*)\}/) do
-        prepare_generic_score $1
+        prepare_generic_score($1) + "\n\n"
       end
 
       l.gsub!(/\\antiphon\{(.*)\}/) do
@@ -194,9 +223,45 @@ module Typographus
       l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
         r = prepare_generic_score($1) + "\n\n"
         if @setup[:psalm_tones] then
-          r += prepare_psalm_tone($1) + "\n\n"
+          r += prepare_psalm_tone_f($1) + "\n\n"
         end
-        r += prepare_psalm($1)
+        r += wrap_psalmody { prepare_psalm_f($1) }
+        r
+      end
+
+      l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
+        psalm_tone = $3 
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone_(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody { prepare_psalm($1, psalm_tone) }
+        r
+      end
+
+      # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
+      l.gsub!(/\\psalmGroup(\{.*\})/) do
+        args = $1.split(/[\}\{]+/)
+        args.delete ""
+        p args
+
+        psalm_tone = nil
+        psalm_tone = args.pop if args.last.include? '.' # weak condition!
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        psalms = args
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody do
+          psalms.collect {|p| prepare_psalm(p, psalm_tone) }.join("\n")
+        end
         r
       end
 
@@ -208,13 +273,61 @@ module Typographus
 
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
+
+      score = get_score(src, id)
+      if is_antiphon?(score) and score.header['modus'] then
+        @last_psalm_tone = "#{score.header['modus']}.#{score.header['differentia']}"
+      end
+      
       return "\\lilypondfile{#{score_path}}"
+    end
+
+    def prepare_psalm(psalm_name, tone)
+      psalmf = psalm_fname(psalm_name)
+      gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
+      processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
+
+      psalm_sources = []
+      if not File.exist? psalmf then
+        # try to find the psalm's parts and compose them
+        1.upto(3) do |i|
+          psalm_part_f = psalmf.sub(/\.zalm$/, 'i'*i + '.zalm')
+          if File.exist? psalm_part_f then
+            psalm_sources << psalm_part_f
+          end
+        end
+
+        if psalm_sources.size > 0 then
+          STDERR.puts "Warning: #{psalm_name} not found, but successfully composed from discovered parts of the same text: #{psalm_sources.join(' ')}; you'd better check the output."
+        end
+      else
+        psalm_sources << psalmf
+      end
+
+      if @setup.doxology and 
+          not @doxology_noappend.include?(File.basename(psalmf)) then
+        psalm_sources << gloriapatri 
+      end
+      
+      pslmpointer_opts = {
+        :output => { :pointing => {:tone => tone} }
+      }
+
+      @psalmpreprocessor.process(psalm_sources, processed, pslmpointer_opts) do |ps|
+        if psalm_sources.size > 2 then # psalm composed from parts
+          # part title to title of the whole psalm; only works for psalms
+          ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }
+        end
+      end
+
+      `vlna #{processed}`
+      return "\\input{#{processed}}"
     end
 
     # prepares psalm according to the header information of a score
     # identified by it's FIAL
 
-    def prepare_psalm(fial)
+    def prepare_psalm_f(fial)
       src, id = decode_fial fial
 
       if @split_music_files[src][id].nil? then
@@ -227,20 +340,26 @@ module Typographus
       end
 
       if score.header['modus'] != nil then
-        tone = "-t '#{score.header['modus']}.#{score.header['differentia']}'"
+        tone = "#{score.header['modus']}.#{score.header['differentia']}"
       else
         tone = ''
       end
 
-      psalmf = psalm_fname(score.header['psalmus'])
-      processed = File.join('generovane', File.basename(psalmf).sub(/\.zalm$/, '.tex'))
-      
-      puts "pslm.rb #{tone} -s bold -o #{processed} #{psalmf}"
-      `pslm.rb #{tone} -o #{processed} #{psalmf}`
-      return "\\input{#{processed}}"
+      return prepare_psalm score.header['psalmus'], tone
     end
 
-    def prepare_psalm_tone(fial)
+    def wrap_psalmody
+      "\\begin{psalmodia}\n" + 
+        yield +
+        "\\end{psalmodia}\n"
+    end
+
+    def prepare_psalm_tone(tone)
+      tone = tone.gsub('.', '-')
+      return prepare_generic_score 'psalmodie.ly#'+tone
+    end
+
+    def prepare_psalm_tone_f(fial)
       src, id = decode_fial fial
 
       score = @split_music_files[src][id]
@@ -261,7 +380,21 @@ module Typographus
         name = 'kantikum_' + name
       end
 
-      return @setup.psalms_dir + '/' + name + '.zalm'
+      return File.join @setup.psalms_dir, "#{name}.zalm"
+    end
+
+    # looks for a score; raises error if it is not loaded
+
+    def get_score(file, score_id)
+      unless @split_music_files.include? file
+        raise "#{file} music file not found."
+      end
+
+      unless @split_music_files[file].include_id? score_id
+        raise "score ##{score_id} not found in file #{file}. Found [#{@split_music_files[file].ids_included.join(' ')}]"
+      end
+
+      return @split_music_files[file][score_id]
     end
 
     # takes fial, returns a path and an id or raises exception
@@ -298,9 +431,36 @@ module Typographus
         return
       end
 
-      full_path = @setup.chant_basedir + '/' + path
+      full_path = File.join @setup.chant_basedir, path
       # the values of @split_music_files are LilyPondMusic instances
-      @split_music_files[path] = @splitter.split_scores full_path
+      @split_music_files[path] = @splitter.split_scores(full_path) do |score_text, score|
+        process_score score_text, score
+      end
+    end
+
+    # processes a score (once source file has been split)
+    # before it is saved to a chunk file; produces a string - valid
+    # lilypond source
+    def process_score(score_text, score)
+      layout = []
+
+      # remove optional alleluia
+      
+      if @setup[:remove_optional_alleluia] and
+          is_antiphon? score then
+        score_text = ScoreModifier.remove_optional_alleluia score_text
+      end
+
+      # no indent for scores of types without mode info
+      unless is_antiphon?(score) or is_responsory?(score)
+        layout << 'indent = 0'
+      end
+
+      unless layout.empty?
+        score_text = ScoreModifier.layout score_text, layout.join("\n")
+      end
+
+      return score_text 
     end
 
     def process_tytex(fpath)
@@ -308,12 +468,33 @@ module Typographus
       File.open(outfile, 'w') do |out|
 
         File.open(fpath) do |f|
+          li = 0
           f.each_line do |l|
-            out.print expand_macros(l)
+            li += 1
+            begin
+              out.print expand_macros(l)
+            rescue => ex
+              STDERR.puts "tytex: #{fpath}:#{li}: #{ex.message} (#{ex.class})"
+              raise
+            end
           end
         end
 
       end
+    end
+
+    def psalm_unique_suffix
+      r = @psalm_counter.to_s.rjust @psalm_suffix_size, '0'
+      @psalm_counter += 1
+      return r
+    end
+
+    def is_antiphon?(score)
+      score.header['quid'] and score.header['quid'].downcase.include? 'ant'
+    end
+
+    def is_responsory?(score)
+      score.header['quid'] and score.header['quid'].downcase.include? 'resp'
     end
 
   end
@@ -324,6 +505,6 @@ if __FILE__ == $0
   files_to_process = ARGV
 
   files_to_process.each do |file|
-    Typographus::Typographus.preprocess(file, typo_src_dir)
+    Typographus::Typographus.preprocess(file)
   end
 end

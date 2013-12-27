@@ -1,6 +1,6 @@
 # splits a LilyPond music file to many numbered files, one file per score
 
-require 'musicreader.rb'
+require_relative 'musicreader.rb'
 
 class MusicSplitter
 
@@ -91,7 +91,7 @@ class MusicSplitter
           quid = score.header['quidbreve']
         else
           quid = score.header['quid']
-          if quid and quid.size > 7 then
+          if quid and quid.size > 8 then
             quid = quid.split(/\s+/).shift
           end
         end
@@ -108,28 +108,9 @@ class MusicSplitter
         when /resp/
           puts "  adding mode information to score" if @setup[:verbose]
           modinfo = "\n\\set Staff.instrumentName = \\markup {
-        \\center-column { \\bold { \"#{score.header['modus']}\" } #{quid} }
+        \\center-column { \\bold { \"#{score.header['modus']}\" } \"#{quid}\" }
       }"
           newtext[i+1] = modinfo
-        end
-      end
-      
-      if @setup[:one_clef] then
-        i = newtext.index "\\relative"
-        i = newtext.index '{', i if i
-        unless i
-          puts newtext
-          raise "Couldn't find, where notes begin."
-        end
-        begin
-          4.times {
-            i = newtext.index /\s[cdefgab]\d*[\(\)]*/, i+1
-            raise "Unable to find enough notes" unless i
-          }
-          
-          newtext[i] = "\n\\override Staff.Clef #'stencil = ##f\n"
-        rescue => e
-          STDERR.puts "Wasn't able to switch clef off: "+e.message
         end
       end
       
@@ -144,6 +125,8 @@ class MusicSplitter
         newtext[i-1] = @setup[:insert_text]
       end
       
+      yield newtext, score if block_given?
+      
       newtext
     end
   end
@@ -153,14 +136,15 @@ if $0 == __FILE__ then
 
   require 'optparse'
 
-  setup = {:remove_headers => false,
+  setup = {
+    :remove_headers => false,
     :prepend_text => "",
     :output_dir => nil,
     :ids => false,
     :mode_info => false,
     :verbose => false,
-    :insert_text => nil,
-    :one_clef => false}
+    :insert_text => nil
+  }
 
   optparse = OptionParser.new do|opts|
     opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
@@ -175,14 +159,6 @@ if $0 == __FILE__ then
     opts.on "-i", "--insert-text TEXT", "Text to be inserted IN the score before the closing brace" do |text|
       setup[:insert_text] = text
     end
-    
-    # ostatni volby jsou co mozna obecne, ale tato je velice konkretni
-    # a vklada po prvnich nekolika notach konkretni kousek kodu.
-    # Obecnejsi reseni jsem zatim nevymyslel a ani neni potreba.
-    opts.on "-c", "--one-clef", "Clef only on the first line" do
-      setup[:one_clef] = true
-    end
-    
     opts.on "-i", "--ids", "Instead of numbering the produced files, use property 'id' of each score" do
       setup[:ids] = true
     end

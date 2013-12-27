@@ -31,7 +31,6 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newenvironment{hora}{}{}
-\newenvironment{psalmus}{}{}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,

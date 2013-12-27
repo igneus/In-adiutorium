@@ -19,7 +19,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -44,7 +44,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -70,7 +70,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -93,7 +93,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = ""
-    id = ""
+    id = "iimag1"
     fial = "antifony/advent_tyden2.ly#po-aben?cast" 
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -118,7 +118,7 @@
     differentia = "D" 
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
-    id = ""
+    id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -129,7 +129,7 @@
     c4 c c c( d) d \barMin f f g f d e d d \barMaior
     a' a c c a b a a \barMin a c a b c a \barMaior
     a a a a a( g f) \barMin
-    d d f d f c( d) d \barFinalis
+    d d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
@@ -142,7 +142,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -167,7 +167,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -192,7 +192,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -216,7 +216,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -256,7 +256,7 @@
     differentia = "b" 
     psalmus = ""
     fial = "vanoce_narozenipane.ly#svrodiny-1ne-a2?+aleluja"
-    id = ""
+    id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

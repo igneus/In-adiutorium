@@ -30,11 +30,16 @@ end
 optparse.parse!
 
 ARGV.each do |f|
-  m = LilyPondMusic.new f
-  m.scores.each_with_index do |s,i|
-    if s.lyrics_readable != ''
-      pieces << [s.lyrics_readable, f, i]
+  begin
+    m = LilyPondMusic.new f
+    m.scores.each_with_index do |s,i|
+      if s.lyrics_readable != ''
+        pieces << [s.lyrics_readable, f, i]
+      end
     end
+  rescue => ex
+    STDERR.puts "indexmaker: Error when processing #{f}:"
+    raise
   end
 end
 

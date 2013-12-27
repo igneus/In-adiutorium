@@ -48,12 +48,6 @@
 
 \newenvironment{hora}{}{}
 
-\newenvironment{psalmus}{
-  \begin{multicols}{2}
-}{
-  \end{multicols}
-}
-
 \newcommand{\typRespAntifona}{
   \nadpisTypTextu{Antifona po krátkém čtení}
 }

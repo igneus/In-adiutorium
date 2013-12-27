@@ -50,7 +50,7 @@
       quid = "2. ant."
       modus = "VIII"
       differentia = "G" 
-      psalmus = "Žalm 147"
+      psalmus = "Žalm 147-II"
       id = "vden-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -148,7 +148,7 @@
       quid = "ant."
       modus = "VI"
       differentia = "F" 
-      psalmus = ""
+      psalmus = "Žalm 95"
       id = "vden-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -865,6 +865,75 @@
       psalmus = ""
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g f( e) f( g) g \barMin
+      a( c) c b g g a( g) f( g) g \barMaior
+      a b b( c) c c d c b( g) g \barMin
+      g g( c) b g a( f g) g \barFinalis
+    }
+    \addlyrics {
+      Když ro -- di -- če při -- nes -- li
+      dí -- tě Je -- ží -- še do chrá -- mu,
+      vzal ho Si -- me -- on do ná -- ru -- čí
+      a ve -- le -- bil Bo -- ha.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = "Žalm 24"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
+      id = "svrodiny-cte-a1"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4( g) g( a) a f( g a) g f f( g) f f \barMaior
+      f f f f e( c d) c \barMin d d f( g) a g f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a a( g) \barMin 
+      g d d d e d c( d) d \barMaior
+      f g f a( g f) g \barMin g f e d e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f" 
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
     }
   }
 

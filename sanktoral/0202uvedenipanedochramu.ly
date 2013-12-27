@@ -28,7 +28,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 147"
-    id = ""
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,7 +76,7 @@
     modus = "III"
     differentia = "g" 
     psalmus = "Flp 2"
-    id = ""
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -110,7 +110,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -137,7 +137,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -164,7 +164,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -190,7 +190,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -210,7 +210,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -273,7 +273,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -305,7 +305,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -331,7 +331,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -385,7 +385,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -409,7 +409,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 130"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -418,8 +418,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d( a') a a g bes a g a4. g \breathe
-    g4 a bes a g g g a f e d d \bar "||"
+    d4 d d( a') a a g bes a g a4. g \barMin
+    g4 a bes a g g g a f e d d \barFinalis
   }
   \addlyrics {
     Mo -- je o -- či u -- vi -- dě -- ly tvou spá -- su,
@@ -431,6 +431,8 @@
     differentia = "D" 
     psalmus = "Kol 1"
     fons = "slavnost Narození Páně, modlitba uprostřed dne, odpolední antifona"
+    fial = "vanoce_narozenipane.ly#vden-anona"
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -460,7 +462,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

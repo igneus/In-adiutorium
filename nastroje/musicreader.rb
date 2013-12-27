@@ -1,3 +1,5 @@
+require 'delegate'
+
 class LilyPondScore
   def initialize(text, srcfile=nil, number=nil)
     @text = text
@@ -52,9 +54,9 @@ class LilyPondScore
     i1 = @text.index '{', i1
     i2 = @text.index '}', i1
     ltext = @text[i1+1..i2-1]
-    @lyrics_raw = ltext.strip
+    @lyrics_raw = ltext.split("\n").collect {|l| l.sub(/%.*$/, '') }.join("\n").strip
     
-    @lyrics_readable = ltext
+    @lyrics_readable = @lyrics_raw.dup
     # remove various garbage:
     @lyrics_readable.gsub!(' -- ', '') # syllable-separators
     @lyrics_readable.gsub!('_', ' ') # preposition-separators
@@ -118,34 +120,19 @@ end
 
 class LilyPondMusic
   
-  def initialize(filename)
+  def initialize(src)
     @scores = []
     @id_index = {}
     @preamble = ''
     
-    File.open(filename, "r") do |f|
-      store = ''
-      score_number = 0
-      beginning = true
-      while l = f.gets do
-        if l =~ /\\score\s+\{/ then        
-          if beginning then
-            beginning = false
-            @preamble = store
-            store = l
-            next
-          else
-            create_score store, score_number
-            score_number += 1
-            store = l
-          end
-        else
-          store += l
-        end
-      end
-      
-      # last score:
-      create_score store, score_number
+    if src.is_a? IO then
+      load_from src
+    elsif src.is_a? String and src.include? '\score' then
+      load_from StringIO.new src
+    elsif src.is_a? String and File.exist? src
+      load_from File.open(src, "r")
+    else
+      raise ArgumentError.new("Unable to load LilyPond music from #{src.inspect}.")
     end
   end
   
@@ -158,6 +145,14 @@ class LilyPondMusic
     elsif i.is_a? String then
       return @id_index[i]
     end
+  end
+
+  def include_id?(i)
+    @id_index.has_key? i
+  end
+
+  def ids_included
+    @scores.collect {|s| s.header['id'] }
   end
   
   private
@@ -175,5 +170,30 @@ class LilyPondMusic
       puts
       raise
     end
+  end
+
+  def load_from(stream)
+    store = ''
+    score_number = 0
+    beginning = true
+    while l = stream.gets do
+      if l =~ /\\score\s*\{/ then        
+        if beginning then
+          beginning = false
+          @preamble = store
+          store = l
+          next
+        else
+          create_score store, score_number
+          score_number += 1
+          store = l
+        end
+      else
+        store += l
+      end
+    end
+    
+    # last score:
+    create_score store, score_number
   end
 end

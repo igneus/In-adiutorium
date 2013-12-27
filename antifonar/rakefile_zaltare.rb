@@ -92,7 +92,7 @@ cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
 end
 
-dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
+dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --output-append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 # jedine kantikum bez doxologie
 zalmyzaltare << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_zaltar)
@@ -115,7 +115,7 @@ pr9 mdr16 1sam2i 1sam2ii ).each do |kk|
   zalmyzaltare << genzalm("kantikum_#{kk}.zalm", canticleoptions_zaltar, adresar_zaltar)
 end
 # this canticle is special: it needs a special title, because it's preceded by a rubric.
-zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-pattern \\\\nadpisZalmuBezMezery{#}", adresar_zaltar)
+zalmyzaltare << genzalm("kantikum_1petr2.zalm", canticleoptions_zaltar+" --title-template \\\\nadpisZalmuBezMezery{%s}", adresar_zaltar)
 
 zalmyzaltare << genzalm('kantikum_benedictus.zalm', options_zaltar+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_zaltar)
 zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" --pretitle \"kantikum Panny Marie (Magnificat)\\\\\\\\ \"", adresar_zaltar)
@@ -126,6 +126,9 @@ zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitl
 file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
   sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
 end
+
+# zalmy zpracovavat ve vice vlaknech
+multitask :zalmy_zaltare_multitask => zalmyzaltare
 
 # versiky
 file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |t|
@@ -162,7 +165,7 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |
   sh "vlna #{t.name}"
 end
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex']+zalmyzaltare do
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do
   2.times { 
     # sh "cslatex antifonar_zaltar" 
     sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
@@ -199,45 +202,4 @@ task :zaltar_texclean do
     end
   }
 end
-
-#################################################################
-# sv. 5: zaltar pro slavnosti a svatky (tady schovan pro strycka prihodu;
-# jeho funkci ale beze zbytku zastane bezny zaltar, viz vyse)
-
-svatzalt_adresar = 'generovane/svatecnizaltar/'
-
-svatzalt_kantika = []
-%w( ef1 fp2 kol1 1petr2 zj4 zj11 zj15 zj19
-      iz38 hab3 ).each do |k|
-  svatzalt_kantika << genzalm("kantikum_"+k+".zalm", $canticleoptions, svatzalt_adresar)
-end
-svatzalt_kantika << genzalm("kantikum_dan3iii.zalm", $dan3iiioptions, svatzalt_adresar)
-
-file svatzalt_adresar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
-  sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{svatzalt_adresar} svatecnizaltar_index.txt"
-end
-
-task :svatzalt_zalmy => [svatzalt_adresar+'svatecnizaltar_index.txt.psalmsnums'] do |t|
-  File.open(t.prerequisites.first, 'r') do |f|
-    # vlastni zalmy pro slavnosti a svatky - nacist cisla z generovaneho seznamu:
-    f.each_line do |n|
-      z = genzalm("zalm"+n.strip+".zalm", $commonoptions, svatzalt_adresar)
-      Rake::Task[z].invoke
-    end
-    # zalmy invitatoria a rannich chval ne 1. tydne a doplnovaciho cyklu:
-    [95,100,67,24,
-    63, 149,
-    120,121,122, 123,124,125, 126,127,128].each do |n|
-      z = genzalm("zalm"+n.to_s+".zalm", $commonoptions, svatzalt_adresar)
-      Rake::Task[z].invoke
-    end
-  end
-end
-
-file "antifonar_svatecnizaltar.pdf" => ['antifonar_svatecnizaltar.tex', 'spolecne.tex', 'znacky.tex', svatzalt_adresar+'svatecnizaltar_index.txt.index.tex', :svatzalt_zalmy]+svatzalt_kantika do
-  2.times { sh "pdflatex -shell-escape -output-directory=vystup antifonar_svatecnizaltar" }
-end
-
-desc "Festal psalter"
-task :festzaltar => ['antifonar_svatecnizaltar.pdf']
 

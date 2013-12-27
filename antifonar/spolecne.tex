@@ -175,6 +175,7 @@
 
 % tyden
 \newcommand{\nadpisTyden}[2]{
+  \phantomsection%
   \begin{center}
   {\LARGE \textsc{#1}}
   \end{center}
@@ -184,6 +185,7 @@
 
 % den
 \newcommand{\nadpisDen}[1]{
+  \phantomsection%
   \begin{center}
   {\LARGE #1}
   \end{center}
@@ -197,6 +199,13 @@
   \textbf{#1}
   \end{center}
   \nopagebreak
+}
+
+% invitatorium samozrejme neni samostatna hodinka,
+% ale tim, ze muze byt soucasti dvou ruznych,
+% se funkcne osamostatnilo a davame mu nadpis na urovni hodinky
+\newcommand{\invitatorium}{
+  \nadpisHodinka{Invitatorium}
 }
 
 \newcommand{\modlitbaSeCtenim}{
@@ -366,11 +375,14 @@
 % rubrikovane, ne tucne. Zkousel jsem to, to ale v okoli zanikaji
 % a myslim ze je dobre je vyrazne odlisit od psalmodie, ktera je alespon
 % v zaltari bez not obklopuje
-\newcommand{\versikCteni}[2]{
-  
+\newcommand{\versikSamostatny}[2]{
+ 
   \vspace{3mm}
   \noindent \textbf{V.} #1\\
   \textbf{O.} #2
+}
+\newcommand{\versikCteni}[2]{
+  \versikSamostatny{#1}{#2}
 }
 \newcommand{\versik}[3]{
 
@@ -383,3 +395,11 @@
 \newcommand{\versikSexta}[2]{\versik{v poledne:}{#1}{#2}}
 \newcommand{\versikNona}[2]{\versik{odpoledne:}{#1}{#2}}
 
+%% prikazy predpokladane preprocesorem zalmu pslm.rb:
+
+% vetsina notovanych svazku chce mit kazdy zalm ve zvlastnim
+% dvousloupci; v tech ostatnich se to predefinuje podle potreby
+\newenvironment{psalmus}{\begin{multicols}{2}}{\end{multicols}}
+
+\newcommand{\flex}{\flexa}
+\newcommand{\psalmStrophe}{\hspace*{0pt}\hfill\znackaStrofaZalmu}

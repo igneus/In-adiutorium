@@ -12,22 +12,6 @@
 		     (markup #:bold
 			     #:large obsah)))
 
-paneOtevri = \lyricmode {
-  \Verse Pa -- ne, o -- tev -- ři mé rty,
-  \Response a má ús -- ta tě bu -- dou chvá -- lit.
-}
-
-uvodniVers = \lyricmode {
-  \Verse Bo -- že, po -- spěš mi na po -- moc.
-  \Response Slyš na -- še vo -- lá -- ní.
-  Slá -- va Ot -- ci i Sy -- nu
-  i Du -- chu sva -- té -- mu
-  ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
-  a na vě -- ky vě -- ků. A -- men.
-  A -- le -- lu -- ja.
-  a na vě -- ky vě -- ků. A -- men.
-}
-
 \bookpart {
   \header {
     subtitle = "I. Začátek hodinek"
@@ -46,7 +30,8 @@ uvodniVers = \lyricmode {
       c c c c c c c b c \barFinalis
     }
     \addlyrics {
-      \paneOtevri
+      \Verse Pa -- ne, o -- tev -- ři mé rty,
+      \Response a má ús -- ta tě bu -- dou chvá -- lit.
     }
     \header {
       piece = ""
@@ -106,7 +91,14 @@ uvodniVers = \lyricmode {
       c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
     }
     \addlyrics {
-      \uvodniVers
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       id = "zacatek-nedele"
@@ -129,7 +121,14 @@ uvodniVers = \lyricmode {
       c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
     }
     \addlyrics {
-      \uvodniVers
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       id = "zacatek-bezny"
@@ -157,7 +156,14 @@ uvodniVers = \lyricmode {
       a^\markup\italic{mimo dobu postní:} bes a( g) g \barFinalis
     }
     \addlyrics {
-      \uvodniVers
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       id = "zacatek-slavnost"
@@ -195,7 +201,14 @@ uvodniVers = \lyricmode {
       c4^\markup\italic{v době postní:} c c c c c( d) c4. c \barFinalis
     }
     \addlyrics {
-      \uvodniVers
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       piece = "pro všechny hodinky"
@@ -219,7 +232,14 @@ uvodniVers = \lyricmode {
       g4^\markup\italic{v době postní:} a a a a( b) a a( g) g \barFinalis
     }
     \addlyrics {
-      \uvodniVers
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       piece = "volitelně pro ranní chvály a nešpory"
@@ -402,7 +422,7 @@ uvodniVers = \lyricmode {
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme"
       piece = ""
     }
   }
@@ -425,7 +445,7 @@ uvodniVers = \lyricmode {
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme2"
       piece = ""
     }
   }
@@ -449,7 +469,7 @@ uvodniVers = \lyricmode {
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = ""
+      id = "dobrorecme-nd"
       piece = ""
     }
   }

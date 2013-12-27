@@ -70,6 +70,14 @@
 
 \bookpart {
   \header {
+    subtitle = "Cyklus A"
+  }
+
+  \include "antifony/mezidobi_nedeleA_02_10.ly" 
+}
+
+\bookpart {
+  \header {
     subtitle = "Cyklus B"
   }
 
