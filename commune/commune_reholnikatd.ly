@@ -55,7 +55,7 @@
       f^\markup\rubrVelikAleluja a( b) g g \barFinalis
     }
     \addlyrics {
-      Sva -- tý \markup{ \with-color ##'red {N:} }
+      Sva -- tý \markup\Nomen
       Be -- ne -- dikt Mar -- tin
       hle -- dal své -- ho Pá -- na,
       a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním

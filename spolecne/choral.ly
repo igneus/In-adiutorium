@@ -90,3 +90,6 @@ neviditelna = #(define-music-function (parser location note)
     \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
+
+% zastupna znacka za jmeno (napr. svateho) do univerzalnich textu
+Nomen = \markup{ \with-color ##'red {N} }

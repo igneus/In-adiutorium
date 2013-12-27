@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.24"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -317,14 +317,14 @@
   \relative c'' {
     \choralniRezim
     g4 a
-    \bar ":" a( g) \parenthesize f a\breve \bar ":"
+    \bar ";" a( g) \parenthesize f a\breve \bar ";"
     c4 d c b d( a) a g f( g f) e e( a) a \barMax
     a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
     d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tý 
-    \markup\concat{\with-color #red {N} , } \skip 1 \skip 1
+    \markup\concat{\Nomen ,} \skip 1 \skip 1
     u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
     tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
     při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.

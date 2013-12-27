@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.17.24"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -129,12 +129,12 @@
     \choralniRezim
     d( f) g 
     
-    \bar ":" \neviditelna g
-    f(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g) \bar ":"
-    f( g) g \bar ":"
-    f( e) f( g) g \bar ":"
-    f e f( g) g \bar ":"
-    f e f g g \bar ":"
+    \bar ";" \neviditelna g
+    f(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g) \bar ";"
+    f( g) g \bar ";"
+    f( e) f( g) g \bar ";"
+    f e f( g) g \bar ";"
+    f e f g g \bar ";"
     
     a g f a g f d d \barMaior
     d( f d) d( c) c d e f f( g) g \barMaior
@@ -143,7 +143,7 @@
   }
   \addlyrics {
     Sva -- tý 
-    \markup{\Dagger \with-color #red {N}}
+    \markup{\Dagger \Nomen}
     
     Vít
     Vin -- cenc
