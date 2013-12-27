@@ -195,6 +195,10 @@ Liturgické mezidobí
 #######################################
 Sanktorál
 
+  sv. Jana, apoštola a evangelisty (svátek, 27.12.)
+    modlitba se čtením
+      19a, 64, 99
+
   Uvedení Páně do chrámu (svátek, 2.2.)
     1. nešpory
       113, 147ii, fp2
@@ -243,7 +247,7 @@ Sanktorál
     2. nešpory
       110, 116ii, zj4
       
-  sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
+  sv. Michaela, Gabriela a Rafaela, archandělů (svátek, 29.9.)
     modlitba se čtením
       97, 103ci, 103cii
     vigilie
