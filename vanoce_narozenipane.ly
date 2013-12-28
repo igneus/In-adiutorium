@@ -897,7 +897,7 @@
     \relative c'' {
       \choralniRezim
       a4( g) g( a) a f( g a) g f f( g) f f \barMaior
-      f f f f e( c d) c \barMin d d f( g) a g f f \barFinalis
+      f f f f e( c d) c \barMin d d f g g f f \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci vstou -- pi -- li do do -- mu
@@ -917,8 +917,8 @@
     \relative c' {
       \choralniRezim
       f4 a a( g) \barMin 
-      g d d d e d c( d) d \barMaior
-      f g f a( g f) g \barMin g f e d e d c( d) d \barFinalis
+      g d4. d4 d e d c( d) d \barMaior
+      f g f d( f e) c( d) \barMin d d e f d e d d \barFinalis
     }
     \addlyrics {
       Jo -- sef vstal,
