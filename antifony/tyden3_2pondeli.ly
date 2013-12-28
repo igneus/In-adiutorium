@@ -13,6 +13,8 @@
     \choralniRezim
     d4 d d( e f d) d \barMin
     d c a a a b g a a \barFinalis
+    
+    g^\rubrVelikAleluja a b a \barFinalis
   }
   \addlyrics {
     Náš Bůh při -- jde
@@ -36,6 +38,8 @@
     \choralniRezim
     d( c d) c a a( d) d \barMin
     d( e) c a a \barFinalis
+    
+    g^\rubrVelikAleluja a b a \barFinalis
   }
   \addlyrics {
     Při -- ná -- šej Bo -- hu
@@ -58,6 +62,8 @@
     \choralniRezim
     d4 c b a g g( a) \barMin f g a( b a) a \barMaior
     c c c c( d) d d d( a) \barMin b a g g( a) a \barFinalis
+    
+    g^\rubrVelikAleluja a b a \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci, a ne o -- běť:

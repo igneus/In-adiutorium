@@ -15,6 +15,8 @@
     \choralniRezim
     d4 d f( e c) c( d) d \barMin
     c( a) b a g g \barFinalis
+    
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
@@ -35,9 +37,13 @@
   \relative c'' {
     \choralniRezim
     d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis
+    
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh je při -- ve -- dl do své sva -- té ze -- mě.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -54,10 +60,14 @@
     \choralniRezim
     d d e d e f( d) d \barMin e e d c b \barMaior
     a( g) g( a) a \barMin a( d c) a( b) g g \barMin f g a( g) g \barFinalis
+    
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
     Da -- vi -- da za pas -- tý -- ře své -- ho li -- du.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

@@ -13,6 +13,8 @@
     \choralniRezim
     f4 f f e g( a g) f \barMin
     a a a g bes a g f f \barFinalis
+    
+    e^\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
     Na -- vě -- ky chci zpí -- vat 
@@ -35,6 +37,8 @@
     \choralniRezim
     f f \barMin g a( f) g \barMaior
     a bes a g a f f \barMin d f g a g( f) f \barFinalis
+    
+    e^\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
@@ -58,6 +62,8 @@
     f( g a) g f g f d e d \barMin
     c d f g g g \barMaior
     f g a( bes) a a \barMin a g a g f f \barFinalis
+    
+    e^\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,

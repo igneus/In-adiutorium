@@ -14,6 +14,8 @@
     g4 g g g a a e e \barMaior
     c d e( g) g g \barMin
     a a g f e( d) d \barFinalis
+    
+    g^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nu svěř svůj o -- sud,
@@ -27,6 +29,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = "Žalm 37-I"
+    placet = "nejak nesedi v I. modu, mozna ma prirozenejsi finalu na E?"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -37,6 +40,8 @@
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f bes a g d f d d \barFinalis
+    
+    g^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Chraň se zlé -- ho a čiň do -- bré;
@@ -59,6 +64,8 @@
     \choralniRezim
     g4 g a( bes) g g( a) a \barMaior
     g a g d( f) f d d \barFinalis
+    
+    g^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Dou -- fej v_Hos -- po -- di -- na

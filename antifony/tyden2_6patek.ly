@@ -35,6 +35,8 @@
     \choralniRezim
     d4 d d g,( a g) \barMin
     a c b f g g \barFinalis
+    
+    a^\rubrVelikAleluja f g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty víš 
@@ -57,6 +59,8 @@
     \choralniRezim
     d4( e) d \barMin d e d c d c b g g \barMaior
     a f f a a c c b g g \barFinalis
+    
+    f^\rubrVelikAleluja a g g \barFinalis
   }
   \addlyrics {
     Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,

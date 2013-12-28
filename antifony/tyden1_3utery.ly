@@ -13,6 +13,8 @@
     \choralniRezim
     d4 d d d( a') f e( g) f e( f) d \barMaior
     d( f d) d( c) c e( g) f d d \barFinalis
+    
+    e^\markup\rubrVelikAleluja g f( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
@@ -36,6 +38,8 @@
     d4 d d( a') f \barMin
     e f g g a g e f d \barMaior
     d d d d( f d) d( c) c e( g) f( d) d \barFinalis
+    
+    e^\rubrVelikAleluja g f( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, 
@@ -59,6 +63,8 @@
     \choralniRezim
     a4 g f g f e( f) d d \barMin
     e e( f g) f e d( e d) d \barFinalis
+    
+    f^\rubrVelikAleluja e c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- vy vý -- ro -- ky

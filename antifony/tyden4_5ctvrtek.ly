@@ -15,6 +15,8 @@
     d d d d e d c b \barMaior
     a g a b \barMin
     a g a c b g g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství
@@ -39,6 +41,8 @@
     \choralniRezim
     g4 a b b b b c d e d \barMaior
     c b c d b g g \barMin a( f) g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
