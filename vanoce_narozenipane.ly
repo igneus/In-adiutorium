@@ -677,11 +677,9 @@
 
 \bookpart {
   \header {
-    subtitle = "Oktáv"
+    subtitle = "Neděle v oktávu: svátek Svaté Rodiny"
   }
-  
-  \markup {\nadpisDen {svátek Svaté Rodiny}}
-  
+    
   \markup {\nadpisHodinka {"1. nešpory"}}
   
   \score {
@@ -1310,8 +1308,12 @@
     }
   }
   
-  \pageBreak % svatek Svate Rodiny ma vic stranek, prijde mi
-  % tedy pro prehlednost dobre, aby dalsi den zacinal na nove
+}
+
+\bookpart {
+  \header {
+    subtitle = "Oktáv"
+  }
   
   \markup {\nadpisDen {26. prosince}}
   
