@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -53,7 +53,8 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "iben"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne3b-ne1-mag"
     fons = "3. neděle v mezidobí, cyklus B, 1. nešpory, k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -76,7 +77,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -102,7 +103,7 @@
     modus = "III"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -122,7 +123,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -147,7 +148,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -171,7 +172,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
-    id = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -193,8 +194,9 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "iiiben"
     fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -215,7 +217,7 @@
     modus = "I"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -241,8 +243,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
+    fial = "pust_svatytyden.ly#po-ne-amag?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -268,7 +271,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -292,7 +295,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -322,7 +325,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -346,7 +349,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -366,7 +369,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
