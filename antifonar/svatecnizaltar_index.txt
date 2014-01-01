@@ -103,28 +103,44 @@ Doba velikonoční
       110, 114, zj19
       
   pondělí ve velikonočním oktávu
+    modlitba se čtením
+      1, 2, 3
     modlitba uprostřed dne
       8, 19a, 19b
       
   úterý ve velikonočním oktávu
+    modlitba se čtením
+      24, 66i, 66ii
     modlitba uprostřed dne
       119alef, 16, 23
       
   středa ve velikonočním oktávu
+    modlitba se čtením
+      104i, 104ii, 104iii
     modlitba uprostřed dne
       119beth, 28, 116ii
       
   čtvrtek ve velikonočním oktávu
+    modlitba se čtením
+      118i, 118ii, 118iii
     modlitba uprostřed dne
       119gimel, 30i, 30ii
       
   pátek ve velikonočním oktávu
+    modlitba se čtením
+      136i, 136cii, 136ciii
     modlitba uprostřed dne
       119dalet, 76i, 76ii
       
   sobota ve velikonočním oktávu
+    modlitba se čtením
+      145ci, 145cii, 145ciii
     modlitba uprostřed dne
       119he, 96i, 96ii
+
+  Druhá neděle velikonoční
+    modlitba se čtením
+      1, 2, 3
 
   Neděle
     vigilie
