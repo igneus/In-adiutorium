@@ -8,7 +8,7 @@ Doba adventní
 
   Neděle
     vigilie
-      iz40, iz42, iz49
+      iz40ii, iz42, iz49
 
 Doba vánoční
   
@@ -25,6 +25,22 @@ Doba vánoční
       19b, 47, 48
     2. nešpory
       110, 130, kol1
+
+  29. prosince
+    modlitba se čtením
+      46, 72i, 72ii
+
+  30. prosince
+    modlitba se čtením
+      85, 89i, 89ii
+
+  31. prosince
+    modlitba se čtením
+      96, 97, 98
+
+  Matky Boží, Panny Marie (slavnost, 1.1.)
+    modlitba se čtením
+      24, 87, 99
       
   Zjevení Páně (slavnost, 6.1. nebo v neděli od 2. do 8.1.)
     1. nešpory
@@ -39,6 +55,10 @@ Doba vánoční
       47, 86i, 98
     2. nešpory
       110, 112, zj15
+
+  Křtu Páně (svátek)
+    modlitba se čtením
+      29, 66i, 66ii
 
 Doba postní
 
