@@ -29,7 +29,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 19A"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 64"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 99"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -101,7 +101,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -123,7 +123,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -149,7 +149,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "Velikonoční oktáv, pátek, k Magnificat"
     piece = \markup {\sestavTitulek}
   }
@@ -176,7 +176,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
