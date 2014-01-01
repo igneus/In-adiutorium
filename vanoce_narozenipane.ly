@@ -1312,7 +1312,7 @@
 
 \bookpart {
   \header {
-    subtitle = "Oktáv"
+    subtitle = "Dny oktávu"
   }
   
   \markup {\nadpisDen {26. prosince}}
@@ -1533,6 +1533,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
+      placet = "R"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1571,8 +1572,12 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+}
 
-  \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
+\bookpart {
+  \header {
+    subtitle = "Oktáv. Slavnost Matky Boží, Panny Marie (1.1.)"
+  }
   
   \markup {\nadpisHodinka {"1. nešpory"}}
   \label #'slavMatkyBoziNesporyI
