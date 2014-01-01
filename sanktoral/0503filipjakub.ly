@@ -30,7 +30,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,7 +76,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -103,7 +103,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -125,7 +125,7 @@
     modus = ""
     differentia = "" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -146,7 +146,7 @@
     modus = ""
     differentia = "" 
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -168,7 +168,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     fons = ""
     fial = "antifony/tyden4_5ctvrtek.ly#up-ant1"
     piece = \markup {\sestavTitulek}
@@ -192,7 +192,7 @@
     modus = ""
     differentia = "" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
