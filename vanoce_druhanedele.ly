@@ -28,6 +28,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Magnificat"
+    id = "ne1-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -63,12 +64,10 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Benedictus"
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-% Zacatek nasledujici antifony je prevzaty z 1. ant. 1. nespor
-% ze spolecnych textu o Panne Marii
 
 \score {
   \relative c'' {
@@ -89,6 +88,9 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Magnificat"
+    fons = "Zacatek je z 1. ant. 1. nespor ze spolecnych textu o Panne Marii"
+    fial = "commune/commune_maria.ly#1ne-a1?zacatek"
+    id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
