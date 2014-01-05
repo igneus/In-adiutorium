@@ -53,8 +53,8 @@
   \relative c'' {
     \choralniRezim
     d4 c( d) d e( d c) c( d) d \barMin
-    c c c d c b g( a g) g \barMaior
-    
+    c c c d c b g g \barMaior
+    g f( g) g a b a g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý se -- stou -- pil 
@@ -63,8 +63,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""
@@ -97,9 +97,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a e f e d e e \barMin
+    e d e f g g e e \barMin
+    e d c d d \barMaior
+    a' a a a g a b( g e) e \barMin
+    f g g g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl dva brat -- ry,
@@ -110,8 +114,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     id = ""
@@ -120,20 +124,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g( a) a f g g a a \barMin 
+    f g f d d d \barMaior
+    d f( g f) g( a) a g \barMin
+    f f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš hlá -- sal e -- van -- ge -- li -- um
     o Bo -- žím krá -- lov -- ství
-    a u -- zdra -- vo -- val me -- zi li -- dem
-    kaž -- dou ne -- moc.
+    a u -- zdra -- vo -- val 
+    me -- zi li -- dem kaž -- dou ne -- moc.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     annus = "A"
     id = ""
