@@ -27,9 +27,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 d c a c b( a) \barMaior
+    g g g( a) f g \barMin a b c c( d) c a( b) a a( g) \barMaior
+    f g a a g f e \barFinalis
   }
   \addlyrics {
     Jan vy -- dal svě -- dec -- tví:
@@ -38,8 +40,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = ""
@@ -48,12 +50,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c( d) d e( d c) c( d) d \barMin
+    c c c d c b g( a g) g \barMaior
+    
   }
   \addlyrics {
-    Duch sva -- tý se -- stou -- pil ja -- ko ho -- lu -- bi -- ce z_ne -- be
+    Duch sva -- tý se -- stou -- pil 
+    ja -- ko ho -- lu -- bi -- ce z_ne -- be
     a zů -- stal na Je -- ží -- šo -- vi.
   }
   \header {
