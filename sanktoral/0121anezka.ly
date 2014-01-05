@@ -14,20 +14,23 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 a g f( g) \barMin 
+    g a c a c b( a g) g a f f g g \barMaior
+    g g( a g) g( c) c c c( d) c c( b a) \barMin
+    g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Svým prs -- te -- nem si mě Kris -- tus, můj Pán,
-    za -- vá -- zal k_věr -- nos -- ti
+    Svým prs -- te -- nem 
+    si mě Kris -- tus, můj Pán, za -- vá -- zal k_věr -- nos -- ti
     a o -- věn -- čil mě ko -- ru -- nou
     ja -- ko svou ne -- věs -- tu.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -56,19 +59,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 a a( c) c \barMin 
+    c d c c d b a( g) g \barMaior
+    a f e d( e) d d \barMin
+    e f g g a g f a a( g) g \barFinalis
   }
   \addlyrics {
-    Ra -- duj -- te se a dě -- kuj -- te spo -- lu se mnou,
+    Ra -- duj -- te se 
+    a dě -- kuj -- te spo -- lu se mnou,
     by -- la jsem při -- ja -- ta
-    do slav -- né -- ho spo -- le -- čen -- ství sva --- tých.
+    do slav -- né -- ho spo -- le -- čen -- ství sva -- tých.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
