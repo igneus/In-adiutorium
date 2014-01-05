@@ -153,7 +153,12 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c d e f f f \barMin
+    d f g a( bes) a a \barMaior
+    a g a g f g f e d c d d d \barMaior
+    d( e f) d d g f e d( e) d d \barMaior
+    a' a a g g a g g( a) a \barMin
+    f g a g f g( a) f e d d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl zá -- stu -- py,
@@ -165,8 +170,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -199,7 +204,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a') a a g g g( a) g g a a \barMaior
+    a a c c b a a( b) g g \barMin
+    f f g f( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
@@ -208,8 +215,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -217,6 +224,7 @@
   }
 }
 
+%{
 \markup {\nadpisDen {"5. neděle"}}
 
 \score {
@@ -632,3 +640,4 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+%}
