@@ -248,7 +248,7 @@
     \choralniRezim
     a4 g( a)
     a4 a a-| \parenthesize g g \barMin
-    a4 a b a bes-| \parenthesize a a \barMaior
+    a4 a g a b-| \parenthesize a a \barMaior
     a4 a a-| \parenthesize g g \barFinalis
   }
   \header {
@@ -263,7 +263,7 @@
     \choralniRezim
     a4 g( a)
     a4 a a-| \parenthesize g g \barMin
-    a4 a b a bes-| \parenthesize a a \barMaior
+    a4 a g a b-| \parenthesize a a \barMaior
     a4 a g a b( a) \parenthesize g g(-| f) e \barFinalis
   }
   \header {
