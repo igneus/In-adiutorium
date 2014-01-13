@@ -38,20 +38,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 a g f f f( g) g \barMin 
+    a a a( b c) a a( b) a( g) g \barMaior
+    c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
+    c c c b( a g) g a( g) f a g g \barFinalis
   }
   \addlyrics {
     Jsem za -- snou -- be -- na to -- mu,
     je -- muž slou -- ží an -- dě -- lé,
-    na je -- hož krá -- su s_ú -- ža -- sem hle -- dí
+    na je -- hož krá -- su 
+    s_ú -- ža -- sem hle -- dí
     mě -- síc i slun -- ce.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -90,7 +94,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f d c( d) d \barMin f g f d( e) d d \barMaior
+    a' a( c a) \barMin g f g g a a \barMaior
+    a a a a( bes) a g a( g f) \barMin 
+    g g g g f e d( e) d d \barMin
+    d( e f) d e d c( d) d \barFinalis
   }
   \addlyrics {
     Už pat -- řím na to, po čem jsem tou -- ži -- la;
@@ -100,8 +108,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
