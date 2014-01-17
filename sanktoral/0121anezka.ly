@@ -121,7 +121,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 d d( e) e f( g) g e e \barMin
+    f g a a( g) a a( b) a( g) g \barMaior
+    a g f e d \barMin e f g g e e \barFinalis
   }
   \addlyrics {
     Ne -- bo -- jím se žád -- né hroz -- by
@@ -130,9 +132,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
-    psalmus = ""
+    modus = "IV"
+    differentia = "E" 
+    psalmus = "Žalm 116-I"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -151,7 +153,7 @@
     quid = "2. ant."
     modus = ""
     differentia = "" 
-    psalmus = ""
+    psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -168,10 +170,10 @@
     skr -- ze ně -- ho jsi mi dal sí -- lu k_ví -- těz -- ství.
   }
   \header {
-    quid = ". ant."
+    quid = "3. ant."
     modus = ""
     differentia = "" 
-    psalmus = ""
+    psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
   }
