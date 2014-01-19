@@ -36,7 +36,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 g a c b a c( d) d \barMaior
+    c d d d c b a c( b a) a \barMin
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
@@ -45,8 +47,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "V"
+    differentia = "a" 
     psalmus = "Žalm 116"
     id = ""
     piece = \markup {\sestavTitulek}
