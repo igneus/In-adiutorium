@@ -1,6 +1,8 @@
 \version "2.15.40"
 
-\include "spolecne.ly"
+\include "spolecne/nadpisy.ly"
+\include "spolecne/tiraz.ly"
+\include "spolecne/layout.ly"
 
 \header {
   title = "Žalm 130"
@@ -19,14 +21,6 @@
 
 \layout {
   ragged-last = ##f
-  \context {
-    \Score
-    \remove Bar_number_engraver
-  }
-  \context {
-    \Staff
-    \remove Custos_engraver
-  }
 }
 
 text = \lyricmode {
@@ -73,11 +67,11 @@ text = \lyricmode {
 
 akordy = \chords {
   %1
-  a4:m c g2 a4:m
-  c4 d2:m a4:m
+  a4:m c g2 a4:m s2.
+  c4 d2:m a4:m s2.
   %2
-  a4:m c g2 a4:m
-  g2 a2:m
+  a4:m c g2 a4:m s4 s2
+  g2 a2:m s2 s2
   
   %3
   a2:m g a:m d1:m a4:m
@@ -111,8 +105,9 @@ akordy = \chords {
   a2:m c4 g4 a4:m g4 a2:m
 }
 
-po = \mark\markup{*}
-ve = \mark\markup{//}
+% puvodne znacky pro polovers a konec verse
+po = {}
+ve = {}
 
 melodie = \relative c'' {
   \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
@@ -123,11 +118,11 @@ melodie = \relative c'' {
   \time 2/4
     
   %1
-  a8 a c c | b a b g \time 1/4 a a \po
-  \time 2/4 c c f f | f4 e \bar "||" \break
+  a8 a c c | b a b g a a r4 r2 \po
+  \time 3/4 c8 c f f f4 \time 4/4 e r2. \bar "||" \break
   %2
-  a,8 a c c | b( g) g( a) \time 1/4 a r \po
-  \time 2/4 g4 g8 b b( a) a r \bar "||" \break
+  \time 2/4 a,8 a c c | b( g) g( a) a r r4 r2 \po
+  g4 g8 b b( a) a r r2 r2 \bar "||" \break
   
   %3
   r8 e'8 e e | d e f4 | e r | r8 f f f | a a a f | \time 1/4 e e \po
