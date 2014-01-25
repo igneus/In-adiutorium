@@ -170,18 +170,6 @@ melodie = \relative c'' {
   }
 }
 
-\markup\justify{
-  * - Konec poloverše. Obvykle se hodí zařadit dvě až čtyři prázdné doby
-  (beze zpěvu, doprovod hraje dál.)
-}
-\markup\justify{
-  dvojitá taktová čára na konci řádku - Konec verše. 
-  i tady se většinou hodí podobná pomlka.
-}
-\markup\justify{
-  Pozn.: Když jsem to skládal, zpíval jsem o oktávu níž, než jsem psal.
-}
-
 %{
 \pageBreak
 
