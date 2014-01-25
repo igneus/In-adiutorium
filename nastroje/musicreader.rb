@@ -1,29 +1,37 @@
-require 'delegate'
+# musicreader.rb
 
+# Tools to 'parse' lilypond files containing one or more simple scores
+# (isn't able to handle variables; only recognizes lyrics entered using
+# \addlyrics; ...) and access their data, especially lyrics and header
+
+# Parses a simple score;
+# provides access to it's source, lyrics and header
 class LilyPondScore
-  def initialize(text, srcfile=nil, number=nil)
+  def initialize(text, srcfile=nil, number=1)
     @text = text
-    @number = number || LilyPondScore.autonum
+    @number = number
     @src_file = srcfile
     init_text
     init_lyrics
     init_header
   end
   
-  def LilyPondScore.autonum
-    if defined? @@scorenum then
-      @@scorenum += 1
-    else
-      @@scorenum = 1
-    end
-    return @@scorenum
-  end
-  
-  attr_reader :text
-  attr_reader :lyrics_raw
+  # complete source of the score
+  attr_reader :text 
+
+  # score lyrics as included in the source file, only with comments stripped
+  attr_reader :lyrics_raw 
+
+  # score lyrics stripped of lilypond syllabification
   attr_reader :lyrics_readable
-  attr_reader :header
-  attr_reader :number # position of the score in the file
+
+  # Hash containing header fields
+  attr_reader :header 
+
+  # position of the score in the file
+  attr_reader :number 
+
+  # name/path of the source file - only if loaded from a file
   attr_reader :src_file
 
   def to_s
@@ -65,7 +73,6 @@ class LilyPondScore
     @header = {}
     i1 = @text.index '\header'
     unless i1
-      # puts "no header"
       return
     end
     i1 = @text.index '{', i1
@@ -114,19 +121,22 @@ class LilyPondScore
   end
 end
 
+# Parses a lilypond file;
+# provides access to it's scores
 class LilyPondMusic
   
   def initialize(src)
     @scores = []
     @id_index = {}
     @preamble = ''
+    @score_counter = 0
     
     if src.is_a? IO then
       load_from src
     elsif src.is_a? String and src.include? '\score' then
       load_from StringIO.new src
     elsif src.is_a? String and File.exist? src
-      load_from File.open(src, "r")
+      load_from File.open(src, "r"), src
     else
       raise ArgumentError.new("Unable to load LilyPond music from #{src.inspect}.")
     end
@@ -153,9 +163,10 @@ class LilyPondMusic
   
   private
   
-  def create_score(store, number)
+  def create_score(store, src_name)
+    @score_counter += 1
     begin
-      score = LilyPondScore.new(store, number)
+      score = LilyPondScore.new(store, src_name, @score_counter)
       @scores << score
       if score.header.has_key? 'id' then
         @id_index[score.header['id']] = score
@@ -168,9 +179,8 @@ class LilyPondMusic
     end
   end
 
-  def load_from(stream)
+  def load_from(stream, src_name='')
     store = ''
-    score_number = 0
     beginning = true
     while l = stream.gets do
       if l =~ /\\score\s*\{/ then        
@@ -180,8 +190,7 @@ class LilyPondMusic
           store = l
           next
         else
-          create_score store, score_number
-          score_number += 1
+          create_score store, src_name
           store = l
         end
       else
@@ -190,6 +199,6 @@ class LilyPondMusic
     end
     
     # last score:
-    create_score store, score_number
+    create_score store, src_name
   end
 end
