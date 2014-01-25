@@ -3,11 +3,7 @@ require 'delegate'
 class LilyPondScore
   def initialize(text, srcfile=nil, number=nil)
     @text = text
-    if !@number then
-      @number = LilyPondScore.autonum
-    else
-      @number = number
-    end
+    @number = number || LilyPondScore.autonum
     @src_file = srcfile
     init_text
     init_lyrics
