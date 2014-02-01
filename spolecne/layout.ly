@@ -12,16 +12,6 @@
     % vypnout cisla taktu na zacatku radku
     \remove Bar_number_engraver
   }
-  
-  \context {
-    \Staff
-    
-    \consists Custos_engraver
-    \override Custos #'style = #'hufnagel
-    
-    % klic jen na zacatku prvni radky
-    \override Clef #'break-visibility = #all-invisible
-  }
 }
 
 \paper {

@@ -1,5 +1,17 @@
 \version "2.16.0"
 
+\layout {
+  \context {
+    \Staff
+    
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel
+    
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
+  }
+}
+
 % nastaveni pro choralni notaci
 
 choralniRezim = {
