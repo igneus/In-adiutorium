@@ -31,11 +31,52 @@
 }
 %}
 
+notime = {
+  \override Score.TimeSignature #'stencil = ##f
+  \cadenzaOn
+}
+
+\score {
+  \relative c' {
+    \key g \minor
+    \time 4/4
+    
+    \partial 4 
+    \repeat volta 2 { 
+      d4 |
+      g4 a bes c a2 a4 f g g a a | d,2 r4
+    }
+    \set Timing.measurePosition = #(ly:make-moment 0) % reset timing
+    d'2 c4 a bes c a2 |
+    r4 a bes c d d c2 a4 a bes a g g a2 | f4 \breathe
+    d g g a4. a8 g2 \bar "|."
+  }
+  \header {
+    fons = "s. 104"
+    id = "33"
+  }
+}
+
+\score {
+  \relative c' {
+    \key e \phrygian
+    \notime
+    
+    e4 e f f e e d d g g f f e2 \bar "|"
+    g4 g a a b b c c a a a g a2 \bar "|"
+    d4 d b b c c a a g g f f e2 \bar "|"
+    e4 e d d c d e e g g f f e2 \bar "|."
+  }
+  \header {
+    fons = "s. 106"
+    id = "34"
+  }
+}
+
 \score {
   \relative c' {
     \key e \dorian
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
+    \notime
     
     e2 g4 e d e g fis e2 \bar "|"
     g2 a4 a b g a a b2 \bar "|"
@@ -65,10 +106,59 @@
 }
 
 \score {
+  \relative c'' {
+    \key c \dorian
+    \notime
+    
+    g2 g4 es f g es d c2 \breathe
+    g'2 g4 f bes g es f g2 \bar "|"
+    g2 bes4 c es d c bes c2 \breathe
+    c2 d4 c bes a g f g2 \bar "|"
+    c2 bes4 a bes g g f es2 \breathe
+    g2 as4 g es f es d c2 \bar "|."
+  }
+  \header {
+    fons = "s. 108"
+    id = "85"
+  }
+}
+
+\score {
+  \relative c'' {
+    \key c \dorian
+    \notime
+    
+    g4 g f es f g es8[ d] c4\fermata \bar "|"
+    g'4 bes c c bes c bes8([ a)] g4\fermata \bar "|"
+    bes4 bes c d es( c) bes2 \bar "|"
+    es4 d c bes c d bes g\fermata \bar "|"
+    g4 f es f es c es8 f g4\fermata \bar "|"
+    bes4 g es f es( d) c2 \bar "|."
+  }
+  \header {
+    fons = "s. 105"
+    id = "88"
+  }
+}
+
+\score {
+  \relative c'' {
+    \key e \dorian
+    \notime
+    
+    b4 b a b cis b2 \bar "" b4 fis2 b4 a2 g4 fis1 \bar "|"
+    g4 g fis e b' b \bar "" d2 b4 a2 g4 fis2 e1 \bar "|."
+  }
+  \header {
+    fons = "s. 107"
+    id = "179"
+  }
+}
+
+\score {
   \relative c' {
     \key e \minor
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
+    \notime
     
     e2 e4 b' a fis g a b2 \bar "|"
     b2 d4 b g e fis a g2 \bar "|"
@@ -84,8 +174,7 @@
 \score {
   \relative c'' {
     \key g \major
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
+    \notime
     
     g2 a4 b c2 b a a4 gis2 a4 b2 a \bar "|"
     c2 c4 c a2 d b c4 a2 b4 a2 g \bar "|"
@@ -115,8 +204,7 @@
 \score {
   \relative c'' {
     \key g \minor
-    \override Score.TimeSignature #'stencil = ##f
-    \cadenzaOn
+    \notime
     g4 g g g bes2 c d \bar "|"
     d4 d d a d d c bes a2 \bar "|"
     a4 bes c a d bes a g\fermata \bar "|"
