@@ -15,6 +15,74 @@
 
 \markup\italic{Antifona ze společných textů o apoštolech.}
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še, pů -- vod -- ce ži -- vo -- ta,
+    jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil do své slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 19A"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Pán po -- slal své -- ho an -- dě -- la
+    a vy -- tr -- hl mě z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = "Žalm 64"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( g a) g( a) g f g( a g) f f( g) g \barMaior
+    g a g g g f( g f) e e( f) d( c) c \barMax
+    d d d( f g) \barMin f g f e d \barMaior
+    f e( d) e c d d \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = "Žalm 97"
+    id = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -117,17 +185,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 c d f e( f) f \barMax
+    g g f( d) d \barMin d d( e d) d c c d d \barMax
+    f( e f) g( f) d d \barFinalis
   }
   \addlyrics {
     Pet -- ře, mi -- lu -- ješ mě?
     A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
-    Pas mo -- je ov -- ce.
+    Pas 
+    %mo -- je 
+    mé ov -- ce.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -137,16 +209,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d( f d) c f g g( a) a \barMaior
+    a a a g( a) a a a \bar "" c( b a) b( a) g( a) a( g) \barMaior
+    f f f e( f g) f d c( d) d \barFinalis
   }
   \addlyrics {
     Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
-    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě za ně -- ho mod -- li -- la k_Bo -- hu. 
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě 
+    za ně -- ho mod -- li -- la k_Bo -- hu. 
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 126"
     id = ""
     piece = \markup {\sestavTitulek}
