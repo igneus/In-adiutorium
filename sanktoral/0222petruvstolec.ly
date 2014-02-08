@@ -18,9 +18,13 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a a( g) g a g f g( a) a g g \barMaior
+    f f( g) g \barMin f g a a( b) a a \barMin
+    a c d c a a \barMaior
+    d c d( e) d c( b a) a \barMin
+    c c( b g) a( g) g f( a) a g g \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
@@ -31,18 +35,23 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 19A"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
+% Po uvaze a pokusu nebyla jako zaklad pouzita antifona
+% z oficia sv. Vavrince s podobne zacinajicim textem,
+% protoze jeji bohata melodie se nezda byt s takto kratkym textem
+% dobre smiritelna.
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 c( b g) g \barMin a( g) f g( a) a( g) g \barMaior
+    a c b c c( d) \barMin c b a g f( g) g \barFinalis
   }
   \addlyrics {
     Pán po -- slal své -- ho an -- dě -- la
@@ -50,8 +59,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 64"
     id = ""
     piece = \markup {\sestavTitulek}
