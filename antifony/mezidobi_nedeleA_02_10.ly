@@ -462,14 +462,15 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"8. neděle"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f e d e( f) d d \barMaior
+    c d d c d d( f) f \barMin
+    f f g f f g f e d( e d) d \barMaior
+    d d c( d) d f e f g f e d c( d) d \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se na ptá -- ky:
@@ -479,8 +480,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -489,9 +490,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a a a b c a g g g \barMaior
+    a a a a f( e d) d e f f( g) \barMin
+    a b c a g g( a) g g \barFinalis
   }
   \addlyrics {
     Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
@@ -500,8 +503,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
@@ -510,9 +513,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c b( c) a a d( c) b a a a \barMin
+    f g a c( d) c c( d) d \barMaior
+    d e d c( b) a a \barMin f g a b( c a) g g \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te nej -- pr -- ve Bo -- ží krá -- lov -- ství
@@ -521,14 +526,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"9. neděle"}}
 
