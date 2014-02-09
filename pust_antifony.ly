@@ -131,6 +131,14 @@
 
 \bookpart {
   \header {
+    subtitle = "Neděle - ant. k Benedictus a Magnificat - cyklus A"
+  }
+  
+  \include "antifony/pust_nedeleA.ly"
+}
+
+\bookpart {
+  \header {
     subtitle = "Neděle - ant. k Benedictus a Magnificat - cyklus B"
   }
   
