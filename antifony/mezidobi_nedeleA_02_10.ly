@@ -301,8 +301,6 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"6. neděle"}}
 
 \score {
@@ -330,9 +328,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g f g a g f e \barMin
+    d e f g f d d \barMin
+    d c d d d f( g a) g g g f( g a) g g
+    f g f d d \barMaior
+    f f f e d e( f) d d e d c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
@@ -343,8 +345,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = ""
@@ -355,10 +357,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f e c c( f) d d \barMaior
+    f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
+    a a g( f) f f g f g f d d \barMaior
+    d( e) d c d( f) g f d d \barMin
+    d c d e f f( g) g f g g( f) f \barMaior
+    g g g g( a) g g( f d) \barMin
+    d d( e f) e( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři a tam si vzpo -- me -- neš,
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři 
+    a tam si vzpo -- me -- neš,
     že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
     nech tam svůj dar před ol -- tá -- řem
     a jdi se na -- před smí -- řit se svým brat -- rem;
@@ -367,8 +376,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = ""
@@ -381,7 +390,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g g g f g f f \barMaior
+    f d f f f g( f) f \barMin g f g a a g g \barMaior
+    f f f g g( f d) d \barMin
+    f e f g a g f f \barFinalis
   }
   \addlyrics {
     Mi -- luj -- te své ne -- přá -- te -- le
@@ -391,8 +403,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = ""
@@ -401,9 +413,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( a) a g a( c) c \barMin
+    c c b( c d) c b a a \barMin
+    c b g a g g \barMaior
+    g g( a) a a f( e d) \barMin
+    f g g g g a g f g g \barFinalis
   }
   \addlyrics {
     Váš ne -- bes -- ký O -- tec
@@ -414,8 +430,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = ""
@@ -424,24 +440,29 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b c( d e) c( b) c c \barMin
+    a a c b a g( a) g \barMin
+    f g( a) a a g g \barFinalis
   }
   \addlyrics {
     Buď -- te do -- ko -- na -- lí,
-    ja -- ko je do -- ko -- na -- lý váš ne -- bes -- ký O -- tec.
+    ja -- ko je do -- ko -- na -- lý 
+    váš ne -- bes -- ký O -- tec.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"8. neděle"}}
 
