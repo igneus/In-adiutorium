@@ -249,7 +249,7 @@ tIIuteryNespAntIII = \score {
     quid = "3. ant."
     modus = "IV-alt"
     differentia = "A" 
-    psalmus = "Zj 15"
+    psalmus = "Zj 4"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
