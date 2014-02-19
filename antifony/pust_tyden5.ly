@@ -1,6 +1,6 @@
 % -*- master: ../pust_antifony.ly;
 
-\markup\nadpisDen{5. neděle postní /cyklus B/}
+\markup\nadpisDen{5. neděle postní}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 

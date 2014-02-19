@@ -13,6 +13,8 @@
     \choralniRezim
     g4 d( e) f g a( g) \barMin a c b( g) a \barMaior
     c d c b( a b) g \barMin f e d e f f( a) f f( g) g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
@@ -36,6 +38,8 @@
     g g g a b c b \barMin c d b a a \barMaior
     g g a g f e d( e) d d \barMin
     e f g g a a g g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
@@ -59,6 +63,8 @@
     \choralniRezim
     g4 a b c c c c \barMin
     b g f a g g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te Hos -- po -- di -- na,

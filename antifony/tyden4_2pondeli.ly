@@ -12,7 +12,9 @@
   \relative c'' {
     \choralniRezim
     g4 g a f g \barMin
-    a b c c d c b g g \barFinalis
+    a b c c d c b( g) g \barFinalis
+    
+    a^\rubrVelikAleluja f g g \barFinalis
   }
   \addlyrics {
     Jak dob -- rý je Bůh 
@@ -57,6 +59,8 @@
     \choralniRezim
     g4 a( f g) e \barMin f g a a a g g \barMaior
     b c d c c b g f g( a) g g \barFinalis
+    
+    f^\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Mé štěs -- tí je být na -- blíz -- ku Bo -- hu;

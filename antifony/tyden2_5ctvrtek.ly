@@ -13,6 +13,8 @@
     \choralniRezim
     g4 a c b c d c a b b \barMaior
     c b c a g a c d b a g g \barFinalis
+    
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
@@ -65,6 +67,8 @@
     \choralniRezim
     g4 g \barMin a a f f g g \barMaior
     d d e f g f g e e \barFinalis
+    
+    f^\rubrVelikAleluja g f( e) e \barFinalis
   }
   \addlyrics {
     Pa -- ne, po -- vstaň nám na po -- moc

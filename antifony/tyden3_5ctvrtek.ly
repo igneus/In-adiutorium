@@ -35,6 +35,8 @@
     \choralniRezim
     a4 b c d b b c a b g a f e \barMaior
     f( g a c) b g a f e e \barFinalis
+    
+    d(^\rubrVelikAleluja e) f( g) a( f) e \barFinalis
   }
   \addlyrics {
     Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
@@ -57,6 +59,8 @@
     \choralniRezim
     a4 a b( g) g g a g f g a b c c \barMaior
     d e d( b c) a \barMin f g a a g g \barFinalis
+    
+    g^\rubrVelikAleluja a g g \barFinalis
   }
   \addlyrics {
     Na -- še lé -- ta jsou ja -- ko trá -- va, kte -- rá vad -- ne,
@@ -69,6 +73,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 90"
+    placet = "'jako' nejak nepatricne vycniva"
     id = ""
     piece = \markup {\sestavTitulek}
   }

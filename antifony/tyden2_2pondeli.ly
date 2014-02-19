@@ -13,6 +13,8 @@
     \choralniRezim
     g4 a a a \barMin
     a a a b g g a( f) e e \barFinalis
+    
+    f^\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -36,6 +38,8 @@
     g4 f g g( a) \barMin
     g a g f e f e d \barMin
     g a f( e) e \barFinalis
+    
+    f^\rubrVelikAleluja f d e \barFinalis
   }
   \addlyrics {
     Svou jas -- nou tvář
@@ -60,6 +64,8 @@
     g4( a) f( g a) g \barMin g a( c b) g a( g) \barMaior
     g g f( e f) e( d) d \barMin
     e f g a g f e d e e \barFinalis
+    
+    f^\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Po -- žeh -- nán buď Hos -- po -- din,

@@ -13,6 +13,8 @@
     \choralniRezim
     a4( c d) c( b) a g b c a a \barMin
     c( d c) a a \barFinalis
+    
+    g^\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     Mi -- lu -- ji tě, Hos -- po -- di -- ne,
@@ -35,6 +37,8 @@
     \choralniRezim
     a c d d e( d c) d d( c) c \barMin 
     d c a g b( c) a \barFinalis
+    
+    g^\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě vy -- svo -- bo -- dil,
@@ -57,6 +61,8 @@
     \choralniRezim
     a4 c d c d e( d) d \barMin 
     c d d( c a) a \barFinalis
+    
+    g^\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé svět -- lo

@@ -12,6 +12,8 @@
   \relative c' {
     \choralniRezim
     d4 d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
+    
+    c^\rubrVelikAleluja d d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
@@ -33,6 +35,8 @@
     \choralniRezim
     d4 d d( c) c \barMin
     d f e d c c d d \barFinalis
+    
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -56,6 +60,8 @@
     d4 e f d d c \barMaior
     d( f) f f f( g) f \barMin
     e d f( e d) c c( d) d \barFinalis
+    
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Ať ži -- je Hos -- po -- din,

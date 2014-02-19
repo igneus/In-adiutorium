@@ -169,6 +169,79 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c a b g \barMin
+    a( f) f g g( c) c( d) c \barMin
+    a( b c) a g f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ten -- to je u -- sta -- no -- ven
+    k_pá -- du a k_po -- vstá -- ní
+    mno -- hých v_Iz -- ra -- e -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g a) \barMin c a a d c b a a \barMaior
+    a a g( c) c b( c) e( d c d) d \barMaior
+    c c b a g f g g g( a g) \barMin
+    a( b c) a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vstaň, roz -- sviť se, Je -- ru -- za -- lé -- me,
+    ne -- boť vze -- šlo tvé svět -- lo
+    a Hos -- po -- di -- no -- va ve -- leb -- nost
+    zá -- ří nad te -- bou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*" 
+    psalmus = "Žalm 19A"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( e) e \barMin a a g( a) e e \barMin
+    d d d g e \barMaior
+    a a c b g a g \barMin
+    f f g g e e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se a ple -- sej, no -- vý Si -- ó -- ne:
+    při -- chá -- zí tvůj král,
+    je po -- kor -- ný a ti -- chý,
+    a při -- ná -- ší spá -- su.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 45"
+    fial = "antifony/advent_tyden2.ly#ne-1ne-a1"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

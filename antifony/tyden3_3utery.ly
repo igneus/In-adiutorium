@@ -13,6 +13,8 @@
     \choralniRezim
     a4 g( d') c d \barMaior
     d c d c e d c( d) d \barMin b a g a( f) g \barFinalis
+    
+    f^\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá 
@@ -35,6 +37,8 @@
     \choralniRezim
     g4( b) d \barMin e d c d d \barMaior
     d c d c( b) g a a( g) g \barFinalis
+    
+    f^\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
     Náš Bůh je Bo -- hem spá -- sy;
@@ -58,6 +62,8 @@
     g4 b c d d \barMaior
     e d c d( b) g \barMin 
     b a b g g \barFinalis
+    
+    f^\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
     Po -- zem -- ské ří -- še,

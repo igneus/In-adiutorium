@@ -30,7 +30,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,7 +76,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -103,7 +103,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -125,7 +125,7 @@
     modus = ""
     differentia = "" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -146,7 +146,7 @@
     modus = ""
     differentia = "" 
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -168,7 +168,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     fons = ""
     fial = "antifony/tyden4_5ctvrtek.ly#up-ant1"
     piece = \markup {\sestavTitulek}
@@ -176,9 +176,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g f g f( e) d \barMaior
+    g a g g g a g f g f( e) d \barMaior
+    g g g g( c) c a c( b a) a \barMaior
+    a a a f e d 
+    f g g g \barFinalis
   }
   \addlyrics {
     Zů -- sta -- ne -- te -li ve mně
@@ -189,10 +193,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

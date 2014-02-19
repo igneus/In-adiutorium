@@ -677,11 +677,9 @@
 
 \bookpart {
   \header {
-    subtitle = "Oktáv"
+    subtitle = "Neděle v oktávu: svátek Svaté Rodiny"
   }
-  
-  \markup {\nadpisDen {svátek Svaté Rodiny}}
-  
+    
   \markup {\nadpisHodinka {"1. nešpory"}}
   
   \score {
@@ -899,7 +897,7 @@
     \relative c'' {
       \choralniRezim
       a4( g) g( a) a f( g a) g f f( g) f f \barMaior
-      f f f f e( c d) c \barMin d d f( g) a g f f \barFinalis
+      f f f f e( c d) c \barMin d d f g g f f \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci vstou -- pi -- li do do -- mu
@@ -919,8 +917,8 @@
     \relative c' {
       \choralniRezim
       f4 a a( g) \barMin 
-      g d d d e d c( d) d \barMaior
-      f g f a( g f) g \barMin g f e d e d c( d) d \barFinalis
+      g d4. d4 d e d c( d) d \barMaior
+      f g f d( f e) c( d) \barMin d d e f d e d d \barFinalis
     }
     \addlyrics {
       Jo -- sef vstal,
@@ -1310,8 +1308,12 @@
     }
   }
   
-  \pageBreak % svatek Svate Rodiny ma vic stranek, prijde mi
-  % tedy pro prehlednost dobre, aby dalsi den zacinal na nove
+}
+
+\bookpart {
+  \header {
+    subtitle = "Dny oktávu"
+  }
   
   \markup {\nadpisDen {26. prosince}}
   
@@ -1531,6 +1533,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = "Magnificat"
+      placet = "R"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1569,8 +1572,12 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+}
 
-  \markup {\nadpisDen {1. ledna - slavnost Matky Boží, Panny Marie}}
+\bookpart {
+  \header {
+    subtitle = "Oktáv. Slavnost Matky Boží, Panny Marie (1.1.)"
+  }
   
   \markup {\nadpisHodinka {"1. nešpory"}}
   \label #'slavMatkyBoziNesporyI

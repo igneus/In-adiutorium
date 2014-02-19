@@ -56,6 +56,8 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) d e \barMin f d c c d d \barFinalis
+    
+    a^\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Stá -- le 

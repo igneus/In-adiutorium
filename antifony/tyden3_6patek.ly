@@ -59,6 +59,8 @@
     \choralniRezim
     a4 g a bes( g) a \barMin
     f e f g f d( e) d d \barFinalis
+    
+    d^\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te Bo -- ha,

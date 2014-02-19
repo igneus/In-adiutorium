@@ -27,9 +27,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 d c a c b( a) \barMaior
+    g g g( a) f g \barMin a b c c( d) c a( b) a a( g) \barMaior
+    f g a a g f e \barFinalis
   }
   \addlyrics {
     Jan vy -- dal svě -- dec -- tví:
@@ -38,8 +40,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = ""
@@ -48,18 +50,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c( d) d e( d c) c( d) d \barMin
+    c c c d c b g g \barMaior
+    g f( g) g a b a g g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý se -- stou -- pil ja -- ko ho -- lu -- bi -- ce z_ne -- be
+    Duch sva -- tý se -- stou -- pil 
+    ja -- ko ho -- lu -- bi -- ce z_ne -- be
     a zů -- stal na Je -- ží -- šo -- vi.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""
@@ -92,9 +97,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a e f e d e e \barMin
+    e d e f g g e e \barMin
+    e d c d d \barMaior
+    a' a a a g a b( g e) e \barMin
+    f g g g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl dva brat -- ry,
@@ -105,8 +114,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     id = ""
@@ -115,20 +124,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g( a) a f g g a a \barMin 
+    f g f d d d \barMaior
+    d f( g f) g( a) a g \barMin
+    f f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš hlá -- sal e -- van -- ge -- li -- um
     o Bo -- žím krá -- lov -- ství
-    a u -- zdra -- vo -- val me -- zi li -- dem
-    kaž -- dou ne -- moc.
+    a u -- zdra -- vo -- val 
+    me -- zi li -- dem kaž -- dou ne -- moc.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     annus = "A"
     id = ""
@@ -141,7 +153,12 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c d e f f f \barMin
+    d f g a( bes) a a \barMaior
+    a g a g f g f e d c d d d \barMaior
+    d( e f) d d g f e d( e) d d \barMaior
+    a' a a g g a g g( a) a \barMin
+    f g a g f g( a) f e d d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl zá -- stu -- py,
@@ -153,8 +170,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -187,7 +204,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a') a a g g g( a) g g a a \barMaior
+    a a c c b a a( b) g g \barMin
+    f f g f( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
@@ -196,8 +215,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -208,9 +227,11 @@
 \markup {\nadpisDen {"5. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g e g( a) a \barMaior
+    e e e e f( d) d( f) e d \barMin
+    g f g g f e e \barFinalis
   }
   \addlyrics {
     Vy jste sůl ze -- mě;
@@ -219,8 +240,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     id = ""
@@ -231,7 +252,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( f) e c( d) d \barMax
+    
+    a c d d( f) d f( g) f d d \barMaior
+    f f e( f) d d f e d e d( a) a \barMaior
+    a c( d c) d( f) d d \barMin f e f f( g) f d( e) d d \barFinalis
   }
   \addlyrics {
     Vy jste svět -- lo svě -- ta,
@@ -242,8 +267,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -252,18 +277,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b c( d) c a( b) a a \barMin
+    g f g g a g a( c) c \barMaior
+    c c c( d e) c( b a) a \barMin 
+    g( a g) f( g) g \barFinalis
   }
   \addlyrics {
-    Buď -- te ja -- ko sví -- til -- na po -- sta -- ve -- ná na pod -- sta -- vec,
-    a -- by sví -- ti -- la všem v_do -- mě.
+    Buď -- te ja -- ko sví -- til -- na 
+    po -- sta -- ve -- ná na pod -- sta -- vec,
+    a -- by sví -- ti -- la 
+    všem v_do -- mě.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
@@ -298,9 +328,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g f g a g f e \barMin
+    d e f g f d d \barMin
+    d c d d d f( g a) g g g f( g a) g g
+    f g f d d \barMaior
+    f f f e d e( f) d d e d c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
@@ -311,8 +345,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = ""
@@ -323,10 +357,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f e c c( f) d d \barMaior
+    f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
+    a a g( f) f f g f g f d d \barMaior
+    d( e) d c d( f) g f d d \barMin
+    d c d e f f( g) g f g g( f) f \barMaior
+    g g g g( a) g g( f d) \barMin
+    d d( e f) e( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři a tam si vzpo -- me -- neš,
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři 
+    a tam si vzpo -- me -- neš,
     že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
     nech tam svůj dar před ol -- tá -- řem
     a jdi se na -- před smí -- řit se svým brat -- rem;
@@ -335,8 +376,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = ""
@@ -349,7 +390,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g g g f g f f \barMaior
+    f d f f f g( f) f \barMin g f g a a g g \barMaior
+    f f f g g( f d) d \barMin
+    f e f g a g f f \barFinalis
   }
   \addlyrics {
     Mi -- luj -- te své ne -- přá -- te -- le
@@ -359,8 +403,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = ""
@@ -369,9 +413,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( a) a g a( c) c \barMin
+    c c b( c d) c b a a \barMin
+    c b g a g g \barMaior
+    g g( a) a a f( e d) \barMin
+    f g g g g a g f g g \barFinalis
   }
   \addlyrics {
     Váš ne -- bes -- ký O -- tec
@@ -382,8 +430,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = ""
@@ -392,18 +440,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b c( d e) c( b) c c \barMin
+    a a c b a g( a) g \barMin
+    f g( a) a a g g \barFinalis
   }
   \addlyrics {
     Buď -- te do -- ko -- na -- lí,
-    ja -- ko je do -- ko -- na -- lý váš ne -- bes -- ký O -- tec.
+    ja -- ko je do -- ko -- na -- lý 
+    váš ne -- bes -- ký O -- tec.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
@@ -416,7 +467,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f e d e( f) d d \barMaior
+    c d d c d d( f) f \barMin
+    f f g f f g f e d( e d) d \barMaior
+    d d c( d) d f e f g f e d c( d) d \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se na ptá -- ky:
@@ -426,8 +480,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -436,9 +490,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a a a b c a g g g \barMaior
+    a a a a f( e d) d e f f( g) \barMin
+    a b c a g g( a) g g \barFinalis
   }
   \addlyrics {
     Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
@@ -447,8 +503,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
@@ -457,9 +513,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c b( c) a a d( c) b a a a \barMin
+    f g a c( d) c c( d) d \barMaior
+    d e d c( b) a a \barMin f g a b( c a) g g \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te nej -- pr -- ve Bo -- ží krá -- lov -- ství
@@ -468,14 +526,16 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup {\nadpisDen {"9. neděle"}}
 
@@ -620,3 +680,4 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+%}

@@ -16,6 +16,8 @@
     a4 a c d c b c a a( g) a \barMaior
     d d d d c d e( d c d) c \barMin
     a a c d c a b( g) a \barFinalis
+    
+    g^\rubrVelikAleluja a a a \barFinalis
   }
   \addlyrics {
     Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
@@ -40,6 +42,8 @@
     a4 g a d c d a \barMin c c b( a g) a \barMax
     a a( d c) c \barMin d d d d( e d c) b( a) \barMaior
     b a b c a g( a) a \barFinalis
+    
+    g^\rubrVelikAleluja a a a \barFinalis
   }
   \addlyrics {
     Sy -- no -- vé Iz -- ra -- e -- le jed -- li ma -- nu
@@ -65,6 +69,8 @@
     \choralniRezim
     a4 g a( d) d c c \barMin
     d c b a( g) g( a) a \barFinalis
+    
+    g^\rubrVelikAleluja a a a \barFinalis
   }
   \addlyrics {
     Bůh je na -- ší ská -- lou

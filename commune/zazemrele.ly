@@ -25,7 +25,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,7 +51,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 40-I"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -71,7 +71,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 40-II"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -95,7 +95,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 42"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -117,7 +117,7 @@
     modus = "I"
     differentia = "a2" 
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -137,8 +137,9 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Iz 38"
-    id = ""
+    id = "rch-a2"
     fons = "melodie z: Bílá sobota, ranní chvály, 2. ant."
+    fial = "pust_triduum.ly#so-rch-ant2?jiny_text"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -158,8 +159,9 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 146"
-    id = ""
+    id = "rch-a3"
     fons = "4. týden žaltáře, středa, ranní chvály, 3. ant."
+    fial = "antifony/tyden4_4streda.ly#rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -183,8 +185,9 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 150"
-    id = ""
+    id = "rch-a3-alt"
     fons = "4. t. žaltáře, neděle, ranní chvály, 3. ant. (Text jiný: ubráno aleluja a 'dýchá' změněno na 'žije')"
+    fial = "antifony/tyden4_1nedele.ly#rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -216,7 +219,7 @@
   \header {
     quid = "resp."
     modus = "IV alt."
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -240,7 +243,7 @@
     modus = "III"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -266,8 +269,9 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "rch-aben-velik"
     fons = "Velikonoční oktáv, ranní chvály, 1. ant."
+    fial = "velikonoce_velikonocnioktav.ly#rch-ant1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -289,7 +293,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -308,8 +312,9 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     fons = "pátek 1. týdne žaltáře, nešpory, 1. ant."
+    fial = "antifony/tyden1_6patek.ly#ne-ant1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -331,7 +336,7 @@
     modus = "I"
     differentia = "D2" 
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -353,7 +358,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = "Žalm 121"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -375,7 +380,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 130"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -397,7 +402,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Flp 2"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -429,7 +434,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -465,7 +470,7 @@
   \header {
     quid = "resp."
     modus = "IV"
-    id = ""
+    id = "ne-resp2"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -489,7 +494,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -513,7 +518,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
