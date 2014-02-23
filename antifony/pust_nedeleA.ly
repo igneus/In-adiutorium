@@ -84,12 +84,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d c d c c \barMax
+    a4 a a a b a g( a) g \barMax
     
-    c4( d) d \barMin d f e d c c( d) d \barMaior
-    c( d a) a \barMin b( c d) c( b) a a b a a( g) g \barMaior
-    a a b( c) c \barMin b c d( c b) c( d) a( g) g \barMin
-    a g a c( a) g g( a) a( g) g \barFinalis
+    a4 a \barMin a g a g f g( a) a \barMaior
+    g g a g f f f( g) f e e \barMax
+    f f f( g) g \barMin
+    f f g( a) g g( a) a \barMaior
+    a a a g( a) g f e e \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
@@ -102,7 +103,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "IV"
     differentia = "d" 
     psalmus = ""
     annus = "A"
