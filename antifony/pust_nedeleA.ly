@@ -5,7 +5,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d c( d) d( e) d e f g f( e) d \barMaior
+    a'4 a a a( c) a a g( f) g g \barMax
+    f f f f f g f d \barMin
+    f f e d e( d) d \barMaior
+    c d e f d c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš byl vy -- ve -- den od Du -- cha na poušť,
@@ -16,8 +20,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -26,9 +30,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d c( d) d c( d) c g g \barMaior
+    f g a c b a a \barMin
+    c c d( c b) a( g) g g( a) a g \barFinalis
   }
   \addlyrics {
     Ne -- jen z_chle -- ba ži -- je člo -- věk,
@@ -37,8 +43,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -49,7 +55,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 e d( e) e \barMin
+    a g g g a a \barMin
+    g a a e e \barMaior
+    f f f f g f f g f e e \barMin
+    f g a( g) f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -60,8 +70,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -74,6 +84,8 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d d d c d c c \barMax
+    
     c4( d) d \barMin d f e d c c( d) d \barMaior
     c( d a) a \barMin b( c d) c( b) a a b a a( g) g \barMaior
     a a b( c) c \barMin b c d( c b) c( d) a( g) g \barMin
@@ -91,7 +103,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c" 
+    differentia = "d" 
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0806promenenipane.ly#1ne-a3?+zacatek"
@@ -127,19 +139,22 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g g g f( g a) g g a( b) a g g \barMaior
+    g f e d( e) d d \barMin
+    e f g g( a) g f( g) g \barFinalis
   }
   \addlyrics {
     Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
-    do -- kud ne -- bu -- de Syn člo -- vě -- ka
-    vzkří -- šen z_mrt -- vých.
+    % do -- kud ne -- bu -- de Syn člo -- vě -- ka
+    do -- kud Syn člo -- vě -- ka
+    ne -- bu -- de vzkří -- šen z_mrt -- vých.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     annus = "A"
     id = ""
