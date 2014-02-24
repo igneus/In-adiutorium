@@ -168,7 +168,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d f f d d \barMin
+    f f g f d( c d) \barMaior
+    a c d d( c f e) d e( f) d d \barMin
+    c d d \barFinalis
   }
   \addlyrics {
     Kdo se na -- pi -- je vo -- dy,
@@ -178,8 +181,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -229,6 +232,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
 
 \markup\nadpisDen{4. neděle postní}
 
@@ -363,3 +368,5 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%}
