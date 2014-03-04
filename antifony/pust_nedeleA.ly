@@ -334,14 +334,13 @@
 }
 %}
 
-%{
-
 \markup\nadpisDen{5. neděle postní}
 
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 e e f e d( e) \barMaior
+    f f a a g a f e e \barFinalis
   }
   \addlyrics {
     Náš pří -- tel La -- zar spí,
@@ -349,8 +348,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -378,16 +377,18 @@
     differentia = "g" 
     psalmus = ""
     annus = "A"
-    fial = "commune/zazemrely.ly#rch-aben"
+    fial = "commune/zazemrele.ly#rch-aben"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d c( d) d \barMin d e c c d d \barMaior
+    a( d) c( b a) a \barMin
+    g f g a( c) b g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, vě -- řím, že ty jsi Me -- si -- áš,
@@ -396,13 +397,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%}
