@@ -238,14 +238,14 @@
   }
 }
 
-%{
-
 \markup\nadpisDen{4. neděle postní}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
+    b b g a a( b) b \barMin
+    c c c c( d) c b( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem svět -- lo svě -- ta, pra -- ví Pán:
@@ -254,8 +254,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII" % je mi ponekud podezrela. dost mozna do modu nesedi.
+    differentia = "d" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -264,9 +264,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d c( b a b) b \barMaior
+    c c c c( d) d c b a a \barMin
+    g a b a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -275,8 +277,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     annus = "A"
     id = ""
@@ -287,7 +289,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f e( f d) d e d c d d( c) c \barMin
+    d d d c a c d d \barMaior
+    f f g( f d) d \barMin c d d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
@@ -296,14 +300,41 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( f d) d e d c d d( c) c \barMin
+    c d e f e f f g \barMaior
+    a g f( d) d \barMin c e d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
+    sle -- pé -- mu od na -- ro -- ze -- ní,
+    je -- nom Kris -- tus, Bo -- ží Syn.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    annus = "A"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+%}
+
+%{
 
 \markup\nadpisDen{5. neděle postní}
 
