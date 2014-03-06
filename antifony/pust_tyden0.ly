@@ -44,3 +44,53 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisDen{Čtvrtek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') a \barMin a( g) f g f( d) d \barMaior
+    d f g f4.( g) \barMin f4 e( d e) d( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce jít za mnou, za -- při sám se -- be,
+    vez -- mi svůj kříž a ná -- sle -- duj mě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a4. a \barMaior
+    f4( g a) b( c) a a \barMin
+    g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Pátek}
+
+\markup\nadpisDen{Sobota}
