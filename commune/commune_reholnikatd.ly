@@ -30,11 +30,11 @@
       A -- le -- lu -- ja.
     }
     \header {
-      quid = "ant. k Benedictus"
+      quid = "ant. k Magnificat"
       modus = "IV"
       differentia = "E" 
       psalmus = ""
-      id = ""
+      id = "rehol-amag1"
       fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
       fons = "25.8. pět bratří, k Benedictus; přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -68,7 +68,7 @@
       modus = "VII"
       differentia = "a" 
       psalmus = ""
-      id = ""
+      id = "rehol-amag2"
       fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -95,7 +95,7 @@
       modus = "IV"
       differentia = "E" 
       psalmus = ""
-      id = ""
+      id = "rehol-amag3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -131,7 +131,7 @@
       modus = "IV"
       differentia = "g" 
       psalmus = ""
-      id = ""
+      id = "rehol-aben1"
       fons = "zacatek prevzat z:"
       fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -159,7 +159,7 @@
       modus = "VI"
       differentia = "F" 
       psalmus = ""
-      id = ""
+      id = "rehol-aben2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -189,7 +189,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "rehol-ne2-amag1"
       fial = "sanktoral/0825benediktabratri.ly#amag?+aleluja"
       fons = "+ pridano aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -219,7 +219,7 @@
       modus = "VIII"
       differentia = "c" 
       psalmus = ""
-      id = ""
+      id = "rehol-ne2-amag2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -252,7 +252,7 @@
       modus = "I"
       differentia = "g" 
       psalmus = ""
-      id = ""
+      id = "milo-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -286,7 +286,7 @@
       psalmus = ""
       fial = "antifony/velikonoce_nedeleC.ly#vmagii?upraveno"
       fons = "upraveno pro dobu nevelikonocni"
-      id = ""
+      id = "milo-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -326,7 +326,7 @@
       modus = "I"
       differentia = "a2" 
       psalmus = ""
-      id = ""
+      id = "milo-ne2-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -360,7 +360,7 @@
       modus = "VIII"
       differentia = "G" 
       psalmus = ""
-      id = ""
+      id = "vych-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -386,7 +386,7 @@
       modus = "II"
       differentia = "D" 
       psalmus = ""
-      id = ""
+      id = "vych-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -413,7 +413,7 @@
       differentia = "d"
       psalmus = ""
       fial = "antifony/mezidobi_nedeleB_02_10.ly#ne27b-rch-ben?+aleluja"
-      id = ""
+      id = "vych-ne2-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

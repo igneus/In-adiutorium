@@ -28,7 +28,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -48,7 +48,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -68,7 +68,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -102,7 +102,7 @@
   \header {
     quid = "resp."
     modus = "IV"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -125,7 +125,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "commune panen, r.ch., 1.a., bez aleluja"
     fial = "commune/commune_panna.ly#rch-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -149,7 +149,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -171,7 +171,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -191,7 +191,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -227,7 +227,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -254,7 +254,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
