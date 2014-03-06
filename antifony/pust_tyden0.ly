@@ -91,6 +91,3 @@
   }
 }
 
-\markup\nadpisDen{Pátek}
-
-\markup\nadpisDen{Sobota}
