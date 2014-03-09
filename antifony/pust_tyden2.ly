@@ -51,7 +51,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+    g4 g g f( a) g( f) g \barMin
+    a c a b( a) a( g) g \barMin
+    g g g f e d( e) d d f g a g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_* 
@@ -71,9 +73,10 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g g g f g a g g c b a( b) g g \barMaior
+    a a a a a f e d d f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- va pra -- vi -- ce moc -- ně za -- sáh -- la,
@@ -81,8 +84,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 118"
     id = ""
     piece = \markup {\sestavTitulek}
