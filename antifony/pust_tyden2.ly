@@ -115,9 +115,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g f g g( a) g \barMin
+    a a a a( c) a a g f g \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na
@@ -125,8 +126,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 150"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -157,9 +158,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 f e d f( g) \barMin g g g a( c d) c( b) a( g) a \barMaior
+    c b( a g) g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Jen je -- den je Bůh, kte -- ré -- ho u -- ctí -- vá -- me,
@@ -167,8 +169,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 115"
     id = ""
     piece = \markup {\sestavTitulek}
