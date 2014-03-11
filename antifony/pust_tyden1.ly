@@ -263,6 +263,31 @@
   }
 }
 
+\markup\nadpisDen{Úterý}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin
+    a g a f( d) e( d) d \barMaior
+    f f f g( f) \barMin g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    na -- uč nás mod -- lit se,
+    js -- ko i Jan na -- u -- čil své u -- čed -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-1ne-amag"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Středa}
 
 \score {
