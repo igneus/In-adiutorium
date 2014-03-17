@@ -110,9 +110,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 a d c( b) a a b( c a) g a g g \barMin
+    f g a( c) b g g \barFinalis 
   }
   \addlyrics {
     Krá -- lo -- vé ze -- mě a všech -- ny ná -- ro -- dy,
@@ -120,8 +121,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Žalm 148"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -170,18 +171,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 c c( d) d c b a g a( g) g \barMin
+    a a( c) a a b( c) a a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní
-    a vzal na se -- be na -- še bo -- les -- ti.
+    % a 
+    vzal na se -- be na -- še bo -- les -- ti.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "1 Petr 2"
     id = ""
     piece = \markup {\sestavTitulek}
