@@ -198,6 +198,55 @@
   }
 }
 
+\markup\nadpisDen{Středa}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) a a \barMin
+    g a g g f e e \barMaior
+    a b c c b( d) c( b a) \barMaior
+    g f g g( a) a \barMin
+    g g a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka ne -- při -- šel,
+    a -- by si ne -- chal slou -- žit,
+    a -- le a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "b" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de vy -- dán po -- ha -- nům,
+    a -- by se mu po -- smí -- va -- li,
+    zbi -- čo -- va -- li ho a u -- kři -- žo -- va -- li,
+    a -- le tře -- tí -- ho dne bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Čtvrtek}
 
 \score {
@@ -241,6 +290,28 @@
     differentia = "E"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-ne1-mag"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Pátek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
