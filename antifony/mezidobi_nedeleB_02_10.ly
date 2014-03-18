@@ -454,7 +454,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne8b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -478,7 +478,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne8b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -498,7 +498,7 @@
     modus = "III"
     differentia = "b"
     psalmus = ""
-    id = ""
+    id = "ne8b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -525,7 +525,7 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne9b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -543,7 +543,7 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne9b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -566,7 +566,7 @@ o slabiku později.}
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne9b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -588,7 +588,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne10b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -608,7 +608,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne10b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -628,7 +628,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne10b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
