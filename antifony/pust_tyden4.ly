@@ -26,9 +26,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 a c b( a) a \barMaior
+    f( g a) c a \barMin 
+    c d d d c( b a) g( a) a \barFinalis
   }
   \addlyrics {
     Pro -- buď se, spá -- či,
@@ -37,8 +39,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV alt"
+    differentia = "d" 
     psalmus = "Žalm 130"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -48,7 +50,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d a'4 a g a f f \barMaior
+    g g g g g( a) g a bes a g f d \barMin
+    c d e d d \barFinalis
   }
   \addlyrics {
     By -- li jsme mrt -- vi pro své hří -- chy
@@ -57,8 +61,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -68,9 +72,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g( a) a \barMin
+    g a c c d c d( c) d d ( c) \barMaior
+    b a g g f( g a) g \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -79,8 +85,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 118"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -90,7 +96,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 f e( f d) \barMin c e d \barMaior
+    f f f( g) f e f e d \barMin
+    c a c d d d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Bo -- že náš,
@@ -99,8 +107,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -108,9 +116,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 c d b c a \barMin 
+    c a a g f g g \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na
@@ -118,9 +127,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 150"
+    fial = "antifony/tyden1_7sobota.ly#rch-ant3?upraveno"
     id = ""
     piece = \markup {\sestavTitulek}
   }
