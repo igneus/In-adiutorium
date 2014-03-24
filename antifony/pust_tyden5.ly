@@ -205,3 +205,47 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisDen{Pondělí}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMax
+    d f g g g f g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F" 
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-a2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Čtvrtek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
