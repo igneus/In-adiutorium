@@ -71,11 +71,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b( c) c \barMin d( e) c( b c) c4. \barMaior
-    d4 c b c( a) a b c a g a( g) g \barMaior
-    a a b c c( b) b \barMin c d e c b c( a) g( f) g \barFinalis
+    g4 a b( c) c \barMin d( e) c( b c) c \barMaior
+      d4 c b c( a) a b c a g a( g) g \barMaior
+      f f e d d( g) g \barMin g f g a c b g g \barFinalis
     
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
     Věč -- né Slo -- vo, Syn Bo -- ží,
