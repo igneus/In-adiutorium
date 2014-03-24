@@ -231,6 +231,96 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( d) d( f) f \barMin 
+    g f f g f d \barMin 
+    d d e f d c c \barMaior
+    f f f f( g) f( e) \barMin
+    d c d f( g) f d d \barFinalis
+    
+    c^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jo -- se -- fe, 
+    ne -- boj se k_so -- bě vzít 
+    svou man -- žel -- ku Ma -- ri -- i;
+    po -- ro -- dí sy -- na
+    a dáš mu jmé -- no Je -- žíš.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 21"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c( d) d( f) d e( f) d d \barMaior
+    c c( d) d \barMin d d e f g f e( f) e d \barMaior
+    a c d d e f d c( d) d \barFinalis
+    
+    c^\markup\rubrVelikAleluja d d( e) d \barFinalis
+  }
+  \addlyrics {
+    Když se Jo -- sef pro -- bu -- dil ze spán -- ku,
+    u -- dě -- lal, jak mu an -- děl Pá -- ně při -- ká -- zal:
+    Vzal svou že -- nu Ma -- ri -- i k_so -- bě.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D" 
+    psalmus = "Žalm 92-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+% tady se odchyluji od zasady jeden zalm - jeden napev,
+% protoze prvni dve antifony tvori vyznamovy celek,
+% kteremu projednou davam prednost pred "hudebni celistvosti" zalmu
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g g f e f( g) g \barMin
+    g( c) c d c c b a g( a) a( g) \barMin
+    a a a f e d f( g) g \barMaior
+    g g g g g( a) g a( b) a g g g \barFinalis
+    
+    a(^\markup\rubrVelikAleluja b) c( a) g( a) g \barFinalis
+  }
+  \addlyrics {
+    Jo -- sef se o -- de -- bral z_Na -- za -- re -- ta
+    vzhů -- ru do měs -- ta Da -- vi -- do -- va,
+    kte -- ré se jme -- nu -- je Bet -- lém,
+    a -- by se dal za -- psat spo -- lu s_Ma -- ri -- í.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 92-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

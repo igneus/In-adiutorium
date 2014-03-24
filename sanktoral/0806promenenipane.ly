@@ -40,10 +40,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d \barMin d f e d c c( d) d \barMaior
-    c( d a) a \barMin b( c d) c( b) a a b a a( g) g \barMaior
-    a a b( c) c \barMin b c d( c b) c( d) a( g) g \barMin
-    a g a c( a) g g( a) a( g) g \barFinalis
+    a4 a \barMin a g a g f g( a) a \barMaior
+    g g a g f f f( g) f e e \barMax
+    f f f( g) g \barMin
+    f f g( a) g g( a) a \barMaior
+    a a a g( a) g f e e \barFinalis
   }
   \addlyrics {
     Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
@@ -54,8 +55,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "c" 
+    modus = "IV"
+    differentia = "g" 
     psalmus = "Zj 19"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -95,23 +96,27 @@
 } 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( c) d f( e f g) g \barMin f g a bes c( a) a bes( c) g g \barMaior
-    f f f( d) d f( g) a g( f) f \barMin
-    g g( a) g f g g d g f( e) d c c \barMaior
-    d f( e f g) g a bes a( g) f \barMin g f( g) f e( d c d) d \barFinalis
+    d d c( d) d c( b c) c( d) \barMin
+    d d d d d( f e) d c( d) c( b a) a \barMaior
+    g g g( a) a c( b) c a a \barMin
+    c c( d) d d e d d c d d c c \barMaior
+    d d d c b a( g) g \barMin
+    a a( c) b g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus zje -- vil_* na vy -- so -- ké ho -- ře svou slá -- vu;
+    Je -- žíš Kris -- tus zje -- vil_* 
+    na vy -- so -- ké ho -- ře svou slá -- vu;
     on je od -- lesk Bo -- ha Ot -- ce
     a vý -- raz -- ná po -- do -- ba je -- ho pod -- sta -- ty,
-    on všech -- no u -- dr -- žu -- je svým moc -- ným slo -- vem.
+    on všech -- no u -- dr -- žu -- je 
+    svým moc -- ným slo -- vem.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

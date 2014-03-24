@@ -57,6 +57,7 @@
     differentia = "F" 
     psalmus = "Žalm 118-III"
     id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?upraveno"
     fons = "upraveno z: žaltář, středa 3. týdne, uprostřed dne, 1. ant."
     piece = \markup {\sestavTitulek}
   }

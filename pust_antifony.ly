@@ -124,7 +124,15 @@
   }
   
   \include "antifony/pust_tyden0.ly"
-  
+  \pageBreak
+  \include "antifony/pust_tyden1.ly"
+  \pageBreak
+  \include "antifony/pust_tyden2.ly"
+  \pageBreak
+  \include "antifony/pust_tyden3.ly"
+  \pageBreak
+  \include "antifony/pust_tyden4.ly"
+  \pageBreak
   \include "antifony/pust_tyden5.ly"
   
 }
