@@ -150,7 +150,7 @@
     \choralniRezim
     f4 g a( g) f f( g) g \barMin 
     a a a g a g( f) f \barMax
-    d f g g g f g a( bes) a a \barMin \bar ""
+    d f g g g f g a( bes) a a \barMin
     g( a) f4. f \barFinalis
   }
   \addlyrics {
