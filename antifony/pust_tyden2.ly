@@ -323,7 +323,7 @@
   \relative c' {
     \choralniRezim
     e( a) a c a g \barMin a a a g f g g g( a) e \barMaior
-    a a a g( f e) d \barMin e e e e f e g f( d e) e \barFinalis
+    a a a g( f e) d \barMin e e e e f e g f( d e) e 
   }
   \addlyrics {
     Ot -- če, zhře -- šil jsem pro -- ti Bo -- hu i pro -- ti to -- bě.
