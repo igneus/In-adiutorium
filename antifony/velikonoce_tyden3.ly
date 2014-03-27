@@ -2,6 +2,70 @@
 
 \markup {\nadpisDen {3. neděle velikonoční}}
 
+\markup {\nadpisHodinka {"1. nešpory"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Hos -- po -- din je po -- vzne -- sen 
+    na -- de všech -- na ne -- be -- sa,
+    sla -- bé -- ho zdvi -- há z_pra -- chu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Roz -- vá -- zal jsi mo -- je pou -- ta, Hos -- po -- di -- ne,
+    při -- ne -- su ti o -- běť dí -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
+    a tak se stal pří -- či -- nou věč -- né spá -- sy pro všech -- ny,
+    kte -- ří ho po -- slou -- cha -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = "" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \label #'velikonoceNedeleIIIcteni
@@ -79,3 +143,7 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisHodinka {"ranní chvály"}}
+\markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\markup {\nadpisHodinka {"2. nešpory"}}
