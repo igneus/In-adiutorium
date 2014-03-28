@@ -290,7 +290,7 @@
     Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
     psalmus = ""
