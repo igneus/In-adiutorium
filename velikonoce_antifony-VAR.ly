@@ -44,6 +44,94 @@
     }
   }
   
+  \markup\nadpisSkupiny "2"
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4. a4( b g) e e \barMin
+      c d d( e) e g f e e \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4. a4( b g) e e \barMin
+      c d d( e) e g a( f) e e \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny "3"
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4. d4( f g) a g \barMaior
+      f( g a) \[ g( a f \] \[ f e d) \]
+      f( g a g a) g( f) \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      fons = "aleluja podle Liber hymnarius, Solesmes 1986, s. 79. Proto je také jen jedno."
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4. d4( f g) a g \barMaior
+      a a a( bes) g( f) \barMin d f( g) g( f) f \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
+  
   \markup{Od slavnosti Nanebevstoupení Páně:}
   
   \score {
