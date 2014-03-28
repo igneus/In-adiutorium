@@ -1,12 +1,13 @@
+\version "2.19.4"
 \include "spolecne.ly"
 
 \score{
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g(-| a) \parenthesize g g( f e d) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g(-! a) \parenthesize g g( f e d) \barFinalis
   }
   \header {
     modus = "I"
@@ -19,9 +20,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g-| \parenthesize g g( f e d) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g-! \parenthesize g g( f e d) \barFinalis
   }
   \header {
     modus = "I"
@@ -34,8 +35,8 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
     a4 a g f \parenthesize g g( f) d \barFinalis
   }
   \header {
@@ -49,9 +50,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g(-| a) \parenthesize g g( f) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g(-! a) \parenthesize g g( f) \barFinalis
   }
   \header {
     modus = "I"
@@ -64,9 +65,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g(-| a) \parenthesize g g \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g(-! a) \parenthesize g g \barFinalis
   }
   \header {
     modus = "I"
@@ -79,9 +80,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g-| \parenthesize g g( a g) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g-! \parenthesize g g( a g) \barFinalis
   }
   \header {
     modus = "I"
@@ -94,9 +95,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g-| \parenthesize g g \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g-! \parenthesize g g \barFinalis
   }
   \header {
     modus = "I"
@@ -109,9 +110,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g-| \parenthesize a a \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g-! \parenthesize a a \barFinalis
   }
   \header {
     modus = "I"
@@ -124,9 +125,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g-| \parenthesize g g( a) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g-! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "I"
@@ -139,9 +140,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a g f g(-| a) \parenthesize g g( a) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a g f g(-! a) \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "I"
@@ -155,9 +156,9 @@
   \relative c' {
     \choralniRezim
     c4 d
-    f4 f f-| \parenthesize d d \barMin
-    f4 f g-| \parenthesize f f \barMaior
-    f4 f e c-| \parenthesize d d \barFinalis
+    f4 f f-! \parenthesize d d \barMin
+    f4 f g-! \parenthesize f f \barMaior
+    f4 f e c-! \parenthesize d d \barFinalis
   }
   \header {
     modus = "II"
@@ -171,9 +172,9 @@
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \parenthesize c b(-| a) c \barMaior
-    c4 c a c-| \parenthesize c b \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c a c-! \parenthesize c b \barFinalis
   }
   \header {
     modus = "III"
@@ -186,9 +187,9 @@
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \parenthesize c b(-| a) c \barMaior
-    c4 c a c-| \parenthesize c b( a) \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c a c-! \parenthesize c b( a) \barFinalis
   }
   \header {
     modus = "III"
@@ -201,9 +202,9 @@
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \parenthesize c b(-| a) c \barMaior
-    c4 c c( b) a( b) a-| \parenthesize g g( a) \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c c( b) a( b) a-! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "III"
@@ -216,9 +217,9 @@
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \parenthesize c b(-| a) c \barMaior
-    c4 c c( b) a( b) a-| \parenthesize g g \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c c( b) a( b) a-! \parenthesize g g \barFinalis
   }
   \header {
     modus = "III"
@@ -231,9 +232,9 @@
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \parenthesize c b(-| a) c \barMaior
-    c4 c a c b a-| \parenthesize g g \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c a c b a-! \parenthesize g g \barFinalis
   }
   \header {
     modus = "III"
@@ -247,9 +248,9 @@
   \relative c'' {
     \choralniRezim
     a4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a g a b-| \parenthesize a a \barMaior
-    a4 a a-| \parenthesize g g \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a g a b-! \parenthesize a a \barMaior
+    a4 a a-! \parenthesize g g \barFinalis
   }
   \header {
     modus = "IV"
@@ -262,9 +263,9 @@
   \relative c'' {
     \choralniRezim
     a4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a g a b-| \parenthesize a a \barMaior
-    a4 a g a b( a) \parenthesize g g(-| f) e \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a g a b-! \parenthesize a a \barMaior
+    a4 a g a b( a) \parenthesize g g(-! f) e \barFinalis
   }
   \header {
     modus = "IV"
@@ -278,9 +279,9 @@
   \relative c'' {
     \choralniRezim
     d4 c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d c d e-| \parenthesize d d \barMaior
-    d4 d d-| \parenthesize c c \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d c d e-! \parenthesize d d \barMaior
+    d4 d d-! \parenthesize c c \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -293,9 +294,9 @@
   \relative c'' {
     \choralniRezim
     d4 c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d c d e-| \parenthesize d d \barMaior
-    d4 d c d e c-| \parenthesize a a \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d c d e-! \parenthesize d d \barMaior
+    d4 d c d e c-! \parenthesize a a \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -308,9 +309,9 @@
   \relative c'' {
     \choralniRezim
     d4 c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d c d e-| \parenthesize d d \barMaior
-    d4 d c d e c-| \parenthesize a a( g) \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d c d e-! \parenthesize d d \barMaior
+    d4 d c d e c-! \parenthesize a a( g) \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -323,9 +324,9 @@
   \relative c'' {
     \choralniRezim
     d4 c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d c d e-| \parenthesize d d \barMaior
-    d4 d c d e c-| \parenthesize d d \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d c d e-! \parenthesize d d \barMaior
+    d4 d c d e c-! \parenthesize d d \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -339,9 +340,9 @@
   \relative c' {
     \choralniRezim
     f4 a
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \barMaior
-    c4 c d-| {bes} bes c-| \parenthesize a a \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \barMaior
+    c4 c d-! {bes} bes c-! \parenthesize a a \barFinalis
   }
   \header {
     modus = "V"
@@ -355,9 +356,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a a g a-| \parenthesize f f \barMaior
-    a4 a f g( a) g-| \parenthesize f f \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a a g a-! \parenthesize f f \barMaior
+    a4 a f g( a) g-! \parenthesize f f \barFinalis
   }
   \header {
     modus = "VI"
@@ -371,9 +372,9 @@
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a bes-| \parenthesize a a g-| \parenthesize a a \barMaior
-    a4 a f g( a) g-| \parenthesize f f \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a f g( a) g-! \parenthesize f f \barFinalis
   }
   \header {
     modus = "VI alt"
@@ -387,9 +388,9 @@
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d f-| \parenthesize e e c-| \parenthesize e e \barMaior
-    d4 d e-| \parenthesize d d c-| \parenthesize c b( a) \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d e-! \parenthesize d d c-! \parenthesize c b( a) \barFinalis
   }
   \header {
     modus = "VII"
@@ -402,9 +403,9 @@
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d f-| \parenthesize e e c-| \parenthesize e e \barMaior
-    d4 d e-| \parenthesize d d c-| \parenthesize c b \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d e-! \parenthesize d d c-! \parenthesize c b \barFinalis
   }
   \header {
     modus = "VII"
@@ -417,9 +418,9 @@
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d f-| \parenthesize e e c-| \parenthesize e e \barMaior
-    d4 d e-| \parenthesize d d c-| \parenthesize c b( c) \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d e-! \parenthesize d d c-! \parenthesize c b( c) \barFinalis
   }
   \header {
     modus = "VII"
@@ -432,9 +433,9 @@
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d f-| \parenthesize e e c-| \parenthesize e e \barMaior
-    d4 d e-| \parenthesize d d c-| \parenthesize c d( c) \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d e-! \parenthesize d d c-! \parenthesize c d( c) \barFinalis
   }
   \header {
     modus = "VII"
@@ -447,9 +448,9 @@
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d d-| \parenthesize c c \barMin
-    d4 d f-| \parenthesize e e c-| \parenthesize e e \barMaior
-    d4 d e-| \parenthesize d d c-| \parenthesize c b( d) \barFinalis
+    d4 d d-! \parenthesize c c \barMin
+    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d e-! \parenthesize d d c-! \parenthesize c b( d) \barFinalis
   }
   \header {
     modus = "VII"
@@ -463,9 +464,9 @@
   \relative c'' {
     \choralniRezim
     g4 a
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \barMaior
-    c4 c b c a-| \parenthesize g g \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \barMaior
+    c4 c b c a-! \parenthesize g g \barFinalis
   }
   \header {
     modus = "VIII"
@@ -478,9 +479,9 @@
   \relative c'' {
     \choralniRezim
     g4 a
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \barMaior
-    c4 c b c a-| \parenthesize g g( a) \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \barMaior
+    c4 c b c a-! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "VIII"
@@ -493,9 +494,9 @@
   \relative c'' {
     \choralniRezim
     g4 a
-    c4 c c-| \parenthesize a a \barMin
-    c4 c d-| \parenthesize c c \barMaior
-    c4 c a c d-| \parenthesize c c \barFinalis
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \barMaior
+    c4 c a c d-! \parenthesize c c \barFinalis
   }
   \header {
     modus = "VIII"
@@ -509,9 +510,9 @@
   \relative c'' {
     \choralniRezim
     a4( bes)
-    a4 a a-| \parenthesize g g \barMin
-    a4 a g bes a g-| \parenthesize f f \barMaior
-    a4 a d, f-| \parenthesize f e( d) \barFinalis
+    a4 a a-! \parenthesize g g \barMin
+    a4 a g bes a g-! \parenthesize f f \barMaior
+    a4 a d, f-! \parenthesize f e( d) \barFinalis
   }
   \header {
     modus = "per"
