@@ -82,7 +82,7 @@ describe LilyPondScore do
     quid = "2. ant."
     modus = "V"
     differentia = "a" 
-    psalmus = "Žalm 142"
+    psalmus = "Žalm 142" % comment comment
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -102,6 +102,10 @@ describe LilyPondScore do
     it 'strips comments from lyrics_readable' do
       @score_with_comments.lyrics_readable.should_not include '%'
       @score_with_comments.lyrics_readable.should eq 'Ejhle, Hospodin přijde'
+    end
+
+    it 'strips comments following header fields' do
+      @score_with_comments.header['psalmus'].should eq 'Žalm 142'
     end
   end
 end

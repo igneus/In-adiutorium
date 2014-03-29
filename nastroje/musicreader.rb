@@ -80,6 +80,7 @@ class LilyPondScore
     htext = @text[i1+1..i2-1]
     hlines = htext.split "\n"
     hlines.each do |l|
+      l.sub!(/%.*$/, '') # strip comments
       l.strip!
       if ! l.index '=' then
         next
