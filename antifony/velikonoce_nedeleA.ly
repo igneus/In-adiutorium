@@ -5,7 +5,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 f f( g) f d d \barMin
+    f f f e d c c \barMaior
+    d d e f e( f d) c( d) d \barMaior
+    c d( e) e( d) d \barFinalis
   }
   \addlyrics {
     Zů -- staň s_ná -- mi, Pa -- ne,
@@ -15,8 +18,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -176,50 +179,34 @@
   }
 }
 
-% Pujdou nasledujici dve ze svatku sv. Filipa a Jakuba sloucit?
-
 \score {
   \relative c' {
     \choralniRezim
     c4( d) d \barMin d( e f) g( f e) f d( e d) d \barMaior
-    d c d d( f) e 
-    f f d d \barFinalis
-  }
-  \addlyrics {
-    Pa -- ne,
-    u -- kaž nám Ot -- ce,
-    a to nám sta -- čí.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "1. ant."
-    modus = "II"
-    differentia = "D" 
-    psalmus = "Žalm 63"
-    id = "rch-a1"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
+    c a c c( d) d \barMax
+    
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMaior
     c d e( d) d \barFinalis
   }
   \addlyrics {
+    Pa -- ne,
+    u -- kaž nám Ot -- ce,
+    a to nám sta -- čí.
+    
     Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
     Kdo vi -- děl mne, vi -- děl Ot -- ce.
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "2. ant."
+    quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D" 
-    psalmus = "Dan 3-III"
-    id = "rch-a2"
-    piece = \markup {\sestavTitulek}
+    psalmus = ""
+    % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
+    fial = "sanktoral/0503filipjakub.ly#rch-a1?upraveno&+#rch-a2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
