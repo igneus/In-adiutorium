@@ -26,10 +26,13 @@
   }
 }
 
+% rad bych v budoucnu vyzkousel vic variant
 \score {
   \relative c' {
     \choralniRezim
-    
+    d d e f d d \barMaior
+    f f( g) d( e) c \barMin bes c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel tr -- pět
@@ -38,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -47,9 +50,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c c c c( d) c c d( e d) c( d) d \barMaior
+    c( d e) c( d) c b a( g) g \barFinalis
+    a( f g) a( c b a) g( a) g \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci po -- zna -- li Je -- ží -- še
@@ -58,8 +63,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
