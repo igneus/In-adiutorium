@@ -59,6 +59,9 @@ zalmXCVtonusID = \score {
     \zalmXCVtextBezZnamenek
   }
   \header {
-    piece = "Žalm 95 - I.D"
+    quid = "Žalm 95"
+    modus = "I"
+    differentia = "D"
+    piece = \markup\sestavTitulekBezZalmu
   }
 }

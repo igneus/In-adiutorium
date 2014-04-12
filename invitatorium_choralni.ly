@@ -52,6 +52,7 @@
 
 \include "invitatoria/zalm95text.ly"
 \include "invitatoria/zalm95_I_D.ly"
+\include "invitatoria/zalm95_II_D.ly"
 
 \bookpart {
   \header {
@@ -59,6 +60,8 @@
   }
   
   \markup { \zalmXCVtonusIDpoznamka }
-  
   \score { \zalmXCVtonusID }
+  
+  \markup { \zalmXCVtonusIIDpoznamka }
+  \score { \zalmXCVtonusIID }
 }
