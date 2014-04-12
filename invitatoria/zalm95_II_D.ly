@@ -38,12 +38,12 @@ zalmXCVtonusIID = \score {
     % Ctyricet let
     d c d f f f f f f f f f f g g f \barMin
     d f f f f f f f f g g f \barMin
-    d f f f g g f \barMaior
-    f f f f( g) f f e d e( f) e( d) \barMaior
+    f f f e d e( f) e( d) \barMaior
+    d c d f f f e d e( f) e( d) \barMaior
     c( a) c( d) d \barMin d d d f e d( e) e( d) \barFinalis
     
     % Slava Otci
-    d c d f g g f \barMin f e d e( f) e d \barMaior
+    d c d f f f( g) f \barMin f e d e( f) e d \barMaior
     d c d f f g g f \barMin f f e d e( f) e( d) \barMaior
     d c( a) c( d) d f e d( e) e( d) \barFinalis
   }
