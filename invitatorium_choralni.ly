@@ -1,7 +1,7 @@
 \version "2.14.2"
 
 \header {
-  title = "Invitatorium (chorální)"
+  title = "Invitatorium"
   composer = "Jakub Pavlík"
 }
 
@@ -11,14 +11,25 @@
 \include "invitatoria/zalm95_I_D.ly"
 \include "invitatoria/zalm95_II_D.ly"
 
+\paper {
+  scoreTitleMarkup = \markup\column{ 
+    \huge\bold\fill-line {
+      " "
+      \concat{ 
+        \fromproperty #'header:modus "." \fromproperty #'header:differentia
+      }
+      " "
+    }
+    
+    \fromproperty #'header:notitia
+  }
+}
+
 \bookpart {
   \header {
     subtitle = "Žalm 95"
   }
   
-  \markup { \zalmXCVtonusIDpoznamka }
   \score { \zalmXCVtonusID }
-  
-  \markup { \zalmXCVtonusIIDpoznamka }
   \score { \zalmXCVtonusIID }
 }

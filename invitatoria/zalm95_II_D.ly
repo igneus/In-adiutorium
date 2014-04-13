@@ -2,10 +2,6 @@
 
 strofa = { \bar "||" \break }
 
-zalmXCVtonusIIDpoznamka = \markup\justify {
-  Nápěv volně podle \italic{Liber hymnarius,} Solesmes 1983, 133nn.
-}
-
 % Vyrazne zjednodusena je formule zaveru strofy.
 zalmXCVtonusIID = \score {
   \relative c' {
@@ -54,6 +50,9 @@ zalmXCVtonusIID = \score {
     quid = "Žalm 95"
     modus = "II"
     differentia = "D"
+    notitia = \markup{
+      Nápěv volně podle \italic{Liber hymnarius,} Solesmes 1983, 133nn.
+    }
     piece = \markup\sestavTitulekBezZalmu
   }
 }
