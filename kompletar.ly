@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.19.4"
 
 \header {
   title = "Kompletář"
@@ -26,9 +26,9 @@
   \relative c' {
     \choralniRezim
     
-    c d f\breve f4-| \parenthesize d d4.^\markup\large\Dagger \barMin
-    f\breve g4 g-| \parenthesize d d4.^\markup\large{*} \barMax 
-    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+    c d f\breve f4-! \parenthesize d d4.^\markup\large\Dagger \barMin
+    f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax
+    f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
     quid = "psalmodie"
@@ -44,9 +44,9 @@
   \relative c' {
     \choralniRezim
     
-    c d f\breve f4-| \parenthesize d d4. \mark\markup\large\Dagger \barMin
-    f\breve g4 g-| \parenthesize d d4. \mark\markup\large{*} \barMax 
-    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+    c d f\breve f4-! \parenthesize d d4. \mark\markup\large\Dagger \barMin
+    f\breve g4 g-! \parenthesize d d4. \mark\markup\large{*} \barMax 
+    f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
     quid = "psalmodie"
