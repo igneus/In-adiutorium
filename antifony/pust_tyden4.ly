@@ -203,3 +203,116 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisDen{Úterý}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g g f g g( a) a \barMaior
+    a a a g f f g f \barFinalis
+  }
+  \addlyrics {
+    Ten, kdo mě u -- zdra -- vil, mi ře -- kl:
+    Vez -- mi své le -- hát -- ko a choď.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b( a) g( a) a \barMaior
+    e g( a) a \barMin
+    a g f e e e f e d( f) e e \barFinalis
+  }
+  \addlyrics {
+    Jsi u -- zdra -- ven:
+    už ne -- hřeš, 
+    a -- by tě ne -- stih -- lo ně -- co hor -- ší -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Pátek}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a a d c b a g g( a) \barMaior
+    a g a a b( c) a a c( d c) c d d \barMin
+    d d c( d) c( a) a b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Zná -- te mě a ví -- te, od -- kud jsem,
+    a pře -- ce jsem ne -- při -- šel sám od se -- be,
+    a -- le po -- slal mě můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e( d) d \barMin
+    c d c b a a \barMaior
+    c d d e d c( d) c c \barMin
+    d( f) d c( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl 
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Sobota}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( g) f e d c d \barMin
+    d f e( d c) c f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
+    ja -- ko mlu -- ví ten -- to člo -- věk.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

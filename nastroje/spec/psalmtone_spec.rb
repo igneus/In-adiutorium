@@ -87,11 +87,11 @@ describe PsalmTone do
     end
 
     it 'converts accent and optional note' do
-      @tone_ii.lilify(@tone_ii.mediatio, false).should eq 'g4-| \parenthesize f f'
+      @tone_ii.lilify(@tone_ii.mediatio, false).should eq 'g4-! \parenthesize f f'
     end
 
     it 'adds recitanda by default' do
-      @tone_ii.lilify(@tone_ii.mediatio).should eq 'f4 f g-| \parenthesize f f'
+      @tone_ii.lilify(@tone_ii.mediatio).should eq 'f4 f g-! \parenthesize f f'
     end
 
     it 'translates h and b' do
@@ -109,7 +109,7 @@ describe PsalmTone do
     end
 
     it 'handles accentuated melisma correctly' do
-      @tone_ii.lilify('f ga-', false).should eq 'f4 g(-| a)'
+      @tone_ii.lilify('f ga-', false).should eq 'f4 g(-! a)'
     end
   end
 
@@ -134,9 +134,9 @@ describe PsalmTone do
   \relative c\' {
     \choralniRezim
     c4 d
-    f4 f f-| \parenthesize d d \barMin
-    f4 f g-| \parenthesize f f \barMaior
-    f4 f e c-| \parenthesize d d \barFinalis
+    f4 f f-! \parenthesize d d \barMin
+    f4 f g-! \parenthesize f f \barMaior
+    f4 f e c-! \parenthesize d d \barFinalis
   }
   \header {
     modus = "II"

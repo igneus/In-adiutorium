@@ -5,10 +5,6 @@
 
 strofa = { \bar "||" \break }
 
-zalmXCVtonusIDpoznamka = \markup\justify {
-  Nápěv volně podle Antiphonarium Cisterciense, Westmalle: Typographia ordinis cisterciensium strictioris observantiae, 1947, 271*nn.
-}
-
 zalmXCVtonusID = \score {
   \relative c' {
     \choralniRezim
@@ -59,6 +55,12 @@ zalmXCVtonusID = \score {
     \zalmXCVtextBezZnamenek
   }
   \header {
-    piece = "Žalm 95 - I.D"
+    quid = "Žalm 95"
+    modus = "I"
+    differentia = "D"
+    notitia = \markup\justify{
+      Nápěv volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.
+    }
+    piece = \markup\sestavTitulekBezZalmu
   }
 }

@@ -16,13 +16,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) a( g) a a( c d) c( b) b( a) \barMin
-    g( a g) f g g( a) a \barMaior
-    a( c d) c( d c b) b( c b) \barMin a( c) a( g) g a( g) f( g) g f f \barMaior
-    f( a c d c) c( d c b) a( g) f( g) g \barMin
-    g( f g) g( a) g g( f) f \barFinalis
+    f4( a) a( g) g a( c a) g( a) a \barMin
+    g f g g( f) f \barMaior
+    c' c \[ c( d c4. \] \[ a4 c b a g \] \[ a4. g) \] \barMin f4( g) g( a) a g( f) g g f f \barMaior
+    f f f e( g) f \barMin
+    g( f g) a g f f \barFinalis
     
-    g^\markup\rubrVelikAleluja g( a) g( f) f \barFinalis
+    e^\markup\rubrVelikAleluja g f f \barFinalis
   }
   \addlyrics {
     Vy -- ra -- zí ra -- to -- lest 
@@ -106,7 +106,7 @@
     g( a) g g( f d) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a a a bes a g g f g( a) a( g) \barMax
+    a a a bes a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g( a) g g( f d) d f( g) g( f) f \barFinalis
@@ -132,8 +132,8 @@
   \relative c'' {
     \choralniRezim
     a( g) a( b c) c \barMin
-    a( c d e) d( c b) a \barMin b a g g( a) a( g) g \barMaior
-    g c( d c) b c b( a) a \barMin b c( a) a( g) g \barFinalis
+    a( c d e) d( c b) a \bar "" b a g g( a) a( g) g \barMaior
+    g c( d c) b c b( a) a \bar "" b c( a) a( g) g \barFinalis
     
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }

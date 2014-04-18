@@ -104,14 +104,14 @@ class PsalmTone
       notes = $1.split('')
       notes[0] += '('
       if accent_mark.start_with? '-' then
-        notes[0] += '-|'
+        notes[0] += '-!'
       end
       notes[-1] += ')'
       notes.join(' ')
     end
     r.gsub!('b', 'bes')
     r.gsub!('h', 'b')
-    r.gsub!(/((\w{1})-)/) { $2+'-|' }
+    r.gsub!(/((\w{1})-)/) { $2+'-!' }
     r.gsub!(/(\{(\w{1})\})/) { '\parenthesize ' + $2}
 
     r.insert((r.index(/[^\w]/) or -1), '4') # add duration to the very first note
@@ -159,6 +159,7 @@ if $0 == __FILE__ then
   #File.open(outf, 'w') do |fw|
   fw = STDOUT
 
+  fw.puts "\\version \"2.19.4\"\n"
   fw.puts "\\include \"spolecne.ly\"\n\n"
   PsalmToneGroup.from_file(inf).each_pair do |name,tone|
     tone.all.each {|t| fw.puts t.to_lilypond }

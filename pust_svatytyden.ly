@@ -273,6 +273,31 @@
   \score {
     \relative c'' {
       \choralniRezim
+      d4 c c d e c d d \barMaior
+      a g( a) a( b a) \barMin a( d) d c( e d) c( d) d c b a( b a g) \barMaior
+      a a a( c) a a \barMin
+      c c a( g) g a g f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Řek -- ně -- te si -- ón -- ské dce -- ři:
+      Hle, tvůj král k_to -- bě při -- chá -- zí po -- kor -- ný,
+      se -- dí na os -- lu,
+      na os -- lát -- ku, mlá -- dě -- ti sou -- ma -- ra.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "VII"
+      differentia = "d" 
+      psalmus = ""
+      id = "ne-1ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
       g4 g g( a) a( g) \barMin
       a( c) c b( g) g b a g a( g) g \barMaior
       g g f e f( g) f( g) g \barMin 
@@ -390,6 +415,33 @@
       psalmus = ""
       id = "ne-rch-a3"
       piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g g( a) g \barMin 
+      a c a b( a g) \barMin a g f e e \barMaior
+      e d e e f( g a) a( g) g \barMaior
+      a( b c) b( a) g g \barMin
+      a f e f( g) g g \barFinalis
+    }
+    \addlyrics {
+      S_pal -- ma -- mi v_ru -- kou
+      spě -- chej -- me vstříc na -- še -- mu Pá -- nu
+      a ra -- dost -- ně vo -- lej -- me:
+      Po -- žeh -- na -- ný 
+      ten, kte -- rý při -- chá -- zí!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      annus = "A"
+      modus = "VIII"
+      differentia = "G" 
+      psalmus = ""
+      id = "ne-rch-aben-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   
@@ -515,6 +567,37 @@
       psalmus = ""
       id = "ne-2ne-a3"
       piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a a a( g f) g( f) e e \barMin
+      e d e e( f) e d d e e \barMax
+      e e e f( g f) e e \barMin
+      e f e d g f e( f) e e \barMaior
+      f( g a) a b g e e \barMin
+      g f e \barFinalis
+    }
+    \addlyrics {
+      Je psá -- no:
+      Bu -- du bít pas -- tý -- ře
+      a ov -- ce stá -- da se roz -- prch -- nou.
+      Ale po svém vzkří -- še -- ní
+      vás pře -- de -- jdu do Ga -- li -- le -- je,
+      tam mě u -- vi -- dí -- te,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "IV"
+      differentia = "g" 
+      psalmus = ""
+      id = "ne-2ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
   

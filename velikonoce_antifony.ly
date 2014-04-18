@@ -221,6 +221,14 @@
 
 \bookpart {
   \header {
+    subtitle = "Neděle - cyklus A"
+  }
+  
+  \include "antifony/velikonoce_nedeleA.ly"
+}
+
+\bookpart {
+  \header {
     subtitle = "Neděle - cyklus B"
   }
   
