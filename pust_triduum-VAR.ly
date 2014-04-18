@@ -381,6 +381,13 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Poněkud tahá za uši, že obě části končí stejným rytmicko-melodickým útvarem
+  \score{ \relative c'' { \choralniRezim g( a) a } }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -400,6 +407,48 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) b g( a) a \barMin
+    a e e f e \mark\sipka d e e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) b g( a) a \barMin
+    a e e f \mark\sipka f f e e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g" 
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -448,6 +497,13 @@
   }
 }
 
+\markup\justify\bold{
+  Oficiální text antifony jsem shledal stejně nezpívatelným
+  jako nesrozumitelným a hledal, jak z toho ven.
+}
+
+\markup\nadpisSkupiny "I. zkrácení"
+
 \score {
   \relative c'' {
     \zvyraznovacModry
@@ -467,6 +523,74 @@
     quidbreve = "ant."
     modus = "IV alt"
     differentia = "d" 
+    psalmus = ""
+    id = "pa-nesp-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "II. jiný verš"
+\markup{ Řím 5,8b (dva verše před zdrojem oficiálního textu) }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e c d d \barMaior
+    f f g g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus u -- mřel za nás,
+    když jsme ješ -- tě by -- li hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "pa-nesp-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e c d d \barMaior
+    f f g g a f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus u -- mřel za nás,
+    když jsme ješ -- tě by -- li hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    id = "pa-nesp-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "III. přeci jen oficiální text?"
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na
+    v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = ""
+    differentia = "" 
     psalmus = ""
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -567,6 +691,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -591,6 +717,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  "\"na kříži\"" je jeden přízvučný celek a je tedy nečeské,
+  aby dlouhé melisma dělalo důraz na druhé slabice:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
+    a g g( e) e \mark\sipka f( e f) g( a) a \barMax
+    a a a a g a a( b c d) e( c d4.) d \barMaior
+    d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
+    a to k_smr -- ti na kří -- ži.
+    Pro -- to ho ta -- ké Bůh po -- vý -- šil
+    a dal mu Jmé -- no nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "ant. místo responsoria"
+    quidbreve = "ant."
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    id = "so-resp"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
