@@ -854,6 +854,29 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   }
 }
 
+\markup{Houby modus VII, samozřejmě I!}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g( d) d \barMin
+    f e d c4. c \barMaior
+    d4 f d4. d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_* 
+    už ne -- u -- mí -- rá. 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2" 
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny{6}
 
 \score {
