@@ -50,6 +50,11 @@ class PageRefOptimal
     2.upto(labels.size-1) do |i|
       s << shortest(labels[i-1], labels[i])[1]
     end
+
+    if proximity_check labels, s then
+      STDERR.puts "Labels #{labels} could possibly be replaced by a reference to an hour as a whole."
+    end
+
     return s
   end
 
@@ -60,6 +65,17 @@ class PageRefOptimal
     else
       return i1 - i2
     end
+  end
+
+  # checks if the given labels follow after each other
+  # (possibly psalms of a single hour)
+  def proximity_check(labels, label_nums)
+    1.upto(labels.size-1) do |i|
+      if @labels[labels[i]][label_nums[i]] != (@labels[labels[i-1]][label_nums[i-1]] + 1) then
+        return false
+      end
+    end
+    return true
   end
 end
 
