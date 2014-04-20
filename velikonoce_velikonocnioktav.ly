@@ -30,7 +30,7 @@
       differentia = "D" 
       psalmus = ""
       id = "invit"
-      fons = "velikonoce_antifony.ly"
+      fial = "velikonoce_antifony.ly#invit1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -843,6 +843,7 @@
       psalmus = ""
       id = "ct-ben"
       fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      fial = "velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag?zaver"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1101,7 +1102,8 @@
       differentia = "E" 
       psalmus = ""
       id = "so-ben"
-      fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
+      %fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
+      % - zdrojova antifona se vsak mezitim zmenila; zvazit predelani
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
