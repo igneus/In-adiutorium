@@ -18,7 +18,7 @@ cislazalmu_zaltar = Set.new
 kantika_zaltar = Set.new
 
 # read list of psalms and canticles used
-File.open('antifonar_zaltar.tex') do |fr|
+File.open('antifonar_zaltar.ltex') do |fr|
   fr.each_line do |l|
     match = /\\(zalm|kantikum)\{([^\}]+)\}/.match(l)
     next if match.nil?
@@ -64,10 +64,15 @@ file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_ind
   sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf}"
 end
 
-# zalmy zpracovavat ve vice vlaknech
+# process psalms in several threads to speed it up
 multitask :zalmy_zaltare_multitask => zalmyzaltare
 
-# versiky
+file 'antifonar_zaltar.tex' => ['antifonar_zaltar.ltex', 'skripty/labelpsalm.rb'] do |t|
+  inputf, script = t.prerequisites
+  sh "#{RUBY_COMMAND} #{script} #{inputf} > #{t.name}"
+end
+
+# versicles
 file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'skripty/versicles.rb'] do |t|
   inputf, script = t.prerequisites
   sh "#{RUBY_COMMAND} #{script} #{inputf} > #{t.name}"

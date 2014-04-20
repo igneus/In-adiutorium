@@ -124,7 +124,7 @@ def content(line)
         # canticle
         sigle = canticle_name_pretty t[1]
         
-        print "\\textRef{kant#{t[1]}}{#{sigle}}"
+        print "\\textRef{k#{t[1]}}{#{sigle}}"
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then

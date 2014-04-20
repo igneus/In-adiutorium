@@ -96,20 +96,10 @@ V~době adventní, vánoční, postní a velikonoční:
 \newcommand{\poznamkaPod}[1]{
   \hfill {\footnotesize \noindent \textit{#1}}}
 
-% create label if it hasn't been defined yet
-% - there should be a label at *first* occurrence of each psalm/canticle
-\makeatletter
-\newrobustcmd{\labelifundefined}[1]{%
-  \@ifundefined{r@#1}{\label{#1}}{}
-}
-\makeatother
-
 \newcommand{\zalm}[1]{
-  \labelifundefined{z#1}
   \input{generovane/zaltar/zalm#1.tex}}
 
 \newcommand{\kantikum}[1]{
-  \labelifundefined{kant#1}
   \input{generovane/zaltar/kantikum_#1.tex}}
 
 % no section numbers
@@ -355,7 +345,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
-\label{kantzj19}
+\label{kzj19}\label{kzj19:1}
 \input{kantikum_zj19.tex} % negeneruje se, je nasazene "natvrdo"
 
 \vspace{3mm}
@@ -625,6 +615,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:2}
 \input{kantikum_zj19.tex}
 
 \vspace{3mm}
@@ -881,6 +872,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:3}
 \input{kantikum_zj19.tex}
 
 \vspace{3mm}
@@ -1131,6 +1123,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:4}
 \input{kantikum_zj19}
 
 \vspace{3mm}
@@ -1470,8 +1463,8 @@ podle pokynů v~indexu svátků.}
 \zalm{96ii}
 \zalm{103ci}
 \zalm{103cii}
-\label{kant1tim3} % vysazene "natvrdo"
-\input{kantikum_1tim3}
+\label{k1tim3}\label{k1tim3:1}
+\input{kantikum_1tim3} % kantikum vysazene "natvrdo" kvuli nezalmove strukture
 
 \end{hora}
 
