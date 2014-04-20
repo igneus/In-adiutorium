@@ -126,8 +126,13 @@ def content(line, label_index_lookup)
   end
   label_nums = {}
   if labels.size >= 2 then
-    label_index_lookup.shortestn(*labels).each_with_index do |x,i|
+    label_nums_array = label_index_lookup.shortestn(*labels)
+    label_nums_array.each_with_index do |x,i|
       label_nums[labels[i]] = x
+    end
+
+    if label_index_lookup.proximity_check labels, label_nums_array then
+      STDERR.puts "Labels #{labels} could possibly be replaced by a reference to an hour as a whole."
     end
   end
 

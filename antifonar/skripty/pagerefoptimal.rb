@@ -51,10 +51,6 @@ class PageRefOptimal
       s << shortest(labels[i-1], labels[i])[1]
     end
 
-    if proximity_check labels, s then
-      STDERR.puts "Labels #{labels} could possibly be replaced by a reference to an hour as a whole."
-    end
-
     return s
   end
 
