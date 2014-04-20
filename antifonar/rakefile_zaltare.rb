@@ -68,37 +68,9 @@ end
 multitask :zalmy_zaltare_multitask => zalmyzaltare
 
 # versiky
-file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'rakefile_zaltare.rb'] do |t|
-  require 'yaml'
-  src = YAML.load File.open t.prerequisites[0]
-  File.open(t.name, 'w') do |o|
-    src.each do |wname, days|
-      days.each do |dname, hours|
-        midday = []
-        hours.each do |hname, versicle|
-          v, r = versicle.collect {|s| 
-            s.gsub(/\](?<foo>[^\s]+)/, ']\-\k<foo>')
-              .gsub(/(?<foo>[^\s]+)\[/, '\k<foo>\-[')
-              .gsub('[', '\underline{').gsub(']', '}')
-              .gsub('/', '\-')
-          }
-          
-          vid = '\versik' + wname.upcase + dname + hname.capitalize
-
-          o.puts "\\newcommand{#{vid}}{\\versik#{hname.capitalize}{#{v}\n}{#{r}\n}}\n\n"
-          
-          if hname != 'cteni' then
-            midday << vid
-          end
-        end
-        
-        did = '\versiky' + wname.upcase + dname + 'Uprostred'
-        macros = midday.join "\n"
-        o.puts "\\newcommand{#{did}}{#{macros}}"
-      end
-    end
-  end
-
+file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'skripty/versicles.rb'] do |t|
+  inputf, script = t.prerequisites
+  sh "#{RUBY_COMMAND} #{script} #{inputf} > #{t.name}"
   sh "vlna #{t.name}"
 end
 
