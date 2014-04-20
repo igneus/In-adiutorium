@@ -152,13 +152,15 @@
   }
 }
 
-%{
 \markup {\nadpisDen {5. neděle velikonoční}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 f( g a) a( g) a \barMin a c c c b g g \barMaior
+    c c b( d c) a( g a) \barMin g f( g) a c b c( d) d \barMaior
+    d c b c b( g) \barMin f g a b a g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Když o -- de -- jdu a při -- pra -- vím vám mís -- to,
@@ -168,8 +170,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -177,9 +179,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c a( b) g \barMin a( g) f a a( g) g \barMaior
+    g g g a g f f( a) a
+    a c b a \barMin
+    g f g g \barFinalis
   }
   \addlyrics {
     Já jsem ces -- ta, prav -- da a ži -- vot.
@@ -189,8 +194,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -219,7 +224,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
     fial = "sanktoral/0503filipjakub.ly#rch-a1?upraveno&+#rch-a2"
@@ -227,6 +232,7 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+%{
 
 \markup {\nadpisDen {6. neděle velikonoční}}
 
