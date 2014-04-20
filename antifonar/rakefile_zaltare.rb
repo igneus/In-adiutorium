@@ -123,8 +123,9 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" -
 zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
 # index svatecnich zalmu
-file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', '../nastroje/listofpsalms.rb'] do
-  sh "#{RUBY_COMMAND} ../nastroje/listofpsalms.rb -d #{adresar_zaltar} svatecnizaltar_index.txt"
+file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', 'skripty/listofpsalms.rb'] do |t|
+  inputf, script = t.prerequisites
+  sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf}"
 end
 
 # zalmy zpracovavat ve vice vlaknech
