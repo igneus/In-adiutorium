@@ -12,6 +12,9 @@
 #     another hour
 # ...
 
+require 'optparse'
+require_relative 'pagerefoptimal'
+
 IUNIT = 2 # two spaces as indentation unit
 
 # patterns for sorting according to standard suffixes
@@ -70,7 +73,7 @@ def hour_title(line)
        end
 end
 
-def content(line)
+def content(line, label_index_lookup)
   tokens = []
   
   line.strip.split(/\s*,\s*/).each do |rt|
@@ -99,15 +102,37 @@ def content(line)
   
   psalms = []
   
-  #puts "\\begin{idxObsahHory}"
 
+  # search for best combination of text references
+  # (some psalms reoccur in the psalter and we don't like page-flipping)
+  labels = []
+  tokens.each do |t|
+    t[1].strip!
+    
+    if t[0] != :ps then
+      next
+    end
+
+    if t[1] == "rchne1t" then
+      # skip
+    elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
+        t[1] =~ /^\d+\w*$/ then
+      # psalm
+      labels << ('z' + t[1])
+    else
+      # canticle
+      labels << ("k"+t[1])
+    end
+  end
+  label_nums = {}
+  if labels.size >= 2 then
+    label_index_lookup.shortestn(*labels).each_with_index do |x,i|
+      label_nums[labels[i]] = x
+    end
+  end
 
   tokens.each_with_index do |t,ti|
     t[1].strip!
-    
-    if ti == 0 || (tokens[ti][0] != :txt && tokens[ti-1][0] != :txt) then
-      # print "\\indent "
-    end
     
     case t[0]
     when :ps
@@ -118,13 +143,13 @@ def content(line)
           t[1] =~ /^\d+\w*$/ then
         # psalm
         prettyt = psalm_name_pretty t[1]
-        print "\\textRef{z#{t[1]}}{Žalm #{prettyt}}"
+        print "\\textRef{z#{t[1]}:#{label_nums['z'+t[1]]}}{Žalm #{prettyt}}"
         psalms << t[1]
       else
         # canticle
         sigle = canticle_name_pretty t[1]
         
-        print "\\textRef{k#{t[1]}}{#{sigle}}"
+        print "\\textRef{k#{t[1]}:#{label_nums['k'+t[1]]}}{#{sigle}}"
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
@@ -136,8 +161,6 @@ def content(line)
       puts "\\rubr{#{t[1]}}"
     end
   end
-
-  #puts "\\end{idxObsahHory}"
   
   return psalms
 end
@@ -209,7 +232,7 @@ def canticle_name_pretty(c)
 end
 
 
-require 'optparse'
+
 
 dir = ''
 
@@ -220,18 +243,22 @@ optparse = OptionParser.new do|opts|
 end
 optparse.parse!
 
-file  = ARGV.shift
-unless file
-  raise "File to be processed expected as an argument."
+list_file  = ARGV.shift
+labels_file = ARGV.shift
+unless (list_file and labels_file)
+  raise "Files to be processed expected as arguments."
 end
 
 psalms = []
 
+pageref_optimizer = PageRefOptimal.new
+collect_labels(File.open(labels_file), pageref_optimizer)
+
 if dir then
-  $stdout = File.open(dir+'/'+File.basename(file)+'.index.tex', 'w')
+  $stdout = File.open(dir+'/'+File.basename(list_file)+'.index.tex', 'w')
 end
 
-File.open(file, 'r') do |fr|
+File.open(list_file, 'r') do |fr|
   lnum = 0
   while l = fr.gets do
     lnum += 1
@@ -250,6 +277,7 @@ File.open(file, 'r') do |fr|
       next
     end
     
+    # meaning of the line depends on indentation level
     begin
       i = ilevel(l)
       case i
@@ -260,57 +288,14 @@ File.open(file, 'r') do |fr|
       when 2
         hour_title l
       when 3
-        psalms += content l
+        psalms += content l, pageref_optimizer
       else
         # nothing
       end
     rescue
-      STDERR.puts "Error on line #{lnum} of input file '#{file}':"
+      STDERR.puts "Error on line #{lnum} of input file '#{list_file}':"
       raise
     end
-  end
-end
-
-psalms.uniq!
-psalms.sort! {|x,y| 
-  mx = x.match($psalmname_re)
-  my = y.match($psalmname_re)
-
-  if mx[:num].to_i < my[:num].to_i then
-    -1
-  elsif mx[:num].to_i > my[:num].to_i then
-    1
-  else
-    # parts of the same psalm
-    if mx[:suff] == my[:suff] then
-      0
-    elsif mx[:num] == '119' then # alef, beth, ...
-      $hebrew_alphabet.index(mx[:suff]) <=> $hebrew_alphabet.index(my[:suff])
-    elsif mx[:suff] =~ /^[ivx]+$/ || 
-        my[:suff] =~ /^[ivx]+$/ then # i, ii, iii, iv, ...
-      a = $roman_numbers.index(mx[:suff])
-      b = $roman_numbers.index(my[:suff])
-      # without suffix or unknown suffix:
-      a = -1 if a == nil
-      b = -1 if b == nil
-
-      a <=> b
-    else
-      mx[:suff] <=> my[:suff] # string comparison, not numeric comparison
-    end
-  end
-}
-
-File.open(dir+'/'+File.basename(file)+'.psalmsnums', 'w') do |fw|
-  fw.puts psalms.join "\n"
-end
-
-File.open(dir+'/'+File.basename(file)+'.psalms.tex', 'w') do |fw|
-  psalms.each do |p|
-    pr = psalm_name_pretty p
-    fw.puts "\\labelText{z#{p}}{Žalm #{pr}}"
-    fw.puts "\\input{generovane/svatecnizaltar/zalm#{p}.tex}"
-    fw.puts
   end
 end
 

@@ -72,7 +72,7 @@
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
 
   \rubr{Pokud se následující žalm zpíval jako invitatorium,
-  nahradí se zde žalmem 95, str.~\pageref{zalm95}.}
+  nahradí se zde žalmem 95, str.~\pageref{z95}.}
 }
 
 \newcommand{\rubrikaZalmyvMezidobi}{
@@ -178,7 +178,7 @@ beze změny přijaté od starozákonního Božího lidu staví do světla evange
 Při slavení liturgie hodin se takto až na několik výjimek uzavírá
 každý žalm a kantikum či jeho oddíl.
 Protože se doxologie opakuje za každým žalmem, v~plném znění ji otiskujeme
-pouze u~kantika Magnificat na str.~\pageref{kantmagnificat} a dále uvádíme
+pouze u~kantika Magnificat na str.~\pageref{kmagnificat} a dále uvádíme
 vždy již jen zkratku \uv{Sláva Otci.}
 
 Při modlitbě uprostřed dne v~liturgických obdobích, kdy se její žalmy zpívají 

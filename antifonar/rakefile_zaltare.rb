@@ -58,14 +58,11 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" -
 # zalmyzaltare << genzalm('kantikum_zj19.zalm', '--no-formatting '+canticleoptions)
 zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
-# index svatecnich zalmu
-file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', 'skripty/listofpsalms.rb'] do |t|
-  inputf, script = t.prerequisites
-  sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf}"
+# index of festal psalms
+file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', 'antifonar_zaltar.tex', 'skripty/listofpsalms.rb', 'skripty/pagerefoptimal.rb'] do |t|
+  inputf, labelsf, script = t.prerequisites
+  sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf} #{labelsf}"
 end
-
-# process psalms in several threads to speed it up
-multitask :zalmy_zaltare_multitask => zalmyzaltare
 
 file 'antifonar_zaltar.tex' => ['antifonar_zaltar.ltex', 'skripty/labelpsalm.rb'] do |t|
   inputf, script = t.prerequisites
@@ -78,6 +75,9 @@ file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'skripty/versicles.rb'] do 
   sh "#{RUBY_COMMAND} #{script} #{inputf} > #{t.name}"
   sh "vlna #{t.name}"
 end
+
+# process psalms in several threads to speed it up
+multitask :zalmy_zaltare_multitask => zalmyzaltare
 
 file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do
   2.times { 
@@ -92,8 +92,8 @@ task :zaltar => ["antifonar_zaltar.pdf"]
 
 # Zatimco 'brozurkovy ' kompletar je tisten jako sesitek (stranky A4 se
 # prehnou, poskladaji do sebe a uprostred sesiji), zaltar je velky a
-# nasledujici uloha ho chysta vazbu -
-# vytvari slozky po 12 stranach (3 listy A4 uprostred prehnute a slozene do sebe)
+# nasledujici uloha ho chysta pro vazbu -
+# vytvari slozky po 16 stranach (4 listy A4 uprostred prehnute a slozene do sebe)
 file 'vystup/antifonar_zaltar-broz.pdf' => ["vystup/antifonar_zaltar.pdf"] do |t|
   nws = t.prerequisites.first.gsub(/\..+$/, '') # input file without suffix
   sh "pdfbook -o vystup --booklet false --signature 16 --suffix broz #{nws}.pdf"
