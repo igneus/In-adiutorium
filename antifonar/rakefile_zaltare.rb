@@ -79,12 +79,18 @@ end
 # process psalms in several threads to speed it up
 multitask :zalmy_zaltare_multitask => zalmyzaltare
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do
-  2.times { 
-    # sh "cslatex antifonar_zaltar" 
-    sh "pdflatex -shell-escape -output-directory=vystup antifonar_zaltar"
-  }
-  # sh "dvipdf antifonar_zaltar.dvi"
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do |t|
+  mainfile = t.prerequisites.first
+  latex_cmd = "pdflatex -shell-escape -output-directory=vystup #{mainfile}"
+
+  2.times { sh latex_cmd }
+
+  indices = `grep makeindex #{mainfile}`.lines.collect {|l| /\\makeindex\{(\w+)\}/.match(l)[1] }
+  indices.each do |idx|
+    sh "texindy -L czech -M lang/czech/utf8 vystup/#{idx}.idx" # generate indices
+  end
+
+  sh latex_cmd
 end
 
 desc "Psalter."

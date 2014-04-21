@@ -19,6 +19,9 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 
+\usepackage{multind} % indexy
+\makeindex{zalmy}
+
 \usepackage[T1]{fontenc}
 % font Palatino:
 % \usepackage[sc]{mathpazo}
@@ -1524,6 +1527,9 @@ podle pokynů v~indexu svátků.}
 
 % generovany soubor
 \input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
+
+\clearpage
+\printindex{zalmy}{Rejstřík žalmů a kantik}
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
