@@ -1529,6 +1529,7 @@ podle pokynů v~indexu svátků.}
 \input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
 
 \clearpage
+\fancyhead[CE,CO]{Rejstřík žalmů a kantik}
 \printindex{zalmy}{Rejstřík žalmů a kantik}
 
 \clearpage

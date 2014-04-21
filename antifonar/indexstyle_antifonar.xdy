@@ -1,0 +1,3 @@
+;; xindy stylesheet (for indices)
+
+(markup-locclass-list :open "\dotfill{}")
