@@ -224,10 +224,25 @@ kde je možné je nalézt.
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
 \setlength{\columnsep}{20pt} % prostor mezi sloupci
 
-% s pomoci baliku titlesec zmenit format nadpisu uzivanych generatorem
-% indexu svatku
+% s pomoci baliku titlesec
+% - format nadpisu uzivanych generatorem indexu svatku
 \titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
 \titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
+
+% multind vnucuje natvrdo vlastni format nadpisu rejstriku,
+% coz nechceme. Predefinovat \printindex
+% zdroj: http://tex.stackexchange.com/a/79473/13146
+\makeatletter
+\def\printindex#1#2{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
+  \columnseprule \z@ \columnsep 35pt
+  \csname phantomsection\endcsname
+  \nadpisTyden{#2}{#2} % vlastni nadpis
+  \markright{\uppercase{#2}}
+  \begin{multicols}{2}
+  \@input{#1.ind}%
+  \end{multicols}%
+}
+\makeatother
 
 % Zakazat zlomeni stranky uprostred slova (to je totiz pro zpev pekelne)
 % \brokenpenalty5000\relax
