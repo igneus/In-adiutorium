@@ -89,7 +89,7 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_antifonar.xd
 
   indices = `grep makeindex #{mainfile}`.lines.collect {|l| /\\makeindex\{(\w+)\}/.match(l)[1] }
   indices.each do |idx|
-    sh "texindy -L czech -M lang/czech/utf8 -M #{index_stylesheet} vystup/#{idx}.idx" # generate indices
+    sh "texindy --debug level=2 -t vystup/#{idx}_xindy.log -L czech -M lang/czech/utf8 -M #{index_stylesheet} vystup/#{idx}.idx" # generate indices
   end
 
   sh latex_cmd

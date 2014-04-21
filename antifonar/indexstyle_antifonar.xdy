@@ -1,3 +1,10 @@
 ;; xindy stylesheet (for indices)
 
+;; separate index word from page numbers by dots
 (markup-locclass-list :open "\dotfill{}")
+
+;; ignore initial numbers when sorting and grouping
+(merge-rule "^[0-9]+ (.*)" "\1" :eregexp)
+
+;; test to see if the rules get applied or not:
+;(merge-rule "^I+" "1&" :again :eregexp)
