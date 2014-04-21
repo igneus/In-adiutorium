@@ -105,12 +105,37 @@ V~době adventní, vánoční, postní a velikonoční:
 \newcommand{\kantikum}[1]{
   \input{generovane/zaltar/kantikum_#1.tex}}
 
+% multind vnucuje natvrdo vlastni format nadpisu rejstriku,
+% coz nechceme. Predefinovat \printindex
+% zdroj: http://tex.stackexchange.com/a/79473/13146
+\makeatletter
+\def\printindex#1#2{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
+  \columnseprule \z@ \columnsep 35pt
+  \csname phantomsection\endcsname
+  \nadpisTyden{#2}{#2} % vlastni nadpis
+  \markright{\uppercase{#2}}
+  \begin{multicols}{2}
+  \@input{#1.ind}%
+  \end{multicols}%
+}
+\makeatother
+
+
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}
 \renewcommand{\thesubsubsection}{}
 
 % v obsahu jen sekce a subsekce
 \setcounter{tocdepth}{2}
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+% s pomoci baliku titlesec
+% - format nadpisu uzivanych generatorem indexu svatku
+\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
+\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
 
 
 \begin{document}
@@ -219,30 +244,6 @@ nadané vlastními žalmy a kantiky tyto texty uvádí spolu s~odkazy na stránk
 kde je možné je nalézt.
 
 \cleardoublepage
-
-% Nastaveni sazby do sloupcu:
-\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
-\setlength{\columnsep}{20pt} % prostor mezi sloupci
-
-% s pomoci baliku titlesec
-% - format nadpisu uzivanych generatorem indexu svatku
-\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
-\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
-
-% multind vnucuje natvrdo vlastni format nadpisu rejstriku,
-% coz nechceme. Predefinovat \printindex
-% zdroj: http://tex.stackexchange.com/a/79473/13146
-\makeatletter
-\def\printindex#1#2{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
-  \columnseprule \z@ \columnsep 35pt
-  \csname phantomsection\endcsname
-  \nadpisTyden{#2}{#2} % vlastni nadpis
-  \markright{\uppercase{#2}}
-  \begin{multicols}{2}
-  \@input{#1.ind}%
-  \end{multicols}%
-}
-\makeatother
 
 % Zakazat zlomeni stranky uprostred slova (to je totiz pro zpev pekelne)
 % \brokenpenalty5000\relax
