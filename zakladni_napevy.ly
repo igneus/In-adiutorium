@@ -667,7 +667,7 @@
       
       % * Poslední část (prosby) se může vynechat.
       
-      \markup{\bold{\with-color #red "*"} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
+      \markup{\bold{¶} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
       veď ho a stá -- le po -- zve -- dej.
       Kaž -- dý den tě bu -- de -- me ve -- le -- bit a chvá -- lit tvé jmé -- no po všech -- ny vě -- ky.
       Po -- má -- hej nám i dnes, ať se ne -- do -- sta -- ne -- me do pod -- ru -- čí hří -- chu.
@@ -686,7 +686,7 @@
     }
   }
   
-  \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
+  \markup{\bold{¶} \italic{Poslední část se může vynechat.}}
 }
 
 \bookpart {
