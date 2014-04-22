@@ -1,4 +1,4 @@
-\version "2.15.40"
+\version "2.19.4"
 
 \include "spolecne.ly"
 
@@ -325,9 +325,9 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c 
-      c4 c c c c c c c c c c-| a \parenthesize a \barMax
+      c4 c c c c c c c c c c-! a \parenthesize a \barMax
       \neviditelna c 
-      c4 c c c c c c c c-| a \parenthesize a \barFinalis
+      c4 c c c c c c c c-! a \parenthesize a \barFinalis
     }
     \addlyrics {
       \Verse Na -- kloň mé srd -- ce, Bo -- že, k_svým \markup\underline{při} -- ká -- \markup\underline{zá} -- ním, \skip 1
@@ -388,8 +388,8 @@
       \choralniRezim
       \neviditelna c
       \stemUp % kvuli poloze akcentovych znacek
-      c4 c c c c c c c-| a \barMin 
-      c c b a c-| c \barMin
+      c4 c c c c c c c-! a \barMin 
+      c c b a c-! c \barMin
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
