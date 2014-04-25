@@ -2116,6 +2116,13 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   
   \pageBreak
   
+  \markup\justify{
+    Této antifony bych rád připravil dvě verze:
+    Jednu, která vkládá milovanému učedníku do úst bohatý jubilus,
+    a druhou, která radost ze setkání se vzkříšeným Pánem
+    vyjadřuje skromnějšími prostředky a zvládne ji zazpívat každý.
+  }
+  
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -2146,7 +2153,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g( a) a \barMin
+      \mark\sipka g4 g( a) a \barMin
       g f g a a g( a) a( g) g \barMin
       f( g a) a \barMaior
       a a c4.( g) \barMin
@@ -2218,6 +2225,164 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
       quid = "ant. k Magnificat"
       modus = "I"
       differentia = "f" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 3
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a a a a a a( c) g g f( g f d) d \barMaior
+      a' a a( g f) \barMin
+      g f d d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a a a a a a( c) g g f( g f d) d \barMaior
+      a' a \mark\sipka a( c g) \barMin
+      f g f( d) d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a a a a a a( c) g g f( g f d) d \barMaior
+      a' a a( c g) \barMin
+      \mark\sipka f g( f) d d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 3.2
+  
+  \markup{Oficiální text:}
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a a a a a g( a) g g g( a) a \barMaior
+      \mark\sipka a( c) g g \barMin
+      f g f( d) d \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      Pán je to!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny K
+  \markup\justify{Pro nemelismatickou melodii se dobře hodí oficiální znění.}
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      f( g f) g( a) a \barMin
+      a a a a a g( a) g f g( f) f \barMaior
+      c' a g 
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+      ře -- kl:
+      Pán je to!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F" 
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\nadpisSkupiny 4
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a \[ c( b a \] \[ c b a \] \[ c4. a \] \barMin
+      \[ c4 b c \] \[ d e d \] \[ e f e d e4. \] \barMin
+      \[ e4 d c a \] \[ b a g a4. \] \barMin
+      a4 \[ g a g f \] \[ g a4. \] \barMin
+      \[ a4 g a \] \[ c b a4. \] \barMaior
+      
+    }
+    \addlyrics {
+      %U -- čed -- ník,_*
+      %kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2" 
       psalmus = ""
       id = "pa-mag"
       piece = \markup {\sestavTitulekBezZalmu}
