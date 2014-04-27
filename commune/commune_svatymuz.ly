@@ -57,6 +57,7 @@
     psalmus = "Žalm 146"
     id = "1ne-a2"
     fons = "žaltář, ne 4.t., 2.nešp., 2.ant.; doplněno aleluja"
+    fial = "antifony/tyden4_1nedele.ly#2ne-ant2?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -500,6 +501,7 @@
     psalmus = ""
     id = "rch-aben1"
     fons = "4. ne postní, cyklus B, 2. nešp., k Magnificat; doplněno aleluja"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -581,6 +583,7 @@
     psalmus = ""
     id = "sexta"
     fons = "doba velikonoční, úterý 4. týdne, r.ch., 1. ant.; odděleno aleluja; v breviáři se obě antifony nevýznamně textově liší"
+    fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
