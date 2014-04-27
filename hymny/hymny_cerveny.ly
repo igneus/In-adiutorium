@@ -16,7 +16,9 @@
 }
 
 \markup{
-  \italic{Denní modlitba církve. Hymny,} Praha 1988.
+  \italic{Denní modlitba církve. Hymny,} 
+  Praha 
+  \concat{ 1988\super{1} ", " 2008\super{2} "." }
 }
 
 %{
@@ -138,6 +140,26 @@ notime = {
   \header {
     fons = "s. 105"
     id = "88"
+  }
+}
+
+\score {
+  \relative c'' {
+    \key bes \major
+    \time 4/4
+    \autoBeamOff
+    
+    r2 r4 bes | bes f g8[ a] bes4 | c4. c8 d2 \breathe |
+    \time 3/4 d4 c a | bes8[ a] g2 \time 4/4 f2
+    r4 f | bes a g g | f4. f8 d2 \breathe |
+    \time 3/4 g4 f d | es8[ d] c2 | \time 4/4 bes2
+    r4 bes'8[ c] | d4 d d d | c bes c \breathe 
+    bes8[ c] | d4 d d d | c bes c2 \breathe |
+    \time 3/4 f,4 g a | bes c2 | bes2. \bar "|."
+  }
+  \header {
+    fons = "s. 65"
+    id = "170"
   }
 }
 
