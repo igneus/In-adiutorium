@@ -206,6 +206,8 @@
     subtitle = "Dny doby velikonoční"
   }
   
+  \include "antifony/velikonoce_tyden2.ly"
+  
   \include "antifony/velikonoce_tyden3.ly"
   
   \markup\nadpisDen{4.-6. neděle velikonoční}
