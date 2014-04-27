@@ -8,11 +8,24 @@ def truncate(str, length)
   return str[0..str.rindex(' ', length)]
 end
 
+def file_separator(text)
+  puts
+  puts text
+  puts
+end
+
 ARGV.each do |f|
+  unless File.exist? f
+    file_separator "#{f} not found"
+    next
+  end
+  unless File.file? f
+    file_separator "#{f} is not a file"
+    next
+  end
+
   if ARGV.size > 1 then
-    puts
-    puts f
-    puts
+    
   end
 
   LilyPondMusic.new(f).scores.each do |score|
