@@ -312,9 +312,14 @@
 \markup {\nadpisDen {7. neděle velikonoční}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c c( d) c a a( c) \barMin
+    c g( a) g g g( a g c) c \barMin
+    c d c c d e e c( d c a) a \barMaior
+    g a( c) c b c b a g g \barMin
+    a( g f) g( a) a g g \barMaior
+    a( b) c( a) g( a) g \barFinalis
   }
   \addlyrics {
     Věč -- ný ži -- vot je to,
@@ -326,8 +331,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "c" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -335,9 +340,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4( c) c \barMin c c c d( c d) d( c) c b( a) g( a) a( g) \barMaior
+    a a a a b( c a) a \barMin
+    b c b a g g \barMaior
+    f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Ot -- če, já jsem tě o -- sla -- vil na ze -- mi:
@@ -347,8 +355,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -356,9 +364,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d d c( b a) g( a) a \barMin
+    g a a b( c a) g g \barMaior
+    a a( d) d \barMin d d d( c b a) b( a) a( g) \barMin a( g) f( g) g \barMaior
+    a b c b( c) a c( a) a( g) g \barMaior
+    a a a( g) g \barFinalis
   }
   \addlyrics {
     Až při -- jde Pří -- mluv -- ce,
@@ -369,8 +381,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
