@@ -11,8 +11,18 @@ errors = 0
 
 ARGV.each_with_index do |s,i|
   puts if i > 0
+  if ARGV.size > 1 then
+    puts '%% ' + s
+    puts
+  end
 
-  fial = FIAL.parse s
+  begin
+    fial = FIAL.parse s
+  rescue
+    STDERR.puts "'#{s}' is not a valid FIAL."
+    errors += 1
+    next
+  end
 
   unless File.exist?(fial.path)
     STDERR.puts "File '#{fial.path}' doesn't exist."
@@ -29,8 +39,6 @@ ARGV.each_with_index do |s,i|
     next
   end
 
-  puts '%% ' + s
-  puts
   puts score.text
 end
 
