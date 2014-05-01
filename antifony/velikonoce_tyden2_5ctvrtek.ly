@@ -46,6 +46,7 @@
     differentia = "a" 
     psalmus = "Iz 12"
     id = "rch-a2"
+    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -53,8 +54,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( g) g a g f g( a) g g \barMaior
-    f a g g \barFinalis
+    c4 c b( c a) a \barMin b( c) a g a g g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí.
@@ -66,8 +67,6 @@
     differentia = "c" 
     psalmus = "Žalm 81"
     id = "rch-a3"
-    fons = "vyňato z: slavnost Těla a Krve Páně, 1.nešp., 2.ant."
-    placet = "r - jako výtržek působí nevyváženě - radši složit jinou melodii"
     piece = \markup {\sestavTitulek}
   }
 }
