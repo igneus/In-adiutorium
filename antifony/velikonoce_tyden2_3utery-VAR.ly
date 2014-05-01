@@ -6,7 +6,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a) g c( a) g( a g) g \barMaior
     g( a c) c d( c) d d( e c) a a4.( g) \barMaior
@@ -32,7 +32,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacSedy
+    \zvyraznovacModry
     \choralniRezim
     c4( a) g c( a) g( a g) g \barMaior
     g( a c) c d( c) d d( e c) a a4.( g) \barMaior
