@@ -207,9 +207,15 @@
   }
   
   \include "antifony/velikonoce_tyden2.ly"
+  \pageBreak
   
   \include "antifony/velikonoce_tyden3.ly"
+  \pageBreak
   
+  \include "antifony/velikonoce_tyden4.ly"
+  \pageBreak
+  
+  %{
   \markup\nadpisDen{4.-6. neděle velikonoční}
   
   \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -217,6 +223,7 @@
   \markup\italic{ 
     Antifony z 3. neděle velikonoční, 
     str. \concat{ \page-ref #'velikonoceNedeleIIIcteni "0" "?" . } }
+  %}
   
   \include "antifony/velikonoce_tyden7.ly"
 }
