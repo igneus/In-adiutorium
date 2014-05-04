@@ -7,6 +7,8 @@
 
 \include "spolecne.ly"
 
+\markup\justify{Texty obou antifon podle Jednotného kancionálu (č. 007 a 008).}
+
 \markup\justify{Volně podle jednoduššího chorálního nápěvu Salve regina -
 např. \italic{Denní modlitba církve. Hymny,} Praha 1989, s. 368.}
 
@@ -74,13 +76,15 @@ např. \italic{Denní modlitba církve. Hymny,} Praha 1989, s. 368.}
   }
 }
 
+\markup\justify{Volně podle \italic{Antiphonale Romanum,} Romae 1912, [92].}
+
 \score {
   \relative c'' {
     \choralniRezim
     g4 g b c d c d e e d \barMin
     d d c a c c b \barMaior
     g g b c d c d( e) d \barMin
-    c a c c b \barMaior
+    c b a b c \barMaior
     a g a b c b a c b b \barMin
     d d c d d( e d) c( b) \barMaior
     a g a( c) b \barMin b a( b) a g g \barFinalis
