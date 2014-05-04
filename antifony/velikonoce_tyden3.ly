@@ -293,3 +293,231 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d d e d d 
+    c b c( d) d d \barMaior
+    d d e g g \barMin
+    e d c( d) c b \barMin a g a a g g \barMaior
+    
+    a b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- u -- si -- luj -- te o po -- krm,
+    kte -- rý po -- mí -- jí,
+    a -- le o po -- krm,
+    kte -- rý zů -- stá -- vá k_věč -- né -- mu ži -- vo -- tu.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne18b-1ne-mag?+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( g) g a a( b) a a( g) g \barMax
+    a( b a) a4.( c) a4( g) g( e) e \barMaior
+    e d c d( e) e( f e) e \barMax
+    d c( d) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMaior
+    g( a) g f( d) d \barMax
+    d d c( d) d f( e f g) g \barMaior
+    a g f( d) d f e d4. d \barMaior
+    
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a" 
+    psalmus = ""
+    fial = "commune/zazemrele.ly#ne-amag?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
+    
+    f d( f) g( f) d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax 
+    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
+    
+    g f e d d \barMin f g g( a) a \barMaior
+    a( c d) c b a( g) g( a) \barMin a b a a( g) g \barMaior
+    
+    a a( c a g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
+    Kdo bu -- de jíst ten -- to chléb, bu -- de žít na -- vě -- ky.
+    
+    Chléb, kte -- rý já dám,
+    je mé tě -- lo, o -- bě -- to -- va -- né za ži -- vot svě -- ta.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-2ne-mag?+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g f g a( c) c c d c b a( g) \barMin
+    g f e f( g) g g( f) e e \barMaior
+    
+    f f g e \barFinalis
+  }
+  \addlyrics {
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    zů -- stá -- vá ve mně a já v_něm.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?cast&+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d c c( d) d \barMin f( e f) f( g) g \barMaior
+    f e( f g) f( e) d d \barMaior
+    f e c d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D" 
+    psalmus = ""
+    fial = "commune/zazemrele.ly#ne-amag-velik"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Sobota}}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a g( a) g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    d e f g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    f e( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a3" 
+    psalmus = ""
+    fial = "sanktoral/0629petraapavla.ly#rch-aben"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
