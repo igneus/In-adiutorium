@@ -28,14 +28,14 @@ např. \italic{Denní modlitba církve. Hymny,} Praha 1989, s. 368.}
     c g a( f d) \barMin d e f g f e( f d c) c \barFinalis
     
     g' a b c \barMin b g a g g a c b a g \barMaior
-    g g g g c b a g e( f d c) c \barFinalis
+    g g f g c b a g e( f d c) c \barFinalis
     
     e( f g) e f d( c) c \barFinalis
     
     g'( a b) c b a( g) g \barFinalis
     
     c4.( g4 a f4. d4) e( f) f( g) g \barMaior
-    c, f e d( c) c \barFinalis
+    c, d f( e) d( c) c \barFinalis
   }
   \addlyrics {
     Zdrá -- vas, Krá -- lov -- no,
