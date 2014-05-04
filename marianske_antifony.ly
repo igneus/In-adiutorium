@@ -73,3 +73,34 @@ např. \italic{Denní modlitba církve. Hymny,} Praha 1989, s. 368.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d c d e e d \barMin
+    d d c a c c b \barMaior
+    g g b c d c d( e) d \barMin
+    c a c c b \barMaior
+    a g a b c b a c b b \barMin
+    d d c d d( e d) c( b) \barMaior
+    a g a( c) b \barMin b a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko.
+    Ne -- od -- mí -- tej na -- še pros -- by
+    v_na -- šich po -- tře -- bách,
+    a -- le o -- de vše -- ho ne -- bez -- pe -- čí
+    vy -- svo -- boď nás vždyc -- ky,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná!
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "" 
+    psalmus = ""
+    poet = "Jednotný kancionál (30. vyd., 2004) 008 - jen první část, odpovídající tomu, co jako text mariánské antifony uvádí DMC"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
