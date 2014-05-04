@@ -68,6 +68,7 @@
     psalmus = ""
     id = "ne21b-2ne-mag"
     fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?-aleluja&upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
