@@ -27,7 +27,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    c4( d) d \barMin
+    d f e d c e( f d) c( d) d \barMaior
+    c d( f) e( d) d \barFinalis
   }
   \addlyrics {
     Kris -- te,
@@ -36,8 +38,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 130"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -45,9 +47,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    d4 d d d c( b a) g( a) \barMin c( b) c c( a) a \barMaior
+    c c d( e d) c( d c) \barMin b( c) a g g \barMaior
+    f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel pro -- jít bra -- nou smr -- ti,
@@ -56,8 +60,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -73,9 +77,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 a a c b c d d( c) \barMaior
+    g b c a a \barMin b c a a g f f( g) g \barMaior
+    g c( d c b) a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- ze -- mřu, a -- le bu -- du žít
@@ -84,8 +90,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Žalm 118"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -95,7 +101,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d c d \barMin
+    d d d( f) d g f d d \barMaior
+    c c c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- né 
@@ -104,8 +112,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-II"
     id = ""
     piece = \markup {\sestavTitulek}
