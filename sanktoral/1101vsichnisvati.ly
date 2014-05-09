@@ -503,6 +503,7 @@
     differentia = "f" 
     psalmus = "Zj 4"
     id = ""
+    placet = "melodie na prvním 'jsi' mě sice nedráždí, ale pravděpodobně není zcela košer"
     piece = \markup {\sestavTitulek}
   }
 }
