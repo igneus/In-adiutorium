@@ -361,7 +361,7 @@
     d d c( d) d f( e f g) g \barMaior
     a g f( d) d f e d4. d \barMaior
     
-    e d c( d) d \barFinalis
+    e4 d c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
