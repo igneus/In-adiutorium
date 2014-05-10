@@ -21,7 +21,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -44,7 +44,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -66,7 +66,7 @@
     modus = "VII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -95,7 +95,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -121,7 +121,7 @@
     modus = "IV alt"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -147,7 +147,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = ""
-    id = ""
+    id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -173,7 +173,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -197,7 +197,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -228,7 +228,7 @@
     psalmus = ""
     % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
     fial = "sanktoral/0503filipjakub.ly#rch-a1?upraveno&+#rch-a2"
-    id = ""
+    id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -254,7 +254,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -278,7 +278,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -304,7 +304,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "vimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -334,7 +334,7 @@
     modus = "VII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -358,7 +358,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -384,7 +384,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
