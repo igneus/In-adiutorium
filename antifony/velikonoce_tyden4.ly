@@ -5,9 +5,11 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 a g f d d \barMin
+    d( f) f g f d d \barMaior
+    c c c( d) d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci
@@ -16,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "a" 
     psalmus = "Žalm 122"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -123,7 +125,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    e4 d e e e g a a g( a) a \barMaior
+    a a a g( e) e e f e d e \barMaior
+    f g f( e) e \barFinalis
   }
   \addlyrics {
     Do -- ko -- na -- lá jsou tvá dí -- la, Bo -- že,
@@ -132,8 +136,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "IV"
+    differentia = "E" 
     psalmus = "Žalm 150"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -143,9 +147,13 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    % !!! WIP
+    g4 g g g g( a) a \barMin 
+    b a g a a( b a4.) a \barMaior
+    b4 d c( b a) a \barMin
+    g a b a g g \barMaior
   }
   \addlyrics {
     U -- si -- luj -- te o to, 
@@ -156,7 +164,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
+    modus = "XXX"
     differentia = "" 
     psalmus = "Žalm 110"
     id = ""
