@@ -149,11 +149,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    % !!! WIP
-    g4 g g g g( a) a \barMin 
+    a g f g g( a) a \barMin 
     b a g a a( b a4.) a \barMaior
     b4 d c( b a) a \barMin
     g a b a g g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to, 
@@ -164,18 +164,22 @@
   }
   \header {
     quid = "1. ant."
-    modus = "XXX"
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G*" 
     psalmus = "Žalm 110"
+    fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
+    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a b d d d( b d a) a \barMin
+    g a a( b) a g( a) a( g) g \barMaior
+    a b( a) g g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý zá -- ří
@@ -184,8 +188,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "a" 
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -195,7 +199,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d c c( d) d \barMaior
+    d( f) d d f e g a( bes a) \barMin
+    a a a a( c) a g g( a) a \barMaior
+    a( g e) f( e) d d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -206,8 +213,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}
