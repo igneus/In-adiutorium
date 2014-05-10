@@ -220,3 +220,151 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí}}
+
+% v breviáři je tu nepatrně odlišný text:
+% Já jsem pastýř dobrý;
+% já pasu své ovce a dávám za ně svůj život. Aleluja.
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    d( e) c d( c) a4. a \barMin
+    a4 g( a) a c b g g( a) a \barMaior
+    g a b a \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř,
+    pa -- su své ov -- ce,
+    a dá -- vám za ně svůj ži -- vot.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d" 
+    psalmus = ""
+    fial = "mezidobi_nejsvsrdce.ly#1ne-a3?+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+% text v breviáři:
+% Mám i jiné ovce, které nejsou z tohoto ovčince.
+% Také ty musím přivést
+% a uposlechnou mého hlasu
+% a bude jedno stádce a jeden pastýř. Aleluja.
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g c b c( a) a \barMin
+    a a g( e) e f e f d e e \barMax
+    f g a a a g( a) a \barMaior
+    a( b) c b( a) a b( a) g a( e) e \barMaior
+    e d e f f g d d \barMin e f f( e) e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mám ta -- ké ji -- né ov -- ce,_*
+    kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
+    Ta -- ké ty mu -- sím při -- vést;
+    u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a" 
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( f) d e e \barMaior
+    g a a \barMin
+    a g a( b) g e e \barMin
+    e d f g a( g f) g( f) e \barMaior
+    d e f( g) e \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř ov -- cí;
+    při -- šel jsem,
+    a -- by mě -- ly ži -- vot
+    a mě -- ly ho v_hoj -- nos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E" 
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g( a) f g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+    a4 g f g( a) a( g) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř
+    dá -- vá za ov -- ce svůj ži -- vot.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    fial = "commune/commune_pastyr.ly#1ne-a3"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Sobota}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin f g a a b a g g \barMaior
+    
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    fial = "commune/commune_pastyr.ly#mc-a2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
