@@ -215,6 +215,9 @@
   \include "antifony/velikonoce_tyden4.ly"
   \pageBreak
   
+  \include "antifony/velikonoce_tyden5.ly"
+  \pageBreak
+  
   %{
   \markup\nadpisDen{4.-6. neděle velikonoční}
   
