@@ -23,7 +23,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -45,7 +45,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -69,7 +69,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Flp 2"
-    id = ""
+    id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -101,7 +101,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 145-I"
-    id = ""
+    id = "ne-mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -123,7 +123,7 @@
     modus = "V"
     differentia = "a" 
     psalmus = "Žalm 145-II"
-    id = ""
+    id = "ne-mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -147,7 +147,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 145-III"
-    id = ""
+    id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -171,7 +171,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = "Žalm 93"
-    id = ""
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -197,7 +197,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -219,7 +219,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 148"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -243,7 +243,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -265,7 +265,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 111"
-    id = ""
+    id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -289,7 +289,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Zj 19"
-    id = ""
+    id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -320,7 +320,7 @@
     differentia = "d"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne18b-1ne-mag?+aleluja"
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -346,7 +346,7 @@
     differentia = "E" 
     psalmus = ""
     fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -377,6 +377,7 @@
     differentia = "a" 
     psalmus = ""
     fial = "commune/zazemrele.ly#ne-amag?+aleluja"
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -404,7 +405,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -435,7 +436,7 @@
     differentia = "c" 
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-2ne-mag?+aleluja"
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -462,7 +463,7 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?cast&+aleluja"
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -485,7 +486,7 @@
     differentia = "D" 
     psalmus = ""
     fial = "commune/zazemrele.ly#ne-amag-velik"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -517,7 +518,7 @@
     differentia = "a3" 
     psalmus = ""
     fial = "sanktoral/0629petraapavla.ly#rch-aben"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
