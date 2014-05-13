@@ -7,7 +7,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d( a' bes a) a a a( c) a a bes a g( a) g \barMaior
+    f e f( g) f e d d \barMaior
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Mé dla -- ně se zve -- da -- jí k_to -- bě, Bo -- že,
@@ -16,8 +18,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 141"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -106,7 +108,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 g g f( e) d \barMaior
+    d c d e d e f( d) d \barMin
+    f d f f( g) g g d \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Klaň -- me se Pá -- nu:
@@ -116,8 +121,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -149,9 +154,11 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 g( c d) c g \barMin
+    f g a a b c a a g g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Pán vstal z_mrt -- vých
@@ -160,8 +167,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "c" 
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
