@@ -223,3 +223,141 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    a a b c c b b c( a) g g \barMaior
+    a a a f e f g g a a \barMin
+    a a( c) b a g g \barMaior 
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat 
+    a dám se mu po -- znat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g f( e) d \barMaior
+    g a g g g a g f g f( e) d \barMaior
+    g g g g( c) c a c( b a) a \barMaior
+    a a a f e d 
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Zů -- sta -- ne -- te -li ve mně
+    a zů -- sta -- nou -li ve vás mo -- je slo -- va,
+    mů -- že -- te pro -- sit, oč chce -- te,
+    a do -- sta -- ne -- te to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    fial = "sanktoral/0503filipjakub.ly#ne-amag"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 f g g( f g) g \barMin
+    g a bes bes c bes a g g( a) a \barMaior
+    a a a a g f g( a g) f e f d( c) c \barMin d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    To jsem k_vám mlu -- vil,_*
+    a -- by mo -- je ra -- dost by -- la ve vás
+    a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleB.ly#viben"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d4.( f4 g) a g a a \barMaior
+    a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barMaior
+    
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    fial = "commune/commune_apostol.ly#rch-a1"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d f g( a) a a( g) a c( bes) a g g( a) \barMaior
+    a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barMaior
+    d e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
+    kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D" 
+    psalmus = ""
+    fial = "commune/commune_apostol.ly#rch-a2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
