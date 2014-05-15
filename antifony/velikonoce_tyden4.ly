@@ -21,7 +21,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +43,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 130"
-    id = ""
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +65,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Flp 2"
-    id = ""
+    id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -95,7 +95,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 118"
-    id = ""
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -117,7 +117,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Dan 3-II"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -139,7 +139,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Žalm 150"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -169,7 +169,7 @@
     psalmus = "Žalm 110"
     fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
     fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
-    id = ""
+    id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -191,7 +191,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 112"
-    id = ""
+    id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -216,7 +216,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Zj 19"
-    id = ""
+    id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -247,7 +247,7 @@
     differentia = "d" 
     psalmus = ""
     fial = "mezidobi_nejsvsrdce.ly#1ne-a3?+aleluja"
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -281,7 +281,7 @@
     differentia = "a" 
     psalmus = ""
     fial = "antifony/velikonoce_nedeleB.ly#ivmag2"
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -310,7 +310,7 @@
     differentia = "E" 
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -337,7 +337,7 @@
     differentia = "G" 
     psalmus = ""
     fial = "commune/commune_pastyr.ly#1ne-a3"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -364,7 +364,7 @@
     differentia = "G" 
     psalmus = ""
     fial = "commune/commune_pastyr.ly#mc-a2"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
