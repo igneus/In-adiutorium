@@ -52,9 +52,9 @@
   \relative c'' {
     \choralniRezim
     a( g) f g f( d) d \barMax
-    g f g( a) g f g( a) a \barMaior
-    a a( g f) e c( d) d \barMax
-    d e c( d) d \barFinalis
+    d d f g a g g \barMaior
+    g f( g f) e c( d) d \barMax
+    c d d( e) d \barFinalis
   }
   \addlyrics {
     Všech -- no je na -- še,_*
@@ -68,7 +68,6 @@
     differentia = "a" 
     psalmus = "Žalm 8"
     id = "rch-a3"
-    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
