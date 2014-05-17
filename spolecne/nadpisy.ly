@@ -35,22 +35,53 @@
    "Sestavi header:title pro oficium svatku"
    (interpret-markup layout props
      (markup #:titleSOddilem "společné texty" titul)))
-                            
-% sestavi titulek z ruznych semanticky vyznamnych polozek z header
-sestavTitulek = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
-}
 
-sestavTitulekBezZalmu = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia }
-}
+% procedure for \on-the-fly to only render markup argument
+% in a development build (i.e. build with the point-and-click feature);
+#(define (development-build layout props arg)
+  (if (ly:get-option 'point-and-click)
+      (interpret-markup layout props arg)
+      empty-stencil))
 
-sestavTitulekResp = \markup {
-\concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus }
+% common parts of piece titles
+quidEtTonus = \markup\concat{
+  \fromproperty #'header:quid 
+  " - " 
+  \fromproperty #'header:modus 
+  "." 
+  \fromproperty #'header:differentia
 }
-
-% u antifon, ktere se meni s rocnim cyklem, se proste prida do piece
-% za \sestavTitulek
+placet = \markup{
+  \on-the-fly \development-build
+    \with-color #blue \fromproperty #'header:placet
+}
+% this one is used directly in the particular score's header field,
+% not in the following shared 'commands'
 rocniCyklus = \markup {
   \concat { " - rok " \bold{\fromproperty #'header:annus }}
+}
+                            
+% piece title for antiphons
+sestavTitulek = \markup\concat{
+  \quidEtTonus
+  " (" 
+  \fromproperty #'header:psalmus 
+  ") "
+  \placet
+}
+
+% piece title for antiphons not connected with a psalm
+% (antiphons for Gospel canticles; 'absolute antiphons')
+sestavTitulekBezZalmu = \markup\concat{
+  \quidEtTonus " " \placet
+}
+
+% piece titles for chants without a differentia - most usually
+% responsories
+sestavTitulekResp = \markup\concat {
+  \fromproperty #'header:quid 
+  " - " 
+  \fromproperty #'header:modus 
+  " "
+  \placet
 }
