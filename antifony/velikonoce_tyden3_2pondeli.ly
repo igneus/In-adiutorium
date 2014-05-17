@@ -106,7 +106,7 @@
     e4( d) c d e g g \barMin
     g a b a( g) g \barMaior
     a b g g \barFinalis
-  }-
+  }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
     a my jsme vol -- ní.
