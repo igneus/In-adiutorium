@@ -358,6 +358,6 @@
     psalmus = ""
     fial = "commune/commune_apostol.ly#rch-a2"
     id = ""
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
