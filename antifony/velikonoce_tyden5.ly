@@ -111,7 +111,7 @@
     d4 g g f( e) d \barMaior
     d c d e d e f( d) d \barMin
     f d f f( g) g g d \barMaior
-    f g g g \barFinalis
+    c d d d \barFinalis
   }
   \addlyrics {
     Klaň -- me se Pá -- nu:
