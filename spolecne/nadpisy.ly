@@ -51,7 +51,9 @@ quidEtTonus = \markup\concat{
   "." 
   \fromproperty #'header:differentia
 }
-placet = \markup{
+placet = \markup\large{
+  \hspace #3
+  \override #'(font-name . "Dynalight") % handwritten font
   \on-the-fly \development-build
     \with-color #blue \fromproperty #'header:placet
 }
