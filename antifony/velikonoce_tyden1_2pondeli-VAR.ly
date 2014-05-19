@@ -147,7 +147,7 @@
     a a g( a) g \barFinalis
   }
   \addlyrics {
-    Pán bu -- de kra -- lo -- vat na -- vě -- ky.
+    Pán bu -- de kra -- lo -- vat_* na -- vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
@@ -306,7 +306,7 @@
     f g a( g) g \barFinalis
   }
   \addlyrics {
-    Buď -- te do -- bré mys -- li,
+    Buď -- te do -- bré mys -- li,_*
     já jsem pře -- mo -- hl svět.
     A -- le -- lu -- ja.
   }
