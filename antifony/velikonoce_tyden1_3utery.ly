@@ -105,9 +105,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a f g a a b( a) \barMaior
-    g a g f e( f e4.) e \barMaior
-    f4 d e e \barFinalis
+    c4 a a c b c a g( a g) \barMin
+    g f( a) c b g g \barMaior
+    f f f( g) g \barFinalis
   }
   \addlyrics {
     Při -- jal jsi svr -- cho -- va -- nou moc
@@ -116,11 +116,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g" 
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 21"
     id = "ne-a2"
-    placet = "upravil bych ujal ses"
     piece = \markup {\sestavTitulek}
   }
 }
