@@ -2,6 +2,8 @@
 
 \markup {\nadpisDen {3. neděle velikonoční}}
 
+\label #'velikonoceNedeleIII
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
