@@ -31,7 +31,7 @@
   \relative c'' {
     \choralniRezim
     c4( a g) a( g) g \barMin g( f) g a( c) b c( d) d \barMaior
-    d d d( e c) a g( a) a( g) g \barMaior
+    d e c a g( a) a( g) g \barMaior
     c a g( a) g \barFinalis
   }
   \addlyrics {
@@ -52,8 +52,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a \barMin a( g) f g f( d) d \barMaior
-    f a g f g( a) g( f) f \barMaior
+    f4 g g( a) a \barMin a( g) f g g( f) f \barMaior
+    g g g g g( a g) g( f) f \barMaior
     d f g( f) f \barFinalis
   }
   \addlyrics {
@@ -67,7 +67,6 @@
     differentia = "F" 
     psalmus = "Žalm 47"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
