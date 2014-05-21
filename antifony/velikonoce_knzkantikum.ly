@@ -26,7 +26,7 @@ velikTIpondeliNespAntIII = \score {
     differentia = "D" 
     psalmus = "Ef 1"
     id = ""
-    fons = "5. ne postní, 2. nešp, ad Magnificat"
+    fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,6 +74,7 @@ velikTIstredaNespAntIII = \score {
     psalmus = "Kol 1"
     id = ""
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
+    fial = "mezidobi_trojice.ly#rch-a3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -232,8 +233,7 @@ velikTIIpatekNespAntIII = \score {
     differentia = "G" 
     psalmus = "Zj 15"
     id = ""
-    fons = "úlomek převzat z: žaltář, so 1.t., r.ch., 2. ant."
-    placet = "r"
+    placet = "r - mel. akcent na pomocném slovesu"
     piece = \markup {\sestavTitulek}
   }
 }

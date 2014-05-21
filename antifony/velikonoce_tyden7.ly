@@ -2,6 +2,12 @@
 
 \markup {\nadpisDen {7. neděle velikonoční}}
 
+\markup\justify\italic{
+  Pro všechny hodinky kromě modlitby se čtením se berou antifony 
+  ze 3. neděle velikonoční,
+  str. \concat{ \page-ref #'velikonoceNedeleIII "0" "?" . }
+}
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {

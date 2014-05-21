@@ -113,38 +113,48 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f f \barMin
+    f g d e( d c) \barMin
+    d( e f g) f d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe,
-    kdo vi -- děl mne, vi -- děl Ot -- ce.
+    kdo vi -- děl mne, 
+    vi -- děl Ot -- ce.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Žalm 116-II"
     id = "ne-a1"
+    fial = "sanktoral/0503filipjakub.ly#rch-a2?cast"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g f( a) g( f) f( g) \barMaior
+    a( c) b a g f f( a) a g g \barMax
+    c c c c c( d c a) a \barMin
+    c b a g( a) g f 
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kdy -- bys -- te zna -- li mne,
     zna -- li bys -- te i mé -- ho Ot -- ce.
-    Ny -- ní už ho zná -- te a vi -- dě -- li jste ho.
+    Ny -- ní už ho zná -- te 
+    a vi -- dě -- li jste ho.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G" 
     psalmus = "Žalm 126"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

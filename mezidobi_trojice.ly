@@ -29,7 +29,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +51,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -71,7 +71,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Ef 1"
-    id = ""
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +104,7 @@
   \header {
     quid = "resp."
     modus = "I"
-    id = ""
+    id = "1ne-resp"
     placet = "R"
     piece = \markup {\sestavTitulekResp}
   }
@@ -131,7 +131,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     placet = "~ je to fakt II? Závěr zní trochu cize."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -156,7 +156,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "invit"
     placet = "jde, ale nic moc"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -183,7 +183,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Žalm 8"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -205,7 +205,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 33-I"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -227,7 +227,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 33-II"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -252,7 +252,7 @@
     modus = "VIII"
     differentia = "G*" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -279,7 +279,7 @@
     modus = "III"
     differentia = "a" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -301,7 +301,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -333,7 +333,7 @@
   \header {
     quid = "resp."
     modus = "IV alt."
-    id = ""
+    id = "rch-resp"
     placet = "~"
     piece = \markup {\sestavTitulekResp}
   }
@@ -358,7 +358,7 @@
     modus = "IV"
     differentia = "g" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     placet = "trochu divné je -stvořil-"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -388,7 +388,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     placet = "začátek je takový dryjáčnický"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -411,7 +411,7 @@
     modus = "IV alt"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     placet = "r - zakončení na aktuální finále zní nepřesvědčivě; není třeba VII?"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -438,7 +438,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "nona"
     placet = "R - tahle je jakoby spíš I než VIII"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -465,7 +465,7 @@
     modus = "I"
     differentia = "a" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -487,12 +487,10 @@
     modus = "II"
     differentia = "D" 
     psalmus = "Žalm 114"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
-
-% !!! V modu VII jeste kantikum ze Zj 19 nemam!
 
 \score {
   \relative c'' {
@@ -513,7 +511,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Zj 19"
-    id = ""
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -549,7 +547,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

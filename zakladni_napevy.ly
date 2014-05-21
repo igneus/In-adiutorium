@@ -1,4 +1,4 @@
-\version "2.15.40"
+\version "2.19.4"
 
 \include "spolecne.ly"
 
@@ -325,9 +325,9 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c 
-      c4 c c c c c c c c c c-| a \parenthesize a \barMax
+      c4 c c c c c c c c c c-! a \parenthesize a \barMax
       \neviditelna c 
-      c4 c c c c c c c c-| a \parenthesize a \barFinalis
+      c4 c c c c c c c c-! a \parenthesize a \barFinalis
     }
     \addlyrics {
       \Verse Na -- kloň mé srd -- ce, Bo -- že, k_svým \markup\underline{při} -- ká -- \markup\underline{zá} -- ním, \skip 1
@@ -388,8 +388,8 @@
       \choralniRezim
       \neviditelna c
       \stemUp % kvuli poloze akcentovych znacek
-      c4 c c c c c c c-| a \barMin 
-      c c b a c-| c \barMin
+      c4 c c c c c c c-! a \barMin 
+      c c b a c-! c \barMin
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
@@ -667,7 +667,7 @@
       
       % * Poslední část (prosby) se může vynechat.
       
-      \markup{\bold{\with-color #red "*"} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
+      \markup{\bold{¶} Za} -- chraň, Pa -- ne, svůj lid a žeh -- nej své -- mu dě -- dic -- tví, 
       veď ho a stá -- le po -- zve -- dej.
       Kaž -- dý den tě bu -- de -- me ve -- le -- bit a chvá -- lit tvé jmé -- no po všech -- ny vě -- ky.
       Po -- má -- hej nám i dnes, ať se ne -- do -- sta -- ne -- me do pod -- ru -- čí hří -- chu.
@@ -686,7 +686,7 @@
     }
   }
   
-  \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
+  \markup{\bold{¶} \italic{Poslední část se může vynechat.}}
 }
 
 \bookpart {

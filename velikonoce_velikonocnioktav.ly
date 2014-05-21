@@ -1071,7 +1071,7 @@
     }
   }
   
-  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+  \markup {\nadpisHodinka {"ranní chvály"}}
   
   \score {
     \relative c' {

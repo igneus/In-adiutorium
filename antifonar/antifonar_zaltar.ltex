@@ -19,6 +19,9 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 
+\usepackage{multind} % indexy
+\makeindex{zalmy}
+
 \usepackage[T1]{fontenc}
 % font Palatino:
 % \usepackage[sc]{mathpazo}
@@ -72,7 +75,7 @@
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
 
   \rubr{Pokud se následující žalm zpíval jako invitatorium,
-  nahradí se zde žalmem 95, str.~\pageref{zalm95}.}
+  nahradí se zde žalmem 95, str.~\pageref{z95}.}
 }
 
 \newcommand{\rubrikaZalmyvMezidobi}{
@@ -96,21 +99,27 @@ V~době adventní, vánoční, postní a velikonoční:
 \newcommand{\poznamkaPod}[1]{
   \hfill {\footnotesize \noindent \textit{#1}}}
 
-% create label if it hasn't been defined yet
-% - there should be a label at *first* occurrence of each psalm/canticle
-\makeatletter
-\newrobustcmd{\labelifundefined}[1]{%
-  \@ifundefined{r@#1}{\label{#1}}{}
-}
-\makeatother
-
 \newcommand{\zalm}[1]{
-  \labelifundefined{z#1}
   \input{generovane/zaltar/zalm#1.tex}}
 
 \newcommand{\kantikum}[1]{
-  \labelifundefined{kant#1}
   \input{generovane/zaltar/kantikum_#1.tex}}
+
+% multind vnucuje natvrdo vlastni format nadpisu rejstriku,
+% coz nechceme. Predefinovat \printindex
+% zdroj: http://tex.stackexchange.com/a/79473/13146
+\makeatletter
+\def\printindex#1#2{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
+  \columnseprule \z@ \columnsep 35pt
+  \csname phantomsection\endcsname
+  \nadpisTyden{#2}{#2} % vlastni nadpis
+  \markright{\uppercase{#2}}
+  \begin{multicols}{2}
+  \@input{#1.ind}%
+  \end{multicols}%
+}
+\makeatother
+
 
 % no section numbers
 \renewcommand{\thesubsection}{\textsc{\roman{subsection}.}}
@@ -118,6 +127,15 @@ V~době adventní, vánoční, postní a velikonoční:
 
 % v obsahu jen sekce a subsekce
 \setcounter{tocdepth}{2}
+
+% Nastaveni sazby do sloupcu:
+\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
+\setlength{\columnsep}{20pt} % prostor mezi sloupci
+
+% s pomoci baliku titlesec
+% - format nadpisu uzivanych generatorem indexu svatku
+\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
+\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
 
 
 \begin{document}
@@ -188,7 +206,7 @@ beze změny přijaté od starozákonního Božího lidu staví do světla evange
 Při slavení liturgie hodin se takto až na několik výjimek uzavírá
 každý žalm a kantikum či jeho oddíl.
 Protože se doxologie opakuje za každým žalmem, v~plném znění ji otiskujeme
-pouze u~kantika Magnificat na str.~\pageref{kantmagnificat} a dále uvádíme
+pouze u~kantika Magnificat na str.~\pageref{kmagnificat} a dále uvádíme
 vždy již jen zkratku \uv{Sláva Otci.}
 
 Při modlitbě uprostřed dne v~liturgických obdobích, kdy se její žalmy zpívají 
@@ -226,15 +244,6 @@ nadané vlastními žalmy a kantiky tyto texty uvádí spolu s~odkazy na stránk
 kde je možné je nalézt.
 
 \cleardoublepage
-
-% Nastaveni sazby do sloupcu:
-\setlength{\columnseprule}{1pt} % cara oddelujici sloupce
-\setlength{\columnsep}{20pt} % prostor mezi sloupci
-
-% s pomoci baliku titlesec zmenit format nadpisu uzivanych generatorem
-% indexu svatku
-\titleformat{\subsection}[hang]{\large\bfseries}{}{0pt}{\thetitle\quad}
-\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{\thetitle\quad}
 
 % Zakazat zlomeni stranky uprostred slova (to je totiz pro zpev pekelne)
 % \brokenpenalty5000\relax
@@ -355,7 +364,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
-\label{kantzj19}
+\label{kzj19}\label{kzj19:1}
 \input{kantikum_zj19.tex} % negeneruje se, je nasazene "natvrdo"
 
 \vspace{3mm}
@@ -625,6 +634,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:2}
 \input{kantikum_zj19.tex}
 
 \vspace{3mm}
@@ -881,6 +891,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:3}
 \input{kantikum_zj19.tex}
 
 \vspace{3mm}
@@ -1131,6 +1142,7 @@ dá použít vždy.}
 
 \vspace{10mm}
 \noindent\rubrikaPred{Mimo dobu postní:}
+\label{kzj19:4}
 \input{kantikum_zj19}
 
 \vspace{3mm}
@@ -1470,8 +1482,8 @@ podle pokynů v~indexu svátků.}
 \zalm{96ii}
 \zalm{103ci}
 \zalm{103cii}
-\label{kant1tim3} % vysazene "natvrdo"
-\input{kantikum_1tim3}
+\label{k1tim3}\label{k1tim3:1}
+\input{kantikum_1tim3} % kantikum vysazene "natvrdo" kvuli nezalmove strukture
 
 \end{hora}
 
@@ -1531,6 +1543,10 @@ podle pokynů v~indexu svátků.}
 
 % generovany soubor
 \input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
+
+\clearpage
+\fancyhead[CE,CO]{Rejstřík žalmů a kantik}
+\printindex{zalmy}{Rejstřík žalmů a kantik}
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky

@@ -1,29 +1,49 @@
-# single argument: FIAL of the score to be printed
+# finds and prints score(s) identified by FIAL(s)
+# arguments: FIAL(s)
 #
-# finds and prints the score
+# e.g.: 
+# $ getfial.rb antifony/tyden1_2pondeli.ly#ne-ant2
 
-# expects to be invoked in the project's root directory
-$: << "."
-require 'nastroje/fial.rb'
-require 'nastroje/musicreader.rb'
+require_relative 'fial.rb'
+require_relative 'musicreader.rb'
 
-s = ARGV[0]
+errors = 0
 
-fial = FIAL.parse s
+ARGV.each_with_index do |s,i|
+  puts if i > 0
+  if ARGV.size > 1 then
+    puts '%% ' + s
+    puts
+  end
 
-unless File.exist?(fial.path)
-  STDERR.puts "File '#{fial.path}' doesn't exist."
-  exit 1
+  begin
+    fial = FIAL.parse s
+  rescue
+    STDERR.puts "'#{s}' is not a valid FIAL."
+    errors += 1
+    next
+  end
+
+  unless File.exist?(fial.path)
+    STDERR.puts "File '#{fial.path}' doesn't exist."
+    errors += 1
+    next
+  end
+
+  m = LilyPondMusic.new fial.path
+  score = m.scores.find {|x| x.header['id'] == fial.id}
+
+  if score == nil then
+    STDERR.puts "Unable to find score id '#{fial.id}' in file '#{fial.path}'."
+    errors += 1
+    next
+  end
+
+  puts score.text
 end
 
-m = LilyPondMusic.new fial.path
-score = m.scores.find {|x| x.header['id'] == fial.id}
-
-if score == nil then
-  STDERR.puts "Unable to find score id '#{fial.id}' in file '#{fial.path}'."
+if errors > 0 then
   exit 1
 end
-
-puts score.text
 
 exit 0
