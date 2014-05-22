@@ -284,6 +284,7 @@
     differentia = "D" 
     psalmus = ""
     id = "viben"
+    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
