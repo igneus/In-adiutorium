@@ -225,3 +225,78 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c c d c c( d c) \barMaior
+    a b c c( d) c a a \barMin
+    c b a g g g( a g) \barMaior
+    f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f d( e d) d \barMin
+    d( a') a( g) a c( b) a a \barMaior
+    g f g a( f e) e \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Váš ne -- bes -- ký O -- tec
+    dá Du -- cha sva -- té -- ho
+    těm, kdo ho pro -- sí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
