@@ -229,9 +229,12 @@
 \markup {\nadpisDen {Pondělí}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    c4 c( d) d \barMin d d e c c d( c) a a \barMaior
+    c d c b g a g g \barMaior
+    f a( c) c \barMin d( e d) c( b) a a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
@@ -241,10 +244,42 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d d \barMaior
+    f f e d f f \barMin
+    f f f( e) d d d \barMaior
+    a' a a a g bes a g f \barMin
+    f f f e( c) d e f \barMaior
+    g a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Já vám ří -- kám prav -- du:
+    Je to pro vás dob -- ré,
+    a -- bych já o -- de -- šel.
+    Jest -- li -- že to -- tiž ne -- o -- de -- jdu,
+    Pří -- mluv -- ce k_vám ne -- při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fons = "nápěv řečí Páně z pašijí; urputně se mi vnucoval, takže jsem nemohl přijít na jiný"
+    id = "ut-amag"
+    placet = "zkusit jiný"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
