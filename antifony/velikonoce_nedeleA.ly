@@ -279,6 +279,7 @@
     differentia = "c" 
     psalmus = ""
     id = "viben"
+    placet = "_bude_: není vhodné takto akcentovat pomocné sloveso"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
