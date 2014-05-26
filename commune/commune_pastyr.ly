@@ -757,6 +757,7 @@
     differentia = "G" 
     psalmus = ""
     id = "2ne-amag1"
+    placet = "aleluja je divné a špatně se mi zpívá"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

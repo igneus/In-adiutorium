@@ -122,6 +122,7 @@
     differentia = "f" 
     psalmus = "Žalm 45-II"
     id = "ne-a2"
+    placet = "mdlá"
     piece = \markup {\sestavTitulek}
   }
 }
