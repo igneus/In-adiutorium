@@ -70,6 +70,7 @@
     differentia = "D" 
     psalmus = "Žalm 19-A"
     id = "rch-a3"
+    placet = "'odsazení' _je_ o sekundu je nevhodné; navíc někde mám pěkný úryvek _a jeho světlem je Beránek_, mohlo by tedy být dobré postavit novou melodii kolem něj"
     piece = \markup {\sestavTitulek}
   }
 }
