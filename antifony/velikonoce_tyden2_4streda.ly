@@ -65,6 +65,7 @@
     differentia = "a" 
     psalmus = "Žalm 97"
     id = "rch-a3"
+    placet = "možná spíš III.g, ne?"
     piece = \markup {\sestavTitulek}
   }
 }
