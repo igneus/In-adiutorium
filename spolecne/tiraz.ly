@@ -4,6 +4,8 @@
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
 rok = #(strftime "%Y" (localtime (current-time)))
 
+projectUrl = #"http://www.inadiutorium.cz"
+
 sazeciProgram = \markup {        
   \with-url #"http://lilypond.org" {
     LilyPond \simple #(lilypond-version) (http://lilypond.org)
@@ -15,8 +17,9 @@ licenceCcAsU = \markup {
   }
 }
 inAdiutorium = \markup {
-  \with-url #"http://www.inadiutorium.cz" {
-    In adiutorium - noty k liturgii hodin (http://www.inadiutorium.cz)
+  \with-url \projectUrl {
+    In adiutorium - noty k liturgii hodin 
+    \concat{ ( \projectUrl ) }
   }
 }
 
@@ -30,7 +33,7 @@ tirazVelka = \markup {
 }
 
 tirazMala = \markup { 
-  \with-url #"http://www.inadiutorium.cz" {
+  \with-url \projectUrl {
     In adiutorium
   }
   - 
