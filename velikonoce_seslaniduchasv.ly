@@ -27,7 +27,7 @@
     modus = "I"
     differentia = "D" 
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -55,7 +55,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = "Žalm 147-I (1-11)"
-    id = ""
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +81,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Zj 15"
-    id = ""
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -119,7 +119,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -146,8 +146,73 @@
     modus = "I"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ví -- tr va -- ne, kam chce,
+    je -- ho zvuk sly -- šíš,
+    a -- le ne -- víš,
+    od -- kud při -- chá -- zí a kam jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 104-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Na -- jed -- nou se o -- zval z_ne -- be hu -- kot,
+    ja -- ko když se při -- že -- ne sil -- ný ví -- tr.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 104-II"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Se -- šli své -- ho Du -- cha,
+    a bu -- dou stvo -- ře -- ni,
+    a ob -- no -- víš tvář ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 104-III"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -172,7 +237,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -196,7 +261,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -220,7 +285,7 @@
     modus = "IV"
     differentia = "E" 
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -254,7 +319,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -276,7 +341,7 @@
     modus = "II"
     differentia = "D" 
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -304,7 +369,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -328,7 +393,7 @@
     modus = "VII"
     differentia = "a" 
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -350,7 +415,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -373,7 +438,7 @@
     modus = "VII"
     differentia = "d" 
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -395,7 +460,7 @@
     modus = "VIII"
     differentia = "c" 
     psalmus = "Žalm 114"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -418,7 +483,7 @@
     modus = "VI"
     differentia = "F" 
     psalmus = "Zj 19"
-    id = ""
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -454,7 +519,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -500,7 +565,7 @@
     modus = "I"
     differentia = "f" 
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
