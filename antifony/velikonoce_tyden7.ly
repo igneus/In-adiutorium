@@ -93,7 +93,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 d d f g( d) d \barMin
+    f e d c c \barMaior
+    d d e f( d) d 
+    g f d d \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,
@@ -103,8 +106,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -114,9 +117,12 @@
 \markup {\nadpisDen {Úterý}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g g a( g) f a a g( a) g g \barMaior
+    a a c c c( d) c a a \barMin
+    a c b a g( a) g \barMaior
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
@@ -126,8 +132,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -137,9 +143,11 @@
 \markup {\nadpisDen {Středa}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    a4 f f g f d( e d) \barMin
+    c d f g f d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus vás bu -- de křtít
@@ -148,8 +156,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -161,7 +169,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    f4 f f e e( g) f \barMin
+    g( a g) f( g) f d \barMin f e d c c \barMaior
+    c d( f) e( f) d d 
+    f g g( f) f \barMaior
+    g a( g) f f \barFinalis
   }
   \addlyrics {
     Až při -- jde Duch prav -- dy,
@@ -172,8 +184,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
