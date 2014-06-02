@@ -471,6 +471,7 @@
     quid = "resp."
     modus = "VI"
     id = "rch-resp-velik"
+    placet = "repetenda musí být nutně více členěna"
     piece = \markup {\sestavTitulekResp}
   }
 } 
@@ -756,6 +757,7 @@
     differentia = "G" 
     psalmus = ""
     id = "2ne-amag1"
+    placet = "aleluja je divné a špatně se mi zpívá"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -1,12 +1,15 @@
 \version "2.15.37"
 
-\header {
-  title = "Navštívení Panny Marie (svátek, 31.5.)"
-  composer = "Jakub Pavlík"
-}
-
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
+
+\header {
+  title = \markup\titleSvatek
+            "Navštívení Panny Marie"
+            svátek
+            31.5.
+  composer = "Jakub Pavlík"
+}
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -61,6 +64,7 @@
     modus = "VIII"
     differentia = "G" 
     psalmus = "Žalm 63"
+    placet = "R"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -112,79 +116,16 @@
     differentia = "G" 
     psalmus = "Žalm 149"
     fons = "společné texty o P.M., 2. nešp., k Magnificat"
+    fial = "commune/commune_maria.ly#2ne-amag"
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
-% obe responsoria jsou ze spol. textu o P.M.
-\markup\italic{Mimo dobu velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f4 f f e f f g f g( a) a( g) \barMax
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % V
-    \neviditelna a
-    a( bes) a a a g f g( a) g g \barMax
-    % R
-    \neviditelna a
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
-    od vě -- ků měl s_ní své plá -- ny.
-    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
-    \Response od vě -- ků měl s_ní své plá -- ny.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    piece = \markup {\sestavTitulekResp}
-  }
+\markup\justify\italic{
+  Responsorium \upright{Bůh si ji vyvolil od pradávna}
+  ze společných textů o Panně Marii.
 }
-
-\markup\italic{V době velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f4 f f f f f g f g g( f) \barMaior
-    f f f f f e g a \barMax
-    \respVIalelujaResponsum \barFinalis
-    % V
-    \neviditelna f
-    f4 f f f f( g) f g a a \barMax
-    % R
-    \neviditelna a
-    \respVIalelujaResponsum \barFinalis
-    % Slava
-    \respVIalelujaDoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;
-    od vě -- ků měl s_ní své plá -- ny._* \textRespAleluja
-    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
-    \Response \textRespAleluja
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    piece = \markup {\sestavTitulekResp}
-  }
-} 
 
 \score {
   \relative c' {
@@ -211,7 +152,7 @@
     differentia = "D" 
     psalmus = ""
     id = ""
-    fons = "srov. tady 3. ant."
+    fons = "srov. tady 2. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -264,6 +205,8 @@
       differentia = "D" 
       psalmus = "Žalm 127"
       fons = "advent, předvánoční týden, 22.12., k Benedictus; přidáno aleluja"
+      fial = "advent_antifony.ly#predvanocni-22-ben?+aleluja"
+      id = ""
       piece = \markup {\sestavTitulek}
     }
   }
@@ -287,83 +230,15 @@
     differentia = "D" 
     psalmus = "Ef 1"
     fons = "spol. texty o P.M., 2. nešp., 3. ant."
+    fial = "commune/commune_maria.ly#2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-% responsoria jsou ze spol. textu o P.M.
-\markup\italic{Mimo dobu velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
-    a4( g a) f( g f) f \barFinalis
-    % V
-    \neviditelna a
-    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
-    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
-    % R
-    \neviditelna a
-    a4( g a) f( g f) f \barFinalis
-    % Slava
-    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
-  }
-  \addlyrics {
-    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
-    Pán s_te -- bou!
-    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
-    \Response Pán s_te -- bou!
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    piece = \markup {\sestavTitulekResp}
-  }
+\markup\justify\italic{
+  Responsorium \upright{Buď zdráva, Maria}
+  ze společných textů o Panně Marii.
 }
-
-\markup\italic{V době velikonoční:}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f f f f( g) f f \barMin g f g f( d) d \barMaior
-    f4.( g4 a) g( a) a \barMax
-    \respVIalelujaResponsum \barFinalis
-    % V
-    \neviditelna f
-    f4 g( f) d( f) f f \barMin f e( f) d c c \barMaior 
-    d d f f f g( f) \barMin f f e g a \barMax
-    % R
-    \neviditelna a
-    \respVIalelujaResponsum \barFinalis
-    % Slava
-    \respVIalelujaDoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
-    Pán s_te -- bou!_* \textRespAleluja
-    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
-    \Response \textRespAleluja
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    piece = \markup {\sestavTitulekResp}
-  }
-} 
 
 \score {
   \relative c'' {
@@ -388,6 +263,7 @@
     psalmus = "Magnificat"
     id = ""
     fons = "spol. texty o P.M., r.ch., k Benedictus"
+    fial = "commune/commune_maria.ly#rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

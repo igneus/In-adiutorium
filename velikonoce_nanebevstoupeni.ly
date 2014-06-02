@@ -171,6 +171,71 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Vy -- stou -- pil do vý -- šin,
+    vy -- ve -- dl s_se -- bou za -- jat -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 68-II"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    
+  }
+  \addlyrics {
+    Ob -- je -- vu -- je se tvůj prů -- vod, Bo -- že,
+    prů -- vod mé -- ho Bo -- ha, mé -- ho krá -- le,
+    smě -- řu -- jí -- cí do sva -- ty -- ně.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 68-III"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -225,3 +225,113 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup {\nadpisDen {Pondělí}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d \barMin d d e c c d( c) a a \barMaior
+    c d c b g a g g \barMaior
+    f a( c) c \barMin d( e d) c( b) a a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d d \barMaior
+    f f e d f f \barMin
+    f f f( e) d d d \barMaior
+    a' a a a g bes a g f \barMin
+    f f f e( c) d e f \barMaior
+    g a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Já vám ří -- kám prav -- du:
+    Je to pro vás dob -- ré,
+    a -- bych já o -- de -- šel.
+    Jest -- li -- že to -- tiž ne -- o -- de -- jdu,
+    Pří -- mluv -- ce k_vám ne -- při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fons = "nápěv řečí Páně z pašijí; urputně se mi vnucoval, takže jsem nemohl přijít na jiný"
+    id = "ut-amag"
+    placet = "zkusit jiný"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c c d c c( d c) \barMaior
+    a b c c( d) c a a \barMin
+    c b a g g g( a g) \barMaior
+    f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f d( e d) d \barMin
+    d( a') a( g) a c( b) a a \barMaior
+    g f g a( f e) e \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Váš ne -- bes -- ký O -- tec
+    dá Du -- cha sva -- té -- ho
+    těm, kdo ho pro -- sí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

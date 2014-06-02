@@ -110,6 +110,7 @@
     psalmus = "Žalm 32"
     id = "ne-a2"
     fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
