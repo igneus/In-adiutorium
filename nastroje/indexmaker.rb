@@ -38,7 +38,7 @@ ARGV.each do |f|
       end
     end
   rescue => ex
-    STDERR.puts "indexmaker: Error when processing #{f}: #{ex.class}: #{ex.message}"
+    STDERR.puts "indexmaker: #{f}: #{ex.class}: #{ex.message}"
   end
 end
 
