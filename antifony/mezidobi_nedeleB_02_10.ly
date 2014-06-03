@@ -1,3 +1,5 @@
+\version "2.19.0"
+
 % -*- master: ../mezidobi_nedele.ly;
 
 
@@ -514,7 +516,7 @@ o slabiku později.}
   \relative c' {
     \choralniRezim
     d( c) d( f) f f g f e( d) d \barMaior
-    c a a( c) c d-| e d d \barFinalis
+    c a a( c) c d-! e d d \barFinalis
   }
   \addlyrics {
     So -- bo -- ta je pro člo -- vě -- ka,
@@ -533,7 +535,7 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f f f e( c) c c d-| e d d \barFinalis
+    d4 d f f f e( c) c c d-! e d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
