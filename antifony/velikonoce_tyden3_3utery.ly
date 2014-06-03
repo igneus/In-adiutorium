@@ -115,6 +115,7 @@
     differentia = "D" 
     psalmus = "Žalm 131"
     id = "ne-a2"
+    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }

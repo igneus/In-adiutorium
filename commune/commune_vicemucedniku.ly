@@ -822,6 +822,7 @@
     modus = "IV alt"
     differentia = "A" 
     psalmus = ""
+    placet = "r"
     id = "2ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
