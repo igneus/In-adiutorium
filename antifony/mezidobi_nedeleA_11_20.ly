@@ -7,7 +7,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f e d f f \barMin
+    g f g g( a) g g \barMaior
+    a a a a g a g f d \barMin
+    d( f) e f d d \barFinalis
   }
   \addlyrics {
     Co vám ří -- kám ve tmě, 
@@ -17,8 +20,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = ""
     id = ""
@@ -29,7 +32,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d f e d e( f) \barMin
+    f g f e d e( d) d \barMaior
+    a c d d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- boj -- te se těch,
@@ -38,8 +43,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
