@@ -68,7 +68,7 @@
   }
   \addlyrics {
     Ši -- mo -- ne, sy -- nu Ja -- nův, mi -- lu -- ješ mě?
-    Pa -- ne, ty víš všech -- no_-
+    Pa -- ne, ty víš všech -- no_–
     ty víš, že tě mi -- lu -- ji!
     A -- le -- lu -- ja.
   }

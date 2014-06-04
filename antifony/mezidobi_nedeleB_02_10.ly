@@ -178,7 +178,7 @@
     e g f e( f) e e \barFinalis
   }
   \addlyrics {
-    No -- vé u -- če -- ní_- 
+    No -- vé u -- če -- ní_–
     a s_ta -- ko -- vou mo -- cí!
     I ne -- čis -- tým du -- chům po -- rou -- čí
     a po -- slou -- cha -- jí ho!

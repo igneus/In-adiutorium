@@ -145,6 +145,35 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4( f) g a bes( a g) f f( d) d \barMax
+    d c( d) d( f) e f f( a bes) a a \barMaior
+    a a a g f d d \barMaior 
+    d( e f) e d c( d) d \barMax
+    c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    % Na tomto místě je v breviáři "Děkujme", ne "Vzdávejme díky",
+    % myslím ale, že to je nahodilá nekonsistence způsobená redakční nepozorností.
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na 
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g" 
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 f f g f d( e d) \barMin
     c d f g f d d \barMaior
     c d e( d) d \barFinalis

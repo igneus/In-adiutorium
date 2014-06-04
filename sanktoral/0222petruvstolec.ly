@@ -244,7 +244,7 @@
     d d e f f g f e f d( c) c( d) \barFinalis
   }
   \addlyrics {
-    Ty jsi Pe -- tr_- Ská -- la_-_*
+    Ty jsi Pe -- tr_– Ská -- la_–_*
     a na té ská -- le zbu -- du -- ji svou cír -- kev.
   }
   \header {

@@ -33,7 +33,7 @@
   }
   \addlyrics {
     Ne -- boj -- te se těch,
-    kdo za -- bí -- je -- jí tě -- lo_-
+    kdo za -- bí -- je -- jí tě -- lo_–
     du -- ši za -- bít ne -- mo -- hou.
   }
   \header {
