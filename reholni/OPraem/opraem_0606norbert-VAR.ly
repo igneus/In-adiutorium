@@ -413,6 +413,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a a g g a( d e d) d \barMaior
+    d a( b) a a b( a) g( a) a \barMaior
+    
+  }
+  \addlyrics {
+    Nor -- bert ja -- ko pla -- nou -- cí lam -- pa 
+    byl po -- sta -- ven na sví -- cen 
+    a sví -- til všem v_do -- mě.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = "Žalm 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -438,9 +462,14 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4( c d) c( b) a g g( a) \barMin
+    a b a b c b c d d \barMaior
+    d c d d d a( b) g \barMin
+    a g f a( g) \barFinalis
     
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Za já -- so -- tu všech 
@@ -452,8 +481,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VII"
+    differentia = "d" 
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
