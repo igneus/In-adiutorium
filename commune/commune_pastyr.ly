@@ -631,7 +631,6 @@
     differentia = "a" 
     psalmus = "Žalm 112"
     id = "2ne-a2"
-    placet = "aleluja divné"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -760,7 +759,6 @@
     differentia = "G" 
     psalmus = ""
     id = "2ne-amag1"
-    placet = "aleluja je divné a špatně se mi zpívá"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
