@@ -284,12 +284,11 @@
 \pageBreak % ZLOM
 
 \score {
-  \relative c'' {
-    \key f \major
+  \relative c' {
     \choralniRezim
-    g4 g f( g) g g bes a g a g f( g) g \barMax
-    g g g g bes( c) bes g4. g \barMaior
-    a4 g f( g) g \barFinalis
+    d4 d c( d) d f e d d e d c( d) d \barMax
+    d d d d f( g) f d4. d \barMaior
+    e4 d c( d) d \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
@@ -298,11 +297,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "II"
+    differentia = "D" 
     psalmus = "Zj 15"
     id = "2ne-a3"
-    placet = "to je přeci jasný modus II!"
     piece = \markup {\sestavTitulek}
   }
 }

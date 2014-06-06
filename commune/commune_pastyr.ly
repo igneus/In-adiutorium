@@ -614,7 +614,7 @@
     a4( g a) a \barMin a bes a g e( f) d d \barMaior
     g a bes c( a) \barMin a( bes a) g( f) e e \barMin d e( f) e d d \barFinalis
     
-    d^\markup\rubrVelikAleluja c d d \barFinalis
+    c^\markup\rubrVelikAleluja f( e) d d \barFinalis
   }
   \addlyrics {
     Věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
@@ -634,14 +634,13 @@
 }
 
 \score {
-  \relative c'' {
-    \key f \major
+  \relative c' {
     \choralniRezim
-    g4 g f( g) g g bes a g a g f( g) g \barMax
-    g g g g bes( c) bes g4. g \barMaior
-    a4 g f( g) g \barFinalis
+    d4 d c( d) d f e d d e d c( d) d \barMax
+    d d d d f( g) f d4. d \barMaior
+    e4 d c( d) d \barFinalis
     
-    f^\markup\rubrVelikAleluja g a g \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
@@ -652,10 +651,11 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 15"
     id = "2ne-a3"
+    fial = "sanktoral/0705cyrilametodej.ly#2ne-a3?+aleluja"
     fons = "Cyril a Metoděj, 2. nešp., 3. ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -739,7 +739,7 @@
     c c c c( d c) b( g a) a \barMin
     g( a) e f( g) a( g) g \barFinalis
     
-    b^\markup\rubrVelikAleluja c( b a) f( a) g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- tý \markup\with-color #red N _
