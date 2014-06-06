@@ -631,6 +631,7 @@
     differentia = "a" 
     psalmus = "Žalm 112"
     id = "2ne-a2"
+    placet = "aleluja divné"
     piece = \markup {\sestavTitulek}
   }
 }

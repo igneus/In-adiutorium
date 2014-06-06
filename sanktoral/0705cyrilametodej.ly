@@ -302,6 +302,7 @@
     differentia = "G" 
     psalmus = "Zj 15"
     id = "2ne-a3"
+    placet = "to je přeci jasný modus II!"
     piece = \markup {\sestavTitulek}
   }
 }
