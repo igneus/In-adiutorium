@@ -1,4 +1,4 @@
-\version "2.15.39"
+\version "2.19.0"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -517,6 +517,8 @@
   \addlyrics {
     Bůh ho svou mi -- los -- tí po -- vo -- lal,
     a -- by byl slu -- žeb -- ní -- kem e -- van -- ge -- li -- a.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -529,8 +531,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( g a) a \barMin a bes a g e( f) d d \barMaior
     g a bes c( a) \barMin a( bes a) g( f) e e \barMin d e( f) e d d \barFinalis
@@ -553,6 +558,35 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4( g a) a \barMin a bes a g e( f) d d \barMaior
+    g a bes c( a) \barMin a( bes a) g( f) e e \barMin d e( f) e d d \barFinalis
+    
+    c^\markup\rubrVelikAleluja f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
+    kte -- ré -- ho Pán 
+    u -- sta -- no -- vil nad svou če -- le -- dí.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a" 
+    psalmus = "Žalm 112"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -688,8 +722,9 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
-    g4 g \bar ":" g( a) a\breve \bar ":"
+    g4 g \bar ";" g( a) a\breve \bar ";"
     a4 a a( b c) b c c( d) c b a a \barMaior
     g g g g( a e) \barMin 
     f g a a b a c b a a \barMaior
@@ -717,6 +752,41 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \bar ";" g( a) a\breve \bar ";"
+    a4 a a( b c) b c c( d) c b a a \barMaior
+    g g g g( a e) \barMin 
+    f g a a b a c b a a \barMaior
+    c c c c( d c) b( g a) a \barMin
+    g( a) e f( g) a( g) g \barFinalis
+    
+    \mark\sipka g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup\with-color #red N _
+    je ten věr -- ný a roz -- váž -- ný správ -- ce,
+    kte -- ré -- ho Pán 
+    u -- sta -- no -- vil nad svým slu -- žeb -- nic -- tvem,
+    a -- by jim roz -- dá -- val 
+    po -- krm ži -- vo -- ta.
+    
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G" 
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Nebo:}
 
