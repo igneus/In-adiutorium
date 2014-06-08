@@ -311,13 +311,36 @@
     }
   }
   
+  \markup\justify{
+    S aleluja: Podle: \italic{Antiphonale Romanum}, Romae 1912, 427. 
+    (Původně nápěv veršíku po hymnu jen pro slavnost Seslání Ducha sv.)
+  }
+  
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c 
+      c4 c c c c c c c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b b a) \barMax
+      \neviditelna c 
+      c c c c c( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b b a) \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se \markup\underline{za} -- ra -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _
+      \Response když vi -- dě -- li \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _
+    }
+    \layout {
+      ragged-last = ##f
+    }
+  }
+  
   \markup\sekce{III.2 v modlitbě uprostřed dne (odpověď na Boží slovo)}
   
   \markup\justify{
     Pokles z recitační noty po posledním slovním přízvuku. 
     (V posledních slovech jsou z pedagogických důvodů
     podtržením vyznačeny všechny přízvučné slabiky, pro nápěv veršů
-    je však důležitá vždy ta poslední, ktera jedina je označena v textech
+    je však důležitá vždy ta poslední, která jediná je označena v textech
     obsažených v antifonáři.)
   }
   
@@ -335,6 +358,22 @@
     }
     \layout {
       ragged-right = ##t
+    }
+  }
+  
+  \markup\justify{S aleluja:}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c 
+      c4 c c c c c c c c c c c c-! a \barMax
+      \neviditelna c 
+      c4 c c c c c c c c-! a \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se za -- ra -- do -- va -- li, \markup\underline{a} -- le -- \markup\underline{lu} -- ja,
+      \Response když vi -- dě -- li Pá -- na, \markup\underline{a} -- le -- \markup\underline{lu} -- ja.
     }
   }
 }
