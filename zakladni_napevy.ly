@@ -6,6 +6,10 @@
   title = "Základní nápěvy"
 }
 
+\layout {
+  indent = 0
+}
+
 #(define-markup-command (sekce layout props obsah)(markup?)
    "Nadpis sekce"
    (interpret-markup layout props
@@ -252,6 +256,8 @@
     subtitle = "II. Nápěvy psalmodie"
   }
   
+  \markup{todo}
+  
   \markup\sekce{modus I}
   
   \markup\sekce{modus II}
@@ -395,7 +401,7 @@
       \neviditelna f
       f4 f d \barFinalis
       \neviditelna f
-      e e f \barFinalis
+      e e f \barFinalis \break
       \neviditelna f
       f f f f f f e d f \barMaior
       f e d f \barMaior
@@ -416,6 +422,9 @@
       id = "konec-pozehnani"
       piece = ""
     }
+    \layout { 
+      ragged-right = ##t
+    }
   }
 
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
@@ -428,7 +437,7 @@
       \neviditelna c
       \stemUp % kvuli poloze akcentovych znacek
       c4 c c c c c c c-! a \barMin 
-      c c b a c-! c \barMin
+      c c b a c-! c \barMin \break
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
@@ -443,6 +452,9 @@
       fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
       id = "konec-prosba"
       piece = ""
+    }
+    \layout { 
+      ragged-right = ##t
     }
   }
   
