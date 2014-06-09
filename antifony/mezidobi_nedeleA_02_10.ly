@@ -535,24 +535,26 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"9. neděle"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c bes c d e d f d g( d) d \barMin
+    d( f) f g f g f e d( e) d d \barMaior
+    c c c( d) \barMin d e f d( c) c \barMin
+    bes c d e f d c( d) d \barFinalis
   }
   \addlyrics {
     Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství,
-    ale ten, kdo pl -- ní vů -- li mé -- ho ne -- bes -- ké -- ho Ot -- ce.
+    a -- le ten, kdo pl -- ní vů -- li 
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne9a-1ne-amag"
@@ -587,17 +589,20 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d e f f( g) g \barMin g g f e d( e) d d \barMaior
+    a' a a a g a c b g f( g) a \barMaior
+    a a a f( g f) d d \barMin c e( f) d d \barFinalis
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich ne -- jed -- ná,
-    po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
+    % orig: po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
+    po -- do -- bá se mu -- ži po -- še -- ti -- lé -- mu,
     kte -- rý si po -- sta -- vil dům na pís -- ku.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne9a-2ne-amag"
@@ -680,4 +685,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-%}
