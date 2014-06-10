@@ -578,7 +578,7 @@
       Je -- žíš ře -- kl:_* Ma -- ri -- e!
       O -- na se k_ně -- mu o -- brá -- ti -- la 
       a zvo -- la -- la: 
-      Rab -- bo -- ni!_- 
+      Rab -- bo -- ni!_– 
       to zna -- me -- ná Mis -- tře!
       
       Je -- žíš jí ře -- kl:

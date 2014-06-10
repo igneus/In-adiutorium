@@ -6,6 +6,10 @@
   title = "Základní nápěvy"
 }
 
+\layout {
+  indent = 0
+}
+
 #(define-markup-command (sekce layout props obsah)(markup?)
    "Nadpis sekce"
    (interpret-markup layout props
@@ -252,6 +256,8 @@
     subtitle = "II. Nápěvy psalmodie"
   }
   
+  \markup{todo}
+  
   \markup\sekce{modus I}
   
   \markup\sekce{modus II}
@@ -311,13 +317,36 @@
     }
   }
   
+  \markup\justify{
+    S aleluja: Podle: \italic{Antiphonale Romanum}, Romae 1912, 427. 
+    (Původně nápěv veršíku po hymnu jen pro slavnost Seslání Ducha sv.)
+  }
+  
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c 
+      c4 c c c c c c c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
+      \neviditelna c 
+      c c c c c( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se \markup\underline{za} -- ra -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _ _
+      \Response když vi -- dě -- li \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _ _
+    }
+    \layout {
+      ragged-last = ##f
+    }
+  }
+  
   \markup\sekce{III.2 v modlitbě uprostřed dne (odpověď na Boží slovo)}
   
   \markup\justify{
     Pokles z recitační noty po posledním slovním přízvuku. 
     (V posledních slovech jsou z pedagogických důvodů
     podtržením vyznačeny všechny přízvučné slabiky, pro nápěv veršů
-    je však důležitá vždy ta poslední, ktera jedina je označena v textech
+    je však důležitá vždy ta poslední, která jediná je označena v textech
     obsažených v antifonáři.)
   }
   
@@ -335,6 +364,22 @@
     }
     \layout {
       ragged-right = ##t
+    }
+  }
+  
+  \markup\justify{S aleluja:}
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c 
+      c4 c c c c c c c c c c c c-! a \barMax
+      \neviditelna c 
+      c4 c c c c c c c c-! a \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se za -- ra -- do -- va -- li, \markup\underline{a} -- le -- \markup\underline{lu} -- ja,
+      \Response když vi -- dě -- li Pá -- na, \markup\underline{a} -- le -- \markup\underline{lu} -- ja.
     }
   }
 }
@@ -356,7 +401,7 @@
       \neviditelna f
       f4 f d \barFinalis
       \neviditelna f
-      e e f \barFinalis
+      e e f \barFinalis \break
       \neviditelna f
       f f f f f f e d f \barMaior
       f e d f \barMaior
@@ -377,6 +422,9 @@
       id = "konec-pozehnani"
       piece = ""
     }
+    \layout { 
+      ragged-right = ##t
+    }
   }
 
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
@@ -389,7 +437,7 @@
       \neviditelna c
       \stemUp % kvuli poloze akcentovych znacek
       c4 c c c c c c c-! a \barMin 
-      c c b a c-! c \barMin
+      c c b a c-! c \barMin \break
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
@@ -404,6 +452,9 @@
       fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
       id = "konec-prosba"
       piece = ""
+    }
+    \layout { 
+      ragged-right = ##t
     }
   }
   

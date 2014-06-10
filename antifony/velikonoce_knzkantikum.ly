@@ -48,6 +48,7 @@ velikTIuteryNespAntIII = \score {
     modus = "I"
     differentia = "f" 
     psalmus = "Zj 4"
+    placet = "~"
     id = ""
     piece = \markup {\sestavTitulek}
   }

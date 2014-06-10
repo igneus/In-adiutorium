@@ -97,7 +97,7 @@
     vý -- raz je -- ho tvá -- ře se změ -- nil % orig: výraz tvá -- ře se mu změ -- nil
     a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
     
-    A hle, roz -- mlou -- va -- li s_ním dva mu -- ži_-
+    A hle, roz -- mlou -- va -- li s_ním dva mu -- ži_–
     by -- li to Moj -- žíš a E -- li -- áš.
   }
   \header {

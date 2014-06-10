@@ -392,8 +392,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = "" 
+    modus = "I"
+    differentia = "D" 
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -596,6 +596,8 @@
   \addlyrics {
     Bůh ho svou mi -- los -- tí po -- vo -- lal,
     a -- by byl slu -- žeb -- ní -- kem e -- van -- ge -- li -- a.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -757,7 +759,6 @@
     differentia = "G" 
     psalmus = ""
     id = "2ne-amag1"
-    placet = "aleluja je divné a špatně se mi zpívá"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

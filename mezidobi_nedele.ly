@@ -73,7 +73,8 @@
     subtitle = "Cyklus A"
   }
 
-  \include "antifony/mezidobi_nedeleA_02_10.ly" 
+  \include "antifony/mezidobi_nedeleA_02_10.ly"
+  \include "antifony/mezidobi_nedeleA_11_20.ly"
 }
 
 \bookpart {

@@ -310,7 +310,7 @@
   }
   \addlyrics {
     Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
-    ne -- boť hle_- při -- chá -- zím 
+    ne -- boť hle_– při -- chá -- zím 
     a bu -- du byd -- let u -- pro -- střed te -- be,
     pra -- ví Pán.
   }
