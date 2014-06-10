@@ -10,7 +10,7 @@
 
 \paper {
   ragged-bottom=##f
-  ragged-last-bottom=##f
+  ragged-last-bottom=##t
   
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
@@ -205,6 +205,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \score {
   \relative c' {
     \choralniRezim
@@ -270,40 +272,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    piece = "responsorium - VI"
+    piece = \markup {\sestavTitulekResp}
     id = "resp"
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f4 f \barMin f f f f( d) e( f) g \barMax
-    g g e f d c d f f e \barFinalis
-    % V
-    \neviditelna d
-    c d( f) f f f f f f f( d) e( f) g \barMax
-    % R
-    \neviditelna g
-    g g e f d c d f f e \barFinalis
-    % Slava
-    \respIVdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
-    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
-    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
-    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "IV"
-    piece = "responsorium - VI"
-    id = "resp-adv"
   }
 }
 
@@ -331,6 +301,44 @@
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulekBezZalmu}
     id = "sim"
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "Doba adventní"
+  }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      
+      % R
+      \neviditelna f
+      f4 f \barMin f f f f( d) e( f) g \barMax
+      g g e f d c d f f e \barFinalis
+      % V
+      \neviditelna d
+      c d( f) f f f f f f f( d) e( f) g \barMax
+      % R
+      \neviditelna g
+      g g e f d c d f f e \barFinalis
+      % Slava
+      \respIVdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+      \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+      \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      piece = \markup {\sestavTitulekResp}
+      id = "resp-adv"
+    }
   }
 }
   
