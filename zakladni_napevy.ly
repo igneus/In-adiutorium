@@ -327,13 +327,13 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c 
-      c4 c c c c c c c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b b a) \barMax
+      c4 c c c c c c c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
       \neviditelna c 
-      c c c c c( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b b a) \barFinalis
+      c c c c c( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
     }
     \addlyrics {
-      \Verse U -- čed -- ní -- ci se \markup\underline{za} -- ra -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _
-      \Response když vi -- dě -- li \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _
+      \Verse U -- čed -- ní -- ci se \markup\underline{za} -- ra -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _ _
+      \Response když vi -- dě -- li \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _ _
     }
     \layout {
       ragged-last = ##f
