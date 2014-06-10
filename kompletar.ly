@@ -387,12 +387,12 @@
       
       % R
       \neviditelna f
-      f4 f \barMin f f g f e( d) d \barMaior
-      d e f f f f f e g a \barMax
+      f4 f f f f f g f \barMin
+      f f f f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
       % V
       \neviditelna f
-      f4 f f f f f( g f) f \barMin f e g( a) a \barMax
+      f4 f f f f f f f e g a \barMax
       % R
       \neviditelna a
       \respVIalelujaResponsum \barFinalis
