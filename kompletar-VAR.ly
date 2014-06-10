@@ -1053,7 +1053,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
       
       % R
       \neviditelna f
-      f f f f f f g f \barMin
+      f4 f f f f f g f \barMin
       f f f f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
       % V
