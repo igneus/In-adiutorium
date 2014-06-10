@@ -615,7 +615,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e f g d d f( e d) c c d d \barMin
+    d d d c( d) c b a a \barMaior
+    c c( d) d d \barMin f( g) f( e d) d \barMaior
+    d g( d e c d) \barMin f f( g) f( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl v_cel -- ni -- ci se -- dět člo -- vě -- ka,
@@ -626,19 +629,22 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
+    fial = "sanktoral/0921matous.ly#aben?cast_spolecna"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a c c a c g g f( e f g) g \barMaior
+    g a b b b b( c) b a a a \barMaior
+    g( a g) f( g) f \barMin f d f g a g g \barFinalis
   }
   \addlyrics {
     Mno -- ho cel -- ní -- ků a hříš -- ní -- ků při -- šlo
@@ -647,8 +653,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ne10a-rch-aben"
