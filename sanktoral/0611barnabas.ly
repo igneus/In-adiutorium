@@ -10,6 +10,11 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\justify\italic{
+  Responsoria ranních chval i nešpor se berou
+  ze společných textů o evangelistech.
+}
+
 \score {
   \relative c' {
     \choralniRezim
