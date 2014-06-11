@@ -17,20 +17,20 @@
     d d c( d) d e( f g) g( a) g g f g g( a) a \barMaior
     a a( bes a) a( bes) a g g( a) a \barMin
     a a g( a g) f e f d d \barFinalis
-    
+
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš k_so -- bě po -- vo -- lal své u -- čed -- ní -- ky
-    a vy -- vo -- lil z_nich dva -- náct, 
+    a vy -- vo -- lil z_nich dva -- náct,
     kte -- ré na -- zval a -- po -- što -- ly.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 117"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -42,19 +42,19 @@
     \choralniRezim
     a g( f) d d d( f) f( g) g \barMin
     f f( g) f e d d \barFinalis
-    
+
     d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
     O -- pus -- ti -- li své sí -- tě
     a šli za Je -- ží -- šem.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -66,19 +66,19 @@
     \choralniRezim
     d4 e d( c) d d( c) c( a) a \barMaior
     g a a b( c d) c( d) c b a( g) g( a) a \barFinalis
-    
+
     a^\markup\rubrVelikAleluja b a a \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
     pro -- to -- že zů -- stá -- vá -- te v_mé lás -- ce.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -90,7 +90,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     a a g( a) a a( b) a g g( a) \barMaior
@@ -133,7 +133,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     a a g( a) a a( b) a g g( a) \barMaior
@@ -167,34 +167,34 @@
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c'' {
     \choralniRezim
     a g f g a a g a \barMaior
     a a c4.( a) \barMin a4 g f g e \barMax
-    
+
     e f g g g g( a) a \barMaior
     a b a a( e) \barMin e g a a a g( a) e e \barMaior
     d c d e e \barMin g f e d e e \barFinalis
-    
+
     e^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Ne vy jste vy -- vo -- li -- li mne,
     a -- le já jsem vy -- vo -- lil vás
-    
+
     a u -- rčil jsem vás k_to -- mu,
     a -- bys -- te šli a při -- ná -- še -- li u -- ži -- tek
     a váš u -- ži -- tek a -- by byl tr -- va -- lý.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -212,13 +212,13 @@
     c d e( f e) d c( d) \barMin c( a) b a( g) g \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu; 
+    Pojď -- me, klaň -- me se Kris -- tu;
     on je Pán a Král a -- po -- što -- lů.
   }
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -237,14 +237,14 @@
   }
   \addlyrics {
     A -- le -- lu -- ja,
-    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král 
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král
     a -- po -- što -- lů,
     a -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "invit-velik"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -257,24 +257,24 @@
   \relative c' {
     \choralniRezim
     d4 c d( f) e( f) f \barMin
-    f( g a) f d e c 
+    f( g a) f d e c
     c( d) \barFinalis
-    
+
     d(^\markup\rubrVelikAleluja c) \barMin
     c c( d) d d \barFinalis
   }
   \addlyrics {
     Všu -- de na ze -- mi
-    pro -- ni -- kl je -- jich 
+    pro -- ni -- kl je -- jich
     \markup{\Dagger hlas.}
-    
+
     \markup{\Dagger hlas.}
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -286,19 +286,19 @@
     \choralniRezim
     g4( a g) g( f) g( a) a g \barMin a( b c) b a( f) g \barMaior
     c c( d) b( c) a a \barMin a b a g g \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Roz -- hla -- šo -- va -- li Bo -- ží skut -- ky
     a vy -- dá -- va -- li svě -- dec -- tví Kris -- tu.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 64"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -310,19 +310,19 @@
     \choralniRezim
     f4( a) f( g) g( f) \barMin d c d f f( g) f \barMaior
     g g( a) f d d4.( e4 f d4. c) \barMin d4 c d( f) f g( a) g f f \barFinalis
-    
+
     g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Hlá -- sa -- li Bo -- ží spra -- ve -- dl -- nost
     a všem ná -- ro -- dům zvěs -- to -- va -- li Bo -- ží slá -- vu.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 97"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -336,20 +336,20 @@
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
     a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barFinalis
-    
+
     e4^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     To je mé při -- ká -- zá -- ní:
     Mi -- luj -- te se na -- vzá -- jem,
     ja -- ko jsem já mi -- lo -- val vás.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
@@ -369,13 +369,13 @@
   \addlyrics {
     Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
     kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 2. část"
@@ -389,20 +389,21 @@
     \choralniRezim
     c4 d d( e) c c d d \barMaior
     d c( d) a a \barMin c bes a g( a) a a \barFinalis
-    
+
     a^\markup\rubrVelikAleluja bes a a \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
     když dě -- lá -- te, co já vám u -- klá -- dám.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 149"
+    placet = "transponovat - není důvod pro alt."
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -413,7 +414,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f g f g( a) a( g) \barMax
@@ -447,7 +448,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f d f g( f) f \barMaior
@@ -475,7 +476,7 @@
     id = "rch-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c' {
@@ -483,20 +484,20 @@
     d4( c d) d( c) c \barMin bes( c) d f d f( g) f e d d \barMaior
     d d( f e) e \barMin f g( a) g f g( f) e d( e d) d \barMaior
     d c d f( g f d) d d e( f) d d \barFinalis
-    
+
     e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Zá -- kla -- dem ne -- bes -- ké -- ho Je -- ru -- za -- lé -- ma
     je dva -- náct Be -- rán -- ko -- vých a -- po -- što -- lů
     a je -- ho svět -- lem je Be -- rá -- nek.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -512,23 +513,23 @@
     \choralniRezim
     g4( a f) g \barMin a b( c b) a( g) g a( g f) g( a) g( a) a a \barMin b c d c( b) a( g) g \barMax
     c c b a b( g) g g \barMin a g f g( a) g g \barFinalis
-    
+
     a^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Jdě -- te 
-    a hlá -- sej -- te e -- van -- ge -- li -- um 
+    Jdě -- te
+    a hlá -- sej -- te e -- van -- ge -- li -- um
     o Bo -- žim krá -- lov -- ství:
-    
-    Za -- dar -- mo jste do -- sta -- li, 
+
+    Za -- dar -- mo jste do -- sta -- li,
     za -- dar -- mo dá -- vej -- te.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -540,19 +541,19 @@
     \choralniRezim
     a4.( c) \barMin a4 g a( g) g \barMaior
     f g a b4.( c) \barMin d4 c b c a( g) g \barFinalis
-    
+
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Hle, já jsem s_vá -- mi 
+    Hle, já jsem s_vá -- mi
     po všech -- ny dny až do kon -- ce svě -- ta.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. v poledne"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -563,20 +564,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c d) c( b) c a a4.( g) \barMin 
+    g4( c d) c( b) c a a4.( g) \barMin
     f4 g a a b( a) g( a g) g \barFinalis
-    
+
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Vy -- tr -- va -- los -- tí za -- chrá -- ní -- te svou du -- ši.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -589,18 +590,18 @@
   \relative c'' {
     \choralniRezim
     g4 g f g a f e d e( f) d d \barFinalis
-    
+
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Vy jste se mnou vy -- tr -- va -- li v_mých zkouš -- kách.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 116-II"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -611,18 +612,18 @@
   \relative c'' {
     \choralniRezim
     a a a b g g \barMin f g a g f( e) e \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g e e \barFinalis
   }
   \addlyrics {
     Já jsem me -- zi vá -- mi ja -- ko ten, kdo slou -- ží.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 126"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -636,7 +637,7 @@
     d( f) d d c d( f) g( a) a \barMaior
     a a a g4.( a) \barMin a4 c( a b) a g g( a) a \barMaior
     a g f( g d) d \barMin g f e d4. d \barFinalis
-    
+
     d4^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
@@ -644,13 +645,13 @@
     na -- zval jsem vás přá -- te -- li,
     pro -- to -- že vám jsem o -- zná -- mil všech -- no,
     co jsem sly -- šel od své -- ho Ot -- ce.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Ef 1"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -679,7 +680,7 @@
     d4( a' bes) a a( g) g a g( a) g \barMin g g( f e) f g( a) a a \barFinalis
   }
   \addlyrics {
-    \Response Vy -- pra -- vuj -- te 
+    \Response Vy -- pra -- vuj -- te
     me -- zi vše -- mi ná -- ro -- dy
     o Hos -- po -- di -- no -- vých či -- nech,_*
     o -- sla -- vuj -- te je -- ho jmé -- no.
@@ -700,10 +701,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
-    f f f f f f g a g f f \barMin 
+    f f f f f f g a g f f \barMin
     g f e d e f d d \barMaior
     d f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
@@ -730,7 +731,7 @@
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c'' {
@@ -739,22 +740,22 @@
     g f g f e d( c) c \barMax
     c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
     f g a( f e d) d \barMin f e f g f e d c( d) d \barFinalis
-    
+
     d^\markup\rubrVelikAleluja e d d \barFinalis
   }
   \addlyrics {
-    Až Syn člo -- vě -- ka 
-    za -- sed -- ne na svůj slav -- ný trůn 
+    Až Syn člo -- vě -- ka
+    za -- sed -- ne na svůj slav -- ný trůn
     při ob -- no -- ve -- ní svě -- ta,
     u -- sed -- ne -- te ta -- ké vy na dva -- náct trů -- nů
     ja -- ko soud -- ci dva -- nác -- ti iz -- ra -- el -- ských kme -- nů.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
