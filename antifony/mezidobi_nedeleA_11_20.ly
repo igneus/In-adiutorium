@@ -228,19 +228,24 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f( g a) bes( a) g a f( g) g \barMin
+    g( a) g g f d e( d) c \barMaior
+    d d d( f e) f( g) g \barMin a g f g( a) g g \barMaior
+    a( f g) f d c c \barMin
+    d d f g a g f f \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě, Ot -- če,
     Pa -- ne ne -- be i ze -- mě,
     že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
     skryl před moud -- rý -- mi
-    a od -- ha -- lil jsi je ma -- lič -- kým.
+    a od -- ha -- lils % --lil jsi 
+    je ma -- lič -- kým.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = ""
     id = ""
