@@ -155,19 +155,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f e f g a \barMin a a( c) g a g f g \barMaior
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Kdo ne -- be -- re svůj kříž
     a ne -- ná -- sle -- du -- je mě,
-    ne -- né mě ho -- den.
+    ne -- ní mě ho -- den.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?jiny_text"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -197,19 +199,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( c) c c b a c b a g g \barMin
+    g( a) g f g( a) a \barMaior
+    a b c c b a g( a) g g \barMax
+    c( a) c( g) g \barMin f g( a) g( a) g g \barFinalis
   }
   \addlyrics {
-    Kdo po -- dá ně -- ko -- mu tře -- ba jen čí -- ši stu -- de -- né vo -- dy,
+    Kdo po -- dá ně -- ko -- mu tře -- ba jen čí -- ši 
+    stu -- de -- né vo -- dy,
     pro -- to -- že je to můj u -- čed -- ník,
     ne -- při -- jde o svou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
