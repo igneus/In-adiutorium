@@ -97,6 +97,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "když nejde rozdělit logicky, přesto rozdělit udýchatelně"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
