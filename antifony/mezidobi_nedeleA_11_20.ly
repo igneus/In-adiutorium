@@ -207,7 +207,7 @@
     c( a) c( g) g \barMin f g( a) g( a) g g \barFinalis
   }
   \addlyrics {
-    Kdo po -- dá ně -- ko -- mu tře -- ba jen čí -- ši 
+    Kdo po -- dá ně -- ko -- mu tře -- ba jen čí -- ši
     stu -- de -- né vo -- dy,
     pro -- to -- že je to můj u -- čed -- ník,
     ne -- při -- jde o svou od -- mě -- nu.
@@ -239,7 +239,7 @@
     Pa -- ne ne -- be i ze -- mě,
     že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
     skryl před moud -- rý -- mi
-    a od -- ha -- lils % --lil jsi 
+    a od -- ha -- lils % --lil jsi
     je ma -- lič -- kým.
   }
   \header {
@@ -256,7 +256,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f f e d e \barMaior
+    c d e d d \barMin d f e d c( b) a \barMaior
+    c d d d c d d( f e) e d e d d \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
@@ -265,8 +267,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -275,9 +277,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c( d) c( b) a b \barMaior
+    g f g a a g( a) a( g) g \barMin f g g \barFinalis
   }
   \addlyrics {
     Mé jho ne -- tla -- čí
@@ -285,8 +288,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
@@ -297,17 +300,17 @@
 \markup {\nadpisDen {"15. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c c c( d c) a a \barMin c b g g \barFinalis
   }
   \addlyrics {
     Je -- žíš mlu -- vil k_zá -- stu -- pům v_po -- do -- ben -- stvích.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
@@ -318,16 +321,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( a' bes) a \barMin
+    a g( a) g g( f e) \barMin
+    d d c d f( e) d d \barFinalis
   }
   \addlyrics {
     Vám je dá -- no
-    znát ta -- jem -- ství ne -- bes -- ké -- ho krá -- lov -- ství.
+    znát ta -- jem -- ství 
+    ne -- bes -- ké -- ho krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -336,9 +342,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a g a f g g \barMin
+    a( c) c( a) a b g g \barMaior
+    f( g) g \barMin f g a c c \barMin
+    c b g a g g \barFinalis
   }
   \addlyrics {
     Se -- me -- no je Bo -- ží slo -- vo,
@@ -348,8 +357,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
