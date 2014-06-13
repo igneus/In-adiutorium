@@ -369,40 +369,50 @@
 \markup {\nadpisDen {"16. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( c d) d( c) d d( e d) d( c) c( d) \barMin
+    d c b a b( a) a( g) g \barMaior
+    a a b( c a) a \barMin
+    a a g f g( a) a g( a) g g \barFinalis
   }
   \addlyrics {
-    Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né člo -- vě -- ku,
-    kte -- rý na -- sel na svém po -- li dob -- ré se -- me -- no.
+    Ne -- bes -- ké krá -- lov -- ství 
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel 
+    na svém po -- li dob -- ré se -- me -- no.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = ""
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g( a) g g \barMin g f g a \barMaior
+    a a a a a( g) g \barMin
+    g f e d d f g a a g g \barMaior
+    a b c( a) a g f g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
     kte -- rý vza -- la že -- na
-    a za -- dě -- la -- la ho do tří mě -- řic mou -- ky,
+    a za -- dě -- la -- la % ho 
+    do tří mě -- řic mou -- ky,
     až se všech -- no pro -- kva -- si -- lo.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     annus = ""
     id = ""
@@ -411,18 +421,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g \barMin 
+    f g a a a g( a g) f e( d) e \barMaior
+    d( g f a) g \barMin f( g) g e e \barFinalis
   }
   \addlyrics {
-    Spra -- ved -- li -- ví bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
+    Spra -- ved -- li -- ví 
+    bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
     zá -- řit ja -- ko slun -- ce.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = ""
     id = ""
