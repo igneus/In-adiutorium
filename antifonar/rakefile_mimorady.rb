@@ -222,26 +222,3 @@ end
 
 desc "Psalm 136 - responsorial arrangement."
 task :zalm136 => ["vystup/zalm136.pdf"]
-
-###############################################################
-# sv. 0: uvod
-
-file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
-  chdir 'generovane'
-  sh "#{RUBY_COMMAND} -I ../../nastroje ../../nastroje/splitscores.rb --prepend-text '\\include \"../spolecne_antifonar.ly\"' ../uvod_priklady.ly"
-  chdir '..'
-end
-
-file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
-  sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
-end
-
-file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
-  chdir 'vystup'
-  sh 'pdflatex -shell-escape antifonar_uvod.tex'
-  chdir '..'
-end
-
-desc "Introduction to the whole set of antiphonal volumes."
-task :uvod => ['vystup/antifonar_uvod.pdf']
-

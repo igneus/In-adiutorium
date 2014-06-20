@@ -11,6 +11,11 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
+\setChantBasedir{.}
+\setPsalmsDir{zalmy/}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{uvod_priklady.ly}
+
 \begin{document}
 
 \input{spolecne.tex}
@@ -103,7 +108,7 @@ budu značit svislými čárkami přímo pod notami.
 V textu antifonáře na melodicky významný přízvuk upozorňuje
 podtržení slabiky.
 
-\lilypondfile{generovane/uvod_priklady_1.ly}
+\simpleScore{#1}
 
 Zde je vzorec pro nápěv psalmodie užívaný 
 v kompletáři.\footnote{
@@ -164,7 +169,7 @@ bezprostředně následujících.
 První verš žalmu má, jak bylo výše řečeno, narozdíl od ostatních
 veršů ozdobu také na začátku. Ta není nijak vázaná na přízvuky:
 
-\lilypondfile{generovane/uvod_priklady_2.ly}
+\simpleScore{#2}
 
 Z následujících dvou veršů stojí za povšimnutí polovina druhého
 ("z léčky ptáčníka"), kde za přízvukem následují ještě dvě slabiky,
@@ -173,11 +178,11 @@ Taková možnost přizpůsobení nápěvu slovům žalmu naznačují
 ve vzorci nápěvu noty v závorkách. (Ve vzorcích zapsaných
 v kvadratické notaci pak zpravidla duté noty.)
 
-\lilypondfile{generovane/uvod_priklady_3.ly}
+\simpleScore{#3}
 
 Následuje příklad verše s flexou.
 
-\lilypondfile{generovane/uvod_priklady_4.ly}
+\simpleScore{#4}
 
 \subsection{Přednes}
 
