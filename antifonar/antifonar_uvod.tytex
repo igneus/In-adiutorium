@@ -1,12 +1,37 @@
-\documentclass[a4paper]{article}
+\documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[czech]{babel}
-\usepackage{datetime} % formaty data
-\usepackage[colorlinks=true]{hyperref} % hypertextove odkazy
-\usepackage[margin=2.5cm]{geometry} % okraje stranky
 
-\author{Jakub Pavlík}
-\title{Úvod k Antifonáři k Denní modlitbě církve}
+\usepackage[czech]{babel} 
+
+\usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{multicol} % sazba ve sloupcich
+
+\usepackage{zref-savepos} % potreba pro znacky na okraji
+\usepackage{changepage}
+\usepackage{etoolbox}
+
+\usepackage{titlesec}
+
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+\usepackage{marginnote}
+\usepackage{setspace} % upravy radkovani
+\usepackage[show]{ed} % editorial annotations
+
+\usepackage[T1]{fontenc}
+% font Bookman:
+\usepackage{bookman}
+
+
+\input{spolecne.tex}
+\input{hyphenation.tex}
+\input{znacky.tex}
+\input{generovane/zaltar/versiky.tex}
+
+
+\title{Antifonář k Denní modlitbě církve - Úvod}
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
@@ -18,54 +43,51 @@
 
 \begin{document}
 
-\input{spolecne.tex}
-\dmyyyydate
+\pagestyle{empty}
+
 \maketitle
 
-Nedávno (konec října 2011) jsem zveřejnil první částku
-Antifonáře k Denní modlitbě církve, věnovanou kompletáři.
-Jako úvod k tomuto prvnímu svazečku a zároveň k celé 
-připravované řadě bych rád předeslal několik slov vysvětlujících
-nejprve ideu antifonáře a následně techniku zpěvu podle něj.
+\tableofcontents
+
+\clearpage
+
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
+\section*{Poznámka}
+
+Tento dokument se později stane úvodem k prvnímu svazku Antifonáře.
+Protože ale Antifonář vzniká postupně a zdá se být vhodné úvod zveřejnit
+již teď, zveřejňujeme ho prozatím samostatně.
 
 \section{K pojmu a využití antifonáře}
 
-V názvech liturgických knih nikdy nebyl úplný pořádek,
-jako antifonář (antiphonale, antiphonarium) se ale zpravidla
+Jako antifonář (\emph{antiphonale, antiphonarium, liber antiphonarius}) 
+se zpravidla
 označuje kniha užívaná při liturgii hodin, v níž jsou obsaženy
 melodie těch zpěvů, které mají vlastní originální nápěv
 (oproti žalmům a kantikům, zpívaným na omezené množství
 jednoduchých nápěvů), zejm. antifony.
 
-V dobách, kdy knihy byly nákladné a lidská paměť trénovaná,
-mniši obvykle znali žalmy a kantika zpaměti (a učili se je
-mimo chór ze žaltáře) a antifonář obsahoval často pouze
-nápěvy antifon. Navíc antifonářů v chóru zpravidla nebylo mnoho,
-často je měli k disposici pouze kantoři.
+V novověku je často obsah antifonáře širší:
+je to úplný nebo téměř úplný notovaný breviář, obsahující všechny texty
+a melodie potřebné ke slavení zpívané
+liturgie hodin v chóru.
 
-V dnešní době poznačené dostupností knih a zlenivěním paměti
-se antifonářem zpravidla rozumí kniha obsahující všechny texty
-a melodie, které potřebuje jednotlivec ke slavení zpívané
-liturgie hodin v chóru. Podle koncepce toho kterého řádu či
-komunity antifonář může a nemusí obsahovat texty čtené
-v chóru jednotlivcem (krátká čtení, modlitby).
-
-Antifonář k Denní modlitbě církve chce být minimálním
+Antifonář k Denní modlitbě církve z více důvodů není takovým
+úplným breviářem s notami. Chce být minimálním
 doplňkem k již existujícím liturgickým knihám, který umožní
-slavení zpívané liturgie hodin chórovým způsobem.\footnote {
-Např. v Německu existují velmi zajímavé pokusy přiblížit
-liturgii hodin farní liturgii - tam se pak počítá s jiným způsobem
-slavení, než jaký je obvyklý v klášteřích a kapitulách kanovníků.
-Tento antifonář ale právě se starou "klášterní" formou slavení počítá.}
-Neobsahuje hymny, protože melodie k hymnům breviáře jsou
-v hymnáři.\footnote{Česká liturgická komise: Denní modlitba církve. Hymny, Praha: 1989.}
-Ani neobsahuje čtení a modlitby - ty se nezpívají a přečtou se
-z breviáře. Obsahuje především antifony, responsoria\footnote{
-Svazeček věnovaný kompletáři zatím neobsahuje responsorium
-"Bože, v tebe důvěřuji" ani Simeonovo kantikum s antifonou,
-protože obojí je v Kancionálu v krásném zpracování P. Olejníka.
-}
-a žalmy.
+slavení zpívané liturgie hodin chórovým způsobem.
+Počítá se s tím, že pro zpěv hymnů bude každému k dispozici
+oficiálně vydaný hymnář\footnote{
+  Česká liturgická komise: Denní modlitba církve. Hymny, Praha: 1989.}
+a že alespoň předsedající a lektoři budou mít breviář,
+z něhož se přečtou čtení, přímluvy a závěrečná modlitba.
+V antifonáři jsou obsaženy především antifony, responsoria a žalmy.
 Texty žalmů jsou opatřeny značkami usnadňujícími zpěv.
 
 \section{Chorální psalmodie}
@@ -226,16 +248,22 @@ třetí, pátou.
 Problematické je, končí-li část verše sérií jednoslabičných slov - pak často
 nejde najít žádné elegantní řešení.
 
+\begin{todo}{}
 Nevyřešená otázka: 
 \uv{To je pokolení těch, kdo \underline{po} něm \underline{tou}ží}, 
 nebo \uv{To je pokolení těch, \underline{kdo} po něm \underline{tou}ží} (Žalm 24)?
 
-ÚKOL: Zmínit nedořešené problémy s jednoslabičnými slovy.
+Zmínit nedořešené problémy s jednoslabičnými slovy.
 (Třeba přízvuk na "se" je opravdu zcela nepřirozený, a občas jsem byl nucen
 ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
+\end{todo}
 
 \section{Čtení not}
 \subsection{Délky not a rytmus}
 \subsection{Výška tónů a možnosti transposice}
+
+\vfill
+
+\malaTiraz
 
 \end{document}
