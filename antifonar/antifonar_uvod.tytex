@@ -19,6 +19,7 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 \usepackage[show]{ed} % editorial annotations
+\usepackage[backend=biber]{biblatex} % bibliography
 
 \usepackage[T1]{fontenc}
 % font Bookman:
@@ -36,11 +37,15 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
+% todo: lepsi odliseni, napr. ikonka knihy
+\newcommand{\bookRef}[1]{\underline{#1}}
+
 \setChantBasedir{.}
 \setPsalmsDir{zalmy/}
 \setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
 \setChantSource{uvod_priklady.ly}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \pagestyle{empty}
@@ -57,6 +62,10 @@
 \fancyfoot{}
 
 \pagestyle{fancy}
+
+\begin{todo}{}
+* bibliografie
+\end{todo}
 
 \section*{Poznámka}
 
@@ -81,14 +90,56 @@ liturgie hodin v chóru.
 Antifonář k Denní modlitbě církve z více důvodů není takovým
 úplným breviářem s notami. Chce být minimálním
 doplňkem k již existujícím liturgickým knihám, který umožní
-slavení zpívané liturgie hodin chórovým způsobem.
-Počítá se s tím, že pro zpěv hymnů bude každému k dispozici
-oficiálně vydaný hymnář\footnote{
-  Česká liturgická komise: Denní modlitba církve. Hymny, Praha: 1989.}
-a že alespoň předsedající a lektoři budou mít breviář,
-z něhož se přečtou čtení, přímluvy a závěrečná modlitba.
-V antifonáři jsou obsaženy především antifony, responsoria a žalmy.
-Texty žalmů jsou opatřeny značkami usnadňujícími zpěv.
+slavení úplně zpívané liturgie hodin chórovým způsobem.
+
+\section{Knihy pro slavení Denní modlitby církve se zpěvem}
+
+Výše naznačená koncepce Antifonáře k Denní modlitbě církve
+počítá s využitím dalších knih:
+
+\paragraph{Breviář}
+musí být k disposici alespoň pro předsedajícího a lektory
+k přednesení čtení, přímluv a závěrečné modlitby.
+
+\paragraph{Hymnář}
+pro zpěv hymnů by měl mít každý. Nabízí se více možností.
+Vedle dvou oficiálních českých hymnářů uvádíme i hymnář latinský,\edissue{doplnit citaci VPDMC, kde se vícejazyčné slavení legitimuje}
+jenž však samozřejmě neobsahuje hymny pro svátky vlastní kalendáři
+českých a moravských diecézí.
+
+Česká liturgická komise: Denní modlitba církve. Hymny, Praha 1989.
+
+Denní modlitba církve. Hymny a básnické modlitby, Praha: Zvon 1993.
+
+Liber hymnarius cum invitatoriis et aliquibus responsoriis, Solesmis 1983.\edissue{citace vysázet pěkněji}
+
+\section{Uspořádání Denní modlitby církve\footcite[velké části jsou převzaty doslovně nebo volně z ][583nn]{dmci}}
+
+\subsection{Uvedení do první modlitby dne / invitatorium}
+
+Verš Pane, otevři mé rty, viz Společné nápěvy, s. \pageref{tc:paneotevri}
+
+Následuje žalm 95 s příslušnou antifonou vkládanou jako odpověď.
+Tato antifona se přednese a všichni ji hned opakují, potom ji vždy znovu
+opakují po každé strofě žalmu.
+
+Slavnosti a svátky mají úvodní antifonu vlastní nebo ze společných textů.
+O památkách svatých, pokud nemají antifonu vlastní, se může vzít 
+buď ze společných textů, nebo z příslušného dne liturgické doby.
+
+Žalm 95 zpívá kantor na nápěv uvedený ve Společných nápěvech, 
+s. \pageref{tc:venite}.
+Pokud se zvolí jiný ze žalmů nabízených pro invitatorium
+na začátku žaltáře, 
+zpívá se na běžný žalmový nápěv, avšak první verš každé strofy
+se začne zahajovací melodickou formulí (\emph{initium}).
+
+\subsection{Modlitba se čtením}
+
+Verš Bože, pospěš mi na pomoc, viz Společné nápěvy, s. \pageref{tc:bozepospes}.
+Tento úvod se vynechává, předcházelo-li uvedení do první modlitby dne.
+
+Hymnus z \bookRef{hymnáře}.
 
 \section{Chorální psalmodie}
 
@@ -258,9 +309,9 @@ Zmínit nedořešené problémy s jednoslabičnými slovy.
 ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
 \end{todo}
 
-\section{Čtení not}
-\subsection{Délky not a rytmus}
-\subsection{Výška tónů a možnosti transposice}
+\section{Interpretace chorálních melodií}
+
+\section{Společné nápěvy}
 
 \vfill
 
