@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
-# volumes of the "Small/Selective Edition" of the antiphonal
+# standalone selections of office chants
+# for Christmas, Easter etc.
 
 ###############
 # sv. 2: Narozeni Pane
 
-narozeni_pdf = typographus('antifonar_narozenipane.tytex')
-
 desc "Nativity of our Lord."
-task :narozeni => [narozeni_pdf]
+task :narozeni => [ typographus('antifonar_narozenipane.tytex') ]
 
 ###############
 # sv. 1:  Svaty tyden a Velikonocni oktav
