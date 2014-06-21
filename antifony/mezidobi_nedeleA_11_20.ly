@@ -327,7 +327,7 @@
   }
   \addlyrics {
     Vám je dá -- no
-    znát ta -- jem -- ství 
+    znát ta -- jem -- ství
     ne -- bes -- ké -- ho krá -- lov -- ství.
   }
   \header {
@@ -377,9 +377,9 @@
     a a g f g( a) a g( a) g g \barFinalis
   }
   \addlyrics {
-    Ne -- bes -- ké krá -- lov -- ství 
+    Ne -- bes -- ké krá -- lov -- ství
     je po -- dob -- né člo -- vě -- ku,
-    kte -- rý na -- sel 
+    kte -- rý na -- sel
     na svém po -- li dob -- ré se -- me -- no.
   }
   \header {
@@ -405,7 +405,7 @@
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
     kte -- rý vza -- la že -- na
-    a za -- dě -- la -- la % ho 
+    a za -- dě -- la -- la % ho
     do tří mě -- řic mou -- ky,
     až se všech -- no pro -- kva -- si -- lo.
   }
@@ -423,12 +423,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g \barMin 
+    a4 a a g \barMin
     f g a a a g( a g) f e( d) e \barMaior
     d( g f a) g \barMin f( g) g e e \barFinalis
   }
   \addlyrics {
-    Spra -- ved -- li -- ví 
+    Spra -- ved -- li -- ví
     bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
     zá -- řit ja -- ko slun -- ce.
   }
@@ -481,7 +481,12 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c d d d f e f g( f d) d \barMin
+    e e e e( f) d c d d \barMaior
+    a c c( d) d \barMin c d d d f g f e( d) d \barMin
+    e c a a \barMaior
+    a b c( d) d e f e d( e) d d \barMaior
+    d d f e f d c \barMin d( e) d d \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né sí -- ti,
@@ -494,8 +499,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -504,9 +509,14 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a g f a a a \barMin
+    a a a g( a) f e d d \barMin
+    f g a a a( c) a a \barMaior
+    a b c d( c) b( a) a \barMaior
+    a a a a g( a) g f g( a) g( a) a \barMaior
+    f( g a) a( g) g \barMin f f f g f d d \barFinalis
   }
   \addlyrics {
     Kaž -- dý u -- či -- tel Zá -- ko -- na,
@@ -518,8 +528,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "g"
     psalmus = ""
     annus = ""
     id = ""
