@@ -23,8 +23,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 4"
-    fons = "volně podle: 
-    		Manuale Cantorum sive Antiphonale Romanum, recognitum Juxta novissimum Antiphonale Romanum. Editio nova, Emendata, Leodii: C. Bourguignon 1818, 
+    fons = "volně podle:
+    		Manuale Cantorum sive Antiphonale Romanum, recognitum Juxta novissimum Antiphonale Romanum. Editio nova, Emendata, Leodii: C. Bourguignon 1818,
   		s. cxxvj. (ant. Miserere)"
     piece = \markup\sestavTitulek
     id = "nei1"
@@ -52,7 +52,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     O -- chrá -- ní tě_* svý -- mi pe -- ru -- tě -- mi;
@@ -75,7 +75,7 @@
     e f g a( b) a a( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {

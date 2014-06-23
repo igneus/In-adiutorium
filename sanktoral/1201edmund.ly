@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Edmunda Kampiána, kněze a mučedníka" 
+  title = \markup\titleSvatek
+            "sv. Edmunda Kampiána, kněze a mučedníka"
             "nezávazná památka"
             1.12.
   composer = "Jakub Pavlík"
@@ -19,14 +19,14 @@
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
-    kdo jsou pro -- ná -- sle -- do -- vá -- ni 
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
     pro spra -- ve -- dl -- nost,
     ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_vicemucedniku.ly#rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -50,7 +50,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

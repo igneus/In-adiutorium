@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 122"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -39,7 +39,7 @@
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 130"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -59,7 +59,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Flp 2"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -69,7 +69,7 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \markup\justify{
-  Antifony jako o 1. neděli adventní, 
+  Antifony jako o 1. neděli adventní,
   str. \concat{\page-ref #'adventNedeleIcteni "0" "?" . }
   Žalmy 24, 66-I a 66-II.
 }
@@ -79,7 +79,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c a) b( c) b c d a a \barMin 
+    a4( c a) b( c) b c d a a \barMin
     c d e d c d d \barMin
     d c( b a) g( a) a \barMaior
     g a b a \barFinalis
@@ -93,7 +93,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "118"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
@@ -119,7 +119,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Dan 3-II"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
@@ -143,7 +143,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 150"
     id = "ne-rch-a3"
     fons = "oktáv Narození Páně, 26.12., k Magnificat: 2. část, velmi výrazně upraveno"
@@ -169,7 +169,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -193,7 +193,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
     fons = "neděle 3. adv.t., r.ch., 2.a., 2.-4. část doslova"
@@ -217,7 +217,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Zj 19"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}

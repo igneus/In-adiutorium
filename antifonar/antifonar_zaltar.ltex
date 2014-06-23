@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
@@ -25,7 +25,7 @@
 \usepackage[T1]{fontenc}
 % font Palatino:
 % \usepackage[sc]{mathpazo}
-% \linespread{1.05}        
+% \linespread{1.05}
 
 % font Bookman:
 \usepackage{bookman}
@@ -46,8 +46,8 @@
   Vysázeno programem \LaTeX.
 }
 \newcommand{\textDoTiraze}{
-  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
-  
+  Texty Denní modlitby církve jsou majetkem České biskupské konference.
+
   Texty žalmů a kantik (s~výjimkou kantik pro vigilie)
   jsou převzaté z~webu \url{http://ebreviar.cz},
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
@@ -56,7 +56,7 @@
   nadpisy žalmů a připojené citáty z~Písma a Otců)
   a kde jsem shledal odchylky od vydání breviáře z~r. 1994, jsou
   podle něj opraveny.
-  
+
   Text žalmů a kantik značkami opatřil a k~sazbě připravil Jakub Pavlík.
 }
 
@@ -159,7 +159,7 @@ V~době adventní, vánoční, postní a velikonoční:
 \paragraph{Zpěv žalmů na chorální nápěvy}
 Tento žaltář obsahuje texty všech žalmů a kantik Denní modlitby církve
 se značkami pro zpěv na chorální nápěvy.
-Tyto nápěvy, vytvořené původně pro latinské texty, se váží na jednu nebo dvě 
+Tyto nápěvy, vytvořené původně pro latinské texty, se váží na jednu nebo dvě
 poslední přízvučné slabiky každého poloverše. Poslední přízvučnou slabiku
 od konce poloverše a první přízvučnou slabiku od druhé obvykle smí dělit
 nejvýše dvě slabiky nepřízvučné.
@@ -176,7 +176,7 @@ tištěných zpěvníků 19. a 20. století.
 Přízvučné slabiky pro zpěv vybíráme podle možností tak, aby opravdu
 přízvučné byly, tj. aby na nich ležel hlavní nebo vedlejší slovní přízvuk.
 Hlavní přízvuk leží v~češtině vždy na první slabice přízvučného celku.
-Základním přízvučným celkem je slovo. Jednoslabičná předložka pak tvoří jeden 
+Základním přízvučným celkem je slovo. Jednoslabičná předložka pak tvoří jeden
 přízvučný
 celek s~následujícím slovem. Vedlejší přízvuky leží v~delších přízvučných celcích
 na lichých slabikách.
@@ -189,13 +189,13 @@ Takovýmto kostrbatým řešením by bylo lze uniknout úpravou textů žalmů.
 K~té jsme ovšem nepřistoupili, protože chceme zachovat úplnou jednotu
 textu s~oficiálním vydáním Denní modlitby církve.
 (Bude-li kde nalezena jaká odchylka, není to svévolná úprava, ale přehlédnutí,
-a budeme vděční za oznámení takového porušeného místa, abychom je mohli 
+a budeme vděční za oznámení takového porušeného místa, abychom je mohli
 pro příští vydání opravit.)
 
 Další potíží (ovšem potíží známou i v~psalmodii latinské) je nestej\-ná délka
 poloveršů, přičemž některé poloverše nejsou dost dlouhé pro všechny
 psalmodické formule. Na verše, které v některém z poloveršů
-mají první ze dvou přízvuků již 
+mají první ze dvou přízvuků již
 na první slabice, nebo které dokonce první přízvuk vůbec nemají,
 pro zpěvákovo pohodlí upozorňujeme jedním, resp. dvěma vykřičníky in margine.
 Kritický poloverš je pak vytištěn kursivou.
@@ -209,10 +209,10 @@ Protože se doxologie opakuje za každým žalmem, v~plném znění ji otiskujem
 pouze u~kantika Magnificat na str.~\pageref{kmagnificat} a dále uvádíme
 vždy již jen zkratku \uv{Sláva Otci.}
 
-Při modlitbě uprostřed dne v~liturgických obdobích, kdy se její žalmy zpívají 
+Při modlitbě uprostřed dne v~liturgických obdobích, kdy se její žalmy zpívají
 s~jedinou antifonou, je možné (a snad dokonce žádoucí)
 tam, kde je hodinka složena z~částí
-rozděleného žalmu, doxologie mezi jednotlivými částmi vynechat, žalm zpívat 
+rozděleného žalmu, doxologie mezi jednotlivými částmi vynechat, žalm zpívat
 v~celku a doxologii připojit až na konci.
 
 \paragraph{Otevřené možnosti}
@@ -221,7 +221,7 @@ totiž na ten, který je připravován v~rámci projektu In adiutorium,
 jsou záměrně ponechány otevřené některé možnosti usnadnění.
 Pro žalm 95 zpívaný v~invitatoriu jsou preferovány vlastní nápěvy, je ale
 nabízen i jeho text označkovaný pro přednes na běžný žalmový nápěv.
-Podobně hymnus Te Deum se při omezených pěveckých schopnostech může 
+Podobně hymnus Te Deum se při omezených pěveckých schopnostech může
 z~nabízeného označkovaného textu zpívat na způsob žalmu.
 Kantikum podle Zj 19, které je rovněž vybaveno vlastními nápěvy, je tu
 opatřeno přízvuky pro případ, že by bylo žádoucí zpívat jeho verše jako
@@ -236,7 +236,7 @@ Na začátku jsou texty zpívané denně nebo velmi často, tj. evangelní
 kantika Benedictus a Magnificat, žalmy invitatoria a hymnus Te Deum.
 Následuje čtyřtýdenní cyklus žaltáře, žalmy kompletáře a doplňovacího cyklu
 pro modlitbu uprostřed dne.
-V~dalších dvou oddílech jsou žalmy a kantika (nebo jejich části), 
+V~dalších dvou oddílech jsou žalmy a kantika (nebo jejich části),
 které se v~pravidelných
 cyklech nevyskytují, ale jsou potřeba pro zvláštní příležitosti.
 Na konci svazku pak je Index svátků, který pro všechny liturgické formuláře
@@ -293,7 +293,7 @@ kde je možné je nalézt.
 
 \vspace{0.5cm}
 \rubrika{
-Za každým žalmem jsou v~poznámce uvedeny dny z~cyklu žaltáře, 
+Za každým žalmem jsou v~poznámce uvedeny dny z~cyklu žaltáře,
 kdy je ten který žalm zařazen v~psalmodii a není tedy vhodné použít ho
 jako žalm invitatoria. Žalm 95 není v~psalmodii nikdy a v~invitatoriu se proto
 dá použít vždy.}
@@ -306,7 +306,7 @@ dá použít vždy.}
 \begin{hora}
 \input{generovane/zaltar/tedeum.tex}
 
-\rubrika{Poslední část od \textnormal{Zachraň, Pane, svůj lid} 
+\rubrika{Poslední část od \textnormal{Zachraň, Pane, svůj lid}
   se může vynechat.}
 
 \end{hora}
@@ -315,7 +315,7 @@ dá použít vždy.}
 
 % Vypada to jako nadpis tydne, ale nepridava to (zbytecny) radek
 % do obsahu.
-%  (Obsah totiz prave o ten jeden radek pretekal na novou stranku 
+%  (Obsah totiz prave o ten jeden radek pretekal na novou stranku
 % a bylo to ohavne.)
 \begin{center}
 {\LARGE \textsc{Žaltář rozdělený do týdnů}}
@@ -1160,7 +1160,7 @@ dá použít vždy.}
 \zalm{73iii}
 \versikTIVpondeliCteni
 \end{hora}
-  
+
 \pagebreak % ZLOM
 \ranniChvaly
 \begin{hora}
@@ -1294,7 +1294,7 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 
-\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78,
 str.~\pageref{AdvVanPaTIV}.}
 
 \zalm{55ci}
@@ -1341,7 +1341,7 @@ str.~\pageref{AdvVanPaTIV}.}
 \modlitbaSeCtenim
 \begin{hora}
 
-\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78, 
+\rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 78,
 str.~\pageref{AdvVanSoTIV}.}
 
 \zalm{50i}
@@ -1430,12 +1430,12 @@ str.~\pageref{AdvVanSoTIV}.}
 \fancyhead[CE,CO]{Doplňovací cyklus žalmů}
 
 \rubrika{
-  Některé žalmy je možné při modlitbě uprostřed dne o slavnostech 
+  Některé žalmy je možné při modlitbě uprostřed dne o slavnostech
   podle rubrik ve vlastních nebo společných textech nahradit jinými,
   aby se předešlo opakování téhož žalmu v rámci jednoho dne.
   Čísla stránek záměnných žalmů jsou uvedena pod žalmy, kterých se to týká.
 }
-  
+
 \nadpisHodinka{První oddíl (dopoledne)}
 \begin{hora}
 \zalm{120}
@@ -1466,7 +1466,7 @@ str.~\pageref{AdvVanSoTIV}.}
 \nadpisTyden{Sváteční žalmy}{Sváteční žalmy}
 \fancyhead[CE,CO]{Sváteční žalmy}
 
-\rubrika{Následující žalmy a kantika se nevyskytují 
+\rubrika{Následující žalmy a kantika se nevyskytují
 (ať vůbec, ať takto rozdělené) v~cyklu žaltáře
 a používají se pouze o~některých slavnostech a svátcích,
 podle pokynů v~indexu svátků.}

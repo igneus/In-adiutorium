@@ -11,7 +11,7 @@
 \paper {
   ragged-bottom=##f
   ragged-last-bottom=##t
-  
+
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
 }
@@ -25,7 +25,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     c d f\breve f4-! \parenthesize d d4.^\markup\large\Dagger \barMin
     f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax
     f\breve c4 d e-! \parenthesize d d4. \barFinalis
@@ -43,9 +43,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     c d f\breve f4-! \parenthesize d d4. \mark\markup\large\Dagger \barMin
-    f\breve g4 g-! \parenthesize d d4. \mark\markup\large{*} \barMax 
+    f\breve g4 g-! \parenthesize d d4. \mark\markup\large{*} \barMax
     f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
@@ -248,7 +248,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f g f g g4.( a) \barMax
@@ -297,7 +297,7 @@
     quid = "ant. k Nunc dimittis"
     quidbreve = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulekBezZalmu}
     id = "sim"
@@ -308,11 +308,11 @@
   \header {
     subtitle = "Doba adventní"
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f \barMin f f f f( d) e( f) g \barMax
@@ -341,12 +341,12 @@
     }
   }
 }
-  
+
 \bookpart {
   \header {
-    subtitle = "Doba velikonoční" 
+    subtitle = "Doba velikonoční"
   }
-  
+
   % Tato cast obsahuje mene not a proto je lepsi, aby se, narozdil
   % od prvni casti, noty neroztahovaly na celou stranku, ale byly
   % nakupene nahore:
@@ -354,9 +354,9 @@
     ragged-bottom=##f
     ragged-last-bottom=##t
   }
-  
+
   \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -373,18 +373,18 @@
       quid = "ant. k žalmům"
       quidbreve = "ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f \barMin
@@ -413,10 +413,10 @@
       piece = \markup {\sestavTitulekResp}
     }
   }
-  
+
   \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
   jak je v jejích notách zapsáno.}
-  
+
   \markup\justify {Antifony, které se ve Velikonočním triduu
   a ve Velikonočním oktávu zpívají místo responsoria, jsou
   "v materiálech" pro tyto liturgické doby.}

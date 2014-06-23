@@ -26,7 +26,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -50,7 +50,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 147"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -74,7 +74,7 @@
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Flp 2"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -84,13 +84,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     \label #'respInesp
-    
+
     % R
-    \neviditelna f 
+    \neviditelna f
     f4 f f f f f f f g f g( a) a( g) \barMax
-    g g( a) g f d \barMin f d f( g) g f f \barFinalis 
+    g g( a) g f d \barMin f d f( g) g f f \barFinalis
     % V
     \neviditelna a
     a4 a a a a a a g( a) g g \barMin g g g g f g( a) a( g) \barMax
@@ -135,7 +135,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -162,7 +162,7 @@
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -186,7 +186,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -210,7 +210,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 19A"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -234,7 +234,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 45"
     fial = "antifony/advent_tyden2.ly#ne-1ne-a1"
     id = "mc-a3"
@@ -261,7 +261,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -281,7 +281,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -303,7 +303,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "rch-a3"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -313,7 +313,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f g f g g( a) a( g) \barMax
@@ -359,7 +359,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -378,7 +378,7 @@
     e( f) f f e c d4. d \barFinalis
   }
   \addlyrics {
-    Od Du -- cha sva -- té -- ho 
+    Od Du -- cha sva -- té -- ho
     by -- lo Si -- me -- o -- no -- vi zje -- ve -- no,
     že ne -- u -- zří smrt,
     do -- kud ne -- u -- vi -- dí
@@ -387,7 +387,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 110"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -411,7 +411,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 130"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -432,7 +432,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Kol 1"
     fons = "slavnost Narození Páně, modlitba uprostřed dne, odpolední antifona"
     fial = "vanoce_narozenipane.ly#vden-anona"
@@ -464,7 +464,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

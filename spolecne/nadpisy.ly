@@ -17,17 +17,17 @@
 #(define-markup-command (titleSvatek layout props titul rank datum) (markup? markup? markup?)
    "Sestavi header:title pro oficium svatku"
    (interpret-markup layout props
-     (markup 
-        #:center-column 
-          (#:medium #:large datum 
-           titul 
+     (markup
+        #:center-column
+          (#:medium #:large datum
+           titul
            #:medium #:large rank))))
 
 #(define-markup-command (titleSOddilem layout props oddil titul) (markup? markup?)
    "Sestavi header:title pro oficium z vetsiho oddilu (napr. liturgicke doby)"
    (interpret-markup layout props
-     (markup 
-        #:center-column 
+     (markup
+        #:center-column
           (#:medium #:large oddil
            titul))))
 
@@ -45,10 +45,10 @@
 
 % common parts of piece titles
 quidEtTonus = \markup\concat{
-  \fromproperty #'header:quid 
-  " - " 
-  \fromproperty #'header:modus 
-  "." 
+  \fromproperty #'header:quid
+  " - "
+  \fromproperty #'header:modus
+  "."
   \fromproperty #'header:differentia
 }
 placet = \markup\large{
@@ -62,12 +62,12 @@ placet = \markup\large{
 rocniCyklus = \markup {
   \concat { " - rok " \bold{\fromproperty #'header:annus }}
 }
-                            
+
 % piece title for antiphons
 sestavTitulek = \markup\concat{
   \quidEtTonus
-  " (" 
-  \fromproperty #'header:psalmus 
+  " ("
+  \fromproperty #'header:psalmus
   ") "
   \placet
 }
@@ -81,9 +81,9 @@ sestavTitulekBezZalmu = \markup\concat{
 % piece titles for chants without a differentia - most usually
 % responsories
 sestavTitulekResp = \markup\concat {
-  \fromproperty #'header:quid 
-  " - " 
-  \fromproperty #'header:modus 
+  \fromproperty #'header:quid
+  " - "
+  \fromproperty #'header:modus
   " "
   \placet
 }

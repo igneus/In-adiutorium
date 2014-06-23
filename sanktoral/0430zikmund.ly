@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Zikmunda, mučedníka" 
+  title = \markup\titleSvatek
+            "sv. Zikmunda, mučedníka"
             "nezávazná památka"
             30.4.
   composer = "Jakub Pavlík"
@@ -25,7 +25,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -49,7 +49,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

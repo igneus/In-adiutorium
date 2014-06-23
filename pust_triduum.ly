@@ -24,7 +24,7 @@
     Kris -- tus,_*
     pr -- vo -- ro -- ze -- ný z_mrt -- vých
     a Král krá -- lů,
-    z_nás vy -- tvo -- řil Bo -- hu, 
+    z_nás vy -- tvo -- řil Bo -- hu,
     své -- mu Ot -- ci, krá -- lov -- ství.
   }
   \header {
@@ -49,13 +49,13 @@
   \addlyrics {
     Pán vy -- svo -- bo -- dí chu -- dá -- ka,_*
     kte -- rý se do -- vo -- lá -- vá po -- mo -- ci,
-    u -- bo -- žá -- ka, 
+    u -- bo -- žá -- ka,
     je -- hož se ni -- kdo ne -- u -- jí -- má.
   }
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 72-II"
     id = "ct-nesp-ant2"
     piece = \markup {\sestavTitulek}
@@ -75,7 +75,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Zj 11"
     id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulek}
@@ -94,7 +94,7 @@
     quid = "ant. místo responsoria"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "ct-resp"
     fons = "Bílá sobota, ant. místo responsoria."
@@ -118,7 +118,7 @@
     quid = "ant. k Magnificat"
     quidbreve = "ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "ct-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -137,14 +137,14 @@
     a4 a a( g f) g( f) e f d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me,_* 
+    Pojď -- me,_*
     klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
     on nás vy -- kou -- pil svou kr -- ví.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "pa-invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -170,7 +170,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -188,7 +188,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 22"
     id = ""
     fial = "fial://antifony/tyden3_6patek.ly#up-ant2"
@@ -209,7 +209,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 38"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -231,7 +231,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D2" 
+    differentia = "D2"
     psalmus = "Žalm 51"
     id = "pa-rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -251,7 +251,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Hab 3"
     id = "pa-rch-ant2"
     notitia = "Textově téměř shodný je začátek ant. k Magn. ze svátku Křtu Páně, ale její melodie (k 7.2.2012) nebyla použitelná, protože je (i když kousek končí na tónice) příliš nesena dynamikou rozjezdu k něčemu, co následuje."
@@ -274,7 +274,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 147-II"
     id = "pa-rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -295,7 +295,7 @@
     quid = "ant. místo responsoria"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "pa-resp"
     fons = "Bílá sobota, ant. místo responsoria."
@@ -317,7 +317,7 @@
     quid = "ant. k Benedictus"
     quidbreve = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -340,7 +340,7 @@
     quid = "ant. dopoledne"
     quidbreve = "ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = "pa-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -363,7 +363,7 @@
     quid = "ant. v poledne"
     quidbreve = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "pa-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -381,14 +381,14 @@
   \addlyrics {
     Ve tři ho -- di -- ny_*
     zvo -- lal Je -- žíš moc -- ným hla -- sem:
-    Bo -- že můj, Bo -- že můj, 
+    Bo -- že můj, Bo -- že můj,
     proč jsi mě o -- pus -- til?
   }
   \header {
     quid = "ant. odpoledne"
     quidbreve = "ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -412,7 +412,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 116-II"
     id = "pa-nesp-ant1"
     piece = \markup {\sestavTitulek}
@@ -432,7 +432,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 143"
     id = "pa-nesp-ant2"
     piece = \markup {\sestavTitulek}
@@ -454,7 +454,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Flp 2"
     id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
@@ -482,7 +482,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. k Magnificat"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -507,7 +507,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
@@ -528,7 +528,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 4"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -539,7 +539,7 @@ jinak zachránit její zpívatelnost.}
   \relative c'' {
     \choralniRezim
     a4( c g) a f f( g) \barMin g f e d( e) d d \barMaior
-    a' c d a \barMin 
+    a' c d a \barMin
     bes a g a( f) d \barMin e e e( g) f d d \barFinalis
   }
   \addlyrics {
@@ -550,7 +550,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 16"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -570,7 +570,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 24"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -594,7 +594,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 64"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -608,13 +608,13 @@ jinak zachránit její zpívatelnost.}
     d4( f) e f( g) g \barMin f( g) f( e c) d \barFinalis
   }
   \addlyrics {
-    Z_mo -- ci pod -- svě -- tí_* 
-    za -- chraň, Pa -- ne, mou du -- ši.    
+    Z_mo -- ci pod -- svě -- tí_*
+    za -- chraň, Pa -- ne, mou du -- ši.
   }
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 38"
     id = "so-rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -636,7 +636,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 150"
     id = "so-rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -661,7 +661,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. místo responsoria"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "so-resp"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -674,22 +674,22 @@ jinak zachránit její zpívatelnost.}
     \choralniRezim
     \neviditelna d
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
-    
+
     \neviditelna a
     a g g( e) e f( e) f( g a4.) a4 \barFinalis
-    
+
     \neviditelna a
     a a a a g a a( b c d) e( c d4.) d \barMaior
     d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
   }
   \addlyrics {
-    \markup\bold{I.} 
+    \markup\bold{I.}
     Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
-    
-    \markup\bold{II.} 
+
+    \markup\bold{II.}
     a to k_smr -- ti na kří -- ži.
-    
-    \markup\bold{III.} 
+
+    \markup\bold{III.}
     Pro -- to ho ta -- ké Bůh po -- vý -- šil
     a dal mu Jmé -- no nad kaž -- dé ji -- né jmé -- no.
   }
@@ -697,7 +697,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. místo responsoria"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "resp-casti"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -721,7 +721,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. k Benedictus"
     quidbreve = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "so-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -744,7 +744,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. dopoledne"
     quidbreve = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "so-up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -765,7 +765,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. v poledne"
     quidbreve = "ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "so-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -788,7 +788,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. odpoledne"
     quidbreve = "ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "so-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -810,7 +810,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 116-II"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
@@ -825,14 +825,14 @@ jinak zachránit její zpívatelnost.}
     a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Ja -- ko byl Jo -- náš_* 
+    Ja -- ko byl Jo -- náš_*
     v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
     tak bu -- de Syn člo -- vě -- ka v_nit -- ru ze -- mě.
   }
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 143"
     id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
@@ -856,7 +856,7 @@ jinak zachránit její zpívatelnost.}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Flp 2"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
@@ -879,7 +879,7 @@ jinak zachránit její zpívatelnost.}
     quid = "ant. k Magnificat"
     quidbreve = "ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "so-nesp-mag"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."

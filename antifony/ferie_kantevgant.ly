@@ -205,7 +205,7 @@ tIpatekAntBenedictus = \score {
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "jedna z mých oblíbených; 
+    placet = "jedna z mých oblíbených;
       přesto: je diskutabilní, zda rytmus _navštívil_ a _vykoupil_
       je v českém chorálu legitimní (či alespoň tolerovatelný)"
     id = "t1-pa-ben"

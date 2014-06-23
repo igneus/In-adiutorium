@@ -8,10 +8,10 @@
 \include "spolecne.ly"
 
 \paper {
-  scoreTitleMarkup = \markup\column{ 
+  scoreTitleMarkup = \markup\column{
     \huge\bold\fill-line {
       " "
-      \concat{ 
+      \concat{
         \fromproperty #'header:modus
       }
       " "
@@ -33,13 +33,13 @@ kantikumZjXIXtext = \lyricmode {
   \al
   \Verse ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
   \alal
-  
+
   \Verse \ial
   Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
   \al
   \Verse a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí!
   \alal
-  
+
   \Verse \ial
   Pán, náš Bůh vše -- vlád -- ný se u -- jal krá -- lov -- ství!
   \al
@@ -51,7 +51,7 @@ kantikumZjXIXtext = \lyricmode {
   \al
   \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
   \alal
-  
+
   \Verse \ial
   Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
   \al
@@ -62,19 +62,19 @@ kantikumZjXIXtext = \lyricmode {
 modIial = \relative c'' { \neviditelna a a4 c( b) a( b g) g( a) \barMax }
 modIal = \relative c' { \neviditelna f f4 e f( a) a \barFinalis }
 modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \barFinalis \break }
-  
+
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % Vitezstvi
-    \modIial 
+    \modIial
     a4( c) b( a) a \barMin a( g) f g f( d) \barMin d e f d d \barFinalis
-    \modIal 
+    \modIal
     \neviditelna a
     c'4 c b c a( g) g g a f f( d) \barMin d e f d( c) c \barFinalis
     \modIalal
-    
+
     % Chvalte naseho Boha
     \modIial
     a'4( c) c c b c a a \barMin a g f g f( e) d d \barFinalis
@@ -82,7 +82,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
     \neviditelna a
     c'4 c b c d( c) a a \barMin a f g f( d) d \barFinalis
     \modIalal
-    
+
     % Pan, nas Buh
     \modIial
     a'4.( c) \barMin a4( g) a4.( g) a4( g) f( d) d \barMin d e( f) f e( f) d d \barFinalis
@@ -90,7 +90,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
     \neviditelna a
     c'4 c b a c( b) g g \barMin f g f g a \barFinalis
     \modIalal
-    
+
     % Nebot nadesla
     \modIial
     a4( g) a c( b) a( g) g \barMin a g f g f( d) d \barFinalis
@@ -98,7 +98,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
     \neviditelna a
     a'4 a a( c) c( a) a a g f e e \barFinalis
     \modIalal
-    
+
     % Slava
     \modIial
     a4( c) c c( b) a b a( g) g \barMin g g( a g) f e d d \barFinalis
@@ -123,15 +123,15 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % Vitezstvi
-    \modIVial 
+    \modIVial
     a4 a a b a g g( e) \barMin f e d e e \barFinalis
-    \modIVal 
+    \modIVal
     \neviditelna a
     a4 a a a g g \barMin g f g f e f g a a \barFinalis
     \modIValal
-    
+
     % Chvalte naseho Boha
     \modIVial
     a4 a b a g g( e) e \barMin f f e d d( e) e e \barFinalis
@@ -139,7 +139,7 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
     \neviditelna a
     a4 a a a g e e \barMin f e f g( a) a \barFinalis
     \modIValal
-    
+
     % Pan, nas Buh
     \modIVial
     a4 a b( a) g e e e f e d e e \barFinalis
@@ -147,7 +147,7 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
     \neviditelna a
     a4 a a g a g e e f e g a \barFinalis
     \modIValal
-    
+
     % Nebot nadesla
     \modIVial
     a4 a a( b) a( g e) e f f e d d( e) e \barFinalis
@@ -155,7 +155,7 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
     \neviditelna a
     a4 a g f e e f g a a \barFinalis
     \modIValal
-    
+
     % Slava
     \modIVial
     a4 a b a g g( e) e \barMin f e d d( e) e e \barFinalis
@@ -180,7 +180,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % Vitezstvi
     \modVIIial
     c4( d) d( c) c \barMin d( e) d c c( d) \barMin d c d d( c) c \barFinalis
@@ -188,7 +188,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
     \neviditelna c
     d d e f e( d) d d c d c( b) \barMin b c b a( g) g \barFinalis
     \modVIIalal
-    
+
     % Chvalte
     \modVIIial
     c4( d) d c b c c( d) d \barMin d e d c c( d) d( c) c \barFinalis
@@ -196,7 +196,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
     \neviditelna c
     d4 d d d e( f) e( d) d \barMin c b a b( c a g) g \barFinalis
     \modVIIalal
-    
+
     % Pan nas Buh
     \modVIIial
     c4( b c) c( d) d( c) \barMin d( e) d( c) c( d) \barMin d d d c( d) d( c) c \barFinalis
@@ -204,7 +204,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
     \neviditelna c
     d4 d d d e( f) d( c) c \barMin b c b g f( g) \barFinalis
     \modVIIalal
-    
+
     % Nebot nadesla
     \modVIIial
     c4 b c( d) d( c) c \barMin d e d c d( c) c \barFinalis
@@ -212,7 +212,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
     \neviditelna c
     d d e( f) e( d) d d c b a( g) g \barFinalis
     \modVIIalal
-    
+
     % Slava
     \modVIIial
     c4( d) d d( c) c b c( d) d \barMin d e d c( d) d( c) c \barFinalis

@@ -16,7 +16,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna g
     g4 g g( a) g a( b) c b g a a \barMin b( c d c) b( a) b \barMax
@@ -63,7 +63,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -75,7 +75,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     d4 d d( f) d g( f) g d c d d \barMin f( g) a g( a) a \barMax
@@ -122,7 +122,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

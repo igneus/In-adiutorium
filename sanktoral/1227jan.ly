@@ -20,14 +20,14 @@
     a( g) f( g) a g g \barFinalis
   }
   \addlyrics {
-    Jan vy -- dal svě -- dec -- tví 
+    Jan vy -- dal svě -- dec -- tví
     o Bo -- žím Slo -- vu,
     Je -- ží -- ši Kris -- tu.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -37,7 +37,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g a \barMin 
+    f4 g a a g a \barMin
     f f f f( g) f d( e) d d \barFinalis
   }
   \addlyrics {
@@ -47,7 +47,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 64"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -64,16 +64,16 @@
     d( e f) e( f) d c d d \barFinalis
   }
   \addlyrics {
-    Jan le -- žel při ve -- če -- ři 
+    Jan le -- žel při ve -- če -- ři
     na Pá -- no -- vých pr -- sou:
     šťast -- ný a -- po -- štol,
-    je -- muž by -- la zje -- ve -- na 
+    je -- muž by -- la zje -- ve -- na
     ne -- bes -- ká ta -- jem -- ství.
   }
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 99"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -91,7 +91,7 @@
     g a a a a f( e) d f f g g \barFinalis
   }
   \addlyrics {
-    Jan při -- lnul ke Kris -- tu 
+    Jan při -- lnul ke Kris -- tu
     ce -- lou svou lás -- kou
     a on si ho vy -- vo -- lil za a -- po -- što -- la
     a mi -- lo -- val ho ví -- ce než os -- tat -- ní.
@@ -99,7 +99,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -121,7 +121,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -139,7 +139,7 @@
   }
   \addlyrics {
     U -- čed -- ník,_*
-    kte -- ré -- ho Je -- žíš mi -- lo -- val, 
+    kte -- ré -- ho Je -- žíš mi -- lo -- val,
     ře -- kl:
     To je Pán!
     A -- le -- lu -- ja!
@@ -147,7 +147,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "Velikonoční oktáv, pátek, k Magnificat"
@@ -160,13 +160,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f g f( d) d \barMin 
+    d4 c d f g f( d) d \barMin
     f g a g f g( a) a g g \barMin
     a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
     c d e d \barFinalis
   }
   \addlyrics {
-    Slo -- vo se sta -- lo tě -- lem 
+    Slo -- vo se sta -- lo tě -- lem
     a pře -- bý -- va -- lo me -- zi ná -- mi.
     Vi -- dě -- li jsme je -- ho slá -- vu.
     A -- le -- lu -- ja.
@@ -174,7 +174,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}

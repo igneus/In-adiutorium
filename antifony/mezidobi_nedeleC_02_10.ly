@@ -76,7 +76,7 @@
   }
   \addlyrics {
     Je -- žíš při -- šel v_sí -- le Du -- cha do Ga -- li -- le -- je;
-    u -- čil v_je -- jich sy -- na -- gó -- gách 
+    u -- čil v_je -- jich sy -- na -- gó -- gách
     a všich -- ni ho vel -- mi chvá -- li -- li.
   }
   \header {
@@ -108,7 +108,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "fial://advent_antifony.ly#predvanocni-zlm-st-a3"
     annus = "C"
@@ -170,7 +170,7 @@
   }
   \addlyrics {
     Je -- žíš ře -- kl:
-    Žád -- ný pro -- rok 
+    Žád -- ný pro -- rok
     ne -- ní ví -- ta -- ný ve svém do -- mo -- vě.
   }
   \header {
@@ -190,7 +190,7 @@
     d4 c e f d d \barMin f f g f( e) d \barMaior
     d d d c( d) c( b) a \barMin d f d( c) d \barMaior
     d e f e d c c( b) a \barMax
-    
+
     d d d( f) d f e d c \barMaior
     d c e d c d \barFinalis
   }
@@ -198,7 +198,7 @@
     Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
     a ved -- li Je -- ží -- še na sráz ho -- ry,
     a -- by ho sra -- zi -- li do -- lů.
-    
+
     On však pro -- šel je -- jich stře -- dem
     a u -- bí -- ral se dál.
   }
@@ -292,14 +292,14 @@
     \choralniRezim
     f4 f f( g) f f e( d) e( d) d \barMaior
     c d d( f) f f g( a bes) a g( a) f f \barMax
-    
+
     g g g f d \barMin d c d d( f) e( d) e d \barMaior
     f g( a) g( a) g f g( a bes) a g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
     ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
-    
+
     Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
     ne -- boť bu -- de -- te na -- sy -- ce -- ni.
   }
@@ -321,7 +321,7 @@
     d d d d( g) f e d \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te, 
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
     ne -- boť se bu -- de -- te smát.
   }
   \header {
@@ -400,9 +400,9 @@
     d d e c( b a) g a a( g) g \barFinalis
   }
   \addlyrics {
-    Ne -- suď -- te, 
+    Ne -- suď -- te,
     a ne -- bu -- de -- te sou -- ze -- ni,
-    ne -- za -- vr -- huj -- te, 
+    ne -- za -- vr -- huj -- te,
     a ne -- bu -- de -- te za -- vr -- že -- ni.
     Od -- pouš -- těj -- te,
     a bu -- de vám od -- puš -- tě -- no.
@@ -500,7 +500,7 @@
     d( c) d f( d) c( d) d \barMin f f( e d) e d c( d) d \barFinalis
   }
   \addlyrics {
-    Dob -- rý člo -- věk vy -- ná -- ší 
+    Dob -- rý člo -- věk vy -- ná -- ší
     z_dob -- ré po -- klad -- ni -- ce své -- ho srd -- ce dob -- ro,
     a -- le zlý ze zlé -- ho vy -- dá -- vá zlo.
     Ús -- ta mlu -- ví to, čím pře -- té -- ká srd -- ce.
@@ -556,7 +556,7 @@
     Pa -- ne, ne -- jsem ho -- den,
     a -- bys ve -- šel pod mou stře -- chu;
     a -- le řek -- ni jen slo -- vo,
-    a můj slu -- žeb -- ník 
+    a můj slu -- žeb -- ník
     bu -- de u -- zdra -- ven.
   }
   \header {
@@ -580,10 +580,10 @@
     a f e d e d c d d \barFinalis
   }
   \addlyrics {
-    Když Je -- žíš u -- sly -- šel 
+    Když Je -- žíš u -- sly -- šel
     set -- ní -- ko -- va slo -- va,
     po -- di -- vil se:
-    A -- ni v_Iz -- ra -- e -- li 
+    A -- ni v_Iz -- ra -- e -- li
     jsem ne -- na -- šel ta -- ko -- vou ví -- ru!
   }
   \header {
@@ -608,7 +608,7 @@
     \[ g( f g \] \[ a g f e) \] e4.( d4 f e) \barFinalis
   }
   \addlyrics {
-    Když Pán u -- vi -- děl vdo -- vu 
+    Když Pán u -- vi -- děl vdo -- vu
     o -- pla -- ká -- va -- jí -- cí své -- ho sy -- na,
     by -- lo mu jí lí -- to a ře -- kl jí:
     Ne -- plač!
@@ -648,14 +648,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( a' bes a) g( a) \barMin 
+    d4 d d d( a' bes a) g( a) \barMin
     a g( a) a bes a( g) g \barMaior
     f( g) \barMin g( a f) e( d) d e( c) d \barFinalis
   }
   \addlyrics {
-    Ve -- li -- ký pro -- rok 
+    Ve -- li -- ký pro -- rok
     po -- vstal me -- zi ná -- mi;
-    % a 
+    % a
     Bůh na -- vští -- vil svůj lid.
   }
   \header {

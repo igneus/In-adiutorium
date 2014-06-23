@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Víta, mučedníka" 
+  title = \markup\titleSvatek
+            "sv. Víta, mučedníka"
             "nezávazná památka"
             15.6.
   composer = "Jakub Pavlík"
@@ -13,20 +13,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d) c d e( a g) a \barMin 
+    e4( d) c d e( a g) a \barMin
     a g a( b a) g a a \barMaior
     a g a g( f) e e \barMin
     d c d( f) e e \barFinalis
   }
   \addlyrics {
-    Zkou -- šels mě, Pa -- ne, 
+    Zkou -- šels mě, Pa -- ne,
     ja -- ko zla -- to v_oh -- ni
     a ne -- na -- le -- zl jsi na mě ne -- pra -- vost.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,7 +52,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     fons = "začátek posle antifony k Magnificat z pam. sv. Vojtěcha"

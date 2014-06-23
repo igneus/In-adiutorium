@@ -31,7 +31,7 @@
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "invit"
     fons = "první část je z invitatoria Narození Jana Křtitele"
@@ -56,7 +56,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -67,18 +67,18 @@
   \relative c'' {
     \choralniRezim
     a4 a a a g a a g( f e) \barMaior
-    d c d e f( a) \barMin 
+    d c d e f( a) \barMin
     a a g( b g) a g a a \barMin a g( a) g f d( e) e e \barFinalis
   }
   \addlyrics {
     He -- ro -- des měl před Ja -- nem strach,
-    pro -- to -- že ho znal 
+    pro -- to -- že ho znal
     ja -- ko spra -- ved -- li -- vé -- ho a sva -- té -- ho člo -- vě -- ka.
   }
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -98,7 +98,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -108,7 +108,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     g a c c d( e d) c( d) d \barMax
@@ -154,7 +154,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -170,13 +170,13 @@
     a g f e e \barFinalis
   }
   \addlyrics {
-    Ne -- boj se jich, vždyť já jsem s_te -- bou, 
+    Ne -- boj se jich, vždyť já jsem s_te -- bou,
     pra -- ví Hos -- po -- din.
   }
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 116-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -197,7 +197,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -218,7 +218,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 116-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -240,7 +240,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 4"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
@@ -250,7 +250,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     g a( c) c c d( e d) c c( d) d( c) d \barMax
@@ -294,7 +294,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

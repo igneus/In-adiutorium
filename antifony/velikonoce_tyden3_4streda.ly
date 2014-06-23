@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 86"
     id = "rch-a1"
     fons = "žaltář, pátek 1.t., nešp., 3. ant.; přidáno aleluja"
@@ -42,10 +42,10 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 33"
     id = "rch-a2"
-    fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu 
+    fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
     	'Moje oči': Narození Páně, uprostřed dne, odpoledne"
     placet = "~ stálo by za to odlehčit konec"
     piece = \markup {\sestavTitulek}
@@ -68,7 +68,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 98"
     id = "rch-a3"
     placet = "~"
@@ -91,7 +91,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 126"
     id = "ne-a1"
     placet = "~"
@@ -114,7 +114,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 127"
     id = "ne-a2"
     placet = "r"

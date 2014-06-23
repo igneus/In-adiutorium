@@ -234,7 +234,7 @@
     differentia = "D"
     psalmus = "Žalm 81"
     id = "mc-a3"
-    notitia = "snadno by se dala textově a hudebně sjednotit s jednou 
+    notitia = "snadno by se dala textově a hudebně sjednotit s jednou
     již existující skupinou textově příbuzných antifon, ale záměrně jsem to neudělal"
     piece = \markup {\sestavTitulek}
   }

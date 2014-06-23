@@ -82,7 +82,7 @@
     subtitle = "Cyklus B"
   }
 
-  \include "antifony/mezidobi_nedeleB_02_10.ly" 
+  \include "antifony/mezidobi_nedeleB_02_10.ly"
   \include "antifony/mezidobi_nedeleB_11_20.ly"
   \pageBreak % ZLOM
   \include "antifony/mezidobi_nedeleB_21_30.ly"
@@ -93,9 +93,9 @@
   \header {
     subtitle = "Cyklus C"
   }
-  
-  \include "antifony/mezidobi_nedeleC_02_10.ly" 
-  \include "antifony/mezidobi_nedeleC_11_20.ly" 
-  \include "antifony/mezidobi_nedeleC_21_30.ly" 
+
+  \include "antifony/mezidobi_nedeleC_02_10.ly"
+  \include "antifony/mezidobi_nedeleC_11_20.ly"
+  \include "antifony/mezidobi_nedeleC_21_30.ly"
   \include "antifony/mezidobi_nedeleC_31_33.ly"
 }

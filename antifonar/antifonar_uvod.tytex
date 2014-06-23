@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
@@ -75,7 +75,7 @@ již teď, zveřejňujeme ho prozatím samostatně.
 
 \section{K pojmu a využití antifonáře}
 
-Jako antifonář (\emph{antiphonale, antiphonarium, liber antiphonarius}) 
+Jako antifonář (\emph{antiphonale, antiphonarium, liber antiphonarius})
 se zpravidla
 označuje kniha užívaná při liturgii hodin, v níž jsou obsaženy
 melodie těch zpěvů, které mají vlastní originální nápěv
@@ -124,13 +124,13 @@ Tato antifona se přednese a všichni ji hned opakují, potom ji vždy znovu
 opakují po každé strofě žalmu.
 
 Slavnosti a svátky mají úvodní antifonu vlastní nebo ze společných textů.
-O památkách svatých, pokud nemají antifonu vlastní, se může vzít 
+O památkách svatých, pokud nemají antifonu vlastní, se může vzít
 buď ze společných textů, nebo z příslušného dne liturgické doby.
 
-Žalm 95 zpívá kantor na nápěv uvedený ve Společných nápěvech, 
+Žalm 95 zpívá kantor na nápěv uvedený ve Společných nápěvech,
 s. \pageref{tc:venite}.
 Pokud se zvolí jiný ze žalmů nabízených pro invitatorium
-na začátku žaltáře, 
+na začátku žaltáře,
 zpívá se na běžný žalmový nápěv, avšak první verš každé strofy
 se začne zahajovací melodickou formulí (\emph{initium}).
 
@@ -159,9 +159,9 @@ melodickou ozdobou, tkzv. flexou.
 V textech breviáře je polovina verše označena hvězdičkou,
 flexa "křížkem".
 
-Existuje devět základních chorálních nápěvů 
+Existuje devět základních chorálních nápěvů
 psalmodie\footnote{Výzkum dějin gregoriánského chorálu mě v tomto
-bodě obžalovává z nedovoleného zjednodušení. Nové chorální knihy 
+bodě obžalovává z nedovoleného zjednodušení. Nové chorální knihy
 ze Solesmes, např. Psalterium monasticum (1981) užívají
 více starých rekonstruovaných nápěvů. Já jsem ale pro potřeby
 Antifonáře k Denní modlitbě církve podržel systém devíti tonů,
@@ -183,13 +183,13 @@ podtržení slabiky.
 
 \simpleScore{#1}
 
-Zde je vzorec pro nápěv psalmodie užívaný 
+Zde je vzorec pro nápěv psalmodie užívaný
 v kompletáři.\footnote{
 Neodpovídá žádnému z devíti standardních obsažených
 v tabulce. Pochází z Antiphonale Romanum 1913, kde byl určen
 ke zpěvu žalmů bez antifony. Tento způsob zpěvu
 žalmů současná Denní modlitba církve nezná - je ale zachován
-v oficiu některých mnišských komunit - mj. v benediktinském 
+v oficiu některých mnišských komunit - mj. v benediktinském
 kompletáři. Tonálními charakteristikami přísluší k modu II.}
 
 Následující text je vzat z žalmu 91, který se modlíme
@@ -212,25 +212,25 @@ zpíván responsoriálně (tj. tak, že jeden zpívá žalm a
 ostatní odpovídají antifonou).
 
 \begin{quote}
-Kdo přebýváš v ochraně Nejvyš\underline{ší}ho,~* 
-kdo dlíš ve stínu Všemoc\underline{né}ho, 
+Kdo přebýváš v ochraně Nejvyš\underline{ší}ho,~*
+kdo dlíš ve stínu Všemoc\underline{né}ho,
 
-řekni Hospodinu: "Mé útočiště jsi a \underline{má} tvrz,~* 
-můj Bůh, v něhož \underline{dou}fám!" 
+řekni Hospodinu: "Mé útočiště jsi a \underline{má} tvrz,~*
+můj Bůh, v něhož \underline{dou}fám!"
 \\
 
-Neboť on tě vysvobodí z léčky \underline{ptáč}níka,~* 
-ze zhoubného \underline{mo}ru. 
+Neboť on tě vysvobodí z léčky \underline{ptáč}níka,~*
+ze zhoubného \underline{mo}ru.
 
-Ochrání tě svými peru\underline{tě}mi,~+ 
-uchýlíš se pod jeho \underline{kříd}la,~* 
-štít a pavéza je věrnost \underline{je}ho. 
+Ochrání tě svými peru\underline{tě}mi,~+
+uchýlíš se pod jeho \underline{kříd}la,~*
+štít a pavéza je věrnost \underline{je}ho.
 
-Nemusíš se bát noční \underline{hrů}zy,~* 
-šípu létajícího \underline{ve} dne, 
+Nemusíš se bát noční \underline{hrů}zy,~*
+šípu létajícího \underline{ve} dne,
 
-moru, který se plíží \underline{ve} tmě,~* 
-nákazy, jež pustoší o po\underline{led}nách. 
+moru, který se plíží \underline{ve} tmě,~*
+nákazy, jež pustoší o po\underline{led}nách.
 \end{quote}
 
 U melodických ozdob je třeba dávat pozor na slabiky předcházející
@@ -260,11 +260,11 @@ Následuje příklad verše s flexou.
 \subsection{Přednes}
 
 Chorální notace se od zápisu not v posledních staletích většinově
-užívaného liší tím, že neudává stálý rytmus ani přesnou délku 
+užívaného liší tím, že neudává stálý rytmus ani přesnou délku
 jednotlivých not.
 
 Chorální melodie by měly být především oporou textu.
-Rytmus je dán rytmem řeči. Délka not zčásti odpovídá 
+Rytmus je dán rytmem řeči. Délka not zčásti odpovídá
 přirozené délce té které slabiky v mluveném projevu, někdy
 je v notách naznačeno prodloužení.
 
@@ -275,7 +275,7 @@ jsou spjaty s latinským jazykem. Latina má jiné harakteristiky než čeština
 a české texty proto někdy nelze na chorální nápěvy zpívat bez jistého
 většího nebo menšího "bezpráví".
 
-Pro nápěvy psalmodie jsou významné jeden nebo dva poslední přízvuky 
+Pro nápěvy psalmodie jsou významné jeden nebo dva poslední přízvuky
 poloverše. Po každém z těchto přízvuků může následovat jedna nebo dvě
 nepřízvučné slabiky.
 
@@ -292,7 +292,7 @@ jednoslabičná předložka (ve, ze, pod a podobně), přebírá přízvuk ona.
 
 Je-li to možné, dávám vždy přednost přirozeným přízvukům.
 
-2. Vedlejší přízvuky ve slově delším než dvě slabiky kladu (svévolně - 
+2. Vedlejší přízvuky ve slově delším než dvě slabiky kladu (svévolně -
 to v jazyce samém nemá žádnou oporu) na liché slabiky - tedy na slabiku
 třetí, pátou.
 
@@ -300,8 +300,8 @@ Problematické je, končí-li část verše sérií jednoslabičných slov - pak
 nejde najít žádné elegantní řešení.
 
 \begin{todo}{}
-Nevyřešená otázka: 
-\uv{To je pokolení těch, kdo \underline{po} něm \underline{tou}ží}, 
+Nevyřešená otázka:
+\uv{To je pokolení těch, kdo \underline{po} něm \underline{tou}ží},
 nebo \uv{To je pokolení těch, \underline{kdo} po něm \underline{tou}ží} (Žalm 24)?
 
 Zmínit nedořešené problémy s jednoslabičnými slovy.

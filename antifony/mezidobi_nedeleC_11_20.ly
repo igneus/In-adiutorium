@@ -65,7 +65,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim
@@ -181,7 +181,7 @@
     a( b c) a g( a) g g \barFinalis
   }
   \addlyrics {
-    Jdi a zvěs -- tuj 
+    Jdi a zvěs -- tuj
     Bo -- ží krá -- lov -- ství!
   }
   \header {
@@ -323,7 +323,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f 
+    f4 f f f
     a a g f g( a) a g f g f f \barMin
     g g g f e d( c) c \barMaior
     d( e f) d c d( c) c \barMin
@@ -350,7 +350,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g a a g f g g g 
+    f4 f f f g a a g f g g g
     f d e c c \barMaior
     d( f) \barMin f g( a) a g f g f \barFinalis
   }
@@ -499,7 +499,7 @@
     tře -- ba -- že jste zlí,
     u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
     čím spí -- še ne -- bes -- ký O -- tec
-    dá Du -- cha sva -- té -- ho 
+    dá Du -- cha sva -- té -- ho
     těm, kdo ho pro -- sí!
   }
   \header {
@@ -614,7 +614,7 @@
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní slu -- žeb -- ní -- ci,
-    kte -- ré Pán při svém pří -- cho -- du 
+    kte -- ré Pán při svém pří -- cho -- du
     na -- jde, jak bdí.
   }
   \header {
@@ -659,14 +659,14 @@
   }
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
-    a jak si pře -- ji, a -- by 
+    a jak si pře -- ji, a -- by
     % už vzpla -- nul! % puvodni
     se už vzňal! % moje nahrazka
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "ne20c-2ne-amag"
     fial = "mezidobi_nejsvsrdce.ly#1ne-amag"

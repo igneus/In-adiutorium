@@ -25,7 +25,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 141"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -49,7 +49,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 142"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -75,7 +75,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -97,7 +97,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -117,7 +117,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -137,7 +137,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -147,7 +147,7 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 % ant. k Mag. 1. ne. post. cyklu A tento text zahrnuje,
-% ale uryvek melodie nebyl samostatne pouzitelny. 
+% ale uryvek melodie nebyl samostatne pouzitelny.
 % Tato je tedy nova, nezavisla.
 \score {
   \relative c'' {
@@ -162,7 +162,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -182,7 +182,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 114"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -204,7 +204,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "1 Petr 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -230,7 +230,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=2"
     id = ""
@@ -255,7 +255,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=1"
     id = ""
@@ -298,14 +298,14 @@
     a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Ja -- ko byl Jo -- náš_* 
+    Ja -- ko byl Jo -- náš_*
     v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
     tak bu -- de Syn člo -- vě -- ka v_nit -- ru ze -- mě.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "pust_triduum.ly#so-nesp-ant2"
     id = ""
@@ -330,7 +330,7 @@
     tře -- ba -- že jste zlí,
     u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
     čím spí -- še ne -- bes -- ký O -- tec
-    dá dob -- ré vě -- ci 
+    dá dob -- ré vě -- ci
     těm, kdo ho pro -- sí!
   }
   \header {
@@ -408,7 +408,7 @@
     d d( e f) e( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři 
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
     a tam si vzpo -- me -- neš,
     že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
     nech tam svůj dar před ol -- tá -- řem
@@ -432,7 +432,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Mo -- dle -- te se za ty, kdo vás pro -- ná -- sle -- du -- jí.

@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 122"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -41,7 +41,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 130"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -63,7 +63,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Flp 2"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -72,8 +72,8 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-  \markup\italic{ 
-    Antifony z 3. neděle velikonoční, 
+  \markup\italic{
+    Antifony z 3. neděle velikonoční,
     str. \concat{ \page-ref #'velikonoceNedeleIIIcteni "0" "?" . } }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -93,7 +93,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 118"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
@@ -108,14 +108,14 @@
     c c c( d) d \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- né 
+    Po -- žeh -- na -- né
     je tvé slav -- né sva -- té jmé -- no.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-II"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
@@ -137,7 +137,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 150"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
@@ -149,14 +149,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a g f g g( a) a \barMin 
+    a g f g g( a) a \barMin
     b a g a a( b a4.) a \barMaior
     b4 d c( b a) a \barMin
     g a b a g g \barMaior
     a b a( g) g \barFinalis
   }
   \addlyrics {
-    U -- si -- luj -- te o to, 
+    U -- si -- luj -- te o to,
     co po -- chá -- zí shů -- ry,
     kde je Kris -- tus
     po Bo -- ží pra -- vi -- ci.
@@ -165,7 +165,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 110"
     fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
     fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
@@ -189,7 +189,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -214,7 +214,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 19"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -238,13 +238,13 @@
     Já jsem dob -- rý pas -- týř,
     pa -- su své ov -- ce,
     a dá -- vám za ně svůj ži -- vot.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     fial = "mezidobi_nejsvsrdce.ly#1ne-a3?+aleluja"
     id = "po-aben"
@@ -278,7 +278,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleB.ly#ivmag2"
     id = "po-amag"
@@ -307,7 +307,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
     id = "ct-amag"
@@ -321,20 +321,20 @@
   \relative c'' {
     \choralniRezim
     g( a) f g( a) a \barMin
-    \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior
     g g( a) g g \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř
     dá -- vá za ov -- ce svůj ži -- vot.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     fial = "commune/commune_pastyr.ly#1ne-a3"
     id = "pa-amag"
@@ -349,19 +349,19 @@
     \choralniRezim
     g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
     c( a c) b( a) g g \barMin f g a a b a g g \barMaior
-    
+
     f g( a) g g \barFinalis
   }
   \addlyrics {
     Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
     do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     fial = "commune/commune_pastyr.ly#mc-a2"
     id = "so-aben"

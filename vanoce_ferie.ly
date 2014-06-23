@@ -54,7 +54,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -66,7 +66,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f g f( d) d \barMin 
+    d4 c d f g f( d) d \barMin
     f g a g f g g g( a) a \barMaior
     c c b a g a a( g) g \barMax
     f g g a a a f e d( e) d d \barMaior
@@ -84,7 +84,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/1227jan.ly#rch-aben?zacatek"
     placet = "r - text by stál za trochu víc práce a lépe padnoucí melodii s lepším spádem"
@@ -109,7 +109,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -129,7 +129,7 @@
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá pl -- nost bož -- ství,
-    stal se jed -- ním z_nás 
+    stal se jed -- ním z_nás
     a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
     a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
     A -- le -- lu -- ja.
@@ -137,7 +137,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -161,7 +161,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?upraveno"
     id = ""
@@ -184,7 +184,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     fons = "zaltar, patek lichych tydnu, k Benedictus"
@@ -201,7 +201,7 @@
     d d d( e f) e( d) \barMin f e( f) e d e d c( d) d \barFinalis
   }
   \addlyrics {
-    Na -- šli jsme to -- ho, 
+    Na -- šli jsme to -- ho,
     o kte -- rém psal Moj -- žíš v_zá -- ko -- ně
     i pro -- ro -- ci.
     Je to Je -- žíš,
@@ -210,7 +210,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&upraveno"
     id = ""
@@ -224,22 +224,22 @@
   \relative c' {
     \choralniRezim
     % nejsem si jisty, ze zvolene frazovani je stastne.
-    % Je z hlediska vyznamu textu lepsi, 
+    % Je z hlediska vyznamu textu lepsi,
     % aby na "je ten" koncila prvni fraze, jak jsem to udelal,
     % nebo aby jim zacinala nova?
-    d d c( d) d f( e) d( e d) c c( d) \barMin 
-    d d c( d e f) e \barMin 
+    d d c( d) d f( e) d( e d) c c( d) \barMin
+    d d c( d e f) e \barMin
     f f f e f d \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus, náš Pán, je ten, 
-    kte -- rý při -- šel 
+    Je -- žíš Kris -- tus, náš Pán, je ten,
+    kte -- rý při -- šel
     skr -- ze vo -- du a krev.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -261,7 +261,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     fial = "antifony/pust_nedeleC.ly#iimag2?upraveno"
     id = ""
@@ -275,7 +275,7 @@
   \relative c' {
     \choralniRezim
     f4 e f e d d f c( d) \barMin c a c c( d) d \barMaior
-    d d d( e f) g( f) g \barMin e d c e d d \barFinalis    
+    d d d( e f) g( f) g \barMin e d c e d d \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám Kris -- tus Pán, o němž je psá -- no:
@@ -284,7 +284,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     placet = "r - závěr je takový jakoby s přistřiženými křídly"
     id = ""

@@ -12,15 +12,15 @@
 \include "invitatoria/zalm95_II_D.ly"
 
 \paper {
-  scoreTitleMarkup = \markup\column{ 
+  scoreTitleMarkup = \markup\column{
     \huge\bold\fill-line {
       " "
-      \concat{ 
+      \concat{
         \fromproperty #'header:modus "." \fromproperty #'header:differentia
       }
       " "
     }
-    
+
     \fromproperty #'header:notitia
   }
 }
@@ -29,7 +29,7 @@
   \header {
     subtitle = "Žalm 95"
   }
-  
+
   \score { \zalmXCVtonusID }
   \score { \zalmXCVtonusIID }
 }

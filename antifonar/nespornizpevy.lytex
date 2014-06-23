@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=1cm, right=2cm, top=2cm, bottom=1cm, marginparwidth=1.2cm, marginparsep=0.3cm]{geometry} % okraje stranky
 \usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
@@ -15,7 +15,7 @@
 \usepackage[T1]{fontenc}
 % font Palatino:
 % \usepackage[sc]{mathpazo}
-% \linespread{1.05}        
+% \linespread{1.05}
 
 % font Bookman:
 % \usepackage{bookman}
@@ -27,15 +27,15 @@
 \newcommand{\nazev}{Nešporní zpěvy}
 
 \newcommand{\textDoTiraze}{
-  Používání \emph{nápěvů antifon} je vázáno licencí 
+  Používání \emph{nápěvů antifon} je vázáno licencí
   \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
   která dává komukoli právo je dále šířit, upravovat a využívat
   ve svých vlastních dílech, za předpokladu, že uvede informaci
-  o autorovi původního díla a při dalším šíření zachová licenční 
+  o autorovi původního díla a při dalším šíření zachová licenční
   podmínky.
-  
-  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
-  
+
+  Texty Denní modlitby církve jsou majetkem České biskupské konference.
+
   Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
   Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
@@ -50,18 +50,18 @@
   \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \begin{titlepage}
     \begin{center}
-            
+
       \vspace*{7cm}
-      
+
       {\Huge \textbf{\nazev}}
-          
+
       \vspace{1cm}
-      
+
       {\large \autor}
-      
+
       \vfill
       In adiutorium
-      
+
       \onlyyeardate \today
     \end{center}
   \end{titlepage}
@@ -77,7 +77,7 @@
     {\large \autor}
 
     \tirazProjekt
-    
+
     \tirazSazbaProgramem
   \end{center}
 
@@ -177,7 +177,7 @@ tkzv. lidových nešpor, které se slavily v~českých kostelích ve třetí
 čtvrtině devatenáctého a první polovině dvacátého století.
 Je samozřejmě zcela dnešní - liturgické texty jsou vzaty ze současného
 českého breviáře. Staré lidové nešpory byly inspirací především pro
-uspořádání, pro zacházení s nápěvy žalmů (každý žalm má napříč liturgickým 
+uspořádání, pro zacházení s nápěvy žalmů (každý žalm má napříč liturgickým
 rokem stále stejný nápěv), antifon (jsou pokud možno snadné), pro
 určení rozsahu.
 
@@ -193,7 +193,7 @@ text nachází v~jiných materiálech projektu In adiutorium.
 Způsobem úpravy se \emph{Nešporní zpěvy} v mnoha ohledech liší od ostatních
 materiálů vzniklých v rámci projektu In adiutorium, protože předpokládají
 jiného uživatele. Jsou zpěvníkem do kostelní lavice, který by měl
-být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá 
+být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá
 s~denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
 nápěvy žalmů,~... Na kostelní podmínky bylo myšleno při opatření všech
 zpěvů čísly, takže lze při nešporách využít číselníku normálně ukazujícího
@@ -202,7 +202,7 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 \clearpage
 
 % From now on, we don't want the first line of a paragraph to be indented
-\setlength{\parindent}{0pt} 
+\setlength{\parindent}{0pt}
 
 \nadpisOkruh{Společné nápěvy}
 
@@ -218,8 +218,8 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 \nadpisZalmu{- není-li přítomen kněz}\cisloPisne{003}
 \lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
 
-{\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze 
-je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat 
+{\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze
+je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat
 ze stránek http://www.op.cz}}
 
 \clearpage
@@ -232,7 +232,7 @@ ze stránek http://www.op.cz}}
 % 111 Srdce
 % 112 Zjeveni, Josefa, JanaKr, CyrMet
 % 114 Zmrtvychvstani, Seslani, Trojice
-% 116-I JanaNep, Vaclava 
+% 116-I JanaNep, Vaclava
 % 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych
 % 121 Zemrele
 % 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni

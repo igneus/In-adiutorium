@@ -28,7 +28,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -49,7 +49,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -92,7 +92,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."
@@ -119,7 +119,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -141,7 +141,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 126"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -164,7 +164,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -188,7 +188,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

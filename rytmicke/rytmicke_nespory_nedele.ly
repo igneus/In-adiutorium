@@ -40,8 +40,8 @@
 rytmusVolny = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
-  
-  % nedelat taktove cary    
+
+  % nedelat taktove cary
   \cadenzaOn
 }
 
@@ -49,12 +49,12 @@ rytmusVolny = {
   \header {
     subtitle = "úvodní verš"
   }
-  
+
   \score {
     <<
     \chords {
       a1:m g4. a:m
-      
+
       g4. a2.:m
       a2:m s8 f4.
       f4 g2 a8:m
@@ -65,19 +65,19 @@ rytmusVolny = {
     }
     \relative c'' {
       \rytmusVolny
-      
+
       a8(-| c) c4 r2 d8-| c b a-| g a \bar "||"
-      
+
       g8 f g a( c) a4 a \bar "|"
       a8 a a c c c( a) a \bar "|"
       r c d c b g a \bar "|"
       a a a a g a e4 e \bar "|" r8 a8 c c b c( a) a \bar "|"
-      r c d c b a g a4 a \bar "||" 
+      r c d c b a g a4 a \bar "||"
       g8 a c( b) a4 \bar "|."
     }
     \addlyrics {
       Bo -- že, po -- spěš mi na po -- moc.
-      
+
       Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
       i Du -- chu sva -- té -- mu
@@ -87,7 +87,7 @@ rytmusVolny = {
     }
     >>
   }
-  
+
   \markup\italic{V postní době se aleluja vynechává.}
 }
 
@@ -97,8 +97,8 @@ rytmusVolny = {
   \header {
     subtitle = "1. žalm"
   }
-  
-  
+
+
 }
 
 \bookpart {
@@ -119,7 +119,7 @@ rytmusVolny = {
   \header {
     subtitle = "responsorium"
   }
-  
+
   \score{ \respIscore }
 }
 

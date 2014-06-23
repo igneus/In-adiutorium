@@ -18,7 +18,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 141"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -40,7 +40,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 142"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -61,7 +61,7 @@ tInedeleInespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Flp 2"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
@@ -73,20 +73,20 @@ tInedeleInespAntIII = \score {
 tInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 g( a) a4.( g) a4 b g( f e) e \barMin f4( g a) g f( e) e \barMax
     f4 f f f( e d) f e( f) e e \barFinalis
-    
+
     % V
     \neviditelna a
     a4 a a b( c) c4. b4( c) a g4. e \barMax
-    
+
     % R
     \neviditelna f
     f4 f f f( e d) f e( f) e e \barFinalis
-    
+
     % Slava
     a4 a c b g g( a) a \barMin a g f e( f) e4. e \barFinalis
   }
@@ -126,7 +126,7 @@ tInedeleInespResp = \score {
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -140,13 +140,13 @@ tInedeleInespResp = \score {
     f g a( c) c b g a( g) g \barFinalis
   }
   \addlyrics {
-    Já jsem u -- sta -- no -- vil 
+    Já jsem u -- sta -- no -- vil
     své -- ho krá -- le na Si -- ó -- nu.
   }
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -166,7 +166,7 @@ tInedeleInespResp = \score {
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 3"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -190,7 +190,7 @@ tInedeleInespResp = \score {
   \header {
     quid = "ant. ke kantikům (pro neděle v mezidobí)"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -209,15 +209,15 @@ tInedeleInespResp = \score {
     c4 f( e) d d \barFinalis
   }
   \addlyrics {
-    Bo -- že, 
-    ty jsi můj Bůh, 
-    snaž -- ně tě hle -- dám. 
+    Bo -- že,
+    ty jsi můj Bůh,
+    snaž -- ně tě hle -- dám.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D2" 
+    differentia = "D2"
     psalmus = "Žalm 63"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -234,16 +234,16 @@ tInedeleInespResp = \score {
     g4( a) a g g \barFinalis
   }
   \addlyrics {
-    Ja -- ko tři mlá -- den -- ci 
-    v_oh -- ni -- vé pe -- ci 
+    Ja -- ko tři mlá -- den -- ci
+    v_oh -- ni -- vé pe -- ci
     zpí -- vej -- me Bo -- hu:
-    Po -- žeh -- na -- ný jsi, náš Bo -- že. 
+    Po -- žeh -- na -- ný jsi, náš Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -259,15 +259,15 @@ tInedeleInespResp = \score {
     g g( a) g g  \barFinalis
   }
   \addlyrics {
-    Sy -- no -- vé Si -- ó -- nu 
-    ať já -- sa -- jí 
+    Sy -- no -- vé Si -- ó -- nu
+    ať já -- sa -- jí
     nad svým krá -- lem.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -277,16 +277,16 @@ tInedeleInespResp = \score {
 tInedeleLaudResp = \score {
   \relative c'' {
     \choralniRezim
-    
+
     \neviditelna a
     a4( c) b a a g f g( a) f( e) d \barMax
     e4 g a f e e \barFinalis
-    
+
     \neviditelna d
     d4 d d a' a c c b c a( f) e( d) \barMax
     \neviditelna e
     e4 g a f e e \barFinalis
-    
+
     a4 a c b c a a4 \barMin
     a4 b g f e e4 \barFinalis
   }
@@ -328,7 +328,7 @@ tInedeleLaudResp = \score {
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 118-I"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -344,14 +344,14 @@ tInedeleLaudResp = \score {
     g4 a f4. f \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din 
-    je má sí -- la a sta -- teč -- nost. 
+    Hos -- po -- din
+    je má sí -- la a sta -- teč -- nost.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 118-II"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -367,14 +367,14 @@ tInedeleLaudResp = \score {
     g4 a g( f) f \barFinalis
   }
   \addlyrics {
-    Dě -- ku -- ji ti, Hos -- po -- di -- ne, 
-    že jsi mě vy -- sly -- šel. 
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 118-III"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -391,14 +391,14 @@ tInedeleIInespAntI = \score {
     d a( b) a( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din ře -- kl mé -- mu Pá -- nu: 
-    Seď po mé pra -- vi -- ci. 
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu:
+    Seď po mé pra -- vi -- ci.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 110"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -420,7 +420,7 @@ tInedeleIInespAntI = \score {
   \header {
     quid = "2. ant."
     modus = "per"
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 114"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -441,7 +441,7 @@ tInedeleIInespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Zj 19"
     id = "2ne-ant3"
     piece = \markup {\sestavTitulek}
@@ -453,19 +453,19 @@ tInedeleIInespAntIII = \score {
 tInedeleIInespResp = \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 g a a a a a c c c a( g) a \barMax
     a4 b c a( g) g g f g a f e d d \barFinalis
-    
+
     % V
     \neviditelna a
     a'4 f( g) a( c) c4. b4 c d c b c a4. a \barMax
     % R
     \neviditelna a
     a4 b c a( g) g g f g a f e d d \barFinalis
-    
+
     % Slava
     a'4 a a( c) c \barMin
     c b( c) a \barMin

@@ -9,7 +9,7 @@
 % instead. And in this score it is that case.
 \paper {
   #(define fonts
-    (make-pango-font-tree 
+    (make-pango-font-tree
                           "URW Bookman L"
                           "VL Gothic"
                           "Courier"
@@ -39,7 +39,7 @@
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -66,7 +66,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -85,7 +85,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -95,7 +95,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g g( a) a \barMin 
+    a4 g g( a) a \barMin
     g( e) f d c d f f( g) \barMaior
     f g a a( g) a a( c a) a( g) g( a) \barMax
     a a \[ b( c a \] \[ c d c b) \] a( g) \barMin a g f( g f) e( d) d \barFinalis
@@ -109,7 +109,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a2" 
+    differentia = "a2"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -119,7 +119,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
@@ -160,14 +160,14 @@
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
     U -- vi -- dí -- te ne -- be o -- te -- vře -- né
-    a Bo -- ží an -- dě -- ly 
-    vy -- stu -- po -- vat a se -- stu -- po -- vat 
+    a Bo -- ží an -- dě -- ly
+    vy -- stu -- po -- vat a se -- stu -- po -- vat
     na Sy -- na člo -- vě -- ka.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -179,8 +179,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g( d') c \barMin 
-    a g a f a g \barMin 
+    g4( a g) g( d') c \barMin
+    a g a f a g \barMin
     f a f f g g \barFinalis
   }
   \addlyrics {
@@ -191,7 +191,7 @@
   \header {
     quid = "ant. dopoledne"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -215,7 +215,7 @@
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -230,14 +230,14 @@
     f g a g( a) g g \barFinalis
   }
   \addlyrics {
-    An -- děl Ra -- fa -- el 
+    An -- děl Ra -- fa -- el
     byl po -- slán k_To -- bi -- á -- šo -- vi a Sá -- ře,
     a -- by je vy -- lé -- čil.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -261,7 +261,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 8"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -279,7 +279,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 138"
     id = ""
     fons = "úterý 4.t., nešp., 2. ant."
@@ -306,7 +306,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Kol 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -316,7 +316,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     f4 f f f f f f f g f f \barMin
@@ -363,7 +363,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

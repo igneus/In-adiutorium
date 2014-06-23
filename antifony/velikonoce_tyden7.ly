@@ -3,7 +3,7 @@
 \markup {\nadpisDen {7. neděle velikonoční}}
 
 \markup\justify\italic{
-  Pro všechny hodinky kromě modlitby se čtením se berou antifony 
+  Pro všechny hodinky kromě modlitby se čtením se berou antifony
   ze 3. neděle velikonoční,
   str. \concat{ \page-ref #'velikonoceNedeleIII "0" "?" . }
 }
@@ -27,7 +27,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 145-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -51,7 +51,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 145-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -81,7 +81,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 145-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -95,7 +95,7 @@
     \choralniRezim
     f4 d d f g( d) d \barMin
     f e d c c \barMaior
-    d d e f( d) d 
+    d d e f( d) d
     g f d d \barFinalis
   }
   \addlyrics {
@@ -147,7 +147,7 @@
     \choralniRezim
     g4( f) g a bes( a g) f f( d) d \barMax
     d c( d) d( f) e f f( a bes) a a \barMaior
-    a a a g f d d \barMaior 
+    a a a g f d d \barMaior
     d( e f) e d c( d) d \barMax
     c d e( d) d \barFinalis
   }
@@ -156,14 +156,14 @@
     % myslím ale, že to je nahodilá nekonsistence způsobená redakční nepozorností.
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
     on nám po -- přá -- vá ví -- těz -- ství
-    skr -- ze na -- še -- ho Pá -- na 
+    skr -- ze na -- še -- ho Pá -- na
     Je -- ží -- še Kris -- ta.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
     id = ""
@@ -200,7 +200,7 @@
     \choralniRezim
     f4 f f e e( g) f \barMin
     g( a g) f( g) f d \barMin f e d c c \barMaior
-    c d( f) e( f) d d 
+    c d( f) e( f) d d
     f g g( f) f \barMaior
     g a( g) f f \barFinalis
   }
@@ -226,22 +226,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f c d e f f 
-    g f e( f) d c d c c( a) \barMaior 
+    d4( f) f c d e f f
+    g f e( f) d c d c c( a) \barMaior
     c d e f f f e c c( d) d d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {
-    Všich -- ni jed -- no -- my -- sl -- ně 
+    Všich -- ni jed -- no -- my -- sl -- ně
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
     spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fons = "text není zcela shodný - zde oproti použité antifoně z commune chybí slovo 'spolu'; tento rozdíl však zanedbávám"
     fial = "commune/commune_maria.ly#tercie"
@@ -260,15 +260,15 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Já jsem s_vá -- mi 
+    Já jsem s_vá -- mi
     po všech -- ny dny až do kon -- ce svě -- ta.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = ""
     fial = "commune/commune_apostol.ly#sexta?zacatek upraven"
     piece = \markup {\sestavTitulekBezZalmu}

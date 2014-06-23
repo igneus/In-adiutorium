@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 5"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -35,7 +35,7 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    To -- bě, Hos -- po -- di -- ne,_* 
+    To -- bě, Hos -- po -- di -- ne,_*
     pří -- slu -- ší kra -- lo -- vat,
     ty jsi svr -- cho -- va -- ně po -- vý -- še -- ný na -- de vším.
     A -- le -- lu -- ja.
@@ -43,7 +43,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "1Kron 29"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -109,7 +109,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 15"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

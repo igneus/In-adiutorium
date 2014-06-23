@@ -28,7 +28,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,7 +52,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

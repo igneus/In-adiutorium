@@ -21,7 +21,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -44,7 +44,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""
@@ -71,7 +71,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     annus = "A"
     id = ""
@@ -85,7 +85,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a a b a g( a) g \barMax
-    
+
     a4 a \barMin a g a g f g( a) a \barMaior
     g g a g f f f( g) f e e \barMax
     f f f( g) g \barMin
@@ -94,7 +94,7 @@
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
-    
+
     Pa -- ne, je dob -- ře, že jsme ta -- dy.
     Chceš -- li, po -- sta -- ví -- me tu tři sta -- ny:
     je -- den to -- bě,
@@ -104,7 +104,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0806promenenipane.ly#1ne-a3?+zacatek"
@@ -130,7 +130,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     fial = "vanoce_zjevenipane.ly#krtu-2ne-a1"
@@ -155,7 +155,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = ""
@@ -182,7 +182,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -207,7 +207,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -230,7 +230,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     annus = "A"
     id = ""
@@ -255,7 +255,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII" % je mi ponekud podezrela. dost mozna do modu nesedi.
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""
@@ -278,7 +278,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""
@@ -301,7 +301,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -325,7 +325,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = ""
@@ -349,7 +349,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     annus = "A"
     id = ""
@@ -374,7 +374,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     annus = "A"
     fial = "commune/zazemrele.ly#rch-aben"
@@ -398,7 +398,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = ""

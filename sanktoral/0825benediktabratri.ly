@@ -24,7 +24,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -42,13 +42,13 @@
   \addlyrics {
     Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
     a ná -- sle -- do -- va -- li jste mě,
-    sto -- krát víc do -- sta -- ne -- te 
+    sto -- krát víc do -- sta -- ne -- te
     a za po -- díl bu -- de -- te mít ži -- vot věč -- ný.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}

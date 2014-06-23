@@ -15,7 +15,7 @@
     \choralniRezim
     a4 a g a b c a g g a a4. \barMin
     b4 c d d c( b) c d e( d c d) d4.( c) \barMax
-    a4 b c c d( c) d d c c \barMaior 
+    a4 b c c d( c) d d c c \barMaior
     d e d c( b) a a b g a( b) c \barMaior
     c c c( d c) b( c) a g g( a) a \barFinalis
   }
@@ -29,7 +29,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -54,7 +54,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Magnificat"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

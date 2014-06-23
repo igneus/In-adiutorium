@@ -6,7 +6,7 @@ rok = #(strftime "%Y" (localtime (current-time)))
 
 projectUrl = #"http://www.inadiutorium.cz"
 
-sazeciProgram = \markup {        
+sazeciProgram = \markup {
   \with-url #"http://lilypond.org" {
     LilyPond \simple #(lilypond-version) (http://lilypond.org)
   }
@@ -18,7 +18,7 @@ licenceCcAsU = \markup {
 }
 inAdiutorium = \markup {
   \with-url \projectUrl {
-    In adiutorium - noty k liturgii hodin 
+    In adiutorium - noty k liturgii hodin
     \concat{ ( \projectUrl ) }
   }
 }
@@ -32,10 +32,10 @@ tirazVelka = \markup {
   }
 }
 
-tirazMala = \markup { 
+tirazMala = \markup {
   \with-url \projectUrl {
     In adiutorium
   }
-  - 
-  \dnesniDatum 
+  -
+  \dnesniDatum
 }
