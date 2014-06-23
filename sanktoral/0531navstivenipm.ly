@@ -33,6 +33,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -65,7 +66,7 @@
     differentia = "G"
     psalmus = "Žalm 63"
     placet = "R"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,7 +92,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -117,7 +118,7 @@
     psalmus = "Žalm 149"
     fons = "společné texty o P.M., 2. nešp., k Magnificat"
     fial = "commune/commune_maria.ly#2ne-amag"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -151,7 +152,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "srov. tady 2. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -178,7 +179,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -206,7 +207,7 @@
       psalmus = "Žalm 127"
       fons = "advent, předvánoční týden, 22.12., k Benedictus; přidáno aleluja"
       fial = "advent_antifony.ly#predvanocni-22-ben?+aleluja"
-      id = ""
+      id = "ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -231,6 +232,7 @@
     psalmus = "Ef 1"
     fons = "spol. texty o P.M., 2. nešp., 3. ant."
     fial = "commune/commune_maria.ly#2ne-a3"
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -261,7 +263,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Magnificat"
-    id = ""
+    id = "ne-amag"
     fons = "spol. texty o P.M., r.ch., k Benedictus"
     fial = "commune/commune_maria.ly#rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
