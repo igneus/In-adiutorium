@@ -32,6 +32,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 113"
+    placet = "R - od _Zachariášovi_ dál hrůza"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -54,6 +55,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 146"
+    placet = "nic moc; po předělání předchozí zvážit, zda novou melodii zohlednit i zde"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -74,6 +76,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Ef 1"
+    placet = "_než Jan Křtitel_ působí těžkopádně"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
