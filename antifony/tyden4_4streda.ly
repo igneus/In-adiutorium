@@ -222,6 +222,9 @@
     modus = "I"
     differentia = "D2"
     psalmus = "Žalm 139-I"
+    placet = "první slabika se relativně špatně zpívá, zní divně;
+    navíc neznám žádnou tradiční antifonu, která by takto začínala;
+    jinak mám tuto antifonu rád, což ale nikterak neznamená, že je dobrá"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
