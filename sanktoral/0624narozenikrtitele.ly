@@ -383,6 +383,7 @@
     differentia = "D"
     psalmus = "Žalm 15"
     id = "2ne-a1"
+    placet = "tyhle doslovně vytržené kousky nejsou samostatně pěkné"
     fons = "3. ne adventní, cyklus B, 1. nešp., k Magnificat; jen první půlka"
     fial = "antifony/advent_nedeleB.ly#iiimag1?cast"
     piece = \markup {\sestavTitulek}
@@ -457,6 +458,7 @@
     differentia = "A"
     psalmus = ""
     id = "2ne-amag"
+    placet = "spojení převzaté části a přílepku nepůsobí příliš dobře"
     fons = "2. část viz 1. nešp, 3. ant."
     fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
     piece = \markup {\sestavTitulekBezZalmu}
