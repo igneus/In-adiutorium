@@ -567,7 +567,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 d d d e d c d d( e) e \barMaior
+    f4 e d( c) d \barMaior
+    d( e d) c b a a \barMaior
+    a c d d d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal pět chle -- bů a dvě ry -- by,
@@ -577,9 +580,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fons = "při psaní melodie jsem vyšel z antifony k Magnificat 
+    Zeleného čtvrtku, ale po úpravách a transposici to není příliš patrné"
     annus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
