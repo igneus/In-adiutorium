@@ -27,7 +27,7 @@
     modus = "VII"
     differentia = "c2"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -49,7 +49,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
