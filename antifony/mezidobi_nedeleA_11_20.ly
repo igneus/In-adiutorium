@@ -621,7 +621,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d( c) d d( c) c \barMaior
+    bes( c) c( d) d f e d( e) d d \barMin
+    d e f g f e d e d d \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
@@ -630,8 +632,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -640,9 +642,16 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4( b c d) d \barMin
+    c d d d c b a c a( g) a( g) g \barMin
+    f( a) g a( c) a a \barMaior
+    c d c b a g a( b c d) c( d) \barMax
+    d d d d( e) b \barMin
+    g( a) b b \barMaior
+    d c a( b) \barMin
+    c b g g \barFinalis
   }
   \addlyrics {
     K_rá -- nu
@@ -651,12 +660,13 @@
     a stra -- chem za -- ča -- li kři -- čet.
     On jim však ře -- kl:
     Vzmuž -- te se!
-    To jsem já, ne -- boj -- te se!
+    To jsem já,
+    ne -- boj -- te se!
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
@@ -665,9 +675,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d( c) d a a \barMaior
+    f( g) g( a) a c b a g a( g) g
+    g g( a) a a \barMaior
+    d c d a \barMin
+    g( c) b a b a a \barFinalis
   }
   \addlyrics {
     Je -- žíš vztá -- hl ru -- ku,
@@ -678,8 +692,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
