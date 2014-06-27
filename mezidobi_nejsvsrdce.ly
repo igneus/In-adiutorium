@@ -359,6 +359,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "spíš II"
     id = "up-tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
