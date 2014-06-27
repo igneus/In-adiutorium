@@ -87,15 +87,15 @@
     % R
     \neviditelna f
     f4 f f g( f) g( a) a( g) \barMax
-    g g( a) g g g g g f d f( g) g f \barFinalis
+    g g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % V
     \neviditelna a
     a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
     % R
     \neviditelna g
-    g g( a) g g g g g f d f( g) g f \barFinalis
+    g g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % Slava
-    \respVIdoxologie \barFinalis
+    \doxologieResponsoriumVI
   }
   \addlyrics {
     \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
