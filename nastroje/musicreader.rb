@@ -173,7 +173,7 @@ class LilyPondMusic
         @id_index[score.header['id']] = score
       end
     rescue
-      puts "Error in score:"
+      puts "Error in score, file #{src_name}:"
       puts store
       puts
       raise
