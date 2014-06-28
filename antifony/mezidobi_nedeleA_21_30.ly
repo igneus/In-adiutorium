@@ -5,9 +5,10 @@
 \markup {\nadpisDen {"21. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d e c b( a) \barMin
+    b-- b a b g g \barFinalis
   }
   \addlyrics {
     Ty jsi Me -- si -- áš,
@@ -15,8 +16,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
@@ -47,9 +48,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( a g) f a b c \barMin
+    c c d c b a( b) a a \barMaior
+    c c d c b a( b) a( g) g \barMin
+    a a f e f a a g g \barFinalis
   }
   \addlyrics {
     Co svá -- žeš na ze -- mi,
@@ -59,8 +63,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
