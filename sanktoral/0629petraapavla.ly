@@ -73,6 +73,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1"
+    placet = "druhá půle kolem _pravdu_ je taková těžkopádná"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
