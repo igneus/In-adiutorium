@@ -100,7 +100,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -123,7 +123,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -168,7 +168,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?jiny_text"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -217,7 +217,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -247,7 +247,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -270,7 +270,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -291,7 +291,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -312,7 +312,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -335,7 +335,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -360,7 +360,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -387,7 +387,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -414,7 +414,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -437,7 +437,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -502,7 +502,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -531,7 +531,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -558,7 +558,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -585,7 +585,7 @@
     psalmus = ""
     fons = "při psaní melodie jsem vyšel z antifony k Magnificat 
     Zeleného čtvrtku, ale po úpravách a transposici to není příliš patrné"
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -610,7 +610,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -635,7 +635,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -668,7 +668,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -695,7 +695,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -718,7 +718,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -745,7 +745,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -766,7 +766,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
