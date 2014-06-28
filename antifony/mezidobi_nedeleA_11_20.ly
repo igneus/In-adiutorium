@@ -706,7 +706,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e d e f e d( e) d d \barMaior
+    a c d e d e f( d) d \barMin f g f d d \barFinalis
   }
   \addlyrics {
     Jed -- na ka -- na -- nej -- ská že -- na vo -- la -- la:
@@ -714,8 +715,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -726,19 +727,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d d( e) d \barMin
+    e c d e f f \barMin
+    g f e d c d e( f) d d \barMaior
+    f f g f( d) d \barFinalis
+    % tady si nejsem docela jist, zda je v "pomoz mi" prirozenejsi
+    % melisma na _po_ nebo _moz_
   }
   \addlyrics {
     Ka -- na -- nej -- ská že -- na
     při -- šla k_Je -- ží -- šo -- vi,
-    kla -- ně -- la se mu
-    a pro -- si -- la:
+    kla -- ně -- la se mu a pro -- si -- la:
     Pa -- ne, po -- moz mi!
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -749,7 +754,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a') a \barMin a bes a g f g a e \barMaior
+    a g f e f e( d) d \barFinalis
   }
   \addlyrics {
     Že -- no, jak ve -- li -- ká je tvá ví -- ra!
@@ -757,8 +763,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
