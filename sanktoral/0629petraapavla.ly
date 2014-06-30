@@ -251,6 +251,9 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "celkově nic moc; 
+    fatální chybou pak je dlouhé melisma na _tr_ na prominentním místě 
+    (první slabika slova nesoucího klíčový význam)"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -377,6 +380,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
+    placet = "retardace na _a ty_ se mi jeví nepatřičná"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -446,6 +450,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "~; zkusit upravit zejm. začátek a příp. připravit zcela nezávislé alternativy"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
