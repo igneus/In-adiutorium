@@ -87,9 +87,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a4. \barMin \bar ""
+    a4 a a g f g( a) a4. \barMin
     a4 c c d( c) a4.( g) \barMax
-    f4 g( a) a4. \barMin \bar ""
+    f4 g( a) a4. \barMin
     a4 a a a f e d d \barFinalis
   }
   \addlyrics {
@@ -138,6 +138,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 33"
+    placet = "zkusit i jinak"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -244,6 +245,7 @@
     modus = "I"
     differentia = "g2"
     psalmus = "Žalm 21"
+    placet = "upravit frázování"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
