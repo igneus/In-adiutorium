@@ -254,6 +254,7 @@ tIstredaNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Kol 1"
+    placet = "snad raději bez melismatu na _pr_venství?"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
