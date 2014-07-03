@@ -35,7 +35,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "závěr _pravda a život_ zaslouží předělat; _Tomáš_ možná na a?"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -61,7 +62,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -85,8 +86,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "Velikonoční oktáv, neděle v oktávu, k Benedictus"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-ben"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,7 +150,8 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    id = ""
+    placet = "nesedí do modu VIII"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
