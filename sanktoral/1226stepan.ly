@@ -14,19 +14,19 @@
     \choralniRezim
     c( b a) a \barMin d c b a( g) a \barMin
     f g a c b c( d) d \barMaior
-    d e( d c) c( d) d \barMin c b a g a g \barMin 
+    d e( d c) c( d) d \barMin c b a g a g \barMin
     f a a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
     pro nás na -- ro -- ze -- né -- mu;
-    on o -- věn -- čil sva -- té -- ho Ště -- pá -- na 
+    on o -- věn -- čil sva -- té -- ho Ště -- pá -- na
     věn -- cem slá -- vy.
   }
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -48,7 +48,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 63"
     id = ""
     fons = "Vavrinec; jen prvni pulka"
@@ -74,7 +74,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -96,7 +96,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -121,7 +121,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

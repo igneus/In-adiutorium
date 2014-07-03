@@ -1,6 +1,6 @@
 % -*- master: ../pust_antifony.ly;
 
-\markup\nadpisDen{5. neděle postní /cyklus B/}
+\markup\nadpisDen{5. neděle postní}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 141"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 142"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -60,7 +60,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Flp 2"
     id = ""
     fons = "Zelený čtvtek, antifona namísto responsoria (velký kus spol. textu i melodie)"
@@ -81,7 +81,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -110,7 +110,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -126,13 +126,13 @@
   }
   \addlyrics {
     Při -- šla ho -- di -- na,
-    kdy Syn člo -- vě -- ka 
+    kdy Syn člo -- vě -- ka
     bu -- de o -- sla -- ven.
   }
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -155,7 +155,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -170,14 +170,14 @@
     f g( a) a c b g a a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din zá -- stu -- pů po -- má -- há 
+    Hos -- po -- din zá -- stu -- pů po -- má -- há
     a vy -- svo -- bo -- zu -- je,
     od -- pouš -- tí a za -- chra -- ňu -- je.
   }
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 114"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -199,9 +199,53 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "1Petr 2"
     id = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisDen{Pondělí}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMax
+    d f g g g f g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-a2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Čtvrtek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }

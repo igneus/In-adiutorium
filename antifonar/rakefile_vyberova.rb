@@ -1,52 +1,15 @@
 # -*- coding: utf-8 -*-
-# volumes of the "Small/Selective Edition" of the antiphonal
+# standalone selections of office chants
+# for Christmas, Easter etc.
 
 ###############
-# sv. 1: Narozeni Pane
-
-zalmy_narozeni = []
-noty_narozeni = []
-adresar_narozeni = 'generovane/narozenipane/'
-options_narozeni = $commonoptions+$o_warnmarks
-
-narozeni_splitscores_command = $splitscores_command + " --output-dir #{adresar_narozeni} "
-
-noty_narozeni = {
-  '../vanoce_narozenipane.ly' => 'vden-1ne-a1'
-}.map do |file, sampleid| 
-  # nazev vygenerovaneho souboru s prvni antifonou
-  afn = adresar_narozeni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
-  # zpracovavany soubor s antifonami
-  sfn = file
-  
-  file afn => [sfn] do
-    sh narozeni_splitscores_command + sfn
-  end
-  
-  afn
-end
-
-file "vystup/antifonar_narozenipane.tex" => (["antifonar_narozenipane.lytex", 
-                                              "spolecne_antifonar.ly", 
-                                              "../dilyresponsorii.ly"] \
-                                             + zalmy_narozeni \
-                                             + noty_narozeni) do |t|
-  sh "lilypond-book --output=vystup --pdf "+t.prerequisites.first
-end
-
-file 'vystup/antifonar_narozenipane.pdf' => ['vystup/antifonar_narozenipane.tex',
-                                             'spolecne.tex', 
-                                             'rubriky.tex'] do |t|
-  chdir 'vystup'
-  2.times { sh 'pdflatex -shell-escape antifonar_narozenipane.tex' }
-  chdir '..'
-end
+# sv. 2: Narozeni Pane
 
 desc "Nativity of our Lord."
-task :narozeni => ['vystup/antifonar_narozenipane.pdf']
+task :narozeni => [ typographus('antifonar_narozenipane.tytex') ]
 
 ###############
-# budouci sv. 2:  Svaty tyden a Velikonocni oktav
+# sv. 1:  Svaty tyden a Velikonocni oktav
 # (zatim jen: velikonocni triduum)
 
 zalmy_triduum = []
@@ -68,9 +31,9 @@ zalmy_triduum << genzalm('kantikum_magnificat.zalm', options_triduum+" --pretitl
         120 121 122 123 124 125 126 127 128 ).each do |z|
   zalmy_triduum << genzalm("zalm"+z+".zalm", options_triduum, adresar_triduum)
 end
-zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
-zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-pattern '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 40, 2-14.17-18}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
+zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
 %w( zj11 hab3 fp2 iz38 dan3iii ).each do |k|
   zalmy_triduum << genzalm("kantikum_"+k+".zalm", options_triduum, adresar_triduum)

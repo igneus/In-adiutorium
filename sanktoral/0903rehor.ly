@@ -20,7 +20,7 @@
   }
   \addlyrics {
     Sva -- tý Ře -- hoř
-    byl vy -- ni -- ka -- jí -- cím 
+    byl vy -- ni -- ka -- jí -- cím
     pas -- tý -- řem své -- ho li -- du
     a za -- ne -- chal nám pří -- klad
     i ná -- vod k_ve -- de -- ní du -- ší.
@@ -28,7 +28,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -49,14 +49,14 @@
     Pa -- pež Ře -- hoř
     na -- pl -- ňo -- val skut -- kem to,
     če -- mu slo -- vem u -- čil,
-    a pří -- kla -- dem své -- ho ži -- vo -- ta 
+    a pří -- kla -- dem své -- ho ži -- vo -- ta
     u -- ka -- zo -- val,
     jak žít po -- dle Kris -- to -- va u -- če -- ní.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

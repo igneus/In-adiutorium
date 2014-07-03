@@ -35,16 +35,16 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
-      
+
       % V
       \neviditelna g
-      
+
       % R
       \neviditelna g
-      
+
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -64,7 +64,7 @@ doxologieResponsoriumVI = {}
   \header {
     subtitle = "1. a 3. týden žaltáře"
   }
-  
+
   %{
   %  Ne ze by to nebyla pravda - z te knizky jsem se naucil neco jako
   % "typickou melodii" - ale nasledujici komentar pusobi dojmem, jako
@@ -109,11 +109,11 @@ doxologieResponsoriumVI = {}
   }
 
   \markup\nadpisDen{"neděle"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f g f g( a) a( g) \barMax
@@ -141,11 +141,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f g f f g( a) a( g) \barMax
@@ -173,11 +173,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f g( f) f \barMin g f f g( a) a( g) \barMax
@@ -207,11 +207,11 @@ doxologieResponsoriumVI = {}
   }
 
   \markup\nadpisDen{"pondělí"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f g( f) g( a) a( g) \barMax
@@ -242,17 +242,17 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
-      f4 f f g f g( a) a( g) \barMax 
-      g4 f d f g g( f) f \barFinalis      
+      f4 f f g f g( a) a( g) \barMax
+      g4 f d f g g( f) f \barFinalis
       % V
       \neviditelna g
       a( bes) a a g a a( g) \barMax
       % R
       \neviditelna g
-      g4 f d f g g( f) f \barFinalis      
+      g4 f d f g g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -269,13 +269,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"úterý"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f g( a) a( g) \barMax
@@ -306,7 +306,7 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
@@ -318,7 +318,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g( a) g( f d) d f g g f f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Tvůj zá -- kon, Hos -- po -- di -- ne, je do -- ko -- na -- lý,_* tvé slo -- vo tr -- vá na -- vě -- ky.
@@ -335,11 +335,11 @@ doxologieResponsoriumVI = {}
   }
 
   \markup\nadpisDen{"středa"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f f \barMin f f f f f f g f g( a) a( g) \barMax
@@ -370,7 +370,7 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
@@ -397,13 +397,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"čtvrtek"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f f g f g g( a) a( g) \barMax
@@ -434,7 +434,7 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
@@ -461,13 +461,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"pátek"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
@@ -495,23 +495,23 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f g( f) g( a) a( g) \barMax
-      g g( a) g g g g g f d f( g) g f \barFinalis
+      g g( a) g g \barMin g g g f d f( g) g f \barFinalis
       % V
       \neviditelna a
       a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( a) g g g g g f d f( g) g f \barFinalis
+      g g( a) g g \barMin g g g f d f( g) g f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
@@ -528,11 +528,11 @@ doxologieResponsoriumVI = {}
   }
 
   \markup\nadpisDen{"sobota"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f f f f g f g( a) a( g) \barMax
@@ -559,20 +559,20 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
 }
 
 \bookpart {
   \header {
     subtitle = "2. a 4. týden žaltáře"
   }
-  
+
   \markup\nadpisDen{"neděle"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f( g) f \barMin f f f f g( f) g( a) a( g) \barMax
@@ -600,11 +600,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f g( a) a( g) \barMax
@@ -632,11 +632,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna d
       f4 f f f g( a) a( g) \barMax
@@ -664,13 +664,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"pondělí"}
 
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
@@ -682,7 +682,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g a g g f d f g g f f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
@@ -702,7 +702,7 @@ doxologieResponsoriumVI = {}
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f f f f f f f f f g f g( a) a( g) \barMax
@@ -714,7 +714,7 @@ doxologieResponsoriumVI = {}
       \neviditelna f
       g g g( f d) f( g) g f f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
@@ -731,13 +731,13 @@ doxologieResponsoriumVI = {}
     }
   }
 
-  
+
   \markup\nadpisDen{"úterý"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f f f g f g( a) a( g) \barMax
@@ -765,11 +765,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
@@ -799,11 +799,11 @@ doxologieResponsoriumVI = {}
   }
 
   \markup\nadpisDen{"středa"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
@@ -815,7 +815,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- sta -- vič -- ně chci ve -- le -- bit Hos -- po -- di -- na,_*
@@ -831,11 +831,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f f f g f f f g( a) a( g) \barMax
@@ -847,7 +847,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g f g( a) g( f) d f( g) g f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Bo -- že, o -- pat -- ruj mě ja -- ko zří -- tel -- ni -- ci o -- ka,_*
@@ -863,13 +863,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"čtvrtek"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
@@ -897,11 +897,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f g( a) a( g) \barMax
@@ -913,7 +913,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g( f d) f( g) g( f) f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- din je můj pas -- týř,_*
@@ -929,13 +929,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"pátek"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f g f g( a) a( g) \barMax
@@ -947,7 +947,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g g( a) g( f) d f g g( f) f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI 
+      %\doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Vo -- lám k_to -- bě, Bo -- že,_*
@@ -963,11 +963,11 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f g f f g( a) a( g) \barMax
@@ -995,13 +995,13 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \markup\nadpisDen{"sobota"}
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f g f f f g( a) a( g) \barMax

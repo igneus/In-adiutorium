@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 80"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -35,7 +35,7 @@
     g4 a a( g) g \barFinalis
   }
   \addlyrics {
-    S_ra -- dos -- tí 
+    S_ra -- dos -- tí
     bu -- de -- te vá -- žit vo -- du
     z_pra -- me -- mů spá -- sy.
     A -- le -- lu -- ja.
@@ -43,9 +43,10 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Iz 12"
     id = "rch-a2"
+    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -53,8 +54,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( g) g a g f g( a) g g \barMaior
-    f a g g \barFinalis
+    c4 c b( c a) a \barMin b( c) a g a g g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí.
@@ -63,11 +64,9 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 81"
     id = "rch-a3"
-    fons = "vyňato z: slavnost Těla a Krve Páně, 1.nešp., 2.ant."
-    placet = "r - jako výtržek působí nevyváženě - radši složit jinou melodii"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -90,7 +89,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 72-I"
     id = "na-a1"
     piece = \markup {\sestavTitulek}
@@ -113,7 +112,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 72-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

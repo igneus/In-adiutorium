@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.17.24"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -19,7 +19,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f g f g( a) a( g) \barMax
@@ -43,7 +43,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -53,10 +53,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
-    f4 f f f f f f f f g( f) f \barMin 
+    f4 f f f f f f f f g( f) f \barMin
     f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -78,10 +78,10 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c' {
@@ -89,22 +89,22 @@
     d e f g a g a bes a bes a g a a \barMin
     g e f( e) e \barMaior
     a a g( bes) a g a f e d( e) d d \barFinalis
-    
+
     c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
     Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
     a jim u -- čit,
     bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -117,22 +117,22 @@
     f4( a) g \barMin a g a f( e d) d \barMin
     d e f d( c) c \barMaior
     d e f( g a) g f( g) f f \barFinalis
-    
+
     d^\markup\rubrVelikAleluja f( g) f f \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
     na -- še -- mu Pá -- nu;
     on je pra -- men moud -- ros -- ti.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -144,18 +144,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f g f f( g) g \barMin g g g f g( a) a( g) \barMax
-    g g a( g) g 
+    g g a( g) g
     g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
     % V
     \neviditelna a
     a4 a a a( bes) a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a( g) g 
+    g g a( g) g
     g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
@@ -170,7 +170,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     fons = "Cyril a Metoděj, r.ch."
     piece = \markup {\sestavTitulekResp}
   }
@@ -181,7 +181,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f f f f g( f) f \barMin
@@ -206,10 +206,10 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c' {
@@ -218,7 +218,7 @@
     a'4 a( c a) \barMin a bes g a a( bes) a a g a g f e e \barMaior
     d e d( a' bes) a a( c a) g g( a) a \barMaior
     g( a) f( e) d e( d c) d \barFinalis
-    
+
     c^\markup\rubrVelikAleluja d( e) d d \barFinalis
   }
   \addlyrics {
@@ -226,15 +226,15 @@
     a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
     bu -- dou zá -- řit ja -- ko hvěz -- dy
     na věč -- né vě -- ky.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -246,7 +246,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f g( a) g f( g) f \barMin
@@ -262,7 +262,7 @@
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response U -- pro -- střed shro -- máž -- dě -- ní 
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
     o -- te -- vřel mu Pán ús -- ta,_*
     na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
     \Verse Ob -- lé -- kl mu rou -- cho slá -- vy,_*
@@ -272,7 +272,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -282,7 +282,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f f f f f g( f) f \barMin
@@ -298,7 +298,7 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response U -- pro -- střed shro -- máž -- dě -- ní 
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
     o -- te -- vřel mu Pán ús -- ta,
     na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu._* \textRespAleluja
     \Verse Ob -- lé -- kl mu rou -- cho slá -- vy._*
@@ -308,35 +308,37 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c'' {
     \choralniRezim
     g4 a
-    \bar ":" a( g) \parenthesize f a\breve \bar ":"
+    \bar ";" a( g) \parenthesize f a\breve \bar ";"
     c4 d c b d( a) a g f( g f) e e( a) a \barMax
     a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
     d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
-    Sva -- tý 
-    \markup\concat{\with-color #red {N} , } \skip 1 \skip 1
+    Sva -- tý
+    \markup\concat{\Nomen ,} \skip 1 \skip 1
     u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
     tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
     při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

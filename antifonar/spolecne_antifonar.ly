@@ -16,11 +16,11 @@
     \Score
     \remove "Bar_number_engraver"
   }
-  
+
   \context {
     \Staff
     \consists Custos_engraver
-    \override Custos #'style = #'hufnagel 
+    \override Custos #'style = #'hufnagel
     % klic jen na zacatku prvni radky
     \override Clef #'break-visibility = #all-invisible
   }
@@ -31,7 +31,7 @@ myStaffSize = #16
 
 \paper {
   #(define fonts
-    (make-pango-font-tree 
+    (make-pango-font-tree
                           "URW Bookman L"
                           "Helvetica"
                           "Courier"
@@ -48,11 +48,11 @@ choralniRezim = {
   % noty bez nozicek
   \override Stem #'transparent = ##t
 
-  % nedelat taktove cary    
+  % nedelat taktove cary
   \cadenzaOn
-  
+
   % vzdycky vypsat becka
-  #(set-accidental-style 'forget) 
+  #(set-accidental-style 'forget)
 }
 
 % Vytvori hlavicku "piece" pro antifonu
@@ -61,13 +61,13 @@ choralniRezim = {
 % quid, tonus, differentia, psalmus
 choralAutoPiece = \markup {
   \concat {
-    \fromproperty #'header:quid 
-    " - " 
-    \fromproperty #'header:tonus 
-    . 
-    \fromproperty #'header:differentia 
-    " (" 
-    \fromproperty #'header:psalmus 
+    \fromproperty #'header:quid
+    " - "
+    \fromproperty #'header:tonus
+    .
+    \fromproperty #'header:differentia
+    " ("
+    \fromproperty #'header:psalmus
     )
   }
 }
@@ -75,27 +75,27 @@ choralAutoPiece = \markup {
 % Choralni "pomlky" (divisiones)
 
 barMin = {
-  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5) 
-  \bar "|" 
+  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
+  \bar "|"
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
-  \bar "|" 
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \bar "|"
 }
 barMax = { \bar "|" }
 barFinalis = { \bar "||" }
 
 % Specialni znaky pro responsoria -------------------------------
 
-Response = \lyricmode { 
-  \markup { 
+Response = \lyricmode {
+  \markup {
     % \concat { \override #'(font-name . "liturgy") {R} : }
     \bold\concat { \override #'(font-name . "Junicode") { \char ##x0211F } . }
   }
 }
 
-Verse = \lyricmode { 
-  \markup { 
+Verse = \lyricmode {
+  \markup {
     % \concat { \override #'(font-name . "liturgy") {V} : }
     \bold\concat { \override #'(font-name . "Junicode") { \char ##x02123 } . }
   }

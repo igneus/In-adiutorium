@@ -13,17 +13,17 @@
  		(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
     	(chain-assoc-get 'page:is-last-bookpart props #f))
 	empty-stencil
-	(interpret-markup layout props arg))) 
+	(interpret-markup layout props arg)))
 
 \paper {
-  oddFooterMarkup = \markup { 
+  oddFooterMarkup = \markup {
     \on-the-fly #last-page \fill-line { " " \fromproperty #'header:tagline " " }
-    
-    \on-the-fly #not-last-page \small { 
+
+    \on-the-fly #not-last-page \small {
       \fill-line {
         ""
         \concat{ \fromproperty #'header:title " | " \dnesniDatum }
-      } 
+      }
     }
   }
 }

@@ -1,31 +1,37 @@
+# musicreader.rb
+
+# Tools to 'parse' lilypond files containing one or more simple scores
+# (isn't able to handle variables; only recognizes lyrics entered using
+# \addlyrics; ...) and access their data, especially lyrics and header
+
+# Parses a simple score;
+# provides access to it's source, lyrics and header
 class LilyPondScore
-  def initialize(text, srcfile=nil, number=nil)
+  def initialize(text, srcfile=nil, number=1)
     @text = text
-    if !@number then
-      @number = LilyPondScore.autonum
-    else
-      @number = number
-    end
+    @number = number
     @src_file = srcfile
     init_text
     init_lyrics
     init_header
   end
   
-  def LilyPondScore.autonum
-    if defined? @@scorenum then
-      @@scorenum += 1
-    else
-      @@scorenum = 1
-    end
-    return @@scorenum
-  end
-  
-  attr_reader :text
-  attr_reader :lyrics_raw
+  # complete source of the score
+  attr_reader :text 
+
+  # score lyrics as included in the source file, only with comments stripped
+  attr_reader :lyrics_raw 
+
+  # score lyrics stripped of lilypond syllabification
   attr_reader :lyrics_readable
-  attr_reader :header
-  attr_reader :number # position of the score in the file
+
+  # Hash containing header fields
+  attr_reader :header 
+
+  # position of the score in the file
+  attr_reader :number 
+
+  # name/path of the source file - only if loaded from a file
   attr_reader :src_file
 
   def to_s
@@ -52,9 +58,9 @@ class LilyPondScore
     i1 = @text.index '{', i1
     i2 = @text.index '}', i1
     ltext = @text[i1+1..i2-1]
-    @lyrics_raw = ltext.strip
+    @lyrics_raw = ltext.split("\n").collect {|l| l.sub(/%.*$/, '') }.join("\n").strip
     
-    @lyrics_readable = ltext
+    @lyrics_readable = @lyrics_raw.dup
     # remove various garbage:
     @lyrics_readable.gsub!(' -- ', '') # syllable-separators
     @lyrics_readable.gsub!('_', ' ') # preposition-separators
@@ -67,7 +73,6 @@ class LilyPondScore
     @header = {}
     i1 = @text.index '\header'
     unless i1
-      # puts "no header"
       return
     end
     i1 = @text.index '{', i1
@@ -75,6 +80,7 @@ class LilyPondScore
     htext = @text[i1+1..i2-1]
     hlines = htext.split "\n"
     hlines.each do |l|
+      l.sub!(/%.*$/, '') # strip comments
       l.strip!
       if ! l.index '=' then
         next
@@ -116,36 +122,24 @@ class LilyPondScore
   end
 end
 
+# Parses a lilypond file;
+# provides access to it's scores
 class LilyPondMusic
   
-  def initialize(filename)
+  def initialize(src)
     @scores = []
     @id_index = {}
     @preamble = ''
+    @score_counter = 0
     
-    File.open(filename, "r") do |f|
-      store = ''
-      score_number = 0
-      beginning = true
-      while l = f.gets do
-        if l =~ /\\score\s+\{/ then        
-          if beginning then
-            beginning = false
-            @preamble = store
-            store = l
-            next
-          else
-            create_score store, score_number
-            score_number += 1
-            store = l
-          end
-        else
-          store += l
-        end
-      end
-      
-      # last score:
-      create_score store, score_number
+    if src.is_a? IO then
+      load_from src
+    elsif src.is_a? String and src.include? '\score' then
+      load_from StringIO.new src
+    elsif src.is_a? String and File.exist? src
+      load_from File.open(src, "r"), src
+    else
+      raise ArgumentError.new("Unable to load LilyPond music from #{src.inspect}.")
     end
   end
   
@@ -159,21 +153,53 @@ class LilyPondMusic
       return @id_index[i]
     end
   end
+
+  def include_id?(i)
+    @id_index.has_key? i
+  end
+
+  def ids_included
+    @scores.collect {|s| s.header['id'] }
+  end
   
   private
   
-  def create_score(store, number)
+  def create_score(store, src_name)
+    @score_counter += 1
     begin
-      score = LilyPondScore.new(store, number)
+      score = LilyPondScore.new(store, src_name, @score_counter)
       @scores << score
       if score.header.has_key? 'id' then
         @id_index[score.header['id']] = score
       end
     rescue
-      puts "Error in score:"
+      puts "Error in score, file #{src_name}:"
       puts store
       puts
       raise
     end
+  end
+
+  def load_from(stream, src_name='')
+    store = ''
+    beginning = true
+    while l = stream.gets do
+      if l =~ /\\score\s*\{/ then        
+        if beginning then
+          beginning = false
+          @preamble = store
+          store = l
+          next
+        else
+          create_score store, src_name
+          store = l
+        end
+      else
+        store += l
+      end
+    end
+    
+    # last score:
+    create_score store, src_name
   end
 end

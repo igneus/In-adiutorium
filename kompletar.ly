@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.19.4"
 
 \header {
   title = "Kompletář"
@@ -10,8 +10,8 @@
 
 \paper {
   ragged-bottom=##f
-  ragged-last-bottom=##f
-  
+  ragged-last-bottom=##t
+
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
 }
@@ -25,10 +25,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
-    c d f\breve f4-| \parenthesize d d4.^\markup\large\Dagger \barMin
-    f\breve g4 g-| \parenthesize d d4.^\markup\large{*} \barMax 
-    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+
+    c d f\breve f4-! \parenthesize d d4.^\markup\large\Dagger \barMin
+    f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax
+    f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
     quid = "psalmodie"
@@ -43,10 +43,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    
-    c d f\breve f4-| \parenthesize d d4. \mark\markup\large\Dagger \barMin
-    f\breve g4 g-| \parenthesize d d4. \mark\markup\large{*} \barMax 
-    f\breve c4 d e-| \parenthesize d d4. \barFinalis
+
+    c d f\breve f4-! \parenthesize d d4. \mark\markup\large\Dagger \barMin
+    f\breve g4 g-! \parenthesize d d4. \mark\markup\large{*} \barMax
+    f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
     quid = "psalmodie"
@@ -205,6 +205,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \score {
   \relative c' {
     \choralniRezim
@@ -246,7 +248,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f g f g g4.( a) \barMax
@@ -270,40 +272,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    piece = "responsorium - VI"
+    piece = \markup {\sestavTitulekResp}
     id = "resp"
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    
-    % R
-    \neviditelna f
-    f4 f \barMin f f f f( d) e( f) g \barMax
-    g g e f d c d f f e \barFinalis
-    % V
-    \neviditelna d
-    c d( f) f f f f f f f( d) e( f) g \barMax
-    % R
-    \neviditelna g
-    g g e f d c d f f e \barFinalis
-    % Slava
-    \respIVdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
-    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
-    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
-    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "IV"
-    piece = "responsorium - VI"
-    id = "resp-adv"
   }
 }
 
@@ -314,7 +284,7 @@
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
+    f^\rubrVelikAleluja f( g) e4. e \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,_*
@@ -327,18 +297,56 @@
     quid = "ant. k Nunc dimittis"
     quidbreve = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulekBezZalmu}
     id = "sim"
   }
 }
-  
+
 \bookpart {
   \header {
-    subtitle = "Doba velikonoční" 
+    subtitle = "Doba adventní"
   }
-  
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f \barMin f f f f( d) e( f) g \barMax
+      g g e f d c d f f e \barFinalis
+      % V
+      \neviditelna d
+      c d( f) f f f f f f f( d) e( f) g \barMax
+      % R
+      \neviditelna g
+      g g e f d c d f f e \barFinalis
+      % Slava
+      \respIVdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+      do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+      \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+      \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      piece = \markup {\sestavTitulekResp}
+      id = "resp-adv"
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "Doba velikonoční"
+  }
+
   % Tato cast obsahuje mene not a proto je lepsi, aby se, narozdil
   % od prvni casti, noty neroztahovaly na celou stranku, ale byly
   % nakupene nahore:
@@ -346,9 +354,9 @@
     ragged-bottom=##f
     ragged-last-bottom=##t
   }
-  
+
   \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -365,26 +373,26 @@
       quid = "ant. k žalmům"
       quidbreve = "ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna f
-      f4 f \barMin f f g f e( d) d \barMaior
-      d e f f f f f e g a \barMax
+      f4 f f f f f g f \barMin
+      f f f f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
       % V
       \neviditelna f
-      f4 f f f f f( g f) f \barMin f e g( a) a \barMax
+      f4 f f f f f f f e g a \barMax
       % R
       \neviditelna a
       \respVIalelujaResponsum \barFinalis
@@ -405,10 +413,10 @@
       piece = \markup {\sestavTitulekResp}
     }
   }
-  
+
   \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
   jak je v jejích notách zapsáno.}
-  
+
   \markup\justify {Antifony, které se ve Velikonočním triduu
   a ve Velikonočním oktávu zpívají místo responsoria, jsou
   "v materiálech" pro tyto liturgické doby.}

@@ -3,7 +3,7 @@
 \header {
   title = "Nápěvy žalmů"
   composer = "Bohuslav Korejs"
-  
+
   tagline = \markup {
   \column {
     \line { datum: \dnesniDatum }
@@ -17,10 +17,10 @@
   ragged-last-bottom = ##f
 
   scoreTitleMarkup = \markup {
-    \line { 
-      \bold{\fromproperty #'header:cislo } 
+    \line {
+      \bold{\fromproperty #'header:cislo }
       " "
-      \column { 
+      \column {
         \line { "modus: " \fromproperty #'header:modus }
         \line { "transposice antifony: " \fromproperty #'header:transposice }
       }
@@ -36,15 +36,15 @@
   % overwrite some defaults set in spolecne.ly
   ragged-right = ##f
   ragged-last = ##f
-  
+
   \context {
     \Score
     \remove Bar_number_engraver
     \override TimeSignature #'stencil = ##f
   }
-  
+
   \set Score.timing = ##f
-  
+
   \context {
     \Voice
     \remove Auto_beam_engraver
@@ -53,7 +53,7 @@
 
 
 \markup{
-  Zdroj nápěvů: 
+  Zdroj nápěvů:
   Česká liturgická komise: \italic{Zpěvy s odpovědí lidu}, Kostelní Vydří: KNA 2001.
 }
 
@@ -254,7 +254,7 @@
 \score {
   \relative c' {
     \key f \major
-    f8[ g] a[ g] f\breve d8 c \slurDashed d(-| f) f4 \bar "|" 
+    f8[ g] a[ g] f\breve d8 c \slurDashed d(-| f) f4 \bar "|"
     f\breve g8-| \grace { \parenthesize f \parenthesize f } f f( e) f4 \bar "|."
   }
   \header {

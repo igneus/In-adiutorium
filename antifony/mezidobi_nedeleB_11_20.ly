@@ -8,7 +8,7 @@
     f4 g g( a) a a a a g a g f f \barMaior
     f f f( g) f( e d) d d e d d c c \barMax
     d d4.( f) \barMin g4 f g g( a) a \barMaior
-    a g a a( c a g) f e d d \barFinalis 
+    a g a a( c a g) f e d d \barFinalis
   }
   \addlyrics {
     Bo -- ží krá -- lov -- ství je po -- dob -- né člo -- vě -- ku,
@@ -114,7 +114,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "ne12b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -136,7 +136,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "ne12b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -153,7 +153,7 @@
     g a a( c d) a a( g) g \barMin f g a b g g \barFinalis
   }
   \addlyrics {
-    Jed -- na ne -- moc -- ná že -- na 
+    Jed -- na ne -- moc -- ná že -- na
     se do -- tkla Je -- ží -- šo -- vých ša -- tů,
     a hned po -- cí -- ti -- la, že je vy -- lé -- če -- na.
   }
@@ -182,7 +182,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "ne13b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -202,7 +202,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "ne13b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -469,7 +469,7 @@
     c c d c b a( g) g( a) \barMin g f g a( c b) a a( g) g \barFinalis
   }
   \addlyrics {
-    Když li -- dé vi -- dě -- li zna -- me -- ní, 
+    Když li -- dé vi -- dě -- li zna -- me -- ní,
     kte -- ré Je -- žíš u -- dě -- lal, ří -- ka -- li:
     To je jis -- tě ten pro -- rok,
     kte -- rý má při -- jít na svět!
@@ -489,7 +489,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d d e d d 
+    d4 d d d d e d d
     c b c( d) d d \barMaior
     d d e g g \barMin
     e d c( d) c b \barMin a g a a g g \barFinalis
@@ -524,7 +524,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "ne18b-rch-ben"
     fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast"
@@ -570,7 +570,7 @@
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
-    jest -- li -- že ho ne -- při -- táh -- ne 
+    jest -- li -- že ho ne -- při -- táh -- ne
     O -- tec, kte -- rý mě po -- slal.
   }
   \header {
@@ -607,23 +607,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax 
+    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
-    
+
     g f e d d \barMin f g g( a) a \barMaior
     a( c d) c b a( g) g( a) \barMin a b a a( g) g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
     Kdo bu -- de jíst ten -- to chléb, bu -- de žít na -- vě -- ky.
-    
+
     Chléb, kte -- rý já dám,
     je mé tě -- lo, o -- bě -- to -- va -- né za ži -- vot svě -- ta.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     fons = "první část: Těla a Krve Páně, k Benedictus"
     fial = "mezidobi_telaakrvepane.ly#rch-aben?cast"
@@ -637,7 +637,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax 
+    c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barFinalis
   }
   \addlyrics {
@@ -647,7 +647,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
     fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
@@ -688,7 +688,7 @@
     d d c( a) \barMin d c( b a) a \barMin g f g g( a) g \barFinalis
   }
   \addlyrics {
-    Ja -- ko mne po -- slal ži -- vý O -- tec 
+    Ja -- ko mne po -- slal ži -- vý O -- tec
     a já ži -- ji z_Ot -- ce,
     tak i ten, kdo jí mne, bu -- de žít ze mne.
   }

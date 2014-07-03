@@ -34,12 +34,12 @@
       d4 d8 c d( c) d4    f8 e d c r2
       f8 g a g f( e) d c    d2 d
       \bar "||"
-      
+
       % Predstupme ...
       d4 d8 c d c d4    f8 e d c r2
       f8 g a bes a g f e    d r8 r2._\markup { \bold \italic \with-color #red Antifona }
       \bar "||"
-      
+
       % Nebot veliky ...
       \time 3/4
       d8 c d e f4    a8 bes a g a r
@@ -50,17 +50,17 @@
       \time 4/4
       a8 g a g f( e) d r
       \bar "||"
-      
+
       % V jeho ruce ...
       d8 c d e f g a bes    a( g) a4 r2
       a8 g a bes a( g) a4    g8 f e d r2
       \bar "||"
-      
+
       % Jeho je ...
       d8 c d e f g a bes    a g a4 r2
       a8 a a g a bes a g f( e) d4 r2_\markup { \bold \italic \with-color #red Ant. }
       \bar "||"
-      
+
       % Pojdme, padneme ...
       d8 d d c d e f d
       \time 2/4
@@ -68,28 +68,28 @@
       \time 4/4
       e8 e e e e e d e    f d d d r2
       \bar "||"
-      
+
       % Nebot on je...
       \time 5/4
       d8 d c d f d r2
       \time 4/4
       e8 f d e e f d e    e e e e d e f d    d4 r2._\markup { \bold \italic \with-color #red Ant. }
       \bar "||"
-      
+
       % Kez byste...
       d8 a' g f d a' g f    d a' g( f) d r8 r4
       d8 d f f d d c c a a a c d r8 r4
       d8 d a' a g g f e d r8 r2.
       \bar "||"
-      
+
       % Kde me ...
-      d8 a' g f d a' g f    
+      d8 a' g f d a' g f
       \time 3/4
       d d r2
       \time 4/4
       d8 d f f d d c c    f e d r8 r2_\markup { \bold \italic \with-color #red Ant. }
       \bar "||"
-      
+
       % Ctyricet let...
       d8 f e d c a c d    d f e d c d d4
       \time 2/4
@@ -97,15 +97,15 @@
       \time 4/4
       d8 d d c d e f e    d c d d r2    f8 f e f e f e( c)    d r r2.
       \bar "||"
-      
+
       % Proto jsem prisahal...
-      d8 f e d c c f e    
+      d8 f e d c c f e
       \time 3/4
       c d r2
       \time 4/4
       f8 f g f e f e c    d d r2._\markup { \bold \italic \with-color #red Ant. }
       \bar "||"
-      
+
       % Slava Otci...
       d4 c8 c f f f( e)    d r4 d8 f( g) a4    g8 f e r4 e8 d e    f d d c d r8 r4_\markup { \bold \italic \with-color #red Ant. }
       \bar "|."
@@ -113,39 +113,39 @@
     \addlyrics {
       Pojď -- me, já -- sej -- me Hos -- po -- di -- nu,
       o -- sla -- vuj -- me ská -- lu své spá -- sy.
-      
+
       Před -- stup -- me před ně -- ho s_chva -- lo -- zpě -- vy
       a pís -- ně -- mi za -- já -- sej -- me mu.
-      
+
       Ne -- boť ve -- li -- ký Bůh je Hos -- po -- din
       a ve -- li -- ký král na -- de vše -- mi bo -- hy.
-      
+
       V_je -- ho ru -- ce jsou hlu -- bi -- ny ze -- mě
       a je -- mu též pa -- tří vý -- ši -- ny hor.
-      
+
       Je -- ho je mo -- ře, vždyť on je u -- či -- nil,
       i souš, kte -- rou zhnět -- ly je -- ho ru -- ce.
-      
+
       Pojď -- me, pad -- ně -- me, klaň -- me se,
       po -- klek -- ně -- me před svým tvůr -- cem Hos -- po -- di -- nem.
-      
+
       Ne -- boť on je náš Bůh
       a my jsme lid, kte -- rý pa -- se, stád -- ce je -- ho ru -- kou ve -- de -- né.
-      
+
       Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
       Ne -- za -- tvr -- zuj -- te svá srd -- ce ja -- ko v_Me -- ri -- bě,
       ja -- ko teh -- dy v_Mas -- se na pouš -- ti.
-      
+
       Kde mě va -- ši ot -- co -- vé dráž -- di -- li,
       zkou -- še -- li mě, ač mé či -- ny vi -- dě -- li.
-      
+
       Čty -- ři -- cet let mi by -- lo pro -- tiv -- né to po -- ko -- le -- ní,
       ře -- kl jsem: Je to lid, kte -- rý blou -- dí v_srd -- ci,
       ne -- po -- zna -- li mo -- je ces -- ty.
-      
+
       Pro -- to jsem pří -- sa -- hal ve svém hně -- vu:
       Ne -- při -- jdou na mís -- to mé -- ho kli -- du!
-      
+
       Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
       od vě -- ků na vě -- ky. A -- men.
     }
@@ -161,14 +161,14 @@
   }
   \markup {
     \wordwrap {
-      Tyto antifony jsou zařazeny v žaltáři, opakují se v dvoutýdenním 
+      Tyto antifony jsou zařazeny v žaltáři, opakují se v dvoutýdenním
       cyklu podobně jako hymny a používají se, pokud liturgickou
-      dobou nebo svátkem není dáno něco jiného.    
+      dobou nebo svátkem není dáno něco jiného.
     }
   }
-  
+
   % nedele licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -186,9 +186,9 @@
       piece = "neděle"
     }
   }
-  
+
   % pondeli licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -203,9 +203,9 @@
       piece = "pondělí"
     }
   }
-  
+
   % utery licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -224,9 +224,9 @@
       piece = "úterý"
     }
   }
-  
+
   % streda licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -242,9 +242,9 @@
       piece = "středa"
     }
   }
-  
+
   % ctvrtek licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -256,22 +256,22 @@
       \bar "||"
     }
     \addlyrics {
-      Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
+      Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
       ne -- boť on je náš Bůh.
     }
     \header {
       piece = "čtvrtek"
     }
   }
-  
+
   % patek licheho
-  
+
   \score {
     \relative c' {
       \key f \major
       d8 d d d c c c c
       a a a c d4 r
-      d f8 f d d c c 
+      d f8 f d d c c
       f f f e d r r4
       \bar "||"
     }
@@ -283,9 +283,9 @@
       piece = "pátek"
     }
   }
-  
+
   % sobota licheho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -297,7 +297,7 @@
       \bar "||"
     }
     \addlyrics {
-      Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
+      Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
       je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
     }
     \header {
@@ -311,9 +311,9 @@
     subtitle = "Antifony ze žaltáře"
     subsubtitle = "Sudý týden (2. a 4. týden žaltáře)"
   }
-  
+
   % nedele sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -325,16 +325,16 @@
       \bar "||"
     }
     \addlyrics {
-      Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
+      Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
       jsme je -- ho lid a stád -- ce je -- ho past -- vy. A -- le -- lu -- ja.
     }
     \header {
       piece = "neděle"
     }
   }
-  
+
   % pondeli sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -351,9 +351,9 @@
       piece = "pondělí"
     }
   }
-  
+
   % utery sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -372,9 +372,9 @@
       piece = "úterý"
     }
   }
-  
+
   % streda sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -390,9 +390,9 @@
       piece = "středa"
     }
   }
-  
+
   % ctvrtek sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -407,9 +407,9 @@
       piece = "čtvrtek"
     }
   }
-  
+
   % patek sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -425,9 +425,9 @@
       piece = "pátek"
     }
   }
-  
+
   % sobota sudeho
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -445,7 +445,7 @@
       piece = "sobota"
     }
   }
-  
+
 }
 
 % Antifony - doba adventni -------------------------------------
@@ -454,14 +454,14 @@
   \header {
     subtitle = "Antifony - doba adventní"
   }
-  
+
   \markup {
     \wordwrap {
       Pro první část (do 16.12.) doby adventní nabízí liturgie hodin
       dvě antifony k volnému výběru.
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -478,7 +478,7 @@
       piece = "do 16. prosince"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -494,7 +494,7 @@
       piece = "do 16. prosince - další možnost"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -510,7 +510,7 @@
       piece = "od 17. do 23. prosince"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -534,17 +534,17 @@
   \header {
     subtitle = "Antifony - doba vánoční"
   }
-  
+
   \markup {
     \wordwrap {
-      Doba vánoční je rozdělena na dvě části, první začíná slavností 
+      Doba vánoční je rozdělena na dvě části, první začíná slavností
       Narození Páně a druhá slavností Zjevení Páně, každá část
-      má jinou antifonu invitatoria. Svátek Svaté rodiny, 
+      má jinou antifonu invitatoria. Svátek Svaté rodiny,
       slavnost Matky Boží Panny Marie a svátek Křtu Páně pak
       mají antifonu speciální.
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -559,7 +559,7 @@
       piece = "I. od slavnosti Narození Páně do slavnosti Zjevení Páně"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -576,13 +576,13 @@
       piece = "II. od slavnosti Zjevení Páně"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
       d4 f c8 c d r
       f f f e d d d r
-      d e f g a a a a 
+      d e f g a a a a
       f e d4 d r
       \bar "||"
     }
@@ -594,7 +594,7 @@
       piece = "svátek Svaté rodiny"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -614,7 +614,7 @@
       piece = "slavnost Matky Boží Panny Marie"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -638,11 +638,11 @@
 % Antifony - doba postni -----------------------------------------
 
 \bookpart {
-  
+
   \header {
     subtitle = "Antifony - doba postní"
   }
-  
+
   \markup {
     \justify {
       Následující dvě antifony jsou od Popeleční středy do soboty po 5. neděli
@@ -650,7 +650,7 @@
       se pak používá jen ta první.
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -666,7 +666,7 @@
       piece = "1. možnost"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -685,11 +685,11 @@
 % Antifony - velikonocni triduum ---------------------------------
 
 \bookpart {
-  
+
   \header {
     subtitle = "Antifony - velikonoční triduum"
   }
-  
+
   \markup {
     \justify {
       Na Velký pátek a Bílou sobotu se žalm nebude zpívat
@@ -698,7 +698,7 @@
       Flexu (+) ve verších, kde je, je možné ignorovat nebo vložit malou pomlku.
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -709,7 +709,7 @@
       piece = "nápěv žalmu pro Velký pátek a Bílou sobotu"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -726,7 +726,7 @@
       piece = "Velký pátek"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -752,7 +752,7 @@
   \header {
     subtitle = "Antifony - doba velikonoční"
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -766,7 +766,7 @@
       piece = "od slavnosti Zmrtvýchvstání Páně po celou dobu velikonoční"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -785,7 +785,7 @@
       piece = "slavnost Nanebevstoupení Páně"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -804,7 +804,7 @@
       piece = "od slavnosti Nanebevstoupení Páně do předvečera slavnosti Seslání Ducha svatého"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -822,7 +822,7 @@
       piece = "slavnost Seslání Ducha svatého"
     }
   }
-  
+
 }
 
 % Antifony - slavnosti Pane v mezidobi --------------------------
@@ -831,7 +831,7 @@
   \header {
     subtitle = "Antifony - slavnosti Páně v liturgickém mezidobí"
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -849,14 +849,14 @@
       piece = "slavnost Nejsvětější Trojice"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
       d4 d r8 f e d
       a'( bes) a4 r8 c c c
       a4( g) f g
-      a d, f8( g) e4 
+      a d, f8( g) e4
       \time 2/4
       d r
       \bar "||"
@@ -869,7 +869,7 @@
       piece = "slavnost Těla a Krve Páně"
     }
   }
-  
+
   \score {
     \relative c' {
       \key f \major
@@ -892,19 +892,19 @@
 % Antifony - slavnosti Pane v mezidobi ----------------------------
 
 %{ Kostra antifony
-  
+
   \score {
     \relative c' {
       \key f \major
-      
+
       \bar "||"
     }
     \addlyrics {
-    
+
     }
     \header {
       piece = ""
     }
   }
-  
+
   %}

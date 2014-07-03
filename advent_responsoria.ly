@@ -7,7 +7,7 @@
 
 \paper {
   % neroztahovat noty na celou stranku, ale nechat misto dole:
-  ragged-bottom = ##t 
+  ragged-bottom = ##t
 }
 
 \include "spolecne.ly"
@@ -24,16 +24,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     \neviditelna a
     a4( c) b a a g f g( a) f( e) d4. \barMax
     f4 g a f e4. e \barFinalis
-    
+
     \neviditelna a
     a4 b c c c b( g) e4. e \barMax
     \neviditelna e
     f4 g a f e4. e \barFinalis
-    
+
     a4 a c b c a a4. \barMin
     a4 b g f e e4. \barFinalis
   }
@@ -46,14 +46,17 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "III"
     piece = "neděle - ranní chvály (III)"
+    id = "ne-rch"
   }
 }
 
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna g
     g4( c) a( g) g4.( a) g4 f e e \barMin
@@ -78,7 +81,10 @@
     \textRespDoxologie
   }
   \header {
-    piece = "neděle - nešpory (VIII)"
+    quid = "resp."
+    modus = "VIII"
+    piece = "neděle + 17. a 18. 12. - nešpory (VIII)"
+    id = "ne-ne"
   }
 }
 
@@ -88,7 +94,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    
+
     % R
     \neviditelna d
     d4 d d d( a') a \barMin c a g g( a) a \barMax
@@ -111,14 +117,17 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "I"
     piece = "ferie - ranní chvály (I)"
+    id = "fe-rch"
   }
 }
 
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     d4 d d d f( e) f f( g) g g \barMax
@@ -140,6 +149,9 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "II"
     piece = "ferie - nešpory (II)"
+    id = "fe-ne"
   }
 }

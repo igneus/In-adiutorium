@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
@@ -31,7 +31,6 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newenvironment{hora}{}{}
-\newenvironment{psalmus}{}{}
 
 \newcommand{\rubrikaZalmBylvInvitatoriu}{
   \rubrika{Pokud se následující žalm zpíval jako invitatorium,
@@ -388,7 +387,7 @@ strofě.}
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
 \end{hora}
-\rubrikaMagnificat 
+\rubrikaMagnificat
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky

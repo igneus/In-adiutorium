@@ -1,12 +1,22 @@
 # volumes of the "Complete Edition" of the antiphonal
 
+###############################################################
+# sv. 0: uvod
+#
+# temporary volume; in the future a part of it's content will
+# be used as a preface to the first volume, the rest will be
+# appended to the volume containing psalter as 'toni communes'
+
+desc "Introduction to the whole set of antiphonal volumes."
+task :uvod => [ typographus('antifonar_uvod.tytex') ]
+
 ##############
 # sv. IV.2 
 # kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
 
-kompletar_options = $commonoptions+" --columns"
+kompletar_options = $commonoptions
 
 kompletar_splitscores_command = $splitscores_command + " --output-dir #{adresar_kompletar} "
 
@@ -19,7 +29,7 @@ end
 cislazalmu_kompletar = [4, 134, 91, 86, 143, 31, 130, 16, 88]
 zalmy_kompletar = []
 cislazalmu_kompletar.each do |i|
-  zalmy_kompletar << genzalm("zalm#{i}.zalm", kompletar_options+" --last-accent-only", adresar_kompletar)
+  zalmy_kompletar << genzalm("zalm#{i}.zalm", kompletar_options+" --accents 1:1", adresar_kompletar)
 end
 
 zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --accents 2:1', adresar_kompletar)

@@ -19,7 +19,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 42"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -43,7 +43,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Sir 36"
     id = "rch-a2"
     placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
@@ -67,9 +67,10 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
+    placet = "'odsazení' _je_ o sekundu je nevhodné; navíc někde mám pěkný úryvek _a jeho světlem je Beránek_, mohlo by tedy být dobré postavit novou melodii kolem něj"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -93,7 +94,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
     id = "ne-a1"
@@ -118,9 +119,10 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 45-II"
     id = "ne-a2"
+    placet = "mdlá"
     piece = \markup {\sestavTitulek}
   }
 }

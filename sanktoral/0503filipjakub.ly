@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Filipa a Jakuba, apoštolů" 
+  title = \markup\titleSvatek
+            "sv. Filipa a Jakuba, apoštolů"
             "svátek"
             3.5.
   composer = "Jakub Pavlík"
@@ -16,7 +16,7 @@
   \relative c' {
     \choralniRezim
     c4( d) d \barMin d( e f) g( f e) f d( e d) d \barMaior
-    d c d d( f) e 
+    d c d d( f) e
     f f d d \barFinalis
   }
   \addlyrics {
@@ -28,9 +28,9 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -50,9 +50,9 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,9 +74,9 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -101,9 +101,9 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -113,40 +113,50 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+    d4 f f \barMin
+    f g d e( d c) \barMin
+    d( e f g) f d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe,
-    kdo vi -- děl mne, vi -- děl Ot -- ce.
+    kdo vi -- děl mne,
+    vi -- děl Ot -- ce.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = "" 
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
+    fial = "sanktoral/0503filipjakub.ly#rch-a2?cast"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g f( a) g( f) f( g) \barMaior
+    a( c) b a g f f( a) a g g \barMax
+    c c c c c( d c a) a \barMin
+    c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kdy -- bys -- te zna -- li mne,
     zna -- li bys -- te i mé -- ho Ot -- ce.
-    Ny -- ní už ho zná -- te a vi -- dě -- li jste ho.
+    Ny -- ní už ho zná -- te
+    a vi -- dě -- li jste ho.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -154,7 +164,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g g a g f( d) d \barMin 
+    f4 g g g a g f( d) d \barMin
     f g a bes g g( a) a a g f e4. e \barMin
     d4 f e d \barFinalis
   }
@@ -166,9 +176,9 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     fons = ""
     fial = "antifony/tyden4_5ctvrtek.ly#up-ant1"
     piece = \markup {\sestavTitulek}
@@ -176,9 +186,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    
+    g4 g g f g f( e) d \barMaior
+    g a g g g a g f g f( e) d \barMaior
+    g g g g( c) c a c( b a) a \barMaior
+    a a a f e d
+    f g g g \barFinalis
   }
   \addlyrics {
     Zů -- sta -- ne -- te -li ve mně
@@ -189,10 +203,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = "" 
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

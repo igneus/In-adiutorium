@@ -12,9 +12,8 @@ nesporni_splitscores_command = "#{RUBY_COMMAND} -I ../nastroje "+
                         "--prepend-text '\\include \"../nespornizpevy/spolecne_nespory.ly\"\n\\include \"../../dilyresponsorii.ly\"' "+
                         # "--remove-headers "+
                         # "--mode-info "+
-                        "--one-clef "+
                         "--ids " + " --output-dir #{adresar_nesporni} "
-nesporni_options = "--accents-style bold --guillemets --append \""+
+nesporni_options = "--accents-style bold --guillemets --skip-title --append \""+
   "\n\nSláva [Ot]ci i [Sy]nu * 
 i [Du]chu [sva]tému, 
 jako byla na počátku, i [ny]ní i [vždyc]ky * 
@@ -137,7 +136,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   122 130 112
                   )
 
-nedelecommonoptions = $commonoptions+$o_warnmarks+" --columns"
+nedelecommonoptions = $commonoptions+$o_warnmarks
 dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 nedele_splitscores_command = $splitscores_command + " --output-dir #{adresar_nedele} "
@@ -150,7 +149,7 @@ nedelecanticleoptions = nedelecommonoptions+$o_canticletitle
 
 zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
 
-zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions+" --columns", adresar_nedele)
+zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)
 
 zalmynedele << genzalm('kantikum_benedictus.zalm', nedelecommonoptions+" --pretitle \"Zachariášovo kantikum (Benedictus)\\\\\\\\ \"", adresar_nedele)
@@ -184,7 +183,6 @@ file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
                                                                             "}\n\" "+
                         "--remove-headers "+
                         " --output-dir #{adresar_nedele} "+
-                        "--one-clef "+
                         "--ids " + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'nedele_verse_ne1v.ly'
@@ -224,26 +222,3 @@ end
 
 desc "Psalm 136 - responsorial arrangement."
 task :zalm136 => ["vystup/zalm136.pdf"]
-
-###############################################################
-# sv. 0: uvod
-
-file 'uvod_priklady_1.ly' => ['uvod_priklady.ly'] do
-  chdir 'generovane'
-  sh "#{RUBY_COMMAND} -I ../../nastroje ../../nastroje/splitscores.rb --prepend-text '\\include \"../spolecne_antifonar.ly\"' ../uvod_priklady.ly"
-  chdir '..'
-end
-
-file 'vystup/antifonar_uvod.tex' => ['antifonar_uvod.lytex', 'uvod_priklady_1.ly'] do
-  sh 'lilypond-book --pdf --output=vystup antifonar_uvod.lytex'
-end
-
-file 'vystup/antifonar_uvod.pdf' => ['vystup/antifonar_uvod.tex'] do
-  chdir 'vystup'
-  sh 'pdflatex -shell-escape antifonar_uvod.tex'
-  chdir '..'
-end
-
-desc "Introduction to the whole set of antiphonal volumes."
-task :uvod => ['vystup/antifonar_uvod.pdf']
-

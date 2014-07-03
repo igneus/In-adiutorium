@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 92"
     id = "rch-a1"
     placet = "R"
@@ -40,7 +40,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Ex 36"
     id = "rch-a2"
     placet = "~"
@@ -52,9 +52,9 @@
   \relative c'' {
     \choralniRezim
     a( g) f g f( d) d \barMax
-    g f g( a) g f g( a) a \barMaior
-    a a( g f) e c( d) d \barMax
-    d e c( d) d \barFinalis
+    d d f g a g g \barMaior
+    g f( g f) e c( d) d \barMax
+    c d d( e) d \barFinalis
   }
   \addlyrics {
     Všech -- no je na -- še,_*
@@ -65,10 +65,9 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 8"
     id = "rch-a3"
-    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }

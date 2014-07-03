@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 51"
     id = "rch-a1"
     placet = "*"
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Tob 13"
     id = "rch-a2"
     placet = "*"
@@ -65,7 +65,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 147-II"
     id = "rch-a3"
     fons = "První část z žaltář, sobota 4.t., modlitba uprostřed dne, 3. ant."
@@ -90,7 +90,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 145-I"
     id = "ne-a1"
     fons = "začátek viz 4. neděle postní, cyklus B, ad Benedictus"
@@ -116,7 +116,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 145-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

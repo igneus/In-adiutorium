@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 84"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -41,7 +41,7 @@
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Iz 2"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -67,7 +67,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 96"
     id = "rch-a3"
     placet = "r - to je možná ve skutečnosti čistý peregrinus? - rozhodně ale ne VIII"
@@ -92,7 +92,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 123"
     id = "ne-a1"
     placet = "r - přetížená"
@@ -106,7 +106,7 @@
     e4( d) c d e g g \barMin
     g a b a( g) g \barMaior
     a b g g \barFinalis
-  }-
+  }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
     a my jsme vol -- ní.
@@ -115,7 +115,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 124"
     id = "ne-a2"
     placet = "r"

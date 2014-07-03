@@ -26,17 +26,17 @@ uvodniVers = \lyricmode {
     \choralniRezim
     \neviditelna c
     c4 c \barMin c c c c( d) c c \barFinalis
-    
+
     \neviditelna c
     c c c c c c \barMax
-    
+
     c c c c c c c \barMaior
     c c c c c c \barMax
     c c c c c c c c c c c c c c \barMaior \break
-    
+
     c^\markup\italic{mimo dobu postní:} c c c c c c c \barMax
     c c( d) c4. c \barFinalis
-    
+
     c4^\markup\italic{v době postní:} c c c c c( d) c4. c \barFinalis
   }
   \addlyrics {
@@ -52,15 +52,15 @@ uvodniVers = \lyricmode {
     \choralniRezim
     \neviditelna a
     a4 a \barMin a b a g g( a) a \barFinalis
-    
+
     \neviditelna a
     a a a g g( a) a \barMax
     a a a a a a g \barMaior g a a g g( a) a \barMax
     a a a a a a a a a a a a a g \barMaior \break
-    
+
     g^\markup\italic{mimo dobu postní:} a a a a g g( a) a \barMax
     a a( b) a( g) g4. \barFinalis
-    
+
     g4^\markup\italic{v době postní:} a a a a( b) a a( g) g \barFinalis
   }
   \addlyrics {

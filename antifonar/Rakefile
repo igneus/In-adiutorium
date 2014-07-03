@@ -4,16 +4,19 @@ task :all => [:kompletar, :zaltar, :festzaltar, :nedele, :triduum]
 task :default => [:all]
 
 RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
+PSALM_PREPROCESSOR = 'pslm.rb'
+#PSALM_PREPROCESSOR = File.join Dir.pwd, '..', 'nastroje', 'psalmpreprocessor.rb'
 
 def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
   syrovy = wd+"/zalmy/"+zalm
   peceny = adresar+zalm.gsub(/\.zalm/, '')+'.tex'
-  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
-  file peceny => [syrovy, preprocessor] do
-    chdir adresar
-    sh "#{RUBY_COMMAND} #{preprocessor} #{options} #{syrovy}"
-    chdir wd
+  file peceny => [syrovy] do
+    if options.is_a? Array then
+      sh PSALM_PREPROCESSOR, *options, syrovy
+    else
+      sh "#{PSALM_PREPROCESSOR} --output #{peceny} #{options} #{syrovy}"
+    end
     sh "vlna #{peceny}"
   end
   return peceny
@@ -23,11 +26,16 @@ def genspojenyzalm(zdroje, vysledek, options='', adresar='generovane/')
   wd = Dir.pwd
   syrove = zdroje.map {|zalm| wd+"/zalmy/"+zalm }
   peceny = adresar+vysledek
-  preprocessor = wd+"/../nastroje/psalmpreprocessor.rb"
-  file peceny => syrove+[preprocessor] do
-    chdir adresar
-    sh "#{RUBY_COMMAND} #{preprocessor} #{options} --output #{vysledek} --join #{syrove.join " "}"
-    chdir wd
+  add_options = [
+                 "--output #{peceny}", 
+                 "--join" 
+                ]
+  file peceny => syrove do
+    if options.is_a? Array then
+      sh PSALM_PREPROCESSOR, *(options + add_options + syrove)
+    else
+      sh "#{PSALM_PREPROCESSOR} #{options} #{add_options.join(' ')} #{syrove.join ' '}"
+    end
     sh "vlna #{peceny}"
   end
   return peceny
@@ -42,6 +50,42 @@ task "test_lilypondbook_version" do
   else
     puts "LilyPond version [#{v}] OK."
   end
+end
+
+def swap_ext(fname, newext)
+  return fname[0 .. fname.rindex('.')]+newext
+end
+
+# generates all necessary tasks to compile a booklet using Typographus
+def typographus(main, latex='pdflatex')
+  outdir = 'vystup'
+  typographus = File.join '..', 'nastroje', 'typographus.rb'
+  
+  main_b = File.basename(main)
+  lytex = swap_ext main_b, 'lytex'
+  tex = File.join(outdir, swap_ext(main_b, 'tex'))
+  final = File.join(outdir, swap_ext(main_b, 'pdf'))
+
+  wd = Dir.pwd
+
+  task final do
+    ruby typographus, main
+    
+    sh "vlna #{lytex}"
+
+    sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
+
+    latex_commands = {
+      'pdflatex' => "pdflatex  -shell-escape #{File.basename(tex)}",
+      'xelatex' => "xelatex -output-driver=\"xdvipdfmx -q -E\" #{File.basename(tex)}"
+    }
+    
+    chdir outdir
+    2.times { sh latex_commands[latex] }
+    chdir wd
+  end
+
+  return final
 end
 
 Rake::Task["test_lilypondbook_version"].execute
@@ -60,13 +104,17 @@ def make_dirs(struc)
 end
 
 # create directory structure used by the tasks
-dirs = { 'generovane' => {'kompletar' => {},
-                                                'nedele' => {},
-                                                'zaltar' => {},
-                                                'svatecnizaltar' => {},
-                                                'triduum' => {},
-    'nespornizpevy' => {}},
-              'vystup' => {}}
+dirs = { 
+  'generovane' => {
+    'kompletar' => {},
+    'nedele' => {},
+    'zaltar' => {},
+    'svatecnizaltar' => {},
+    'triduum' => {},
+    'nespornizpevy' => {}
+  },
+  'vystup' => {}
+}
 make_dirs dirs
 
 ##############
@@ -74,7 +122,6 @@ make_dirs dirs
 $o_canticletitle = " --pretitle \"kantikum\\\\\\\\ \""
 $o_doxology = " --output-append \" \\doxologieZkratka\""
 $o_doxology_full = ' --append "' + File.read('zalmy/doxologie.zalm') + '"'
-$o_columns = " --columns"
 $o_warnmarks = ' --mark-short-verses'
 
 $commonoptions_withoutdoxology = "--lettrine --dashes --no-paragraph --guillemets"

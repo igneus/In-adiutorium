@@ -17,7 +17,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 g a g a f g d d \barMin g g( f e) d( c) c \barMax
@@ -59,7 +59,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -77,14 +77,14 @@
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, Krá -- li krá -- lů;
-    on o -- věn -- čil 
+    on o -- věn -- čil
     sva -- té -- ho Vác -- la -- va
     věn -- cem slá -- vy.
   }
   \header {
     quid = "ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -106,7 +106,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -128,7 +128,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -148,7 +148,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -158,7 +158,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f( g) f f g f g g( a) \barMax
@@ -195,14 +195,14 @@
     f g g( a e f) d \barMin c d d( f e) c d d \barFinalis
   }
   \addlyrics {
-    Ná -- rod ho na -- zý -- vá 
+    Ná -- rod ho na -- zý -- vá
     dě -- di -- cem čes -- ké ze -- mě,
     je -- ho jmé -- no bu -- de žít na -- vě -- ky.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -224,7 +224,7 @@
   \header {
     quid = "ant. dopoledne"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -244,7 +244,7 @@
   \header {
     quid = "ant. v poledne"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     fons = "Jana Sarkandra, k Magnificat; konec upraven"
@@ -265,7 +265,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -289,7 +289,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 116-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -313,7 +313,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -333,7 +333,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -357,7 +357,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

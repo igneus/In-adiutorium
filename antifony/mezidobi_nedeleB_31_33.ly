@@ -7,20 +7,20 @@
     \choralniRezim
     d4 d d( c d) d \barMin e( f) e f( g f e) e \barMaior
     d( e) d c c( d) d \barMax
-    
+
     d d d( e) d d( f) d( e) e( d) \barMin
     e e e( d c) c( d) d \barMax
-    
-    f f g f e( d) e( f) d d \barMin 
+
+    f f g f e( d) e( f) d d \barMin
     d d e d c c( d) d \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,
     ce -- lým svým srd -- cem.
-    
+
     Mi -- luj své -- ho bliž -- ní -- ho
     ja -- ko sám se -- be.
-    
+
     Žád -- né ji -- né při -- ká -- zá -- ní
     ne -- ní vět -- ší než ta -- to.
   }
@@ -47,7 +47,7 @@
   }
   \addlyrics {
     Hos -- po -- din, náš Bůh, je je -- di -- ný Pán.
-    
+
     Pro -- to mi -- luj Pá -- na, své -- ho Bo -- ha,
     ce -- lým svým srd -- cem,
     ce -- lou svou du -- ší,
@@ -96,7 +96,7 @@
     f4 g a( c) a a \barMin
     a a a a g a g f g( f d) d \barMaior
     e e e f( g f) d d \barMax
-    
+
     f( g a) g f( g) g g f( g f d) e( d) \barMaior
     e d c f e c( d) d \barFinalis
   }
@@ -104,8 +104,8 @@
     Mno -- ho bo -- há -- čů
     dá -- va -- lo do po -- klad -- ni -- ce mno -- ho
     ze své -- ho nad -- byt -- ku,
-    
-    chu -- dá vdo -- va však da -- la 
+
+    chu -- dá vdo -- va však da -- la
     ze své -- ho ne -- do -- stat -- ku.
   }
   \header {
@@ -195,7 +195,7 @@
   }
   \addlyrics {
     Na kon -- ci vě -- ků
-    shro -- máž -- dí Kris -- tus 
+    shro -- máž -- dí Kris -- tus
     všech -- ny své vy -- vo -- le -- né.
   }
   \header {

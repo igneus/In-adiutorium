@@ -10,14 +10,14 @@
 
 \markup {
   \justify {
-    Alternativní hymnus kompletáře 
-    (Denní modlitba církve - Hymny a básnické modlitby, Zvon, Praha, 1993, 
+    Alternativní hymnus kompletáře
+    (Denní modlitba církve - Hymny a básnické modlitby, Zvon, Praha, 1993,
     s. 115.) Autorem překladu je G. Francl nebo J. Hrdlička.
   }
 }
 
 
-\score { 
+\score {
   <<
   \chords {
     a4:m d2:m a2:m
@@ -38,22 +38,22 @@
     b4) a4 a8[ c] b2 a \bar "||"
   }
   \addlyrics {
-    \set stanza = #"1." 
-    Já o stud -- ni -- ci vím, 
-    jež vo -- dy roz -- lé -- vá 
+    \set stanza = #"1."
+    Já o stud -- ni -- ci vím,
+    jež vo -- dy roz -- lé -- vá
     i v_tem -- né no -- ci.
   }
   >>
 }
 
-\score { 
+\score {
   <<
   \chords {
     a2.:m d1:m a2:m d2:m a2:m c2 e2 a2:m e2 a2:m
   }
   \relative c' {
     \time 4/4
-    \override Beam #'breakable = ##t 
+    \override Beam #'breakable = ##t
     \set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)
 
     \autoBeamOff
@@ -76,7 +76,7 @@
   \addlyrics {
     \set stanza = #"3."
     Snad bez po -- čát -- ku je,
-    snad a -- ni ne -- má dna, 
+    snad a -- ni ne -- má dna,
     však do -- bře vím, že vše
     v_ní po -- čá -- tek svůj má
     i v_tem -- né no -- ci.

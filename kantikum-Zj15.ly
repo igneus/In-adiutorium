@@ -10,10 +10,10 @@
 \relative c''  {
   \key f \major
   \choralniRezim
-  
+
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
-  
+
   g4( bes g) f f4.( g)
   \bar "|"
   g4 g g g g g bes4 c a g
@@ -22,21 +22,21 @@
   a a a f f g g4.
   \bar "||"
   \break
-  
+
   bes4 bes bes bes bes bes bes bes bes c a f g
   \breathe
   \bar "|"
   bes( a) f f g g4.
   \bar "||"
   \break
-  
+
   g4 g g g g g g g g g g g bes c a g
   \breathe
   \bar "|"
   f f f f bes a f g4.
   \bar "||"
   \break
-  
+
   \repeat unfold 14 { bes4 }
   a g
   \breathe
@@ -45,7 +45,7 @@
   bes a f g4.
   \bar "||"
   \break
-  
+
   \repeat unfold 8 { g4 }
   f g bes a g
   \breathe
@@ -66,7 +66,7 @@
   \header {
     subtitle = "Antifony"
   }
-  
+
   \score {
     \relative c'' {
       \key f \major
@@ -82,7 +82,7 @@
       piece = "pátek 1. a 3. týdne žaltáře - 3. ant."
     }
   }
-  
+
   \score {
     \relative c'' {
       \key f \major

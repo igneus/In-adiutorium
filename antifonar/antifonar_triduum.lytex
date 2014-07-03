@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=2cm, right=1.5cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
@@ -25,15 +25,15 @@
 \newcommand{\nazev}{Velikonoční triduum}
 
 \newcommand{\textDoTiraze}{
-  Používání \emph{nápěvů antifon} je vázáno licencí 
+  Používání \emph{nápěvů antifon} je vázáno licencí
   \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
   která dává komukoli právo je dále šířit, upravovat a využívat
   ve svých vlastních dílech, za předpokladu, že uvede informaci
-  o autorovi původního díla a při dalším šíření zachová licenční 
+  o autorovi původního díla a při dalším šíření zachová licenční
   podmínky.
-  
-  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
-  
+
+  Texty Denní modlitby církve jsou majetkem České biskupské konference.
+
   Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
   Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
@@ -47,12 +47,6 @@
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
 \newenvironment{hora}{}{}
-
-\newenvironment{psalmus}{
-  \begin{multicols}{2}
-}{
-  \end{multicols}
-}
 
 \newcommand{\typRespAntifona}{
   \nadpisTypTextu{Antifona po krátkém čtení}
@@ -100,34 +94,34 @@
 \begin{titlepage}
   \begin{center}
     \soubornyNazev
-    
+
     Svazeček \cisloSvazku.
-    
+
     \vspace*{4cm}
-    
+
     {\Huge \textbf{\nazev}}
-    
+
     \vspace*{1cm}
-    
+
     \setlength{\parskip}{0.3cm}
-    
-    {\bf \Large Zelený čtvrtek, Velký pátek, 
-    
+
+    {\bf \Large Zelený čtvrtek, Velký pátek,
+
     Bílá sobota,
-    
+
     neděle Zmrtvýchvstání Páně}
-        
+
     \vspace{1cm}
-    
+
     {\large \autor}
-    
+
     \vfill
     In adiutorium
-    
+
     \onlyyeardate \today
   \end{center}
 \end{titlepage}
-  
+
 \prazdnaStranka
 
 % Nastaveni sazby do sloupcu:

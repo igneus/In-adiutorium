@@ -11,14 +11,14 @@
     d c a g g( a g) g \barMaior g g( a) g g \barFinalis
   }
   \addlyrics {
-    U -- kaž se_* ve své vzne -- še -- nos -- ti 
+    U -- kaž se_* ve své vzne -- še -- nos -- ti
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 108"
     id = "rch-a1"
     placet = "~"
@@ -37,7 +37,7 @@
   }
   \addlyrics {
     Pán, Hos -- po -- din,_*
-    dá vy -- ra -- šit 
+    dá vy -- ra -- šit
     spra -- ve -- dl -- nos -- ti a slá -- vě
     pře -- de vše -- mi ná -- ro -- dy.
     A -- le -- lu -- ja.
@@ -45,7 +45,7 @@
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Iz 61"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -67,7 +67,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 146"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -88,7 +88,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 139-I"
     id = "ne-a1"
     placet = "r"
@@ -111,7 +111,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 139-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

@@ -1,5 +1,17 @@
 \version "2.16.0"
 
+\layout {
+  \context {
+    \Staff
+
+    \consists Custos_engraver
+    \override Custos #'style = #'hufnagel
+
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
+  }
+}
+
 % nastaveni pro choralni notaci
 
 choralniRezim = {
@@ -12,10 +24,10 @@ choralniRezim = {
   % nozky maji nulovou delku a tak neovlivnuji legatove cary
   % (tento radek resi problem "vznasejicich se car")
   \override Stem #'Y-extent = ##f
-  
-  % nedelat taktove cary    
+
+  % nedelat taktove cary
   \cadenzaOn
-  
+
   % vzdycky vypsat becka
   % #(set-accidental-style 'forget) % for Lily 2.14
   \accidentalStyle "forget" % 2.15
@@ -23,7 +35,7 @@ choralniRezim = {
 
 % modus a dalsi info predsazene pred osnovou --------------------
 
-choralniPredznamenaniIII = 
+choralniPredznamenaniIII =
 #(define-music-function (parser location tonus co odkaz )
                         (string? string? string?)
   #{
@@ -32,7 +44,7 @@ choralniPredznamenaniIII =
     }
   #})
 
-choralniPredznamenaniII = 
+choralniPredznamenaniII =
 #(define-music-function (parser location tonus co )
                         (string? string?)
   #{
@@ -44,21 +56,21 @@ choralniPredznamenaniII =
 % Choralni "rozdelovniky+pomlky" (divisiones) ------------------
 
 barMin = {
-  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5) 
-  \bar "|" 
+  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
+  \bar "|"
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
-  \bar "|" 
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \bar "|"
 }
 barMax = { \bar "|" }
 barFinalis = { \bar "||" }
 
 % Specialni znaky pro responsoria -------------------------------
 
-Response = \lyricmode { 
-  \markup { 
-    \with-color ##'red { 
+Response = \lyricmode {
+  \markup {
+    \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {R} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
       \concat { \char ##x0211F . }
@@ -66,8 +78,8 @@ Response = \lyricmode {
   }
 }
 
-Verse = \lyricmode { 
-  \markup { 
+Verse = \lyricmode {
+  \markup {
     \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
@@ -90,3 +102,6 @@ neviditelna = #(define-music-function (parser location note)
     \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
+
+% zastupna znacka za jmeno (napr. svateho) do univerzalnich textu
+Nomen = \markup{ \with-color ##'red {N} }

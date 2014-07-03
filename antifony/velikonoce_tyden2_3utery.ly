@@ -9,8 +9,8 @@
     \choralniRezim
     c4( a) g c( a) g( a g) g \barMaior
     g( a c) c d( c) d d( e c) a a4.( g) \barMaior
-    c4( d) d( c a) a \barMin b( c) a g a( g) g \barMaior
-    c a( b) a( g) g \barFinalis
+    c4 d( c a) a \barMin b( c) a g a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Smí -- me při -- stou -- pit
@@ -21,10 +21,10 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 43"
     id = "rch-a1"
-    placet = "r"
+    placet = "žalm má dost krátkých veršů - modus 7 se tak moc nehodí. Tuto antifonu však zřejmě lze i bez úprav předat 8. modu."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -33,7 +33,7 @@
   \relative c' {
     \choralniRezim
     d4 c d d( g) f e f( d) d( c) c \barMaior
-    c( bes) c d f( e d4.) d \barMaior
+    bes c d f( e d4.) d \barMaior
     d4 e c( d) d \barFinalis
   }
   \addlyrics {
@@ -44,7 +44,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 38"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -54,10 +54,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4( g) g \barMin bes a g a f( g) g \barMaior
-    bes c bes a g a( bes) g g \barMaior
-    f g a( g) g \barFinalis
+    c4( d) d \barMin f e d e c( d) d \barMaior
+    f f( g f) e( d) c c e( f) d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, na -- vští -- vil jsi ze -- mi
@@ -66,11 +65,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"
-    placet = "r - možná není úplně marná, ale fakt to není VIII"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +79,7 @@
   \relative c'' {
     \choralniRezim
     a4 g a b b( d) d \barMin e d c d d( e d4.) d \barMaior
-    a4( b) g( a) a \barMin a b( a) g( a) g g \barMaior
+    a4 g( a) a \barMin b a g( a) g g \barMaior
     a b g g \barFinalis
   }
   \addlyrics {
@@ -92,10 +90,9 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
-    placet = "r - důraz pryč z je, jinak není úplně zlá"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -113,7 +110,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

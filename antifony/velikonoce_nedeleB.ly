@@ -8,7 +8,7 @@
     g4 g a( c) c c c b c d c a4. a4
     b b( c) c c \barMin
     d( c b) c g4.( a) \barMax
-    
+
     a4 g( f) e( f e) e \barFinalis
   }
   \addlyrics {
@@ -20,7 +20,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "iiimag1"
     fons = "zkopírována ze čtvrtka ve vel. oktávu - tam je k Benedictus"
@@ -39,17 +39,17 @@
     g a( g) f( g) g \barFinalis
   }
   \addlyrics {
-    Po -- dí -- vej -- te se_* 
+    Po -- dí -- vej -- te se_*
     na mé ru -- ce a na mé no -- hy:
     vždyť jsem to já!
-    Do -- tkně -- te se mě 
+    Do -- tkně -- te se mě
     a pře -- svěd -- čte se.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "iiiben"
     fons = "větší část viz čtvrtek ve vel. oktávu, k Magnificat"
@@ -78,7 +78,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -92,21 +92,21 @@
     \choralniRezim
     c4( a b) b4.( c) \barMin c4 c( b) g( a g) g \barMaior
     g( a) f g( a) a \barMin
-    \[ b( c \] \[ d b c) \] a4.( g) \barMin 
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior
     g g( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem pas -- týř dob -- rý._*
-    Dob -- rý pas -- týř 
-    dá -- vá 
+    Dob -- rý pas -- týř
+    dá -- vá
     za ov -- ce svůj ži -- vot.
     A -- le -- lu -- ja!
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -130,7 +130,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -158,7 +158,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -177,14 +177,14 @@
   }
   \addlyrics {
     Já jsem pra -- vý vin -- ný kmen_* a můj O -- tec je vi -- nař.
-    Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce, 
+    Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce,
     čis -- tí, a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -195,7 +195,7 @@
   \relative c'' {
     \choralniRezim
     g4 g( c) c c b( c a) a \barMin a b( c) a4.( g) \barMaior
-    a4 c( d) d c( d) c b g g \barMin g( a) a4. g \barMaior 
+    a4 c( d) d c( d) c b g g \barMin g( a) a4. g \barMaior
     a4 g f( g) g \barFinalis
   }
   \addlyrics {
@@ -206,7 +206,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -230,7 +230,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -257,7 +257,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -281,9 +281,10 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "viben"
+    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -300,7 +301,7 @@
   }
   \addlyrics {
     To je mé při -- ká -- zá -- ní:_*
-    Mi -- luj -- te se na -- vzá -- jem, 
+    Mi -- luj -- te se na -- vzá -- jem,
     ja -- ko jsem já mi -- lo -- val vás.
     Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
     kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
@@ -309,7 +310,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "vimag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -335,7 +336,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -359,7 +360,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a2" 
+    differentia = "a2"
     psalmus = ""
     id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -385,7 +386,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a2" 
+    differentia = "a2"
     psalmus = ""
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}

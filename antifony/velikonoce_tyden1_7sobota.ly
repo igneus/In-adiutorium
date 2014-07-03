@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
     placet = "r"
@@ -38,7 +38,7 @@
   }
   \addlyrics {
     Kdo zví -- tě -- zí,_*
-    bu -- dou zpí -- vat pí -- seň 
+    bu -- dou zpí -- vat pí -- seň
     Moj -- ží -- še,
       Bo -- ží -- ho slu -- žeb -- ní -- ka,
     a pí -- seň Be -- rán -- ko -- vu.
@@ -47,7 +47,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Ex 15"
     id = "rch-a2"
     placet = "r"
@@ -70,7 +70,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 117"
     id = "rch-a3"
     placet = "r"

@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "Posvěcení řím. bazilik sv. apošt. Petra a Pavla" 
+  title = \markup\titleSvatek
+            "Posvěcení řím. bazilik sv. apošt. Petra a Pavla"
             "nezávazná památka"
             18.11.
   composer = "Jakub Pavlík"
@@ -25,7 +25,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     fial = "sanktoral/0629petraapavla.ly#2ne-amag"
     id = ""
@@ -36,21 +36,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a g( a) g \barMin 
+    g4( a) a g( a) g \barMin
     a b c b a c( b g) a( g) g \barMaior
     g f e d( c d) d \barMin
     f( g a) g f g g \barFinalis
   }
   \addlyrics {
-    Tě -- la sva -- tých_* 
+    Tě -- la sva -- tých_*
     by -- la po -- hřbe -- na v_po -- ko -- ji
-    a je -- jich jmé -- no 
+    a je -- jich jmé -- no
     ži -- je na -- vě -- ky.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 116-I"
     fial = "commune/commune_vicemucedniku.ly#2ne-a1?-aleluja"
     id = ""

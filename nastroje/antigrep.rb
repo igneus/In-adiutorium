@@ -30,4 +30,4 @@ args = ARGV.map {|a|
   else
     a
   end}.join(' ')
-system "ruby nastroje/indexmaker.rb #{masks} | grep #{args}"
+system "ruby nastroje/indexmaker.rb -i #{masks} | grep #{args}"

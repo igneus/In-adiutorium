@@ -21,15 +21,15 @@
     g( a) a( c) a c c( d) c b( g a) g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Be -- ne -- dikt 
+    Sva -- tý Be -- ne -- dikt
     byl muž cti -- hod -- né -- ho ži -- vo -- ta,
-    po -- žeh -- na -- ný 
+    po -- žeh -- na -- ný
     mi -- los -- tí i po -- dle jmé -- na.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -47,7 +47,7 @@
     d d( c b) a( g) f g a( b) g g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Be -- ne -- dikt 
+    Sva -- tý Be -- ne -- dikt
     hle -- dal své -- ho Pá -- na,
     a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
     a do -- ve -- dl ho ke spá -- se.
@@ -55,7 +55,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

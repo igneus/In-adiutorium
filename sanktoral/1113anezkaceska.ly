@@ -26,9 +26,9 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -46,9 +46,9 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,19 +56,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) c c b \barMin 
+    a4( g a) c c b \barMin
     a g a f g g \barFinalis
   }
   \addlyrics {
-    Bůh mi -- lu -- je 
+    Bůh mi -- lu -- je
     ra -- dost -- né -- ho dár -- ce.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,7 +76,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     a4 e g f e d d \barMaior
@@ -102,7 +102,7 @@
   \header {
     quid = "resp."
     modus = "IV"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -123,9 +123,9 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "commune panen, r.ch., 1.a., bez aleluja"
     fial = "commune/commune_panna.ly#rch-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -147,9 +147,9 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -169,9 +169,9 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -183,15 +183,15 @@
     g a( b c) d c b g a( g) g \barFinalis
   }
   \addlyrics {
-    Moud -- rá pan -- na 
+    Moud -- rá pan -- na
     si vy -- bra -- la lep -- ší ú -- děl.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -199,7 +199,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f g f f  \barMin
@@ -227,7 +227,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -238,23 +238,23 @@
     \choralniRezim
     d4( a') a \barMin bes a g g c bes a( g) a \barMaior
     g( a g) f( g) g \barMin g g g( f) e d( e) d d \barMax
-    
+
     d4 d d( c d) \barMin f g g g f a( g) g \barMaior
     a a a( g f) e( f) d \barMin f g f e d c d \barFinalis
   }
   \addlyrics {
     Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
     při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
-    
+
     Měl jsem hlad, a da -- li jste mi na -- jíst;
     byl jsem na ces -- tě, a u -- ja -- li jste se mě.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

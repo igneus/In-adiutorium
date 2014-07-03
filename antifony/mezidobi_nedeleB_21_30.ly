@@ -64,10 +64,11 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a3" 
+    differentia = "a3"
     psalmus = ""
     id = "ne21b-2ne-mag"
     fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?-aleluja&upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -78,7 +79,7 @@
   \relative c'' {
     \choralniRezim
     g a g( f) g e \barMin e d( e) e f g a( c b) a b( a) a \barMaior
-    d d d c a a \barMin c( d c) d c a a \barMin 
+    d d d c a a \barMin c( d c) d c a a \barMin
     g( a g f) e f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -149,7 +150,7 @@
     \choralniRezim
     d4( a' g) a a a g f g( f) e \barMaior
     d( a' g) a a a c b a( b) a \barMaior
-    a \[ a( c b a \] \[ g a g f) \] e( d) c( d) \barMin d c d( f) e( d) d \barFinalis 
+    a \[ a( c b a \] \[ g a g f) \] e( d) c( d) \barMin d c d( f) e( d) d \barFinalis
   }
   \addlyrics {
     O -- tev -- řou se o -- či sle -- pých,
@@ -262,7 +263,7 @@
     d( a c) b( g) a g g \barFinalis
   }
   \addlyrics {
-    Kdo ztra -- tí svůj ži -- vot pro mě 
+    Kdo ztra -- tí svůj ži -- vot pro mě
     a pro e -- van -- ge -- li -- um,
     za -- chrá -- ní si ho.
   }
@@ -282,7 +283,7 @@
   \relative c' {
     \choralniRezim
     f4 f f g( a) a \barMaior
-    g f g a f d d( c) \barMin 
+    g f g a f d d( c) \barMin
     d d( f g) e( f) e c d \barFinalis
   }
   \addlyrics {
@@ -421,7 +422,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c b g) a( g) \barMin 
+    g4 g g( c b g) a( g) \barMin
     f f a f f( g) g \barFinalis
   }
   \addlyrics {
@@ -466,7 +467,7 @@
     c c b! g g a( g) f( g) g \barFinalis
   }
   \addlyrics {
-    Kdo ne -- při -- jme 
+    Kdo ne -- při -- jme
     Bo -- ží krá -- lov -- ství ja -- ko dí -- tě,
     vů -- bec do ně -- ho ne -- ve -- jde.
   }
@@ -516,7 +517,7 @@
     d d d( g) f d( f) e e \barFinalis
   }
   \addlyrics {
-    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství 
+    Jak těž -- ko ve -- jdou do Bo -- ží -- ho krá -- lov -- ství
     ti, kdo ma -- jí bo -- hat -- ství.
   }
   \header {
@@ -540,13 +541,13 @@
   \addlyrics {
     Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
     a ná -- sle -- do -- va -- li jste mě,
-    sto -- krát víc do -- sta -- ne -- te 
+    sto -- krát víc do -- sta -- ne -- te
     a za po -- díl bu -- de -- te mít ži -- vot věč -- ný.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "ne28b-2ne-mag"
     fons = "28.5., sv. Benedikta a bratří - k Magnificat"
@@ -596,7 +597,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "ne29b-rch-ben"
     fons = "25.7. sv. Jakuba apoštola, k Magnificat"

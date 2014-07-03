@@ -22,13 +22,13 @@
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
-    byl me -- zi prv -- ní -- mi, 
+    byl me -- zi prv -- ní -- mi,
     kte -- ří ná -- sle -- do -- va -- li Pá -- na.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -50,7 +50,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -96,7 +96,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -118,7 +118,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -176,16 +176,16 @@
 % ceske zneni antifony se mi moc nelibi. Tu je latinsky original
 % pro pripad, ze bych se pustil do uprav textu.
 
-% Andréas, 
-% Christi fámulus, 
-% dignus Dei apóstolus, 
-% germánus Petri 
+% Andréas,
+% Christi fámulus,
+% dignus Dei apóstolus,
+% germánus Petri
 % et in passióne sócius.
 
 % breviar OP ma otroctejsi preklad:
 
-% Kristův služebník, apoštol Ondřej, 
-% byl rodným bratrem apoštola Petra 
+% Kristův služebník, apoštol Ondřej,
+% byl rodným bratrem apoštola Petra
 % a stal se jeho druhem v utrpení.
 
 \score {
@@ -199,14 +199,14 @@
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-    
+
     a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
     % text podle dominikanskeho breviare
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

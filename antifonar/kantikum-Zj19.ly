@@ -5,9 +5,9 @@
 
 \include "../spolecne_antifonar.ly"
 
-DoubleResponse = \lyricmode { 
-  \markup { 
-    \with-color ##'red { 
+DoubleResponse = \lyricmode {
+  \markup {
+    \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {R} : }
       \concat { \override #'(font-name . "Junicode") { \char ##x0211F \char ##x0211F } : }
     }
@@ -33,9 +33,9 @@ alal = \lyricmode { \DoubleResponse }
     % Vitezstvi..
     \neviditelna f
     f f f f f f f f f e g a
-    
+
     \override Staff.Clef #'stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
-    
+
     \imal
     \neviditelna f
     f f f f f f f f f f f f e g a

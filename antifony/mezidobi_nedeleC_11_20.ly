@@ -20,7 +20,7 @@
     differentia = "a2"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne11c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -45,7 +45,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne11c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -65,11 +65,11 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim
-    id = ""
+    id = "ne11c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -95,7 +95,7 @@
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag"
-    id = ""
+    id = "ne12c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -115,7 +115,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne12c-rch-aben"
     fons = "commune jednoho mučedníka, 2. nešp., 1. ant."
     fial = "commune/commune_jedenmucednik.ly#2ne-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -142,7 +142,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne12c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -169,7 +169,7 @@
     differentia = "f"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne13c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -181,7 +181,7 @@
     a( b c) a g( a) g g \barFinalis
   }
   \addlyrics {
-    Jdi a zvěs -- tuj 
+    Jdi a zvěs -- tuj
     Bo -- ží krá -- lov -- ství!
   }
   \header {
@@ -190,7 +190,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne13c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -215,7 +215,7 @@
     differentia = "E"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne13c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -242,7 +242,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne14c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -267,7 +267,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne14c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -288,7 +288,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne14c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -315,7 +315,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne15c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -323,7 +323,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f 
+    f4 f f f
     a a g f g( a) a g f g f f \barMin
     g g g f e d( c) c \barMaior
     d( e f) d c d( c) c \barMin
@@ -342,7 +342,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne15c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -350,7 +350,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g a a g f g g g 
+    f4 f f f g a a g f g g g
     f d e c c \barMaior
     d( f) \barMin f g( a) a g f g f \barFinalis
   }
@@ -365,7 +365,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne15c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -389,7 +389,7 @@
     differentia = "c"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne16c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -410,7 +410,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne16c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -431,7 +431,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne16c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -456,7 +456,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne17c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -479,7 +479,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne17c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -499,7 +499,7 @@
     tře -- ba -- že jste zlí,
     u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
     čím spí -- še ne -- bes -- ký O -- tec
-    dá Du -- cha sva -- té -- ho 
+    dá Du -- cha sva -- té -- ho
     těm, kdo ho pro -- sí!
   }
   \header {
@@ -508,7 +508,7 @@
     differentia = "f"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne17c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -533,7 +533,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne18c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -554,7 +554,7 @@
     differentia = "d"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne18c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -577,7 +577,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne18c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -600,7 +600,7 @@
     differentia = "F"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne19c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -614,7 +614,7 @@
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní slu -- žeb -- ní -- ci,
-    kte -- ré Pán při svém pří -- cho -- du 
+    kte -- ré Pán při svém pří -- cho -- du
     na -- jde, jak bdí.
   }
   \header {
@@ -623,7 +623,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne19c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -644,7 +644,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne19c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -659,16 +659,16 @@
   }
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
-    a jak si pře -- ji, a -- by 
+    a jak si pře -- ji, a -- by
     % už vzpla -- nul! % puvodni
     se už vzňal! % moje nahrazka
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne20c-2ne-amag"
     fial = "mezidobi_nejsvsrdce.ly#1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -692,7 +692,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne20c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -713,7 +713,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne20c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -26,7 +26,7 @@
   \header {
     quid = "ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -48,7 +48,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -64,7 +64,7 @@
     e f g a( c b) g a g g \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- ný Bůh, 
+    Po -- žeh -- na -- ný Bůh,
     jenž po -- slal své -- ho an -- dě -- la
     a vy -- svo -- bo -- dil své slu -- žeb -- ní -- ky,
     kte -- ří v_něj dů -- vě -- řo -- va -- li.
@@ -72,7 +72,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -96,7 +96,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -106,7 +106,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f( g) f \barMin f f g f g f f g( a) a( g) \barMax
@@ -126,7 +126,7 @@
     bu -- du ti hrát před an -- dě -- ly.
     \Verse Sla -- vit bu -- du tvé jmé -- no,_*
     \Response bu -- du ti hrát před an -- dě -- ly.
-    \textRespDoxologie 
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
@@ -149,7 +149,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -175,7 +175,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 34-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -190,14 +190,14 @@
     c d a( g) g( a) a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- nův an -- děl 
+    Hos -- po -- di -- nův an -- děl
     mě chrá -- ní
     na všech mých ces -- tách.
   }
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 34-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -222,7 +222,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Zj 11"
     id = ""
     fons = "melodie: podle zde, r.ch., 3. ant."
@@ -233,7 +233,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f g f f g( a) a( g) \barMax
@@ -275,7 +275,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

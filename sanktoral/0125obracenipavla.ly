@@ -28,7 +28,7 @@
   \header {
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -54,7 +54,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 63"
     fial = "fial://sanktoral/0629petraapavla.ly#rch-a1"
     id = ""
@@ -66,7 +66,7 @@
   \relative c' {
     \choralniRezim
     d4 c a c( d) d f f d( f) e( d) \barMaior
-    f f f g f g a f e d \barMin 
+    f f f g f g a f e d \barMin
     e d c e f d d \barFinalis
   }
   \addlyrics {
@@ -77,7 +77,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -99,7 +99,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 149"
     fial = "fial://sanktoral/0629petraapavla.ly#rch-a2"
     id = "rch-a2"
@@ -110,7 +110,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f g f f f g( a) a( g) \barMax
@@ -156,7 +156,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -178,13 +178,13 @@
     Brat -- ře Šav -- le,
     po -- slal mě k_to -- bě Pán Je -- žíš,
     kte -- rý se ti u -- ká -- zal na ces -- tě:
-    Máš za -- se na -- být zra -- ku 
+    Máš za -- se na -- být zra -- ku
     a do -- stat v_pl -- nos -- ti Du -- cha sva -- té -- ho.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -196,19 +196,19 @@
     \choralniRezim
     f4 g a g a g f e f \barMin
     f f g f e( f) d d \barMaior
-    f g a a g c( a g) a \barMin 
+    f g a a g c( a g) a \barMin
     a( bes a) g( f) d \barMin f f e f d d \barFinalis
   }
   \addlyrics {
     Když se Ša -- vel blí -- žil k_Da -- maš -- ku,
     by -- lo ko -- lem po -- led -- ne;
-    a tu ho náh -- le z_ne -- be 
+    a tu ho náh -- le z_ne -- be
     za -- li -- lo o -- sl -- ni -- vé svět -- lo.
   }
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -230,7 +230,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -244,7 +244,7 @@
     \choralniRezim
     \key f \major
     d4( c) d d( a') \barMin a g a a( bes a) a \barMin a( bes) c bes a g( bes) a( g) g \barMaior
-    g g g g g( a g) f( e) d d \barMin d( e f) e( d) c c( d) \barFinalis 
+    g g g g g( a g) f( e) d d \barMin d( e f) e( d) c c( d) \barFinalis
   }
   \addlyrics {
     Vel -- mi rád_* se bu -- du chlu -- bit spí -- še svý -- mi sla -- bost -- mi,
@@ -253,7 +253,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 116-II"
     fial = "fial://sanktoral/0629petraapavla.ly#2ne-a2"
     id = ""
@@ -276,7 +276,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 126"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -289,7 +289,7 @@
     \key f \major
     d4 d d f e f( g) g \barMin
     g a a f d e \barMax
-    
+
     d e f g( a) a g bes a( g a) a \barMaior
     bes( c) d( a d4.) d \barMaior
     d4 c bes a4. a \barMin f4( a) g f e( d) d \barFinalis
@@ -297,15 +297,15 @@
   \addlyrics {
     Ži -- vot je pro mě Kris -- tus
     a smrt je pro mě zisk.
-    
+
     Ne -- chci se chlu -- bit ni -- čím ji -- ným,
-    než kří -- žem 
+    než kří -- žem
     na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Ef 1"
     fial = "fial://pust_svatytyden.ly#odpo"
     id = ""
@@ -317,7 +317,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    
+
     % R
     \neviditelna f
     f4 f f g f g a f g g \barMin a bes a g( f) g \barMax
@@ -364,7 +364,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

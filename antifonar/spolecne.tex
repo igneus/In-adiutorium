@@ -1,6 +1,6 @@
 % Definice prikazu uzivanych ve vsech svazcich antifonare
 
-% Predpokladane balicky: 
+% Predpokladane balicky:
 % datetime, hyperref
 
 %
@@ -25,20 +25,20 @@
       \vspace{0.5cm}
 
       \edicniRada
-      
+
       svazek \cisloSvazku
-      
+
       \vspace*{6cm}
-      
+
       {\Huge \textbf{\nazev}}
-          
+
       \vspace{1cm}
-      
+
       {\large \autor}
-      
+
       \vfill
       In adiutorium
-      
+
       \onlyyeardate \today
     \end{center}
   \end{titlepage}
@@ -59,7 +59,7 @@
 }
 
 \newcommand{\tirazProjekt}{
-  projekt In adiutorium - hudba k české liturgii hodin\\  
+  projekt In adiutorium - hudba k české liturgii hodin\\
     \url{http://inadiutorium.xf.cz}
 }
 
@@ -78,13 +78,13 @@
   \begin{center}
     \soubornyNazev\\
     \edicniRada, svazek \cisloSvazku
-    
+
     {\Large \textbf{\nazev}}
 
     {\large \autor}
 
     \tirazProjekt
-    
+
     \tirazSazbaProgramem
   \end{center}
 
@@ -102,19 +102,19 @@
 %
 
 \newcommand{\licencniPoznamka}{%
-  Používání \emph{nápěvů} je vázáno licencí 
-  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons 
+  Používání \emph{nápěvů} je vázáno licencí
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons
     At\-tri\-bu\-tion-\-Sha\-re-A\-li\-ke 3.0 Unported},
   která dává komukoli právo je dále šířit, upravovat a využívat
   ve svých vlastních dílech, za předpokladu, že uvede informaci
-  o autorovi původního díla a při dalším šíření zachová původní licenční 
+  o autorovi původního díla a při dalším šíření zachová původní licenční
   podmínky.
   (Výjimku představují nápěvy převzaté z jiných publikací - je to vždy
   výslovně uvedeno. Tyto nápěvy vesměs patří k prastarému pokladu
   gregoriánského chorálu a jsou tedy public domain.)
-  
-  \emph{Texty Denní modlitby církve} 
-  jsou majetkem České biskupské konference. 
+
+  \emph{Texty Denní modlitby církve}
+  jsou majetkem České biskupské konference.
   Výše uvedenou licenci proto nelze vztahovat na antifonář jako celek -
   týká se pouze jeho hudební složky.
 
@@ -152,12 +152,13 @@
 }
 
 \newcommand{\malaTiraz}{
+
   datum: \dmyyyydate \today
-  
+
   licence: Creative Commons Attribution-ShareAlike 3.0 Unported
-  
-  projekt: In adiutorium - noty k liturgii hodin (http://inadiutorium.xf.cz)
-  
+
+  projekt: In adiutorium - noty k liturgii hodin \url{http://inadiutorium.xf.cz}
+
   sazba programy \LaTeX a LilyPond \lilypondbookVersion
 }
 
@@ -175,6 +176,7 @@
 
 % tyden
 \newcommand{\nadpisTyden}[2]{
+  \phantomsection%
   \begin{center}
   {\LARGE \textsc{#1}}
   \end{center}
@@ -184,6 +186,7 @@
 
 % den
 \newcommand{\nadpisDen}[1]{
+  \phantomsection%
   \begin{center}
   {\LARGE #1}
   \end{center}
@@ -197,6 +200,13 @@
   \textbf{#1}
   \end{center}
   \nopagebreak
+}
+
+% invitatorium samozrejme neni samostatna hodinka,
+% ale tim, ze muze byt soucasti dvou ruznych,
+% se funkcne osamostatnilo a davame mu nadpis na urovni hodinky
+\newcommand{\invitatorium}{
+  \nadpisHodinka{Invitatorium}
 }
 
 \newcommand{\modlitbaSeCtenim}{
@@ -278,6 +288,7 @@
   \begin{center}%
     \textbf{#1}%
   \end{center}%
+  \index{zalmy}{#1}%
   \nopagebreak%
 }
 
@@ -287,6 +298,7 @@
   \begin{center}%
     \textbf{#1}%
   \end{center}%
+  \index{zalmy}{#1}%
   \nopagebreak%
 }
 
@@ -304,7 +316,7 @@
 
 % rubrikovany text - treba i pro vlozeni do nerubrikovaneho
 \newcommand{\rubr}[1]{%
-  \textit{#1}%
+  \textit{\small #1}%
 }
 
 % rubrika - samostatna
@@ -346,7 +358,7 @@
 \nobreak\hskip \fontdimen1\font plus \fontdimen2\font minus \fontdimen1\font
 \dag\mbox{} }
 
-\newcommand{\znackaStrofaZalmu}{ 
+\newcommand{\znackaStrofaZalmu}{
   \rubr{--}
 }
 
@@ -366,11 +378,14 @@
 % rubrikovane, ne tucne. Zkousel jsem to, to ale v okoli zanikaji
 % a myslim ze je dobre je vyrazne odlisit od psalmodie, ktera je alespon
 % v zaltari bez not obklopuje
-\newcommand{\versikCteni}[2]{
-  
+\newcommand{\versikSamostatny}[2]{
+
   \vspace{3mm}
   \noindent \textbf{V.} #1\\
   \textbf{O.} #2
+}
+\newcommand{\versikCteni}[2]{
+  \versikSamostatny{#1}{#2}
 }
 \newcommand{\versik}[3]{
 
@@ -382,4 +397,13 @@
 \newcommand{\versikTercie}[2]{\versik{dopoledne:}{#1}{#2}}
 \newcommand{\versikSexta}[2]{\versik{v poledne:}{#1}{#2}}
 \newcommand{\versikNona}[2]{\versik{odpoledne:}{#1}{#2}}
+
+%% prikazy predpokladane preprocesorem zalmu pslm.rb:
+
+% vetsina notovanych svazku chce mit kazdy zalm ve zvlastnim
+% dvousloupci; v tech ostatnich se to predefinuje podle potreby
+\newenvironment{psalmus}{\begin{multicols}{2}}{\end{multicols}}
+
+\newcommand{\flex}{\flexa}
+\newcommand{\psalmStrophe}{\hspace*{0pt}\hfill\znackaStrofaZalmu}
 

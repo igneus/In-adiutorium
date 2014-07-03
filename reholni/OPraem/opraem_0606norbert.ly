@@ -12,7 +12,7 @@
   composer = "Jakub Pavlík"
 }
 
-\markup\poznamkaOPraem
+%\markup\poznamkaOPraem
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -23,6 +23,8 @@
   }
   \addlyrics {
     Jak vznešené jsou kroky těch, kdo zvěstují pokoj, kdo zvěstují dobro.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -41,6 +43,8 @@
   }
   \addlyrics {
     Kdo se bude přikázáními řídit a jim učit, bude v nebeském království veliký.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -59,6 +63,8 @@
   }
   \addlyrics {
     Podivuhodnou sladkostí božské výřečnosti se laskavě choval k lidu.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -106,6 +112,8 @@
   }
   \addlyrics {
     Boží muž, když nábožně vybudoval dům své chudoby v Prémontré, založil svůj kanovnický řád, stal se arcibiskupem, žehnaje bratřím blaženě usnul v Kristu.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -360,7 +368,11 @@
     
   }
   \addlyrics {
-    Norbert jako planoucí lampa byl postaven na svícen a svítil všem v domě.
+    Nor -- bert ja -- ko pla -- nou -- cí lam -- pa 
+    byl po -- sta -- ven na sví -- cen 
+    a sví -- til všem v_domě.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -378,7 +390,11 @@
     
   }
   \addlyrics {
-    Přesvědčil vládce církve, aby se ujali sirotků a vdov.
+    Pře -- svěd -- čil vlád -- ce cír -- kve, 
+    a -- by se u -- ja -- li 
+    si -- rot -- ků a vdov.
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -396,7 +412,12 @@
     
   }
   \addlyrics {
-    Za jásotu všech se nerad stal arcibiskupem a trpělivě snášel divoký lid.
+    Za já -- so -- tu všech 
+    se ne -- rad stal ar -- ci -- bis -- ku -- pem 
+    a tr -- pě -- li -- vě sná -- šel 
+    di -- vo -- ký lid. % :)
+    
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -424,8 +445,16 @@
     % Slava
   }
   \addlyrics {
-    \Response Boží muž zapálen božskou láskou a planoucí ve svém nitru ohněm Ducha svatého,_* Začal kázat Boží slovo, ať to bylo vhod či nevhod.
-    \Verse Z pokladu Božího vynášel věci nové i staré, a stal se jedněm vůní života pro život, jiným pak vůní smrti pro smrt._*
+    \Response Bo -- ží muž 
+    za -- pá -- len bož -- skou lás -- kou 
+    a pla -- nou -- cí ve svém nit -- ru 
+    oh -- něm Du -- cha sva -- té -- ho,_* 
+    Za -- čal ká -- zat Bo -- ží slo -- vo, 
+    ať to by -- lo vhod či ne -- vhod.
+    \Verse Z_po -- kla -- du Bo -- ží -- ho 
+    vy -- ná -- šel vě -- ci no -- vé i sta -- ré, 
+    a stal se jed -- něm vů -- ní ži -- vo -- ta pro ži -- vot, 
+    ji -- ným pak vů -- ní smr -- ti pro smrt._*
     \Response
     \textRespDoxologie
   }
@@ -443,7 +472,14 @@
     
   }
   \addlyrics {
-    Dnes je slavný den, kdy svatý biskup Norbert byl zbaven pout těla a přijat s anděly tam, kde v zářivém svatebním šatu šťasten stoluje v paláci nebeského Krále, jakoby napájen proudem blaha, aleluja, aleluja.
+    Dnes je slav -- ný den, 
+    kdy sva -- tý bis -- kup Nor -- bert 
+    byl zba -- ven pout tě -- la 
+    a při -- jat s_an -- dě -- ly tam, 
+    kde v_zá -- ři -- vém sva -- teb -- ním ša -- tu 
+    šťas -- ten sto -- lu -- je v_pa -- lá -- ci ne -- bes -- ké -- ho Krá -- le, 
+    ja -- ko -- by na -- pá -- jen prou -- dem bla -- ha, 
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"

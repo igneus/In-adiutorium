@@ -24,7 +24,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 g a g a f g d d \barMin g g( f e) d( c) c \barMax
@@ -67,7 +67,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, MZ 738"
@@ -82,20 +82,20 @@
     \choralniRezim
     a4( b) g c b g a a \barMin
     g( a b) g f( e) e \barMaior
-    f e( d) d( g) g \barMin 
+    f e( d) d( g) g \barMin
     a g a a( b) g g f e d( c) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, 
+    Pojď -- me, klaň -- me se Kris -- tu,
     Krá -- li krá -- lů;
-    on o -- věn -- čil 
+    on o -- věn -- čil
     sva -- té -- ho Vác -- la -- va
     věn -- cem slá -- vy.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, MZ 738"
@@ -104,7 +104,7 @@
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
-  
+
 \score {
   \relative c' {
     \choralniRezim
@@ -118,7 +118,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 63"
     id = ""
     fons = "Svatý nám milý, MZ 737"
@@ -129,7 +129,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f( g a) g \barMaior  
+    f4 e f( g a) g \barMaior
     g g bes a g( f) g \barMin g f e d( e) c c \barMaior
     d c d d( f) f \barFinalis
   }
@@ -141,7 +141,7 @@
   \header {
     quid = "2. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Dan 3-III"
     id = ""
     fons = "Patrone české vlasti, MZ 736"
@@ -162,7 +162,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 149"
     id = ""
     fons = "Patrone české vlasti, MZ 736"
@@ -175,7 +175,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f( g) f f g f g g( a) \barMax
@@ -214,14 +214,14 @@
     a a a( b g) g \barMin f e d c d d \barFinalis
   }
   \addlyrics {
-    Ná -- rod ho na -- zý -- vá 
+    Ná -- rod ho na -- zý -- vá
     dě -- di -- cem čes -- ké ze -- mě,
     je -- ho jmé -- no bu -- de žít na -- vě -- ky.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, MZ 738"
@@ -230,7 +230,7 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
-  
+
 \score {
   \relative c' {
     \choralniRezim
@@ -244,7 +244,7 @@
   \header {
     quid = "ant. dopoledne"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
     fons = "Patrone české vlasti, MZ 736"
@@ -265,7 +265,7 @@
   \header {
     quid = "ant. v poledne"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, kníže náš, MZ 734"
@@ -286,7 +286,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, MZ 739"
@@ -312,7 +312,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c b a c d e \barMaior 
+    a4 c b a c d e \barMaior
     g e f e d c b \barMin
     a g a b( c a) g a a \barFinalis
   }
@@ -324,7 +324,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 116-I"
     id = ""
     fons = "Svatý Václave, kníže náš, MZ 734"
@@ -349,7 +349,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 116-II"
     id = ""
     fons = "Svatý Václave, kníže náš, MZ 734"
@@ -370,7 +370,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Zj 4"
     id = ""
     fons = "Svatý Václave, kníže náš, MZ 734"
@@ -395,7 +395,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Svatý Václave, MZ 738"

@@ -48,23 +48,23 @@ opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC. (Viz též níže.
 
 \markup\large\column {
 \line{
-  Nyní můžeš, Pane, propustit svého \concat{služeb\underline{ní}ka} * 
+  Nyní můžeš, Pane, propustit svého \concat{služeb\underline{ní}ka} *
 podle svého slova \concat{\underline{v po}koji,}
 }
 \line{
-neboť moje oči uviděly tvou \concat{\underline{spá}su,} * 
+neboť moje oči uviděly tvou \concat{\underline{spá}su,} *
 kterou jsi připravil pro všechny \concat{\underline{ná}rody:}
 }
 \line{
-světlo k osvícení \concat{\underline{po}hanům,} * 
+světlo k osvícení \concat{\underline{po}hanům,} *
 a k slávě tvého izraelského \concat{\underline{li}du.}
 }
 \line{
-Sláva Otci i \concat{\underline{Sy}nu} * 
+Sláva Otci i \concat{\underline{Sy}nu} *
 i Duchu \concat{\underline{sva}tému,}
 }
 \line{
-jako byla na počátku, i nyní i \concat{\underline{vždyc}ky} * 
+jako byla na počátku, i nyní i \concat{\underline{vždyc}ky} *
 a na věky věků. \concat{\underline{A}men.}
 }
 }

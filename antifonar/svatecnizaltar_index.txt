@@ -8,7 +8,7 @@ Doba adventní
 
   Neděle
     vigilie
-      iz40, iz42, iz49
+      iz40ii, iz42, iz49
 
 Doba vánoční
   
@@ -25,6 +25,22 @@ Doba vánoční
       19b, 47, 48
     2. nešpory
       110, 130, kol1
+
+  29. prosince
+    modlitba se čtením
+      46, 72i, 72ii
+
+  30. prosince
+    modlitba se čtením
+      85, 89i, 89ii
+
+  31. prosince
+    modlitba se čtením
+      96, 97, 98
+
+  Matky Boží, Panny Marie (slavnost, 1.1.)
+    modlitba se čtením
+      24, 87, 99
       
   Zjevení Páně (slavnost, 6.1. nebo v neděli od 2. do 8.1.)
     1. nešpory
@@ -39,6 +55,10 @@ Doba vánoční
       47, 86i, 98
     2. nešpory
       110, 112, zj15
+
+  Křtu Páně (svátek)
+    modlitba se čtením
+      29, 66i, 66ii
 
 Doba postní
 
@@ -83,28 +103,44 @@ Doba velikonoční
       110, 114, zj19
       
   pondělí ve velikonočním oktávu
+    modlitba se čtením
+      1, 2, 3
     modlitba uprostřed dne
       8, 19a, 19b
       
   úterý ve velikonočním oktávu
+    modlitba se čtením
+      24, 66i, 66ii
     modlitba uprostřed dne
       119alef, 16, 23
       
   středa ve velikonočním oktávu
+    modlitba se čtením
+      104i, 104ii, 104iii
     modlitba uprostřed dne
       119beth, 28, 116ii
       
   čtvrtek ve velikonočním oktávu
+    modlitba se čtením
+      118i, 118ii, 118iii
     modlitba uprostřed dne
       119gimel, 30i, 30ii
       
   pátek ve velikonočním oktávu
+    modlitba se čtením
+      136i, 136cii, 136ciii
     modlitba uprostřed dne
       119dalet, 76i, 76ii
       
   sobota ve velikonočním oktávu
+    modlitba se čtením
+      145ci, 145cii, 145ciii
     modlitba uprostřed dne
       119he, 96i, 96ii
+
+  Druhá neděle velikonoční
+    modlitba se čtením
+      1, 2, 3
 
   Neděle
     vigilie
@@ -195,6 +231,10 @@ Liturgické mezidobí
 #######################################
 Sanktorál
 
+  sv. Jana, apoštola a evangelisty (svátek, 27.12.)
+    modlitba se čtením
+      19a, 64, 99
+
   Uvedení Páně do chrámu (svátek, 2.2.)
     1. nešpory
       113, 147ii, fp2
@@ -243,7 +283,7 @@ Sanktorál
     2. nešpory
       110, 116ii, zj4
       
-  sv. Michaela, Gabriela a Rafaela, andělů (svátek, 29.9.)
+  sv. Michaela, Gabriela a Rafaela, archandělů (svátek, 29.9.)
     modlitba se čtením
       97, 103ci, 103cii
     vigilie

@@ -7,7 +7,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( a) d( c d4.) d \barMin 
+    d4 c( a) d( c d4.) d \barMin
     e4 c c( a) a \barMaior
     d( e f) d d d c d d \barMaior
     e c f( d) d \barFinalis
@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 143"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Iz 66"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -58,14 +58,14 @@
   }
   \addlyrics {
     Hos -- po -- din bu -- du -- je Je -- ru -- za -- lém_*
-    % a % vypustka 
+    % a % vypustka
     u -- zdra -- vu -- je ty, jimž pu -- ká srd -- ce.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 147-I"
     id = "rch-a3"
     placet = "~"
@@ -90,7 +90,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 144-I"
     id = "ne-a1"
     fons = "antifona doslovně převzata z úterý 4. týdne velik. žaltáře (r.ch., 3. ant.)"
@@ -103,21 +103,21 @@
     \choralniRezim
     g4( f) g a bes( a g) f f( d) d \barMax
     d c( d) d( f) e f f( a bes) a a \barMaior
-    a a a g f d d \barMaior 
+    a a a g f d d \barMaior
     d( e f) e d c( d) d \barMax
     c d e( d) d \barFinalis
   }
   \addlyrics {
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
     on nám po -- přá -- vá ví -- těz -- ství
-    skr -- ze na -- še -- ho Pá -- na 
+    skr -- ze na -- še -- ho Pá -- na
     Je -- ží -- še Kris -- ta.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 144-II"
     id = "ne-a2"
     placet = "R"

@@ -8,9 +8,9 @@
 
 \markup {
   \justify {
-Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu 
+Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu
 \with-url #"http://www.transitofvenus.nl/LiturgiaHorarum/" {
-\italic {Liturgia horarum in cantu gregoriano} (http://www.transitofvenus.nl/LiturgiaHorarum/)    
+\italic {Liturgia horarum in cantu gregoriano} (http://www.transitofvenus.nl/LiturgiaHorarum/)
   } . Rozložením refrénů se tedy drobně liší od schváleného textu českého breviáře.
 }
 }

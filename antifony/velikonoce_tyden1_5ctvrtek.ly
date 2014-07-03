@@ -11,14 +11,14 @@
     d c a g g( a g) g \barMaior g g( a) g g \barFinalis
   }
   \addlyrics {
-    U -- kaž se_* ve své vzne -- še -- nos -- ti 
+    U -- kaž se_* ve své vzne -- še -- nos -- ti
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 57"
     id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
@@ -40,7 +40,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Jer 31"
     id = "rch-a2"
     placet = "r"
@@ -61,7 +61,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 48"
     id = "rch-a3"
     placet = "r"
@@ -72,10 +72,10 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a( f e4.) e \barMin d4 d( f) f( e) f g( a g) g \barMaior
-    a c( a) a( g) g \barFinalis
+    e4 f( e f e) e \barMin e f a g f( g e) e \barMaior
+    d f f( e) e \barFinalis
   }
   \addlyrics {
     Můj ná -- řek jsi ob -- rá -- til v_ra -- dost.
@@ -83,11 +83,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G" 
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 30"
     id = "ne-a1"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -107,10 +106,11 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 32"
     id = "ne-a2"
     fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

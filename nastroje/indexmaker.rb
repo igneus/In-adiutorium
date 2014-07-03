@@ -22,19 +22,23 @@ optparse = OptionParser.new do|opts|
     lyricsmaxsize = nil
   end
   
-  opts.on('-i', '--score-indices',
-              "Print number of a score in the file.") do
+  opts.on('-i', '--score-ids',
+              "Print id of a score in the file.") do
     print_indices = true
   end
 end
 optparse.parse!
 
 ARGV.each do |f|
-  m = LilyPondMusic.new f
-  m.scores.each_with_index do |s,i|
-    if s.lyrics_readable != ''
-      pieces << [s.lyrics_readable, f, i]
+  begin
+    m = LilyPondMusic.new f
+    m.scores.each_with_index do |s,i|
+      if s.lyrics_readable != ''
+        pieces << [s.lyrics_readable, f, s.header['id'].to_s]
+      end
     end
+  rescue => ex
+    STDERR.puts "indexmaker: #{f}: #{ex.class}: #{ex.message}"
   end
 end
 
@@ -49,8 +53,8 @@ pieces.each do |p|
   end
   print ' / '
   print p[1]
-  if print_indices then
-    print " [#{p[2]+1}]"
+  if print_indices and p[2].size > 0 then
+    print '#'+p[2]
   end
     
   puts

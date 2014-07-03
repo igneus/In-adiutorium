@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 36"
     id = "rch-a1"
     placet = "*"
@@ -31,7 +31,7 @@
   \relative c'' {
     \choralniRezim
     c4( a g) a( g) g \barMin g( f) g a( c) b c( d) d \barMaior
-    d d d( e c) a g( a) a( g) g \barMaior
+    d e c a g( a) a( g) g \barMaior
     c a g( a) g \barFinalis
   }
   \addlyrics {
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Jdt 16"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -52,8 +52,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a \barMin a( g) f g f( d) d \barMaior
-    f a g f g( a) g( f) f \barMaior
+    f4 g g( a) a \barMin a( g) f g g( f) f \barMaior
+    g g g g g( a g) g( f) f \barMaior
     d f g( f) f \barFinalis
   }
   \addlyrics {
@@ -64,10 +64,9 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 47"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -83,7 +82,7 @@
     e f d( c) d \barFinalis
   }
   \addlyrics {
-    Bůh po -- vý -- šil Je -- ží -- še 
+    Bůh po -- vý -- šil Je -- ží -- še
     po své pra -- vi -- ci
     ja -- ko vůd -- ce a spa -- si -- te -- le.
     A -- le -- lu -- ja.
@@ -91,7 +90,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 27-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -113,7 +112,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 27-II"
     id = "ne-a2"
     fons = "Velik. triduum, Bílá sobota, uprostřed dne, ant. dopo; doplněno aleluja"
