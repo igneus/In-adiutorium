@@ -48,7 +48,7 @@ end
 
 def occasion_title(line)
   puts
-  puts "\\subsubsection{#{line.strip}}"
+  puts "\\paragraph{#{line.strip}}"
 end
 
 def hour_title(line)
