@@ -105,6 +105,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "_si_ je divné, asi by mělo zůstat na d"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -141,6 +142,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "r"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
