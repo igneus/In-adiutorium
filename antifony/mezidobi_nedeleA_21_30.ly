@@ -77,7 +77,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c( d) d d f e d c d c c( d) d \barMaior
+    d e f g f e( f g) \barMin e f g f g( a) g \barMaior
+    d d d c( d) d \barMaior
+    d f e f( d c) c( a) \barMaior
+    a a c d e( d) \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš za -- čal svým u -- čed -- ní -- kům na -- zna -- čo -- vat,
@@ -88,8 +92,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -124,7 +128,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f e f a( g a bes) a \barMaior
+    a( c) a( g) g f( g) f d d \barMin
+    d e f d c c \barMaior
+    d f e f a a g( a) g( f) f \barMin
+    g g f e c( d) d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka při -- jde
@@ -135,8 +143,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
