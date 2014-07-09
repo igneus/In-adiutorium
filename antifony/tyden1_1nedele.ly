@@ -349,6 +349,7 @@ tInedeleIInespAntI = \score {
     modus = "per"
     differentia = ""
     psalmus = "Žalm 114"
+    placet = "I.a"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }
