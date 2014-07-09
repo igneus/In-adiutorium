@@ -247,7 +247,7 @@ tIIuteryNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = "IV-alt"
+    modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 4"
     id = "ne-ant3"
