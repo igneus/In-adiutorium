@@ -73,43 +73,6 @@ tIInedeleInespAntIII = \score {
 
 \score { \tIInedeleInespAntIII }
 
-tIInedeleInespResp = \score {
-  \relative c'' {
-    \choralniRezim
-
-    % R
-    \neviditelna g
-    g4 g f g a( c) c \barMin c d c b a( b) a( g) g \barMax
-    a4 a b( c) a( g) g \barMin f f g a f g4. g \barFinalis
-
-    % V
-    \neviditelna c
-    c4 a g a c c( d) c4. \barMin c4 d c b( c a4.) a \barMax
-
-    % R
-    \neviditelna a
-    a4 a b( c) a( g) g \barMin f f g a f g4. g \barFinalis
-
-    % Slava
-    c4 c c( d) d \barMin c a( c) c \barMin c b c a( g) f( g) g \barFinalis
-  }
-  \addlyrics {
-    \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
-    ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
-    \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě.
-    \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VIII"
-    id = "1ne-resp"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tIInedeleInespResp }
-
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score { \tIInedeleInvitatorium }
@@ -258,42 +221,6 @@ tIInedeleInespResp = \score {
   }
 }
 
-tIInedeleLaudResp = \score {
-  \relative c'' {
-    \choralniRezim
-
-    % R
-    \neviditelna a
-    a4 g a c b g( a) a4. \barMax
-    b4 c a g f g4. g \barFinalis
-
-    % V
-    \neviditelna c
-    c4 b a a a g f g( a) a4. \barMax
-    % R
-    \neviditelna b
-    b4 c a g f g4. g \barFinalis
-
-    % Slava
-    c4 c a( c) c \barMin c d( c) c \barMin c d c b( c) a( g) g \barFinalis
-  }
-  \addlyrics {
-    \Response Ve -- le -- bí -- me tě, Bo -- že,_*
-    a vzý -- vá -- me tvé jmé -- no.
-    \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech
-    \Response a vzý -- vá -- me tvé jmé -- no.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VIII?"
-    id = "rch-resp"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tIInedeleLaudResp }
-
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -428,40 +355,3 @@ tIInedeleIInespAntIII = \score {
 }
 
 \score { \tIInedeleIInespAntIII }
-
-tIInedeleIInespResp = \score {
-  \relative c'' {
-    \choralniRezim
-    \key f \major
-
-    % R
-    \neviditelna a
-    a4 c a4. g4 d d \barMax
-    f4 f g g a( c) a a g f g e f d d \barFinalis
-
-    % V
-    \neviditelna a'
-    a4 a a a bes c bes a g( a) a \barMax
-    % R
-    \neviditelna f
-    f4 f g g a( c) a a g f g e f d d \barFinalis
-
-    % Slava
-    a'4 a a g f a a \barMin a c a f( g) a4. a \barFinalis
-  }
-  \addlyrics {
-    \Response Ve -- li -- ký je náš Bůh,_*
-    je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
-    \Verse Je -- ho mou -- drost pře -- vy -- šu -- je vše -- chno,
-    \Response je -- mu pa -- tří vše -- chna moc na ne -- bi i na ze -- mi.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "I"
-    id = "2ne-resp"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tIInedeleIInespResp }

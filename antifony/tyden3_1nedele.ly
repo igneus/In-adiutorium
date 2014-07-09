@@ -49,8 +49,6 @@
 
 \score { \tInedeleInespAntIII }
 
-\score { \tInedeleInespResp }
-
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score { \tInedeleInvitatorium }
@@ -185,8 +183,6 @@
   }
 }
 
-\score { \tInedeleLaudResp }
-
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -279,5 +275,3 @@
 }
 
 \score { \tInedeleIInespAntIII }
-
-\score { \tInedeleIInespResp }
