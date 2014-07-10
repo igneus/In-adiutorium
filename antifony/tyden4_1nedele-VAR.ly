@@ -7,6 +7,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 f g( a) a \barMin
     a a a c g f( e) d \barFinalis
@@ -23,6 +24,28 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 f g( a) a \barMin
+    a a a c g f( e) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- pro -- šuj -- te Je -- ru -- za -- lé -- mu po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2" 
+    psalmus = "Žalm 122"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

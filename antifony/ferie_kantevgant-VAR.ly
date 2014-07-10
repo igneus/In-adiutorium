@@ -1189,12 +1189,15 @@
   }
 }
 
+\pageBreak
+
 % SUDE TYDNY -----------------------------------------------
 
 % pondeli
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
     a b c d( e) d4. d \barMin 
@@ -1207,6 +1210,28 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
+    differentia = "c" 
+    psalmus = ""
+    id = "t2-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b c a( g) f( g) g \barMaior
+    a b c d( e) d d \barMin 
+    d4 c( a) b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din,
+    ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
     differentia = "c" 
     psalmus = ""
     id = "t2-po-ben"
