@@ -116,7 +116,6 @@
     modus = "II"
     differentia = "A"
     psalmus = "Iz 40"
-    placet = "II"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

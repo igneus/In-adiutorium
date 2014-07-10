@@ -113,7 +113,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Hab 3"
-    placet = "II"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -236,7 +235,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 121"
-    placet = "I.a"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

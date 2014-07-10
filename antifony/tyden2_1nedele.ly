@@ -326,7 +326,6 @@ tIInedeleInespAntIII = \score {
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 115"
-    placet = "I.a"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }

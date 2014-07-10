@@ -18,7 +18,6 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 122"
-    placet = "I"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
