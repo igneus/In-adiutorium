@@ -105,19 +105,18 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( c) c \barMin d c d a( g a) a \barMin b c a g a a4. \barFinalis
+    d4( f) f \barMin g f g d( c d) d \barMin e f d c d d \barFinalis
   }
   \addlyrics {
     Pa -- ne, u -- kaž všem li -- dem své mi -- lo -- sr -- den -- ství.
   }
   \header {
     quid = "2. ant."
-    modus = "IV-alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Sir 36"
-    placet = "II, ne IV"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

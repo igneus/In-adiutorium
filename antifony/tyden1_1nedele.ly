@@ -346,8 +346,8 @@ tInedeleIInespAntI = \score {
   }
   \header {
     quid = "2. ant."
-    modus = "per"
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 114"
     placet = "I.a"
     id = "2ne-ant2"
@@ -377,3 +377,4 @@ tInedeleIInespAntIII = \score {
 }
 
 \score { \tInedeleIInespAntIII }
+

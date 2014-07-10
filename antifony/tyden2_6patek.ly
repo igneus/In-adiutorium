@@ -99,10 +99,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c b c d d4. c4 b a( g) g \barMin a4 b c4. a \barMin
-    b4 c d c b g( a) a4. \barFinalis
+    d4 f e f g g4. f4 e d( c) c \barMaior
+    d4 e f4. d \barMin e4 f g f e c( d) d \barFinalis
   }
   \addlyrics {
     Kdy -- ko -- li se hně -- váš, Hos -- po -- di -- ne,
@@ -110,8 +110,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Hab 3"
     placet = "II"
     id = "rch-ant2"
@@ -233,7 +233,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "per"
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 121"
     placet = "I.a"
     id = "ne-ant2"

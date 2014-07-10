@@ -268,7 +268,7 @@ tIIpondeliAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
-    a b c d( e) d4. d \barMin
+    a b c d( e) d d \barMin
     d4 c( a) b a( g) g \barFinalis
   }
   \addlyrics {
@@ -277,7 +277,7 @@ tIIpondeliAntBenedictus = \score {
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
     placet = "přeci jen spíš VII"

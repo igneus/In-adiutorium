@@ -314,8 +314,8 @@ tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 a a g f g g4.( a) \barMin
-    a4 bes a g f g g4. \barMin
-    f4 e c d4. \barFinalis
+    a4 bes a g f g g \barMin
+    f4 e c d \barFinalis
   }
   \addlyrics {
     Bůh náš je na ne -- be -- sích, u -- či -- nil vše -- chno, co chtěl.
@@ -323,8 +323,8 @@ tIInedeleInespAntIII = \score {
   }
   \header {
     quid = "2. ant."
-    modus = "per"
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = "Žalm 115"
     placet = "I.a"
     id = "2ne-ant2"
