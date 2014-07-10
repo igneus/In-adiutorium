@@ -893,6 +893,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _hledam te_"
       id = "2ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -925,6 +926,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _prodlevat_"
       id = "2ct-ne"
       piece = \markup\sestavTitulekResp
     }
