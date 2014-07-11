@@ -15,15 +15,15 @@
     f g f e f d f g a g \barMin f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Na -- ří -- ká -- me 
+    Na -- ří -- ká -- me
     a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní na -- še -- ho tě -- la.
-    
+
     % velikonocni aleluja v breviari neni
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 39-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -39,13 +39,13 @@
   \addlyrics {
     Slyš, Hos -- po -- di -- ne, mou pros -- bu:
     ne -- mlč k_mým sl -- zám.
-    
+
     % velikonocni aleluja v breviari neni
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 39-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -56,21 +56,21 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) d e \barMin f d c c d d \barFinalis
-    
+
     a^\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
-    Stá -- le 
+    Stá -- le
     % se
     spo -- lé -- hám
     na Bo -- ží sli -- tov -- nost.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 52"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -93,7 +93,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D2" 
+    differentia = "D2"
     psalmus = "Žalm 77"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -113,7 +113,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "1 Sam 2"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -131,7 +131,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 97"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -145,8 +145,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f g g a a g( f) f4. \barMin 
-    f4 g( a) a a a a g( f) g \barMin 
+    f4 e f g g a a g( f) f4. \barMin
+    f4 g( a) a a a a g( f) g \barMin
     g f g g( f) f4. \barFinalis
    }
   \addlyrics {
@@ -156,7 +156,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 119-ח"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -168,7 +168,7 @@
     \choralniRezim
     g4( f g) a4. a \barMin b4( c) a a b( g) a \barMin
     a a a b a g f g e e \barFinalis
-  } 
+  }
   \addlyrics {
     Zmí -- tám se v_ne -- kli -- du, Bo -- že, vě -- nuj mi po -- zor -- nost
     a vy -- slyš mě.
@@ -176,7 +176,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 55-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -194,7 +194,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 55-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -206,19 +206,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g a( g) f( g) g \barMin 
+    d4 f g a( g) f( g) g \barMin
     a a a a a bes g a4. g \barMin
     f4 g g a f e( d) d \barFinalis
   }
   \addlyrics {
-    V_bla -- že -- né na -- dě -- ji 
-    o -- če -- ká -- vej -- me slav -- ný pří -- chod 
+    V_bla -- že -- né na -- dě -- ji
+    o -- če -- ká -- vej -- me slav -- ný pří -- chod
     na -- še -- ho Spa -- si -- te -- le.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D2" 
+    differentia = "D2"
     psalmus = "Žalm 62"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -237,7 +237,7 @@
   \header {
     quid = "2. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 67"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -255,7 +255,7 @@ tIIstredaNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Kol 1"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}

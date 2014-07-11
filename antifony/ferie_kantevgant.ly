@@ -42,6 +42,7 @@ tIpondeliAntMagnificat = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_na svou nepatrnou_ nejspíš rozhýbat, recitativ tam nezní organicky"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -204,6 +205,9 @@ tIpatekAntBenedictus = \score {
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "jedna z mých oblíbených;
+      přesto: je diskutabilní, zda rytmus _navštívil_ a _vykoupil_
+      je v českém chorálu legitimní (či alespoň tolerovatelný)"
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

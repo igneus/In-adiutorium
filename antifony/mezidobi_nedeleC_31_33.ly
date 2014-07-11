@@ -52,7 +52,7 @@
     a g( a c) c( b) g a g f e e \barFinalis
   }
   \addlyrics {
-    Syn člo -- vě -- ka při -- šel hle -- dat 
+    Syn člo -- vě -- ka při -- šel hle -- dat
     a za -- chrá -- nit, co za -- hy -- nu -- lo.
   }
   \header {
@@ -159,13 +159,13 @@
   \relative c' {
     \choralniRezim
     d4 c d f e d c e( f d) d \barMaior
-    f f g f g a f e f \barMin 
+    f f g f g a f e f \barMin
     f f g e d d \barMaior
     d d d c c d d d \barFinalis
   }
   \addlyrics {
     Já vám dám vý -- mluv -- nost i moud -- rost,
-    kte -- ré ne -- do -- ve -- dou o -- do -- lat 
+    kte -- ré ne -- do -- ve -- dou o -- do -- lat
     a -- ni od -- po -- ro -- vat
     žád -- ní va -- ši pro -- tiv -- ní -- ci.
   }
@@ -183,7 +183,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c d) c( b) c a a4.( g) \barMin 
+    g4( c d) c( b) c a a4.( g) \barMin
     f4 g a a b( a) g( a g) g \barFinalis
   }
   \addlyrics {

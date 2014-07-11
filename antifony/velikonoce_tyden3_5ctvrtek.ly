@@ -17,7 +17,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 87"
     id = "rch-a1"
     placet = "~"
@@ -34,7 +34,7 @@
     e g( a) f( e) e \barFinalis
   }
   \addlyrics {
-    Dob -- rý pas -- týř_* 
+    Dob -- rý pas -- týř_*
     shro -- maž -- ďu -- je be -- rán -- ky
     a ve svém klí -- nu je ne -- se.
     A -- le -- lu -- ja.
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Iz 40"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -63,7 +63,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 99"
     id = "rch-a3"
     placet = "r"
@@ -86,7 +86,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 132-I"
     id = "ne-a1"
     fons = "Krista Krále, 1. nešp., ad Magnificat, první část"
@@ -102,7 +102,7 @@
     c bes( g) a a \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus_* 
+    Je -- žíš Kris -- tus_*
     je je -- di -- ný Pa -- nov -- ník,
     Král krá -- lů a Pán pá -- nů.
     A -- le -- lu -- ja.
@@ -110,7 +110,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 132-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

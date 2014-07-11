@@ -39,14 +39,13 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 130"
+    placet = "nebo I?"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score { \tIInedeleInespAntIII }
-
-\score { \tIInedeleInespResp }
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -162,6 +161,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3"
+    placet = "~"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -189,8 +189,6 @@
   }
 }
 
-\score { \tIInedeleLaudResp }
-
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -210,6 +208,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 23"
+    placet = "~ velice silný text, nemastný neslaný nápěv"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -232,6 +231,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 76-I"
+    placet = "_ve slávě_ melodie jakoby přesouvá přirozený slovní přízvuk"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -306,5 +306,3 @@
 }
 
 \score { \tIInedeleIInespAntIII }
-
-\score { \tIInedeleIInespResp }

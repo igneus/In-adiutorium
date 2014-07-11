@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -37,14 +37,14 @@
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le_*
-    vy -- ne -- sl na -- še hří -- chy 
+    vy -- ne -- sl na -- še hří -- chy
     na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Jer 14"
     id = "rch-a2"
     placet = "*"
@@ -65,7 +65,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 100"
     id = "rch-a3"
     fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
@@ -90,7 +90,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 135-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -114,7 +114,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
     fons = "Květná neděle, ad Benedictus, poslední část."

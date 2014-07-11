@@ -16,7 +16,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -38,7 +38,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -60,7 +60,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
     id = ""
@@ -83,7 +83,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
     id = ""

@@ -28,7 +28,7 @@
     \header {
       quid = "ant."
       tonus = "I"
-      differentia = "f" 
+      differentia = "f"
       psalmus = "dopoledne"
       piece = \markup {\sestavTitulek}
     }
@@ -49,7 +49,7 @@
     \header {
       quid = "ant."
       tonus = "VII"
-      differentia = "a" 
+      differentia = "a"
       psalmus = "v poledne"
       piece = \markup {\sestavTitulek}
     }
@@ -69,14 +69,14 @@
     \header {
       quid = "ant."
       tonus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "odpoledne"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \markup {\nadpisDen {od slavnosti Zjevení Páně}}
-  
+
   \score {
   \relative c'' {
     \choralniRezim
@@ -94,7 +94,7 @@
   \header {
     quid = "ant."
     tonus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "dopoledne"
     piece = \markup {\sestavTitulek}
   }
@@ -118,7 +118,7 @@
   \header {
     quid = "ant."
     tonus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "v poledne"
     piece = \markup {\sestavTitulek}
   }
@@ -140,7 +140,7 @@
   \header {
     quid = "ant."
     tonus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "odpoledne"
     piece = \markup {\sestavTitulek}
   }

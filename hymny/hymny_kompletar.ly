@@ -5,7 +5,7 @@
 \header {
   title = "Hymny ke kompletáři"
   % composer = "Jakub Pavlík" % transcriber, not composer :)
-  
+
   tagline = \markup {
     \column {
       \line { datum: \dnesniDatum }
@@ -30,20 +30,20 @@
   \header {
     subtitle = "Na sklonku dne tě upřímně, Tvůrce všech věcí, prosíme"
   }
-  
+
   \paper {
-    scoreTitleMarkup = \markup\small{ 
+    scoreTitleMarkup = \markup\small{
       \fill-line {
         \concat{
           \fromproperty #'header:tempus " - "
           \fromproperty #'header:modus
         }
-        
+
         \fromproperty #'header:fonsmelodiae
       }
     }
   }
-  
+
   \markup\small\column{
     \line{
       Text: \italic{Denní modlitba církve. Hymny a básnické modlitby,} Praha 1993, 112.
@@ -53,11 +53,11 @@
       Nápěvy: \italic{Antiphonale Romanum,} Romae 1912.
     }
   }
-    
+
   \score {
     \relative c'' {
       \choralniRezim
-      a4 c c c c d c b \barMin 
+      a4 c c c c d c b \barMin
       a a a a a b a g \barMaior
       b a g g f g a a \barMin
       c c c c a b a g \barFinalis
@@ -74,7 +74,7 @@
       fonsmelodiae = "AR 47"
     }
   }
-  
+
   \markup\large{
     \fill-line {
       \column{
@@ -83,14 +83,14 @@
         \line{ aby hned, jak se rozední, }
         \line{ znělo tvou chválou nejčistší. }
       }
-      
+
       \column{
         \line{ V žití nám pevné zdraví dej, }
         \line{ v nás oheň lásky rozehřej, }
         \line{ ať temnou noc a také nás }
         \line{ rozjasní tvého světla jas. }
       }
-      
+
       \column{
         \line{ To, Otče mocný nejvýše, }
         \line{ dej skrze Krista Ježíše, }
@@ -99,7 +99,7 @@
       }
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -120,7 +120,7 @@
       fonsmelodiae = "AR 48"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -141,7 +141,7 @@
       fonsmelodiae = "AR 49"
     }
   }
-    
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -162,8 +162,8 @@
       fonsmelodiae = ""
     }
   }
-    
-  
+
+
   \score {
     \relative c' {
       \choralniRezim
@@ -184,7 +184,7 @@
       fonsmelodiae = "AR 187"
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -205,7 +205,7 @@
       fonsmelodiae = "AR 230"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -226,7 +226,7 @@
       fonsmelodiae = "AR 305"
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -247,7 +247,7 @@
       fonsmelodiae = ""
     }
   }
-  
+
 }
 
 \bookpart {
@@ -261,17 +261,17 @@
       (Překlad hymnu Christe, qui splendor et dies.)
     }
     \line{
-      Nápěv: otištěný ve článku 
-      \with-url #"" { 
-        VILLIERS Henri Adam de: 
+      Nápěv: otištěný ve článku
+      \with-url #"" {
+        VILLIERS Henri Adam de:
         \italic{Christe Qui Lux es et Dies - An Ancient Hymn for Compline during Lent}
       }
     }
     \line{
-      (blog New Liturgical Movement, 5.3.2012). 
+      (blog New Liturgical Movement, 5.3.2012).
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -287,36 +287,36 @@
       jež ne -- beš -- ťa -- nům věč -- ně plá.
     }
   }
-  
+
   \markup\large\fill-line{
     \column{
       \line{ Prosíme tebe, Pane náš, }
       \line{ buď této noci naše stráž. }
       \line{ Chcem odpočívat v lásce tvé, }
       \line{ uděl nám chvíle pokojné. }
-      
+
       \line{ " " }
-      
+
       \line{ I když nám oči zklíží sen, }
       \line{ chcem s tebou dál bdít v srdci svém. }
       \line{ Nad sluhy, kteří k tobě lnou, }
       \line{ drž stále ruku ochrannou. }
     }
-    
+
     \column{
       \line{ Ochránce náž, už pohleď k nám, }
       \line{ před číhajícím škůdcem chraň. }
       \line{ Veď sluhy rukou citlivou, }
       \line{ vždyť vykoupils je krví svou. }
-      
+
       \line{ " " }
-      
+
       \line{ Laskavý vládce Ježíši, }
       \line{ buď s Otcem ti čest nejvyšší, }
       \line{ i Duchu, který těší nás, }
       \line{ po všechny věky v každý čas. Amen. }
     }
-    
+
   }
-  
+
 }

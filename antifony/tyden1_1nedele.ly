@@ -70,6 +70,7 @@ tInedeleInespAntIII = \score {
 
 \score { \tInedeleInespAntIII }
 
+<<<<<<< HEAD
 tInedeleInespResp = \score {
   \relative c' {
     \choralniRezim
@@ -107,6 +108,8 @@ tInedeleInespResp = \score {
 
 \score { \tInedeleInespResp }
 
+=======
+>>>>>>> master
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score { \tInedeleInvitatorium }
@@ -274,6 +277,7 @@ tInedeleInespResp = \score {
   }
 }
 
+<<<<<<< HEAD
 tInedeleLaudResp = \score {
   \relative c'' {
     \choralniRezim
@@ -310,6 +314,8 @@ tInedeleLaudResp = \score {
 
 \score { \tInedeleLaudResp }
 
+=======
+>>>>>>> master
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -450,6 +456,7 @@ tInedeleIInespAntIII = \score {
 
 \score { \tInedeleIInespAntIII }
 
+<<<<<<< HEAD
 tInedeleIInespResp = \score {
   \relative c' {
     \choralniRezim
@@ -487,3 +494,5 @@ tInedeleIInespResp = \score {
 }
 
 \score { \tInedeleIInespResp }
+=======
+>>>>>>> master

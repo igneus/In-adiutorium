@@ -6,25 +6,25 @@
   title = "Nápěvy hymnů"
 }
 
-\paper {    
-  scoreTitleMarkup = \markup\small{ 
+\paper {
+  scoreTitleMarkup = \markup\small{
     \fill-line {
-      \fromproperty #'header:id 
+      \fromproperty #'header:id
       \concat { "(" \fromproperty #'header:fons ")" }
     }
   }
 }
 
 \markup{
-  \italic{Denní modlitba církve. Hymny,} 
-  Praha 
+  \italic{Denní modlitba církve. Hymny,}
+  Praha
   \concat{ 1988\super{1} ", " 2008\super{2} "." }
 }
 
 %{
 \score {
   \relative c' {
-  
+
   }
   \header {
     fons = ""
@@ -42,9 +42,9 @@ notime = {
   \relative c' {
     \key g \minor
     \time 4/4
-    
-    \partial 4 
-    \repeat volta 2 { 
+
+    \partial 4
+    \repeat volta 2 {
       d4 |
       g4 a bes c a2 a4 f g g a a | d,2 r4
     }
@@ -63,7 +63,7 @@ notime = {
   \relative c' {
     \key e \phrygian
     \notime
-    
+
     e4 e f f e e d d g g f f e2 \bar "|"
     g4 g a a b b c c a a a g a2 \bar "|"
     d4 d b b c c a a g g f f e2 \bar "|"
@@ -79,7 +79,7 @@ notime = {
   \relative c' {
     \key e \dorian
     \notime
-    
+
     e2 g4 e d e g fis e2 \bar "|"
     g2 a4 a b g a a b2 \bar "|"
     b2 c4 b d b a a g2 \bar "|"
@@ -95,7 +95,7 @@ notime = {
   \relative c' {
     \key f \mixolydian
     \time 4/4
-    
+
     f4 g f es f g a bes\fermata \breathe |
     bes g a bes d c bes c\fermata \breathe |
     c d bes g c bes a bes\fermata \breathe |
@@ -111,7 +111,7 @@ notime = {
   \relative c'' {
     \key c \dorian
     \notime
-    
+
     g2 g4 es f g es d c2 \breathe
     g'2 g4 f bes g es f g2 \bar "|"
     g2 bes4 c es d c bes c2 \breathe
@@ -129,7 +129,7 @@ notime = {
   \relative c'' {
     \key c \dorian
     \notime
-    
+
     g4 g f es f g es8[ d] c4\fermata \bar "|"
     g'4 bes c c bes c bes8([ a)] g4\fermata \bar "|"
     bes4 bes c d es( c) bes2 \bar "|"
@@ -148,12 +148,12 @@ notime = {
     \key bes \major
     \time 4/4
     \autoBeamOff
-    
+
     r2 r4 bes | bes f g8[ a] bes4 | c4. c8 d2 \breathe |
     \time 3/4 d4 c a | bes8[ a] g2 \time 4/4 f2
     r4 f | bes a g g | f4. f8 d2 \breathe |
     \time 3/4 g4 f d | es8[ d] c2 | \time 4/4 bes2
-    r4 bes'8[ c] | d4 d d d | c bes c \breathe 
+    r4 bes'8[ c] | d4 d d d | c bes c \breathe
     bes8[ c] | d4 d d d | c bes c2 \breathe |
     \time 3/4 f,4 g a | bes c2 | bes2. \bar "|."
   }
@@ -167,7 +167,7 @@ notime = {
   \relative c'' {
     \key e \dorian
     \notime
-    
+
     b4 b a b cis b2 \bar "" b4 fis2 b4 a2 g4 fis1 \bar "|"
     g4 g fis e b' b \bar "" d2 b4 a2 g4 fis2 e1 \bar "|."
   }
@@ -181,7 +181,7 @@ notime = {
   \relative c' {
     \key e \minor
     \notime
-    
+
     e2 e4 b' a fis g a b2 \bar "|"
     b2 d4 b g e fis a g2 \bar "|"
     b2 a4 g a fis g a b2 \bar "|"
@@ -197,7 +197,7 @@ notime = {
   \relative c'' {
     \key g \major
     \notime
-    
+
     g2 a4 b c2 b a a4 gis2 a4 b2 a \bar "|"
     c2 c4 c a2 d b c4 a2 b4 a2 g \bar "|"
     d'2 d4 d b2 a g g4 c2 b4 a2 a \bar "|"
@@ -213,7 +213,7 @@ notime = {
   \relative c'' {
     \key a \minor
     \time 4/4
-    
+
     r4 a a a b a gis gis b2 \breathe c4 b  | a gis a2 a \breathe
     b4 b d b c a b2 \breathe c4 b a gis e2 | gis4 a b2 a1 \bar "|."
   }

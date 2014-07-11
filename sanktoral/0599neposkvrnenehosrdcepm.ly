@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "Neposkvrněného Srdce Panny Marie" 
+            "Neposkvrněného Srdce Panny Marie"
             památka
             "sobota po 2. neděli po Seslání Ducha svatého"
   composer = "Jakub Pavlík"
@@ -23,7 +23,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = ""
     id = ""
     fons = "doba velikonoční, feriální cyklus, pondělí 3.t., r.ch., 1. ant. Odstraněno aleluja."

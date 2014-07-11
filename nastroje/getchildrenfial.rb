@@ -4,9 +4,8 @@
 # in the 'fial' header
 
 # expects to be invoked in the project's root directory
-$: << "."
-require 'nastroje/fial.rb'
-require 'nastroje/musicreader.rb'
+require_relative 'fial.rb'
+require_relative 'musicreader.rb'
 
 def print_score(filename, score)
   puts "%%% file: "+filename

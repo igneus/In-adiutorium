@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Marka, evangelisty" 
+  title = \markup\titleSvatek
+            "sv. Marka, evangelisty"
             "svátek"
             25.4.
   composer = "Jakub Pavlík"
@@ -41,17 +41,17 @@
     g f( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
-    a -- by v_je -- ho círk -- vi 
+    a -- by v_je -- ho círk -- vi
     ko -- na -- li služ -- bu slo -- va.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -75,7 +75,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

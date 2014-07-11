@@ -1,7 +1,7 @@
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage[czech]{babel} 
+\usepackage[czech]{babel}
 
 \usepackage[left=1.5cm, right=1.1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
 \usepackage[hidelinks]{hyperref} % hypertextove odkazy
@@ -30,15 +30,15 @@
 \newcommand{\nazev}{Narození Páně}
 
 \newcommand{\textDoTiraze}{
-  Používání \emph{nápěvů antifon} je vázáno licencí 
+  Používání \emph{nápěvů antifon} je vázáno licencí
   \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
   která dává komukoli právo je dále šířit, upravovat a využívat
   ve svých vlastních dílech, za předpokladu, že uvede informaci
-  o autorovi původního díla a při dalším šíření zachová licenční 
+  o autorovi původního díla a při dalším šíření zachová licenční
   podmínky.
-  
-  Texty Denní modlitby církve jsou majetkem České biskupské konference. 
-  
+
+  Texty Denní modlitby církve jsou majetkem České biskupské konference.
+
   Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
   jehož tvůrcům za jejich práci tímto srdečně děkuji.
   Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
@@ -111,9 +111,9 @@
 
 \responsory{zakladni_napevy.ly#zacatek-slavnost}
 
-\rubrika{Hymnus \textnormal{Z Hvězdy vyšlo Slunce,} 
-  hymnář,\footnote{Denní modlitba církve. Hymny, 
-    Praha \textsuperscript{1}1989, \textsuperscript{2}2008.} 
+\rubrika{Hymnus \textnormal{Z Hvězdy vyšlo Slunce,}
+  hymnář,\footnote{Denní modlitba církve. Hymny,
+    Praha \textsuperscript{1}1989, \textsuperscript{2}2008.}
   str. 17.}
 
 \antiphonWithPsalm{#vden-1ne-a1}
@@ -169,7 +169,7 @@
 
 \rubrika{Klade se před ranní chvály nebo před modlitbu se čtením podle toho,
   kterou z těchto částí denní modlitba začíná.
-  Na začátku této hodinky se pak vynechává verš 
+  Na začátku této hodinky se pak vynechává verš
   \textnormal{Bože, pospěš mi na pomoc.}}
 
 \responsory{zakladni_napevy.ly#zacatek-prvni}
@@ -210,7 +210,7 @@
 
 \antiphon{#vden-cte-avig}
 
-\psalmGroup{Iz 26}{Iz 40-I}{Iz 66} 
+\psalmGroup{Iz 26}{Iz 40-I}{Iz 66}
 
 \rubrika{Evangelium - z breviáře. (J 20, 19-31.)}
 
@@ -265,7 +265,7 @@
 
 \psalmGroup{Žalm 120}{Žalm 121}{Žalm 122}
 
-\rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)} 
+\rubrika{Krátké čtení - z breviáře. (Tit 2, 11-12.)}
 
 \versikSamostatny{Hospodin se rozpomenul na svou dobrotu, ale\underline{lu}ja,}{
   a na svou věrnost Izraelovu domu, ale\underline{lu}ja.}
@@ -276,7 +276,7 @@
 
 \psalmGroup{Žalm 19b}{Žalm 47}{Žalm 48}
 
-\rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)} 
+\rubrika{Krátké čtení - z breviáře. (1 Jan 4, 9.)}
 
 \versikSamostatny{Uzřely všechny končiny země, ale\underline{lu}ja,}{
   spásu našeho Boha, ale\underline{lu}ja.}
@@ -289,7 +289,7 @@
 
 \psalmGroup{Žalm 126}{Žalm 127}{Žalm 128}
 
-\rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)} 
+\rubrika{Krátké čtení - z breviáře. (Sk 10, 36.)}
 
 \versikSamostatny{Milosrdenství a věrnost se potkají, ale\underline{lu}ja,}{
   políbí se spravedlnost a pokoj, ale\underline{lu}ja.}

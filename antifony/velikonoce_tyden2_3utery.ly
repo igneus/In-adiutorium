@@ -21,7 +21,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 43"
     id = "rch-a1"
     placet = "žalm má dost krátkých veršů - modus 7 se tak moc nehodí. Tuto antifonu však zřejmě lze i bez úprav předat 8. modu."
@@ -44,7 +44,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 38"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -66,7 +66,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -90,7 +90,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -110,7 +110,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

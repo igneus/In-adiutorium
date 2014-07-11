@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "Zasvěcení Panny Marie v Jeruzalémě" 
+  title = \markup\titleSvatek
+            "Zasvěcení Panny Marie v Jeruzalémě"
             "památka"
             21.11.
   composer = "Jakub Pavlík"
@@ -24,7 +24,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Magnificat"
     fial = "commune/commune_maria.ly#2ne-amag?-aleluja"
     id = ""
@@ -45,7 +45,7 @@
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,
     Ma -- ri -- a, u -- sta -- vič -- ná Pan -- no,
-    tys chrá -- mem Bo -- žím 
+    tys chrá -- mem Bo -- žím
     a stán -- kem Du -- cha sva -- té -- ho,
     jen v_to -- bě je -- di -- né má za -- lí -- be -- ní
     náš Pán Je -- žíš Kris -- tus.
@@ -53,7 +53,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

@@ -12,7 +12,7 @@
   \header {
     subtitle = "Společné"
   }
-  
+
   \markup {\nadpisHodinka {invitatorium - do 16. prosince}}
 
   \score {
@@ -31,7 +31,7 @@
     \header {
       quid = "ant."
       modus = "VI"
-      differentia = "g" 
+      differentia = "g"
       psalmus = ""
       id = "spol-invit1"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -53,7 +53,7 @@
     \header {
       quid = "ant."
       modus = "III"
-      differentia = "c" 
+      differentia = "c"
       psalmus = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -74,14 +74,14 @@
     \header {
       quid = "ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -96,17 +96,17 @@
     \header {
       quid = "ant. dopoledne"
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       d4 f( d) d
       d e f g( f) e \barMin
       d c( d) d \barMaior
@@ -120,13 +120,13 @@
     \header {
       quid = "ant. v poledne"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "spol-sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -144,7 +144,7 @@
     \header {
       quid = "ant. odpoledne"
       modus = "I"
-      differentia = "f" 
+      differentia = "f"
       psalmus = ""
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -194,7 +194,7 @@
   \header {
     subtitle = "Předvánoční týden - antifony k Benedictus"
   }
-  
+
   % Vkladani uvozovek do markupu je obzvlast fikane:
   % je treba je escapovat zpetnym lomitkem a navic
   % jeste uzavrit do uvozovek...
@@ -202,7 +202,7 @@
   "\"O-antifony\"", nejsou a nebudou zpracovány. Doporučuji
   vytisknout si je (latinské) z Liber Usualis a Magnificat zpívat
   v předvánočním týdnu latinsky.}
-  
+
   \markup {\nadpisDen {17. prosince}}
   \score {
     \relative c' {
@@ -219,7 +219,7 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Benedictus"
       id = "predvanocni-17-ben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -240,13 +240,13 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "I"
-      differentia = "g" 
+      differentia = "g"
       psalmus = "Benedictus"
       id = "predvanocni-18-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {19. prosince}}
   \score {
     \relative c' {
@@ -266,13 +266,13 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Benedictus"
       id = "predvanocni-19-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {20. prosince}}
   \score {
     \relative c'' {
@@ -287,7 +287,7 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "IV alt"
-      differentia = "A" 
+      differentia = "A"
       psalmus = "Benedictus"
       fons = "4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
       fial = "fial://antifony/advent_nedeleB.ly#ivben?-aleluja"
@@ -295,7 +295,7 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {21. prosince}}
   \score {
     \relative c'' {
@@ -310,13 +310,13 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "IV"
-      differentia = "g" 
+      differentia = "g"
       psalmus = "Benedictus"
       id = "predvanocni-21-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {22. prosince}}
   \score {
     \relative c' {
@@ -333,13 +333,13 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Benedictus"
       id = "predvanocni-22-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-    
+
   \markup {\nadpisDen {23. prosince}}
   \score {
     \relative c' {
@@ -354,7 +354,7 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Benedictus"
       id = "predvanocni-23-ben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -366,9 +366,9 @@
   \header {
     subtitle = "Předvánoční týden - antifony k žalmům"
   }
-  
+
   \markup {\nadpisDen {pondělí}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -388,13 +388,13 @@
     \header {
       quid = "1. ant."
       modus = "III"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = "predvanocni-zlm-po-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -408,13 +408,13 @@
     \header {
       quid = "2. ant."
       modus = "I"
-      differentia = "f" 
+      differentia = "f"
       psalmus = ""
       id = "predvanocni-zlm-po-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -430,15 +430,15 @@
     \header {
       quid = "3. ant."
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-po-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {úterý}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -454,13 +454,13 @@
     \header {
       quid = "1. ant."
       modus = "VIII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = ""
       id = "predvanocni-zlm-ut-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -481,13 +481,13 @@
     \header {
       quid = "2. ant."
       modus = "I"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = "predvanocni-zlm-ut-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -503,17 +503,17 @@
     \header {
       quid = "3. ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "predvanocni-zlm-ut-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \pageBreak % ZLOM
-  
+
   \markup {\nadpisDen {středa}}
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -529,13 +529,13 @@
     \header {
       quid = "1. ant."
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-st-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -552,13 +552,13 @@
     \header {
       quid = "2. ant."
       modus = "I"
-      differentia = "f" 
+      differentia = "f"
       psalmus = ""
       id = "predvanocni-zlm-st-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -577,15 +577,15 @@
     \header {
       quid = "3. ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-st-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup\nadpisDen {čtvrtek}
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -602,13 +602,13 @@
     \header {
       quid = "1. ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-ct-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -624,13 +624,13 @@
     \header {
       quid = "2. ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "predvanocni-zlm-ct-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -648,17 +648,17 @@
     \header {
       quid = "3. ant."
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-ct-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \pageBreak % ZLOM
 
   \markup\nadpisDen {pátek}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -674,13 +674,13 @@
     \header {
       quid = "1. ant."
       modus = "VII"
-      differentia = "d" 
+      differentia = "d"
       psalmus = ""
       id = "predvanocni-zlm-pa-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -694,13 +694,13 @@
     \header {
       quid = "2. ant."
       modus = "I"
-      differentia = "g" 
+      differentia = "g"
       psalmus = ""
       id = "predvanocni-zlm-pa-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -716,15 +716,15 @@
     \header {
       quid = "3. ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-zlm-pa-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup\nadpisDen {sobota}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -738,13 +738,13 @@
     \header {
       quid = "1. ant."
       modus = "III"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = "predvanocni-zlm-so-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -762,13 +762,13 @@
     \header {
       quid = "2. ant."
       modus = "V"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = "predvanocni-zlm-so-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -782,7 +782,7 @@
     \header {
       quid = "3. ant."
       modus = "IV"
-      differentia = "g" 
+      differentia = "g"
       psalmus = ""
       id = "predvanocni-zlm-so-a3"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -796,9 +796,9 @@
   \header {
     subtitle = "Předvánoční týden - 24. prosince"
   }
-  
+
   \markup\nadpisHodinka {invitatorium}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -810,23 +810,23 @@
     \header {
       quid = "ant."
       modus = "VIII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = "invitatorium"
       id = "predvanocni-24-invit"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
     }
   }
-  
+
   \markup\nadpisHodinka {ranní chvály}
-  
+
   \score {
     \relative c' {
       \choralniRezim
       d4 f e( f) g( f d4.) d \barMin
       e4 d c( d) d \barMaior
       d d d( f) f e( f) d( c) c \barMax
-      
+
       d a c d f f f g( a f4.) d \barMin
       f4 e d e d a a \barMin
       a( d) d f f f e c d d \barFinalis
@@ -835,7 +835,7 @@
       A ty, Bet -- lé -- me
       v_jud -- ské ze -- mi,
       ne -- jsi vů -- bec nej -- men -- ší,
-      
+
       pro -- to -- že z_te -- be vy -- jde vlád -- ce,
       kte -- rý bu -- de pa -- no -- vat
       mé -- mu iz -- ra -- el -- ské -- mu li -- du.
@@ -843,13 +843,13 @@
     \header {
       quid = "1. ant."
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = "predvanocni-24-rch-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -865,13 +865,13 @@
     \header {
       quid = "2. ant."
       modus = "VIII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = ""
       id = "predvanocni-24-rch-a2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -887,13 +887,13 @@
     \header {
       quid = "3. ant."
       modus = "VII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = ""
       id = "predvanocni-24-rch-a3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -941,7 +941,7 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = "Benedictus"
       id = "predvanocni-24-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}

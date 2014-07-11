@@ -48,7 +48,7 @@ end
 
 def occasion_title(line)
   puts
-  puts "\\subsubsection{#{line.strip}}"
+  puts "\\paragraph{#{line.strip}}"
 end
 
 def hour_title(line)
@@ -129,10 +129,6 @@ def content(line, label_index_lookup)
     label_nums_array = label_index_lookup.shortestn(*labels)
     label_nums_array.each_with_index do |x,i|
       label_nums[labels[i]] = x
-    end
-
-    if label_index_lookup.proximity_check labels, label_nums_array then
-      STDERR.puts "Labels #{labels} could possibly be replaced by a reference to an hour as a whole."
     end
   end
 

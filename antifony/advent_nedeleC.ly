@@ -8,20 +8,20 @@
     d4 d d( f d) d( c a) a \barMin
     d c d f e d f g d \barMaior
     d e d f( e) d c d d( c) \barMax
-    
+
     a g( a) a bes c d( f) d d \barMin f( e) f f( g f) e( d c) c \barMaior
     d( e f) d c c( d) c c \barMin
     f e f g f e d d \barFinalis
   }
   \addlyrics {
-    Bu -- dou zna -- me -- ní 
+    Bu -- dou zna -- me -- ní
     na slun -- ci,
-    %na 
-    mě -- sí -- ci i 
-    %na 
+    %na
+    mě -- sí -- ci i
+    %na
     hvěz -- dách,
     na ze -- mi úz -- kost ná -- ro -- dů,
-    
+
     a teh -- dy li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
     při -- chá -- zet v_ob -- la -- ku
     s_ve -- li -- kou mo -- cí a slá -- vou.
@@ -29,7 +29,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -49,7 +49,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -72,7 +72,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Magnificat"
     fons = "commune P.M., 2. nešp., k Magnificat; upraveno jen formálně"
     id = "imag2"
@@ -95,7 +95,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -119,7 +119,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a2" 
+    differentia = "a2"
     psalmus = ""
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -131,7 +131,7 @@
     \choralniRezim
     d4 d d( a') g a g f g f e e \barMaior
     d d d( a') a a g a c b a a( b) a \barMaior
-    a a \[ a( c b a \] \[ g a g f \] \[ e d) \] c( d) \barMin d( c) d f e d( e d) d \barFinalis 
+    a a \[ a( c b a \] \[ g a g f \] \[ e d) \] c( d) \barMin d( c) d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dé ú -- do -- lí ať je za -- sy -- pá -- no,
@@ -141,7 +141,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "iimag2"
     fons = "nápěv podle: 23. ne v mez., cyk. B, 1. nešp., k Magnificat;
@@ -174,7 +174,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -196,7 +196,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "iiiben"
     fons = "za základ jsem vzal 2. ant. 1. nešp. svátku Křtu Páně;
@@ -215,7 +215,7 @@
     d d( e d) c( d) c \barMin b g f g( a) g g \barFinalis
   }
   \addlyrics {
-    Jan ří -- kal: 
+    Jan ří -- kal:
     Při -- chá -- zí moc -- něj -- ší než já,
     a -- by pro -- čis -- til o -- bi -- lí na svém mla -- tě
     a pše -- ni -- ci u -- lo -- žil na sýp -- ce.
@@ -223,7 +223,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -245,7 +245,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 122"
     id = "ivben"
     fons = "31.5. Navštívení P.M.: nešpory, 1. ant.; odstraněno aleluja"

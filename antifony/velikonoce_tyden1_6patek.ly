@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 51"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -41,7 +41,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Iz 45"
     id = "rch-a2"
     placet = "r"
@@ -62,7 +62,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 100"
     id = "rch-a3"
     placet = "~"
@@ -87,7 +87,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 41"
     id = "ne-a1"
     placet = "R"
@@ -110,7 +110,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 46"
     id = "ne-a2"
     placet = "r"

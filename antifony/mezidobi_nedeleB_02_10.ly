@@ -72,14 +72,14 @@
 }
 
 \markup {\nadpisDen {"3. neděle"}}
-  
+
 \score {
   \relative c' {
     \choralniRezim
     f4 g a a g f g( a) g( a) a \barMaior
-    a b( c) c( a) a \barMin 
+    a b( c) c( a) a \barMin
     a( g) f g( f) e e( f) d d \barMax
-    
+
     d d d c d \barMin
     f g g g g g g f g( a) a a \barMaior
     bes( a g) a( g) f( e) f4.( d) \barMin
@@ -87,9 +87,9 @@
   }
   \addlyrics {
     Je -- žíš při -- šel do Ga -- li -- le -- je
-    a hlá -- sal tam 
+    a hlá -- sal tam
     Bo -- ží e -- van -- ge -- li -- um:
-    
+
     Na -- pl -- nil se čas
     a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
     Ob -- rať -- te se
@@ -146,7 +146,7 @@
   }
 }
 
-\markup {\nadpisDen {"4. neděle"}} 
+\markup {\nadpisDen {"4. neděle"}}
 
 \score {
   \relative c'' {
@@ -250,7 +250,7 @@
     d e f d( c d) d \barFinalis
   }
   \addlyrics {
-    Br -- zo rá -- no Je -- žíš vstal 
+    Br -- zo rá -- no Je -- žíš vstal
     a vy -- šel ven,
     o -- de -- šel na o -- puš -- tě -- né mís -- to
     a tam se mod -- lil.
@@ -275,7 +275,7 @@
     f4 f g f d d \barFinalis
   }
   \addlyrics {
-    Je -- žíš pro -- chá -- zel 
+    Je -- žíš pro -- chá -- zel
     ce -- lou Ga -- li -- le -- jí
     a ká -- zal v_je -- jich sy -- na -- gó -- gách.
   }
@@ -301,10 +301,10 @@
     g4( a) g( f g) g \barFinalis
   }
   \addlyrics {
-    Pa -- ne, chceš -- -li, 
+    Pa -- ne, chceš -- -li,
     mů -- žeš mě o -- čis -- tit.
     Je -- žíš ře -- kl:
-    Chci, 
+    Chci,
     buď čis -- tý!
   }
   \header {
@@ -353,7 +353,7 @@
     Je -- žíš u -- zdra -- vil ma -- lo -- moc -- né -- ho
     a ře -- kl mu:
     Jdi, u -- kaž se kně -- zi
-    a při -- nes o -- běť 
+    a při -- nes o -- běť
     za své o -- čiš -- tě -- ní.
   }
   \header {
@@ -416,16 +416,16 @@
     g4 g g f4.( g) \barMin
     a4 bes c bes a bes( g) g( f) f \barMaior
     f f f( g) g( d) d4 d e( c) c( d) d \barMax
-    
+
     d c d( f) f g( f g) g4.( a) \barMin
     a4 a( g) f e f d d \barFinalis
   }
   \addlyrics {
-    O -- chr -- nu -- lý, 
+    O -- chr -- nu -- lý,
     kte -- ré -- ho Kris -- tus u -- zdra -- vil,
     vzal své le -- hát -- ko a o -- de -- šel,
-    
-    tak -- že všich -- ni žas -- li 
+
+    tak -- že všich -- ni žas -- li
     a ve -- le -- bi -- li Bo -- ha.
   }
   \header {
@@ -447,7 +447,7 @@
     d( e d) c( b) a g a( g) g \barFinalis
   }
   \addlyrics {
-    Do -- kud ma -- jí hos -- té na svat -- bě že -- ni -- cha 
+    Do -- kud ma -- jí hos -- té na svat -- bě že -- ni -- cha
     me -- zi se -- bou,
     ne -- mo -- hou se pos -- tit.
   }
@@ -466,7 +466,7 @@
     \choralniRezim
     d4 d d f g g( a) g g( a) a \barMaior
     a( g a g) f a( g) f g g \barMaior
-    d g g( f g) a( g) f e f d d \barMin 
+    d g g( f g) a( g) f e f d d \barMin
     c d f( e c d) d \barFinalis
   }
   \addlyrics {
@@ -558,7 +558,7 @@ o slabiku později.}
   }
   \addlyrics {
     Smí se v_so -- bo -- tu jed -- nat dob -- ře,
-    % a -- 
+    % a --
     ne -- bo zle?
     Ži -- vot za -- chrá -- nit,
     a -- ne -- bo za -- bít?

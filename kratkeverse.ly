@@ -38,11 +38,11 @@ Pro kantika Benedictus a Magnificat jsou řešení problémů
 rozepsána jmenovitě, protože evangelní kantika si zasluhují
 při provedení větší pozornost a protože obě anomálie v nich se
 vyskytující jsou netypické.
-Dále jsou tu vzory pro zpěv veršů žalmů a kantik, 
+Dále jsou tu vzory pro zpěv veršů žalmů a kantik,
 které mají pouze jeden akcent \concat{(str. " "\page-ref #'jedenakcent "0" "?"),} a těch, které mají akcent
 už na první slabice \concat{(str. " "\page-ref #'akcentprvni "0" "?").}
 }
-  
+
 \markup\kapitola{1. Benedictus a Magnificat}
 \label #'benmag
 
@@ -51,7 +51,7 @@ už na první slabice \concat{(str. " "\page-ref #'akcentprvni "0" "?").}
 \markup\justify{
 Všechny verše kantika Benedictus se normálně začínají
 intonací. Verš "\"že" nám \underline{do}přeje, \Dagger "...\""
-však má už na třetí slabice přízvuk, po kterém následuje 
+však má už na třetí slabice přízvuk, po kterém následuje
 poklesnutí flexy. To činí intonaci modů II, V a VIII,
 která dosahuje tenoru až na třetí slabice, velmi neelegantní.
 }
@@ -112,7 +112,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c'' {
     \choralniRezim
     c4 c c a a \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -128,7 +128,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c'' {
     \choralniRezim
     g4 a c c c \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -144,7 +144,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c'' {
     \choralniRezim
     g4 a( c) c a a \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -162,7 +162,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c'' {
     \choralniRezim
     c c c a a \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -178,7 +178,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c' {
     \choralniRezim
     f4 a c c c \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -194,7 +194,7 @@ která dosahuje tenoru až na třetí slabice, velmi neelegantní.
   \relative c' {
     \choralniRezim
     f4 a( c) c a a \barMin
-    c c c c c c c c 
+    c c c c c c c c
   }
   \addlyrics {
     že nám \markup\underline{do} -- pře -- \markup{je, \Dagger}
@@ -482,7 +482,7 @@ ještě kratší verše, jako např. "\"Tak" \underline{ho} "vzal\"".
 
 \markup\sekce{Žalm 7-II: "\"Bůh" je \underline{můj} "štít\""}
 \markup\justify{
-V žaltáři má tento verš značku jako verš s pouze jedním 
+V žaltáři má tento verš značku jako verš s pouze jedním
 akcentem. Ve skutečnosti je to verš s prvním akcentem na prvním
 slově (Bůh). Atypické je to, že to je zároveň první verš
 oddílu. Vynecháme intonaci a zazpíváme ho jako verš s akcentem

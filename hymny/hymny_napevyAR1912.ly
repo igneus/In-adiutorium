@@ -13,12 +13,12 @@
 }
 
 \paper {
-  scoreTitleMarkup = \markup\small{ 
+  scoreTitleMarkup = \markup\small{
     \fill-line {
       \bold\fromproperty #'header:modus "  "
       \concat {
-        \fromproperty #'header:fonstexti 
-        " / " 
+        \fromproperty #'header:fonstexti
+        " / "
         \fromproperty #'header:fonsmelodiae
       }
     }
@@ -28,7 +28,7 @@
 \markup\justify{
 Následují nápěvy k vybraným hymnům ze sbírky
 \italic{Denní modlitba církve. Hymny a básnické modlitby} (HBM).
-Pokud není uvedeno jinak, jsou převzaty, adaptovány nebo 
+Pokud není uvedeno jinak, jsou převzaty, adaptovány nebo
 volněji zpracovány
 podle nápěvů odpovídajících latinských hymnů
 v \italic{Antiphonale Romanum 1912} (AR).
@@ -43,10 +43,10 @@ v \italic{Antiphonale Romanum 1912} (AR).
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
-    
+
   }
   \header {
     quid = "hymnus"
@@ -76,7 +76,7 @@ v \italic{Antiphonale Romanum 1912} (AR).
     jenž dep -- tá kaž -- dou ne -- pra -- vost:
     Vy -- hosť -- te z_nit -- ra pla -- né sny,
     už sví -- tá Je -- žíš z_vý -- ši -- ny.
-    
+
     A -- men.
   }
   \header {
@@ -122,7 +122,7 @@ v \italic{Antiphonale Romanum 1912} (AR).
   \chords {
     c4 g2 a4:m g2.
     a4:m g4 c4
-    c2 g2. 
+    c2 g2.
     a4:m f4 c4 g4 c4
   }
   \relative c'' {

@@ -11,13 +11,13 @@
 
 \markup\justify{
   Zpracováno podle:
-  %\bold{Hr 11} - 
+  %\bold{Hr 11} -
   \italic{Rorátník český} (1585 - 1586, 1763).
   Hr-11 (II.A.11), Muzeum východních Čech v Hradci Králové, Hradec Králové,
   s přihlédnutím k dalším rukopisům ze 16. a 17. stol.
   Podle možností byl zachován původní jazyk i nápěv,
   k jazykové úpravě bylo přikročeno jen tam, kde byly očekávány
-  zásadní potíže v porozumění. Větší zásah i do melodie postihl 
+  zásadní potíže v porozumění. Větší zásah i do melodie postihl
   v důsledku toho antifonu Ó Adonaj.
 }
 
@@ -31,7 +31,7 @@
     c( f) f f d f f c( d) d( c a) \barMin c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    Ó Mou -- dros -- ti Bo -- ží, 
+    Ó Mou -- dros -- ti Bo -- ží,
     kte -- ráž jsi z_úst Nej -- vyš -- ší -- ho vy -- šla,
     do -- sa -- hu -- jíc od kon -- ce až do kon -- ce
     sil -- ně a o -- chot -- ně způ -- so -- bu -- jíc všec -- ky vě -- ci,
@@ -40,7 +40,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 14r; upraveno"
@@ -62,13 +62,13 @@
     Ó A -- do -- naj, a vůd -- ce do -- mu Iz -- ra -- el -- ské -- ho,
     jenž ses Moj -- ží -- šo -- vi v_ke -- ři oh -- ni -- vém u -- ká -- zal
     a té -- muž na ho -- ře Si -- na -- ji zá -- kon vy -- dal,
-    při -- jdiž a vy -- svo -- boď nás 
+    při -- jdiž a vy -- svo -- boď nás
     ra -- me -- nem svým pře -- moc -- ným.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "volně podle Hr 11, 14v"
@@ -86,17 +86,17 @@
     c( f) f f f( e) d f c d c \barMin c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    Ó ko -- ře -- ni Jes -- se, 
+    Ó ko -- ře -- ni Jes -- se,
     jenž sto -- jíš na zna -- me -- ní ná -- ro -- dům,
     před nímž za -- vřou krá -- lo -- vé ús -- ta svá,
     je -- hož -- to po -- ha -- né bu -- dou vzý -- va -- ti,
-    Přijď k_vy -- svo -- bo -- ze -- ní na -- še -- mu 
+    Přijď k_vy -- svo -- bo -- ze -- ní na -- še -- mu
     a již ne -- chtěj meš -- ka -- ti.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "volně podle Hr 11, 15v"
@@ -123,7 +123,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 16r; upraveno"
@@ -142,13 +142,13 @@
   \addlyrics {
     Ó Vy -- chá -- ze -- jí -- cí, bles -- ku svět -- la věč -- né -- ho,
     a Slun -- ce spra -- ve -- dl -- nos -- ti,
-    při -- jdiž a o -- svě -- tiž ty, jež -- to se -- dí v_tem -- nos -- tech 
+    při -- jdiž a o -- svě -- tiž ty, jež -- to se -- dí v_tem -- nos -- tech
     a v_stí -- nu smr -- ti.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 16v; upraveno"
@@ -166,15 +166,15 @@
   }
   \addlyrics {
     Ó krá -- li všech ná -- ro -- dů vy -- tou -- že -- ný,
-    jenž -- to slu -- ješ ú -- hel -- ným ka -- me -- nem, 
+    jenž -- to slu -- ješ ú -- hel -- ným ka -- me -- nem,
     kte -- rýž -- to či -- níš z_dvo -- jí -- ho jed -- no,
-    při -- jdiž a spas člo -- vě -- ka, 
+    při -- jdiž a spas člo -- vě -- ka,
     je -- hož jsi z_hlí -- ny u -- či -- nil.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 17r; upraveno"
@@ -200,7 +200,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 17v; upraveno"

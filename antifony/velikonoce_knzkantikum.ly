@@ -23,7 +23,7 @@ velikTIpondeliNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Ef 1"
     id = ""
     fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
@@ -39,14 +39,14 @@ velikTIuteryNespAntIII = \score {
     a f e( d) d \barFinalis
   }
   \addlyrics {
-    Ať ti slou -- ží_* všech -- no tvor -- stvo, Bo -- že, 
+    Ať ti slou -- ží_* všech -- no tvor -- stvo, Bo -- že,
     ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Zj 4"
     placet = "~"
     id = ""
@@ -71,7 +71,7 @@ velikTIstredaNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Kol 1"
     id = ""
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
@@ -84,7 +84,7 @@ velikTIctvrtekNespAntIII = \score {
   \relative c' {
     \choralniRezim
     d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMax
-    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMax 
+    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMax
     e c d d \barFinalis
   }
   \addlyrics {
@@ -95,7 +95,7 @@ velikTIctvrtekNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -117,7 +117,7 @@ velikTIpatekNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Zj 15"
     id = ""
     placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ"
@@ -142,7 +142,7 @@ velikTIIpondeliNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -164,7 +164,7 @@ velikTIIuteryNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -179,14 +179,14 @@ velikTIIstredaNespAntIII = \score {
     b4 g g( a) a \barFinalis
   }
   \addlyrics {
-    Ne -- be -- sa_* jsou pl -- ná tvé slá -- vy, Bo -- že, 
+    Ne -- be -- sa_* jsou pl -- ná tvé slá -- vy, Bo -- že,
     a ce -- lá ze -- mě tě chvá -- lí.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Kol 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -208,7 +208,7 @@ velikTIIctvrtekNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 11"
     id = ""
     placet = "r"
@@ -231,7 +231,7 @@ velikTIIpatekNespAntIII = \score {
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 15"
     id = ""
     placet = "r - mel. akcent na pomocném slovesu"

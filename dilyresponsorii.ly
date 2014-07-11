@@ -12,8 +12,8 @@ textRespAleluja = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
 %% Alelujaticka responsoria modu VI:
 
-respVIalelujaResponsum = { 
-  a4 a( g) g f \breathe d f( g) g f 
+respVIalelujaResponsum = {
+  a4 a( g) g f \breathe d f( g) g f
 }
 
 respVIalelujaDoxologie = {
@@ -25,13 +25,13 @@ respVIalelujaDoxologie = {
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    
+
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -40,7 +40,7 @@ respVIalelujaDoxologie = {
   }
   \addlyrics {
     \Response * \textRespAleluja
-    \Verse 
+    \Verse
     \Response \textRespAleluja
     \textRespDoxologie
   }
@@ -50,7 +50,7 @@ respVIalelujaDoxologie = {
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 %}
 
 %% Nealelujaticka responsoria modu VI:

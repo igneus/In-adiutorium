@@ -27,13 +27,13 @@
     u -- svěd -- čuj,
     za -- ka -- zuj,
     po -- vzbu -- zuj
-    s_vše -- stran -- nou tr -- pě -- li -- vos -- tí 
+    s_vše -- stran -- nou tr -- pě -- li -- vos -- tí
     a zna -- los -- tí na -- u -- ky.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -57,7 +57,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     fial = "antifony/advent_tyden3.ly#ne-2ne-a3"
     id = ""

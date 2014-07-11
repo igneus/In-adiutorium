@@ -2,7 +2,7 @@
 
 \header {
   title = "Hymny - upravené nápěvy"
-  
+
   % composer = "Jakub Pavlík" % spis decomposer :)
 }
 
@@ -16,18 +16,18 @@
 \paper {
   scoreTitleMarkup = \markup\column{
     \fill-line {
-      \bold{ \fromproperty #'header:titulus } 
-      
+      \bold{ \fromproperty #'header:titulus }
+
       \concat{
         \fromproperty #'header:occasio
-        "; s. " 
-        \fromproperty #'header:pagina 
+        "; s. "
+        \fromproperty #'header:pagina
       }
     }
-    
-    \fromproperty #'header:notitia 
+
+    \fromproperty #'header:notitia
   }
-  
+
   markup-markup-spacing #'minimum-distance = #4
 }
 ion = { \override LyricText #'font-shape = #'italic } % italic on
@@ -35,8 +35,8 @@ ioff = { \revert LyricText #'font-shape } % italic off
 
 \markup\justify{
   Pokud není uvedeno jinak, základem úprav jsou hymny z
-  \italic{Denní modlitba církve. Hymny,} 
-  Praha 
+  \italic{Denní modlitba církve. Hymny,}
+  Praha
   \concat{ 1988\super{1} ", " 2008\super{2} "." }
 
   Kde je úprava melodie pouze dílčí, je menšími notami zapsáno
@@ -49,27 +49,27 @@ radostnePozdravme = \relative c'' { \time 3/4 g4 f d | es8[ d] c2 | \time 4/4 be
     \key bes \major
     \time 4/4
     \autoBeamOff
-    
+
     r2 r4 bes | bes f g8[ a] bes4 | c4. c8 d2 \breathe |
     \time 3/4 d4 c a | bes8[ a] g2 \time 4/4 f2
-    r4 f | bes4 a g g | 
+    r4 f | bes4 a g g |
     <<
-      % puvodni 
+      % puvodni
       {
         \tiny
-        \stemDown 
+        \stemDown
         f4. f8 d2 \breathe |
         \radostnePozdravme
       }
       % upraveny
       \new Voice \relative c'' {
-        \stemUp 
+        \stemUp
         a4. bes8 c2 \breathe |
         \transpose g d' \radostnePozdravme
       }
     >>
     \normalsize
-    r4 bes'8[ c] | d4 d d d | c bes c \breathe 
+    r4 bes'8[ c] | d4 d d d | c bes c \breathe
     bes8[ c] | d4 d d d | c bes c2 \breathe |
     \time 3/4 f,4 g a | bes c2 | bes2. \bar "|."
   }
@@ -98,11 +98,11 @@ budChvalenStvoritelVseho = \relative c'' {
     \key d \major
     \time 3/4
     \autoBeamOff
-    
+
     \repeat volta 2 {
       \partial 4 { a4 } |
       d2 d4 | e2 e4 | fis2 gis4 | a2. \breathe |
-      fis4 b a | g2 fis4~ | fis e2 | d2. 
+      fis4 b a | g2 fis4~ | fis e2 | d2.
     }
     e4 cis d | e2 fis4 | e2 d4 cis2. \breathe |
     e2 e4 | fis2 gis4 | a2 b4 | a2. \breathe |
@@ -120,7 +120,7 @@ budChvalenStvoritelVseho = \relative c'' {
         \transpose a' a { \budChvalenStvoritelVseho }
       }
     >>
-    \normalsize    
+    \normalsize
     a'4 | b( a) g | fis( e) d | e8[ fis g fis] e[ fis] | d2 \bar "|."
   }
   \addlyrics {

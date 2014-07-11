@@ -17,7 +17,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -37,7 +37,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -53,14 +53,14 @@
   \addlyrics {
     Dá -- vám svůj ži -- vot
     a za -- se ho při -- jmu na -- zpá -- tek;
-    
+
     ni -- kdo mi ho ne -- mů -- že vzít,
     dá -- vám ho sám od se -- be.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Flp 2"
     fial = "pust_svatytyden.ly#ut-ne-amag?pokracovani"
     id = ""
@@ -85,7 +85,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 93"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -105,7 +105,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -116,7 +116,7 @@
   \relative c'' {
     \choralniRezim
     d4 a d c( b) a a b( c a) g a g g \barMin
-    f g a( c) b g g \barFinalis 
+    f g a( c) b g g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé ze -- mě a všech -- ny ná -- ro -- dy,
@@ -125,7 +125,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 148"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -149,7 +149,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -169,7 +169,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 111"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -184,13 +184,13 @@
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní
-    % a 
+    % a
     vzal na se -- be na -- še bo -- les -- ti.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "1 Petr 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -208,7 +208,7 @@
   }
   \addlyrics {
     A -- men, pra -- vím vám:
-    Žád -- ný pro -- rok 
+    Žád -- ný pro -- rok
     ne -- ní ví -- ta -- ný ve svém do -- mo -- vě.
   }
   \header {
@@ -238,7 +238,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_ucitel.ly#1ne-amag?-aleluja"
     id = ""

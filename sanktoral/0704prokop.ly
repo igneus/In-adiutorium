@@ -26,7 +26,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -48,7 +48,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -80,7 +80,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna g
     g4 g a c c d c b c c( a) \barMin
@@ -123,7 +123,7 @@
     g f e f e d c d d \barFinalis
   }
   \addlyrics {
-    Od rá -- na se ce -- lým srd -- cem 
+    Od rá -- na se ce -- lým srd -- cem
     o -- bra -- cí k_Bo -- hu, své -- mu Stvo -- ři -- te -- li,
     k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
     k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
@@ -131,7 +131,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -155,7 +155,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -176,7 +176,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -199,7 +199,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -209,7 +209,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
@@ -217,7 +217,7 @@
     c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % V
     \neviditelna g
-    g( b c d) c( b) \barMin d c b b( c b a) a( b) b \barMin 
+    g( b c d) c( b) \barMin d c b b( c b a) a( b) b \barMin
     b( c d c) b( a) a g a g( f) e \barMaior
     e d( e) e g( a) a b a b c4. b \barMin
     c4 c c c d c b( c b) b \barMax
@@ -249,7 +249,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( d c) c( d) d \barMaior 
+    a4 a a( d c) c( d) d \barMaior
     d d d d( f) d c c( d) d \barMaior
     d d d c a a \barMin bes( a) g f g g \barMax
     f g a b! c d( c) c( d) d \barMaior
@@ -269,7 +269,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

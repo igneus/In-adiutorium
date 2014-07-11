@@ -19,7 +19,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 80"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -35,7 +35,7 @@
     g4 a a( g) g \barFinalis
   }
   \addlyrics {
-    S_ra -- dos -- tí 
+    S_ra -- dos -- tí
     bu -- de -- te vá -- žit vo -- du
     z_pra -- me -- mů spá -- sy.
     A -- le -- lu -- ja.
@@ -43,7 +43,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Iz 12"
     id = "rch-a2"
     placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů."
@@ -64,7 +64,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 81"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -89,7 +89,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 72-I"
     id = "na-a1"
     piece = \markup {\sestavTitulek}
@@ -112,7 +112,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 72-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

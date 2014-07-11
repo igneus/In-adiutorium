@@ -39,16 +39,16 @@
     d4 c b c( a) g( a g4.) f \barMin  a4( b) c( a) g \barFinalis
   }
   \addlyrics {
-    E -- van -- ge -- lis -- ta Lu -- káš 
-    hlá -- sal ra -- dost -- nou zvěst 
+    E -- van -- ge -- lis -- ta Lu -- káš
+    hlá -- sal ra -- dost -- nou zvěst
     o mi -- lo -- srd -- né lás -- ce na -- še -- ho Bo -- ha,
-    s_kte -- rou nás na -- vští -- vil 
+    s_kte -- rou nás na -- vští -- vil
     ten, kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII" % std. rozsah modu VIII opousti az v zaveru
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -70,7 +70,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

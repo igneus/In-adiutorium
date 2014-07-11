@@ -76,7 +76,7 @@ def typographus(main, latex='pdflatex')
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
 
     latex_commands = {
-      'pdflatex' => "pdflatex #{File.basename(tex)}",
+      'pdflatex' => "pdflatex  -shell-escape #{File.basename(tex)}",
       'xelatex' => "xelatex -output-driver=\"xdvipdfmx -q -E\" #{File.basename(tex)}"
     }
     

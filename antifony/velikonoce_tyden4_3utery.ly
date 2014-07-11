@@ -14,7 +14,7 @@
     f d e e \barFinalis
   }
   \addlyrics {
-    Ten, kdo pl -- ní vů -- li_* 
+    Ten, kdo pl -- ní vů -- li_*
     mé -- ho ne -- bes -- ké -- ho Ot -- ce,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
     A -- le -- lu -- ja.
@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 101"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -46,7 +46,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "b" 
+    differentia = "b"
     psalmus = "Dan 3-II"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -68,7 +68,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 144-I"
     id = "rch-a3"
     fons = "melodie adaptována z: žaltář, čtvrtek 4. týdne, nešp., 1. ant."
@@ -92,7 +92,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 137"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -114,7 +114,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 138"
     id = "ne-a2"
     placet = "?"

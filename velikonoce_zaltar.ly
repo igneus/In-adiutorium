@@ -8,7 +8,7 @@
 \include "spolecne.ly"
 
 \include "antifony/velikonoce_knzkantikum.ly"
-  
+
 \markup {\nadpisDen {1. TÝDEN}}
 \include "antifony/velikonoce_tyden1_2pondeli.ly"
 \include "antifony/velikonoce_tyden1_3utery.ly"

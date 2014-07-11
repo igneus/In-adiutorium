@@ -16,7 +16,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Je -- di -- ným svět -- lem je Kris -- to -- va cír -- kev;
@@ -26,7 +26,7 @@
   \header {
     quid = "1. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -36,7 +36,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Je -- den Pán, jed -- na ví -- ra, je -- den křest,
@@ -46,7 +46,7 @@
   \header {
     quid = "2. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -56,7 +56,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
@@ -66,7 +66,7 @@
   \header {
     quid = "3. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -76,16 +76,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
-    
+
     % V
     \neviditelna a
-    
+
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -106,14 +106,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d e f f 
-    e f f( g) f e d d d \barMaior 
+    d4 d c d e f f
+    e f f( g) f e d d d \barMaior
     e c d e f f \barMin
     e f f f g e f e d \barMin
     d c d f e d d \barFinalis
   }
   \addlyrics {
-    Všich -- ni jed -- no -- my -- sl -- ně 
+    Všich -- ni jed -- no -- my -- sl -- ně
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
     spo -- lu se že -- na -- mi,
     s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í
@@ -122,7 +122,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fons = "volne podle (neprilis povedene): marianske commune, tercie"
     fial = "fial://commune/commune_maria.ly#tercie?volne"
@@ -136,7 +136,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Všich -- ni se -- tr -- vá -- va -- li v_a -- po -- štol -- ském u -- če -- ní,
@@ -146,7 +146,7 @@
   \header {
     quid = "1. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 122"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -156,18 +156,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Sná -- šej -- te se na -- vzá -- jem v_lás -- ce
-    a hor -- li -- vě se snaž -- te 
+    a hor -- li -- vě se snaž -- te
     za -- cho -- vá -- vat jed -- no -- tu ve smýš -- le -- ní
     spo -- je -- ni pou -- tem po -- ko -- je.
   }
   \header {
     quid = "2. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 127"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -177,7 +177,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Je -- žíš u -- mřel,
@@ -187,7 +187,7 @@
   \header {
     quid = "3. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Ef 1"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -197,16 +197,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
-    
+
     % V
     \neviditelna a
-    
+
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -241,7 +241,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

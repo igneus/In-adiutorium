@@ -28,7 +28,7 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,7 +52,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -72,7 +72,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -94,7 +94,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -115,7 +115,7 @@
   }
   \addlyrics {
     Sva -- tý Mar -- tin vstou -- pil do ne -- bes -- ké vlas -- ti;
-    zdra -- ví ho an -- dě -- lé, 
+    zdra -- ví ho an -- dě -- lé,
     ra -- du -- jí se arch -- an -- dě -- lé,
     zá -- stu -- py pa -- nen ho ví -- ta -- jí
     a všich -- ni sva -- tí spo -- leč -- ně vo -- la -- jí:
@@ -124,7 +124,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -151,7 +151,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -173,7 +173,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -193,7 +193,7 @@
   \header {
     quid = "3. ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -207,17 +207,17 @@
     \choralniRezim
     a4 a a( c) c b c d e( d) d \barMin c c d c b a g \barMaior
     f g a c b a b( a) a \barMax
-    
+
     c c c c c d c d d( e) e \barMin
     d d c d c b a g a \barMaior
     a a c( b) b c c d d( e) d c( d) c c \barMaior
     a g g a a a \barFinalis
   }
   \addlyrics {
-    Sva -- tý bis -- kup 
+    Sva -- tý bis -- kup
     z_ce -- lé -- ho srd -- ce mi -- lo -- val Kris -- ta krá -- le
     a ne -- za -- le -- kl se moc -- ných;
-    
+
     ne -- skon -- čil si -- ce po -- zem -- ský ži -- vot
     me -- čem pro -- ná -- sle -- do -- va -- te -- le,
     a -- le přes -- to do -- sá -- hl pal -- my ví -- těz -- ství
@@ -226,7 +226,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

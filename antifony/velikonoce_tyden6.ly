@@ -9,7 +9,7 @@
     \choralniRezim
     g4 f( e) e f( e) f f( g) g \barMin
     f( g) a( c) b( a) a \barMin
-    
+
     g f g g \barFinalis
   }
   \addlyrics {
@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 119-נ"
     fial = "commune/commune_svatymuz.ly#rch-aben1"
     placet = "zkusit i jinou, na citované zdrojové antifoně nezávislou"
@@ -44,7 +44,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 16"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -66,7 +66,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Flp 2"
     fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a3"
     id = "ne-1ne-a3"
@@ -76,8 +76,8 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-  \markup\italic{ 
-    Antifony z 3. neděle velikonoční, 
+  \markup\italic{
+    Antifony z 3. neděle velikonoční,
     str. \concat{ \page-ref #'velikonoceNedeleIIIcteni "0" "?" . } }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -97,7 +97,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 118"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -119,7 +119,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Dan 3-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -138,14 +138,14 @@
   \addlyrics {
     Klaň -- me se Bo -- hu,
     kte -- rý se -- dí na trů -- nu,
-    a vo -- lej -- me: 
+    a vo -- lej -- me:
     A -- men.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 150"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -159,7 +159,7 @@
     \choralniRezim
     c4 b( a g a) a( g) \barMin a a g( a) g \barMaior
     g f g a a a( c) a \barMin
-    c b( a) g( a) g f 
+    c b( a) g( a) g f
     g a g g \barFinalis
   }
   \addlyrics {
@@ -171,7 +171,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -193,7 +193,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 115"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -218,7 +218,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 19"
     fial = "antifony/velikonoce_tyden4.ly#ne-2ne-a3"
     id = "ne-2ne-a3"

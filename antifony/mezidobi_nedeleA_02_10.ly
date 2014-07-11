@@ -17,7 +17,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     fial = "mezidobi_nejsvsrdce.ly#2ne-a3"
@@ -57,7 +57,7 @@
     g f( g) g a b a g g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý se -- stou -- pil 
+    Duch sva -- tý se -- stou -- pil
     ja -- ko ho -- lu -- bi -- ce z_ne -- be
     a zů -- stal na Je -- ží -- šo -- vi.
   }
@@ -87,11 +87,11 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = "ne3a-1ne-amag"
-    fial = "antifony/advent_nedeleA.ly#iimag1" 
+    fial = "antifony/advent_nedeleA.ly#iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -126,7 +126,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a f g g a a \barMin 
+    a4 a g( a) a f g g a a \barMin
     f g f d d d \barMaior
     d f( g f) g( a) a g \barMin
     f f f f e c c( d) d \barFinalis
@@ -134,7 +134,7 @@
   \addlyrics {
     Je -- žíš hlá -- sal e -- van -- ge -- li -- um
     o Bo -- žím krá -- lov -- ství
-    a u -- zdra -- vo -- val 
+    a u -- zdra -- vo -- val
     me -- zi li -- dem kaž -- dou ne -- moc.
   }
   \header {
@@ -190,7 +190,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    quid = "ant. k Benedictus" 
+    quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"
     psalmus = ""
@@ -253,14 +253,14 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) e c( d) d \barMax
-    
+
     a c d d( f) d f( g) f d d \barMaior
     f f e( f) d d f e d e d( a) a \barMaior
     a c( d c) d( f) d d \barMin f e f f( g) f d( e) d d \barFinalis
   }
   \addlyrics {
     Vy jste svět -- lo svě -- ta,
-    
+
     ať va -- še svět -- lo sví -- tí li -- dem,
     a -- by vi -- dě -- li va -- še dob -- ré skut -- ky
     a ve -- le -- bi -- li va -- še -- ho Ot -- ce v_ne -- be -- sích.
@@ -281,13 +281,13 @@
     \choralniRezim
     c4 b c( d) c a( b) a a \barMin
     g f g g a g a( c) c \barMaior
-    c c c( d e) c( b a) a \barMin 
+    c c c( d e) c( b a) a \barMin
     g( a g) f( g) g \barFinalis
   }
   \addlyrics {
-    Buď -- te ja -- ko sví -- til -- na 
+    Buď -- te ja -- ko sví -- til -- na
     po -- sta -- ve -- ná na pod -- sta -- vec,
-    a -- by sví -- ti -- la 
+    a -- by sví -- ti -- la
     všem v_do -- mě.
   }
   \header {
@@ -318,7 +318,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     fial = "commune/commune_ucitel.ly#1ne-amag?-aleluja"
@@ -366,7 +366,7 @@
     d d( e f) e( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři 
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
     a tam si vzpo -- me -- neš,
     že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
     nech tam svůj dar před ol -- tá -- řem
@@ -448,7 +448,7 @@
   }
   \addlyrics {
     Buď -- te do -- ko -- na -- lí,
-    ja -- ko je do -- ko -- na -- lý 
+    ja -- ko je do -- ko -- na -- lý
     váš ne -- bes -- ký O -- tec.
   }
   \header {
@@ -548,7 +548,7 @@
   \addlyrics {
     Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství,
-    a -- le ten, kdo pl -- ní vů -- li 
+    a -- le ten, kdo pl -- ní vů -- li
     mé -- ho ne -- bes -- ké -- ho Ot -- ce.
   }
   \header {
@@ -567,7 +567,7 @@
     \choralniRezim
     d4 d e f f( g) g \barMin g g( a) f g( f) d d \barMaior
     d e d c d e f g g( a) a \barMaior
-    a g a a( c a) g a a4.( g4 f) e( f) d d \barFinalis    
+    a g a a( c a) g a a4.( g4 f) e( f) d d \barFinalis
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
@@ -577,7 +577,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatymuz.ly#1ne-amag1?-aleluja"
@@ -615,7 +615,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e f g d d f( e d) c c d d \barMin
+    d d d c( d) c b a a \barMaior
+    c c( d) d d \barMin f( g) f( e d) d \barMaior
+    d g( d e c d) \barMin f f( g) f( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl v_cel -- ni -- ci se -- dět člo -- vě -- ka,
@@ -626,19 +629,22 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
+    fial = "sanktoral/0921matous.ly#aben?cast_spolecna"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a c c a c g g f( e f g) g \barMaior
+    g a b b b b( c) b a a a \barMaior
+    g( a g) f( g) f \barMin f d f g a g g \barFinalis
   }
   \addlyrics {
     Mno -- ho cel -- ní -- ků a hříš -- ní -- ků při -- šlo
@@ -647,8 +653,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ne10a-rch-aben"
@@ -659,25 +665,25 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( e f) d( c) c d d4. c \barMaior 
+    f4( e f) d( c) c d d4. c \barMaior
     d4 f e( c) c \barMin d d c \barMax \break
-    c( d e) e( f) f f 
-    \bar ":" f f \bar ":" 
+    c( d e) e( f) f f
+    \bar ":" f f \bar ":"
     f( g) f( e d) d d e e( f) f \barMaior
     f f \[ f( g f \] \[ e f) \] d( c) c4.( d) \barFinalis
   }
   \addlyrics {
-    Mi -- lo -- sr -- den -- ství chci, 
+    Mi -- lo -- sr -- den -- ství chci,
     a ne o -- běť, pra -- ví Pán.
-    Ne -- při -- šel jsem 
-    "(to" -- "tiž)" 
+    Ne -- při -- šel jsem
+    "(to" -- "tiž)"
     po -- vo -- lat spra -- ved -- li -- vé,
     a -- le hříš -- ní -- ky.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0921matous.ly#amag"

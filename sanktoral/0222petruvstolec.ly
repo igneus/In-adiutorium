@@ -4,9 +4,9 @@
 \include "../dilyresponsorii.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "Stolce svatého apoštola Petra" 
-            svátek 
+  title = \markup\titleSvatek
+            "Stolce svatého apoštola Petra"
+            svátek
             22.2.
   composer = "Jakub Pavlík"
 }
@@ -36,7 +36,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 19A"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -60,7 +60,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 64"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -84,7 +84,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 97"
     id = ""
     fial = "sanktoral/0806promenenipane.ly#2ne-a2"
@@ -130,7 +130,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
     id = ""
@@ -153,7 +153,7 @@
   \header {
     quid = "3. ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -181,7 +181,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
@@ -201,14 +201,14 @@
   \addlyrics {
     Pet -- ře, mi -- lu -- ješ mě?
     A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
-    Pas 
-    %mo -- je 
+    Pas
+    %mo -- je
     mé ov -- ce.
   }
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -224,13 +224,13 @@
   }
   \addlyrics {
     Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
-    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě 
-    za ně -- ho mod -- li -- la k_Bo -- hu. 
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě
+    za ně -- ho mod -- li -- la k_Bo -- hu.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 126"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -250,7 +250,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Ef 1"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a2"
     id = ""
@@ -277,7 +277,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

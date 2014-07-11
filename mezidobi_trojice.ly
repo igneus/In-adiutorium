@@ -27,7 +27,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -49,7 +49,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -69,7 +69,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -79,7 +79,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     g f g a g f( g) g4.( a) \barMax
@@ -122,14 +122,14 @@
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
     a kla -- ní -- me se
-    tvé -- mu je -- di -- né -- mu, 
+    tvé -- mu je -- di -- né -- mu,
     pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
     ve třech o -- so -- bách.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "1ne-amag"
     placet = "~ je to fakt II? Závěr zní trochu cize."
@@ -154,7 +154,7 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "invit"
     placet = "jde, ale nic moc"
@@ -173,15 +173,15 @@
     f f( a) g e e \barFinalis
   }
   \addlyrics {
-    Buď s_ná -- mi, 
-    je -- di -- ný, vše -- mo -- hou -- cí Bo -- že: 
-    Ot -- če i Sy -- nu 
+    Buď s_ná -- mi,
+    je -- di -- ný, vše -- mo -- hou -- cí Bo -- že:
+    Ot -- če i Sy -- nu
     i Du -- chu sva -- tý.
   }
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 8"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -196,14 +196,14 @@
     a( c) b c( d c) b a g a( g) g \barFinalis
   }
   \addlyrics {
-    Troj -- je -- di -- ný Bůh: 
+    Troj -- je -- di -- ný Bůh:
     O -- tec, Syn, Duch sva -- tý:
     lás -- ka, mi -- lost, spo -- le -- čen -- ství.
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 33-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -218,14 +218,14 @@
     c( d c) \barMin c( a c) b( g) \barMin a( g f) a a( g) g \barFinalis
   }
   \addlyrics {
-    Troj -- je -- di -- ný Bůh: 
+    Troj -- je -- di -- ný Bůh:
     O -- tec, Syn, Duch sva -- tý:
     zdroj, od -- lesk, dár -- ce prav -- dy.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 33-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -250,7 +250,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -270,14 +270,14 @@
     Te -- be chvá -- lí,
     to -- bě se kla -- ní,
     te -- be o -- sla -- vu -- je
-    
+
     všech -- no, co jsi stvo -- řil,
     troj -- je -- di -- ný Bo -- že.
   }
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -299,7 +299,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -309,7 +309,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
     a g g( a) a \barMin b( c) d( e) d c c( d) d \barMax
@@ -356,7 +356,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "rch-aben"
     placet = "trochu divné je -stvořil-"
@@ -386,7 +386,7 @@
   \header {
     quid = "ant. dopoledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "tercie"
     placet = "začátek je takový dryjáčnický"
@@ -409,7 +409,7 @@
   \header {
     quid = "ant. v poledne"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "sexta"
     placet = "r - zakončení na aktuální finále zní nepřesvědčivě; není třeba VII?"
@@ -436,7 +436,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "nona"
     placet = "R - tahle je jakoby spíš I než VIII"
@@ -463,7 +463,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 110"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -485,7 +485,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 114"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -501,15 +501,15 @@
     c b g a( g) g \barFinalis
   }
   \addlyrics {
-    Sva -- tý, sva -- tý, 
+    Sva -- tý, sva -- tý,
     sva -- tý je Pán, vše -- mo -- hou -- cí Bůh,
-    kte -- rý byl, kte -- rý je 
+    kte -- rý byl, kte -- rý je
     a kte -- rý při -- jde.
   }
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 19"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -521,12 +521,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 b( c) d( c) b c d( c a4.) a \barMin 
+    g4 b( c) d( c) b c d( c a4.) a \barMin
     b4( c) b a b a( g) g \barMaior
-    g f e d e g4. g \barMaior 
+    g f e d e g4. g \barMaior
     g4 a c b a g f g g \barMaior
     g f( g) g( d) d \barMin e( f) g g( a) g4. g \barMax
-    
+
     a4( c b) c( d) d d c d c a a \barMin
     c( b c) c( b) a g a g g \barMaior
     g g g f( a g) f f g g \barFinalis
@@ -537,7 +537,7 @@
     ne -- zro -- ze -- né -- ho Ot -- ce
     i jed -- no -- ro -- ze -- né -- ho Sy -- na
     i Pří -- mluv -- ce, Du -- cha sva -- té -- ho.
-    
+
     Chvá -- lí -- me a ve -- le -- bí -- me tě,
     nej -- svě -- těj -- ší Tro -- ji -- ce:
     To -- bě buď slá -- va na -- vě -- ky!
@@ -545,7 +545,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

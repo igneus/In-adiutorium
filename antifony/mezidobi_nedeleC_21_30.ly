@@ -59,7 +59,7 @@
     f a g f g e d \barFinalis
   }
   \addlyrics {
-    Po -- sled -- ní bu -- dou prv -- ní -- mi 
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
     a prv -- ní po -- sled -- ní -- mi.
   }
   \header {
@@ -88,7 +88,7 @@
     Když bu -- deš po -- zván na hos -- ti -- nu,
     jdi si sed -- nout na po -- sled -- ní mís -- to,
     a po -- zve -- -li tě hos -- ti -- tel do -- pře -- du,
-    bu -- de ti to ke cti u těch, 
+    bu -- de ti to ke cti u těch,
     kte -- ří bu -- dou s_te -- bou u sto -- lu.
   }
   \header {
@@ -219,7 +219,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     annus = "C"
     id = "ne23c-ne2-mag"
@@ -266,7 +266,7 @@
     d d f e f g a g f f \barFinalis
   }
   \addlyrics {
-    V_ne -- bi bu -- de vět -- ší ra -- dost 
+    V_ne -- bi bu -- de vět -- ší ra -- dost
     nad hříš -- ní -- kem,
     kte -- rý se ob -- rá -- tí,
     než nad spra -- ved -- li -- vý -- mi,
@@ -369,9 +369,9 @@
     f g f g( a) f f \barFinalis
   }
   \addlyrics {
-    Žád -- ný slu -- žeb -- ník 
+    Žád -- ný slu -- žeb -- ník
     ne -- mů -- že slou -- žit dvě -- ma pá -- nům.
-    Ne -- mů -- že -- te slou -- žit 
+    Ne -- mů -- že -- te slou -- žit
     Bo -- hu i ma -- mo -- nu.
   }
   \header {
@@ -394,7 +394,7 @@
     a( g a g) f( d) \barMin f g f e e \barFinalis
   }
   \addlyrics {
-    Bo -- háč, 
+    Bo -- háč,
     kte -- rý ne -- dal La -- za -- ro -- vi a -- ni drob -- ty chle -- ba,
     pro -- sil
     o kap -- ku vo -- dy.
@@ -442,20 +442,20 @@
     \choralniRezim
     d4 c c d d f e( f d) d \barMaior
     d d c( a) a c d( f e) c c d d \barMax
-    
+
     d c c d d \barMin d e f d c c( a) a \barMaior
     d d c d d d( f) d c( d) d \barMax
-    
+
     d d g f g \barMin g f g f( e) d d \barMaior
     d c d d( g) f e d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
     ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
-    
+
     Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
     ne -- boť bu -- de -- te na -- sy -- ce -- ni.
-    
+
     Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
     ne -- boť se bu -- de -- te smát.
   }
@@ -505,7 +505,7 @@
     Kdy -- by -- ste mě -- li ví -- ru
     ja -- ko hoř -- čič -- né zrn -- ko
     a řek -- li té -- to mo -- ru -- ši:
-    »Vy -- rvi se i s_ko -- ře -- ny 
+    »Vy -- rvi se i s_ko -- ře -- ny
     a pře -- saď se do mo -- ře!«,
     po -- slech -- la by vás.
   }
@@ -570,7 +570,7 @@
     \choralniRezim
     d4( f d) d c d e d \barMin
     e d e( f) d c d d \barMaior
-    g f g a( f d) d \barMin 
+    g f g a( f d) d \barMin
     c f e d d \barFinalis
   }
   \addlyrics {
@@ -596,7 +596,7 @@
     f e( d) d d e c d d \barFinalis
   }
   \addlyrics {
-    Vstaň a jdi! 
+    Vstaň a jdi!
     Tvá ví -- ra tě za -- chrá -- ni -- la.
   }
   \header {
@@ -691,7 +691,7 @@
     g f \barMin g a a g f f( g) g g \barFinalis
   }
   \addlyrics {
-    Cel -- ník se ne -- od -- va -- žo -- val 
+    Cel -- ník se ne -- od -- va -- žo -- val
     a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
     a -- le bil se v_pr -- sa a ří -- kal:
     Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
@@ -718,7 +718,7 @@
   \addlyrics {
     Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
     ne však fa -- ri -- ze -- us,
-    kte -- rý si za -- klá -- dal na tom, 
+    kte -- rý si za -- klá -- dal na tom,
     že je spra -- ved -- li -- vý.
   }
   \header {

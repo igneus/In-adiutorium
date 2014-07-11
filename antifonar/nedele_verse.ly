@@ -11,12 +11,12 @@
   \relative c' {
     \choralniRezim
     % a a
-    \neviditelna f f\breve d4 \barFinalis 
+    \neviditelna f f\breve d4 \barFinalis
   }
   \addlyrics {
     \set stanza = #""
     \Verse "Navěky, Hospodine, trvá tvé slo" -- vo,
-  } 
+  }
   \addlyrics {
     \set stanza = #""
     \Response "od pokolení do pokolení je tvá věr" -- -nost.
@@ -24,7 +24,7 @@
   \header {
     quid = "verš"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = "ne1v"
     piece = \markup {\sestavTitulek}
@@ -47,7 +47,7 @@
   \header {
     quid = "verš"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = "ne2v"
     piece = \markup {\sestavTitulek}
@@ -71,7 +71,7 @@
   \header {
     quid = "verš"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = "ne3v"
     piece = \markup {\sestavTitulek}
@@ -95,7 +95,7 @@
   \header {
     quid = "verš"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = "ne4v"
     piece = \markup {\sestavTitulek}

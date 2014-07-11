@@ -1,5 +1,15 @@
 # volumes of the "Complete Edition" of the antiphonal
 
+###############################################################
+# sv. 0: uvod
+#
+# temporary volume; in the future a part of it's content will
+# be used as a preface to the first volume, the rest will be
+# appended to the volume containing psalter as 'toni communes'
+
+desc "Introduction to the whole set of antiphonal volumes."
+task :uvod => [ typographus('antifonar_uvod.tytex') ]
+
 ##############
 # sv. IV.2 
 # kompletar
