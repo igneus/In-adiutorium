@@ -632,7 +632,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
+    modus = "II"
     differentia = "A"
     psalmus = "Žalm 15"
     id = "2ne-a1"
@@ -656,8 +656,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "A"
     psalmus = "Žalm 112"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
