@@ -642,13 +642,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna d
       f4 f f f g( a) a( g) \barMax
-      g g g g g a g( f d) f f f g g f f \barFinalis
+      g g g g g a g( f d) \barMin f f f g g f f \barFinalis
       % V
       \neviditelna f
       a4 a a a g a g f g( a) a( g)  \barMax
       % R
       \neviditelna g
-      g g g g g a g( f d) f f f g g f f \barFinalis
+      g g g g g a g( f d) \barMin f f f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -662,7 +662,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _moc_"
       id = "2ne-2ne"
       piece = \markup\sestavTitulekResp
     }
@@ -780,7 +779,7 @@ doxologieResponsoriumVI = {}
       g g g g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
-      a4 a a( bes) a a a g( a g) f g( a) \barMax
+      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
       % R
       \neviditelna g
       g g g g g( f d) f( g) g( f) f \barFinalis
@@ -797,7 +796,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _pravici_"
       id = "2ut-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -878,13 +876,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g( a) g( f d) d f f f g g( f) f \barFinalis
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a( bes) a a a g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g( a) g( f d) d f f f g g( f) f \barFinalis
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -898,7 +896,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _hledam te_; zkusit take s _hledam te_ ga g g"
       id = "2ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -910,11 +907,11 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
-      f4 f f f f g( a) a( g) \barMax
+      f4 f f \mark\sipka f f g( a) a( g) \barMax
       g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
-      a a a g( a) g g g g f g a a( g) \barMax
+      a a a g( a) g g \barMin g g f g a a( g) \barMax
       % R
       \neviditelna g
       g g( f d) f( g) g( f) f \barFinalis
@@ -931,7 +928,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _prodlevat_; a co _nic ..._: fd f g g f"
       id = "2ct-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -1015,7 +1011,7 @@ doxologieResponsoriumVI = {}
       f g a g( f) f \barFinalis
       % V
       \neviditelna g
-      a g( a) g g g g g g g f g( a) a( g) \barMax
+      a g( a) g \barMin g g g g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       f g a g( f) f \barFinalis
@@ -1032,7 +1028,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _jazyk_"
       id = "2so-rch"
       piece = \markup\sestavTitulekResp
     }
