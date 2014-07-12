@@ -907,7 +907,7 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
-      f4 f f \mark\sipka f f g( a) a( g) \barMax
+      f4 f f f f g( a) a( g) \barMax
       g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
