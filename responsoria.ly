@@ -457,6 +457,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "asi lépe bez dlouhého melismatu na _jadrnou_"
       id = "1ct-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -491,6 +492,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "_tebe_ nezní moc přirozeně"
       id = "1pa-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -660,6 +662,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _moc_"
       id = "2ne-2ne"
       piece = \markup\sestavTitulekResp
     }
@@ -726,6 +729,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "a co _večerní_ a g f?"
       id = "2po-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -793,6 +797,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _pravici_"
       id = "2ut-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -893,7 +898,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _hledam te_"
+      placet = "cesura po _hledam te_; zkusit take s _hledam te_ ga g g"
       id = "2ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -926,7 +931,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _prodlevat_"
+      placet = "cesura po _prodlevat_; a co _nic ..._: fd f g g f"
       id = "2ct-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -1027,6 +1032,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _jazyk_"
       id = "2so-rch"
       piece = \markup\sestavTitulekResp
     }
