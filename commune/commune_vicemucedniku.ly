@@ -266,20 +266,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c c c( d) c a( b) a a \barMaior
+    f( g) g( a) a \barMin c c c( d) c b a( g) g \barFinalis
+    
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,
+    Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
     do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 33-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -287,12 +290,18 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b c c( d) c \barMin
+    c a g g f g( a) a g g \barMin
+    g f g a g g( a) a \barMaior
+    c c( d c) \barMin a g a b a g g \barFinalis
+    
+    
   }
   \addlyrics {
-    Na tom -- to svě -- tě jste ztra -- ti -- li svůj ži -- vot pro mě
+    Na tom -- to svě -- tě_* 
+    jste ztra -- ti -- li svůj ži -- vot pro mě
     a pro e -- van -- ge -- li -- um;
     já sám bu -- du va -- ší od -- mě -- nou.
 
@@ -300,8 +309,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 33-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
