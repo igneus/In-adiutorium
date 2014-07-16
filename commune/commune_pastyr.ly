@@ -434,6 +434,7 @@
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "cesura po _bdit_"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -693,6 +694,8 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "první část repetendy s výraznou repeticí motivu fg gf 
+    je jednak moc líná, jednak působí tak nějak nevážně"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

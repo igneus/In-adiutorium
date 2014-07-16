@@ -461,6 +461,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "r druhou půli repetendy"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -714,6 +715,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "R"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
