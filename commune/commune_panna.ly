@@ -273,9 +273,12 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a g( a) a a c d b a \barMaior
+    c c( d) d( c) c \barMin c b g g a g f( g) g \barFinalis
 
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- no moud -- rá a pro -- zí -- ra -- vá,
@@ -285,8 +288,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
