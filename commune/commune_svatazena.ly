@@ -366,6 +366,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "v začátku slyším jednu irskou baladu a _požehnána_ je neelegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -721,6 +722,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "r"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

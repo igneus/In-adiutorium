@@ -244,6 +244,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 144-II"
+    placet = "d tu možná není skutečná tónika"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

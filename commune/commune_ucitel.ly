@@ -338,6 +338,9 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "vyzkoušet konkrétní jména;
+    např. pro Vavřince z Brindisi zní lépe s jedním melismatem navíc:
+    Vavřinče ag fa a (nebo agf fa a)"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

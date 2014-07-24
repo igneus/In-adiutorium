@@ -292,6 +292,7 @@
     differentia = "c"
     psalmus = ""
     annus = "A"
+    placet = "úvodní motiv (melodii _mé jho netlačí_) jako bych slyšel v nějaké tupé taneční písničce - ale nevím, ve které"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
