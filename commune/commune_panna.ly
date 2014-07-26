@@ -278,7 +278,7 @@
     a4 a g( a) a a c d b a \barMaior
     c c( d) d( c) c \barMin c b g g a g f( g) g \barFinalis
 
-    g g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- no moud -- rá a pro -- zí -- ra -- vá,
@@ -297,22 +297,31 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c c( d) c a( c) c \barMin
+    a b a g g \barMaior
+    f g a a a( g a) \barMaior
+    a( c) d( c d c) c \barMin
+    c b a g( a) g \barFinalis
 
+    c^\markup\rubrVelikAleluja b a g( a g) f
+    g a g g \barFinalis
   }
   \addlyrics {
     Lás -- ka k_mé -- mu Pá -- nu,
     Je -- ží -- ši Kris -- tu,
     by -- la pro mě víc
-    než slá -- va ce -- lé -- ho svě -- ta.
+    než slá -- va
+    \markup{\Dagger ce} -- lé -- ho svě -- ta.
 
+    \markup{\Dagger ce} -- lé -- ho svě -- ta.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 45-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -320,9 +329,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c( b c) \barMin a g a b a a \barMaior
+    g c d d( c) c \barMin
+    a b a g \barFinalis
 
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Sám král tou -- ží po tvé krá -- se;
@@ -333,8 +346,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 45-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
