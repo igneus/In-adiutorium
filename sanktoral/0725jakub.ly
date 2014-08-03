@@ -30,6 +30,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 63"
+    placet = "první část rozdělit po _uviděl_"
     id = ""
     piece = \markup {\sestavTitulek}
   }

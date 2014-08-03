@@ -425,6 +425,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "nic moc; raději zkusit tradiční formuli"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -657,6 +658,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "~"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

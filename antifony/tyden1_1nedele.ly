@@ -208,6 +208,7 @@ tInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3"
+    placet = "přeci jen VIII.G"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

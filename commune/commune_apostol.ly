@@ -276,6 +276,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19A"
+    placet = "_pronikl_ se zpívá špatně, jakoby se láme. 
+    Snad lépe fga fd d nebo jinak bez toho ostrého zlomu."
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
