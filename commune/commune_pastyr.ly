@@ -323,6 +323,12 @@
   }
 }
 
+\markup\italic{
+  V dodatku breviáře obsahujícím texty a rubriky pro vigilie nejsou
+  duchovní pastýři zmiňováni jako samostatná skupina. Zřejmě je vhodné
+  použít antifonu z textů o svatých mužích.
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

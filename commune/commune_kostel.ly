@@ -352,6 +352,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný jsi, Pa -- ne,
+    ve svém sva -- tém slav -- ném chrá -- mě,
+    kte -- rý je zbu -- do -- ván
+    k_chvá -- le a slá -- vě tvé -- ho jmé -- na.
+
+    % aleluja neni jen v dobe velikonocni, ale vzdy mimo dobu postni!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

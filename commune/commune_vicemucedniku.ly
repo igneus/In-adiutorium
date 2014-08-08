@@ -270,7 +270,7 @@
     \choralniRezim
     c4 c c c c( d) c a( b) a a \barMaior
     f( g) g( a) a \barMin c c c( d) c b a( g) g \barFinalis
-    
+
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
@@ -296,11 +296,11 @@
     c a g g f g( a) a g g \barMin
     g f g a g g( a) a \barMaior
     c c( d c) \barMin a g a b a g g \barFinalis
-    
-    
+
+
   }
   \addlyrics {
-    Na tom -- to svě -- tě_* 
+    Na tom -- to svě -- tě_*
     jste ztra -- ti -- li svůj ži -- vot pro mě
     a pro e -- van -- ge -- li -- um;
     já sám bu -- du va -- ší od -- mě -- nou.
@@ -312,8 +312,32 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-II"
+    placet = "chybí aleluja!"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
+    ne -- bu -- de už smrt a -- ni zá -- rmu -- tek,
+    ná -- řek a -- ni bo -- lest už ne -- bu -- de,
+    pro -- to -- že co dří -- ve by -- lo, po -- mi -- nu -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 

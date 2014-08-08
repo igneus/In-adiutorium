@@ -331,6 +331,11 @@
   }
 }
 
+\markup\italic{
+  Antifona ke kantikům vigilie jako ve společných textech
+  o svatých mužích.
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

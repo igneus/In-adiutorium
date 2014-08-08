@@ -331,6 +331,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c a) g( f) f( g) g \barMin
+    c b c c( d) c( a) \barMin b a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-2ne-amag"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
