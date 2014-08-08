@@ -142,6 +142,7 @@
     psalmus = ""
     id = "invit"
     fons = "melodie z invitatoria slavnosti Krista Krále; text upraven"
+    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -190,6 +191,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "prořezat"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -214,6 +216,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "~"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -272,6 +275,7 @@
     differentia = "d"
     psalmus = ""
     fons = "Křtu Páně, 2. nešp., 1. ant."
+    placet = "bude vhodné mírně prořezat"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -390,6 +394,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 121"
+    placet = "není celá špatná, ale takto bych ji neměl nechat"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -416,6 +421,10 @@
     modus = "I"
     differentia = "g"
     psalmus = "1Tim 3"
+    placet = "kantikum vyřešit jako celek,
+    třeba i za cenu úplně samostatného nápěvu nevyužívajícího psalmodické vzorce.
+    Takhle zní jako nesourodý slepenec.
+    A vkládané responsum je zbytečně utahané, mělo by být prostší"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
