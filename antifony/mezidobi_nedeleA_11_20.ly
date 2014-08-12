@@ -624,7 +624,7 @@
     \choralniRezim
     d4 d( c) d d( c) c \barMaior
     bes( c) c( d) d f e d( e) d d \barMin
-    d e f g f e d e d d \barFinalis
+    d e f g f e d e( d) d \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
