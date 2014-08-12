@@ -87,7 +87,7 @@
     \choralniRezim
     \key f \major
     f4 g a bes a( g) a \barMin \bar "" a g c c g a( bes) a a \barMin \bar ""
-    f g a( bes) g( a) a\bar "" a g( f) g f d( c) d  \barFinalis
+    f g a( bes) g( a) a \bar "" a g( f) g f d( c) d  \barFinalis
   }
   \addlyrics {
     Chci tě, Hos -- po -- di -- ne, chvá -- lit ce -- lým svým ži -- vo -- tem,
