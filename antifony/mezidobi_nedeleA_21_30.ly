@@ -157,7 +157,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 e e( d) d a' g a g e e \barMaior
+    f g a c b a \barMin b c d b a g g \barMaior
+    f g a a g f e e \barMin
+    f f f d f f( e) e \barFinalis
   }
   \addlyrics {
     Když tvůj bra -- tr zhře -- ší pro -- ti to -- bě,
@@ -168,8 +171,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     annus = ""
     id = ""
@@ -180,7 +183,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f g a g f( g) f f \barMaior
+    f f( d) \barMin f f f e f d( c) c \barMaior
+    d d e f g a( g) g \barMaior
+    a f g d \barMin
+    d d e f g a g f f \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se shod -- nou na ze -- mi
@@ -191,8 +198,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = ""
     id = ""
@@ -201,9 +208,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a g a a( g) \barMin
+    f a c c c b g a \barMaior
+    c c c( d c) \barMin a b a g \barFinalis
   }
   \addlyrics {
     Kde jsou dva ne -- bo tři
@@ -212,8 +221,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
