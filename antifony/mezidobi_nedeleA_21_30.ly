@@ -233,20 +233,33 @@
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d c b a a a \barMaior
+    d d c( d) d \barMin
+    c c b a a a c c d d \barMaior
+    d d d d
+    d( f) d e d c b a \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Pet -- ro -- vi:
     Ne -- ří -- kám ti,
     že máš od -- pus -- tit nej -- víc se -- dm -- krát,
-    a -- le tře -- ba se -- dm -- de -- sát -- se -- dm -- krát.
+    a -- le tře -- ba
+    % se -- dm -- de -- sát -- se -- dm -- krát.
+    se -- dma -- se -- dm -- de -- sát -- krát.
+
+    % Rozslabikování se-DMA-sedmdesátkrát možná není úplně správné,
+    % ale je v hovorové češtině rozšířené a dá se,
+    % narozdíl od se-DM-a-sedmdesátkrát, snadno zazpívat.
+    %
+    % Sedmasedmdesátkrát místo sedmdesátsedmkrát jsem zvolil
+    % abych se vyhnul absolutnímu rýmu - mj. i rytmickému.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
@@ -257,7 +270,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4( a) a a g f a g f( g) f f \barMaior
+    e f d( c) c \barMin
+    d d( e f) g g f f \barFinalis
   }
   \addlyrics {
     Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
@@ -266,8 +281,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = ""
     id = ""
@@ -278,7 +293,13 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f e c e( f) d d \barMaior
+    c d c b a c d d \barMin
+    c d e f e d d \barMax
 
+    c f f f e f d \barMin
+    f f f g f d( e d) d \barMaior
+    c d c a c d d f4.( g) f4 d d \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku ni -- čem -- ný,
@@ -291,8 +312,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
