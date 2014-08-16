@@ -811,8 +811,8 @@
 
 \markup\italic{
   Responsorium
-  \upright{Bůh si ji vyvolil} (viz výše, 2. nešpory) nebo
-  \upright{Buď zdráva, Maria} (výše, ranní chvály).}
+  \upright{Bůh si ji vyvolil} (viz výše, ranní chvály) nebo
+  \upright{Buď zdráva, Maria} (výše, 2. nešpory).}
 
 \score {
   \relative c'' {
