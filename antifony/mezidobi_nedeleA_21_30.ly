@@ -324,9 +324,10 @@
 \markup {\nadpisDen {"25. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d a( d) c b a a a \barMaior
+    f g( a) a \barMin a g a c b a a \barFinalis
   }
   \addlyrics {
     Jdě -- te i vy na mou vi -- ni -- ci
@@ -334,8 +335,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
@@ -344,9 +345,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( c d) d( c) d d( e d) d( c) c( d) \barMin
+    d c b a g a g g \barMaior
+    g g f( g a) a b c a a \barMin
+    c c d c b a g g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -356,19 +360,22 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = ""
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c d e( d) d \barMaior
+    a d c b a g a a( b) a a \barMaior
+    a a( c d) d( e) d d \barMin c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
@@ -377,8 +384,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
