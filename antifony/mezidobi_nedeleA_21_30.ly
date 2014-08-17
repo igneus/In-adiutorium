@@ -398,7 +398,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d c d d f( e) d( c) c \barMin
+    f f e f d \barMaior
+    d d( f) f \barMin f f f( g) f f g f e d d \barMaior
+    c a c c( d) d d \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
@@ -408,8 +411,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
@@ -420,7 +423,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 e f d d \barMaior
+    c d d d c( a) c( d) d d e f d c \barMin
+    d e f g a g f( g) \barMaior
+    d d d e d c( d) d \barFinalis
   }
   \addlyrics {
     A -- men, pra -- vím vám:
@@ -430,8 +436,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
