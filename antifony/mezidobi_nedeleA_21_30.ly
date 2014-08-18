@@ -518,9 +518,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( a) a \barMin a a g a a a g( f g) g( f) f \barMaior
+    a b c( d) c a( b) a a \barMax
+    g f g a c( b a) \barMaior
+    c c c c( d) c \barMin a g a b a g g \barFinalis
   }
   \addlyrics {
     Ká -- men,
@@ -531,8 +534,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
