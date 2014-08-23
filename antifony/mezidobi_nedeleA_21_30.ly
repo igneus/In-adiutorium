@@ -554,9 +554,12 @@
 \markup {\nadpisDen {"28. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f g g( a) g g \barMin g f g a c c \barMaior
+    c c c( d) c c \barMin c c b c a g( a) g \barMaior
+    c c( d c) b a g a( g) g \barMin
+    f g a c b g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né krá -- li,
@@ -566,8 +569,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
@@ -578,7 +581,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    % podobna je ve formulari Boziho tela
+    d4 a' g f a g \barMaior
+    f g g g f( g) f( d) d \barMin
+    f f e d e d c \barMaior
+    g'( f) e d( e) d d \barFinalis
   }
   \addlyrics {
     Řek -- ně -- te po -- zva -- ným:
@@ -588,10 +594,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -600,7 +607,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c d d d f e d e d d \barMaior
+    a' a a( c) a a \barMin a g f g g( a) a \barMax
+    a b c c d c b( a) a \barMin
+    a g a g f e e \barMaior
+    c d e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
@@ -611,8 +622,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
