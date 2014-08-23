@@ -476,7 +476,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 e f e d c e f e e \barMaior
+    e( a) a g a e e \barMin
+    d e f g f d e e \barMaior
+    f( g a) g f g g e e \barFinalis
   }
   \addlyrics {
     Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
@@ -486,8 +489,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     annus = ""
     id = ""
@@ -496,20 +499,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d( f) d d c a c c d d \barMaior
+    c d d( e) d d c( d) d( c) c \barMin a g a g g \barMaior
+    f f g a b c( a) g g \barMin
+    c( d c) b( g) a a g g \barFinalis
   }
   \addlyrics {
     Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
-    a vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
+    a
+    svou % není v breviáři
+    vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
     kte -- ří mu bu -- dou ve svůj čas
     od -- vá -- dět vý -- tě -- žek.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
