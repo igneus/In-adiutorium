@@ -20,6 +20,9 @@
     differentia = "d"
     psalmus = ""
     annus = ""
+    placet = "transponovaná o sekundu dolů funguje i jako modus V s b -
+    srov. také závěrečnou kadenci, alespoň u mě pro modus V typickou;
+    snad právě proto mi v modu VII moc nesedí a jsem pro předělání"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -634,20 +637,26 @@
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( a) a \barMin
+    f g a a a b a a \barMaior
+    a a g( a) a--
+    g f e d
+    d f f( e) e \barFinalis
   }
   \addlyrics {
     Mis -- tře,
     ví -- me, že jsi prav -- do -- mluv -- ný,
-    a že u -- číš ces -- tě k_Bo -- hu
+    a že u -- číš
+    ces -- tě k_Bo -- hu
     po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = ""
     id = ""
@@ -656,9 +665,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 a d c( b) a a \barMin
+    g a b( c a) a \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te kaž -- dé -- mu,
@@ -666,8 +676,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = ""
     id = ""
@@ -676,9 +686,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4( d) d( c) c \barMin c c b c a g a g g \barMaior
+    g f e d d f( g a) g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
@@ -686,8 +697,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
