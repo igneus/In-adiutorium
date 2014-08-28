@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.19.4"
 
 \header {
   title = "Simeonovo kantikum"
@@ -38,8 +38,8 @@ opřízvukovaný tak, jako v 1. svazečku Antifonáře k DMC. (Viz též níže.
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c\breve b4 c a-| a \parenthesize a \barMax
-    b\breve c4 b a-| a \parenthesize a \barFinalis
+    a4 b c\breve b4 c a-! a \parenthesize a \barMax
+    b\breve c4 b a-! a \parenthesize a \barFinalis
   }
   \header {
     piece = "psalmodie (Simeonovo kantikum)"
