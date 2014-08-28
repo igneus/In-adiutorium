@@ -38,12 +38,17 @@ build_toplevel_ly = toplevel_ly_files.collect do |source|
   end
 
   file target => [source] + includes.to_a do
-    sh 'lilypond', source do |success, exit_code|
+    sh 'lilypond', '--silent', source do |success, exit_code|
       unless success
         STDERR.puts "#{source} compilation unsuccessful (#{exit_code}).".colorize(:red)
       end
     end
+
+    # ensure that the target's mtime gets updated
+    sh 'touch', target
   end
+
+  target
 end
 
 desc "build all sheet music"
