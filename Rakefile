@@ -22,12 +22,12 @@ task :psalmodie => 'psalmodie.ly'
 # - .ly files in the project root are mostly standalone sheets
 #
 
-toplevel_ly_files = `git ls-files *.ly`.split +
+standalone_ly_files = `git ls-files *.ly`.split +
   `git ls-files commune/*.ly`.split +
   `git ls-files sanktoral/*.ly`.split
-toplevel_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
+standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
 
-build_toplevel_ly = toplevel_ly_files.collect do |source|
+build_standalone_ly = standalone_ly_files.collect do |source|
   target = source.sub(/\.ly$/, '.pdf')
 
   includes = Set.new
@@ -55,7 +55,7 @@ build_toplevel_ly = toplevel_ly_files.collect do |source|
 end
 
 desc "build all sheet music"
-task :build => build_toplevel_ly
+task :build => build_standalone_ly
 
 #
 # sanity checks
