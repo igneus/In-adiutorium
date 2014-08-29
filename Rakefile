@@ -38,14 +38,17 @@ build_toplevel_ly = toplevel_ly_files.collect do |source|
   end
 
   file target => [source] + includes.to_a do
-    sh 'lilypond', '--silent', source do |success, exit_code|
+    lily_args = ['--silent']
+    if File.dirname(source) != '.' then
+      lily_args << "--output" << "#{File.dirname(source)}"
+    end
+    lily_args << source
+
+    sh 'lilypond', *lily_args do |success, exit_code|
       unless success
         STDERR.puts "#{source} compilation unsuccessful (#{exit_code}).".colorize(:red)
       end
     end
-
-    # ensure that the target's mtime gets updated
-    sh 'touch', target
   end
 
   target
