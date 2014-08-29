@@ -711,28 +711,35 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c( d) d \barMin d( e) f d d \barMin
+    e d c c( d) d \barMaior
+    d e f f( g f) e \barMin
+    d f d c c( d) d \barFinalis
   }
   \addlyrics {
-    Mi -- luj Pá -- na, své -- ho Bo -- ha, ce -- lým svým srd -- cem,
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
     ce -- lou svou du -- ší
     a ce -- lou svou mys -- lí.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
+    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?zacatek&zjednoduseno"
+    placet = "snad ujde, ale významný text si zaslouží něco práce na pokusech o ještě lepší"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g g g( a) g f e e \barMin
+    d e f( g f) e e \barFinalis
   }
   \addlyrics {
     Mi -- luj své -- ho bliž -- ní -- ho
@@ -740,8 +747,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = ""
     id = ""
@@ -750,18 +757,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 d e d c d d \barMaior
+    c b a b a a( g) g \barMin
+    g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Na při -- ká -- zá -- ní lás -- ky
-    spo -- čí -- vá ce -- lý Zá -- kon i Pro -- ro -- ci.
+    spo -- čí -- vá ce -- lý Zá -- kon
+    i Pro -- ro -- ci.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
