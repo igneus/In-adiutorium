@@ -31,7 +31,7 @@
     differentia = "F"
     psalmus = "Žalm 63"
     placet = "první část rozdělit po _uviděl_"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,7 +73,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -95,7 +95,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -122,7 +122,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -144,7 +144,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -167,7 +167,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -191,7 +191,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
