@@ -2,12 +2,13 @@
 
 % -*- master: ../mezidobi_nedele.ly;
 
-\markup {\nadpisDen {". neděle"}}
+\markup {\nadpisDen {"31. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a a a f( g a) a \barMin
+    a b c b c d c( b a) g a( g) g \barFinalis
   }
   \addlyrics {
     Vy všich -- ni jste bra -- tři;
@@ -15,8 +16,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
     id = ""
@@ -25,20 +26,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g a a a c( d) c c \barMin
+    d( e) c d( c a) \barMaior
+    g f g a( g) g \barFinalis
   }
   \addlyrics {
-    % TODO: správné rozdělovníky
-    Je -- nom je -- den je váš u -- či -- tel -
-    Kris -- tus Pán -
+    Je -- nom je -- den je váš u -- či -- tel_–
+    Kris -- tus Pán_–
     a ten je v_ne -- bi.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = ""
     id = ""
@@ -49,19 +51,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d c d d( f) f( e) e \barMaior
+    d d d f e c a a \barMax
 
+    a c d f d d \barMin
+    f f g( f) d d \barMaior
+    d e c d c a a \barMin
+    c d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Kdo je me -- zi vá -- mi nej -- vět -- ší,
     ať je va -- ším slu -- žeb -- ní -- kem.
 
-    Kdo se po -- vy -- šu -- je, bu -- de po -- ní -- žen,
-    a kdo se po -- ni -- žu -- je, bu -- de po -- vý -- šen.
+    Kdo se po -- vy -- šu -- je,
+    bu -- de po -- ní -- žen,
+    a kdo se po -- ni -- žu -- je,
+    bu -- de po -- vý -- šen.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = ""
     id = ""
