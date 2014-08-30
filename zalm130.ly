@@ -1,6 +1,8 @@
 \version "2.15.40"
 
-\include "spolecne.ly"
+\include "spolecne/nadpisy.ly"
+\include "spolecne/tiraz.ly"
+\include "spolecne/layout.ly"
 
 \header {
   title = "Žalm 130"
@@ -9,7 +11,7 @@
            \line{"T: český liturgický překlad Bible a"}
            \line{"Denní modlitba církve"}
   }
-  dedication = "Paní Nanebevzaté" %\markup\tiny\column{
+  dedication = "Naší Paní Nanebevzaté" %\markup\tiny\column{
   %  "Té, kterou jsem nikdy neměl nějak zvlášť rád,"
   %  "přestože jsem chtěl vstoupit do řádu, který se považuje za řád její;"
   %  "které přesto patří řada mých nejkrásnějších melodií;"
@@ -17,17 +19,6 @@
   %}
 }
 
-\layout {
-  ragged-last = ##f
-  \context {
-    \Score
-    \remove Bar_number_engraver
-  }
-  \context {
-    \Staff
-    \remove Custos_engraver
-  }
-}
 
 text = \lyricmode {
   %1
@@ -73,46 +64,47 @@ text = \lyricmode {
 
 akordy = \chords {
   %1
-  a4:m c g2 a4:m
-  c4 d2:m a4:m
+  a4:m c g2 a4:m s2.
+  c4 d2:m a4:m s2.
   %2
-  a4:m c g2 a4:m
-  g2 a2:m
+  a4:m c g2 a4:m s4 s2
+  g2 a2:m s2 s2
 
   %3
-  a2:m g a:m d1:m a4:m
-  c4 a:m g a:m
+  a2:m g a1:m d1:m a1:m
+  c4 a:m g a:m s2.
   %4
-  a2.:m g4. a8:m
-  a2:m c4 g2 a4:m
+  s4 a2.:m g2 a1:m
+  a2:m c4 g2 a4:m s2.
 
   %5
-  a2:m g a4:m
-  c4 g a:m g a:m
+  a2:m g a1:m
+  c4 g a:m g a1:m
   %6
-  c4 g a:m g2 a4:m
-  c2 g a:m
+  c4 g a:m g2 a1:m
+  a2:m g a1:m
 
   %7
-  a2:m d:m a:m
-  d4*5:m a2:m
+  a2:m d:m a1:m
+  d4*5:m a4:m s1
   %8
-  a2:m c4 g4 a2:m
-  a4.:m c g2 a4:m
+  a2:m c4 g4 a1:m
+  a4.:m c g2 a2:m
   %9
-  a2:m c2 a4:m
-  e2:m c4 e4:m a4:m
+  a2.:m c2 a1:m
+  e2:m c4 e4:m a1:m
 
   %10
-  a2:m c4 g4 a4:m
-  c4 g4 d2:m a4:m
+  a2:m c4 g4 a1:m
+  c4 g4 d2:m a1:m
   %11
-  a2:m g2 a4:m g4 a2:m
+  a2:m g2 a4:m g4 a1:m
   a2:m c4 g4 a4:m g4 a2:m
 }
 
-po = \mark\markup{*}
-ve = \mark\markup{//}
+% puvodne znacky pro polovers a konec verse
+po = {}
+ve = {}
 
 melodie = \relative c'' {
   \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
@@ -123,42 +115,46 @@ melodie = \relative c'' {
   \time 2/4
 
   %1
-  a8 a c c | b a b g \time 1/4 a a \po
-  \time 2/4 c c f f | f4 e \bar "||" \break
+  a8 a c c | b a b g a a r4 r2 \po
+  \time 3/4 c8 c f f f4 \time 2/4 e r r2 \bar "||" \break
   %2
-  a,8 a c c | b( g) g( a) \time 1/4 a r \po
-  \time 2/4 g4 g8 b b( a) a r \bar "||" \break
+  \time 2/4 a,8 a c c | b( g) g( a) a r r4 r2 \po
+  g4 g8 b b( a) a r r2 r2 \bar "||" \break
 
   %3
-  r8 e'8 e e | d e f4 | e r | r8 f f f | a a a f | \time 1/4 e e \po
-  \time 2/4 c8( a) a c | b a a4 \bar "||" \break
+  r8 e'8 e e | d e f4 | e r r2 | r8 f f f | a a a f | e e r4 r2 \po
+  c8( a) a c | \time 3/4 b a a4 r4 \time 2/4 r2 \bar "||" \break % zmena rytmu tu vypada divne, ale proste citim, ze tu jsou potreba tri doby. Proc, tomu uplne nerozumim.
   %4
-  e'8 e d e | e e d e | \time 1/4 f e \po
-  \time 2/4 a,8 a a a | c c b g | g( a) a r \bar "||" \break
+  r4 e'8 e | d e e e | d e f e~ | e2 r2 \po
+  a,8 a a a | c c b g | \time 3/4 g( a) a r r4 | \time 2/4 r2 \bar "||" \break
 
   %5
-  a4 a | b8 g g( a) \time 1/4 a r \po
-  \time 2/4 c8 c d4 | c8 a b g | \time 1/4 a a \bar "||" \break
+  a4 a | b8 g g( a) | a r8 r4 r2 \po
+  c8 c d4 | c8 a b g | a a r4 r2 \bar "||" \break
   %6
-  \time 2/4 c4 d8 d | \time 4/4 e c d b4. a4 \po
-  \time 2/4 a8( c) c c b a b g a4 a \bar "||" \break
+  c4 d8 d | \time 3/4 e c d b4. \time 4/4 a4 r2. \po
+  \time 2/4 a8( c) c c b8. a16 b g8. a4 a | r2 \bar "||" \break
 
   %7
-  a8( e') e e | d d e f | e4 e | \po
-  r8 f f f a a a r g a f e \time 1/4 e r \bar "||" \break
+  a8( e') e e | d8. d16 e f8. | e4 e | r2 \po
+  r8 f f f a a a4 g8 a f e | e r r4 r2 \bar "||" \break
   % 8
-  \time 2/4 e8 e e d c b d c a4 a \po
-  \time 6/8 a8 a a c c c \time 2/4 b g g( a) \time 1/4 a4 \bar "||" \break
+  \time 2/4 e8 e e d c b d c a4 a | r2 \po
+  \time 6/8 a8 a a c c c \time 2/4 b g g( a) | a4 r \bar "||" \break
   %9
-  \time 2/4 r8 e'8 d( e) c a c b \time 1/4 a a \po
-  \time 2/4 b8 b b b c d c( b) \time 1/4 a4 \bar "||" \break
+  r4 r8 e'8 | d( e) c a \time 3/4 c b a a r4 \time 2/4 r2 \po
+  b8 b b b c d c( b) | a4 r r2 \bar "||" \break
 
   %10
-  \time 2/4 r4 a8 a | c( b) a g \time 1/4 a a \po
-  \time 2/4 c4 b8 g a f4. \time 1/4 a4 \bar "||" \break
+  \time 2/4 r4 a8 a | c( b) a g | a a r4 r2 \po
+  \time 2/4 c4 b8 g a f4. | a4 r r2 \bar "||" \break
   %11
-  \time 2/4 a8 a a a | b g g g | a a a g | a4 a \po
-  a8 a a a | c( b a) g | a4( g) | a2 \bar "|."
+  \time 2/4 a8 a a a | b g g g | a a a g | a4 a r2 \po
+  a8 a a a |
+  <<
+    { c( b a) g | a4( g) | a2 \bar "|." }
+    \new Dynamics { s1-"rit." }
+  >>
 }
 
 \markup\italic{volně}
@@ -173,18 +169,6 @@ melodie = \relative c'' {
   \header{
 
   }
-}
-
-\markup\justify{
-  * - Konec poloverše. Obvykle se hodí zařadit dvě až čtyři prázdné doby
-  (beze zpěvu, doprovod hraje dál.)
-}
-\markup\justify{
-  dvojitá taktová čára na konci řádku - Konec verše.
-  i tady se většinou hodí podobná pomlka.
-}
-\markup\justify{
-  Pozn.: Když jsem to skládal, zpíval jsem o oktávu níž, než jsem psal.
 }
 
 %{
