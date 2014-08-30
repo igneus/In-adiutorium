@@ -123,13 +123,13 @@ melodie = \relative c'' {
 
   %3
   r8 e'8 e e | d e f4 | e r r2 | r8 f f f | a a a f | e e r4 r2 \po
-  c8( a) a c | b a a4 | \time 3/4 r2. \bar "||" \break % zmena rytmu tu vypada divne, ale proste citim, ze tu jsou potreba tri doby. Proc, tomu uplne nerozumim.
+  c8( a) a c | \time 3/4 b a a4 r4 \time 2/4 r2 \bar "||" \break % zmena rytmu tu vypada divne, ale proste citim, ze tu jsou potreba tri doby. Proc, tomu uplne nerozumim.
   %4
-  \time 2/4 r4 e'8 e | d e e e | d e f e~ | e2 r2 \po
-  a,8 a a a | c c b g | g( a) a r | \time 3/4 r2. \bar "||" \break
+  r4 e'8 e | d e e e | d e f e~ | e2 r2 \po
+  a,8 a a a | c c b g | \time 3/4 g( a) a r r4 | \time 2/4 r2 \bar "||" \break
 
   %5
-  \time 2/4 a4 a | b8 g g( a) | a r8 r4 r2 \po
+  a4 a | b8 g g( a) | a r8 r4 r2 \po
   c8 c d4 | c8 a b g | a a r4 r2 \bar "||" \break
   %6
   c4 d8 d | \time 3/4 e c d b4. \time 4/4 a4 r2. \po
@@ -142,8 +142,8 @@ melodie = \relative c'' {
   \time 2/4 e8 e e d c b d c a4 a | r2 \po
   \time 6/8 a8 a a c c c \time 2/4 b g g( a) | a4 r \bar "||" \break
   %9
-  \time 2/4 r4 r8 e'8 | d( e) c a c b a a \time 3/4 r2. \po
-  \time 2/4 b8 b b b c d c( b) | a4 r r2 \bar "||" \break
+  r4 r8 e'8 | d( e) c a \time 3/4 c b a a r4 \time 2/4 r2 \po
+  b8 b b b c d c( b) | a4 r r2 \bar "||" \break
 
   %10
   \time 2/4 r4 a8 a | c( b) a g | a a r4 r2 \po
