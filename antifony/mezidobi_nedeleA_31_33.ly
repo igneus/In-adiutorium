@@ -178,9 +178,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f a( c) c d( c) b c a a \barMaior
+    g( a) a a g f g g( a) a \barMin
+    a( c) c b g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku do -- brý a věr -- ný,
@@ -190,10 +193,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
+    fial = "commune/commune_pastyr.ly#mc-a3?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
