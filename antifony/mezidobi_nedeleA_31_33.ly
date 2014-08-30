@@ -117,8 +117,9 @@
   \relative c' {
     \choralniRezim
     d4( f d c) c \barMin
-    d d e f( g) a g \barMin
-    f f e f g( f e) c( d) d \barFinalis
+    d d e f( g) a g \barMaior
+    f f e d e c c \barMin
+    d f( e d) c( d) d \barFinalis
   }
   \addlyrics {
     Bdě -- te,
@@ -131,7 +132,7 @@
     differentia = "D"
     psalmus = ""
     annus = ""
-    fial = "antifony/advent_nedeleA.ly#imag1?delsi_text"
+    fial = "antifony/advent_nedeleA.ly#imag1?upraveno&jiny_text"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
