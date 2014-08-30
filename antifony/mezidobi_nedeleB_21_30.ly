@@ -601,6 +601,7 @@
     psalmus = ""
     id = "ne29b-rch-ben"
     fons = "25.7. sv. Jakuba apoštola, k Magnificat"
+    fial = "sanktoral/0725jakub.ly#ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -74,6 +74,7 @@
     differentia = "D"
     psalmus = ""
     annus = ""
+    fial = "sanktoral/0725jakub.ly#ne-amag?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
