@@ -25,6 +25,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "první cézura je úplně zbytečná"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

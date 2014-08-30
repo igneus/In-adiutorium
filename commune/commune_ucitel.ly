@@ -170,6 +170,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "R"
     id = "rch-resp"
     fons = "Cyril a Metoděj, r.ch."
     piece = \markup {\sestavTitulekResp}

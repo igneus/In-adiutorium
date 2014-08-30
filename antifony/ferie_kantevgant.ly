@@ -68,6 +68,7 @@ tIuteryAntBenedictus = \score {
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "I.a2"
     id = "t1-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

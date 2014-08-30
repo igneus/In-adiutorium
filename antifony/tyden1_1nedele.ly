@@ -233,6 +233,7 @@ tInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "_králem_ je neelegantní"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

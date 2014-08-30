@@ -29,6 +29,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "prospěje zjednodušení, viz podobné"
     id = "ne31b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
