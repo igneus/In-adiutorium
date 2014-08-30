@@ -83,20 +83,23 @@
 \markup {\nadpisDen {"32. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a g( a) g g \barMin
+    f g a a a b g a a \barMaior
+    a a g f d( e) e \barMaior
+    e e( f e d) d( e) \barMin f g a a g e e \barFinalis
   }
   \addlyrics {
-    Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né
-    de -- se -- ti pan -- nám,
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né de -- se -- ti pan -- nám,
     kte -- ré vza -- ly lam -- py
     a vy -- šly na -- pro -- ti že -- ni -- cho -- vi.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = ""
     id = ""
@@ -105,9 +108,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f g a( c) c \barMin
+    d d c( d) a a b a g g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -115,10 +119,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = ""
+    fial = "commune/commune_panna.ly#mc-avig?-aleluja"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
