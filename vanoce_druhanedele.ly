@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
