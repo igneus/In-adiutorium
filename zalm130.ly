@@ -118,7 +118,7 @@ melodie = \relative c'' {
   a8 a c c | b a b g a a r4 r2 \po
   \time 3/4 c8 c f f f4 \time 2/4 e r r2 \bar "||" \break
   %2
-  \time 2/4 a,8 a c c | b( g) g( a) a r r4 r2 \po
+  a,8 a c c | b( g) g( a) a r r4 r2 \po
   g4 g8 b b( a) a r r2 r2 \bar "||" \break
 
   %3
@@ -132,24 +132,24 @@ melodie = \relative c'' {
   a4 a | b8 g g( a) | a r8 r4 r2 \po
   c8 c d4 | c8 a b g | a a r4 r2 \bar "||" \break
   %6
-  c4 d8 d | \time 3/4 e c d b4. \time 4/4 a4 r2. \po
-  \time 2/4 a8( c) c c b8. a16 b g8. a4 a | r2 \bar "||" \break
+  c4 d8 d \time 3/4 e c d b4. \time 2/4 a4 r r2 \po
+  a8( c) c c b8. a16 b g8. a4 a | r2 \bar "||" \break
 
   %7
   a8( e') e e | d8. d16 e f8. | e4 e | r2 \po
   r8 f f f a a a4 g8 a f e | e r r4 r2 \bar "||" \break
   % 8
-  \time 2/4 e8 e e d c b d c a4 a | r2 \po
+  e8 e e d c b d c a4 a | r2 \po
   \time 6/8 a8 a a c c c \time 2/4 b g g( a) | a4 r \bar "||" \break
   %9
   r4 r8 e'8 | d( e) c a \time 3/4 c b a a r4 \time 2/4 r2 \po
   b8 b b b c d c( b) | a4 r r2 \bar "||" \break
 
   %10
-  \time 2/4 r4 a8 a | c( b) a g | a a r4 r2 \po
-  \time 2/4 c4 b8 g a f4. | a4 r r2 \bar "||" \break
+  r4 a8 a | c( b) a g | a a r4 r2 \po
+  c4 b8 g a f4. | a4 r r2 \bar "||" \break
   %11
-  \time 2/4 a8 a a a | b g g g | a a a g | a4 a r2 \po
+  a8 a a a | b g g g | a a a g | a4 a r2 \po
   a8 a a a |
   <<
     { c( b a) g | a4( g) | a2 \bar "|." }
