@@ -297,7 +297,7 @@
     g f g a g g( a) a \barMaior
     c c( d c) \barMin a g a b a g g \barFinalis
 
-
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Na tom -- to svě -- tě_*
@@ -312,7 +312,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-II"
-    placet = "chybí aleluja!"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
