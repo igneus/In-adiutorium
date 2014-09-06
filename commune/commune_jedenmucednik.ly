@@ -337,7 +337,7 @@
     f f f( g) f \barMin g f e d( c) d d( c) \barMaior
     bes c d c d e f( d) d \barMin c d e( f) d c( d) d \barFinalis
 
-    c d e f d d \barMin
+    c^\markup\rubrVelikAleluja d e f d d \barMin
     g f d d \barFinalis
   }
   \addlyrics {
@@ -359,13 +359,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c c( d) c b c a g g( a) \barMaior
+    a g a g f f( d) \barMin
+    f g a a( c) a c( d) c b a a \barMaior
+    c c c d( e d) c b c a a \barMin
+    f g a( g) g \barFinalis
 
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Na svém tě -- le do -- pl -- ňu -- ji to,
-    co zbý -- vá vy -- tr -- pět do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
     má z_to -- ho pro -- spěch je -- ho tě -- lo,
     to je cír -- kev.
 
@@ -373,8 +380,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
