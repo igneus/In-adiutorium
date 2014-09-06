@@ -349,6 +349,8 @@
     \choralniRezim
     g4 g a c b g a g \barMin
     f f g a( c) b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná
@@ -361,7 +363,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne19c-2ne-amag"
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne19c-2ne-amag?+aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
