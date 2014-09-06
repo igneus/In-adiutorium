@@ -19,7 +19,7 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 \usepackage[show]{ed} % editorial annotations
-\usepackage[backend=biber]{biblatex} % bibliography
+\usepackage[backend=biber,style=verbose-trad1]{biblatex} % bibliography
 
 \usepackage[T1]{fontenc}
 % font Bookman:
@@ -30,6 +30,9 @@
 \input{hyphenation.tex}
 \input{znacky.tex}
 \input{generovane/zaltar/versiky.tex}
+
+
+\bibliography{bibliografie_admc}
 
 
 \title{Antifonář k Denní modlitbě církve - Úvod}
@@ -63,10 +66,6 @@
 
 \pagestyle{fancy}
 
-\begin{todo}{}
-* bibliografie
-\end{todo}
-
 \section*{Poznámka}
 
 Tento dokument se později stane úvodem k prvnímu svazku Antifonáře.
@@ -77,7 +76,7 @@ již teď, zveřejňujeme ho prozatím samostatně.
 
 Jako antifonář (\emph{antiphonale, antiphonarium, liber antiphonarius})
 se zpravidla
-označuje kniha užívaná při liturgii hodin, v níž jsou obsaženy
+označuje kniha užívaná při oficiu, v níž jsou obsaženy
 melodie těch zpěvů, které mají vlastní originální nápěv
 (oproti žalmům a kantikům, zpívaným na omezené množství
 jednoduchých nápěvů), zejm. antifony.
@@ -92,7 +91,7 @@ Antifonář k Denní modlitbě církve z více důvodů není takovým
 doplňkem k již existujícím liturgickým knihám, který umožní
 slavení úplně zpívané liturgie hodin chórovým způsobem.
 
-\section{Knihy pro slavení Denní modlitby církve se zpěvem}
+\section{Knihy pro slavení denní modlitby církve se zpěvem}
 
 Výše naznačená koncepce Antifonáře k Denní modlitbě církve
 počítá s využitím dalších knih:
@@ -107,13 +106,13 @@ Vedle dvou oficiálních českých hymnářů uvádíme i hymnář latinský,\ed
 jenž však samozřejmě neobsahuje hymny pro svátky vlastní kalendáři
 českých a moravských diecézí.
 
-Česká liturgická komise: Denní modlitba církve. Hymny, Praha 1989.
+\cite{hymnarcerveny}
 
-Denní modlitba církve. Hymny a básnické modlitby, Praha: Zvon 1993.
+\cite{hymnarzeleny}
 
-Liber hymnarius cum invitatoriis et aliquibus responsoriis, Solesmis 1983.\edissue{citace vysázet pěkněji}
+\cite{lhymnarius}
 
-\section{Uspořádání Denní modlitby církve\footcite[velké části jsou převzaty doslovně nebo volně z ][583nn]{dmci}}
+\section{Uspořádání Denní modlitby církve}
 
 \subsection{Uvedení do první modlitby dne / invitatorium}
 
@@ -312,6 +311,89 @@ ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
 \section{Interpretace chorálních melodií}
 
 \section{Společné nápěvy}
+
+\section{Některá koncepční rozhodnutí}
+
+\subsection{Psalmodie podle starších chorálních knih}
+
+Pro zpěv žalmů byly zvoleny nápěvy obvyklé v římských chorálních knihách
+první polovině 20. století.
+Knihy vydávané v Solesmes v posledních cca 30 letech mají jiný výběr
+nápěvů psalmodie. Některé z našich chybí, další jsou v systému jinak
+zařazeny, jsou přidány další nápěvy nad rámec systému osmi modů.
+
+To, že projekt In adiutorium staví na starším systému, je podmíněno
+historicky. V době, kdy autor začínal pomýšlet na vlastní zhudebnění
+některých částí oficia, neměl ani potuchy o dějinách chorálu,
+o jejich novodobém výzkumu ani o rozdílech mezi chorálními knihami
+vydanými v průběhu posledního století, a chopil se první tabulky
+žalmových nápěvů, kterou našel. Ta byla připravená podle jednoho z vydání
+Liber Usualis ze 60. let.
+Když později zjistil, že volba této sady nápěvů není zdaleka samozřejmá a
+pravděpodobně není nejlepší, měl již postaveno příliš mnoho,
+než aby se pouštěl do výměny hlavního pilíře podpírajícího celé dílo,
+a zároveň neměl ani takový vhled do aktuálního stavu bádání, aby mohl
+říci, že solesmeské nápěvy jsou skutečně vhodnější, ani porozumění
+za nimi stojící \uv{teorii chorálu}, které by mu umožnilo skládat pro ně
+odpovídající antifony.
+
+Pokud o to někdo stojí, jistě může s našimi antifonami používat i jiné
+nápěvy psalmodie, např. zmiňované solesmeské nebo Korejsovy.\edissue{citace článku}
+
+\subsection{Originální skladby místo adaptací latinských předloh}
+
+Nápěvy chorálních liturgických zpěvů jsou v západní církvi chovány ve velké
+úctě a jsou uchovávány (více méně) beze změn.
+Když někde vyprýští touha po liturgickém zpěvu v národním jazyce,
+zcela samozřejmě dochází k pokusům o adaptaci zažitých nápěvů
+používaných pro přednes latinských textů i pro překlad týchž textů do lidové
+řeči. Setkáváme se s tím v památkách liturgického zpěvu českých utrakvistů;
+v mešních zpěvech upravených jezuitskými misionáři pro americké indiány\edissue{citace článku na NLM};
+ve více různých chorálních zhudebněních zpěvů mešního propria,
+která se teď těší určité popularitě ve Spojených státech; ...
+
+\begin{todo}{}
+možná chci zmínit i další:
+* Graduale simplex v holandštině Stevena van Roode
+* anglický antifonář vyvěšený na fóru Musica Sacra
+* Antiphonale monasticum Ormonde Platera
+\end{todo}
+
+Na samém počátku práce na našem zhudebnění zpěvů oficia padlo rozhodnutí
+touto cestou se nevydat.
+Její nepochybnou předností je přiznání se k dvoutisícileté tradici
+západního liturgického zpěvu a zachování jakési hudební jednoty římského
+ritu i přes nejednotu jazykovou.
+Zkušenost však ukazuje, že pokusy o adaptaci původní melodie pro překlad
+téhož textu do jiného jazyka obvykle nepřinášejí příliš uspokojivé výsledky.
+Chorální melodie jsou vytvořené danému textu v daném jazyce na míru.
+Dost dobře nejde s úspěchem je použít pro jazyk, který jinak funguje
+(po stránce rytmu, melodie) a pro vyjádření téhož používá jiná slova.
+Tak je potřeba buďto složitě skládat text překladu tak, aby do zděděné
+melodie zapadl (to je cesta, kterou se dávali čeští utrakvističtí
+překladatelé chorálních zpěvů\footnote{myslí se tu na ty zpěvy, které byly
+skutečnými překlady -- ne na ty, které myšlenku originálu květnatě přebásňovaly
+a z původního melismatického zpěvu dělaly upovídanější sylabický}),
+nebo upravovat melodii při úsilí -- nezřídka marném -- o zachování její
+fundamentální struktury nebo domnělé hlavní myšlenky.
+
+Při vědomí výše zmíněných obtíží jsme se rozhodli přijmout z pokladu
+latinského liturgického zpěvu nápěvy žalmů a většinu \uv{společných nápěvů},
+ale antifony skládat úplně nově, bez ohledu na jakékoli normativní předlohy.
+Ostatně -- pro velkou část antifon pokoncilního breviáře ani žádné
+tradiční melodie, které by bylo možné adaptovat, neexistují.
+
+U několika málo antifon k latinskému originálu z různých důvodů přeci jen
+sáhnuto bylo.
+
+\begin{todo}{}
+vyjmenovat. Ideálně udělat automatickou proceduru, která je vyhledá
+a připraví na ně odkazy.
+\end{todo}
+
+\clearpage
+
+\printbibliography[title=Seznam literatury]
 
 \vfill
 
