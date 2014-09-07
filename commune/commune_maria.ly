@@ -911,7 +911,7 @@
     differentia = "D"
     psalmus = "Benedictus"
     id = "sob-aben4"
-    piece = \markup {\sestavTitulek}
+    piece = \markup {\sestavTitulekBezZalmu}
     fons = "Doba adventní, modlitba uprostřed dne."
     fial = "fial://advent_antifony.ly#spol-sexta"
   }
