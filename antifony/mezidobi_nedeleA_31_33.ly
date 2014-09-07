@@ -157,9 +157,11 @@
 \markup {\nadpisDen {"33. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d c d d c b a a \barMin
+    a c c a g a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Pán si za -- vo -- lal slu -- žeb -- ní -- ky
@@ -168,8 +170,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = ""
     id = ""
@@ -204,9 +206,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c c d( e d) \barMin c b a a \barMaior
+    c c a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
@@ -214,8 +217,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = ""
     id = ""
