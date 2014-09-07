@@ -485,6 +485,9 @@ tIIpatekAntMagnificat = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_milosrdenství_ od začátku zpívám s vyšinutým přízvukem
+    miLOsrDENství, čemuž odpovídají i délky na posledních dvou slabikách;
+    oprava rytmu by si velmi pravděpodobně vyžádala i změnu melodie"
     id = "t2-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
