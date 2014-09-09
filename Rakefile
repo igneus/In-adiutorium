@@ -4,6 +4,8 @@
 require 'set'
 require 'colorize'
 
+require_relative 'nastroje/rakefile_common'
+
 #
 # build psalm tone sheet
 #
@@ -55,21 +57,13 @@ build_standalone_ly = standalone_ly_files.collect do |source|
 end
 
 desc "build all sheet music"
-task :build => build_standalone_ly
+task :build => build_standalone_ly + [:psalmodie]
 
 #
 # sanity checks
 #
 
 namespace :sanity do
-
-  if `hostname`.rstrip == 'pittiplatsch' then
-    # my development version of the lyv gem
-    LYV_DIR = '~/src/ruby/lyv'
-    LYV_CMD = "ruby -I #{LYV_DIR}/lib #{LYV_DIR}/bin/lyv"
-  else
-    LYV_CMD = 'lyv'
-  end
 
   desc "Find scores where music and lyrics length do not match"
   task :length do
