@@ -54,6 +54,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "147-II"
+    placet = "nelisma na _smrt_ je téměř nezpívatelné a přitom na exponovaném místě"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -447,6 +448,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_i nad námi_ možná lépe c cd d d"
     id = "tercie"
     fons = "melodie volně podle následující"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -628,6 +630,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "text je radostný, ne že ne, ale melodie je tak nějak neseriózní"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
