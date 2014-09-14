@@ -21,7 +21,7 @@ zalmXCVtonusID = \score {
     g a g f e( f) d e c g' f( e c) d \barMax
     f g a a a a a g a( bes) a \barMax
     a a a g f g f e d( e d) \barMax
-    d( f) f f f f \barMin f f f g( a) g( f e) e \barMax
+    d( f) f f f f f f f g( a) g( f e) e \barMax
     f f g f e d e d c( d) d( e4. d) \strofa
 
     % Pojdme, padneme
