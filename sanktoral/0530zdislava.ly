@@ -1,6 +1,7 @@
 \version "2.19.0"
 
 \include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
 
 \header {
   title = \markup\titleSvatek
@@ -13,9 +14,12 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 bes a g f g a f( e) d( c) \barMaior
+    d f e f d c d( e) d d \barFinalis
 
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
     Sklá -- da -- la svou na -- dě -- ji v_Bo -- ha
@@ -25,8 +29,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -34,9 +38,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c c( a) a \barMin g a c c c( d) c \barMaior
+    d c d c b a \barMin
+    c a a g f g g \barFinalis
 
+    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Moud -- rá že -- na bu -- do -- va -- la svůj dům,
@@ -47,8 +55,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -58,7 +66,9 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 e d c f g g a g f g f \barFinalis
 
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Ni -- kdo o ní ne -- mo -- hl ří -- ci nic zlé -- ho.
@@ -67,8 +77,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -115,10 +125,12 @@
 
     % R
     \neviditelna f
+    f4 f f f f f( g) f \barMin
+    f f f f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-
+    f4 f f f f g f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -270,10 +282,13 @@
 
     % R
     \neviditelna f
+    f4 f f f f f g f f( g f) f \barMaior
+    f f f f f e f d c c \barMin
+    f f f g f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-
+    f4 f f f f f f f f f e g( a) \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -301,7 +316,9 @@
   \relative c' {
     \choralniRezim
     d4 e f g( f) a g( f) e e \barMaior
-    f f f e d c f e c d d %\barFinalis
+    f f f e d c f e c d d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
     Ot -- ví -- rá svou dlaň chu -- dé -- mu,
