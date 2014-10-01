@@ -265,14 +265,17 @@
     % R
     \neviditelna f
     f4 f f f f f g f g( a) a( g) \barMax
-
+    a a a a a bes a g( a) g g \barMin
+    f g a f d f g g f \barFinalis
     % V
     \neviditelna a
-
+    f f g f f \barMin f g f g a a g \barMax
     % R
     \neviditelna a
-
+    a a a a a bes a g( a) g g \barMin
+    f g a f d f g g f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,_*
@@ -285,7 +288,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
