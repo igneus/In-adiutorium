@@ -136,6 +136,7 @@ tIstredaAntMagnificat = \score {
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "prohodit differentiae"
     id = "t1-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

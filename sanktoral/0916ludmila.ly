@@ -32,6 +32,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "nesedí v modu; skutečná finála je pravděpodobně a -> po transposici I.g"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -74,6 +75,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
+    placet = "doladit přinejmenším _utíkala_ a závěr"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -113,6 +115,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zjednodušit _navenek_"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -210,6 +213,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "nic moc"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

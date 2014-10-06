@@ -244,6 +244,7 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
+    placet = "zejm. _nevejdete_ zkusit jinak"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

@@ -28,6 +28,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "bída"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -48,6 +49,7 @@
     modus = "I"
     differentia = "g2"
     psalmus = ""
+    placet = "_Radujte se_ je divné, extra fail je dlouhé melisma na _se_; navíc d se nezdá být přirozenou finálou této melodie, tou je snad spíše g"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

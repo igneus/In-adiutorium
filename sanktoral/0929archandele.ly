@@ -55,6 +55,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "_cherubové a serafové_ zkusit elegantněji"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -156,6 +157,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "rytmus _vystupovat a sestupovat_ působí těžkopádně"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -250,6 +252,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 8"
+    placet = "melodie _králi_ je na daném místě nevhodně retardující; také si nejsem docela jist, že g je pravou finálou"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -295,6 +298,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
+    placet = "_množství_ možná lépe ga f; od věci by ale možná nebyla důkladnější reforma"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -330,6 +334,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "nepotřebná a nevhodná ozdoba na _kadidelnice_"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }

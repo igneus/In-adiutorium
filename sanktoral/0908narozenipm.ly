@@ -80,6 +80,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
+    placet = "VII.c2"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -259,6 +260,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
+    placet = "zdá se, že moc nesedí v modu"
     id = ""
     fons = "Zvěstování Páně, uprostřed dne, dopoledne; odstraněno aleluja"
     piece = \markup {\sestavTitulek}

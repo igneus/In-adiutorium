@@ -426,6 +426,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "druhá část repetendy by zněla přirozeněji a liběji bez melismat, prostě g f d f g g f"
       id = "1ct-rch"
       piece = \markup\sestavTitulekResp
     }
