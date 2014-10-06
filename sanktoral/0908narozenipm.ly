@@ -30,7 +30,7 @@
     differentia = "a"
     psalmus = ""
     id = ""
-    piece = \markup {\sestavTitulekBezZalmu (zpívat z žalmem 95 na nápěv I.D)}
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
