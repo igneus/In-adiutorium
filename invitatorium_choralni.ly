@@ -10,6 +10,7 @@
 \include "invitatoria/zalm95text.ly"
 \include "invitatoria/zalm95_I_D.ly"
 \include "invitatoria/zalm95_II_D.ly"
+\include "invitatoria/zalm95_VI.ly"
 
 \paper {
   scoreTitleMarkup = \markup\column{
@@ -32,4 +33,5 @@
 
   \score { \zalmXCVtonusID }
   \score { \zalmXCVtonusIID }
+  \score { \zalmXCVtonusVI }
 }
