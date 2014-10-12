@@ -178,15 +178,17 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
-    % V
-    \neviditelna a
-
-    % R
-    \neviditelna a
-
-    % Slava
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a a( bes) g g \barMin g f g( a) g g \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
@@ -199,7 +201,8 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
+    fial = "responsoria.ly#1ne-rch?jiny_vers"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
