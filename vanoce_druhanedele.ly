@@ -182,7 +182,7 @@
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
     smi -- luj se nad ná -- mi.
 
-    \Verse Ty, kte -- rýs byl pod -- dán Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+    \Verse Ty, kte -- rý ses na -- ro -- dil z_Pan -- ny Ma -- ri -- e,_*
     \Response smi -- luj se nad ná -- mi.
 
     \textRespDoxologie
