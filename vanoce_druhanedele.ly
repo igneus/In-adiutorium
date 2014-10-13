@@ -15,7 +15,7 @@
     \choralniRezim
     g( f) g g a a \barMin
     b( c a) g a g g \barMaior
-    c( d c) b a g g g f g a f f( g) g \barFinalis
+    c( d c) b a g g g f g a g g \barFinalis
   }
   \addlyrics {
     Pan -- na po -- ča -- la,
@@ -28,7 +28,7 @@
     differentia = "G"
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
-    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&+aleluja&jiny text"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -51,6 +51,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 116"
+    placet = "zejm. závěr je divný, nepřesvědčivý (ve vztahu k textu)"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -99,6 +100,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Magnificat"
+    placet = "na závěru by bylo co vylepšit"
     id = "ne1-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -239,6 +241,10 @@
     modus = "I"
     differentia = "f"
     psalmus = "Benedictus"
+    placet = "_s vírou_ špatně navazuje na předchozí;
+    na _voláme_ by se hodila nějaká retardující ozdoba;
+    závěr je spíše nepěkný;
+    nejlépe snad úplně předělat"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -338,6 +344,7 @@
     psalmus = "Magnificat"
     fons = "Zacatek je z 1. ant. 1. nespor ze spolecnych textu o Panne Marii"
     fial = "commune/commune_maria.ly#1ne-a1?zacatek"
+    placet = "závěr by mohl být elegantnější"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
