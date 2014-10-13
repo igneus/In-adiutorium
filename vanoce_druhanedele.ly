@@ -35,11 +35,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a c b a c( d) d \barMaior
-    c d d d c b a c( b a) a \barMin
-    g a g( f) f \barFinalis
+    b4( c) a( b) a \barMin g a b c b \barMaior
+    c c c c d c b g( a) a \barMin
+    g a g( f e) e \barFinalis
   }
   \addlyrics {
     Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
@@ -48,10 +48,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "III"
+    differentia = "h"
     psalmus = "Žalm 116"
-    placet = "zejm. závěr je divný, nepřesvědčivý (ve vztahu k textu)"
+    fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -82,16 +82,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f e g a f e g4. g \barMin
-    a4 a a a g a g f( e) e \barMaior
-
+    g4 f e g a f e g g \barMin
+    a4 b g g a g a f( e) e \barMaior
     e e e( f e) d d( e) d \barMin
-    d( g) g g a( f) f g( f) e4. e \barFinalis
+    d e f g( f) g g( f) e e \barFinalis
   }
   \addlyrics {
     Po -- kor -- nou slu -- žeb -- ni -- ci Pá -- ně
     na -- pl -- ni -- la ne -- bes -- ká mi -- lost,
-
     lů -- no čis -- té Pan -- ny
     skrý -- va -- lo bož -- ské ta -- jem -- ství.
   }
@@ -100,7 +98,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Magnificat"
-    placet = "na závěru by bylo co vylepšit"
     id = "ne1-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -214,16 +211,16 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4( g a) f g d d \barMin
-    f( e) f f( g) g g a bes a g g( a) a \barMaior
+    d4 d f( e) f( d) d \barMin
+    f( e) f f( g) g g a bes a g f( g) g \barMaior
 
     a a a bes c bes a g( f) g \barMin
     g( a) f e d d \barMax
 
-    d d d c d f f f e d d d \barMaior
+    d d d c d f f f e d( e) d d \barMaior
 
-    a' g f( g) f4. d \barMin
-    e4( g) f d d d \barFinalis
+    a' g a d, \barMin
+    d f e c d d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
@@ -239,12 +236,8 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f"
+    differentia = "D"
     psalmus = "Benedictus"
-    placet = "_s vírou_ špatně navazuje na předchozí;
-    na _voláme_ by se hodila nějaká retardující ozdoba;
-    závěr je spíše nepěkný;
-    nejlépe snad úplně předělat"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -326,10 +319,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
 
-    g f g a( c) c c \barMin
-    c( d) c b( c) b a g4. g \barFinalis
+    g f e d( e) d d \barMin
+    f e f g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -342,9 +335,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Magnificat"
-    fons = "Zacatek je z 1. ant. 1. nespor ze spolecnych textu o Panne Marii"
     fial = "commune/commune_maria.ly#1ne-a1?zacatek"
-    placet = "závěr by mohl být elegantnější"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
