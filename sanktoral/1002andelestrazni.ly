@@ -131,6 +131,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zjednodušit první část repetendy"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }

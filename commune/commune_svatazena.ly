@@ -259,9 +259,12 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4( c b) c( a) g( a) \barMin f e f g a a( g) g \barMaior
+    a b c c b \barMin c d c b( a) g a( g) g \barFinalis
 
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     V_moud -- ros -- ti ot -- ví -- rá svo -- je ús -- ta,
@@ -271,18 +274,22 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 19A"
+    fial = "sanktoral/0916ludmila.ly#rch-a2?upraveno"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d d( e) d \barMin d c d e e e( f e d) d \barMaior
+    d d c b c( a) g f g a a g g \barFinalis
 
+    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Sva -- té že -- ny dů -- vě -- řo -- va -- ly v_Bo -- ha
@@ -292,8 +299,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 45-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -301,9 +308,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d c( b c) d e d \barMin
+    b a b g g \barFinalis
 
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dost -- ným já -- so -- tem
@@ -313,12 +323,17 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 45-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\markup\italic{
+  Antifona ke kantikům vigilie jako ve společných textech
+  o svatých mužích.
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -366,6 +381,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "v začátku slyším jednu irskou baladu a _požehnána_ je neelegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -424,6 +440,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "nic moc; raději zkusit tradiční formuli"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -656,6 +673,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "~"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -721,6 +739,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "r"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

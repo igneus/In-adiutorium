@@ -248,6 +248,7 @@ tInedeleInespResp = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3"
+    placet = "přeci jen VIII.G"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -272,6 +273,7 @@ tInedeleInespResp = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "_králem_ je neelegantní"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

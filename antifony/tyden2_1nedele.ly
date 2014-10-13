@@ -42,6 +42,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
+    placet = "nakupení třínotových skupin není právě elegantní"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -172,6 +173,7 @@ tIInedeleInespAntIII = \score {
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 118"
+    placet = "div. maior je tu přirozenější až před aleluja"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

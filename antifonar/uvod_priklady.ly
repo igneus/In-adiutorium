@@ -1,65 +1,53 @@
 \version "2.19.0"
 \include "../spolecne.ly"
 
-\score {
-  \relative c' {
-    \choralniRezim
+\bookpart {
+  \header { title = "Psalmodie" }
 
-    c_\markup{začátek}
-    d f f\breve f4-! \parenthesize d_\markup{flexa} d \breathe \mark "+"
 
-    f\breve g4_\markup{polovina verše} g-! \parenthesize d d \bar "|" \mark "*"
 
-    f\breve c4_\markup{zakončení} d e-! \parenthesize d d \bar "||"
-  }
-  \header{ id = "1" }
-}
+}%part
+
+\bookpart {
+  \header { title = "Chorální notace" }
+
+% antifony/tyden1_1nedele.ly
 
 \score {
   \relative c' {
     \choralniRezim
-    c d f f f f f f g4 g-! d4 \bar "|"
-    f f f f f c4 d e-! d \bar "||"
+    d4 c( d) e( f) g( f) d d \barMin
+    g4 f( g) g( a) a \barMax
+    a4 g( f e) e \barMin
+    d4( f) e d d \barFinalis
   }
   \addlyrics {
-    Kdo pře -- bý -- váš -- v_o -- chra -- ně Nej -- vyš -- \markup{\underline{ší}} -- ho,_*
-
-    kdo dlíš ve stí -- nu Vše -- moc -- \markup{\underline{né}} -- ho,
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
   }
-  \header{ id = "2" }
+  \header {
+    id = "notace-1-choral"
+  }
 }
 
 \score {
   \relative c' {
-    \choralniRezim
-    f f f f f f f f f f f f g4 g-! d4 \bar "|"
-    f f c4 d e-! d \bar "||" \break
+    \override Score.TimeSignature #'stencil = ##f
+    \cadenzaOn
+    \autoBeamOff
 
-    f f f f f f f f f g4 g-! d4 d \bar "|"
-    f f c4 d e-! d \bar "||"
+    d8 c[ d] e[ f] g[ f] d d4 r8
+    g8 f[ g] g[ a] a4 r4
+    a g8[ f e] e4 r8
+    d8[ f] e d d4 \bar "|."
   }
   \addlyrics {
-    řek -- ni Hos -- po -- di -- nu:
-    Mé ú -- to -- čiš -- tě jsi a \markup{\underline{má}} tvrz,_*
-    můj Bůh, v_ně -- hož \markup{\underline{dou}} -- fám!
-
-    Ne -- boť on tě vy -- svo -- bo -- dí z_léč -- ky \markup{\underline{ptáč}} -- ní -- ka,_*
-    ze zhoub -- né -- ho \markup{\underline{mo}} -- ru.
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
   }
-  \header{ id = "3" }
+  \header {
+    id = "notace-1-modern"
+  }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    f f f f f f f f f4-! d \breathe
-    f f f f f f g4 g-! d4 \bar "|"
-    f f f f f f c4 d e-! d \bar "||"
-  }
-  \addlyrics {
-    O -- chrá -- ní tě svý -- mi pe -- ru -- \markup{\underline{tě}} -- mi,_+
-    u -- chý -- líš se pod je -- ho \markup{\underline{kříd}} -- la,_*
-    štít a pa -- vé -- za je věr -- nost \markup{\underline{je}} -- ho.
-  }
-  \header{ id = "4" }
-}
+}%part

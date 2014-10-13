@@ -6,6 +6,7 @@
 }
 
 \include "spolecne.ly"
+\include "dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
@@ -58,7 +59,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 g f d g f \barMin g f g a( g) g \barMaior
+    a a( c) b \barMin a g f( a) g g \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám ten, kte -- rý je věč -- ný,
@@ -66,8 +68,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Flp 2"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -102,12 +104,18 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\markup\italic{Antifony se berou ze žaltáře.}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a g g a( c) b a( g) a \barMaior
+    c c c c d c a g f( g) g \barMin
+    a g f f \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
@@ -116,8 +124,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 118"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -125,9 +133,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    a( g) f g a a g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
@@ -135,9 +144,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3-II"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant2?jiny_text"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -146,7 +156,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c( d) d d f f c( d c) \barMaior
+    bes c d d c d f( e d) d \barFinalis
   }
   \addlyrics {
     Lid byd -- lí -- cí v_tem -- no -- tách
@@ -154,8 +165,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 150"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -167,28 +178,31 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
-    % V
-    \neviditelna a
-
-    % R
-    \neviditelna a
-
-    % Slava
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a a( bes) g g \barMin g f g( a) g g \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
     smi -- luj se nad ná -- mi.
 
-    \Verse Ty, kte -- rýs byl pod -- dán Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+    \Verse Ty, kte -- rý ses na -- ro -- dil z_Pan -- ny Ma -- ri -- e,_*
     \Response smi -- luj se nad ná -- mi.
 
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
+    fial = "responsoria.ly#1ne-rch?jiny_vers"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -235,7 +249,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 e f g f a( g) g \barMin
+    a a a g f g( a) g g \barMaior
+    d d( f) d c c( d) d \barFinalis
   }
   \addlyrics {
     Za -- zá -- řil nám den spá -- sy,
@@ -244,18 +260,20 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 110"
+    placet = "zkusit i nějaké 'exaltovanější' varianty"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a( g a) g \barMin
+    f g( a) g f e e \barFinalis
   }
   \addlyrics {
     Bůh se -- slal
@@ -263,8 +281,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 115"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -272,9 +290,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a a a g a a \barMin
+    c c b( c a) \barMaior
+    c c c d( e) d c( d c a) a \barMin
+    c b a g a( g) g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám Král krá -- lů,
@@ -285,8 +307,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}

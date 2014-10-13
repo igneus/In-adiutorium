@@ -267,6 +267,7 @@ tIIctvrtekNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 11"
+    placet = "chybí frázování"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

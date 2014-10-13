@@ -116,6 +116,7 @@
     modus = "II"
     differentia = "A"
     psalmus = "Iz 40"
+    placet = "u této si nakonec nejsem jist, že přeřazení z modu IV do II bylo namístě"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -178,6 +179,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 79"
+    placet = "má upravený text; nápěv by ale pravděpodobně šlo upravit pro přesné oficiální znění"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

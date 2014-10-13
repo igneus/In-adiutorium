@@ -19,7 +19,7 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 \usepackage[show]{ed} % editorial annotations
-\usepackage[backend=biber]{biblatex} % bibliography
+\usepackage[backend=biber,style=verbose-trad1]{biblatex} % bibliography
 
 \usepackage[T1]{fontenc}
 % font Bookman:
@@ -30,6 +30,9 @@
 \input{hyphenation.tex}
 \input{znacky.tex}
 \input{generovane/zaltar/versiky.tex}
+
+
+\bibliography{bibliografie_admc}
 
 
 \title{Antifonář k Denní modlitbě církve - Úvod}
@@ -63,10 +66,6 @@
 
 \pagestyle{fancy}
 
-\begin{todo}{}
-* bibliografie
-\end{todo}
-
 \section*{Poznámka}
 
 Tento dokument se později stane úvodem k prvnímu svazku Antifonáře.
@@ -77,7 +76,7 @@ již teď, zveřejňujeme ho prozatím samostatně.
 
 Jako antifonář (\emph{antiphonale, antiphonarium, liber antiphonarius})
 se zpravidla
-označuje kniha užívaná při liturgii hodin, v níž jsou obsaženy
+označuje kniha užívaná při oficiu, v níž jsou obsaženy
 melodie těch zpěvů, které mají vlastní originální nápěv
 (oproti žalmům a kantikům, zpívaným na omezené množství
 jednoduchých nápěvů), zejm. antifony.
@@ -92,7 +91,7 @@ Antifonář k Denní modlitbě církve z více důvodů není takovým
 doplňkem k již existujícím liturgickým knihám, který umožní
 slavení úplně zpívané liturgie hodin chórovým způsobem.
 
-\section{Knihy pro slavení Denní modlitby církve se zpěvem}
+\section{Knihy pro slavení denní modlitby církve se zpěvem}
 
 Výše naznačená koncepce Antifonáře k Denní modlitbě církve
 počítá s využitím dalších knih:
@@ -107,13 +106,13 @@ Vedle dvou oficiálních českých hymnářů uvádíme i hymnář latinský,\ed
 jenž však samozřejmě neobsahuje hymny pro svátky vlastní kalendáři
 českých a moravských diecézí.
 
-Česká liturgická komise: Denní modlitba církve. Hymny, Praha 1989.
+\cite{hymnarcerveny}
 
-Denní modlitba církve. Hymny a básnické modlitby, Praha: Zvon 1993.
+\cite{hymnarzeleny}
 
-Liber hymnarius cum invitatoriis et aliquibus responsoriis, Solesmis 1983.\edissue{citace vysázet pěkněji}
+\cite{lhymnarius}
 
-\section{Uspořádání Denní modlitby církve\footcite[velké části jsou převzaty doslovně nebo volně z ][583nn]{dmci}}
+\section{Uspořádání Denní modlitby církve}
 
 \subsection{Uvedení do první modlitby dne / invitatorium}
 
@@ -141,160 +140,109 @@ Tento úvod se vynechává, předcházelo-li uvedení do první modlitby dne.
 
 Hymnus z \bookRef{hymnáře}.
 
+\section{Interpretace chorálních melodií}
+
+Chorální notace se od zápisu not v posledních staletích většinově
+užívaného liší tím, že neudává takt ani délku
+jednotlivých not.
+
+Chorální melodie by měly být především oporou textu.
+Rytmus je dán rytmem řeči, není tedy vázaný, ale volný. 
+
+Délka not zčásti odpovídá
+přirozené délce té které slabiky v mluveném projevu, někdy
+je v notách naznačeno prodloužení.
+
+Dělící čáry (\emph{divisiones}) různé délky rozdělují zpěv na části (obvykle
+souhlasící s logickým dělením textu); bývá vhodné interpretovat je
+jako krátké pomlky.
+
+Žádoucí prodloužení je vyznačeno tečkou za notou (\emph{punctum mora})
+nebo horizontální čárkou nad/pod notou (\emph{transversum episema}).
+Často bývá vhodné prodloužit jednu nebo dvě závěrečné noty oddílu.
+Tam prodloužení obvykle v notaci nevyznačujeme a přenecháváme je citu
+interpreta.
+
+Výška not je zásadně relativní a počítá se s tím, že interpret
+bude vždy nebo téměř vždy transponovat do své polohy. (Např. autor
+těchto řádků, zpívá-li sám, transponuje všechny zpěvy tak, aby tenor - tón,
+na němž se zpívají recitační části psalmodie - byl mezi e a fis,
+popř. g, když např. antifona 8. modu vyžaduje větší rozsah směrem dolů.)
+
+Níže je příklad antifony v chorální notaci a návrh její interpretace
+zapsaný v notaci moderní.
+
+\simpleScore{#notace-1-choral}
+
+\simpleScore{#notace-1-modern}
+
 \section{Chorální psalmodie}
 
-\subsection{Čtení}
-
-Rád bych těm, kdo nemají zkušenost s latinskou chorální psalmodií,
-nabídl jednoduché uvedení do zpěvu žalmů podle textů
-Antifonáře k Denní modlitbě církve.
-
 Chorální psalmodie je jednoduchý recitativ s malou melodickou
-ozdobou na začátku (při zpěvu žalmů se zpívá
-pouze na začátku prvního verše, při zpěvu kantik z evangelií
-se zpívá na začátku každého verše), v polovině a na konci verše.
-Některé verše mají první poloverš rozdělený ještě jednou
-melodickou ozdobou, tkzv. flexou.
+ozdobou na začátku, v polovině a na konci verše.
+Některé verše mají první poloverš z praktických důvodů
+rozdělený ještě jednou melodickou ozdobou, tkzv. flexou.
 
 V textech breviáře je polovina verše označena hvězdičkou,
-flexa "křížkem".
+flexa \uv{křížkem}.
 
 Existuje devět základních chorálních nápěvů
-psalmodie\footnote{Výzkum dějin gregoriánského chorálu mě v tomto
-bodě obžalovává z nedovoleného zjednodušení. Nové chorální knihy
-ze Solesmes, např. Psalterium monasticum (1981) užívají
-více starých rekonstruovaných nápěvů. Já jsem ale pro potřeby
-Antifonáře k Denní modlitbě církve podržel systém devíti tonů,
-jak byl známý a užívaný v liturgických knihách v 1. polovině 20. století.}.
-Osm jich odpovídá osmi modům středověké hudby, devátý je poněkud
-výjimečný.
+psalmodie\footnote{kdo zná novější edice gregoriánského chorálu a chtěl
+by protestovat, ať přejde do oddílu, kde volbu systému psalmodie zdůvodňujeme}.
+Osm odpovídá osmi modům středověké západní hudební teorie, devátý,
+\emph{tonus peregrinus}, je poněkud výjimečný.
 
-K některým nápěvům existuje větší množství zakončení (tkzv.
-differentiae), která umožňují přizpůsobení žalmu antifoně.
-(Poslední tón žalmu by měl umožnit plynulý přechod k antifoně.)
+K některým nápěvům existuje větší množství zakončení verše (\emph{differentiae}),
+která umožňují přizpůsobení žalmu antifoně.
+(Poslední tón žalmového nápěvu by měl umožnit plynulý přechod k antifoně.)
 
 Melodické ozdoby recitativu jsou vázány na přízvuky
 přednášeného textu.
 Přízvuky jsou v tabulce
 nápěvů vyznačeny šikmými čárkami nahoře nad osnovou, v tomto úvodu je
 budu značit svislými čárkami přímo pod notami.
-V textu antifonáře na melodicky významný přízvuk upozorňuje
-podtržení slabiky.
-
-\simpleScore{#1}
-
-Zde je vzorec pro nápěv psalmodie užívaný
-v kompletáři.\footnote{
-Neodpovídá žádnému z devíti standardních obsažených
-v tabulce. Pochází z Antiphonale Romanum 1913, kde byl určen
-ke zpěvu žalmů bez antifony. Tento způsob zpěvu
-žalmů současná Denní modlitba církve nezná - je ale zachován
-v oficiu některých mnišských komunit - mj. v benediktinském
-kompletáři. Tonálními charakteristikami přísluší k modu II.}
-
-Následující text je vzat z žalmu 91, který se modlíme
-v kompletáři po 2. nešporách neděle. Všimneme si, že
-některé slabiky jsou podtržené. To jsou právě slabiky s přízvukem
-důležitým pro zpěv žalmu.\footnote{Chorální nápěvy byly
-konstruovány pro latinu, nikoli pro češtinu, a přízvučná struktura
-českého jazyka jim odpovídá pouze částečně. Proto jsem musel
-označit řadu umělých přízvuků, které neodpovídají skutečnému
-hlavnímu přízvuku slova. Někdy se mi nepodařilo vyhnout se
-přitom velké násilnosti na mém rodném jazyce...
-Němci mají na základě gergoriánských nápěvů postavené
-vlastní nápěvy plně respektující vlastnosti německého jazyka -
-bylo by velice žádoucí udělat něco podobného i pro nás.}
-Dále je hodné povšimnutí rozdělení textu na odstavce.
-To zde plní podobnou funkci jako červené pomlčky v textu
-breviáře - dělí text žalmu na malé relativně uzavřené logické
-celky, po kterých je možné vkládat antifonu, pokud je žalm
-zpíván responsoriálně (tj. tak, že jeden zpívá žalm a
-ostatní odpovídají antifonou).
-
-\begin{quote}
-Kdo přebýváš v ochraně Nejvyš\underline{ší}ho,~*
-kdo dlíš ve stínu Všemoc\underline{né}ho,
-
-řekni Hospodinu: "Mé útočiště jsi a \underline{má} tvrz,~*
-můj Bůh, v něhož \underline{dou}fám!"
-\\
-
-Neboť on tě vysvobodí z léčky \underline{ptáč}níka,~*
-ze zhoubného \underline{mo}ru.
-
-Ochrání tě svými peru\underline{tě}mi,~+
-uchýlíš se pod jeho \underline{kříd}la,~*
-štít a pavéza je věrnost \underline{je}ho.
-
-Nemusíš se bát noční \underline{hrů}zy,~*
-šípu létajícího \underline{ve} dne,
-
-moru, který se plíží \underline{ve} tmě,~*
-nákazy, jež pustoší o po\underline{led}nách.
-\end{quote}
-
-U melodických ozdob je třeba dávat pozor na slabiky předcházející
-přízvuku. U našeho nápěvu začíná ozdoba poloviny verše jednu
-slabiku před přízvukem, zakončení dvě slabiky před přízvukem.
-Flexa spočívá v prostém poklesnutí slabik po přízvuku
-bezprostředně následujících.
-
-První verš žalmu má, jak bylo výše řečeno, narozdíl od ostatních
-veršů ozdobu také na začátku. Ta není nijak vázaná na přízvuky:
-
-\simpleScore{#2}
-
-Z následujících dvou veršů stojí za povšimnutí polovina druhého
-("z léčky ptáčníka"), kde za přízvukem následují ještě dvě slabiky,
-zatímco předchozí verše měly na tomto místě jen jednu.
-Taková možnost přizpůsobení nápěvu slovům žalmu naznačují
-ve vzorci nápěvu noty v závorkách. (Ve vzorcích zapsaných
-v kvadratické notaci pak zpravidla duté noty.)
-
-\simpleScore{#3}
-
-Následuje příklad verše s flexou.
-
-\simpleScore{#4}
-
-\subsection{Přednes}
-
-Chorální notace se od zápisu not v posledních staletích většinově
-užívaného liší tím, že neudává stálý rytmus ani přesnou délku
-jednotlivých not.
-
-Chorální melodie by měly být především oporou textu.
-Rytmus je dán rytmem řeči. Délka not zčásti odpovídá
-přirozené délce té které slabiky v mluveném projevu, někdy
-je v notách naznačeno prodloužení.
+\begin{todo}{}
+volbu značky pro přízvuk ještě dořešit.
+Čárka je ve skutečnosti latinský přízvuk, tedy něco nečeského.
+Čárka pod notou evokuje v normálním hudebníkovi staccatissimo
+a v choralistovi ictus, což také není právě šťastné.
+Je tu sémanticky korektní normální hudební značka pro přízvuk (většítko)?
+\end{todo}
+Pro zpěv žalmů jsou významné poslední dvě přízvučné slabiky každého verše.
+Ty jsou proto v antifonáři označeny podtržením.
 
 \section{Zásady uplatňované při značkování textu}
 
 Chorální nápěvy psalmodie, pro jejichž zpěv jsou texty antifonáře označkovány,
-jsou spjaty s latinským jazykem. Latina má jiné harakteristiky než čeština
+jsou spjaty s latinským jazykem. Latina má jiné charakteristiky než čeština
 a české texty proto někdy nelze na chorální nápěvy zpívat bez jistého
-většího nebo menšího "bezpráví".
+většího nebo menšího \uv{bezpráví}.
 
 Pro nápěvy psalmodie jsou významné jeden nebo dva poslední přízvuky
 poloverše. Po každém z těchto přízvuků může následovat jedna nebo dvě
 nepřízvučné slabiky.
 
-Při určování přízvuků významných pro psalmodii jsem používal následující
-pravidla:
+Při určování přízvuků významných pro psalmodii byla uplatňována 
+následující pravidla:
 
-1. Přirozený přízvuk leží v češtině na první slabice slova. Předchází-li slovu
-jednoslabičná předložka (ve, ze, pod a podobně), přebírá přízvuk ona.
+\begin{enumerate}
 
-\begin{quote}
-  Nenávidíš \underline{kaž}dého \underline{zlo}čince,~*
-  hubíš \underline{všech}ny \underline{lhá}ře.
-\end{quote}
+\item Přirozený přízvuk leží v češtině na první slabice slova.
 
-Je-li to možné, dávám vždy přednost přirozeným přízvukům.
+  \begin{quote}
+    Nenávidíš \underline{kaž}dého \underline{zlo}čince,~*
+    hubíš \underline{všech}ny \underline{lhá}ře.
+  \end{quote}
 
-2. Vedlejší přízvuky ve slově delším než dvě slabiky kladu (svévolně -
-to v jazyce samém nemá žádnou oporu) na liché slabiky - tedy na slabiku
-třetí, pátou.
+\item Jednoslabičná předložka tvoří jediný rytmický celek
+  s následujícím slovem - přebírá jeho přízvuk.
+
+\item Slůvko \uv{se} tvoří rytmický celek s předcházejícím slovem.
+
+\item Vedlejší přízvuky ve slově delším než dvě slabiky leží na všech
+  dalších lichých slabikách.
+
+\end{enumerate}
 
 Problematické je, končí-li část verše sérií jednoslabičných slov - pak často
 nejde najít žádné elegantní řešení.
@@ -307,11 +255,98 @@ nebo \uv{To je pokolení těch, \underline{kdo} po něm \underline{tou}ží} (Ž
 Zmínit nedořešené problémy s jednoslabičnými slovy.
 (Třeba přízvuk na "se" je opravdu zcela nepřirozený, a občas jsem byl nucen
 ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
+
+Další nedořešený problém je s výraznými složeninami.
 \end{todo}
 
-\section{Interpretace chorálních melodií}
-
 \section{Společné nápěvy}
+
+\section{Některá koncepční rozhodnutí}
+
+\subsection{Psalmodie podle starších chorálních knih}
+
+Pro zpěv žalmů byly zvoleny nápěvy obvyklé v římských chorálních knihách
+první polovině 20. století.
+Knihy vydávané v Solesmes v posledních cca 30 letech mají jiný výběr
+nápěvů psalmodie. Některé z našich chybí, další jsou v systému jinak
+zařazeny, jsou přidány další nápěvy nad rámec systému osmi modů.
+
+To, že projekt In adiutorium staví na starším systému, je podmíněno
+historicky. V době, kdy autor začínal pomýšlet na vlastní zhudebnění
+některých částí oficia, neměl ani potuchy o dějinách chorálu,
+o jejich novodobém výzkumu ani o rozdílech mezi chorálními knihami
+vydanými v průběhu posledního století, a chopil se první tabulky
+žalmových nápěvů, kterou našel. Ta byla připravená podle jednoho z vydání
+Liber Usualis ze 60. let.
+Když později zjistil, že volba této sady nápěvů není zdaleka samozřejmá a
+pravděpodobně není nejlepší, měl již postaveno příliš mnoho,
+než aby se pouštěl do výměny hlavního pilíře podpírajícího celé dílo,
+a zároveň neměl ani takový vhled do aktuálního stavu bádání, aby mohl
+říci, že solesmeské nápěvy jsou skutečně vhodnější, ani porozumění
+za nimi stojící \uv{teorii chorálu}, které by mu umožnilo skládat pro ně
+odpovídající antifony.
+
+% nektere alternativni differentiae zejm. modu III vynechany
+
+% co s alternativni mediaci modu VI?
+
+Pokud o to někdo stojí, jistě může s našimi antifonami používat i jiné
+nápěvy psalmodie, např. zmiňované solesmeské nebo Korejsovy.\edissue{citace článku}
+
+\subsection{Originální skladby místo adaptací latinských předloh}
+
+Nápěvy chorálních liturgických zpěvů jsou v západní církvi chovány ve velké
+úctě a jsou uchovávány (více méně) beze změn.
+Když někde vyprýští touha po liturgickém zpěvu v národním jazyce,
+zcela samozřejmě dochází k pokusům o adaptaci zažitých nápěvů
+používaných pro přednes latinských textů i pro překlad týchž textů do lidové
+řeči. Setkáváme se s tím v památkách liturgického zpěvu českých utrakvistů;
+v mešních zpěvech upravených jezuitskými misionáři pro americké indiány\edissue{citace článku na NLM};
+ve více různých chorálních zhudebněních zpěvů mešního propria,
+která se teď těší určité popularitě ve Spojených státech; ...
+
+\begin{todo}{}
+možná chci zmínit i další:
+* Graduale simplex v holandštině Stevena van Roode
+* anglický antifonář vyvěšený na fóru Musica Sacra
+* Antiphonale monasticum Ormonde Platera
+\end{todo}
+
+Na samém počátku práce na našem zhudebnění zpěvů oficia padlo rozhodnutí
+touto cestou se nevydat.
+Její nepochybnou předností je přiznání se k dvoutisícileté tradici
+západního liturgického zpěvu a zachování jakési hudební jednoty římského
+ritu i přes nejednotu jazykovou.
+Zkušenost však ukazuje, že pokusy o adaptaci původní melodie pro překlad
+téhož textu do jiného jazyka obvykle nepřinášejí příliš uspokojivé výsledky.
+Chorální melodie jsou vytvořené danému textu v daném jazyce na míru.
+Dost dobře nejde s úspěchem je použít pro jazyk, který jinak funguje
+(po stránce rytmu, melodie) a pro vyjádření téhož používá jiná slova.
+Tak je potřeba buďto složitě skládat text překladu tak, aby do zděděné
+melodie zapadl (to je cesta, kterou se dávali čeští utrakvističtí
+překladatelé chorálních zpěvů\footnote{myslí se tu na ty zpěvy, které byly
+skutečnými překlady -- ne na ty, které myšlenku originálu květnatě přebásňovaly
+a z původního melismatického zpěvu dělaly upovídanější sylabický}),
+nebo upravovat melodii při úsilí -- nezřídka marném -- o zachování její
+fundamentální struktury nebo domnělé hlavní myšlenky.
+
+Při vědomí výše zmíněných obtíží jsme se rozhodli přijmout z pokladu
+latinského liturgického zpěvu nápěvy žalmů a většinu \uv{společných nápěvů},
+ale antifony skládat úplně nově, bez ohledu na jakékoli normativní předlohy.
+Ostatně -- pro velkou část antifon pokoncilního breviáře ani žádné
+tradiční melodie, které by bylo možné adaptovat, neexistují.
+
+U několika málo antifon k latinskému originálu z různých důvodů přeci jen
+sáhnuto bylo.
+
+\begin{todo}{}
+vyjmenovat. Ideálně udělat automatickou proceduru, která je vyhledá
+a připraví na ně odkazy.
+\end{todo}
+
+\clearpage
+
+\printbibliography[title=Seznam literatury]
 
 \vfill
 

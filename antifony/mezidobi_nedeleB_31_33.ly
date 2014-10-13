@@ -29,7 +29,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "prospěje zjednodušení, viz podobné"
+    id = "ne31b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -59,7 +60,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne31b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -83,7 +84,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "ne31b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -113,7 +114,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne32b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -135,7 +136,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne32b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -157,7 +158,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ne32b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -181,7 +182,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne33b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -203,7 +204,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "ne33b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -224,7 +225,7 @@
     modus = "I"
     differentia = "D2"
     psalmus = ""
-    id = ""
+    id = "ne33b-2ne-mag"
     fons = "začátek: sobota 2.t., uprostřed dne, 1. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }

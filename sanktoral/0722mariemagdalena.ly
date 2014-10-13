@@ -55,6 +55,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Dan 3-III"
+    placet = "závěr by zasloužil trochu péče"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
@@ -82,6 +83,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 149"
+    placet = "doladit závěry obou částí a jejich vzájemný vztah"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
@@ -116,6 +118,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "přinejmenším odlehčit doxologii"
     id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
@@ -209,6 +212,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Ef 1"
+    placet = "zejm. _Mistře_ zní velmi neautenticky. Ale půjde to lépe?"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }
@@ -235,6 +239,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Magnificat"
+    placet = "závěr je takový divný a zejm. Aleluja je bezpodmínečně reformyhodné"
     id = "ne-amag"
     piece = \markup\sestavTitulekBezZalmu
   }

@@ -276,6 +276,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19A"
+    placet = "_pronikl_ se zpívá špatně, jakoby se láme. 
+    Snad lépe fga fd d nebo jinak bez toho ostrého zlomu."
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -326,6 +328,31 @@
     psalmus = "Žalm 97"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c a) g( f) f( g) g \barMin
+    c b c c( d) c( a) \barMin b a g a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-2ne-amag?+aleluja"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 

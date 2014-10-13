@@ -40,6 +40,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 121"
+    placet = "~"
     id = ""
     piece = \markup {\sestavTitulek}
   }

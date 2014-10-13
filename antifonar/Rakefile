@@ -1,9 +1,11 @@
 # encoding: utf-8
 
+require_relative '../nastroje/rakefile_common'
+
 task :all => [:kompletar, :zaltar, :festzaltar, :nedele, :triduum]
 task :default => [:all]
 
-RUBY_COMMAND = 'ruby' # was: 'ruby1.9.1'
+RUBY_COMMAND = 'ruby'
 PSALM_PREPROCESSOR = 'pslm.rb'
 #PSALM_PREPROCESSOR = File.join Dir.pwd, '..', 'nastroje', 'psalmpreprocessor.rb'
 
@@ -43,23 +45,28 @@ end
 
 task "test_lilypondbook_version" do
   v = `lilypond-book --version`.rstrip
-  if v !~ /^2\.1[67]/ then
+  if v !~ /^2\.19/ then
     STDERR.puts
-    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal works well only with lilypond-book 2.15.x !!! [#{v} found]"
+    STDERR.puts "!!! Expect problems. Compilation of notated parts of the antiphonal tested only with lilypond-book 2.19.x !!! [#{v} found]"
     STDERR.puts
   else
     puts "LilyPond version [#{v}] OK."
   end
 end
 
+def no_ext(fname)
+  fname[0 .. fname.rindex('.')-1]
+end
+
 def swap_ext(fname, newext)
-  return fname[0 .. fname.rindex('.')]+newext
+  no_ext(fname) + '.' + newext
 end
 
 # generates all necessary tasks to compile a booklet using Typographus
-def typographus(main, latex='pdflatex')
+def typographus(main, latex='pdflatex', biblatex=false)
   outdir = 'vystup'
-  typographus = File.join '..', 'nastroje', 'typographus.rb'
+  #typographus = "#{LYV_CMD} tex"
+  typographus = File.join('..', 'nastroje', 'typographus.rb')
   
   main_b = File.basename(main)
   lytex = swap_ext main_b, 'lytex'
@@ -81,7 +88,15 @@ def typographus(main, latex='pdflatex')
     }
     
     chdir outdir
+
     2.times { sh latex_commands[latex] }
+
+    if biblatex then
+      cp '../bibliografie_admc.bib', '.'
+      sh 'biber', no_ext(File.basename(tex))
+      sh latex_commands[latex]
+    end
+
     chdir wd
   end
 

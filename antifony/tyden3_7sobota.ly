@@ -187,6 +187,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 34-I"
+    placet = "na slově _ať_ by nemělo být melisma. Zní tu velmi nepřirozeně."
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

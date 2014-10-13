@@ -95,7 +95,7 @@
     \neviditelna g
     g g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % Slava
-    \doxologieResponsoriumVI
+    \respVIdoxologie
   }
   \addlyrics {
     \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.

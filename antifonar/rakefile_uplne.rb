@@ -8,7 +8,7 @@
 # appended to the volume containing psalter as 'toni communes'
 
 desc "Introduction to the whole set of antiphonal volumes."
-task :uvod => [ typographus('antifonar_uvod.tytex') ]
+task :uvod => [ typographus('antifonar_uvod.tytex', 'pdflatex', true) ]
 
 ##############
 # sv. IV.2 

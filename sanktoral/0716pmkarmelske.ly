@@ -25,6 +25,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "extra mdlá"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

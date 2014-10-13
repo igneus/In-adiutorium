@@ -352,6 +352,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c d c a \barMin
+    g g g( a) f g a g g \barMaior
+    g g g f( a c) d c \barMin
+    c( d) d d a( b) g \barMin f( g) a g g \bar ";"
+
+    f^\markup\small\italic{Vždy kromě doby postní:} g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný jsi, Pa -- ne,
+    ve svém sva -- tém slav -- ném chrá -- mě,
+    kte -- rý je zbu -- do -- ván
+    k_chvá -- le a slá -- vě tvé -- ho jmé -- na.
+
+    % aleluja neni jen v dobe velikonocni, ale vzdy mimo dobu postni!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

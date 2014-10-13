@@ -107,6 +107,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "_pro tebe_ zkusit předělat zcela sylabicky - retardace se tu jeví neústrojná (nebo ne? docela jistý si nejsem)"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
