@@ -362,6 +362,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "cesura po _Boze_ pryc"
       id = "1st-rch"
       piece = \markup\sestavTitulekResp
     }

@@ -48,6 +48,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
+    placet = "poslední část nezní příliš libě a nesnadno se zpívá"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -73,6 +74,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
+    placet = "_andělů_ lépe d e e"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -100,6 +102,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_Panno_ fg g"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -145,6 +148,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 127"
+    placet = "blbá"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -169,6 +173,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
+    placet = "_slavně_ a dál je hrůza, zbytek nic moc"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -194,6 +199,7 @@
       differentia = "a"
       psalmus = ""
       fons = "Narození Páně, ant. v poledne, upraveno dle textu"
+      placet = "předělat s méně křečovitým lpěním na vzorové antifoně"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

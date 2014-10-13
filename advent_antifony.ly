@@ -814,6 +814,7 @@
       psalmus = "invitatorium"
       id = "predvanocni-24-invit"
       piece = \markup {\sestavTitulekBezZalmu}
+      placet = "jde o úryvek z (již opuštěné melodie) jednoho responsoria. Zkusit složit úplně nezávislou antifonu."
       fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
     }
   }
