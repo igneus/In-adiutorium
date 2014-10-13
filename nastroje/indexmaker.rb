@@ -5,7 +5,7 @@ $: << File.dirname(__FILE__)
 
 require 'musicreader.rb'
 
-lyricsmaxsize = 100
+lyricsmaxsize = nil
 print_indices = false
 pieces = []
 
