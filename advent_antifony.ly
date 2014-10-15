@@ -54,7 +54,8 @@
       quid = "ant."
       modus = "III"
       differentia = "c"
-      psalmus = "spol-invit2"
+      psalmus = ""
+      id = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -75,7 +76,8 @@
       quid = "ant."
       modus = "I"
       differentia = "D"
-      psalmus = "spol-invit3"
+      psalmus = ""
+      id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
