@@ -71,6 +71,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 16"
+    placet = "nic moc; zvlášť začátek nenechávat"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -91,6 +92,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "bída"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -129,6 +131,7 @@
       differentia = "a"
       psalmus = "Žalm 118"
       id = "ne-rch-a1"
+      placet = "poslední dvě puncta nejsou potřeba"
       fons = "předvánoční týden, řada antifon k žalmům, úterý, 2. ant."
       fial = "fial://advent_antifony.ly#predvanocni-zlm-ut-a2"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -153,6 +156,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-II"
+    placet = "druhá část je neelegantně napojená; navíc celá k první moc nepasuje"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -175,6 +179,9 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
+    placet = "rytmus a melodie _zazáří_ nejsou české
+    (a na tak prominentním místě to je problém);
+    celá antifona pak tak nějak nedrží pohromadě"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }

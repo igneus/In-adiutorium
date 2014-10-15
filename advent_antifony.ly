@@ -55,6 +55,7 @@
       modus = "III"
       differentia = "c"
       psalmus = ""
+      placet = "nic moc"
       id = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -77,6 +78,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "zkusit alternativy"
       id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -100,6 +102,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "nic moc"
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
