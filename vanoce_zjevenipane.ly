@@ -20,8 +20,8 @@
   }
   \addlyrics {
     Náš Pán
-    s Spa -- si -- tel
-    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
     se dnes zje -- vil svě -- tu.
   }
   \header {
