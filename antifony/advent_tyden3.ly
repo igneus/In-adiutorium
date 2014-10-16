@@ -151,6 +151,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 148"
+    placet = "asi by šla lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -173,6 +174,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
+    placet = "druhá část není hezká a zbytečně zvětšuje rozsah"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -219,6 +221,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "s tou si alespoň zkusit trochu pohrát"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
