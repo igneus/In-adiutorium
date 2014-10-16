@@ -489,5 +489,4 @@
 
 \markup\justify\italic{
   Sobota má texty z příslušného dne v předvánočním týdnu.
-  (Totéž platí pochopitelně i pro ferie 4. adventního týdne.)
 }

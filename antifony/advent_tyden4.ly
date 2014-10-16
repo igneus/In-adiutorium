@@ -227,3 +227,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\justify\italic{
+  Férie 4. adventního týdne mají texty z příslušných dnů
+  v předvánočním týdnu.
+}
