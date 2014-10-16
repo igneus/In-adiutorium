@@ -449,9 +449,10 @@
 \markup {\nadpisDen {Pátek 3. týdne}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) a( g) g \barMin f g a( c) a a c( d) c b a a \barMaior
+    a a g a c b g g \barFinalis
   }
   \addlyrics {
     Jed -- nej -- te po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
@@ -459,8 +460,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
