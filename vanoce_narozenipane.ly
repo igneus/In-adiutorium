@@ -1617,7 +1617,8 @@
       \choralniRezim
       g4 f g g( a) a a c( b) a( g) g \barMax
 
-      \repeat unfold 2 { g4( a b c) b4.( a) \barMin }
+      g4( a b c) b4.( a) \barMin
+      g4( a b c) b4.( a) \barMin
       a4( e g a) a a b( a) \barMin
       g( a) f e e \barMax
 
