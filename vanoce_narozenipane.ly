@@ -2007,6 +2007,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 99"
+      fial = "vanoce_zjevenipane.ly#1ne-a1"
       id = "bohorodicka-mc-a3"
       piece = \markup {\sestavTitulek}
     }
