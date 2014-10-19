@@ -1688,7 +1688,9 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 d c e d c d \barMin
+      c d e f4. e \barMaior
+      d4 d c a a c c( d) d d \barFinalis
     }
     \addlyrics {
       Ra -- duj -- te se, ne -- be -- sa,
@@ -1698,8 +1700,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 96"
       id = "31-mc-a1"
       piece = \markup {\sestavTitulek}
@@ -1730,18 +1732,21 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      g4( a) a( g) g \barMin
+      f g a a g g c b( a g a) a \barMin
+      g f g g \barFinalis
     }
     \addlyrics {
-      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      Hos -- po -- din
+      u -- ve -- dl ve zná -- most svou spá -- su.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = ""
+      modus = "VIII"
+      differentia = "G"
       psalmus = "Žalm 98"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
