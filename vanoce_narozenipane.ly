@@ -1450,16 +1450,17 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 d d d( f) d f g f d d \barMaior
+      f f f e( d c) \barMin a c d d( e) d c d d \barFinalis
     }
     \addlyrics {
-      Pán bu -- de vlád -- nout od mo -- ře k mo -- ři
+      Pán bu -- de vlád -- nout od mo -- ře k_mo -- ři
       a v_je -- ho dnech roz -- kve -- te hoj -- nost po -- ko -- je.
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 72-I"
       id = "29-mc-a2"
       piece = \markup {\sestavTitulek}
@@ -1469,7 +1470,8 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      f4 e d c c c( d) d d \barMaior
+      d c d d f e d f d d \barFinalis
     }
     \addlyrics {
       Pán vy -- svo -- bo -- dí chu -- dá -- ka,
@@ -1477,9 +1479,14 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 72-II"
+      notitia = "vím o antifoně, jejíž první část má shodný text:
+      pust_triduum.ly#ct-nesp-ant2
+      výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
+      protože melodie dané části příliš silně tíhne k rozuzlení v části
+      následující, pro kterou tady nemáme text"
       id = "29-mc-a3"
       piece = \markup {\sestavTitulek}
     }
