@@ -1556,9 +1556,10 @@
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      g4 g a g f a b c \barMin
+      c a a a a( c) b g g \barFinalis
     }
     \addlyrics {
       Věr -- nost vy -- pu -- čí ze ze -- mě,
@@ -1566,8 +1567,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = ""
+      modus = "VIII"
+      differentia = "G"
       psalmus = "Žalm 85"
       id = "30-mc-a1"
       piece = \markup {\sestavTitulek}
@@ -1596,9 +1597,10 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4 g f a( b) c \barMin c c d c b g g \barMaior
+      a( d c) b( g) a \barMin g f g( a) a g g \barFinalis
     }
     \addlyrics {
       U -- sta -- no -- vil jsem své -- ho vy -- vo -- le -- né -- ho
@@ -1606,8 +1608,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = ""
+      modus = "VIII"
+      differentia = "G*"
       psalmus = "Žalm 89-II"
       id = "30-mc-a3"
       piece = \markup {\sestavTitulek}
