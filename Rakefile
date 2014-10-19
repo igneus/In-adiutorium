@@ -76,8 +76,10 @@ namespace :sanity do
               Dir['kantikum-*.ly'] + Dir['zalm*.ly'] + Dir['invitatorium*.ly'] +
               Dir['Korejs*.ly'])
 
-    sh "#{LYV_CMD} lengthcheck #{files.join ' '} "+\
-    "| grep -v resp | grep -v -- '-r'" # leave out responsories
+    Bundler.with_clean_env do # don't set bundler's env vars
+      sh "#{LYV_CMD} lengthcheck #{files.join ' '} "+\
+      "| grep -v resp | grep -v -- '-r'" # leave out responsories
+    end
   end
 
   task :all => [:length]

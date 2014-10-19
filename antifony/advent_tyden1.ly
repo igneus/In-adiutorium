@@ -19,6 +19,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 141"
+    placet = "zkusit alternativy"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -305,6 +306,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 114"
+    placet = "jako by skutečnou finálou bylo a"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }

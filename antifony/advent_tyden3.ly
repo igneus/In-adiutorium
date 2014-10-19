@@ -151,6 +151,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 148"
+    placet = "asi by šla lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -173,6 +174,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
+    placet = "druhá část není hezká a zbytečně zvětšuje rozsah"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -219,6 +221,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "s tou si alespoň zkusit trochu pohrát"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -446,9 +449,10 @@
 \markup {\nadpisDen {Pátek 3. týdne}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4( g a) a( g) g \barMin f g a( c) a a c( d) c b a a \barMaior
+    a a g a c b g g \barFinalis
   }
   \addlyrics {
     Jed -- nej -- te po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
@@ -456,8 +460,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -486,5 +490,4 @@
 
 \markup\justify\italic{
   Sobota má texty z příslušného dne v předvánočním týdnu.
-  (Totéž platí pochopitelně i pro ferie 4. adventního týdne.)
 }

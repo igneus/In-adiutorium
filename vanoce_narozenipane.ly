@@ -1317,6 +1317,8 @@
 
   \markup {\nadpisDen {26. prosince}}
 
+  \markup {\nadpisHodinka {"nešpory"}}
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1351,6 +1353,8 @@
 
   \markup {\nadpisDen {27. prosince}}
 
+  \markup {\nadpisHodinka {"nešpory"}}
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1382,6 +1386,8 @@
   }
 
   \markup {\nadpisDen {28. prosince}}
+
+  \markup {\nadpisHodinka {"nešpory"}}
 
   \score {
     \relative c' {
@@ -1417,6 +1423,76 @@
   }
 
   \markup {\nadpisDen {29. prosince}}
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c b a4.) a4 a g b c b a a \barMaior
+      c4 b( c) a( g) g \barMin g4 f a g g \barFinalis
+    }
+    \addlyrics {
+      S_ná -- mi je Hos -- po -- din zá -- stu -- pů,
+      Bůh Ja -- ku -- bův je na -- ší tvr -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 46"
+      fial = "antifony/tyden1_6patek.ly#ne-ant2"
+      id = "29-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d( f) d f g f d d \barMaior
+      f f f e( d c) \barMin a c d d( e) d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán bu -- de vlád -- nout od mo -- ře k_mo -- ři
+      a v_je -- ho dnech roz -- kve -- te hoj -- nost po -- ko -- je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-I"
+      id = "29-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 e d c c c( d) d d \barMaior
+      d c d d f e d f d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      notitia = "vím o antifoně, jejíž první část má shodný text:
+      pust_triduum.ly#ct-nesp-ant2
+      výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
+      protože melodie dané části příliš silně tíhne k rozuzlení v části
+      následující, pro kterou tady nemáme text"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
     \relative c'' {
@@ -1477,6 +1553,71 @@
 
   \markup {\nadpisDen {30. prosince}}
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a g f a b c \barMin
+      c a a a a( c) b g g \barFinalis
+    }
+    \addlyrics {
+      Věr -- nost vy -- pu -- čí ze ze -- mě,
+      spra -- ve -- dl -- nost shléd -- ne z_ne -- be.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 85"
+      id = "30-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( c d) d( c) c \barMin bes c d f e d( c) c \barMaior
+      d( c d f) f( g) \barMin f d c c( d) d \barFinalis
+    }
+    \addlyrics {
+      U -- zře -- ly všech -- ny kon -- či -- ny ze -- mě
+      spá -- su na -- še -- ho Bo -- ha.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 89-I"
+      fial = "mezidobi_nejsvsrdce.ly#mc-a3"
+      id = "30-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f a( b) c \barMin c c d c b g g \barMaior
+      a( d c) b( g) a \barMin g f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+
   \markup\justify {Následující antifona si vypůjčuje kousek
   melodie (Svatý...) z chorálního Te Deum.}
 
@@ -1485,7 +1626,8 @@
       \choralniRezim
       g4 f g g( a) a a c( b) a( g) g \barMax
 
-      \repeat unfold 2 { g4( a b c) b4.( a) \barMin }
+      g4( a b c) b4.( a) \barMin
+      g4( a b c) b4.( a) \barMin
       a4( e g a) a a b( a) \barMin
       g( a) f e e \barMax
 
@@ -1540,6 +1682,78 @@
   }
 
   \markup {\nadpisDen {31. prosince}}
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c e d c d \barMin
+      c d e f4. e \barMaior
+      d4 d c a a c c( d) d d \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 96"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
+      g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barMaior
+      f g( f) e( f) e \barFinalis
+    }
+    \addlyrics {
+      Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
+      a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "III"
+      differentia = "a"
+      psalmus = "Žalm 97"
+      fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
+      id = "31-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a( g) g \barMin
+      f g a a g g c b( a g a) a \barMin
+      g f g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din
+      u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c'' {
@@ -1744,6 +1958,76 @@
       id = "bohorodicka-invit"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
+    }
+  }
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( a' bes) a a c c a bes a \barMin
+      a a a g( f e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+      ať ve -- jde král slá -- vy.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 24"
+      fial = "pust_triduum.ly#so-mc-ant3"
+      id = "bohorodicka-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c d( e d) d \barMin
+      d c b a b a g g \barMaior
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 c4.( a) \barMin
+      a4 b( c) c( b) b \barMaior
+      d c( b) a( b) g f g a f f g g \barMaior
+      a b b( c) g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Náš Pán
+      a Spa -- si -- tel,
+      před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+      se dnes zje -- vil svě -- tu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 99"
+      fial = "vanoce_zjevenipane.ly#1ne-a1"
+      id = "bohorodicka-mc-a3"
+      piece = \markup {\sestavTitulek}
     }
   }
 

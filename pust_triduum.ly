@@ -172,7 +172,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 2"
-    id = ""
+    id = "pa-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -190,7 +190,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 22"
-    id = ""
+    id = "pa-mc-ant2"
     fial = "fial://antifony/tyden3_6patek.ly#up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -211,7 +211,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 38"
-    id = ""
+    id = "pa-mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -530,7 +530,7 @@ jinak zachránit její zpívatelnost.}
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 4"
-    id = ""
+    id = "so-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -552,7 +552,7 @@ jinak zachránit její zpívatelnost.}
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 16"
-    id = ""
+    id = "so-mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -572,7 +572,7 @@ jinak zachránit její zpívatelnost.}
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 24"
-    id = ""
+    id = "so-mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

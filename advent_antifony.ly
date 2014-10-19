@@ -54,7 +54,9 @@
       quid = "ant."
       modus = "III"
       differentia = "c"
-      psalmus = "spol-invit2"
+      psalmus = ""
+      placet = "nic moc"
+      id = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -75,7 +77,9 @@
       quid = "ant."
       modus = "I"
       differentia = "D"
-      psalmus = "spol-invit3"
+      psalmus = ""
+      placet = "zkusit alternativy"
+      id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -98,6 +102,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "nic moc"
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -814,6 +819,7 @@
       psalmus = "invitatorium"
       id = "predvanocni-24-invit"
       piece = \markup {\sestavTitulekBezZalmu}
+      placet = "jde o úryvek z (již opuštěné melodie) jednoho responsoria. Zkusit složit úplně nezávislou antifonu."
       fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
     }
   }

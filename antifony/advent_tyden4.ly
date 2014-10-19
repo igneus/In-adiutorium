@@ -61,6 +61,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Flp 2"
+    placet = "jinak"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -95,6 +96,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "118"
+    placet = "lepší začátek - možná údernější, sylabický"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -145,6 +147,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 150"
+    placet = "první část dopilovat"
     id = "ne-rch-a3"
     fons = "oktáv Narození Páně, 26.12., k Magnificat: 2. část, velmi výrazně upraveno"
     fial = "fial://vanoce_narozenipane.ly#26-amag"
@@ -219,7 +222,13 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "_přinese_ možná lépe a g g"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\markup\justify\italic{
+  Férie 4. adventního týdne mají texty z příslušných dnů
+  v předvánočním týdnu.
 }
