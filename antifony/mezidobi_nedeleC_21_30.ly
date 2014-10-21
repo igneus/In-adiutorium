@@ -674,7 +674,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    fial = "advent_antifony.ly#predvanocni-zlm-po-a3"
+    fial = "antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-po-a3"
     id = "ne29c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
