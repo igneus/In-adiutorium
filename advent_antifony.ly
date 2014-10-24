@@ -39,11 +39,11 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      c4( d) c a b( c) c \barMin
-      d b a g4. g \barMin
-      g4 a f f e( f) e4. e \barFinalis
+      f4 e d f( d) d \barMin
+      c d e f e \barMaior
+      f f( g) f e c d d \barFinalis
     }
     \addlyrics {
       Klaň -- me se Kris -- tu,
@@ -52,10 +52,9 @@
     }
     \header {
       quid = "ant."
-      modus = "III"
-      differentia = "c"
+      modus = "II"
+      differentia = "D"
       psalmus = ""
-      placet = "nic moc"
       id = "spol-invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -66,8 +65,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 c d( f g4.) g \barMin
-      a4( f) e e f d d \barFinalis
+      d4 d f4. c \barMaior
+      d4 f e c d d \barFinalis
     }
     \addlyrics {
       Pán je blíz -- ko,
@@ -75,10 +74,9 @@
     }
     \header {
       quid = "ant."
-      modus = "I"
+      modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "zkusit alternativy"
       id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
