@@ -19,6 +19,9 @@
     modus = "I"
     differentia = "a"
     psalmus = "Magnificat"
+    placet = "začátek si jakoby říká o modus IV;
+    na to, že zpívá o Boží slávě naplňující celý svět, je melodie
+    taková mdlá, možná smutnovážná"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -73,6 +76,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_Maria_ možná spíš bez melis.;
+    závěr zkusit upravit na neoddělené aleluja;
+    na _počneš_ by se hodila melodická ozdoba"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -97,6 +103,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Magnificat"
+    placet = "I.a"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -117,6 +124,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
+    placet = "_aby byly_ je divné"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -131,8 +139,6 @@
     a b c a a \barMaior
     a g f e e \barMin
     e f g f e d4. e \barFinalis
-    % 2012 - asi rok po slozeni - se ptam:
-    % nekoncila by prirozeneji na D? (spadla by tak do modu I)
   }
   \addlyrics {
     Za mnou při -- chá -- zí
@@ -147,6 +153,12 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Magnificat"
+    placet = "cesura po _rozvázal mu_ by nemusela být, ale ani nepřekáží -
+    je volitelná;
+
+    2012 - asi rok po slozeni - se ptam:
+    nekoncila by prirozeneji na D? (spadla by tak do modu I)
+    2014 modus IV mi přijde vhodnější"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -175,6 +187,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "nepěkná a nedrží pořádně pohromadě"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -203,6 +216,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Benedictus"
+    placet = "případ podobný předchozí"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -233,6 +247,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Magnificat"
+    placet = "cesura po _ten_ pryč"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -257,6 +272,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Benedictus"
+    placet = "zaslouží trochu péče; nezapomenout aktualizovat kopie"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
