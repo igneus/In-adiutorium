@@ -316,6 +316,13 @@
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+  
+  \markup\justify{
+    Tuto antifonu jsem před časem označil pro revizi, ale když se ji teď
+    chystám revidovat a zpívám ji, nepřijde mi vůbec špatná a nemám
+    nápad na lepší. Melodie _předpovídali_ je snad trochu neohrabaná,
+    ale oprava není urgentní.
+  }
 
   \score {
     \relative c'' {
