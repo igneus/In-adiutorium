@@ -98,6 +98,7 @@
     differentia = "a"
     quid = "1. ant."
     psalmus = "Žalm 51"
+    placet = "druha divisio at je maior"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -118,6 +119,7 @@
     differentia = "c"
     quid = "2. ant."
     psalmus = "Iz 45"
+    placet = "druha divisio at je maior"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -136,6 +138,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
+    placet = "po _vstupte_ divisio minima"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

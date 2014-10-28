@@ -4,32 +4,6 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-% omylem slozena antifona v C-dur. Zatim schovame "pro strejcka Prihodu"
-%{
-\score {
-  \relative c' {
-    \choralniRezim
-    c4 e d e g e g a g( e) d d \barMaior
-    c c c d c( a) \barMin c d e f g e( d) d \barMin
-    c c( d c) b c d( c) c \barFinalis
-  }
-  \addlyrics {
-    Ra -- duj se a ple -- sej, no -- vý Si -- ó -- ne:
-    při -- chá -- zí tvůj král,
-    je po -- kor -- ný a ti -- chý,
-    a při -- ná -- ší spá -- su.
-  }
-  \header {
-    quid = "1. ant."
-    modus = ""
-    differentia = ""
-    psalmus = "Žalm 119-Nun"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-%}
-
 \score {
   \relative c'' {
     \choralniRezim

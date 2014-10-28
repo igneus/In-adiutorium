@@ -241,6 +241,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 15"
+    placet = "zkusit důstojnější variantu"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

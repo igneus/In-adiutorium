@@ -234,6 +234,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "druhá kvinta sice zní pěkně, ale poměrně obtížně se zpívá"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

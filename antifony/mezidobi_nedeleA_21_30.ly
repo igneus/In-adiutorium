@@ -680,6 +680,7 @@
     differentia = "A"
     psalmus = ""
     annus = ""
+    placet = "differentia d; zkusit, jestli by nebylo lepší v VII. modu"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -751,6 +752,9 @@
     differentia = "g"
     psalmus = ""
     annus = ""
+    placet = "myslím, že je pro autora příznačné, že přikázání
+    lásky k bližnímu oděl do melodie téměř skličující;
+    interpretovat text takto je však již někde na hranici nekřesťanského"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

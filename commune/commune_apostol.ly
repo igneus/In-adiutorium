@@ -381,6 +381,7 @@
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
     fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    placet = "po _navzájem_ div. maior"
     piece = \markup {\sestavTitulek}
   }
 }
