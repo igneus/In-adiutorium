@@ -101,8 +101,8 @@
     a4 a a a a bes a g f f( g) g \barMin
     f g g g g a g a a( bes a) a \barMax
     a d c d4. a \barMin
-    g4( a) f e d4. \barMax
-    d4( a' f) g( f) e( f) d4. \barFinalis
+    g4( a) f e d \barMax
+    d4( a' f) g( f) e( f) d \barFinalis
   }
   \addlyrics {
     Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
