@@ -28,7 +28,7 @@
   }
 }
 
-\markup{omylem slozena antifona v C-dur.}
+\markup{omylem slozena antifona v C-dur:}
 \score {
   \relative c' {
     \choralniRezim
@@ -169,6 +169,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a f g) g \barMin a b c d c( b a g) a( f e) e \barMaior
     a( c) a c d( c a b) a \barMin g a g f a( b) a b g g \barFinalis
@@ -188,6 +189,55 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a f g) g \barMin
+    a b c d \mark\sipka c( b) a a \barMaior
+    c a c b( g) a \barMin
+    c c b a b c a g g \barFinalis
+  }
+  \addlyrics {
+    Zá -- kon
+    byl dán skr -- ze Moj -- ží -- še,
+    mi -- lost a prav -- da
+    při -- sla skr -- ze Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a f g) g \barMin
+    a b c d c( b) a a \barMaior
+    c a c b( g) a \barMin
+    \mark\sipka a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Zá -- kon
+    byl dán skr -- ze Moj -- ží -- še,
+    mi -- lost a prav -- da
+    při -- sla skr -- ze Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -200,40 +250,44 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup{
+  antifona
+  Sión je naše opevněné město ...
+  viz "antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-ut-a2"
+}
+
+\pageBreak
+
 \score {
-    \relative c'' {
-      \choralniRezim
-      \key f \major
-      a4 a a a a bes a g f f( g) g \barMin
-      f g g g g a g a a( bes a) a \barMax
-      a d c d4. a \barMin
-      g4( a) f e d4. \barMax
-      d4( a' f) g( f) e( f) d4. \barFinalis
-    }
-    \addlyrics {
-      Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
-      Spa -- si -- tel je v_něm hrad -- bou a va -- lem:
-      o -- tevř -- te brá -- ny,
-      s_ná -- mi je Bůh.
-      A -- le -- lu -- ja.
-    }
-    \header {
-      quid = "1. ant."
-      modus = "I"
-      differentia = "a"
-      psalmus = "Žalm 118"
-      id = "ne-rch-a1"
-      fons = "předvánoční týden, řada antifon k žalmům, úterý, 2. ant."
-      fial = "fial://advent_antifony.ly#predvanocni-zlm-ut-a2"
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
+    e f g a g f( g) e \barMin d d d f e c c( d) d \barMaior
+    e f e( d) d \barFinalis
   }
+  \addlyrics {
+    Vy všich -- ni, kdo žíz -- ní -- te, pojď -- te k_vo -- dám:
+    hle -- dej -- te Hos -- po -- di -- na,
+    do -- kud je mož -- né ho na -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    placet = "druhá část je neelegantně napojená; navíc celá k první moc nepasuje"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c' {
     \choralniRezim
     d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
-    e f g a g f( g) e \barMin d d d f e c c( d) d \barMaior
+    \mark\sipka d f g a g f( g) e \barMin d d d f e c c( d) d \barMaior
     e f e( d) d \barFinalis
   }
   \addlyrics {
@@ -253,10 +307,87 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
+    \mark\sipka d c d d f c d \barMin f f f g f e d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni, kdo žíz -- ní -- te, pojď -- te k_vo -- dám:
+    hle -- dej -- te Hos -- po -- di -- na,
+    do -- kud je mož -- né ho na -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
+    d c d d f c d \barMin f f f g f e d \mark\sipka c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni, kdo žíz -- ní -- te, pojď -- te k_vo -- dám:
+    hle -- dej -- te Hos -- po -- di -- na,
+    do -- kud je mož -- né ho na -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f d f g f d d \barMaior
     d c( d) f( d c4.) a \barMin g4 a c b g a( g) g \barMaior
+    f f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    placet = "rytmus a melodie _zazáří_ nejsou české
+    (a na tak prominentním místě to je problém);
+    celá antifona pak tak nějak nedrží pohromadě"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    % první část první verze nebyla špatná, ale zbytečně roztahovala rozsah
+    d4 c d e d f e c d d \barMaior
+    a c( d) c( d) d \barMin c b a c b g g \barMaior
     f f f( g) g \barFinalis
   }
   \addlyrics {
@@ -273,6 +404,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
