@@ -129,6 +129,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "_křivého_ by stačilo ef g g nebo podobně"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }

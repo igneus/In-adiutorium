@@ -199,6 +199,7 @@
     differentia = "G"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
+    placet = "podle potřeby aktualizovat ze zdroje"
     fons = "neděle 3. adv.t., r.ch., 2.a., 2.-4. část doslova"
     fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2"
     piece = \markup {\sestavTitulek}
