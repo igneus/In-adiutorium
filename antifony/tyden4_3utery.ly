@@ -98,6 +98,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 101"
+    placet = "opravit divisiones"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -134,6 +135,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 144"
+    placet = "není špatná, ale přeci zkusit lépe"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

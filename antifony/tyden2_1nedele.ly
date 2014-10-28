@@ -241,6 +241,7 @@ tIInedeleInespAntIII = \score {
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 23"
+    placet = "asi by spíš neměla takto zůstat"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

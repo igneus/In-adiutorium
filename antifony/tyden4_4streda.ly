@@ -120,6 +120,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Iz 61"
+    placet = "první divisio udělat maior"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

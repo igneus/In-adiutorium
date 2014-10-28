@@ -218,6 +218,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 136-I"
+    placet = "melisma na milo_sr_denství je dvojnásob nevhodné -
+    slabice nesluší důraz a slabika sr se špatně tento..."
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
