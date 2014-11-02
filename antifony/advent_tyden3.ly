@@ -112,7 +112,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
-    f f d d( e f) g g \barMin a g a( c) b a( g) a \barMaior
+    f f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
     a b c b c c \barMin b c a g g \barMax
     g( a g d) g( a) a \barMin c d c a g \barMaior
     f f f( g) g \barFinalis
@@ -129,18 +129,17 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    placet = "_křivého_ by stačilo ef g g nebo podobně"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a a \barMin c d c a( g a) a \barMaior
-    c d c b g g \barMin a g a f f \barMaior
-    f e( g) f f \barFinalis
+    g4 c b( g) a \barMin f g a g g \barMaior
+    c c( d e) c b a a \barMin g f g( a) a( g) g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa
@@ -149,10 +148,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 148"
-    placet = "asi by šla lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -163,19 +161,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c b) a( g) a \barMin
-    g f e d c d e e f a g g \barFinalis
+    c4 b( g) a( b) g \barMaior
+    a g f g a c a a \barMin
+    b a g g \barFinalis
   }
   \addlyrics {
     Hle, Pán při -- jde,
-    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
+    za -- sed -- ne me -- zi kní -- ža -- ty
+    na trůn slá -- vy.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 110"
-    placet = "druhá část není hezká a zbytečně zvětšuje rozsah"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
