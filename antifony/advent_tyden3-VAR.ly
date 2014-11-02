@@ -195,7 +195,7 @@
   \relative c'' {
     \choralniRezim
     c4 a c( d) d( c) \barMin a g a( c b) g g \barMaior
-    
+
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa
@@ -260,7 +260,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c c b g a a( g) g \barMaior
-    
+
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa
@@ -304,7 +304,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g( a) g \barMin f g a g g \barMaior
-    
+
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa
@@ -327,6 +327,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c b) a( g) a \barMin
     g f e d c d e e f a g g \barFinalis
@@ -341,6 +342,72 @@
     differentia = "G"
     psalmus = "Žalm 110"
     placet = "druhá část není hezká a zbytečně zvětšuje rozsah"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( g) a( g) g \barMaior
+    f g a c b c a a \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( g) a( \mark\sipka b) g \barMaior
+    f g a c b c a a \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty
+    na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b( g) a( b) g \barMaior
+    \mark\sipka a g f g a c a a \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty
+    na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -370,6 +437,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -390,6 +459,54 @@
     differentia = "F"
     psalmus = "Zj 19"
     placet = "s tou si alespoň zkusit trochu pohrát"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a f e d d \barMaior
+    f g f bes a g f g \barMin
+    g f g \mark\sipka a f f e( f) f \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    % a přitom očekávejme v blažené naději % ne, to zní hrozně; to bych se styděl i vyslovit - natož pro to hledat nápěv...
+    % pří -- chod na -- še -- ho Pá -- na.
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a f e \mark\sipka f f \barMaior
+    f g f bes a g f g \barMin
+    g f g a g a f f \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    % a přitom očekávejme v blažené naději % ne, to zní hrozně; to bych se styděl i vyslovit - natož pro to hledat nápěv...
+    % pří -- chod na -- še -- ho Pá -- na.
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
