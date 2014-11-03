@@ -9,7 +9,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f d c d) e( f) f 
+    d4( f d c d) e( f) f
     f g( f) d d4 \barMin
     f4( e) c4.( d) \barFinalis
   }
@@ -19,7 +19,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -37,7 +37,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -55,7 +55,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -73,7 +73,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -91,7 +91,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -109,7 +109,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -127,7 +127,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -145,7 +145,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -164,7 +164,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -174,9 +174,9 @@
 \pageBreak
 
 \markup\nadpisSkupiny{1}
-\markup\large\italic{master:}
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \breathe
@@ -189,7 +189,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -213,7 +213,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -235,7 +235,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -256,7 +256,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -281,7 +281,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -303,7 +303,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -327,7 +327,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -349,7 +349,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "b" 
+    differentia = "b"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -362,7 +362,7 @@
   \relative c'' {
     \choralniRezim
     d4( e d) c( d) d \barMin a a d c b a( g) a \barMaior
-    
+
   }
   \addlyrics {
     Ve -- le -- bí má du -- še Hos -- po -- di -- na,
@@ -371,7 +371,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -385,7 +385,7 @@
     \choralniRezim
     \key f \major
     f4( a c) d( c) c \barMin a a c bes a g g \barMaior
-    c d c( bes a) a \barMin c bes c c bes a g a f f \barFinalis    
+    c d c( bes a) a \barMin c bes c c bes a g a f f \barFinalis
   }
   \addlyrics {
     Ve -- le -- bí má du -- še Hos -- po -- di -- na,
@@ -394,7 +394,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -415,7 +415,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -437,7 +437,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -458,7 +458,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -480,7 +480,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -500,7 +500,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -520,7 +520,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -547,7 +547,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -557,17 +557,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( b c4.) a4. \barMaior 
+    g4 a c( b c4.) a4. \barMaior
     c4( b) a4 \barMin g4( f) a a g g \barFinalis
   }
   \addlyrics {
-    Můj duch já -- sá 
+    Můj duch já -- sá
     v_Bo -- hu, mém spa -- si -- te -- li.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t1-ut-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -585,13 +585,13 @@
   }
   \addlyrics {
     Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
-    roz -- po -- meň se 
+    roz -- po -- meň se
     na svou sva -- tou smlou -- vu.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -614,7 +614,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = "t1-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -643,7 +643,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -654,7 +654,7 @@
   \relative c'' {
     \choralniRezim
     d4( c) b c( b a) g a a \barMin
-    
+
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu
@@ -665,7 +665,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -692,7 +692,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -716,7 +716,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -743,7 +743,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -765,7 +765,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -785,7 +785,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -808,7 +808,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -830,7 +830,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -851,7 +851,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -873,7 +873,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -893,7 +893,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -914,7 +914,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -928,7 +928,7 @@
 \markup\justify{
   Tahle melodie mi sice přirostla k srdci, ale z hlediska vztahu melodie
   a slova se zdá být neudržitelná, protože stojí na velkém zvýraznění
-  druhé (gramaticky nepřízvučné) slabiky v obou ústředních významonosných 
+  druhé (gramaticky nepřízvučné) slabiky v obou ústředních významonosných
   slovech.
 }
 
@@ -945,7 +945,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -965,7 +965,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -985,7 +985,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1003,7 +1003,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1021,7 +1021,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1039,7 +1039,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1057,7 +1057,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1067,7 +1067,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 f d c( d) e d \barMin a a( d a) g( f g a) a \barMin 
+    d4 f d c( d) e d \barMin a a( d a) g( f g a) a \barMin
   }
   \addlyrics {
     Hos -- po -- din na -- vští -- vil a vy -- kou -- pil svůj lid.
@@ -1075,7 +1075,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "?"
-    differentia = "?" 
+    differentia = "?"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1085,7 +1085,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g a( f) g g \barMin 
+    a4 f g a( f) g g \barMin
   }
   \addlyrics {
     Hos -- po -- din na -- vští -- vil a vy -- kou -- pil svůj lid.
@@ -1093,7 +1093,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1114,7 +1114,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1132,7 +1132,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1155,7 +1155,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = "t1-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1171,18 +1171,18 @@
     \choralniRezim
     a4( g a) c( d) d c \barMin
     d4 e c a( g) g \barMaior
-    a4 c d d( c) a( b) a4.( g) \barMin 
+    a4 c d d( c) a( b) a4.( g) \barMin
     a4( b) c a g( f) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, buď svět -- lem pro ty,
-    kdo ži -- jí v_tem -- no -- tě 
+    kdo ži -- jí v_tem -- no -- tě
     a v_stí -- nu smr -- ti.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t1-so-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1200,7 +1200,7 @@
     \zvyraznovacSedy
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
-    a b c d( e) d4. d \barMin 
+    a b c d( e) d4. d \barMin
     d4 c( a) b a( g) g \barFinalis
   }
   \addlyrics {
@@ -1210,7 +1210,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "t2-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1222,7 +1222,7 @@
     \zvyraznovacModry
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
-    a b c d( e) d d \barMin 
+    a b c d( e) d d \barMin
     d4 c( a) b a( g) g \barFinalis
   }
   \addlyrics {
@@ -1232,7 +1232,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = "t2-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1252,7 +1252,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1270,7 +1270,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1284,13 +1284,13 @@
     bes( a g) a g( f) f \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, 
+    Ve -- leb, du -- še má,
     Hos -- po -- di -- na.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1304,13 +1304,13 @@
     d( c d) c( a) a( c d) d \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, 
+    Ve -- leb, du -- še má,
     Hos -- po -- di -- na.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1324,13 +1324,13 @@
     d( c) d( c) bes( c) d \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, 
+    Ve -- leb, du -- še má,
     Hos -- po -- di -- na.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1351,13 +1351,13 @@ se bude hodit.}
     e( fis g) a e( d) d \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, 
+    Ve -- leb, du -- še má,
     Hos -- po -- di -- na.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "D ion. (D-dur)"
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = "t2-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1382,7 +1382,7 @@ se bude hodit.}
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1405,7 +1405,7 @@ se bude hodit.}
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = "t2-ut-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1429,7 +1429,7 @@ se bude hodit.}
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1444,14 +1444,14 @@ se bude hodit.}
     g4 a b a g( f) e e4. \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, roz -- ptyl ty, 
+    Hos -- po -- di -- ne, roz -- ptyl ty,
     kdo v_srd -- ci smý -- šle -- jí pyš -- ně
     a po -- vyš po -- ní -- že -- né.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = "t2-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1476,7 +1476,7 @@ se bude hodit.}
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1491,19 +1491,19 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \relative c'' {
     \zvyraznovacZelenyIII
     \choralniRezim
-    d4 d d a \barMin 
+    d4 d d a \barMin
     d4 d d a a c c c g g \barMaior
     g f g g g f a a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, 
+    Hos -- po -- di -- ne,
     dej své -- mu li -- du po -- zná -- ní spá -- sy
     a od -- pusť nám na -- še hří -- chy.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1514,17 +1514,17 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \relative c' {
     \choralniRezim
     d4 d d( e) e \barMin
-    
+
   }
   \addlyrics {
-    Hos -- po -- di -- ne, 
+    Hos -- po -- di -- ne,
     dej své -- mu li -- du po -- zná -- ní spá -- sy
     a od -- pusť nám na -- še hří -- chy.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1547,7 +1547,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1570,7 +1570,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1591,7 +1591,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1614,7 +1614,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1635,7 +1635,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1649,17 +1649,17 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
     \choralniRezim
     a4 a a f( g a) g( f) e \barMin d c d( f) e d d \barMaior
     a' a a c( b g) g( a) a \barMaior a g( a g) f( d) d f e c d d \barFinalis
-    
+
   }
   \addlyrics {
     Ty, kte -- ří lač -- ně -- jí po spra -- ve -- dl -- nos -- ti,
-    Hos -- po -- din na -- sy -- til 
+    Hos -- po -- din na -- sy -- til
     a na -- pl -- nil do -- brý -- mi věc -- mi.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1671,17 +1671,17 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
     \choralniRezim
     a4 a a f( g a) g( f) e \barMin d c d( f) e d d \barMaior
     a' a a c( b g) g( a) a( g) \barMaior g g( a g) f( d) d f e c c( d) d \barFinalis
-    
+
   }
   \addlyrics {
     Ty, kte -- ří lač -- ně -- jí po spra -- ve -- dl -- nos -- ti,
-    Hos -- po -- din na -- sy -- til 
+    Hos -- po -- din na -- sy -- til
     a na -- pl -- nil do -- brý -- mi věc -- mi.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1707,7 +1707,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1730,7 +1730,7 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = "t2-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1748,13 +1748,13 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
     g4 f e d( f) d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, u -- veď na -- še kro -- ky 
+    Hos -- po -- di -- ne, u -- veď na -- še kro -- ky
     na ces -- tu po -- ko -- je.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = "t2-so-ben"
     piece = \markup {\sestavTitulekBezZalmu}
