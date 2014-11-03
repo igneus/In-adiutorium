@@ -334,6 +334,97 @@
   }
 }
 
+\markup\nadpisSkupiny{1.4}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
+    a4 b c4. g \barMin
+    \mark\sipka c4 c c b a g a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
+    \mark\sipka c4 c c( b a) a \barMin
+    c4 c c b a g a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
+    a4 b \mark\sipka c( d) b \barMin
+    c4 c c b a g a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
+    a4 b c( d) b \barMin
+    c4 c \mark\sipka b d c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
