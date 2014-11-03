@@ -31,18 +31,18 @@ tIpondeliAntMagnificat = \score {
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \barMin
-    c4 c c c c c a f g g \barFinalis
+    c4 c c b a g a( b) a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bí má du -- še Hos -- po -- di -- na,
-    ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_na svou nepatrnou_ nejspíš rozhýbat, recitativ tam nezní organicky"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
