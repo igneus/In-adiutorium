@@ -536,7 +536,7 @@
     f g( a bes) a g bes a a \barMaior
     g( a bes a) g \barMin f g f e d c f e d d \barFinalis
 
-    c^\markup\rubrVelikAleluja f d d \barFinalis
+    c^\markup\small\italic{Mimo dobu postní:} f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
