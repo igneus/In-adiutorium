@@ -5,9 +5,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f  g( a) a a \barMaior
-    a g a( bes g4.) g \barMin
-    a4 a g f e( f) d4. d \barFinalis
+    a4 a( c a) \barMin b( c) c( d) d c( a) b a( g) \barMaior
+    c c c(-- d c a) a \barMin
+    c b a g g( a) g g \barFinalis
   }
   \addlyrics {
     Hle, Pán při -- chá -- zí zda -- le -- ka,
@@ -16,12 +16,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Magnificat"
-    placet = "začátek si jakoby říká o modus IV;
-    na to, že zpívá o Boží slávě naplňující celý svět, je melodie
-    taková mdlá, možná smutnovážná"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -59,11 +56,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( f) f f \barMin
+    d4 d d e f f \barMin
     f f f g f e e( f) d c d d \barMaior
-    d( f) f \barMin
-    f g f e d d \barMaior
-    e f d( c) d4. \barFinalis
+    d( c d) a \barMin
+    c d e f d d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
+    f e( f) d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -76,9 +73,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_Maria_ možná spíš bez melis.;
-    závěr zkusit upravit na neoddělené aleluja;
-    na _počneš_ by se hodila melodická ozdoba"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -91,7 +85,7 @@
     \choralniRezim
     a4 a bes a a \barMin
     g a f g a a a \barMaior
-    g f e( g) f e d4. d \barFinalis
+    g f e( g) f e d d \barFinalis
   }
   \addlyrics {
     Hle, já po -- sí -- lám
@@ -101,19 +95,18 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = "Magnificat"
-    placet = "I.a"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g( a) a c c d c( b) a4. a \barMaior
-    b4 g g g a f f a g4. g \barFinalis
+    d4 e c d d f f e d \barMaior
+    f f e f g f e f d d \barFinalis
   }
   \addlyrics {
     Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
@@ -121,10 +114,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "Benedictus"
-    placet = "_aby byly_ je divné"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
