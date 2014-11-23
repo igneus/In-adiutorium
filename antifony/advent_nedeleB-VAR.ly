@@ -289,7 +289,7 @@
     \choralniRezim
     a4 a bes a a \barMin
     g a f g a a a \barMaior
-    g f e( g) f e d4. d \barFinalis
+    g f e( g) f e d d \barFinalis
   }
   \addlyrics {
     Hle, já po -- sí -- lám
