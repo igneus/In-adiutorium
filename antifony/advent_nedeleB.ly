@@ -164,9 +164,9 @@
   \relative c' {
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
-    g f e c d \barMaior
-    g( a f) e \barMin
-    f g f e c d d \barFinalis
+    g f e c d \barMax
+    a( c d) d \barMin
+    e f e d c d d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
@@ -179,7 +179,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "nepěkná a nedrží pořádně pohromadě"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -188,27 +187,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a( c d) d \barMaior
-    d e c4.( a) \barMin
-    d4 c b a b a( g) f( g) g \barMaior
+    c4 c( d) d \barMaior
+    d e c( a) \barMin
+    d4 c b a g a g g \barMaior
 
-    g( c) b c( d) d \barMin
-    c( d c) b a4. g \barFinalis
+    f g a( c) c b( g) a g g \barFinalis
   }
   \addlyrics {
     Jan ře -- kl:
     já jsem hlas
     vo -- la -- jí -- cí -- ho na pouš -- ti:
 
-    vy -- rov -- nej -- te
-    ces -- tu Pá -- nu.
+    vy -- rov -- nej -- te ces -- tu Pá -- nu.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = "Benedictus"
-    placet = "případ podobný předchozí"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -221,10 +217,9 @@
     g4 g( a) g( f d) d \barMaior
 
     d d d( a') a bes g a \barMin
-    bes g a g( f) d4. d \barMaior \break
+    bes g a g( f) d d \barMaior
 
-    f4 \barMin
-    f e f g( a g) f d4. d \barFinalis
+    f4 f e f g( a g) f d d \barFinalis
   }
   \addlyrics {
     Já křtím vo -- dou.
@@ -239,7 +234,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Magnificat"
-    placet = "cesura po _ten_ pryč"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

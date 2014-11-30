@@ -371,7 +371,7 @@
   \relative c' {
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
-    g f e c d \barFinalis
+    g f e f d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
@@ -383,9 +383,8 @@
     differentia = "D"
     psalmus = "Žalm 15"
     id = "2ne-a1"
-    placet = "tyhle doslovně vytržené kousky nejsou samostatně pěkné"
     fons = "3. ne adventní, cyklus B, 1. nešp., k Magnificat; jen první půlka"
-    fial = "antifony/advent_nedeleB.ly#iiimag1?cast"
+    fial = "antifony/advent_nedeleB.ly#iiimag1?cast&upraveno"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -393,7 +392,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( g f) f \barMin
+    d4 d c d f( e d) d \barMin
     f g f e c d d \barFinalis
   }
   \addlyrics {
@@ -406,8 +405,6 @@
     differentia = "D"
     psalmus = "Žalm 112"
     id = "2ne-a2"
-    fons = "podle: 3. ne adventní, cyklus B, 1. nešp., k Magnificat; druhá půlka"
-    fial = "antifony/advent_nedeleB.ly#iiimag1?cast"
     piece = \markup {\sestavTitulek}
   }
 }
