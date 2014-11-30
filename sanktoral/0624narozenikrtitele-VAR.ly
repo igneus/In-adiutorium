@@ -17,6 +17,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d d( e) d c( b) b \barMin a( g) f g f g f g( a) a \barMax
     b( c d) e d( c) d( c) a( c) \barMaior
@@ -38,8 +39,62 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b a g g \barMin
+    a a a a g f g( a) a( g) \barMaior
+    a c d c c( a) \barMin
+    a b a g g \barFinalis
+  }
+  \addlyrics {
+    Alž -- bě -- ta po -- ro -- di -- la
+    Za -- cha -- ri -- á -- šo -- vi sy -- na:
+    Ja -- na Křti -- te -- le,
+    před -- chůd -- ce Pá -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g g \barMin
+    a a a a g f g( a) a( g) \barMaior
+    a c \mark\sipka b g a \barMin
+    g f a g g \barFinalis
+  }
+  \addlyrics {
+    Alž -- bě -- ta po -- ro -- di -- la
+    Za -- cha -- ri -- á -- šo -- vi sy -- na:
+    Ja -- na Křti -- te -- le,
+    před -- chůd -- ce Pá -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d d( e) d c b a g a a( g) g \barMaior
     b( c d) c( d) c b c( d) \barMin
@@ -64,6 +119,58 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f g( a) g g \barMin
+    f g a a g g \barMaior
+    a c b g a( g) \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- plod -- ná do -- sta -- la
+    ve svém stá -- ří sy -- na:
+    na -- ro -- dil se Jan,
+    Před -- chůd -- ce Pá -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) g g \barMin
+    f g a a \mark\sipka a( c) b \barMaior
+    c d c a b( g) \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- plod -- ná do -- sta -- la
+    ve svém stá -- ří sy -- na:
+    na -- ro -- dil se Jan,
+    Před -- chůd -- ce Pá -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 a g( a) a \barMin b c d e d c b( c) a a \barMaior
     a( b) c( d) d c d e( d c) d \barMin c( d) c( b) g( a) a \barFinalis
   }
@@ -81,6 +188,33 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) a \barMin
+    b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin
+    \mark\sipka c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -532,10 +666,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Responsorium jako v 1. nešporách.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g( a) a b a b c( d) e d c( d) d \barMin
     d c( b a) g( a) a( g) g \barMax
@@ -561,6 +698,117 @@
     psalmus = ""
     id = "2ne-amag"
     placet = "spojení převzaté části a přílepku nepůsobí příliš dobře"
+    fons = "2. část viz 1. nešp, 3. ant."
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{recepce změny zdrojové antifony:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g( a) a b a b c( d) e d c( d) d \barMin
+    d c( b a) g( a) a( g) g \barMax
+
+    f g g a g g( a) a \barMaior
+
+    a4 a g( a) a \barMin
+    b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin
+    \mark\sipka c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+
+    Spa -- si -- tel o něm ře -- kl:
+
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "2. část viz 1. nešp, 3. ant."
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c( d) d \barMin c d d d e d c( d) d \barMaior
+    d c( b a) g( a) a( g) g \barMax
+
+    a a a g a a( g) g \barMaior
+
+    f g g( a) a \barMin
+    b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin
+    c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+
+    Spa -- si -- tel o něm ře -- kl:
+
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "2. část viz 1. nešp, 3. ant."
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( d) d \barMin c d d d e d c( d) d \barMaior
+    d \mark\sipka c b g( a) a( g) \barMaior
+
+    f a a c b g g \barMax
+
+    \mark\sipka a a g( a) a \barMin
+    b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin
+    c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+
+    Spa -- si -- tel o něm ře -- kl:
+
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
     fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
     piece = \markup {\sestavTitulekBezZalmu}
