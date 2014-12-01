@@ -175,20 +175,20 @@ v předvánočním týdnu latinsky.}
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c d( e c) b c4. \bar "|" c4 c c d b c4. a b4 c a( g) g \bar "||"
+    g4 g d' d d c b c( d) \barMaior
+    d c b c a g-- g \barMin a g f( g) g \barFinalis
   }
   \addlyrics {
-    Dnes po -- zná -- te, že při -- jde Pán, a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
+    Dnes po -- zná -- te, že při -- jde Pán,
+    a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
   }
   \header {
     quid = "ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "VII"
+    differentia = "a"
     psalmus = "invitatorium"
     id = "predvanocni-24-invit"
     piece = \markup {\sestavTitulekBezZalmu}
-    placet = "jde o úryvek z (již opuštěné melodie) jednoho responsoria. Zkusit složit úplně nezávislou antifonu."
-    fons = "melodie vzata z responsoria 1. nešpor slavnosti Narození Páně (velmi podobný text); invitatorium na modus VIII jinak není obvyklé"
   }
 }
 
