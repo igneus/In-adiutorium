@@ -16,6 +16,8 @@
       }
       " "
     }
+
+    \on-the-fly \development-build \line{ \placet }
   }
 }
 
@@ -113,6 +115,11 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
   \header {
     modus = "I"
     id = "i"
+    placet = "má několik drsnějších míst:
+    _se ujal království_,
+    _Neboť nadešla_,
+    doxologie;
+    plnou doxologii"
   }
 }
 

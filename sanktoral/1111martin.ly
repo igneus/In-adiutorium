@@ -74,6 +74,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "nic moc; _ruce k nebi_ je nezpěvné"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -153,6 +154,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 15"
+    placet = "není úplně marná, ale přeci zkusit lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -175,6 +177,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 112"
+    placet = "_tvému lidu potřebný_ rozhodně jinak"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -195,6 +198,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Zj 15"
+    placet = "_opustil_ rozhodně bez melismatu na druhé slabice"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -228,6 +232,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "na více místech zadrhává"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

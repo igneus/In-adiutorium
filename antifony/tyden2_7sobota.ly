@@ -211,6 +211,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 8"
+    placet = "po _jak podivuhodné_ divisio přidat, po _jméno_ zrušit"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

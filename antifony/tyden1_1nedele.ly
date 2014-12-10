@@ -63,6 +63,7 @@ tInedeleInespAntIII = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "melodie je textu nepřiměřená, taková bezstarostná"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -259,6 +260,7 @@ tInedeleInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-I"
+    placet = "nepřirozená, zejm. začátek"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -305,6 +307,7 @@ tInedeleInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
+    placet = "není špatná, ale na modus VI zbytečně velký rozsah"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

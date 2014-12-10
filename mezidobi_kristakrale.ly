@@ -50,6 +50,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 117"
+    placet = "_mu_ a _a_ je nepřirozené"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -155,6 +156,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "nepřirozená"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -336,7 +338,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "d"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

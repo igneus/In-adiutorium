@@ -458,6 +458,8 @@
     differentia = "E"
     psalmus = ""
     id = "st-aben"
+    placet = "možná lépe urovnat, zjednodušit, např. _někdo_ g g, _ani_ a a;
+    pohrát si klidně i jinak bez otrockého lpění na předloze"
     fons = "volne podle 2. ne adv., cyk B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -479,6 +481,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "nic moc, zvlášť _z Jeruzaléma_"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -572,6 +575,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_Syna_ lépe gag g; _spasil_ ca a"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

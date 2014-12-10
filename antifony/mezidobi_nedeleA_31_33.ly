@@ -74,6 +74,10 @@
     differentia = "D"
     psalmus = ""
     annus = ""
+    placet = "zatímco ve zdrojové antifoně druhá část na hlubokou kadenci
+    v závěru části první navazuje přirozeně, zde to přirozeně
+    ani zdaleka nepůsobí.
+    předělat."
     fial = "sanktoral/0725jakub.ly#ne-amag?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

@@ -367,6 +367,10 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "melodické ozdoby na slovech _budou_ a _jako_ ...
+    obě stejným způsobem nepatřičné (zvýraznění slova, které nemá být
+    zvýrazňováno), ale nepobuřují mě. Antifona s nimi není bezchybná,
+    ale přesto se mi líbí. Bez nich by se musela úplně přepsat."
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -412,6 +416,9 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "první část nepříliš vhodně napodobuje verš 
+    stereotypních krátkých responsorií modu VI;
+    předělat"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

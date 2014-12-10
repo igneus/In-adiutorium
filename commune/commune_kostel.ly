@@ -29,6 +29,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
+    placet = "divný průběh melodie _Jeruzalém_; divné _plná jásotu_ a aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -103,6 +104,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "nic moc"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -160,6 +162,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "melodie je neelegantní, klopýtavá - nedá se zpívat plynule, působí nepřirozeně"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -222,6 +225,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nic moc, zejména začátek"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -247,6 +251,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "začátek (1,a.b) je nelibý"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -272,6 +277,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "začátek (1,a.b) je nelibý"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

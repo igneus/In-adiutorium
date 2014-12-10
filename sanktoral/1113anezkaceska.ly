@@ -48,6 +48,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "nic moc, zejm. _dojdou_"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -191,6 +192,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ef 1"
+    placet = "druhá část je nefunkční; celek nepěkný"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -227,6 +229,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zaslouží trochu péče; _vaše posvěcení_ zbytečně drhne"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
