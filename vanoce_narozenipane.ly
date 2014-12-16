@@ -764,9 +764,36 @@
     }
   }
 
-  \markup\italic{
-    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
-    s. \page-ref #'respSlovoSeStalo "0" "?" .
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a( g) \barMax
+      g g( a) g( f) d d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a( bes) a a g f g a a( g) \barMax
+      % R
+      \neviditelna a
+      g g( a) g( f) d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Slo -- vo se sta -- lo tě -- lem_*
+      a pře -- bý -- va -- lo me -- zi ná -- mi.
+      \Verse Všich -- ni jsme do -- sta -- li z_je -- ho pl -- nos -- ti._*
+      \Response A pře -- bý -- va -- lo me -- zi ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "svrodiny-1ne-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
   }
 
   \score {
@@ -1014,12 +1041,12 @@
 
       \neviditelna a
       a4( c) b a a g f g( a) f( e) d4. \barMax
-      e4 g a f e4. e \barFinalis % \break
+      e4 g a f e4. e \barFinalis
 
       \neviditelna d
-      a'4 a a a b( c) c \barMin a f f g f e d d \barMax
+      a'4 a a a g( a) g \barMin f g a f g f e d \barMax
       \neviditelna e
-      e4 g a f e4. e \barFinalis % \break
+      e4 g a f e4. e \barFinalis
 
       a4 a c b c a a4. \barMax
       a4 b g f e e4. \barFinalis
@@ -1039,7 +1066,7 @@
       piece = \markup\sestavTitulekResp
       id = "svrodiny-rch-resp"
       fons = "Kromě verše melodie i text viz doba postní, neděle, ranní chvály"
-      fial = "fial://pust_responsoria.ly#ne-rch"
+      fial = "fial://pust_responsoria.ly#ne-rch?jiny_vers"
     }
   }
 
