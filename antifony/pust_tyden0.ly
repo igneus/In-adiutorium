@@ -91,3 +91,71 @@
   }
 }
 
+\markup\nadpisDen{Pátek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když u -- vi -- díš na -- hé -- ho,
+    ob -- lék -- ni ho
+    a ne -- po -- hr -- dej svým bra -- trem;
+
+    tvůj pří -- klad bu -- de zá -- řit ja -- ko svět -- lo
+    a tvá spra -- ve -- dl -- nost
+    pů -- jde před te -- bou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Sobota}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d f e d d e d c c( d) d \barMin
+    a a a c b( a) b a g g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol, a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne18c-rch-aben"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

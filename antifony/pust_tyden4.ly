@@ -204,6 +204,53 @@
   }
 }
 
+\markup\nadpisDen{Pondělí}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    O -- tec po -- znal,
+    že se je -- ho syn u -- zdra -- vil
+    prá -- vě v_tu chví -- li,
+    kdy mu Je -- žíš ře -- kl:
+    „Tvůj syn je živ“;
+    a u -- vě -- řil on
+    i všich -- ni v_je -- ho do -- mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Úterý}
 
 \score {
@@ -242,6 +289,96 @@
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Středa}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Kdo sly -- ší mé slo -- vo
+    a vě -- ří to -- mu,
+    kte -- rý mě po -- slal,
+    má věč -- ný ži -- vot,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Já sám ze se -- be ne -- mo -- hu dě -- lat nic.
+    Sou -- dím po -- dle to -- ho,
+    co sly -- ším od Ot -- ce,
+    a můj soud je spra -- ved -- li -- vý,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Čtvrtek}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Já ne -- při -- jí -- mám svě -- dec -- tví od člo -- vě -- ka,
+    a -- le co ří -- kám,
+    ří -- kám pro -- to,
+    a -- by -- ste do -- sáh -- li spá -- sy,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

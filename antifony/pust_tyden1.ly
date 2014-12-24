@@ -228,7 +228,7 @@
     od za -- lo -- že -- ní svě -- ta.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
     psalmus = ""
@@ -288,7 +288,49 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Středa}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {

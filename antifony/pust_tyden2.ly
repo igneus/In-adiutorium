@@ -198,6 +198,100 @@
   }
 }
 
+\markup\nadpisDen{Pondělí}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Buď -- te mi -- lo -- srd -- ní,
+    ja -- ko je mi -- lo -- srd -- ný váš O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ne -- od -- su -- zuj -- te,
+    a -- by -- ste ne -- by -- li od -- sou -- ze -- ni;
+    ne -- boť po -- dle to -- ho, jak sou -- dí -- te,
+    bu -- de -- te sa -- mi sou -- ze -- ni,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Úterý}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a a c( d) c c \barMin
+    d( e) c d( c a) \barMaior
+    g f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- nom je -- den je váš u -- či -- tel_–
+    Kris -- tus Pán_–
+    a ten je v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne31a-rch-aben"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Středa}
 
 \score {
@@ -296,6 +390,34 @@
 }
 
 \markup\nadpisDen{Pátek}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( f) d d c a c c d d \barMaior
+    c d d( e) d d c( d) d( c) c \barMin a g a g g \barMaior
+    f f g a b c( a) g g \barMin
+    c( d c) b( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
+    a
+    svou % není v breviáři
+    vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
+    kte -- ří mu bu -- dou ve svůj čas
+    od -- vá -- dět vý -- tě -- žek.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne27a-rch-aben"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
