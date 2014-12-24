@@ -19,11 +19,11 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    annus = ""
+    annus = "A"
     placet = "transponovaná o sekundu dolů funguje i jako modus V s b -
     srov. také závěrečnou kadenci, alespoň u mě pro modus V typickou;
     snad právě proto mi v modu VII moc nesedí a jsem pro předělání"
-    id = ""
+    id = "ne21a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -43,9 +43,9 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a2"
-    id = ""
+    id = "ne21a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -69,8 +69,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -98,8 +98,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne22a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -121,9 +121,9 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "sanktoral/0731ignac.ly#amag"
-    id = ""
+    id = "ne22a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -149,8 +149,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne22a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -177,8 +177,8 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne23a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -204,8 +204,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne23a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -227,8 +227,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne23a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -264,8 +264,8 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -287,8 +287,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -318,8 +318,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -341,8 +341,8 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne25a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -366,9 +366,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
-    id = ""
+    id = "ne25a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -390,8 +390,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne25a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -417,8 +417,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne26a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -442,8 +442,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne26a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -469,7 +469,7 @@
     psalmus = ""
     annus = "A"
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne9a-1ne-amag"
-    id = ""
+    id = "ne26a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -495,8 +495,8 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne27a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -522,8 +522,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne27a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -548,8 +548,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne27a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -575,8 +575,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne28a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -600,9 +600,9 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
-    id = ""
+    id = "ne28a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -628,8 +628,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne28a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -658,8 +658,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -679,9 +679,9 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    annus = ""
+    annus = "A"
     placet = "differentia d; zkusit, jestli by nebylo lepší v VII. modu"
-    id = ""
+    id = "ne29a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -701,8 +701,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -728,10 +728,10 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?zacatek&zjednoduseno"
     placet = "snad ujde, ale významný text si zaslouží něco práce na pokusech o ještě lepší"
-    id = ""
+    id = "ne30a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -751,11 +751,11 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    annus = ""
+    annus = "A"
     placet = "myslím, že je pro autora příznačné, že přikázání
     lásky k bližnímu oděl do melodie téměř skličující;
     interpretovat text takto je však již někde na hranici nekřesťanského"
-    id = ""
+    id = "ne30a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -777,8 +777,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne30a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

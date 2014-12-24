@@ -7,7 +7,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a a a f( g a) a \barMin
+    g4 g a a f( g a) a \barMin
     a b c b c d c( b a) g a( g) g \barFinalis
   }
   \addlyrics {
@@ -19,8 +19,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne31a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -42,8 +42,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne31a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -73,13 +73,13 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     placet = "zatímco ve zdrojové antifoně druhá část na hlubokou kadenci
     v závěru části první navazuje přirozeně, zde to přirozeně
     ani zdaleka nepůsobí.
     předělat."
     fial = "sanktoral/0725jakub.ly#ne-amag?zacatek"
-    id = ""
+    id = "ne31a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -105,8 +105,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne32a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -126,9 +126,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "commune/commune_panna.ly#mc-avig?-aleluja"
-    id = ""
+    id = "ne32a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -151,9 +151,9 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "antifony/advent_nedeleA.ly#imag1?upraveno&jiny_text"
-    id = ""
+    id = "ne32a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -177,8 +177,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne33a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -202,9 +202,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    annus = ""
+    annus = "A"
     fial = "commune/commune_pastyr.ly#mc-a3?zacatek"
-    id = ""
+    id = "ne33a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -224,8 +224,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    annus = ""
-    id = ""
+    annus = "A"
+    id = "ne33a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
