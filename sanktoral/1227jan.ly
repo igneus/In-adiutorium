@@ -1,11 +1,14 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Jana, apoštola a evangelisty (svátek, 27.12.)"
+  title = \markup\titleSvatek
+            "sv. Jana, apoštola a evangelisty"
+            svátek
+            27.12.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \markup {\nadpisHodinka {"invitatorium"}}
 \markup\italic{Antifona ze společných textů o apoštolech.}
