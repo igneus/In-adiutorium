@@ -98,6 +98,10 @@ sestavTitulekResp = \markup\concat {
         %\fromproperty #'header:opus
         \small { \fromproperty #'header:fons_externus }
       }
+
+      \small\italic{
+        \fromproperty #'header:textus_approbatus
+      }
     }
   }
 }

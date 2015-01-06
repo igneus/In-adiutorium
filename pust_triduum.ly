@@ -461,10 +461,6 @@
   }
 }
 
-\markup\tiny{Text následující antifony je oproti tomu,
-který je v breviáři, zkrácený - nepřišel jsem na to, jak
-jinak zachránit její zpívatelnost.}
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -474,9 +470,6 @@ jinak zachránit její zpívatelnost.}
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
     smr -- tí je -- ho Sy -- na.
-    % v_do -- bě, kdy jsme s_ním by -- li ješ -- tě zne -- přá -- te -- le -- ni.
-    %% Vedome a dobrovolne menim text antifony, aby se dala zpivat.
-    %% Viz dokumentace.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -484,6 +477,9 @@ jinak zachránit její zpívatelnost.}
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    %% Vedome a dobrovolne zasadne menim text antifony, aby se dala zpivat.
+    textus_approbatus = "Byli jsme s Bohem usmířeni smrtí jeho Syna
+    v době, kdy jsme s ním byli ještě znepřáteleni."
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

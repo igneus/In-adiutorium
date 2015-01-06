@@ -33,11 +33,6 @@
     a g f f \barFinalis
   }
   \addlyrics {
-    % Hle, Pán při -- jde
-    % a s_ním všich -- ni je -- ho sva -- tí;
-    % v_ten den za -- zá -- ří ve -- li -- ké svět -- lo.
-    % A -- le -- lu -- ja.
-
     Ej -- hle, Hos -- po -- din při -- jde
     a všich -- ni sva -- tí je -- ho s_ním;
     a bu -- de v_den o -- nen svět -- lo vel -- ké,
@@ -51,6 +46,8 @@
     fons_externus = "Kancionál 101A"
     % melodie podle greg. antifony ekvivalentního textu;
     % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
+    textus_approbatus = "Hle, Pán přijde a s ním všichni jeho svatí;
+    v ten den zazáří veliké světlo. Aleluja."
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
