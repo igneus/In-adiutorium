@@ -24,8 +24,6 @@
   }
 }
 
-\markup\fill-line{ "" "JK 101A" }
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -50,8 +48,9 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 142"
-    fons = "Jednotný kancionál, 101A; melodie podle greg. antifony ekvivalentního textu;
-    	jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic"
+    fons_externus = "Kancionál 101A"
+    % melodie podle greg. antifony ekvivalentního textu;
+    % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
