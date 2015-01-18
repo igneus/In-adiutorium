@@ -102,6 +102,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4-- a f g f e d \barMin
     c( d) d d( f) e c d \barFinalis
@@ -179,6 +180,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4( g) a \barMin
     f g g a f e \barFinalis
@@ -218,6 +220,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f e( c) d \barMin
     f g f f g f d \barFinalis
