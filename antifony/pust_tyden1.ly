@@ -291,7 +291,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c c( d) \barMin
+    f e f g f( e) d( c) c \barMaior
+    d c c( d) d \barMin
+    d d( f) d d d( g) f d d \barFinalis
   }
   \addlyrics {
     Když se mod -- líš ty,
@@ -301,8 +304,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -312,20 +315,25 @@
 \markup\nadpisDen{Středa}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a b g g \barMin
+    g a g f d e \barMaior
+    d f g a a \barMin
+    a a a a a( b) a a g a g f e e \barMin
+    f f( g a) g f g g e e \barFinalis
   }
   \addlyrics {
-    To -- to po -- ko -- le -- ní je po -- ko -- le -- ní zlé.
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
     Hle -- dá zna -- me -- ní,
     a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
     než zna -- me -- ní Jo -- ná -- šo -- vo.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -474,19 +482,27 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g f e d d \barMin
+    f f e d e d c \barMaior
+    d d c c c( d) d \barMin
+    d e f f e d e( d) c \barMin
+    c d d \barFinalis
   }
   \addlyrics {
-    Mo -- dle -- te se za ty, kdo vás pro -- ná -- sle -- du -- jí.
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
     Tak bu -- de -- te sy -- ny
     své -- ho ne -- bes -- ké -- ho Ot -- ce,
     pra -- ví Pán.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    % schvalne jsem nevysel z antifony s podobnym textem
+    % pro jednu z nedeli v mezidobi - jeji melodie je moc rozverna
+    % a pro tuto textovou variantu by se spatne modifikovala
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
