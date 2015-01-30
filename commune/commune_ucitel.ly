@@ -147,16 +147,14 @@
 
     % R
     \neviditelna f
-    f4 f f g f f( g) g \barMin g g g f g( a) a( g) \barMax
-    g g a( g) g
-    g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
+    f4 f f g f g g( f) \barMin f f f f g( a) a( g) \barMax
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( bes) a g f g( a) a( g) \barMax
+    a4 a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a( g) g
-    g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -170,9 +168,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "R"
     id = "rch-resp"
-    fons = "Cyril a Metoděj, r.ch."
     piece = \markup {\sestavTitulekResp}
   }
 }
