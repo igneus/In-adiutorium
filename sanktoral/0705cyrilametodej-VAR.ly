@@ -114,6 +114,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     
     % R
@@ -145,6 +146,42 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g g( f) \barMin f f f f g( a) a( g) \barMax
+    g g g( a) g \mark\sipka f g g( f) f \barMin f( d) f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g( a) g \mark\sipka f g g( f) f \barMin f( d) f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Li -- dé si vy -- prá -- vě -- jí o moud -- ros -- ti sva -- tých,_*
+    je -- jich jmé -- na zůs -- tá -- va -- jí v_ži -- vé pa -- mě -- ti.
+    \Verse Cír -- kev je ne -- přes -- tá -- vá chvá -- lit,_*
+    \Response je -- jich jmé -- na zůs -- tá -- va -- jí v_ži -- vé pa -- mě -- ti.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    fial = "commune/commune_ucitel.ly#rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
