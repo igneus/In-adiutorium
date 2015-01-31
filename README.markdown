@@ -1,11 +1,12 @@
 # In adiutorium #
 
-music for Catholic Divine Office (Liturgy of the Hours) in Czech language.
+music for Roman Catholic Divine Office (Liturgy of the Hours) in Czech language.
 
-Liturgical music (mostly monophonic chant) engraved with LilyPond
-(+ some pieces typeset in LaTeX).
-For further information see project homepage (Czech language only):
+Liturgical music, mostly plainchant, engraved with LilyPond.
+Some pieces are arranged as booklets or books typeset using LaTeX.
+For further information see project homepage
 http://www.inadiutorium.cz
+(Czech only, with [summary in English](http://www.inadiutorium.cz/about.php))
 
 ## License ##
 
