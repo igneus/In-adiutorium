@@ -249,7 +249,6 @@
     Ne -- ří -- kám ti,
     že máš od -- pus -- tit nej -- víc se -- dm -- krát,
     a -- le tře -- ba
-    % se -- dm -- de -- sát -- se -- dm -- krát.
     se -- dma -- se -- dm -- de -- sát -- krát.
 
     % Rozslabikování se-DMA-sedmdesátkrát možná není úplně správné,
@@ -260,6 +259,9 @@
     % abych se vyhnul absolutnímu rýmu - mj. i rytmickému.
   }
   \header {
+    textus_approbatus = "Ježíš řekl Petrovi:
+    Neříkám ti, že máš odpustit nejvíc sedmkrát,
+    ale třeba sedmdesátsedmkrát."
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
