@@ -211,7 +211,9 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 8"
-    placet = "po _jak podivuhodné_ divisio přidat, po _jméno_ zrušit"
+    placet = "po _jak podivuhodné_ divisio přidat, po _jméno_ zrušit;
+    _je_ tvé jméno_ by nemělo být od závěru předchozí části odsazeno;
+    _po celé zemi_ se mi špatně zpívá, ale to je spíš problém mého sluchu než antifony"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -350,6 +350,10 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "_spolu začali_ spíše zjednodušit;
+    skok mezi _Maria_ a _počala_ je nelibý a dělá melodii nevhodně neplynulou
+    (tak se mi to zdálo nejprve; při třetím a dalším poslechu již ne, ale stejně
+    bude dobré zkusit jiné varianty)"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -374,6 +378,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nelíbí"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,6 +400,7 @@
     differentia = "A"
     psalmus = ""
     id = ""
+    placet = "přinejmenším konec dotáhnout"
     fons = "jeden ze stereotypních grego nápěvů"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -417,6 +423,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "závěr je nelibý; začátek se mi naopak líbí moc, ten ať zůstane"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -483,11 +490,12 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "taková mdlá, bez spádu; melisma jako závěr zní nepěkně, rozplizle"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup\justify\italic{
-  Sobota má texty z příslušného dne v předvánočním týdnu.
+  Sobota má vždy texty z příslušného dne v předvánočním týdnu.
 }

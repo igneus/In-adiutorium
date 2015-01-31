@@ -77,6 +77,10 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "tato antifona počítá s poměrně specifickým rytmem, který není
+      zachycen v notaci a pravděpodobně ne každému bude připadat dostatečně
+      přirozený a 'chorální';
+      sám mám problém zazpívat nějak vkusně _pojďme_"
       id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -149,6 +153,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "div. po _matkou_ pryč"
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }

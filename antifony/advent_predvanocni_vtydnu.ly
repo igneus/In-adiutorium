@@ -138,6 +138,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "jinak"
     id = "predvanocni-zlm-ut-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -164,6 +165,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "po _ze Siónu_ div. maior"
     id = "predvanocni-zlm-st-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -187,6 +189,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "po _mlčet_ div. maior"
     id = "predvanocni-zlm-st-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -212,6 +215,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "po _nade mnou_ a po _poslal mě_ div. maior;
+    _abych přinesl chudým_ zkusit lépe"
     id = "predvanocni-zlm-st-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -259,6 +264,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "závěr je nějak disonantní - zkusit jinak"
     id = "predvanocni-zlm-ct-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -283,6 +289,12 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "tohle je jedna z mých nejmilejších antifon,
+    takže rozhodně nejsem pro překotné předělání,
+    ale moc dobře nesedí v modu.
+    Je jaksi 'moc krátká a moc frygická než aby mohla být zároveň
+    přesvědčivě hypodórská.'
+    Žalm se po ní těžko začíná."
     id = "predvanocni-zlm-ct-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -309,6 +321,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "po _kralovat_ div. maior"
     id = "predvanocni-zlm-pa-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -329,6 +342,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "po _uvidíte_ div. maior, po _Pán_ div. minima"
     id = "predvanocni-zlm-pa-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -419,6 +433,7 @@
     psalmus = ""
     id = "predvanocni-zlm-so-a3"
     piece = \markup {\sestavTitulekBezZalmu}
+    placet = "při_chází_ nezní dobře. Lépe třeba efd de e nebo ef fe e"
     fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
     fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-ben?1. polovina"
   }

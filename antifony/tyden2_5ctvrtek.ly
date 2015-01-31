@@ -140,6 +140,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 81"
+    placet = "zkusit alternativy"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

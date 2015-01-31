@@ -126,6 +126,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Dan 3-III"
+    placet = "jinak"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -179,6 +180,9 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "po _námi_ div. maior;
+    vzhledem k tomu, jak silný je to text, zaslouží si něco úsilí
+    o co nejvýstižnější melodii"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

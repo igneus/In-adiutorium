@@ -53,6 +53,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 103-II"
+    placet = "_nad těmi_ snad lépe d e f"
     id = "cte-ant2"
     piece = \markup {\sestavTitulek}
   }

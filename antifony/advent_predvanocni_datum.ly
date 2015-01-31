@@ -26,6 +26,7 @@ v předvánočním týdnu latinsky.}
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "div. maior"
     id = "predvanocni-17-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -73,6 +74,7 @@ v předvánočním týdnu latinsky.}
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "po _slunce_ div. maior"
     id = "predvanocni-19-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -219,6 +221,7 @@ v předvánočním týdnu latinsky.}
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_vládce_ snad lépe gagf. d"
     id = "predvanocni-24-rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -295,6 +298,7 @@ v předvánočním týdnu latinsky.}
   \header {
     quid = "resp."
     modus = "I"
+    placet = "_svatému_ možná lépe ga a a"
     id = "predvanocni-24-rch-resp"
     piece = \markup {\sestavTitulekResp}
   }

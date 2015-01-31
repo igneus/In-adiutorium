@@ -144,6 +144,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 3"
+    placet = "takto se mi líbí; je ale podezřele podobná modu VIII -
+    vyzkoušet úpravu tím směrem"
     id = "ne-cte-a3"
     piece = \markup {\sestavTitulek}
   }

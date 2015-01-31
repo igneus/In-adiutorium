@@ -66,6 +66,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "zkusit lépe"
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -100,6 +101,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_Boží evangelium_ je přetížené; i pokračování věnovat trochu péče"
     id = "ne3b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -121,6 +123,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "nic moc"
     id = "ne3b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -141,6 +144,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zkusit alternativy"
     id = "ne3b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
