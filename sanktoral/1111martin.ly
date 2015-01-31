@@ -91,6 +91,7 @@
     Mar -- tin, na ze -- mi chu -- dý a skrom -- ný,
     ve -- šel do ne -- be bo -- ha -- tý
     a ra -- dost -- ně sto -- lu -- je s_A -- bra -- há -- mem.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
