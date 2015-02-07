@@ -267,6 +267,8 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
+    placet = "od ní odvozená antifona sedla lépe do modu VII;
+    zdejší závěr není pěkný ani úplně přesvědčivý"
     id = "ne24a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

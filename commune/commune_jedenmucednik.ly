@@ -783,6 +783,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_dosáhli_ je nepěkné"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

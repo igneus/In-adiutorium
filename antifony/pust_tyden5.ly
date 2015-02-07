@@ -112,6 +112,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "hezká, ale ne v modu VII;
+    lze transponovat do modu I, ale finála je tak jako tak neuspokojivá"
     id = ""
     piece = \markup {\sestavTitulek}
   }

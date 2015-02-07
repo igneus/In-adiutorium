@@ -100,6 +100,7 @@
     modus = "I"
     differentia = "D2"
     psalmus = "Žalm 108"
+    placet = "rytmus i melodie _důvěry_ (navíc zdvojeno) jsou jaksi nepřirozené a nelibé"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

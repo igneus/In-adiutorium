@@ -88,6 +88,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
+    placet = "obě dvě zkusit lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
