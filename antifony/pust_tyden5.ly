@@ -410,17 +410,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d f d( c) \barMin
+    d d d f g f e d d \barMaior
+    a c d d( e d) e f e f d \barFinalis
   }
   \addlyrics {
-    U -- ká -- zal jsem vám mno -- ho do -- brých skut -- ků,
-    pra -- ví Pán.
+    U -- ká -- zal jsem vám
+    mno -- ho do -- brých skut -- ků, pra -- ví Pán.
     Pro kte -- rý z_nich mě chce -- te za -- bít?
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -428,9 +430,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g f g a g f( g) \barMaior
+    a( c) c c d( c b c) c( a) \barMaior
+    c c b( c) a \barMin g a g f f \barFinalis
   }
   \addlyrics {
     Jest -- li -- že ne -- vě -- ří -- te mně,
@@ -439,8 +443,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -450,9 +454,11 @@
 \markup\nadpisDen{Sobota}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( c) b c( d) d \barMaior
+    c b d d a a c b a( b g) a \barMin
+    g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- mřel pro -- to,
@@ -461,10 +467,34 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+%{
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e) f e( d) d \barMaior
+    f g a bes a a g f g( a g) g \barMin
+    f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- mřel pro -- to,
+    a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
+    shro -- máž -- dil vjed -- no.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+%}
