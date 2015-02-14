@@ -327,6 +327,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Úterý}}
 
 \score {
@@ -353,7 +374,49 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Chléb Bo -- ží je ten,
+    kte -- rý se -- stu -- pu -- je z_ne -- be
+    a dá -- vá ži -- vot svě -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Kaž -- dý, kdo vi -- dí Sy -- na a vě -- ří v_ně -- ho,
+    má ži -- vot věč -- ný
+    a já ho vzkří -- sím v_po -- sled -- ní den.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {

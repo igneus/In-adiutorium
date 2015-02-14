@@ -59,7 +59,7 @@
 }
 
 % Od jiste doby jsem opatrny na to, abych finalu antifony
-% "neprebijel" pomoci antifony na jinou, protoze to vetsinou
+% "neprebijel" pomoci aleluja na jinou, protoze to vetsinou
 % zni blbe, ale tady se mi, byt jsem se snazil, nepovedlo najit
 % melodii aleluja vkusne koncici na G, takze soudim,
 % ze tu nejde o prebiti, ale opravdu o antifonu IV. alt. modu,
@@ -93,6 +93,27 @@
 \score {
   \relative c' {
     \choralniRezim
+
+  }
+  \addlyrics {
+    Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
+    A -- le buď -- te do -- bré mys -- li.
+    Já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 d d f g( d) d \barMin
     f e d c c \barMaior
     d d e f( d) d
@@ -115,6 +136,27 @@
 }
 
 \markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {
@@ -152,8 +194,6 @@
     c d e( d) d \barFinalis
   }
   \addlyrics {
-    % Na tomto místě je v breviáři "Děkujme", ne "Vzdávejme díky",
-    % myslím ale, že to je nahodilá nekonsistence způsobená redakční nepozorností.
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
     on nám po -- přá -- vá ví -- těz -- ství
     skr -- ze na -- še -- ho Pá -- na
@@ -161,6 +201,9 @@
     A -- le -- lu -- ja.
   }
   \header {
+    % myslím, že rozdíl v textu je nahodilá nekonsistence způsobená redakční nepozorností.
+    textus_approbatus = "Děkujme Bohu,
+    on nám popřává vítězství skrze našeho Pána Ježíše Krista. Aleluja."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
@@ -198,6 +241,27 @@
 \score {
   \relative c' {
     \choralniRezim
+
+  }
+  \addlyrics {
+    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky všech -- ny ná -- ro -- dy
+    a křtě -- te je ve jmé -- nu Ot -- ce i Sy -- na
+    i Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f e e( g) f \barMin
     g( a g) f( g) f d \barMin f e d c c \barMaior
     c d( f) e( f) d d
@@ -222,6 +286,28 @@
 }
 
 \markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Kris -- tus Je -- žíš ze -- mřel,
+    a -- no i z_mrt -- vých vstal,
+    je po Bo -- ží pra -- vi -- ci
+    a při -- mlou -- vá se za nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
