@@ -336,6 +336,7 @@
     modus = "I"
     differentia = "D2"
     psalmus = ""
+    placet = "není zlá, ale pravděpodobně by šla lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -358,6 +359,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 121"
+    placet = "IV alt.c"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -402,6 +404,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "možná sedí spíš do modu III"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -434,6 +437,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zkusit bohatší ozdobu na _jásat_"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

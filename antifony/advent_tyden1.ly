@@ -24,8 +24,6 @@
   }
 }
 
-\markup\fill-line{ "" "JK 101A" }
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -35,11 +33,6 @@
     a g f f \barFinalis
   }
   \addlyrics {
-    % Hle, Pán při -- jde
-    % a s_ním všich -- ni je -- ho sva -- tí;
-    % v_ten den za -- zá -- ří ve -- li -- ké svět -- lo.
-    % A -- le -- lu -- ja.
-
     Ej -- hle, Hos -- po -- din při -- jde
     a všich -- ni sva -- tí je -- ho s_ním;
     a bu -- de v_den o -- nen svět -- lo vel -- ké,
@@ -50,8 +43,11 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 142"
-    fons = "Jednotný kancionál, 101A; melodie podle greg. antifony ekvivalentního textu;
-    	jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic"
+    fons_externus = "Kancionál 101A"
+    % melodie podle greg. antifony ekvivalentního textu;
+    % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
+    textus_approbatus = "Hle, Pán přijde a s ním všichni jeho svatí;
+    v ten den zazáří veliké světlo. Aleluja."
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -148,6 +144,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 3"
+    placet = "takto se mi líbí; je ale podezřele podobná modu VIII -
+    vyzkoušet úpravu tím směrem"
     id = "ne-cte-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -458,6 +456,8 @@
     differentia = "E"
     psalmus = ""
     id = "st-aben"
+    placet = "možná lépe urovnat, zjednodušit, např. _někdo_ g g, _ani_ a a;
+    pohrát si klidně i jinak bez otrockého lpění na předloze"
     fons = "volne podle 2. ne adv., cyk B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -479,6 +479,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "nic moc, zvlášť _z Jeruzaléma_"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -572,6 +573,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_Syna_ lépe gag g; _spasil_ ca a"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

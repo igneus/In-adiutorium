@@ -412,6 +412,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_opánky_ lépe"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

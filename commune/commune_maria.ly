@@ -726,7 +726,10 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
-    placet = "velikonoční zakončení půjde udělat elegantněji"
+    placet = "velikonoční zakončení půjde udělat elegantněji;
+    dráždí mě melismata na přízvučných slabikách _Požehnaná_,
+    obzvlášť to první; zatím úplně nerozumím tomu, proč se tady nehodí,
+    ale zní to nepřirozeně"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

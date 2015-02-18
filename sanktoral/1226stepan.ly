@@ -1,11 +1,14 @@
 \version "2.16.0"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Štěpána, prvomučedníka (svátek, 26.12.)"
+  title = \markup\titleSvatek
+            "sv. Štěpána, prvomučedníka"
+            "svátek"
+            26.12.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -30,6 +33,69 @@
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ště -- pán, pl -- ný Du -- cha sva -- té -- ho,
+    po -- hle -- děl k_ne -- bi
+    a spa -- třil Bo -- ží slá -- vu
+    a Je -- ží -- še, jak sto -- jí po Bo -- ží pra -- vi -- ci.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ště -- pán kle -- sl na ko -- le -- na
+    a hla -- si -- tě zvo -- lal:
+    Pa -- ne Je -- ží -- ši,
+    ne -- při -- čí -- tej jim ten -- to hřích.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 11"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát před je -- ho moud -- ros -- tí
+    a Du -- chem, kte -- rý z_ně -- ho mlu -- vil.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 17"
+    id = ""
+    piece = \markup {\sestavTitulek}
   }
 }
 

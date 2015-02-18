@@ -1,11 +1,14 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Jana, apoštola a evangelisty (svátek, 27.12.)"
+  title = \markup\titleSvatek
+            "sv. Jana, apoštola a evangelisty"
+            svátek
+            27.12.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \markup {\nadpisHodinka {"invitatorium"}}
 \markup\italic{Antifona ze společných textů o apoštolech.}
@@ -123,6 +126,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Dan 3-III"
+    placet = "jinak"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -176,6 +180,9 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "po _námi_ div. maior;
+    vzhledem k tomu, jak silný je to text, zaslouží si něco úsilí
+    o co nejvýstižnější melodii"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

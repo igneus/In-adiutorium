@@ -140,6 +140,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 81"
+    placet = "zkusit alternativy"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -227,6 +228,9 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 72-I"
+    placet = "tuto i následující mám v aktuálním tvaru rád,
+    ovšem melodie obou se k textu vztahuje jen velmi málo,
+    neusiluje o podtržení slov nesoucích hlavní význam"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

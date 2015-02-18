@@ -131,6 +131,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "1Tim 3"
+    placet = "spíš VIII než III"
     id = "1ne-kant"
     piece = \markup {\sestavTitulek}
   }
@@ -220,6 +221,69 @@
     psalmus = "invitatorium"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
+    při -- ne -- sou da -- ry Bo -- hu,
+    své -- mu Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 72"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b( a) g \barMin a f a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    fial = "antifony/tyden1_2pondeli.ly#rch-ant3?+aleluja"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ve -- leb -- te Bo -- ha,
+    všich -- ni je -- ho an -- dě -- lé.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 97"
+    id = ""
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -370,6 +434,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
+    placet = "melisma na _hosté_ se mi zdá nadbytečné"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -421,6 +486,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_a_ je lepší podržet g"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -465,6 +531,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
+    placet = "ozdoba _slávou_ je neorganická"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     fial = "vanoce_narozenipane.ly#vden-1ne-a1?cast" % zdrojova antifona se mezitim zmenila! Zvazit upravu i zde
     id = "2ne-a1"
@@ -514,6 +581,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 15"
+    placet = "nepříliš povedená"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -724,6 +792,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "jinak"
       id = "9-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -939,6 +1008,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "jinak. Mělo by být prosté a elegantní."
       id = "krtu-1ne-kantresp"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -971,6 +1041,8 @@
     \header {
       quid = "resp."
       modus = "VIII"
+      placet = "verš a doxologii jinak;
+      ve verši by se mohla hodit větší ozdoba na _Rozmnož_ a odlehčený zbytek"
       id = "krtu-1ne-resp"
       piece = \markup\sestavTitulekResp
     }
@@ -997,6 +1069,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "značně jednotvárná"
       id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1027,6 +1100,66 @@
       psalmus = ""
       id = "krtu-invit"
       piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Hos -- po -- di -- nův hlas nad vo -- da -- mi!
+      Vzne -- še -- ný Bůh za -- bu -- rá -- cel hro -- mem.
+    }
+    \header {
+      quid = "1. ant."
+      modus = ""
+      differentia = ""
+      psalmus = "Žalm 29"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Bo -- že,
+      ať se ti s_ra -- dos -- tí
+      ko -- ří ce -- lá ze -- mě.
+    }
+    \header {
+      quid = "2. ant."
+      modus = ""
+      differentia = ""
+      psalmus = "Žalm 66-I"
+      id = ""
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = ""
+      differentia = ""
+      psalmus = "Žalm 66-II"
+      id = ""
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -1165,6 +1298,7 @@
       quid = "resp."
       modus = "III"
       piece = \markup\sestavTitulekResp
+      placet = "versus non placet"
       id = "krtu-rch-resp"
       fons = "Kromě verše vše viz neděle 1. týdne žaltáře."
     }
@@ -1242,6 +1376,7 @@
       modus = "VIII"
       differentia = "G*"
       psalmus = ""
+      placet = "po _Je třeba_ cesura; _splnili_ lépe; závěr lépe"
       id = "krtu-sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }

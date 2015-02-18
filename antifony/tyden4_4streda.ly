@@ -53,6 +53,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 103-II"
+    placet = "_nad těmi_ snad lépe d e f"
     id = "cte-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -99,6 +100,7 @@
     modus = "I"
     differentia = "D2"
     psalmus = "Žalm 108"
+    placet = "rytmus i melodie _důvěry_ (navíc zdvojeno) jsou jaksi nepřirozené a nelibé"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

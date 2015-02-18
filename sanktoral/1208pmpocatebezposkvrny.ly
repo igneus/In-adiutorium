@@ -338,6 +338,7 @@
     differentia = "c"
     psalmus = ""
     id = "sexta"
+    placet = "zbytečně velký rozsah. _tebe_ stačí ag f"
     fons = "commune o sv. zene, 1.nesp., 3.a.; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -458,6 +459,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_nikdy nezvítězí_ dře"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

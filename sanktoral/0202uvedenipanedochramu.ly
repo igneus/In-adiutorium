@@ -283,6 +283,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -458,6 +459,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -482,6 +484,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 130"
+    placet = "lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

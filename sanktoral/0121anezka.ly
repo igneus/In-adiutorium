@@ -155,6 +155,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
+    placet = "zkusit nějakou subtilnější variantu"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -177,6 +178,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 4"
+    placet = "z celého formuláře daleko nejméně povedená"
     id = ""
     piece = \markup {\sestavTitulek}
   }

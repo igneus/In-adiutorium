@@ -126,6 +126,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 118"
+    placet = "melodie druhé části je taková 'kramářská'"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -308,6 +309,7 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
+    placet = "to kantikum v modu VIII nemáme. Dodělat nebo předělat antifonu."
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}

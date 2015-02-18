@@ -263,6 +263,9 @@ tIpatekNespAntIII = \score {
     differentia = "g"
     quid = "3. ant."
     psalmus = "Zj. 15"
+    placet = "mám ji takhle rád, ale melodií vypíchnuté _a budou_
+    je barbarské. Na druhou stranu právě tenhle kousek melodie
+    je důležitý pro (alespoň mně) libou souměrnost první a druhé části."
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

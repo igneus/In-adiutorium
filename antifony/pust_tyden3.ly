@@ -221,7 +221,105 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) f e f d d \barMin
+    c c e d c d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    % temer stejny text je na konci antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag
+    % ale uryvek melodie neni vhodny pro samostatne pouziti
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Úterý}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d e d d c( d) d \barMin
+    d d c b a c d d \barMaior
+    d d d d
+    d( f) d e d c b a \barMin
+    g f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ří -- kám ti, Pet -- ře,
+    a -- bys od -- pus -- til se -- dm -- krát,
+    a -- le tře -- ba se -- dma -- se -- dm -- de -- sát -- krát,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?volne"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) f f( g) g \barMin
+    c a a c b a g( a) g \barMaior
+    f g a a g a a( c) b b a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Středa}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    c c d c d e c a b c a g g \barMaior
+    f g a a a a( c) c \barMin
+    c c b( c a) g( a) a( g) \barMin
+    f g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit Zá -- kon ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -266,6 +364,93 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d e f e d c d d \barMaior
+    a' b c b a c( a) a \barMin
+    g a g f( g a) a \barMaior
+    a c c c b a c a a \barMax
+
+    g f g f( d) d \barMaior
+    d e f g( a bes) a( g) f g g \barMaior
+    g a g f g f( d) d \barMin
+    e f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Jed -- na že -- na ze zá -- stu -- pu zvo -- la -- la:
+    Bla -- ho -- sla -- ve -- ný ži -- vot,
+    kte -- rý tě no -- sil,
+    a pr -- sy, kte -- ré tě ko -- ji -- ly.
+
+    Je -- žíš však ře -- kl:
+    Spí -- še jsou bla -- ho -- sla -- ve -- ní, % ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    textus_approbatus = \markup{Jedna žena ze zástupu zvolala:
+    Blahoslavený život, který tě nosil, a prsy, které tě kojily.
+    Ježíš však řekl:
+    Spíše jsou blahoslavení ti,
+    kdo slyší Boží slovo a zachovávají ho.}
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisDen{Pátek}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f a g g \barMin
+    a c c c b( a) g( a) g \barMaior
+    a a a( c) c \barMin c( d) c a a \barMin
+    f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kte -- ré při -- ká -- zá -- ní
+    je v_Zá -- ko -- ně nej -- vět -- ší?
+    „Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem.“
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c d( c) b( a) a \barMin
+    g f g( a f) e e \barMaior
+    e f( a) \barMin a g a b a g f g( e) e \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
