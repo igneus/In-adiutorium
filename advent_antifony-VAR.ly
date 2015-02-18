@@ -316,7 +316,7 @@
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
-  
+
   \markup\justify{
     Tuto antifonu jsem před časem označil pro revizi, ale když se ji teď
     chystám revidovat a zpívám ji, nepřijde mi vůbec špatná a nemám
@@ -349,6 +349,30 @@
   \score {
     \relative c' {
       \choralniRezim
+      d4 d d f e f f g \barMaior
+      g g f g g f d e( d) \barMin
+      c d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \choralniRezim
 
       d4 f( d) d
       d e f g( f) e \barMin
@@ -369,6 +393,8 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \pageBreak
 
   \score {
     \relative c' {
@@ -388,6 +414,41 @@
       quid = "ant. odpoledne"
       modus = "I"
       differentia = "f"
+      psalmus = ""
+      id = "spol-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \markup\justify{
+    \sans{"\"přestat být pannou\"" je jeden z nešťastných 
+    - velmi nepřirozeně znějících - překladů.
+    Tedy - nepřekladů! Originál totiž zní:}
+    María dixit: Qualis est ista salutátio? 
+    quia conturbáta est ánima mea, 
+    et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.
+  }
+  
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g d' c b( c) \barMin
+      a g g a g f g g \barMaior
+      g g g g g( c) a \barMin
+      c b c e( d) d \barMaior
+      d c b g g a( b) a( g) g \barFinalis
+    }
+    \addlyrics {
+      An -- děl Ga -- bri -- el 
+      o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      že se má stát mat -- kou
+      Bo -- ží -- ho Sy -- na,
+      a ne -- pře -- sta -- ne být pan -- nou.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "VII"
+      differentia = "a"
       psalmus = ""
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}

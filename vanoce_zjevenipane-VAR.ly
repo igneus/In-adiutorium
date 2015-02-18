@@ -1546,6 +1546,8 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup\sestavTitulekResp
     }
   }
+  
+  \pageBreak
 
   \score {
     \relative c' {
@@ -1571,6 +1573,33 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+  
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f e f( g) g \barMin
+      f( e) d f( e) \mark\sipka d( c) c \barMaior
+      d4 d d d \mark\sipka e d c d d( c) \barMaior
+      d d \mark\sipka e f g g e \barMin
+      d d( f) e c c d d \barFinalis
+    }
+    \addlyrics {
+      Spa -- si -- tel se dal po -- křtít
+      vo -- dou Jor -- dá -- nu,
+      a vo -- da se sta -- la zna -- me -- ním
+      no -- vé spra -- ve -- dl -- nos -- ti
+      a no -- vé -- ho ži -- vo -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D" 
+      psalmus = "Magnificat"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  
+  \pageBreak
 
   \markup {\nadpisHodinka {"invitatorium"}}
   

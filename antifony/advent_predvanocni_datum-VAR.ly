@@ -54,6 +54,8 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {19. prosince}}
 \score {
   \relative c' {
@@ -79,6 +81,33 @@ v předvánočním týdnu latinsky.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) \mark\sipka g bes bes a a \barMaior
+    a4 a a a a g f f( g) g \barMin
+    g f e \mark\sipka d( e) d d \barMin
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {20. prosince}}
 \score {

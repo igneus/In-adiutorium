@@ -993,7 +993,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     a f f f g g e e \barMaior
     d c d e e f( a g f) e e \barFinalis
@@ -1007,6 +1006,31 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 4.1
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a g a g f d e e \barMaior
+    d f g a a \barMin g( c b a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    notitia = "antifona výjimečně nekončící na finále modu"
+    placet = "nebo je to II.A?"
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1062,6 +1086,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny 2
 
 \score {
   \relative c'' {
@@ -1132,6 +1158,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "finála e je nepravá"
     id = "t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1230,6 +1257,91 @@
   }
 }
 
+\markup\nadpisSkupiny 11
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c( e) d( c) d( c) \barMin
+    bes c d d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil 
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f f e( f g) \barMin
+    f e f d c( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil 
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 12
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f( e d) \barMin
+    e f d d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil 
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 c d f g f( e d) \barMin
+    e f \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil 
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1247,6 +1359,49 @@
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 c c c b( d) c a b a g g \barMaior
+    f g a( c) b \barMin a c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c b( d) c a b a g g \barMaior
+    f g a( c) b \barMin \mark\sipka c d b g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "t1-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
