@@ -194,7 +194,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    g4 f g g( a) a \barMaior
+    a a( c) c b( a g a) a( g) \barMin
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Kdo vě -- ří v_Sy -- na,
@@ -203,8 +205,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -214,19 +216,23 @@
 \markup {\nadpisDen {Pátek}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d( e c) c( d) d \barMaior
+    d f e c d c \barMin
+    c b a g a g f \barMin
+    g a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal chle -- by
-    a po dí -- ků -- vzdá -- ní je roz -- dá -- val pří -- tom -- ným.
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -265,9 +271,13 @@
 \markup {\nadpisDen {Sobota}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( c d) \barMin
+    e c d \barMin
+    c b a( g) a \barMaior
+    b c a a \barMin
+    c d c( a) a \barFinalis
   }
   \addlyrics {
     Po -- koj vám!
@@ -278,8 +288,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
