@@ -328,9 +328,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c b g a( g) g \barMin
+    f g g g \barFinalis
   }
   \addlyrics {
     To je sku -- tek, kte -- rý žá -- dá Bůh,
@@ -340,8 +343,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -375,9 +378,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b a c \barMin
+    b c d c b a c( a) a \barMaior
+    a g( a f e) e e( f) d e e \barMaior
+    g a f( e) e \barFinalis
   }
   \addlyrics {
     Chléb Bo -- ží je ten,
@@ -387,8 +393,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -398,20 +404,28 @@
 \markup {\nadpisDen {Středa}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g a c a d( a) a \barMin
+    g f( g f) e g( a) a \barMaior
+    a-- a( b) c a a \barMaior
+    c d d \[ e( c d \] \[ c a) \] b( a) \barMin
+    f g a a \barMaior
+    b c a( g) g \barFinalis
   }
   \addlyrics {
-    Kaž -- dý, kdo vi -- dí Sy -- na a vě -- ří v_ně -- ho,
+    Kaž -- dý, kdo vi -- dí Sy -- na
+    a vě -- ří v_ně -- ho,
     má ži -- vot věč -- ný
-    a já ho vzkří -- sím v_po -- sled -- ní den.
+    a já ho vzkří -- sím v_den po -- sled -- ní.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
+    má život věčný a já ho vzkřísím v poslední den. Aleluja."
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
