@@ -287,20 +287,25 @@
 \markup {\nadpisDen {Úterý}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
+    f g a a a a c( b) a( g) g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
-    Skut -- ky, kte -- ré ko -- nám ve jmé -- nu své -- ho Ot -- ce,
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
     vy -- dá -- va -- jí o mně svě -- dec -- tví.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -309,7 +314,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c a c( d) d \barMin
+    d e f f( g f) d( c) c \barMaior
+    d d d( f) f e d c( d c) c \barMin
+    c d d d \barFinalis
   }
   \addlyrics {
     Já znám své ov -- ce
@@ -319,8 +327,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -330,9 +338,12 @@
 \markup {\nadpisDen {Středa}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d d e d d c c( b c d) d \barMaior
+    a a a( d) d \barMin d c b a( g) g \barMaior
+    f g a a( c b) a( g) g \barMin f g g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem při -- šel na svět ja -- ko svět -- lo,
@@ -342,8 +353,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
