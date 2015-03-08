@@ -49,6 +49,9 @@
     \choralniRezim
     a4 a a f( e) e \barMin
     f g f g a f e( f) d d \barMaior
+
+    d f g a c b g a \barMin
+    g g g f( e d) c d d \barFinalis
   }
   \addlyrics {
     Dá -- vám svůj ži -- vot
