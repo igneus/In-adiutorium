@@ -348,7 +348,7 @@
   \addlyrics {
     Já jsem při -- šel na svět ja -- ko svět -- lo,
     a -- by žád -- ný, kdo vě -- ří ve mne,
-    ne -- zů -- stal v tem -- no -- tě, pra -- ví Pán.
+    ne -- zů -- stal v_tem -- no -- tě, pra -- ví Pán.
     A -- le -- lu -- ja.
   }
   \header {
@@ -362,20 +362,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g( c) a( g) g a g f a a( g) g \barMin
+    a b c c( d c) b( a) a \barMaior
+    c c a g a( g f) \barMin
+    f f d f( g) a g g \barMaior
 
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh ne -- po -- slal své -- ho Sy -- na na svět,
     a -- by svět od -- sou -- dil,
-    a -- le a -- by svět byl skr -- ze ně -- ho spa -- sen.
+    a -- le a -- by svět
+    byl skr -- ze ně -- ho spa -- sen.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -387,7 +393,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f4.( d) f4 f g a a \barMaior
+    a g g f g a f d( e) d( c) \barMaior
+    d d d e f e d c c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- ní žák nad u -- či -- te -- le.
@@ -397,8 +406,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -435,22 +444,27 @@
 \markup {\nadpisDen {Pátek}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b( a) g f g a g g \barMaior
+    a a( c) b a c( d) d \barMaior
+    d c b c b( g) \barMin
+    f g a b a g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to.
     A vez -- mu vás k_so -- bě,
-    a -- by -- ste i vy by -- li tam,
-    kde jsem já.
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vmag1?cast&upraveno"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
