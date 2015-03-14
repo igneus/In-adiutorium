@@ -66,6 +66,7 @@
     differentia = "a"
     psalmus = "Flp 2"
     fial = "pust_svatytyden.ly#ut-ne-amag?pokracovani"
+    placet = "_život_ se těžko zpívá"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -174,6 +175,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 111"
+    placet = "začátek zkusit lépe (není špatně, nedráždí, ale stejně)"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -186,15 +188,18 @@
     a a( c) a a b( c) a a g g \barFinalis
   }
   \addlyrics {
-    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
     % a
     vzal na se -- be na -- še bo -- les -- ti.
   }
   \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
     psalmus = "1 Petr 2"
+    placet = "finála je poněkud neuspokojivá; lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }

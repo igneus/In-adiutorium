@@ -100,7 +100,8 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 85"
-    placet = "sama o sobě se mi líbí, ale nesedí do modu - soudě mj. z toho, jak těžké je mi po ní správně začít žalm"
+    placet = "sama o sobě se mi líbí, ale nesedí do modu - soudě mj. z toho, jak těžké je mi po ní správně začít žalm.
+    Zdá se, že ve skutečnosti je hypodórská na g."
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

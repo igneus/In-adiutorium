@@ -43,6 +43,7 @@ tIpondeliAntMagnificat = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "pořád to není ono"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -257,6 +258,8 @@ tIsobotaAntBenedictus = \score {
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "jedna z mých nejoblíbenějších antifon;
+    nejsem si však jist, že melodie úvodního oslovení odpovídá důstojnosti oslovovaného"
     id = "t1-so-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

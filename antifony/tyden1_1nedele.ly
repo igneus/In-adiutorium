@@ -63,7 +63,8 @@ tInedeleInespAntIII = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
-    placet = "melodie je textu nepřiměřená, taková bezstarostná"
+    placet = "melodie je textu nepřiměřená, taková bezstarostná;
+    melodie _proto ho_ je nepřirozená"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -149,12 +149,13 @@ tIsobotaInvitatorium = \score {
     modus = "II"
     differentia = "D"
     dies = "sobota"
+    placet = "poslední cesura je zbytečná - pryč; druhá by měla být maior"
     id = "t1so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-% LICHE TYDNY --------------------------------------------
+% SUDE TYDNY --------------------------------------------
 
 tIInedeleInvitatorium = \score {
   \relative c' {

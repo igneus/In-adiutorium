@@ -101,7 +101,8 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "_Boží evangelium_ je přetížené; i pokračování věnovat trochu péče"
+    placet = "_Boží evangelium_ je přetížené; i pokračování věnovat trochu péče;
+    v první části snad spíš jemně ozdobit _přišel_ a odlehčit _Galileje_"
     id = "ne3b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -168,6 +169,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "závěr dává smysl jen s přízvukem na _ten_ - zachytit v notaci"
     id = "ne4b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -240,6 +242,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "poslední část nedrží se zbytkem pohromadě"
     id = "ne5b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -264,6 +267,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "druhou polovinu lépe"
     id = "ne5b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -288,6 +292,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "melodie _kázal_ tady působí kýčovitě"
     id = "ne5b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -316,6 +321,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nepovedená"
     id = "ne6b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

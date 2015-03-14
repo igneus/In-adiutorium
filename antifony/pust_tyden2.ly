@@ -65,6 +65,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "o smrti zpívá značně radostně a bezstarostně"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -129,6 +130,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 150"
+    placet = "lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -483,7 +485,7 @@
     Vez -- mi mě ja -- ko jed -- no -- ho ze svých ná -- de -- ní -- ků.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant. k Benedictus"
     modus = "IV"
     differentia = "E"
     psalmus = ""

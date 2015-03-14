@@ -18,6 +18,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "_postíte_ rozhodně jinak"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -40,6 +41,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "příliš mnoho melismat; celkově není moc pěkná"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -85,6 +87,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "_nalezne ho_ není pěkné. Napříště se nevázat na zde použitou (ne)podobnou antifonu"
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

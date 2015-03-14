@@ -77,6 +77,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "_vytrpěl smrt_ hodně zvětšuje rozsah - asi by bylo dobré upravit;
+    repetitivním _dostal nový_ si nejsem jist;
+    celkově je antifona 'šedá' - není vysloveně špatná, ale také nic extra"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -99,6 +102,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 63"
+    placet = "není úplně špatná, zejména zpěvnost jí nelze vyčítat,
+    ale nějak jí úplně nevěřím, co říká"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -119,6 +124,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "slabá"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -164,6 +170,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 110"
+    placet = "všechny tři jsou takové 'nic extra'"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -440,6 +447,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "viz zdroj"
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne6a-rch-aben"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -503,6 +511,9 @@
     % schvalne jsem nevysel z antifony s podobnym textem
     % pro jednu z nedeli v mezidobi - jeji melodie je moc rozverna
     % a pro tuto textovou variantu by se spatne modifikovala
+    placet = "_budete_ tady rozhodně d d c; celkem si však nejsem jist,
+    zejména pro silné tíhnutí k c. (To by mohlo indikovat příslušnost
+    k modu VIII, spíš je to ale prostě nepovedená melodie k výměně.)"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

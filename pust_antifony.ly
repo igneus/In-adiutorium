@@ -52,6 +52,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "stále to není ono"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -98,6 +99,8 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
+      dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -121,6 +124,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "ze všech tří daleko nejslabší"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }

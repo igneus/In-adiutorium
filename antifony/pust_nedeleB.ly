@@ -21,6 +21,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "minimálně _divokými_ a _sloužili_ opravit"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -77,6 +78,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "není zlá, ale rozsah je smrtící"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -103,6 +105,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "zkusit lépe"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -123,6 +126,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -195,6 +199,7 @@
     differentia = "a"
     psalmus = ""
     id = "iiiben"
+    placet = "_o chrámu_ je špatně"
     fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
     fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -217,6 +222,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "zjevně modus VIII"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

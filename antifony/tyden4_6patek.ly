@@ -167,6 +167,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 51"
+    placet = "první divisio maior"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -188,6 +189,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Tob 13"
+    placet = "druhá divisio maior, třetí minor, poslední pryč"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

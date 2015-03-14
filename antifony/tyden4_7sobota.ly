@@ -50,6 +50,10 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-V"
+    placet = "stejný začátek všech tří antifon působí skoro jako
+    absolutní rým - a zároveň je to _braní jména Božího_;
+    možná by stačilo u této jedné změnit podmět na nevyjádřený,
+    např. Přivedl je do své svaté země."
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -110,10 +114,10 @@
   }
   \addlyrics {
     Vzý -- vej mě v_sou -- že -- ní,
-    % a vy -- svo -- bo -- dím tě.
     a já tě vy -- svo -- bo -- dím.
   }
   \header {
+    textus_approbatus = "Vzývej mě v soužení, a vysvobodím tě."
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
@@ -160,6 +164,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 92"
+    placet = "druhá divisio maior"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

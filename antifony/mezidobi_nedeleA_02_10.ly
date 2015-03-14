@@ -349,6 +349,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
+    placet = "_učitelů Zákona_ je nepřirozené a dře"
     id = "ne6a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
