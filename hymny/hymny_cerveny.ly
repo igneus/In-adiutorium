@@ -40,6 +40,22 @@ notime = {
 
 \score {
   \relative c' {
+    \key e \dorian
+    \notime
+
+    \repeat volta 2 { e4 b' d8 cis b4 fis e fis8 b4 a8 g4 fis2 }
+    b8 a g fis e4 fis g fis8 e4 d8 cis4 b2 \bar "|"
+    fis'8 fis g g fis4 e b' d8 cis4 b8 g4 fis( e)\fermata \bar "|"
+    b'8 a4 g8 fis4 e \bar "|."
+  }
+  \header {
+    fons = "s. 29"
+    id = "7"
+  }
+}
+
+\score {
+  \relative c' {
     \key g \minor
     \time 4/4
 
