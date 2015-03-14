@@ -93,7 +93,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f f f f e d c d d( c) \barMaior
+    d e f f e d f( g) g \barMin
+    d d f e c d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
@@ -103,8 +106,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -140,7 +143,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 d d f g f f f g( a) a \barMaior
+    f f( g) f d \barMin c c d f g f f \barMaior
+    g a f f \barFinalis
   }
   \addlyrics {
     Já -- sej -- me a ra -- duj -- me se všich -- ni!
@@ -150,8 +155,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -241,18 +246,25 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a') a \barMin a g a g f g g( a) a
+    b( c) a g a a \barMaior
+    a c( b a) g g( e) \barMaior
+    d d d d( a') a g b( c a) a \barMin
+    f g d f( e) d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
-    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky všech -- ny ná -- ro -- dy
-    a křtě -- te je ve jmé -- nu Ot -- ce i Sy -- na
+    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky
+    všech -- ny ná -- ro -- dy
+    a křtě -- te je
+    ve jmé -- nu Ot -- ce i Sy -- na
     i Du -- cha sva -- té -- ho.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -290,7 +302,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f e d f( g) g \barMin
+    g f g a f g \barMaior
+    g g a b c c b \barMin
+    a c c b a g g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Kris -- tus Je -- žíš ze -- mřel,
@@ -301,8 +317,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
