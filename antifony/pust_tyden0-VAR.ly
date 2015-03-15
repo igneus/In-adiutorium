@@ -155,6 +155,31 @@
   }
 }
 
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g f) g( a) a \barMin
+    a bes a g g a f( e) d \barMaior
+    g a g g e f( g) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Když dá -- váš al -- muž -- nu,
+    ať ne -- ví tvo -- je le -- vi -- ce,
+    co dě -- lá tvo -- je pra -- vi -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    fons_externus = "AR1912, 303. (Ant. Cum facis eleemosynam)"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Čtvrtek}
