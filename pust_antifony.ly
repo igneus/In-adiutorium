@@ -40,8 +40,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g( a g) f( g) f( e) e \barMin
-      e d( f) f f( g) f e( f) e e \barFinalis
+      d4 a g a \barMin
+      a c c b a g a a \barFinalis
     }
     \addlyrics {
       Ob -- rať -- te se
@@ -49,10 +49,9 @@
     }
     \header {
       quid = "ant."
-      modus = "IV"
-      differentia = "g"
+      modus = "IV alt"
+      differentia = "d"
       psalmus = ""
-      placet = "stále to není ono"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -107,12 +106,12 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
 
-      d4( c) a( g) f4.( g) \barMin
-      f4 f g a( b) c b c d4. \barMin
-      d4 d c d c( a) g f g4. g \barFinalis
+      f4 f( g) g( f) \barMin
+      f g a f d e d( c) c \barMaior
+      d e f f g a g f f \barFinalis
     }
     \addlyrics {
       Svou věr -- nost
@@ -121,10 +120,9 @@
     }
     \header {
       quid = "ant. odpoledne"
-      modus = "VII"
-      differentia = "d"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
-      placet = "ze všech tří daleko nejslabší"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
