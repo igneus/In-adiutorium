@@ -146,6 +146,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_pojďme_ jinak"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

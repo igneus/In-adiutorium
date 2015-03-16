@@ -251,6 +251,7 @@
     psalmus = ""
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
+    placet = "od _aby každý_ snad půjde lépe"
     fial = "pust_svatytyden.ly#po-ne-amag?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }

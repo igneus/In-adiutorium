@@ -64,6 +64,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Flp 2"
+    placet = "_a_ ať zůstane ještě na f"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -88,6 +89,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 118"
+    placet = "lépe"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -110,6 +112,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-II"
+    placet = "_vysvobodit_ snad raději zpěvněji"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
