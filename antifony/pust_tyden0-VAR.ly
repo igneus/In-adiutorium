@@ -60,6 +60,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a \mark\sipka g g( a) a \barMin
+    a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c a c b( g) a \barMaior
     g e e e f e f g a a \barMin
     b c b( a) g g \barFinalis
@@ -176,6 +197,28 @@
     psalmus = ""
     id = ""
     fons_externus = "AR1912, 303. (Ant. Cum facis eleemosynam)"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g f) g( a) a \barMaior
+    a bes a g f g( a) a g \barMin
+
+  }
+  \addlyrics {
+    Když dá -- váš al -- muž -- nu,
+    ať ne -- ví tvo -- je le -- vi -- ce,
+    co dě -- lá tvo -- je pra -- vi -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
