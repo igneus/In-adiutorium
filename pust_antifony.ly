@@ -52,6 +52,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "stále to není ono"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -63,10 +64,12 @@
     \relative c'' {
       \choralniRezim
 
-      a4 d c a b c c b4. \breathe a4 a a g a f g4. g \bar "||"
+      a4 d c a b c c b4. \barMin
+      a4 a a g a f g4. g \barFinalis
     }
     \addlyrics {
-      Na -- sta -- ly nám dny po -- ká -- ní, čas od -- puš -- tě -- ní a spá -- sy.
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
     }
     \header {
       quid = "ant. dopoledne"
@@ -82,19 +85,24 @@
     \relative c'' {
       \choralniRezim
 
-      g4 g f g a b c( a) g g4. \breathe a4 b c c c d d c d a4. \breathe f4 g g4. \bar "||"
+      g4 g f g a b c( a) g g4. \barMin
+      a4 b c c c d d c d a4. \barMin
+      f4 g g4. \barFinalis
     }
     \addlyrics {
-      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel, a -- le a -- by se o -- brá -- til a žil, pra -- ví Pán.
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
     }
     \header {
       quid = "ant. v poledne"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
+      dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
-      piece = "antifona - poledne - VIII.G"
     }
   }
 
@@ -102,16 +110,21 @@
     \relative c'' {
       \choralniRezim
 
-      d4( c) a( g) f4.( g) \breathe f4 f g a( b) c b c d4. \breathe d4 d c d c( a) g f g4. g \bar "||"
+      d4( c) a( g) f4.( g) \barMin
+      f4 f g a( b) c b c d4. \barMin
+      d4 d c d c( a) g f g4. g \barFinalis
     }
     \addlyrics {
-      Svou věr -- nost ve služ -- bě Bo -- hu a bliž -- ním pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
+      Svou věr -- nost
+      ve služ -- bě Bo -- hu a bliž -- ním
+      pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
     }
     \header {
       quid = "ant. odpoledne"
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "ze všech tří daleko nejslabší"
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
