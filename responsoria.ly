@@ -342,7 +342,7 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
-      f f \barMin f f f f f f g f g( a) a( g) \barMax
+      f f f f f f f f g f g( a) a( g) \barMax
       g g a g( f) d f( g) g f \barFinalis
       % V
       \neviditelna a
@@ -362,7 +362,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "cesura po _Boze_ pryc"
       id = "1st-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -408,13 +407,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f g f g g( a) a( g) \barMax
-      g g g g( f d) f( g) g f \barFinalis
+      g f d f g g f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( f d) f( g) g f \barFinalis
+      g f d f g g f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -427,7 +426,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "druhá část repetendy by zněla přirozeněji a liběji bez melismat, prostě g f d f g g f"
+      placet = "sylabická sestupná část r2 je sice netradiční, ale zní dobře (narozdíl od melismatických variant)"
       id = "1ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -440,13 +439,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g g g g( f d) f g g f f \barFinalis
+      g g g f( d) f g g f f \barFinalis
       % V
       \neviditelna g
       a a a( bes) a a a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( f d) f g g f f \barFinalis
+      g g g f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -459,7 +458,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "asi lépe bez dlouhého melismatu na _jadrnou_"
       id = "1ct-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -474,13 +472,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
-      g g( f d) f( g) g( f) f \barFinalis
+      f g a g( f) f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( f d) f( g) g( f) f \barFinalis
+      f g a g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -494,7 +492,6 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "_tebe_ nezní moc přirozeně"
       id = "1pa-rch"
       piece = \markup\sestavTitulekResp
     }
