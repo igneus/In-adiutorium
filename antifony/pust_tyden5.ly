@@ -21,7 +21,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 141"
-    id = ""
+    placet = "těžce neuspokojivá finála; antifona navíc nic moc - lépe"
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -44,7 +45,8 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 142"
-    id = ""
+    placet = "zaslouží trochu úsilí"
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -62,7 +64,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Flp 2"
-    id = ""
+    id = "ne-1ne-a3"
     fons = "Zelený čtvtek, antifona namísto responsoria (velký kus spol. textu i melodie)"
     piece = \markup {\sestavTitulek}
   }
@@ -83,7 +85,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "rozhodně není hypomixolydická; spíš hypodórská na g"
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -114,7 +117,7 @@
     psalmus = "Dan 3-III"
     placet = "hezká, ale ne v modu VII;
     lze transponovat do modu I, ale finála je tak jako tak neuspokojivá"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -136,7 +139,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 149"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -159,7 +162,8 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 110"
-    id = ""
+    placet = "takový text nesmí mít nemastný neslaný nápěv!"
+    id = "ne-ne2-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -181,7 +185,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 114"
-    id = ""
+    id = "ne-ne2-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -203,7 +207,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "1Petr 2"
-    id = ""
+    id = "ne-ne2-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -226,7 +230,9 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "melodie závěru je taková jakási neuspokojivá"
     fial = "commune/commune_jedenmucednik.ly#1ne-a2?-aleluja"
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -250,7 +256,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -276,7 +282,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -302,7 +308,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -330,7 +336,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -352,7 +358,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -380,7 +386,8 @@
     modus = "I"
     differentia = "g2"
     psalmus = ""
-    id = ""
+    placet = "tak nějak neuhlazená, nesouladná"
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -400,7 +407,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -424,7 +431,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -446,7 +453,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -470,7 +477,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
