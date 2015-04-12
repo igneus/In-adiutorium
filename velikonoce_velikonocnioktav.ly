@@ -54,6 +54,9 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "Druhou část odjakživa zpívám s vyšinutým přízvukem:
+    [svou] kr[ví] nás vykoupil.
+    To možná indikuje, že by melodie měla být jinak, aby textu lépe odpovídala"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -102,6 +105,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 149"
+    placet = "poněkud banální; položit důraz na _Pán vstal z mrtvých_"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -204,6 +208,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "melisma z _byli_ raději pryč"
     id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -278,6 +283,9 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "melisma na _se_ je nevhodné, zní velmi nepřirozeně;
+    v mluvené řeči je zvratné zájmeno spojeno s předchozím slovem
+    a je vždy krátké, bez průtahu"
     id = "nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -479,6 +487,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "cesura po _naproti_ pryč"
       id = "po-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -505,6 +514,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 24"
+      placet = "nic moc, půjde lépe"
       id = ""
       piece = \markup {\sestavTitulek}
     }
@@ -528,6 +538,7 @@
       modus = "I"
       differentia = "D"
       psalmus = "Žalm 66-I"
+      placet = "u této a následující vyzkoušet varianty vycházející z podobných antifon ze žaltáře"
       id = ""
       piece = \markup {\sestavTitulek}
     }
@@ -593,6 +604,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "změna melodie by asi byla vhodnější už na _k němu_, ne až na _obrátila_"
       id = "ut-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -641,6 +653,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-I"
+      placet = "všechny tři jsou povedené spíš méně než více"
       id = ""
       piece = \markup {\sestavTitulek}
     }
@@ -744,6 +757,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "pokusit se o lépe padnoucí aleluja"
       id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -992,6 +1006,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "jinak"
       id = "pa-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

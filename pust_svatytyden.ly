@@ -126,6 +126,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "přebytečná puncta m. pryč"
     id = "po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -223,6 +224,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "_nyní_ je alespoň pro mě intonačně náročné a přitom nic nepřináší"
       id = "ne-1ne-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -317,11 +319,15 @@
       Ho -- sa -- na na vý -- sos -- tech!
     }
     \header {
+      textus_approbatus = "Mnoho lidí prostíralo na cestu pláště,
+      jiní zase větvičky, které nařezali na polích,
+      a volali: Hosana na výsostech!"
       quid = "ant. k Magnificat"
       annus = "B"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "zkusit lépe"
       id = "ne-1ne-amag-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -468,6 +474,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "_Požehnaný ... Páně!_ asi půjde lépe"
       id = "ne-rch-aben-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -621,6 +628,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "není moc povedená, půjde lépe"
       id = "ne-2ne-amag-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -717,6 +725,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 19-A"
+      placet = "_vzal na sebe potupu kříže_ se hudba míjí s textem"
       id = "po-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -742,6 +751,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "zkusit lépe"
       id = "po-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -787,6 +797,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 45-II"
+      placet = "_protože sám sebe vydal na smrt_ má nevhodný, nevážný rytmus"
       id = "po-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -811,6 +822,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Ef 1"
+      placet = "_nás_ je rytmicky nešikovné; _skrze_ snad lépe d f"
       id = "po-ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -835,6 +847,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_nezahynul_ zkusit elegantněji/přirozeněji"
       id = "po-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

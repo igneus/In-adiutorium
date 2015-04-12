@@ -157,6 +157,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "kvarta na začátku je nezvyklá; antifona nic moc;
+    jako celek jsou tyto nešpory takové bez chuti"
     fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#na-a1?-aleluja"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -202,6 +204,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "1 Petr 2"
+    placet = "melodie je taková nezúčastněná či málem radostná, neodpovídá výpovědi textu"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -301,6 +304,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "nic moc"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -424,13 +428,17 @@
   \addlyrics {
     Zná -- te mě a ví -- te, od -- kud jsem,
     a pře -- ce jsem ne -- při -- šel sám od se -- be,
-    a -- le po -- slal mě můj O -- tec.
+    a -- le po -- slal mě můj O -- tec,
+    pra -- ví Pán.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "_ale poslal mě_ možná nejdřív vzestup a pak výraznou kadenci;
+    takhle je to takové chcíplé, což neodpovídá konfrontačnímu charakteru
+    zhudebněného textu"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

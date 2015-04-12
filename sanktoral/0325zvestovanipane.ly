@@ -38,6 +38,8 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 113"
+    placet = "_výhonek_ nakonec spíš odlehčit; dlouhé melisma tu
+    nezní tak dobře, jak jsem doufal"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -149,6 +151,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_nejvyššího_ má mít velké N a nemělo by mít melodii
+    takto čistě průběžného charakteru;
+    zvážit/vyzkoušet přestrukturování také u _Duch svatý_"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -389,6 +394,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nemastná-neslaná"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -413,6 +419,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "plná nefunkčních melismat"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -441,6 +448,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_celého světa je divné_; celkem si nejsem jist"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -467,6 +475,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
+    placet = "takhle se mi líbí,
+    ale přesto by se měla vyzkoušet jinak zvláště druhá část"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -497,6 +507,7 @@
     differentia = "D"
     psalmus = "Žalm 130"
     id = "2ne-a2"
+    placet = "pozor, zdrojová antifona byla zřejmě mezitím aktualizována"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#imag2"
     piece = \markup {\sestavTitulek}
@@ -522,6 +533,7 @@
     differentia = "a"
     psalmus = "Kol 1"
     id = "2ne-a3"
+    placet = "melisma na _Jsem_ je divné"
     fons = "spol. texty o P.M., 2. nešp., 2. ant."
     fial = "fial://commune/commune_maria.ly#2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -624,6 +636,10 @@
     modus = "II"
     differentia = "D"
     psalmus = "2ne-amag"
+    placet = "recyklace existující antifony je fajn,
+    antifona k Magnificat druhých nešpor slavnosti by si možná
+    zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
+    a připravit další, alternativní"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
     fial = "fial://advent_antifony.ly#spol-sexta"
     piece = \markup {\sestavTitulekBezZalmu}

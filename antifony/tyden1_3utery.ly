@@ -27,6 +27,9 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 10-I"
+    placet = "_soudí spravedlivě_ si nejsem jist -
+    dá se to sice zazpívat důstojně a pěkně, ale je to poměrně divoké a spíš
+    ozdoba pro ozdobu než autentický hudební výraz zhudebněného textu"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -53,6 +56,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 10-II"
+    placet = "_ty sleduješ_ by šlo lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -77,6 +81,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 12"
+    placet = "_upřímná slova_ raději eg f e d d"
     id = ""
     piece = \markup {\sestavTitulek}
   }

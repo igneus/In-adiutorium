@@ -332,6 +332,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "nemá spád"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
