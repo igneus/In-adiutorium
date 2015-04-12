@@ -14,19 +14,25 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c c c( d e d) d \barMin
+    d c b a g( a) a \barMaior
+    c c c a( g a g) g \barMin
+    f g a a( c) c c \barMin
+    c b a g g \barFinalis
   }
   \addlyrics {
-    Je -- di -- ným svět -- lem je Kris -- to -- va cír -- kev;
+    Je -- di -- ným svět -- lem
+    je Kris -- to -- va cír -- kev;
     všu -- de se ší -- ří,
-    a při -- tom zů -- stá -- vá je -- di -- ným tě -- lem.
+    a při -- tom zů -- stá -- vá
+    je -- di -- ným tě -- lem.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -156,7 +162,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 e d c d f e d d \barMaior
+    d c f f f g( f) f \barMin
+    g a g f g f e d e d d( c) \barMaior
+    a c d e( f) d c d d \barFinalis
   }
   \addlyrics {
     Sná -- šej -- te se na -- vzá -- jem v_lás -- ce
@@ -166,8 +175,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 127"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -175,20 +184,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( c) b c( d) d \barMaior
+    c b d d a a c b a( b g) a \barMin
+    g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš u -- mřel,
+    Je -- žíš u -- mřel pro -- to,
     a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
-    shro -- máž -- dil v_jed -- no.
+    shro -- máž -- dil vjed -- no.
   }
   \header {
+    textus_approbatus = "Ježíš umřel, aby rozptýlené Boží děti shromáždil vjedno."
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ef 1"
+    fial = "antifony/pust_tyden5.ly#so-aben"
     id = ""
     piece = \markup {\sestavTitulek}
   }
