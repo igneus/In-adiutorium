@@ -40,29 +40,39 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g a \barMin a g c b a g a \barMaior
+    f g a \barMin a a( bes) g a \barMaior
+    f g a a( bes) a \barMin
+    a g f e( f) d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- den Pán, jed -- na ví -- ra, je -- den křest,
     je -- den Bůh a O -- tec všech;
-    je na -- de vše -- mi, pro -- ni -- ká všec -- ky a je ve všech.
+    je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky
+    a je ve všech.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "zkusit alternativy"
     id = ""
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d e f g a g a( g) g \barMin
+    f( g f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
@@ -71,9 +81,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 149"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?rozsireno"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -84,26 +95,30 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g f( d) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g g g g( a) g f( d) d d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
     Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
-    \Verse Bu -- de -- te mít jed -- no srd -- ce a jed -- nu du -- ši._*
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
     \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -212,26 +227,30 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f g( f) \barMin f f g f g a a( g) \barMax
+    g a g( f d) f g f f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a( bes) a g( a) g \barMin
+    g g g a g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g a g( f d) f g f f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Je -- den Pán, jed -- na ví -- ra, je -- den křest._*
     Je -- den Bůh a O -- tec všech.
-    \Verse On je na -- de vše -- mi, pro -- ni -- ká všec -- ky a je ve všech._*
+    \Verse On je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech._*
     \Response Je -- den Bůh a O -- tec všech.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
