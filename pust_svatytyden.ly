@@ -356,6 +356,30 @@
 
   \pageBreak % ZLOM
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Je -- žíš kle -- kl a mo -- dlil se:
+      Ot -- če, chceš -- -li,
+      o -- de -- jmi o -- de mě ten -- to ka -- lich,
+      a -- však ne má vů -- le ať se sta -- ne,
+      a -- le tvá.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = "ne-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {

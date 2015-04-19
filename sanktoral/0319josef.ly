@@ -259,7 +259,7 @@
     differentia = "D"
     psalmus = "Žalm 21"
     placet = "_jméno Ježíš_ asi lépe ef d cd d"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -286,7 +286,7 @@
     differentia = "D"
     psalmus = "Žalm 92-I"
     placet = "_přikázal_ ef dc c"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -318,8 +318,29 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 92-II"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Věr -- ný muž je za -- hr -- nut chvá -- lou,
+    Pěs -- toun své -- ho Pá -- na je o -- sla -- vo -- ván.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 

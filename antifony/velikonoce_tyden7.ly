@@ -88,6 +88,12 @@
   }
 }
 
+\markup\italic{
+  Koná-li se vigilie,
+  antifona ke kantikům se bere
+  ze slavnosti Nanebevstoupení Páně.
+}
+
 \markup {\nadpisDen {Pondělí}}
 
 \score {

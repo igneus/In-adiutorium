@@ -69,6 +69,32 @@
   }
 }
 
+  \markup {\nadpisHodinka {"nedělní vigilie"}}
+
+  \markup\italic{před Nanebevstoupením Páně:}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Pojď -- me a klaň -- me se to -- mu,
+      kte -- rý vstal z_mrt -- vých:
+      vždyť skr -- ze kříž
+      vze -- šla svě -- tu ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisHodinka {"modlitba uprostřed dne"}
 
   \markup{Následující antifony pocházejí

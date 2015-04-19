@@ -57,6 +57,28 @@
     }
   }
 
+  \markup {\nadpisHodinka {"nedělní vigilie"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
   \score {

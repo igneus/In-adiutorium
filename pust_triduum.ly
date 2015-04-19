@@ -216,6 +216,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když vo -- ják pro -- bo -- dl bok
+    U -- kři -- žo -- va -- né -- ho Pá -- na,
+    vy -- try -- skla krev a vo -- da,
+    a o -- te -- vřel se nám pra -- men
+    no -- vé -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "pa-mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -570,6 +592,26 @@
     psalmus = "Žalm 24"
     id = "so-mc-ant3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Z_ří -- še mrt -- vých
+    jsem ve své bí -- dě vo -- lal k_Hos -- po -- di -- nu,
+    a vy -- sly -- šel mě.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "so-mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
