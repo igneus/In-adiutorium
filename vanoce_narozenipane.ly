@@ -1200,21 +1200,22 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a b c b( a) g \barMin
-      c d e e d( c d) c( b a) \barMaior
-      d d( e d) c b a( g) g g c b g g \barFinalis
+      d4 d d c b c( d) d \barMin
+      c d c b a a \barMaior
+      c a g a b g \barMin
+      f g a g g \barFinalis
     }
     \addlyrics {
       Je -- žíš se s_ni -- mi vy -- dal
       na zpá -- teč -- ní ces -- tu,
-      šel do Na -- za -- re -- ta a po -- slou -- chal je.
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
     }
     \header {
       quid = "2. ant."
       modus = "VII"
-      differentia = "a"
+      differentia = "d"
       psalmus = "Žalm 127"
-      placet = "věnovat trochu péče"
       id = "svrodiny-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
