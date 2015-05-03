@@ -324,18 +324,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d( f g) \barMin
+    g a f f e( f d c) c \barMaior
+    d( e f d) d f( g) f d d \barMin
+    e f d c( d) d \barFinalis
 
+    c^\markup\rubrVelikAleluja d f( e) d \barFinalis
   }
   \addlyrics {
-    Věr -- ný muž je za -- hr -- nut chvá -- lou,
-    Pěs -- toun své -- ho Pá -- na je o -- sla -- vo -- ván.
+    Věr -- ný muž
+    je za -- hr -- nut chvá -- lou,
+    Pěs -- toun své -- ho Pá -- na
+    je o -- sla -- vo -- ván.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
