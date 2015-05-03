@@ -112,6 +112,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 67"
+    placet = "nedopečená"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

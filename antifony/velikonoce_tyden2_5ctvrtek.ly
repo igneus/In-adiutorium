@@ -91,6 +91,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 72-I"
+    placet = "nepříliš povedená; následující zrovna tak"
     id = "na-a1"
     piece = \markup {\sestavTitulek}
   }

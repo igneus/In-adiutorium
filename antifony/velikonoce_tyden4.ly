@@ -167,6 +167,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 110"
+    placet = "nelibá"
     fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
     fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
     id = "ne-2ne-a1"
@@ -216,6 +217,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 19"
+    placet = "lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }

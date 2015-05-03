@@ -68,6 +68,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 65"
+    placet = "jaksi plochá či jednotvárná"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

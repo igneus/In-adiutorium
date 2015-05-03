@@ -21,6 +21,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 51"
+    placet = "_se_ je takhle nepřípustné"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

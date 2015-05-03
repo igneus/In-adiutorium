@@ -17,6 +17,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jako  laň prahne po vodách bystřin,
+    tak prahne má duše po tobě, Bože. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "f"

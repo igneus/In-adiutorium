@@ -68,7 +68,8 @@
     differentia = "d"
     psalmus = "Žalm 100"
     id = "rch-a3"
-    fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
+    placet = "zkusit melodičtější aleluja"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -117,7 +118,8 @@
     differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
-    fons = "Květná neděle, ad Benedictus, poslední část."
+    placet = "aleluja lépe"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

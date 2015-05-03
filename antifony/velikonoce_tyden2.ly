@@ -186,6 +186,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "pro _miluje Syna_ se mi kdoví odkud doporučuje f e f fg g"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

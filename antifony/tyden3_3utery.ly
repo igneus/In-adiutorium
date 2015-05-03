@@ -27,6 +27,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-I"
+    placet = "_nenávidí_ e d cd c - protože cd d b se mi zpívá o poznání hůř než cd c b"
     id = ""
     piece = \markup {\sestavTitulek}
   }

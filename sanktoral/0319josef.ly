@@ -258,7 +258,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 21"
-    placet = "_jméno Ježíš_ asi lépe ef d cd d"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }

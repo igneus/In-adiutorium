@@ -371,6 +371,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "IV.g"
     fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
