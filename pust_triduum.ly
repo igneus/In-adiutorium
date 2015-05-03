@@ -97,7 +97,7 @@
     differentia = "d"
     psalmus = ""
     id = "ct-resp"
-    fons = "Bílá sobota, ant. místo responsoria."
+    fial = "pust_triduum.ly#so-resp?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -320,7 +320,7 @@
     differentia = "d"
     psalmus = ""
     id = "pa-resp"
-    fons = "Bílá sobota, ant. místo responsoria."
+    fial = "pust_triduum.ly#so-resp?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -502,6 +502,7 @@
     %% Vedome a dobrovolne zasadne menim text antifony, aby se dala zpivat.
     textus_approbatus = "Byli jsme s Bohem usmířeni smrtí jeho Syna
     v době, kdy jsme s ním byli ještě znepřáteleni."
+    placet = "zkusit přeci jen zhudebnit celý text, popř. nahradit jiným pavlovským veršem stejné výpovědi (je jich řada)"
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -548,6 +549,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 4"
+    placet = "zkusit lépe"
     id = "so-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -570,6 +572,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 16"
+    placet = "není špatná, ale je docela neobvyklá a divoká; zkusit nějaké další varianty"
     id = "so-mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -634,6 +637,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 64"
+    placet = "taková konfekční melodie"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -896,6 +900,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
+    placet = "_o chrámu_ je špatně; opravu reflektovat i v odvozené antifoně antifony/pust_nedeleB.ly#iiiben"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -919,6 +924,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nic moc, patrně půjde lépe; nezapomenout zohlednit příbuzné antifony"
     id = "so-nesp-mag"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}

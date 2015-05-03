@@ -425,7 +425,7 @@
   }
   \addlyrics {
     Sva -- té pan -- ny, ve -- leb -- te Pá -- na;
-    te, kte -- rý vás po -- vo -- lal,
+    ten, kte -- rý vás po -- vo -- lal,
     a -- by -- ste ho ná -- sle -- do -- va -- ly
     s_ne -- roz -- dě -- le -- ným srd -- cem,
     při -- ve -- dl vás k_so -- bě.
@@ -755,6 +755,7 @@
     differentia = "a"
     psalmus = "Žalm 127"
     id = "2ne-a2"
+    placet = "zdrojová antifona se změnila"
     fons = "žaltář, po 1.t., nešp., 2. ant.; přidáno aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -779,6 +780,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "_zůstat_ ať nezačíná na a, ale udělá nějaký krok"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
