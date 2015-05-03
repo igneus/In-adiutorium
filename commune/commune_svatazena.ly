@@ -414,21 +414,21 @@
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f \major
     % R
-    \neviditelna a
-    a4 a a g( f d e) e( d) \barMax
-    c d f e( d) d \barFinalis
+    \neviditelna f
+    f4 f f g( a) a( g) \barMax
+    f g a g( f) f \barFinalis
     % V
-    \neviditelna a'
-    a4 a a a a( bes a g) f( d) d( e) e( d) \barMax
+    \neviditelna f
+    a4 a a a a( bes) a g( a) g \barMax
     % R
     \neviditelna a
-    c d f e( d) d \barFinalis
+    f g a g( f) f \barFinalis
     % Slava
-    a'4 a a( bes) a a a( g) g \barMin g g g f( d) d( e) e( d) \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh se k_ní sklo -- nil_*
@@ -439,8 +439,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
-    placet = "nic moc; raději zkusit tradiční formuli"
+    modus = "VI"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
