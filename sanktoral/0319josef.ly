@@ -267,7 +267,7 @@
   \relative c' {
     \choralniRezim
     d4 d d d c( d) d( f) d e( f) d d \barMaior
-    c c( d) d \barMin d d e f g f e( f) e d \barMaior
+    c c( d) d \barMin d d e f g f e( f) d( c) c \barMaior
     a c d d e f d c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja d d( e) d \barFinalis
@@ -682,23 +682,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a b c b( a) g \barMin
-    c d e e d( c d) c( b a) \barMaior
-    d d( e d) c b a( g) g g c b g g \barFinalis
+    d4 d d c b c( d) d \barMin
+    c d c b a a \barMaior
+    c a g a b g \barMin
+    f g a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš se s_ni -- mi vy -- dal
     na zpá -- teč -- ní ces -- tu,
-    šel do Na -- za -- re -- ta a po -- slou -- chal je.
+    šel do Na -- za -- re -- ta
+    a po -- slou -- chal je.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "d"
     psalmus = "Zj 15"
     placet = "nic moc; _na zpáteční cestu_ mi navíc připomíná nějakou známou melodii"
     fons = "Svaté Rodiny, 2. nešp., 2. ant. + aleluja"
@@ -713,12 +715,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a g a( b) g g \barMin
-    a a a b c b( a g) \barMaior
-    g g( a) g g a g f g f \barMin
-    e f g g( a c) b( a) g g \barFinalis
+    g4 g g a f g e e \barMaior
+    f g a b g a \barMaior
+    a g( a) a a g a g e e \barMin
+    d f g a g e e \barFinalis
 
-    f^\markup\rubrVelikAleluja a g g \barFinalis
+    d^\markup\rubrVelikAleluja d g( f) e \barFinalis
   }
   \addlyrics {
     Když Je -- žíš za -- čal pů -- so -- bit,
@@ -730,8 +732,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     placet = "hrůza"
     id = "2ne-amag"
