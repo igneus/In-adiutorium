@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.0"
 
 \include "../spolecne/tiraz.ly"
 \include "../spolecne/choral.ly"
@@ -66,7 +66,7 @@ rytmusVolny = {
     \relative c'' {
       \rytmusVolny
 
-      a8(-| c) c4 r2 d8-| c b a-| g a \bar "||"
+      a8(-! c) c4 r2 d8-! c b a-! g a \bar "||"
 
       g8 f g a( c) a4 a \bar "|"
       a8 a a c c c( a) a \bar "|"
@@ -92,26 +92,6 @@ rytmusVolny = {
 }
 
 \include "nespory/zalm110.ly"
-
-\bookpart {
-  \header {
-    subtitle = "1. žalm"
-  }
-
-
-}
-
-\bookpart {
-  \header {
-    subtitle = "2. žalm"
-  }
-}
-
-\bookpart {
-  \header {
-    subtitle = "3. žalm"
-  }
-}
 
 \include "nespory/responsoria.ly"
 
