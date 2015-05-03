@@ -284,7 +284,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 92-I"
-    placet = "_přikázal_ ef dc c"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -702,7 +701,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Zj 15"
-    placet = "nic moc; _na zpáteční cestu_ mi navíc připomíná nějakou známou melodii"
     fons = "Svaté Rodiny, 2. nešp., 2. ant. + aleluja"
     fial = "vanoce_narozenipane.ly#svrodiny-2ne-a2?aleluja"
     id = "2ne-a3"
@@ -735,7 +733,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "hrůza"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
