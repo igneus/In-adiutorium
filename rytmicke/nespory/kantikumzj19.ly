@@ -68,10 +68,16 @@ text = \lyricmode {
 }
 
 cal = \chords { c4 a4:m g2 }
+calal = \chords { a4:m g a2:m a4:m c g2 } % divne
 
 akordy = \chords {
-  % 1
+  % Vitezstvi
   g1 c4 f g2 \cal
+  g2 f4 g4 f2 g2 \calal
+
+  % Chvalte
+  g2 f4 g4 c2 a2:m g1 \cal
+  g2 f8 a4:m g8
 }
 
 % melodie aleluja
