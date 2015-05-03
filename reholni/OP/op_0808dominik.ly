@@ -7,7 +7,7 @@
 \header {
   title = \markup\titleSvatek
             "sv. otce Dominika, kněze"
-            památka
+            slavnost
             8.8.
   composer = "Jakub Pavlík"
 }
