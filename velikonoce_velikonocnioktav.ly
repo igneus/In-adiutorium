@@ -386,7 +386,7 @@
       modus = "I"
       differentia = "g"
       psalmus = "Žalm 1"
-      id = ""
+      id = "po-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -408,7 +408,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Žalm 2"
-      id = ""
+      id = "po-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -430,7 +430,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 3"
-      id = ""
+      id = "po-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -515,7 +515,7 @@
       differentia = "d"
       psalmus = "Žalm 24"
       placet = "nic moc, půjde lépe"
-      id = ""
+      id = "ut-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -539,7 +539,7 @@
       differentia = "D"
       psalmus = "Žalm 66-I"
       placet = "u této a následující vyzkoušet varianty vycházející z podobných antifon ze žaltáře"
-      id = ""
+      id = "ut-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -562,7 +562,7 @@
       modus = "I"
       differentia = "D"
       psalmus = "Žalm 66-II"
-      id = ""
+      id = "ut-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -654,7 +654,7 @@
       differentia = "G"
       psalmus = "Žalm 104-I"
       placet = "všechny tři jsou povedené spíš méně než více"
-      id = ""
+      id = "st-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -676,7 +676,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-II"
-      id = ""
+      id = "st-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -698,7 +698,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-III"
-      id = ""
+      id = "st-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -786,7 +786,7 @@
       modus = "VI" % zalm 118 ma "smulu" na mod VI; fakt jsem mel dobrou vuli slozit tuhle radku v jinem, ale zase to spadlo do sestky
       differentia = "F"
       psalmus = "Žalm 118-I"
-      id = ""
+      id = "ct-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -806,7 +806,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-II"
-      id = ""
+      id = "ct-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -828,7 +828,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-III"
-      id = ""
+      id = "ct-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -908,7 +908,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 136-I"
-      id = ""
+      id = "pa-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -931,7 +931,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 136-II"
-      id = ""
+      id = "pa-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -954,7 +954,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 136-III"
-      id = ""
+      id = "pa-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1033,7 +1033,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-I"
-      id = ""
+      id = "so-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1055,7 +1055,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-II"
-      id = ""
+      id = "so-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1081,7 +1081,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-III"
-      id = ""
+      id = "so-mc-a3"
       piece = \markup {\sestavTitulek}
     }
   }
