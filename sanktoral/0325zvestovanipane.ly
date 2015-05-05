@@ -98,6 +98,8 @@
   }
 }
 
+\markup\italic{V době postní:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -126,6 +128,43 @@
     quid = "resp."
     modus = "VI"
     id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f f f g( a f e) f \barMaior
+    f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- ra -- zi -- la ra -- to -- lest z_pa -- hý -- lu Jes -- se,
+    hvěz -- da vy -- šla z_Ja -- ku -- ba._*
+    \textRespAleluja
+    \Verse Pan -- na po -- ro -- di -- la Spa -- si -- te -- le._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
     piece = \markup {\sestavTitulekResp}
   }
 }
