@@ -223,10 +223,10 @@
       quid = "1. ant."
       modus = "I"
       differentia = "f"
-      psalmus = ""
+      psalmus = "Žalm 119-נ"
       placet = "_nyní_ je alespoň pro mě intonačně náročné a přitom nic nepřináší"
       id = "ne-1ne-a1"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -244,9 +244,9 @@
       quid = "2. ant."
       modus = "IV"
       differentia = "g"
-      psalmus = ""
+      psalmus = "Žalm 16"
       id = "ne-1ne-a2"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -266,9 +266,9 @@
       quid = "3. ant."
       modus = "I"
       differentia = "a"
-      psalmus = ""
+      psalmus = "Flp 2"
       id = "ne-1ne-a3"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -398,9 +398,9 @@
       quid = "1. ant."
       modus = "IV alt"
       differentia = "A"
-      psalmus = ""
+      psalmus = "Žalm 118"
       id = "ne-rch-a1"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -420,9 +420,9 @@
       quid = "2. ant."
       modus = "VIII"
       differentia = "c"
-      psalmus = ""
+      psalmus = "Dan 3-II"
       id = "ne-rch-a2"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -442,9 +442,9 @@
       quid = "3. ant."
       modus = "III"
       differentia = "a"
-      psalmus = ""
+      psalmus = "Žalm 150"
       id = "ne-rch-a3"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -551,9 +551,9 @@
       quid = "1. ant."
       modus = "I"
       differentia = "D2"
-      psalmus = ""
+      psalmus = "Žalm 110"
       id = "ne-2ne-a1"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -571,9 +571,9 @@
       quid = "2. ant."
       modus = "I"
       differentia = "f"
-      psalmus = ""
+      psalmus = "Žalm 115"
       id = "ne-2ne-a2"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -595,9 +595,9 @@
       quid = "3. ant."
       modus = "I"
       differentia = "a"
-      psalmus = ""
+      psalmus = "1 Petr 2"
       id = "ne-2ne-a3"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
