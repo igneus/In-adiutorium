@@ -21,6 +21,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 5"
+    placet = "na _ať_ se melisma nehodí - to je slůvko krátké, vyražené"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -89,6 +90,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 11"
+    placet = "rozhodně jinak; není někde hotová antifona podobného textu?"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
