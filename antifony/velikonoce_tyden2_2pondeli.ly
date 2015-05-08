@@ -99,6 +99,7 @@
     differentia = "f"
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant1?upraveno"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
