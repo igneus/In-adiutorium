@@ -25,7 +25,7 @@ velikTIpondeliNespAntIII = \score {
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "t1-po"
     fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -49,7 +49,7 @@ velikTIuteryNespAntIII = \score {
     differentia = "f"
     psalmus = "Zj 4"
     placet = "~"
-    id = ""
+    id = "t1-ut"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,7 +73,7 @@ velikTIstredaNespAntIII = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Kol 1"
-    id = ""
+    id = "t1-st"
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
     fial = "mezidobi_trojice.ly#rch-a3?+aleluja"
     piece = \markup {\sestavTitulek}
@@ -97,7 +97,7 @@ velikTIctvrtekNespAntIII = \score {
     modus = "I"
     differentia = "D"
     psalmus = "Zj 11"
-    id = ""
+    id = "t1-ct"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -119,7 +119,7 @@ velikTIpatekNespAntIII = \score {
     modus = "IV"
     differentia = "E"
     psalmus = "Zj 15"
-    id = ""
+    id = "t1-pa"
     placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ"
     piece = \markup {\sestavTitulek}
   }
@@ -144,7 +144,7 @@ velikTIIpondeliNespAntIII = \score {
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
-    id = ""
+    id = "t2-po"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -166,7 +166,7 @@ velikTIIuteryNespAntIII = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Zj 4"
-    id = ""
+    id = "t2-ut"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -188,7 +188,7 @@ velikTIIstredaNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Kol 1"
-    id = ""
+    id = "t2-st"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -210,7 +210,7 @@ velikTIIctvrtekNespAntIII = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Zj 11"
-    id = ""
+    id = "t2-ct"
     placet = "r"
     piece = \markup {\sestavTitulek}
   }
@@ -233,7 +233,7 @@ velikTIIpatekNespAntIII = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 15"
-    id = ""
+    id = "t2-pa"
     placet = "r - mel. akcent na pomocném slovesu"
     piece = \markup {\sestavTitulek}
   }
