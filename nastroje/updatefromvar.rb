@@ -44,11 +44,11 @@ class VariationesUpdater
       score_text_cleaned = clean_score score.text
       score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
       score_text_cleaned = remove_trailing_whitespace score_text_cleaned
+      score_text_cleaned = remove_variable_assignment score_text_cleaned
 
-      begin
-        main_src = replace(main_src, production_score.text, score_text_cleaned, score_id)
-      rescue RuntimeError
-        @log.puts "Update of ##{score_id} failed: updated score not found in the main file"
+      if production_score.text != score_text_cleaned
+        @log.puts "updating ##{score_id}"
+        main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
       end
     end
 
@@ -100,23 +100,6 @@ class VariationesUpdater
       .gsub(/^\\zvyraznovac\w+\s*/, '')
   end
 
-  def replace(file_src, replaced_text, replacement_text, score_id=nil)
-    replaced_text = unindent_first_line replaced_text
-
-    start_index = file_src.index replaced_text
-    if start_index.nil?
-      raise RuntimeError.new('score text not found')
-    end
-    end_index = start_index + replaced_text.size - 1
-
-    if file_src[start_index..end_index] != replacement_text
-      @log.puts "Replacing ##{score_id}"
-      file_src[start_index..end_index] = replacement_text
-    end
-
-    return file_src
-  end
-
   private
 
   def unindent_first_line(lily_src)
@@ -138,6 +121,12 @@ class VariationesUpdater
 
   def clean_marker_lines(lily_src)
     lily_src.lines.select {|l| l !~ /^\s*\\zvyraznovac\w+\s*$/ }.join ''
+  end
+
+  # if the score as a whole is assigned to a variable,
+  # remove the assignment
+  def remove_variable_assignment(lily_src)
+    lily_src.sub(/\A\s*\w+\s*=\s*/, '')
   end
 end
 

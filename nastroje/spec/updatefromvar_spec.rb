@@ -67,20 +67,4 @@ describe VariationesUpdater do
       expect(@updater.indent(s, 0)).to eq s_unindented
     end
   end
-
-  describe '#text' do
-    it 'works as expected' do
-      file = "abc\ndef\nghi"
-      replaced = "def\ngh"
-      replacement = "OK"
-      expect(@updater.replace(file, replaced, replacement)).to eq "abc\nOKi"
-    end
-
-    it 'raises exception on error' do
-      file = "abc\ndef\nghi"
-      replaced = "not present there"
-      replacement = "OK"
-      expect { @updater.replace(file, replaced, replacement) }.to raise_error(RuntimeError)
-    end
-  end
 end
