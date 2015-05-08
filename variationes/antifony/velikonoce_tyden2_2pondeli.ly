@@ -19,7 +19,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 42"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -43,7 +43,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Sir 36"
     id = "rch-a2"
     placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
@@ -69,7 +69,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -78,9 +78,8 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
-    d4 d d( c) c( d) d \barMin 
+    d4 d d( c) c( d) d \barMin
     d( f) e f( d) d f( g) a f( e d) d \barMaior
     d c d f( g f d) d d e( f) d d \barFinalis
     e c c( d) d \barFinalis
@@ -94,7 +93,36 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Kombinace nejlepšího z obou výše:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) c( d) d \barMin
+    d( g) f g( d) d d( e) f d( c d) d \barMaior
+    d c d f( g f d) d d e( f) d d \barFinalis
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
     fons = "Druha cast z:"
@@ -124,13 +152,15 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -149,11 +179,36 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
+    psalmus = "Žalm 45-II"
+    id = "ne-a2"
+    placet = "mdlá"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( f) \barMin
+    f f g( a) a( g) g \barMaior
+    a f d d e d c c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,_*
+    kdo jsou po -- zvá -- ni
+    k_Be -- rán -- ko -- vě sva -- teb -- ní hos -- ti -- ně.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 45-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\score { \velikTIIpondeliNespAntIII }
+%\score { \velikTIIpondeliNespAntIII }

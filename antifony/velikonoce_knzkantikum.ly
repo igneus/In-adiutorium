@@ -196,7 +196,7 @@ velikTIIstredaNespAntIII = \score {
 velikTIIctvrtekNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    a4( d) d c d e d4. d \barMaior
+    d4 d c d e d4. d \barMaior
     f4 d f g( f) d c d d \barMaior
     c d e d \barFinalis
   }
@@ -211,30 +211,30 @@ velikTIIctvrtekNespAntIII = \score {
     differentia = "D"
     psalmus = "Zj 11"
     id = "t2-ct"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
 
 velikTIIpatekNespAntIII = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g a f( e) f( g) g a b c c \barMaior
-    c b c( a) g( f g4.) g4. \barMaior
-    a4 a a( g) g \barFinalis
+    d4 d d d d( f) d d \barMin
+    d e( f) d( c) c \barMaior
+    f g f d d \barMaior
+    c c c( d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je má sí -- la a sta -- teč -- nost,_*
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
     stal se mou spá -- sou.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 15"
     id = "t2-pa"
-    placet = "r - mel. akcent na pomocném slovesu"
     piece = \markup {\sestavTitulek}
   }
 }
