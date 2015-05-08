@@ -80,7 +80,7 @@ describe VariationesUpdater do
       file = "abc\ndef\nghi"
       replaced = "not present there"
       replacement = "OK"
-      expect(@updater.replace(file, replaced, replacement)).to raise RuntimeError
+      expect { @updater.replace(file, replaced, replacement) }.to raise_error(RuntimeError)
     end
   end
 end

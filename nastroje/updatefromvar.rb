@@ -105,7 +105,7 @@ class VariationesUpdater
 
     start_index = file_src.index replaced_text
     if start_index.nil?
-      raise RuntimeError('score text not found')
+      raise RuntimeError.new('score text not found')
     end
     end_index = start_index + replaced_text.size - 1
 
