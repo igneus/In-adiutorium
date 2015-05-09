@@ -99,7 +99,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -121,7 +121,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -143,7 +143,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
