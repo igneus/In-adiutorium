@@ -86,7 +86,7 @@ tIInedeleInespAntIII = \score {
     a4 a a g a a( b) a \barMaior
     c4 c c( d) c d e d c d c b( a g) a( g) \barMaior
     f4 g a b( c d c) c( d) \barMin c( b g) a g g \barMaior
-    f g( a) g g \barFinalis
+    f^\markup\small\italic{Mimo dobu postní:} g( a) g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, můj Bo -- že,
@@ -108,13 +108,20 @@ tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 a f g f g( a) \barMin c c b( c a) a \barMaior
-    c d( c d) d( c) \barMin c( d e) c( a) a c c a g g \barMaior
+    c d( c d) d( c) \barMin
+
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
     f g( a) g g \barFinalis
+
+    c4(^\markup\small\italic{V době postní:} d c) b( g) g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
-    i ví -- no k_ra -- dos -- ti lid -- ské -- ho srd -- ce.
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
     A -- le -- lu -- ja.
+
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
   }
   \header {
     quid = "2. ant."
@@ -131,7 +138,7 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
     b c c b g f f( g) g \barMaior
-    f g a g \barFinalis
+    f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,

@@ -316,6 +316,163 @@ tIInedeleInespResp = \score {
 
 \score { \tIInedeleInespResp }
 
+\pageBreak
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a a g a a( b) a \barMaior
+    c4 c c( d) c d e d c d c b( a g) a( g) \barMaior
+    f4 g a b( c d c) c( d) \barMin c( b g) a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    ve -- leb -- nos -- tí a vzne -- še -- nos -- tí ses o -- děl,
+    svět -- lem se ha -- líš ja -- ko pláš -- těm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g a a( b) a \barMaior
+    c4 c c( d) c d e d c d c b( a g) a( g) \barMaior
+    f4 g a b( c d c) c( d) \barMin c( b g) a g g \barMaior
+    f^\markup\small\italic{Mimo dobu postní:} g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    ve -- leb -- nos -- tí a vzne -- še -- nos -- tí ses o -- děl,
+    svět -- lem se ha -- líš ja -- ko pláš -- těm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin c( d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no k_ra -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Tato antifona by po prostém odkrojení aleluja neměla uspokojivý závěr.
+Potřebuje výraznější úpravu:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin 
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+    
+    c4(^\markup\small\italic{V době postní:} d c) b( g) g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+    
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    b c c b g f f( g) g \barMaior
+    f g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    b c c b g f f( g) g \barMaior
+    f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
