@@ -97,10 +97,9 @@
 
   \markup\nadpisHodinka {"modlitba uprostřed dne"}
 
-  \markup{Následující antifony pocházejí
-  z \italic{Antiphonale Romanum,} Romae 1912, ss. 14, 25, 29, 34.}
-
-  \markup\justify{Původně náležejí čtyřem malým denním hodinkám,
+  \markup\justify{Následující antifony pocházejí
+  z \italic{Antiphonale Romanum,} Romae 1912.
+  Původně náležejí čtyřem malým denním hodinkám,
   primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
   každý den. V současné době lze tam, kde se během dne slaví jen
   jedna hodinka, buďto vybrat jednu, odpovídající denní době,
@@ -125,6 +124,7 @@
       modus = "III"
       differentia = "b"
       psalmus = ""
+      fons_externus = "AR 1912, 14"
       id = "prima"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -148,6 +148,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      fons_externus = "AR 1912, 25"
       id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -171,6 +172,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      fons_externus = "AR 1912, 29"
       id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -193,15 +195,13 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      fons_externus = "AR 1912, 34"
       id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
   \markup\nadpisHodinka {"kompletář"}
-
-  \markup{z \italic{Liber usualis,} New York-Tournai 1961, 266.
-          (srov. \italic{Antiphonale Romanum,} Romae 1912, 47.)}
 
   \score {
     \relative c'' {
@@ -221,8 +221,8 @@
       differentia = "G"
       psalmus = ""
       id = "komplet"
+      fons_externus = "AR 1912, 47"
       piece = \markup {\sestavTitulekBezZalmu}
-      fons = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
 }
