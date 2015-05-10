@@ -188,6 +188,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -207,10 +209,157 @@
     psalmus = ""
     % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
     % ale utrzek nesel samostatne pouzit.
+    placet = "melodický krok na _že_ se nehodí"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g c b a( c b) b \barMaior
+    c c a( g) a g f \barMin
+    \mark\sipka f f-! g a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g c b a( c b) b \barMaior
+    c c c( d) b a g \barMin
+    g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g c b a( c b) b \barMaior
+    c c c( d c) b( a) g g \barMin
+    g a f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f e d( e) d \barMaior
+    f g a a( c) a a \barMin
+    c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d( f e) d f( g) g \barMaior
+    g g f( d) e d c \barMin
+
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d( f e) d f( g) g \barMaior
+    g g f( d) f e d \barMin
+    d d e f d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
+    % ale utrzek nesel samostatne pouzit.
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
