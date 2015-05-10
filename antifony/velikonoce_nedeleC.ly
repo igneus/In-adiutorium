@@ -321,7 +321,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) g f( g) g \barMin
-    f g a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
+    f g a a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
     g g( a) g g( f) g( a) a \barMaior
     a a g( c) d b c a \barMin b c c( d) d \barMaior
     d c d( c) a( b) g g \barMin g f( g a) a b g g \barMaior
@@ -329,7 +329,7 @@
   }
   \addlyrics {
     Pro -- sím ne -- jen za ně,
-    ale ta -- ké za ty, kdo pro je -- jich slo -- vo u -- vě -- ří ve mne:
+    a -- le ta -- ké za ty, kdo pro je -- jich slo -- vo u -- vě -- ří ve mne:
     Ať všich -- ni jsou jed -- no
     ja -- ko ty, Ot -- če, ve mně a já v_to -- bě,
     a -- by svět u -- vě -- řil, že ty jsi mě po -- slal.
