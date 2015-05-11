@@ -58,9 +58,7 @@ zalmXCVtonusID = \score {
     quid = "Žalm 95"
     modus = "I"
     differentia = "D"
-    notitia = \markup\justify{
-      Nápěv volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.
-    }
+    fons_externus = \markup\justify{volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.}
     piece = \markup\sestavTitulekBezZalmu
   }
 }

@@ -22,7 +22,7 @@
       " "
     }
 
-    \fromproperty #'header:notitia
+    \fill-line { "" \fromproperty #'header:fons_externus }
   }
 }
 
