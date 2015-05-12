@@ -67,4 +67,35 @@ describe VariationesUpdater do
       expect(@updater.indent(s, 0)).to eq s_unindented
     end
   end
+
+  describe '#scores_differ?' do
+    it 'finds identical scores same' do
+      score = Lyv::LilyPondScore.new "\\score { a b }"
+      expect(@updater.scores_differ?(score, score)).to be false
+    end
+
+    it 'finds scores differing in music different' do
+      a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } }"
+      b = Lyv::LilyPondScore.new "\\score { \\relative c { b a } }"
+      expect(@updater.scores_differ?(a, b)).to be true
+    end
+
+    it 'finds scores differing in whitespace same' do
+      a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } }"
+      b = Lyv::LilyPondScore.new "\\score { \\relative c {  a \n\n\n b  } }"
+      expect(@updater.scores_differ?(a, b)).to be false
+    end
+
+    it 'finds scores differing just in a development header same' do
+      a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } \\header { } }"
+      b = Lyv::LilyPondScore.new "\\score { \\relative c { a b } \\header { placet = \"iuxta modum\" } }"
+      expect(@updater.scores_differ?(a, b)).to be false
+    end
+
+    it 'finds scores differing just in a development mark same' do
+      a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } }"
+      b = Lyv::LilyPondScore.new "\\score { \\relative c { a \\mark\\sipka b } }"
+      expect(@updater.scores_differ?(a, b)).to be false
+    end
+  end
 end

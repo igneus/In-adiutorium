@@ -41,13 +41,12 @@ class VariationesUpdater
         next
       end
 
-      score_text_cleaned = clean_score score.text
-      score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
-      score_text_cleaned = remove_trailing_whitespace score_text_cleaned
-      score_text_cleaned = remove_variable_assignment score_text_cleaned
-
-      if production_score.text != score_text_cleaned
+      if scores_differ? production_score, score
         @log.puts "updating ##{score_id}"
+
+        score_text_cleaned = clean_score score.text
+        score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
+
         main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
       end
     end
@@ -67,6 +66,11 @@ class VariationesUpdater
 
   def has_id?(score)
     score.header['id'] != '' && score.header['id'] != nil
+  end
+
+  def scores_differ?(a, b)
+    ((normalize_music(a.music) != normalize_music(b.music)) ||
+     (normalize_header(a.header) != normalize_header(b.header)))
   end
 
   # how many spaces is the lilypond score indented?
@@ -96,11 +100,28 @@ class VariationesUpdater
 
   # removes all development annotations
   def clean_score(lily_src)
-    clean_marker_lines(lily_src.gsub(/\\mark\\sipka\s*/, '')) \
-      .gsub(/^\\zvyraznovac\w+\s*/, '')
+    r = lily_src.gsub(/\\mark\\sipka\s*/, '')
+    r = clean_marker_lines(r)
+    r = r.gsub(/^\\zvyraznovac\w+\s*/, '')
+    r = remove_trailing_whitespace r
+    r = remove_variable_assignment r
+    return r
   end
 
   private
+
+  # returns music String with development marks removed and whitespace
+  # unified
+  def normalize_music(lily_music_str)
+    return clean_score(lily_music_str).gsub(/\s+/m, ' ').strip
+  end
+
+  # returns header Hash without fields insignificant for comparisons
+  def normalize_header(header_hash)
+    r = header_hash.dup
+    r.delete 'placet' # development header
+    return r
+  end
 
   def unindent_first_line(lily_src)
     lily_src.sub(/\A\s+/, '')
