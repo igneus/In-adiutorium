@@ -20,11 +20,11 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
+
     psalmus = "Žalm 43"
     id = "rch-a1"
-    placet = "žalm má dost krátkých veršů - modus 7 se tak moc nehodí. Tuto antifonu však zřejmě lze i bez úprav předat 8. modu."
     piece = \markup {\sestavTitulek}
   }
 }

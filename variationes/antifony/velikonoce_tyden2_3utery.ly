@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 43"
     id = "rch-a1"
     placet = "r"
@@ -32,7 +32,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a) g c( a) g( a g) g \barMaior
     g( a c) c d( c) d d( e c) a a4.( g) \barMaior
@@ -48,7 +48,33 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
+    psalmus = "Žalm 43"
+    placet = "žalm má dost krátkých veršů - modus 7 se tak moc nehodí. Tuto antifonu však zřejmě lze i bez úprav předat 8. modu."
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( a) g c( a) g( a g) g \barMaior
+    g( a c) c d( c) d d( e c) a a4.( g) \barMaior
+    c4 d( c a) a \barMin b( c) a g a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Smí -- me při -- stou -- pit
+    k_Bo -- ží ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 43"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -73,7 +99,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 38"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -96,7 +122,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 38"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -122,7 +148,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 65"
     id = "rch-a3"
     placet = "r - možná není úplně marná, ale fakt to není VIII"
@@ -147,7 +173,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -169,7 +195,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -192,7 +218,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -219,7 +245,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
     placet = "r - důraz pryč z je, jinak není úplně zlá"
@@ -243,7 +269,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -265,7 +291,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 49-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
