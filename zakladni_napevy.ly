@@ -386,7 +386,49 @@
 
 \bookpart {
   \header {
-    subtitle = "IV. Zakončení hodinek"
+    subtitle = "IV. Otče náš"
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a b c c c c c c b \barMin
+      c c c b a c \barMaior
+      a b c c b \barMin
+      a b c c c c c c b a c c c \barMaior
+      a b c c c c c b \barMin
+      a a b b c c c c \barMin
+      c c c c c c c c b a c c c \barMaior
+      a a a b b c c c b \barMin
+      a b c c c c a \barFinalis
+      % Zaver se zamerne lisi, protoze predloha pocita s tim,
+      % ze zpiva jen predstaveny a cely chor se pripoji
+      % az na zaverecnou frazi.
+    }
+    \addlyrics {
+      Ot -- če náš,
+      jenž jsi na ne -- be -- sích,
+      po -- svěť se jmé -- no tvé.
+      Přijď krá -- lov -- ství tvé.
+      Buď vů -- le tvá ja -- ko v_ne -- bi, tak i na ze -- mi.
+      Chléb náš ve -- zdej -- ší dej nám dnes.
+      A od -- pusť nám na -- še vi -- ny,
+      ja -- ko i my od -- pou -- ští -- me na -- šim vi -- ní -- kům.
+      A ne -- u -- veď nás v_po -- ku -- še -- ní,
+      a -- le zbav nás od zlé -- ho.
+    }
+    \header {
+      quid = "Otče náš"
+      id = "otcenas"
+      fons_externus = "podle Antiphonale Monasticum 1933, 1236."
+      piece = ""
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "V. Zakončení hodinek"
   }
 
   \markup\sekce{IV.1 Ranní chvály a nešpory}
@@ -597,7 +639,7 @@
 
 \bookpart {
   \header {
-    subtitle = "V. Te Deum"
+    subtitle = "VI. Te Deum"
   }
 
   \markup\justify{
@@ -742,7 +784,7 @@
 
 \bookpart {
   \header {
-    subtitle = "VI. Závěrečné mariánské antifony"
+    subtitle = "VII. Závěrečné mariánské antifony"
   }
 
   \markup\sekce{VI.1 Přiřazení antifon liturgickým dobám}
