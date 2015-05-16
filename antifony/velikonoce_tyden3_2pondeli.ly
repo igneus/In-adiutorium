@@ -52,12 +52,11 @@
 % antifonou a zalmem neusnadnuji - ale libi se mi.
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4( g) g g a bes a g g \barMaior
-    c bes a bes g f \barMin
-    d f f( a) g \barFinalis
+    d4( e d) c( d) d c b c d d \barMaior
+    c b a c( b) a( g) g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Hlá -- sej -- te me -- zi po -- ha -- ny:_*
@@ -66,11 +65,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 96"
     id = "rch-a3"
-    placet = "r - to je možná ve skutečnosti čistý peregrinus? - rozhodně ale ne VIII"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +78,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c( d) d d d( c) c( d) d d( f e) d( c d) c b( c d) d \barMaior
+    c d d d c d e d c b( c d) d \barMaior
     d d( e d) \barMin d4 c b c( a g4.) g \barMaior
     g4 a a( g) g \barFinalis
   }
@@ -95,7 +93,6 @@
     differentia = "c"
     psalmus = "Žalm 123"
     id = "ne-a1"
-    placet = "r - přetížená"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -103,9 +100,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d) c d e g g \barMin
-    g a b a( g) g \barMaior
-    a b g g \barFinalis
+    f4 f f a f g \barMin
+    g f e d( c) c \barMaior
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
@@ -114,11 +111,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 124"
     id = "ne-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
