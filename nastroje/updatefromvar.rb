@@ -70,7 +70,8 @@ class VariationesUpdater
 
   def scores_differ?(a, b)
     ((normalize_music(a.music) != normalize_music(b.music)) ||
-     (normalize_header(a.header) != normalize_header(b.header)))
+     (normalize_header(a.header) != normalize_header(b.header)) ||
+     (a.lyrics_readable != b.lyrics_readable))
   end
 
   # how many spaces is the lilypond score indented?
