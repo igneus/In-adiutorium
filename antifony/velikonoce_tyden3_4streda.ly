@@ -21,8 +21,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 86"
+    fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
     id = "rch-a1"
-    fons = "žaltář, pátek 1.t., nešp., 3. ant.; přidáno aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
