@@ -23,7 +23,7 @@
     differentia = "G"
     psalmus = "Žalm 119-נ"
     fial = "commune/commune_svatymuz.ly#rch-aben1"
-    placet = "zkusit i jinou, na citované zdrojové antifoně nezávislou"
+    placet = "takhle vytržený úryvek je citelně neúplný, nevyvážený - jinak"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -99,6 +99,10 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 118"
+    placet = "žalm 118 se v liturgii zpívá jako _ten_ velikonoční žalm;
+    antifona k němu, vzatá z něj, vlastně část _té_ velikonoční antifony
+    zpívané pořád dokola ve velikonočním oktávu, by měla být podle možností
+    radostnější. Tahle je taková neurážející, vkusná, ale plochá a bezbarvá."
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -121,6 +125,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Dan 3-II"
+    placet = "půjde vylepšit"
     id = ""
     piece = \markup {\sestavTitulek}
   }

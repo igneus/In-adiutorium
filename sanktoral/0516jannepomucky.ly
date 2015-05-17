@@ -32,6 +32,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "zarazilo mě melisma na _on_; retardující ozdoba tu úplně nesmyslná není,
+    ale čekal bych ji spíše na _neodpovídal_"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -53,6 +55,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Dan 3-III"
+    placet = "lépe; první část je jasný modus VIII, zbytek je neelegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -170,6 +173,8 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "líbí se mi; přesto vyzkoušet zdobnější variantu -
+    přeci jen jde o antifonu k Benedictus významného svátku"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

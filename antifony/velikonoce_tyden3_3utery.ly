@@ -58,14 +58,17 @@
     a f( a) a( g) g \barFinalis
   }
   \addlyrics {
-    % V breviari hrozny text :(
-    % Radsi obetuji doslovnou citaci zalmu a udelam text zpevnejsi:
     Ze -- mě_* vy -- da -- la svou ú -- ro -- du;
-    % nechť se li -- dé ra -- du -- jí a já -- sa -- jí.
     já -- sej -- te a ra -- duj -- te se, li -- dé!
     A -- le -- lu -- ja.
   }
   \header {
+    % vyhodou oficialniho textu je doslovna citace zalmu
+    % v liturgickem prekladu;
+    % je nicmene tak nezpevny, ze jsem se rozhodl pro upravu
+    % nicici doslovnost citace
+    textus_approbatus = "Země vydala svou úrodu;
+    nechť se lidé radují a jásají. Aleluja."
     quid = "3. ant."
     modus = "VII"
     differentia = "a"

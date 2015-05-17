@@ -26,6 +26,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-I"
+    placet = "všem třem lepší aleluja"
     id = ""
     piece = \markup {\sestavTitulek}
   }

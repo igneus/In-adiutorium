@@ -71,6 +71,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Flp 2"
+    placet = "div. minima po _příčinou_ a po _pro všechny_ zbytečná - pryč"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

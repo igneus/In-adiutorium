@@ -1,6 +1,7 @@
 \version "2.15.37"
 
 \include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
 
 \header {
   title = \markup\titleSvatek
@@ -112,6 +113,37 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vzpo -- mněl jsem si na tvé mi -- lo -- sr -- den -- ství, Pa -- ne._* \textRespAleluja
+    \Verse Vy -- svo -- bo -- zu -- ješ ty, kdo v_te -- be dou -- fa -- jí._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
@@ -181,6 +213,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\italic{(Responsorium pro nešpory není vlastní, bere se ze společných textů.)}
 
 \score {
   \relative c'' {

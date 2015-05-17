@@ -22,7 +22,7 @@
     differentia = "c"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
-    placet = "r"
+    placet = "lépe navazující aleluja; zkusit i celou jinak"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,7 +73,7 @@
     differentia = "D"
     psalmus = "Žalm 117"
     id = "rch-a3"
-    placet = "r"
+    placet = "rytmus _milosrdenství_ je citelně nepřirozený"
     piece = \markup {\sestavTitulek}
   }
 }

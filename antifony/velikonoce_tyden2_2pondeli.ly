@@ -48,7 +48,8 @@
     differentia = "E"
     psalmus = "Sir 36"
     id = "rch-a2"
-    placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
+    placet = "má ambitus přes oktávu - to je na feriální antifonu dost;
+    _Aleluja_ možná lépe e ag než ea g"
     piece = \markup {\sestavTitulek}
   }
 }

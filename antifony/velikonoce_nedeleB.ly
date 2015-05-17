@@ -262,6 +262,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "zaslouží trochu péče"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -365,6 +366,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "_toto mluvím ještě ve světě_ jinak; závěr před aleluja také jinak"
     id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

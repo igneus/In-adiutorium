@@ -58,6 +58,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 105-II"
+    placet = "jistě nejen mně se špatně zpívají po sobě dvě antifony stejného modu,
+    kde jedna začíná kvartou a druhá kvintou - sjednotit"
     id = ""
     piece = \markup {\sestavTitulek}
   }

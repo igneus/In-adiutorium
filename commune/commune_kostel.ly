@@ -831,6 +831,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "takové navršení tripletů, že už to tíží - zkusit upravit"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

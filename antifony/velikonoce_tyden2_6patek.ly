@@ -46,6 +46,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Hab 3"
+    placet = "není to spíš modus II, až skrz aleluja přebitý na VIII?"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

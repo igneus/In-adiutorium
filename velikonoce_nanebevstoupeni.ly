@@ -166,6 +166,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "melisma na _do__ nebe_ se mi úplně nezdá; každopádně by se tak dlouhé melisma mělo strukturovat"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -239,7 +240,9 @@
     differentia = "c"
     psalmus = "Žalm 68-III"
     placet = "tady vidím ještě značný prostor pro vylepšení;
-    nechal bych první část, na zbytku dále pracovat"
+    nechal bych první část, na zbytku dále pracovat.
+    2015 se mi líbí, jak je, ale zkusil bych gradaci na _průvod mého
+    Boha, mého krále_ udělat jednolitější, bez mezipřistání na _Boha_"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -313,6 +316,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "dost jednotvárná, zvlášť bije do očí třínovtová skupina na začátku obou částí"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -393,6 +397,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "melisma na _k svému_ zkrátit nebo strukturovat"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -419,6 +424,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "text si říká o zvukomalbu"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -442,6 +448,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "nemastná-neslaná"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
