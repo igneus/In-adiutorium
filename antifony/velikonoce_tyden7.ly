@@ -326,6 +326,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "aleluja lépe f a g g"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -347,11 +348,12 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Všichni jednomyslně setrvávali v modlitbách
+    s Ježíšovou matkou Marií. Aleluja."
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fons = "text není zcela shodný - zde oproti použité antifoně z commune chybí slovo 'spolu'; tento rozdíl však zanedbávám"
     fial = "commune/commune_maria.ly#tercie"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

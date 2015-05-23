@@ -21,6 +21,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
+    placet = "začátek je těžkopádný"
     id = ""
     piece = \markup {\sestavTitulek}
   }

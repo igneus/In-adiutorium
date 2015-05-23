@@ -393,6 +393,8 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "_zasvěcuji_ snad lépe dab a ga G;
+    torculus z _posvěceni_ rozhodně pryč"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

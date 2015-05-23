@@ -44,6 +44,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Iz 40"
+    placet = "zkusit alternativy"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -66,7 +67,7 @@
     differentia = "G"
     psalmus = "Žalm 99"
     id = "rch-a3"
-    placet = "r"
+    placet = "začátek je divný"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -88,8 +89,10 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 132-I"
+    placet = "aleluja rozhodně jinak; při opuštění citace nápěvu
+    související antifony by asi šel udělat lepší samostatný"
+    fial = "mezidobi_kristakrale.ly#1ne-amag?cast"
     id = "ne-a1"
-    fons = "Krista Krále, 1. nešp., ad Magnificat, první část"
     piece = \markup {\sestavTitulek}
   }
 }
