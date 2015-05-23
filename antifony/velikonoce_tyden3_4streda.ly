@@ -31,7 +31,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( a') a a( g bes) a g g( f) f4.( g) \barMaior
-    f4( g f) e d( e d4.) d \barMaior
+    f4( g f) e d d \barMaior
     e4 c c( d) d \barFinalis
   }
   \addlyrics {
@@ -46,8 +46,7 @@
     psalmus = "Iz 33"
     id = "rch-a2"
     fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
-    	'Moje oči': Narození Páně, uprostřed dne, odpoledne"
-    placet = "~ stálo by za to odlehčit konec"
+    'Moje oči': Narození Páně, uprostřed dne, odpoledne"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -55,10 +54,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
     a4 a a( d) d \barMin
-    c( d c) bes a g a a \barMaior
-    bes bes a a \barFinalis
+    c( d c) b a g a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Kaž -- dý člo -- věk_*
@@ -71,7 +69,6 @@
     differentia = "A"
     psalmus = "Žalm 98"
     id = "rch-a3"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,11 +78,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f( e) d( e) e \barMin g g( a) a g( b a) a \barMaior
-    g f( d) d( e) e \barFinalis
+    e4 f( e) d( e) e \barMin
+    e4 g a b( a g) a \barMaior
+    g f e e \barFinalis
   }
   \addlyrics {
-    Váš zá -- rmu -- tek_* se změ -- ní v_ra -- dost.
+    Váš zá -- rmu -- tek_*
+    se změ -- ní v_ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {
@@ -94,30 +93,30 @@
     differentia = "E"
     psalmus = "Žalm 126"
     id = "ne-a1"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b( a) g( a) a \barMin a g f g a a \barMaior
-    c( a) b a g g \barMaior
-    a b a( g) g \barFinalis
+    d4 f( e) f( g) g \barMin
+    g g f e d d \barMaior
+    c d e d d \barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
-    Ať ži -- je -- me_* ne -- bo u -- mí -- rá -- me,
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
     pat -- ří -- me Pá -- nu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 127"
     id = "ne-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
