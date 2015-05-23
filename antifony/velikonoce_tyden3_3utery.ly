@@ -5,25 +5,25 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d( c) c \barMin f d e c bes( c) c \barMaior
-    g a bes c d c e d d( c) c \barMaior
-    % c a( g f) f( g) g \barFinalis % nahrazene aleluja
-    c c( d a) b!( a) g \barFinalis
+    d4 d d a' a \barMin
+    f f( g) g \barMaior
+    g g g g f e d e d d \barMaior
+    c d e( d) d \barFinalis
   }
   \addlyrics {
-    Bo -- že,_* da -- ruj nám svůj ži -- vot,
+    Bo -- že, da -- ruj nám_*
+    svůj ži -- vot,
     a -- by -- chom se v_to -- bě ra -- do -- va -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 85"
     id = "rch-a1"
-    placet = "~ líbí se mi, ale špatně se zpívá"
     piece = \markup {\sestavTitulek}
   }
 }
