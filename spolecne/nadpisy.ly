@@ -102,6 +102,10 @@ sestavTitulekResp = \markup\concat {
       \small\italic{
         \fromproperty #'header:textus_approbatus
       }
+
+      \on-the-fly \development-build \small\sans{
+        \fromproperty #'header:fial
+      }
     }
   }
 }
