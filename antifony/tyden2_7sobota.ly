@@ -32,7 +32,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,7 +56,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-II"
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +80,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-III"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -108,7 +108,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-I"
-    id = ""
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,7 +128,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-II"
-    id = ""
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,7 +148,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-III"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

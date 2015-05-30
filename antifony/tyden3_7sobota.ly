@@ -29,7 +29,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-I"
-    id = ""
+    id = "mc-ant1"
     fons = "žaltář, po 4.t., nešp., 1. ant."
     fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
     piece = \markup {\sestavTitulek}
@@ -55,7 +55,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -82,7 +82,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

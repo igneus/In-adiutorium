@@ -27,7 +27,7 @@
     differentia = "D"
     psalmus = "Žalm 35-I"
     placet = "všem třem lepší aleluja"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +51,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,7 +78,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

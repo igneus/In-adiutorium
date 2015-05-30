@@ -32,7 +32,7 @@
     differentia = "A"
     psalmus = "Žalm 78-I"
     placet = "lépe"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,11 +56,13 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Synové Izraele jedli manu
+    a pili z duchovní skály, která je doprovázela. Aleluja."
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 78-II"
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -85,7 +87,7 @@
     differentia = "A"
     psalmus = "Žalm 78-III"
     placet = "snad půjde lépe"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -108,7 +110,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 55-I"
-    id = ""
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,7 +130,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 55-II"
-    id = ""
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,7 +150,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 55-III"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

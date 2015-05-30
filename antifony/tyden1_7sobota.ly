@@ -32,7 +32,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 105-I"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -60,7 +60,7 @@
     psalmus = "Žalm 105-II"
     placet = "jistě nejen mně se špatně zpívají po sobě dvě antifony stejného modu,
     kde jedna začíná kvartou a druhá kvintou - sjednotit"
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -85,7 +85,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 105-III"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -107,7 +107,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 131"
-    id = ""
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -129,7 +129,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 132-I"
-    id = ""
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -151,7 +151,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 132-II"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
