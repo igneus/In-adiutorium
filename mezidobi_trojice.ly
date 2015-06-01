@@ -51,6 +51,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 147-II"
+    placet = "_chvalme_ je v podstatě opakování motivu ze začátku a zní únavně;
+    možná by byla vhodnější jiná, vzestupná melodie"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -279,6 +281,8 @@
     modus = "III"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "_stvořil_: sekundový krok mezi stvo- a -řil je nelibý.
+    Buďto gagfe e, nebo i na -řil kratší melisma"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -359,7 +363,7 @@
     differentia = "g"
     psalmus = ""
     id = "rch-aben"
-    placet = "trochu divné je -stvořil-"
+    placet = "_stvořil_ ga a"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -487,6 +491,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 114"
+    placet = "_a dej nám věčný život_ je nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -547,6 +552,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "a co _Tobě buď_ g f e ?"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -82,6 +82,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 15"
+    placet = "aleluja g ga g g nebo jinak"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -120,6 +121,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "zkusit lepší aleluja"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -274,6 +276,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 63"
+    placet = "_dobrý a milý_ je nelibě monotónní"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -322,6 +325,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
+    placet = "_apoštolové_ lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -378,6 +382,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "vyzkoušet varianty"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -430,6 +435,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "závěr (_Ducha svatého_) je blbý"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -520,6 +526,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "_naplněni_ nesluší přetížená předposlední slabika; _začali_ přetížené;
+    celá asi půjde lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -602,6 +610,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "první dvě třetiny nic moc"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
