@@ -34,8 +34,55 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 b b b( c b) c( d) d \barMaior
+    d e d c c b c c d d \barMaior
+    a a g a c b a g g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_mém srd -- ci vzplál o -- heň
+    a za -- mi -- lo -- val jsem si pro -- ro -- ky
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c( b) c( d) d \barMaior
+    d c b a g a b a g g \barMaior
+    c b( d) \barMin c b c d c b g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_mém srd -- ci vzplál o -- heň
+    a za -- mi -- lo -- val jsem si pro -- ro -- ky
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c b c( b) c( d) d \barMaior
     d c b a g a b a g g \barMaior
