@@ -105,7 +105,10 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-\markup\italic{Antifony se berou ze žaltáře.}
+\markup\italic{
+  Antifony k žalmům se berou ze žaltáře.
+  Antifona ke kantikům vigilie jako o slavnosti Narození Páně.
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

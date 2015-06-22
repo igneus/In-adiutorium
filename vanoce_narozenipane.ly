@@ -970,6 +970,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( c) c( d) d \barMin d c d c( a) a \barMaior
+      g( a) b c a g a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      O -- prav -- du,_* ty jsi Bůh skry -- tý,
+      Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
+      id = "svrodiny-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
@@ -2081,6 +2102,29 @@
       fial = "vanoce_zjevenipane.ly#1ne-a1"
       id = "bohorodicka-mc-a3"
       piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Čis -- tá Mat -- ko
+      a po -- žeh -- na -- ná Pan -- no,
+      Ma -- ri -- a,
+      bez po -- ru -- še -- ní jsi po -- ča -- la
+      a bez bo -- les -- ti po -- ro -- di -- la
+      Spa -- si -- te -- le.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = "bohorodicka-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 

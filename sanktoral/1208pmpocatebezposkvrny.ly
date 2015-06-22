@@ -167,6 +167,98 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \key d \minor
+
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
+    od -- mě -- nu od Bo -- ha, své -- ho spa -- si -- te -- le.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 24"
+    fial = "commune/commune_maria.ly#mc-a1?-aleluja"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % text je "aktualizovanou" parafrazi odpovidajici antifony z commune -
+    % muze byt vhodne zkusit to zohlednit
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % text je "aktualizovanou" parafrazi odpovidajici antifony z commune -
+    % muze byt vhodne zkusit to zohlednit
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a;
+    cír -- kev tě chvá -- lí a ve -- le -- bí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 87"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Buď zdrá -- va, raj -- ská rů -- že
+    roz -- ví -- je -- jí -- cí se pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
+    buď zdrá -- va,
+    ne -- věs -- to o -- zdo -- be -- ná zla -- tý -- mi šper -- ky;
+    te -- be Bůh mi -- lu -- je víc než an -- dě -- ly.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
