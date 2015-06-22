@@ -144,6 +144,99 @@
 
 \markup\italic{Antifona ze společných textů o apoštolech.}
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Mi -- lu -- ješ -li mě,
+    Ši -- mo -- ne Pet -- ře,
+    pas mo -- je ov -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+
+    d e f g( a) a g bes a( g a) a \barMaior
+    bes( c) d( a d4.) d \barMaior
+    d4 c bes a4. a \barMin f4( a) g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#odpo"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Pa -- ne, když jsi to ty,
+    roz -- kaž, ať při -- jdu k_to -- bě po vo -- dě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Jed -- not -- ní ve ví -- ře i v_u -- tr -- pe -- ní,
+    po -- tvr -- di -- li svou mu -- čed -- nic -- kou smr -- tí to,
+    če -- mu u -- či -- li,
+    a ob -- dr -- že -- li ko -- ru -- nu
+    věč -- né slá -- vy.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

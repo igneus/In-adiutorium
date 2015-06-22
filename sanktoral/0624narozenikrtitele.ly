@@ -170,6 +170,87 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Hos -- po -- din mě po -- vo -- lal
+    od mat -- či -- na lů -- na,
+    již v_ma -- teř -- ském ži -- vo -- tě mě na -- zval jmé -- nem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Z_mých úst u -- dě -- lal na -- brou -- še -- ný meč,
+    ve stí -- nu své ru -- ky mě u -- kryl.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    To je svě -- dec -- tví, kte -- ré vy -- dal Jan:
+    Po mně při -- jde ten,
+    kte -- rý byl dřív než já.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Krá -- lo -- vé i kní -- ža -- ta tě u -- vi -- dí
+    a bu -- dou se kla -- nět před Hos -- po -- di -- nem,
+    tvým Bo -- hem, kte -- rý tě vy -- vo -- lil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
