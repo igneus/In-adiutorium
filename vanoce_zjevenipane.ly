@@ -227,9 +227,11 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c d e d c b c d d \barMaior
+    d c b b( c a) g a( g) g \barMin
+    f( a) a g g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
@@ -238,10 +240,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 72"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -262,7 +264,29 @@
     differentia = "c"
     psalmus = "Žalm 96"
     fial = "antifony/tyden1_2pondeli.ly#rch-ant3?+aleluja"
-    id = ""
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c( d) d \barMin
+    b c a g a g f \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Bo -- ha,
+    všich -- ni je -- ho an -- dě -- lé.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -273,17 +297,20 @@
 
   }
   \addlyrics {
-    Ve -- leb -- te Bo -- ha,
-    všich -- ni je -- ho an -- dě -- lé.
-    A -- le -- lu -- ja.
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
   }
   \header {
-    quid = "3. ant."
+    quid = "ant. ke kantikům vigilie"
     modus = ""
     differentia = ""
-    psalmus = "Žalm 97"
-    id = ""
-    piece = \markup {\sestavTitulek}
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -1119,7 +1146,7 @@
       modus = ""
       differentia = ""
       psalmus = "Žalm 29"
-      id = ""
+      id = "krtu-mc-a1"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1139,7 +1166,7 @@
       modus = ""
       differentia = ""
       psalmus = "Žalm 66-I"
-      id = ""
+      id = "krtu-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1158,8 +1185,36 @@
       modus = ""
       differentia = ""
       psalmus = "Žalm 66-II"
-      id = ""
+      id = "krtu-mc-a3"
       piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b( a g a) a( g) \barMin
+      f g a g( a) c( d) d \barMaior
+      d c b c( a g) \barMin
+      a g f a a( g) g \barMaior
+      a c b c( d c) b a g a( g) \barMin
+      f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Když Kris -- tus vstou -- pil
+      do ře -- ky Jor -- dá -- nu,
+      pra -- me -- ny vod
+      by -- ly po -- svě -- ce -- ny,
+      a -- by se člo -- věk mo -- hl stát
+      no -- vým stvo -- ře -- ním.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "krtu-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 

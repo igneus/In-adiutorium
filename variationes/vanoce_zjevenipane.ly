@@ -406,6 +406,131 @@ ale na diferenci žalmového nápěvu?}
 
 \pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d e d c b c d d \barMaior
+    d c b b( c a) g a( g) g \barMin
+    f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
+    při -- ne -- sou da -- ry Bo -- hu,
+    své -- mu Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 72"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b( a) g \barMin a f a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    fial = "antifony/tyden1_2pondeli.ly#rch-ant3?+aleluja"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c( d) d \barMin
+    b c a g a g f \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Bo -- ha,
+    všich -- ni je -- ho an -- dě -- lé.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f e) d f( a) a bes a( g) a \barMin
+    a g f( e) d e( d) c c d d \barMaior
+    a c d e d f e d \barMin
+    d f e f d c c( d) d \barMaior
+    f g a a g f e( d) d \barMin
+    c d e f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f e) d f( a) a bes a( g) a \barMin
+    a g f( e) d e( d) c c d d \barMaior
+    a c d e d f e d \barMin
+    d f e f d c c( d) d \barMaior
+    f g a \mark\sipka a( g f) e( d) d \barMin
+    c d f d f e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me
+    to -- mu, kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
