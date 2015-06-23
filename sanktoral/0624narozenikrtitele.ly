@@ -175,7 +175,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d d( a') g( a) a \barMin
+    g f e f d d \barMaior
+    d d( f) e f g f e d e f c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě po -- vo -- lal
@@ -184,8 +186,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -193,18 +195,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c( d) \barMin
+    d c d f e d c d \barMaior
+    d d c b c( a) g f g( a g) g \barFinalis
   }
   \addlyrics {
-    Z_mých úst u -- dě -- lal na -- brou -- še -- ný meč,
+    Z_mých úst
+    u -- dě -- lal na -- brou -- še -- ný meč,
     ve stí -- nu své ru -- ky mě u -- kryl.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 92-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -212,29 +217,38 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d( e) d d \barMin
+    d d c( d) c( b) a( g) \barMaior
+    a a g( a c d) c \barMin
+    d d c b c( a) g a g \barFinalis
   }
   \addlyrics {
-    To je svě -- dec -- tví, kte -- ré vy -- dal Jan:
-    Po mně při -- jde ten,
-    kte -- rý byl dřív než já.
+    To je svě -- dec -- tví,
+    kte -- ré vy -- dal Jan:
+    Po mně při -- jde
+    ten, kte -- rý byl dří -- ve než já.
   }
   \header {
+    textus_approbatus = "To je svědectví, které vydal Jan:
+    Po mně přijde ten, který byl dřív než já."
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 92-II"
+    placet = "vyřešit vztah s podobnou ze 3. adventního týdne (je označena pro revizi)"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 a a d c b a g a( b) a a \barMaior
+    a a c c d( c a) a c b g a( g) g \barMaior
+    f g( a) a \barMin c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé i kní -- ža -- ta tě u -- vi -- dí
@@ -243,8 +257,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
