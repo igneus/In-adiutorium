@@ -294,20 +294,28 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g e( d) d e( d) c c d d \barMaior
+    a c d e d e( f) d d \barMin
+    c f e f d c c( d) d \barMaior
+    a' g a a( c b) a( g) f( e) \barMin
+    d d f e f d( c) c( d) d \barFinalis
   }
   \addlyrics {
     Dnes se zje -- vil svě -- tu Syn Bo -- ží,
-    na -- ro -- ze -- ný z Pan -- ny Ma -- ri -- e;
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
     mu -- dr -- ci se mu kla -- ně -- jí
     a při -- ná -- še -- jí mu da -- ry;
-    všich -- ni se po -- kloň -- me to -- mu,
-    kte -- rý nás vy -- kou -- pil.
+    i my se po -- kloň -- me
+    to -- mu, kte -- rý nás vy -- kou -- pil.
   }
   \header {
+    textus_approbatus = "Dnes se zjevil světu Syn Boží, narozený z Panny Marie;
+    mudrci se mu klanějí a přinášejí mu dary;
+    všichni se pokloňme tomu, který nás vykoupil."
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1133,9 +1141,10 @@
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      g4 g g g d'-- c d e d \barMaior
+      d c b c( a g) \barMin a a g f g g \barFinalis
     }
     \addlyrics {
       Hos -- po -- di -- nův hlas nad vo -- da -- mi!
@@ -1143,8 +1152,8 @@
     }
     \header {
       quid = "1. ant."
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "a"
       psalmus = "Žalm 29"
       id = "krtu-mc-a1"
       piece = \markup {\sestavTitulek}
@@ -1152,9 +1161,11 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4( d) d \barMin
+      d c b c a g \barMin
+      a a f a g g \barFinalis
     }
     \addlyrics {
       Bo -- že,
@@ -1163,8 +1174,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "a"
       psalmus = "Žalm 66-I"
       id = "krtu-mc-a2"
       piece = \markup {\sestavTitulek}
@@ -1174,7 +1185,8 @@
   \score {
     \relative c' {
       \choralniRezim
-
+      d4 f e d c \barMin
+      d d d f g f d d \barFinalis
     }
     \addlyrics {
       Bůh buď ve -- le -- ben,
@@ -1182,8 +1194,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = ""
-      differentia = ""
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 66-II"
       id = "krtu-mc-a3"
       piece = \markup {\sestavTitulek}

@@ -14,7 +14,7 @@
   \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
-    g4 c4.( a) \barMin 
+    g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
     d c( b) a( b g) g f g a f f g g \barMaior
     a b( c) b( c a) g a( g) g \barFinalis
@@ -28,7 +28,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 135-I"
     piece = \markup {\sestavTitulek}
   }
@@ -40,7 +40,7 @@
   \relative c'' {
     \choralniRezim
     \zvyraznovacModry
-    g4 c4.( a) \barMin 
+    g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
     d c( b) \mark\sipka a( b) g f g a f f g g \barMaior
     a \mark\sipka b \mark\sipka b( c) g a( g) g \barFinalis
@@ -54,7 +54,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 135-I"
     piece = \markup {\sestavTitulek}
   }
@@ -73,7 +73,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 135-II"
     piece = \markup {\sestavTitulek}
   }
@@ -88,10 +88,10 @@
     \zvyraznovacSedy
     \choralniRezim
     g4( a) g g( c) c \barMin
-    c( d c) b a( b g) g \barMaior    
+    c( d c) b a( b g) g \barMaior
     g e( f) g( a) a g a( c b) a b( g) g \barMin
     f( a) g f g4. g \barMax
-    
+
     f4 g g g a( c) b( a g) g \barMin
     g a f f f e e \barFinalis
   }
@@ -100,14 +100,14 @@
     ja -- ko o -- heň
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
     Krá -- li všech krá -- lů;
-    
+
     mu -- dr -- ci ji spa -- tři -- li
     a při -- nes -- li mu da -- ry.
   }
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -118,10 +118,10 @@
     \zvyraznovacModry
     \choralniRezim
     g4( a) g g( c) c \barMin
-    \mark\sipka b a a( b g) g \barMaior    
+    \mark\sipka b a a( b g) g \barMaior
     g e( f) g( a) a g a( c b) a b( g) g \barMin
     f( a) g f g4. g \barMax
-    
+
     f4 g g g a( c) \mark\sipka b( g) g \barMin
     g a f f f e e \barFinalis
   }
@@ -130,14 +130,14 @@
     ja -- ko o -- heň
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
     Krá -- li všech krá -- lů;
-    
+
     mu -- dr -- ci ji spa -- tři -- li
     a při -- nes -- li mu da -- ry.
   }
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -159,7 +159,7 @@
   \header {
     quid = "responsum vkládané do kantika"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -183,7 +183,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "responsum vkládané do kantika"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -203,7 +203,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "responsum vkládané do kantika"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -217,27 +217,27 @@ ale na diferenci žalmového nápěvu?}
     \choralniRezim
     g4 a( c) c c c d c c b( a) c \barMax
     c d( c) a c b a g g \barFinalis \break
-    
+
     c c c c d( c) b( a) c \barMax
     a c b a g g \barFinalis \break
-    
+
     c c d c c b( a) c \barMax
     a c( b) a g g \barFinalis \break
   }
   \addlyrics {
     On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_*
     byl o -- spra -- ve -- dl -- něn Du -- chem.
-    
+
     U -- ká -- zal se an -- dě -- lům,_*
     byl hlá -- sán po -- ha -- nům.
-    
+
     Do -- šel ví -- ry ve svě -- tě,_*
     byl vzat do slá -- vy.
   }
   \header {
     quid = "verše kantika"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -249,27 +249,27 @@ ale na diferenci žalmového nápěvu?}
     \choralniRezim
     g4 a( c) c c c d c c b( a) c \barMax
     c c c b a b a g \barFinalis \break
-    
+
     c c c c d( c) b( a) c \barMax
     c c( b) a( b) a g g \barFinalis \break
-    
+
     c c d c c b( a) c \barMax
     a c( b) a g g \barFinalis \break
   }
   \addlyrics {
     On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_*
     byl o -- spra -- ve -- dl -- něn Du -- chem.
-    
+
     U -- ká -- zal se an -- dě -- lům,_*
     byl hlá -- sán po -- ha -- nům.
-    
+
     Do -- šel ví -- ry ve svě -- tě,_*
     byl vzat do slá -- vy.
   }
   \header {
     quid = "verše kantika"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "1Tim 3"
     piece = \markup {\sestavTitulek}
   }
@@ -280,7 +280,7 @@ ale na diferenci žalmového nápěvu?}
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f f f f e g a \barMax
@@ -295,7 +295,7 @@ ale na diferenci žalmového nápěvu?}
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response V_něm bu -- dou po -- žeh -- ná -- na 
+    \Response V_něm bu -- dou po -- žeh -- ná -- na
     všech -- na ple -- me -- na ze -- mě._*
     \textRespAleluja
     \Verse Bla -- ho -- sla -- vit ho bu -- dou všech -- ny ná -- ro -- dy._*
@@ -335,7 +335,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -359,7 +359,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "invitatorium"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -379,7 +379,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "invitatorium"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -398,7 +398,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "invitatorium"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -529,6 +529,67 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f e) d \mark\sipka f( g) g a g( f) e \barMin
+    f g e( d) d e( d) c c d d \barMaior
+    a c d e d \mark\sipka e( f) d d \barMin
+    c f e f d c c( d) d \barMaior
+    \mark\sipka a' g a a( c b) a( g) f( e) \barMin
+    d d f e f d( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    i my se po -- kloň -- me
+    to -- mu, kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    textus_approbatus = "Dnes se zjevil světu Syn Boží, narozený z Panny Marie;
+    mudrci se mu klanějí a přinášejí mu dary;
+    všichni se pokloňme tomu, který nás vykoupil."
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) b b( c) a g f( g) g \barMin
+    a c b( c) c \barMin d( c) b a( g) a( g) g \barMaior
+    f g a c b c d d \barMin
+    c d d d c b a( b g) g \barMaior
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    i my se po -- kloň -- me
+    to -- mu, kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    textus_approbatus = "Dnes se zjevil světu Syn Boží, narozený z Panny Marie;
+    mudrci se mu klanějí a přinášejí mu dary;
+    všichni se pokloňme tomu, který nás vykoupil."
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -553,7 +614,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
   }
@@ -578,7 +639,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
   }
@@ -604,7 +665,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
   }
@@ -632,7 +693,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     piece = \markup {\sestavTitulek}
   }
@@ -658,7 +719,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Dan 3-III"
     piece = \markup {\sestavTitulek}
   }
@@ -687,7 +748,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 149"
     piece = \markup {\sestavTitulek}
   }
@@ -701,7 +762,7 @@ ale na diferenci žalmového nápěvu?}
     d4( f) e d f( g) g \barMin a( f) g f d4. d \barMax
     d4 d d d d f g g g f g a( bes) a a \barMaior
     a \mark\sipka g( a) g( f) d \barMin
-    f f g f e d c 
+    f f g f e d c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -714,7 +775,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 149"
     piece = \markup {\sestavTitulek}
   }
@@ -726,7 +787,7 @@ ale na diferenci žalmového nápěvu?}
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f e g a \barMax
@@ -759,7 +820,7 @@ ale na diferenci žalmového nápěvu?}
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f e g a \barMax
@@ -799,12 +860,12 @@ ale na diferenci žalmového nápěvu?}
     a f e e( g) g g \barMaior
     g a b c c c d( c) a4. a \barMin
     b4( c) a g f f( g) g \barMax
-    
+
     g g g a g a b( c) c \barMin
     c b a b g g \barMaior
     g g( a) a a f( g) a a \barMin
     c c d c b c a( g) f4. g \barMaior
-    
+
     g4 a a( g) g \barFinalis
   }
   \addlyrics {
@@ -813,17 +874,17 @@ ale na diferenci žalmového nápěvu?}
     s_ne -- bes -- kým že -- ni -- chem,
     pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
     všech -- ny je -- jí vi -- ny,
-    
+
     mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu,
     a hos -- té se ra -- du -- jí
     z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -838,12 +899,12 @@ ale na diferenci žalmového nápěvu?}
     a f e e( g) g g \barMaior
     g a b c c c d( c) a a \barMin
     b4( c) a g f f( g) g \barMax
-    
+
     g g g a g a b( c) c \barMin
     c b a b g g \barMaior
     g g( a) a a f( g) \mark\sipka g( a) a \barMin
     c c d c b \mark\sipka a a( b) g g \barMaior
-    
+
     g4 a a( g) g \barFinalis
   }
   \addlyrics {
@@ -852,17 +913,17 @@ ale na diferenci žalmového nápěvu?}
     s_ne -- bes -- kým že -- ni -- chem,
     pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
     všech -- ny je -- jí vi -- ny,
-    
+
     mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu,
     a hos -- té se ra -- du -- jí
     z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -889,7 +950,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant. dopoledne"
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -913,7 +974,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -935,7 +996,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -961,7 +1022,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
@@ -982,7 +1043,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
@@ -1004,7 +1065,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
@@ -1027,7 +1088,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
     piece = \markup {\sestavTitulek}
@@ -1057,7 +1118,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 112"
     piece = \markup {\sestavTitulek}
   }
@@ -1084,7 +1145,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 112"
     piece = \markup {\sestavTitulek}
   }
@@ -1113,7 +1174,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1122,7 +1183,7 @@ ale na diferenci žalmového nápěvu?}
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a g g \barMin 
+    g4 a a g g \barMin
     g a a g f e( f) e \barMaior
     d( c d e) e \barMin
     e f g g g g f e e \barFinalis
@@ -1136,7 +1197,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1155,7 +1216,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1174,7 +1235,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1184,7 +1245,7 @@ ale na diferenci žalmového nápěvu?}
   \relative c' {
     \choralniRezim
     d4 d c( d) d d \barMin d e f g f e( f e) d \barMaior
-    
+
   }
   \addlyrics {
     Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
@@ -1193,7 +1254,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1213,7 +1274,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Zj 15"
     piece = \markup {\sestavTitulek}
   }
@@ -1227,42 +1288,42 @@ ale na diferenci žalmového nápěvu?}
   \relative c' {
     \choralniRezim
     \key f \major
-    
+
     d4 g f g \barMin
     a f f f e f d d \barMax
-    
+
     d c( d) d d e( f) f \barMin
     g f e d d d \barMax
-    
+
     d f g g( a) a a \barMin
     bes g g g g a g( f) d4. d \barMax
-    
+
     d4( f) e f f( g) g \barMin
     g g a g g f g a( bes) a a \barMaior
     a g f g( a) f( e d4.) d \barMax
-    
+
     e4 f( d) c d \barFinalis
   }
   \addlyrics {
     Sla -- ví -- me den
     pro -- sla -- ve -- ný tře -- mi di -- vy:
-    
+
     dnes při -- ved -- la hvěz -- da
     mu -- dr -- ce k_jes -- lič -- kám,
-    
+
     dnes by -- la na svat -- bě
     pro -- mě -- ně -- na vo -- da ve ví -- no,
-    
+
     dnes chtěl být Kris -- tus
     v_ře -- ce Jor -- dá -- nu po -- křtěn od Ja -- na,
     a -- by nás vy -- kou -- pil.
-    
+
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1272,18 +1333,18 @@ ale na diferenci žalmového nápěvu?}
   \header {
     subtitle = "Oktáv"
   }
-  
+
   \markup {\nadpisDen {7. ledna}}
-  
+
   \score {
     \relative c' {
       \choralniRezim
       e4 d d( g) g f g a b a g a a a \barMaior
       a g a g f e d e e \barMax
-      
+
       e e e e f f e e e \barMaior
       e d e d c b b c d d( e) e \barMax
-      
+
       e( a) a g a g f g( a) a \barMaior
       e( a) a a b a b c( a) a \barMaior
       a a( b) a g f e e \barMaior
@@ -1292,26 +1353,26 @@ ale na diferenci žalmového nápěvu?}
     \addlyrics {
       Od vý -- cho -- du při -- šli do Bet -- lé -- ma mu -- dr -- ci,
       a -- by se po -- klo -- ni -- li Pá -- nu;
-      
+
       o -- te -- vře -- li své po -- klad -- ni -- ce
       a o -- bě -- to -- va -- li mu vzác -- né da -- ry:
-      
+
       zla -- to ve -- li -- ké -- mu Krá -- li,
       ka -- did -- lo pra -- vé -- mu Bo -- hu
       a myr -- hu k_je -- ho po -- hřbu.
-      
+
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
       modus = "IV"
-      differentia = "E" 
+      differentia = "E"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1324,22 +1385,22 @@ ale na diferenci žalmového nápěvu?}
     \addlyrics {
       Jak -- mi -- le mu -- dr -- ci u -- vi -- dě -- li hvěz -- du,
       za -- ra -- do -- va -- li se ne -- vý -- slov -- nou ra -- dos -- tí,
-      vstou -- pi -- li do do -- mu 
+      vstou -- pi -- li do do -- mu
       a o -- bě -- to -- va -- li Pá -- nu
       zla -- to, ka -- did -- lo a myr -- hu.
     }
     \header {
       quid = "ant. k Magnificat"
       modus = "VII"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {8. ledna}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1348,7 +1409,7 @@ ale na diferenci žalmového nápěvu?}
       a( c) a \barMin g f e f g g g a g g \barFinalis
     }
     \addlyrics {
-      Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu, 
+      Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu,
       Sy -- nu Bo -- ží -- mu, ve -- li -- ké -- mu Krá -- li:
       zla -- to, ka -- did -- lo a myr -- hu.
       A -- le -- lu -- ja.
@@ -1356,13 +1417,13 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1378,15 +1439,15 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "VII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {9. ledna}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1400,13 +1461,13 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "VII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1423,20 +1484,20 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {10. ledna}}
-  
+
   \score {
     \relative c' {
       \choralniRezim
       f4 a c b c d d b a g \barMaior
-      a a a f g 
+      a a a f g
       a g f f \barFinalis
     }
     \addlyrics {
@@ -1447,13 +1508,13 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "V"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1469,15 +1530,15 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "IV"
-      differentia = "E" 
+      differentia = "E"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {11. ledna}}
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1493,13 +1554,13 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1513,15 +1574,15 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "IV"
-      differentia = "g" 
+      differentia = "g"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisDen {12. ledna}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1538,19 +1599,19 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "I"
-      differentia = "a" 
+      differentia = "a"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \pageBreak
-  
+
   \markup {\nadpisDen {svátek Křtu Páně}}
 
   \markup {\nadpisHodinka {"1. nešpory"}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1566,13 +1627,13 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "1. ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = "Žalm 135-I"
       piece = \markup {\sestavTitulek}
       fons = "Větší kus melodie vzat z antifony k Benedictus 2. neděle adventní cyklu B (velice podobný text)."
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1590,37 +1651,37 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "2. ant."
       modus = "VII"
-      differentia = "d" 
+      differentia = "d"
       psalmus = "Žalm 135-II"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
       d4 f e f g( a) a f( e) e \barMin
       g f e f d4. d \barMaior
-      
+
       d4( g f) g( a) g f e f f( g) g \barMaior
       g a( f) f f e( f e) c d \barFinalis
     }
     \addlyrics {
       Jak -- mi -- le byl Je -- žíš po -- křtěn,
       vy -- stou -- pil hned z_vo -- dy.
-      
-      O -- tev -- ře -- lo se mu ne -- be 
+
+      O -- tev -- ře -- lo se mu ne -- be
       a z_ne -- be se o -- zval hlas.
     }
     \header {
       quid = "3. ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "1 Tim 3"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1628,23 +1689,23 @@ ale na diferenci žalmového nápěvu?}
       f f e( f) d d \barFinalis
     }
     \addlyrics {
-      Chval -- te Pá -- na, 
+      Chval -- te Pá -- na,
       všech -- ny ná -- ro -- dy.
     }
     \header {
       quid = "responsum vkládané do kantika"
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = ""
       id = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
-      
+
       % R
       \neviditelna g
       g4 g g a g a b( c) b4. b \barMin b4( c) d c b a( b) b \barMax
@@ -1671,7 +1732,7 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup\sestavTitulekResp
     }
   }
-  
+
   \pageBreak
 
   \score {
@@ -1693,12 +1754,12 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1718,23 +1779,23 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "II"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \pageBreak
 
   \markup {\nadpisHodinka {"invitatorium"}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
       d4( f e c) d \barMin
       c( a) b c d4. d \barMaior
       d4 b c a( g) g \barMax
-      a( f) g a( c b) b \barMin 
+      a( f) g a( c b) b \barMin
       a f g g \barFinalis
     }
     \addlyrics {
@@ -1747,25 +1808,165 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant."
       modus = "VII"
-      differentia = "d" 
+      differentia = "d"
       psalmus = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
+  \pageBreak
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g d'-- c d e d \barMaior
+      d c b c( a g) \barMin a a g f g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- nův hlas nad vo -- da -- mi!
+      Vzne -- še -- ný Bůh za -- bu -- rá -- cel hro -- mem.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 29"
+      id = "krtu-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g d'-- c d e d \barMaior
+      d c b \mark\sipka a( g) \barMin a a g f g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- nův hlas nad vo -- da -- mi!
+      Vzne -- še -- ný Bůh za -- bu -- rá -- cel hro -- mem.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 29"
+      id = "krtu-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4( d) d \barMin
+      d c b c a g \barMin
+      a a f a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      ať se ti s_ra -- dos -- tí
+      ko -- ří ce -- lá ze -- mě.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 66-I"
+      id = "krtu-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e d c \barMin
+      d d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "krtu-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e d c \barMin
+      f f f f e c e( f d) d \barFinalis
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "krtu-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b( a g a) a( g) \barMin
+      f g a g( a) c( d) d \barMaior
+      d c b c( a g) \barMin
+      a g f a a( g) g \barMaior
+      a c b c( d c) b a g a( g) \barMin
+      f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Když Kris -- tus vstou -- pil
+      do ře -- ky Jor -- dá -- nu,
+      pra -- me -- ny vod
+      by -- ly po -- svě -- ce -- ny,
+      a -- by se člo -- věk mo -- hl stát
+      no -- vým stvo -- ře -- ním.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "krtu-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
-  
+
   \score {
     \relative c' {
       \choralniRezim
       e4 f g f( d) e4. e \barMin
       e4 d( c) b4. b \barMin
       b4( c) d f e( d) e \barMax
-      
+
       a a a( b) g a a( c) b \barMaior
       a g( a) f( g) g g f e d( f) e e \barMaior
       e c( b) b c( d e) f e \barMax
-      
+
       e a g( a e) \barMin
       f g a f e \barFinalis
     }
@@ -1773,22 +1974,22 @@ ale na diferenci žalmového nápěvu?}
       Slu -- žeb -- ník křtí Pá -- na,
       vo -- jín Krá -- le,
       Jan Spa -- si -- te -- le,
-      
+
       vo -- da v_Jor -- dá -- nu žas -- ne,
       ho -- lu -- bi -- ce vy -- dá -- vá svě -- dec -- tví,
       je sly -- šet Ot -- cův hlas:
-      
+
       To je můj mi -- lo -- va -- ný Syn.
     }
     \header {
       quid = "1. ant."
       modus = "IV"
-      differentia = "E" 
+      differentia = "E"
       psalmus = "Žalm 63"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1796,11 +1997,11 @@ ale na diferenci žalmového nápěvu?}
       e( d) c c( d) c b a( b g4.) g4. \barMaior
       g4( a) f g a( b c) \barMin
       c( d) c b( c) a g( a g) g \barMax
-      
+
       c( b c) d( e) d \barMin
       c( d e) d b c( a g) g \barMin
       a( b c) a g a( g) g \barMax
-      
+
       a( f) f g( a) g4.( c) \barMin
       c4 c c c( d c) b( a g) g \barMin
       g( a) f( e) f( g) g \barFinalis
@@ -1810,11 +2011,11 @@ ale na diferenci žalmového nápěvu?}
       zje -- vil svě -- tu ve slá -- vě,
       pra -- me -- ny vod
       by -- ly po -- svě -- ce -- ny.
-      
+
       S_ra -- dos -- tí
       čer -- pej -- te vo -- du
       z_pra -- me -- nů spá -- sy;
-      
+
       Kris -- tus, náš Bůh,
       to -- tiž dnes po -- svě -- til
       všech -- no tvor -- stvo.
@@ -1822,19 +2023,19 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "2. ant."
       modus = "VII"
-      differentia = "a" 
+      differentia = "a"
       psalmus = "Dan 3-III"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
       c4( d c) c \barMin
       c b( c) a g( a g) g \barMaior
       a f e d f g( a) a( g) g \barMax
-      
+
       g a g a b b( c) b a g4. g \barMaior
       g4 f( e f g) g \barMin
       f( g) a b g4. g \barFinalis
@@ -1843,32 +2044,32 @@ ale na diferenci žalmového nápěvu?}
       Bo -- že,
       náš Spa -- si -- te -- li,
       všich -- ni tě o -- sla -- vu -- je -- me,
-      
+
       ne -- boť ty Du -- chem sva -- tým a oh -- něm
       v_nás ni -- číš ná -- ka -- zu hří -- chu.
     }
     \header {
       quid = "3. ant."
       modus = "VIII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = "Žalm 149"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
-      
+
       \neviditelna a
       a4( c) b a a g f g( a) f( e) d4. \barMax
       e4 g a f e4. e \barFinalis
-      
+
       \neviditelna g
       a4 a a a b( c) a f( e) d \barMax
       \neviditelna e
       e4 g a f e4. e \barFinalis
-      
+
       a4 a c b c a a4 \barMin
       a4 b g f e e4 \barFinalis
     }
@@ -1888,7 +2089,7 @@ ale na diferenci žalmového nápěvu?}
       fons = "Kromě verše vše viz neděle 1. týdne žaltáře."
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1910,14 +2111,14 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Benedictus"
       modus = "III"
-      differentia = "a" 
+      differentia = "a"
       psalmus = "Benedictus"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1928,20 +2129,20 @@ ale na diferenci žalmového nápěvu?}
     }
     \addlyrics {
       Jan Je -- ží -- šo -- vi ří -- kal:
-      Já bych měl být 
+      Já bych měl být
       po -- křtěn od te -- be,
       a ty při -- chá -- zíš ke mně?
     }
     \header {
       quid = "ant. dopoledne"
       modus = "III"
-      differentia = "b" 
+      differentia = "b"
       psalmus = ""
       piece = \markup {\sestavTitulekBezZalmu}
       notitia = "Antifona nekončí na finále modu - tázací věty mohou končit netypicky výš."
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1957,12 +2158,12 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. v poledne"
       modus = "VIII"
-      differentia = "G*" 
+      differentia = "G*"
       psalmus = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -1982,12 +2183,12 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. odpoledne"
       modus = "IV"
-      differentia = "E" 
+      differentia = "E"
       psalmus = ""
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup {\nadpisHodinka {"2. nešpory"}}
 
   \score {
@@ -2007,12 +2208,12 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "1. ant."
       modus = "VII"
-      differentia = "d" 
+      differentia = "d"
       psalmus = "Žalm 110"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
@@ -2030,12 +2231,12 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "2. ant."
       modus = "I"
-      differentia = "D" 
+      differentia = "D"
       psalmus = "Žalm 112"
       piece = \markup {\sestavTitulek}
     }
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -2053,37 +2254,37 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "3. ant."
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = "Zj 15"
       piece = \markup {\sestavTitulek}
     }
   }
- 
+
   \score {
     \relative c'' {
       \choralniRezim
       \key f \major
-      
+
       % R
       \neviditelna a
       a4 a a a a f g g( a) a \barMin
       a( c) bes a( g) f g( bes a) a \barMin
       a g f g g g4.( a) \barMax
-      
+
       a4 bes( a) g f( g) e \barMin
       d( e) f d( c d) d \barFinalis
-      
+
       % V
       \neviditelna f
       a4( g bes) a( g) a \barMin
       a a a g f g g4. \barMin
       g4 f g g4.( a) \barMax
-      
+
       % R
       \neviditelna a
       a4 bes( a) g f( g) e \barMin
       d( e) f d( c d) d \barFinalis
-      
+
       % Slava
       a'4( g) a bes( a) g f f( g) g \barMin
       g f g g g g4.( a) \barFinalis
@@ -2092,17 +2293,17 @@ ale na diferenci žalmového nápěvu?}
       \Response Bůh u -- sta -- no -- vil své -- ho Sy -- na
       pro -- střed -- ní -- kem smlou -- vy
       a svět -- lem ná -- ro -- dů,_*
-      
+
       a vlo -- žil na něj
       své -- ho Du -- cha.
-      
+
       \Verse Po -- slal ho,
       a -- by při -- ne -- sl chu -- dým
       ra -- dost -- nou zvěst,_*
-      
+
       \Response a vlo -- žil na něj
       své -- ho Du -- cha.
-      
+
       \textRespDoxologie
     }
     \header {
@@ -2135,7 +2336,7 @@ ale na diferenci žalmového nápěvu?}
     \header {
       quid = "ant. k Magnificat"
       modus = "VIII"
-      differentia = "c" 
+      differentia = "c"
       psalmus = "Magnificat"
       piece = \markup {\sestavTitulekBezZalmu}
     }
