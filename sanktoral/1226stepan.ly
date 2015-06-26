@@ -31,7 +31,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -54,7 +54,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 2"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 11"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -94,7 +94,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 17"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -116,7 +116,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     fons = "Vavrinec; jen prvni pulka"
     fial = "fial://sanktoral/0810vavrinec.ly#rch-a1"
     piece = \markup {\sestavTitulek}
@@ -142,7 +142,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -164,7 +164,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -189,7 +189,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
