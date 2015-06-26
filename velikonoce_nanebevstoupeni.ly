@@ -251,7 +251,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f g) g( a) g g-- f e d c( d) d \barMaior
+    d d d( f) e d( c d) d( c) \barMin
+    d f g f( e) d d e d c d d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to,
@@ -261,8 +264,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
