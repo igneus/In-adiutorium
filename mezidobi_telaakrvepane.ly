@@ -184,6 +184,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 23"
+    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje.
+    A že jsem tady zapomněl uvést zdroj?"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -207,6 +209,7 @@
     differentia = "d"
     psalmus = "Žalm 42"
     fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    placet = "se závěrem si zkusit trochu pohrát"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -437,6 +440,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "autentickou finálou je zřejmě spíš a"
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

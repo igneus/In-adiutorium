@@ -38,14 +38,17 @@
     Bo -- ží krá -- lov -- ství je ja -- ko hoř -- čič -- né zrn -- ko:
     je men -- ší než všech -- na se -- me -- na,
     a -- le když vze -- jde,
-    % text mirne upraven:
     pře -- růs -- tá všech -- ny os -- tat -- ní rost -- li -- ny v_za -- hra -- dě.
   }
   \header {
+    textus_approbatus = "Boží království je jako hořčičné zrnko:
+    je menší než všechna semena, ale když vzejde,
+    přerůstá všechny jiné zahradní rostliny."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_je menší ..._ je nezpěvné; _všechny ..._ by také šlo lépe"
     id = "ne11b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -92,6 +95,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_Vlny_ rozhodně jinak; navíc je antifona vícenásobně repetitivní a nesluší jí to"
     id = "ne12b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -116,6 +120,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "melisma na _Ježíš_ působí neúčelnou a nepěknou retardaci"
     id = "ne12b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -138,6 +143,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_Učedníci si říkali_ je rytmicky nepěkné"
     id = "ne12b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

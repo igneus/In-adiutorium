@@ -502,6 +502,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_neboť_ se těžko zpívá"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

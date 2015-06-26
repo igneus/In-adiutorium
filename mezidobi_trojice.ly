@@ -229,6 +229,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 33-II"
+    placet = "tady zásada stejný text -- stejná melodie vede k nevkusnému opakování;
+    udělat dvě antifony, které k sobě patří, ale tak, že se vkusně doplňují - ne aby
+    jedna druhou papouškovala"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }

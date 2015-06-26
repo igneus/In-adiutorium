@@ -29,6 +29,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 113"
+    placet = "nic moc"
     id = "1ne-a1"
     fons = "první část: dnes, antifona k Benedictus"
     piece = \markup {\sestavTitulek}
@@ -95,7 +96,7 @@
     \neviditelna g
     g g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
@@ -121,11 +122,11 @@
   }
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
-    a jak si pře -- ji, a -- by
-    % už vzpla -- nul! % puvodni
-    se už vzňal! % moje nahrazka
+    a jak si pře -- ji, a -- by se už vzňal!
   }
   \header {
+    textus_approbatus = "Oheň jsem přišel vrhnout na zem,
+    a jak si přeji, aby už vzplanul!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
@@ -197,6 +198,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 61"
+    placet = "3.-4. část je bohatá na vyšinuté přízvuky -
+    dává totiž smysl jen jako
+    KDYŽ chřadNE mé SRDce, VŽDYŤ ty JSI mé ÚtoČIŠtě"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -402,6 +406,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "to rozhodně není modus VIII; snad III; závěr je bídný"
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -444,6 +449,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 111"
+    placet = "_kdo se ho bojí_ takhle ne"
     fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
     fial = "mezidobi_telaakrvepane.ly#1ne-a1?casti"
     id = "2ne-a2"
@@ -492,6 +498,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "alelujovitější aleluja"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

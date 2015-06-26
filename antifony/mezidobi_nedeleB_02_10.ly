@@ -620,6 +620,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_tohoto světa vypuzen_ není moc povedené"
     id = "ne10b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -640,6 +641,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "závěr je slabší. Možná by _i_ nemělo po předchozí kadenci začínat stoupání"
     id = "ne10b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
