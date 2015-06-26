@@ -47,36 +47,40 @@
   \markup{Od slavnosti Nanebevstoupení Páně:}
 
   \score {
-  \relative c'' {
-    \choralniRezim
-    d4( c b a) a4.( b) \barMin
-    a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
-    d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
-    d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
+    \relative c'' {
+      \choralniRezim
+      d4( c b a) a4.( b) \barMin
+      a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
+      d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
+      d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
   }
-  \addlyrics {
-    Pojď -- me,
-    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-    on nám slí -- bil Du -- cha sva -- té -- ho,
-    a -- le -- lu -- ja.
-  }
-  \header {
-    quid = "ant."
-    modus = "VII"
-    differentia = "d"
-    psalmus = "invit2"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
 
   \markup {\nadpisHodinka {"nedělní vigilie"}}
 
   \markup\italic{před Nanebevstoupením Páně:}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      g4( c) c c c( d) c b a( g) g \barMin
+      a g f( g a) g g \barMaior
+      g g g f( e d) \barMin
+      d( f) e f f g( a g) g \barMaior
+      f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me a klaň -- me se to -- mu,
@@ -87,10 +91,10 @@
     }
     \header {
       quid = "ant. ke kantikům vigilie"
-      modus = ""
-      differentia = ""
+      modus = "VIII"
+      differentia = "G"
       psalmus = ""
-      id = "mv-avig"
+      id = "mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
