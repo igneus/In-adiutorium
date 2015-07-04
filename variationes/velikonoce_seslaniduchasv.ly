@@ -226,10 +226,110 @@
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+% tady jsem se rozhodl porusit zasadu "jeden zalm - jeden napev psalmodie",
+% abych mohl kazdou z antifon se silnym textem zpracovat samostatne
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f d c) c d( e) d \barMax
+    a c d e( d) d \barMaior
+    d e f f e d e d c \barMin
+    d d( f d) c( d) \barMaior
+    f e( c) f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ví -- tr va -- ne, kam chce,
+    je -- ho zvuk sly -- šíš,
+    a -- le ne -- víš,
+    od -- kud při -- chá -- zí
+    a kam jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 104-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d b c a g( a g f) f \barMaior
+    g g g g g f d f( g) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- jed -- nou se o -- zval z_ne -- be hu -- kot,
+    ja -- ko když se při -- že -- ne sil -- ný ví -- tr.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 104-II"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c c( d) c a( c b g) g( a) \barMin
+    a b c a g g \barMaior
+    a a( d) d( c) c e d( c b) b \barMin
+    a( g a) c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Se -- šli své -- ho Du -- cha,
+    a bu -- dou stvo -- ře -- ni,
+    a ob -- no -- víš tvář ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 104-III"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ne -- ne -- chám vás si -- rot -- ky.
+    Od -- chá -- zím
+    a za -- se k_vám při -- jdu
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
