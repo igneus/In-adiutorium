@@ -83,6 +83,77 @@
 
   \pageBreak
 
+  \markup {\nadpisHodinka {"nedělní vigilie"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d( g) \barMin f g a f f( g) g \barMaior
+      g f e d( c) c( d) d \barMaior
+      f d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d( g) \barMin f g a f f( g) g \barMaior
+      g f e \mark\sipka d( c) d d( c) \barMaior
+      f d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d( g) \barMin f g a f f( g) g \barMaior
+      g f e d( c) d d( c) \barMaior
+      \mark\sipka d f d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
   \score {
