@@ -311,10 +311,17 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    d4 d d( f) e d( e) d d \barMaior
+    a' a( d) d \barMin
+    d c b a g( a) a \barMaior
+    a g f g( d) d d e d c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- ne -- chám vás si -- rot -- ky.
@@ -325,13 +332,15 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
