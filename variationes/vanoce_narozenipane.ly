@@ -3671,6 +3671,100 @@
     }
   }
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( a' bes) a a c c a bes a \barMin
+      a a a g( f e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+      ať ve -- jde král slá -- vy.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 24"
+      fial = "pust_triduum.ly#so-mc-ant3"
+      placet = "vyzkoušet varianty s důrazem na _vejde_"
+      id = "bohorodicka-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c d( e d) d \barMin
+      d c b a b a g g \barMaior
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 c4.( a) \barMin
+      a4 b( c) c( b) b \barMaior
+      d c( b) a( b) g f g a f f g g \barMaior
+      a b b( c) g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Náš Pán
+      a Spa -- si -- tel,
+      před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+      se dnes zje -- vil svě -- tu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 99"
+      fial = "vanoce_zjevenipane.ly#1ne-a1"
+      id = "bohorodicka-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+      Čis -- tá Mat -- ko
+      a po -- žeh -- na -- ná Pan -- no,
+      Ma -- ri -- a,
+      bez po -- ru -- še -- ní jsi po -- ča -- la
+      a bez bo -- les -- ti po -- ro -- di -- la
+      Spa -- si -- te -- le.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = ""
+      differentia = ""
+      psalmus = ""
+      id = "bohorodicka-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
