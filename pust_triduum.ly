@@ -219,7 +219,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d( a') a b a g g( a) \barMin
+    c b a g f g g( e) e \barMaior
+    f( g a) g( a) a b c a( g a) a( g) \barMaior
+    g f d e d c d( f g a) a \barMin
+    g( f e) e( f) d c d d \barFinalis
   }
   \addlyrics {
     Když vo -- ják pro -- bo -- dl bok
@@ -230,8 +234,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "pa-mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -602,17 +606,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c( d c) a c( d) d \barMin
+    d e f g( f d) d \barMin e c d f e( d) d \barMaior
+    f g f e( c) f( d) d \barFinalis
   }
   \addlyrics {
     Z_ří -- še mrt -- vých
     jsem ve své bí -- dě vo -- lal k_Hos -- po -- di -- nu,
-    a vy -- sly -- šel mě.
+    a on mě vy -- sly -- šel.
   }
   \header {
+    textus_approbatus = "Z říše mrtvých jsem ve své bídě volal k Hospodinu,
+    a vyslyšel mě."
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "so-mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
