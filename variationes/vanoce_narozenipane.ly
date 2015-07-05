@@ -3742,28 +3742,35 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
-
+      d4 d d( a') a \barMin a g a g f g( a g) f g( f) d( c) c \barMaior
+      d d d c d f e d d \barMin
+      d f g g g a( bes) a g( f) d \barMin
+      d( e) c d d \barFinalis
     }
     \addlyrics {
       Čis -- tá Mat -- ko
-      a po -- žeh -- na -- ná Pan -- no,
-      Ma -- ri -- a,
+      a po -- žeh -- na -- ná Pan -- no, Ma -- ri -- a,
       bez po -- ru -- še -- ní jsi po -- ča -- la
       a bez bo -- les -- ti po -- ro -- di -- la
       Spa -- si -- te -- le.
     }
     \header {
       quid = "ant. ke kantikům vigilie"
-      modus = ""
-      differentia = ""
+      modus = "I"
+      differentia = "D"
       psalmus = ""
       id = "bohorodicka-mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály"}}
 
