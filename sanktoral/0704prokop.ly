@@ -133,12 +133,20 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\justify\italic{
+  Následující vlastní texty pro nešpory jsou obsaženy ve vydáních breviáře
+  z let 1989 a 1994.
+  Nejnovější vydání reflektují skutečnost, že oslava sv. Cyrila a Metoděje
+  byla povýšena na slavnost i pro Čechy, a nešpory z památky sv. Prokopa již
+  neobsahují.
+}
 
 \score {
   \relative c'' {
