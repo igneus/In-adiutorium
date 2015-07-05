@@ -151,6 +151,93 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( d e) d( f) f( g) e e \barMin g g g f e e \barMaior
+    a g a a a g a b g g( a) a \barMaior
+    a a a( f) g f( d) d \barMin
+    c d e f g f e e \barFinalis
+  }
+  \addlyrics {
+    Po -- zdvi -- hu -- jí se_* po -- zem -- ští krá -- lo -- vé
+    a vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
+    pro -- ti Hos -- po -- di -- nu
+    a je -- ho po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 2"
+    id = "pa-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv,_* lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22"
+    id = "pa-mc-ant2"
+    fial = "fial://antifony/tyden3_6patek.ly#up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d a a \barMin
+    d e f e c e d d \barFinalis
+  }
+  \addlyrics {
+    Stro -- jí mi léč -- ky,_*
+    kdo pa -- sou po mém ži -- vo -- tě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 38"
+    id = "pa-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když vo -- ják pro -- bo -- dl bok
+    U -- kři -- žo -- va -- né -- ho Pá -- na,
+    vy -- try -- skla krev a vo -- da,
+    a o -- te -- vřel se nám pra -- men
+    no -- vé -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "pa-mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -621,6 +708,90 @@
     psalmus = ""
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d c b a( f) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 4"
+    placet = "zkusit lépe"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c g) a f f( g) \barMin g f e d( e) d d \barMaior
+    a' c d a \barMin
+    bes a g a( f) d \barMin e e e( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- za -- ne -- cháš_* mou du -- ši v_pod -- svě -- tí,
+    ne -- do -- pus -- tíš,
+    a -- by tvůj sva -- tý spat -- řil po -- ru -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 16"
+    placet = "není špatná, ale je docela neobvyklá a divoká; zkusit nějaké další varianty"
+    id = "so-mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a a a g( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Z_ří -- še mrt -- vých
+    jsem ve své bí -- dě vo -- lal k_Hos -- po -- di -- nu,
+    a vy -- sly -- šel mě.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "so-mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
