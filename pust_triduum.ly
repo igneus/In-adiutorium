@@ -14,11 +14,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b4( d) d \breathe
-    e d c b c c( d) d \breathe \bar ""
-    c a b4. b \bar "|"
-    b4 c b c c( d) d \breathe \bar ""
-    d( c) a b a g g g \bar "||"
+    b4( d) d \barMin
+    e d c b c c( d) d \barMin
+    c a b4. b \barMax
+    b4 c b c c( d) d \barMin
+    d( c) a b a g g g \barFinalis
   }
   \addlyrics {
     Kris -- tus,_*
@@ -33,7 +33,7 @@
     differentia = "b"
     psalmus = "Žalm 72-I"
     id = "ct-nesp-ant1"
-    fons = "slavnost Ježíše Krista Krále, ant. k Benedictus"
+    fial = "mezidobi_kristakrale.ly#rch-aben"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -530,6 +530,7 @@
     psalmus = ""
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -927,6 +928,7 @@
     placet = "nic moc, patrně půjde lépe; nezapomenout zohlednit příbuzné antifony"
     id = "so-nesp-mag"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
