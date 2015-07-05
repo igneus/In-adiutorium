@@ -569,12 +569,18 @@
     }
   }
 
+  \pageBreak
+
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      a4 a b( g) g a g( f) e e \barMaior
+      c d d( e) e \barMin
+      f g a a g f g g e e \barMaior
+      f g g( a) a g f g g f( e) d \barMin
+      e f d \barFinalis
     }
     \addlyrics {
       Je -- žíš kle -- kl a mo -- dlil se:
@@ -585,13 +591,69 @@
     }
     \header {
       quid = "ant. ke kantikům vigilie"
-      modus = ""
-      differentia = ""
+      modus = "I"
+      differentia = "a"
+      placet = "to je ale spíš falešný závěr - většina antifony je zřetelně frygická"
       psalmus = ""
       id = "ne-mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a b( g) g a g( f) e e \barMaior
+      c d d( e) e \barMin
+      f g a a g f g g e e \barMaior
+      a a b( c) a \barMin g a g f e e \barMaior
+      f g e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš kle -- kl a mo -- dlil se:
+      Ot -- če, chceš -- -li,
+      o -- de -- jmi o -- de mě ten -- to ka -- lich,
+      a -- však ne má vů -- le ať se sta -- ne,
+      a -- le tvá.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ne-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a b( g) g a g( f) e e \barMaior
+      c d d( e) e \barMin
+      f g a a g f g g e e \barMaior
+      a a b( c) a \barMin g a g f e e \barMaior
+      f \mark\sipka d e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš kle -- kl a mo -- dlil se:
+      Ot -- če, chceš -- -li,
+      o -- de -- jmi o -- de mě ten -- to ka -- lich,
+      a -- však ne má vů -- le ať se sta -- ne,
+      a -- le tvá.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ne-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály"}}
 
