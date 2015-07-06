@@ -26,7 +26,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -48,7 +48,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 2"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -69,7 +69,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 33-I"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -88,7 +88,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 33-II"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -110,7 +110,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -132,7 +132,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -154,7 +154,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "zacatek ze zaltare, so 4.t., rch, 3.a."
     fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?beginning"
     piece = \markup {\sestavTitulek}
@@ -195,7 +195,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
