@@ -31,10 +31,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g a a a g a b g g( a) a \barMaior
     a a a( f) g f( d) d \barMin
@@ -56,14 +59,16 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
     a4 g f g( a) a a b c a a \barMin
     b a g g( a) a \barMaior
     e e e( f) d d( e) e \barMin
-    f g a a b g a a \barMaior
-    g e e e f g e e \barFinalis
+    c d e f g g e e \barMaior
+    f d d d c d e e \barFinalis
   }
   \addlyrics {
     Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
@@ -85,6 +90,87 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f g( a) a a b c a a \barMin
+    b a g g( a) a \barMaior
+    e e e( f) d d( e) e \barMin
+    \mark\sipka f g a a g f g( a) a \barMaior
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
+    před trů -- nem Bo -- žím,
+    by -- ly vy -- kou -- pe -- ny
+    z_li -- dí ja -- ko pr -- vo -- ti -- ny
+    pro Bo -- ha a pro Be -- rán -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) a a b c a a \barMin
+    b a g g( a) a \barMaior
+    e e e( f) d d( e) e \barMin
+    f g a a \mark\sipka b g a a \barMaior
+    g e e e f d e e \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
+    před trů -- nem Bo -- žím,
+    by -- ly vy -- kou -- pe -- ny
+    z_li -- dí ja -- ko pr -- vo -- ti -- ny
+    pro Bo -- ha a pro Be -- rán -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a a b c a a \barMin
+    b a g g( a) a \barMaior
+    e e e( f) d d( e) e \barMin
+    f g a a b g a a \barMaior
+    g e e e f \mark\sipka g e e \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
+    před trů -- nem Bo -- žím,
+    by -- ly vy -- kou -- pe -- ny
+    z_li -- dí ja -- ko pr -- vo -- ti -- ny
+    pro Bo -- ha a pro Be -- rán -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
     a4 a g( a) g f e e \barMaior
     e e( f) e d f g g e e \barFinalis
   }
@@ -101,6 +187,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
