@@ -36,6 +36,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -44,7 +46,34 @@
     d4 d \barMin
     c b a g c d d \barMin
     c d e e( d) d \barMaior
-    a a( d) d c b c( b a) a \barMaior
+    a a( d) d c b c( a g) g \barMaior
+
+  }
+  \addlyrics {
+    Ště -- pán,
+    pl -- ný Du -- cha sva -- té -- ho,
+    po -- hle -- děl k_ne -- bi
+    a spa -- třil Bo -- ží slá -- vu
+    a Je -- ží -- še, jak sto -- jí po Bo -- ží pra -- vi -- ci.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin
+    c b a g c d d \barMin
+    c d e e( d) d \barMaior
+    a a( d) d c b c( \mark\sipka b a) a \barMaior
     a c( a) g g \barMin
     a g f g a a a g g \barFinalis
   }
@@ -66,8 +95,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f f e f d d \barMin
     d e d c c( d) d \barMaior
@@ -90,11 +122,112 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMin
+    a a a a( d a) g( a) a \barMaior
+    a f e d e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát
+    před je -- ho moud -- ros -- tí
+    a před Du -- chem, kte -- rý z_něj mlu -- vil.
+  }
+  \header {
+    textus_approbatus = "Nikdo nemohl obstát před jeho moudrostí
+    a Duchem, který z něho mluvil."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMin
+    a \mark\sipka bes a a g g( a) \barMaior
+    a f e d e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát
+    před je -- ho moud -- ros -- tí
+    a před Du -- chem, kte -- rý z_něj mlu -- vil.
+  }
+  \header {
+    textus_approbatus = "Nikdo nemohl obstát před jeho moudrostí
+    a Duchem, který z něho mluvil."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
     a4 a a g f g( a) a \barMaior
-    a a a b( c a) g( a) a \barMaior
+    a a a \mark\sipka b( c a) a( g) g( a) \barMaior
+    a f e d e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát
+    před je -- ho moud -- ros -- tí
+    a před Du -- chem, kte -- rý z_něj mlu -- vil.
+  }
+  \header {
+    textus_approbatus = "Nikdo nemohl obstát před jeho moudrostí
+    a Duchem, který z něho mluvil."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a a a b( c a) a( g) g( a) \barMaior
+    a \mark\sipka b( c) a a \barMin
+    g f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát
+    před je -- ho moud -- ros -- tí
+    a před Du -- chem,
+    kte -- rý z_něj mlu -- vil.
+  }
+  \header {
+    textus_approbatus = "Nikdo nemohl obstát před jeho moudrostí
+    a Duchem, který z něho mluvil."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a a a b( c a) \mark\sipka g( a) a \barMaior
     a b( c) a a \barMin
     g f g f( d) d \barFinalis
   }
@@ -115,6 +248,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
