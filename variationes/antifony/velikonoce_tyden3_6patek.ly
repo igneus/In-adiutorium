@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -45,7 +45,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 51"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -73,7 +73,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Jer 14"
     id = ""
     fons = "Svatý týden - Květná neděle - 2. nešp. - 3.ant. (první část, upravena)"
@@ -95,14 +95,14 @@ funkční, je nevyvážená.}
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le
-    vy -- ne -- sl na -- še hří -- chy 
+    vy -- ne -- sl na -- še hří -- chy
     na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Jer 14"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -121,14 +121,14 @@ funkční, je nevyvážená.}
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le
-    vy -- ne -- sl na -- še hří -- chy 
+    vy -- ne -- sl na -- še hří -- chy
     na dře -- vo kří -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Jer 14"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -150,7 +150,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 100"
     id = ""
     fons = "žaltář, pátek 1.t., rch, 3.ant.; upraveno"
@@ -175,7 +175,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -195,7 +195,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -215,7 +215,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -237,7 +237,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -259,7 +259,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = "Žalm 100"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -285,7 +285,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 135-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -309,7 +309,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 135-II"
     id = ""
     fons = "Květná neděle, ad Benedictus, poslední část."
@@ -334,7 +334,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -356,7 +356,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -380,7 +380,7 @@ funkční, je nevyvážená.}
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}

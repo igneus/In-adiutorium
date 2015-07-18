@@ -78,7 +78,7 @@ podobného znění, tu teď ale nemohu najít.}
   \relative c' {
     \choralniRezim
     d4 d c a c d d d e( d c) d \barMaior
-    d d d f( g) f( g) g d \barMin 
+    d d d f( g) f( g) g d \barMin
   }
   \addlyrics {
     Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,

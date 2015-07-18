@@ -11,14 +11,14 @@
     d c a g g( a g) g \barMaior g g( a) g g \barFinalis
   }
   \addlyrics {
-    U -- kaž se_* ve své vzne -- še -- nos -- ti 
+    U -- kaž se_* ve své vzne -- še -- nos -- ti
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 57"
     id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Jer 31"
     id = "rch-a2"
     placet = "r"
@@ -63,7 +63,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Jer 31"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -83,7 +83,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Jer 31"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -105,7 +105,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 48"
     id = "rch-a3"
     placet = "r"
@@ -126,7 +126,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 48"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -151,7 +151,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 30"
     id = "ne-a1"
     placet = "r"
@@ -173,7 +173,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 30"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -197,7 +197,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 32"
     id = "ne-a2"
     fons = "Velký pátek, ad Magnificat; doplněno aleluja"

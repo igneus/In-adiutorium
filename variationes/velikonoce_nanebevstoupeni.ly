@@ -20,7 +20,7 @@
     a4 g f( g) g \barFinalis
   }
   \addlyrics {
-    Vy -- šel jsem od Ot -- ce 
+    Vy -- šel jsem od Ot -- ce
     a při -- šel jsem na svět;
     za -- se svět o -- pouš -- tím a jdu k_Ot -- ci.
     A -- le -- lu -- ja.
@@ -28,7 +28,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -52,14 +52,14 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \addlyrics {
     Když Pán Je -- žíš k_a -- po -- što -- lům mlu -- vil,
     byl vzat do ne -- be
-    a za -- se -- dl 
+    a za -- se -- dl
     po Bo -- ží pra -- vi -- ci.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 117"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -84,7 +84,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 117"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -110,7 +110,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -134,7 +134,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -146,7 +146,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f e g g a \barMax
@@ -161,7 +161,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response V_do -- mě mé -- ho Ot -- ce je mno -- ho pří -- byt -- ků._* 
+    \Response V_do -- mě mé -- ho Ot -- ce je mno -- ho pří -- byt -- ků._*
     \textRespAleluja
     \Verse Od -- chá -- zím vám při -- pra -- vit mís -- to._*
     \Response \textRespAleluja
@@ -185,17 +185,17 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     b a g f g \barMax
   }
   \addlyrics {
-    Ot -- če, 
+    Ot -- če,
     zje -- vil jsem tvé jmé -- no li -- dem;
     ny -- ní jdu k_to -- bě
-    a pro -- sím za ty, 
+    a pro -- sím za ty,
     kte -- ré jsi mi dal.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -216,13 +216,13 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \addlyrics {
     Pojď -- me,
     klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-    on vstou -- pil do ne -- be, 
+    on vstou -- pil do ne -- be,
     a -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -350,7 +350,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \addlyrics {
     Li -- dé z_Ga -- li -- le -- je,
     proč hle -- dí -- te k_ne -- bi?
-    Je -- žíš, 
+    Je -- žíš,
     kte -- rý byl vzat od vás do ne -- be,
     za -- se při -- jde.
     A -- le -- lu -- ja.
@@ -358,7 +358,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -379,7 +379,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \addlyrics {
     Li -- dé z_Ga -- li -- le -- je,
     proč hle -- dí -- te k_ne -- bi?
-    Je -- žíš, 
+    Je -- žíš,
     kte -- rý byl vzat od vás do ne -- be,
     za -- se při -- jde.
     A -- le -- lu -- ja.
@@ -387,7 +387,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -411,7 +411,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -435,7 +435,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -457,7 +457,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -479,7 +479,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -501,7 +501,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -513,7 +513,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f e g a \barMax
@@ -539,7 +539,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \pageBreak
 
@@ -562,7 +562,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -588,7 +588,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -616,7 +616,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Benedictus"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -642,7 +642,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Benedictus"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -669,7 +669,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Benedictus"
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -688,14 +688,14 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d e( d) c( d) d \barFinalis
   }
   \addlyrics {
-    Svou ve -- leb -- nos -- tí 
+    Svou ve -- leb -- nos -- tí
     pře -- vý -- šils, Bo -- že, ne -- be -- sa.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -710,14 +710,14 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d e( d) c( d) d \barFinalis
   }
   \addlyrics {
-    Svou ve -- leb -- nos -- tí 
+    Svou ve -- leb -- nos -- tí
     pře -- vý -- šils, Bo -- že, ne -- be -- sa.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -732,14 +732,14 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d e( d) c( d) d \barFinalis
   }
   \addlyrics {
-    Svou ve -- leb -- nos -- tí 
+    Svou ve -- leb -- nos -- tí
     pře -- vý -- šils, Bo -- že, ne -- be -- sa.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -764,7 +764,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -788,7 +788,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -812,7 +812,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -834,7 +834,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 47"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -856,7 +856,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 11"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -866,7 +866,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f f f f f f f f e g a \barMax
@@ -892,7 +892,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
-} 
+}
 
 \score {
   \relative c'' {
@@ -901,7 +901,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     a( c b a4.) a a4( b) g g( e) e \barMaior
     e e( d e) g( a) a( g) g4.( a) \barMaior
     a4( b) c b( c a4.) a g4 a( b) b( c) c \barMax
-    
+
     b c a( g) g g f e e \barMaior
     a b c( b a) b g4.( a) \barMin
     a4( g) f e e e f f( e) e \barMax
@@ -910,9 +910,9 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \addlyrics {
     Krá -- li slá -- vy,
     Vlád -- ce vše -- ho tvor -- stva,
-    dnes vy -- stu -- pu -- ješ 
+    dnes vy -- stu -- pu -- ješ
     ja -- ko ví -- těz na ne -- be -- sa;
-    
+
     ne -- ne -- chá -- vej nás sa -- mot -- né,
     a -- le po -- šli nám slí -- be -- né -- ho Du -- cha prav -- dy.
     A -- le -- lu -- ja.
@@ -920,7 +920,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

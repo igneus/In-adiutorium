@@ -10,14 +10,14 @@
     f f e f g( f e) c( d) d \barFinalis
   }
   \addlyrics {
-    Bdě -- te, 
+    Bdě -- te,
     pro -- to -- že ne -- ví -- te,
     kte -- rý den váš Pán při -- jde.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -36,13 +36,13 @@
     Kdy -- by hos -- po -- dář vě -- děl,
     v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
     jis -- tě by byl vzhů -- ru
-    a ne -- do -- vo -- lil by mu 
+    a ne -- do -- vo -- lil by mu
     pod -- ko -- pat se do do -- mu.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -59,7 +59,7 @@
     f g g g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý 
+    Duch sva -- tý
     na te -- be se -- stou -- pí, Ma -- ri -- a:
     Ne -- boj se,
     poč -- neš Bo -- ží -- ho Sy -- na.
@@ -68,7 +68,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -91,10 +91,10 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = ""
     id = ""
-    fial = "antifony/advent_tyden2.ly#po-aben?cast" 
+    fial = "antifony/advent_tyden2.ly#po-aben?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -115,7 +115,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
     id = ""
@@ -143,7 +143,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -168,7 +168,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -195,7 +195,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -214,13 +214,13 @@
     Jan sly -- šel ve vě -- ze -- ní o Kris -- to -- vých či -- nech.
     Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky s_do -- ta -- zem:
     Ty jsi ten, kte -- rý má při -- jít,
-    % a -- ne -- bo 
+    % a -- ne -- bo
     ne -- bo má -- me če -- kat ji -- né -- ho?
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -244,7 +244,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -258,10 +258,10 @@
       \choralniRezim
       b4 d d \barMin
       e c c d d \barMaior
-      
+
       d d d c b a( b) \barMin
       b4 b g a a b b \barMin
-      
+
       d d( e c d) d \barMin
       d c( b) a( g) g( a) a \barMin
       a g a b( a) g g \barMaior
@@ -270,20 +270,20 @@
     \addlyrics {
       Jo -- se -- fe,
       sy -- nu Da -- vi -- dův,
-      
+
       ne -- boj se k_so -- bě vzít
       svou man -- žel -- ku Ma -- ri -- i;
-      
+
       vždyť dí -- tě,
       kte -- ré po -- ča -- la,
       je z_Du -- cha sva -- té -- ho.
-      
+
       A -- le -- lu -- ja.
     }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "b" 
+    differentia = "b"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#svrodiny-1ne-a2?+aleluja"
     id = ""

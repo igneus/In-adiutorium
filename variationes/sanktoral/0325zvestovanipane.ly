@@ -292,6 +292,106 @@
   }
 }
 
+\pageBreak
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když se na -- pl -- nil čas,
+    po -- slal Bůh své -- ho Sy -- na,
+    na -- ro -- ze -- né -- ho ze že -- ny,
+    a -- by nás vy -- kou -- pil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
+    Při -- pra -- vils mi tě -- lo, Bo -- že,
+    a -- bych pl -- nil tvou vů -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 19 A"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    V_tom se u -- ká -- za -- la Bo -- ží lás -- ka k_nám,
+    že Bůh po -- slal na svět své -- ho je -- dno -- ro -- ze -- né -- ho Sy -- na,
+    a -- by -- chom mě -- li ži -- vot skr -- ze ně -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 45"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b c d c b c b a a \barMaior
+    g g f( g) \barMin f( a b) c( b) c \barMaior
+    c c c c( d) d d c b a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
+    ne -- boť hle_– při -- chá -- zím
+    a bu -- du byd -- let u -- pro -- střed te -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    fial = "antifony/advent_tyden2.ly#ut-aben?upraveno"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

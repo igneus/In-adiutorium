@@ -3,8 +3,8 @@
 \include "../spolecne.ly"
 
 \header {
-  title = \markup\titleSvatek 
-            "sv. Marka, evangelisty" 
+  title = \markup\titleSvatek
+            "sv. Marka, evangelisty"
             "svátek"
             25.4.
   composer = "Jakub Pavlík"
@@ -84,14 +84,14 @@
   \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
-    c a( g) a( g) g4.( \grace { f4 d) } \barMin 
+    c a( g) a( g) g4.( \grace { f4 d) } \barMin
     f( g f) g( a) a c( b c) c( d) a g a4.( g) \barMaior
     g4 f g g g g( a) a \barMax
     a a g a b( c) c \barMin b( c d) c b b( c a) g a( g) g \barMax
     g a a( g) g \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
     a -- by v_je -- ho círk -- vi ko -- na -- li služ -- bu slo -- va.
@@ -100,7 +100,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -119,17 +119,17 @@
     g g( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
-    a -- by v_je -- ho círk -- vi 
+    a -- by v_je -- ho círk -- vi
     ko -- na -- li služ -- bu slo -- va.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -147,17 +147,17 @@
     g \mark\sipka f( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     po -- vo -- lal e -- van -- ge -- lis -- ty
     a u -- či -- te -- le ví -- ry,
-    a -- by v_je -- ho círk -- vi 
+    a -- by v_je -- ho círk -- vi
     ko -- na -- li služ -- bu slo -- va.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -184,7 +184,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = ""
     id = ""
     fons = "Od druhého oddílu jsem si vzal jako vzor antifonu O mulier, AntRom1912 s. 315."
@@ -210,7 +210,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

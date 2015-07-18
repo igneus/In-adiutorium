@@ -393,7 +393,7 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \pageBreak
 
   \score {
@@ -419,16 +419,16 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
-  
+
   \markup\justify{
-    \sans{"\"přestat být pannou\"" je jeden z nešťastných 
+    \sans{"\"přestat být pannou\"" je jeden z nešťastných
     - velmi nepřirozeně znějících - překladů.
     Tedy - nepřekladů! Originál totiž zní:}
-    María dixit: Qualis est ista salutátio? 
-    quia conturbáta est ánima mea, 
+    María dixit: Qualis est ista salutátio?
+    quia conturbáta est ánima mea,
     et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.
   }
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -439,7 +439,7 @@
       d c b g g a( b) a( g) g \barFinalis
     }
     \addlyrics {
-      An -- děl Ga -- bri -- el 
+      An -- děl Ga -- bri -- el
       o -- zná -- mil Pan -- ně Ma -- ri -- i,
       že se má stát mat -- kou
       Bo -- ží -- ho Sy -- na,

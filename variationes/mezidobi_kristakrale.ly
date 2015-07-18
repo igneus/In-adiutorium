@@ -11,7 +11,7 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \markup\justify{
-Sluší se poznamenat, že antifon postavených podle tohoto vzoru 
+Sluší se poznamenat, že antifon postavených podle tohoto vzoru
 (který mi s odstupem přijde velmi nelibý a snažím se ho potlačit)
 bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 }
@@ -30,7 +30,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -52,7 +52,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -73,7 +73,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 113"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -98,7 +98,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 117"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -123,7 +123,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 117"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -149,7 +149,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Zj 4"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -162,7 +162,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
-    
+
     % R
     \neviditelna a
     g4( f) g g a a a b c a g g( a) \barMax
@@ -195,7 +195,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f g f f f g f g a a( g) \barMax
@@ -245,7 +245,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -270,7 +270,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -294,7 +294,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -316,7 +316,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -337,7 +337,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -363,7 +363,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -387,7 +387,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -410,7 +410,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -432,7 +432,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -442,12 +442,12 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b( c a) g g4.( a) \barMin 
+    a4 g a b( c a) g g4.( a) \barMin
     c4 c( d) d d a( g) a4. \barMin
     d4 d d c( a) a c( d) a g a a \barFinalis
   }
   \addlyrics {
-    Bůh mu dal moc a čest 
+    Bůh mu dal moc a čest
     i krá -- lov -- skou vlá -- du;
     bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
   }
@@ -468,7 +468,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f g f g g( a) a( g) \barMax
@@ -501,7 +501,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f f f g f g g( a) a( g) \barMax
@@ -545,13 +545,13 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     Kris -- tus,
     pr -- vo -- ro -- ze -- ný z_mrt -- vých
     a Král krá -- lů,
-    z_nás vy -- tvo -- řil Bo -- hu, 
+    z_nás vy -- tvo -- řil Bo -- hu,
     své -- mu Ot -- ci, krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "b" 
+    differentia = "b"
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -574,7 +574,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant. dopoledne"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -589,14 +589,14 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     g( a) a a b!( c a) a \barMin g f d d( e) e \barFinalis
   }
   \addlyrics {
-    Prou -- dy ži -- vé vo -- dy 
+    Prou -- dy ži -- vé vo -- dy
     bu -- dou vy -- té -- kat z_Je -- ru -- za -- lé -- ma;
     Pán bu -- de krá -- lem nad ce -- lou ze -- mí.
   }
   \header {
     quid = "ant. v poledne"
     modus = "IV" % vim, ze prekracuje rozsah, ale porad je, myslim, vic IV nez III.
-    differentia = "g" 
+    differentia = "g"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -618,7 +618,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -645,7 +645,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -667,7 +667,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -690,7 +690,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 110"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -712,7 +712,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 145-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -736,7 +736,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -757,7 +757,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -788,7 +788,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Zj 19"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -803,7 +803,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
-    
+
     % R
     \neviditelna d
     e4 d( e) e e d( c) d d( e) e \barMin
@@ -811,7 +811,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     a a g( a) a( g) g \barMin g g( a) g f e( f e) e \barFinalis
     % V
     \neviditelna a
-    a4 a a( b) a g( a) a \barMin 
+    a4 a a( b) a g( a) a \barMin
     a a( e) e a( g) f g f e g a a \barMax
     % R
     \neviditelna a
@@ -820,7 +820,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     a a a( b) a a g( a) a \barMin a g f g( a) a a \barFinalis
   }
   \addlyrics {
-    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na
     na kně -- ze a krá -- le;_*
     je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
     \Verse Žez -- lo je -- ho vlá -- dy
@@ -839,7 +839,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     e4 d( e) e e d( c) d d( e) e \barMin
@@ -847,7 +847,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     a a g( a) a( g) g \barMin \mark\sipka f g( a) g f e( f e) e \barFinalis
     % V
     \neviditelna a
-    a4 a a( b) a g( a) a \barMin 
+    a4 a a( b) a g( a) a \barMin
     a a( e) e \mark\sipka f g f e d g a a \barMax
     % R
     \neviditelna a
@@ -856,7 +856,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     a a a( b) a \mark\sipka g g( a) a \barMin a g f g( a) a a \barFinalis
   }
   \addlyrics {
-    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na
     na kně -- ze a krá -- le;_*
     je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
     \Verse Žez -- lo je -- ho vlá -- dy
@@ -878,7 +878,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f( g) f f g( a g) f g f \barMin
@@ -894,7 +894,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Bůh po -- ma -- zal své -- ho Sy -- na 
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na
     na kně -- ze a krá -- le;_*
     je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
     \Verse Žez -- lo je -- ho vlá -- dy
@@ -927,7 +927,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }

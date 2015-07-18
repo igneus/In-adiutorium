@@ -26,7 +26,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -48,7 +48,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G*" 
+    differentia = "G*"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -80,16 +80,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna a
-    
+
     % V
     \neviditelna a
-    
+
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -112,7 +112,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Od rá -- na se ce -- lým srd -- cem o -- bra -- cí k_Bo -- hu,
@@ -123,7 +123,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -147,7 +147,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -168,7 +168,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 112"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -191,7 +191,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Zj 15"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -203,7 +203,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
@@ -211,10 +211,10 @@
     e d e e( a b) a a b b \barMin b b( c b a) g f g( f e) e \barFinalis
     % V
     \neviditelna a
-    
+
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -239,17 +239,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
     f g g g g( a g f) g( a) \barMax
     % V
     \neviditelna a
-    
+
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -274,7 +274,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
@@ -282,13 +282,13 @@
     c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % V
     \neviditelna g
-    g( b c) c \barMin d c b b( c b a) a( b) b \barMin 
+    g( b c) c \barMin d c b b( c b a) a( b) b \barMin
     b( c d c) b( a) a g a g( f) e \barMaior
     e d( e) e g( a) a b a b c4. b \barMin
     c4 c c c d c b( c b) b \barMax
     % R
     \neviditelna a
-    
+
     % Slava
   }
   \addlyrics {
@@ -314,7 +314,7 @@
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna e
     e4 e e e( g b) \barMin c b a b a e e \barMaior
@@ -322,7 +322,7 @@
     c c c c( d) c b( c) b b \barMin b b( c b) a( g) a g( f e) e \barFinalis
     % V
     \neviditelna g
-    g( b c \mark\sipka d) c( b) \barMin d c b b( c b a) a( b) b \barMin 
+    g( b c \mark\sipka d) c( b) \barMin d c b b( c b a) a( b) b \barMin
     b( c d c) b( a) a g a g( f) e \barMaior
     e d( e) e g( a) a b a b c4. b \barMin
     c4 c c c d c b( c b) b \barMax
@@ -356,7 +356,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
@@ -370,7 +370,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

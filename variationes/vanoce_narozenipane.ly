@@ -2667,7 +2667,7 @@
       psalmus = "Benedictus"
       annus = "B"
       id = "svrodiny-rch-abenB"
-      fons = "melodie podle: Narození Páně, ant. v poledne; 
+      fons = "melodie podle: Narození Páně, ant. v poledne;
       proto zde také košatější text než je v breviáři"
       fial = "fial://vanoce_narozenipane.ly#vden-atercie?upraveno"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}

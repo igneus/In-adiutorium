@@ -1266,7 +1266,7 @@
     bes c d d f( e) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din na -- vští -- vil 
+    Hos -- po -- din na -- vští -- vil
     a vy -- kou -- pil svůj lid.
   }
   \header {
@@ -1286,7 +1286,7 @@
     f e f d c( e) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din na -- vští -- vil 
+    Hos -- po -- din na -- vští -- vil
     a vy -- kou -- pil svůj lid.
   }
   \header {
@@ -1308,7 +1308,7 @@
     e f d d c( d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din na -- vští -- vil 
+    Hos -- po -- din na -- vští -- vil
     a vy -- kou -- pil svůj lid.
   }
   \header {
@@ -1329,7 +1329,7 @@
     e f \mark\sipka e d c( d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din na -- vští -- vil 
+    Hos -- po -- din na -- vští -- vil
     a vy -- kou -- pil svůj lid.
   }
   \header {

@@ -234,7 +234,7 @@ v předvánočním týdnu latinsky.}
     d c b c a g-- g \barMin a g f( g) g \barFinalis
   }
   \addlyrics {
-    Dnes po -- zná -- te, že při -- jde Pán, 
+    Dnes po -- zná -- te, že při -- jde Pán,
     a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
   }
   \header {

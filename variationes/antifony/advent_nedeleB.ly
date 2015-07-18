@@ -473,7 +473,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "nepěkná a nedrží pořádně pohromadě; 
+    placet = "nepěkná a nedrží pořádně pohromadě;
     myslet na dvě její samostatně užívané části!"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}

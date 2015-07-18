@@ -11,7 +11,7 @@
 \paper {
   ragged-bottom=##t
   ragged-last-bottom=##t
-  
+
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
   markup-markup-spacing #'minimum-distance = #5
 }
@@ -25,9 +25,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     c d f\breve f4-! \parenthesize d d4.^\markup\large\Dagger \barMin
-    f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax 
+    f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax
     f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
@@ -490,7 +490,7 @@
   \header {
     quid = ". ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = "pátek"
@@ -508,7 +508,7 @@
   \header {
     quid = ". ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = "pátek"
@@ -520,7 +520,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f g f g g4.( a) \barMax
@@ -552,7 +552,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f g f g g( a) \barMax
@@ -589,7 +589,7 @@
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f f f( d) e( f) g \barMax
@@ -621,7 +621,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
     % R
     \neviditelna f
     f4 f \barMin f f \mark\sipka f d e( f) g \barMax
@@ -659,7 +659,7 @@
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    
+
     % ruzne verze Aleluja:
     <<
     { f^\markup{V době velikonoční:} g( f) e4. e \barFinalis }
@@ -675,9 +675,9 @@
     \new Staff { { \choralniRezim e4 e( f) d( e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim e f d( f e) e } \addlyrics { A -- le -- lu -- ja. } }
     \new Staff { { \choralniRezim f^\markup{Stará verze:} g e e  } \addlyrics { A -- le -- lu -- ja. } }
-    
+
     >>
-    
+
     \barFinalis
   }
   \addlyrics {
@@ -690,7 +690,7 @@
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -711,7 +711,7 @@
     a4 b g f g g( a) a \barMax
     g a c c \mark\sipka b( c d) c( b) a a \barMin
     \mark\sipka g4 g g a g a g f e e e \barFinalis
-    
+
     f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
   }
   \addlyrics {
@@ -724,7 +724,7 @@
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -738,7 +738,7 @@
     a4 b g f g g( a) a \barMax
     g a c c b( c d) c( b) \mark\sipka a( b g) g \barMin
     \mark\sipka f4 g g a g a g f e e e \barFinalis
-    
+
     f^\markup{V době velikonoční:} f( g) e4. e \barFinalis
   }
   \addlyrics {
@@ -751,7 +751,7 @@
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -780,7 +780,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -808,7 +808,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -834,7 +834,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -861,7 +861,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -886,7 +886,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -911,7 +911,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -937,7 +937,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
@@ -963,18 +963,18 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
   \header {
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Nunc dimittis"
     piece = \markup {\sestavTitulek}
     id = "sim"
   }
 }
-  
+
 \bookpart {
   \header {
-    subtitle = "Doba velikonoční" 
+    subtitle = "Doba velikonoční"
   }
-  
+
   % Tato cast obsahuje mene not a proto je lepsi, aby se, narozdil
   % od prvni casti, noty neroztahovaly na celou stranku, ale byly
   % nakupene nahore:
@@ -982,9 +982,9 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     ragged-bottom=##f
     ragged-last-bottom=##t
   }
-  
+
   \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
-  
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -1000,21 +1000,21 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     \header {
       quid = "ant. k žalmům"
       modus = "VIII"
-      differentia = "G" 
+      differentia = "G"
       psalmus = ""
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
-  
+
   \pageBreak
-  
+
   \score {
     \relative c' {
       \zvyraznovacSedy
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f \barMin f f g f e( d) d \barMaior
@@ -1043,14 +1043,14 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
       piece = \markup {\sestavTitulekResp}
     }
   }
-  
+
   \markup\nadpisSkupiny "less is sometimes more"
-  
+
   \score {
     \relative c' {
       \zvyraznovacModry
       \choralniRezim
-      
+
       % R
       \neviditelna f
       f4 f f f f f g f \barMin
@@ -1079,12 +1079,12 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
       piece = \markup {\sestavTitulekResp}
     }
   }
-  
+
   \pageBreak
-  
+
   \markup\justify {K antifoně k Simeonovu kantiku se na konci připojí aleluja,
   jak je v jejích notách zapsáno.}
-  
+
   \markup\justify {Antifony, které se ve Velikonočním triduu
   a ve Velikonočním oktávu zpívají místo responsoria, jsou
   "v materiálech" pro tyto liturgické doby.}

@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 50-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -42,7 +42,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 50-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -62,7 +62,7 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d" 
+    differentia = "d"
     psalmus = "Žalm 50-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -84,7 +84,7 @@
   \header {
     quid = "1. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 84"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -105,7 +105,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Iz 2"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -116,17 +116,17 @@
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    d( a') a \barMin 
+    d( a') a \barMin
     g a f e f g a f e d d \barFinalis
   }
   \addlyrics {
-    Vzhů -- ru, 
+    Vzhů -- ru,
     vy -- stup -- me na Hos -- po -- di -- no -- vu ho -- ru.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 2"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -136,17 +136,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( a') a \barMin 
+    d( a') a \barMin
     g a f e f g a \mark\sipka g f d d \barFinalis
   }
   \addlyrics {
-    Vzhů -- ru, 
+    Vzhů -- ru,
     vy -- stup -- me na Hos -- po -- di -- no -- vu ho -- ru.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Iz 2"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -167,7 +167,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     psalmus = "Žalm 96"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -188,13 +188,13 @@
   }
   \addlyrics {
     Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
-    Hos -- po -- di -- ne, 
+    Hos -- po -- di -- ne,
     vždyť skr -- ze ně jsi mi dal ži -- vot.
   }
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 119-XII"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -215,7 +215,7 @@
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 71-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -229,13 +229,13 @@
     f f f e( d) c \barMin a c d d \barFinalis
   }
   \addlyrics {
-    Tys má dů -- vě -- ra 
+    Tys má dů -- vě -- ra
     od mé -- ho mlá -- dí, Hos -- po -- di -- ne.
   }
   \header {
     quid = "2. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 71-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -254,7 +254,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 71-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -270,13 +270,13 @@
     f f f e( d) c \barMin d e g f \barFinalis
   }
   \addlyrics {
-    Tys má dů -- vě -- ra 
+    Tys má dů -- vě -- ra
     od mé -- ho mlá -- dí, Hos -- po -- di -- ne.
   }
   \header {
     quid = "2. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 71-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -294,7 +294,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 71-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -312,7 +312,7 @@
   \header {
     quid = "3. ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     psalmus = "Žalm 71-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -329,13 +329,13 @@
     d f g a a \barMin g d e e \barFinalis
   }
   \addlyrics {
-    Tys má dů -- vě -- ra 
+    Tys má dů -- vě -- ra
     od mé -- ho mlá -- dí, Hos -- po -- di -- ne.
   }
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 71-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
@@ -354,7 +354,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 71-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek - v master jen krátce, do 5.11.2012}
@@ -373,7 +373,7 @@
   \header {
     quid = "3. ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     psalmus = "Žalm 71-II"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -397,7 +397,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Žalm 123"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -418,7 +418,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 124"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}

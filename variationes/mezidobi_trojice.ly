@@ -22,14 +22,14 @@
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
     a kla -- ní -- me se
-    tvé -- mu je -- di -- né -- mu, 
+    tvé -- mu je -- di -- né -- mu,
     pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
     ve třech o -- so -- bách.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -48,14 +48,14 @@
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
     a kla -- ní -- me se
-    tvé -- mu je -- di -- né -- mu, 
+    tvé -- mu je -- di -- né -- mu,
     pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
     ve třech o -- so -- bách.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -67,7 +67,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Ten, kte -- rý všech -- no stvo -- řil
@@ -78,7 +78,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -91,7 +91,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     Ce -- lým srd -- cem i ús -- ty
@@ -99,7 +99,7 @@
     ne -- zro -- ze -- né -- ho Ot -- ce
     i jed -- no -- ro -- ze -- né -- ho Sy -- na
     i Pří -- mluv -- ce, Du -- cha sva -- té -- ho.
-    
+
     Chvá -- lí -- me a ve -- le -- bí -- me tě,
     nej -- svě -- těj -- ší Tro -- ji -- ce:
     To -- bě buď slá -- va na -- vě -- ky!
@@ -107,7 +107,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

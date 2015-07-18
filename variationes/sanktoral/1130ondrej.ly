@@ -22,13 +22,13 @@
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
-    byl me -- zi prv -- ní -- mi, 
+    byl me -- zi prv -- ní -- mi,
     kte -- ří ná -- sle -- do -- va -- li Pá -- na.
   }
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -45,13 +45,13 @@
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
-    byl me -- zi prv -- ní -- mi, 
+    byl me -- zi prv -- ní -- mi,
     kte -- ří ná -- sle -- do -- va -- li Pá -- na.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 63"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -75,7 +75,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -97,7 +97,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -119,7 +119,7 @@
   \header {
     quid = "3. ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Žalm 149"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -145,7 +145,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -167,7 +167,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 116-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -239,8 +239,8 @@
 \markup { breviar OP ma otroctejsi preklad: }
 
 \markup\italic{
-  Kristův služebník, apoštol Ondřej, 
-  byl rodným bratrem apoštola Petra 
+  Kristův služebník, apoštol Ondřej,
+  byl rodným bratrem apoštola Petra
   a stal se jeho druhem v utrpení.
 }
 
@@ -251,7 +251,7 @@
     \choralniRezim
     g4 g c b a \barMin c c g a( g) f \barMaior
     g a b c( d) c b c b g a a \barMaior
-    a g( f e) e \barMin 
+    a g( f e) e \barMin
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
@@ -261,7 +261,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -273,7 +273,7 @@
     \choralniRezim
     c4 g a c c \barMin d c d c( b) a \barMaior
     g f g g( a) g a b c c c( d c) b \barMaior
-    
+
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
@@ -283,7 +283,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -293,8 +293,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g g \barMin 
-    
+    g4 g g( a) g g \barMin
+
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
@@ -304,7 +304,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = ""
-    differentia = "" 
+    differentia = ""
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -323,14 +323,14 @@
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-    
+
     a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
     % text podle dominikanskeho breviare
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
@@ -349,14 +349,14 @@
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-    
+
     a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
     % text podle dominikanskeho breviare
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}

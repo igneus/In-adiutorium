@@ -8,7 +8,7 @@ sestavInvitTitulek = \markup {
 
 % LICHE TYDNY --------------------------------------------
 
-%tInedeleInvitatorium = 
+%tInedeleInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -19,15 +19,15 @@ sestavInvitTitulek = \markup {
     e4 f( d) d( c) d4. \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,
     já -- sej -- me Hos -- po -- di -- nu,
-    o -- sla -- vuj -- me ská -- lu své spá -- sy. 
+    o -- sla -- vuj -- me ská -- lu své spá -- sy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "neděle"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -44,15 +44,15 @@ sestavInvitTitulek = \markup {
     e4 f( d) d( c) d4. \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,
     já -- sej -- me Hos -- po -- di -- nu,
-    o -- sla -- vuj -- me ská -- lu své spá -- sy. 
+    o -- sla -- vuj -- me ská -- lu své spá -- sy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "neděle"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -67,19 +67,19 @@ sestavInvitTitulek = \markup {
     \key f \major
     d4( a') a \barMin
     c bes g bes a g a \barMaior
-    g a g f e f g f( d) d \barMin 
+    g a g f e f g f( d) d \barMin
     e f d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,
     já -- sej -- me Hos -- po -- di -- nu,
-    o -- sla -- vuj -- me ská -- lu své spá -- sy. 
+    o -- sla -- vuj -- me ská -- lu své spá -- sy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "neděle"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -92,19 +92,19 @@ sestavInvitTitulek = \markup {
     \key f \major
     d4( a') a \barMin
     c bes g bes a g a \barMaior
-    g a g f e f g f( \mark\sipka e) d \barMin 
+    g a g f e f g f( \mark\sipka e) d \barMin
     e f d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,
     já -- sej -- me Hos -- po -- di -- nu,
-    o -- sla -- vuj -- me ská -- lu své spá -- sy. 
+    o -- sla -- vuj -- me ská -- lu své spá -- sy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "neděle"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -117,7 +117,7 @@ sestavInvitTitulek = \markup {
   Tato verze se mi delší dobu dosti hrubě nezamlouvá.
 }
 
-%tIpondeliInvitatorium = 
+%tIpondeliInvitatorium =
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -126,13 +126,13 @@ sestavInvitTitulek = \markup {
     g f e( f) f \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -147,13 +147,13 @@ sestavInvitTitulek = \markup {
     d4 c d f e d e c \barMin d( c) b a( g a) g \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -168,13 +168,13 @@ sestavInvitTitulek = \markup {
     f4 a g a b c a g \barMin f f f( g) f \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -188,13 +188,13 @@ sestavInvitTitulek = \markup {
     f4 a g a b c a g \barMin f f a( g) f \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -209,13 +209,13 @@ sestavInvitTitulek = \markup {
     a( g) f( g) e \barMin d e f a g f f g( f) e \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -228,17 +228,17 @@ sestavInvitTitulek = \markup {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    d4 d( a') a g f g f e \barMin 
+    d4 d( a') a g f g f e \barMin
     d( e) g f( d) d \barFinalis
   }
   \addlyrics {
-    Před -- stup -- me před Hos -- po -- di -- na 
+    Před -- stup -- me před Hos -- po -- di -- na
     s_chva -- lo -- zpě -- vy!
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "pondělí"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -247,16 +247,16 @@ sestavInvitTitulek = \markup {
 
 \pageBreak
 
-pojdmeKlanmeSeI = { 
+pojdmeKlanmeSeI = {
   d( f) f \barMin g f f e d e( f) d \barMin
 }
 
-pojdmeKlanmeSeCele = { 
-  \pojdmeKlanmeSeI 
+pojdmeKlanmeSeCele = {
+  \pojdmeKlanmeSeI
   c d f e c4. d \barFinalis
 }
 
-%tIuteryInvitatorium = 
+%tIuteryInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -269,7 +269,7 @@ pojdmeKlanmeSeCele = {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     dies = "úterý"
     id = "t1ut"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -278,7 +278,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIstredaInvitatorium = 
+%tIstredaInvitatorium =
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -287,13 +287,13 @@ pojdmeKlanmeSeCele = {
     g( a) g f( e) e \barFinalis
   }
   \addlyrics {
-    Po -- klek -- ně -- me před svým tvůr -- cem 
+    Po -- klek -- ně -- me před svým tvůr -- cem
     Hos -- po -- di -- nem!
   }
   \header {
     quid = "ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     dies = "středa"
     id = "t1st"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -303,17 +303,17 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c' {
     \choralniRezim
-    d4 d a' a g f e e \barMin 
+    d4 d a' a g f e e \barMin
     f g f( d) d \barFinalis
   }
   \addlyrics {
-    Po -- klek -- ně -- me před svým tvůr -- cem 
+    Po -- klek -- ně -- me před svým tvůr -- cem
     Hos -- po -- di -- nem!
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     dies = "středa"
     id = "t1st"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -328,13 +328,13 @@ pojdmeKlanmeSeCele = {
     g a( f) d( f) e( d) \barFinalis
   }
   \addlyrics {
-    Po -- klek -- ně -- me před svým tvůr -- cem 
+    Po -- klek -- ně -- me před svým tvůr -- cem
     Hos -- po -- di -- nem!
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     dies = "středa"
     id = "t1st"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -343,20 +343,20 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIctvrtekInvitatorium = 
+%tIctvrtekInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
     \pojdmeKlanmeSeCele
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
       ne -- boť on je náš Bůh.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     dies = "čtvrtek"
     id = "t1ct"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -365,7 +365,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIpatekInvitatorium = 
+%tIpatekInvitatorium =
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -382,7 +382,7 @@ pojdmeKlanmeSeCele = {
   \header {
     quid = "ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     dies = "pátek"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -393,21 +393,21 @@ pojdmeKlanmeSeCele = {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
-    a4 a g f c' a g a \barMin 
+    a4 a g f c' a g a \barMin
     f g f d( e) d \barMaior
-    c d f g f e d \barMin 
+    c d f g f e d \barMin
     f e f d d \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na, 
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
     ne -- boť je dob -- rý,
-    je -- ho mi -- lo -- sr -- den -- ství 
+    je -- ho mi -- lo -- sr -- den -- ství
     tr -- vá na -- vě -- ky!
   }
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     dies = "pátek"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -416,7 +416,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIsobotaInvitatorium = 
+%tIsobotaInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -425,13 +425,13 @@ pojdmeKlanmeSeCele = {
     g a a f e d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Hos -- po -- di -- nu, 
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
       je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     dies = "sobota"
     id = "t1so"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -442,7 +442,7 @@ pojdmeKlanmeSeCele = {
 
 % LICHE TYDNY --------------------------------------------
 
-%tIInedeleInvitatorium = 
+%tIInedeleInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -461,7 +461,7 @@ pojdmeKlanmeSeCele = {
     dies = "neděle"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2ne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -485,7 +485,7 @@ pojdmeKlanmeSeCele = {
     dies = "neděle"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2ne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -504,16 +504,16 @@ pojdmeKlanmeSeCele = {
     e g f( d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, 
+    Pojď -- me,
     klaň -- me se Hos -- po -- di -- nu;
-    jsme je -- ho lid 
+    jsme je -- ho lid
     a stád -- ce je -- ho past -- vy, a -- le -- lu -- ja.
   }
   \header {
     dies = "neděle"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2ne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -521,24 +521,24 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIpondeliInvitatorium = 
+%tIIpondeliInvitatorium =
 \score {
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     \key f \major
-    d4( a') g bes( a) g f g a a \barMin 
+    d4( a') g bes( a) g f g a a \barMin
     a bes g g g e g f( e) d \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -551,14 +551,14 @@ pojdmeKlanmeSeCele = {
     c b c a g f g a g \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -568,17 +568,17 @@ pojdmeKlanmeSeCele = {
   \relative c'' {
     \choralniRezim
     d4 f e d c d c( b) a \barMin
-    
+
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -591,14 +591,14 @@ pojdmeKlanmeSeCele = {
     c c( d c) b( a) g g a f f( g) f \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "V"
-    differentia = "a" 
+    differentia = "a"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -609,18 +609,18 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d e d c d c( b) c \barMin 
+    c4 d e d c d c( b) c \barMin
     d d( c b) a( g) g g a f g g \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -634,14 +634,14 @@ pojdmeKlanmeSeCele = {
     d d( c b) a( g) g g \mark\sipka f g a( f) g \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- me Hos -- po -- di -- na 
+    O -- sla -- vuj -- me Hos -- po -- di -- na
     a pís -- ně -- mi mu za -- já -- sej -- me!
   }
   \header {
     dies = "pondělí"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -649,7 +649,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIuteryInvitatorium = 
+%tIIuteryInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -663,7 +663,7 @@ pojdmeKlanmeSeCele = {
     dies = "úterý"
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     id = "t2ut"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -671,7 +671,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIstredaInvitatorium = 
+%tIIstredaInvitatorium =
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -688,7 +688,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -711,7 +711,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -733,7 +733,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -753,7 +753,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -774,7 +774,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "VII"
-    differentia = "c" 
+    differentia = "c"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -786,7 +786,7 @@ pojdmeKlanmeSeCele = {
   \relative c' {
     \choralniRezim
     e4 g a g a b a \barMin g e e( d) e \barMaior
-    
+
   }
   \addlyrics {
     Ple -- sej -- te Hos -- po -- di -- nu, všech -- ny ze -- mě,
@@ -796,7 +796,7 @@ pojdmeKlanmeSeCele = {
     dies = "středa"
     quid = "ant."
     modus = "IV"
-    differentia = "E" 
+    differentia = "E"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -804,7 +804,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIctvrtekInvitatorium = 
+%tIIctvrtekInvitatorium =
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -818,7 +818,7 @@ pojdmeKlanmeSeCele = {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VII"
-    differentia = "d" 
+    differentia = "d"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -836,14 +836,14 @@ pojdmeKlanmeSeCele = {
     a g f d f g f f \barFinalis
   }
   \addlyrics {
-    Vstup -- te 
+    Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -860,14 +860,14 @@ pojdmeKlanmeSeCele = {
     d( f) g( f) f \barFinalis
   }
   \addlyrics {
-    Vstup -- te 
+    Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -882,14 +882,14 @@ pojdmeKlanmeSeCele = {
     d( f) g( f) f \barFinalis
   }
   \addlyrics {
-    Vstup -- te 
+    Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -901,18 +901,18 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c' {
     \choralniRezim
-    f a g f e f d \barMin 
+    f a g f e f d \barMin
     f( g) a( g) f \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na 
+    Vstup -- te před Hos -- po -- di -- na
     s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -925,18 +925,18 @@ pojdmeKlanmeSeCele = {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
-    a4( bes a g) f \barMin 
+    a4( bes a g) f \barMin
     e d e f g a g f \barFinalis
   }
   \addlyrics {
-    Vstup -- te 
+    Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -946,18 +946,18 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c'' {
     \choralniRezim
-    a4( bes a g) f \barMin 
+    a4( bes a g) f \barMin
     e d e f g a( f) g f \barFinalis
   }
   \addlyrics {
-    Vstup -- te 
+    Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     dies = "čtvrtek"
     quid = "ant."
     modus = "VI"
-    differentia = "F" 
+    differentia = "F"
     id = "t2ct"
     fons = "žaltář, pátek 1.t., rch, 3.ant."
     piece = \markup {\sestavTitulekBezZalmu}
@@ -966,7 +966,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIpatekInvitatorium = 
+%tIIpatekInvitatorium =
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -981,7 +981,7 @@ pojdmeKlanmeSeCele = {
     dies = "pátek"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -994,14 +994,14 @@ pojdmeKlanmeSeCele = {
     g a b g f e e \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je dob -- rý, 
+    Hos -- po -- din je dob -- rý,
     že -- hnej -- te je -- ho jmé -- nu.
   }
   \header {
     dies = "pátek"
     quid = "ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     id = "t2pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1016,14 +1016,14 @@ pojdmeKlanmeSeCele = {
     g f e d c d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je dob -- rý, 
+    Hos -- po -- din je dob -- rý,
     že -- hnej -- te je -- ho jmé -- nu.
   }
   \header {
     dies = "pátek"
     quid = "ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     id = "t2pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1037,14 +1037,14 @@ pojdmeKlanmeSeCele = {
     g f e d c e( f d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je dob -- rý, 
+    Hos -- po -- din je dob -- rý,
     že -- hnej -- te je -- ho jmé -- nu.
   }
   \header {
     dies = "pátek"
     quid = "ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     id = "t2pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1052,7 +1052,7 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
-%tIIsobotaInvitatorium = 
+%tIIsobotaInvitatorium =
 \score {
   \relative c' {
     \choralniRezim
@@ -1069,7 +1069,7 @@ pojdmeKlanmeSeCele = {
     dies = "sobota"
     quid = "ant."
     modus = "I"
-    differentia = "D" 
+    differentia = "D"
     id = "t2so"
     piece = \markup {\sestavTitulekBezZalmu}
   }

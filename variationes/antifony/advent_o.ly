@@ -22,7 +22,7 @@
   Hr-11 (II.A.11), Muzeum východních Čech v Hradci Králové, Hradec Králové
 }
 \markup\justify{
-  \bold{SR} - 
+  \bold{SR} -
   Sezemický rorátník (16. století).
   Rkp 369/43, Východočeské muzeum v Pardubicích, Pardubice
   \italic{divisio vkládám jen tam, kde je v prameni strophicus}
@@ -60,7 +60,7 @@ sestavTitulekFons = \markup {
     c( f) f f d f \parenthesize f c( d) d( c a) c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O Mau -- dros -- ti Bo -- zí, 
+    O Mau -- dros -- ti Bo -- zí,
     kte -- raž sy z_aust ney -- wyš -- ší -- ho po -- šla,
     do -- sa -- hu -- gic od kon -- ce až do kon -- ce
     sy -- lnie a o -- chot -- nie zpu -- so -- bu -- gic wšec -- ky wě -- cy,
@@ -69,7 +69,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 14r"
@@ -88,7 +88,7 @@ sestavTitulekFons = \markup {
     c( f) f f d f f c( d) d( c a) \barMin c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    Ó Mou -- dros -- ti Bo -- ží, 
+    Ó Mou -- dros -- ti Bo -- ží,
     kte -- ráž jsi z_úst Nej -- vyš -- ší -- ho vy -- šla,
     do -- sa -- hu -- jíc od kon -- ce až do kon -- ce
     sil -- ně a o -- chot -- ně způ -- so -- bu -- jíc všec -- ky vě -- ci,
@@ -97,7 +97,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 14r; upraveno"
@@ -115,7 +115,7 @@ sestavTitulekFons = \markup {
     c f f f d f c( d) d( c a) c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O mau -- dros -- ti Bo -- ží, 
+    O mau -- dros -- ti Bo -- ží,
     kte -- ráž gsy z_aust ney -- wyš -- ší -- ho po -- šla,
     do -- sa -- hu -- gic od kon -- ce až do kon -- ce
     sy -- lně a o -- chot -- ně zpu -- so -- bu -- gic wšec -- ky wě -- cy,
@@ -124,7 +124,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 33"
@@ -142,7 +142,7 @@ sestavTitulekFons = \markup {
     c( f) f f d f c( d) d( c a) c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O mau -- dros -- ti Bo -- ží, 
+    O mau -- dros -- ti Bo -- ží,
     kte -- ráž gsy z_aust ney -- wyz -- ssy -- ho po -- ssla,
     do -- sa -- hu -- gic od kon -- ce až do kon -- ce
     sy -- lnie a o -- chot -- ně zpu -- so -- bu -- gic wssec -- ky wě -- cy,
@@ -151,7 +151,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "RD, 5r"
@@ -169,7 +169,7 @@ sestavTitulekFons = \markup {
     c( f) f f d e f c( d) d( c a) c( d) f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O mau -- dros -- ti Bo -- ží, 
+    O mau -- dros -- ti Bo -- ží,
     kte -- ráž gsy z_ust ney -- wyš -- ší -- ho po -- šla,
     do -- sa -- hu -- gic od kon -- ce až do kon -- ce
     sy -- lně a o -- chot -- ně zpu -- so -- bu -- gic wšec -- ky wě -- cy,
@@ -178,7 +178,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr, 3"
@@ -197,17 +197,17 @@ sestavTitulekFons = \markup {
   }
   \addlyrics {
     O Maud -- ros -- ti wecz -- na ne -- stih -- la
-    kte -- raž -- to gsy před we -- ky z_ust Ney -- wyz -- šy -- ho wy -- šla 
+    kte -- raž -- to gsy před we -- ky z_ust Ney -- wyz -- šy -- ho wy -- šla
     tys wšech wě -- cy diw -- ny po -- cza -- tek i ko -- necz
-    moc -- zně a prze -- wel -- mi maud -- rze y dob -- rze 
+    moc -- zně a prze -- wel -- mi maud -- rze y dob -- rze
     spu -- so -- bi -- la gsy wšec -- ky we -- cy.
-    O przi -- gdiž k_nam a racz nas wy -- u -- czi -- ti ces -- tam swym 
+    O przi -- gdiž k_nam a racz nas wy -- u -- czi -- ti ces -- tam swym
     a swe Bož -- ske Maud -- ros -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Ro 1617, 4 bis - rukopisný dodatek"
@@ -236,7 +236,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 34; Hr 11, 14v"
@@ -264,7 +264,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 14v; upraveno"
@@ -286,13 +286,13 @@ sestavTitulekFons = \markup {
     Ó A -- do -- naj, a vůd -- ce do -- mu Iz -- ra -- el -- ské -- ho,
     jenž ses Moj -- ží -- šo -- vi v_ke -- ři oh -- ni -- vém u -- ká -- zal
     a té -- muž na ho -- ře Si -- na -- ji zá -- kon vy -- dal,
-    při -- jdiž a vy -- svo -- boď nás 
+    při -- jdiž a vy -- svo -- boď nás
     ra -- me -- nem svým pře -- moc -- ným.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "volně podle Hr 11, 14v"
@@ -319,7 +319,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "RD, 5r"
@@ -331,7 +331,7 @@ sestavTitulekFons = \markup {
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f( d) f( d) c( d) d 
+    d4( f) f( d) f( d) c( d) d
     d d d d d d f( e) e( f) d d \barMin
     d c( d) d d d f d d f d c f d f f( g f a c a) \barMin
     a a g d f f f f f( e) f g e f d \barMin
@@ -347,7 +347,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 7"
@@ -367,17 +367,17 @@ sestavTitulekFons = \markup {
     c( f) f f f f( e) d f c d c c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O ko -- rze -- nu Jes -- se, 
+    O ko -- rze -- nu Jes -- se,
     kte -- ryz sto -- giss na zna -- me -- ni na -- ro -- dum
     na kte -- remz -- to dr -- ze -- ti bu -- dau kra -- lo -- we us -- ta swa
     ge -- hoz -- to po -- ha -- ne bu -- dau zia -- da -- ti,
-    Przi -- gdiz k_wy -- swo -- bo -- ze -- ni na -- š -- emu 
+    Przi -- gdiz k_wy -- swo -- bo -- ze -- ni na -- š -- emu
     a giz ne -- chteg mess -- ka -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 15v; RD 5v"
@@ -395,17 +395,17 @@ sestavTitulekFons = \markup {
     c( f) f f f f( e) d f c d c \barMin c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    Ó ko -- ře -- ni Jes -- se, 
+    Ó ko -- ře -- ni Jes -- se,
     kte -- rýž sto -- jíš na zna -- me -- ní ná -- ro -- dům,
     na kte -- rémž -- to dr -- že -- ti bu -- dou krá -- lo -- vé ús -- ta svá,
     je -- hož -- to po -- ha -- né bu -- dou žá -- da -- ti,
-    Při -- jdiž k_vy -- svo -- bo -- ze -- ní na -- še -- mu 
+    Při -- jdiž k_vy -- svo -- bo -- ze -- ní na -- še -- mu
     a již ne -- chtěj meš -- ka -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 15v; upraveno"
@@ -424,17 +424,17 @@ sestavTitulekFons = \markup {
     c( f) f f f( e) d f c d c \barMin c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    Ó ko -- ře -- ni Jes -- se, 
+    Ó ko -- ře -- ni Jes -- se,
     jenž sto -- jíš na zna -- me -- ní ná -- ro -- dům,
     před nímž za -- vřou krá -- lo -- vé ús -- ta svá,
     je -- hož -- to po -- ha -- né bu -- dou vzý -- va -- ti,
-    Přijď k_vy -- svo -- bo -- ze -- ní na -- še -- mu 
+    Přijď k_vy -- svo -- bo -- ze -- ní na -- še -- mu
     a již ne -- chtěj meš -- ka -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "volně podle Hr 11, 15v"
@@ -452,17 +452,17 @@ sestavTitulekFons = \markup {
     c( f) f f f f( e) d f c d c c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O ko -- ře -- nu Jes -- se, 
+    O ko -- ře -- nu Jes -- se,
     kte -- rýž sto -- giš na zna -- me -- ni na -- ro -- dum,
     na kte -- rémž -- to dr -- že -- ti bu -- dau krá -- lo -- wé us -- ta swá,
     ge -- hož -- to po -- ha -- ne bu -- dau ža -- da -- ti,
-    Při -- gdiž k_wy -- swo -- bo -- ze -- ni na -- š -- emu 
+    Při -- gdiž k_wy -- swo -- bo -- ze -- ni na -- š -- emu
     a giž ne -- chtěg meš -- ka -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 35"
@@ -480,17 +480,17 @@ sestavTitulekFons = \markup {
     c( f) f f f f( e) d f \barMin c d c \barMin c( d) f f c c( f) d d \barFinalis
   }
   \addlyrics {
-    O ko -- ře -- nu Jes -- se, 
+    O ko -- ře -- nu Jes -- se,
     kte -- rýž sto -- giš na zna -- me -- ni na -- ro -- dum,
     na kte -- rémž -- to dr -- že -- ti bu -- dau krá -- lo -- wé us -- ta swá,
     ge -- hož -- to po -- ha -- ne bu -- dau ža -- da -- ti,
-    Při -- gdiž k_wy -- swo -- bo -- ze -- ni na -- š -- emu 
+    Při -- gdiž k_wy -- swo -- bo -- ze -- ni na -- š -- emu
     a giž ne -- chtěg meš -- ka -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 7"
@@ -519,7 +519,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 16r"
@@ -547,7 +547,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 16r; upraveno"
@@ -574,7 +574,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "RD, 6r"
@@ -599,7 +599,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 35"
@@ -613,7 +613,7 @@ sestavTitulekFons = \markup {
     d4( f) f( e) d f( d) d d d d d d d f( e) d( f) d c \barMin
     d c( d) d d f d d f d d f f g( a g a c a) \bar ""
     a a g f f(e) d( f) f d( f) d c \barMin
-    c( f) f f f( e) d e f 
+    c( f) f f f( e) d e f
     % divne, vsadil bych se, ze tu pisar neuvadejici klice presel na jednom
     % radku z klice do klice ...
     % ale transkribuji idiotsky
@@ -623,14 +623,14 @@ sestavTitulekFons = \markup {
     O kli -- či Da -- wi -- důw a hůl do -- mu Iz -- ra -- hel -- ské -- ho,
     kte -- rýž -- to ot -- wi -- raš a žad -- ny ne -- za -- wi -- ra,
     za -- wi -- raš a žad -- ny ne -- ot -- wi -- ra
-    při -- gdiž a wy -- wed wěz -- ně 
+    při -- gdiž a wy -- wed wěz -- ně
     ***z_do -- mu ža -- la -- ře,
     kte -- ryž -- to se -- di we tmach a w_sti -- nu smr -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 8"
@@ -649,15 +649,15 @@ sestavTitulekFons = \markup {
     c( d) f c c( f) d \barFinalis
   }
   \addlyrics {
-    O Wy -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho 
+    O Wy -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho
     a Slun -- ce spra -- we -- dl -- nos -- ti
-    Při -- gdiž a o -- swě -- tiž ty geš -- to se -- dí w_tem -- nos -- tech 
+    Při -- gdiž a o -- swě -- tiž ty geš -- to se -- dí w_tem -- nos -- tech
     a w_sti -- nu Smr -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 36; Hr 11, 16v"
@@ -677,13 +677,13 @@ sestavTitulekFons = \markup {
   \addlyrics {
     Ó Vy -- chá -- ze -- jí -- cí, bles -- ku svět -- la věč -- né -- ho,
     a Slun -- ce spra -- ve -- dl -- nos -- ti,
-    při -- jdiž a o -- svě -- tiž ty, jež -- to se -- dí v_tem -- nos -- tech 
+    při -- jdiž a o -- svě -- tiž ty, jež -- to se -- dí v_tem -- nos -- tech
     a v_stí -- nu smr -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 16v; upraveno"
@@ -696,20 +696,20 @@ sestavTitulekFons = \markup {
     \choralniRezim
     d4( f) f( d) d f( d) c( d) d d d d f( e) d( f) d c \barMax
     d c( d) d d f g a( g a c a) \bar ""
-    a g f( e) d( f) d d( c) d f f( e) d \barMax 
+    a g f( e) d( f) d d( c) d f f( e) d \barMax
     f( d) c( d) d( c c a) \barMax
     c( d) f c c( f) d \barFinalis
   }
   \addlyrics {
-    O Wi -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho 
+    O Wi -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho
     a slun -- ce spra -- wedl -- nos -- ti
-    Při -- gdiž o -- swie -- tiž ty gess -- to se -- di w_tem -- nos -- tech 
+    Při -- gdiž o -- swie -- tiž ty gess -- to se -- di w_tem -- nos -- tech
     a w_sti -- nu smr -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "RD, 6v"
@@ -722,21 +722,21 @@ sestavTitulekFons = \markup {
     \choralniRezim
     d4( f) f( d) d f( d) c( d) d d d d f( e) d( f) d c \barMin
     d c( d) d d f g a( g) a( c a) \bar ""
-    a g f( e) d f d( f) d( c) d f f( e) d 
+    a g f( e) d f d( f) d( c) d f f( e) d
     % take divne
     a'( g) e( f) c( a) \bar ""
     b( d) f c c( f) d \barFinalis
   }
   \addlyrics {
-    O Wi -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho 
+    O Wi -- cha -- ze -- gi -- cy bles -- ku swět -- la wěč -- né -- ho
     a slun -- ce spra -- we -- dl -- nos -- ti
-    Při -- gdiž a o -- swi -- tiž ty gež -- to se -- dí w_tem -- nos -- tech 
+    Při -- gdiž a o -- swi -- tiž ty gež -- to se -- dí w_tem -- nos -- tech
     a w_sti -- nu smr -- ti.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 8"
@@ -756,14 +756,14 @@ sestavTitulekFons = \markup {
   }
   \addlyrics {
     O kra -- li wšech na -- ro -- dů ža -- dos -- ti -- wy,
-    geš -- to slo -- weš u -- hel -- nim ka -- me -- nem 
+    geš -- to slo -- weš u -- hel -- nim ka -- me -- nem
     kte -- ryž -- to či -- niš zdwo -- gi -- ho ged -- no,
     při -- diž a spas Czlo -- wě -- ka ge -- hož gsy z_hli -- ny u -- či -- nil.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 40; Hr 11, 17r; RD 6v"
@@ -782,15 +782,15 @@ sestavTitulekFons = \markup {
   }
   \addlyrics {
     Ó krá -- li všech ná -- ro -- dů vy -- tou -- že -- ný,
-    jenž -- to slu -- ješ ú -- hel -- ným ka -- me -- nem, 
+    jenž -- to slu -- ješ ú -- hel -- ným ka -- me -- nem,
     kte -- rýž -- to či -- níš z_dvo -- jí -- ho jed -- no,
-    při -- jdiž a spas člo -- vě -- ka, 
+    při -- jdiž a spas člo -- vě -- ka,
     je -- hož jsi z_hlí -- ny u -- či -- nil.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 17r; upraveno"
@@ -810,14 +810,14 @@ sestavTitulekFons = \markup {
   }
   \addlyrics {
     O kra -- li wšech na -- ro -- duw ža -- dos -- ti -- wi,
-    geš -- to slo -- weš u -- hel -- nym ka -- me -- nem 
+    geš -- to slo -- weš u -- hel -- nym ka -- me -- nem
     kte -- ryž -- to či -- niš zdwo -- gi -- ho ged -- no,
     při -- diž a spas Czlo -- wě -- ka ge -- hož gsy z_hli -- ny u -- či -- nil.
   }
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 8"
@@ -843,7 +843,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "SR, 40; Hr 11, 17v; RD 7r"
@@ -868,7 +868,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Hr 11, 17v; upraveno"
@@ -892,7 +892,7 @@ sestavTitulekFons = \markup {
   \header {
     quid = "ant."
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = ""
     id = ""
     fons = "Padr 9"

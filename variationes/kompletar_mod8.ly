@@ -23,8 +23,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 4"
-    fons = "volně podle: 
-    		Manuale Cantorum sive Antiphonale Romanum, recognitum Juxta novissimum Antiphonale Romanum. Editio nova, Emendata, Leodii: C. Bourguignon 1818, 
+    fons = "volně podle:
+    		Manuale Cantorum sive Antiphonale Romanum, recognitum Juxta novissimum Antiphonale Romanum. Editio nova, Emendata, Leodii: C. Bourguignon 1818,
   		s. cxxvj. (ant. Miserere)"
     piece = \markup\sestavTitulek
     id = "nei1"
@@ -52,7 +52,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    
+
   }
   \addlyrics {
     O -- chrá -- ní tě_* svý -- mi pe -- ru -- tě -- mi;
@@ -78,7 +78,7 @@
     c b a g a b( a) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -98,7 +98,7 @@
     c b a g \mark\sipka f f( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -118,7 +118,7 @@
     \mark\sipka a g f g a a( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -139,7 +139,7 @@
     \mark\sipka f g a b a a( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -162,7 +162,7 @@
     f g a c a b( a) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -185,7 +185,7 @@
     e f g a( b) a a( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, ty jsi sho -- ví -- va -- vý_* 
+    Bo -- že, ty jsi sho -- ví -- va -- vý_*
     a nej -- výš mi -- lo -- srd -- ný.
   }
   \header {
@@ -248,7 +248,7 @@
   \relative c'' {
     \choralniRezim
     g4 g a( c) a g a g f( g) g \barMaior
-    
+
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,_*
@@ -271,7 +271,7 @@
     \zvyraznovacZelenyII
     \choralniRezim
     g4 g a g f g( a) a g g \barMaior
-    a b c b c( d) c( b) \barMin a c( b) a( g) g \barFinalis    
+    a b c b c( d) c( b) \barMin a c( b) a( g) g \barFinalis
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,_*
@@ -291,7 +291,7 @@
   \relative c'' {
     \choralniRezim
     g4 g a g f g( a) a g g \barMaior
-    a b c b c( d) c( b) \barMin \mark\sipka b a( g) a( g) g \barFinalis    
+    a b c b c( d) c( b) \barMin \mark\sipka b a( g) a( g) g \barFinalis
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,_*
@@ -311,7 +311,7 @@
   \relative c'' {
     \choralniRezim
     g4 g a g f g( a) a g g \barMaior
-    a b c b \mark\sipka a( g) f( e) \barMin e f( g) a( g) g \barFinalis    
+    a b c b \mark\sipka a( g) f( e) \barMin e f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Buď mi o -- chran -- nou ská -- lou, Bo -- že,_*

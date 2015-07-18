@@ -17,7 +17,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 87"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -33,7 +33,7 @@
     e g( a) f( e) e \barFinalis
   }
   \addlyrics {
-    Dob -- rý pas -- týř 
+    Dob -- rý pas -- týř
     shro -- maž -- ďu -- je be -- rán -- ky
     a ve svém klí -- nu je ne -- se.
     A -- le -- lu -- ja.
@@ -41,7 +41,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g" 
+    differentia = "g"
     psalmus = "Iz 40"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -62,7 +62,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G" 
+    differentia = "G"
     psalmus = "Žalm 99"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -88,7 +88,7 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 132-I"
     id = ""
     fons = "Krista Krále, 1. nešp., ad Magnificat, první část"
@@ -109,7 +109,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     e f d d \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     je je -- di -- ný Pa -- nov -- ník,
     Král krá -- lů a Pán pá -- nů.
     A -- le -- lu -- ja.
@@ -117,7 +117,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Žalm 132-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -133,7 +133,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     c bes( g) a a \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus 
+    Je -- žíš Kris -- tus
     je je -- di -- ný Pa -- nov -- ník,
     Král krá -- lů a Pán pá -- nů.
     A -- le -- lu -- ja.
@@ -141,7 +141,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Žalm 132-II"
     id = ""
     piece = \markup {\sestavTitulek}

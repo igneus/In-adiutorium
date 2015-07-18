@@ -16,7 +16,7 @@
     \choralniRezim
     a4 a g a b c a g g a a4. \barMin
     b4 c d d c( b) c d e( d c d) d4.( c) \barMax
-    a4 c c c b( c) a( g) f g g \barMaior 
+    a4 c c c b( c) a( g) f g g \barMaior
     a g a b( c) a a c b a( g) g \barMin
     a a d c b c a( g) a \barFinalis
   }
@@ -30,7 +30,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -42,7 +42,7 @@
     \choralniRezim
     a4 a g a b c a g g a a4. \barMin
     b4 c d d c( b) c d e( d c d) d4.( c) \barMax
-    a4 \mark\sipka b c c d( c) d d c c \barMaior 
+    a4 \mark\sipka b c c d( c) d d c c \barMaior
     d e d c( b) a a b g a( b) c \barMaior
     c c c( d c) b( c) a g g( a) a \barFinalis
   }
@@ -56,7 +56,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A" 
+    differentia = "A"
     psalmus = "Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -83,7 +83,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -108,7 +108,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D" 
+    differentia = "D"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }

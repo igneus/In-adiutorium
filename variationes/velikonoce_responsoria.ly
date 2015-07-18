@@ -10,7 +10,7 @@
 
 \paper {
   % neroztahovat noty na celou stranku, ale nechat misto dole:
-  ragged-bottom = ##t 
+  ragged-bottom = ##t
 }
 
 % dily do 'mych' responsorii
@@ -24,30 +24,30 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
   \header {
     subtitle = "Nápěvy vlastní"
   }
-  
+
   \markup\justify{
     Tento materiál obsahuje dvojí zhudebnění stejných textů -
     první je moje vlastní (z r. 2011), druhé (vzadu)
     sleduje model alelujatického responsoria
     gregoriánského chorálu.
   }
-  
+
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     %R
     \neviditelna a
     a4 c d d d d d d c \barMin
     d d c a g g \barMax
     \alelRespDelsi \barFinalis
-    
+
     %V
     \neviditelna d
     d4 d d d f e d( c) a4. \barMax
     \neviditelna a
     \alelRespDelsi \barFinalis
-    
+
     % Slava
     \slavaDelsi \barFinalis
   }
@@ -67,18 +67,18 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     %R
     \neviditelna d
     d4. a4 a b c4.( d) \barMax
     \alelResp \barFinalis
-    
+
     %V
     \neviditelna f
     f4 d d d c d d \barMax
     \neviditelna d
     \alelResp \barFinalis
-    
+
     \slava
   }
   \addlyrics {
@@ -96,13 +96,13 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     d4 a a a b( c) d4. \barMin
     d4 c a g a4.( b4 c) a a \barMax
     \alelRespDelsi \barFinalis
-    
+
     % V
     \neviditelna d
     d4 c( d) a( g) f g a a \barMin
@@ -110,7 +110,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
     % R
     \neviditelna a
     \alelRespDelsi \barFinalis
-    
+
     \slavaDelsi \barFinalis
   }
   \addlyrics {
@@ -131,18 +131,18 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     % R
     \neviditelna d
     d4. a4( b) c( d) d4. \barMax
     \alelResp \barFinalis
-    
+
     %V
     \neviditelna d
     d4 f f e d e( f) d d \barMax
     \neviditelna d
     \alelResp \barFinalis
-    
+
     % Slava
     \slava
   }
@@ -161,18 +161,18 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniRezim
-    
+
     %R
-    \neviditelna d 
+    \neviditelna d
     d4. d4 f d d d e f d4. d \barMax
     \alelResp \barFinalis
-    
+
     %V
     \neviditelna d
     d4 d d c \barMin c4 a g a( c) d d \barMax
     \neviditelna d
     \alelResp \barFinalis
-    
+
     % Slava
     \slava
   }
@@ -195,22 +195,22 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
   \header {
     subtitle = "Nápěvy podle gregoriánského chorálu"
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       %R
       \neviditelna f
       f f f f f f f g f \barMin f f e g a a \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       %V
       \neviditelna f
       f f f f f( g f) e g a \barMax
       \neviditelna a
       \respVIalelujaResponsum \barFinalis
-      
+
       % Slava
       \respVIalelujaDoxologie \barFinalis
     }
@@ -226,22 +226,22 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "neděle - ranní chvály (VI)"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       %R
       \neviditelna f
       f4 f f e g( a) \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       %V
       \neviditelna f
       f4 f f f e g a \barMax
       \neviditelna a
       \respVIalelujaResponsum \barFinalis
-      
+
       \respVIalelujaDoxologie \barFinalis
     }
     \addlyrics {
@@ -255,26 +255,26 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "neděle - druhé nešpory (VI)"
     }
   }
-  
+
   \pageBreak
-  
+
   \score {
     \relative c' {
       \zvyraznovacSedy
       \choralniRezim
-      
+
       % R
       \neviditelna d
       f4 f f g( f) d( f) f \barMin f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       % V
       \neviditelna f
       f f f f f f f f f e g a \barMax
       % R
       \neviditelna f
       \respVIalelujaResponsum \barFinalis
-      
+
       \respVIalelujaDoxologie \barFinalis
     }
     \addlyrics {
@@ -289,24 +289,24 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
     }
   }
-  
+
   \score {
     \relative c' {
       \zvyraznovacModry
       \choralniRezim
-      
+
       % R
       \neviditelna d
       f4 f f \mark\sipka e e( g) f \barMin f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       % V
       \neviditelna f
       f f f f f f f f f e g a \barMax
       % R
       \neviditelna f
       \respVIalelujaResponsum \barFinalis
-      
+
       \respVIalelujaDoxologie \barFinalis
     }
     \addlyrics {
@@ -321,24 +321,24 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
     }
   }
-  
+
   \pageBreak
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       % R
       \neviditelna d
       f4 e g( a) a \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       %V
       \neviditelna f
       f f f f e g a a \barMax
       \neviditelna f
       \respVIalelujaResponsum \barFinalis
-      
+
       % Slava
       \respVIalelujaDoxologie \barFinalis
     }
@@ -353,22 +353,22 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "pondělí až sobota - ranní chvály (VI)"
     }
   }
-  
+
   \score {
     \relative c' {
       \choralniRezim
-      
+
       %R
-      \neviditelna d 
+      \neviditelna d
       f4 f g f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
-      
+
       %V
       \neviditelna f
       f f f f f g f g a a \barMax
       \neviditelna d
       \respVIalelujaResponsum \barFinalis
-      
+
       % Slava
       \respVIalelujaDoxologie \barFinalis
     }
@@ -389,10 +389,10 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 \score {
   \relative c'' {
     \choralniRezim
-    
+
   }
   \addlyrics {
-    
+
   }
   \header {
     piece = ""

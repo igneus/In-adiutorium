@@ -21,7 +21,7 @@
   \header {
     quid = "1. ant."
     modus = "III"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 6"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -41,7 +41,7 @@
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "b" 
+    differentia = "b"
     psalmus = "Žalm 9-I"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -61,7 +61,7 @@
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = "b" 
+    differentia = "b"
     psalmus = "Žalm 9-II"
     id = ""
     piece = \markup {\sestavTitulek}
@@ -440,7 +440,7 @@
     d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
   }
   \addlyrics {
-    Bůh je soud -- ce 
+    Bůh je soud -- ce
     spra -- ved -- li -- vý a moc -- ný;
     on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
   }
@@ -467,7 +467,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a" 
+    differentia = "a"
     psalmus = "Žalm 11(10)"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -489,7 +489,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    quid = "2. ant." 
+    quid = "2. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 15(14)"
@@ -510,7 +510,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    quid = "2. ant." 
+    quid = "2. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 15(14)"
@@ -530,7 +530,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    quid = "2. ant." 
+    quid = "2. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 15(14)"
@@ -550,7 +550,7 @@
     ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
   }
   \header {
-    quid = "2. ant." 
+    quid = "2. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 15(14)"
@@ -561,7 +561,7 @@
 
 \pageBreak
 
-%tIpondeliNespAntIII = 
+%tIpondeliNespAntIII =
 \score {
   \relative c' {
     \choralniRezim
@@ -571,14 +571,14 @@
     g f e( d) d \barFinalis
   }
   \addlyrics {
-    Bůh si nás vy -- vo -- lil 
-    a skr -- ze Kris -- ta nás při -- jal 
+    Bůh si nás vy -- vo -- lil
+    a skr -- ze Kris -- ta nás při -- jal
     za své dě -- ti.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f" 
+    differentia = "f"
     psalmus = "Ef 1,3-10"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
