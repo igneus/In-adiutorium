@@ -151,7 +151,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 e f e d \barMin
+    c a c c( d) d \barMaior
+    f d f g( f d) d \barFinalis
   }
   \addlyrics {
     Mi -- lu -- ješ -li mě,
@@ -160,9 +162,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
-    psalmus = ""
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -191,48 +193,55 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
-    psalmus = ""
+    psalmus = "Žalm 64"
     fial = "pust_svatytyden.ly#odpo"
     id = "mc-a2"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d \barMin c a c c( d) \barMaior
+    a( c g) g \barMin
+    g f g c b g a a \barFinalis
   }
   \addlyrics {
     Pa -- ne, když jsi to ty,
-    roz -- kaž, ať při -- jdu k_to -- bě po vo -- dě.
+    roz -- kaž,
+    ať při -- jdu k_to -- bě po vo -- dě.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
-    psalmus = ""
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 97"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g a c( b) g( a) a a g f e e \barMaior
+    f g a a a c b a g a a \barMin
+    a g a f d d \barMaior
+    d c d d( c) c \barMin
+    d( e f) d d f( g) f d d \barFinalis
   }
   \addlyrics {
     Jed -- not -- ní ve ví -- ře i v_u -- tr -- pe -- ní,
-    po -- tvr -- di -- li svou mu -- čed -- nic -- kou smr -- tí to,
-    če -- mu u -- či -- li,
-    a ob -- dr -- že -- li ko -- ru -- nu
-    věč -- né slá -- vy.
+    po -- tvr -- di -- li svou mu -- čed -- nic -- kou smr -- tí
+    to, če -- mu u -- či -- li,
+    a ob -- dr -- že -- li
+    ko -- ru -- nu věč -- né slá -- vy.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
