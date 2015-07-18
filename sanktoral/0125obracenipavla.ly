@@ -35,6 +35,68 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Šav -- le, já jsem Je -- žíš,
+    kte -- ré -- ho ty pro -- ná -- sle -- du -- ješ.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 19A"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 64"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Pa -- vel za -- čal v_sy -- na -- go -- gách hlá -- sat Je -- ží -- še
+    a do -- ka -- zo -- val,
+    že je to Bo -- ží Syn.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 97"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
