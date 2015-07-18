@@ -48,6 +48,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "nic moc. melisma na _srdci_ raději pryč; zbytečně velký rozsah; _rozvažovala o něm_ má sklon k vadnému rytmu"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

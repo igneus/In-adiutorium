@@ -222,6 +222,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 125"
+    placet = "nic moc; zvlášť nerad mám okolí kadence v polovině"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

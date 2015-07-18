@@ -168,6 +168,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "od _a hned pocítila_ lépe"
     id = "ne13b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -210,6 +211,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_Děvče_ rozhodně jinak"
     id = "ne13b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

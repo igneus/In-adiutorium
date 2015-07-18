@@ -35,6 +35,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "zaslouží péči; divné je zejm. _povolali_ a _k opravdovému_"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -83,6 +84,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Dan 3-III"
+    placet = "zkusit alternativy"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -105,7 +107,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "_si_ je divné, asi by mělo zůstat na d"
+    placet = "_si_ je divné, asi by mělo zůstat na d;
+    pro vyřešení komentáře výše najít, odkud je text vzat - nejspíš je biblický"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -250,6 +253,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 15"
+    placet = "nic moc"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -334,6 +338,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "nic moc; _svatému_ v doxologii je vysloveně fuj"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

@@ -28,6 +28,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 117"
+    placet = "odsazené _že_ není úplně libé; celkově sice neuráží, ale také žádný zázrak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -135,6 +136,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melodie _apoštolové_ si nerozumí s přirozeným přízvukem"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -302,6 +304,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "_boj_ a _běh jsem_ jsou takové dryjáčnické"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -427,6 +430,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "nejsem si jist, že opravdu patří deklarovanému modu"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -519,6 +523,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "_byly dány_ a _nebeského_ je divné."
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

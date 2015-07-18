@@ -210,7 +210,7 @@ tInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3"
-    placet = "přeci jen VIII.G"
+    placet = "přeci jen VIII.G; aleluja melisma na první slabice nesluší"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

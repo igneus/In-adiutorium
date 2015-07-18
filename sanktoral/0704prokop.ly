@@ -28,7 +28,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "zkusit alternativy"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -50,7 +51,9 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Dan 3-III"
-    id = ""
+    placet = "závěr je neuspokojivý, určitě předělat. Vyzkoušet také,
+    zda přirozená finála není spíš na a"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -72,7 +75,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,7 +112,9 @@
   \header {
     quid = "resp."
     modus = "VII"
-    id = ""
+    placet = "věnovat něco péče. Možná změny nepotřebuje, ale relativně náročné
+    responsorium by nemělo zůstat dlouho bez dozoru."
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -133,6 +138,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "do modu II moc nesedí"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -165,7 +171,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 15"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -186,7 +192,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 112"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -209,7 +215,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Zj 15"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -249,7 +255,7 @@
   \header {
     quid = "resp."
     modus = "III"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -279,7 +285,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
