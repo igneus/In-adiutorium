@@ -147,6 +147,91 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Lep -- ší je den v_tvých ná -- dvo -- řích
+    než jin -- de ti -- síc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 84"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
+    g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
+    a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 97"
+    fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3?-aleluja"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    na -- še -- ho Bo -- ha,
+    klaň -- te se na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 99"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Když u -- čed -- ní -- ci_* u -- sly -- še -- li Bo -- ží hlas,
+    pad -- li tvá -- ří k_ze -- mi
+    a vel -- mi se bá -- li.
+
+    Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
+    Vstaň -- te, ne -- boj -- te se!
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -501,17 +586,19 @@
     pad -- li tvá -- ří k_ze -- mi
     a vel -- mi se bá -- li.
 
-    % Puvodne:
-    % Je -- žíš při -- stou -- pil, do -- tkl se jich a ře -- kl jim:
     Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
     Vstaň -- te, ne -- boj -- te se!
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Když učedníci uslyšeli hlas z oblaku,
+    padli tváří k zemi a velmi se báli.
+    Ježíš přistoupil, dotkl se jich a řekl jim: Vstaňte, nebojte se! Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
     psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#nona?delsi_text"
     id = "2ne-amag"
     fons = "1. část: zde, uprostřed dne, odpoledne"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -33,6 +33,95 @@
   }
 }
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Mo -- ře se o -- třás -- lo
+    a za -- chvě -- la se ze -- mě,
+    když ar -- chan -- děl Mi -- cha -- el
+    se -- stu -- po -- val z_ne -- be.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 97"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    An -- děl Gab -- ri -- el se zje -- vil Za -- cha -- ri -- á -- šo -- vi
+    a ře -- kl:
+    Tvo -- je že -- na Alž -- bě -- ta
+    ti po -- ro -- dí sy -- na
+    a dáš mu jmé -- no Jan.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 103-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Já jsem an -- děl Ra -- fa -- el
+    a sto -- jím před Hos -- po -- di -- nem;
+    vy ve -- leb -- te Bo -- ha
+    a vy -- pra -- vuj -- te
+    o všech je -- ho po -- di -- vu -- hod -- ných skut -- cích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 103-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

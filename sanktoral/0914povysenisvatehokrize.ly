@@ -307,6 +307,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    po -- di -- vu -- hod -- né zna -- me -- ní spá -- sy,
+    Kris -- tus svou kr -- ví na to -- bě pro -- li -- tou
+    zlo -- mil pý -- chu sta -- ré -- ho ne -- pří -- te -- le
+    a z_je -- ho mo -- ci vy -- svo -- bo -- dil
+    ce -- lý svět.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

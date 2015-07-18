@@ -198,7 +198,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 24"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -222,7 +222,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 46"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -243,7 +243,7 @@
     differentia = "D"
     psalmus = "Žalm 87"
     fial = "commune/commune_maria.ly#mc-a3?-aleluja"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -276,7 +276,7 @@
   \header {
     quid = "1. resp."
     modus = "VIII"
-    id = ""
+    id = "mc-r1"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -322,8 +322,32 @@
   \header {
     quid = "2. resp."
     modus = "V"
-    id = ""
+    id = "mc-r2"
     piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Mat -- ka Bo -- ží, Pan -- na Ma -- ri -- a,
+    by -- la vza -- ta s_tě -- lem i du -- ší
+    do ne -- bes -- ké slá -- vy
+    a má už dnes po -- díl
+    na slav -- ném ví -- těz -- ství Kris -- to -- vě
+    nad smr -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 

@@ -254,6 +254,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Všich -- ni sva -- tí,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
+    textus_approbatus = "vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
