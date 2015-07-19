@@ -195,9 +195,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
-    % text je "aktualizovanou" parafrazi odpovidajici antifony z commune -
-    % muze byt vhodne zkusit to zohlednit
+    f4 f f f( a) a( g) g \barMaior
+    g f g a g g a bes a g( a) g g \barMaior
+    a a( g f) e( f) d d \barMin
+    c d e( f d) c d d \barFinalis
   }
   \addlyrics {
     Bůh si ji vy -- vo -- lil
@@ -207,9 +208,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -218,9 +220,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
-    % text je "aktualizovanou" parafrazi odpovidajici antifony z commune -
-    % muze byt vhodne zkusit to zohlednit
+    c4 d d( a') a a bes a g f g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f e( f d4.) d4 d e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
@@ -229,30 +231,39 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#mc-a3?delsi_text"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g( a) a \barMin
+    c c b( c) \[ a( g f \] \[ g e) \] \barMaior
+    g a b c a a \barMin
+    c c b c d( c) b( a) b g g \barMaior
+    f g( a) a \barMin
+    a b c d c a a b a g g( a) a \barMaior
+    e e e e( f e) d( e) e f( g) g f e e \barFinalis
   }
   \addlyrics {
-    Buď zdrá -- va, raj -- ská rů -- že
-    roz -- ví -- je -- jí -- cí se pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
+    Buď zdrá -- va,
+    raj -- ská rů -- že
+    roz -- ví -- je -- jí -- cí se
+    pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
     buď zdrá -- va,
     ne -- věs -- to o -- zdo -- be -- ná zla -- tý -- mi šper -- ky;
     te -- be Bůh mi -- lu -- je víc než an -- dě -- ly.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}

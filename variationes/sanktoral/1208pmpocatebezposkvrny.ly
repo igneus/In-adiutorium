@@ -162,6 +162,260 @@
   }
 }
 
+\pageBreak
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \key d \minor
+
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
+    od -- mě -- nu od Bo -- ha, své -- ho spa -- si -- te -- le.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 24"
+    fial = "commune/commune_maria.ly#mc-a1?-aleluja"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Text je pro svatek aktualizovanou variantou antifony z commune.
+  V melodii na tuto souvislost ukazuje pouze spolecny zacatek.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f( a) a( g) g \barMaior
+    g a g a g( f) f g f e d( c) d( c) c \barMaior
+    d d( f g) f( e) d d \barMin
+    e d e( f d) c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f( a) a( g) g \barMaior
+    g f g f e d e d c d c c \barMaior
+    d d( f e) f( a) g g \barMin
+    f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f( a) a( g) g \barMaior
+    g f g a g g a bes a g( a) g g \barMaior
+    a a( g f) e( f) d d \barMin
+    c d e( f d) c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g f g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g( d) d d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a;
+    cír -- kev tě chvá -- lí a ve -- le -- bí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#mc-a3?delsi_text"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( a') a a bes a g f g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f e( f d4.) d4 d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a;
+    cír -- kev tě chvá -- lí a ve -- le -- bí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#mc-a3?delsi_text"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a \barMin
+    c c b( c) \[ a( g f \] \[ g e) \] \barMaior
+    g a b c a a \barMin
+    c c b c d( c) b( a) b g g \barMaior
+    a a( d) d \barMin
+    e d c d c a a b a g g( a) a \barMaior
+    e e e e( f g) f( e) e e( f) e d e e \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va,
+    raj -- ská rů -- že
+    roz -- ví -- je -- jí -- cí se
+    pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
+    buď zdrá -- va,
+    ne -- věs -- to o -- zdo -- be -- ná zla -- tý -- mi šper -- ky;
+    te -- be Bůh mi -- lu -- je víc než an -- dě -- ly.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a \barMin
+    c c b( c) \[ a( g f \] \[ g e) \] \barMaior
+    g a b c a a \barMin
+    c c b c d( c) b( a) b g g \barMaior
+    \mark\sipka f g( a) a \barMin
+    a b c d c a a b a g g( a) a \barMaior
+    e e e e( f g) f( e) e e( f) e d e e \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va,
+    raj -- ská rů -- že
+    roz -- ví -- je -- jí -- cí se
+    pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
+    buď zdrá -- va,
+    ne -- věs -- to o -- zdo -- be -- ná zla -- tý -- mi šper -- ky;
+    te -- be Bůh mi -- lu -- je víc než an -- dě -- ly.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) a \barMin
+    c c b( c) \[ a( g f \] \[ g e) \] \barMaior
+    g a b c a a \barMin
+    c c b c d( c) b( a) b g g \barMaior
+    f g( a) a \barMin
+    a b c d c a a b a g g( a) a \barMaior
+    e e e e( f \mark\sipka e) d( e) e f( g) g f e e \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va,
+    raj -- ská rů -- že
+    roz -- ví -- je -- jí -- cí se
+    pů -- so -- be -- ním Bo -- ží mi -- los -- ti;
+    buď zdrá -- va,
+    ne -- věs -- to o -- zdo -- be -- ná zla -- tý -- mi šper -- ky;
+    te -- be Bůh mi -- lu -- je víc než an -- dě -- ly.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
