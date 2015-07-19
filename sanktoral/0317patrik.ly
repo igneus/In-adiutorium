@@ -28,7 +28,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. k Benedictus"
+    quid = "ant."
     modus = "I"
     differentia = "D"
     psalmus = ""
@@ -55,7 +55,7 @@
     v_ne -- bes -- kém krá -- lov -- ství.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "VIII"
     differentia = "G"
     psalmus = ""
