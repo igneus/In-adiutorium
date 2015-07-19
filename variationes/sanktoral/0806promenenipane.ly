@@ -205,9 +205,166 @@
     psalmus = ""
     id = "invit"
     fons = "melodie z invitatoria slavnosti Krista Krále; text upraven"
+    fial = "mezidobi_kristakrale.ly#invit?jiny_text"
+    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Reflektovat změnu předlohy:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) d \barMin f d d g f e d d \barMaior
+    c d c b( g a) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit"
+    fial = "mezidobi_kristakrale.ly#invit?jiny_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f a a a( b) a g( a) \barMin
+    a g a g e \barFinalis
+  }
+  \addlyrics {
+    Lep -- ší je den v_tvých ná -- dvo -- řích
+    než jin -- de ti -- síc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 84"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
+    g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
+    a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 97"
+    fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3?-aleluja"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
+    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    textus_approbatus = "Oslavujte Hospodina, našeho Boha, klaňte se na jeho svaté hoře."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c d) c( b) a a \barMin
+    a g f f( g) e \barMaior
+    g( a) g g \barMin
+    f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    na -- še -- ho Bo -- ha,
+    klaň -- te se
+    na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3?kratsi_text"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a a( c) c \barMin d c b a \mark\sipka g a a( g) \barMaior
+    a4( d) a a( g) a a( g) g \barMin
+    f g( a) g f e e \barMax
+
+    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    c( d c a) a \barMin g( a) g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Když u -- čed -- ní -- ci_* u -- sly -- še -- li Bo -- ží hlas,
+    pad -- li tvá -- ří k_ze -- mi
+    a vel -- mi se bá -- li.
+
+    Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
+    Vstaň -- te, ne -- boj -- te se!
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-amag?-aleluja&upraveno&jiny_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

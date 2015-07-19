@@ -142,6 +142,7 @@
     psalmus = ""
     id = "invit"
     fons = "melodie z invitatoria slavnosti Krista Krále; text upraven"
+    fial = "mezidobi_kristakrale.ly#invit?jiny_text"
     placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -150,9 +151,10 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g f a a a( b) a g( a) \barMin
+    a g a g e \barFinalis
   }
   \addlyrics {
     Lep -- ší je den v_tvých ná -- dvo -- řích
@@ -160,8 +162,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 84"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -190,20 +192,22 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
+    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
   }
   \addlyrics {
-    O -- sla -- vuj -- te Hos -- po -- di -- na,
-    na -- še -- ho Bo -- ha,
-    klaň -- te se na je -- ho sva -- té ho -- ře.
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
   }
   \header {
+    textus_approbatus = "Oslavujte Hospodina, našeho Boha, klaňte se na jeho svaté hoře."
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 99"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -212,7 +216,12 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g a a( c) c \barMin d c b a g a a( g) \barMaior
+    a4( d) a a( g) a a( g) g \barMin
+    f g( a) g f e e \barMax
 
+    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    c( d c a) a \barMin g( a) g( f) e e \barFinalis
   }
   \addlyrics {
     Když u -- čed -- ní -- ci_* u -- sly -- še -- li Bo -- ží hlas,
@@ -224,10 +233,11 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
-    id = "2ne-amag"
+    fial = "sanktoral/0806promenenipane.ly#2ne-amag?-aleluja&upraveno&jiny_text"
+    id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
