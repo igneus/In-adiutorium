@@ -185,7 +185,7 @@
   \addlyrics {
     Ra -- duj se, Je -- ru -- za -- lé -- me,
     všich -- ni se shro -- máž -- dí
-    a bu -- dou ve -- le -- bit věč -- né -- ho krá -- le.
+    a bu -- dou ve -- le -- bit věč -- né -- ho Pá -- na.
   }
   \header {
     quid = "2. ant."
