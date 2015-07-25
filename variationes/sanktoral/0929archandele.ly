@@ -33,10 +33,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a f bes a \barMin
     a g a f e d d \barMaior
@@ -59,8 +62,37 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \choralniRezim
+    c4 c a g g g g( a g) g \barMin
+    f g a a a g a g( f) f \barMaior
+    d f g g a g g \barMin
+    g g f g d d \barMin
+    d f g g( a) f g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Gab -- ri -- el se zje -- vil
+    Za -- cha -- ri -- á -- šo -- vi a ře -- kl:
+    Tvo -- je že -- na Alž -- bě -- ta
+    ti po -- ro -- dí sy -- na
+    a dáš mu jmé -- no Jan.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 103-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c a g g g g( a g) g \barMin
     f g a a a g a a( c) c \barMaior
@@ -85,8 +117,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 a c b g( a) g g \barMin
     g f a c b c d d \barMaior
@@ -111,15 +146,17 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
     g4 f g( a) a g \barMaior
-    a( c) d d( e c) a a4.( g) \barMaior
-    c4 d( c a) a \barMin c b a g( a) g \barMaior
+    a( c) c d( e c) a a4.( g) \barMaior
+    c4 d( c a) a \barMin b( c) a g a( g) g \barMaior
     a a a a f e d f( g) g \barMax
     a( c) d c a a \barMin
-    c c c c b a g a a( g) \barFinalis
+    c c c c b a g( a f) f( g) g \barFinalis
   }
   \addlyrics {
     Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
@@ -138,6 +175,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g( a) a g \barMaior
+    a( c) \mark\sipka d d( e c) a a4.( g) \barMaior
+    c4 d( c a) a \barMin \mark\sipka c b a g( a) g \barMaior
+    a a a a f e d f( g) g \barMax
+    a( c) d c a a \barMin
+    c c c c b a \mark\sipka g a a( g) \barFinalis
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden2_3utery.ly#rch-a1?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
