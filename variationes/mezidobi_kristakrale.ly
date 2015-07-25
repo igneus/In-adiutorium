@@ -346,6 +346,277 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \pageBreak
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g c b a g a f \barMin g a g( a) g \barMaior
+    f d e e( f) \barMin f g g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ho u -- sta -- no -- vil krá -- lem své -- ho li -- du
+    a dal mu moc na -- de vše -- mi ná -- ro -- dy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a a g f d e d( c) c \barMaior
+    d e f d d d g f d d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět,
+    všech -- ny ná -- ro -- dy mu bu -- dou slou -- žit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 72-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a g bes a \barMin g g g a g f( e) d \barMaior
+    g g g( a) g f e( d) d d( e) c c d d \barFinalis
+  }
+  \addlyrics {
+    V_něm bu -- dou po -- žeh -- ná -- na všech -- na ple -- me -- na ze -- mě,
+    bla -- ho -- sla -- vit ho bu -- dou všech -- ny ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 72-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d( e d) d( e f d) d \barMin f g a( g a) c( b a b) b( a) \barMaior
+    g( a c) b( c) a c c a( g f) \barMaior
+    c' b c d b d d c \barMax
+
+    c c c b( c b g) f g a( g a) a( g) \barMaior
+    f( a f) e d e( d c) d \barFinalis
+    % V
+    \neviditelna a
+    a'( d c) a( b g) a \barMin a a( b g) a( c d) c c( a) \barMaior
+    c b c b g a \barMaior
+    f g a a( b) a b c d c c( d) d( c) \barMax
+    % R
+    \neviditelna a
+    c c c b( c b g) f g a( g a) a( g) \barMaior
+    f( a f) e d e( d c) d \barFinalis
+  }
+  \addlyrics {
+    \Response Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
+    při -- chá -- zet v_ob -- la -- cích
+    s_ve -- li -- kou mo -- cí a slá -- vou._*
+
+    Je -- mu buď slá -- va a vlá -- da na věč -- né vě -- ky!
+    \Verse Shro -- máž -- dí své vy -- vo -- le -- né
+    ze čtyř svě -- to -- vých stran,
+    od kon -- čin ze -- mě až po ko -- nec ne -- be._*
+    \Response Je -- mu buď slá -- va a vlá -- da na věč -- né vě -- ky!
+  }
+  \header {
+    quid = "1. resp."
+    modus = "I"
+    id = "mc-resp1"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g a f g f \barMin f e c d c \barMin
+    c c( d f) \barMaior
+    f g a g f g g \barMax
+
+    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g( f d e) e( d) \barMin f g a a c b a( b) a \barMaior
+    a a a g a g f g f e g a \barMax
+    % R
+    \neviditelna a
+    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    \Response Teď se u -- jal vlá -- dy nad tím -- to svě -- tem
+    náš Pán
+    a je -- ho Po -- ma -- za -- ný_*
+    a bu -- de kra -- lo -- vat na věč -- né vě -- ky!
+    \Verse Před ním se sklo -- ní všech -- na lid -- ská po -- ko -- le -- ní,
+    pro -- to -- že Hos -- po -- di -- nu ná -- le -- ží vlá -- da._*
+    \Response a bu -- de kra -- lo -- vat na věč -- né vě -- ky!
+  }
+  \header {
+    quid = "2. resp."
+    modus = "VI"
+    id = "mc-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    a b c d c b a g g \barMaior
+    a g f g( f d) c d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g f g f d e d c c \barMaior
+
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g g g f d e d c c \barMaior
+    d d d f( g a) \barMin
+    f( e) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g g g f d e d c c \barMaior
+    d d d e( f g) \barMin
+    f( e) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c a c( d) \barMin
+    c d e d d \barMin
+    d d c b a g a g g \barMaior
+
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
