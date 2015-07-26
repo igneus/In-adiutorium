@@ -1,13 +1,5 @@
 % -*- master: ../advent_antifony.ly;
 
-% Vkladani uvozovek do markupu je obzvlast fikane:
-% je treba je escapovat zpetnym lomitkem a navic
-% jeste uzavrit do uvozovek...
-\markup\justify {Antifony k Magnificat - "\"velké antifony\"" nebo
-"\"O-antifony\"", nejsou a nebudou zpracovány. Doporučuji
-vytisknout si je (latinské) z Liber Usualis a Magnificat zpívat
-v předvánočním týdnu latinsky.}
-
 \markup {\nadpisDen {17. prosince}}
 \score {
   \relative c' {
@@ -32,6 +24,30 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    ty se roz -- pí -- náš
+    od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {18. prosince}}
 \score {
   \relative c'' {
@@ -49,6 +65,30 @@ v předvánočním týdnu latinsky.}
     differentia = "g"
     psalmus = "Benedictus"
     id = "predvanocni-18-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    vůd -- ce Iz -- ra -- e -- lo -- va do -- mu,
+    ty ses zje -- vil Moj -- ží -- šo -- vi
+    v_oh -- ni ho -- ří -- cí -- ho ke -- ře
+    a dals mu zá -- kon na Si -- na -- ji:
+    přijď a vy -- svo -- boď nás
+    s_ve -- li -- kou mo -- cí!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-18-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -80,6 +120,29 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Ko -- ře -- ni Jes -- se,
+    ty sto -- jíš ja -- ko zna -- me -- ní ná -- ro -- dům,
+    před te -- bou zmlk -- nou ús -- ta krá -- lů
+    a ná -- ro -- dy tě bu -- dou vzý -- vat:
+    přijď a vy -- svo -- boď nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-19-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {20. prosince}}
 \score {
   \relative c'' {
@@ -99,6 +162,30 @@ v předvánočním týdnu latinsky.}
     fons = "4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
     fial = "fial://antifony/advent_nedeleB.ly#ivben?-aleluja"
     id = "predvanocni-20-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Klí -- či Da -- vi -- dův
+    a žez -- lo Iz -- ra -- e -- lo -- va do -- mu,
+    když ty o -- te -- vřeš, ni -- kdo už ne -- za -- vře,
+    když ty za -- vřeš, ni -- kdo už ne -- o -- te -- vře;
+    přijď a vy -- veď ze ža -- lá -- ře spou -- ta -- né -- ho,
+    jenž se -- dí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-20-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -126,6 +213,29 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Vý -- cho -- de,
+    ja -- se věč -- né -- ho svět -- la
+    a slun -- ce spra -- ve -- dl -- nos -- ti:
+    přijď a o -- svěť ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-21-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {22. prosince}}
 \score {
   \relative c' {
@@ -149,6 +259,29 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Krá -- li ná -- ro -- dů,
+    tou -- žeb -- ně o -- če -- ká -- va -- ný,
+    ty jsi ná -- rož -- ní ká -- men,
+    kte -- rý spo -- ju -- je Bo -- ží lid vjed -- no:
+    přijď a spas člo -- vě -- ka,
+    kte -- ré -- ho jsi u -- tvo -- řil z_hlí -- ny!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-22-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {23. prosince}}
 \score {
   \relative c' {
@@ -166,6 +299,29 @@ v předvánočním týdnu latinsky.}
     differentia = "D"
     psalmus = "Benedictus"
     id = "predvanocni-23-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    E -- ma -- nu -- e -- li,
+    krá -- li náš a zá -- ko -- no -- dár -- ce,
+    na te -- be če -- ka -- jí ná -- ro -- dy,
+    a -- bys je za -- chrá -- nil:
+    přijď a dej nám spá -- su,
+    Pa -- ne, náš Bo -- že!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-23-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
