@@ -471,6 +471,164 @@
 
 \pageBreak
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
+
+    e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
+    a g bes a( g a4.) d, \barMin f4 f e f c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, náš Pa -- ne,
+    jak po -- di -- vu -- hod -- né je tvé jmé -- no po ce -- lé ze -- mi!
+
+    Slá -- vou a ctí jsi o -- věn -- čil své sva -- té
+    a dals jim vlád -- nout nad dí -- lem svých ru -- kou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 8"
+    fons = "sanktoral/0705cyrilametodej.ly#2ne-a2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f bes a g a g \barMaior
+    g g f e d d g( a bes) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 15"
+    fons = "antifony/tyden1_2pondeli.ly#ne-ant2"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( g) g g g( a g) g( a) a \barMin
+    a( b c) a b( c) a( g) g \barMin
+    e g a a \barMaior
+    a a a a g( f) e d \barMin f d f f e e \barFinalis
+  }
+  \addlyrics {
+    Svým sva -- tým jsi u -- ká -- zal
+    ces -- tu k_ži -- vo -- tu,
+    Hos -- po -- di -- ne,
+    na -- pl -- níš je ra -- dos -- tí
+    z_pat -- ře -- ní na te -- be.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 16"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d c) c \barMin
+    c b a g( a) g \barMaior
+    g4( c) b( c) c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni sva -- tí,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
+    textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = ""
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) a \barMin
+    a c b c( d) d \barMaior
+    c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni sva -- tí,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
+    textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = ""
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g( a) a \barMin
+    \mark\sipka a b a g g \barMax
+    c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni sva -- tí,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
+    textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = ""
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \markup{

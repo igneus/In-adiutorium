@@ -30,7 +30,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     fons = "commune jednoho muč., 1. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
     piece = \markup {\sestavTitulek}
@@ -58,7 +58,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 147-II"
-    id = ""
+    id = "1ne-a2"
     fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
     fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast"
     piece = \markup {\sestavTitulek}
@@ -87,7 +87,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 19"
-    id = ""
+    id = "1ne-a3"
     fial = "fial://commune/commune_svatymuz.ly#2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -120,7 +120,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -148,7 +148,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -169,12 +169,13 @@
     o -- sla -- vuj -- me na -- še -- ho Bo -- ha.
   }
   \header {
+    textus_approbatus = "Pojďme, klaňme se Bohu,
+    chvalme ho ve společenství všech svatých!"
     quid = "ant."
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
-    notitia = "text není doslovně podle beviáře, ale zachovává smysl"
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -203,7 +204,7 @@
     differentia = "a2"
     psalmus = "Žalm 8"
     fons = "sanktoral/0705cyrilametodej.ly#2ne-a2"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -224,7 +225,7 @@
     differentia = "F"
     psalmus = "Žalm 15"
     fons = "antifony/tyden1_2pondeli.ly#ne-ant2"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -249,15 +250,18 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 16"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f g( a) a \barMin
+    a b a g g \barMax
+    c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
   }
   \addlyrics {
     Všich -- ni sva -- tí,
@@ -266,12 +270,13 @@
     a o -- sla -- vuj -- te ho.
   }
   \header {
-    textus_approbatus = "vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
     quid = "ant. ke kantikům vigilie"
-    modus = ""
+    modus = "VIII"
     differentia = ""
     psalmus = ""
-    id = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -293,7 +298,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     fons = "commune jeden muč., 2. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#2ne-amag"
     piece = \markup {\sestavTitulek}
@@ -315,7 +320,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -335,7 +340,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -367,7 +372,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r"
     fons = "commune více muč., 2. nešp."
     fial = "fial://commune/commune_vicemucedniku.ly#2ne-resp"
     piece = \markup {\sestavTitulekResp}
@@ -393,7 +398,7 @@
     obě stejným způsobem nepatřičné (zvýraznění slova, které nemá být
     zvýrazňováno), ale nepobuřují mě. Antifona s nimi není bezchybná,
     ale přesto se mi líbí. Bez nich by se musela úplně přepsat."
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -418,7 +423,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -441,7 +446,7 @@
     placet = "první část nepříliš vhodně napodobuje verš 
     stereotypních krátkých responsorií modu VI;
     předělat"
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -463,7 +468,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -485,7 +490,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -509,7 +514,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -531,7 +536,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Zj 4"
-    id = ""
+    id = "2ne-a3"
     placet = "melodie na prvním 'jsi' mě sice nedráždí, ale pravděpodobně není zcela košer"
     piece = \markup {\sestavTitulek}
   }
@@ -564,7 +569,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -588,7 +593,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
