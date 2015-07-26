@@ -228,9 +228,14 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d d c a c( d) \barMaior
+    d( e) d c c( d) c a a \barMin
+    c c c b g a g g \barMaior
+    f g a a( c b) a( g) g \barFinalis
 
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
   }
   \addlyrics {
     Když se na -- pl -- nil čas,
@@ -242,8 +247,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -251,9 +256,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a a g a a c b c( d) d \barMaior
+    d e d c d c a a \barMin
+    c c b g a a( g) g \barFinalis
 
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
@@ -264,9 +273,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
-    psalmus = "Žalm 19 A"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19A"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -275,19 +284,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 e g a a a a e f g e \barMaior
+    d d f g g( a) a \barMin
+    a a b a g f g g e e \barMaior
+    f f f d f f( e) e f g e e \barFinalis
 
+    d^\markup\rubrVelikAleluja f f( d) e \barFinalis
   }
   \addlyrics {
     V_tom se u -- ká -- za -- la Bo -- ží lás -- ka k_nám,
-    že Bůh po -- slal na svět své -- ho je -- dno -- ro -- ze -- né -- ho Sy -- na,
+    že Bůh po -- slal na svět
+    své -- ho je -- dno -- ro -- ze -- né -- ho Sy -- na,
     a -- by -- chom mě -- li ži -- vot skr -- ze ně -- ho.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 45"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
