@@ -105,3 +105,44 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 c d d( a' bes) a \barMin a g f g( a) a \barMin
+    f g d \barMaior
+
+    g a g f e e( f) e c d d \barMaior
+    e c d f f g( f) \barMin g f e d c c( d) d( f) \barFinalis
+
+    a4 g a c( b) g \barMin
+    g f g( a) a \barMaior
+    a g f e( f d c) c \barMaior
+    d d f f( g) f f \barMin
+    e f g( a) f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Zdrá -- vas, Ma -- ri -- a, mi -- los -- ti -- pl -- ná,
+    Pán s_te -- bou,
+
+    po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho, Je -- žíš.
+
+    Sva -- tá Ma -- ri -- a,
+    Mat -- ko Bo -- ží,
+    pros za nás hříš -- né
+    ny -- ní i v_ho -- di -- nu
+    smr -- ti na -- ší. A -- men.
+  }
+  \header {
+    fons_externus = "volně podle Liber Usualis, Solesmes, 1961, 1861"
+    % http://gregobase.selapa.net/chant.php?id=1860
+    quid = "ant."
+    modus = "I"
+    differentia = ""
+    psalmus = ""
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?delsi_text"
+    id = "avemaria"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
