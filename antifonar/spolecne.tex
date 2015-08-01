@@ -44,6 +44,27 @@
   \end{titlepage}
 }
 
+\newcommand{\titulniStranka}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \begin{titlepage}
+    \begin{center}
+
+      \vspace*{6cm}
+
+      {\Huge \textbf{\nazev}}
+
+      \vspace{1cm}
+
+      {\large \autor}
+
+      \vfill
+      In adiutorium
+
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
 \newcommand{\patitulSvazkuAntifonare}{
   \begin{center}
     \soubornyNazev
@@ -79,6 +100,28 @@
     \soubornyNazev\\
     \edicniRada, svazek \cisloSvazku
 
+    {\Large \textbf{\nazev}}
+
+    {\large \autor}
+
+    \tirazProjekt
+
+    \tirazSazbaProgramem
+  \end{center}
+
+  \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
+  \textDoTiraze
+
+  \begin{center}
+    \dmyyyydate \today
+  \end{center}
+}
+
+\newcommand{\tiraz}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \setlength{\parskip}{0.6cm}
+
+  \begin{center}
     {\Large \textbf{\nazev}}
 
     {\large \autor}
