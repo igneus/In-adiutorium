@@ -95,7 +95,7 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná!
   }
   \header {
-    fons_externus = "volně podle AR 1912, [92]."
+    fons_externus = "volně podle AR 1912, s. [92]."
     quid = "ant."
     modus = "VII"
     differentia = ""
@@ -135,7 +135,7 @@
     smr -- ti na -- ší. A -- men.
   }
   \header {
-    fons_externus = "volně podle Liber Usualis, Solesmes, 1961, 1861"
+    fons_externus = "volně podle Liber Usualis, Solesmes, 1961, s. 1861"
     % http://gregobase.selapa.net/chant.php?id=1860
     quid = "ant."
     modus = "I"
