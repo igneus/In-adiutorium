@@ -35,10 +35,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a g f g( a) a \barMin
     a a g f e f e d d \barFinalis
@@ -57,8 +60,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 b c d c d( e) d \barMaior
     d d d( e) d e f d c d( c) \barMin
@@ -79,13 +85,63 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d d \barMin
+    d( f) d f( g) g( a) a \barMaior
+    a a( g a) g( f) d d \barMin
+    d e f d c d \barFinalis
+  }
+  \addlyrics {
+    Pa -- vel za -- čal v_sy -- na -- go -- gách
+    hlá -- sat Je -- ží -- še
+    a do -- ka -- zo -- val,
+    že je to Bo -- ží Syn.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d d \barMin
+    d( f) d f( g) g( a) a \barMaior
+    a a( g a) g( f) \mark\sipka e e \barMin
+    d e f d c d \barFinalis
+  }
+  \addlyrics {
+    Pa -- vel za -- čal v_sy -- na -- go -- gách
+    hlá -- sat Je -- ží -- še
+    a do -- ka -- zo -- val,
+    že je to Bo -- ží Syn.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
     d4 d c d f e d d \barMin
     d( f) d e( f) d( c) c \barMaior
     f g f g g( f) \barMin
-    e d c e( f) d d \barFinalis
+    f d d e c d \barFinalis
   }
   \addlyrics {
     Pa -- vel za -- čal v_sy -- na -- go -- gách
@@ -103,6 +159,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e d d \barMin
+    d( f) d e( f) d( c) c \barMaior
+    f g f g g( f) \barMin
+    \mark\sipka e d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- vel za -- čal v_sy -- na -- go -- gách
+    hlá -- sat Je -- ží -- še
+    a do -- ka -- zo -- val,
+    že je to Bo -- ží Syn.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
