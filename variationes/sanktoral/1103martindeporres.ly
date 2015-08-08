@@ -12,6 +12,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 e d c f g( a) a \barMaior
     a a a( c a) g( a) a a( b) c a g g \barMaior
@@ -34,8 +35,63 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) d \barMaior
+    d d d d( e) d e f e d d \barMin
+    c b a g a( g) f( g) g \barMaior
+    a( c d) d( e d c) d( c) \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- me Bo -- ha,
+    ne -- boť on své -- ho po -- ní -- že -- né -- ho
+    slu -- žeb -- ní -- ka Mar -- ti -- na
+    po -- vý -- šil
+    do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) d \barMaior
+    d d d d( e) d e f e d d \barMin
+    c b a g a( \mark\sipka c) c( d) d \barMaior
+    a( c d) d( e d c) d( c) \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- me Bo -- ha,
+    ne -- boť on své -- ho po -- ní -- že -- né -- ho
+    slu -- žeb -- ní -- ka Mar -- ti -- na
+    po -- vý -- šil
+    do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c a c( d) d \barMaior
     d d d c d f e d c c \barMin
