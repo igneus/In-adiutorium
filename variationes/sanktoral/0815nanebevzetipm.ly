@@ -541,29 +541,45 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d \barMin
+    d d e( f) d( c) d( c) \barMaior
+    d d c( a) a c b g a( g) g \barMin
+    f g a a g g \barMax
+    a a a c b g \barMaior
+    a c d d \[ d( e d \] \[ c d) \] d( c) \barMin
+    d( c b) a g a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Mat -- ka Bo -- ží, Pan -- na Ma -- ri -- a,
+    Mat -- ka Bo -- ží,
+    Pan -- na Ma -- ri -- a,
     by -- la vza -- ta s_tě -- lem i du -- ší
     do ne -- bes -- ké slá -- vy
     a má už dnes po -- díl
-    na slav -- ném ví -- těz -- ství Kris -- to -- vě
-    nad smr -- tí.
+    na Kris -- to -- vě slav -- ném
+    ví -- těz -- ství nad smr -- tí.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Matka Boží, Panna Maria,
+    byla vzata s tělem i duší do nebeské slávy
+    a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
