@@ -11,9 +11,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 b c a g g a g a( c) c \barMin
+    a c b g g \barFinalis
   }
   \addlyrics {
     Le -- ží mi na srd -- ci pro -- spěch círk -- ve
@@ -21,8 +22,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
