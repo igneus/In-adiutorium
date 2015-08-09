@@ -13,17 +13,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d( f) \barMin
+    g f e c( d) d \barMaior
+    d c f e f f( d) \barMin
+    f f( g) f d d \barFinalis
   }
   \addlyrics {
-    I kdy -- bych šel tem -- no -- tou rok -- le,
+    I kdy -- bych šel
+    tem -- no -- tou rok -- le,
     ne -- za -- lek -- nu se zla,
     vždyť Pán je se mnou.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -31,12 +35,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    \[ g4( c \] \[ d c d) \] d( c) \barMin
+    c c b a c a b g g \barMaior
+    g( a) a a g f g g( a) a \barMin
+    a( c) c b g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
   }
   \addlyrics {
-    Správ -- ně, slu -- žeb -- ní -- ku dob -- rý a věr -- ný.
+    Správ -- ně,
+    slu -- žeb -- ní -- ku dob -- rý a věr -- ný.
     Má -- lo jsi spra -- vo -- val věr -- ně,
     mno -- ho ti svě -- řím.
     Pojď se ra -- do -- vat
@@ -44,9 +53,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?delsi_text&upraveno"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
