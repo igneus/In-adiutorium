@@ -13,7 +13,11 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a a g4.( a) g4 f g g \barMin
+    g a g f d( c) c \barMaior
+    f g a a \barMin
+    c c bes a g( a) \barMin
+    a a g f e f d d \barFinalis
   }
   \addlyrics {
     Žád -- ný ne -- smí dbát je -- nom o to,
@@ -24,8 +28,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
