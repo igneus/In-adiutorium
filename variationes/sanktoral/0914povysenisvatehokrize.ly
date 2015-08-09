@@ -307,8 +307,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d( a') a \barMin
     a( g a) g f e e f( g) a a g( a) a \barMaior
@@ -336,6 +339,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
