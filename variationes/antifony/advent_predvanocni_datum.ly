@@ -10,6 +10,8 @@
 vytisknout si je (latinské) z Liber Usualis a Magnificat zpívat
 v předvánočním týdnu latinsky.}
 
+\markup{To už samozřejmě není pravda, ale z nostalgie tu ten odstavec nechám.}
+
 \markup {\nadpisDen {17. prosince}}
 \score {
   \relative c' {
@@ -32,6 +34,46 @@ v předvánočním týdnu latinsky.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    d d d d a( d) d e d d d d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a a g f ef g( f) d e d( c) \barMax
+    c( f e) \barMin
+    f f( d) e( d) d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu
+    se roz -- pí -- náš,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď
+    a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {18. prosince}}
 \score {
