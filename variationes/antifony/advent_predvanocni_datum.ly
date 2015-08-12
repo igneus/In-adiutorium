@@ -37,44 +37,6 @@ v předvánočním týdnu latinsky.}
 
 \pageBreak
 
-\score {
-  \relative c' {
-    \choralniRezim
-    c4( f f e) f( d e d) c( d) d \barMin
-    d d( e) d d e( f) d e d c \barMaior
-    d d d d a( d) d e d d d d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a a a a g f ef g( f) d e d( c) \barMax
-    c( f e) \barMin
-    f f( d) e( d) d( c a) \barMin
-    c( d) d f e c( e) d \barFinalis
-  }
-  \addlyrics {
-    Ó Moud -- ros -- ti,
-    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
-    od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu
-    se roz -- pí -- náš,
-    ty moc -- ně a mír -- ně ří -- díš všech -- no:
-    přijď
-    a na -- uč nás
-    ces -- tě ro -- zum -- nos -- ti!
-  }
-  \header {
-    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
-    ty se rozpínáš od jednoho konce světa k druhému,
-    ty mocně a mírně řídíš všechno:
-    přijď a nauč nás cestě rozumnosti!"
-    fons_externus = "volně podle AR1912, 205."
-    quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
-    psalmus = "Magnificat"
-    id = "predvanocni-17-o"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\pageBreak
-
 \markup {\nadpisDen {18. prosince}}
 \score {
   \relative c'' {
@@ -240,6 +202,213 @@ v předvánočním týdnu latinsky.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
+
+\markup\nadpisSkupiny "O Sapientia"
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    d d d d a( d) d e d d d d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a a g f g( f) d e d( c) \barMax
+    c( f e) \barMin
+    f f( d) e( d) d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu
+    se roz -- pí -- náš,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď
+    a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    \mark\sipka d a( d) d d d d d d e d e d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a a g f g( f) d e d( c) \barMax
+    c( f e) \barMin
+    f f( d) e( d) d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    roz -- pí -- náš se od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď
+    a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    d a( d) d d d d d d e d e d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a \mark\sipka g f e f g( f) d e d( c) \barMax
+    c( f e) \barMin
+    f f( d) e( d) d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    roz -- pí -- náš se od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď
+    a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    d a( d) d d d d d d e d e d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f e f g( f) d e d( c) \barMax
+    \mark\sipka c( f) f f( d) e( d) d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    roz -- pí -- náš se od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) c( d) d
+  }
+  \addlyrics { Ó Moud -- ros -- ti }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( e) c( d) d
+  }
+  \addlyrics { Ó Moud -- ros -- ti }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d)
+  }
+  \addlyrics { Ó Moud -- ros -- ti }
+}
+
+\markup\nadpisSkupiny "O Adonai"
+
+\markup\justify{Následující má na první pohled divně posunutý akcent
+na _Izraelova_, ale zazpívané mi to zní dobře a staročeské verze to mají
+podobně.}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( f f e) f( d) e( d) c( d) \barMin
+    d d d f e d e d c \barMaior
+    d d a( d) d e d d d e d d d d d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f f( e) d e d c \barMaior
+    c( f) f f( e) d e( d) d( c a) \barMin
+    c( d) f( e) c e d \barFinalis
+  }
+  \addlyrics {
+    Ó A -- dó -- naj,
+    vůd -- ce Iz -- ra -- e -- lo -- va do -- mu,
+    ty ses zje -- vil Moj -- ží -- šo -- vi
+    v_oh -- ni ho -- ří -- cí -- ho ke -- ře
+    a dals mu zá -- kon na Si -- na -- ji:
+    přijď a vy -- svo -- boď nás
+    s_ve -- li -- kou mo -- cí!
+  }
+  \header {
+    textus_approbatus = "Hospodine, vůdce Izraelova domu,
+    ty ses zjevil Mojžíšovi v ohni hořícího keře a dals mu zákon na Sinaji:
+    přijď a vysvoboď nás s velikou mocí!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-18-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 
 \pageBreak
 
