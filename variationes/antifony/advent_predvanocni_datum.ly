@@ -320,7 +320,7 @@ v předvánočním týdnu latinsky.}
     \choralniRezim
     c4( f f e) f( d e d) c( d) d \barMin
     d d( e) d d e( f) d e d c \barMaior
-    d a( d) d d d d d d e d e d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    d a( d) d d \bar "" d d d d \bar "" e d e d \bar "" e f \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f e f g( f) d e d( c) \barMax
     \mark\sipka c( f) f f( d) e( d) d( c a) \barMin
     c( d) d f e c( e) d \barFinalis
@@ -415,9 +415,10 @@ podobně.}
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    c( f f e) f( d) e( d) c( d) \barMin
+    c4( f f e) f( d) e( d) c( d) \barMin
     d d d f e d e d c \barMaior
-    d d a( d) d e d d d e d \mark\sipka e d d d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    d d a( d) d \bar "" e d d d
+    \bar "" e d \mark\sipka e d d d \bar "" e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f f( e) d e d c \barMax
     c( f) f f( e) d e( d) d( c a) \barMin
     c( d) f( e) c e d \barFinalis
@@ -550,6 +551,115 @@ podobně.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d d( e) d d f e d e d c \barMaior
+    d d a( d) d d e d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f \mark\sipka g f d e d( c) c \barMax
+    c( f) f e d e d c( d) d \barMin
+    d( f) d( e) d c \barMaior
+    f f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó klí -- či Da -- vi -- dův
+    a žez -- lo Iz -- ra -- e -- lo -- va do -- mu,
+    když ty o -- te -- vřeš, ni -- kdo už ne -- za -- vře,
+    když ty za -- vřeš, ni -- kdo ne -- o -- te -- vře;
+    přijď a vy -- veď ze ža -- lá -- ře
+    spou -- ta -- né -- ho,
+    jenž se -- dí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Klíči Davidův a žezlo Izraelova domu,
+    když ty otevřeš, nikdo už nezavře, když ty zavřeš, nikdo už neotevře;
+    přijď a vyveď ze žaláře spoutaného, jenž sedí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-20-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d d( e) d d f e d e d c \barMaior
+    d d a( d) d d e d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f \mark\sipka d( e f) f d e d( c) c \barMax
+    c( f) f e d e d c( d) d \barMin
+    \mark\sipka d( c) d( f) d c \barMaior
+    f f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó klí -- či Da -- vi -- dův
+    a žez -- lo Iz -- ra -- e -- lo -- va do -- mu,
+    když ty o -- te -- vřeš, ni -- kdo už ne -- za -- vře,
+    když ty za -- vřeš, ni -- kdo ne -- o -- te -- vře;
+    přijď a vy -- veď ze ža -- lá -- ře
+    spou -- ta -- né -- ho,
+    jenž se -- dí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Klíči Davidův a žezlo Izraelova domu,
+    když ty otevřeš, nikdo už nezavře, když ty zavřeš, nikdo už neotevře;
+    přijď a vyveď ze žaláře spoutaného, jenž sedí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-20-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d d( e) d d f e d e d c \barMaior
+    d d a( d) d d e d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f d( e f) f d e d( c) c \barMax
+    c( f) f e d e d c( d) d \barMin
+    \mark\sipka d( f e) d c c \barMaior
+    \mark\sipka d f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó klí -- či Da -- vi -- dův
+    a žez -- lo Iz -- ra -- e -- lo -- va do -- mu,
+    když ty o -- te -- vřeš, ni -- kdo už ne -- za -- vře,
+    když ty za -- vřeš, ni -- kdo ne -- o -- te -- vře;
+    přijď a vy -- veď ze ža -- lá -- ře
+    spou -- ta -- né -- ho,
+    jenž se -- dí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Klíči Davidův a žezlo Izraelova domu,
+    když ty otevřeš, nikdo už nezavře, když ty zavřeš, nikdo už neotevře;
+    přijď a vyveď ze žaláře spoutaného, jenž sedí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-20-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny "O Oriens"
 
 \score {
@@ -559,6 +669,38 @@ podobně.}
     d( e) d e( f) d e d c \barMaior
     d a( d) d d d e f \[ g( a g \] \[ a bes a) \] \barMax
     a( g) f d( f d c) c \barMaior
+    f e f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Vý -- cho -- de,
+    ja -- se věč -- né -- ho svět -- la
+    a slun -- ce spra -- ve -- dl -- nos -- ti:
+    přijď a o -- svěť
+    ty, kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Východe, jase věčného světla a slunce spravedlnosti:
+    přijď a osvěť ty, kdo žijí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 207."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-21-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d( e) d e( f) d e d c \barMaior
+    d a( d) d d d e f \[ g( a g \] \[ a bes a) \] \barMax
+    a( g) f \mark\sipka d( e) d( c) \barMaior
     f e f d e( d) c( d) d( c a) \barMaior
     c( d) f e c c( e) d \barFinalis
   }
@@ -604,6 +746,41 @@ podobně.}
     kte -- ré -- hos u -- tvo -- řil z_hlí -- ny!
   }
   \header {
+    textus_approbatus = "Králi národů, toužebně očekávaný,
+    ty jsi nárožní kámen, který spojuje Boží lid vjedno:
+    přijď a spas člověka, kterého jsi utvořil z hlíny!"
+    fons_externus = "volně podle AR1912, 207."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-22-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d d d e f d e d( c) \barMaior
+    d d a( d) d d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f \mark\sipka f d e f f c \barMax
+    c( f) f f( d) e( d) c( d) d( c a) \barMaior
+    c d f f e c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Krá -- li ná -- ro -- dů,
+    tou -- žeb -- ně o -- če -- ká -- va -- ný,
+    ty jsi ná -- rož -- ní ká -- men,
+    kte -- rý spo -- ju -- je Bo -- ží lid vjed -- no:
+    přijď a spas člo -- vě -- ka,
+    kte -- ré -- hos u -- tvo -- řil z_hlí -- ny!
+  }
+  \header {
+    % v prekladu "qui fecis utraque unum" se ztratila pavlovska
+    % narazka a vyzneni je pak ponekud plytke
     textus_approbatus = "Králi národů, toužebně očekávaný,
     ty jsi nárožní kámen, který spojuje Boží lid vjedno:
     přijď a spas člověka, kterého jsi utvořil z hlíny!"
@@ -683,6 +860,70 @@ podobně.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c( f f e) f d e( d) c( d) d \barMin
+    d( e) d d d e( f) d e d c \barMaior
+    d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a g f d( e f) f c \barMax
+    c( f) f \mark\sipka e( f d) d \barMaior
+    \mark\sipka d( c) d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ó E -- ma -- nu -- e -- li,
+    krá -- li náš a zá -- ko -- no -- dár -- ce,
+    na te -- be če -- ka -- jí ná -- ro -- dy,
+    a -- bys je za -- chrá -- nil:
+    přijď a spas nás,
+    Pa -- ne, náš Bo -- že!
+  }
+  \header {
+    textus_approbatus = "Emanueli, králi náš a zákonodárce,
+    na tebe čekají národy, abys je zachránil:
+    přijď a dej nám spásu, Pane, náš Bože!"
+    fons_externus = "volně podle AR1912, 208."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-23-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d( e) d d d e( f) d e d c \barMaior
+    d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a g f d( e f) f c \barMax
+    c( f) f e( f d) \mark\sipka d( c) \barMaior
+    d( c) d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ó E -- ma -- nu -- e -- li,
+    krá -- li náš a zá -- ko -- no -- dár -- ce,
+    na te -- be če -- ka -- jí ná -- ro -- dy,
+    a -- bys je za -- chrá -- nil:
+    přijď a spas nás,
+    Pa -- ne, náš Bo -- že!
+  }
+  \header {
+    textus_approbatus = "Emanueli, králi náš a zákonodárce,
+    na tebe čekají národy, abys je zachránil:
+    přijď a dej nám spásu, Pane, náš Bože!"
+    fons_externus = "volně podle AR1912, 208."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-23-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \pageBreak
 
