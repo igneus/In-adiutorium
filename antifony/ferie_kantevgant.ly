@@ -56,7 +56,7 @@ tIuteryAntBenedictus = \score {
     \choralniRezim
     \key f \major
     a4 a g( a) a a g a bes( c) bes a( g) g \barMaior
-    f g( a) a c c d4. a \barMin \bar ""
+    f g( a) a c c d4. a \barMin
     a4 g f g( a) a f( e) d d \barFinalis
   }
   \addlyrics {
