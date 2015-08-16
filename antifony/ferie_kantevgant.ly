@@ -67,9 +67,8 @@ tIuteryAntBenedictus = \score {
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = ""
-    placet = "I.a2"
     id = "t1-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -124,7 +123,7 @@ tIstredaAntMagnificat = \score {
     \choralniRezim
     \key f\major
     f4 g( a) a a bes c d bes( a) a \barMin
-    a a g f g a \barMaior
+    a a g f g a \barMin
     a4 a a( g) f g f( e) d \barFinalis
   }
   \addlyrics {
@@ -137,7 +136,6 @@ tIstredaAntMagnificat = \score {
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "prohodit differentiae"
     id = "t1-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -217,23 +215,23 @@ tIpatekAntBenedictus = \score {
 }
 
 tIpatekAntMagnificat = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f\major
-    f4( e) g( a) a a a( c) a a c bes a( g) a \barMaior
-    a4 a a a a a bes a g f f \barFinalis
+    c4 c c c b( d) c b a g a a \barMaior
+    g f g( a) a \barMin
+    b c d d c b a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
-    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "A"
     psalmus = ""
     id = "t1-pa-mag"
-    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
