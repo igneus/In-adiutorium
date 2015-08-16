@@ -84,6 +84,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "_vyvýšena_ půjde lépe; zvlášť divné je e uprostřed"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -322,6 +323,8 @@
   \header {
     quid = "2. resp."
     modus = "V"
+    placet = "_kdy Rodička_ se musí zpívat jako jeden rytmický celek;
+    _šťastná jsi_ asi lépe posunout o sekundu výš"
     id = "mc-r2"
     piece = \markup {\sestavTitulekResp}
   }
@@ -415,7 +418,7 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
-    fons = "začátek viz zde, 1. nešp., 3. ant."
+    fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -437,6 +440,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 149"
+    placet = "dlouhé melisma na _nevymizí_ je neorganické"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -469,6 +473,7 @@
   \header {
     quid = "resp."
     modus = "VII"
+    placet = "první div. až po _vstoupila_"
     id = "rch-resp"
     fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
@@ -587,6 +592,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
+    placet = "_radují_ je nezpěvné; možná zkusit celou jinak, radostněji"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -670,6 +676,7 @@
   \header {
     quid = "resp."
     modus = "VII"
+    placet = "_nad zástupy_ má špatně hudební přízvuk; celé nic moc"
     id = "2ne-resp"
     fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
@@ -694,6 +701,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "není špatná, ale antifona k Magnificat uzavírající třetí největší
+    svátek liturgického roku by měla být patřičně velkolepá"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

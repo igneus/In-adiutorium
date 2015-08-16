@@ -212,6 +212,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-II"
+    placet = "závěr je divný, patrně tak docela nepatří k modu VII; mám ji však rád"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -298,6 +299,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 145-I"
+    placet = "nepěkná; repetice motivu a f g a a rozhodně pryč"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

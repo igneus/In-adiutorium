@@ -325,7 +325,7 @@
   }
 }
 
-\markup\italic{
+\markup\justify\italic{
   V dodatku breviáře obsahujícím texty a rubriky pro vigilie nejsou
   duchovní pastýři zmiňováni jako samostatná skupina. Zřejmě je vhodné
   použít antifonu z textů o svatých mužích.

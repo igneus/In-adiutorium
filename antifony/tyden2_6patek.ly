@@ -157,6 +157,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-י"
+    placet = "melisma na _byl_ sice není nutně zdrojem důrazu, ale je ke zvážení"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

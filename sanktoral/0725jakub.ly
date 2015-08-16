@@ -52,6 +52,8 @@
     modus = "I"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "_zanechali_ je poměrně divoké; únosné by to snad
+    bylo jako jednoznačný sestup, např. ad f ed d"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

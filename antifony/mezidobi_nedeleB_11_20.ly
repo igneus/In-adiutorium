@@ -370,6 +370,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "ve skutečnosti není dórská, ale C-dur s falešným závěrem na d"
     id = "ne16b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -442,6 +443,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "dvojskok f d a na _pozdvihl oči_ se těžko zpívá a působí nepěkně - pryč s ním"
     id = "ne17b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -487,6 +489,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "první polovina je příliš dělená, melodie ne právě povedená"
     id = "ne17b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -586,6 +589,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "_poslal_ jen ag g"
     id = "ne19-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -259,6 +259,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "_oslnivě zbělel_ snad bude vhodné předělat."
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -286,7 +287,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    placet = "prořezat"
+    placet = "prořezat
+    2015 mě ruší hlavně _o smrti_ a _podstoupit_, zbytek by snad mohl zůstat"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -311,7 +313,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "~"
+    placet = "od _proroků_ dál je melodie taková divná a dosti statická"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -370,7 +372,9 @@
     differentia = "d"
     psalmus = ""
     fons = "Křtu Páně, 2. nešp., 1. ant."
-    placet = "bude vhodné mírně prořezat"
+    placet = "bude vhodné mírně prořezat;
+    _v něm mám zalíbení_ jinak - těžko se to zpívá a nemá to žádnou zvláštní
+    hodnotu, která by tu náročnost ospravedlňovala"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -419,6 +423,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_přinesl_ je divné, _nepomíjejícího_ bezpodmínečně musí být jinak"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

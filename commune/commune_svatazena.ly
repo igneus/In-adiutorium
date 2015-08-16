@@ -636,6 +636,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 127"
+    placet = "zejména závěr je nezpěvný, ale už druhá část je divná"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

@@ -105,6 +105,7 @@
     co Bůh pro -- ká -- zal mé du -- ši.
   }
   \header {
+    textus_approbatus = "Slyšte, všichni bohabojní, co prokázal Bůh mé duši."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"

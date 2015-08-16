@@ -569,6 +569,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Benedictus"
+    placet = "melisma na _zase_ je nepěkné; kvalitami dvakrát opakovaného motivu gagha si nejsem jist"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
