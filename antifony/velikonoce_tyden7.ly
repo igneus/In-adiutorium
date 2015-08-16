@@ -29,7 +29,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 145-I"
-    id = ""
+    id = "ne-mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -53,7 +53,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 145-II"
-    id = ""
+    id = "ne-mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -83,7 +83,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 145-III"
-    id = ""
+    id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -115,7 +115,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -139,7 +139,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -164,7 +164,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -188,7 +188,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -220,7 +220,7 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -242,7 +242,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -272,7 +272,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -298,7 +298,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -327,7 +327,7 @@
     differentia = "G"
     psalmus = ""
     placet = "aleluja lépe f a g g"
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -355,7 +355,7 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_maria.ly#tercie"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -379,7 +379,7 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G*"
-    psalmus = ""
+    psalmus = "so-aben"
     fial = "commune/commune_apostol.ly#sexta?zacatek upraven"
     piece = \markup {\sestavTitulekBezZalmu}
   }
