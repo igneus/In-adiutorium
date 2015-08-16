@@ -1690,6 +1690,47 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c d c( a) \barMin
+    bes a g f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a c b a( g) \barMin
+    e f g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d e f \barMin
@@ -1714,6 +1755,67 @@
     \choralniRezim
     d4 d d e f \barMin
     d( c) d( c) bes( c) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d e f \barMin
+    e d e d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) d c d e \barMin
+    f( g f) e d d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) d c b a \barMin
+    c( e d) c d d \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má,
