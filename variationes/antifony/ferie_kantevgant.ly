@@ -1831,6 +1831,28 @@
   }
 }
 
+\markup{Že bych si dovolil antifonu nekončící na finále?}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny "D-dur"
 
 \markup\justify{Do rámce antifon ze žaltáře nezapadá. Ale když už jsem náhodou/omylem
