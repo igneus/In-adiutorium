@@ -25,16 +25,17 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d g,( a g) \barMin
-    a c b f g g \barFinalis
+    a c b^"tritonus!" f g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty víš
@@ -47,7 +48,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -69,7 +70,98 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-III"
-    id = ""
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 1.1
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d g,( a g) \barMin
+    a c b \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d g,( a g) \barMin
+    \mark\sipka f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( a) \barMin
+    c a a a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c( a) \barMin
+    \mark\sipka b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -93,7 +185,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 38-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -186,10 +278,13 @@
 
 %\score { \tIIpatekAntBenedictus }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f g a a a a a c bes a4. a bes4 bes a g \barMin
@@ -208,6 +303,34 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 f g a a a a a c bes a a \barMin
+    bes bes a g \barMaior
+    f e \mark\sipka f d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať se mi dos -- ta -- ne tvé -- ho sli -- to -- vá -- ní,
+    Hos -- po -- di -- ne,
+    a -- bych byl živ,
+    jak jsi slí -- bil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-י"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -231,6 +354,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f) d4.( c) \barMin d4 e f e c4. d \barFinalis
   }
@@ -255,6 +379,27 @@
   }
   \addlyrics {
     Bůh tres -- tá to -- ho. ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f) d( c) \barMin
+    d \mark\sipka d e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá
+    to -- ho, ko -- ho má rád.
   }
   \header {
     quid = "3. ant."

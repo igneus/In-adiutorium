@@ -33,10 +33,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d g,( a g) \barMin
-    a c b f g g \barFinalis
-
-    a^\rubrVelikAleluja f g g \barFinalis
+    d4 d d c( a) \barMin
+    b c a a g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty víš
@@ -49,7 +47,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-II"
-    placet = "tritonus!!!"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -145,19 +142,22 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g a a a a a c bes a4. a bes4 bes a g \barMin
-    f e f( g) a f e d( c) d \barFinalis
+    f4 f g a a a a a c bes a a \barMin
+    bes bes a g \barMaior
+    f e f d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Ať se mi dos -- ta -- ne tvé -- ho sli -- to -- vá -- ní,
-    Hos -- po -- di -- ne, a -- bych byl živ, jak jsi slí -- bil.
+    Hos -- po -- di -- ne,
+    a -- bych byl živ,
+    jak jsi slí -- bil.
   }
   \header {
     quid = "1. ant."
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-י"
-    placet = "melisma na _byl_ sice není nutně zdrojem důrazu, ale je ke zvážení"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -184,17 +184,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) d4.( c) \barMin d4 e f e c4. d \barFinalis
+    d4 d( f) d( c) \barMin
+    d d e f d d \barFinalis
   }
   \addlyrics {
-    Bůh tres -- tá to -- ho. ko -- ho má rád.
+    Bůh tres -- tá
+    to -- ho, ko -- ho má rád.
   }
   \header {
     quid = "3. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 60"
-    placet = "~"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
