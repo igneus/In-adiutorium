@@ -30,6 +30,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

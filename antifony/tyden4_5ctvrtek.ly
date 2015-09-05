@@ -201,6 +201,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 129"
+    placet = "lépe"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -245,7 +246,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 144-II"
-    placet = "d tu možná není skutečná tónika"
+    placet = "zdá se, že skutečnou finálou je spíš f než d"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

@@ -372,6 +372,7 @@ tIIstredaAntBenedictus = \score {
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "_Služme Hospodinu_ půjde důstojněji"
     id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

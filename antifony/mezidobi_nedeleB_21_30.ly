@@ -38,6 +38,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "'stupnice' f-d není právě libý element"
     id = "ne21b-rch-ben"
     fons = "nápěv podle: 19. ne. v mez., cyk. B, 1. nešp., k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -92,6 +93,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "v tomto stavu nechť nezůstane"
     id = "ne22b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -138,6 +140,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "lépe"
     id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

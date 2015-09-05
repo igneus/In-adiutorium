@@ -186,6 +186,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 25-I"
+    placet = "_pravdě_ působí tak nějak neautenticky, přeumělkovaně"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

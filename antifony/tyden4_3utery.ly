@@ -179,6 +179,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88-I"
+    placet = "nic moc"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
