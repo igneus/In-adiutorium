@@ -289,20 +289,21 @@ tIIpondeliAntBenedictus = \score {
 }
 
 tIIpondeliAntMagnificat = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 g( a) c( b) c a4.( g4 a) g f e( d) e \barFinalis
+    g4 c b a g \barMin
+    f g a g \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, Hos -- po -- di -- na.
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "t2-po-mag"
-    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
