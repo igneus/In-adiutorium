@@ -106,38 +106,7 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f4 f f e f f g f g( a) a( g) \barMax
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % V
-    \neviditelna a
-    a( bes) a a a g f g( a) g g \barMax
-    % R
-    \neviditelna a
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
-    od vě -- ků měl s_ní své plá -- ny.
-    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
-    \Response od vě -- ků měl s_ní své plá -- ny.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    fons = "commune o PM, r.ch."
-    piece = \markup {\sestavTitulekResp}
-  }
-}
+\markup\italic{Responsorium ze společných textů o Panně Marii.}
 
 \score {
   \relative c'' {
@@ -314,40 +283,7 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
-    a4( g a) f( g f) f \barFinalis
-    % V
-    \neviditelna a
-    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
-    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
-    % R
-    \neviditelna a
-    a4( g a) f( g f) f \barFinalis
-    % Slava
-    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
-  }
-  \addlyrics {
-    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
-    Pán s_te -- bou!
-    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
-    \Response Pán s_te -- bou!
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    fons = "commune PM, 2. nešp."
-    piece = \markup {\sestavTitulekResp}
-  }
-}
+\markup\italic{Responsorium ze společných textů o Panně Marii.}
 
 \score {
   \relative c'' {
