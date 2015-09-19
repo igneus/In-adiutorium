@@ -30,7 +30,7 @@
     placet = "_soudí spravedlivě_ si nejsem jist -
     dá se to sice zazpívat důstojně a pěkně, ale je to poměrně divoké a spíš
     ozdoba pro ozdobu než autentický hudební výraz zhudebněného textu"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -57,7 +57,7 @@
     differentia = "D"
     psalmus = "Žalm 10-II"
     placet = "_ty sleduješ_ by šlo lépe"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -82,7 +82,7 @@
     differentia = "a"
     psalmus = "Žalm 12"
     placet = "_upřímná slova_ raději eg f e d d"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
