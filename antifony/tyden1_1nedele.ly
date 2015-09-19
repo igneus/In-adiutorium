@@ -56,7 +56,7 @@ tInedeleInespAntIII = \score {
   }
   \addlyrics {
     Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-    po -- vý -- šil na -- vě -- ky.
+    vy -- vý -- šil na -- vě -- ky.
   }
   \header {
     quid = "3. ant."
