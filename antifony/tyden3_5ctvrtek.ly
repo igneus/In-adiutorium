@@ -175,6 +175,7 @@
     a od -- pusť nám na -- še hří -- chy.
   }
   \header {
+    textus_approbatus = "Pomoz nám, Bože, náš spasiteli, a odpusť nám hříchy."
     quid = "2. ant."
     modus = "IV"
     differentia = "g"

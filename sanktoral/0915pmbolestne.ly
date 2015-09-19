@@ -33,7 +33,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     fons = "zejm. 1. část podle invitatoria z Narození sv. Jana Křtitele"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -56,7 +56,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,7 +78,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -100,7 +100,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 149"
-    id = ""
+    placet = "_Kristovou_ jen cd d"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -132,7 +133,7 @@
   \header {
     quid = "resp."
     modus = "II"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -159,7 +160,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -182,7 +183,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -204,7 +205,8 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 127"
-    id = ""
+    placet = "dotáhnout"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -228,7 +230,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -261,7 +263,8 @@
   \header {
     quid = "resp."
     modus = "I"
-    id = ""
+    placet = "doxologie je strašná"
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -289,7 +292,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "_to je tvá matka_ by možná lépe začínalo d e"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

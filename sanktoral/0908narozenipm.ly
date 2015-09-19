@@ -165,6 +165,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "nic moc; _slávou_ je hrůza"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -187,6 +188,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "slátanina, nedrží pohromadě"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -207,6 +209,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_srdcem_ je fuj, závěr neelegantní"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -229,7 +232,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
-    placet = "zdá se, že moc nesedí v modu"
+    placet = "C-dur s falešným závěrem na d"
     id = ""
     fons = "Zvěstování Páně, uprostřed dne, dopoledne; odstraněno aleluja"
     piece = \markup {\sestavTitulek}
@@ -253,6 +256,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
+    placet = "myslím, že půjde o něco lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }

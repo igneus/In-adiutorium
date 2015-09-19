@@ -187,6 +187,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "hrůza"
     id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -207,6 +208,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "VII.d"
     id = "ne23b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -231,6 +233,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_vstane_ zkusit zvukomalebněji"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -275,6 +278,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "závěr se mi příliš nezamlouvá"
     id = "ne24b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

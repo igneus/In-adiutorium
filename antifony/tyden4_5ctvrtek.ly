@@ -31,7 +31,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-I"
-    id = ""
+    placet = "u všech třech ... nevím. Asi zkusit jinak."
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -55,7 +56,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -77,7 +78,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-III"
-    id = ""
+    placet = "_nezapomínej_ je výrazně nelibozvučné"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

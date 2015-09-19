@@ -28,6 +28,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-IV"
+    placet = "_od_ je divné"
     id = ""
     piece = \markup {\sestavTitulek}
   }

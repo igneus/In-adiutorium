@@ -302,6 +302,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 112"
+    placet = "barbarská"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }

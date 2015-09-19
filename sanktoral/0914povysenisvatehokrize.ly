@@ -648,6 +648,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "poměrně výrazný slaďák"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
