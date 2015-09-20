@@ -64,7 +64,7 @@
   \relative c'' {
     \choralniRezim
     c4 g a g f g g \barMaior
-    g a4.( c) \bar ";" \[ d4(^\markup{možno vynechat} c b \] \[ c d c b \] \[ a4. g \] \barMin \[ a4 c d c) \] \bar ";"
+    g a4.( c) \bar ";" \[ d4(^\markup\small\italic{možno vynechat} c b \] \[ c d c b \] \[ a4. g \] \barMin \[ a4 c d c) \] \bar ";"
     c4( d e) c b a a \barMin g( f e) f g a( g) g \barFinalis
   }
   \addlyrics {
