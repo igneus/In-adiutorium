@@ -18,19 +18,19 @@
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
-    na -- vě -- ky bu -- de -- me
-    %chvá -- lit % záměna slov kvůli rytmu
-    ve -- le -- bit
-    tvé jmé -- no.
+    na -- vě -- ky bu -- de -- me ve -- le -- bit tvé jmé -- no.
 
     A -- le -- lu -- ja.
   }
   \header {
+    % záměna slov kvůli rytmu
+    textus_approbatus = "Bože, tys nám pomohl k vítězství,
+    navěky budeme chválit tvé jméno. Aleluja."
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 44-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -57,7 +57,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 44-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +81,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 44-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
