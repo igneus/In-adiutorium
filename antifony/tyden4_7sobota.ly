@@ -29,7 +29,7 @@
     differentia = "d"
     psalmus = "Žalm 78-IV"
     placet = "_od_ je divné"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -55,7 +55,7 @@
     absolutní rým - a zároveň je to _braní jména Božího_;
     možná by stačilo u této jedné změnit podmět na nevyjádřený,
     např. Přivedl je do své svaté země."
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -79,7 +79,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-VI"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -102,7 +102,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-I"
-    id = ""
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -123,7 +123,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-II"
-    id = ""
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -143,7 +143,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-III"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

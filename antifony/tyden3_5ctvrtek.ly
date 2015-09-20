@@ -25,7 +25,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 89-IV"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 89-V"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,7 +74,7 @@
     differentia = "a"
     psalmus = "Žalm 90"
     placet = "'jako' nejak nepatricne vycniva"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

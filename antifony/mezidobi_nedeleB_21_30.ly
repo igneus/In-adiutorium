@@ -325,6 +325,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "ne25b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

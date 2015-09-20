@@ -28,7 +28,7 @@
     differentia = "a"
     psalmus = "Žalm 68-I"
     placet = "_nenávidí_ e d cd c - protože cd d b se mi zpívá o poznání hůř než cd c b"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,7 +78,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

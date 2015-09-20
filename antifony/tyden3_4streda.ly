@@ -27,7 +27,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     differentia = "F"
     psalmus = "Žalm 89-II"
     placet = "první divisio pryč, druhá min.; melodie žádný zázrak"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +81,7 @@
     placet = "moc se mi nezdá _Přísahal_ 3-1-1 - první slabika je
     v poměru k ostatním nepřirozeně zatížená;
     i tato melodie není nijak oslnivá a mohla by být vyměněna"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

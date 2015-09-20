@@ -30,7 +30,7 @@
     differentia = "g"
     psalmus = "Žalm 37-I"
     placet = "nejak nesedi v I. modu, mozna ma prirozenejsi finalu na E?"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -54,7 +54,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,7 +78,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

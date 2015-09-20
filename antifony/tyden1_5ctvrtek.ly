@@ -25,7 +25,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-IV"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-V"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-VI"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
