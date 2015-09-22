@@ -6,7 +6,7 @@ Liturgical music, mostly plainchant, engraved with LilyPond.
 Some pieces are arranged as booklets or books typeset using LaTeX.
 For further information see project homepage
 http://www.inadiutorium.cz
-(Czech only, with [summary in English](http://www.inadiutorium.cz/about.php))
+(Czech only, with [summary in English](http://www.inadiutorium.cz/english.php))
 
 ## License ##
 
@@ -24,4 +24,12 @@ running LilyPond over them
 * you can build all sheets at once by running rake in the root directory
 * in directory 'antifonar' volumes of the Czech antiphonal may be compiled by running rake tasks (run 'rake -T' to see what is available)
 
-LilyPond version: LilyPond 2.19.x is currently being used in development.
+The sheets often contain the author's personal
+notes concerning future development.
+To hide them, compile the .ly files with point-and-click disabled:
+
+`lilypond -dno-point-and-click FILE.ly`
+
+# LilyPond version
+
+LilyPond 2.19.x is currently being used in development.
