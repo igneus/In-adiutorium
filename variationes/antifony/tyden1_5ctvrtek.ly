@@ -186,10 +186,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a d( b) c c \barMaior
     b4 c d c b a( g) g \barMin
+    a f a b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je ve -- li -- ký,
+    vel -- mi je hod -- ný chvá -- ly
+    v_měs -- tě na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 48"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a d( b) c c \barMin
+    b4 c d c b a( g) g \barMaior
     a f a b a g g \barFinalis
   }
   \addlyrics {
@@ -250,7 +273,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f"
-    psalmus = "Žalm 119-III"
+    psalmus = "Žalm 119-ג"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

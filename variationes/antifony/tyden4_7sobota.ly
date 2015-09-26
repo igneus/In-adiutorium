@@ -1,10 +1,10 @@
+\include "../spolecne.ly"
+
 \markup {\nadpisDen {Sobota 4. týdne}}
 
-% -*- master: ../antifony.ly;
+% \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup {\nadpisHodinka {"invitatorium"}}
-
-\score { \tIIsobotaInvitatorium }
+% \score { \tIIsobotaInvitatorium }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -148,10 +148,35 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f f a g a f e f4. f \barMin e4 f d( c) c4. \barMin
+    f4 g g( a) a a bes a g f f4. \barFinalis
+  }
+  \addlyrics {
+    Do -- bré je o -- pě -- vo -- vat tvé jmé -- no, Svr -- cho -- va -- ný,
+    zrá -- na hlá -- sat tvé mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 92"
+    placet = "druhá divisio maior"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f a g a f e f f \barMin
     e f d( c) c \barMaior
@@ -171,6 +196,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -210,7 +237,7 @@
   }
 }
 
-\score { \tIIsobotaAntBenedictus }
+% \score { \tIIsobotaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 

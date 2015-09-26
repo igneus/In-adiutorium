@@ -145,19 +145,21 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a b c c4. \barMin c4 d d c d c( b) b \barMin
-    b c( d) c( a) g f g4. g \barFinalis
+    e4 a g f e \barMaior
+    f g a g b c a \barMin
+    a g a g f e e \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slo -- vo
+    Bla -- ho -- sla -- ve -- ní,
+    kdo sly -- ší Bo -- ží slo -- vo
     a za -- cho -- vá -- va -- jí ho.
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 119-ו"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -206,8 +208,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( g) a( c) c4. \barMin d4 c b a( b g) g \barMax
-    f f g a a a b( a) g4. g \barFinalis
+    g4 g a( g) a( c) c \barMin d4 c b a( b g) g \barMaior
+    f f g a a a b( a) g g \barFinalis
   }
   \addlyrics {
     Krá -- sou vy -- ni -- káš nad lid -- ské sy -- ny,
@@ -226,10 +228,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \barMin d c b a( b) a( g) g \barFinalis
+    g4( a) g g g( c b c d) c \barMin
+    b( a g) f a a g g \barFinalis
   }
   \addlyrics {
-    Že -- nich je ta -- dy, jdě -- te mu na -- pro -- ti!
+    Že -- nich je ta -- dy,
+    jdě -- te mu na -- pro -- ti!
   }
   \header {
     quid = "2. ant."

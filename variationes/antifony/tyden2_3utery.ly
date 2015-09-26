@@ -113,7 +113,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     d4 c d( f) e( f) d \barMin c d \mark\sipka f e d c d d \barFinalis
   }
@@ -249,7 +248,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     e4 c d e( f) e g a g a a \barMin g( a g) f e e \barFinalis
   }
@@ -369,7 +367,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     f4 g a g f bes a g a g \barMin f g f \barFinalis
   }

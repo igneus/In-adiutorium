@@ -29,9 +29,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g f d4. c \barMaior
-    e4 f g a4. g \barMin
-    a4 a g f e( f) d d \barFinalis
+    a4 f g f d c \barMaior
+    e f g a g \barMin
+    a a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
@@ -40,9 +40,8 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = "Žalm 116"
-    placet = "I.a, není důvod pro a2"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -122,10 +121,10 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c b c d e d c d( c b) a \barMaior
-    b g b( c) a \barFinalis
+    d4 f e f g a g f g( f e) d \barMaior
+    e c e( f) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je ve -- li -- ký a moc -- ný.
@@ -133,10 +132,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 93"
-    placet = "možná spíš II.A"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

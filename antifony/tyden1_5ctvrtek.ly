@@ -128,8 +128,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a d( b) c c \barMaior
-    b4 c d c b a( g) g \barMin
+    g4 a a a d( b) c c \barMin
+    b4 c d c b a( g) g \barMaior
     a f a b a g g \barFinalis
   }
   \addlyrics {

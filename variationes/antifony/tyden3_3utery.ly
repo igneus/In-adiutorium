@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( d') c d \barMaior
     d c d c e d c( d) d \barMin b a g a( f) g \barFinalis
@@ -23,7 +24,30 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-I"
-    id = ""
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( d') c d \barMaior
+    d c d c e d c( d) \mark\sipka c \barMin
+    b a g a( f) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-I"
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +67,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,10 +89,12 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -319,7 +345,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "a"
-    psalmus = "Žalm 119-XIII"
+    psalmus = "Žalm 119-מ"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

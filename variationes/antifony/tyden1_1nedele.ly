@@ -13,7 +13,7 @@ nejsu úplně marné, ale na původní nemají.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g b c d c4. \barMax
     c4( b a) b c( d) e d4. \barMin
@@ -33,28 +33,30 @@ nejsu úplně marné, ale na původní nemají.}
   }
 }
 
-\markup{minimální úpravy:}
-
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    g4 a g b c d c \barMax
+    g4 a g b c d c \barMaior
     c4( b a) b c( d) e d \barMin
     d4 f e d( c) a b a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, slyš můj hlas,
-    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+    ja -- ko ka -- di -- dlo
+    ať k_to -- bě stou -- pá má mo -- dlit -- ba.
   }
   \header {
     quid = "1. ant."
-    modus = "VIII-[nebo VII?]"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 141"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{minimální úpravy:}
 
 \score {
   \relative c'' {
@@ -891,6 +893,88 @@ moc rád a nechci ji měnit.}
     c4( b) a b g g4. \barMax
     g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
     g4( a) a g4. g4. \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko tři mlá -- den -- ci
+    v_oh -- ni -- vé pe -- ci
+    zpí -- vej -- me Bo -- hu:
+    Po -- žeh -- na -- ný jsi, náš Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+
+
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 f g a( c d c) a a \barMin
+    b4 c b c( d) d \barMin
+    c4( b) a b g g \barMax
+    g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
+    g4( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko tři mlá -- den -- ci
+    v_oh -- ni -- vé pe -- ci
+    zpí -- vej -- me Bo -- hu:
+    Po -- žeh -- na -- ný jsi, náš Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3"
+    placet = "přeci jen VIII.G; aleluja melisma na první slabice nesluší"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    g'4 f g a( c d c) a a \barMin
+    b4 c b c( d) d \barMin
+    c4( b) a b g g \barMaior
+    g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
+    \mark\sipka g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko tři mlá -- den -- ci
+    v_oh -- ni -- vé pe -- ci
+    zpí -- vej -- me Bo -- hu:
+    Po -- žeh -- na -- ný jsi, náš Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 f g a( c d c) a a \barMin
+    b4 c b c( d) d \barMin
+    c4( b) a b g g \barMaior
+    g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
+    \mark\sipka g g( a) g g \barFinalis
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci

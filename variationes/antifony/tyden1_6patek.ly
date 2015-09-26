@@ -69,6 +69,9 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -93,6 +96,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c c b c d( a) a \barMin
+    a a g f g( a) a a \barMaior
+    c c d( c) a a \barMin
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    O -- pět na -- jdeš za -- lí -- be -- ní
+    v_zá -- ko -- ni -- tých
+    o -- bě -- tech na svém ol -- tá -- ři,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    modus = "III"
+    differentia = "a"
+    quid = "1. ant."
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 d a g c( d) d \barMin e d c4. a4( b) a( g) g \barMin
     a b c4.( a) g4 f g g \barFinalis
@@ -113,11 +143,57 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d a g c( d) d \barMin
+    e d c4. a4( b) a( g) g \barMaior
+    a b c4.( a) g4 f g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
     \choralniRezim
     d4( c) a4.( b) g4 g a c d a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 100"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c) a( b) \barMin
+    g g a c d a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     quid = "3. ant."
@@ -237,8 +313,8 @@
     modus = "IV"
     differentia = "g"
     quid = "1. ant."
-    psalmus = "Žalm 119-IV"
-    id = "rch-up1"
+    psalmus = "Žalm 119-ד"
+    id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
 }

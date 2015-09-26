@@ -1,10 +1,10 @@
-\markup {\nadpisDen {Čtvrtek 2. týdne}}
+\include "../spolecne.ly"
 
-% -*- master: ../antifony.ly;
+\markup {\nadpisDen {Čtvrtek 2. týdne}}
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\score { \tIIctvrtekInvitatorium }
+% \score { \tIIctvrtekInvitatorium }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -35,12 +35,15 @@
   }
 }
 
+\pageBreak
+
 % Tady vedome porusuji zasadu "jeden zalm, jeden napev psalmodie":
 % meni se tu totiz ton zalmu i antifon z oslavneho na truchlivy, kajici
 % a prosebny, a takovou zmenu nedokazu v ramci modu VIII dobre vyjadrit.
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a e \barMin g f e d e e \barMaior
     f4 g f e g a g f e e e \barFinalis
@@ -60,6 +63,30 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a e \barMin g f e d e e \barMaior
+    c d e g a a g f g g e \barFinalis
+  }
+  \addlyrics {
+    U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
+    ne -- vy -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 44-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -145,7 +172,7 @@
   }
 }
 
-\score { \tIIctvrtekAntBenedictus }
+%\score { \tIIctvrtekAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -255,8 +282,33 @@
   }
 }
 
-tIIctvrtekNespAntIII = \score {
+\pageBreak
+
+%tIIctvrtekNespAntIII =
+\score {
   \relative c'' {
+    \choralniRezim
+    a4 a a a a a c( d) d( c) d4. d4 f( e) d e c4. a \barMin
+    a4 b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Od ny -- něj -- ška pa -- tří ví -- těz -- ství a krá -- lov -- ská vlá -- da
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 11"
+    placet = "chybí frázování"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a a a c( d) d( c) d \barMin
     d f( e) d e c a \barMaior
@@ -277,6 +329,6 @@ tIIctvrtekNespAntIII = \score {
   }
 }
 
-\score { \tIIctvrtekNespAntIII }
+% \score { \tIIctvrtekNespAntIII }
 
-\score { \tIIctvrtekAntMagnificat }
+% \score { \tIIctvrtekAntMagnificat }

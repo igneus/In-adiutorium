@@ -50,6 +50,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -65,10 +67,37 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 12"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g f e( f) d d \barMin
+    e \mark\sipka e( g) f e d d \barFinalis
+
+    f^\rubrVelikAleluja e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -213,7 +242,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "D"
-    psalmus = "Žalm 119-I"
+    psalmus = "Žalm 119-א"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -353,6 +382,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a \barMaior
     a f4.( d) \barMin e4 f g f d d \barFinalis
@@ -360,6 +390,27 @@
   \addlyrics {
     Hos -- po -- di -- ne,
     tvou moc o -- sla -- ví -- me zpě -- vem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g2"
+    psalmus = "Žalm 21"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a a f( d) \barMin
+    e4 f g f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tvou moc
+    o -- sla -- ví -- me zpě -- vem.
   }
   \header {
     quid = "2. ant."

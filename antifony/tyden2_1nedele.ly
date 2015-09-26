@@ -167,9 +167,9 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     \key f\major
     f4 g a a
-    bes4 c a4. a \barMaior
-    a4 a g( a) bes c a4. g \barMin
-    f4 e c( d) d \barFinalis
+    bes c a a \barMin
+    a a g( a) bes c a g \barMaior
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
@@ -180,7 +180,6 @@ tIInedeleInespAntIII = \score {
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 118"
-    placet = "div. maior je tu přirozenější až před aleluja"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

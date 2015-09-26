@@ -66,7 +66,7 @@
   \relative c'' {
     \choralniRezim
     a4 g f g f e( f) d d \barMin
-    e e( f g) f e d( e d) d \barFinalis
+    e e( g) f e d d \barFinalis
 
     f^\rubrVelikAleluja e c( d) d \barFinalis
   }
@@ -81,7 +81,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 12"
-    placet = "_upřímná slova_ raději eg f e d d"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -238,19 +237,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a \barMaior
-    a f4.( d) \barMin e4 f g f d d \barFinalis
+    g4 g g( a) a a f( d) \barMin
+    e4 f g f d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne,
-    tvou moc o -- sla -- ví -- me zpě -- vem.
+    Hos -- po -- di -- ne, tvou moc
+    o -- sla -- ví -- me zpě -- vem.
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "g2"
     psalmus = "Žalm 21"
-    placet = "upravit frázování"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

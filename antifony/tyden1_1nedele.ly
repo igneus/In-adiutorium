@@ -194,9 +194,9 @@ tInedeleInespAntIII = \score {
     \choralniRezim
     g'4 f g a( c d c) a a \barMin
     b4 c b c( d) d \barMin
-    c4( b) a b g g \barMax
+    c4( b) a b g g \barMaior
     g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
-    g4( a) a g g \barFinalis
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci
@@ -207,10 +207,9 @@ tInedeleInespAntIII = \score {
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3"
-    placet = "přeci jen VIII.G; aleluja melisma na první slabice nesluší"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

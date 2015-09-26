@@ -199,11 +199,14 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 a bes a \barMin a g f g a( bes) a4. bes4 bes c( a) a \barMin
-    a f e d d \barFinalis
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+
+    bes bes c( a) a a f e d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, jak po -- di -- vu -- hod -- né
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
     je tvé jmé -- no po ce -- lé ze -- mi.
   }
   \header {
@@ -211,9 +214,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 8"
-    placet = "po _jak podivuhodné_ divisio přidat, po _jméno_ zrušit;
-    _je_ tvé jméno_ by nemělo být od závěru předchozí části odsazeno;
-    _po celé zemi_ se mi špatně zpívá, ale to je spíš problém mého sluchu než antifony"
+    placet = "je přijatelný krok na _je_?"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -12,22 +12,19 @@
   \relative c'' {
     \choralniRezim
     a4 g( d') c d \barMaior
-    d c d c e d c( d) d \barMin b a g a( f) g \barFinalis
-
-    f^\rubrVelikAleluja f f( g) g \barFinalis
+    d c d c e d c( d) c \barMin
+    b a g a( f) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
-    a ti, kdo ho ne -- ná -- vi -- dí, pr -- cha -- jí před ním.
-
-    A -- le -- lu -- ja.
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-I"
-    placet = "_nenávidí_ e d cd c - protože cd d b se mi zpívá o poznání hůř než cd c b"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }

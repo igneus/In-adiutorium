@@ -23,13 +23,14 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f f \barMin g a( f) g \barMaior
     a bes a g a f f \barMin d f g a g( f) f \barFinalis
@@ -43,7 +44,30 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-II"
-    id = ""
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f f g a( f) g \barMin
+    a bes a g a f f \barMin
+    d f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    po -- chá -- zí ja -- ko člo -- věk
+    z_ro -- du Da -- vi -- do -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-II"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -65,7 +89,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

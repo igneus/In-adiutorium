@@ -223,6 +223,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+    bes bes c( a) a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 8"
+    placet = "je přijatelný krok na _je_?"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 %\score { \tIIsobotaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}

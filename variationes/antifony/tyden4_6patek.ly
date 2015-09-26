@@ -539,7 +539,7 @@
   \addlyrics {
     Ra -- duj se, Je -- ru -- za -- lé -- me,
     všich -- ni se shro -- máž -- dí
-    a bu -- dou ve -- le -- bit věč -- né -- ho krá -- le.
+    a bu -- dou ve -- le -- bit věč -- né -- ho Pá -- na.
   }
   \header {
     quid = "2. ant."
@@ -610,7 +610,7 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
-    psalmus = "Žalm 147"
+    psalmus = "Žalm 147-II"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

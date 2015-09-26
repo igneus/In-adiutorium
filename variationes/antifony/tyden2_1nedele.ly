@@ -85,7 +85,7 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
-    psalmus = "Žalm 119-XIV"
+    psalmus = "Žalm 119-נ"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -477,12 +477,62 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     f4 g a a4. \barMin
     bes4 c a4. a \barMin
     a4 a g( a) bes c a4. g \barMin
     f4 e c( d) d4. \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
+    jmé -- nu. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f\major
+    f4 g a a
+    bes4 c a4. a \barMaior
+    a4 a g( a) bes c a4. g \barMin
+    f4 e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
+    jmé -- nu. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 118"
+    placet = "div. maior je tu přirozenější až před aleluja"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f\major
+    f4 g a a
+    bes c a a \barMin
+    a a g( a) bes c a g \barMaior
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
@@ -643,7 +693,7 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a g) g( c) c c( d) c c( b a) \barMaior
     a( g f) g( a) a \mark\sipka g g \barMaior
@@ -658,6 +708,29 @@ Potřebuje výraznější úpravu:}
     quid = "2. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    a( g f) g( a) a g g \barMaior
+    b c( a) g( a) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

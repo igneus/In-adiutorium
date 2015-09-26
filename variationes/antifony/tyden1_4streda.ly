@@ -591,13 +591,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' g f g g( a) a \barMin g f e4. e \barMaior
     e4 f d c d4. \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé svět -- lo a má spá -- sa,
+    ko -- ho bych se bál?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 27-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a' g f g g( a) a \barMin
+    g f e e \barMaior
+    e f d c d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé svět -- lo
+    a má spá -- sa,
     ko -- ho bych se bál?
   }
   \header {

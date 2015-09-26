@@ -182,15 +182,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) e4. d \barMin e4 f g g f e c d d \barFinalis
+    f4 a bes g f \barMin g g a f e d c d d \barFinalis
   }
   \addlyrics {
     Bůh mi po -- má -- há, Pán mě u -- dr -- žu -- je na -- ži -- vu.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 54"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}

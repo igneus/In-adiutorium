@@ -113,10 +113,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
+    modus = "IV alt"
     differentia = "A"
     psalmus = "Iz 40"
-    placet = "u této si nakonec nejsem jist, že přeřazení z modu IV do II bylo namístě"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

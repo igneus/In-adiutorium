@@ -1,10 +1,10 @@
+\include "../spolecne.ly"
+
 \markup {\nadpisDen {Úterý 4. týdne}}
 
-% -*- master: ../antifony.ly;
+%\markup {\nadpisHodinka {"invitatorium"}}
 
-\markup {\nadpisHodinka {"invitatorium"}}
-
-\score { \tIIuteryInvitatorium }
+%\score { \tIIuteryInvitatorium }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -31,6 +31,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -59,6 +61,33 @@
 \score {
   \relative c' {
     \choralniRezim
+    d c f e f g \barMin
+    a g f g f \mark\sipka e( f) d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Skloň se, Hos -- po -- di -- ne,
+    k_mod -- lit -- bě o -- puš -- tě -- ných.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-II"
+    placet = "uspokojivější závěr"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d e f \barMin f g a a bes a g( a) a \barMaior
     d c( d) d( a) a \barMin a a g f g( d) d \barFinalis
 
@@ -80,10 +109,36 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    f4 g a bes a( g) a \barMin \bar "" a g c c g a( bes) a a \barMin \bar ""
+    f g a( bes) g( a) a \bar "" a g( f) g f d( c) d  \barFinalis
+  }
+  \addlyrics {
+    Chci tě, Hos -- po -- di -- ne, chvá -- lit ce -- lým svým ži -- vo -- tem,
+    chci se u -- bí -- rat ces -- tou bez -- ú -- hon -- nou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 101"
+    placet = "opravit divisiones"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 g a bes a( g) a \barMin a g c c g a( bes) a a \barMaior
@@ -102,6 +157,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -140,7 +197,7 @@
   }
 }
 
-\score { \tIIuteryAntBenedictus }
+%\score { \tIIuteryAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -178,7 +235,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88-I"
-    placet = "nic moc"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -241,6 +297,6 @@
   }
 }
 
-\score { \tIIuteryNespAntIII }
+%\score { \tIIuteryNespAntIII }
 
-\score { \tIIuteryAntMagnificat }
+%\score { \tIIuteryAntMagnificat }

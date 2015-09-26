@@ -202,11 +202,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 a' g f g g( a) a \barMin g f e4. e \barMaior
-    e4 f d c d \barFinalis
+    d4 a' g f g g( a) a \barMin
+    g f e e \barMaior
+    e f d c d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mé svět -- lo a má spá -- sa,
+    Hos -- po -- din je mé svět -- lo
+    a má spá -- sa,
     ko -- ho bych se bál?
   }
   \header {

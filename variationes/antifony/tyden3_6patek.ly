@@ -49,7 +49,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 69-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }

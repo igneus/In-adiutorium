@@ -1,10 +1,10 @@
+\include "../spolecne.ly"
+
 \markup {\nadpisDen {Pondělí 4. týdne}}
 
-% -*- master: ../antifony.ly;
+% \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup {\nadpisHodinka {"invitatorium"}}
-
-\score { \tIIpondeliInvitatorium }
+% \score { \tIIpondeliInvitatorium }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -117,8 +117,33 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    c4 a b4. g b4( d) c( b) g a a4 \barMin
+    b4 d d c( b) a4. a \barMin g4 a b c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te jmé -- no Hos -- po -- di -- no -- vo,
+    vy, kte -- ří slou -- ží -- te v_Hos -- po -- di -- no -- vě do -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 135"
+    placet = "před _vy_ div. maior"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 a b4. g b4( d) c( b) g a a4 \barMaior
     b d d c( b) a a \barMin
@@ -139,7 +164,9 @@
   }
 }
 
-\score { \tIIpondeliAntBenedictus }
+\pageBreak
+
+% \score { \tIIpondeliAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
@@ -245,6 +272,6 @@
   }
 }
 
-\score { \tIIpondeliNespAntIII }
+% \score { \tIIpondeliNespAntIII }
 
-\score { \tIIpondeliAntMagnificat }
+% \score { \tIIpondeliAntMagnificat }

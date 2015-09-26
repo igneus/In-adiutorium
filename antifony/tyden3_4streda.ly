@@ -35,23 +35,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    f f \barMin g a( f) g \barMaior
-    a bes a g a f f \barMin d f g a g( f) f \barFinalis
-
-    e^\rubrVelikAleluja f g( f) f \barFinalis
+    f f g a( f) g \barMin
+    a bes a g a f f \barMin
+    d f g a g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
-    po -- chá -- zí ja -- ko člo -- věk z_ro -- du Da -- vi -- do -- va.
-
-    A -- le -- lu -- ja.
+    po -- chá -- zí ja -- ko člo -- věk
+    z_ro -- du Da -- vi -- do -- va.
   }
   \header {
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-II"
-    placet = "první divisio pryč, druhá min.; melodie žádný zázrak"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
