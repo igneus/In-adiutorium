@@ -350,6 +350,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "půjde lépe; zejména ten, kdo se ponižuje, by mohl být proveden skromněji :)"
     id = "ne25b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -231,6 +231,7 @@ tIpatekAntMagnificat = \score {
     modus = "II"
     differentia = "A"
     psalmus = ""
+    placet = "jinak, lépe"
     id = "t1-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
