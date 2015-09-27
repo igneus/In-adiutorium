@@ -184,6 +184,7 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\noPageBreak
 
 \score {
   \relative c'' {
