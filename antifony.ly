@@ -27,11 +27,6 @@
   }
 }
 
-% Promenne s melodii nebo textem antifony pro vicenasobne pouziti:
-%
-% pr.: t2nedele2nespAnt1noty
-% tyden / den / hodinka / antifona / "noty" nebo "text"
-
 \include "antifony/ferie_kantevgant.ly"
 \include "antifony/invitatoria.ly"
 
