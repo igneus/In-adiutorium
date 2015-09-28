@@ -1,6 +1,6 @@
-\markup {\nadpisDen {Doplňovací cyklus pro modlitbu uprostřed dne}}
+\include "../spolecne.ly"
 
-% -*- master: ../antifony.ly;
+\markup {\nadpisDen {Doplňovací cyklus pro modlitbu uprostřed dne}}
 
 \markup {\nadpisHodinka {"první oddíl (dopoledne)"}}
 
@@ -25,11 +25,35 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 g f e f( e) d( e) d c \barMin
+    d f e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    placet = "~"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
     d4 d d d c( d) f( e) d d \barMin
-    f f g-- f( e) d \barFinalis
+    e f e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je tvým o -- chrán -- cem
@@ -44,6 +68,29 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d c( d) f( e) d d \barMin
+    \mark\sipka f f g-- f( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

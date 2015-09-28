@@ -136,20 +136,18 @@ tIpatekInvitatorium = \score {
 tIsobotaInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    d( f) f \barMin g f f e d e( f) d \barMin
-    d4 d f e f f( g) g \barMin
-    g a a f e d d \barFinalis
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    d4 d f e f f( g) g g a a f e d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
-      je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
+    je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
   }
   \header {
     quid = "ant."
     modus = "II"
     differentia = "D"
     dies = "sobota"
-    placet = "poslední cesura je zbytečná - pryč; druhá by měla být maior"
     id = "t1so"
     piece = \markup {\sestavTitulekBezZalmu}
   }

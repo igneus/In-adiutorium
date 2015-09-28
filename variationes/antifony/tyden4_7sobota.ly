@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( e c) c( d) d \barMin
     c( a) b a g g \barFinalis
@@ -36,6 +37,31 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f( e c) c( d) d \barMin
+    \mark\sipka c b a g( a) a( g) \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis
 
@@ -55,6 +81,57 @@
     absolutní rým - a zároveň je to _braní jména Božího_;
     možná by stačilo u této jedné změnit podmět na nevyjádřený,
     např. Přivedl je do své svaté země."
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b) d( e) d d \barMin
+    c a g a g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- dl je
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Bůh je přivedl do své svaté země. Aleluja."
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-V"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c b) d( e) d d \barMin
+    c a \mark\sipka b a g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- dl je
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Bůh je přivedl do své svaté země. Aleluja."
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-V"
     id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -84,6 +161,7 @@
   }
 }
 
+\pageBreak
 
 \markup\italic{V liturgickém mezidobí:}
 

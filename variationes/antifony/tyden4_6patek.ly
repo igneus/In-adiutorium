@@ -909,11 +909,54 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key d \minor
     g4 g g( a) \barMin a g a bes a f g a a \barMaior
     \mark\sipka a f g a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,
+    a vy -- pra -- vo -- vat o tvých di -- vech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key d \minor
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    \mark\sipka a g f e e g f d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,
+    a vy -- pra -- vo -- vat o tvých di -- vech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key d \minor
+    g4 g g( a) \barMin a g a bes a g f g g \barMaior
+    g a bes a a f e c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,

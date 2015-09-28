@@ -475,10 +475,10 @@ tIIpatekAntBenedictus = \score {
 tIIpatekAntMagnificat = \score {
   \relative c' {
     \choralniRezim
-    d4 e f d c c a \barMin
-    f' f f e f d4. d \barMaior
-    f4 g a4. g \barMin
-    f4 e c( d) d \barFinalis
+    d4 e f e f g e \barMin
+    d d c e d c d \barMaior
+    f f e( f d) d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj, Hos -- po -- di -- ne,
@@ -490,9 +490,6 @@ tIIpatekAntMagnificat = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_milosrdenství_ od začátku zpívám s vyšinutým přízvukem
-    miLOsrDENství, čemuž odpovídají i délky na posledních dvou slabikách;
-    oprava rytmu by si velmi pravděpodobně vyžádala i změnu melodie"
     id = "t2-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1,4 +1,4 @@
-% -*- master: ../mezidobi_nedele.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"21. neděle"}}
 
@@ -23,6 +23,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -44,6 +46,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d( e) c c \barMin d a b( g) g \barMaior
+    \mark\sipka a a a a a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fons = "nápěv podle: 19. ne. v mez., cyk. B, 1. nešp., k Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -99,10 +124,58 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f g( a g) f e f( g a) g( f) e( d) \barMaior
+    f f f( g) d f( g f) e d c c \barMaior
+    d f g g( a) g( f d) d \barMin f( e) c f( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď -- te vní -- ma -- ví pro slo -- vo,
+    kte -- ré do vás by -- lo vlo -- že -- no
+    a mů -- že za -- chrá -- nit va -- ši du -- ši.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne22b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g f g a g g \barMin
+    f4 f g( a g) f e f( g a) g( f) e( d) \barMaior
+    f \mark\sipka g f e d c d c c \barMaior
+    \mark\sipka d d f g( f) d( e d) d \barMin f( e) c f( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď -- te vní -- ma -- ví pro slo -- vo,
+    kte -- ré do vás by -- lo vlo -- že -- no
+    a mů -- že za -- chrá -- nit va -- ši du -- ši.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne22b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 f g f g a g g \barMin
     f g f e d c d c c \barMaior
     d d f g( f) d( e d) d \barMin f( e) c f( d) d \barFinalis
   }
@@ -120,6 +193,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -140,7 +215,6 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    placet = "lépe"
     id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -187,7 +261,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "hrůza"
     id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -208,7 +281,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "VII.d"
     id = "ne23b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -233,7 +305,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "_vstane_ zkusit zvukomalebněji"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -261,6 +332,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -278,11 +351,90 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "závěr se mi příliš nezamlouvá"
     id = "ne24b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a4. a \barMin
+    g4 a c b c d d \barMaior
+    c a g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a4. a \barMin
+    g4 a c b c d d \barMaior
+    c \mark\sipka b g a a( g) \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\markup\justify{
+  Vzhledem k tomu, že závěrečná část, obsahující rozuzlení dramatu,
+  je krátká a neumožňuje melodické ozdoby větší délky ani rozsahu,
+  možná se lépe hodí některý z (typicky) plagálních modů:
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( d) d f g f d d \barMin
+    d c d e f d d \barMaior
+    a c d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"25. neděle"}}
 
@@ -325,7 +477,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "ne25b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -350,7 +501,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "půjde lépe; zejména ten, kdo se ponižuje, by mohl být proveden skromněji :)"
     id = "ne25b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

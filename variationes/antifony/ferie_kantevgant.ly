@@ -2317,8 +2317,11 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f d c c a \barMin
     f' f f e f d4. d \barMaior
@@ -2335,10 +2338,84 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_milosrdenství_ od začátku zpívám s vyšinutým přízvukem
+    miLOsrDENství, čemuž odpovídají i délky na posledních dvou slabikách"
     id = "t2-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f e f g e \barMin
+    d d c e d c d \barMaior
+    f f e( f d) d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Hos -- po -- di -- ne,
+    na své mi -- lo -- sr -- den -- ství,
+    jak jsi slí -- bil na -- šim před -- kům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e f g e \barMin
+    d d c e d c d \barMaior
+    f f e( f d \mark\sipka c) c \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Hos -- po -- di -- ne,
+    na své mi -- lo -- sr -- den -- ství,
+    jak jsi slí -- bil na -- šim před -- kům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e f g e \barMin
+    d d \mark\sipka f e d c a \barMaior
+    d d c( d e) d \barMin
+    f e f( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Hos -- po -- di -- ne,
+    na své mi -- lo -- sr -- den -- ství,
+    jak jsi slí -- bil na -- šim před -- kům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 % sobota
 

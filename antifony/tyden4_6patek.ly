@@ -287,8 +287,8 @@
   \relative c'' {
     \choralniRezim
     \key d \minor
-    g4 g g( a) \barMin a g a bes a f g a a \barMaior
-    a f g a a f e d d \barFinalis
+    g4 g g( a) \barMin a g a bes a g f g g \barMaior
+    g a bes a a f e c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,
@@ -299,7 +299,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 145-I"
-    placet = "nepěkná; repetice motivu a f g a a rozhodně pryč"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

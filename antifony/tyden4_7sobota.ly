@@ -14,7 +14,7 @@
   \relative c'' {
     \choralniRezim
     d4 d f( e c) c( d) d \barMin
-    c( a) b a g g \barFinalis
+    c b a g( a) a( g) \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -28,7 +28,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-IV"
-    placet = "_od_ je divné"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -37,24 +36,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis
+    d4( c b) d( e) d d \barMin
+    c a b a g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
-    Bůh je při -- ve -- dl do své sva -- té ze -- mě.
+    Při -- ve -- dl je
+    do své sva -- té ze -- mě.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Bůh je přivedl do své svaté země. Aleluja."
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-V"
-    placet = "stejný začátek všech tří antifon působí skoro jako
-    absolutní rým - a zároveň je to _braní jména Božího_;
-    možná by stačilo u této jedné změnit podmět na nevyjádřený,
-    např. Přivedl je do své svaté země."
     id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
