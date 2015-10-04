@@ -334,14 +334,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c a) g( f) f( g) g \barMin
-    c b c c( d) c( a) \barMin b a g a a( g) g \barFinalis
+    g4( c a) g( f) f( g) g \barMaior
+    c b c c( d) d( c) \barMin
+    b a g a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g g g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,
-    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
 
     A -- le -- lu -- ja.
   }

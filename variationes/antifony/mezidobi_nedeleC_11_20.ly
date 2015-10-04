@@ -1,4 +1,4 @@
-% -*- master: ../mezidobi_nedele.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"11. neděle"}}
 
@@ -272,11 +272,37 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( c a) g( f) f( g) g \barMin
+    c b c c( d) c( a) \barMin b a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    placet = "příliš velký důraz na _jsou_"
+    id = "ne14c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( c a) g( f) f( g) g \barMaior
-    c b c c( d) d( c) \barMin
+    c b c c( d) \mark\sipka d( c) \barMin
     b a g a a( g) g \barFinalis
   }
   \addlyrics {
@@ -294,6 +320,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisDen {"15. neděle"}}
 
