@@ -28,7 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     differentia = "d"
     psalmus = "Dan 3-III"
     placet = "poslední část nezní příliš libě a nesnadno se zpívá"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     differentia = "E"
     psalmus = "Žalm 149"
     placet = "_andělů_ lépe d e e"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -103,7 +103,7 @@
     differentia = "D"
     psalmus = ""
     placet = "_Panno_ fg g"
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -125,8 +125,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 122"
-    id = ""
-    fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
+    id = "ne-a1"
     fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -149,7 +148,7 @@
     differentia = "a"
     psalmus = "Žalm 127"
     placet = "blbá"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -174,7 +173,7 @@
     differentia = "a"
     psalmus = "Ef 1"
     placet = "_slavně_ a dál je hrůza, zbytek nic moc"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -198,8 +197,9 @@
       modus = "VII"
       differentia = "a"
       psalmus = ""
-      fons = "Narození Páně, ant. v poledne, upraveno dle textu"
+      fial = "vanoce_narozenipane.ly#vden-asexta?upraveno"
       placet = "předělat s méně křečovitým lpěním na vzorové antifoně"
+      id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
