@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.28"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
