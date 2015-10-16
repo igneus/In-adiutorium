@@ -1,4 +1,4 @@
-\version "2.15.37"
+\version "2.19.28"
 
 \include "../spolecne.ly"
 
@@ -39,7 +39,7 @@
     f4( e f) d( c) c d d4. c \barMaior
     d4 f e( c) c \barMin d d c \barMax \break
     c( d e) e( f) f f
-    \bar ":" f f \bar ":"
+    \bar ";" f f \bar ";"
     f( g) f( e d) d d e e( f) f \barMaior
     f f \[ f( g f \] \[ e f) \] d( c) c4.( d) \barFinalis
   }
