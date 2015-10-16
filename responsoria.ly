@@ -795,6 +795,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "_hooojná radost_ se mi moc nelíbí"
       id = "2ut-ne"
       piece = \markup\sestavTitulekResp
     }

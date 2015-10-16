@@ -100,6 +100,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-I"
+    placet = "všem třem věnovat spravedlivý kus péče"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }

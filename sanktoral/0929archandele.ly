@@ -358,7 +358,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 8"
-    placet = "melodie _králi_ je na daném místě nevhodně retardující; také si nejsem docela jist, že g je pravou finálou"
+    placet = "melodie _králi_ na daném místě rytmicky nesedí"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -463,6 +463,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_Počneš_ se mi moc nelíbí; _jméno_ by udělalo lépe, kdyby ctilo obvyklé pořádky závěru modu VIII
+    ze spodního tetrachordu, nesahalo na a, a už vůbec ne obkrok"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

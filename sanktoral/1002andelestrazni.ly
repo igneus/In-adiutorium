@@ -28,7 +28,8 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "nezpěvná"
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -50,7 +51,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,7 +75,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    id = ""
+    placet = "_kteří_ ať nezačíná na e"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -98,7 +100,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -132,7 +134,7 @@
     quid = "resp."
     modus = "VI"
     placet = "zjednodušit první část repetendy"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -152,7 +154,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -178,7 +180,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 34-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -200,7 +202,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 34-II"
-    id = ""
+    placet = "doslovná citace výrazného motivu předchozí antifony je nepěkná"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -225,7 +228,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 11"
-    id = ""
+    id = "ne-a3"
     fons = "melodie: podle zde, r.ch., 3. ant."
     piece = \markup {\sestavTitulek}
   }
@@ -258,7 +261,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -278,7 +281,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    placet = "druhá půle, konkrétně _nebeského Otce_, se mi nelíbí rytmicky"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

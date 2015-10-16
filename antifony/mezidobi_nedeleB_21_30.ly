@@ -443,6 +443,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nic moc"
     id = "ne27b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -28,6 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -48,7 +49,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    placet = "poslední část nezní příliš libě a nesnadno se zpívá"
+    placet = "poslední část nezní příliš libě a nesnadno se zpívá; o smrti se tu zpívá jako o banální příhodě"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -198,7 +199,7 @@
       differentia = "a"
       psalmus = ""
       fial = "vanoce_narozenipane.ly#vden-asexta?upraveno"
-      placet = "předělat s méně křečovitým lpěním na vzorové antifoně"
+      placet = "předělat s méně křečovitým lpěním na vzorové antifoně (pozor, zdrojová antifona už vypadá úplně jinak!)"
       id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

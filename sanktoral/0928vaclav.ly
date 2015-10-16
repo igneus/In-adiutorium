@@ -41,6 +41,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "nic moc"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -86,6 +87,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "div. maior jen po _králů_"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -108,6 +110,9 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
+    placet = "ohledně kryptotritonu fah v obou těchto antifonách
+    zatím nemám jasný názor. Myslím, že když se správně zazpívá,
+    není nelibý, ale přinejmenším mně se zpívá poněkud těžko"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -204,6 +209,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_nazývá_ má moc velký důraz na druhé slabice"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -246,6 +252,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "nic moc, pravděpodobně půjde lépe"
     id = "sexta"
     fial = "sanktoral/0506jansarkander.ly#ne-amag?jiny_konec"
     fons = "Jana Sarkandra, k Magnificat; konec upraven"
@@ -316,6 +323,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
+    placet = "_kdo na něho útočili_ je nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -336,6 +344,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Zj 4"
+    placet = "krok na _a_ je nevhodný"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -360,6 +369,11 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_Zemřel_ je divné; pamatuji si, jak jsem přesně tuhle divnost
+    udělal záměrně, na efekt, ale zpětně myslím, že se to sem až tolik nehodí
+    a že by takové věci neměly být v chorálu zapotřebí;
+    antifonu zkusit i úplně jinak - je to antifona k Magnificat ze slavnosti
+    sv. Václava!"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
