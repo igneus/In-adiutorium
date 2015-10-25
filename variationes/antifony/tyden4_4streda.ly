@@ -111,10 +111,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d c d e f g g( a) a \barMin
     a a c( a) g a g f e( d) d \barFinalis
@@ -129,6 +132,67 @@
     differentia = "D2"
     psalmus = "Žalm 108"
     placet = "rytmus i melodie _důvěry_ (navíc zdvojeno) jsou jaksi nepřirozené a nelibé"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c d e f g g( a) a \barMin
+    a a \mark\sipka g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
+    pl -- né dů -- vě -- ry je mé srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 108"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c d e f g g( a) a \barMin
+    a a \mark\sipka g a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
+    pl -- né dů -- vě -- ry je mé srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 108"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) d c d e f g g( a) a \barMin
+    a a \mark\sipka g f e d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
+    pl -- né dů -- vě -- ry je mé srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 108"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -265,10 +329,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( bes') a g f( g a) a4. \barMin a4 a a a g( f g) g \barMin
     a f e( d) d \barFinalis
@@ -291,9 +358,98 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e c d( c) \barMaior
+    d d d f a( g) g \barMin
+    f d e d \barFinalis
+  }
+  \addlyrics {
+    Po -- di -- vu -- hod -- ná
+    je pro mě tvá zna -- lost,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 139-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f a g \barMin
+    g f d f f( e) e \barMaior
+    d c d d \barFinalis
+  }
+  \addlyrics {
+    Po -- di -- vu -- hod -- ná
+    je pro mě tvá zna -- lost,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 139-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g g \barMin
+    g g g bes bes( a) a \barMin
+    g f e d \barFinalis
+  }
+  \addlyrics {
+    Po -- di -- vu -- hod -- ná
+    je pro mě tvá zna -- lost,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 139-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e( g f) e f g g( a) a \barMin
     a a a( bes) a g g a a \barMin f g a f e( d) d4. \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din zkou -- má lid -- ské srd -- ce,
+    a -- by od -- pla -- til kaž -- dé -- mu po -- dle je -- ho skut -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 139-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e( g f) e f g g( a) a \barMaior
+    a a a( bes) a g g a a \barMin f g a f e( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zkou -- má lid -- ské srd -- ce,

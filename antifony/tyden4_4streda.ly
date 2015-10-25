@@ -88,7 +88,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) d c d e f g g( a) a \barMin
-    a a c( a) g a g f e( d) d \barFinalis
+    a a g f e d f( e) d d \barFinalis
   }
   \addlyrics {
     Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
@@ -99,7 +99,6 @@
     modus = "I"
     differentia = "D2"
     psalmus = "Žalm 108"
-    placet = "rytmus i melodie _důvěry_ (navíc zdvojeno) jsou jaksi nepřirozené a nelibé"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -213,20 +212,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( bes') a g f( g a) a4. \barMin a4 a a a g( f g) g \barMin
-    a f e( d) d \barFinalis
+    d4 f e c d( c) \barMaior
+    d d d f a( g) g \barMin
+    f d e d \barFinalis
   }
   \addlyrics {
-    Po -- di -- vu -- hod -- ná je pro mě tvá zna -- lost, Hos -- po -- di -- ne.
+    Po -- di -- vu -- hod -- ná
+    je pro mě tvá zna -- lost,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "1. ant."
     modus = "I"
     differentia = "D2"
     psalmus = "Žalm 139-I"
-    placet = "první slabika se relativně špatně zpívá, zní divně;
-    navíc neznám žádnou tradiční antifonu, která by takto začínala;
-    jinak mám tuto antifonu rád, což ale nikterak neznamená, že je dobrá"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -235,8 +234,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( g f) e f g g( a) a \barMin
-    a a a( bes) a g g a a \barMin f g a f e( d) d4. \barFinalis
+    d4 d d e( g f) e f g g( a) a \barMaior
+    a a a( bes) a g g a a \barMin f g a f e( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zkou -- má lid -- ské srd -- ce,
