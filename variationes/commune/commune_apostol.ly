@@ -623,14 +623,47 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
-    fons = "6. neděle velikonoční, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
+    id = "rch-a1"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    placet = "po _navzájem_ div. maior"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d4.( f4 g) a g a a \barMaior
+    a( c) a g f g( f) d d \barMaior
+    d c d f( g f) \barMin g( f) e f d \barFinalis
+
+    e4^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -657,8 +690,11 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( e) c c d d \barMaior
     d c( d) a a \barMin c bes a g( a) a a \barFinalis
@@ -676,10 +712,118 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 149"
-    id = ""
+    placet = "transponovat - není důvod pro alt."
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin g f e d( e) e e \barFinalis
+
+    e^\markup\rubrVelikAleluja f e e \barFinalis
+  }
+  \addlyrics {
+    Vy jste mo -- ji přá -- te -- lé,
+    když dě -- lá -- te, co já vám u -- klá -- dám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin g f e d( e) e e \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Vy jste mo -- ji přá -- te -- lé,
+    když dě -- lá -- te, co já vám u -- klá -- dám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin
+    g f e d( e) e e \barFinalis
+
+    \mark\sipka d e f g g g \barMin
+    a^\markup\rubrVelikAleluja f e e \barFinalis
+  }
+  \addlyrics {
+    Vy jste mo -- ji přá -- te -- lé,
+    když dě -- lá -- te,
+    \markup{\Dagger co} já vám u -- klá -- dám.
+
+    \markup{\Dagger co} já vám u -- klá -- dám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin
+    g f e d( e) e e \barFinalis
+
+    \mark\sipka f e d f g g \barMin
+    a^\markup\rubrVelikAleluja f e e \barFinalis
+  }
+  \addlyrics {
+    Vy jste mo -- ji přá -- te -- lé,
+    když dě -- lá -- te,
+    \markup{\Dagger co} já vám u -- klá -- dám.
+
+    \markup{\Dagger co} já vám u -- klá -- dám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
 

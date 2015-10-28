@@ -364,7 +364,8 @@
   \relative c' {
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
-    a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barFinalis
+    a( c) a g f g( f) d d \barMaior
+    d c d f( g f) \barMin g( f) e f d \barFinalis
 
     e4^\markup\rubrVelikAleluja f d d \barFinalis
   }
@@ -383,7 +384,6 @@
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
     fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
-    placet = "po _navzájem_ div. maior"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -417,10 +417,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d( e) c c d d \barMaior
-    d c( d) a a \barMin c bes a g( a) a a \barFinalis
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin g f e d( e) e e \barFinalis
 
-    a^\markup\rubrVelikAleluja bes a a \barFinalis
+    f^\markup\rubrVelikAleluja g f( e) e \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
@@ -430,10 +430,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 149"
-    placet = "transponovat - není důvod pro alt."
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
