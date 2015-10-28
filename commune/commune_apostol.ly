@@ -125,6 +125,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup\italic{V době velikonoční:}
 
 % Na tomto responsoriu jsem se marne snazil s klasickym modelem
@@ -250,6 +252,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
