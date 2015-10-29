@@ -11,21 +11,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c b c d c a b b \barMaior
-    c b c a g a c d b a g g \barFinalis
+    g4 a b b c d c a b b \barMaior
+    c b c a g a c( d) b a g g \barFinalis
 
-    a^\rubrVelikAleluja g f( g) g \barFinalis
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
-    na -- vě -- ky bu -- de -- me ve -- le -- bit tvé jmé -- no.
+    na -- vě -- ky bu -- de -- me chvá -- lit tvé jmé -- no.
 
     A -- le -- lu -- ja.
   }
   \header {
-    % záměna slov kvůli rytmu
-    textus_approbatus = "Bože, tys nám pomohl k vítězství,
-    navěky budeme chválit tvé jméno. Aleluja."
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"

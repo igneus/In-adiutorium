@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c b c d c a b b \barMaior
     c b c a g a c d b a g g \barFinalis
@@ -35,7 +36,54 @@
   }
 }
 
-\pageBreak
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a \mark\sipka b b c d c a b b \barMaior
+    c b c a g a \mark\sipka c( d) b a g g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
+    na -- vě -- ky bu -- de -- me chvá -- lit tvé jmé -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 44-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b c d c a b b \barMaior
+    c b c a g \mark\sipka f g a a g g \barFinalis
+
+    g^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
+    na -- vě -- ky bu -- de -- me chvá -- lit tvé jmé -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 44-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 % Tady vedome porusuji zasadu "jeden zalm, jeden napev psalmodie":
 % meni se tu totiz ton zalmu i antifon z oslavneho na truchlivy, kajici
@@ -86,8 +134,6 @@
   }
 }
 
-\pageBreak
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -111,6 +157,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
