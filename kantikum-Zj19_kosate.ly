@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Kantikum podle Zj 19,1-7 (neděle, 2. nešpory)"
+  title = "Kantikum podle Zj 19,1-7"
   composer = "Jakub Pavlík"
 }
 
