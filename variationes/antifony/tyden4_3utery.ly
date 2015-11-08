@@ -32,10 +32,9 @@
   }
 }
 
-\pageBreak
-
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d c f e f g \barMin
     a g f g f e d \barFinalis
@@ -60,11 +59,12 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d c f e f g \barMin
     a g f g f \mark\sipka e( f) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Skloň se, Hos -- po -- di -- ne,
@@ -77,13 +77,10 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 102-II"
-    placet = "uspokojivější závěr"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
-
-\pageBreak
 
 \score {
   \relative c' {
@@ -178,8 +175,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin f e d c a b a( g) g \barFinalis
   }
@@ -191,11 +191,36 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 144"
-    placet = "není špatná, ale přeci zkusit lépe"
+    placet = "není špatná, ale přeci zkusit lépe.
+    25.10.2015: Myslím, že ve skutečnosti špatná je.
+    Má mdlou melodii a na začátku a na konci se opakující
+    rytmický motiv 2-1 bije do uší."
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a \barMin
+    c d c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 %\score { \tIIuteryAntBenedictus }
 
@@ -220,8 +245,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d( f) e f g f e e( f) d d \barMin
     e d c( d) d \barFinalis
@@ -231,6 +259,231 @@
     Hos -- po -- di -- ne.
   }
   \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) f( e) d( e) d( c) c \barMaior
+    f g( f) d d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) c a c( d) d \barMaior
+    f g( f) d d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) d c c( d) d \barMaior
+    f g g d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě
+    má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) d c \mark\sipka d( f) f \barMaior
+    f g g d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě
+    má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) d c d( f) f \barMaior
+    f g g \mark\sipka f( e d) \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě
+    má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) f( g) f g( a) a \barMaior
+    a g a g( f d) \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě
+    má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) c c c( d) d \barMaior
+    f g g d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě
+    má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) e f d( c) c \barMaior
+
+  }
+  \addlyrics {
+    Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Oficiální znění je poměrně doslovnou citací z daného žalmu.
+  To považuji za hodnotné a text si dovoluji přeskupit jen proto,
+  že jsem při zhudebňování původního narazil na značné obtíže.
+  Kdyby se v budoucnu podařilo složit na něj dobrý nápěv,
+  bude vhodné se k němu vrátit.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e f g f d d \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kéž k_to -- bě pro -- nik -- ne má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g d \barMin
+    f e d c \barMaior
+    f f( e) f( g) g d d \barFinalis
+  }
+  \addlyrics {
+    Má mod -- lit -- ba,
+    Hos -- po -- di -- ne,
+    kéž pro -- nik -- ne k_to -- bě.
+  }
+  \header {
+    textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
     quid = "2. ant."
     modus = "II"
     differentia = "D"
@@ -258,6 +511,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 

@@ -36,9 +36,9 @@
   \relative c' {
     \choralniRezim
     d c f e f g \barMin
-    a g f g f e d \barFinalis
+    a g f g f e( f) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Skloň se, Hos -- po -- di -- ne,
@@ -124,17 +124,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d \barMin f e d c a b a( g) g \barFinalis
+    c4 a \barMin
+    c d c b a b g g \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 144"
-    placet = "není špatná, ale přeci zkusit lépe"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -166,19 +166,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) e f g f e e( f) d d \barMin
-    e d c( d) d \barFinalis
+    f g g d \barMin
+    f e d c \barMaior
+    f f( e) f( g) g d d \barFinalis
   }
   \addlyrics {
-    Kéž pro -- nik -- ne k_to -- bě má mod -- lit -- ba,
-    Hos -- po -- di -- ne.
+    Má mod -- lit -- ba,
+    Hos -- po -- di -- ne,
+    kéž pro -- nik -- ne k_to -- bě.
   }
   \header {
+    textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
     quid = "2. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88-I"
-    placet = "nic moc"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

@@ -144,20 +144,22 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( d) e( f) g( a) g \barMin
-    a a g a bes( a) f g \barMin g a g( f) f \barFinalis
+    g4 g g( a) a \barMaior
+    c c b a g( a) g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
-    Veď mé kro -- ky po -- dle své -- ho vý -- ro -- ku, Hos -- po -- di -- ne.
+    Veď mé kro -- ky
+    po -- dle své -- ho vý -- ro -- ku,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "1. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 119-פ"
-    placet = "zkusit lépe"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -206,8 +208,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
-    g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -220,8 +224,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 136-I"
-    placet = "melisma na milo_sr_denství je dvojnásob nevhodné -
-    slabice nesluší důraz a slabika sr se špatně tento..."
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
