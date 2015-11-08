@@ -644,10 +644,6 @@
     d4 d c d d d d( f e) d( c) \barMax
     d4( f) d d( a') a a \barMin g( bes) g g \barMin
     f( e f) f g f e e \barFinalis
-    % U teto antifony si jsem krajne nejisty.
-    % Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
-    % zaver mmodu IV.
-    % Co s ni?
   }
   \addlyrics {
     Sle -- pec u Je -- ri -- cha vo -- lal:
@@ -659,6 +655,9 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "U teto antifony si jsem krajne nejisty.
+    Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
+    zaver na e. Co s ni?"
     id = "ne30b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -697,6 +696,9 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_Jdi_ je divoké. Pamatuji si, proč jsem to tak udělal -
+    aby nejsilnější slovo v hudebním ztvárnění nezaniklo.
+    To je ale potřeba zařídit nějak vhodněji."
     id = "ne30b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

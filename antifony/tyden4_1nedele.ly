@@ -88,7 +88,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
-    placet = "obě dvě zkusit lépe"
+    placet = "obě dvě zkusit lépe; tady po _život_ div. minima"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }

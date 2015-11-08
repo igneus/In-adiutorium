@@ -160,6 +160,9 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 119-מ"
+    placet = "melodii nevytýkám žádný vážný formální nedostatek,
+    ale k danému textu působí tak nějak uměle.
+    Začátek je zbytečně rozpohybovaný."
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

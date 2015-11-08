@@ -60,6 +60,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "_je_ nesmí být takto odsazené"
     id = "ne31b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -84,6 +85,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "lépe"
     id = "ne31b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -136,6 +138,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "na _ne_ dlouhé melisma rozhodně nepatří"
     id = "ne32b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

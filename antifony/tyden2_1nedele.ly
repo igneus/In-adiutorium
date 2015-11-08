@@ -223,6 +223,7 @@ tIInedeleInespAntIII = \score {
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    placet = "před aleluja div. maior"
     psalmus = "Žalm 150"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

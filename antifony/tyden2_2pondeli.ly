@@ -240,6 +240,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 45-II"
+    placet = "dlouhé melisma na _tady_ je taková marnivá zbytečnost.
+    Obejít se bez něj. A: je tónem evangelního zvolání
+    _Ženich je tady_ opravdu jásot? Vždyť je to pro družičky okamžik soudu!"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

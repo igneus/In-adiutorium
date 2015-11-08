@@ -169,6 +169,9 @@
     o -- sla -- vuj -- me na -- še -- ho Bo -- ha.
   }
   \header {
+    % Vtipne je, ze me zneni, z rytmickych duvodu nahrazujici
+    % "chvalme" za "oslavujme", by mohlo vznaset narok,
+    % ze je o spetku vernejsim prekladem latinskeho originalu.
     textus_approbatus = "Pojďme, klaňme se Bohu,
     chvalme ho ve společenství všech svatých!"
     quid = "ant."

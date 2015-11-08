@@ -271,6 +271,8 @@ tIctvrtekNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 11"
+    placet = "mám ji takhle rád;
+    přeci ale zkusit o něco méně rozskákanou variantu"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
