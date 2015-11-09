@@ -662,7 +662,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 46"
-    placet = "zkusit lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -739,23 +738,26 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
-    f4 f f f f f( g) f f \barMaior
+    f4 f( e) d \barMin f f f( g) f f \barMaior
     f f f f g( f) g( a) a( g) \barMax
-    g g g f g a g( f) d f( g) g( f) f \barFinalis
+    g g g( a) \barMin g g a g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a( bes) a \barMin a a( bes) a a g( a) g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g f g a g( f) d f( g) g( f) f \barFinalis
+    g g g( a) \barMin g g a g( f) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -774,6 +776,43 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 \mark\sipka f f f f f( g) f f \barMaior
+    f f f f g( f) g( a) a( g) \barMax
+    g g \mark\sipka g f g a g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a \barMin a a( bes) a a g( a) g \barMin g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g \mark\sipka g f g a g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Jak mi -- lý je tvůj pří -- by -- tek,
+    Hos -- po -- di -- ne zá -- stu -- pů!_*
+    Bla -- ze těm, kdo pře -- bý -- va -- jí v_tvém do -- mě.
+    \Verse Tou -- ží, ba prah -- ne má du -- še po tvých sí -- ních._*
+    \Response Bla -- ze těm, kdo pře -- bý -- va -- jí v_tvém do -- mě.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
