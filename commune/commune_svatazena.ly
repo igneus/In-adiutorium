@@ -224,7 +224,7 @@
     differentia = "D"
     psalmus = ""
     id = "invit1"
-    fons = "commune o svatých mužích"
+    fial = "commune/commune_svatymuz.ly#invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -251,7 +251,7 @@
     differentia = "d"
     psalmus = ""
     id = "invit2"
-    fons = "commune o svatých mužích"
+    fial = "commune/commune_svatymuz.ly#invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
