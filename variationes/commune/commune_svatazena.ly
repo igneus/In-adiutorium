@@ -785,6 +785,39 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g( f) g g( a) \barMax
+    g g( a) g( f) d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g f g g g( a) \barMax
+    % R
+    \neviditelna a
+    g g( a) g( f) d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil_*
+    a u -- ve -- dl ji do své slá -- vy.
+    \Verse Po -- vo -- lal ji svou mi -- los -- tí_*
+    \Response a u -- ve -- dl ji do své slá -- vy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
 
     % R
@@ -797,6 +830,39 @@
     % R
     \neviditelna a
     a g f d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil_*
+    a u -- ve -- dl ji do své slá -- vy.
+    \Verse Po -- vo -- lal ji svou mi -- los -- tí_*
+    \Response a u -- ve -- dl ji do své slá -- vy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g a a( g) \barMax
+    g f e d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g f g g g( a) \barMax
+    % R
+    \neviditelna a
+    g f e d d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

@@ -653,13 +653,13 @@
     % R
     \neviditelna f
     f4 f f g( f) g g( a) \barMax
-    g g( a g) f( e) d d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a g f g g g( a) \barMax
     % R
     \neviditelna a
-    g g( a g) f( e) d d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -673,7 +673,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "~"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
