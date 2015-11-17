@@ -257,15 +257,52 @@
     }
   }
 
+  \pageBreak
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d( f) f d c d c c \barMin
       d e f e f g a( g) g \barMaior
       a a a a a g( f e d) d \barMin
-      c d e( f) d d \barFinalis
+      c d d( f) e( d) d \barFinalis
+
+      c^\markup\rubrVelikAleluja d d( f) f f
+      g f d d \barFinalis
+    }
+    \addlyrics {
+      Po -- dle to -- ho všich -- ni po -- zna -- jí,
+      že jste mo -- ji u -- čed -- ní -- ci,
+      bu -- de -- te -li mít lás -- ku
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
+
+      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "antifony/velikonoce_nedeleC.ly#vmagii?upraveno"
+      fons = "upraveno pro dobu nevelikonocni"
+      id = "milo-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d( f) f d c d c c \barMin
+      d e f e f g a( g) g \barMaior
+      a a a a a g( f e d) d \barMin
+      c d \mark\sipka e( f) d d \barFinalis
+
       f^\markup\rubrVelikAleluja g( f) d d \barFinalis
     }
     \addlyrics {
@@ -287,6 +324,8 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
 

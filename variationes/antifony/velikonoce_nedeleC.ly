@@ -1,4 +1,4 @@
-% -*- master: ../velikonoce_antifony.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {3. neděle velikonoční}}
 
@@ -205,13 +205,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( f) f d c d c c \barMin
+    d e f e f g a( g) g \barMaior
+    a a a a a g( f e d) d \barMin c d d( f) f f
+    g f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -li mít lás -- ku k_so -- bě na -- vzá -- jem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vmagii"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d( f) f d c d c c \barMin
     d e f e f g a( g) g \barMaior
     a a a a a g( f e d) d \barMin
-    c d e( f) d d \barMaior
+    c d \mark\sipka e( f) d d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {
@@ -230,6 +258,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisDen {6. neděle velikonoční}}
 
