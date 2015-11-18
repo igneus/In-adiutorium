@@ -27,8 +27,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "lépe, viz zdroj"
     fial = "sanktoral/0629petraapavla.ly#2ne-amag"
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -53,7 +54,7 @@
     differentia = "G"
     psalmus = "Žalm 116-I"
     fial = "commune/commune_vicemucedniku.ly#2ne-a1?-aleluja"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -259,6 +259,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "bída"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

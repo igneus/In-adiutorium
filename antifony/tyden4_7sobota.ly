@@ -247,6 +247,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 45-I"
+    placet = "_Tvůj trůn, Bože_ lépe"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

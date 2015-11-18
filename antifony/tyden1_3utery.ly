@@ -142,7 +142,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 33"
-    placet = "zkusit i jinak"
+    placet = "zkusit jinak, melodie je textu nepřiměřeně vážnosmutná"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -207,6 +207,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 14"
+    placet = "obě div. spíš maior"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

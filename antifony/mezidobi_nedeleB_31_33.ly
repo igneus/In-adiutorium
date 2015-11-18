@@ -185,6 +185,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_přicházet_ a dál půjde lépe"
     id = "ne33b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
