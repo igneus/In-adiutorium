@@ -35,7 +35,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -60,7 +60,7 @@
     differentia = "a"
     psalmus = ""
     placet = "začátek zkusit zpěvnější, možná celou jinak"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
