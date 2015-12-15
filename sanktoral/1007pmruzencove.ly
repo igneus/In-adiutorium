@@ -38,7 +38,7 @@
   \relative c'' {
     \choralniRezim
     d4 b c( b) a \barMin d d b c( b) a \barMaior
-    g a( b) a a \barMin b c d b g f g g \barFinalis
+    g a( b) a a \barMin c b d c b a g g \barFinalis
   }
   \addlyrics {
     S_te -- bou, Mat -- ko, chvá -- lí -- me Pá -- na;
@@ -49,7 +49,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    placet = "poslední část nezní příliš libě a nesnadno se zpívá; o smrti se tu zpívá jako o banální příhodě"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -58,9 +57,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d e) e( a b a) g( a) a a g e f d e \barMaior
-    g f d f e e \barMax
-    e f e e f( g f d) e \barMaior
+    e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
+    g f d d e e \barMax
+    e f e e f( g f d) d( e) \barMaior
     e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
   }
   \addlyrics {
@@ -75,7 +74,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
-    placet = "_andělů_ lépe d e e"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -87,7 +85,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d f( g) g g bes g a g f g g \barMaior
+    d4 d f( g) g g bes g a g f f( g) g \barMaior
     a a f d d e( c) d \barMax
     d( f g) bes( g a) g \barMin g g( bes) g g a f g( f) e d \barMaior
     d( e d) c( d) d( c) c \barMin d e f( g) e d \barFinalis
@@ -103,7 +101,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_Panno_ fg g"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -136,8 +133,7 @@
   \relative c'' {
     \choralniRezim
     a4( g f) f g g g d d \barMin
-    % neni to uplne snadne zazpivat!
-    d( g) f g e c( d) d \barFinalis
+    d( f) f e d c( d) d \barFinalis
   }
   \addlyrics {
     U Je -- ží -- šo -- va kří -- že
@@ -148,7 +144,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 127"
-    placet = "blbá"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
