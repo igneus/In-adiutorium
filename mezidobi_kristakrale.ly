@@ -28,6 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
+    placet = "líbí, ale půjde ještě lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -50,7 +51,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 117"
-    placet = "_mu_ a _a_ je nepřirozené"
+    placet = "_mu_ a _a_ je nepřirozené; celou druhou půli jinak"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -75,6 +76,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 4"
+    placet = "div. po _kmenů_ pryč; zvážit zjednodušení první části"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -107,6 +109,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "r1 možná půjde jinak, lépe, při zohlednění jednoslabičného _moc_"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -132,6 +135,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Magnificat"
+    placet = "nově udělat divisiones; zkusit lepší aleluja (tohle není jen tak ledajaká antifona)"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -346,6 +350,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "po _národům_ div. minima"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -421,6 +426,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "po _slávě_ div. minima"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -447,6 +453,7 @@
     modus = "VII"
     differentia = "b"
     psalmus = "Benedictus"
+    placet = "div. maior, ne maxima"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -617,6 +624,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_na kněze_ jen f f f; _je království_ jinak; možná i r1 jinak"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

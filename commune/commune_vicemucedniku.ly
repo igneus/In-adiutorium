@@ -479,6 +479,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_věčné odměny v nebi_ poněkud drhne"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }

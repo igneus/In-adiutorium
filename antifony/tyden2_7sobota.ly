@@ -108,6 +108,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-I"
+    placet = "_učinil velké divy_ je fuj;
+    všechny tři zkusit zpracovat výrazněji jako jeden celek"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -128,6 +130,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-II"
+    placet = "antifona téhož textu je ve velikonočním oktávu"
     id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }

@@ -68,6 +68,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Stále se spoléhám na Boží slitovnost. Aleluja."
     quid = "3. ant."
     modus = "II"
     differentia = "D"
@@ -158,6 +159,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 119-ח"
+    placet = "první div. maior"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -178,6 +180,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 55-I"
+    placet = "druhá div. maior"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
