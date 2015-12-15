@@ -20,7 +20,7 @@
       \choralniRezim
       \key f \major
       g4( a) a \barMin
-      bes a g a4. g \barMin
+      bes a g a g \barMin
       a4 c bes a g f f \barFinalis
     }
     \addlyrics {
@@ -31,7 +31,7 @@
     \header {
       quid = "ant."
       modus = "VI"
-      differentia = "g"
+      differentia = "F"
       psalmus = ""
       id = "spol-invit1"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -91,20 +91,20 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g g( a) f e( g) g g \barMaior
-      g g a c c d( b) c( a) a \barMin
-      b( c a) g f g g \barFinalis
+      g4 g g a b a g g( a) \barMaior
+      a b c c c b a g \barMin
+      f( g) a a g g \barFinalis
     }
     \addlyrics {
       Pro -- ro -- ci před -- po -- ví -- da -- li,
-      že se Spa -- si -- tel na -- ro -- dí z_Pan -- ny Ma -- ri -- e.
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
     }
     \header {
       quid = "ant. dopoledne"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "nic moc"
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
