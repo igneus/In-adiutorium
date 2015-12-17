@@ -74,6 +74,186 @@
 
 \pageBreak
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e e g( a b c) a( b) a \barMin g g g g e d d( e) e \barMaior
+    g a c4.( b4 a c4.) \barMin d4 a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Kdo smí vy -- stou -- pit na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 24"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) g( f) g f f d \barMin c d f g g \barMaior
+    a a g( f d) d( f) f g a( g f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    placet = "obě dvě zkusit lépe; tady po _život_ div. minima"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) g( f) g f f d \barMin c d f g g \barMaior
+    a a g( f d) d( f) \mark\sipka \barMin f g a( g f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a f g) g( f) \barMin d c d f f f \barMaior
+    g a( g) \barMin g g g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
+    co Bůh pro -- ká -- zal mé du -- ši.
+  }
+  \header {
+    textus_approbatus = "Slyšte, všichni bohabojní, co prokázal Bůh mé duši."
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-II"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g g a g f g g \barMaior
+    f g d d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny "off topic"
+
+\score {
+  \relative c' {
+    \key f \major
+    \time 6/8
+    f8 g a f g a f g a g g r
+    \time 2/4
+    bes a g f g a f f \bar "|."
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \time 6/8
+    f8 f f g g g a g a c c r
+    \time 3/4
+    d8 e c( a) a4
+    c8 a a( g) g4 \bar "|."
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot
+    na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \partial 2 { f4 d }
+    f8 f a a g4 f \breathe
+    a4 c bes a g8 f g( e) f4 \bar "|."
+  }
+  \addlyrics {
+    Slyš -- te,
+    všich -- ni bo -- ha -- boj -- ní,
+    co pro -- ká -- zal Bůh mé du -- ši.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 66-II"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
