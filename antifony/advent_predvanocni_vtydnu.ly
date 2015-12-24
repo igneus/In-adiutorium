@@ -126,9 +126,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g f g g g a( c) c4.( b) \barMin
-    c4 b( c) c c c c d( c) b( c) c4.( b) \barMin
-    b4 c a a( g) g \barFinalis
+    c4 c c c d c b a b g \barMaior
+    f g( a) a a c b c d c
+    b c a g g \barFinalis
   }
   \addlyrics {
     Kéž se po -- zná na ze -- mi, jak jed -- náš,
@@ -138,9 +138,8 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
-    placet = "jinak"
     id = "predvanocni-zlm-ut-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -199,9 +198,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d( f) e d d( a') a a \barMax
-    bes( g bes) a( g) g \barMin
-    g f g( a) a a f( g) g \barMin
+    d4 d( f) e d d( a') a a \barMaior
+    bes( g bes) a( g) g \barMaior
+    g f g( a) g f f( g) g \barMin
     g a f e4.( d) \barFinalis
   }
   \addlyrics {
@@ -215,8 +214,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "po _nade mnou_ a po _poslal mě_ div. maior;
-    _abych přinesl chudým_ zkusit lépe"
     id = "predvanocni-zlm-st-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -251,20 +248,22 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin
-    b c d c b c c( d a) g( a) a4.( g) \barMax
-    g4 g a( f) e( g) g g g a( b) c( a g4.) g a4( b) g f( g) g \barFinalis
+    b c d c b c c( d a) g( a) a4.( g) \barMaior
+    g4 g a( f) e( g) g \barMin
+    g g a( b) c( a g4.) g \barMin
+    a4 g f( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne,
     od -- měň ty, kdo v_te -- be dou -- fa -- jí,
-    tvo -- ji pro -- ro -- ci ať se u -- ká -- ží spo -- leh -- li -- ví.
+    tvo -- ji pro -- ro -- ci
+    ať se u -- ká -- ží spo -- leh -- li -- ví.
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "závěr je nějak disonantní - zkusit jinak"
     id = "predvanocni-zlm-ct-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -418,8 +417,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g g a g f g a4. a \barMin
-    a4 g f e( f d) e4. e \barFinalis
+    a4 b g g a g f g a a \barMin
+    a4 g f e( f d) d( e) e \barFinalis
   }
   \addlyrics {
     Při -- prav -- me se na set -- ká -- ní s_Pá -- nem,
@@ -432,8 +431,7 @@
     psalmus = ""
     id = "predvanocni-zlm-so-a3"
     piece = \markup {\sestavTitulekBezZalmu}
-    placet = "při_chází_ nezní dobře. Lépe třeba efd de e nebo ef fe e"
     fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
-    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-ben?1. polovina"
+    fial = "advent_antifony.ly#predvanocni-21-ben?1. polovina"
   }
 }
