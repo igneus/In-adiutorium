@@ -183,6 +183,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f f4.( g) \barMin
     f4( e) d c d bes4. a \barMin
@@ -205,6 +206,32 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f f4.( g) \barMin
+    f4( e) d c d bes4. a \barMaior
+    a4 c d d c( e) d \barFinalis
+  }
+  \addlyrics {
+    Vše -- mo -- hou -- cí Pán
+    při -- jde ze Si -- ó -- nu
+    a za -- chrá -- ní svůj lid.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 e f g( a) a a c a g g( a) a \barMin
@@ -225,6 +252,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 e f g( a) a a c a g g( a) a \barMaior
+    a bes c d d bes( a) a \barMin
+    g f g a f e d \barFinalis
+  }
+  \addlyrics {
+    Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
+    do -- kud ne -- vzej -- de svět -- lo
+    je -- ho spra -- ved -- li -- vé -- mu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -328,6 +381,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d) c( b) g4. g \barMin
     g4( f) g a c c c d( e f) d( c) d \barMin
@@ -350,6 +404,32 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c d) c( b) g g \barMin
+    g4( f) g a c c c d( e f) d( c) d \barMaior
+    d d b( c) a g a( f g) g \barFinalis
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu
+    při -- jde ten, kte -- rý má kra -- lo -- vat,
+    je -- ho jmé -- no je sva -- té.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( bes) a g( f) f f d f g4. g \barMin
     g4 a a( f e4.) e4( f) e c d d \barFinalis
@@ -367,6 +447,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( bes) a g( f) f f d f g g \barMaior
+    g4 a a( f e4.) \barMin
+    e4( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

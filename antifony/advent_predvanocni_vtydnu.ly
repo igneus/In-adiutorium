@@ -152,7 +152,7 @@
   \relative c' {
     \choralniRezim
     d4 f e f f4.( g) \barMin
-    f4( e) d c d bes4. a \barMin
+    f4( e) d c d bes4. a \barMaior
     a4 c d d c( e) d \barFinalis
   }
   \addlyrics {
@@ -165,7 +165,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "po _ze Siónu_ div. maior"
     id = "predvanocni-zlm-st-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -175,9 +174,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 e f g( a) a a c a g g( a) a \barMin
+    f4 e f g( a) a a c a g g( a) a \barMaior
     a bes c d d bes( a) a \barMin
-    g f g a f e4. d \barFinalis
+    g f g a f e d \barFinalis
   }
   \addlyrics {
     Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
@@ -189,7 +188,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "po _mlčet_ div. maior"
     id = "predvanocni-zlm-st-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -307,8 +305,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c d) c( b) g4. g \barMin
-    g4( f) g a c c c d( e f) d( c) d \barMin
+    d4( c d) c( b) g g \barMin
+    g4( f) g a c c c d( e f) d( c) d \barMaior
     d d b( c) a g a( f g) g \barFinalis
   }
   \addlyrics {
@@ -321,7 +319,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "po _kralovat_ div. maior"
     id = "predvanocni-zlm-pa-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -330,8 +327,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( bes) a g( f) f f d f g4. g \barMin
-    g4 a a( f e4.) e4( f) e c d d \barFinalis
+    g4( bes) a g( f) f f d f g g \barMaior
+    g4 a a( f e4.) \barMin
+    e4( f) e c d d \barFinalis
   }
   \addlyrics {
     Vy -- tr -- vej -- te a u -- vi -- dí -- te,
@@ -342,7 +340,6 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "po _uvidíte_ div. maior, po _Pán_ div. minima"
     id = "predvanocni-zlm-pa-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
