@@ -36,6 +36,28 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f f f f g f e f d d \barMaior
+    e4 d c d d4( e) \barMin
+    e4 f e d d d \barFinalis
+  }
+  \addlyrics {
+    Věz -- te, že Bo -- ží krá -- lov -- ství je blíz -- ko.
+    A -- men, pra -- vím vám,
+    ne -- dá se za -- dr -- žet.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-17-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {18. prosince}}
@@ -64,6 +86,7 @@ v předvánočním týdnu latinsky.}
 \markup {\nadpisDen {19. prosince}}
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f d f( g a) a bes bes a4. a \barMin
@@ -94,6 +117,82 @@ v předvánočním týdnu latinsky.}
     d4 d d f d f( g a) \mark\sipka g bes bes a a \barMaior
     a4 a a a a g f f( g) g \barMin
     g f e \mark\sipka d( e) d d \barMin
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) \mark\sipka a bes bes a a \barMaior
+    a4 a a a a g f f( g) g \barMin
+    g f e d( e) d d \barMin
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 \mark\sipka a g f a g f d( e) d( c) \barMin
+    d e f e( c) c( d) d \barMaior
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f a g f d( e) d( c) \barMin
+    d e f \mark\sipka d( e) d d \barMaior
     e4 f d d \barFinalis
   }
   \addlyrics {
@@ -979,6 +1078,7 @@ podobně.}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e( f) g( f d4.) d \barMin
     e4 d c( d) d \barMaior
@@ -1008,7 +1108,41 @@ podobně.}
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e( f) g( f d4.) d \barMin
+    e4 d c( d) d \barMaior
+    d d d( f) f e( f) d( c) c \barMax
+
+    d a c d f f f g( a \mark\sipka g f4.) d \barMaior
+    f4 e d e d a a \barMin
+    a( d) d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    A ty, Bet -- lé -- me
+    v_jud -- ské ze -- mi,
+    ne -- jsi vů -- bec nej -- men -- ší,
+
+    pro -- to -- že z_te -- be vy -- jde vlád -- ce,
+    kte -- rý bu -- de pa -- no -- vat
+    mé -- mu iz -- ra -- el -- ské -- mu li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-24-rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c a( b c) c \barMin
     d c b c b( a g4.) g \barMin
@@ -1032,6 +1166,97 @@ podobně.}
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d c c( d) d \barMin
+    c b a b g g \barMaior
+    f g g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c( d) d \barMin
+    c b a b g g \barMaior
+    a f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c( d) d \barMin
+    c b a b g g \barMaior
+    a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c( d) d \barMin
+    c b a b g g \barMaior
+    a b c a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d d e( d) c b( c g4.) g \barMaior
     a4 b c a a \barMin
     g( f) f( g) g g \barFinalis
@@ -1051,8 +1276,11 @@ podobně.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     % R
@@ -1082,6 +1310,41 @@ podobně.}
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna d
+    d4 d d d d( a') a a d( c) a g g( a) a \barMax
+    bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+    % V
+    \neviditelna d
+    a'4 a c d c c( d) d \barMin c bes g g( a) a \barMax
+    % R
+    \neviditelna bes
+    bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+    % Slava
+    a'4 a c d c c( d) d \barMin c bes g \mark\sipka g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+    při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "predvanocni-24-rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
