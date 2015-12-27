@@ -205,6 +205,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b c e( d) d \barMaior
+    e e e e d e d c c d b c a( g) g \barMaior
+    f g a c b a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Co -- by slu -- žeb -- ník cír -- kve
+    ne -- ú -- nav -- ně za ni bo -- jo -- val si -- lou a mo -- cí,
+    kte -- rá po -- chá -- zí od Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -274,10 +301,12 @@
 
   }
   \addlyrics {
-    Před -- ur -- čen k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
+    Před -- ur -- čen
+    k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
     sva -- tý Ev -- žen od -- váž -- ně krá -- čel
     ve šlé -- pě -- jích a -- po -- što -- lů;
-    slo -- vem a pří -- kla -- dem vy -- u -- čo -- val chu -- dé
+    slo -- vem a pří -- kla -- dem
+    vy -- u -- čo -- val chu -- dé
     to -- mu, kdo je to Kris -- tus.
 
     A -- le -- lu -- ja.
@@ -301,6 +330,7 @@
   }
   \addlyrics {
     Na slav -- nost
+    svá -- tek
     pa -- mát -- ku
     sva -- té -- ho Ev -- že -- na,
     pojď -- me a klaň -- me se Kris -- tu,
