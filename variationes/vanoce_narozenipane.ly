@@ -638,6 +638,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c \mark\sipka b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      f e d d g a b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"invitatorium"}}
@@ -943,6 +964,8 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -964,6 +987,30 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( g) a( c) c4. \barMin
+      c4( d) c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 45"
+      fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
+      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
