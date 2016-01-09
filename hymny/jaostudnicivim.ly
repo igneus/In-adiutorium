@@ -1,12 +1,15 @@
 \version "2.12.3"
 
+\include "../spolecne/nadpisy.ly"
+\include "../spolecne/tiraz.ly"
+\include "../spolecne/layout.ly"
+
 \header {
   title = "Já o studnici vím"
   poet = "sv. Jan od Kříže"
   composer = "Jakub Pavlík"
+  tagline = \markup\tirazVelka
 }
-
-\include "../spolecne.ly"
 
 \markup {
   \justify {
@@ -20,11 +23,12 @@
 \score {
   <<
   \chords {
-    a4:m d2:m a2:m
+    a2:m d2:m a2:m
     c2 e2
     a2:m e a:m
   }
   \relative c' {
+    \key a \minor
     \time 4/4
 
     % zpusobi, ze v rezimu bez automatickych tramku (beams) maji noty
@@ -33,9 +37,9 @@
     \set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)
 
     \autoBeamOff
-    e4 f8[ e f g] e4( | e8) e  c[ b] c[ d] b4( |
-    \time 7/4
-    b4) a4 a8[ c] b2 a \bar "||"
+    r4 e4 f8[ e f g]
+    e4. e8  c[ b] c[ d] b2
+    a4 a8[ c] b2 a \bar "||"
   }
   \addlyrics {
     \set stanza = #"1."
@@ -52,16 +56,16 @@
     a2.:m d1:m a2:m d2:m a2:m c2 e2 a2:m e2 a2:m
   }
   \relative c' {
+    \key a \minor
     \time 4/4
     \override Beam #'breakable = ##t
     \set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)
 
     \autoBeamOff
 
-    r8 e a[ g f e] d4( | d8) d g[ f e d] c4( |
-    c8) c f[ e f g] e4( | e8) e c[ b c d] b4( |
-    \time 7/4
-    b4) a a8[ c] b2 a \bar "|."
+    \partial 4 { r8 e } a[ g f e] d4 r8 d8 | g[ f e d] c4 r8 c8 |
+    f[ e f g] e4 r8 e8 | c[ b c d] b2
+    a4 a8[ c] b2 a r4 \bar "|."
   }
 
   \addlyrics {
