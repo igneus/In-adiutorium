@@ -114,38 +114,3 @@
     piece = "nešpory"
   }
 }
-
-% \score {
-%   \relative c' {
-%     \key d \major
-%
-%     \time 2/4
-%
-%     r8 d8 fis g a4 a b8 b g b a4 a
-%     r8 d8 cis b a4 fis g8 g fis g a( b) a4
-%     r8 a8 a a b4 b cis8 cis b cis d4 a
-%     r8 d cis8 b a4 fis b8 a g cis, e4 d
-%
-%     r8 d8 fis g a4 a8 b4 g8 fis4 r8
-%     r fis8 a a g fis e4 fis r
-%     d8 fis g a4 a8 b4 g8 fis4 r8
-%     a4 g8 fis e4 d \bar "|."
-%   }
-%   \addlyrics {
-%     Slá -- va buď mu -- ži, kte -- rý Bo -- hu slou -- žil
-%     a je -- ho vů -- li věr -- ně pl -- nit tou -- žil;
-%     u -- čed -- ník me -- čem ví -- ry o -- pá -- sa -- ný,
-%     jenž hlá -- sal Kris -- ta bez báz -- ně a ha -- ny.
-%
-%     Buď ve -- le -- ben, buď vrouc -- ně ctěn
-%     v_zá -- ři bla -- ho -- sla -- ve -- né,
-%     buď ve -- le -- ben, buď vrouc -- ně ctěn,
-%     Sar -- kan -- dře Je -- ne.
-%   }
-%   \header {
-%     composer = "JP, hojně vykrádaje zažité písně"
-%     quid = "hymnus"
-%     modus = ""
-%     id = ""
-%   }
-% }
