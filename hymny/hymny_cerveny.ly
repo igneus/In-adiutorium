@@ -161,6 +161,21 @@ notime = {
 
 \score {
   \relative c'' {
+    \key g \minor
+    \notime
+    g8 g bes4 f g8 bes a4 g \bar "|"
+    bes8 c d d es d c4 bes \bar "|"
+    d8 d c bes c a g4 f \bar "|"
+    g8 a bes c d bes a4 g \bar "|."
+  }
+  \header {
+    fons = "s. 59"
+    id = "92"
+  }
+}
+
+\score {
+  \relative c'' {
     \key bes \major
     \time 4/4
     \autoBeamOff

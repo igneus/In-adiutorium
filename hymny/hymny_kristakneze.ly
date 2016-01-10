@@ -3,31 +3,12 @@
 \include "../spolecne/nadpisy.ly"
 \include "../spolecne/tiraz.ly"
 \include "../spolecne/layout.ly"
+\include "../spolecne/hymnar.ly"
 
 \header {
   title = "Ježíše Krista, nejvyššího a věčného kněze"
   subtitle = "hymny"
   composer = "Jakub Pavlík"
-  tagline = \markup\tirazMala
-}
-
-\paper {
-  #(set-paper-size "a5")
-
-  top-margin = 1\cm
-  bottom-margin = 1\cm
-  right-margin = 1\cm
-  left-margin = 1.5\cm
-}
-
-\layout {
-  indent = 0\cm
-  ragged-last = ##f
-}
-
-notime = {
-  \override Score.TimeSignature #'stencil = ##f
-  \cadenzaOn
 }
 
 \score {
@@ -54,7 +35,9 @@ notime = {
 }
 
 \markup\justify\italic{
-  Hymnus ranních chval lze zpívat na stejný nápěv jako ten
+  Hymnus ranních chval
+  \upright{Zpívají nebesa i celá země}
+  lze zpívat na stejný nápěv jako ten
   k modlitbě se čtením.
 }
 
