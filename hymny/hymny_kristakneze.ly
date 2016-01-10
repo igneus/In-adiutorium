@@ -20,6 +20,11 @@
   left-margin = 1.5\cm
 }
 
+\layout {
+  indent = 0\cm
+  ragged-last = ##f
+}
+
 notime = {
   \override Score.TimeSignature #'stencil = ##f
   \cadenzaOn
