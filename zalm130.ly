@@ -98,7 +98,7 @@ akordy = \chords {
   a2:m c4 g4 a1:m
   c4 g4 d2:m a1:m
   %11
-  a2:m g2 a4:m g4 a1:m
+  a2:m g2 a4.:m g8 a1:m
   a2:m c4 g4 a4:m g4 a2:m
 }
 
