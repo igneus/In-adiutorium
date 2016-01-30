@@ -239,25 +239,30 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f g( a) a( g) \barMax
+    g g g( a) g( f d) d f g g f \barFinalis
     % V
-    \neviditelna a
-
+    \neviditelna f
+    a4 a a a( bes) a a g f g a a \barMin
+    g f g g \barMax
     % R
-    \neviditelna a
-
+    \neviditelna f
+    g g g( a) g( f d) d f g g f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kdo chce jít za mnou,_*
     ve -- zmi svůj kříž a ná -- sle -- duj mne.
-    \Verse Kdo však by ztra -- til svou du -- ši kvů -- li mně, na -- lez -- ne ji._*
+    \Verse Kdo však by ztra -- til svou du -- ši kvů -- li mně,
+    na -- lez -- ne ji._*
+    \Response ve -- zmi svůj kříž a ná -- sle -- duj mne.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -295,9 +300,12 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
+    d4( f d) c( d) d \barMin
 
   }
   \addlyrics {
@@ -305,6 +313,7 @@
     k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
     sva -- tý Ev -- žen od -- váž -- ně krá -- čel
     ve šlé -- pě -- jích a -- po -- što -- lů;
+
     slo -- vem a pří -- kla -- dem
     vy -- u -- čo -- val chu -- dé
     to -- mu, kdo je to Kris -- tus.
@@ -320,6 +329,81 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c b) c( d) d \barMin
+    d d e d c d e d d \barMaior
+    d d d d e f e d( e d) d \barMin
+    d c b a c( b) a g( a) a( g) \barMaior
+
+    f a c d c c \barMin
+    d d e c d c( b) \barMin
+    a g f g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Před -- ur -- čen
+    k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
+    sva -- tý Ev -- žen od -- váž -- ně krá -- čel
+    ve šlé -- pě -- jích a -- po -- što -- lů;
+
+    slo -- vem a pří -- kla -- dem
+    vy -- u -- čo -- val chu -- dé
+    to -- mu, kdo je to Kris -- tus.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( c b) c( d) d \barMin
+    d d \mark\sipka d d c d e d d \barMaior
+    d d d d e f e d( e d) d \barMin
+    d \mark\sipka d c b c( b) a g( a) a( g) \barMaior
+
+    f a c d c c \barMin
+    d \mark\sipka e d c d c \barMin
+    a g f g a g g \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Před -- ur -- čen
+    k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
+    sva -- tý Ev -- žen od -- váž -- ně krá -- čel
+    ve šlé -- pě -- jích a -- po -- što -- lů;
+
+    slo -- vem a pří -- kla -- dem
+    vy -- u -- čo -- val chu -- dé
+    to -- mu, kdo je to Kris -- tus.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
