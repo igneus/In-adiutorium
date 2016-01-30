@@ -410,28 +410,113 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 \bar ";" d d \bar ";"
+    d d \bar ";"
+    d d d \bar ";"
+    d e f d c c( d e4. d) \barMaior
+    d4( e) d d d( e) d c c( f) f \barMin
+    f e d \[ d( g \] \[ f e \] \[ f e d \] e) e( d) \barMaior
+    d c f e f d c d d \barFinalis
 
+    d^\markup\rubrVelikAleluja c \barMin
+    a c c( d) d \barFinalis
   }
   \addlyrics {
     Na slav -- nost
-    svá -- tek
-    pa -- mát -- ku
+    (svá -- tek)
+    (pa -- mát -- ku)
     sva -- té -- ho Ev -- že -- na,
     pojď -- me a klaň -- me se Kris -- tu,
     na -- še -- mu Pá -- nu;
-    on je nej -- vyš -- ší Pas -- týř cír -- kve.
+    on je nej -- vyš -- ší Pas -- týř \markup{\Dagger cír} -- kve.
 
+    \markup{\Dagger cír} -- kve.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 \bar ";" d d \bar ";"
+    d d \bar ";"
+    d d d \bar ";"
+    d e f d c c( d e4. d) \barMaior
+    d4( e) d d d( e) d c c( f) f \barMin
+    f e d \[ d( g \] \[ f e \] \[ f e d \] e) e( d) \barMaior
+    d c f e f d c \mark\sipka c( d) d \barFinalis
+
+    d^\markup\rubrVelikAleluja d d e f d c d c \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na slav -- nost
+    (svá -- tek)
+    (pa -- mát -- ku)
+    sva -- té -- ho Ev -- že -- na,
+    pojď -- me a klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    \markup{\Dagger on} je nej -- vyš -- ší Pas -- týř cír -- kve.
+
+    \markup{\Dagger on} je nej -- vyš -- ší Pas -- týř cír -- kve.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 \bar ";" d d \bar ";"
+    d d \bar ";"
+    d d d \bar ";"
+    d e f d c c( d e4. d) \barMaior
+    d4( e) d d d( e) d c c( f) f \barMin
+    f \mark\sipka f f \[ f( g \] \[ f e \] \[ f e d \] e) e( d) \barMaior
+    d \mark\sipka d f e f d c c( d) d \barFinalis
+
+    d^\markup\rubrVelikAleluja d d e f d c d c \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na slav -- nost
+    (svá -- tek)
+    (pa -- mát -- ku)
+    sva -- té -- ho Ev -- že -- na,
+    pojď -- me a klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    \markup{\Dagger on} je nej -- vyš -- ší Pas -- týř cír -- kve.
+
+    \markup{\Dagger on} je nej -- vyš -- ší Pas -- týř cír -- kve.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
