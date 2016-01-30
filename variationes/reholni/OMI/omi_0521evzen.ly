@@ -398,6 +398,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "trochu si pohrát se _slovem a příkladem_"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -543,9 +544,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a a a g f g a a \barMin
+    a g f f f g f d d \barMaior
+    f e d e c( d) d \barFinalis
 
+    c^\markup\rubrVelikAleluja d d( f) d \barFinalis
   }
   \addlyrics {
     Pro -- chá -- zel měs -- ta i ves -- ni -- ce
@@ -556,18 +561,19 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 92-I"
+    placet = "zkusit výraznější závěr, tento je poněkud mdlý"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f g a a \barMin
   }
   \addlyrics {
     Ja -- ko moud -- rý sta -- vi -- tel
@@ -578,8 +584,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 92-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
