@@ -112,7 +112,7 @@ melodie = \relative c' {
   \aleluja \strofa
 
   % Chvalte
-  \time 5/4 c,4 c8 d e f g g r4 \time 4/4 a8 a g f g g g r
+  \time 3/4 c,4 c8 d e f \time 2/4 g g r4 \time 4/4 a8 a g f g g g r
   \aleluja
   c,8 c e f g g g r r a g f g g r4
   \aleluja \strofa
