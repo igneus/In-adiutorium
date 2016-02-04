@@ -36,27 +36,32 @@ al = \lyricmode { A -- le -- lu -- ja. \lb A -- le -- lu -- ja. \ln }
 alal = \lyricmode { \lb A -- le -- lu -- ja, a -- le -- lu -- ja. \ln }
 
 text = \lyricmode {
+  \set stanza = #"1"
   Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
   \al
   ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
   \alal
 
+  \set stanza = #"2"
   Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
   \al
   a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí!
   \alal
 
+  \set stanza = #"3"
   Pán, náš Bůh  vše -- vlád -- ný
   se u -- jal krá -- lov -- ství!
   \al
   Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
   \alal
 
+  \set stanza = #"4"
   Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
   \al
   je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
   \alal
 
+  \set stanza = #"5"
   Slá -- va Ot -- ci i Sy -- nu
   \al
   i Du -- chu sva -- té -- mu,
@@ -100,6 +105,7 @@ aleluja = \relative c'' { a8 a g( f) g4 r a8 a g( f) g4 r }
 strofa = { \bar "||" }
 
 melodie = \relative c' {
+  \tempo 4 = 100
   \set midiInstrument = #"acoustic grand 1"
 
   \key c \major
@@ -158,9 +164,7 @@ melodie = \relative c' {
     \addlyrics { \text }
   >>
   \layout {}
-  \midi {
-
-  }
+  \midi {}
   \header{
     piece = ""
   }
