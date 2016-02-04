@@ -70,79 +70,79 @@ text = \lyricmode {
   \lb A -- le -- lu -- ja. \ln
 }
 
-cal = \chordmode { bes2 c2 bes2 c2 }
+cal = \chordmode { f2 g2 f2 g2 }
 
 akordy = \chords {
   % Vitezstvi
-  f1. c2 \cal
-  f1 bes2 c \cal
+  c1. g2 \cal
+  c1 f2 g \cal
   % Chvalte
-  f1*5/4 bes2 c \cal
-  f1 bes2 c \cal
+  c1*5/4 f2 g \cal
+  c1 f2 g \cal
   % Pan
-  f1 c2 bes c \cal
-  f1 bes4 c2 \cal
+  c1 g2 f g \cal
+  c1 f4 g2 \cal
   % Nebesot
-  f1 bes2 c \cal
-  f1 bes4 c2 \cal
+  c1 f2 g \cal
+  c1 f4 g2 \cal
   % Slava
-  f1 bes4 f \cal
-  f1 \cal
-  f1 bes2 c \cal
-  f1 f2 c
+  c1 f4 c \cal
+  c1 \cal
+  c1 f2 g \cal
+  c1 c2 g
   \cal
-  bes2 c bes c
-  c1 f
+  f2 g f g
+  g1 c
 }
 
-aleluja = { d8 d c( bes) c4 r d8 d c( bes) c4 r }
+aleluja = \relative c'' { a8 a g( f) g4 r a8 a g( f) g4 r }
 
 strofa = { \bar "||" }
 
 melodie = \relative c' {
   \set midiInstrument = #"acoustic grand 1"
 
-  \key f \major
+  \key c \major
   % Vitezstvi
-  f4 f8 f f4 f8 f a a bes d c c r4
+  c4 c8 c c4 c8 c e e f a g g r4
   \aleluja
 
   % Nebot jeho
-  f,8 f a bes c4 c8 c d d c bes c c c c
+  c,8 c e f g4 g8 g a a g f g g g g
   \aleluja \strofa
 
   % Chvalte
-  \time 5/4 f,4 f8 g a bes c c r4 \time 4/4 d8 d c bes c c c r
+  \time 5/4 c,4 c8 d e f g g r4 \time 4/4 a8 a g f g g g r
   \aleluja
-  f,8 f a bes c c c r r d c bes c c r4
+  c,8 c e f g g g r r a g f g g r4
   \aleluja \strofa
 
   % Pan
-  f,4. a8 c4 bes8 a g4. a8 bes a bes c \time 2/4 c4 r \time 4/4
+  c,4. e8 g4 f8 e d4. e8 f e f g \time 2/4 g4 r \time 4/4
   \aleluja
-  f,8 f a bes c c c c \time 3/4 \tuplet 3/2 { d c bes } c r r4 \time 4/4
+  c,8 c e f g g g g \time 3/4 \tuplet 3/2 { a g f } g r r4 \time 4/4
   \aleluja \strofa
 
   % Nebot nadesla
-  r4 f,8 a c c c r d8 d c bes c c r4
+  r4 c,8 e g g g r a8 a g f g g r4
   \aleluja
-  r4 f,8 a c c c c \time 3/4 bes d c c r4 \time 4/4
+  r4 c,8 e g g g g \time 3/4 f a g g r4 \time 4/4
   \aleluja \strofa
 
   % Slava
-  \time 2/4 f,4. a8 c c r c d( c) c r \time 4/4
+  \time 2/4 c,4. e8 g g r g a( g) g r \time 4/4
   \aleluja
-  r8 f, a bes c c c r
+  r8 c, e f g g g r
   \aleluja \strofa
 
   % Jako
-  f,8 f a bes c c c c d d c bes c4 c
+  c,8 c e f g g g g a a g f g4 g
   \aleluja
-  c8 c bes a c c4. c4( f) e r
+  g8 g f e g g4. g4( c) b r
   \aleluja
   % extra aleluja
-  bes8 a g( f) g4 r bes8 a g( f) g4 r
-  g4 a g4.( f8) f1 \bar "|."
+  f8 e d( c) d4 r f8 e d( c) d4 r
+  d4 e d4.( c8) c1 \bar "|."
 }
 
 % zalm
