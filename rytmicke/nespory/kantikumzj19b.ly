@@ -69,8 +69,8 @@ text = \lyricmode {
   \lb A -- le -- lu -- ja. \ln
 }
 
-cal = \chords {  }
-calal = \chords {  } % divne
+cal = \chordmode {  }
+calal = \chordmode {  } % divne
 
 akordy = \chords {
 }

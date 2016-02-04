@@ -67,8 +67,8 @@ text = \lyricmode {
   \alal
 }
 
-cal = \chords { c4 a4:m g2 }
-calal = \chords { a4:m g a2:m a4:m c g2 } % divne
+cal = \chordmode { c4 a4:m g2 }
+calal = \chordmode { a4:m g a2:m a4:m c g2 } % divne
 
 akordy = \chords {
   % Vitezstvi
