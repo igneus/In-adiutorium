@@ -86,7 +86,7 @@ akordy = \chords {
   c1 f2 g \cal
   % Pan
   c1 g2 f g \cal
-  c1 f4 g2 \cal
+  c1 f4. g \cal
   % Nebesot
   c1 f2 g \cal
   c1 f4 g2 \cal
@@ -126,7 +126,7 @@ melodie = \relative c' {
   % Pan
   c,4. e8 g4 f8 e d4. e8 f e f g \time 2/4 g4 r \time 4/4
   \aleluja
-  c,8 c e f g g g g \time 3/4 \tuplet 3/2 { a g f } g r r4 \time 4/4
+  c,8 c e f g g g g \time 6/8 a g f g r4 \time 4/4
   \aleluja \strofa
 
   % Nebot nadesla
