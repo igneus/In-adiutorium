@@ -73,6 +73,7 @@ cal = \chordmode {  }
 calal = \chordmode {  } % divne
 
 akordy = \chords {
+  f1 bes2 c
 }
 
 alelujaA = { c8 a bes( c) c4 }
@@ -92,42 +93,42 @@ melodie = \relative c' {
   f4. a8 c2 bes4 c8 d c4 r4
   r8 e8 e e f c
   \alelujaA r4 \alelujaA
-  r2 a8 bes c d c4
+  r2 r4 a8 bes c d c4
   c8 e f c c a bes c c c
-  \alelujaA r4 \alelujaA r4 \strofa
+  r4 \alelujaA r4 \alelujaA r2. \strofa
 
   % Chvalte
   f,4 f8 g a bes c c r4
   e8 e e e f( c) c4 c
   \alelujaA r4 \alelujaA r4
-  f,8 f a bes c c4 c8 r8 e8 e e f( c) c4
+  f,8 f a bes c^"tady rytmus skřípe" c4 c8 r8 e8 e e f( c) c4
   \alelujaA r4 \alelujaA r2. \strofa
 
   % Pan
-  f,4 a c2 d8 bes4. c2 r8 c8 bes a g f g4
-  \alelujaB r4 \alelujaB r4
-  f8 f a bes c c c c d d d c
-  \alelujaB r4 \alelujaB r4 r2 \strofa
+  f,4 a c2 d8 bes4. c4. c8 bes a g f g4
+  r4 \alelujaB r4 \alelujaB r4
+  f8 f a bes c c c c d d d c r4
+  \alelujaB r4 \alelujaB r2 \strofa
 
   % Nebot
-  f8 a c c c r8 r4 d8 d c bes c c r4
+  r4 f8 a c c c r8 d8 d c bes c c r4
   \alelujaC r4 \alelujaC r4
   f,8 a c c c c e f c c
-  \alelujaC r4 \alelujaC \strofa
+  r4 \alelujaC r4 \alelujaC r2 r4 \strofa
 
   % Tady by mohlo byt ad libitum delsi alelujovani
 
   % Slava
-  f,4. a8 c c r4 e8 f( c) c
-  \alelujaA r4 \alelujaA
-  e8 f c c( a) bes( c) c
-  \alelujaA r4 \alelujaA \strofa
+  r4 f,4. a8 c c r8 e8 f( c) c
+  r4. \alelujaA r4 \alelujaA r4
+  r8 e8 f c c( a) bes( c) c r r4
+  \alelujaA r4 \alelujaA r2. \strofa
 
   % Jako
-  f,8 f a bes c c c c d d c bes c c
-  \alelujaD r4 \alelujaD r2
-  d8 d e e f f c4 c
-  \alelujaD r4 \alelujaD
+  f,8 f a bes c c c c d d c bes c4-. c-.
+  \alelujaD r4 \alelujaD r4
+  \time 5/4 d8 d e e f f c4 c
+  \time 4/4 \alelujaD r4 \alelujaD r4
 
   bes4^\markup\italic{všichni} a g4.( f8) f2\fermata \bar "|."
 
