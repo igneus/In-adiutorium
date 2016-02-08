@@ -651,9 +651,35 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4( g) f g a a a bes a g f g g g \barMaior
       g g f e f( g a) a \barMin
+      a g a f( d) d \barMaior
+      d f f f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl Ga -- bri -- el o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      že se má stát mat -- kou
+      Bo -- ží -- ho Sy -- na,
+      a ne -- pře -- sta -- ne být pan -- nou.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "spol-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4( g) f g a a a bes a g f g g g \barMaior
+      g g f e f( g a) a
       a g a f( d) d \barMaior
       d f f f e f d d \barFinalis
     }

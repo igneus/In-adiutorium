@@ -138,7 +138,7 @@
     \relative c' {
       \choralniRezim
       f4( g) f g a a a bes a g f g g g \barMaior
-      g g f e f( g a) a \barMin
+      g g f e f( g a) a
       a g a f( d) d \barMaior
       d f f f e f d d \barFinalis
     }
@@ -153,7 +153,6 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
-      placet = "div. po _matkou_ pryč"
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
