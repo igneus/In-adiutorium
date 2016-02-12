@@ -597,7 +597,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 a g g( c) c b( c d) c( b) a \barMaior
       g f e g4. g4 a( b c) a g( a) g \barMaior
@@ -635,6 +635,70 @@
       psalmus = "Magnificat"
       id = "vden-1ne-amag"
       piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a g g( c) c \mark\sipka b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      \mark\sipka c c c d c b c a( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      c c c d \mark\sipka b c a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      c c c d \mark\sipka a b a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
@@ -883,6 +947,26 @@
     \addlyrics {
       Na -- ro -- dil se Kris -- tus Pán,
       pojď -- me,
+      kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "V"
+      differentia = "a"
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      f4 f8( g) a4 b c c c2
+      a4 bes a( g) f \bar "|."
+    }
+    \addlyrics {
+      Na -- ro -- dil se Kris -- tus Pán,
+      % pojď -- me,
       kla -- něj -- me se!
     }
     \header {
@@ -1493,7 +1577,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4( d) d f e d e c( d) d \barMaior
       d c b a b c b g \barMin
@@ -1509,6 +1593,81 @@
       quid = "ant. k Benedictus"
       modus = "VII"
       differentia = "c"
+      psalmus = "Benedictus"
+      id = "vden-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      g \mark\sipka a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "vden-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( b c e) d \barMin
+      e e d c d d \barMaior
+      d d c b c a g( a) g \barMin
+      f g a c b( c a) g a( g) g \barMaior
+      g g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Slá -- va
+      na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem,
+      v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "vden-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( b c a) a \barMin
+      c c d d a a \barMaior
+      f a c c b a b g \barMin
+      a a g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Slá -- va
+      na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem,
+      v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "V"
+      differentia = "a"
       psalmus = "Benedictus"
       id = "vden-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -1886,6 +2045,30 @@
       quid = "3. ant."
       modus = "I"
       differentia = "a"
+      psalmus = "Kol 1"
+      id = "vden-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a a a g b( c a) a \barMaior
+      b c d c a g \barMaior
+      f g a c c b \barMin
+      a g f g a g g \barFinalis
+    }
+    \addlyrics {
+      Na po -- čát -- ku by -- lo Slo -- vo,
+      a to Slo -- vo byl Bůh;
+      Bůh se nám na -- ro -- dil
+      ja -- ko Spa -- si -- tel svě -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
       psalmus = "Kol 1"
       id = "vden-2ne-a3"
       piece = \markup {\sestavTitulek}
