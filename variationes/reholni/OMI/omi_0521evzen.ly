@@ -522,21 +522,25 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a a a a( g f) g f( e) d d \barMaior
+    d f f f g a g f g f e \barMin
+    d( e f) d c c( d) d \barFinalis
 
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
-    Pod ve -- de -- ním Du -- cha sva -- té -- ho va -- ro -- val
-    před ne -- dů -- stoj -- ným při -- je -- tím
+    Pod ve -- de -- ním Du -- cha sva -- té -- ho
+    va -- ro -- val před ne -- dů -- stoj -- ným při -- je -- tím
     mi -- los -- ti Bo -- ží.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -573,7 +577,39 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a a g f g a a \barMin
+    a g f f f g f d d \barMaior
+    f g a f e( d) d \barFinalis
+
+    a'^\markup\rubrVelikAleluja a c c g g \barMin
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Pro -- chá -- zel měs -- ta i ves -- ni -- ce
+    a vy -- zý -- val ve jmé -- nu Kris -- ta:
+    u -- smiř -- te se s_Bo -- hem.
+
+    u -- smiř -- te se s_Bo -- hem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a g f g a a \barMin
+    g a a f g( f) e \barMaior
+    f d d d c f f e g f d d \barFinalis
+
+    c^\markup\rubrVelikAleluja d d( e) d \barFinalis
   }
   \addlyrics {
     Ja -- ko moud -- rý sta -- vi -- tel
@@ -591,6 +627,37 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g a a \barMin
+    a g f g d d \barMaior
+    d( e f) d( c) c( d) d( c) \barMin
+    d e f g f d c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d d( e) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko moud -- rý sta -- vi -- tel
+    bu -- do -- val chrám Bo -- ží
+    na zá -- kla -- dech
+    u -- kři -- žo -- va -- né -- ho Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
