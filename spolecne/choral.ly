@@ -24,10 +24,10 @@
                      (ly:grob-object nc 'note-heads)))
                   note-columns))
      (counter 0)
-     (color-notes (lambda (n) (begin
-                               (ly:grob-set-property! n 'extra-offset (cons (* counter -1.6) 0))
-                               (set! counter (+ counter 1))))))
-    (for-each color-notes note-heads)))
+     (adjust-notes (lambda (n) (begin
+                                (ly:grob-set-property! n 'extra-offset (cons (* counter -1.6) 0))
+                                (set! counter (+ counter 1))))))
+    (for-each adjust-notes note-heads)))
 
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
