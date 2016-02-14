@@ -14,12 +14,30 @@
 
 % nastaveni pro choralni notaci
 
+#(define (compress-ligature grob)
+   (let*
+    ((note-columns (ly:grob-array->list
+                    (ly:grob-object grob 'note-columns)))
+     (note-heads (append-map
+                  (lambda (nc)
+                    (ly:grob-array->list
+                     (ly:grob-object nc 'note-heads)))
+                  note-columns))
+     (counter 0)
+     (color-notes (lambda (n) (begin
+                               (ly:grob-set-property! n 'extra-offset (cons (* counter -1.6) 0))
+                               (set! counter (+ counter 1))))))
+    (for-each color-notes note-heads)))
+
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature #'stencil = ##f
 
   % noty bez nozicek
   \override Stem #'transparent = ##t
+
+  \override Slur #'stencil = ##f
+  \override Staff.Slur.before-line-breaking = #compress-ligature
 
   % nozky maji nulovou delku a tak neovlivnuji legatove cary
   % (tento radek resi problem "vznasejicich se car")
