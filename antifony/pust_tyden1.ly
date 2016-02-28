@@ -27,7 +27,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 141"
-    id = ""
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +51,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 142"
-    id = ""
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +80,7 @@
     placet = "_vytrpěl smrt_ hodně zvětšuje rozsah - asi by bylo dobré upravit;
     repetitivním _dostal nový_ si nejsem jist;
     celkově je antifona 'šedá' - není vysloveně špatná, ale také nic extra"
-    id = ""
+    id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +104,7 @@
     psalmus = "Žalm 63"
     placet = "není úplně špatná, zejména zpěvnost jí nelze vyčítat,
     ale nějak jí úplně nevěřím, co říká"
-    id = ""
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -125,7 +125,7 @@
     differentia = "G"
     psalmus = "Dan 3-III"
     placet = "slabá"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -145,7 +145,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -171,7 +171,7 @@
     differentia = "g"
     psalmus = "Žalm 110"
     placet = "všechny tři jsou takové 'nic extra'"
-    id = ""
+    id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -191,7 +191,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 114"
-    id = ""
+    id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -213,7 +213,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "1 Petr 2"
-    id = ""
+    id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -240,7 +240,7 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=2"
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -265,7 +265,7 @@
     differentia = "a"
     psalmus = ""
     fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=1"
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -290,7 +290,7 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-1ne-amag"
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -314,7 +314,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -342,7 +342,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -365,7 +365,7 @@
     differentia = "D"
     psalmus = ""
     fial = "pust_triduum.ly#so-nesp-ant2"
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -396,7 +396,7 @@
     differentia = "f"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?upraveno"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -419,7 +419,7 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-rch-aben"
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -449,7 +449,7 @@
     psalmus = ""
     placet = "viz zdroj"
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne6a-rch-aben"
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -480,7 +480,7 @@
     differentia = "f"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne6a-2ne-amag"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -514,7 +514,7 @@
     placet = "_budete_ tady rozhodně d d c; celkem si však nejsem jist,
     zejména pro silné tíhnutí k c. (To by mohlo indikovat příslušnost
     k modu VIII, spíš je to ale prostě nepovedená melodie k výměně.)"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -19,7 +19,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
-    id = ""
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -39,7 +39,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -67,7 +67,7 @@
     psalmus = "Flp 2"
     fial = "pust_svatytyden.ly#ut-ne-amag?pokracovani"
     placet = "_život_ se těžko zpívá"
-    id = ""
+    id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,7 +91,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 93"
-    id = ""
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,7 +111,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -131,7 +131,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 148"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -155,7 +155,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
-    id = ""
+    id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -176,7 +176,7 @@
     differentia = "D"
     psalmus = "Žalm 111"
     placet = "začátek zkusit lépe (není špatně, nedráždí, ale stejně)"
-    id = ""
+    id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -200,7 +200,7 @@
     differentia = "G*"
     psalmus = "1 Petr 2"
     placet = "finála je poněkud neuspokojivá; lépe"
-    id = ""
+    id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -225,6 +225,7 @@
     differentia = "F"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?upraveno"
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -246,7 +247,7 @@
     psalmus = ""
     % temer stejny text je na konci antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag
     % ale uryvek melodie neni vhodny pro samostatne pouziti
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -274,7 +275,7 @@
     differentia = "d"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?volne"
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -296,7 +297,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -324,7 +325,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -347,7 +348,7 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_ucitel.ly#1ne-amag?-aleluja"
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -372,7 +373,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -411,7 +412,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -437,7 +438,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -459,7 +460,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -488,7 +489,7 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?jiny_zacatek"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

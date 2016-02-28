@@ -19,7 +19,7 @@
     differentia = "a"
     psalmus = ""
     placet = "_postíte_ rozhodně jinak"
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -42,7 +42,7 @@
     differentia = "c"
     psalmus = ""
     placet = "příliš mnoho melismat; celkově není moc pěkná"
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -65,7 +65,7 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -83,13 +83,13 @@
     pra -- ví Pán.
   }
   \header {
-    quid = "3. ant."
+    quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
     placet = "_nalezne ho_ není pěkné. Napříště se nevázat na zde použitou (ne)podobnou antifonu"
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -120,7 +120,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -142,7 +142,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -165,7 +165,7 @@
     differentia = "d"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne18c-rch-aben"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
