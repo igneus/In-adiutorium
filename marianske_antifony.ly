@@ -82,7 +82,7 @@
     g g b c d c d( e) d \barMin
     c b a b c \barMaior
     a g a b c b a c b b \barMin
-    d d c d d( e d) c( b) \barMaior
+    d d d c d( e d) c( b) \barMaior
     a g a( c) b \barMin b a( b) a g g \barFinalis
   }
   \addlyrics {
@@ -95,7 +95,7 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná!
   }
   \header {
-    fons_externus = "volně podle AR 1912, s. [92]."
+    fons_externus = "volně podle AR 1912, [92]."
     quid = "ant."
     modus = "VII"
     differentia = ""
