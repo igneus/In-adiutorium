@@ -4,6 +4,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) f( g a4.) a \barMin
     bes4 a a a g( a) f e f d d \barMin e d c d d \barFinalis
@@ -18,7 +19,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -37,7 +38,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     a4 a \mark\sipka bes( a) g( a) a \barMin
     \mark\sipka a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
@@ -52,7 +52,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -73,7 +73,29 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a \mark\sipka a( g f) g( a) a \barMaior
+    a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -95,7 +117,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -104,6 +126,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( b a) a b( a g) g( a) a4.( g) \barMaior
     g4 f( g) g f( e) d f( g) g( a) a \barMaior
@@ -119,7 +142,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -145,7 +168,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -171,7 +194,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -195,7 +218,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     fons_externus = "AR1912, 303. (Ant. Cum facis eleemosynam)"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -218,7 +241,56 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f( g) f( a) a \barMin
+    a bes a g g f( a) a( g) g \barMaior
+    g f( g f d) e( d) \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Když dá -- váš al -- muž -- nu,
+    ať ne -- ví tvo -- je le -- vi -- ce,
+    co dě -- lá
+    tvo -- je pra -- vi -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) f( a) a \barMin
+    a bes a g g f( a) a( g) g \barMaior
+    g \mark\sipka f( d) e( d) \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Když dá -- váš al -- muž -- nu,
+    ať ne -- ví tvo -- je le -- vi -- ce,
+    co dě -- lá
+    tvo -- je pra -- vi -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -243,13 +315,37 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') a \barMin a( g) f g f( d) d \barMaior
+    d f g f4.( g) \barMin f4 e( d e) d( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce jít za mnou, za -- při sám se -- be,
+    vez -- mi svůj kříž a ná -- sle -- duj mě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( a) a d c b a4. a \barMaior
     f4( g a) b( c) a a \barMin
@@ -266,10 +362,57 @@
     differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a c b c c( d) d \barMin
+    c b a a \barMin
+    g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( c) d e f e d d \barMaior
+    e f d d \barMin
+    c d d \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Pátek}
 
@@ -297,7 +440,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -319,7 +462,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -342,7 +485,7 @@
     differentia = "d"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne18c-rch-aben"
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

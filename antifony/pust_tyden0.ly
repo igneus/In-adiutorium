@@ -5,8 +5,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) f( g a4.) a \barMin
-    bes4 a a a g( a) f e f d d \barMin e d c d d \barFinalis
+    a4 a a( g f) g( a) a \barMaior
+    a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
   }
   \addlyrics {
     Když se pos -- tí -- te,
@@ -18,30 +18,30 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "_postíte_ rozhodně jinak"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c( b a) a b( a g) g( a) a4.( g) \barMaior
-    g4 f( g) g f( e) d f( g) g( a) a \barMaior
-    a a( c b) a4.( g) \barMin a4( g) f g( a) a( g) g \barFinalis
+    d4 d c f( g) f( a) a \barMin
+    a bes a g g f( a) a( g) g \barMaior
+    g f( g f d) e( d) \barMin
+    c d e( f) d d \barFinalis
   }
   \addlyrics {
     Když dá -- váš al -- muž -- nu,
     ať ne -- ví tvo -- je le -- vi -- ce,
-    co dě -- lá tvo -- je pra -- vi -- ce.
+    co dě -- lá
+    tvo -- je pra -- vi -- ce.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "příliš mnoho melismat; celkově není moc pěkná"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -71,11 +71,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d( a) a d c b a4. a \barMaior
-    f4( g a) b( c) a a \barMin
-    g a a \barFinalis
+    d4 d( c) d e f e d d \barMaior
+    e f d d \barMin
+    c d d \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mne,
@@ -83,12 +83,10 @@
     pra -- ví Pán.
   }
   \header {
-    quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "_nalezne ho_ není pěkné. Napříště se nevázat na zde použitou (ne)podobnou antifonu"
-    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&upraveno"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

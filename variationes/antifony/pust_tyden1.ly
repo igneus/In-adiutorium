@@ -1,4 +1,4 @@
-% -*- master: ../pust_antifony.ly;
+\include "../spolecne.ly"
 
 \markup\nadpisDen{1. neděle postní}
 
@@ -56,8 +56,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g f e d c f( g) g g \barMin
+    f g g g a g f g g g \barMin
+    a b c b( c) a g g \barMaior
+    a a a a( c b) c( d) c b g a a \barMin
+    f g a a a( c) b \barMin c( d) c b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- tr -- pěl smrt za hří -- chy,
+    spra -- ved -- li -- vý za ne -- spra -- ved -- li -- vé,
+    a -- by nás smí -- řil s_Bo -- hem.
+    Byl si -- ce u -- smr -- cen po -- dle tě -- la,
+    a -- le po -- dle du -- cha do -- stal no -- vý ži -- vot.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    placet = "_vytrpěl smrt_ hodně zvětšuje rozsah - asi by bylo dobré upravit;
+    repetitivním _dostal nový_ si nejsem jist;
+    celkově je antifona 'šedá' - není vysloveně špatná, ale také nic extra"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g a g f g g( a) g g \barMaior
     a c c c d c b a a a \barMaior
@@ -84,6 +117,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -108,6 +143,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -128,6 +165,68 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( g) a g g \barMin
+    a c b c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu chvá -- lu
+    a o -- sla -- vuj -- te ho na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( g) a g g \barMin
+    a c b c c a a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu chvá -- lu
+    a o -- sla -- vuj -- te ho na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( g) a g g \barMin
+    f f a c c a a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu chvá -- lu
+    a o -- sla -- vuj -- te ho na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
