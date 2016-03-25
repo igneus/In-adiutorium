@@ -65,8 +65,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c( b) c c( a) a c( d) e d c d( a) a \barMaior
-    a b( g e) e \barMin e( f) e g( a) a a \barFinalis
+    a4 a c( b) c c( a) a \barMin c( d) e d c d d \barMaior
+    d c( b a) a \barMin b( a) g b( c) a a \barFinalis
   }
   \addlyrics {
     Sva -- tí zví -- tě -- zi -- li_* Be -- rán -- ko -- vou kr -- ví
@@ -267,8 +267,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f) f f g( f) f( g) g \barMin
-    g g f( d) d f e c d4. d \barFinalis
+    d4 d d e f d c c \barMin
+    d e f d d e c d d \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus nás mi -- lu -- je_*
@@ -280,7 +280,6 @@
     differentia = "D"
     psalmus = "Hab 3"
     id = "pa-rch-ant2"
-    notitia = "Textově téměř shodný je začátek ant. k Magn. ze svátku Křtu Páně, ale její melodie (k 7.2.2012) nebyla použitelná, protože je (i když kousek končí na tónice) příliš nesena dynamikou rozjezdu k něčemu, co následuje."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -355,8 +354,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a a a a( bes) a g( a) a \barMin
-    a g( bes) a g f e e( f) d4. d \barFinalis
+    f4 g a a a a g f f( g) g \barMin
+    g g f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     By -- lo de -- vět ho -- din do -- po -- led -- ne,_*
@@ -376,8 +375,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f e( f) f \barMaior
-    f( g) a a g4.( d) \barMin f4 e f e( c) c \barMin
+    d4 d d f e f( g) g \barMaior
+    f( g) a a g4.( d) \barMin f4 e f d( c) c \barMaior
     a c d f e d d \barFinalis
   }
   \addlyrics {
@@ -448,7 +447,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( c) b g( a) a \barMin
+    a4 a a( c) b g g \barMin
     a e e f e f d( e) e \barFinalis
   }
   \addlyrics {
