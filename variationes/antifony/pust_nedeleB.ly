@@ -181,8 +181,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a a g a f4.( g) \barMin g4( bes) a4. a \barMaior
     a4 g( a) f f4.( d) \barMin d4 c d d( f e) d d \barMax
@@ -205,6 +208,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Upraveno společně se zdrojovou antifonou}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    d d d d \mark\sipka f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

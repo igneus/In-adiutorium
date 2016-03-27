@@ -184,9 +184,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a a g a f4.( g) \barMin g4( bes) a4. a \barMaior
-    a4 g( a) f f4.( d) \barMin d4 c d d( f e) d d \barMax
-    d d d f( g) g( a g4.) g \barMin f4( g f) e c( d) d \barFinalis
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    d d d d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
     Zboř -- te ten -- to chrám, pra -- ví Pán,
@@ -199,7 +199,6 @@
     differentia = "a"
     psalmus = ""
     id = "iiiben"
-    placet = "_o chrámu_ je špatně"
     fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
     fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
