@@ -1,8 +1,5 @@
 \version "2.15.34"
 
-% nekolik vychytavek standartne importovanych do vsech projektu
-% z webu inadiutorium.xf.cz
-
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
