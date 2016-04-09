@@ -7,23 +7,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( f) f( e d c) c4.( d) \barMaior d4 e f d d( c) c \barMin
-    d c a g g( a g) g \barMaior g g( a) g g \barFinalis
+    g4( a) a( g) g \barMin
+    a g c b a( g) a \barMin
+    b c a a g( f) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
-    U -- kaž se_* ve své vzne -- še -- nos -- ti
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 57"
     id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
-    fial = "antifony/velikonoce_tyden1_4streda.ly#rch-a1"
-    placet = "~"
+    fial = "antifony/velikonoce_tyden4_4streda.ly#rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }

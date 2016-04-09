@@ -1,11 +1,130 @@
-\markup {\nadpisDen {Středa 4. týdne}}
+\include "../spolecne.ly"
 
-% -*- master: ../velikonoce_zaltar.ly;
+\markup {\nadpisDen {Středa 4. týdne}}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    c4( f) f( e d c) c4.( d) \barMaior d4 e f d d( c) c \barMin
+    d c a g g( a g) g \barMaior g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U -- kaž se_* ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 108"
+    id = "rch-a1"
+    placet = "~"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e \barMin
+    g g a a b b \barMin
+    c a g a d( c) a \barMaior
+  }
+  \addlyrics {
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 108"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e \barMin
+    g g a a b b \barMin
+    c a g f g( f) e \barMaior
+    f g g( a) e \barFinalis
+  }
+  \addlyrics {
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 108"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f g a b g g \barMaior
+    d' c a c d a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 108"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f g a b g g \barMaior
+    \mark\sipka c b a c d a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 108"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( a) a( g) g \barMin
     a g c b a( g) a \barMin
@@ -27,6 +146,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
