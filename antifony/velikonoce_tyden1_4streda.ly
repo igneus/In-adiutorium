@@ -116,6 +116,7 @@
     psalmus = "Žalm 27-II"
     id = "ne-a2"
     fons = "Velik. triduum, Bílá sobota, uprostřed dne, ant. dopo; doplněno aleluja"
+    fial = "pust_triduum.ly#so-up-dopo?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
