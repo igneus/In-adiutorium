@@ -17,14 +17,14 @@ Liturgical texts are property of Czech bishops' conference.
 
 ## Building ##
 
-* .ly files in the root directory and in it's subdirectories 'commune'
-and 'sanktoral' are mostly standalone sheets and are to be built simply
+* .ly files in the root directory and in it's subdirectories [commune](./commune)
+and [sanktoral](./sanktoral) are mostly standalone sheets and are to be built simply
 running LilyPond over them
 * .ly files in other directories are included in other ones and shouldn't be compiled themselves
-* you can build all sheets at once by running rake in the root directory
-* in directory 'antifonar' volumes of the Czech antiphonal may be compiled by running rake tasks (run 'rake -T' to see what is available)
+* you can build all sheets at once by running `rake` in the root directory
+* in directory [antifonar](./antifonar) volumes of the Czech antiphonal may be compiled by running rake tasks (run `rake -T` to see what is available)
 
-The sheets often contain the author's personal
+The lilypond sheets often contain the author's personal
 notes concerning future development.
 To hide them, compile the .ly files with point-and-click disabled:
 
