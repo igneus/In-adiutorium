@@ -23,9 +23,7 @@ class VariationesUpdater
 
     dev_file = development_file main_file
 
-    @log.puts "Updating #{main_file} from #{dev_file}"
-
-    changed = false
+    changes = 0
 
     Lyv::LilyPondMusic.new(dev_file).scores.each do |score|
       next unless marked_for_production? score
@@ -45,7 +43,7 @@ class VariationesUpdater
 
       if scores_differ? production_score, score
         @log.puts "updating ##{score_id}"
-        changed = true
+        changes += 1
 
         score_text_cleaned = clean_score score.text
         score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
@@ -54,11 +52,13 @@ class VariationesUpdater
       end
     end
 
-    if changed
+    if changes > 0
       File.open(main_file, 'w') do |fw|
         fw.write(main_src)
       end
     end
+
+    @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
   end
 
   def development_file(main_file)
