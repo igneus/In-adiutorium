@@ -5,6 +5,14 @@
 # chants marked as selected for inclusion in the main file
 # and updates the main file.
 
+# The script expects being run in the project root directory
+# and receiving relative paths as arguments.
+# Development file for a given file path.ly is file
+# variationes/path.ly and all files matching pattern
+# variationes/path_*.ly
+# (this convention expects a particular discipline when giving
+# names to main files).
+
 require 'stringio'
 require 'lyv'
 
@@ -21,48 +29,52 @@ class VariationesUpdater
     main_src = File.read main_file
     main_music = Lyv::LilyPondMusic.new main_src
 
-    dev_file = development_file main_file
+    development_files(main_file).each do |dev_file|
+      changes = 0
 
-    changes = 0
+      Lyv::LilyPondMusic.new(dev_file).scores.each do |score|
+        next unless marked_for_production? score
 
-    Lyv::LilyPondMusic.new(dev_file).scores.each do |score|
-      next unless marked_for_production? score
+        unless has_id? score
+          @log.puts "#{dev_file}##{score.number} marked for production, but misses an id"
+          next
+        end
 
-      unless has_id? score
-        @log.puts "#{dev_file}##{score.number} marked for production, but misses an id"
-        next
+        score_id = score.header['id']
+
+        production_score = main_music[score_id]
+        if production_score.nil?
+          @log.puts "##{score_id} marked for production, but the score was not found in production"
+          next
+        end
+
+        if scores_differ? production_score, score
+          @log.puts "updating ##{score_id}"
+          changes += 1
+
+          score_text_cleaned = clean_score score.text
+          score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
+
+          main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
+        end
       end
 
-      score_id = score.header['id']
-
-      production_score = main_music[score_id]
-      if production_score.nil?
-        @log.puts "##{score_id} marked for production, but the score was not found in production"
-        next
+      if changes > 0
+        File.open(main_file, 'w') do |fw|
+          fw.write(main_src)
+        end
       end
 
-      if scores_differ? production_score, score
-        @log.puts "updating ##{score_id}"
-        changes += 1
-
-        score_text_cleaned = clean_score score.text
-        score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
-
-        main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
-      end
+      @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
     end
-
-    if changes > 0
-      File.open(main_file, 'w') do |fw|
-        fw.write(main_src)
-      end
-    end
-
-    @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
   end
 
-  def development_file(main_file)
-    File.join @development_dir, main_file
+  def development_files(main_file)
+    main_dev = File.join(@development_dir, main_file)
+    wildcarded = main_file.sub /(\.ly)$/i, '_*\1'
+    parts = Dir[File.join(@development_dir, wildcarded)]
+
+    parts.unshift main_dev
   end
 
   def marked_for_production?(score)
