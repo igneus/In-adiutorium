@@ -115,9 +115,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a g g( c) c b( c d) c( b) a \barMaior
+      g4 a g g( c) c b( c) a( g) g \barMaior
       g f e g4. g4 a( b c) a g( a) g \barMaior
-      f e d d g a b a( g) g \barFinalis
+      c c c d c b c a( g) g \barFinalis
     }
     \addlyrics {
       Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
@@ -128,7 +128,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Magnificat"
-      placet = "_na nebi_ spíš zjednodušit; dál prozkoumat možnosti"
       id = "vden-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -148,9 +147,9 @@
     }
     \header {
       quid = "ant."
-      modus = "VI"
-      differentia = "F"
-      psalmus = "Žalm 95"
+      modus = "V"
+      differentia = "a"
+      psalmus = ""
       id = "vden-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -447,7 +446,7 @@
       c4( d) d f e d e c( d) d \barMaior
       d c b a b c b g \barMin
       a a f e f g g g \barMaior
-      g f( a) g g \barFinalis
+      g a a( g) g \barFinalis
     }
     \addlyrics {
       Slá -- va na vý -- sos -- tech Bo -- hu
@@ -459,7 +458,6 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Benedictus"
-      placet = "_aleluja_ jinak"
       id = "vden-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
