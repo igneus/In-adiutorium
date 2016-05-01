@@ -57,9 +57,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d d( g) f g( d) d d( e) f d( c d) d \barMaior
-    d e f f( g) g \barMin f f( g f) e( f d4.) d \barMaior
-    c4 d( e) d d \barFinalis
+    d4 d d( c) c( d) d \barMin
+    d( g) f g( d) d d( e) f d( c d) d \barMaior
+    d c d f( g f d) d d e( f) d d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- ží ve -- leb -- nost_*
@@ -73,7 +74,8 @@
     differentia = "D"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
-    placet = "'odsazení' _je_ o sekundu je nevhodné; navíc někde mám pěkný úryvek _a jeho světlem je Beránek_, mohlo by tedy být dobré postavit novou melodii kolem něj"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?cast"
     piece = \markup {\sestavTitulek}
   }
 }

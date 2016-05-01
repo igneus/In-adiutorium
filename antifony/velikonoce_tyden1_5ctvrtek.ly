@@ -31,42 +31,41 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4.( g4 a) c a a g g4.( e) \barMin g4 f e e \barFinalis
+    d4-- f e f g a \barMin
+    f d e4. d \barFinalis
   }
   \addlyrics {
-    Pán vy -- kou -- pil svůj lid.
+    Pán_* vy -- kou -- pil svůj lid.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "I"
+    differentia = "D"
     psalmus = "Jer 31"
     id = "rch-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d4.( f) \barMin f4 e( c) c a a \barMaior
-    c d d d \barFinalis
+    g4. c d4 c b a g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
-    Náš Bůh je Bůh na -- vě -- ky.
+    Náš Bůh_* je Bůh na -- vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 48"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,8 +110,12 @@
     differentia = "d"
     psalmus = "Žalm 32"
     id = "ne-a2"
-    fons = "Velký pátek, ad Magnificat; doplněno aleluja"
-    fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
+    % Původní zdrojová antifona už neexistuje, protože šlo
+    % o svévolné zkrácení; dnes už je tam zhudebnění správného celého textu,
+    % s úplně jinou melodií
+    %
+    % fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    % fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

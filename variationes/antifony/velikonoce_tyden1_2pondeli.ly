@@ -206,7 +206,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 29"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -226,7 +226,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 29"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }

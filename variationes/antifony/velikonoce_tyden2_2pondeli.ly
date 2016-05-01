@@ -26,6 +26,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -47,6 +49,30 @@
     psalmus = "Sir 36"
     id = "rch-a2"
     placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( a) \barMin a b a g a g( e) e \barMax
+    e e( d e) d c c a \barMaior
+    c d e f e d f e e \barMax
+    \mark\sipka e a( g) f( g f) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, dej,_* ať po -- zná -- me tvé skut -- ky
+    a vy -- pra -- vu -- je -- me
+    o tvých po -- di -- vu -- hod -- ných či -- nech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Sir 36"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }

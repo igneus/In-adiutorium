@@ -29,43 +29,45 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) c( d) d \barMin d c d c( a) a \barMaior
-    g( a) b c a g a( g) f( g) g \barMaior
-    g g( a) g g \barFinalis
+    c4 d d \barMin
+    e d c d c \barMaior
+    d-- c d c b a g g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
-    O -- prav -- du,_* ty jsi Bůh skry -- tý,
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
     Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Iz 45"
     id = "rch-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( c) c d b c a g( a) a( g) g \barMaior
-    f g g g \barFinalis
+    f4( g) g \barMin
+    f g a f g g a \barMin
+    a f f( e) f \barFinalis
   }
   \addlyrics {
-    Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
+    Služ -- te_*
+    Hos -- po -- di -- nu s_ra -- dos -- tí.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 100"
     id = "rch-a3"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,11 +75,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a b g a g( e) e \barMaior
-    e d4.( g) g4( a g) f f g g \barMaior
-    f f( g) a( c) a4.( g) \barFinalis
+    d4 d d f e f g( a) a( g) \barMin
+    d d f e c d d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Kris -- tus se pro nás stal chu -- dým,_*
@@ -86,11 +88,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 41"
     id = "ne-a1"
-    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -98,22 +99,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f) g( f) g( a g) g \barMaior
-    g a( b) c( a) a b( c) a g a( g) g \barMaior
-    g g( a) g g \barFinalis
+    g4 g g( a) g \barMaior
+    g a( c) c( a) a
+    c b a g g \barMin
+    f e f( g) g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*
-    jsou k_ra -- dos -- ti Bo -- ží -- mu měs -- tu.
+    jsou k_ra -- dos -- ti
+    Bo -- ží -- mu měs -- tu.
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "1. ant."
+    quid = "2. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 46"
     id = "ne-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

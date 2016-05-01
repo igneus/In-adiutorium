@@ -34,6 +34,22 @@
 
 \pageBreak
 
+\markup\justify{
+  Tohle je jedna z těch, které musím z mnoha důvodů odsoudit,
+  neboť hřeší proti všem pravidlům "\"českého chorálu\","
+  ale zároveň je neumím nemít rád.
+  Je taková pěkně zpěvná a radostná.
+}
+
+\markup\justify{
+  Ony hříchy:
+  melisma na ne_boť_;
+  přetížení nepřízvučné druhé slabiky v _povstalo_;
+  _neboť všechno_ neužitečně melodii dělí na krátké oddíly,
+  přitom text si toho nežádá;
+  na antifonu ze žaltáře má zbytečně velký rozsah.
+}
+
 %velikTIuteryNespAntIII =
 \score {
   \relative c' {
@@ -73,6 +89,36 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Následující původně zamýšlena v modu I, ale utekla -
+  proto to není úplně typická moje antifona VIII. modu.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g( a) g f d e e \barMaior
+    f g \[ a( c b \] \[ g b a) \] g( a) \barMin
+    a f e f( g) g g \barMaior
+    f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Zj 4"
     id = "t1-ut"
     piece = \markup {\sestavTitulek}
@@ -150,7 +196,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Zj 15"
-    id = ""
+    id = "t1-pa"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -172,7 +218,30 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 15"
-    id = ""
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 \mark\sipka a g c b a g \barMin
+    a a a f e f g g \barMaior
+    f \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 15"
+    id = "t1-pa"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -194,7 +263,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 15"
-    id = ""
+    id = "t1-pa"
     piece = \markup {\sestavTitulek}
   }
 }
