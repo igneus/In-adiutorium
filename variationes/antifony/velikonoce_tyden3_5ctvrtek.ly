@@ -143,7 +143,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 132-II"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -47,7 +47,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +104,7 @@ funkční, je nevyvážená.}
     modus = "I"
     differentia = "f"
     psalmus = "Jer 14"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -177,7 +177,7 @@ funkční, je nevyvážená.}
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }

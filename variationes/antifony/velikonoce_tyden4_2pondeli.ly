@@ -81,7 +81,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 90"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
