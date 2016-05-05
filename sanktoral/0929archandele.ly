@@ -28,7 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -162,7 +162,7 @@
     differentia = "D"
     psalmus = "Žalm 63"
     placet = "_cherubové a serafové_ zkusit elegantněji"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -181,7 +181,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -205,7 +205,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -237,7 +237,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -264,7 +264,7 @@
     differentia = "D"
     psalmus = ""
     placet = "rytmus _vystupovat a sestupovat_ působí těžkopádně"
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -288,7 +288,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -312,7 +312,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -334,7 +334,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -359,7 +359,7 @@
     differentia = "a"
     psalmus = "Žalm 8"
     placet = "melodie _králi_ na daném místě rytmicky nesedí"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -377,8 +377,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 138"
-    id = ""
-    fons = "úterý 4.t., nešp., 2. ant."
+    fial = "antifony/tyden4_3utery.ly#ne-ant2"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -405,7 +405,7 @@
     differentia = "a"
     psalmus = "Kol 1"
     placet = "_množství_ možná lépe ga f; od věci by ale možná nebyla důkladnější reforma"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -441,7 +441,7 @@
     quid = "resp."
     modus = "VI"
     placet = "nepotřebná a nevhodná ozdoba na _kadidelnice_"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -465,7 +465,7 @@
     psalmus = ""
     placet = "_Počneš_ se mi moc nelíbí; _jméno_ by udělalo lépe, kdyby ctilo obvyklé pořádky závěru modu VIII
     ze spodního tetrachordu, nesahalo na a, a už vůbec ne obkrok"
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
