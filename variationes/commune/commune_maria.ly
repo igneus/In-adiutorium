@@ -679,6 +679,36 @@ je "\"skororepetice\"" melodie 2 v 4.}
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f c d e f f
+    g f e( f) d c d c c( a) \barMaior
+    c d e f f f e c c( d) d d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "nic moc"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     \key f \major
     f4 a a a bes g g( a) a \barMin
     bes bes bes bes a( g) g \barMin f e d d \barFinalis
@@ -693,6 +723,63 @@ je "\"skororepetice\"" melodie 2 v 4.}
     differentia = "f"
     psalmus = ""
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 a a a bes g g( a) a \barMin
+    bes bes bes bes a( g) g \barMin f e d d \barFinalis
+    f^\markup\rubrVelikAleluja e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    placet = "nic moc"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    d4 c a bes( c bes) a a \barMaior
+    g( a) a \barMin c d d( c) d \barMax
+    d d c d f e d( e) d d \barMaior
+    d c( a) bes( c bes) a a \barFinalis
+
+    g^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl své mat -- ce:
+    Že -- no, to je tvůj syn.
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    To je tvá mat -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    placet = "vůbec nesedí v deklarovaném modu; melodie pak je mizerná"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
