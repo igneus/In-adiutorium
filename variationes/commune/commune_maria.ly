@@ -703,6 +703,196 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\markup\justify{
+  Zpětný import: používá se tu kousek melodie antifony,
+  která vznikla úpravou melodie výše s ohledem na jiný text.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d c d e f f
+    e f f( g) f e d d d \barMaior
+    d d c d d d e( f) d c d d \barFinalis
+
+    d^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0118pmmatkyjednoty.ly#rch-aben?zacatek"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a a a( c) b g g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a a a( c) b g g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d d \barMin
+    d d d c d e d d \barMaior
+    d d c b a g f( a) b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a c c \barMin
+    c c c b a b a g \barMaior
+    a a f e d d f g g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f e f g g \barMin
+    a g a a b c c g \barMaior
+    c c b a g f f( a) b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g f e \barMin
+    d e f d c d e f \barMaior
+    f f e d c c d( f) e d( e) d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

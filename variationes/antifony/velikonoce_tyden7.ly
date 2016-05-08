@@ -1,4 +1,4 @@
-% -*- master: ../velikonoce_antifony.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {7. neděle velikonoční}}
 
@@ -332,8 +332,42 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4( f) f c d e f f
+    g f e( f) d c d c c( a) \barMaior
+    c d e f f f e c c( d) d d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Všichni jednomyslně setrvávali v modlitbách
+    s Ježíšovou matkou Marií. Aleluja."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#tercie"
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace po změně zdrojové antifony:}
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
@@ -359,6 +393,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisDen {Sobota}}
 
