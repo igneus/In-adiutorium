@@ -86,9 +86,8 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g a a4. \barMin
-    bes4 c a4. a \barMin
-    g4( a) bes c a4. g \barMin
+    f4 g a a bes c a4. a \barMin
+    g4( a) bes c a4. g \barMaior
     f4 e c( d) d \barFinalis
   }
   \addlyrics {
@@ -111,10 +110,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( e) f g( a) \barMin
-    g a bes( a g) f( g) g \barMaior
-    g g g g g( a) g f e( f) d d \barMaior
-    d e( f) e( d) d \barFinalis
+    f4 f g-- \barMin
+    f f a( f) f( g) g \barMaior
+    a a g f d e f d c c \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ze těm,_*
@@ -128,7 +127,6 @@
     differentia = "f"
     psalmus = "Žalm 45-II"
     id = "ne-a2"
-    placet = "mdlá"
     piece = \markup {\sestavTitulek}
   }
 }
