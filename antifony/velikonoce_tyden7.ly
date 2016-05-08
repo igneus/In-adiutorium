@@ -312,7 +312,7 @@
     g f g a f g \barMaior
     g g a b c c b \barMin
     a c c b a g g \barMaior
-    f g g g \barFinalis
+    f a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus Je -- žíš ze -- mřel,
@@ -326,7 +326,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "aleluja lépe f a g g"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -303,10 +303,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Pátek}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e d f( g) g \barMin
     g f g a f g \barMaior
@@ -327,6 +330,33 @@
     differentia = "G"
     psalmus = ""
     placet = "aleluja lépe f a g g"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e d f( g) g \barMin
+    g f g a f g \barMaior
+    g g a b c c b \barMin
+    a c c b a g g \barMaior
+    f \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus Je -- žíš ze -- mřel,
+    a -- no i z_mrt -- vých vstal,
+    je po Bo -- ží pra -- vi -- ci
+    a při -- mlou -- vá se za nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
