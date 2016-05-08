@@ -87,7 +87,7 @@
   \relative c'' {
     \choralniRezim
     a4 g( a b) a( g) a \barMaior
-    a b( c d) d c e d \barMin
+    a c( d) d c e d \barMin
     c( d c) b a g g f( a) a g g \barFinalis
   }
   \addlyrics {
@@ -100,7 +100,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 149"
-    placet = "_Kristovou_ jen cd d"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -191,21 +190,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a( c) a a( g) f g g( f) f \barMaior
-    f g( a c) b( a b) a \barMin
-    g f e d f g e e \barFinalis
+    g4 g g g( a) g \barMin
+    g f g g( a) a \barMaior
+    a c( b) a( g) g \barMin
+    a a g f g a g g \barFinalis
   }
   \addlyrics {
-    Při -- stup -- me k_měs -- tu ži -- vé -- ho Bo -- ha
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
     a k_Je -- ží -- ši,
     pro -- střed -- ní -- ku no -- vé smlou -- vy.
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 127"
-    placet = "dotáhnout"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -217,7 +217,7 @@
     d4 d d d f d c( e) d \barMin
     d e c c a \barMaior
     a bes c d f( e d e) d \barMin
-    f f f g( f) e d c( d e) d \barFinalis
+    f f f g f d c( d e) d \barFinalis
   }
   \addlyrics {
     V_Kris -- tu má -- me vy -- kou -- pe -- ní
@@ -251,7 +251,7 @@
     \neviditelna a
     bes bes a g a f e( f) d \barMin e g f d d \barFinalis
     % Slava
-    a' a g( a) g f g( bes) a \barMin a g f g( f) a a \barFinalis
+    a' a a g f g( a) a \barMin a bes a g( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
@@ -263,7 +263,6 @@
   \header {
     quid = "resp."
     modus = "I"
-    placet = "doxologie je strašná"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -276,8 +275,9 @@
     d4 d( a') a \barMin bes bes bes bes c c bes c a a \barMaior
     g f g g a a a g g f g e \barMin
     e f e( d) d \barMax
-    d( f g f a g) g \barMin f d f4. e \barMaior
-    f4 g g( a) a g f g f e \barMin e d e( f e) d d \barFinalis
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d e e( f e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl svou mat -- ku ve -- dle kří -- že
@@ -292,7 +292,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_to je tvá matka_ by možná lépe začínalo d e"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

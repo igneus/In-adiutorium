@@ -629,15 +629,14 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    \key f \major
-    d4 c a bes( c bes) a a \barMaior
-    g( a) a \barMin c d d( c) d \barMax
-    d d c d f e d( e) d d \barMaior
-    d c( a) bes( c bes) a a \barFinalis
+    f4-- f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d e e( f e) d d \barFinalis
 
-    g^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
+    e^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     Pán ře -- kl své mat -- ce:
@@ -649,10 +648,10 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "vůbec nesedí v deklarovaném modu; melodie pak je mizerná"
+    fial = "sanktoral/0915pmbolestne.ly#ne-amag?cast&upraveno"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
