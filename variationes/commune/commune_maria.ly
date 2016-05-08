@@ -941,6 +941,179 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e f( g) g \barMin
+    a a g f g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d( f e) f d( c) c \barMin
+    f f f f g f e f d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d f e( d) c \barMaior
+    d( e f) d( c) c( d) d( c) \barMin
+    f f e f d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te
+    všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d f e( d) c \barMaior
+    \mark\sipka f( g f) e( d) e( f) e( d) \barMin
+    f f d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te
+    všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f f( a g) f f( g) g \barMin
+    a g f e f d f g g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a \barMin
+    c b a b c c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g f g g( a) a \barMaior
+    c \mark\sipka c b g b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka řek -- la:
+    U -- dě -- lej -- te všech -- no, co vám řek -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -604,12 +604,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    f4 a a a bes g g( a) a \barMin
-    bes bes bes bes a( g) g \barMin f e d d \barFinalis
-    f^\markup\rubrVelikAleluja e d d \barFinalis
+    g4 g g g f g g( a) a \barMaior
+    c c b g b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka řek -- la:
@@ -619,10 +619,9 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "nic moc"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
