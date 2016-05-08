@@ -145,7 +145,7 @@
     f g a a( c) b b( c) c \barMin
     d d a c b \barMax
 
-    c b a c( d e) c( b( a) \barMin
+    c b a c( d e) c( b a) \barMin
     a( d c) a( g) a a( g) g \barFinalis
   }
   \addlyrics {
