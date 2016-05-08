@@ -34,7 +34,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -61,7 +61,7 @@
     differentia = "a"
     psalmus = "Dan 3-III"
     placet = "zkusit alternativy"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -85,7 +85,7 @@
     differentia = "a"
     psalmus = "Žalm 149"
     fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?rozsireno"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -119,7 +119,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -147,7 +147,7 @@
     psalmus = ""
     fons = "volne podle (neprilis povedene): marianske commune, tercie"
     fial = "fial://commune/commune_maria.ly#tercie?volne"
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -173,7 +173,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -197,7 +197,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -221,7 +221,7 @@
     differentia = "a"
     psalmus = "Ef 1"
     fial = "antifony/pust_tyden5.ly#so-aben"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -255,7 +255,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -279,7 +279,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
