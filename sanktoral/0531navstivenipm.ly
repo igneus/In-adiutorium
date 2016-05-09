@@ -264,8 +264,7 @@
     differentia = "d"
     psalmus = "Magnificat"
     id = "ne-amag"
-    fons = "spol. texty o P.M., r.ch., k Benedictus"
-    fial = "commune/commune_maria.ly#rch-aben"
+    fial = "commune/commune_maria.ly#1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
