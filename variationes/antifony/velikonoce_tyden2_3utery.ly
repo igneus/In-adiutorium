@@ -204,7 +204,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin f e d e c( d) d \barMaior
     \mark\sipka f f( g f) e( d) c c e( f) d d \barMaior
@@ -219,6 +219,54 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin
+    e f g f f( g) g \barMaior
+    g a f e c e( f) d d \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f a c c c a( g) a \barMaior
+    a c b a g a g f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 65"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
