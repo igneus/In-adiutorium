@@ -97,21 +97,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a c( d) c( b) a c( b) a( g) g \barMaior
-    a a( d) c( d) d \barMin c b b( c) b a g( f g4.) g \barMaior
-    a4 a g g \barFinalis
+    g4 a g( f) g \barMin
+    c( a) d c b g a \barMaior
+    c c( d) d( c) c \barMin
+    c c b( c) a g g( a g) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
-    Ať tě, Bo -- že, ve -- le -- bí ná -- ro -- dy
-    a já -- sa -- jí, že jim po -- sí -- láš spá -- su.
+    Ať tě, Bo -- že,
+    ve -- le -- bí ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 67"
-    placet = "nedopečená"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
