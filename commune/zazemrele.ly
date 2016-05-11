@@ -301,7 +301,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a g f e e \breathe f f f a g f( e) e \bar "||"
+    g4 a a g f e e \barMin f f f a g f( e) e \barFinalis
   }
   \addlyrics {
     U -- zdrav mě, Hos -- po -- di -- ne, zhře -- šil jsem
