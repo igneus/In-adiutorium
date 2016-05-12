@@ -76,10 +76,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d4( g) g g a bes c bes a g f g( d) d \barMaior
-    g f e d c d( e) d4. d \barMaior
-    e4 f e( d) d \barFinalis
+    d4 d d e f g f e d c d d \barMaior
+    f f e( d) c d e d d \barMaior
+    c d d d \barFinalis
   }
   \addlyrics {
     Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
@@ -88,10 +87,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 72-I"
-    placet = "nepříliš povedená; následující zrovna tak"
     id = "na-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -100,10 +98,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d4( g) g g a( bes a) g( f) g( d) d \barMaior
-    g( f e) d e( f) d d \barMaior
-    e c c( d) d \barFinalis
+    d4 d d c b a a \barMin
+    c( d) e e d d \barMaior
+    c d d d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- ny
@@ -112,7 +109,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 72-II"
     id = "ne-a2"
