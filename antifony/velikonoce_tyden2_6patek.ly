@@ -5,11 +5,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c( d) d e d c( d) d4.( a) \barMaior
-    a4( g) f g( a) a c b a4. a \barMaior
-    g4 a c( b) a \barFinalis
+    d4 c d f g f( e) d \barMin
+    e f d c e f d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Buď dob -- ré mys -- li, sy -- nu,_*
@@ -18,10 +18,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 51"
-    placet = "_se_ je takhle nepřípustné"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -46,7 +45,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Hab 3"
-    placet = "není to spíš modus II, až skrz aleluja přebitý na VIII?"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -56,8 +54,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( f) e d d( a') a \barMin c( b) a a \barMaior
-    a g( a) a \barMin bes! bes bes a g f( g) g \barMaior
+    d4( f) e d d( a') a c( b) a a \barMaior
+    a g( a) a \barMin bes! bes bes a g f( g) g \barMin
     f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -83,7 +81,7 @@
     \choralniRezim
     d4 c d f e d c a b( c) c \barMaior
     c( d c) b( g) c a a \barMaior
-    a c( a) b( a) g \barFinalis
+    g a c( b) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
@@ -92,11 +90,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 116-I"
     id = "ne-a1"
-    placet = "to je dost jasně přebitá IV alt - VII"
     piece = \markup {\sestavTitulek}
   }
 }
