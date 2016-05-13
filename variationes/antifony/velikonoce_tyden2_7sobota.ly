@@ -1,6 +1,6 @@
-\markup {\nadpisDen {Sobota 2. týdne}}
+\include "../spolecne.ly"
 
-% -*- master: ../velikonoce_zaltar.ly;
+\markup {\nadpisDen {Sobota 2. týdne}}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -27,8 +27,35 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 g( a) a c( a) a g g( a) \barMaior
+    a g a g f e( f e) e \barMaior
+    e e( f) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Já dá -- vám ži -- vot i smrt,_*
+    já zra -- ňu -- ji i ho -- jím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dt 32"
+    id = "rch-a2"
+    placet = "r"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c b g a \barMaior
     a g a g f e e \barMaior
@@ -48,6 +75,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
