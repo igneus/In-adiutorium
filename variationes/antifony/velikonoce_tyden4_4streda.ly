@@ -197,10 +197,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d( g) f d c c \barMin a c c( d) d \barFinalis
   }
@@ -222,6 +225,48 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d( f e) c d e f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Noc ja -- ko den se roz -- jas -- ní._*
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( f e) c d e f \barMin
+    \mark\sipka g f d d \barFinalis
+  }
+  \addlyrics {
+    Noc ja -- ko den se roz -- jas -- ní._*
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d f4. e4 f f( d) d \barMaior
     d c d e f f d d4.( c) \barMin
     a4 c c( d) d \barFinalis
@@ -241,4 +286,27 @@
   }
 }
 
-\score { \velikTIIstredaNespAntIII }
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f4. e4 d c c \barMaior
+    c d e f d e f g \barMin
+    f d e4. d \barFinalis
+  }
+  \addlyrics {
+    Já znám svo -- je ov -- ce_*
+    a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+% \score { \velikTIIstredaNespAntIII }

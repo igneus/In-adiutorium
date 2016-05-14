@@ -81,7 +81,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d d( g) f d c c \barMin a c c( d) d \barFinalis
+    d4 d d d( f e) c d e f \barMin
+    g f d d \barFinalis
   }
   \addlyrics {
     Noc ja -- ko den se roz -- jas -- ní._*
@@ -93,7 +94,6 @@
     differentia = "D"
     psalmus = "Žalm 139-I"
     id = "ne-a1"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -101,9 +101,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d f4. e4 f f( d) d \barMaior
-    d c d e f f d d4.( c) \barMin
-    a4 c c( d) d \barFinalis
+    d f4. e4 d c c \barMaior
+    c d e f d e f g \barMin
+    f d e4. d \barFinalis
   }
   \addlyrics {
     Já znám svo -- je ov -- ce_*
