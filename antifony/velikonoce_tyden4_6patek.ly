@@ -68,7 +68,7 @@
     differentia = "c"
     psalmus = "Žalm 147-II"
     id = "rch-a3"
-    fons = "První část z žaltář, sobota 4.t., modlitba uprostřed dne, 3. ant."
+    fial = "antifony/tyden4_7sobota.ly#up-ant3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -93,7 +93,7 @@
     differentia = "g"
     psalmus = "Žalm 145-I"
     id = "ne-a1"
-    fons = "začátek viz 4. neděle postní, cyklus B, ad Benedictus"
+    fial = "antifony/pust_nedeleB.ly#ivben?zacatek"
     placet = "R - nevyvážená protože vytržená"
     piece = \markup {\sestavTitulek}
   }
