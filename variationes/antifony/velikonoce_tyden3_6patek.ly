@@ -31,7 +31,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d) d \barMin
     d( f) e( f) f g f e f d d \barMaior
@@ -39,6 +39,29 @@
   }
   \addlyrics {
     Bo -- že,
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    f f f g f e f d d \barMaior
+    c d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
     smyj ze mne ú -- pl -- ně mou vi -- nu.
     A -- le -- lu -- ja.
   }
@@ -163,7 +186,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
     a a g g \barFinalis
@@ -184,12 +207,13 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
     \mark\sipka a a g( a) g \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
     A -- le -- lu -- ja.
   }
   \header {
@@ -197,7 +221,8 @@ funkční, je nevyvážená.}
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -218,6 +243,29 @@ funkční, je nevyvážená.}
     differentia = "d"
     psalmus = "Žalm 100"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) a4.( b) \barMin
+    g4 g a c d a( g) f( g) g \barMaior
+    \mark\sipka a( c) a( g) f( a) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te_*
+    před Hos -- po -- di -- na s_já -- so -- tem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 100"
+    id = "rch-a3"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -292,8 +340,11 @@ funkční, je nevyvážená.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
@@ -317,72 +368,54 @@ funkční, je nevyvážená.}
   }
 }
 
-\pageBreak
-
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
-    e4 e( a) a b( a) g g( a) a \barMin
-    a g a a( b a) g f e e \barMaior
-    e f( d) d( e) e \barFinalis
+    \key f \major
+    a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
+    g f e( f) d4. d \barMaior
+    e4 d f( d) d \barFinalis
   }
   \addlyrics {
-    Chci zpí -- vat Hos -- po -- di -- nu,
-    ne -- boť je vel -- mi vzne -- še -- ný.
+    Po -- žeh -- na né krá -- lov -- ství_*
+    na -- še -- ho ot -- ce Da -- vi -- da,
+    kte -- ré při -- chá -- zí.
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "3. ant."
-    modus = "IV"
-    differentia = "E"
-    psalmus = "Zj 15"
-    id = ""
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-II"
+    id = "ne-a2"
+    placet = "aleluja lépe"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    e4 e( a) a b( a) g g( a) a \barMin
-    a g a a( b a) g f e e \barMaior
-    \mark\sipka e( d e) e( g f d) d( e) e \barFinalis
+    a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
+    g f e( f) d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
-    Chci zpí -- vat Hos -- po -- di -- nu,
-    ne -- boť je vel -- mi vzne -- še -- ný.
+    Po -- žeh -- na né krá -- lov -- ství_*
+    na -- še -- ho ot -- ce Da -- vi -- da,
+    kte -- ré při -- chá -- zí.
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "3. ant."
-    modus = "IV"
-    differentia = "E"
-    psalmus = "Zj 15"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\markup\nadpisSkupiny{2}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    f4 c'4. c4 d c b( g) g \barMin
-    a g f g( a) a a g g \barMaior
-    f c'( b) g g \barFinalis
-  }
-  \addlyrics {
-    Chci zpí -- vat Hos -- po -- di -- nu,
-    ne -- boť je vel -- mi vzne -- še -- ný.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
-    psalmus = "Zj 15"
-    id = ""
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-II"
+    id = "ne-a2"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

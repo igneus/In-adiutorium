@@ -202,6 +202,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a b( a) g g( a) a \barMin
+    a g a a( b a) g f e e \barMaior
+    \mark\sipka e( d e) e( g f d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 c'4. c4 d c b( g) g \barMin
+    a g f g( a) a a g g \barMaior
+    f c'( b) g g \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 c( d) c a b a g \barMin
@@ -252,6 +296,26 @@
     d4 e( d e d) d \barMin c b c( d) d \barMaior
     e f g f( d) d e d c \barMaior
     a( c) d( f) e( c) d \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f4. d f4 g a g \barMin
   }
   \addlyrics {
     Chci zpí -- vat Hos -- po -- di -- nu,_*
