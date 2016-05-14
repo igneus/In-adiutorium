@@ -88,7 +88,7 @@
   }
 }
 
-\markup{Responsorium \italic{"\"Přímluvce, Duch svatý\""}. (Je mezi velikonočními responsorii.)}
+\markup\italic{Responsorium \upright{Přímluvce, Duch svatý} je mezi velikonočními responsorii.}
 
 \score {
   \relative c'' {
