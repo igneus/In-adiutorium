@@ -93,7 +93,7 @@
     differentia = "g"
     psalmus = "Žalm 144-I"
     id = "ne-a1"
-    fons = "antifona doslovně převzata z úterý 4. týdne velik. žaltáře (r.ch., 3. ant.)"
+    fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
