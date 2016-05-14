@@ -433,4 +433,44 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c d c b a b a g g \barMaior
+    f e f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c d c b a b a g g \barMaior
+    f e f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \velikTIuteryNespAntIII }
