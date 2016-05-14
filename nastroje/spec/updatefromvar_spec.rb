@@ -103,5 +103,12 @@ describe VariationesUpdater do
       b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { B } }"
       expect(@updater.scores_differ?(a, b)).to be true
     end
+
+    it 'considers scores differing in asterisk same' do
+      a = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a } }"
+      b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a_* } }"
+      p b.lyrics_readable
+      expect(@updater.scores_differ?(a, b)).to be false
+    end
   end
 end

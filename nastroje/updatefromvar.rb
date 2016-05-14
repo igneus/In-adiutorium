@@ -88,7 +88,7 @@ class VariationesUpdater
   def scores_differ?(a, b)
     ((normalize_music(a.music) != normalize_music(b.music)) ||
      (normalize_header(a.header) != normalize_header(b.header)) ||
-     (a.lyrics_readable != b.lyrics_readable))
+     (normalize_lyrics(a.lyrics_readable) != normalize_lyrics(b.lyrics_readable)))
   end
 
   # how many spaces is the lilypond score indented?
@@ -139,6 +139,10 @@ class VariationesUpdater
     r = header_hash.dup
     r.delete 'placet' # development header
     return r
+  end
+
+  def normalize_lyrics(lyrics)
+    lyrics.gsub(/\s*\*/, '') # asterisk
   end
 
   def unindent_first_line(lily_src)
