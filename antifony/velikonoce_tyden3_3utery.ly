@@ -73,6 +73,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 67"
+    placet = "zkusit zhudebnit doslovné znění"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
