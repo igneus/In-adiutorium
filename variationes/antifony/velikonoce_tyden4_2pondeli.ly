@@ -65,7 +65,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( bes) a( g) g \barMin a g f g \mark\sipka d d \barMaior
     f e c c( d) d \barMaior
@@ -108,6 +108,31 @@
     differentia = "a"
     psalmus = "Žalm 90"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c a g \barMin
+    a g f g a a \barMin
+    a c b a( g) g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať je nad ná -- mi_*
+    do -- bro -- ti -- vost Pá -- na,
+    na -- še -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 90"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -156,10 +181,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c b( c) c c \barMaior
     c( d c a) a \barMin g( f) g g f f \barMaior
@@ -175,13 +203,37 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 136-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 a c \mark\sipka b c c \barMin
+    a g f g g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se stal křes -- ťa -- nem,_*
+    pat -- ří Kris -- tu na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 136-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c b( c) c \barMaior
     c c c c c( d) c4.( a) \barMin a4( g) f g f \barMaior
@@ -197,7 +249,181 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 136-II"
-    id = ""
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c b( c) c \barMaior
+    c c c \mark\sipka a b4. g \barMin
+    f4 g a4. g \barMaior
+    g4 a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on dří -- ve
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Milujme Boha, protože on napřed miloval nás. Aleluja."
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c b( c) c \barMaior
+    c c c d \barMin d c \barMin a g a f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) d \barMaior
+    d e d c a g \barMin
+    f( g) a a g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) d \barMaior
+    d e d c a g \barMin
+    f( g) a \mark\sipka g f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g a a \barMin
+    a g f g g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se stal křes -- ťa -- nem,_*
+    pat -- ří Kris -- tu na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g( a) a \barMin
+    a g f g f( d) d \barMin
+    f g g f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  _napřed_ je slovo v daném kontextu velmi nelibozvučné a nepoddajné
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g( a) a \barMin
+    a g f g f4. d \barMin
+    f4 g g f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on dří -- ve
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Milujme Boha, protože on napřed miloval nás. Aleluja."
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
