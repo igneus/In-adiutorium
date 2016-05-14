@@ -52,14 +52,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( g a) g g4.( f4 d) \barMin g g( f) d( c) c \barMaior
-    d4( c d) d( g) f g f4.( d) \barMin f4 d c d( e) d \barMaior
-    c d e d \barFinalis
+    d4 f f f e d f g a g \barMaior
+    a a f g d \barMin
+    c d f e d d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din bu -- du -- je Je -- ru -- za -- lém_*
-    % a % vypustka
-    u -- zdra -- vu -- je ty, jimž pu -- ká srd -- ce.
+    a u -- zdra -- vu -- je
+    ty, jimž pu -- ká srd -- ce.
     A -- le -- lu -- ja.
   }
   \header {
@@ -68,7 +69,6 @@
     differentia = "D"
     psalmus = "Žalm 147-I"
     id = "rch-a3"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
