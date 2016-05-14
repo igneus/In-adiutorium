@@ -7,13 +7,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( e g a) a \barMin a g a b( a) g( a) a \barMaior
-    a g( a e) \barMin g e e( d) d \barMaior
-    d e e e \barFinalis
+    g4( e g a) a \barMin
+    a g a b( a) g( a) a \barMaior
+    a g( a e) \barMin
+    g e e( d) d \barMaior
+    c d f( d) e \barFinalis
   }
   \addlyrics {
-    Slo -- va,_* kte -- rá jsem k_vám mlu -- vil,
-    jsou duch a jsou ži -- vot.
+    Slo -- va,_*
+    kte -- rá jsem k_vám mlu -- vil,
+    jsou duch
+    a jsou ži -- vot.
     A -- le -- lu -- ja.
   }
   \header {
@@ -22,7 +26,6 @@
     differentia = "g"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
-    placet = "? tady si nejsem jist pravou finálou"
     piece = \markup {\sestavTitulek}
   }
 }
