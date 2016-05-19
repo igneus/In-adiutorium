@@ -253,13 +253,13 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( a g) f( g) g \barMaior
-    g g a c( d) c \barMin
+    g g a c( d) c c \barMin
     c d d d d c b a( b) a( g) g \barMaior
     g a a f( e) d \barMin
     d f g a a g g \barFinalis
   }
   \addlyrics {
-    Jste jako bu -- do -- va,
+    Jste ja -- ko bu -- do -- va,
     je -- jí -- miž zá -- kla -- dy
     jsou a -- po -- što -- lo -- vé a pro -- ro -- ci
     a Kris -- tus Je -- žíš

@@ -655,7 +655,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( a g) f( g) g \barMaior
     g g a c( d) c \barMin
@@ -665,6 +665,34 @@
   }
   \addlyrics {
     Jste jako bu -- do -- va,
+    je -- jí -- miž zá -- kla -- dy
+    jsou a -- po -- što -- lo -- vé a pro -- ro -- ci
+    a Kris -- tus Je -- žíš
+    je ka -- me -- nem ná -- rož -- ním.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "nedodělené slabiky"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g( a g) f( g) g \barMaior
+    g g a c( d) c c \barMin
+    c d d d d c b a( b) a( g) g \barMaior
+    g a a f( e) d \barMin
+    d f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Jste ja -- ko bu -- do -- va,
     je -- jí -- miž zá -- kla -- dy
     jsou a -- po -- što -- lo -- vé a pro -- ro -- ci
     a Kris -- tus Je -- žíš
