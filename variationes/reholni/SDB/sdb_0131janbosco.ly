@@ -19,8 +19,8 @@
   \relative c'' {
     \choralniRezim
     g4 g f g a a( g) g \barMaior
-    c d c c( d c) a( \grace { c) } \barMin
-    c c b c a( g) g f( g) a a( g) g \barFinalis
+    c d c c( d c) a( c) \barMin
+    c c b c a a f( g) a a( g) g \barFinalis
   }
   \addlyrics {
     Bůh tě po -- zve -- dl z_pra -- chu
@@ -40,6 +40,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    c d c c( d c) a( \grace { c) } \barMin
+    c c b c \mark\sipka a( g) g f( g) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě po -- zve -- dl z_pra -- chu
+    a po -- sa -- dil tě
+    me -- zi ve -- li -- ká -- ny
+    své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 b a a g g \barMin
     a g a f e f( g) \barMaior
@@ -62,25 +89,57 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( c b) c( d) d \barMaior
+    d d d d( e c) c \barMin
+    d c a( g) g \barMaior
+    a a a a c d c b a( g) g \barFinalis
   }
   \addlyrics {
-    Bůh tě v_církvi po -- vo -- lal
-    k_chvá -- le a slá -- vě své -- ho jmé -- na,
-    aby zje -- vil mlá -- de -- ži svou lás -- ku.
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( c b) c( d) d \barMaior
+    d d d d( e c) c \barMin
+    d \mark\sipka b c( a) a \barMaior
+    c c c c c d c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -150,6 +209,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"kompletář"}}
 
 \markup\justify\italic{
@@ -190,6 +251,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
