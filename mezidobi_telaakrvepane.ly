@@ -428,19 +428,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c a d( c) a a \barMin d e d c a( g) g \barMaior
-    g g( a) g g \barFinalis
+    c4 c c g a g \barMin
+    f g a a c b \barMaior
+    c a g( a) g \barFinalis
   }
   \addlyrics {
-    Po -- zna -- li Je -- ží -- še při lá -- má -- ní chle -- ba.
+    Po -- zna -- li Je -- ží -- še
+    při lá -- má -- ní chle -- ba.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    placet = "autentickou finálou je zřejmě spíš a"
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
