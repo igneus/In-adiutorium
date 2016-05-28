@@ -405,7 +405,7 @@
     g4 f( g) g \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
     f( d) d \barMin d d( f) f f e f d d \barMaior
-    f e c d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Když jed -- li,_* vzal Je -- žíš chléb,
@@ -419,7 +419,6 @@
     differentia = "g"
     psalmus = ""
     id = "up-sexta"
-    fons = "Velikonoční triduum, Zelený čtvrtek, ad Magnificat; přidáno aleluja"
     fial = "pust_triduum.ly#ct-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -476,10 +475,9 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    d4 d d a' g( a bes4.) a4 \barMaior
-    a a g f g( a g) f e( f d) d \barFinalis
+    f4 g a f f( g) g \barMin
+    g bes a g f g g( f) f \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy
@@ -487,10 +485,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 116-II"
-    placet = "série dvou torculů v závěru působí neorganickou retardaci"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -500,9 +497,9 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 f e f g( a g f) d( c) \barMin
-    e f g( a bes g) a \barMin
-    bes a( g) f( e) d( c) d( f g a) g( f) \barFinalis
+    f4 g a f g f \barMin
+    g g f( e) d( c) \barMin
+    f g a f g( f) f \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty jsi ces -- ta,
@@ -514,7 +511,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
-    placet = "~ ; obzvlášť nemilá je melismaty přetížená sestupná řada na _ty jsi život_"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -605,6 +601,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     \markup{\Dagger A} -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle AR1912, 448"
     quid = "ant. k Magnificat"
     modus = "V"
     differentia = "a"
