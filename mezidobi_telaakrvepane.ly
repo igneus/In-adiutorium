@@ -184,8 +184,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 23"
-    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje.
-    A že jsem tady zapomněl uvést zdroj?"
+    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje."
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne28a-rch-aben?kratsi_text"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
