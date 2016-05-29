@@ -227,9 +227,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d d( e d4.) a \barMin
+    c4 c b a b a g g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Bůh je má spá -- sa;
@@ -238,8 +240,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -367,6 +369,14 @@
 }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+
+\markup\justify\italic{
+  Místo následující může být vhodné použít známé zhudebnění identického
+  textu z pera Bohuslava Korejse, zpívaného v rámci obřadů
+  Velkého pátku - \upright{Zpěvy s odpovědí lidu,} s. 368.
+  K tomu se hodí (samozřejmě po transposici, aby se shodovala finála)
+  chorální nápěv psalmodie I.D.
+}
 
 \score {
   \relative c'' {

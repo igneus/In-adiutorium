@@ -222,6 +222,55 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c e d \barMin
+    d d c b a b g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je má spá -- sa;
+    bez o -- ba -- vy mo -- hu dou -- fat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( e d4.) a \barMin
+    c4 c b a b a g g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je má spá -- sa;
+    bez o -- ba -- vy mo -- hu dou -- fat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
