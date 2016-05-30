@@ -570,6 +570,167 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4-- d e f e f( g) g \barMin
+    g g f( g) f e d d \barMin
+    d c d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c) c c d c c( d) d \barMin
+    d d c( d) d c c( a) a \barMin
+    a f g c( b) a a \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( e) d d c d d( c a) a \barMaior
+    g a a( c) c c d( e) d \barMin
+    d c a c( b) a a \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci
+    i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( e) d d c b c( d) d \barMaior
+    a a a( d) c b c( a g) g \barMin
+    f g a c( b) a a \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e) d d c d d( e) e \barMaior
+    e e d( e) d c a( g) g \barMin
+    a c a c( d e d) c( b a) a \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e) d d c d d( e f d) d \barMaior
+    f g g( a) a a g( a) g \barMin
+    g f d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci
+    i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e) d d c d d( e f d) d \barMaior
+    f g g( a) a a \mark\sipka c( b a g) a( g) \barMin
+    g f( g f) d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci
+    i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
