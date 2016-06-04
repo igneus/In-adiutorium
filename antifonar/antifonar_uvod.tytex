@@ -79,7 +79,7 @@ se zpravidla
 označuje kniha užívaná při oficiu, v níž jsou obsaženy
 melodie těch zpěvů, které mají vlastní originální nápěv
 (oproti žalmům a kantikům, zpívaným na omezené množství
-jednoduchých nápěvů), zejm. antifony.
+jednoduchých nápěvů), zejm. antifony a responsoria.
 
 V novověku je často obsah antifonáře širší:
 je to úplný nebo téměř úplný notovaný breviář, obsahující všechny texty
@@ -90,8 +90,11 @@ Antifonář k Denní modlitbě církve z více důvodů není takovým
 úplným breviářem s notami. Chce být minimálním
 doplňkem k již existujícím liturgickým knihám, který umožní
 slavení úplně zpívané liturgie hodin chórovým způsobem.
+Proto obsahuje především notované antifony a responsoria
+a nadto texty žalmů, opatřené značkami usnadňujícími správný
+a jednotný zpěv na chorální nápěvy.
 
-\section{Knihy pro slavení denní modlitby církve se zpěvem}
+\section{Další knihy pro slavení denní modlitby církve se zpěvem}
 
 Výše naznačená koncepce Antifonáře k Denní modlitbě církve
 počítá s využitím dalších knih:
@@ -112,33 +115,13 @@ jenž však samozřejmě neobsahuje hymny pro svátky vlastní kalendáři
 
 \cite{lhymnarius}
 
-\section{Uspořádání Denní modlitby církve}
+K českým hymnům byly vydány varhanní doprovody.
+Problematice doprovodu ostatních částí oficia je věnován samostatný
+oddíl, str. \pageref{sec:doprovod}.
 
-\subsection{Uvedení do první modlitby dne / invitatorium}
+\cite{mesnizpevydoprovod}
 
-Verš Pane, otevři mé rty, viz Společné nápěvy, s. \pageref{tc:paneotevri}
-
-Následuje žalm 95 s příslušnou antifonou vkládanou jako odpověď.
-Tato antifona se přednese a všichni ji hned opakují, potom ji vždy znovu
-opakují po každé strofě žalmu.
-
-Slavnosti a svátky mají úvodní antifonu vlastní nebo ze společných textů.
-O památkách svatých, pokud nemají antifonu vlastní, se může vzít
-buď ze společných textů, nebo z příslušného dne liturgické doby.
-
-Žalm 95 zpívá kantor na nápěv uvedený ve Společných nápěvech,
-s. \pageref{tc:venite}.
-Pokud se zvolí jiný ze žalmů nabízených pro invitatorium
-na začátku žaltáře,
-zpívá se na běžný žalmový nápěv, avšak první verš každé strofy
-se začne zahajovací melodickou formulí (\emph{initium}).
-
-\subsection{Modlitba se čtením}
-
-Verš Bože, pospěš mi na pomoc, viz Společné nápěvy, s. \pageref{tc:bozepospes}.
-Tento úvod se vynechává, předcházelo-li uvedení do první modlitby dne.
-
-Hymnus z \bookRef{hymnáře}.
+\cite{hymnarzelenydoprovod}
 
 \section{Interpretace chorálních melodií}
 
@@ -259,7 +242,21 @@ ho přesto takto umístit. Podobně jednoslabičná zájmena, ...)
 Další nedořešený problém je s výraznými složeninami.
 \end{todo}
 
-\section{Společné nápěvy}
+\section{Varhanní doprovod}\label{sec:doprovod}
+
+Předkládané zhudebnění Denní modlitby církve je koncipováno
+jako chorál, tj. jednohlasý liturgický zpěv, který nevyžaduje
+doprovod. Na druhou stranu se mu ovšem nebrání.
+
+\begin{todo}{}
+Vydané doprovody pro hymny.
+
+Dostupné doprovody chorální psalmodie - ke stažení na internetu,
+ležící v českých veřejných knihovnách, od českých autorů.
+
+Doprovod antifon nyní z důvodu fatální nekompetence nemůžeme dodat,
+případná cizí iniciativa v tom směru vítána.
+\end{todo}
 
 \section{Některá koncepční rozhodnutí}
 
@@ -342,6 +339,37 @@ sáhnuto bylo.
 \begin{todo}{}
 vyjmenovat. Ideálně udělat automatickou proceduru, která je vyhledá
 a připraví na ně odkazy.
+\end{todo}
+
+\section{Společné nápěvy}
+
+\setChantSource{../zakladni_napevy.ly}
+
+\subsection{Na začátku hodinek}
+
+\subsubsection{Uvedení do první modlitby dne}
+
+\simpleScore{#zacatek-prvni}
+
+\subsubsection{Nešpory slavností}
+
+\simpleScore{#zacatek-slavnost}
+
+\subsubsection{Ranní chvály a nešpory nedělí a svátků}
+
+\simpleScore{#zacatek-nedele}
+
+\subsubsection{Ostatní hodinky}
+
+\simpleScore{#zacatek-bezny}
+
+\section{Uspořádání denní modlitby církve se zpěvem}
+
+\begin{todo}{}
+  Možná bude lépe zařadit látku této části do předchozí.
+  Každopádně je třeba někde pojednat o některých zvláštních
+  záležitostech speciálních pro slavení se zpěvem, které tudíž
+  nejsou dostatečně ošetřeny rubrikami breviáře.
 \end{todo}
 
 \clearpage
