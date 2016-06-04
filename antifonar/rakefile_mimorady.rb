@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# volumes that don't fit in the Complete, not to the Small edition
-# of the antiphonal
 
 ######################################################
 # Nesporni zpevy (nespory nejvetsich slavnosti liturgickeho roku

@@ -46,7 +46,7 @@
   podle něj opraveny.
 }
 
-\newcommand{\titulniStranka}{
+\renewcommand{\titulniStranka}{
   \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \begin{titlepage}
     \begin{center}
@@ -67,7 +67,7 @@
   \end{titlepage}
 }
 
-\newcommand{\tiraz}{
+\renewcommand{\tiraz}{
   \pagestyle{empty} % bez hlavicky a bez cisla stranky
   \setlength{\parskip}{0.6cm}
 
