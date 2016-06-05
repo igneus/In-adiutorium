@@ -75,11 +75,12 @@ def typographus(main, latex='pdflatex', biblatex=false)
 
   wd = Dir.pwd
 
-  task final do
+  file lytex => [main] do
     ruby typographus, main
-    
     sh "vlna #{lytex}"
+  end
 
+  file final => [lytex] do
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
 
     latex_commands = {

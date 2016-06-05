@@ -1,3 +1,6 @@
+% build by
+% $ rake nesporni
+
 \documentclass[a5paper, twoside]{article}
 \usepackage[utf8]{inputenc}
 
@@ -20,6 +23,8 @@
 % font Bookman:
 % \usepackage{bookman}
 \usepackage{tgschola}
+
+\usepackage{lettrine} % inicialky; jen docasne pro rychle rozchozeni, pak zase vyhodit
 
 \input{spolecne.tex}
 
@@ -140,6 +145,7 @@ modlitba.
 }
 
 \renewenvironment{psalmus}{}{}
+\newenvironment{psalmodia}{}{}
 
 \renewcommand{\thesection}{}
 \renewcommand{\thesubsection}{}
@@ -206,17 +212,22 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 
 \nadpisOkruh{Společné nápěvy}
 
+\setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
+\setPsalmsDir{zalmy}
+
+\setChantSource{nespornizpevy/tonicommunes.ly}
+
 \nadpisZalmu{Úvodní verš}
 \label{pospes}
 \cisloPisne{001}
-\lilypondfile{generovane/nespornizpevy/tonicommunes_pospes.ly}
+\simpleScore{#pospes}
 
 \nadpisZalmu{Zakončení - požehnání}\cisloPisne{002}
 \label{zakonceni}
-\lilypondfile{generovane/nespornizpevy/tonicommunes_pozehnani.ly}
+\simpleScore{#pozehnani}
 
 \nadpisZalmu{- není-li přítomen kněz}\cisloPisne{003}
-\lilypondfile{generovane/nespornizpevy/tonicommunes_nepozehnani.ly}
+\simpleScore{#nepozehnani}
 
 {\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze
 je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat
@@ -249,111 +260,116 @@ ze stránek http://www.op.cz}}
 % Zj 15 Zjeveni, Josefa, JanaKr, CyrMet /156
 % Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni /157
 
+\setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
+\setPsalmsDir{zalmy}
+
+\setChantSource{nespornizpevy/zalmy.ly}
+
 \nadpisZalmu{kantikum Panny Marie}
 \label{magnificat}
 \cisloPisne{004}
-\lilypondfile{generovane/nespornizpevy/zalmy_magnificat.ly}
+\simpleScore{#magnificat}
 
-\input{generovane/nespornizpevy/kantikum_magnificat.tex}
+\psalm{magnificat}{VIII.G}
 
 \nadpisZalmu{Žalm 47}
 \label{z47}
 \cisloPisne{47}
-\lilypondfile{generovane/nespornizpevy/zalmy_z47.ly}
+\simpleScore{#z47}
 
-\input{generovane/nespornizpevy/zalm47.tex}
+\psalm{zalm47}{VIII.G}
 
 \nadpisZalmu{Žalm 110, 1-5.7}
 \label{z110}
 \cisloPisne{110}
-\lilypondfile{generovane/nespornizpevy/zalmy_z110.ly}
+\simpleScore{#z110}
 
-\input{generovane/nespornizpevy/zalm110.tex}
+\psalm{zalm110}{VII.a}
 
 \nadpisZalmu{Žalm 111}
 \label{z111}
 \cisloPisne{111}
-\lilypondfile{generovane/nespornizpevy/zalmy_z111.ly}
+\simpleScore{#z111}
 
-\input{generovane/nespornizpevy/zalm111.tex}
+\psalm{zalm111}{VII.c}
 
 \nadpisZalmu{Žalm 112}
 \label{z112}
 \cisloPisne{112}
-\lilypondfile{generovane/nespornizpevy/zalmy_z112.ly}
+\simpleScore{#z112}
 
-\input{generovane/nespornizpevy/zalm112.tex}
+\psalm{zalm112}{III.a}
 
 \nadpisZalmu{Žalm 114}
 \label{z114}
 \cisloPisne{114}
-\lilypondfile{generovane/nespornizpevy/zalmy_z114.ly}
+\simpleScore{#z114}
 
-\input{generovane/nespornizpevy/zalm114.tex}
+\psalm{zalm114}{per}
 
 \nadpisZalmu{Žalm 116-I}
 \label{z116i}
 \cisloPisne{116}
-\lilypondfile{generovane/nespornizpevy/zalmy_z116i.ly}
+\simpleScore{#z116i}
 
-\input{generovane/nespornizpevy/zalm116i.tex}
+\psalm{zalm116i}{II.D}
 
 \nadpisZalmu{Žalm 116-II}
 \label{z116ii}
 \cisloPisne{117} % zalm 117 ve slavnostnich nesporach neni a 116-II zase
 % vetsinou neni v moznostech kostelnich ukazatelu cisel :)
-\lilypondfile{generovane/nespornizpevy/zalmy_z116ii.ly}
+\simpleScore{#z116ii}
 
-\input{generovane/nespornizpevy/zalm116ii.tex}
+\psalm{zalm116ii}{II.D}
 
 \nadpisZalmu{Žalm 122}
 \label{z122}
 \cisloPisne{122}
-\lilypondfile{generovane/nespornizpevy/zalmy_z122.ly}
+\simpleScore{#z122}
 
-\input{generovane/nespornizpevy/zalm122.tex}
+\psalm{zalm122}{I.D2}
 
 \nadpisZalmu{Žalm 127}
 \label{z127}
 \cisloPisne{127}
-\lilypondfile{generovane/nespornizpevy/zalmy_z127.ly}
+\simpleScore{#z127}
 
-\input{generovane/nespornizpevy/zalm127.tex}
+\psalm{zalm127}{IV.E}
 
 \nadpisZalmu{Žalm 130}
 \label{z130}
 \cisloPisne{130}
-\lilypondfile{generovane/nespornizpevy/zalmy_z130.ly}
+\simpleScore{#z130}
 
-\input{generovane/nespornizpevy/zalm130.tex}
+\psalm{zalm130}{VII.c}
 
 \nadpisZalmu{Žalm 145-I}
 \label{z145i}
 \cisloPisne{145}
-\lilypondfile{generovane/nespornizpevy/zalmy_z145i.ly}
+\simpleScore{#z145i}
 
-\input{generovane/nespornizpevy/zalm145i.tex}
+\psalm{zalm145i}{I.D}
 
 \nadpisZalmu{kantikum Fp 2}
 \label{kfp2}
 \cisloPisne{152}
-\lilypondfile{generovane/nespornizpevy/zalmy_kfp2.ly}
+\simpleScore{#kfp2}
 
-\input{generovane/nespornizpevy/kantikum_fp2.tex}
+\psalm{fp2}{I.D}
 
 \nadpisZalmu{kantikum Kol 1}
 \label{kkol1}
 \cisloPisne{153}
-\lilypondfile{generovane/nespornizpevy/zalmy_kkol1.ly}
+\simpleScore{#kkol1}
 
-\input{generovane/nespornizpevy/kantikum_kol1.tex}
+\psalm{kol1}{VIII.G}
 
 \nadpisZalmu{kantikum Zj 11}
 \label{kzj11}
 \cisloPisne{155}
-\lilypondfile{generovane/nespornizpevy/zalmy_kzj11.ly}
+\simpleScore{#kzj11}
 
-\input{generovane/nespornizpevy/kantikum_zj11.tex}
+\psalm{zj11}{VIII.G}
 
 \nadpisZalmu{kantikum Zj 19}
 \label{kzj19}
@@ -366,31 +382,33 @@ ze stránek http://www.op.cz}}
 
 \nadpisOkruh{Vánoce}
 
+\setChantSource{nespornizpevy/antifony_vanoce.ly}
+
 \nadpisDen{Narození Páně (24.12.)} \cisloPisne{200}
 
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant1.ly}
+\simpleScore{#narozeni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant2.ly}
+\simpleScore{#narozeni-ant2}
 
 \odkazZalm{z130}{130}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-ant3.ly}
+\simpleScore{#narozeni-ant3}
 
 \odkazKantikum{kkol1}{Kol 1}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
+\simpleScore{#narozeni-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-antmag.ly}
+\simpleScore{#narozeni-antmag}
 
 \odkazMagnificat
 
@@ -402,12 +420,12 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant1.ly}
+\simpleScore{#mb-ant1}
 
 \odkazZalm{z122}{122}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_mb-ant2.ly}
+\simpleScore{#mb-ant2}
 
 \odkazZalm{z127}{127}
 
@@ -415,7 +433,7 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_narozeni-resp.ly}
+\simpleScore{#narozeni-resp}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -426,12 +444,12 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant1.ly}
+\simpleScore{#zjeveni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-ant2.ly}
+\simpleScore{#zjeveni-ant2}
 
 \odkazZalm{z112}{112}
 
@@ -439,45 +457,46 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-resp.ly}
+\simpleScore{#zjeveni-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_vanoce_zjeveni-antmag.ly}
+\simpleScore{#zjeveni-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-% \nadpisDen{Křtu Páně} % ?
-
 %% Velikonocni okruh
 
 \nadpisOkruh{Velikonoce}
+
+\setChantSource{nespornizpevy/antifony_velikonoce.ly}
+
 \nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300} %%%%
 
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant1.ly}
+\simpleScore{#zmrtvychvstani-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant2.ly}
+\simpleScore{#zmrtvychvstani-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-ant3.ly}
+\simpleScore{#zmrtvychvstani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-resp.ly}
+\simpleScore{#zmrtvychvstani-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_zmrtvychvstani-antmag.ly}
+\simpleScore{#zmrtvychvstani-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -488,26 +507,26 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant1.ly}
+\simpleScore{#nanebevstoupeni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant2.ly}
+\simpleScore{#nanebevstoupeni-ant2}
 
 \odkazZalm{z47}{47}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-ant3.ly}
+\simpleScore{#nanebevstoupeni-ant3}
 
 \odkazKantikum{kzj11}{Zj 11}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-resp.ly}
+\simpleScore{#nanebevstoupeni-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_nanebevstoupeni-antmag.ly}
+\simpleScore{#nanebevstoupeni-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -518,60 +537,62 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant1.ly}
+\simpleScore{#seslani-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant2.ly}
+\simpleScore{#seslani-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-ant3.ly}
+\simpleScore{#seslani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-resp.ly}
+\simpleScore{#seslani-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_velikonoce_seslani-antmag.ly}
+\simpleScore{#seslani-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
 \odkazZakonceni
 
-%% Slavnosti Pane v mezidobi
+Slavnosti Pane v mezidobi
 
 \nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
+
+\setChantSource{nespornizpevy/antifony_slavnostipane.ly}
 
 \nadpisDen{Nejsvětější Trojice} \cisloPisne{400} %%%%
 
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant1.ly}
+\simpleScore{#trojice-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant2.ly}
+\simpleScore{#trojice-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-ant3.ly}
+\simpleScore{#trojice-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-resp.ly}
+\simpleScore{#trojice-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_trojice-antmag.ly}
+\simpleScore{#trojice-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -582,26 +603,26 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant1.ly}
+\simpleScore{#tela-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant2.ly}
+\simpleScore{#tela-ant2}
 
 \odkazZalm{z116ii}{116-II}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-ant3.ly}
+\simpleScore{#tela-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-resp.ly}
+\simpleScore{#tela-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_tela-antmag.ly}
+\simpleScore{#tela-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -612,26 +633,26 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant1.ly}
+\simpleScore{#srdce-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant2.ly}
+\simpleScore{#srdce-ant2}
 
 \odkazZalm{z111}{111}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-ant3.ly}
+\simpleScore{#srdce-ant3}
 
 \odkazKantikum{kfp2}{Fp 2}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-resp.ly}
+\simpleScore{#srdce-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_srdce-antmag.ly}
+\simpleScore{#srdce-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -642,26 +663,26 @@ ze stránek http://www.op.cz}}
 \odkazBozePospes
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant1.ly}
+\simpleScore{#krale-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant2.ly}
+\simpleScore{#krale-ant2}
 
 \odkazZalm{z145i}{145-I}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-ant3.ly}
+\simpleScore{#krale-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 \rubrikaCteni
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-resp.ly}
+\simpleScore{#krale-resp}
 
 \cisloCastiPisne
-\lilypondfile{generovane/nespornizpevy/antifony_slavnostipane_krale-antmag.ly}
+\simpleScore{#krale-antmag}
 
 \odkazMagnificat
 \rubrikaPrimluvy
