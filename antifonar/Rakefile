@@ -80,7 +80,7 @@ def typographus(main, latex='pdflatex', biblatex=false)
     sh "vlna #{lytex}"
   end
 
-  file final => [lytex] do
+  file final => [lytex, 'spolecne.tex'] do
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
 
     latex_commands = {

@@ -28,6 +28,10 @@
 
 \input{spolecne.tex}
 
+% typographus configuration
+\setPsalmsDir{zalmy}
+\setConfig{nespornizpevy/typographus.yml}
+
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\nazev}{Nešporní zpěvy}
 
@@ -130,6 +134,11 @@ modlitba.
 % change \section title format using titlesec
 % \titleformat*{\section}{\bfseries\filcenter}
 
+% make \index void
+% we don't use it, but some of the commands in spolecne.tex
+% call it
+\renewcommand{\index}[2]{}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
@@ -191,7 +200,6 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 \nadpisOkruh{Společné nápěvy}
 
 \setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
-\setPsalmsDir{zalmy}
 
 \setChantSource{nespornizpevy/tonicommunes.ly}
 
