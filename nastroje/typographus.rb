@@ -29,7 +29,7 @@ module Typographus
       :chant_basedir => '.',
       :psalms_dir => '.',
       :includes => [],
-      :generated_dir => 'generovane',
+      :generated_dir => 'typographus_tmp',
       :output_dir => 'vystup',
       :doxology => false,
       :remove_optional_alleluia => false
@@ -114,7 +114,7 @@ module Typographus
         # ../ because the paths are relative to the source but here we need them
         # relative to the output directory.
         # This solution is quite dirty and not universally working ...
-        "\\include \"../#{inc}\""
+        "\\include \"../../#{inc}\""
       end
       prepend_text = prepend_text.join("\n")
       @musicsplitter_setup[:prepend_text] = prepend_text
@@ -299,6 +299,8 @@ module Typographus
 
         if psalm_sources.size > 0 then
           STDERR.puts "Warning: #{psalm_name} not found, but successfully composed from discovered parts of the same text: #{psalm_sources.join(' ')}; you'd better check the output."
+        else
+          raise RuntimeError.new("Psalm file '#{psalmf}' not found. Bad setup of psalm directory path?")
         end
       else
         psalm_sources << psalmf
@@ -308,7 +310,7 @@ module Typographus
           not @doxology_noappend.include?(File.basename(psalmf)) then
         psalm_sources << gloriapatri 
       end
-      
+
       pslmpointer_opts = {
         :output => { :pointing => {:tone => tone} }
       }
@@ -432,6 +434,7 @@ module Typographus
       end
 
       full_path = File.join @setup.chant_basedir, path
+      #init_musicsplitter # always, to have fresh setup
       # the values of @split_music_files are LilyPondMusic instances
       @split_music_files[path] = @splitter.split_scores(full_path) do |score_text, score|
         process_score score_text, score
