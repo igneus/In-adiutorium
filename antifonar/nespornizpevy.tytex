@@ -72,28 +72,6 @@
   \end{titlepage}
 }
 
-\renewcommand{\tiraz}{
-  \pagestyle{empty} % bez hlavicky a bez cisla stranky
-  \setlength{\parskip}{0.6cm}
-
-  \begin{center}
-    {\Large \textbf{\nazev}}
-
-    {\large \autor}
-
-    \tirazProjekt
-
-    \tirazSazbaProgramem
-  \end{center}
-
-  \setlength{\parindent}{0cm} % prvni radek odstavce neodsazovat
-  \textDoTiraze
-
-  \begin{center}
-    \dmyyyydate \today
-  \end{center}
-}
-
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
