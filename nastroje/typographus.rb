@@ -14,8 +14,11 @@ require_relative 'splitscores.rb'
 require_relative 'lib/typographus/scoremodifier.rb'
 
 require 'pslm'
+
+require 'fileutils'
 require 'ostruct'
 require 'yaml'
+require 'active_support/core_ext/hash/keys'
 
 if RUBY_VERSION.split('.')[0].to_i < 2 then
   STDERR.puts "WARNING: typographus expects ruby 2.0.x, you're running #{RUBY_VERSION}."
@@ -37,6 +40,9 @@ module Typographus
 
     def initialize(fpath)
       @setup = OpenStruct.new @@default_setup
+
+      @setup.generated_dir = File.join(@setup.generated_dir, File.basename(fpath).gsub('.', '_'))
+
       @psalmpreprocessor_setup = ::StructuredSetup.new({
         :general => {
           :format => 'latex', # latex|pslm
@@ -98,7 +104,7 @@ module Typographus
     def make_dirs
       [:generated_dir, :output_dir].each do |d|
         if ! FileTest.directory?(@setup.send(d)) then
-          Dir.mkdir @setup.send(d)
+          FileUtils.mkdir_p @setup.send(d)
         end
       end
     end
@@ -141,7 +147,7 @@ module Typographus
 
       if conf.include? 'psalmpreprocessor' then
         conf['psalmpreprocessor'].each_pair do |k,v|
-          @psalmpreprocessor_setup[k.to_sym] = v
+          @psalmpreprocessor_setup[k.to_sym] = v.deep_symbolize_keys
         end
         pp = true
       end
@@ -236,7 +242,7 @@ module Typographus
 
         r = ''
         if @setup[:psalm_tones] then
-          r += prepare_psalm_tone_(psalm_tone) + "\n\n"
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
         r += wrap_psalmody { prepare_psalm($1, psalm_tone) }
         r
@@ -358,7 +364,7 @@ module Typographus
 
     def prepare_psalm_tone(tone)
       tone = tone.gsub('.', '-')
-      return prepare_generic_score 'psalmodie.ly#'+tone
+      return prepare_generic_score '../psalmodie.ly#'+tone
     end
 
     def prepare_psalm_tone_f(fial)
@@ -369,7 +375,7 @@ module Typographus
       diff = score.header['differentia'].gsub('*', 'x').gsub(' ', '')
       psalm_tone = "#{mod}-#{diff}"
 
-      return prepare_generic_score 'psalmodie.ly#'+psalm_tone
+      return prepare_generic_score '../psalmodie.ly#'+psalm_tone
     end
 
     # converts a Czech psalm name how it is customarily used in the project
@@ -506,7 +512,9 @@ module Typographus
   end
 end
 
-
+# Typographus doesn't accept any options and it's a design decision:
+# all settings should be contained in the document itself,
+# just like in any normal LaTeX document
 if __FILE__ == $0
   files_to_process = ARGV
 
