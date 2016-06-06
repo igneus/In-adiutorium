@@ -633,7 +633,7 @@
     }
     \header {
       quid = "resp."
-      modus = "VIII"
+      modus = "VI"
       placet = "pro melisma na _námi_ není žádný důvod"
       id = "narozeni-2ne-resp"
       piece = \markup\sestavTitulekResp
