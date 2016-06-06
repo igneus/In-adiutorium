@@ -126,7 +126,11 @@ modlitba.
   \stepcounter{castPisne}
 }
 
+% commands expected by pslm
 \renewenvironment{psalmus}{}{}
+\renewcommand{\psalmStrophe}{\vspace{2mm}}
+
+% commands expected by typographus
 \newenvironment{psalmodia}{}{}
 
 \renewcommand{\thesection}{}
