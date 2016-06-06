@@ -60,8 +60,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 147-II"
+    fial = "commune/commune_maria.ly#rch-aben"
     id = "1ne-a2"
-    fons = "společné texty o Panně Marii, ant. k Benedictus"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -175,8 +175,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "commune/commune_maria.ly#invit1?jiny_text"
     id = "invit"
-    fons = "upravena z ant. ze společných textů o P.M."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -391,8 +391,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
+    fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
     id = "rch-a1"
-    fons = "commune o P.M., r.ch., 1. ant. - zkraceno"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -639,8 +639,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
+    fial = "commune/commune_maria.ly#1ne-a3"
     id = "2ne-a3"
-    fons = "commune o P.M., 1. nešp., 3. ant."
     piece = \markup {\sestavTitulek}
   }
 }
