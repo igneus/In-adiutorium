@@ -387,7 +387,7 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#narozeni-resp}
+\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#narozeni-antmag}
@@ -415,7 +415,8 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#narozeni-resp}
+% responsorium je opravdu stejne jako o Narozeni Pane
+\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \odkazMagnificat
 \rubrikaPrimluvy
@@ -439,7 +440,8 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#zjeveni-resp}
+% opravdu tak, opakuje se responsorium z 1. nespor
+\simpleScore{../vanoce_zjevenipane.ly#epifanie-1ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#zjeveni-antmag}
@@ -475,7 +477,7 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#zmrtvychvstani-resp}
+\simpleScore{../velikonoce_velikonocnioktav.ly#resp}
 
 \cisloCastiPisne
 \simpleScore{#zmrtvychvstani-antmag}
@@ -505,7 +507,7 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#nanebevstoupeni-resp}
+\simpleScore{../velikonoce_nanebevstoupeni.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#nanebevstoupeni-antmag}
@@ -535,7 +537,7 @@ ze stránek http://www.op.cz}}
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#seslani-resp}
+\simpleScore{../velikonoce_seslaniduchasv.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#seslani-antmag}
@@ -544,7 +546,7 @@ ze stránek http://www.op.cz}}
 \rubrikaPrimluvy
 \odkazZakonceni
 
-Slavnosti Pane v mezidobi
+%% Slavnosti Pane v mezidobi
 
 \nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
 
@@ -571,7 +573,8 @@ Slavnosti Pane v mezidobi
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#trojice-resp}
+% ano, opakuje se z prvnich nespor
+\simpleScore{../mezidobi_trojice.ly#1ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#trojice-antmag}
@@ -601,7 +604,8 @@ Slavnosti Pane v mezidobi
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#tela-resp}
+% opakuje se z prvnich nespor
+\simpleScore{../mezidobi_telaakrvepane.ly#1ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#tela-antmag}
@@ -631,7 +635,7 @@ Slavnosti Pane v mezidobi
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#srdce-resp}
+\simpleScore{../mezidobi_nejsvsrdce.ly#1ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#srdce-antmag}
@@ -661,7 +665,7 @@ Slavnosti Pane v mezidobi
 \rubrikaCteni
 
 \cisloCastiPisne
-\simpleScore{#krale-resp}
+\simpleScore{../mezidobi_kristakrale.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#krale-antmag}
