@@ -3,14 +3,17 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
-  
+
   indent = 0\cm
   short-indent = 0\cm
-  
+
   \context {
     \Score
     \remove Bar_number_engraver
     \override LyricText #'self-alignment-X = #LEFT
+
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
   }
 }
 
