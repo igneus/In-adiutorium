@@ -204,3 +204,51 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin a4( b) c( d) d d( e d) c b a a \barMaior
+    a g a c( d) c( b a) a \barMin b( a) g g( a) g g \barFinalis
+
+    a^\markup\rubrVelikAleluja b g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Pan -- ně Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "zvestovani-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c d) f( e) f d( e d) d \barMaior
+    e f e d c d( c) \barMin d c d( f) e c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Tří -- bils mě oh -- něm
+    a ne -- na -- le -- zl jsi na mně ne -- pra -- vos -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-I"
+    id = "nepomuk-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}

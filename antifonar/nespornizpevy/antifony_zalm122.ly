@@ -40,3 +40,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d d d d d d( f g a) g a( c b a) g( a) a \barMax
+    g a a a g a g e e( d) \barMaior
+    d d( f g) f( e) d f( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "nanebevzeti-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}

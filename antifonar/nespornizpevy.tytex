@@ -623,6 +623,13 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0319josef.ly#1ne-resp-post}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0319josef.ly#1ne-resp-velik}
+
 \odkazMagnificat
 
 \nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{501}
@@ -630,6 +637,13 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z110}{110}
 \odkazZalm{z130}{130}
 \odkazKantikum{kkol1}{Kol 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp-velik}
+
 \odkazMagnificat
 
 \nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{502}
@@ -637,6 +651,13 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z116i}{116-I}
 \odkazZalm{z116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp-velik}
+
 \odkazMagnificat
 
 \nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{503}
@@ -644,6 +665,11 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+% ano, opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0624narozenikrtitele.ly#1ne-resp}
+
 \odkazMagnificat
 
 \nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{504}
@@ -651,6 +677,11 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z116ii}{116-II}
 \odkazZalm{z126}{126}
 \odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+% opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0629petraapavla.ly#1ne-r}
+
 \odkazMagnificat
 
 \nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{505}
@@ -658,6 +689,10 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0705cyrilmetodej.ly#2ne-resp}
+
 \odkazMagnificat
 
 \nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{506}
@@ -665,6 +700,10 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z122}{122}
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0815nanebevzetipm.ly#2ne-resp}
+
 \odkazMagnificat
 
 %% Sanktoral - podzim+zima

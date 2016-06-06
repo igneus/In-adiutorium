@@ -36,3 +36,25 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( f) g( a) \barMin
+    g a a( c) c c( d c) b( c) a g a g g \barMaior
+    c d( e) c( b a) a \barMin g( f) e f( g a) f e \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a Pan -- na
+    by -- la vza -- ta do ne -- bes -- kých pří -- byt -- ků,
+    kde Král krá -- lů vlád -- ne v_zá -- ři hvězd.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    id = "nanebevzeti-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}

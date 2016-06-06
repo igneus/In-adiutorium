@@ -310,3 +310,193 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a f g e e \barMaior
+    f g a b g a \barMaior
+    a g( a) a a g a g e e \barMin
+    d f g a g e e \barFinalis
+
+    d^\markup\rubrVelikAleluja d g( f) e \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš za -- čal pů -- so -- bit,
+    by -- lo mu tři -- cet let
+    a li -- dé ho po -- va -- žo -- va -- li
+    za sy -- na Jo -- se -- fo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "josef-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d d \barMin d( f) e f e d( e) d( c) c \barMax
+
+    d4 f( d) d
+    d e f g( f) e \barMin
+    d c( d) d \barMin
+    d d c d d f e c d d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "zvestovani-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d c) d e( c d4.) d \barMin a4( d c b) a( g) a( g) g \barMaior
+    a a b c a b a a( g) g \barMaior
+    a a( b c) d e( d) c( d) \barMin c d c( b) a( g) a( g) g \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_o -- čích vlád -- ců vzbu -- dím ob -- div:
+    když bu -- du ml -- čet, bu -- dou če -- kat,
+    když bu -- du mlu -- vit, bu -- dou dá -- vat po -- zor.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nepomuk-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c( d) d \barMin c d d d e d c( d) d \barMaior
+    d c b g( a) a( g) \barMaior
+
+    f a a c b g g \barMax
+
+    a a g( a) a \barMin
+    b c d e d c b( c) a a \barMaior
+    a( b) c( d) d c d e( d c) d \barMin
+    c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+
+    Spa -- si -- tel o něm ře -- kl:
+
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    id = "krtitel-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin g a b( c) b a( b a) a \barMaior
+    a g( f g) g( a) \barMin b( c) d c c d d \barMaior
+    d( f d) c( e) c b( a) \barMin d( c b) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr,_* prv -- ní z_a -- poš -- to -- lů,
+    a Pa -- vel, u -- či -- tel ná -- ro -- dů,
+    pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "pp-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d f( a) a a bes g a \barMin
+    f c' c c bes a g g g \barMax
+    f f f f f g( a g) f( e) d( e) c c \barMaior
+    d f( a) a a bes( c bes) a g a a \barMin
+    a f e d4. d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí Cy -- ril a Me -- to -- děj
+    pa -- tří me -- zi Bo -- ží přá -- te -- le;
+    věr -- ně hlá -- sa -- li e -- van -- ge -- li -- um
+    a do -- sta -- li věč -- nou od -- mě -- nu
+    od své -- ho Pá -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
+    a( bes) a g( a) a \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "nanebevzeti-antmag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
