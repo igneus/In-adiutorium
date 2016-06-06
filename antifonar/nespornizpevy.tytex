@@ -91,30 +91,14 @@
   \fancyhead[CE,CO]{#1}
 }
 
-\newcommand{\odkazBozePospes}{
-\emph{\indent Bože, pospěš mi na pomoc}, str. \pageref{pospes}.
-
-}
-\newcommand{\odkazZakonceni}{Zakončení, str. \pageref{zakonceni}
-
-}
-\newcommand{\odkazZalm}[2]{- Žalm #2, str. \pageref{#1}.
-
-}
-\newcommand{\odkazKantikum}[2]{- Kantikum #2, str. \pageref{#1}.
-
-}
-\newcommand{\odkazMagnificat}{- Kantikum Panny Marie, str. \pageref{magnificat}.\\
-
-}
-\newcommand{\rubrikaCteni}{Následuje krátké čtení. Po krátkém čtení
-se zpívá responsorium:
-
-}
-\newcommand{\rubrikaPrimluvy}{Následují přímluvy, Modlitba Páně a závěrečná
-modlitba.
-
-}
+\newcommand{\odkazRubrika}[1]{
+  \hfill\small \textit{#1}}
+\newcommand{\odkazZalm}[2]{\odkazRubrika{Žalm #2, str. \pageref{#1}.
+}}
+\newcommand{\odkazKantikum}[2]{\odkazRubrika{Kantikum #2, str. \pageref{#1}.
+}}
+\newcommand{\odkazMagnificat}{\odkazRubrika{Kantikum Panny Marie, str. \pageref{magnificat}.
+}}
 
 \newcounter{castPisne}
 \newcommand{\cisloPisne}[1]{
@@ -193,7 +177,7 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 % From now on, we don't want the first line of a paragraph to be indented
 \setlength{\parindent}{0pt}
 
-\nadpisOkruh{Společné nápěvy}
+\nadpisOkruh{Uspořádání}
 
 \setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
 
@@ -203,6 +187,21 @@ zpěvů čísly, takže lze při nešporách využít číselníku normálně uk
 \label{pospes}
 \cisloPisne{001}
 \simpleScore{#pospes}
+
+\nadpisZalmu{Hymnus}
+
+\nadpisZalmu{Žalmy}
+Zpívají se tři žalmy se svými antifonami.
+
+\nadpisZalmu{Krátké čtení}
+Lektor přečte z breviáře krátké čtení. Po něm se zpívá responsorium.
+
+\nadpisZalmu{Kantikum Panny Marie}
+se svou antifonou
+
+\nadpisZalmu{Přímluvy}
+
+\nadpisZalmu{Modlitba Páně}
 
 \nadpisZalmu{Zakončení - požehnání}\cisloPisne{002}
 \label{zakonceni}
@@ -368,8 +367,6 @@ ze stránek http://www.op.cz}}
 
 \nadpisDen{Narození Páně (24.12.)} \cisloPisne{200}
 
-\odkazBozePospes
-
 \cisloCastiPisne
 \simpleScore{#narozeni-ant1}
 
@@ -384,22 +381,15 @@ ze stránek http://www.op.cz}}
 \simpleScore{#narozeni-ant3}
 
 \odkazKantikum{kkol1}{Kol 1}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#narozeni-antmag}
-
 \odkazMagnificat
 
-\rubrikaPrimluvy
-\odkazZakonceni
-
 \nadpisDen{Matky Boží, Panny Marie (1.1.)} \cisloPisne{201}
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#mb-ant1}
@@ -412,19 +402,14 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z127}{127}
 
 \odkazKantikum{kef1}{Ef 1}
-\rubrikaCteni
 
 \cisloCastiPisne
 % responsorium je opravdu stejne jako o Narozeni Pane
 \simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Zjevení Páně (6.1.)} \cisloPisne{202}
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#zjeveni-ant1}
@@ -437,7 +422,6 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z112}{112}
 
 \odkazKantikum{kzj15}{Zj 15}
-\rubrikaCteni
 
 \cisloCastiPisne
 % opravdu tak, opakuje se responsorium z 1. nespor
@@ -445,10 +429,7 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 \simpleScore{#zjeveni-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 %% Velikonocni okruh
 
@@ -457,8 +438,6 @@ ze stránek http://www.op.cz}}
 \setChantSource{nespornizpevy/antifony_velikonoce.ly}
 
 \nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#zmrtvychvstani-ant1}
@@ -474,21 +453,15 @@ ze stránek http://www.op.cz}}
 \simpleScore{#zmrtvychvstani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../velikonoce_velikonocnioktav.ly#resp}
 
 \cisloCastiPisne
 \simpleScore{#zmrtvychvstani-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Nanebevstoupení Páně} \cisloPisne{301} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#nanebevstoupeni-ant1}
@@ -504,21 +477,15 @@ ze stránek http://www.op.cz}}
 \simpleScore{#nanebevstoupeni-ant3}
 
 \odkazKantikum{kzj11}{Zj 11}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../velikonoce_nanebevstoupeni.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#nanebevstoupeni-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Seslání Ducha svatého} \cisloPisne{302} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#seslani-ant1}
@@ -534,17 +501,13 @@ ze stránek http://www.op.cz}}
 \simpleScore{#seslani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../velikonoce_seslaniduchasv.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#seslani-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 %% Slavnosti Pane v mezidobi
 
@@ -553,8 +516,6 @@ ze stránek http://www.op.cz}}
 \setChantSource{nespornizpevy/antifony_slavnostipane.ly}
 
 \nadpisDen{Nejsvětější Trojice} \cisloPisne{400} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#trojice-ant1}
@@ -570,7 +531,6 @@ ze stránek http://www.op.cz}}
 \simpleScore{#trojice-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 
 \cisloCastiPisne
 % ano, opakuje se z prvnich nespor
@@ -578,14 +538,9 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 \simpleScore{#trojice-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Těla a Krve Páně} \cisloPisne{401} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#tela-ant1}
@@ -601,7 +556,6 @@ ze stránek http://www.op.cz}}
 \simpleScore{#tela-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 
 \cisloCastiPisne
 % opakuje se z prvnich nespor
@@ -609,14 +563,9 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 \simpleScore{#tela-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#srdce-ant1}
@@ -632,21 +581,15 @@ ze stránek http://www.op.cz}}
 \simpleScore{#srdce-ant3}
 
 \odkazKantikum{kfp2}{Fp 2}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../mezidobi_nejsvsrdce.ly#1ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#srdce-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Ježíše Krista Krále} \cisloPisne{403} %%%%
-
-\odkazBozePospes
 
 \cisloCastiPisne
 \simpleScore{#krale-ant1}
@@ -662,17 +605,13 @@ ze stránek http://www.op.cz}}
 \simpleScore{#krale-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 
 \cisloCastiPisne
 \simpleScore{../mezidobi_kristakrale.ly#2ne-resp}
 
 \cisloCastiPisne
 \simpleScore{#krale-antmag}
-
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 %% Sanktoral - jaro+leto
 
@@ -681,138 +620,90 @@ ze stránek http://www.op.cz}}
 % Jana Nep. a Cyrila s Metodejem
 \nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)} \cisloPisne{500}
 
-\odkazBozePospes
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{501}
 
-\odkazBozePospes
 \odkazZalm{z110}{110}
 \odkazZalm{z130}{130}
 \odkazKantikum{kkol1}{Kol 1}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{502}
 
-\odkazBozePospes
 \odkazZalm{z116i}{116-I}
 \odkazZalm{z116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{503}
 
-\odkazBozePospes
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{504}
 
-\odkazBozePospes
 \odkazZalm{z116ii}{116-II}
 \odkazZalm{z126}{126}
 \odkazKantikum{kef1}{Ef 1}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{505}
 
-\odkazBozePospes
 \odkazZalm{z15}{15}
 \odkazZalm{z112}{112}
 \odkazKantikum{kzj15}{Zj 15}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{506}
 
-\odkazBozePospes
 \odkazZalm{z122}{122}
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 %% Sanktoral - podzim+zima
 
 \nadpisDen{sv. Václava, mučedníka (28.9.)} \cisloPisne{507}
 
-\odkazBozePospes
 \odkazZalm{116i}{116-I}
 \odkazZalm{116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Všech svatých (1.11.)} \cisloPisne{508}
 
-\odkazBozePospes
 \odkazZalm{z110}{110}
 \odkazZalm{z116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{509}
 
-\odkazBozePospes
 \odkazZalm{z121}{121}
 \odkazZalm{z130}{130}
 \odkazKantikum{kfp2}{Fp 2}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{510}
 
-\odkazBozePospes
 \odkazZalm{z122}{122}
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
 \cisloPisne{511}
 
-\odkazBozePospes
 \odkazZalm{z46}{46}
 \odkazZalm{z122}{122}
 \odkazKantikum{kzj19}{Zj 19}
-\rubrikaCteni
 \odkazMagnificat
-\rubrikaPrimluvy
-\odkazZakonceni
 
 \clearpage
 \fancyhead[CE,CO]{}
