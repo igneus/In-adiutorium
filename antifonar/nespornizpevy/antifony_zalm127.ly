@@ -58,3 +58,25 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c4. c \barMin d4 c b b( c) a \barMax
+    a a b( c) a( g) c d d( c) c \barMax
+    b( c) a a4.( g) \barMin f4 g a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
+    ty jsi ra -- dost Iz -- ra -- e -- le,
+    ty jsi čest na -- še -- ho li -- du.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 127"
+    id = "neposkvrnena-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}

@@ -55,3 +55,25 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') bes a( g) g \barMin
+    g f g g( a) a g f e e \barMaior
+    f( d) d \barMin f e d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "zemreli-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}

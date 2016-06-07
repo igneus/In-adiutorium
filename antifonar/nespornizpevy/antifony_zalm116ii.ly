@@ -72,3 +72,51 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a b c d( e) d \barMin
+    e e d e d \barMaior
+    e e g e f d c \barMin d c b a( g) \barMaior
+    a a a a b( a) g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- spo -- lé -- hal na své ko -- pí
+    a -- ni na svůj meč,
+    a -- le s_Bo -- ží po -- mo -- cí pře -- má -- hal ty,
+    kdo na ně -- ho ú -- to -- či -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = "vaclav-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d d( f e c) c( d) \barMin
+    c b( c) c b c a g( a) a \barMaior
+    g f g a a c( d e) c d( c) b \barMin
+    a g a b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = "vsichni-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}

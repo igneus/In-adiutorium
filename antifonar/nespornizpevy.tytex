@@ -713,6 +713,11 @@ ze stránek http://www.op.cz}}
 \odkazZalm{116i}{116-I}
 \odkazZalm{116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+% opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0928vaclav.ly#1ne-r}
+
 \odkazMagnificat
 
 \nadpisDen{Všech svatých (1.11.)} \cisloPisne{508}
@@ -720,6 +725,10 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z110}{110}
 \odkazZalm{z116ii}{116-II}
 \odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/1101vsichnisvati.ly#2ne-r}
+
 \odkazMagnificat
 
 \nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{509}
@@ -727,6 +736,10 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z121}{121}
 \odkazZalm{z130}{130}
 \odkazKantikum{kfp2}{Fp 2}
+
+\cisloCastiPisne
+\simpleScore{../commune/zazemrele.ly#ne-r}
+
 \odkazMagnificat
 
 \nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{510}
@@ -734,6 +747,10 @@ ze stránek http://www.op.cz}}
 \odkazZalm{z122}{122}
 \odkazZalm{z127}{127}
 \odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/1208pmpocatebezposkvrny.ly#2ne-resp}
+
 \odkazMagnificat
 
 \nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
@@ -741,7 +758,15 @@ ze stránek http://www.op.cz}}
 
 \odkazZalm{z46}{46}
 \odkazZalm{z122}{122}
-\odkazKantikum{kzj19}{Zj 19}
+\odkazKantikum{kzj19}{Zj 19} % mimo dobu postní
+\odkazKantikum{kzj15}{Zj 15} % v době postní
+
+\cisloCastiPisne
+\simpleScore{../commune/commune_kostel.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../commune/commune_kostel.ly#2ne-resp-velik}
+
 \odkazMagnificat
 
 \clearpage

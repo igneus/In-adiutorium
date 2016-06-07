@@ -54,3 +54,23 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( a) g a c b a g a \barMaior
+    c c c b( a g) a a f f \barFinalis
+  }
+  \addlyrics {
+    Tvůj o -- děv je bí -- lý ja -- ko sníh
+    a tvo -- je tvář ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "neposkvrnena-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}

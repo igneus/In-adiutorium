@@ -125,3 +125,25 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d c d e f f \barMin
+    g a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    všich -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "kostel-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}

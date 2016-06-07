@@ -74,3 +74,23 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b( c) a a g f f( g) g \barMin
+    b c a a a g f f( g e) e \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "IV"
+    differentia = "g"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    id = "kostel-ant3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}

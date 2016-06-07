@@ -61,3 +61,47 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b( c d c d) c \barMin d( e d c) b( g) a \barMaior
+    f g a a a c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná, Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 122"
+    id = "neposkvrnena-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    g( f d) e f g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Do do -- mu Hos -- po -- di -- no -- va
+    pů -- jde -- me s_ra -- dos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    id = "kostel-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
