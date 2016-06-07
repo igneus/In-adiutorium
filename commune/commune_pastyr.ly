@@ -81,6 +81,7 @@
     psalmus = "Ef 1"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -537,6 +538,7 @@
     psalmus = ""
     id = "tercie"
     fons = "7. ne velikonoční cyk. B, 2. nešp., k Magnif., 1. část; upraven konec (navic E), doplněno aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?cast&upraveno&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -564,6 +566,7 @@
     psalmus = ""
     id = "sexta"
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -589,6 +592,7 @@
     psalmus = ""
     id = "nona"
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -616,6 +620,7 @@
     psalmus = "Žalm 15"
     id = "2ne-a1"
     fons = "Cyril a Metoděj, dopoledne; úprava textu z pl. do sg. + doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#tercie?jiny_text&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

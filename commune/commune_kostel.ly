@@ -587,8 +587,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = "tercie"
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
+    fial = "commune/commune_pastyr.ly#nona?cast"
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -735,6 +736,7 @@
     psalmus = "Zj. 15"
     id = "2ne-a3-pust"
     fons = "žaltář, pátek 1.t., nešp., 3. ant."
+    fial = "antifony/tyden1_6patek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
