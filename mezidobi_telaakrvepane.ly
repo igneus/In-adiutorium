@@ -477,23 +477,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d) d \barMaior
-    c( d e) c a a \barMin c b a g f g f e f( a) a \barMaior
-    a a( b c) c( d) d( c) d( c) \barMin
-    d c b a( g) g a( g) f g g( a g) g \barFinalis
+    g4 g( a) a \barMin
+    c a g a \barMin
+    a a g f g f g a g g \barMaior
+    g f g a a \barMin
+    c c b a g f g a g g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
-    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
     se o -- bě -- tu -- je
     pod způ -- so -- ba -- mi chle -- ba a ví -- na.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
-    placet = "není zlá, ale zasloužila by pár pokusů o alternativní řešení"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

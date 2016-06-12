@@ -1038,7 +1038,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d) d \barMaior
     \mark\sipka c( d e) c a a \barMin c b a g f g f e f( a) a \barMaior
@@ -1340,6 +1340,110 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( a) a \barMin
+    g a c c \barMin
+    c c d c d c d c d c \barMaior
+    c bes a g f \barMin
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( \grace{ f e) } g a \barMin
+    c a g a \barMin
+    a a g f g f g a g g \barMaior
+    g f g a a \barMin
+    c c b a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g( a) a \barMin
+    c a g a \barMin
+    a a g f g f g a g g \barMaior
+    g f g a a \barMin
+    c c b a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f d \barMin
+    g f d d \barMin
+    f g a a a a g f g g \barMaior
+    g a f d( e) d( c) \barMin
+    d d d e f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
     psalmus = "Žalm 110"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
