@@ -14,6 +14,7 @@
 # names to main files).
 
 require 'stringio'
+require 'optparse'
 require 'lyv'
 
 # knows how to find new official versions of chants in
@@ -23,7 +24,12 @@ class VariationesUpdater
   def initialize(development_dir, log_stream)
     @development_dir = development_dir
     @log = log_stream
+
+    # options
+    @partial_files = true
   end
+
+  attr_accessor :partial_files
 
   def update(main_file)
     main_src = File.read main_file
@@ -71,9 +77,10 @@ class VariationesUpdater
 
   def development_files(main_file)
     main_dev = File.join(@development_dir, main_file)
+    return [main_dev] unless partial_files
+
     wildcarded = main_file.sub /(\.ly)$/i, '_*\1'
     parts = Dir[File.join(@development_dir, wildcarded)]
-
     parts.unshift main_dev
   end
 
@@ -174,8 +181,21 @@ class VariationesUpdater
 end
 
 if __FILE__ == $0
+  setup = {:partial_files => true}
+
+  optparse = OptionParser.new do|opts|
+    opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial files of file /MAINFILE.ly" do
+      setup[:partial_files] = false
+    end
+  end
+
+  optparse.parse!
+
   begin
     updater = VariationesUpdater.new('variationes', STDOUT)
+
+    setup.each_pair {|attr,val| updater.send("#{attr}=", val) }
+
     ARGV.each do |f|
       updater.update f
     end
