@@ -524,9 +524,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g) g a a( b) a a( g) g \barMax
-    a( b a) a4.( c) a4( g) g( e) e \barMaior
-    e d c d( e) e( f e) e \barFinalis
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e f( g a) g f( g) e e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -538,8 +538,7 @@
     differentia = "g"
     psalmus = ""
     id = "ne18b-rch-ben"
-    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast"
-    fons = "Těla a Krve Páně, 1. nešp, 3. ant., prostřední část"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?-aleluja&upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

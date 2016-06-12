@@ -15,7 +15,7 @@
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     d g g g f( e) f( g) g f e( f) f( g) g \barMaior
-    f( e) f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
+    f f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
@@ -36,7 +36,7 @@
   \relative c'' {
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
-    g f( e) f f( g) g \barMin a b a a g g \barFinalis
+    g f g a a a b a a g g \barFinalis
   }
   \addlyrics {
     Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
@@ -57,9 +57,9 @@
     \choralniRezim
     e4 e g g( a) \barMin g( f) g4. g \barMaior
     a4 a( g) g a a( b) a a( g) g \barMax
-    a( b a) a4.( c) a4( g) g( e) e \barMaior
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
-    d c( d) f( e) e \barFinalis
+    g f( g) f( d) e \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
@@ -589,11 +589,11 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     \key f \major
-    f4( a c d) c d( e f e) d( c) c \barMaior
-    c c a( g a) bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
+    a4( g g) f4( a c d) c d( e f e) d( c) c \barMaior
+    c c a bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
 
     a( c d e) d( c) c f,( a bes c) d( bes c) c \barMaior
     c e f( g f) e d( c) c \barMax
@@ -601,12 +601,10 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     d( bes) c( d) c( a) \barMin c c c( bes a) g( a)
     bes( a g) f( g a) \barMax
 
-    bes a( g) c( d) bes( c bes) a \barMin
+    bes a( g) c( d) bes a \barMin
     c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
 
-    f^\markup\small\italic{Snazší aleluja:} f( e d c a4. bes4) g( f) f \barFinalis
-
-    f'^\markup\small\italic{Aleluja z předlohy:}
+    f
     \once \override Slur #'stencil = ##f
     \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
     \[ c d c \] \[ a g a \] \[ f g a) \]
@@ -615,7 +613,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
   \addlyrics {
     % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
     % sdeleni.
-    Sva -- tá hos -- ti -- no,
+    Ó sva -- tá hos -- ti -- no,
     při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
 
     sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
@@ -623,11 +621,15 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     do du -- še se nám vlé -- vá mi -- lost
 
     a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
-    \markup{\Dagger A} -- le -- lu -- ja.
 
-    \markup{\Dagger A} -- le -- lu -- ja.
+    A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Svatá hostino,
+    při níž nás Kristus živí svým tělem a svou krví,
+    slavíme památku jeho utrpení,
+    do duše se nám vlévá milost
+    a přijímáme záruku budoucí slávy! Aleluja."
     fons_externus = "volně podle AR1912, 448"
     quid = "ant. k Magnificat"
     modus = "V"

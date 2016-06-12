@@ -1,4 +1,4 @@
-% -*- master: ../velikonoce_antifony.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {3. neděle velikonoční}}
 
@@ -352,12 +352,67 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Úterý}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
-    g4 g( a) a a a( b) a a( g) g \barMax
+    a4 a( g) g a a( b) a a( g) g \barMax
+    a( b a) a4.( c) a4( g) g( e) e \barMaior
+    e d c d( e) e( f e) e \barMax
+    d c( d) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    placet = "IV.g"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( g) g a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e d c d( e) e( f e) e \barMax
+    g f( g) f( d) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
     g f( g) f( d) e \barFinalis
@@ -377,6 +432,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
