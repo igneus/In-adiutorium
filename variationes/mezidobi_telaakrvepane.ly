@@ -379,6 +379,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -406,6 +408,58 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f a g \barMaior
+    f g g g \mark\sipka a( g) f( g) g \barMin
+    g( a) f e( f) d d \barMaior
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    pojď -- te na svat -- bu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 23"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne28a-rch-aben?kratsi_text"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f a g \barMaior
+    f g g g \mark\sipka a( bes) a( g) a \barMin
+    a( g) f e( f) d d \barMaior
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    pojď -- te na svat -- bu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 23"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne28a-rch-aben?kratsi_text"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
