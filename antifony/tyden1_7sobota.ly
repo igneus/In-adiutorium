@@ -224,7 +224,7 @@
     g4 g f g a a \barMin a a a a f g f( e) d4. \barFinalis
   }
   \addlyrics {
-    Veď mě, Hos -- po -- di -- ne, po stez -- ce svých na -- ří -- ze -- ní.
+    Voď mě, Hos -- po -- di -- ne, po stez -- ce svých na -- ří -- ze -- ní.
   }
   \header {
     quid = "1. ant."

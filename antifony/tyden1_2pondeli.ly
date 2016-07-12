@@ -175,6 +175,7 @@
     ná -- ro -- dy po -- dle prá -- va.
   }
   \header {
+    textus_approbatus = "Hospodin povstane a bude soudit národy dle práva."
     quid = "2. ant."
     modus = "II"
     differentia = "D"

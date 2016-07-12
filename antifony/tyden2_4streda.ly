@@ -88,7 +88,7 @@
     f g a a a bes( a) g( bes) a4. \barMin g4 f d( c) d4. \barFinalis
   }
   \addlyrics {
-    Bo -- že, sva -- té je tvé cho -- vá -- ní, kte -- rý Bůh je tak ve -- li -- ký
+    Bo -- že, sva -- té je tvé cho -- vá -- ní: kte -- rý bůh je tak ve -- li -- ký
     ja -- ko Bůh náš?
   }
   \header {
@@ -192,7 +192,7 @@
     g4 g a b c( a) a \barMin a g f g e4. e \barFinalis
   }
   \addlyrics {
-    Bu -- du vo -- lat k_Bo -- hu a on mě za -- chrá -- ní.
+    Bu -- du vo -- lat k_Bo -- hu, a on mě za -- chrá -- ní.
   }
   \header {
     quid = "3. ant."

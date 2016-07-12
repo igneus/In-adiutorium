@@ -163,6 +163,7 @@
     v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
   }
   \header {
+    textus_approbatus = "Blaze těm, kteří kráčejí v zákoně Hospodinově."
     quid = "1. ant."
     modus = "I"
     differentia = "D"
@@ -223,7 +224,7 @@
   }
   \addlyrics {
     Hos -- po -- din dal ví -- těz -- ství
-    své -- mu po -- ma -- za -- né -- mu.
+    své -- mu Po -- ma -- za -- né -- mu.
   }
   \header {
     quid = "1. ant."

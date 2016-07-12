@@ -167,7 +167,7 @@
     c4 a( c) c d( e) c( b c) c \barMin b c c a g f g g \barFinalis
   }
   \addlyrics {
-    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+    Bůh změ -- ní náš o -- sud, a bu -- de -- me se ra -- do -- vat.
   }
   \header {
     quid = "2. ant."

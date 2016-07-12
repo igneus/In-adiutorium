@@ -206,6 +206,8 @@ tInedeleInespAntIII = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jako tři mládenci v ohnivé peci zpívejme Bohu:
+    Požehnaný jsi, Bože. Aleluja."
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
@@ -253,7 +255,7 @@ tInedeleInespAntIII = \score {
     g a f f \barFinalis
   }
   \addlyrics {
-    U -- tí -- kej -- me se k_Hos -- po -- di -- nu,
+    U -- tí -- kej -- me se k_Hos -- po -- di -- nu;
     je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky. A -- le -- lu -- ja.
   }
   \header {
@@ -304,6 +306,7 @@ tInedeleInespAntIII = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Děkuji ti, Hospodine, žes mě vyslyšel. Aleluja."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"

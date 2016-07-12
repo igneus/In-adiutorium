@@ -157,10 +157,12 @@
     a za -- cho -- vá -- va -- jí ho.
   }
   \header {
+    textus_approbatus = "Blahoslavení jsou ti, kdo slyší Boží slovo a zachovávají ho."
     quid = "1. ant."
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ו"
+    placet = "_kdo_ by nemělo být odsazené"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -232,8 +234,8 @@
     b( a g) f a a g g \barFinalis
   }
   \addlyrics {
-    Že -- nich je ta -- dy,
-    jdě -- te mu na -- pro -- ti!
+    Že -- nich je ta -- dy!
+    Jdě -- te mu na -- pro -- ti!
   }
   \header {
     quid = "2. ant."

@@ -49,6 +49,7 @@
     % aleluja v breviari neni
   }
   \header {
+    textus_approbatus = "Ušetři, Hospodine, svůj lid, nedávej v potupu své dědictví."
     quid = "2. ant."
     modus = "IV"
     differentia = "g"

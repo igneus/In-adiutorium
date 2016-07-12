@@ -65,6 +65,7 @@ tIuteryAntBenedictus = \score {
     pro -- ro -- ků.
   }
   \header {
+    textus_approbatus = "Bůh nám vzbudil mocného spasitele, jak slíbil od pradávna ústy svých proroků."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a2"
@@ -106,7 +107,7 @@ tIstredaAntBenedictus = \score {
   \addlyrics {
     Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
     roz -- po -- meň se
-    na svou sva -- tou smlou -- vu.
+    na svou sva -- tou smlou -- vu!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -128,7 +129,7 @@ tIstredaAntMagnificat = \score {
   }
   \addlyrics {
     U -- či -- nil mi ve -- li -- ké vě -- ci
-    ten, kte -- rý je moc -- ný,
+    ten, kte -- rý je moc -- ný;
     je -- ho jmé -- no je sva -- té.
   }
   \header {
@@ -156,7 +157,7 @@ tIctvrtekAntBenedictus = \score {
     Služ -- me Hos -- po -- di -- nu
     zbož -- ně a spra -- ve -- dli -- vě;
     on nás vy -- svo -- bo -- dí
-    z_ru -- kou na -- šich ne -- přá -- tel.
+    z_ru -- kou na -- šich ne -- přá -- tel!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -277,7 +278,7 @@ tIIpondeliAntBenedictus = \score {
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din,
-    ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil.
+    ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -320,7 +321,7 @@ tIIuteryAntBenedictus = \score {
   }
   \addlyrics {
     Za -- chraň nás, Hos -- po -- di -- ne,
-    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -343,7 +344,7 @@ tIIuteryAntMagnificat = \score {
   \addlyrics {
     U -- čiň s_ná -- mi ve -- li -- ké vě -- ci, Hos -- po -- di -- ne,
     ne -- boť jsi moc -- ný
-    a tvé jmé -- no je sva -- té.
+    a tvé jmé -- no je sva -- té!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -367,7 +368,7 @@ tIIstredaAntBenedictus = \score {
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
-    po vše -- chny dny své -- ho ži -- vo -- ta.
+    po vše -- chny dny své -- ho ži -- vo -- ta!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -389,8 +390,8 @@ tIIstredaAntMagnificat = \score {
   }
   \addlyrics {
     Hos -- po -- di -- ne, roz -- ptyl ty,
-    kdo v_srd -- ci smý -- šle -- jí pyš -- ně
-    a po -- vyš po -- ní -- že -- né.
+    kdo v_srd -- ci smý -- šle -- jí pyš -- ně,
+    a po -- vyš po -- ní -- že -- né!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -414,7 +415,7 @@ tIIctvrtekAntBenedictus = \score {
   }
   \addlyrics {
     Hos -- po -- di -- ne, dej své -- mu li -- du po -- zná -- ní spá -- sy
-    a od -- pusť nám na -- še hří -- chy.
+    a od -- pusť nám na -- še hří -- chy!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -483,7 +484,7 @@ tIIpatekAntMagnificat = \score {
   \addlyrics {
     Pa -- ma -- tuj, Hos -- po -- di -- ne,
     na své mi -- lo -- sr -- den -- ství,
-    jak jsi slí -- bil na -- šim před -- kům.
+    jak jsi slí -- bil na -- šim před -- kům!
   }
   \header {
     quid = "ant. k Magnificat"

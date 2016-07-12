@@ -312,6 +312,7 @@ tIInedeleInespAntIII = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
