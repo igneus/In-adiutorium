@@ -201,6 +201,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -219,6 +221,48 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a g f \barMin
+    bes g bes a a \barFinalis
+  }
+  \addlyrics {
+    Ple -- sej -- te Bo -- hu, on nám po -- má -- há.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 81"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a g f \barMin
+    \mark\sipka g bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Ple -- sej -- te Bo -- hu, on nám po -- má -- há.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 81"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 %\score { \tIIctvrtekAntBenedictus }
 

@@ -200,6 +200,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g \barMin
+    a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

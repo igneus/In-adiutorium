@@ -276,6 +276,48 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a a g \barMin
+    f g a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a \mark\sipka g f \barMin
+    f g a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIIpatekAntBenedictus }
 
 \pageBreak

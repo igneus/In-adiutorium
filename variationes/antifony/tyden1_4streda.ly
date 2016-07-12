@@ -236,6 +236,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a g f \barMin
+    a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- te Bo -- hu
+    ra -- dost -- ným hla -- sem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 47"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 % \score { \tIstredaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
