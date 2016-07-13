@@ -369,6 +369,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a a bes g bes a a \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "g3"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
 \pageBreak
 
 \score {
