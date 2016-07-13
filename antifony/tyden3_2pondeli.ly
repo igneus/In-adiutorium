@@ -243,6 +243,8 @@
     kte -- rý u -- či -- nil ne -- be i ze -- mi.
   }
   \header {
+    textus_approbatus = "Naše pomoc je ve jménu Hospodina, který učinil nebe a zemi."
+    % protože s _i_ místo _a_ mi antifona zní výrazně lépe
     quid = "2. ant."
     modus = "I"
     differentia = "D"

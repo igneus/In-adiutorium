@@ -194,7 +194,7 @@
   }
   \addlyrics {
     V_sou -- že -- ní
-    jsem vo -- lal Hos -- po -- di -- na
+    jsem vo -- lal Hos -- po -- di -- na,
     a vy -- sly -- šel mě.
     A -- le -- lu -- ja.
   }

@@ -162,8 +162,8 @@
     f g g( a) a \barMin a a g f g( f) e d \barFinalis
   }
   \addlyrics {
-    Stvoř mi čis -- té srd -- ce, Bo -- že,
-    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+    Stvoř mi čis -- té srd -- ce, Bo -- že.
+    Ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
   }
   \header {
     quid = "1. ant."
@@ -204,8 +204,8 @@
     d4 f( e) d( c) a \barMin a4 b c a g g \barFinalis
   }
   \addlyrics {
-    Chval své -- ho Bo -- ha, Si -- ó -- ne,
-    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+    Chval své -- ho Bo -- ha, Si -- ó -- ne.
+    On se -- sí -- lá svůj roz -- kaz na ze -- mi.
   }
   \header {
     quid = "3. ant."
@@ -316,10 +316,12 @@
     a ty jim dá -- váš po -- krm v_pra -- vý čas.
   }
   \header {
+    textus_approbatus = "Oči všech doufají v tebe, Hospodine, jsi blízko všem, kdo tě vzývají."
     quid = "2. ant."
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 145-II"
+    placet = "předělat na oficiální text - tady jsem se před lety těžce přehlédl"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

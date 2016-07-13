@@ -113,7 +113,7 @@
     bes a f g f f \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du
+    Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du,
     ny -- ní i na -- vě -- ky.
   }
   \header {
@@ -141,6 +141,7 @@
     na -- pl -- ni -- la nás ra -- dost.
   }
   \header {
+    textus_approbatus = "Velkou věc s námi udělal Hospodin, naplnila nás radost."
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"

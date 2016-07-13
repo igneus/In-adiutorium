@@ -56,8 +56,8 @@ tIuteryInvitatorium = \score {
     c d f e c4. d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
-      on je ve -- li -- ký král!
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+    on je ve -- li -- ký Král.
   }
   \header {
     quid = "ant."
@@ -248,7 +248,7 @@ tIIctvrtekInvitatorium = \score {
   }
   \addlyrics {
     Vstup -- te
-    před Hos -- po -- di -- na s_já -- so -- tem.
+    před Hos -- po -- di -- na s_já -- so -- tem!
   }
   \header {
     dies = "čtvrtek"

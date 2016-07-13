@@ -14,7 +14,7 @@ tIpondeliAntBenedictus = \score {
     f4( e) c4.( d) \barFinalis
   }
   \addlyrics {
-    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -251,7 +251,7 @@ tIsobotaAntBenedictus = \score {
   \addlyrics {
     Hos -- po -- di -- ne, buď svět -- lem pro ty,
     kdo ži -- jí v_tem -- no -- tě
-    a v_stí -- nu smr -- ti.
+    a v_stí -- nu smr -- ti!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -298,7 +298,7 @@ tIIpondeliAntMagnificat = \score {
   }
   \addlyrics {
     Ve -- leb, du -- še má,
-    Hos -- po -- di -- na.
+    Hos -- po -- di -- na!
   }
   \header {
     quid = "ant. k Magnificat"

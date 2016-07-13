@@ -175,7 +175,7 @@
     d4 e f( e) f f g f e \barMaior d c c d d \barFinalis
   }
   \addlyrics {
-    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi.
+    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi!
   }
   \header {
     quid = "2. ant."

@@ -158,7 +158,7 @@
   }
   \addlyrics {
     Do -- bré je o -- pě -- vo -- vat tvé jmé -- no,
-    Svr -- cho -- va -- ný,
+    Svr -- cho -- va -- ný:
     zrá -- na hlá -- sat tvé mi -- lo -- sr -- den -- ství.
   }
   \header {

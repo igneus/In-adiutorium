@@ -135,6 +135,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Oslavujte Hospodina, neboť jeho milosrdenství trvá navěky. Aleluja."
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
@@ -225,7 +226,7 @@
     a4 b g g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    Hos -- po -- din při -- jde ve slá -- vě, ob -- klo -- pen svý -- mi
     sva -- tý -- mi.
     A -- le -- lu -- ja.
   }

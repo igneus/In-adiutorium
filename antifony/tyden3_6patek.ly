@@ -86,7 +86,7 @@
     d4 d f d d d e g f d d \barMin e f d c d d \barFinalis
   }
   \addlyrics {
-    Pro -- ti to -- bě jsem se pro -- hře -- šil, Bo -- že,
+    Pro -- ti to -- bě jsem se pro -- hře -- šil, Bo -- že;
     smi -- luj se na -- de mnou.
   }
   \header {
@@ -125,7 +125,7 @@
     d4 d a b c \barMin c d a c b g4. g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je Bůh,
+    Hos -- po -- din je Bůh;
     my jsme je -- ho lid a stád -- ce je -- ho past -- vy.
   }
   \header {
@@ -209,7 +209,7 @@
   }
   \addlyrics {
     Vel -- ký je Hos -- po -- din
-    a náš Pán je na -- de vše -- mi Bo -- hy.
+    a náš Pán je na -- de vše -- mi bo -- hy.
   }
   \header {
     quid = "1. ant."
@@ -228,7 +228,7 @@
     a( d) b( c) a g b c a( g) g \barFinalis
   }
   \addlyrics {
-    Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na,
+    Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
     o -- pě -- vuj -- te je -- ho jmé -- no.
   }
   \header {
