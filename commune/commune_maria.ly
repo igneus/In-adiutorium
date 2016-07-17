@@ -847,8 +847,8 @@
     \choralniRezim
     a4 g a e f( g) a a \barMin
     b c d c c b a b( c) a a \barMaior
-    g f g a c b a( g) g \barMin
-    c c d d a a \barMin a( g f) g f d d \barFinalis
+    a b c c d c d d( c) \barMin
+    a g f g f( d) d f g f d d \barFinalis
   }
   \addlyrics {
     Zbož -- ně slav -- me pa -- mát -- ku
@@ -861,34 +861,33 @@
     modus = "I"
     differentia = "a"
     psalmus = "Benedictus"
-    placet = "od _ona za nás_ zkusit lépe"
     id = "sob-aben1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
+    \key f \major
     \choralniRezim
-    c4 b( c) a( g) g4. a \barMin
-    f4 g a( c) b( a) a \barMaior
-    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
-    d e f( g a) a \barMin a( g c) a g f( g) a( g) g \barFinalis
+    f4 g a c c \barMin
+    d c bes c c \barMaior
+    d c c \barMin
+    d f e d c c \barMaior
+    c c a g bes a g f( g) g( f) f \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- ná jsi,
-    Pan -- no Ma -- ri -- a,
-    od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha,
+    Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha,
     me -- zi vše -- mi že -- na -- mi na ze -- mi.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "c"
+    modus = "V"
+    differentia = "a"
     psalmus = "Benedictus"
-    placet = "nic moc; v případě nutnosti v zájmu krásy opustit předlohu"
     id = "sob-aben2"
-    fons = "podle: zde, 1. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -897,8 +896,8 @@
   \relative c' {
     \choralniRezim
     d f g( a) a \barMin c c c b a b( a) a \barMaior
-    a a g( a b c a) a \barMin g( a) g f e( f e) e \barMaior
-    e e e d( f) g( a) a \barMin a( c) b a( c) a a \barMaior
+    a a a( b c a) a \barMin g( a) g f d( e) e \barMaior
+    e e e d( f) g( a) a \barMin a( c) b a( b) a a \barMaior
     a bes a g f e \barMin d c d( f) e d d \barFinalis
   }
   \addlyrics {
@@ -922,7 +921,7 @@
     \choralniRezim
     d4 f( d) d
     d e f g( f) e \barMin
-    d c( d) d \barMin
+    d c( d) d \barMaior
     d d c d d f e c d d \barFinalis
   }
   \addlyrics {
@@ -935,7 +934,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "po _Pán s tebou_ divisio maior"
     id = "sob-aben4"
     piece = \markup {\sestavTitulekBezZalmu}
     fons = "Doba adventní, modlitba uprostřed dne."
@@ -949,7 +947,7 @@
     a4 a a a( c d) f( e) d c d d \barMaior
     d( f) d d c d c a a g( f) g g a a \barMax
     a g a c( d) d \barMin d c( d) d d f g f e d( c) \barMaior
-    d d d e( c a) a \barMin g( a) g f f( g) g \barFinalis
+    d d d e( c a) a \barMin bes( c d) c bes a a \barFinalis
   }
   \addlyrics {
     Kdo mů -- že vy -- zpí -- vat tvou chvá -- lu,
@@ -959,8 +957,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Benedictus"
     id = "sob-aben5"
     piece = \markup {\sestavTitulekBezZalmu}
