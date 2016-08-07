@@ -124,6 +124,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
+    placet = "mně takhle líbí, ale _zmocnila_ je výrazně nezpívatelnější, než je v tradičním chorálním repertoáru obvyklé"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -146,6 +147,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 126"
+    placet = "frázování je zapsané jinak, než jsem ji vždycky zpíval"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -169,6 +171,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1"
+    placet = "melodie je taková skoro až veselá"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
