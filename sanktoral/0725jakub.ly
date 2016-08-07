@@ -14,23 +14,24 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f( g) f f f e d c d e f g f f \barMaior
-    g g( a) g f e d( e c) c \barMaior
-    d d( e f) g( f) e f g( f) f \barFinalis
+    c4 c c( d) c c \barMaior
+    c b a g a b c d c c \barMin
+    c d d c b a( b a g) g \barMaior
+    g f g a g f( g) g \barFinalis
   }
   \addlyrics {
-    Je -- žíš u -- vi -- děl Ze -- be -- de -- o -- va sy -- na Ja -- ku -- ba
+    Je -- žíš u -- vi -- děl
+    Ze -- be -- de -- o -- va sy -- na Ja -- ku -- ba
     a je -- ho brat -- ra Ja -- na,
     a za -- vo -- lal je k_so -- bě.
   }
   \header {
     quid = "1. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
-    placet = "první část rozdělit po _uviděl_"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -133,13 +134,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e d( c) d \barMaior
-    a'( g f e) e \barMin a a( b) a g g( a) \barMaior
-    a a a a( e) f( e) e d( c b) c( d) e( f) e e \barFinalis
+    e4 e e d( c) d a'( g f e) e \barMaior
+    a a( b) a g g( a) \barMaior
+    a a a g e e f e d e e \barFinalis
   }
   \addlyrics {
-    Teh -- dy jim ře -- kl:
-    Bdě -- te a mod -- le -- te se,
+    Teh -- dy jim ře -- kl: Bdě -- te
+    a mod -- le -- te se,
     a -- bys -- te ne -- přiš -- li do po -- ku -- še -- ní.
   }
   \header {
@@ -147,7 +148,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 126"
-    placet = "frázování je zapsané jinak, než jsem ji vždycky zpíval"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
