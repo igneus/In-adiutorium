@@ -15,6 +15,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( g) f f f e d c d e f g f f \barMaior
     g g( a) g f e d( e c) c \barMaior
@@ -255,6 +256,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a a( d,) f e( f) f \barMin g g a g f( g) g( a) a \barMaior
@@ -271,6 +273,132 @@
     psalmus = "Dan 3-III"
     placet = "_zanechali_ je poměrně divoké; únosné by to snad
     bylo jako jednoznačný sestup, např. ad f ed d"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a \mark\sipka g f e d \barMin
+    f g a g f( g) g( a) a \barMaior
+    bes bes bes a g a g \barMin
+    f f( g) f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a a a g f g( d) d \barMin
+    f g f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a a a g f \mark\sipka g g \barMin
+    f d f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a \mark\sipka g f e f d d \barMin
+    c d f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a g f e f \mark\sipka d( c) c \barMin
+    d f g f d d \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -327,6 +455,54 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g a c b b \barMin
+    c c a g f( g) a( g) g \barMaior
+    c d e d c d d \barMin
+    d c( b a) g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b( a) g \barMin
+    f g a g a c c \barMaior
+    d e d c b a a \barMin
+
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a( bes) a g( a) a \barMin
     a a g f g( bes) a a \barMaior
   }
@@ -365,6 +541,30 @@
     quid = "2. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c a g \barMin
+    f a c b c d d \barMaior
+    c b a b a g g \barMin
+    f g c b g g \barFinalis
+  }
+  \addlyrics {
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

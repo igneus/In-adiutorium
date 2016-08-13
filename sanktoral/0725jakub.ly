@@ -41,20 +41,22 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 a a( d,) f e( f) f \barMin g g a g f( g) g( a) a \barMaior
-    bes bes bes a g a g \barMin f f( g) f e d d \barFinalis
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a g f e f d( c) c \barMin
+    d f g f d d \barFinalis
   }
   \addlyrics {
-    O -- ni za -- ne -- cha -- li své -- ho ot -- ce na lo -- di,
-    o -- pus -- ti -- li své sí -- tě a šli za Je -- ží -- šem.
+    O -- ni za -- ne -- cha -- li
+    své -- ho ot -- ce na lo -- di,
+    o -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "_zanechali_ je poměrně divoké; únosné by to snad
-    bylo jako jednoznačný sestup, např. ad f ed d"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
