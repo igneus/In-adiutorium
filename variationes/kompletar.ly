@@ -370,6 +370,23 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f e d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
   \relative c'' {
     \key f \major
     \choralniRezim
