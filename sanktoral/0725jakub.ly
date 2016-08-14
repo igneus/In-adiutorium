@@ -112,9 +112,9 @@
   \relative c' {
     \choralniRezim
     e4 e e f e d( e) e \barMin
-    f( a) g( a) g f e( f e) e \barMaior
-    e a( g) a b( c a) a \barMin
-    a( e d) c d c d d( f) g f e e \barFinalis
+    f( a) g( a) g f e e \barMaior
+    a g a b( a) a \barMin
+    a g f e d f g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,
@@ -127,7 +127,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
-    placet = "mně takhle líbí, ale _zmocnila_ je výrazně nezpívatelnější, než je v tradičním chorálním repertoáru obvyklé"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -156,24 +155,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a a a g a a( bes) a g( a) a( g) \barMaior
-    g g g f e f( g a) a g( a) g f g f \barMaior
-    d( f) g( a) a g a bes( a) g( f) g \barMin f f( g a) f d e( d) d \barFinalis
+    a4 a( b) a a a g a b c a a \barMin
+    a a a g f g( a) a g( a) g f e e \barMaior
+    f d d f e d( e) d( c) c \barMin
+    f f( g) f e d d \barFinalis
   }
   \addlyrics {
-    % Ach, Farblosigkeit...
     Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
     pro -- ti něk -- te -- rým čle -- nům cír -- kev -- ní ob -- ce:
-    Ja -- no -- va brat -- ra Ja -- ku -- ba dal po -- pra -- vit me -- čem.
+    Ja -- no -- va brat -- ra Ja -- ku -- ba
+    dal po -- pra -- vit me -- čem.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "f"
+    differentia = "a"
     psalmus = "Ef 1"
-    placet = "melodie je taková skoro až veselá"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }

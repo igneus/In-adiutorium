@@ -617,15 +617,44 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f e d( e) e \barMin
     f( a) g( a) g f e( f e) e \barMaior
     e a( g) a b( c a) a \barMin
     a( e d) c d c d d( f) g f e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal s_se -- bou Pet -- ra,
+    Ja -- ku -- ba a Ja -- na;
+    a když se mod -- lil,
+    zmoc -- ni -- la se ho hrů -- za a úz -- kost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 116-II"
+    placet = "mně takhle líbí, ale _zmocnila_ je výrazně nezpívatelnější, než je v tradičním chorálním repertoáru obvyklé"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e f e d( e) e \barMin
+    f( a) g( a) g f \mark\sipka e e \barMaior
+    \mark\sipka a g a b( a) a \barMin
+    a g f e d f g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,
@@ -834,7 +863,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
     d4 d( a') a a a g a b c a a \barMin
     a a a g f g( a) a \mark\sipka g( a) g f e e \barMaior
@@ -851,6 +879,55 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a( b) a( g) a a g a b c a a \barMin
+    a a a g f g( a) a g( a) g f e e \barMaior
+    f d d f e d( e) d( c) c \barMin
+    f f( g) f e d d \barFinalis
+  }
+  \addlyrics {
+    Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
+    pro -- ti něk -- te -- rým čle -- nům cír -- kev -- ní ob -- ce:
+    Ja -- no -- va brat -- ra Ja -- ku -- ba
+    dal po -- pra -- vit me -- čem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( b) \mark\sipka a a a g a b c a a \barMin
+    a a a g f g( a) a g( a) g f e e \barMaior
+    f d d f e d( e) d( c) c \barMin
+    f f( g) f e d d \barFinalis
+  }
+  \addlyrics {
+    Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
+    pro -- ti něk -- te -- rým čle -- nům cír -- kev -- ní ob -- ce:
+    Ja -- no -- va brat -- ra Ja -- ku -- ba
+    dal po -- pra -- vit me -- čem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
     psalmus = "Ef 1"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
