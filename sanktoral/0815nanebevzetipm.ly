@@ -576,11 +576,11 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d d d d d d( f g a) g a( c b a) g( a) a \barMax
-    g a a a g a g e e( d) \barMaior
-    d d( f g) f( e) d f( e) c d d \barFinalis
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    b b( c) d( e) d c( a) b g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a by -- la vza -- ta do ne -- be,
@@ -588,11 +588,11 @@
     a zpí -- va -- jí Pá -- nu chvá -- ly.
   }
   \header {
+    fons_externus = "volně podle AR1912, 690"
     quid = "1. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
-    placet = "_radují_ je nezpěvné; možná zkusit celou jinak, radostněji"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

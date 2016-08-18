@@ -844,10 +844,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d d d d d( f g a) g a( c b a) g( a) a \barMax
     g a a a g a g e e( d) \barMaior
@@ -863,10 +866,84 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
-    id = ""
+    placet = "_radují_ je nezpěvné; možná zkusit celou jinak, radostněji"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d d d d d( f g a) g a( c b a) g( a) a \barMax
+    g a a a g a g e \mark\sipka f( e) \barMaior
+    d d( f g) f( e) d f( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Pokus vyjít z tónového materiálu a struktur lat. předlohy:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    b d c b a( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 690"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    b \mark\sipka b( c) d( e) d c( a) b g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 690"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
