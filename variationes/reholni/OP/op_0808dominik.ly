@@ -1,33 +1,61 @@
 \version "2.16.0"
 
 \include "../../spolecne.ly"
-\include "../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
-\include "op.ly"
 
 \header {
   title = \markup\titleSvatek
             "sv. otce Dominika, kněze"
             slavnost
             8.8.
-            "vlastní texty Řádu kazatelů"
   composer = "Jakub Pavlík"
 }
 
-\markup\poznamkaOP
-
 \markup\small\justify{
   Nápěvy zpracovány s přihlédnutím
-  k \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum,} vol. IV (dále AOP4;
-  \with-url #"http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf)}
-  Kde to bylo možné, byl nápěv pro český text vypracován na základě
-  nápěvu jeho latinské předlohy.
+  k \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum}
+  (Augustin Thompson OP,
+  \with-url #"http://dominican-liturgy.blogspot.com" {http://dominican-liturgy.blogspot.com)}
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\justify{
+  Český překlad zachovává rytmus a smysl latinské předlohy,
+  pořadí slov, veršů apod. je jiné.
+  Nápěv je ale spíš zpěvná písnička než hudební ilustrace textu,
+  proto se nám nezdá nevhodné částečně zachovat jeho struktury.
+  To, jaká část melodie přijde na jaké slovo, tu není příliš důležité.
+}
+
 \score {
   \relative c' {
+    \choralniRezim
+    d4 c d f g f( g a) g( f) g( a) \barMaior
+    a( bes a) g a c d c( b a) g a \barMaior
+    a g f g a f e d \barMaior
+    f( e) d( c) d f g f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Když ko -- nec vě -- ku nad -- chá -- zel,
+    ne -- bes -- ký no -- vý hla -- sa -- tel
+    Do -- mi -- nik chu -- do -- bou se skvěl,
+    v_před -- zvěs -- ti po -- do -- bu psa měl.
+  }
+  \header {
+    fons_externus = "volně podle AOP4, 680"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 141"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c d f g f g a \barMaior
     a g a c d c( b a) g a \barMaior
@@ -51,8 +79,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \key f \major
     \choralniRezim
     f4 f a c c4.( d4) c bes( a) f g a \barMaior
@@ -75,8 +106,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d f g f e d \barMin
     f g a f g a \barMaior
@@ -100,35 +134,37 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f( g) f g f g( a) a( g) \barMax
+    f( d) f( g) g f \barFinalis
     % V
     \neviditelna a
+    a4 a a a( bes) a g f g( a) a( g) \barFinalis
 
-    % R
-    \neviditelna a
-
-    % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vzdá -- vej -- te Pá -- nu, Bo -- ží dě -- ti,_*
     čest a slá -- vu.
-    \Verse Vzdá -- vej -- te po -- ctu je -- ho jmé -- nu._*
-    \Response Čest a slá -- vu.
+    \Verse Vzdá -- vej -- te po -- ctu je -- ho jmé -- nu.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -308,7 +344,14 @@
 
 \markup\italic{Nebo další možnosti, zde nezpracované.}
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup\justify{
+  Pro tuhle by byla předloha, AOP 694, ale nezdá se mi dobře napodobitelná
+  na způsob antifon zde z prvních nešpor.
+}
 
 \score {
   \relative c' {
