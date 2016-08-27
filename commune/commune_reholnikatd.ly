@@ -18,15 +18,15 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
-      f g a g f g g e e \barMin e f e \barFinalis
-
-      e^\markup\rubrVelikAleluja e( g) f( e) e \barFinalis
+      d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
+      f g a g f g g e e \barMin f g e \barFinalis
+      f^\markup\rubrVelikAleluja g a a g b c a a \barMin g f e \barMaior
+      d f g( f) e \barFinalis
     }
     \addlyrics {
       Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
-      ne -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
-
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
       A -- le -- lu -- ja.
     }
     \header {
@@ -36,7 +36,6 @@
       psalmus = ""
       id = "rehol-amag1"
       fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
-      fons = "25.8. pět bratří, k Benedictus; přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

@@ -17,6 +17,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
       f g a g f g g e e \barMin e f e \barFinalis
@@ -40,6 +41,63 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
+      f g a g f g g e e \barMin f g e \barFinalis
+
+      e^\markup\rubrVelikAleluja e( g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
+      ne -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "rehol-amag1"
+      fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+\score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
+      f g a g f g g e e \barMin f g e \barFinalis
+
+      f^\markup\rubrVelikAleluja g a a g b c a a \barMin g f e \barMaior
+      d f g( f) e \barFinalis
+    }
+    \addlyrics {
+      Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "rehol-amag1"
+      fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup\italic{Nebo - o řeholníkovi:}
 

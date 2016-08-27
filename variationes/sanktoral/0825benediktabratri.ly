@@ -13,9 +13,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
-    d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
-    f g a g f g g e e \barMin f g e \barFinalis
+    f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
+    f g a g f g g e e \barMin e f e \barFinalis
   }
   \addlyrics {
     Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
@@ -30,6 +31,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
+    f g a g f g g e e \barMin \mark\sipka f g e \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

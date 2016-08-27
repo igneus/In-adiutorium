@@ -152,10 +152,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"23. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d d( e f d) d \barMaior
     d c d d f e f( d) d \barMin
@@ -185,11 +188,68 @@
   }
 }
 
+\markup{Takhle je to o kousek přirozenější:}
+
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d d d( e f d) d \barMaior
+    d c d d f e f( d) d \barMin
+    f g f \barMin
+    g f f g( a) a \barMaior
+    a a a a( b c) a a \barMin
+    a \mark\sipka a g f g( f) f \barMaior
+    g g g f d c d d d \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- chá -- zí ke mně
+    a ne -- kla -- de své -- ho ot -- ce,
+    svou mat -- ku,
+    že -- nu a dě -- ti_-
+    a -- no i sám se -- be_-
+    až na dru -- hé mís -- to,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f g a \barMin a a( c) g a( g f) g \barMaior
     f f f f d c d d d \barFinalis
+  }
+  \addlyrics {
+    Kdo ne -- ne -- se svůj kříž a ne -- jde za mnou,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f g a \barMin a a( c) g a( g f) g \barMaior
+    \mark\sipka g g g f d c d d d \barFinalis
   }
   \addlyrics {
     Kdo ne -- ne -- se svůj kříž a ne -- jde za mnou,
@@ -228,6 +288,92 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d a' a c b c a \barMin
+    a g f e d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka d( a' b) a a c b c a \barMin
+    a g f e d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka f g a a c b c a \barMin
+    a g f e d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a a \mark\sipka g f g e \barMin
+    f g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"24. neděle"}}
 
