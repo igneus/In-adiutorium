@@ -77,6 +77,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Flp 2"
+    placet = "volitelné melisma lépe nebo pryč"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -134,6 +135,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_do_ odsadit"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -210,6 +212,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 8"
+    placet = "zkusit lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -378,6 +381,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "sekundový krok na _na kterém_ je divný"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -541,6 +545,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_obnovil_ půjde lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -567,6 +572,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
+    placet = "_zemřel_ drhne"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -591,6 +597,7 @@
     differentia = "A"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
+    placet = "zkusit vylepšit (snesla by se i takhle, ale půjde lépe)"
     fons = "1. část z Velký pátek, r.ch., 3. ant.; viz též zde k Benedictus"
     fial = "pust_triduum.ly#pa-rch-ant3?cast"
     piece = \markup {\sestavTitulek}
@@ -612,6 +619,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Zj 4"
+    placet = "krok by měl být až na _velebíme_"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
