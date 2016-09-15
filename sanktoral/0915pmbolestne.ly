@@ -33,6 +33,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_trpěla_ určitě lépe"
     id = "invit"
     fons = "zejm. 1. část podle invitatoria z Narození sv. Jana Křtitele"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -132,6 +133,7 @@
   \header {
     quid = "resp."
     modus = "II"
+    placet = "zkusit tradiční nápěv"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -159,6 +161,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "odsazené _bolestná_ je nepřirozené"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -206,6 +209,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 127"
+    placet = "cesura po _městu_ pryč"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -230,6 +234,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "zkusit lépe mj. _vykoupení_"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -263,6 +268,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "zkusit tradiční nápěv"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
