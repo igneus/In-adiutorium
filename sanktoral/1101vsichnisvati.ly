@@ -258,22 +258,28 @@
   }
 }
 
+\markup\justify\small\italic{
+  Následující antifona je v breviáři vydaném v KNA r. 2005
+  zcela netypicky ve dvou různých textových zněních,
+  poprvé se "\"svatí\"", podruhé s "\"vyvolení\"".
+  Vydání z r. 1987 má konsistentně "\"vyvolení\"".
+  Toho se proto držíme i zde.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g( a) a \barMin
-    a b a g g \barMax
+    g4 f g a a a a b a g g \barMax
     c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
     a a( c) a b a g \barFinalis
   }
   \addlyrics {
-    Všich -- ni sva -- tí,
+    Všich -- ni vy -- vo -- le -- ní,
     ve -- leb -- te Pá -- na,
     chval -- te ho ve dnech ra -- dos -- ti
     a o -- sla -- vuj -- te ho.
   }
   \header {
-    textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
     quid = "ant. ke kantikům vigilie"
     modus = "VIII"
     differentia = ""

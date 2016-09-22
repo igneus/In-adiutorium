@@ -602,7 +602,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g( a) a \barMin
     \mark\sipka a b a g g \barMax
@@ -617,6 +617,39 @@
   }
   \header {
     textus_approbatus = "ve vydání z KNA 2005 má druhé opakování jiné znění - místo svatí je vyvolení"
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = ""
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Breviář z r. 2005 je co do textu této antifony nekonsistentní:
+  ve formuláři je otištěna dvakrát, ale znění jejího výskytu
+  před kantiky se liší od znění po nich.
+  Nahlédnutí do breviáře z r. 1987, ukázalo, že správné je znění
+  s "\"vyvolení\"", "\"svatí\"" je chyba sazby.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f \mark\sipka g a a a a b a g g \barMax
+    c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni vy -- vo -- le -- ní,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
     quid = "ant. ke kantikům vigilie"
     modus = "VIII"
     differentia = ""
