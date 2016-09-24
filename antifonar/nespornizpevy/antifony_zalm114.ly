@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Nešporní zpěvy: Antifony:"
+  title = "Nešporní zpěvy: Antifony: k žalmu 114"
 }
 
 \include "spolecne_nespory.ly"
