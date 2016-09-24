@@ -35,19 +35,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( f) f \barMin g( d) d \barMaior
-    d d e f f g f e f d( c) c( d) \barFinalis
+    d4 b d( e) d \barMin
+    b( a) b \barMaior
+    b g a b b b a g a g g \barFinalis
   }
   \addlyrics {
-    Ty jsi Pe -- tr_– Ská -- la_–_*
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
     a na té ská -- le zbu -- du -- ji svou cír -- kev.
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}

@@ -36,6 +36,92 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a g( a) a \barMin
+    a b( c a) a \barMaior
+    \mark\sipka a c b c a( g f) f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g( a) a \barMin
+    a b( c a) a \barMaior
+    a c b c \mark\sipka c( a) \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) d \barMin
+    d d( e d) d \barMaior
+    d d c b c( a g) g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Nejstarší znění se mi samo o sobě líbí.
+  Nejistota ohledně něj, která se níže projevila snahou najít jiné,
+  pramení ze zvláštního postavení textu, který je biblickým základem
+  pro Petrův úřad v církvi; odpovídající latinská antifona
+  ve svém chorálním znění pak bývá užívána i mimo rámec oficia
+  a pro svůj radostný, doslova lidový ráz dobře funguje jako popěvek
+  pro různé příležitosti. Moje antifona snad docela vhodně
+  vyjadřuje závažnost Kristových slov Petrovi a o Petrovi,
+  ale právě proto nemůže nikdy fungovat jako propapežský
+  popěvek pro každou příležitost.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d d( f) f \barMin g( d) d \barMaior
     d d e f f g f e f d( c) c( d) \barFinalis
   }
@@ -56,6 +142,166 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f a f f( g) g \barMin
+    g f e d d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_– Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 147-II"
+    placet = "takhle jednolité se to nehodí, neb to vyzní jako _Petr Skála_ (jméno a příjmení)"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d( e c a) a \barMaior
+    a g a c c d c b c a a \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  S tónovým materiálem antifony \italic{Tu es Petrus} v uších:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d( b) b \barMin
+    c( b c d) d \barMaior
+    d c b a a g a b a g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d( b) b \barMin
+    a( b c) b \barMaior
+    b g a b b c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 b d( e) d \barMin
+    b( a) b \barMaior
+    b c b a a g a b a g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a g4. f f4( g) g \barMin
+    g f g a a a g f g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_– Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d \barMin
+    b( a) b \barMaior
+    b g a b b b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     \key f \major
     f4 g g( a) g f g g( a) a \barMaior
     g a a g( a) a( bes) a a \barMaior
@@ -72,6 +318,102 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g e e \barMin
+    f g a a a( c) b g( a) \barMaior
+
+  }
+  \addlyrics {
+    Sva -- tý a -- poš -- to -- le Pav -- le,_*
+    te -- be si Pán vy -- vo -- lil,
+    a -- bys hlá -- sal prav -- du
+    po ce -- lém svě -- tě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g e e \barMin
+    f g a a a g a \barMaior
+    a a a( c) a b( c a g) f( g) \barMin
+    g f e f( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý a -- poš -- to -- le Pav -- le,_*
+    te -- be si Pán vy -- vo -- lil,
+    a -- bys hlá -- sal prav -- du
+    po ce -- lém svě -- tě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f a g f g f f \barMin
+    d f g g a g g \barMaior
+    g g g( a) g f( d) d \barMin
+    c d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý a -- poš -- to -- le Pav -- le,_*
+    te -- be si Pán vy -- vo -- lil,
+    a -- bys hlá -- sal prav -- du
+    po ce -- lém svě -- tě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    placet = "pentatonika jak vyšitá"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f f f g( a) a \barMin
+    a a g f g( a) g g \barMaior
+    g g g( a) g g( f) f \barMin
+    d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý a -- poš -- to -- le Pav -- le,_*
+    te -- be si Pán vy -- vo -- lil,
+    a -- bys hlá -- sal prav -- du
+    po ce -- lém svě -- tě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
