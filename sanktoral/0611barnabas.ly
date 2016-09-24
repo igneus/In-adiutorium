@@ -39,7 +39,7 @@
     differentia = "D"
     psalmus = ""
     placet = "_učitelů_ je jaksi nepřirozené"
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -55,19 +55,20 @@
   }
   \addlyrics {
     Bar -- na -- báš při -- ve -- dl Šav -- la do An -- ti -- o -- chi -- e,
-    % hlá -- sa -- li v_té -- to cír -- kev -- ní ob -- ci Kris -- to -- vo e -- van -- ge -- li -- um
-    % a vy -- u -- či -- li tam vel -- ké množ -- ství li -- dí.
     hlá -- sa -- li tam Kris -- to -- vo e -- van -- ge -- li -- um
     a vy -- u -- či -- li vel -- ké množ -- ství li -- dí.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Barnabáš přivedl Šavla do Antiochie,
+    hlásali v této církevní obci Kristovo evangelium
+    a vyučili tam velké množství lidí. Aleluja."
     quid = "ant. k Benedictus"
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -98,7 +99,7 @@
     differentia = "D"
     psalmus = ""
     placet = "když nejde rozdělit logicky, přesto rozdělit udýchatelně"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
