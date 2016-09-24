@@ -647,6 +647,52 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f( d) d
+      d e f \mark\sipka g e \barMin
+      f( d) c( d) d \barMaior
+      e f d d d c d f e d \barFinalis
+    }
+    \addlyrics {
+      Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+      Pán s_te bou!
+      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+\score {
+    \relative c' {
+      \choralniRezim
+      d4 f( d) d
+      d e f g e \barMin
+      f( d) c( d) d \barMaior
+      \mark\sipka d d c d d f e f d d \barFinalis
+    }
+    \addlyrics {
+      Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+      Pán s_te bou!
+      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {

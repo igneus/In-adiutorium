@@ -187,6 +187,53 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 b c d d d e d d d f e d( e) d \barMaior
+    c b a g a g \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta,
+    je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b \mark\sipka c( d e) e( d) d \barMin
+    d f e d d f e d( e) e( d) \barMaior
+    c b a g a g \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta,
+    je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

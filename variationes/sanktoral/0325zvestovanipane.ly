@@ -761,6 +761,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -786,6 +788,38 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Předchozí je ve skutečnosti C-dur s falešným závěrem na d:}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \key f \major
+    \choralniRezim
+    f4( g) a a a( c) c \barMin
+    c( bes c d) d d( f) d c( bes) bes( c) c \barMaior
+    c d( e) f( g f) e( d c) c \barMin
+    c( d bes a) g \mark\sipka a( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

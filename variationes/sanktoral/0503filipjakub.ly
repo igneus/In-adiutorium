@@ -78,7 +78,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"

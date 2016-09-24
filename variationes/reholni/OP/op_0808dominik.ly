@@ -530,7 +530,8 @@
 
   }
   \addlyrics {
-    Všech -- ny li -- di ob -- jí -- mal ši -- ro -- kou ná -- ru -- čí lás -- ky
+    Všech -- ny li -- di ob -- jí -- mal
+    ši -- ro -- kou ná -- ru -- čí lás -- ky
     a pro -- to -- že měl všech -- ny rád,
     mě -- li všich -- ni rá -- di je -- ho.
   }
@@ -564,25 +565,56 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c a c( d) d \barMaior
+    d( f) f \barMin
+    g f f g f d d \barMin
+    c d e e d d \barFinalis
   }
   \addlyrics {
     Hla -- si -- tě vo -- lal:
-    Pa -- ne, smi -- luj se nad svým li -- dem.
+    Pa -- ne,
+    smi -- luj se nad svým li -- dem.
     Co bu -- de s_hříš -- ní -- ky?
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Ef 1"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \barMin
+    a g f g a g g \barMin
+    g a f e d d \barFinalis
+  }
+  \addlyrics {
+    %Hla -- si -- tě vo -- lal:
+    Pa -- ne,
+    smi -- luj se nad svým li -- dem.
+    Co bu -- de s_hříš -- ní -- ky?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

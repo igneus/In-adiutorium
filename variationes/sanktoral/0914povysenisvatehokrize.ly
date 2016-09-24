@@ -37,6 +37,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -61,6 +63,103 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4-- d d f e c d \barMaior
+    f g a-- f d f( e) d d \barMin
+    c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4-- d d f e c d \barMaior
+    f( g a) g f( d) \barMin
+    c d e( f) d d \barMaior
+    c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám
+    stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4-- d d f e f a \barMaior
+    a g f-- e c e( f) d d \barMaior
+    c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám
+    stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "147-II"
+    placet = "_smrt_ se hůř vyslovuje a takhle exponované by to bylo hodně slyšet"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4-- a b c b a g \barMaior
+    f g a a b a a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se pro nás stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kříž, který znamenal smrt, stal se nám stromem života. Aleluja."
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 g a g f g g \barMaior
@@ -81,6 +180,30 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 g a g f g g \barMaior
+    g a4.( c) \barMin
+    c4( d e) c b a a \barMin g( f e) f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- ší je -- di -- nou chlou -- bou
+    je kříž
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

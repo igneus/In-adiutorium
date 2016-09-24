@@ -226,6 +226,47 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    e4 d c f( e) d e e \barMin
+    f g a a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu chvá -- lu
+    a o -- sla -- vuj -- te ho na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c( d) c a( g) g \barMin
+    a a a f e d f g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu chvá -- lu
+    a o -- sla -- vuj -- te ho na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -248,11 +289,16 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
-% ant. k Mag. 1. ne. post. cyklu A tento text zahrnuje,
-% ale uryvek melodie nebyl samostatne pouzitelny.
-% Tato je tedy nova, nezavisla.
+\markup\justify{
+  ant. k Mag. 1. ne. post. cyklu A tento text zahrnuje,
+  ale uryvek melodie nebyl samostatne pouzitelny.
+  Tato je tedy nova, nezavisla.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -275,6 +321,48 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \barMin a a b a a g a e e \barMaior
+    f e \mark\sipka d f e e \barFinalis
+  }
+  \addlyrics {
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \barMin a a b a a g a e e \barMaior
+    f e \mark\sipka f g e e \barFinalis
+  }
+  \addlyrics {
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     e4 f e c d e e e \barMin
@@ -293,6 +381,48 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a a g \barMin
+    a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Teď je ta do -- ba pří -- hod -- ná,
+    teď je ten den spá -- sy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a c b a g \barMin
+    a b c b( g a) g g \barFinalis
+  }
+  \addlyrics {
+    Teď je ta do -- ba pří -- hod -- ná,
+    teď je ten den spá -- sy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

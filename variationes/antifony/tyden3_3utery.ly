@@ -119,6 +119,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -133,6 +135,35 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D2"
+    psalmus = "Iz 26"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Návrh alternativního textu,
+  vyprovokovaný mou nechutí k formulaci _toužím duší_ /
+  _hledám srdcem_: duše ani srdce v biblickém slova smyslu nejsou
+  nějaký instrumentální orgán (biji pěstí, kopu nohou, vrtím hlavou),
+  ale reprezentují střed osobnosti. Když má duše/mé srdce touží, toužím já.
+  Za duší/srdcem není nic dalšího, co by jím hýbalo.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f f f f g g e-- \barMaior
+    f g a a-- \barMin a c b g-- a \barFinalis
+  }
+  \addlyrics {
+    Po to -- bě tou -- ží v_no -- ci du -- še má
+    a mé srd -- ce tě hle -- dá zrá -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
     psalmus = "Iz 26"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

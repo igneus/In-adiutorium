@@ -33,6 +33,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -50,10 +52,90 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Dan 3-III"
-    id = ""
+    placet = "závěr je neuspokojivý, určitě předělat. Vyzkoušet také,
+    zda přirozená finála není spíš na a"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( b c) c \barMin
+    c \mark\sipka b c c( d b) b \barMaior
+    a g a b a g f d e e \barMaior
+    f g a a( b) a a \barMin
+    \mark\sipka a b g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( b c) c \barMin
+    c b c c( d b) b \barMaior
+    a g a b a g f d e e \barMaior
+    f g a a( b) a a \barMin
+    a \mark\sipka g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a \mark\sipka b( c) c c b c c( d b) b \barMaior
+    a g a b a g f d e e \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -72,10 +154,60 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
+    \mark\sipka f g f g a g f g g( a) a \barMaior
+    a g a( b) a g( e) \barMin
+    f g f e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm,
+    kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f e g a a \barMaior
+    a b a a b a g a c( b a) b \barMaior
+    a a g a g( e) \barMin
+    f g f e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm,
+    kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -354,9 +486,15 @@
 \pageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( d c) c( d) d \barMaior
+    d d d d( f) d c c( d) d \barMaior
+    d d d c a a \barMin bes( a) g f g g \barMax
+    f g a b! c d( c) c( d) d \barMaior
+    d d d c d c( b a) \barMin
+    b c d d d( f e) c c( d) \barMaior
+    d d( c b) a( g) a( g) \barMin f( g a) b c( a g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
@@ -369,10 +507,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
