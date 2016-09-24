@@ -78,6 +78,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 50-III"
+    placet = "lépe"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
