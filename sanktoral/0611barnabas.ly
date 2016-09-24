@@ -18,12 +18,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f g a) g( a) \barMin
+    d( f g a) a \barMin
     a( c) a a a( g) f g( f) d d \barMaior
     f e( f) g( a) a \barMin
-    a( bes a) g a g f( g) \barMin g g( f) g f e d d \barFinalis
+    a( bes a) g a g f( g) \barMin g f g f e d d \barFinalis
 
-    d^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    f^\markup\rubrVelikAleluja e c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -38,25 +38,28 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_učitelů_ je jaksi nepřirozené"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( a) g g( a) \barMin a b c c( d) d c b a b a( g) g \barMaior
-    a( c d) e d c d c b c a a g g \barMaior
-    a b c a( g) g \barMin g f g( a) g f f \barFinalis
+    g4 g g g( a) g g a b c b a b a( g) g \barMaior
+    c( d) c a a( c) \barMin
+    c c c b a g a g \barMaior
+    g f g a a \barMin
+    c c b a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a f f \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bar -- na -- báš při -- ve -- dl Šav -- la do An -- ti -- o -- chi -- e,
-    hlá -- sa -- li tam Kris -- to -- vo e -- van -- ge -- li -- um
-    a vy -- u -- či -- li vel -- ké množ -- ství li -- dí.
+    hlá -- sa -- li tam
+    Kris -- to -- vo e -- van -- ge -- li -- um
+    a vy -- u -- či -- li
+    vel -- ké množ -- ství li -- dí.
 
     A -- le -- lu -- ja.
   }
@@ -65,8 +68,8 @@
     hlásali v této církevní obci Kristovo evangelium
     a vyučili tam velké množství lidí. Aleluja."
     quid = "ant. k Benedictus"
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -76,29 +79,30 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f) e d c d a a \barMaior
-    b c d d d c( d) e f( e) d e d( c) c \barMaior
-    d c d d c c \barMin
-    d d( f) d d c( d) d( f) f \barMin f g a g( f) g f f( d) \barMin
-    d( e) c c d d \barFinalis
+    f4 g a g f g g f f \barMaior
+    f d f f f g a bes a g f( g) g \barMaior
+    g f g a g g \barMaior
+    a bes a a g f g \barMin
+    g g f e c d d( c) \barMin
+    d f g f f \barFinalis
 
-    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
     Ce -- lé shro -- máž -- dě -- ní ml -- če -- lo
     a po -- slou -- cha -- lo Bar -- na -- bá -- še a Pav -- la,
     když vy -- pra -- vo -- va -- li,
-    jak ve -- li -- ká zna -- me -- ní vy -- ko -- nal Bůh skr -- ze ně
+    jak ve -- li -- ká zna -- me -- ní
+    vy -- ko -- nal Bůh skr -- ze ně
     me -- zi po -- ha -- ny.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "když nejde rozdělit logicky, přesto rozdělit udýchatelně"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
