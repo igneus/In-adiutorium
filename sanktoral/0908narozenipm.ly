@@ -29,7 +29,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -57,7 +57,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +81,7 @@
     differentia = "c"
     psalmus = "Dan 3-III"
     placet = "VII.c2"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -101,7 +101,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -139,7 +139,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -166,7 +166,7 @@
     differentia = "d"
     psalmus = ""
     placet = "nic moc; _slávou_ je hrůza"
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -189,7 +189,7 @@
     differentia = "a"
     psalmus = ""
     placet = "slátanina, nedrží pohromadě"
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -210,7 +210,7 @@
     differentia = "f"
     psalmus = ""
     placet = "_srdcem_ je fuj, závěr neelegantní"
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -233,8 +233,8 @@
     differentia = "D"
     psalmus = "Žalm 122"
     placet = "C-dur s falešným závěrem na d"
-    id = ""
-    fons = "Zvěstování Páně, uprostřed dne, dopoledne; odstraněno aleluja"
+    id = "ne-a1"
+    fial = "sanktoral/0325zvestovanipane.ly#tercie?-aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -257,7 +257,7 @@
     differentia = "c"
     psalmus = "Žalm 127"
     placet = "myslím, že půjde o něco lépe"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -282,7 +282,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -306,7 +306,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

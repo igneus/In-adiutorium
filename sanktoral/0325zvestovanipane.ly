@@ -789,7 +789,7 @@
     zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
     a připravit další, alternativní"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
-    fial = "fial://advent_antifony.ly#spol-sexta"
+    fial = "fial://advent_antifony.ly#spol-sexta?delsi_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
