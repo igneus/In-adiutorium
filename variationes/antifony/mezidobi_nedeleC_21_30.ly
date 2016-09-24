@@ -206,8 +206,8 @@
     Kdo při -- chá -- zí ke mně
     a ne -- kla -- de své -- ho ot -- ce,
     svou mat -- ku,
-    že -- nu a dě -- ti_-
-    a -- no i sám se -- be_-
+    že -- nu a dě -- ti_–
+    a -- no i sám se -- be_–
     až na dru -- hé mís -- to,
     ne -- mů -- že být mým u -- čed -- ní -- kem.
   }
