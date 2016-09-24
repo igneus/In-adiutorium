@@ -1,7 +1,7 @@
 \version "2.19.32"
 
 \include "../../spolecne.ly"
-\include "../../spolecne/reholni.ly"
+\include "../../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
 
 \header {
@@ -139,6 +139,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a d( c) c( d) d \barMaior
+    d d d c( d) a \barMin
+    g a c( b a) a \barMaior
+    c c c c d c b g c( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a d( c) c( d) d \barMaior
+    d d d \mark\sipka c( a) a \barMin
+    b g g( a) a \barMaior
+    f g a b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -146,22 +194,25 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f g f g g( a) \barMax
+    a g a g f g f f \barFinalis
 
     % V
     \neviditelna a
-
+    a g f g( a) a \barMax
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh si ho za -- mi -- lo -- val_*
     a za -- hr -- nul ho po -- cta -- mi.
-    \Verse O -- děl ho slá -- vou
+    \Verse O -- děl ho slá -- vou.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -169,22 +220,81 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
+    % R
+    \neviditelna f
+    f4 f f g f g g( a) \barMax
+    a g a g f g f f \barFinalis
+
+    % V
+    \neviditelna a
+    a g f \mark\sipka g g( a) \barMax
+    % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    Ce -- lý svůj ži -- vot a všech -- ny své sí -- ly
+    \Response Bůh si ho za -- mi -- lo -- val_*
+    a za -- hr -- nul ho po -- cta -- mi.
+    \Verse O -- děl ho slá -- vou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a \barMin
+    a a g a g( f) f \barMin
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
     dám do služ -- by mlá -- de -- ži.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "1ne-am"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a \barMin
+    a a g a g( f) f \barMin
+    g \mark\sipka g f e d d d \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Nebo:}
 

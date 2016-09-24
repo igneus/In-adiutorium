@@ -87,22 +87,25 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f g f g g( a) \barMax
+    a g a g f g f f \barFinalis
 
     % V
     \neviditelna a
-
+    a g f g g( a) \barMax
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh si ho za -- mi -- lo -- val_*
     a za -- hr -- nul ho po -- cta -- mi.
-    \Verse O -- děl ho slá -- vou
+    \Verse O -- děl ho slá -- vou.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
