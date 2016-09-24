@@ -28,8 +28,6 @@
     kte -- ří s_ná -- mi cho -- di -- li
     po ce -- lou tu do -- bu,
     kdy Pán Je -- žíš žil me -- zi ná -- mi,
-    % menim slovosled; puvodne bylo:
-    % ať vy -- dá -- vá tak ja -- ko my
     ať tak ja -- ko my
     vy -- dá -- vá svě -- dec -- tví
     o je -- ho zmrt -- vých -- vstá -- ní.
@@ -37,6 +35,9 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jeden z mužů, kteří s námi chodili
+    po celou tu dobu, kdy Pán Ježíš žil mezi námi,
+    ať vydává tak jako my svědectví o jeho zmrtvýchvstání. Aleluja."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
