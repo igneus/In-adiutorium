@@ -30,6 +30,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "závěr určitě lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -76,6 +77,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
+    placet = "_věřte i ve mne_ snad lépe bez skoku, např. fa g f e e"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -103,6 +105,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_o kterém psal ..._ je divné"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -129,6 +132,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 116-II"
+    placet = "není špatná, ale dost možná půjde lépe"
     id = "ne-a1"
     fial = "sanktoral/0503filipjakub.ly#rch-a2?cast"
     piece = \markup {\sestavTitulek}
@@ -156,6 +160,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 126"
+    placet = "lépe"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
