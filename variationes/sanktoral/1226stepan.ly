@@ -14,6 +14,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c( b a) a \barMin d c b a( g) a \barMin
     f g a c b c( d) d \barMaior
@@ -31,6 +32,88 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a g f g e f( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    pro nás na -- ro -- ze -- né -- mu;
+    on o -- věn -- čil sva -- té -- ho Ště -- pá -- na
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "sanktoral/0928vaclav.ly#invit?jiny_text"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a g f \mark\sipka a a g g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    pro nás na -- ro -- ze -- né -- mu;
+    on o -- věn -- čil sva -- té -- ho Ště -- pá -- na
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "sanktoral/0928vaclav.ly#invit?jiny_text"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a g f \mark\sipka g a a( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    pro nás na -- ro -- ze -- né -- mu;
+    on o -- věn -- čil sva -- té -- ho Ště -- pá -- na
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "sanktoral/0928vaclav.ly#invit?jiny_text"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

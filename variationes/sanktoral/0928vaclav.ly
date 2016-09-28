@@ -198,6 +198,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a b c a g f g g \barMaior
+    a c( d) c a b a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
+    a na -- pl -- nil mno -- hé vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
@@ -228,7 +248,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a e f) g \barMaior a( b) g a c b \barMin a( g f) e d( g) g \barMaior
     \mark\sipka g e( f g) a( c b g) a( g) \barMaior
@@ -246,6 +266,86 @@
     differentia = "g"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a( g f) e d( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Krá -- li krá -- lů;
+    on o -- věn -- čil
+    sva -- té -- ho Vác -- la -- va
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( \mark\sipka e f g) g \barMin
+    a( b) g a c b \barMin
+    a( g f) e d( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Krá -- li krá -- lů;
+    on o -- věn -- čil
+    sva -- té -- ho Vác -- la -- va
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( b) \barMin
+    c b a g( a) g \barMin
+    f( a) a g g \barMaior
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Krá -- li krá -- lů;
+    on o -- věn -- čil
+    sva -- té -- ho Vác -- la -- va
+    věn -- cem slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

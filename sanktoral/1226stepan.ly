@@ -15,22 +15,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c( b a) a \barMin d c b a( g) a \barMin
-    f g a c b c( d) d \barMaior
-    d e( d c) c( d) d \barMin c b a g a g \barMin
-    f a a( g) g \barFinalis
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a g f g a a( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a a a a( b) g g a( g f) d e e \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu,
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
     pro nás na -- ro -- ze -- né -- mu;
     on o -- věn -- čil sva -- té -- ho Ště -- pá -- na
     věn -- cem slá -- vy.
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
+    fial = "sanktoral/0928vaclav.ly#invit?jiny_text"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

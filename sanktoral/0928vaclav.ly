@@ -72,12 +72,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a e f) g \barMaior a( b) g a c b \barMin a( g f) e d( g) g \barMaior
-    g e( f g) a( c b g) a( g) \barMaior
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a( g f) e d( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
     a a a a( b) g g a( g f) d e e \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, Krá -- li krá -- lů;
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    Krá -- li krá -- lů;
     on o -- věn -- čil
     sva -- té -- ho Vác -- la -- va
     věn -- cem slá -- vy.
@@ -87,7 +91,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "div. maior jen po _králů_"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
