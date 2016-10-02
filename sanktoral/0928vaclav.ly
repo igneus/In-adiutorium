@@ -20,16 +20,16 @@
 
     % R
     \neviditelna f
-    f4 g a g a f g d d \barMin g g( f e) d( c) c \barMax
-    d( g f) f( g) g \barMin f( e d) c c( d) d d \barFinalis
+    f4 f f f f f g f f \barMin f g( f) g( a) a( g) \barMax
+    f g a g( f d) f( g) g f f \barFinalis
     % V
-    \neviditelna g
-    a4 a a( g a) g( f) f \barMin g g g a g f( e) d( c) c \barMax
+    \neviditelna a
+    a4 a g( a) g g \barMin g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    d( g f) f( g) g \barMin f( e d) c c( d) d d \barFinalis
+    f g a g( f d) f( g) g f f \barFinalis
     % Slava
-    a'4 a a( g a) g f g( a) g \barMin g a g f( e) d d \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Zr -- no, kte -- ré pad -- ne do ze -- mě a o -- du -- mře,_*
@@ -40,8 +40,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
-    placet = "nic moc"
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -169,14 +168,14 @@
 
     % R
     \neviditelna f
-    f4 f f f( g) f f g f g g( a) \barMax
-    g a g g f( d) f( g) g( f) f \barFinalis
+    f4 f f g f f g f g( a) a( g) \barMax
+    g g( a) g g f( d) f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g a g g f( d) f( g) g( f) f \barFinalis
+    g g( a) g g f( d) f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
