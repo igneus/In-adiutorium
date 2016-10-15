@@ -89,31 +89,6 @@
 }
 
 \score {
-  \relative c'' {
-    \choralniRezim
-    g f g( a) a \barMin
-    b c( a) a c d c( a) a \barMaior
-    c d( e) f( d c) c \barMin d d( e d) c( b) a a b( c d) a a( g) g \barMaior
-    g a( g) f( g) g \barFinalis
-  }
-  \addlyrics {
-    Po -- kud ži -- ji,
-      chci chvá -- lit Hos -- po -- di -- na,
-    po -- kud bu -- du,
-      chci o -- pě -- vo -- vat své -- ho Bo -- ha.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
-    psalmus = ""
-    id = "rch-aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
   \relative c' {
     \choralniRezim
 
@@ -141,6 +116,31 @@
     modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g f g( a) a \barMin
+    b c( a) a c d c( a) a \barMaior
+    c d( e) f( d c) c \barMin d d( e d) c( b) a a b( c d) a a( g) g \barMaior
+    g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- kud ži -- ji,
+      chci chvá -- lit Hos -- po -- di -- na,
+    po -- kud bu -- du,
+      chci o -- pě -- vo -- vat své -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
