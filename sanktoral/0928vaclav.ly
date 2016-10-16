@@ -197,21 +197,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4( d) d d d( f e) g( f d) d \barMin
-    f( a) g a a( bes) g f( g) g \barMaior
-    f g g( a e f) d \barMin c d d( f e) c d d \barFinalis
+    c4 d d e( f d) c( d) d \barMin
+    f g a a( bes) g g( a) a \barMaior
+    a g e( f e d) d \barMin
+    c d f( e) c d d \barFinalis
   }
   \addlyrics {
     Ná -- rod ho na -- zý -- vá
     dě -- di -- cem čes -- ké ze -- mě,
-    je -- ho jmé -- no bu -- de žít na -- vě -- ky.
+    je -- ho jmé -- no
+    bu -- de žít na -- vě -- ky.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_nazývá_ má moc velký důraz na druhé slabice"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -222,8 +223,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f( g) f f \barMin
-    e d c d d( f) f g a f f \barFinalis
+    a4 g f bes( a) g( a) a \barMin
+    a a a a g f e f d d \barFinalis
   }
   \addlyrics {
     Za -- čá -- tek moud -- ros -- ti
@@ -231,8 +232,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -309,10 +310,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c b a b c d( e) d \barMin
+    d4 c b a b c d d \barMin
     e e d e d \barMaior
     e e g e f d c \barMin d c b a( g) \barMaior
-    a a a a b( a) g a( g) g \barFinalis
+    a a g a b a g g \barFinalis
   }
   \addlyrics {
     Ne -- spo -- lé -- hal na své ko -- pí
@@ -325,7 +326,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
-    placet = "_kdo na něho útočili_ je nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
