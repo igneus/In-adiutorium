@@ -2,6 +2,7 @@
 
 \include "../../spolecne.ly"
 \include "../../dilyresponsorii.ly"
+\include "../../spolecne/reholni.ly"
 \include "opraem.ly"
 
 \header {
@@ -9,10 +10,9 @@
             "sv. Norberta, biskupa a zakladatele řádu"
             památka
             8.8.
+            \textyOPraem
   composer = "Jakub Pavlík"
 }
-
-%\markup\poznamkaOPraem
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
