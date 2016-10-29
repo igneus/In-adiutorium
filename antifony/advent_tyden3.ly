@@ -211,12 +211,11 @@
   }
   \addlyrics {
     Žij -- me spra -- ved -- li -- vě a zbož -- ně,
-    % a přitom očekávejme v blažené naději % ne, to zní hrozně; to bych se styděl i vyslovit - natož pro to hledat nápěv...
-    % pří -- chod na -- še -- ho Pá -- na.
     v_ra -- dost -- ném o -- če -- ká -- vá -- ní
     pří -- cho -- du na -- še -- ho Pá -- na.
   }
   \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
@@ -246,7 +245,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -270,7 +269,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Magnificat"
-    id = ""
+    id = "po-amag"
     fons = "mariánské commune, 1. nešp., k Magnificat; bez aleluja"
     fial = "fial://commune/commune_maria.ly#1ne-amag2?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -296,7 +295,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -354,7 +353,7 @@
     skok mezi _Maria_ a _počala_ je nelibý a dělá melodii nevhodně neplynulou
     (tak se mi to zdálo nejprve; při třetím a dalším poslechu již ne, ale stejně
     bude dobré zkusit jiné varianty)"
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -379,7 +378,7 @@
     differentia = "D"
     psalmus = ""
     placet = "nelíbí"
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -399,7 +398,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     placet = "přinejmenším konec dotáhnout"
     fons = "jeden ze stereotypních grego nápěvů"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -424,7 +423,7 @@
     differentia = "c"
     psalmus = ""
     placet = "závěr je nelibý; začátek se mi naopak líbí moc, ten ať zůstane"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -446,7 +445,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     fons = "o posv. kostela, 1. nešp., k Magnificat; bez aleluja"
     fial = "fial://commune/commune_kostel.ly#1ne-amag?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -470,7 +469,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -491,7 +490,7 @@
     differentia = "c"
     psalmus = ""
     placet = "taková mdlá, bez spádu; melisma jako závěr zní nepěkně, rozplizle"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
