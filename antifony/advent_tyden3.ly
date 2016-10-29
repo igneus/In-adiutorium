@@ -253,10 +253,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( a c) b( g a) f( g) g g f( g) g4.( a) \barMin
-    b4 c d b a( g) g \barMaior
-    g b c( d c) d( e d4.) d \barMin
-    d4 d d( e d) c( b) a g a( b) a g g \barFinalis
+    g4 d' d e c d b \barMin
+    c c b a g( a) a \barMaior
+    c c c b( a g) g \barMin
+    f g a a a a g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou
@@ -267,10 +267,9 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "d"
+    differentia = "a"
     psalmus = "Magnificat"
     id = "po-amag"
-    fons = "mariánské commune, 1. nešp., k Magnificat; bez aleluja"
     fial = "fial://commune/commune_maria.ly#1ne-amag2?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }

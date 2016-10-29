@@ -536,8 +536,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a c) b( g a) f( g) g g f( g) g4.( a) \barMin
     b4 c d b a( g) g \barMaior
@@ -561,6 +564,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 d' d e c d b \barMin
+    c c b a g( a) a \barMaior
+    c c c b( a g) g \barMin
+    f g a a a a g a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- vit mě bu -- dou
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "po-amag"
+    fial = "fial://commune/commune_maria.ly#1ne-amag2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Úterý 3. týdne}}
 

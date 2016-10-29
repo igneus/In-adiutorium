@@ -166,24 +166,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 c( d) d f g f d d \barMax
-    d c d e e e f( g) f( e) e \barMin e f d d c( d) d4. \barFinalis
-    c4^\markup\rubrVelikAleluja d e d \barFinalis
+    c4 b( a) g a f g( a) g g \barMaior
+    f a c d c d e d d \barMin
+    c-- c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bůh shlé -- dl na mou po -- ko -- ru,
-    ve -- li -- ké vě -- ci mi u -- či -- nil ten, kte -- rý je moc -- ný.
+    ve -- li -- ké vě -- ci mi u -- či -- nil
+    ten, kte -- rý je moc -- ný.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Magnificat"
-    placet = "~"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -194,12 +196,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( a c) b( g a) f( g) g g f( g) g4.( a) \barMin
-    b4 c d b a( g) g \barMaior
-    g b c( d c) d( e d4.) d \barMin
-    d4 d d( e d) c( b) a g a( b) a g g \barFinalis
+    g4 d' d e c d b \barMin
+    c c b a g( a) a \barMaior
+    c c c b( a g) g \barMin
+    f g a a a a g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja b( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou
@@ -212,9 +214,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "d"
+    differentia = "a"
     psalmus = "Magnificat"
-    placet = "začátek moc divoký; nevkusné nahromadění třínotových skupin"
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -226,10 +227,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 e f f e f g a a \barMin
+    d4 e f f e f g a a \barMaior
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -242,7 +243,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "lepší aleluja"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
