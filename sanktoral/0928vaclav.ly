@@ -100,8 +100,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) c c b g a( f) e \barMaior
-    f( a b) c( d) b \barMin c b g f g( a) g g \barFinalis
+    c4( d) c c b a g( a) g \barMaior
+    a f( e) d \barMin f g a c b( c) a( g) g \barFinalis
   }
   \addlyrics {
     Cho -- dil po správ -- ných ces -- tách,
@@ -112,9 +112,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
-    placet = "ohledně kryptotritonu fah v obou těchto antifonách
-    zatím nemám jasný názor. Myslím, že když se správně zazpívá,
-    není nelibý, ale přinejmenším mně se zpívá poněkud těžko"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -123,19 +120,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) b g( a f) e \barMaior
-    f4 a b b c c \barMin d c b c( d) a a \barMaior
-    g f g a( g) g \barFinalis
+    g4 g g( a) a \barMaior
+    a c b a c( a) a \barMin
+    a g a g( f) e e \barMaior
+    d f g a( g) g \barFinalis
   }
   \addlyrics {
     V_no -- ci vstá -- val
-    a s_po -- svát -- nou báz -- ní vstu -- po -- val do chrá -- mu,
+    a s_po -- svát -- nou báz -- ní
+    vstu -- po -- val do chrá -- mu,
     a -- by se mod -- lil.
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -244,7 +243,7 @@
   \relative c'' {
     \choralniRezim
     d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a g( f g4.) g4 a c d c( a) b( a) a \barFinalis
+    a b g a( c d) c a g a a \barFinalis
   }
   \addlyrics {
     Buď věr -- ný až do smr -- ti,
@@ -255,28 +254,29 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    placet = "nic moc, pravděpodobně půjde lépe"
     id = "sexta"
     fial = "sanktoral/0506jansarkander.ly#ne-amag?jiny_konec"
-    fons = "Jana Sarkandra, k Magnificat; konec upraven"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( a' g) f( g) f \barMin g g g a g( f) d d \barMaior
-    c d d( f d f g) g g \barMin f( c) c( d) d \barFinalis
+    \key f \major
+    a4( bes) a g( a) \barMin
+    a a a g e( f) d d \barMaior
+    c d f( e) f( g) f e d4. d \barFinalis
   }
   \addlyrics {
-    Ne -- do -- pusť, a -- by tě zlo pře -- moh -- lo,
+    Ne -- do -- pusť,
+    a -- by tě zlo pře -- moh -- lo,
     a -- le pře -- má -- hej zlo dob -- rem.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -346,7 +346,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Zj 4"
-    placet = "krok na _a_ je nevhodný"
+    placet = "krok na _a_ je nevhodný (ale zatím jsem nenašel libé řešení bez něj)"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -357,25 +357,24 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) e \barMin d e c c d d \barMax
-    f g g a( bes) g f g f \barMaior
-    g( a g) f( e d) d d( e) c c d d \barFinalis
+    d4--( e f e d) d \barMin
+    d c a c d d \barMaior
+    f g a g f g g( f) f \barMaior
+    f( g f) e( d) c \barMin
+    d( f) e c d d \barFinalis
   }
   \addlyrics {
-    Ze -- mřel, a pře -- ce zví -- tě -- zil;
+    Ze -- mřel,
+    a pře -- ce zví -- tě -- zil;
     ob -- dr -- žel ko -- ru -- nu slá -- vy,
-    po -- má -- há své -- mu ná -- ro -- du.
+    po -- má -- há
+    své -- mu ná -- ro -- du.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "_Zemřel_ je divné; pamatuji si, jak jsem přesně tuhle divnost
-    udělal záměrně, na efekt, ale zpětně myslím, že se to sem až tolik nehodí
-    a že by takové věci neměly být v chorálu zapotřebí;
-    antifonu zkusit i úplně jinak - je to antifona k Magnificat ze slavnosti
-    sv. Václava!"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
