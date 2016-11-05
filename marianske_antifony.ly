@@ -7,7 +7,9 @@
 
 \include "spolecne.ly"
 
-\markup\justify{Texty obou antifon podle Jednotného kancionálu (č. 007 a 008).}
+\markup\justify{
+  Texty prvních dvou antifon podle Jednotného kancionálu (č. 007 a 008).
+}
 
 \score {
   \relative c' {
@@ -69,6 +71,7 @@
     differentia = ""
     psalmus = ""
     poet = "Jednotný kancionál (30. vyd., 2004) 007"
+    placet = "trochu divné je _K tobě voláme_; _lkajíce_ se mi těžko zpívá"
     id = "salve"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -109,24 +112,28 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 c d d( a' bes) a \barMin a g f g( a) a \barMin
+    f4 c d d( a' bes) a \barMin
+    a g f g a \barMin
     f g d \barMaior
 
     g a g f e e( f) e c d d \barMaior
-    e c d f f g( f) \barMin g f e d c c( d) d( f) \barFinalis
+    e c d f f g( f) \barMin
+    g f e d c e( f d) c( d) \barFinalis
 
-    a4 g a c( b) g \barMin
+    a'4 g a c( b) g \barMin
     g f g( a) a \barMaior
     a g f e( f d c) c \barMaior
     d d f f( g) f f \barMin
     e f g( a) f( e) d d \barFinalis
   }
   \addlyrics {
-    Zdrá -- vas, Ma -- ri -- a, mi -- los -- ti -- pl -- ná,
+    Zdrá -- vas, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná,
     Pán s_te -- bou,
 
     po -- žeh -- na -- ná tys me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho, Je -- žíš.
+    a po -- žeh -- na -- ný plod
+    ži -- vo -- ta tvé -- ho, Je -- žíš.
 
     Sva -- tá Ma -- ri -- a,
     Mat -- ko Bo -- ží,

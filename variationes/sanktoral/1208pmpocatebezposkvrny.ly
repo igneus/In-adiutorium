@@ -56,8 +56,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a c( d) d d \barMin c d b c b4. \barMin
     b4( c) a( g) g \barFinalis
@@ -77,6 +80,37 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{
+  Aktualisace ze zdroje:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e c d d( a' bes) a \barMin
+    a g f g a \barMin
+    g(-- f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    fial = "fial://commune/commune_maria.ly#2ne-a1?-aleluja"
+    fons_externus = "volně podle AR1912, s. 220"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -746,6 +780,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 c d d( a' bes) a \barMin a g f g( a) a \barMin
     f g d \barMaior
@@ -767,10 +802,49 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     fons = "volně podle nějaké verze ant. Ave Maria
     (i se Sancta Maria ... mortis nostrae. Amen), kterou jsem kdysi stahl
     z internetu a mam vytistenou; srov. tez (kratsi verze) v AR1912, s. 564 a par."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Sjednocení nápěvu s kratší příbuznou antifonou v mariánském commune
+  a zde v prvních nešporách.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 c d d( a' bes) a \barMin
+    a g f \mark\sipka g a \barMin
+    f g d \barMaior
+
+    g a g f e e( f) e c d d \barMaior
+    e c d f f g( f) \barMin
+    g f e d c \mark\sipka
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Zdrá -- vas, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná,
+    Pán s_te -- bou,
+
+    po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod
+    ži -- vo -- ta tvé -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "2ne-amag"
+    fons_externus = "volně podle AR1912, s. 564"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

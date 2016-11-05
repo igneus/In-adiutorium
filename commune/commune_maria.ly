@@ -392,13 +392,13 @@
     \choralniRezim
     c4( b) c c e e4. d \barMin
     c4( b) a b a( g) g \barMaior
-    g( c) c c c( d e) d( c) c4.( d) \barMin
-    f4 e c d( c) c \barMax
-    g a b c c c d( e) d c d4. d \barMaior
-    d4 d d d b c4. \barMin
-    d4 b c a( g) g \barFinalis
+    g( c) c c c( d e) d( c) c( d) \barMin
+    f e c d( c) c \barMax
+    g a b c c c d( e) d c d d \barMaior
+    f4 e d e d c \barMin
+    c b a g( a) g \barFinalis
 
-    b^\markup\rubrVelikAleluja c a4. g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi,
@@ -416,7 +416,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
-    placet = "lepší aleluja"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -425,10 +424,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c4. c \barMin d4 c b b( c) a \barMax
-    a a b( c) a( g) c d d( c) c \barMax
-    b( c) a a4.( g) \barMin f4 g a g( a g) g \barFinalis
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g4 a c c \barMin d4 c b b( c) a \barMaior
+    a a b( c) a( g) c d d( c) c \barMaior
+    b( c) a a( g) \barMin f4 g a a( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
@@ -442,7 +441,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3"
-    placet = "stačí divisiones maiores"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -659,24 +657,27 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a a c( d) d d \barMin c d b c b4. \barMin
-    b4( c) a( g) g \barFinalis
-    a^\markup\rubrVelikAleluja a g g \barFinalis
+    d4 e c d d( a' bes) a \barMin
+    a g f g a \barMin
+    g(-- f e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
     Pán s_te -- bou!
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 122"
-    placet = "začátek zkusit g a g ac c c"
+    fons_externus = "volně podle AR1912, s. 220"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

@@ -558,6 +558,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c e e4. d \barMin c4 a b b g \barMax
     c b c e e e \barMin d e c a( g) g \barMax
@@ -614,7 +615,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( b) c c e e4. d \barMin
     \mark "2" c4( b) a b a( g) g \barMaior
@@ -646,10 +647,119 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4( b) c c e e4. d \barMin
+    c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c( d) \barMin
+    f e c d( c) c \barMax
+    g a b c c c d( e) d c d d \barMaior
+    d4 d d d b c4. \barMin
+    d4 b c a( g) g \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil
+    Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
+    při -- mlou -- vej se za nás
+    u své -- ho sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c c e e4. d \barMin
+    c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c( d) \barMin
+    f e c d( c) c \barMax
+    g a b c c c d( e) d c d d \barMaior
+    d4 d d d \mark\sipka c a \barMin
+    c b a g( a) g \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil
+    Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
+    při -- mlou -- vej se za nás
+    u své -- ho sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Taková lidovější varianta:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( b) c c e e4. d \barMin
+    c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c( d) \barMin
+    f e c d( c) c \barMax
+    g a b c c c d( e) d c d d \barMaior
+    \mark\sipka f4 e d e d c \barMin
+    c b a g( a) g \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil
+    Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě:
+    při -- mlou -- vej se za nás
+    u své -- ho sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c4. c \barMin d4 c b b( c) a \barMax
     a a b( c) a( g) c d d( c) c \barMax
@@ -668,6 +778,60 @@ je "\"skororepetice\"" melodie 2 v 4.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c4. c \barMin d4 c b b( c) a \barMax
+    a a b( c) a( g) c d d( c) c \barMax
+    b( c) a a4.( g) \barMin f4 g a g( a g) g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
+    ty jsi ra -- dost Iz -- ra -- e -- le,
+    ty jsi čest na -- še -- ho li -- du.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    placet = "stačí divisiones maiores"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c \barMin d4 c b b( c) a \barMaior
+    a a b( c) a( g) c d d( c) c \barMaior
+    b( c) a a( g) \barMin f4 g a \mark\sipka a( g) g \barFinalis
+    g^\markup\rubrVelikAleluja \mark\sipka a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
+    ty jsi ra -- dost Iz -- ra -- e -- le,
+    ty jsi čest na -- še -- ho li -- du.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -1334,6 +1498,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a c( d) d d \barMin c d b c b4. \barMin b4( c) a( g) g \barFinalis
   }
@@ -1346,6 +1511,56 @@ je "\"skororepetice\"" melodie 2 v 4.}
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 a a c( d) d d \barMin c d b c b4. \barMin
+    b4( c) a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a( c) c c \barMin
+    c d b c b \barMin
+    b( c) a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1497,6 +1712,73 @@ je "\"skororepetice\"" melodie 2 v 4.}
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny "5"
+
+\markup\justify{
+  Ješitnost mi velí pro případného budoucího čtenáře tu poznamenat,
+  že samozřejmě vím, že melodie _Maria_ v latinské antifoně,
+  podle níž je tato složena, odráží latinský slovní přízvuk
+  María, zatímco český slovní přízvuk je na první slabice Mária.
+  Mě tu ale beze změny převzatá tradiční melodie neuráží
+  a myslím, že ani ostatní zpěváky by urážet nemusela.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e c d d( a' bes) a \barMin
+    a g f g a \barMin
+    g(-- f e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    fons_externus = "volně podle AR1912, s. 220"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 c d d( a' bes) a \barMin
+    a g f g a \barMin
+    g(-- f e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Zdrá -- vas, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Buď zdráva, Maria, milostiplná! Pán s tebou! Aleluja."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    fons_externus = "volně podle AR1912, s. 220"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
