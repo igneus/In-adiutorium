@@ -165,6 +165,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d c b a( b) \barMaior
+    c c a( g) g \barMin
+    g a f g \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Vzmuž -- te se a řek -- ně -- te:
+    Náš Bůh při -- jde
+    a spa -- sí nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 16"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d c b a( b) \barMaior
+    c c a( g) \mark\sipka f \barMin
+    f g a g \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Vzmuž -- te se a řek -- ně -- te:
+    Náš Bůh při -- jde
+    a spa -- sí nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 16"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

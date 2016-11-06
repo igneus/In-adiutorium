@@ -302,6 +302,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 c \mark\sipka a( g) a \barMin f g a g g \barMaior
+    c c( d e) c b a a \barMin g f g( a) a( g) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu vze -- jde má spá -- sa
+    a v_Je -- ru -- za -- lé -- mě bu -- du o -- sla -- ven.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 148"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 a g( a) g \barMin f g a g g \barMaior
 
