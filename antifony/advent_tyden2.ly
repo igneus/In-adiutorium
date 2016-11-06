@@ -45,6 +45,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 16"
+    placet = "není úplně zlá, ale myslím, že půjde lépe"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -69,6 +70,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "zkusit alternativy"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -153,6 +155,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
+    placet = "tady by šel vhodně využít jeden z tradičních typů modu VIII"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }

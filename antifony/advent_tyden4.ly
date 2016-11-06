@@ -61,6 +61,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
+    placet = "zkusit zpěvněji"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -145,6 +146,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 150"
+    placet = "_Slovo, Bože_ je moc rozházené - doladit"
     id = "ne-rch-a3"
     fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
     fial = "fial://vanoce_narozenipane.ly#26-amag?cast&volne"
@@ -171,6 +173,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 110"
+    placet = "krok na _a_ pryč; celou zkusit lépe"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -195,6 +198,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 112"
+    placet = "začátek nic moc"
     id = "ne-2ne-a2"
     fons = "neděle 3. adv.t., r.ch., 2.a., 2.-4. část; začátek upraven"
     fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2"

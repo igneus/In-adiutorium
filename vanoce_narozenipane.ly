@@ -1405,6 +1405,10 @@
       A -- le -- lu -- ja.
     }
     \header {
+      textus_approbatus = "Když hluboké ticho všechno objímalo
+      a noc ve svém běhu k polovině došla,
+      tvé všemocné Slovo, Bože,
+      sestoupilo z královského trůnu z nebe. Aleluja."
       quid = "ant. k Magnificat"
       modus = "I"
       differentia = "g"

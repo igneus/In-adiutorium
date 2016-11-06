@@ -175,6 +175,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
+    placet = "divisio minima pryč; možná zkusit o kousek zpěvnější?"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -197,6 +198,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 111"
+    placet = "_z hor_ se nezpívá úplně dobře"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }

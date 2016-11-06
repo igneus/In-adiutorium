@@ -68,6 +68,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Flp 2"
+    placet = "zkusit jednodušší a zpěvnější"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -171,6 +172,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "postup f a h se většinou špatně zpívá"
     id = "ne-cte-avig"
     fons = "advent, 2.t., utery, k Benedictus"
     fial = "fial://antifony/advent_tyden2.ly#ut-aben"
@@ -202,6 +204,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
+    placet = "_hory_ by možná byly vhodnou příležitostí pro malou zvukomalbu"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -231,10 +234,14 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Hory a pahorky budou před Bohem zpívat píseň chvály
+    a všechny lesní stromy budou tleskat rukama,
+    neboť přijde Vládce a Pán a bude kralovat navěky. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "krok na _budou_ je nevhodný"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -281,6 +288,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
+    placet = "není vůbec špatná, ale při vhodné příležitosti by se mohla zkusit jásavější varianta"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -303,7 +311,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 114"
-    placet = "jako by skutečnou finálou bylo a"
+    placet = "jako by skutečnou finálou bylo a; značně nezpěvná"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
