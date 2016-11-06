@@ -229,10 +229,38 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a b c( b c d) c \barMin
+    b c d b a( g) g \barMaior
+    a f e f a a( g) g \barMax
+    c( b c) c( d) c \barMin c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se a já -- sej,
+    sva -- té měs -- to Bo -- ží:
+    při -- chá -- zí k_to -- bě tvůj Král,
+    ne -- boj se, tvá spá -- sa je blíz -- ko.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 2"
+    id = "ne-cte-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g a b c( b c d) c \barMin
     b c d b a( g) g \barMaior
     a f e f a a( g) g \barMax
     c( b c) c( d) c \barMin c a g f g g \barFinalis

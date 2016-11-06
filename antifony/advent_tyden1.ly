@@ -105,9 +105,9 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a b c( b c d) c \barMin
+    g4 g a b c( b c d) c \barMin
     b c d b a( g) g \barMaior
     a f e f a a( g) g \barMax
     c( b c) c( d) c \barMin c a g f g g \barFinalis
