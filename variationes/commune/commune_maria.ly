@@ -1787,6 +1787,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( b) c d d d a( g a4.) a \barMin
     c4 d d e( c b) b \barMin a b b a g g \barFinalis
@@ -1800,6 +1801,33 @@ je "\"skororepetice\"" melodie 2 v 4.}
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 127"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d c e( d) d \barMin
+    d c b c( a g) g \barMin
+    f g a a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1954,6 +1982,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e f( g) g g f g g a a \barMin g a a a a g4.( d) \barMin
     f4 e c d d \barFinalis
@@ -1997,12 +2026,67 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin
+    f e f d d \barMaior
+    f g a g f d( c) \barMin
+    d f e d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi
+    me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod
+    ži -- vo -- ta tvé -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a \barMin
+    a g a c a a \barMaior
+    a g a g f g g f e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2105,6 +2189,76 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g f a g g \barMin g f g a a \barMax
+    a4-- g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g a g g g g g f g a a \barMax
+    % R
+    \neviditelna a
+    a4-- g( f) f \barFinalis
+    % Slava
+    a4 a g( a) g f g g \barMin g f g a g g \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g f g g g g g f g a a \barMax
+    % R
+    \neviditelna a
+    f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
@@ -2122,6 +2276,41 @@ je "\"skororepetice\"" melodie 2 v 4.}
     \neviditelna f
     f4 g( f) d( f) f f \barMin f e( f) d c c \barMaior
     d d f f f g( f) \barMin f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!_* \textRespAleluja
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin f f f g f \barMin
+    f( e) g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f g f f \barMin
+    f g f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis

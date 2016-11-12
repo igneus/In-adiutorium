@@ -423,17 +423,17 @@
 
     % R
     \neviditelna f
-    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
-    a4( g a) f( g f) f \barFinalis
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
-    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g f g g g g g f g a a \barMax
     % R
     \neviditelna a
-    a4( g a) f( g f) f \barFinalis
+    f( g) g( f) f \barFinalis
     % Slava
-    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
@@ -665,13 +665,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b) c d d d a( g a4.) a \barMin
-    c4 d d e( c b) b \barMin a b b a g g \barFinalis
-    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
+    a4 c d d c e( d) d \barMin
+    d c b c( a g) g \barMin
+    f g a a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
-    ať se mi sta -- ne po -- dle tvé -- ho slo -- va.
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
 
     A -- le -- lu -- ja.
   }
@@ -681,7 +684,6 @@
     differentia = "a"
     psalmus = "Kol 1"
     id = "2ne-a3"
-    placet = "melisma na _Jsem_ je divné"
     fons = "spol. texty o P.M., 2. nešp., 2. ant."
     fial = "fial://commune/commune_maria.ly#2ne-a2"
     piece = \markup {\sestavTitulek}

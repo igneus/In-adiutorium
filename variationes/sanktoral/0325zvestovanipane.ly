@@ -655,10 +655,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době postní:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -692,6 +695,47 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g f g g g g g f g a a \barMax
+    % R
+    \neviditelna a
+    f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    fons = "spol. texty o P.M., 2. nešp."
+    fial = "fial://commune/commune_maria.ly#2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
@@ -930,8 +974,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( b) c d d d a( g a4.) a \barMin
     c4 d d e( c b) b \barMin a b b a g g \barFinalis
@@ -940,6 +987,39 @@
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
     ať se mi sta -- ne po -- dle tvé -- ho slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "2ne-a3"
+    fons = "spol. texty o P.M., 2. nešp., 2. ant."
+    fial = "fial://commune/commune_maria.ly#2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Aktualisace ze zdroje:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d c e( d) d \barMin
+    d c b c( a g) g \barMin
+    f g a a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
 
     A -- le -- lu -- ja.
   }
