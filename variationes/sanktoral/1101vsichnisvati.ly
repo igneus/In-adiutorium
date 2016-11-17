@@ -37,8 +37,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d c c \barMin b a b( a) g \barMaior
     a g f g a g( a) g \barMax
@@ -63,6 +66,66 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    c4 d d c c \barMin b a b( a) g \barMaior
+    a g f g a g( a) g \barMax
+    f a c b c c \barMin
+    c c c b( d) c( b) a \barMin a g f g g \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
+    ra -- duj se ze svých sy -- nů,
+    všich -- ni se shro -- máž -- dí
+    a bu -- dou ve -- le -- bit věč -- né -- ho Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
+    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d c c \barMin b a \mark\sipka g( a) g \barMaior
+    a g f g a \mark\sipka a( g) g \barMax
+    f a c b c c \barMin
+    c c c b( d) c( b) a \mark\sipka a g f g g \barMaior
+    g \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
+    ra -- duj se ze svých sy -- nů,
+    všich -- ni se shro -- máž -- dí
+    a bu -- dou ve -- le -- bit věč -- né -- ho Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
+    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -469,6 +532,62 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4( a') a \barMin a( g a) g( f) e \barMaior
+    d d d d e f g( bes a g) f( g) \barMaior
+    g( a g) f( e) d d d e c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se;
+    ve spo -- le -- čen -- ství všech sva -- tých
+    o -- sla -- vuj -- me na -- še -- ho Bo -- ha.
+  }
+  \header {
+    % Vtipne je, ze me zneni, z rytmickych duvodu nahrazujici
+    % "chvalme" za "oslavujme", by mohlo vznaset narok,
+    % ze je o spetku vernejsim prekladem latinskeho originalu.
+    textus_approbatus = "Pojďme, klaňme se Bohu,
+    chvalme ho ve společenství všech svatých!"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4( a') a \barMin a( g a) g( f) e \barMaior
+    d d d d e f g( bes a g) f( g) \barMaior
+    g( a g) f( e) d d d e c \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se;
+    ve spo -- le -- čen -- ství všech sva -- tých
+    o -- sla -- vuj -- me na -- še -- ho Bo -- ha.
+  }
+  \header {
+    % Vtipne je, ze me zneni, z rytmickych duvodu nahrazujici
+    % "chvalme" za "oslavujme", by mohlo vznaset narok,
+    % ze je o spetku vernejsim prekladem latinskeho originalu.
+    textus_approbatus = "Pojďme, klaňme se Bohu,
+    chvalme ho ve společenství všech svatých!"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -521,8 +640,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( g) g g g( a g) g( a) a \barMin
     a( b c) a b( c) a( g) g \barMin
@@ -541,7 +663,34 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 16"
-    id = ""
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( g) g g g( a g) g( a) a \barMin
+    a( b c) a b( c) a( g) g \barMin
+    e g a a \barMaior
+    a a a a \mark\sipka g f e( d) \barMin
+    f d f f e e \barFinalis
+  }
+  \addlyrics {
+    Svým sva -- tým jsi u -- ká -- zal
+    ces -- tu k_ži -- vo -- tu,
+    Hos -- po -- di -- ne,
+    na -- pl -- níš je ra -- dos -- tí
+    z_pat -- ře -- ní na te -- be.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 16"
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }

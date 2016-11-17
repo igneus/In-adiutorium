@@ -41,11 +41,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d c c \barMin b a b( a) g \barMaior
-    a g f g a g( a) g \barMax
+    c4 d d c c \barMin b a g( a) g \barMaior
+    a g f g a a( g) g \barMax
     f a c b c c \barMin
-    c c c b( d) c( b) a \barMin a g f g g \barMaior
-    g a g g \barFinalis
+    c c c b( d) c( b) a a g f g g \barMaior
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
@@ -241,7 +241,8 @@
     a4 a( g) g g g( a g) g( a) a \barMin
     a( b c) a b( c) a( g) g \barMin
     e g a a \barMaior
-    a a a a g( f) e d \barMin f d f f e e \barFinalis
+    a a a a g f e( d) \barMin
+    f d f f e e \barFinalis
   }
   \addlyrics {
     Svým sva -- tým jsi u -- ká -- zal
