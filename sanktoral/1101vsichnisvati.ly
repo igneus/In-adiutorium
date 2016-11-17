@@ -30,6 +30,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 113"
+    placet = "aleluja snad g ga g g"
     id = "1ne-a1"
     fons = "commune jednoho muč., 1. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
@@ -148,6 +149,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "věnovat jí trochu péče, zejm. úvodu"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -284,6 +286,7 @@
     modus = "VIII"
     differentia = ""
     psalmus = ""
+    placet = "začátek půjde lépe"
     fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -307,6 +310,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "začátek zní značně nepřirozeně, je to násilný pokus o zvukomalbu"
     id = "rch-a1"
     fons = "commune jeden muč., 2. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#2ne-amag"
@@ -329,6 +333,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
+    placet = "zkusit lépe - spíš prostěji a zpěvněji"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -349,6 +354,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "začátek o sekundu nahoru; zkusit celou lépe?"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -432,6 +438,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "bez úletu do plagálního tetrachordu se dá dobře obejít"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -477,6 +484,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "melisma na _bylo_ určitě pryč"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
