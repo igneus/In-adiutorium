@@ -411,6 +411,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "jedna z těch, které mám rád - nicméně úplně nedrží pohromadě"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -437,6 +438,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "aleluja snad lépe prosté g a ag g;
+    na daný text by nejspíš dobře šel aplikovat některý klasický model"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -512,6 +515,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "nasazení modelového nápěvu na text nepříliš povedené, výsledek nelibý"
     id = "ct-aben"
     fons = "jeden z nejohranejsich gregorianskych typu"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -561,6 +565,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "aleluja bude lépe g a ag g; možná půjde celá lépe"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -606,6 +611,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "půjde lépe"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

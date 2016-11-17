@@ -255,6 +255,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "bída"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -275,6 +276,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "_zlomí_ raději jednodušší"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -323,6 +325,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "závěr půjde přirozeněji, např. f e c cd d"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -345,10 +348,13 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Bude sedět na Davidově trůnu
+    a bude vládnout po všechny věky. Aleluja."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,6 +401,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "_Já ti_ možná lépe g g?"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -441,6 +448,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "melisma na začátku pryč; snad začít už na a"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -459,14 +467,16 @@
     z_pra -- me -- mů spá -- sy.
   }
   \header {
+    % na tomto místě bylo 'čerpat', ale to je, myslím, (oproti velikonočnímu
+    % výskytu stejného textu) jen inkonsistence překladu
+    % a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá
+    textus_approbatus = "S radostí budete čerpat vodu z pramemů spásy."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "mám ji takhle rád, ale takový krásný text si zaslouží pár pokusů o ještě lepší melodii"
     id = "pa-amag"
-    fons = "doba velikonoční, feriální cyklus, čt. 2.t., r.ch., 2. ant.; ubráno aleluja;
-    na tomto místě bylo 'čerpat', ale to je, myslím, jen inkonsistence překladu
-    a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá"
     fial = "fial://antifony/velikonoce_tyden2_5ctvrtek.ly#rch-a2?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -489,6 +499,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "tady nevím"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
