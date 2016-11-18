@@ -247,6 +247,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "zkusit zpěvnější"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -446,6 +447,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "začátek je moc divoký"
     id = "ct-amag"
     fons = "o posv. kostela, 1. nešp., k Magnificat; bez aleluja"
     fial = "fial://commune/commune_kostel.ly#1ne-amag?-aleluja"
@@ -470,6 +472,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "závěr je mi trochu podezřelý"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
