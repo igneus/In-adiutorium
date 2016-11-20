@@ -1,4 +1,4 @@
-% -*- master: ../advent_antifony.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {1. neděle adventní}}
 
@@ -58,8 +58,40 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barMaior
+    c a( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Magnificat"
+    fons = "commune P.M., 2. nešp., k Magnificat; upraveno jen formálně"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Aktualisace ze zdroje:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barMaior
@@ -81,6 +113,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisDen {2. neděle adventní}}
 

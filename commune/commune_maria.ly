@@ -13,14 +13,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
-    g f g g( a) a a c( d) d \barMin d c b( c) a g( a g) g \barFinalis
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMax
+    c d e c( b) a a \barMin
+    c c c b a g g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
-    ne -- boť tys no -- si -- la to -- ho,
-    kte -- rý všech -- no stvo -- řil.
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    to -- ho, kte -- rý všech -- no stvo -- řil.
 
     A -- le -- lu -- ja.
   }
@@ -29,7 +33,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
-    placet = "druhá část nic moc"
     fial = "commune/commune_maria.ly#2ne-amag?zacatek"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -39,23 +42,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g f g( a) a \barMin b c c a( g) g \barMaior
-    a c( d c) b( c a g) g \barMin a( g f) a a g( a g) g \barFinalis
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g4 a g f g( a) a \barMin
+    a b c a a \barMaior
+    c c( d c) a a( c) \barMin
+    c b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Zro -- di -- la jsi to -- ho,
     kte -- rý tě stvo -- řil,
-    a na -- vě -- ky zů -- stá -- váš Pan -- nou.
+    a na -- vě -- ky
+    zů -- stá -- váš Pan -- nou.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 147-II"
-    placet = "_a_ nechat na g; zkusit alternativy"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -311,9 +317,9 @@
   \relative c' {
     \choralniRezim
     f4 f f( a) a( g) g \barMin
-    f g a( f e) d( e) d d \barFinalis
+    f e f( d) c d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Bůh ji po -- svě -- til
@@ -326,7 +332,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 46"
-    placet = "_svůj_ je divně přetížené oproti _příbytek_"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -447,14 +452,18 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( g) f( g) g \barMin f e c d d \barMax
-    d e f g g g a( bes) a \barMin a a g f e( d) d \barFinalis
-    d^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    d4( f g) f( e) d \barMin
+    a' a a( c) a g( a) \barMaior
+    a a a bes a g f( g) e \barMaior
+    f g a f e( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
-    Ra -- duj se, Pan -- no Ma -- ri -- a,
+    Ra -- duj se,
+    Pan -- no Ma -- ri -- a,
     ne -- boť tys no -- si -- la Kris -- ta,
     Spa -- si -- te -- le svě -- ta.
 
@@ -463,9 +472,9 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = "Žalm 149"
-    placet = "zřejmě bude lepší předělat podle antifony k vigilii"
+    fial = "commune/commune_maria.ly#mc-avig?kratsi_text"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -815,7 +824,7 @@
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-    c^\markup\rubrVelikAleluja a( g) a( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -829,7 +838,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Magnificat"
-    placet = "aleluja je možná zbytečně extravagantní"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

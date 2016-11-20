@@ -100,9 +100,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-    c^\markup\small\italic{V době velikonoční:} a( g) a( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -116,7 +116,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    fons = "společné texty o P.M., 2. nešp., k Magnificat"
     fial = "commune/commune_maria.ly#2ne-amag"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}

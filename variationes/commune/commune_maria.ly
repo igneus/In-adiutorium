@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
     g f g g( a) a a c( d) d \barMin d c b( c) a g( a g) g \barFinalis
@@ -70,6 +71,94 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMax
+    c d e c( b) a a \barMin
+    c c c b a g g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    to -- ho, kte -- rý všech -- no stvo -- řil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMax
+    c d e c( b) a a \barMin
+    c c \mark\sipka a c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    to -- ho, kte -- rý všech -- no stvo -- řil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMax
+    f g a c( d c) a a( c) \barMin
+    c c c b a g g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    to -- ho, kte -- rý všech -- no stvo -- řil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
@@ -97,6 +186,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( g) f f( g) g g( a) a \barMin
     a g bes a( g a) a \barMaior
@@ -151,7 +241,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a g f g( a) a \barMin b c c a( g) g \barMaior
     a c( d c) b( c a g) g \barMin a( g f) a a g( a g) g \barFinalis
@@ -195,6 +285,65 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 147"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g f g( a) a \barMin
+    a b c a a \barMaior
+    c c( d c) a a( c) \barMin
+    c b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Zro -- di -- la jsi to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš Pan -- nou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g( a) a \barMin
+    a b c a a \barMaior
+    c c( d c) \mark\sipka c( b) c \barMin
+    c b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Zro -- di -- la jsi to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš Pan -- nou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -554,6 +703,151 @@
 
 \pageBreak
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \key d \minor
+
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+
+    d^\markup\rubrVelikAleluja d( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
+    od -- mě -- nu od Bo -- ha, své -- ho spa -- si -- te -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f f( a) a( g) g \barMin
+    f g a( f e) d( e) d d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    placet = "_svůj_ je divně přetížené oproti _příbytek_"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Výhrada výše je opodstatněná jen zčásti.
+  Je sice diskutabilní, nakolik je vhodné na _svůj_ položit
+  melisma; _příbytek_, jako poslední slovo antifony, se však
+  rozhodně pro žádnou zvláštní výzdobu nehodí.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( a) a( g) g \barMin
+    f e f( d) c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d f( e) d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?upraveno"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f g) f( e) d \barMin a' a a( c) a g( a) \barMaior
+    a a a bes a g f( g) e \barMaior
+    d d d d f e f f( g) g \barMin
+    a a g f e( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la Kris -- ta,
+    stvo -- ři -- te -- le ne -- be i ze -- mě,
+    spa -- si -- te -- le svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -835,6 +1129,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( g) f( g) g \barMin f e c d d \barMax
     d e f g g g a( bes) a \barMin a a g f e( d) d \barFinalis
@@ -849,6 +1144,62 @@ je "\"skororepetice\"" melodie 2 v 4.}
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4( g) f( g) g \barMin f e c d d \barMax
+    d e f g g g a( bes) a \barMin a a g f e( d) d \barFinalis
+    d^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la Kris -- ta,
+    Spa -- si -- te -- le svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    placet = "zřejmě bude lepší předělat podle antifony k vigilii"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f g) f( e) d \barMin
+    a' a a( c) a g( a) \barMaior
+    a a a bes a g f( g) e \barMaior
+    f g a f e( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la Kris -- ta,
+    Spa -- si -- te -- le svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    fial = "commune/commune_maria.ly#mc-avig?kratsi_text"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -2393,7 +2744,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
@@ -2412,6 +2763,31 @@ začátkem v jednom oficiu patřily k různým modům.
     differentia = "G"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
+    \mark\sipka g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
