@@ -60,10 +60,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( a' g) f g( a) a( g) g4.( a) \barMaior
-    a4 c( b c) a g f( g) g( a) a \barMax
-    a b c b( c) c \barMin c d( c) b( c) a4.( g) \barMaior
-    g4 f e d( e) d c c( d) d \barFinalis
+    d4 d c d d( a') a g f g( a) \barMaior
+    a c( b c) a g f( g) g( a) a \barMax
+    a b c c( d) d d c( b) a( b) a( g) \barMaior
+    g f e d( e) d c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tu by -- lo dá -- no vla -- dař -- ství
@@ -76,7 +76,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 4"
-    placet = "div. po _kmenů_ pryč; zvážit zjednodušení první části"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -437,8 +436,8 @@
     \choralniRezim
     b4( d) d \barMin
     e d c b c c( d) d \barMin
-    c a b4. b \barMax
-    b4 c b c c( d) d \barMin
+    c a b b \barMaior
+    b c b c c( d) d \barMin
     d( c) a b a g g g \barFinalis
   }
   \addlyrics {
@@ -453,7 +452,6 @@
     modus = "VII"
     differentia = "b"
     psalmus = "Benedictus"
-    placet = "div. maior, ne maxima"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -600,15 +598,17 @@
 
     % R
     \neviditelna f
-    f4 f( g) f f g( a g) f g f \barMin
-    d f f f g( a) a( g) \barMax
-    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    f4 f f f f f g f \barMin
+    f f f f g( a) a( g) \barMax
+    g g g( a) g( f d) d \barMin
+    d f g a g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    g g g( a) g( f d) d \barMin
+    d f g a g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -624,7 +624,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "_na kněze_ jen f f f; _je království_ jinak; možná i r1 jinak"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
