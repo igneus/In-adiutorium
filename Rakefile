@@ -82,6 +82,11 @@ namespace :sanity do
     end
   end
 
+  desc "Print count of known issues marked in the scores"
+  task :known_issues do
+    sh 'grep placet *.ly antifony/*.ly commune/*.ly sanktoral/*.ly | wc -l'
+  end
+
   task :all => [:length]
 end
 
