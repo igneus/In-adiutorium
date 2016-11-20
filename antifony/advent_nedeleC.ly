@@ -27,6 +27,8 @@
     s_ve -- li -- kou mo -- cí a slá -- vou.
   }
   \header {
+    textus_approbatus = "Budou znamení na slunci, na měsíci i na hvězdách, na zemi úzkost národů,
+    a tehdy lidé uvidí Syna člověka přicházet v oblaku s velikou mocí a slávou."
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"

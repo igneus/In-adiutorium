@@ -77,7 +77,6 @@
 
 \markup {\nadpisDen {2. neděle adventní}}
 
-% zvazit revizi teto antifony i jejiho citovaneho zdroje
 \score {
   \relative c'' {
     \choralniRezim
@@ -93,6 +92,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "zvazit revizi teto antifony i jejiho citovaneho zdroje"
     id = "iimag1"
     fial = "antifony/advent_tyden2.ly#po-aben?cast"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -188,6 +188,8 @@
     ne -- bo má -- me če -- kat ji -- né -- ho?
   }
   \header {
+    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
+    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
