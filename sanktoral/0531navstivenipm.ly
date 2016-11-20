@@ -20,7 +20,7 @@
     d4 f f f e d e( f) f g( f) g g( a) a a \barMin
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- vští -- ve -- ní Pan -- ny Ma -- ri -- e;
@@ -48,7 +48,7 @@
 
     d e f( g) g \barFinalis
 
-    d^\markup\small\italic{V době velikonoční:} c d d \barMax
+    d^\markup\rubrVelikAleluja c d d \barMax
     d( f) g( a) g g \barFinalis
   }
   \addlyrics {
