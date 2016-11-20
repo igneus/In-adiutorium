@@ -394,7 +394,7 @@
     differentia = "A"
     psalmus = "Žalm 149"
     id = "rch-a3"
-    fons = "žaltář, čtvrtek 1.t., nešp., 3.ant."
+    fial = "antifony/tyden1_5ctvrtek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
