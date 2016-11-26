@@ -70,15 +70,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b( c) a( g) g4. a \barMin f4( g a) a \barMaior
-    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
-    g a a( c) c b( c a4.) a \barMin
+    c4 b( c) a( g) g4. a \barMin
+    f4( g a) a \barMaior
+    a( b) g4. g \barMin
+    a4 g f f f( e) e \barMaior
+    g a c c b( c a4.) a \barMin
     a4( c) c d c b c a g g \barFinalis
-    g^\markup\rubrVelikAleluja a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- ná jsi, dce -- ro,
-    od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha:
+    Po -- žeh -- na -- ná jsi,
+    dce -- ro,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha:
     skr -- ze te -- be má -- me
     ú -- čast na o -- vo -- ci ži -- vo -- ta.
 
@@ -255,16 +260,18 @@
 \markup\italic{Nebo:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4( c) d f( e d c) c \barMin c a g a a \barMaior
-    g a c c( d) d c d c( b a) a \barMin
-    g( a) f g( a) g g \barFinalis
+    d4 a c( d) d \barMin
+    d c d f e \barMaior
+    e f d d d f e c( d) c \barMin
+    d e f( d) c( d) d \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    d^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
-    Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
     a o -- sla -- vuj -- me je -- ho Mat -- ku,
     Pan -- nu Ma -- ri -- i!
 
@@ -272,10 +279,9 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "~"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -555,10 +561,10 @@
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior
-    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
-    d d c( d) d c( d c) b g( a) g \barFinalis
+    c( d c) b( g) a( g) \barMin
+    f a c c b a g( a) g \barFinalis
 
-    g^\markup\rubrVelikAleluja \[ a( g \] \[ b a) \] g( a) g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la
@@ -573,7 +579,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Benedictus"
-    placet = "melisma na _zase_ je nepěkné; kvalitami dvakrát opakovaného motivu gagha si nejsem jist"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
