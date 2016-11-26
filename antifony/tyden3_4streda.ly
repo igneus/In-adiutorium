@@ -57,16 +57,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    f( g a) g f g f d e d \barMin
-    c d f g g g \barMaior
-    f g a( bes) a a \barMin a g a g f f \barFinalis
+    f4 g g g f g f f \barMin
+    d f f g g g \barMaior
+    f g a( bes) a a \barMin
+    a g a g f f \barFinalis
 
-    e^\rubrVelikAleluja f g( f) f \barFinalis
+    g^\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,
     své -- mu slu -- žeb -- ní -- ku;
-    je -- ho po -- tom -- stvo po -- tr -- vá na -- vě -- ky.
+    je -- ho po -- tom -- stvo
+    po -- tr -- vá na -- vě -- ky.
 
     A -- le -- lu -- ja.
   }
@@ -75,9 +77,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-III"
-    placet = "moc se mi nezdá _Přísahal_ 3-1-1 - první slabika je
-    v poměru k ostatním nepřirozeně zatížená;
-    i tato melodie není nijak oslnivá a mohla by být vyměněna"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
