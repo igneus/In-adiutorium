@@ -312,6 +312,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 24"
+    placet = "druhá půle, zdá se mi, do chorálního repertoáru stylově nezapadá"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -872,6 +873,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Benedictus"
+    placet = "opravdu je potřeba tak velký rozsah?"
     id = "sob-aben1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

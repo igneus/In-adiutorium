@@ -127,6 +127,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
+    placet = "nic moc"
     id = "1ne-a3-pust"
     piece = \markup {\sestavTitulek}
   }
@@ -199,6 +200,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "jsou extra ozdoby pěkné a účelné? jsou potřeba?"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -304,6 +306,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 24"
+    placet = "nelibý postup fah"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -382,6 +385,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "půjde lépe"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -406,6 +410,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "začátek je zbytečně divoký"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -430,6 +435,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
+    placet = "aleluja divné; recitace na e přinejmenším netypická, zvlášť u takto krátké antifony"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -453,6 +459,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "aleluja neuspokojivé"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -589,6 +596,7 @@
     psalmus = ""
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
     fial = "commune/commune_pastyr.ly#nona?cast"
+    placet = "bezdůvodný skok na _chrám_ pryč"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -637,6 +645,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "(ne)návaznost _zbudovaný_ a _jeho základy_ je nelibá"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -712,6 +721,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "půjde lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -808,6 +818,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "jsou netypické ozdoby pěkné? jsou potřeba?"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
