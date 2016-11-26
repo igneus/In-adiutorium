@@ -425,6 +425,156 @@
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f( g) g \barMin a g f g( f) d( f) f4.( e) \barMin
+    f4 e f g( bes) a g( a) a \barMax
+    a4 a( g f) g( f) f4.( d) \barMin f4( e f) g( f) e d( e d) d \barFinalis
+    % V
+    \neviditelna d
+    d( a' bes) a a a c( a) a \barMin g a bes a( g a) a \barMax
+    % R
+    \neviditelna a
+    a4 a( g f) g( f) f4.( d) \barMin f4( e f) g( f) e d( e d) d \barFinalis
+    % Slava
+    d4( a' bes) a g( a) g f g( a) a \barMin a bes bes a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    placet = "~ přetížené melismaty, aniž by ho to dělalo krásnějším"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f( g) g \barMin g f g g( a) g g \barMin
+    g g g f g g( a) a( g) \barMax
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f( d f) g( f g) g( f) \barMin f g a g( a) g g \barMin
+    a g f f( g) g g( f) f \barMaior
+    f f( g) f( g) g \barMin f( g) f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f( g f) d( c) d d( c) \barMin d( f) f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou._* \textRespAleluja
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "r"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f \barMin
+    g g g f g a( g) g \barMaior
+    g a g g g g f g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou._* \textRespAleluja
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 c( d) d f g f d d \barMax
     d c d e e e f( g) f( e) e \barMin e f d d c( d) d4. \barMax
   }
@@ -1201,6 +1351,77 @@ je "\"skororepetice\"" melodie 2 v 4.}
     fial = "commune/commune_maria.ly#mc-avig?kratsi_text"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g g( f) \barMaior
+    f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f( g) f g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;
+    od vě -- ků měl s_ní své plá -- ny._* \textRespAleluja
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "verš má atypickou melodii bez dobré příčiny"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g g( f) \barMaior
+    f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f \mark\sipka e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;
+    od vě -- ků měl s_ní své plá -- ny._* \textRespAleluja
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -2616,6 +2837,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2661,6 +2883,42 @@ je "\"skororepetice\"" melodie 2 v 4.}
     % V
     \neviditelna f
     f4 f f f f f f g f f \barMin
+    f g f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!_* \textRespAleluja
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f g f f \barMin g f g a g \barMin
+    f g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f g f f \barMaior
     f g f f f f f f e g a \barMax
     % R
     \neviditelna a

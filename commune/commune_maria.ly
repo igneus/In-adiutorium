@@ -103,17 +103,17 @@
 
     % R
     \neviditelna f
-    f4 f( g) g \barMin a g f g( f) d( f) f4.( e) \barMin
-    f4 e f g( bes) a g( a) a \barMax
-    a4 a( g f) g( f) f4.( d) \barMin f4( e f) g( f) e d( e d) d \barFinalis
+    f4 f( g) g \barMin g f g g( a) g g \barMin
+    g g g f g g( a) a( g) \barMax
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
     % V
-    \neviditelna d
-    d( a' bes) a a a c( a) a \barMin g a bes a( g a) a \barMax
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    a4 a( g f) g( f) f4.( d) \barMin f4( e f) g( f) e d( e d) d \barFinalis
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
     % Slava
-    d4( a' bes) a g( a) g f g( a) a \barMin a bes bes a( bes) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
@@ -125,8 +125,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
-    placet = "~ přetížené melismaty, aniž by ho to dělalo krásnějším"
+    modus = "VI"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -141,13 +140,13 @@
 
     % R
     \neviditelna f
-    f( d f) g( f g) g( f) \barMin f g a g( a) g g \barMin
-    a g f f( g) g g( f) f \barMaior
-    f f( g) f( g) g \barMin f( g) f e g a \barMax
+    f4 f f f f f g f f \barMin
+    g g g f g a( g) g \barMaior
+    g a g g g g f g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f( g f) d( c) d d( c) \barMin d( f) f f f e g a \barMax
+    f f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -165,7 +164,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "r"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -530,7 +528,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f( g) f g a a \barMax
+    f4 f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -547,7 +545,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "verš má atypickou melodii bez dobré příčiny"
     id = "rch-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -789,13 +786,13 @@
 
     % R
     \neviditelna f
-    f f f f( g) f f \barMin g f g f( d) d \barMaior
-    f4.( g4 a) g( a) a \barMax
+    f f f g f f \barMin g f g a g \barMin
+    f g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 g( f) d( f) f f \barMin f e( f) d c c \barMaior
-    d d f f f g( f) \barMin f f e g a \barMax
+    f4 f f f f f f g f f \barMaior
+    f g f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -813,7 +810,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "R"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
