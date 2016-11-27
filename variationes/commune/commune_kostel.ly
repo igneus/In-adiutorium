@@ -14,6 +14,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a c a b c d e c d \barMaior
     c c d e f d c c d b a g g \barMaior
@@ -34,6 +35,53 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a c a \mark\sipka c c d e c d \barMaior
+    c c d e f d c c d b a g g \barMaior
+    \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
+    všech -- na je -- ho pro -- stran -- ství jsou pl -- ná já -- so -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a c a c c d e c d \barMaior
+    c c d e f d c c d b a g g \barMaior
+    \mark\sipka a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
+    všech -- na je -- ho pro -- stran -- ství jsou pl -- ná já -- so -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době postní:}
 
@@ -81,10 +129,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu postní:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) g \barMin
     f g a f g a f( d) d \barMaior
@@ -110,6 +161,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) c \barMin
+    d c c e d c d c \barMaior
+    c c( d c) a a( c) \barMin
+    c c c b a g f g a g g \barMaior
+    a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    V_Bo -- žím měs -- tě
+    já -- sa -- jí zá -- stu -- py sva -- tých
+    a an -- dě -- lé
+    zpí -- va -- jí chva -- lo -- zpěv před Bo -- žím trů -- nem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Zj 19"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup\italic{V době postní:}
 
 \score {
@@ -131,6 +211,76 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d d e c d d \barMaior
+    c b g( a) g \barMin
+    f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta,
+    tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Následující model zakončení se spíš nehodí pro daný text,
+  protože rytmus si říká o prodloužení obou slabik
+  _Syna_, a to zní, zejména na _Sy_, značně nečesky.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d d e c d d \barMaior
+    c a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g g f g a g g \barMaior
+    c a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
 

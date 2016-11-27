@@ -15,9 +15,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c a b c d e c d \barMaior
+    g4 g a c a c c d e c d \barMaior
     c c d e f d c c d b a g g \barMaior
-    f g a4. g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
@@ -29,7 +29,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
-    placet = "divný průběh melodie _Jeruzalém_; divné _plná jásotu_ a aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -84,13 +83,13 @@
 \markup\italic{Mimo dobu postní:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g( a) g \barMin
-    f g a f g a f( d) d \barMaior
-    f g( a bes) a g \barMin
-    g f g a g f d f g f f \barMaior
-    f d( f) g( f) f \barFinalis
+    d4 d c( d) c \barMin
+    d c c e d c d c \barMaior
+    c c( d c) a a( c) \barMin
+    c c c b a g f g a g g \barMaior
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     V_Bo -- žím měs -- tě
@@ -101,10 +100,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Zj 19"
-    placet = "nic moc"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
