@@ -54,10 +54,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( b c) d( c a b) b( a) \barMin g f e d( e) e \barMaior
-    g a b c( a) g f g( a) g g \barFinalis
+    e4 e( a) a a g a b a \barMin
+    a g a g f e d e e \barFinalis
   }
   \addlyrics {
     Pán při -- jde s_ve -- li -- kou mo -- cí
@@ -65,10 +65,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Flp 2"
-    placet = "zkusit jednodušší a zpěvnější"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -145,8 +144,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 3"
-    placet = "takto se mi líbí; je ale podezřele podobná modu VIII -
-    vyzkoušet úpravu tím směrem"
     id = "ne-cte-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -188,7 +185,8 @@
     c4 b( a g) \barMin
     f g a a a a( c) a a \barMin
     b c a( g) g \barMaior
-    f f( g) g g g a( c) c( b a) a \barMin
+    c c( d c a) a( c) \barMin
+    c c c( b) a a \barMin
     b c a g g \barMaior
     f g g g \barFinalis
   }
@@ -196,7 +194,9 @@
     V_ten den
     bu -- dou pa -- hor -- ky o -- plý -- vat
     mla -- dým ví -- nem
-    a ho -- ry bu -- dou pře -- té -- kat mlé -- kem a me -- dem.
+    a ho -- ry
+    bu -- dou pře -- té -- kat
+    mlé -- kem a me -- dem.
     A -- le -- lu -- ja.
   }
   \header {
@@ -204,7 +204,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
-    placet = "_hory_ by možná byly vhodnou příležitostí pro malou zvukomalbu"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -241,7 +240,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "krok na _budou_ je nevhodný"
+    placet = "krok na _budou (před Bohem)_ není nejelegantnější, ale nenašel jsem
+    srovnatelně pěkné řešení bez něj a antifona jako celek se mi líbí"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
