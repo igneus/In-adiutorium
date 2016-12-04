@@ -1069,10 +1069,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Úterý 1. týdne}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a') bes( a) g c( bes a) bes( a) g \barMin
@@ -1096,8 +1099,48 @@
   }
 }
 
+\markup\justify{
+  Mezi _kořene Jesse_ a následujícím oddílem lze konstatovat určité
+  klopýtnutí, resp. nápadnou změnu charakteru melodie.
+  Antifona jako celek se mi ale pořád líbí a nevidím naléhavý důvod
+  měnit ji.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a') bes( a) g c( bes a) bes( a) g \barMin
+    f( g) g( a) g f( d) e \barMaior
+    d d g f a g \barMin
+    a bes a g f g g \barMaior
+    d d g f( e d) d \barMin
+    \mark\sipka e c f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- ra -- zí ra -- to -- lest
+    z_ko -- ře -- ne Jes -- se,
+    ze -- mě bu -- de pl -- ná
+    Hos -- po -- di -- no -- vy slá -- vy
+    a kaž -- dý člo -- věk
+    u -- zří Bo -- ží spá -- su.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b c b a b \barMin
     c d e e c d d \barMaior
@@ -1122,10 +1165,40 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b c b a b \barMin
+    c d e e c d d \barMaior
+    e( d c) b a g \barMin
+    f( a) a g g \barMaior
+    \mark\sipka g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisDen {Středa 1. týdne}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) e( g) g \barMin
     f g a g f d e \barMax
@@ -1153,6 +1226,110 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c( d) e( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    \mark\sipka a a b a g a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) e( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    a a \mark\sipka a g f g g g f g e e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) e( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    \mark\sipka g a b a g a a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) e( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    g a b a g a a a \mark\sipka g a f e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     f4( g a) g( f) g d \barMin g( f) e d c c \barMaior
     d( g f) g( a) g( f) d( e) e( d) \barMin c d e f e c( d) d \barFinalis
   }
@@ -1169,6 +1346,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c \barMin
+    d c d( e) d d \barMaior
+    c( d e) c b a a \barMin
+    c c c b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu
+    vy -- jde na -- u -- ka,
+    z_Je -- ru -- za -- lé -- ma
+    Hos -- po -- di -- no -- vo slo -- vo.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Čtvrtek 1. týdne}}
 

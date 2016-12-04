@@ -397,21 +397,24 @@
     \key f \major
     d4( a') bes( a) g c( bes a) bes( a) g \barMin
     f( g) g( a) g f( d) e \barMaior
-    d d g f a g \barMin a bes a g f g g \barMaior
-    d d g f( e d) d \barMin d( e) c f e d( e d) d \barFinalis
+    d d g f a g \barMin
+    a bes a g f g g \barMaior
+    d d g f( e d) d \barMin
+    e c f e d( e d) d \barFinalis
   }
   \addlyrics {
     Vy -- ra -- zí ra -- to -- lest
     z_ko -- ře -- ne Jes -- se,
-    ze -- mě bu -- de pl -- ná Hos -- po -- di -- no -- vy slá -- vy
-    a kaž -- dý člo -- věk u -- zří Bo -- ží spá -- su.
+    ze -- mě bu -- de pl -- ná
+    Hos -- po -- di -- no -- vy slá -- vy
+    a kaž -- dý člo -- věk
+    u -- zří Bo -- ží spá -- su.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "jedna z těch, které mám rád - nicméně úplně nedrží pohromadě"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -424,7 +427,7 @@
     c d e e c d d \barMaior
     e( d c) b a g \barMin
     f( a) a g g \barMaior
-    b c a( g) g \barFinalis
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te Hos -- po -- di -- na,
@@ -438,8 +441,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "aleluja snad lépe prosté g a ag g;
-    na daný text by nejspíš dobře šel aplikovat některý klasický model"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -453,13 +454,13 @@
     d4 d c( d) e( g) g \barMin
     f g a g f d e \barMax
     e e e4( a) g g( a) a \barMin
-    g a b a g a g f g g e e \barFinalis
+    g a b a g a a a g f e e \barFinalis
   }
   \addlyrics {
     Za mnou při -- chá -- zí
     ně -- kdo moc -- něj -- ší než já;
-    je -- mu ne -- jsem ho -- den a -- ni roz -- vá -- zat ře -- mí -- nek
-    u o -- pán -- ků.
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -467,30 +468,30 @@
     differentia = "E"
     psalmus = ""
     id = "st-aben"
-    placet = "možná lépe urovnat, zjednodušit, např. _někdo_ g g, _ani_ a a;
-    pohrát si klidně i jinak bez otrockého lpění na předloze"
-    fons = "volne podle 2. ne adv., cyk B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( g a) g( f) g d \barMin g( f) e d c c \barMaior
-    d( g f) g( a) g( f) d( e) e( d) \barMin c d e f e c( d) d \barFinalis
+    g4 a c c \barMin
+    d c d( e) d d \barMaior
+    c( d e) c b a a \barMin
+    c c c b a g( a) g \barFinalis
   }
   \addlyrics {
-    Ze Si -- ó -- nu vy -- jde na -- u -- ka,
-    z_Je -- ru -- za -- lé -- ma Hos -- po -- di -- no -- vo slo -- vo.
+    Ze Si -- ó -- nu
+    vy -- jde na -- u -- ka,
+    z_Je -- ru -- za -- lé -- ma
+    Hos -- po -- di -- no -- vo slo -- vo.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "nic moc, zvlášť _z Jeruzaléma_"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
