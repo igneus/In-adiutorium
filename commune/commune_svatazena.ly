@@ -642,7 +642,7 @@
   }
 }
 
-\markup\italic{\vspace #1 3. ant.: viz 2. ant. ranních chval (\upright{Bůh jí dával sílu}); k ní kantikum Ef 1.}
+\markup\italic{\vspace #1 3. ant.: viz 2. ant. ranních chval \upright{Bůh jí dával sílu,} k ní kantikum Ef 1.}
 
 \markup\italic{Mimo dobu velikonoční:}
 
