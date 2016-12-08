@@ -408,8 +408,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a4.( g4 a) c d d( c) c \barMaior
-    c d e f( e d) c c \barMin c bes( a g) a g f f \barFinalis
+    g4 a g c b a b \barMaior
+    c c c a g f f g a a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
@@ -417,11 +417,10 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "tercie"
-    fons = "commune o sv. zene, 1.nesp., 1.a; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -431,7 +430,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
-    a( f e) d a' a g g \barFinalis
+    a( g) f a a g g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,
@@ -443,8 +442,6 @@
     differentia = "c"
     psalmus = ""
     id = "sexta"
-    placet = "zbytečně velký rozsah. _tebe_ stačí ag f"
-    fons = "commune o sv. zene, 1.nesp., 3.a.; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -13,10 +13,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a4.( g4 a) c d d( c) c \barMaior
-    c d e f( e d) c c \barMin c bes( a g) a g f f \barFinalis
+    g4 a g c b a b \barMaior
+    c c c a g f f g a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) f f \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
@@ -26,8 +26,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -62,9 +62,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
-    a( f e) d a' a g g \barFinalis
+    a( g) f a a g g \barFinalis
 
-    b^\markup\rubrVelikAleluja c( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,

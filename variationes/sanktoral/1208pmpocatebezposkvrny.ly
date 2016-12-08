@@ -615,6 +615,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a4.( g4 a) c d d( c) c \barMaior
     c d e f( e d) c c \barMin c bes( a g) a g f f \barFinalis
@@ -628,15 +629,42 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "tercie"
     fons = "commune o sv. zene, 1.nesp., 1.a; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
+\markup{Aktualisace ze zdroje:}
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g c b a b \barMaior
+    c c c a g f f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bím Hos -- po -- di -- na,
+    ne -- boť mi pro -- ká -- zal své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
     a( f e) d a' a g g \barFinalis
@@ -650,12 +678,39 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "sexta"
+    placet = "zbytečně velký rozsah. _tebe_ stačí ag f"
     fons = "commune o sv. zene, 1.nesp., 3.a.; bez aleluja"
     fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c4. a d4 c b( g) g \barMin
+    a( g) f a a g g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě má Bůh za -- lí -- be -- ní,
+    te -- be si vy -- vo -- lil.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
