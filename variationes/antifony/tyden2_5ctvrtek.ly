@@ -472,8 +472,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 g g f( e) e \barMin e f( d) c d4. \barFinalis
   }
@@ -490,6 +493,69 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Ve skutečnosti jsem to pak zpívával bez ohledu na divisio:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 g g f( e) e e f( d) c d4. \barFinalis
+  }
+  \addlyrics {
+    Tvá mi -- lost, Bo -- že, je ve -- li -- ká.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 57"
+    placet = "~ počáteční d-g mě vždycky 'vyhodí z modu'"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e c \barMin
+    d f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Tvá mi -- lost, Bo -- že,
+    je ve -- li -- ká.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 57"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 f f e( f) g g a( f) e d \barFinalis
+  }
+  \addlyrics {
+    Tvá mi -- lost, Bo -- že, je ve -- li -- ká.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 57"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 

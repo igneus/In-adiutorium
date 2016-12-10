@@ -192,17 +192,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 g g f( e) e \barMin e f( d) c d4. \barFinalis
+    d4 d f e c \barMin
+    d f( d) c d \barFinalis
   }
   \addlyrics {
-    Tvá mi -- lost, Bo -- že, je ve -- li -- ká.
+    Tvá mi -- lost, Bo -- že,
+    je ve -- li -- ká.
   }
   \header {
     quid = "3. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 57"
-    placet = "~ počáteční d-g mě vždycky 'vyhodí z modu'"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
