@@ -210,8 +210,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a f g d \barMin
-    g g f e c( d) d \barFinalis
+    f4 f f f g a \barMin
+    a g f g g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
@@ -219,10 +219,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 125"
-    placet = "nic moc; zvlášť nerad mám okolí kadence v polovině"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
