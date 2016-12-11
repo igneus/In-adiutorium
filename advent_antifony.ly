@@ -105,6 +105,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "nic moc"
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
