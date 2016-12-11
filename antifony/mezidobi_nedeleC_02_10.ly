@@ -18,7 +18,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = "ne2c-ne2-mag"
+    id = "ne2c-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

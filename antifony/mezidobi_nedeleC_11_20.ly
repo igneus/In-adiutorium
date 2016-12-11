@@ -662,15 +662,16 @@
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
     a jak si pře -- ji, a -- by
-    % už vzpla -- nul! % puvodni
-    se už vzňal! % moje nahrazka
+    se už vzňal!
   }
   \header {
+    textus_approbatus = "Oheň jsem přišel vrhnout na zem,
+    a jak si přeji, aby už vzplanul!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = "ne20c-2ne-amag"
+    id = "ne20c-1ne-amag"
     fial = "mezidobi_nejsvsrdce.ly#1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
