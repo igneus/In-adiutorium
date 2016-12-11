@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-require_relative '../updatefromvar.rb'
+require_relative '../lib/updatefromvar/updater.rb'
 
-describe VariationesUpdater do
+describe Updater do
 
   before :all do
-    @updater = VariationesUpdater.new 'variationes', StringIO.new
+    @updater = described_class.new 'variationes', StringIO.new
   end
 
   describe '#clean_score' do
@@ -24,6 +24,12 @@ describe VariationesUpdater do
     it 'removes whole line with colour marking' do
       s = "  \\zvyraznovacModry  \n  a b c"
       s_cleaned = '  a b c'
+      expect(@updater.clean_score(s)).to eq s_cleaned
+    end
+
+    it 'removes inline colour marking' do
+      s = "  \\zvyraznovacModry a b c"
+      s_cleaned = ' a b c'
       expect(@updater.clean_score(s)).to eq s_cleaned
     end
   end
@@ -86,13 +92,25 @@ describe VariationesUpdater do
       expect(@updater.scores_differ?(a, b)).to be false
     end
 
-    it 'considers scores differing just in a development header same' do
+    it 'considers scores differing in a development header same' do
       a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } \\header { } }"
       b = Lyv::LilyPondScore.new "\\score { \\relative c { a b } \\header { placet = \"iuxta modum\" } }"
       expect(@updater.scores_differ?(a, b)).to be false
     end
 
-    it 'considers scores differing just in a development mark same' do
+    it 'considers scores where the production one has more header fields same' do
+      a = Lyv::LilyPondScore.new "\\score { \\header { a = \"a\" } }"
+      b = Lyv::LilyPondScore.new "\\score { \\header {} }"
+      expect(@updater.scores_differ?(a, b)).to be false
+    end
+
+    it 'considers scores where the development one has more header fields different' do
+      a = Lyv::LilyPondScore.new "\\score { \\header {} }"
+      b = Lyv::LilyPondScore.new "\\score { \\header { a = \"a\" } }"
+      expect(@updater.scores_differ?(a, b)).to be true
+    end
+
+    it 'considers scores differing in a development mark same' do
       a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } }"
       b = Lyv::LilyPondScore.new "\\score { \\relative c { a \\mark\\sipka b } }"
       expect(@updater.scores_differ?(a, b)).to be false
@@ -107,7 +125,6 @@ describe VariationesUpdater do
     it 'considers scores differing in asterisk same' do
       a = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a } }"
       b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a_* } }"
-      p b.lyrics_readable
       expect(@updater.scores_differ?(a, b)).to be false
     end
   end

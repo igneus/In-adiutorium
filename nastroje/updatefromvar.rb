@@ -15,7 +15,6 @@
 
 require 'stringio'
 require 'optparse'
-require 'lyv'
 
 require_relative 'lib/updatefromvar/updater'
 

@@ -1,6 +1,12 @@
+require 'lyv'
+
+require_relative 'score_comparison'
+require_relative 'development_clean'
+
 # knows how to find new official versions of chants in
 # development files and introduce them in production files
 class Updater
+  include DevelopmentClean
 
   def initialize(development_dir, log_stream)
     @development_dir = development_dir
@@ -73,10 +79,8 @@ class Updater
     score.header['id'] != '' && score.header['id'] != nil
   end
 
-  def scores_differ?(a, b)
-    ((normalize_music(a.music) != normalize_music(b.music)) ||
-     (normalize_header(a.header) != normalize_header(b.header)) ||
-     (normalize_lyrics(a.lyrics_readable) != normalize_lyrics(b.lyrics_readable)))
+  def scores_differ?(production_score, development_score)
+    ScoreComparison.new(production_score, development_score).differs?
   end
 
   # how many spaces is the lilypond score indented?
@@ -100,38 +104,7 @@ class Updater
     return unindent_first_line lily_src
   end
 
-  def remove_trailing_whitespace(lily_src)
-    lily_src.gsub(/\s+$/, "\n")
-  end
-
-  # removes all development annotations
-  def clean_score(lily_src)
-    r = lily_src.gsub(/\\mark\\sipka\s*/, '')
-    r = clean_marker_lines(r)
-    r = r.gsub(/^\\zvyraznovac\w+\s*/, '')
-    r = remove_trailing_whitespace r
-    r = remove_variable_assignment r
-    return r
-  end
-
   private
-
-  # returns music String with development marks removed and whitespace
-  # unified
-  def normalize_music(lily_music_str)
-    return clean_score(lily_music_str).gsub(/\s+/m, ' ').strip
-  end
-
-  # returns header Hash without fields insignificant for comparisons
-  def normalize_header(header_hash)
-    r = header_hash.dup
-    r.delete 'placet' # development header
-    return r
-  end
-
-  def normalize_lyrics(lyrics)
-    lyrics.gsub(/\s*\*/, '') # asterisk
-  end
 
   def unindent_first_line(lily_src)
     lily_src.sub(/\A\s+/, '')
@@ -148,15 +121,5 @@ class Updater
     end
 
     return line
-  end
-
-  def clean_marker_lines(lily_src)
-    lily_src.lines.select {|l| l !~ /^\s*\\zvyraznovac\w+\s*$/ }.join ''
-  end
-
-  # if the score as a whole is assigned to a variable,
-  # remove the assignment
-  def remove_variable_assignment(lily_src)
-    lily_src.sub(/\A\s*\w+\s*=\s*/, '')
   end
 end
