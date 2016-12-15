@@ -154,6 +154,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "melisma na _An_ je divné; antifona jako celek spíše mdlá"
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
