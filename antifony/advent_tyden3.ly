@@ -162,20 +162,17 @@
   \relative c'' {
     \choralniRezim
     c4 b( g) a( b) g \barMaior
-    a g f g a c a a \barMin
-    b a g g \barFinalis
+    a a a g f g a a c b g g \barFinalis
   }
   \addlyrics {
     Hle, Pán při -- jde,
-    za -- sed -- ne me -- zi kní -- ža -- ty
-    na trůn slá -- vy.
+    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
-    placet = "divisio minima pryč; možná zkusit o kousek zpěvnější?"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -184,7 +181,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a b) \barMin c d e d( c) d \barMaior
+    a4 a( c) \barMin c d e d( c) d \barMaior
     c d c b g a a a \barMaior
     g e e f( g) a c( b d) c \barMin b( g c) a a \barFinalis
   }
@@ -198,7 +195,6 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 111"
-    placet = "_z hor_ se nezpívá úplně dobře"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }

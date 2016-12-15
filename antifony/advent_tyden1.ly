@@ -553,7 +553,7 @@
     d4 c( b c) c \barMin c b g a g g \barMaior
     f a c c d d c d d( c) \barMin
     b a g f g( a) g g \barMaior
-    a a a( g) g \barFinalis
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Syn Bo -- ží se sta -- ne člo -- vě -- kem
@@ -566,7 +566,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "aleluja bude lépe g a ag g; možná půjde celá lépe"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -575,19 +574,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g( c) c c d c c b a g( f g) g \barMaior
-    d( f g a) g \barMin a b c( b) a g( f) g \barFinalis
+    g4( a g) g( c) c c d c c b a g( a) g \barMaior
+    a( c) c \barMin
+    c c b( g) g f( a) g \barFinalis
   }
   \addlyrics {
     Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
-    při -- jde, a -- by spa -- sil svůj lid.
+    při -- jde,
+    a -- by spa -- sil svůj lid.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_Syna_ lépe gag g; _spasil_ ca a"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -598,12 +598,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a f) f( g) f \barMin d c c( d) d \barMaior
-    c d e f g a( g) f \barMaior
-    g a( g) f f \barFinalis
+    f4( a f) f( g) g \barMin
+    f e d( e) d \barMaior
+    f f g a bes g( f) f \barMaior
+    g a f f \barFinalis
   }
   \addlyrics {
-    Ne -- boj se, li -- de Bo -- ží:
+    Ne -- boj se,
+    li -- de Bo -- ží:
     Při -- chá -- zí k_to -- bě tvůj Pán.
     A -- le -- lu -- ja.
   }
@@ -612,7 +614,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    placet = "půjde lépe"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -415,7 +415,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b( g) a( b) g \barMaior
     \mark\sipka a g f g a c a a \barMin
@@ -436,10 +436,52 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( g) a( b) g \barMaior
+    a g f g a c a a \mark\sipka b a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b( g) a( b) g \barMaior
+    \mark\sipka a a a g f g a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a b) \barMin c d e d( c) d \barMaior
     c d c b g a a a \barMaior
@@ -460,7 +502,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a( c) \barMin c d e d( c) d \barMaior
+    c d c b g a a a \barMaior
+    g e e f( g) a c( b d) c \barMin b( g c) a a \barFinalis
+  }
+  \addlyrics {
+    Ať z_hor vy -- trysk -- ne ra -- dost
+    a z_pa -- hor -- ků spra -- ve -- dl -- nost;
+    při -- chá -- zí svět -- lo svě -- ta, Pán slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  Jsem si dobře vědom, že tady moje úprava textu ničí narážku
+  na biblický text.
+  Ale mám zato, že antifona musí být především zpívatelná.
+}
 
 \score {
   \relative c' {
@@ -535,6 +606,167 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d c d e d c d d \barMaior
+    d a d c b a g a \barMin
+    g f g a c c a a \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f d f g( d) d \barMaior
+    c d f g a g f g \barMin
+    g f e d e f d d \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a g f( d) d \barMaior
+    d f d f a g f g \barMin
+    g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a g f( d) d \barMaior
+    d f d f a g f g \barMin
+    g f e \mark\sipka f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f f( g) g \barMaior
+    a a a g f g f d \barMin
+    c d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f f( g) g \barMaior
+    a a a g f g \mark\sipka a g( f) \barMin
+    d f g g f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f f( g) g \barMaior
+    a a a g f g \mark\sipka g a \barMin
+    a g f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
+    pří -- cho -- du na -- še -- ho Pá -- na.
+  }
+  \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Pondělí 3. týdne}}
@@ -555,6 +787,50 @@
     differentia = "d"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d \mark\sipka c( d) d e( d) e f e( d) \barMaior
+    c c( b) a \barMin
+    g \mark\sipka f g a b g g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be při -- jde Vlád -- ce a Pán,
+    má v_ru -- ce
+    krá -- lov -- skou moc a vlá -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) d e( d) e f e( d) \barMaior
+    c c( b) a \barMin
+    g \mark\sipka f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be při -- jde Vlád -- ce a Pán,
+    má v_ru -- ce
+    krá -- lov -- skou moc a vlá -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

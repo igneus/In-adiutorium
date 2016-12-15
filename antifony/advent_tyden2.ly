@@ -33,7 +33,7 @@
     \choralniRezim
     d4 b d e e d d \barMaior
     b d c( b a) a \barMin b a g g \barMaior
-    f g a( g) g \barFinalis
+    a b g g \barFinalis
   }
   \addlyrics {
     Vzmuž -- te se a řek -- ně -- te:
@@ -45,7 +45,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 16"
-    placet = "není úplně zlá, ale myslím, že půjde lépe"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -143,7 +142,7 @@
     \choralniRezim
     d4 c d e d f e c d d \barMaior
     a c( d) c( d) d \barMin c b a c b g g \barMaior
-    f f f( g) g \barFinalis
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
@@ -155,7 +154,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
-    placet = "tady by šel vhodně využít jeden z tradičních typů modu VIII"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -239,23 +237,24 @@
 \markup {\nadpisDen {Pondělí 2. týdne}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e( f) f a( g f) f( g) g f \barMaior
-    f e f d c d d( c) \barMin d( e f) g a g f f \barMaior
-    e d e( f) f \barFinalis
+    a4 g a c b a b \barMaior
+    c c c b a g g \barMin
+    f g a a g g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Pán ří -- ká: Ob -- rať -- te se,
-    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
-    placet = "bída"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -264,19 +263,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 bes a g a( f) \barMin g f( e) d \barMaior
-    d d d( f g) f( e d) \barMin c c( f) e c d d \barFinalis
+    a4 bes a g a( f) \barMin
+    g f( e) d \barMaior
+    d c f d \barMin
+    f f g e c d d \barFinalis
   }
   \addlyrics {
-    Hle, při -- chá -- zí Král, Pán ze -- mě,
-    on sám zlo -- mí jho na -- ší po -- ro -- by.
+    Hle, při -- chá -- zí Král,
+    Pán ze -- mě,
+    on sám zlo -- mí
+    jař -- mo na -- ší po -- ro -- by.
   }
   \header {
+    textus_approbatus = "Hle, přichází Král, Pán země, on sám zlomí jho naší poroby."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "_zlomí_ raději jednodušší"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -336,15 +339,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a g) g \barMin f g a b c b( a g a) a( g) \barMaior
-    c d( c b g) e \barMin f f f f( a) a g a g g \barFinalis
-    % moje prvni antifona bez cezury pred aleluja;
-    % v grego repertoaru je takovych hromada
+    g4 g g( a) a \barMin
+    c c c b a g( a) g \barMaior
+    c c( d c a) a \barMin
+    c c c a g
+    f a a( g) g \barFinalis
   }
   \addlyrics {
-    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
-    a %bu -- de
-    vlád -- nout po všech -- ny vě -- ky.
+    Bu -- de se -- dět
+    na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout
+    po všech -- ny vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
@@ -354,7 +359,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -401,7 +405,6 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    placet = "_Já ti_ možná lépe g g?"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -410,19 +413,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d( e d) \barMin d c d f( g) f e d \barMaior
-    f f f e d( c d) a \barMin bes c d e( f e) d d \barFinalis
+    d4 d d d c( d) \barMin
+    d c d f( g) f e d \barMaior
+    f f f g f d \barMin
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
-    Po mně při -- jde ten, kte -- rý byl dří -- ve než já;
-    je -- mu ne -- jsem ho -- den roz -- vá -- zat o -- pán -- ky.
+    Po mně při -- jde ten,
+    kte -- rý byl dří -- ve než já;
+    je -- mu ne -- jsem ho -- den
+    roz -- vá -- zat o -- pán -- ky.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_opánky_ lépe"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -433,9 +439,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a a f e f e d \barMaior
-    f a g a c b a \barMin a a a g( f d) e( c) d \barMaior
-    d c( f) d d \barFinalis
+    a4 a a f e f e d \barMaior
+    f a g a c b a \barMin
+    a a a g( f d) e( c) d \barMaior
+    c f d d \barFinalis
   }
   \addlyrics {
     Řek -- ně -- te ma -- lo -- my -- sl -- ným:
@@ -448,7 +455,6 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    placet = "melisma na začátku pryč; snad začít už na a"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -487,19 +493,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e e( a) a g g( a) g f e \barMin d f f e e \barMaior
-    e \[ d( c d \] \[ c d) \] e( f) f( e) \barMin f( g) a g f a( g f) e e \barFinalis
+    e4 e e e( a) a g g( a) g f e \barMin
+    d f f e e \barMaior
+    e d( c d) e( f) f( e) \barMin
+    f( g) a g f a( g f) e e \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev ne -- zi ná -- ro -- dy
-    a shro -- máž -- dí roz -- ptý -- le -- ný Iz -- ra -- el.
+    Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev
+    ne -- zi ná -- ro -- dy
+    a shro -- máž -- dí
+    roz -- ptý -- le -- ný Iz -- ra -- el.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "tady nevím"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
