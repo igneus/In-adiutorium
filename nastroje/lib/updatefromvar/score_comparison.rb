@@ -26,7 +26,7 @@ class ScoreComparison
   # returns music String with development marks removed and whitespace
   # unified
   def normalize_music(lily_music_str)
-    return clean_score(lily_music_str).gsub(/\s+/m, ' ').strip
+    return remove_comments(clean_score(lily_music_str)).gsub(/\s+/m, ' ').strip
   end
 
   # returns header Hash without fields insignificant for comparisons

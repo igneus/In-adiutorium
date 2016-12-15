@@ -127,5 +127,25 @@ describe Updater do
       b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a_* } }"
       expect(@updater.scores_differ?(a, b)).to be false
     end
+
+    describe 'considers scores differing in a comment same' do
+      it 'in music' do
+        a = Lyv::LilyPondScore.new "\\score { \\relative c { %c\n } }"
+        b = Lyv::LilyPondScore.new "\\score { \\relative c { } }"
+        expect(@updater.scores_differ?(a, b)).to be false
+      end
+
+      it 'in lyrics' do
+        a = Lyv::LilyPondScore.new "\\score { \\addlyrics { %c\n } }"
+        b = Lyv::LilyPondScore.new "\\score { \\addlyrics { } }"
+        expect(@updater.scores_differ?(a, b)).to be false
+      end
+
+      it 'in score' do
+        a = Lyv::LilyPondScore.new "\\score { %c\n } }"
+        b = Lyv::LilyPondScore.new "\\score { }"
+        expect(@updater.scores_differ?(a, b)).to be false
+      end
+    end
   end
 end
