@@ -918,8 +918,8 @@
   }
 }
 
-%{
-  % tak, jak je, ta melodie nedrzi pohromade, ale nechci ji ztratit.
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -944,7 +944,6 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-%}
 
 \score {
   \relative c'' {
@@ -978,6 +977,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( e d f) e c d c \barMaior
     c d d( e) \barMin e( d) d \barFinalis
@@ -991,10 +991,76 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "nelíbí"
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) e c d c \barMaior
+    d e f( d) \barMin
+    c( d) d \barFinalis
+  }
+  \addlyrics {
+    Těš -- te můj ná -- rod,
+    ří -- ká Pán,
+    váš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e( f) g \barMin
+    g a f e d \barFinalis
+  }
+  \addlyrics {
+    Těš -- te můj ná -- rod,
+    ří -- ká Pán, váš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g \barMin
+    a g f a g \barFinalis
+  }
+  \addlyrics {
+    Těš -- te můj ná -- rod,
+    ří -- ká Pán, váš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -1017,10 +1083,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Čtvrtek 3. týdne}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c( d) \barMaior
     c c c b( a g) g \barMin f g a b a f( g) g \barFinalis
@@ -1034,10 +1103,58 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    placet = "závěr je nelibý; začátek se mi naopak líbí moc, ten ať zůstane"
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( d) \barMaior
+    c c c b( a g) g \barMin
+    f g a \mark\sipka g f g( a) g \barFinalis
+  }
+  \addlyrics {
+    Vstaň už, vstaň,
+    ob -- lék -- ni sí -- lu,
+    Hos -- po -- di -- no -- va pa -- že.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c( d) \barMaior
+    c c c \mark\sipka g( a) g \barMin
+    f g a g f \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstaň už, vstaň,
+    ob -- lék -- ni sí -- lu,
+    Hos -- po -- di -- no -- va pa -- že.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
