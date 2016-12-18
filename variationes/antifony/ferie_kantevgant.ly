@@ -2087,8 +2087,8 @@ se bude hodit.}
 }
 
 \markup\justify{Následující nápěv má v sobě, zdá se mi, kousek
-monumentálnosti; kdyby se dostal do oficiální verze, z celku by
-trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
+monumentálnosti; mezi ostatními zpěvy by nehezky vyčníval,
+ale sám o sobě se mi líbí.}
 
 \score {
   \relative c'' {
@@ -2114,15 +2114,83 @@ trochu vyčníval, ale to není nutně špatné. Líbí se mi.}
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( e) e \barMin
-
+    g4 g g( a) a \barMin
+    a g a b a a g f e e \barMaior
+    e d e e g f e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
     dej své -- mu li -- du po -- zná -- ní spá -- sy
-    a od -- pusť nám na -- še hří -- chy.
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Z cesty na nákup:}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g \barMin
+    g f g a g g f g a a \barMin
+    a g f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f e \barMin
+    d e f g f g f g a a \barMin
+    a g f d f g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) a \barMin
+    a a a c a a g a a( c) c \barMaior
+    c b a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
   }
   \header {
     quid = "ant. k Benedictus"
