@@ -583,7 +583,8 @@
     a g f g a \barMin
     f g d \barMaior
 
-    g a g f e e( f) e c d d \barMaior
+    g a g f e \barMin
+    f e c d d \barMaior
     e c d f f g( f) \barMin
     g f e d c
     e f d d \barFinalis
@@ -593,7 +594,8 @@
     mi -- los -- ti -- pl -- ná,
     Pán s_te -- bou,
 
-    po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    po -- žeh -- na -- ná tys
+    me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod
     ži -- vo -- ta tvé -- ho.
     A -- le -- lu -- ja.

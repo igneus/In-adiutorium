@@ -74,7 +74,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 c d d( a' bes) a \barMin
     a g f g a \barMin
@@ -122,6 +122,45 @@
     Pán s_te -- bou,
 
     po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod
+    ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?-aleluja"
+    fons_externus = "volně podle AR1912, s. 564"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Aktualisace podle zdroje:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 c d d( a' bes) a \barMin
+    a g f g a \barMin
+    f g d \barMaior
+
+    g a g f e \mark\sipka \barMin
+    f e c d d \barMaior
+    e c d f f g( f) \barMin
+    g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zdrá -- vas, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná,
+    Pán s_te -- bou,
+
+    po -- žeh -- na -- ná tys
+    me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod
     ži -- vo -- ta tvé -- ho.
   }

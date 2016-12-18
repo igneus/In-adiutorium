@@ -86,7 +86,7 @@
     c b a b c \barMaior
     a g a b c b a c b b \barMin
     d d d c d( e d) c( b) \barMaior
-    a g a( c) b \barMin b a( b) a g g \barFinalis
+    a g a( c) b b a b a( g) g \barFinalis
   }
   \addlyrics {
     Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
@@ -116,9 +116,10 @@
     a g f g a \barMin
     f g d \barMaior
 
-    g a g f e e( f) e c d d \barMaior
+    g a g f e \barMin
+    f e c d d \barMaior
     e c d f f g( f) \barMin
-    g f e d c e( f d) c( d) \barFinalis
+    g f e d c e( f d) d \barFinalis
 
     a'4 g a c( b) g \barMin
     g f g( a) a \barMaior
@@ -131,7 +132,8 @@
     mi -- los -- ti -- pl -- ná,
     Pán s_te -- bou,
 
-    po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    po -- žeh -- na -- ná tys
+    me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod
     ži -- vo -- ta tvé -- ho, Je -- žíš.
 
