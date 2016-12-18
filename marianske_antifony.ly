@@ -71,7 +71,7 @@
     differentia = ""
     psalmus = ""
     poet = "Jednotný kancionál (30. vyd., 2004) 007"
-    placet = "trochu divné je _K tobě voláme_; _lkajíce_ se mi těžko zpívá"
+    placet = "trochu divné je _K tobě voláme_; _lkajíce_ se mi těžko zpívá; _slzavém údolí_ je takové fádní až hrubé"
     id = "salve"
     piece = \markup {\sestavTitulekBezZalmu}
   }
