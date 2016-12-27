@@ -33,6 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "celou znovu, jednodušší"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -53,6 +54,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_Vzpřimte se a zdvihněte hlavu_ je celé takové nechorální"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -99,6 +101,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "zpěvnější, menší rozsah"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -123,6 +126,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "zjednodušit"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -145,6 +149,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "předlouhé melisma pryč"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne23b-1ne-mag?jiny_text"
     id = "iimag2"
     fons = "nápěv podle: 23. ne v mez., cyk. B, 1. nešp., k Magnificat;
     k recykleci napevu me vedl podobny 'rytmus' textu;
@@ -200,6 +206,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "_Přichází však_ je škaredé"
     id = "iiiben"
     fons = "za základ jsem vzal 2. ant. 1. nešp. svátku Křtu Páně;
     nový prostřední díl se mi však nepodařilo bezešvě zapojit a tak
@@ -227,6 +234,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_Přichází však_ je škaredé"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -249,8 +257,9 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 122"
+    placet = "zjednodušit; _vešla_ a _Alžbětu_ je škaredé"
     id = "ivben"
-    fons = "31.5. Navštívení P.M.: nešpory, 1. ant.; odstraněno aleluja"
+    fial = "sanktoral/0531navstivenipm.ly#ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

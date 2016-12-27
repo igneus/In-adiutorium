@@ -19,6 +19,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Magnificat"
+    placet = "episema pryč"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

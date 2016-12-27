@@ -44,6 +44,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "není úplně zlá, ale patrně půjde lépe"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -70,6 +71,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -118,6 +120,7 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
+    placet = "_vyrovnejte mu stezky_ lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -142,6 +145,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_abyste_ je škaredé; celá půjde lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -167,6 +171,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_poklekne_ zjednodušit, podle vhodnosti celou vylepšit"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -194,6 +199,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "melisma z _o Kristových_ rozhodně pryč; zpěvnější"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -258,6 +264,7 @@
     differentia = "b"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#svrodiny-1ne-a2?+aleluja"
+    placet = "aleluja lépe"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
