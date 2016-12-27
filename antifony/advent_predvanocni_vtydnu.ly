@@ -140,6 +140,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "druhou část asi raději strukturovat"
     id = "predvanocni-zlm-ut-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -189,6 +190,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "e ze začátku vymýtit"
     id = "predvanocni-zlm-st-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -214,6 +216,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nebude _přinesl_ lepší jen ga a a ?"
     id = "predvanocni-zlm-st-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -239,6 +242,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_duši_ méně extravagantně"
     id = "predvanocni-zlm-ct-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

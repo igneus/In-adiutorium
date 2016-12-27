@@ -52,6 +52,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_nauč_ je divné"
     id = "predvanocni-17-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -107,6 +108,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "možná bude lepší upravit text pro větší zpěvnost, např. již známé _v keři ohnivém_"
     id = "predvanocni-18-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -224,6 +226,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "více divných míst"
     id = "predvanocni-20-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -247,6 +250,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Benedictus"
+    placet = "závěr divný"
     id = "predvanocni-21-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -301,6 +305,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "divisiones"
     id = "predvanocni-22-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -356,6 +361,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "lépe"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -388,6 +394,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "atypický závěr, přitom nejspíš není vůbec potřeba"
     id = "predvanocni-23-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -520,6 +527,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "krátké responsorium by se mělo obejít bez kvintového kroku dolů a podobných kejklí"
     id = "predvanocni-24-rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -542,6 +550,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
+    placet = "doladit divisiones; melodie pravděpodobně půjde vylepšit"
     id = "predvanocni-24-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
