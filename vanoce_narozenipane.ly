@@ -51,6 +51,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 147-II"
+      placet = "_na zemi_ se mi moc nelíbí"
       id = "vden-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -196,6 +197,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Žalm 19A"
+      placet = "_vychází_ je takové těžkopádné"
       id = "vden-cte-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -216,6 +218,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 45"
+      placet = "nepřesvědčivý závěr; bude lepší odpoutat se od zdroje"
       fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
       fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1"
       id = "vden-cte-a3"
@@ -269,6 +272,7 @@
     \header {
       quid = "1. resp."
       modus = "VII"
+      placet = "má úplně jiný ráz než klasická noční responsoria"
       id = "vden-cte-r1"
       piece = \markup {\sestavTitulekResp}
     }
@@ -301,6 +305,7 @@
     \header {
       quid = "2. resp."
       modus = "II"
+      placet = "dtto, ale mám ho takhle rád"
       id = "vden-cte-r2"
       piece = \markup {\sestavTitulekResp}
     }
@@ -322,6 +327,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_Bůh s námi_ je takhle divné"
       id = "vden-cte-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -554,6 +560,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Žalm 110"
+      placet = "melisma na _zplodil_ drhne"
       id = "vden-2ne-a1"
       fons = "prvni cast z 1. ant 2. nespor nedele 4. tydne zaltare"
       fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
@@ -1448,6 +1455,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Magnificat"
+      placet = "_předpověděli_ je škaredé"
       id = "27-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1478,13 +1486,17 @@
 
       vši -- chni se klaň -- me to -- mu,
       kte -- rý při -- šel, a -- by nás spa -- sil.
-      % v breviari je "ktery nas prisel spasit", coz vytvari neliby pseudorym.
     }
     \header {
+      % nelibý pseudorým směla ho kojit/nás přišel spasit
+      textus_approbatus = "Svatá a neporušená Panna Maria
+      nám porodila Boha, který se stal malým děťátkem, a směla ho kojit;
+      všichni se klaňme tomu, který nás přišel spasit."
       quid = "ant. k Magnigicat"
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "má vícero hodně slabých míst"
       id = "28-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1555,6 +1567,7 @@
       výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
       protože melodie dané části příliš silně tíhne k rozuzlení v části
       následující, pro kterou tady nemáme text"
+      placet = "půjde lépe"
       id = "29-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1581,6 +1594,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = "Benedictus"
+      placet = "podivná - asi hodně stará"
       id = "29-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1639,6 +1653,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 85"
+      placet = "lépe"
       id = "30-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1660,6 +1675,7 @@
       differentia = "D"
       psalmus = "Žalm 89-I"
       fial = "mezidobi_nejsvsrdce.ly#mc-a3"
+      placet = "lépe"
       id = "30-mc-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1680,6 +1696,7 @@
       modus = "VIII"
       differentia = "G*"
       psalmus = "Žalm 89-II"
+      placet = "půjde lépe"
       id = "30-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1715,6 +1732,7 @@
       modus = "III"
       differentia = "g"
       psalmus = "Benedictus"
+      placet = "citace z Te Deum se do antifony oficia stylově vůbec nehodí; celek (i díky tomu) není kdovíjak povedený"
       id = "30-aben"
       fons = "'Svaty...' je hudebni citat z choralniho Te Deum"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -1772,6 +1790,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 96"
+      placet = "docela pěkná, ale zkusit varianty"
       id = "31-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1795,6 +1814,7 @@
       differentia = "a"
       psalmus = "Žalm 97"
       fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
+      placet = "po _vychází_ to chce cesuru; odjakživa jsem ji tam zpíval"
       id = "31-mc-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1817,6 +1837,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 98"
+      placet = "lépe"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
