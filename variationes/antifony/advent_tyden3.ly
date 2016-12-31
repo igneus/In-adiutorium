@@ -966,7 +966,63 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "_spolu začali_ spíše zjednodušit;
+    skok mezi _Maria_ a _počala_ je nelibý a dělá melodii nevhodně neplynulou
+    (tak se mi to zdálo nejprve; při třetím a dalším poslechu již ne, ale stejně
+    bude dobré zkusit jiné varianty)"
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g f g f( e) d \barMin
+    d f f d d( c) \barMaior
+    \mark\sipka d e f e f g g \barMin
+    f d f( e) d d \barMaior
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že Ma -- ri -- a po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g f g f( e) d \barMin
+    d f f d d( c) \barMaior
+    d e f e f g g \barMin
+    \mark\sipka a( f) d f( e) d d \barMaior
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že Ma -- ri -- a po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

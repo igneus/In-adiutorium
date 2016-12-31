@@ -187,6 +187,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f f( a) a( g) g \barMaior
+  }
+  \addlyrics {
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

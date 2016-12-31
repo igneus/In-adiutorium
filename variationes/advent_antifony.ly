@@ -621,6 +621,72 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g a g a c b \barMaior
+      a g a a a a g f \barMin
+      f( g) a a g g \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d f g f e d \barMaior
+      f g a a a g f e \barMin
+      c d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d f g f e d \barMaior
+      f g a a a g f \mark\sipka f( g) \barMin
+      e c e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -752,6 +818,30 @@
     María dixit: Qualis est ista salutátio?
     quia conturbáta est ánima mea,
     et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4 f g a a a bes a g f g g g \barMaior
+      g g f e f( g a) a
+      a g a f( d) d \barMaior
+      d f f f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl Ga -- bri -- el o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      že se má stát mat -- kou
+      Bo -- ží -- ho Sy -- na,
+      a ne -- pře -- sta -- ne být pan -- nou.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "spol-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
   }
 
   \score {
