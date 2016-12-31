@@ -296,7 +296,7 @@
       \Verse Dnes nám za -- zá -- řil
       o -- de -- dáv -- na při -- pra -- vo -- va -- ný den spá -- sy,
       den věč -- né bla -- že -- nos -- ti._*
-      Dnes ne -- be.
+      Dnes se ne -- be.
     }
     \header {
       quid = "2. resp."
