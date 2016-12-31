@@ -182,7 +182,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g f f( a) g g \barMin a g a( c) b a( g) a \barMaior
+    g f g( a) g g \barMin a g a c b( a) a \barMaior
     a b c b c c \barMin b c a g g \barMax
     g( a g d) g( a) a \barMin c d c a g \barMaior
     f f f( g) g \barFinalis
@@ -198,10 +198,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 112"
-    placet = "začátek nic moc"
     id = "ne-2ne-a2"
-    fons = "neděle 3. adv.t., r.ch., 2.a., 2.-4. část; začátek upraven"
-    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2"
+    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?cast&upraveno"
     piece = \markup {\sestavTitulek}
   }
 }
