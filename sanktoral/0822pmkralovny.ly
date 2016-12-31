@@ -30,7 +30,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -56,7 +56,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -81,7 +81,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "amag"
     fons = "commune o PM, 2. nešp., k Magnificat; doplněn závěr"
     piece = \markup {\sestavTitulekBezZalmu}
   }
