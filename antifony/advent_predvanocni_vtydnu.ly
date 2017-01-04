@@ -79,7 +79,7 @@
     \choralniRezim
     c4 d c c( b) a( g) g \barMin
     a f f e e f f( g) g \barMaior
-    g( c) c b( g) g f( a) g \barFinalis
+    a( c) c b( g) g f( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se -- stou -- pí

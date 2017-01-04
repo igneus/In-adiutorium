@@ -316,7 +316,7 @@
     \key f \major
     d4 d( a' bes) c bes a g g( a) a a \barMaior
     bes a bes g a bes a \barMaior
-    g g g g f( d) d g f e d( e d) d \barFinalis
+    g g g g f( d) d c d e d d \barFinalis
   }
   \addlyrics {
     Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
@@ -328,7 +328,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "závěr půjde přirozeněji, např. f e c cd d"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

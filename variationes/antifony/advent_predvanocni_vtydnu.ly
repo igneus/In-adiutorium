@@ -155,11 +155,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c( b) a( g) g \barMin
     a f f e e f f( g) g \barMaior
     g( c) c b( g) g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- stou -- pí
+    ze své -- ho sva -- té -- ho síd -- la,
+    při -- jde spa -- sit svůj lid.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c( b) a( g) g \barMin
+    a f f e e f f( g) g \barMaior
+    \mark\sipka a( c) c b( g) g f( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se -- stou -- pí
@@ -789,6 +812,8 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen {sobota}
 
 \score {
@@ -796,6 +821,26 @@
     \choralniRezim
     a4 b c4. b4( a) c( b) a( g) e \barMin
     d d f( g a4.) g4( f) e f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Bůh při -- chá -- zí z_vý -- sos -- ti,
+    bu -- de zá -- řit ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-so-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c4. b4( a) c( b) a( g) e \barMin
+    d d f( g a4.) g4( f) e f \mark\sipka e e \barFinalis
   }
   \addlyrics {
     Bůh při -- chá -- zí z_vý -- sos -- ti,

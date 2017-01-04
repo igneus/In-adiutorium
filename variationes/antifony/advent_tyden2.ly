@@ -829,6 +829,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( a' bes) c bes a g g( a) a a \barMaior
@@ -890,6 +891,56 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d( a' bes) c bes a g g( a) a a \barMaior
+    bes a bes g a bes a \barMaior
+    g g g g f( d) d \mark\sipka c d e d d \barFinalis
+  }
+  \addlyrics {
+    Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te stez -- ky na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \key f \major
+    a4( g a) \barMin
+    f f f e d e( f) d d \barMaior
+    a' bes a g bes a a \barMin
+    g g g g f( d) d c d e d d \barFinalis
+  }
+  \addlyrics {
+    Hlas
+    vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te stez -- ky na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

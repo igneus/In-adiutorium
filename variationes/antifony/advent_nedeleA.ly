@@ -24,8 +24,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d f d f e( d) e \barMin
     d d d d d( e) c a c c( d) d \barMaior
@@ -44,13 +47,115 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "není úplně zlá, ale patrně půjde lépe"
+    id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d d d f d d( e) e \barMin
+    f f f f e d e d c( d) d \barMaior
+    a c d d d( f) d \barMin
+    d f g f e d c e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu
+    pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a a( g) g \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f e f( g) g \barMin
+    g a a g f e d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g a a( g) g \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f \mark\sipka f g( f) f \barMaior
+    f g a g f e d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a a( g) g \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f f g( f) f \barMaior
+    f g a g \mark\sipka g f d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) f( g) g( a) \barMin
     a b c d( c) a( b g) g \barMin a f( e) d \barMaior
@@ -70,10 +175,171 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    placet = "lépe"
+    id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g( a) a \barMin
+    a b c d( c) a( b g) g \barMin a f( e) d \barMaior
+    f f( g) g \barMin
+    a g f g a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý
+    na te -- be se -- stou -- pí, Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
+    a g f a g g g( a) g g \barMaior
+    b( c) a( g) g \barMin
+    f g a a a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý
+    na te -- be se -- stou -- pí, Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    b( c) a( g) g \barMin
+    a g f g a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a g f g( a) \mark\sipka a( g) g \barMin
+    f g( a) a \barMaior
+    b( c) a( g) g \barMin
+    a g f g a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    \mark\sipka c( d) c( b) a \barMin
+    c a f g a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a  \barMin
+    c b c d c b a( c) a a \barMaior
+    g( a) a( g) g \barMin
+    f g a a a g g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý
+    na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {2. neděle adventní}}
 
@@ -99,8 +365,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( a' bes) c bes a g g( a) a a \barMaior
@@ -118,7 +387,56 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
-    id = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d( a' bes) c bes a g g( a) a a \barMaior
+    bes a bes g a bes a \barMaior
+    \mark\sipka f g a f f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te mu stez -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/advent_tyden2.ly#ut-amag?cast"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d( a' bes) c bes a g g( a) a a \barMaior
+    bes a bes g a bes a \barMaior
+    \mark\sipka g g g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te mu stez -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/advent_tyden2.ly#ut-amag?cast"
+    id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -413,6 +413,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e c d d f \mark\sipka e f g \barMaior
+    a a g f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

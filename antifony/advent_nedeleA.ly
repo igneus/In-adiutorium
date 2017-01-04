@@ -27,24 +27,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    d d f d f e( d) e \barMin
-    d d d d d( e) c a c c( d) d \barMaior
-    f f f g d d \barMin
-    d e d e d c d f e d c c d d \barFinalis
+    f4 f f g a a( g) g \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f f g( f) f \barMaior
+    f g a g f e d e f d c c d d \barFinalis
   }
   \addlyrics {
     Kdy -- by hos -- po -- dář vě -- děl,
     v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
     jis -- tě by byl vzhů -- ru
-    a ne -- do -- vo -- lil by mu
-    pod -- ko -- pat se do do -- mu.
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "není úplně zlá, ale patrně půjde lépe"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -53,15 +51,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f( g) g( a) \barMin
-    a b c d( c) a( b g) g \barMin a f( e) d \barMaior
-    f f( g) g \barMin
-    a( b) a b c a g g \barMaior
-    f g g g \barFinalis
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    c( d) c( b) a \barMin
+    c a f g a g g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý
-    na te -- be se -- stou -- pí, Ma -- ri -- a:
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
     Ne -- boj se,
     poč -- neš Bo -- ží -- ho Sy -- na.
     A -- le -- lu -- ja.
@@ -71,7 +69,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -107,7 +104,7 @@
     \key f \major
     d4 d( a' bes) c bes a g g( a) a a \barMaior
     bes a bes g a bes a \barMaior
-    g g g( a) f f e( d) d \barFinalis
+    g g g f d c( d) d \barFinalis
   }
   \addlyrics {
     Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
@@ -120,7 +117,6 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
-    placet = "_vyrovnejte mu stezky_ lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
