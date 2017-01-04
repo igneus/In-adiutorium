@@ -1952,6 +1952,60 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      % prevzate:
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d4( e c4.) c d4 c b a( g) g \barMax
+
+      % novy kousek:
+      \mark\sipka d' d c b c a g( a) g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      % prevzate:
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d4( e c4.) c d4 c b a( g) g \barMax
+
+      % novy kousek:
+      \mark\sipka f g a a c b g g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
