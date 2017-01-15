@@ -29,6 +29,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 135-I"
+    placet = "kritika u kopie"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -79,6 +80,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "1Tim 3"
+    placet = "to je spíš k modu VIII"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -220,6 +222,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "invitatorium"
+    placet = "zaslouží poštelovat"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -244,6 +247,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 72"
+    placet = "mdlá"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -318,6 +322,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nepříliš povedená"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -346,6 +351,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "těžkopádná"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -399,6 +405,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "zkusit lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -470,7 +477,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
-    placet = "melisma na _hosté_ se mi zdá nadbytečné"
+    placet = "melisma na _hosté_ se mi zdá nadbytečné; _ve víno_ půjde lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -497,6 +504,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "myslím, že půjde lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -666,6 +674,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "aktualisovat divisiones; některé obraty půjdou vylepšit"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -710,6 +719,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "postup f g a h je nelibý"
       id = "7-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -761,6 +771,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "půjde vylepšit"
       id = "8-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -783,6 +794,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
+      placet = "_mudrci ti_ snad lépe f g g g"
       id = "8-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -805,6 +817,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
+      placet = "_Uviděli jsme_ raději sylabicky"
       id = "9-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -853,6 +866,7 @@
       modus = "V"
       differentia = "a"
       psalmus = ""
+      placet = "zejm. druhá část je hrozná"
       id = "10-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -875,6 +889,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "nepříliš zpěvná, hlavně v druhé části"
       id = "10-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -899,6 +914,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "lépe"
       id = "11-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -919,6 +935,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "divná"
       id = "11-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -944,6 +961,7 @@
       modus = "I"
       differentia = "a"
       psalmus = ""
+      placet = "přinejmenším lepší závěr"
       id = "12-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -973,6 +991,7 @@
       differentia = "G"
       psalmus = "Žalm 135-I"
       piece = \markup {\sestavTitulek}
+      placet = "začátek je divný"
       id = "krtu-1ne-a1"
       fial = "antifony/advent_nedeleB.ly#iiben?cast"
       fons = "Větší kus melodie vzat z antifony k Benedictus 2. neděle adventní cyklu B (velice podobný text)."
@@ -998,6 +1017,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 135-II"
+      placet = "půjde lépe"
       id = "krtu-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1024,6 +1044,7 @@
       modus = "I"
       differentia = "D"
       psalmus = "1 Tim 3"
+      placet = "půjde lépe"
       id = "krtu-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1134,6 +1155,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "melisma z _v něm_ pryč; závěr lépe"
       id = "krtu-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1303,6 +1325,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Dan 3-III"
+      placet = "má několik drhnoucích míst"
       id = "krtu-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1332,6 +1355,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 149"
+      placet = "_Spasiteli_ jinak, melisma ze začátku pryč"
       id = "krtu-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1366,7 +1390,7 @@
       quid = "resp."
       modus = "III"
       piece = \markup\sestavTitulekResp
-      placet = "versus non placet"
+      placet = "relikt dávných dob - aktualisovat"
       id = "krtu-rch-resp"
       fons = "Kromě verše vše viz neděle 1. týdne žaltáře."
     }
@@ -1395,6 +1419,7 @@
       modus = "III"
       differentia = "a"
       psalmus = "Benedictus"
+      placet = "divisiones"
       id = "krtu-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1424,6 +1449,7 @@
       id = "krtu-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
       notitia = "Antifona nekončí na finále modu - tázací věty mohou končit netypicky výš."
+      placet = "začátek je divný, konec také"
     }
   }
 
@@ -1471,6 +1497,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "nezpěvná"
       id = "krtu-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1497,6 +1524,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 110"
+      placet = "od _v něm_ do konce zjednodušit"
       id = "krtu-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1521,6 +1549,7 @@
       modus = "I"
       differentia = "D"
       psalmus = "Žalm 112"
+      placet = "libější závěr; celou snad bude lepší upravit na typičtější mod. I"
       id = "krtu-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1545,6 +1574,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Zj 15"
+      placet = "délky nejsou potřeba; první díl lépe"
       id = "krtu-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1599,6 +1629,7 @@
     \header {
       quid = "resp."
       modus = "I"
+      placet = "lépe"
       id = "krtu-2ne-resp"
       piece = \markup\sestavTitulekResp
     }
@@ -1629,6 +1660,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Magnificat"
+      placet = "divisiones; oddíl _a udělal_ půjde lépe"
       id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
