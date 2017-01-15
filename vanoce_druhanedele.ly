@@ -29,7 +29,7 @@
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
-    id = ""
+    id = "ne1-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     differentia = "h"
     psalmus = "Žalm 116"
     fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
-    id = ""
+    id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -72,7 +72,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
-    id = ""
+    id = "ne1-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -130,7 +130,7 @@
     differentia = "a"
     psalmus = "Žalm 118"
     placet = "melodie druhé části je taková 'kramářská'"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -151,7 +151,7 @@
     differentia = "G"
     psalmus = "Dan 3-II"
     fial = "antifony/tyden2_1nedele.ly#rch-ant2?jiny_text"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -171,7 +171,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 150"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -206,7 +206,7 @@
     quid = "resp."
     modus = "VI"
     fial = "responsoria.ly#1ne-rch?jiny_vers"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -262,12 +262,12 @@
     den věč -- né -- ho štěs -- tí.
   }
   \header {
-    quid = "3. ant."
+    quid = "1. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
     placet = "zkusit i nějaké 'exaltovanější' varianty"
-    id = ""
+    id = "ne2-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -287,7 +287,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 115"
-    id = ""
+    id = "ne2-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -314,7 +314,7 @@
     differentia = "G*"
     placet = "to kantikum v modu VIII nemáme. Dodělat nebo předělat antifonu."
     psalmus = "Zj 19"
-    id = ""
+    id = "ne2-a3"
     piece = \markup {\sestavTitulek}
   }
 }
