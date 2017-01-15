@@ -29,6 +29,7 @@
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
+    placet = "_Krále_ snad lépe fg a"
     id = "ne1-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -52,6 +53,7 @@
     differentia = "h"
     psalmus = "Žalm 116"
     fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
+    placet = "úvodní i závěrečný motiv se mi líbí, ale celek vůbec nedrží pohromadě"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -72,6 +74,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "takový začátek nemá v chorální antifoně co dělat"
     id = "ne1-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -171,6 +174,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 150"
+    placet = "myslím, že půjde lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -266,7 +270,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
-    placet = "zkusit i nějaké 'exaltovanější' varianty"
     id = "ne2-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -312,7 +315,7 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
-    placet = "to kantikum v modu VIII nemáme. Dodělat nebo předělat antifonu."
+    placet = "to kantikum v modu VIII nemáme. Dodělat nebo předělat antifonu. Antifona moc nesedí v modu. Možná spíš mod. II"
     psalmus = "Zj 19"
     id = "ne2-a3"
     piece = \markup {\sestavTitulek}
@@ -341,6 +344,7 @@
     differentia = "G"
     psalmus = "Magnificat"
     fial = "commune/commune_maria.ly#1ne-a1?zacatek"
+    placet = "druhý díl zkusit vzestupný (jako je i ve zdrojové antifoně)"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

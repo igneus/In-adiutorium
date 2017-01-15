@@ -129,6 +129,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Magnificat"
+      placet = "možná by stálo za to, zkusit plynulejší přechod k závěrečné části"
       id = "vden-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -175,6 +176,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 2"
+      placet = "melisma na _Ty_ se mi moc nepozdává"
       id = "vden-cte-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -464,6 +466,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Benedictus"
+      placet = "tady se mi vnucuje aleluja a a ga g"
       id = "vden-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -679,6 +682,7 @@
       modus = "I"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "aleluja lépe c f ed d"
       id = "vden-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -711,6 +715,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 113"
+      placet = "_Marie_ si nejsem jist"
       id = "svrodiny-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -770,6 +775,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Ef 1"
+      placet = "_děťátko_ by šlo přímočačeji bc ag g; první část zkusit sylabicky"
       id = "svrodiny-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -847,6 +853,7 @@
       differentia = "D"
       psalmus = "Magnificat"
       annus = "B"
+      placet = "šla by lépe"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -901,6 +908,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "_on byl poddán_ je divné; celá je taková pohřební, což se ke svátku moc nehodí"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -928,6 +936,7 @@
       differentia = "G"
       psalmus = "Žalm 24"
       fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
+      placet = "melisma ze _Simeon_ pryč"
       id = "svrodiny-cte-a1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -948,6 +957,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 46"
+      placet = "melismata na začátku jsou nefunkční a nelibá"
       id = "svrodiny-cte-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -970,6 +980,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 87"
+      placet = "zkusit zpěvněji"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -991,6 +1002,7 @@
       differentia = "d"
       psalmus = ""
       fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
+      placet = "nic moc"
       id = "svrodiny-cte-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1101,6 +1113,7 @@
       quid = "resp."
       modus = "III"
       piece = \markup\sestavTitulekResp
+      placet = "to je relikt z poerfurtských časů. Aktualisovat."
       id = "svrodiny-rch-resp"
       fons = "Kromě verše melodie i text viz doba postní, neděle, ranní chvály"
       fial = "fial://pust_responsoria.ly#ne-rch?jiny_vers"
@@ -1143,19 +1156,19 @@
     }
     \addlyrics {
       Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
-      % v breviari zde jen "Josef a Maria"
-
       by -- li pl -- ni ú -- di -- vu
       nad slo -- vy, kte -- rá o něm sly -- še -- li.
       A -- le -- lu -- ja.
     }
     \header {
+      textus_approbatus = "Josef a Maria byli plni údivu
+      nad slovy, která o něm slyšeli. Aleluja."
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "f"
       psalmus = "Benedictus"
       annus = "B"
-      placet = "nic moc; vzít text doslovně z breviáře"
+      placet = "nic moc; upravit divisiones; vzít text doslovně z breviáře"
       id = "svrodiny-rch-abenB"
       fons = "melodie podle: Narození Páně, ant. v poledne;
       proto zde také košatější text než je v breviáři"
@@ -1218,6 +1231,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 122"
+      placet = "začátek je zbytečně divoký"
       id = "svrodiny-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -2123,6 +2137,7 @@
       differentia = "G"
       psalmus = "Žalm 99"
       fial = "vanoce_zjevenipane.ly#1ne-a1"
+      placet = "půjde lépe; přinejmenším opravit hrubá místa"
       id = "bohorodicka-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -2148,6 +2163,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "půjde lépe"
       id = "bohorodicka-mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -2217,6 +2233,7 @@
       modus = "VII"
       differentia = "b"
       psalmus = "Dan 3-III"
+      placet = "_Maria ... Spasitele_ hodně slabé"
       id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -2254,6 +2271,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 149"
+      placet = "úvodní skok pryč; _trvá navěky_ lépe"
       id = "bohorodicka-rch-a3"
       piece = \markup {\sestavTitulek}
     }

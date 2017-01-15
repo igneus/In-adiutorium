@@ -56,6 +56,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "nezpěvná"
     id = "2amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -139,6 +140,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "začátek zjednodušit"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -164,6 +166,7 @@
     differentia = "G"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?upraveno"
+    placet = "melisma na _od sebe_ pryč; elegantnější závěr"
     id = "4amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -213,6 +216,7 @@
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&upraveno"
+    placet = "nelíbí se mi dlouhá sestupná pasáž _Mojžíš v zákoně_"
     id = "5amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -241,6 +245,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "6aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

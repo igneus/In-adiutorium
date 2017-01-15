@@ -99,6 +99,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "1Tim 3"
+    placet = "jednodušší"
     id = "1ne-kantresp"
     piece = \markup {\sestavTitulek}
   }
