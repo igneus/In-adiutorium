@@ -49,8 +49,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) d f e f( g f) f( \grace e) \barMaior
-    d f e( f d) d c d e( d) d \barFinalis
+    d4 f f e f d( c) c \barMaior
+    bes c d( f) f e c e d \barFinalis
   }
   \addlyrics {
     Hle, při -- šla pl -- nost ča -- su:
@@ -61,7 +61,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
-    placet = "zkusit zpěvněji"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

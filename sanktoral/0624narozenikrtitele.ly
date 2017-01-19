@@ -199,7 +199,7 @@
     \choralniRezim
     d4 c( d) \barMin
     d c d f e d c d \barMaior
-    d d c b c( a) g f g( a g) g \barFinalis
+    d d c b c( a) g a g g \barFinalis
   }
   \addlyrics {
     Z_mých úst
@@ -219,25 +219,27 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( e) d d \barMin
-    d d c( d) c( b) a( g) \barMaior
-    a a g( a c d) c \barMin
-    d d c b c( a) g a g \barFinalis
+    g4 a c d d \barMin
+    c d e d c d \barMaior
+    d a d b c a( g) a( g) \barMin
+    f g( a) a b( c) a \barFinalis
   }
   \addlyrics {
     To je svě -- dec -- tví,
-    kte -- ré vy -- dal Jan:
-    Po mně při -- jde
-    ten, kte -- rý byl dří -- ve než já.
+    kte -- ré vy -- dá -- val Jan:
+    Ten, kte -- rý při -- jde po mně,
+    byl dří -- ve než já.
   }
   \header {
     textus_approbatus = "To je svědectví, které vydal Jan:
     Po mně přijde ten, který byl dřív než já."
+    % v latinském breviáři je text obou antifon shodný,
+    % v DMC je přeložený pokaždé jinak
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 92-II"
-    placet = "vyřešit vztah s podobnou ze 3. adventního týdne (je označena pro revizi)"
+    fial = "antifony/advent_tyden3.ly#pa-amag"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }

@@ -419,11 +419,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) \barMin
     d c d f e d c d \barMaior
     d d c b c( a) \mark\sipka g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Z_mých úst
+    u -- dě -- lal na -- brou -- še -- ný meč,
+    ve stí -- nu své ru -- ky mě u -- kryl.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( d) \barMin
+    d c d f e d c d \barMaior
+    d d c b c( a) g \mark\sipka a g g \barFinalis
   }
   \addlyrics {
     Z_mých úst
@@ -492,7 +515,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( e) d d \barMin
     d d c( d) c( b) a( g) \barMaior
@@ -513,6 +536,36 @@
     differentia = "d"
     psalmus = "Žalm 92-II"
     placet = "vyřešit vztah s podobnou ze 3. adventního týdne (je označena pro revizi)"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c d d \barMin
+    c d e d c d \barMaior
+    d a d b c a( g) a( g) \barMin
+    f g( a) a b( c) a \barFinalis
+  }
+  \addlyrics {
+    To je svě -- dec -- tví,
+    kte -- ré vy -- dá -- val Jan:
+    Ten, kte -- rý při -- jde po mně,
+    byl dří -- ve než já.
+  }
+  \header {
+    textus_approbatus = "To je svědectví, které vydal Jan:
+    Po mně přijde ten, který byl dřív než já."
+    % v latinském breviáři je text obou antifon shodný,
+    % v DMC je přeložený pokaždé jinak
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 92-II"
+    fial = "antifony/advent_tyden3.ly#pa-amag"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }

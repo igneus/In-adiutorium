@@ -359,7 +359,101 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "iimag1"
+    fial = "antifony/advent_tyden2.ly#po-aben?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    c d c b a g g \barMin
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    a c b g a g g \barMin
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b \barMin
+    a b c b a g g \barMin
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Pokus o aktualisaci ze zdroje. Je ale vidět, že tudy cesta
+  nepovede, protože úryvek není vkusně osamostatnitelný/zkompletovatelný.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c b a b \barMaior
+    c c c b a g g \barMin
+    f g a a g g \barMaior
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "iimag1"
     fial = "antifony/advent_tyden2.ly#po-aben?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -488,7 +582,31 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 c c c( d) d \barMin f f g f d e d d \barMaior
+    a' a c c a b a a \barMin a c a b c a \barMaior
+    a a a a a( g f) \barMin
+    d d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
+    a -- le ten, kte -- rý má při -- jít, je moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

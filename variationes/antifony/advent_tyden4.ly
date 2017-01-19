@@ -93,7 +93,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4 d( f) d f e f( g f) f( \grace e) \barMaior
     d f e( f d) d \mark\sipka c d e( d) d \barFinalis
@@ -176,6 +176,47 @@
     \choralniRezim
     d4 c d f g f( e) d \barMaior
     f f d c d e d d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f d e d d \barMaior
+    c d f( g) g f d e d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f f e f d( c) c \barMaior
+    bes c d( f) f e c e d \barFinalis
   }
   \addlyrics {
     Hle, při -- šla pl -- nost ča -- su:

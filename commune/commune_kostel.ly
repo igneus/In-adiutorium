@@ -207,11 +207,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a' f) g( e) f g a g e f d \barMaior
+    d4 f e f a g e f d \barMaior
     a' a( c) b g a( g f) e \barMin
-    d d d d d( e) c c( d) d \barFinalis
+    d d c d f e d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se s_Je -- ru -- za -- lé -- mem
@@ -225,7 +225,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "nic moc, zejména začátek"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
