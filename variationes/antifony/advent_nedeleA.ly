@@ -346,6 +346,7 @@
 % zvazit revizi teto antifony i jejiho citovaneho zdroje
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a( g f) f( g) g f \barMaior
     f e f d c d d( c) \barMin d( e f) g a g f f \barFinalis
@@ -367,6 +368,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d c c \barMin
     c d c b a g g \barMin
@@ -382,6 +384,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    fial = "antifony/advent_tyden2.ly#po-aben?cast&upraveno"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -590,7 +593,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 c c c( d) d \barMin f f g f d e d d \barMaior
+    c4 c c c( d) d \barMin f f \mark\sipka e d e f d d \barMaior
     a' a c c a b a a \barMin a c a b c a \barMaior
     a a a a a( g f) \barMin
     d d f e c c( d) d \barFinalis
@@ -638,8 +641,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) g f g a a \barMin c( d) c b a c( b a g) g \barMaior
     g g f e f( g) g g a( b) a g g \barMin a( g) f( e) e \barMaior
@@ -665,6 +671,97 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka a g f g a a \barMin \mark\sipka c c b a c( b a g) g \barMaior
+    g g \mark\sipka g g g g g a( b) a g g \barMin a( g) f( e) e \barMaior
+    g( c) d d( c) \barMin d c d c( b) a \barMaior
+    \mark\sipka c c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan sly -- šel ve vě -- ze -- ní
+    o Kris -- to -- vých či -- nech.
+    Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky
+    s_do -- ta -- zem:
+    Ty jsi ten, kte -- rý má při -- jít,
+    ne -- bo má -- me če -- kat ji -- né -- ho?
+  }
+  \header {
+    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
+    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g a a \barMin
+    c c b a c( a) a \barMaior
+    c c c c c c c d( e) d c c \barMin
+    b( c) a( g) g \barMaior
+    f a c c b a c( d) d \barMaior
+    c c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan sly -- šel ve vě -- ze -- ní
+    o Kris -- to -- vých či -- nech.
+    Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky
+    s_do -- ta -- zem:
+    Ty jsi ten, kte -- rý má při -- jít,
+    ne -- bo má -- me če -- kat ji -- né -- ho?
+  }
+  \header {
+    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
+    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g a a \barMin
+    c c b a c( a) a \barMaior
+    c c c c c c c d( e) d c c \barMin
+    \mark\sipka c( d c) b( a g) g \barMaior
+    f a c c b a c( d) d \barMaior
+    c c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan sly -- šel ve vě -- ze -- ní
+    o Kris -- to -- vých či -- nech.
+    Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky
+    s_do -- ta -- zem:
+    Ty jsi ten, kte -- rý má při -- jít,
+    ne -- bo má -- me če -- kat ji -- né -- ho?
+  }
+  \header {
+    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
+    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4( a) a \barMin a g a a b a g e e( a) a a \barMax
     e e e( f) e \barMin e e e( a) a g \barMaior
@@ -687,10 +784,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {4. neděle adventní}}
 
 \score {
   \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       b4 d d \barMin
       e c c d d \barMaior
@@ -727,3 +827,38 @@
   }
 }
 
+\markup{Kromě úpravy melodie také aktualisováno ze zdroje}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    b4 d d \barMin
+    e c c d d \barMaior
+    d d d c b a( b) \barMin
+    b b g a a b b \barMaior
+    d d( e c d) d \barMin
+    d c( b) a( g) g( a) a \barMaior
+    a g a b( a) g g \barMaior
+    \mark\sipka f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jo -- se -- fe,
+    sy -- nu Da -- vi -- dův,
+    ne -- boj se k_so -- bě vzít
+    svou man -- žel -- ku Ma -- ri -- i;
+    vždyť dí -- tě,
+    kte -- ré po -- ča -- la,
+    je z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "b"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a2?+aleluja"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

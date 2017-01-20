@@ -71,6 +71,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       b4 d d \barMin
       e c c d d \barMaior
@@ -89,6 +90,37 @@
       ne -- boj se k_so -- bě vzít
       svou man -- žel -- ku Ma -- ri -- i;
 
+      vždyť dí -- tě,
+      kte -- ré po -- ča -- la,
+      je z_Du -- cha sva -- té -- ho.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "b"
+      psalmus = "Žalm 147-II"
+      id = "svrodiny-1ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      b4 d d \barMin
+      e c c d d \barMaior
+      d d d c b a( b) \barMin
+      b b g a a b b \barMaior
+      d d( e c d) d \barMin
+      d c( b) a( g) g( a) a \barMaior
+      a g a b( a) g g \barFinalis
+    }
+    \addlyrics {
+      Jo -- se -- fe,
+      sy -- nu Da -- vi -- dův,
+      ne -- boj se k_so -- bě vzít
+      svou man -- žel -- ku Ma -- ri -- i;
       vždyť dí -- tě,
       kte -- ré po -- ča -- la,
       je z_Du -- cha sva -- té -- ho.

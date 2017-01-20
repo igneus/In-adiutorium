@@ -502,13 +502,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-     g4 a a a( c) c \barMin c c d( e) c d d \barMaior
-     d a d b c a( g) f g a c a a \barMaior
-     b c a a \barFinalis
+     a4 g a c( d) d \barMin
+     c d e c d d \barMaior
+     d a d b c a( g) \barMin
+     f g a c a a \barMaior
+     b c a( g) a \barFinalis
   }
   \addlyrics {
-    Vy -- hlí -- žím Pá -- na, své -- ho spa -- si -- te -- le,
-    a če -- kám na ně -- ho, ne -- boť už je blíz -- ko.
+    Vy -- hlí -- žím Pá -- na,
+    své -- ho spa -- si -- te -- le,
+    a če -- kám na ně -- ho,
+    ne -- boť už je blíz -- ko.
     A -- le -- lu -- ja.
   }
   \header {
@@ -516,9 +520,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    placet = "nasazení modelového nápěvu na text nepříliš povedené, výsledek nelibý"
     id = "ct-aben"
-    fons = "jeden z nejohranejsich gregorianskych typu"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

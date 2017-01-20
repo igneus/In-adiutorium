@@ -6,7 +6,7 @@
   \relative c'' {
     \choralniRezim
     a4 a( c a) \barMin b( c) c( d) d c( a) b a( g) \barMaior
-    c c c(-- d c a) a \barMin
+    c c c( d c a) a \barMin
     c b a g g( a) g g \barFinalis
   }
   \addlyrics {
@@ -19,7 +19,6 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Magnificat"
-    placet = "episema pryč"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

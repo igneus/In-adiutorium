@@ -147,7 +147,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c a c c a g f \barMin
     g f g a c d c c \barMaior
@@ -172,6 +172,42 @@
     psalmus = "Žalm 142"
     fons = "Jednotný kancionál, 101A; melodie podle greg. antifony ekvivalentního textu;
     	jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Aktualisace z produkční verze.
+  (Udělal jsem před časem nějaké změny rovnou tam,
+  a updatefromvar.rb mi je vždycky zkouší přepsat.)
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c a c c a g f \barMin
+    g f g a c d c c \barMaior
+    a c c c d b c a f g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Ej -- hle, Hos -- po -- din při -- jde
+    a všich -- ni sva -- tí je -- ho s_ním;
+    a bu -- de v_den o -- nen svět -- lo vel -- ké,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    fons_externus = "Kancionál 101A"
+    % melodie podle greg. antifony ekvivalentního textu;
+    % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
+    textus_approbatus = "Hle, Pán přijde a s ním všichni jeho svatí;
+    v ten den zazáří veliké světlo. Aleluja."
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1400,6 +1436,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
      g4 a a a( c) c \barMin c c d( e) c d d \barMaior
      d a d b c a( g) f g a c a a \barMaior
@@ -1417,6 +1454,59 @@
     psalmus = ""
     id = "ct-aben"
     fons = "jeden z nejohranejsich gregorianskych typu"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+     a4 g a c( d) d \barMin
+     c d e c d d \barMaior
+     d a d b c a( g) \barMin
+     f g a c a a \barMaior
+     b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    své -- ho spa -- si -- te -- le,
+    a če -- kám na ně -- ho,
+    ne -- boť už je blíz -- ko.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+     a4 g a c( d) d \barMin
+     c d e c d d \barMaior
+     a( d) b c a g a( g) \barMin
+     f g a c a a \barMaior
+     b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    své -- ho spa -- si -- te -- le,
+    a če -- kám na ně -- ho,
+    ne -- boť už je blíz -- ko.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

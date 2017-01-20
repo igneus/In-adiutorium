@@ -93,6 +93,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( c a) \barMin b( c) c( d) d c( a) b a( g) \barMaior
+    c c \mark\sipka c( d c a) a \barMin
+    c b a g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- chá -- zí zda -- le -- ka,
+    je -- ho slá -- va
+    na -- pl -- ňu -- je ce -- lý svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Magnificat"
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -702,7 +725,7 @@
     g4 g( a) g( f d) d \barMaior
 
     d d d( a') a bes g a \barMin
-    bes g a g( f) d d \barMaior \break
+    bes g a g( f) d d \barMaior
 
     f4 f e f g( a g) f d d \barFinalis
   }

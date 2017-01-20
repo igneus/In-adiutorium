@@ -53,23 +53,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a f g) g \barMin
-    a b c d c( b) a a \barMaior
+    c4 c b a g f g( a) g g \barMaior
     c a c b( g) a \barMin
     a a g f g a a g g \barFinalis
   }
   \addlyrics {
-    Zá -- kon
-    byl dán skr -- ze Moj -- ží -- še,
+    Zá -- kon byl dán skr -- ze Moj -- ží -- še,
     mi -- lost a prav -- da
     při -- sla skr -- ze Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Flp 2"
-    placet = "zkusit alternativy"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
