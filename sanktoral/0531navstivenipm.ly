@@ -162,13 +162,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g( f e d) \barMin a' c d c b( c) a g a( g) g \barMaior
-    g a( b c) a g f g( a) g( a) g \barFinalis
+    g4 g g g( a) g \barMin
+    g a b c a g a g g \barMaior
+    g f e d d f( g) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja f( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja f( g) g g \barFinalis
   }
   \addlyrics {
-    Ma -- ri -- a ve -- šla do Za -- cha -- ri -- á -- šo -- va do -- mu
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
     a po -- zdra -- vi -- la Alž -- bě -- tu.
 
     A -- le -- lu -- ja.
@@ -176,7 +178,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = "Žalm 122"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

@@ -164,9 +164,9 @@
   \relative c' {
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
-    g f e c d \barMax
-    a( c d) d \barMin
-    e f e d c d d \barFinalis
+    g f e c d \barMaior
+    d( e d) d( c) \barMin
+    d f e d c d d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
@@ -179,7 +179,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_Přišel_ lépe"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

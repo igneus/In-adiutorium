@@ -620,6 +620,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( e d) c( a) a c c( d) d \barMaior
     f f g g d \barMin d e d c( d) d \barMax
@@ -636,7 +637,100 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e d) c( a) a c c( d) d \barMaior
+    f f g g d \barMin d e d c( d) d \barMax
+    d e f g( f) \mark\sipka e( d) d \barMin
+    d( e) c( a) c d d \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se ke mně,
+    ne -- boť já jsem Bůh a ni -- kdo ji -- ný!
+    Pře -- de mnou po -- klek -- ne kaž -- dé ko -- le -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e d) c( a) a c c( d) d \barMaior
+    f f g g d \barMin d e d c( d) d \barMax
+    d e f \mark\sipka g f d( c) \barMin
+    d( f) e( d) c d d \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se ke mně,
+    ne -- boť já jsem Bůh a ni -- kdo ji -- ný!
+    Pře -- de mnou po -- klek -- ne kaž -- dé ko -- le -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e d) c( a) a c c( d) d \barMaior
+    f f g g d \barMin d e d c( d) d \barMax
+    \mark\sipka f e d e d c \barMin
+    d( f) e( d) c d d \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se ke mně,
+    ne -- boť já jsem Bůh a ni -- kdo ji -- ný!
+    Pře -- de mnou po -- klek -- ne kaž -- dé ko -- le -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e d) c( a) a c c( d) d \barMaior
+    f f g g d \barMin d e d c( d) d \barMax
+    f e d e d \mark\sipka d( c) \barMin
+    d( f) e( d) c d d \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se ke mně,
+    ne -- boť já jsem Bůh a ni -- kdo ji -- ný!
+    Pře -- de mnou po -- klek -- ne kaž -- dé ko -- le -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

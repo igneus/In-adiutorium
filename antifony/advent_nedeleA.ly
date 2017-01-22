@@ -155,8 +155,8 @@
     \choralniRezim
     d4( e d) c( a) a c c( d) d \barMaior
     f f g g d \barMin d e d c( d) d \barMax
-    d e f g( f) d( e d) d \barMin
-    d( e) c( a) c d d \barFinalis
+    f e d e d d( c) \barMin
+    d( f) e( d) c d d \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se ke mně,
@@ -168,7 +168,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_poklekne_ zjednodušit, podle vhodnosti celou vylepšit"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
