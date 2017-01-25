@@ -624,7 +624,7 @@ sestavTitulekFons = \markup {
     kte -- rýž -- to ot -- wi -- raš a žad -- ny ne -- za -- wi -- ra,
     za -- wi -- raš a žad -- ny ne -- ot -- wi -- ra
     při -- gdiž a wy -- wed wěz -- ně
-    ***z_do -- mu ža -- la -- ře,
+    "***z_do" -- mu ža -- la -- ře,
     kte -- ryž -- to se -- di we tmach a w_sti -- nu smr -- ti.
   }
   \header {

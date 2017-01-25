@@ -4,8 +4,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f f f f g f e f d4. d \barMax
-    e4 d c d d4.( e) \barMin
+    d4( f) f f f f g f e f d d \barMaior
+    e4 d c d d4( e) \barMin
     e4 f e d d d \barFinalis
   }
   \addlyrics {
@@ -18,7 +18,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "div. maior"
     id = "predvanocni-17-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -52,7 +51,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_nauč_ je divné"
     id = "predvanocni-17-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -87,7 +85,7 @@
     d d a( d) d \bar "" e d d d
     \bar "" e d e d d d \bar "" e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f f( e) d e d c \barMax
-    c( f) f f( e) d e( d) d( c a) \barMin
+    c( f) f e f d d( c a) \barMin
     c( d) f( e) c e d \barFinalis
   }
   \addlyrics {
@@ -201,10 +199,10 @@
     c4( f f e) f d e( d) c( d) d \barMin
     d d( e) d d f e d e d c \barMaior
     d d a( d) d d e d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a a g f d( e f) f d e d( c) c \barMax
-    c( f) f e d e d c( d) d \barMin
-    d( f e) d c c \barMaior
-    d f d e( d) c( d) d( c a) \barMaior
+    a a g f f( e) d d e d( c) c \barMax
+    c( f) e f d e d c( d) d \barMin
+    d e d( c) c \barMaior
+    f e f d e( d) c( d) d( c a) \barMaior
     c( d) f e c c( e) d \barFinalis
   }
   \addlyrics {
@@ -214,7 +212,7 @@
     když ty za -- vřeš, ni -- kdo ne -- o -- te -- vře;
     přijď a vy -- veď ze ža -- lá -- ře
     spou -- ta -- né -- ho,
-    jenž se -- dí v_tem -- no -- tě
+    kte -- rý se -- dí v_tem -- no -- tě
     a ve stí -- nu smr -- ti!
   }
   \header {
@@ -226,7 +224,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "více divných míst"
     id = "predvanocni-20-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -250,7 +247,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Benedictus"
-    placet = "závěr divný"
     id = "predvanocni-21-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -291,9 +287,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f( g) g g a g f( g) g( a) a \barMin
+    d4 d d f( g) g g a g f( g) g( a) a \barMaior
     a a a bes a g g a a \barMin
-    f a g f d4. d \barFinalis
+    f a g f d d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
@@ -305,7 +301,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "divisiones"
     id = "predvanocni-22-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -350,7 +345,7 @@
   \relative c' {
     \choralniRezim
     d4 d d f e d d( e) e \barMin
-    e e f d d e c d d \barFinalis
+    f f f e d e c d d \barFinalis
   }
   \addlyrics {
     Ny -- ní se spl -- ni -- lo všech -- no,
@@ -361,7 +356,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "lépe"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -370,19 +364,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4( f f e) f d e( d) c( d) d \barMin
+    c( f f e) f d e( d) c( d) d \barMin
     d( e) d d d e( f) d e d c \barMaior
     d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
     a g f d( e f) f c \barMax
-    c( f) f e( f d) d( c) \barMaior
-    d( c) d f e( d) d \barFinalis
+    c( f) e f d d( c a) a \barMaior
+    c( d) f c e d \barFinalis
   }
   \addlyrics {
     Ó E -- ma -- nu -- e -- li,
     krá -- li náš a zá -- ko -- no -- dár -- ce,
     na te -- be če -- ka -- jí ná -- ro -- dy,
     a -- bys je za -- chrá -- nil:
-    přijď a spas nás,
+    přijď a dej nám spá -- su,
     Pa -- ne, náš Bo -- že!
   }
   \header {
@@ -394,7 +388,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "atypický závěr, přitom nejspíš není vůbec potřeba"
     id = "predvanocni-23-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -505,17 +498,17 @@
     \choralniRezim
     \key f \major
     % R
-    \neviditelna d
-    d4 d d d d( a') a a d( c) a g g( a) a \barMax
-    bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    f g f d d( f) \barMin f g a g f f \barFinalis
     % V
-    \neviditelna d
-    a'4 a c d c c( d) d \barMin c bes g g( a) a \barMax
+    \neviditelna a
+    a4 a a a a g( a) g \barMin a g f g( a) a( g) \barMax
     % R
-    \neviditelna bes
-    bes4 c bes a( d,) d \barMin e f g f d d \barFinalis
+    \neviditelna a
+    f g f d d( f) \barMin f g a g f f \barFinalis
     % Slava
-    a'4 a c d c c( d) d \barMin c bes g g( a) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
@@ -526,8 +519,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
-    placet = "krátké responsorium by se mělo obejít bez kvintového kroku dolů a podobných kejklí"
+    modus = "VI"
     id = "predvanocni-24-rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -537,20 +529,21 @@
   \relative c'' {
     \choralniRezim
     g4 c b g a \barMin
-    g a b c b c d d \barMin
-    c d c b4. g a4 f f g a a g g \barFinalis
+    g a b c b c d d \barMaior
+    c d c b g \barMin
+    a f f g a a g g \barFinalis
   }
   \addlyrics {
     Na -- pl -- nil se čas,
     kdy mě -- la Pan -- na Ma -- ri -- a
-    po -- ro -- dit své -- ho pr -- vo -- ro -- ze -- né -- ho sy -- na.
+    po -- ro -- dit své -- ho
+    pr -- vo -- ro -- ze -- né -- ho sy -- na.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
-    placet = "doladit divisiones; melodie pravděpodobně půjde vylepšit"
     id = "predvanocni-24-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

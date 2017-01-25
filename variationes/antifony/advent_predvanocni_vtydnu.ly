@@ -334,6 +334,55 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d c b a b g \barMaior
+    f g( a) a a \mark\sipka a( c) b c d c
+    b c a g g \barFinalis
+  }
+  \addlyrics {
+    Kéž se po -- zná na ze -- mi, jak jed -- náš,
+    kéž po -- zna -- jí všech -- ny ná -- ro -- dy,
+    jak za -- chra -- ňu -- ješ.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Druhý díl by šlo strukturovat přidáním retardujícího prvku,
+  ale nezdá se mi to krásnější.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d c b a b g \barMaior
+    f g( a) a a a( c) b \mark\sipka c( d) d( c) c \barMin
+    b c a g g \barFinalis
+  }
+  \addlyrics {
+    Kéž se po -- zná na ze -- mi, jak jed -- náš,
+    kéž po -- zna -- jí všech -- ny ná -- ro -- dy,
+    jak za -- chra -- ňu -- ješ.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak % ZLOM
 
 \markup {\nadpisDen {středa}}
@@ -412,10 +461,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 e f g( a) a a c a g g( a) a \barMaior
+    a bes c d d bes( a) a \barMin
+    g f g a f e d \barFinalis
+  }
+  \addlyrics {
+    Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
+    do -- kud ne -- vzej -- de svět -- lo
+    je -- ho spra -- ved -- li -- vé -- mu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 \mark\sipka f f g( a) a a c a g g( a) a \barMaior
     a bes c d d bes( a) a \barMin
     g f g a f e d \barFinalis
   }
@@ -568,10 +641,57 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 e f f g a a a d( bes) a \barMaior
+    a a f g a( bes) a \barMin
+    g a f e d d \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne, po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 e f f g a a a \mark\sipka g( bes) a \barMaior
+    a a f g a( bes) a \barMin
+    g a f e d d \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne, po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 e f f g a a a \mark\sipka bes( g) a \barMaior
     a a f g a( bes) a \barMin
     g a f e d d \barFinalis
   }

@@ -140,7 +140,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "druhou část asi raději strukturovat"
     id = "predvanocni-zlm-ut-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -176,7 +175,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 e f g( a) a a c a g g( a) a \barMaior
+    f4 f f g( a) a a c a g g( a) a \barMaior
     a bes c d d bes( a) a \barMin
     g f g a f e d \barFinalis
   }
@@ -190,7 +189,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "e ze začátku vymýtit"
     id = "predvanocni-zlm-st-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -228,7 +226,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 e f f g a a a d( bes) a \barMaior
+    d4 e f f g a a a bes( g) a \barMaior
     a a f g a( bes) a \barMin
     g a f e d d \barFinalis
   }
@@ -242,7 +240,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_duši_ méně extravagantně"
     id = "predvanocni-zlm-ct-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
