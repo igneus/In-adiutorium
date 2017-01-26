@@ -42,6 +42,35 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 \mark\sipka d d c( d e d) d \barMin
+    d c b a g( a) a \barMaior
+    c c c a( g a g) g \barMin
+    f g a a( c) c c \barMin
+    c b a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- di -- ným svět -- lem
+    je Kris -- to -- va cír -- kev;
+    všu -- de se ší -- ří,
+    a při -- tom zů -- stá -- vá
+    je -- di -- ným tě -- lem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 g a \barMin a g c b a g a \barMaior
     f g a \barMin a a( bes) g a \barMaior
     f g a a( bes) a \barMin
@@ -65,6 +94,88 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a \barMin a g c b a g a \barMaior
+    f g a a a( bes) g a \barMaior
+    f g a a( bes) a \barMin
+    a g f e( f) d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den Pán, jed -- na ví -- ra, je -- den křest,
+    je -- den Bůh a O -- tec všech;
+    je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky
+    a je ve všech.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 g a \barMin
+    a g c b a g a \barMaior
+    \mark\sipka a a g e f d e \barMaior
+    c d e e( f) e \barMin
+    f g a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- den Pán,
+    jed -- na ví -- ra, je -- den křest,
+    je -- den Bůh a O -- tec všech;
+    je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c \barMin
+    a c d c d e d \barMaior
+    d d c a b a g \barMaior
+    f g a a( c) c \barMin
+    c c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- den Pán,
+    jed -- na ví -- ra, je -- den křest,
+    je -- den Bůh a O -- tec všech;
+    je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

@@ -42,25 +42,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a \barMin a g c b a g a \barMaior
-    f g a \barMin a a( bes) g a \barMaior
-    f g a a( bes) a \barMin
-    a g f e( f) d \barMin
-    e c c( d) d \barFinalis
+    g4 a c \barMin
+    a c d c d e d \barMaior
+    d d c a b a g \barMaior
+    f g a a( c) c \barMin
+    c c c b a g a g g \barFinalis
   }
   \addlyrics {
-    Je -- den Pán, jed -- na ví -- ra, je -- den křest,
+    Je -- den Pán,
+    jed -- na ví -- ra, je -- den křest,
     je -- den Bůh a O -- tec všech;
     je na -- de vše -- mi,
-    pro -- ni -- ká všec -- ky
-    a je ve všech.
+    pro -- ni -- ká všec -- ky a je ve všech.
   }
   \header {
     quid = "2. ant."
-    modus = "I"
+    modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "zkusit alternativy"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
