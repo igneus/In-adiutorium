@@ -1006,6 +1006,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 a a( c) c \barMin
       c( b) c a( b g4.) g \barMax
@@ -1025,6 +1026,31 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a a( c) c \barMin
+      \mark\sipka a c b( a g) g \barMaior
+      a4 f f f e( g) g \barFinalis
+    }
+    \addlyrics {
+      Pán mi ře -- kl:
+      Ty jsi můj Syn,
+      já jsem tě dnes zplo -- dil.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 2"
+      id = "vden-cte-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
@@ -1089,6 +1115,87 @@
       psalmus = "Žalm 45"
       fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
       fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c( d) c c \barMin
+      c b a g( a) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      g4 a c c b \barMin
+      a f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+\score {
+    \relative c' {
+      \choralniRezim
+      f4 g f a g \barMin
+      f g a g( f) f \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+\score {
+    \relative c' {
+      \choralniRezim
+      f4 g f a \mark\sipka a( g) \barMin
+      f g a g( f) f \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 45"
       id = "vden-cte-a3"
       piece = \markup {\sestavTitulek}
     }

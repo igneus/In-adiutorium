@@ -163,7 +163,7 @@
     \relative c'' {
       \choralniRezim
       g4 a a( c) c \barMin
-      c( b) c a( b g4.) g \barMax
+      a c b( a g) g \barMaior
       a4 f f f e( g) g \barFinalis
     }
     \addlyrics {
@@ -176,7 +176,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 2"
-      placet = "melisma na _Ty_ se mi moc nepozdává"
       id = "vden-cte-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -2280,17 +2279,15 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( d') e c c d d \barMin
-      d c b a g a( b) g4. g \barMax
-
-      g4( d') e c c( d) b b \barMin
-      c d d d c d c( b) b \barMin
-      c a b a g4. g \barFinalis
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      d' c b a g a \barMaior
+      a b g g a b c( d) d \barMin
+      c a b a g g \barFinalis
     }
     \addlyrics {
       Dnes by -- lo zje -- ve -- no
       ob -- di -- vu -- hod -- né ta -- jem -- ství:
-
       Bůh se stal člo -- vě -- kem;
       ne -- změ -- ně -- ný ve svém bož -- ství
       při -- jal na -- še lid -- ství.
@@ -2298,14 +2295,8 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VII"
-      differentia = "a"
+      differentia = "c"
       psalmus = "Benedictus"
-      placet = "úvodní fráze obou částí opakuje stejnou chybu -
-      melodie zdůrazňuje slovo, kterému žádný důraz nepřísluší:
-      _bylo_ a _se_;
-      největší botou ale je melodie _Bůh_ - nejen proto, že opakuje
-      melodii začátku první části,
-      což neodpovídá důstojnosti toho, o kom se mluví"
       id = "bohorodicka-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

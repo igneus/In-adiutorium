@@ -387,6 +387,8 @@
     }
   }
 
+  \pageBreak
+
   \markup\italic{
     Responsorium \upright{Hospodin uvedl ve známost svou spásu} ze slavnosti Narození Páně,
     s. \page-ref #'respHospodinUvedl "0" "?" .
@@ -394,6 +396,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4( d') e c c d d \barMin
       d c b a g a( b) g4. g \barMax
@@ -419,6 +422,116 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \markup{Minimální nezbytná úprava:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka d4 e c c d d \barMin
+      d c b a g a( b) g g \barMaior
+      \mark\sipka d'4 e c c( d) b b \barMaior
+      c d d d c d c( b) b \barMin
+      c a b a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      f a c d( e) d d \barMaior
+      d d d d c b a( c) b \barMin
+      a g f a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      \mark\sipka d' c b a g a \barMaior
+      a b g g a c d( c) c \barMin
+      b a g a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      d' c b a g a \barMaior
+      a b g g a \mark\sipka b c( d) d \barMin
+      c a b a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
 
