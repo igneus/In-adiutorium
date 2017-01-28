@@ -35,10 +35,6 @@ describe Updater do
   end
 
   describe '#indentation_level' do
-    it 'always returns 0 for one-liner' do
-      expect(@updater.indentation_level('   \score {}')).to eq 0
-    end
-
     it 'works for unindented' do
       expect(@updater.indentation_level("\\score {\na\n}")).to eq 0
     end
@@ -50,18 +46,14 @@ describe Updater do
     end
 
     it 'works for indented' do
-      expect(@updater.indentation_level("  \\score {\n    a\n  }")).to eq 2
+      expect(@updater.indentation_level("\\score {\n    a\n  }")).to eq 2
     end
   end
 
   describe '#indent' do
-    it 'unindents the first line' do
-      expect(@updater.indent('  \score {}', 2)).to eq '\score {}'
-    end
-
     it 'enlarges indentation of subsequent lines (blindly, uniformly) if needed' do
       s = "\\score {\n  a b\n}"
-      s_indented = "\\score {\n    a b\n  }"
+      s_indented = "  \\score {\n    a b\n  }"
       expect(@updater.indentation_level(s)).to eq 0 # just check
       expect(@updater.indent(s, 2)).to eq s_indented
     end

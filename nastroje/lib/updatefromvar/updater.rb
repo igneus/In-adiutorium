@@ -46,7 +46,7 @@ class Updater
           changes += 1
 
           score_text_cleaned = clean_score score.text
-          score_text_cleaned = indent score_text_cleaned, indentation_level(production_score)
+          score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
 
           main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
         end
@@ -86,29 +86,24 @@ class Updater
   # how many spaces is the lilypond score indented?
   # computed as 'indentation of line 2' - 2 spaces
   def indentation_level(lily_src)
-    level = lily_src.lines[1].index(/[^\s]/) - 2
+    level = lily_src.lines[-1].index(/[^\s]/)
     level = 0 if level < 0
     return level
-  rescue
-    0
   end
 
   # ensures that the lilypond score has the given indentation level
   def indent(lily_src, level)
-    if indentation_level(lily_src) == level
-      return unindent_first_line lily_src
+    if indentation_level(lily_src) != level
+      indent_change = (level - indentation_level(lily_src))
+      lily_src = lily_src.lines
+                 .collect {|l| indent_by(indent_change, l) }
+                 .join ''
     end
 
-    indent_change = (level - indentation_level(lily_src))
-    lily_src = lily_src.lines.collect {|l| indent_by(indent_change, l) }.join ''
-    return unindent_first_line lily_src
+    return lily_src
   end
 
   private
-
-  def unindent_first_line(lily_src)
-    lily_src.sub(/\A\s+/, '')
-  end
 
   def indent_by(num, line)
     if num > 0 then
