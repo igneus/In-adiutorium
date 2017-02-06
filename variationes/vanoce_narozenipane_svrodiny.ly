@@ -304,7 +304,169 @@
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      d d c( d) d d f e f ( g) g \barMin
+      g f d c d d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      c d f( d) d d f g a( g) g \barMin
+      g f d e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      f f g( a) a a g bes a a \barMin
+      a g f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      f f g( a) a a g a g( f) e \barMin
+      d e f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      f f g( a) a a g a g( f) e \barMin
+      d e \mark\sipka c d e d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      c d f( g) g g f a g g \barMin
+      g a f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
     \relative c' {
+      \choralniRezim
+      f4 f e d e f d d \barMaior
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 f g a a a bes a g f g4. g \barMin
       f4 f g a a f e c( d) d \barFinalis
@@ -323,6 +485,114 @@
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a g f g a g a( c) c \barMaior
+      c c c b a g a g g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c \mark\sipka g a g f g a g a( c) c \barMaior
+      c c c b a g a g g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c g a g f g a \mark\sipka a g g \barMaior
+      a a b c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c g a g f g a a g g \barMaior
+      a a b c \mark\sipka a g a g g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c g a g f g a a g g \barMaior
+      a a b c \mark\sipka b a b g g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
@@ -346,6 +616,8 @@
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"invitatorium"}}
 

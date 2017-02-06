@@ -823,10 +823,10 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4 f g a a a bes a g f g4. g \barMin
-      f4 f g a a f e c( d) d \barFinalis
+      c4 c c g a g f g a g a( c) c \barMaior
+      c c c b a g a g g \barFinalis
     }
     \addlyrics {
       Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
@@ -834,11 +834,10 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "I"
-      differentia = "D"
+      modus = "VIII"
+      differentia = "c"
       psalmus = "Magnificat"
       annus = "B"
-      placet = "šla by lépe"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
