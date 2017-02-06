@@ -580,6 +580,38 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 g f f f g f g( a) \barMax
+      \mark\sipka g g g f e d d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a g( a) g \mark\sipka f g a a( g) \barMax
+      % R
+      \neviditelna a
+      \mark\sipka g g g f e d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Dnes po -- zná -- te, že při -- jde Pán_*
+      a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \Verse On sám při -- jde a spa -- sí vás_*
+      \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \textRespDoxologie
+    }
+    \header {
+      id = "narozeni-1ne-resp"
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
