@@ -846,12 +846,14 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d( e) d \barMin c d f e f d d \barMaior
-      d d d d g g g f( g f) e d c d \barMaior
-      d d f e f d c c( d) d d \barFinalis
+      f4 f f( g) f \barMin
+      d e f e d c c \barMaior
+      f f f g f f f g( a) g f d d \barMaior
+      f f e c d4. c4 d e( f) d d \barFinalis
     }
     \addlyrics {
-      Chla -- pec Je -- žíš zů -- stal v_Je -- ru -- za -- lé -- mě,
+      Chla -- pec Je -- žíš
+      zů -- stal v_Je -- ru -- za -- lé -- mě,
       a je -- ho ro -- di -- če ho mar -- ně hle -- da -- li
       me -- zi pří -- buz -- ný -- mi a zná -- mý -- mi.
     }
@@ -861,7 +863,6 @@
       differentia = "D"
       psalmus = ""
       annus = "C"
-      placet = "_lépe_"
       id = "svrodiny-1ne-amagC"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
