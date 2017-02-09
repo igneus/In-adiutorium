@@ -81,8 +81,80 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    \label #'respInesp
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g( a) a( g) \barMax
+    g g( a) g f d \barMin f d f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a a a g( a) g g \barMin g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna g
+    g g( a) g f d \barMin f d f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su,_*
+    kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \Verse Všech -- ny kon -- či -- ny ze -- mě u -- zře -- ly spá -- su na -- še -- ho Bo -- ha,_*
+    \Response kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    \label #'respInesp
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka g f f f g( a) a( g) \barMax
+    g \mark\sipka g g( a) g g f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a( bes) a a a a g( a) g g \barMin g g \mark\sipka a g f g( a) a( g) \barMax
+    % R
+    \neviditelna g
+    g \mark\sipka g g( a) g g f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su,_*
+    kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \Verse Všech -- ny kon -- či -- ny ze -- mě u -- zře -- ly spá -- su na -- še -- ho Bo -- ha,_*
+    \Response kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     \label #'respInesp
@@ -93,7 +165,7 @@
     g g g( a) g g f( d) f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a a g( a) g \barMin g g g g g a g f g( a) a( g) \barMax
+    a4 a a( bes) a a \mark\sipka g( a) g \barMin g g g g g a g f g( a) a( g) \barMax
     % R
     \neviditelna g
     g g g( a) g g f( d) f g g f f \barFinalis
@@ -114,6 +186,8 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -343,6 +417,15 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Tady mi dost vadí melisma na _Simeon_, přičemž nejde o to,
+  že by dané místo textu melisma nesneslo, ale snad zejm. o to,
+  že jde o sekundový vzestupný krok ústící do recitace na jednom tónu.
+  Zní to divně.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -366,6 +449,56 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    a b \mark\sipka c c c d c b( g) g \barMin
+    g g( c) b g a( f g) g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    a b c \mark\sipka b a c b a( g) g \barMin
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
