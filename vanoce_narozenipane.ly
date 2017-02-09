@@ -873,27 +873,24 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4( a) a \barMin
-      a( g a b a) g f e e \barMin
-      e d f e( d e) e \barMax
-
-      f a b( g a) a \barMin
-      g a g f e d e e \barFinalis
+      d4( f) f \barMin
+      g f g a( g) g \barMin
+      f g f d( e d) d \barMaior
+      f f e( f d) d( c) \barMin
+      d f f f e c d d \barFinalis
     }
     \addlyrics {
       Pojď -- me,
       klaň -- me se Kris -- tu,
       Bo -- ží -- mu Sy -- nu;
-
       on byl pod -- dán
       Ma -- ri -- i a Jo -- se -- fo -- vi.
     }
     \header {
       quid = "ant."
-      modus = "IV"
-      differentia = "E"
+      modus = "II"
+      differentia = "D"
       psalmus = ""
-      placet = "_on byl poddán_ je divné; celá je taková pohřební, což se ke svátku moc nehodí"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -974,11 +971,13 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4( c) c( d) d \barMin d c d c( a) a \barMaior
-      g( a) b c a g a( g) f( g) g \barFinalis
+      c4 d d \barMin
+      e d c d c \barMaior
+      d-- c d c b a g g \barFinalis
     }
     \addlyrics {
-      O -- prav -- du,_* ty jsi Bůh skry -- tý,
+      O -- prav -- du,_*
+      ty jsi Bůh skry -- tý,
       Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
     }
     \header {
@@ -987,7 +986,6 @@
       differentia = "d"
       psalmus = ""
       fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
-      placet = "nic moc"
       id = "svrodiny-cte-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }

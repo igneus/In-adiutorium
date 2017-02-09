@@ -399,10 +399,34 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZeleny
       \choralniRezim
       a4 a g f e f d d \barMaior
       f f g( a) a a g bes a a \barMin
       a g f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g f e f d d \barMaior
+      f f g( a) a a g bes a a \barMin
+      \mark\sipka g a f e f d d \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl Jo -- se -- fo -- vi:
@@ -503,6 +527,78 @@
       quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d d e c d d \barMaior
+      a b c( d) d d c d c( b) a \barMin
+      c b g a b g g \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 b d e d c a( b) b \barMaior
+      c c a( g) g g f g a a \barMin
+      a c a b a g g \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      d4 b d e d c a( b) b \barMaior
+      c c a( g) g g \mark\sipka a g a( g) f \barMin
+      g a c b a g g \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
       psalmus = ""
       annus = "A"
       id = "svrodiny-1ne-amagA"
@@ -773,6 +869,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4( a) a \barMin
       a( g a b a) g f e e \barMin
@@ -801,6 +898,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       d4( f) f \barMin
       g f g a( g) g \barMin
@@ -1013,6 +1111,57 @@
       psalmus = "Žalm 87"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      d4( c) c( d) d \barMin d c d c( a) a \barMaior
+      g( a) b c a g a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      O -- prav -- du,_* ty jsi Bůh skry -- tý,
+      Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
+      placet = "nic moc"
+      id = "svrodiny-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 d d \barMin
+      e d c d c \barMaior
+      d-- c d c b a g g \barFinalis
+    }
+    \addlyrics {
+      O -- prav -- du,_*
+      ty jsi Bůh skry -- tý,
+      Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
+      id = "svrodiny-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
