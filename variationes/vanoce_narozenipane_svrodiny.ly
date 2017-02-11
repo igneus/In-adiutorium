@@ -44,11 +44,36 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g f g g a a \barMin
       a g a( c) b g( a) \barMaior
       a g a a( b c) a( g) g a( g) g( f d) \barMin
+      f f g a g g \barFinalis
+    }
+    \addlyrics {
+      Ja -- kub byl O -- tec Jo -- se -- fa,
+      mu -- že Ma -- ri -- e,
+      z_kte -- ré se na -- ro -- dil Je -- žíš,
+      na -- zý -- va -- ný Kris -- tus.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 113"
+      id = "svrodiny-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g f g g a a \barMin
+      a g a( c) b g( a) \barMaior
+      a \mark\sipka a a a( b c) a( g) g a( g) g( f d) \barMin
       f f g a g g \barFinalis
     }
     \addlyrics {
@@ -955,11 +980,40 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g f( e) f( g) g \barMin
       a( c) c b g g a( g) f( g) g \barMaior
       a b b( c) c c d c b( g) g \barMin
       g g( c) b g a( f g) g \barFinalis
+    }
+    \addlyrics {
+      Když ro -- di -- če při -- nes -- li
+      dí -- tě Je -- ží -- še do chrá -- mu,
+      vzal ho Si -- me -- on do ná -- ru -- čí
+      a ve -- le -- bil Bo -- ha.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 24"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
+      id = "svrodiny-cte-a1"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g g f( e) f( g) g \barMin
+      a( c) c b g g a( g) f( g) g \barMaior
+      a b c c c d c b( g) g \barMin
+      g f( g) a a g g \barFinalis
     }
     \addlyrics {
       Když ro -- di -- če při -- nes -- li
@@ -1003,7 +1057,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4( g) g( a) a f( g a) g f f( g) f f \barMaior
       f f f f e( c d) c \barMin d d f g g f f \barFinalis
@@ -1016,6 +1070,96 @@
       quid = "2. ant."
       modus = "VI"
       differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka a4 a a g a g f( g) f f \barMaior
+      f f f f e( c d) c \barMin
+      d d f g g f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 a c b g b a g f \barMaior
+      f f g a c( d) c \barMin
+      c a c b g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      c4 a c b g b a g f \barMaior
+      f f g a c( d) c \barMin
+      c \mark\sipka b a g f( g) g( f) f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "V"
+      differentia = "a"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 a c b g b a g f \barMaior
+      f f g a c( d) c \barMin
+      c \mark\sipka c b a g( a) f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "V"
+      differentia = "a"
       psalmus = "Žalm 46"
       id = "svrodiny-cte-a2"
       piece = \markup {\sestavTitulek}
@@ -1093,7 +1237,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 a a( g) \barMin
       g d4. d4 d e d c( d) d \barMaior
@@ -1108,6 +1252,103 @@
       quid = "3. ant."
       modus = "I"
       differentia = "f"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d( f) \barMin
+      f f( g) f f e d c( d) c \barMaior
+      bes c d f( e d) d \barMin
+      d d e f d e d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d( e f-- d) \barMin
+      f f( g) g g f g f( e) d \barMaior
+      d c a c( d) d \barMin
+      d d e f d e d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d( e f-- d) \barMin
+      f f( g) g g f g f( e) d \barMaior
+      d \mark\sipka e c a( c d) d \barMin
+      d d e f d e d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a g( f e) \barMin
+      e d( e) d d c d e( f) e \barMaior
+      e g a b( a) a \barMin
+      a g a g f d e e \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "IV"
+      differentia = "g"
       psalmus = "Žalm 87"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}
@@ -1194,7 +1435,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f f g a a f( g a) g f e d g d e( d c) \barMin
       d( e f) g( a) f g f f \barMaior
@@ -1215,10 +1456,84 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f g f f \barMin
+      f g a g f d e d( c) \barMin
+      g' a f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f f f g f f \barMin
+      f g a g f \mark\sipka g g f( e d) \barMin
+      g a f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f g f f \barMin
+      f g a g f g g f( e d) \barMin
+      \mark\sipka f g a g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4 g a a a g( f) g( a) a \barMin
       a a b g g a a \barMin
@@ -1244,6 +1559,32 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      e4 g a a a g( f) g( a) a \barMin
+      a a b g g a a \barMaior
+      a g a b g e e g( f e) \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě rost -- lo a sí -- li -- lo,
+      by -- lo pl -- né moud -- ros -- ti
+      a mi -- lost Bo -- ží by -- la s_ním.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = "Dan 3-III"
+      id = "svrodiny-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       f4 g a g f g( a) a \barMin
@@ -1263,6 +1604,33 @@
       piece = \markup {\sestavTitulek}
       fons = "Kromě počátku z: slavnost Narození Páně, modlitba uprostřed dne - dopoledne"
       fial = "fial://vanoce_narozenipane.ly#vden-atercie"
+    }
+  }
+
+  \markup{Aktualisace podle zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      d4 d f e f d( c) c \barMaior
+      d d c d f g g \barMin
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Je -- ho o -- tec i mat -- ka
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 149"
+      id = "svrodiny-rch-a3"
+      piece = \markup {\sestavTitulek}
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text"
     }
   }
 
@@ -1306,7 +1674,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       \neviditelna a
@@ -1340,6 +1708,42 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a g( a) g \barMin
+      g a g g f g g( a) a \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rýs byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-rch-resp"
+      fial = "fial://responsoria.ly#1ne-rch?jiny_vers"
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -1367,8 +1771,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       f4( g) g g a bes a g a f g a a \barMin
@@ -1397,6 +1804,38 @@
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
+
+  \markup{Aktualisace podle zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      f4 e d c d c \barMaior
+      d d c d f g g \barMin
+      a g f a a f e d( e) d d \barMaior
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu
+      nad slo -- vy, kte -- rá o něm sly -- še -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = "Benedictus"
+      annus = "B"
+      id = "svrodiny-rch-abenB"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text&+aleluja"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
@@ -1428,9 +1867,9 @@
     }
   }
 
-  \markup {\nadpisHodinka {"2. nešpory"}}
-
   \pageBreak
+
+  \markup {\nadpisHodinka {"2. nešpory"}}
 
   \score {
     \relative c'' {
@@ -1805,6 +2244,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 c( d) e( d) c b c d d \barMin
       c( d) d d c( b) a( g) g \barMaior
@@ -1824,6 +2264,75 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 \mark\sipka d e( d) c b c d d \barMin
+      \mark\sipka c d d c( b) a( g) g \barMaior
+      a b c a g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- spí -- val moud -- ros -- tí,
+      vě -- kem i ob -- li -- bou
+      u Bo -- ha i u li -- dí.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Ef 1"
+      id = "svrodiny-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d e d c c( d) c c \barMin
+      c b a g a g \barMaior
+      f g a a a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- spí -- val moud -- ros -- tí,
+      vě -- kem i ob -- li -- bou
+      u Bo -- ha i u li -- dí.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Ef 1"
+      id = "svrodiny-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d e c c d d \barMin
+      c d d c b a \barMin
+      c a g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- spí -- val moud -- ros -- tí,
+      vě -- kem i ob -- li -- bou
+      u Bo -- ha i u li -- dí.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Ef 1"
+      id = "svrodiny-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
@@ -1859,8 +2368,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 a g a g f( g) f f \barMin
       f f f f e f g( a) g f g g g \barMaior
@@ -1887,6 +2399,90 @@
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g g a( b) g g \barMin
+      c c c c c c c b g g a a \barMaior
+      a a a f e d \barMin
+      f g a a a a( c) b c d d \barMaior
+      e d c b a g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- sa -- di -- li se s_Je -- ží -- šem
+      ve měs -- tě, kte -- ré se jme -- nu -- je Na -- za -- ret,
+      a -- by se spl -- ni -- lo,
+      co je ře -- če -- no ús -- ty pro -- ro -- ků:
+      Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-2ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g g a( b) g g \barMin
+      c c c c c c c b g g a a \barMaior
+      a a a f e d \barMin
+      f g a a a a( c) b \mark\sipka a g g \barMaior
+      c c d c b g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- sa -- di -- li se s_Je -- ží -- šem
+      ve měs -- tě, kte -- ré se jme -- nu -- je Na -- za -- ret,
+      a -- by se spl -- ni -- lo,
+      co je ře -- če -- no ús -- ty pro -- ro -- ků:
+      Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-2ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g g g a( b) g g \barMin
+      c c c c c c c b g g a a \barMaior
+      a a a f e d \barMin
+      f g a a a a( c) b a g g \barMaior
+      c c \mark\sipka c( d) c c( b a) g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- sa -- di -- li se s_Je -- ží -- šem
+      ve měs -- tě, kte -- ré se jme -- nu -- je Na -- za -- ret,
+      a -- by se spl -- ni -- lo,
+      co je ře -- če -- no ús -- ty pro -- ro -- ků:
+      Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-2ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \pageBreak
+
+  \score {
     \relative c' {
       \choralniRezim
       e4 g a a a g( f) g( a) a \barMin
@@ -1910,8 +2506,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f f f g( f e d) f( d) \barMin d c a c( d) d \barMaior
       f g f d d \barFinalis
@@ -1931,72 +2530,118 @@
     }
   }
 
-  \pageBreak % svatek Svate Rodiny ma vic stranek, prijde mi
-  % tedy pro prehlednost dobre, aby dalsi den zacinal na nove
-
-  \markup {\nadpisDen {26. prosince}}
-
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      \key f \major
-      g4 g( a) g f f( a) a b( c) a g f f( g) g \barMax
-
-      d d c d e( f) f \barMin g a g f d4. d \barMax
-
-      d4( a') bes( d) c bes c bes a( g) g \barMin
-      a( c d) c( bes a g) f( e) e \barMin
-      d d d f d c d f4. e d4 d \barMax
-      c f( e) c d \barFinalis
+      f4 f f f f g( a) a a g f g( f) f \barMin
+      f g a f f \barFinalis
     }
     \addlyrics {
-      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
-      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
-      tvé vše -- moc -- né Slo -- vo, Bo -- že,
-      se -- stou -- pi -- lo
-      % v breviari neni "ze sveho", ale proste "z"
-      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
-      A -- le -- lu -- ja.
+      Je -- žíš se s_ni -- mi vrá -- til do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f f g( a) a \barMin
+      a g f d( e) d( c) \barMaior
+      d f g f f \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f f g( a) a \barMin
+      a g f d( e) d( c) \barMaior
+      d \mark\sipka e f d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
     }
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "g"
-      psalmus = "Magnificat"
-      id = "26-amag"
-      piece = \markup {\sestavTitulekBezZalmu}
+      differentia = "f"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f f \mark\sipka g f a( g) g \barMin
+      a g f d( e) d( c) \barMaior
+      d e f d d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
 
   \score {
     \relative c'' {
       \choralniRezim
-      \key f \major
-      g4 g( a) g f f( a) a \barMin b( c) a g f f( g) g \barMaior
-
-      d d c d e( f) f \barMin g a g f d4. d \barMax
-
-      d4( a') bes( d) c bes c bes a( g) g \barMaior
-      a( c d) c( bes a g) f( e) e \barMin
-      d d d f d c d f4. e d4 d \barMaior
-      c f( e) c d \barFinalis
+      c4 c c b a g( a) g \barMin
+      a f e d d \barMin
+      f g a g g \barFinalis
     }
     \addlyrics {
-      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
-      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
-      tvé vše -- moc -- né Slo -- vo, Bo -- že,
-      se -- stou -- pi -- lo
-      % v breviari neni "ze sveho", ale proste "z"
-      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
-      A -- le -- lu -- ja.
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "I"
-      differentia = "g"
-      psalmus = "Magnificat"
-      id = "26-amag"
-      piece = \markup {\sestavTitulekBezZalmu}
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
+
 }

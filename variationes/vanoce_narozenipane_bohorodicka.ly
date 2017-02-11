@@ -545,6 +545,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d d d e( c) c \barMin
       d e f e c d4. d \barMax
@@ -554,6 +555,39 @@
       d d d d f e c d d \barMax
 
       c f e d \barFinalis
+    }
+    \addlyrics {
+      Bla -- ho -- sla -- ve -- ný ži -- vot,
+      kte -- rý tě no -- sil, Kris -- te,
+
+      a bla -- ho -- sla -- ve -- né pr -- sy,
+      kte -- ré ko -- ji -- ly te -- be,
+      Pá -- na a Spa -- si -- te -- le svě -- ta.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "bohorodicka-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 \mark\sipka e f e d e( c) c \barMin
+      d e f e c d4. d \barMaior
+
+      d4 f e d c d \mark\sipka d( f) f \barMin
+      f f g f g a( f) e \barMin
+      d d d d f e c d d \barMaior
+
+      c f \mark\sipka e( d) d \barFinalis
     }
     \addlyrics {
       Bla -- ho -- sla -- ve -- ný ži -- vot,

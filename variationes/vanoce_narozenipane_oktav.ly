@@ -13,10 +13,116 @@
     subtitle = "Oktáv"
   }
 
+  \markup {\nadpisDen {26. prosince}}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      \key f \major
+      g4 g( a) g f f( a) a b( c) a g f f( g) g \barMax
+
+      d d c d e( f) f \barMin g a g f d4. d \barMax
+
+      d4( a') bes( d) c bes c bes a( g) g \barMin
+      a( c d) c( bes a g) f( e) e \barMin
+      d d d f d c d f4. e d4 d \barMax
+      c f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
+      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
+      tvé vše -- moc -- né Slo -- vo, Bo -- že,
+      se -- stou -- pi -- lo
+      % v breviari neni "ze sveho", ale proste "z"
+      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g"
+      psalmus = "Magnificat"
+      id = "26-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 g( a) g f f( a) a \barMin b( c) a g f f( g) g \barMaior
+
+      d d c d e( f) f \barMin g a g f d4. d \barMax
+
+      d4( a') bes( d) c bes c bes a( g) g \barMaior
+      a( c d) c( bes a g) f( e) e \barMin
+      d d d f d c d f4. e d4 d \barMaior
+      c f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Když hlu -- bo -- ké ti -- cho všech -- no ob -- jí -- ma -- lo
+      a noc ve svém bě -- hu k_po -- lo -- vi -- ně do -- šla,
+      tvé vše -- moc -- né Slo -- vo, Bo -- že,
+      se -- stou -- pi -- lo
+      % v breviari neni "ze sveho", ale proste "z"
+      ze své -- ho krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g"
+      psalmus = "Magnificat"
+      id = "26-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{Upraveno pro standardní text:}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      g4 g( a) g f f( a) a \barMin
+      b( c) a g f f( g) g \barMaior
+      d d c d e( f) f \barMin
+      g a g f d4. d \barMax
+      d4( a') bes( d) c bes c bes a( g) g \barMaior
+      a( c d) c( bes a g) f( e) e \barMin
+      \mark\sipka d d c d f4. e d4 d \barMaior
+      c f( e) c d \barFinalis
+    }
+    \addlyrics {
+      Když hlu -- bo -- ké ti -- cho
+      všech -- no ob -- jí -- ma -- lo
+      a noc ve svém bě -- hu
+      k_po -- lo -- vi -- ně do -- šla,
+      tvé vše -- moc -- né Slo -- vo, Bo -- že,
+      se -- stou -- pi -- lo
+      z_krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g"
+      psalmus = "Magnificat"
+      id = "26-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisDen {27. prosince}}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4 c b c d c b a b g g \barMin
       f g( a) a a g b c b a g( a) g g \barMax
@@ -45,10 +151,66 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b c d c b a b g g \barMin
+      f g( a) a a \mark\sipka c c c b a g( a) g g \barMaior
+      g( f) g g a a \barMin
+      b( c a) g a g g \barMaior
+      c( d c) b a g g g f g a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,
+      co pro -- po -- ci před -- po -- vě -- dě -- li o Kris -- tu:
+      pan -- na po -- ča -- la,
+      pan -- nou zů -- sta -- la,
+      pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "27-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c b c d c b a b g g \barMin
+      f \mark\sipka a c c c c c b a g( a) g g \barMaior
+      g( f) g g a a \barMin
+      b( c a) g a g g \barMaior
+      c( d c) b a g g g f g a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,
+      co pro -- po -- ci před -- po -- vě -- dě -- li o Kris -- tu:
+      pan -- na po -- ča -- la,
+      pan -- nou zů -- sta -- la,
+      pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "27-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisDen {28. prosince}}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4( f) f f g( d) f e d c c( d) d e( f) e d \barMax
 
@@ -80,7 +242,183 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4( d) d d f e f d d c d e( f) e( d) d \barMaior
+      d f e d c d( c) c \barMaior
+      c d d d e d f( e) d4. d \barMin
+      d4 f d f e( d) d \barMax
+      a' g f f( g) f d d \barMin
+      c d e( f) f \barMin
+      g f e d( e d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý při -- šel,
+      a -- by nás spa -- sil.
+    }
+    \header {
+      % nelibý pseudorým směla ho kojit/nás přišel spasit
+      textus_approbatus = "Svatá a neporušená Panna Maria
+      nám porodila Boha, který se stal malým děťátkem, a směla ho kojit;
+      všichni se klaňme tomu, který nás přišel spasit."
+      quid = "ant. k Magnigicat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4( d) d d f e f d d c d e( f) e( d) d \barMaior
+      d \mark\sipka c b a a c( d) d \barMaior
+      c d d d e d f( e) d4. d \barMin
+      d4 f d f e( d) d \barMax
+      a' g f f( g) f d d \barMaior
+      c d e( f) f \barMin
+      g f e d( e d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý při -- šel,
+      a -- by nás spa -- sil.
+    }
+    \header {
+      % nelibý pseudorým směla ho kojit/nás přišel spasit
+      textus_approbatus = "Svatá a neporušená Panna Maria
+      nám porodila Boha, který se stal malým děťátkem, a směla ho kojit;
+      všichni se klaňme tomu, který nás přišel spasit."
+      quid = "ant. k Magnigicat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Návrat k oficiálnímu textu. Moje přebásnění nebylo
+    o moc (možná spíš o nic) elegantnější
+    a oficiální text má lepší rytmus.
+    Pseudorým \italic{směla ho kojit / nás přišel spasit}
+    je mi protivný i nadále, ale když se zpívá, nevyčnívá zas až tak moc.
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d d f e f d d c d e( f) e( d) d \barMaior
+      d c b a a c( d) d \barMin
+      c d d d e d f( e) d4. d \barMin
+      d4 f d f e( d) d \barMax
+      a' g f f( g) f d d \barMin
+      c d \mark\sipka e f d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnigicat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisDen {29. prosince}}
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c b a4.) a4 a g b c b a a \barMaior
+      c4 b( c) a( g) g \barMin g4 f a g g \barFinalis
+    }
+    \addlyrics {
+      S_ná -- mi je Hos -- po -- din zá -- stu -- pů,
+      Bůh Ja -- ku -- bův je na -- ší tvr -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 46"
+      fial = "antifony/tyden1_6patek.ly#ne-ant2"
+      id = "29-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d( f) d f g f d d \barMaior
+      f f f e( d c) \barMin a c d d( e) d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán bu -- de vlád -- nout od mo -- ře k_mo -- ři
+      a v_je -- ho dnech roz -- kve -- te hoj -- nost po -- ko -- je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-I"
+      id = "29-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 e d c c c( d) d d \barMaior
+      d c d d f e d f d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      notitia = "vím o antifoně, jejíž první část má shodný text:
+      pust_triduum.ly#ct-nesp-ant2
+      výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
+      protože melodie dané části příliš silně tíhne k rozuzlení v části
+      následující, pro kterou tady nemáme text"
+      placet = "půjde lépe"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
 
   \score {
     \relative c'' {
