@@ -1499,8 +1499,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 e d c c c( d) d d \barMaior
-      d c d d f e d f d d \barFinalis
+      d4 f f e d e( f) d d \barMin
+      c d e f f e d c d d \barFinalis
     }
     \addlyrics {
       Pán vy -- svo -- bo -- dí chu -- dá -- ka,
@@ -1511,12 +1511,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 72-II"
-      notitia = "vím o antifoně, jejíž první část má shodný text:
-      pust_triduum.ly#ct-nesp-ant2
-      výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
-      protože melodie dané části příliš silně tíhne k rozuzlení v části
-      následující, pro kterou tady nemáme text"
-      placet = "půjde lépe"
       id = "29-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1527,15 +1521,17 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 d c d e c b c c( d) d \barMin
-      e( b) b d c b4. b \barMin
-      a4 a a a b( c) c c b c d d \barMin
-      e b b d c( b) a4. a \barFinalis
+      a4 d c d e c b c a a \barMin
+      b c d c a a \barMaior
+      c c c c d c \barMin
+      d c d e( d) d \barMin
+      e d c a c( b) a a \barFinalis
     }
     \addlyrics {
       Pas -- tý -- ři si řek -- li me -- zi se -- bou:
       Pojď -- me do Bet -- lé -- ma
-      po -- dí -- vat se na to, co se tam sta -- lo,
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
       jak nám to Pán o -- zná -- mil.
     }
     \header {
@@ -1543,7 +1539,6 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = "Benedictus"
-      placet = "podivná - asi hodně stará"
       id = "29-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

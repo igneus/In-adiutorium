@@ -374,6 +374,8 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
       \choralniRezim
@@ -394,8 +396,17 @@
     }
   }
 
+  \markup\justify{
+    vím o antifoně, jejíž první část má shodný text:
+    pust_triduum.ly#ct-nesp-ant2
+    výstřižek melodie z ní ale nešel ani přímo použít, ani adaptovat,
+    protože melodie dané části příliš silně tíhne k rozuzlení v části
+    následující, pro kterou tady nemáme text
+  }
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 e d c c c( d) d d \barMaior
       d c d d f e d f d d \barFinalis
@@ -421,7 +432,152 @@
   }
 
   \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f e d e( f) d d \barMin
+      f e f f g f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f e d e( f) d d \barMin
+      \mark\sipka d c d e f e d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 f f e d e( f) d d \barMin
+      \mark\sipka c d e f f e d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f e d e( f) d d \barMin
+      c d e f f e d \mark\sipka e d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e f g f( e) d d \barMin
+      c d e f f e d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 e f g e f( e) d d \barMin
+      c d e f f e d c d d \barFinalis
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e d c e( f) d d \barMin
+    }
+    \addlyrics {
+      Pán vy -- svo -- bo -- dí chu -- dá -- ka,
+      kte -- rý se do -- vo -- lá -- vá po -- mo -- ci.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 72-II"
+      id = "29-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+
+  \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 d c d e c b c c( d) d \barMin
       e( b) b d c b4. b \barMin
@@ -443,6 +599,112 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 d c d e c b c \mark\sipka a a \barMaior
+      g( b) c d c a a \barMaior
+      c c c c b g \barMin
+      a f a a( c) c \barMin
+      c c b a g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Benedictus"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 d c d e c b c a a \barMaior
+      \mark\sipka c c b g a g \barMaior
+      a a a a a( c) c d c d e( d) d \barMin
+      c b a g b( c) a a \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to, co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV alt"
+      differentia = "A"
+      psalmus = "Benedictus"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 d c d e c b c a a \barMaior
+      \mark\sipka b c d c a a \barMaior
+      c c c c d c \barMin
+      d c d e( d) d \barMin
+      c b a c g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Benedictus"
+      placet = "závěr sám o sobě se mi moc líbí, ale k celku se vůbeec nehodí"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 d c d e c b c a a \barMin
+      b c d c a a \barMaior
+      c c c c d c \barMin
+      d c d e( d) d \barMin
+      \mark\sipka e d c a c( b) a a \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV alt"
+      differentia = "A"
+      psalmus = "Benedictus"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
@@ -476,6 +738,8 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \pageBreak
 
   \markup {\nadpisDen {30. prosince}}
 
