@@ -162,14 +162,16 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a g) g( c) c c b( d c) a g f g \barMaior
-    a a g( a) g \barMin a4( g a c) b a( b) a g g \barFinalis
+    f4 g g g a g a( c d) d( c) c \barMaior
+    d c b( c) a \barMin
+    a( g) f g a g g \barFinalis
   }
   \addlyrics {
     U te -- be je pra -- men ži -- vo -- ta;
-    na -- pá -- jíš nás prou -- dem své -- ho bla -- ha.
+    na -- pá -- jíš nás
+    prou -- dem své -- ho bla -- ha.
   }
   \header {
     quid = "1. ant."
@@ -184,9 +186,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c \barMin d( f) e d( f e) d \barMin
-    d d e d c( a) a \barMaior
-    a c d e f e d d \barFinalis
+    d4 c d f e( d) d \barMin
+    e e d c a a \barMaior
+    c d c d f e d d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě,
@@ -198,9 +200,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 61"
-    placet = "3.-4. část je bohatá na vyšinuté přízvuky -
-    dává totiž smysl jen jako
-    KDYŽ chřadNE mé SRDce, VŽDYŤ ty JSI mé ÚtoČIŠtě"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }

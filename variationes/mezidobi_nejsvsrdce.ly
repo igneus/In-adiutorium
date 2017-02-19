@@ -158,10 +158,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a g) g( c) c c b( d c) a g f g \barMaior
     a a g( a) g \barMin a4( g a c) b a( b) a g g \barFinalis
@@ -183,6 +186,54 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g g g a g a( c d) d( c) c \barMaior
+    c c b( c) a \barMin
+    a( g) f g a g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je pra -- men ži -- vo -- ta;
+    na -- pá -- jíš nás
+    prou -- dem své -- ho bla -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 36"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g g a g a( c d) d( c) c \barMaior
+    \mark\sipka d c b( c) a \barMin
+    a( g) f g a g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je pra -- men ži -- vo -- ta;
+    na -- pá -- jíš nás
+    prou -- dem své -- ho bla -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 36"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 c \barMin d( f) e d( f e) d \barMin
     d d e d c( a) a \barMaior
     a c d e f e d d \barFinalis
@@ -201,6 +252,54 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 c d f e( f) g \barMin
+    a a g f d d \barMaior
+    f f e d c e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě,
+    když chřad -- ne mé srd -- ce,
+    vždyť ty jsi mé ú -- to -- čiš -- tě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 61"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f e( d) d \barMin
+    e e d c a a \barMaior
+    c d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě,
+    když chřad -- ne mé srd -- ce,
+    vždyť ty jsi mé ú -- to -- čiš -- tě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 61"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
