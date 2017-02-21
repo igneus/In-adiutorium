@@ -159,6 +159,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
