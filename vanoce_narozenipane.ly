@@ -1652,31 +1652,30 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 f g g( a) a a c( b) a( g) g \barMax
-
-      g4( a b c) b4.( a) \barMin
-      g4( a b c) b4.( a) \barMin
-      a4( e g a) a a b( a) \barMin
-      g( a) f e e \barMax
-
-      f g g( a) a a c( a) a \barMin
-      g a g( f e4.) e \barFinalis
+      d4 d d c d d d( e c) a a \barMaior
+      g( a) a \barMin
+      c( d) d \barMin
+      d( e c) c( a) \barMaior
+      a g( a) \barMin
+      a( c) b a g \barMaior
+      c c c( d) d d c a \barMin
+      c b g( a g) g \barFinalis
     }
     \addlyrics {
       Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
-
-      Sva -- tý, sva -- tý, sva -- tý je Pán, Bůh zá -- stu -- pů,
-
-      ce -- lá ze -- mě je pl -- ná je -- ho slá -- vy.
+      Sva -- tý,
+      sva -- tý,
+      sva -- tý
+      je Pán, Bůh zá -- stu -- pů,
+      ce -- lá ze -- mě je pl -- ná
+      je -- ho slá -- vy.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "III"
-      differentia = "g"
+      modus = "VII"
+      differentia = "d"
       psalmus = "Benedictus"
-      placet = "citace z Te Deum se do antifony oficia stylově vůbec nehodí; celek (i díky tomu) není kdovíjak povedený"
       id = "30-aben"
-      fons = "'Svaty...' je hudebni citat z choralniho Te Deum"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1740,13 +1739,17 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
-      g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barMaior
-      f g( f) e( f) e \barFinalis
+      e4 e g( a b) b( c b) b \barMin
+      d( c) b a c4. b \barMaior
+      g4 a( b) b \barMin
+      c a g f g( a) g f( g f e) e \barMaior
+      d f( g) e e \barFinalis
     }
     \addlyrics {
-      Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
-      a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+      Svět -- lo vy -- chá -- zí
+      spra -- ved -- li -- vé -- mu
+      a li -- dem
+      u -- přím -- né -- ho srd -- ce ra -- dost.
       A -- le -- lu -- ja.
     }
     \header {
@@ -1755,7 +1758,6 @@
       differentia = "a"
       psalmus = "Žalm 97"
       fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
-      placet = "po _vychází_ to chce cesuru; odjakživa jsem ji tam zpíval"
       id = "31-mc-a2"
       piece = \markup {\sestavTitulek}
     }

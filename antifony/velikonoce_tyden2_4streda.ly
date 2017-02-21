@@ -51,13 +51,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
-    g4 a( b) b \barMin c a g f g( a) g f( g f e) e \barMaior
+    e4 e g( a b) b( c b) b \barMin
+    d( c) b a c4. b \barMaior
+    g4 a( b) b \barMin
+    c a g f g( a) g f( g f e) e \barMaior
     d f( g) e e \barFinalis
   }
   \addlyrics {
-    Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
-    a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+    Svět -- lo vy -- chá -- zí
+    spra -- ved -- li -- vé -- mu
+    a li -- dem
+    u -- přím -- né -- ho srd -- ce ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {

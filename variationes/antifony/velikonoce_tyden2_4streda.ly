@@ -332,7 +332,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
     g4 \mark\sipka a( b) b \barMin c a g f g( a) g f( g f e) e \barMaior
@@ -341,6 +341,59 @@
   \addlyrics {
     Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
     a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 97"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e g( a b) b( c b) b \mark\sipka \barMin
+    d( c) b a c4. b \barMaior
+    g4 a( b) b \barMin
+    c a g f g( a) g f( g f e) e \barMaior
+    d f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí
+    spra -- ved -- li -- vé -- mu
+    a li -- dem
+    u -- přím -- né -- ho srd -- ce ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 97"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g( a b) b( c b) b \barMin
+    d( c) b a c4. b \barMaior
+    g4 a( b) b \barMin
+    c a g f g( a) g \mark\sipka e e \barMaior
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí
+    spra -- ved -- li -- vé -- mu
+    a li -- dem
+    u -- přím -- né -- ho srd -- ce ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {

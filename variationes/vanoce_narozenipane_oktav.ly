@@ -959,6 +959,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 f g g( a) a a c( b) a( g) g \barMax
 
@@ -1011,7 +1012,38 @@
       differentia = "G*"
       psalmus = "Benedictus"
       id = "30-aben"
-      fons = "'Svaty...' je hudebni citat z choralniho Te Deum"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d c d d d( e c) a a \barMaior
+      g( a) a \barMin
+      c( d) d \barMin
+      d( e c) c( a) \barMaior
+      a g( a) \barMin
+      a( c) b a g \barMaior
+      c c c( d) d d c a \barMin
+      c b g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
+      Sva -- tý,
+      sva -- tý,
+      sva -- tý
+      je Pán, Bůh zá -- stu -- pů,
+      ce -- lá ze -- mě je pl -- ná
+      je -- ho slá -- vy.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "30-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1191,6 +1223,116 @@
   \pageBreak
 
   \markup {\nadpisDen {31. prosince}}
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c e d c d \barMin
+      c d e f4. e \barMaior
+      d4 d c a a c c( d) d d \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 96"
+      placet = "docela pěkná, ale zkusit varianty"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \zvyraznovacSedy
+      \choralniRezim
+      e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
+      g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barMaior
+      f g( f) e( f) e \barFinalis
+    }
+    \addlyrics {
+      Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
+      a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "III"
+      differentia = "a"
+      psalmus = "Žalm 97"
+      fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
+      placet = "po _vychází_ to chce cesuru; odjakživa jsem ji tam zpíval"
+      id = "31-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      e4 e g( a b) b( c b) b \barMin
+      d( c) b a c4. b \barMaior
+      g4 a( b) b \barMin
+      c a g f g( a) g f( g f e) e \barMaior
+      d f( g) e e \barFinalis
+    }
+    \addlyrics {
+      Svět -- lo vy -- chá -- zí
+      spra -- ved -- li -- vé -- mu
+      a li -- dem
+      u -- přím -- né -- ho srd -- ce ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "III"
+      differentia = "a"
+      psalmus = "Žalm 97"
+      fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
+      id = "31-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a( g) g \barMin
+      f g a a g g c b( a g a) a \barMin
+      g f g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din
+      u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      placet = "lépe"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c'' {
