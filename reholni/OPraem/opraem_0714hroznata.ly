@@ -22,7 +22,8 @@
 
   }
   \addlyrics {
-    Chvalme Krista Pána o svátku blahoslaveného Hroznaty.
+    Chval -- me Kris -- ta Pá -- na
+    o svát -- ku bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
   }
   \header {
     quid = "ant."
@@ -42,7 +43,8 @@
 
   }
   \addlyrics {
-    V tobě je božská milost, milovaná naděje duše.
+    V_to -- bě je bož -- ská mi -- lost,
+    mi -- lo -- va -- ná na -- dě -- je du -- še.
   }
   \header {
     quid = "1. ant."
@@ -60,7 +62,8 @@
 
   }
   \addlyrics {
-    Jakmile jsi spatřil světlo, svět jsi opustil.
+    Jak -- mi -- le jsi spa -- třil svět -- lo,
+    svět jsi o -- pus -- til.
   }
   \header {
     quid = "2. ant."
@@ -78,7 +81,8 @@
 
   }
   \addlyrics {
-    Pohled na tvou nevinnost ať nás osvobodí od hříchů.
+    Po -- hled na tvou ne -- vin -- nost
+    ať nás o -- svo -- bo -- dí od hří -- chů.
   }
   \header {
     quid = "3. ant."
@@ -98,7 +102,8 @@
 
   }
   \addlyrics {
-    Veliký vznešeností naučil ses pohrdat světem.
+    Ve -- li -- ký vzne -- še -- nos -- tí
+    na -- u -- čil ses po -- hr -- dat svě -- tem.
   }
   \header {
     quid = "1. ant."
@@ -116,7 +121,8 @@
 
   }
   \addlyrics {
-    Co se tomuto světu líbí, tobě je marnost.
+    Co se to -- mu -- to svě -- tu lí -- bí,
+    to -- bě je mar -- nost.
   }
   \header {
     quid = "2. ant."
@@ -134,7 +140,8 @@
 
   }
   \addlyrics {
-    Vedl ho Pán po stezce svých přikázání.
+    Ve -- dl ho Pán
+    po stez -- ce svých při -- ká -- zá -- ní.
   }
   \header {
     quid = "3. ant."
@@ -159,8 +166,9 @@
     % Slava
   }
   \addlyrics {
-    \Response  Odvrať, Pane,_* mé oči.
-    \Verse Ať nevidí marnost.
+    \Response  Od -- vrať, Pa -- ne,_*
+    mé o -- či.
+    \Verse Ať ne -- vi -- dí mar -- nost.
     \textRespDoxologie
   }
   \header {
@@ -177,7 +185,8 @@
 
   }
   \addlyrics {
-    Marií milován, zcela jsi jí patřil.
+    Ma -- ri -- í mi -- lo -- ván,
+    zce -- la jsi jí pa -- třil.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -197,7 +206,9 @@
 
   }
   \addlyrics {
-    Jako mučedníka potvrdil tě Bůh znameními a zázraky.
+    Ja -- ko mu -- čed -- ní -- ka
+    po -- tvr -- dil tě Bůh
+    zna -- me -- ní -- mi a zá -- zra -- ky.
   }
   \header {
     quid = "1. ant."
@@ -215,7 +226,7 @@
 
   }
   \addlyrics {
-    Slyš hlas svých služebníků.
+    Slyš hlas svých slu -- žeb -- ní -- ků.
   }
   \header {
     quid = "2. ant."
@@ -233,7 +244,8 @@
 
   }
   \addlyrics {
-    Buď při nás, kteří tě milujeme.
+    Buď při nás,
+    kte -- ří tě mi -- lu -- je -- me.
   }
   \header {
     quid = "3. ant."
@@ -258,9 +270,9 @@
     % Slava
   }
   \addlyrics {
-    \Response V den svého soužení_*
-    vzývám Boha.
-    \Verse A nejsem zklamán.
+    \Response V_den své -- ho sou -- že -- ní_*
+    vzý -- vám Bo -- ha.
+    \Verse A ne -- jsem zkla -- mán.
     \textRespDoxologie
   }
   \header {
@@ -277,7 +289,8 @@
 
   }
   \addlyrics {
-    Spíše je nutno snášet úklady než přestat pracovat pro Boha.
+    Spí -- še je nut -- no sná -- šet ú -- kla -- dy
+    než pře -- stat pra -- co -- vat pro Bo -- ha.
   }
   \header {
     quid = "ant. k Magnificat"
