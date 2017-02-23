@@ -1766,21 +1766,18 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( a) a( g) g \barMin
-      f g a a g g c b( a g a) a \barMin
-      g f g g \barFinalis
+      c4 c c c( d) c c b c a a g g \barMin
+      f a a( g) g \barFinalis
     }
     \addlyrics {
-      Hos -- po -- din
-      u -- ve -- dl ve zná -- most svou spá -- su.
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "3. ant."
       modus = "VIII"
-      differentia = "G"
+      differentia = "c"
       psalmus = "Žalm 98"
-      placet = "lépe"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1791,19 +1788,18 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 c c d c b c b( d) d e( d) c d c a a \barMin
-      a b g g( c) b g a a \barMax
-
-      % prevzata cast:
-      c4( d) d f e d e c( d) d \barMax
-      d c b a b c b( d) d \barMin
-      d d c4. b4( a) b g g g \barMax
-      a f a g \barFinalis
+      c4 d d d d e d e d \barMin
+      d( e) d c a g g \barMaior
+      f g a a( c) b a g g \barMax
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
     }
     \addlyrics {
-      S_an -- dě -- lem by -- lo ce -- lé množ -- ství ne -- bes -- kých zá -- stu -- pů
+      S_an -- dě -- lem by -- lo ce -- lé množ -- ství
+      ne -- bes -- kých zá -- stu -- pů
       a tak -- to chvá -- li -- li Bo -- ha:
-
       Slá -- va na vý -- sos -- tech Bo -- hu
       a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
       A -- le -- lu -- ja.
@@ -1811,12 +1807,10 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VII"
-      differentia = "a"
+      differentia = "c"
       psalmus = "Benedictus"
       id = "31-aben"
-      fons = "Druha cast je melodicky i textove shodna s antifonou k Benedictus ze slavnosti Narozeni Pane."
-      placet = "zaslouží trochu péče"
-      fial = "fial://vanoce_narozenipane.ly#vden-aben"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?delsi_text"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -1870,17 +1864,15 @@
       \choralniRezim
       b4 c c a( g) a \barMin
       a g f g a b c c \barMin
-      c d c b( c a) g4. g \barMax
-
-      a4( f) e e d d e e( f) e \barMin
+      c d c b( c a) g g \barMaior
+      a( f) e e d d e e( f) e \barMaior
       a( c) c b( g) e \barMin
-      f a a a g f e4. e \barFinalis
+      f a a a g f e e \barFinalis
     }
     \addlyrics {
       Když se Syn Bo -- ží
       na -- ro -- dil z_Pan -- ny Ma -- ri -- e,
       a -- by nás vy -- kou -- pil,
-
       se -- stou -- pil zá -- zrač -- ně z_ne -- be
       ja -- ko ro -- sa
       na Ge -- de -- o -- no -- vo rou -- no.
@@ -1890,7 +1882,6 @@
       modus = "III"
       differentia = "b"
       psalmus = "Žalm 147-II"
-      placet = "upravit divisiones"
       id = "bohorodicka-1ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1900,32 +1891,27 @@
     \relative c'' {
       \choralniRezim
       a4( b c) d c b( c a) \barMin
-      a g( f) e f f a a \barMax
-
-      a g4.( a) \barMin
-      b4 c a b( c) c \barMin
-      d( c) d e c( b a4.) a \barMin
-      g4 g f g a b c a g g a a \barMax
-
+      a g( f) e f f a a \barMaior
+      a g( a) \barMin
+      b c a b( c) c \barMaior
+      d( c) d e c( b a) a \barMin
+      g g f g a b c a g g a a \barMaior
       a( c d) c( b) a b g a4. \barFinalis
     }
     \addlyrics {
       Moj -- ží -- šův keř,
       kte -- rý v_oh -- ni ne -- sho -- řel,
-
       je nám,
       Ro -- dič -- ko Bo -- ží,
       zna -- me -- ním tvé -- ho
       slav -- né -- ho, ne -- po -- ru -- še -- né -- ho pa -- nen -- ství.
-
       Při -- mlou -- vej se za nás.
     }
     \header {
       quid = "3. ant."
-      modus = "IV alt"
+      modus = "II"
       differentia = "A"
       psalmus = "Ef 1"
-      placet = "lépe sedí jako II.A; div. maximae na maiores; po _Rodičko Boží_ také maior"
       id = "bohorodicka-1ne-a3"
       piece = \markup {\sestavTitulek}
     }

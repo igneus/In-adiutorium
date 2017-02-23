@@ -1311,6 +1311,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4( a) a( g) g \barMin
       f g a a g g c b( a g a) a \barMin
@@ -1332,10 +1333,138 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a b c c a c b g a g g \barMin
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a b c c c d c b a g g \barMin
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( a) g g f g a a a( c) c \barMin
+      b a g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c c( d) c c b c a a g g \barMin
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a c c b \barMin
+      a g f a g g \barMaior
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl
+      ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 a c b a g \barMin
+      a g f a g g \barMaior
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl
+      ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 c c d c b c b( d) d e( d) c d c a a \barMin
       a b g g( c) b g a a \barMax
@@ -1362,6 +1491,67 @@
       id = "31-aben"
       fons = "Druha cast je melodicky i textove shodna s antifonou k Benedictus ze slavnosti Narozeni Pane."
       fial = "fial://vanoce_narozenipane.ly#vden-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 c c d c b c b( d) d e( d) c d c a a \barMin
+      a b g g( c) b g a a \barMax
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
+    }
+    \addlyrics {
+      S_an -- dě -- lem by -- lo ce -- lé množ -- ství ne -- bes -- kých zá -- stu -- pů
+      a tak -- to chvá -- li -- li Bo -- ha:
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Benedictus"
+      id = "31-aben"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?delsi_text"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka c4 d d d d e d e d \barMin
+      d( e) d c a g g \barMaior
+      f g a a( c) b a g g \barMax
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
+    }
+    \addlyrics {
+      S_an -- dě -- lem by -- lo ce -- lé množ -- ství
+      ne -- bes -- kých zá -- stu -- pů
+      a tak -- to chvá -- li -- li Bo -- ha:
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "31-aben"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?delsi_text"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
