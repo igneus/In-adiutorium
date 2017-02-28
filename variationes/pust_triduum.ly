@@ -1381,11 +1381,55 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a a a g( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a \mark\sipka g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
     d4( a' bes) a a c c a bes a \barMin
-    a a a g( f e) c( d) d \barFinalis
+    a \mark\sipka a g e( f) d d \barFinalis
   }
   \addlyrics {
     Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,

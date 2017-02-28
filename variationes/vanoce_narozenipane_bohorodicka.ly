@@ -50,6 +50,35 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a g( f) g a( f) g e \barMaior
+      f g a a( bes) a a g f e f g4.( a) \barMin
+      a4 g a g f e( f d) d \barMaior
+      d d f( g) g g f g a( bes a) a \barMaior
+      a bes4. c4( bes) a4. d, \barMin
+      e4 f g( e) d \barFinalis
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 113"
+      id = "bohorodicka-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -348,10 +377,39 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4 e f f e d f( d) d \barMin
+      f( e) f g a a \barMaior
+      a g a bes( c bes a) a \barMin
+      a g f e( f d) d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- me Mat -- ku Bo -- ží,
+      Pan -- nu Ma -- ri -- i;
+      klaň -- me se Kris -- tu,
+      je -- jí -- mu Sy -- nu!
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "commune/commune_maria.ly#invit1?jiny_text"
+      id = "bohorodicka-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4( a' bes) a a c c a bes a \barMin
       a a a g( f e) c( d) d \barFinalis
@@ -371,6 +429,40 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \markup\justify{
+    Poznámka výše je nesmyslná. Je typickou ukázkou doby,
+    kdy jsem se snažil melodií text především ilustrovat,
+    nebo přinejmenším podtrhávat či nasvětlovat.
+    Ale melodie antifony musí především respektovat
+    dělení, rytmus a spád textu.
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4( a' bes) a a c c a bes a \barMin
+      a \mark\sipka g f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+      ať ve -- jde král slá -- vy.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 24"
+      fial = "pust_triduum.ly#so-mc-ant3"
+      id = "bohorodicka-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
@@ -393,6 +485,52 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b c( d) d \barMin
+      d e f d c d c a \barMin
+      g f g( a) g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g( a) a \barMin
+      a b c a g a g f \barMaior
+      g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
