@@ -31,8 +31,8 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      id = ""
-      fons = "Z antifon pro Svatý týden."
+      id = "invit"
+      fial = "pust_svatytyden.ly#invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -52,7 +52,7 @@
       modus = "IV alt"
       differentia = "d"
       psalmus = ""
-      id = ""
+      id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -76,7 +76,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      id = "mv-avig"
+      id = "mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -99,7 +99,7 @@
       modus = "VIII"
       differentia = "G*"
       psalmus = ""
-      id = ""
+      id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -124,7 +124,7 @@
       psalmus = ""
       placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
       dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
-      id = ""
+      id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -147,7 +147,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = ""
-      id = ""
+      id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
