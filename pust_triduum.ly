@@ -415,6 +415,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "Nebylo by lepší melisma z _moc_ přesunout na _ným_?"
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }

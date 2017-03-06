@@ -87,6 +87,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nic moc"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
