@@ -151,12 +151,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d f e d d e d c c( d) d \barMin
-    a a a c b( a) b a g g( a) a( g) g \barFinalis
+    d f e d d e d c c( d) d \barMaior
+    a a a c b( g) \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
-    kde je a -- ni mol, a -- ni rez ne -- ka -- zí.
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
   }
   \header {
     quid = "ant. k Benedictus"
