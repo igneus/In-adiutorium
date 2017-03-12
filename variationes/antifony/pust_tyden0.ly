@@ -390,6 +390,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMaior
+    \mark\sipka b c a a \barMin
+    g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&jiny_text"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
@@ -406,6 +429,28 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g) f f a f f( g) g \barMin
+    f e d d \barMin
+    c e d \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
