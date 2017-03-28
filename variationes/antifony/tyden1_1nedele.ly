@@ -880,6 +880,29 @@ tInedeleInespAntIII = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c d4. a \barMin
+    d f e d c \barMaior
+    e f d4. d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    ty jsi můj Bůh,
+    snaž -- ně tě hle -- dám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{Tato se proviňuje proti rozsahu modu VIII.
