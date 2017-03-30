@@ -135,9 +135,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b g a \barMin
+    a a g f g a g g \barFinalis
   }
   \addlyrics {
     Ve -- dl ho Pán
@@ -145,8 +146,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -243,9 +244,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f a-- \barMin
+    b c a g f g g \barFinalis
   }
   \addlyrics {
     Buď při nás,
@@ -253,8 +255,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Zj 4"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
@@ -266,12 +268,16 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f g( f) g g( a) \barMax
+    g( f d) f g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 g( a) g f g( a) \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response V_den své -- ho sou -- že -- ní_*
@@ -281,7 +287,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }

@@ -19,21 +19,118 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d( f e) f g g \barMaior
+    g( a) g g \barMin
+    a a a a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta Pá -- na
-    o svát -- ku bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
+    o svát -- ku
+    bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g f e) d f( g) a g g \barMaior
+    a( f) f( g) f( d) \barMin
+    f f f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta Pá -- na
+    o svát -- ku
+    bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g f e) d \barMin
+    f( g f) e d c \barMaior
+    d f e f g f e d c c d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me
+    Kris -- ta Pá -- na
+    o svát -- ku bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g f e) d \barMin
+    f( g f) e d c \barMaior
+    c( d) d( f) f \barMin
+    g f g f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me
+    Kris -- ta Pá -- na
+    o svát -- ku
+    bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g f e) d \barMin
+    f( g f) e d c \barMaior
+    c( d) d( f) f \barMin
+    \mark\sipka g g g g f d c d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me
+    Kris -- ta Pá -- na
+    o svát -- ku
+    bla -- ho -- sla -- ve -- né -- ho Hro -- zna -- ty.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -94,12 +191,15 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 b a g a f( e) e \barMin
+    f g a a c b g a a \barFinalis
   }
   \addlyrics {
     Ve -- li -- ký vzne -- še -- nos -- tí
@@ -107,8 +207,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "A"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -116,9 +216,32 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c e d c( d) d \barMin
+    c c b a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- li -- ký vzne -- še -- nos -- tí
+    na -- u -- čil ses po -- hr -- dat svě -- tem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
-
+    d4 d f d d g f d d \barMin
+    e d c c( d) d \barFinalis
   }
   \addlyrics {
     Co se to -- mu -- to svě -- tu lí -- bí,
@@ -126,8 +249,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -137,7 +260,90 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f \mark\sipka e f g f d d \barMin
+    e \mark\sipka c a c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co se to -- mu -- to svě -- tu lí -- bí,
+    to -- bě je mar -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b c b g a a \barMin
+    a g f e e \barFinalis
+  }
+  \addlyrics {
+    Co se to -- mu -- to svě -- tu lí -- bí,
+    to -- bě je mar -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b c \mark\sipka a b g g \barMin
+    a g f e e \barFinalis
+  }
+  \addlyrics {
+    Co se to -- mu -- to svě -- tu lí -- bí,
+    to -- bě je mar -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f d f g a( g) g \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Co se to -- mu -- to svě -- tu lí -- bí,
+    to -- bě je mar -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a \barMin
+    a g f g f e d d \barFinalis
   }
   \addlyrics {
     Ve -- dl ho Pán
@@ -145,8 +351,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -156,14 +362,61 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c f d \barMin
+    f g f d e c d d \barFinalis
+  }
+  \addlyrics {
+    Ve -- dl ho Pán
+    po stez -- ce svých při -- ká -- zá -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b g a \barMin
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- dl ho Pán
+    po stez -- ce svých při -- ká -- zá -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a g f g( a) a( g) \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response  Od -- vrať, Pa -- ne,_*
@@ -173,16 +426,19 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c( b c) \barMin
+    c b g a g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- í mi -- lo -- ván,
@@ -190,8 +446,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -374,7 +630,99 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a-- \barMin
+    \mark\sipka a b c b a g g \barFinalis
+  }
+  \addlyrics {
+    Buď při nás,
+    kte -- ří tě mi -- lu -- je -- me.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a-- \barMin
+    \mark\sipka c a a g f g g \barFinalis
+  }
+  \addlyrics {
+    Buď při nás,
+    kte -- ří tě mi -- lu -- je -- me.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f a-- \barMin
+    \mark\sipka b c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Buď při nás,
+    kte -- ří tě mi -- lu -- je -- me.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g( f) g g( a) \barMax
+    g( f d) f g( f) f \barFinalis
+
+    % V
+    \neviditelna a
+    a4 g( a) g f g( a) \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response V_den své -- ho sou -- že -- ní_*
+    vzý -- vám Bo -- ha.
+    \Verse A ne -- jsem zkla -- mán.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
 
 \score {
   \relative c' {
@@ -382,12 +730,45 @@
 
     % R
     \neviditelna f
-    f4 f f
+    f4 f f \mark\sipka g a a( g) \barMax
+    g( f d) f g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 g( a) g f g( a) \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response V_den své -- ho sou -- že -- ní_*
+    vzý -- vám Bo -- ha.
+    \Verse A ne -- jsem zkla -- mán.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g a a( g) \barMax
+    \mark\sipka f( g) a g( f) f \barFinalis
+
+    % V
+    \neviditelna a
+    a4 g( a) g f g( a) \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response V_den své -- ho sou -- že -- ní_*
