@@ -413,6 +413,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMaior
+    \mark\sipka f g a a \barMin
+    a g a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&jiny_text"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim

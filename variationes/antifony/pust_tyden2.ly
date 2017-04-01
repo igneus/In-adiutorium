@@ -1,4 +1,4 @@
-% -*- master: ../pust_antifony.ly;
+\include "../spolecne.ly"
 
 \markup\nadpisDen{2. neděle postní}
 
@@ -48,6 +48,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -70,6 +72,108 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) \barMin
+    f g( f) e( d) d \barMin
+    e f e d c c \barMaior
+  }
+  \addlyrics {
+    Moj -- žíš_*
+    a E -- li -- áš
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) \barMin
+    f g( f) e( d) d \barMin
+    c d e f d d \barMaior
+    f f f g f g( a) f( e) d e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš_*
+    a E -- li -- áš
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) \barMin
+    f g( f) e( d) d \barMin
+    c d e f d d \barMaior
+    f f f g f \mark\sipka g( f) e( d) d \barMin
+    c d e d d \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš_*
+    a E -- li -- áš
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) \barMin
+    f g( f) e( d) d \barMin
+    c d e f d d \barMaior
+    f f f \mark\sipka e d f( e) d( c) c \barMin
+    d e f d d \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš_*
+    a E -- li -- áš
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -116,8 +220,54 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g f g g( a) g \barMin
+    a a a a( c) a a g f g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na
+    na je -- ho vzne -- še -- né ob -- lo -- ze.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 150"
+    placet = "lépe"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c d b c a \barMin
+    a g f a b a a g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na
+    na je -- ho vzne -- še -- né ob -- lo -- ze.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 150"
+    fial = "antifony/tyden1_7sobota.ly#rch-ant3?zacatek"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4( e) d c b a( g) g \barMin
     f a c c b a b g g \barFinalis
@@ -135,6 +285,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 

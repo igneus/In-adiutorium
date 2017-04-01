@@ -109,10 +109,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g f( g) a g g \barMin
-    a b c c b a c( a) a( g) g \barFinalis
+    e4 d c f( e) d e e \barMin
+    f g a a g f d e e \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Bo -- hu chvá -- lu
@@ -120,10 +120,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Dan 3-III"
-    placet = "slabá"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -488,11 +487,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f e d d \barMin
-    f f e d e d c \barMaior
-    d d c c c( d) d \barMin
-    d e f f e d e( d) c \barMin
-    c d d \barFinalis
+    d4 f e f d d \barMin
+    d f e d e d c \barMaior
+    d d d c c( d) d \barMin
+    f e f g f e d d \barMin
+    e c d \barFinalis
   }
   \addlyrics {
     Mo -- dle -- te se za ty,
@@ -506,12 +505,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    % schvalne jsem nevysel z antifony s podobnym textem
-    % pro jednu z nedeli v mezidobi - jeji melodie je moc rozverna
-    % a pro tuto textovou variantu by se spatne modifikovala
-    placet = "_budete_ tady rozhodně d d c; celkem si však nejsem jist,
-    zejména pro silné tíhnutí k c. (To by mohlo indikovat příslušnost
-    k modu VIII, spíš je to ale prostě nepovedená melodie k výměně.)"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

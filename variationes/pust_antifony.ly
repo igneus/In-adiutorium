@@ -81,6 +81,149 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d c( b) a \barMin
+      a g a c d c b a \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV alt"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d c( b) a \barMin
+      a \mark\sipka b g c d c b a \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV alt"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e( f) g \barMin
+      g a a g f e d d \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      f4 f e( f) g \barMin
+      g a f e f e d d \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f e c \barMin
+      d f f g f e d d \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( c d) d( f) e( d) d \barMaior
+      f f( e f d) c( a) \barMin
+      c d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te
+      e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a a g \barMin
+      g f e d f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"nedělní vigilie"}}
