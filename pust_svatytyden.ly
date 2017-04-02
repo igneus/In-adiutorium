@@ -1036,7 +1036,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a f( e) e \barMin
+      a4 a g g( a) a \barMin
       f g f g a f e( f) d d \barFinalis
     }
     \addlyrics {

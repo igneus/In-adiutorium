@@ -52,20 +52,21 @@
   \relative c'' {
     \choralniRezim
     g4 g g f( a) g( f) g \barMin
-    a c a b( a) a( g) g \barMin
-    g g g f e d( e) d d f g a g g \barFinalis
+    a c b a c b \barMaior
+    c c c d b c( a) a( g) g \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
     mlu -- vi -- li o smr -- ti,
-    kte -- rou měl Je -- žíš pod -- stou -- pit v_Je -- ru -- za -- lé -- mě.
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
-    placet = "o smrti zpívá značně radostně a bezstarostně"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

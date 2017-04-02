@@ -916,8 +916,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a f( e) e \barMin
       f g f g a f e( f) d d \barFinalis
@@ -931,10 +934,33 @@
       modus = "I"
       differentia = "a"
       psalmus = ""
-      id = ""
+      id = "ut-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a g g( a) a \barMin
+      f g f g a f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Dá -- vám svůj ži -- vot
+      a za -- se ho při -- jmu na -- zpá -- tek.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "ut-ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup\nadpisDen{Středa}
 
