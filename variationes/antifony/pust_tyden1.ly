@@ -925,10 +925,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Pátek}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g a g f e \barMin
     d e f g f d d \barMin
@@ -954,6 +957,42 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{
+  Aktualisace ze zdroje:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g a g f e \barMin
+    d e f g f d d \barMaior
+    d c d d d f g g f a g g \barMin
+    f g f d( c) c \barMaior
+    d e f e d e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
+    mno -- hem do -- ko -- na -- lej -- ší
+    než spra -- ve -- dl -- nost u -- či -- te -- lů Zá -- ko -- na
+    a fa -- ri -- ze -- ů,
+    do ne -- bes -- ké -- ho krá -- lov -- ství
+    ne -- ve -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne6a-rch-aben"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

@@ -182,22 +182,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c c( d) d c b a g a( g) g \barMin
-    a a( c) a a b( c) a a g g \barFinalis
+    a4 a a g f e f g a g \barMin
+    g f d d e d c d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
-    % a
     vzal na se -- be na -- še bo -- les -- ti.
   }
   \header {
     textus_approbatus = "Kristus nesl naše utrpení
     a vzal na sebe naše bolesti."
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "I"
+    differentia = "a"
     psalmus = "1 Petr 2"
-    placet = "finála je poněkud neuspokojivá; lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }

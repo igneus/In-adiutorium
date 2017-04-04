@@ -1,4 +1,4 @@
-% -*- master: ../pust_antifony.ly;
+\include "../spolecne.ly"
 
 \markup\nadpisDen{4. neděle postní}
 
@@ -47,11 +47,38 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d a'4 a g a f f \barMaior
-    f g g g g( a) g a bes a g f d \barMin
+    g g g g g( a) g a bes a g f d \barMin
+    c d e d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme mrt -- vi pro své hří -- chy
+    a Bůh nás svou lás -- kou při -- ve -- dl k_ži -- vo -- tu
+    zá -- ro -- veň s_Kris -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    placet = "_a_ ať zůstane ještě na f"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d a'4 a g a f f \barMaior
+    \mark\sipka f g g g g( a) g a bes a g f d \barMin
     c d e d d \barFinalis
   }
   \addlyrics {
@@ -68,6 +95,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -93,6 +122,74 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
+    b c a a c b c d d \barMaior
+    b c a g a g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
+    b c a a c b c d d \barMaior
+    b c a g \mark\sipka a( b g) g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( d) d \barMin
+    f g a a c b c a a \barMin
+    c c( d) a a g g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
