@@ -8,7 +8,7 @@
   \relative c' {
     \choralniRezim
     d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
-    g f( e) e( f) d c d d \barFinalis
+    f e e( f) d c d d \barFinalis
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -45,7 +45,7 @@
     differentia = "a"
     psalmus = "Tob 13"
     id = "rch-a2"
-    placet = "*"
+    placet = "ale závěr je slabší"
     piece = \markup {\sestavTitulek}
   }
 }

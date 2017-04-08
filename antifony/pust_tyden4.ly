@@ -98,7 +98,7 @@
   \relative c' {
     \choralniRezim
     f4 f e( f d) \barMin c e d \barMaior
-    f f f( g) f e f e d \barMin
+    f f f( g) f g a g( f) d \barMin
     c a c d d d \barFinalis
   }
   \addlyrics {
@@ -111,7 +111,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-II"
-    placet = "_vysvobodit_ snad raději zpěvněji"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -143,9 +142,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d4( g) g g a bes c bes a g f g( d) d \barMaior
-    g f e d c d( e) d4. d \barFinalis
+    d4 d d e f g f e d c d d \barMaior
+    f f e( d) c d e d d \barFinalis
   }
   \addlyrics {
     Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
@@ -153,11 +151,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
-    placet = "kvarta na začátku je nezvyklá; antifona nic moc;
-    jako celek jsou tyto nešpory takové bez chuti"
     fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#na-a1?-aleluja"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -169,7 +165,7 @@
     \choralniRezim
     f4 g f( a) a \barMaior
     a a a g a g f \barMin g f g f d( c) c \barMaior
-    d e f g a g f f \barFinalis
+    d f f g a g f f \barFinalis
   }
   \addlyrics {
     Bla -- ze mu -- ži,
@@ -187,23 +183,20 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g( a bes) a( g) g \barMin
-    f g a a g f e( d) \barMaior
-    d d( f) d g f d d \barFinalis
+    d4 f g g a bes a g a g f \barMin
+    f e c e f d d \barFinalis
   }
   \addlyrics {
-    Bůh na -- pl -- nil
-    před -- po -- vě -- di pro -- ro -- ků,
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
     že Kris -- tus mu -- sí tr -- pět.
   }
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = "1 Petr 2"
-    placet = "melodie je taková nezúčastněná či málem radostná, neodpovídá výpovědi textu"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }

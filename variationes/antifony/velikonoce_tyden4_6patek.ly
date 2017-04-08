@@ -6,6 +6,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
     g f( e) e( f) d c d d \barFinalis
@@ -26,6 +27,32 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
+    \mark\sipka f e e( f) d c d d \barFinalis
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- dal_* sám se -- be za nás v_o -- běť,
+    Bo -- hu vel -- mi pří -- jem -- nou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    placet = "*"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -49,6 +76,62 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c b c c \barMin
+    c( d) e d( c) d \barMaior
+    d c( b) a( g a) g \barMin
+    a g f g( a g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,_*
+    měs -- to Bo -- ží,
+    bu -- deš zá -- řit
+    ve -- li -- kým svět -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    placet = "*"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c b c c \barMin
+    c( d) e d( c) d \barMaior
+    d c( b) a( g a) g \barMin
+    \mark\sipka f g a a( g) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,_*
+    měs -- to Bo -- ží,
+    bu -- deš zá -- řit
+    ve -- li -- kým svět -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    placet = "*"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

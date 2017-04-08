@@ -293,6 +293,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka c4( d) d d e f g f e d c d d \barMaior
+    f f e( d) c d e d d \barMaior
+    c d d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
+    nad ži -- vý -- mi i mrt -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "na-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d e c a a \barMaior
   }
   \addlyrics {
