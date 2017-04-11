@@ -25,10 +25,47 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
     d4 a c b( a) a \barMaior
+    f( g a) c a \barMin
+    c d d d c( b a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Postup d a c se mi zpívá docela těžko
+  a nepamatuji si, že bych ho někdy viděl v tradičním repertoáru;
+  podle \with-url #"http://globalchant.org/search.php?HledanyText=&HledanyDruh=&SortBy=Melody&Z=4&PocetNot=3&ProbihaOprava=n&CiselnaHodnota=&CiselnyKod=b8a&CiselnyUniv=10402&Volpiano=1-l-h-k&X=772&Y=326" { Global Chant Database }
+  se vyskytuje převážně v rámci skupin d a c d, jen velmi vzácně
+  d a c h a.
+}
+
+\markup\justify{
+  Následující varianta je intuitivnější - narozdíl od původní
+  ji snadno zazpívám z listu - ale zdá se mi o něco méně pěkná.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a \mark\sipka d c( b) a \barMaior
     f( g a) c a \barMin
     c d d d c( b a) g( a) a \barFinalis
   }
