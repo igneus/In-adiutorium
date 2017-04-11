@@ -108,25 +108,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-
-    c4 c b a c( d) d4. \barMin
-    d4 d e d d c d e d c b b \barMaior
-    a a g a b( c a) a4. \barMin
-    a4 b4. c a4( g) g4. \barMax
-    a4 c d a a \barMin
+    c4 c b a c( d) d \barMin
+    d d e d d c d e d c b b \barMaior
+    a a g a b( c a) a \barMin
+    a b4. c a4( g) g \barMaior
+    a c d a a \barMin
     g c b g( a) a \barFinalis
   }
   \addlyrics {
-    Já jsem do -- brý pas -- týř; znám své ov -- ce a mo -- je ov -- ce
-    zna -- jí mne, ja -- ko mne zná O -- tec a já znám Ot -- ce;
-    a za své ov -- ce dá -- vám svůj ži -- vot.
+    Já jsem do -- brý pas -- týř;
+    znám své ov -- ce a mo -- je ov -- ce
+    zna -- jí mne, ja -- ko mne zná O -- tec
+    a já znám Ot -- ce;
+    a za své ov -- ce
+    dá -- vám svůj ži -- vot.
   }
   \header {
     quid = "ant. v poledne"
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    placet = "přebytečná puncta m. pryč"
     id = "po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -210,7 +211,7 @@
       \choralniRezim
       f4 g( a) a a bes a g a f( g a4.) a \barMaior
       a4 a( g) f e f e d d \barMax
-      e f f f g a g g \barMin
+      d f f f g a g g \barMin
       g a f e f d d \barFinalis
     }
     \addlyrics {
@@ -224,7 +225,6 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 119-נ"
-      placet = "_nyní_ je alespoň pro mě intonačně náročné a přitom nic nepřináší"
       id = "ne-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -301,33 +301,26 @@
     \relative c'' {
       \choralniRezim
       g4 g g( a) a( g) \barMin
-      a( c) c b( g) g b a g a( g) g \barMaior
-      g g f e f( g) f( g) g \barMin
-      g g a g f g g( a) g g \barMaior
-      g g g f( g) a( c) c \barMin
-      c( d c) b( g) g a g f( g) g \barFinalis
+      a a g f f g a g g \barMaior
+      c c c c c( d) c c \barMin
+      c c c b a g a g g \barMaior
+      a f( e) d d \barMin
+      f( g) a( c) c b g a( g) g \barFinalis
     }
     \addlyrics {
       Mno -- ho li -- dí
       pro -- stí -- ra -- lo na ces -- tu pláš -- tě,
       ji -- ní za -- se vět -- vič -- ky,
       kte -- ré na -- ře -- za -- li na po -- lích,
-      % Slovo 'vsichni' jsem pridal, protoze stavba
-      % melodie by jinak svadela k pochopeni, ze volali
-      % jen ti s vetvickami
-      a všich -- ni vo -- la -- li:
+      a vo -- la -- li:
       Ho -- sa -- na na vý -- sos -- tech!
     }
     \header {
-      textus_approbatus = "Mnoho lidí prostíralo na cestu pláště,
-      jiní zase větvičky, které nařezali na polích,
-      a volali: Hosana na výsostech!"
       quid = "ant. k Magnificat"
       annus = "B"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "zkusit lépe"
       id = "ne-1ne-amag-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -336,8 +329,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 g g g f( g a) g f e d e f g e d \barMaior
-      d d( a') g( a) g f g g f( g) e e \barFinalis
+      e4 g g g a g f g a g f g e e \barMaior
+      e d a' a a g f f( g) e e \barFinalis
     }
     \addlyrics {
       U -- čed -- ní -- ci pře -- ho -- di -- li pláš -- tě přes os -- lát -- ko
