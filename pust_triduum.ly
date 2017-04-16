@@ -41,7 +41,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 g f e d d e e \barMin
+    d4 f f e d d e e \barMin
     e d e e f e c c d d \barMaior
     d( c) d c( a) a \barMin
     a c d d f e c d4. d \barFinalis
@@ -468,8 +468,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d d d c c \barMin
-    f f e c d \barMaior
+    d4 d d f e f e c c \barMin
+    d f e c d \barMaior
     f f f g f e d d \barFinalis
   }
   \addlyrics {
@@ -607,8 +607,8 @@
   \relative c' {
     \choralniRezim
     c( d c) a c d \barMin
-    d e f g( f d) d \barMin e c d f e( d) d \barMaior
-    f g f e( c) f( d) d \barFinalis
+    d e f g( f d) d \barMin e c d f e( f) g \barMaior
+    g a g f( d) e d \barFinalis
   }
   \addlyrics {
     Z_ří -- še mrt -- vých
