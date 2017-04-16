@@ -156,13 +156,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d e) d( f) f( g) e e \barMin g g g f e e \barMaior
+    d( f) f g e e \barMin
+    g g g f e e \barMaior
     a g a a a g a b g g( a) a \barMaior
     a a a( f) g f( d) d \barMin
     c d e f g f e e \barFinalis
   }
   \addlyrics {
-    Po -- zdvi -- hu -- jí se_* po -- zem -- ští krá -- lo -- vé
+    Po -- zdvi -- hu -- jí se_*
+    po -- zem -- ští krá -- lo -- vé
     a vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
     pro -- ti Hos -- po -- di -- nu
     a je -- ho po -- ma -- za -- né -- mu.
@@ -172,7 +174,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 2"
-    placet = "_Pozdvihují se_ lépe"
     id = "pa-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -490,10 +491,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f( g) g f e d( c) c \barMin
-    d d d( f) e d d \barMaior
-    d( c a) c( d) \barMin
-    f f f f e d c d e e d d \barFinalis
+    d4 d d c d f g f( e) d \barMin
+    f g g( a) f g g \barMaior
+    a( bes a g) f( g) \barMin
+    g g g f e d c d f e d d \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
@@ -504,10 +505,9 @@
   \header {
     quid = "ant. k Magnificat"
     quidbreve = "ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "D2"
     psalmus = ""
-    placet = "nic moc, ale nevím, jestli s tímhle textem něco lepšího svedu"
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -632,10 +632,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g bes a g f g \barMin
-    g g g a g g a g f e d d \barMaior
-    d d d d e f e( d c) \barMin
-    e( f) d d \barFinalis
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f g e \barMin
+    f e( d) d \barFinalis
   }
   \addlyrics {
     Bu -- dou nad ním na -- ří -- kat_*
@@ -648,7 +648,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
-    placet = "půjde lépe"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
