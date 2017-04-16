@@ -1006,7 +1006,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4( a') a( bes) a g a( g) g \barMaior
+      d4( a') a( bes) a g a g \barMaior
       f g a g g a bes a g f \barMin
       f g f e d( e) d d \barFinalis
     }
@@ -1073,7 +1073,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d( f d) d( c) d \barMaior
+      d4 d( f d) c c( d) \barMaior
       d( a') a( g) f \barMin f g f d d \barFinalis
     }
     \addlyrics {
