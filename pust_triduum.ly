@@ -399,7 +399,7 @@
   \relative c' {
     \choralniRezim
     e4 e d( e) e e
-    e( a) a b( g) g \barMin a( g) f e( d e) e \barMaior
+    e( a) a b( g) g \barMin a g( f) e( d e) e \barMaior
     e e e4.( a) \barMin g4( a) g( f) e \barMaior
     e( d g) f e d( f) f( e) e \barFinalis
   }
@@ -415,7 +415,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "Nebylo by lepší melisma z _moc_ přesunout na _ným_?"
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }

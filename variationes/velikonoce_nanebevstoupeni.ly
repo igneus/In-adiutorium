@@ -955,6 +955,8 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -976,6 +978,180 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( e) f( g) g f g( a) g g \barMaior
+    c c4.( a) \barMin
+    f4 g a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    a Bůh je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g g \barMin
+    c c( b) a a \barMaior
+    c b( a g) \barMin
+    g f g a g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g d \barMin
+    g a( b c) a( g) a \barMaior
+    a c( a) \barMin
+    a f g a g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a g f g( a) a( g) g \barMaior
+    c c( a) \barMin
+    c b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c a a c b( a) g g \barMaior
+    g f4.( a) \barMin
+    a4 b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b c a \mark\sipka g f g( a) g g \barMaior
+    g f4.( a) \barMin
+    a4 b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    d e( f) d( c) d( c) \barMaior
+    c a4.( c) \barMin
+    c4 b( c) a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
