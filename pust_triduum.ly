@@ -172,6 +172,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 2"
+    placet = "_Pozdvihují se_ lépe"
     id = "pa-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -506,6 +507,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nic moc, ale nevím, jestli s tímhle textem něco lepšího svedu"
     id = "pa-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -646,6 +648,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
+    placet = "půjde lépe"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
