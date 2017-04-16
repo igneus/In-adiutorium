@@ -100,6 +100,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_Ježíš ... hodina_ spíš jinak"
     id = "dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -157,6 +158,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_než křížem_ je na antifonu 1. modu hodně divoké"
     id = "odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -292,6 +294,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "prostřední část je přetížená melismaty"
       id = "ne-1ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -396,6 +399,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = "Žalm 118"
+      placet = "ozdoba na _přišly_ je poměrně netypická"
       id = "ne-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -418,6 +422,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Dan 3-II"
+      placet = "_Hosana_ by mělo začít raději na a"
       id = "ne-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -527,6 +532,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "učesat"
       id = "ne-rch-aben-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -569,6 +575,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 115"
+      placet = "nic moc"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -624,6 +631,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "_a ovce ... vzkříšení_ je nezpěvné a jaksi tonálně neuspokojivé"
       id = "ne-2ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -679,6 +687,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "totálně nezpěvná"
       id = "ne-2ne-amag-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -727,6 +736,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Sir 36"
+      placet = "tady nevím; asi zkusit zpěvněji"
       id = "po-rch-a2"
       notitia = "podobný text na jiný, asi spíš chabější nápěv 10. neděle per annum B; možná melodicky sjednotit?"
       piece = \markup {\sestavTitulek}
@@ -898,6 +908,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 43"
+      placet = "_pře_ je krátké slovo, na které se melisma nehodí"
       id = "ut-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -918,6 +929,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Iz 38"
+      placet = "_mého života_ není moc hezké"
       id = "ut-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -938,6 +950,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 65"
+      placet = "první polovina půjde zpěvněji"
       id = "ut-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -960,6 +973,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
+      placet = "zbytečně velký rozsah"
       id = "ut-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1026,6 +1040,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Zj 4"
+      placet = "melisma a zároveň vrchol melodie na _kr_ se mi nepozdává"
       id = "ut-ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1090,6 +1105,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "1 Sam 2"
+      placet = "slabší"
       id = "st-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1112,6 +1128,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Žalm 97"
+      placet = "lépe"
       id = "st-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1138,6 +1155,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
+      placet = "začátek je hrubě nezpěvný, i dále zvláštní místa"
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1162,6 +1180,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 62"
+      placet = "v antifoně 2. modu je kvintový skok zbytečně dryjáčnický"
       id = "st-ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1182,6 +1201,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 67"
+      placet = "půjde zpěvněji"
       id = "st-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1205,6 +1225,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Kol 1"
+      placet = "dryjáčnické melisma na _odpuštění_ je nepěkné"
       id = "st-ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1229,6 +1250,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "lépe"
       id = "st-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1255,6 +1277,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = "Žalm 80"
+      placet = "zpěvněji"
       id = "ct-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1275,6 +1298,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Iz 12"
+      placet = "zkusit lépe"
       id = "ct-rch-a2"
       piece = \markup {\sestavTitulek}
     }

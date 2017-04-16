@@ -620,7 +620,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "_tohoto světa vypuzen_ není moc povedené"
+    placet = "_tohoto světa vypuzen_ není moc povedené; sjednotit melodii s pust_svatytyden.ly#po-rch-a2"
     id = "ne10b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
