@@ -445,6 +445,7 @@
       modus = "III"
       differentia = "a"
       psalmus = "Žalm 150"
+      placet = "opravdu je pěkné, aby _ten_ neslo takový důraz?"
       id = "ne-rch-a3"
       piece = \markup {\sestavTitulek}
     }
