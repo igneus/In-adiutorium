@@ -471,6 +471,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_spěchejme vstříc_ je nepříliš zpěvné"
       id = "ne-rch-aben-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -580,6 +581,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 115"
+      placet = "_abychom mohli sloužit_ mi nejde do pusy"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1309,6 +1311,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Iz 12"
+      placet = "sama o sobě se mi líbí, ale přechod od předchozí vytváří až mrazivý kontrast"
       id = "ct-rch-a2"
       piece = \markup {\sestavTitulek}
     }
