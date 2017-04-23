@@ -618,7 +618,7 @@
       a e a g( f) e e \barMaior
       d c d f( g) f e d e e \barMax
       a a g a a( b a) g g( a) \barMin
-      a g( a) g f g f d e e \barMaior
+      a g( a) g f a g f e e \barMaior
       f( g a) a b g e e \barMin
       g f e \barFinalis
     }

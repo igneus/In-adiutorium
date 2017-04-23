@@ -1681,6 +1681,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 d c c a c b g g \barMin
+      a a \mark\sipka a g f e e \barMin
+      f( g) a a g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -1744,13 +1766,45 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 g( a) a \barMin
       a e a g( f) e e \barMaior
       d c d f( g) f e d e e \barMax
       a a g a a( b a) g g( a) \barMin
       a g( a) g f g f d e e \barMaior
+      f( g a) a b g e e \barMin
+      g f e \barFinalis
+    }
+    \addlyrics {
+      Je psá -- no:
+      Bu -- du bít pas -- tý -- ře
+      a ov -- ce stá -- da se roz -- prch -- nou.
+      A -- le po svém vzkří -- še -- ní
+      vás pře -- de -- jdu do Ga -- li -- le -- je,
+      tam mě u -- vi -- dí -- te,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ne-2ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g( a) a \barMin
+      a e a g( f) e e \barMaior
+      d c d f( g) f e d e e \barMax
+      a a g a a( b a) g g( a) \barMin
+      a g( a) g f \mark\sipka a g f e e \barMaior
       f( g a) a b g e e \barMin
       g f e \barFinalis
     }
@@ -4171,6 +4225,26 @@
       quid = "2. ant."
       modus = "VI"
       differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f e( d) e \barMin
+      f g a a g f e e \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV"
+      differentia = "g"
       psalmus = "Iz 12"
       id = "ct-rch-a2"
       piece = \markup {\sestavTitulek}
