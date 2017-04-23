@@ -22,11 +22,65 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) a \barMin g f e f( a) a \barMaior
     a4 a g f \mark\sipka e( f) d d \barMin
     d4 f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých_* a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Původní znění mocně svádí k vyšinutí přízvuku
+
+  \box\score{
+    \relative c'' { \choralniRezim a-> a g-> f e( f) d d }
+    \addlyrics { svou kr -- ví nás vy -- kou -- pil. }
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) a \barMin g f e f( a) a \barMaior
+    \mark\sipka g a g f e( f) d d \barMin
+    d4 f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých_* a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) a \barMin g f e f( a) a \barMaior
+    g a \mark\sipka f f e( f) d( c) c \barMin
+    d4 \mark\sipka f e( d) d \barFinalis
   }
   \addlyrics {
     Vstal Kris -- tus z_mrt -- vých_* a o -- sví -- til nás,
@@ -62,6 +116,36 @@
     psalmus = "Žalm 63"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) a \barMin
+    a b c a( g) g \barMaior
+    c d c d d( e) c( b a) a \barMin
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých_*
+    a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 63"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Snaha o zmenšení rozsahu přenesením hlavních motivů
+  do svrchního tetrachordu je spíš slepou uličkou.
+  Píseň \italic{Christ ist erstanden / Bůh všemohoucí,}
+  již začátek cituje, je také v I. modu a má stejně velký rozsah.
 }
 
 \pageBreak
@@ -412,6 +496,30 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) a \barMaior
+    g c b g \barMin
+    a g f a a( g) g \barMaior
+    a c b( a) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 149"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

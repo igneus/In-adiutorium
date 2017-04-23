@@ -41,8 +41,8 @@
   \relative c'' {
     \choralniRezim
     a4 g a c( d) a \barMin g f e f( a) a \barMaior
-    a4 a g f e( f) d d \barMin
-    d4 f( e) c d \barFinalis
+    g a f f e( f) d( c) c \barMin
+    d4 f e( d) d \barFinalis
   }
   \addlyrics {
     Vstal Kris -- tus z_mrt -- vých_* a o -- sví -- til nás,
@@ -54,9 +54,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "Druhou část odjakživa zpívám s vyšinutým přízvukem:
-    [svou] kr[ví] nás vykoupil.
-    To možná indikuje, že by melodie měla být jinak, aby textu lépe odpovídala"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
