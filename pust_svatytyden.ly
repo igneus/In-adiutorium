@@ -429,21 +429,24 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a a a4.( e) \barMin
-      f4 g a a a a g a c b a g a \barMaior
-      a( c) b b( c) a a \barMin a b( g e4.) e \barMin d4 f f( e) e \barFinalis
+      a4 b g a \barMin
+      g f g a a a a g a c b a g a \barMaior
+      a( c) c b( c) a a \barMin
+      a b( g e4.) e \barMin
+      d4 f f( e) e \barFinalis
     }
     \addlyrics {
-      Po -- žeh -- na -- ný ten,
-      kte -- rý při -- chá -- zí ve jmé -- nu Hos -- po -- di -- no -- vě;
-      po -- koj na ne -- bi a slá -- va na vý -- sos -- tech!
+      Po -- žeh -- na -- ný
+      ten, kte -- rý při -- chá -- zí ve jmé -- nu Hos -- po -- di -- no -- vě;
+      po -- koj na ne -- bi
+      a slá -- va
+      na vý -- sos -- tech!
     }
     \header {
       quid = "3. ant."
-      modus = "III"
-      differentia = "a"
+      modus = "IV"
+      differentia = "g"
       psalmus = "Žalm 150"
-      placet = "opravdu je pěkné, aby _ten_ neslo takový důraz?"
       id = "ne-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -453,14 +456,16 @@
     \relative c'' {
       \choralniRezim
       g4 f g g( a) g \barMin
-      a c a b( a g) \barMin a g f e e \barMaior
-      e d e e f( g a) a( g) g \barMaior
+      a c a g( b) \barMin
+      c a a g g \barMaior
+      g f e d f( g a) a( g) g \barMaior
       a( b c) b( a) g g \barMin
       a f e f( g) g g \barFinalis
     }
     \addlyrics {
       S_pal -- ma -- mi v_ru -- kou
-      spě -- chej -- me vstříc na -- še -- mu Pá -- nu
+      spě -- chej -- me vstříc
+      na -- še -- mu Pá -- nu
       a ra -- dost -- ně vo -- lej -- me:
       Po -- žeh -- na -- ný
       ten, kte -- rý při -- chá -- zí!
@@ -471,7 +476,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "_spěchejme vstříc_ je nepříliš zpěvné"
       id = "ne-rch-aben-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -567,9 +571,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 d c c a c b g g \barMin
-      a a f a g a( c) b \barMin
-      c( b) g a g g \barFinalis
+      c4 d c c a c b g g \barMaior
+      a g f g a c( d) c \barMin
+      b( c) a a g g \barFinalis
     }
     \addlyrics {
       Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
@@ -581,7 +585,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 115"
-      placet = "_abychom mohli sloužit_ mi nejde do pusy"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
