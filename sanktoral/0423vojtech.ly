@@ -32,6 +32,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "mám ji takhle rád, ale první díl by měl být zpívatelnější"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -56,6 +57,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Dan 3-III"
+    placet = "zbytečně velký rozsah"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -85,6 +87,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
+    placet = "nemastná-neslaná"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -127,6 +130,7 @@
   \header {
     quid = "resp."
     modus = "IV alt."
+    placet = "přinejmenším aleluja lépe"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -152,6 +156,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nepříliš zpěvná"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -188,6 +193,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "nepěkná nefunkční ozdoba pryč"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -214,6 +220,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "zkusit zpěvnější/slavnostnější aleluja"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
