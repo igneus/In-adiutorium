@@ -32,7 +32,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,7 +56,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -79,11 +79,13 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Blažený člověk, jejž objala rajská sláva,
+    aby poznal, co Bůh připravil těm, kdo ho milují. Aleluja."
     quid = "3. ant."
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -125,7 +127,7 @@
   \header {
     quid = "resp."
     modus = "IV alt."
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -150,7 +152,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -186,7 +188,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -212,7 +214,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
