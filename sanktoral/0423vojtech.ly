@@ -139,16 +139,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f e) f d( c) c \barMin d d c d d \barMaior
-    d g f e( f) g \barMin f e d e e d c( d) c c \barMaior
-    d d d d( e f) e( f) g a f e( d) \barMaior
+    d4 e f( d) d \barMin
+    c d e d d \barMaior
+    d f e f( g) g \barMin
+    g g g a g f d( e) d( c) d( c) \barMin
+    d d d d e f e d c \barMin
     c c( f) e c( d) d \barMaior
     c d e d \barFinalis
   }
   \addlyrics {
-    Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
-    že po -- si -- lo -- val sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
-    a -- by mu vy -- dá -- val svě -- dec -- tví i v_u -- tr -- pe -- ní.
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    že po -- si -- lo -- val
+    sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
+    a -- by mu vy -- dá -- val svě -- dec -- tví
+    i v_u -- tr -- pe -- ní.
     A -- le -- lu -- ja.
   }
   \header {
@@ -156,7 +161,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "nepříliš zpěvná"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -172,7 +176,7 @@
 
     % R
     \neviditelna f
-    f4 f( d) d( f) f \barMin f f f f f e g a \barMax
+    f4 f( g) f f \barMin f f f g f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
@@ -193,7 +197,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "nepěkná nefunkční ozdoba pryč"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -203,10 +206,10 @@
   \relative c' {
     \choralniRezim
     d4 d d( a') a a \barMin c b a g a4. e \barMaior
-    f4( e) f g( a) a( g) a \barMin a( b) g e( a) a \barMaior
+    f4 f g( a) a( g) a \barMin a( b) g e( a) a \barMaior
     f4 g a a a( b) g e4. e \barMin
     g4 f( g) f d d( e) e \barMaior
-    f f e( f) e \barFinalis
+    f e f( g) e \barFinalis
   }
   \addlyrics {
     Sva -- tý Voj -- tě -- chu, slav -- ný mu -- čed -- ní -- ku,
@@ -220,7 +223,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "zkusit zpěvnější/slavnostnější aleluja"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
