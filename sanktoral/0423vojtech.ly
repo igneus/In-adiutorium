@@ -16,9 +16,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g f) e d( c) d c c( d) d \barMaior
+    g4( a) g f e f d d \barMaior
     d e f f f( d) d f g a g g \barMaior
-    g4 g( a) g f( e) d e c d d \barMaior
+    g4 a g f( e) d e c d d \barMaior
     c d e d \barFinalis
   }
   \addlyrics {
@@ -30,9 +30,8 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = "Žalm 63"
-    placet = "mám ji takhle rád, ale první díl by měl být zpívatelnější"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -57,7 +56,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "zbytečně velký rozsah"
+    placet = "zbytečně velký rozsah?"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -66,18 +65,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a) g a b( c d) c \barMaior
-    d d( e) c c d c a( b g4.) g \barMax
-    a4 a a( c) c \barMin
-    d e f e d( c) d4.( c) \barMin a4 g f g( a) g g \barMaior
-    g f( a) g g \barFinalis
+    c4 b a b( c d) c \barMin
+    d d( e) c c d c a( b g) g \barMaior
+    a a a( c) c \barMin
+    d e f e d( c) d( c) \barMin
+    a g a a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Bla -- že -- ný člo -- věk,
     jejž ob -- ja -- la raj -- ská slá -- va,
     a -- by po -- znal,
     % potreboval jsem slabiku, zamenil jsem "kdo" za "kteri":
-    co Bůh při -- pra -- vil těm, kte -- ří ho mi -- lu -- jí.
+    co Bůh při -- pra -- vil těm,
+    kte -- ří ho mi -- lu -- jí.
     A -- le -- lu -- ja.
   }
   \header {
@@ -87,16 +88,10 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
-    placet = "nemastná-neslaná"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
-
-% Responsorium je alelujaticke, ale protoze jeho verse
-% jsou nelidsky dlouhe, nesahl jsem po klasickem
-% vzorci modu VI - myslim, ze tady neni dost
-% dobre pouzitelny.
 
 \score {
   \relative c'' {
@@ -104,33 +99,36 @@
 
     % R
     \neviditelna a
-    a4( d) d c b c( d e) d( c) c( d) d \barMaior
-    d d d c( b c a) a \barMin c b a g f g a4. a \barMin
-    a4( d) c b a g a( b) a a \barMax
-
-    g4 g g( a) d, \barMin f g a( c b) a \barFinalis
+    a4 a a a g a g g \barMin
+    a g a b( a) a \barMin
+    g a g f e d e e \barMaior
+    e g a a g b a a \barMax
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
     % V
-    \neviditelna a
-    a4( d) e e d( c) d( c b) a \barMin b( a) g a( b) a4. a \barMax
+    \neviditelna e
+    a a a g( a) g g \barMin
+    a g a( b) a a \barMax
     % R
-    \neviditelna a
-    g4 g g( a) d, \barMin f g a( c b) a \barFinalis
+    \neviditelna e
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
     % Slava
-    a4( c d) d e d e d( c) c \barMin d c b a( b) a a \barFinalis
+    a a g( a) g f g( a) a \barMin
+    a g a a( b) a a \barFinalis
   }
   \addlyrics {
     \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
-    spo -- je -- ni pou -- ty ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
     s_tě -- mi, kdo ži -- jí na ze -- mi._*
     \textRespAleluja
-    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
     \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = "IV alt."
-    placet = "přinejmenším aleluja lépe"
+    modus = "IV"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

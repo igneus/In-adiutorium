@@ -40,7 +40,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( g f) e d( c) d c c( d) d \barMaior
     d e f f f( d) d \mark\sipka f g a g g \barMaior
@@ -59,6 +59,55 @@
     differentia = "a"
     psalmus = "Žalm 63"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 f g f e d d \barMaior
+    d e f f f( d) d f g a g g \barMaior
+    g4 \mark\sipka a g f( e) d e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Ob -- jal smrt pří -- tel -- ky -- ni
+    a ro -- ze -- pjal ru -- ce v_po -- do -- bu kří -- že,
+    jejž ná -- sle -- do -- val a mi -- lo -- val.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4( a) g f e f d d \barMaior
+    d e f f f( d) d f g a g g \barMaior
+    g4 a g f( e) d e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Ob -- jal smrt pří -- tel -- ky -- ni
+    a ro -- ze -- pjal ru -- ce v_po -- do -- bu kří -- že,
+    jejž ná -- sle -- do -- val a mi -- lo -- val.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -256,7 +305,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a) g a b( c d) c \barMaior
     d d( e) c c d c a( b g4.) g \barMax
@@ -278,6 +327,38 @@
     differentia = "c"
     psalmus = "Žalm 149"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 b a b( c d) c \barMin
+    d d( e) c c d c a( b g) g \barMaior
+    a a a( c) c \barMin
+    d e f e d( c) d( c) \barMin
+    \mark\sipka a g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- že -- ný člo -- věk,
+    jejž ob -- ja -- la raj -- ská slá -- va,
+    a -- by po -- znal,
+    % potreboval jsem slabiku, zamenil jsem "kdo" za "kteri":
+    co Bůh při -- pra -- vil těm,
+    kte -- ří ho mi -- lu -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Blažený člověk, jejž objala rajská sláva,
+    aby poznal, co Bůh připravil těm, kdo ho milují. Aleluja."
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -312,13 +393,16 @@
 
 \pageBreak
 
-% Responsorium je alelujaticke, ale protoze jeho verse
-% jsou nelidsky dlouhe, nesahl jsem po klasickem
-% vzorci modu VI - myslim, ze tady neni dost
-% dobre pouzitelny.
+\markup\justify{
+  Responsorium je alelujaticke, ale protoze jeho verse
+  jsou nelidsky dlouhe, nesahl jsem po klasickem
+  vzorci modu VI - myslim, ze tady neni dost
+  dobre pouzitelny.
+}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -350,6 +434,330 @@
     quid = "resp."
     modus = "IV alt."
     id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    c4 c c c d e d d \barMin
+    c b a b( g) g \barMin
+    a g f g a a g g \barMaior
+    a a a g a c( e) d d \barMax
+    d d d( c d) a \barMin c( b) a( g) a( g) g \barFinalis
+    % V
+    \neviditelna a
+
+    % R
+    \neviditelna a
+
+    % Slava
+
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VII"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f f \barMin
+    g f f g( a) a \barMin
+    a a a a g f g g \barMin
+    g g g f e d c c \barMax
+    d c d( f) e \barMin f( g) f( e) c( d) d \barFinalis
+    % V
+    \neviditelna a
+
+    % R
+    \neviditelna a
+
+    % Slava
+
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f
+    f f f g( f) f \barMin
+    f f f f f f a( g) g \barMaior
+    f f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna a
+    f f f g f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Kdybych si tak vzpomněl, odkud jsem následující melodii ukradl!
+  Vyloupla se mi v hlavě a vím, že ji odněkud znám.
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f f \barMin
+    g f f g( a) a \barMin
+    a a a g bes c g g \barMaior
+    bes bes bes a f a g g \barMax
+    bes a bes( c) g \barMin f( g) bes( a) g( f) f \barFinalis
+    % V
+    \neviditelna a
+
+    % R
+    \neviditelna a
+
+    % Slava
+
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    c4 a c b g a g g \barMin
+    a g f g( a) a \barMin
+    c b a g f a g g \barMaior
+    f a c b a c d d \barMax
+    c d d( c) c \barMin c( b) a( g) a( g) g \barFinalis
+    % V
+    \neviditelna a
+
+    % R
+    \neviditelna a
+
+    % Slava
+
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d c d c c \barMin
+    d c d e( d) d \barMin
+    c d c b a g a a \barMaior
+    g a c d c e d d \barMax
+    d f e( d) c \barMin a( g) a( c b a) f( g) g \barFinalis
+    % V
+    \neviditelna a
+    d d d c( d) c c \barMin
+    d c d( e) d d \barMax
+    % R
+    \neviditelna a
+    d f e( d) c \barMin a( g) a( c b a) f( g) g \barFinalis
+    % Slava
+    d' d e d c c( d) c \barMin
+    c d c d( e) d d \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VII"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup{
+  Modální transposice + drobné úpravy:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a g a g g \barMin
+    a g a b( a) a \barMin
+    g a g f e d e e \barMaior
+    e g a a g b a a \barMax
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a a g( a) g g \barMin
+    a g a( b) a a \barMax
+    % R
+    \neviditelna e
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    % Slava
+    a a b a g g( a) g \barMin
+    g a g a( b) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a g a g g \barMin
+    a g a b( a) a \barMin
+    g a g f e d e e \barMaior
+    e g a a g b a a \barMax
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a a g( a) g g \barMin
+    a g a( b) a a \barMax
+    % R
+    \neviditelna e
+    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    % Slava
+    a a \mark\sipka g( a) g f g( a) a \barMin
+    a g a a( b) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
