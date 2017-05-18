@@ -1113,6 +1113,85 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \mark\sipka a c b( c d) d \barMin
+    \mark\sipka c d d( e) e e \barMaior
+    \mark\sipka e d c d c( a) a \barMin
+    c c( b c) d( c) b a4. a \barMax
+    a4 c( b) g a \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c c( d) d \barMin
+    d c e d d \barMaior
+    e d c d c( a) a \barMin
+    g a b b a a \barMaior
+    g a b( a) a \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c c( d) d \barMin
+    d c e d d \barMaior
+    e d c d c( a) a \barMin
+    g a \mark\sipka c bes a a \barMaior
+    c bes a a \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4( f) d f( g) g f g a( bes) g g \barMaior
 
@@ -1153,6 +1232,163 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     quid = "ant. odpoledne"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( c a) a \barMin
+    c b g( a) g g \barMaior
+    f a c b c( d) d \barMin
+    d c b a a( b g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 c b( c a) a \barMin
+    g f g a a \barMaior
+    c d c b a( g) g \barMin
+    f g a a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b( a) g \barMin
+    f g a c c \barMaior
+    d c d c a( c) c \barMin
+    a c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( d) c \barMin
+    f e g a a \barMaior
+    a a g f d( c) c \barMin
+    f g f e d d \barMaior
+    c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( a) c b( g) a \barMin
+    g a c d d \barMaior
+    e d c d c( a) a \barMin
+    c c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( g) g \barMin
+    f g a c c \barMaior
+    d e d c a a \barMin
+    c c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
