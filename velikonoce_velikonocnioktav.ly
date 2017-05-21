@@ -230,6 +230,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 110"
+    placet = "melisma z poslední slabiky pryč"
     id = "nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
