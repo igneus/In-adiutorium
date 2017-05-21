@@ -323,6 +323,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e( d) c( d) d4. \barMaior
     d4( c) b( c) c( d) d \barMin
@@ -449,7 +450,7 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( g) g \barMaior
     f4. f4( g) g( a) a \barMin
@@ -498,6 +499,102 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a( g) g \barMaior
+    a4. a4( c b) a g \barMin
+    c d c b a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    a4. a4( c b) a g \barMin
+    \mark\sipka a b c a a( g) g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    a4. a4( c b) a g \barMin
+    \mark\sipka a g f g g( a) a \barMaior
+    c b c( a) a \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( g) g \barMaior
+    f4. f4( g f) g a \barMin
+    a b c a a( g) g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c( d) a \barMaior
     g c b g \barMin
     a g f a a( g) g \barMaior
@@ -513,6 +610,56 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 f e( f) d( c) \barMaior
+    f g g( f) f \barMin
+    g a g f d( c) c \barMaior
+    d f e( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d( e) d \barMaior
+    a4. a4( d) c a \barMin
+    c c b a a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -628,6 +775,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a( c) c( e) e \barMin
     d c b c( a g4.) g \barMaior
@@ -823,11 +971,77 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   }
 }
 
-\markup\nadpisSkupiny{5}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a \barMin
+    a g f e e \barMaior
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a \barMin
+    \mark\sipka g f g e e \barMaior
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {
     \zvyraznovacModry
+    \choralniRezim
+    a4 g f g a \barMin
+    g f g e e \barMaior
+    \mark\sipka d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny{5}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d c( d) c( g) g \barMin
@@ -992,6 +1206,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f d \barMin
+    d e c a a \barMaior
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -1078,8 +1314,15 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \pageBreak
 
+\markup\justify{
+  Nápěv sám o sobě je zpěvný a líbí se mi, ale není moc povedený
+  co do spojení s textem (melisma na _byli_ nebo divná melodie
+  slova _pochází_).
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a( c) c b( c d) d \barMin
     d( c) b c( e) e e \barMaior
@@ -1160,6 +1403,32 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a( c) c \barMin
+    d c e d d \barMaior
+    e e d c a a \barMin
+    c c b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a c c( d) d \barMin
     d c e d d \barMaior
     e d c d c( a) a \barMin
@@ -1177,6 +1446,33 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     quid = "ant. odpoledne"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a c c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    e d c d c( a) a \barMin
+    c c b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1311,6 +1607,33 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 c b( a) g \barMin
+    f g a g g \barMaior
+    a a a a a( c) c \barMin
+    c c b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f e( d) c \barMin
@@ -1318,6 +1641,32 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     a a g f d( c) c \barMin
     f g f e d d \barMaior
     c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g a( f) f( g) g \barMaior
+    a a g f d( c) c \barMin
+    d f e c d d \barMaior
+    c d e d \barFinalis
   }
   \addlyrics {
     Když jste s_Kris -- tem_*
@@ -1394,6 +1743,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d d d d d d e d d c b c( d) d( a) a \barMin
     g4 a b c d c b c a g g  \barMin
@@ -1438,11 +1788,56 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
     d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
     d f( e) \mark\sipka d( e) e4.( d) \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- e Mag -- dal -- ská_* a dru -- há Ma -- ri -- e
+    při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 110"
+    id = "nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
+    d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
+    d f( e) d( e) \mark\sipka d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- e Mag -- dal -- ská_* a dru -- há Ma -- ri -- e
+    při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 110"
+    id = "nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a( c) g g4.( a) \barMin a4 g f g( f) d( f) f( e d) \barMaior
+    d4( a' g a f) e f( g) g( a) a \barMaior g( a) a a( g) a b( c) a4. g4 f g( f) f( d) d \barMaior
+    \mark\sipka f e d( e) d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e Mag -- dal -- ská_* a dru -- há Ma -- ri -- e
@@ -1562,7 +1957,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
@@ -1612,6 +2007,63 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 g g( a) a g f g g \barMaior
+    a g g bes a g a g g \barMin
+    g a g f e f d c c \barMaior
+    d f f g g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:_* Ne -- boj -- te se!
+    Jdě -- te a o -- znam -- te mým bra -- třím,
+    ať o -- de -- jdou do Ga -- li -- le -- je;
+    tam mě u -- vi -- dí. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Pokus zachovat co nejvíc z předchozí melodie
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g g( a) a g f g g \barMaior
+    a g f g f d e d( c) c \barMin
+    c d f f g f g( a) a( g) g \barMaior
+    f f g( a) g( f) f \barMin
+    d f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:_* Ne -- boj -- te se!
+    Jdě -- te a o -- znam -- te mým bra -- třím,
+    ať o -- de -- jdou do Ga -- li -- le -- je;
+    tam mě u -- vi -- dí. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -266,7 +266,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g( a) a c( b c) c( d) c b a a a \barMaior
       \mark\sipka a a g f g( a) g( a) a \barMin
@@ -296,9 +296,248 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g( a) a c( b c) c( d) c b a a a \barMaior
+      a a g f g( a) g( a) a \mark\sipka
+      b c a g g \barMax
+      c c c c d c a a \barMaior
+      c c b g a g f \barMin
+      g a b( g) g \barFinalis
+    }
+    \addlyrics {
+      Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,
+      šel jim Je -- žíš na -- pro -- ti
+      a po -- zdra -- vil je;
+      o -- ny k_ně -- mu při -- stou -- pi -- ly
+      a po -- klo -- ni -- ly se mu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen {úterý velikonoční}
+
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      d4 d d b( d) c b \barMin
+      c a a( b) g g \barMaior
+      f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 24"
+      placet = "nic moc, půjde lépe"
+      id = "ut-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c d c \barMin
+      a g a g g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 24"
+      id = "ut-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c b a g \barMin
+      a f a g g \barMaior
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 24"
+      id = "ut-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \key f \major
+      \choralniRezim
+      d4 d( c) d \barMin f( g a) a( g) g bes g g g( a) a \barMaior
+      f f f( a bes) g( f) f e( d) c( d) d \barMaior
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Ná -- ro -- dy,_* ve -- leb -- te na -- še -- ho Bo -- ha,
+      on mě pro -- bu -- dil k_ži -- vo -- tu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 66-I"
+      placet = "u této a následující vyzkoušet varianty vycházející z podobných antifon ze žaltáře"
+      id = "ut-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4( f) e f f( a) a \barMaior
+      a a( bes g) a a a( g f) \barMin g e( f d) c
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- te a slyš -- te,_*
+      co Bůh pro -- ká -- zal mé du -- ši.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "ut-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup\nadpisSkupiny 2
+
+  \markup\justify{
+    Tohle není primárně náhrada ošklivých antifon lepšími,
+    ale originálních neoriginálními,
+    recyklujícími nápěv textově podobných antifon ze žaltáře.
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4( g a) g( f) g f f d \barMin
+      c d f g g \barMaior
+      f f f g a g f f \barMaior
+      d f( g) g f \barFinalis
+    }
+    \addlyrics {
+      Ve -- leb -- te, ná -- ro -- dy,_*
+      na -- še -- ho Bo -- ha,
+      on mě pro -- bu -- dil k_ži -- vo -- tu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      textus_approbatus = "Národy, velebte našeho Boha,
+      on mě probudil k životu. Aleluja."
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 66-I"
+      fial = "antifony/tyden4_1nedele.ly#mc-ant2?zacatek"
+      id = "ut-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4( g a) g( f) g f f d \barMin
+      c d f g g \barMaior
+      f f \mark\sipka f( g a) g( f) d f( g) g( f) f \barMaior
+      d f( g) g f \barFinalis
+    }
+    \addlyrics {
+      Ve -- leb -- te, ná -- ro -- dy,_*
+      na -- še -- ho Bo -- ha,
+      on mě pro -- bu -- dil k_ži -- vo -- tu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      textus_approbatus = "Národy, velebte našeho Boha,
+      on mě probudil k životu. Aleluja."
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 66-I"
+      fial = "antifony/tyden4_1nedele.ly#mc-ant2?zacatek"
+      id = "ut-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      f4( a f g) g( f) \barMin f d( c d f) f \barMaior
+      g a( g) \barMin g g g a g( f) f \barMaior
+      g a f f \barFinalis
+    }
+    \addlyrics {
+      Pojď -- te_* a slyš -- te,
+      co Bůh pro -- ká -- zal mé du -- ši.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 66-II"
+      fial = "antifony/tyden4_1nedele.ly#mc-ant3?jiny_text&+aleluja"
+      id = "ut-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
     \relative c' {
