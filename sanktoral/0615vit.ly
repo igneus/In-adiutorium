@@ -28,7 +28,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -54,8 +54,9 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
-    fons = "začátek posle antifony k Magnificat z pam. sv. Vojtěcha"
+    id = "amag"
+    fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
+    fial = "sanktoral/0423vojtech.ly?zacatek&jiny_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
