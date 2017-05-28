@@ -1570,6 +1570,12 @@
     a druhou, která radost ze setkání se vzkříšeným Pánem
     vyjadřuje skromnějšími prostředky a zvládne ji zazpívat každý.
   }
+  \markup\justify{
+    2017 Odstavec výše tu nechávám jenom jako dokument proměn
+    koncepce. Dnes vím, že bohatý jubilus nemá v antifoně co dělat.
+    Pátek ve velikonočním oktávu není vhodná příležitost
+    pro extravagantní kousky.
+  }
 
   \score {
     \relative c'' {
@@ -1624,6 +1630,56 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g g \barMin
+      f g a a a a( b) a g f( g a) a \barMaior
+      c a g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      Pán je to!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( a) g g \barMin
+      f g a a a a( b) a g f( g a) a \barMaior
+      a b c( g) \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      textus_approbatus = "Učedník, kterého Ježíš miloval, řekl: Pán je to! Aleluja!"
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisSkupiny 2
 
   \score {
@@ -1654,7 +1710,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 g( a) a \barMin
       a g f g g f( g) \mark\sipka f f( e d)
