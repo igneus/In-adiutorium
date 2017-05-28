@@ -11,22 +11,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4( d) c d e( a g) a \barMin
-    a g a( b a) g a a \barMaior
-    a g a g( f) e e \barMin
-    d c d( f) e e \barFinalis
+    g4( a) c c c( e) d \barMin
+    c d e c d d \barMaior
+    d a d b c a( g) \barMin
+    f g a( c) b( a) a \barFinalis
   }
   \addlyrics {
     Zkou -- šels mě, Pa -- ne,
     ja -- ko zla -- to v_oh -- ni
-    a ne -- na -- le -- zl jsi na mě ne -- pra -- vost.
+    a ne -- na -- le -- zl jsi
+    na mě ne -- pra -- vost.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "E"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -37,8 +38,8 @@
   \relative c' {
     \choralniRezim
     d4 d d( a') a \barMin a b c b a g a4. e \barMaior
-    d4( e) e \barMin d e f g g g g a a \barMaior
-    a4 a a g a a( b) g g \barMin f g g g a g f e e \barMaior
+    d4( e) e \barMin d e f g f e g a a \barMaior
+    a4 a a g a a( b) g g \barMin f g a g a g f e e \barMaior
     e d( c d) e( f) e e \barMin f( g) a g e e \barFinalis
   }
   \addlyrics {
