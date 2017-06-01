@@ -473,6 +473,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_naproti_ spíš zjednodušit"
       id = "po-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -610,6 +611,7 @@
       modus = "I"
       differentia = "a"
       psalmus = ""
+      placet = "_plakala_ je divné"
       id = "ut-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -711,6 +713,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "nepříliš zpěvná"
       id = "st-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -771,6 +774,7 @@
       modus = "VI" % zalm 118 ma "smulu" na mod VI; fakt jsem mel dobrou vuli slozit tuhle radku v jinem, ale zase to spadlo do sestky
       differentia = "F"
       psalmus = "Žalm 118-I"
+      placet = "lépe"
       id = "ct-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -791,6 +795,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-II"
+      placet = "melisma na _stal_ je škaredé"
       id = "ct-mc-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -813,6 +818,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-III"
+      placet = "lépe?"
       id = "ct-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -866,6 +872,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_Podívejte se_ lépe"
       id = "ct-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -893,6 +900,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 136-I"
+      placet = "lépe; i další projít"
       id = "pa-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -965,6 +973,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "nezpěvná"
       id = "pa-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1016,6 +1025,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-I"
+      placet = "krok na _je_ je nevhodný; aleluja lépe"
       id = "so-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1038,6 +1048,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-II"
+      placet = "není špatná, ale půjde o kousek elegantněji"
       id = "so-mc-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1064,6 +1075,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-III"
+      placet = "dtto"
       id = "so-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1099,6 +1111,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "zkusit lépe"
       id = "so-ben"
       %fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
       % - zdrojova antifona se vsak mezitim zmenila; zvazit predelani
@@ -1131,6 +1144,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      placet = "zejm. _Ježíš přišel_ lépe"
       id = "ne2-mag1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1191,6 +1205,7 @@
       modus = "I"
       differentia = "a"
       psalmus = ""
+      placet = "pěkná, ale půjde ještě o něco lépe"
       id = "ne2-mag2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
