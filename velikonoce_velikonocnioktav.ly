@@ -455,10 +455,10 @@
     \relative c'' {
       \choralniRezim
       g4 g( a) a c( b c) c( d) c b a a a \barMaior
-      a a g f g( a) g( a) a b c a g g \barMax
+      a a g f g a a
+      b c a g g \barMax
       c c c c d c a a \barMaior
-      c c b g a g f \barMin
-      g a b( g) g \barFinalis
+      a c b g a g f g a b( g) g \barFinalis
     }
     \addlyrics {
       Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,
@@ -473,7 +473,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "_naproti_ spíš zjednodušit"
       id = "po-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -597,9 +596,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a( g f) g( f) e f( a) a a \barMin
-      b( c) a g( e) e f( e) f d4. d \barMax
-      d4 f( e) c d \barFinalis
+      a4 g f e e d( f) f( e) e \barMaior
+      a a g a b g a a \barMin
+      g a g( f) e \barFinalis
     }
     \addlyrics {
       Když jsem pla -- ka -- la u hro -- bu,_*
@@ -608,10 +607,9 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "I"
-      differentia = "a"
+      modus = "IV"
+      differentia = "g"
       psalmus = ""
-      placet = "_plakala_ je divné"
       id = "ut-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -690,19 +688,18 @@
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4 d d d d( e f) e( f) d d \barMin
-      c d c b c( d) e( d) d \barMaior
-      f f( g f) e( d) d f e d d \barMin
-      c c c d c b a a \barMin
-      c d d( f) e( d) d \barMaior
-      e f d d \barFinalis
+      c4 c c( d) d c b a( g) g \barMin
+      a c d c e d d \barMaior
+      d e( f e) d( c) c b c a( g) g \barMin
+      f g a a a b g g \barMin
+      a g f( a) a( g) g \barMaior
+      f g( a) g g \barFinalis
     }
     \addlyrics {
       Je -- žíš za -- čal od Moj -- ží -- še,_*
       pro -- bral všech -- ny pro -- ro -- ky
-
       a vy -- klá -- dal u -- čed -- ní -- kům,
       co se ve všech čás -- tech Pís -- ma
       na něj vzta -- hu -- je.
@@ -710,10 +707,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "II"
-      differentia = "D"
+      modus = "VII"
+      differentia = "c"
       psalmus = ""
-      placet = "nepříliš zpěvná"
       id = "st-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -756,11 +752,11 @@
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 f g a g( e) f d( c) c \barMaior
-      d d e f e f g \barMin
-      a a g f f \barMaior
+      a4 a g f bes a g a \barMaior
+      a a bes a g f g \barMin
+      a f g f f \barMaior
       g a f f \barFinalis
     }
     \addlyrics {
@@ -771,10 +767,9 @@
     }
     \header {
       quid = "1. ant."
-      modus = "VI" % zalm 118 ma "smulu" na mod VI; fakt jsem mel dobrou vuli slozit tuhle radku v jinem, ale zase to spadlo do sestky
+      modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-I"
-      placet = "lépe"
       id = "ct-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -783,7 +778,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      f( a) a( g) g \barMin g f( g f) e d c \barMaior
+      f g a a g f d c \barMin
       d f g( f) f \barFinalis
     }
     \addlyrics {
@@ -795,22 +790,23 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-II"
-      placet = "melisma na _stal_ je škaredé"
       id = "ct-mc-a2"
       piece = \markup {\sestavTitulek}
     }
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 f f e f g f f a f f( g) g \barMaior
-      g g a g f g( f) d \barMin e f g g
-      g a( g) f f \barFinalis
+      a4 a a g f g f f d f f( g) g \barMaior
+      a a g f g f d \barMin
+      e f g g
+      a g f f \barFinalis
     }
     \addlyrics {
       Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
-      je to po -- di -- vu -- hod -- né v_na -- šich o -- čích.
+      je to po -- di -- vu -- hod -- né
+      v_na -- šich o -- čích.
       A -- le -- lu -- ja.
     }
     \header {
@@ -818,7 +814,6 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 118-III"
-      placet = "lépe?"
       id = "ct-mc-a3"
       piece = \markup {\sestavTitulek}
     }
