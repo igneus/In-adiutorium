@@ -194,7 +194,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( c) c b( g) g \barMin
       g g( a) a a g f g( a) a \barMaior
@@ -219,6 +219,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g4( c) c b( g) g \barMin
       g g( a) a a g f g( a) a \barMaior
@@ -2649,10 +2650,36 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( a) g g \barMin
       f g a a a a( b) a g f( g a) a \barMaior
+      a b c( g) \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      To je Pán!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      textus_approbatus = "Učedník, kterého Ježíš miloval, řekl: Pán je to! Aleluja!"
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( a g) f f( g) \barMin
+      a a a c b c a a g( f g) g \barMaior
       a b c( g) \barMin
       a g f( g) g \barFinalis
     }

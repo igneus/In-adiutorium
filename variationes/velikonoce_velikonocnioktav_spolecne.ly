@@ -244,12 +244,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a( c) c \barMin b( c) c( d) d \barMaior
     d( f) e f d c c4.( a) \barMaior
     c a \barMin \mark\sipka f4 g a a( g) g \barMax
     g g( a) g4. g \barFinalis
+  }
+  \addlyrics {
+    Náš Vy -- ku -- pi -- tel_* vstal z_hro -- bu,
+    za -- pěj -- me chva -- lo -- zpěv
+    Pá -- nu, na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a a( c) c \barMin b( c) c( d) d \barMaior
+    d( f) e f d c c4.( a) \barMaior
+    c a \barMin f4 g a a( g) g \barMax
+    \mark\sipka f g( a) g4. g \barFinalis
   }
   \addlyrics {
     Náš Vy -- ku -- pi -- tel_* vstal z_hro -- bu,
@@ -1021,6 +1046,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     a4 g f g a \barMin
     g f g e e \barMaior
     \mark\sipka d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a g e \barMin
+    e d f e e \barMaior
+    f g a( g) e \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*

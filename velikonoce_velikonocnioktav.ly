@@ -65,7 +65,7 @@
     a4 g a a( c) c \barMin b( c) c( d) d \barMaior
     d( f) e f d c c4.( a) \barMaior
     c a \barMin f4 g a a( g) g \barMax
-    g g( a) g4. g \barFinalis
+    f g( a) g4. g \barFinalis
   }
   \addlyrics {
     Náš Vy -- ku -- pi -- tel_* vstal z_hro -- bu,
@@ -433,7 +433,7 @@
       g4( c) c b( g) g \barMin
       g g( a) a a g f g( a) a \barMaior
       a b4.( c) b4( c) a( g) g \barMax
-      g a a( g) g \barFinalis
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Rych -- le jdě -- te_*
@@ -978,8 +978,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( a) g g \barMin
-      f g a a a a( b) a g f( g a) a \barMaior
+      g4( a g) f f( g) \barMin
+      a a a c b c a a g( f g) g \barMaior
       a b c( g) \barMin
       a g f( g) g \barFinalis
     }
