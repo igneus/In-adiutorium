@@ -1079,23 +1079,22 @@
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      % zatim jsem v antifone nenasel zadnou dobrou
-      % delici logiku a tak jsou divisiones maiores
-      % rozmistene proste tak, aby se antifona "dala udychat"
-      e f( g) a g a4. a \barMin
-      a4 a( b) a g( a g f e) e \barMaior
-      d( e) e f g a a a g g( a) a \barMin
-      a a a a( b a) g f g( f) g( a) a \barMaior
-      a a b g g( e) e \barMin
-      f e d d( e) e \barMaior
-      e f( g) f( e) e \barFinalis
+      c4 b a c g g \barMin
+      g a g f( g a) a \barMaior
+      a( c) c \barMin
+      d d d d c b a a \barMaior
+      c c c c b a c( b) a( g) g \barMaior
+      f a c c b g \barMin
+      a f a a( g) g \barMaior
+      f g( a) g g \barFinalis
     }
     \addlyrics {
       Po svém zmrt -- vých -- vstá -- ní_*
       se Je -- žíš zje -- vil
-      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      rá -- no
+      prv -- ní -- ho dne po so -- bo -- tě
       nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
       z_kte -- ré kdy -- si vy -- hnal
       se -- dm zlých du -- chů.
@@ -1103,13 +1102,10 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "IV"
-      differentia = "E"
+      modus = "VIII"
+      differentia = "c"
       psalmus = ""
-      placet = "zkusit lépe"
       id = "so-ben"
-      %fons = "od 'nejdříve' převzato a pozměněno z: oficium sv. Máří, ant. k Benedictus"
-      % - zdrojova antifona se vsak mezitim zmenila; zvazit predelani
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

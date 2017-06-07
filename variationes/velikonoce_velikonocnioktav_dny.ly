@@ -3180,7 +3180,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       % zatim jsem v antifone nenasel zadnou dobrou
       % delici logiku a tak jsou divisiones maiores
@@ -3245,6 +3245,71 @@
       differentia = "E"
       psalmus = ""
       fial = "sanktoral/0722mariemagdalena.ly#rch-aben?jiny_text"
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b a c g g \barMin
+      g a g f( g a) a \barMaior
+      a( c) c \barMin
+      d c c c d e d d \barMaior
+      d d d c b a c( b) a( g) g \barMaior
+      f a c c b g \barMin
+      a f a a( g) g \barMaior
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no
+      prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 b a c g g \barMin
+      g a g f( g a) a \barMaior
+      a( c) c \barMin
+      \mark\sipka d d d d c b a a \barMaior
+      \mark\sipka c c c c b a c( b) a( g) g \barMaior
+      f a c c b g \barMin
+      a f a a( g) g \barMaior
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no
+      prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
