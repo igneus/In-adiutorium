@@ -30,6 +30,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
+    placet = "od _zase_ půjde lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -54,6 +55,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 117"
+    placet = "melisma z _apoštolům_ pryč; _a zasedl_ možná spíš jinak"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -138,6 +140,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "lépe"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -193,6 +196,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-I"
+    placet = "neuspokojivý závěr"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -215,6 +219,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-II"
+    placet = "nezpěvná"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
