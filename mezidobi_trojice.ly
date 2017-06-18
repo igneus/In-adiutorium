@@ -73,6 +73,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Ef 1"
+    placet = "melisma z _i_ pryč"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
