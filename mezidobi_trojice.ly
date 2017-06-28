@@ -62,7 +62,7 @@
   \relative c'' {
     \choralniRezim
     a4( d) d d f4.( d) \barMin e4 f d c c( d) d \barMaior
-    c a b a g \barMin a( b) b c a g g \barFinalis
+    c a b a g \barMin a b g g( a) g g \barFinalis
   }
   \addlyrics {
     Slá -- va a čest je -- di -- né -- mu Bo -- hu:
@@ -73,7 +73,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Ef 1"
-    placet = "melisma z _i_ pryč"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
