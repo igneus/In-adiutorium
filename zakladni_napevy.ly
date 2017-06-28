@@ -282,12 +282,18 @@
     subtitle = "III. Verše"
   }
 
+  \markup\sekce{III.1 nápěv s neumou}
+
   \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 27*.}
 
-  \markup\sekce{III.1 v modlitbě se čtením (přechod od psalmodie ke čtení)}
 
   \markup\justify{
-    Melodická ozdoba na poslední slabice, zcela bez ohledu na slovní
+    Takto se zpívají verše v modlitbě se čtením mezi psalmodií
+    a prvním čtením, stejně jako v modlitbě uprostřed dne
+    po krátkém čtení.
+  }
+  \markup\justify{
+    Melodická ozdoba je na poslední slabice, zcela bez ohledu na slovní
     přízvuk. Někdo by mohl namítnout, že to je češtině naprosto cizí.
     Odpovídám, že latině to není vlastní o nic víc. Dále, že i v českém
     chorálu se melisma na poslední slabice slova zdá být
@@ -312,6 +318,8 @@
       ragged-last = ##f
     }
   }
+
+  \markup\sekce{III.2 slavnostní nápěv}
 
   \markup\justify{
     Slavnostní nápěv pro verše s aleluja:
@@ -339,8 +347,11 @@
     }
   }
 
-  \markup\sekce{III.2 v modlitbě uprostřed dne (odpověď na Boží slovo)}
+  \markup\sekce{III.3 prostý nápěv}
 
+  \markup\justify{
+    Jednodušší varianta použitelná ad libitum místo nápěvu s neumou.
+  }
   \markup\justify{
     Pokles z recitační noty po posledním slovním přízvuku.
     (V posledních slovech jsou z pedagogických důvodů
