@@ -130,6 +130,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a g) g( c) c c d c d( c) c \barMin
+    c c c( d) c a( b a g) g \barMaior
+    \mark\sipka a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šej -- te sa -- mi se -- be
+    ja -- ko o -- běť ži -- vou,
+    sva -- tou a Bo -- hu mi -- lou.
+
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 40-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
