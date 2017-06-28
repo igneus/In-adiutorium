@@ -314,8 +314,11 @@
   }
 
   \markup\justify{
-    S aleluja: Podle: \italic{Antiphonale Romanum}, Romae 1912, 427.
-    (Původně nápěv veršíku po hymnu jen pro slavnost Seslání Ducha sv.)
+    Slavnostní nápěv pro verše s aleluja:
+    Podle: \italic{Antiphonale Romanum}, Romae 1912, 427.
+    (Původně k nešporám nejvýznamnějších svátků. Když dnes nešpory
+    veršík neobsahují, nabízí se použít tento nápěv v modlitbě se čtením
+    zejm. o slavnostech velikonočního cyklu.)
   }
 
 
