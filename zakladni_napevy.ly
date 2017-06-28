@@ -275,10 +275,6 @@
   \markup\sekce{modus VIII}
 
   \markup\sekce{peregrinus}
-
-  \markup\sekce{in directum}
-
-  \markup\sekce{paschalis}
 }
 
 \bookpart {
