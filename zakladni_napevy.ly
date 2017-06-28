@@ -818,8 +818,7 @@
 
   \markup\justify{
     3. S ohledem na mezitím provedené změny v uspořádání liturgického roku
-    se mi zdá vhodné následující schéma:
-    (Nevnucuji, neordinuji, nabízím jako možnost. Sám je zachovávám.)
+    lze doporučit následující schéma:
 
     \column{
       \line{\italic{Alma Redemptoris Mater}
