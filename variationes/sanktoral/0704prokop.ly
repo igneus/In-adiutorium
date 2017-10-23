@@ -15,6 +15,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) f g g g f( g) d d \barMaior
     d c( d) d d( f) e d d \barFinalis
@@ -28,7 +29,69 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "zkusit alternativy"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) f g g g f( g) d d \barMaior
+    d \mark\sipka c d d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ho ve -- dl do ti -- cha sa -- mo -- ty
+    a mlu -- vil k_je -- ho srd -- ci.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) f g \mark\sipka f e d( e) d d \barMaior
+    d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ho ve -- dl do ti -- cha sa -- mo -- ty
+    a mlu -- vil k_je -- ho srd -- ci.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) f g f e d( e) d d \barMaior
+    d \mark\sipka e c a c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ho ve -- dl do ti -- cha sa -- mo -- ty
+    a mlu -- vil k_je -- ho srd -- ci.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -37,6 +100,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a( b c) c \barMin c b( c) c c( d b) b \barMaior
     a g a b a g f d e e \barMin
@@ -129,6 +193,162 @@
     quid = "2. ant."
     modus = "III"
     differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    a g a b a g f d e e \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    \mark\sipka a a a a g a g f e e \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    \mark\sipka c c c c b a g a g g \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    \mark\sipka c b a g a g f d e e \barMaior
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    \mark\sipka c c a g a g f a g g \barMaior
+    c c c c( d) c c \barMin
+    c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c \barMin
+    c b c a( g f g) g \barMaior
+    f g a b c a g a g g \barMaior
+    c c c c( d) c c \barMin
+    c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
+    u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -241,26 +461,112 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( e) d4. d4 d c b a( b) a \barMaior
+    a b c d( e) e \barMin f g f e d d \barMax
+    f f f f f( g a) g f f( e) e \barMin
+    g f e f e d c d d \barFinalis
   }
   \addlyrics {
-    Od rá -- na se ce -- lým srd -- cem o -- bra -- cí k_Bo -- hu,
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu, své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "do modu II moc nesedí"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e) d4. d4 d c b a( b) a \barMaior
+    a b c \mark\sipka c( d) d \barMin
+    f g f e d d \barMax
+    \mark\sipka c d d d f d e d( c) c \barMin
+    a c d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
     své -- mu Stvo -- ři -- te -- li,
     k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
     k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f e d c( d) c \barMaior
+    f f f f( g) f \barMin
+    f f a f f( g) g \barMaior
+    f g f e f( g) g a g( f) f \barMin
+    g f d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e d( e) d \barMin
+    f g a a( bes) a \barMin
+    a a g f g g \barMaior
+    g g f e g( a) a a g( f) f \barMin
+    f e c e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 

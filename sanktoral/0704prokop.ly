@@ -17,7 +17,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) f g g g f( g) d d \barMaior
-    d c( d) d d( f) e d d \barFinalis
+    d c d d( f) e d d \barFinalis
   }
   \addlyrics {
     Bůh ho ve -- dl do ti -- cha sa -- mo -- ty
@@ -28,7 +28,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    placet = "zkusit alternativy"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -37,22 +36,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a a( b c) c \barMin c b( c) c c( d b) b \barMaior
-    a g a b a g f d e e \barMin
-    f g a a( b) a a \barMin c c( d) c b( g a) g \barFinalis
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    c c c c b a g a g g \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
   }
   \addlyrics {
-    Od své -- ho mlá -- dí se cvi -- čil v_káz -- ni;
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
     u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
-    pro -- to -- že po -- zve -- dal svou du -- ši k_Bo -- hu.
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "III"
+    differentia = "g"
     psalmus = "Dan 3-III"
-    placet = "závěr je neuspokojivý, určitě předělat. Vyzkoušet také,
-    zda přirozená finála není spíš na a"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
