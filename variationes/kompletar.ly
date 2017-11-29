@@ -118,6 +118,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -134,6 +136,27 @@
     id = "po"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d e( f) e4.( d) \barMin
+    f4 g( a) \mark\sipka g f d e d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
