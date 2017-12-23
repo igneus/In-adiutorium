@@ -106,7 +106,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "možná bude lepší upravit text pro větší zpěvnost, např. již známé _v keři ohnivém_"
+    placet = "možná bude lepší upravit text pro větší zpěvnost, např. již známé _v keři ohnivém_;
+    od _Mojžíšovi_ nezpěvné; _vysvoboď_ jinak"
     id = "predvanocni-18-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -165,6 +166,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_stojíš_ atd. nezpěvné"
     id = "predvanocni-19-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -278,6 +280,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_přijď a osvěť ty, kdo..._ lépe"
     id = "predvanocni-21-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -335,6 +338,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_který spojuje ... vjedno_ lépe"
     id = "predvanocni-22-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -444,6 +448,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_protože_ lépe"
     id = "predvanocni-24-rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -466,6 +471,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "mdlá, půjde mnohem lépe"
     id = "predvanocni-24-rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
