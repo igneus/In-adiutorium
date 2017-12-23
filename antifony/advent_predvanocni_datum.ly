@@ -371,7 +371,7 @@
     c( f f e) f d e( d) c( d) d \barMin
     d( e) d d d e( f) d e d c \barMaior
     d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a g f d( e f) f c \barMax
+    a g f d( e) d c \barMax
     c( f) e f d d( c a) a \barMaior
     c( d) f c e d \barFinalis
   }

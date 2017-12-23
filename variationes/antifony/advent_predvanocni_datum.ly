@@ -1333,7 +1333,7 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c( f f e) f d e( d) c( d) d \barMin
     d( e) d d d e( f) d e d c \barMaior
@@ -1341,6 +1341,39 @@ podobně.}
     a g f d( e f) f c \barMax
     c( f) e f d d( c a) a \barMaior
     c( d) f \mark\sipka c e d \barFinalis
+  }
+  \addlyrics {
+    Ó E -- ma -- nu -- e -- li,
+    krá -- li náš a zá -- ko -- no -- dár -- ce,
+    na te -- be če -- ka -- jí ná -- ro -- dy,
+    a -- bys je za -- chrá -- nil:
+    přijď a dej nám spá -- su,
+    Pa -- ne, náš Bo -- že!
+  }
+  \header {
+    textus_approbatus = "Emanueli, králi náš a zákonodárce,
+    na tebe čekají národy, abys je zachránil:
+    přijď a dej nám spásu, Pane, náš Bože!"
+    fons_externus = "volně podle AR1912, 208."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-23-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( f f e) f d e( d) c( d) d \barMin
+    d( e) d d d e( f) d e d c \barMaior
+    d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a g f \mark\sipka d( e) d c \barMax
+    c( f) e f d d( c a) a \barMaior
+    c( d) f c e d \barFinalis
   }
   \addlyrics {
     Ó E -- ma -- nu -- e -- li,
