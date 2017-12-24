@@ -1580,13 +1580,74 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e( f) g( f d4.) d \barMin
     e4 d c( d) d \barMaior
     d d d( f) f e( f) d( c) c \barMax
 
     d a c d f f f g( a \mark\sipka g f4.) d \barMaior
+    f4 e d e d a a \barMin
+    a( d) d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    A ty, Bet -- lé -- me
+    v_jud -- ské ze -- mi,
+    ne -- jsi vů -- bec nej -- men -- ší,
+
+    pro -- to -- že z_te -- be vy -- jde vlád -- ce,
+    kte -- rý bu -- de pa -- no -- vat
+    mé -- mu iz -- ra -- el -- ské -- mu li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-24-rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e( f) g( f d4.) d \barMin
+    e4 d c( d) d \barMaior
+    d d d( f) f e( f) d( c) c \barMax
+
+    d \mark\sipka c d d f f f g( a g f4.) d \barMaior
+    f4 e d e d a a \barMin
+    a( d) d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    A ty, Bet -- lé -- me
+    v_jud -- ské ze -- mi,
+    ne -- jsi vů -- bec nej -- men -- ší,
+
+    pro -- to -- že z_te -- be vy -- jde vlád -- ce,
+    kte -- rý bu -- de pa -- no -- vat
+    mé -- mu iz -- ra -- el -- ské -- mu li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-24-rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( f) g( f d4.) d \barMin
+    e4 d c( d) d \barMaior
+    d d d( f) f e( f) d( c) c \barMax
+
+    d \mark\sipka d c d f f f g( a g f4.) d \barMaior
     f4 e d e d a a \barMin
     a( d) d f f f e c d d \barFinalis
   }
@@ -1702,7 +1763,7 @@ podobně.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c( d) d \barMin
     c b a b g g \barMaior
@@ -1716,6 +1777,95 @@ podobně.}
   \header {
     quid = "2. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c d c b a g \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) e c c( d) d \barMin
+    c d c b a g \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) e c c( d) d \barMin
+    c \mark\sipka b a b g g \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a a( c) c \barMin
+    d d c b a g \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "predvanocni-24-rch-a2"

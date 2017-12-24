@@ -430,7 +430,7 @@
     e4 d c( d) d \barMaior
     d d d( f) f e( f) d( c) c \barMax
 
-    d a c d f f f g( a g f4.) d \barMaior
+    d c d d f f f g( a g f4.) d \barMaior
     f4 e d e d a a \barMin
     a( d) d f f f e c d d \barFinalis
   }
@@ -448,7 +448,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_protože_ lépe"
     id = "predvanocni-24-rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -457,9 +456,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d c c( d) d \barMin
-    c b a b g g \barMaior
-    a b c a g( a) g \barFinalis
+    c4( d) e c c( d) d \barMin
+    c b a b g g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Zdvih -- ně -- te hla -- vu,
@@ -471,7 +470,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    placet = "mdlá, půjde mnohem lépe"
     id = "predvanocni-24-rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
