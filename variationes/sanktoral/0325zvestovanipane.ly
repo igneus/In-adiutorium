@@ -549,6 +549,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c b c d c b c b a a \barMaior
     g g f( g) \barMin f( a b) c( b) c \barMaior
@@ -558,6 +559,36 @@
   \addlyrics {
     Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
     ne -- boť hle_– při -- chá -- zím
+    a bu -- du byd -- let u -- pro -- střed te -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    fial = "antifony/advent_tyden2.ly#ut-aben?upraveno"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c b c d c b c b a a \barMaior
+    g g f( g) \barMin
+    a( c) c( b) c \barMaior
+    c c c c( d) d d c b a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
+    ne -- boť hle_–
+    při -- chá -- zím
     a bu -- du byd -- let u -- pro -- střed te -- be.
     A -- le -- lu -- ja.
   }

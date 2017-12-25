@@ -827,6 +827,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c b c d c b c b a a \barMaior
     g g f( g) \barMin f( a b) c( b) c \barMaior
@@ -875,11 +876,13 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 c b c d c b c b a a \barMaior
     g g f( g) \barMin
     \mark\sipka a( c) c( b) c \barMaior
-    c c c c( d) d d c b a a \barMin g f g \barFinalis
+    c c c c( d) d d c b a a \barMin
+    g f g \barFinalis
   }
   \addlyrics {
     Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
