@@ -214,7 +214,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "nebude _přinesl_ lepší jen ga a a ?"
     id = "predvanocni-zlm-st-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
