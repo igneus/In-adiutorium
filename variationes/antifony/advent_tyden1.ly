@@ -466,60 +466,6 @@
   }
 }
 
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4 c b c d c b c b a a \barMaior
-    g g f( g) \barMin
-    a( c) c( d) d \barMaior
-    c c c c( d) d d c b a a \barMin g f g \barFinalis
-  }
-  \addlyrics {
-    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
-    ne -- boť hle_–
-    při -- chá -- zím
-    a bu -- du byd -- let u -- pro -- střed te -- be,
-    pra -- ví Pán.
-  }
-  \header {
-    quid = "ant. ke kantikům"
-    modus = "VIII"
-    differentia = "G*"
-    psalmus = ""
-    id = "ne-cte-avig"
-    fons = "advent, 2.t., utery, k Benedictus"
-    fial = "fial://antifony/advent_tyden2.ly#ut-aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4 c b c d c b c b a a \barMaior
-    g g f( g) \barMin
-    a( c) c( b) c \barMaior
-    c c c c( d) d d c b a a \barMin g f g \barFinalis
-  }
-  \addlyrics {
-    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
-    ne -- boť hle_–
-    při -- chá -- zím
-    a bu -- du byd -- let u -- pro -- střed te -- be,
-    pra -- ví Pán.
-  }
-  \header {
-    quid = "ant. ke kantikům"
-    modus = "VIII"
-    differentia = "G*"
-    psalmus = ""
-    id = "ne-cte-avig"
-    fons = "advent, 2.t., utery, k Benedictus"
-    fial = "fial://antifony/advent_tyden2.ly#ut-aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
