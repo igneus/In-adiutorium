@@ -1167,11 +1167,13 @@
     \relative c'' {
       \choralniRezim
       g4 g g g d'-- c d e d \barMaior
-      d c b c( a g) \barMin a a g f g g \barFinalis
+      d c b c( a g) \barMin
+      a a f a g g \barFinalis
     }
     \addlyrics {
       Hos -- po -- di -- nův hlas nad vo -- da -- mi!
-      Vzne -- še -- ný Bůh za -- bu -- rá -- cel hro -- mem.
+      Vzne -- še -- ný Bůh
+      za -- bu -- rá -- cel hro -- mem.
     }
     \header {
       quid = "1. ant."
