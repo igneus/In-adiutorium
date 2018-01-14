@@ -6,11 +6,11 @@
 \markup {\nadpisDen {"2. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( a) a \barMin a( g f) f( g) g4.( a) \barMax
-    a4 a( b) g4. g \barMin
-    a4( g) f e d f e4. e \barFinalis
+    f4 e g f( e) e \barMaior
+    d f f( g) g \barMin
+    a g f f g e e \barFinalis
   }
   \addlyrics {
     Mis -- tře, kde byd -- líš?
@@ -20,7 +20,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = ""
     id = "ne2b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -32,7 +32,7 @@
     \choralniRezim
     f4 g a a g( a) \barMaior
     a a g f e( f) d e e \barMaior
-    c d d( e) \barMin e f e d d d \barFinalis
+    f g a a g f e e e \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci šli,
@@ -41,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "ne2b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a( c) c b c a a \barMaior
-    d( c b) a( b) g g b c a( g) g \barMax
-    g f g g f d d f g g g \barFinalis
+    c4 a c b g a g g \barMin
+    f a c c d c d d( c) \barMaior
+    c c d e c a a c b a( g) g \barFinalis
   }
   \addlyrics {
     On -- dřej ře -- kl Ši -- mo -- no -- vi:
@@ -64,9 +64,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
-    placet = "zkusit lépe"
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
