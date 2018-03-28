@@ -87,8 +87,8 @@
     \relative c'' {
       \choralniRezim
 
-      a4 d c a b c c b4. \barMin
-      a4 a a g a f g4. g \barFinalis
+      g4 c b a b c c b \barMin
+      a a a g a f g g \barFinalis
     }
     \addlyrics {
       Na -- sta -- ly nám dny po -- ká -- ní,
@@ -97,7 +97,7 @@
     \header {
       quid = "ant. dopoledne"
       modus = "VIII"
-      differentia = "G*"
+      differentia = "G"
       psalmus = ""
       id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}

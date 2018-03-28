@@ -4,6 +4,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a( bes) a a a g f g4.( a) \barMin
     a4 a a( bes) a( d,) d e f d d \barMax
@@ -26,6 +27,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g a( bes) a a \mark\sipka g f g g( a) \barMaior
+    \mark\sipka a f e d d e f d d \barMax
+    \mark\sipka c d f e f g f e c d d( c) \barMaior
+    f g f d d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
+    a byl po -- kou -- šen od sa -- ta -- na,
+    žil tam me -- zi di -- vo -- ký -- mi zví -- řa -- ty
+    a an -- dě -- lé mu slou -- ži -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

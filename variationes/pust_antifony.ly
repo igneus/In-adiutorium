@@ -301,6 +301,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
 
       a4 d c a b c c b4. \breathe a4 a a g a f g4. g \bar "||"
@@ -314,6 +315,50 @@
       differentia = "G*"
       psalmus = ""
       id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+
+      a4 d c a b c c b4. \barMin
+      a4 a a g a f g4. g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      \mark\sipka g4 c b a b c c b \barMin
+      a a a g a f g g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

@@ -5,10 +5,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a( bes) a a a g f g4.( a) \barMin
-    a4 a a( bes) a( d,) d e f d d \barMax
-    d d d d f( e) f g( a g) f g( a) a a \barMin
-    a a( g) f e4.( d) d4 e( c) d( e d) d \barFinalis
+    f4 f g a( bes) a a g f g g( a) \barMaior
+    a f e d d e f d d \barMax
+    c d f e f g f e c d d( c) \barMaior
+    f g f d d e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
@@ -21,7 +21,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "minimálně _divokými_ a _sloužili_ opravit"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
