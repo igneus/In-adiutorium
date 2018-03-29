@@ -954,8 +954,11 @@ a Greenovu \italic{Spiritualitu zdola}).
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f e f g( a) a
     a( b) a g g( a) a a \barMin a
@@ -981,6 +984,40 @@ a Greenovu \italic{Spiritualitu zdola}).
     psalmus = ""
     id = "2ne-amag-velik"
     fons = "5. neděle postní, 1. nešp., k Magn.; přidáno aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e f e f g( a) a \barMin
+    a( b) a g g( a) a a \barMin
+    a a a a( e) e \barMaior
+    f( e f) d f f( e) e \barMax
+    e( a g) a( b) a g g( a) \barMaior
+    a a a g( a) g f e e \barMaior
+    d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že pše -- nič -- né zr -- no
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
+    zů -- sta -- ne sa -- mo;
+    o -- du -- mře -- -li však,
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "2ne-amag-velik"
+    fial = "antifony/pust_nedeleB.ly#vmag1?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

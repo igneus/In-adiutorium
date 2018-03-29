@@ -310,17 +310,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e f g( a) a
-    a( b) a g g( a) a a \barMin a
-    a4 a a( e) e \barMaior
+    e4 e e f e f g( a) a \barMin
+    a( b) a g g( a) a a \barMin
+    a a a a( e) e \barMaior
     f( e f) d f f( e) e \barMax
-    e( a g) g( a) g f g4.( a) \barMaior
-    a4 g a b( g) g g( a g) f( g f e) e \barFinalis
+    e( a g) a( b) a g g( a) \barMaior
+    a a a g( a) g f e e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že pše -- nič -- né zr -- no
-    ne -- pad -- ne do ze -- mě a
-    ne -- o -- du -- mře,
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
     zů -- sta -- ne sa -- mo;
     o -- du -- mře -- -li však,
     při -- ne -- se hoj -- ný u -- ži -- tek.
@@ -330,7 +330,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "nemá spád"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
