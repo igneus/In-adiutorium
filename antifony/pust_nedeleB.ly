@@ -111,21 +111,22 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g f g g( a) a \barMaior
-    g4( bes a) a \barMin a g( d) d f e d d \barFinalis
+    f4 g a a g f g g \barMaior
+    f( g a) g \barMin
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
-    Mis -- tře, je do -- bře, že jsme ta -- dy.
+    Mis -- tře,
+    je do -- bře, že jsme ta -- dy.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = ""
-    placet = "lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -207,20 +208,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a c c c d c b c a4. a \barMaior
-    a4 g( a) a a g( f) f( d) d \barMin
-    d e( f) e( f d) d \barFinalis
+    g4 f g a c c c d c b c a a \barMaior
+    c c c c b a g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Mno -- ho jich u -- vě -- ři -- lo v_Je -- ží -- šo -- vo jmé -- no,
-    když vi -- dě -- li zna -- me -- ní, kte -- rá ko -- nal.
+    když vi -- dě -- li zna -- me -- ní,
+    kte -- rá ko -- nal.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "zjevně modus VIII"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -234,7 +235,7 @@
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g a( c) b( c) c c d( c) b( a) a \barMax
     a a a( g) g \barMin g f g g( a) a \barMaior
-    a b c c( a) a g( a) f g( a g) g \barFinalis
+    a b c a a b a g g \barFinalis
   }
   \addlyrics {
     Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
@@ -249,7 +250,6 @@
     psalmus = ""
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
-    placet = "od _aby každý_ snad půjde lépe"
     fial = "pust_svatytyden.ly#po-ne-amag?upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
