@@ -1,4 +1,4 @@
-% -*- master: ../pust_antifony.ly;
+\include "../spolecne.ly"
 
 \markup\nadpisDen{5. neděle postní}
 
@@ -70,10 +70,33 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f( g) g \barMin g( bes) a g a f g4. g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že, stal ses mým po -- moc -- ní -- kem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    placet = "rozhodně není hypomixolydická; spíš hypodórská na g"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c( d) d \barMin
     d( f) e d e c d d \barFinalis
@@ -92,13 +115,51 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  (poznamka z doby vzniku antifony)
+  Zkusenost s opravdovym gregorianskym choralem z Roudnice
+  mi dala odvahu skladat i antifony, ktere jsou krasne,
+  formalne maji kvality prislusneho modu, ale v mych usich
+  s napevem zalmu moc dobre neladi.
+  Ale nevim, nevim, neni ta nasledujici uz moc mimo?
+  Intonovat po ni zalm je pro me male peklo...
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4( c d) f( e) d e c( d c) d \barMin
+    d( c) d f e d e c d bes a \barMaior
+    a a( g a) bes( c) g4.( a) \barMin a4( bes) f g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás, Bo -- že,
+    svý -- mi po -- di -- vu -- hod -- ný -- mi skut -- ky
+    a za -- chraň nás z_mo -- ci smr -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    placet = "hezká, ale ne v modu VII;
+    lze transponovat do modu I, ale finála je tak jako tak neuspokojivá"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4( g a) c( b) a b g( a g) a \barMin
     a( g) a c b a b g a f e \barMaior
     e e( d e) f( g) d4.( e) \barMin
-    d4( c) f e e \barFinalis
+    \mark\sipka d4( c) f e e \barFinalis
   }
   \addlyrics {
     Vy -- svo -- boď nás, Bo -- že,
@@ -114,6 +175,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -137,10 +200,36 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    g4 g g f( g a) bes( a) g bes a( f) f( g) g \barMaior
+    g4 g g g g( a) f( d) d \barMin f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 110"
+    placet = "takový text nesmí mít nemastný neslaný nápěv!"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 e d d( a') a( b) a c b( c) a a \barMaior
     a a g f g e e d( f) f e e \barFinalis
@@ -158,6 +247,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -354,16 +445,47 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Čtvrtek}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d d f( g) g \barMin g f f( g) f d d \barMaior
+    a' b c a g \barMin
+    f g f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha, Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g2"
+    psalmus = ""
+    placet = "tak nějak neuhlazená, nesouladná"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a g( a g) g \barMin
     f g a a g g a g f f \barMaior
     d d f( g) g \barMin
     g f f( g) f d d \barMax
-    f( g a) bes g g( a) a \barMaior
+    \mark\sipka f( g a) bes g g( a) a \barMaior
     g a g f d c( d) d \barFinalis
   }
   \addlyrics {
@@ -383,6 +505,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d d f( g) g \barMin
+    \mark\sipka f g g( a) f d d \barMaior
+    f( g a) bes g g( a) a \barMin
+    g a g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g2"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
