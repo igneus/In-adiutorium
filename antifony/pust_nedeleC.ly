@@ -21,6 +21,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zkulturnit"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -49,10 +50,14 @@
     Ne -- jen z_chle -- ba ži -- je člo -- věk.
   }
   \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
     quid = "ant. k Benedictus"
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "nepříliš libé neobvyklé postupy"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -75,6 +80,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "první část je nepěkná"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -101,10 +107,14 @@
     by -- li to Moj -- žíš a E -- li -- áš.
   }
   \header {
+    textus_approbatus = "Když se Ježíš modlil,
+    výraz tváře se mu změnil a jeho šat oslnivě zbělel.
+    A hle, rozmlouvali s ním dva muži – byli to Mojžíš a Eliáš."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "nepěkná"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -133,6 +143,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "_nepomíjejícího_ je škaredé, i jinak půjde lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -155,6 +166,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "melodie není pro modus V moc typická, půjde lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -166,7 +178,7 @@
   \relative c' {
     \choralniRezim
     d4 f e d f e g( a) \barMaior
-    a a a f g f( e) d \barMin c d e e d d \barMaior
+    a a a f g f( e) d \barMin c d e e d d \barFinalis
   }
   \addlyrics {
     O -- brať -- te se, pra -- ví Pán,
@@ -201,6 +213,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "je tu co vylepšit"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -225,6 +238,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "bez spádu"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -249,6 +263,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "závěr snad spíš zjednodušit, začátek možná upravit na typičtější"
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -271,6 +286,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "začátek nezpěvný"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -297,10 +313,16 @@
     byl ztra -- cen, a je za -- se na -- le -- zen.
   }
   \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "spíš modus I než VI; nemá spád"
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -326,6 +348,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "_ať hodí_ snad začít ještě na a"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -348,6 +371,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "začátek nezpěvný a nepatří k modu"
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -370,6 +394,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nezpěvná"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
