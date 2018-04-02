@@ -391,6 +391,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d( a) a d c b a a \barMaior
     \mark\sipka b c a a \barMin
@@ -437,7 +438,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( c) d e f e d d \barMaior
     e f d d \barMin

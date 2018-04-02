@@ -75,8 +75,8 @@
   \relative c'' {
     \choralniRezim
     g4 g( a) a \barMin
-    g a c c d c d( c) d d( c) \barMaior
-    b a g g f( g a) g \barFinalis
+    c c b a b a g( a) g g \barMaior
+    g f g a g g \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -88,7 +88,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 118"
-    placet = "lépe"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -280,11 +279,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b( a) g( a) a \barMaior
-    e g( a) a \barMin
-    a g f e e e f e d( f) e e \barFinalis
+    e4 g a a \barMin
+    g b( a) a \barMaior
+    a a a g e e f e d e e \barFinalis
   }
   \addlyrics {
     Jsi u -- zdra -- ven:
@@ -294,9 +293,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = ""
-    placet = "nic moc"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -414,8 +412,9 @@
   \relative c'' {
     \choralniRezim
     d4 a a d c b a g g( a) \barMaior
-    a g a a b( c) a a c( d c) c d d \barMin
-    d d c( d) c( a) a b( c a) g( a) a \barFinalis
+    a g a a b( c) a a c( d c) c d d \barMaior
+    d c d e d c a( g) g \barMin
+    a( c) b a \barFinalis
   }
   \addlyrics {
     Zná -- te mě a ví -- te, od -- kud jsem,
@@ -428,9 +427,6 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    placet = "_ale poslal mě_ možná nejdřív vzestup a pak výraznou kadenci;
-    takhle je to takové chcíplé, což neodpovídá konfrontačnímu charakteru
-    zhudebněného textu"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

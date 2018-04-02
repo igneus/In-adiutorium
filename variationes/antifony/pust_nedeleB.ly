@@ -93,6 +93,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a( d) c d4. a \barMin a4 a( b) g g( a) a \barMaior
     a a a( g) f e( f d4.) d \barMin f4 e( d) f e g( a) a \barMaior
@@ -114,12 +115,44 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a( d) c d d \barMin
+    d d( e) c c( d) d \barMaior
+    d c( b) a g a a \barMin
+    g a c d d( c) d \barMaior
+    d c( d) \barMin
+    d e( f) d c d( c) \barMin
+    a g( a) c( b a) a \barFinalis
+  }
+  \addlyrics {
+    Bdi nad ná -- mi,
+    náš Spa -- si -- te -- li,
+    ať nás ne -- pře -- mů -- že
+    lsti -- vý po -- ku -- ši -- tel;
+    vždyť ty
+    jsi náš po -- moc -- ník
+    v_kaž -- dé do -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{2. neděle postní}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a a g( a) b( c) c \barMaior
     c c c d( a) a \barMin c( b) a g g( a g) g \barMax
@@ -151,6 +184,59 @@
     c( d) c a g g \barMaior
     f g a a b c a b( c) a( g) g \barMaior
     a f e d d f( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl před ni -- mi pro -- mě -- něn
+    a je -- ho o -- děv
+    zá -- ři -- vě zbě -- lel.
+    Zje -- vil se jim E -- li -- áš s_Moj -- ží -- šem
+    a roz -- mlou -- va -- li s_Je -- ží -- šem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a a \barMaior
+    c c c b( a) g \barMin
+    f( g) a a g g \barMaior
+    f a c c d c d c( b) a a \barMaior
+    a c b a g f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl před ni -- mi pro -- mě -- něn
+    a je -- ho o -- děv
+    zá -- ři -- vě zbě -- lel.
+    Zje -- vil se jim E -- li -- áš s_Moj -- ží -- šem
+    a roz -- mlou -- va -- li s_Je -- ží -- šem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g f g g( a) a a \barMaior
+    c c c b( a) g \barMin
+    f( g) a a g g \barMaior
+    f a c c d c d c( b) a a \barMaior
+    a c b a g f( g) \mark\sipka a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš byl před ni -- mi pro -- mě -- něn

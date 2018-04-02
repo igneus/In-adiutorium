@@ -63,21 +63,28 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d) c d4. a \barMin a4 a( b) g g( a) a \barMaior
-    a a a( g) f e( f d4.) d \barMin f4 e( d) f e g( a) a \barMaior
-    a g4.( a) \barMin a4 b( c) c( d e) d( c) c4.( d) \barMin d4 c( b) a( b g a) a \barFinalis
+    a( d) c d d \barMin
+    d d( e) c c( d) d \barMaior
+    d c( b) a g a a \barMin
+    g a c d d( c) d \barMaior
+    d c( d) \barMin
+    d e( f) d c d( c) \barMin
+    a g( a) c( b a) a \barFinalis
   }
   \addlyrics {
-    Bdi nad ná -- mi, náš Spa -- si -- te -- li,
-    ať nás ne -- pře -- mů -- že lsti -- vý po -- ku -- ši -- tel;
-    vždyť ty jsi náš po -- moc -- ník v_kaž -- dé do -- bě.
+    Bdi nad ná -- mi,
+    náš Spa -- si -- te -- li,
+    ať nás ne -- pře -- mů -- že
+    lsti -- vý po -- ku -- ši -- tel;
+    vždyť ty
+    jsi náš po -- moc -- ník
+    v_kaž -- dé do -- bě.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    placet = "není zlá, ale rozsah je smrtící"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -88,23 +95,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a g( a) b( c) c \barMaior
-    c c c d( a) a \barMin c( b) a g g( a g) g \barMax
-    a( c) c c c c b c d( c) b( a) a \barMaior
-    a a( b a) g( f) e e e( f) e4. e \barFinalis
+    g4 g g g f g g( a) a a \barMaior
+    c c c b( a) g \barMin
+    f( g) a a g g \barMaior
+    f a c c d c d c( b) a a \barMaior
+    a c b a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš byl před ni -- mi pro -- mě -- něn
-    a je -- ho o -- děv zá -- ři -- vě zbě -- lel.
+    a je -- ho o -- děv
+    zá -- ři -- vě zbě -- lel.
     Zje -- vil se jim E -- li -- áš s_Moj -- ží -- šem
     a roz -- mlou -- va -- li s_Je -- ží -- šem.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "zkusit lépe"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

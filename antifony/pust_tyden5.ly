@@ -5,23 +5,24 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e) e e c( d e4.) e \barMin e4 f g f( e) d \barMaior
-    d d c b c( d e) e \barMaior
-    e f f f e c c( d) d \barFinalis
+    a4 f a g g \barMin
+    b c a g g \barMaior
+    g g g g f( e) d \barMin
+    d e f g f a g g \barFinalis
   }
   \addlyrics {
-    Vlo -- žím svůj zá -- kon do je -- jich srd -- ce,
+    Vlo -- žím svůj zá -- kon
+    do je -- jich srd -- ce,
     bu -- du je -- jich Bo -- hem
     a o -- ni bu -- dou mým li -- dem.
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 141"
-    placet = "těžce neuspokojivá finála; antifona navíc nic moc - lépe"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -30,22 +31,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    g4( a) a a( g) a f( e) d f( bes) a a \barMaior
-    a( bes) a g( a) a4.( e) \barMin e4 e d e e g( a) a \barMaior
-    a( g) g( a) a c( b) a b g( e) e \barMin f( g) f e( c d4.) d \barFinalis
+    a4 a g a g f bes a a \barMaior
+    g a g g f g a bes g g( a) a \barMaior
+    a g f a g f d d \barMin
+    c( d) e d d \barFinalis
   }
   \addlyrics {
     Všech -- no po -- va -- žu -- ji za ško -- du
     ve srov -- ná -- ní s_o -- ním ne -- smír -- ně cen -- ným
-    po -- zná -- ním Je -- ží -- še Kris -- ta, své -- ho Pá -- na.
+    po -- zná -- ním Je -- ží -- še Kris -- ta,
+    své -- ho Pá -- na.
   }
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Žalm 142"
-    placet = "zaslouží trochu úsilí"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -54,10 +55,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
+    d4 c( d) d d e( d c) c( d) d4.( a) \barMin
+    a4( b g) g( a) a \barFinalis
   }
   \addlyrics {
-    Syn Bo -- ží byl po -- sluš -- ný až k_smr -- ti.
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
   }
   \header {
     quid = "3. ant."
@@ -65,7 +68,7 @@
     differentia = "d"
     psalmus = "Flp 2"
     id = "ne-1ne-a3"
-    fons = "Zelený čtvtek, antifona namísto responsoria (velký kus spol. textu i melodie)"
+    fial = "pust_triduum.ly#so-resp?cast&jiny_text"
     piece = \markup {\sestavTitulek}
   }
 }

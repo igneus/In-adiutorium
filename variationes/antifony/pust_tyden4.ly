@@ -139,6 +139,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a \barMin
     g a c c d c d( c) d d( c) \barMaior
@@ -345,6 +346,29 @@
     g4 g( a) a \barMin
     c c b a b a a g g \barMaior
     g \mark\sipka f g a g g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a \barMin
+    c c b a b a \mark\sipka g( a) g g \barMaior
+    g f g a g g \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -881,6 +905,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b( a) g( a) a \barMaior
     e g( a) a \barMin
@@ -908,6 +933,29 @@
     e4 g a a \barMin
     g b( a) a \barMaior
     a g a f e e f d d e e \barFinalis
+  }
+  \addlyrics {
+    Jsi u -- zdra -- ven:
+    už ne -- hřeš,
+    a -- by tě ne -- stih -- lo ně -- co hor -- ší -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g a a \barMin
+    g b( a) a \barMaior
+    \mark\sipka a a a g e e f e d e e \barFinalis
   }
   \addlyrics {
     Jsi u -- zdra -- ven:
@@ -1098,10 +1146,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Pátek}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a a d c b a g g( a) \barMaior
     a g a a b( c) a a c( d c) c d d \barMin
@@ -1125,6 +1176,62 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a a d c b a g g( a) \barMaior
+    a g a a b( c) a a c( d c) c d d \barMaior
+    d d \mark\sipka d( e) c( a) a \barMin
+    g( c) b( a) a \barFinalis
+  }
+  \addlyrics {
+    Zná -- te mě a ví -- te, od -- kud jsem,
+    a pře -- ce jsem ne -- při -- šel sám od se -- be,
+    a -- le po -- slal mě
+    můj O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Ou, ztratil se kousek textu a až doteď jsem si toho nevšiml!
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a a d c b a g g( a) \barMaior
+    a g a a b( c) a a c( d c) c d d \barMaior
+    \mark\sipka d c d e d c a( g) g \barMin
+    a( c) b a \barFinalis
+  }
+  \addlyrics {
+    Zná -- te mě a ví -- te, od -- kud jsem,
+    a pře -- ce jsem ne -- při -- šel sám od se -- be,
+    a -- le po -- slal mě můj O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

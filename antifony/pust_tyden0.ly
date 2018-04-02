@@ -71,11 +71,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d( c) d e f e d d \barMaior
-    e f d d \barMin
-    c d d \barFinalis
+    d4 d( a) a d c b a a \barMaior
+    b c a a \barMin
+    g a a \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mne,
@@ -84,10 +84,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
-    placet = "nic moc"
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&jiny_text"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
