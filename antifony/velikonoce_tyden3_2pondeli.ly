@@ -80,7 +80,7 @@
     \choralniRezim
     c d d d c d e d c b( c d) d \barMaior
     d d( e d) \barMin d4 c b c( a g4.) g \barMaior
-    g4 a a( g) g \barFinalis
+    f4 a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
@@ -92,7 +92,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 123"
-    placet = "_bude navěky světlem_ pořád není ono"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
