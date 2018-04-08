@@ -355,10 +355,35 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 a g f e f d d \barMaior
       f f g( a) g g f g g( f) d \barMin
       f e c c d d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 a g f e f d d \barMaior
+      f f g( a) \mark\sipka a a bes g g( a) a \barMin
+      f g f e f d d \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl Jo -- se -- fo -- vi:

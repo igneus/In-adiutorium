@@ -566,6 +566,111 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e d c e e d d \barMin
+    c e g g( a) g \barMin
+    a c b a g g \barMaior
+    a a g f a b a a( g) g \barMin
+    f g f e d c d c c \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f a a g g \barMin
+    f a c c( d) c \barMin
+    \mark\sipka b c b a g g \barMaior
+    f a c c d b c a( g) g \barMin
+    a g f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a g f a a g g \barMin
+    f a c c( d) c \barMin
+    d f e d c c \barMaior
+    a c bes a g f g g( a) a \barMin
+    a g f g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e d c \barMin
+    f f f g f \barMin
+    d f e d c c \barMaior
+    f f f f g a g g( f) f \barMin
+    d f e d c a c d d \barFinalis
+  }
+  \addlyrics {
+    Od rá -- na se ce -- lým srd -- cem
+    o -- bra -- cí k_Bo -- hu,
+    své -- mu Stvo -- ři -- te -- li,
+    k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
+    k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

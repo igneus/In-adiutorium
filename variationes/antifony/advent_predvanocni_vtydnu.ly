@@ -813,6 +813,78 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e c) c \barMin
+    a b c d( f) e \barMaior
+    e( a g a4.) e \barMin
+    \mark\sipka f4 e f c4. d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e c) c \barMin
+    a b c d( f) e \barMaior
+    e( a g a4.) e \barMin
+    \mark\sipka f4 e f d4. e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f e d d( e) \barMaior
+    e( a g a4.) e \barMin
+    \mark\sipka f4 e f d e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak % ZLOM
 
 \markup\nadpisDen {pátek}
