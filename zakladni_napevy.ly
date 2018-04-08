@@ -445,7 +445,7 @@
 
   \markup\sekce{IV.1.1 s knězem nebo jáhnem}
 
-  \markup\wordwrap{Z liturgických zdrojů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
+  \markup\wordwrap{Z materiálů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
 
   \score {
     \transpose f' c'' { \relative c' {
