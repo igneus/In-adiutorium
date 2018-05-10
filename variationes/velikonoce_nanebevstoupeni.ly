@@ -1388,6 +1388,29 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d c e( d) d \barMin
+    e f e d c a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1412,6 +1435,80 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4( f) g f( d) d f g a a( bes a) a \barMaior
+    a a( g f) e f d d \barMax
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    placet = "nemastná-neslaná"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d c( a) a g f g g( a) a \barMin
+    a a( c) b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d( e) c \barMin
+    b c a g g \barMaior
+    g f a c b( a) g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel
+    od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
