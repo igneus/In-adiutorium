@@ -1390,7 +1390,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     c4 d c e( d) d \barMin
     e f e d c a g g \barMaior
@@ -1462,7 +1462,6 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     d4 d c( a) a g f g g( a) a \barMin
     a a( c) b a g g \barMaior
@@ -1485,7 +1484,6 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     d4 d d( e) c \barMin
     b c a g g \barMaior
@@ -1502,6 +1500,29 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     quid = "ant. v poledne"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) d d e c a a \barMaior
+    a g f g a( c) c \barMin
+    b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}

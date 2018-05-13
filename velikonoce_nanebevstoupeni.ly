@@ -408,11 +408,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f e f( g) g \barMin
-    g f e d c c( d) d d \barMax
-    d e( d) c( d) d \barFinalis
+    c4 d c e( d) d \barMin
+    e f e d c a g g \barMaior
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Svou ve -- leb -- nos -- tí
@@ -421,10 +421,9 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
-    placet = "text si říká o zvukomalbu"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -433,10 +432,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    g4( f) g f( d) d f g a a( bes a) a \barMaior
-    a a( g f) e f d d \barMax
-    e d c( d) d \barFinalis
+    c4 c c( d) d d e c a a \barMaior
+    a g f g a( c) c \barMin
+    b a g( a) g \barFinalis
   }
   \addlyrics {
     Kris -- tus vy -- šel od Ot -- ce z_ne -- be
@@ -445,10 +443,9 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "g"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
-    placet = "nemastná-neslaná"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
