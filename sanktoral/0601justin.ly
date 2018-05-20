@@ -29,6 +29,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "závěr zpěvnější"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -51,6 +52,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "nezpěvná"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -254,6 +254,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "rozsah přes oktávu"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
