@@ -74,6 +74,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 40-I"
+    placet = "půjde lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -96,6 +97,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 85"
+    placet = "v _sám sebe_ je přirozeně přízvuk na _sebe_, ne na _sám_; melisma z _ni_ pryč"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -122,6 +124,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 63"
+    placet = "málo uspokojivý závěr; půjde lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -198,6 +201,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "dlouhé melisma na _spl_ nejde zpívat"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -222,6 +226,7 @@
     psalmus = ""
     % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
     % ale utrzek nesel samostatne pouzit.
+    placet = "melisma na _jedno_ zní těžkopádně"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -244,6 +249,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -270,6 +276,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "prostřední část je nezpěvná"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -298,6 +305,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "nápadně a nelibě moc torculů"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -347,6 +355,7 @@
     psalmus = "Žalm 111"
     % motiv ze zdrojove antifony neni prevzat doslovne, ale dilem posunut o sekundu dolu
     fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"
+    placet = "velká tercie na _milosrdný_ zní nelibě"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -373,6 +382,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Kol 1"
+    placet = "zpěvněji"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
