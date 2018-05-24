@@ -431,7 +431,7 @@
     f g g( a) a \barMaior
     a bes a a c a g( a) a \barMaior
     a a a g( f) f \barMin
-    e f g f e f d d \barFinalis
+    e f g a f e d d \barFinalis
   }
   \addlyrics {
     Ot -- če, pro -- sím za ně,

@@ -34,6 +34,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a( b a g) g \barMin
+    f g \mark\sipka a( c) c b g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -998,6 +1020,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) c \barMin
+    c c c c b a g( a) g \barMaior
+    f a c( d) d( c) c \barMin
+    c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je ob -- raz
+    ne -- vi -- di -- tel -- né -- ho Bo -- ha,
+    dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo.
+  }
+  \header {
+    textus_approbatus = "Kristus je obraz neviditelného Boha,
+    zrozený dříve než celé tvorstvo."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Kol 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1171,13 +1219,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e d d \barMin
     f g g( a) a \barMaior
     a bes a a c a g( a) a \barMaior
     \mark\sipka a a a g( f) f \barMin
     e f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, pro -- sím za ně,
+    vždyť jsou tvo -- ji,
+    a pro ně se za -- svě -- cu -- ji,
+    a -- by i o -- ni
+    by -- li po -- svě -- ce -- ni v_prav -- dě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f e d d \barMin
+    f g g( a) a \barMaior
+    a bes a a c a g( a) a \barMaior
+    a a a g( f) f \barMin
+    e f g \mark\sipka a f e d d \barFinalis
   }
   \addlyrics {
     Ot -- če, pro -- sím za ně,
