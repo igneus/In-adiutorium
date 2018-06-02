@@ -57,11 +57,11 @@
   }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a g) g( c) c c d c d( c) c \barMin
-    c c c( d) c a( b a g) g \barMaior
-    g f d f( g) a g g \barFinalis
+    f4 a a a g f f( g) g \barMin
+    g a g f d d \barMaior
+    c d f g f e( d) d \barFinalis
   }
   \addlyrics {
     Při -- ná -- šej -- te sa -- mi se -- be
@@ -71,10 +71,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 40-I"
-    placet = "půjde lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -84,8 +83,8 @@
   \relative c' {
     \choralniRezim
     e4 e e f d d( e) e \barMaior
-    e e( a) a b a g g( a f) f( e) \barMin
-    d f g a( g) f( e) e \barFinalis
+    e e( a) a a b g g( a) a \barMin
+    a g a a( g) f( e) e \barFinalis
   }
   \addlyrics {
     Kris -- tus mi -- lo -- val cír -- kev
@@ -97,7 +96,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 85"
-    placet = "v _sám sebe_ je přirozeně přízvuk na _sebe_, ne na _sám_; melisma z _ni_ pryč"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -108,10 +106,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c a \barMin
-    d c b a( g) g( a) a \barMaior
-    b c d d d( e d) c d( c) \barMin
-    a a c b g g( a) a a \barFinalis
+    g4 g g f a \barMin
+    c b a c( b) a( g) g \barMaior
+    a b c c c d d( c) \barMin
+    a a c b g g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- to -- vou kr -- ví
@@ -121,10 +119,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
-    placet = "málo uspokojivý závěr; půjde lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -210,7 +207,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a g c b a( c b) b \barMaior
+    g4 g g g a g c( b) b \barMaior
     c c a( g) a g f \barMin
     f f-! g a g g \barFinalis
   }
@@ -226,7 +223,6 @@
     psalmus = ""
     % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
     % ale utrzek nesel samostatne pouzit.
-    placet = "melisma na _jedno_ zní těžkopádně"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -339,7 +335,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f a bes a g f \barMaior
+    f g f g a bes a g f \barMaior
     g-- g a g f e d \barMin
     c d e d d \barFinalis
   }
@@ -353,9 +349,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 111"
-    % motiv ze zdrojove antifony neni prevzat doslovne, ale dilem posunut o sekundu dolu
+    % motiv není převzat doslovně
     fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"
-    placet = "velká tercie na _milosrdný_ zní nelibě"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -364,9 +359,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a( d c) c \barMin
-    d d d d c b a( b g) g( a) \barMaior
-    g a c( d) d( c) c \barMin
+    c4 c c c( d c) c \barMin
+    c c c c b a g( a) g \barMaior
+    f a c( d) d( c) c \barMin
     c b g a( g) g \barFinalis
   }
   \addlyrics {
@@ -379,10 +374,9 @@
     textus_approbatus = "Kristus je obraz neviditelného Boha,
     zrozený dříve než celé tvorstvo."
     quid = "3. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Kol 1"
-    placet = "zpěvněji"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
