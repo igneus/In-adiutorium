@@ -10,11 +10,9 @@
             "sv. otce Dominika, kněze"
             slavnost
             8.8.
-            "vlastní texty Řádu kazatelů"
+            \textyOP
   composer = "Jakub Pavlík"
 }
-
-\markup\poznamkaOP
 
 \markup\small\justify{
   Nápěvy zpracovány s přihlédnutím
