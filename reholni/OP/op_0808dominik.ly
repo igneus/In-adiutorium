@@ -103,26 +103,24 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f( g) f g f g( a) a( g) \barMax
+    f( d) f( g) g f \barFinalis
     % V
     \neviditelna a
+    a4( bes) a a a a g f g( a) a( g) \barFinalis
 
-    % R
-    \neviditelna a
-
-    % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vzdá -- vej -- te Pá -- nu, Bo -- ží dě -- ti,_*
     čest a slá -- vu.
-    \Verse Vzdá -- vej -- te po -- ctu je -- ho jmé -- nu._*
-    \Response Čest a slá -- vu.
+    \Verse Vzdá -- vej -- te po -- ctu je -- ho jmé -- nu.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -236,6 +234,7 @@
   }
 }
 
+%{
 \score {
   \relative c' {
     \choralniRezim
@@ -305,22 +304,31 @@
 }
 
 \markup\italic{Nebo další možnosti, zde nezpracované.}
+%}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g( c b) c d( e) d \barMin
+    c b a b g g \barMaior
+    d' e( f g) g( d) \barMin
+    f( e) d c( d) c c \barMin
+    a( g f) g a a( g) g \barFinalis
   }
   \addlyrics {
-    Ja -- ko žíz -- ní je -- len po pra -- me -- ni vo -- dy,
-    tak žíz -- nil Kris -- tův slu -- žeb -- ník po mu -- čed -- nic -- tví.
+    Ja -- ko žíz -- ní je -- len
+    po pra -- me -- ni vo -- dy,
+    tak žíz -- nil
+    Kris -- tův slu -- žeb -- ník
+    po mu -- čed -- nic -- tví.
   }
   \header {
+    fons_externus = "volně podle AOP4, 694"
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -371,26 +379,24 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    f d f g g f \barFinalis
     % V
     \neviditelna a
-
-    % R
-    \neviditelna a
-
+    a4 a a( bes) a g( a) g g \barMin a g f g( a) a( g) \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vy -- pra -- vuj -- te me -- zi po -- ha -- ny_*
     o Pá -- no -- vě slá -- vě.
-    \Verse Me -- zi vše -- mi ná -- ro -- dy o je -- ho di -- vech._*
-    \Response O Pá -- no -- vě slá -- vě.
+    \Verse Me -- zi vše -- mi ná -- ro -- dy o je -- ho di -- vech.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -522,17 +528,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c a c( d) d \barMaior
+    d( f) f \barMin
+    g f f g f d d \barMaior
+    f e c c d d \barFinalis
   }
   \addlyrics {
     Hla -- si -- tě vo -- lal:
-    Pa -- ne, smi -- luj se nad svým li -- dem.
+    Pa -- ne,
+    smi -- luj se nad svým li -- dem.
     Co bu -- de s_hříš -- ní -- ky?
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Ef 1"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -544,26 +554,24 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 g g f f \barMin f f g g f g( a) a( g) \barMax
+    g f d f g g f \barFinalis
     % V
     \neviditelna a
-
-    % R
-    \neviditelna a
-
+    a4 a a a g( a) g g \barMin a g f g g( a) \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slov -- o_*
     a za -- cho -- vá -- va -- jí je.
-    \Verse Při -- ná -- še -- jí u -- ži -- tek v_tr -- pě -- li -- vos -- ti._*
-    \Response A za -- cho -- vá -- va -- jí je.
+    \Verse Při -- ná -- še -- jí u -- ži -- tek v_tr -- pě -- li -- vos -- ti.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "2ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -572,17 +580,24 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f e) d( c) f( g) a \barMin
+    c( b a4.) f4( e d) e( f e) d c( d) d \barMaior
+    a' c d c( d) d c a( g a) f g( a) a \barMaior
+    d, f( e) d( e) d d( c) \barMin
+    f g( a) a( g f) e( d c) e( f) e d d \barFinalis
   }
   \addlyrics {
-    Vel -- ký Ot -- če, sva -- tý Do -- mi -- ni -- ku,
+    Vel -- ký Ot -- če,
+    sva -- tý Do -- mi -- ni -- ku,
     v_ho -- di -- ně smr -- ti nás přij -- mi k_so -- bě,
-    a zde na ze -- mi na nás po -- hlí -- žej vždy s_lás -- kou.
+    a zde na ze -- mi
+    na nás po -- hlí -- žej vždy s_lás -- kou.
   }
   \header {
+    fons_externus = "volně podle AOP4, 708"
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "g"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
