@@ -9,6 +9,7 @@
   poet = \markup\column{
            \line{"T: Denní modlitba církve"}
   }
+  tagline = \markup\tirazMala
 }
 
 \layout {
@@ -86,10 +87,10 @@ akordy = \chords {
   c1 f2 g \cal
   % Pan
   c1 g2 f g \cal
-  c1 f4. g \cal
+  c1 f2 g2 \cal
   % Nebesot
   c1 f2 g \cal
-  c1 f4 g2 \cal
+  c1 f2 g2 \cal
   % Slava
   c1 f4 c \cal
   c1 \cal
@@ -126,17 +127,17 @@ melodie = \relative c' {
   % Pan
   c,4. e8 g4 f8 e d4. e8 f e f g \time 2/4 g4 r \time 4/4
   \aleluja
-  c,8 c e f g g g g \time 6/8 a g f g r4 \time 4/4
+  c,8 c e f g g g g a4 g8 f g r8 r4
   \aleluja \strofa
 
   % Nebot nadesla
   r4 c,8 e g g g r a8 a g f g g r4
   \aleluja
-  r4 c,8 e g g g g \time 3/4 f a g g r4 \time 4/4
+  r4 c,8 e g g g g r4 f8 a g g r4
   \aleluja \strofa
 
   % Slava
-  \time 2/4 c,4. e8 g g r g a( g) g r \time 4/4
+  \time 2/4 c,4. e8 g4 g8 g a( g) g r \time 4/4
   \aleluja
   r8 c, e f g g g r
   \aleluja \strofa
