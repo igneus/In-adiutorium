@@ -81,6 +81,11 @@ Verse = \lyricmode {
    (interpret-markup layout props
 		     #{\markup{ \vspace #2
                              \bold\huge\fill-line{ "" #obsah ""} } #}))
+#(define-markup-command (nadpisSvatek layout props obsah)(markup?)
+   "Novy den - vycentrovany vyrazny nadpis na nove strance"
+   (interpret-markup layout props
+		     #{\markup{
+                             \italic\fill-line{ "" #obsah ""} } #}))
 
 % Vybrane zalmove napevy
 
@@ -217,7 +222,8 @@ Verse = \lyricmode {
 
 % RCH - responsoria
 
-\markup\nadpisDen{"sobota 22. 8."}
+\markup\nadpisDen{"středa 22. 8."}
+\markup\nadpisSvatek{"památka Panny Marie, Královny"}
 
 \score {
   \relative c' {
@@ -251,43 +257,44 @@ Verse = \lyricmode {
   }
 }
 
-\markup\nadpisDen{"neděle 23. 8."}
+\markup\nadpisDen{"čtvrtek 23. 8."}
 
 \score {
-  \relative c' {
-    \choralniRezim
+    \relative c' {
+      \choralniRezim
 
-    % R
-    \neviditelna f
-    f4 f f f g f f g( a) a( g) \barMax
-    g( f d) f g g f f \barFinalis
-    % V
-    \neviditelna f
-    a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
-    % R
-    \neviditelna g
-    g( f d) f g g f f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a( bes) a a a g( f) g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Má du -- še po to -- bě žíz -- ní, Bo -- že,_*
+      hle -- dám tě od čas -- né -- ho rá -- na.
+      \Verse Tvá pra -- vi -- ce mě pod -- pí -- rá,_*
+      \Response hle -- dám tě od čas -- né -- ho rá -- na.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ct-rch"
+      piece = \markup\sestavTitulekResp
+    }
   }
-  \addlyrics {
-    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
-    smi -- luj se nad ná -- mi.
-    \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
-    \Response smi -- luj se nad ná -- mi.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = "1ne-rch"
-    piece = \markup\sestavTitulekResp
-  }
-}
 
 \pageBreak
 
-\markup\nadpisDen{"pondělí 24. 8."}
+\markup\nadpisDen{"pátek 24. 8."}
+\markup\nadpisSvatek{"svátek sv. Bartoloměje, apoštola"}
 
 \score {
   \relative c' {
@@ -320,7 +327,8 @@ Verse = \lyricmode {
   }
 }
 
-\markup\nadpisDen{"úterý 25. 8."}
+\markup\nadpisDen{"sobota 25. 8."}
+\markup\nadpisSvatek{"sv. Pěti bratří, mučedníků"}
 
 \score {
   \relative c' {
@@ -353,38 +361,39 @@ Verse = \lyricmode {
   }
 }
 
-\markup\nadpisDen{"středa 26. 8."}
+\markup\nadpisDen{"neděle 26. 8."}
 
 \score {
-  \relative c' {
-    \choralniRezim
+    \relative c' {
+      \choralniRezim
 
-    % R
-    \neviditelna f
-    f f f f f f f f g f g( a) a( g) \barMax
-    g g a g( f) d f( g) g f \barFinalis
-    % V
-    \neviditelna a
-    a( bes) a a g( a) g \barMin g g( f) g( a) a( g) \barMax
-    % R
-    \neviditelna g
-    g g a g( f) d f( g) g f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-rch"
+      piece = \markup\sestavTitulekResp
+    }
   }
-  \addlyrics {
-    \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
-    \Verse U -- kaž mi ces -- tu svých pří -- ka -- zů,_*
-    \Response ať za -- cho -- vá -- vám tvůj zá -- kon.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = "1st-rch"
-    piece = \markup\sestavTitulekResp
-  }
-}
 
 % kompletar
 
@@ -454,7 +463,7 @@ Verse = \lyricmode {
     \choralniRezim
     g4 a( c)
     c4 c c-! \parenthesize a a \barMin
-    c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
+    c4 c d-! \parenthesize c c \parenthesize c \stemUp b(-! a) c \barMaior
     c4 c a c-! \parenthesize c b( a) \barFinalis
   }
   \header {
