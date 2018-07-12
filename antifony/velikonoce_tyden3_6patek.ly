@@ -7,9 +7,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c d) d \barMin
-    d( f) e( f) f g f e f d d \barMaior
-    e d c( d) d \barFinalis
+    d4( f) f \barMin
+    f f f g f e f d d \barMaior
+    c d f( e) d \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -21,7 +21,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,7 +56,7 @@
   \relative c'' {
     \choralniRezim
     d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
-    a a g g \barFinalis
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
@@ -68,7 +68,7 @@
     differentia = "d"
     psalmus = "Žalm 100"
     id = "rch-a3"
-    fons = "žaltář, pátek 1.t., rch, 3.ant.; doplněno aleluja"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -100,10 +100,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
     a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
-    g f e( f) d4. d \barMaior
-    e4 d f( d) d \barFinalis
+    g f e( f) d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na né krá -- lov -- ství_*
@@ -117,7 +116,7 @@
     differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
-    fons = "Květná neděle, ad Benedictus, poslední část."
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

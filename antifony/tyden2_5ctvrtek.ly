@@ -11,17 +11,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c b c d c a b b \barMaior
-    c b c a g a c d b a g g \barFinalis
+    g4 a b b c d c a b b \barMaior
+    c b c a g a c( d) b a g g \barFinalis
 
-    a^\rubrVelikAleluja g f( g) g \barFinalis
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
-    na -- vě -- ky bu -- de -- me
-    %chvá -- lit % záměna slov kvůli rytmu
-    ve -- le -- bit
-    tvé jmé -- no.
+    na -- vě -- ky bu -- de -- me chvá -- lit tvé jmé -- no.
 
     A -- le -- lu -- ja.
   }
@@ -30,7 +27,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 44-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -43,7 +40,6 @@
   \relative c'' {
     \choralniRezim
     a4 a e \barMin g f e d e e \barMaior
-    %c d e g a a g f g g e \barFinalis
     f4 g f e g a g f e e e \barFinalis
   }
   \addlyrics {
@@ -53,11 +49,12 @@
     % aleluja v breviari neni
   }
   \header {
+    textus_approbatus = "Ušetři, Hospodine, svůj lid, nedávej v potupu své dědictví."
     quid = "2. ant."
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 44-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +78,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 44-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,17 +125,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( a) g b d( c) c \barMin c a g( a) f4. f \barFinalis
+    c4 c c b g \barMin
+    a f a g g \barFinalis
   }
   \addlyrics {
-    Ple -- sej -- te Bo -- hu, on nám po -- má -- há.
+    Ple -- sej -- te Bo -- hu,
+    on nám po -- má -- há.
   }
   \header {
     quid = "3. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 81"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -193,17 +192,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 g g f( e) e \barMin e f( d) c d4. \barFinalis
+    d4 d f e c \barMin
+    d f( d) c d \barFinalis
   }
   \addlyrics {
-    Tvá mi -- lost, Bo -- že, je ve -- li -- ká.
+    Tvá mi -- lost, Bo -- že,
+    je ve -- li -- ká.
   }
   \header {
     quid = "3. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 57"
-    placet = "~ počáteční d-g mě vždycky 'vyhodí z modu'"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -227,6 +227,9 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 72-I"
+    placet = "tuto i následující mám v aktuálním tvaru rád,
+    ovšem melodie obou se k textu vztahuje jen velmi málo,
+    neusiluje o podtržení slov nesoucích hlavní význam"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -255,11 +258,13 @@
 tIIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a c( d) d( c) d4. d4 f( e) d e c4. a \barMin
-    a4 b g g( a) a \barFinalis
+    a4 a a a a a c( d) d( c) d \barMin
+    d f( e) d e c a \barMaior
+    a b g g( a) a \barFinalis
   }
   \addlyrics {
-    Od ny -- něj -- ška pa -- tří ví -- těz -- ství a krá -- lov -- ská vlá -- da
+    Od ny -- něj -- ška pa -- tří ví -- těz -- ství
+    a krá -- lov -- ská vlá -- da
     na -- še -- mu Bo -- hu.
   }
   \header {

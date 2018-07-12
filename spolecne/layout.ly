@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.21.0"
 
 % globalni nastaveni \layout a \paper pouzivane vetsinou not
 
@@ -15,8 +15,8 @@
 }
 
 \paper {
-  markup-markup-spacing #'padding = #2
-  score-markup-spacing #'padding = #2
+  markup-markup-spacing.padding = #2
+  score-markup-spacing.padding = #2
 
   left-margin = 1.5\cm
   right-margin = 1.5\cm

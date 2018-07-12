@@ -18,17 +18,19 @@
   }
   \addlyrics {
     Náš Bůh při -- jde
-    % prehozeni poslednich slov - z rytmickych duvodu
     a u -- ká -- že svou moc a slá -- vu.
 
     A -- le -- lu -- ja.
   }
   \header {
+    % prehozeno z rytmickych duvodu
+    textus_approbatus = "Náš Bůh přijde
+    a ukáže svou slávu a moc. Aleluja."
     quid = "1. ant."
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 50-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +54,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 50-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,7 +78,8 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 50-III"
-    id = ""
+    placet = "lépe"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -241,6 +244,8 @@
     kte -- rý u -- či -- nil ne -- be i ze -- mi.
   }
   \header {
+    textus_approbatus = "Naše pomoc je ve jménu Hospodina, který učinil nebe a zemi."
+    % protože s _i_ místo _a_ mi antifona zní výrazně lépe
     quid = "2. ant."
     modus = "I"
     differentia = "D"

@@ -28,7 +28,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "lépe"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -37,7 +38,7 @@
   \relative c'' {
     \choralniRezim
     d4 b c( b) a \barMin d d b c( b) a \barMaior
-    g a( b) a a \barMin b c d b g f g g \barFinalis
+    g a( b) a a \barMin c b d c b a g g \barFinalis
   }
   \addlyrics {
     S_te -- bou, Mat -- ko, chvá -- lí -- me Pá -- na;
@@ -48,7 +49,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,9 +57,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d e) e( a b a) g( a) a a g e f d e \barMaior
-    g f d f e e \barMax
-    e f e e f( g f d) e \barMaior
+    e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
+    g f d d e e \barMax
+    e f e e f( g f d) d( e) \barMaior
     e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
   }
   \addlyrics {
@@ -73,7 +74,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -84,7 +85,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d f( g) g g bes g a g f g g \barMaior
+    d4 d f( g) g g bes g a g f f( g) g \barMaior
     a a f d d e( c) d \barMax
     d( f g) bes( g a) g \barMin g g( bes) g g a f g( f) e d \barMaior
     d( e d) c( d) d( c) c \barMin d e f( g) e d \barFinalis
@@ -100,7 +101,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -122,8 +123,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 122"
-    id = ""
-    fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
+    id = "ne-a1"
     fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -133,8 +133,7 @@
   \relative c'' {
     \choralniRezim
     a4( g f) f g g g d d \barMin
-    % neni to uplne snadne zazpivat!
-    d( g) f g e c( d) d \barFinalis
+    d( f) f e d c( d) d \barFinalis
   }
   \addlyrics {
     U Je -- ží -- šo -- va kří -- že
@@ -145,7 +144,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -169,7 +168,8 @@
     modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
-    id = ""
+    placet = "_slavně_ a dál je hrůza, zbytek nic moc"
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -193,7 +193,9 @@
       modus = "VII"
       differentia = "a"
       psalmus = ""
-      fons = "Narození Páně, ant. v poledne, upraveno dle textu"
+      fial = "vanoce_narozenipane.ly#vden-asexta?upraveno"
+      placet = "předělat s méně křečovitým lpěním na vzorové antifoně (pozor, zdrojová antifona už vypadá úplně jinak!)"
+      id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

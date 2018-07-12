@@ -14,49 +14,64 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 c c c( d e d) d \barMin
+    d c b a g( a) a \barMaior
+    c c c a( g a g) g \barMin
+    f g a a( c) c c \barMin
+    c b a g g \barFinalis
   }
   \addlyrics {
-    Je -- di -- ným svět -- lem je Kris -- to -- va cír -- kev;
+    Je -- di -- ným svět -- lem
+    je Kris -- to -- va cír -- kev;
     všu -- de se ší -- ří,
-    a při -- tom zů -- stá -- vá je -- di -- ným tě -- lem.
+    a při -- tom zů -- stá -- vá
+    je -- di -- ným tě -- lem.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c \barMin
+    a c d c d e d \barMaior
+    d d c a b a g \barMaior
+    f g a a( c) c \barMin
+    c c c b a g a g g \barFinalis
   }
   \addlyrics {
-    Je -- den Pán, jed -- na ví -- ra, je -- den křest,
+    Je -- den Pán,
+    jed -- na ví -- ra, je -- den křest,
     je -- den Bůh a O -- tec všech;
-    je na -- de vše -- mi, pro -- ni -- ká všec -- ky a je ve všech.
+    je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d e f g a g a( g) g \barMin
+    f( g f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
@@ -65,10 +80,11 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 149"
-    id = ""
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?rozsireno"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,27 +94,31 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g f( d) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g g g g( a) g f( d) d d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
     Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
-    \Verse Bu -- de -- te mít jed -- no srd -- ce a jed -- nu du -- ši._*
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
     \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
-    id = ""
+    modus = "VI"
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -126,7 +146,7 @@
     psalmus = ""
     fons = "volne podle (neprilis povedene): marianske commune, tercie"
     fial = "fial://commune/commune_maria.ly#tercie?volne"
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -134,21 +154,25 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a f g g e \barMin
+    f f e d f g g \barMaior
+    a b c d c a( c) b \barMin
+    c c c b( a) g g a a g \barFinalis
   }
   \addlyrics {
-    Všich -- ni se -- tr -- vá -- va -- li v_a -- po -- štol -- ském u -- če -- ní,
+    Všich -- ni se -- tr -- vá -- va -- li
+    v_a -- po -- štol -- ském u -- če -- ní,
     v_bra -- trs -- kém spo -- le -- čen -- ství,
     v_lá -- má -- ní chle -- ba a v_mod -- lit -- bách.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 122"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -156,7 +180,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 e d c d f e d d \barMaior
+    d c f f f g( f) f \barMin
+    g a g f g f e d e d d( c) \barMaior
+    a c d e( f) d c d d \barFinalis
   }
   \addlyrics {
     Sná -- šej -- te se na -- vzá -- jem v_lás -- ce
@@ -166,30 +193,34 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 127"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a( c) b c( d) d \barMaior
+    c b d d a a c b a( b g) a \barMin
+    g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
-    Je -- žíš u -- mřel,
+    Je -- žíš u -- mřel pro -- to,
     a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
-    shro -- máž -- dil v_jed -- no.
+    shro -- máž -- dil vjed -- no.
   }
   \header {
+    textus_approbatus = "Ježíš umřel, aby rozptýlené Boží děti shromáždil vjedno."
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ef 1"
-    id = ""
+    fial = "antifony/pust_tyden5.ly#so-aben"
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -199,27 +230,31 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f g( f) \barMin f f g f g a a( g) \barMax
+    g a g( f d) f g f f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a( bes) a g( a) g \barMin
+    g g g a g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g a g( f d) f g f f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Je -- den Pán, jed -- na ví -- ra, je -- den křest._*
     Je -- den Bůh a O -- tec všech.
-    \Verse On je na -- de vše -- mi, pro -- ni -- ká všec -- ky a je ve všech._*
+    \Verse On je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech._*
     \Response Je -- den Bůh a O -- tec všech.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
-    id = ""
+    modus = "VI"
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -243,7 +278,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

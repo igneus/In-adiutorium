@@ -105,19 +105,18 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( c) c \barMin d c d a( g a) a \barMin b c a g a a4. \barFinalis
+    d4( f) f \barMin g f g d( c d) d \barMin e f d c d d \barFinalis
   }
   \addlyrics {
     Pa -- ne, u -- kaž všem li -- dem své mi -- lo -- sr -- den -- ství.
   }
   \header {
     quid = "2. ant."
-    modus = "IV-alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Sir 36"
-    placet = "II, ne IV"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -146,20 +145,24 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a b c c4. \barMin c4 d d c d c( b) b \barMin
-    b c( d) c( a) g f g4. g \barFinalis
+    e4 a g f e \barMaior
+    f g a g b c a \barMin
+    a g a g f e e \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slo -- vo
+    Bla -- ho -- sla -- ve -- ní,
+    kdo sly -- ší Bo -- ží slo -- vo
     a za -- cho -- vá -- va -- jí ho.
   }
   \header {
+    textus_approbatus = "Blahoslavení jsou ti, kdo slyší Boží slovo a zachovávají ho."
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 119-ו"
+    placet = "_kdo_ by nemělo být odsazené"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -207,8 +210,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( g) a( c) c4. \barMin d4 c b a( b g) g \barMax
-    f f g a a a b( a) g4. g \barFinalis
+    g4 g a( g) a( c) c \barMin d4 c b a( b g) g \barMaior
+    f f g a a a b( a) g g \barFinalis
   }
   \addlyrics {
     Krá -- sou vy -- ni -- káš nad lid -- ské sy -- ny,
@@ -227,16 +230,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \barMin d c b a( b) a( g) g \barFinalis
+    g4( a) g g g( c b c d) c \barMin
+    b( a g) f a a g g \barFinalis
   }
   \addlyrics {
-    Že -- nich je ta -- dy, jdě -- te mu na -- pro -- ti!
+    Že -- nich je ta -- dy!
+    Jdě -- te mu na -- pro -- ti!
   }
   \header {
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 45-II"
+    placet = "dlouhé melisma na _tady_ je taková marnivá zbytečnost.
+    Obejít se bez něj. A: je tónem evangelního zvolání
+    _Ženich je tady_ opravdu jásot? Vždyť je to pro družičky okamžik soudu!"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

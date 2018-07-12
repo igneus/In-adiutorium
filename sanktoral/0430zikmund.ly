@@ -51,6 +51,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

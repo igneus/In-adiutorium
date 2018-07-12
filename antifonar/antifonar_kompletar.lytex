@@ -7,13 +7,14 @@
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 
+% \usepackage{multind} % indexy
+% mock indexing command:
+\renewcommand{\index}[2]{}
+
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
-\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\edicniRada}{úplné vydání}
-\newcommand{\cisloSvazku}{IV.2}
 \newcommand{\nazev}{Kompletář}
 \newcommand{\textDoTiraze}{
   \licencniPoznamka
@@ -21,6 +22,8 @@
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\responsoriumOdkaz}{\rubrika{Responsorium a Simeonovo kantikum, str. \pageref{responsorium}}}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,7 +34,7 @@
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
 \setlength{\columnsep}{20pt} % prostor mezi sloupci
 
-\titulniStrankaSvazkuAntifonare
+\titulniStranka
 
 \prazdnaStranka
 
@@ -67,30 +70,13 @@ která je u něj uvedena.}
 
 \lilypondfile{generovane/kompletar/kompletar_nei1.ly}
 \input{generovane/kompletar/zalm4.tex}
-% \input{generovane/kompletar/doxologie.tex}
 
 \lilypondfile{generovane/kompletar/kompletar_nei2.ly}
 \input{generovane/kompletar/zalm134.tex}
-% \input{generovane/kompletar/doxologie.tex}
 
 \newpage % ZLOM
 
-\rubrika{Responsorium a Simeonovo kantikum s antifonou se zpívají
-každý den v týdnu stejně. Proto jsou uvedeny jen zde a u následujících
-dnů se neopakují.}
-
-\nadpisTypTextu{Responsorium}
-
-\rubrika{Mimo Velikonoční triduum a dobu velikonoční:}
-
-\lilypondfile{generovane/kompletar/kompletar_resp.ly}
-
-\rubrika{V době velikonoční:}
-
-\lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
-
-\newpage % ZLOM
-
+\label{respantifony}
 \nadpisTypTextu{Antifony zpívané místo responsoria}
 
 \rubrika{1. ve Velikonočním triduu se místo responsoria zpívá po krátkém
@@ -106,11 +92,43 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \newpage % ZLOM
 
+\label{responsorium}
+\nadpisTypTextu{Responsorium}
+
+\rubrika{Během Velikonočního tridua a Velikonočního oktávu se místo
+responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
+
+\rubrika{Mimo dobu velikonoční:}
+
+\lilypondfile{generovane/kompletar/kompletar_resp.ly}
+
+\rubrika{V době velikonoční:}
+
+\lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
+
+\newpage % ZLOM
+
 \nadpisTypTextu{Simeonovo kantikum}
 
 \lilypondfile{generovane/kompletar/kompletar_sim.ly}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
-% \input{generovane/kompletar/doxologie_2akcenty.tex}
+
+\vspace{1cm}
+
+\nadpisTypTextu{Závěrečné mariánské antifony}
+
+\rubrika{Latinské antifony a české písně schválené
+  pro tento účel jsou v hymnáři.}
+
+\lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
+
+\newpage % ZLOM
+
+\lilypondfile{generovane/kompletar/marianske_antifony_salve.ly}
+
+\vspace{6mm}
+
+\lilypondfile{generovane/kompletar/marianske_antifony_avemaria.ly}
 
 \newpage % ZLOM
 
@@ -118,14 +136,16 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/kompletar_neii.ly}
 \input{generovane/kompletar/zalm91.tex}
-% \input{generovane/kompletar/doxologie.tex}
+
+\responsoriumOdkaz
 
 \newpage % ZLOM
 \nadpisDen{Pondělí}
 
 \lilypondfile{generovane/kompletar/kompletar_po.ly}
 \input{generovane/kompletar/zalm86.tex}
-% \input{generovane/kompletar/doxologie.tex}
+
+\responsoriumOdkaz
 
 \newpage % ZLOM
 
@@ -133,7 +153,8 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/kompletar_ut.ly}
 \input{generovane/kompletar/zalm143.tex}
-% \input{generovane/kompletar/doxologie.tex}
+
+\responsoriumOdkaz
 
 \newpage % ZLOM
 
@@ -141,11 +162,11 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/kompletar_st1.ly}
 \input{generovane/kompletar/zalm31.tex}
-% \input{generovane/kompletar/doxologie.tex}
 
 \lilypondfile{generovane/kompletar/kompletar_st2.ly}
 \input{generovane/kompletar/zalm130.tex}
-% \input{generovane/kompletar/doxologie.tex}
+
+\responsoriumOdkaz
 
 \newpage % ZLOM
 
@@ -153,7 +174,8 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/kompletar_ct.ly}
 \input{generovane/kompletar/zalm16.tex}
-% \input{generovane/kompletar/doxologie.tex}
+
+\responsoriumOdkaz
 
 \newpage % ZLOM
 
@@ -161,10 +183,15 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/kompletar_pa.ly}
 \input{generovane/kompletar/zalm88.tex}
-% \input{generovane/kompletar/doxologie.tex}
 
-\clearpage
-\tirazSvazkuAntifonare
+\responsoriumOdkaz
+
+\pagebreak
+\pagestyle{empty}
+\mbox{}
+\pagebreak
+
+\tiraz
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

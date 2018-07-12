@@ -81,6 +81,7 @@
     psalmus = "Ef 1"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -208,6 +209,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Pro všechny jsem se stal vším,
+    abych stůj co stůj zachránil alespoň některé. Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
@@ -323,6 +326,12 @@
   }
 }
 
+\markup\justify\italic{
+  V dodatku breviáře obsahujícím texty a rubriky pro vigilie nejsou
+  duchovní pastýři zmiňováni jako samostatná skupina. Zřejmě je vhodné
+  použít antifonu z textů o svatých mužích.
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -434,6 +443,7 @@
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "cesura po _bdit_"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -528,6 +538,7 @@
     psalmus = ""
     id = "tercie"
     fons = "7. ne velikonoční cyk. B, 2. nešp., k Magnif., 1. část; upraven konec (navic E), doplněno aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?cast&upraveno&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -555,6 +566,7 @@
     psalmus = ""
     id = "sexta"
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -580,6 +592,7 @@
     psalmus = ""
     id = "nona"
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -607,6 +620,7 @@
     psalmus = "Žalm 15"
     id = "2ne-a1"
     fons = "Cyril a Metoděj, dopoledne; úprava textu z pl. do sg. + doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#tercie?jiny_text&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -693,6 +707,8 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "první část repetendy s výraznou repeticí motivu fg gf 
+    je jednak moc líná, jednak působí tak nějak nevážně"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

@@ -210,13 +210,15 @@
     \choralniRezim
     d4 d d( f) f d c d c c \barMin
     d e f e f g a( g) g \barMaior
-    a a a a a g( f e d) d \barMin c d d( f) f f
-    g f d d \barFinalis
+    a a a a a g( f e d) d \barMin
+    c d e( f) d d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Po -- dle to -- ho všich -- ni po -- zna -- jí,
     že jste mo -- ji u -- čed -- ní -- ci,
-    bu -- de -- te -li mít lás -- ku k_so -- bě na -- vzá -- jem.
+    bu -- de -- te -li mít lás -- ku
+    k_so -- bě na -- vzá -- jem.
     A -- le -- lu -- ja.
   }
   \header {
@@ -321,7 +323,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) g f( g) g \barMin
-    f g a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
+    f g a a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
     g g( a) g g( f) g( a) a \barMaior
     a a g( c) d b c a \barMin b c c( d) d \barMaior
     d c d( c) a( b) g g \barMin g f( g a) a b g g \barMaior
@@ -329,7 +331,7 @@
   }
   \addlyrics {
     Pro -- sím ne -- jen za ně,
-    ale ta -- ké za ty, kdo pro je -- jich slo -- vo u -- vě -- ří ve mne:
+    a -- le ta -- ké za ty, kdo pro je -- jich slo -- vo u -- vě -- ří ve mne:
     Ať všich -- ni jsou jed -- no
     ja -- ko ty, Ot -- če, ve mně a já v_to -- bě,
     a -- by svět u -- vě -- řil, že ty jsi mě po -- slal.

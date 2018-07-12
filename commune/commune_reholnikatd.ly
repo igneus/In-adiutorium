@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.28"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -18,15 +18,15 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4( a) a \barMin a a a( g f) e d e( d) e f e \barMaior
-      f g a g f g g e e \barMin e f e \barFinalis
-
-      e^\markup\rubrVelikAleluja e( g) f( e) e \barFinalis
+      d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
+      f g a g f g g e e \barMin f g e \barFinalis
+      f^\markup\rubrVelikAleluja g a a g b c a a \barMin g f e \barMaior
+      d f g( f) e \barFinalis
     }
     \addlyrics {
       Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
-      ne -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
-
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+      \markup{\Dagger ne} -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
       A -- le -- lu -- ja.
     }
     \header {
@@ -36,7 +36,6 @@
       psalmus = ""
       id = "rehol-amag1"
       fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
-      fons = "25.8. pět bratří, k Benedictus; přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -265,18 +264,15 @@
       d4 d d( f) f d c d c c \barMin
       d e f e f g a( g) g \barMaior
       a a a a a g( f e d) d \barMin
-      c d d( f) e( d) d \barFinalis
-
-      c^\markup\rubrVelikAleluja d d( f) f f
-      g f d d \barFinalis
+      c d e( f) d d \barFinalis
+      f^\markup\rubrVelikAleluja g( f) d d \barFinalis
     }
     \addlyrics {
       Po -- dle to -- ho všich -- ni po -- zna -- jí,
       že jste mo -- ji u -- čed -- ní -- ci,
       bu -- de -- te -li mít lás -- ku
-      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
+      k_so -- bě na -- vzá -- jem.
 
-      \markup{\Dagger k_so} -- bě na -- vzá -- jem.
       A -- le -- lu -- ja.
     }
     \header {

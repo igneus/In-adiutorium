@@ -74,6 +74,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "nic moc; _ruce k nebi_ je nezpěvné"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -90,6 +91,7 @@
     Mar -- tin, na ze -- mi chu -- dý a skrom -- ný,
     ve -- šel do ne -- be bo -- ha -- tý
     a ra -- dost -- ně sto -- lu -- je s_A -- bra -- há -- mem.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -153,6 +155,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 15"
+    placet = "není úplně marná, ale přeci zkusit lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -175,6 +178,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 112"
+    placet = "_tvému lidu potřebný_ rozhodně jinak"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -195,6 +199,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Zj 15"
+    placet = "_opustil_ rozhodně bez melismatu na druhé slabice"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -228,6 +233,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "na více místech zadrhává"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -50,6 +50,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_i_ v poslední části je nevhodně zvýrazněné"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

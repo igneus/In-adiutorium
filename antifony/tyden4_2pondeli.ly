@@ -27,7 +27,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,7 +73,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -120,12 +120,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a b4. g b4( d) c( b) g a a4 \barMin
-    b4 d d c( b) a4. a \barMin g4 a b c b a( g) g \barFinalis
+    c4 a b4. g b4( d) c( b) g a a4 \barMaior
+    b d d c( b) a a \barMin
+    g a b c b a( g) g \barFinalis
   }
   \addlyrics {
     Chval -- te jmé -- no Hos -- po -- di -- no -- vo,
-    vy, kte -- ří slou -- ží -- te v_Hos -- po -- di -- no -- vě do -- mě.
+    vy, kte -- ří slou -- ží -- te
+    v_Hos -- po -- di -- no -- vě do -- mě.
   }
   \header {
     quid = "3. ant."
@@ -142,18 +144,21 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( d) e( f) g( a) g \barMin
-    a a g a bes( a) f g \barMin g a g( f) f \barFinalis
+    g4 g g( a) a \barMaior
+    c c b a g( a) g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
-    Veď mé kro -- ky po -- dle své -- ho vý -- ro -- ku, Hos -- po -- di -- ne.
+    Veď mé kro -- ky
+    po -- dle své -- ho vý -- ro -- ku,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "1. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 119-פ"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -203,8 +208,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
-    g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,

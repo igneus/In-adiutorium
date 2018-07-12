@@ -17,7 +17,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) f g g g f( g) d d \barMaior
-    d c( d) d d( f) e d d \barFinalis
+    d c d d( f) e d d \barFinalis
   }
   \addlyrics {
     Bůh ho ve -- dl do ti -- cha sa -- mo -- ty
@@ -28,7 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -36,21 +36,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a a( b c) c \barMin c b( c) c c( d b) b \barMaior
-    a g a b a g f d e e \barMin
-    f g a a( b) a a \barMin c c( d) c b( g a) g \barFinalis
+    g4 a b c c \barMin
+    c b c c( d b) b \barMaior
+    c c c c b a g a g g \barMaior
+    f g a a( b) a a \barMin
+    a g a f( e) e \barFinalis
   }
   \addlyrics {
-    Od své -- ho mlá -- dí se cvi -- čil v_káz -- ni;
+    Od své -- ho mlá -- dí
+    se cvi -- čil v_káz -- ni;
     u -- sa -- dil se v_sa -- mo -- tě a ml -- čel,
-    pro -- to -- že po -- zve -- dal svou du -- ši k_Bo -- hu.
+    pro -- to -- že po -- zve -- dal
+    svou du -- ši k_Bo -- hu.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "III"
+    differentia = "g"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -72,7 +76,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,7 +113,9 @@
   \header {
     quid = "resp."
     modus = "VII"
-    id = ""
+    placet = "věnovat něco péče. Možná změny nepotřebuje, ale relativně náročné
+    responsorium by nemělo zůstat dlouho bez dozoru."
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -133,12 +139,21 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "do modu II moc nesedí"
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\justify\italic{
+  Následující vlastní texty pro nešpory jsou obsaženy ve vydáních breviáře
+  z let 1989 a 1994.
+  Nejnovější vydání reflektují skutečnost, že oslava sv. Cyrila a Metoděje
+  byla povýšena na slavnost i pro Čechy, a nešpory z památky sv. Prokopa již
+  neobsahují.
+}
 
 \score {
   \relative c'' {
@@ -157,7 +172,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 15"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -178,7 +193,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 112"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -201,7 +216,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Zj 15"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -241,7 +256,7 @@
   \header {
     quid = "resp."
     modus = "III"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -271,7 +286,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

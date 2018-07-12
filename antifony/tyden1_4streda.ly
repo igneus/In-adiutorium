@@ -27,7 +27,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 18-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +51,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 18-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 18-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -119,6 +119,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Tady by šla vhodně použít jedna z tradičních melodií:}
 
 \score {
   \relative c'' {
@@ -202,11 +204,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 a' g f g g( a) a \barMin g f e4. e \barMaior
-    e4 f d c d \barFinalis
+    d4 a' g f g g( a) a \barMin
+    g f e e \barMaior
+    e f d c d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mé svět -- lo a má spá -- sa,
+    Hos -- po -- din je mé svět -- lo
+    a má spá -- sa,
     ko -- ho bych se bál?
   }
   \header {

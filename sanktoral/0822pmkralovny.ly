@@ -30,7 +30,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -56,7 +56,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -66,12 +66,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
-    c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMax
+    c d e e e d c a( g) g \barMin
+    f g a b c a g g( a) g g \barMaior
+    a a a f e d f( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
     tys u -- vě -- ři -- la, že se spl -- ní,
     co ti by -- lo ře -- če -- no od Pá -- na;
     ny -- ní s_ním kra -- lu -- ješ na -- vě -- ky.
@@ -81,8 +84,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
-    fons = "commune o PM, 2. nešp., k Magnificat; doplněn závěr"
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?+zaver"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

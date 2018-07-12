@@ -38,6 +38,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "'stupnice' f-d není právě libý element"
     id = "ne21b-rch-ben"
     fons = "nápěv podle: 19. ne. v mez., cyk. B, 1. nešp., k Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -92,6 +93,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "v tomto stavu nechť nezůstane"
     id = "ne22b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -100,9 +102,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g( a g) f e f( g a) g( f) e( d) \barMaior
-    f f f( g) d f( g f) e d c c \barMaior
-    d f g g( a) g( f d) d \barMin f( e) c f( d) d \barFinalis
+    f4 f g f g a g g \barMin
+    f g f e d c d c c \barMaior
+    d d f g( f) d( e d) d \barMin f( e) c f( d) d \barFinalis
   }
   \addlyrics {
     Buď -- te vní -- ma -- ví pro slo -- vo,
@@ -138,6 +140,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "lépe"
     id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -184,6 +187,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "hrůza"
     id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -204,6 +208,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "VII.d"
     id = "ne23b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -228,6 +233,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_vstane_ zkusit zvukomalebněji"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -272,6 +278,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "závěr se mi příliš nezamlouvá"
     id = "ne24b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -318,6 +325,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "ne25b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -342,6 +350,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "půjde lépe; zejména ten, kdo se ponižuje, by mohl být proveden skromněji :)"
     id = "ne25b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -434,6 +443,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nic moc"
     id = "ne27b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -601,6 +611,7 @@
     psalmus = ""
     id = "ne29b-rch-ben"
     fons = "25.7. sv. Jakuba apoštola, k Magnificat"
+    fial = "sanktoral/0725jakub.ly#ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -633,10 +644,6 @@
     d4 d c d d d d( f e) d( c) \barMax
     d4( f) d d( a') a a \barMin g( bes) g g \barMin
     f( e f) f g f e e \barFinalis
-    % U teto antifony si jsem krajne nejisty.
-    % Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
-    % zaver mmodu IV.
-    % Co s ni?
   }
   \addlyrics {
     Sle -- pec u Je -- ri -- cha vo -- lal:
@@ -648,6 +655,9 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "U teto antifony si jsem krajne nejisty.
+    Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
+    zaver na e. Co s ni?"
     id = "ne30b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -686,6 +696,9 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_Jdi_ je divoké. Pamatuji si, proč jsem to tak udělal -
+    aby nejsilnější slovo v hudebním ztvárnění nezaniklo.
+    To je ale potřeba zařídit nějak vhodněji."
     id = "ne30b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

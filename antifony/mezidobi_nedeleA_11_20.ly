@@ -292,6 +292,7 @@
     differentia = "c"
     psalmus = ""
     annus = "A"
+    placet = "úvodní motiv (melodii _mé jho netlačí_) jako bych slyšel v nějaké tupé taneční písničce - ale nevím, ve které"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -623,7 +624,7 @@
     \choralniRezim
     d4 d( c) d d( c) c \barMaior
     bes( c) c( d) d f e d( e) d d \barMin
-    d e f g f e d e d d \barFinalis
+    d e f g f e d e( d) d \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,

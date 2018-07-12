@@ -94,7 +94,7 @@ V~době adventní, vánoční, postní a velikonoční:
   #2, str.~\pageref{#1}}
 
 \newcommand{\laudyNedelePrvnihoTydne}{
-  Žalmy nedělní z~1. týdne, str.~\pageref{zalmyne1trch}}
+  nedělní, str.~\pageref{zalmyne1trch}}
 
 \newcommand{\poznamkaPod}[1]{
   \hfill {\footnotesize \noindent \textit{#1}}}

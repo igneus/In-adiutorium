@@ -342,7 +342,7 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
-      f f \barMin f f f f f f g f g( a) a( g) \barMax
+      f f f f f f f f g f g( a) a( g) \barMax
       g g a g( f) d f( g) g f \barFinalis
       % V
       \neviditelna a
@@ -407,13 +407,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f f g f g g( a) a( g) \barMax
-      g g g g( f d) f( g) g f \barFinalis
+      g f d f g g f \barFinalis
       % V
       \neviditelna a
       a a( bes) a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( f d) f( g) g f \barFinalis
+      g f d f g g f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -426,6 +426,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "sylabická sestupná část r2 je sice netradiční, ale zní dobře (narozdíl od melismatických variant)"
       id = "1ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -438,13 +439,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g g g g( f d) f g g f f \barFinalis
+      g g g f( d) f g g f f \barFinalis
       % V
       \neviditelna g
       a a a( bes) a a a( g) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( f d) f g g f f \barFinalis
+      g g g f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -471,13 +472,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
-      g g( f d) f( g) g( f) f \barFinalis
+      f g a g( f) f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g( f d) f( g) g( f) f \barFinalis
+      f g a g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -640,13 +641,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna d
       f4 f f f g( a) a( g) \barMax
-      g g g g g a g( f d) f f f g g f f \barFinalis
+      g g g g g a g( f d) \barMin f f f g g f f \barFinalis
       % V
       \neviditelna f
       a4 a a a g a g f g( a) a( g)  \barMax
       % R
       \neviditelna g
-      g g g g g a g( f d) f f f g g f f \barFinalis
+      g g g g g a g( f d) \barMin f f f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -726,6 +727,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "a co _večerní_ a g f?"
       id = "2po-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -776,7 +778,7 @@ doxologieResponsoriumVI = {}
       g g g g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
-      a4 a a( bes) a a a g( a g) f g( a) \barMax
+      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
       % R
       \neviditelna g
       g g g g g( f d) f( g) g( f) f \barFinalis
@@ -793,6 +795,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "_hooojná radost_ se mi moc nelíbí"
       id = "2ut-ne"
       piece = \markup\sestavTitulekResp
     }
@@ -873,13 +876,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g( a) g( f d) d f f f g g( f) f \barFinalis
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
       % V
       \neviditelna g
       a a( bes) a a a g( f) g( a) a( g) \barMax
       % R
       \neviditelna g
-      g( a) g( f d) d f f f g g( f) f \barFinalis
+      g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -908,7 +911,7 @@ doxologieResponsoriumVI = {}
       g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
-      a a a g( a) g g g g f g a a( g) \barMax
+      a a a g( a) g g \barMin g g f g a a( g) \barMax
       % R
       \neviditelna g
       g g( f d) f( g) g( f) f \barFinalis
@@ -1008,7 +1011,7 @@ doxologieResponsoriumVI = {}
       f g a g( f) f \barFinalis
       % V
       \neviditelna g
-      a g( a) g g g g g g g f g( a) a( g) \barMax
+      a g( a) g \barMin g g g g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       f g a g( f) f \barFinalis

@@ -30,9 +30,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a c( a) a g g( a) \barMaior
-    a g a g f e( f e) e \barMaior
-    e e( f) d( e) e \barFinalis
+    a4 g a c b g a \barMaior
+    a g a g f e e \barMaior
+    f g e e \barFinalis
   }
   \addlyrics {
     Já dá -- vám ži -- vot i smrt,_*
@@ -45,7 +45,6 @@
     differentia = "g"
     psalmus = "Dt 32"
     id = "rch-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

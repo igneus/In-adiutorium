@@ -42,7 +42,7 @@
   \relative c'' {
     \choralniRezim
     g4 g a( b c) d( c) c \barMin
-    d( e c d) c( b) a( g) a g g \barMaior
+    d( e c d) c4.( b) a4( g) a g g \barMaior
     g f g g( a b) c( d) d \barMin d d( f e) d( c) d c \barMaior
     d d( c b) a( g) f g a( b) g g \barFinalis
   }

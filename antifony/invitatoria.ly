@@ -16,8 +16,8 @@ tInedeleInvitatorium = \score {
   \addlyrics {
     Pojď -- me,
     já -- sej -- me Hos -- po -- di -- nu,
-    o -- sla -- vuj -- me ská -- lu své spá -- sy.
-    A -- le -- lu -- ja.
+    o -- sla -- vuj -- me Ská -- lu své spá -- sy,
+    a -- le -- lu -- ja!
   }
   \header {
     quid = "ant."
@@ -56,8 +56,8 @@ tIuteryInvitatorium = \score {
     c d f e c4. d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
-      on je ve -- li -- ký král!
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+    on je ve -- li -- ký Král.
   }
   \header {
     quid = "ant."
@@ -76,7 +76,7 @@ tIstredaInvitatorium = \score {
     g a( f) d( f) e( d) \barFinalis
   }
   \addlyrics {
-    Po -- klek -- ně -- me před svým tvůr -- cem
+    Po -- klek -- ně -- me před svým tvůr -- cem,
     Hos -- po -- di -- nem!
   }
   \header {
@@ -136,15 +136,15 @@ tIpatekInvitatorium = \score {
 tIsobotaInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    d( f) f \barMin g f f e d e( f) d \barMin
-    d4 d f e f f( g) g \barMin
-    g a a f e d d \barFinalis
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    d4 d f e f f( g) g g a a f e d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
-      je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+    je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
   }
   \header {
+    textus_approbatus = "Pojďme, klaňme se Hospodinu; jemu náleží země i to, co je na ní."
     quid = "ant."
     modus = "II"
     differentia = "D"
@@ -154,7 +154,7 @@ tIsobotaInvitatorium = \score {
   }
 }
 
-% LICHE TYDNY --------------------------------------------
+% SUDE TYDNY --------------------------------------------
 
 tIInedeleInvitatorium = \score {
   \relative c' {
@@ -168,7 +168,7 @@ tIInedeleInvitatorium = \score {
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
-      jsme je -- ho lid a stád -- ce je -- ho past -- vy, a -- le -- lu -- ja.
+      jsme je -- ho lid a stád -- ce je -- ho past -- vy, a -- le -- lu -- ja!
   }
   \header {
     dies = "neděle"
@@ -207,7 +207,7 @@ tIIuteryInvitatorium = \score {
     c d f e c4. d \barFinalis
   }
   \addlyrics {
-     Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+     Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
       on je ve -- li -- ký Bůh.
   }
   \header {
@@ -248,7 +248,7 @@ tIIctvrtekInvitatorium = \score {
   }
   \addlyrics {
     Vstup -- te
-    před Hos -- po -- di -- na s_já -- so -- tem.
+    před Hos -- po -- di -- na s_já -- so -- tem!
   }
   \header {
     dies = "čtvrtek"
@@ -269,7 +269,7 @@ tIIpatekInvitatorium = \score {
   }
   \addlyrics {
     Hos -- po -- din je dob -- rý,
-    že -- hnej -- te je -- ho jmé -- nu.
+    že -- hnej -- te je -- ho jmé -- nu!
   }
   \header {
     dies = "pátek"
@@ -294,6 +294,7 @@ tIIsobotaInvitatorium = \score {
       a -- by -- chom do -- sáh -- li za -- slí -- be -- né -- ho od -- po -- či -- nu -- tí v_něm.
   }
   \header {
+    textus_approbatus = "Uposlechněme, když nás Bůh volá, abychom dosáhli slíbeného spočinutí v něm."
     dies = "sobota"
     quid = "ant."
     modus = "I"

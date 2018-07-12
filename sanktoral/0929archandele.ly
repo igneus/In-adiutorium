@@ -3,19 +3,6 @@
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
 
-% Temporary HACK:
-% Due to some funny bug I need a different fonr than the great
-% Charis SIL if I want the "Z" to be printed correctly and not as an "a"
-% instead. And in this score it is that case.
-\paper {
-  #(define fonts
-    (make-pango-font-tree
-                          "URW Bookman L"
-                          "VL Gothic"
-                          "Courier"
-     (/ myStaffSize 20)))
-}
-
 \header {
   title = \markup\titleSvatek
             "sv. Michaela, Gabriela a Rafaela, archandělů"
@@ -41,7 +28,113 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a f bes a \barMin
+    a g a f e d d \barMaior
+    f f d c f( g) g g
+    g a f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- ře se o -- třás -- lo
+    a za -- chvě -- la se ze -- mě,
+    když ar -- chan -- děl Mi -- cha -- el
+    se -- stu -- po -- val z_ne -- be.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 97"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g g g g( a g) g \barMin
+    f g a a a g a a( c) c \barMaior
+    c c c( d) c c( d) c c \barMin
+    c c b a g( a) a( g) \barMin
+    d f g g( a g) f g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Gab -- ri -- el se zje -- vil
+    Za -- cha -- ri -- á -- šo -- vi a ře -- kl:
+    Tvo -- je že -- na Alž -- bě -- ta
+    ti po -- ro -- dí sy -- na
+    a dáš mu jmé -- no Jan.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 103-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a) g g \barMin
+    g f a c b c d d \barMaior
+    d e d c a a \barMin
+    c b a g( a) a( g) \barMaior
+    g g f d f e f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem an -- děl Ra -- fa -- el
+    a sto -- jím před Hos -- po -- di -- nem;
+    vy ve -- leb -- te Bo -- ha
+    a vy -- pra -- vuj -- te
+    o všech je -- ho po -- di -- vu -- hod -- ných skut -- cích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 103-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) a g \barMaior
+    a( c) d d( e c) a a4.( g) \barMaior
+    c4 d( c a) a \barMin c b a g( a) g \barMaior
+    a a a a f e d f( g) g \barMax
+    a( c) d c a a \barMin
+    c c c c b a g a a( g) \barFinalis
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden2_3utery.ly#rch-a1?delsi_text"
+    id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -68,7 +161,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
-    id = ""
+    placet = "_cherubové a serafové_ zkusit elegantněji"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -87,7 +181,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,7 +205,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -143,7 +237,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -169,7 +263,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "rytmus _vystupovat a sestupovat_ působí těžkopádně"
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -193,7 +288,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -217,7 +312,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -239,7 +334,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -263,7 +358,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 8"
-    id = ""
+    placet = "melodie _králi_ na daném místě rytmicky nesedí"
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -281,8 +377,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 138"
-    id = ""
-    fons = "úterý 4.t., nešp., 2. ant."
+    fial = "antifony/tyden4_3utery.ly#ne-ant2"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -308,7 +404,8 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
-    id = ""
+    placet = "_množství_ možná lépe ga f; od věci by ale možná nebyla důkladnější reforma"
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -343,7 +440,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    placet = "nepotřebná a nevhodná ozdoba na _kadidelnice_"
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -365,7 +463,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    placet = "_Počneš_ se mi moc nelíbí; _jméno_ by udělalo lépe, kdyby ctilo obvyklé pořádky závěru modu VIII
+    ze spodního tetrachordu, nesahalo na a, a už vůbec ne obkrok"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

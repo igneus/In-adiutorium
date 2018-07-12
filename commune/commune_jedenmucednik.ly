@@ -57,6 +57,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
+    placet = "pro nevelikonoční variantu zkusit uspokojivější závěr"
     id = "1ne-a2"
     fial = "antifony/tyden3_4streda.ly#up-ant1?upraveno"
     fons = "upraveno z: žaltář, středa 3. týdne, uprostřed dne, 1. ant."
@@ -279,7 +280,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d d f e f d d
+    g f g( d) d \barMaior
+    d e f f g g g f( e) d d \barMin
+    e c c( d) d \barFinalis
 
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Bu -- de -- te o -- de všech ne -- ná -- vi -- dě -- ni
@@ -291,8 +297,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -300,9 +306,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 f e g( a) \barMin b a g g( a) a \barMaior
+    a a c c b( c a) a b c a g( a) g \barMaior
+    g f d f( g) a g g \barFinalis
 
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     U -- tr -- pe -- ní to -- ho -- to ča -- su
@@ -313,9 +323,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 11"
+    placet = "začátek bych dnes určitě udělal jinak"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -324,22 +335,59 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d( e f d) d c d d( e) d \barMaior
+    f f f( g) f \barMin g f e d( c) d d( c) \barMaior
+    bes c d c d e f( d) d \barMin c d e( f) d c( d) d \barFinalis
 
+    c^\markup\rubrVelikAleluja d e f d d \barMin
+    g f d d \barFinalis
   }
   \addlyrics {
     Pán zkou -- šel vy -- vo -- le -- né
     ja -- ko zla -- to v_ta -- vi -- cím ke -- lím -- ku,
-    ja -- ko do -- ko -- na -- lá o -- běť se mu za -- lí -- bi -- li.
+    ja -- ko do -- ko -- na -- lá o -- běť \markup{\Dagger se} mu za -- lí -- bi -- li.
 
+    \markup{\Dagger se} mu za -- lí -- bi -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 17"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c b c a g g( a) \barMaior
+    a g a g f f( d) \barMin
+    f g a a( c) a c( d) c b a a \barMaior
+    c c c d( e d) c b c a a \barMin
+    f g a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    Na svém tě -- le do -- pl -- ňu -- ji to,
+    co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    placet = "je na ní co vylepšovat"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -364,6 +412,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 63"
+    placet = "lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -412,6 +461,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
+    placet = "moc se mi nelíbí krok na _bude_, a melodie je taková nic moc"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -738,6 +788,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_dosáhli_ je nepěkné"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -781,18 +832,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e f g( a) a
-    a( b) a g g( a) a a \barMin a
-    a4 a a( e) e \barMaior
+    e4 e e f e f g( a) a \barMin
+    a( b) a g g( a) a a \barMin
+    a a a a( e) e \barMaior
     f( e f) d f f( e) e \barMax
-    e( a g) g( a) g f g4.( a) \barMaior
-    a4 g a b( g) g g( a g) f( g f e) e \barMax
-    f g e e \barFinalis
+    e( a g) a( b) a g g( a) \barMaior
+    a a a g( a) g f e e \barMaior
+    d f f( e) e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že pše -- nič -- né zr -- no
-    ne -- pad -- ne do ze -- mě a
-    ne -- o -- du -- mře,
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
     zů -- sta -- ne sa -- mo;
     o -- du -- mře -- -li však,
     při -- ne -- se hoj -- ný u -- ži -- tek.
@@ -804,7 +855,7 @@
     differentia = "E"
     psalmus = ""
     id = "2ne-amag-velik"
-    fons = "5. neděle postní, 1. nešp., k Magn.; přidáno aleluja"
+    fial = "antifony/pust_nedeleB.ly#vmag1?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -27,22 +27,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    d d f d f e( d) e \barMin
-    d d d d d( e) c a c c( d) d \barMaior
-    f f f g d d \barMin
-    d e d e d c d f e d c c d d \barFinalis
+    f4 f f g a a( g) g \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f f g( f) f \barMaior
+    f g a g f e d e f d c c d d \barFinalis
   }
   \addlyrics {
     Kdy -- by hos -- po -- dář vě -- děl,
     v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
     jis -- tě by byl vzhů -- ru
-    a ne -- do -- vo -- lil by mu
-    pod -- ko -- pat se do do -- mu.
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,15 +51,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f( g) g( a) \barMin
-    a b c d( c) a( b g) g \barMin a f( e) d \barMaior
-    f f( g) g \barMin
-    a( b) a b c a g g \barMaior
-    f g g g \barFinalis
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    c( d) c( b) a \barMin
+    c a f g a g g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
-    Duch sva -- tý
-    na te -- be se -- stou -- pí, Ma -- ri -- a:
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
     Ne -- boj se,
     poč -- neš Bo -- ží -- ho Sy -- na.
     A -- le -- lu -- ja.
@@ -77,24 +76,25 @@
 
 \markup {\nadpisDen {2. neděle adventní}}
 
-% zvazit revizi teto antifony i jejiho citovaneho zdroje
 \score {
   \relative c'' {
     \choralniRezim
-    a( g f) f( g) g f \barMaior
-    f e f d c d d( c) \barMin d( e f) g a g f f \barFinalis
+    c4 d c c \barMin
+    c d c b a g g \barMin
+    f g a a g g \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se,
-    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
+    fial = "antifony/advent_tyden2.ly#po-aben?cast&upraveno"
     id = "iimag1"
-    fial = "antifony/advent_tyden2.ly#po-aben?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -105,7 +105,7 @@
     \key f \major
     d4 d( a' bes) c bes a g g( a) a a \barMaior
     bes a bes g a bes a \barMaior
-    g g g( a) f f e( d) d \barFinalis
+    g g g f d c( d) d \barFinalis
   }
   \addlyrics {
     Hlas vo -- la -- jí -- cí -- ho na pouš -- ti:
@@ -142,6 +142,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_abyste_ je škaredé; celá půjde lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -154,8 +155,8 @@
     \choralniRezim
     d4( e d) c( a) a c c( d) d \barMaior
     f f g g d \barMin d e d c( d) d \barMax
-    d e f g( f) d( e d) d \barMin
-    d( e) c( a) c d d \barFinalis
+    f e d e d d( c) \barMin
+    d( f) e( d) c d d \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se ke mně,
@@ -175,19 +176,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) g f g a a \barMin c( d) c b a c( b a g) g \barMaior
-    g g f e f( g) g g a( b) a g g \barMin a( g) f( e) e \barMaior
+    g4 a g f g a a \barMin c c b a c( b a g) g \barMaior
+    g g g g g g g a( b) a g g \barMin a( g) f( e) e \barMaior
     g( c) d d( c) \barMin d c d c( b) a \barMaior
-    f g a a a( b) a g( a) g g \barFinalis
+    c c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
-    Jan sly -- šel ve vě -- ze -- ní o Kris -- to -- vých či -- nech.
-    Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky s_do -- ta -- zem:
+    Jan sly -- šel ve vě -- ze -- ní
+    o Kris -- to -- vých či -- nech.
+    Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky
+    s_do -- ta -- zem:
     Ty jsi ten, kte -- rý má při -- jít,
-    % a -- ne -- bo
     ne -- bo má -- me če -- kat ji -- né -- ho?
   }
   \header {
+    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
+    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
@@ -225,31 +229,26 @@
 
 \score {
   \relative c'' {
-      \choralniRezim
-      b4 d d \barMin
-      e c c d d \barMaior
-
-      d d d c b a( b) \barMin
-      b4 b g a a b b \barMin
-
-      d d( e c d) d \barMin
-      d c( b) a( g) g( a) a \barMin
-      a g a b( a) g g \barMaior
-      a a( b) g g \barFinalis
-    }
-    \addlyrics {
-      Jo -- se -- fe,
-      sy -- nu Da -- vi -- dův,
-
-      ne -- boj se k_so -- bě vzít
-      svou man -- žel -- ku Ma -- ri -- i;
-
-      vždyť dí -- tě,
-      kte -- ré po -- ča -- la,
-      je z_Du -- cha sva -- té -- ho.
-
-      A -- le -- lu -- ja.
-    }
+    \choralniRezim
+    b4 d d \barMin
+    e c c d d \barMaior
+    d d d c b a( b) \barMin
+    b b g a a b b \barMaior
+    d d( e c d) d \barMin
+    d c( b) a( g) g( a) a \barMaior
+    a g a b( a) g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jo -- se -- fe,
+    sy -- nu Da -- vi -- dův,
+    ne -- boj se k_so -- bě vzít
+    svou man -- žel -- ku Ma -- ri -- i;
+    vždyť dí -- tě,
+    kte -- ré po -- ča -- la,
+    je z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"

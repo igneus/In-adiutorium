@@ -11,12 +11,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( bes) a g g \barMin
-    f g f e f d f g a g \barMin f e c c( d) d \barFinalis
+    a4( bes) a g g \barMaior
+    g a g f e d f g a g \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Na -- ří -- ká -- me
-    a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní na -- še -- ho tě -- la.
+    a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní
+    na -- še -- ho tě -- la.
 
     % velikonocni aleluja v breviari neni
   }
@@ -25,7 +27,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 39-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -47,7 +49,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 39-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -57,22 +59,21 @@
     \choralniRezim
     c4 d d( f) d e \barMin f d c c d d \barFinalis
 
-    a^\rubrVelikAleluja c c( d) d \barFinalis
+    c^\rubrVelikAleluja d d( f e) d \barFinalis
   }
   \addlyrics {
-    Stá -- le
-    % se
-    spo -- lé -- hám
+    Stá -- le spo -- lé -- hám
     na Bo -- ží sli -- tov -- nost.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Stále se spoléhám na Boží slitovnost. Aleluja."
     quid = "3. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 52"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -83,11 +84,15 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( c) c( d) \barMin f f g a f d d \barMin
-    f g a a a bes( a) g( bes) a4. \barMin g4 f d( c) d4. \barFinalis
+    d4( c) c( d) \barMin
+    f f g a f d d \barMaior
+    f g a a a bes( a) g( bes) a \barMin
+    g f d( c) d \barFinalis
   }
   \addlyrics {
-    Bo -- že, sva -- té je tvé cho -- vá -- ní, kte -- rý Bůh je tak ve -- li -- ký
+    Bo -- že,
+    sva -- té je tvé cho -- vá -- ní:
+    kte -- rý bůh je tak ve -- li -- ký
     ja -- ko Bůh náš?
   }
   \header {
@@ -143,20 +148,21 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e f g g a a g( f) f4. \barMin
-    f4 g( a) a a a a g( f) g \barMin
-    g f g g( f) f4. \barFinalis
+    g4 a g f e d f g( a) a \barMaior
+    a c c c b a c( a) a \barMin
+    a g f e e \barFinalis
    }
   \addlyrics {
-    U -- va -- žo -- val jsem o svých ces -- tách a o -- brá -- til jsem své no -- hy
+    U -- va -- žo -- val jsem o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
     k_tvým při -- ká -- zá -- ním.
   }
   \header {
     quid = "1. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 119-ח"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -166,12 +172,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) a4. a \barMin b4( c) a a b( g) a \barMin
+    g4( f g) a4. a \barMin
+    b4( c) a a b( g) a \barMaior
     a a a b a g f g e e \barFinalis
   }
   \addlyrics {
-    Zmí -- tám se v_ne -- kli -- du, Bo -- že, vě -- nuj mi po -- zor -- nost
-    a vy -- slyš mě.
+    Zmí -- tám se
+    v_ne -- kli -- du, Bo -- že,
+    vě -- nuj mi po -- zor -- nost a vy -- slyš mě.
   }
   \header {
     quid = "2. ant."
@@ -186,10 +194,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a b c( a) a \barMin a g f g e4. e \barFinalis
+    a4 a g a b( a) a \barMin
+    a g f g e e \barFinalis
   }
   \addlyrics {
-    Bu -- du vo -- lat k_Bo -- hu a on mě za -- chrá -- ní.
+    Bu -- du vo -- lat k_Bo -- hu,
+    a on mě za -- chrá -- ní.
   }
   \header {
     quid = "3. ant."

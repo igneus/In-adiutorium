@@ -26,8 +26,79 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g a a a g a b g g( a) a \barMaior
+    a a a( f) g f( d) d \barMin
+    c d e f g f e e \barFinalis
+  }
+  \addlyrics {
+    Vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
+    pro -- ti Hos -- po -- di -- nu
+    a je -- ho po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 2"
+    fial = "pust_triduum.ly#pa-mc-ant1?cast"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) a a b c a a \barMin
+    b a g g( a) a \barMaior
+    e e e( f) d d( e) e \barMin
+    f g a a b g a a \barMaior
+    g e e e f g e e \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
+    před trů -- nem Bo -- žím,
+    by -- ly vy -- kou -- pe -- ny
+    z_li -- dí ja -- ko pr -- vo -- ti -- ny
+    pro Bo -- ha a pro Be -- rán -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g f e e \barMaior
+    e e( f) e d f g g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- jich bo -- lest a ná -- řek
+    se změ -- ni -- ly ve věč -- nou ra -- dost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -48,7 +119,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -70,7 +141,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -92,7 +163,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     fons = "zacatek ze zaltare, so 4.t., rch, 3.a."
     fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?beginning"
     piece = \markup {\sestavTitulek}
@@ -133,7 +204,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

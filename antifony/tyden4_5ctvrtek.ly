@@ -31,7 +31,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -40,7 +40,7 @@
   \relative c'' {
     \choralniRezim
     g4 a b b b b c d e d \barMaior
-    c b c d b g g \barMin a( f) g \barFinalis
+    c b c d b g g \barMin a( b) g \barFinalis
 
     f^\rubrVelikAleluja g g g \barFinalis
   }
@@ -55,7 +55,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -64,11 +64,13 @@
   \relative c'' {
     \choralniRezim
     g4 a b d d e( c) d \barMaior
-    e b c b g \barMin f g a c c b g g \barFinalis
+    e e d c b \barMin
+    a g a c c b g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ne -- skrý -- vej svou tvář,
-    ne -- za -- po -- mí -- nej na na -- ši bí -- du a ú -- tisk.
+    ne -- za -- po -- mí -- nej
+    na na -- ši bí -- du a ú -- tisk.
 
     % v breviari neni aleluja
   }
@@ -77,7 +79,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -85,17 +87,21 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d d( f) e d e f f \barMin e f d d \barFinalis
+    g4 g a g \barMin
+    a g a a c c \barMin
+    b a g g \barFinalis
   }
   \addlyrics {
-    Dej, ať zá -- hy do -- jdu tvé mi -- los -- ti, Hos -- po -- di -- ne.
+    Dej, ať zá -- hy
+    do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 143"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -135,7 +141,7 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
-    psalmus = "Žalm 147"
+    psalmus = "Žalm 147-I"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -190,10 +196,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) g g( c) c c c d c c b c a( g) g \barFinalis
+    g4 g g( c) a \barMin
+    b c a g4.( f4) f g a g g \barFinalis
   }
   \addlyrics {
-    Kvů -- li to -- bě Bůh pře -- mo -- hl tvé ne -- přá -- te -- le.
+    Kvů -- li to -- bě
+    pře -- mo -- hl Bůh tvé ne -- přá -- te -- le.
   }
   \header {
     quid = "3. ant."
@@ -244,6 +252,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 144-II"
+    placet = "zdá se, že skutečnou finálou je spíš f než d"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

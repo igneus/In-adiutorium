@@ -3,9 +3,6 @@
 % kontextu zbytecne veci a jine pro jeho potreby definuje
 % jinak.
 
-% nekolik vychytavek standartne importovanych do vsech projektu
-% z webu inadiutorium.xf.cz
-
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t

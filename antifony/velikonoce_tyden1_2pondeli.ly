@@ -7,12 +7,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( b) c d( c) d( c) a( b) \barMin b( a) b b( c) c \barMaior
-    c c b a b( a) g g \barMaior
-    a f( a) g g \barFinalis
+    c4 c c( d) c c( b c) \barMin
+    a g a( g) f \barMaior
+    g g a b c( a) g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
-    Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
+    Ať se ra -- du -- jí_*
+    v_to -- bě všich -- ni,
     kdo mi -- lu -- jí tvé jmé -- no.
     A -- le -- lu -- ja.
   }
@@ -73,11 +75,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d e d b( c) b \barMaior
-    a g c b a g \barMin
-    f g a( g) g \barFinalis
+    d4 d f e f( g) g \barMin
+    a g e f e d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Buď -- te do -- bré mys -- li,_*
@@ -86,8 +88,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 11"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

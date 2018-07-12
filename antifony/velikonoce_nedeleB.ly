@@ -51,8 +51,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_dotkněte se .. a ..._ jinak, lépe"
     id = "iiiben"
-    fons = "větší část viz čtvrtek ve vel. oktávu, k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?+pokracovani"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -80,6 +81,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "II.A"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -132,6 +134,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "půjde lépe"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -259,6 +262,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "zaslouží trochu péče"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -362,6 +366,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "_toto mluvím ještě ve světě_ jinak; závěr před aleluja také jinak"
     id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -388,6 +393,8 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
+    placet = "_zasvěcuji_ snad lépe dab a ga G;
+    torculus z _posvěceni_ rozhodně pryč"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

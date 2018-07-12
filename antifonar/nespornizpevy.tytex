@@ -1,0 +1,779 @@
+% build by
+% $ rake nesporni
+
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[czech]{babel}
+
+\usepackage[left=1cm, right=2cm, top=2cm, bottom=1cm, marginparwidth=1.2cm, marginparsep=0.3cm]{geometry} % okraje stranky
+\usepackage[colorlinks=true, citecolor=black, linkcolor=black, urlcolor=black]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+
+\usepackage[small]{titlesec}
+\usepackage{marginnote}
+
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+% font Palatino:
+% \usepackage[sc]{mathpazo}
+% \linespread{1.05}
+
+% font Bookman:
+% \usepackage{bookman}
+\usepackage{tgschola}
+
+\usepackage{lettrine} % inicialky; jen docasne pro rychle rozchozeni, pak zase vyhodit
+
+\input{spolecne.tex}
+
+% typographus configuration
+\setPsalmsDir{zalmy}
+\setConfig{nespornizpevy/typographus.yml}
+
+\newcommand{\autor}{Jakub Pavlík}
+\newcommand{\nazev}{Nešporní zpěvy}
+
+\newcommand{\textDoTiraze}{
+  Používání \emph{nápěvů antifon} je vázáno licencí
+  \href{http://creativecommons.org/licenses/by-sa/3.0/deed.cs}{Creative Commons At\-tri\-bu\-tion-\-ShareAlike 3.0 Unported},
+  která dává komukoli právo je dále šířit, upravovat a využívat
+  ve svých vlastních dílech, za předpokladu, že uvede informaci
+  o autorovi původního díla a při dalším šíření zachová licenční
+  podmínky.
+
+  Texty Denní modlitby církve jsou majetkem České biskupské konference.
+
+  Texty žalmů a kantik jsou převzaté z webu \url{http://ebreviar.cz},
+  jehož tvůrcům za jejich práci tímto srdečně děkuji.
+  Z textů je vypuštěno to, co se zdá být pro modlitbu v chóru
+  nadbytečné nebo rušivé (číslování žalmů i podle Vulgáty,
+  nadpisy žalmů a připojené citáty z Písma a Otců), naopak jsou doplněny
+  o značky usnadňující zpěv.
+  Kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
+  podle něj opraveny.
+}
+
+\renewcommand{\titulniStranka}{
+  \pagestyle{empty} % bez hlavicky a bez cisla stranky
+  \begin{titlepage}
+    \begin{center}
+
+      \vspace*{7cm}
+
+      {\Huge \textbf{\nazev}}
+
+      \vspace{1cm}
+
+      {\large \autor}
+
+      \vfill
+      In adiutorium
+
+      \onlyyeardate \today
+    \end{center}
+  \end{titlepage}
+}
+
+\newcommand{\preLilyPondExample}{ \begin{flushleft} }
+\newcommand{\postLilyPondExample}{ \end{flushleft} }
+
+\newcommand{\nadpisOkruh}[1]{
+  \section{#1}
+  % jenom v oddilech na zacatku bude opravdu fungovat - v ostatnich bude
+  % vzdy prepsano nazvem svatku
+  \fancyhead[CE,CO]{#1}
+}
+
+\renewcommand{\nadpisDen}[1]{
+  \subsection{#1}
+  \fancyhead[CE,CO]{#1}
+}
+
+\newcommand{\odkazRubrika}[1]{
+  \hfill\small \textit{#1}}
+\newcommand{\odkazZalm}[2]{\odkazRubrika{Žalm #2, str. \pageref{#1}.
+}}
+\newcommand{\odkazKantikum}[2]{\odkazRubrika{Kantikum #2, str. \pageref{#1}.
+}}
+\newcommand{\odkazMagnificat}{\odkazRubrika{Kantikum Panny Marie, str. \pageref{magnificat}.
+}}
+
+\newcounter{castPisne}
+\newcommand{\cisloPisne}[1]{
+  \marginnote{\begin{center}\small\textbf{#1}\end{center}}[-40pt]
+  \setcounter{castPisne}{1}
+}
+\newcommand{\cisloCastiPisne}{
+  \marginnote{\begin{center}\footnotesize{\arabic{castPisne}}\end{center}}[-10pt]
+  \stepcounter{castPisne}
+}
+
+% commands expected by pslm
+\renewenvironment{psalmus}{}{}
+\renewcommand{\psalmStrophe}{\vspace{2mm}}
+
+% commands expected by typographus
+\newenvironment{psalmodia}{}{}
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+% change \section title format using titlesec
+% \titleformat*{\section}{\bfseries\filcenter}
+
+% make \index void
+% we don't use it, but some of the commands in spolecne.tex
+% call it
+\renewcommand{\index}[2]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\titulniStranka
+
+\cleardoublepage
+
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\pagestyle{fancy}
+
+\nadpisOkruh{Úvod}
+
+Publikace \emph{Nešporní zpěvy} nabízí podklady pro zpívané druhé nešpory
+o~všech slavnostech liturgického roku a o~svátcích nejvýznačnějších
+zemských patronů. Je připravována se zvláštním zřetelem k~podmínkám
+společenství, kde je společné slavení liturgie hodin spíše výjimečnou
+událostí, zejm. farností.
+
+Vědomě, i názvem, který jsem si vypůjčil ze sešitku
+P. Františka Micky \emph{Nešporní zpěvy pro lid},
+přitom navazuje na tradici
+tkzv. lidových nešpor, které se slavily v~českých kostelích ve třetí
+čtvrtině devatenáctého a první polovině dvacátého století.
+Je samozřejmě zcela dnešní - liturgické texty jsou vzaty ze současného
+českého breviáře. Staré lidové nešpory byly inspirací především pro
+uspořádání, pro zacházení s nápěvy žalmů (každý žalm má napříč liturgickým
+rokem stále stejný nápěv) a pro určení rozsahu.
+
+Kvůli některým koncepčním volbám (neměnící se nápěvy žalmů,
+snadnost antifon) jsou nápěvy antifon v \emph{Nešporních zpěvech}
+většinou zcela nezávislé na ostatní produkci projektu In adiutorium.
+Responsoria jsou naopak většinou převzata beze změny.
+
+Způsobem úpravy se \emph{Nešporní zpěvy} v mnoha ohledech liší od ostatních
+materiálů vzniklých v rámci projektu In adiutorium, protože předpokládají
+jiného uživatele. Jsou zpěvníkem do kostelní lavice, který by měl
+být snadno pochopitelný a použitelný i pro toho, kdo dosud nemá
+s~denní modlitbou církve mnoho zkušeností, nezná nazpaměť chorální
+nápěvy žalmů,~... Na kostelní podmínky bylo myšleno při opatření všech
+zpěvů čísly, takže lze při nešporách využít číselníku normálně ukazujícího
+čísla písní v kancionálu.
+
+\clearpage
+
+% From now on, we don't want the first line of a paragraph to be indented
+\setlength{\parindent}{0pt}
+
+\nadpisOkruh{Uspořádání}
+
+\setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
+
+\setChantSource{nespornizpevy/tonicommunes.ly}
+
+\nadpisZalmu{Úvodní verš}
+\label{pospes}
+\cisloPisne{001}
+\simpleScore{#pospes}
+
+\nadpisZalmu{Hymnus}
+
+\nadpisZalmu{Žalmy}
+Zpívají se tři žalmy se svými antifonami.
+
+\nadpisZalmu{Krátké čtení}
+Lektor přečte z breviáře krátké čtení. Po něm se zpívá responsorium.
+
+\nadpisZalmu{Kantikum Panny Marie}
+se svou antifonou
+
+\nadpisZalmu{Přímluvy}
+
+\nadpisZalmu{Modlitba Páně}
+
+\nadpisZalmu{Zakončení - požehnání}\cisloPisne{002}
+\label{zakonceni}
+\simpleScore{#pozehnani}
+
+\nadpisZalmu{- není-li přítomen kněz}\cisloPisne{003}
+\simpleScore{#nepozehnani}
+
+{\footnotesize{Nápěv úvodního verše a zakončení při slavení bez kněze
+je adaptován z \emph{Antiphonale Romanum} 1912, nápěv požehnání je převzat
+ze stránek http://www.op.cz}}
+
+\clearpage
+
+\nadpisOkruh{Nešporní žalmy a kantika}
+% 15 Josefa, JanaKr, CyrMet
+% 46 Posveceni
+% 47 Nanebevstoupeni
+% 110 Narozeni, Zmrtvychvstani, Nanebevstoupeni, Seslani, Krale, Trojice, Tela, Srdce, Zvestovani, VsSvatych
+% 111 Srdce
+% 112 Zjeveni, Josefa, JanaKr, CyrMet
+% 114 Zmrtvychvstani, Seslani, Trojice
+% 116-I JanaNep, Vaclava
+% 116-II Tela, JanaNep, PetraPavla, Vaclava, VsSvatych
+% 121 Zemrele
+% 122 MatkyBozi, Nanebevzeti, Neposkvrnene, Posveceni
+% 126 PetraPavla
+% 127 Matky Bozi, Nanebevzeti, Neposkvrnene
+% 130 Narozeni, Zvestovani, Zemrele
+% 145-I Krale
+
+% Ef 1 MatkyBozi, PetraPavla, Nanebevzeti, Neposkvrnene / 151
+% Fp 2 Srdce, Zemrele /152
+% Kol 1 Narozeni, Zvestovani /153
+% Zj 4 JanaNep, Vaclava, VsSvatych /154
+% Zj 11 Nanebevstoupeni /155
+% Zj 15 Zjeveni, Josefa, JanaKr, CyrMet /156
+% Zj 19 Zmrtvychvstani, Seslani, Krale, Trojice, Tela, Posveceni /157
+
+\setIncludes{nespornizpevy/spolecne_nespory.ly, ../dilyresponsorii.ly}
+\setPsalmsDir{zalmy}
+
+\setChantSource{nespornizpevy/zalmy.ly}
+
+\nadpisZalmu{kantikum Panny Marie}
+\label{magnificat}
+\cisloPisne{004}
+\simpleScore{#magnificat}
+
+\psalm{magnificat}{VIII.G}
+
+\nadpisZalmu{Žalm 47}
+\label{z47}
+\cisloPisne{47}
+\simpleScore{#z47}
+
+\psalm{zalm47}{VIII.G}
+
+\nadpisZalmu{Žalm 110, 1-5.7}
+\label{z110}
+\cisloPisne{110}
+\simpleScore{#z110}
+
+\psalm{zalm110}{VII.a}
+
+\nadpisZalmu{Žalm 111}
+\label{z111}
+\cisloPisne{111}
+\simpleScore{#z111}
+
+\psalm{zalm111}{VII.c}
+
+\nadpisZalmu{Žalm 112}
+\label{z112}
+\cisloPisne{112}
+\simpleScore{#z112}
+
+\psalm{zalm112}{III.a}
+
+\nadpisZalmu{Žalm 114}
+\label{z114}
+\cisloPisne{114}
+\simpleScore{#z114}
+
+\psalm{zalm114}{per}
+
+\nadpisZalmu{Žalm 116-I}
+\label{z116i}
+\cisloPisne{116}
+\simpleScore{#z116i}
+
+\psalm{zalm116i}{II.D}
+
+\nadpisZalmu{Žalm 116-II}
+\label{z116ii}
+\cisloPisne{117} % zalm 117 ve slavnostnich nesporach neni a 116-II zase
+% vetsinou neni v moznostech kostelnich ukazatelu cisel :)
+\simpleScore{#z116ii}
+
+\psalm{zalm116ii}{II.D}
+
+\nadpisZalmu{Žalm 122}
+\label{z122}
+\cisloPisne{122}
+\simpleScore{#z122}
+
+\psalm{zalm122}{I.D2}
+
+\nadpisZalmu{Žalm 127}
+\label{z127}
+\cisloPisne{127}
+\simpleScore{#z127}
+
+\psalm{zalm127}{IV.E}
+
+\nadpisZalmu{Žalm 130}
+\label{z130}
+\cisloPisne{130}
+\simpleScore{#z130}
+
+\psalm{zalm130}{VII.c}
+
+\nadpisZalmu{Žalm 145-I}
+\label{z145i}
+\cisloPisne{145}
+\simpleScore{#z145i}
+
+\psalm{zalm145i}{I.D}
+
+\nadpisZalmu{kantikum Fp 2}
+\label{kfp2}
+\cisloPisne{152}
+\simpleScore{#kfp2}
+
+\psalm{fp2}{I.D}
+
+\nadpisZalmu{kantikum Kol 1}
+\label{kkol1}
+\cisloPisne{153}
+\simpleScore{#kkol1}
+
+\psalm{kol1}{VIII.G}
+
+\nadpisZalmu{kantikum Zj 11}
+\label{kzj11}
+\cisloPisne{155}
+\simpleScore{#kzj11}
+
+\psalm{zj11}{VIII.G}
+
+\nadpisZalmu{kantikum Zj 19}
+\label{kzj19}
+\cisloPisne{157}
+\lilypondfile{nespornizpevy/kantikum-Zj19.ly}
+
+%%% JEDNOTLIVA OFICIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Vanocni okruh
+
+\nadpisOkruh{Vánoce}
+
+\setChantSource{nespornizpevy/antifony_vanoce.ly}
+
+\nadpisDen{Narození Páně (24.12.)} \cisloPisne{200}
+
+\cisloCastiPisne
+\simpleScore{#narozeni-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#narozeni-ant2}
+
+\odkazZalm{z130}{130}
+
+\cisloCastiPisne
+\simpleScore{#narozeni-ant3}
+
+\odkazKantikum{kkol1}{Kol 1}
+
+\cisloCastiPisne
+\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#narozeni-antmag}
+\odkazMagnificat
+
+\nadpisDen{Matky Boží, Panny Marie (1.1.)} \cisloPisne{201}
+
+\cisloCastiPisne
+\simpleScore{#mb-ant1}
+
+\odkazZalm{z122}{122}
+
+\cisloCastiPisne
+\simpleScore{#mb-ant2}
+
+\odkazZalm{z127}{127}
+
+\odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+% responsorium je opravdu stejne jako o Narozeni Pane
+\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
+
+\odkazMagnificat
+
+\nadpisDen{Zjevení Páně (6.1.)} \cisloPisne{202}
+
+\cisloCastiPisne
+\simpleScore{#zjeveni-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#zjeveni-ant2}
+
+\odkazZalm{z112}{112}
+
+\odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+% opravdu tak, opakuje se responsorium z 1. nespor
+\simpleScore{../vanoce_zjevenipane.ly#epifanie-1ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#zjeveni-antmag}
+\odkazMagnificat
+
+%% Velikonocni okruh
+
+\nadpisOkruh{Velikonoce}
+
+\setChantSource{nespornizpevy/antifony_velikonoce.ly}
+
+\nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300} %%%%
+
+\cisloCastiPisne
+\simpleScore{#zmrtvychvstani-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#zmrtvychvstani-ant2}
+
+\odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\simpleScore{#zmrtvychvstani-ant3}
+
+\odkazKantikum{kzj19}{Zj 19}
+
+\cisloCastiPisne
+\simpleScore{../velikonoce_velikonocnioktav.ly#resp}
+
+\cisloCastiPisne
+\simpleScore{#zmrtvychvstani-antmag}
+\odkazMagnificat
+
+\nadpisDen{Nanebevstoupení Páně} \cisloPisne{301} %%%%
+
+\cisloCastiPisne
+\simpleScore{#nanebevstoupeni-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#nanebevstoupeni-ant2}
+
+\odkazZalm{z47}{47}
+
+\cisloCastiPisne
+\simpleScore{#nanebevstoupeni-ant3}
+
+\odkazKantikum{kzj11}{Zj 11}
+
+\cisloCastiPisne
+\simpleScore{../velikonoce_nanebevstoupeni.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#nanebevstoupeni-antmag}
+\odkazMagnificat
+
+\nadpisDen{Seslání Ducha svatého} \cisloPisne{302} %%%%
+
+\cisloCastiPisne
+\simpleScore{#seslani-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#seslani-ant2}
+
+\odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\simpleScore{#seslani-ant3}
+
+\odkazKantikum{kzj19}{Zj 19}
+
+\cisloCastiPisne
+\simpleScore{../velikonoce_seslaniduchasv.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#seslani-antmag}
+\odkazMagnificat
+
+%% Slavnosti Pane v mezidobi
+
+\nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
+
+\setChantSource{nespornizpevy/antifony_slavnostipane.ly}
+
+\nadpisDen{Nejsvětější Trojice} \cisloPisne{400} %%%%
+
+\cisloCastiPisne
+\simpleScore{#trojice-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#trojice-ant2}
+
+\odkazZalm{z114}{114}
+
+\cisloCastiPisne
+\simpleScore{#trojice-ant3}
+
+\odkazKantikum{kzj19}{Zj 19}
+
+\cisloCastiPisne
+% ano, opakuje se z prvnich nespor
+\simpleScore{../mezidobi_trojice.ly#1ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#trojice-antmag}
+\odkazMagnificat
+
+\nadpisDen{Těla a Krve Páně} \cisloPisne{401} %%%%
+
+\cisloCastiPisne
+\simpleScore{#tela-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#tela-ant2}
+
+\odkazZalm{z116ii}{116-II}
+
+\cisloCastiPisne
+\simpleScore{#tela-ant3}
+
+\odkazKantikum{kzj19}{Zj 19}
+
+\cisloCastiPisne
+% opakuje se z prvnich nespor
+\simpleScore{../mezidobi_telaakrvepane.ly#1ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#tela-antmag}
+\odkazMagnificat
+
+\nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402} %%%%
+
+\cisloCastiPisne
+\simpleScore{#srdce-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#srdce-ant2}
+
+\odkazZalm{z111}{111}
+
+\cisloCastiPisne
+\simpleScore{#srdce-ant3}
+
+\odkazKantikum{kfp2}{Fp 2}
+
+\cisloCastiPisne
+\simpleScore{../mezidobi_nejsvsrdce.ly#1ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#srdce-antmag}
+\odkazMagnificat
+
+\nadpisDen{Ježíše Krista Krále} \cisloPisne{403} %%%%
+
+\cisloCastiPisne
+\simpleScore{#krale-ant1}
+
+\odkazZalm{z110}{110}
+
+\cisloCastiPisne
+\simpleScore{#krale-ant2}
+
+\odkazZalm{z145i}{145-I}
+
+\cisloCastiPisne
+\simpleScore{#krale-ant3}
+
+\odkazKantikum{kzj19}{Zj 19}
+
+\cisloCastiPisne
+\simpleScore{../mezidobi_kristakrale.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{#krale-antmag}
+\odkazMagnificat
+
+%% Sanktoral - jaro+leto
+
+\nadpisOkruh{Sanktorál}
+% vsechny slavnosti + dva svatky hlavnich zemskych patronu:
+% Jana Nep. a Cyrila s Metodejem
+\nadpisDen{sv. Josefa, snoubence Panny Marie (19.3.)} \cisloPisne{500}
+
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0319josef.ly#1ne-resp-post}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0319josef.ly#1ne-resp-velik}
+
+\odkazMagnificat
+
+\nadpisDen{Zvěstování Páně (25.3.)} \cisloPisne{501}
+
+\odkazZalm{z110}{110}
+\odkazZalm{z130}{130}
+\odkazKantikum{kkol1}{Kol 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp-velik}
+
+\odkazMagnificat
+
+\nadpisDen{sv. Jana Nepomuckého, kněze a mučedníka (16.5.)} \cisloPisne{502}
+
+\odkazZalm{z116i}{116-I}
+\odkazZalm{z116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp-velik}
+
+\odkazMagnificat
+
+\nadpisDen{Narození sv. Jana Křtitele (24.6.)} \cisloPisne{503}
+
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+% ano, opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0624narozenikrtitele.ly#1ne-resp}
+
+\odkazMagnificat
+
+\nadpisDen{sv. Petra a Pavla, apoštolů (29.6.)} \cisloPisne{504}
+
+\odkazZalm{z116ii}{116-II}
+\odkazZalm{z126}{126}
+\odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+% opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0629petraapavla.ly#1ne-r}
+
+\odkazMagnificat
+
+\nadpisDen{sv. Cyrila, mnicha, a Metoděje, biskupa (5.7.)} \cisloPisne{505}
+
+\odkazZalm{z15}{15}
+\odkazZalm{z112}{112}
+\odkazKantikum{kzj15}{Zj 15}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0705cyrilmetodej.ly#2ne-resp}
+
+\odkazMagnificat
+
+\nadpisDen{Nanebevzetí Panny Marie (15.8.)} \cisloPisne{506}
+
+\odkazZalm{z122}{122}
+\odkazZalm{z127}{127}
+\odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/0815nanebevzetipm.ly#2ne-resp}
+
+\odkazMagnificat
+
+%% Sanktoral - podzim+zima
+
+\nadpisDen{sv. Václava, mučedníka (28.9.)} \cisloPisne{507}
+
+\odkazZalm{116i}{116-I}
+\odkazZalm{116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+% opakuje se z prvnich nespor
+\simpleScore{../sanktoral/0928vaclav.ly#1ne-r}
+
+\odkazMagnificat
+
+\nadpisDen{Všech svatých (1.11.)} \cisloPisne{508}
+
+\odkazZalm{z110}{110}
+\odkazZalm{z116ii}{116-II}
+\odkazKantikum{kzj4}{Zj 4}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/1101vsichnisvati.ly#2ne-r}
+
+\odkazMagnificat
+
+\nadpisDen{Vzpomínka na všechny věrné zemřelé (2.11.)} \cisloPisne{509}
+
+\odkazZalm{z121}{121}
+\odkazZalm{z130}{130}
+\odkazKantikum{kfp2}{Fp 2}
+
+\cisloCastiPisne
+\simpleScore{../commune/zazemrele.ly#ne-r}
+
+\odkazMagnificat
+
+\nadpisDen{Panny Marie počaté bez poskvrny prvotního hříchu (8.12.)} \cisloPisne{510}
+
+\odkazZalm{z122}{122}
+\odkazZalm{z127}{127}
+\odkazKantikum{kef1}{Ef 1}
+
+\cisloCastiPisne
+\simpleScore{../sanktoral/1208pmpocatebezposkvrny.ly#2ne-resp}
+
+\odkazMagnificat
+
+\nadpisDen{Posvěcení kostela} % patri do sanktoralu kalendare konkretniho kostela
+\cisloPisne{511}
+
+\odkazZalm{z46}{46}
+\odkazZalm{z122}{122}
+\odkazKantikum{kzj19}{Zj 19} % mimo dobu postní
+\odkazKantikum{kzj15}{Zj 15} % v době postní
+
+\cisloCastiPisne
+\simpleScore{../commune/commune_kostel.ly#2ne-resp}
+
+\cisloCastiPisne
+\simpleScore{../commune/commune_kostel.ly#2ne-resp-velik}
+
+\odkazMagnificat
+
+\clearpage
+\fancyhead[CE,CO]{}
+\tableofcontents
+
+\clearpage
+\tiraz
+
+\end{document}

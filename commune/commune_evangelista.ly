@@ -33,7 +33,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -64,7 +64,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,17 +78,18 @@
   }
   \addlyrics {
     Všich -- ni bu -- dou chvá -- lit je -- jich moud -- rost,
-    % tak -- že
     na -- vě -- ky ne -- bu -- de vy -- hla -- ze -- na.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Všichni budou chválit jejich moudrost,
+    takže navěky nebude vyhlazena. Aleluja."
     quid = "3. ant."
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -129,7 +130,7 @@
     quid = "resp."
     modus = "I"
     placet = "~"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -166,7 +167,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r-pasch"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -192,7 +193,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -216,7 +217,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -242,12 +243,10 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
-
-% Responsorium je z commune o apostolech
 
 \markup\italic{Mimo dobu velikonoční:}
 
@@ -282,7 +281,8 @@
   \header {
     quid = "resp."
     modus = "I"
-    id = ""
+    fial = "commune/commune_apostol.ly#2ne-resp"
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -319,7 +319,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    fial = "commune/commune_apostol.ly#2ne-resp-velik"
+    id = "ne-r-pasch"
     piece = \markup {\sestavTitulekResp}
   }
 }

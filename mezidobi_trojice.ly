@@ -38,13 +38,15 @@
   \relative c'' {
     \choralniRezim
     g4 a f e f4.( g) \barMin
-    g4 a c c c b g a g g \barMax
-    f( e f g) g \barMin g a c b a g f g g \barFinalis
+    g4 a c c c b g a g g \barMaior
+    c( b c d) c \barMin
+    a c c c b a a g g \barFinalis
   }
   \addlyrics {
     Troj -- je -- di -- ný Bůh
     nám pro -- ká -- zal své mi -- lo -- sr -- den -- ství;
-    chval -- me a o -- sla -- vuj -- me ho na -- vě -- ky.
+    chval -- me
+    a o -- sla -- vuj -- me ho na -- vě -- ky.
   }
   \header {
     quid = "2. ant."
@@ -60,7 +62,7 @@
   \relative c'' {
     \choralniRezim
     a4( d) d d f4.( d) \barMin e4 f d c c( d) d \barMaior
-    c a b a g \barMin a( b) b c a g g \barFinalis
+    c a b a g \barMin a b g g( a) g g \barFinalis
   }
   \addlyrics {
     Slá -- va a čest je -- di -- né -- mu Bo -- hu:
@@ -82,30 +84,27 @@
 
     % R
     \neviditelna f
-    g f g a g f( g) g4.( a) \barMax
-    a4 g( f) g f d4. d \barFinalis
+    f4 f f f f g( a) a( g) \barMax
+    f f g a g( f) f \barFinalis
     % V
     \neviditelna a
-    a'4( g) g b b( a) a \barMin g a a b g4. a \barMax
+    a4( bes) a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a4 g( f) g f d4. d \barFinalis
-    % Slava - melodie i text temer totozny s versem
-    a'4 a a( g) g b b( a) a \barMin g a a b g4. a \barFinalis
+    f f g a g( f) f \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Troj -- je -- di -- né -- mu Bo -- hu_*
     vzdej -- me čest a chvá -- lu.
     \Verse Ot -- ci i Sy -- nu i sva -- té -- mu Du -- chu_*
     \Response vzdej -- me čest a chvá -- lu.
-    % Pozmeneny text doxologie
-    Slá -- va Ot -- ci i Sy -- nu i sva -- té -- mu Du -- chu.
+    \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "1ne-resp"
-    placet = "R"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -227,11 +226,35 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 33-II"
+    placet = "tady zásada stejný text -- stejná melodie vede k nevkusnému opakování;
+    udělat dvě antifony, které k sobě patří, ale tak, že se vkusně doplňují - ne aby
+    jedna druhou papouškovala"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( e) d d c d d( e) e \barMaior
+    e e d( e) d c a( g) g \barMin
+    a c a c( d e d) c( b a) a \barFinalis
+  }
+  \addlyrics {
+    Chvá -- la a věč -- ná slá -- va
+    Bo -- hu Ot -- ci i Sy -- nu
+    i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -279,6 +302,8 @@
     modus = "III"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "_stvořil_: sekundový krok mezi stvo- a -řil je nelibý.
+    Buďto gagfe e, nebo i na -řil kratší melisma"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -307,21 +332,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    a g g( a) a \barMin b( c) d( e) d c c( d) d \barMax
-    c4 d c b a g a \barFinalis
+    \neviditelna f
+    f4 f f( g) g \barMin f f f f g( a) a( g) \barMax
+    g g( a) g f( d) f( g) g f \barFinalis
     % V
-    \neviditelna d
-    d4( c d) d( e) d c d4. d \barMax
+    \neviditelna f
+    a4 a g f g( a) a( g) \barMax
     % R
-    \neviditelna d
-    c4 d c b a g a \barFinalis
+    \neviditelna f
+    g g( a) g f( d) f( g) g f \barFinalis
     % Slava
-    d4( c d4.) d \barMin e4 d e c( a) a \barMin a b c c( d) d4. d \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Chvá -- lí -- me tě, tro -- je -- di -- ný Bo -- že,_*
@@ -332,9 +357,8 @@
   }
   \header {
     quid = "resp."
-    modus = "IV alt."
+    modus = "VI"
     id = "rch-resp"
-    placet = "~"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -342,16 +366,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) g4.( a) \barMin
+    a4 a a g f g( a) a \barMin
     a4 b( c) c b( c a4.) a \barMaior
     b4( g) g a g f d f f4.( e) \barMaior
-    e4 e g( a) g( a) a \barMin a( g a) a4.( e) e4 f( g) g( e) e \barFinalis
+    e4 e g( a) g( a) a \barMin
+    a( g a) a4.( e) e4 f( g) g( e) e \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý všech -- no stvo -- řil
     a všech -- no ří -- dí,
     sva -- tý a troj -- je -- di -- ný Bůh,
-    ať je ve -- le -- ben ny -- ní i na -- vě -- ky.
+    ať je ve -- le -- ben
+    ny -- ní i na -- vě -- ky.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -359,7 +385,6 @@
     differentia = "g"
     psalmus = ""
     id = "rch-aben"
-    placet = "trochu divné je -stvořil-"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -487,6 +512,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 114"
+    placet = "_a dej nám věčný život_ je nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -547,6 +573,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "a co _Tobě buď_ g f e ?"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

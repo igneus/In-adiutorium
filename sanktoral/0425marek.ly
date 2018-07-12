@@ -15,11 +15,13 @@
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
-    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barFinalis
+    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
+    c d f( e d e) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
     on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k invitatoriu"

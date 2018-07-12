@@ -125,6 +125,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup\italic{V době velikonoční:}
 
 % Na tomto responsoriu jsem se marne snazil s klasickym modelem
@@ -251,6 +253,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -276,6 +280,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19A"
+    placet = "_pronikl_ se zpívá špatně, jakoby se láme. 
+    Snad lépe fga fd d nebo jinak bez toho ostrého zlomu."
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -329,13 +335,41 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c a) g( f) f( g) g \barMaior
+    c b c c( d) d( c) \barMin
+    b a g a a( g) g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-2ne-amag?+aleluja"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
-    a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barFinalis
+    a( c) a g f g( f) d d \barMaior
+    d c d f( g f) \barMin g( f) e f d \barFinalis
 
     e4^\markup\rubrVelikAleluja f d d \barFinalis
   }
@@ -387,10 +421,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d( e) c c d d \barMaior
-    d c( d) a a \barMin c bes a g( a) a a \barFinalis
+    g4 a a( b) g g a a \barMaior
+    a g( a) e e \barMin g f e d( e) e e \barFinalis
 
-    a^\markup\rubrVelikAleluja bes a a \barFinalis
+    f^\markup\rubrVelikAleluja g f( e) e \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
@@ -400,10 +434,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 149"
-    placet = "transponovat - není důvod pro alt."
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -603,6 +636,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 116-II"
+    placet = "není úplně špatná, ale přesto zkusit lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

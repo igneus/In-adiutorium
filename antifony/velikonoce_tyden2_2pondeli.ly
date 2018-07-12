@@ -17,6 +17,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jako  laň prahne po vodách bystřin,
+    tak prahne má duše po tobě, Bože. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "f"
@@ -46,7 +48,8 @@
     differentia = "E"
     psalmus = "Sir 36"
     id = "rch-a2"
-    placet = "má ambitus přes oktávu - to je na feriální antifonu dost"
+    placet = "má ambitus přes oktávu - to je na feriální antifonu dost;
+    _Aleluja_ možná lépe e ag než ea g"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -54,9 +57,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d d( g) f g( d) d d( e) f d( c d) d \barMaior
-    d e f f( g) g \barMin f f( g f) e( f d4.) d \barMaior
-    c4 d( e) d d \barFinalis
+    d4 d d( c) c( d) d \barMin
+    d( g) f g( d) d d( e) f d( c d) d \barMaior
+    d c d f( g f d) d d e( f) d d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- ží ve -- leb -- nost_*
@@ -70,7 +74,8 @@
     differentia = "D"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
-    placet = "'odsazení' _je_ o sekundu je nevhodné; navíc někde mám pěkný úryvek _a jeho světlem je Beránek_, mohlo by tedy být dobré postavit novou melodii kolem něj"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?cast"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,9 +86,8 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g a a4. \barMin
-    bes4 c a4. a \barMin
-    g4( a) bes c a4. g \barMin
+    f4 g a a bes c a4. a \barMin
+    g4( a) bes c a4. g \barMaior
     f4 e c( d) d \barFinalis
   }
   \addlyrics {
@@ -97,6 +101,7 @@
     differentia = "f"
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant1?upraveno"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -105,10 +110,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( e) f g( a) \barMin
-    g a bes( a g) f( g) g \barMaior
-    g g g g g( a) g f e( f) d d \barMaior
-    d e( f) e( d) d \barFinalis
+    f4 f g-- \barMin
+    f f a( f) f( g) g \barMaior
+    a a g f d e f d c c \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ze těm,_*
@@ -122,7 +127,6 @@
     differentia = "f"
     psalmus = "Žalm 45-II"
     id = "ne-a2"
-    placet = "mdlá"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -20,11 +20,11 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
+
     psalmus = "Žalm 43"
     id = "rch-a1"
-    placet = "žalm má dost krátkých veršů - modus 7 se tak moc nehodí. Tuto antifonu však zřejmě lze i bez úprav předat 8. modu."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -54,18 +54,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4( d) d \barMin f e d e c( d) d \barMaior
-    f f( g f) e( d) c c e( f) d d \barMaior
-    c d e( d) d \barFinalis
+    d4 d \barMin
+    e f g f f( g) g \barMaior
+    g a f e c e( f) d d \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
-    Bo -- že, na -- vští -- vil jsi ze -- mi
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
     a na -- pl -- nils ji mi -- los -- tí.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 65"
     id = "rch-a3"

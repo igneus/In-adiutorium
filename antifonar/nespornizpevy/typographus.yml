@@ -1,0 +1,20 @@
+---
+# typographus setup for Nesporni zpevy. Loaded by a command
+# in the tytex document
+typographus:
+  doxology: 'full'
+  # psalm_tones: true
+psalmpreprocessor:
+  output:
+    skip_verses: 1
+    pointing:
+      accent_style: bold
+    parts:
+      marks_type: semantic
+    verses:
+      paragraphify: true
+    strophes:
+      end_marks: semantic
+splitscores:
+  remove_headers: false
+  mode_info: false

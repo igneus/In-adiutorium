@@ -38,14 +38,17 @@
     Bo -- ží krá -- lov -- ství je ja -- ko hoř -- čič -- né zrn -- ko:
     je men -- ší než všech -- na se -- me -- na,
     a -- le když vze -- jde,
-    % text mirne upraven:
     pře -- růs -- tá všech -- ny os -- tat -- ní rost -- li -- ny v_za -- hra -- dě.
   }
   \header {
+    textus_approbatus = "Boží království je jako hořčičné zrnko:
+    je menší než všechna semena, ale když vzejde,
+    přerůstá všechny jiné zahradní rostliny."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_je menší ..._ je nezpěvné; _všechny ..._ by také šlo lépe"
     id = "ne11b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -92,6 +95,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_Vlny_ rozhodně jinak; navíc je antifona vícenásobně repetitivní a nesluší jí to"
     id = "ne12b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -116,6 +120,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "melisma na _Ježíš_ působí neúčelnou a nepěknou retardaci"
     id = "ne12b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -138,6 +143,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_Učedníci si říkali_ je rytmicky nepěkné"
     id = "ne12b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -162,6 +168,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "od _a hned pocítila_ lépe"
     id = "ne13b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -204,6 +211,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_Děvče_ rozhodně jinak"
     id = "ne13b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -362,6 +370,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "ve skutečnosti není dórská, ale C-dur s falešným závěrem na d"
     id = "ne16b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -434,6 +443,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "dvojskok f d a na _pozdvihl oči_ se těžko zpívá a působí nepěkně - pryč s ním"
     id = "ne17b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -479,6 +489,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "první polovina je příliš dělená, melodie ne právě povedená"
     id = "ne17b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -513,9 +524,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g) g a a( b) a a( g) g \barMax
-    a( b a) a4.( c) a4( g) g( e) e \barMaior
-    e d c d( e) e( f e) e \barFinalis
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e f( g a) g f( g) e e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -527,8 +538,7 @@
     differentia = "g"
     psalmus = ""
     id = "ne18b-rch-ben"
-    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast"
-    fons = "Těla a Krve Páně, 1. nešp, 3. ant., prostřední část"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?-aleluja&upraveno"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -578,6 +588,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "_poslal_ jen ag g"
     id = "ne19-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

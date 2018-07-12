@@ -275,12 +275,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c a) g( f) f( g) g \barMin
-    c b c c( d) c( a) \barMin b a g a a( g) g \barFinalis
+    g4( c a) g( f) f( g) g \barMaior
+    c b c c( d) d( c) \barMin
+    b a g a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,
-    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -541,12 +543,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d f e d d e d c c( d) d \barMin
-    a a a c b( a) b a g g( a) a( g) g \barFinalis
+    d f e d d e d c c( d) d \barMaior
+    a a a c b( g) \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
-    kde je a -- ni mol, a -- ni rez ne -- ka -- zí.
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -660,15 +664,16 @@
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
     a jak si pře -- ji, a -- by
-    % už vzpla -- nul! % puvodni
-    se už vzňal! % moje nahrazka
+    se už vzňal!
   }
   \header {
+    textus_approbatus = "Oheň jsem přišel vrhnout na zem,
+    a jak si přeji, aby už vzplanul!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = "ne20c-2ne-amag"
+    id = "ne20c-1ne-amag"
     fial = "mezidobi_nejsvsrdce.ly#1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

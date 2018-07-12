@@ -14,7 +14,7 @@
   \relative c'' {
     \choralniRezim
     d4 d f( e c) c( d) d \barMin
-    c( a) b a g g \barFinalis
+    c b a g( a) a( g) \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -28,7 +28,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-IV"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -36,21 +36,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis
+    d4( c b) d( e) d d \barMin
+    c a b a g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
-    Bůh je při -- ve -- dl do své sva -- té ze -- mě.
+    Při -- ve -- dl je
+    do své sva -- té ze -- mě.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Bůh je přivedl do své svaté země. Aleluja."
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-V"
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,7 +77,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 78-VI"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -97,7 +100,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-I"
-    id = ""
+    placet = "všem třem věnovat spravedlivý kus péče"
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -110,15 +114,15 @@
   }
   \addlyrics {
     Vzý -- vej mě v_sou -- že -- ní,
-    % a vy -- svo -- bo -- dím tě.
     a já tě vy -- svo -- bo -- dím.
   }
   \header {
+    textus_approbatus = "Vzývej mě v soužení, a vysvobodím tě."
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-II"
-    id = ""
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -138,7 +142,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 50-III"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,11 +152,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f a g a f e f4. f \barMin e4 f d( c) c4. \barMin
-    f4 g g( a) a a bes a g f f4. \barFinalis
+    f4 f f a g a f e f f \barMin
+    e f d( c) c \barMaior
+    f g g( a) a a bes a g f f \barFinalis
   }
   \addlyrics {
-    Do -- bré je o -- pě -- vo -- vat tvé jmé -- no, Svr -- cho -- va -- ný,
+    Do -- bré je o -- pě -- vo -- vat tvé jmé -- no,
+    Svr -- cho -- va -- ný:
     zrá -- na hlá -- sat tvé mi -- lo -- sr -- den -- ství.
   }
   \header {
@@ -241,6 +247,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 45-I"
+    placet = "_Tvůj trůn, Bože_ lépe"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

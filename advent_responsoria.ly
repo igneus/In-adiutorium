@@ -83,7 +83,8 @@
   \header {
     quid = "resp."
     modus = "VIII"
-    piece = "neděle + 17. a 18. 12. - nešpory (VIII)"
+    placet = "_i Duchu svatému_ plynulejší, méně trhané"
+    piece = \markup{"neděle + 17. a 18. 12. - nešpory (VIII)" \placet}
     id = "ne-ne"
   }
 }

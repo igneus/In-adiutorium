@@ -5,13 +5,13 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( a g) g g( c d c) b a b( a g f) g \barMaior f( g) a( b g4.) g \barMaior
-    a4 g f( g) g \barFinalis
+    f4 g g( c) c a c( d) c a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
-    Všech -- na zříd -- la mé spá -- sy_* jsou v_to -- bě.
+    Všech -- na zříd -- la_* mé spá -- sy jsou v_to -- bě.
     A -- le -- lu -- ja.
   }
   \header {
@@ -20,18 +20,17 @@
     differentia = "G"
     psalmus = "Žalm 87"
     id = "rch-a1"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a( b) a g( a g) g4.( a) \barMin
-    a4( b c) b( a) b a a g g \barMaior
-    g f g f( g) f e d( e) e \barMaior
-    e g( a) f( e) e \barFinalis
+    f4 a g( f) f( g) \barMin
+    a a g a g f f \barMaior
+    f f f g-- f d c c \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř_*
@@ -41,8 +40,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Iz 40"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -50,9 +49,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f e f g4. a4 b b c c \barMaior c a c c c d( c) b a b a g g \barMaior
+    g4 g g f g a4. a4 b b c c \barMaior
+    c a c c c d( c) b a b a g g \barMaior
     f e f( g) g \barFinalis
   }
   \addlyrics {
@@ -66,7 +66,6 @@
     differentia = "G"
     psalmus = "Žalm 99"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -77,7 +76,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g a c( d a4.) \barMin c4 b a b g( a) a a \barMaior
-    g a a( c) a \barFinalis
+    g a a( b) a \barFinalis
   }
   \addlyrics {
     Pán Bůh mu dal trůn_* je -- ho před -- ka Da -- vi -- da.
@@ -88,8 +87,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 132-I"
+    fial = "mezidobi_kristakrale.ly#1ne-amag?cast"
     id = "ne-a1"
-    fons = "Krista Krále, 1. nešp., ad Magnificat, první část"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -234,6 +234,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "druhá kvinta sice zní pěkně, ale poměrně obtížně se zpívá"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -273,9 +274,12 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a g( a) a a c d b a \barMaior
+    c c( d) d( c) c \barMin c b g g a g f( g) g \barFinalis
 
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- no moud -- rá a pro -- zí -- ra -- vá,
@@ -285,8 +289,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -294,22 +298,31 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c c( d) c a( c) c \barMin
+    a b a g g \barMaior
+    f g a a a( g a) \barMaior
+    a( c) d( c d c) c \barMin
+    c b a g( a) g \barFinalis
 
+    c^\markup\rubrVelikAleluja b a g( a g) f
+    g a g g \barFinalis
   }
   \addlyrics {
     Lás -- ka k_mé -- mu Pá -- nu,
     Je -- ží -- ši Kris -- tu,
     by -- la pro mě víc
-    než slá -- va ce -- lé -- ho svě -- ta.
+    než slá -- va
+    \markup{\Dagger ce} -- lé -- ho svě -- ta.
 
+    \markup{\Dagger ce} -- lé -- ho svě -- ta.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 45-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -317,9 +330,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c( b c) \barMin a g a b a a \barMaior
+    g c d d( c) c \barMin
+    a b a g \barFinalis
 
+    f^\markup\rubrVelikAleluja g g g \barFinalis
   }
   \addlyrics {
     Sám král tou -- ží po tvé krá -- se;
@@ -330,11 +347,36 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 45-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a( c) c \barMin
+    d d c( d) a a b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te na -- pro -- ti Kris -- tu Pá -- nu!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/tyden2_2pondeli.ly#ne-ant2?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -383,7 +425,7 @@
   }
   \addlyrics {
     Sva -- té pan -- ny, ve -- leb -- te Pá -- na;
-    te, kte -- rý vás po -- vo -- lal,
+    ten, kte -- rý vás po -- vo -- lal,
     a -- by -- ste ho ná -- sle -- do -- va -- ly
     s_ne -- roz -- dě -- le -- ným srd -- cem,
     při -- ve -- dl vás k_so -- bě.
@@ -713,6 +755,7 @@
     differentia = "a"
     psalmus = "Žalm 127"
     id = "2ne-a2"
+    placet = "zdrojová antifona se změnila"
     fons = "žaltář, po 1.t., nešp., 2. ant.; přidáno aleluja"
     piece = \markup {\sestavTitulek}
   }
@@ -737,6 +780,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "_zůstat_ ať nezačíná na a, ale udělá nějaký krok"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

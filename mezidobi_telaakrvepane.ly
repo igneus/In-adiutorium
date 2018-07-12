@@ -15,7 +15,7 @@
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     d g g g f( e) f( g) g f e( f) f( g) g \barMaior
-    f( e) f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
+    f f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
@@ -36,7 +36,7 @@
   \relative c'' {
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
-    g f( e) f f( g) g \barMin a b a a g g \barFinalis
+    g f g a a a b a a g g \barFinalis
   }
   \addlyrics {
     Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
@@ -57,9 +57,9 @@
     \choralniRezim
     e4 e g g( a) \barMin g( f) g4. g \barMaior
     a4 a( g) g a a( b) a a( g) g \barMax
-    a( b a) a4.( c) a4( g) g( e) e \barMaior
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
-    d c( d) f( e) e \barFinalis
+    g f( g) f( d) e \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
@@ -184,6 +184,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 23"
+    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje."
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne28a-rch-aben?kratsi_text"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -207,6 +209,7 @@
     differentia = "d"
     psalmus = "Žalm 42"
     fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    placet = "se závěrem si zkusit trochu pohrát"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -240,6 +243,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c c d c b a( b) b \barMin
+    b b c( b) b a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMin
+    g f e f( g) g \barMin
+    f g e \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo je sku -- teč -- ný po -- krm
+    a má krev je sku -- teč -- ný ná -- poj.
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    má ži -- vot věč -- ný
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?jiny_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -402,7 +431,7 @@
     g4 f( g) g \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
     f( d) d \barMin d d( f) f f e f d d \barMaior
-    f e c d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Když jed -- li,_* vzal Je -- žíš chléb,
@@ -416,7 +445,6 @@
     differentia = "g"
     psalmus = ""
     id = "up-sexta"
-    fons = "Velikonoční triduum, Zelený čtvrtek, ad Magnificat; přidáno aleluja"
     fial = "pust_triduum.ly#ct-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -425,17 +453,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c a d( c) a a \barMin d e d c a( g) g \barMaior
-    g g( a) g g \barFinalis
+    c4 c c g a g \barMin
+    f g a a c b \barMaior
+    c a g( a) g \barFinalis
   }
   \addlyrics {
-    Po -- zna -- li Je -- ží -- še při lá -- má -- ní chle -- ba.
+    Po -- zna -- li Je -- ží -- še
+    při lá -- má -- ní chle -- ba.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -447,23 +477,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d) d \barMaior
-    c( d e) c a a \barMin c b a g f g f e f( a) a \barMaior
-    a a( b c) c( d) d( c) d( c) \barMin
-    d c b a( g) g a( g) f g g( a g) g \barFinalis
+    g4 g( a) a \barMin
+    c a g a \barMin
+    a a g f g f g a g g \barMaior
+    g f g a a \barMin
+    c c b a g f g a g g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
-    kněz na -- vě -- ky po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
+    kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va,
     se o -- bě -- tu -- je
     pod způ -- so -- ba -- mi chle -- ba a ví -- na.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
-    placet = "není zlá, ale zasloužila by pár pokusů o alternativní řešení"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -471,10 +502,9 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    d4 d d a' g( a bes4.) a4 \barMaior
-    a a g f g( a g) f e( f d) d \barFinalis
+    f4 g a f f( g) g \barMin
+    g bes a g f g g( f) f \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy
@@ -482,10 +512,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 116-II"
-    placet = "série dvou torculů v závěru působí neorganickou retardaci"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -495,9 +524,9 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 f e f g( a g f) d( c) \barMin
-    e f g( a bes g) a \barMin
-    bes a( g) f( e) d( c) d( f g a) g( f) \barFinalis
+    f4 g a f g f \barMin
+    g g f( e) d( c) \barMin
+    f g a f g( f) f \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty jsi ces -- ta,
@@ -509,7 +538,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
-    placet = "~ ; obzvlášť nemilá je melismaty přetížená sestupná řada na _ty jsi život_"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -561,11 +589,11 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
     \key f \major
-    f4( a c d) c d( e f e) d( c) c \barMaior
-    c c a( g a) bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
+    a4( g g) f4( a c d) c d( e f e) d( c) c \barMaior
+    c c a bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
 
     a( c d e) d( c) c f,( a bes c) d( bes c) c \barMaior
     c e f( g f) e d( c) c \barMax
@@ -573,12 +601,10 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     d( bes) c( d) c( a) \barMin c c c( bes a) g( a)
     bes( a g) f( g a) \barMax
 
-    bes a( g) c( d) bes( c bes) a \barMin
+    bes a( g) c( d) bes a \barMin
     c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
 
-    f^\markup\small\italic{Snazší aleluja:} f( e d c a4. bes4) g( f) f \barFinalis
-
-    f'^\markup\small\italic{Aleluja z předlohy:}
+    f
     \once \override Slur #'stencil = ##f
     \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
     \[ c d c \] \[ a g a \] \[ f g a) \]
@@ -587,7 +613,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
   \addlyrics {
     % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
     % sdeleni.
-    Sva -- tá hos -- ti -- no,
+    Ó sva -- tá hos -- ti -- no,
     při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
 
     sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
@@ -595,11 +621,16 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     do du -- še se nám vlé -- vá mi -- lost
 
     a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
-    \markup{\Dagger A} -- le -- lu -- ja.
 
-    \markup{\Dagger A} -- le -- lu -- ja.
+    A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Svatá hostino,
+    při níž nás Kristus živí svým tělem a svou krví,
+    slavíme památku jeho utrpení,
+    do duše se nám vlévá milost
+    a přijímáme záruku budoucí slávy! Aleluja."
+    fons_externus = "volně podle AR1912, 448"
     quid = "ant. k Magnificat"
     modus = "V"
     differentia = "a"

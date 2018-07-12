@@ -1,4 +1,4 @@
-\version "2.15.37"
+\version "2.19.28"
 
 \include "../spolecne.ly"
 
@@ -13,15 +13,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f f( g) g( d) d \barMin g f( g f) e d( c) c( d) d \barMax
-    a c( d) d \barMin f( g) f( e d) d \barMaior
-    d g( d e c d) \barMin f f( g) f( d) d \barFinalis
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    g f( e) d \barMaior
+    d f4.( d) \barMin
+    c4 d e( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl Ma -- tou -- še,
     jak se -- dí v_cel -- ni -- ci.
-    Ře -- kl mu: Pojď za mnou!
-    On vstal a šel za ním.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -34,33 +39,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( e f) d( c) c d d4. c \barMaior
-    d4 f e( c) c \barMin d d c \barMax \break
-    c( d e) e( f) f f
-    \bar ":" f f \bar ":"
-    f( g) f( e d) d d e e( f) f \barMaior
-    f f \[ f( g f \] \[ e f) \] d( c) c4.( d) \barFinalis
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
+    a g a g g \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
     a ne o -- běť, pra -- ví Pán.
-    Ne -- při -- šel jsem
-    "(to" -- "tiž)"
-    po -- vo -- lat spra -- ved -- li -- vé,
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
     a -- le hříš -- ní -- ky.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-\markup\small\italic\justify{Ohledně "\"totiž\"" ať se zváží, jestli ho
-zpívat nebo vynechat - pro význam sdělení není zásadní a hudebně
-působí poněkud těžkopádně.}

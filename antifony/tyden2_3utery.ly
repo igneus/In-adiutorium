@@ -30,7 +30,7 @@
     differentia = "g"
     psalmus = "Žalm 37-I"
     placet = "nejak nesedi v I. modu, mozna ma prirozenejsi finalu na E?"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -54,7 +54,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -78,7 +78,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -167,7 +167,7 @@
     c4 a( c) c d( e) c( b c) c \barMin b c c a g f g g \barFinalis
   }
   \addlyrics {
-    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+    Bůh změ -- ní náš o -- sud, a bu -- de -- me se ra -- do -- vat.
   }
   \header {
     quid = "2. ant."
@@ -182,15 +182,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) e4. d \barMin e4 f g g f e c d d \barFinalis
+    f4 a bes g f \barMin g g a f e d c d d \barFinalis
   }
   \addlyrics {
     Bůh mi po -- má -- há, Pán mě u -- dr -- žu -- je na -- ži -- vu.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 54"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
@@ -247,7 +247,7 @@ tIIuteryNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = "IV-alt"
+    modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 4"
     id = "ne-ant3"

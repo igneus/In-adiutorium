@@ -1,0 +1,9 @@
+---
+# configuration for the db.inadiutorium.cz importer
+
+include:
+  - '*.ly'
+  - antifony/*.ly
+  - commune/*.ly
+  - sanktoral/*.ly
+  - reholni/**/*.ly

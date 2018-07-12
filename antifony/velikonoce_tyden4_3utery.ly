@@ -71,7 +71,7 @@
     differentia = "g"
     psalmus = "Žalm 144-I"
     id = "rch-a3"
-    fons = "melodie adaptována z: žaltář, čtvrtek 4. týdne, nešp., 1. ant."
+    fial = "antifony/tyden4_5ctvrtek.ly#ne-ant1?upraveno"
     piece = \markup {\sestavTitulek}
   }
 }

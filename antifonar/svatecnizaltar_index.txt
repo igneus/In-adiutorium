@@ -11,7 +11,7 @@ Doba adventní
       iz40ii, iz42, iz49
 
 Doba vánoční
-  
+
   Narození Páně (slavnost, 25.12.)
     1. nešpory
       113, 147ii, fp2
@@ -41,7 +41,7 @@ Doba vánoční
   Matky Boží, Panny Marie (slavnost, 1.1.)
     modlitba se čtením
       24, 87, 99
-      
+
   Zjevení Páně (slavnost, 6.1. nebo v neděli od 2. do 8.1.)
     1. nešpory
       135i, 135ii, 1tim3
@@ -65,9 +65,9 @@ Doba postní
   Neděle
     vigilie
       jer14, ez36, plac5
-      
+
 Velikonoční triduum
-  
+
   Velký pátek
     modlitba se čtením
       2, 22i (+) 22ii (- volitelně se může připojit) 22iii, 38i (+) 38ii (+) 38iii
@@ -79,7 +79,7 @@ Velikonoční triduum
       40i (+) 40ii, 54, 88i (+) 88ii
     nešpory
       116ii, 143, fp2
-      
+
   Bílá sobota
     modlitba se čtením
       4, 16, 24
@@ -91,7 +91,7 @@ Velikonoční triduum
       27i (+) 27ii, 30, 76i (+) 76ii
     nešpory
       116ii, 143, fp2
-      
+
 Doba velikonoční
 
   Zmrtvýchvstání Páně (slavnost)
@@ -101,37 +101,37 @@ Doba velikonoční
       118i, 118ii, 118iii
     nešpory
       110, 114, zj19
-      
+
   pondělí ve velikonočním oktávu
     modlitba se čtením
       1, 2, 3
     modlitba uprostřed dne
       8, 19a, 19b
-      
+
   úterý ve velikonočním oktávu
     modlitba se čtením
       24, 66i, 66ii
     modlitba uprostřed dne
       119alef, 16, 23
-      
+
   středa ve velikonočním oktávu
     modlitba se čtením
       104i, 104ii, 104iii
     modlitba uprostřed dne
       119beth, 28, 116ii
-      
+
   čtvrtek ve velikonočním oktávu
     modlitba se čtením
       118i, 118ii, 118iii
     modlitba uprostřed dne
       119gimel, 30i, 30ii
-      
+
   pátek ve velikonočním oktávu
     modlitba se čtením
       136i, 136cii, 136ciii
     modlitba uprostřed dne
       119dalet, 76i, 76ii
-      
+
   sobota ve velikonočním oktávu
     modlitba se čtením
       145ci, 145cii, 145ciii
@@ -145,7 +145,7 @@ Doba velikonoční
   Neděle
     vigilie
       iz63, oz6, sof3
-      
+
   Nanebevstoupení Páně (slavnost)
     1. nešpory
       113, 117, zj11
@@ -159,7 +159,7 @@ Doba velikonoční
       8, 19a, 19b
     2. nešpory
       110, 47, zj11
-      
+
   Seslání Ducha svatého (slavnost)
     1. nešpory
       113, 147i, zj15
@@ -191,7 +191,13 @@ Liturgické mezidobí
       rchne1t
     2. nešpory
       110, 145i, zj19
-      
+
+  Ježíše Krista, nejvyššího a věčného kněze
+    ranní chvály
+      rchne1t
+    nešpory
+      110, 111, kol1
+
   Nejsvětější Trojice (slavnost)
     1. nešpory
       113, 147ii, ef1
@@ -203,7 +209,7 @@ Liturgické mezidobí
       rchne1t
     2. nešpory
       110, 114, zj19
-      
+
   Těla a Krve Páně (slavnost)
     1. nešpory
       111, 147ii, zj11
@@ -215,7 +221,7 @@ Liturgické mezidobí
       rchne1t
     2. nešpory
       110, 116ii, zj19
-      
+
   Nejsvětějšího Srdce Ježíšova (slavnost)
     1. nešpory
       113, 146, zj4
@@ -227,7 +233,7 @@ Liturgické mezidobí
       rchne1t
     2. nešpory
       110, 111, fp2
-      
+
 #######################################
 Sanktorál
 
@@ -246,7 +252,7 @@ Sanktorál
       rchne1t
     2. nešpory
       110, 130, kol1
-      
+
   Zvěstování Páně (slavnost, 25.3.)
     1. nešpory
       113, 147ii, fp2
@@ -258,7 +264,7 @@ Sanktorál
       rchne1t
     2. nešpory
       110, 130, kol1
-      
+
   Proměnění Páně (svátek, 6.8.)
     1. nešpory
       113, 117, zj19
@@ -270,7 +276,7 @@ Sanktorál
       rchne1t
     2. nešpory
       110, 121, 1tim3
-      
+
   Povýšení svatého kříže (svátek, 14.9.)
     1. nešpory
       147i, 147ii, fp2
@@ -282,7 +288,7 @@ Sanktorál
       rchne1t
     2. nešpory
       110, 116ii, zj4
-      
+
   sv. Michaela, Gabriela a Rafaela, archandělů (svátek, 29.9.)
     modlitba se čtením
       97, 103ci, 103cii
@@ -292,13 +298,13 @@ Sanktorál
       rchne1t
     nešpory
       8, 138, kol1
-      
+
   Svatých andělů strážných (památka, 2.10.)
     ranní chvály
       rchne1t
     nešpory
       34i, 34ii, zj11
-      
+
   Všech svatých (slavnost, 1.11.)
     1. nešpory
       113, 147ii, zj19
@@ -325,7 +331,7 @@ Společné texty
       rchne1t
     2. nešpory
       46, 122, zj19 (v době postní) zj15
-      
+
   O Panně Marii
     1. nešpory
       113, 147ii, ef1
@@ -337,7 +343,7 @@ Společné texty
       rchne1t
     2. nešpory
       122, 127, ef1
-      
+
   O apoštolech
     1. nešpory
       117, 147ii, ef1
@@ -349,7 +355,7 @@ Společné texty
       rchne1t
     2. nešpory
       116ii, 126, ef1
-      
+
   O více mučednících
     1. nešpory
       118i, 118ii, 1petr2
@@ -361,7 +367,7 @@ Společné texty
       rchne1t
     2. nešpory
       116i, 116ii, zj4
-      
+
   O jednom mučedníkovi nebo o jedné mučednici
     1. nešpory
       118i (+) 118ii, 118iii, 1petr2
@@ -373,7 +379,7 @@ Společné texty
       rchne1t
     2. nešpory
       116i, 116ii, zj4
-      
+
   O duchovních pastýřích
     1. nešpory
       113, 146, ef1
@@ -383,7 +389,7 @@ Společné texty
       rchne1t
     2. nešpory
       15, 112, zj15
-      
+
   O pannách
     1. nešpory
       113, 147ii, ef1
@@ -393,7 +399,7 @@ Společné texty
       rchne1t
     2. nešpory
       122, 127, ef1
-      
+
   O svatých mužích
     1. nešpory
       113, 146, ef1
@@ -405,7 +411,7 @@ Společné texty
       rchne1t
     2. nešpory
       15, 112, zj15
-      
+
   O svatých ženách
     1. nešpory
       113, 147ii, ef1
@@ -417,7 +423,7 @@ Společné texty
       rchne1t
     2. nešpory
       122, 127, ef1
-      
+
   Za zemřelé
     modlitba se čtením
       40i, 40ii, 42
@@ -427,4 +433,4 @@ Společné texty
       70, 85, 86
     nešpory
       121, 130, fp2
-      
+

@@ -8,7 +8,7 @@
 # appended to the volume containing psalter as 'toni communes'
 
 desc "Introduction to the whole set of antiphonal volumes."
-task :uvod => [ typographus('antifonar_uvod.tytex') ]
+task :uvod => [ typographus('antifonar_uvod.tytex', 'pdflatex', true) ]
 
 ##############
 # sv. IV.2 
@@ -39,7 +39,8 @@ noty_kompletar = []
 
 [['../kompletar.ly', 'po'],
  ['../pust_triduum.ly', 'ct-resp'],
- ['../velikonoce_velikonocnioktav.ly', 'resp']].each do |n|
+ ['../velikonoce_velikonocnioktav.ly', 'resp'],
+ ['../marianske_antifony.ly', 'salve']].each do |n|
   nn = adresar_kompletar+'/'+File.basename(n[0]).gsub(/\.ly$/, '_'+n[1]+'.ly')
   noty_kompletar << nn
   file nn => [n[0]] do |t|

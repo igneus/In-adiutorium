@@ -13,11 +13,11 @@ textRespAleluja = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
 %% Alelujaticka responsoria modu VI:
 
 respVIalelujaResponsum = {
-  a4 a( g) g f \breathe d f( g) g f
+  a4 a( g) g f \barMin d f( g) g f
 }
 
 respVIalelujaDoxologie = {
-  f4 e g( a) a a a( bes) a \breathe
+  f4 e g( a) a a a( bes) a \barMin
   a a g a( g) f f
 }
 

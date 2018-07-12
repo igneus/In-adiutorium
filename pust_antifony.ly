@@ -31,8 +31,8 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      id = ""
-      fons = "Z antifon pro Svatý týden."
+      id = "invit"
+      fial = "pust_svatytyden.ly#invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -40,8 +40,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g( a g) f( g) f( e) e \barMin
-      e d( f) f f( g) f e( f) e e \barFinalis
+      d4 a g a \barMin
+      a c c b a g a a \barFinalis
     }
     \addlyrics {
       Ob -- rať -- te se
@@ -49,10 +49,34 @@
     }
     \header {
       quid = "ant."
-      modus = "IV"
-      differentia = "g"
+      modus = "IV alt"
+      differentia = "d"
       psalmus = ""
-      id = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup {\nadpisHodinka {"nedělní vigilie"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d( g) \barMin f g a f f( g) g \barMaior
+      g f e d( c) d d( c) \barMaior
+      f d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -63,17 +87,19 @@
     \relative c'' {
       \choralniRezim
 
-      a4 d c a b c c b4. \breathe a4 a a g a f g4. g \bar "||"
+      g4 c b a b c c b \barMin
+      a a a g a f g g \barFinalis
     }
     \addlyrics {
-      Na -- sta -- ly nám dny po -- ká -- ní, čas od -- puš -- tě -- ní a spá -- sy.
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
     }
     \header {
       quid = "ant. dopoledne"
       modus = "VIII"
-      differentia = "G*"
+      differentia = "G"
       psalmus = ""
-      id = ""
+      id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -82,37 +108,46 @@
     \relative c'' {
       \choralniRezim
 
-      g4 g f g a b c( a) g g4. \breathe a4 b c c c d d c d a4. \breathe f4 g g4. \bar "||"
+      g4 g f g a b c( a) g g4. \barMin
+      a4 b c c c d d c d a4. \barMin
+      f4 g g4. \barFinalis
     }
     \addlyrics {
-      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel, a -- le a -- by se o -- brá -- til a žil, pra -- ví Pán.
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
     }
     \header {
       quid = "ant. v poledne"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      id = ""
+      placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
+      dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
+      id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
-      piece = "antifona - poledne - VIII.G"
     }
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
 
-      d4( c) a( g) f4.( g) \breathe f4 f g a( b) c b c d4. \breathe d4 d c d c( a) g f g4. g \bar "||"
+      f4 f( g) g( f) \barMin
+      f g a f d e d( c) c \barMaior
+      d e f f g a g f f \barFinalis
     }
     \addlyrics {
-      Svou věr -- nost ve služ -- bě Bo -- hu a bliž -- ním pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
+      Svou věr -- nost
+      ve služ -- bě Bo -- hu a bliž -- ním
+      pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
     }
     \header {
       quid = "ant. odpoledne"
-      modus = "VII"
-      differentia = "d"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
-      id = ""
+      id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

@@ -28,6 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
+    placet = "líbí, ale půjde ještě lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -50,6 +51,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 117"
+    placet = "_mu_ a _a_ je nepřirozené; celou druhou půli jinak"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -58,10 +60,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( a' g) f g( a) a( g) g4.( a) \barMaior
-    a4 c( b c) a g f( g) g( a) a \barMax
-    a b c b( c) c \barMin c d( c) b( c) a4.( g) \barMaior
-    g4 f e d( e) d c c( d) d \barFinalis
+    d4 d c d d( a') a g f g( a) \barMaior
+    a c( b c) a g f( g) g( a) a \barMax
+    a b c c( d) d d c( b) a( b) a( g) \barMaior
+    g f e d( e) d c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tu by -- lo dá -- no vla -- dař -- ství
@@ -106,6 +108,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "r1 možná půjde jinak, lépe, při zohlednění jednoslabičného _moc_"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -131,6 +134,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Magnificat"
+    placet = "nově udělat divisiones; zkusit lepší aleluja (tohle není jen tak ledajaká antifona)"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -155,6 +159,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "nepřirozená"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -299,6 +304,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g g g f d e d c c \barMaior
+    d d d e( f g) \barMin
+    f( e) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -318,6 +349,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "po _národům_ div. minima"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -336,7 +368,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "d"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -361,7 +393,7 @@
     differentia = "A"
     psalmus = "Žalm 149"
     id = "rch-a3"
-    fons = "žaltář, čtvrtek 1.t., nešp., 3.ant."
+    fial = "antifony/tyden1_5ctvrtek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -393,6 +425,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "po _slávě_ div. minima"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -403,8 +436,8 @@
     \choralniRezim
     b4( d) d \barMin
     e d c b c c( d) d \barMin
-    c a b4. b \barMax
-    b4 c b c c( d) d \barMin
+    c a b b \barMaior
+    b c b c c( d) d \barMin
     d( c) a b a g g g \barFinalis
   }
   \addlyrics {
@@ -565,15 +598,17 @@
 
     % R
     \neviditelna f
-    f4 f( g) f f g( a g) f g f \barMin
-    d f f f g( a) a( g) \barMax
-    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    f4 f f f f f g f \barMin
+    f f f f g( a) a( g) \barMax
+    g g g( a) g( f d) d \barMin
+    d f g a g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g( f d) d d f g g g( f) f \barFinalis
+    g g g( a) g( f d) d \barMin
+    d f g a g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

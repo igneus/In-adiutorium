@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.28"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -15,9 +15,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c a b c d e c d \barMaior
+    g4 g a c a c c d e c d \barMaior
     c c d e f d c c d b a g g \barMaior
-    f g a4. g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
@@ -83,13 +83,13 @@
 \markup\italic{Mimo dobu postní:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g( a) g \barMin
-    f g a f g a f( d) d \barMaior
-    f g( a bes) a g \barMin
-    g f g a g f d f g f f \barMaior
-    f d( f) g( f) f \barFinalis
+    d4 d c( d) c \barMin
+    d c c e d c d c \barMaior
+    c c( d c) a a( c) \barMin
+    c c c b a g f g a g g \barMaior
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     V_Bo -- žím měs -- tě
@@ -100,8 +100,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Zj 19"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -125,6 +125,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
+    placet = "nic moc"
     id = "1ne-a3-pust"
     piece = \markup {\sestavTitulek}
   }
@@ -160,6 +161,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "melodie je neelegantní, klopýtavá - nedá se zpívat plynule, působí nepřirozeně"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -196,6 +198,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "jsou extra ozdoby pěkné a účelné? jsou potřeba?"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -204,11 +207,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a' f) g( e) f g a g e f d \barMaior
+    d4 f e f a g e f d \barMaior
     a' a( c) b g a( g f) e \barMin
-    d d d d d( e) c c( d) d \barFinalis
+    d d c d f e d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se s_Je -- ru -- za -- lé -- mem
@@ -247,6 +250,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "začátek (1,a.b) je nelibý"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -272,6 +276,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "začátek (1,a.b) je nelibý"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -298,6 +303,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 24"
+    placet = "nelibý postup fah"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -352,6 +358,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c d c a \barMin
+    g g g( a) f g a g g \barMaior
+    g g g f( a c) d c \barMin
+    c( d) d d a( b) g \barMin f( g) a g g \bar ";"
+
+    f^\markup\small\italic{Vždy kromě doby postní:} g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný jsi, Pa -- ne,
+    ve svém sva -- tém slav -- ném chrá -- mě,
+    kte -- rý je zbu -- do -- ván
+    k_chvá -- le a slá -- vě tvé -- ho jmé -- na.
+
+    % aleluja neni jen v dobe velikonocni, ale vzdy mimo dobu postni!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    placet = "půjde lépe"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -371,6 +407,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "začátek je zbytečně divoký"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -395,6 +432,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
+    placet = "aleluja divné; recitace na e přinejmenším netypická, zvlášť u takto krátké antifony"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -418,6 +456,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "aleluja neuspokojivé"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -507,7 +546,7 @@
     f g( a bes) a g bes a a \barMaior
     g( a bes a) g \barMin f g f e d c f e d d \barFinalis
 
-    c^\markup\rubrVelikAleluja f d d \barFinalis
+    c^\markup\small\italic{Mimo dobu postní:} f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -552,8 +591,10 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = "tercie"
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
+    fial = "commune/commune_pastyr.ly#nona?cast"
+    placet = "bezdůvodný skok na _chrám_ pryč"
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -601,6 +642,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "(ne)návaznost _zbudovaný_ a _jeho základy_ je nelibá"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -627,6 +669,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 46"
+    placet = "zkusit lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -675,6 +718,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "půjde lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -699,6 +743,7 @@
     psalmus = "Zj. 15"
     id = "2ne-a3-pust"
     fons = "žaltář, pátek 1.t., nešp., 3. ant."
+    fial = "antifony/tyden1_6patek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -711,15 +756,15 @@
 
     % R
     \neviditelna f
-    f4 f( e) d \barMin f f f( g) f f \barMaior
+    f4 f f f f f( g) f f \barMaior
     f f f f g( f) g( a) a( g) \barMax
-    g g g( a) \barMin g g a g( f) d f( g) g( f) f \barFinalis
+    g g g f g a g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a( bes) a \barMin a a( bes) a a g( a) g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) \barMin g g a g( f) d f( g) g( f) f \barFinalis
+    g g g f g a g( f) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -770,6 +815,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "jsou netypické ozdoby pěkné? jsou potřeba?"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -796,6 +842,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "takové navršení tripletů, že už to tíží - zkusit upravit"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

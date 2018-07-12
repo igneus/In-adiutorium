@@ -11,26 +11,18 @@
 \paper {
   ragged-bottom=##f
   ragged-last-bottom=##t
-
-  % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
-  markup-markup-spacing #'minimum-distance = #5
-}
-
-\markup {
-  \wordwrap {
-    Nápěv psalmodie je převzatý z \italic{Antiphonale Romanum}, Řím 1912, s. *26.
-  }
 }
 
 \score {
   \relative c' {
     \choralniRezim
 
-    c d f\breve f4-! \parenthesize d d4.^\markup\large\Dagger \barMin
-    f\breve g4 g-! \parenthesize d d4.^\markup\large{*} \barMax
+    c d f\breve f4-! \parenthesize d d4. \mark\Dagger \barMin
+    f\breve g4 g-! \parenthesize d d4. \mark "*" \barMaior
     f\breve c4 d e-! \parenthesize d d4. \barFinalis
   }
   \header {
+    fons_externus = "Antiphonale Romanum, Řím 1912, s. *26."
     quid = "psalmodie"
     modus = "II"
     differentia = ""
@@ -355,8 +347,6 @@
     ragged-last-bottom=##t
   }
 
-  \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
-
   \score {
     \relative c'' {
       \choralniRezim
@@ -377,7 +367,7 @@
       psalmus = ""
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
-      fons = "Liber usualis, New York-Tournai, 1961, 266."
+      fons_externus = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
 

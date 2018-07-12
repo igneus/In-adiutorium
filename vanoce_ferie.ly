@@ -34,7 +34,7 @@
     differentia = "b"
     fons = "zcela volná inspirace (nejprve mimovolná) antifonou vanoce_narozenipane.ly#bohorodicka-1ne-a2"
     psalmus = ""
-    id = ""
+    id = "2aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -56,7 +56,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    placet = "nezpěvná"
+    id = "2amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -88,7 +89,7 @@
     psalmus = ""
     fial = "sanktoral/1227jan.ly#rch-aben?zacatek"
     placet = "r - text by stál za trochu víc práce a lépe padnoucí melodii s lepším spádem"
-    id = ""
+    id = "3aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -111,7 +112,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "3amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -139,7 +140,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    placet = "začátek zjednodušit"
+    id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -164,7 +166,8 @@
     differentia = "G"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?upraveno"
-    id = ""
+    placet = "melisma na _od sebe_ pryč; elegantnější závěr"
+    id = "4amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -186,7 +189,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "5aben"
     fons = "zaltar, patek lichych tydnu, k Benedictus"
     fial = "antifony/ferie_kantevgant.ly#t1-pa-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -213,7 +216,8 @@
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&upraveno"
-    id = ""
+    placet = "nelíbí se mi dlouhá sestupná pasáž _Mojžíš v zákoně_"
+    id = "5amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -241,7 +245,8 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "lépe"
+    id = "6aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -264,7 +269,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/pust_nedeleC.ly#iimag2?upraveno"
-    id = ""
+    id = "6amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -287,7 +292,7 @@
     differentia = "D"
     psalmus = ""
     placet = "r - závěr je takový jakoby s přistřiženými křídly"
-    id = ""
+    id = "7aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

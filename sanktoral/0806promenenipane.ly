@@ -142,6 +142,102 @@
     psalmus = ""
     id = "invit"
     fons = "melodie z invitatoria slavnosti Krista Krále; text upraven"
+    fial = "mezidobi_kristakrale.ly#invit?jiny_text"
+    placet = "~"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f a a a( b) a g( a) \barMin
+    a g a g e \barFinalis
+  }
+  \addlyrics {
+    Lep -- ší je den v_tvých ná -- dvo -- řích
+    než jin -- de ti -- síc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 84"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
+    g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
+    a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 97"
+    fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3?-aleluja"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
+    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    textus_approbatus = "Oslavujte Hospodina, našeho Boha, klaňte se na jeho svaté hoře."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( c) c \barMin d c b a g a a( g) \barMaior
+    a4( d) a a( g) a a( g) g \barMin
+    f g( a) g f e e \barMax
+
+    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    c( d c a) a \barMin g( a) g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Když u -- čed -- ní -- ci_* u -- sly -- še -- li Bo -- ží hlas,
+    pad -- li tvá -- ří k_ze -- mi
+    a vel -- mi se bá -- li.
+
+    Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
+    Vstaň -- te, ne -- boj -- te se!
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-amag?-aleluja&upraveno&jiny_text"
+    id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -163,6 +259,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "_oslnivě zbělel_ snad bude vhodné předělat."
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -190,6 +287,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "prořezat
+    2015 mě ruší hlavně _o smrti_ a _podstoupit_, zbytek by snad mohl zůstat"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -214,6 +313,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "od _proroků_ dál je melodie taková divná a dosti statická"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -272,6 +372,9 @@
     differentia = "d"
     psalmus = ""
     fons = "Křtu Páně, 2. nešp., 1. ant."
+    placet = "bude vhodné mírně prořezat;
+    _v něm mám zalíbení_ jinak - těžko se to zpívá a nemá to žádnou zvláštní
+    hodnotu, která by tu náročnost ospravedlňovala"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -320,6 +423,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_přinesl_ je divné, _nepomíjejícího_ bezpodmínečně musí být jinak"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -390,6 +494,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 121"
+    placet = "není celá špatná, ale takto bych ji neměl nechat"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -416,6 +521,10 @@
     modus = "I"
     differentia = "g"
     psalmus = "1Tim 3"
+    placet = "kantikum vyřešit jako celek,
+    třeba i za cenu úplně samostatného nápěvu nevyužívajícího psalmodické vzorce.
+    Takhle zní jako nesourodý slepenec.
+    A vkládané responsum je zbytečně utahané, mělo by být prostší"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -492,17 +601,19 @@
     pad -- li tvá -- ří k_ze -- mi
     a vel -- mi se bá -- li.
 
-    % Puvodne:
-    % Je -- žíš při -- stou -- pil, do -- tkl se jich a ře -- kl jim:
     Je -- žíš k_nim při -- stou -- pil, do -- tkl se jich a ře -- kl:
     Vstaň -- te, ne -- boj -- te se!
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Když učedníci uslyšeli hlas z oblaku,
+    padli tváří k zemi a velmi se báli.
+    Ježíš přistoupil, dotkl se jich a řekl jim: Vstaňte, nebojte se! Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
     psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#nona?delsi_text"
     id = "2ne-amag"
     fons = "1. část: zde, uprostřed dne, odpoledne"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -27,8 +27,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "lépe, viz zdroj"
     fial = "sanktoral/0629petraapavla.ly#2ne-amag"
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -36,10 +37,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a g( a) g \barMin
-    a b c b a c( b g) a( g) g \barMaior
-    g f e d( c d) d \barMin
-    f( g a) g f g g \barFinalis
+    g4 g g( a) g \barMin
+    a b c a a g f g \barMaior
+    c d c b( a g) g \barMin
+    a( f) a a g g \barFinalis
   }
   \addlyrics {
     Tě -- la sva -- tých_*
@@ -48,12 +49,12 @@
     ži -- je na -- vě -- ky.
   }
   \header {
-    quid = "1. ant."
+    quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
-    psalmus = "Žalm 116-I"
+    psalmus = ""
     fial = "commune/commune_vicemucedniku.ly#2ne-a1?-aleluja"
-    id = ""
-    piece = \markup {\sestavTitulek}
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }

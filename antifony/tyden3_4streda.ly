@@ -27,7 +27,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -35,23 +35,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    f f \barMin g a( f) g \barMaior
-    a bes a g a f f \barMin d f g a g( f) f \barFinalis
-
-    e^\rubrVelikAleluja f g( f) f \barFinalis
+    f f g a( f) g \barMin
+    a bes a g a f f \barMin
+    d f g a g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
-    po -- chá -- zí ja -- ko člo -- věk z_ro -- du Da -- vi -- do -- va.
-
-    A -- le -- lu -- ja.
+    po -- chá -- zí ja -- ko člo -- věk
+    z_ro -- du Da -- vi -- do -- va.
   }
   \header {
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -59,16 +57,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    f( g a) g f g f d e d \barMin
-    c d f g g g \barMaior
-    f g a( bes) a a \barMin a g a g f f \barFinalis
+    f4 g g g f g f f \barMin
+    d f f g g g \barMaior
+    f g a( bes) a a \barMin
+    a g a g f f \barFinalis
 
-    e^\rubrVelikAleluja f g( f) f \barFinalis
+    g^\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,
     své -- mu slu -- žeb -- ní -- ku;
-    je -- ho po -- tom -- stvo po -- tr -- vá na -- vě -- ky.
+    je -- ho po -- tom -- stvo
+    po -- tr -- vá na -- vě -- ky.
 
     A -- le -- lu -- ja.
   }
@@ -77,7 +77,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 89-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -174,13 +174,14 @@
     d4 e f( e) f f g f e \barMaior d c c d d \barFinalis
   }
   \addlyrics {
-    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi.
+    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi!
   }
   \header {
     quid = "2. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 70"
+    placet = "_pomoz mi_ asi lépe de d d"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

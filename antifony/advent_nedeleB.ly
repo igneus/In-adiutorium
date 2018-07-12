@@ -5,9 +5,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f  g( a) a a \barMaior
-    a g a( bes g4.) g \barMin
-    a4 a g f e( f) d4. d \barFinalis
+    a4 a( c a) \barMin b( c) c( d) d c( a) b a( g) \barMaior
+    c c c( d c a) a \barMin
+    c b a g g( a) g g \barFinalis
   }
   \addlyrics {
     Hle, Pán při -- chá -- zí zda -- le -- ka,
@@ -16,8 +16,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Magnificat"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -56,11 +56,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( f) f f \barMin
+    d4 d d e f f \barMin
     f f f g f e e( f) d c d d \barMaior
-    d( f) f \barMin
-    f g f e d d \barMaior
-    e f d( c) d4. \barFinalis
+    d( c d) a \barMin
+    c d e f d d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
+    f e( f) d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -85,7 +85,7 @@
     \choralniRezim
     a4 a bes a a \barMin
     g a f g a a a \barMaior
-    g f e( g) f e d4. d \barFinalis
+    g f e( g) f e d d \barFinalis
   }
   \addlyrics {
     Hle, já po -- sí -- lám
@@ -95,7 +95,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = "Magnificat"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -103,10 +103,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g( a) a c c d c( b) a4. a \barMaior
-    b4 g g g a f f a g4. g \barFinalis
+    d4 e c d d f f e d \barMaior
+    f f e f g f e f d d \barFinalis
   }
   \addlyrics {
     Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
@@ -114,8 +114,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "Benedictus"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -131,8 +131,6 @@
     a b c a a \barMaior
     a g f e e \barMin
     e f g f e d4. e \barFinalis
-    % 2012 - asi rok po slozeni - se ptam:
-    % nekoncila by prirozeneji na D? (spadla by tak do modu I)
   }
   \addlyrics {
     Za mnou při -- chá -- zí
@@ -147,6 +145,12 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Magnificat"
+    placet = "cesura po _rozvázal mu_ by nemusela být, ale ani nepřekáží -
+    je volitelná;
+
+    2012 - asi rok po slozeni - se ptam:
+    nekoncila by prirozeneji na D? (spadla by tak do modu I)
+    2014 modus IV mi přijde vhodnější"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -161,8 +165,8 @@
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
     g f e c d \barMaior
-    g( a f) e \barMin
-    f g f e c d d \barFinalis
+    d( e d) d( c) \barMin
+    d f e d c d d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
@@ -183,25 +187,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a( c d) d \barMaior
-    d e c4.( a) \barMin
-    d4 c b a b a( g) f( g) g \barMaior
+    c4 c( d) d \barMaior
+    d e c( a) \barMin
+    d4 c b a g a g g \barMaior
 
-    g( c) b c( d) d \barMin
-    c( d c) b a4. g \barFinalis
+    f g a( c) c b( g) a g g \barFinalis
   }
   \addlyrics {
     Jan ře -- kl:
     já jsem hlas
     vo -- la -- jí -- cí -- ho na pouš -- ti:
 
-    vy -- rov -- nej -- te
-    ces -- tu Pá -- nu.
+    vy -- rov -- nej -- te ces -- tu Pá -- nu.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = "Benedictus"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -215,10 +217,9 @@
     g4 g( a) g( f d) d \barMaior
 
     d d d( a') a bes g a \barMin
-    bes g a g( f) d4. d \barMaior \break
+    bes g a g( f) d d \barMaior
 
-    f4 \barMin
-    f e f g( a g) f d4. d \barFinalis
+    f4 f e f g( a g) f d d \barFinalis
   }
   \addlyrics {
     Já křtím vo -- dou.
@@ -257,6 +258,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Benedictus"
+    placet = "zaslouží trochu péče - začátek není moc zpěvný; nezapomenout aktualizovat kopie"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

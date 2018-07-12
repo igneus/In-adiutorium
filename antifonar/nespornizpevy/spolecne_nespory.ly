@@ -1,19 +1,19 @@
 \version "2.15.34"
 
-% nekolik vychytavek standartne importovanych do vsech projektu
-% z webu inadiutorium.xf.cz
-
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
-  
+
   indent = 0\cm
   short-indent = 0\cm
-  
+
   \context {
     \Score
     \remove Bar_number_engraver
     \override LyricText #'self-alignment-X = #LEFT
+
+    % klic jen na zacatku prvni radky
+    \override Clef #'break-visibility = #all-invisible
   }
 }
 
@@ -21,27 +21,27 @@
 
 \paper {
   markup-markup-spacing #'padding = #2
-    
-  scoreTitleMarkup = \markup\small{ 
+
+  scoreTitleMarkup = \markup\small{
     \fill-line {
       " "
       " "
-      \concat{ 
+      \concat{
         \fromproperty #'header:quid "  "
         \fromproperty #'header:modus "." \fromproperty #'header:differentia
       }
     }
   }
-  
+
     myStaffSize = #14
   #(define fonts
-    (make-pango-font-tree 
+    (make-pango-font-tree
                           "TexGyreSchola"
                           "Helvetica"
                           "Courier"
      (/ myStaffSize 20)))
 }
-                            
+
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header
 sestavTitulek = \markup {
 \concat {\fromproperty #'header:quid " - " \fromproperty #'header:modus . \fromproperty #'header:differentia " (" \fromproperty #'header:psalmus )}
@@ -67,12 +67,12 @@ choralniRezim = {
   % nozky maji nulovou delku a tak neovlivnuji legatove cary
   % (tento radek resi problem "vznasejicich se car")
   \override Stem #'Y-extent = ##f
-  
+
   \stemUp % prizvukove carky budou vzdy pod notami, ne nad nimi
-  
-  % nedelat taktove cary    
+
+  % nedelat taktove cary
   \cadenzaOn
-  
+
   % vzdycky vypsat becka
   % #(set-accidental-style 'forget) % for Lily 2.14
   \accidentalStyle "forget" % 2.15
@@ -85,25 +85,25 @@ barMin = {
   \bar ""
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5) 
-  \bar "|" 
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \bar "|"
 }
 barMax = { \bar "|" }
 barFinalis = { \bar "||" }
 
 % Specialni znaky pro responsoria -------------------------------
 
-Response = \lyricmode { 
-  \markup { 
-    % \with-color ##'red { 
+Response = \lyricmode {
+  \markup {
+    % \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {R} : }
       \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
     % }
   }
 }
 
-Verse = \lyricmode { 
-  \markup { 
+Verse = \lyricmode {
+  \markup {
     % \with-color ##'red {
       % \concat { \override #'(font-name . "liturgy") {V} : }
       \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
@@ -132,5 +132,5 @@ neviditelna = #(define-music-function (parser location note)
 % Na znackovani textu:
 li = { \override LyricText #'font-shape = #'italic }
 lb = { \override LyricText #'font-series = #'bold }
-ln = { \revert LyricText #'font-shape 
+ln = { \revert LyricText #'font-shape
         \revert LyricText #'font-series }

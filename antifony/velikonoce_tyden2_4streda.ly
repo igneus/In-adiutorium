@@ -27,22 +27,23 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 f d d e e e g a g g( a g) g \barMaior
-    a c( a) b( a) g \barFinalis
+    d4 d c f e f g \barMin
+    g a f e( f) d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din u -- smr -- cu -- je i o -- ži -- vu -- je.
+    Hos -- po -- din u -- smr -- cu -- je
+    i o -- ži -- vu -- je.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "1Sam 2"
     id = "rch-a2"
-    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -50,22 +51,25 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e g( a b) b( c b) b d( c) b a c4. b \barMaior
-    g4 g( a b) b \barMin c a g f g( a) g f( g f e) e \barMaior
-    f g( f) e( f) e \barFinalis
+    e4 e g( a b) b( c b) b \barMin
+    d( c) b a c4. b \barMaior
+    g4 a( b) b \barMin
+    c a g f g( a) g f( g f e) e \barMaior
+    d f( g) e e \barFinalis
   }
   \addlyrics {
-    Svět -- lo vy -- chá -- zí spra -- ved -- li -- vé -- mu
-    a li -- dem u -- přím -- né -- ho srd -- ce ra -- dost.
+    Svět -- lo vy -- chá -- zí
+    spra -- ved -- li -- vé -- mu
+    a li -- dem
+    u -- přím -- né -- ho srd -- ce ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = "a"
+    differentia = "g"
     psalmus = "Žalm 97"
     id = "rch-a3"
-    placet = "možná spíš III.g, ne?"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,11 +77,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a g a a4( b a) g( a) a \barMaior
-    g f f( g) f e4. e \barMaior
-    f4 f( g) e e \barFinalis
+    d4 e f e f g f e d \barMin
+    c d f e d d \barMaior
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Ať se va -- še srd -- ce ne -- chvě -- je,
@@ -86,11 +90,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 62"
     id = "ne-a1"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -98,19 +101,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a c( d) c( b) a c( b) a( g) g \barMaior
-    a a( d) c( d) d \barMin c b b( c) b a g( f g4.) g \barMaior
-    a4 a g g \barFinalis
+    g4 a g( f) g \barMin
+    c( a) d c b g a \barMaior
+    c c( d) d( c) c \barMin
+    c c b( c) a g g( a g) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
-    Ať tě, Bo -- že, ve -- le -- bí ná -- ro -- dy
-    a já -- sa -- jí, že jim po -- sí -- láš spá -- su.
+    Ať tě, Bo -- že,
+    ve -- le -- bí ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 67"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

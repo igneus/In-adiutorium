@@ -13,10 +13,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a4.( g4 a) c d d( c) c \barMaior
-    c d e f( e d) c c \barMin c bes( a g) a g f f \barFinalis
+    g4 a g c b a b \barMaior
+    c c c a g f f g a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) f f \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
@@ -26,8 +26,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -62,9 +62,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
-    a( f e) d a' a g g \barFinalis
+    a( g) f a a g g \barFinalis
 
-    b^\markup\rubrVelikAleluja c( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,
@@ -224,7 +224,7 @@
     differentia = "D"
     psalmus = ""
     id = "invit1"
-    fons = "commune o svatých mužích"
+    fial = "commune/commune_svatymuz.ly#invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -251,7 +251,7 @@
     differentia = "d"
     psalmus = ""
     id = "invit2"
-    fons = "commune o svatých mužích"
+    fial = "commune/commune_svatymuz.ly#invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -259,9 +259,12 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4( c b) c( a) g( a) \barMin f e f g a a( g) g \barMaior
+    a b c c b \barMin c d c b( a) g a( g) g \barFinalis
 
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     V_moud -- ros -- ti ot -- ví -- rá svo -- je ús -- ta,
@@ -271,18 +274,22 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 19A"
+    fial = "sanktoral/0916ludmila.ly#rch-a2?upraveno"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d d( e) d \barMin d c d e e e( f e d) d \barMaior
+    d d c b c( a) g f g a a g g \barFinalis
 
+    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Sva -- té že -- ny dů -- vě -- řo -- va -- ly v_Bo -- ha
@@ -292,8 +299,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 45-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -301,9 +308,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    d4 d c( b c) d e d \barMin
+    b a b g g \barFinalis
 
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dost -- ným já -- so -- tem
@@ -313,12 +323,17 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 45-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\markup\italic{
+  Antifona ke kantikům vigilie jako ve společných textech
+  o svatých mužích.
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -366,6 +381,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "v začátku slyším jednu irskou baladu a _požehnána_ je neelegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -398,21 +414,21 @@
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f \major
     % R
-    \neviditelna a
-    a4 a a g( f d e) e( d) \barMax
-    c d f e( d) d \barFinalis
+    \neviditelna f
+    f4 f f g( a) a( g) \barMax
+    f g a g( f) f \barFinalis
     % V
-    \neviditelna a'
-    a4 a a a a( bes a g) f( d) d( e) e( d) \barMax
+    \neviditelna f
+    a4 a a a a( bes) a g( a) g \barMax
     % R
     \neviditelna a
-    c d f e( d) d \barFinalis
+    f g a g( f) f \barFinalis
     % Slava
-    a'4 a a( bes) a a a( g) g \barMin g g g f( d) d( e) e( d) \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh se k_ní sklo -- nil_*
@@ -423,7 +439,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -620,12 +636,13 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 127"
+    placet = "zejména závěr je nezpěvný, ale už druhá část je divná"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\markup\italic{\vspace #1 3. ant.: viz 2. ant. ranních chval (\upright{Bůh jí dával sílu}); k ní kantikum Ef 1.}
+\markup\italic{\vspace #1 3. ant.: viz 2. ant. ranních chval \upright{Bůh jí dával sílu,} k ní kantikum Ef 1.}
 
 \markup\italic{Mimo dobu velikonoční:}
 
@@ -636,13 +653,13 @@
     % R
     \neviditelna f
     f4 f f g( f) g g( a) \barMax
-    g g( a g) f( e) d d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a g f g g g( a) \barMax
     % R
     \neviditelna a
-    g g( a g) f( e) d d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -721,6 +738,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "r"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1,8 +1,5 @@
 \version "2.15.34"
 
-% nekolik vychytavek standartne importovanych do vsech projektu
-% z webu inadiutorium.xf.cz
-
 % tohle zpusobi, ze vkladane soubory jsou hledany relativne
 % vuci souboru, kde je prislusne \include, a ne vuci hlavnimu kompilovanemu
 % souboru. (To je potreba pro spravnou kompilaci not z adresaru

@@ -1,7 +1,7 @@
 \version "2.15.37"
 
 \header {
-  title = "Kantikum podle Zj 19,1-7 (neděle, 2. nešpory)"
+  title = "Kantikum podle Zj 19,1-7"
   composer = "Jakub Pavlík"
 }
 
@@ -16,6 +16,8 @@
       }
       " "
     }
+
+    \on-the-fly \development-build \line{ \placet }
   }
 }
 
@@ -113,6 +115,11 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
   \header {
     modus = "I"
     id = "i"
+    placet = "má několik drsnějších míst:
+    _se ujal království_,
+    _Neboť nadešla_,
+    doxologie;
+    plnou doxologii"
   }
 }
 

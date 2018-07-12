@@ -29,8 +29,8 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulekBezZalmu (zpívat z žalmem 95 na nápěv I.D)}
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -57,7 +57,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +80,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
-    id = ""
+    placet = "VII.c2"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -100,43 +101,12 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f4 f f e f f g f g( a) a( g) \barMax
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % V
-    \neviditelna a
-    a( bes) a a a g f g( a) g g \barMax
-    % R
-    \neviditelna a
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
-    od vě -- ků měl s_ní své plá -- ny.
-    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
-    \Response od vě -- ků měl s_ní své plá -- ny.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    fons = "commune o PM, r.ch."
-    piece = \markup {\sestavTitulekResp}
-  }
-}
+\markup\italic{Responsorium ze společných textů o Panně Marii.}
 
 \score {
   \relative c'' {
@@ -169,7 +139,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -195,7 +165,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    placet = "nic moc; _slávou_ je hrůza"
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -217,7 +188,8 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "slátanina, nedrží pohromadě"
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -237,7 +209,8 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    placet = "_srdcem_ je fuj, závěr neelegantní"
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -259,8 +232,9 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
-    id = ""
-    fons = "Zvěstování Páně, uprostřed dne, dopoledne; odstraněno aleluja"
+    placet = "C-dur s falešným závěrem na d"
+    id = "ne-a1"
+    fial = "sanktoral/0325zvestovanipane.ly#tercie?-aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -282,7 +256,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
-    id = ""
+    placet = "myslím, že půjde o něco lépe"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -307,45 +282,12 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
-    a4( g a) f( g f) f \barFinalis
-    % V
-    \neviditelna a
-    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
-    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
-    % R
-    \neviditelna a
-    a4( g a) f( g f) f \barFinalis
-    % Slava
-    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
-  }
-  \addlyrics {
-    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
-    Pán s_te -- bou!
-    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
-    \Response Pán s_te -- bou!
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    id = ""
-    fons = "commune PM, 2. nešp."
-    piece = \markup {\sestavTitulekResp}
-  }
-}
+\markup\italic{Responsorium ze společných textů o Panně Marii.}
 
 \score {
   \relative c'' {
@@ -364,7 +306,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

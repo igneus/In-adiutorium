@@ -25,7 +25,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 89-IV"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 89-V"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -74,7 +74,7 @@
     differentia = "a"
     psalmus = "Žalm 90"
     placet = "'jako' nejak nepatricne vycniva"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,8 +104,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a( g) a \barMin b c a( g) g( a) a4. \barMaior
-    f4 g a b( c) a g g4.( a) \barFinalis
+    d4( c) a( g) a \barMin b c a( g) g( a) a \barMaior
+    f4 g a b( c) a g g( a) \barFinalis
   }
   \addlyrics {
     Pán při -- jde s_ve -- li -- kou mo -- cí
@@ -114,7 +114,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "d"
+    differentia = "A"
     psalmus = "Iz 40"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -174,10 +174,12 @@
     a od -- pusť nám na -- še hří -- chy.
   }
   \header {
+    textus_approbatus = "Pomoz nám, Bože, náš spasiteli, a odpusť nám hříchy."
     quid = "2. ant."
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 79"
+    placet = "má upravený text; nápěv by ale pravděpodobně šlo upravit pro přesné oficiální znění"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

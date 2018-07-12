@@ -29,6 +29,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 113"
+    placet = "nic moc"
     id = "1ne-a1"
     fons = "první část: dnes, antifona k Benedictus"
     piece = \markup {\sestavTitulek}
@@ -95,7 +96,7 @@
     \neviditelna g
     g g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % Slava
-    \doxologieResponsoriumVI
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
@@ -121,11 +122,11 @@
   }
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
-    a jak si pře -- ji, a -- by
-    % už vzpla -- nul! % puvodni
-    se už vzňal! % moje nahrazka
+    a jak si pře -- ji, a -- by se už vzňal!
   }
   \header {
+    textus_approbatus = "Oheň jsem přišel vrhnout na zem,
+    a jak si přeji, aby už vzplanul!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
@@ -158,17 +159,21 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a g) g( c) c c b( d c) a g f g \barMaior
-    a a g( a) g \barMin a4( g a c) b a( b) a g g \barFinalis
+    f4 g g g a g a( c d) d( c) c \barMaior
+    d c b( c) a \barMin
+    a( g) f g a g g \barFinalis
   }
   \addlyrics {
     U te -- be je pra -- men ži -- vo -- ta;
-    na -- pá -- jíš nás prou -- dem své -- ho bla -- ha.
+    na -- pá -- jíš nás
+    prou -- dem své -- ho bla -- ha.
   }
   \header {
     quid = "1. ant."
@@ -183,9 +188,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c \barMin d( f) e d( f e) d \barMin
-    d d e d c( a) a \barMaior
-    a c d e f e d d \barFinalis
+    d4 c d f e( d) d \barMin
+    e e d c a a \barMaior
+    c d c d f e d d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě,
@@ -219,6 +224,28 @@
     psalmus = "Žalm 98"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d( e d4.) a \barMin
+    c4 c b a b a g g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je má spá -- sa;
+    bez o -- ba -- vy mo -- hu dou -- fat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -344,6 +371,14 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
+\markup\justify\italic{
+  Místo následující může být vhodné použít známé zhudebnění identického
+  textu z pera Bohuslava Korejse, zpívaného v rámci obřadů
+  Velkého pátku - \upright{Zpěvy s odpovědí lidu,} s. 368.
+  K tomu se hodí (samozřejmě po transposici, aby se shodovala finála)
+  chorální nápěv psalmodie I.D.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -402,6 +437,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "to rozhodně není modus VIII; snad III; závěr je bídný"
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -444,6 +480,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 111"
+    placet = "_kdo se ho bojí_ takhle ne"
     fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
     fial = "mezidobi_telaakrvepane.ly#1ne-a1?casti"
     id = "2ne-a2"
@@ -492,6 +529,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "alelujovitější aleluja"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

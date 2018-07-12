@@ -6,11 +6,11 @@
 \markup {\nadpisDen {"2. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( a) a \barMin a( g f) f( g) g4.( a) \barMax
-    a4 a( b) g4. g \barMin
-    a4( g) f e d f e4. e \barFinalis
+    f4 e g f( e) e \barMaior
+    d f f( g) g \barMin
+    a g f f g e e \barFinalis
   }
   \addlyrics {
     Mis -- tře, kde byd -- líš?
@@ -20,7 +20,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = ""
     id = "ne2b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -32,7 +32,7 @@
     \choralniRezim
     f4 g a a g( a) \barMaior
     a a g f e( f) d e e \barMaior
-    c d d( e) \barMin e f e d d d \barFinalis
+    f g a a g f e e e \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci šli,
@@ -41,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "ne2b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a( c) c b c a a \barMaior
-    d( c b) a( b) g g b c a( g) g \barMax
-    g f g g f d d f g g g \barFinalis
+    c4 a c b g a g g \barMin
+    f a c c d c d d( c) \barMaior
+    c c d e c a a c b a( g) g \barFinalis
   }
   \addlyrics {
     On -- dřej ře -- kl Ši -- mo -- no -- vi:
@@ -64,7 +64,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -100,6 +100,8 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "_Boží evangelium_ je přetížené; i pokračování věnovat trochu péče;
+    v první části snad spíš jemně ozdobit _přišel_ a odlehčit _Galileje_"
     id = "ne3b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -121,6 +123,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "nic moc"
     id = "ne3b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -141,6 +144,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zkusit alternativy"
     id = "ne3b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -164,6 +168,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "závěr dává smysl jen s přízvukem na _ten_ - zachytit v notaci"
     id = "ne4b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -236,6 +241,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "poslední část nedrží se zbytkem pohromadě"
     id = "ne5b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -260,6 +266,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "druhou polovinu lépe"
     id = "ne5b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -284,6 +291,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "melodie _kázal_ tady působí kýčovitě"
     id = "ne5b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -312,6 +320,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nepovedená"
     id = "ne6b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -610,6 +619,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_tohoto světa vypuzen_ není moc povedené; sjednotit melodii s pust_svatytyden.ly#po-rch-a2"
     id = "ne10b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -630,6 +640,7 @@ o slabiku později.}
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "závěr je slabší. Možná by _i_ nemělo po předchozí kadenci začínat stoupání"
     id = "ne10b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

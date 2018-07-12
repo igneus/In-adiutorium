@@ -26,7 +26,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-I"
-    id = ""
+    placet = "všem třem lepší aleluja"
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -50,7 +51,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -77,7 +78,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -86,12 +87,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c b c d( a) a4. \barMin a4 a g f g( a) a a \barMin
-    c c d( c) a4. a g4 f e e \barFinalis
+    a4 b c c b c d( a) a \barMin
+    a a g f g( a) a a \barMaior
+    c c d( c) a a \barMin
+    g f e e \barFinalis
   }
   \addlyrics {
-    O -- pět na -- jdeš za -- lí -- be -- ní v_zá -- ko -- ni -- tých
-    o -- bě -- tech na svém ol -- tá -- ři, Hos -- po -- di -- ne.
+    O -- pět na -- jdeš za -- lí -- be -- ní
+    v_zá -- ko -- ni -- tých
+    o -- bě -- tech na svém ol -- tá -- ři,
+    Hos -- po -- di -- ne.
   }
   \header {
     modus = "III"
@@ -106,11 +111,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d a g c( d) d \barMin e d c4. a4( b) a( g) g \barMin
+    c4 d a g c( d) d \barMin
+    e d c4. a4( b) a( g) g \barMaior
     a b c4.( a) g4 f g g \barFinalis
   }
   \addlyrics {
-    Ví -- těz -- ství a slá -- vy do -- jde v_Hos -- po -- di -- nu
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
     ce -- lý rod Iz -- ra -- e -- le.
   }
   \header {
@@ -126,10 +133,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) a4.( b) g4 g a c d a( g) f( g) g \barFinalis
+    d4( c) a( b) \barMin
+    g g a c d a( g) f( g) g \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
   }
   \header {
     quid = "3. ant."
@@ -260,6 +269,9 @@ tIpatekNespAntIII = \score {
     differentia = "g"
     quid = "3. ant."
     psalmus = "Zj. 15"
+    placet = "mám ji takhle rád, ale melodií vypíchnuté _a budou_
+    je barbarské. Na druhou stranu právě tenhle kousek melodie
+    je důležitý pro (alespoň mně) libou souměrnost první a druhé části."
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

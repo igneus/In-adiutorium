@@ -87,3 +87,25 @@ sestavTitulekResp = \markup\concat {
   " "
   \placet
 }
+
+\paper {
+  % copied from lilypond's ly/titling-init.ly and modified
+  scoreTitleMarkup = \markup {
+    \column {
+      %\on-the-fly \print-all-headers { \bookTitleMarkup \hspace #1 }
+      \fill-line {
+        \fromproperty #'header:piece
+        %\fromproperty #'header:opus
+        \small { \fromproperty #'header:fons_externus }
+      }
+
+      \small\italic{
+        \fromproperty #'header:textus_approbatus
+      }
+
+      \on-the-fly \development-build \small\sans{
+        \fromproperty #'header:fial
+      }
+    }
+  }
+}

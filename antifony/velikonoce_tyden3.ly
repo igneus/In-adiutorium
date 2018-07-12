@@ -71,6 +71,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Flp 2"
+    placet = "div. minima po _příčinou_ a po _pro všechny_ zbytečná - pryč"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -327,15 +328,39 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c b g a( g) g \barMin
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Úterý}}
 
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g) g a a( b) a a( g) g \barMax
-    a( b a) a4.( c) a4( g) g( e) e \barMaior
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
-    d c( d) f( e) e \barFinalis
+    g f( g) f( d) e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -345,15 +370,68 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = ""
-    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?cast&+aleluja&upraveno"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c \barMin
+    b c d c b a c( a) a \barMaior
+    a g( a f e) e e( f) d e e \barMaior
+    g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb Bo -- ží je ten,
+    kte -- rý se -- stu -- pu -- je z_ne -- be
+    a dá -- vá ži -- vot svě -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c a d( a) a \barMin
+    g f( g f) e g( a) a \barMaior
+    a-- a( b) c a a \barMaior
+    c d d \[ e( c d \] \[ c a) \] b( a) \barMin
+    f g a a \barMaior
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo vi -- dí Sy -- na
+    a vě -- ří v_ně -- ho,
+    má ži -- vot věč -- ný
+    a já ho vzkří -- sím v_den po -- sled -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
+    má život věčný a já ho vzkřísím v poslední den. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {

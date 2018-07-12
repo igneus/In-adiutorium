@@ -28,25 +28,28 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 117"
+    placet = "odsazené _že_ není úplně libé; celkově sice neuráží, ale také žádný zázrak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( f) f \barMin g( d) d \barMaior
-    d d e f f g f e f d( c) c( d) \barFinalis
+    d4 b d( e) d \barMin
+    b( a) b \barMaior
+    b g a b b b a g a g g \barFinalis
   }
   \addlyrics {
-    Ty jsi Pe -- tr_– Ská -- la_–_*
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
     a na té ská -- le zbu -- du -- ji svou cír -- kev.
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -135,6 +138,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melodie _apoštolové_ si nerozumí s přirozeným přízvukem"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -143,6 +147,108 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \markup\italic{Antifona ze společných textů o apoštolech.}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e d \barMin
+    c a c c( d) d \barMaior
+    f d f g( f d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lu -- ješ -li mě,
+    Ši -- mo -- ne Pet -- ře,
+    pas mo -- je ov -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+
+    d e f g( a) a g bes a( g a) a \barMaior
+    bes( c) d( a d4.) d \barMaior
+    d4 c bes a4. a \barMin f4( a) g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 64"
+    fial = "pust_svatytyden.ly#odpo"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d \barMin c a c c( d) \barMaior
+    a( c g) g \barMin
+    g f g c b g a a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, když jsi to ty,
+    roz -- kaž,
+    ať při -- jdu k_to -- bě po vo -- dě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( b) g( a) a a g f e e \barMaior
+    f g a a a c b a g a a \barMin
+    a g a f d d \barMaior
+    d c d d( c) c \barMin
+    d( e f) d d f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Jed -- not -- ní ve ví -- ře i v_u -- tr -- pe -- ní,
+    po -- tvr -- di -- li svou mu -- čed -- nic -- kou smr -- tí
+    to, če -- mu u -- či -- li,
+    a ob -- dr -- že -- li
+    ko -- ru -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -209,6 +315,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "_boj_ a _běh jsem_ jsou takové dryjáčnické"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -334,6 +441,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "nejsem si jist, že opravdu patří deklarovanému modu"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -426,6 +534,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "_byly dány_ a _nebeského_ je divné."
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

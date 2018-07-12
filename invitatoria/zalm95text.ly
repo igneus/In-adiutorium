@@ -16,13 +16,13 @@ zalmXCVtext = \lyricmode {
   Ne -- boť on je náš Bůh_*
   a my jsme lid, kte -- rý pa -- se, stád -- ce ve -- de -- né je -- ho ru -- kou.
 
-  Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:_+
+  Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- \markup{su: \Dagger}
   Ne -- za -- tvr -- zuj -- te svá srd -- ce ja -- ko v_Me -- ri -- bě,_*
   ja -- ko teh -- dy v_Mas -- se na pouš -- ti,
   kde mě dráž -- di -- li va -- ši ot -- co -- vé,_*
   zkou -- še -- li mě, ač vi -- dě -- li mé či -- ny.
 
-  Čty -- ři -- cet let mi by -- lo pro -- tiv -- né o -- no po -- ko -- le -- ní;_+
+  Čty -- ři -- cet let mi by -- lo pro -- tiv -- né o -- no po -- ko -- le -- \markup{ní; \Dagger}
   ře -- kl jsem: je to lid, kte -- rý blou -- dí v_srd -- ci,_*
   ne -- po -- zna -- li mé ces -- ty.
   Pro -- to jsem pří -- sa -- hal ve svém hně -- vu:

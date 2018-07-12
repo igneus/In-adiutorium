@@ -162,7 +162,7 @@
     f g f \barMin
     g f f g( a) a \barMaior
     a a a a( b c) a a \barMin
-    a g f f g( f) f \barMaior
+    a a g f g( f) f \barMaior
     g g g f d c d d d \barFinalis
   }
   \addlyrics {
@@ -189,7 +189,7 @@
   \relative c' {
     \choralniRezim
     d4 f e f g a \barMin a a( c) g a( g f) g \barMaior
-    f f f f d c d d d \barFinalis
+    g g g f d c d d d \barFinalis
   }
   \addlyrics {
     Kdo ne -- ne -- se svůj kříž a ne -- jde za mnou,
@@ -224,7 +224,8 @@
     annus = "C"
     id = "ne23c-ne2-mag"
     fons = "viz nize, na zacatku i na konci melodie pouze zkracena podle textu"
-    fial = "sanktoral/0825benediktabratri.ly#aben"
+    fial = "sanktoral/0825benediktabratri.ly#aben?kratsi_text"
+    placet = "Po zkrácení o začátek a konec je jaksi nevyvážená. Možná půjde lépe bez závislosti na textově příbuzné antifoně."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -674,7 +675,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    fial = "advent_antifony.ly#predvanocni-zlm-po-a3"
+    fial = "antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-po-a3"
     id = "ne29c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

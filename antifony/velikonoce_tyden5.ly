@@ -253,7 +253,111 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g c( d) c \barMin
+    c c c c( d) d d( e d c) a \barMin c b g a( g) \barMaior
+    a a a b c d( c) c \barMaior
+    d d d c b a( b) \barMin
+    b( c) c c b g a a g \barMaior
+    f g a( b) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    kte -- ré -- ho O -- tec po -- šle ve jmé -- nu mém,
+    ten vás na -- u -- čí vše -- mu
+    a při -- po -- me -- ne vám všech -- no,
+    co jsem vám ře -- kl já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleC.ly#viben?delsi_text"
+    placet = "_připomene vám_ je takové chcíplé, přitom polohou ve struktuře zpěvu si říká o druhý klimax"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d f( g) g \barMin
+    f g g( f) f \barMaior
+    f f e c d c \barMin
+    d f g f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám za -- ne -- chá -- vám,
+    a -- le -- lu -- ja,
+    svůj po -- koj vám dá -- vám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d c b c( d) d \barMaior
+    d d b a b a g \barMin
+    a b g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g f g( a) a \barMin
+    g f g( f) f \barMaior
+    f f f e c d( c) c \barMin
+    d f g f \barFinalis
+  }
+  \addlyrics {
+    Já jsem pra -- vý vin -- ný kmen,
+    a -- le -- lu -- ja,
+    vy jste mé ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {
@@ -283,6 +387,30 @@
 }
 
 \markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a \barMin
+    a g a g e e \barMaior
+    f e d f g e e \barMaior
+    f g g e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li
+    mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -357,6 +485,34 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_apostol.ly#rch-a2"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Sobota}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a( g) g \barMin
+    f g( a) a( c b) c( d) d \barMaior
+    d d c b c( a g a) a( g) \barMin
+    a bes a( g) f g a a g g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }

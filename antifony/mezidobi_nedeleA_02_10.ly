@@ -331,17 +331,19 @@
   \relative c'' {
     \choralniRezim
     a4 a a g f g a g f e \barMin
-    d e f g f d d \barMin
-    d c d d d f( g a) g g g f( g a) g g
-    f g f d d \barMaior
-    f f f e d e( f) d d e d c( d) d \barFinalis
+    d e f g f d d \barMaior
+    d c d d d f g g f a g g \barMin
+    f g f d( c) c \barMaior
+    d e f e d e d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
     mno -- hem do -- ko -- na -- lej -- ší
     než spra -- ve -- dl -- nost u -- či -- te -- lů Zá -- ko -- na
     a fa -- ri -- ze -- ů,
-    do ne -- bes -- ké -- ho krá -- lov -- ství ne -- ve -- jde -- te.
+    do ne -- bes -- ké -- ho krá -- lov -- ství
+    ne -- ve -- jde -- te.
   }
   \header {
     quid = "ant. k Benedictus"

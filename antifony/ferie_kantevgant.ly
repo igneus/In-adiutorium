@@ -14,7 +14,7 @@ tIpondeliAntBenedictus = \score {
     f4( e) c4.( d) \barFinalis
   }
   \addlyrics {
-    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -31,18 +31,19 @@ tIpondeliAntMagnificat = \score {
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \barMin
-    c4 c c c c c a f g g \barFinalis
+    c4 c c b a g a( b) a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bí má du -- še Hos -- po -- di -- na,
-    ne -- boť shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_na svou nepatrnou_ nejspíš rozhýbat, recitativ tam nezní organicky"
+    placet = "pořád to není ono"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -55,7 +56,7 @@ tIuteryAntBenedictus = \score {
     \choralniRezim
     \key f \major
     a4 a g( a) a a g a bes( c) bes a( g) g \barMaior
-    f g( a) a c c d4. a \barMin \bar ""
+    f g( a) a c c d4. a \barMin
     a4 g f g( a) a f( e) d d \barFinalis
   }
   \addlyrics {
@@ -64,9 +65,10 @@ tIuteryAntBenedictus = \score {
     pro -- ro -- ků.
   }
   \header {
+    textus_approbatus = "Bůh nám vzbudil mocného spasitele, jak slíbil od pradávna ústy svých proroků."
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = ""
     id = "t1-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -105,7 +107,7 @@ tIstredaAntBenedictus = \score {
   \addlyrics {
     Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
     roz -- po -- meň se
-    na svou sva -- tou smlou -- vu.
+    na svou sva -- tou smlou -- vu!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -122,12 +124,12 @@ tIstredaAntMagnificat = \score {
     \choralniRezim
     \key f\major
     f4 g( a) a a bes c d bes( a) a \barMin
-    a a g f g a \barMaior
+    a a g f g a \barMin
     a4 a a( g) f g f( e) d \barFinalis
   }
   \addlyrics {
     U -- či -- nil mi ve -- li -- ké vě -- ci
-    ten, kte -- rý je moc -- ný,
+    ten, kte -- rý je moc -- ný;
     je -- ho jmé -- no je sva -- té.
   }
   \header {
@@ -155,7 +157,7 @@ tIctvrtekAntBenedictus = \score {
     Služ -- me Hos -- po -- di -- nu
     zbož -- ně a spra -- ve -- dli -- vě;
     on nás vy -- svo -- bo -- dí
-    z_ru -- kou na -- šich ne -- přá -- tel.
+    z_ru -- kou na -- šich ne -- přá -- tel!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -214,23 +216,24 @@ tIpatekAntBenedictus = \score {
 }
 
 tIpatekAntMagnificat = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f\major
-    f4( e) g( a) a a a( c) a a c bes a( g) a \barMaior
-    a4 a a a a a bes a g f f \barFinalis
+    c4 c c c b( d) c b a g a a \barMaior
+    g f g( a) a \barMin
+    b c d d c b a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
-    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "A"
     psalmus = ""
+    placet = "jinak, lépe"
     id = "t1-pa-mag"
-    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -248,13 +251,15 @@ tIsobotaAntBenedictus = \score {
   \addlyrics {
     Hos -- po -- di -- ne, buď svět -- lem pro ty,
     kdo ži -- jí v_tem -- no -- tě
-    a v_stí -- nu smr -- ti.
+    a v_stí -- nu smr -- ti!
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "jedna z mých nejoblíbenějších antifon;
+    nejsem si však jist, že melodie úvodního oslovení odpovídá důstojnosti oslovovaného"
     id = "t1-so-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -268,16 +273,16 @@ tIIpondeliAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     c4 c b c a( g) f( g) g \barMaior
-    a b c d( e) d4. d \barMin
+    a b c d( e) d d \barMin
     d4 c( a) b a( g) g \barFinalis
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din,
-    ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil.
+    ne -- boť nás na -- vští -- vil a vy -- svo -- bo -- dil!
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
     id = "t2-po-ben"
@@ -286,20 +291,21 @@ tIIpondeliAntBenedictus = \score {
 }
 
 tIIpondeliAntMagnificat = \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 g( a) c( b) c a4.( g4 a) g f e( d) e \barFinalis
+    g4 c b a g \barMin
+    f g a g \barFinalis
   }
   \addlyrics {
-    Ve -- leb, du -- še má, Hos -- po -- di -- na.
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "t2-po-mag"
-    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -315,7 +321,7 @@ tIIuteryAntBenedictus = \score {
   }
   \addlyrics {
     Za -- chraň nás, Hos -- po -- di -- ne,
-    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -338,7 +344,7 @@ tIIuteryAntMagnificat = \score {
   \addlyrics {
     U -- čiň s_ná -- mi ve -- li -- ké vě -- ci, Hos -- po -- di -- ne,
     ne -- boť jsi moc -- ný
-    a tvé jmé -- no je sva -- té.
+    a tvé jmé -- no je sva -- té!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -362,13 +368,14 @@ tIIstredaAntBenedictus = \score {
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
-    po vše -- chny dny své -- ho ži -- vo -- ta.
+    po vše -- chny dny své -- ho ži -- vo -- ta!
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "_Služme Hospodinu_ půjde důstojněji"
     id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -383,8 +390,8 @@ tIIstredaAntMagnificat = \score {
   }
   \addlyrics {
     Hos -- po -- di -- ne, roz -- ptyl ty,
-    kdo v_srd -- ci smý -- šle -- jí pyš -- ně
-    a po -- vyš po -- ní -- že -- né.
+    kdo v_srd -- ci smý -- šle -- jí pyš -- ně,
+    a po -- vyš po -- ní -- že -- né!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -408,7 +415,7 @@ tIIctvrtekAntBenedictus = \score {
   }
   \addlyrics {
     Hos -- po -- di -- ne, dej své -- mu li -- du po -- zná -- ní spá -- sy
-    a od -- pusť nám na -- še hří -- chy.
+    a od -- pusť nám na -- še hří -- chy!
   }
   \header {
     quid = "ant. k Benedictus"
@@ -469,15 +476,15 @@ tIIpatekAntBenedictus = \score {
 tIIpatekAntMagnificat = \score {
   \relative c' {
     \choralniRezim
-    d4 e f d c c a \barMin
-    f' f f e f d4. d \barMaior
-    f4 g a4. g \barMin
-    f4 e c( d) d \barFinalis
+    d4 e f e f g e \barMin
+    d d c e d c d \barMaior
+    f f e( f d) d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj, Hos -- po -- di -- ne,
     na své mi -- lo -- sr -- den -- ství,
-    jak jsi slí -- bil na -- šim před -- kům.
+    jak jsi slí -- bil na -- šim před -- kům!
   }
   \header {
     quid = "ant. k Magnificat"

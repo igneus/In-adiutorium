@@ -6,7 +6,7 @@
 \header {
   title = \markup\titleSvatek
             "sv. Cyrila, mnicha, a Metoděje, biskupa"
-            svátek
+            slavnost
             5.7.
   composer = "Jakub Pavlík"
 }
@@ -35,6 +35,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "zaslouží péči; divné je zejm. _povolali_ a _k opravdovému_"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -83,6 +84,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Dan 3-III"
+    placet = "zkusit alternativy"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -105,6 +107,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "_si_ je divné, asi by mělo zůstat na d;
+    pro vyřešení komentáře výše najít, odkud je text vzat - nejspíš je biblický"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -118,16 +122,14 @@
 
     % R
     \neviditelna f
-    f4 f f g f f( g) g \barMin g g g f g( a) a( g) \barMax
-    g g a( g) g
-    g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
+    f4 f f g f g g( f) \barMin f f f f g( a) a( g) \barMax
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( bes) a g f g( a) a( g) \barMax
+    a4 a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a( g) g
-    g( a g) f( g) g( d) d \barMin d f( g) g f f \barFinalis
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -142,6 +144,7 @@
     quid = "resp."
     modus = "VI"
     id = "rch-resp"
+    fial = "commune/commune_ucitel.ly#rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -250,6 +253,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 15"
+    placet = "nic moc"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -334,6 +338,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "nic moc; _svatému_ v doxologii je vysloveně fuj"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

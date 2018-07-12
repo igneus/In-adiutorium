@@ -29,7 +29,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 145-I"
-    id = ""
+    id = "ne-mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -53,13 +53,13 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 145-II"
-    id = ""
+    id = "ne-mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 % Od jiste doby jsem opatrny na to, abych finalu antifony
-% "neprebijel" pomoci antifony na jinou, protoze to vetsinou
+% "neprebijel" pomoci aleluja na jinou, protoze to vetsinou
 % zni blbe, ale tady se mi, byt jsem se snazil, nepovedlo najit
 % melodii aleluja vkusne koncici na G, takze soudim,
 % ze tu nejde o prebiti, ale opravdu o antifonu IV. alt. modu,
@@ -83,12 +83,42 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 145-III"
-    id = ""
+    id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
+\markup\italic{
+  Koná-li se vigilie,
+  antifona ke kantikům se bere
+  ze slavnosti Nanebevstoupení Páně.
+}
+
 \markup {\nadpisDen {Pondělí}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f f f e d c d d( c) \barMaior
+    d e f f e d f( g) g \barMin
+    d d f e c d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
+    A -- le buď -- te do -- bré mys -- li.
+    Já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -109,12 +139,35 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d d f g f f f g( a) a \barMaior
+    f f( g) f d \barMin c c d f g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {
@@ -135,7 +188,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -152,8 +205,6 @@
     c d e( d) d \barFinalis
   }
   \addlyrics {
-    % Na tomto místě je v breviáři "Děkujme", ne "Vzdávejme díky",
-    % myslím ale, že to je nahodilá nekonsistence způsobená redakční nepozorností.
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
     on nám po -- přá -- vá ví -- těz -- ství
     skr -- ze na -- še -- ho Pá -- na
@@ -161,12 +212,15 @@
     A -- le -- lu -- ja.
   }
   \header {
+    % myslím, že rozdíl v textu je nahodilá nekonsistence způsobená redakční nepozorností.
+    textus_approbatus = "Děkujme Bohu,
+    on nám popřává vítězství skrze našeho Pána Ježíše Krista. Aleluja."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -188,12 +242,40 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin a g a g f g g( a) a
+    b( c) a g a a \barMaior
+    a c( b a) g g( e) \barMaior
+    d d d d( a') a g b( c a) a \barMin
+    f g d f( e) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky
+    všech -- ny ná -- ro -- dy
+    a křtě -- te je
+    ve jmé -- nu Ot -- ce i Sy -- na
+    i Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -216,7 +298,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -226,10 +308,36 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f c d e f f
-    g f e( f) d c d c c( a) \barMaior
-    c d e f f f e c c( d) d d \barMaior
-    f g( f) d d \barFinalis
+    f4 f e d f( g) g \barMin
+    g f g a f g \barMaior
+    g g a b c c b \barMin
+    a c c b a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus Je -- žíš ze -- mřel,
+    a -- no i z_mrt -- vých vstal,
+    je po Bo -- ží pra -- vi -- ci
+    a při -- mlou -- vá se za nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a a a( c) b g g g \barMaior
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně
@@ -239,13 +347,14 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Všichni jednomyslně setrvávali v modlitbách
+    s Ježíšovou matkou Marií. Aleluja."
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
-    fons = "text není zcela shodný - zde oproti použité antifoně z commune chybí slovo 'spolu'; tento rozdíl však zanedbávám"
     fial = "commune/commune_maria.ly#tercie"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -269,7 +378,7 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G*"
-    psalmus = ""
+    psalmus = "so-aben"
     fial = "commune/commune_apostol.ly#sexta?zacatek upraven"
     piece = \markup {\sestavTitulekBezZalmu}
   }

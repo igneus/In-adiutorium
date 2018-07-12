@@ -30,10 +30,79 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) a \barMin
+    a a g f e f e d d \barFinalis
+  }
+  \addlyrics {
+    Šav -- le, já jsem Je -- žíš,
+    kte -- ré -- ho ty pro -- ná -- sle -- du -- ješ.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d c d( e) d \barMaior
+    d d d( e) d e f d c d( c) \barMin
+    b( a g) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d d \barMin
+    d( f) d e( f) d( c) c \barMaior
+    f g f g g( f) \barMin
+    e d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- vel za -- čal v_sy -- na -- go -- gách
+    hlá -- sat Je -- ží -- še
+    a do -- ka -- zo -- val,
+    že je to Bo -- ží Syn.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -57,7 +126,7 @@
     differentia = "c"
     psalmus = "Žalm 63"
     fial = "fial://sanktoral/0629petraapavla.ly#rch-a1"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -79,7 +148,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -102,7 +171,7 @@
     differentia = "c"
     psalmus = "Žalm 149"
     fial = "fial://sanktoral/0629petraapavla.ly#rch-a2"
-    id = "rch-a2"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -134,7 +203,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -158,7 +227,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -186,7 +255,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -210,7 +279,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -232,7 +301,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -256,7 +325,7 @@
     differentia = "D"
     psalmus = "Žalm 116-II"
     fial = "fial://sanktoral/0629petraapavla.ly#2ne-a2"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -278,7 +347,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -308,7 +377,7 @@
     differentia = "D"
     psalmus = "Ef 1"
     fial = "fial://pust_svatytyden.ly#odpo"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -342,7 +411,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -366,7 +435,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

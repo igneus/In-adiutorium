@@ -76,6 +76,7 @@
   \include "antifony/mezidobi_nedeleA_02_10.ly"
   \include "antifony/mezidobi_nedeleA_11_20.ly"
   \include "antifony/mezidobi_nedeleA_21_30.ly"
+  \include "antifony/mezidobi_nedeleA_31_33.ly"
 }
 
 \bookpart {

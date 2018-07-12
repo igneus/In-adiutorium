@@ -89,14 +89,14 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f g( a) a( g) \barMax
-    g g( a) g f d \barMin f d f( g) g f f \barFinalis
+    f4 f f f f f g f f f g( a) a( g) \barMax
+    g g g( a) g g f( d) f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a a a g( a) g g \barMin g g g g f g( a) a( g) \barMax
+    a4 a a( bes) a a g( a) g \barMin g g g g g a g f g( a) a( g) \barMax
     % R
     \neviditelna g
-    g g( a) g f d \barMin f d f( g) g f f \barFinalis
+    g g g( a) g g f( d) f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -283,6 +283,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -347,8 +348,8 @@
     \choralniRezim
     g4 g g g f( e) f( g) g \barMin
     a( c) c b g g a( g) f( g) g \barMaior
-    a b b( c) c c d c b( g) g \barMin
-    g g( c) b g a( f g) g \barFinalis
+    a b c c c d c b( g) g \barMin
+    g f( g) a a g g \barFinalis
   }
   \addlyrics {
     Když ro -- di -- če při -- nes -- li
@@ -389,6 +390,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -413,6 +415,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 130"
+    placet = "lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

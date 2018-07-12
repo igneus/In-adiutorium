@@ -35,7 +35,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -59,7 +59,8 @@
     modus = "V" % nebo spis VI? V nechavam pro spolecny motiv s predchozi
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "začátek zkusit zpěvnější, možná celou jinak"
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

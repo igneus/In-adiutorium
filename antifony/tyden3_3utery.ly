@@ -12,22 +12,20 @@
   \relative c'' {
     \choralniRezim
     a4 g( d') c d \barMaior
-    d c d c e d c( d) d \barMin b a g a( f) g \barFinalis
-
-    f^\rubrVelikAleluja f f( g) g \barFinalis
+    d c d c e d c( d) c \barMin
+    b a g a( f) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
-    a ti, kdo ho ne -- ná -- vi -- dí, pr -- cha -- jí před ním.
-
-    A -- le -- lu -- ja.
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-I"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +49,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-II"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -77,7 +75,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-III"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -100,7 +98,8 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 85"
-    placet = "sama o sobě se mi líbí, ale nesedí do modu - soudě mj. z toho, jak těžké je mi po ní správně začít žalm"
+    placet = "sama o sobě se mi líbí, ale nesedí do modu - soudě mj. z toho, jak těžké je mi po ní správně začít žalm.
+    Zdá se, že ve skutečnosti je hypodórská na g."
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -161,6 +160,9 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 119-מ"
+    placet = "melodii nevytýkám žádný vážný formální nedostatek,
+    ale k danému textu působí tak nějak uměle.
+    Začátek je zbytečně rozpohybovaný."
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -208,8 +210,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a f g d \barMin
-    g g f e c( d) d \barFinalis
+    f4 f f f g a \barMin
+    a g f g g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
@@ -217,8 +219,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 125"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
@@ -244,6 +246,7 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
+    placet = "zejm. _nevejdete_ zkusit jinak"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

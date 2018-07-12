@@ -167,6 +167,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 110"
+    placet = "nelibá"
     fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
     fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
     id = "ne-2ne-a1"
@@ -216,6 +217,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 19"
+    placet = "lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -223,9 +225,6 @@
 
 \markup {\nadpisDen {Pondělí}}
 
-% v breviáři je tu nepatrně odlišný text:
-% Já jsem pastýř dobrý;
-% já pasu své ovce a dávám za ně svůj život. Aleluja.
 \score {
   \relative c'' {
     \choralniRezim
@@ -242,6 +241,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Já jsem pastýř dobrý;
+    já pasu své ovce a dávám za ně svůj život. Aleluja."
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "d"
@@ -252,11 +253,6 @@
   }
 }
 
-% text v breviáři:
-% Mám i jiné ovce, které nejsou z tohoto ovčince.
-% Také ty musím přivést
-% a uposlechnou mého hlasu
-% a bude jedno stádce a jeden pastýř. Aleluja.
 \score {
   \relative c'' {
     \choralniRezim
@@ -276,6 +272,10 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Mám i jiné ovce, které nejsou z tohoto ovčince.
+    Také ty musím přivést
+    a uposlechnou mého hlasu
+    a bude jedno stádce a jeden pastýř. Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
@@ -286,7 +286,135 @@
   }
 }
 
+\markup {\nadpisDen {Úterý}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
+    f g a a a a c( b) a( g) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
+    vy -- dá -- va -- jí o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    d e f f( g f) d( c) c \barMaior
+    d d d( f) f e d c( d c) c \barMin
+    c d d d \barFinalis
+  }
+  \addlyrics {
+    Já znám své ov -- ce
+    a o -- ny jdou za mnou;
+    já jim dá -- vám věč -- ný ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisDen {Středa}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d e d d c c( b c d) d \barMaior
+    a a a( d) d \barMin d c b a( g) g \barMaior
+    f g a a( c b) a( g) g \barMin f g g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem při -- šel na svět ja -- ko svět -- lo,
+    a -- by žád -- ný, kdo vě -- ří ve mne,
+    ne -- zů -- stal v_tem -- no -- tě, pra -- ví Pán.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) a( g) g a g f a a( g) g \barMin
+    a b c c( d c) b( a) a \barMaior
+    c c a g a( g f) \barMin
+    f f d f( g) a g g \barMaior
+
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- po -- slal své -- ho Sy -- na na svět,
+    a -- by svět od -- sou -- dil,
+    a -- le a -- by svět
+    byl skr -- ze ně -- ho spa -- sen.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisDen {Čtvrtek}}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f4.( d) f4 f g a a \barMaior
+    a g g f g a f d( e) d( c) \barMaior
+    d d d e f e d c c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- ní žák nad u -- či -- te -- le.
+    Kaž -- dý však bu -- de do -- ko -- na -- lý,
+    když se své -- mu u -- či -- te -- li vy -- rov -- ná.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
@@ -316,6 +444,33 @@
 }
 
 \markup {\nadpisDen {Pátek}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    a a( c) b a c( d) d \barMaior
+    d c b c b( g) \barMin
+    f g a b a g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+    A vez -- mu vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vmag1?cast&upraveno"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c'' {

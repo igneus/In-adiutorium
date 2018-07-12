@@ -49,8 +49,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g f g( f e) d \barMaior
-    c d( e) f( g a g) g \barMin f e g( f) f \barFinalis
+    d4 f f e f d( c) c \barMaior
+    bes c d( f) f e c e d \barFinalis
   }
   \addlyrics {
     Hle, při -- šla pl -- nost ča -- su:
@@ -58,8 +58,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "D"
     psalmus = "Flp 2"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -79,7 +79,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c a) b( c) b c d a a \barMin
+    a c b c d a a \barMin
     c d e d c d d \barMin
     d c( b a) g( a) a \barMaior
     g a b a \barFinalis
@@ -127,11 +127,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f \major
-    a4 bes( d) c bes c bes a( g) a \barMin
-    c( bes a) g( f) e \barMaior
+    d4 d( a' bes) a a c a bes( a) g( a) \barMin
+    g( a g) f( e) e \barMaior
     d d d d d( f e) c c( d) d \barMax
     c f( e) d d \barFinalis
   }
@@ -143,11 +143,12 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = "Žalm 150"
+    placet = "_Slovo, Bože_ je moc rozházené - doladit"
     id = "ne-rch-a3"
-    fons = "oktáv Narození Páně, 26.12., k Magnificat: 2. část, velmi výrazně upraveno"
-    fial = "fial://vanoce_narozenipane.ly#26-amag"
+    fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
+    fial = "fial://vanoce_narozenipane.ly#26-amag?cast&volne"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -171,15 +172,16 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 110"
+    placet = "krok na _a_ pryč; celou zkusit lépe"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f d d( e f) g g \barMin a g a( c) b a( g) a \barMaior
+    g f g( a) g g \barMin a g a c b( a) a \barMaior
     a b c b c c \barMin b c a g g \barMax
     g( a g d) g( a) a \barMin c d c a g \barMaior
     f f f( g) g \barFinalis
@@ -196,8 +198,7 @@
     differentia = "G"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
-    fons = "neděle 3. adv.t., r.ch., 2.a., 2.-4. část doslova"
-    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2"
+    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?cast&upraveno"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -205,13 +206,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a a a a( g a) g( f) f \barMaior
-    d f( g) g g f g a a \barMin a g f g g f f \barMaior
-    d f( g) g f \barFinalis
+    f4 g a g f g f d d \barMaior
+    d d( f d c) c \barMin d e f( a) a( g) g \barMaior
+    a a g f g f d \barMin
+    f g g f \barFinalis
   }
   \addlyrics {
     Je -- ho vla -- dař -- ství se roz -- ší -- ří
-    a po -- koj, kte -- rý při -- ne -- se, bu -- de tr -- vat na -- vě -- ky.
+    a po -- koj, kte -- rý při -- ne -- se,
+    bu -- de tr -- vat na -- vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
@@ -222,4 +225,9 @@
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
+}
+
+\markup\justify\italic{
+  Férie 4. adventního týdne mají texty z příslušných dnů
+  v předvánočním týdnu.
 }

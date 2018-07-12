@@ -17,16 +17,17 @@
     e d d f d c c( d) d \barFinalis
   }
   \addlyrics {
-    % Bra -- tr, kte -- ré -- mu po -- má -- há bra -- tr,
     Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,
     je jak o -- pev -- ně -- né měs -- to.
   }
   \header {
+    textus_approbatus = "Bratr, kterému pomáhá bratr, je jak opevněné město."
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "nic moc"
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,7 +52,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    placet = "hrůza"
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -20,7 +20,7 @@
     d4 f f f e d e( f) f g( f) g g( a) a a \barMin
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
-    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- vští -- ve -- ní Pan -- ny Ma -- ri -- e;
@@ -48,7 +48,7 @@
 
     d e f( g) g \barFinalis
 
-    d^\markup\small\italic{V době velikonoční:} c d d \barMax
+    d^\markup\rubrVelikAleluja c d d \barMax
     d( f) g( a) g g \barFinalis
   }
   \addlyrics {
@@ -100,9 +100,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMax
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-    c^\markup\small\italic{V době velikonoční:} a( g) a( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -116,7 +116,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    fons = "společné texty o P.M., 2. nešp., k Magnificat"
     fial = "commune/commune_maria.ly#2ne-amag"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -163,13 +162,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g( f e d) \barMin a' c d c b( c) a g a( g) g \barMaior
-    g a( b c) a g f g( a) g( a) g \barFinalis
+    g4 g g g( a) g \barMin
+    g a b c a g a g g \barMaior
+    g f e d d f( g) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja f( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja f( g) g g \barFinalis
   }
   \addlyrics {
-    Ma -- ri -- a ve -- šla do Za -- cha -- ri -- á -- šo -- va do -- mu
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
     a po -- zdra -- vi -- la Alž -- bě -- tu.
 
     A -- le -- lu -- ja.
@@ -177,7 +178,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = "Žalm 122"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -206,7 +207,7 @@
       differentia = "D"
       psalmus = "Žalm 127"
       fons = "advent, předvánoční týden, 22.12., k Benedictus; přidáno aleluja"
-      fial = "advent_antifony.ly#predvanocni-22-ben?+aleluja"
+      fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben?+aleluja"
       id = "ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -245,27 +246,28 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( a c) b( g a) f( g) g g f( g) g4.( a) \barMin
-    b4 c d b a( g) g \barMaior
-    g b c( d c) d( e d4.) d \barMin
-    d4 d d( e d) c( b) a g a( b) a g g \barFinalis
+    g4 d' d e c d b \barMin
+    c c b a g( a) a \barMaior
+    c c c b( a g) g \barMin
+    f g a a a a g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja b( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- vit mě bu -- dou všech -- na po -- ko -- le -- ní,
-    ne -- boť Bůh shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+    Bla -- ho -- sla -- vit mě bu -- dou
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "d"
+    differentia = "a"
     psalmus = "Magnificat"
     id = "ne-amag"
-    fons = "spol. texty o P.M., r.ch., k Benedictus"
-    fial = "commune/commune_maria.ly#rch-aben"
+    fial = "commune/commune_maria.ly#1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

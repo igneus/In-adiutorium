@@ -27,7 +27,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 6"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,7 +51,7 @@
     modus = "III"
     differentia = "b"
     psalmus = "Žalm 9-I"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = "III"
     differentia = "b"
     psalmus = "Žalm 9-II"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -175,6 +175,7 @@
     ná -- ro -- dy po -- dle prá -- va.
   }
   \header {
+    textus_approbatus = "Hospodin povstane a bude soudit národy dle práva."
     quid = "2. ant."
     modus = "II"
     differentia = "D"
@@ -241,6 +242,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 15"
+    placet = "zkusit důstojnější variantu"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

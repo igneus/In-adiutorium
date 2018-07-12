@@ -25,7 +25,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-IV"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -49,7 +49,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-V"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-VI"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,8 +128,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a d( b) c c \barMaior
-    b4 c d c b a( g) g \barMin
+    g4 a a a d( b) c c \barMin
+    b4 c d c b a( g) g \barMaior
     a f a b a g g \barFinalis
   }
   \addlyrics {
@@ -186,6 +186,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 25-I"
+    placet = "_pravdě_ působí tak nějak neautenticky, přeumělkovaně"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -247,6 +248,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 32"
+    placet = "lépe"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -269,6 +271,8 @@ tIctvrtekNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 11"
+    placet = "mám ji takhle rád;
+    přeci ale zkusit o něco méně rozskákanou variantu"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -96,7 +96,7 @@
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
 
     Pa -- ne, je dob -- ře, že jsme ta -- dy.
-    Chceš -- li, po -- sta -- ví -- me tu tři sta -- ny:
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
     je -- den to -- bě,
     je -- den Moj -- ží -- šo -- vi
     a je -- den E -- li -- á -- šo -- vi.

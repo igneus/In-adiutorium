@@ -7,43 +7,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( f) f( e d c) c4.( d) \barMaior d4 e f d d( c) c \barMin
-    d c a g g( a g) g \barMaior g g( a) g g \barFinalis
+    g4( a) a( g) g \barMin
+    a g c b a( g) a \barMin
+    b c a a g( f) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
-    U -- kaž se_* ve své vzne -- še -- nos -- ti
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
     na ne -- be -- sích, Bo -- že.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 57"
     id = "rch-a1"
     fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
-    fial = "antifony/velikonoce_tyden1_4streda.ly#rch-a1"
-    placet = "~"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    a4.( g4 a) c a a g g4.( e) \barMin g4 f e e \barFinalis
-  }
-  \addlyrics {
-    Pán vy -- kou -- pil svůj lid.
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
-    psalmus = "Jer 31"
-    id = "rch-a2"
-    placet = "r"
+    fial = "antifony/velikonoce_tyden4_4streda.ly#rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,20 +33,39 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d4.( f) \barMin f4 e( c) c a a \barMaior
-    c d d d \barFinalis
+    d4-- f e f g a \barMin
+    f d e4. d \barFinalis
   }
   \addlyrics {
-    Náš Bůh je Bůh na -- vě -- ky.
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Jer 31"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4. c d4 c b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh_* je Bůh na -- vě -- ky.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 48"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -109,8 +110,12 @@
     differentia = "d"
     psalmus = "Žalm 32"
     id = "ne-a2"
-    fons = "Velký pátek, ad Magnificat; doplněno aleluja"
-    fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
+    % Původní zdrojová antifona už neexistuje, protože šlo
+    % o svévolné zkrácení; dnes už je tam zhudebnění správného celého textu,
+    % s úplně jinou melodií
+    %
+    % fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    % fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

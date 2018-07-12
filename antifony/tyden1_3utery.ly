@@ -27,7 +27,10 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 10-I"
-    id = ""
+    placet = "_soudí spravedlivě_ si nejsem jist -
+    dá se to sice zazpívat důstojně a pěkně, ale je to poměrně divoké a spíš
+    ozdoba pro ozdobu než autentický hudební výraz zhudebněného textu"
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -53,7 +56,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 10-II"
-    id = ""
+    placet = "_ty sleduješ_ by šlo lépe"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -62,7 +66,7 @@
   \relative c'' {
     \choralniRezim
     a4 g f g f e( f) d d \barMin
-    e e( f g) f e d( e d) d \barFinalis
+    e e( g) f e d d \barFinalis
 
     f^\rubrVelikAleluja e c( d) d \barFinalis
   }
@@ -77,7 +81,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 12"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -138,7 +142,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 33"
-    placet = "zkusit i jinak"
+    placet = "zkusit jinak, melodie je textu nepřiměřeně vážnosmutná"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -159,6 +163,7 @@
     v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
   }
   \header {
+    textus_approbatus = "Blaze těm, kteří kráčejí v zákoně Hospodinově."
     quid = "1. ant."
     modus = "I"
     differentia = "D"
@@ -203,6 +208,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 14"
+    placet = "obě div. spíš maior"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -218,7 +224,7 @@
   }
   \addlyrics {
     Hos -- po -- din dal ví -- těz -- ství
-    své -- mu po -- ma -- za -- né -- mu.
+    své -- mu Po -- ma -- za -- né -- mu.
   }
   \header {
     quid = "1. ant."
@@ -233,19 +239,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a \barMaior
-    a f4.( d) \barMin e4 f g f d d \barFinalis
+    g4 g g( a) a a f( d) \barMin
+    e4 f g f d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne,
-    tvou moc o -- sla -- ví -- me zpě -- vem.
+    Hos -- po -- di -- ne, tvou moc
+    o -- sla -- ví -- me zpě -- vem.
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "g2"
     psalmus = "Žalm 21"
-    placet = "upravit frázování"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

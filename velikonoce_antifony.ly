@@ -47,34 +47,63 @@
   \markup{Od slavnosti Nanebevstoupení Páně:}
 
   \score {
-  \relative c'' {
-    \choralniRezim
-    d4( c b a) a4.( b) \barMin
-    a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
-    d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
-    d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
+    \relative c'' {
+      \choralniRezim
+      d4( c b a) a4.( b) \barMin
+      a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
+      d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
+      d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
   }
-  \addlyrics {
-    Pojď -- me,
-    klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-    on nám slí -- bil Du -- cha sva -- té -- ho,
-    a -- le -- lu -- ja.
+
+  \markup {\nadpisHodinka {"nedělní vigilie"}}
+
+  \markup\italic{před Nanebevstoupením Páně:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c c c( d) c b a( g) g \barMin
+      a g f( g a) g g \barMaior
+      g g g f( e d) \barMin
+      d( f) e f f g( a g) g \barMaior
+      f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me a klaň -- me se to -- mu,
+      kte -- rý vstal z_mrt -- vých:
+      vždyť skr -- ze kříž
+      vze -- šla svě -- tu ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
   }
-  \header {
-    quid = "ant."
-    modus = "VII"
-    differentia = "d"
-    psalmus = "invit2"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
 
   \markup\nadpisHodinka {"modlitba uprostřed dne"}
 
-  \markup{Následující antifony pocházejí
-  z \italic{Antiphonale Romanum,} Romae 1912, ss. 14, 25, 29, 34.}
-
-  \markup\justify{Původně náležejí čtyřem malým denním hodinkám,
+  \markup\justify{Následující antifony pocházejí
+  z \italic{Antiphonale Romanum,} Romae 1912.
+  Původně náležejí čtyřem malým denním hodinkám,
   primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
   každý den. V současné době lze tam, kde se během dne slaví jen
   jedna hodinka, buďto vybrat jednu, odpovídající denní době,
@@ -99,6 +128,7 @@
       modus = "III"
       differentia = "b"
       psalmus = ""
+      fons_externus = "AR 1912, 14"
       id = "prima"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -122,6 +152,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      fons_externus = "AR 1912, 25"
       id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -145,6 +176,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      fons_externus = "AR 1912, 29"
       id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -167,15 +199,13 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      fons_externus = "AR 1912, 34"
       id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 
   \markup\nadpisHodinka {"kompletář"}
-
-  \markup{z \italic{Liber usualis,} New York-Tournai 1961, 266.
-          (srov. \italic{Antiphonale Romanum,} Romae 1912, 47.)}
 
   \score {
     \relative c'' {
@@ -195,8 +225,8 @@
       differentia = "G"
       psalmus = ""
       id = "komplet"
+      fons_externus = "AR 1912, 47"
       piece = \markup {\sestavTitulekBezZalmu}
-      fons = "Liber usualis, New York-Tournai, 1961, 266."
     }
   }
 }

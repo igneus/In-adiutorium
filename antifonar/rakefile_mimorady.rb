@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# volumes that don't fit in the Complete, not to the Small edition
-# of the antiphonal
 
 ######################################################
 # Nesporni zpevy (nespory nejvetsich slavnosti liturgickeho roku
@@ -66,52 +64,8 @@ def ps_skip(canticle)
   end
 end
 
-nesporni_zalmotexty_pec = []
-
-nesporni_kantika.each_pair do |canticle,psalmcode|
-  psalm_pattern = psalmodie[psalmcode]
-  nesporni_zalmotexty_pec << genzalm("kantikum_"+canticle+'.zalm',
-                                     nesporni_options+" --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} --skip-verses #{ps_skip(canticle)}",
-                                     adresar_nesporni)
-end
-
-nesporni_zalmy.each_pair do |psalm,psalmcode|
-  psalm_pattern = psalmodie[psalmcode]
-  nesporni_zalmotexty_pec << genzalm("zalm#{psalm}.zalm", 
-                                     nesporni_options+" --accents #{ps_accents(psalm_pattern)} --preparatory-syllables #{ps_prep(psalm_pattern)} --skip-verses #{ps_skip(psalm)}", 
-                                     adresar_nesporni)
-end
-
-noty_nesporni = {
-  'nespornizpevy/zalmy.ly' => 'z110',
-  'nespornizpevy/tonicommunes.ly' => 'pospes',
-  'nespornizpevy/antifony_vanoce.ly' => 'narozeni-ant1',
-  'nespornizpevy/antifony_velikonoce.ly' => 'zmrtvychvstani-ant3',
-  'nespornizpevy/antifony_slavnostipane.ly' => 'krale-ant1'}.map do |file, sampleid| 
-  # nazev vygenerovaneho souboru s prvni antifonou
-  afn = adresar_nesporni+File.basename(file).gsub('.ly', '_'+sampleid+'.ly')
-  # zpracovavany soubor s antifonami
-  sfn = file
-  
-  file afn => [sfn] do
-    sh nesporni_splitscores_command + sfn
-  end
-  
-  afn
-end
-
-file "vystup/nespornizpevy.tex" => ['nespornizpevy.lytex', 'nespornizpevy/spolecne_nespory.ly', 'nespornizpevy/kantikum-Zj19.ly']+noty_nesporni+nesporni_zalmotexty_pec do |t|
-  sh "lilypond-book --out=vystup --left-padding=0 --pdf "+t.prerequisites.first
-end
-
-file 'vystup/nespornizpevy.pdf' => ['vystup/nespornizpevy.tex'] do
-  cd 'vystup'
-  2.times { sh 'pdflatex nespornizpevy' }
-  cd '..'
-end
-
 desc "simple vespers for solemnities"
-task :nesporni => ["vystup/nespornizpevy.pdf"]
+task :nesporni => [ typographus('nespornizpevy.tytex') ] #["vystup/nespornizpevy.pdf"]
 
 task :nesporni_clean => [:snipclean] do
   sh "rm -rf vystup/nespornizpevy.*"

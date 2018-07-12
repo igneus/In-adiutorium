@@ -32,7 +32,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
-    id = ""
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -56,7 +56,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-II"
-    id = ""
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -80,7 +80,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-III"
-    id = ""
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -108,7 +108,9 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-I"
-    id = ""
+    placet = "_učinil velké divy_ je fuj;
+    všechny tři zkusit zpracovat výrazněji jako jeden celek"
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,7 +130,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-II"
-    id = ""
+    placet = "antifona téhož textu je ve velikonočním oktávu"
+    id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,7 +151,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 136-III"
-    id = ""
+    id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -199,11 +202,14 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 a bes a \barMin a g f g a( bes) a4. bes4 bes c( a) a \barMin
-    a f e d d \barFinalis
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+
+    bes bes c( a) a a f e d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, jak po -- di -- vu -- hod -- né
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
     je tvé jmé -- no po ce -- lé ze -- mi.
   }
   \header {
@@ -211,6 +217,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 8"
+    placet = "je přijatelný krok na _je_?"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -275,10 +275,6 @@
   \markup\sekce{modus VIII}
 
   \markup\sekce{peregrinus}
-
-  \markup\sekce{in directum}
-
-  \markup\sekce{paschalis}
 }
 
 \bookpart {
@@ -286,12 +282,18 @@
     subtitle = "III. Verše"
   }
 
+  \markup\sekce{III.1 nápěv s neumou}
+
   \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 27*.}
 
-  \markup\sekce{III.1 v modlitbě se čtením (přechod od psalmodie ke čtení)}
 
   \markup\justify{
-    Melodická ozdoba na poslední slabice, zcela bez ohledu na slovní
+    Takto se zpívají verše v modlitbě se čtením mezi psalmodií
+    a prvním čtením, stejně jako v modlitbě uprostřed dne
+    po krátkém čtení.
+  }
+  \markup\justify{
+    Melodická ozdoba je na poslední slabice, zcela bez ohledu na slovní
     přízvuk. Někdo by mohl namítnout, že to je češtině naprosto cizí.
     Odpovídám, že latině to není vlastní o nic víc. Dále, že i v českém
     chorálu se melisma na poslední slabice slova zdá být
@@ -317,9 +319,14 @@
     }
   }
 
+  \markup\sekce{III.2 slavnostní nápěv}
+
   \markup\justify{
-    S aleluja: Podle: \italic{Antiphonale Romanum}, Romae 1912, 427.
-    (Původně nápěv veršíku po hymnu jen pro slavnost Seslání Ducha sv.)
+    Slavnostní nápěv pro verše s aleluja:
+    Podle: \italic{Antiphonale Romanum}, Romae 1912, 427.
+    (Původně k nešporám nejvýznamnějších svátků. Když dnes nešpory
+    veršík neobsahují, nabízí se použít tento nápěv v modlitbě se čtením
+    zejm. o slavnostech velikonočního cyklu.)
   }
 
 
@@ -340,8 +347,11 @@
     }
   }
 
-  \markup\sekce{III.2 v modlitbě uprostřed dne (odpověď na Boží slovo)}
+  \markup\sekce{III.3 prostý nápěv}
 
+  \markup\justify{
+    Jednodušší varianta použitelná ad libitum místo nápěvu s neumou.
+  }
   \markup\justify{
     Pokles z recitační noty po posledním slovním přízvuku.
     (V posledních slovech jsou z pedagogických důvodů
@@ -386,14 +396,56 @@
 
 \bookpart {
   \header {
-    subtitle = "IV. Zakončení hodinek"
+    subtitle = "IV. Otče náš"
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a b c c c c c c b \barMin
+      c c c b a c \barMaior
+      a b c c b \barMin
+      a b c c c c c c b a c c c \barMaior
+      a b c c c c c b \barMin
+      a a b b c c c c \barMin
+      c c c c c c c c b a c c c \barMaior
+      a a a b b c c c b \barMin
+      a b c c c c a \barFinalis
+      % Zaver se zamerne lisi, protoze predloha pocita s tim,
+      % ze zpiva jen predstaveny a cely chor se pripoji
+      % az na zaverecnou frazi.
+    }
+    \addlyrics {
+      Ot -- če náš,
+      jenž jsi na ne -- be -- sích,
+      po -- svěť se jmé -- no tvé.
+      Přijď krá -- lov -- ství tvé.
+      Buď vů -- le tvá ja -- ko v_ne -- bi, tak i na ze -- mi.
+      Chléb náš ve -- zdej -- ší dej nám dnes.
+      A od -- pusť nám na -- še vi -- ny,
+      ja -- ko i my od -- pou -- ští -- me na -- šim vi -- ní -- kům.
+      A ne -- u -- veď nás v_po -- ku -- še -- ní,
+      a -- le zbav nás od zlé -- ho.
+    }
+    \header {
+      quid = "Otče náš"
+      id = "otcenas"
+      fons_externus = "podle Antiphonale Monasticum 1933, 1236."
+      piece = ""
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    subtitle = "V. Zakončení hodinek"
   }
 
   \markup\sekce{IV.1 Ranní chvály a nešpory}
 
   \markup\sekce{IV.1.1 s knězem nebo jáhnem}
 
-  \markup\wordwrap{Z liturgických zdrojů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
+  \markup\wordwrap{Z materiálů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
 
   \score {
     \transpose f' c'' { \relative c' {
@@ -597,7 +649,7 @@
 
 \bookpart {
   \header {
-    subtitle = "V. Te Deum"
+    subtitle = "VI. Te Deum"
   }
 
   \markup\justify{
@@ -742,7 +794,7 @@
 
 \bookpart {
   \header {
-    subtitle = "VI. Závěrečné mariánské antifony"
+    subtitle = "VII. Závěrečné mariánské antifony"
   }
 
   \markup\sekce{VI.1 Přiřazení antifon liturgickým dobám}
@@ -777,8 +829,7 @@
 
   \markup\justify{
     3. S ohledem na mezitím provedené změny v uspořádání liturgického roku
-    se mi zdá vhodné následující schéma:
-    (Nevnucuji, neordinuji, nabízím jako možnost. Sám je zachovávám.)
+    lze doporučit následující schéma:
 
     \column{
       \line{\italic{Alma Redemptoris Mater}

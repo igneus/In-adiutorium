@@ -12,11 +12,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 a g g( a) \barMin a g a \barMaior
-    a g f a( f) d \barMin d e d c f e g( a) a \barMaior
-    a a a( c a) g( a) f e \barMin d d d d f d c d \barFinalis
+    a4 b c a g a a \barMaior
+    g a a a( c) c \barMin
+    c d d d e c c( d) d \barMaior
+    d d c( b a) g( f) f( g) g \barMin
+    f g a c b a( b) a a \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
@@ -25,10 +27,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    id = ""
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?upraveno"
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -36,19 +39,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g a) g f g( f e d) \barMaior
-    d e f g( a g) g \barMin g f( g) d d e( c) d \barFinalis
+    g4( c a) g( f) f( g) g \barMaior
+    c b c c( d) d( c) \barMin
+    b a g a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,
-    že va -- še jmé -- na jsou za -- psá -- na v_ne -- bi.
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "g2"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    id = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-2ne-amag"
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

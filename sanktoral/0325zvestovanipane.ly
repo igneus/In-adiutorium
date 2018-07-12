@@ -38,6 +38,8 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 113"
+    placet = "_výhonek_ nakonec spíš odlehčit; dlouhé melisma tu
+    nezní tak dobře, jak jsem doufal"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -96,6 +98,8 @@
   }
 }
 
+\markup\italic{V době postní:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -128,6 +132,43 @@
   }
 }
 
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f f f g( a f e) f \barMaior
+    f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- ra -- zi -- la ra -- to -- lest z_pa -- hý -- lu Jes -- se,
+    hvěz -- da vy -- šla z_Ja -- ku -- ba._*
+    \textRespAleluja
+    \Verse Pan -- na po -- ro -- di -- la Spa -- si -- te -- le._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -149,6 +190,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_nejvyššího_ má mít velké N a nemělo by mít melodii
+    takto čistě průběžného charakteru;
+    zvážit/vyzkoušet přestrukturování také u _Duch svatý_"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -178,6 +222,117 @@
     psalmus = ""
     id = "invit"
     piece = \markup{\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c a c( d) \barMaior
+    d( e) d c c( d) c a a \barMin
+    c c c b g a g g \barMaior
+    f g a a( c b) a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Když se na -- pl -- nil čas,
+    po -- slal Bůh své -- ho Sy -- na,
+    na -- ro -- ze -- né -- ho ze že -- ny,
+    a -- by nás vy -- kou -- pil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a a c b c( d) d \barMaior
+    d e d c d c a a \barMin
+    c c b g a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
+    Při -- pra -- vils mi tě -- lo, Bo -- že,
+    a -- bych pl -- nil tvou vů -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19A"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g a a a a e f g e \barMaior
+    d d f g g( a) a \barMin
+    a a b a g f g g e e \barMaior
+    f f f d f f( e) e f g e e \barFinalis
+
+    d^\markup\rubrVelikAleluja f f( d) e \barFinalis
+  }
+  \addlyrics {
+    V_tom se u -- ká -- za -- la Bo -- ží lás -- ka k_nám,
+    že Bůh po -- slal na svět
+    své -- ho je -- dno -- ro -- ze -- né -- ho Sy -- na,
+    a -- by -- chom mě -- li ži -- vot skr -- ze ně -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 45"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b c d c b c b a a \barMaior
+    g g f( g) \barMin
+    a( c) c( b) c \barMaior
+    c c c c( d) d d c b a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej a ra -- duj se, si -- ón -- ská dce -- ro,
+    ne -- boť hle_–
+    při -- chá -- zím
+    a bu -- du byd -- let u -- pro -- střed te -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    fial = "antifony/advent_tyden2.ly#ut-aben?upraveno"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -270,17 +425,17 @@
 
     % R
     \neviditelna f
-    f d c d( f) e f \barMin g f g g( a) a4.( g) \barMax
-    a4( g a) f( g f) f \barFinalis
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 g( f) g( f) d4. d \barMin d4 e( f) d c c \barMaior
-    d f g g g a4.( g) \barMin g4 f g g( a) a \barMax
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g f g g g g g f g a a \barMax
     % R
     \neviditelna a
-    a4( g a) f( g f) f \barFinalis
+    f( g) g( f) f \barFinalis
     % Slava
-    a4 a a g a g( f) f \barMin f d f f( g) g g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
@@ -389,6 +544,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nemastná-neslaná"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -413,6 +569,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "plná nefunkčních melismat"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -441,6 +598,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_celého světa je divné_; celkem si nejsem jist"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -467,6 +625,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
+    placet = "takhle se mi líbí,
+    ale přesto by se měla vyzkoušet jinak zvláště druhá část"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -497,6 +657,7 @@
     differentia = "D"
     psalmus = "Žalm 130"
     id = "2ne-a2"
+    placet = "pozor, zdrojová antifona byla zřejmě mezitím aktualizována"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#imag2"
     piece = \markup {\sestavTitulek}
@@ -506,13 +667,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b) c d d d a( g a4.) a \barMin
-    c4 d d e( c b) b \barMin a b b a g g \barFinalis
-    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
+    a4 c d d c e( d) d \barMin
+    d c b c( a g) g \barMin
+    f g a a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:
-    ať se mi sta -- ne po -- dle tvé -- ho slo -- va.
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
 
     A -- le -- lu -- ja.
   }
@@ -537,13 +701,13 @@
     % R
     \neviditelna f
     f4 f f g f g( a) a( g) \barMax
-    g g( a) g g( f d) d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( bes a) g g( a) a( g) \barMax
+    a4 a a a( bes) a g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g g( f d) d f g g( f) f \barFinalis
+    g g( a) g( f) d d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -624,8 +788,12 @@
     modus = "II"
     differentia = "D"
     psalmus = "2ne-amag"
+    placet = "recyklace existující antifony je fajn,
+    antifona k Magnificat druhých nešpor slavnosti by si možná
+    zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
+    a připravit další, alternativní"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
-    fial = "fial://advent_antifony.ly#spol-sexta"
+    fial = "fial://advent_antifony.ly#spol-sexta?delsi_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -60,8 +60,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 147-II"
+    fial = "commune/commune_maria.ly#rch-aben"
     id = "1ne-a2"
-    fons = "společné texty o Panně Marii, ant. k Benedictus"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -84,6 +84,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "_vyvýšena_ půjde lépe; zvlášť divné je e uprostřed"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -174,8 +175,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "commune/commune_maria.ly#invit1?jiny_text"
     id = "invit"
-    fons = "upravena z ant. ze společných textů o P.M."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -198,7 +199,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 24"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -222,7 +223,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 46"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -243,7 +244,7 @@
     differentia = "D"
     psalmus = "Žalm 87"
     fial = "commune/commune_maria.ly#mc-a3?-aleluja"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -276,7 +277,7 @@
   \header {
     quid = "1. resp."
     modus = "VIII"
-    id = ""
+    id = "mc-r1"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -322,8 +323,45 @@
   \header {
     quid = "2. resp."
     modus = "V"
-    id = ""
+    placet = "_kdy Rodička_ se musí zpívat jako jeden rytmický celek;
+    _šťastná jsi_ asi lépe posunout o sekundu výš"
+    id = "mc-r2"
     piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) d \barMin
+    d d e( f) d( c) d( c) \barMaior
+    d d c( a) a c b g a( g) g \barMin
+    f g a a g g \barMax
+    a a a c b g \barMaior
+    a c d d \[ d( e d \] \[ c d) \] d( c) \barMin
+    d( c b) a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mat -- ka Bo -- ží,
+    Pan -- na Ma -- ri -- a,
+    by -- la vza -- ta s_tě -- lem i du -- ší
+    do ne -- bes -- ké slá -- vy
+    a má už dnes po -- díl
+    na Kris -- to -- vě slav -- ném
+    ví -- těz -- ství nad smr -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Matka Boží, Panna Maria,
+    byla vzata s tělem i duší do nebeské slávy
+    a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
@@ -353,8 +391,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
+    fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
     id = "rch-a1"
-    fons = "commune o P.M., r.ch., 1. ant. - zkraceno"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -380,7 +418,7 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
-    fons = "začátek viz zde, 1. nešp., 3. ant."
+    fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -402,6 +440,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 149"
+    placet = "dlouhé melisma na _nevymizí_ je neorganické"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -434,6 +473,7 @@
   \header {
     quid = "resp."
     modus = "VII"
+    placet = "první div. až po _vstoupila_"
     id = "rch-resp"
     fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
@@ -536,11 +576,11 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d d d d d d( f g a) g a( c b a) g( a) a \barMax
-    g a a a g a g e e( d) \barMaior
-    d d( f g) f( e) d f( e) c d d \barFinalis
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    b b( c) d( e) d c( a) b g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a by -- la vza -- ta do ne -- be,
@@ -548,6 +588,7 @@
     a zpí -- va -- jí Pá -- nu chvá -- ly.
   }
   \header {
+    fons_externus = "volně podle AR1912, 690"
     quid = "1. ant."
     modus = "I"
     differentia = "D"
@@ -598,8 +639,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
+    fial = "commune/commune_maria.ly#1ne-a3"
     id = "2ne-a3"
-    fons = "commune o P.M., 1. nešp., 3. ant."
     piece = \markup {\sestavTitulek}
   }
 }
@@ -635,6 +676,7 @@
   \header {
     quid = "resp."
     modus = "VII"
+    placet = "_nad zástupy_ má špatně hudební přízvuk; celé nic moc"
     id = "2ne-resp"
     fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
@@ -659,6 +701,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "není špatná, ale antifona k Magnificat uzavírající třetí největší
+    svátek liturgického roku by měla být patřičně velkolepá"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

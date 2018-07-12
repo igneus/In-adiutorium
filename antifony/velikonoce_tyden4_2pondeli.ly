@@ -7,19 +7,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( bes) a( g) g \barMin a g f g d d \barMaior
-    f e c c( d) d \barMaior
-    d f e( d) d \barFinalis
+    c4 d c a g \barMin
+    a g f g a a \barMin
+    a c b a( g) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
-    Ať je nad ná -- mi_* do -- bro -- ti -- vost Pá -- na,
+    Ať je nad ná -- mi_*
+    do -- bro -- ti -- vost Pá -- na,
     na -- še -- ho Bo -- ha.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 90"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -73,9 +75,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a c b( c) c c \barMaior
-    c( d c a) a \barMin g( f) g g f f \barMaior
-    f f( a) g( f) f \barFinalis
+    f4 g a g a a \barMin
+    a g f g g f f \barMaior
+    g a f f \barFinalis
   }
   \addlyrics {
     Kdo se stal křes -- ťa -- nem,_*
@@ -84,8 +86,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 136-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -95,19 +97,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a c b( c) c \barMaior
-    c c c c c( d) c4.( a) \barMin a4( g) f g f \barMaior
-    f f( a) g( f) f \barFinalis
+    f4 g a g( a) a \barMin
+    a g f g f4. d \barMin
+    f4 g g f \barMaior
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Mi -- luj -- me Bo -- ha,_*
-    pro -- to -- že on na -- před mi -- lo -- val nás.
+    pro -- to -- že on dří -- ve
+    mi -- lo -- val nás.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Milujme Boha, protože on napřed miloval nás. Aleluja."
     quid = "2. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 136-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

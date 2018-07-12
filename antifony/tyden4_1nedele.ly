@@ -15,10 +15,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "per"
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = "Žalm 122"
-    placet = "I"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -48,8 +47,6 @@
 
 \score { \tIInedeleInespAntIII }
 
-\score { \tIInedeleInespResp }
-
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score { \tIInedeleInvitatorium }
@@ -71,7 +68,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 24"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -91,7 +88,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
-    id = ""
+    placet = "obě dvě zkusit lépe; tady po _život_ div. minima"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -107,11 +105,12 @@
     co Bůh pro -- ká -- zal mé du -- ši.
   }
   \header {
+    textus_approbatus = "Slyšte, všichni bohabojní, co prokázal Bůh mé duši."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-II"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -136,6 +135,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Oslavujte Hospodina, neboť jeho milosrdenství trvá navěky. Aleluja."
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
@@ -192,9 +192,8 @@
   }
 }
 
-\score { \tIInedeleLaudResp }
-
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\noPageBreak
 
 \score {
   \relative c' {
@@ -227,7 +226,7 @@
     a4 b g g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    Hos -- po -- din při -- jde ve slá -- vě, ob -- klo -- pen svý -- mi
     sva -- tý -- mi.
     A -- le -- lu -- ja.
   }
@@ -305,11 +304,10 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 112"
+    placet = "barbarská"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score { \tIInedeleIInespAntIII }
-
-\score { \tIInedeleIInespResp }

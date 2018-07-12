@@ -56,56 +56,21 @@ tInedeleInespAntIII = \score {
   }
   \addlyrics {
     Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
-    po -- vý -- šil na -- vě -- ky.
+    vy -- vý -- šil na -- vě -- ky.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "melodie je textu nepřiměřená, taková bezstarostná;
+    melodie _proto ho_ je nepřirozená"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score { \tInedeleInespAntIII }
-
-tInedeleInespResp = \score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna e
-    e4 g( a) a4.( g) a4 b g( f e) e \barMin f4( g a) g f( e) e \barMax
-    f4 f f f( e d) f e( f) e e \barFinalis
-
-    % V
-    \neviditelna a
-    a4 a a b( c) c4. b4( c) a g4. e \barMax
-
-    % R
-    \neviditelna f
-    f4 f f f( e d) f e( f) e e \barFinalis
-
-    % Slava
-    a4 a c b g g( a) a \barMin a g f e( f) e4. e \barFinalis
-  }
-  \addlyrics {
-    \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
-    vše -- chno jsi mou -- dře u -- či -- nil.
-    \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
-    \Response vše -- chno jsi mou -- dře u -- či -- nil.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "IV"
-    id = "1ne-resp"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tInedeleInespResp }
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -128,7 +93,7 @@ tInedeleInespResp = \score {
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 1"
-    id = ""
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,7 +113,7 @@ tInedeleInespResp = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 2"
-    id = ""
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -168,7 +133,7 @@ tInedeleInespResp = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 3"
-    id = ""
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -192,7 +157,7 @@ tInedeleInespResp = \score {
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "mc-antvig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -229,9 +194,9 @@ tInedeleInespResp = \score {
     \choralniRezim
     g'4 f g a( c d c) a a \barMin
     b4 c b c( d) d \barMin
-    c4( b) a b g g \barMax
+    c4( b) a b g g \barMaior
     g4 f( g) a( c d c) d4.( e4.) c4 a f g \barMin
-    g4( a) a g g \barFinalis
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci
@@ -241,9 +206,11 @@ tInedeleInespResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jako tři mládenci v ohnivé peci zpívejme Bohu:
+    Požehnaný jsi, Bože. Aleluja."
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -269,48 +236,14 @@ tInedeleInespResp = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "_králem_ je neelegantní"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-tInedeleLaudResp = \score {
-  \relative c'' {
-    \choralniRezim
-
-    \neviditelna a
-    a4( c) b a a g f g( a) f( e) d \barMax
-    e4 g a f e e \barFinalis
-
-    \neviditelna d
-    d4 d d a' a c c b c a( f) e( d) \barMax
-    \neviditelna e
-    e4 g a f e e \barFinalis
-
-    a4 a c b c a a4 \barMin
-    a4 b g f e e4 \barFinalis
-  }
-  \addlyrics {
-    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
-    smi -- luj se nad ná -- mi.
-
-    \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
-    \Response smi -- luj se nad ná -- mi.
-
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "III"
-    id = "rch-resp"
-    fons = "postní neděle, ranní chvály (změněn verš)"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tInedeleLaudResp }
-
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
+\noPageBreak
 
 \score {
   \relative c' {
@@ -322,7 +255,7 @@ tInedeleLaudResp = \score {
     g a f f \barFinalis
   }
   \addlyrics {
-    U -- tí -- kej -- me se k_Hos -- po -- di -- nu,
+    U -- tí -- kej -- me se k_Hos -- po -- di -- nu;
     je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky. A -- le -- lu -- ja.
   }
   \header {
@@ -330,6 +263,7 @@ tInedeleLaudResp = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-I"
+    placet = "nepřirozená, zejm. začátek"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -372,10 +306,12 @@ tInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Děkuji ti, Hospodine, žes mě vyslyšel. Aleluja."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
+    placet = "není špatná, ale na modus VI zbytečně velký rozsah"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -419,8 +355,8 @@ tInedeleIInespAntI = \score {
   }
   \header {
     quid = "2. ant."
-    modus = "per"
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 114"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -450,40 +386,3 @@ tInedeleIInespAntIII = \score {
 
 \score { \tInedeleIInespAntIII }
 
-tInedeleIInespResp = \score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f4 g a a a a a c c c a( g) a \barMax
-    a4 b c a( g) g g f g a f e d d \barFinalis
-
-    % V
-    \neviditelna a
-    a'4 f( g) a( c) c4. b4 c d c b c a4. a \barMax
-    % R
-    \neviditelna a
-    a4 b c a( g) g g f g a f e d d \barFinalis
-
-    % Slava
-    a'4 a a( c) c \barMin
-    c b( c) a \barMin
-    a b g f( g) a4. a \barFinalis
-  }
-  \addlyrics {
-    \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
-    Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-    \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
-    \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "I"
-    id = "2ne-resp"
-    piece = \markup {\sestavTitulekResp}
-  }
-}
-
-\score { \tInedeleIInespResp }

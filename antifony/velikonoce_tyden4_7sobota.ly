@@ -7,9 +7,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f a a a g a c( d c4.) c \barMin
-    c4 d d d \barMaior
-    c a a( g) g \barFinalis
+    g4 c b a g a b g g \barMin
+    a g f( g) g \barMaior
+    e f g( a) g \barFinalis
   }
   \addlyrics {
     Jak vel -- ko -- le -- pá_* jsou tvá dí -- la,
@@ -18,11 +18,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 92"
     id = "rch-a1"
-    placet = "R"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -30,8 +29,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( g d') c( a b) g g \barMin g( f e) d f g( a g) g \barMaior
-    g g( a) g g \barFinalis
+    c4 b a4. g \barMin a4 g f g( a) g \barMaior
+    f g g g \barFinalis
   }
   \addlyrics {
     Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
@@ -40,10 +39,9 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Ex 36"
     id = "rch-a2"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -51,10 +49,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( g) f g f( d) d \barMax
+    a( g) f g f( d) d \barMaior
     d d f g a g g \barMaior
-    g f( g f) e c( d) d \barMax
-    c d d( e) d \barFinalis
+    f g f e( d c) c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Všech -- no je na -- še,_*

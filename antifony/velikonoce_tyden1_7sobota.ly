@@ -5,24 +5,25 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 a b g g \barMaior
-    g f g g g a( b) a a g g \barMaior
-    a f( a) g g \barFinalis
+    f4 f f e( d) e \barMaior
+    e f g a g \barMin
+    a( g f) d d e e \barMaior
+    f f e( d) e \barFinalis
   }
   \addlyrics {
     Smi -- luj se, Bo -- že,_*
-    a o -- tev -- ři mi ces -- tu k_ži -- vo -- tu.
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -30,11 +31,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d) c c( d) \barMaior
-    d e d( c) d d( c) c \barMaior
-    c( d) c( a) a b a g a( b) g e e \barMaior
-    e g( a) a b( a b) a( g) g( a) a \barMaior
-    a b( a) g( a) a \barFinalis
+    a4 a( d) c c( d) \barMin
+    d d e d c( d) c \barMaior
+    c a a c b c a g a g \barMaior
+    f g a b( c) a a( g) f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kdo zví -- tě -- zí,_*
@@ -46,11 +47,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ex 15"
     id = "rch-a2"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -58,9 +58,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c) d f e f g g \barMaior
-    g f g( a f) e c d d \barMaior
-    d( f) e c( d) d \barFinalis
+    d4 d f e f f( g) g \barMaior
+    g f a g f e d \barMin
+    e c d d \barFinalis
   }
   \addlyrics {
     Moc -- ně vlád -- ne nad ná -- mi_*
@@ -69,11 +69,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 117"
     id = "rch-a3"
-    placet = "r"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -5,10 +5,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a( bes) a a a g f g4.( a) \barMin
-    a4 a a( bes) a( d,) d e f d d \barMax
-    d d d d f( e) f g( a g) f g( a) a a \barMin
-    a a( g) f e4.( d) d4 e( c) d( e d) d \barFinalis
+    f4 f g a( bes) a a g f g g( a) \barMaior
+    a f e d d e f d d \barMax
+    c d f e f g f e c d d( c) \barMaior
+    f g f d d e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
@@ -63,14 +63,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d) c d4. a \barMin a4 a( b) g g( a) a \barMaior
-    a a a( g) f e( f d4.) d \barMin f4 e( d) f e g( a) a \barMaior
-    a g4.( a) \barMin a4 b( c) c( d e) d( c) c4.( d) \barMin d4 c( b) a( b g a) a \barFinalis
+    a( d) c d d \barMin
+    d d( e) c c( d) d \barMaior
+    d c( b) a g a a \barMin
+    g a c d d( c) d \barMaior
+    d c( d) \barMin
+    d e( f) d c d( c) \barMin
+    a g( a) c( b a) a \barFinalis
   }
   \addlyrics {
-    Bdi nad ná -- mi, náš Spa -- si -- te -- li,
-    ať nás ne -- pře -- mů -- že lsti -- vý po -- ku -- ši -- tel;
-    vždyť ty jsi náš po -- moc -- ník v_kaž -- dé do -- bě.
+    Bdi nad ná -- mi,
+    náš Spa -- si -- te -- li,
+    ať nás ne -- pře -- mů -- že
+    lsti -- vý po -- ku -- ši -- tel;
+    vždyť ty
+    jsi náš po -- moc -- ník
+    v_kaž -- dé do -- bě.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -87,21 +95,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a g( a) b( c) c \barMaior
-    c c c d( a) a \barMin c( b) a g g( a g) g \barMax
-    a( c) c c c c b c d( c) b( a) a \barMaior
-    a a( b a) g( f) e e e( f) e4. e \barFinalis
+    g4 g g g f g g( a) a a \barMaior
+    c c c b( a) g \barMin
+    f( g) a a g g \barMaior
+    f a c c d c d c( b) a a \barMaior
+    a c b a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš byl před ni -- mi pro -- mě -- něn
-    a je -- ho o -- děv zá -- ři -- vě zbě -- lel.
+    a je -- ho o -- děv
+    zá -- ři -- vě zbě -- lel.
     Zje -- vil se jim E -- li -- áš s_Moj -- ží -- šem
     a roz -- mlou -- va -- li s_Je -- ží -- šem.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -109,19 +119,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g f g g( a) a \barMaior
-    g4( bes a) a \barMin a g( d) d f e d d \barFinalis
+    f4 g a a g f g g \barMaior
+    f( g a) g \barMin
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
-    Mis -- tře, je do -- bře, že jsme ta -- dy.
+    Mis -- tře,
+    je do -- bře, že jsme ta -- dy.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = ""
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -180,9 +192,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a a g a f4.( g) \barMin g4( bes) a4. a \barMaior
-    a4 g( a) f f4.( d) \barMin d4 c d d( f e) d d \barMax
-    d d d f( g) g( a g4.) g \barMin f4( g f) e c( d) d \barFinalis
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    d d d d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
     Zboř -- te ten -- to chrám, pra -- ví Pán,
@@ -204,18 +216,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a c c c d c b c a4. a \barMaior
-    a4 g( a) a a g( f) f( d) d \barMin
-    d e( f) e( f d) d \barFinalis
+    g4 f g a c c c d c b c a a \barMaior
+    c c c c b a g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Mno -- ho jich u -- vě -- ři -- lo v_Je -- ží -- šo -- vo jmé -- no,
-    když vi -- dě -- li zna -- me -- ní, kte -- rá ko -- nal.
+    když vi -- dě -- li zna -- me -- ní,
+    kte -- rá ko -- nal.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -230,7 +243,7 @@
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g a( c) b( c) c c d( c) b( a) a \barMax
     a a a( g) g \barMin g f g g( a) a \barMaior
-    a b c c( a) a g( a) f g( a g) g \barFinalis
+    a b c a a b a g g \barFinalis
   }
   \addlyrics {
     Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
@@ -305,17 +318,17 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e f g( a) a
-    a( b) a g g( a) a a \barMin a
-    a4 a a( e) e \barMaior
+    e4 e e f e f g( a) a \barMin
+    a( b) a g g( a) a a \barMin
+    a a a a( e) e \barMaior
     f( e f) d f f( e) e \barMax
-    e( a g) g( a) g f g4.( a) \barMaior
-    a4 g a b( g) g g( a g) f( g f e) e \barFinalis
+    e( a g) a( b) a g g( a) \barMaior
+    a a a g( a) g f e e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že pše -- nič -- né zr -- no
-    ne -- pad -- ne do ze -- mě a
-    ne -- o -- du -- mře,
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
     zů -- sta -- ne sa -- mo;
     o -- du -- mře -- -li však,
     při -- ne -- se hoj -- ný u -- ži -- tek.
