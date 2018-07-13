@@ -158,7 +158,7 @@ Verse = \lyricmode {
     \choralniRezim
     c4( b) c( d)
     d4 d-! \parenthesize c c \barMin
-    d4 f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b( a) \barFinalis
   }
   \header {
@@ -251,7 +251,7 @@ Verse = \lyricmode {
   }
   \header {
     quid = "resp."
-    modus = "VI"
+    %modus = "VI"
     id = "2so-rch"
     piece = \markup\sestavTitulekResp
   }
@@ -285,7 +285,7 @@ Verse = \lyricmode {
     }
     \header {
       quid = "resp."
-      modus = "VI"
+      %modus = "VI"
       id = "2ct-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -321,14 +321,13 @@ Verse = \lyricmode {
   }
   \header {
     quid = "resp."
-    modus = "VI"
+    %modus = "VI"
     id = "1po-rch"
     piece = \markup\sestavTitulekResp
   }
 }
 
 \markup\nadpisDen{"sobota 25. 8."}
-\markup\nadpisSvatek{"sv. Pěti bratří, mučedníků"}
 
 \score {
   \relative c' {
@@ -355,7 +354,7 @@ Verse = \lyricmode {
   }
   \header {
     quid = "resp."
-    modus = "VI"
+    %modus = "VI"
     id = "1ut-rch"
     piece = \markup\sestavTitulekResp
   }
@@ -389,7 +388,7 @@ Verse = \lyricmode {
     }
     \header {
       quid = "resp."
-      modus = "VI"
+      %modus = "VI"
       id = "1ne-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -438,14 +437,14 @@ Verse = \lyricmode {
     a4 b g f g g( a) a \barMax
     g a c c d( e) d c( b a4.) g \barMin
     f4 g g a g a g f e e e \barFinalis
-    f^\rubrVelikAleluja f( g) e4. e \barFinalis
+    %f^\rubrVelikAleluja f( g) e4. e \barFinalis
   }
   \addlyrics {
     O -- pat -- ruj nás, Bo -- že, když bdí -- me,_*
     a -- by -- chom bdě -- li s_Kris -- tem,
     a o -- chra -- ňuj nás, když spí -- me,
     a -- by -- chom od -- po -- čí -- va -- li v_po -- ko -- ji.
-    A -- le -- lu -- ja.
+    %A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Nunc dimittis"
