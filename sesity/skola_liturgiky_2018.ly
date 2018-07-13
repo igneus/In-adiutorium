@@ -233,29 +233,29 @@ Asterisk = \markup\small{"✻"}
 
     % R
     \neviditelna f
-    f4 f f g f f f g( a) a( g) \barMax
-    f g a g( f) f \barFinalis
+    f4 f f g f f g f g( a) a( g) \barMax
+    g g f d f g g( f) f \barFinalis
     % V
-    \neviditelna g
-    a g( a) g \barMin g g g g g g f g( a) a( g) \barMax
+    \neviditelna a
+    a a a a g f g( a) g g \barMax
     % R
-    \neviditelna g
-    f g a g( f) f \barFinalis
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Bu -- du tě o -- sla -- vo -- vat, Bo -- že,_*
-    bu -- du ti zpí -- vat.
-    \Verse Můj ja -- zyk bu -- de chvá -- lit tvou spra -- ve -- dl -- nost,_*
-    \Response bu -- du ti zpí -- vat.
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
     %modus = "VI"
-    id = "2so-rch"
-    piece = \markup\sestavTitulekResp
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
@@ -304,63 +304,65 @@ Asterisk = \markup\small{"✻"}
 
     % R
     \neviditelna f
-    f4 f f f f g( f) g( a) a( g) \barMax
-    g( f d) f g g f f \barFinalis
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g g g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % V
     \neviditelna a
-    a a a a a( bes) a( g) g( a) a( g) \barMax
+    a( bes) a a g( a) g f g( a) a( g) \barMax
     % R
-    \neviditelna g
-    g( f d) f g g f f \barFinalis
+    \neviditelna a
+    g g g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
-    \Verse Je -- nom on sám ko -- ná di -- vy_*
-    \Response od vě -- ků na vě -- ky.
+    \Response Po -- slals je do ce -- lé -- ho svě -- ta, Bo -- že,_*
+    a -- by u -- či -- li a ved -- li tvůj lid.
+    \Verse Svě -- řils jim pas -- týř -- skou služ -- bu,_*
+    \Response a -- by u -- či -- li a ved -- li tvůj lid.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
     %modus = "VI"
-    id = "1po-rch"
-    piece = \markup\sestavTitulekResp
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
   }
 }
 
 \markup\nadpisDen{"sobota 25. 8."}
 
 \score {
-  \relative c' {
-    \choralniRezim
+    \relative c' {
+      \choralniRezim
 
-    % R
-    \neviditelna f
-    f4 f f g( a) a( g) \barMax
-    g( f d) f g g f f \barFinalis
-    % V
-    \neviditelna a
-    a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
-    % R
-    \neviditelna g
-    g( f d) f g g f f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
+      % R
+      \neviditelna f
+      f4 f f g f f f g( a) a( g) \barMax
+      f g a g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a g( a) g \barMin g g g g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f g a g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bu -- du tě o -- sla -- vo -- vat, Bo -- že,_*
+      bu -- du ti zpí -- vat.
+      \Verse Můj ja -- zyk bu -- de chvá -- lit tvou spra -- ve -- dl -- nost,_*
+      \Response bu -- du ti zpí -- vat.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      %modus = "VI"
+      id = "2so-rch"
+      piece = \markup\sestavTitulekResp
+    }
   }
-  \addlyrics {
-    \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
-    \Verse On je mé ú -- to -- čiš -- tě, můj za -- chrán -- ce,_*
-    \Response k_ně -- mu se u -- tí -- kám.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    %modus = "VI"
-    id = "1ut-rch"
-    piece = \markup\sestavTitulekResp
-  }
-}
 
 \markup\nadpisDen{"neděle 26. 8."}
 
@@ -463,8 +465,8 @@ Asterisk = \markup\small{"✻"}
   \relative c'' {
     \choralniRezim
     g4 a( c)
-    c4 c c-! \parenthesize a a \barMin
-    c4 c d-! \parenthesize c c \parenthesize c \stemUp b(-! a) c \barMaior
+    c4 c c-! \parenthesize a a \mark\markup\Dagger \barMin
+    c4 c d-! \parenthesize c c \parenthesize c \stemUp b(-! a) c \mark\markup\Asterisk \barMaior
     c4 c a c-! \parenthesize c b( a) \barFinalis
   }
   \header {
