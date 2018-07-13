@@ -493,14 +493,14 @@
 
     % R
     \neviditelna f
-    f4 f f e f f g f g( a) a( g) \barMax
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    f4 f f g f f g f g( a) a( g) \barMax
+    g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a( bes) a a a g f g( a) g g \barMax
+    a a a a g f g( a) g g \barMax
     % R
     \neviditelna a
-    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -514,7 +514,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "r druhou půli repetendy"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -530,7 +529,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f g f g g( f) \barMaior
+    f4 f f f f f f f g f \barMaior
     f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V

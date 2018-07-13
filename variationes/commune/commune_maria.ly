@@ -1484,6 +1484,107 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
     % R
     \neviditelna f
+    f4 f f e f f g f g( a) a( g) \barMax
+    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a a g f g( a) g g \barMax
+    % R
+    \neviditelna a
+    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "r druhou půli repetendy"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka g f f g f g( a) a( g) \barMax
+    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a a g f g( a) g g \barMax
+    % R
+    \neviditelna a
+    g( a) g g \barMin g( a) g( f d) f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f g f g( a) a( g) \barMax
+    \mark\sipka g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a a a a g f g( a) g g \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    % R
+    \neviditelna f
     f4 f f f f f g f g g( f) \barMaior
     f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
@@ -1514,12 +1615,46 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f f f f f g f g g( f) \barMaior
+    f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f \mark\sipka e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;
+    od vě -- ků měl s_ní své plá -- ny._* \textRespAleluja
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka f f g f \barMaior
     f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V

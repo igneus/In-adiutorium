@@ -829,6 +829,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -854,15 +855,51 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g \mark\sipka g g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a g( a) g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka g g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Po -- slals je do ce -- lé -- ho svě -- ta, Bo -- že,_*
+    a -- by u -- či -- li a ved -- li tvůj lid.
+    \Verse Svě -- řils jim pas -- týř -- skou služ -- bu,_*
+    \Response a -- by u -- či -- li a ved -- li tvůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -889,10 +926,46 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f \mark\sipka f f g f \barMaior
+    f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f \mark\sipka f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Po -- slals je do ce -- lé -- ho svě -- ta, Bo -- že,
+    a -- by u -- či -- li a ved -- li tvůj lid._* \textRespAleluja
+    \Verse Svě -- řils jim pas -- týř -- skou služ -- bu,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
