@@ -76,6 +76,8 @@ Verse = \lyricmode {
   }
 }
 
+Asterisk = \markup\small{"✻"}
+
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
    (interpret-markup layout props
@@ -93,8 +95,8 @@ Verse = \lyricmode {
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a-! \parenthesize g g \barMin
-    a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
+    a4 a-! \parenthesize g g \mark\markup\Dagger \barMin
+    a4 a bes-! \parenthesize a a g-! \parenthesize a a \mark\markup\Asterisk \barMaior
     a4 a g f g(-! a) \parenthesize g g \barFinalis
   }
   \header {
@@ -109,8 +111,8 @@ Verse = \lyricmode {
   \relative c' {
     \choralniRezim
     c4 d
-    f4 f f-! \parenthesize d d \barMin
-    f4 f g-! \parenthesize f f \barMaior
+    f4 f f-! \parenthesize d d \mark\markup\Dagger \barMin
+    f4 f g-! \parenthesize f f \mark\markup\Asterisk \barMaior
     f4 f e c-! \parenthesize d d \barFinalis
   }
   \header {
@@ -125,8 +127,8 @@ Verse = \lyricmode {
   \relative c' {
     \choralniRezim
     f4 a
-    c4 c c-! \parenthesize a a \barMin
-    c4 c d-! \parenthesize c c \barMaior
+    c4 c c-! \parenthesize a a \mark\markup\Dagger \barMin
+    c4 c d-! \parenthesize c c \mark\markup\Asterisk \barMaior
     c4 c d-! \parenthesize b b c-! \parenthesize a a \barFinalis
   }
   \header {
@@ -141,8 +143,8 @@ Verse = \lyricmode {
   \relative c' {
     \choralniRezim
     f4 g( a)
-    a4 a a-! \parenthesize g g \barMin
-    a4 a a g a-! \parenthesize f f \barMaior
+    a4 a a-! \parenthesize g g \mark\markup\Dagger \barMin
+    a4 a a g a-! \parenthesize f f \mark\markup\Asterisk \barMaior
     a4 a f g( a) g-! \parenthesize f f \barFinalis
   }
   \header {
@@ -157,8 +159,8 @@ Verse = \lyricmode {
   \relative c'' {
     \choralniRezim
     c4( b) c( d)
-    d4 d-! \parenthesize c c \barMin
-    d4 f-! \parenthesize e e d-! \parenthesize e e \barMaior
+    d4 d-! \parenthesize c c \mark\markup\Dagger \barMin
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \mark\markup\Asterisk \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b( a) \barFinalis
   }
   \header {
@@ -173,8 +175,8 @@ Verse = \lyricmode {
   \relative c'' {
     \choralniRezim
     g4 a
-    c4 c c-! \parenthesize a a \barMin
-    c4 c d-! \parenthesize c c \barMaior
+    c4 c c-! \parenthesize a a \mark\markup\Dagger \barMin
+    c4 c d-! \parenthesize c c \mark\markup\Asterisk \barMaior
     c4 c b c a-! \parenthesize g g \barFinalis
   }
   \header {
