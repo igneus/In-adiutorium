@@ -13,14 +13,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a g g \barMin a g f g a g f d d \barMaior
-    d c d f( g) g f g g( a) g f f \barFinalis
+    f4 a g g \barMin
+    a g f g a g f d d \barMaior
+    d c d f( g) g \barMin
+    f g g( a) g f f \barFinalis
 
     d^\markup\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
-    Ke kaž -- dé -- mu, kdo se ke mně při -- zná před lid -- mi,
-    i já se při -- znám před svým Ot -- cem v_ne -- bi.
+    Ke kaž -- dé -- mu,
+    kdo se ke mně při -- zná před lid -- mi,
+    i já se při -- znám
+    před svým Ot -- cem v_ne -- bi.
 
     A -- le -- lu -- ja.
   }
@@ -29,7 +33,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-I.II"
-    placet = "cezuru po _i ja se priznam_"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -42,14 +45,12 @@
     a a a g a g( f) f \barMax
     d f g g g f g g( a) f f \barFinalis
 
-    a(^\markup\rubrVelikAleluja bes) a a \barMin
-    g a g( f) f \barFinalis
+    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
   }
   \addlyrics {
     Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
-    a -- le bu -- de mít svět -- lo \markup{\Dagger ži} -- vo -- ta.
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
 
-    \markup{\Dagger ži} -- vo -- ta.
     A -- le -- lu -- ja.
   }
   \header {
@@ -57,10 +58,8 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
-    placet = "pro nevelikonoční variantu zkusit uspokojivější závěr"
     id = "1ne-a2"
     fial = "antifony/tyden3_4streda.ly#up-ant1?upraveno"
-    fons = "upraveno z: žaltář, středa 3. týdne, uprostřed dne, 1. ant."
     piece = \markup {\sestavTitulek}
   }
 }
