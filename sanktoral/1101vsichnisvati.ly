@@ -30,9 +30,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 113"
-    placet = "aleluja snad g ga g g"
     id = "1ne-a1"
-    fons = "commune jednoho muč., 1. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
     piece = \markup {\sestavTitulek}
   }
@@ -311,9 +309,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
-    placet = "začátek zní značně nepřirozeně, je to násilný pokus o zvukomalbu"
     id = "rch-a1"
-    fons = "commune jeden muč., 2. nešp., k Magnificat"
     fial = "fial://commune/commune_jedenmucednik.ly#2ne-amag"
     piece = \markup {\sestavTitulek}
   }

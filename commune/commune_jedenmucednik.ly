@@ -243,6 +243,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "aleluja snad g ga g g; moc nesedí v modu"
     id = "1ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -788,7 +789,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_dosáhli_ je nepěkné"
+    placet = "_dosáhli_ zní značně nepřirozeně, je to násilný pokus o zvukomalbu"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
