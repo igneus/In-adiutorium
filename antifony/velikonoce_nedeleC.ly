@@ -53,6 +53,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    notice = "_přistoupil k nim a podal jim_ je zvlášť škaredé"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
