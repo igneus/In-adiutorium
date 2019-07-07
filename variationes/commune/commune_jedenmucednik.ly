@@ -12,6 +12,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 a g g \barMin a g f g a g f d d \barMaior
     d c d f( g) g f g g( a) g f f \barFinalis
@@ -36,6 +37,38 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 a g g \barMin
+    a g f g a g f d d \barMaior
+    d c d f( g) g \mark\sipka \barMin
+    f g g( a) g f f \barFinalis
+
+    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ke kaž -- dé -- mu,
+    kdo se ke mně při -- zná před lid -- mi,
+    i já se při -- znám
+    před svým Ot -- cem v_ne -- bi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-I.II"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( g) f f( g) g \barMin
     a a a g a g( f) f \barMax
@@ -61,6 +94,35 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMax
+    d f g g g f g g( a) f f \barFinalis
+
+    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?upraveno"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

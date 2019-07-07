@@ -13,8 +13,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f g f e( f e) d e \barMaior
-    e d d f d c c( d) d \barFinalis
+    d4 d d e f g f e( f) d c \barMaior
+    d d e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,
@@ -26,7 +26,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "nic moc"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -35,24 +34,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d) c b c d d c b a a \barMaior
-    a a a a d c( d) d d c b c( d) d \barMaior
-    a a a d c d c( b) a( g) g \barMaior
-    f f g a c b g a( g) g \barFinalis
+    c4 c c b g b c a a g g \barMaior
+    a a a g f g( a) a a c b c( d) d \barMaior
+    d d c d c b a g g \barMin
+    a g f a c b a g g \barFinalis
   }
   \addlyrics {
     Bůh ur -- čil jed -- ny za mi -- si -- o -- ná -- ře,
     ji -- né pak za pas -- tý -- ře a u -- či -- te -- le,
     a -- by při -- pra -- vi -- li křes -- ťa -- ny
-    k_ú -- ko -- lům,
-    kte -- ré ma -- jí pl -- nit.
+    k_ú -- ko -- lům, kte -- ré ma -- jí pl -- nit.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "hrůza"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
