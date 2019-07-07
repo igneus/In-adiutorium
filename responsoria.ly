@@ -10,7 +10,7 @@
 
 \paper {
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
-  markup-markup-spacing #'minimum-distance = #5
+  markup-markup-spacing.minimum-distance = #5
 }
 
 % Normalne u responsorii nejsou doxologie, protoze jsou stale stejne
