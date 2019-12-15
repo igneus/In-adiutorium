@@ -1,4 +1,4 @@
-\version "2.21.0"
+\version "2.19.0"
 
 % globalni nastaveni \layout a \paper pouzivane vetsinou not
 
