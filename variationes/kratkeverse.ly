@@ -304,6 +304,19 @@ V latinském textu Magnificat je totiž tento problém také.
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) a( c) c \barMax
+  }
+  \addlyrics {
+    Ve -- le -- bí_*
+  }
+  \header {
+    id = "magnificat_IV"
+  }
+}
+
 \pageBreak
 
 \markup\subsekce{modus VI}
