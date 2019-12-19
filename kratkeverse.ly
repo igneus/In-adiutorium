@@ -285,7 +285,7 @@ V latinském textu Magnificat je totiž tento problém také.
     Ve -- le -- bí_*
   }
   \header {
-    id = "magnificat_IV"
+    id = "magnificat_V"
   }
 }
 
@@ -299,7 +299,7 @@ V latinském textu Magnificat je totiž tento problém také.
     Ve -- le -- bí_*
   }
   \header {
-    id = "magnificat_IV"
+    id = "magnificat_VI"
   }
 }
 
@@ -313,7 +313,7 @@ V latinském textu Magnificat je totiž tento problém také.
     Ve -- le -- bí_*
   }
   \header {
-    id = "magnificat_IV"
+    id = "magnificat_VII"
   }
 }
 
@@ -327,7 +327,7 @@ V latinském textu Magnificat je totiž tento problém také.
     Ve -- le -- bí_*
   }
   \header {
-    id = "magnificat_IV"
+    id = "magnificat_VIII"
   }
 }
 
@@ -341,7 +341,7 @@ V latinském textu Magnificat je totiž tento problém také.
     Ve -- le -- bí_*
   }
   \header {
-    id = "magnificat_IV"
+    id = "magnificat_per"
   }
 }
 
