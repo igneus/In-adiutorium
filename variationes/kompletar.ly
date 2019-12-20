@@ -13,7 +13,7 @@
   ragged-last-bottom=##t
 
   % kvuli poznamce na zacatku, aby se k ni neprilepil titulek prvni antifony
-  markup-markup-spacing #'minimum-distance = #5
+  markup-markup-spacing.minimum-distance = #5
 }
 
 \markup {
