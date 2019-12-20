@@ -264,6 +264,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "nepříliš zpěvná"
     id = "predvanocni-zlm-ct-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -341,6 +342,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "začátek netypický"
     id = "predvanocni-zlm-pa-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -363,6 +365,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melismata na začátku nezpěvná"
     id = "predvanocni-zlm-pa-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
