@@ -66,7 +66,7 @@
     \relative c' {
       \choralniRezim
       d4 d f4. c \barMaior
-      d4 f e c d d \barFinalis
+      d4 d f e c d \barFinalis
     }
     \addlyrics {
       Pán je blíz -- ko,
@@ -77,10 +77,6 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "tato antifona počítá s poměrně specifickým rytmem, který není
-      zachycen v notaci a pravděpodobně ne každému bude připadat dostatečně
-      přirozený a 'chorální';
-      sám mám problém zazpívat nějak vkusně _pojďme_"
       id = "spol-invit3"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -138,7 +134,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4( g) f g a a a bes a g f g g g \barMaior
+      f4 f g a a a bes a g f g g g \barMaior
       g g f e f( g a) a
       a g a f( d) d \barMaior
       d f f f e f d d \barFinalis
@@ -154,7 +150,6 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
-      placet = "melisma na _An_ je divné; antifona jako celek spíše mdlá"
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
