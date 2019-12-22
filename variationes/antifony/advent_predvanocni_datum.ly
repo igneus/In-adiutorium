@@ -60,6 +60,28 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f f f f g f e f d d \barMaior
+    e4 d c d d4( e) \barMin
+    e4 f e \mark\sipka f d d \barFinalis
+  }
+  \addlyrics {
+    Věz -- te, že Bo -- ží krá -- lov -- ství je blíz -- ko.
+    A -- men, pra -- vím vám,
+    ne -- dá se za -- dr -- žet.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-17-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {18. prosince}}
@@ -607,7 +629,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( f f e) f( d e d) c( d) d \barMin
     d d( e) d d e( f) d e d c \barMaior
@@ -661,6 +683,40 @@ v předvánočním týdnu latinsky.}
     c4( f f e) f( d) e( d) c( d)
   }
   \addlyrics { Ó Moud -- ros -- ti }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d d( e) d d e( f) d e d c \barMaior
+    d a( d) d d \bar "" d d d d \bar "" e d e d \bar "" e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f e f g( f) d e d( c) \barMax
+    c( f) \mark\sipka e f d d( c a) \barMin
+    c( d) d f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Moud -- ros -- ti,
+    ty vy -- chá -- zíš z_úst Nej -- vyš -- ší -- ho,
+    roz -- pí -- náš se od jed -- no -- ho kon -- ce svě -- ta k_dru -- hé -- mu,
+    ty moc -- ně a mír -- ně ří -- díš všech -- no:
+    přijď a na -- uč nás
+    ces -- tě ro -- zum -- nos -- ti!
+  }
+  \header {
+    textus_approbatus = "Moudrosti, ty vycházíš z úst Nejvyššího,
+    ty se rozpínáš od jednoho konce světa k druhému,
+    ty mocně a mírně řídíš všechno:
+    přijď a nauč nás cestě rozumnosti!"
+    fons_externus = "volně podle AR1912, 205."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-17-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
 }
 
 \markup\nadpisSkupiny "O Adonai"

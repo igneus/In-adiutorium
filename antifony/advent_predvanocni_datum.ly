@@ -30,7 +30,7 @@
     d d( e) d d e( f) d e d c \barMaior
     d a( d) d d \bar "" d d d d \bar "" e d e d \bar "" e f \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f e f g( f) d e d( c) \barMax
-    c( f) f f( d) e( d) d( c a) \barMin
+    c( f) e f d d( c a) \barMin
     c( d) d f e c( e) d \barFinalis
   }
   \addlyrics {
