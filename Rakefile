@@ -26,8 +26,11 @@ task :psalmodie => 'psalmodie.ly'
 
 standalone_ly_files = `git ls-files *.ly`.split +
   `git ls-files commune/*.ly`.split +
-  `git ls-files sanktoral/*.ly`.split
+  `git ls-files sanktoral/*.ly`.split +
+  `git ls-files reholni/*/*.ly`.split
 standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
+
+all_ly_files = `git ls-files`.split.select {|f| f.end_with?('.ly') && !f.include?('variationes/') }
 
 build_standalone_ly = standalone_ly_files.collect do |source|
   target = source.sub(/\.ly$/, '.pdf')
@@ -58,6 +61,12 @@ end
 
 desc "build all sheet music"
 task :build => build_standalone_ly + [:psalmodie]
+
+task :convert_ly do
+  all_ly_files.each do |source|
+    sh 'convert-ly', '--edit', '--diff-version-update', source
+  end
+end
 
 #
 # sanity checks
