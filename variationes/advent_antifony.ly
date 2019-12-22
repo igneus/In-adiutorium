@@ -347,6 +347,46 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d f4. c \barMaior
+      d4 d f e c d \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d f e \barMaior
+      d d f e c d \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
