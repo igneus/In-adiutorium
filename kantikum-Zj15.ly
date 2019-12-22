@@ -1,4 +1,4 @@
-﻿\version "2.12.3"
+﻿\version "2.18.0"
 
 \include "spolecne.ly"
 
@@ -12,7 +12,7 @@
   \choralniRezim
 
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   g4( bes g) f f4.( g)
   \bar "|"

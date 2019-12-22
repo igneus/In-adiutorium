@@ -1,3 +1,4 @@
+\version "2.12.0"
 #(define-markup-command (titleSvatek layout props titul rank datum institut) (markup? markup? markup? markup?)
    "oproti stejnojmennemu z nadpisy.ly ma navic pole pro nazev reholni spolecnosti"
    (interpret-markup layout props

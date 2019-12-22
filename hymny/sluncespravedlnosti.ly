@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.19.80"
 
 \header {
   title = "Slunce spravedlnosti"
@@ -61,7 +61,7 @@
 \markup\huge\column {
   \line{
     \bold{2.}
-    \wordwrap-string #"
+    \wordwrap-string "
       Ty jsi to světlo světa, jež vyšlo v temnosti,
 
       svítící po vše léta nebeskou jasností
@@ -71,10 +71,10 @@
       a vnitřní obnovení dáváš nám svým Duchem."
   }
 
-  \line{ \vspace #1 }
+  \line{ \combine \null \vspace #1 }
   \line{
     \bold{3.}
-    \wordwrap-string #"
+    \wordwrap-string "
       Nauč mě tvoje slovo vždy následovati,
 
       ať mohu podle toho vše dobré konati;

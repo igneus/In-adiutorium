@@ -1,4 +1,4 @@
-\version "2.19.32"
+\version "2.19.80"
 
 \include "../../spolecne.ly"
 \include "../../spolecne/reholni.ly"
@@ -166,7 +166,7 @@
 
 \markup\wordwrap\italic{
   Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není, její znalost se zřejmě předpokládá.
-  Pro zhudebnění byl použit text nalezený na \sans\with-url #"http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz}
+  Pro zhudebnění byl použit text nalezený na \sans\with-url "http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz}
 }
 
 \score {

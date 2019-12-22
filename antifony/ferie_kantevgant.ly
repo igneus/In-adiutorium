@@ -1,3 +1,4 @@
+\version "2.12.0"
 % dvoutýdenní cyklus feriálních antifon ke kantikům z evangelií
 
 % -*- master: ../kantevgantifony.ly;

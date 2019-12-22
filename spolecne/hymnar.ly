@@ -1,3 +1,4 @@
+\version "2.18.0"
 % page style similar to that of the official Czech Divine Office hymnal
 
 \paper {
@@ -21,6 +22,6 @@
 }
 
 notime = {
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
   \cadenzaOn
 }

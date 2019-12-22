@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../mezidobi_nedele.ly;
 
 \markup {\nadpisDen {"11. neděle"}}

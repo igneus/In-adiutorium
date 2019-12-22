@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.80"
 
 \include "../../spolecne.ly"
 \include "../../spolecne/reholni.ly"
@@ -17,7 +17,7 @@
 \markup\small\justify{
   Nápěvy zpracovány s přihlédnutím
   k \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum,} vol. IV (dále AOP4;
-  \with-url #"http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf)}
+  \with-url "http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf)}
   Kde to bylo možné, byl nápěv pro český text vypracován na základě
   nápěvu jeho latinské předlohy.
 }

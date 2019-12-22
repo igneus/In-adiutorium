@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.18.0"
 
 \header {
   title = "slavnost Těla a Krve Páně"
@@ -605,7 +605,7 @@ dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
     c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
 
     f
-    \once \override Slur #'stencil = ##f
+    \once \override Slur.stencil = ##f
     \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
     \[ c d c \] \[ a g a \] \[ f g a) \]
     bes( a g f) f \barFinalis

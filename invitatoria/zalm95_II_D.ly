@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../inkubator_pro_invitatoria.ly;
 
 strofa = { \bar "||" \break }

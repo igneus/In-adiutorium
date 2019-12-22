@@ -1,4 +1,4 @@
-\version "2.19.0"
+\version "2.18.0"
 
 \include "../spolecne/tiraz.ly"
 \include "../spolecne/choral.ly"
@@ -39,7 +39,7 @@
 
 rytmusVolny = {
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   % nedelat taktove cary
   \cadenzaOn

@@ -1,4 +1,4 @@
-﻿\version "2.12.3"
+﻿\version "2.19.7"
 
 \include "spolecne.ly"
 
@@ -11,10 +11,10 @@ nastaveni = {
   \cadenzaOn
 
   % nestandartni predznamenani: snizene A (napev je z byzantske oblasti, podle irmosu na 4. hlas...)
-  \set Staff.keySignature = #`(((0 . 5) . ,FLAT))
+  \set Staff.keyAlterations = #`(((0 . 5) . ,FLAT))
 
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   \autoBeamOn
 }

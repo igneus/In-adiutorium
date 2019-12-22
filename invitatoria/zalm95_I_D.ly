@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../invitatorium_choralni.ly;
 
 % Žalm 95, tonus volně I.D podle trapistického antifonáře:

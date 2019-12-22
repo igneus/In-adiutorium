@@ -1,4 +1,4 @@
-\version "2.17.24"
+\version "2.18.0"
 
 \include "../../spolecne/layout.ly"
 \include "../../spolecne/tiraz.ly"
@@ -28,8 +28,8 @@
   ragged-bottom = ##t
 }
 
-lb = { \override LyricText #'font-series = #'bold }
-ln = { \revert LyricText #'font-series }
+lb = { \override LyricText.font-series = #'bold }
+ln = { \revert LyricText.font-series }
 
 % text aleluja
 al = \lyricmode { A -- le -- lu -- ja. \lb A -- le -- lu -- ja. \ln }

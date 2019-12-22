@@ -1,4 +1,4 @@
-\version "2.15.40"
+\version "2.18.0"
 
 \include "spolecne.ly"
 
@@ -76,9 +76,9 @@ po = \mark\markup{*}
 ve = \mark\markup{//}
 
 melodie = \relative c'' {
-  \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
+  \override Score.RehearsalMark.break-align-symbols = #'(staff-bar)
   % chci znacky na konci radku, ne na zacatku noveho
-  \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
 
   c4 c b8 g g g r4 a8 g f g g r \po
   g4 f8 g r g f g a a a( g) f g g r \ve \bar "||" \break

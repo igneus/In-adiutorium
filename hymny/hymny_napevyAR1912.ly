@@ -1,4 +1,4 @@
-\version "2.15.37"
+\version "2.18.0"
 
 \header {
   title = "Nápěvy k hymnům"
@@ -66,10 +66,10 @@ v \italic{Antiphonale Romanum 1912} (AR).
 \score {
   \relative c' {
     \choralniRezim
-    e4 c-| e g a b-| a a \barMin
-    g a-| b c-| b( g) a-| b a \barMaior
-    a a b g-| e( g) f-| e d \barMin
-    e c-| e g a b-| a a \barFinalis a( b a) g( a) \barFinalis
+    e4 c-! e g a b-! a a \barMin
+    g a-! b c-! b( g) a-! b a \barMaior
+    a a b g-! e( g) f-! e d \barMin
+    e c-! e g a b-! a a \barFinalis a( b a) g( a) \barFinalis
   }
   \addlyrics {
     Hle, z_pouš -- tě zní hlas jas -- ný dost,
@@ -95,10 +95,10 @@ v \italic{Antiphonale Romanum 1912} (AR).
 \score {
   \relative c' {
     \choralniRezim
-    c4 d e( g) g(-| f) e( d e) f-| e d \barMaior
-    c( e) g a a g a(-| b c) b( a g) a \barMax
-    a( b) g f( g) e-| d( c) d-| d( e) e \barMaior
-    c d e( g) g(-| f) e( d e) f-| e d \barFinalis
+    c4 d e( g) g(-! f) e( d e) f-! e d \barMaior
+    c( e) g a a g a(-! b c) b( a g) a \barMax
+    a( b) g f( g) e-! d( c) d-! d( e) e \barMaior
+    c d e( g) g(-! f) e( d e) f-! e d \barFinalis
   }
   \addlyrics {
     Kris -- te, Vy -- ku -- pi -- te -- li náš,

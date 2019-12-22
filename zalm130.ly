@@ -1,4 +1,4 @@
-\version "2.15.40"
+\version "2.18.0"
 
 \include "spolecne/nadpisy.ly"
 \include "spolecne/tiraz.ly"
@@ -107,9 +107,9 @@ po = {}
 ve = {}
 
 melodie = \relative c'' {
-  \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
+  \override Score.RehearsalMark.break-align-symbols = #'(staff-bar)
   % chci znacky na konci radku, ne na zacatku noveho
-  \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
 
   \key a \minor
   \time 2/4

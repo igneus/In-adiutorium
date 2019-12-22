@@ -1,3 +1,4 @@
+\version "2.12.0"
 \markup {\nadpisDen {Sobota 2. týdne}}
 
 % -*- master: ../velikonoce_zaltar.ly;

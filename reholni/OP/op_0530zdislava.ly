@@ -1,4 +1,4 @@
-\version "2.19.0"
+\version "2.18.0"
 
 \include "../../spolecne.ly"
 \include "../../spolecne/reholni.ly"
@@ -10,7 +10,7 @@
             \center-column{
               "Sv. Zdislavy z Lemberka"
               "matky rodiny, terciářky, spolupatronky provincie"
-              \vspace #1
+              \combine \null \vspace #1
             }
             "svátek/slavnost"
             30.5.

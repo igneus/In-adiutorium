@@ -1,4 +1,4 @@
-\version "2.19.0"
+\version "2.18.0"
 \include "../spolecne.ly"
 
 \bookpart {
@@ -32,7 +32,7 @@
 
 \score {
   \relative c' {
-    \override Score.TimeSignature #'stencil = ##f
+    \override Score.TimeSignature.stencil = ##f
     \cadenzaOn
     \autoBeamOff
 

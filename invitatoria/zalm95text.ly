@@ -1,3 +1,4 @@
+\version "2.12.0"
 zalmXCVtext = \lyricmode {
   Pojď -- me, já -- sej -- me Hos -- po -- di -- nu,_*
   o -- sla -- vuj -- me ská -- lu své spá -- sy,

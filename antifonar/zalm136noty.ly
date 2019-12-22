@@ -1,9 +1,10 @@
+\version "2.18.0"
 \include "../../spolecne.ly"
 
 \score {
   \relative c'' {
     \choralniRezim
-    c4^\markup{Kantor:} c\breve c4 b c a-| g4. \bar "||"
+    c4^\markup{Kantor:} c\breve c4 b c a-! g4. \bar "||"
     g4^\markup{Odpověď:} a c b a g g \breathe a f f g g \bar "||"
   }
   \addlyrics {

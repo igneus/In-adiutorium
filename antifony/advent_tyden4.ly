@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../advent_antifony.ly;
 
 \markup {\nadpisDen {4. neděle adventní}}

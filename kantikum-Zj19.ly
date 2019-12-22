@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.19.80"
 
 \header {
   title = "Kantikum podle Zj 19,1-7 (neděle, 2. nešpory)"
@@ -9,7 +9,7 @@
 \markup {
   \justify {
 Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu
-\with-url #"http://www.transitofvenus.nl/LiturgiaHorarum/" {
+\with-url "http://www.transitofvenus.nl/LiturgiaHorarum/" {
 \italic {Liturgia horarum in cantu gregoriano} (http://www.transitofvenus.nl/LiturgiaHorarum/)
   } . Rozložením refrénů se tedy drobně liší od schváleného textu českého breviáře.
 }

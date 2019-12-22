@@ -1,4 +1,4 @@
-\version "2.17.24"
+\version "2.18.0"
 
 \include "../spolecne/layout.ly"
 
@@ -34,7 +34,7 @@
 %}
 
 notime = {
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
   \cadenzaOn
 }
 

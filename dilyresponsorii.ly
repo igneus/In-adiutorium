@@ -1,3 +1,4 @@
+\version "2.12.0"
 %
 % Kousky melodie a textu hojne uzivane v responsoriich:
 %

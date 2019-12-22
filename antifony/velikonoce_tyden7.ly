@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../velikonoce_antifony.ly;
 
 \markup {\nadpisDen {7. neděle velikonoční}}

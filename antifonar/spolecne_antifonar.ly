@@ -1,3 +1,4 @@
+\version "2.19.22"
 % Verze souboru "spolecne.ly" upravena pro noty v Antifonari
 % k denni modlitbe cirkve. Neobsahuje nektere v jeho
 % kontextu zbytecne veci a jine pro jeho potreby definuje
@@ -17,9 +18,9 @@
   \context {
     \Staff
     \consists Custos_engraver
-    \override Custos #'style = #'hufnagel
+    \override Custos.style = #'hufnagel
     % klic jen na zacatku prvni radky
-    \override Clef #'break-visibility = #all-invisible
+    \override Clef.break-visibility = #all-invisible
   }
 }
 
@@ -40,16 +41,16 @@ myStaffSize = #16
 
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   % noty bez nozicek
-  \override Stem #'transparent = ##t
+  \override Stem.transparent = ##t
 
   % nedelat taktove cary
   \cadenzaOn
 
   % vzdycky vypsat becka
-  #(set-accidental-style 'forget)
+  \accidentalStyle forget
 }
 
 % Vytvori hlavicku "piece" pro antifonu
@@ -72,11 +73,11 @@ choralAutoPiece = \markup {
 % Choralni "pomlky" (divisiones)
 
 barMin = {
-  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
+  \once \override Staff.BarLine.bar-extent = #'(1.5 . 2.5)
   \bar "|"
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \once \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
   \bar "|"
 }
 barMax = { \bar "|" }
@@ -103,13 +104,13 @@ Dagger = \markup { \char ##x02020 }
 
 % prikaz pro vyrobu neviditelnych not
 
-neviditelna = #(define-music-function (parser location note)
+neviditelna = #(define-music-function (note)
                                      (ly:music?)
   #{
-    \once \override NoteHead #'transparent = ##t % hlavicka
-    \once \override Stem #'transparent = ##t % nozicka
-    \once \override Dots #'transparent = ##t % prip. prodluzujici tecka
-    \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
+    \once \override NoteHead.transparent = ##t % hlavicka
+    \once \override Stem.transparent = ##t % nozicka
+    \once \override Dots.transparent = ##t % prip. prodluzujici tecka
+    \once \override NoteHead.no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
 

@@ -1,14 +1,14 @@
-\version "2.16.0"
+\version "2.19.22"
 
 \layout {
   \context {
     \Staff
 
     \consists Custos_engraver
-    \override Custos #'style = #'hufnagel
+    \override Custos.style = #'hufnagel
 
     % klic jen na zacatku prvni radky
-    \override Clef #'break-visibility = #all-invisible
+    \override Clef.break-visibility = #all-invisible
   }
 }
 
@@ -16,27 +16,27 @@
 
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   % noty bez nozicek
-  \override Stem #'transparent = ##t
+  \override Stem.transparent = ##t
 
   % nozky maji nulovou delku a tak neovlivnuji legatove cary
   % (tento radek resi problem "vznasejicich se car")
-  \override Stem #'Y-extent = ##f
+  \override Stem.Y-extent = ##f
 
   % nedelat taktove cary
   \cadenzaOn
 
   % vzdycky vypsat becka
-  % #(set-accidental-style 'forget) % for Lily 2.14
-  \accidentalStyle "forget" % 2.15
+  % \accidentalStyle forget % for Lily 2.14
+  \accidentalStyle forget % 2.15
 }
 
 % modus a dalsi info predsazene pred osnovou --------------------
 
 choralniPredznamenaniIII =
-#(define-music-function (parser location tonus co odkaz )
+#(define-music-function (tonus co odkaz )
                         (string? string? string?)
   #{
     \set Staff.instrumentName = \markup {
@@ -45,7 +45,7 @@ choralniPredznamenaniIII =
   #})
 
 choralniPredznamenaniII =
-#(define-music-function (parser location tonus co )
+#(define-music-function (tonus co )
                         (string? string?)
   #{
     \set Staff.instrumentName = \markup {
@@ -56,11 +56,11 @@ choralniPredznamenaniII =
 % Choralni "rozdelovniky+pomlky" (divisiones) ------------------
 
 barMin = {
-  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
+  \once \override Staff.BarLine.bar-extent = #'(1.5 . 2.5)
   \bar "|"
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \once \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
   \bar "|"
 }
 barMax = { \bar "|" }
@@ -93,13 +93,13 @@ Dagger = \markup { \char ##x02020 }
 
 % prikaz pro vyrobu neviditelnych not
 
-neviditelna = #(define-music-function (parser location note)
+neviditelna = #(define-music-function (note)
                                      (ly:music?)
   #{
-    \once \override NoteHead #'transparent = ##t % hlavicka
-    \once \override Stem #'transparent = ##t % nozicka
-    \once \override Dots #'transparent = ##t % prip. prodluzujici tecka
-    \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
+    \once \override NoteHead.transparent = ##t % hlavicka
+    \once \override Stem.transparent = ##t % nozicka
+    \once \override Dots.transparent = ##t % prip. prodluzujici tecka
+    \once \override NoteHead.no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
 

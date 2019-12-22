@@ -1,3 +1,4 @@
+\version "2.12.0"
 \markup {\nadpisDen {Doplňovací cyklus pro modlitbu uprostřed dne}}
 
 % -*- master: ../antifony.ly;

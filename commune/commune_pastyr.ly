@@ -1,4 +1,4 @@
-\version "2.15.39"
+\version "2.18.0"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -751,7 +751,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g \bar ":" g( a) a\breve \bar ":"
+    g4 g \bar ";" g( a) a\breve \bar ";"
     a4 a a( b c) b c c( d) c b a a \barMaior
     g g g g( a e) \barMin
     f g a a b a c b a a \barMaior

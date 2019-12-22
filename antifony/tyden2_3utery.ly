@@ -1,3 +1,4 @@
+\version "2.12.0"
 \markup {\nadpisDen {Úterý 2. týdne}}
 
 % -*- master: ../antifony.ly;

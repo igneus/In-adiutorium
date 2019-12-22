@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../invitatorium_choralni.ly;
 
 strofa = { \bar "||" \break }

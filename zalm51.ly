@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.19.80"
 
 \header {
   title = "Žalm 51 (pátek, ranní chvály)"
@@ -9,7 +9,7 @@
 
 \markup\wordwrap {
   Nápěv psalmodie je převzatý z webu
-  \with-url #"http://www.patronagechurch.com/chant/Psalm%20Tones/Psalm%2050.htm" {
+  \with-url "http://www.patronagechurch.com/chant/Psalm%20Tones/Psalm%2050.htm" {
     http://www.patronagechurch.com/chant/Psalm%20Tones/Psalm%2050.htm
   } (29.7.2011) a má původ ve zpěvech byzantské liturgie z karpatské
   oblasti. Jen antifony jsou skutečně mé.

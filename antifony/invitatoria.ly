@@ -1,3 +1,4 @@
+\version "2.12.0"
 % antifony invitatoria ze zaltare - dvoutydenni cyklus
 
 % -*- master: ../antifony.ly;

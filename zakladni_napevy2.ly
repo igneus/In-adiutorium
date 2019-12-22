@@ -1,4 +1,4 @@
-\version "2.17.6"
+\version "2.18.0"
 
 \include "spolecne/tiraz.ly"
 
@@ -33,7 +33,7 @@
 
 \score {
   \relative c' {
-    \override Score.TimeSignature #'stencil = ##f
+    \override Score.TimeSignature.stencil = ##f
     \cadenzaOn
     \set melismaBusyProperties = #'()
 
@@ -50,7 +50,7 @@
     chraň nás vše -- ho zlé -- _ ho,
     a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
 
-    \override LyricText #'font-series = #'bold
+    \override LyricText.font-series = #'bold
     A -- _ men.
   }
   \header {

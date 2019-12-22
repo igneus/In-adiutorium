@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.18.0"
 
 \include "../spolecne/nadpisy.ly"
 \include "../spolecne/tiraz.ly"
@@ -58,7 +58,7 @@
   \relative c' {
     \key a \minor
     \time 4/4
-    \override Beam #'breakable = ##t
+    \override Beam.breakable = ##t
     \set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)
 
     \autoBeamOff

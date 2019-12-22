@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.18.0"
 
 % Obsahove se shoduje s ../kantikum-Zj19.ly ,
 % lisi se tim, ze nema zadny text v \markup a v nekterych nastavenich
@@ -34,7 +34,7 @@ alal = \lyricmode { \DoubleResponse }
     \neviditelna f
     f f f f f f f f f e g a
 
-    \override Staff.Clef #'stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
+    \override Staff.Clef.stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
 
     \imal
     \neviditelna f

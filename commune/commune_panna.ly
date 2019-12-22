@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.18.0"
 
 \include "../spolecne.ly"
 \include "../dilyresponsorii.ly"
@@ -543,7 +543,7 @@
   \relative c'' {
     \choralniRezim
     a4 g( f)
-    \bar ":" g\breve \bar ":"
+    \bar ";" g\breve \bar ";"
     f4 g a g f g g( f d) \barMaior
     g g( a c) a g a g f( g) f \barMaior
     e f g g( a) g \barMin

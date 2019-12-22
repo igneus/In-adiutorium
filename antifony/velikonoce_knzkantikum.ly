@@ -1,3 +1,4 @@
+\version "2.12.0"
 % -*- master: ../velikonoce_zaltar.ly;
 
 % Antifony k nz kantikum nespor se opakuji v dvoutydennim

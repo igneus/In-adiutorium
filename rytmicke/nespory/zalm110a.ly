@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.18.0"
 
 \include "../../spolecne/layout.ly"
 \include "../../spolecne/tiraz.ly"
@@ -81,9 +81,9 @@ po = \mark\markup{*}
 ve = \mark\markup{//}
 
 melodie = \relative c' {
-  \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
+  \override Score.RehearsalMark.break-align-symbols = #'(staff-bar)
   % chci znacky na konci radku, ne na zacatku noveho
-  \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   
   \key f \major
   

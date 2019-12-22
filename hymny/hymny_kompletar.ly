@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.80"
 
 \include "../spolecne.ly"
 
@@ -262,7 +262,7 @@
     }
     \line{
       Nápěv: otištěný ve článku
-      \with-url #"" {
+      \with-url "" {
         VILLIERS Henri Adam de:
         \italic{Christe Qui Lux es et Dies - An Ancient Hymn for Compline during Lent}
       }

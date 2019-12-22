@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.18.0"
 
 \include "spolecne/tiraz.ly"
 \include "spolecne/choral.ly"
@@ -75,13 +75,13 @@ znLid = \markup\small\bold\italic{L}
 
 choralniRezimKancional = {
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   % nedelat taktove cary
   \cadenzaOn
 
   % vzdycky vypsat becka
-  \accidentalStyle "forget"
+  \accidentalStyle forget
 }
 
 \markup\justify\large{
@@ -391,16 +391,16 @@ choralniRezimKancional = {
   \score {
     \relative c' {
       \choralniRezimKancional
-      e\breve e8 d \bar ":"
+      e\breve e8 d \bar ";"
       e\breve g8 \parenthesize g f e e \bar "|"
       d\breve f8 e d d \parenthesize d r \bar "||"
     }
     \addlyrics {
-      \once \override LyricText #'self-alignment-X = #LEFT
+      \once \override LyricText.self-alignment-X = #LEFT
       "Kristus trpěl" za \markup{nás \Dagger}
-      \once \override LyricText #'self-alignment-X = #LEFT
+      \once \override LyricText.self-alignment-X = #LEFT
       "a zanechal" \markup\underline{nám} \skip1 tak pří -- klad,_*
-      \once \override LyricText #'self-alignment-X = #LEFT
+      \once \override LyricText.self-alignment-X = #LEFT
       "abychom šli" \markup\underline{v je} -- ho šlé -- pě -- jích.
     }
     \header {

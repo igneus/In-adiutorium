@@ -1,4 +1,4 @@
-\version "2.19.16"
+\version "2.19.80"
 
 \include "../spolecne.ly"
 
@@ -12,7 +12,7 @@
       \projectUrl
     }
 
-    \line\with-url #"http://creativecommons.org/licenses/by-sa/3.0/deed.en" {
+    \line\with-url "http://creativecommons.org/licenses/by-sa/3.0/deed.en" {
       license CC BY-SA 3.0
     }
   }

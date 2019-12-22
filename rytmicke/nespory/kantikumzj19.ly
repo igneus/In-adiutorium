@@ -1,4 +1,4 @@
-\version "2.17.24"
+\version "2.18.0"
 
 \include "../../spolecne/layout.ly"
 \include "../../spolecne/tiraz.ly"
@@ -28,8 +28,8 @@
   ragged-bottom = ##t
 }
 
-lb = { \override LyricText #'font-series = #'bold }
-ln = { \revert LyricText #'font-series }
+lb = { \override LyricText.font-series = #'bold }
+ln = { \revert LyricText.font-series }
 
 % text aleluja
 al = \lyricmode { \lb A -- le -- lu -- ja. \ln }
@@ -85,9 +85,9 @@ mal = \relative c'' { c4 a8 f g2 \bar "||" }
 malal = \relative c'' { e4 d8 c a2 g8 a a( g) g2 \bar "||" }
 
 melodie = \relative c'' {
-  \override Score.RehearsalMark #'break-align-symbols = #'(staff-bar)
+  \override Score.RehearsalMark.break-align-symbols = #'(staff-bar)
   % chci znacky na konci radku, ne na zacatku noveho
-  \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
 
   \time 2/4
   % Vitezstvi

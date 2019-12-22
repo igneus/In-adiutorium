@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.19.80"
 
 
 dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
@@ -7,12 +7,12 @@ rok = #(strftime "%Y" (localtime (current-time)))
 projectUrl = #"http://www.inadiutorium.cz"
 
 sazeciProgram = \markup {
-  \with-url #"http://lilypond.org" {
+  \with-url "http://lilypond.org" {
     LilyPond \simple #(lilypond-version) (http://lilypond.org)
   }
 }
 licenceCcAsU = \markup {
-  \with-url #"http://creativecommons.org/licenses/by-sa/3.0/deed.cs" {
+  \with-url "http://creativecommons.org/licenses/by-sa/3.0/deed.cs" {
     Creative Commons Attribution-ShareAlike 3.0 Unported
   }
 }

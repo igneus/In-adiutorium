@@ -1,4 +1,4 @@
-\version "2.15.34"
+\version "2.19.22"
 
 % vypnout cisla taktu na zacatku radku
 \layout {
@@ -10,10 +10,10 @@
   \context {
     \Score
     \remove Bar_number_engraver
-    \override LyricText #'self-alignment-X = #LEFT
+    \override LyricText.self-alignment-X = #LEFT
 
     % klic jen na zacatku prvni radky
-    \override Clef #'break-visibility = #all-invisible
+    \override Clef.break-visibility = #all-invisible
   }
 }
 
@@ -59,14 +59,14 @@ sestavTitulekResp = \markup {
 
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
-  \override Score.TimeSignature #'stencil = ##f
+  \override Score.TimeSignature.stencil = ##f
 
   % noty bez nozicek
-  \override Stem #'transparent = ##t
+  \override Stem.transparent = ##t
 
   % nozky maji nulovou delku a tak neovlivnuji legatove cary
   % (tento radek resi problem "vznasejicich se car")
-  \override Stem #'Y-extent = ##f
+  \override Stem.Y-extent = ##f
 
   \stemUp % prizvukove carky budou vzdy pod notami, ne nad nimi
 
@@ -74,8 +74,7 @@ choralniRezim = {
   \cadenzaOn
 
   % vzdycky vypsat becka
-  % #(set-accidental-style 'forget) % for Lily 2.14
-  \accidentalStyle "forget" % 2.15
+  \accidentalStyle forget
 }
 
 % Choralni "pomlky" (divisiones)
@@ -85,7 +84,7 @@ barMin = {
   \bar ""
 }
 barMaior = {
-  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \once \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
   \bar "|"
 }
 barMax = { \bar "|" }
@@ -119,18 +118,18 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 % prikaz pro vyrobu neviditelnych not
 
-neviditelna = #(define-music-function (parser location note)
+neviditelna = #(define-music-function (note)
                                      (ly:music?)
   #{
-    \once \override NoteHead #'transparent = ##t % hlavicka
-    \once \override Stem #'transparent = ##t % nozicka
-    \once \override Dots #'transparent = ##t % prip. prodluzujici tecka
-    \once \override NoteHead #'no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
+    \once \override NoteHead.transparent = ##t % hlavicka
+    \once \override Stem.transparent = ##t % nozicka
+    \once \override Dots.transparent = ##t % prip. prodluzujici tecka
+    \once \override NoteHead.no-ledgers = ##t % prip. pridane linky, je-li nota mimo osnovu
     $note
   #})
 
 % Na znackovani textu:
-li = { \override LyricText #'font-shape = #'italic }
-lb = { \override LyricText #'font-series = #'bold }
-ln = { \revert LyricText #'font-shape
-        \revert LyricText #'font-series }
+li = { \override LyricText.font-shape = #'italic }
+lb = { \override LyricText.font-series = #'bold }
+ln = { \revert LyricText.font-shape
+        \revert LyricText.font-series }

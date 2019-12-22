@@ -1,3 +1,4 @@
+\version "2.12.0"
 \markup {\nadpisDen {Neděle 3. týdne}}
 
 % -*- master: ../nedelniantifony.ly;
