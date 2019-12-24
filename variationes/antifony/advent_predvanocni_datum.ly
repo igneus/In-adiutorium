@@ -795,7 +795,7 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( f f e) f( d) e( d) c( d) \barMin
     d d d f e d e d c \barMaior
@@ -803,6 +803,41 @@ podobně.}
     \bar "" e d e d d d \bar "" e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f f( e) d e d c \barMax
     c( f) f \mark\sipka e f d d( c a) \barMin
+    c( d) f( e) c e d \barFinalis
+  }
+  \addlyrics {
+    Ó A -- dó -- naj,
+    vůd -- ce Iz -- ra -- e -- lo -- va do -- mu,
+    ty ses zje -- vil Moj -- ží -- šo -- vi
+    v_oh -- ni ho -- ří -- cí -- ho ke -- ře
+    a dals mu zá -- kon na Si -- na -- ji:
+    přijď a vy -- svo -- boď nás
+    s_ve -- li -- kou mo -- cí!
+  }
+  \header {
+    textus_approbatus = "Hospodine, vůdce Izraelova domu,
+    ty ses zjevil Mojžíšovi v ohni hořícího keře a dals mu zákon na Sinaji:
+    přijď a vysvoboď nás s velikou mocí!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-18-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) \barMin
+    d d d f e d e d c \barMaior
+    d d a( d) d \bar "" e d d d
+    \bar "" e d e d d d \bar "" e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f f( e) d e d c \barMax
+    c( f) \mark\sipka e f d d d( c a) \barMin
     c( d) f( e) c e d \barFinalis
   }
   \addlyrics {
@@ -864,13 +899,78 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( f f e) \mark\sipka f( d) e d c( d) d \barMin
     d d( e) d d d e d d e( f) d( c) c \barMaior
     d d d a( d) d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a a g f e \mark\sipka f d( c) c \barMax
     c( f) f f( e) d e( d) d( c a) \barMaior
+    c( d) f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó ko -- ře -- ni Jes -- se,
+    ty sto -- jíš ja -- ko zna -- me -- ní ná -- ro -- dům,
+    před te -- bou zmlk -- nou ús -- ta krá -- lů
+    a ná -- ro -- dy tě bu -- dou vzý -- vat:
+    přijď a vy -- svo -- boď nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    textus_approbatus = "Kořeni Jesse,
+    ty stojíš jako znamení národům, před tebou zmlknou ústa králů a národy tě budou vzývat:
+    přijď a vysvoboď nás, už neprodlévej!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-19-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e d c( d) d \barMin
+    d d( e) d d d e d d e( f) d( c) c \barMaior
+    d d d \mark\sipka e d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a g f e f d( c) c \barMax
+    c( f) \mark\sipka e f d d d( c a) \barMaior
+    c( d) f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó ko -- ře -- ni Jes -- se,
+    ty sto -- jíš ja -- ko zna -- me -- ní ná -- ro -- dům,
+    před te -- bou zmlk -- nou ús -- ta krá -- lů
+    a ná -- ro -- dy tě bu -- dou vzý -- vat:
+    přijď a vy -- svo -- boď nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    textus_approbatus = "Kořeni Jesse,
+    ty stojíš jako znamení národům, před tebou zmlknou ústa králů a národy tě budou vzývat:
+    přijď a vysvoboď nás, už neprodlévej!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-19-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f( d) e d c( d) d \barMin
+    d d( e) d d d \mark\sipka e f d e d c \barMaior
+    d d d e d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a g f e f d( c) c \barMax
+    c( f) e f d d d( c a) \barMaior
     c( d) f e c( e) d \barFinalis
   }
   \addlyrics {
@@ -1202,6 +1302,37 @@ podobně.}
   \addlyrics {
     Ó Vý -- cho -- de,
     ja -- se věč -- né -- ho svět -- la
+    a slun -- ce spra -- ve -- dl -- nos -- ti:
+    přijď a o -- svěť
+    ty, kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Východe, jase věčného světla a slunce spravedlnosti:
+    přijď a osvěť ty, kdo žijí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 207."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-21-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d( e) d \mark\sipka e d e( f) d c \barMaior
+    d a( d) d d d e f \[ g( a g \] \[ a bes a) \] \barMax
+    a( g) f d( e) d( c) \barMaior
+    f e f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Vý -- cho -- de,
+    ja -- se svět -- la věč -- né -- ho
     a slun -- ce spra -- ve -- dl -- nos -- ti:
     přijď a o -- svěť
     ty, kdo ži -- jí v_tem -- no -- tě
@@ -2023,7 +2154,7 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     % R
@@ -2036,6 +2167,71 @@ podobně.}
     % R
     \neviditelna a
     f g f d d( f) \barMin f g a g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+    při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "predvanocni-24-rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    \mark\sipka g g( a) g( f) d d \barMin f g a g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a g( a) g \barMin a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) g( f) d d \barMin f g a g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+    při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "predvanocni-24-rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    \mark\sipka g a g f d \barMin f g a g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a g( a) g \barMin a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g a g f d \barMin f g a g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

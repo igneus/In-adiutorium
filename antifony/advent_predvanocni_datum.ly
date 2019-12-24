@@ -86,7 +86,7 @@
     d d a( d) d \bar "" e d d d
     \bar "" e d e d d d \bar "" e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f f( e) d e d c \barMax
-    c( f) f e f d d( c a) \barMin
+    c( f) e f d d d( c a) \barMin
     c( d) f( e) c e d \barFinalis
   }
   \addlyrics {
@@ -107,8 +107,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "možná bude lepší upravit text pro větší zpěvnost, např. již známé _v keři ohnivém_;
-    od _Mojžíšovi_ nezpěvné; _vysvoboď_ jinak"
     id = "predvanocni-18-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -144,10 +142,10 @@
   \relative c' {
     \choralniRezim
     c4( f f e) f( d) e d c( d) d \barMin
-    d d( e) d d d e d d e( f) d( c) c \barMaior
-    d d d a( d) d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    d d( e) d d d e f d e d c \barMaior
+    d d d e d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a a g f e f d( c) c \barMax
-    c( f) f f( e) d e( d) d( c a) \barMaior
+    c( f) e f d d d( c a) \barMaior
     c( d) f e c( e) d \barFinalis
   }
   \addlyrics {
@@ -167,7 +165,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_stojíš_ atd. nezpěvné"
     id = "predvanocni-19-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -505,13 +502,13 @@
     % R
     \neviditelna f
     f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
-    f g f d d( f) \barMin f g a g f f \barFinalis
+    g a g f d \barMin f g a g f f \barFinalis
     % V
     \neviditelna a
     a4 a a a a g( a) g \barMin a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    f g f d d( f) \barMin f g a g f f \barFinalis
+    g a g f d \barMin f g a g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
