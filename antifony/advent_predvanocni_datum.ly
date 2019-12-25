@@ -256,18 +256,18 @@
   \relative c' {
     \choralniRezim
     c4( f f e) f( d e d) c( d) d \barMin
-    d( e) d e( f) d e d c \barMaior
+    d( e) d e d e( f) d c \barMaior
     d a( d) d d d e f \[ g( a g \] \[ a bes a) \] \barMax
-    a( g) f d( e) d( c) \barMaior
+    a( g) f d e d( c) \barMaior
     f e f d e( d) c( d) d( c a) \barMaior
     c( d) f e c c( e) d \barFinalis
   }
   \addlyrics {
     Ó Vý -- cho -- de,
-    ja -- se věč -- né -- ho svět -- la
+    ja -- se svět -- la věč -- né -- ho
     a slun -- ce spra -- ve -- dl -- nos -- ti:
-    přijď a o -- svěť
-    ty, kdo ži -- jí v_tem -- no -- tě
+    přijď a o -- svěť ty,
+    kte -- ří ži -- jí v_tem -- no -- tě
     a ve stí -- nu smr -- ti!
   }
   \header {
@@ -278,7 +278,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_přijď a osvěť ty, kdo..._ lépe"
     id = "predvanocni-21-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -314,7 +313,7 @@
     d d d e f d e d( c) \barMaior
     d d a( d) d d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f f d e f f c \barMax
-    c( f) f f( d) e( d) c( d) d( c a) \barMaior
+    c( f) e f( d) e( d) c( d) d( c a) \barMaior
     c d f f e c e d \barFinalis
   }
   \addlyrics {
@@ -336,7 +335,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "_který spojuje ... vjedno_ lépe"
     id = "predvanocni-22-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }

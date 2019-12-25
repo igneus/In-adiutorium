@@ -1004,6 +1004,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 f g a4. a \barMaior
+    a4 g a g( f) e \barMin
+    d e e( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    če -- kám na Bo -- ha,
+    své -- ho Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen {sobota}
