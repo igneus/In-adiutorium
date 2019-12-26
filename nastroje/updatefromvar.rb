@@ -18,11 +18,15 @@ require 'optparse'
 
 require_relative 'lib/updatefromvar/updater'
 
-setup = {:partial_files => true}
+setup = {partial_files: true, modified: false}
 
 optparse = OptionParser.new do|opts|
   opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial files of file /MAINFILE.ly" do
     setup[:partial_files] = false
+  end
+
+  opts.on "-m", "--git-modified", "Apply changes from all modified `variationes/*` files known to git" do
+    setup[:modified] = true
   end
 end
 
@@ -30,10 +34,18 @@ optparse.parse!
 
 begin
   updater = Updater.new('variationes', STDOUT)
+  updater.partial_files = setup[:partial_files]
 
-  setup.each_pair {|attr,val| updater.send("#{attr}=", val) }
+  files = ARGV
+  if setup[:modified]
+    files +=
+      `git ls-files --modified`
+        .split
+        .select {|f| f.start_with? 'variationes' }
+        .collect {|f| f.sub 'variationes/', '' }
+  end
 
-  ARGV.each do |f|
+  files.each do |f|
     updater.update f
   end
 rescue RuntimeError => ex
