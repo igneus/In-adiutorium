@@ -223,22 +223,23 @@
 \markup\nadpisDen {čtvrtek}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4 e f f g a a a bes( g) a \barMaior
-    a a f g a( bes) a \barMin
-    g a f e d d \barFinalis
+    g4 a c( d) d \barMin
+    c d e d( c) d d \barMaior
+    a d b c a( g) a \barMin
+    f g a c a a \barFinalis
   }
   \addlyrics {
-    K_to -- bě, Pa -- ne, po -- zve -- dám svou du -- ši,
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
     přijď a vy -- svo -- boď mě,
     k_to -- bě se u -- tí -- kám.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "predvanocni-zlm-ct-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -350,9 +351,9 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e f) g( f) e a4. a \barMaior
+    g4 f g a a \barMaior
     a4 g a g( f) e \barMin
     d e e( f) e d d \barFinalis
   }
@@ -364,9 +365,8 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "g"
     psalmus = ""
-    placet = "melismata na začátku nezpěvná"
     id = "predvanocni-zlm-pa-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -56,6 +56,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) \barMin
+    c( d) e d( c) d d \barMaior
+    d a d b c a g a g \barMin
+    f g a c a \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán,
+    Král krá -- lů ze -- mě;
+    bla -- ze těm,
+    kdo jsou při -- pra -- ve -- ni
+    na set -- ká -- ní s_ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -507,6 +532,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d d e d c c( d) d \barMaior
+    d a d b c a( g) a \barMin
+    g f g a c a a \barFinalis
+  }
+  \addlyrics {
+    Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
+    do -- kud ne -- vzej -- de svět -- lo
+    je -- ho spra -- ved -- li -- vé -- mu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -688,7 +735,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 e f f g a a a \mark\sipka bes( g) a \barMaior
@@ -704,6 +751,31 @@
     quid = "1. ant."
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e d( c) d d \barMaior
+    a d b c a( g) a \barMin
+    f g a c a a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "predvanocni-zlm-ct-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -980,10 +1052,152 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g f g a g g \barMaior
+    f g a f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a g f g g \barMaior
+    f g a f d e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a g f g g \barMaior
+    f g a \mark\sipka g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a g f g g \barMaior
+    f g a \mark\sipka f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a g f g g \barMaior
+    f g a \mark\sipka g f g f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d d c b a a \barMaior
+    a g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 a c c c d c bes a \barMaior
+    g f c' bes a g f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( e f) g( f) e a4. a \barMaior
     a4 g a g( f) e \barMin
@@ -1010,6 +1224,51 @@
     \mark\sipka d4 f g a4. a \barMaior
     a4 g a g( f) e \barMin
     d e e( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    če -- kám na Bo -- ha,
+    své -- ho Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 f g a a \barMaior
+    a4 g a g( f) e \barMin
+    d e e( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    če -- kám na Bo -- ha,
+    své -- ho Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) e c d c \barMaior
+    f g a g( f) g \barMin
+    e c d( f) e d d \barFinalis
   }
   \addlyrics {
     Vy -- hlí -- žím Pá -- na,
