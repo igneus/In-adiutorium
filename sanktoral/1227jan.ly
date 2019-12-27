@@ -32,6 +32,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
+    placet = "lépe; asi zrušit první cézuru"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -52,6 +53,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 64"
+    placet = "druhá polovina nezpěvná"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -104,6 +106,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "půjde vylepšit"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -154,7 +157,9 @@
     differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
+    placet = "aktualizovat ze zdroje"
     fons = "Velikonoční oktáv, pátek, k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mag"
     piece = \markup {\sestavTitulek}
   }
 }
