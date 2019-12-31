@@ -579,7 +579,6 @@ uvodniVers = \lyricmode {
     }
   }
 
-  %{
   \markup\justify{
     Jako varianta kousek liturgické tvořivosti bez sebemenší
     opory v tradici:
@@ -608,7 +607,6 @@ uvodniVers = \lyricmode {
       piece = ""
     }
   }
-  %}
 }
 
 \bookpart {

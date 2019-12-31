@@ -610,41 +610,10 @@
     }
     \header {
       modus = "II"
-      id = ""
+      id = "pokojnounoc"
       piece = ""
     }
   }
-
-  %{
-  \markup\justify{
-    Jako varianta kousek liturgické tvořivosti bez sebemenší
-    opory v tradici:
-  }
-
-  \score {
-    \relative c' {
-      \choralniRezim
-      \neviditelna d
-      d4 d d( f) d \barMin c( d e) f d d( c d) \barMaior
-      f g( a) g f( e d) d \barMaior
-      f g f f f e( c) a c d( e) d d \barFinalis
-
-      \neviditelna d
-      d( f e) c( d) \barFinalis
-    }
-    \addlyrics {
-      \Verse Dej nám, Bo -- že, po -- koj -- nou noc,
-      a po -- si -- luj nás,
-      ať vy -- tr -- vá -- me v_dob -- rém až do kon -- ce.
-      \Response A -- men.
-    }
-    \header {
-      modus = "II"
-      id = ""
-      piece = ""
-    }
-  }
-  %}
 }
 
 \bookpart {
