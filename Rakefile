@@ -79,7 +79,8 @@ namespace :sanity do
     files = (Dir['*.ly'] +
              Dir['antifony/*.ly'] +
              Dir['commune/*.ly'] +
-             Dir['sanktoral/*.ly'])
+             Dir['sanktoral/*.ly'] +
+             Dir['reholni/*/*.ly'])
     files -= (['psalmodie.ly', 'kratkeverse.ly', 'zakladni_napevy.ly',
                'zakladni_napevy2.ly', 'antifony.ly'] +
               Dir['kantikum-*.ly'] + Dir['zalm*.ly'] + Dir['invitatorium*.ly'] +
@@ -94,6 +95,10 @@ namespace :sanity do
   desc "Print count of known issues marked in the scores"
   task :known_issues do
     sh 'grep placet *.ly antifony/*.ly commune/*.ly sanktoral/*.ly | wc -l'
+  end
+
+  task :missing_ids do
+    sh 'grep', 'id = ""', *all_ly_files
   end
 
   task :all => [:length]
