@@ -184,6 +184,28 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g g g g( f d) e( d) \barMin c d f( g) f( e) e \barMaior
+    g g a b a( g) a( g) \barMin a( f e) e e g f( e) e \barFinalis
+  }
+  \addlyrics {
+    He -- ro -- des po -- slal ka -- ta s_roz -- ka -- zem,
+    a -- by ve vě -- ze -- ní sťal Ja -- no -- vi hla -- vu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 116-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -203,6 +225,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {

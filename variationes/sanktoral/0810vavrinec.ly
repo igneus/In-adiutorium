@@ -119,7 +119,7 @@
   \relative c'' {
     \choralniRezim
     d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
-    a( g) a b a( b c d) d \barMin
+    a( d) c d d( e c d) d( c) \barMin
     d( c b) a( b) a f( g a) a( g) \barFinalis
   }
   \addlyrics {
@@ -133,6 +133,53 @@
     differentia = "d"
     psalmus = "Dan 3-III"
     id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
+    \mark\sipka a( g) a b a( b c d) d \barMin
+    d( c b) a( b) a f( g a) a( g) \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal_* své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil
+    u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a a g( a b c) a( g) \barMaior
+    f( g) a( g) f e f( e d) e \barMaior
+    f g g g( a) a \barMin a( g f) a( g f) d( c d e) e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Vav -- ři -- nec se mod -- lil:
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 149"
+    id = ""
     piece = \markup {\sestavTitulek}
   }
 }
@@ -158,6 +205,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup\italic{Responsorium z ranních chval ze společných textů
 o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
