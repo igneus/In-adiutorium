@@ -29,6 +29,7 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_vicemucedniku.ly#rch-aben"
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -52,7 +53,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

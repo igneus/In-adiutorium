@@ -23,8 +23,9 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "invit"
     fons = "evangelista Marek, 25.4."
+    fial = "sanktoral/0425marek.ly#invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -50,7 +51,7 @@
     modus = "VIII" % std. rozsah modu VIII opousti az v zaveru
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -72,7 +73,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

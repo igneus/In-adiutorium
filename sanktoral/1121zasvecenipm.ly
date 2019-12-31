@@ -25,9 +25,9 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
-    psalmus = "Magnificat"
+    psalmus = ""
     fial = "commune/commune_maria.ly#2ne-amag?-aleluja"
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -55,7 +55,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

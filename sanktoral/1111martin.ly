@@ -30,7 +30,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -54,7 +54,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,7 +75,7 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     placet = "nic moc; _ruce k nebi_ je nezpěvné"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -98,7 +98,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -128,7 +128,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -156,7 +156,7 @@
     differentia = "E"
     psalmus = "Žalm 15"
     placet = "není úplně marná, ale přeci zkusit lépe"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -179,7 +179,7 @@
     differentia = "f"
     psalmus = "Žalm 112"
     placet = "_tvému lidu potřebný_ rozhodně jinak"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -200,7 +200,7 @@
     differentia = "a"
     psalmus = "Zj 15"
     placet = "_opustil_ rozhodně bez melismatu na druhé slabice"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -234,7 +234,7 @@
     differentia = "A"
     psalmus = ""
     placet = "na více místech zadrhává"
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

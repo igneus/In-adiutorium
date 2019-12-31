@@ -28,7 +28,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,7 +51,7 @@
     differentia = "a"
     psalmus = ""
     placet = "_i_ v poslední části je nevhodně zvýrazněné"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

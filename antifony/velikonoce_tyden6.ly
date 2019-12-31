@@ -25,7 +25,7 @@
     psalmus = "Žalm 119-נ"
     fial = "commune/commune_svatymuz.ly#rch-aben1"
     placet = "takhle vytržený úryvek je citelně neúplný, nevyvážený - jinak"
-    id = ""
+    id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -47,7 +47,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 16"
-    id = ""
+    id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,7 +104,7 @@
     antifona k němu, vzatá z něj, vlastně část _té_ velikonoční antifony
     zpívané pořád dokola ve velikonočním oktávu, by měla být podle možností
     radostnější. Tahle je taková neurážející, vkusná, ale plochá a bezbarvá."
-    id = ""
+    id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -127,7 +127,7 @@
     differentia = "g"
     psalmus = "Dan 3-II"
     placet = "půjde vylepšit"
-    id = ""
+    id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -153,7 +153,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 150"
-    id = ""
+    id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -179,7 +179,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
-    id = ""
+    id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -201,7 +201,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 115"
-    id = ""
+    id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -255,7 +255,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -309,7 +309,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -367,7 +367,7 @@
     modus = "I" % ve skutecnosti mozna spis prochazi mody IV, VIII a I.
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -419,7 +419,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -445,7 +445,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -469,7 +469,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -493,7 +493,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -521,7 +521,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

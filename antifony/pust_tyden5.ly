@@ -477,27 +477,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%{
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 d d( e) f e( d) d \barMaior
-    f g a bes a a g f g( a g) g \barMin
-    f d c c( d) d \barFinalis
-  }
-  \addlyrics {
-    Je -- žíš u -- mřel pro -- to,
-    a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
-    shro -- máž -- dil vjed -- no.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "D"
-    psalmus = ""
-    id = ""
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-%}

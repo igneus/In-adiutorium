@@ -22,7 +22,7 @@
     differentia = "d"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne31c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -41,7 +41,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne31c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -62,7 +62,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne31c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -85,7 +85,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne32c-1ne-amag"
     placet = "r - banalni"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -107,7 +107,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne32c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -128,7 +128,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne32c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -151,7 +151,7 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne33c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -176,7 +176,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    id = ""
+    id = "ne33c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -198,7 +198,7 @@
     psalmus = ""
     annus = "C"
     fial = "commune/commune_apostol.ly#nona"
-    id = ""
+    id = "ne33c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -681,6 +681,8 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Sobota}
 
 \score {
@@ -705,7 +707,6 @@
   }
 }
 
-%{
 \score {
   \relative c' {
     \choralniRezim
@@ -727,4 +728,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-%}

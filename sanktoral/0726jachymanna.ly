@@ -42,7 +42,7 @@
   \header {
     quid = "resp."
     modus = "VIII"
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -65,7 +65,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -99,7 +99,7 @@
   \header {
     quid = "resp."
     modus = "I"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -124,7 +124,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

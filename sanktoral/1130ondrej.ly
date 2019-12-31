@@ -30,7 +30,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -52,7 +52,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -72,7 +72,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -98,7 +98,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -120,7 +120,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -141,7 +141,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     fial="fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-rch-ben"
     piece = \markup {\sestavTitulek}
   }
@@ -162,7 +162,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
     fons = "3. ne v mez, cyk. B, 2. nešp. k Magnificat"
     fial = "fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-ne2-mag"
     piece = \markup {\sestavTitulek}
@@ -199,16 +199,17 @@
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-
     a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
-    % text podle dominikanskeho breviare
   }
   \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    placet = "zkusit zhudebnit oficiální text z DMC"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

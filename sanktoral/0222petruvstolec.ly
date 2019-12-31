@@ -38,7 +38,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 19A"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -62,7 +62,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 64"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -86,7 +86,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 97"
-    id = ""
+    id = "mc-a3"
     fial = "sanktoral/0806promenenipane.ly#2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -112,7 +112,7 @@
     differentia = "g"
     psalmus = "Žalm 63"
     fial = "fial://antifony/mezidobi_nedeleC_02_10.ly#ne5c-ne2-mag"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -133,7 +133,7 @@
     differentia = "G"
     psalmus = "Dan 3-III"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -155,7 +155,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -183,7 +183,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -201,16 +201,17 @@
   \addlyrics {
     Pet -- ře, mi -- lu -- ješ mě?
     A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
-    Pas
-    %mo -- je
-    mé ov -- ce.
+    Pas mé ov -- ce.
   }
   \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
     quid = "1. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -232,7 +233,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -253,7 +254,7 @@
     differentia = "D"
     psalmus = "Ef 1"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a2"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -279,7 +280,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

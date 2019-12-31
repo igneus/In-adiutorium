@@ -32,7 +32,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -57,7 +57,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +81,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,7 +111,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -135,7 +135,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-I"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -156,7 +156,7 @@
     differentia = "E"
     psalmus = "Žalm 116-II"
     placet = "zkusit nějakou subtilnější variantu"
-    id = ""
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -179,7 +179,7 @@
     differentia = "G"
     psalmus = "Zj 4"
     placet = "z celého formuláře daleko nejméně povedená"
-    id = ""
+    id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -216,7 +216,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

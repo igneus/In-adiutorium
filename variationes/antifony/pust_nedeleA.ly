@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../pust_antifony.ly;
+
+\include "../spolecne.ly"
 
 \markup\nadpisDen{1. neděle postní}
 
@@ -287,8 +288,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f e( f d) d e d c d d( c) c \barMin
     d d d c a c d d \barMaior
@@ -309,6 +313,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( f d) d e d c d d( c) c \barMin
+    c d e f e f f g \barMaior
+    a g f( d) d \barMin c e d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
+    sle -- pé -- mu od na -- ro -- ze -- ní,
+    je -- nom Kris -- tus, Bo -- ží Syn.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{5. neděle postní}
 

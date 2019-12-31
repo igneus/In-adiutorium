@@ -29,7 +29,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,11 +51,11 @@
     na ka -- li -- chu u -- tr -- pe -- ní tvé -- ho Kris -- ta.
   }
   \header {
-    quid = "ant."
+    quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

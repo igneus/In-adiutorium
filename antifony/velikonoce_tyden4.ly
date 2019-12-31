@@ -309,7 +309,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -333,7 +333,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -359,7 +359,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -386,7 +386,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -412,7 +412,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -468,7 +468,7 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#vmag1?cast&upraveno"
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

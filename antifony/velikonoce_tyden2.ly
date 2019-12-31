@@ -29,7 +29,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -51,7 +51,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -79,7 +79,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -101,7 +101,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    id = ""
+    id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -134,7 +134,7 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/pust_nedeleB.ly#ivben?+aleluja"
-    id = ""
+    id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -162,7 +162,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "st-amag"
     fial = "commune/commune_svatymuz.ly#rch-aben1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -188,7 +188,7 @@
     differentia = "G"
     psalmus = ""
     placet = "pro _miluje Syna_ se mi kdoví odkud doporučuje f e f fg g"
-    id = ""
+    id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -210,7 +210,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -236,7 +236,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = ""
+    id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -265,7 +265,7 @@
     differentia = "D"
     psalmus = "Žalm 63"
     fial = "sanktoral/0914povysenisvatehokrize.ly#rch-a1?+aleluja"
-    id = ""
+    id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -293,7 +293,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

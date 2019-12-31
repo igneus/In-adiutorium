@@ -35,7 +35,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -55,12 +55,14 @@
     pří -- cho -- du na -- še -- ho Pá -- na.
   }
   \header {
+    textus_approbatus = "Žijme spravedlivě a zbožně,
+    a přitom očekávejme v blažené naději příchod našeho Pána."
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
     psalmus = ""
     fial = "antifony/advent_tyden3.ly#ne-2ne-a3"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

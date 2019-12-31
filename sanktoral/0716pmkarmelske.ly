@@ -26,7 +26,7 @@
     differentia = "D"
     psalmus = ""
     placet = "extra mdlá"
-    id = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -49,7 +49,7 @@
     differentia = "a2"
     psalmus = ""
     placet = "nic moc. melisma na _srdci_ raději pryč; zbytečně velký rozsah; _rozvažovala o něm_ má sklon k vadnému rytmu"
-    id = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

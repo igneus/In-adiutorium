@@ -164,7 +164,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
