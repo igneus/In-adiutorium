@@ -11,11 +11,11 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( f) g g a a \barMin
+    f g g a a \barMin
     b( c a) g a g g \barMaior
-    c( d c) b a g g g f g a g g \barFinalis
+    c( a) c b a g g f( g) a f g g \barFinalis
   }
   \addlyrics {
     Pan -- na po -- ča -- la,
@@ -29,7 +29,6 @@
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
-    placet = "_Krále_ snad lépe fg a"
     id = "ne1-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -38,8 +37,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b4( c) a( b) a \barMin g a b c b \barMaior
-    c c c c d c b g( a) a \barMin
+    b4 c a g a b c b \barMaior
+    c c c c c b g a a \barMin
     g a g( f e) e \barFinalis
   }
   \addlyrics {
@@ -53,28 +52,30 @@
     differentia = "h"
     psalmus = "Žalm 116"
     fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
-    placet = "úvodní i závěrečný motiv se mi líbí, ale celek vůbec nedrží pohromadě"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 g f d g f \barMin g f g a( g) g \barMaior
-    a a( c) b \barMin a g f( a) g g \barFinalis
+    c4 c c c b g \barMin
+    f g a g g \barMaior
+    c-- d c \barMin
+    a g a g g \barFinalis
   }
   \addlyrics {
-    Na -- ro -- dil se nám ten, kte -- rý je věč -- ný,
-    Bůh z_Bo -- ha, Svět -- lo ze Svět -- la.
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Flp 2"
-    placet = "takový začátek nemá v chorální antifoně co dělat"
     id = "ne1-a3"
     piece = \markup {\sestavTitulek}
   }

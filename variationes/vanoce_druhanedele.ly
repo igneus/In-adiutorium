@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g( f) g g a a \barMin
     b( c a) g a g g \barMaior
@@ -29,7 +30,65 @@
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
-    id = ""
+    id = "ne1-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Sestupné melisma na první slabice není moc obvyklý začátek
+  (a tady je zkopírované z delší antifony, kde v kontextu má smysl).
+
+  Třínotové melisma dvakrát za sebou, navíc pokaždé na stejném slově, působí rušivě.
+
+  A závěr půjde lépe.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f g g a a \barMin
+    b( c a) g a g g \barMaior
+    c( d c) b a g g g \mark\sipka f( g) a f g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na po -- ča -- la,
+    pan -- nou zů -- sta -- la,
+    pan -- na po -- ro -- di -- la Krá -- le všech krá -- lů.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-Nun"
+    fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
+    id = "ne1-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g a a \barMin
+    b( c a) g a g g \barMaior
+    \mark\sipka c( a) c b a g g f( g) a f g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na po -- ča -- la,
+    pan -- nou zů -- sta -- la,
+    pan -- na po -- ro -- di -- la Krá -- le všech krá -- lů.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-Nun"
+    fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
+    id = "ne1-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -62,7 +121,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     b4( c) a( b) a \barMin g a b c b \barMaior
     c c c c d c b g( a) a \barMin
@@ -79,7 +138,31 @@
     differentia = "h"
     psalmus = "Žalm 116"
     fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
-    id = ""
+    id = "ne1-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka b4 c a g a b c b \barMaior
+    c c c c \mark\sipka c b g a a \barMin
+    g a g( f e) e \barFinalis
+  }
+  \addlyrics {
+    Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
+    Hos -- po -- din ho za -- pla -- vil bla -- hem
+    ja -- ko ře -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "h"
+    psalmus = "Žalm 116"
+    fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
+    id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -88,6 +171,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 g f d g f \barMin g f g a( g) g \barMaior
     a a( c) b \barMin a g f( a) g g \barFinalis
@@ -101,14 +185,112 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
-    id = ""
+    id = "ne1-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g \barMin
+    f g a g g \barMaior
+    c d c \barMin
+    a g a g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka a c b a g \barMin
+    f g a g g \barMaior
+    c d c \barMin
+    a \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c \mark\sipka c b4. g \barMin
+    f4 g a g g4. \barMaior
+    c4. d4 c \barMin
+    a g a g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    notitia = "výjimečně přidávám délky pro zaznamenání, jak jsem ji v době vzniku 'slyšel'"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c b g \barMin
+    f g a g g \barMaior
+    c-- d c \barMin
+    a g a g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \pageBreak
+
+\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
 
 \score {
   \relative c'' {
