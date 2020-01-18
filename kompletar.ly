@@ -26,7 +26,12 @@
     quid = "psalmodie"
     modus = "II"
     differentia = ""
-    piece = "psalmodie (modus II)"
+    % piece = "psalmodie (modus II)"
+    piece = \markup\sestavTitulekBezZalmu
+    placet = "ten nápěv má podle antifonáře specifické místo v rámci liturgického roku a je určen
+    pro zpěv žalmů bez antifony; jeho všednodenní použití je výpůjčka
+    z Nového Dvora - jenže v mnišském oficiu se žalmy kompletáře zpívají také bez antifony;
+    v Antifonáři k DMC by extra nápěv pro žalmy kompletáře být neměl"
     id = "psalmodie"
   }
 }
@@ -329,6 +334,7 @@
       quid = "resp."
       modus = "IV"
       piece = \markup {\sestavTitulekResp}
+      placet = "nepřirozená melismata - důVĚřuji; Ty MĚ vedeš; SVAtému"
       id = "resp-adv"
     }
   }
@@ -365,6 +371,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "nebylo by lepší nevázat se na solesmeskou rytmizaci a vyjít z AR1912?"
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons_externus = "Liber usualis, New York-Tournai, 1961, 266."
