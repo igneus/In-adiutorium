@@ -10,10 +10,117 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4( e f g a) g g g a b c g \barMaior
+    e e e f e d e f a g \barMaior
+    a c b a g \barMaior
+    e f e d e g \barMaior
+    e f g a c b d c c \barMax
+    c b c c d g, \barMaior
+    c b a g f e \barMaior
+    e e a g f e d( e) f( e) \barMax
+    c' b a g a g e f g \barMaior
+    a a c a g f e \barMaior
+    f e g g a g \barMaior
+    c b c a( g) a f e( d) c \barFinalis
+  }
+  \header {
+    quid = "melodie latinské předlohy"
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4( e f g a) g \barMin g g a b c g \barMaior
     e e f e f( g a) g f( g) g \barMaior
     e f e d e f g g \barMaior
     e f g a c b d( c) c \barMax
+    c b c g a g f e \barMaior
+    e e a g f e d( e) f( e) \barMaior
+    c' b a g a g e( f) g \barMaior
+    e f g a c b d( c) c \barMaior
+    c b c g a f e( d) c \barFinalis
+  }
+  \addlyrics {
+    Slav -- ná Mat -- ko Spa -- si -- te -- le,
+    brá -- no ne -- bes, hvěz -- do moř -- ská,
+    na po -- moc přijď své -- mu li -- du,
+    kte -- rý tou -- ží po -- vstat z_hří -- chu.
+
+    Při -- ja -- las zvěst Gab -- ri -- e -- la,
+    po -- ro -- di -- las své -- ho Tvůr -- ce,
+    pan -- nou jsi být ne -- pře -- sta -- la
+    -_ce -- lý ve -- smír nad tím žas -- ne.
+
+    Smi -- luj se nad hříš -- ným svě -- tem.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 366."
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "alma"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( e f g a) g \barMin g g a b c g \barMaior
+    e e f e f( g a) g f( g) g \barMaior
+    e f e d e f g g \barMaior
+    e f g a c b d( c) c \barMax
+    \mark\sipka c b a g a g f( e) e \barMaior
+    e e a g f e d( e) f( e) \barMaior
+    c' b a g a g e( f) g \barMaior
+    \mark\sipka e f e d g g a g \barMaior
+
+    \mark\sipka c b a g e f e( d) c \barFinalis
+  }
+  \addlyrics {
+    Slav -- ná Mat -- ko Spa -- si -- te -- le,
+    brá -- no ne -- bes, hvěz -- do moř -- ská,
+    na po -- moc přijď své -- mu li -- du,
+    kte -- rý tou -- ží po -- vstat z_hří -- chu.
+
+    Při -- ja -- las zvěst Gab -- ri -- e -- la,
+    po -- ro -- di -- las své -- ho Tvůr -- ce,
+    pan -- nou jsi být ne -- pře -- sta -- la
+    -_ce -- lý ve -- smír nad tím žas -- ne.
+
+    Smi -- luj se nad hříš -- ným svě -- tem.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 366."
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "alma"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4( e f g a) g \barMin g g a b c g \barMaior
+    e e f e f( g a) g f( g) g \barMaior
+    e f e d e f g g \barMaior
+    e f g a c b d( c) c \barMax
+    c b a g a g f( e) e \barMaior
+    e e a g f e d( e) f( e) \barMaior
+    c' b a g a g e( f) g \barMaior
+    e f g a c b d( c) c \barMaior
+    c b c g a f e( d) c \barFinalis
   }
   \addlyrics {
     Slav -- ná Mat -- ko Spa -- si -- te -- le,
