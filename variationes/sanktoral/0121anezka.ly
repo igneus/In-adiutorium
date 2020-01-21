@@ -18,8 +18,8 @@
     \choralniRezim
     g4 a g f( g) \barMin
     g a c a c b( a g) g a f f g g \barMaior
-    g g c c c c( d) c c( b a) \barMin
-    a g f g( a) a( g) g \barFinalis
+    g g( a g) g( c) c c c( d) c c( b a) \barMin
+    g f g( a) a g g \barFinalis
   }
   \addlyrics {
     Svým prs -- te -- nem
@@ -36,6 +36,33 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g f( g) \barMin
+    g a c a c b( a g) g a f f g g \barMaior
+    g \mark\sipka g c c c c( d) c c( b a) \barMin
+    \mark\sipka a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Svým prs -- te -- nem
+    si mě Kris -- tus, můj Pán, za -- vá -- zal k_věr -- nos -- ti
+    a o -- věn -- čil mě ko -- ru -- nou
+    ja -- ko svou ne -- věs -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
