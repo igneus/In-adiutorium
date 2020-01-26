@@ -122,7 +122,7 @@
   \relative c' {
     \choralniRezim
     f4 d d( e) e f( g) g e e \barMin
-    f g a a( g) a a( b) a( g) g \barMaior
+    e f g a a a( b) a( g) g \barMaior
     a g f e d \barMin e f g g e e \barFinalis
   }
   \addlyrics {
@@ -143,8 +143,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d e e( a) a g( a) b g a a \barMin
-    e d e e( f) d d e e \barFinalis
+    e4 d e e( a) a g( a) b g a a \barMaior
+    a g a f e d e e \barFinalis
   }
   \addlyrics {
     Je -- di -- ně je -- mu za -- cho -- vám věr -- nost,
@@ -155,7 +155,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-II"
-    placet = "zkusit nějakou subtilnější variantu"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -164,21 +163,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) a( g) a( g) g \barMin
-    a( b c d) c b( c) b a a \barMin f g a a( g) g \barMaior
-    c d c( a) a \barMin g f g g( a) a g( a) g g \barFinalis
+    g4 a a( c) c \barMin
+    c c c( d) c a a \barMin
+    c b g a( g) g \barMaior
+    a a f( e) d \barMin
+    d e f g( a) a g g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě,
-    Ot -- če mé -- ho Pá -- na Je -- ží -- še Kris -- ta,
-    skr -- ze ně -- ho jsi mi dal sí -- lu k_ví -- těz -- ství.
+    Ot -- če mé -- ho Pá -- na
+    Je -- ží -- še Kris -- ta,
+    skr -- ze ně -- ho
+    jsi mi dal sí -- lu k_ví -- těz -- ství.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 4"
-    placet = "z celého formuláře daleko nejméně povedená"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -193,11 +195,11 @@
   \relative c' {
     \choralniRezim
     d4 d f( e d) c( d) d \barMaior
-    \stemUp d( a' bes) a a a( c) c c( a) a \barMin
-    a c b! a( g) f( g) \barMax
+    \stemUp d( a' bes) a a a( c) c c( a) a
+    a c b! a( g) g \barMax
 
-    f4 g f( d) c( d) \barMaior
-    f d d f e d d \barMin
+    f4 g f( d) d \barMin
+    f d d f e d( c) c \barMaior
     f g a a( bes a) g( a) a \barMin
     a a a a g a g f g( f e) d( c) c \barMaior
     d d d d( f) g f( e) d d \barFinalis
