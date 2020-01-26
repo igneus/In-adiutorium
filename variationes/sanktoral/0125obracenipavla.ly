@@ -434,8 +434,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f e f( g) g \barMin
@@ -463,6 +466,41 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+    d e f g( a) a g bes a a \barMaior
+    a g( bes a g) f( g) \barMaior
+    g f e f( d c) c \barMin
+    d( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem
+    na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    fial = "fial://pust_svatytyden.ly#odpo"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

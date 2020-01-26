@@ -178,18 +178,18 @@
     \key f \major
     d4 d d f e f( g) g \barMin
     g a a f d e \barMax
-
-    d e f g( a) a g bes a( g a) a \barMaior
-    bes( c) d( a d4.) d \barMaior
-    d4 c bes a4. a \barMin f4( a) g f e( d) d \barFinalis
+    d e f g( a) a g bes a a \barMaior
+    a g( bes a g) f( g) \barMaior
+    g f e f( d c) c \barMin
+    d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Ži -- vot je pro mě Kris -- tus
     a smrt je pro mě zisk.
-
     Ne -- chci se chlu -- bit ni -- čím ji -- ným,
     než kří -- žem
-    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+    na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "2. ant."
