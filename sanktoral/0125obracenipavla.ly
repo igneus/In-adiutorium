@@ -74,6 +74,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 64"
+    placet = "dlouhé melisma na _všem_ se mi nelíbí"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -227,6 +228,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "nelíbí"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -255,6 +257,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -279,6 +282,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -301,6 +305,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -347,6 +352,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 126"
+    placet = "nezpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -411,6 +417,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zaslouží trochu péče; přeci jen vyzkoušet tradiční melodii"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -435,6 +442,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

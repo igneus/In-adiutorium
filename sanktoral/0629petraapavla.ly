@@ -271,6 +271,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
+    placet = "_přesvědčen_ je nepříliš zpěvné"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -293,6 +294,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
+    placet = "závěr netypický a nelibý"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -510,6 +512,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 126"
+    placet = "_Kristova moc_ lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
