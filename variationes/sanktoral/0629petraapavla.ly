@@ -760,6 +760,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c b a b( c) a a \barMaior
+    g f g( a) g( a) a \barMin a b4.( c) d4 e d c d( e) e \barMaior
+    d d( e) e( f e) e \barMin
+    \mark\sipka e d c b( c) a g a( g) \barMin f g a( c b g) g \barFinalis
+  }
+  \addlyrics {
+    Vím, ko -- mu jsem u -- vě -- řil,_*
+    a jsem pře -- svěd -- čen, že on, spra -- ved -- li -- vý soud -- ce,
+    má dost mo -- ci,
+    a -- by mi o -- chrá -- nil to, co mi svě -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( b c) c( d) \barMin c d e f e d d \barMaior
     c d c b a g a( g) g \barMaior
     f g a( c) c c( d c) b a f( g) g \barFinalis
