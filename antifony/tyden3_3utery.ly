@@ -12,9 +12,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( d') c d \barMaior
-    d c d c e d c( d) c \barMin
-    b a g a( f) g \barFinalis
+    a4 a( d) d d \barMaior
+    d d c d e c d d \barMin
+    c b g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
@@ -86,21 +86,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4 g g g \barMin g g bes a bes g a f( g) g \barMin
-    a a a bes g g f f( d) d \barFinalis
+    c4 d d d \barMin
+    d d f e f d e c( d) d \barMaior
+    f f f g f e f d d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, byl jsi mi -- los -- ti -- vý své ze -- mi,
+    Hos -- po -- di -- ne,
+    byl jsi mi -- los -- ti -- vý své ze -- mi,
     od -- pus -- tils vi -- nu své -- ho li -- du.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 85"
-    placet = "sama o sobě se mi líbí, ale nesedí do modu - soudě mj. z toho, jak těžké je mi po ní správně začít žalm.
-    Zdá se, že ve skutečnosti je hypodórská na g."
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }

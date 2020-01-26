@@ -31,11 +31,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( d') c d \barMaior
     d c d c e d c( d) \mark\sipka c \barMin
     b a g a( f) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( d) d d \barMaior
+    d d c d e c d d \barMin
+    c b g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
@@ -100,6 +123,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g g g \barMin g g bes a bes g a f( g) g \barMin
@@ -113,6 +137,69 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 85"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d d \barMin d d f e f d e c( d) d \barMaior
+    f e c e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, byl jsi mi -- los -- ti -- vý své ze -- mi,
+    od -- pus -- tils vi -- nu své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 85"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d d \barMin d d f e f d e c( d) d \barMaior
+    \mark\sipka f g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, byl jsi mi -- los -- ti -- vý své ze -- mi,
+    od -- pus -- tils vi -- nu své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 85"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d d \barMin
+    d d f e f d e c( d) d \barMaior
+    \mark\sipka f f f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    byl jsi mi -- los -- ti -- vý své ze -- mi,
+    od -- pus -- tils vi -- nu své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 85"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
