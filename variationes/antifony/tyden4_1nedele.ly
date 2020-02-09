@@ -831,6 +831,96 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) d d c c( d) \barMaior
+    d f e f g f \barMin
+    g a g f d( c) c \barMaior
+    d e f e d c f e d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMaior
+    c f e f g g \barMin
+    a g f a a( g) g \barMaior
+    a g a f e c f e d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a a
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIInedeleIInespAntIII }
 
 %\score { \tIInedeleIInespResp }
