@@ -31,6 +31,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
+    placet = "lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -140,6 +141,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nezpěvná; závěr divný, nesedí v modu"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -167,6 +169,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melodií _klanějme se_ si nejsem jistý"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -191,6 +194,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 2"
+    placet = "začátek nějaký normálnější"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -215,6 +219,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 19A"
+    placet = "začátek tíhne spíš k modu II, aniž by byl nějak zvlášť krásný - upravit"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -266,6 +271,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "moc se mi nelíbí frázování _spravedlivý a bohabojný_, ale také zatím nevidím, jak jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -309,6 +315,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "na text takového pěkného rytmu a členění zkusit pár zpěvnějších variant"
     id = "rch-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -365,6 +372,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_vzal ho Simeon_ lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -472,6 +480,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "nezpěvná"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
