@@ -1,11 +1,14 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Lukáše, evangelisty (svátek, 18.10.)"
+  title = \markup\titleSvatek
+            "sv. Lukáše, evangelisty"
+            "svátek"
+            18.10.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \score {
   \relative c' {

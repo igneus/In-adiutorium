@@ -1,13 +1,16 @@
 \version "2.14.2"
 
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
 \header {
-  title = "svátek Uvedení Páně do chrámu (2.2.)"
+  title = \markup\titleSvatek
+            "Uvedení Páně do chrámu"
+            "svátek"
+            2.2.
   composer = "Jakub Pavlík"
   dedication = "für Liv"
 }
-
-\include "../spolecne.ly"
-\include "../dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 

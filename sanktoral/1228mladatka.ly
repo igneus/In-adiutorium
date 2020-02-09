@@ -1,11 +1,14 @@
 \version "2.16.0"
 
+\include "../spolecne.ly"
+
 \header {
-  title = "sv. Mláďátek, mučedníků (svátek, 28.12.)"
+  title = \markup\titleSvatek
+            "sv. Mláďátek, mučedníků"
+            "svátek"
+            28.12.
   composer = "Jakub Pavlík"
 }
-
-\include "../spolecne.ly"
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
