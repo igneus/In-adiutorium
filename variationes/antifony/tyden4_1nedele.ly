@@ -100,6 +100,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) g( f) g f f d \barMin c d f g g \barMaior
     a a g( f d) d( f) f g a( g f) f \barFinalis
@@ -170,6 +171,89 @@
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g bes a f f( g) g \barMaior
+    g g f e g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f a g g bes a f \mark\sipka g g \barMaior
+    g g f e g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g bes a f f( g) g \barMaior
+    \mark\sipka a a g f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g a c a \barMin
+    g a f g g \barMaior
+    a g f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy,
+    na -- še -- ho Bo -- ha!
     On dal ži -- vot na -- ší du -- ši.
   }
   \header {
@@ -685,6 +769,94 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c g f a \barMin
+    a a a g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g a \barMin
+    a a a g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f a a c \barMin
+    c c c a g f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g \barMaior
+    a a a a c c \barMin
+    b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 23"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}

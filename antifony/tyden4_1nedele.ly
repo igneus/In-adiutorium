@@ -76,8 +76,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) g( f) g f f d \barMin c d f g g \barMaior
-    a a g( f d) d( f) f g a( g f) f \barFinalis
+    f4 g f a g g bes a f g g \barMaior
+    g g f e g a g( f) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
@@ -88,7 +88,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
-    placet = "obě dvě zkusit lépe; tady po _život_ div. minima"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }

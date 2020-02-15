@@ -178,7 +178,7 @@
   \relative c'' {
     \choralniRezim
     g4 g f g( c) d c( b) a \barMin
-    b( c) a c a b g g \barFinalis
+    a b c a b g g \barFinalis
   }
   \addlyrics {
     Po -- hleď -- te k_Hos -- po -- di -- nu,
@@ -189,7 +189,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 34-I"
-    placet = "na slově _ať_ by nemělo být melisma. Zní tu velmi nepřirozeně."
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
