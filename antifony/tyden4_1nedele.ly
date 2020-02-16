@@ -147,10 +147,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g( c) c \barMaior
+    g4 a a( c) c \barMaior
     c4 c c( d) d c c \barMin
-    a4 g a a( g) g \barMaior
-    g a a( g) g \barFinalis
+    b4 c a a( g) g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -163,7 +163,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3"
-    placet = "~"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -195,11 +194,11 @@
 \noPageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d4.( f) g4( f) g e \barMaior
-    d c d4.( a) bes4( c) c( d) d \barMaior
-    e f e( d) d \barFinalis
+    g4 a g f g \barMaior
+    a b c( a) g( a) g g \barMin
+    f e f( g) g \barFinalis
   }
   \addlyrics {
     Kdo jí ten -- to chléb,
@@ -208,10 +207,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 23"
-    placet = "~ velice silný text, nemastný neslaný nápěv"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -244,8 +242,8 @@
   \relative c'' {
     \choralniRezim
     c4 c c b( c) c d e d d \barMin
-    c4 b a a g f f( g) g \barMaior
-    g a g g4. \barFinalis
+    c4 d c a b a g g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
@@ -289,21 +287,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a a g g4.( a) \barMaior
-    e4 g( a) a a a a b c a g e( a) a \barMaior
-    e4 g a a a a g f e( d) e \barFinalis
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f a c c c c b a g g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní, kdo lač -- ní a žíz -- ní
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
     po spra -- ve -- dl -- nos -- ti,
     ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 112"
-    placet = "barbarská"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }

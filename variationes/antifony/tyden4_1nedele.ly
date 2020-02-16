@@ -490,12 +490,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g( c) c \barMaior
     \mark\sipka c4 c c( d) d c c \barMin
     a4 g a a( g) g \barMaior
     g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a \mark\sipka a( c) c \barMaior
+    c4 c c( d) d c c \barMin
+    \mark\sipka b4 c a a( g) g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -754,7 +779,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d4.( f) g4( f) g e \barMaior
     d c d4.( a) bes4( c) c( d) d \barMaior
@@ -833,6 +858,50 @@
   }
   \header {
     quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 a c a c \barMin
+    c c c a g f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f \barMaior
+    g f d e d c \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 23"
@@ -855,8 +924,53 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g \barMaior
+    \mark\sipka a g f a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g f g \barMaior
+    \mark\sipka a b c( a) g( a) g g \barMin
+    f e f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 23"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -864,6 +978,14 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  Ohledně této antifony jsem si v minulosti poznamenal, že
+  \italic{"\"_ve" slávě_ melodie jakoby přesouvá přirozený slovní "přízvuk,\""}
+  ale už to nevidím jako problém. Slovní přízvuk sice nese předložka _ve_,
+  ale že je melisma na slabice nepřízvučné, ovšem dlouhé, není v českém
+  chorálu nijak nelibé či nepřirozené.
+}
 
 \score {
   \relative c'' {
@@ -887,8 +1009,13 @@
   }
 }
 
+\markup\justify{
+  ... zato tady původní verze antifony slovní přízvuk přesouvala zcela nepochybně.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b( c) c d e d d \barMin
     c4 b a a g f f( g) g \barMaior
@@ -908,6 +1035,31 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b( c) c d e d d \barMin
+    c4 \mark\sipka d c a b a g g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
+    mu da -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -982,7 +1134,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( c) a a g g4.( a) \barMaior
     e4 g( a) a a a a b c a g e( a) a \barMaior
@@ -1053,8 +1205,12 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    c4 b c d d
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f a c c c c b a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
