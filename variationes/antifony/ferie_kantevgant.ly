@@ -794,6 +794,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     g4 a c a a g \barMin
@@ -913,6 +914,85 @@
     differentia = "A"
     psalmus = ""
     id = "t1-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f\major
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    g f g( a) g g( f) f \barMin
+    g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu
+    zbož -- ně a spra -- ve -- dli -- vě;
+    on nás vy -- svo -- bo -- dí
+    z_ru -- kou na -- šich ne -- přá -- tel!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "t1-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+% streda
+
+\markup\justify{
+  (Antifona přesunutá sem, mimo žaltářové pořadí, aby přímo sousedila s antifonou podobného textu výše.)
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f\major
+    g4 a c a a g \barMin
+    a a f g f d4. c \barMaior
+    d4 d e f( a) g f d d d \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
+    po vše -- chny dny své -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    g f g g( a) g f d d d \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
+    po vše -- chny dny své -- ho ži -- vo -- ta!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -2015,29 +2095,7 @@ se bude hodit.}
   }
 }
 
-% streda
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    \key f\major
-    g4 a c a a g \barMin
-    a a f g f d4. c \barMaior
-    d4 d e f( a) g f d d d \barFinalis
-  }
-  \addlyrics {
-    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
-    po vše -- chny dny své -- ho ži -- vo -- ta.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "g"
-    psalmus = ""
-    id = "t2-st-ben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
+\pageBreak
 
 \score {
   \relative c'' {

@@ -149,10 +149,10 @@ tIctvrtekAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     \key f\major
-    g4 a c a a g \barMin
-    a a f g f d4. c \barMax
-    f4 g a a bes( c) a \barMin
-    a4 a g f e( f) d4. d \barFinalis
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    g f g( a) g g( f) f \barMin
+    g f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu
@@ -362,10 +362,9 @@ tIIuteryAntMagnificat = \score {
 tIIstredaAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
-    \key f\major
-    g4 a c a a g \barMin
-    a a f g f d4. c \barMaior
-    d4 d e f( a) g f d d d \barFinalis
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    g f g g( a) g f d d d \barFinalis
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
@@ -376,7 +375,6 @@ tIIstredaAntBenedictus = \score {
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "_Služme Hospodinu_ půjde důstojněji"
     id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
