@@ -202,7 +202,7 @@ tIInedeleInespAntIII = \score {
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
-    psalmus = "Dan 3"
+    psalmus = "Dan 3-II"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

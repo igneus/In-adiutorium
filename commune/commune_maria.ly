@@ -450,7 +450,7 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
-    psalmus = "Dan 3"
+    psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
