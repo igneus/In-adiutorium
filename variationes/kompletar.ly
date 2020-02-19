@@ -596,6 +596,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -628,6 +629,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -653,7 +655,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    piece = "responsorium - VI"
+    piece = \markup {\sestavTitulekResp}
     id = "resp"
   }
 }
