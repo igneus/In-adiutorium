@@ -666,7 +666,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -693,7 +693,7 @@
     quid = "resp."
     modus = "IV"
     piece = "responsorium - VI"
-    id = "resp"
+    id = "resp-adv"
   }
 }
 
@@ -725,7 +725,40 @@
     quid = "resp."
     modus = "IV"
     piece = "responsorium - VI"
-    id = "resp"
+    id = "resp-adv"
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \barMin f f f d e( f) g \barMax
+    g g e f d c d f f e \barFinalis
+    % V
+    \neviditelna d
+    \mark\sipka c c d( f) f f \mark\sipka e( f) f \mark\sipka \barMin f d e( f) g \barMax
+    % R
+    \neviditelna g
+    g g e f d c d f f e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, v_te -- be dů -- vě -- řu -- ji,_*
+    do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \Verse Ty mě ve -- deš a chrá -- níš, věr -- ný Bo -- že,_*
+    \Response do tvých ru -- kou svě -- řu -- ji svůj ži -- vot.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    piece = \markup {\sestavTitulekResp}
+    id = "resp-adv"
   }
 }
 

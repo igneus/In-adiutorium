@@ -312,11 +312,11 @@
 
       % R
       \neviditelna f
-      f4 f \barMin f f f f( d) e( f) g \barMax
+      f4 f \barMin f f f d e( f) g \barMax
       g g e f d c d f f e \barFinalis
       % V
       \neviditelna d
-      c d( f) f f f f f f f( d) e( f) g \barMax
+      c c d( f) f f e( f) f \barMin f d e( f) g \barMax
       % R
       \neviditelna g
       g g e f d c d f f e \barFinalis
@@ -334,7 +334,7 @@
       quid = "resp."
       modus = "IV"
       piece = \markup {\sestavTitulekResp}
-      placet = "nepřirozená melismata - důVĚřuji; Ty MĚ vedeš; SVAtému"
+      placet = "melisma SVAtému nevím nevím"
       id = "resp-adv"
     }
   }
