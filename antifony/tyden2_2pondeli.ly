@@ -191,7 +191,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a f( g) a( c) a4. \barMin a4 g a4. d, e4 g f( e) d4. \barFinalis
+    a4 a f( g) a( c) a \barMin a g a-- d, e g f( e) d \barFinalis
   }
   \addlyrics {
     Já jsem u -- bo -- žák, a -- le Pán se o mě sta -- rá.
@@ -231,8 +231,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) g g g( c b c d) c \barMin
-    b( a g) f a a g g \barFinalis
+    c4 b a c c \barMin
+    c a b a g g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -241,11 +241,8 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 45-II"
-    placet = "dlouhé melisma na _tady_ je taková marnivá zbytečnost.
-    Obejít se bez něj. A: je tónem evangelního zvolání
-    _Ženich je tady_ opravdu jásot? Vždyť je to pro družičky okamžik soudu!"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

@@ -484,8 +484,28 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a f( g) a( c) a4. \barMin a4 g a4. d, e4 g f( e) d4. \barFinalis
+  }
+  \addlyrics {
+    Já jsem u -- bo -- žák, a -- le Pán se o mě sta -- rá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 40-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a f( g) a( c) a \barMin a g a-- d, e g f( e) d \barFinalis
   }
   \addlyrics {
     Já jsem u -- bo -- žák, a -- le Pán se o mě sta -- rá.
@@ -587,7 +607,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4( a) g g g( c b c d) c \barMin
     \mark\sipka b( a g) f a a g g \barFinalis
@@ -601,6 +621,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 45-II"
+    placet = "dlouhé melisma na _tady_ je taková marnivá zbytečnost.
+    Obejít se bez něj. A: je tónem evangelního zvolání
+    _Ženich je tady_ opravdu jásot? Vždyť je to pro družičky okamžik soudu!"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -631,6 +654,47 @@
     quid = "2. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "Žalm 45-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a c c \barMin
+    c a b a g g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te mu na -- pro -- ti!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 45-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g \barMin
+    g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy,
+    jdě -- te mu na -- pro -- ti!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 45-II"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
