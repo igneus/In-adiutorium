@@ -258,8 +258,9 @@ je atypická a může bt těžké z ní přejít na žalm.}
 
 \markup\nadpisSkupiny{1}
 
-tInedeleInespAntIII = \score {
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c) c c b( d c a) g( f) g \barMin
     g f g a b c4.( d) \barMin
@@ -278,8 +279,6 @@ tInedeleInespAntIII = \score {
     piece = \markup {\sestavTitulek}
   }
 }
-
-\score { \tInedeleInespAntIII }
 
 \score {
   \relative c'' {
@@ -341,6 +340,99 @@ tInedeleInespAntIII = \score {
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{1b}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c c \mark\sipka a( g) f( g) g \barMaior
+    a g g a g f \barMin
+    a( b) c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil,
+    pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( c) c c a( g) f( g) g \barMaior
+    a g g a g \mark\sipka a c c b \barMin
+    c( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil,
+    pro -- to ho ta -- ké Bůh po -- vý -- šil
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c c a( g) f( g) g \barMaior
+    \mark\sipka g a a a g a c c b \barMin
+    c( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil,
+    pro -- to ho ta -- ké Bůh po -- vý -- šil
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny{1c}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( b) g g \barMaior
+    a g f g a c( d c) \barMin
+    c d a a g g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil,
+    pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Flp 2"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
@@ -1071,12 +1163,37 @@ moc rád a nechci ji měnit.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g'4 d' c  b( c) d( e) e \barMaior
     d4 c a b4.( d4.) \barMin
     c4 \mark\sipka a g( f g) g \barMaior
     g g( a) g g  \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu
+    ať já -- sa -- jí
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    g'4 d' c  b( c) d( e) e \barMin
+    d4 c a b4.( d4.) \barMin
+    c4 a \mark\sipka a( g) g \barMaior
+    a g f( a) g  \barFinalis
   }
   \addlyrics {
     Sy -- no -- vé Si -- ó -- nu
