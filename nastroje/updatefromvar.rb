@@ -16,6 +16,8 @@
 require 'stringio'
 require 'optparse'
 
+require 'highline'
+
 require_relative 'lib/updatefromvar/updater'
 require_relative 'lib/updatefromvar/interactive_filter'
 
@@ -39,10 +41,11 @@ end
 optparse.parse!
 
 begin
+  highline = HighLine.new
   updater = Updater.new('variationes', STDOUT)
   updater.partial_files = setup[:partial_files]
   if setup[:interactive]
-    updater.filter_proc = InteractiveFilter.new
+    updater.filter_proc = InteractiveFilter.new highline
   end
 
   files = ARGV

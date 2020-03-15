@@ -1,11 +1,14 @@
 require 'tempfile'
 
 class InteractiveFilter
+  def initialize(highline)
+    @highline = highline
+  end
+
   def call(old_score, new_score_text)
     print_diff(old_score, new_score_text)
-    print "Update ##{old_score.header['id']}? "
 
-    STDIN.gets.downcase.start_with? 'y'
+    @highline.agree "Update ##{old_score.header['id']}?"
   end
 
   protected
