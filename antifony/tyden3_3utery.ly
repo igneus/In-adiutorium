@@ -15,11 +15,15 @@
     a4 a( d) d d \barMaior
     d d c d e c d d \barMin
     c b g a( g) g \barFinalis
+
+    a^\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
     a ti, kdo ho ne -- ná -- vi -- dí,
     pr -- cha -- jí před ním.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -35,9 +39,9 @@
   \relative c'' {
     \choralniRezim
     g4( b) d \barMin e d c d d \barMaior
-    d c d c( b) g a a( g) g \barFinalis
+    d c b b c a a( g) g \barFinalis
 
-    f^\rubrVelikAleluja f f( g) g \barFinalis
+    a^\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Náš Bůh je Bo -- hem spá -- sy;
@@ -50,7 +54,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 68-II"
-    placet = "nic moc"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -63,7 +66,7 @@
     e d c d( b) g \barMin
     b a b g g \barFinalis
 
-    f^\rubrVelikAleluja f f( g) g \barFinalis
+    a^\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Po -- zem -- ské ří -- še,
@@ -151,7 +154,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f g f e f d d \barFinalis
+    a4 a g a g f e f d d \barFinalis
   }
   \addlyrics {
     Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
@@ -161,9 +164,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 119-מ"
-    placet = "melodii nevytýkám žádný vážný formální nedostatek,
-    ale k danému textu působí tak nějak uměle.
-    Začátek je zbytečně rozpohybovaný."
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -231,10 +231,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c( b) c \barMin
+    a4 g a c( d) d \barMin
     c d d d e c c( d) d \barMaior
-    d d c( b a) g( f) f( g) g \barMin
-    f g a c b a( b) a a \barFinalis
+    a d b c a( g) a( g) \barMin
+    f g a c b g a a \barFinalis
   }
   \addlyrics {
     Jest -- li -- že zno -- vu
@@ -247,7 +247,6 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
-    placet = "zejm. _nevejdete_ zkusit jinak"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
