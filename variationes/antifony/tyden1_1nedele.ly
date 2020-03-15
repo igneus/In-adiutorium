@@ -1363,7 +1363,7 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4( a g) f e d d f g g( a) a \barMaior
@@ -1482,6 +1482,30 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a a g f g g \barMaior
+    f g a g f e d \barMin
+    f g g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    U -- tí -- kej -- me se k_Hos -- po -- di -- nu;
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4( g) g( a) g4. \barMin
@@ -1505,11 +1529,217 @@ tInedeleLaudResp = \score {
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4( g) g( a) g \barMin
+    a4 bes c( bes) a g f g g \barMin
+    g4 a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din
+    je má sí -- la a sta -- teč -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a g a bes a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la
+    a sta -- teč -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g a a bes c bes( a) g4. \barMin
     a4 bes c d( bes) g g4. \barMin
     g4 a g( f) f4. \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a g f g g \barMin
+    g f e d c c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a g f g g \barMin
+    g f g a g g \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a bes a g a \barMin
+    a g f g( a) f( e) d \barMaior
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 g a a bes a g a \barMin
+    a g f g( a) \mark\sipka g( f) f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a bes a g a \barMin
+    a g f \mark\sipka g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a \mark\sipka g bes a g a \barMin
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 e d c f g a a \barMin
+    a g f bes a a \barMaior
+    g f g f \barFinalis
   }
   \addlyrics {
     Dě -- ku -- ji ti, Hos -- po -- di -- ne,

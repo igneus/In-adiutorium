@@ -247,10 +247,9 @@ tInedeleInespAntIII = \score {
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4( a g) f e d d f g g( a) a \barMaior
-    a a bes a g f g \barMin
-    a f g f f \barMaior
+    f4 g a a a g f g g \barMaior
+    f g a g f e d \barMin
+    f g g f f \barMaior
     g a f f \barFinalis
   }
   \addlyrics {
@@ -262,7 +261,6 @@ tInedeleInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-I"
-    placet = "nepřirozená, zejm. začátek"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -273,8 +271,8 @@ tInedeleInespAntIII = \score {
     \choralniRezim
     \key f \major
     f4( g) g( a) g \barMin
-    a4 bes c( bes) a g f g g4. \barMin
-    g4 a f4. f \barFinalis
+    a4 bes c( bes) a g f g g \barMin
+    g4 a f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din
@@ -295,9 +293,9 @@ tInedeleInespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g a a bes c bes( a) g \barMin
-    a4 bes c d( bes) g g \barMin
-    g4 a g( f) f \barFinalis
+    f4 g a a bes a g a \barMin
+    a g f g( a) g( f) f \barMaior
+    g a f f \barFinalis
   }
   \addlyrics {
     Dě -- ku -- ji ti, Hos -- po -- di -- ne,
@@ -305,12 +303,10 @@ tInedeleInespAntIII = \score {
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Děkuji ti, Hospodine, žes mě vyslyšel. Aleluja."
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
-    placet = "není špatná, ale na modus VI zbytečně velký rozsah"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
