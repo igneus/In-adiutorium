@@ -1,8 +1,8 @@
 require 'tempfile'
 
 class InteractiveFilter
-  def call(old_score, new_score)
-    print_diff(old_score, new_score)
+  def call(old_score, new_score_text)
+    print_diff(old_score, new_score_text)
     print "Update ##{old_score.header['id']}? "
 
     STDIN.gets.downcase.start_with? 'y'
@@ -10,12 +10,12 @@ class InteractiveFilter
 
   protected
 
-  def print_diff(old_score, new_score)
+  def print_diff(old_score, new_score_text)
     Tempfile.open('old_score') do |old_file|
       Tempfile.open('new_score') do |new_file|
         old_file.puts(old_score.text)
         old_file.flush
-        new_file.puts(new_score.text)
+        new_file.puts(new_score_text)
         new_file.flush
 
         system(

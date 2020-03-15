@@ -42,12 +42,12 @@ class Updater
           next
         end
 
-        if scores_differ?(production_score, score) && @filter_proc.call(production_score, score)
+        score_text_cleaned = clean_score score.text
+        score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
+
+        if scores_differ?(production_score, score) && @filter_proc.call(production_score, score_text_cleaned)
           @log.puts "updating ##{score_id}"
           changes += 1
-
-          score_text_cleaned = clean_score score.text
-          score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
 
           main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
         end
