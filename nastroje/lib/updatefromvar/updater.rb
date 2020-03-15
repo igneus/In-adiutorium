@@ -14,9 +14,10 @@ class Updater
 
     # options
     @partial_files = true
+    @filter_proc = proc { true }
   end
 
-  attr_accessor :partial_files
+  attr_accessor :partial_files, :filter_proc
 
   def update(main_file)
     main_src = File.read main_file
@@ -41,7 +42,7 @@ class Updater
           next
         end
 
-        if scores_differ? production_score, score
+        if scores_differ?(production_score, score) && @filter_proc.call(production_score, score)
           @log.puts "updating ##{score_id}"
           changes += 1
 

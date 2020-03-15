@@ -17,8 +17,9 @@ require 'stringio'
 require 'optparse'
 
 require_relative 'lib/updatefromvar/updater'
+require_relative 'lib/updatefromvar/interactive_filter'
 
-setup = {partial_files: true, modified: false}
+setup = {partial_files: true, modified: false, interactive: false}
 
 optparse = OptionParser.new do|opts|
   opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial files of file /MAINFILE.ly" do
@@ -28,6 +29,11 @@ optparse = OptionParser.new do|opts|
   opts.on "-m", "--git-modified", "Apply changes from all modified `variationes/*` files known to git" do
     setup[:modified] = true
   end
+
+  # option name mimicks git
+  opts.on "-p", "--patch", "Select changes to apply interactively" do
+    setup[:interactive] = true
+  end
 end
 
 optparse.parse!
@@ -35,6 +41,9 @@ optparse.parse!
 begin
   updater = Updater.new('variationes', STDOUT)
   updater.partial_files = setup[:partial_files]
+  if setup[:interactive]
+    updater.filter_proc = InteractiveFilter.new
+  end
 
   files = ARGV
   if setup[:modified]
