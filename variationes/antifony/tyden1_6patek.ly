@@ -557,6 +557,7 @@
 %tIpatekNespAntIII =
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b( c) a a g f f( g) g \barMin
     b c a a a g f f( g e) e \barFinalis
@@ -568,6 +569,70 @@
   \header {
     modus = "IV"
     differentia = "g"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    placet = "mám ji takhle rád, ale melodií vypíchnuté _a budou_
+    je barbarské. Na druhou stranu právě tenhle kousek melodie
+    je důležitý pro (alespoň mně) libou souměrnost první a druhé části."
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b( c) a a c b g( a) a \barMin
+    a g a a b c a g g \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne, a bu -- dou se
+    před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "VIII"
+    differentia = "G"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b( c) a a g f f( g) g \barMin
+    f g a a b c a g g \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne, a bu -- dou se
+    před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "VIII"
+    differentia = "G"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne, a bu -- dou se
+    před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "II"
+    differentia = "D"
     quid = "3. ant."
     psalmus = "Zj. 15"
     id = "ne-ant3"
