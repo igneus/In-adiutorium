@@ -289,6 +289,73 @@
 
   \markup\nadpisDen {slavnost Zmrtvýchvstání Páně}
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 e( a) a b( a) g g( a) a \barMin
+      a g a a( b a) g f e e \barFinalis
+    }
+    \addlyrics {
+      Chci zpí -- vat Hos -- po -- di -- nu,_*
+      ne -- boť je vel -- mi vzne -- še -- ný.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = "Zj 15"
+      fial = "antifony/velikonoce_knzkantikum.ly#t1-pa?-aleluja"
+      id = "zmrtvychvstani-mc-ant1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g( a) a a g f g( f) e \barMaior
+      e d e f e d4.( e) \barMin e4 f e d d \barFinalis
+    }
+    \addlyrics {
+      Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+      tak prah -- ne du -- še má po to -- bě, Bo -- že!
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 42"
+      fial = "antifony/velikonoce_tyden2_2pondeli.ly#rch-a1?-aleluja"
+      id = "zmrtvychvstani-mc-ant2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a g \barMin
+      g f g( a) a \barMin
+      a g( c b a g) f( g a) a( g) \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      fons_externus = "Graduale simplex, Vatikán 1975, s. 147" % tzn. antifona urcena tam presne pro dany mezizpev velikonocni vigilie
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 118"
+      id = "zmrtvychvstani-mc-ant3"
+      piece = \markup\sestavTitulek
+    }
+  }
+
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
