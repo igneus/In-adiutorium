@@ -65,6 +65,7 @@
 \input{znacky.tex}
 
 \renewcommand{\nadpisDen}[1]{
+  \phantomsection%
   \begin{center}
   {\LARGE #1}
   \end{center}
