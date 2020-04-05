@@ -355,7 +355,14 @@ module Typographus
       end
 
       score = @split_music_files[src][id]
-      if score.header['psalmus'].nil? or score.header['psalmus'] == '' then
+
+      psalm = nil
+      psalmus_header = score.header['psalmus']
+      if !(psalmus_header.nil? || psalmus_header == '') then
+        psalm = psalmus_header
+      elsif score.header['quid'] =~ /k (Benedictus|Magnificat)/
+        psalm = $1
+      else
         raise "Psalm information not found in score #{score}."
       end
 
@@ -365,7 +372,7 @@ module Typographus
         tone = ''
       end
 
-      return prepare_psalm score.header['psalmus'], tone
+      return prepare_psalm psalm, tone
     end
 
     def wrap_psalmody

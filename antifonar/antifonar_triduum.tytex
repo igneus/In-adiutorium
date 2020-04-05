@@ -271,8 +271,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphon{#ct-resp}
 
 \typMagnificat
-\antiphon{#ct-nesp-mag}
-\psalm{Magnificat}{I.g}
+\antiphonWithPsalm{#ct-nesp-mag}
 
 %%% Velky patek
 
@@ -294,8 +293,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphon{#pa-resp}
 
 \typBenedictus
-\antiphon{#pa-rch-ben}
-\psalm{Benedictus}{II.D}
+\antiphonWithPsalm{#pa-rch-ben}
 
 \modlitbaUprostredDne
 
@@ -330,8 +328,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \rubrikaResp{pa}
 
 \typMagnificat
-\antiphon{#pa-nesp-mag}
-\psalm{Magnificat}{I.D2}
+\antiphonWithPsalm{#pa-nesp-mag}
 
 %%% Bila sobota
 
@@ -353,8 +350,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 
 \newpage % ZLOM1
 \typBenedictus
-\antiphon{#so-rch-ben}
-\psalm{Benedictus}{I.D}
+\antiphonWithPsalm{#so-rch-ben}
 
 \modlitbaUprostredDne
 
@@ -389,8 +385,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \rubrikaResp{so}
 
 \typMagnificat
-\antiphon{#so-nesp-mag}
-\psalm{Magnificat}{VIII.G}
+\antiphonWithPsalm{#so-nesp-mag}
 
 %%% Zmrtvychvstani
 
@@ -413,8 +408,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 
 \newpage % ZLOM1
 \typBenedictus
-\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-ben}
-\psalm{Benedictus}{II.D}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-ben}
 
 \modlitbaUprostredDne
 
@@ -455,8 +449,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \rubrikaResp{ne}
 
 \typMagnificat
-\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
-\psalm{Magnificat}{III.a}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
 
 %%% invitatorium
 
