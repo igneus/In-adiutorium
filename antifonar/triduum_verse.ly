@@ -30,6 +30,7 @@
     id = "pa-dopo"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -53,6 +54,7 @@
     id = "pa-po"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -76,6 +78,7 @@
     id = "pa-odpo"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 % sobota
@@ -101,6 +104,7 @@
     id = "so-dopo"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -124,6 +128,7 @@
     id = "so-po"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -147,6 +152,7 @@
     id = "so-odpo"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 % nedele
@@ -172,13 +178,14 @@
     id = "ne"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }
 
 \score {
   \relative c'' {
       \choralniRezim
       \neviditelna c
-      \versRecitanda c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
+      \versRecitanda c( d) c c \barMin c a( g) \bar "" a( c) \bar "" c( d c b) \bar "" c( d c) \bar "" b( c b a g) \bar "" a( b b a) \barFinalis
     }
   \addlyrics {
     \set stanza = #""
@@ -196,4 +203,5 @@
     id = "ne-adlib"
     piece = \markup {\sestavTitulek}
   }
+  \layout { \layoutNoIndent }
 }

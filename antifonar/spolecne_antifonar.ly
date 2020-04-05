@@ -24,6 +24,10 @@
   }
 }
 
+layoutNoIndent = \layout {
+  indent = 0
+}
+
 myStaffSize = #16
 #(set-global-staff-size myStaffSize)
 
