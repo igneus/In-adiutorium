@@ -50,8 +50,6 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newenvironment{hora}{}{}
-
 \newcommand{\typRespAntifona}{
   \nadpisTypTextu{Antifona po krátkém čtení}
 }
@@ -87,7 +85,10 @@
 \setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly, ../invitatoria/zalm95text.ly}
 \setChantSource{pust_triduum.ly}
 
-\newenvironment{psalmodia}{}{}
+% print groups of psalms (under a single tone) in a single long two-column environment
+\newenvironment{psalmodia}{\begin{multicols}{2}}{\end{multicols}}
+\renewenvironment{psalmus}{}{}
+
 %\renewenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -457,7 +458,6 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \fancyhead[CE,CO]{Invitatorium}
 \label{invitatorium}
 
-\begin{hora}
 \noindent \rubrika{Velký pátek}
 \antiphon{#pa-invit}
 \noindent \rubrika{Bílá sobota}
@@ -470,11 +470,10 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 
 \simpleScore{invitatoria/zalm95_I_D.ly#i-d}
 
-\rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý z následujících
+\rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý (jeden) z následujících
   žalmů s běžným nápěvem psalmodie. Úvodní melodická ozdoba se zpívá na začátku každé strofy.}
 
 \psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
-\end{hora}
 
 %%% Doplnovaci cyklus zalmu
 
@@ -483,25 +482,25 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \label{doplnovacicyklus}
 
 \nadpisHodinka{První oddíl (dopoledne)}
-\begin{hora}
+\begin{psalmodia}
 \input{generovane/triduum/zalm120.tex}
 \input{generovane/triduum/zalm121.tex}
 \input{generovane/triduum/zalm122.tex}
-\end{hora}
+\end{psalmodia}
 
 \nadpisHodinka{Druhý oddíl (v poledne)}
-\begin{hora}
+\begin{psalmodia}
 \input{generovane/triduum/zalm123.tex}
 \input{generovane/triduum/zalm124.tex}
 \input{generovane/triduum/zalm125.tex}
-\end{hora}
+\end{psalmodia}
 
 \nadpisHodinka{Třetí oddíl (odpoledne)}
-\begin{hora}
+\begin{psalmodia}
 \input{generovane/triduum/zalm126.tex}
 \input{generovane/triduum/zalm127.tex}
 \input{generovane/triduum/zalm128.tex}
-\end{hora}
+\end{psalmodia}
 
 
 \clearpage
