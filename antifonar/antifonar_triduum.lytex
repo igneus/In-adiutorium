@@ -18,6 +18,10 @@
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
+\input{spolecne.tex}
+\input{rubriky.tex}
+\input{znacky.tex}
+
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\nazev}{Velikonoční triduum}
 
@@ -56,14 +60,6 @@
   \end{flushleft}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
-
-\input{spolecne.tex}
-\input{rubriky.tex}
-\input{znacky.tex}
-
 \renewcommand{\nadpisDen}[1]{
   \phantomsection%
   \begin{center}
@@ -71,6 +67,13 @@
   \end{center}
   \fancyhead[CE,CO]{#1}
   \addcontentsline{toc}{section}{#1}
+}
+
+\let\puvodniNadpisHodinka\nadpisHodinka
+\renewcommand*{\nadpisHodinka}[1]{
+  \phantomsection%
+  \puvodniNadpisHodinka{#1}%
+  \addcontentsline{toc}{subsection}{#1}%
 }
 
 \renewcommand{\rubrikaBenedictus}{
@@ -86,6 +89,10 @@
   \rubrika{Kantikum Panny Marie je na str. \pageref{magnificat}.}
   \end{flushleft}
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
 
 % Vlastni titulni stranka - s podtitulem, ktery v tirazi neni:
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
