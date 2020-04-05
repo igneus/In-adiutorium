@@ -90,6 +90,17 @@
   \end{flushleft}
 }
 
+% Typographus
+\setChantBasedir{..}
+\setPsalmsDir{zalmy}
+\setTmpDir{generovane/triduum}
+\setConfig{setup_antifonar_narozenipane.yml}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{pust_triduum.ly}
+
+\newenvironment{psalmodia}{}{}
+%\renewenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -135,19 +146,6 @@
 
 \pagestyle{fancy}
 
-%%% kantika z evangelii
-
-\nadpisTyden{Kantika z evangelií}{Kantika z evangelií}
-\fancyhead[CE,CO]{Kantika z evangelií}
-
-\label{benedictus}
-\input{generovane/triduum/kantikum_benedictus.tex}
-
-\label{magnificat}
-\input{generovane/triduum/kantikum_magnificat.tex}
-
-\newpage % ZLOM0
-
 %%% invitatorium
 
 \nadpisTyden{Invitatorium}{Invitatorium}
@@ -190,8 +188,8 @@ strofě.}
 \lilypondfile{generovane/triduum/pust_triduum_ct-resp.ly}
 
 \typMagnificat
-\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-mag.ly}
-\rubrikaMagnificat
+\antiphon{#ct-nesp-mag}
+\psalm{Magnificat}{I.g}
 
 %%% Velky patek
 
@@ -216,8 +214,8 @@ strofě.}
 \lilypondfile{generovane/triduum/pust_triduum_pa-resp.ly}
 
 \typBenedictus
-\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ben.ly}
-\rubrikaBenedictus
+\antiphon{#pa-rch-ben}
+\psalm{Benedictus}{II.D}
 
 \modlitbaUprostredDne
 
@@ -255,8 +253,8 @@ strofě.}
 \rubrikaResp{pa}
 
 \typMagnificat
-\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-mag.ly}
-\rubrikaMagnificat
+\antiphon{#pa-nesp-mag}
+\psalm{Magnificat}{I.D2}
 
 %%% Bila sobota
 
@@ -281,8 +279,8 @@ strofě.}
 
 \newpage % ZLOM1
 \typBenedictus
-\lilypondfile{generovane/triduum/pust_triduum_so-rch-ben.ly}
-\rubrikaBenedictus
+\antiphon{#so-rch-ben}
+\psalm{Benedictus}{I.D}
 
 \modlitbaUprostredDne
 
@@ -320,8 +318,8 @@ strofě.}
 \rubrikaResp{so}
 
 \typMagnificat
-\lilypondfile{generovane/triduum/pust_triduum_so-nesp-mag.ly}
-\rubrikaMagnificat
+\antiphon{#so-nesp-mag}
+\psalm{Magnificat}{VIII.G}
 
 %%% Zmrtvychvstani
 
@@ -347,8 +345,8 @@ strofě.}
 
 \newpage % ZLOM1
 \typBenedictus
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-ben.ly}
-\rubrikaBenedictus
+\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-ben}
+\psalm{Benedictus}{II.D}
 
 \modlitbaUprostredDne
 
@@ -387,8 +385,8 @@ strofě.}
 \rubrikaResp{ne}
 
 \typMagnificat
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_zmrtvychvstani-mag.ly}
-\rubrikaMagnificat
+\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
+\psalm{Magnificat}{III.a}
 
 %%% Doplnovaci cyklus zalmu
 
