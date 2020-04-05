@@ -8,7 +8,7 @@
 narozeni_lytex = typographus('antifonar_narozenipane.tytex')
 
 desc "Nativity of our Lord."
-task :narozeni => [ narozeni_lytex ]
+task :narozeni => [narozeni_lytex]
 
 ###############
 # Velikonocni triduum
@@ -65,7 +65,7 @@ file 'vystup/antifonar_triduum.pdf' => ['vystup/antifonar_triduum.tex', 'spolecn
   chdir '..'
 end
 
+triduum_lytex = typographus('antifonar_triduum.tytex')
+
 desc "Triduum sacrum."
-task :triduum => ['vystup/antifonar_triduum.pdf']
-
-
+task :triduum => [triduum_lytex]
