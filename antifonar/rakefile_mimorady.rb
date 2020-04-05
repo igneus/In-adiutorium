@@ -64,8 +64,10 @@ def ps_skip(canticle)
   end
 end
 
+nespornizpevy_lytex = typographus('nespornizpevy.tytex')
+
 desc "simple vespers for solemnities"
-task :nesporni => [ typographus('nespornizpevy.tytex') ] #["vystup/nespornizpevy.pdf"]
+task :nesporni => [ nespornizpevy_lytex ]
 
 task :nesporni_clean => [:snipclean] do
   sh "rm -rf vystup/nespornizpevy.*"

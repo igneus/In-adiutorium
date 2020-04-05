@@ -5,8 +5,10 @@
 ###############
 # Narozeni Pane
 
+narozeni_lytex = typographus('antifonar_narozenipane.tytex')
+
 desc "Nativity of our Lord."
-task :narozeni => [ typographus('antifonar_narozenipane.tytex') ]
+task :narozeni => [ narozeni_lytex ]
 
 ###############
 # Velikonocni triduum

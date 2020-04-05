@@ -7,8 +7,10 @@
 # be used as a preface to the first volume, the rest will be
 # appended to the volume containing psalter as 'toni communes'
 
+uvod_lytex = typographus('antifonar_uvod.tytex', 'pdflatex', true)
+
 desc "Introduction to the whole set of antiphonal volumes."
-task :uvod => [ typographus('antifonar_uvod.tytex', 'pdflatex', true) ]
+task :uvod => [ uvod_lytex ]
 
 ##############
 # sv. IV.2 
