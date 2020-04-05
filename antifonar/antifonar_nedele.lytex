@@ -135,7 +135,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant2.ly}
 \input{generovane/nedele/zalm142.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
-\input{generovane/nedele/kantikum_fp2.tex}
+\input{generovane/nedele/kantikum_flp2.tex}
 
 \pagebreak % ZLOM1
 \typResponsorium
@@ -203,7 +203,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant2.ly}
 \input{generovane/nedele/zalm16.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
-\input{generovane/nedele/kantikum_fp2.tex}
+\input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
@@ -269,7 +269,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden3_1nedele_1ne-ant2.ly}
 \input{generovane/nedele/zalm116ii.tex}
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-ant3.ly}
-\input{generovane/nedele/kantikum_fp2.tex}
+\input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
@@ -336,7 +336,7 @@ strofě.}
 \lilypondfile{generovane/nedele/tyden4_1nedele_1ne-ant2.ly}
 \input{generovane/nedele/zalm130.tex}
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-ant3.ly}
-\input{generovane/nedele/kantikum_fp2.tex}
+\input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
 \lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}

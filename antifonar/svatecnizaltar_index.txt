@@ -14,7 +14,7 @@ Doba vánoční
 
   Narození Páně (slavnost, 25.12.)
     1. nešpory
-      113, 147ii, fp2
+      113, 147ii, flp2
     modlitba se čtením
       2, 19a, 45i (+) 45ii
     vigilie
@@ -78,7 +78,7 @@ Velikonoční triduum
     modlitba uprostřed dne
       40i (+) 40ii, 54, 88i (+) 88ii
     nešpory
-      116ii, 143, fp2
+      116ii, 143, flp2
 
   Bílá sobota
     modlitba se čtením
@@ -90,7 +90,7 @@ Velikonoční triduum
     modlitba uprostřed dne
       27i (+) 27ii, 30, 76i (+) 76ii
     nešpory
-      116ii, 143, fp2
+      116ii, 143, flp2
 
 Doba velikonoční
 
@@ -232,7 +232,7 @@ Liturgické mezidobí
     ranní chvály
       rchne1t
     2. nešpory
-      110, 111, fp2
+      110, 111, flp2
 
 #######################################
 Sanktorál
@@ -243,7 +243,7 @@ Sanktorál
 
   Uvedení Páně do chrámu (svátek, 2.2.)
     1. nešpory
-      113, 147ii, fp2
+      113, 147ii, flp2
     modlitba se čtením
       2, 19a, 45i (+) 45ii
     vigilie
@@ -255,7 +255,7 @@ Sanktorál
 
   Zvěstování Páně (slavnost, 25.3.)
     1. nešpory
-      113, 147ii, fp2
+      113, 147ii, flp2
     modlitba se čtením
       2, 19a, 45i (+) 45ii
     vigilie
@@ -279,7 +279,7 @@ Sanktorál
 
   Povýšení svatého kříže (svátek, 14.9.)
     1. nešpory
-      147i, 147ii, fp2
+      147i, 147ii, flp2
     modlitba se čtením
       2, 8, 96
     vigilie
@@ -432,5 +432,5 @@ Společné texty
     modlitba uprostřed dne
       70, 85, 86
     nešpory
-      121, 130, fp2
+      121, 130, flp2
 

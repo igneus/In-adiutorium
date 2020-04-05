@@ -44,7 +44,7 @@ nesporni_zalmy = {
 nesporni_kantika = {
   'magnificat' => 'VIII.G',
   'kol1' => 'VIII.G',
-  'fp2' => 'I.D',
+  'flp2' => 'I.D',
   'zj11' => 'VIII.G'}
 $skip_verses = {'magnificat' => 2}
 
@@ -103,7 +103,7 @@ end
 
 nedelecanticleoptions = nedelecommonoptions+$o_canticletitle
 
-zalmynedele << genzalm('kantikum_fp2.zalm', nedelecanticleoptions, adresar_nedele)
+zalmynedele << genzalm('kantikum_flp2.zalm', nedelecanticleoptions, adresar_nedele)
 
 zalmynedele << genzalm('kantikum_dan3iii.zalm', dan3iiioptions, adresar_nedele)
 zalmynedele << genzalm('kantikum_dan3ii.zalm', nedelecanticleoptions, adresar_nedele)

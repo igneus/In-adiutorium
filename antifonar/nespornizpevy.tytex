@@ -332,11 +332,11 @@ ze stránek http://www.op.cz}}
 \psalm{zalm145i}{I.D}
 
 \nadpisZalmu{kantikum Fp 2}
-\label{kfp2}
+\label{kflp2}
 \cisloPisne{152}
 \simpleScore{#kfp2}
 
-\psalm{fp2}{I.D}
+\psalm{flp2}{I.D}
 
 \nadpisZalmu{kantikum Kol 1}
 \label{kkol1}
@@ -580,7 +580,7 @@ ze stránek http://www.op.cz}}
 \cisloCastiPisne
 \simpleScore{#srdce-ant3}
 
-\odkazKantikum{kfp2}{Fp 2}
+\odkazKantikum{kflp2}{Fp 2}
 
 \cisloCastiPisne
 \simpleScore{../mezidobi_nejsvsrdce.ly#1ne-resp}
@@ -735,7 +735,7 @@ ze stránek http://www.op.cz}}
 
 \odkazZalm{z121}{121}
 \odkazZalm{z130}{130}
-\odkazKantikum{kfp2}{Fp 2}
+\odkazKantikum{kflp2}{Fp 2}
 
 \cisloCastiPisne
 \simpleScore{../commune/zazemrele.ly#ne-r}
