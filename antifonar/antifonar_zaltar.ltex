@@ -105,6 +105,9 @@ V~době adventní, vánoční, postní a velikonoční:
 \newcommand{\kantikum}[1]{
   \input{generovane/zaltar/kantikum_#1.tex}}
 
+% zapnout generovani index zalmu (viz spolecne.ly, \nadpisZalmu)
+\newcommand{\indexOfPsalmsEnabled}{1}
+
 % multind vnucuje natvrdo vlastni format nadpisu rejstriku,
 % coz nechceme. Predefinovat \printindex
 % zdroj: http://tex.stackexchange.com/a/79473/13146

@@ -333,7 +333,7 @@
   \begin{center}%
     \textbf{#1}%
   \end{center}%
-  \index{zalmy}{#1}%
+  \ifdef{\indexOfPsalmsEnabled}{\index{zalmy}{#1}}{}%
   \nopagebreak%
 }
 
@@ -343,7 +343,7 @@
   \begin{center}%
     \textbf{#1}%
   \end{center}%
-  \index{zalmy}{#1}%
+  \ifdef{\indexOfPsalmsEnabled}{\index{zalmy}{#1}}{}%
   \nopagebreak%
 }
 
