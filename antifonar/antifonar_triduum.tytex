@@ -307,9 +307,11 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphonWithPsalmTone{#pa-up-odpo}
 \rubrikaDoplnovaciCyklus
 
+\begin{psalmodia}
 \input{generovane/triduum/zalm40.tex}
 \input{generovane/triduum/zalm54.tex}
 \input{generovane/triduum/zalm88.tex}
+\end{psalmodia}
 
 \typVers
 \rubrika{dopoledne:}
@@ -363,9 +365,11 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphonWithPsalmTone{#so-up-odpo}
 \rubrikaDoplnovaciCyklus
 
+\begin{psalmodia}
 \input{generovane/triduum/zalm27.tex}
 \input{generovane/triduum/zalm30.tex}
 \input{generovane/triduum/zalm76.tex}
+\end{psalmodia}
 
 \typVers
 \rubrika{dopoledne:}
@@ -421,9 +425,11 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-odpo}
 \rubrikaDoplnovaciCyklus
 
+\begin{psalmodia}
 \input{generovane/triduum/zalm118i.tex}
 \input{generovane/triduum/zalm118ii.tex}
 \input{generovane/triduum/zalm118iii.tex}
+\end{psalmodia}
 
 \typVers
 \rubrika{dopoledne, v poledne i odpoledne:}
