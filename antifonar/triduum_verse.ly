@@ -30,7 +30,6 @@
     id = "pa-dopo"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -54,7 +53,6 @@
     id = "pa-po"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -78,7 +76,6 @@
     id = "pa-odpo"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 % sobota
@@ -104,7 +101,6 @@
     id = "so-dopo"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -128,7 +124,6 @@
     id = "so-po"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -152,7 +147,6 @@
     id = "so-odpo"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 % nedele
@@ -178,7 +172,6 @@
     id = "ne"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
 
 \score {
@@ -203,5 +196,4 @@
     id = "ne-adlib"
     piece = \markup {\sestavTitulek}
   }
-  \layout { \layoutNoIndent }
 }
