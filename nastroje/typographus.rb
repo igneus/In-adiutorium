@@ -243,6 +243,10 @@ module Typographus
         r
       end
 
+      l.gsub!(/\\psalmTone\{(.*)\}/) do
+        prepare_psalm_tone($1) + "\n\n"
+      end
+
       l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
         psalm_tone = $3 
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil

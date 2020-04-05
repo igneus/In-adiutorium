@@ -9,6 +9,7 @@
 \usepackage{multicol} % sazba ve sloupcich
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
+\usepackage[backend=biber,style=verbose-trad1]{biblatex} % bibliography
 
 % kvuli znacky.tex:
 \usepackage{zref-savepos}
@@ -17,6 +18,8 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
+
+\bibliography{bibliografie_admc}
 
 \input{spolecne.tex}
 \input{rubriky.tex}
@@ -131,6 +134,123 @@
 \fancyfoot{}
 
 \pagestyle{fancy}
+
+\nadpisDen{Předmluva}
+
+Cílem této knížky je umožnit kompletní chorální zpěv všech hodinek denní modlitby církve
+v českém jazyce pro dny Velikonočního tridua. Pro texty, které tradičně mají své vlastní
+nápěvy (zejm. antifony), se podává notový zápis, pro texty zpívané na typisované recitativní
+nápěvy (žalmy, kantika) pak v notách příslušné melodické vzorce a text s vyznačenými slabikami
+pro melodii významnými.
+
+\paragraph{Další potřebné knihy}
+Není cílem nahradit oficiální liturgické knihy. Proto knížka neobsahuje texty, u nichž zpěv
+nepředpokládáme (čtení, přímluvy), které je třeba vzít z příslušného místa breviáře,
+ale ani hymny, jejichž nápěvy vyšly v oficiálních hymnářích.\footnote{
+  \cite{hymnarcerveny}\\\cite{hymnarzeleny}
+}
+Konečně nejsou zahrnuty texty a zpěvy kompletáře, protože ty jsou na webu inadiutorium.cz
+k mání v samostatné knížce.
+
+\paragraph{Zpěv žalmů a kantik}
+
+Každý žalm i kantikum má (podle tóniny, v níž je složena antifona, a začátku její melodie)
+přiřazen nápěv.
+Každý verš žalmu či kantika je rozdělen hvězdičkou na dva poloverše,
+podobně i žalmový nápěv je v zásadě dvoudílný
+(viz větší rozdělovník ve druhé třetině vzorce). Většina textu se recituje na jednom
+tónu, na konci každého poloverše je jednoduchá melodická ozdoba.
+Některé delší verše mají první poloverš dále rozdělen na dvě půlky
+tkzv. flexou (křížek v textu), která se v nápěvu projeví poklesem o sekundu
+nebo tercii (viz menší rozdělovník v první třetině vzorce).
+Součástí žalmového nápěvu je také úvodní ozdoba, která se zpívá pouze na začátku
+prvního verše žalmu či kantika -- s výjimkou Zachariášova kantika a kantika
+Panny Marie, kde se zpívá na začátku každého verše.
+
+\psalmTone{VIII.G}
+
+Zatímco úvodní ozdoba padne vždy na dané počáteční slabiky bez ohledu na jejich kvality,
+flexa a ozdoby zakončující poloverše se nasazují tak, aby hudební přízvuk spadal
+vjedno s hlavním nebo vedlejším přízvukem slovním.
+Každá ozdoba sestává z jedné nebo dvou \uv{přízvučných not}
+(ve vzorci označeny čárkou), po každé přízvučné notě je prostor na jednu
+nebo dvě nepřízvučné slabiky, před první \uv{přízvučnou notou}
+může (ale nemusí) být jedna až tři \uv{přípravné noty,} které nenesou
+hudební přízvuk, ale opouštějí recitační tón.
+Ve výše reprodukovaném ukázkovém vzorci (nápěv VIII.G) vidíme,
+že ozdoba na konci prvního i druhého poloverše má jen jedinou
+\uv{přízvučnou notu}; ve druhém poloverši jí předcházejí dvě noty
+přípravné, v prvním přípravné noty nejsou.
+
+S trochou cviku není příliš těžké na chorální nápěvy zpívat přímo z breviáře,
+ale pro pohodlí méně zkušených zpěváků a pro jednotnost přednesu
+slabiky významné pro nasazení nápěvu v textech žalmů a kantik zvýrazňujeme.
+Slabiky odpovídající \uv{přízvučným notám} jsou vyznačeny podtržením,
+slabiky odpovídající \uv{přípravným notám} jsou tištěny kruzívou.
+
+Pro názornost můžeme výklad ilustrovat několika notovými ukázkami.
+Na výše uvedený vzorec zkusíme zpívat začátek žalmu 143 (figuruje v nešporách Velkého pátku,
+jinak v ranních chválách čtvrtka 4. týdne žaltáře):
+
+\simpleScore{antifonar/triduum_priklady.ly#143v1}
+
+První verš (a jen on) začíná úvodní ozdobou. Následuje flexa,
+kde po přízvučné slabice jsou dvě nepřízvučné, jsou tedy využity
+všechny noty, které daná část vzorce nabízí.
+Naproti tomu oba konce poloveršů mají po přízvučné slabice jen jednu
+nepřízvučnou. Noty, které jsou ve vzorci uzavřeny do závorek jako volitelné,
+se v tomto případě nevyužijí.
+
+\simpleScore{antifonar/triduum_priklady.ly#143v2}
+
+Úvodní ozdoba se v žalmech a většině kantik zpívá jen v prvním verši, proto
+zde (jsme u druhého verše žalmu 143) chybí. Verš není dlouhý, proto neobsahuje
+ani flexu. Přízvučné slabiky vycházejí tak, že noty v závorkách ani zde nejsou
+potřeba.
+
+\paragraph{Zpěv žalmů v modlitbě uprostřed dne}
+
+V modlitbě uprostřed dne je přiřazení žalmů k antifonám (a tím pádem
+k nápěvům, na které se žalmy zpívají) volnější než v ostatních hodinkách:
+antifona se bere podle denní doby (dopoledne/poledne/odpoledne).
+Jednou se vždy vezmou žalmy pro příslušný den určené.
+Pokud se modliteb během dne koná více než jedna (dvě nebo všechny tři),
+pro jednu (libovolnou) se vezmou žalmy ze dne, pro dvě zbylé
+žalmy z doplňovacího cyklu.
+
+V důsledku výše popsaného uspořádání nebylo možné žalmy pro modlitbu
+uprostřed dne označkovat přímo pro konkrétní nápěvy.
+Proto jsou v každém poloverši označené poslední dvě přízvučné slabiky.
+Odpočítat si potřebné slabiky přípravné (je-li to potřeba)
+je ponecháno na zpěvákovi.
+
+\paragraph{Chybějící nápěvy}
+Chorálními nápěvy jsou opatřeny všechny tradičně zpívané části oficia --
+s výjimkou responsorií modlitby se čtením.
+Jako nouzové prozatímní řešení nabízíme jejich texty s vyznačenými
+přízvučnými slabikami a navrhujeme zpívat je na nápěvy žalmů
+(jejichž výběr přenecháváme libovůli kantorů).
+
+\paragraph{Odchylky od římských chorálních knih}
+Zpěvákovi znalému soudobých chorálních knih ze Solesmes neujde, že se od nich předkládaná knížka
+odklání v práci se společnými nápěvy.
+U evangelních kantik (Zachariášovo kantikum, kantikum Panny Marie) nikdy nepoužíváme
+slavnostní mediaci.
+Nápěvy žalmů pak volíme výhradně v rámci systému osmi modů (+ tonus peregrinus),
+zatímco novější solesmeské chorální knihy pracují s širším modálním systémem.
+Varianty nápěvů volíme z palety obvyklé v římských chorálních knihách první poloviny
+20. století.
+
+Nepočítáme se zpěvem čtení (jak krátkých čtení denních hodinek, tak lekcí modlitby se čtením)
+ani přímluv a nenabízíme pro ně nápěvy.
+
+Normativní textovou předlohou je Denní modlitba církve (oficiální český překlad breviáře
+v nejnovější verzi), proto nijak nezohledňujeme odchylky mezi latinským antifonářem
+a latinským breviářem - jak pokud jde o texty jednotlivých zpěvů
+(antifonář ve velké míře nahrazuje \uv{netradiční} texty existujícími antifonami z pokladu
+gregoriánského chorálu),
+tak pokud jde o prvky, které antifonář přidává nad rámec breviáře,
+např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum2009}
 
 %%% Zeleny ctvrtek
 

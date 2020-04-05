@@ -43,6 +43,15 @@ myStaffSize = #16
 
 % choral --------------------------------------------------------
 
+#(define-markup-command (lyraccent layout props arg)(markup?)
+   "vyznacit slabiku jako akcent"
+   (interpret-markup layout props
+		     (markup #:underline arg)))
+#(define-markup-command (lyrprep layout props arg)(markup?)
+   "vyznacit slabiku jako pripravnou"
+   (interpret-markup layout props
+		     (markup #:italic arg)))
+
 choralniRezim = {
   % nepsat predznamenani tempa (neni tempo)
   \override Score.TimeSignature.stencil = ##f
