@@ -3,14 +3,13 @@
 # for Christmas, Easter etc.
 
 ###############
-# sv. 2: Narozeni Pane
+# Narozeni Pane
 
 desc "Nativity of our Lord."
 task :narozeni => [ typographus('antifonar_narozenipane.tytex') ]
 
 ###############
-# sv. 1:  Svaty tyden a Velikonocni oktav
-# (zatim jen: velikonocni triduum)
+# Velikonocni triduum
 
 zalmy_triduum = []
 noty_triduum = []

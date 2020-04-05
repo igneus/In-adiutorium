@@ -19,9 +19,6 @@
 \usepackage{bookman}
 
 \newcommand{\autor}{Jakub Pavlík}
-\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\edicniRada}{výběrová řada}
-\newcommand{\cisloSvazku}{2}
 \newcommand{\nazev}{Velikonoční triduum}
 
 \newcommand{\textDoTiraze}{
@@ -93,10 +90,6 @@
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
 \begin{titlepage}
   \begin{center}
-    \soubornyNazev
-
-    Svazeček \cisloSvazku.
-
     \vspace*{4cm}
 
     {\Huge \textbf{\nazev}}
@@ -113,7 +106,7 @@
 
     \vspace{1cm}
 
-    {\large \autor}
+    Texty Denní modlitby církve nápěvy opatřil \autor.
 
     \vfill
     In adiutorium
@@ -421,6 +414,6 @@ strofě.}
 \prazdnaStranka
 
 \clearpage
-\tirazSvazkuAntifonare
+\tiraz
 
 \end{document}

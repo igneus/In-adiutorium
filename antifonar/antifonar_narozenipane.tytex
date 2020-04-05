@@ -24,9 +24,6 @@
 \input{znacky.tex}
 
 \newcommand{\autor}{Jakub Pavlík}
-\newcommand{\soubornyNazev}{Antifonář k Denní modlitbě církve}
-\newcommand{\edicniRada}{výběrová řada}
-\newcommand{\cisloSvazku}{2}
 \newcommand{\nazev}{Narození Páně}
 
 \newcommand{\textDoTiraze}{
@@ -93,7 +90,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\titulniStrankaSvazkuAntifonare
+\pagestyle{empty} % bez hlavicky a bez cisla stranky
+\begin{titlepage}
+  \begin{center}
+    \vspace*{4cm}
+
+    {\Large \textbf{slavnost}}
+
+    \vspace{5mm}
+
+    {\Huge \textbf{\nazev}}
+
+    \vspace{1cm}
+
+    Texty Denní modlitby církve nápěvy opatřil \autor.
+
+    \vfill
+    In adiutorium
+
+    \onlyyeardate \today
+  \end{center}
+\end{titlepage}
 
 \prazdnaStranka
 
@@ -351,6 +368,6 @@
 
 \pagebreak
 
-\tirazSvazkuAntifonare
+\tiraz
 
 \end{document}
