@@ -368,6 +368,9 @@ strofě.}
 \rubrika{dopoledne, v poledne i odpoledne:}
 \lilypondfile{generovane/triduum/triduum_verse_ne.ly}
 
+\rubrika{nebo:}
+\lilypondfile{generovane/triduum/triduum_verse_ne-adlib.ly}
+
 \newpage % ZLOM1
 \nespory
 

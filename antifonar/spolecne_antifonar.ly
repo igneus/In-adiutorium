@@ -118,3 +118,6 @@ sestavTitulek = \markup {}
 
 % oznacuje volitelne aleluja na konci
 rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
+
+versRecitanda = { c\breve }
+versNeuma = { b4 c( b a g) a( b b a) }

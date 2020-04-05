@@ -10,17 +10,17 @@
 % patek
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f f\breve d4 \parenthesize d \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Klaníme se ti, Kriste, a velebí" -- me tě,
+    \Verse "Klaníme se ti, Kriste, a velebíme" \markup\italic{tě,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "neboť svým křížem jsi vykoupil" svět. \skip 1
+    \Response "neboť svým křížem jsi vykoupil" \markup\italic{svět.}
   }
   \header {
     quid = "verš"
@@ -33,17 +33,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f f\breve d4 \parenthesize d \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Pamatuj na mě, Pa" -- ne, \skip 1
+    \Verse "Pamatuj na mě, Pa" -- \markup\italic{ne,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "až přijdeš do svého krá" -- lov -- ství.
+    \Response "až přijdeš do svého králov" -- \markup\italic{ství.}
   }
   \header {
     quid = "verš"
@@ -56,17 +56,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f f\breve d4 \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Mezi mrtvými je moje lo" -- že,
+    \Verse "Mezi mrtvými je moje lo" -- \markup\italic{že,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "mezi zabitými, kteří leží v hro" -- bě.
+    \Response "mezi zabitými, kteří leží v hro" -- \markup\italic{bě.}
   }
   \header {
     quid = "verš"
@@ -81,17 +81,17 @@
 % sobota
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f f\breve d4 \parenthesize d \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Nezanecháš mou duši v pod" -- svě -- tí,
+    \Verse "Nezanecháš mou duši v podsvě" -- \markup\italic{tí,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "nedopustíš, aby tvůj svatý spatřil poruše" -- ní.
+    \Response "nedopustíš, aby tvůj svatý spatřil poruše" -- \markup\italic{ní.}
   }
   \header {
     quid = "verš"
@@ -104,19 +104,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f
-    % f f % siditko
-    f\breve d4 \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Hospodin usmrcuje i oživu" -- je,
+    \Verse "Hospodin usmrcuje i oživu" -- \markup\italic{je,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "uvádí do říše smrti a zase přivádí na" -- zpět.
+    \Response "uvádí do říše smrti a zase přivádí na" -- \markup\italic{zpět.}
   }
   \header {
     quid = "verš"
@@ -129,17 +127,17 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \neviditelna f f\breve d4 \parenthesize d \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Když položili Pána do" hro -- bu,
+    \Verse "Když položili Pána do hro" -- \markup\italic{bu,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "zapečetili kámen a k hrobu postavili" stráž.
+    \Response "zapečetili kámen a k hrobu postavili" \markup\italic{stráž.}
   }
   \header {
     quid = "verš"
@@ -154,18 +152,17 @@
 % nedele
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    % f f % siditko
-    \neviditelna f f\breve d4 \barFinalis
+    \neviditelna c \versRecitanda \versNeuma \barFinalis
   }
   \addlyrics {
     \set stanza = #""
-    \Verse "Toto je den, který učinil Hospodin, alelu" -- ja,
+    \Verse "Toto je den, který učinil Hospodin, alelu" -- \markup\italic{ja,}
   }
   \addlyrics {
     \set stanza = #""
-    \Response "jásejme a radujme se z něho, alelu" -- ja.
+    \Response "jásejme a radujme se z něho, alelu" -- \markup\italic{ja.}
   }
   \header {
     quid = "verš"
@@ -173,6 +170,30 @@
     differentia = ""
     psalmus = ""
     id = "ne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      \versRecitanda c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
+    }
+  \addlyrics {
+    \set stanza = #""
+    \Verse "Toto je den, který učinil" Hos -- po -- din, a -- le -- lu -- ja.
+  }
+  \addlyrics {
+    \set stanza = #""
+    \Response "jásejme a radujme se" z_ně -- ho, \skip 1 a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "verš"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "ne-adlib"
     piece = \markup {\sestavTitulek}
   }
 }
