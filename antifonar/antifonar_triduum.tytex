@@ -76,20 +76,6 @@
   \addcontentsline{toc}{subsection}{#1}%
 }
 
-\renewcommand{\rubrikaBenedictus}{
-  \begin{flushleft}
-  \noindent
-  \rubrika{Zachariášovo kantikum je na str. \pageref{benedictus}.}
-  \end{flushleft}
-}
-
-\renewcommand{\rubrikaMagnificat}{
-  \begin{flushleft}
-  \noindent
-  \rubrika{Kantikum Panny Marie je na str. \pageref{magnificat}.}
-  \end{flushleft}
-}
-
 % Typographus
 \setChantBasedir{..}
 \setPsalmsDir{zalmy}
