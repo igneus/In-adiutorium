@@ -95,7 +95,7 @@
 \setPsalmsDir{zalmy}
 \setTmpDir{generovane/triduum}
 \setConfig{setup_antifonar_narozenipane.yml}
-\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly, ../invitatoria/zalm95text.ly}
 \setChantSource{pust_triduum.ly}
 
 \newenvironment{psalmodia}{}{}
@@ -145,26 +145,6 @@
 \fancyfoot{}
 
 \pagestyle{fancy}
-
-%%% invitatorium
-
-\nadpisTyden{Invitatorium}{Invitatorium}
-\fancyhead[CE,CO]{Invitatorium}
-\label{invitatorium}
-
-\begin{hora}
-\noindent \rubrika{Velký pátek}
-\lilypondfile{generovane/triduum/pust_triduum_pa-invit.ly}
-\noindent \rubrika{Bílá sobota}
-\lilypondfile{generovane/triduum/pust_triduum_so-invit.ly}
-\newpage % ZLOM1
-\noindent \rubrika{Zmrtvýchvstání Páně}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_invit.ly}
-
-\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
-strofě.}
-\input{generovane/triduum/zalm95.tex}
-\end{hora}
 
 %%% Zeleny ctvrtek
 
@@ -387,6 +367,31 @@ strofě.}
 \typMagnificat
 \antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
 \psalm{Magnificat}{III.a}
+
+%%% invitatorium
+
+\nadpisDen{Invitatorium}
+\fancyhead[CE,CO]{Invitatorium}
+\label{invitatorium}
+
+\begin{hora}
+\noindent \rubrika{Velký pátek}
+\lilypondfile{generovane/triduum/pust_triduum_pa-invit.ly}
+\noindent \rubrika{Bílá sobota}
+\lilypondfile{generovane/triduum/pust_triduum_so-invit.ly}
+\noindent \rubrika{Zmrtvýchvstání Páně}
+\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_invit.ly}
+
+\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
+  strofě.}
+
+\simpleScore{invitatoria/zalm95_I_D.ly#i-d}
+
+\rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý z následujících
+  žalmů s běžným nápěvem psalmodie. Úvodní melodická ozdoba se zpívá na začátku každé strofy.}
+
+\psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
+\end{hora}
 
 %%% Doplnovaci cyklus zalmu
 

@@ -61,5 +61,6 @@ zalmXCVtonusID = \score {
     differentia = "D"
     fons_externus = \markup\justify{volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.}
     piece = \markup\sestavTitulekBezZalmu
+    id = "i-d"
   }
 }
