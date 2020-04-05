@@ -364,7 +364,7 @@ module Typographus
 
     def prepare_psalm_tone(tone)
       tone = tone.gsub('.', '-')
-      return prepare_generic_score '../psalmodie.ly#'+tone
+      return prepare_generic_score 'psalmodie.ly#'+tone
     end
 
     def prepare_psalm_tone_f(fial)
@@ -372,10 +372,10 @@ module Typographus
 
       score = @split_music_files[src][id]
       mod = score.header['modus'].gsub(' ', '')
-      diff = score.header['differentia'].gsub('*', 'x').gsub(' ', '')
+      diff = score.header['differentia'].gsub(' ', '')
       psalm_tone = "#{mod}-#{diff}"
 
-      return prepare_generic_score '../psalmodie.ly#'+psalm_tone
+      return prepare_generic_score 'psalmodie.ly#'+psalm_tone
     end
 
     # converts a Czech psalm name how it is customarily used in the project
