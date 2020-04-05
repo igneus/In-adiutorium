@@ -235,6 +235,14 @@ module Typographus
         r
       end
 
+      l.gsub!(/\\antiphonWithPsalmTone\{(.*)\}/) do
+        r = prepare_generic_score($1) + "\n\n"
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone_f($1) + "\n\n"
+        end
+        r
+      end
+
       l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
         psalm_tone = $3 
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil

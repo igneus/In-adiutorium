@@ -180,12 +180,12 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\antiphon{#pa-up-dopo}
+\antiphonWithPsalmTone{#pa-up-dopo}
 \newpage % ZLOM1
 \rubrika{v poledne:}
-\antiphon{#pa-up-po}
+\antiphonWithPsalmTone{#pa-up-po}
 \rubrika{odpoledne:}
-\antiphon{#pa-up-odpo}
+\antiphonWithPsalmTone{#pa-up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm40.tex}
@@ -239,11 +239,11 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\antiphon{#so-up-dopo}
+\antiphonWithPsalmTone{#so-up-dopo}
 \rubrika{v poledne:}
-\antiphon{#so-up-po}
+\antiphonWithPsalmTone{#so-up-po}
 \rubrika{odpoledne:}
-\antiphon{#so-up-odpo}
+\antiphonWithPsalmTone{#so-up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm27.tex}
@@ -299,11 +299,11 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\antiphon{velikonoce_velikonocnioktav.ly#up-dopo}
+\antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-dopo}
 \rubrika{v poledne:}
-\antiphon{velikonoce_velikonocnioktav.ly#up-po}
+\antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-po}
 \rubrika{odpoledne:}
-\antiphon{velikonoce_velikonocnioktav.ly#up-odpo}
+\antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm118i.tex}
@@ -325,6 +325,10 @@
 \newpage % ZLOM1
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant2}
 \antiphon{velikonoce_velikonocnioktav.ly#nesp-ant3}
+
+\rubrika{Verše kantika zpívá kantor, chór odpovídá střídavě dvěma variantami
+  odpovědi (jednoduché/zdvojené aleluja).}
+
 \lilypondfile{kantikum-Zj19.ly}
 
 \newpage % ZLOM1
