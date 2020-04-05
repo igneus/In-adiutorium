@@ -7,10 +7,7 @@
 
 DoubleResponse = \lyricmode {
   \markup {
-    \with-color ##'red {
-      % \concat { \override #'(font-name . "liturgy") {R} : }
-      \concat { \override #'(font-name . "Junicode") { \char ##x0211F \char ##x0211F } : }
-    }
+    \concat { \override #'(font-name . "Junicode") { \char ##x0211F \char ##x0211F } : }
   }
 }
 
@@ -101,5 +98,6 @@ alal = \lyricmode { \DoubleResponse }
   }
   \layout {
     ragged-right = ##t
+    indent = 0
   }
 }

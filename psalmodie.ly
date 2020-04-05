@@ -286,7 +286,7 @@
   \header {
     modus = "IV alt"
     differentia = "c"
-    id = "IV alt-c"
+    id = "IValt-c"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -301,7 +301,7 @@
   \header {
     modus = "IV alt"
     differentia = "A"
-    id = "IV alt-A"
+    id = "IValt-A"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -316,7 +316,7 @@
   \header {
     modus = "IV alt"
     differentia = "A*"
-    id = "IV alt-A*"
+    id = "IValt-A*"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -331,7 +331,7 @@
   \header {
     modus = "IV alt"
     differentia = "d"
-    id = "IV alt-d"
+    id = "IValt-d"
     piece = \markup\sestavTitulekBezZalmu
   }
 }

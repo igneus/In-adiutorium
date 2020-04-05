@@ -143,15 +143,12 @@
 \nespory
 
 \typZalmy
-\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant1.ly}
-\input{generovane/triduum/zalm72i.tex}
-\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant2.ly}
-\input{generovane/triduum/zalm72ii.tex}
-\lilypondfile{generovane/triduum/pust_triduum_ct-nesp-ant3.ly}
-\input{generovane/triduum/kantikum_zj11.tex}
+\antiphonWithPsalm{#ct-nesp-ant1}
+\antiphonWithPsalm{#ct-nesp-ant2}
+\antiphonWithPsalm{#ct-nesp-ant3}
 
 \typRespAntifona
-\lilypondfile{generovane/triduum/pust_triduum_ct-resp.ly}
+\antiphon{#ct-resp}
 
 \typMagnificat
 \antiphon{#ct-nesp-mag}
@@ -167,17 +164,14 @@
 \rubrikaInvitatorium
 
 \typZalmy
-\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant1.ly}
-\input{generovane/triduum/zalm51.tex}
-\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant2.ly}
-\input{generovane/triduum/kantikum_hab3.tex}
-\lilypondfile{generovane/triduum/pust_triduum_pa-rch-ant3.ly}
-\input{generovane/triduum/zalm147ii.tex}
+\antiphonWithPsalm{#pa-rch-ant1}
+\antiphonWithPsalm{#pa-rch-ant2}
+\antiphonWithPsalm{#pa-rch-ant3}
 
 \newpage % ZLOM1
 \typRespAntifona
 \label{pa_resp}
-\lilypondfile{generovane/triduum/pust_triduum_pa-resp.ly}
+\antiphon{#pa-resp}
 
 \typBenedictus
 \antiphon{#pa-rch-ben}
@@ -186,12 +180,12 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\lilypondfile{generovane/triduum/pust_triduum_pa-up-dopo.ly}
+\antiphon{#pa-up-dopo}
 \newpage % ZLOM1
 \rubrika{v poledne:}
-\lilypondfile{generovane/triduum/pust_triduum_pa-up-po.ly}
+\antiphon{#pa-up-po}
 \rubrika{odpoledne:}
-\lilypondfile{generovane/triduum/pust_triduum_pa-up-odpo.ly}
+\antiphon{#pa-up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm40.tex}
@@ -200,21 +194,18 @@
 
 \typVers
 \rubrika{dopoledne:}
-\lilypondfile{generovane/triduum/triduum_verse_pa-dopo.ly}
+\simpleScore{antifonar/triduum_verse.ly#pa-dopo}
 \rubrika{v poledne:}
-\lilypondfile{generovane/triduum/triduum_verse_pa-po.ly}
+\simpleScore{antifonar/triduum_verse.ly#pa-po}
 \newpage % ZLOM1
 \rubrika{odpoledne:}
-\lilypondfile{generovane/triduum/triduum_verse_pa-odpo.ly}
+\simpleScore{antifonar/triduum_verse.ly#pa-odpo}
 
 \nespory
 
-\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant1.ly}
-\input{generovane/triduum/zalm116ii.tex}
-\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant2.ly}
-\input{generovane/triduum/zalm143.tex}
-\lilypondfile{generovane/triduum/pust_triduum_pa-nesp-ant3.ly}
-\input{generovane/triduum/kantikum_fp2.tex}
+\antiphonWithPsalm{#pa-nesp-ant1}
+\antiphonWithPsalm{#pa-nesp-ant2}
+\antiphonWithPsalm{#pa-nesp-ant3}
 
 \rubrikaResp{pa}
 
@@ -232,16 +223,13 @@
 \rubrikaInvitatorium
 
 \typZalmy
-\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant1.ly}
-\input{generovane/triduum/zalm64.tex}
-\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant2.ly}
-\input{generovane/triduum/kantikum_iz38.tex}
-\lilypondfile{generovane/triduum/pust_triduum_so-rch-ant3.ly}
-\input{generovane/triduum/zalm150.tex}
+\antiphonWithPsalm{#so-rch-ant1}
+\antiphonWithPsalm{#so-rch-ant2}
+\antiphonWithPsalm{#so-rch-ant3}
 
 \typRespAntifona
 \label{so_resp}
-\lilypondfile{generovane/triduum/pust_triduum_so-resp.ly}
+\antiphon{#so-resp}
 
 \newpage % ZLOM1
 \typBenedictus
@@ -251,11 +239,11 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\lilypondfile{generovane/triduum/pust_triduum_so-up-dopo.ly}
+\antiphon{#so-up-dopo}
 \rubrika{v poledne:}
-\lilypondfile{generovane/triduum/pust_triduum_so-up-po.ly}
+\antiphon{#so-up-po}
 \rubrika{odpoledne:}
-\lilypondfile{generovane/triduum/pust_triduum_so-up-odpo.ly}
+\antiphon{#so-up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm27.tex}
@@ -264,22 +252,19 @@
 
 \typVers
 \rubrika{dopoledne:}
-\lilypondfile{generovane/triduum/triduum_verse_so-dopo.ly}
+\simpleScore{antifonar/triduum_verse.ly#so-dopo}
 \rubrika{v poledne:}
-\lilypondfile{generovane/triduum/triduum_verse_so-po.ly}
+\simpleScore{antifonar/triduum_verse.ly#so-po}
 \rubrika{odpoledne:}
-\lilypondfile{generovane/triduum/triduum_verse_so-odpo.ly}
+\simpleScore{antifonar/triduum_verse.ly#so-odpo}
 
 \newpage % ZLOM1
 \nespory
 
 \typZalmy
-\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant1.ly}
-\input{generovane/triduum/zalm116ii.tex}
-\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant2.ly}
-\input{generovane/triduum/zalm143.tex}
-\lilypondfile{generovane/triduum/pust_triduum_so-nesp-ant3.ly}
-\input{generovane/triduum/kantikum_fp2.tex}
+\antiphonWithPsalm{#so-nesp-ant1}
+\antiphonWithPsalm{#so-nesp-ant2}
+\antiphonWithPsalm{#so-nesp-ant3}
 
 \rubrikaResp{so}
 
@@ -297,17 +282,14 @@
 \rubrikaInvitatorium
 
 \typZalmy
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant1.ly}
-\input{generovane/triduum/zalm63.tex}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant1}
 \newpage % ZLOM1
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant2.ly}
-\input{generovane/triduum/kantikum_dan3iii.tex}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_rch-ant3.ly}
-\input{generovane/triduum/zalm149.tex}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant2}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant3}
 
 \typRespAntifona
 \label{ne_resp}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_resp.ly}
+\antiphon{velikonoce_velikonocnioktav.ly#resp}
 
 \newpage % ZLOM1
 \typBenedictus
@@ -317,11 +299,11 @@
 \modlitbaUprostredDne
 
 \rubrika{dopoledne:}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-dopo.ly}
+\antiphon{velikonoce_velikonocnioktav.ly#up-dopo}
 \rubrika{v poledne:}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-po.ly}
+\antiphon{velikonoce_velikonocnioktav.ly#up-po}
 \rubrika{odpoledne:}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_up-odpo.ly}
+\antiphon{velikonoce_velikonocnioktav.ly#up-odpo}
 \rubrikaDoplnovaciCyklus
 
 \input{generovane/triduum/zalm118i.tex}
@@ -330,21 +312,19 @@
 
 \typVers
 \rubrika{dopoledne, v poledne i odpoledne:}
-\lilypondfile{generovane/triduum/triduum_verse_ne.ly}
+\simpleScore{antifonar/triduum_verse.ly#ne}
 
 \rubrika{nebo:}
-\lilypondfile{generovane/triduum/triduum_verse_ne-adlib.ly}
+\simpleScore{antifonar/triduum_verse.ly#ne-adlib}
 
 \newpage % ZLOM1
 \nespory
 
 \typZalmy
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant1.ly}
-\input{generovane/triduum/zalm110.tex}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant1}
 \newpage % ZLOM1
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant2.ly}
-\input{generovane/triduum/zalm114.tex}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_nesp-ant3.ly}
+\antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant2}
+\antiphon{velikonoce_velikonocnioktav.ly#nesp-ant3}
 \lilypondfile{kantikum-Zj19.ly}
 
 \newpage % ZLOM1
@@ -362,11 +342,11 @@
 
 \begin{hora}
 \noindent \rubrika{Velký pátek}
-\lilypondfile{generovane/triduum/pust_triduum_pa-invit.ly}
+\antiphon{#pa-invit}
 \noindent \rubrika{Bílá sobota}
-\lilypondfile{generovane/triduum/pust_triduum_so-invit.ly}
+\antiphon{#so-invit}
 \noindent \rubrika{Zmrtvýchvstání Páně}
-\lilypondfile{generovane/triduum/velikonoce_velikonocnioktav_invit.ly}
+\antiphon{velikonoce_velikonocnioktav.ly#invit}
 
 \rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
   strofě.}
