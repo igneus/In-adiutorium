@@ -290,7 +290,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 
 \newpage % ZLOM1
 \typRespAntifona
-\label{pa_resp}
+\phantomsection\label{pa_resp}
 \antiphon{#pa-resp}
 
 \typBenedictus
@@ -348,7 +348,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphonWithPsalm{#so-rch-ant3}
 
 \typRespAntifona
-\label{so_resp}
+\phantomsection\label{so_resp}
 \antiphon{#so-resp}
 
 \newpage % ZLOM1
@@ -408,7 +408,7 @@ např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum20
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant3}
 
 \typRespAntifona
-\label{ne_resp}
+\phantomsection\label{ne_resp}
 \antiphon{velikonoce_velikonocnioktav.ly#resp}
 
 \newpage % ZLOM1
