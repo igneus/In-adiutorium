@@ -395,7 +395,7 @@
   \header {
     modus = "VI alt"
     differentia = "F"
-    id = "VI alt-F"
+    id = "VIalt-F"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -405,7 +405,7 @@
     \choralniRezim
     c4( b) c( d)
     d4 d d-! \parenthesize c c \barMin
-    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b( a) \barFinalis
   }
   \header {
@@ -420,7 +420,7 @@
     \choralniRezim
     c4( b) c( d)
     d4 d d-! \parenthesize c c \barMin
-    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b \barFinalis
   }
   \header {
@@ -435,7 +435,7 @@
     \choralniRezim
     c4( b) c( d)
     d4 d d-! \parenthesize c c \barMin
-    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b( c) \barFinalis
   }
   \header {
@@ -450,7 +450,7 @@
     \choralniRezim
     c4( b) c( d)
     d4 d d-! \parenthesize c c \barMin
-    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c d( c) \barFinalis
   }
   \header {
@@ -465,7 +465,7 @@
     \choralniRezim
     c4( b) c( d)
     d4 d d-! \parenthesize c c \barMin
-    d4 d f-! \parenthesize e e c-! \parenthesize e e \barMaior
+    d4 d f-! \parenthesize e e d-! \parenthesize e e \barMaior
     d4 d e-! \parenthesize d d c-! \parenthesize c b( d) \barFinalis
   }
   \header {
