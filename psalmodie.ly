@@ -37,7 +37,7 @@
     f4 g( a)
     a4 a a-! \parenthesize g g \barMin
     a4 a bes-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a4 a g f \parenthesize g g( f) d \barFinalis
+    a4 a g f \parenthesize g g(-! f) d \barFinalis
   }
   \header {
     modus = "I"
