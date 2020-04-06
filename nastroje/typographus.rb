@@ -260,6 +260,19 @@ module Typographus
         r
       end
 
+      l.gsub!(/\\pointedText\{(.+?)\}(\{(.+?)\})?/) do
+        psalm_tone = $3
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody { prepare_pointed_text($1, psalm_tone) }
+        r
+      end
+
       # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
       l.gsub!(/\\psalmGroup(\{.*\})/) do
         args = $1.split(/[\}\{]+/)
@@ -373,6 +386,31 @@ module Typographus
       end
 
       return prepare_psalm psalm, tone
+    end
+
+    def prepare_pointed_text(file_name, tone)
+      gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
+      processed = File.join(@setup.generated_dir, File.basename(file_name).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
+
+      psalm_sources = [file_name]
+
+      if @setup.doxology
+        psalm_sources << gloriapatri
+      end
+
+      pslmpointer_opts = {
+        :output => { :pointing => {:tone => tone} }
+      }
+
+      @psalmpreprocessor.process(psalm_sources, processed, pslmpointer_opts) do |ps|
+        if psalm_sources.size > 2 then # psalm composed from parts
+          # part title to title of the whole psalm; only works for psalms
+          ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }
+        end
+      end
+
+      `vlna #{processed}`
+      return "\\input{#{processed}}"
     end
 
     def wrap_psalmody

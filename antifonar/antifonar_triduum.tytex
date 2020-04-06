@@ -342,6 +342,15 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \clearpage
 \nadpisDen{Velký pátek}
 
+\modlitbaSeCtenim
+
+\rubrikaInvitatoriumMc
+
+\typZalmy
+\antiphonWithPsalm{#pa-mc-ant1}
+\antiphonWithPsalm{#pa-mc-ant2}
+\antiphonWithPsalm{#pa-mc-ant3}
+
 \ranniChvaly
 
 \rubrikaInvitatorium
@@ -400,6 +409,15 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 
 \clearpage
 \nadpisDen{Bílá sobota}
+
+\modlitbaSeCtenim
+
+\rubrikaInvitatoriumMc
+
+\typZalmy
+\antiphonWithPsalm{#so-mc-ant1}
+\antiphonWithPsalm{#so-mc-ant2}
+\antiphonWithPsalm{#so-mc-ant3}
 
 \ranniChvaly
 
@@ -460,9 +478,27 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \clearpage
 \nadpisDen{Neděle Zmrtvýchvstání Páně}
 
+\modlitbaSeCtenim
+\nadpisTypTextu{Zpěv po prvním čtení}
+\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant1}
+% typographus' magic should make sure that the text is pointed to the tone of the preceding antiphon
+\pointedText{zalmy/pascha_ex15.zalm}
+
+\nadpisTypTextu{Zpěv po druhém čtení}
+\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant2}
+\pointedText{zalmy/pascha_zalm42.zalm}
+
+\nadpisTypTextu{Zpěv po třetím čtení}
+\antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant3}
+\pointedText{zalmy/pascha_zalm118.zalm}
+
+\typTeDeum
+
+\simpleScore{zakladni_napevy.ly#tedeum}
+
 \ranniChvaly
 
-\rubrikaInvitatorium
+\rubrika{Dnes se před ranními chválami zpívá invitatorium, str.~\pageref{invitatorium}.}
 
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant1}
