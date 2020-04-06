@@ -89,8 +89,6 @@
 \newenvironment{psalmodia}{\begin{multicols}{2}}{\end{multicols}}
 \renewenvironment{psalmus}{}{}
 
-%\renewenvironment{psalmus}{ \begin{spacing}{1.1} }{ \end{spacing} }
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -147,7 +145,7 @@ pro melodii významnými.
 \paragraph{Další potřebné knihy}
 Není cílem nahradit oficiální liturgické knihy. Proto knížka neobsahuje texty, u nichž zpěv
 nepředpokládáme (čtení, přímluvy), které je třeba vzít z příslušného místa breviáře,
-ale ani hymny, jejichž nápěvy vyšly v oficiálních hymnářích.\footnote{
+ale ani hymny, jejichž nápěvy vyšly v oficiálních hymnářích.\footnote{%
   \cite{hymnarcerveny}\\\cite{hymnarzeleny}
 }
 Konečně nejsou zahrnuty texty a zpěvy kompletáře, protože ty jsou na webu inadiutorium.cz
@@ -155,33 +153,54 @@ k mání v samostatné knížce.
 
 \paragraph{Zpěv žalmů a kantik}
 
-Každý žalm i kantikum má (podle tóniny, v níž je složena antifona, a začátku její melodie)
+Pro české texty žalmů a kantik užíváme systém nápěvů převzatý z latinských chorálních knih,
+takže čtenář udělá dobře, když si, při zohlednění specifik českého jazyka, o nichž níže,
+náš stručný výklad doplní některým úvodem do gregoriánského chorálu.\footnote{%
+  \cite[17-25]{orel1996}\\
+  \cite[102-109]{venhoda}
+}
+
+V nápěvech jsou zvýrazněny noty a v textech slabiky důležité pro správné nasazení
+jednotlivých kadencí, tak, aby hudební přízvuk spadal vjedno s přízvukem slovním.
+V češtině (spisovné, při zanedbání nářečních variant) je hlavní slovní přízvuk na první slabice
+víceslabičného slova, resp. na slabičné předložce, pokud slovu předchází.
+Vedlejší přízvuk pak je na každé další liché (třetí, páté) slabice slova
+(nebo přízvučného celku tvořeného slovem a slabičnou předložkou).
+Kadence chorálních nápěvů psalmodie se váží na jednu nebo dvě poslední přízvučné slabiky
+daného poloverše. Pro ty potřeby užíváme slabiky nesoucí hlavní nebo vedlejší slovní přízvuk,
+aniž mezi nimi děláme rozdíly (tedy stejně, jako je tomu v psalmodii latinské).
+
+Každý žalm i kantikum má (podle antifony, se kterou se zrovna
+zpívá, konkrétně podle tóniny, v níž je složena, a začátku její melodie)
 přiřazen nápěv.
 Každý verš žalmu či kantika je rozdělen hvězdičkou na dva poloverše,
 podobně i žalmový nápěv je v zásadě dvoudílný
 (viz větší rozdělovník ve druhé třetině vzorce). Většina textu se recituje na jednom
-tónu, na konci každého poloverše je jednoduchá melodická ozdoba.
+tónu, na konci každého poloverše je jednoduchá kadence.
+Kadenci v půlce verše se někdy říká mediace (\emph{mediatio}), kadenci na jeho konci
+terminace (\emph{terminatio}).
 Některé delší verše mají první poloverš dále rozdělen na dvě půlky
 tkzv. flexou (křížek v textu), která se v nápěvu projeví poklesem o sekundu
 nebo tercii (viz menší rozdělovník v první třetině vzorce).
-Součástí žalmového nápěvu je také úvodní ozdoba, která se zpívá pouze na začátku
+Součástí žalmového nápěvu je také úvodní ozdoba (intonace, též \emph{initium} či \emph{inchoatio}),
+která se zpívá pouze na začátku
 prvního verše žalmu či kantika -- s výjimkou Zachariášova kantika a kantika
 Panny Marie, kde se zpívá na začátku každého verše.
 
 \psalmTone{VIII.G}
 
-Zatímco úvodní ozdoba padne vždy na dané počáteční slabiky bez ohledu na jejich kvality,
-flexa a ozdoby zakončující poloverše se nasazují tak, aby hudební přízvuk spadal
+Zatímco intonace padne vždy na dané počáteční slabiky bez ohledu na jejich kvality,
+flexa a kadence zakončující poloverše se nasazují tak, aby hudební přízvuk spadal
 vjedno s hlavním nebo vedlejším přízvukem slovním.
 Každá ozdoba sestává z jedné nebo dvou \uv{přízvučných not}
-(ve vzorci označeny čárkou), po každé přízvučné notě je prostor na jednu
+(ve vzorci označeny čárkou pod nebo nad notou), po každé přízvučné notě je prostor na jednu
 nebo dvě nepřízvučné slabiky, před první \uv{přízvučnou notou}
 může (ale nemusí) být jedna až tři \uv{přípravné noty,} které nenesou
 hudební přízvuk, ale opouštějí recitační tón.
-Ve výše reprodukovaném ukázkovém vzorci (nápěv VIII.G) vidíme,
+Ve výše reprodukovaném ukázkovém vzorci (nápěv \textbf{VIII.G}) vidíme,
 že ozdoba na konci prvního i druhého poloverše má jen jedinou
 \uv{přízvučnou notu}; ve druhém poloverši jí předcházejí dvě noty
-přípravné, v prvním přípravné noty nejsou.
+přípravné, v prvním poloverši přípravné noty nejsou.
 
 S trochou cviku není příliš těžké na chorální nápěvy zpívat přímo z breviáře,
 ale pro pohodlí méně zkušených zpěváků a pro jednotnost přednesu
@@ -195,19 +214,57 @@ jinak v ranních chválách čtvrtka 4. týdne žaltáře):
 
 \simpleScore{antifonar/triduum_priklady.ly#143v1}
 
-První verš (a jen on) začíná úvodní ozdobou. Následuje flexa,
+První verš (a jen on) začíná intonací. Následuje flexa,
 kde po přízvučné slabice jsou dvě nepřízvučné, jsou tedy využity
 všechny noty, které daná část vzorce nabízí.
-Naproti tomu oba konce poloveršů mají po přízvučné slabice jen jednu
-nepřízvučnou. Noty, které jsou ve vzorci uzavřeny do závorek jako volitelné,
+Naproti tomu mediace i terminace mají po přízvučné slabice jen po jedné
+nepřízvučné. Noty, které jsou ve vzorci uzavřeny do závorek jako volitelné,
 se v tomto případě nevyužijí.
 
 \simpleScore{antifonar/triduum_priklady.ly#143v2}
 
-Úvodní ozdoba se v žalmech a většině kantik zpívá jen v prvním verši, proto
-zde (jsme u druhého verše žalmu 143) chybí. Verš není dlouhý, proto neobsahuje
+Intonace se v žalmech a většině kantik zpívá jen v prvním verši, proto
+druhý verš žalmu začíná rovnou na recitačním tónu. Verš není dlouhý, proto neobsahuje
 ani flexu. Přízvučné slabiky vycházejí tak, že noty v závorkách ani zde nejsou
 potřeba.
+
+\simpleScore{antifonar/triduum_priklady.ly#143v3}
+
+Ve třetím verši opět potkáváme flexu a terminace tentokrát má po poslední přízvučné
+slabice dvě nepřízvučné, tudíž je využita i \uv{nadbytečná nota.}
+
+Několik kadencí se na text nasazuje způsobem oproti výše popsanému odlišným:
+následují-li po poslední přízvučné slabice dvě nepřízvučné, \uv{nota navíc}
+se nepřidává jako zdvojení poslední noty kadence, ale před notu nesoucí hudební přízvuk.
+Nápěvy \textbf{I.D2} a IV.E mají takto stavěnou terminaci, což si můžeme ukázat opět
+na prvním a třetím verši žalmu 143.
+
+\psalmTone{I.D2}
+
+\simpleScore{antifonar/triduum_priklady.ly#1d2_143}
+
+Ve vzorci je (jediný) hudební přízvuk terminace vyznačen na melismatu g-f.
+První verš uzavírá dvouslabičné slovo, proto přízvučná slabika padne na přízvučnou notu.
+Na konci třetího verše je ovšem slovo trojslabičné.
+Tudíž se využije \uv{nadbytečná nota} a přízvučná slabika padne na ni.
+Stejně se chová i terminace \textbf{IV.E:}
+
+\psalmTone{IV.E}
+
+\simpleScore{antifonar/triduum_priklady.ly#4e_143}
+
+V případě tonu III se podobně chová mediace:
+
+\psalmTone{III.a}
+
+\simpleScore{antifonar/triduum_priklady.ly#3a_143}
+
+V prvním verši se mediace obejde zcela bez \uv{nadbytečných not,}
+zato v devátém jsou využity obě.
+Druhá \uv{nadbytečná nota} dvouakcentové mediace se tu chová právě tím způsobem,
+který jsme viděli u terminací I.D2 a IV.E:
+pokud po posledním akcentu vyjdou dvě nepřízvučné slabiky,
+přízvučná slabika padne na \uv{nadbytečnou notu.}
 
 \paragraph{Zpěv žalmů v modlitbě uprostřed dne}
 
@@ -252,6 +309,12 @@ a latinským breviářem - jak pokud jde o texty jednotlivých zpěvů
 gregoriánského chorálu),
 tak pokud jde o prvky, které antifonář přidává nad rámec breviáře,
 např. rozšířená zakončení hodinek.\footcite[761-765]{antiphonaleromanum2009}
+
+Jen v zájmu jednoznačnosti a předcházení nedorozuměním budiž i zde uvedeno,
+že zatímco v obecných, pro konkrétní text nespecifických nápěvech zachováváme s latinskými
+chorálními knihami v zásadě jednotu,
+nápěvy českých antifon zpravidla \emph{nejsou} odvozené od nápěvů odpovídajících antifon latinských,
+ale svobodně složené v církevních tóninách vždy přímo pro ten který český text.
 
 %%% Zeleny ctvrtek
 
