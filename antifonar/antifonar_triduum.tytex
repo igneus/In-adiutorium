@@ -55,16 +55,37 @@
 }
 
 \newcommand{\rubrikaResp}[1]{
-  \begin{flushleft}
-  \noindent
-  \rubrika{\textsc{Antifona po krátkém čtení}, str. \pageref{#1_resp}.}
-  \end{flushleft}
+  \noindent%
+  \textsc{Antifona po krátkém čtení}, \rubr{str. \pageref{#1_resp}.}
 }
 
 \newcommand{\rubrikaVigilie}{
   \rubrika{Koná-li se vigilie, připojí se příslušná kantika s antifonou,
     str.~\pageref{vigilie},
     a evangelium z dodatku breviáře.}
+}
+
+\newcommand{\rubrikaHymnus}{
+  \noindent\textsc{Hymnus} \rubr{z hymnáře.}
+}
+
+\newcommand{\rubrikaKratkeCteni}{
+  \noindent\textsc{Krátké čtení} \rubr{z breviáře.}
+}
+
+\newcommand{\rubrikaPrvniCteni}{
+  \noindent\textsc{První čtení} \rubr{z breviáře.}
+}
+\newcommand{\rubrikaDruheCteni}{
+  \noindent\textsc{Druhé čtení} \rubr{z breviáře.}
+}
+
+\newcommand{\rubrikaProsby}{
+  \noindent\textsc{Prosby,  Modlitba Páně a závěrečná modlitba} \rubr{z breviáře.}
+}
+
+\newcommand{\rubrikaOrace}{
+  \noindent\textsc{Závěrečná modlitba} \rubr{z breviáře.}
 }
 
 \renewcommand{\nadpisDen}[1]{
@@ -154,7 +175,8 @@ nepředpokládáme (čtení, přímluvy), které je třeba vzít z příslušné
 ale ani hymny, jejichž nápěvy vyšly v oficiálních hymnářích.\footnote{%
   \cite{hymnarcerveny}\\\cite{hymnarzeleny}
 }
-Konečně nejsou zahrnuty texty a zpěvy kompletáře, protože ty jsou na webu inadiutorium.cz
+Konečně nejsou zahrnuty texty a zpěvy kompletáře, protože ty jsou
+na webu \href{http://www.inadiutorium.cz}{inadiutorium.cz}
 k mání v samostatné knížce.
 
 \paragraph{Zpěv žalmů a kantik}
@@ -351,6 +373,8 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
   Žalm 95 se může nahradit žalmem 100 nebo 67 nebo 24;
   pokud by se některý z těchto žalmů měl téhož dne opakovat
   v některé části denní modlitby, říká se pak místo něho žalm 95.
+  (Upozornění: žalmu 24 je vhodné vyhnout se v uvedení do první modlitby
+  Bílé soboty, neboť se v tento den říká v modlitbě se čtením.)
 }
 \rubrika{
   Má-li uvedení do první modlitby dne předcházet před ranními chválami,
@@ -373,12 +397,13 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý (jeden) z následujících
   žalmů s běžným nápěvem psalmodie. Intonace se zpívá na začátku každé strofy.}
 
+\phantomsection\label{zalm95}
 \psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
 
 \nadpisHodinka{Začátek hodinek}
 
 \rubrika{
-  Není-li výslovně uvedeno jinak, na začátku všech hodinek se zpívá následující
+  Není-li výslovně uvedeno jinak, na začátku každé hodinky se zpívá následující
   úvodní verš.
   Až do velikonoční vigilie se používá varianta textu bez aleluja.
 }
@@ -425,16 +450,27 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 
 \nespory
 
+% z DMC
+\rubrika{
+  Nešpory se dnes modlí pouze ti, kdo se nezúčastní večerní mše na památku
+  Večeře Páně.
+}
+
+\rubrikaHymnus
+
 \typZalmy
 \antiphonWithPsalm{#ct-nesp-ant1}
 \antiphonWithPsalm{#ct-nesp-ant2}
 \antiphonWithPsalm{#ct-nesp-ant3}
 
+\rubrikaKratkeCteni
 \typRespAntifona
 \antiphon{#ct-resp}
 
 \typMagnificat
 \antiphonWithPsalm{#ct-nesp-mag}
+
+\rubrikaProsby
 
 %%% Velky patek
 
@@ -444,6 +480,8 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \modlitbaSeCtenim
 
 \rubrikaInvitatoriumMc
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{#pa-mc-ant1}
@@ -455,16 +493,17 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-mc}
 
+\rubrikaPrvniCteni
 \typResponsoriumMcI
-
 Byl týrán, ale podrobil se a neotevřel svá ústa jako beránek vedený na po\-\underline{ráž}\-ku;\flex
 byl \underline{vy}\-dán \underline{na} smrt,\asterisk
 aby dal život \underline{své}\-mu \underline{li}\-du.\\
 \textbf{V.} Sám sebe vydal na smrt a dal se \underline{při}\-číst \underline{k hříš}\-ní\-kům.\asterisk
 Aby dal.
 
+\vspace{2mm}
+\rubrikaDruheCteni
 \typResponsoriumMcII
-
 Nebyli jste vykoupeni nějakými věcmi pomíjejícími, stříbrem nebo \underline{zla}\-tem,\flex
 ale drahou krví Krista jako bezúhonného a ne\-po\-skvr\-ně\underline{né}\-ho \underline{be}\-rán\-ka.\asterisk
 Skrze něho máme všichni přístup k Otci \underline{v jed}\-nom \underline{Du}\-chu.\\
@@ -473,16 +512,20 @@ Skrze něho.
 
 \rubrikaVigilie
 
+\rubrikaOrace
+
 \ranniChvaly
 
 \rubrikaInvitatorium
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{#pa-rch-ant1}
 \antiphonWithPsalm{#pa-rch-ant2}
 \antiphonWithPsalm{#pa-rch-ant3}
 
-\newpage % ZLOM1
+\rubrikaKratkeCteni
 \typRespAntifona
 \phantomsection\label{pa_resp}
 \antiphon{#pa-resp}
@@ -490,8 +533,13 @@ Skrze něho.
 \typBenedictus
 \antiphonWithPsalm{#pa-rch-ben}
 
+\rubrikaProsby
+
 \modlitbaUprostredDne
 
+\rubrikaHymnus
+
+\typZalmy
 \rubrika{dopoledne:}
 \antiphonWithPsalmTone{#pa-up-dopo}
 \newpage % ZLOM1
@@ -506,6 +554,8 @@ Skrze něho.
 \input{generovane/triduum/zalm54.tex}
 \input{generovane/triduum/zalm88.tex}
 \end{psalmodia}
+
+\rubrikaKratkeCteni
 
 \typVers
 \rubrika{dopoledne:}
@@ -523,16 +573,29 @@ Skrze něho.
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-odpo}
 
+\rubrikaOrace
+
 \nespory
+
+% z DMC
+\rubrika{
+  Nešpory se dnes modlí pouze ti, kdo se odpoledne nezúčastní slavení Památky umučení Páně.
+}
+
+\rubrikaHymnus
 
 \antiphonWithPsalm{#pa-nesp-ant1}
 \antiphonWithPsalm{#pa-nesp-ant2}
 \antiphonWithPsalm{#pa-nesp-ant3}
 
+\rubrikaKratkeCteni
+
 \rubrikaResp{pa}
 
 \typMagnificat
 \antiphonWithPsalm{#pa-nesp-mag}
+
+\rubrikaProsby
 
 %%% Bila sobota
 
@@ -543,25 +606,34 @@ Skrze něho.
 
 \rubrikaInvitatoriumMc
 
+\rubrikaHymnus
+
 \typZalmy
 \antiphonWithPsalm{#so-mc-ant1}
 \antiphonWithPsalm{#so-mc-ant2}
-\antiphonWithPsalm{#so-mc-ant3}
+\antiphon{#so-mc-ant3}
+% z DMC
+\rubrika{
+  Pokud se následující žalm říkal při uvedení do první modlitby dne,
+  nahradí se zde žalmem 95, str.~\pageref{zalm95}.
+}
+% typographus should point the psalm to the tone of the preceding antiphon
+\psalm{Žalm 24}
 
 \typVers
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#so-mc}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-mc}
 
+\rubrikaPrvniCteni
 \typResponsoriumMcI
-
 Když byl Pán pohřben, přivalili před vchod do hrobky \underline{vel}\-ký \underline{ká}\-men\asterisk
 a postavili \underline{na} stráž \underline{vo}\-já\-ky.\\
 \textbf{V.} Zajistili hrob tím, že za\-pe\-\underline{če}\-ti\-li \underline{ká}\-men\asterisk
 a postavili.
 
+\rubrikaDruheCteni
 \typResponsoriumMcII
-
 Odešel náš pastýř, pramen živé vody, při jeho smrti se zatmělo \underline{slun}\-ce;\flex
 přemohl toho, který držel v zajetí \underline{prv}\-ní\-ho \underline{člo}\-vě\-ka.\asterisk
 Dnes náš Spasitel vyvrátil z veřejí \underline{brá}\-ny \underline{smr}\-ti.\\
@@ -570,25 +642,34 @@ Dnes.
 
 \rubrikaVigilie
 
+\rubrikaOrace
+
 \ranniChvaly
 
 \rubrikaInvitatorium
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{#so-rch-ant1}
 \antiphonWithPsalm{#so-rch-ant2}
 \antiphonWithPsalm{#so-rch-ant3}
 
+\rubrikaKratkeCteni
 \typRespAntifona
 \phantomsection\label{so_resp}
 \antiphon{#so-resp}
 
-\newpage % ZLOM1
 \typBenedictus
 \antiphonWithPsalm{#so-rch-ben}
 
+\rubrikaProsby
+
 \modlitbaUprostredDne
 
+\rubrikaHymnus
+
+\typZalmy
 \rubrika{dopoledne:}
 \antiphonWithPsalmTone{#so-up-dopo}
 \rubrika{v poledne:}
@@ -603,6 +684,7 @@ Dnes.
 \input{generovane/triduum/zalm76.tex}
 \end{psalmodia}
 
+\rubrikaKratkeCteni
 \typVers
 \rubrika{dopoledne:}
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#so-dopo}
@@ -619,18 +701,26 @@ Dnes.
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-odpo}
 
+\rubrikaOrace
+
 \newpage % ZLOM1
 \nespory
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{#so-nesp-ant1}
 \antiphonWithPsalm{#so-nesp-ant2}
 \antiphonWithPsalm{#so-nesp-ant3}
 
+\rubrikaKratkeCteni
+
 \rubrikaResp{so}
 
 \typMagnificat
 \antiphonWithPsalm{#so-nesp-mag}
+
+\rubrikaProsby
 
 %%% Zmrtvychvstani
 
@@ -638,33 +728,74 @@ Dnes.
 \nadpisDen{Neděle Zmrtvýchvstání Páně}
 
 \modlitbaSeCtenim
+
+% z DMC
+\rubrika{
+  Dnešní modlitbu se čtením konají pouze ti, kdo se nezúčastní slavení velikonoční vigilie.
+  Čtou při tom alespoň čtyři čtení z této vigilie s příslušnými mezizpěvy
+  a modlitbami.
+}
+
+\rubrika{
+  Níže podané mezizpěvy odpovídají těm čtením, která jsou otištěna přímo ve druhém svazku
+  Denní modlitby církve. Kdo by chtěl číst více čtení, musí si zhudebnění příslušných
+  mezizpěvů opatřit jinde.
+}
+
+% volně podle DMC
+\rubrika{
+  Modlitba se čtením v tento den
+  začíná bezprostředně čteními. Prvnímu čtení nepředchází ani uvedení do první
+  modlitby dne, ani \textup{Bože, pospěš mi na pomoc.}
+}
+
+\noindent\textsc{První čtení}
+
 \nadpisTypTextu{Zpěv po prvním čtení}
 \antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant1}
 % typographus' magic should make sure that the text is pointed to the tone of the preceding antiphon
 \pointedText{zalmy/pascha_ex15.zalm}
 
+\noindent\textsc{Modlitba}
+
+\noindent\textsc{Druhé čtení}
+
 \nadpisTypTextu{Zpěv po druhém čtení}
 \antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant2}
 \pointedText{zalmy/pascha_zalm42.zalm}
 
+\noindent\textsc{Modlitba}
+
+\noindent\textsc{Třetí čtení}
+
 \nadpisTypTextu{Zpěv po třetím čtení}
 \antiphon{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mc-ant3}
 \pointedText{zalmy/pascha_zalm118.zalm}
+
+\noindent\textsc{Modlitba}
+
+\noindent\textsc{Čtvrté čtení}
 
 \typTeDeum
 
 \simpleScore{zakladni_napevy.ly#tedeum}
 \rubrika{\textbf{¶} Poslední část (prosby) se může vynechat.}
 
+\rubrikaOrace
+
 \ranniChvaly
 
-\rubrika{Dnes se před ranními chválami zpívá invitatorium, str.~\pageref{invitatorium}.}
+\rubrika{Dnes se před ranními chválami říká uvedení do první modlitby dne, str.~\pageref{invitatorium}.}
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant1}
 \newpage % ZLOM1
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant2}
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant3}
+
+\rubrikaKratkeCteni
 
 \typRespAntifona
 \phantomsection\label{ne_resp}
@@ -674,7 +805,13 @@ Dnes.
 \typBenedictus
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-ben}
 
+\rubrikaProsby
+
 \modlitbaUprostredDne
+
+\rubrikaHymnus
+
+\typZalmy
 
 \rubrika{dopoledne:}
 \antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-dopo}
@@ -690,6 +827,8 @@ Dnes.
 \input{generovane/triduum/zalm118iii.tex}
 \end{psalmodia}
 
+\rubrikaKratkeCteni
+
 \typVers
 \rubrika{dopoledne, v poledne i odpoledne:}
 \simpleScore{antifonar/triduum_verse.ly#ne}
@@ -697,8 +836,12 @@ Dnes.
 \rubrikaNebo
 \simpleScore{antifonar/triduum_verse.ly#ne-adlib}
 
+\rubrikaOrace
+
 \newpage % ZLOM1
 \nespory
+
+\rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant1}
@@ -711,11 +854,14 @@ Dnes.
 
 \lilypondfile{kantikum-Zj19.ly}
 
-\newpage % ZLOM1
+\rubrikaKratkeCteni
+
 \rubrikaResp{ne}
 
 \typMagnificat
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
+
+\rubrikaProsby
 
 \clearpage
 \nadpisDen{Kantika pro vigilie}
@@ -762,6 +908,13 @@ Dnes.
 \clearpage
 \nadpisDen{Doplňovací cyklus žalmů}
 \label{doplnovacicyklus}
+
+% volně podle Uspořádání DMC
+\rubrika{
+  Kdo se modlí modlitbu uprostřed dne pouze jednou, použije žalmy předepsané pro daný den.
+  Modlí-li se ji někdo vícekrát, použije jednou žalmů daného dne a podruhé či potřetí
+  žalmů z doplňovacího cyklu.
+}
 
 \nadpisHodinka{První oddíl (dopoledne)}
 \begin{psalmodia}
