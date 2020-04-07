@@ -69,6 +69,16 @@
   \noindent\textsc{Hymnus} \rubr{z hymnáře.}
 }
 
+\newcommand{\rubrikaDopoledne}{
+  \noindent\rubrika{dopoledne:}
+}
+\newcommand{\rubrikaPoledne}{
+  \noindent\rubrika{v poledne:}
+}
+\newcommand{\rubrikaOdpoledne}{
+  \noindent\rubrika{odpoledne:}
+}
+
 \newcommand{\rubrikaKratkeCteni}{
   \noindent\textsc{Krátké čtení} \rubr{z breviáře.}
 }
@@ -281,7 +291,7 @@ Stejně se chová i terminace \textbf{IV.E:}
 
 \simpleScore{antifonar/triduum_priklady.ly#4e_143}
 
-V případě tonu III se podobně chová mediace:
+V případě tonu \textbf{III} se podobně chová mediace:
 
 \psalmTone{III.a}
 
@@ -369,6 +379,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
   potom ji vždy znovu opakují po každé strofě žalmu,
   předzpěvovaného kantorem.
 }
+
 \rubrika{
   Žalm 95 se může nahradit žalmem 100 nebo 67 nebo 24;
   pokud by se některý z těchto žalmů měl téhož dne opakovat
@@ -376,6 +387,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
   (Upozornění: žalmu 24 je vhodné vyhnout se v uvedení do první modlitby
   Bílé soboty, neboť se v tento den říká v modlitbě se čtením.)
 }
+
 \rubrika{
   Má-li uvedení do první modlitby dne předcházet před ranními chválami,
   může se žalm i s antifonou vynechat.
@@ -383,11 +395,12 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 
 \nadpisTypTextu{Antifony pro jednotlivé dny Velikonočního tridua}
 
-\noindent \rubrika{Velký pátek}
+\noindent\rubrika{Velký pátek}
 \antiphon{#pa-invit}
-\noindent \rubrika{Bílá sobota}
+\pagebreak % ZLOM
+\noindent\rubrika{Bílá sobota}
 \antiphon{#so-invit}
-\noindent \rubrika{Zmrtvýchvstání Páně}
+\noindent\rubrika{Zmrtvýchvstání Páně}
 \antiphon{velikonoce_velikonocnioktav.ly#invit}
 
 \nadpisTypTextu{Žalm 95}
@@ -400,6 +413,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \phantomsection\label{zalm95}
 \psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
 
+\pagebreak % ZLOM
 \nadpisHodinka{Začátek hodinek}
 
 \rubrika{
@@ -421,6 +435,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 
 \simpleScore{zakladni_napevy.ly#zacatek-bezny}
 
+\pagebreak % ZLOM
 \nadpisHodinka{Závěr hodinek}
 
 % z Uspořádání DMC
@@ -467,6 +482,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \typRespAntifona
 \antiphon{#ct-resp}
 
+\pagebreak % ZLOM
 \typMagnificat
 \antiphonWithPsalm{#ct-nesp-mag}
 
@@ -488,9 +504,13 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \antiphonWithPsalm{#pa-mc-ant2}
 \antiphonWithPsalm{#pa-mc-ant3}
 
+\pagebreak % ZLOM
 \typVers
+
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-mc}
+
 \rubrikaNebo
+
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-mc}
 
 \rubrikaPrvniCteni
@@ -514,6 +534,7 @@ Skrze něho.
 
 \rubrikaOrace
 
+\pagebreak % ZLOM
 \ranniChvaly
 
 \rubrikaInvitatorium
@@ -540,12 +561,14 @@ Skrze něho.
 \rubrikaHymnus
 
 \typZalmy
-\rubrika{dopoledne:}
+
+\rubrikaDopoledne
 \antiphonWithPsalmTone{#pa-up-dopo}
-\newpage % ZLOM1
-\rubrika{v poledne:}
+
+\rubrikaPoledne
 \antiphonWithPsalmTone{#pa-up-po}
-\rubrika{odpoledne:}
+
+\rubrikaOdpoledne
 \antiphonWithPsalmTone{#pa-up-odpo}
 \rubrikaDoplnovaciCyklus
 
@@ -558,17 +581,18 @@ Skrze něho.
 \rubrikaKratkeCteni
 
 \typVers
-\rubrika{dopoledne:}
+
+\rubrikaDopoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-dopo}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-dopo}
 
-\rubrika{v poledne:}
+\rubrikaPoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-po}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-po}
 
-\rubrika{odpoledne:}
+\rubrikaOdpoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-odpo}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-odpo}
@@ -612,6 +636,7 @@ Skrze něho.
 \antiphonWithPsalm{#so-mc-ant1}
 \antiphonWithPsalm{#so-mc-ant2}
 \antiphon{#so-mc-ant3}
+\pagebreak % ZLOM
 % z DMC
 \rubrika{
   Pokud se následující žalm říkal při uvedení do první modlitby dne,
@@ -651,7 +676,9 @@ Dnes.
 \rubrikaHymnus
 
 \typZalmy
-\antiphonWithPsalm{#so-rch-ant1}
+\antiphon{#so-rch-ant1}
+\pagebreak % ZLOM
+\psalm{Žalm 64} % entered separately only because of page break, otherwise \antiphonWithPsalm would be used
 \antiphonWithPsalm{#so-rch-ant2}
 \antiphonWithPsalm{#so-rch-ant3}
 
@@ -670,11 +697,13 @@ Dnes.
 \rubrikaHymnus
 
 \typZalmy
-\rubrika{dopoledne:}
+\rubrikaDopoledne
 \antiphonWithPsalmTone{#so-up-dopo}
-\rubrika{v poledne:}
+
+\rubrikaPoledne
 \antiphonWithPsalmTone{#so-up-po}
-\rubrika{odpoledne:}
+
+\rubrikaOdpoledne
 \antiphonWithPsalmTone{#so-up-odpo}
 \rubrikaDoplnovaciCyklus
 
@@ -686,24 +715,26 @@ Dnes.
 
 \rubrikaKratkeCteni
 \typVers
-\rubrika{dopoledne:}
+\rubrikaDopoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#so-dopo}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-dopo}
 
-\rubrika{v poledne:}
+\rubrikaPoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#so-po}
+\pagebreak % ZLOM
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-po}
 
-\rubrika{odpoledne:}
+\rubrikaOdpoledne
 \simpleScore{antifonar/generovane/triduum/verse_default.ly#so-odpo}
 \rubrikaNebo
 \simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-odpo}
 
 \rubrikaOrace
 
-\newpage % ZLOM1
+\vfill % ZLOM
+\pagebreak % ZLOM
 \nespory
 
 \rubrikaHymnus
@@ -765,6 +796,7 @@ Dnes.
 \pointedText{zalmy/pascha_zalm42.zalm}
 
 \noindent\textsc{Modlitba}
+\pagebreak % ZLOM
 
 \noindent\textsc{Třetí čtení}
 
@@ -783,15 +815,18 @@ Dnes.
 
 \rubrikaOrace
 
+\pagebreak % ZLOM
 \ranniChvaly
 
-\rubrika{Dnes se před ranními chválami říká uvedení do první modlitby dne, str.~\pageref{invitatorium}.}
+\rubrika{
+  Dnes se před ranními chválami říká uvedení do první modlitby dne, str.~\pageref{invitatorium},
+  i když první modlitbou dne nejsou.
+}
 
 \rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant1}
-\newpage % ZLOM1
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant2}
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#rch-ant3}
 
@@ -801,23 +836,23 @@ Dnes.
 \phantomsection\label{ne_resp}
 \antiphon{velikonoce_velikonocnioktav.ly#resp}
 
-\newpage % ZLOM1
 \typBenedictus
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-ben}
 
 \rubrikaProsby
 
+\pagebreak % ZLOM
 \modlitbaUprostredDne
 
 \rubrikaHymnus
 
 \typZalmy
 
-\rubrika{dopoledne:}
+\rubrikaDopoledne
 \antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-dopo}
-\rubrika{v poledne:}
+\rubrikaPoledne
 \antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-po}
-\rubrika{odpoledne:}
+\rubrikaOdpoledne
 \antiphonWithPsalmTone{velikonoce_velikonocnioktav.ly#up-odpo}
 \rubrikaDoplnovaciCyklus
 
@@ -838,14 +873,13 @@ Dnes.
 
 \rubrikaOrace
 
-\newpage % ZLOM1
+\pagebreak % ZLOM
 \nespory
 
 \rubrikaHymnus
 
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant1}
-\newpage % ZLOM1
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant2}
 \antiphon{velikonoce_velikonocnioktav.ly#nesp-ant3}
 
@@ -930,6 +964,7 @@ Dnes.
 \input{generovane/triduum/zalm125.tex}
 \end{psalmodia}
 
+\pagebreak % ZLOM
 \nadpisHodinka{Třetí oddíl (odpoledne)}
 \begin{psalmodia}
 \input{generovane/triduum/zalm126.tex}
