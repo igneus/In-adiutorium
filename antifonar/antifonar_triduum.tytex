@@ -692,7 +692,46 @@ Dnes.
 \typMagnificat
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
 
-%%% Doplnovaci cyklus zalmu
+\clearpage
+\nadpisDen{Kantika pro vigilie}
+
+% volná citace z rubriky uvádějící oddíl vigilií v DMC
+\rubrika{
+  Pokud se modlitba se čtením koná v předvečer na způsob vigilie, postupuje se takto:
+  nejprve se obvyklým způsobem koná modlitba se čtením až do konce zpěvu po druhém čtení.
+  Potom se připojí níže uvedená kantika (zpívaná pod jedinou antifonou) a evangelium.
+  Na evangelium může navazovat homilie.
+  Následuje závěrečná modlitba a zakončení jako obvykle.
+}
+
+\nadpisHodinka{Velký pátek a Bílá sobota}
+
+\noindent\rubrika{Velký pátek}
+\antiphonWithPsalmTone{#pa-mc-avig}
+
+\noindent\rubrika{Bílá sobota}
+\antiphonWithPsalmTone{#so-mc-avig}
+
+\rubrika{Kantika se zpívají v oba dny stejná.}
+
+\begin{psalmodia}
+\input{generovane/triduum/kantikum_jer14.tex}
+\input{generovane/triduum/kantikum_ez36.tex}
+\input{generovane/triduum/kantikum_plac5.tex}
+\end{psalmodia}
+
+\nadpisHodinka{Doba velikonoční}
+
+\rubrika{
+  Modlitba se čtením neděle Zmrtvýchvstání Páně má zvláštní uspořádání
+  a nezdá se příliš vhodné tímto způsobem ji rozšiřovat, ale rubriky breviáře
+  to výslovně nezakazují.
+}
+
+\antiphon{velikonoce_antifony.ly#mc-avig}
+
+% psalm tone and correct pointing matching the preceding antiphon added automatically by typographus
+\psalmGroup{Iz 63}{Oz 6}{Sof 3}
 
 \clearpage
 \nadpisDen{Doplňovací cyklus žalmů}
