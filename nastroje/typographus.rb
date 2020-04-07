@@ -518,7 +518,7 @@ module Typographus
         layout << 'indent = 0'
       end
 
-      unless layout.empty?
+      unless layout.empty? || score_text.include?('\layout')
         score_text = ScoreModifier.layout score_text, layout.join("\n")
       end
 
