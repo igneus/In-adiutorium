@@ -61,6 +61,12 @@
   \end{flushleft}
 }
 
+\newcommand{\rubrikaVigilie}{
+  \rubrika{Koná-li se vigilie, připojí se příslušná kantika s antifonou,
+    str.~\pageref{vigilie},
+    a evangelium z dodatku breviáře.}
+}
+
 \renewcommand{\nadpisDen}[1]{
   \phantomsection%
   \begin{center}
@@ -465,6 +471,8 @@ Skrze něho máme všichni přístup k Otci \underline{v jed}\-nom \underline{Du
 \textbf{V.} Krev Ježíše Krista, Syna Božího, nás očišťuje od kaž\-\underline{dé}\-ho \underline{hří}\-chu.\asterisk
 Skrze něho.
 
+\rubrikaVigilie
+
 \ranniChvaly
 
 \rubrikaInvitatorium
@@ -552,6 +560,8 @@ přemohl toho, který držel v zajetí \underline{prv}\-ní\-ho \underline{člo}
 Dnes náš Spasitel vyvrátil z veřejí \underline{brá}\-ny \underline{smr}\-ti.\\
 \textbf{V.} Rozrazil závory říše zemřelých a \underline{zni}\-čil moc \underline{ďá}\-blo\-vu.\asterisk
 Dnes.
+
+\rubrikaVigilie
 
 \ranniChvaly
 
@@ -694,6 +704,7 @@ Dnes.
 
 \clearpage
 \nadpisDen{Kantika pro vigilie}
+\label{vigilie}
 
 % volná citace z rubriky uvádějící oddíl vigilií v DMC
 \rubrika{
