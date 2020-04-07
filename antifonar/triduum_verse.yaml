@@ -1,0 +1,29 @@
+---
+# texty, ze kterých se generují nápěvy veršíků
+
+# Velký pátek
+pa-mc:
+  v: Proti mně povstali kři/ví [svěd]ko/vé,
+  r: ale jejich svědectví ne/by/lo [shod]né.
+pa-dopo:
+  v: Klaníme se ti, Kriste, a ve/le[bí]me tě,
+  r: neboť svým křížem jsi vy/kou[pil] svět.
+pa-po:
+  v: Pamatuj na mě, [Pa]ne,
+  r: až přijdeš do své/ho [krá]lov/ství.
+pa-odpo:
+  v: Mezi mrtvými je mo/je [lo]že,
+  r: mezi zabitými, kteří le/ží [v hro]bě.
+# Bílá sobota
+so-mc:
+  v: Pohlédni na mě a vy/svo[bod] mě,
+  r: podle svého výroku mě pro/buď [k ži]vo/tu.
+so-dopo:
+  v: Nezanecháš mou du/ši [v pod]svě/tí,
+  r: nedopustíš, aby tvůj svatý spatřil po/ru[še]ní.
+so-po:
+  v: Hospodin usmrcuje i o/ži[vu]je,
+  r: uvádí do říše smrti a zase při/vá/dí [na]zpět.
+so-odpo:
+  v: Když položili Pá/na [do] hro/bu,
+  r: zapečetili kámen a k hrobu po/sta[vi]li stráž.

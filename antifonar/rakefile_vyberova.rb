@@ -34,8 +34,21 @@ zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex',
 
 triduum_lytex = typographus('antifonar_triduum.tytex', 'pdflatex', true)
 
-# add zalmy_triduum to the task's dependencies
-Rake::Task[triduum_lytex].enhance(zalmy_triduum)
+verse_tones = {
+  default: 'a b a g- {g} g',
+  adlib: 'c d c- {c} cb',
+}
+triduum_verse = verse_tones.each_pair.collect do |name,tone|
+  target = File.join adresar_triduum, "verse_#{name}.ly"
+  file target => ['triduum_verse.yaml', '../nastroje/versicles.rb'] do |t|
+    sh "ruby #{t.prerequisites[1]} #{t.prerequisites[0]} '#{tone}' > #{target}"
+  end
+
+  target
+end
+
+# add dependencies
+Rake::Task[triduum_lytex].enhance(zalmy_triduum + triduum_verse)
 
 desc "Triduum sacrum."
 task :triduum => [triduum_lytex]

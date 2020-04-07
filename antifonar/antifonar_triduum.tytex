@@ -451,9 +451,9 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \antiphonWithPsalm{#pa-mc-ant3}
 
 \typVers
-\simpleScore{antifonar/triduum_verse.ly#pa-mc}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-mc}
 \rubrikaNebo
-\simpleScore{antifonar/triduum_verse.ly#pa-mc-adlib}
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-mc}
 
 \typResponsoriumMcI
 
@@ -509,12 +509,19 @@ Skrze něho.
 
 \typVers
 \rubrika{dopoledne:}
-\simpleScore{antifonar/triduum_verse.ly#pa-dopo}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-dopo}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-dopo}
+
 \rubrika{v poledne:}
-\simpleScore{antifonar/triduum_verse.ly#pa-po}
-\newpage % ZLOM1
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-po}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-po}
+
 \rubrika{odpoledne:}
-\simpleScore{antifonar/triduum_verse.ly#pa-odpo}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#pa-odpo}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#pa-odpo}
 
 \nespory
 
@@ -542,9 +549,9 @@ Skrze něho.
 \antiphonWithPsalm{#so-mc-ant3}
 
 \typVers
-\simpleScore{antifonar/triduum_verse.ly#so-mc}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#so-mc}
 \rubrikaNebo
-\simpleScore{antifonar/triduum_verse.ly#so-mc-adlib}
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-mc}
 
 \typResponsoriumMcI
 
@@ -598,11 +605,19 @@ Dnes.
 
 \typVers
 \rubrika{dopoledne:}
-\simpleScore{antifonar/triduum_verse.ly#so-dopo}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#so-dopo}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-dopo}
+
 \rubrika{v poledne:}
-\simpleScore{antifonar/triduum_verse.ly#so-po}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#so-po}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-po}
+
 \rubrika{odpoledne:}
-\simpleScore{antifonar/triduum_verse.ly#so-odpo}
+\simpleScore{antifonar/generovane/triduum/verse_default.ly#so-odpo}
+\rubrikaNebo
+\simpleScore{antifonar/generovane/triduum/verse_adlib.ly#so-odpo}
 
 \newpage % ZLOM1
 \nespory
