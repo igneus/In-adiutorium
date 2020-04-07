@@ -318,6 +318,97 @@ chorálními knihami v zásadě jednotu,
 nápěvy českých antifon zpravidla \emph{nejsou} odvozené od nápěvů odpovídajících antifon latinských,
 ale svobodně složené v církevních tóninách vždy přímo pro ten který český text.
 
+\clearpage
+\nadpisDen{Opakované zpěvy}
+
+\nadpisHodinka{Uvedení do první modlitby dne}
+\label{invitatorium}
+
+% volná citace rubriky z Uspořádání DMC
+\rubrika{
+  Denní modlitba církve začíná každý den uvedením do první modlitby toho dne.
+  To se zpívá buď před začátkem modlitby se čtením, nebo před ranními
+  chválami, podle toho, která z těchto částí denní modlitby církve
+  se toho dne říká jako první.
+}
+
+\simpleScore{zakladni_napevy.ly#zacatek-prvni}
+
+% volná citace rubrik z Uspořádání DMC
+\rubrika{
+  Následuje žalm 95 s příslušnou antifonou.
+  Antifona se přednese a všichni ji hned opakují,
+  potom ji vždy znovu opakují po každé strofě žalmu,
+  předzpěvovaného kantorem.
+}
+\rubrika{
+  Žalm 95 se může nahradit žalmem 100 nebo 67 nebo 24;
+  pokud by se některý z těchto žalmů měl téhož dne opakovat
+  v některé části denní modlitby, říká se pak místo něho žalm 95.
+}
+\rubrika{
+  Má-li uvedení do první modlitby dne předcházet před ranními chválami,
+  může se žalm i s antifonou vynechat.
+}
+
+\nadpisTypTextu{Antifony pro jednotlivé dny Velikonočního tridua}
+
+\noindent \rubrika{Velký pátek}
+\antiphon{#pa-invit}
+\noindent \rubrika{Bílá sobota}
+\antiphon{#so-invit}
+\noindent \rubrika{Zmrtvýchvstání Páně}
+\antiphon{velikonoce_velikonocnioktav.ly#invit}
+
+\nadpisTypTextu{Žalm 95}
+
+\simpleScore{invitatoria/zalm95_I_D.ly#i-d}
+
+\rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý (jeden) z následujících
+  žalmů s běžným nápěvem psalmodie. Intonace se zpívá na začátku každé strofy.}
+
+\psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
+
+\nadpisHodinka{Začátek hodinek}
+
+\rubrika{
+  Není-li výslovně uvedeno jinak, na začátku všech hodinek se zpívá následující
+  úvodní verš.
+  Až do velikonoční vigilie se používá varianta textu bez aleluja.
+}
+
+% z Uspořádání DMC
+\rubrika{
+  Tento úvod se vynechává, předcházelo-li uvedení do první modlitby dne.
+}
+
+\noindent\rubrika{Ranní chvály a nešpory nedělí a svátků}
+
+\simpleScore{zakladni_napevy.ly#zacatek-nedele}
+
+\noindent\rubrika{Ostatní dny a hodinky}
+
+\simpleScore{zakladni_napevy.ly#zacatek-bezny}
+
+\nadpisHodinka{Závěr hodinek}
+
+% z Uspořádání DMC
+\rubrika{
+  Předsedá-li společnému slavení kněz nebo jáhen, připojí závěrečný
+  pozdrav a požehnání:
+}
+
+\simpleScore{zakladni_napevy.ly#konec-pozehnani}
+
+% z Uspořádání DMC
+\rubrika{
+  Není-li přítomen kněz nebo jáhen anebo modlí-li se někdo sám,
+  končí se slovy:
+}
+
+\simpleScore{zakladni_napevy.ly#konec-prosba}
+
+
 %%% Zeleny ctvrtek
 
 \clearpage
@@ -600,29 +691,6 @@ Dnes.
 
 \typMagnificat
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag}
-
-%%% invitatorium
-
-\nadpisDen{Invitatorium}
-\fancyhead[CE,CO]{Invitatorium}
-\label{invitatorium}
-
-\noindent \rubrika{Velký pátek}
-\antiphon{#pa-invit}
-\noindent \rubrika{Bílá sobota}
-\antiphon{#so-invit}
-\noindent \rubrika{Zmrtvýchvstání Páně}
-\antiphon{velikonoce_velikonocnioktav.ly#invit}
-
-\rubrika{Žalm invitatoria zpívá kantor, chór opakuje antifonu po každé
-  strofě.}
-
-\simpleScore{invitatoria/zalm95_I_D.ly#i-d}
-
-\rubrika{Místo prokomponovaného nápěvu žalmu 95 lze použít i některý (jeden) z následujících
-  žalmů s běžným nápěvem psalmodie. Úvodní melodická ozdoba se zpívá na začátku každé strofy.}
-
-\psalmGroup{Žalm 95}{Žalm 100}{Žalm 67}{Žalm 24}{I.D}
 
 %%% Doplnovaci cyklus zalmu
 
