@@ -288,6 +288,8 @@ s výjimkou responsorií modlitby se čtením.
 Jako nouzové prozatímní řešení nabízíme jejich texty s vyznačenými
 přízvučnými slabikami a navrhujeme zpívat je na nápěvy žalmů
 (jejichž výběr přenecháváme libovůli kantorů).
+S ohledem na tento způsob přednesu někdy do textů responsorií
+do delších pasáží přidáváme flexu (která se v breviáři nevyskytuje).
 
 \paragraph{Odchylky od římských chorálních knih}
 Zpěvákovi znalému soudobých chorálních knih ze Solesmes neujde, že se od nich předkládaná knížka
@@ -350,6 +352,22 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \antiphonWithPsalm{#pa-mc-ant1}
 \antiphonWithPsalm{#pa-mc-ant2}
 \antiphonWithPsalm{#pa-mc-ant3}
+
+\typResponsoriumMcI
+
+Byl týrán, ale podrobil se a neotevřel svá ústa jako beránek vedený na po\-\underline{ráž}\-ku;\flex
+byl \underline{vy}\-dán \underline{na} smrt,\asterisk
+aby dal život \underline{své}\-mu \underline{li}\-du.\\
+\textbf{V.} Sám sebe vydal na smrt a dal se \underline{při}\-číst \underline{k hříš}\-ní\-kům.\asterisk
+Aby dal.
+
+\typResponsoriumMcII
+
+Nebyli jste vykoupeni nějakými věcmi pomíjejícími, stříbrem nebo \underline{zla}\-tem,\flex
+ale drahou krví Krista jako bezúhonného a ne\-po\-skvr\-ně\underline{né}\-ho \underline{be}\-rán\-ka.\asterisk
+Skrze něho máme všichni přístup k Otci \underline{v jed}\-nom \underline{Du}\-chu.\\
+\textbf{V.} Krev Ježíše Krista, Syna Božího, nás očišťuje od kaž\-\underline{dé}\-ho \underline{hří}\-chu.\asterisk
+Skrze něho.
 
 \ranniChvaly
 
@@ -418,6 +436,21 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \antiphonWithPsalm{#so-mc-ant1}
 \antiphonWithPsalm{#so-mc-ant2}
 \antiphonWithPsalm{#so-mc-ant3}
+
+\typResponsoriumMcI
+
+Když byl Pán pohřben, přivalili před vchod do hrobky \underline{vel}\-ký \underline{ká}\-men\asterisk
+a postavili \underline{na} stráž \underline{vo}\-já\-ky.\\
+\textbf{V.} Zajistili hrob tím, že za\-pe\-\underline{če}\-ti\-li \underline{ká}\-men\asterisk
+a postavili.
+
+\typResponsoriumMcII
+
+Odešel náš pastýř, pramen živé vody, při jeho smrti se zatmělo \underline{slun}\-ce;\flex
+přemohl toho, který držel v zajetí \underline{prv}\-ní\-ho \underline{člo}\-vě\-ka.\asterisk
+Dnes náš Spasitel vyvrátil z veřejí \underline{brá}\-ny \underline{smr}\-ti.\\
+\textbf{V.} Rozrazil závory říše zemřelých a \underline{zni}\-čil moc \underline{ďá}\-blo\-vu.\asterisk
+Dnes.
 
 \ranniChvaly
 
@@ -495,6 +528,7 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \typTeDeum
 
 \simpleScore{zakladni_napevy.ly#tedeum}
+\rubrika{\textbf{¶} Poslední část (prosby) se může vynechat.}
 
 \ranniChvaly
 
