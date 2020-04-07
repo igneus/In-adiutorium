@@ -380,9 +380,6 @@ module Typographus
       processed = pointed_text_path file_name
 
       psalm_sources = [file_name]
-      if @setup.doxology
-        psalm_sources << doxology_path
-      end
 
       point_text tone, psalm_sources, processed
       `vlna #{processed}`
