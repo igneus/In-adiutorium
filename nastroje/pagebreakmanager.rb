@@ -28,23 +28,6 @@ setup[:command] = nil
 
 commands = [:on, :off, :delete, :show]
 
-# process command
-setup[:command] = ARGV.shift
-if ! setup[:command] then
-  raise "Please, specify a command [#{commands.join('|')}]"
-end
-
-setup[:command] = setup[:command].to_sym
-unless commands.index(setup[:command])
-  raise "Invalid command '#{setup[:command]}'. Valid commands are [#{commands.join('|')}]"
-end
-
-# process file name
-setup[:file] = ARGV.shift
-if ! setup[:file] then
-  raise "Please, specify a file to be processed."
-end
-
 # Parse options
 
 optparse = OptionParser.new do |opts|
@@ -69,6 +52,23 @@ optparse = OptionParser.new do |opts|
 end
 
 optparse.parse!
+
+# process command
+setup[:command] = ARGV.shift
+if ! setup[:command] then
+  raise "Please, specify a command [#{commands.join('|')}]"
+end
+
+setup[:command] = setup[:command].to_sym
+unless commands.index(setup[:command])
+  raise "Invalid command '#{setup[:command]}'. Valid commands are [#{commands.join('|')}]"
+end
+
+# process file name
+setup[:file] = ARGV.shift
+if ! setup[:file] then
+  raise "Please, specify a file to be processed."
+end
 
 # process tag
 if setup[:command] != :show then
