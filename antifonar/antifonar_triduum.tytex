@@ -353,6 +353,11 @@ ale svobodně složené v církevních tóninách vždy přímo pro ten který �
 \antiphonWithPsalm{#pa-mc-ant2}
 \antiphonWithPsalm{#pa-mc-ant3}
 
+\typVers
+\simpleScore{antifonar/triduum_verse.ly#pa-mc}
+\rubrikaNebo
+\simpleScore{antifonar/triduum_verse.ly#pa-mc-adlib}
+
 \typResponsoriumMcI
 
 Byl týrán, ale podrobil se a neotevřel svá ústa jako beránek vedený na po\-\underline{ráž}\-ku;\flex
@@ -436,6 +441,11 @@ Skrze něho.
 \antiphonWithPsalm{#so-mc-ant1}
 \antiphonWithPsalm{#so-mc-ant2}
 \antiphonWithPsalm{#so-mc-ant3}
+
+\typVers
+\simpleScore{antifonar/triduum_verse.ly#so-mc}
+\rubrikaNebo
+\simpleScore{antifonar/triduum_verse.ly#so-mc-adlib}
 
 \typResponsoriumMcI
 
@@ -568,7 +578,7 @@ Dnes.
 \rubrika{dopoledne, v poledne i odpoledne:}
 \simpleScore{antifonar/triduum_verse.ly#ne}
 
-\rubrika{nebo:}
+\rubrikaNebo
 \simpleScore{antifonar/triduum_verse.ly#ne-adlib}
 
 \newpage % ZLOM1
