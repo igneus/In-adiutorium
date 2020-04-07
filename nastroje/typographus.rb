@@ -315,8 +315,7 @@ module Typographus
 
     def prepare_psalm(psalm_name, tone)
       psalmf = psalm_fname(psalm_name)
-      gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
-      processed = File.join(@setup.generated_dir, File.basename(psalmf).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
+      processed = pointed_text_path psalmf
 
       psalm_sources = []
       if not File.exist? psalmf then
@@ -339,27 +338,16 @@ module Typographus
 
       if @setup.doxology and
           not @doxology_noappend.include?(File.basename(psalmf)) then
-        psalm_sources << gloriapatri
+        psalm_sources << doxology_path
       end
 
-      pslmpointer_opts = {
-        :output => { :pointing => {:tone => tone} }
-      }
-
-      @psalmpreprocessor.process(psalm_sources, processed, pslmpointer_opts) do |ps|
-        if psalm_sources.size > 2 then # psalm composed from parts
-          # part title to title of the whole psalm; only works for psalms
-          ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }
-        end
-      end
-
+      point_text tone, psalm_sources, processed
       `vlna #{processed}`
       return "\\input{#{processed}}"
     end
 
     # prepares psalm according to the header information of a score
     # identified by it's FIAL
-
     def prepare_psalm_f(fial)
       src, id = decode_fial fial
 
@@ -389,28 +377,36 @@ module Typographus
     end
 
     def prepare_pointed_text(file_name, tone)
-      gloriapatri = File.join @setup.psalms_dir, 'doxologie.zalm'
-      processed = File.join(@setup.generated_dir, File.basename(file_name).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex'))
+      processed = pointed_text_path file_name
 
       psalm_sources = [file_name]
-
       if @setup.doxology
-        psalm_sources << gloriapatri
+        psalm_sources << doxology_path
       end
 
-      pslmpointer_opts = {
-        :output => { :pointing => {:tone => tone} }
-      }
+      point_text tone, psalm_sources, processed
+      `vlna #{processed}`
+      return "\\input{#{processed}}"
+    end
 
-      @psalmpreprocessor.process(psalm_sources, processed, pslmpointer_opts) do |ps|
-        if psalm_sources.size > 2 then # psalm composed from parts
+    # Where to store results of psalm pointing.
+    def pointed_text_path(input_filename)
+      File.join(
+        @setup.generated_dir,
+        File.basename(input_filename).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex')
+      )
+    end
+
+    # Points a text for the specified psalm tone.
+    def point_text(tone, source_files, result_path)
+      opts = {output: {pointing: {tone: tone}}}
+
+      @psalmpreprocessor.process(source_files, result_path, opts) do |ps|
+        if source_files.size > 2 then # psalm composed from parts
           # part title to title of the whole psalm; only works for psalms
           ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }
         end
       end
-
-      `vlna #{processed}`
-      return "\\input{#{processed}}"
     end
 
     def wrap_psalmody
@@ -419,11 +415,13 @@ module Typographus
         "\\end{psalmodia}\n"
     end
 
+    # score of a psalm tone specified by it's standard code
     def prepare_psalm_tone(tone)
       tone = tone.gsub('.', '-')
       return prepare_generic_score 'psalmodie.ly#'+tone
     end
 
+    # score of a psalm tone required by a score identified by it's FIAL
     def prepare_psalm_tone_f(fial)
       src, id = decode_fial fial
 
@@ -437,7 +435,6 @@ module Typographus
 
     # converts a Czech psalm name how it is customarily used in the project
     # to a psalm file name
-
     def psalm_fname(name)
       name = name.downcase.gsub(' ', '').gsub('-', '').tr('áéíóúůýžščřďťňÁÉÍÓÚŮÝŽŠČŘĎŤŇ', 'aeiouuyzscrdtnaeiouuyzscrdtn')
 
@@ -449,7 +446,6 @@ module Typographus
     end
 
     # looks for a score; raises error if it is not loaded
-
     def get_score(file, score_id)
       unless @split_music_files.include? file
         raise "#{file} music file not found."
@@ -463,7 +459,6 @@ module Typographus
     end
 
     # takes fial, returns a path and an id or raises exception
-
     def decode_fial(fial)
       if fial[0] != '#' then
         begin
@@ -489,8 +484,9 @@ module Typographus
       return src, id
     end
 
-    # accepts "FIAL path" relative to the music base directory
-
+    # Takes a music source file, splits it to one or more files, one score each.
+    # (Which can be included in a LaTeX document).
+    # Accepts path relative to the music base directory.
     def split_music_file(path)
       if @split_music_files.include? path then
         return
@@ -552,10 +548,15 @@ module Typographus
       end
     end
 
+    # Generates a unique suffix used for naming of files with pointed psalm texts.
     def psalm_unique_suffix
       r = @psalm_counter.to_s.rjust @psalm_suffix_size, '0'
       @psalm_counter += 1
       return r
+    end
+
+    def doxology_path
+      File.join @setup.psalms_dir, 'doxologie.zalm'
     end
 
     def is_antiphon?(score)
