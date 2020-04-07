@@ -59,7 +59,7 @@ module Typographus
                                         :output => {
                                           :lettrine => { :digraphs => ['ch'] },
                                           :quote => :guillemets,
-                                          :strophes => { 
+                                          :strophes => {
                                             :end_marks => :semantic,
                                             :paragraph_space => false
                                           }
@@ -248,7 +248,7 @@ module Typographus
       end
 
       l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
-        psalm_tone = $3 
+        psalm_tone = $3
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
         @last_psalm_tone = psalm_tone
 
@@ -309,7 +309,7 @@ module Typographus
       if is_antiphon?(score) and score.header['modus'] then
         @last_psalm_tone = "#{score.header['modus']}.#{score.header['differentia']}"
       end
-      
+
       return "\\lilypondfile{#{score_path}}"
     end
 
@@ -337,9 +337,9 @@ module Typographus
         psalm_sources << psalmf
       end
 
-      if @setup.doxology and 
+      if @setup.doxology and
           not @doxology_noappend.include?(File.basename(psalmf)) then
-        psalm_sources << gloriapatri 
+        psalm_sources << gloriapatri
       end
 
       pslmpointer_opts = {
@@ -414,7 +414,7 @@ module Typographus
     end
 
     def wrap_psalmody
-      "\\begin{psalmodia}\n" + 
+      "\\begin{psalmodia}\n" +
         yield +
         "\\end{psalmodia}\n"
     end
@@ -511,7 +511,7 @@ module Typographus
       layout = []
 
       # remove optional alleluia
-      
+
       if @setup[:remove_optional_alleluia] and
           is_antiphon? score then
         score_text = ScoreModifier.remove_optional_alleluia score_text
@@ -526,7 +526,7 @@ module Typographus
         score_text = ScoreModifier.layout score_text, layout.join("\n")
       end
 
-      return score_text 
+      return score_text
     end
 
     def process_tytex(fpath)
