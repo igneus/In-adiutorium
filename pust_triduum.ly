@@ -555,6 +555,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 4"
+    placet = "_Dáváš mi_ nepřirozené"
     id = "so-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -648,6 +649,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
+    placet = "důraz na _byl_ musí pryč"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -690,6 +692,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
+    placet = "_na věky věků_ je nezpěvné"
     id = "so-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -910,6 +913,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
+    placet = "_řekl to však ..._ lépe"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
