@@ -340,13 +340,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d( f) f g e e \barMin
     g g g f e e \barMaior
     a g a a a g a b g g( a) a \barMaior
     a a a( f) g f( d) d \barMin
     c d e f g f e e \barFinalis
+  }
+  \addlyrics {
+    Po -- zdvi -- hu -- jí se_*
+    po -- zem -- ští krá -- lo -- vé
+    a vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
+    pro -- ti Hos -- po -- di -- nu
+    a je -- ho po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 2"
+    id = "pa-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d( f) f g e e \barMin
+    g g g f e e \barMaior
+    a g a a a g a b g g( a) a \barMaior
+    a a a( f) g f( d) d \barMin
+    \mark\sipka d c d f g f e e \barFinalis
   }
   \addlyrics {
     Po -- zdvi -- hu -- jí se_*

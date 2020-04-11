@@ -160,7 +160,7 @@
     g g g f e e \barMaior
     a g a a a g a b g g( a) a \barMaior
     a a a( f) g f( d) d \barMin
-    c d e f g f e e \barFinalis
+    d c d f g f e e \barFinalis
   }
   \addlyrics {
     Po -- zdvi -- hu -- jí se_*
