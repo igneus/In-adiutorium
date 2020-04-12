@@ -346,6 +346,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_Nazaretský_ není moc pěkné"
     id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -483,6 +484,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
+    placet = "_přijal ocet_ jinak"
     id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
