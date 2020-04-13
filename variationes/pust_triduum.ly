@@ -1677,7 +1677,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c d f g f e f d d \barFinalis
   }
@@ -1712,10 +1712,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c g) a f f( g) \barMin g f e d( e) d d \barMaior
     a' c d a \barMin
@@ -1732,6 +1752,60 @@
     differentia = "a"
     psalmus = "Žalm 16"
     placet = "není špatná, ale je docela neobvyklá a divoká; zkusit nějaké další varianty"
+    id = "so-mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( bes) a g f( g) \barMin
+    g f e d( e) d d \barMaior
+    f g g( a) a \barMin
+    bes a g a( f) d \barMin
+    e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- za -- ne -- cháš_*
+    mou du -- ši v_pod -- svě -- tí,
+    ne -- do -- pus -- tíš,
+    a -- by tvůj sva -- tý
+    spat -- řil po -- ru -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 16"
+    id = "so-mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    \mark\sipka a4( bes a) g f f( g) \barMin
+    g f e d( e) d d \barMaior
+    f g g( a) a \barMin
+    bes a g a( f) d \barMin
+    e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- za -- ne -- cháš_*
+    mou du -- ši v_pod -- svě -- tí,
+    ne -- do -- pus -- tíš,
+    a -- by tvůj sva -- tý
+    spat -- řil po -- ru -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 16"
     id = "so-mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -2018,6 +2092,105 @@
     ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
     pro -- to -- že ne -- vin -- ný Pán
     byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f g \mark\sipka f( e c) \barMin
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán
+    byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Důvodem náhrady předchozí verze je sice nežádoucí zdůraznění _byl_,
+  ale vzestupný skok bez předchozí cesury a navíc po bezprostředně předcházejícím melismatu
+  se mi (alespoň teď) zdá být v pořádku.
+}
+\markup{
+  Ale melisma _Pán_ moc pořádně nejde do pusy.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f g f( e c) \mark\sipka f d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f \mark\sipka e e( f) c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f e \mark\sipka f c e d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
   }
   \header {
     quid = "1. ant."

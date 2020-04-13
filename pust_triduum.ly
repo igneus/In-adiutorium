@@ -547,7 +547,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    c d f g f e f d d \barFinalis
+    f4 f f e f d c d d \barFinalis
   }
   \addlyrics {
     Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
@@ -557,7 +557,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 4"
-    placet = "_Dáváš mi_ nepřirozené"
     id = "so-mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -565,22 +564,26 @@
 
 \score {
   \relative c'' {
+    \key f \major
     \choralniRezim
-    a4( c g) a f f( g) \barMin g f e d( e) d d \barMaior
-    a' c d a \barMin
-    bes a g a( f) d \barMin e e e( g) f d d \barFinalis
+    a4( bes a) g f f( g) \barMin
+    g f e d( e) d d \barMaior
+    f g g( a) a \barMin
+    bes a g a( f) d \barMin
+    e f g f d d \barFinalis
   }
   \addlyrics {
-    Ne -- za -- ne -- cháš_* mou du -- ši v_pod -- svě -- tí,
+    Ne -- za -- ne -- cháš_*
+    mou du -- ši v_pod -- svě -- tí,
     ne -- do -- pus -- tíš,
-    a -- by tvůj sva -- tý spat -- řil po -- ru -- še -- ní.
+    a -- by tvůj sva -- tý
+    spat -- řil po -- ru -- še -- ní.
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 16"
-    placet = "není špatná, ale je docela neobvyklá a divoká; zkusit nějaké další varianty"
     id = "so-mc-ant2"
     piece = \markup {\sestavTitulek}
   }
