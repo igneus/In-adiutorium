@@ -416,7 +416,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f e f g a g \barMin
     \mark\sipka g f d d e d c d d \barFinalis
@@ -502,6 +502,79 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka d d f e d c d c \barMin
+    bes c d d f \mark\sipka d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
+    vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f \mark\sipka d c e d d \barMin
+    bes c d d f d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
+    vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Tenhle hudební tvar se mi líbí, myslím, že text dobře vystihuje,
+  ale úvodní recitace na jednom tónu dává nepěkně vyniknout tomu, jak jsou tam
+  nahromaděné sykavky. I mi dělá potíže \italic{Kristus nesl} správně vyslovit.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a c a g b a a \barMin
+    f g a a c a g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
+    vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}

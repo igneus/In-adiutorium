@@ -392,8 +392,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a) a c d d( e) e \barMaior
     e f g f d d \barMin e c d( f) e e( d) d \barMaior
@@ -413,6 +416,53 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c d f e d( e) e \barMin
+    e f g f d d \barMin e c d( f) e e( d) d \barMaior
+    f g4. f4( d) f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te ke mně všich -- ni,
+    kdo se lo -- po -- tí -- te a jste ob -- tí -- že -- ni,
+    a já vás ob -- čerst -- vím.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c d f e d( e) e \barMin
+    e f g f d d \barMin e c d( f) e e( d) d \barMaior
+    f g4. f4( d) \mark\sipka e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te ke mně všich -- ni,
+    kdo se lo -- po -- tí -- te a jste ob -- tí -- že -- ni,
+    a já vás ob -- čerst -- vím.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

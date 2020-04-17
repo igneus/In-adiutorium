@@ -274,9 +274,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a) a c d d( e) e \barMaior
+    c d f e d( e) e \barMin
     e f g f d d \barMin e c d( f) e e( d) d \barMaior
-    f g4. f4( d) f( e) d d \barFinalis
+    f g4. f4( d) e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- te ke mně všich -- ni,

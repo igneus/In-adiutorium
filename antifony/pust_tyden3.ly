@@ -183,8 +183,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f e f g a g \barMin
-    g f d d e d c d d \barFinalis
+    a4 a a a c a g b a a \barMin
+    f g a a c a g a a \barFinalis
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
@@ -194,8 +194,8 @@
     textus_approbatus = "Kristus nesl naše utrpení
     a vzal na sebe naše bolesti."
     quid = "3. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "II"
+    differentia = "A"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
