@@ -540,6 +540,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -561,6 +563,54 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f( d) \barMin
+    g f e d c d \barMaior
+    f d \barMin
+    g f d c d d \barFinalis
+  }
+  \addlyrics {
+    Li -- de můj,
+    co jsem ti u -- či -- nil?
+    Řek -- ni,
+    čím jsem tě za -- rmou -- til?
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "up-tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f( d) \barMin
+    g f e d c d \barMaior
+    f \mark\sipka e f-- f d c d d \barFinalis
+  }
+  \addlyrics {
+    Li -- de můj,
+    co jsem ti u -- či -- nil?
+    Řek -- ni, čím jsem tě za -- rmou -- til?
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "up-tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

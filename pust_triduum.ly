@@ -470,9 +470,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f e f e c c \barMin
-    d f e c d \barMaior
-    f f f g f e d d \barFinalis
+    d4 d d c d f e d d \barMin
+    c f e c d \barMaior
+    f f f g f e c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
@@ -484,7 +484,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
-    placet = "_přijal ocet_ jinak"
     id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -640,21 +639,18 @@
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
-    a a a g f g e \barMin
-    f e( d) d \barFinalis
+    a a a g f e f c e d \barFinalis
   }
   \addlyrics {
     Bu -- dou nad ním na -- ří -- kat_*
     ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
-    pro -- to -- že ne -- vin -- ný Pán
-    byl za -- bit.
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
   }
   \header {
     quid = "1. ant."
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
-    placet = "důraz na _byl_ musí pryč"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }

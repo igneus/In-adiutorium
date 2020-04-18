@@ -644,11 +644,35 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
     d4 d d c d d d f e f g f d4. d \barMaior
     d4 d d d c( a) a \barMin c d e e4.( d) \barFinalis
+  }
+  \addlyrics {
+    Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
+    Je -- žíš Na -- za -- ret -- ský, ži -- dov -- ský král.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d d f e f g f d d \barMaior
+    \mark\sipka f f e f d d \barMin
+    c d e4. d \barFinalis
   }
   \addlyrics {
     Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
@@ -1234,7 +1258,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d \mark\sipka f e f e c c \barMin
     \mark\sipka d f e c d \barMaior
@@ -1261,6 +1285,29 @@
     d4 d d f e f e c c \barMin
     d f e c d \barMaior
     f f f g f e \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d \mark\sipka c d f e d d \barMin
+    \mark\sipka c f e c d \barMaior
+    f f f g f e c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
@@ -2080,7 +2127,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
@@ -2182,6 +2229,29 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a a a g f e e( f) \mark\sipka e d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
