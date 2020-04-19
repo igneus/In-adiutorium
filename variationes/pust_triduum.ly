@@ -646,8 +646,26 @@
 
 \pageBreak
 
+\markup\justify{
+  Latinské znění:
+  \italic{Posuerunt super caput eius causam ipsius scriptam: Iesus Nazarenus, rex Iudaeorum.}
+  Starobylá antifona (ve stejném znění a stejné funkci v tridentském breviáři a dávno před ním).
+  Text kombinuje formulace Mt 27, 37 a Jan 19, 19.
+  Překladatelé Denní modlitby církve tento kombinovaný charakter buďto nepoznali, nebo zavrhli,
+  a české znění antifony je cele založené na verši janovském (byť není doslovným citátem,
+  nebo alespoň ne doslovným citátem z Bognerova NZ.)
+}
+\markup\justify{
+  Uvažoval jsem, jestli by zhudebnění textu nemělo vyjádřit víru církve, že ten posměšný nápis
+  je v hlubší rovině pravdivý (Ježíš skutečně byl očekávaný mesiáš, tedy židovský král,
+  byť ne ve smyslu časného kralování), ale gregoriánský nápěv latinské předlohy se o nic takového nepokouší,
+  je to celkem prostá aplikace jednoho z široce používaných melodických modelů I. modu.
+  Ostatně ani to, že slovy "\"židovský král\"" text končí, žádné zvláštní práci s nimi nepřeje.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d d d f e f g f d4. d \barMaior
     d4 d d d c( a) a \barMin c d e e4.( d) \barFinalis
@@ -669,6 +687,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c d d d f e f g f d d \barMaior
     \mark\sipka f f e f d d \barMin

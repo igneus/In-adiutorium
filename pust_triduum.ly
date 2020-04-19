@@ -333,8 +333,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d d d f e f g f d4. d \barMaior
-    d4 d d d c( a) a \barMin c d e e4.( d) \barFinalis
+    d4 d d c d d d f e f g f d d \barMaior
+    f f e f d d \barMin
+    c d e4. d \barFinalis
   }
   \addlyrics {
     Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
@@ -346,7 +347,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_Nazaretský_ není moc pěkné"
     id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
