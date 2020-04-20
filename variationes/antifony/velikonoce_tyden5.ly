@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../velikonoce_antifony.ly;
+
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {5. neděle velikonoční}}
 
@@ -284,10 +285,43 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Úterý}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f f e d f( g) g \barMin
+    f g g( f) f \barMaior
+    f f e c d c \barMin
+    d f g f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám za -- ne -- chá -- vám,
+    a -- le -- lu -- ja,
+    svůj po -- koj vám dá -- vám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\wordwrap{
+  Úprava na tradiční model - srov. AR1912, s. 390n:
+  antifony \italic{Pax vobis, ego sum} a \italic{Ego sum vitis vera}
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f f e g a \barMin
     e f d c \barMaior
@@ -309,6 +343,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -334,10 +370,42 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Středa}}
+
+\markup\wordwrap{
+  Úprava na tradiční model - viz antifonu \italic{Pokoj vám zanechávám} o den dříve
+}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4 f f( g) g f g( a) a \barMin
+    g f g( f) f \barMaior
+    f f f e c d( c) c \barMin
+    d f g f \barFinalis
+  }
+  \addlyrics {
+    Já jsem pra -- vý vin -- ný kmen,
+    a -- le -- lu -- ja,
+    vy jste mé ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f e g g a \barMin
     e f d c \barMaior
@@ -359,6 +427,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
