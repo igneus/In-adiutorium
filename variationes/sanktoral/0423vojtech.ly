@@ -1061,12 +1061,45 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 \mark\sipka f( g) f f \barMin f f f \mark\sipka g f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hle, ve -- le -- kněz, kte -- rý se za -- lí -- bil Bo -- hu._*
+    \textRespAleluja
+    \Verse Mno -- hé od -- vrá -- til od ne -- pra -- vos -- ti._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 \mark\sipka g f f \barMin f f f \mark\sipka f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f

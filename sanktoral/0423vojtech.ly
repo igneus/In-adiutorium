@@ -174,7 +174,7 @@
 
     % R
     \neviditelna f
-    f4 f( g) f f \barMin f f f g f e g a \barMax
+    f4 g f f \barMin f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
