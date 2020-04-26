@@ -900,7 +900,7 @@
     f g g( a) a \barMin
     bes a g a f( g) \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
-    d d d d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+    c d f e f( g) g g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ře -- kl:_*
@@ -913,7 +913,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
-    placet = "_řekl to však ..._ lépe"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
