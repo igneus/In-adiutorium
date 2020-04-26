@@ -1726,6 +1726,58 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g g( a) a( g) g \barMin
+    a( c) b( c) a( g) g \barMaior
+    c c( b a) \barMin
+    a b a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) a( \mark\sipka c) c \barMin
+    c b( c) a( g) g \barMaior
+    c c( b a) \barMin
+    a b a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c b c a a c b( a) g g \barMaior
     g f4.( a) \barMin
     a4 b a g g \barMaior
