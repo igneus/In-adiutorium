@@ -693,7 +693,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
-    placet = "_na věky věků_ je nezpěvné"
     id = "so-rch-ant3"
     piece = \markup {\sestavTitulek}
   }
