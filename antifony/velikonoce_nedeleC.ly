@@ -161,19 +161,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f( e f) g( a) a a b( c) c c \barMin
-    c b4.( g) g4 a( g f) e( f) g4. g \barMax
-    g4 g( a) g4. g \barFinalis
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Ny -- ní je o -- sla -- ven Syn člo -- vě -- ka
-    a Bůh je o -- sla -- ven v_něm.
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#2ne-a3"
     id = "vmag1"

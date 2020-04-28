@@ -1605,6 +1605,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f( e f) g( a) a a b( c) c c \barMin
     c b4.( g) g4 a( g f) e( f) g4. g \barMax
@@ -1769,6 +1770,59 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a g( a) \barMin
+    a c b g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a \mark\sipka c( a) \barMin
+    a c b \mark\sipka a g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Zj 11"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
