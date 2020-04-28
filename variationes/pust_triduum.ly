@@ -218,6 +218,30 @@
   }
 }
 
+\markup{
+  Patří melisma spíš na slabiku krátkou přízvučnou, nebo nepřízvučnou dlouhou?
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c( b) c c( a) a \barMin \mark\sipka c d( e) d c d d \barMaior
+    d c( b a) a \barMin b( a) g b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí zví -- tě -- zi -- li_* Be -- rán -- ko -- vou kr -- ví
+    a slo -- vem své -- ho svě -- dec -- tví.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 11"
+    id = "ct-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
