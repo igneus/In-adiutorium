@@ -63,13 +63,13 @@ text = \lyricmode {
   \alal
 
   \set stanza = #"5"
-  Slá -- va Ot -- ci i Sy -- nu
+  Slá -- va Ot -- ci i Sy -- nu,
   \al
-  i Du -- chu sva -- té -- mu,
+  I Du -- chu sva -- té -- mu,
   \alal
-  ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+  Ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky,
   \al
-  a na vě -- ky vě -- ků. A -- men.
+  A na vě -- ky vě -- ků. A -- men.
   \alal
 
   \alal
@@ -101,9 +101,8 @@ akordy = \chords {
   g1 c
 }
 
-aleluja = \relative c'' { a8 a g( f) g4 r a8 a g( f) g4 r }
-
-strofa = { \bar "||" }
+aleluja = \relative c'' { a8 a g( f) g4 r \bar "||" a8 a g( f) g4 r \bar "||" }
+alelujaB = \relative c'' { \bar "||" a8 a g( f) g4 r a8 a g( f) g4 r \bar "||" }
 
 melodie = \relative c' {
   \tempo 4 = 100
@@ -111,42 +110,43 @@ melodie = \relative c' {
 
   \key c \major
   % Vitezstvi
-  c4 c8 c c4 c8 c e e f a g g r4
+  c4 c8 e g4 g8 g a a g f g g r4
   \aleluja
 
   % Nebot jeho
   c,8 c e f g4 g8 g a a g f g g g g
-  \aleluja \strofa
+  \alelujaB
 
   % Chvalte
-  \time 3/4 c,4 c8 d e f \time 2/4 g g r4 \time 4/4 a8 a g f g g g r
+  \time 3/4 c,4 c8 d e f \time 2/4 g g r4 \time 4/4 a8 a g f g g4 g8
   \aleluja
-  c,8 c e f g g g r r a g f g g r4
-  \aleluja \strofa
+  c,8 c e f g g4 g8 a g4 f8 g g4 r8
+  \alelujaB
 
   % Pan
-  c,4. e8 g4 f8 e d4. e8 f e f g \time 2/4 g4 r \time 4/4
+  c,4 e g f8 e d4. e8 f e f g \time 2/4 g4 r \time 4/4
   \aleluja
   c,8 c e f g g g g a4 g8 f g r8 r4
-  \aleluja \strofa
+  \alelujaB
 
   % Nebot nadesla
   r4 c,8 e g g g r a8 a g f g g r4
   \aleluja
   r4 c,8 e g g g g r4 f8 a g g r4
-  \aleluja \strofa
+  \alelujaB
 
   % Slava
   \time 2/4 c,4. e8 g4 g8 g a( g) g r \time 4/4
   \aleluja
-  r8 c, e f g g g r
-  \aleluja \strofa
+  r8 c, e f g g4 g8
+  \alelujaB
 
   % Jako
   c,8 c e f g g g g a a g f g4 g
   \aleluja
   g8 g f e g g4. g4( c) b r
-  \aleluja
+  \bar "||"
+  a8 a g( f) g4 r a8 a g( f) g4 r
   % extra aleluja
   f8 e d( c) d4 r f8 e d( c) d4 r
   d4 e d4.( c8) c1 \bar "|."
