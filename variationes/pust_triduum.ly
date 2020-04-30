@@ -646,8 +646,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
     a g g( e) e f( e) f( g a4.) a4 \barFinalis
@@ -664,6 +667,31 @@
     psalmus = ""
     id = "pa-resp"
     fons = "Bílá sobota, ant. místo responsoria."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
+    a g g( e) e f( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
+    a to k_smr -- ti na kří -- ži.
+  }
+  \header {
+    quid = "ant. místo responsoria"
+    quidbreve = "ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-resp"
+    fial = "pust_triduum.ly#so-resp?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -2409,6 +2437,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
     a g g( e) e f( e) f( g a4.) a4 \barMax
@@ -2463,6 +2492,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
     a g g( e) e \mark\sipka f( g) g( a) a \barMax

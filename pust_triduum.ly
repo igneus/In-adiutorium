@@ -312,7 +312,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
-    a g g( e) e f( e) f( g a4.) a4 \barFinalis
+    a g g( e) e f( g) g( a) a \barFinalis
   }
   \addlyrics {
     Kris -- tus byl pro nás_* po -- sluš -- ný až k_smr -- ti,
@@ -702,7 +702,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barMax
-    a g g( e) e f( e) f( g a4.) a4 \barMax
+    a g g( e) e f( g) g( a) a \barMax
     a a a a g a a( b c d) e( c d4.) d \barMaior
     d4 d d d( e c a) a \barMin a g a a( c) b a4. a \barFinalis
   }
@@ -731,7 +731,7 @@
     d4 d d d d e( d c) c( d) d4.( a) \barMin a4( b g) g( a) a \barFinalis
 
     \neviditelna a
-    a g g( e) e f( e) f( g a4.) a4 \barFinalis
+    a g g( e) e f( g) g( a) a \barFinalis
 
     \neviditelna a
     a a a a g a a( b c d) e( c d4.) d \barMaior
