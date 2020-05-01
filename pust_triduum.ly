@@ -534,6 +534,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melisma na _pohřben_ nejde moc do pusy"
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
     fial = "pust_triduum.ly#pa-invit?cast"
@@ -867,6 +868,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 116-II"
+    placet = "_Vítězně_ by možná mohlo znít méně chcíple a více vítězně"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
