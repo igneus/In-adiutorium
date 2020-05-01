@@ -1257,6 +1257,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) b g g \barMin
+    a \mark\sipka g f g f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1730,6 +1750,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin a( bes) a g g( a) a \barMaior
@@ -1746,6 +1767,109 @@
     psalmus = ""
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    \mark\sipka a g bes a( g a) a \barMaior
+    a4 a a a a( g f) g( f) e f d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a) a \barMaior
+    a4 a a a a( g f) g( f) e \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "sylabická verze"
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f g g( a) a \barMin
+    a g bes a a \barMaior
+    a4 a a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f g g( a) a \barMin
+    a g bes a a \barMaior
+    a4 a \mark\sipka g f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -2634,6 +2758,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 

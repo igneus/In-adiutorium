@@ -522,11 +522,14 @@
   \relative c' {
     \choralniRezim
     d4( f d) d \barMin
-    g( f g a g) f e f( g a) a \barMin a( bes) a g g( a) a \barMaior
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a) a \barMaior
     a4 a a a a( g f) g( f) e f d( c d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me,_* klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
     on byl pro nás u -- mu -- čen a po -- hřben.
   }
   \header {
