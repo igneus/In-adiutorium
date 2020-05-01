@@ -24,6 +24,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 42"
+    placet = "druhá polovina není právě zpěvná"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
