@@ -33,6 +33,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "překlep ve finále; celkově bída"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -58,6 +59,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zcela nezpěvná"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -84,6 +86,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "bída"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -38,6 +38,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "zkusit variantu, kde není melisma na _trpěl_"
       id = "invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -72,6 +73,7 @@
     \header {
       quid = "resp."
       modus = "IV"
+      placet = "doxologii lépe"
       id = "rch-resp"
       piece = \markup {\sestavTitulekResp}
     }
