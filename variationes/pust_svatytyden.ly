@@ -23,10 +23,34 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4( f) f \barMin
       d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
       d4 d d d e( d) c( a) a \barMin a c d e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on byl pro nás po -- kou -- šen a za nás tr -- pěl.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+      d4 d d d e( d) c( a) a \barMin \mark\sipka c d e d d \barFinalis
     }
     \addlyrics {
       Pojď -- me,

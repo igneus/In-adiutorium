@@ -26,7 +26,7 @@
       \choralniRezim
       d4( f) f \barMin
       d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
-      d4 d d d e( d) c( a) a \barMin a c d e( d) d \barFinalis
+      d4 d d d e( d) c( a) a \barMin c d e d d \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -38,7 +38,6 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "zkusit variantu, kde není melisma na _trpěl_"
       id = "invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }

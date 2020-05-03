@@ -16,6 +16,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4( f) f \barMin
       d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
@@ -33,6 +34,32 @@
       psalmus = ""
       id = ""
       fons = "Z antifon pro Svatý týden."
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{Aktualisace ze zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+      d4 d d d e( d) c( a) a \barMin c d e d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on byl pro nás po -- kou -- šen a za nás tr -- pěl.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "invit"
+      fial = "pust_svatytyden.ly#invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
