@@ -17,51 +17,6 @@
   \relative c' {
     \choralniRezim
 
-    c d f\breve f4-! \parenthesize d d4. \mark\Dagger \barMin
-    f\breve g4 g-! \parenthesize d d4. \mark "*" \barMaior
-    f\breve c4 d e-! \parenthesize d d4. \barFinalis
-  }
-  \header {
-    fons_externus = "Antiphonale Romanum, Řím 1912, s. *26."
-    quid = "psalmodie"
-    modus = "II"
-    differentia = ""
-    % piece = "psalmodie (modus II)"
-    piece = \markup\sestavTitulekBezZalmu
-    placet = "ten nápěv má podle antifonáře specifické místo v rámci liturgického roku a je určen
-    pro zpěv žalmů bez antifony; jeho všednodenní použití je výpůjčka
-    z Nového Dvora - jenže v mnišském oficiu se žalmy kompletáře zpívají také bez antifony;
-    v Antifonáři k DMC by extra nápěv pro žalmy kompletáře být neměl"
-    id = "psalmodie"
-  }
-}
-
-%{
-\score {
-  \relative c' {
-    \choralniRezim
-
-    c d f\breve f4-! \parenthesize d d4. \mark\markup\large\Dagger \barMin
-    f\breve g4 g-! \parenthesize d d4. \mark\markup\large{*} \barMax
-    f\breve c4 d e-! \parenthesize d d4. \barFinalis
-  }
-  \header {
-    quid = "psalmodie"
-    modus = "II"
-    differentia = ""
-    piece = "psalmodie (modus II)"
-    id = "psalmodie-proantifonar"
-  }
-  \layout{
-    indent = 0\cm
-  }
-}
-%}
-
-\score {
-  \relative c' {
-    \choralniRezim
-
     d4 f f g g f d d \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
