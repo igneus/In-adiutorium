@@ -86,10 +86,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d( e) d \barMaior
-    a4. a4( d) c a \barMin
-    c c b a a( g) g \barMaior
-    f a a( g) g \barFinalis
+    g4 g g( c) a( g) \barMaior
+    a g( f) g( a) a \barMin
+    a b c a g g
+    f a g g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja._*
@@ -99,10 +99,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 149"
-    placet = "nic moc"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -138,11 +137,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g a \barMin
-    g f g e e \barMaior
-    d f f( e) e \barFinalis
+    f4 f a g f \barMin
+    g f g a g \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*
@@ -151,10 +150,9 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "nic moc"
     id = "up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
