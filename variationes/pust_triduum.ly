@@ -2765,9 +2765,51 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c( b c) a( g) g a g f g g( a) a( g) g \barMaior
     a( c) c \barMin d c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c( e d) c( d) d \barMin c b a g a g g \barMaior
+    f( a) a \barMin c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( e d) c( d) d \barMin c b a g a g g \barMaior
+    f( a) a \barMin c \mark\sipka c b a a g g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
@@ -2985,6 +3027,35 @@
     je o -- sla -- ven v_něm;
     a zje -- ví se na něm
     Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c \mark\sipka d c b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm Bo -- ží slá -- va.
   }
   \header {
     quid = "ant. k Magnificat"

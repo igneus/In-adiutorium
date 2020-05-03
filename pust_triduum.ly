@@ -125,6 +125,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup\nadpisDen{Velký pátek}
 
 \markup {\nadpisHodinka {"invitatorium"}}
@@ -859,8 +861,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c( b c) a( g) g a g f g g( a) a( g) g \barMaior
-    a( c) c \barMin d c b c a g g \barFinalis
+    c( e d) c( d) d \barMin c b a g a g g \barMaior
+    f( a) a \barMin c c b a a g g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
@@ -871,7 +873,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 116-II"
-    placet = "_Vítězně_ by možná mohlo znít méně chcíple a více vítězně"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
