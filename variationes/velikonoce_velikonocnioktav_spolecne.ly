@@ -7,10 +7,6 @@
 
   \markup {\nadpisHodinka {"invitatorium"}}
 
-  \markup{Invitatorium se vyvíjí v velikonoce_antifony-VAR.ly}
-
-  \pageBreak
-
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
