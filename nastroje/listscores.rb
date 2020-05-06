@@ -25,7 +25,7 @@ ARGV.each do |f|
   end
 
   if ARGV.size > 1 then
-    
+    file_separator f
   end
 
   LilyPondMusic.new(f).scores.each do |score|
