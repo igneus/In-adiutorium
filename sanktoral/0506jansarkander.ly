@@ -34,6 +34,7 @@
     modus = "II"
     differentia = "A"
     psalmus = "Žalm 63"
+    placet = "_krví_: nezpěvná slabika melisma často snese, ale takovéhle ne; _svědectví_ + _natolik_: nudné opakování závěru"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -59,6 +60,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "půjde lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -83,6 +85,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "přinejmenším závěr lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -139,6 +142,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "zaslouží trochu péče"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -165,6 +169,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-I"
+    placet = "nestandardní aleluja"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -187,6 +192,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 116-II"
+    placet = "lépe"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -209,6 +215,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 4"
+    placet = "melodie _Když vytrváme_ je nepřirozená"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -233,6 +240,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "aleluja lépe"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
