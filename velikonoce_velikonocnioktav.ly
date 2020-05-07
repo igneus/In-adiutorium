@@ -603,8 +603,8 @@
       \choralniRezim
       \key f \major
       f4( g) f f g( a f e) f \barMaior
-      g a( g) \barMin g g g a g( f) f \barMaior
-      g a f f \barFinalis
+      g f g a a a g( f) d \barMaior
+      f g g( f) f \barFinalis
     }
     \addlyrics {
       Pojď -- te_* a slyš -- te,
@@ -616,8 +616,6 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 66-II"
-      fial = "antifony/tyden4_1nedele.ly#mc-ant3?cast&+aleluja"
-      placet = "nedrží pohromadě"
       id = "ut-mc-a3"
       piece = \markup {\sestavTitulek}
     }
