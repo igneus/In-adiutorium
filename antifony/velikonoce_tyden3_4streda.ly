@@ -23,6 +23,7 @@
     differentia = "g"
     psalmus = "Žalm 86"
     fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
+    placet = "zdroj se změnil"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
