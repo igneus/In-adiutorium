@@ -131,6 +131,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    e c c( d) d \barMaior
+    a d c( b) a( g) \barMin
+    a g f g( a) a
+    c b a a \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,_*
+    měs -- to Bo -- ží,
+    bu -- deš zá -- řit
+    ve -- li -- kým svět -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
