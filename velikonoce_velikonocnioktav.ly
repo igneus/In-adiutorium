@@ -732,8 +732,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g g( c b) c d c \barMin
-      d c b a g a( b g) g \barMaior
+      g g( c) c b g \barMin
+      a g f a c b( a g) g \barMaior
       a g f( g) g \barFinalis
     }
     \addlyrics {
@@ -746,7 +746,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-III"
-      placet = "_Hospodinova_ lépe"
       id = "st-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -760,16 +759,14 @@
       c4 c c( d) d c b a( g) g \barMin
       a c d c e d d \barMaior
       d e( f e) d( c) c b c a( g) g \barMin
-      f g a a a b g g \barMin
-      a g f( a) a( g) g \barMaior
+      f g a a a a a g f a a g g \barMaior
       f g( a) g g \barFinalis
     }
     \addlyrics {
       Je -- žíš za -- čal od Moj -- ží -- še,_*
       pro -- bral všech -- ny pro -- ro -- ky
       a vy -- klá -- dal u -- čed -- ní -- kům,
-      co se ve všech čás -- tech Pís -- ma
-      na něj vzta -- hu -- je.
+      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
       A -- le -- lu -- ja.
     }
     \header {
@@ -777,7 +774,6 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
-      placet = "_co se ..._ zpěvněji"
       id = "st-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -790,9 +786,9 @@
       f g a a g a a \barMaior
       a b c a a b( g) g( e) e \barMaior
       e d( e) \barMin
-      e f e g g a g g( a) a \barMaior
+      e f e f( g) g a g g( a) a \barMaior
       a( b a) g( f) e e \barMin
-      e f g e e \barMaior
+      d f g e e \barMaior
       d f f( e) e \barFinalis
     }
     \addlyrics {
@@ -810,7 +806,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "celkově pěkná, ale některá místa (chybějící nebo naopak nehodící se kroky) zaslouží opravit"
       id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -920,7 +915,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 f g( a) a g \barMin
+      a4 g f g g \barMin
       a g a( c) c c d b c a \barMaior
       g f a a( g) \barMin
       a g f( g) g \barFinalis
@@ -936,7 +931,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "_Podívejte se_ půjde přirozeněji"
       id = "ct-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1050,23 +1044,21 @@
     \relative c'' {
       \choralniRezim
       g4( a g) f f( g) \barMin
-      a a a c b c a a g( f g) g \barMaior
-      a b c( g) \barMin
-      a g f( g) g \barFinalis
+      g g g a g a g f g( a) a \barMaior
+      c-- b a
+      c a a( g) g \barFinalis
     }
     \addlyrics {
       U -- čed -- ník,_*
       kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
-      To je Pán!
+      Pán je to!
       A -- le -- lu -- ja!
     }
     \header {
-      textus_approbatus = "Učedník, kterého Ježíš miloval, řekl: Pán je to! Aleluja!"
       quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "krok na _kterého_ je nepěkný"
       id = "pa-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1192,7 +1184,7 @@
     \relative c'' {
       \choralniRezim
       c4( d c) b( c) a( g) a( g) \barMin
-      a a g( a) a c b a b g g \barMaior
+      f g g( a) a c b a b g g \barMaior
       g4 a a a g f g( a) a \barMin
       c c b( g) \barMin
       a g f( g) g \barFinalis
@@ -1209,7 +1201,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
-      placet = "krok na _Ježíš_ jinak - třeba f g ga a"
       id = "ne2-mag1"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1254,8 +1245,8 @@
       a4( g f) e( f) d d \barMax
       d4( g) f f g g \barMaior
       g g( a bes) g( a) g( f) f \barMin
-      f g( f) e( f) d d \barMaior
-      c d f( e) d \barFinalis
+      f g f e c
+      e f d d \barFinalis
     }
     \addlyrics {
       Pro -- to -- že jsi mě u -- vi -- děl,_*
@@ -1270,7 +1261,6 @@
       modus = "I"
       differentia = "a"
       psalmus = ""
-      placet = "_neviděli a uvěřili_ působí jako únavné opakování"
       id = "ne2-mag2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
