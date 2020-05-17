@@ -1226,6 +1226,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 67"
+      placet = "slabší - vyzkoušet více variant"
       id = "st-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1272,6 +1273,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      placet = "začátek bez té divoké repetice"
       id = "st-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
