@@ -129,7 +129,7 @@
     \choralniRezim
     g4 f e d( a') bes( a) a \barMaior
     g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
-    g g g( a) g f( d) d \barMin f e d e( d) d \barFinalis
+    g g a g f( d) d \barMin f e d e( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš vstal z_mrt -- vých,_*
@@ -142,7 +142,7 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
-    psalmus = "Benedictus"
+    psalmus = ""
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }

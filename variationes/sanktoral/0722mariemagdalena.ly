@@ -490,7 +490,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f e d( a') bes( a) a \barMaior
     g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
@@ -509,6 +509,31 @@
     differentia = "g"
     psalmus = ""
     id = ""
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f e d( a') bes( a) a \barMaior
+    g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
+    g g \mark\sipka a g f( d) d \barMin f e d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vstal z_mrt -- vých,_*
+    zje -- vil se nej -- dří -- ve
+    Ma -- ri -- i Mag -- dal -- ské,
+    z_kte -- ré kdy -- si vy -- hnal
+    se -- dm zlých du -- chů.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }
 }

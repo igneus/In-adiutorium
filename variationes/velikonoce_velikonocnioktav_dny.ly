@@ -2842,6 +2842,8 @@
     }
   }
 
+  \markup\nadpisSkupiny 2
+
   \score {
     \relative c' {
       \choralniRezim
@@ -2917,7 +2919,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d d( f e) d c e d d \barMin
       f f( g d) d( c) c \barMaior
@@ -3006,6 +3008,57 @@
       quid = "ant. k Benedictus"
       modus = "II"
       differentia = "D"
+      psalmus = ""
+      id = "pa-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\nadpisSkupiny 3
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 c d d( a' bes) a a c a a \barMin
+      a b( c) a( g) g \barMaior
+      f g a a g f d( c) c \barMin
+      d f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "pa-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 c d d( a' bes) a a c a a \barMin
+      a b( c) a( g) g \barMaior
+      f g a \mark\sipka g f f( g f) d d \barMin
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
+      už po -- tře -- tí
+      od té do -- by, co vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
       id = "pa-ben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -3618,7 +3671,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g f( g a) a \barMin
       a b( c) c( b) a4.( g4 a f4. e) \barMaior
@@ -3651,6 +3704,85 @@
       f f f( g) g g a( c d) c b( c) a \barMin
       g g g \mark\sipka f( e) d
       f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Vše, co ži -- je,_*
+      ať ve -- le -- bí
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      po všech -- ny vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-III"
+      id = "so-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g f( g a) a \barMin
+      a b( c) c( b) a( g) \barMaior
+      \mark\sipka c c c( d) c c d( e d) c a( g) g \barMin
+      a a a a( g) f
+      g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Vše, co ži -- je,_*
+      ať ve -- le -- bí
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      po všech -- ny vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-III"
+      id = "so-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g f( g a) a \barMin
+      a b( c) c( b) a( g) \barMaior
+      c c c( d) c c d( e d) c \mark\sipka d( c) c \barMin
+      c c c b( a) g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Vše, co ži -- je,_*
+      ať ve -- le -- bí
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      po všech -- ny vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-III"
+      id = "so-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g f( g a) a \barMin
+      a \mark\sipka c( b) a( g) g \barMaior
+      c c c( d) c c d( e d) c d( c) c \barMin
+      c c c b( a) g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Vše, co ži -- je,_*
@@ -3770,8 +3902,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "IV"
-      differentia = "E"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
       fial = "sanktoral/0722mariemagdalena.ly#rch-aben?jiny_text"
       id = "so-ben"
@@ -3813,7 +3945,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 b a c g g \barMin
       g a g f( g a) a \barMaior
@@ -3838,6 +3970,97 @@
       quid = "ant. k Benedictus"
       modus = "VIII"
       differentia = "c"
+      psalmus = ""
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g a g g \barMin
+      g a g f( g a) a \barMin
+      a b c c c c b a g g \barMaior
+      f g a a g a c( d) c( a) a \barMaior
+      c c d c d( e d c) d( c) \barMin
+      c b g a( g) g \barMin
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 f g a g g \barMin
+      g a g f( g a) a \barMin
+      a b c c c c b a g g \barMaior
+      \mark\sipka a g f g a a c( d) c( a) a \barMaior
+      c c d c d( e d c) d( c) \barMin
+      \mark\sipka c c c b( a) g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g a g g \barMin
+      g a g f( g a) a \barMin
+      a b c c c c b a g g \barMaior
+      a g f g a a c( d) c( a) a \barMaior
+      c c d c \mark\sipka c( d c) c( b c) \barMin
+      c c c b( a) g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
       psalmus = ""
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}

@@ -1018,10 +1018,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d d( f e) d c e d d \barMin
-      f f( g d) d( c) c \barMaior
-      d e f d d f( g f) d d \barMaior
-      c c c( d) d \barFinalis
+      f4 c d d( a' bes) a a c a a \barMin
+      a b( c) a( g) g \barMaior
+      f g a g f f( g f) d d \barMin
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
@@ -1031,10 +1031,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "II"
-      differentia = "D"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
-      placet = "lépe"
       id = "pa-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1118,10 +1117,10 @@
     \relative c'' {
       \choralniRezim
       g4 g f( g a) a \barMin
-      a b( c) c( b) a4.( g4 a f4. e) \barMaior
-      g4 g g( a) g g a( c d) c b( c) a \barMin
-      g g g f( e) d
-      f g( a) g g \barFinalis
+      a c( b) a( g) g \barMaior
+      c c c( d) c c d( e d) c d( c) c \barMin
+      c c c b( a) g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Vše, co ži -- je,_*
@@ -1135,7 +1134,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-III"
-      placet = "zaslouží trochu péče"
       id = "so-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1146,20 +1144,18 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 b a c g g \barMin
-      g a g f( g a) a \barMaior
-      a( c) c \barMin
-      d d d d c b a a \barMaior
-      c c c c b a c( b) a( g) g \barMaior
-      f a c c b g \barMin
-      a f a a( g) g \barMaior
-      f g( a) g g \barFinalis
+      g4 f g a g g \barMin
+      g a g f( g a) a \barMin
+      a b c c c c b a g g \barMaior
+      a g f g a a c( d) c( a) a \barMaior
+      c c d c d( e d c) d( c) \barMin
+      c c c b( a) g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Po svém zmrt -- vých -- vstá -- ní_*
       se Je -- žíš zje -- vil
-      rá -- no
-      prv -- ní -- ho dne po so -- bo -- tě
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
       nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
       z_kte -- ré kdy -- si vy -- hnal
       se -- dm zlých du -- chů.
@@ -1168,9 +1164,8 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VIII"
-      differentia = "c"
+      differentia = "G"
       psalmus = ""
-      placet = "nedrží pohromadě"
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
