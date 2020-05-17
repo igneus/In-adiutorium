@@ -399,6 +399,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = "Žalm 118"
+      placet = "zbytečně velký rozsah, předělat _hosana_"
       id = "ne-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -585,6 +586,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 115"
+      placet = "zejm. _sloužit živému Bohu_ lépe"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -640,6 +642,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "od _vás předejdu_ lépe"
       id = "ne-2ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -867,6 +870,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Ef 1"
+      placet = "lépe"
       id = "po-ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1119,6 +1123,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "1 Sam 2"
+      placet = "lépe"
       id = "st-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1174,6 +1179,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
+      placet = "nehodila by se spíš do modu III? (_Bohu_ fge e)"
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
