@@ -41,7 +41,7 @@
   \relative c'' {
     \choralniRezim
     g4-- g( a) f g( a) a \barMaior
-    a c b c b g g f g a g g \barFinalis
+    a c b c a g f f g a g g \barFinalis
   }
   \addlyrics {
     Král sop -- til hně -- vem
@@ -94,14 +94,14 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f g f g( a) a g \barMax
-    g a g f d d f( g) g( f) f \barFinalis
+    f4 f f f f f f g f g a a( g) \barMax
+    g a g f d f( g) g f f \barFinalis
     % V
     \neviditelna a
     a4 a a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g a g f d d f( g) g( f) f \barFinalis
+    g a g f d f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -128,7 +128,7 @@
 
     % R
     \neviditelna f
-    f4 f \barMin f f f f f f f g f f \barMin
+    f4 f f f f f f f f g f f \barMin
     f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -158,7 +158,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a( c) b a4. a \barMin c4 c d c b g e \barMaior
+    e4 g a a( c) b a4. a \barMin c4 c d c b g e \barMaior
     f g a g f e e \barFinalis
 
     e^\markup\rubrVelikAleluja f d( e) e \barFinalis
@@ -184,8 +184,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c d) f( e) f d( e d) d \barMaior
-    e f e d c d( c) \barMin d c d( f) e c( d) d \barFinalis
+    d4 c a c( d) d \barMaior
+    d f e d c d( c) \barMin d c d( f) e c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
@@ -263,12 +263,12 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f g f g( a) a( g) \barMax
+    f4 f f f f g f f f g( a) a( g) \barMax
     f d f g f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a( bes) a a \barMin a g g( a) g g \barMin
-    g g g f g( a) a( g) \barMax
+    a4 a a a a( bes) a a a a g( a) g g \barMin
+    a g g f g( a) a( g) \barMax
     % R
     \neviditelna a
     f d f g f \barFinalis
@@ -329,9 +329,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c) d e( c d4.) d \barMin a4( d c b) a( g) a( g) g \barMaior
+    c d e( c d4.) d \barMin a4( d c) b a( g) g \barMaior
     a a b c a b a a( g) g \barMaior
-    a c d e( d) c( d) \barMin c b a g a( g) g \barFinalis
+    a c d e( d) c( d) \barMin c b g a a( g) g \barFinalis
 
     g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
@@ -345,7 +345,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
