@@ -759,7 +759,7 @@
       c4( d) d \barMin
       d d d d e f e d c d e( d) d \barMaior
       d( e d) c( d) c c \barMin
-      c b g a g \barMaior
+      c b g a( g) g \barMaior
       f a c d( e d) c( b a) \barMin
       c c a a g g \barFinalis
     }

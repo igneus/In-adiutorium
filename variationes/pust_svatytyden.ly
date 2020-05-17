@@ -2627,7 +2627,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4( d) d \barMin
       d d d d e f e d c d e( d) d \barMaior
@@ -2635,6 +2635,61 @@
       \mark\sipka c b g a g \barMaior
       f a c d( e d) c( b a) \barMin
       \mark\sipka c c a a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš,
+      po -- čá -- tek i na -- pl -- ně -- ní na -- ší ví -- ry,
+      vzal na se -- be po -- tu -- pu kří -- že,
+      a pro -- to se -- dí
+      po pra -- vi -- ci Bo -- ží.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Žalm 19-A"
+      id = "po-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d \barMin
+      d d d d e f e d c d e( d) d \barMaior
+      d( e d) c( d) c c \barMin
+      c b g \mark\sipka a( g) g \barMaior
+      f a c d( e d) c( b a) \barMin
+      c c a a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš,
+      po -- čá -- tek i na -- pl -- ně -- ní na -- ší ví -- ry,
+      vzal na se -- be po -- tu -- pu kří -- že,
+      a pro -- to se -- dí
+      po pra -- vi -- ci Bo -- ží.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Žalm 19-A"
+      id = "po-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( d) d \barMin
+      d d d d e f e d c d e( d) d \barMaior
+      d( e d) c( d) c c \barMin
+      c b g a( g) g \barMaior
+      \mark\sipka f g a c( d c) c( b a) \barMin
+      c c a a g g \barFinalis
     }
     \addlyrics {
       Je -- žíš,
