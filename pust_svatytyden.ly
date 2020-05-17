@@ -60,7 +60,7 @@
       \neviditelna a
       e f f f g f e( d) e \barFinalis
       % Slava
-      a a a a a g( a) a \barMin a g f f( d) e4. e \barFinalis
+      a a a( b) a g g( a) a \barMin a g e f( g) e e \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
@@ -72,7 +72,6 @@
     \header {
       quid = "resp."
       modus = "IV"
-      placet = "doxologii lépe"
       id = "rch-resp"
       piece = \markup {\sestavTitulekResp}
     }
