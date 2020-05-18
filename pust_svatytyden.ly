@@ -385,7 +385,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a a a b( c) c b g g a( g) f( g) g \barMax
+      a4 a a a a b( c) a b a g g( a) a( g) g \barMaior
       a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
       g e e g a g( a) a \barFinalis
     }
