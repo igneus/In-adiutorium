@@ -30,6 +30,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
+    placet = "_k Otci_ nepřirozené"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -168,7 +169,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    placet = "melisma na _do__ nebe_ se mi úplně nezdá; každopádně by se tak dlouhé melisma mělo strukturovat"
+    placet = "lépe; melisma na _do__ nebe_ je škaredé"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -241,6 +242,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-III"
+    placet = "líbí se mi, ale jasný modus VIII, ne VII"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
