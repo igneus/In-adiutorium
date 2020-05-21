@@ -588,12 +588,41 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c d( e) d \barMin
     e f e d c d d \barMaior
     d c( d) c( a) a c b a( g) g \barMin
     f g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Když to není nezbytně nutné, je divné, aby melodie \italic{vystoupil} byla vysloveně klesavá.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    e f e d c d d \barMaior
+    d \mark\sipka d( e) c( d) d c b a( g) g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Bo -- hu,
@@ -658,10 +687,33 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c d( e) e( d) d \barMaior
     \mark\sipka c a a c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- stou -- pil do vý -- šin,
+    vy -- ve -- dl s_se -- bou za -- jat -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-II"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c \mark\sipka c( e) e( d) d \barMaior
+    c a a c b a g g \barMaior
     f g a( g) g \barFinalis
   }
   \addlyrics {
