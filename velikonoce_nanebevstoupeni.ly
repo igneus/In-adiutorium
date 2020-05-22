@@ -297,6 +297,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "aleluja lépe, zbytku také věnovat trochu péče"
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -496,6 +497,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
+    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
