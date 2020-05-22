@@ -252,9 +252,9 @@
   \relative c' {
     \choralniRezim
     d4( f g) g( a) g g-- f e d c( d) d \barMaior
-    d d d( f) e d( c d) d( c) \barMin
+    d d f e d( e) d( c) \barMin
     d f g f( e) d d e d c d d \barMaior
-    e f d d \barFinalis
+    c d e d \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to,
@@ -357,7 +357,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f f f f f f g( f) \barMin f f f e g a a \barMax
+    f f f f g f f \barMin f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -386,7 +386,7 @@
     f4 a c c d( c) bes bes( c) c \barMin
     c f e d c c \barMaior
     c( bes) a g( f) g \barMin
-    g a g a f f \barMaior
+    g a g a f( g f) f \barMaior
     g a g( f) f \barFinalis
   }
   \addlyrics {
@@ -459,8 +459,8 @@
     \choralniRezim
     a4 a a( c) c \barMin
     d( a) a \barMin
-    b c( a) g f f( g) g \barMax
-    g g( a) g4 g \barFinalis
+    b c( a) g f g( a g) g \barMaior
+    f g( a) g4 g \barFinalis
   }
   \addlyrics {
     Zve -- dl ru -- ce,
@@ -557,11 +557,11 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f e g a \barMax
+    f4 f f f f f g f \barMin f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f f f f f f f f f f f f f e g a a \barMax
+    f f f g f f \barMin f f f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -588,7 +588,7 @@
     a4( f) e g( a) a \barMin
     a( c b a4.) a a4( b) g g( e) e \barMaior
     e e( d e) g( a) a( g) g4.( a) \barMaior
-    a4( b) c b( c a4.) a g4 a( b) b( c) c \barMax
+    c4 c b( c a4.) a g4 a( b) b( c) c \barMax
 
     b c a( g) g g f e e \barMaior
     a b c( b a) b g4.( a) \barMin
