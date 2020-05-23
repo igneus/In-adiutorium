@@ -16,8 +16,8 @@
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
     a a a g( f) g( a) a \barMin
-    g a a( b g) g \barMin
-    a g f( g) g \barFinalis
+    c b a( g) g \barMin
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Vy -- šel jsem od Ot -- ce
@@ -30,7 +30,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
-    placet = "_k Otci_ nepřirozené"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -227,7 +226,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c c b c d c d d( c) \barMaior
-    g g f a b( c) a \barMin b c c( d) d \barMaior
+    g g f a b( c) c \barMin d e e( d) d \barMaior
     c b a g a g f( g) g \barMaior
     f a a( g) g \barFinalis
   }
@@ -242,7 +241,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-III"
-    placet = "líbí se mi, ale jasný modus VIII, ne VII"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -484,8 +482,8 @@
   \relative c'' {
     \choralniRezim
     a( d) d c( b) a a \barMin
-    b a( g) a c b c a( g) g \barMax
-    a a a( g) g \barFinalis
+    b a( g) a c b c a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Vstou -- pil do ne -- be,
@@ -497,7 +495,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
-    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
