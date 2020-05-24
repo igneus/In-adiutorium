@@ -182,6 +182,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 104-I"
+    placet = "aleluja se špatně hodí"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -385,6 +386,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -413,6 +415,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "aleluja lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -506,6 +509,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 114"
+    placet = "k textu by se lépe hodila 'pomalejší' melodie"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -530,6 +534,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Zj 19"
+    placet = "přinejmenším _mluvit_ lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
