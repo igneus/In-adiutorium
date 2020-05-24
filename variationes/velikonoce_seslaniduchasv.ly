@@ -712,6 +712,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c c( d) c a( c b g) g( a) \barMin
+    a b c a g g \barMaior
+    a a( d) d( c) c e d( c b) b \barMin
+    a( g a) c( b) g( \mark\sipka b) a \barFinalis
+  }
+  \addlyrics {
+    Se -- šli své -- ho Du -- cha,
+    a bu -- dou stvo -- ře -- ni,
+    a ob -- no -- víš tvář ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 104-III"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1992,12 +2017,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 c c c d c d( e) d \barMin
     e( f e) d c( d) d \barMaior
     d d c b c( b g a) a( g) \barMin
     a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni by -- li na -- pl -- ně -- ni
+    Du -- chem sva -- tým
+    a za -- ča -- li mlu -- vit.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c \mark\sipka d e d d \barMin
+    e( f e) d c( d) d \barMaior
+    d d c b c( \mark\sipka a g) g \barMin
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni by -- li na -- pl -- ně -- ni
@@ -2373,6 +2423,47 @@
     f a c c \barMin
     c d c d( e) d \barMaior
     \mark\sipka c c b( a g) g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    O let -- ni -- cích
+    se Duch sva -- tý zje -- vil
+    a -- po -- što -- lům v_oh -- ni
+    a na -- pl -- nil je svý -- mi da -- ry;
+
+    po -- slal je do ce -- lé -- ho svě -- ta
+    hlá -- sat e -- van -- ge -- li -- um
+    a vy -- dá -- vat svě -- dec -- tví:
+    Kdo u -- vě -- ří
+    a dá se po -- křtít,
+    bu -- de spa -- sen.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b a( c) \barMin
+    c c b a g( a) g \barMin
+    f f g a g g \barMaior
+    b c a a a b( c) a g g \barMax
+
+    g g g f e \mark\sipka d d f( g) g \barMin
+    a( c) c \mark\sipka d c b( c) a a \barMin
+    a a b c a g g \barMaior
+    c d c a( c) \barMin
+    c d c d( e) d \barMaior
+    d d c( a g) g \barMin
     f a a( g) g \barFinalis
   }
   \addlyrics {

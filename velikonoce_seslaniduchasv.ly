@@ -216,7 +216,7 @@
     d4 c c( d) c a( c b g) g( a) \barMin
     a b c a g g \barMaior
     a a( d) d( c) c e d( c b) b \barMin
-    a( g a) c( b) g( a) a \barFinalis
+    a( g a) c( b) g( b) a \barFinalis
   }
   \addlyrics {
     Se -- šli své -- ho Du -- cha,
@@ -518,10 +518,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d c d( e) d \barMin
+    c4 c c c d e d d \barMin
     e( f e) d c( d) d \barMaior
-    d d c b c( b g a) a( g) \barMin
-    a b a( g) g \barFinalis
+    d d c b c( a g) g \barMin
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni by -- li na -- pl -- ně -- ni
@@ -534,7 +534,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Zj 19"
-    placet = "přinejmenším _mluvit_ lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
