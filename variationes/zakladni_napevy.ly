@@ -751,6 +751,54 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      % Boze, tebe chvalime
+      g4( a) a a g a( b c) b( a) a \barMaior
+    }
+    \addlyrics {
+      Bo -- že, te -- be chvá -- lí -- me,_*
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = ""
+      psalmus = ""
+      id = ""
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Pro Te Deum je charakteristické, že začátek nápěvu nedvojznačně uvede jeho tonalitu.
+    Původní verze byla postavená na předpokladu, že by melisma mělo zůstat na \italic{Deum/Bože,}
+    ale to je ve skutečnosti upřednostnění podružnosti před zásadní charakteristickou vlastností adaptované melodie.
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      % Boze, tebe chvalime
+      e4 g g( a) a a( b c) b( a) a \barMaior
+    }
+    \addlyrics {
+      Bo -- že, te -- be chvá -- lí -- me,_*
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = ""
+      psalmus = ""
+      id = ""
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
 }
 

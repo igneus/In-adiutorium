@@ -646,10 +646,10 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
       % Boze, tebe chvalime
-      g4( a) a a g a( b c) b( a) a \barMaior a a a g a b a g \barFinalis
+      e4 g g( a) a a( b c) b( a) a \barMaior a a a g a b a g \barFinalis
       % Tebe, vecny Otce
       c c c b a( b) a \barMaior a a a g a b a g \barFinalis
       % Vsichni andele
