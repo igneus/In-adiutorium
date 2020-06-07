@@ -367,6 +367,37 @@
     % R
     \neviditelna f
     f4 f f f f g( a) a( g) \barMax
+    \mark\sipka f( g a) g f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a g( a) g \barMin g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f( g a) g f g g( f) f \barFinalis
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Troj -- je -- di -- né -- mu Bo -- hu_*
+    vzdej -- me čest a chvá -- lu.
+    \Verse Ot -- ci i Sy -- nu i sva -- té -- mu Du -- chu_*
+    \Response vzdej -- me čest a chvá -- lu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g( a) a( g) \barMax
     \mark\sipka g( f) d f g g f \barFinalis
     % V
     \neviditelna a
@@ -1149,6 +1180,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d f( a) a a \barMin
@@ -1174,7 +1206,61 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( e) d( e) e \barMin
+    g a f( e) d( e) e \barMaior
+    f( g a) g g a( g) g( f) f( e) \barMin
+    e d c( d e) f f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Te -- be pro -- sí -- me,
+    te -- be chvá -- lí -- me,
+    to -- bě se kla -- ní -- me,
+    slav -- ná sva -- tá Tro -- ji -- ce!
+  }
+  \header {
+    fons_externus = "volně podle NR2002, 511"
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( e) d( e) e \barMin
+    g a f( e) \mark\sipka d d \barMaior
+    f( g a) g g a( g) \mark\sipka f( g) f( e) \barMin
+    e d c( d e) f f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Te -- be pro -- sí -- me,
+    te -- be chvá -- lí -- me,
+    to -- bě se kla -- ní -- me,
+    slav -- ná sva -- tá Tro -- ji -- ce!
+  }
+  \header {
+    fons_externus = "volně podle NR2002, 511"
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d c( b a) g a \barMaior
     g f g a( c) b a b( c d) d \barMin
@@ -1195,6 +1281,54 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 a c d( e) d( c) c \barMaior
+    c bes a g f g g( a) a \barMin
+    a g bes a g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Tys na -- še na -- dě -- je,
+    tys na -- še spá -- sa i slá -- va,
+    nej -- svě -- těj -- ší Tro -- ji -- ce!
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 a c d( e) d( c) c \barMaior
+    c bes a g f g g( a) a \barMin
+    \mark\sipka c c bes a g f f \barFinalis
+  }
+  \addlyrics {
+    Tys na -- še na -- dě -- je,
+    tys na -- še spá -- sa i slá -- va,
+    nej -- svě -- těj -- ší Tro -- ji -- ce!
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

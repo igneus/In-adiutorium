@@ -396,11 +396,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d4 d f( a) a a \barMin
-    f( e) d f( a) a a \barMin
-    bes( c) bes a g( f) g( a) a \barMaior
-    g( a g) g \barMin g( f) e d( c) c( d) d \barFinalis
+    f4 f f( e) d( e) e \barMin
+    g a f( e) d d \barMaior
+    f( g a) g g a( g) f( g) f( e) \barMin
+    e d c( d e) f f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Te -- be pro -- sí -- me,
@@ -409,22 +408,22 @@
     slav -- ná sva -- tá Tro -- ji -- ce!
   }
   \header {
+    fons_externus = "volně podle NR2002, 511"
     quid = "ant. dopoledne"
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "tercie"
-    placet = "začátek je takový dryjáčnický"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c d c( b a) g a \barMaior
-    g f g a( c) b a b( c d) d \barMin
-    d( e) c b( a) a b( g) g( a) a \barFinalis
+    f4 a c d( e) d( c) c \barMaior
+    c bes a g f g g( a) a \barMin
+    c c bes a g f f \barFinalis
   }
   \addlyrics {
     Tys na -- še na -- dě -- je,
@@ -433,11 +432,10 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     id = "sexta"
-    placet = "r - zakončení na aktuální finále zní nepřesvědčivě; není třeba VII?"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
