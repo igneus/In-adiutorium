@@ -8,6 +8,30 @@
 \include "spolecne.ly"
 \include "dilyresponsorii.ly"
 
+\markup\justify{
+  Oficium Nejsvětější Trojice bylo jedno z nejstarších (a široce rozšířených), kde byl uplatněn
+  postup podle číselného pořadí modů (srov. Hiley: Western Plainchant, s. 274),
+  takže první antifona je v prvním, druhá ve druhém atd.
+  Liturgia horarum sice pořadí antifon rozbíjí, ale hodně jich přebírá, takže by snad bylo hezké
+  u starobylých antifon (v případě jejich budoucí opravy) dodržet původní modus.
+  Na druhou stranu, vzhledem k tomu, že ani jeden z obou cyklů antifon
+  (k matutinu, k laudám a ostatním hodinkám) není převzat celý, možná to nemá cenu.
+  Kdyby na to přišlo, větší smysl by to mělo u cyklu antifon matutina, z nějž
+  je převzato sedm antifon z devíti, přičemž devátá (jedna ze dvou nepřevzatých)
+  v postupné řadě přebývá (opakuje modus 3), takže nás nebolí.
+  To by ovšem znamenalo kvůli obskurní historické referenci přepsat velkou část zpěvů.
+}
+\markup\justify{
+  Přehled převzatých antifon (L = cyklus antifon k laudám, M = antifony k matutinu, ? = antifona v Breviarium Romanum nefiguruje):
+  \bold{1N:} a1=L1, a2=?, a3=?, amag=1Namag
+  \bold{MČ:} invit=invit, a1=M1, a2=M7, a3=M8, avig=L2
+  \bold{RCH:} a1=?, a2=?, a3=L5, aben=Laben
+  \bold{U3:} M4
+  \bold{U6:} M5
+  \bold{U9:} M3
+  \bold{2N:} a1=?, a2=M6, a3=?, amag=2Namag
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
