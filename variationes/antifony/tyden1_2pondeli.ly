@@ -435,6 +435,47 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f e f d d \barMin
+    d4 c d e f a4. g4 f e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
+    ná -- ro -- dy po -- dle prá -- va.
+  }
+  \header {
+    textus_approbatus = "Hospodin povstane a bude soudit národy dle práva."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    d4 c d e f \mark\sipka g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
+    ná -- ro -- dy dle prá -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     e4 f d( c) c4.( d) \barMaior
     f4 f e( c) a4. \barMin e'4 f( d) d4. \barMax
     d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
@@ -453,6 +494,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
