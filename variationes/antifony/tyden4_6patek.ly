@@ -976,6 +976,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g4 g g( a) \barMin a g a bes a f g a a \barMaior
@@ -984,6 +985,94 @@
   \addlyrics {
     O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,
     a ty jim dá -- váš po -- krm v_pra -- vý čas.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    a a a g f g g f( e) d4. d \barFinalis
+  }
+  \addlyrics {
+    O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,
+    a ty jim dá -- váš po -- krm v_pra -- vý čas.
+  }
+  \header {
+    textus_approbatus = "Oči všech doufají v tebe, Hospodine, jsi blízko všem, kdo tě vzývají."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    placet = "předělat na oficiální text - tady jsem se před lety těžce přehlédl"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    a f g a \barMin g f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,
+    jsi blí -- zko všem, kdo tě vzý -- va -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    a f g a \barMin \mark\sipka f e f d d \barFinalis
+  }
+  \addlyrics {
+    O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,
+    jsi blí -- zko všem, kdo tě vzý -- va -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    \mark\sipka a g f g \barMin f e f d d \barFinalis
+  }
+  \addlyrics {
+    O -- či všech dou -- fa -- jí v_te -- be, Hos -- po -- di -- ne,
+    jsi blí -- zko všem, kdo tě vzý -- va -- jí.
   }
   \header {
     quid = "2. ant."
