@@ -799,6 +799,46 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      % Pane, k tobe
+      c d( f) f( e) d f g( a) g( f) \mark\sipka e e \barMaior c d( f) f f e d f g( a) g( f g f e) e \barFinalis
+    }
+    \addlyrics {
+      Pa -- ne, k_to -- bě se u -- tí -- ká -- me, ať ne -- jsme za -- han -- be -- ni na vě -- ky.
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = ""
+      psalmus = ""
+      id = ""
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      % Pane, k tobe
+      c d( f) f( e) d f g( a) g( f) \mark\sipka e d \barMaior c d( f) f f e d f g( a) g( f g f e) e \barFinalis
+    }
+    \addlyrics {
+      Pa -- ne, k_to -- bě se u -- tí -- ká -- me, ať ne -- jsme za -- han -- be -- ni na vě -- ky.
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = ""
+      psalmus = ""
+      id = ""
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
 }
 
