@@ -121,6 +121,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Jer 31"
+    placet = "_Hospodin_ divné"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -143,6 +144,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 48"
+    placet = "lépe"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -169,6 +171,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-ג"
+    placet = "lépe"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -230,6 +233,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 30"
+    placet = "_navěky_ je divné"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

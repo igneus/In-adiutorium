@@ -117,6 +117,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "verš je nestandardní bez dobrého důvodu"
     id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
