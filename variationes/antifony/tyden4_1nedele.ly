@@ -515,7 +515,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a \mark\sipka a( c) c \barMaior
     c4 c c( d) d c c \barMin
@@ -533,6 +533,35 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Dvě rytmicky identická aleluja tak blízko u sebe působila monotónně.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) \mark\sipka c( d) \barMaior
+    c4 \mark\sipka b c( d) d c c \barMin
+    b4 c a a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
