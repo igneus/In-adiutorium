@@ -196,6 +196,7 @@ tIIpondeliInvitatorium = \score {
     quid = "ant."
     modus = "VII"
     differentia = "c"
+    placet = "_zajásejme_ lépe"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }

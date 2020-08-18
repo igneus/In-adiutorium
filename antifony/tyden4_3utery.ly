@@ -28,6 +28,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 102-I"
+    placet = "mám silný pocit, že ten nápěv je nechtěně ukradený, ale zatím jsem nenašel, odkud; každopádně to není nápěv opravdu chorálního charakteru"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }

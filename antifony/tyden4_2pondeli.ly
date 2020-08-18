@@ -181,6 +181,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 82"
+    placet = "melismata na _kdo však_ pryč"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
