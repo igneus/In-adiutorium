@@ -124,18 +124,18 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 a \barMin
-    c d c b a b g g \barFinalis
+    f4( g) g \barMin
+    a g f d f g g f \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 144"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -168,9 +168,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f g g d \barMin
+    d f f e \barMin
     f e d c \barMaior
-    f f( e) f( g) g d d \barFinalis
+    d d( f) e f d d \barFinalis
   }
   \addlyrics {
     Má mod -- lit -- ba,
@@ -191,11 +191,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e c c f e c a \barMin d c d f f e c d4. \barFinalis
+    d4 e f f g f g a \barMaior
+    a g f g f e f d \barFinalis
   }
   \addlyrics {
     Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
-    ne -- skrý -- ej pře -- de mnou svou tvář.
+    ne -- skrý -- vej pře -- de mnou svou tvář.
   }
   \header {
     quid = "3. ant."

@@ -202,7 +202,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a \barMin
     c d c b a b g g \barFinalis
@@ -214,6 +214,45 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a \barMin
+    c d c b a b \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g) g \barMin
+    a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 144"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -249,7 +288,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f) e f g f e e( f) d d \barMin
     e d c( d) d \barFinalis
@@ -471,7 +510,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f g g d \barMin
     f e d c \barMaior
@@ -495,12 +534,58 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f f e \barMin
+    f e d c \barMaior
+    d d( f) e f d d \barFinalis
+  }
+  \addlyrics {
+    Má mod -- lit -- ba,
+    Hos -- po -- di -- ne,
+    kéž pro -- nik -- ne k_to -- bě.
+  }
+  \header {
+    textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e c c f e c a \barMin d c d f f e c d4. \barFinalis
   }
   \addlyrics {
     Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
     ne -- skrý -- ej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f f g f g a \barMaior
+    a g f g f e f d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
   }
   \header {
     quid = "3. ant."
