@@ -238,7 +238,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d( c) c( d) c \barMin d d d b c a( g) g \barFinalis
+    c4-- b( c) c( d) d \barMin d d d b c a( g) g \barFinalis
   }
   \addlyrics {
     Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
@@ -248,7 +248,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 45-I"
-    placet = "_Tvůj trůn, Bože_ lépe"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -257,9 +256,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c a b c d d( c) d4.( c) \barMin
+    c4 c c c a b c d d( c) d4.( c) \barMaior
     d4 d f( e) d( c) d \barMin
-    b c d d d b c a( g) g( a g) g \barFinalis
+    d( c b) c( a) a( g) g \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
     U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém
