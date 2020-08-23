@@ -293,9 +293,9 @@ tInedeleInespAntIII = \score {
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g a a bes a g a \barMin
-    a g f g( a) g( f) f \barMaior
-    g a f f \barFinalis
+    f4 g a a g f g g \barMin
+    g f g g( a) g( f) f \barMaior
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Dě -- ku -- ji ti, Hos -- po -- di -- ne,
