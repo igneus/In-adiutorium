@@ -2064,6 +2064,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c d d c \barMin
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    c a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny "D-dur"
 
 \markup\justify{Do rámce antifon ze žaltáře nezapadá. Ale když už jsem náhodou/omylem

@@ -198,6 +198,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c d e f e d( c) c \barMin
+    f f g f e d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
+    pl -- né dů -- vě -- ry je mé srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 108"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -266,6 +286,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a g f f g g f \barFinalis
+  }
+  \addlyrics {
+    Po -- kud ži -- ji,
+    chci chvá -- lit Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 146"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 % \score { \tIIstredaAntBenedictus }
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
@@ -292,6 +334,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -314,6 +358,46 @@
   \relative c'' {
     \choralniRezim
     g4 a a a a a b a g( f) e \barMin c d d d d f f e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
+    a po -- si -- lou mé na -- dě -- je.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 94-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \mark\sipka g a b a g( f) e \barMin
+    \mark\sipka e d e f g f e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
+    a po -- si -- lou mé na -- dě -- je.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 94-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f e d f g a a \barMin
+    a g a g f d e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
