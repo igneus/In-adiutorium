@@ -121,8 +121,6 @@
   }
 }
 
-\markup{Tady by šla vhodně použít jedna z tradičních melodií:}
-
 \score {
   \relative c'' {
     \choralniRezim
