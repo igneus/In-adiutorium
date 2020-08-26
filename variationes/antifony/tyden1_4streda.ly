@@ -220,6 +220,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( b) c d e d \barMin c b a( b) a( g) g \barFinalis
   }
@@ -253,6 +254,48 @@
     quid = "3. ant."
     modus = "I"
     differentia = "g3"
+    psalmus = "Žalm 47"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g a g \barMin
+    f g a( bes) g( bes) a \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- te Bo -- hu
+    ra -- dost -- ným hla -- sem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 47"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g( f) g \barMin
+    f d f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- te Bo -- hu
+    ra -- dost -- ným hla -- sem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 47"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

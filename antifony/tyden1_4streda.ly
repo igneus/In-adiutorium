@@ -122,17 +122,19 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( b) c d e d \barMin c b a( b) a( g) g \barFinalis
+    f4 g a g( f) g \barMin
+    f d f( g) g f \barFinalis
   }
   \addlyrics {
-    Já -- sej -- te Bo -- hu ra -- dost -- ným hla -- sem.
+    Já -- sej -- te Bo -- hu
+    ra -- dost -- ným hla -- sem.
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 47"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
