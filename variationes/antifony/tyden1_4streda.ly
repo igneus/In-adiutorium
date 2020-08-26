@@ -1001,6 +1001,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c d d( e) d d \barMin
+    d e f d( c) c \barMaior
+    d d e d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "D"
+    differentia = ""
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -1091,6 +1113,74 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f g e f e d \barMin
+    d e f d( c) c \barMaior
+    d e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 5
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g a \barMin
+    a g f g( f) f \barMaior
+    d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g a \barMin
+    a g f \mark\sipka g( a) g \barMaior
+    f d f g g f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Kol 1"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
