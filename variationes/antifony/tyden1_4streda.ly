@@ -403,9 +403,28 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( e f) g f d \barMin e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, veď mé kro -- ky po svých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 17-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 e f g f d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
@@ -440,9 +459,28 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c a c d d \barMin f f f g( f) d \barFinalis
+  }
+  \addlyrics {
+    Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 17-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c d d \barMin f f \mark\sipka g f( d) d \barFinalis
   }
   \addlyrics {
     Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.

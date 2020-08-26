@@ -167,7 +167,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( e f) g f d \barMin e c c( d) d \barFinalis
+    f4 e f g f d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
@@ -185,7 +185,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c a c d d \barMin f f f g( f) d \barFinalis
+    d4 c a c d d \barMin f f g f( d) d \barFinalis
   }
   \addlyrics {
     Po -- vstaň, Hos -- po -- di -- ne, za -- chraň mou du -- ši.
