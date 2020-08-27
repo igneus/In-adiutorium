@@ -13,8 +13,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e \barMin f f e d d e d c d( c) c \barMaior
-    d d( g) f f \barMin e f f e d c e( f) d d \barFinalis
+    c4 d f f e d d e d c d( c) c \barMaior
+    d d( f) f( e) e \barMin d d f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Pa -- ne, tys ne -- po -- hr -- dl sl -- za -- mi mat -- ky,
@@ -25,7 +25,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "první cézura je úplně zbytečná; _vyslyšels_ se mi nelíbí"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -47,7 +46,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "ne-amag"
