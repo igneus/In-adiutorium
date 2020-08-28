@@ -91,7 +91,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d f e d( c) d \barMaior
     g f g g( a) a4. \barMin a4 a g f \mark\sipka e e4. \barMaior
@@ -110,6 +110,59 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 d d c d f e \mark\sipka d d \barMaior
+    g f g g( a) a4. \barMin a4 a g f e e4. \barMaior
+    f4 d d c d e f d d \barMax
+    d \mark\sipka c( d e f) d f g( f d) d \barMaior
+    \mark\sipka d c d e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Poz -- dě jsem si tě za -- mi -- lo -- val,
+    krá -- so tak dáv -- ná, a pře -- ce tak no -- vá,
+    poz -- dě jsem si tě za -- mi -- lo -- val!
+    Tys vo -- lal a kři -- čel
+    a tak jsi pro -- ra -- zil mou hlu -- cho -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 d d c d f e d d \barMaior
+    g f g g( a) a4. \barMin a4 a g f e e4. \barMaior
+    f4 d d c d e f d d \barMax
+    d c( d e f) d f g( f d) d \barMaior
+    \mark\sipka e e d e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Poz -- dě jsem si tě za -- mi -- lo -- val,
+    krá -- so tak dáv -- ná, a pře -- ce tak no -- vá,
+    poz -- dě jsem si tě za -- mi -- lo -- val!
+    Tys vo -- lal a kři -- čel
+    a tak jsi pro -- ra -- zil mou hlu -- cho -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

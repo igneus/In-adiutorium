@@ -39,10 +39,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d f e d( c) d \barMaior
+    f4 d d c d f e d d \barMaior
     g f g g( a) a4. \barMin a4 a g f e e4. \barMaior
     f4 d d c d e f d d \barMax
-    d a( c d f) d f g( f d) d \barMin e e e e f e d c d d \barFinalis
+    d c( d e f) d f g( f d) d \barMaior
+    e e d e f e d c d d \barFinalis
   }
   \addlyrics {
     Poz -- dě jsem si tě za -- mi -- lo -- val,
