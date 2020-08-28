@@ -1001,6 +1001,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d d d d e( d c4.) a \barMin
     f4 f g a a b( c) a4. a \barFinalis
@@ -1297,6 +1298,27 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4-- d c c d c a a \barMaior
+    a \mark\sipka c c b a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4-- a g g a g a( c) b \barMaior
     b c c b a a g g \barFinalis
@@ -1338,8 +1360,68 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4-- a g g a g a( c) b \barMaior
+    b c c \mark\sipka a g f( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4-- a g g a g a( c) b \barMaior
+    b c \mark\sipka a c b g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4-- a a g a g f( g) g \barMaior
     g f a c c b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4-- a g f g a g g \barMaior
+    b c c a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Bůh se -- sa -- dil moc -- né z_trů -- nu
@@ -1661,6 +1743,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c( b) a( g) g \barMin
+    g a g f g( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g d \barMin
+    d c d f e d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1730,7 +1852,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c b( d) c \mark\sipka b a g a a \barMaior
     g f g( a) a \barMin
@@ -1852,6 +1974,75 @@
   }
   \addlyrics {
     Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g f g a g g \barMaior
+    a c c( d) d \barMin
+    c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g g( a) g f g a g g \barMaior
+    a c c( d) d \barMin
+    c \mark\sipka a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a( g) a \barMin
+    a a( c) b g a f g g \barMaior
+    c( d e) d c( d) d( c) \barMin
+    c a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din
+    se u -- jal svých slu -- žeb -- ní -- ků,
     pa -- ma -- to -- val
     na své mi -- lo -- sr -- den -- ství.
   }

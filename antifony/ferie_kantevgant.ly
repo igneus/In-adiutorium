@@ -173,8 +173,8 @@ tIctvrtekAntBenedictus = \score {
 tIctvrtekAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    a4 c d d d d e( d c4.) a \barMin
-    f4 f g a a b( c) a4. a \barFinalis
+    c4-- d c c d c a a \barMaior
+    a c c b a a g g \barFinalis
   }
   \addlyrics {
     Bůh se -- sa -- dil moc -- né z_trů -- nu
@@ -182,11 +182,10 @@ tIctvrtekAntMagnificat = \score {
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "t1-ct-mag"
-    placet = "r - zvlášť divné je odpřízvučení slova _sesadil_"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -219,9 +218,9 @@ tIpatekAntBenedictus = \score {
 tIpatekAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c b( d) c b a g a a \barMaior
-    g f g( a) a \barMin
-    b c d d c b a \barFinalis
+    g4 g g g g( a) g f g a g g \barMaior
+    a c c( d) d \barMin
+    c a c b a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
@@ -230,10 +229,9 @@ tIpatekAntMagnificat = \score {
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "A"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "jinak, lépe"
     id = "t1-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
