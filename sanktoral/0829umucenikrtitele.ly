@@ -44,21 +44,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c( a) c d( c) a( b a) g( a) \barMaior
-    a( d) d c d d( e) \barMin
-    d d e d( c d) c( b) a g f f( g) g \barFinalis
+    a4 g a c( d) d \barMin
+    c( d) e( d c) d \barMaior
+    a( d) b c a( g) a( g) \barMin
+    g f g a a a c b g( a) a \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din vztá -- hl svou ru -- ku,
+    Hos -- po -- din vztá -- hl
+    svou ru -- ku,
     do -- tkl se mých úst
     a dal mě ná -- ro -- dům za pro -- ro -- ka.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 63"
-    placet = "nezpěvná"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -67,9 +68,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g a a g( f e) \barMaior
+    a4 a a a a g a g( f e) \barMaior
     d c d e f( a) \barMin
-    a a g( b g) a g a a \barMin a g( a) g f d( e) e e \barFinalis
+    a a g( b g) a g a a \barMin a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     He -- ro -- des měl před Ja -- nem strach,
@@ -90,7 +91,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a a g( f e) d e f( a) a a \barMaior
-    a a a g( a b) b( a) \barMin f d e f( e) e \barFinalis
+    a a a g( a b) b( a) \barMin g f g f( e) e \barFinalis
   }
   \addlyrics {
     He -- ro -- des si rád Ja -- na po -- sle -- chl,
@@ -101,7 +102,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
-    placet = "postup 'h a f' nedokážu zazpívat - a dost možná nejen já"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -142,14 +142,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( b c) c \barMin c b( c d) c( b c) c( a) \barMaior
-    c( b a) g( f) e f g( a f g) g \barMax
-    c c d( e) d d c( d) b( c) a( g) g f g( a) \barMaior
-    b b c a g( a) g g \barFinalis
+    g4 f g a( c) c \barMin
+    c c( d) c c b c a g f( g) g \barMaior
+    c c d( e) d d c d c( a) g f g( a) \barMaior
+    a b c a g( a) g g \barFinalis
   }
   \addlyrics {
-    Že -- ni -- chův pří -- tel se ra -- du -- je
-    z_že -- ni -- cho -- va hla -- su,
+    Že -- ni -- chův pří -- tel
+    se ra -- du -- je z_že -- ni -- cho -- va hla -- su,
     je -- ho ra -- dost je do -- vr -- še -- na už tím,
     že je s_ním a sly -- ší ho.
   }
