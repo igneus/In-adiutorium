@@ -235,11 +235,11 @@ tIInedeleInespAntIII = \score {
 \noPageBreak
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 b( c) c c b c d b b \barMin
-    c d a c b b4. \barMin
-    c4 a f e4. \barFinalis
+    f4 f f f g f g( a) a g \barMin
+    g f g( a) g f f \barMaior
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
@@ -247,10 +247,9 @@ tIInedeleInespAntIII = \score {
   }
   \header {
     quid = "1. ant."
-    modus = "III"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 23"
-    placet = "asi by spíš neměla takto zůstat"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -259,9 +258,9 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f e g4. \barMin
-    g4 a b c b a g f( g) g4. \barMin
-    a4 c g( a g) g4. \barFinalis
+    g4 f e g \barMin
+    g4 a b c b a g f( g) g \barMaior
+    a4 c g( a g) g \barFinalis
   }
   \addlyrics {
     Slav -- ný je Bůh a je -- ho jmé -- no je ve -- li -- ké.
@@ -280,12 +279,13 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c b c4.( d) \barMin
-    d4 c c b c a g f f4.( g) \barMin
-    f4 c'( b) g g \barFinalis
+    g4 g a g a( c) b \barMin
+    c b g b c a a g g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
-    Když Bůh po -- vstal k_sou -- du, ze -- mě se zdě -- si -- la a zmlk -- la.
+    Když Bůh po -- vstal k_sou -- du,
+    ze -- mě se zdě -- si -- la a zmlk -- la.
     A -- le -- lu -- ja.
   }
   \header {
