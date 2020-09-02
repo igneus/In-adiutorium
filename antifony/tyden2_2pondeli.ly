@@ -126,7 +126,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b4 c d c b c( d) d4. \barMin b4 c a a g( f g4.) g \barFinalis
+    b4 c d c b c( d) d \barMin b4 c a a g g \barFinalis
   }
   \addlyrics {
     Po -- že -- hna -- ný jsi, Bo -- že, na ne -- bes -- ké klen -- bě.

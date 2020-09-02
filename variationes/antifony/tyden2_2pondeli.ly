@@ -328,8 +328,28 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     b4 c d c b c( d) d4. \barMin b4 c a a g( f g4.) g \barFinalis
+  }
+  \addlyrics {
+    Po -- že -- hna -- ný jsi, Bo -- že, na ne -- bes -- ké klen -- bě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "b"
+    psalmus = "Žalm 19 A"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    b4 c d c b c( d) d \barMin b4 c a a \mark\sipka g g \barFinalis
   }
   \addlyrics {
     Po -- že -- hna -- ný jsi, Bo -- že, na ne -- bes -- ké klen -- bě.
