@@ -133,6 +133,7 @@ tInedeleInespAntIII = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 3"
+    placet = "v modu nesedí moc přesvědčivě, je těžká na e"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
