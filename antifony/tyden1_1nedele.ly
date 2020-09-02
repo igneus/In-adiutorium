@@ -82,7 +82,7 @@ tInedeleInespAntIII = \score {
   \relative c' {
     \choralniRezim
     d4( e f) g a( g) \barMin
-    a a( bes a) g4.( f4 e) \barMin e( f g) f( e) d( e) d d \barFinalis
+    g f e e( f) d c d d \barFinalis
   }
   \addlyrics {
     Kris -- tův kříž
@@ -101,7 +101,7 @@ tInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( a c) b( a) g g \barMin
+    c4 a c b a g \barMin
     f g a( c) c b g a( g) g \barFinalis
   }
   \addlyrics {
@@ -110,8 +110,8 @@ tInedeleInespAntIII = \score {
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 2"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}

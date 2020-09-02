@@ -769,6 +769,202 @@ je atypická a může bt těžké z ní přejít na žalm.}
 
 \pageBreak
 
+\markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4( e f) g a( g) \barMin
+    a a( bes a) g4.( f4 e) \barMin e( f g) f( e) d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův kříž
+    je pro nás stro -- mem ži -- vo -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e f) g a( g) \barMin
+    \mark\sipka g f e e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův kříž
+    je pro nás stro -- mem ži -- vo -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( a c) b( a) g g \barMin
+    f g a( c) c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem u -- sta -- no -- vil
+    své -- ho krá -- le na Si -- ó -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 2"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 a c b a g \barMin
+    f g a( c) c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem u -- sta -- no -- vil
+    své -- ho krá -- le na Si -- ó -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 2"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f g a( g) e \barMin
+    d e e( f) e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Hos -- po -- di -- ne, můj štít,
+    ty mi po -- zve -- dáš hla -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 3"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e d c( e) e \barMin
+    e d c d e d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Hos -- po -- di -- ne, můj štít,
+    ty mi po -- zve -- dáš hla -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 3"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g( a) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Hos -- po -- di -- ne, můj štít,
+    ty mi po -- zve -- dáš hla -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 3"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\markup{Koná-li se vigilie:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin g f g( a) f( e) e \barMaior
+    d d e f( g) g g( f) g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, buď nám mi -- los -- tiv,
+    buď na -- ší spá -- sou v_do -- bě tís -- ně.
+  }
+  \header {
+    quid = "ant. ke kantikům (pro neděle v mezidobí)"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "mc-antvig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g \barMin g f g( a) f( e) d \barMaior
+    d e f f( g) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, buď nám mi -- los -- tiv,
+    buď na -- ší spá -- sou v_do -- bě tís -- ně.
+  }
+  \header {
+    quid = "ant. ke kantikům (pro neděle v mezidobí)"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "mc-antvig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \markup{
