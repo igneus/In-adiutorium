@@ -28,6 +28,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 6"
+    placet = "lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -52,6 +53,7 @@
     modus = "III"
     differentia = "b"
     psalmus = "Žalm 9-I"
+    placet = "lépe"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -76,6 +78,7 @@
     modus = "III"
     differentia = "b"
     psalmus = "Žalm 9-II"
+    placet = "lépe"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }

@@ -108,6 +108,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 131"
+    placet = "lépe"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }

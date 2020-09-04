@@ -28,6 +28,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 18-I"
+    placet = "tohle je jasný modus II"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
