@@ -68,6 +68,106 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMin
+    g( a) g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- lu -- ji tě, Hos -- po -- di -- ne,
+    má sí -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 18-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMin
+    a g f d f( g) f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mě vy -- svo -- bo -- dil,
+    pro -- to -- že mě má rád.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 18-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a bes( a) a \barMin
+    g a g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé svět -- lo
+    a má spá -- sa.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 18-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g( a) a( g) \barMin
+    g a g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé svět -- lo
+    a má spá -- sa.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 18-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

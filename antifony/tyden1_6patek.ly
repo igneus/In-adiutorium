@@ -62,10 +62,10 @@
     \choralniRezim
     \key f \major
     d4 d( e f) e \barMin
-    f g a a a( bes) g g( bes) a \barMin
+    f g a a a( bes) g g( a) a \barMaior
     g f d e( d) d \barFinalis
 
-    f^\rubrVelikAleluja f d d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Můj ja -- zyk

@@ -49,6 +49,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( e f) e \barMin
@@ -66,6 +67,34 @@
     differentia = "D"
     psalmus = "Žalm 35-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d( e f) e \barMin
+    f g a a a( bes) g \mark\sipka g( a) a \barMaior
+    g f d e( d) d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Můj ja -- zyk
+    bu -- de stá -- le o -- sla -- vo -- vat
+    tvou spra -- ve -- dl -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-III"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

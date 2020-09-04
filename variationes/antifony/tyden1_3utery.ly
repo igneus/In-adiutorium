@@ -97,6 +97,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g a a( g) \barMin
+    f d f g g f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

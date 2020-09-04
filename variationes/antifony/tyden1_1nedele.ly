@@ -946,6 +946,26 @@ je atypická a může bt těžké z ní přejít na žalm.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a a a \barMin g f g( a) f( e) \mark\sipka d \barMaior
+    d \mark\sipka e f f( g) g \mark\sipka f g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, buď nám mi -- los -- tiv,
+    buď na -- ší spá -- sou v_do -- bě tís -- ně.
+  }
+  \header {
+    quid = "ant. ke kantikům (pro neděle v mezidobí)"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "mc-antvig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a a g \barMin g f g( a) f( e) d \barMaior
     d e f f( g) g f e d d \barFinalis
   }

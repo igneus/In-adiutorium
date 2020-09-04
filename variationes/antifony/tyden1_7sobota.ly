@@ -8,6 +8,8 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup\italic{V liturgickém mezidobí:}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -28,8 +30,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g g \barMin f g a a a( bes) a g( a) a \barMaior
     a( g f) a( g) f e f d d \barMin d d( f) e c d d \barFinalis
@@ -52,6 +57,32 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f \mark\sipka g( a) g \barMin
+    f g a a a( bes) a g( a) a \barMaior
+    a( g f) \mark\sipka g( f) e f d c c \barMin
+    d d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    všech -- no, co jsem o -- bě -- to -- val,
+    da -- ro -- val jsem s_ra -- dos -- tí
+    a s_u -- přím -- ným srd -- cem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 132-I"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a bes a g( a) g g \barMin
     f f g a a a a( bes) a g( a) a \barMaior
@@ -72,12 +103,38 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a bes a g( a) g g \barMin
+    f f g a a a a( bes) a g( a) a \barMaior
+    a( g a) \mark\sipka g( f) f \barMin
+    \mark\sipka g g g( a) f e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din spl -- nil pří -- sa -- hu,
+    kte -- rou se za -- vá -- zal Da -- vi -- do -- vi:
+    u -- pev -- nil
+    je -- ho krá -- lov -- ství na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 132-II"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době adventní a vánoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) e f g a bes a \barMaior
     g g a g f d d d e( d) c d d \barFinalis
@@ -92,6 +149,31 @@
     differentia = "D"
     psalmus = "Žalm 105-I"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) e f g a bes a \barMaior
+    g g a g f d d \mark\sipka e f( d) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
 }

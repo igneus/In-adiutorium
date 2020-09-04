@@ -18,7 +18,7 @@
   \relative c' {
     \choralniRezim
     d4( f) e f g a bes a \barMaior
-    g g a g f d d d e( d) c d d \barFinalis
+    g g a g f d d e f( d) c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
@@ -117,8 +117,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g g \barMin f g a a a( bes) a g( a) a \barMaior
-    a( g f) a( g) f e f d d \barMin d d( f) e c d d \barFinalis
+    a4 a a g f g( a) g \barMin
+    f g a a a( bes) a g( a) a \barMaior
+    a( g f) g( f) e f d c c \barMin
+    d d( f) e c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, můj Bo -- že,
@@ -141,12 +143,14 @@
     \choralniRezim
     a4 a a bes a g( a) g g \barMin
     f f g a a a a( bes) a g( a) a \barMaior
-    a( g a) f( d) e \barMin f f f( a) g f e d d \barFinalis
+    a( g a) g( f) f \barMin
+    g g g( a) f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din spl -- nil pří -- sa -- hu,
     kte -- rou se za -- vá -- zal Da -- vi -- do -- vi:
-    u -- pev -- nil je -- ho krá -- lov -- ství na -- vě -- ky.
+    u -- pev -- nil
+    je -- ho krá -- lov -- ství na -- vě -- ky.
   }
   \header {
     quid = "3. ant."
