@@ -1,6 +1,6 @@
 \version "2.19.80"
 
-\include "../spolecne.ly"
+\include "../../spolecne.ly"
 
 \header {
   title = "Compline Psalm Antiphons"
