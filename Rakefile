@@ -1,7 +1,6 @@
 # automation of a few tasks.
 # For tasks building books see antifonar/Rakefile
 
-require 'set'
 require 'colorize'
 
 require_relative 'nastroje/rakefile_common'
@@ -35,14 +34,13 @@ all_ly_files = `git ls-files`.split.select {|f| f.end_with?('.ly') && !f.include
 build_standalone_ly = standalone_ly_files.collect do |source|
   target = source.sub(/\.ly$/, '.pdf')
 
-  includes = Set.new
-  File.read(source).scan(/\\include "([^"]+)"/) do |inc|
+  includes = File.read(source).scan(/\\include "([^"]+)"/).collect do |inc|
     # the expand_path handles include paths relative to main files in
     # subdirectories like 'commune'
-    includes << File.expand_path(inc[0], File.dirname(source))
-  end
+    File.expand_path(inc[0], File.dirname(source))
+  end.uniq
 
-  file target => [source] + includes.to_a do
+  file target => [source] + includes do
     lily_args = ['--silent']
     if File.dirname(source) != '.' then
       lily_args << "--output" << "#{File.dirname(source)}"
