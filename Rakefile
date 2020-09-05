@@ -24,10 +24,10 @@ task :psalmodie => 'psalmodie.ly'
 # - .ly files in the project root are mostly standalone sheets
 #
 
-standalone_ly_files = `git ls-files *.ly`.split +
-  `git ls-files commune/*.ly`.split +
-  `git ls-files sanktoral/*.ly`.split +
-  `git ls-files reholni/*/*.ly`.split
+standalone_ly_files =
+  %w{*.ly commune/*.ly sanktoral/*.ly reholni/*/*.ly cizojazycne/*/*.ly paraliturgicke/*.ly}
+    .collect {|glob| `git ls-files #{glob}`.split }
+    .flatten
 standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
 
 all_ly_files = `git ls-files`.split.select {|f| f.end_with?('.ly') && !f.include?('variationes/') }
