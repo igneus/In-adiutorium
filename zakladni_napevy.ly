@@ -512,31 +512,6 @@
 
   \markup\sekce{IV.2 Modlitba se čtením a modlitba uprostřed dne}
 
-  \markup{Podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
-
-  \score {
-    \relative c'' {
-      \choralniRezim
-      \neviditelna c c4 c c( d) d d d( c b) \barMax
-      \neviditelna c d d d d( c b) \barFinalis
-    }
-    \addlyrics {
-      \Verse Do -- bro -- řeč -- me Pá -- nu.
-      \Response Bo -- hu dí -- ky.
-    }
-    \header {
-      id = "dobrorecme"
-      piece = ""
-    }
-  }
-
-  \markup\justify{
-    Následující je variantou předchozího, melisma je však
-    přesunuté
-    na přízvučnou slabiku.
-    Zdá se to tak být českému uchu příjemnější.
-  }
-
   \score {
     \relative c'' {
       \choralniRezim
@@ -548,31 +523,28 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
+      fons_externus = \markup{Volně podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
       id = "dobrorecme2"
       piece = ""
     }
   }
 
   \markup\justify{
-    Další možností je zpívat tento verš na běžný prostý nápěv verše (viz oddíl III.2).
-  }
-
-  \markup\justify{
-    Následující úpravu používají novodvorští trapisté.
+    Nebo lze použít běžný prostý nápěv veršíku (srov. oddíl III.2):
   }
 
   \score {
     \relative c'' {
       \choralniRezim
-      \neviditelna c c4 c c( d) c b b \barMax
-      \neviditelna c c4( d) c b b \barFinalis
+      \neviditelna c c4 c c c c a \barMax
+      \neviditelna c c c c a \barFinalis
     }
     \addlyrics {
       \Verse Do -- bro -- řeč -- me Pá -- nu.
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      id = "dobrorecme-nd"
+      id = "dobrorecme4"
       piece = ""
     }
   }
