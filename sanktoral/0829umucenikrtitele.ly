@@ -108,21 +108,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    g a c c d( e d) c( d) d \barMax
-    d d( e c d) c( b a) \barMin f( g a) a( b) a g g \barFinalis
+    \neviditelna f
+    f4 f f f g a a( g) \barMaior
+    g g( a) g \barMin f( d) f g g f \barFinalis
     % V
     \neviditelna a
-    d c d( f g f) d( c d) \barMin d( e d) c( d) d( c) \barMin a b( c) c( d) d \barMax
+    a( bes) a g( a) g \barMin g g g f g g g( a) \barMax
     % R
     \neviditelna a
-    d d( e c d) c( b a) \barMin f( g a) a( b) a g g \barFinalis
+    g g( a) g \barMin f( d) f g g f \barFinalis
     % Slava
-    d' d d( f) e d e( c d) d \barMin a c( d) d d( e) d d \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Po -- sla -- li jste k_Ja -- no -- vi,_*
@@ -133,7 +133,7 @@
   }
   \header {
     quid = "resp."
-    modus = "VII"
+    modus = "VI"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -168,8 +168,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g a a a \barMin a b( c a) g a( g) g \barMin
-    a g f e e \barFinalis
+    g a a g \barMin f a g f( e) e \barMin
+    f f d e e \barFinalis
   }
   \addlyrics {
     Ne -- boj se jich, vždyť já jsem s_te -- bou,
@@ -188,12 +188,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g g g g( a) g f( g) f e( g) g g \barMaior
-    g g g( a b) a g g( a) \barMin a( f e) e e g f( e) e \barFinalis
+    g a a g f e d e( f) e e \barMaior
+    f e f g a g \barMin
+    a-- f f g f( e) e \barFinalis
   }
   \addlyrics {
     He -- ro -- des po -- slal ka -- ta s_roz -- ka -- zem,
-    a -- by ve vě -- ze -- ní sťal Ja -- no -- vi hla -- vu.
+    a -- by ve vě -- ze -- ní
+    sťal Ja -- no -- vi hla -- vu.
   }
   \header {
     quid = "2. ant."
@@ -208,9 +210,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d e f g f f f e( d e) d \barMaior
-    c( a) a c b c( d e d) c( d) \barMaior
-    e f e e d c d( e) d d \barFinalis
+    d e f g f e f d d \barMaior
+    f f e d e( f d c) c \barMaior
+    d c d f f f e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Ja -- no -- vi u -- čed -- ní -- ci při -- šli,
@@ -222,28 +224,27 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 4"
-    placet = "moc nesedí v modu, finála nezní uspokojivě"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    g a( c) c c d( e d) c c( d) d( c) d \barMax
-    c( d) c( b a g) g( a) \barMin f g a b( c) a b( a) g g \barFinalis
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g( a) g \barMin g f d f g g f f \barFinalis
     % V
     \neviditelna a
-    d f e d( c d) \barMin c( a) b c c( d) d \barMax
+    a( bes) a a g( a g) \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    c( d) c( b a g) g( a) \barMin f g a b( c) a b( a) g g \barFinalis
+    g g( a) g \barMin g f d f g g f f \barFinalis
     % Slava
-    d' d d( f) e d e( c d) d \barMin a c( d) d d( e) d d \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Jan ře -- kl: já ne -- jsem Me -- si -- áš,_*
@@ -254,29 +255,31 @@
   }
   \header {
     quid = "resp."
-    modus = "VII"
-    placet = "v doxologii divné _Synu_"
+    modus = "VI"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d( b) b c( a) a( g) g \barMaior
-    f g( a) a a a a b a a g g \barMax
-    g g( a b) c c( d) \barMin c( b a) g f f( g a) g \barFinalis
+    f4 g( a g) f g g g( a) \barMaior
+    a g( a) g \barMin
+    g f g f e d c c \barMaior
+    d f g g( a g) \barMin
+    f( d) e f d d \barFinalis
   }
   \addlyrics {
     Já ne -- jsem Me -- si -- áš,
-    jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.
+    jsem po -- slán
+    jen ja -- ko je -- ho před -- chůd -- ce.
     On mu -- sí růst, já však se men -- šit.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
