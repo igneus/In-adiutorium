@@ -450,10 +450,33 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
     b c c b g f f( g) g \barMaior
+    f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    b c c \mark\sipka a b a a( g) g \barMaior
     f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
   }
   \addlyrics {

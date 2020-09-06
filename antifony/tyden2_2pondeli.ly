@@ -40,7 +40,7 @@
     g a g f e f e d \barMin
     g a f( e) e \barFinalis
 
-    f^\rubrVelikAleluja f d e \barFinalis
+    f^\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Svou jas -- nou tvář
@@ -62,8 +62,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f( g a) g \barMin g a( c b) g a( g) \barMaior
-    g g f( e f) e( d) d \barMin
+    g4 a a a b( g) g( a) a \barMaior
+    g f e( f) e( d) d \barMin
     e f g a g f e d e e \barFinalis
 
     f^\rubrVelikAleluja f d( e) e \barFinalis

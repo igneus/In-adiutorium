@@ -133,7 +133,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) d e \barMin f d c c d d \barFinalis
 
@@ -150,6 +150,78 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 52"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d d( f) d e \barMin f d c c d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Stá -- le se spo -- lé -- hám
+    na Bo -- ží sli -- tov -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 52"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e f f e \barMin
+    f g f e( d) c( d) d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Stá -- le se spo -- lé -- hám
+    na Bo -- ží sli -- tov -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 52"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g g \barMin
+    f d f( g) g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Stá -- le se spo -- lé -- hám
+    na Bo -- ží sli -- tov -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 52"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}

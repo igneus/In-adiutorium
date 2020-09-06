@@ -58,18 +58,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d d( f) d e \barMin f d c c d d \barFinalis
+    c4 d e f f e \barMin
+    f g f e( d) c( d) d \barFinalis
 
-    c^\rubrVelikAleluja d d( f e) d \barFinalis
+    c^\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
-    Stá -- le spo -- lé -- hám
+    Stá -- le se spo -- lé -- hám
     na Bo -- ží sli -- tov -- nost.
 
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Stále se spoléhám na Boží slitovnost. Aleluja."
     quid = "3. ant."
     modus = "II"
     differentia = "D"

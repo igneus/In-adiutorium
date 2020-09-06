@@ -41,7 +41,7 @@
   \relative c'' {
     \choralniRezim
     a4 a e \barMin g f e d e e \barMaior
-    f4 g f e g a g f e e e \barFinalis
+    f4 g f e g a g f d e e \barFinalis
   }
   \addlyrics {
     U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
@@ -66,7 +66,7 @@
     g4 g \barMin a a f f g g \barMaior
     d d e f g f g e e \barFinalis
 
-    f^\rubrVelikAleluja g f( e) e \barFinalis
+    f^\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Pa -- ne, po -- vstaň nám na po -- moc

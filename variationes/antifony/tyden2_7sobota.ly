@@ -16,6 +16,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c d d b a f g g \barMaior
     g4 g c c a a f \barMin a b a g g \barFinalis
@@ -36,6 +37,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d c b a g g \barMaior
     g g d e f g g \barMin a a a g g \barFinalis
@@ -56,6 +58,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c c a c d d \barMin c b a c b g g \barMaior
     g c b d c a g \barMin a f f g g \barFinalis
@@ -73,6 +76,83 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g a a a g f g( a) g \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- či -- nil vel -- ké di -- vy,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 g f a a g a a( bes) a a( g f) \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,_*
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mc-a2?-aleluja"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a f g a a \barMin
+    a bes a g f g g \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    On nás vy -- svo -- bo -- dil
+    od na -- šich pro -- tiv -- ní -- ků,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době adventní a vánoční:}
 
@@ -98,6 +178,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f e) f( d) c( d) c \barMaior
     d e f g f g d \barMin
@@ -114,6 +195,31 @@
     differentia = "D"
     psalmus = "Žalm 106-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g g g f e d d \barMaior
+    e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj -- me
+    na smlou -- vu s_Hos -- po -- di -- nem,
+    na -- ším Bo -- hem.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-II"
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

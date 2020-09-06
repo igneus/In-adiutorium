@@ -30,6 +30,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g g( a) \barMin
     g a g f e f e d \barMin
@@ -52,6 +53,61 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 f g g( a) \barMin
+    g a g f e f e d \barMin
+    g a f( e) e \barFinalis
+
+    f^\rubrVelikAleluja f d e \barFinalis
+  }
+  \addlyrics {
+    Svou jas -- nou tvář
+    u -- kaž své -- mu slu -- žeb -- ní -- ku,
+    Hos -- po -- di -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-II"
+    id = "cte-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g g( a) \barMin
+    g a g f e f e d \barMin
+    g a f( e) e \barFinalis
+
+    f^\rubrVelikAleluja f \mark\sipka d( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou jas -- nou tvář
+    u -- kaž své -- mu slu -- žeb -- ní -- ku,
+    Hos -- po -- di -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-II"
+    id = "cte-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) f( g a) g \barMin g a( c b) g a( g) \barMaior
     g g f( e f) e( d) d \barMin
@@ -61,6 +117,60 @@
     Po -- žeh -- nán buď Hos -- po -- din,
     že mi pro -- ká -- zal
     po -- di -- vu -- hod -- né mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-III"
+    id = "cte-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( a) f( g a) g \barMin g a( c b) g a( g) \barMaior
+    g g f( e f) e( d) d \barMin
+    e f g a g f e d e e \barFinalis
+
+    f^\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- nán buď Hos -- po -- din,
+    že mi pro -- ká -- zal
+    po -- di -- vu -- hod -- né mi -- lo -- sr -- den -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-III"
+    id = "cte-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a a a b( g) g( a) a \barMaior
+    g f e( f) e( d) d \barMin
+    e f g a g f e d e e \barFinalis
+
+    f^\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- nán buď Hos -- po -- din,
+    že mi pro -- ká -- zal
+    po -- di -- vu -- hod -- né mi -- lo -- sr -- den -- ství.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."

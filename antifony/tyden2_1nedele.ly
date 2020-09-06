@@ -138,7 +138,7 @@ tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
-    b c c b g f f( g) g \barMaior
+    b c c a b a a( g) g \barMaior
     f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
   }
   \addlyrics {

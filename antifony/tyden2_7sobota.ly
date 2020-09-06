@@ -41,9 +41,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f e) f( d) c( d) c \barMaior
-    d e f g f g d \barMin
-    d( e d) c c( d) d \barFinalis
+    c4 d d( f) f \barMin
+    g g g f e d d \barMaior
+    e( f d) c c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj -- me
@@ -95,22 +95,22 @@
 % a chor odpovida druhou polovinou antifony
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c d d b a f g g \barMaior
-    g4 g c c a a f \barMin a b a g g \barFinalis
+    f4 f g a a a g f g( a) g \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- či -- nil vel -- ké di -- vy,
-    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 136-I"
-    placet = "_učinil velké divy_ je fuj;
-    všechny tři zkusit zpracovat výrazněji jako jeden celek"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -119,19 +119,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d c b a g g \barMaior
-    g g d e f g g \barMin a a a g g \barFinalis
+    \key f \major
+    a4 g f a a g a a( bes) a a( g f) \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
   }
   \addlyrics {
-    Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,
-    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    Vy -- ve -- dl Iz -- ra -- e -- le z_E -- gyp -- ta,_*
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 136-II"
-    placet = "antifona téhož textu je ve velikonočním oktávu"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mc-a2?-aleluja"
     id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -140,17 +143,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c c a c d d \barMin c b a c b g g \barMaior
-    g c b d c a g \barMin a f f g g \barFinalis
+    a4 a f g a a \barMin
+    a bes a g f g g \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
   }
   \addlyrics {
-    On nás vy -- svo -- bo -- dil od na -- šich pro -- tiv -- ní -- ků,
-    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    On nás vy -- svo -- bo -- dil
+    od na -- šich pro -- tiv -- ní -- ků,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 136-III"
     id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}

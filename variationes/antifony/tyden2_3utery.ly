@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g a a e e \barMaior
     c d e( g) g g \barMin
@@ -32,6 +33,62 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g g g a a e e \barMaior
+    c d e( g) g g \barMin
+    a a g f e( d) d \barFinalis
+
+    g^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-I"
+    placet = "nejak nesedi v I. modu, mozna ma prirozenejsi finalu na E?"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g( a) f f( g) g \barMaior
+    bes a g( a) g g \barMin
+    f d e f d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f bes a g d f d d \barFinalis
@@ -52,6 +109,81 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f bes a g d f d d \barFinalis
+
+    g^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f \mark\sipka g f e d e d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin g f g( a) g \barMaior
+    g f g a a a f e c( d) d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( bes) g g( a) a \barMaior
     g a g d( f) f d d \barFinalis
@@ -66,6 +198,56 @@
     differentia = "g"
     psalmus = "Žalm 37-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g a( bes) g g( a) a \barMaior
+    g a g d( f) f d d \barFinalis
+
+    g^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej v_Hos -- po -- di -- na
+    a drž se je -- ho ces -- ty.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a( bes) g g( a) a \barMaior
+    g \mark\sipka f d e f d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej v_Hos -- po -- di -- na
+    a drž se je -- ho ces -- ty.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-III"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
