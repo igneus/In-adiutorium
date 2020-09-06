@@ -91,23 +91,22 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    a( g f) g( a) a \barMin a g a( c d) e d( c) c( d) d \barMax
-    a( d c) d( e d) c d d( c a) a \barMin f g a( c) b( a g) g \barFinalis
+    \neviditelna f
+    f4 f f f f g f g a a( g) \barMax
+    g f g a g( f d) d \barMin f g g( a) g( f) f \barFinalis
     % V
-    \neviditelna d
-    d'( c) d d( f e d) c( d) d \barMin
-    d( c b) c( b a) g( a) a \barMaior
-    f f g( a) a c( d) c b a g( a) \barMax
+    \neviditelna a
+    a a a( bes) a a a a g( a) g \barMin
+    g g g g a g f g g( a) \barMax
     % R
     \neviditelna a
-    a( d c) d( e d) c d d( c a) a \barMin f g a( c) b( a g) g \barFinalis
+    g f g a g( f d) d \barMin f g g( a) g( f) f \barFinalis
     % Slava
-    d'( c d) d \barMin d( f) e d c( d) d \barMaior d d( e d c) c( a) \barMin g( f) f( g) g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- a by -- la vza -- ta do ne -- be,_*
@@ -120,7 +119,7 @@
   }
   \header {
     quid = "resp."
-    modus = "VII"
+    modus = "VI"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -447,21 +446,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    a4( g f) g( a) a \barMin a g( a) a a a( c d) d( e) d c c d d \barMax
-    d c d e d( c b a) a \barMin g( f) g a( c b g) g \barFinalis
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f g g f g g g( a) \barMax
+    g f g a g( f d) d \barMin f g g( f) f \barFinalis
     % V
     \neviditelna a
-    d4( f d) g( f d) d( c) \barMin c( bes) c c d d \barMax
+    a( bes) a a g( a) g f g g( a) \barMax
     % R
     \neviditelna a
-    d c d e d( c b! a) a \barMin g( f) g a( c b g) g \barFinalis
+    g f g a g( f d) d \barMin f g g( f) f \barFinalis
     % Slava
-    d'( c d) d \barMin d( f) e d c( d) d \barMaior d d( e d c) c( a) \barMin g( f) f( g) g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Ma -- ri -- a dnes vstou -- pi -- la do ne -- bes -- kých pří -- byt -- ků;_*
@@ -472,10 +471,8 @@
   }
   \header {
     quid = "resp."
-    modus = "VII"
-    placet = "první div. až po _vstoupila_"
+    modus = "VI"
     id = "rch-resp"
-    fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -646,23 +643,23 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    a4 a a( g f) g( a) a a a( c d) d( e) d d \barMin
-    d d( f d) d( e) d c d d \barMax
-    d( e) d c d d( c) c \barMin b g f g( a g) g \barFinalis
+    \neviditelna f
+    f4 f g f f f f g f f \barMin
+    g g g f g a a( g) \barMax
+    g f g a g( f d) d \barMin f g a g( f) f \barFinalis
     % V
     \neviditelna a
-    d4 d d d( f e d) c( d) d \barMaior
-    d d d( a) \barMin f g a g( c d) d \barMax
+    a a a a( bes) a a \barMin
+    a a g( a g) \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    d( e) d c d d( c) c \barMin b g f g( a g) g \barFinalis
+    g f g a g( f d) d \barMin f g a g( f) f \barFinalis
     % Slava
-    d'( c d) d \barMin d( f) e d c( d) d \barMaior d d( e d c) c( a) \barMin g( f) f( g) g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Pan -- na Ma -- ri -- a je vy -- vý -- še -- na
@@ -675,10 +672,8 @@
   }
   \header {
     quid = "resp."
-    modus = "VII"
-    placet = "_nad zástupy_ má špatně hudební přízvuk; celé nic moc"
+    modus = "VI"
     id = "2ne-resp"
-    fons = "melodie volně podle resp. 1. nešp., Sláva převzato"
     piece = \markup {\sestavTitulekResp}
   }
 }
