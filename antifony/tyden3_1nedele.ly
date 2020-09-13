@@ -69,6 +69,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 145-I"
+    placet = "_cen_ melodie i césura nepřirozená"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
