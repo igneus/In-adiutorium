@@ -10,6 +10,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e g( a g) f \barMin
     a a a g bes a g f f \barFinalis
@@ -17,6 +18,127 @@
   \addlyrics {
     Na -- vě -- ky chci zpí -- vat
     o Hos -- po -- di -- no -- vých mi -- los -- tech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g g( a) a \barMin
+    a a a a g a g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g( f) f \barMin
+    g g g g a g g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    f e d c d f g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    a g f d f g g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    f f f f g a g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
@@ -51,7 +173,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f f g a( f) g \barMin
     a bes a g a f f \barMin
@@ -61,6 +183,33 @@
     Kris -- tus, Syn Bo -- ží,
     po -- chá -- zí ja -- ko člo -- věk
     z_ro -- du Da -- vi -- do -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f f g g( a) a \barMin
+    a a a g a g( f) f \barMin
+    g g a g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    po -- chá -- zí ja -- ko člo -- věk
+    z_ro -- du Da -- vi -- do -- va.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
@@ -97,7 +246,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f4 g g g f g f f \barMin
     d f f g g g \barMaior
@@ -105,6 +254,35 @@
     a g a g f f \barFinalis
 
     g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pří -- sa -- hal jsem Da -- vi -- do -- vi,
+    své -- mu slu -- žeb -- ní -- ku;
+    je -- ho po -- tom -- stvo
+    po -- tr -- vá na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g f g g \barMin
+    f e d e d c \barMaior
+    c d d( f) f( g) g \barMin
+    g a g g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,

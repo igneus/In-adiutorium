@@ -10,12 +10,12 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d d( e f d) d \barMin
-    d c a a a b g a a \barFinalis
+    c4 d d( f) f \barMin
+    f g f f f e c d d \barFinalis
 
-    g^\rubrVelikAleluja a b a \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Náš Bůh při -- jde
@@ -25,11 +25,10 @@
   }
   \header {
     % prehozeno z rytmickych duvodu
-    textus_approbatus = "Náš Bůh přijde
-    a ukáže svou slávu a moc. Aleluja."
+    textus_approbatus = "Náš Bůh přijde a ukáže svou slávu a moc. Aleluja."
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 50-I"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
@@ -37,12 +36,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d( c d) c a a( d) d \barMin
-    d( e) c a a \barFinalis
+    d4 e f e( d) c \barMin
+    e f d d \barFinalis
 
-    g^\rubrVelikAleluja a b a \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Při -- ná -- šej Bo -- hu
@@ -52,8 +51,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 50-II"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
@@ -61,25 +60,28 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c b a g g( a) \barMin f g a( b a) a \barMaior
-    c c c c( d) d d d( a) \barMin b a g g( a) a \barFinalis
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    a c d d( f) f \barMin
+    f e c e f d d \barFinalis
 
-    g^\rubrVelikAleluja a b a \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Mi -- lo -- sr -- den -- ství chci, a ne o -- běť:
-    po -- zná -- ní Bo -- ha je víc než ce -- lo -- pa -- ly.
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 50-III"
-    placet = "lépe"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }

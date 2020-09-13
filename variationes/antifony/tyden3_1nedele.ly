@@ -86,6 +86,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d f( g a) \barMin a g a f e d e d c( d) d \barFinalis
   }
@@ -98,6 +99,47 @@
     differentia = "D"
     psalmus = "Žalm 145-I"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f g a f e d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g a f e d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 145-I"
+    id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -148,6 +190,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d d f d d f g f g g \barMaior
     g a( g f a) e( d) \barMin c c c c( d) d \barFinalis
@@ -166,10 +209,73 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d d d f d d f g f g g \barMaior
+    g a( g f a) e( d) \barMin \mark\sipka f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Věr -- ný je Hos -- po -- din ve všech svých sli -- bech
+    a sva -- tý ve všech svých či -- nech.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\markup{
 %  Koná-li se vigilie: antifona viz neděle 1. týdne,
 %  s. \page-ref #'vigilieAntMezidobi "0" "?"
 %}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g f d \barMin
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 145-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e d e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 145-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \pageBreak
 

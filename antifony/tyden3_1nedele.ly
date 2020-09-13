@@ -57,19 +57,20 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d d f( g a) \barMin a g a f e d e d c( d) d \barFinalis
+    a4 a g f g a f e d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
-    Kaž -- dý den tě bu -- du ve -- le -- bit, Hos -- po -- di -- ne.
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = "Žalm 145-I"
-    placet = "_cen_ melodie i césura nepřirozená"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -99,7 +100,7 @@
   \relative c' {
     \choralniRezim
     d d d f d d f g f g g \barMaior
-    g a( g f a) e( d) \barMin c c c c( d) d \barFinalis
+    g a( g f a) e( d) \barMin f e c c( d) d \barFinalis
   }
   \addlyrics {
     Věr -- ný je Hos -- po -- din ve všech svých sli -- bech
