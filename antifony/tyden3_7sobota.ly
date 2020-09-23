@@ -30,6 +30,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-I"
+    placet = "aktualisovat ze zdroje!"
     id = "mc-ant1"
     fons = "žaltář, po 4.t., nešp., 1. ant."
     fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
