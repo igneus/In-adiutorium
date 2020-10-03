@@ -3519,7 +3519,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a e f( g) a a \barMin
     b c d c c b a b( c) a a \barMaior
@@ -3556,6 +3556,55 @@ začátkem v jednom oficiu patřily k různým modům.
     b c d c c b a b( c) a a \barMaior
     a b c c d c \mark\sipka b a \barMin
     a g f g f( d) d f g f d d \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně slav -- me pa -- mát -- ku
+    bla -- ho -- sla -- ve -- né Pan -- ny Ma -- ri -- e;
+    o -- na za nás o -- ro -- du -- je
+    u na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "sob-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a e f( g) a a \barMin
+    b c d c c b a b( c) a a \barMaior
+    a \mark\sipka g f g a g a( c) a \barMin
+    a g f g f( d) d f g f d d \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně slav -- me pa -- mát -- ku
+    bla -- ho -- sla -- ve -- né Pan -- ny Ma -- ri -- e;
+    o -- na za nás o -- ro -- du -- je
+    u na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "sob-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a e f( g) a a \barMin
+    b c d c c b a b( c) a a \barMaior
+    a g f g a g \mark\sipka f( d) d \barMin
+    d d c d d( f) d f g f d d \barFinalis
   }
   \addlyrics {
     Zbož -- ně slav -- me pa -- mát -- ku
@@ -4038,12 +4087,37 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a( c d) f( e) d c d d \barMaior
     d( f) d d c d c a a g( f) g g a a \barMax
     a g a c( d) d \barMin d c( d) d d f g f e d( c) \barMaior
     d d d e( c a) a \barMin \mark\sipka bes( c d) c bes a a \barFinalis
+  }
+  \addlyrics {
+    Kdo mů -- že vy -- zpí -- vat tvou chvá -- lu,
+    sva -- tá a ne -- po -- skvr -- ně -- ná Pan -- no Ma -- ri -- a?
+    Vždyť skr -- ze te -- be jsme dos -- ta -- li Vy -- ku -- pi -- te -- le,
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Benedictus"
+    id = "sob-aben5"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a( c d) f( e) d c d d \barMaior
+    d( f) d d c d c a a g( f) g g a a \barMax
+    a g a c( d) d \barMin d c( d) d d f g f e d( c) \barMaior
+    d d d e( c a) a \barMin \mark\sipka bes( d) c bes g( a) a \barFinalis
   }
   \addlyrics {
     Kdo mů -- že vy -- zpí -- vat tvou chvá -- lu,

@@ -191,15 +191,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d) c d \barMin d b c a( g) g \barFinalis
+    a4 g a( g) \barMin
+    f f g g( f) f \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Dt 32"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

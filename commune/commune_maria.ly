@@ -858,8 +858,8 @@
     \choralniRezim
     a4 g a e f( g) a a \barMin
     b c d c c b a b( c) a a \barMaior
-    a b c c d c d d( c) \barMin
-    a g f g f( d) d f g f d d \barFinalis
+    a g f g a g f( d) d \barMin
+    d d c d d( f) d f g f d d \barFinalis
   }
   \addlyrics {
     Zbož -- ně slav -- me pa -- mát -- ku
@@ -872,7 +872,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Benedictus"
-    placet = "opravdu je potřeba tak velký rozsah?"
     id = "sob-aben1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -959,7 +958,7 @@
     a4 a a a( c d) f( e) d c d d \barMaior
     d( f) d d c d c a a g( f) g g a a \barMax
     a g a c( d) d \barMin d c( d) d d f g f e d( c) \barMaior
-    d d d e( c a) a \barMin bes( c d) c bes a a \barFinalis
+    d d d e( c a) a \barMin bes( d) c bes g( a) a \barFinalis
   }
   \addlyrics {
     Kdo mů -- že vy -- zpí -- vat tvou chvá -- lu,
