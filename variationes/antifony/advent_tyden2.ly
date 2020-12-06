@@ -622,8 +622,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( a') bes g a f \barMin
@@ -646,6 +649,42 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\justify{
+  Tuhle antifonu jsem vždycky zpíval se specifickým položením délek,
+  které je pro ni důležité a bez něj nedává smysl.
+  Zároveň ty délky nejsou položené tak, že by se dalo rozumně předpokládat,
+  že je tak každý bude každý sám od sebe zpívat.
+  Tudíž je vhodné vyznačit je v notovém záznamu.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d4.( a') bes4 g a4. f \barMin
+    g4 g a g bes a g f g \barMaior
+    g( a) g g f e f e d4. c \barMin
+    e4 f d4. d \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán jis -- tě při -- jde,
+    če -- kej na něj, i když pro -- dlé -- vá,
+    při -- jde a nic mu ne -- za -- brá -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 115"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

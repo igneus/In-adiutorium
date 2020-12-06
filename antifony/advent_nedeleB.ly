@@ -130,7 +130,7 @@
     a g e f d4.( e) \barMax
     e4( a) g g( a) a \barMin
     a b c a a \barMaior
-    a g f e e \barMin
+    a g f e e
     e f g f e d4. e \barFinalis
   }
   \addlyrics {
@@ -146,12 +146,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Magnificat"
-    placet = "cesura po _rozvázal mu_ by nemusela být, ale ani nepřekáží -
-    je volitelná;
-
-    2012 - asi rok po slozeni - se ptam:
-    nekoncila by prirozeneji na D? (spadla by tak do modu I)
-    2014 modus IV mi přijde vhodnější"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

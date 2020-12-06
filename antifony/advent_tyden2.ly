@@ -189,10 +189,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d( a') bes g a f \barMin
-    g g a g bes a g f g \barMaior
-    g( a) g g f e f e d c \barMin
-    e f d d \barFinalis
+    d4 d4.( a') bes4 g a4. f \barMin
+    g4 g a g bes a g f g \barMaior
+    g( a) g g f e f e d4. c \barMin
+    e4 f d4. d \barFinalis
   }
   \addlyrics {
     Hle, Pán jis -- tě při -- jde,
