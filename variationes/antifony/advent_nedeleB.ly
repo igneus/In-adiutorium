@@ -72,7 +72,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
     \choralniRezim
     a4 a( c a) \barMin b( c) c( d) d c( a) b a( g) \barMaior
     \mark\sipka c c c(-- d c a) a \barMin
