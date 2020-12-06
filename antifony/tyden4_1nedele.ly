@@ -125,7 +125,7 @@
   \relative c' {
     \choralniRezim
     f4 g f e d e c c \barMaior
-    f f g a bes a a \barMin g4 a g f f \barMin
+    f f g a bes a a \barMin g4 a g f f \barMaior
     g4 a f f \barFinalis
   }
   \addlyrics {

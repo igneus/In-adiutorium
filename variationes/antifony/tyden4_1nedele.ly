@@ -365,10 +365,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f e d e c c \barMaior
     f f \mark\sipka g a bes a a \barMin g4 a g f f \barMin
+    g4 a f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f e d e c c \barMaior
+    f f g a bes a a \barMin g4 a g f f \barMaior
     g4 a f f \barFinalis
   }
   \addlyrics {
