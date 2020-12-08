@@ -405,6 +405,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "_mezi potomstvem tvým a jejím_ není moc zpěvné a poslouchatelný lidový zpěv považuji za prakticky vyloučený"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -494,6 +495,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 122"
+    placet = "melodie ve skutečnosti tíhne k finále G, nikoli A"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -537,6 +539,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
+    placet = "závěr je nepěkný"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

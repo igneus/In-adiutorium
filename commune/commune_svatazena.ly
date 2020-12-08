@@ -77,6 +77,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "melisma na _tebe_ je nějak nepatřičné"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
