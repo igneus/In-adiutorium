@@ -385,6 +385,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "zejména první půlka zní nepřirozeně (nejvíc asi melisma na _znovu_, ale i dál nic moc)"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
