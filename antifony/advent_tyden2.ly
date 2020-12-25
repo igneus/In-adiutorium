@@ -499,7 +499,7 @@
     e4 e e e( a) a g g( a) g f e \barMin
     d f f e e \barMaior
     e d( c d) e( f) f( e) \barMin
-    f( g) a g f a( g f) e e \barFinalis
+    f g a a g( f) d( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev

@@ -132,23 +132,25 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 f g a a a bes a g f g g g \barMaior
-      g g f e f( g a) a
-      a g a f( d) d \barMaior
-      d f f f e f d d \barFinalis
+      g4 g g( c) a( g) g
+      a g f g a a g g \barMaior
+      a a a a a( c) c
+      d c d d( c) c \barMaior
+      a c c c b a g g \barFinalis
     }
     \addlyrics {
-      An -- děl Ga -- bri -- el o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      An -- děl Ga -- bri -- el
+      o -- zná -- mil Pan -- ně Ma -- ri -- i,
       že se má stát mat -- kou
       Bo -- ží -- ho Sy -- na,
       a ne -- pře -- sta -- ne být pan -- nou.
     }
     \header {
       quid = "ant. odpoledne"
-      modus = "I"
-      differentia = "f"
+      modus = "VIII"
+      differentia = "G"
       psalmus = ""
       id = "spol-nona"
       piece = \markup {\sestavTitulekBezZalmu}

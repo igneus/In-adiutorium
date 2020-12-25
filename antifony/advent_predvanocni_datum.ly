@@ -199,7 +199,7 @@
     c4( f f e) f d e( d) c( d) d \barMin
     d d( e) d d f e d e d c \barMaior
     d d a( d) d d e d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a a g f f( e) d d e d( c) c \barMax
+    a a g f f e d e d( c) c \barMax
     c( f) e f d e d c( d) d \barMin
     d e d( c) c \barMaior
     f e f d e( d) c( d) d( c a) \barMaior
@@ -367,7 +367,7 @@
     c( f f e) f d e( d) c( d) d \barMin
     d( e) d d d e( f) d e d c \barMaior
     d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a g f d( e) d c \barMax
+    a g f d( e) d( c) c \barMax
     c( f) e f d d( c a) a \barMaior
     c( d) f c e d \barFinalis
   }

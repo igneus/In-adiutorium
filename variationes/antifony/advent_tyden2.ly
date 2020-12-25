@@ -1424,12 +1424,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e e( a) a g g( a) g f e \barMin
     d f f e e \barMaior
     e \mark\sipka d( c d) e( f) f( e) \barMin
     f( g) a g f a( g f) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev
+    ne -- zi ná -- ro -- dy
+    a shro -- máž -- dí
+    roz -- ptý -- le -- ný Iz -- ra -- el.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e e( a) a g g( a) g f e \barMin
+    d f f e e \barMaior
+    e d( c d) e( f) f( e) \barMin
+    \mark\sipka f g a a g( f) d( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev

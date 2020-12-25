@@ -284,6 +284,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a( c) c b( c a4.) a b4 c a( g) g \barMin
     g c b c a g f a g( f) g \barFinalis
@@ -301,6 +302,29 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 b c d4. d e4 d c( b) b \barMaior
+    b a g a a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce já -- sá v_Hos -- po -- di -- nu:
+    on po -- ni -- žu -- je a po -- vy -- šu -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "1 Sam 2"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
