@@ -20,7 +20,8 @@
     f g a a a( c) b g g g \barFinalis
   }
   \addlyrics {
-    U -- čed -- ní -- ci jed -- no -- my -- sl -- ně se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    U -- čed -- ní -- ci jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
     s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
   }
   \header {
@@ -28,7 +29,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "commune/commune_maria.ly#tercie?jiny_text"
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?jiny_text"
     id = "aben"
     piece = \markup\sestavTitulekBezZalmu
   }

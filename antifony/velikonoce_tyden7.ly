@@ -337,24 +337,22 @@
     \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
-    f g a a a a a( c) b g g g \barMaior
+    f g a a a( c) b g g g \barFinalis
     a a g( a) g \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
-    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
 
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Všichni jednomyslně setrvávali v modlitbách
-    s Ježíšovou matkou Marií. Aleluja."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "commune/commune_maria.ly#tercie"
+    fial = "commune/commune_maria.ly#tercie?jiny_text"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
