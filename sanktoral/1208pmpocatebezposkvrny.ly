@@ -92,7 +92,7 @@
     g g g g g( a) g( f) d f( g) g f f \barFinalis
     % V
     \neviditelna a
-    a a a a g a g f g( a) a( g) \barMax
+    a a( bes) a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g g g( a) g( f) d f( g) g f f \barFinalis
