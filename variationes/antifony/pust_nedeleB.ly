@@ -681,6 +681,34 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g4.( a) a4( b) g e e \barMaior
+    d e d( b) b c( b) c d f e d e e \barMax
+    e e e( a) a \barMin a g a b( g) g \barMin
+    f g( a) g( f e) e \barMaior
+    d c d \mark\sipka f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Tak Bůh mi -- lo -- val svět,
+    že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na,
+    a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+    ne -- za -- hy -- nul,
+    a -- le měl ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f( e) e f( e) f f( g) g \barMin
     f( g) a( c) b( a) a \barMaior
     a b c c( d c) b( a) g g \barMin
