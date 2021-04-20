@@ -76,7 +76,7 @@
   \relative c'' {
     \choralniRezim
     g4 g( a) a \barMin
-    c c b a b a g( a) g g \barMaior
+    c c b a b a a g g \barMaior
     g f g a g g \barFinalis
   }
   \addlyrics {
@@ -99,7 +99,7 @@
     \choralniRezim
     f4 f e( f d) \barMin c e d \barMaior
     f f f( g) f g a g( f) d \barMin
-    c a c d d d \barFinalis
+    e c e f d d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Bo -- že náš,

@@ -341,7 +341,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 g( a) a \barMin
     c c b a b a a g g \barMaior
@@ -364,7 +364,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a \barMin
     c c b a b a \mark\sipka g( a) g g \barMaior
@@ -543,7 +543,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e( f d) \barMin c e d \barMaior
     f f f( g) f \mark\sipka g a g( f) d \barMin
@@ -570,6 +570,29 @@
     f4 f e( f d) \barMin c e d \barMaior
     f f f( g) f g a g( f) d \barMin
     c \mark\sipka d f e d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Bo -- že náš,
+    ty nás mů -- žeš vy -- svo -- bo -- dit
+    z_ru -- kou ná -- sil -- ní -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e( f d) \barMin c e d \barMaior
+    f f f( g) f g a g( f) d \barMin
+    \mark\sipka e c e f d d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Bo -- že náš,
