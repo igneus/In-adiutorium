@@ -108,7 +108,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g a a a b( a) a \barMin a g a g g e4. \barFinalis
+    e4 g a a g b( a) a \barMin a g a g g e \barFinalis
   }
   \addlyrics {
     Ne -- vzda -- luj od nás, Pa -- ne, své mi -- lo -- sr -- den -- ství.

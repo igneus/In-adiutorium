@@ -159,8 +159,46 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 g a a a b( a) a \barMin a g a g g e4. \barFinalis
+  }
+  \addlyrics {
+    Ne -- vzda -- luj od nás, Pa -- ne, své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g a a \mark\sipka g b( a) a \barMin a g a g g e \barFinalis
+  }
+  \addlyrics {
+    Ne -- vzda -- luj od nás, Pa -- ne, své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g b( a) a \barMin a \mark\sipka f e d e e \barFinalis
   }
   \addlyrics {
     Ne -- vzda -- luj od nás, Pa -- ne, své mi -- lo -- sr -- den -- ství.
