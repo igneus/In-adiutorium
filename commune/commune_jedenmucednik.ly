@@ -713,6 +713,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 116-II"
+    placet = "_zahrne_ nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -735,6 +736,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Zj 4"
+    placet = "tíhne možná spíš k VII. modu"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

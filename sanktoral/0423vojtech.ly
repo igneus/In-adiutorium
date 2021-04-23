@@ -129,6 +129,7 @@
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "lépe"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -221,6 +222,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "aleluja lépe"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
