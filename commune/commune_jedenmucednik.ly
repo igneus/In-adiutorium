@@ -708,6 +708,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "D"
