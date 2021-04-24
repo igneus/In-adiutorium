@@ -213,6 +213,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c a c( d) c \barMin
+    c a g f g a c( d c) c \barMaior
+    f e( d c) \barMin
+    c d c c a g f g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den
+    za -- zá -- ří ve -- li -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
