@@ -66,6 +66,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Flp 2"
+    placet = "zejména první půlku lépe"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

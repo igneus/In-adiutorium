@@ -50,6 +50,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Mdr 9"
+    placet = "běžnější/uměřenější aleluja"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
