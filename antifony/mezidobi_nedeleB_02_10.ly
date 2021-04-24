@@ -573,6 +573,7 @@ o slabiku později.}
     a -- ne -- bo za -- bít?
   }
   \header {
+    textus_approbatus = "Smí se v sobotu jednat dobře, anebo zle? Život zachránit, anebo zabít?"
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"

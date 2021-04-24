@@ -482,6 +482,8 @@
     Kaž -- dý strom se po -- zná po vlast -- ním o -- vo -- ci.
   }
   \header {
+    textus_approbatus = "Dobrý strom nemůže nést špatné ovoce, ani špatný strom dobré ovoce.
+    Každý strom se pozná po vlastním ovoci."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
@@ -660,6 +662,7 @@
     Bůh na -- vští -- vil svůj lid.
   }
   \header {
+    textus_approbatus = "Veliký prorok povstal mezi námi a Bůh navštívil svůj lid."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"

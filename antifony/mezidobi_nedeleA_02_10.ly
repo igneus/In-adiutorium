@@ -597,16 +597,18 @@
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich ne -- jed -- ná,
-    % orig: po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
     po -- do -- bá se mu -- ži po -- še -- ti -- lé -- mu,
     kte -- rý si po -- sta -- vil dům na pís -- ku.
   }
   \header {
+    textus_approbatus = "Kdo má slova slyší, ale podle nich nejedná,
+    podobá se pošetilému muži, který si postavil dům na písku."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "pokud možno upravit na oficiální text"
     id = "ne9a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

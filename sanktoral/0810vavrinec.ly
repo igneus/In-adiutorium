@@ -247,6 +247,7 @@ o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
     je jas -- ná ja -- ko den.
   }
   \header {
+    textus_approbatus = "Svatý Vavřinec řekl: Moje noc není temná, ale je jasná jako den."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "g"

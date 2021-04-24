@@ -957,6 +957,7 @@
       a tím zje -- vil svou slá -- vu.
     }
     \header {
+      textus_approbatus = "V galilejské Káně Ježíš učinil počátek všech znamení, a tím zjevil svou slávu."
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "a"

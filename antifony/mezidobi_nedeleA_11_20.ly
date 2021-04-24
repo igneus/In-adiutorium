@@ -236,13 +236,15 @@
   }
   \addlyrics {
     Ve -- le -- bím tě, Ot -- če,
-    Pa -- ne ne -- be i ze -- mě,
+    Pa -- ne ne -- be a ze -- mě,
     že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
     skryl před moud -- rý -- mi
-    a od -- ha -- lils % --lil jsi
+    a od -- ha -- lils
     je ma -- lič -- kým.
   }
   \header {
+    textus_approbatus = "Velebím tě, Otče, Pane nebe a země,
+    že jsi tajemství Božího království skryl před moudrými a odhalil jsi je maličkým."
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
@@ -411,6 +413,8 @@
     až se všech -- no pro -- kva -- si -- lo.
   }
   \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G*"

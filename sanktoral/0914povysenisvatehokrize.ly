@@ -234,6 +234,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Svatý kříži, ty jediný jsi byl hoden nést Krále a Pána nebe. Aleluja."
     quid = "3. ant."
     modus = "I"
     differentia = "D"

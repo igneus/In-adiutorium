@@ -27,6 +27,7 @@
     z_mrt -- vých vstal. % zda se mi zpevnejsi
   }
   \header {
+    textus_approbatus = "Hledám toho, který pro nás zemřel, toužím po tom, který pro nás vstal z mrtvých."
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "c"

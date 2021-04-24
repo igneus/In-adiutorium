@@ -522,6 +522,8 @@
     od -- vá -- dět vý -- tě -- žek.
   }
   \header {
+    textus_approbatus = "Pán vinice zlosyny zahubí
+    a vinici pronajme jiným vinařům, kteří mu budou ve svůj čas odvádět výtěžek."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
