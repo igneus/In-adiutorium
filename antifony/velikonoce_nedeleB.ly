@@ -93,7 +93,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a b) b4.( c) \barMin c4 c( b) g( a g) g \barMaior
+    c4 a c b g( a g) g \barMaior
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior

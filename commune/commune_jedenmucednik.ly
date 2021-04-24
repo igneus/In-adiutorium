@@ -779,7 +779,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( c) a( c) c \barMin d d d c b a \barMaior
+    g4 g a( c) c c \barMin d d d c b a \barMaior
     a a( b a) b( c) g g \barMin  f g a g g \barFinalis
   }
   \addlyrics {
@@ -791,7 +791,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_dosáhli_ zní značně nepřirozeně, je to násilný pokus o zvukomalbu"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

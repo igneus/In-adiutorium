@@ -150,9 +150,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a b) b4.( c) \barMin c4 c( b) g( a g) g \barMaior
+    g( a) f g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a) a( g) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř dob -- rý.
+    Dob -- rý pas -- týř
+    dá -- vá
+    za ov -- ce svůj ži -- vot.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 a c b g( a g) g \barMaior
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior
