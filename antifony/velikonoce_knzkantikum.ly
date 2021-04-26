@@ -133,7 +133,7 @@ velikTIIpondeliNespAntIII = \score {
     \choralniRezim
     c4 c c b( a) g g f( e) f f g g \barMaior
     g g g( c b) b( c a4. g) a4 b a( g) g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Všich -- ni jsme dos -- ta -- li_* z_je -- ho pl -- nos -- ti,
