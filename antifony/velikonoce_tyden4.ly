@@ -119,6 +119,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-II"
+    placet = "lépe"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -334,6 +335,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "závěr lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

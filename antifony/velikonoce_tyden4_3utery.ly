@@ -49,6 +49,7 @@
     modus = "VII"
     differentia = "b"
     psalmus = "Dan 3-II"
+    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -71,6 +72,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 144-I"
+    placet = "lépe"
     id = "rch-a3"
     fial = "antifony/tyden4_5ctvrtek.ly#ne-ant1?upraveno"
     piece = \markup {\sestavTitulek}
