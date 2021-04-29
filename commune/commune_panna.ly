@@ -729,6 +729,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -909,6 +910,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "velikonoční závěr lépe"
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

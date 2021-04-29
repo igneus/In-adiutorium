@@ -443,6 +443,7 @@
     differentia = "E"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
+    placet = "závěr lépe"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

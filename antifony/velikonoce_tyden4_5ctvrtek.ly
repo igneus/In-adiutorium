@@ -23,6 +23,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
+    placet = "aleluja jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
