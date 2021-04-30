@@ -161,6 +161,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c a b c d d( c) d4.( c) \barMin
     c4 d( c d) c( b) a g a( g) g \barMaior
@@ -178,6 +179,29 @@
     psalmus = "Žalm 147-II"
     id = "rch-a3"
     fial = "antifony/tyden4_7sobota.ly#up-ant3?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a g c b a b \barMaior
+    b c c a g a( g) f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém,_*
+    jak se -- stu -- pu -- je z_ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147-II"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -54,9 +54,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c a b c d d( c) d4.( c) \barMin
-    c4 d( c d) c( b) a g a( g) g \barMaior
-    g g( a) g g \barFinalis
+    g4 g g g a g c b a b \barMaior
+    b c c a g a( g) f \barMin
+    g a g g \barFinalis
   }
   \addlyrics {
     U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém,_*
@@ -65,12 +65,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 147-II"
-    placet = "přetížená - takhle krátký text ten citát melodie z delší antifony podobného znění neunese"
     id = "rch-a3"
-    fial = "antifony/tyden4_7sobota.ly#up-ant3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

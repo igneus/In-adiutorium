@@ -131,6 +131,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a f g a a \barMin a( g) f a( g) f \barMaior
     g g g g g( a) g( f) f \barMin
@@ -148,7 +149,33 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "lépe"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a f g a a \barMin a( g) f \mark\sipka g( f) f \barMaior
+    g g g g g( a) g( f) f \barMin
+    \mark\sipka f e c e f d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- rá -- tí -li se hříš -- ník od svých hří -- chů,
+    ne -- bu -- de se vzpo -- mí -- nat
+    na je -- ho ne -- pra -- vos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

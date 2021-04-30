@@ -35,10 +35,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f g a a \barMin a( g) f a( g) f \barMaior
+    a4 g a f g a a \barMin a( g) f g( f) f \barMaior
     g g g g g( a) g( f) f \barMin
-    d d d d( e f) d( c) c( d) d \barMaior
-    c d( e) e( d) d \barFinalis
+    f e c e f d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -li se hříš -- ník od svých hří -- chů,
@@ -51,7 +51,6 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "lépe"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
