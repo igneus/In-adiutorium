@@ -167,6 +167,7 @@ velikTIIuteryNespAntIII = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Zj 4"
+    placet = "aleluja jinak"
     id = "t2-ut"
     piece = \markup {\sestavTitulek}
   }

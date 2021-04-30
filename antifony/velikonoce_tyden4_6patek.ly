@@ -68,6 +68,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 147-II"
+    placet = "přetížená - takhle krátký text ten citát melodie z delší antifony podobného znění neunese"
     id = "rch-a3"
     fial = "antifony/tyden4_7sobota.ly#up-ant3?zacatek"
     piece = \markup {\sestavTitulek}
