@@ -154,7 +154,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f d d f e d( e) d( c) \barMaior
     d d c a c( d) d \barMin
@@ -172,6 +172,33 @@
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c d d e d c( d) d \barMin
+    e f e d c( d) d \barMaior
+    d d d c b c( a) g g \barMin
+    f g a a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Věr -- ným pl -- ně -- ním po -- vin -- nos -- tí
+    se stal sva -- tý Jo -- sef
+    ob -- di -- vu -- hod -- ným pří -- kla -- dem
+    svě -- do -- mi -- té prá -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -201,6 +228,32 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c d e d c d d d \barMaior
+    a d b c a( g) a g \barMin
+    f g a bes
+    c bes a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    vy -- růs -- tal v_do -- mě děl -- ní -- ka
+    a ne -- chal se na -- zý -- vat
+    je -- ho sy -- nem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
