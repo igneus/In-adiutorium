@@ -44,7 +44,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
       %V
       \neviditelna f
-      f f f f f( g f) e g a \barMax
+      f f f f f e g a \barMax
       \neviditelna a
       \respVIalelujaResponsum \barFinalis
 
@@ -105,7 +105,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
       % R
       \neviditelna d
-      f4 f f e e( g) f \barMin f f f f e g a \barMax
+      f4 f f f g f \barMin f f f f e g a \barMax
       \respVIalelujaResponsum \barFinalis
 
       % V
@@ -179,7 +179,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
       %V
       \neviditelna f
-      f f f f f g f g a a \barMax
+      f f f f f f e g a a \barMax
       \neviditelna d
       \respVIalelujaResponsum \barFinalis
 

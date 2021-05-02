@@ -198,6 +198,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       %R
@@ -226,6 +227,43 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       piece = "neděle - ranní chvály (VI)"
     }
   }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      %R
+      \neviditelna f
+      f4 f f f f f f g f \barMin f f e g a a \barMax
+      \respVIalelujaResponsum \barFinalis
+
+      %V
+      \neviditelna f
+      f f f f \mark\sipka f e g a \barMax
+      \neviditelna a
+      \respVIalelujaResponsum \barFinalis
+
+      % Slava
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,
+      smi -- luj se nad ná -- mi._*
+      \textRespAleluja
+      \Verse Ty, kte -- rýs byl vzkří -- šen z_mrt -- vých._*
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ne-rch"
+      piece = "neděle - ranní chvály (VI)"
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
@@ -292,7 +330,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -318,6 +356,41 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna d
+      f4 f f \mark\sipka f g f \barMin f f f f e g a \barMax
+      \respVIalelujaResponsum \barFinalis
+
+      % V
+      \neviditelna f
+      f f f f f f f f f e g a \barMax
+      % R
+      \neviditelna f
+      \respVIalelujaResponsum \barFinalis
+
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Pří -- mluv -- ce, Duch sva -- tý, ten vás na -- u -- čí
+      vše -- mu._*
+      \textRespAleluja
+      \Verse Při -- po -- me -- ne vám vše -- chno, co jsem vám ře -- kl._*
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "odnanebevstoupeni-ne"
       piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
     }
   }
@@ -354,8 +427,11 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       %R
@@ -380,6 +456,40 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
       \textRespDoxologie
     }
     \header {
+      piece = "pondělí až první nešpory neděle - nešpory (VI)"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      %R
+      \neviditelna d
+      f4 f g f f f f e g a \barMax
+      \respVIalelujaResponsum \barFinalis
+
+      %V
+      \neviditelna f
+      f f f f f \mark\sipka f e g a a \barMax
+      \neviditelna d
+      \respVIalelujaResponsum \barFinalis
+
+      % Slava
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Pán se u -- ká -- zal svým u -- če -- dní -- kům._*
+      \textRespAleluja
+      \Verse Vi -- dě -- li ho a ra -- do -- va -- li se.
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ferie-ne"
       piece = "pondělí až první nešpory neděle - nešpory (VI)"
     }
   }
