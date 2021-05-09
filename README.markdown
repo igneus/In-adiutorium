@@ -43,7 +43,7 @@ LilyPond 2.19.x is currently being used in development.
 
 - `/` chants from the ordinary, psalter and proper of seasons (temporale)
 - `/antifony`, `/invitatoria` partial files for some of the larger materials in `/`
-- `/antifonar` complete books and booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
+- `/antifonar` books and booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
 - `/commune` chants from the common of saints
 - `/hymny` some hymns (mainly hymns not yet included in the official printed hymnal - otherwise hymns are mostly out of the project's scope)
 - `/sanktoral` chants from the proper of saints
@@ -52,9 +52,10 @@ LilyPond 2.19.x is currently being used in development.
 ### Additional musical content
 
 - `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
+- `/nechoral` pieces of character other than plainchant
 - `/paraliturgicke` chants for paraliturgical use, not taken from official liturgical books
 - `/reholni` some random chants proper to various institutes of consecrated life
-- `/rytmicke` pieces of character other than plainchant, mostly attempts of rythmical psalm settings with guitar accompaniment
+- `/rytmicke` mostly attempts of rythmical psalm settings with guitar accompaniment
 
 ### Project internals
 
