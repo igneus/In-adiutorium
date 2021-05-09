@@ -30,6 +30,26 @@ To hide them, compile the .ly files with point-and-click disabled:
 
 `lilypond -dno-point-and-click FILE.ly`
 
+If you are using [Frescobaldi](https://frescobaldi.org/), there is the
+`LilyPond > Engrave (publish)` menu item for this.
+
 ## LilyPond version
 
 LilyPond 2.19.x is currently being used in development.
+
+## Contents
+
+- `/` chants from the ordinary, psalter and proper of seasons (temporale)
+- `/antifony`, `/invitatoria` partial files for some of the larger materials in `/`
+- `/antifonar` complete books and booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
+- `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
+- `/commune` chants from the common of saints
+- `/hymny` some hymns (mainly hymns not yet included in the official printed hymnal - otherwise hymns are mostly out of the project's scope)
+- `/nastroje` Ruby scripts automating various tasks of the project (at the top of each one there is usually a comment explaining what it is good for)
+- `/paraliturgicke` chants for paraliturgical use, not taken from official liturgical books
+- `/psalmodie` psalm tone patterns for use with our custom typesetting tools
+- `/reholni` some random chants proper to institutes of consecrated life
+- `/rytmicke` pieces of character other than plainchant, mostly attempts of rythmical psalm settings with guitar accompaniment
+- `/sanktoral` chants from the proper of saints
+- `/spolecne` shared LilyPond definitions
+- `/variationes` sketchbook where chants are being developed; directory structure mirrors `/`
