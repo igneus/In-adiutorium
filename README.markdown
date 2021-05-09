@@ -39,17 +39,30 @@ LilyPond 2.19.x is currently being used in development.
 
 ## Contents
 
+### The core repertory of Czech plainchant for LOTH
+
 - `/` chants from the ordinary, psalter and proper of seasons (temporale)
 - `/antifony`, `/invitatoria` partial files for some of the larger materials in `/`
 - `/antifonar` complete books and booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
-- `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
 - `/commune` chants from the common of saints
 - `/hymny` some hymns (mainly hymns not yet included in the official printed hymnal - otherwise hymns are mostly out of the project's scope)
-- `/nastroje` Ruby scripts automating various tasks of the project (at the top of each one there is usually a comment explaining what it is good for)
-- `/paraliturgicke` chants for paraliturgical use, not taken from official liturgical books
-- `/psalmodie` psalm tone patterns for use with our custom typesetting tools
-- `/reholni` some random chants proper to institutes of consecrated life
-- `/rytmicke` pieces of character other than plainchant, mostly attempts of rythmical psalm settings with guitar accompaniment
 - `/sanktoral` chants from the proper of saints
 - `/spolecne` shared LilyPond definitions
+
+### Additional musical content
+
+- `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
+- `/paraliturgicke` chants for paraliturgical use, not taken from official liturgical books
+- `/reholni` some random chants proper to various institutes of consecrated life
+- `/rytmicke` pieces of character other than plainchant, mostly attempts of rythmical psalm settings with guitar accompaniment
+
+### Project internals
+
+- `/nastroje` Ruby scripts automating various tasks of the project (at the top of each one there is usually a comment explaining what it is good for)
+- `/psalmodie` psalm tone patterns for use with our custom typesetting tools
 - `/variationes` sketchbook where chants are being developed; directory structure mirrors `/`
+
+## See also
+
+Repository [Meum intende](https://github.com/igneus/Meum-intende) contains some music for
+Liturgy of the Hours in Czech by other authors.
