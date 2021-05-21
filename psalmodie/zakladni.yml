@@ -54,14 +54,14 @@ IV alt:
   - c d e- {d} d
   - c: d- {c} c
     A: c d e c- {a} a
-    A*: c d e c- {a} ag
+    A*: c d e c- {a} ah
     d: c d e c- {d} d
 V:
   - f a
   - c
   - c- {a} a
   - d- {c} c
-  - a: d- {b} b c- {a} a
+  - a: d- {h} h c- {a} a
 VI:
   - f ga
   - a
