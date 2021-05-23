@@ -110,13 +110,14 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
+    \key f \major
     \choralniRezim
-    g4 f e f e c( d) d \barMin
-    d e d c( a) a \barMaior
-    a( g) a c d b b \barMaior
-    b c b c d e f e d( e f) f4.( e) \barMaior
-    f4( g) f e d d \barFinalis
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
+    e f e f g a bes a g( a bes) bes( a) \barMin
+    g( f) e f d d \barFinalis
   }
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
@@ -127,11 +128,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "1ne-amag"
-    placet = "~ je to fakt II? Závěr zní trochu cize."
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

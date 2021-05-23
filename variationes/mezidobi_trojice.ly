@@ -426,6 +426,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f e f e c( d) d \barMin
     d e d c( a) a \barMaior
@@ -491,6 +492,34 @@
     d( c) d f g e e \barMin
     e f e f g a bes a g( a bes) bes( a) \barMin
     g( a g) f e d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 f f \mark\sipka g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
+    e f e f g a bes a g( a bes) bes( a) \barMin
+    \mark\sipka g( f) e f d d \barFinalis
   }
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
