@@ -253,6 +253,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a f( g) g \barMaior
+    a c b( g) g \barMin \mark\sipka g( a) f e d( e) e \barMax
+    %f( e) g a g( a) a \barMin a b c c( d c) b a( g) f( g) g \barMaior
+    %g a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -319,6 +343,34 @@
     a4 a g c b c( a) a \barMin
     a a g( e) e f e f d e e \barMax
     f g a a a g( a) a \barMaior
+    a( b) c b( a) a b( a) g a( e) e \barMaior
+    e d e f f g d d \barMin e f f( e) e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mám ta -- ké ji -- né ov -- ce,
+    kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
+    Ta -- ké ty mu -- sím při -- vést;
+    u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g c b c( a) a \barMin
+    a a g( e) e f e f d e e \barMaior
+    f g a a a g( a) a \barMax
     a( b) c b( a) a b( a) g a( e) e \barMaior
     e d e f f g d d \barMin e f f( e) e \barMaior
     f d d( e) e \barFinalis

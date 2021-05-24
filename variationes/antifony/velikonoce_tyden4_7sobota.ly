@@ -373,6 +373,66 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a4. g \barMin a4 g f \mark\sipka g( a g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ex 36"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c \barMin c a b a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ex 36"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d b c a( g) g \barMin
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ex 36"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -418,6 +418,29 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c c d e d c( d) d( c) c \barMaior
+    d c( d a4.) a \barMin f4 g g( a) a \barMaior
+    c bes( g) \mark\sipka g( a) a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus
+    je je -- di -- ný Pa -- nov -- ník,
+    Král krá -- lů a Pán pá -- nů.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 132-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
