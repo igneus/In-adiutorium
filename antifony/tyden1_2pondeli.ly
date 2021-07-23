@@ -270,6 +270,7 @@ tIpondeliNespAntIII = \score {
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1"
+    placet = "ozdoba na _přijal_ a frázování divné"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

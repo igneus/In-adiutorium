@@ -323,6 +323,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "lépe"
     id = "ne15b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -347,6 +348,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "lépe"
     id = "ne15b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

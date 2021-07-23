@@ -253,6 +253,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 124"
+    placet = "neobvyklý divoký závěr, zbytečný rozsah"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

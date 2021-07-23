@@ -44,7 +44,7 @@ tIpondeliAntMagnificat = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "pořád to není ono"
+    placet = "pořád to není ono; _služebnici_ jinak"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
