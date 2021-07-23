@@ -444,8 +444,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a f( g a) b c c \barMaior
     c c d( e d) c( d) d( c) c( a) \barMin f( g a) a( g) g \barFinalis
@@ -468,6 +471,61 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d c e( d) d \barMaior
+    e d c d a a \barMin
+    c( b) a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dá -- val sí -- lu;
+    bu -- de po -- žeh -- ná -- na
+    na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e( d) d \barMaior
+    e d c d \mark\sipka c c \barMin
+    b( c) a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dá -- val sí -- lu;
+    bu -- de po -- žeh -- ná -- na
+    na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -770,8 +828,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( e) e g f e d( e) d d \barMaior
     f g a a g e \barMin f f e c c( d) d \barFinalis
@@ -788,6 +849,34 @@
     quid = "2. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Žalm 127"
+    placet = "zejména závěr je nezpěvný, ale už druhá část je divná"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( e) e g f e d( e) d d \barMaior
+    f g a a \mark\sipka b g \barMin
+    a g f e d( e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja g e e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko pev -- né zá -- kla -- dy na ská -- le
+    jsou pří -- ka -- zy Pá -- ně
+    v_srd -- ci sva -- té že -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 127"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}

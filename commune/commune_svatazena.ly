@@ -366,14 +366,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a f( g a) b c c \barMaior
-    c c d( e d) c( d) d( c) c( a) \barMin f( g a) a( g) g \barFinalis
+    c4 c d c e( d) d \barMaior
+    e d c d a a \barMin
+    c( b) a( g) g \barFinalis
 
-    b^\markup\rubrVelikAleluja c( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bůh jí dá -- val sí -- lu;
-    bu -- de po -- žeh -- ná -- na na -- vě -- ky.
+    bu -- de po -- žeh -- ná -- na
+    na -- vě -- ky.
 
     A -- le -- lu -- ja.
   }
@@ -382,7 +384,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "v začátku slyším jednu irskou baladu a _požehnána_ je neelegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -622,22 +623,23 @@
   \relative c'' {
     \choralniRezim
     a4 a a( e) e g f e d( e) d d \barMaior
-    f g a a g e \barMin f f e c c( d) d \barFinalis
+    f g a a b g \barMin
+    a g f e d( e) e \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+    f^\markup\rubrVelikAleluja g e e \barFinalis
   }
   \addlyrics {
     Ja -- ko pev -- né zá -- kla -- dy na ská -- le
-    jsou pří -- ka -- zy Pá -- ně v_srd -- ci sva -- té že -- ny.
+    jsou pří -- ka -- zy Pá -- ně
+    v_srd -- ci sva -- té že -- ny.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 127"
-    placet = "zejména závěr je nezpěvný, ale už druhá část je divná"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
