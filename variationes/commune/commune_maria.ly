@@ -3833,7 +3833,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 g a c c \barMin
@@ -3841,6 +3841,33 @@ začátkem v jednom oficiu patřily k různým modům.
     d c c \barMin
     d f e d c c \barMaior
     c c a g bes a g f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha,
+    me -- zi vše -- mi že -- na -- mi na ze -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "sob-aben2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 g a c c \barMin
+    d c bes c c \barMaior
+    d c c \barMin
+    d f e d c c \barMaior
+    c c a g bes a g f( g) \mark\sipka f f \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
