@@ -571,7 +571,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( a') a \barMin bes bes bes bes c c bes c a a \barMaior
@@ -580,6 +580,36 @@
     \mark\sipka f f \barMin f d f4. e \barMaior
     f4 g g( a) a g f g f e \barMin
     d e e( f e) d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš u -- vi -- děl svou mat -- ku ve -- dle kří -- že
+    a to -- ho u -- čed -- ní -- ka, kte -- ré -- ho měl rád,
+    ře -- kl mat -- ce:
+    Že -- no, to je tvůj syn.
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    To je tvá mat -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d( a') a \barMin bes bes bes bes c c bes c a a \barMaior
+    g f g g a a a g g f g e \barMin
+    e f e( d) d \barMax
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d \mark\sipka c d( f e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl svou mat -- ku ve -- dle kří -- že

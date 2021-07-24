@@ -642,9 +642,9 @@
     f4-- f e d e( d) d \barMaior
     f f \barMin f d f4. e \barMaior
     f4 g g( a) a g f g f e \barMin
-    d e e( f e) d d \barFinalis
+    d c d( f e) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Pán ře -- kl své mat -- ce:
@@ -656,8 +656,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/0915pmbolestne.ly#ne-amag?cast&upraveno"
     id = "nona"

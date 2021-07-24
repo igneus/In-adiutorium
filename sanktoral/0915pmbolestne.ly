@@ -283,7 +283,7 @@
     e f e( d) d \barMax
     f f \barMin f d f4. e \barMaior
     f4 g g( a) a g f g f e \barMin
-    d e e( f e) d d \barFinalis
+    d c d( f e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl svou mat -- ku ve -- dle kří -- že

@@ -2349,7 +2349,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4-- f e d e( d) d \barMaior
     f f \barMin f d f4. e \barMaior
@@ -2370,6 +2370,38 @@ je "\"skororepetice\"" melodie 2 v 4.}
     quid = "ant. odpoledne"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    fial = "sanktoral/0915pmbolestne.ly#ne-amag?cast&upraveno"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4-- f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d \mark\sipka c d( f e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f \mark\sipka d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl své mat -- ce:
+    Že -- no, to je tvůj syn.
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    To je tvá mat -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/0915pmbolestne.ly#ne-amag?cast&upraveno"
     id = "nona"
