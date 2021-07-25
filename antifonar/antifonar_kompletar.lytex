@@ -102,9 +102,15 @@ a na Bílou sobotu se antifona zpívá celá.}
 \rubrika{Během Velikonočního tridua a Velikonočního oktávu se místo
 responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
-\rubrika{Mimo dobu velikonoční:}
+\rubrika{Mimo dobu adventní a velikonoční:}
 
 \lilypondfile{generovane/kompletar/kompletar_resp.ly}
+
+\rubrika{V době adventní:}
+
+\lilypondfile{generovane/kompletar/kompletar_resp-adv.ly}
+
+\newpage % ZLOM
 
 \rubrika{V době velikonoční:}
 
@@ -204,9 +210,6 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \pagebreak
 \pagestyle{empty}
-\mbox{}
-\pagebreak
-
 \tiraz
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
