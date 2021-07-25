@@ -69,6 +69,7 @@ která je u něj uvedena.}
 
 \newpage % ZLOM
 
+\phantomsection%
 \label{respantifony}
 \nadpisTypTextu{Antifony zpívané místo responsoria}
 
@@ -85,6 +86,7 @@ a na Bílou sobotu se antifona zpívá celá.}
 
 \newpage % ZLOM
 
+\phantomsection%
 \label{responsorium}
 \nadpisTypTextu{Responsorium}
 
