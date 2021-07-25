@@ -419,10 +419,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"17. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 c d d( a') g f d( a' bes) a \barMaior
@@ -451,10 +454,64 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 c d d( a') g f \mark\sipka g( a) a \barMaior
+    a g a a \barMin a \mark\sipka a a a( bes) a g g( a g) f g g \barMaior
+    g g f e d d \barMax
+    d d( a' bes) a g a g( f) f \barMin
+    f f f f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš po -- zdvi -- hl o -- či
+    a u -- vi -- děl, jak k_ně -- mu při -- chá -- zí vel -- ký zá -- stup,
+    ře -- kl Fi -- li -- po -- vi:
+    Kde na -- kou -- pí -- me chle -- ba,
+    a -- by se ti li -- dé na -- jed -- li?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne17b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g( a) a \barMaior
     g( a) g( f d) d \barMin
     c d f f f e( f) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by,
+    vzdal dí -- ky
+    a roz -- dě -- lil je se -- dí -- cím.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    placet = "ne právě uspokojivý závěr"
+    id = "ne17b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f \mark\sipka g g( a) a \barMaior
+    g( a) g( f d) d \barMin
+    c d f f f \mark\sipka g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal chle -- by,
@@ -472,7 +529,33 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    g( f) g( a g) g \barMin
+    g a g f d f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by,
+    vzdal dí -- ky
+    a roz -- dě -- lil je se -- dí -- cím.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne17b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 b a c b a b g g \barMin
     g a g f f g g \barMin g( a) a( c) c \barMaior
@@ -494,6 +577,81 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( a') g f g a a \barMin
+    a a g f g f e d( e) d d \barMaior
+    a' g bes a g g( a) a \barMin
+    a g f g( a g) f d d \barFinalis
+  }
+  \addlyrics {
+    Když li -- dé vi -- dě -- li zna -- me -- ní,
+    kte -- ré Je -- žíš u -- dě -- lal, ří -- ka -- li:
+    To je jis -- tě ten pro -- rok,
+    kte -- rý má při -- jít na svět!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne17b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 g a a g f g a a \barMin
+    a a g f g f e d( e) d d \barMaior
+    a' g bes a g g( a) a \barMin
+    a g f g( a \mark\sipka f) e d d \barFinalis
+  }
+  \addlyrics {
+    Když li -- dé vi -- dě -- li zna -- me -- ní,
+    kte -- ré Je -- žíš u -- dě -- lal, ří -- ka -- li:
+    To je jis -- tě ten pro -- rok,
+    kte -- rý má při -- jít na svět!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne17b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( a') g f g a a \barMin
+    a a g f g f e d( e) d d \barMaior
+    a' g bes a g g( a) a \barMin
+    a g f \mark\sipka g( f e) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když li -- dé vi -- dě -- li zna -- me -- ní,
+    kte -- ré Je -- žíš u -- dě -- lal, ří -- ka -- li:
+    To je jis -- tě ten pro -- rok,
+    kte -- rý má při -- jít na svět!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne17b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"18. neděle"}}
 

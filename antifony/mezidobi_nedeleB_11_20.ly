@@ -428,8 +428,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 c d d( a') g f d( a' bes) a \barMaior
-    a g a a \barMin a g a a( bes) a g g( a g) f g g \barMaior
+    d4 c d d( a') g f g( a) a \barMaior
+    a g a a \barMin a a a a( bes) a g g( a g) f g g \barMaior
     g g f e d d \barMax
     d d( a' bes) a g a g( f) f \barMin
     f f f f g f e( f) d d \barFinalis
@@ -446,7 +446,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "dvojskok f d a na _pozdvihl oči_ se těžko zpívá a působí nepěkně - pryč s ním"
     id = "ne17b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -455,9 +454,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g( a) a \barMaior
-    g( a) g( f d) d \barMin
-    c d f f f e( f) g( f) f \barFinalis
+    f4 f g g( a) a \barMin
+    g( f) g( a g) g \barMin
+    g a g f d f( g) g f \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal chle -- by,
@@ -475,11 +474,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 b a c b a b g g \barMin
-    g a g f f g g \barMin g( a) a( c) c \barMaior
-    c c d c b a( g) g( a) \barMin g f g a( c b) a a( g) g \barFinalis
+    f4 g a a g f g a a \barMin
+    a a g f g f e d( e) d d \barMaior
+    a' g bes a g g( a) a \barMin
+    a g f g( a f) e d d \barFinalis
   }
   \addlyrics {
     Když li -- dé vi -- dě -- li zna -- me -- ní,
@@ -489,10 +489,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "první polovina je příliš dělená, melodie ne právě povedená"
     id = "ne17b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
