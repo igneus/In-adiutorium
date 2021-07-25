@@ -23,7 +23,12 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newcommand{\responsoriumOdkaz}{\rubrika{Responsorium a Simeonovo kantikum, str. \pageref{responsorium}}}
+\newcommand{\responsoriumOdkaz}{\rubrika{Responsorium a Simeonovo kantikum, str. \pageref{responsorium}.}}
+
+\newcommand{\velikAntifona}{%
+  \rubrika{V době velikonoční antifona \upshape{Aleluja}, str. \pageref{velikant}.}}
+\newcommand{\velikAntifonaObaZalmy}{%
+  \rubrika{V době velikonoční se oba žalmy zpívají pod antifonou \upshape{Aleluja}, str. \pageref{velikant}.}}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,6 +49,8 @@
 
 \pagestyle{fancy}
 
+\phantomsection%
+\label{velikant}
 \nadpisTypTextu{Antifona k žalmům v době velikonoční}
 
 \rubrika{Po celou dobu velikonoční se všechny žalmy kompletáře zpívají
@@ -60,6 +67,8 @@ která je u něj uvedena.}
 \pagebreak
 
 \nadpisDen{Neděle po 1. nešporách}
+
+\velikAntifonaObaZalmy
 
 \lilypondfile{generovane/kompletar/kompletar_nei1.ly}
 \input{generovane/kompletar/zalm4.tex}
@@ -129,6 +138,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \nadpisDen{Neděle po 2. nešporách}
 
+\velikAntifona
+
 \lilypondfile{generovane/kompletar/kompletar_neii.ly}
 \input{generovane/kompletar/zalm91.tex}
 
@@ -136,6 +147,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \newpage % ZLOM
 \nadpisDen{Pondělí}
+
+\velikAntifona
 
 \lilypondfile{generovane/kompletar/kompletar_po.ly}
 \input{generovane/kompletar/zalm86.tex}
@@ -146,6 +159,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \nadpisDen{Úterý}
 
+\velikAntifona
+
 \lilypondfile{generovane/kompletar/kompletar_ut.ly}
 \input{generovane/kompletar/zalm143.tex}
 
@@ -154,6 +169,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \newpage % ZLOM
 
 \nadpisDen{Středa}
+
+\velikAntifonaObaZalmy
 
 \lilypondfile{generovane/kompletar/kompletar_st1.ly}
 \input{generovane/kompletar/zalm31.tex}
@@ -167,6 +184,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \nadpisDen{Čtvrtek}
 
+\velikAntifona
+
 \lilypondfile{generovane/kompletar/kompletar_ct.ly}
 \input{generovane/kompletar/zalm16.tex}
 
@@ -175,6 +194,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \newpage % ZLOM
 
 \nadpisDen{Pátek}
+
+\velikAntifona
 
 \lilypondfile{generovane/kompletar/kompletar_pa.ly}
 \input{generovane/kompletar/zalm88.tex}
