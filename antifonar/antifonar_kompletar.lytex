@@ -116,14 +116,12 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
 
-\newpage % ZLOM
-
 \nadpisTypTextu{Simeonovo kantikum}
 
 \lilypondfile{generovane/kompletar/kompletar_sim.ly}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
 
-\vspace{1cm}
+\newpage % ZLOM
 
 \nadpisTypTextu{Závěrečné mariánské antifony}
 
@@ -131,8 +129,6 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
   pro tento účel jsou v hymnáři.}
 
 \lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
-
-\newpage % ZLOM
 
 \lilypondfile{generovane/kompletar/marianske_antifony_salve.ly}
 
