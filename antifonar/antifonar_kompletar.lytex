@@ -125,14 +125,13 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \nadpisTypTextu{Závěrečné mariánské antifony}
 
-\rubrika{Latinské antifony a české písně schválené
-  pro tento účel jsou v hymnáři.}
+\rubrika{Latinské antifony a české písňové parafráze jsou v hymnáři.}
 
-\lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
+\lilypondfile{generovane/kompletar/marianske_antifony_alma.ly}
 
 \lilypondfile{generovane/kompletar/marianske_antifony_salve.ly}
 
-\vspace{6mm}
+\lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
 
 \lilypondfile{generovane/kompletar/marianske_antifony_avemaria.ly}
 
