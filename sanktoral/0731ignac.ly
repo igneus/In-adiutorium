@@ -15,7 +15,7 @@
     \choralniRezim
     c4 b c d( e c) a b( a) a \barMaior
     g \[ a( c b \] \[ c4. d) \] \barMin c4 c d c e( d) d \barMaior
-    c c( d c) c( b a) \barMin g f g a a g g \barFinalis
+    c c( d c) c( b a) \barMin a g f g a g g \barFinalis
   }
   \addlyrics {
     Kéž mo -- hu po -- znat Kris -- ta
@@ -35,8 +35,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f( g) f f f( e) d d \barMaior
-    d c( d e f) f \barMin g( f) g g( f) \barMaior
+    f4 f( g) f e f d d \barMaior
+    d c( d e f) f g( f) g g( f) \barMaior
     g g g( a) f d e( f d) d \barFinalis
   }
   \addlyrics {
