@@ -614,7 +614,7 @@
     pro český text. (Mírně ztrátová - některé melodické ozdoby nebylo
     lze smysluplně převést; místy je v jednom verši řečeno to, co je v latině
     rozděleno do dvou. Text je doslovně převzat z českého překladu
-    breviáře, ale dělení na verše je místy upraveno podle latinské předlohy.):
+    breviáře, ale dělení na verše je místy upraveno podle latinské předlohy.)
   }
 
   \score {
@@ -747,7 +747,7 @@
     mariánských "antifon.\")." Jediné závazné ustanovení určuje,
     aby se v době velikonoční vždy zpívala antifona
     \italic{Regina caeli}
-    (\italic{Všeobecný úvod k Denní modlitbě církve}, odst. 92).
+    (\italic{Všeobecné pokyny k Denní modlitbě církve}, odst. 92).
   }
   \markup\justify{
     2. Dříve platné přiřazení bylo:
