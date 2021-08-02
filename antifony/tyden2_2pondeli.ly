@@ -163,7 +163,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ו"
-    placet = "_kdo_ by nemělo být odsazené"
+    placet = "_kdo_ by nemělo být odsazené; upravit na oficiální text"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -243,6 +243,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 45-II"
+    placet = "moc úsečná"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
