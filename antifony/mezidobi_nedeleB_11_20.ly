@@ -539,6 +539,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "závěr nesedí (a není to jen tím, že mám v paměti stále zažraný ten původní)"
     id = "ne18b-rch-ben"
     fial = "antifony/velikonoce_tyden3.ly#ut-aben?-aleluja&upraveno"
     piece = \markup {\sestavTitulekBezZalmu}

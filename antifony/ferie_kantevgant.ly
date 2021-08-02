@@ -232,6 +232,7 @@ tIpatekAntMagnificat = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "antifona zpívaná co dva týdny by měla být lepší"
     id = "t1-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
