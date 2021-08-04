@@ -33,10 +33,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( bes) a g g \barMaior
     \mark\sipka g a g f e d f g a g \barMin
+    f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- ří -- ká -- me
+    a o -- če -- ká -- vá -- me vy -- kou -- pe -- ní
+    na -- še -- ho tě -- la.
+
+    % velikonocni aleluja v breviari neni
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 39-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( bes) a g g \barMin
+    g a g f e d f g a g \barMaior
     f e c c( d) d \barFinalis
   }
   \addlyrics {
