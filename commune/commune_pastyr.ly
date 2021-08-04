@@ -420,14 +420,14 @@
     \neviditelna a
     a4 a( e) f( e) d \barMin e( f) g f e e \barMaior
     f g a bes a g( a) a \barMax
-    a a \[ a( bes a \] \[ g a g) \] f f( g) f( e) e \barFinalis
+    a a \[ a( bes a \] \[ g a g) \] \barMin f f( g) f( e) e \barFinalis
     % V
     \neviditelna a
     a4 a a( e) e f e d d \barMin
     f g a bes a g( a) a \barMax
     % R
     \neviditelna a
-    a a \[ a( bes a \] \[ g a g) \] f f( g) f( e) e \barFinalis
+    a a \[ a( bes a \] \[ g a g) \] \barMin f f( g) f( e) e \barFinalis
     % Slava
     a4 a a( bes) a g g( a g) g \barMin f f g g( f) e e \barFinalis
   }
@@ -443,7 +443,6 @@
   \header {
     quid = "resp."
     modus = "IV"
-    placet = "cesura po _bdit_"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -686,7 +685,7 @@
 
     % R
     \neviditelna f
-    f4 f f( g) g( f) \barMin f f f f g f g( a) a( g) \barMax
+    f4 f f f f f f f g f g( a) a( g) \barMax
     g g( f d) f g g( f) f \barFinalis
     % V
     \neviditelna a
@@ -707,8 +706,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "první část repetendy s výraznou repeticí motivu fg gf 
-    je jednak moc líná, jednak působí tak nějak nevážně"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

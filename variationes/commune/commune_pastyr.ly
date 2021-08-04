@@ -577,10 +577,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -610,12 +613,58 @@
   \header {
     quid = "resp."
     modus = "IV"
-    id = ""
+    placet = "cesura po _bdit_"
+    id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a( e) f( e) d \barMin e( f) g f e e \barMaior
+    f g a bes a g( a) a \barMax
+    a a \[ a( bes a \] \[ g a g) \] \mark\sipka \barMin f f( g) f( e) e \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( e) e f e d d \barMin
+    f g a bes a g( a) a \barMax
+    % R
+    \neviditelna a
+    a a \[ a( bes a \] \[ g a g) \] \mark\sipka \barMin f f( g) f( e) e \barFinalis
+    % Slava
+    a4 a a( bes) a g g( a g) g \barMin f f g g( f) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;_*
+    bu -- dou bdít nad mým li -- dem.
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet;_*
+    \Response bu -- dou bdít nad mým li -- dem.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \markup\italic{V době velikonoční:}
+
+\markup\justify{
+  Předlouhé texty krátkých responsorií jsou zlo, předlouhé texty alelujatických
+  responsorií dvojité zlo, a za tenhle předlouhý text vděčíme jen a pouze
+  kreativitě české překladatelské komise.
+}
 
 \score {
   \relative c' {
@@ -651,6 +700,8 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -871,10 +922,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -900,7 +954,42 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    placet = "první část repetendy s výraznou repeticí motivu fg gf
+    je jednak moc líná, jednak působí tak nějak nevážně"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka f f f f f f g f g( a) a( g) \barMax
+    g g( f d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( f d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Do -- brý pas -- týř dá -- vá ži -- vot za své ov -- ce_*
+    a mod -- lí se za ně.
+    \Verse Mi -- lu -- je své brat -- ry_*
+    \Response a mod -- lí se za ně.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
