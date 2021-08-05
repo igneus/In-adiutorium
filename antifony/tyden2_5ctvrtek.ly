@@ -41,16 +41,15 @@
   \relative c'' {
     \choralniRezim
     a4 a e \barMin g f e d e e \barMaior
-    f4 g f e g a g f d e e \barFinalis
+    f4 g f g a g f d e e \barFinalis
   }
   \addlyrics {
     U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
-    ne -- vy -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
+    ne -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
 
     % aleluja v breviari neni
   }
   \header {
-    textus_approbatus = "Ušetři, Hospodine, svůj lid, nedávej v potupu své dědictví."
     quid = "2. ant."
     modus = "IV"
     differentia = "g"

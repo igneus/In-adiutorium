@@ -140,7 +140,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a e \barMin g f e d e e \barMaior
     f4 g f e g a g f \mark\sipka d e e \barFinalis
@@ -153,6 +153,29 @@
   }
   \header {
     textus_approbatus = "Ušetři, Hospodine, svůj lid, nedávej v potupu své dědictví."
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 44-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a e \barMin g f e d e e \barMaior
+    f4 \mark\sipka g f g a g f d e e \barFinalis
+  }
+  \addlyrics {
+    U -- šet -- ři, Hos -- po -- di -- ne, svůj lid,
+    ne -- dá -- vej v_po -- tu -- pu své dě -- dic -- tví.
+
+    % aleluja v breviari neni
+  }
+  \header {
     quid = "2. ant."
     modus = "IV"
     differentia = "g"
