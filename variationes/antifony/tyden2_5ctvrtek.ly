@@ -240,6 +240,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a( g) a f( d) d \barMin e e f g( f) d4. d \barFinalis
   }
@@ -258,10 +259,54 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a( g) a f( d) d \barMin e e f g( f) \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď svou sí -- lu, Pa -- ne, a přijď nás za -- chrá -- nit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 80"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f g a a a bes bes a bes g( f) g4. \barMin
     g4 f g a4. a a4 g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,
+    ať je to zná -- mé po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 12"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 f g a a a bes bes a bes g( f) \mark\sipka g \barMaior
+    g4 f g \mark\sipka a a \barMin a g a g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,

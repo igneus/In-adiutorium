@@ -89,7 +89,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a( g) a f( d) d \barMin e e f g( f) d4. d \barFinalis
+    f4 g a a( g) a f( d) d \barMin e e f g( f) d d \barFinalis
   }
   \addlyrics {
     Pro -- buď svou sí -- lu, Pa -- ne, a přijď nás za -- chrá -- nit.
@@ -108,8 +108,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g a a a bes bes a bes g( f) g4. \barMin
-    g4 f g a4. a a4 g a g( f) f \barFinalis
+    f4 f g a a a bes bes a bes g( f) g \barMaior
+    g4 f g a a \barMin a g a g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,
