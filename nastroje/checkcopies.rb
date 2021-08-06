@@ -42,7 +42,11 @@ class Comparison
   private
 
   def normalize(music, strip_aeuia)
-    n = music.strip.gsub(/\s+/, ' ')
+    n =
+      music
+        .strip
+        .gsub(/\s+/, ' ')
+        .gsub('^\markup\rubrVelikAleluja', '')
     n = strip_alleluia(n) if strip_aeuia
 
     n
@@ -62,10 +66,9 @@ class Comparison
   end
 end
 
+# Convenient interface for loading parsed music
 class MusicRepository
   def initialize
-    # Hash where keys are file paths (relative to the project root) and values are
-    # loaded music files. Missing values are loaded automatically.
     @repo = Hash.new do |hash, key|
       hash[key] = Lyv::LilyPondMusic.new key
     end
@@ -105,6 +108,7 @@ end
 
 
 music_repository = MusicRepository.new
+fial_count = 0
 mismatch_count = 0
 
 ARGV.each do |file_or_fial|
@@ -112,6 +116,8 @@ ARGV.each do |file_or_fial|
     .each_score
     .select {|score| score.header['fial'] }
     .each do |score|
+    fial_count += 1
+
     score_ref = "#{score.src_file}##{score.header['id'] || score.number}"
     parent_ref = score.header['fial']
 
@@ -141,4 +147,4 @@ ARGV.each do |file_or_fial|
 end
 
 puts
-puts "#{mismatch_count} mismatches total"
+puts "#{mismatch_count} mismatches in #{fial_count} fial references checked"
