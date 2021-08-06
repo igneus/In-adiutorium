@@ -1,6 +1,7 @@
 # Accepts file names and/or FIALs as arguments, checks scores
 # with parent references ("fial" header field) if they still match the referenced parent.
 
+require 'optparse'
 require 'tempfile'
 
 require 'lyv'
@@ -28,11 +29,13 @@ end
 
 # Comparison of two scores
 class Comparison
-  def initialize(child, parent)
+  def initialize(child, parent, debug = false)
     @child = child
     @parent = parent
 
     @fial = FIAL.parse @child.header['fial']
+
+    @debug = debug
   end
 
   def match?
@@ -48,6 +51,8 @@ class Comparison
         .gsub(/\s+/, ' ')
         .gsub('^\markup\rubrVelikAleluja', '')
     n = strip_alleluia(n) if strip_aeuia
+
+    p n if @debug
 
     n
   end
@@ -107,11 +112,19 @@ end
 
 
 
+parser = OptionParser.new do |opts|
+  opts.on '-d', '--debug', 'print debugging information'
+  opts.on '-a', '--diff-all', 'print diff for all mismatches'
+end
+
+options = {}
+arguments = parser.parse ARGV, into: options
+
 music_repository = MusicRepository.new
 fial_count = 0
 mismatch_count = 0
 
-ARGV.each do |file_or_fial|
+arguments.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
     .each_score
     .select {|score| score.header['fial'] }
@@ -128,9 +141,10 @@ ARGV.each do |file_or_fial|
       raise
     end
 
-    comparison = Comparison.new score, parent
+    comparison = Comparison.new score, parent, options[:debug]
 
     print "#{score_ref} < #{parent_ref} : "
+    puts if options[:debug]
     if comparison.match?
       puts 'match'
       next
@@ -138,7 +152,7 @@ ARGV.each do |file_or_fial|
 
     puts 'MISMATCH'
     mismatch_count += 1
-    if FIAL.parse(parent_ref).additional.empty?
+    if FIAL.parse(parent_ref).additional.empty? || options[:'diff-all']
       print_diff parent.music, score.music
     else
       # do nothing for now - not a simple copy, needs to be checked by a human
