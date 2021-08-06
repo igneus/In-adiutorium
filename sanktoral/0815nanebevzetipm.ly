@@ -42,17 +42,15 @@
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior
-    g( \[ a g \] \[ b a) \] c( b) c( d) \barMin
-    d d c( d) d c( d c) b g( a) g \barMaior
-
-    g \[ a( g \] \[ b a) \] g( a) g \barFinalis
+    c( d c) b( g) a( g) \barMin
+    f a c c b a g( a) g \barMaior
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la
     ne -- bes -- kou brá -- nu,
     Ma -- ri -- a
     nám ji za -- se o -- te -- vře -- la.
-
     A -- le -- lu -- ja.
   }
   \header {
@@ -620,14 +618,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b( c) a( g) g4. a \barMin f4( g a) a \barMaior
-    a( b) g4. g \barMin a4 g f f f( e) e \barMaior
-    g a a( c) c b( c a4.) a \barMin
+    c4 b( c) a( g) g4. a \barMin
+    f4( g a) a \barMaior
+    a( b) g4. g \barMin
+    a4 g f f f( e) e \barMaior
+    g a c c b( c a4.) a \barMin
     a4( c) c d c b c a g g \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na -- ná jsi, dce -- ro,
-    od Pá -- na, nej -- vyš -- ší -- ho Bo -- ha:
+    Po -- žeh -- na -- ná jsi,
+    dce -- ro,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha:
     skr -- ze te -- be má -- me
     ú -- čast na o -- vo -- ci ži -- vo -- ta.
   }
@@ -636,7 +638,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
-    fial = "commune/commune_maria.ly#1ne-a3"
+    fial = "commune/commune_maria.ly#1ne-a3?-aleluja"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

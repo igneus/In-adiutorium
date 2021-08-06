@@ -37,8 +37,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior
@@ -61,6 +64,36 @@
     differentia = "d"
     psalmus = "Žalm 147-II"
     fons = "společné texty o Panně Marii, ant. k Benedictus"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a g) g \barMaior
+    c( d c) b( g) a( g) \barMin
+    f a c c b a g( a) g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    fial = "commune/commune_maria.ly#rch-aben"
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1125,8 +1158,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 b( c) a( g) g4. a \barMin f4( g a) a \barMaior
     a( b) g4. g \barMin a4 g f f f( e) e \barMaior
@@ -1145,6 +1181,38 @@
     differentia = "c"
     psalmus = "Ef 1"
     fons = "commune o P.M., 1. nešp., 3. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b( c) a( g) g4. a \barMin
+    f4( g a) a \barMaior
+    a( b) g4. g \barMin
+    a4 g f f f( e) e \barMaior
+    g a c c b( c a4.) a \barMin
+    a4( c) c d c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi,
+    dce -- ro,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha:
+    skr -- ze te -- be má -- me
+    ú -- čast na o -- vo -- ci ži -- vo -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    fial = "commune/commune_maria.ly#1ne-a3?-aleluja"
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
