@@ -66,6 +66,11 @@ class FIAL
 
   class << self
     alias :parse :new
+
+    def is_fial?(str)
+      str.start_with?('fial://') ||
+        (str.include?('#') && str !~ %r{^\w+://})
+    end
   end
 
   attr_accessor :path 
