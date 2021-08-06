@@ -139,7 +139,7 @@ ARGV.each do |file_or_fial|
     puts 'MISMATCH'
     mismatch_count += 1
     if FIAL.parse(parent_ref).additional.empty?
-      print_diff score.music, parent.music
+      print_diff parent.music, score.music
     else
       # do nothing for now - not a simple copy, needs to be checked by a human
     end
