@@ -178,13 +178,13 @@
     % R
     \neviditelna f
     f4 f( g) g f g( a) a( g) \barMax
-    g a g( f d) d f( g) g( f) f \barFinalis
+    g a g f f( g) g f \barFinalis
     % V
     \neviditelna a
     a4 a( bes) a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g a g( f d) d f( g) g( f) f \barFinalis
+    g a g f f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -198,7 +198,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "dlouhé melisma na _spl_ nejde zpívat"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }

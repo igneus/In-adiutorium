@@ -615,7 +615,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -628,6 +628,39 @@
     % R
     \neviditelna a
     g a g( f d) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hle, při -- chá -- zím, Pa -- ne,_*
+    a -- bych spl -- nil tvou vů -- li.
+    \Verse Tvůj zá -- kon je v_mém nit -- ru._*
+    \Response A -- bych spl -- nil tvou vů -- li.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f( g) g f g( a) a( g) \barMax
+    g a \mark\sipka g f f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a( bes) a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g a \mark\sipka g f f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
