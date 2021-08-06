@@ -384,7 +384,7 @@
     psalmus = "Dan 3-III"
     id = "rch-a2"
     fons = "spol. texty o P.M., 2. nešp., 3. ant."
-    fial = "fial://commune/commune-maria.ly#2ne-a3"
+    fial = "fial://commune/commune_maria.ly#2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }

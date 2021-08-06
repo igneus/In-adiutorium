@@ -408,7 +408,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
-      fial = "antifony/mezidobi_nedeleB_02_10.ly#ne27b-rch-ben?+aleluja"
+      fial = "antifony/mezidobi_nedeleB_21_30.ly#ne27b-rch-ben?+aleluja"
       id = "vych-ne2-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

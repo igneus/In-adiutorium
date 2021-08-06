@@ -68,7 +68,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Flp 2"
-    fial = "antifony/velikonoce_tyden3#ne-1ne-a3"
+    fial = "antifony/velikonoce_tyden3.ly#ne-1ne-a3"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

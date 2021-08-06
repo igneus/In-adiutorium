@@ -124,7 +124,7 @@
     psalmus = "Žalm 125"
     id = "sexta-ant3"
     fons = "jen začátek podle žaltář, út 3.t., nešp., 1. ant."
-    fial = "antifony/tyden3_3utery#ne-ant1?cast"
+    fial = "antifony/tyden3_3utery.ly#ne-ant1?cast"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -20,7 +20,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 122"
-    fial = "commune_kostel.ly#2ne-a2?-aleluja"
+    fial = "commune/commune_kostel.ly#2ne-a2?-aleluja"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }

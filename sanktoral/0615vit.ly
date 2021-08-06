@@ -57,7 +57,7 @@
     psalmus = ""
     id = "amag"
     fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
-    fial = "sanktoral/0423vojtech.ly?zacatek&jiny_text"
+    fial = "sanktoral/0423vojtech.ly#ne-amag?zacatek&jiny_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

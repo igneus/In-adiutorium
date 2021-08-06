@@ -111,7 +111,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "fial://advent_antifony.ly#predvanocni-zlm-st-a3"
+    fial = "fial://antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-st-a3"
     annus = "C"
     id = "ne3c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
