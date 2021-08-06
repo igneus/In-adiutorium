@@ -289,7 +289,6 @@
       quid = "resp."
       modus = "IV"
       piece = \markup {\sestavTitulekResp}
-      placet = "melisma SVAtému nevím nevím"
       id = "resp-adv"
     }
   }

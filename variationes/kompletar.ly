@@ -762,6 +762,42 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    e4 g g( a) a a g( a) e \barMin
+    f e d e( f) g g
+  }
+  \addlyrics {
+    \textRespDoxologie
+  }
+  \header {
+    quid = ""
+    modus = "IV"
+    piece = \markup {\sestavTitulekResp}
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    e4 g g( a) a a g( a) e \barMin
+    f e d \mark\sipka e f g
+  }
+  \addlyrics {
+    \textRespDoxologie
+  }
+  \header {
+    quid = ""
+    modus = "IV"
+    piece = \markup {\sestavTitulekResp}
+    id = ""
+  }
+}
+
 \pageBreak
 
 \score {

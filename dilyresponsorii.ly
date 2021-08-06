@@ -65,5 +65,5 @@ respVIdoxologie = {
 
 respIVdoxologie = {
   e4 g g( a) a a g( a) e \barMin
-  f e d e( f) g g
+  f e d e f g
 }
