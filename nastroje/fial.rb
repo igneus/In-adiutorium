@@ -19,7 +19,7 @@ class FIAL
             &.collect {|pair| [pair[0], pair[1] == '' ? nil : pair[1]] }
             &.to_h || {}
         )
-    end
+    end || raise(ArgumentError.new("invalid FIAL #{str.inspect}"))
   end
 
   class << self
