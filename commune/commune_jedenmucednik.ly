@@ -424,7 +424,7 @@
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
 
-    g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci Pá -- ně,
@@ -448,7 +448,7 @@
     c4 b( c d) c c4.( d) \barMaior
     e4 c d c a4.( g) \barMin a4( b c) a b( a g4.) g \barFinalis
 
-    c4^\markup\small\italic{V době velikonoční:} a g( f) g \barFinalis
+    c4^\markup\rubrVelikAleluja a g( f) g \barFinalis
   }
   \addlyrics {
     Kdo zví -- tě -- zí,
@@ -594,7 +594,7 @@
     a c d d c( d) c( a) a \barMin
     bes( a) g g( a) a \barFinalis
 
-    a^\markup\small\italic{V době velikonoční:} bes bes( a) a \barFinalis
+    a^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
   }
   \addlyrics {
     V_těž -- kém zá -- pa -- su
@@ -623,7 +623,7 @@
     f( g f) e( d) d e( d) c d d( c) c \barMaior
     c d f g( a g f) g( d) \barMin
     f( g f) e c e( f d) d \barFinalis
-    c^\markup\small\italic{V době velikonoční:} e( f) e( d) d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) e( d) d \barFinalis
   }
   \addlyrics {
     Bůh ji_(ho) o -- věn -- čil
@@ -649,7 +649,7 @@
     d4 f g g a( f e) e \barMin
     g f g g( a) f e e( d) d \barFinalis
 
-    e^\markup\small\italic{V době velikonoční:} f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Vy -- chá -- ze -- li s_plá -- čem,
@@ -674,7 +674,7 @@
     \choralniRezim
     d4 d d d( a') a \barMin a( g) f g f( d) d \barMaior
     d f g f4.( g) \barMin f4 e( d e) d( c) c( d) d \barFinalis
-    c^\markup\small\italic{V době velikonoční:} d e d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     Kdo chce jít za mnou, za -- při sám se -- be,
@@ -697,7 +697,7 @@
     d4 f g g( a) f f( g) g \barMaior
     g f( g) g \barMin g f g f( e) d d \barMaior
     d e( d e) d c c( d) d \barFinalis
-    c^\markup\small\italic{V době velikonoční:} d e d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     % Do textu jsem zasahl, protoze tak, jak je v breviari,
@@ -724,7 +724,7 @@
     \choralniRezim
     d4 d( a) a d c b a4. a \barMaior
     f4 g a a \barMin a b c c4.( a4 g) a( b) a a \barFinalis
-    b^\markup\small\italic{V době velikonoční:} a g( a) a \barFinalis
+    b^\markup\rubrVelikAleluja a g( a) a \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mne,
