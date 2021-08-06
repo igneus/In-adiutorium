@@ -28,7 +28,7 @@
     psalmus = ""
     id = "invit"
     fons = "evangelista Marek, 25.4."
-    fial = "sanktoral/0425marek.ly#invit"
+    fial = "sanktoral/0425marek.ly#invit?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
