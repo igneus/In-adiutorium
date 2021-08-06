@@ -130,6 +130,7 @@ parser = OptionParser.new do |opts|
   opts.on '-d', '--debug', 'print debugging information'
   opts.on '-a', '--diff-all', 'print diff for all mismatches'
   opts.on '-M', '--mismatches', 'print only mismatches'
+  opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
 end
 
 options = {}
@@ -139,10 +140,14 @@ music_repository = MusicRepository.new
 fial_count = 0
 mismatch_count = 0
 
+to_be_checked = lambda do |fial|
+  options[:children].nil? || fial.start_with?(options[:children])
+end
+
 arguments.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
     .each_score
-    .select {|score| score.header['fial'] }
+    .select {|score| score.header['fial'] && to_be_checked.(score.header['fial']) }
     .each do |score|
     fial_count += 1
 
