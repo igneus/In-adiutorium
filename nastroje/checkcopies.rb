@@ -60,6 +60,7 @@ class Comparison
         .strip
         .gsub(/\s+/, ' ')
         .gsub('^\markup\rubrVelikAleluja', '')
+        .gsub(/\\stem(Up|Down)\s*/, '')
     n = strip_alleluia(n) if strip_aeuia
 
     p n if @debug
