@@ -1,6 +1,8 @@
 # Accepts file names and/or FIALs as arguments, checks scores
 # with parent references ("fial" header field) if they still match the referenced parent.
 
+require 'tempfile'
+
 require 'lyv'
 require_relative 'fial'
 
@@ -32,7 +34,13 @@ class Comparison
   end
 
   def match?
-    @child.music == @parent.music
+    normalize(@child.music) == normalize(@parent.music)
+  end
+
+  private
+
+  def normalize(music)
+    music.strip.gsub(/\s+/, ' ')
   end
 end
 
@@ -57,9 +65,29 @@ class MusicRepository
   end
 end
 
+def print_diff(a, b)
+  Tempfile.open('a') do |a_file|
+    Tempfile.open('b') do |b_file|
+      a_file.puts(a)
+      a_file.flush
+      b_file.puts(b)
+      b_file.flush
+
+      system(
+        'diff',
+        '--unified=5',
+        '--color',
+        a_file.path,
+        b_file.path
+      )
+    end
+  end
+end
+
 
 
 music_repository = MusicRepository.new
+mismatch_count = 0
 
 ARGV.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
@@ -81,8 +109,18 @@ ARGV.each do |file_or_fial|
     print "#{score_ref} < #{parent_ref} : "
     if comparison.match?
       puts 'match'
+      next
+    end
+
+    puts 'MISMATCH'
+    mismatch_count += 1
+    if FIAL.parse(parent_ref).additional.empty?
+      print_diff score.music, parent.music
     else
-      puts 'MISMATCH'
+      # do nothing for now - not a simple copy, needs to be checked by a human
     end
   end
 end
+
+puts
+puts "#{mismatch_count} mismatches total"
