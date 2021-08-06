@@ -62,7 +62,7 @@ class Comparison
 
   def strip_alleluia(music)
     # simply remove the last bar
-    music.sub(/\\bar[^\\]+\\barFinalis/, '\barFinalis')
+    music.sub(/\\bar[^\\]+(?=\\barFinalis \}$)/, '')
   end
 end
 
