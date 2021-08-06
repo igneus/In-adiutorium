@@ -727,18 +727,18 @@
 \markup\italic{V době postní:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a b( c) a a g f f( g) g \barMin
-    b c a a a g f f( g e) e \barFinalis
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barFinalis
   }
   \addlyrics {
     Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne,
     a bu -- dou se před te -- bou kla -- nět.
   }
   \header {
-    modus = "IV"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     quid = "3. ant."
     psalmus = "Zj. 15"
     id = "2ne-a3-pust"

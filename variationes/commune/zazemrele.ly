@@ -252,6 +252,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 g a c( d) a \barMin g f e f( a) a \barMaior
+    a4 a g f e( f) d d \barMin
+    d4 f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Vstal Kris -- tus z_mrt -- vých a o -- sví -- til nás,
+    svou kr -- ví nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben-velik"
+    fons = "Velikonoční oktáv, ranní chvály, 1. ant."
+    fial = "velikonoce_velikonocnioktav.ly#rch-ant1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c( d) a \barMin g f e f( a) a \barMaior
     g a f f e( f) d( c) c \barMin
@@ -272,6 +300,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 

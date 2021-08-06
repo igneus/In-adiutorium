@@ -308,7 +308,7 @@
     d c bes c c \barMaior
     d c c \barMin
     d f e d c c \barMaior
-    c c a g bes a g f( g) g( f) f \barFinalis
+    c c a g bes a g f( g) f f \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,

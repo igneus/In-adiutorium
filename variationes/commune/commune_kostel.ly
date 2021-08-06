@@ -975,10 +975,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době postní:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b( c) a a g f f( g) g \barMin
     b c a a a g f f( g e) e \barFinalis
@@ -994,6 +997,31 @@
     psalmus = "Zj. 15"
     id = "2ne-a3-pust"
     fons = "žaltář, pátek 1.t., nešp., 3. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "II"
+    differentia = "D"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    id = "2ne-a3-pust"
+    fons = "žaltář, pátek 1.t., nešp., 3. ant."
+    fial = "antifony/tyden1_6patek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

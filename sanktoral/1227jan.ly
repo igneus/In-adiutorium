@@ -138,18 +138,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a f) f( g) g \barMin
-    g f g a a g( a) a( g) g \barMin
-    f( g a) a \barMaior
-    a a c4.( g) \barMin
-    a4 f f( g) g \barFinalis
+    g4( a g) f f( g) \barMin
+    g g g a g a g f g( a) a \barMaior
+    c-- b a
+    c a a( g) g \barFinalis
   }
   \addlyrics {
     U -- čed -- ník,_*
-    kte -- ré -- ho Je -- žíš mi -- lo -- val,
-    ře -- kl:
-    To je Pán!
-    A -- le -- lu -- ja!
+    kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+    Pán je to.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
@@ -157,7 +155,6 @@
     differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
-    placet = "aktualizovat ze zdroje"
     fons = "Velikonoční oktáv, pátek, k Magnificat"
     fial = "velikonoce_velikonocnioktav.ly#pa-mag"
     piece = \markup {\sestavTitulek}

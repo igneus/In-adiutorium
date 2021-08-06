@@ -13,6 +13,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     b4( d) d \breathe
     e d c b c c( d) d \breathe \bar ""
@@ -35,6 +36,36 @@
     id = "ct-nesp-ant1"
     fons = "slavnost Ježíše Krista Krále, ant. k Benedictus"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    b4( d) d \barMin
+    e d c b c c( d) d \barMin
+    c a b b \barMaior
+    b c b c c( d) d \barMin
+    d( c) a b a g g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus,_*
+    pr -- vo -- ro -- ze -- ný z_mrt -- vých
+    a Král krá -- lů,
+    z_nás vy -- tvo -- řil Bo -- hu,
+    své -- mu Ot -- ci, krá -- lov -- ství.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "b"
+    psalmus = "Žalm 72-I"
+    id = "ct-nesp-ant1"
+    fial = "mezidobi_kristakrale.ly#rch-aben"
+    piece = \markup {\sestavTitulek}
   }
 }
 

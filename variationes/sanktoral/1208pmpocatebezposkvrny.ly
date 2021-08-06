@@ -709,7 +709,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 g a c c \barMin
@@ -717,6 +717,36 @@
     d c c \barMin
     d f e d c c \barMaior
     c c a g bes a g f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha,
+    me -- zi vše -- mi že -- na -- mi na ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fial = "fial://commune/commune_maria.ly#sob-aben2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 g a c c \barMin
+    d c bes c c \barMaior
+    d c c \barMin
+    d f e d c c \barMaior
+    c c a g bes a g f( g) f f \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,

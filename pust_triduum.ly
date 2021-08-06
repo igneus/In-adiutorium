@@ -16,8 +16,8 @@
     \choralniRezim
     b4( d) d \barMin
     e d c b c c( d) d \barMin
-    c a b4. b \barMax
-    b4 c b c c( d) d \barMin
+    c a b b \barMaior
+    b c b c c( d) d \barMin
     d( c) a b a g g g \barFinalis
   }
   \addlyrics {

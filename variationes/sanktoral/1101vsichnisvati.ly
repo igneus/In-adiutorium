@@ -813,11 +813,50 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
-\markup{
-  ant.
-Svatí dosáhli věčného pokoje
-a přebývají v_nebeské slávě. -
-\bold{viz commune jeden muč., 2. nešp., k Magnificat}
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 g a( c) a( c) c \barMin d d d c b a \barMaior
+    a a( b a) b( c) g g \barMin  f g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
+    a pře -- bý -- va -- jí v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fial = "fial://commune/commune_jedenmucednik.ly#2ne-amag"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a( c) c c \barMin d d d c b a \barMaior
+    a a( b a) b( c) g g \barMin  f g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí do -- sáh -- li věč -- né -- ho po -- ko -- je
+    a pře -- bý -- va -- jí v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fial = "fial://commune/commune_jedenmucednik.ly#2ne-amag"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
 \pageBreak
