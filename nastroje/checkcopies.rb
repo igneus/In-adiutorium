@@ -31,16 +31,34 @@ class Comparison
   def initialize(child, parent)
     @child = child
     @parent = parent
+
+    @fial = FIAL.parse @child.header['fial']
   end
 
   def match?
-    normalize(@child.music) == normalize(@parent.music)
+    normalize_child(@child.music) == normalize_parent(@parent.music)
   end
 
   private
 
-  def normalize(music)
-    music.strip.gsub(/\s+/, ' ')
+  def normalize(music, strip_aeuia)
+    n = music.strip.gsub(/\s+/, ' ')
+    n = strip_alleluia(n) if strip_aeuia
+
+    n
+  end
+
+  def normalize_child(music)
+    normalize(music, @fial.additional.has_key?('+aleluja'))
+  end
+
+  def normalize_parent(music)
+    normalize(music, @fial.additional.has_key?('-aleluja'))
+  end
+
+  def strip_alleluia(music)
+    # simply remove the last bar
+    music.sub(/\\bar[^\\]+\\barFinalis/, '\barFinalis')
   end
 end
 
