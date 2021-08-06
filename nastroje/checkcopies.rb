@@ -29,13 +29,11 @@ end
 
 # Comparison of two scores
 class Comparison
-  def initialize(child, parent, debug = false)
+  def initialize(child, parent)
     @child = child
     @parent = parent
 
     @fial = FIAL.parse @child.header['fial']
-
-    @debug = debug
   end
 
   def match?
@@ -44,6 +42,14 @@ class Comparison
     end
 
     normalized_parent == normalized_child
+  end
+
+  def normalized_child
+    normalize(@child.music, @fial.additional.has_key?('+aleluja'))
+  end
+
+  def normalized_parent
+    normalize(@parent.music, @fial.additional.has_key?('-aleluja'))
   end
 
   private
@@ -59,14 +65,6 @@ class Comparison
     p n if @debug
 
     n
-  end
-
-  def normalized_child
-    normalize(@child.music, @fial.additional.has_key?('+aleluja'))
-  end
-
-  def normalized_parent
-    normalize(@parent.music, @fial.additional.has_key?('-aleluja'))
   end
 
   def strip_alleluia(music)
@@ -120,11 +118,18 @@ def print_diff(a, b)
   end
 end
 
+def debug_comparison(comparison)
+  p comparison.normalized_parent
+  p comparison.normalized_child
+  puts
+end
+
 
 
 parser = OptionParser.new do |opts|
   opts.on '-d', '--debug', 'print debugging information'
   opts.on '-a', '--diff-all', 'print diff for all mismatches'
+  opts.on '-M', '--mismatches', 'print only mismatches'
 end
 
 options = {}
@@ -151,16 +156,18 @@ arguments.each do |file_or_fial|
       raise
     end
 
-    comparison = Comparison.new score, parent, options[:debug]
+    comparison = Comparison.new score, parent
 
-    print "#{score_ref} < #{parent_ref} : "
-    puts if options[:debug]
+    header = "#{score_ref} < #{parent_ref} : "
     if comparison.match?
-      puts 'match'
+      next if options[:mismatches]
+      puts header + 'match'
+      debug_comparison comparison if options[:debug]
       next
     end
 
-    puts 'MISMATCH'
+    puts header + 'MISMATCH'
+    debug_comparison comparison if options[:debug]
     mismatch_count += 1
     if FIAL.parse(parent_ref).additional.empty? || options[:'diff-all']
       print_diff parent.music, score.music
