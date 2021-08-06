@@ -2,71 +2,27 @@
 # Parse and handle FIAL locators
 class FIAL
 
+  def initialize(path, id, additional = {})
+    @path = path
+    @id = id
+    @additional = additional
+  end
+
   # str - String, a valid FIAL (Fons In Adiutorium Locator)
-  def initialize(str)
-    @path = ""
-    @id = ""
-    @additional = {}
-
-    i = 0
-    # prefix
-    if str =~ /^\s*fial:\/\// then
-      i = "fial://".size
-    end
-
-    # path
-    buffer = ""
-    while str[i] != "#" do
-      buffer += str[i]
-      i += 1
-    end
-    @path = buffer
-
-    # id
-    i += 1
-    buffer = ""
-    loop do
-      buffer += str[i]
-
-      i += 1
-      if i == str.size || str[i] == "?" then
-        break
-      end
-    end
-    @id = buffer
-
-    # additional
-    i += 1 # skip the '?'
-    while i < str.size do
-      bufkey = ''
-      bufvalue = ''
-
-      while (str[i] != "=") && (str[i] != "&") && (i < str.size) do
-        bufkey += str[i]
-        i += 1
-      end
-
-      if str[i] == "=" then
-        i += 1
-        while (str[i] != "&") && (i < str.size) do
-          bufvalue += str[i]
-          i += 1
-        end
-      end
-
-      if bufvalue != '' then
-        @additional[bufkey] = bufvalue
-      else
-        @additional[bufkey] = nil
-      end
-
-      i += 1
+  def self.parse(str)
+    return %r{^(fial://)?(?<path>[^#]+)#(?<id>[^?]+)(\?(?<additional>.*))?$}.match(str) do |match|
+      new(
+          match['path'],
+          match['id'],
+          match['additional']
+            &.scan(/((?<name>[^&=]+)(=(?<value>[^&]*))?)/)
+            &.collect {|pair| [pair[0], pair[1] == '' ? nil : pair[1]] }
+            &.to_h || {}
+        )
     end
   end
 
   class << self
-    alias :parse :new
-
     def is_fial?(str)
       str.start_with?('fial://') ||
         (str.include?('#') && str !~ %r{^\w+://})
@@ -97,5 +53,10 @@ class FIAL
     end
     return s
   end
-end
 
+  def ==(other)
+    path == other.path &&
+      id == other.id &&
+      additional == other.additional
+  end
+end
