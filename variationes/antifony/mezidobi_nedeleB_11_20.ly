@@ -351,10 +351,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"16. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e g g g a g f g g a g g \barMaior
     g a a g f e d d( e) e \barMin
@@ -375,6 +378,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e f f f g f e d e f d d \barMaior
+    d f f f f e d c( d) c \barMaior
+    c d e f d c d d \barFinalis
+  }
+  \addlyrics {
+    A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
+    a vy -- pra -- vo -- va -- li mu všech -- no,
+    co dě -- la -- li a u -- či -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

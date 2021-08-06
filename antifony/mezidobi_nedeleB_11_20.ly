@@ -359,9 +359,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d e g g g a g f g g a g g \barMaior
-    g a a g f e d d( e) e \barMin
-    e f( g a) g f e d( e) d d \barFinalis
+    c4 d e f f f g f e d e f d d \barMaior
+    d f f f f e d c( d) c \barMaior
+    c d e f d c d d \barFinalis
   }
   \addlyrics {
     A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
@@ -370,10 +370,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "ve skutečnosti není dórská, ale C-dur s falešným závěrem na d"
     id = "ne16b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
