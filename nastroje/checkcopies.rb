@@ -121,6 +121,15 @@ def print_diff(a, b)
   end
 end
 
+# diffing only makes sense for copies and copies with deterministic modifications
+def diffing_makes_sense?(fial)
+  tags = FIAL.parse(fial).additional
+
+  tags.empty? ||
+    tags.keys == ['+aleluja'] ||
+    tags.keys == ['-aleluja']
+end
+
 def debug_comparison(comparison)
   p comparison.normalized_parent
   p comparison.normalized_child
@@ -183,7 +192,7 @@ arguments.each do |file_or_fial|
     puts header + 'MISMATCH'
     debug.(comparison)
     mismatch_count += 1
-    if FIAL.parse(parent_ref).additional.empty? || options[:'diff-all']
+    if diffing_makes_sense?(parent_ref) || options[:'diff-all']
       print_diff parent.music, score.music
     else
       # do nothing for now - not a simple copy, needs to be checked by a human
