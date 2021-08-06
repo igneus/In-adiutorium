@@ -219,7 +219,7 @@
       psalmus = "Žalm 45"
       placet = "nepřesvědčivý závěr; bude lepší odpoutat se od zdroje"
       fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
-      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1"
+      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1?cast"
       id = "vden-cte-a3"
       piece = \markup {\sestavTitulek}
     }

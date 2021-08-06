@@ -138,7 +138,7 @@
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "Vavrinec; jen prvni pulka"
-    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1"
+    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?jiny_text"
     piece = \markup {\sestavTitulek}
   }
 }

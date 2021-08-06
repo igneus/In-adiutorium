@@ -519,7 +519,7 @@
     differentia = "G"
     psalmus = "Žalm 127"
     id = "2ne-a2"
-    fial = "fial://commune/commune_maria.ly#rch-a2"
+    fial = "fial://commune/commune_maria.ly#rch-a2?-aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
