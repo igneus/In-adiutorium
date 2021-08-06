@@ -95,8 +95,14 @@ namespace :sanity do
     sh 'grep placet *.ly antifony/*.ly commune/*.ly sanktoral/*.ly | wc -l'
   end
 
+  desc "Search for scores missing an ID"
   task :missing_ids do
     sh 'grep', 'id = ""', *all_ly_files
+  end
+
+  desc "Check if copied scores still match the sources"
+  task :copies do
+    sh 'ruby', 'nastroje/checkcopies.rb', *all_ly_files
   end
 
   task :all => [:length]
