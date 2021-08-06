@@ -151,6 +151,8 @@ to_be_checked = lambda do |fial|
   options[:children].nil? || fial.start_with?(options[:children])
 end
 
+debug = lambda {|comparison| debug_comparison comparison if options[:debug] }
+
 arguments.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
     .each_score
@@ -174,12 +176,12 @@ arguments.each do |file_or_fial|
     if comparison.match?
       next if options[:mismatches]
       puts header + 'match'
-      debug_comparison comparison if options[:debug]
+      debug.(comparison)
       next
     end
 
     puts header + 'MISMATCH'
-    debug_comparison comparison if options[:debug]
+    debug.(comparison)
     mismatch_count += 1
     if FIAL.parse(parent_ref).additional.empty? || options[:'diff-all']
       print_diff parent.music, score.music
