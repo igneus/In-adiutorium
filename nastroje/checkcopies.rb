@@ -36,6 +36,8 @@ class Comparison
     @fial = FIAL.parse @child.header['fial']
   end
 
+  attr_reader :child, :parent
+
   def match?
     if @fial.additional.has_key?('cast')
       return normalized_parent.include? strip_wrappers(normalized_child)
@@ -122,6 +124,10 @@ end
 def debug_comparison(comparison)
   p comparison.normalized_parent
   p comparison.normalized_child
+
+  p comparison.parent.lyrics_readable
+  p comparison.child.lyrics_readable if comparison.child.lyrics_readable != comparison.parent.lyrics_readable
+
   puts
 end
 
