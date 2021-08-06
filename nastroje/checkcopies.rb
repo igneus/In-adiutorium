@@ -39,7 +39,11 @@ class Comparison
   end
 
   def match?
-    normalize_child(@child.music) == normalize_parent(@parent.music)
+    if @fial.additional.has_key?('cast')
+      return normalized_parent.include? strip_wrappers(normalized_child)
+    end
+
+    normalized_parent == normalized_child
   end
 
   private
@@ -57,17 +61,23 @@ class Comparison
     n
   end
 
-  def normalize_child(music)
-    normalize(music, @fial.additional.has_key?('+aleluja'))
+  def normalized_child
+    normalize(@child.music, @fial.additional.has_key?('+aleluja'))
   end
 
-  def normalize_parent(music)
-    normalize(music, @fial.additional.has_key?('-aleluja'))
+  def normalized_parent
+    normalize(@parent.music, @fial.additional.has_key?('-aleluja'))
   end
 
   def strip_alleluia(music)
     # simply remove the last bar
     music.sub(/\\bar[^\\]+(?=\\barFinalis \}$)/, '')
+  end
+
+  def strip_wrappers(music)
+    music
+      .sub(/^\\relative.+?\{\s*\\choralniRezim\s*/, '')
+      .sub(/\s*\\barFinalis\s*\}$/, '')
   end
 end
 
