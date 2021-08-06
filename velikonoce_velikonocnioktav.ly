@@ -1051,7 +1051,7 @@
       U -- čed -- ník,_*
       kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
       Pán je to!
-      A -- le -- lu -- ja!
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
