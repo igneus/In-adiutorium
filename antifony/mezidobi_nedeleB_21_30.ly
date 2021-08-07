@@ -257,7 +257,7 @@
     psalmus = ""
     id = "ne24b-rch-ben"
     fons = "commune jednoho mučedníka, 2. nešp., 1. ant."
-    fial = "commune/commune_jedenmucednik.ly#2ne-a1"
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

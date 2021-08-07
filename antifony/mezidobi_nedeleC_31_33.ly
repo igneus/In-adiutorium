@@ -197,7 +197,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    fial = "commune/commune_apostol.ly#nona"
+    fial = "commune/commune_apostol.ly#nona?-aleluja"
     id = "ne33c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
