@@ -197,8 +197,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d d a a b a g( a) \barMaior
-    a f g a b c \barMin c b( c) a a( g) \barFinalis
+    c c g g a g f( g) \barMaior
+    g f g a b c \barMin c b( c) a a( g) \barFinalis
   }
   \addlyrics {
     Do -- bře všech -- no u -- dě -- lal,
@@ -209,7 +209,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "VII.d"
     id = "ne23b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -222,7 +221,7 @@
     \choralniRezim
     a4 g( a) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior
-    f g g g( a) \barMin a( g f) g f( e) e \barFinalis
+    f g a g( a) \barMin a( b) g f( e) e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
@@ -234,7 +233,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "_vstane_ zkusit zvukomalebněji"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -266,11 +266,56 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d d a a b a g( a) \barMaior
+    a f g a b c \barMin c b( c) a a( g) \barFinalis
+  }
+  \addlyrics {
+    Do -- bře všech -- no u -- dě -- lal,
+    i hlu -- chým dá -- vá sluch, i ně -- mým řeč.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    placet = "VII.d"
+    id = "ne23b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
     d d a a b a g( a) \barMaior
     a f g a b c \barMin c b( c) a a( g) \barFinalis
+  }
+  \addlyrics {
+    Do -- bře všech -- no u -- dě -- lal,
+    i hlu -- chým dá -- vá sluch, i ně -- mým řeč.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne23b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c c g g a g f( g) \barMaior
+    \mark\sipka g f g a b c \barMin c b( c) a a( g) \barFinalis
   }
   \addlyrics {
     Do -- bře všech -- no u -- dě -- lal,
@@ -286,10 +331,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior
@@ -305,10 +353,36 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_vstane_ zkusit zvukomalebněji"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g \mark\sipka a g( a) \barMin \mark\sipka a( b) g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a po třech dnech vsta -- ne z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne24b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
