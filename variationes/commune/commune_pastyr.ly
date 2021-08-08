@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( e f) d( c) c( d) \barMin d b c( b) g f( g) g \barMaior
     a b c b d( c a) \barMin c( d c) b( a) g a g g \barFinalis
@@ -29,10 +30,41 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin
+    c a b a g g \barMaior
+    f a c b c( d) \barMin
+    b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Dám vám pas -- tý -- ře
+    po -- dle své -- ho srd -- ce
+    a bu -- dou vás pást
+    ro -- zum -- ně a moud -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
