@@ -147,7 +147,7 @@ tInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
     g4 a a a \barMin g f g( a) f( e) e \barMaior
-    d d e f( g) g g( f) g e e \barFinalis
+    d d e f( g) g f g e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, buď nám mi -- los -- tiv,
