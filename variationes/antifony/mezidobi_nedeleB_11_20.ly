@@ -836,6 +836,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d( e) c c \barMin d a b( g) g \barMaior
     f g a b c d c c \barMin
@@ -863,6 +864,29 @@
     d4 c d( e) c c \barMin d a b( g) g \barMaior
     f g a b c d c c \barMin
     c( d) d c( d) c b \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    jest -- li -- že ho ne -- při -- táh -- ne
+    O -- tec, kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne19-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d( e) \mark\sipka d d \barMin d a b( g) g \barMaior
+    \mark\sipka f a c b c d c c \barMin
+    \mark\sipka d d c( d) c b a( g) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,

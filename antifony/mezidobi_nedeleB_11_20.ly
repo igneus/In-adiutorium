@@ -576,9 +576,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d( e) c c \barMin d a b( g) g \barMaior
-    f g a b c d c c \barMin
-    c( d) d c( d) c b a( g a) g \barFinalis
+    d4 c d( e) d d \barMin d a b( g) g \barMaior
+    f a c b c d c c \barMin
+    d d c( d) c b a( g) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
@@ -590,7 +590,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "_poslal_ jen ag g"
     id = "ne19-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
