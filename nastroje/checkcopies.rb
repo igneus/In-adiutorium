@@ -157,7 +157,7 @@ fial_count = 0
 mismatch_count = 0
 
 to_be_checked = lambda do |fial|
-  options[:children].nil? || fial.start_with?(options[:children])
+  options[:children].nil? || FIAL.parse(fial).path.start_with?(options[:children])
 end
 
 debug = lambda {|comparison| debug_comparison comparison if options[:debug] }
