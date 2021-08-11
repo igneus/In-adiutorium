@@ -81,8 +81,9 @@ namespace :sanity do
              Dir['reholni/*/*.ly'])
     files -= (['psalmodie.ly', 'kratkeverse.ly', 'zakladni_napevy.ly',
                'zakladni_napevy2.ly', 'antifony.ly'] +
-              Dir['kantikum-*.ly'] + Dir['zalm*.ly'] + Dir['invitatorium*.ly'] +
-              Dir['Korejs*.ly'])
+              Dir['kantikum-*.ly'] +
+              Dir['zalm*.ly'] +
+              Dir['invitatorium*.ly'])
 
     Bundler.with_clean_env do # don't set bundler's env vars
       sh "#{LYV_CMD} lengthcheck #{files.join ' '} "+\
