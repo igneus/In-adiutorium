@@ -99,19 +99,16 @@
 
     % R
     \neviditelna f
-    % tenhle kousek melodie nekomu kradu, ale nemuzu si vzpomenout, komu;
-    % mozna nejake zpracovani Pisne bratra slunce?
-    % snad to neni trestne...
-    f4 g a( c) c \barMin d( c) bes d c c \barMax
-    a( c bes a) g( a) \barMin a bes a g f g g f f \barMax
+    f4 f f f g f f g( a) a( g) \barMax
+    g( a) g g g f d f g g f f \barFinalis
     % V
     \neviditelna a
-    f4 f g a c c \barMin d( c) bes d c c \barMax
+    a4 a a a a( bes) a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a( c bes a) g( a) \barMin a bes a g f g g f f \barMax
+    g( a) g g g f d f g g f f \barFinalis
     % Slava
-    f4 g a( c) c c d( c bes d) c \barMaior a a( c bes) a g( f) g g \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Kně -- ží Pá -- ně, ve -- leb -- te Pá -- na,_*
@@ -122,7 +119,7 @@
   }
   \header {
     quid = "resp."
-    modus = "V"
+    modus = "VI"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

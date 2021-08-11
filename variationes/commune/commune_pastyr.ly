@@ -117,10 +117,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -150,10 +153,46 @@
   \header {
     quid = "resp."
     modus = "V"
-    id = ""
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f f f g f f g( a) a( g) \barMax
+    g( a) g g g f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g g f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kně -- ží Pá -- ně, ve -- leb -- te Pá -- na,_*
+    chval -- te a o -- sla -- vuj -- te ho na -- vě -- ky.
+    \Verse Slu -- žeb -- ní -- ci Pá -- ně, ve -- leb -- te Pá -- na,_*
+    \Response chval -- te a o -- sla -- vuj -- te ho na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
