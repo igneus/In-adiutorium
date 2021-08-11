@@ -96,7 +96,7 @@
   \relative c'' {
     \choralniRezim
     a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
-    c c( d) d c d c( b) a a( b) \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis
+    c c( d) d c d c b b \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis
   }
   \addlyrics {
     Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
@@ -107,7 +107,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "_pro tebe_ zkusit předělat zcela sylabicky - retardace se tu jeví neústrojná (nebo ne? docela jistý si nejsem)"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

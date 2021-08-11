@@ -90,10 +90,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
     c c( d) d c d c( b) a a( b) \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis
@@ -108,6 +111,27 @@
     differentia = "a"
     psalmus = "Žalm 63"
     placet = "_pro tebe_ zkusit předělat zcela sylabicky - retardace se tu jeví neústrojná (nebo ne? docela jistý si nejsem)"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
+    c c( d) d c d \mark\sipka c b b \barMin c( e b c) c( a) a f( a b) a( g) \barFinalis
+  }
+  \addlyrics {
+    Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
+    mé tě -- lo by -- lo pro te -- be pá -- le -- no oh -- něm.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -233,6 +257,8 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
@@ -276,6 +302,30 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c c( d) d \barMaior
+    f( g f e) f( e) d e d( c) c \barMin
+    d c bes c d( f) \barMin g( f g) g( d) d \mark\sipka c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{3. ant. je stejná jako 3. ant. ranních chval \concat{(\upright{"Svatý Vavřinec se modlil"});} k ní kantikum Zj 4.}
 
