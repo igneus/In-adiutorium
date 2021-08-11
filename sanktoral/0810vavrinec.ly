@@ -131,6 +131,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
+    placet = "spíš zjednodušit"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -153,6 +154,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "spíš zjednodušit, zejm. _vstoupit_ je nepěkné"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -222,6 +224,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 116-II"
+    placet = "_pro_ sylabicky; sestupná kvarta na _obětí_ je divná, zvlášť v rámci spění k závěru; celkově nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
