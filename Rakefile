@@ -31,6 +31,14 @@ standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
 
 all_ly_files = `git ls-files`.split.select {|f| f.end_with?('.ly') && !f.include?('variationes/') }
 
+modified_ly_files = lambda do
+  # TODO: once on Ruby 2.7, simplify using Array#intersection
+  Set.new(`git ls-files --modified`.split)
+    .intersection(Set.new(all_ly_files))
+    .to_a
+    .sort
+end
+
 build_standalone_ly = standalone_ly_files.collect do |source|
   target = source.sub(/\.ly$/, '.pdf')
 
@@ -104,6 +112,13 @@ namespace :sanity do
   desc "Check if copied scores still match the sources"
   task :copies do
     sh 'ruby', 'nastroje/checkcopies.rb', *all_ly_files
+  end
+
+  task :copies_of_modified do
+    # TODO get list of fials of modified scores and `checkcopies.rb -c` each
+    modified_ly_files.call.each do |m|
+      sh 'ruby', 'nastroje/checkcopies.rb', '-c', m, *all_ly_files
+    end
   end
 
   task :all => [:length]
