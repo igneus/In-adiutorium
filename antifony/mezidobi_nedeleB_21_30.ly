@@ -430,8 +430,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c b g) a( g) \barMin
-    f f a f f( g) g \barFinalis
+    g4 a g( c) c \barMin
+    a g a g f( g) g \barFinalis
   }
   \addlyrics {
     Co Bůh spo -- jil,
@@ -442,7 +442,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "nic moc"
     id = "ne27b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

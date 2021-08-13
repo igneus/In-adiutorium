@@ -650,10 +650,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"27. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c b g) a( g) \barMin
     f f a f f( g) g \barFinalis
@@ -671,6 +674,69 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g( c) c \barMin
+    a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f f( g) g \barMin
+    f d e f d d \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
