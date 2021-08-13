@@ -74,10 +74,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"12. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior
@@ -99,6 +102,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    \mark\sipka f g a a g( a) \barMin g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a tře -- tí -- ho dne bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?jiny_text"
+    id = "ne12c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
