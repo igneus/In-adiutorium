@@ -237,6 +237,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 135-II"
+    placet = "druhá divisio by měla být maior; terciový krok na _jeho_ je nelibý, snad spíš celý závěr (od _opěvujte_) jinak"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

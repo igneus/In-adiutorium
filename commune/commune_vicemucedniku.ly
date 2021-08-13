@@ -800,6 +800,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "melodie se mi líbí, ale převrací strukturu souvětí -
+    i ta převrácená výpověď je pravověrná, ale neodpovídá tomu, co je v breviáři napsáno"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
