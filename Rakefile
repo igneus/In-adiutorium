@@ -114,6 +114,7 @@ namespace :sanity do
     sh 'ruby', 'nastroje/checkcopies.rb', *all_ly_files
   end
 
+  desc 'As sanity:copies, but only check copies of scores from modified files'
   task :copies_of_modified do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     modified_ly_files.call.each do |m|
