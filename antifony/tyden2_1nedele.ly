@@ -318,6 +318,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
+    placet = "melisma na _kněz_ se nezpívá moc dobře, melisma na _Mel_ je opravdu divné"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }
