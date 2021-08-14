@@ -145,6 +145,7 @@ end
 parser = OptionParser.new do |opts|
   opts.on '-d', '--debug', 'print debugging information'
   opts.on '-a', '--diff-all', 'print diff for all mismatches'
+  opts.on '-f', '--diff-full-score', 'diff full scores, not just the music part'
   opts.on '-M', '--mismatches', 'print only mismatches'
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
 end
@@ -161,6 +162,7 @@ to_be_checked = lambda do |fial|
 end
 
 debug = lambda {|comparison| debug_comparison comparison if options[:debug] }
+diff_text = (options[:'diff-full-score'] ? :text : :music).to_proc
 
 arguments.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
@@ -193,7 +195,7 @@ arguments.each do |file_or_fial|
     debug.(comparison)
     mismatch_count += 1
     if diffing_makes_sense?(parent_ref) || options[:'diff-all']
-      print_diff parent.music, score.music
+      print_diff diff_text.(parent), diff_text.(score)
     else
       # do nothing for now - not a simple copy, needs to be checked by a human
     end
