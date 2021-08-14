@@ -210,6 +210,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f) e( f) f f e f d c c4. \barMin
     d4 d c a c( d) d d4. \barMin f4 f g f e d4. \barFinalis
@@ -230,8 +231,67 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f) e( f) f f e f d c c \barMaior
+    d4 d c a c( d) d d \barMin f4 f g f e d \barFinalis
+  }
+  \addlyrics {
+    Muž bo -- les -- ti byl o -- po -- vr -- že -- ný,
+    o -- puš -- tě -- ný od li -- dí, zna -- lý u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d e f e( d) d \barMin \mark\sipka f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e f e( d) d \barMin \mark\sipka g f d e( f) d d \barFinalis
   }
   \addlyrics {
     Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
@@ -266,8 +326,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f f e f g( d) d4. \barMin d4 c d e f e c d4. \barFinalis
+  }
+  \addlyrics {
+    Před Hos -- po -- di -- nem se sklo -- ní
+    vše -- chna lid -- ská po -- ko -- le -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f f e f \mark\sipka d( c) c \barMin
+    \mark\sipka d4 d c d f e c d \barFinalis
   }
   \addlyrics {
     Před Hos -- po -- di -- nem se sklo -- ní

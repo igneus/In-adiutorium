@@ -146,8 +146,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) e( f) f f e f d c c4. \barMin
-    d4 d c a c( d) d d4. \barMin f4 f g f e d4. \barFinalis
+    d4 d( f) e( f) f f e f d c c \barMaior
+    d4 d c a c( d) d d \barMin f4 f g f e d \barFinalis
   }
   \addlyrics {
     Muž bo -- les -- ti byl o -- po -- vr -- že -- ný,
@@ -166,7 +166,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
+    d4 d d e f e( d) d \barMin g f d e( f) d d \barFinalis
   }
   \addlyrics {
     Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
@@ -184,7 +184,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f f e f g( d) d4. \barMin d4 c d e f e c d4. \barFinalis
+    d4 e f f e f d( c) c \barMin
+    d4 d c d f e c d \barFinalis
   }
   \addlyrics {
     Před Hos -- po -- di -- nem se sklo -- ní
