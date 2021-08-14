@@ -29,9 +29,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a c( d c) b a( g a) g \barMin
-    a( b c) a g( f) g \barMaior
-    g g( a) g g \barFinalis
+    g4 a a a c d c( a) a \barMin
+    c b a( g) g \barMaior
+    f a g( f) g \barFinalis
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost,
@@ -43,7 +43,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
-    placet = "nakupení třínotových skupin není právě elegantní"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
