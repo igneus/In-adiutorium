@@ -759,7 +759,37 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
-    fons = "commune o P.M., r.ch., 1. ant. - zkraceno"
+    fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c c e e4. d \barMin
+    c4( b) a b a( g) g \barMaior
+    g( c) c c c( d e) d( c) c4.( d) \barMin
+    f4 e c d( c) c \barMax
+
+    c b a c( d e) d( c) b( a) \barMin
+    \mark\sipka c( b) a g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be se na -- ro -- dil
+    Spa -- si -- tel svě -- ta;
+    ny -- ní se ra -- du -- ješ v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
