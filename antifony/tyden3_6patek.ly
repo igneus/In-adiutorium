@@ -225,8 +225,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a c d d d4. \barMin e4 d c b c a( g) g \barMin
-    a( d) b( c) a g b c a( g) g \barFinalis
+    d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
+    a g( f) a( c) c b a g g \barFinalis
   }
   \addlyrics {
     Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
@@ -237,7 +237,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 135-II"
-    placet = "druhá divisio by měla být maior; terciový krok na _jeho_ je nelibý, snad spíš celý závěr (od _opěvujte_) jinak"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

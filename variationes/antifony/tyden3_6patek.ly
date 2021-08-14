@@ -310,6 +310,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a c d d d4. \barMin e4 d c b c a( g) g \barMin
     a( d) b( c) a g b c a( g) g \barFinalis
@@ -367,6 +368,67 @@
     differentia = "d"
     psalmus = "Žalm 135-I"
     id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a c d d d4. \barMin e4 d c b c a( g) g \barMaior
+    a( d) b( c) a g \mark\sipka f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
+    o -- pě -- vuj -- te je -- ho jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 135-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
+    \mark\sipka a( g) f a( c) c b a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
+    o -- pě -- vuj -- te je -- ho jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 135-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
+    \mark\sipka a g( f) a( c) c b a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
+    o -- pě -- vuj -- te je -- ho jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 135-II"
+    id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
