@@ -1282,6 +1282,72 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    d d d( e d) d \barMin \mark\sipka c a b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e d d \barMaior
+    c b c d d d c b a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka b c c d d \barMaior
+    c b c d d d c b a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

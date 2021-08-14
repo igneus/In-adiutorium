@@ -74,6 +74,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -95,6 +97,28 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka d d c b a( g) g \barMin
+    a b c c b( c) a g g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Blíz -- ko jsi, Hos -- po -- di -- ne,
+    a všech -- ny tvé ces -- ty jsou správ -- né.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-XIX"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
