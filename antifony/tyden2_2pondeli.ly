@@ -146,24 +146,22 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 a g f e \barMaior
-    f g a g b c a \barMin
+    g4 a a g f d e \barMaior
+    e f e g a a( g) g \barMin
     a g a g f e e \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní,
+    Bla -- ho -- sla -- ve -- ní jsou ti,
     kdo sly -- ší Bo -- ží slo -- vo
     a za -- cho -- vá -- va -- jí ho.
   }
   \header {
-    textus_approbatus = "Blahoslavení jsou ti, kdo slyší Boží slovo a zachovávají ho."
     quid = "1. ant."
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = "Žalm 119-ו"
-    placet = "_kdo_ by nemělo být odsazené; upravit na oficiální text"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

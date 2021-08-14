@@ -482,6 +482,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a b c c4. \barMin c4 d d c d c( b) b \barMin
     b c( d) c( a) g f g4. g \barFinalis
@@ -548,7 +549,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 a g f e \barMaior
     f g a g b c a \barMin
@@ -564,6 +565,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ו"
+    placet = "_kdo_ by nemělo být odsazené"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -586,6 +588,84 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 119-VI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny "oficiální text"
+
+\markup\justify{
+  Oficiální text sice není moc zpěvný, ale biblický citát je vhodné respektovat.
+  Tady jde navíc přímo o výrok Páně.
+  (Sice by se dalo hádat, že upravené znění, použité jako základ pro zhudebnění
+  původně, je dobrým překladem daného úryvku
+  z řečtiny i z Neovulgáty, ale jde také o snadnou rozpoznatelnost citátu pro toho,
+  kdo zná ČLP.)
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f e f \barMin
+    f d c d f g( f) f \barMaior
+    f g( a g) f( d) f g g f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a f g \barMin
+    g a g bes a g( a g) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a g f d e \barMaior
+    e f e g a a( g) g \barMin
+    a g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-ו"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
