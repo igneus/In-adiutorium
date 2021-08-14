@@ -13,10 +13,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c) c c( d) c b a a \barMin
+    g4 g f g c( d) c b a a \barMin
     c c b c a( g) g \barMaior
     a a a f e d f( g) g \barMin
-    a b g g \barFinalis
+    a c b( a g) g \barFinalis
   }
   \addlyrics {
     Bu -- du mo -- ci o -- sla -- vit Kris -- ta

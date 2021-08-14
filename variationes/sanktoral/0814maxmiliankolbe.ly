@@ -83,12 +83,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c c( d) c b a a \barMin
     c c b c a( g) g \barMaior
     a a a f e d f( g) g \barMin
     a b g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- du mo -- ci o -- sla -- vit Kris -- ta
+    ži -- vo -- tem i smr -- tí.
+    Vždyť pro mě ži -- vot je Kris -- tus
+    a smrt zis -- kem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \mark\sipka f g c( d) c b a a \barMin
+    c c b c a( g) g \barMaior
+    a a a f e d f( g) g \barMin
+    a \mark\sipka c b( a g) g \barFinalis
   }
   \addlyrics {
     Bu -- du mo -- ci o -- sla -- vit Kris -- ta
