@@ -164,8 +164,6 @@
   \addlyrics {
     O -- sla -- vuj -- me na -- ne -- be -- vze -- tí Pan -- ny Ma -- ri -- e;
     klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
-
-    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
