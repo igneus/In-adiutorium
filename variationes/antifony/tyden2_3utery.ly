@@ -134,10 +134,83 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f \mark\sipka g f e d e d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f \mark\sipka g a g f d e d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    a \mark\sipka a a g f e d e d d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
+    \mark\sipka bes a g a g f e f d d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis
   }
