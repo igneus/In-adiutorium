@@ -55,7 +55,10 @@
 
 \rubrika{Po celou dobu velikonoční se všechny žalmy kompletáře zpívají
 pod jedinou
-antifonou:\footnote{{\it Liber usualis}, New York-Tournai 1961, s. 266.}}
+antifonou:}
+
+\mbox{}\hfill%
+{\footnotesize {\it Liber usualis}, New York-Tournai 1961, s. 266.}
 
 \lilypondfile{generovane/kompletar/kompletar_pasch.ly}
 
