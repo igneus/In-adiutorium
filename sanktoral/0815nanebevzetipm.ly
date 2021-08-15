@@ -218,6 +218,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 46"
+    placet = "nic moc"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -355,6 +356,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "opravdu mdlá a bezduchá"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -387,6 +389,9 @@
     differentia = "c"
     psalmus = "Žalm 63"
     fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
+    placet = "nedrží dobře pohromadě -
+    první část převzatá z delší antifony vygraduje tak vysoko,
+    že to kratší závěr nestihne absorbovat"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -413,6 +418,7 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
+    placet = "lépe"
     fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?zacatek"
     piece = \markup {\sestavTitulek}
   }
@@ -539,6 +545,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "melisma na _naše_ pryč nebo jinak, _Slunce spravedlnosti_ pokud možno lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -561,6 +568,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -586,6 +594,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 122"
+    placet = "chybný údaj o modu; není to ono"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -608,6 +617,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 127"
+    placet = "první polovina nic moc"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
