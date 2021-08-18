@@ -10,11 +10,63 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d e f \barMin f g f g a \barMaior
     a4 d d d bes \barMin g f g a d, d \barFinalis
 
     g^\rubrVelikAleluja f d( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
+    a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-I"
+    placet = "mám silný pocit, že ten nápěv je nechtěně ukradený, ale zatím jsem nenašel, odkud;
+    každopádně to není nápěv opravdu chorálního charakteru"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d d e f \barMin f g f g a \barMaior
+    a4 \mark\sipka a g f d \barMin d e d c d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
+    a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d e f \barMin f g f g a \barMaior
+    a4 \mark\sipka bes bes bes g \barMin f e d c d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
@@ -84,9 +136,59 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e f \barMin f g a a bes a g( a) a \barMaior
     d c( d) d( a) a \barMin a a g f g( d) d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
+    a ne -- be -- sa jsou dí -- lo tvých ru -- kou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d e f \barMin f g a a bes a g( a) a \barMaior
+    \mark\sipka a a( c) c( a) a \barMin a g f e f( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
+    a ne -- be -- sa jsou dí -- lo tvých ru -- kou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f \barMin f g a a bes a g( a) a \barMaior
+    \mark\sipka a a( c) a g( a) \barMin a g( a) g e f d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis
   }

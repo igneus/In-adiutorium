@@ -13,9 +13,9 @@
   \relative c' {
     \choralniRezim
     d d e f \barMin f g f g a \barMaior
-    a4 d d d bes \barMin g f g a d, d \barFinalis
+    a4 a g f d \barMin d e d c d d \barFinalis
 
-    g^\rubrVelikAleluja f d( e) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
@@ -28,7 +28,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 102-I"
-    placet = "mám silný pocit, že ten nápěv je nechtěně ukradený, ale zatím jsem nenašel, odkud; každopádně to není nápěv opravdu chorálního charakteru"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -62,9 +61,9 @@
   \relative c' {
     \choralniRezim
     d4 d e f \barMin f g a a bes a g( a) a \barMaior
-    d c( d) d( a) a \barMin a a g f g( d) d \barFinalis
+    a a( c) c( a) a \barMin a g f e f( d) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
