@@ -501,7 +501,6 @@
     tvé ne -- přá -- te -- le.
   }
   \header {
-    textus_approbatus = "Kvůli tobě Bůh přemohl tvé nepřátele."
     quid = "3. ant."
     modus = "II"
     differentia = "D"
@@ -523,7 +522,6 @@
     pře -- mo -- hl Bůh tvé ne -- přá -- te -- le.
   }
   \header {
-    textus_approbatus = "Kvůli tobě Bůh přemohl tvé nepřátele."
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
@@ -546,7 +544,6 @@
     tvé ne -- přá -- te -- le.
   }
   \header {
-    textus_approbatus = "Kvůli tobě Bůh přemohl tvé nepřátele."
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
