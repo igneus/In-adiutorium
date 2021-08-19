@@ -61,6 +61,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "závěr je odpudivý"
     id = "tercie-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -83,6 +84,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 123"
+    placet = "jinak"
     id = "sexta-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -101,6 +103,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 124"
+    placet = "převzatý kousek delší antifony pro krátký text dobře nefunguje ani po úpravě závěru"
     id = "sexta-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -122,6 +125,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 125"
+    placet = "zdroj se změnil"
     id = "sexta-ant3"
     fons = "jen začátek podle žaltář, út 3.t., nešp., 1. ant."
     fial = "antifony/tyden3_3utery.ly#ne-ant1?cast"
@@ -147,6 +151,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 126"
+    placet = "lépe"
     id = "nona-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -189,6 +194,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 128"
+    placet = "lépe"
     id = "nona-ant3"
     piece = \markup {\sestavTitulek}
   }

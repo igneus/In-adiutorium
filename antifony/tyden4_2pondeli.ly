@@ -200,6 +200,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 120"
+    placet = "půjde zpěvněji"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
