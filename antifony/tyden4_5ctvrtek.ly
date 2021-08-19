@@ -199,8 +199,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c) a \barMin
-    b c a g4.( f4) f g a g g \barFinalis
+    g4 a g( c) c \barMin
+    b c a g f g a g g \barFinalis
   }
   \addlyrics {
     Kvů -- li to -- bě
@@ -211,7 +211,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 129"
-    placet = "lépe"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

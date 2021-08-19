@@ -512,10 +512,31 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) a \barMin
     b c a g4.( f4) f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kvů -- li to -- bě
+    pře -- mo -- hl Bůh tvé ne -- přá -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 129"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g( c) c \barMin
+    b c a g f g a g g \barFinalis
   }
   \addlyrics {
     Kvů -- li to -- bě
