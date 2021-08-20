@@ -40,6 +40,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 e f( g) g \barMin
     g g a b c b a( g) a( g) g \barMaior
@@ -163,6 +164,33 @@
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "g"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a f( g) g \barMin
+    a b c b a g a g g \barMaior
+    c c c( d c) b a a \barMaior
+    a a g f g a a \barMin
+    a b c a a g f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard,
+    vel -- ký cti -- tel Pan -- ny Ma -- ri -- e,
+    jas -- ně zá -- ří v_círk -- vi
+    ja -- ko slav -- ný u -- či -- tel
+    a bdě -- lý pas -- týř své -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
