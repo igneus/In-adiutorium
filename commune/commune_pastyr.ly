@@ -210,8 +210,6 @@
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Pro všechny jsem se stal vším,
-    abych stůj co stůj zachránil alespoň některé. Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
