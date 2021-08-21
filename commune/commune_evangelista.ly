@@ -177,10 +177,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a a a a g e a( g e) d( e) e \barMaior
-    c d e e( g) a e4. e \barMin f4( g a g) f( e) f( d) d( e) e \barFinalis
+    g f e d( e) d d f( g) g( a) a \barMaior
+    a a a b( c) b g g \barMin f g( a) a g g \barFinalis
 
-    e^\markup\rubrVelikAleluja e( f) e( d) e \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh ho svou mi -- los -- tí po -- vo -- lal,
@@ -190,9 +190,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 116-II"
+    fial = "commune/commune_pastyr.ly#2ne-a1"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

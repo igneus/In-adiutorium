@@ -266,10 +266,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a a a a g e a( g e) d( e) e \barMaior
     c d e e( g) a e4. e \barMin f4( g a g) f( e) f( d) d( e) e \barFinalis
@@ -287,10 +290,38 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-II"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f e d( e) d d f( g) g( a) a \barMaior
+    a a a b( c) b g g \barMin f g( a) a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ho svou mi -- los -- tí po -- vo -- lal,
+    a -- by byl slu -- žeb -- ní -- kem e -- van -- ge -- li -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-II"
+    fial = "commune/commune_pastyr.ly#2ne-a1"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

@@ -1100,10 +1100,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f e d( e) d d \barMin f( e f) g( a) a \barMaior
     a a a b( c) b g g \barMin f g( a) a g g \barFinalis
@@ -1121,8 +1124,38 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 15"
-    id = ""
+    id = "2ne-a1"
     fons = "Cyril a Metoděj, dopoledne; úprava textu z pl. do sg. + doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#tercie?jiny_text&+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f e d( e) d d f( g) g( a) a \barMaior
+    a a a b( c) b g g \barMin f g( a) a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ho svou mi -- los -- tí po -- vo -- lal,
+    a -- by byl slu -- žeb -- ní -- kem e -- van -- ge -- li -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    fons = "Cyril a Metoděj, dopoledne; úprava textu z pl. do sg. + doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#tercie?jiny_text&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

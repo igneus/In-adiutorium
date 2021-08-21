@@ -203,15 +203,38 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
-% Tri antifony na spolecne hudebni "tema", jestli se tomu
-% tak da rict :)
+\markup{Tři antifony s příbuznou melodií}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f e d( e) d d \barMin f( e f) g( a) a \barMaior
+    a a a a b( c) b g g \barMin f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je svou mi -- los -- tí po -- vo -- lal,
+    a -- by by -- li slu -- žeb -- ní -- ky e -- van -- ge -- li -- a.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f e d( e) d d \mark\sipka f( g) g( a) a \barMaior
     a a a a b( c) b g g \barMin f g( a) a g g \barFinalis
   }
   \addlyrics {
@@ -269,6 +292,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
