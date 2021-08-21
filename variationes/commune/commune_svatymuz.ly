@@ -936,11 +936,37 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f a( c) c d( c) b c a a \barMaior
     b c d( a) c( a) g \barMin f g a( b g) g \barFinalis
 
     a^\markup\rubrVelikAleluja f( a) b( a) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,
+    pojď se ra -- do -- vat se svým Pá -- nem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f a( c) c d( c) b c a a \barMaior
+    \mark\sipka c c c( d) c c \barMin b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,

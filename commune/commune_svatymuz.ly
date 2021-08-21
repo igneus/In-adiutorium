@@ -804,9 +804,9 @@
   \relative c'' {
     \choralniRezim
     g4 f a( c) c d( c) b c a a \barMaior
-    b c d( a) c( a) g \barMin f g a( b g) g \barFinalis
+    c c c( d) c c \barMin b a g( a) g \barFinalis
 
-    a^\markup\rubrVelikAleluja f( a) b( a) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,
