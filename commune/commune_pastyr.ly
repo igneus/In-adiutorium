@@ -167,7 +167,7 @@
     \choralniRezim
     \key f \major
     d4 d e( f g) a( g) f g g \barMaior
-    a( bes) c( bes) a bes( a) g \barMaior
+    a bes a g( f) g \barMaior
     g( a) g f( e d) d f( e d) e d( c) c \barMaior
     d( g) f g g( a g) f e c( d) d \barFinalis
 

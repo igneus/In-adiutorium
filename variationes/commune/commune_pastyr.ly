@@ -229,10 +229,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{O papeži nebo biskupovi:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d e( f g) a( g) f g g \barMaior
@@ -255,7 +258,66 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d e( f g) a( g) f g g \barMaior
+    \mark\sipka a bes a g( f) g \barMaior
+    g( a) g f( e d) d f( e d) e d( c) c \barMaior
+    d( g) f g g( a g) f e c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi kněz nej -- vyš -- ší -- ho,
+    zr -- cad -- lo ctnos -- ti,
+    do -- brý pas -- týř své -- ho li -- du:
+    v_to -- bě má Bůh za -- lí -- be -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 \mark\sipka e f g( a) f g g \barMaior
+    a bes a g( f) g \barMaior
+    g( a) g f( e d) d \mark\sipka e( f) d d( c) c \barMaior
+    d( g) f g \mark\sipka g( a) \barMin f e c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi kněz nej -- vyš -- ší -- ho,
+    zr -- cad -- lo ctnos -- ti,
+    do -- brý pas -- týř své -- ho li -- du:
+    v_to -- bě má Bůh za -- lí -- be -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
