@@ -958,10 +958,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{O více mužích:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( g a) g \barMin g a( b) a( g) a( g) \barMaior
     g e g f e d( e) d d \barMin f g a g f( g) g \barFinalis
@@ -979,6 +982,32 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
+    a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
+
+    a^\markup\rubrVelikAleluja b( c) a( g) a \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?delsi_text"
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
