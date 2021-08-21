@@ -122,10 +122,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -155,6 +158,41 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka g f \barMin f f f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh ho měl rád
+    a na -- pl -- nil ho svou mi -- los -- tí._* \textRespAleluja
+    \Verse Ob -- lé -- kl mu rou -- cho slá -- vy_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -441,10 +479,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -475,6 +516,42 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f f f f f \mark\sipka g f \barMin
+    f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f \mark\sipka g f \barMin f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Měl Bo -- ží zá -- kon ve svém srd -- ci,
+    a Bůh dá -- val sí -- lu je -- ho kro -- kům._* \textRespAleluja
+    \Verse Dou -- fal v_Bo -- ha a dr -- žel se je -- ho ces -- ty,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -785,10 +862,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -818,6 +898,41 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f f f f \mark\sipka g f \barMin f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f \mark\sipka e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- din je spra -- ved -- li -- vý,
+    má rád spra -- ved -- li -- vé skut -- ky._* \textRespAleluja
+    \Verse Spra -- ved -- li -- vým zje -- vu -- je svou tvář,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
