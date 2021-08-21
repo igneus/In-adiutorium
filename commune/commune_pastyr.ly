@@ -196,23 +196,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c b) a( g f g) e \barMin f g a a( c b) \barMaior
-    c c c( d) b c( a) \barMaior
-    f g f g a g f e e \barFinalis
+    c4 a a c b a g( a g) \barMaior
+    f a c c c c( d) c c \barMin
+    b g a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pro všech -- ny jsem se stal vším,
-    a -- bych stůj co stůj
-    za -- chrá -- nil a -- le -- spoň něk -- te -- ré.
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}

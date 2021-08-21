@@ -260,10 +260,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{O knězi:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c b) a( g f g) e \barMin f g a a( c b) \barMaior
     c c c( d) b c( a) \barMaior
@@ -283,7 +286,89 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    id = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Pomocným slovesům na exponovaných místech melodie je obvykle bezpečnější se vyhnout.
+  Následující podoba _jsem se stal_ mě zatím neuráží, ale asi až čas ukáže.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f a c c c d c c b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f a c c c \mark\sipka c( d) c c \barMin
+    b \mark\sipka g a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka d c b g a g( a g) \barMaior
+    f a c c c \mark\sipka c( d) c c \barMin
+    b \mark\sipka c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
