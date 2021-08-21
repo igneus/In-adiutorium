@@ -133,7 +133,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f g( f) f \barMin
+    f4 f f f f f f g f \barMin
     f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -455,12 +455,12 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f f f f g( f) f \barMaior
+    f4 f f f f f f f f f f f f f g f \barMaior
     f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f f g( f) f \barMin f f f f e g a \barMax
+    f4 f f f f f g f \barMin f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
