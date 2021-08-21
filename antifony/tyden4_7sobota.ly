@@ -175,8 +175,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') g( f) f( a) a \barMin
-    a g bes a a4. \barMin g4 f e f( d) d \barFinalis
+    d4 d d( a') g( f) f( a) a \barMaior
+    a g bes a a \barMin g4 f e f( d) d \barFinalis
   }
   \addlyrics {
     Dám vám no -- vé srd -- ce
@@ -195,7 +195,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a( c) c4. \barMin c4 b( c) a( g) g \barMin f g a f g4. g \barFinalis
+    c4 a( c) c \barMin c4 b( c) a( g) g \barMin f g a f g g \barFinalis
   }
   \addlyrics {
     Z_úst dě -- tí a ne -- mluv -- ňat sis při -- pra -- vil slá -- vu.

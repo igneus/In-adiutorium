@@ -279,6 +279,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') g( f) f( a) a \barMin
     a g bes a a4. \barMin g4 f e f( d) d \barFinalis
@@ -298,7 +299,31 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') g( f) f( a) a \barMaior
+    a g bes a a \barMin g4 f e f( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 a( c) c4. \barMin c4 b( c) a( g) g \barMin f g a f g4. g \barFinalis
   }
@@ -314,6 +339,27 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a( c) c \barMin c4 b( c) a( g) g \barMin f g a f g g \barFinalis
+  }
+  \addlyrics {
+    Z_úst dě -- tí a ne -- mluv -- ňat sis při -- pra -- vil slá -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 % \score { \tIIsobotaAntBenedictus }
 
