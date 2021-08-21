@@ -589,8 +589,7 @@
     differentia = "G"
     psalmus = ""
     id = "nona"
-    fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
-    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#nona?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
