@@ -229,10 +229,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -261,7 +264,43 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "rch-r-pasch"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f f f \mark\sipka f g f \barMin
+    f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vo -- va -- li o slav -- ných
+    Hos -- po -- di -- no -- vých či -- nech
+    a o je -- ho mo -- ci._* \textRespAleluja
+    \Verse Mlu -- vi -- li o je -- ho po -- di -- vu -- hod -- ných
+    skut -- cích._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r-pasch"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -413,6 +452,8 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
@@ -445,7 +486,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    fial = "commune/commune_apostol.ly#2ne-resp-velik"
+    id = "ne-r-pasch"
     piece = \markup {\sestavTitulekResp}
   }
 }

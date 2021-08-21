@@ -143,7 +143,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f f e f( g f) f \barMaior
+    f4 f f f f f f f f f f f f g f \barMin
     f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
