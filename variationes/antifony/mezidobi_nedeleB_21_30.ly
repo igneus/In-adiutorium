@@ -27,6 +27,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d( e) c c \barMin d a b( g) g \barMaior
     f g a b c d c a( g) a( g) g \barFinalis
@@ -64,6 +65,28 @@
     psalmus = ""
     id = "ne21b-rch-ben"
     fons = "nápěv podle: 19. ne. v mez., cyk. B, 1. nešp., k Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    a g f a b c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-1ne-mag?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
