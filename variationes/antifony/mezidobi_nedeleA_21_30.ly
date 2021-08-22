@@ -1,6 +1,6 @@
 \version "2.19.0"
 
-% -*- master: ../mezidobi_nedele.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"21. neděle"}}
 
@@ -28,8 +28,36 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( f) f \barMin g( d) d \barMaior
+    d d e f f g f e f d( c) c( d) \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_– Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "fial://sanktoral/0629petraapavla.ly#1ne-a2"
+    id = "ne21a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 b d( e) d \barMin
     b( a) b \barMaior
@@ -51,6 +79,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {

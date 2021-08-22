@@ -285,8 +285,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) f \barMin g( d) d \barMaior
     d d e f f g f e f d( c) c( d) \barFinalis
@@ -305,6 +308,34 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d \barMin
+    b( a) b \barMaior
+    b g a b b b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Pe -- tr_–
+    Ská -- la_–_*
+    a na té ská -- le zbu -- du -- ji svou cír -- kev.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Ef 1"
+    fial = "fial://sanktoral/0629petraapavla.ly#1ne-a2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Responsorium ze společných textů o apoštolech.}
 
