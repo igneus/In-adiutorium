@@ -663,10 +663,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Sobota}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
@@ -675,6 +678,39 @@
     g f g f e d c d d e e \barMaior
     d e f g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
     f e( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    fial = "sanktoral/0629petraapavla.ly#rch-aben"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    f( e c) e( f) d d \barFinalis
   }
   \addlyrics {
     Ši -- mon Pe -- tr ře -- kl:_*

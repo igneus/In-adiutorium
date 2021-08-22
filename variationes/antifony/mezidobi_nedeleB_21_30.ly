@@ -95,6 +95,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
@@ -121,6 +122,69 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e g( a bes a) a \barMin g( f) e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "ne21b-2ne-mag"
+    fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?-aleluja&upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e \mark\sipka f( g a) g \barMin f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "ne21b-2ne-mag"
+    fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?-aleluja&upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"22. neděle"}}
 

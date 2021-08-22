@@ -374,10 +374,10 @@
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
     g( f) e \barMin f g a a( bes) a a \barMaior
-    a g( a) g( a) a a( bes) a g a g g \barMaior
+    a a g( a) a a( bes) a g a g g \barMaior
     g f g f e d c d d e e \barMaior
-    d e f g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
-    f e( d) e( d) d \barFinalis
+    e f e g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    f( e c) e( f) d d \barFinalis
   }
   \addlyrics {
     Ši -- mon Pe -- tr ře -- kl:_*

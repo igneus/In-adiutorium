@@ -902,8 +902,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
@@ -931,6 +934,39 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a \mark\sipka a g( a) a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    \mark\sipka e f e g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    \mark\sipka f( e c) e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    % Je to spravne prelozene? Neni lepsi "Ke komu bychom sli?"
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
