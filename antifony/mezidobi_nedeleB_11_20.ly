@@ -590,7 +590,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    id = "ne19-1ne-mag"
+    id = "ne19b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
