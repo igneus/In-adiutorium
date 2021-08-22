@@ -170,8 +170,8 @@ tInedeleInespAntIII = \score {
     \key f \major
     \choralniRezim
     d4 d \barMin
-    f a g( f) g \barMin
-    a4 bes a g( a f e) d \barMax
+    f a g( f) g \barMaior
+    a4 bes a g( a f e) d \barMin
     c4 f( e) d d \barFinalis
   }
   \addlyrics {

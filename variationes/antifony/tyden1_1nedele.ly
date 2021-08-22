@@ -1042,13 +1042,39 @@ je atypická a může bt těžké z ní přejít na žalm.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     d4 d \barMin
     f a g( f) g \barMin
     a4 bes a g( a f e) d \barMax
     \mark\sipka c4 f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    ty jsi můj Bůh,
+    snaž -- ně tě hle -- dám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 63"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    d4 d \barMin
+    f a g( f) g \barMaior
+    a4 bes a g( a f e) d \barMin
+    c4 f( e) d d \barFinalis
   }
   \addlyrics {
     Bo -- že,
