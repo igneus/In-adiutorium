@@ -118,7 +118,7 @@
     }
     \addlyrics {
       Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
-      Pán s_te bou!
+      Pán s_te -- bou!
       Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
     }
     \header {

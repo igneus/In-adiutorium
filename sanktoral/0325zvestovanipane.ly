@@ -778,7 +778,7 @@
     An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
 
     Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
-    Pán s_te bou!
+    Pán s_te -- bou!
     Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
 
     A -- le -- lu -- ja.
