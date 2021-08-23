@@ -1442,7 +1442,7 @@
       kte -- rý nás při -- šel spa -- sit.
     }
     \header {
-      quid = "ant. k Magnigicat"
+      quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"

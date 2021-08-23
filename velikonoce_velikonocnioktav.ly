@@ -124,7 +124,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "ant. /místo responsoria/"
+    quid = "ant. místo responsoria"
     quidbreve = "ant."
     modus = "VII"
     differentia = "a"
