@@ -62,7 +62,7 @@
     a b c b a g a g \barFinalis
     c g a f d \barMin
     e g a c a g g \barMin
-    a g f e d e d c \barFinalis
+    a g e f e d c c \barFinalis
 
     g' a( c) c \barMin g a c b g a g \barMaior
     c g a( f d) \barMin d e f g f e( f d c) c \barFinalis
@@ -110,7 +110,6 @@
     differentia = ""
     psalmus = ""
     poet = "Jednotný kancionál (30. vyd., 2004) 007"
-    placet = "trochu divné je _K tobě voláme_; _lkajíce_ se mi těžko zpívá; _slzavém údolí_ je takové fádní až hrubé"
     id = "salve"
     piece = \markup {\sestavTitulekBezZalmu}
   }
