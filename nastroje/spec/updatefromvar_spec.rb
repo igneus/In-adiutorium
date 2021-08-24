@@ -32,6 +32,12 @@ describe Updater do
       s_cleaned = ' a b c'
       expect(@updater.clean_score(s)).to eq s_cleaned
     end
+
+    it 'removes skipTypesetting settings' do
+      s = "a b c\n   \\set Score.skipTypesetting = ##t  \n  d e f"
+      s_cleaned = "a b c\n  d e f"
+      expect(@updater.clean_score(s)).to eq s_cleaned
+    end
   end
 
   describe '#indentation_level' do

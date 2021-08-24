@@ -7,6 +7,7 @@ module DevelopmentClean
     remove_marks \
       remove_markers \
       remove_trailing_whitespace \
+      remove_skip_typesetting \
       remove_variable_assignment lily_src
   end
 
@@ -31,5 +32,10 @@ module DevelopmentClean
 
   def remove_comments(lily_src)
     lily_src.gsub(/%.*$/, '')
+  end
+
+  def remove_skip_typesetting(lily_src)
+    # remove whole lines
+    lily_src.gsub(/(^\s*)?\\set Score.skipTypesetting = ##[tf](\s*\n)?/m, '')
   end
 end
