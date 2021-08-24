@@ -8,6 +8,11 @@ def grep_line_number(grep_output_line)
 end
 
 def edit_fial(fial_str)
+  line = 0
+  if fial_str.include? ':'
+    fial_str, line = fial_str.split(':', 2)
+  end
+
   fial = FIAL.parse(fial_str)
   id_line =
     grep_line_number `grep --line-number --max-count=1 'id = "#{fial.id}"' #{fial.path}`
@@ -18,7 +23,8 @@ def edit_fial(fial_str)
   end
 
   score_line =
-    grep_line_number `head --lines #{id_line} #{fial.path} | grep --line-number '\\\\score' | tail --lines 1`
+    grep_line_number(`head --lines #{id_line} #{fial.path} | grep --line-number '\\\\score' | tail --lines 1`) +
+    line.to_i
 
   `frescobaldi --line #{score_line} #{fial.path}`
 end
