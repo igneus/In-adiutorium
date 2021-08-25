@@ -202,7 +202,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    fial = "vanoce_zjevenipane.ly#krtu-2ne-amag?zacatek"
+    fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
