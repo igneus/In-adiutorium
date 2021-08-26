@@ -41,12 +41,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) c( a) g( a) \barMin f e d e f g( a) g \barMaior
-    a b c a b( g ) a \barMin c d c b( a) g a( g) g \barFinalis
+    g4( c) a( g) a \barMin
+    a g f g a g g \barMaior
+    c d c b a( g) a \barMin
+    c a a c b a( g) g \barFinalis
   }
   \addlyrics {
-    V_moud -- ros -- ti ot -- ví -- ra -- la svá ús -- ta,
-    na ja -- zy -- ku mě -- la las -- ka -- vé po -- u -- če -- ní.
+    V_moud -- ros -- ti
+    ot -- ví -- ra -- la svá ús -- ta,
+    na ja -- zy -- ku mě -- la
+    las -- ka -- vé po -- u -- če -- ní.
   }
   \header {
     quid = "2. ant."
