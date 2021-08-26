@@ -268,6 +268,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -308,6 +309,48 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f \mark\sipka f-! g f f \barMin
+    g f f g f g( a) a( g) \barMax
+    g g g \mark\sipka a g( f) d d \barMin
+    f f f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4( bes) a g( a) g \barMin g g g g g g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g \mark\sipka a g( f) d d \barMin
+    f f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ja -- ko od Bo -- ha vy -- vo -- le -- ní,
+    sva -- tí a mi -- lo -- va -- ní_*
+    pro -- je -- vuj -- te na -- ve -- nek
+    mi -- lo -- srd -- né srd -- ce.
+    \Verse Bla -- ze to -- mu, kdo si vší -- má
+    chu -- dá -- ka a u -- bo -- žá -- ka.
+    \Response pro -- je -- vuj -- te na -- ve -- nek
+    mi -- lo -- srd -- né srd -- ce.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
     \choralniRezim
     \key f \major
     d4 d f( g a) g f( g) d d \barMin
@@ -337,6 +380,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\italic{
@@ -346,6 +391,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -376,6 +422,42 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f( g) f f \barMin f f f g f g( a) a( g) \barMax
+    g g g a g( f d) d \barMin f f \mark\sipka f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin g \mark\sipka f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f d) d \barMin f f \mark\sipka f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bez -- bož -- ní -- ci na mě čí -- ha -- jí,
+    a -- by mě za -- hu -- bi -- li,_*
+    já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \Verse Kní -- ža -- ta mě stí -- ha -- jí bez dů -- vo -- du._*
+    \Response Já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

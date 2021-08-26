@@ -91,16 +91,16 @@
 
     % R
     \neviditelna f
-    f4 f f f f g f g( a) a( g) \barMin
-    f e d f g a( g) g \barMax
-    g g g g g( a) g( f d) d \barMin
+    f4 f f f f f-! g f f \barMin
+    g f f g f g( a) a( g) \barMax
+    g g g a g( f) d d \barMin
     f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a g( a) g \barMin g g g g g g g g f g g( a) a( g) \barMax
+    a4( bes) a g( a) g \barMin g g g g g g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g g g( a) g( f d) d \barMin
+    g g g a g( f) d d \barMin
     f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
@@ -119,7 +119,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "zjednodušit _navenek_"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -170,13 +169,13 @@
     % R
     \neviditelna f
     f4 f f f f f f( g) f f \barMin f f f g f g( a) a( g) \barMax
-    g g g a g( f d) d \barMin f f f( g) g f f \barFinalis
+    g g g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a g( a) g g \barMin g f( g) g( a) a( g) \barMax
+    a4 a a a g( a) g g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g a g( f d) d \barMin f f f( g) g f f \barFinalis
+    g g g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
