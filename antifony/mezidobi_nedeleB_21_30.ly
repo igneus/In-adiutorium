@@ -79,21 +79,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g a g( f) g e \barMin e d( e) e f g a( c b) a b( a) a \barMaior
-    d d d c a a \barMin c( d c) d c a a \barMin
-    g( a g f) e f g( a) a( g) g \barFinalis
+    g a c( d) d c \barMin
+    d e e d c d( e) e d d \barMaior
+    d c b a g a \barMin
+    c b a( b) a( g) g \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Za -- cho -- vá -- vej -- te a plň -- te Bo -- ží při -- ká -- zá -- ní,
-    ne -- boť tak bu -- de -- te v_o -- čích ná -- ro -- dů
+    Za -- cho -- vá -- vej -- te
+    a plň -- te Bo -- ží při -- ká -- zá -- ní,
+    ne -- boť tak bu -- de -- te
+    v_o -- čích ná -- ro -- dů
     moud -- ří a ro -- zum -- ní.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "v tomto stavu nechť nezůstane"
     id = "ne22b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -104,12 +107,14 @@
     \choralniRezim
     f4 f g f g a g g \barMin
     f g f e d c d c c \barMaior
-    d d f g( f) d( e d) d \barMin f( e) c f( d) d \barFinalis
+    d d f g( f) d d \barMin
+    c d e( f d) d \barFinalis
   }
   \addlyrics {
     Buď -- te vní -- ma -- ví pro slo -- vo,
     kte -- ré do vás by -- lo vlo -- že -- no
-    a mů -- že za -- chrá -- nit va -- ši du -- ši.
+    a mů -- že za -- chrá -- nit
+    va -- ši du -- ši.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -124,10 +129,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c g g a f g g( a) \barMin
-    a a a f( a) c b( a b) a \barMaior
-    g b c d b( c) b( a g) g \barMin
-    a g f( g) a a( g) g \barFinalis
+    c4 c c b g g a f g g( a) \barMin
+    a b c c( d) c a a \barMaior
+    c c b a g( a) g g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Člo -- vě -- ka ne -- mů -- že po -- skvr -- nit nic,
@@ -140,7 +145,6 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    placet = "lépe"
     id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
