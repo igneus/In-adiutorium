@@ -13,8 +13,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a b c a g g a a4. \barMin
-    b4 c d d c( b) c d e( d c d) d4.( c) \barMax
+    a4 a g a b c a g g a a \barMin
+    b4 c d d c( b) c d e( d c d) d( c) \barMax
     a4 b c c d( c) d d c c \barMaior
     d e d c( b) a a b g a( b) c \barMaior
     c c c( d c) b( c) a g g( a) a \barFinalis
@@ -40,7 +40,7 @@
   \relative c' {
     \choralniRezim
     f4 d d c d f e d d \barMaior
-    g f g g( a) a4. \barMin a4 a g f e e4. \barMaior
+    g f g g( a) a \barMin a4 a g f e e \barMaior
     f4 d d c d e f d d \barMax
     d c( d e f) d f g( f d) d \barMaior
     e e d e f e d c d d \barFinalis
