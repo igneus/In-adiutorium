@@ -115,7 +115,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) g g( c) c \barMin
     \mark\sipka b a a( b g) g \barMaior
@@ -139,6 +139,63 @@
     modus = "III"
     differentia = "g"
     psalmus = "1Tim 3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a g( c) c \barMin
+    b a a( b g) g \barMaior
+    g e( f) g( a) a g a( c b) a b( g) g \barMin
+    f( a) g f g g \barMax
+    \mark\sipka a c c c d( c) b( g) g \barMin
+    g a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Hvěz -- da zá -- ří
+    ja -- ko o -- heň
+    a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
+    Krá -- li všech krá -- lů;
+    mu -- dr -- ci ji spa -- tři -- li
+    a při -- nes -- li mu da -- ry.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1Tim 3"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g( c) c \barMin
+    b a a( b g) g \barMaior
+    g e( f) g( a) a g a( c b) a b( g) g \barMin
+    f( a) g f g g \barMax
+    a c c c \mark\sipka c( d) c c \barMin
+    a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hvěz -- da zá -- ří
+    ja -- ko o -- heň
+    a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
+    Krá -- li všech krá -- lů;
+    mu -- dr -- ci ji spa -- tři -- li
+    a při -- nes -- li mu da -- ry.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1Tim 3"
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }

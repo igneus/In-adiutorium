@@ -58,29 +58,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) g g( c) c \barMin
+    g4 a g( c) c \barMin
     b a a( b g) g \barMaior
     g e( f) g( a) a g a( c b) a b( g) g \barMin
-    f( a) g f g4. g \barMax
-
-    f4 g g g a( c) b( g) g \barMin
-    g a f f f e e \barFinalis
+    f( a) g f g g \barMax
+    a c c c d( c) b( g) g \barMin
+    g a g f a g g \barFinalis
   }
   \addlyrics {
     Hvěz -- da zá -- ří
     ja -- ko o -- heň
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
     Krá -- li všech krá -- lů;
-
     mu -- dr -- ci ji spa -- tři -- li
     a při -- nes -- li mu da -- ry.
   }
   \header {
     quid = "3. ant."
-    modus = "III"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "1Tim 3"
-    placet = "to je spíš k modu VIII"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
