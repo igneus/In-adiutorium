@@ -86,27 +86,6 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g( c d) c b( a) c \barMin
-    b g a a g \barFinalis
-  }
-  \addlyrics {
-    Chval -- te Pá -- na,
-    všech -- ny ná -- ro -- dy.
-  }
-  \header {
-    quid = "responsum vkládané do kantika"
-    modus = "III"
-    differentia = "g"
-    psalmus = "1Tim 3"
-    placet = "jednodušší"
-    id = "1ne-kantresp"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
     g4 a( c) c c c d c c b( a) c \barMax
     c c c b a b a g \barFinalis \break
 
@@ -1045,27 +1024,6 @@
       placet = "půjde lépe"
       id = "krtu-1ne-a3"
       piece = \markup {\sestavTitulek}
-    }
-  }
-
-  \score {
-    \relative c' {
-      \choralniRezim
-      d4 a' a( bes) g \barMin
-      f f e( f) d d \barFinalis
-    }
-    \addlyrics {
-      Chval -- te Pá -- na,
-      všech -- ny ná -- ro -- dy.
-    }
-    \header {
-      quid = "responsum vkládané do kantika"
-      modus = "I"
-      differentia = "D"
-      psalmus = ""
-      placet = "jinak. Mělo by být prosté a elegantní."
-      id = "krtu-1ne-kantresp"
-      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 

@@ -525,36 +525,10 @@
     modus = "I"
     differentia = "g"
     psalmus = "1Tim 3"
-    placet = "kantikum vyřešit jako celek,
-    třeba i za cenu úplně samostatného nápěvu nevyužívajícího psalmodické vzorce.
-    Takhle zní jako nesourodý slepenec.
-    A vkládané responsum je zbytečně utahané, mělo by být prostší"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    g4( f) g a( g f e) d \barMin
-    e( g f) e c d d \barFinalis
-  }
-  \addlyrics {
-    Chval -- te Pá -- na,
-    všech -- ny ná -- ro -- dy.
-  }
-  \header {
-    quid = "responsum vkládané do kantika"
-    modus = "I"
-    differentia = "g"
-    psalmus = ""
-    id = "2ne-kantresp"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\markup\italic{Verše kantika zpívá kantor na běžný nápěv psalmodie.}
 
 \score {
   \relative c' {
