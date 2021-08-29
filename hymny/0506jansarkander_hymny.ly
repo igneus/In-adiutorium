@@ -45,7 +45,7 @@
     fons_externus = "JK(Ol), č. 899"
     quid = "hymnus"
     modus = ""
-    id = ""
+    id = "mc"
     piece = "modlitba se čtením"
   }
 }
@@ -79,7 +79,7 @@
     fons_externus = "Boží cesta č. 235"
     quid = "hymnus"
     modus = ""
-    id = ""
+    id = "rch"
     piece = "ranní chvály"
   }
 }
@@ -110,7 +110,7 @@
     fons_externus = "JK(Ol), č. 892"
     quid = "hymnus"
     modus = ""
-    id = ""
+    id = "ne"
     piece = "nešpory"
   }
 }

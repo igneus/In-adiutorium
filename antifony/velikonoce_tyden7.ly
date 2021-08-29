@@ -379,6 +379,7 @@
     differentia = "G*"
     psalmus = "so-aben"
     fial = "commune/commune_apostol.ly#sexta?zacatek upraven"
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

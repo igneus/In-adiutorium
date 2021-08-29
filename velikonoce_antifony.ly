@@ -64,7 +64,8 @@
       quid = "ant."
       modus = "VII"
       differentia = "d"
-      psalmus = "invit2"
+      psalmus = ""
+      id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

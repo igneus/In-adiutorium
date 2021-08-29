@@ -29,7 +29,7 @@
   \header {
     quid = "hymnus"
     modus = ""
-    id = ""
+    id = "mc"
     piece = "modlitba se čtením"
   }
 }
@@ -66,7 +66,7 @@
     quid = "hymnus"
     fons_externus = "92" % číslo nápěvu podle MZ
     modus = ""
-    id = ""
+    id = "ne"
     piece = "nešpory"
   }
 }

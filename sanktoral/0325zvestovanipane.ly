@@ -787,7 +787,8 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
-    psalmus = "2ne-amag"
+    psalmus = ""
+    id = "2ne-amag"
     placet = "recyklace existující antifony je fajn,
     antifona k Magnificat druhých nešpor slavnosti by si možná
     zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
