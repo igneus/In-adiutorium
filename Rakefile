@@ -106,7 +106,7 @@ namespace :sanity do
 
   desc "Search for scores missing an ID"
   task :missing_ids do
-    sh 'grep', 'id = ""', *all_ly_files
+    sh 'ruby', 'nastroje/missing_ids.rb', *all_ly_files
   end
 
   desc "Check if copied scores still match the sources"
