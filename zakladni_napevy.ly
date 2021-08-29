@@ -44,37 +44,6 @@
     }
   }
 
-  %{
-  \markup\justify{
-    Klasické podání verše \italic{Domine, labia mea aperies}
-    má nejprostší myslitelný nápěv (viz výše).
-    Do pokoncilní liturgické reformy po něm ovšem bezprostředně
-    následoval verš \italic{Deus, in adiutorium meum intende},
-    který je melodicky o něco bohatší.
-    V současném kontextu, kdy verš \italic{Domine, labia mea aperies}
-    stojí na začátku první modlitby sám, se mi s klasickým
-    nápěvem zdá být pro hodinku slabým začátkem.
-    Proto vedle nápěvu podle \italic{Antiphonale Romanum}
-    nabízím i několik vlastních pokusů o jeho zpracování:
-  }
-
-  \score {
-    \relative c'' {
-      \choralniRezim
-      \neviditelna a
-      a4 a a g f f( g) e \barMax
-      \neviditelna e
-      f g g( a) a a c b a( b a) a \barFinalis
-    }
-    \addlyrics {
-      \paneOtevri
-    }
-    \header {
-      piece = "J.P."
-    }
-  }
-  %}
-
   \markup\sekce{I.2 Ostatní hodinky}
 
   \markup\sekce{I.2.1 nápěvy podle \italic{Antiphonale Romanum (1912)}}

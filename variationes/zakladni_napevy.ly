@@ -54,7 +54,6 @@ uvodniVers = \lyricmode {
     }
   }
 
-  %{
   \markup\justify{
     Klasické podání verše \italic{Domine, labia mea aperies}
     má nejprostší myslitelný nápěv (viz výše).
@@ -83,7 +82,8 @@ uvodniVers = \lyricmode {
       piece = "J.P."
     }
   }
-  %}
+
+  \pageBreak
 
   \markup\sekce{I.2 Ostatní hodinky}
 
