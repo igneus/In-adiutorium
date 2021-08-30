@@ -36,14 +36,46 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) a b a a( g) g \barMaior
-    g g g a g f a c c b b \barMin
+    g( a) g g f g a c c c b b \barMin
     c( d) c b( c) a g g \barMaior
-    g f g g( a) a \barMin
-    c c b a g( a) g g \barMin
+    g f g g( a) a( g) \barMin
+    a c c c c( d) c b( a g) \barMin
+    a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá pan -- na Ce -- cí -- li -- e
+    no -- si -- la Kris -- to -- vo e -- van -- ge -- li -- um
+    stá -- le ve svém srd -- ci
+    a ne -- u -- stá -- le
+    roz -- mlou -- va -- la o Bo -- hu
+    ne -- bo s_Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) a b a a( g) g \barMaior
+    \mark\sipka g g g a g f a c c b b \barMin
+    c( d) c b( c) a g g \barMaior
+    g f g g( a) \mark\sipka a \barMin
+    \mark\sipka c c b a g( a) g g \barMin
     f g a( g) g \barFinalis
   }
   \addlyrics {
