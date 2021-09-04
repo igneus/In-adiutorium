@@ -195,6 +195,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f( a g) f( e) e \barMin f g g g f d d( e) e \barMaior
     e f g g a( b a) g( a) g a g( e f) e \barMin
@@ -211,6 +212,28 @@
     differentia = "E"
     psalmus = "Žalm 149"
     placet = "doladit přinejmenším _utíkala_ a závěr"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a a g f d( e) e \barMaior
+    e f g g a b a g a( g) g \barMin
+    g g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    By -- la si vě -- do -- ma hro -- zí -- cí -- ho ne -- bez -- pe -- čí,
+    a pro -- to se u -- tí -- ka -- la k_Bo -- hu
+    a vrouc -- ně se mod -- li -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -258,6 +281,31 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f( g) g( a) a \barMin
+    c c b a g a g g \barMaior
+    g a c c d d c d d( c) c \barMin
+    a a( c) b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    By -- la si vě -- do -- ma
+    hro -- zí -- cí -- ho ne -- bez -- pe -- čí,
+    a pro -- to se u -- tí -- ka -- la k_Bo -- hu
+    a vrouc -- ně se mod -- li -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}

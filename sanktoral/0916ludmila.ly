@@ -63,23 +63,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e f( a g) f( e) e \barMin f g g g f d d( e) e \barMaior
-    e f g g a( b a) g( a) g a g( e f) e \barMin
-    e d( c) d e f( a g) f( e) e \barFinalis
+    g4 g g f( g) g( a) a \barMin
+    c c b a g a g g \barMaior
+    g a c c d d c d d( c) c \barMin
+    a a( c) b a g( a) g g \barFinalis
   }
   \addlyrics {
-    By -- la si vě -- do -- ma hro -- zí -- cí -- ho ne -- bez -- pe -- čí,
+    By -- la si vě -- do -- ma
+    hro -- zí -- cí -- ho ne -- bez -- pe -- čí,
     a pro -- to se u -- tí -- ka -- la k_Bo -- hu
     a vrouc -- ně se mod -- li -- la.
   }
   \header {
     quid = "3. ant."
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 149"
-    placet = "doladit přinejmenším _utíkala_ a závěr"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
