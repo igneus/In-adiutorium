@@ -202,6 +202,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Dt 32"
+    placet = "stále to není ono"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
