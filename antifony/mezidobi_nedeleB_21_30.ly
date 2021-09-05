@@ -177,9 +177,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g a a c( d) d c d d \barMaior
-    f f f f e e d( c b) a \barMaior
-    g f( g a) g( a) g g \barFinalis
+    c4 d c b a g g a g f g g \barMaior
+    a g a g a c c( b) b \barMin
+    a a( c) b( a) g g \barFinalis
   }
   \addlyrics {
     K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
@@ -188,10 +188,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    placet = "hrůza"
     id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

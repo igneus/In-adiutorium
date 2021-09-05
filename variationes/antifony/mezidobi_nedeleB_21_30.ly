@@ -421,8 +421,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g a a c( d) d c d d \barMaior
     f f f f e e d( c b) a \barMaior
@@ -437,6 +440,29 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ne23b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c b a g g a g f g g \barMaior
+    a g a g a c c( b) b \barMin
+    a a( c) b( a) g g \barFinalis
+  }
+  \addlyrics {
+    K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
+    a -- by na něj vlo -- žil ru -- ku
+    a u -- zdra -- vil ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ne23b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
