@@ -14,25 +14,27 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e f) e( d c) d c c d d \barMin
-    d( e d) c( b) a b( c a) a \barMaior
-    c d e( f g) f( e) d d \barMin f( e d) c( d) e b \barMaior
-    c( e d f) e( d) \barMin f f f( g) f e( c) d \barFinalis
+    g4 a g f f g g \barMin
+    g( a g) f( e) d e( f d) d \barMaior
+    f g a( bes) g g( a) a \barMin
+    a( c) d c( b a b) c( a) \barMaior
+    g( a g d) d \barMin
+    c d f e d d \barFinalis
   }
   \addlyrics {
     Ne -- sy -- pa -- la ka -- did -- lo
     na ol -- tář mod -- lám,
-    a -- le při -- ná -- še -- la o -- běť chvá -- ly
+    a -- le při -- ná -- še -- la
+    o -- běť chvá -- ly
     Bo -- hu, své -- mu spa -- si -- te -- li.
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "g"
     psalmus = "Žalm 63"
-    placet = "nesedí v modu; skutečná finála je pravděpodobně a -> po transposici I.g"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -133,8 +135,8 @@
     f g( a bes) a g a a \barMaior
     a a bes( g a g f) g \barMin g( a) f e d( e) d d \barMax
 
-    f g a( bes c) bes( a) g bes a( f) g g \barMaior
-    f( g f) g( a) f e d( e) d d \barMaior
+    f g a( bes c) bes( a) g bes a( f) f( g) g \barMaior
+    g( a) g f e d( e) d d \barMaior
     d c d f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -199,17 +201,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d c) e( d) d \barMin
-    e f g f e f( e) d c d d \barMaior
-    c c c c( d) c( b g) g \barMin f( g) g \barMin g g a( g) a a( g) g \barMax
-    g( f g) a( c) c \barMin d( e) f e( d) c d c a a \barMin
-    c( b g) a g f( g) g \barFinalis
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    d d( e) d \barMin
+    d c b a g a g g \barMaior
+    f g a a( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
     o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
-    a je -- jí duch já -- sal v_Bo -- hu, je -- jím spa -- si -- te -- li;
-    Bůh při -- jal o -- běť je -- jí -- ho ži -- vo -- ta
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
     se za -- lí -- be -- ním.
   }
   \header {
@@ -217,7 +223,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "nic moc"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
