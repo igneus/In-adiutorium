@@ -37,14 +37,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a a g g4.( a) \barMaior
-    e4 g( a) a a a a b c a g e( a) a \barMaior
-    e4 g a a a a g f e( d) e \barFinalis
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f a c c c c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja f e e \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Bla -- ho -- sla -- ve -- ní, kdo lač -- ní a žíz -- ní
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
     po spra -- ve -- dl -- nos -- ti,
     ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
 
@@ -52,8 +54,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     fons = "žaltář, ne 4.t., 2.nešp., 2.ant.; doplněno aleluja"

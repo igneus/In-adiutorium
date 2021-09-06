@@ -34,8 +34,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c) a a g g4.( a) \barMaior
     e4 g( a) a a a a b c a g e( a) a \barMaior
@@ -61,6 +64,41 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f a c c c c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    fons = "žaltář, ne 4.t., 2.nešp., 2.ant.; doplněno aleluja"
+    fial = "antifony/tyden4_1nedele.ly#2ne-ant2?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
