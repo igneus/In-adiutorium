@@ -6,6 +6,7 @@ require 'tempfile'
 
 require 'lyv'
 require_relative 'fial'
+require_relative 'lib/checkcopies/child_parent_comparison'
 
 # Encapsulates a String referencing either a whole file or a single score,
 # resolves the reference to an enumeration of scores.
@@ -24,61 +25,6 @@ class Reference
     end
 
     @repo.music_by_path(@ref).scores.each {|s| yield s }
-  end
-end
-
-# Comparison of two scores
-class Comparison
-  def initialize(child, parent)
-    @child = child
-    @parent = parent
-
-    @fial = FIAL.parse @child.header['fial']
-  end
-
-  attr_reader :child, :parent
-
-  def match?
-    if @fial.additional.has_key?('cast')
-      return normalized_parent.include? strip_wrappers(normalized_child)
-    end
-
-    normalized_parent == normalized_child
-  end
-
-  def normalized_child
-    normalize(@child.music, @fial.additional.has_key?('+aleluja'))
-  end
-
-  def normalized_parent
-    normalize(@parent.music, @fial.additional.has_key?('-aleluja'))
-  end
-
-  private
-
-  def normalize(music, strip_aeuia)
-    n =
-      music
-        .strip
-        .gsub(/\s+/, ' ')
-        .gsub('^\markup\rubrVelikAleluja', '')
-        .gsub(/\\stem(Up|Down)\s*/, '')
-    n = strip_alleluia(n) if strip_aeuia
-
-    p n if @debug
-
-    n
-  end
-
-  def strip_alleluia(music)
-    # simply remove the last bar
-    music.sub(/\\bar[^\\]+(?=\\barFinalis \}$)/, '')
-  end
-
-  def strip_wrappers(music)
-    music
-      .sub(/^\\relative.+?\{\s*\\choralniRezim\s*/, '')
-      .sub(/\s*\\barFinalis\s*\}$/, '')
   end
 end
 
@@ -181,7 +127,7 @@ arguments.each do |file_or_fial|
       raise
     end
 
-    comparison = Comparison.new score, parent
+    comparison = ChildParentComparison.new score, parent
 
     header = "#{score_ref} < #{parent_ref} : "
     if comparison.match?
