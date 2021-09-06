@@ -136,8 +136,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f( g) f f f( e) d d \barMaior
     d c( d e f) f \barMin g( f) g g( f) \barMaior
@@ -159,6 +162,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f( g) f e f d d \barMaior
+    d c( d e f) f g( f) g g( f) \barMaior
+    g g g( a) f d e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Co pro -- spě -- je člo -- vě -- ku,
+    když zí -- ská ce -- lý svět,
+    a -- le ztra -- tí svou du -- ši?
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0731ignac.ly#amag"
+    id = "ne22a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
