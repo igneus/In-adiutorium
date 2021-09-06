@@ -184,7 +184,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
+    d4 d d e f e( d) d \barMin g f d e( f) d d \barFinalis
   }
   \addlyrics {
     Dě -- lí se o můj o -- děv,_* lo -- su -- jí o můj šat.

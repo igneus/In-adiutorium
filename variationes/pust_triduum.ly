@@ -451,6 +451,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis
   }
@@ -467,6 +468,30 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e f e( d) d \barMin g f d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv,_* lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22"
+    id = "pa-mc-ant2"
+    fial = "fial://antifony/tyden3_6patek.ly#up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
