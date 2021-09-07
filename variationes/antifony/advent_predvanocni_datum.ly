@@ -240,8 +240,34 @@ v předvánočním týdnu latinsky.}
 \markup {\nadpisDen {20. prosince}}
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c( d) d d d e d c b c b a \barMin
+    g c b g g( a) a a \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    za -- snou -- be -- né s_Jo -- se -- fem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Benedictus"
+    fons = "4. ne. adv., cyklus B, ant. k Benedictus. Odebráno Aleluja."
+    fial = "fial://antifony/advent_nedeleB.ly#ivben?-aleluja"
+    id = "predvanocni-20-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c( d) d d d e d c b c b a \barMaior
     g c b g g( a) a a \barFinalis
   }
   \addlyrics {
