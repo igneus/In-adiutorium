@@ -44,7 +44,10 @@ class ChildParentComparison
 
   def strip_alleluia(music)
     # simply remove the last bar
-    music.sub(/\\bar[^\\]+(?=\\barFinalis \}$)/, '')
+    last_bar = music.rindex '\barFinalis'
+    second_last_bar = music.rindex '\bar', last_bar - 1
+
+    music[0..second_last_bar-1] + music[last_bar..-1]
   end
 
   def strip_wrappers(music)
