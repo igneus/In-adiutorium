@@ -89,9 +89,9 @@
     \choralniRezim
     \key f \major
     a4 a a a a bes a g f f( g) g \barMin
-    f g g g g a g a a( bes a) a \barMax
+    f g g g g a g a a( bes a) a \barMaior
     a d c d4. a \barMin
-    g4( a) f e d \barMax
+    g4( a) f e d \barMaior
     d4( a' f) g( f) e( f) d \barFinalis
   }
   \addlyrics {
