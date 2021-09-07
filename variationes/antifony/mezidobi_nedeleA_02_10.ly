@@ -72,10 +72,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"3. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a( g f) f( g) g f \barMaior
     f e f d c d d( c) \barMin d( e f) g a g f f \barFinalis
@@ -95,6 +98,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c \barMin
+    c d c b a g g \barMin
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne3a-1ne-amag"
+    fial = "antifony/advent_nedeleA.ly#iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
