@@ -1175,11 +1175,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d \barMin
     c d d d e c c( d) d \barMaior
     a d b c a( g) a( g) \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d \mark\sipka c b a( g) a( g) \barMin
     f g a c b g a a \barFinalis
   }
   \addlyrics {
