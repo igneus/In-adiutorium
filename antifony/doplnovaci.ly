@@ -112,12 +112,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g g a( bes a) a
-    bes c bes a f( g) g \barMin
-    bes a f g f f \barFinalis
+    f4 f f f g f \barMin
+    g f g a a( g) g \barMaior
+    f g a g f f \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je všu -- de ko -- lem své -- ho li -- du,
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du
     ny -- ní i na -- vě -- ky.
   }
   \header {
@@ -125,10 +126,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 125"
-    placet = "zdroj se změnil"
     id = "sexta-ant3"
-    fons = "jen začátek podle žaltář, út 3.t., nešp., 1. ant."
-    fial = "antifony/tyden3_3utery.ly#ne-ant1?cast"
     piece = \markup {\sestavTitulek}
   }
 }

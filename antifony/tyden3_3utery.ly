@@ -211,8 +211,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g a \barMin
-    a g f g g( f) f \barFinalis
+    f4 g a f g g \barMin
+    f d f g g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
