@@ -159,7 +159,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f g a \barMin a a( c) g a g f g \barMaior
+    d4 f e f g a \barMin a c g a g f g \barMaior
     f e c c( d) d \barFinalis
   }
   \addlyrics {
@@ -174,8 +174,6 @@
     psalmus = ""
     annus = "A"
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?jiny_text"
-    placet = "váhám, jestli _nenásleduje_ unese to původní melisma
-    (zkopírované ze zpěvu s jiným textem, který ho nese lépe)"
     id = "ne13a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

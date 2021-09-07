@@ -187,6 +187,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f g a \barMin a a( c) g a g f g \barMaior
     f e c c( d) d \barFinalis
@@ -209,6 +210,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f g a \barMin a \mark\sipka c g a g f g \barMaior
+    f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo ne -- be -- re svůj kříž
+    a ne -- ná -- sle -- du -- je mě,
+    ne -- ní mě ho -- den.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?jiny_text"
+    id = "ne13a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
