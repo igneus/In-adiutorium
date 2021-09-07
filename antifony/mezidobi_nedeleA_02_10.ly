@@ -621,17 +621,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f g d d f( e d) c c d d \barMin
-    d d d c( d) c b a a \barMaior
-    c c( d) d d \barMin f( g) f( e d) d \barMaior
-    d g( d e c d) \barMin f f( g) f( d) d \barFinalis
+    d4 d f e f g f f \barMin
+    g f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barMaior
+    a c( d) d d \barMin
+    g f( e) d \barMaior
+    d f4.( d) \barMin
+    c4 d e( d) d \barFinalis
   }
   \addlyrics {
-    Je -- žíš u -- vi -- děl v_cel -- ni -- ci se -- dět člo -- vě -- ka,
+    Je -- žíš u -- vi -- děl v_cel -- ni -- ci
+    se -- dět člo -- vě -- ka,
     kte -- rý se jme -- no -- val Ma -- touš,
     a ře -- kl mu:
     Pojď za mnou!
-    On vstal a šel za ním.
+    On vstal
+    a šel za ním.
   }
   \header {
     quid = "ant. k Magnificat"

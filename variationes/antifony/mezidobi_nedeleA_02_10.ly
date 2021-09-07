@@ -734,10 +734,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"10. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e f g d d f( e d) c c d d \barMin
     d d d c( d) c b a a \barMaior
@@ -762,6 +765,43 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e f g f f \barMin
+    g f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barMaior
+    a c( d) d d \barMin
+    g f( e) d \barMaior
+    d f4.( d) \barMin
+    c4 d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl v_cel -- ni -- ci
+    se -- dět člo -- vě -- ka,
+    kte -- rý se jme -- no -- val Ma -- touš,
+    a ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0921matous.ly#aben?cast_spolecna"
+    id = "ne10a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
