@@ -513,6 +513,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -525,6 +526,38 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna g
       g( f d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
+      \Verse On je mé ú -- to -- čiš -- tě, můj za -- chrán -- ce,_*
+      \Response k_ně -- mu se u -- tí -- kám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ut-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g( a) a( g) \barMax
+      \mark\sipka f( d) f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
@@ -1497,6 +1530,38 @@ doxologieResponsoriumVI = {}
       % V
       \neviditelna a
       a a( bes) a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
+      % R
+      \neviditelna f
+      g g g( f d) f( g) g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
+      ja -- ko vů -- ně ka -- did -- la.
+      \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť_*
+      \Response ja -- ko vů -- ně ka -- did -- la.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2po-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f f f f f f f f f g f g( a) a( g) \barMax
+      g g g( f d) f( g) g f f \barFinalis
+      % V
+      \neviditelna a
+      a a( bes) a a g( a) g \barMin g g g g \mark\sipka a g f g( a) a( g) \barMax
       % R
       \neviditelna f
       g g g( f d) f( g) g f f \barFinalis

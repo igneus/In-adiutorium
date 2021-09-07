@@ -279,13 +279,13 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna f
       f4 f f g( a) a( g) \barMax
-      g( f d) f g g f f \barFinalis
+      f( d) f g g f f \barFinalis
       % V
       \neviditelna a
       a a a a( bes) g g( a) g \barMin g f g g( a) \barMax
       % R
       \neviditelna g
-      g( f d) f g g f f \barFinalis
+      f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }
