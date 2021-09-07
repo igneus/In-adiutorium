@@ -291,8 +291,30 @@ v předvánočním týdnu latinsky.}
 \markup {\nadpisDen {21. prosince}}
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b g g a g f g a4. a \barMin
+    f4 g a g f f e \barFinalis
+  }
+  \addlyrics {
+    Při -- prav -- te se na set -- ká -- ní s_Pá -- nem,
+    při -- jde už za čty -- ři dny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Benedictus"
+    id = "predvanocni-21-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b g g a g f g a a \barMin
     f4 g a g f f e \barFinalis
   }
   \addlyrics {

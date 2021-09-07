@@ -235,7 +235,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g g a g f g a4. a \barMin
+    a4 b g g a g f g a a \barMin
     f4 g a g f f e \barFinalis
   }
   \addlyrics {
