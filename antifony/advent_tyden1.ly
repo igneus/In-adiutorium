@@ -530,7 +530,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) e f( g) g \barMin g f g g a a \barMaior
+    d f f( g) g \barMin g f g g a a \barMaior
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
   }
   \addlyrics {

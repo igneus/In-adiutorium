@@ -2922,9 +2922,59 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e f( g) g \barMin g f g g a a \barMaior
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+    f^\markup\small\italic{V době velikonoční:} e f d d \barMaior e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod \markup{\Dagger ži} -- vo -- ta tvé -- ho.
+
+    \markup{\Dagger ži} -- vo -- ta tvé -- ho. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    placet = "velikonoční zakončení půjde udělat elegantněji;
+    dráždí mě melismata na přízvučných slabikách _Požehnaná_,
+    obzvlášť to první; zatím úplně nerozumím tomu, proč se tady nehodí,
+    ale zní to nepřirozeně"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d f f( g) g \barMin g f g g a a \barMaior
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+    \mark\sipka f^\markup\rubrVelikAleluja g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod \markup{\Dagger ži} -- vo -- ta tvé -- ho.
+
+    \markup{\Dagger ži} -- vo -- ta tvé -- ho. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g f f \barMin f g f g a a \barMaior
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
     f^\markup\small\italic{V době velikonoční:} e f d d \barMaior e c c( d) d \barFinalis
   }

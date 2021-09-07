@@ -1518,8 +1518,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e f( g) g \barMin g f g g a a \barMaior
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    fons = "commune P.M., 2. nešp., 3. ant.; bez aleluja"
+    fial = "fial://commune/commune_maria.ly#2ne-a3?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f f( g) g \barMin g f g g a a \barMaior
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
   }
   \addlyrics {

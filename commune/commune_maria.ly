@@ -723,9 +723,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) e f( g) g \barMin g f g g a a \barMaior
+    d f f( g) g \barMin g f g g a a \barMaior
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
-    f^\markup\rubrVelikAleluja e f d d \barMaior e c c( d) d \barFinalis
+    f^\markup\rubrVelikAleluja g f e c e f d d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
@@ -738,10 +738,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
-    placet = "velikonoční zakončení půjde udělat elegantněji;
-    dráždí mě melismata na přízvučných slabikách _Požehnaná_,
-    obzvlášť to první; zatím úplně nerozumím tomu, proč se tady nehodí,
-    ale zní to nepřirozeně"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

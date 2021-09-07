@@ -633,8 +633,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e f( g) g \barMin g f g g a a \barMaior
     g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
@@ -657,6 +660,36 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f f( g) g \barMin g f g g a a \barMaior
+    g a a a a g4.( d) \barMin f4 e c c( d) d \barFinalis
+    f^\markup\rubrVelikAleluja g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod \markup{\Dagger ži} -- vo -- ta tvé -- ho.
+
+    \markup{\Dagger ži} -- vo -- ta tvé -- ho. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fons = "spol. texty o P.M., 2. nešp., 3. ant."
+    fial = "fial://commune/commune_maria.ly#2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
