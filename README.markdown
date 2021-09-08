@@ -67,3 +67,11 @@ LilyPond 2.19.x is currently being used in development.
 
 Repository [Meum intende](https://github.com/igneus/Meum-intende) contains some music for
 Liturgy of the Hours in Czech by other authors.
+
+## Related tools
+
+- directory `/nastroje` contains scripts automating various tasks
+- [fork of the Frescobaldi editor](https://github.com/igneus/frescobaldi) customized
+  to facilitate the project's workflow
+- [adiutor](https://github.com/igneus/adiutor) - a database-backed web application
+  providing useful insights in the corpus of chants
