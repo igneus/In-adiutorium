@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../mezidobi_nedele.ly;
+
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"2. neděle"}}
 
@@ -91,8 +92,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    d4 d( f) e d d( a') a a \barMax
+    bes( g bes) a( g) g \barMin
+    g f g( a) a a f( g) g \barMin
+    g a f e4.( d) \barFinalis
+  }
+  \addlyrics {
+    Duch Pá -- ně je na -- de mnou,
+    po -- slal mě,
+    a -- bych při -- ne -- sl chu -- dým
+    ra -- dost -- nou zvěst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "fial://antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-st-a3"
+    annus = "C"
+    id = "ne3c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4 d( f) e d d( a') a a \barMaior
@@ -117,6 +151,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
