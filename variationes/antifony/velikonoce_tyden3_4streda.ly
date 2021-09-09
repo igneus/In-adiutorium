@@ -6,6 +6,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b( c) a a g f f( g) g \barMaior
     b c a a a g f f( g e) e \barMaior
@@ -20,6 +21,32 @@
     quid = "1. ant."
     modus = "IV"
     differentia = "g"
+    psalmus = "Žalm 86"
+    fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy_* při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 86"
     fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
     id = "rch-a1"

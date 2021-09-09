@@ -6,24 +6,23 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a b( c) a a g f f( g) g \barMaior
-    b c a a a g f f( g e) e \barMaior
-    f f( g) e e \barFinalis
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
-    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne,_* a bu -- dou se
-    před te -- bou kla -- nět.
+    Vše -- chny ná -- ro -- dy_* při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 86"
     fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
-    placet = "zdroj se změnil"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
