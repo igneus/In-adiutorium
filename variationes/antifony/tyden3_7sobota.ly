@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
     g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
@@ -27,6 +28,101 @@
     psalmus = "Žalm 107-I"
     id = ""
     fons = "žaltář, po 4.t., nešp., 1. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
+    g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
+
+    f^\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-I"
+    placet = "aktualisovat ze zdroje!"
+    id = "mc-ant1"
+    fons = "žaltář, po 4.t., nešp., 1. ant."
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
+
+    f^\rubrVelikAleluja g a c c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    \markup{\Dagger tr} -- vá na -- vě -- ky.
+
+    \markup{\Dagger tr} -- vá na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-I"
+    id = "mc-ant1"
+    fons = "žaltář, po 4.t., nešp., 1. ant."
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
+
+    a^\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-I"
+    id = "mc-ant1"
+    fons = "žaltář, po 4.t., nešp., 1. ant."
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

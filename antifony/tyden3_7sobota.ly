@@ -12,10 +12,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c c b c c( d) d \barMin d c b a( g) g \barMax
-    g g f g a( c) b4. a \barMin g4 f f g g \barFinalis
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    a^\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
@@ -30,7 +32,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-I"
-    placet = "aktualisovat ze zdroje!"
     id = "mc-ant1"
     fons = "žaltář, po 4.t., nešp., 1. ant."
     fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
