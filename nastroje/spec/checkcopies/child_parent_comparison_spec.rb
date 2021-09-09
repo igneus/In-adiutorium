@@ -103,4 +103,48 @@ describe ChildParentComparison do
         .to be_match
     end
   end
+
+  describe 'cast' do
+    let(:fial) { 'parent_path#id?cast' }
+
+    it 'part of parent' do
+      expect(
+        described_class.new(
+          score(music: 'c d \barFinalis', fial: fial),
+          score(music: 'a b c d e f \barFinalis')
+        )
+      ).to be_match
+    end
+
+    it 'not a part of parent' do
+      expect(
+        described_class.new(
+          score(music: 'a a a \barFinalis', fial: fial),
+          score(music: 'a b c d e f \barFinalis')
+        )
+      ).not_to be_match
+    end
+  end
+
+  describe 'cast & +aleluja' do
+    let(:fial) { 'parent_path#id?cast&+aleluja' }
+
+    it 'part of parent + aleluja not being part of parent' do
+      expect(
+        described_class.new(
+          score(music: 'c d \barMaior g a g g \barFinalis', fial: fial),
+          score(music: 'a b c d e f \barFinalis')
+        )
+      ).to be_match
+    end
+
+    it 'not part of parent + aleluja' do
+      expect(
+        described_class.new(
+          score(music: 'a a a \barMaior g a g g \barFinalis', fial: fial),
+          score(music: 'a b c d e f \barFinalis')
+        )
+      ).not_to be_match
+    end
+  end
 end

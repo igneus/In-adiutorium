@@ -53,7 +53,7 @@ class ChildParentComparison
 
   def strip_wrappers(music)
     music
-      .sub(/^\\relative.+?\{\s*\\choralniRezim\s*/, '')
+      .sub(/^\\relative.+?\{\s*(\\choralniRezim\s*)?/, '')
       .sub(/\s*\\barFinalis\s*\}$/, '')
   end
 
