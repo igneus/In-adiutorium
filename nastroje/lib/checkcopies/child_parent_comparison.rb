@@ -15,7 +15,8 @@ class ChildParentComparison
       return normalized_parent.include? strip_wrappers(normalized_child)
     end
 
-    normalized_parent == normalized_child
+    normalized_parent == normalized_child ||
+      (simple_copy? && both_lyrics_end_with_alleluia? && difference_in_last_bar_only?)
   end
 
   def normalized_child
@@ -54,5 +55,27 @@ class ChildParentComparison
     music
       .sub(/^\\relative.+?\{\s*\\choralniRezim\s*/, '')
       .sub(/\s*\\barFinalis\s*\}$/, '')
+  end
+
+  def both_lyrics_end_with_alleluia?
+    f = lambda {|score| score.lyrics_readable =~ /aleluja[^\w]?\Z/i }
+
+    f.call(child) && f.call(parent)
+  end
+
+  def difference_in_last_bar_only?
+    normalize_last_bar(normalized_child) == normalize_last_bar(normalized_parent)
+  end
+
+  def simple_copy?
+    @fial.additional.empty?
+  end
+
+  def normalize_last_bar(music)
+    closing_bar_i = music.rindex '\bar'
+    last_bar_i = music.rindex '\bar', closing_bar_i - 1
+
+    music[0..last_bar_i - 1] +
+      music[last_bar_i..-1].sub(/\\bar\w*/, '') # remove last bar
   end
 end

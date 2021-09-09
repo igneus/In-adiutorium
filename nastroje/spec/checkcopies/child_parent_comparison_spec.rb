@@ -22,6 +22,39 @@ describe ChildParentComparison do
       expect(described_class.new(score, score(lyrics: 'b')))
         .to be_match # it does not matter, only music is compared
     end
+
+    # often an antifon ending with alleluia exists in copies differing
+    # just in quality of a bar before alleluia, as some are for the
+    # Eastertide (alleluia is always sung) and dome for general use
+    # (alleluia is sung only depending on current season).
+    describe 'only last bar differs' do
+      let(:music_a) { 'a \barMin a \barMaior a \barFinalis' }
+      let(:music_b) { 'a \barMin a \barFinalis a \barFinalis' }
+
+      describe 'and lyrics end with alleluia' do
+        [
+          'anything. Aleluja.',
+          'anything. Aleluja!',
+          'anything, aleluja.',
+          'anything aleluja',
+          'anything, aleluja!'
+        ].each do |l|
+          it l do
+            expect(
+              described_class.new(
+                score(music: music_a, lyrics: l),
+                score(music: music_b, lyrics: l)
+              )
+            ).to be_match
+          end
+        end
+      end
+
+      it 'but lyrics do not end with alleluia' do
+        expect(described_class.new(score(music: music_a), score(music: music_b)))
+          .not_to be_match
+      end
+    end
   end
 
   describe '+aleluja' do
