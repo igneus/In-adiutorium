@@ -152,10 +152,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a g f g g( a) a \barMin
-    b a g a a( b a4.) a \barMaior
+    a4 g a b b( d) d \barMin
+    e d c d d( e d4.) d \barMaior
     b4 d c( b a) a \barMin
-    g a b a g g \barMaior
+    a g a a g g \barMaior
     a b a( g) g \barFinalis
   }
   \addlyrics {
@@ -167,12 +167,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 110"
-    placet = "nelibá"
-    fons = "začal jsem s níže odkazovanou antifonou, ale nakonec z ní zbyl jenom kousek, navíc transponovaný"
-    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?motiv"
+    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?zacatek"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
