@@ -28,8 +28,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c b) d( c) b( c) a( g) g( a) \barMin
     a b b( c) c c a g a( f) f( e) \barMaior
@@ -57,6 +60,38 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g g \barMin
+    a g a( c) c c d b c a \barMaior
+    g f a a( g) \barMax
+    a g a c c c b a g g \barMin
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se_*
+    na mé ru -- ce a na mé no -- hy:
+    vždyť jsem to já!
+    Do -- tkně -- te se mě a pře -- svěd -- čte se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?delsi_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
