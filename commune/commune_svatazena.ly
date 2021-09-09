@@ -262,14 +262,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) c( a) g( a) \barMin f e f g a a( g) g \barMaior
-    a b c c b \barMin c d c b( a) g a( g) g \barFinalis
+    g4( c) a( g) a \barMin
+    a g f g a g g \barMaior
+    c d c b g( a) \barMin
+    c a a c b a( g) g \barFinalis
 
     g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    V_moud -- ros -- ti ot -- ví -- rá svo -- je ús -- ta,
-    na ja -- zy -- ku má las -- ka -- vé po -- u -- če -- ní.
+    V_moud -- ros -- ti
+    ot -- ví -- rá svo -- je ús -- ta,
+    na ja -- zy -- ku má
+    las -- ka -- vé po -- u -- če -- ní.
 
     A -- le -- lu -- ja.
   }
@@ -278,7 +282,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
-    fial = "sanktoral/0916ludmila.ly#rch-a2?upraveno"
+    fial = "sanktoral/0916ludmila.ly#rch-a2?jiny_text"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
