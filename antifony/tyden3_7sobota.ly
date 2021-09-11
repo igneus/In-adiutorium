@@ -42,15 +42,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f a a \barMin g a b b c c c \barMaior
-    c d c b g a( g) g \barFinalis
+    a f g g \barMin g a b b c c c \barMaior
+    c d c
+    b g a( g) g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    b^\rubrVelikAleluja a g g f a a( g) g \barFinalis
   }
   \addlyrics {
     Ve své tís -- ni vo -- lej -- te k_Hos -- po -- di -- nu,
-    a on vás vy -- svo -- bo -- dí.
+    a on vás
+    \markup{\Dagger vy} -- svo -- bo -- dí.
 
+    \markup{\Dagger vy} -- svo -- bo -- dí.
     A -- le -- lu -- ja.
   }
   \header {
@@ -58,7 +61,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-II"
-    placet = "lepší aleluja"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -67,11 +69,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g( a) a \barMin g f e f g a( b c) c \barMaior
-    c c( d) d c c \barMaior
-    b a g f g a g g \barFinalis
+    g4 g g g g( a) g \barMin
+    a g f g a g g \barMaior
+    c c( d) d c c \barMin
+    c b a g a b g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví vi -- dí
@@ -86,7 +89,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-III"
-    placet = "lepší aleluja"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
