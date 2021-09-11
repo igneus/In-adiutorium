@@ -613,6 +613,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d c a) a \barMin d e( c) d c c \barMaior
     b c( d e) f e d e e \barMaior
@@ -674,6 +675,76 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMin
+    a c b a g a( g) g \barMaior
+    c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a) a d c b a a \barMin
+    a c b a g a( g) g \barMaior
+    \mark\sipka a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMin
+    a c b a g a( g) g \barMaior
+    \mark\sipka a c( b) g a a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
     id = "ne24b-2ne-mag"

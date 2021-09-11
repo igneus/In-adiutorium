@@ -265,9 +265,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d c a) a \barMin d e( c) d c c \barMaior
-    b c( d e) f e d e e \barMaior
-    d( a c) b( g) a g g \barFinalis
+    d4 d( a) a d c b a a \barMin
+    a c b a g a( g) g \barMaior
+    a( c) b g a a \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mě
@@ -276,10 +276,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
-    placet = "závěr se mi příliš nezamlouvá"
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
     id = "ne24b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
