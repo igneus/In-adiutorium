@@ -552,8 +552,6 @@
     differentia = "G"
     psalmus = "Žalm 110"
     placet = "ozdoba _slávou_ je neorganická"
-    fons = "cast z Narozeni Pane, 1. nesp., 1.a."
-    fial = "vanoce_narozenipane.ly#vden-1ne-a1?cast" % zdrojova antifona se mezitim zmenila! Zvazit upravu i zde
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
