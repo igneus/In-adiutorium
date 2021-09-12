@@ -14,23 +14,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c a g a a \barMaior
-    g a a a( c) c \barMin
-    c d d d e c c( d) d \barMaior
-    d d c( b a) g( f) f( g) g \barMin
-    f g a c b a( b) a a \barFinalis
+    d4 d c d e c d \barMaior
+    d c d e( d) d \barMin
+    c d c b a g g( a) a \barMaior
+    c a c b a( g) g \barMin
+    f g a c b g a a \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
-    Jest -- li -- že zno -- vu ne -- bu -- de -- te ja -- ko dě -- ti,
-    jis -- tě ne -- ve -- jde -- te do ne -- bes -- ké -- ho krá -- lov -- ství.
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "A"
+    differentia = "d"
     psalmus = ""
-    fial = "antifony/tyden3_3utery.ly#ne-ant2?upraveno"
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

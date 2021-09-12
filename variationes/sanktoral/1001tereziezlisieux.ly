@@ -87,7 +87,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c a g a a \barMaior
     g a a a( c) c \barMin
@@ -106,6 +106,65 @@
     differentia = "A"
     psalmus = ""
     fial = "antifony/tyden3_3utery.ly#ne-ant2?upraveno"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c a g a a \barMaior
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d c b a( g) a( g) \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?upraveno"
+    placet = "to nefunguje, tenhle tradiční model vyžaduje danou strukturu textu
+    a nesnese žádné předlepky"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d e c d \barMaior
+    d c d e( d) d \barMin
+    c d c b a g g( a) a \barMaior
+    c a c b a( g) g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
