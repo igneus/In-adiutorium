@@ -15,7 +15,7 @@
     \choralniRezim
     f g g a a \barMin
     b( c a) g a g g \barMaior
-    c( a) c b a g g f( g) a f g g \barFinalis
+    c( d c) b a g g g f( g) a f g g \barFinalis
   }
   \addlyrics {
     Pan -- na po -- ča -- la,

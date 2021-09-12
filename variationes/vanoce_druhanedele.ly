@@ -46,6 +46,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka f g g a a \barMin
     b( c a) g a g g \barMaior
@@ -70,7 +71,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f g g a a \barMin
     b( c a) g a g g \barMaior
