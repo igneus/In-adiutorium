@@ -94,11 +94,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d d c( d) d e( d c) d( c) c( a) a \barMaior
-    a( g) a a( c) b a a \barMaior
-    b g g( a) a \barFinalis
+    d4 d d c d e f d d \barMin
+    f f g f d( c) c \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
@@ -107,16 +107,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 32"
     id = "ne-a2"
-    % Původní zdrojová antifona už neexistuje, protože šlo
-    % o svévolné zkrácení; dnes už je tam zhudebnění správného celého textu,
-    % s úplně jinou melodií
-    %
-    % fons = "Velký pátek, ad Magnificat; doplněno aleluja"
-    % fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

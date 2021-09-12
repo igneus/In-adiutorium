@@ -380,6 +380,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( d) d e( d c) d( c) c( a) a \barMaior
     a( g) a a( c) b a a \barMaior
@@ -396,7 +397,146 @@
     differentia = "d"
     psalmus = "Žalm 32"
     id = "ne-a2"
-    fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    % Původní zdrojová antifona už neexistuje, protože šlo
+    % o svévolné zkrácení; dnes už je tam zhudebnění správného celého textu,
+    % s úplně jinou melodií
+    %
+    % fons = "Velký pátek, ad Magnificat; doplněno aleluja"
+    % fial = "pust_triduum.ly#pa-nesp-mag?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e e( d) d \barMin
+    f d c d e( d) d \barMaior
+    f( g f) e( c) e( f) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    fial = "pust_triduum.ly#pa-nesp-mag?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e f d d \barMaior
+    f d g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e f d d \barMaior
+    f f g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e f d d \barMaior
+    f f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e f d d \barMaior
+    f f g f e( f d c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d e f d d \barMin
+    f f g f d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
