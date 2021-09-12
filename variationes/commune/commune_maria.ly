@@ -3303,7 +3303,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -3324,6 +3324,42 @@ je "\"skororepetice\"" melodie 2 v 4.}
   \addlyrics {
     \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
     Pán s_te -- bou!_* \textRespAleluja
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f g f f \barMin
+    \mark\sipka f f f g f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f g f f \barMaior
+    f \mark\sipka f f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná! Pán s_te -- bou!_* \textRespAleluja
     \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
     \Response \textRespAleluja

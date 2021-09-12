@@ -787,13 +787,13 @@
 
     % R
     \neviditelna f
-    f f f g f f \barMin g f g a g \barMin
-    f g a \barMax
+    f f f g f f \barMin
+    f f f g f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
     f4 f f f f f f g f f \barMaior
-    f g f f f f f f e g a \barMax
+    f f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -801,8 +801,8 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!
-    Pán s_te -- bou!_* \textRespAleluja
+    \Response Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná! Pán s_te -- bou!_* \textRespAleluja
     \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
     \Response \textRespAleluja
