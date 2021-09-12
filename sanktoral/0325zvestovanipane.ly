@@ -635,13 +635,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e( f) f f \barMin
+    d4 d d e f f \barMin
     f f f g f e e( f) d c d d \barMax
     d( f) f \barMin
     f g f g g( f) f \barMaior
     f g f d( f) e( d c) \barMin
     d( c) d d( f) e d d \barFinalis
-    e^\markup\rubrVelikAleluja f d( c) d4. \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -657,9 +657,8 @@
     differentia = "D"
     psalmus = "Žalm 130"
     id = "2ne-a2"
-    placet = "pozor, zdrojová antifona byla zřejmě mezitím aktualizována"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
-    fial = "fial://antifony/advent_nedeleB.ly#imag2"
+    fial = "fial://antifony/advent_nedeleB.ly#imag2?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

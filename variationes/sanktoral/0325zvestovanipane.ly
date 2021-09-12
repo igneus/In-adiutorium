@@ -1080,8 +1080,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e( f) f f \barMin
     f f f g f e e( f) d c d d \barMax
@@ -1107,6 +1110,40 @@
     id = "2ne-a2"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
     fial = "fial://antifony/advent_nedeleB.ly#imag2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d \mark\sipka e f f \barMin
+    f f f g f e e( f) d c d d \barMax
+    d( f) f \barMin
+    f g f g g( f) f \barMaior
+    f g f d( f) e( d c) \barMin
+    d( c) d d( f) e d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se, Ma -- ri -- a,
+    ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha.
+    Poč -- neš a po -- ro -- díš sy -- na
+    a bu -- de na -- zván Sy -- nem Nej -- vyš -- ší -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "2ne-a2"
+    fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
+    fial = "fial://antifony/advent_nedeleB.ly#imag2?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
