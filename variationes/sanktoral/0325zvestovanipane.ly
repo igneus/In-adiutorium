@@ -1319,8 +1319,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d d \barMin d( f) e f e d( e) d( c) c \barMax
 
@@ -1347,6 +1350,42 @@
     psalmus = "2ne-amag"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
     fial = "fial://advent_antifony.ly#spol-sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d d \barMin d( f) e f e d( e) d( c) c \barMax
+
+    d4 f( d) d
+    d e f g( f) e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta?delsi_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

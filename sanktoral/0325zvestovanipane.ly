@@ -768,7 +768,7 @@
 
     d4 f( d) d
     d e f g( f) e \barMin
-    d c( d) d \barMin
+    d c( d) d \barMaior
     d d c d d f e c d d \barFinalis
 
     c^\markup\rubrVelikAleluja d e d \barFinalis
