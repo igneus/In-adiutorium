@@ -801,8 +801,8 @@
     \relative c' {
       \choralniRezim
       f4 a g f e f d d \barMaior
-      f f g( a) g g f g g( f) d \barMin
-      f e c c d d d \barFinalis
+      f f g( a) a a bes g g( a) a \barMin
+      f g f e f d d \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl Jo -- se -- fo -- vi:
@@ -815,7 +815,6 @@
       differentia = "f"
       psalmus = ""
       annus = "A"
-      placet = "přinejmenším od _a uteč_ jinak; zkusit úplně jinak"
       id = "svrodiny-1ne-amagA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
