@@ -196,8 +196,40 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4( c a) c( d) d c( d) d \barMin
+    e f e d f e d c a c c d d \barMaior % zmenena cast kvuli delsimu textu
+    d d d( e f) e( d) \barMin f e( f) e d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- šli jsme to -- ho,
+    o kte -- rém psal Moj -- žíš v_Zá -- ko -- ně
+    i pro -- ro -- ci.
+    Je to Je -- žíš,
+    syn Jo -- se -- fův z_Na -- za -- re -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&upraveno"
+    placet = "nelíbí se mi dlouhá sestupná pasáž _Mojžíš v zákoně_"
+    id = "5amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace podle zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d( c a) c( d) d c( d) d \barMin
     d e f g f d f e d c d c c \barMaior
@@ -220,6 +252,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup\nadpisDen{6. ledna}
 

@@ -93,8 +93,8 @@
     d( c a) c( d) d c( d) d \barMin
     d e f g f d \barMin
     f e( d) c( d) d( c) \barMaior
-    d f e( f d) d \barMin
-    f e( f) e d e d c( d) d \barMaior
+    d f e( d c) c \barMin
+    f e( f) d d e d c( d) d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {

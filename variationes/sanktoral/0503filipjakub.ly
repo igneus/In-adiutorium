@@ -228,7 +228,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \mark\sipka f e f e( d) c d e d d \barMaior
     d( c a) c( d) d c( d) d \barMin
@@ -236,6 +236,38 @@
     f e( d) c( d) d( c) \barMaior
     \mark\sipka d f e( f d) d \barMin
     f e( f) e d e d c( d) d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Fi -- lip pot -- kal Na -- ta -- na -- e -- la
+    a ře -- kl mu:
+    Na -- šli jsme to -- ho,
+    o kte -- rém psal Moj -- žíš
+    i pro -- ro -- ci.
+    Je to Je -- žíš,
+    syn Jo -- se -- fův z_Na -- za -- re -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d f e f e( d) c d e d d \barMaior
+    d( c a) c( d) d c( d) d \barMin
+    d e f g f d \barMin
+    f e( d) c( d) d( c) \barMaior
+    d f \mark\sipka e( d c) c \barMin
+    f e( f) \mark\sipka d d e d c( d) d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {
