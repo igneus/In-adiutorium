@@ -43,8 +43,8 @@
     \choralniRezim
     a4 a g g( a) a \barMin
     g f g( a) a \barMaior
-    a g f e( f d c) c \barMaior
-    d d f f( g) f f e d c( d) d \barFinalis
+    a g f g d \barMaior
+    c d f f( g) f f e d c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tá Ma -- ri -- a,

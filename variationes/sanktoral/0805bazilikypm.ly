@@ -225,12 +225,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4 a g g( a) a \barMin
     g f g( a) a \barMaior
     a g f e( f d c) c \barMaior
     d d f f( g) f f \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Ma -- ri -- a,
+    Mat -- ko Bo -- ží,
+    pros za nás hříš -- né
+    ny -- ní i v_ho -- di -- nu na -- ší smr -- ti.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "marianske_antifony.ly#avemaria?cast&upraveno"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g g( a) a \barMin
+    g f g( a) a \barMaior
+    a g f g d \barMaior
+    c d f f( g) f f e d c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tá Ma -- ri -- a,
