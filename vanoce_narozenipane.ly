@@ -945,12 +945,12 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 a g( f e) \barMin
-      e d( e) d d c d e( f) e \barMaior
-      e g a b( a) a \barMin
-      a g a g f d e e \barFinalis
+      f4 a a( g) \barMin
+      g d4. d4 d e d c( d) d \barMaior
+      d f e f( g) g \barMin
+      g f e d e d c( d) d \barFinalis
     }
     \addlyrics {
       Jo -- sef vstal,
@@ -960,8 +960,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = "IV"
-      differentia = "g"
+      modus = "I"
+      differentia = "f"
       psalmus = "Žalm 87"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}

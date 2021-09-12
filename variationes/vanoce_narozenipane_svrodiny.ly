@@ -1243,6 +1243,30 @@
       \choralniRezim
       f4 a a( g) \barMin
       g d4. d4 d e d c( d) d \barMaior
+      \mark\sipka f g a g( a) a \barMin
+      g f e d e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a a( g) \barMin
+      g d4. d4 d e d c( d) d \barMaior
       f g f d( f e) d \barMin d c d f e c d d \barFinalis
     }
     \addlyrics {
@@ -1272,6 +1296,31 @@
       Jo -- sef vstal,
       vzal dí -- tě i je -- ho mat -- ku
       a ješ -- tě v_no -- ci se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 a a( g) \barMin
+      g d4. d4 d e d c( d) d \barMaior
+      d f e f( g) g \barMin
+      g f e d e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
     }
     \header {
       quid = "3. ant."
@@ -1357,7 +1406,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 a g( f e) \barMin
       e d( e) d d c d e( f) e \barMaior
