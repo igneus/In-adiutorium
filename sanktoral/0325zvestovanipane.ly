@@ -341,7 +341,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c( d) d d d e d c b c b a \barMin
+    a4 b c( d) d d d e d c b c b a \barMaior
     g c b g g( a) a a \barFinalis
 
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
