@@ -126,10 +126,10 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( g) g \barMin a( bes) a g a( bes) a g f( d) d \barMaior
-    g f g( f e) d( e d4.) d \barFinalis
+    d4( c) d \barMin f d d g f e d d \barMaior
+    c d c b( g a) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
@@ -137,13 +137,11 @@
   }
   \header {
     quid = "ant."
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "invit"
-    fons = "melodie z invitatoria slavnosti Krista Krále; text upraven"
     fial = "mezidobi_kristakrale.ly#invit?jiny_text"
-    placet = "~"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

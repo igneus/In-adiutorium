@@ -190,6 +190,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( g) g \barMin a( bes) a g a( bes) a g f( d) d \barMaior
     g f g( f e) d( e d4.) d \barFinalis
@@ -215,6 +216,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4( c) d \barMin f d d g f e d d \barMaior
     c d c b( g a) g \barFinalis
