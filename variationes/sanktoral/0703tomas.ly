@@ -93,6 +93,42 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes( a) g( f) e \barMin
+    f( g) g( a) a \barMaior
+    a4( g f) g( f) d4. d \barMax
+    d4( g) f f g g \barMaior
+    g bes( a bes) g( a) g( f) f \barMin
+    f g( f) e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pro -- to -- že jsi mě u -- vi -- děl,_*
+    To -- má -- ši,
+    u -- vě -- řil jsi.
+    Bla -- ho -- sla -- ve -- ní,
+    kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje + doplnění na úplný text}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -102,7 +138,42 @@
     a4( g f) e( f) d d \barMax
     d4( g) f f g g \barMaior
     g g( a bes) g( a) g( f) f \barMin
-    f g f e d c c
+    f g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pro -- to -- že jsi mě u -- vi -- děl,_*
+    To -- má -- ši,
+    u -- vě -- řil jsi.
+    Bla -- ho -- sla -- ve -- ní,
+    kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Protože jsi mě uviděl, Tomáši, uvěřil jsi.
+    Blahoslavení, kdo neviděli, a přesto uvěřili. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes( a) g( f) e \barMin
+    f( g) g( a) a \barMaior
+    a4( g f) e( f) d d \barMax
+    d4( g) f f g g \barMaior
+    g g( a bes) g( a) g( f) f \barMin
+    f g f e \mark\sipka d c c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -125,6 +196,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
