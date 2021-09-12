@@ -144,8 +144,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fons = "volne podle (neprilis povedene): marianske commune, tercie"
-    fial = "fial://commune/commune_maria.ly#tercie?volne"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

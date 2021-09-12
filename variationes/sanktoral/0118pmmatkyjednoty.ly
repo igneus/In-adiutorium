@@ -273,7 +273,6 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
     f g a c a a \barMin
@@ -301,12 +300,65 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
     f a c b c( d) d \barMin
     d d d d d( e) d c d c \barMin
     c b a g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu se že -- na -- mi,
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í
+    a s_je -- ho pří -- buz -- ný -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "fial://commune/commune_maria.ly#tercie?zacatek"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    a f a b c c \barMin
+    d e d d c a b a g \barMin
+    g f a c b g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu se že -- na -- mi,
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í
+    a s_je -- ho pří -- buz -- ný -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "fial://commune/commune_maria.ly#tercie?zacatek"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    a f a b c c \barMin
+    d e d d c a b a g \barMin
+    \mark\sipka g f g a( c) b g g \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně
