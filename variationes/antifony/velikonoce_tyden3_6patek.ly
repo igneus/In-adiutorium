@@ -207,10 +207,35 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
     \mark\sipka a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 100"
+    id = "rch-a3"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c) a( b) \barMin
+    g g a c d a( g) f( g) g \barMaior
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
