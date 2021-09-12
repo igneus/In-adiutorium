@@ -176,12 +176,12 @@
 
 \markup\italic{Responsorium jako v ranních chválách.}
 
-\score {
-    \relative c'' {
+  \score {
+    \relative c' {
       \choralniRezim
-      a4 a a c b c d d c( b) b \barMin
-      d d d d d e d d e f d c( d) d \barMin
-      d c( d) c b a b g g \barFinalis
+      d4 d d c d e d c d d \barMaior
+      d( f) f f e f g f f f e d c c \barMaior
+      c d( f) e d e d c( d) d  \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
@@ -190,11 +190,10 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "VII"
-      differentia = "a"
+      modus = "II"
+      differentia = "D"
       psalmus = ""
-      fial = "vanoce_narozenipane.ly#vden-asexta?upraveno"
-      placet = "předělat s méně křečovitým lpěním na vzorové antifoně (pozor, zdrojová antifona už vypadá úplně jinak!)"
+      fial = "vanoce_narozenipane.ly#vden-asexta?zacatek"
       id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

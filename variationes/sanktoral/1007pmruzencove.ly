@@ -388,6 +388,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a c b c d d c( b) b \barMin
     d d d d d e d d e f d c( d) d \barMin
@@ -451,6 +452,30 @@
     differentia = "D"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#vden-asexta?upraveno"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d e d c d d \barMaior
+    d( f) f f e f g f f f e d c c \barMaior
+    c d( f) e d e d c( d) d  \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co by -- lo ře -- če -- no o je -- jím Sy -- nu,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#vden-asexta?zacatek"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
