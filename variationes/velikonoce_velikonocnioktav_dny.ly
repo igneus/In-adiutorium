@@ -479,6 +479,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 \mark\sipka a c b a g \barMin
+      a f a g g \barMaior
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 24"
+      id = "ut-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -594,7 +616,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4( g a) g( f) g f f d \barMin
       c d f g g \barMaior
@@ -631,6 +653,34 @@
     \addlyrics {
       Ve -- leb -- te, ná -- ro -- dy,_*
       na -- še -- ho Bo -- ha,
+      on mě pro -- bu -- dil k_ži -- vo -- tu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      textus_approbatus = "Národy, velebte našeho Boha,
+      on mě probudil k životu. Aleluja."
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 66-I"
+      fial = "antifony/tyden4_1nedele.ly#mc-ant2?zacatek"
+      id = "ut-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup{Aktualisace podle zdroje:}
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 g f a g g bes a f g g \barMaior
+      g f g a a g f d \barMin
+      f g g( f) f \barFinalis
+    }
+    \addlyrics {
+      Ve -- leb -- te, ná -- ro -- dy,_* na -- še -- ho Bo -- ha,
       on mě pro -- bu -- dil k_ži -- vo -- tu.
       A -- le -- lu -- ja.
     }

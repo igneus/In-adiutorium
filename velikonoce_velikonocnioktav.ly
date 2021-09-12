@@ -574,14 +574,12 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4( g a) g( f) g f f d \barMin
-      c d f g g \barMaior
-      a a a g f g f d \barMaior
+      f4 g f a g g bes a f g g \barMaior
+      g f g a a g f d \barMin
       f g g( f) f \barFinalis
     }
     \addlyrics {
-      Ve -- leb -- te, ná -- ro -- dy,_*
-      na -- še -- ho Bo -- ha,
+      Ve -- leb -- te, ná -- ro -- dy,_* na -- še -- ho Bo -- ha,
       on mě pro -- bu -- dil k_ži -- vo -- tu.
       A -- le -- lu -- ja.
     }
