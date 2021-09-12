@@ -358,8 +358,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \barMin
-    d d c( d) a a b a g g \barFinalis
+    c4 c c c( d) c \barMin
+    d d c( b) a a b a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -374,7 +374,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/tyden2_2pondeli.ly#ne-ant2?zacatek"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

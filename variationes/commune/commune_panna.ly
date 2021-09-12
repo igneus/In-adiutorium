@@ -355,8 +355,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a( c) c \barMin
     d d c( d) a a b a g g \barFinalis
@@ -379,6 +382,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d) c \barMin
+    d d c( b) a a b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te na -- pro -- ti Kris -- tu Pá -- nu!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
