@@ -35,8 +35,39 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    f4-- f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d e e( f e) d d \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl své mat -- ce:
+    Že -- no, to je tvůj syn.
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    To je tvá mat -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?-aleluja"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4-- f e d e( d) d \barMaior
     f f \barMin f d f4. e \barMaior
