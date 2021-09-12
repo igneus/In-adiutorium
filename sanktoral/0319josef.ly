@@ -41,7 +41,7 @@
     differentia = "G"
     psalmus = "Žalm 113"
     fons = "svátek Svaté Rodiny, 1. nešp., 1. ant.; + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?+aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -376,7 +376,7 @@
     differentia = "a"
     psalmus = "Žalm 63"
     fons = "svátek Svaté Rodiny, 1. nešp., 3.ant. + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a3?aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a3?+aleluja"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -404,7 +404,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
-    fial = "fial://vanoce_narozenipane.ly#vden-atercie?aleluja"
+    fial = "fial://vanoce_narozenipane.ly#vden-atercie?+aleluja"
     fons = "Narození Páně, uprostřed dne, ant. dopoledne + aleluja"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -648,7 +648,7 @@
     differentia = "a"
     psalmus = "Žalm 15"
     fons = "Svaté Rodiny, 2. nešp., 1. ant.; upravený začátek + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-2ne-a1?aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-2ne-a1?+aleluja"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -710,7 +710,7 @@
     differentia = "d"
     psalmus = "Zj 15"
     fons = "Svaté Rodiny, 2. nešp., 2. ant. + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-2ne-a2?aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-2ne-a2?+aleluja"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
