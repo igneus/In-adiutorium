@@ -205,7 +205,7 @@
   }
   \addlyrics {
     Na -- šli jsme to -- ho,
-    o kte -- rém psal Moj -- žíš v_zá -- ko -- ně
+    o kte -- rém psal Moj -- žíš v_Zá -- ko -- ně
     i pro -- ro -- ci.
     Je to Je -- žíš,
     syn Jo -- se -- fův z_Na -- za -- re -- ta.
