@@ -28,6 +28,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-I"
+    placet = "nelibý neobvyklý závěr"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -50,6 +51,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-II"
+    placet = "lépe"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -74,6 +76,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 73-III"
+    placet = "lépe"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
