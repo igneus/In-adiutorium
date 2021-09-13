@@ -149,7 +149,7 @@
     \choralniRezim
     g4 g g( a) a \barMaior
     c c b a g( a) g g \barMin
-    f a g g \barFinalis
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Veď mé kro -- ky
@@ -169,8 +169,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) c c d b c a4. g4 f g4. g \barMin
-    g4( b) c( b) c c \barMin c a b a g g \barFinalis
+    g4 g( c) c c d b c a-- g f g g \barMaior
+    c b c a \barMin a b a a g g \barFinalis
   }
   \addlyrics {
     Jen je -- den je zá -- ko -- no -- dár -- ce a soud -- ce;
@@ -181,26 +181,26 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 82"
-    placet = "melismata na _kdo však_ pryč"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c''{
+  \relative c' {
     \choralniRezim
-    a4( bes) a a a a g( f) g \barMin g a f d4. d \barFinalis
+    f4 g a g f f( g) g \barMin
+    g a g f f \barFinalis
   }
   \addlyrics {
-    K_Hos -- po -- di -- nu jsem vo -- lal, a vy -- sly -- šel mě.
+    K_Hos -- po -- di -- nu jsem vo -- lal,
+    a vy -- sly -- šel mě.
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 120"
-    placet = "půjde zpěvněji"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
