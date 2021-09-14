@@ -157,6 +157,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4-- d d c d e( c) d \barMaior
+    d a d c b a g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -598,10 +620,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a( g) g( a) \barMin a( c) c c b a b( c) a a \barMaior
     a a a g( f) f f g g e e \barMax
@@ -628,6 +653,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') a( g) g( a) \barMin a( c) c c b a b( c) a a \barMaior
+    a a a g( f) f f g g e e \barMax
+    a a c( b c) a( g) g \barMin f g g( a) f( e) e \barMaior
+    d( f e) f( d) d c \mark\sipka c( d) d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Kris -- te, náš Vy -- ku -- pi -- te -- li,
+    ve -- li -- kou mo -- cí a si -- lou kří -- že;
+    ty jsi za -- chrá -- nil Pet -- ra na mo -- ři,
+    smi -- luj se i nad ná -- mi.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    fons = "melodie volně podle následující"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
     \choralniRezim
     d4( a') a( g) g4.( a) \barMin c4( b) c a g g( a) a \barMaior
     a a c( b c) a( g) g f( g) g( a) a \barMin a g f e( f) d4. d \barMax
@@ -650,8 +703,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' a g b( c a) a \barMin
     g f f g g e e \barMax
@@ -673,6 +729,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a' a g b( c a) a \barMin
+    g f f g g e e \barMax
+    a a \mark\sipka g g( a) a g f g \mark\sipka g a a \barMaior
+    \mark\sipka g f f( g) f( e) d( e) \barMin
+    \mark\sipka e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás svým kří -- žem,
+    Pa -- ne Je -- ží -- ši Kris -- te;
+    ty jsi svou smr -- tí na -- ši smrt pře -- mo -- hl
+    a svým vzkří -- še -- ním
+    ob -- no -- vils ži -- vot.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -700,8 +785,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
     d d( c d) c( a) a \barMin f g a a( c) b a b a a \barMax
@@ -726,7 +814,38 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( d) d d d( c d) e c c( d) d \barMaior
+    \mark\sipka d c( d) c( a) a \barMin
+    \mark\sipka g f g a( c) b a b a a \barMax
+    \mark\sipka c d c b( a g) g \barMin
+    b c a g( a) a a \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me
+    pa -- mát -- ku tvé -- ho u -- mu -- če -- ní;
+    tr -- pěl jsi za nás,
+    smi -- luj se nad ná -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    fial = "pust_triduum.ly#pa-rch-ant3?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 f g f e d d \barMin f g a g f e \barMaior
     a g a b( g e) e \barMin f f( a g) f( d) d e \barFinalis
@@ -744,6 +863,33 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 f g f e d d \barMin
+    \mark\sipka d g a g f e \barMaior
+    a g a b( g e) e \barMin
+    \mark\sipka e f( a g) f( d) d e \barFinalis
+  }
+  \addlyrics {
+    Kla -- ní -- me se ti, Kris -- te,
+    a ve -- le -- bí -- me tě,
+    ne -- boť svým kří -- žem
+    jsi vy -- kou -- pil svět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

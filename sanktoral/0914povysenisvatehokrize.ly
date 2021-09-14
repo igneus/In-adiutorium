@@ -482,7 +482,7 @@
     d4( a') a( g) g( a) \barMin a( c) c c b a b( c) a a \barMaior
     a a a g( f) f f g g e e \barMax
     a a c( b c) a( g) g \barMin f g g( a) f( e) e \barMaior
-    d( f e) f( d) d c e( f) d d \barFinalis
+    d( f e) f( d) d c c( d) d d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Kris -- te, náš Vy -- ku -- pi -- te -- li,
@@ -495,7 +495,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_i nad námi_ možná lépe c cd d d"
     id = "tercie"
     fons = "melodie volně podle následující"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -531,21 +530,22 @@
     \choralniRezim
     d4 a' a g b( c a) a \barMin
     g f f g g e e \barMax
-    a a a g( a) a g f g g( a) a a \barMaior
-    a g f( g) f( e) d( e) \barMin e( f e) f( e) d c( d) d \barFinalis
+    a a g g( a) a g f g g a a \barMaior
+    g f f( g) f( e) d( e) \barMin
+    e( f) d c c( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás svým kří -- žem,
     Pa -- ne Je -- ží -- ši Kris -- te;
     ty jsi svou smr -- tí na -- ši smrt pře -- mo -- hl
-    a svým vzkří -- še -- ním ob -- no -- vils ži -- vot.
+    a svým vzkří -- še -- ním
+    ob -- no -- vils ži -- vot.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_obnovil_ půjde lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -582,12 +582,15 @@
   \relative c'' {
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
-    d d( c d) c( a) a \barMin f g a a( c) b a b a a \barMax
-    a a a g( f e) e \barMin f4 g a a( c) b( a) a \barFinalis
+    d c( d) c( a) a \barMin
+    g f g a( c) b a b a a \barMax
+    c d c b( a g) g \barMin
+    b c a g( a) a a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
-    a sla -- ví -- me pa -- mát -- ku tvé -- ho u -- mu -- če -- ní;
+    a sla -- ví -- me
+    pa -- mát -- ku tvé -- ho u -- mu -- če -- ní;
     tr -- pěl jsi za nás,
     smi -- luj se nad ná -- mi.
   }
@@ -597,8 +600,6 @@
     differentia = "A"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
-    placet = "zkusit vylepšit (snesla by se i takhle, ale půjde lépe)"
-    fons = "1. část z Velký pátek, r.ch., 3. ant.; viz též zde k Benedictus"
     fial = "pust_triduum.ly#pa-rch-ant3?cast"
     piece = \markup {\sestavTitulek}
   }
@@ -607,19 +608,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f g f e d d \barMin f g a g f e \barMaior
-    a g a b( g e) e \barMin f f( a g) f( d) d e \barFinalis
+    e4 f g f e d d \barMin
+    d g a g f e \barMaior
+    a g a b( g e) e \barMin
+    e f( a g) f( d) d e \barFinalis
   }
   \addlyrics {
-    Kla -- ní -- me se ti, Kris -- te, a ve -- le -- bí -- me tě,
-    ne -- boť svým kří -- žem jsi vy -- kou -- pil svět.
+    Kla -- ní -- me se ti, Kris -- te,
+    a ve -- le -- bí -- me tě,
+    ne -- boť svým kří -- žem
+    jsi vy -- kou -- pil svět.
   }
   \header {
     quid = "3. ant."
     modus = "IV"
     differentia = "E"
     psalmus = "Zj 4"
-    placet = "krok by měl být až na _velebíme_"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
