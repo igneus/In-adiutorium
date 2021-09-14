@@ -382,7 +382,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "sekundový krok na _na kterém_ je divný"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
