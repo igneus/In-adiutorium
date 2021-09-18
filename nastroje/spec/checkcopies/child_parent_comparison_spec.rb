@@ -147,4 +147,35 @@ describe ChildParentComparison do
       ).not_to be_match
     end
   end
+
+  describe 'zacatek' do
+    let(:fial) { 'parent_path#id?zacatek' }
+
+    it 'no common beginning' do
+      expect(
+        described_class.new(
+          score(music: 'a a a a a', fial: fial),
+          score(music: 'b b b b b')
+        )
+      ).not_to be_match
+    end
+
+    it 'common beginning too short' do
+      expect(
+        described_class.new(
+          score(music: 'a b   c c c', fial: fial),
+          score(music: 'a b   d d d')
+        )
+      ).not_to be_match
+    end
+
+    it 'common beginning' do
+      expect(
+        described_class.new(
+          score(music: 'a b c d e   a a a', fial: fial),
+          score(music: 'a b c d e   c c c')
+        )
+      ).to be_match
+    end
+  end
 end

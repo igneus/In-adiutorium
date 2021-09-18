@@ -1,3 +1,17 @@
+class String
+  # Longest shared substring at the beginning of both Strings
+  def shared_beginning(other)
+    0.upto(size - 1) do |i|
+      unless other.start_with?(self[0..i])
+        return '' if i == 0
+        return self[0..i-1]
+      end
+    end
+
+    self
+  end
+end
+
 # Comparison of two scores, checking if 'child' is (still) a copy
 # (or deterministically modified copy) of 'parent'.
 class ChildParentComparison
@@ -13,6 +27,14 @@ class ChildParentComparison
   def match?
     if @fial.additional.has_key?('cast')
       return normalized_parent.include? strip_wrappers(normalized_child)
+    end
+
+    if @fial.additional.has_key?('zacatek')
+      return \
+        strip_wrappers(normalized_parent)
+        .shared_beginning(strip_wrappers(normalized_child))
+        .split(/\s+/)
+        .size >= 5
     end
 
     normalized_parent == normalized_child ||
