@@ -88,19 +88,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c a d( c) a( b) a \barMin c( d e) d c d( c b a) \barMaior
-    a a a g( e) e \barMin f( g a b) c( b) a d d c a b a \barFinalis
+    d4 d d c( d) c c \barMin
+    d e d c( b a) \barMaior
+    c b a g( a) g \barMin
+    f( g) g( a) a \barMin
+    c c b g a( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din při -- chá -- zí sou -- dit svůj lid;
-    ne -- be i ze -- mě zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 50-I"
-    placet = "všem třem věnovat spravedlivý kus péče"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -109,8 +114,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d a) g( c a) a \barMin c( d e) d( c b) a \barMaior
-    d d( c) \barMin c c( d c) b( a) g a \barFinalis
+    d4 e d c d d( c) \barMaior
+    c d c b g a( g) g \barFinalis
   }
   \addlyrics {
     Vzý -- vej mě v_sou -- že -- ní,
@@ -119,8 +124,8 @@
   \header {
     textus_approbatus = "Vzývej mě v soužení, a vysvobodím tě."
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 50-II"
     id = "mc-b-ant2"
     piece = \markup {\sestavTitulek}
@@ -130,17 +135,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a a( c d) e4. d \barMin c4 d e c4. b \barMaior
-    a4( b a) g a \barFinalis
+    d4 c( d) d( e) d \barMin
+    d c b g g \barMaior
+    a b g \barFinalis
   }
   \addlyrics {
-    Kdo při -- ná -- ší o -- bě -- ti chvá -- ly,
+    Kdo při -- ná -- ší
+    o -- bě -- ti chvá -- ly,
     ten mě ctí.
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 50-III"
     id = "mc-b-ant3"
     piece = \markup {\sestavTitulek}
