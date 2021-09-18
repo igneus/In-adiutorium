@@ -150,8 +150,6 @@
   }
 }
 
-\markup\italic{Koná-li se vigilie:}
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -169,7 +167,7 @@
     pra -- ví Pán.
   }
   \header {
-    quid = "ant. ke kantikům"
+    quid = "ant. ke kantikům vigilie"
     modus = "VIII"
     differentia = "G*"
     psalmus = ""

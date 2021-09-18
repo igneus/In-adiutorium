@@ -154,7 +154,7 @@ tInedeleInespAntIII = \score {
     buď na -- ší spá -- sou v_do -- bě tís -- ně.
   }
   \header {
-    quid = "ant. ke kantikům (pro neděle v mezidobí)"
+    quid = "ant. ke kantikům vigilie (pro neděle v mezidobí)"
     modus = "IV"
     differentia = "g"
     psalmus = ""
