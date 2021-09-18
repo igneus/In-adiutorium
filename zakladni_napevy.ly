@@ -522,17 +522,6 @@
 
   \markup\sekce{IV.3 Kompletář}
 
-  \markup\justify{
-    Verš (poněkud jiného znění) ve stejné funkci závěru hodinky
-    se podle \italic{Antiphonale Romanum} nezpívá, ale recituje -
-    hlubokým hlasem a "\"protaženě\"" (snad ve smyslu pomaleji).
-  }
-
-  \markup\justify{
-    Verš téhož znění, ale umístěný na začátku, nikoli na konci
-    kompletáře, se tamtéž notuje takto:
-  }
-
   \score {
     \relative c'' {
       \choralniRezim
@@ -550,6 +539,7 @@
       \Response A -- men.
     }
     \header {
+      fons_externus = \markup{podle \italic{Antiphonale Romanum,} Romae 1912, 44.}
       modus = "II"
       id = "pokojnounoc"
       piece = ""
