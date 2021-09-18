@@ -949,11 +949,11 @@
   \markup {\nadpisHodinka {"1. nešpory"}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 a( f) f e d e f g g \barMaior
-      a c c d c( b) a4. a \barMaior
-      b4 g g g a f f a g4. g \barFinalis
+      d4 c( d) d d c d d f f \barMaior
+      f g f g f e d \barMaior
+      f f e f g f e f d d \barFinalis
     }
     \addlyrics {
       Jan Křti -- tel vy -- stou -- pil na pouš -- ti
@@ -962,14 +962,11 @@
     }
     \header {
       quid = "1. ant."
-      modus = "VIII"
-      differentia = "G"
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 135-I"
-      piece = \markup {\sestavTitulek}
-      placet = "začátek je divný"
       id = "krtu-1ne-a1"
       fial = "antifony/advent_nedeleB.ly#iiben?cast"
-      fons = "Větší kus melodie vzat z antifony k Benedictus 2. neděle adventní cyklu B (velice podobný text)."
     }
   }
 
