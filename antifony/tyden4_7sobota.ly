@@ -14,8 +14,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d f( e c) c( d) d \barMin
-    c b a g( a) a( g) \barFinalis
+    d4 d c( d) c c( b c) \barMin
+    c b g a( g) g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -37,19 +37,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c b) d( e) d d \barMin
+    d4 b d( e) d d \barMin
     c a b a g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
-    Při -- ve -- dl je
+    Bůh je při -- ve -- dl
     do své sva -- té ze -- mě.
 
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Bůh je přivedl do své svaté země. Aleluja."
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
@@ -63,7 +62,7 @@
   \relative c'' {
     \choralniRezim
     d d e d e f( d) d \barMin e e d c b \barMaior
-    a( g) g( a) a \barMin a( d c) a( b) g g \barMin f g a( g) g \barFinalis
+    d c b c a g g \barMin f g a( g) g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }

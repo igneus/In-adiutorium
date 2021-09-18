@@ -37,10 +37,129 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( e c) c( d) d \barMin
     \mark\sipka c b a g( a) a( g) \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    placet = "nestandardní závěr"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d f( e c) c( d) d \barMin
+    \mark\sipka d c b g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) d( c) c \barMin
+    b a g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) d( c) c \barMin
+    \mark\sipka c b g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) c c( b c) \barMin
+    c b g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d c( b) g \barMin
+    a g f g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -113,7 +232,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b) d( e) d d \barMin
     c a \mark\sipka b a g g \barFinalis
@@ -137,11 +256,68 @@
   }
 }
 
+\markup\justify{
+  Ten stereotypní začátek všech tří antifon je sice opravdu nelibý, ale svévolně vylepšovat
+  liturgické texty mi nepřísluší a oficiální znění beze všeho jde zhudebnit,
+  tedy má být zhudebněno ono a žádné jiné.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 b d( e) d d \barMin
+    c a b a g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je při -- ve -- dl
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-V"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d d e d e f( d) d \barMin e e d c b \barMaior
     a( g) g( a) a \barMin a( d c) a( b) g g \barMin f g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
+    Da -- vi -- da za pas -- tý -- ře své -- ho li -- du.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-VI"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d d e d e f( d) d \barMin e e d c b \barMaior
+    \mark\sipka d c b c a g g \barMin f g a( g) g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
