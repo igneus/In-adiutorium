@@ -808,8 +808,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f f( g a) a \barMin
     a( b c) c( b) a b a( g) \barMaior
@@ -831,7 +834,83 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g a f( g) g \barMin
+    a c b g a( g) \barMaior
+    a c b( a g) g \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mne při -- jme,
+    ne -- při -- jí -- má mne,
+    a -- le to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne25b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f g( a) a \barMin
+    c b a b a( g) \barMaior
+    c c d( c a) a \barMin
+    c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mne při -- jme,
+    ne -- při -- jí -- má mne,
+    a -- le to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne25b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g f g( a) a \barMin
+    c b a b a( g) \barMaior
+    c c d( c a) a \barMin
+    c b \mark\sipka a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mne při -- jme,
+    ne -- při -- jí -- má mne,
+    a -- le to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne25b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') f f( g) g \barMin
     f e d( e) d d \barMaior
@@ -849,10 +928,38 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "půjde lépe; zejména ten, kdo se ponižuje, by mohl být proveden skromněji :)"
     id = "ne25b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g f d d \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- vy -- šu -- je,
+    bu -- de po -- ní -- žen,
+    a kdo se po -- ni -- žu -- je,
+    bu -- de po -- vý -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne25b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"26. neděle"}}
 
