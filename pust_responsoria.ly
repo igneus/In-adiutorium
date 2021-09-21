@@ -39,6 +39,8 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "III"
     piece = "neděle - ranní chvály (III)"
     id = "ne-rch"
   }
@@ -70,6 +72,8 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "III"
     piece = "neděle - nešpory (III)"
     id = "ne-ne"
   }
@@ -102,6 +106,8 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "II"
     piece = "všední dny - ranní chvály (II)"
     id = "fe-rch"
   }
@@ -132,6 +138,8 @@
     \textRespDoxologie
   }
   \header {
+    quid = "resp."
+    modus = "II"
     piece = "všední dny - nešpory (II)"
     id = "fe-ne"
   }
