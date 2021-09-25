@@ -20,7 +20,7 @@
     b4 c c a( g) a \barMin
     g a c c b( d c) b c a g g \barMaior
     f g a c b( g) \barMin
-    a a a g( a) g f e e e \barFinalis
+    g a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     V_jes -- lič -- kách le -- žel,
@@ -31,7 +31,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "III"
-    differentia = "b"
+    differentia = "h"
     fons = "zcela volná inspirace (nejprve mimovolná) antifonou vanoce_narozenipane.ly#bohorodicka-1ne-a2"
     psalmus = ""
     id = "2aben"

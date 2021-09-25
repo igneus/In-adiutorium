@@ -16,6 +16,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     b4 c c a( g) a \barMin
     g a c c b( d c) b c a g g \barMaior
@@ -38,6 +39,34 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    b4 c c a( g) a \barMin
+    g a c c b( d c) b c a g g \barMaior
+    f g a c b( g) \barMin
+    \mark\sipka g a a g( a) g f \mark\sipka d e e \barFinalis
+  }
+  \addlyrics {
+    V_jes -- lič -- kách le -- žel,
+    a při -- tom se skvěl v_ne -- bes -- ké slá -- vě,
+    při -- šel me -- zi nás,
+    a při -- tom zů -- stá -- val u Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "h"
+    fons = "zcela volná inspirace (nejprve mimovolná) antifonou vanoce_narozenipane.ly#bohorodicka-1ne-a2"
+    psalmus = ""
+    id = "2aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
