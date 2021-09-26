@@ -985,8 +985,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 b a g a f \barMin g g f( g) g \barMaior
     f g a b c( d c) a a \barMaior
@@ -1008,12 +1011,67 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a g a f \barMin
+    \mark\sipka a a g( a) g \barMaior
+    f g a b c( d c) a a \barMaior
+    c( d c) b( a g) g \barMin
+    f g( a) \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo -- ko -- li vám po -- dá
+    čí -- ši vo -- dy
+    pro -- to, že jste Kris -- to -- vi,
+    ne -- při -- jde
+    o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne26b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' a e f4. d \barMaior
     e4 e e e f g f e d( e) d d \barMax
     f a a g g e f e d \barMin
     c d f( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je pro te -- be lé -- pe,
+    a -- bys ve -- šel do ži -- vo -- ta bez ru -- ky,
+    než a -- bys s_o -- bě -- ma ru -- ka -- ma
+    při -- šel do pek -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne26b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a' a e f4. d \barMaior
+    e4 e e e f g f e d( e) d d \barMax
+    f a a g g e f e d \barMin
+    c d \mark\sipka e( f) d d \barFinalis
   }
   \addlyrics {
     Je pro te -- be lé -- pe,

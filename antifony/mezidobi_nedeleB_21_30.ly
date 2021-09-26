@@ -376,6 +376,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "lépe"
     id = "ne26b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -384,14 +385,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a g a f \barMin g g f( g) g \barMaior
+    c4 b a g a f \barMin
+    a a g( a) g \barMaior
     f g a b c( d c) a a \barMaior
-    c( d c) b( a g) g \barMin f g( a) g( a) g g \barFinalis
+    c( d c) b( a g) g \barMin
+    f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Kdo -- ko -- li vám po -- dá čí -- ši vo -- dy
+    Kdo -- ko -- li vám po -- dá
+    čí -- ši vo -- dy
     pro -- to, že jste Kris -- to -- vi,
-    ne -- při -- jde o svou od -- mě -- nu.
+    ne -- při -- jde
+    o svou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -409,7 +414,7 @@
     d4 a' a e f4. d \barMaior
     e4 e e e f g f e d( e) d d \barMax
     f a a g g e f e d \barMin
-    c d f( c) c( d) d \barFinalis
+    c d e( f) d d \barFinalis
   }
   \addlyrics {
     Je pro te -- be lé -- pe,
