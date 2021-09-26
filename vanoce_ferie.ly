@@ -199,7 +199,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( c a) c( d) d c( d) d \barMin
+    d4( c a) c( d) d c( d) d \barMin
     d e f g f d f e d c d c c \barMaior
     d f e( d c) c \barMin
     f e( f) d d e d c( d) d \barFinalis
@@ -230,7 +230,7 @@
     % Je z hlediska vyznamu textu lepsi,
     % aby na "je ten" koncila prvni fraze, jak jsem to udelal,
     % nebo aby jim zacinala nova?
-    d d c( d) d f( e) d( e d) c c( d) \barMin
+    d4 d c( d) d f( e) d( e d) c c( d) \barMin
     d d c( d e f) e \barMin
     f f f e f d \barFinalis
   }
