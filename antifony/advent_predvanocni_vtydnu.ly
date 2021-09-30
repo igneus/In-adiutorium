@@ -436,6 +436,6 @@
     id = "predvanocni-zlm-so-a3"
     piece = \markup {\sestavTitulekBezZalmu}
     fons = "první polovina převzata z: tento materiál, 21.12., antifona k Benedictus"
-    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-ben?1. polovina"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-ben?zacatek"
   }
 }
