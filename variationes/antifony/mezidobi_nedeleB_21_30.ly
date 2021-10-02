@@ -1412,8 +1412,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a' g bes g) \barMin f f( g) f e d e d d \barFinalis
   }
@@ -1423,6 +1426,46 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "_Jdi_ je divoké. Pamatuji si, proč jsem to tak udělal -
+    aby nejsilnější slovo v hudebním ztvárnění nezaniklo.
+    To je ale potřeba zařídit nějak vhodněji."
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( bes a) \barMin a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e f) \barMin f g f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "ne30b-2ne-mag"

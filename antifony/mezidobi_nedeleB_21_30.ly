@@ -691,19 +691,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a' g bes g) \barMin f f( g) f e d e d d \barFinalis
+    d4( e f) \barMin f g f e d e d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_Jdi_ je divoké. Pamatuji si, proč jsem to tak udělal -
-    aby nejsilnější slovo v hudebním ztvárnění nezaniklo.
-    To je ale potřeba zařídit nějak vhodněji."
     id = "ne30b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
