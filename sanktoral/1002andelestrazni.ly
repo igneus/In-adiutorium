@@ -14,21 +14,23 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c b d c a a \barMaior
-    c a( c) b( g) a f \barMin f g( a) g( f) f \barFinalis
+    f4( g) f g a f g g \barMaior
+    g f g( a) g g \barMin
+    f g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Chval -- me na -- še -- ho Bo -- ha;
-    on nám po -- sí -- lá své an -- dě -- ly.
+    on nám po -- sí -- lá
+    své an -- dě -- ly.
   }
   \header {
     quid = "ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "nezpěvná"
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

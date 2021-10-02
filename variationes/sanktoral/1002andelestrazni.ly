@@ -15,6 +15,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c b d c a a \barMaior
     c a( c) b( g) a f \barMin f g( a) g( f) f \barFinalis
@@ -29,6 +30,30 @@
     differentia = "a"
     psalmus = ""
     placet = "nezpěvná"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
+    g f g( a) g g \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    on nám po -- sí -- lá
+    své an -- dě -- ly.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

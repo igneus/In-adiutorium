@@ -314,10 +314,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Nebo:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b a) a \barMin b( a) g a g g \barMaior
     a a b c c c d( c) c( d) d \barMin d( e c a) a g( a) a( g) \barFinalis
@@ -339,6 +342,92 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
+    g f g a a a g f f \barMin
+    d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    o něm vy -- dá -- va -- jí svě -- dec -- tví
+    je -- ho sva -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
+    g f g a a a g f f \barMin
+    d f g( f) f \barFinalis
+
+    \mark\sipka d^\markup\rubrVelikAleluja f g g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    o něm vy -- dá -- va -- jí svě -- dec -- tví
+    \markup{\Dagger je} -- ho sva -- tí.
+
+    \markup{\Dagger je} -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
+    g f g a \mark\sipka g f f g g \barMin
+    g a g( f) f \barFinalis
+
+    \mark\sipka d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    o něm vy -- dá -- va -- jí svě -- dec -- tví
+    je -- ho sva -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
