@@ -34,13 +34,16 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a bes g f \barMin g e d c c \barMaior
-    d d e f( a) g f g f \barFinalis
+    d d g f( a) g f g f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din ti po -- sí -- lá své -- ho an -- dě -- la,
@@ -57,10 +60,126 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a bes g f \barMin g e d c c \barMaior
+    d d \mark\sipka e f( a) g f g f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ti po -- sí -- lá své -- ho an -- dě -- la,
+    a -- by tě ve -- dl a chrá -- nil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes g f \barMin g e d c c \barMaior
+    d d e f( a) g f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ti po -- sí -- lá své -- ho an -- dě -- la,
+    a -- by tě ve -- dl a chrá -- nil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 a g c d( c) \barMin
+    a a( b c d) d c( a) b a g g \barMaior
+    a g( f) g( f) d d \barMin a' g( f g) f d d \barMaior
+    e f g a( c b) g a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný Bůh,
+    jenž po -- slal své -- ho an -- dě -- la
+    a vy -- svo -- bo -- dil své slu -- žeb -- ní -- ky,
+    kte -- ří v_něj dů -- vě -- řo -- va -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    placet = "_kteří_ ať nezačíná na e"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
+    g4 a g c d( c) \barMin
+    a a( b c d) d c( a) b a g g \barMaior
+    a g( f) g( f) d d \barMin a' g( f g) f d d \barMaior
+    \mark\sipka d e f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný Bůh,
+    jenž po -- slal své -- ho an -- dě -- la
+    a vy -- svo -- bo -- dil své slu -- žeb -- ní -- ky,
+    kte -- ří v_něj dů -- vě -- řo -- va -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g c \mark\sipka c( d) \barMin
+    d c( b g) g g( a) g f g g \barMaior
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný Bůh,
+    jenž po -- slal své -- ho an -- dě -- la
+    a vy -- svo -- bo -- dil své slu -- žeb -- ní -- ky,
+    kte -- ří v_něj dů -- vě -- řo -- va -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
     g4 a g c c( d) \barMin
-    d c( b g) g a( g) f f g g \barMaior
+    d c( b g) g \mark\sipka a( g) f f g g \barMaior
     a g( f) g( f) d d \barMin a' g( f g) f d d \barMaior
     d e f g a a g g \barFinalis
   }
@@ -79,6 +198,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -104,17 +225,55 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f f g( a) a( g) \barMax
+    f4 f f( g) f \barMin f f g f g f f g( a) a( g) \barMax
     g g a g( f d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a a g f g( a) a( g) \barMax
+    a4 a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g a g( f d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Chci tě chvá -- lit, Hos -- po -- di -- ne,
+    ce -- lým svým srd -- cem,_*
+    bu -- du ti hrát před an -- dě -- ly.
+    \Verse Sla -- vit bu -- du tvé jmé -- no,_*
+    \Response bu -- du ti hrát před an -- dě -- ly.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "zjednodušit první část repetendy"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka f f f f f f g f f g( a) a( g) \barMax
+    g g a g( f d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4( bes) a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g a g( f d) f g g( f) f \barFinalis
@@ -137,11 +296,88 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d( f d) e( c) d( c) \barMin c b( g a) a( g) g \barMaior
+    a d c b d c \barMin d f e c( a b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
     d4 d( e) e( d) d \barMin
-    d b( c) a( g) a( g) \barMaior
+    b c( a) a( g) g \barMaior
+    a f a c c b \barMin
+    c a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( e) e( d) d \barMin
+    b c( a) a( g) g \barMaior
+    a f a c c b \barMin
+    c a \mark\sipka g f( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  To trojité opakování motivu \italic{xx-xx-x} (posílá, anděly, ke spáse)
+  není moc pěkné.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( e) e( d) d \barMin
+    \mark\sipka d b( c) a( g) a( g) \barMaior
     a f a c c b \barMin
     c a g f( a) a( g) g \barFinalis
   }
@@ -160,6 +396,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
