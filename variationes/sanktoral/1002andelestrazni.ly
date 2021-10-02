@@ -452,6 +452,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 d c b c( b a g) g( a) \barMaior
     c c( d e) d \barMin
@@ -472,6 +473,29 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 d c d d( e) d c d c \barMaior
+    b c a( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl mě chrá -- ní
+    na všech mých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 34-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -531,8 +555,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e( c) d d( c) \barMin c d c( b) a \barMaior
     g a a( c) a c( d) c b a g g \barFinalis
@@ -547,6 +574,29 @@
     differentia = "c"
     psalmus = ""
     placet = "druhá půle, konkrétně _nebeského Otce_, se mi nelíbí rytmicky"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( e) \barMin
+    c a b( g) g \barMaior
+    f g a( c) c b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- jich an -- dě -- lé
+    stá -- le hle -- dí
+    na tvář mé -- ho ne -- bes -- ké -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
