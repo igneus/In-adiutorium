@@ -1179,6 +1179,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
     f g a a a b( c d) d( c) \barMin a( g) f g( a) a( g) g \barFinalis
@@ -1196,6 +1197,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
+    f g a \mark\sipka c b c( d) d( c) \barMin a( g) \mark\sipka a a g g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
