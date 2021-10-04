@@ -72,7 +72,7 @@
       quid = "3. ant."
       modus = "VIII"
       differentia = "G"
-      psalmus = "Fp 2"
+      psalmus = "Flp 2"
       id = "vden-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
