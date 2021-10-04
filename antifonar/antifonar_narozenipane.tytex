@@ -82,8 +82,7 @@
   \simpleScore{zakladni_napevy.ly#konec-prosba}
 }
 \newcommand{\zaverKompletar}{
-  Dej nám, Bože, pokojnou noc, a posiluj nás, ať vytrváme v dobrém až do konce.
-  \hspace{5mm} \textbf{O.} Amen.
+  \simpleScore{zakladni_napevy.ly#pokojnounoc}
 }
 
 
