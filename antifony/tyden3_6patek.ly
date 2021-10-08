@@ -36,8 +36,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a g f g \barMin
-    g f g a g f e f d d \barFinalis
+    a4 a a a a bes g a \barMin
+    a f g a g f e f d d \barFinalis
   }
   \addlyrics {
     Do po -- kr -- mu mi da -- li žluč

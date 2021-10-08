@@ -58,6 +58,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a g f g \barMin
     g f g a g f e f d d \barFinalis
@@ -65,13 +66,38 @@
   \addlyrics {
     Do po -- kr -- mu mi da -- li žluč
     a v_žíz -- ni mě na -- po -- ji -- li oc -- tem.
+
+    % nema aleluja
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 69-II"
-    id = ""
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a a \mark\sipka bes g a \barMin
+    \mark\sipka a f g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Do po -- kr -- mu mi da -- li žluč
+    a v_žíz -- ni mě na -- po -- ji -- li oc -- tem.
+
+    % nema aleluja
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-II"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -95,6 +121,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
