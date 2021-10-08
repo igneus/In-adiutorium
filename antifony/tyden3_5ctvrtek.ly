@@ -26,6 +26,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 89-IV"
+    placet = "obě lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -58,10 +59,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a b( g) g g a g f g a b c c \barMaior
+    g4 g f( g) g g f g a g a b c c \barMaior
     d e d( b c) a \barMin f g a a g g \barFinalis
 
-    g^\rubrVelikAleluja a g g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Na -- še lé -- ta jsou ja -- ko trá -- va, kte -- rá vad -- ne,
@@ -74,7 +75,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 90"
-    placet = "'jako' nejak nepatricne vycniva"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
