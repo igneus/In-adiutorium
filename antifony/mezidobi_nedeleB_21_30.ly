@@ -570,11 +570,11 @@
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d( g) g g f g a( g f) g \barMin f( g) f d d \barMaior
-    d( g a) a( g) \barMin g g g bes( a g) a g g d d \barMaior
-    f f f e f d d \barFinalis
+    a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
+    a g( a) \barMin c d d d d c e d d \barMaior
+    c a a b( c a) g g( a) a \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji,
@@ -584,9 +584,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
+    fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
     id = "ne29b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -597,8 +598,8 @@
     \choralniRezim
     d4 d d d d d c d d( f) f( e) e \barMaior
     d d d f e c a a \barMax
-    a g a a a c b a b c( d) d \barMaior
-    d( f) e d( e) d c c( d) \barFinalis
+    d c d d d f e d e f( g) g \barMaior
+    g( a) f e( f) d c c( d) \barFinalis
   }
   \addlyrics {
     Kdo by chtěl být me -- zi vá -- mi ve -- li -- ký,

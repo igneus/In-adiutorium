@@ -1481,10 +1481,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( g) g g f g a( g f) g \barMin f( g) f d d \barMaior
     d( g a) a( g) \barMin g g g bes( a g) a g g d d \barMaior
@@ -1509,6 +1512,104 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( g) g g f g a( g f) g \barMin f( g) f d d \barMaior
+    \mark\sipka d c( d) \barMin f g f e f d d c c \barMaior
+    d e f e c d d \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( g) g g f g a( g f) g \barMin f( g) f d d \barMaior
+    d c( d) \barMin f g f e \mark\sipka d c d c c \barMaior
+    \mark\sipka d c d e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
+    a g( a) \barMin c d c b a g a g g \barMaior
+    a g a b( c a) g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
+    a g( a) \barMin c \mark\sipka d d d d c e d d \barMaior
+    \mark\sipka c a a b( c a) g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d d d d d c d d( f) f( e) e \barMaior
     d d d f e c a a \barMax
     a g a a a c b a b c( d) d \barMaior
@@ -1531,6 +1632,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d d c d d( f) f( e) e \barMaior
+    d d d f e c a a \barMax
+    d c d d d f e d e f( g) g \barMaior
+    g( a) f e( f) d c c( d) \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl být me -- zi vá -- mi ve -- li -- ký,
+    ať je va -- ším slu -- žeb -- ní -- kem,
+    a kdo by chtěl být me -- zi vá -- mi prv -- ní,
+    ať je ot -- ro -- kem všech.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne29b-rch-ben"
+    fons = "25.7. sv. Jakuba apoštola, k Magnificat"
+    fial = "sanktoral/0725jakub.ly#ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
