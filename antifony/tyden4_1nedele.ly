@@ -255,6 +255,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 76-II"
+    placet = "druhá půle stále není dobrá"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
