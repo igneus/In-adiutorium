@@ -325,7 +325,7 @@
     g a g g f e e \barMaior
     a b c c b( d) c( b a) \barMaior
     g f g g( a) a \barMin
-    g g a g f d e e \barFinalis
+    a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka ne -- při -- šel,
