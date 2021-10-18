@@ -13,18 +13,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a c( d) c( b) a( g) g( a) a4.( g) \barMaior
-    f4( g) g( a) a \barMin a( b c a) a c( d c) a( b) a4.( g) \barMax
+    a4( g) a c d c b a( g) \barMaior
+    f4( g) g( a) a \barMin
+    a( b c a) a c( d c) a( b) a4.( g) \barMax
     g4 a( c) c( d) c c( d) d \barMaior
-    d( e d) c( b) a a \barMin c( d a) a( g) g g( a) a( g) g \barFinalis
+    d( e d) c( b) a a \barMin
+    c a g f( g) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- tí e -- van -- ge -- lis -- té
-    zkou -- ma -- li moud -- rost dáv -- ných dob
+    zkou -- ma -- li
+    moud -- rost dáv -- ných dob
     a své vy -- prá -- vě -- ní
-    do -- klá -- da -- li vý -- ro -- ky pro -- ro -- ků.
+    do -- klá -- da -- li
+    vý -- ro -- ky pro -- ro -- ků.
 
     A -- le -- lu -- ja.
   }
@@ -44,11 +48,11 @@
     \key f \major
     d4( a') a f g e g f e d d4.( e) \barMin
     f4 g a g( a) a \barMaior
-    g a a bes a bes a g( a) a \barMin
-    a a( g f) a( g f) e d d \barMaior
-    c( d) e f g( f d4.) d \barMin f4 e c c( d) d \barFinalis
+    g a a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin f4 e c c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e d \barFinalis
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
     Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
@@ -72,12 +76,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g f( g d4.) d \barMin e4 f f( g) g \barMaior
-    a( b c) a( g) a( g) \barMin f g a g f e e \barFinalis
-    f^\markup\rubrVelikAleluja f g( f) e \barFinalis
+    g4 g g g g( a) a \barMin g f g( a) g \barMaior
+    a( c b) g( a) a( g) \barMin f g a g f e e \barFinalis
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
   }
   \addlyrics {
     Všich -- ni bu -- dou chvá -- lit je -- jich moud -- rost,
+    % tak -- že
     na -- vě -- ky ne -- bu -- de vy -- hla -- ze -- na.
 
     A -- le -- lu -- ja.
@@ -104,32 +109,31 @@
     \key f \major
 
     % R
-    \neviditelna d
-    f4( g) a bes a a \barMin c bes a a( bes) a g f g g( a) a \barMax
-    a a f d e( f d) d \barFinalis
+    \neviditelna f
+    f4 f f f f f f f f f f g f g( a) a( g) \barMax
+    f d f g g( f) f \barFinalis
     % V
-    \neviditelna a'
-    a4( c d) a a( g a) \barMin
-    a g a bes bes bes a g g( a) a \barMax
+    \neviditelna a
+    a( bes) a a \barMin
+    a a a a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a a f d e( f d) d \barFinalis
+    f d f g g( f) f \barFinalis
     % Slava
-    a'( c d a) a a( bes) a a g( a) a \barMin a g( f g) f g( a) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vy -- pra -- vo -- va -- li o slav -- ných
     Hos -- po -- di -- no -- vých či -- nech_*
     a o je -- ho mo -- ci.
-    \Verse Mlu -- vi -- li o je -- ho po -- di -- vu -- hod -- ných
-    skut -- cích_*
+    \Verse Mlu -- vi -- li
+    o je -- ho po -- di -- vu -- hod -- ných skut -- cích_*
     \Response a o je -- ho mo -- ci.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = "I"
-    placet = "~"
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -203,9 +207,9 @@
   \relative c'' {
     \choralniRezim
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
-    g g c( b c) a( c) c( d c a) a \barMin f g a b( c) a a( g) g \barFinalis
+    g a c( b c) c c( d c a) a \barMin c a g f a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
@@ -226,11 +230,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g g a b( c) c c( a g a) f4.( g) \barMaior
-    c4( d c) b c c( d) a( g) a \barMaior
+    g4 a g g( c) c c( d c) c \barMaior
+    c4( d) b c a g g( a) \barMaior
     g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     By -- la mi dá -- na mi -- lost:

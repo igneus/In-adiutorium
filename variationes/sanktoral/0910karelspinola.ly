@@ -12,9 +12,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g g a b( c) c c( a g a) f4.( g) \barMaior
     c4( d c) b c c( d) a( g) a \barMaior
+    g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    By -- la mi dá -- na mi -- lost:
+    zvěs -- to -- vat po -- ha -- nům
+    ne -- vy -- sti -- ži -- tel -- né Kris -- to -- vo bo -- hat -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "commune/commune_evangelista.ly#ne-a3?-aleluja"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g g( c) c c( d c) c \barMaior
+    c4( d) b c a g g( a) \barMaior
     g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
   }
   \addlyrics {
