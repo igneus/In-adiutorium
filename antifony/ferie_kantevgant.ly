@@ -173,8 +173,8 @@ tIctvrtekAntBenedictus = \score {
 tIctvrtekAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    c4-- d c c d c a a \barMaior
-    a c c b a a g g \barFinalis
+    c4 d c c d c a a \barMaior
+    a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh se -- sa -- dil moc -- né z_trů -- nu
