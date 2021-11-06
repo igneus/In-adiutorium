@@ -94,6 +94,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
+    placet = "nepříliš zpěvná"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
