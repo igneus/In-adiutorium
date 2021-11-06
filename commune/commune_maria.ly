@@ -844,10 +844,11 @@
 \markup\nadpisDen "Sobotní památka Panny Marie"
 \markup\nadpisHodinka "ranní chvály"
 
-\markup\italic{
+\markup\italic\justify{
   Responsorium
-  \upright{Bůh si ji vyvolil} (viz výše, ranní chvály) nebo
-  \upright{Buď zdráva, Maria} (výše, 2. nešpory).}
+  \upright{Maria, Bůh si tě vyvolil} (viz výše, 1. nešpory),
+  \upright{Bůh si ji vyvolil od pradávna} (viz ranní chvály), nebo
+  \upright{Buď zdráva, Maria} (viz 2. nešpory).}
 
 \score {
   \relative c'' {
