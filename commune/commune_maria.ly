@@ -131,6 +131,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "první část responsa"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
