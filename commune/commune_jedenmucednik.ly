@@ -695,8 +695,8 @@
   \relative c' {
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
-    g f( g) g \barMin g f g f( e) d d \barMaior
-    d e( d e) d c c( d) d \barFinalis
+    f f( g) g \barMin g f e c d d( c) \barMaior
+    d d( f) e c c( d) d \barFinalis
     c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
@@ -713,7 +713,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 116-II"
-    placet = "_zahrne_ nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -745,21 +744,21 @@
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-    a4( g) a f e f( g) g( a) \barMax
-    a a bes a g f d e4. d \barFinalis
+    \neviditelna f
+    f4 f f f g( a) a( g) \barMax
+    g f g( a) g( f) d f g g f \barFinalis
     % V
-    \neviditelna a'
-    a4 a a a a( c a) a \barMin a a a f e f( g) g( a) \barMax
+    \neviditelna a
+    a4( bes) a a a g( a) g \barMin g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    a a bes a g f d e4. d \barFinalis
+    g f g( a) g( f) d f g g f \barFinalis
     % Slava
-    a'4 a a( c) c c c( a) a \barMin a f e f( g) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Zkou -- šel jsi nás, Bo -- že,_*
@@ -770,7 +769,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

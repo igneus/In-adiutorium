@@ -608,6 +608,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
@@ -634,11 +636,12 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
     g f( g) g \barMin g f g f( e) d d \barMaior
     d e( d e) d c c( d) d \barFinalis
-    c^\markup\small\italic{V době velikonoční:} d e d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {
     % Do textu jsem zasahl, protoze tak, jak je v breviari,
@@ -649,6 +652,36 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    placet = "_zahrne_ nezpěvné"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f g g( a) f f( g) g \barMaior
+    \mark\sipka f f( g) g \barMin g f \mark\sipka e c d d( c) \barMaior
+    d \mark\sipka d( f) e c c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    % Do textu jsem zasahl, protoze tak, jak je v breviari,
+    % drasa me ceske ucho - souveti je chybne postavene.
+    Jest -- li -- že mi kdo slou -- ží,
+    můj O -- tec, kte -- rý je v_ne -- be -- sích,
+    ho za -- hr -- ne po -- ctou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "D"
@@ -657,6 +690,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -680,10 +715,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -709,6 +747,71 @@
   \header {
     quid = "resp."
     modus = "I"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g( a) a( g) \barMax
+    g f g( a) g( f) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a a g( a) g \barMin g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g( f) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zkou -- šel jsi nás, Bo -- že,_*
+    a -- le ne -- od -- ňals nám svou lás -- ku.
+    \Verse Tří -- bil jsi nás oh -- něm, ja -- ko se tří -- bí stříb -- ro,_*
+    \Response a -- le ne -- od -- ňals nám svou lás -- ku.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g( a) a( g) \barMax
+    g f g( a) g( f) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4 a a a \mark\sipka g( a g) g \barMin g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g( f) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zkou -- šel jsi nás, Bo -- že,_*
+    a -- le ne -- od -- ňals nám svou lás -- ku.
+    \Verse Tří -- bil jsi nás oh -- něm, ja -- ko se tří -- bí stříb -- ro,_*
+    \Response a -- le ne -- od -- ňals nám svou lás -- ku.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
