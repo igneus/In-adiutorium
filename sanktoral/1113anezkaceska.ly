@@ -37,7 +37,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g f d g f g( a) g \barMaior
-    a b c c b( c b a) g4.( f4 g) \barMin a a a g g \barFinalis
+    a b c c b( c a g) a( g) \barMin f a a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní mi -- lo -- srd -- ní,
@@ -48,7 +48,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    placet = "nic moc, zejm. _dojdou_"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -180,8 +179,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f) g g( c a g) a( g) \barMin
-    g a( b c) d c b g a( g) g \barFinalis
+    d4 b d( e d) d \barMin
+    d c b a b a g g \barFinalis
   }
   \addlyrics {
     Moud -- rá pan -- na
@@ -189,10 +188,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Ef 1"
-    placet = "druhá část je nefunkční; celek nepěkný"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -206,14 +204,14 @@
     \neviditelna f
     f4 f f f f f g f f  \barMin
     f f g f g a a( g) \barMax
-    g g g a g( f d) d \barMin f g g( a) g g( f) f \barFinalis
+    g g g a g( f d) d \barMin f g g( a) g f f \barFinalis
     % V
     \neviditelna a
-    a a bes a g a \barMin
-    a a a a a a g f g( a) a( g) \barMax
+    a a a( bes) a g( a) g \barMin
+    g g g g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g a g( f d) d \barMin f g g( a) g g( f) f \barFinalis
+    g g g a g( f d) d \barMin f g g( a) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -229,7 +227,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "zaslouží trochu péče; _vaše posvěcení_ zbytečně drhne"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
