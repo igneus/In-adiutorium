@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../mezidobi_nedele.ly;
+
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"31. neděle"}}
 
@@ -215,12 +216,42 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Mimochodem zase nepřeklad:
+  \italic{\bold{Amen dico vobis:} cælum et terra transíbunt, verba autem mea non transíbunt.}
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g a( bes) a a \barMin
+    g f g a( f e) d e f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D2"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    fons = "začátek: sobota 2.t., uprostřed dne, 1. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
     \key f \major
     d4 d d f( g) g a( bes) a a \barMin
-    g f e f d c e d d \barFinalis
+    \mark\sipka a g f g( f e) d e d c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- be a ze -- mě po -- mi -- nou,
@@ -234,5 +265,68 @@
     id = "ne33b-2ne-mag"
     fial = "antifony/tyden2_7sobota.ly#up-ant1?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g a( bes) a a \barMin
+    a g f \mark\sipka g( a g) f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D2"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    fial = "antifony/tyden2_7sobota.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g a( bes) a a \barMin
+    \mark\sipka g f e f d c e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D2"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    fial = "antifony/tyden2_7sobota.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b g a a g \barMin
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
   }
 }
