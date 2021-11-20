@@ -17,7 +17,7 @@
   \relative c' {
     \choralniRezim
     d4 d c( d) d d f( e d) c c d d \barMaior
-    f g g g( f e d) \barMin e c f e d( e) d d \barFinalis
+    f g f e( d c) \barMin d e f e d( e) d d \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je kní -- že po -- ko -- je
@@ -28,7 +28,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
-    placet = "líbí, ale půjde ještě lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -117,14 +116,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a c( d a4.) c4 b a b g( a) a a \barMax
-    f g a a a a c d d d c d d e e \barMin
+    a4 a g a c( d a) \barMin
+    c b a b g( a) a a \barMaior
+    f g g a a a c d d d c d d e e \barMaior
     e e e d( b) c( b) a \barMin
-    b4 g g b a4. a \barMax
-    a4 b g a \barFinalis
+    b g g b a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
-    Pán Bůh mu dá trůn je -- ho před -- ka Da -- vi -- da;
+    Pán Bůh mu dá trůn
+    je -- ho před -- ka Da -- vi -- da;
     bu -- de kra -- lo -- vat nad Ja -- ku -- bo -- vým ro -- dem na -- vě -- ky
     a je -- ho krá -- lov -- ství ne -- bu -- de mít kon -- ce.
     A -- le -- lu -- ja.
@@ -134,7 +135,6 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Magnificat"
-    placet = "nově udělat divisiones; zkusit lepší aleluja (tohle není jen tak ledajaká antifona)"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
