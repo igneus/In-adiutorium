@@ -86,9 +86,9 @@ která je u něj uvedena.}
 \nadpisTypTextu{Antifony zpívané místo responsoria}
 
 \rubrika{1. ve Velikonočním triduu se místo responsoria zpívá po krátkém
-čtení následující antifona, a to tak, že se na Zelený čtvrtek
-vezme jen první část, na Velký pátek první dvě části
-a na Bílou sobotu se antifona zpívá celá.}
+čtení následující antifona, a to tak, že na Zelený čtvrtek
+se vezme jen část I, na Velký pátek části I a II,
+na Bílou sobotu pak se antifona zpívá celá.}
 
 \lilypondfile{generovane/kompletar/pust_triduum_resp-casti.ly}
 
