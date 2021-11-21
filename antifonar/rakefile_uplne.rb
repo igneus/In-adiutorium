@@ -13,7 +13,6 @@ desc "Introduction to the whole set of antiphonal volumes."
 task :uvod => [ uvod_lytex ]
 
 ##############
-# sv. IV.2 
 # kompletar
 
 adresar_kompletar = 'generovane/kompletar/'
