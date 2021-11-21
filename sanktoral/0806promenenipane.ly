@@ -140,6 +140,9 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "bez úprav zkopírovat hotovou melodii pro téměř shodný text bylo svůdné,
+    jenže _králů_ (dvě dlouhé) má jiný rytmus než _slávy_ (dlouhá-krátká),
+    takže kopie je méně uspokojivá"
     id = "invit"
     fial = "mezidobi_kristakrale.ly#invit?jiny_text"
     piece = \markup {\sestavTitulekBezZalmu}
