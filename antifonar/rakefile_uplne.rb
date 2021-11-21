@@ -1,3 +1,4 @@
+# coding: utf-8
 # volumes of the "Complete Edition" of the antiphonal
 
 ###############################################################
@@ -33,7 +34,21 @@ cislazalmu_kompletar.each do |i|
   zalmy_kompletar << genzalm("zalm#{i}.zalm", kompletar_options+" --accents 1:1", adresar_kompletar)
 end
 
-zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --accents 2:1', adresar_kompletar)
+zalmy_kompletar << genzalm(
+  'zalm4.zalm',
+  $commonoptions_withoutdoxology +
+  $o_doxology_full +
+  ' --accents 1:1' +
+  ' --output-append "\vspace{1mm}\rubrikaPo{Toto zakončení Sláva Otci se připojuje na konci všech žalmů a kantik.}"',
+  adresar_kompletar
+)
+zalmy_kompletar << genzalm(
+  'kantikum_nuncdimittis.zalm',
+  $commonoptions_withoutdoxology +
+  $o_doxology_full +
+  ' --accents 2:1',
+  adresar_kompletar
+)
 
 # noty:
 noty_kompletar = []
@@ -54,7 +69,7 @@ file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", 'spolecn
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
-desc "Antiphonal for the completory."
+desc "Antiphonal for the Compline"
 task :kompletar => ["vystup/antifonar_kompletar.pdf"]
 
 file 'vystup/antifonar_kompletar-broz.pdf' => ["vystup/antifonar_kompletar.pdf"] do |t|
@@ -66,7 +81,7 @@ file 'vystup/antifonar_kompletar-broz.pdf' => ["vystup/antifonar_kompletar.pdf"]
   sh "pdfbook -o vystup --signature #{n} --suffix broz #{nws}.pdf"
 end
 
-desc "Completory arranged for printing as a booklet"
+desc "Compline arranged for printing as a booklet"
 task :kompletar_booklet => ['vystup/antifonar_kompletar-broz.pdf']
 
 
