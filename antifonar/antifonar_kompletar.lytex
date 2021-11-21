@@ -49,6 +49,10 @@
 
 \pagestyle{fancy}
 
+\nadpisTypTextu{Úvodní verš}
+
+\lilypondfile{generovane/kompletar/zakladni_napevy_zacatek-bezny.ly}
+
 \phantomsection%
 \label{velikant}
 \nadpisTypTextu{Antifona k žalmům v době velikonoční}
@@ -125,6 +129,10 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \input{generovane/kompletar/kantikum_nuncdimittis.tex}
 
 \newpage % ZLOM
+
+\nadpisTypTextu{Zakončení}
+
+\lilypondfile{generovane/kompletar/zakladni_napevy_pokojnounoc.ly}
 
 \nadpisTypTextu{Závěrečné mariánské antifony}
 

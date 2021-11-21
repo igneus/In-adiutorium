@@ -39,6 +39,7 @@ zalmy_kompletar << genzalm("kantikum_nuncdimittis.zalm", kompletar_options+' --a
 noty_kompletar = []
 
 [['../kompletar.ly', 'po'],
+ ['../zakladni_napevy.ly', 'zacatek-bezny'],
  ['../pust_triduum.ly', 'ct-resp'],
  ['../velikonoce_velikonocnioktav.ly', 'resp'],
  ['../marianske_antifony.ly', 'salve']].each do |n|
