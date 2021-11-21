@@ -170,8 +170,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g c b a g a f \barMin g a g( a) g \barMaior
-    f d e e( f) \barMin f g g a a g g \barFinalis
+    a4 g c b a g a f \barMin a a g( a) g \barMaior
+    f d f f( g) \barMin a c b g a g g \barFinalis
   }
   \addlyrics {
     Bůh ho u -- sta -- no -- vil krá -- lem své -- ho li -- du
@@ -337,7 +337,7 @@
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
     a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
-    a a( c) b( a) a g( f g) a a g g \barFinalis
+    a a( c) b( a) a \barMin g( f g) a a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
@@ -349,7 +349,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "po _národům_ div. minima"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -370,6 +369,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
+    placet = "zkusit lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -405,13 +405,13 @@
     % R
     \neviditelna f
     f4 f f f g f g g( a) a( g) \barMax
-    g g a g f g( f) d d f g g f f \barFinalis
+    g g a g f g( f) d d \barMin f g g f f \barFinalis
     % V
     \neviditelna a
     a4 a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a g f g( f) d d f g g f f \barFinalis
+    g g a g f g( f) d d \barMin f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -425,7 +425,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "po _slávě_ div. minima"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -464,8 +463,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d( e) e \barMin e f d c a4. a \barMaior
-    f'4 g f e( d c) \barMin d c f( e) d4. d \barFinalis
+    d4 f e d( e) e \barMin e f d c a a \barMaior
+    f'4 g f e( d c) \barMin d c f( e) d d \barFinalis
   }
   \addlyrics {
     Pán je náš soud -- ce,
@@ -500,6 +499,7 @@
     modus = "IV" % vim, ze prekracuje rozsah, ale porad je, myslim, vic IV nez III.
     differentia = "g"
     psalmus = ""
+    placet = "přetížená nefunkční snahou o zvukomalbu"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -522,6 +522,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "od _rozkvete_ dál lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -599,16 +600,16 @@
     % R
     \neviditelna f
     f4 f f f f f g f \barMin
-    f f f f g( a) a( g) \barMax
-    g g g( a) g( f d) d \barMin
-    d f g a g( f) f \barFinalis
+    g f f f g( a) a( g) \barMax
+    g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a g( a) g \barMin g g g g g g g g f g( a) a( g) \barMax
+    a4 a a( bes) a g( a) g \barMin g g g g g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g( f d) d \barMin
-    d f g a g( f) f \barFinalis
+    g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
