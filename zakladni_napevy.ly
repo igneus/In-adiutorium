@@ -424,7 +424,7 @@
       \neviditelna f
       e e f \barFinalis \break
       \neviditelna f
-      f f f f f f e d f \barMaior
+      f f f f \bar "" f f e d f \barMaior
       f e d f \barMaior
       f f f d \barFinalis
       \neviditelna f
@@ -527,7 +527,7 @@
       \choralniRezim
       \neviditelna d
       c4 c c c c b a c \barMaior
-      c c c c c c c c c c c c c c f, f \barFinalis
+      c c c c c \bar "" c c c c c \bar "" c c c c f, f \barFinalis
 
       \neviditelna g
       b c \barFinalis
