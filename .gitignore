@@ -5,6 +5,8 @@
 *.log
 *.out
 *.toc
+*.midi
+*.png
 *.*~
 nahledantifon.ly
 antifonar/antifonar_zaltar.tex
