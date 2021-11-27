@@ -41,7 +41,8 @@
   \header {
     quid = "resp."
     modus = "III"
-    piece = "neděle - ranní chvály (III)"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
     id = "ne-rch"
   }
 }
@@ -74,7 +75,8 @@
   \header {
     quid = "resp."
     modus = "III"
-    piece = "neděle - nešpory (III)"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
     id = "ne-ne"
   }
 }
@@ -108,7 +110,8 @@
   \header {
     quid = "resp."
     modus = "II"
-    piece = "všední dny - ranní chvály (II)"
+    titulus = "všední dny - ranní chvály"
+    piece = \markup\sestavTitulekRespII
     id = "fe-rch"
   }
 }
@@ -140,7 +143,8 @@
   \header {
     quid = "resp."
     modus = "II"
-    piece = "všední dny - nešpory (II)"
+    titulus = "všední dny - nešpory"
+    piece = \markup\sestavTitulekRespII
     id = "fe-ne"
   }
 }

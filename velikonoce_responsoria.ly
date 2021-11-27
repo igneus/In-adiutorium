@@ -43,7 +43,8 @@
     quid = "resp."
     modus = "VI"
     id = "ne-rch"
-    piece = "neděle - ranní chvály (VI)"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
   }
 }
 
@@ -75,7 +76,8 @@
     quid = "resp."
     modus = "VI"
     id = "ne-2ne"
-    piece = "neděle - druhé nešpory (VI)"
+    titulus = "neděle - druhé nešpory"
+    piece = \markup\sestavTitulekRespII
   }
 }
 
@@ -109,7 +111,8 @@
     quid = "resp."
     modus = "VI"
     id = "odnanebevstoupeni-ne"
-    piece = "od slavnosti Nanebevstoupení Páně - nešpory (všední dny i neděle) (VI)"
+    titulus = "od slavnosti Nanebevstoupení Páně - všední dny i neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
   }
 }
 
@@ -144,7 +147,8 @@
     quid = "resp."
     modus = "VI"
     id = "ferie-rch"
-    piece = "pondělí až sobota - ranní chvály (VI)"
+    titulus = "pondělí až sobota - ranní chvály"
+    piece = \markup\sestavTitulekRespII
   }
 }
 
@@ -177,6 +181,7 @@
     quid = "resp."
     modus = "VI"
     id = "ferie-ne"
-    piece = "pondělí až první nešpory neděle - nešpory (VI)"
+    titulus = "pondělí až první nešpory neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
   }
 }

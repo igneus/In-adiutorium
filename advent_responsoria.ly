@@ -48,7 +48,8 @@
   \header {
     quid = "resp."
     modus = "III"
-    piece = "neděle - ranní chvály (III)"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
     id = "ne-rch"
   }
 }
@@ -84,9 +85,14 @@
     quid = "resp."
     modus = "VIII"
     placet = "_i Duchu svatému_ plynulejší, méně trhané"
-    piece = \markup{"neděle + 17. a 18. 12. - nešpory (VIII)" \placet}
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
     id = "ne-ne"
   }
+}
+
+\markup{
+  Responsorium \italic{Ukaž nám} se kromě nedělí zpívá také 17. a 18. prosince.
 }
 
 \pageBreak
@@ -120,7 +126,8 @@
   \header {
     quid = "resp."
     modus = "I"
-    piece = "ferie - ranní chvály (I)"
+    titulus = "ferie - ranní chvály"
+    piece = \markup\sestavTitulekRespII
     id = "fe-rch"
   }
 }
@@ -152,7 +159,8 @@
   \header {
     quid = "resp."
     modus = "II"
-    piece = "ferie - nešpory (II)"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
     id = "fe-ne"
   }
 }

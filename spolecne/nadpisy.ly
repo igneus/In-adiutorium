@@ -88,6 +88,16 @@ sestavTitulekResp = \markup\concat {
   \placet
 }
 
+% piece title used in sheets containing only a set of responsories
+% for a particular liturgical season
+sestavTitulekRespII = \markup\concat {
+  \fromproperty #'header:titulus
+  " ("
+  \fromproperty #'header:modus
+  ") "
+  \placet
+}
+
 \paper {
   % copied from lilypond's ly/titling-init.ly and modified
   scoreTitleMarkup = \markup {
