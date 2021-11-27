@@ -8,7 +8,7 @@
     \choralniRezim
     d4 d c d d( c) \barMin
     d c d f e f g f d \barMaior
-    f g f f g( a) g f d \barMax
+    f g g g( a) g f e d \barMax
     d c d d d f d d f g a g g \barMaior
     a( bes a) g f g g f( e d) \barMin
     d c d d( f) e c d d \barFinalis

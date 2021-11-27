@@ -41,11 +41,42 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d( c) \barMin
     d c d f e f g f d \barMaior
     f g f f g( a) g f d \barMax
+    d c d d d f d d f g a g g \barMaior
+    a( bes a) g f g g f( e d) \barMin
+    d c d d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou zna -- me -- ní
+    na slun -- ci, mě -- sí -- ci i hvěz -- dách,
+    na ze -- mi úz -- kost ná -- ro -- dů,
+    a teh -- dy li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
+    při -- chá -- zet v_ob -- la -- ku
+    s_ve -- li -- kou mo -- cí a slá -- vou.
+  }
+  \header {
+    textus_approbatus = "Budou znamení na slunci, na měsíci i na hvězdách, na zemi úzkost národů,
+    a tehdy lidé uvidí Syna člověka přicházet v oblaku s velikou mocí a slávou."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( c) \barMin
+    d c d f e f g f d \barMaior
+    f \mark\sipka g g g( a) g f e d \barMax
     d c d d d f d d f g a g g \barMaior
     a( bes a) g f g g f( e d) \barMin
     d c d d( f) e c d d \barFinalis
