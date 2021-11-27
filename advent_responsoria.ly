@@ -15,7 +15,7 @@
 
 \markup\justify {
   Následující responsorium využívá melodii podobného responsoria
-  z doby postní a ze žaltáře, ale pozor na druhou část odpovědi,
+  z doby postní, ale pozor na druhou část odpovědi,
   která z melodických důvodů nezačíná na E, ale na F.
 }
 
