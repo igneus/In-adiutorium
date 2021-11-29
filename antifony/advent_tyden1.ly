@@ -346,12 +346,12 @@
 \markup {\nadpisDen {Pondělí 1. týdne}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( b) c d e( d) c \barMin e( d) c d e e \barMaior
-    a, a( c) a \barMin e' d c b a( b a) a \barMax
-    c b c d c e( d) c( d) c( b) \barMin
-    a g a c b g( a) a \barFinalis
+    d4( e) f g a( g) f \barMin a( g) f g a a \barMaior
+    d, d( f) d \barMin a' g f e d( e d) d \barMax
+    f e f g f a( g) f( g) f( e) \barMin
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
@@ -361,8 +361,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}

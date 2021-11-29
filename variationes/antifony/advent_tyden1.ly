@@ -1086,6 +1086,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( b) c d e( d) c \barMin e( d) c d e e \barMaior
     a, a( c) a \barMin e' d c b a( b a) a \barMax
@@ -1107,6 +1108,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e) f g a( g) f \barMin a( g) f g a a \barMaior
+    d, d( f) d \barMin a' g f e d( e d) d \barMax
+    f e f g f a( g) f( g) f( e) \barMin
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
+    a po -- hleď na moc -- né -- ho krá -- le:
+    při -- chá -- zí ja -- ko spa -- si -- tel,
+    a -- by tě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
