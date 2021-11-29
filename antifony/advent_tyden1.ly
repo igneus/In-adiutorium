@@ -204,6 +204,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
+    placet = "aleluja lépe; _hory_ a dál asi taky spíš trochu jinak"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -264,6 +265,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "aleluja lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
