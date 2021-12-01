@@ -39,8 +39,8 @@
     \choralniRezim
     e4 e d( e) d \barMin f e e f e f d( e) e \barMaior
     e a a a g a b( a) a \barMaior
-    a a e e g( e) \barMin f g a g g a a \barMaior
-    a a a g( a g) \barMin f g g e e \barFinalis
+    a a g a e \barMin f g f e d e e \barMaior
+    f g a g( a g) \barMin f g g e e \barFinalis
   }
   \addlyrics {
     Sva -- tý Ed -- mund bo -- jo -- val za Bo -- ží zá -- kon,
