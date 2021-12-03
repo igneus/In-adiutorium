@@ -10,6 +10,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f g \barMaior a a f e d d \barFinalis
   }
@@ -29,6 +30,102 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 e f g \barMaior a a f e d d \barFinalis
+
+    f^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    placet = "všem třem lepší aleluja"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka f g g \barMaior a a f e d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka d e f \barMaior a a f e d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f \barMaior \mark\sipka g( a) f d e d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d f g f a f g g \barMaior
     g( a) f d e( d) d \barFinalis
@@ -43,6 +140,56 @@
     differentia = "D"
     psalmus = "Žalm 35-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d f g f a f g g \barMaior
+    g( a) f d e( d) d \barFinalis
+
+    f^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    U -- jmi se mě, Hos -- po -- di -- ne,
+    chraň mě svou mo -- cí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f g f a f g g \barMaior
+    g( a) f d e( d) d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    U -- jmi se mě, Hos -- po -- di -- ne,
+    chraň mě svou mo -- cí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-II"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -73,7 +220,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( e f) e \barMin
@@ -81,6 +228,34 @@
     g f d e( d) d \barFinalis
 
     \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Můj ja -- zyk
+    bu -- de stá -- le o -- sla -- vo -- vat
+    tvou spra -- ve -- dl -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d( e f) e \barMin
+    f g a a a( bes) g g( a) a \barMaior
+    g f d \mark\sipka e d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Můj ja -- zyk

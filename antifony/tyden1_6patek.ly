@@ -12,9 +12,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f g \barMaior a a f e d d \barFinalis
+    d4 f g g \barMaior a a f e d d \barFinalis
 
-    f^\rubrVelikAleluja f d d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -27,7 +27,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 35-I"
-    placet = "všem třem lepší aleluja"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -39,7 +38,7 @@
     d f g f a f g g \barMaior
     g( a) f d e( d) d \barFinalis
 
-    f^\rubrVelikAleluja f d d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     U -- jmi se mě, Hos -- po -- di -- ne,
@@ -63,7 +62,7 @@
     \key f \major
     d4 d( e f) e \barMin
     f g a a a( bes) g g( a) a \barMaior
-    g f d e( d) d \barFinalis
+    g f d e d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
