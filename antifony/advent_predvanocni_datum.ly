@@ -512,9 +512,9 @@
   }
   \addlyrics {
     \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
-    při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
     \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
-    \Response při -- blí -- ži -- lo se va -- še vy -- kou -- pe -- ní.
+    \Response při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
     \textRespDoxologie
   }
   \header {
