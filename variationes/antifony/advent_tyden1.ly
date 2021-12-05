@@ -287,6 +287,18 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup\justify{
+  Při případných budoucích úpravách těchto tří antifon je vhodné vzít v potaz,
+  že se zpívají v modlitbě se čtením nejen o 1. neděli adventní,
+  ale o všech čtyřech adventních nedělích,
+  pokaždé s žalmy příslušné neděle v cyklu žaltáře,
+  což jsou o 2. a 3. neděli adventní tři oddíly jednoho žalmu,
+  o 4. neděli pak jeden žalm v celku a další rozdělený na dva oddíly.
+  Bylo by konsistentnější s konvencemi projektu mít, s ohledem na přiřazení
+  antifon částem dělených žalmů, buďto všechny tři antifony
+  ve stejném modu, nebo naopak každou v jiném.
+}
+
 \label #'adventNedeleIcteni
 
 \score {
