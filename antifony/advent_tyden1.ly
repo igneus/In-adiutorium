@@ -297,21 +297,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( b) a b( c) a \barMin c( d) a( g f) \barMaior
-    g g( a) a \barMin a a b( c b) b \barMin a g f f g \barMaior
-    g a g g \barFinalis
+    g4( a) g a( c) c \barMin
+    d( e) d \barMaior
+    d( c b) a( g) a \barMin
+    a a g f g a a a g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
-    Při -- jde Kris -- tus, náš Král,
-    Be -- rá -- nek, je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 114"
-    placet = "jako by skutečnou finálou bylo a; značně nezpěvná"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }

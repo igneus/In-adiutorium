@@ -945,7 +945,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4( b) a b( c) a \barMin c( d) a( g f) \barMaior
     g g( a) a \barMin a a b( c b) b \barMin a g f f g \barMaior
@@ -961,6 +961,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Žalm 114"
+    placet = "jako by skutečnou finálou bylo a; značně nezpěvná"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1114,6 +1115,85 @@
     quid = "2. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    e( c) d \barMaior
+    a( d) b( c) a( g) \barMin
+    f g a b c a g a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) g a( c) c \barMin
+    d( e) d \barMaior
+    d( c b) a( g) a \barMin
+    a a g f g f g a g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) g a( c) c \barMin
+    d( e) d \barMaior
+    d( c b) a( g) a \barMin
+    a a g f g \mark\sipka a a a g \barMaior
+    \mark\sipka f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 114"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
