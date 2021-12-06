@@ -793,7 +793,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c b a b \barMaior
     c c c b a g g \barMin
@@ -810,6 +810,31 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G*"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a g c b a b \barMaior
+    c c c b a g g \barMin
+    f g a a g g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán ří -- ká: Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
