@@ -681,7 +681,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b( a g) \barMin
     f g a a a a( c) a a \barMin
@@ -690,6 +690,37 @@
     c c c( b) a a \barMin
     b c a g g \barMaior
     f g g g \barFinalis
+  }
+  \addlyrics {
+    V_ten den
+    bu -- dou pa -- hor -- ky o -- plý -- vat
+    mla -- dým ví -- nem
+    a ho -- ry
+    bu -- dou pře -- té -- kat
+    mlé -- kem a me -- dem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b( a g) \barMin
+    f g a a a \mark\sipka c a a \barMin
+    b c a( g) g \barMaior
+    c c( d c a) \mark\sipka a \barMin
+    c c \mark\sipka b( a) g g \barMin
+    f g a g g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     V_ten den
@@ -745,12 +776,60 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 d( g) g a g a c( b a) b \barMaior
     c d g, g f g a g \barMaior
     a a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde ve -- li -- ký Pro -- rok
+    a ob -- no -- ví Je -- ru -- za -- lém.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 d( g) g a g a c( b a) b \mark\sipka \barMin
+    c d g, g f g a g \barMaior
+    a a \mark\sipka g( a) g \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde ve -- li -- ký Pro -- rok
+    a ob -- no -- ví Je -- ru -- za -- lém.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 d( g) g a g a c( b a) b \barMin
+    c d g, g f g a g \barMaior
+    \mark\sipka f g a( g) g \barFinalis
   }
   \addlyrics {
     Hle, při -- jde ve -- li -- ký Pro -- rok

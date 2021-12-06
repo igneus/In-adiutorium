@@ -183,12 +183,12 @@
   \relative c'' {
     \choralniRezim
     c4 b( a g) \barMin
-    f g a a a a( c) a a \barMin
+    f g a a a c a a \barMin
     b c a( g) g \barMaior
-    c c( d c a) a( c) \barMin
-    c c c( b) a a \barMin
-    b c a g g \barMaior
-    f g g g \barFinalis
+    c c( d c a) a \barMin
+    c c b( a) g g \barMin
+    f g a g g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     V_ten den
@@ -204,7 +204,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
-    placet = "aleluja lépe; _hory_ a dál asi taky spíš trochu jinak"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -251,9 +250,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 d( g) g a g a c( b a) b \barMaior
+    g4 d( g) g a g a c( b a) b \barMin
     c d g, g f g a g \barMaior
-    a a g g \barFinalis
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     Hle, při -- jde ve -- li -- ký Pro -- rok
@@ -265,7 +264,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "aleluja lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
