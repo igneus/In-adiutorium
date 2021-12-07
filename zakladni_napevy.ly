@@ -414,21 +414,19 @@
 
   \markup\sekce{IV.1.1 s knězem nebo jáhnem}
 
-  \markup\wordwrap{Z materiálů české dominikánské provincie: \typewriter{http://www.op.cz/download/liturgie/initio_tisk.pdf}.}
-
   \score {
     \transpose f' c'' { \relative c' {
       \choralniRezim
       \neviditelna f
       f4 f d \barFinalis
       \neviditelna f
-      e e f \barFinalis \break
+      f f d \barFinalis \break
       \neviditelna f
       f f f f \bar "" f f e d f \barMaior
-      f e d f \barMaior
+      f e d f \barMin
       f f f d \barFinalis
       \neviditelna f
-      e f \barFinalis
+      f f \barFinalis
     } }
     \addlyrics {
       \Verse Pán s_vá -- mi.
@@ -439,7 +437,7 @@
       \Response A -- men.
     }
     \header {
-      fons = "dominikáni: http://www.op.cz/download/liturgie/initio_tisk.pdf"
+      fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316"
       id = "konec-pozehnani"
       piece = ""
     }
