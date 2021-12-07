@@ -415,19 +415,19 @@
   \markup\sekce{IV.1.1 s knězem nebo jáhnem}
 
   \score {
-    \transpose f' c'' { \relative c' {
+    \relative c'' {
       \choralniRezim
-      \neviditelna f
-      f4 f d \barFinalis
-      \neviditelna f
-      f f d \barFinalis \break
-      \neviditelna f
-      f f f f \bar "" f f e d f \barMaior
-      f e d f \barMin
-      f f f d \barFinalis
-      \neviditelna f
-      f f \barFinalis
-    } }
+      \neviditelna c
+      c4 c a \barFinalis
+      \neviditelna c
+      c c a \barFinalis
+      \neviditelna c
+      c c c c \bar "" c c b a c \barMaior
+      c b a c \barMin
+      c c c a \barFinalis
+      \neviditelna c
+      c c \barFinalis
+    }
     \addlyrics {
       \Verse Pán s_vá -- mi.
       \Response I s_te -- bou.
