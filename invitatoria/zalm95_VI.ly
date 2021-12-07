@@ -40,6 +40,7 @@ zalmXCVtonusVI = \score {
   \header {
     quid = "Žalm 95"
     modus = "VI"
+    placet = "_své spásy_ je divné"
     fons_externus = \markup{volně podle \italic{Liber hymnarius,} Solesmes 1983, 149nn.}
     piece = \markup\sestavTitulekBezZalmu
   }

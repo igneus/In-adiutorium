@@ -22,7 +22,7 @@
       " "
     }
 
-    \fill-line { "" \fromproperty #'header:fons_externus }
+    \fill-line { \placet \fromproperty #'header:fons_externus }
   }
 }
 
