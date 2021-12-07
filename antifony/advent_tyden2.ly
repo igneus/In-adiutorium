@@ -393,9 +393,9 @@
 \markup {\nadpisDen {Čtvrtek 2. týdne}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g a a \barMin c d c b a \barMaior
+    g4 f g a a \barMin c d c b a \barMaior
     a g c b c a( g) \barMin f f f g g( e) e \barFinalis
   }
   \addlyrics {

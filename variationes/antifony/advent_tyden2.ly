@@ -1261,8 +1261,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a a \barMin c d c b a \barMaior
+    a g c b c a( g) \barMin f f f g g( e) e \barFinalis
+  }
+  \addlyrics {
+    Já ti po -- má -- hám, pra -- ví Hos -- po -- din,
+    jsem tvůj vy -- ku -- pi -- tel, Iz -- ra -- e -- lův Sva -- tý.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 f g a a \barMin c d c b a \barMaior
     a g c b c a( g) \barMin f f f g g( e) e \barFinalis
   }
   \addlyrics {
