@@ -753,9 +753,8 @@
   \markup\sekce{VI.2 Zdroje nápěvů}
 
   \markup\justify{
-    1. Latinské znění s chorálními nápěvy je mj. ve zpěvníku
-    \italic{Mešní zpěvy}, Praha 1989, s. 1000nn.
-    Dále ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 366nn.
+    1. Latinské znění s jednoduchými chorálními nápěvy je
+    ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 366nn.
   }
 
   \markup\justify{
@@ -764,23 +763,11 @@
   }
 
   \markup\justify{
-    3. České písně oficiálně schválené jako závěrečné mariánské antifony
+    3. České písně oficiálně schválené pro použití jako závěrečné mariánské antifony
     jsou ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 363nn.
   }
 
   \markup\justify{
-    4. České překlady závěrečných mariánských antifon zhudebnil J. Olejník.
-    Jedna je v Jednotném kancionálu v závěru kompletáře (č. 089);
-    všechny jsou v Olejníkově autografu tohoto kompletáře,
-    který je oscanovaný ke stažení na stránkách \typewriter{http://breviar.ic.cz} .
-  }
-
-  \markup\justify{
-    5. Starší zpracování českých překladů mariánských antifon obsahuje např.
-    \italic{Český kancionál}, Praha 1921, s. 565nn.
-    Ostatní kancionály obsahující překlad částí oficia do národního jazyka
-    obvykle ve funkci závěrečných mariánských antifon mají strofické
-    písně, které jsou vůči původním latinským antifonám ve vztahu
-    velice volného překladu.
+    4. České překlady závěrečných mariánských antifon jsou v samostatném notovém materiálu.
   }
 }
