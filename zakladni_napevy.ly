@@ -261,15 +261,15 @@
     a prvním čtením, stejně jako v modlitbě uprostřed dne
     po krátkém čtení.
   }
-  \markup\justify{
-    Melodická ozdoba je na poslední slabice, zcela bez ohledu na slovní
-    přízvuk. Někdo by mohl namítnout, že to je češtině naprosto cizí.
-    Odpovídám, že latině to není vlastní o nic víc. Dále, že i v českém
-    chorálu se melisma na poslední slabice slova zdá být
-    přinejmenším někdy vhodným
-    melodickým označením předělu či závěru (tak alespoň můj hudební
-    cit; viz některé z mých antifon).
-  }
+  %\markup\justify{
+  %  Melodická ozdoba je na poslední slabice, zcela bez ohledu na slovní
+  %  přízvuk. Někdo by mohl namítnout, že to je češtině naprosto cizí.
+  %  Odpovídám, že latině to není vlastní o nic víc. Dále, že i v českém
+  %  chorálu se melisma na poslední slabice slova zdá být
+  %  přinejmenším někdy vhodným
+  %  melodickým označením předělu či závěru (tak alespoň můj hudební
+  %  cit; viz některé z mých antifon).
+  %}
 
   \score {
     \relative c'' {
