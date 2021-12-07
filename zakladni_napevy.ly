@@ -469,6 +469,7 @@
     }
     \header {
       fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
+      placet = "měl by se nápěv amen sjednotit s předchozím?"
       id = "konec-prosba"
       piece = ""
     }
