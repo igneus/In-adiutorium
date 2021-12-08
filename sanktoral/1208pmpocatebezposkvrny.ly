@@ -149,21 +149,23 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a g) a( c) a a \barMin c d c( a) b( g) a \barMaior
+    d4 e f f e f g a a \barMaior
     c d c b a g g a g f g a a \barMax
-    c( d e) c( b a) g a a \barMin f g a g( f) f \barFinalis
+    a g f g( f d) d \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i,
     po -- ča -- tou bez po -- skvr -- ny pr -- vot -- ní -- ho hří -- chu;
-    klaň -- me se Kris -- tu, je -- jí -- mu Sy -- nu!
+    klaň -- me se Kris -- tu,
+    je -- jí -- mu Sy -- nu!
   }
   \header {
     quid = "ant."
-    modus = "V"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "zdá se mi, že docela nesedí v modu a tíhne k finále g"
+    fial = "commune/commune_maria.ly#invit1?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -358,13 +360,13 @@
     % R
     \neviditelna f
     f4 f f f( g) f \barMin f f g f g( a) a( g) \barMaior
-    g g g g( a) g( f d) d f g g( f) f \barFinalis
+    g g g a g( f d) d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a a \barMin a g f g a a( g) g \barMax
+    a4( bes) a a \barMin a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g g( a) g( f d) d f g g( f) f \barFinalis
+    g g g a g( f d) d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -525,10 +527,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f( a) g a c b a g a \barMaior
-    c c c b( a g) a a f f \barFinalis
+    g4 g( a) a a c b a g a \barMaior
+    c c c b( a g) f a g g \barFinalis
   }
   \addlyrics {
     Tvůj o -- děv je bí -- lý ja -- ko sníh
@@ -536,10 +538,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Ef 1"
-    placet = "závěr je nepěkný"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
