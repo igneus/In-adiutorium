@@ -23,8 +23,6 @@
 
   \markup\sekce{I.1 První modlitba dne}
 
-  \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 3*.}
-
   \score {
     \relative c'' {
       \choralniRezim
@@ -39,7 +37,7 @@
     }
     \header {
       piece = ""
-      fons = "Antiphonale Romanum 1912, 3*"
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 3*."
       id = "zacatek-prvni"
     }
   }
@@ -253,9 +251,6 @@
 
   \markup\sekce{III.1 nápěv s neumou}
 
-  \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 27*.}
-
-
   \markup\justify{
     Takto se zpívají verše v modlitbě se čtením mezi psalmodií
     a prvním čtením, stejně jako v modlitbě uprostřed dne
@@ -286,16 +281,18 @@
     \layout {
       ragged-last = ##f
     }
+    \header {
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 27*."
+    }
   }
 
   \markup\sekce{III.2 slavnostní nápěv}
 
   \markup\justify{
-    Slavnostní nápěv pro verše s aleluja:
-    Podle: \italic{Antiphonale Romanum}, Romae 1912, 427.
-    (Původně k nešporám nejvýznamnějších svátků. Když dnes nešpory
+    Slavnostní nápěv pro verše s aleluja.
+    Původně k nešporám nejvýznamnějších svátků. Když dnes nešpory
     veršík neobsahují, nabízí se použít tento nápěv v modlitbě se čtením
-    zejm. o slavnostech velikonočního cyklu.)
+    zejm. o slavnostech velikonočního cyklu.
   }
 
 
@@ -314,6 +311,9 @@
     \layout {
       ragged-last = ##f
     }
+    \header {
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 427."
+    }
   }
 
   \markup\sekce{III.3 prostý nápěv}
@@ -323,7 +323,7 @@
   }
   \markup\justify{
     Pokles z recitační noty po posledním slovním přízvuku.
-    (V posledních slovech jsou z pedagogických důvodů
+    (V posledních slovech jsou z důvodu názornosti
     podtržením vyznačeny všechny přízvučné slabiky, pro nápěv veršů
     je však důležitá vždy ta poslední, která jediná je označena v textech
     obsažených v antifonáři.)
@@ -437,7 +437,7 @@
       \Response A -- men.
     }
     \header {
-      fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316"
+      fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316."
       id = "konec-pozehnani"
       piece = ""
     }
@@ -447,8 +447,6 @@
   }
 
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
-
-  \markup{Podle \italic{Antiphonale Romanum}, Romae 1912, 29*n. (Nápěv absoluce před čteními matutina.)}
 
   \score {
     \relative c'' {
@@ -468,7 +466,7 @@
       \Response A -- men.
     }
     \header {
-      fons = "podle Antiphonale Romanum 1912, 29*n, absoluce pred ctenimi matutina"
+      fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
       placet = "měl by se nápěv amen sjednotit s předchozím?"
       id = "konec-prosba"
       piece = ""
