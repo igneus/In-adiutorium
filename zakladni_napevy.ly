@@ -103,8 +103,7 @@
     }
     \header {
       id = "zacatek-bezny"
-      piece = \markup\column{"o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;"
-                             "o památkách a fériích ke všem hodinkám"}
+      piece = "k ostatním příležitostem"
     }
   }
 
