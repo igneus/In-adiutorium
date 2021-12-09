@@ -28,10 +28,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g a a( g) g \barMin
+    f4 f g f g g( a) a \barMin
     a a a a g f e f d( c) c \barMaior
     c d f f g( f) f \barMaior
-    f g a g f e d e f d c c d d \barFinalis
+    f g a g a g f e f d c c d d \barFinalis
   }
   \addlyrics {
     Kdy -- by hos -- po -- dář vě -- děl,

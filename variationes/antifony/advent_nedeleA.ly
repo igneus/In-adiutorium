@@ -104,7 +104,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g a a( g) g \barMin
     a a a a g f e f d( c) c \barMaior
@@ -134,6 +134,31 @@
     a a a a g f e f d( c) c \barMaior
     c d f f g( f) f \barMaior
     f g a g \mark\sipka g f d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f \mark\sipka g f g g( a) a \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f f g( f) f \barMaior
+    f g a g \mark\sipka a g f e f d c c d d \barFinalis
   }
   \addlyrics {
     Kdy -- by hos -- po -- dář vě -- děl,
@@ -294,6 +319,32 @@
     \mark\sipka c( d) c( b) a \barMin
     c a f g a g g \barMaior
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    c( d) c( b) a \barMin
+    c a \mark\sipka b c a g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý na te -- be se -- stou -- pí,
