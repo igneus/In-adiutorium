@@ -441,21 +441,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a f e f e d \barMaior
-    f a g a c b a \barMin
-    a a a g( f d) e( c) d \barMaior
-    c f d d \barFinalis
+    a4 a a f e f e d \barMin
+    f a g a c b a \barMaior
+    a a a g( f d--) \barMin
+    e( c) d \barFinalis
   }
   \addlyrics {
     Řek -- ně -- te ma -- lo -- my -- sl -- ným:
     Vzmuž -- te se, ne -- boj -- te se,
-    při -- chá -- zí Pán, náš Bůh.
-    A -- le -- lu -- ja.
+    při -- chá -- zí Pán,
+    náš Bůh.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}

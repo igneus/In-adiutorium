@@ -1449,7 +1449,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4 a a f e f e d \barMaior
     f a g a c b a \barMin
@@ -1466,6 +1466,36 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Při úpravě začátku nápěvu zůstala zapomenutá původní differentia.
+  A aleluja ta antifona v žádném vydání breviáře nemá - připletlo se mi sem nějakým omylem.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a f e f e d \barMin
+    f a g a c b a \barMaior
+    a a a g( f d--) \barMin
+    e( c) d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te ma -- lo -- my -- sl -- ným:
+    Vzmuž -- te se, ne -- boj -- te se,
+    při -- chá -- zí Pán,
+    náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
