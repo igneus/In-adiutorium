@@ -148,8 +148,8 @@
     \key f \major
     f4 f g a a a a a c bes a a \barMin
     bes bes a g \barMaior
-    f e f d \barMin
-    e d c( d) d \barFinalis
+    f f g a \barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Ať se mi dos -- ta -- ne tvé -- ho sli -- to -- vá -- ní,
@@ -162,7 +162,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-י"
-    placet = "druhou půli lépe"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
