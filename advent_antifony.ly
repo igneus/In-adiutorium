@@ -85,11 +85,11 @@
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 g g a b a g g( a) \barMaior
-      a b c c c b a g \barMin
-      f( g) a a g g \barFinalis
+      d4 c d f e d e d( c) \barMaior
+      f g a g f f( g) f f \barMin
+      e( f d) c c d d \barFinalis
     }
     \addlyrics {
       Pro -- ro -- ci před -- po -- ví -- da -- li,
@@ -97,11 +97,11 @@
       z_Pan -- ny Ma -- ri -- e.
     }
     \header {
+      fons_externus = "volně podle AR1912, 210."
       quid = "ant. dopoledne"
-      modus = "VIII"
-      differentia = "G"
+      modus = "I"
+      differentia = "D"
       psalmus = ""
-      placet = "nic moc"
       id = "spol-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }

@@ -504,7 +504,7 @@
 
 \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g a b a g g( a) \barMaior
       a b c c c b a g \barMin
@@ -621,6 +621,28 @@
       f4 f f g a g f f( g) \barMaior
       \mark\sipka f g a a a g f d \barMin
       c d f( g) f f \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g a g f f( g) \barMaior
+      f g a a a g f d \barMin
+      \mark\sipka f g g f f \barFinalis
     }
     \addlyrics {
       Pro -- ro -- ci před -- po -- ví -- da -- li,
@@ -940,6 +962,34 @@
       z_Pan -- ny Ma -- ri -- e.
     }
     \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Varianta sledující hrubý obrys latinské předlohy \italic{Prophetae praedicaverunt:}
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 c d f e d e d( c) \barMaior
+      f g a g f f( g) f f \barMin
+      e( f d) c c d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      fons_externus = "volně podle AR1912, 210."
       quid = "ant. dopoledne"
       modus = "I"
       differentia = "D"
