@@ -7,18 +7,10 @@
   composer = "Jakub Pavlík"
 }
 
-\markup\wordwrap\italic{
-  Kdo se neúčastní Velikonoční vigilie, modlí se o slavnosti Zmrtvýchvstání Páně modlitbu se čtením,
-  sestávající z alespoň čtyř čtení Velikonoční vigilie, příslušných mezizpěvů a orací.
-  V Denní modlitbě církve jsou pro pohodlí modlícího se reprodukována jen čtyři doporučená čtení,
-  ale rubrika o modlitbě se čtením slavnosti Zmrtvýchvstání Páně umožňuje číst z Velikonoční vigilie čtení více.
-  Následují antifony z mešního lekcionáře k mezizpěvům po čteních, která v Denní modlitbě církve
-  zahrnuta nejsou.
-}
-\markup\wordwrap\italic{
-  Antifony k mezizpěvům po čteních, která jsou zahrnuta v breviáři, jsou na příslušném místě
-  mezi vlastními zpěvy modlitby se čtením slavnosti Zmrtvýchvstání Páně
-  (dále odkazujeme zkratkou MČ ZP).
+\markup\justify{
+  To, že většina antifon je v VIII. modu, nebyl záměr, prostě to tak vyšlo,
+  ale koresponduje to s tím, že v VIII. modu jsou všechny trakty velikonoční vigilie,
+  takže tu není třeba snažit se o nějakou větší rozmanitost.
 }
 
 \score {
@@ -41,8 +33,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 f g g( a) a \barMin
     c b a b c a g g \barFinalis
@@ -61,13 +56,55 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( e) d \barMin
+    f g a b c a g g \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( e) d \barMin
+    f g a \mark\sipka c a b g g \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup\italic{Po 3. čtení (Ex 14) viz MČ ZP, 1. ant.}
 
 \score {
   \relative c'' {
     \choralniRezim
     g4 f g a a a g f g g \barMin
-    a b c a g f f( g) g \barFinalis
+    a b c a g f g g \barFinalis
   }
   \addlyrics {
     Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
@@ -82,6 +119,29 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g a a a g f g g \barMin
+    a b c a g f \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -106,8 +166,31 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    f( d) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c b a g( a) g \barMin
     f g a a g g \barFinalis
