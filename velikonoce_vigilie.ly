@@ -3,16 +3,16 @@
 \include "spolecne.ly"
 
 \header {
-  title = "Antifony z Velikonoční vigilie"
+  title = "Antifony z velikonoční vigilie"
   composer = "Jakub Pavlík"
 }
 
 \markup\wordwrap\italic{
-  Kdo se neúčastní Velikonoční vigilie, modlí se o slavnosti Zmrtvýchvstání Páně modlitbu se čtením,
+  Kdo se neúčastní velikonoční vigilie, modlí se o slavnosti Zmrtvýchvstání Páně modlitbu se čtením,
   sestávající z alespoň čtyř čtení Velikonoční vigilie, příslušných mezizpěvů a orací.
   V Denní modlitbě církve jsou pro pohodlí modlícího se reprodukována jen čtyři doporučená čtení,
-  ale rubrika o modlitbě se čtením slavnosti Zmrtvýchvstání Páně umožňuje číst z Velikonoční vigilie čtení více.
-  Následují antifony z mešního lekcionáře k mezizpěvům po čteních, která v Denní modlitbě církve
+  ale rubrika o modlitbě se čtením slavnosti Zmrtvýchvstání Páně umožňuje číst z velikonoční vigilie čtení více.
+  Následují antifony z mešního lekcionáře k mezizpěvům po čteních, která do Denní modlitby církve
   zahrnuta nejsou.
 }
 \markup\wordwrap\italic{
@@ -126,4 +126,4 @@
   }
 }
 
-\markup\italic{Po 7. a 8. čtení viz MČ ZP, 2. a 3. ant.}
+\markup\italic{Po 7. (Ez 36) a 8. čtení (Řím 6) viz MČ ZP, 2. a 3. ant.}

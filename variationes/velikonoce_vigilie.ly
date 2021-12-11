@@ -3,7 +3,7 @@
 \include "spolecne.ly"
 
 \header {
-  title = "Antifony z Velikonoční vigilie"
+  title = "Antifony z velikonoční vigilie"
   composer = "Jakub Pavlík"
 }
 
