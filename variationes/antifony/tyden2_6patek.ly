@@ -552,6 +552,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a b c a a \barMin b( c) a( g f) g \barFinalis
   }
@@ -570,7 +571,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 g f g a b c a a \mark\sipka f f( g) g \barFinalis
   }
@@ -690,7 +691,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f) d( c) \barMin
     d \mark\sipka d e f d d \barFinalis
@@ -703,6 +704,67 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f) d4.( c) \barMin
+    \mark\sipka f4 e d e c4. d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá
+    to -- ho, ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \barMin
+    e c f4. d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g( a) g \barMin
+    f g a4. g \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 60"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}

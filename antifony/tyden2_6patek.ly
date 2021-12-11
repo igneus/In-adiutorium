@@ -170,7 +170,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a b c a a \barMin b( c) a( g f) g \barFinalis
+    g4 g f g a b c a a f f( g) g \barFinalis
   }
   \addlyrics {
     Vy -- svo -- boď mě od mých ne -- přá -- tel, můj Bo -- že.
@@ -180,7 +180,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 59"
-    placet = "divný závěr; celou lépe"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -189,8 +188,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f) d( c) \barMin
-    d d e f d d \barFinalis
+    d4 d( f) d4.( c) \barMin
+    f4 e d e c4. d \barFinalis
   }
   \addlyrics {
     Bůh tres -- tá
