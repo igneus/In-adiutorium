@@ -72,6 +72,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \markup\justify{
@@ -84,11 +86,39 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f( g a bes) a \barMin g a g f e d \barMaior
     d d d f e f( g a) g( f) e \barMin
     f g a g bes a g f g \barMaior
     g g( a g) f( e) d d d( e d) c d d \barMaior
+    f( g a) f( d) f( e) d \barFinalis
+  }
+  \addlyrics {
+    Pán při -- jde, ne -- dá se za -- dr -- žet,
+    a -- by vy -- ne -- sl na svět -- lo
+    vě -- ci skry -- té do -- sud v_tem -- no -- tách
+    a u -- ká -- že se všem ná -- ro -- dům.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 93"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f( g a bes) a \barMin g a g f e d \barMaior
+    d d d f e f( g a) g( f) e \barMin
+    f g a g bes a g f g \barMaior
+    g g( a g) f( e) d d d( e \mark\sipka c) c d d \barMaior
     f( g a) f( d) f( e) d \barFinalis
   }
   \addlyrics {
@@ -279,11 +309,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 c b( g) a \barMin f g a g g \barMaior
     c c( d e) c b a a \barMin g f g( a) a( g) g \barMaior
     g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu vze -- jde má spá -- sa
+    a v_Je -- ru -- za -- lé -- mě bu -- du o -- sla -- ven.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 148"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c b( g) a \barMin f g a g g \barMaior
+    c c( d e) c b a a \barMin g f g( a) a( g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa

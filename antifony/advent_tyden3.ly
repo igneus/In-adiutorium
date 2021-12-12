@@ -89,7 +89,7 @@
     f4 f( g a bes) a \barMin g a g f e d \barMaior
     d d d f e f( g a) g( f) e \barMin
     f g a g bes a g f g \barMaior
-    g g( a g) f( e) d d d( e d) c d d \barMaior
+    g g( a g) f( e) d d d( e c) c d d \barMaior
     f( g a) f( d) f( e) d \barFinalis
   }
   \addlyrics {
@@ -140,7 +140,7 @@
     \choralniRezim
     g4 c b( g) a \barMin f g a g g \barMaior
     c c( d e) c b a a \barMin g f g( a) a( g) g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ze Si -- ó -- nu vze -- jde má spá -- sa
