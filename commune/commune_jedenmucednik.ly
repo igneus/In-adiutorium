@@ -199,7 +199,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f d c \barMin f f f f e g a a \barMax
+    f4 f f f f f f f g f f \barMin f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
