@@ -228,9 +228,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b b( c) c \barMin d( c) b c d c b( g) e \barMaior
+    g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
     f g a b( c) a g( f) g \barMaior
-    g a g g \barFinalis
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Věč -- né svět -- lo sví -- tí tvým sva -- tým, Pa -- ne,
@@ -240,9 +240,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = ""
-    placet = "aleluja snad g ga g g; moc nesedí v modu"
     id = "1ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -445,10 +444,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b( c d) c c4.( d) \barMaior
-    e4 c d c a4.( g) \barMin a4( b c) a b( a g4.) g \barFinalis
+    a4 a( d) c c( d) \barMaior
+    e d c d c( b a) \barMin b g a a \barFinalis
 
-    c4^\markup\rubrVelikAleluja a g( f) g \barFinalis
+    b4^\markup\small\italic{V době velikonoční:} c a( g) a \barFinalis
   }
   \addlyrics {
     Kdo zví -- tě -- zí,
@@ -461,7 +460,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
-    placet = "moc se mi nelíbí krok na _bude_, a melodie je taková nic moc"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
