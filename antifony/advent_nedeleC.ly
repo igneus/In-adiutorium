@@ -127,6 +127,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -203,6 +204,7 @@
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
+    placet = "_Přichází však_ lépe"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -231,6 +233,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "nedrží úplně pohromadě, doladit"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

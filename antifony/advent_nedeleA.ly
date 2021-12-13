@@ -119,6 +119,7 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#ut-amag?cast"
+    placet = "závěr lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
