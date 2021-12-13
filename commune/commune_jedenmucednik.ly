@@ -129,19 +129,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) g
+    e4 e
 
     \bar ";" \neviditelna g
-    f(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g) \bar ";"
-    f( g) g \bar ";"
-    f( e) f( g) g \bar ";"
-    f e f( g) g \bar ";"
-    f e f g g \bar ";"
+    d(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} e d) \bar ";"
+    d( e) d \bar ";"
+    d( e) d d \bar ";"
+    f e d( e) d \bar ";"
+    f e d( e) d d \barMin
 
-    a g f a g f d d \barMaior
-    d( f d) d( c) c d e f f( g) g \barMaior
-    g a( bes a) g( f) g g \barMin f g f g g d d \barMaior
-    c d f f( g d) \barMin g f e d d \barFinalis
+    f e e f e f d( e) e \barMaior
+    e a a a g a b( a) a \barMaior
+    a a g a e \barMin f g f e d e e \barMaior
+    f g a g( a g) \barMin f g g e e \barFinalis
   }
   \addlyrics {
     Sva -- tý
@@ -160,8 +160,8 @@
   }
   \header {
     quid = "ant. k Magnificat o mučedníkovi"
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -53,6 +53,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-amag1?vlozeno jmeno"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
