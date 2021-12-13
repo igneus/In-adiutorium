@@ -232,19 +232,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( c) a d( c) d f e( d) \barMaior
-    c c( b) a \barMin g a b c b g g \barFinalis
+    d4 d c( d) d d( c) d f e( d) \barMaior
+    d c( d) c \barMin
+    c b a c b g g \barFinalis
   }
   \addlyrics {
     Z_ne -- be při -- jde Vlád -- ce a Pán,
-    má v_ru -- ce krá -- lov -- skou moc a vlá -- du.
+    má v_ru -- ce
+    krá -- lov -- skou moc a vlá -- du.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "zkusit zpěvnější"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
