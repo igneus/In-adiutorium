@@ -528,6 +528,41 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f \barMin
+    f f f g f g( a) a( g) \barMax
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -577,6 +612,41 @@
     f4 f f f f f g f f \barMin
     g g g f g a( g) g \barMaior
     g a g g g g f g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou._* \textRespAleluja
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f
+    f f f f f g f \barMaior
+    f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
@@ -705,7 +775,7 @@
   }
 }
 
-\markup{
+\markup\justify{
   Tady by se mi mohlo vytýkat, že páchám určité násilí
   na _Blahoslavit_. Ale mně se to tak (alespoň zatím) líbí,
   byť jisté malé násilí na textu připouštím.
@@ -742,12 +812,41 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 d' d e c d b \barMin
     c c b a g( a) a \barMaior
     \mark\sipka c c c b( a g) g \barMin
     f g a a a a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- vit mě bu -- dou
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 d' d e c d b \barMin
+    \mark\sipka d d c b a( b) b \barMaior
+    c c c b( a g) g \barMin
+    \mark\sipka a f g a a a g a g g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
@@ -985,6 +1084,32 @@
     c c c a g f \barMin g d f e d d \barFinalis
 
     d^\markup\rubrVelikAleluja d( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
+    od -- mě -- nu od Bo -- ha, své -- ho spa -- si -- te -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key d \minor
+
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g \mark\sipka a a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+
+    \mark\sipka c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
@@ -3204,6 +3329,74 @@ je "\"skororepetice\"" melodie 2 v 4.}
     \neviditelna a
     a4 a g( a) g \barMin g f g a g g \barMaior
     g f g g g g g f g a a \barMax
+    % R
+    \neviditelna a
+    f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g f g g g g g f g \mark\sipka g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a a a g f g( a) g g \barMaior
+    g f g g g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     f( g) g( f) f \barFinalis
