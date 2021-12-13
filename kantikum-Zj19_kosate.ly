@@ -17,7 +17,11 @@
       " "
     }
 
-    \on-the-fly \development-build \line{ \placet }
+    \fill-line{
+      \on-the-fly \development-build \placet
+      ""
+      \small { \fromproperty #'header:fons_externus }
+    }
   }
 }
 
@@ -29,7 +33,7 @@ ial = \lyricmode { \markup\bold\large\with-color #red {A} -- le -- lu -- ja. }
 al = \lyricmode { \Response A -- le -- lu -- ja. }
 alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
-kantikumZjXIXtext = \lyricmode {
+kantikumZjXIXverse = \lyricmode {
   \Verse \ial
   Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
   \al
@@ -53,12 +57,34 @@ kantikumZjXIXtext = \lyricmode {
   \al
   \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
   \alal
-
+}
+kantikumZjXIXdoxologiekratka = \lyricmode {
   \Verse \ial
   Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
   \al
   \Verse po všech -- ny vě -- ky vě -- ků. A -- men.
   \alal
+}
+kantikumZjXIXdoxologie = \lyricmode {
+  \Verse \ial
+  Slá -- va Ot -- ci i Sy -- nu
+  \al
+  \Verse i Du -- chu sva -- té -- mu.
+  \alal
+
+  \Verse \ial
+  Ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
+  \al
+  \Verse a na vě -- ky vě -- ků. A -- men.
+  \alal
+}
+kantikumZjXIXtext = \lyricmode {
+  \kantikumZjXIXverse
+  \kantikumZjXIXdoxologiekratka
+}
+kantikumZjXIXtextII = \lyricmode {
+  \kantikumZjXIXverse
+  \kantikumZjXIXdoxologie
 }
 
 modIial = \relative c'' { \neviditelna a a4 c( b) a( b g) g( a) \barMax }
@@ -120,6 +146,77 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
     _Neboť nadešla_,
     doxologie;
     plnou doxologii"
+  }
+}
+
+modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMax }
+modIIal = \relative c' { \neviditelna d d d( e) d( c) c \barFinalis }
+modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinalis \break }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIIial
+    f4 f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Chvalte naseho Boha
+    \modIIial
+    f4 f f f f g f \barMin f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Pan, nas Buh
+    \modIIial
+    f4 f f f f f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f e c c( d) \barFinalis
+    \modIIalal
+
+    % Nebot nadesla
+    \modIIial
+    f4 f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Slava
+    \modIIial
+    f4 f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    % podle logiky toho napevu ze Solesmes by "svatemu" nebylo "cd d d", ale "c cd d"
+    % ale v ramci projektu In adiutorium tenhle styl terminace modu II neni obvykly
+    % a tady mi to k ceskemu textu nesedi
+    c4 d( f) f f( e) c( d) d \barFinalis
+    \modIIalal
+
+    % Jako byla
+    \modIIial
+    f4 f f f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f e c( d) d \barFinalis
+    \modIIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtextII
+  }
+  \header {
+    % AR2 nemá aleluja na začátku veršů, my sledujeme co možná doslovně text v breviáři;
+    % také rozdělení delších veršů malým akcentem je moje úprava
+    fons_externus = "podle Antiphonale Romanum II, Solesmis 2009, s. 30"
+    modus = "II"
+    id = "ii"
   }
 }
 
