@@ -204,22 +204,24 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g a f e d d \barMaior
-    f g f bes a g f g \barMin
-    g f g a g a f f \barFinalis
+    d4 e f e f d e c( d) d \barMaior
+    d c a c d e d d \barMin
+    f e d c( d) c c \barMaior
+    c( d e f) e( d) \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Žij -- me spra -- ved -- li -- vě a zbož -- ně,
-    v_ra -- dost -- ném o -- če -- ká -- vá -- ní
-    pří -- cho -- du na -- še -- ho Pá -- na.
+    a při -- tom o -- če -- ká -- vej -- me
+    v_bla -- že -- né na -- dě -- ji
+    pří -- chod
+    na -- še -- ho Pá -- na.
   }
   \header {
-    textus_approbatus = "Žijme spravedlivě a zbožně, a přitom očekávejme v blažené naději příchod našeho Pána."
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 19"
-    placet = "s tou si alespoň zkusit trochu pohrát"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }

@@ -662,6 +662,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g a f e d d \barMaior
     f g f bes a g f g \barMin
@@ -888,6 +889,43 @@
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny "Oficiální text"
+
+\markup\justify{
+  Tato verze je oproti té upravené výrazně méně zpěvná
+  (a obávám se, že s daným textem v tomto ohledu ani do budoucna víc nesvedu),
+  ale dnes už mám za to, že oficiálnímu textu je tu třeba dát přednost před zpěvností,
+  zvlášť s ohledem na onu již výše zmíněnou biblickou narážku, která se
+  v upraveném textu úplně ztratila.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f e f d e c( d) d \barMaior
+    d c a c d e d d \barMin
+    f e d c( d) c c \barMaior
+    c( d e f) e( d) \barMin
+    f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    a při -- tom o -- če -- ká -- vej -- me
+    v_bla -- že -- né na -- dě -- ji
+    pří -- chod
+    na -- še -- ho Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 19"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
