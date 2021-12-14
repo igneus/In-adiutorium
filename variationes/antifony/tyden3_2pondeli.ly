@@ -604,8 +604,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d( a') a a g( a) bes c a g g( a) a \barMin
@@ -616,10 +619,40 @@
     kte -- rý u -- či -- nil ne -- be i ze -- mi.
   }
   \header {
+    textus_approbatus = "Naše pomoc je ve jménu Hospodina, který učinil nebe a zemi."
+    % protože s _i_ místo _a_ mi antifona zní výrazně lépe
     quid = "2. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 124"
+    placet = "neobvyklý divoký závěr, zbytečný rozsah"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Prozatím jen oprava na oficiální text, bez malicherného subjektivního vylepšení:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d( a') a a g( a) bes c a g g( a) a \barMin
+    c c d a a a g f g( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še po -- moc je ve jmé -- nu Hos -- po -- di -- na,
+    kte -- rý u -- či -- nil ne -- be a ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 124"
+    placet = "neobvyklý divoký závěr, zbytečný rozsah"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
