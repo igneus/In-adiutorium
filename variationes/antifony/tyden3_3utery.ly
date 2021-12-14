@@ -418,7 +418,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( g) a \barMin g f e g f d d \barFinalis
   }
@@ -429,6 +429,25 @@
     quid = "3. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Žalm 67"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4( a) a \barMin g f e g f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- kaž nám svou jas -- nou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a2"
     psalmus = "Žalm 67"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
