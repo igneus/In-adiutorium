@@ -38,7 +38,7 @@
     \choralniRezim
     f f g g( a) a \barMin
     a a a g a g( f) f \barMin
-    g g a g f f \barFinalis
+    d f g a f f \barFinalis
 
     g^\rubrVelikAleluja a f f \barFinalis
   }
@@ -112,7 +112,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d e( g) g \barMaior g a a g a b( c) a \barMin a f g a( g f) e \barFinalis
+    e4 d e( g) g \barMin g a a g a b( c) a \barMin a f g a( g f) e \barFinalis
   }
   \addlyrics {
     Bla -- ze to -- mu, kdo jed -- ná spra -- ve -- dli -- vě
@@ -176,7 +176,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f( e) f f g f e \barMaior d c c d d \barFinalis
+    d4 e f( e) f f g f e \barMaior d c e( f) d d \barFinalis
   }
   \addlyrics {
     Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi!
@@ -186,7 +186,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 70"
-    placet = "_pomoz mi_ asi lépe de d d"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
