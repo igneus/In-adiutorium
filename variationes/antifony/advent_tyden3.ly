@@ -1582,11 +1582,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c( d) \barMaior
     c c c \mark\sipka g( a) g \barMin
     f g a g f \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstaň už, vstaň,
+    ob -- lék -- ni sí -- lu,
+    Hos -- po -- di -- no -- va pa -- že.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c( d) \barMin
+    c \mark\sipka d c b( a) g \barMin
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Vstaň už, vstaň,

@@ -384,9 +384,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c( d) \barMaior
-    c c c g( a) g \barMin
-    f g a g f f( g) g \barFinalis
+    c4 a c( d) \barMin
+    c d c b( a) g \barMin
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Vstaň už, vstaň,
