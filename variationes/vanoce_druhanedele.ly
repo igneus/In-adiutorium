@@ -397,8 +397,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) d d f f c( d c) \barMaior
     bes c d d c d f( e d) d \barFinalis
@@ -412,10 +415,33 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 150"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c d d d \barMaior
+    f d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Lid byd -- lí -- cí v_tem -- no -- tách
+    u -- vi -- děl ve -- li -- ké svět -- lo.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 150"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -579,6 +605,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -600,14 +628,40 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = "Zj 19"
-    id = ""
+    id = "ne2-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g f a g \barMin
+    c c b( c a) \barMaior
+    c d e d( e) d c( b a) a \barMin
+    c b a g a( g) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám Král krá -- lů,
+    Kris -- tus Pán:
+    při -- šla k_nám spá -- sa svě -- ta,
+    na -- še vy -- kou -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 19"
+    id = "ne2-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \pageBreak
+
+\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
 
 \score {
   \relative c'' {
@@ -665,7 +719,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
 
@@ -684,6 +738,36 @@
     differentia = "G"
     psalmus = "Magnificat"
     fial = "commune/commune_maria.ly#1ne-a1?zacatek"
+    id = "ne2-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Kromě úpravy melodie napřímíme odkaz na zdroj -
+  není důvod odkazovat na antifonu, která sama je částečnou kopií,
+  protože z ní přebíráme právě jen tolik, jako ona sama ze své předlohy.)
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    \mark\sipka c d c b( a) g g \barMin
+    a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    Sy -- na věč -- né -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Magnificat"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

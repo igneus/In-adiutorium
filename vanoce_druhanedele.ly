@@ -163,8 +163,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) d d f f c( d c) \barMaior
-    bes c d d c d f( e d) d \barFinalis
+    d4 c a c d d d \barMaior
+    f d f g f e d d \barFinalis
   }
   \addlyrics {
     Lid byd -- lí -- cí v_tem -- no -- tách
@@ -175,7 +175,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 150"
-    placet = "myslím, že půjde lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -329,13 +328,11 @@
   \relative c'' {
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
-
-    g f e d( e) d d \barMin
-    f e f g a g g \barFinalis
+    c d c b( a) g g \barMin
+    a g f g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
-
     ne -- boť tys no -- si -- la
     Sy -- na věč -- né -- ho Ot -- ce.
   }
@@ -344,8 +341,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Magnificat"
-    fial = "commune/commune_maria.ly#1ne-a1?zacatek"
-    placet = "druhý díl zkusit vzestupný (jako je i ve zdrojové antifoně)"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
