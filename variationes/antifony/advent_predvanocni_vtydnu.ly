@@ -757,14 +757,113 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( d) d \barMin
     c d e d( c) d d \barMaior
     a d b c a( g) a \barMin
     f g a c a a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e \mark\sipka c c( d) d \barMaior
+    a d b c a( g) a \barMin
+    f g a c a a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c c( d) d \barMaior
+    a d b c a( g) a \barMin
+    f g a \mark\sipka b( c) a a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c c( d) d \barMaior
+    a d b c a( g) a \barMin
+    f g a \mark\sipka b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c c( d) d \barMaior
+    a d b c a( g) a \barMin
+    f g a \mark\sipka c( b) a a \barFinalis
   }
   \addlyrics {
     K_to -- bě, Pa -- ne,
@@ -809,7 +908,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin
     b c d c b c c( d a) g( a) a4.( g) \barMaior
@@ -827,6 +926,57 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    g f g a a c bes a a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, od -- měň
+    ty, kdo v_te -- be dou -- fa -- jí,
+    tvo -- ji pro -- ro -- ci
+    ať se u -- ká -- ží spo -- leh -- li -- ví.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    g f g a a \mark\sipka b c a a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, od -- měň
+    ty, kdo v_te -- be dou -- fa -- jí,
+    tvo -- ji pro -- ro -- ci
+    ať se u -- ká -- ží spo -- leh -- li -- ví.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "predvanocni-zlm-ct-a2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1375,6 +1525,34 @@
     quid = "2. ant."
     modus = "V"
     differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-so-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Stejný model melodie, jako má latinská předloha:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c c c d( e) d \barMin
+    d c d e d c d d \barMaior
+    d a d b c a( g) a \barMin
+    f g a b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Ro -- su dej -- te, ne -- be -- sa, shů -- ry,
+    ob -- la -- ka, spusť -- te déšť prá -- va;
+    ať se o -- tev -- ře ze -- mě
+    a zplo -- dí spá -- su.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "predvanocni-zlm-so-a2"
     piece = \markup {\sestavTitulekBezZalmu}

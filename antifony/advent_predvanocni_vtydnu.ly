@@ -226,9 +226,9 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin
-    c d e d( c) d d \barMaior
+    c d e c c( d) d \barMaior
     a d b c a( g) a \barMin
-    f g a c a a \barFinalis
+    f g a c( b) a a \barFinalis
   }
   \addlyrics {
     K_to -- bě, Pa -- ne,
@@ -249,24 +249,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin
-    b c d c b c c( d a) g( a) a4.( g) \barMaior
-    g4 g a( f) e( g) g \barMin
-    g g a( b) c( a g4.) g \barMin
-    a4 g f( g) g \barFinalis
+    g4 a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    g f g a a c bes a a \barFinalis
   }
   \addlyrics {
-    Pa -- ne,
-    od -- měň ty, kdo v_te -- be dou -- fa -- jí,
+    Pa -- ne, od -- měň
+    ty, kdo v_te -- be dou -- fa -- jí,
     tvo -- ji pro -- ro -- ci
     ať se u -- ká -- ží spo -- leh -- li -- ví.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "nepříliš zpěvná"
     id = "predvanocni-zlm-ct-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
