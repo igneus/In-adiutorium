@@ -110,7 +110,7 @@ sestavTitulekRespII = \markup\concat {
       }
 
       \small\italic{
-        \fromproperty #'header:textus_approbatus
+        \wordwrap-field #'header:textus_approbatus
       }
 
       \on-the-fly \development-build \small\sans{
