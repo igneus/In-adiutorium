@@ -54,7 +54,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a g f g( a) g g \barMaior
+    g4 g g g a g f( a) g g \barMaior
     c a c b( g) a \barMin
     a a g f g a a g g \barFinalis
   }
@@ -66,9 +66,8 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Flp 2"
-    placet = "_Zákon byl dán skrze_ nic moc"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -178,7 +177,6 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
-    placet = "lépe"
     psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
