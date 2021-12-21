@@ -288,7 +288,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
-    placet = "není vůbec špatná, ale při vhodné příležitosti by se mohla zkusit jásavější varianta"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
