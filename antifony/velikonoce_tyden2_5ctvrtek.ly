@@ -47,7 +47,8 @@
     differentia = "a"
     psalmus = "Iz 12"
     id = "rch-a2"
-    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů."
+    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů;
+    mám ji takhle rád, ale takový krásný text si zaslouží pár pokusů o ještě lepší melodii"
     piece = \markup {\sestavTitulek}
   }
 }

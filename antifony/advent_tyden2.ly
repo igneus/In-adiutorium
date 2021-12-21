@@ -481,7 +481,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "mám ji takhle rád, ale takový krásný text si zaslouží pár pokusů o ještě lepší melodii"
     id = "pa-amag"
     fial = "fial://antifony/velikonoce_tyden2_5ctvrtek.ly#rch-a2?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
