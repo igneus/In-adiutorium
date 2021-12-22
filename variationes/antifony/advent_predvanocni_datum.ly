@@ -444,7 +444,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f( g) g g a g f( g) g( a) a \barMaior
     a a a bes a g g a a \barMin
@@ -454,6 +454,58 @@ v předvánočním týdnu latinsky.}
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
     dí -- tě se ži -- vě a ra -- dost -- ně
     po -- hnu -- lo v_mém lů -- ně.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-22-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Aleluja doteď figurující v kopiích antifony:
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f( g) g g a g f( g) g( a) a \barMaior
+    a a a bes a g g a a \barMin
+    f a g f d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
+    dí -- tě se ži -- vě a ra -- dost -- ně
+    po -- hnu -- lo v_mém lů -- ně.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-22-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f( g) g g a g f( g) g( a) a \barMaior
+    a a a bes a g g a a \barMin
+    f a g f d d \barMaior
+    e f \mark\sipka d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
+    dí -- tě se ži -- vě a ra -- dost -- ně
+    po -- hnu -- lo v_mém lů -- ně.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"

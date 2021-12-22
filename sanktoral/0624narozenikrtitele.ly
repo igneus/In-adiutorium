@@ -426,7 +426,7 @@
     a a a bes a g g a a \barMin
     f a g f d d \barMaior
 
-    e4 f d d \barFinalis
+    e4 f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
@@ -440,8 +440,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fons = "Navštívení P.M., 2. nešp., 2. ant. >> advent, předvánoční týden, 22.12., k Benedictus;"
-    fial = "sanktoral/0531navstivenipm.ly#ne-a2"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

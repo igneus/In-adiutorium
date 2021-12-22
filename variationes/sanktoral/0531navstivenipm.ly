@@ -442,7 +442,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f( g) g g a g f( g) g( a) a \barMaior
     a a a bes a g g a a \barMin
@@ -464,6 +464,36 @@
     psalmus = "Žalm 127"
     fons = "advent, předvánoční týden, 22.12., k Benedictus; přidáno aleluja"
     fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben?+aleluja"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f( g) g g a g f( g) g( a) a \barMaior
+    a a a bes a g g a a \barMin
+    f a g f d d \barFinalis
+
+    e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
+    dí -- tě se ži -- vě a ra -- dost -- ně
+    po -- hnu -- lo v_mém lů -- ně.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 127"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

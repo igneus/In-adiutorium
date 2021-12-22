@@ -289,7 +289,8 @@
     \choralniRezim
     d4 d d f( g) g g a g f( g) g( a) a \barMaior
     a a a bes a g g a a \barMin
-    f a g f d d \barFinalis
+    f a g f d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
@@ -302,7 +303,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "doplnit chybějící aleluja"
     id = "predvanocni-22-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

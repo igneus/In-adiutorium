@@ -192,7 +192,7 @@
     a a a bes a g g a a \barMin
     f a g f d d \barFinalis
 
-    e4^\markup\rubrVelikAleluja f d d \barFinalis
+    e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
@@ -206,8 +206,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 127"
-    fons = "advent, předvánoční týden, 22.12., k Benedictus; přidáno aleluja"
-    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben?+aleluja"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-22-ben"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
