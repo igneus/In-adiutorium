@@ -20,6 +20,8 @@
     na set -- ká -- ní s_ním.
   }
   \header {
+    textus_approbatus = "Hle, přijde Pán, Král králů země;
+    blažení, kdo jsou připraveni na setkání s ním."
     quid = "1. ant."
     modus = "III"
     differentia = "a"
@@ -183,7 +185,7 @@
   \addlyrics {
     Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
     do -- kud ne -- vzej -- de svět -- lo
-    je -- ho spra -- ved -- li -- vé -- mu.
+    je -- ho Spra -- ved -- li -- vé -- ho.
   }
   \header {
     quid = "2. ant."
@@ -261,6 +263,8 @@
     ať se u -- ká -- ží spo -- leh -- li -- ví.
   }
   \header {
+    textus_approbatus = "Pane, odměň ty, kdo v tebe doufají,
+    tvoji proroci ať se ukáží jako spolehliví."
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"

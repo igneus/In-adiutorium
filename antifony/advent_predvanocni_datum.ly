@@ -295,12 +295,14 @@
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
     dí -- tě se ži -- vě a ra -- dost -- ně
     po -- hnu -- lo v_mém lů -- ně.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "doplnit chybějící aleluja"
     id = "predvanocni-22-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -352,10 +354,13 @@
     co ře -- kl an -- děl o Ma -- ri -- i.
   }
   \header {
+    textus_approbatus = "Nyní se splnilo všechno,
+    co řekl anděl o Panně Marii."
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "upravit na oficiální text"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -513,7 +518,7 @@
   \addlyrics {
     \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
     při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
-    \Verse Bu -- de nad vá -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Verse Bu -- de nad ná -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
     \Response při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
     \textRespDoxologie
   }
