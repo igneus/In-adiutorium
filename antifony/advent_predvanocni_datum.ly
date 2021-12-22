@@ -347,20 +347,17 @@
   \relative c' {
     \choralniRezim
     d4 d d f e d d( e) e \barMin
-    f f f e d e c d d \barFinalis
+    f f f e( d) d e f d c d d \barFinalis
   }
   \addlyrics {
     Ny -- ní se spl -- ni -- lo všech -- no,
-    co ře -- kl an -- děl o Ma -- ri -- i.
+    co ře -- kl an -- děl o Pan -- ně Ma -- ri -- i.
   }
   \header {
-    textus_approbatus = "Nyní se splnilo všechno,
-    co řekl anděl o Panně Marii."
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "upravit na oficiální text"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
