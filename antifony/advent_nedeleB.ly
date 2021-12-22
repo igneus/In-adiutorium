@@ -66,7 +66,7 @@
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
     ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha:
-    poč -- neš a po -- ro -- díš sy -- na.
+    Poč -- neš a po -- ro -- díš sy -- na.
     A -- le -- lu -- ja.
   }
   \header {
@@ -190,7 +190,7 @@
   }
   \addlyrics {
     Jan ře -- kl:
-    já jsem hlas
+    Já jsem hlas
     vo -- la -- jí -- cí -- ho na pouš -- ti:
 
     vy -- rov -- nej -- te ces -- tu Pá -- nu.

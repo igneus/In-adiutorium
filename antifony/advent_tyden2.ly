@@ -15,7 +15,7 @@
   }
   \addlyrics {
     Ra -- duj se a ple -- sej, no -- vý Si -- ó -- ne:
-    při -- chá -- zí tvůj král,
+    při -- chá -- zí tvůj Král,
     je po -- kor -- ný a ti -- chý,
     a při -- ná -- ší spá -- su.
   }

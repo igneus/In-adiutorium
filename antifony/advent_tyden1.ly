@@ -47,8 +47,8 @@
     fons_externus = "Kancionál 101A"
     % melodie podle greg. antifony ekvivalentního textu;
     % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
-    textus_approbatus = "Hle, Pán přijde a s ním všichni jeho svatí;
-    v ten den zazáří veliké světlo. Aleluja."
+    textus_approbatus = "Hle, přijde Pán a s ním všichni jeho svatí;
+    v ten den zazáří velké světlo. Aleluja."
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -65,10 +65,13 @@
     a kaž -- dý člo -- věk ho u -- vi -- dí.
   }
   \header {
+    textus_approbatus = "Pán přijde s velkou mocí
+    a každý člověk ho uvidí."
     quid = "3. ant."
     modus = "IV"
     differentia = "E"
     psalmus = "Flp 2"
+    placet = "není důvod neupravit na oficiální text"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -328,7 +331,7 @@
   }
   \addlyrics {
     Hle, při -- jdu br -- zy a bu -- du va -- ší od -- mě -- nou,
-    pra -- ví Pán:
+    pra -- ví Pán;
     od -- pla -- tím kaž -- dé -- mu po -- dle je -- ho skut -- ků.
   }
   \header {
@@ -355,7 +358,7 @@
   }
   \addlyrics {
     Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
-    a po -- hleď na moc -- né -- ho krá -- le:
+    a po -- hleď na moc -- né -- ho Krá -- le:
     při -- chá -- zí ja -- ko spa -- si -- tel,
     a -- by tě vy -- svo -- bo -- dil.
   }

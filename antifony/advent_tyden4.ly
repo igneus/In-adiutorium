@@ -137,7 +137,7 @@
     c f( e) d d \barFinalis
   }
   \addlyrics {
-    Tvé vzne -- še -- né Slo -- vo, Bo -- že,
+    Tvé vše -- moc -- né Slo -- vo, Bo -- že,
     se -- stou -- pí z_krá -- lov -- ské -- ho trů -- nu z_ne -- be.
     A -- le -- lu -- ja.
   }

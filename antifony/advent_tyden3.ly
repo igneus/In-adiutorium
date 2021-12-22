@@ -211,7 +211,7 @@
     f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Žij -- me spra -- ved -- li -- vě a zbož -- ně,
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně
     a při -- tom o -- če -- ká -- vej -- me
     v_bla -- že -- né na -- dě -- ji
     pří -- chod

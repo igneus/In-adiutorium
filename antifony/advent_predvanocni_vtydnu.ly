@@ -339,7 +339,7 @@
   }
   \addlyrics {
     Vy -- tr -- vej -- te a u -- vi -- dí -- te,
-    jak vám Pán při -- jde na po -- moc.
+    že vám Pán při -- jde na po -- moc.
   }
   \header {
     quid = "2. ant."

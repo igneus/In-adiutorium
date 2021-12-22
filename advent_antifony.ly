@@ -25,7 +25,7 @@
     }
     \addlyrics {
       Pojď -- me,
-      klaň -- me se krá -- li,
+      klaň -- me se Krá -- li,
       na kte -- ré -- ho če -- ká -- me.
     }
     \header {
@@ -69,7 +69,7 @@
       d4 d f e c d \barFinalis
     }
     \addlyrics {
-      Pán je blíz -- ko,
+      Pán je blíz -- ko:
       pojď -- me, kla -- něj -- me se!
     }
     \header {
@@ -119,7 +119,7 @@
     \addlyrics {
       Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
       Pán s_te -- bou!
-      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi.
     }
     \header {
       quid = "ant. v poledne"
