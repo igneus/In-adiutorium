@@ -239,7 +239,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c( d) d d d e d c b c b a \barMaior
+    a4 b c d d d e d c b c b a \barMaior
     g c b g g( a) a a \barMaior
     b c a( g) a \barFinalis
   }
@@ -253,7 +253,6 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Benedictus"
-    placet = "zaslouží trochu péče - začátek není moc zpěvný; nezapomenout aktualizovat kopie"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

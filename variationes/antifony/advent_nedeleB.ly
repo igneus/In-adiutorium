@@ -829,6 +829,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c( d) d d d e d c b c b a \barMaior
     g c b g g( a) a a \barMaior
@@ -852,9 +853,32 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b \mark\sipka c d d d e d c b c b a \barMaior
+    g c b g g( a) a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    za -- snou -- be -- né s_Jo -- se -- fem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Benedictus"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 b c d d d e d c b c b a \barMaior
-    g c b g g a a \barMaior
+    g c b g \mark\sipka g a a \barMaior
     b c a( g) a \barFinalis
   }
   \addlyrics {
@@ -894,11 +918,37 @@
   }
 }
 
+\markup\justify{
+  Pozn.: odpovídající latinská antifona (Missus est)
+  nesleduje tenhle rozšířený model, je VIII. modu
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d d c d e c d d d \barMaior
+    a d c b a g a \barMin
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    za -- snou -- be -- né s_Jo -- se -- fem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Benedictus"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     d4 d c( d) c c( g) \barMin
     g a( g) g f g a c b \barMaior
@@ -915,6 +965,29 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
+    psalmus = "Benedictus"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d d e d c e e d d \barMaior
+    d c b a b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el
+    byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    za -- snou -- be -- né s_Jo -- se -- fem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Benedictus"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
