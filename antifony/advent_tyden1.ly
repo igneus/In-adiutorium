@@ -57,21 +57,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e( a) a a g a b a \barMin
+    e4 e( a) a g a b a \barMin
     a g a g f e d e e \barFinalis
   }
   \addlyrics {
-    Pán při -- jde s_ve -- li -- kou mo -- cí
+    Pán při -- jde s_vel -- kou mo -- cí
     a kaž -- dý člo -- věk ho u -- vi -- dí.
   }
   \header {
-    textus_approbatus = "Pán přijde s velkou mocí
-    a každý člověk ho uvidí."
     quid = "3. ant."
     modus = "IV"
     differentia = "E"
     psalmus = "Flp 2"
-    placet = "není důvod neupravit na oficiální text"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -581,7 +578,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g( c) c c d c c b a g( a) g \barMaior
+    c4 d c b a g g a g f( g) g \barMaior
     a( c) c \barMin
     c c b( g) g f( a) g \barFinalis
   }
@@ -593,7 +590,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
