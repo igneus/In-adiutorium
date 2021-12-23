@@ -1012,7 +1012,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( e c) c \barMin
     a b c d( f) e \barMaior
@@ -1030,6 +1030,12 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "tohle je jedna z mých nejmilejších antifon,
+    takže rozhodně nejsem pro překotné předělání,
+    ale moc dobře nesedí v modu.
+    Je jaksi 'moc krátká a moc frygická než aby mohla být zároveň
+    přesvědčivě hypodórská.'
+    Žalm se po ní těžko začíná."
     id = "predvanocni-zlm-ct-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1101,6 +1107,119 @@
     quid = "3. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f e d e( f) d \barMaior
+    c( d e f) f \barMin
+    d f d c4. d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f e d e( f) \mark\sipka f \barMaior
+    g( f g) g( f) \barMin
+    d f e c4. d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d f e d \mark\sipka f( g) g \barMaior
+    g( f g) f( d) \barMin
+    d f e c d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už
+    a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  VIII. modu je odpovídající latinská antifona \italic{Convertere Domine aliquantulum,}
+  přímo její melodický model ale pro hodně různou strukturu textu nelze pro český text použít.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c a c c b \barMaior
+    a( c) b a g f g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c a c c b \barMaior
+    a( c) b \mark\sipka g f g a4. g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "predvanocni-zlm-ct-a3"
     piece = \markup {\sestavTitulekBezZalmu}

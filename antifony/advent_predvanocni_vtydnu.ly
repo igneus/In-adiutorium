@@ -275,30 +275,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e c) c \barMin
-    a b c d( f) e \barMaior
-    e( a g a4.) e \barMin
-    f4 e d c4. d \barFinalis
+    g4 a c a c c b \barMaior
+    a( c) b g f g a4. g \barFinalis
   }
   \addlyrics {
-    Pa -- ne,
-    o -- brať k_nám svou tvář,
-    přijď už
-    a ne -- pro -- dlé -- vej.
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už a ne -- pro -- dlé -- vej.
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "tohle je jedna z mých nejmilejších antifon,
-    takže rozhodně nejsem pro překotné předělání,
-    ale moc dobře nesedí v modu.
-    Je jaksi 'moc krátká a moc frygická než aby mohla být zároveň
-    přesvědčivě hypodórská.'
-    Žalm se po ní těžko začíná."
     id = "predvanocni-zlm-ct-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
