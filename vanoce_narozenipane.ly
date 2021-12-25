@@ -84,17 +84,17 @@
       \choralniRezim
 
       % R
-      \neviditelna c
-      e4 e a a a b( a) g g( f e) \barMax
-      d d d c d e e \barMin g g g( f) e \barFinalis
+      \neviditelna f
+      f4 g f f f g f g( a) \barMax
+      f g a g f d d f g g( f) f \barFinalis
       % V
-      \neviditelna c
-      e e e( a g a b g) a \barMin g g( f) e e \barMax
+      \neviditelna a
+      a4 a g( a) g f g g g( a) \barMax
       % R
-      \neviditelna c
-      d d d c d e e \barMin g g g( f) e \barFinalis
+      \neviditelna a
+      f g a g f d d f g g( f) f \barFinalis
       % Slava
-      e e e( a) g g a( b g) a \barMin a g a g( f) e e \barFinalis
+      \respVIdoxologie \barFinalis
     }
     \addlyrics {
       \Response Dnes po -- zná -- te, že při -- jde Pán_*
@@ -104,10 +104,9 @@
       \textRespDoxologie
     }
     \header {
-      quid = "resp."
-      modus = "IV"
-      placet = "lépe"
       id = "narozeni-1ne-resp"
+      quid = "resp."
+      modus = "VI"
       piece = \markup\sestavTitulekResp
     }
   }
@@ -589,10 +588,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g g f g a a \barMin
-      g a c b g a \barMaior
+      g4 g g g f g g( a) a \barMin
+      g a c b g g( a) \barMaior
       a g a c c b \barMin
-      a g f g a g g \barFinalis
+      a g f g a a( g) g \barFinalis
     }
     \addlyrics {
       Na po -- čát -- ku by -- lo Slo -- vo,
