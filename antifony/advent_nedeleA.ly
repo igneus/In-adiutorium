@@ -70,6 +70,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "melodie _Neboj se_ mi k textu nějak nesedí"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -170,6 +171,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "úplně nedrží pohromadě, hlavně je citelný rušivý šev před _Přede mnou_"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
