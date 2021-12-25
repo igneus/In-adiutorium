@@ -175,6 +175,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 2"
+      placet = "ten sestupný krok na _Ty_ mi nějak nesedí"
       id = "vden-cte-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -382,6 +383,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Dan 3-III"
+      placet = "skok na aleluja pryč"
       id = "vden-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -557,6 +559,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Žalm 110"
+      placet = "napojení závěrečného dílu k převzaté melodii je nepřesvědčivé"
       id = "vden-2ne-a1"
       fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
       piece = \markup {\sestavTitulek}
