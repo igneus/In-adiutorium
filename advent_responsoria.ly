@@ -61,7 +61,7 @@
     % R
     \neviditelna g
     g4( c) a( g) g4.( a) g4 f e e \barMin
-    e d( g) f g a a4. \barMax
+    e d( g) f g a a \barMax
     b4 c d4. c4( d) c( b a g) g \barFinalis
     % V
     \neviditelna b
@@ -72,7 +72,7 @@
     b4 c d4. c4( d) c( b a g) g \barFinalis
     % Slava
     c4 c d c b a( b c) b \barMin
-    a b g a( f) g( a) a \barFinalis
+    a g a f( g) g( a) a \barFinalis
   }
   \addlyrics {
     \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
@@ -84,7 +84,6 @@
   \header {
     quid = "resp."
     modus = "VIII"
-    placet = "_i Duchu svatému_ plynulejší, méně trhané"
     titulus = "neděle - nešpory"
     piece = \markup\sestavTitulekRespII
     id = "ne-ne"

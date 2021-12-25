@@ -120,10 +120,43 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f d e( f) g \barMax
+    e f d f f e \barFinalis
+    % V
+    \neviditelna e
+    c d f f \mark\sipka d e( f) g g \barMax
+    % R
+    e f d f f e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, na kte -- ré -- ho če -- ká -- me,_*
+    smi -- luj se nad ná -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-rch"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -188,6 +221,115 @@
     quid = "resp."
     modus = "VIII"
     piece = "neděle + 17. a 18. 12. - nešpory (VIII)"
+    id = "ne-ne"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4( c) a( g) g4.( a) g4 f e e \barMin
+    e d( g) f g a a4. \barMax
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % V
+    \neviditelna b
+    c4 b c a(b c) b \barMin
+    a g( a) f g( a) a \barMax
+    % R
+    \neviditelna b
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % Slava
+    c4 c d c b a( b c) b \barMin
+    \mark\sipka a b g f( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+    a dej nám svou spá -- su.
+    \Verse Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
+    \Response a dej nám svou spá -- su.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4( c) a( g) g4.( a) g4 f e e \barMin
+    e d( g) f g a \mark\sipka a \barMax
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % V
+    \neviditelna b
+    c4 b c a(b c) b \barMin
+    a g( a) f g( a) a \barMax
+    % R
+    \neviditelna b
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % Slava
+    c4 c d c b a( b c) b \barMin
+    \mark\sipka a g a f( g) a a \barFinalis
+  }
+  \addlyrics {
+    \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+    a dej nám svou spá -- su.
+    \Verse Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
+    \Response a dej nám svou spá -- su.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4( c) a( g) g4.( a) g4 f e e \barMin
+    e d( g) f g a a \barMax
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % V
+    \neviditelna b
+    c4 b c a(b c) b \barMin
+    a g( a) f g( a) a \barMax
+    % R
+    \neviditelna b
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % Slava
+    c4 c d c b a( b c) b \barMin
+    a g a f( g) \mark\sipka g( a) a \barFinalis
+  }
+  \addlyrics {
+    \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+    a dej nám svou spá -- su.
+    \Verse Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
+    \Response a dej nám svou spá -- su.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
     id = "ne-ne"
   }
 }
