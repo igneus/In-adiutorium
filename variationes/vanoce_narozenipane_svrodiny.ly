@@ -1913,6 +1913,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       % 12/2012: zda se mi dost povedena
       d4. d \barMin f4 f e d c d d \barMaior
@@ -1921,6 +1922,36 @@
       d e f e g f \barMaior
       g a g f d \barMin g g g f e d( c) \barMin
       d d e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Dí -- tě, proč jsi nám to u -- dě -- lal?
+      Hle, tvůj o -- tec i já jsme tě s_bo -- les -- tí hle -- da -- li.
+
+      Proč jste mě hle -- da -- li?
+      Ne -- vě -- dě -- li jste, že já mu -- sím být v_tom,
+      co je mé -- ho Ot -- ce?
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-rch-abenC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4. d \barMin f4 f e d c d d \barMaior
+      f \barMin f g f e d( c) \barMin d d d c b a a a \barMax
+
+      d e f e g f \barMaior
+      g a g f d \barMin g g g f e d( c) \barMin
+      \mark\sipka d f e d c( d) d \barFinalis
     }
     \addlyrics {
       Dí -- tě, proč jsi nám to u -- dě -- lal?
@@ -2410,6 +2441,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -2419,6 +2451,41 @@
       % V
       \neviditelna a4
       a a g( a) g g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g f d f g g( f) f \barFinalis
+      % Slava
+      a4 a a( bes) a a g( a) g \barMin
+      g a g f g g( a)
+      \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- tus byl vy -- zkou -- šen ve všem ja -- ko my,_*
+      a pro -- to má s_ná -- mi sou -- cit.
+      \Verse Stal se člo -- vě -- kem a žil me -- zi lid -- mi,_*
+      \Response a pro -- to má s_ná -- mi sou -- cit.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-2ne-resp"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g a a( g) \barMax
+      g g f d f g g( f) f \barFinalis
+      % V
+      \neviditelna a4
+      \mark\sipka a( bes) a g( a) g g \barMin g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g f d f g g( f) f \barFinalis

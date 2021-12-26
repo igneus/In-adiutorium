@@ -1154,13 +1154,12 @@
   \score {
     \relative c' {
       \choralniRezim
-      % 12/2012: zda se mi dost povedena
       d4. d \barMin f4 f e d c d d \barMaior
       f \barMin f g f e d( c) \barMin d d d c b a a a \barMax
 
       d e f e g f \barMaior
       g a g f d \barMin g g g f e d( c) \barMin
-      d d e c c( d) d \barFinalis
+      d f e d c( d) d \barFinalis
     }
     \addlyrics {
       Dí -- tě, proč jsi nám to u -- dě -- lal?
@@ -1267,7 +1266,7 @@
       g g f d f g g( f) f \barFinalis
       % V
       \neviditelna a4
-      a a g( a) g g \barMin g g g f g( a) a( g) \barMax
+      a( bes) a g( a) g g \barMin g g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g f d f g g( f) f \barFinalis
