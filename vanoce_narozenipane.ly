@@ -919,7 +919,7 @@
       psalmus = "Žalm 24"
       fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
       id = "svrodiny-cte-a1"
-      piece = \markup {\sestavTitulekBezZalmu}
+      piece = \markup {\sestavTitulek}
     }
   }
 
