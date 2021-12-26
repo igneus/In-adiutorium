@@ -891,6 +891,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "lépe, zvlášť první půlku"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -940,6 +941,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 46"
+      placet = "spíš lépe"
       id = "svrodiny-cte-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -964,6 +966,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 87"
+      placet = "dlouhou recitaci na finále spíš pryč"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}
     }
