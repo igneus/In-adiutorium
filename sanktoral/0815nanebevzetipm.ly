@@ -482,12 +482,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a b4.) g \breathe g4 b( c) a( f) g4. \breathe
-    g4 e f g a( b) b a( g) g \bar "|"
-    g4 f g a g( b c4.) c \breathe b4( c) a c d d c4. c b4( c) a( g) g \bar "||"
+    c4( a b4.) g \barMin g4 b( c) a( f) g4. \barMin
+    g4 e f g a( b) b a( g) g \barMaior
+    g4 f g a g( b c4.) c \barMin b4( c) a c d d c4. c \barMin
+    b4( c) a( g) g \barFinalis
   }
   \addlyrics {
-    Krás -- ná a pů -- vab -- ná je je -- ru -- za -- lém -- ská dce -- ra;
+    Krás -- ná a pů -- vab -- ná
+    je je -- ru -- za -- lém -- ská dce -- ra;
     vy -- stu -- pu -- je vzhů -- ru ja -- ko vy -- chá -- ze -- jí -- cí
     ji -- třen -- ka.
   }
