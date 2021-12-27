@@ -228,7 +228,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f f \barMin
     f f f g f e e( f) d c d d \barMaior
@@ -240,6 +240,57 @@
     Ne -- boj se, Ma -- ri -- a,
     ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha:
     poč -- neš a po -- ro -- díš sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e f f \barMin
+    f f f g f e e( f) d c d d \barMaior
+    d( c d) a \barMin
+    c d e f d d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se, Ma -- ri -- a,
+    ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha:
+    Poč -- neš a po -- ro -- díš sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d f f \barMin
+    f f f g f e e( f) d c d d \barMaior
+    \mark\sipka e( f d c) c \barMin
+    \mark\sipka d e f d c( d) d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se, Ma -- ri -- a,
+    ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha:
+    Poč -- neš a po -- ro -- díš sy -- na.
     A -- le -- lu -- ja.
   }
   \header {
@@ -795,12 +846,42 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g4 g( a) g( f d) d \barMaior
 
     d d d( a') a bes g a \barMin
+    bes g a g( f) d d \barMaior
+
+    f4 f e f g( a g) f d d \barFinalis
+  }
+  \addlyrics {
+    Já křtím vo -- dou.
+
+    Me -- zi vá -- mi sto -- jí ten,
+    ko -- ho vy ne -- zná -- te;
+
+    ten, kte -- rý má při -- jít po mně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = "Magnificat"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    g4 g( a) g( f d) d \barMaior
+
+    \mark\sipka c d d( a') a bes g a \barMin
     bes g a g( f) d d \barMaior
 
     f4 f e f g( a g) f d d \barFinalis

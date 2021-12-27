@@ -61,7 +61,7 @@
     f f f g f e e( f) d c d d \barMaior
     d( c d) a \barMin
     c d e f d d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
-    f e( f) d( c) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
@@ -212,7 +212,7 @@
     \key f \major
     g4 g( a) g( f d) d \barMaior
 
-    d d d( a') a bes g a \barMin
+    c d d( a') a bes g a \barMin
     bes g a g( f) d d \barMaior
 
     f4 f e f g( a g) f d d \barFinalis
