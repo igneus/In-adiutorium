@@ -174,6 +174,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "_přišel_ lépe"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

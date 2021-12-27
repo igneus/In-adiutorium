@@ -96,6 +96,7 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/advent_tyden2.ly#po-aben?cast&upraveno"
+    placet = "není úplně špatná, ale přeci zkusit lépe, i nezávisle na zdroji"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
