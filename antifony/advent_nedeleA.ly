@@ -209,7 +209,7 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin a g a a b a g e e( a) a a \barMax
-    e e e( f) e \barMin e e e( a) a g \barMaior
+    e e e( f) e \barMin f e g( a) a g \barMaior
     a a a b( a g a) a( g) \barMin f g g e \barMaior
     f f d( e) e \barFinalis
   }
