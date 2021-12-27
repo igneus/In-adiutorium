@@ -1649,9 +1649,6 @@
 
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
-  \markup\justify {Následující antifona si vypůjčuje kousek
-  melodie (Svatý...) z chorálního Te Deum.}
-
   \score {
     \relative c'' {
       \choralniRezim
