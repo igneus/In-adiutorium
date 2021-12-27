@@ -146,7 +146,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 150"
-    placet = "_Slovo, Bože_ je moc rozházené - doladit"
     id = "ne-rch-a3"
     fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
     fial = "fial://vanoce_narozenipane.ly#26-amag?cast&volne"
