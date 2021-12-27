@@ -260,19 +260,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d( f) e( f) f \barMin
-    f( g a) f d e c
-    c( d) \barFinalis
+    d4 c d( f) e e \barMin
+    f e d e c c( d) \barFinalis
 
-    d(^\markup\rubrVelikAleluja c) \barMin
-    c c( d) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Všu -- de na ze -- mi
-    pro -- ni -- kl je -- jich
-    \markup{\Dagger hlas.}
+    pro -- ni -- kl je -- jich hlas.
 
-    \markup{\Dagger hlas.}
     A -- le -- lu -- ja.
   }
   \header {
@@ -280,8 +276,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19A"
-    placet = "_pronikl_ se zpívá špatně, jakoby se láme. 
-    Snad lépe fga fd d nebo jinak bez toho ostrého zlomu."
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -451,13 +445,13 @@
     % R
     \neviditelna f
     f4 f f f f f f g f g( a) a( g) \barMax
-    g g g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % V
     \neviditelna a
     a( bes) a a g( a) g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
