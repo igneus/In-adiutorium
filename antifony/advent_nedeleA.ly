@@ -54,8 +54,8 @@
     \choralniRezim
     g4 g( a) a a g f g( a) g g \barMin
     f g( a) a \barMaior
-    c( d) c( b) a \barMin
-    c a f g a g g \barMaior
+    a( b c b) a( g) g \barMaior
+    a g f g a g g \barMin
     f a a( g) g \barFinalis
   }
   \addlyrics {
@@ -70,7 +70,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "melodie _Neboj se_ mi k textu nějak nesedí"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -79,11 +78,11 @@
 \markup {\nadpisDen {2. neděle adventní}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d c c \barMin
-    c d c b a g g \barMin
-    f g a a g g \barFinalis
+    e4 g a a \barMaior
+    a g a g f e e
+    f g f d e e \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se,
@@ -92,11 +91,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
-    fial = "antifony/advent_tyden2.ly#po-aben?cast&upraveno"
-    placet = "není úplně špatná, ale přeci zkusit lépe, i nezávisle na zdroji"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -130,7 +127,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 c c c( d) d \barMin f f g f d e d d \barMaior
+    d4 c d d( f) f \barMin g g f e d e d d \barMaior
     a' a c c a b a a \barMin a c a b c a \barMaior
     a a a a a( g f) \barMin
     d d f e c c( d) d \barFinalis
@@ -146,7 +143,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_abyste_ je škaredé; celá půjde lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -155,24 +151,26 @@
 \markup {\nadpisDen {3. neděle adventní}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e d) c( a) a c c( d) d \barMaior
-    f f g g d \barMin d e d c( d) d \barMax
-    f e d e d d( c) \barMin
-    d( f) e( d) c d d \barFinalis
+    c4 c b a g( a) g \barMaior
+    f a c c b \barMin
+    b c a a( g) g \barMaior
+    a a a f( e) d( e) d \barMin
+    f g( a) a g g \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se ke mně,
-    ne -- boť já jsem Bůh a ni -- kdo ji -- ný!
-    Pře -- de mnou po -- klek -- ne kaž -- dé ko -- le -- no.
+    ne -- boť já jsem Bůh
+    a ni -- kdo ji -- ný!
+    Pře -- de mnou po -- klek -- ne
+    kaž -- dé ko -- le -- no.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    placet = "úplně nedrží pohromadě, hlavně je citelný rušivý šev před _Přede mnou_"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
