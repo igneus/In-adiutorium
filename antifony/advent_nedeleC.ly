@@ -111,11 +111,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 \barMin
-    a c b a g g \barMin
-    g f g g a a c b c( a) a \barMaior
-    c d d d d( e) c c \barMin
-    d d d d c b a g a a \barFinalis
+    g4 \barMin
+    f g a a g g \barMin
+    g f g a c c b g a( g) g \barMaior
+    c c( d) d d c( b) a a \barMin
+    c c c c a g f a g g \barFinalis
   }
   \addlyrics {
     Jan,
@@ -126,10 +126,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -190,9 +189,9 @@
   \relative c'' {
     \choralniRezim
     d4. c4 b a( b g) g \barMaior
-    f g a b c b c d d \barMaior
-    e e d c d( b g) \barMaior
-    g a b a b g g \barFinalis
+    a a a a g f g a a \barMaior
+    c d e d c( d) \barMin
+    c c b g a a( g) g \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou.
@@ -206,7 +205,6 @@
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
-    placet = "_Přichází však_ lépe"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

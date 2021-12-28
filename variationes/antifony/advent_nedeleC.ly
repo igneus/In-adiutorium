@@ -392,6 +392,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c \barMin
+    c d c d e d d d \barMaior
+    d c b a g \mark\sipka a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Přijď, Pa -- ne,
+    a na -- plň nás svým po -- ko -- jem,
+    a bu -- de -- me se ce -- lým srd -- cem ra -- do -- vat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -499,7 +521,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \barMin
     a c b a g g \barMin
@@ -518,6 +540,60 @@
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \barMin
+    d f e d c c \barMin
+    d c d f d d f g f( d) d \barMaior
+    d c d f f e d \barMin
+    f f e f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan,
+    syn Za -- cha -- ri -- á -- šův,
+    u -- sly -- šel na pouš -- ti Bo -- ží slo -- vo
+    a hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/advent_nedeleB.ly#iiben?konec"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \barMin
+    f g a a g g \barMin
+    g f g a c c b g a( g) g \barMaior
+    c c( d) d d c( b) a a \barMin
+    c c c c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Jan,
+    syn Za -- cha -- ri -- á -- šův,
+    u -- sly -- šel na pouš -- ti Bo -- ží slo -- vo
+    a hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -787,7 +863,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4. c4 b a( b g) g \barMaior
     f g a b c \mark\sipka b c d d \barMaior
@@ -806,6 +882,82 @@
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-2ne-amag?zacatek"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4. c4 b a( b g) g \barMaior
+    f g \mark\sipka a a c b c d d \barMaior
+    e e d c d( b g) \barMaior
+    g a b a b g g \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou.
+    Při -- chá -- zí však moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4. c4 b a( b g) g \barMaior
+    \mark\sipka a a a a g f g a a \barMaior
+    c d e c d( c b) \barMaior
+    a g c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou.
+    Při -- chá -- zí však moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4. c4 b a( b g) g \barMaior
+    a a a a g f g a a \barMaior
+    c d e \mark\sipka d c( d) \barMin
+    c c b g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou.
+    Při -- chá -- zí však moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
