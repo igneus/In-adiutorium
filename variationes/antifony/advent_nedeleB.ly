@@ -700,11 +700,84 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
     g f e c d \barMaior
     \mark\sipka d( e d) d( c) \barMin
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Byl člo -- věk po -- sla -- ný od Bo -- ha,
+    jme -- no -- val se Jan;
+    při -- šel,
+    a -- by svěd -- čil o svět -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f f e d e( f) f f \barMin
+    g f e c d \barMaior
+    \mark\sipka d( e d c) c \barMin
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Byl člo -- věk po -- sla -- ný od Bo -- ha,
+    jme -- no -- val se Jan;
+    při -- šel,
+    a -- by svěd -- čil o svět -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f f f e d e( f) f f \barMin
+    g f e c d \barMaior
+    d( e d c) c \barMin
+    \mark\sipka f f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Byl člo -- věk po -- sla -- ný od Bo -- ha,
+    jme -- no -- val se Jan;
+    při -- šel,
+    a -- by svěd -- čil o svět -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f f e d e( f) f f \barMin
+    g f e c d \barMaior
+    \mark\sipka f( d e) d( c) \barMin
     d f e d c d d \barFinalis
   }
   \addlyrics {
