@@ -12,10 +12,38 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
     e( d c) d c c( a) a \barMax
     b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_vicemucedniku.ly#rch-aben"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
+    e( d c) d c c( a) a \barMax
+    c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,

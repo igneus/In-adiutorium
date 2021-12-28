@@ -15,7 +15,7 @@
     \choralniRezim
     d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
     e( d c) d c c( a) a \barMax
-    b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+    c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,

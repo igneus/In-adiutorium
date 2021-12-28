@@ -449,10 +449,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -487,6 +490,142 @@
 \score {
   \relative c' {
     \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    \mark\sipka f g( a) a \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g g g g g g g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g( a) a \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g g g g g g g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a( bes) a a a a a a g( a) g \barMin g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a a a \mark\sipka g a g g \barMin g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
     e( d c) d c c( a) a \barMax
     b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
@@ -507,6 +646,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
+    e( d c) d c c( a) a \barMax
+    \mark\sipka c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 

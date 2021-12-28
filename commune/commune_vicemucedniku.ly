@@ -458,13 +458,13 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a g( a) g \barMin g g g g g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    g( a) g( f d) d \barMin f f f g g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -479,7 +479,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "_věčné odměny v nebi_ poněkud drhne"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -490,7 +489,7 @@
     \choralniRezim
     d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
     e( d c) d c c( a) a \barMax
-    b c d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+    c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,_*
@@ -503,7 +502,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_neboť_ se těžko zpívá"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
