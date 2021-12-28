@@ -16,8 +16,8 @@
   \relative c' {
     \choralniRezim
     d4( c d f) f \barMin g g g f( g) f \barMin e f g f e d d \barMaior
-    d c( d) d( c) c \barMin d d d d e f g( f) g \barMaior
-    a( g f) d e f d d \barFinalis
+    d c( d) d( c) c \barMin d c d d e f f( g) g \barMaior
+    a( g f) d c d d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, pro nás na -- ro -- ze -- né -- mu;
@@ -110,8 +110,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e d c e( g a) g a b g g \barMaior
-    a a a a g f e e \barMin c d e \barFinalis
+    e4 e f g a g a b g g \barMaior
+    a a a a g f e e \barMin f d e \barFinalis
   }
   \addlyrics {
     Bu -- dou se mnou cho -- dit v_bí -- lých ša -- tech,
@@ -132,7 +132,7 @@
     \choralniRezim
     d4 d d d( a') a g f g g g( a) a \barMaior
     f g a a a( c a) g f g( f d) d \barMaior
-    d e f f( g) \barMin d( e) d d \barFinalis
+    c d f f e( c) c( d) d \barFinalis
   }
   \addlyrics {
     Bet -- lém -- ské dě -- ti o -- sla -- vu -- jí Pá -- na:
@@ -181,11 +181,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f( e) e \barMin
-    g a a a c b c d( c a) a \barMaior
+    a4 a a g( a) g \barMin
+    f g a a c b c d( c a) a \barMaior
     c d e d d( c a) b( c a) g( a) a \barMax
 
-    a a a a( b) a b( c) a \barMin
+    a a a b( c) a g( a) a \barMin
     c d e d( e) d c( d) c \barMaior
     c b a g g g( a) a a \barMax
 

@@ -11,10 +11,56 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d f) f \barMin g g g f( g) f \barMin e f g f e d d \barMaior
     d c( d) d( c) c \barMin d d d d e f g( f) g \barMaior
     a( g f) d e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, pro nás na -- ro -- ze -- né -- mu;
+    on o -- zdo -- bil ne -- vin -- né bet -- lém -- ské dě -- ti
+    slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c d f) f \barMin g g g f( g) f \barMin e f g f e d d \barMaior
+    d c( d) d( c) c \barMin d \mark\sipka c d d e f f( g) g \barMaior
+    a( g f) d \mark\sipka c d d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, pro nás na -- ro -- ze -- né -- mu;
+    on o -- zdo -- bil ne -- vin -- né bet -- lém -- ské dě -- ti
+    slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c d f) f \barMin g g g f( g) f \barMin e f g f e d d \barMaior
+    d c( d) d( c) c \barMin d c d d e f f( g) g \barMaior
+    \mark\sipka f( g f) d c d d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, pro nás na -- ro -- ze -- né -- mu;
@@ -194,6 +240,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e d c e( g a) g a b g g \barMaior
     a a a a g f e e \barMin c d e \barFinalis
@@ -214,6 +261,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e \mark\sipka f g a g a b g g \barMaior
+    a a a a g f e e \barMin \mark\sipka f d e \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou se mnou cho -- dit v_bí -- lých ša -- tech,
+    pro -- to -- že jsou to -- ho hod -- ni, pra -- ví Pán.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( a') a g f g g g( a) a \barMaior
     f g a a a( c a) g f g( f d) d \barMaior
@@ -233,6 +304,31 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( a') a g f g g g( a) a \barMaior
+    f g a a a( c a) g f g( f d) d \barMaior
+    \mark\sipka c d f f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti o -- sla -- vu -- jí Pá -- na:
+    za ži -- vo -- ta ne -- moh -- ly mlu -- vit,
+    chvá -- lí ho teď po smr -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -258,6 +354,8 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{
   Responsorium \upright{Spravedliví žijí navěky}
   z ranních chval společných textů o více mučednících.
@@ -265,12 +363,48 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a f( e) e \barMin
     g a a a c b c d( c a) a \barMaior
     c d e d d( c a) b( c a) g( a) a \barMax
 
     a a a a( b) a b( c) a \barMin
+    c d e d( e) d c( d) c \barMaior
+    c b a g g g( a) a a \barMax
+
+    a( d e d) c c( d) c c( bes a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- vin -- né dě -- ti,
+    za -- vraž -- dě -- né u -- krut -- ným krá -- lem,
+    pro -- li -- ly svou krev pro Kris -- ta;
+
+    ny -- ní ho ná -- sle -- du -- jí,
+    Be -- rán -- ka bez po -- skvr -- ny,
+    a bez pře -- stá -- ní vo -- la -- jí:
+
+    Slá -- va to -- bě, Pa -- ne!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a a g( a) g \barMin
+    \mark\sipka f g a a c b c d( c a) a \barMaior
+    c d e d d( c a) b( c a) g( a) a \barMax
+
+    a a a \mark\sipka b( c) a g( a) a \barMin
     c d e d( e) d c( d) c \barMaior
     c b a g g g( a) a a \barMax
 
