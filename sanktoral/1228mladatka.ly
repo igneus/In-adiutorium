@@ -168,7 +168,7 @@
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "zacatek ze zaltare, so 4.t., rch, 3.a."
-    fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?beginning"
+    fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
