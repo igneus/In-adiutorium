@@ -233,7 +233,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "nedrží úplně pohromadě, doladit"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
