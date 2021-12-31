@@ -2766,7 +2766,6 @@
   \score {
     \relative c'' {
       \zvyraznovacModry
-      \zvyraznovacZeleny
       \choralniRezim
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
       d( e c) c \barMin
