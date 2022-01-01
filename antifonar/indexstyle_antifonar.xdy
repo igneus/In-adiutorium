@@ -7,10 +7,37 @@
 ;; unreadable)
 (markup-locclass-list :open "{\def\hfill{\hskip 10pt plus 1fill}\dotfill}")
 
-;; ignore leading numbers when sorting and grouping
-(merge-rule "^[0-9]+ (.*)" "\1" :eregexp)
 ;; ignore leading "srov."
 (merge-rule "^[Ss]rov. (.*)" "\1" :eregexp)
 
 ;; test to see if the rules get applied or not:
 ;(merge-rule "^I+" "1&" :again :eregexp)
+
+;; group and sort by books
+(define-letter-groups (
+"Ex"
+"Dt"
+"1 Sam"
+"1 Kron"
+"Tob"
+"Jdt"
+"Žalm" ; btw. non-standard abbreviation as per the list of abbreviations at the back of the printed breviary
+"Př"
+"Mdr"
+"Sir"
+"Iz"
+"Jer"
+"Pláč"
+"Ez"
+"Dan"
+"Oz"
+"Hab"
+"Sof"
+"Lk"
+"Ef"
+"Flp"
+"Kol"
+"1 Tim"
+"1 Petr"
+"Zj"
+))

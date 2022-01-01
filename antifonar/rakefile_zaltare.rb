@@ -94,7 +94,7 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_antifonar.xd
       .compact
 
   indices.each do |idx|
-    sh "texindy --debug level=2 -t vystup/#{idx}_xindy.log -L czech -C utf8 -M lang/czech/utf8 -M #{index_stylesheet} vystup/#{idx}.idx" # generate indices
+    sh "texindy --debug level=2 -t vystup/#{idx}_xindy.log -L klingon -C utf8 -M lang/czech/utf8 -M #{index_stylesheet} vystup/#{idx}.idx" # generate indices
   end
 
   sh latex_cmd
