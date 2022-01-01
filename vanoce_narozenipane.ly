@@ -1449,6 +1449,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "dotáhnout"
       id = "28-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1778,6 +1779,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 98"
+      placet = "pro daný text asi až moc primitivní/žalmovitá"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
