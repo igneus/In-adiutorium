@@ -10,9 +10,6 @@
 ;; ignore leading "srov."
 (merge-rule "^[Ss]rov. (.*)" "\1" :eregexp)
 
-;; test to see if the rules get applied or not:
-;(merge-rule "^I+" "1&" :again :eregexp)
-
 ;; group and sort by books
 (define-letter-groups (
 "Ex"
