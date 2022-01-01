@@ -39,3 +39,27 @@
 "1 Petr"
 "Zj"
 ))
+
+;; sorting of Hebrew letter names
+(sort-rule "Alef" "a")
+(sort-rule "Beth" "b")
+(sort-rule "Ghimel" "c")
+(sort-rule "Daleth" "d")
+(sort-rule "He" "e")
+(sort-rule "Vau" "f")
+(sort-rule "Zajin" "g")
+(sort-rule "Cheth" "h")
+(sort-rule "Teth" "i")
+(sort-rule "Jod" "j")
+(sort-rule "Kaf" "k")
+(sort-rule "Lamed" "l")
+(sort-rule "Mem" "m")
+(sort-rule "Nun" "n")
+(sort-rule "Samech" "o")
+(sort-rule "Ajin" "p")
+(sort-rule "Pe" "q")
+(sort-rule "Sade" "r")
+(sort-rule "Kof" "s")
+(sort-rule "Reš" "t")
+(sort-rule "Sin" "u")
+(sort-rule "Tau" "v")
