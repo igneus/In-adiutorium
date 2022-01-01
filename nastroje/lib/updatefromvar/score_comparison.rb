@@ -1,3 +1,5 @@
+require 'set'
+
 require_relative 'development_clean'
 
 # Tells if the development score differs significantly
@@ -6,15 +8,29 @@ require_relative 'development_clean'
 class ScoreComparison
   include DevelopmentClean
 
-  def initialize(production_score, development_score)
+  def initialize(production_score, development_score, music: true, lyrics: true, headers: true)
     @production = production_score
     @development = development_score
+
+    @compare = Set.new
+    @compare << :music if music
+    @compare << :lyrics if lyrics
+    @compare << :headers if headers
   end
 
   def differs?
-    differs_in? {|score| normalize_music score.music } ||
-      differs_in? {|score| normalize_lyrics score.lyrics_readable } ||
-      headers_significantly_differ?
+    (compare_music? &&
+      differs_in? {|score| normalize_music score.music }) ||
+      (compare_lyrics? &&
+       differs_in? {|score| normalize_lyrics score.lyrics_readable }) ||
+      (compare_headers? &&
+       headers_significantly_differ?)
+  end
+
+  %i[music lyrics headers].each do |sym|
+    define_method "compare_#{sym}?" do
+      @compare.include? sym
+    end
   end
 
   private

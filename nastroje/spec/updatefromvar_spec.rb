@@ -126,6 +126,30 @@ describe Updater do
       expect(@updater.scores_differ?(a, b)).to be false
     end
 
+    describe 'configured to only compare music' do
+      before :each do
+        @updater.compare_music_only = true
+      end
+
+      it 'considers scores differing in music different' do
+        a = Lyv::LilyPondScore.new "\\score { \\relative c { a b } }"
+        b = Lyv::LilyPondScore.new "\\score { \\relative c { b a } }"
+        expect(@updater.scores_differ?(a, b)).to be true
+      end
+
+      it 'considers scores differing in lyrics same' do
+        a = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a } }"
+        b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { B } }"
+        expect(@updater.scores_differ?(a, b)).to be false
+      end
+
+      it 'considers scores differing in headers same' do
+        a = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { a } }"
+        b = Lyv::LilyPondScore.new "\\score { \\relative c { a } \\addlyrics { B } }"
+        expect(@updater.scores_differ?(a, b)).to be false
+      end
+    end
+
     describe 'considers scores differing in a comment same' do
       it 'in music' do
         a = Lyv::LilyPondScore.new "\\score { \\relative c { %c\n } }"

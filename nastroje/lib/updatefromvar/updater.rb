@@ -15,9 +15,10 @@ class Updater
     # options
     @partial_files = true
     @filter_proc = proc { true }
+    @compare_music_only = false
   end
 
-  attr_accessor :partial_files, :filter_proc
+  attr_accessor :partial_files, :filter_proc, :compare_music_only
 
   def update(main_file)
     main_src = File.read main_file
@@ -81,7 +82,7 @@ class Updater
   end
 
   def scores_differ?(production_score, development_score)
-    ScoreComparison.new(production_score, development_score).differs?
+    ScoreComparison.new(production_score, development_score, comparison_options).differs?
   end
 
   # how many spaces is the lilypond score indented?
@@ -117,5 +118,13 @@ class Updater
     end
 
     return line
+  end
+
+  def comparison_options
+    if @compare_music_only
+      {lyrics: false, headers: false}
+    else
+      {}
+    end
   end
 end

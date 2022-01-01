@@ -21,11 +21,20 @@ require 'highline'
 require_relative 'lib/updatefromvar/updater'
 require_relative 'lib/updatefromvar/interactive_filter'
 
-setup = {partial_files: true, modified: false, interactive: false}
+setup = {
+  partial_files: true,
+  modified: false,
+  interactive: false,
+  music_changes_only: false
+}
 
 optparse = OptionParser.new do|opts|
   opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial files of file /MAINFILE.ly" do
     setup[:partial_files] = false
+  end
+
+  opts.on "-M", "--music-only", "Only consider changes of music (not lyrics or headers; changes of these are applied, too, but only for scores which have some change of music)" do
+    setup[:compare_music_only] = true
   end
 
   opts.on "-m", "--git-modified", "Apply changes from all modified `variationes/*` files known to git" do
@@ -44,6 +53,7 @@ begin
   highline = HighLine.new
   updater = Updater.new('variationes', STDOUT)
   updater.partial_files = setup[:partial_files]
+  updater.compare_music_only = setup[:compare_music_only]
   if setup[:interactive]
     updater.filter_proc = InteractiveFilter.new highline
   end
