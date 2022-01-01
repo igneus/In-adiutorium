@@ -1,4 +1,5 @@
-;; xindy stylesheet
+;; xindy stylesheet for the index of psalms and canticles
+;; (or any other index with terms being Bible references)
 
 ;; separate index word from page numbers by dots;
 ;; ensure minimum width of the dotfill to prevent page numbers 
