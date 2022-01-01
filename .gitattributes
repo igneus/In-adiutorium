@@ -1,0 +1,4 @@
+*.xdy linguist-language=lisp
+*.lytex linguist-language=latex
+*.tytex linguist-language=latex
+*.ltex linguist-language=latex
