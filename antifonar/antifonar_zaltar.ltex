@@ -19,8 +19,10 @@
 \usepackage{marginnote}
 \usepackage{setspace} % upravy radkovani
 
-\usepackage{multind} % indexy
-\makeindex{zalmy}
+\usepackage{imakeidx} % indexy
+% noautomatic - because the automatic indexer invocation doesn't support -output-directory,
+%   which we won't give up
+\makeindex[name=zalmy,noautomatic,program=texindy,intoc,title=Rejstřík žalmů a kantik]
 
 \usepackage[T1]{fontenc}
 % font Palatino:
@@ -107,21 +109,6 @@ V~době adventní, vánoční, postní a velikonoční:
 
 % zapnout generovani index zalmu (viz spolecne.ly, \nadpisZalmu)
 \newcommand{\indexOfPsalmsEnabled}{1}
-
-% multind vnucuje natvrdo vlastni format nadpisu rejstriku,
-% coz nechceme. Predefinovat \printindex
-% zdroj: http://tex.stackexchange.com/a/79473/13146
-\makeatletter
-\def\printindex#1#2{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
-  \columnseprule \z@ \columnsep 35pt
-  \csname phantomsection\endcsname
-  \nadpisTyden{#2}{#2} % vlastni nadpis
-  \markright{\uppercase{#2}}
-  \begin{multicols}{2}
-  \@input{#1.ind}%
-  \end{multicols}%
-}
-\makeatother
 
 
 % no section numbers
@@ -1550,7 +1537,7 @@ podle pokynů v~indexu svátků.}
 
 \clearpage
 \fancyhead[CE,CO]{Rejstřík žalmů a kantik}
-\printindex{zalmy}{Rejstřík žalmů a kantik}
+\printindex[zalmy]
 
 \clearpage
 \pagestyle{empty} % bez hlavicky a bez cisla stranky
