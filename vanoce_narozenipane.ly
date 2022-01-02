@@ -1976,7 +1976,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      fial = "commune/commune_maria.ly#invit1?jiny_text"
+      fial = "commune/commune_maria.ly#invit1?-aleluja&konec"
       id = "bohorodicka-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
