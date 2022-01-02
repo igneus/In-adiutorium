@@ -1830,21 +1830,17 @@
     \relative c'' {
       \choralniRezim
       \key f \major
-      a4 a a g( f) g a( f) g e \barMax
-
+      a4 a a g( f) g a( f) g e \barMaior
       f g a a( bes) a a g f e f g4.( a) \barMin
-      a4 g a g f e( f d) d \barMax
-
-      d d f( g) g g f g a( bes a) a \barMin
-      a bes4. c4( bes) a4. d, \barMin
-      e4 f g( e) d \barFinalis
+      a4 g a g f e( f d) d \barMaior
+      c d f( g) g g f g a( bes a) a \barMaior
+      a a( bes) a g( a) g \barMin
+      f e c( d) d \barFinalis
     }
     \addlyrics {
       Po -- di -- vu -- hod -- ná zá -- mě -- na:
-
       Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
       a na -- ro -- dil se z_pan -- ny;
-
       při -- jal  ú -- čast na na -- šem lid -- ství
       a nám dal ú -- čast
       na svém bož -- ství.
@@ -1854,8 +1850,6 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 113"
-      placet = "div. maximae by měly být spíš maiores; tak i předposlední minima;
-      silný text zaslouží něco úsilí o hlubší melodii"
       id = "bohorodicka-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1966,10 +1960,10 @@
     \relative c' {
       \choralniRezim
       \key f \major
-      d4 e f f e d e( f) e4.( d) \barMin
-      e4( f) f g a a \barMax
-      a g a bes( g bes) a \barMin
-      g a f e( d) d \barFinalis
+      d4 e f f e d e( f) f \barMin
+      g f g a a \barMaior
+      a g a bes( c bes a) a \barMin
+      a g f e( f d) d \barFinalis
     }
     \addlyrics {
       O -- sla -- vuj -- me Mat -- ku Bo -- ží,
@@ -1982,9 +1976,9 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      fial = "commune/commune_maria.ly#invit1?jiny_text"
       id = "bohorodicka-invit"
       piece = \markup {\sestavTitulekBezZalmu}
-      fons = "Při psaní melodie jsem měl před očima textově podobnou (kratší) antifonu ze společných textů o Panně Marii; doslovně jsem z ní ale převzal jen málo."
     }
   }
 
@@ -2014,9 +2008,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4 c d( e d) d \barMin
-      d c b a b a g g \barMaior
-      f( a) a g g \barFinalis
+      d4 b d( e d) d \barMin
+      d c d c b c( a) a( g) g \barMin
+      f g a( g) g \barFinalis
     }
     \addlyrics {
       Bo -- ží Moud -- rost
@@ -2203,8 +2197,8 @@
       \choralniRezim
       c4 c c d( e) d d \barMin
       d c b a g a( b) g g \barMaior
-      d' c b a g a \barMaior
-      a b g g a b c( d) d \barMin
+      d' e c c d d \barMaior
+      e f g g f e d( c) d \barMin
       c a b a g g \barFinalis
     }
     \addlyrics {

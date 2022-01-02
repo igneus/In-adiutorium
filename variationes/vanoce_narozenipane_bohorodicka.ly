@@ -19,6 +19,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       a4 a a g( f) g a( f) g e \barMax
@@ -60,6 +61,36 @@
       d d f( g) g g f g a( bes a) a \barMaior
       a bes4. c4( bes) a4. d, \barMin
       e4 f g( e) d \barFinalis
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 113"
+      id = "bohorodicka-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      a4 a a g( f) g a( f) g e \barMaior
+      f g a a( bes) a a g f e f g4.( a) \barMin
+      a4 g a g f e( f d) d \barMaior
+      \mark\sipka c d f( g) g g f g a( bes a) a \barMaior
+      a \mark\sipka a( bes) a g( a) g \barMin
+      f e c( d) d \barFinalis
     }
     \addlyrics {
       Po -- di -- vu -- hod -- ná zá -- mě -- na:
@@ -353,6 +384,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       d4 e f f e d e( f) e4.( d) \barMin
@@ -383,6 +415,33 @@
       \key f \major
       d4 e f f e d f( d) d \barMin
       f( e) f g a a \barMaior
+      a g a bes( c bes a) a \barMin
+      a g f e( f d) d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- me Mat -- ku Bo -- ží,
+      Pan -- nu Ma -- ri -- i;
+      klaň -- me se Kris -- tu,
+      je -- jí -- mu Sy -- nu!
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "commune/commune_maria.ly#invit1?jiny_text"
+      id = "bohorodicka-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      d4 e f f e d \mark\sipka e( f) f \barMin
+      \mark\sipka g f g a a \barMaior
       a g a bes( c bes a) a \barMin
       a g f e( f d) d \barFinalis
     }
@@ -464,12 +523,64 @@
 
   \pageBreak
 
+  \markup\justify{
+    Tady překladatelé vzdali překlad (tradiční) antifony
+    \italic{Homo natus est in ea, et ipse fundávit eam Altíssimus}
+    a složili novou.
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      d4 c d( e d) d \barMin
+      d c b a b a g g \barMaior
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \score {
     \relative c'' {
       \choralniRezim
       d4 c d( e d) d \barMin
       d c b a b a g g \barMaior
-      f( a) a g g \barFinalis
+      \mark\sipka f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 \mark\sipka b d( e d) d \barMin
+      d \mark\sipka c d c b c( a) a( g) g \barMin
+      f g a( g) g \barFinalis
     }
     \addlyrics {
       Bo -- ží Moud -- rost
@@ -565,6 +676,31 @@
       \choralniRezim
       d4 d d( a') a \barMin a g a g f g( a g) f g( f) d( c) c \barMaior
       d d d c d f e d d \barMin
+      d f g g g a( bes) a g( f) d \barMin
+      d( e) c d d \barFinalis
+    }
+    \addlyrics {
+      Čis -- tá Mat -- ko
+      a po -- žeh -- na -- ná Pan -- no, Ma -- ri -- a,
+      bez po -- ru -- še -- ní jsi po -- ča -- la
+      a bez bo -- les -- ti po -- ro -- di -- la
+      Spa -- si -- te -- le.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "bohorodicka-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka c4 d d( a') a \barMin a g a g f g( a g) f g( f) d( c) c \barMaior
+      d d d c d f e d \mark\sipka c \barMin
       d f g g g a( bes) a g( f) d \barMin
       d( e) c d d \barFinalis
     }
@@ -810,12 +946,92 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c d( e) d d \barMin
       d c b a g a( b) g g \barMaior
       d' c b a g a \barMaior
       a b g g a \mark\sipka b c( d) d \barMin
+      c a b a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      \mark\sipka c b c c d d \barMaior
+      \mark\sipka e d c c b c c( d) d \barMin
+      c a b a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      c b c c d d \barMaior
+      \mark\sipka d e d d c b c( d) d \barMin
+      c a b a g g \barFinalis
+    }
+    \addlyrics {
+      Dnes by -- lo zje -- ve -- no
+      ob -- di -- vu -- hod -- né ta -- jem -- ství:
+      Bůh se stal člo -- vě -- kem;
+      ne -- změ -- ně -- ný ve svém bož -- ství
+      při -- jal na -- še lid -- ství.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "bohorodicka-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c d( e) d d \barMin
+      d c b a g a( b) g g \barMaior
+      \mark\sipka d' e c c d d \barMaior
+      \mark\sipka e f g g f e d( c) d \barMin
       c a b a g g \barFinalis
     }
     \addlyrics {
