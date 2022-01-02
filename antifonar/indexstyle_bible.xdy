@@ -27,7 +27,7 @@
 (markup-locclass-list :open "{\def\hfill{\hskip 10pt plus 1fill}\dotfill}")
 
 ;; ignore leading "srov."
-(merge-rule "^[Ss]rov. (.*)" "\1" :eregexp)
+(merge-rule "^[Ss]rov. " "" :eregexp)
 
 ;; group and sort by books
 (define-letter-groups (
