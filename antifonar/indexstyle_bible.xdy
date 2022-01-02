@@ -75,7 +75,7 @@
 (sort-rule "Nun" "n")
 (sort-rule "Samech" "o")
 (sort-rule "Ajin" "p")
-(sort-rule "Pe" "q")
+(sort-rule "Pe " "q") ; the trailing space prevents "1 Petr" from being replaced to "1 qtr"
 (sort-rule "Sade" "r")
 (sort-rule "Kof" "s")
 (sort-rule "Reš" "t")
