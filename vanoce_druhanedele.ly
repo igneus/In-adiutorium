@@ -298,9 +298,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a g a a \barMin
+    a4 a a a a g b a \barMin
     c c b( c a) \barMaior
-    c c c d( e) d c( d c a) a \barMin
+    c d e d( e) d c( b a) a \barMin
     c b a g a( g) g \barMaior
     f g g g \barFinalis
   }
@@ -313,9 +313,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G*"
-    placet = "to kantikum v modu VIII nemáme. Dodělat nebo předělat antifonu. Antifona moc nesedí v modu. Možná spíš mod. II"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Zj 19"
     id = "ne2-a3"
     piece = \markup {\sestavTitulek}

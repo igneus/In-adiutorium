@@ -289,6 +289,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c b g \barMin
+    f g a g g \barMaior
+    c \mark\sipka c( d) c \barMin
+    b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
@@ -609,6 +633,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a g a a \barMin
     c c b( c a) \barMaior
@@ -637,6 +662,33 @@
   \relative c'' {
     \choralniRezim
     g4 g g g g f a g \barMin
+    c c b( c a) \barMaior
+    c d e d( e) d c( b a) a \barMin
+    c b a g a( g) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám Král krá -- lů,
+    Kris -- tus Pán:
+    při -- šla k_nám spá -- sa svě -- ta,
+    na -- še vy -- kou -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 19"
+    id = "ne2-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a a a a g b a \barMin
     c c b( c a) \barMaior
     c d e d( e) d c( b a) a \barMin
     c b a g a( g) g \barMaior
