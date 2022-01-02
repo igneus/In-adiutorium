@@ -1,6 +1,24 @@
 ;; xindy stylesheet for the index of psalms and canticles
 ;; (or any other index with terms being Bible references)
 
+;; all require statements from the stdlib texindy.xdy, excepting numeric-sort
+(require "latex.xdy")
+(require "latex-loc-fmts.xdy")
+(require "makeindex.xdy")
+(require "latin-lettergroups.xdy")
+
+;; Customized numeric sorting.
+;; unlike the numeric-sort.xdy from xindy stdlib
+;; - only zero-pad numerals after a space or selected interpunction
+;;   (the main reason is avoiding padding of numerals at the beginning of terms,
+;;   because Bible reference like "1 Petr ..." padded to "0000001 Petr" won't get
+;;   correctly included in the letter-group "1 Petr")
+;; - we know that in our index all numerals are Bible chapters/verses
+;;   and thus none of them has more than 3 digits
+(merge-rule "[ (-]([0-9][0-9][0-9])" "0000\1" :eregexp)
+(merge-rule "[ (-]([0-9][0-9])" "00000\1" :eregexp)
+(merge-rule "[ (-]([0-9])" "000000\1" :eregexp)
+
 ;; separate index word from page numbers by dots;
 ;; ensure minimum width of the dotfill to prevent page numbers 
 ;; from getting attached to the terms

@@ -93,8 +93,9 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 
       .collect {|l| /\\makeindex\[name=(\w+),/.match(l) {|m| m[1] } }
       .compact
 
+  # generate indices
   indices.each do |idx|
-    sh "texindy --debug level=2 -t vystup/#{idx}_xindy.log -L klingon -C utf8 -M lang/czech/utf8 -M #{index_stylesheet} vystup/#{idx}.idx" # generate indices
+    sh "xindy --debug level=3 -t vystup/#{idx}_xindy.log -L klingon -C utf8 -M tex/inputenc/utf8 -I latex -M #{index_stylesheet} vystup/#{idx}.idx"
   end
 
   sh latex_cmd
@@ -129,4 +130,3 @@ task :zaltar_texclean do
     end
   }
 end
-
