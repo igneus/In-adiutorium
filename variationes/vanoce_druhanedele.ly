@@ -400,8 +400,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a g) g( c) c c( d) c c( b a) \barMaior
     a( g) f g a a g g \barFinalis
@@ -416,7 +419,29 @@
     differentia = "G"
     psalmus = "Dan 3-II"
     fial = "antifony/tyden2_1nedele.ly#rch-ant2?jiny_text"
-    id = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    \mark\sipka c4-- a \barMin f g a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }

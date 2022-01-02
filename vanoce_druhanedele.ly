@@ -143,7 +143,7 @@
   \relative c'' {
     \choralniRezim
     g4( a g) g( c) c c( d) c c( b a) \barMaior
-    a( g) f g a a g g \barFinalis
+    c4-- a \barMin f g a g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
@@ -154,7 +154,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-II"
-    fial = "antifony/tyden2_1nedele.ly#rch-ant2?jiny_text"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
