@@ -10,6 +10,18 @@ class String
 
     self
   end
+
+  # Longest shared substring at the beginning of both Strings
+  def shared_ending(other)
+    1.upto(size) do |i|
+      unless other.end_with?(self[-i..-1])
+        return '' if i == 1
+        return self[-(i-1)..-1]
+      end
+    end
+
+    self
+  end
 end
 
 # Comparison of two scores, checking if 'child' is (still) a copy
@@ -33,6 +45,14 @@ class ChildParentComparison
       return \
         strip_wrappers(normalized_parent)
         .shared_beginning(strip_wrappers(normalized_child))
+        .split(/\s+/)
+        .size >= 5
+    end
+
+    if @fial.additional.has_key?('konec')
+      return \
+        strip_wrappers(normalized_parent)
+        .shared_ending(strip_wrappers(normalized_child))
         .split(/\s+/)
         .size >= 5
     end

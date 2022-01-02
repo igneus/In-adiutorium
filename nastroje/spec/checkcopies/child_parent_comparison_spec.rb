@@ -178,4 +178,35 @@ describe ChildParentComparison do
       ).to be_match
     end
   end
+
+  describe 'konec' do
+    let(:fial) { 'parent_path#id?konec' }
+
+    it 'no common ending' do
+      expect(
+        described_class.new(
+          score(music: 'a a a a a', fial: fial),
+          score(music: 'b b b b b')
+        )
+      ).not_to be_match
+    end
+
+    it 'common ending too short' do
+      expect(
+        described_class.new(
+          score(music: 'c c c   a b', fial: fial),
+          score(music: 'd d d   a b')
+        )
+      ).not_to be_match
+    end
+
+    it 'common ending' do
+      expect(
+        described_class.new(
+          score(music: 'a a a   a b c d e', fial: fial),
+          score(music: 'c c c   a b c d e')
+        )
+      ).to be_match
+    end
+  end
 end
