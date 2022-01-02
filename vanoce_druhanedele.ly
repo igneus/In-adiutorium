@@ -246,6 +246,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "_Panna Maria_ nepřirozené; krok na _a to se_ raději pryč"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -290,6 +291,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 115"
+    placet = "melisma na _seslal_ je rušivě těžkopádné"
     id = "ne2-a2"
     piece = \markup {\sestavTitulek}
   }
