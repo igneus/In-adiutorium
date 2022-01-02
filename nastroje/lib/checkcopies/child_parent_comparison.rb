@@ -49,7 +49,8 @@ class ChildParentComparison
         .size >= 5
     end
 
-    if @fial.additional.has_key?('konec')
+    if @fial.additional.has_key?('konec') ||
+       @fial.additional.has_key?('zaver')
       return \
         strip_wrappers(normalized_parent)
         .shared_ending(strip_wrappers(normalized_child))
