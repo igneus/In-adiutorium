@@ -95,7 +95,7 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 
 
   # generate indices
   indices.each do |idx|
-    sh "xindy --debug level=3 -t vystup/#{idx}_xindy.log -L klingon -C utf8 -M tex/inputenc/utf8 -I latex -M #{index_stylesheet} vystup/#{idx}.idx"
+    sh "skripty/bible_xindy.sh vystup/#{idx}.idx"
   end
 
   sh latex_cmd
