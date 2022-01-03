@@ -1,18 +1,20 @@
 # encoding: utf-8
 
-# takes a specially formatted list of psalms and canticles
+# takes list of psalms and canticles (YAML of an expected
+# hierarchic structure)
 # to be sung at defined occasions, produces LaTeX files.
 #
-# Structure of the input: (indentation by two spaces)
+# Structure of the input:
 # 
-# section title (e.g. Common texts about saints)
-#   particular title (e.g. Apostles)
-#     hour (first vespers)
-#       list of psalm numbers and canticle sigla separated by commas
-#     another hour
-# ...
+# section title (e.g. Common texts about saints):
+#   particular title (e.g. Apostles):
+#     hour (first vespers):
+#       # list of psalm numbers and canticle sigla
+#       [113, 147ii, ef1]
+#     # another hour ...
 
 require 'optparse'
+require 'yaml'
 require_relative 'pagerefoptimal'
 
 IUNIT = 2 # two spaces as indentation unit
@@ -28,18 +30,6 @@ $canticlename_re = /(?<booknum>\d*)(?<bookcode>\D+)(?<chapter>\d+)(?<suff>\w*)/
 $canticles_number_in_name = ['1sam', '1kron', '1petr', '1tim']
 
 
-# indentation level
-def ilevel(line)
-  if line =~ /^\s$/ then
-    return nil
-  end
-  
-  i = 0
-  while line[i] == " " do
-    i += 1
-  end
-  return i / IUNIT
-end
 
 def section_title(line)
   puts
@@ -73,11 +63,15 @@ def hour_title(line)
        end
 end
 
-def content(line, label_index_lookup)
+def content(value, label_index_lookup)
   tokens = []
+
+  value = [value] unless value.is_a? Array
   
-  line.strip.split(/\s*,\s*/).each do |rt|
-    if rt.index(" ") then
+  value.each do |rt|
+    if rt.is_a? Fixnum
+      tokens << [:ps, rt.to_s]
+    elsif rt.index(" ") then
       # most probably two text codes and a text between them
       while (i = rt.index("(")) do
         # process token before the brace:
@@ -107,8 +101,6 @@ def content(line, label_index_lookup)
   # (some psalms reoccur in the psalter and we don't like page-flipping)
   labels = []
   tokens.each do |t|
-    t[1].strip!
-    
     if t[0] != :ps then
       next
     end
@@ -116,9 +108,9 @@ def content(line, label_index_lookup)
     if t[1] == "rchne1t" then
       # skip
     elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
-        t[1] =~ /^\d+\w*$/ then
+          t[1] =~ /^\d+\w*$/ then
       # psalm
-      labels << ('z' + t[1])
+      labels << ("z#{t[1]}")
     else
       # canticle
       labels << ("k"+t[1])
@@ -133,8 +125,6 @@ def content(line, label_index_lookup)
   end
 
   tokens.each_with_index do |t,ti|
-    t[1].strip!
-    
     case t[0]
     when :ps
       if t[1] == "rchne1t" then
@@ -235,7 +225,7 @@ end
 
 
 
-dir = ''
+dir = nil
 
 optparse = OptionParser.new do|opts|
   opts.on "-d", "--directory DIR", "Directory to put the output files in." do |d|
@@ -259,43 +249,17 @@ if dir then
   $stdout = File.open(dir+'/'+File.basename(list_file)+'.index.tex', 'w')
 end
 
-File.open(list_file, 'r') do |fr|
-  lnum = 0
-  while l = fr.gets do
-    lnum += 1
-    
-    # remove comments
-    if y = l.index('#') then
-      if l =~ /\s*#/ then
-        next
-      else
-        l = l[0..y-1]
-      end
-    end
-    
-    # ignore empty lines
-    if l =~ /^\s*$/ then
-      next
-    end
-    
-    # meaning of the line depends on indentation level
-    begin
-      i = ilevel(l)
-      case i
-      when 0
-        section_title l
-      when 1
-        occasion_title l
-      when 2
-        hour_title l
-      when 3
-        psalms += content l, pageref_optimizer
-      else
-        # nothing
-      end
-    rescue
-      STDERR.puts "Error on line #{lnum} of input file '#{list_file}':"
-      raise
+input = YAML.load File.read list_file
+input.each_pair do |sec_title, sec_content|
+  section_title sec_title
+
+  sec_content.each_pair do |occ_title, occ_content|
+    occasion_title occ_title
+
+    occ_content.each_pair do |h_title, h_content|
+      hour_title h_title
+
+      psalms += content h_content, pageref_optimizer
     end
   end
 end

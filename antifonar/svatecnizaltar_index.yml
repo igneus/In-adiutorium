@@ -1,7 +1,5 @@
 # Z tohoto souboru se generuje podstatna cast
 # zaltare pro svatky a slavnosti. (Skriptem listofpsalms.rb .)
-#
-# Pro spravne vygenerovani je dulezite spravne odsazeni radku.
 
 #######################################
 Doba adventní:
@@ -433,4 +431,3 @@ Společné texty:
       [70, 85, 86]
     nešpory:
       [121, 130, flp2]
-

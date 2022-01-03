@@ -1543,7 +1543,7 @@ podle pokynů v~indexu svátků.}
 \nadpisIndex{Index žalmů a kantik pro svátky}
 
 % generovany soubor
-\input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
+\input{generovane/zaltar/svatecnizaltar_index.yml.index.tex}
 
 \clearpage
 \printindex[zalmy]

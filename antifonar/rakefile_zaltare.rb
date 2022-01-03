@@ -86,7 +86,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" -
 zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
 # index of festal psalms
-file adresar_zaltar+'svatecnizaltar_index.txt.index.tex' => ['svatecnizaltar_index.txt', 'antifonar_zaltar.tex', 'skripty/listofpsalms.rb', 'skripty/pagerefoptimal.rb'] do |t|
+file adresar_zaltar+'svatecnizaltar_index.yml.index.tex' => ['svatecnizaltar_index.yml', 'antifonar_zaltar.tex', 'skripty/listofpsalms.rb', 'skripty/pagerefoptimal.rb'] do |t|
   inputf, labelsf, script = t.prerequisites
   sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf} #{labelsf}"
 end
@@ -106,7 +106,7 @@ end
 # process psalms in several threads to speed it up
 multitask :zalmy_zaltare_multitask => zalmyzaltare
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.txt.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do |t|
+file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.yml.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do |t|
   mainfile = t.prerequisites.first
   index_stylesheet = t.prerequisites[1]
 
