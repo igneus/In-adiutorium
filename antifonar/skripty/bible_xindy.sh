@@ -6,4 +6,6 @@
 
 LOGFILE=$(echo $1 | sed 's/.idx$/_xindy.log/')
 
-xindy --debug level=3 -t $LOGFILE -L klingon -C utf8 -M tex/inputenc/utf8 -I latex -M indexstyle_bible.xdy $1
+STYLE_PATH="$(dirname "${BASH_SOURCE[0]}")/../indexstyle_bible.xdy"
+
+xindy --debug level=3 -t $LOGFILE -L klingon -C utf8 -M tex/inputenc/utf8 -I latex -M $STYLE_PATH $1
