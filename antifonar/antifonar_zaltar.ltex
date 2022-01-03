@@ -105,6 +105,10 @@ V~době adventní, vánoční, postní a velikonoční:
 \newcommand{\zalm}[1]{
   \input{generovane/zaltar/zalm#1.tex}}
 
+% druha/treti cast deleneho zalmu v ramci jedne hodinky
+\newcommand{\zalmdiv}[1]{
+  \input{generovane/zaltar/zalm#1_pokracovani.tex}}
+
 \newcommand{\kantikum}[1]{
   \input{generovane/zaltar/kantikum_#1.tex}}
 
@@ -343,8 +347,8 @@ dá použít vždy.}
 \modlitbaUprostredDne
 \begin{hora}
 \zalm{118i}
-\zalm{118ii}
-\zalm{118iii}
+\zalmdiv{118ii}
+\zalmdiv{118iii}
 \versikyTInedeleUprostred
 \end{hora}
 
@@ -372,7 +376,7 @@ dá použít vždy.}
 \columnbreak % ZLOM
 \zalm{9i}
 \columnbreak % ZLOM
-\zalm{9ii}
+\zalmdiv{9ii}
 \versikTIpondeliCteni
 \end{hora}
 
@@ -389,7 +393,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{19b}
 \zalm{7i}
-\zalm{7ii}
+\zalmdiv{7ii}
 \versikyTIpondeliUprostred
 \end{hora}
 
@@ -405,7 +409,7 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{10i}
-\zalm{10ii}
+\zalmdiv{10ii}
 \zalm{12}
 \versikTIuteryCteni
 \end{hora}
@@ -443,8 +447,8 @@ dá použít vždy.}
 \begin{hora}
 \zalm{18i}
 \columnbreak % ZLOM
-\zalm{18ii}
-\zalm{18iii}
+\zalmdiv{18ii}
+\zalmdiv{18iii}
 \versikTIstredaCteni
 \end{hora}
 
@@ -460,7 +464,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119beth}
 \zalm{17i}
-\zalm{17ii}
+\zalmdiv{17ii}
 \versikyTIstredaUprostred
 \end{hora}
 
@@ -468,7 +472,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{27i}
-\zalm{27ii}
+\zalmdiv{27ii}
 \kantikum{kol1}
 \end{hora}
 
@@ -477,8 +481,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{18iv}
-\zalm{18v}
-\zalm{18vi}
+\zalmdiv{18v}
+\zalmdiv{18vi}
 \versikTIctvrtekCteni
 \end{hora}
 
@@ -494,7 +498,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119gimel}
 \zalm{25i}
-\zalm{25ii}
+\zalmdiv{25ii}
 \versikyTIctvrtekUprostred
 \end{hora}
 
@@ -512,8 +516,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{35i}
-\zalm{35ii}
-\zalm{35iii}
+\zalmdiv{35ii}
+\zalmdiv{35iii}
 \versikTIpatekCteni
 \end{hora}
 
@@ -552,7 +556,7 @@ dá použít vždy.}
 
 \zalm{131}
 \zalm{132i}
-\zalm{132ii}
+\zalmdiv{132ii}
 \versikTIsobotaCteni
 
 \oddelovac
@@ -561,8 +565,8 @@ dá použít vždy.}
 \rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \zalm{105i}
-\zalm{105ii}
-\zalm{105iii}
+\zalmdiv{105ii}
+\zalmdiv{105iii}
 
 \end{hora}
 
@@ -578,7 +582,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119he}
 \zalm{34i}
-\zalm{34ii}
+\zalmdiv{34ii}
 \versikyTIsobotaUprostred
 \end{hora}
 
@@ -598,8 +602,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{104i}
-\zalm{104ii}
-\zalm{104iii}
+\zalmdiv{104ii}
+\zalmdiv{104iii}
 \versikTIInedeleCteni
 \end{hora}
 
@@ -614,7 +618,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{23}
 \zalm{76i}
-\zalm{76ii}
+\zalmdiv{76ii}
 \versikyTIInedeleUprostred
 \end{hora}
 
@@ -638,8 +642,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{31i}
-\zalm{31ii}
-\zalm{31iii}
+\zalmdiv{31ii}
+\zalmdiv{31iii}
 \versikTIIpondeliCteni
 \end{hora}
 
@@ -654,14 +658,14 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119vau}
 \zalm{40i}
-\zalm{40ii}
+\zalmdiv{40ii}
 \versikyTIIpondeliUprostred
 \end{hora}
 
 \nespory
 \begin{hora}
 \zalm{45i}
-\zalm{45ii}
+\zalmdiv{45ii}
 \kantikum{ef1}
 \end{hora}
 
@@ -670,8 +674,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{37i}
-\zalm{37ii}
-\zalm{37iii}
+\zalmdiv{37ii}
+\zalmdiv{37iii}
 \versikTIIuteryCteni
 \end{hora}
 
@@ -694,7 +698,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{49i}
-\zalm{49ii}
+\zalmdiv{49ii}
 \columnbreak % ZLOM
 \kantikum{zj4}
 \end{hora}
@@ -704,7 +708,7 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{39i}
-\zalm{39ii}
+\zalmdiv{39ii}
 \zalm{52}
 \versikTIIstredaCteni
 \end{hora}
@@ -721,7 +725,7 @@ dá použít vždy.}
 \zalm{119chet}
 \zalm{55i}
 \columnbreak % ZLOM
-\zalm{55ii}
+\zalmdiv{55ii}
 \versikyTIIstredaUprostred
 \end{hora}
 
@@ -739,8 +743,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{44i}
-\zalm{44ii}
-\zalm{44iii}
+\zalmdiv{44ii}
+\zalmdiv{44iii}
 \versikTIIctvrtekCteni
 \end{hora}
 
@@ -763,7 +767,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{72i}
-\zalm{72ii}
+\zalmdiv{72ii}
 \kantikum{zj11}
 \end{hora}
 
@@ -772,8 +776,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{38i}
-\zalm{38ii}
-\zalm{38iii}
+\zalmdiv{38ii}
+\zalmdiv{38iii}
 \versikTIIpatekCteni
 \end{hora}
 
@@ -809,8 +813,8 @@ dá použít vždy.}
 \rubrika{\rubrikaZalmyvMezidobi oddíly žalmu 106, str.~\pageref{AdvVanSoTII}.}
 
 \zalm{136i}
-\zalm{136cii}
-\zalm{136ciii}
+\zalmdiv{136cii}
+\zalmdiv{136ciii}
 \versikTIIsobotaCteni
 
 \oddelovac
@@ -820,8 +824,8 @@ dá použít vždy.}
 
 \zalm{106i}
 \pagebreak % ZLOM
-\zalm{106ii}
-\zalm{106iii}
+\zalmdiv{106ii}
+\zalmdiv{106iii}
 
 \end{hora}
 
@@ -855,8 +859,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{145ci}
-\zalm{145cii}
-\zalm{145ciii}
+\zalmdiv{145cii}
+\zalmdiv{145ciii}
 \versikTIIInedeleCteni
 \end{hora}
 
@@ -870,8 +874,8 @@ dá použít vždy.}
 \modlitbaUprostredDne
 \begin{hora}
 \zalm{118i}
-\zalm{118ii}
-\zalm{118iii}
+\zalmdiv{118ii}
+\zalmdiv{118iii}
 \versikyTIIInedeleUprostred
 \end{hora}
 
@@ -895,8 +899,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{50i}
-\zalm{50ii}
-\zalm{50iii}
+\zalmdiv{50ii}
+\zalmdiv{50iii}
 \versikTIIIpondeliCteni
 \end{hora}
 
@@ -911,7 +915,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119lamed}
 \zalm{71i}
-\zalm{71ii}
+\zalmdiv{71ii}
 \versikyTIIIpondeliUprostred
 \end{hora}
 
@@ -928,8 +932,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{68i}
-\zalm{68ii}
-\zalm{68iii}
+\zalmdiv{68ii}
+\zalmdiv{68iii}
 \versikTIIIuteryCteni
 \end{hora}
 
@@ -946,7 +950,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119mem}
 \zalm{74i}
-\zalm{74ii}
+\zalmdiv{74ii}
 \versikyTIIIuteryUprostred
 \end{hora}
 
@@ -963,8 +967,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{89i}
-\zalm{89ii}
-\zalm{89iii}
+\zalmdiv{89ii}
+\zalmdiv{89iii}
 \versikTIIIstredaCteni
 \end{hora}
 
@@ -997,7 +1001,7 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{89iv}
-\zalm{89v}
+\zalmdiv{89v}
 \zalm{90}
 \versikTIIIctvrtekCteni
 \end{hora}
@@ -1024,7 +1028,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{132i}
-\zalm{132ii}
+\zalmdiv{132ii}
 \kantikum{zj11}
 \end{hora}
 
@@ -1033,9 +1037,9 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{69i}
-\zalm{69ii}
+\zalmdiv{69ii}
 \columnbreak % ZLOM
-\zalm{69iii}
+\zalmdiv{69iii}
 \versikTIIIpatekCteni
 \end{hora}
 
@@ -1051,15 +1055,15 @@ dá použít vždy.}
 \modlitbaUprostredDne
 \begin{hora}
 \zalm{22i}
-\zalm{22ii}
-\zalm{22iii}
+\zalmdiv{22ii}
+\zalmdiv{22iii}
 \versikyTIIIpatekUprostred
 \end{hora}
 
 \nespory
 \begin{hora}
 \zalm{135i}
-\zalm{135ii}
+\zalmdiv{135ii}
 \kantikum{zj15}
 \end{hora}
 
@@ -1069,9 +1073,9 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{107i}
-\zalm{107ii}
+\zalmdiv{107ii}
 \columnbreak % ZLOM
-\zalm{107iii}
+\zalmdiv{107iii}
 \versikTIIIsobotaCteni
 \end{hora}
 
@@ -1086,7 +1090,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119ajin}
 \zalm{34i}
-\zalm{34ii}
+\zalmdiv{34ii}
 \versikyTIIIsobotaUprostred
 \end{hora}
 
@@ -1107,7 +1111,7 @@ dá použít vždy.}
 \rubrikaZalmBylvInvitatoriu
 \zalm{24}
 \zalm{66i}
-\zalm{66ii}
+\zalmdiv{66ii}
 \versikTIVnedeleCteni
 \end{hora}
 
@@ -1123,7 +1127,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{23}
 \zalm{76i}
-\zalm{76ii}
+\zalmdiv{76ii}
 \versikyTIVnedeleUprostred
 \end{hora}
 
@@ -1147,8 +1151,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{73i}
-\zalm{73ii}
-\zalm{73iii}
+\zalmdiv{73ii}
+\zalmdiv{73iii}
 \versikTIVpondeliCteni
 \end{hora}
 
@@ -1172,7 +1176,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{136i}
-\zalm{136ii}
+\zalmdiv{136ii}
 \columnbreak % ZLOM
 \kantikum{ef1}
 \end{hora}
@@ -1183,8 +1187,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{102i}
-\zalm{102ii}
-\zalm{102iii}
+\zalmdiv{102ii}
+\zalmdiv{102iii}
 \versikTIVuteryCteni
 \end{hora}
 
@@ -1199,7 +1203,7 @@ dá použít vždy.}
 \begin{hora}
 \zalm{119sade}
 \zalm{88i}
-\zalm{88ii}
+\zalmdiv{88ii}
 \versikyTIVuteryUprostred
 \end{hora}
 
@@ -1216,8 +1220,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{103i}
-\zalm{103ii}
-\zalm{103iii}
+\zalmdiv{103ii}
+\zalmdiv{103iii}
 \versikTIVstredaCteni
 \end{hora}
 
@@ -1233,7 +1237,7 @@ dá použít vždy.}
 \zalm{119kof}
 \zalm{94i}
 \columnbreak % ZLOM
-\zalm{94ii}
+\zalmdiv{94ii}
 \columnbreak % ZLOM
 \versikyTIVstredaUprostred
 \end{hora}
@@ -1241,7 +1245,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{139i}
-\zalm{139ii}
+\zalmdiv{139ii}
 \kantikum{kol1}
 \end{hora}
 
@@ -1250,8 +1254,8 @@ dá použít vždy.}
 \modlitbaSeCtenim
 \begin{hora}
 \zalm{44i}
-\zalm{44ii}
-\zalm{44iii}
+\zalmdiv{44ii}
+\zalmdiv{44iii}
 \versikTIVctvrtekCteni
 \end{hora}
 
@@ -1275,7 +1279,7 @@ dá použít vždy.}
 \nespory
 \begin{hora}
 \zalm{144i}
-\zalm{144ii}
+\zalmdiv{144ii}
 \kantikum{zj11}
 \end{hora}
 
@@ -1289,8 +1293,8 @@ dá použít vždy.}
 str.~\pageref{AdvVanPaTIV}.}
 
 \zalm{55ci}
-\zalm{55cii}
-\zalm{55ciii}
+\zalmdiv{55cii}
+\zalmdiv{55ciii}
 \versikTIVpatekCteni
 
 \oddelovac
@@ -1299,8 +1303,8 @@ str.~\pageref{AdvVanPaTIV}.}
 \rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \zalm{78i}
-\zalm{78ii}
-\zalm{78iii}
+\zalmdiv{78ii}
+\zalmdiv{78iii}
 
 \end{hora}
 
@@ -1323,7 +1327,7 @@ str.~\pageref{AdvVanPaTIV}.}
 \nespory
 \begin{hora}
 \zalm{145i}
-\zalm{145ii}
+\zalmdiv{145ii}
 \kantikum{zj15}
 \end{hora}
 
@@ -1336,8 +1340,8 @@ str.~\pageref{AdvVanPaTIV}.}
 str.~\pageref{AdvVanSoTIV}.}
 
 \zalm{50i}
-\zalm{50ii}
-\zalm{50iii}
+\zalmdiv{50ii}
+\zalmdiv{50iii}
 \versikTIVsobotaCteni
 
 \oddelovac
@@ -1346,8 +1350,8 @@ str.~\pageref{AdvVanSoTIV}.}
 \rubrika{\rubrikaZalmyveZvlastnichDobach}
 
 \zalm{78iv}
-\zalm{78v}
-\zalm{78vi}
+\zalmdiv{78v}
+\zalmdiv{78vi}
 
 \end{hora}
 
@@ -1362,7 +1366,7 @@ str.~\pageref{AdvVanSoTIV}.}
 \begin{hora}
 \zalm{119tau}
 \zalm{45i}
-\zalm{45ii}
+\zalmdiv{45ii}
 \versikyTIVsobotaUprostred
 \end{hora}
 
@@ -1464,16 +1468,22 @@ podle pokynů v~indexu svátků.}
 
 \begin{hora}
 \zalm{30i}
-\zalm{30ii}
+\zalmdiv{30ii}
+
 \zalm{33ci}
-\zalm{33cii}
+\zalmdiv{33cii}
+
 \zalm{86i}
+
 \zalm{92ci}
-\zalm{92cii}
+\zalmdiv{92cii}
+
 \zalm{96i}
-\zalm{96ii}
+\zalmdiv{96ii}
+
 \zalm{103ci}
-\zalm{103cii}
+\zalmdiv{103cii}
+
 \label{k1tim3}\label{k1tim3:1}
 \input{kantikum_1tim3} % kantikum vysazene "natvrdo" kvuli nezalmove strukture
 

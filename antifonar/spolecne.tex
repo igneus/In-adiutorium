@@ -350,17 +350,24 @@
   \nopagebreak%
 }
 
-% obvykle napr. "zalm 94"
-\newcommand{\nadpisZalmu}[1]{%
+% \nadpisZalmu{Žalm 94}         % vytisteny titulek i do indexu zalmu
+% \nadpisZalmu[Žalm 118-II]{II} % volitelny argument do indexu zalmu, povinny vytisknout
+\newcommand{\nadpisZalmu}[2][]{%
   \vspace{2mm}%
   \begin{center}%
-    \textbf{#1}%
+    \textbf{#2}%
   \end{center}%
-  \ifdef{\indexOfPsalmsEnabled}{\index[zalmy]{#1|hyperpage}}{}%
+  \ifdef{\indexOfPsalmsEnabled}{%
+    \ifstrempty{#1}{\index[zalmy]{#2|hyperpage}}{\index[zalmy]{#1|hyperpage}}%
+  }{}%
   \nopagebreak%
 }
 
-\newcommand{\titulusPsalmi}[1]{\nadpisZalmu{#1}}
+% argumenty jako \nadpisZalmu
+% (standardni prikaz pouzivany programem `pslm`; variantu s nepovinnym argumentem
+% pslm nezna, v pripade potreby ji generujeme zvlastnim krokem)
+\newcommand{\titulusPsalmi}[2][]{%
+  \ifstrempty{#1}{\nadpisZalmu{#2}}{\nadpisZalmu[#1]{#2}}}
 
 
 % Napr. "hymnus", "responsorium", "zalmy"

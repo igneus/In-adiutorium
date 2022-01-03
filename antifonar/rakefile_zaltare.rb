@@ -15,21 +15,26 @@ canticleoptions_zaltar = $canticleoptions+$o_warnmarks
 magnificatoptions_zaltar = $commonoptions_withoutdoxology+$o_doxology_full+$o_warnmarks
 
 cislazalmu_zaltar = Set.new
+cislazalmu_zaltar_pokracovani = Set.new
 kantika_zaltar = Set.new
 
 # read list of psalms and canticles used
 File.open('antifonar_zaltar.ltex') do |fr|
   fr.each_line do |l|
-    match = /\\(zalm|kantikum)\{([^\}]+)\}/.match(l)
+    match = /\\(zalm(div)?|kantikum)\{([^\}]+)\}/.match(l)
     next if match.nil?
 
-    if match[1] == 'zalm' then
-      cislazalmu_zaltar << match[2]
-    elsif match[1] == 'kantikum' then
-      kantika_zaltar << match[2]
+    command = match[1]
+    arg = match[3]
+
+    if command.start_with? 'zalm' then
+      cislazalmu_zaltar << arg
+      cislazalmu_zaltar_pokracovani << arg if command == 'zalmdiv'
+    elsif command == 'kantikum' then
+      kantika_zaltar << arg
     else
       # unexpected
-      raise RuntimeError.new(match[1])
+      raise RuntimeError.new(command)
     end
   end
 end
@@ -38,6 +43,28 @@ kantika_zaltar -= ['dan3iii', '1petr2', 'benedictus', 'magnificat', 'nuncdimitti
 
 cislazalmu_zaltar.each do |z|
   zalmyzaltare << genzalm("zalm"+z+".zalm", options_zaltar, adresar_zaltar)
+end
+
+# special versions (shorter title) of second/third sections of a divided psalm
+# used in the same hour
+cislazalmu_zaltar_pokracovani.each do |z|
+  input = File.join adresar_zaltar, "zalm#{z}.tex"
+  output = File.join adresar_zaltar, "zalm#{z}_pokracovani.tex"
+
+  zalmyzaltare << output
+
+  file output => [input] do
+    File.write(
+      output,
+      # strip "Žalm XXX-" at the beginning of the psalm title,
+      # but put unabbreviated title in an optional argument
+      # (value used in the index of psalms)
+      File.read(input).sub(
+        /(?<=\\titulusPsalmi)\{(Žalm\s+\d+-(.*?))}/,
+        '[\1]{\2}'
+      )
+    )
+  end
 end
 
 dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --output-append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
