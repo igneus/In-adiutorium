@@ -1530,7 +1530,7 @@ podle pokynů v~indexu svátků.}
 \end{hora}
 
 \clearpage
-\nadpisIndex{Index svátků}
+\nadpisIndex{Index žalmů a kantik pro svátky}
 
 % generovany soubor
 \input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
