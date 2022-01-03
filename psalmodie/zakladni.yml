@@ -30,6 +30,12 @@ II:
   - f- {d} d
   - g- {f} f
   - D: e c- {d} d
+_II:
+  - g a
+  - c
+  - c- {a} a
+  - d- {c} c
+  - A: h g- {a} a
 III:
   - g ac
   - c

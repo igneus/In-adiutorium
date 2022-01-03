@@ -62,7 +62,11 @@ class PsalmTone
       diff = ''
     end
 
-    score_id = [@name.gsub(' ', ''), diff].select {|p| p != '' }.join('-')
+    # leading underscores are used as a trick to allow having different
+    # transposition under a single tone name (II.D and II.A and similar)
+    clean_name = @name.sub(/^_+/, '')
+
+    score_id = [clean_name.gsub(' ', ''), diff].select {|p| p != '' }.join('-')
 
     return "\\score{
   \\relative #{octave} {
@@ -73,7 +77,7 @@ class PsalmTone
     #{term} \\barFinalis
   }
   \\header {
-    modus = \"#{@name}\"
+    modus = \"#{clean_name}\"
     differentia = \"#{diff}\"
     id = \"#{score_id}\"
     piece = \\markup\\sestavTitulekBezZalmu
@@ -123,7 +127,7 @@ class PsalmTone
     octave = "c'"
 
     # this is quite dirty and not at all universal ...
-    if ['III', 'IV', 'IV alt', 'VII', 'VIII', 'per'].include? @name then
+    if ['_II', 'III', 'IV', 'IV alt', 'VII', 'VIII', 'per'].include? @name then
       octave = "c''"
     end
 

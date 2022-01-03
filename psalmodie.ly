@@ -177,6 +177,22 @@
 \score{
   \relative c'' {
     \choralniRezim
+    g4 a
+    c4 c c-! \parenthesize a a \barMin
+    c4 c d-! \parenthesize c c \barMaior
+    c4 c b g-! \parenthesize a a \barFinalis
+  }
+  \header {
+    modus = "II"
+    differentia = "A"
+    id = "II-A"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score{
+  \relative c'' {
+    \choralniRezim
     g4 a( c)
     c4 c c-! \parenthesize a a \barMin
     c4 c d-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
