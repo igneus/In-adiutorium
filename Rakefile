@@ -127,3 +127,10 @@ end
 
 desc "All sanity checks"
 task :sanity => 'sanity:all'
+
+desc 'Run all specs of project tools'
+task :spec do
+  sh 'rspec',
+     'nastroje/spec',
+     'antifonar/skripty/spec'
+end
