@@ -23,7 +23,7 @@
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
 
-\newcommand{\responsoriumOdkaz}{\rubrika{Responsorium a Simeonovo kantikum, str. \pageref{responsorium}.}}
+\newcommand{\responsoriumOdkaz}{\rubrika{Ostatní zpěvy jako v neděli, str. \pageref{responsorium}.}}
 
 \newcommand{\velikAntifona}{%
   \rubrika{V době velikonoční antifona \upshape{Aleluja}, str. \pageref{velikant}.}}
@@ -106,22 +106,22 @@ na Bílou sobotu pak se antifona zpívá celá.}
 \label{responsorium}
 \nadpisTypTextu{Responsorium}
 
-\rubrika{Během Velikonočního tridua a Velikonočního oktávu se místo
-responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
-
-\rubrika{Mimo dobu adventní a velikonoční:}
-
-\lilypondfile{generovane/kompletar/kompletar_resp.ly}
-
 \rubrika{V době adventní:}
 
 \lilypondfile{generovane/kompletar/kompletar_resp-adv.ly}
 
-\newpage % ZLOM
+\rubrika{Ve Velikonočním triduu a Velikonočním oktávu se místo
+responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \rubrika{V době velikonoční:}
 
 \lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
+
+\newpage % ZLOM
+
+\rubrika{V ostatních liturgických dobách:}
+
+\lilypondfile{generovane/kompletar/kompletar_resp.ly}
 
 \nadpisTypTextu{Simeonovo kantikum}
 
