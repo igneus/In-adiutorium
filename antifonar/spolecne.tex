@@ -322,6 +322,13 @@
 
 \newenvironment{idxObsahHory}{}{}
 
+% alternativa \dotfill pro index zalmu - ve stisnenych podminkach
+% brani tomu, aby se vypln uplne preskocila, coz by v indexu zalmu
+% znamenalo tesne sousedstvi cisel biblickeho odkazu a cisel
+% odkazu na stranku, a tedy necitelny/nesmyslny vysledek
+\newcommand{\idxDotfill}{%
+  {\def\hfill{\hskip 10pt plus 1fill}\dotfill}}
+
 
 % Cilem je, aby tento nadpis nad sebou nemel tolik mista
 % a tak umoznoval "prilepeni" predchazejici rubriky.

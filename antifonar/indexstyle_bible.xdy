@@ -24,7 +24,7 @@
 ;; from getting attached to the terms
 ;; (our terms often end with verse numbers and the result would thus be
 ;; unreadable)
-(markup-locclass-list :open "{\def\hfill{\hskip 10pt plus 1fill}\dotfill}")
+(markup-locclass-list :open "\idxDotfill")
 
 ;; ignore leading "srov."
 (merge-rule "^[Ss]rov. " "" :eregexp)
