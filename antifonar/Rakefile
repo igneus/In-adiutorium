@@ -63,7 +63,7 @@ def swap_ext(fname, newext)
 end
 
 # generates all necessary tasks to compile a booklet using Typographus
-def typographus(main, latex='pdflatex', biblatex=false)
+def typographus(main, latex='pdflatex', biblatex=false, &blk)
   outdir = 'vystup'
   #typographus = "#{LYV_CMD} tex"
   typographus = File.join('..', 'nastroje', 'typographus.rb')
@@ -92,9 +92,17 @@ def typographus(main, latex='pdflatex', biblatex=false)
 
     2.times { sh latex_commands[latex] }
 
-    if biblatex then
-      cp '../bibliografie_admc.bib', '.'
-      sh 'biber', no_ext(File.basename(tex))
+    if biblatex || blk then
+      if biblatex
+        cp '../bibliografie_admc.bib', '.'
+        sh 'biber', no_ext(File.basename(tex))
+      end
+
+      # block can be used to insert a piece of functionality -
+      # like customized generation of bibliography/indices/... -
+      # before latex is re-run for the last time
+      blk&.call
+
       sh latex_commands[latex]
     end
 

@@ -16,6 +16,10 @@
 \usepackage{etoolbox}
 \usepackage{setspace} % upravy radkovani
 
+\usepackage{imakeidx} % indexy
+\makeindex[name=zalmy,noautomatic,intoc,title=Rejstřík žalmů a kantik]
+\indexsetup{firstpagestyle=fancy}
+
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
@@ -44,6 +48,9 @@
   a kde jsem shledal odchylky od vydání breviáře z r. 1994, jsou
   podle něj opraveny.
 }
+
+% zapnout generovani index zalmu (viz spolecne.ly, \nadpisZalmu)
+\newcommand{\indexOfPsalmsEnabled}{1}
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
@@ -359,9 +366,13 @@
 
 \rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
-\pagestyle{empty}
-\cleardoublepage
+\clearpage
 
+\printindex[zalmy]
+\vfill
+\clearpage
+
+\pagestyle{empty}
 \tableofcontents
 \vfill
 

@@ -5,7 +5,9 @@
 ###############
 # Narozeni Pane
 
-narozeni_lytex = typographus('antifonar_narozenipane.tytex')
+narozeni_lytex = typographus('antifonar_narozenipane.tytex') do
+  sh '../skripty/bible_xindy.sh', 'zalmy.idx'
+end
 
 desc "Nativity of our Lord."
 task :narozeni => [narozeni_lytex]
