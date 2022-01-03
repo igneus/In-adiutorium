@@ -22,7 +22,7 @@
 \usepackage{imakeidx} % indexy
 % noautomatic - because the automatic indexer invocation doesn't support -output-directory,
 %   which we won't give up
-\makeindex[name=zalmy,noautomatic,program=texindy,intoc,title=Rejstřík žalmů a kantik]
+\makeindex[name=zalmy,noautomatic,intoc,title=Rejstřík žalmů a kantik]
 
 \usepackage[T1]{fontenc}
 % font Palatino:
