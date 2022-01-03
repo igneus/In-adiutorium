@@ -34,7 +34,9 @@ zalmy_triduum << genspojenyzalm(['zalm40i.zalm', 'zalm40ii.zalm'], 'zalm40.tex',
 zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 27}'", adresar_triduum)
 zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
-triduum_lytex = typographus('antifonar_triduum.tytex', 'pdflatex', true)
+triduum_lytex = typographus('antifonar_triduum.tytex', 'pdflatex', true) do
+  sh '../skripty/bible_xindy.sh', 'zalmy.idx'
+end
 
 verse_tones = {
   default: 'a b a g- {g} g',

@@ -16,6 +16,10 @@
 \usepackage{changepage}
 \usepackage{etoolbox}
 
+\usepackage{imakeidx} % indexy
+\makeindex[name=zalmy,noautomatic,intoc,title=Rejstřík žalmů a kantik]
+\indexsetup{firstpagestyle=fancy}
+
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
@@ -48,6 +52,9 @@
   a kde byly shledány odchylky od tištěného vydání breviáře, byly
   podle něj opraveny.
 }
+
+% zapnout generovani index zalmu (viz spolecne.ly, \nadpisZalmu)
+\newcommand{\indexOfPsalmsEnabled}{1}
 
 \newcommand{\preLilyPondExample}{ \begin{flushleft} }
 \newcommand{\postLilyPondExample}{ \end{flushleft} }
@@ -974,6 +981,8 @@ Dnes.
 \input{generovane/triduum/zalm128.tex}
 \end{psalmodia}
 
+\clearpage
+\printindex[zalmy]
 
 \clearpage
 \pagestyle{empty}
