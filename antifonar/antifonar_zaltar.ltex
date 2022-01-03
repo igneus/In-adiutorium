@@ -22,7 +22,8 @@
 \usepackage{imakeidx} % indexy
 % noautomatic - because the automatic indexer invocation doesn't support -output-directory,
 %   which we won't give up
-\makeindex[name=zalmy,noautomatic,intoc,title=Rejstřík žalmů a kantik]
+\makeindex[name=zalmy,noautomatic,title=Rejstřík žalmů a kantik]
+\indexsetup{level=\nadpisIndex,firstpagestyle=fancy}
 
 \usepackage[T1]{fontenc}
 % font Palatino:
@@ -1529,14 +1530,12 @@ podle pokynů v~indexu svátků.}
 \end{hora}
 
 \clearpage
-\nadpisTyden{Index svátků}{Index svátků}
-\fancyhead[CE,CO]{Index svátků}
+\nadpisIndex{Index svátků}
 
 % generovany soubor
 \input{generovane/zaltar/svatecnizaltar_index.txt.index.tex}
 
 \clearpage
-\fancyhead[CE,CO]{Rejstřík žalmů a kantik}
 \printindex[zalmy]
 
 \clearpage
