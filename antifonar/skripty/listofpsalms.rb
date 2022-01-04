@@ -73,7 +73,10 @@ def tokenized_hour_content(value)
       [:txt, rt.strip[1..-2]] # the braced text
     else
       # simple token - number of a psalm or a code of a canticle
-      [:ps, rt.strip]
+      is_canticle =
+        $canticles_number_in_name.find {|c| rt.start_with? c} ||
+        rt !~ /^\d+\w*$/
+      [:ps, rt.strip, is_canticle ? :canticle : nil]
     end
   end
 end
@@ -94,13 +97,12 @@ def hour_content(value, label_index_lookup)
 
     if t[1] == "rchne1t" then
       # skip
-    elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
-          t[1] =~ /^\d+\w*$/ then
-      # psalm
-      labels << ("z#{t[1]}")
-    else
+    elsif t[2] == :canticle then
       # canticle
       labels << ("k"+t[1])
+    else
+      # psalm
+      labels << ("z#{t[1]}")
     end
   end
   label_nums = {}
@@ -117,17 +119,16 @@ def hour_content(value, label_index_lookup)
       if t[1] == "rchne1t" then
         # puts "Žalmy nedělní z 1. týdne, str. \\pageref{zalmyne1trch}"
         puts "\\laudyNedelePrvnihoTydne"
-      elsif ! $canticles_number_in_name.find {|c| t[1].start_with? c} && 
-          t[1] =~ /^\d+\w*$/ then
-        # psalm
-        prettyt = psalm_name_pretty t[1]
-        print "\\textRef{z#{t[1]}:#{label_nums['z'+t[1]]}}{Žalm #{prettyt}}"
-        psalms << t[1]
-      else
+      elsif t[2] == :canticle
         # canticle
         sigle = canticle_name_pretty t[1]
         
         print "\\textRef{k#{t[1]}:#{label_nums['k'+t[1]]}}{#{sigle}}"
+      else
+        # psalm
+        prettyt = psalm_name_pretty t[1]
+        print "\\textRef{z#{t[1]}:#{label_nums['z'+t[1]]}}{Žalm #{prettyt}}"
+        psalms << t[1]
       end
       # for both psalms and canticles:
       if ti != (tokens.size - 1) && tokens[ti+1][0] != :txt then
