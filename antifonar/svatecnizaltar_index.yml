@@ -1,5 +1,5 @@
 # Z tohoto souboru se generuje podstatna cast
-# zaltare pro svatky a slavnosti. (Skriptem listofpsalms.rb .)
+# zaltare pro svatky a slavnosti. (Skriptem listofpsalms.rb .),
 
 #######################################
 Doba adventní:
@@ -14,7 +14,7 @@ Doba vánoční:
     1. nešpory:
       [113, 147ii, flp2]
     modlitba se čtením:
-      [2, 19a, 45i (+) 45ii]
+      [2, 19a, 45i, (+), 45ii]
     vigilie:
       [iz26, iz40i, iz66]
     ranní chvály:
@@ -44,7 +44,7 @@ Doba vánoční:
     1. nešpory:
       [135i, 135ii, 1tim3]
     modlitba se čtením:
-      [72i (+) 72ii, 96, 97]
+      [72i, (+), 72ii, 96, 97]
     vigilie:
       (jako o slavnosti Narození Páně)
     ranní chvály:
@@ -68,13 +68,13 @@ Velikonoční triduum:
 
   Velký pátek:
     modlitba se čtením:
-      [2, 22i (+) 22ii (- volitelně se může připojit) 22iii, 38i (+) 38ii (+) 38iii]
+      [2, 22i, (+), 22ii, (- volitelně se může připojit), 22iii, 38i, (+), 38ii, (+), 38iii]
     vigilie:
       (Jako o postních nedělích.)
     ranní chvály:
       [51, hab3, 147ii]
     modlitba uprostřed dne:
-      [40i (+) 40ii, 54, 88i (+) 88ii]
+      [40i, (+), 40ii, 54, 88i, (+), 88ii]
     nešpory:
       [116ii, 143, flp2]
 
@@ -86,7 +86,7 @@ Velikonoční triduum:
     ranní chvály:
       [64, iz38, 150]
     modlitba uprostřed dne:
-      [27i (+) 27ii, 30, 76i (+) 76ii]
+      [27i, (+), 27ii, 30, 76i, (+), 76ii]
     nešpory:
       [116ii, 143, flp2]
 
@@ -243,7 +243,7 @@ Sanktorál:
     1. nešpory:
       [113, 147ii, flp2]
     modlitba se čtením:
-      [2, 19a, 45i (+) 45ii]
+      [2, 19a, 45i, (+), 45ii]
     vigilie:
       [iz9, iz26, iz66]
     ranní chvály:
@@ -255,7 +255,7 @@ Sanktorál:
     1. nešpory:
       [113, 147ii, flp2]
     modlitba se čtením:
-      [2, 19a, 45i (+) 45ii]
+      [2, 19a, 45i, (+), 45ii]
     vigilie:
       [iz9, iz26, iz66]
     ranní chvály:
@@ -320,7 +320,7 @@ Společné texty:
 
   O posvěcení kostela:
     1. nešpory:
-      [147i, 147ii, zj19 (nebo v době postní) kol1]
+      [147i, 147ii, zj19, (nebo v době postní), kol1]
     modlitba se čtením:
       [24, 84, 87]
     vigilie:
@@ -328,7 +328,7 @@ Společné texty:
     ranní chvály:
       rchne1t
     2. nešpory:
-      [46, 122, zj19 (v době postní) zj15]
+      [46, 122, zj19, (v době postní), zj15]
 
   O Panně Marii:
     1. nešpory:
@@ -368,9 +368,9 @@ Společné texty:
 
   O jednom mučedníkovi nebo o jedné mučednici:
     1. nešpory:
-      [118i (+) 118ii, 118iii, 1petr2]
+      [118i, (+), 118ii, 118iii, 1petr2]
     modlitba se čtením:
-      [2, 11, 17i (+) 17ii]
+      [2, 11, 17i, (+), 17ii]
     vigilie:
       [jer17, sir14, sir31]
     ranní chvály:
@@ -426,7 +426,7 @@ Společné texty:
     modlitba se čtením:
       [40i, 40ii, 42]
     ranní chvály:
-      [51, iz38, 146 (nebo) 150]
+      [51, iz38, 146, (nebo), 150]
     modlitba uprostřed dne:
       [70, 85, 86]
     nešpory:

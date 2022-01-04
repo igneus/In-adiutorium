@@ -63,36 +63,23 @@ def hour_title(line)
        end
 end
 
-def content(value, label_index_lookup)
-  tokens = []
-
+def tokenized_hour_content(value)
   value = [value] unless value.is_a? Array
   
-  value.each do |rt|
+  value.collect do |rt|
     if rt.is_a? Fixnum
-      tokens << [:ps, rt.to_s]
-    elsif rt.index(" ") then
-      # most probably two text codes and a text between them
-      while (i = rt.index("(")) do
-        # process token before the brace:
-        if i > 1 then
-          tokens << [:ps, rt[0..i-1].strip]
-        end
-        # the braced text:
-        j = rt.index ")", i
-        tokens << [:txt, rt[i+1..j-1]]
-        rt = rt[j+1..-1]
-      end
-      # token after brace:
-      rt.strip!
-      if rt != "" then
-        tokens << [:ps, rt]
-      end
+      [:ps, rt.to_s]
+    elsif rt =~ /^\(.+?\)/
+      [:txt, rt.strip[1..-2]] # the braced text
     else
       # simple token - number of a psalm or a code of a canticle
-      tokens << [:ps, rt.strip]
+      [:ps, rt.strip]
     end
   end
+end
+
+def hour_content(value, label_index_lookup)
+  tokens = tokenized_hour_content(value)
   
   psalms = []
   
@@ -184,6 +171,8 @@ def psalm_name_pretty(p)
 end
  
 def canticle_name_pretty(c)
+  # book names which can't be retrieved by a simple
+  # transformation of the sigle
   special_booknames = {'pr' => 'Př', 'plac' => 'Pláč'}
 
   cp = c.match $canticlename_re
@@ -250,16 +239,16 @@ if dir then
 end
 
 input = YAML.load File.read list_file
-input.each_pair do |sec_title, sec_content|
-  section_title sec_title
+input.each_pair do |s_title, section_content|
+  section_title s_title
 
-  sec_content.each_pair do |occ_title, occ_content|
-    occasion_title occ_title
+  section_content.each_pair do |o_title, occasion_content|
+    occasion_title o_title
 
-    occ_content.each_pair do |h_title, h_content|
+    occasion_content.each_pair do |h_title, h_content|
       hour_title h_title
 
-      psalms += content h_content, pageref_optimizer
+      psalms += hour_content h_content, pageref_optimizer
     end
   end
 end
