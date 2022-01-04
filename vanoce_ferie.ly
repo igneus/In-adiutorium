@@ -151,8 +151,8 @@
     \choralniRezim
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
-    g g g g f e f f( g) g g \barMin
-    f g a c c a b( g) g \barFinalis
+    a a a a g f g g a a \barMin
+    g a c c b a g g \barFinalis
   }
   \addlyrics {
     Vy -- šel jsem od Ot -- ce
@@ -166,7 +166,6 @@
     differentia = "G"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek"
-    placet = "melisma na _od sebe_ pryč; elegantnější závěr"
     id = "4amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -146,6 +146,8 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{4. ledna}
 
 \score {
@@ -178,6 +180,100 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 \mark\sipka b d( e) d d \barMin
+    e e d( e) d \barMax
+    a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    f g a a( c d) \mark\sipka c( d) d \barMin c b g a( g) g \barMaior
+    f g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    e \mark\sipka c c( d) d \barMax
+    a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    f g a a( c d) c( d) d \barMin c b g a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Tónina mi ujela z modu VII do dur a je mi líto tuhle verzi úplně zahodit:
+}
+
+\score {
+  \relative c'' {
+    \key g \major
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    e fis e( d) d \barMaior
+    d d c b a( b) \barMaior
+    b g a b b b c d e c d d \barMaior
+    g fis e d( e) d d \barMin
+    d( c b) a( b) a g g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil
+    no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
     g g g g f e f f( g) g g \barMin
@@ -200,6 +296,59 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    \mark\sipka a a a a g f g g a a \barMin
+    g a c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    ne -- při -- šel jsem to -- tiž sám od se -- be,
+    a -- le po -- slal mě můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek"
+    id = "4amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    a a a a g f g g a a \barMin
+    g a c c b \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    ne -- při -- šel jsem to -- tiž sám od se -- be,
+    a -- le po -- slal mě můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek"
+    id = "4amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{5. ledna}
 
