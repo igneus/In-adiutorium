@@ -165,7 +165,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?upraveno"
+    fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek"
     placet = "melisma na _od sebe_ pryč; elegantnější závěr"
     id = "4amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -215,7 +215,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&delsi_text"
+    fial = "sanktoral/0503filipjakub.ly#rch-aben?-aleluja&zaver"
     id = "5amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
