@@ -147,28 +147,8 @@ end
 # gets psalm code lik '15', '19a' or '119bet' und makes it to a pretty one
 def psalm_name_pretty(p)
   pp = p.match($psalmname_re)
-  suff = pp[:suff]
 
-  if suff == "" then
-    # nothing
-  else
-    if not $hebrew_alphabet.member?(suff) and
-        suff.size > 1 and
-        suff[0] == 'c' then
-      suff.slice!(0)
-    end
-        
-
-    if $roman_numbers.member? suff
-      suff.upcase!
-      suff = '-'+suff
-    elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
-      suff[0] = suff[0].upcase
-      suff = '-'+suff
-    end
-  end
-
-  return pp[:num]+suff
+  return pp[:num] + psalm_suffix_pretty(pp[:suff])
 end
  
 def canticle_name_pretty(c)
@@ -179,37 +159,34 @@ def canticle_name_pretty(c)
   cp = c.match $canticlename_re
 
   book = cp[:bookcode]
-
-  if special_booknames.include? book then
-    book = special_booknames[book]
-  else
-    book[0] = book[0].upcase
-  end
+  book = special_booknames[book] || book.capitalize
   
   sigle = book + ' ' + cp[:chapter]
-
-  if cp[:booknum] != '' then
-    sigle = cp[:booknum]+' '+sigle
-  end
+  sigle = cp[:booknum] + ' ' + sigle if cp[:booknum] != ''
 
   suff = cp[:suff]
-  if suff != "" then
-    if suff[0] == 'c' then
-      suff.slice!(0)
-    end
 
-    # nothing
-    if $roman_numbers.member? suff
-      suff.upcase!
-      suff = '-'+suff
-    elsif $hebrew_alphabet.member?(suff) || ['a', 'b', 'c'].member?(suff) then
-      suff[0] = suff[0].upcase
-      suff = '-'+suff
-    end
-    sigle += '-'+suff
+  # TODO: I'm quite sure the additional dash added here,
+  #   thus forming a long dash -- ,
+  #   originated back in history as a bug, not by design
+  return sigle +
+         (suff.empty? ? '' : '-' + psalm_suffix_pretty(suff))
+end
+
+def psalm_suffix_pretty(suff)
+  return '' if suff.empty?
+
+  if !$hebrew_alphabet.member?(suff) && suff.size > 1
+    suff.sub!(/^c/, '')
   end
 
-  return sigle
+  if $roman_numbers.member?(suff) || %w(a b c).member?(suff)
+    '-' + suff.upcase
+  elsif $hebrew_alphabet.member?(suff)
+    '-' + suff.capitalize
+  else
+    suff
+  end
 end
 
 
