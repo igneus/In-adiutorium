@@ -136,3 +136,12 @@ versRecitanda = { c\breve }
 versNeuma = { b4 c( b a g) a( b b a) }
 
 strofa = { \barFinalis \break }
+
+#(define-markup-command (iniciala layout props annotI annotII litera) (markup? markup? markup?)
+   "Iniciala zpevu"
+   (interpret-markup layout props
+     (markup
+      #:center-column
+      (#:raise -2 #:tiny annotI
+        #:pad-around 0.5 #:tiny annotII
+        #:fontsize 11 litera))))
