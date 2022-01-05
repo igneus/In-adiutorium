@@ -50,6 +50,8 @@ zalmy_kompletar << genzalm(
   adresar_kompletar
 )
 
+multitask :zalmy_kompletar_multitask => zalmy_kompletar
+
 # noty:
 noty_kompletar = []
 
@@ -65,7 +67,7 @@ noty_kompletar = []
   end
 end
 
-file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", 'spolecne_antifonar.ly']+zalmy_kompletar+noty_kompletar) do
+file "vystup/antifonar_kompletar.tex" => (["antifonar_kompletar.lytex", 'spolecne_antifonar.ly', :zalmy_kompletar_multitask]+noty_kompletar) do
   sh "lilypond-book --output=vystup --pdf antifonar_kompletar.lytex"
 end
 
