@@ -84,39 +84,6 @@
 }
 
 \score {
-  \relative c'' {
-    \choralniRezim
-    g4 a( c) c c c d c c b( a) c \barMax
-    c c c b a b a g \barFinalis \break
-
-    c c c c d( c) b( a) c \barMax
-    c c( b) a( b) a g g \barFinalis \break
-
-    c c d c c b( a) c \barMax
-    a c( b) a g g \barFinalis \break
-  }
-  \addlyrics {
-    On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_*
-    byl o -- spra -- ve -- dl -- něn Du -- chem.
-
-    U -- ká -- zal se an -- dě -- lům,_*
-    byl hlá -- sán po -- ha -- nům.
-
-    Do -- šel ví -- ry ve svě -- tě,_*
-    byl vzat do slá -- vy.
-  }
-  \header {
-    quid = "verše kantika"
-    modus = "III"
-    differentia = "g"
-    psalmus = "1Tim 3"
-    placet = "spíš VIII než III"
-    id = "1ne-kant"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
   \relative c' {
     \choralniRezim
 
