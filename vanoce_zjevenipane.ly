@@ -69,7 +69,7 @@
     Hvěz -- da zá -- ří
     ja -- ko o -- heň
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
-    Krá -- li všech krá -- lů;
+    Krá -- li všech krá -- lů:
     mu -- dr -- ci ji spa -- tři -- li
     a při -- nes -- li mu da -- ry.
   }
@@ -131,7 +131,7 @@
   \addlyrics {
     Když mu -- dr -- ci vi -- dě -- li hvěz -- du,
     řek -- li si me -- zi se -- bou:
-    To je zna -- me -- ní ve -- li -- ké -- ho krá -- le;
+    To je zna -- me -- ní ve -- li -- ké -- ho Krá -- le;
     pojď -- me,
     vy -- hle -- dej -- me ho
     a o -- bě -- tuj -- me mu da -- ry:
@@ -341,6 +341,9 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
     quid = "3. ant."
     modus = "I"
     differentia = "D"
@@ -404,20 +407,24 @@
     se za -- snou -- bi -- la cír -- kev
     s_ne -- bes -- kým že -- ni -- chem,
     pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
-    všech -- ny je -- jí vi -- ny,
+    všech -- ny je -- jí vi -- ny;
 
-    mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu,
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu
     a hos -- té se ra -- du -- jí
     z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Dnešního dne se zasnoubila církev s nebeským ženichem,
+    protože Kristus smyl v Jordáně její viny;
+    mudrci spěchají s dary na královskou svatbu
+    a hosté se radují z vody proměněné ve víno. Aleluja."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
-    placet = "melisma na _hosté_ se mi zdá nadbytečné; _ve víno_ půjde lépe"
+    placet = "melisma na _hosté_ se mi zdá nadbytečné; _ve víno_ půjde lépe; snese se změna z _nebeskou_ na oficiální _královskou_ s aktuální melodií?"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -436,7 +443,7 @@
   \addlyrics {
     Ta -- jem -- ství,
     kte -- ré by -- lo skry -- té od vě -- ků
-    a od po -- ko -- le -- ní
+    a od po -- ko -- le -- ní,
     by -- lo nám teď od -- ha -- le -- no.
   }
   \header {
@@ -488,6 +495,8 @@
     a -- by se má spá -- sa roz -- ší -- ři -- la až do kon -- čin ze -- mě.
   }
   \header {
+    textus_approbatus = "Hle, dám tě národům jako světlo,
+    aby se má spása rozšířila až do končin země."
     quid = "ant. odpoledne"
     modus = "I"
     differentia = "D"
@@ -556,7 +565,7 @@
   }
   \addlyrics {
     Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
-    při -- jdou, a bu -- dou se před te -- bou kla -- nět.
+    při -- jdou a bu -- dou se před te -- bou kla -- nět.
   }
   \header {
     quid = "3. ant."
