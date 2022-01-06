@@ -64,7 +64,7 @@ end
 
 # generates all necessary tasks to compile a booklet using Typographus
 def typographus(main, latex='pdflatex', biblatex=false, &blk)
-  outdir = 'vystup'
+  outdir = File.join 'vystup', File.basename(main).sub(/\.tytex$/, '')
   #typographus = "#{LYV_CMD} tex"
   typographus = File.join('..', 'nastroje', 'typographus.rb')
   
@@ -81,6 +81,8 @@ def typographus(main, latex='pdflatex', biblatex=false, &blk)
   end
 
   file final => [lytex, 'spolecne.tex'] do
+    FileUtils.mkdir_p outdir
+
     sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
 
     latex_commands = {
@@ -94,7 +96,7 @@ def typographus(main, latex='pdflatex', biblatex=false, &blk)
 
     if biblatex || blk then
       if biblatex
-        cp '../bibliografie_admc.bib', '.'
+        cp '../../bibliografie_admc.bib', '.'
         sh 'biber', no_ext(File.basename(tex))
       end
 

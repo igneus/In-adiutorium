@@ -6,7 +6,7 @@
 # Narozeni Pane
 
 narozeni_lytex = typographus('antifonar_narozenipane.tytex') do
-  sh '../skripty/bible_xindy.sh', 'zalmy.idx'
+  sh '../../skripty/bible_xindy.sh', 'zalmy.idx'
 end
 
 desc "Nativity of our Lord."
@@ -35,7 +35,7 @@ zalmy_triduum << genspojenyzalm(['zalm27i.zalm', 'zalm27ii.zalm'], 'zalm27.tex',
 zalmy_triduum << genspojenyzalm(['zalm76i.zalm', 'zalm76ii.zalm'], 'zalm76.tex', options_triduum+" --title-template '\\nadpisZalmu{Žalm 76}'", adresar_triduum)
 
 triduum_lytex = typographus('antifonar_triduum.tytex', 'pdflatex', true) do
-  sh '../skripty/bible_xindy.sh', 'zalmy.idx'
+  sh '../../skripty/bible_xindy.sh', 'zalmy.idx'
 end
 
 verse_tones = {

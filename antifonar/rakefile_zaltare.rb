@@ -106,11 +106,14 @@ end
 # process psalms in several threads to speed it up
 multitask :zalmy_zaltare_multitask => zalmyzaltare
 
-file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.yml.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do |t|
+vystup_zaltar = 'vystup/antifonar_zaltar'
+file "#{vystup_zaltar}/antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 'kantikum_zj19.tex', 'spolecne.tex', 'znacky.tex', adresar_zaltar+'svatecnizaltar_index.yml.index.tex', adresar_zaltar+'versiky.tex', :zalmy_zaltare_multitask] do |t|
   mainfile = t.prerequisites.first
   index_stylesheet = t.prerequisites[1]
 
-  latex_cmd = "pdflatex -shell-escape -output-directory=vystup #{mainfile}"
+  FileUtils.mkdir_p vystup_zaltar
+
+  latex_cmd = "pdflatex -shell-escape -output-directory=#{vystup_zaltar} #{mainfile}"
 
   2.times { sh latex_cmd }
 
@@ -122,14 +125,14 @@ file "antifonar_zaltar.pdf" => ['antifonar_zaltar.tex', 'indexstyle_bible.xdy', 
 
   # generate indices
   indices.each do |idx|
-    sh "skripty/bible_xindy.sh vystup/#{idx}.idx"
+    sh "skripty/bible_xindy.sh #{vystup_zaltar}/#{idx}.idx"
   end
 
   sh latex_cmd
 end
 
 desc "Psalter."
-task :zaltar => ["antifonar_zaltar.pdf"]
+task :zaltar => ["#{vystup_zaltar}/antifonar_zaltar.pdf"]
 
 # Zatimco 'brozurkovy ' kompletar je tisten jako sesitek (stranky A4 se
 # prehnou, poskladaji do sebe a uprostred sesiji), zaltar je velky a
