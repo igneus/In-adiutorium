@@ -588,7 +588,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f e) d \mark\sipka f( g) g a g( f) e \barMin
     f g e( d) d e( d) c c d d \barMaior
@@ -609,6 +609,39 @@ ale na diferenci žalmového nápěvu?}
     textus_approbatus = "Dnes se zjevil světu Syn Boží, narozený z Panny Marie;
     mudrci se mu klanějí a přinášejí mu dary;
     všichni se pokloňme tomu, který nás vykoupil."
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Pryč se svévolnou (jakkoli IMO hezkou) úpravou textu bez vážných důvodů:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g e( d) d e( d) c c d d \barMaior
+    a c d e d e( f) d d \barMin
+    c f e f d c c( d) d \barMaior
+    a' g a a( c b) a( g) f( e) \barMin
+    d d f e f d( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me
+    to -- mu, kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
     quid = "ant. ke kantikům vigilie"
     modus = "I"
     differentia = "D"

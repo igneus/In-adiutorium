@@ -254,13 +254,10 @@
     na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
     mu -- dr -- ci se mu kla -- ně -- jí
     a při -- ná -- še -- jí mu da -- ry;
-    i my se po -- kloň -- me
+    všich -- ni se po -- kloň -- me
     to -- mu, kte -- rý nás vy -- kou -- pil.
   }
   \header {
-    textus_approbatus = "Dnes se zjevil světu Syn Boží, narozený z Panny Marie;
-    mudrci se mu klanějí a přinášejí mu dary;
-    všichni se pokloňme tomu, který nás vykoupil."
     quid = "ant. ke kantikům vigilie"
     modus = "I"
     differentia = "D"
