@@ -122,14 +122,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d e( d) e( d) c e e d( e) d \barMax
+    d4 b d( e) d d \barMin
+    c b c( d) d \barMax
     a a a c b( g) \barMin
     a a a a( d) c b c b a g a a \barMaior
-    f g a a( c d) d( c) d \barMin c b g a( g) g \barMaior
-    f g g g \barFinalis
+    f g a a( c d) c( d) d \barMin c b g a( g) g \barMaior
+    f g a( g) g \barFinalis
   }
   \addlyrics {
-    V_Kris -- tu pře -- bý -- vá pl -- nost bož -- ství,
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
     stal se jed -- ním z_nás
     a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
     a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
@@ -140,7 +142,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "začátek zjednodušit"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
