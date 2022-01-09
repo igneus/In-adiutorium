@@ -16,8 +16,8 @@
   \licencniPoznamka
 }
 
-\newcommand{\preLilyPondExample}{ \begin{flushleft} }
-\newcommand{\postLilyPondExample}{ \end{flushleft} }
+\newcommand{\preLilyPondExample}{\begin{flushleft}}
+\newcommand{\postLilyPondExample}{\end{flushleft}}
 
 \newcommand{\responsoriumOdkaz}{\rubrika{Ostatní zpěvy jako v neděli, str. \pageref{responsorium}.}}
 
