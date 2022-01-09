@@ -137,9 +137,12 @@ module Typographus
         end
 
         if @setup[:doxology] == 'full' then
-          @psalmpreprocessor_setup[:append_text] = File.read(@setup.psalms_dir + '/doxologie.zalm')
+          @psalmpreprocessor_setup[:input][:append] =
+            "\n" + # blank line separating a strophe
+            File.read(@setup.psalms_dir + '/doxologie.zalm')
         elsif @setup[:doxology] then
-          @psalmpreprocessor_setup[:append_text] = "\\nopagebreak Sláva Otci."
+          @psalmpreprocessor_setup[:output][:final_add_content] =
+            {append: "\\nopagebreak Sláva Otci."}
         end
       end
 
@@ -330,11 +333,6 @@ module Typographus
         end
       else
         psalm_sources << psalmf
-      end
-
-      if @setup.doxology and
-          not @doxology_noappend.include?(File.basename(psalmf)) then
-        psalm_sources << doxology_path
       end
 
       point_text tone, psalm_sources, processed

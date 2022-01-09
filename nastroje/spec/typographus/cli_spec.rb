@@ -78,6 +78,19 @@ describe 'typographus.rb', type: :aruba do
           expect('typographus_tmp/file_tytex/zalm117_00000.tex')
             .to have_file_content file_content_including("ends here.\\psalmStrophe\n\nGloria")
         end
+
+        it 'shortcut' do
+          write_file 'file.tytex', '\setConfig{config.yml} \psalm{Žalm 117}{VIII.G}'
+          write_file 'config.yml', 'typographus: {doxology: shortcut}'
+
+          write_file 'zalm117.zalm', "Psalm title\n\nThe psalm *\nends here."
+
+          run_command_and_stop(cmd)
+
+          # shortcut added at the end of the psalm
+          expect('typographus_tmp/file_tytex/zalm117_00000.tex')
+            .to have_file_content file_content_including("ends here.\n\\nopagebreak Sláva Otci.\n\\end{psalmus}")
+        end
       end
     end
   end
