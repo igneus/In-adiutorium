@@ -24,7 +24,6 @@ text = \lyricmode {
   \tResp
   \Verse Ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky_*
   a na vě -- ky vě -- ků. A -- men.
-  \tResp
 }
 
 mRespI = \relative c' { \neviditelna f f4 f f( g) g \barMin g f g a a \barFinalis }
@@ -52,7 +51,6 @@ mRespI = \relative c' { \neviditelna f f4 f f( g) g \barMin g f g a a \barFinali
     \neviditelna a
     a4 a a a a a a a a bes a a g a \barMaior
     a a a a g f g( a) g( f) \barFinalis
-    \mRespI
   }
   \addlyrics { \text }
   \header {
@@ -88,7 +86,6 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
     \neviditelna a
     a4 a a a a a a a a bes a a g a \barMaior
     a a a a g f g a \barFinalis
-    \mRespIa
   }
   \addlyrics { \text }
   \header {
@@ -123,7 +120,6 @@ mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinal
     \neviditelna a
     a4 a a a a a a a a a a g a f \barMaior
     a a a a f g( a) g a \barFinalis
-    \mRespVI
   }
   \addlyrics { \text }
   \header {
@@ -158,7 +154,6 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
     \neviditelna c
     c4 c c c c c c c c c c c d c \barMaior
     c c c c a c d c \barFinalis
-    \mRespVIII
   }
   \addlyrics { \text }
   \header {
