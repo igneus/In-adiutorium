@@ -134,9 +134,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \lilypondfile{generovane/kompletar/zakladni_napevy_pokojnounoc.ly}
 
-\nadpisTypTextu{Závěrečné mariánské antifony}
-
-\rubrika{Latinské antifony a české písňové parafráze jsou v hymnáři.}
+\rubrika{Připojí se některá ze závěrečných mariánských antifon:}
 
 \lilypondfile{generovane/kompletar/marianske_antifony_alma.ly}
 
@@ -145,6 +143,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
 
 \lilypondfile{generovane/kompletar/marianske_antifony_avemaria.ly}
+
+\rubrika{(Viz také hymnář pro latinské antifony a české písňové parafráze.)}
 
 \newpage % ZLOM
 
