@@ -28,7 +28,7 @@ module Typographus
 
   class Typographus
 
-    @@default_setup = {
+    DEFAULT_SETUP = {
       :chant_basedir => '.',
       :psalms_dir => '.',
       :includes => [],
@@ -36,10 +36,10 @@ module Typographus
       :output_dir => 'vystup',
       :doxology => false,
       :remove_optional_alleluia => false
-    }
+    }.freeze
 
     def initialize(fpath)
-      @setup = OpenStruct.new @@default_setup
+      @setup = OpenStruct.new DEFAULT_SETUP
 
       @setup.generated_dir = File.join(@setup.generated_dir, File.basename(fpath).gsub('.', '_'))
 
@@ -169,7 +169,7 @@ module Typographus
 
       # setup macros (empty output)
 
-      l.gsub!(/\\setConfig\{(.*)\}/) do
+      l.gsub!(/\\setConfig\{(.*?)\}/) do
         load_config $1
         ''
       end
@@ -191,7 +191,7 @@ module Typographus
         ''
       end
 
-      l.gsub!(/\\setChantSource\{(.*)\}/) do
+      l.gsub!(/\\setChantSource\{(.*?)\}/) do
         @current_chant_source = $1
         split_music_file @current_chant_source
         ''
