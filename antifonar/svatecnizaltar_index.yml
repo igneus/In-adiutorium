@@ -1,5 +1,15 @@
-# Z tohoto souboru se generuje podstatna cast
-# zaltare pro svatky a slavnosti. (Skriptem listofpsalms.rb .),
+# Z tohoto souboru se skriptem listofpsalms.rb generuje
+# index vlastnich zalmu a kantik pro svatky (soucast zaltare).
+#
+# Struktura: triurovnovy YAML mapping
+# - klic 1. urovne - nadpis sekce
+# - klic 2. urovne - nadpis prilezitosti
+# - klic 3. urovne - hodinka (musi byt jeden ze standardnich retezcu)
+# - hodnota:
+#   -> retezec v kulatych zavorkach - rubrika
+#   -> retezec bez zavorek - skriptu znamy symbol specialniho vyznamu
+#   -> pole obsahujici cisla zalmu, sigla kantik a prip.
+#      rubriky (retezce v kulatych zavorkach)
 
 #######################################
 Doba adventní:
