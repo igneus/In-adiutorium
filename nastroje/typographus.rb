@@ -130,13 +130,11 @@ module Typographus
 
     def load_config(ymlf)
       conf = YAML.load(File.open(ymlf))
-      pp = ms = false
 
       if conf.include? 'typographus' then
         conf['typographus'].each_pair do |k,v|
           @setup[k.to_sym] = v
         end
-        pp = ms = true
 
         if @setup[:doxology] == 'full' then
           @psalmpreprocessor_setup[:append_text] = File.read(@setup.psalms_dir + '/doxologie.zalm')
@@ -149,18 +147,16 @@ module Typographus
         conf['psalmpreprocessor'].each_pair do |k,v|
           @psalmpreprocessor_setup[k.to_sym] = v.deep_symbolize_keys
         end
-        pp = true
       end
 
       if conf.include? 'splitscores' then
         conf['splitscores'].each_pair do |k,v|
           @musicsplitter_setup[k.to_sym] = v
         end
-        ms = true
       end
 
-      init_psalmpreprocessor if pp
-      init_musicsplitter if ms
+      init_psalmpreprocessor
+      init_musicsplitter
     end
 
     def expand_macros(l)
