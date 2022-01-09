@@ -142,7 +142,7 @@ module Typographus
             File.read(@setup.psalms_dir + '/doxologie.zalm')
         elsif @setup[:doxology] then
           @psalmpreprocessor_setup[:output][:final_add_content] =
-            {append: "\\nopagebreak Sláva Otci."}
+            {append: '\doxologieZkratka'}
         end
       end
 

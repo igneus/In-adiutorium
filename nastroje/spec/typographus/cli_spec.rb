@@ -89,7 +89,7 @@ describe 'typographus.rb', type: :aruba do
 
           # shortcut added at the end of the psalm
           expect('typographus_tmp/file_tytex/zalm117_00000.tex')
-            .to have_file_content file_content_including("ends here.\n\\nopagebreak Sláva Otci.\n\\end{psalmus}")
+            .to have_file_content file_content_including("ends here.\n\\doxologieZkratka\n\\end{psalmus}")
         end
       end
     end
