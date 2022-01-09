@@ -7,10 +7,6 @@
 \usepackage{lettrine} % inicialky
 \usepackage{fancyhdr} % hlavicky stranek
 
-% \usepackage{multind} % indexy
-% mock indexing command:
-\renewcommand{\index}[2]{}
-
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
