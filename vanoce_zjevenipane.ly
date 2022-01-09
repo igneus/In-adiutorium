@@ -93,7 +93,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna
-    f4 f f f f f f f f e g g a \barMax
+    f4 f f f f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -704,9 +704,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( a g) f( g) g \barMin a b c c c d c b a a \barMaior
-      c c b( g) a( g) f \barMin e f g g g( a) g \barMaior
-      a( c) a \barMin g f e f g g g a g g \barFinalis
+      c4 c( d c) c \barMin a g a c c d c b a a \barMaior
+      c b g( a) g g \barMin f g a a a( c) b \barMaior
+      c( d c) c \barMin b c a g a g f a g g \barFinalis
     }
     \addlyrics {
       Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu,
@@ -717,9 +717,8 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VIII"
-      differentia = "G"
+      differentia = "c"
       psalmus = ""
-      placet = "půjde vylepšit"
       id = "8-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -728,21 +727,24 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4( d) c \barMin d d d c b a b a g g \barMaior
-      g f g a a a( c b) c( d) d( c) c \barMin c b( a g) g
+      d4 b d( e) d d \barMin
+      c b a b a g g \barMaior
+      g f a c b c d c c \barMin
+      c b( a g) g
       f a g g \barFinalis
     }
     \addlyrics {
-      Kris -- te, zje -- vil ses ja -- ko Svět -- lo ze Svět -- la,
-      a mu -- dr -- ci ti při -- ná -- še -- jí své da -- ry.
+      Kris -- te, zje -- vil ses
+      ja -- ko Svět -- lo ze Svět -- la,
+      a mu -- dr -- ci ti při -- ná -- še -- jí
+      své da -- ry.
       A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
       modus = "VII"
-      differentia = "c"
+      differentia = "d"
       psalmus = ""
-      placet = "_mudrci ti_ snad lépe f g g g"
       id = "8-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
