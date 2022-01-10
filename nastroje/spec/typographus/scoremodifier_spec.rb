@@ -15,7 +15,8 @@ describe Typographus::ScoreModifier do
       ly = '\score{
              \relative c\' { a b c }
            }'
-      subject.layout(ly, 'indent = 0').should eq_regardlessof_whitespace '\score{
+      expect(subject.layout(ly, 'indent = 0'))
+        .to eq_regardlessof_whitespace '\score{
         \relative c\' { a b c }
         \layout { indent = 0 }
       }'
@@ -35,7 +36,7 @@ describe Typographus::ScoreModifier do
     chval -- te Pá -- na na -- vě -- ky.
   }
 }'
-      subject.remove_optional_alleluia(ly).should eq ly
+      expect(subject.remove_optional_alleluia(ly)).to eq ly
     end
 
     it 'does not remove alleluia that is not optional' do
@@ -54,7 +55,7 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      subject.remove_optional_alleluia(ly).should eq ly
+      expect(subject.remove_optional_alleluia(ly)).to eq ly
     end
 
     it 'removes optional alleluia' do
@@ -73,7 +74,8 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      expect(subject.remove_optional_alleluia(ly))
+        .to eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
@@ -96,7 +98,8 @@ describe Typographus::ScoreModifier do
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
 }'
-      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      expect(subject.remove_optional_alleluia(ly))
+        .to eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
@@ -121,7 +124,8 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      expect(subject.remove_optional_alleluia(ly))
+        .to eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
