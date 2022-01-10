@@ -15,7 +15,7 @@ module Typographus
             c.proc.call(
               if c.has_args?
                 1.upto(c.args)
-                  .collect {|i| Regexp.last_match[i] }
+                  .collect {|i| Regexp.last_match[i * 2] }
                   .yield_self {|a| a.size == 1 ? a[0] : a }
               else
                 nil
@@ -29,7 +29,11 @@ module Typographus
 
     # define a new command
     def command(name, args: nil, &blk)
-      @commands << Command.new(command_regexp(name, args: args), blk, args)
+      @commands << Command.new(
+        command_regexp(name, args: args),
+        blk,
+        args.is_a?(Range) ? args.max : args
+      )
     end
 
     protected
@@ -46,7 +50,9 @@ module Typographus
         when nil
           ''
         when Integer
-          '\{(.*?)\}' * args
+          '(\{(.*?)\})' * args
+        when Range
+          '(\{(.*?)\})' * args.min + '(\{(.*?)\})?' * args.max
         else
           raise 'unexpected value'
         end

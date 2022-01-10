@@ -196,6 +196,31 @@ module Typographus
       c.command('psalmTone', args: 1) do |tone|
         prepare_psalm_tone(tone) + "\n\n"
       end
+
+      c.command('psalm', args: 1..2) do |psalm, psalm_tone|
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody { prepare_psalm(psalm, psalm_tone) }
+        r
+      end
+
+      # TODO: very similar to the previous command
+      c.command('pointedText', args: 1..2) do |psalm, psalm_tone|
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody { prepare_pointed_text(psalm, psalm_tone) }
+        r
+      end
     end
 
     def load_config(ymlf)
@@ -236,32 +261,6 @@ module Typographus
       l = @command_expander.call l
 
       # expanded macro
-
-      l.gsub!(/\\psalm(\[.*?\])?\{([^\}]*)\}(\{([^\}]*)\})*/) do
-        psalm_tone = $4
-        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
-        @last_psalm_tone = psalm_tone
-
-        r = ''
-        if @setup[:psalm_tones] then
-          r += prepare_psalm_tone(psalm_tone) + "\n\n"
-        end
-        r += wrap_psalmody { prepare_psalm($2, psalm_tone) }
-        r
-      end
-
-      l.gsub!(/\\pointedText\{(.+?)\}(\{(.+?)\})?/) do
-        psalm_tone = $3
-        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
-        @last_psalm_tone = psalm_tone
-
-        r = ''
-        if @setup[:psalm_tones] then
-          r += prepare_psalm_tone(psalm_tone) + "\n\n"
-        end
-        r += wrap_psalmody { prepare_pointed_text($1, psalm_tone) }
-        r
-      end
 
       # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
       l.gsub!(/\\psalmGroup(\{.*\})/) do

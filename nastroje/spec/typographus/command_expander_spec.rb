@@ -59,4 +59,22 @@ describe Typographus::CommandExpander do
       expect(subject.call(input)).to eq 'Hello, Kitty the cat!'
     end
   end
+
+  describe 'command with variable amount of arguments' do
+    let(:subject) do
+      described_class.new do
+        command('hello', args: 1..2) {|a, b| "Hello, #{a}" + (b.nil? ? '' : " the #{b}") + "!" }
+      end
+    end
+
+    it 'expands the command with one argument' do
+      input = '\hello{Kitty}'
+      expect(subject.call(input)).to eq 'Hello, Kitty!'
+    end
+
+    it 'expands the command with two arguments' do
+      input = '\hello{Kitty}{cat}'
+      expect(subject.call(input)).to eq 'Hello, Kitty the cat!'
+    end
+  end
 end
