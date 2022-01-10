@@ -13,6 +13,7 @@ require_relative 'fial.rb'
 require_relative 'splitscores.rb'
 require_relative 'lib/typographus/scoremodifier.rb'
 require_relative 'lib/typographus/suffix_generator.rb'
+require_relative 'lib/typographus/command_expander.rb'
 
 require 'pslm'
 
@@ -86,6 +87,7 @@ module Typographus
 
       init_psalmpreprocessor
       init_musicsplitter
+      init_command_expander
       make_dirs
 
       process_tytex fpath
@@ -126,6 +128,76 @@ module Typographus
       @splitter = MusicSplitter.new(@musicsplitter_setup)
     end
 
+    def init_command_expander
+      c = @command_expander = CommandExpander.new
+
+      c.command('setConfig', args: 1) do |path|
+        load_config path
+        ''
+      end
+
+      c.command('setChantBasedir', args: 1) do |path|
+        @setup.chant_basedir = path
+        init_musicsplitter # reinitialization needed
+        ''
+      end
+
+      c.command('setPsalmsDir', args: 1) do |path|
+        @setup.psalms_dir = path
+        ''
+      end
+
+      c.command('setTmpDir', args: 1) do |path|
+        @setup.generated_dir = path
+        make_dirs
+        ''
+      end
+
+      c.command('setChantSource', args: 1) do |path|
+        @current_chant_source = path
+        split_music_file @current_chant_source
+        ''
+      end
+
+      c.command('setIncludes', args: 1) do |paths|
+        unless @split_music_files.empty?
+          STDERR.puts "Warning: setting common includes when some music files " +
+            "(#{@split_music_files.keys.join(', ')}) are already processed."
+        end
+        incs = paths.split(',').collect(&:strip)
+        @setup.includes += incs
+        init_musicsplitter # reinitialization needed
+        ''
+      end
+
+      %w[simpleScore antiphon responsory].each do |name|
+        c.command(name, args: 1) do |ref|
+          prepare_generic_score(ref) + "\n\n"
+        end
+      end
+
+      c.command('antiphonWithPsalm', args: 1) do |ref|
+        r = prepare_generic_score(ref) + "\n\n"
+        if @setup[:psalm_tones]
+          r += prepare_psalm_tone_f(ref) + "\n\n"
+        end
+        r += wrap_psalmody { prepare_psalm_f(ref) }
+        r
+      end
+
+      c.command('antiphonWithPsalmTone', args: 1) do |ref|
+        r = prepare_generic_score(ref) + "\n\n"
+        if @setup[:psalm_tones]
+          r += prepare_psalm_tone_f(ref) + "\n\n"
+        end
+        r
+      end
+
+      c.command('psalmTone', args: 1) do |tone|
+        prepare_psalm_tone(tone) + "\n\n"
+      end
+    end
+
     def load_config(ymlf)
       conf = YAML.load(File.open(ymlf))
 
@@ -161,88 +233,9 @@ module Typographus
     end
 
     def expand_macros(l)
+      l = @command_expander.call l
 
-      # test macro
-
-      l.gsub!(/\\printHi/) do
-        '% Hi hey hello, Typographus seems to work!'
-      end
-
-      # setup macros (empty output)
-
-      l.gsub!(/\\setConfig\{(.*?)\}/) do
-        load_config $1
-        ''
-      end
-
-      l.gsub!(/\\setChantBasedir\{(.*)\}/) do
-        @setup.chant_basedir = $1
-        init_musicsplitter # reinitialization needed
-        ''
-      end
-
-      l.gsub!(/\\setPsalmsDir\{(.*)\}/) do
-        @setup.psalms_dir = $1
-        ''
-      end
-
-      l.gsub!(/\\setTmpDir\{(.*)\}/) do
-        @setup.generated_dir = $1
-        make_dirs
-        ''
-      end
-
-      l.gsub!(/\\setChantSource\{(.*?)\}/) do
-        @current_chant_source = $1
-        split_music_file @current_chant_source
-        ''
-      end
-
-      l.gsub!(/\\setIncludes\{(.*)\}/) do
-        unless @split_music_files.empty?
-          STDERR.puts "Warning: setting common includes when some music files " +
-            "(#{@split_music_files.keys.join(', ')}) are already processed."
-        end
-        incs = $1.split(',').collect {|s| s.strip}
-        @setup.includes += incs
-        init_musicsplitter # reinitialization needed
-        ''
-      end
-
-      # expanded macros
-
-      l.gsub!(/\\simpleScore\{(.*)\}/) do
-        prepare_generic_score($1) + "\n\n"
-      end
-
-      l.gsub!(/\\responsory\{(.*)\}/) do
-        prepare_generic_score($1) + "\n\n"
-      end
-
-      l.gsub!(/\\antiphon\{(.*)\}/) do
-        prepare_generic_score($1) + "\n\n"
-      end
-
-      l.gsub!(/\\antiphonWithPsalm\{(.*)\}/) do
-        r = prepare_generic_score($1) + "\n\n"
-        if @setup[:psalm_tones] then
-          r += prepare_psalm_tone_f($1) + "\n\n"
-        end
-        r += wrap_psalmody { prepare_psalm_f($1) }
-        r
-      end
-
-      l.gsub!(/\\antiphonWithPsalmTone\{(.*)\}/) do
-        r = prepare_generic_score($1) + "\n\n"
-        if @setup[:psalm_tones] then
-          r += prepare_psalm_tone_f($1) + "\n\n"
-        end
-        r
-      end
-
-      l.gsub!(/\\psalmTone\{(.*)\}/) do
-        prepare_psalm_tone($1) + "\n\n"
-      end
+      # expanded macro
 
       l.gsub!(/\\psalm(\[.*?\])?\{([^\}]*)\}(\{([^\}]*)\})*/) do
         psalm_tone = $4
