@@ -39,19 +39,33 @@ describe PageRefOptimal do
   end
 
   describe 'more complex cases' do
-    describe 'first combination found is not the optimal one' do
+    # this is just a description of an edge case which is not really relevant
+    # for the real life use
+    describe 'in case of two equal paths the first one found wins (even if it\'s backwards)' do
       before :each do
-        @data = '\label{a:1}
-\label{c:1}
-\label{c:2}
+        @data = '
 \label{b:1}
-\label{a:2}
+\label{a:1}
 \label{b:2}'
         collect_labels @data, @optimizer
       end
 
       describe '#shortest' do
-        it { @optimizer.shortest('a', 'b').should eq [2, 2] }
+        it { @optimizer.shortest('a', 'b').should eq [1, 1] }
+      end
+    end
+
+    describe 'first combination found is not the optimal one' do
+      before :each do
+        @data = '\label{a:1}
+\label{c:1}
+\label{b:1}
+\label{a:2}'
+        collect_labels @data, @optimizer
+      end
+
+      describe '#shortest' do
+        it { @optimizer.shortest('a', 'b').should eq [2, 1] }
       end
     end
 
