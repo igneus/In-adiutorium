@@ -10,17 +10,12 @@ RSpec::Matchers.define :eq_regardlessof_whitespace do |expected|
 end
 
 describe Typographus::ScoreModifier do
-
-  before :each do
-    @sm = Typographus::ScoreModifier
-  end
-
   describe '#layout' do
     it 'adds layout to a score which does not have one' do
       ly = '\score{
              \relative c\' { a b c }
            }'
-      @sm.layout(ly, 'indent = 0').should eq_regardlessof_whitespace '\score{
+      subject.layout(ly, 'indent = 0').should eq_regardlessof_whitespace '\score{
         \relative c\' { a b c }
         \layout { indent = 0 }
       }'
@@ -40,7 +35,7 @@ describe Typographus::ScoreModifier do
     chval -- te Pá -- na na -- vě -- ky.
   }
 }'
-      @sm.remove_optional_alleluia(ly).should eq ly
+      subject.remove_optional_alleluia(ly).should eq ly
     end
 
     it 'does not remove alleluia that is not optional' do
@@ -59,7 +54,7 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      @sm.remove_optional_alleluia(ly).should eq ly
+      subject.remove_optional_alleluia(ly).should eq ly
     end
 
     it 'removes optional alleluia' do
@@ -78,7 +73,7 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      @sm.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
@@ -101,7 +96,7 @@ describe Typographus::ScoreModifier do
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
 }'
-      @sm.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
@@ -126,7 +121,7 @@ describe Typographus::ScoreModifier do
     A -- le -- lu -- ja.
   }
 }'
-      @sm.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
+      subject.remove_optional_alleluia(ly).should eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
