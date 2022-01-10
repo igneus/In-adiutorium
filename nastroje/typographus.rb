@@ -221,6 +221,25 @@ module Typographus
         r += wrap_psalmody { prepare_pointed_text(psalm, psalm_tone) }
         r
       end
+
+      # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
+      c.command('psalmGroup', args: :any) do |args|
+        psalm_tone = nil
+        psalm_tone = args.pop if args.last.include? '.' # weak condition!
+        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
+        @last_psalm_tone = psalm_tone
+
+        psalms = args
+
+        r = ''
+        if @setup[:psalm_tones] then
+          r += prepare_psalm_tone(psalm_tone) + "\n\n"
+        end
+        r += wrap_psalmody do
+          psalms.collect {|p| prepare_psalm(p, psalm_tone) }.join("\n")
+        end
+        r
+      end
     end
 
     def load_config(ymlf)
@@ -258,34 +277,7 @@ module Typographus
     end
 
     def expand_macros(l)
-      l = @command_expander.call l
-
-      # expanded macro
-
-      # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
-      l.gsub!(/\\psalmGroup(\{.*\})/) do
-        args = $1.split(/[\}\{]+/)
-        args.delete ""
-        p args
-
-        psalm_tone = nil
-        psalm_tone = args.pop if args.last.include? '.' # weak condition!
-        psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
-        @last_psalm_tone = psalm_tone
-
-        psalms = args
-
-        r = ''
-        if @setup[:psalm_tones] then
-          r += prepare_psalm_tone(psalm_tone) + "\n\n"
-        end
-        r += wrap_psalmody do
-          psalms.collect {|p| prepare_psalm(p, psalm_tone) }.join("\n")
-        end
-        r
-      end
-
-      return l
+      @command_expander.call l
     end
 
     def prepare_generic_score(fial)

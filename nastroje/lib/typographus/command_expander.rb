@@ -12,15 +12,18 @@ module Typographus
         .collect do |l|
         @commands.each do |c|
           l.gsub!(c.regexp) do
-            c.proc.call(
-              if c.has_args?
+            args =
+              if c.has_variable_args?
+                Regexp.last_match[1].split('}{')
+              elsif c.has_args?
                 1.upto(c.args)
                   .collect {|i| Regexp.last_match[i * 2] }
                   .yield_self {|a| a.size == 1 ? a[0] : a }
               else
                 nil
               end
-            )
+
+            c.proc.call(args)
           end
         end
         l
@@ -42,6 +45,10 @@ module Typographus
       def has_args?
         !args.nil?
       end
+
+      def has_variable_args?
+        args == :any
+      end
     end
 
     def command_regexp(name, args:)
@@ -53,6 +60,8 @@ module Typographus
           '(\{(.*?)\})' * args
         when Range
           '(\{(.*?)\})' * args.min + '(\{(.*?)\})?' * args.max
+        when :any
+          '\{(.*)\}'
         else
           raise 'unexpected value'
         end
