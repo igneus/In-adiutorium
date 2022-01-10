@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require_relative '../lib/typographus/scoremodifier.rb'
+require_relative '../../lib/typographus/scoremodifier.rb'
 
 require 'rspec/expectations'
 
