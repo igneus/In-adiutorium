@@ -181,7 +181,7 @@ module Typographus
         if @setup[:psalm_tones]
           r += prepare_psalm_tone_f(ref) + "\n\n"
         end
-        r += wrap_psalmody { prepare_psalm_f(ref, custom_psalmpreprocessor(opts)) }
+        r += wrap_psalmody { prepare_psalm_for_fial(ref, custom_psalmpreprocessor(opts)) }
         r
       end
 
@@ -351,7 +351,7 @@ module Typographus
 
     # prepares psalm according to the header information of a score
     # identified by it's FIAL
-    def prepare_psalm_f(fial, preprocessor = nil)
+    def prepare_psalm_for_fial(fial, preprocessor = nil)
       src, id = decode_fial fial
 
       if @split_music_files[src][id].nil? then
