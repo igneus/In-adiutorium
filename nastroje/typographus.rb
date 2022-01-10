@@ -225,7 +225,7 @@ module Typographus
       # \psalmGroup{Žalm 1}...{Žalm n}{VIII.G} (tone optional)
       c.command('psalmGroup', args: :any) do |args|
         psalm_tone = nil
-        psalm_tone = args.pop if args.last.include? '.' # weak condition!
+        psalm_tone = args.pop if is_psalm_tone_name? args.last
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
         @last_psalm_tone = psalm_tone
 
@@ -529,6 +529,9 @@ module Typographus
       score.header['quid'] and score.header['quid'].downcase.include? 'resp'
     end
 
+    def is_psalm_tone_name?(str)
+      str =~ /^(per|[IV]+.*\.)/
+    end
   end
 end
 
