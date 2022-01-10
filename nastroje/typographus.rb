@@ -176,12 +176,12 @@ module Typographus
         end
       end
 
-      c.command('antiphonWithPsalm', args: 1) do |ref|
+      c.command('antiphonWithPsalm', args: 1, opts: true) do |ref, opts|
         r = prepare_generic_score(ref) + "\n\n"
         if @setup[:psalm_tones]
           r += prepare_psalm_tone_f(ref) + "\n\n"
         end
-        r += wrap_psalmody { prepare_psalm_f(ref) }
+        r += wrap_psalmody { prepare_psalm_f(ref, custom_psalmpreprocessor(opts)) }
         r
       end
 
@@ -197,7 +197,7 @@ module Typographus
         prepare_psalm_tone(tone) + "\n\n"
       end
 
-      c.command('psalm', args: 1..2) do |psalm, psalm_tone|
+      c.command('psalm', args: 1..2, opts: true) do |psalm, psalm_tone, opts|
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
         @last_psalm_tone = psalm_tone
 
@@ -205,7 +205,8 @@ module Typographus
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
-        r += wrap_psalmody { prepare_psalm(psalm, psalm_tone) }
+
+        r += wrap_psalmody { prepare_psalm(psalm, psalm_tone, custom_psalmpreprocessor(opts)) }
         r
       end
 
@@ -250,14 +251,8 @@ module Typographus
           @setup[k.to_sym] = v
         end
 
-        if @setup[:doxology] == 'full' then
-          @psalmpreprocessor_setup[:input][:append] =
-            "\n" + # blank line separating a strophe
-            File.read(@setup.psalms_dir + '/doxologie.zalm')
-        elsif @setup[:doxology] then
-          @psalmpreprocessor_setup[:output][:final_add_content] =
-            {append: '\doxologieZkratka'}
-        end
+        psalmpreprocessor_options = @setup.to_h.slice :doxology
+        @psalmpreprocessor_setup.update transform_psalmpreprocessor_options psalmpreprocessor_options
       end
 
       if conf.include? 'psalmpreprocessor' then
@@ -276,6 +271,36 @@ module Typographus
       init_musicsplitter
     end
 
+    def transform_psalmpreprocessor_options(options)
+      r = {}
+
+      if options[:doxology] == 'full'
+        r[:input] = {
+          append: "\n" + # blank line separating a strophe
+            File.read(@setup.psalms_dir + '/doxologie.zalm')
+        }
+        r[:output] = {final_add_content: {append: ''}}
+      elsif options[:doxology] then
+        r[:output] = {final_add_content: {append: '\doxologieZkratka'}}
+      end
+
+      r
+    end
+
+    def custom_psalmpreprocessor(command_options)
+      preprocessor = nil
+      preprocessor_opts = command_options.slice :doxology, :append
+      unless preprocessor_opts.empty?
+        preprocessor_setup =
+          transform_psalmpreprocessor_options(preprocessor_opts)
+            .yield_self {|transformed| @psalmpreprocessor_setup.dup.update transformed }
+
+        preprocessor = Pslm::PsalmPointer.new preprocessor_setup
+      end
+
+      preprocessor
+    end
+
     def prepare_generic_score(fial)
       src, id = decode_fial fial
 
@@ -290,7 +315,7 @@ module Typographus
       return "\\lilypondfile{#{score_path}}"
     end
 
-    def prepare_psalm(psalm_name, tone)
+    def prepare_psalm(psalm_name, tone, preprocessor = nil)
       psalmf = psalm_fname(psalm_name)
       processed = pointed_text_path psalmf
 
@@ -313,14 +338,14 @@ module Typographus
         psalm_sources << psalmf
       end
 
-      point_text tone, psalm_sources, processed
+      point_text tone, psalm_sources, processed, preprocessor
       `vlna #{processed}`
       return "\\input{#{processed}}"
     end
 
     # prepares psalm according to the header information of a score
     # identified by it's FIAL
-    def prepare_psalm_f(fial)
+    def prepare_psalm_f(fial, preprocessor = nil)
       src, id = decode_fial fial
 
       if @split_music_files[src][id].nil? then
@@ -345,15 +370,15 @@ module Typographus
         tone = ''
       end
 
-      return prepare_psalm psalm, tone
+      return prepare_psalm psalm, tone, preprocessor
     end
 
-    def prepare_pointed_text(file_name, tone)
+    def prepare_pointed_text(file_name, tone, preprocessor = nil)
       processed = pointed_text_path file_name
 
       psalm_sources = [file_name]
 
-      point_text tone, psalm_sources, processed
+      point_text tone, psalm_sources, processed, preprocessor
       `vlna #{processed}`
       return "\\input{#{processed}}"
     end
@@ -367,10 +392,11 @@ module Typographus
     end
 
     # Points a text for the specified psalm tone.
-    def point_text(tone, source_files, result_path)
+    def point_text(tone, source_files, result_path, preprocessor = nil)
       opts = {output: {pointing: {tone: tone}}}
 
-      @psalmpreprocessor.process(source_files, result_path, opts) do |ps|
+      (preprocessor || @psalmpreprocessor)
+        .process(source_files, result_path, opts) do |ps|
         if source_files.size > 2 then # psalm composed from parts
           # part title to title of the whole psalm; only works for psalms
           ps.header.title.gsub!(/^\s*([^\s]+\s+[\d\w]+).*$/) { $1 }

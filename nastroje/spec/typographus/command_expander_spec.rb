@@ -95,4 +95,22 @@ describe Typographus::CommandExpander do
       expect(subject.call(input)).to eq 'Hello, Kitty, Stan, Joe!'
     end
   end
+
+  describe 'command with options' do
+    let(:subject) do
+      described_class.new do
+        command('hello', args: 1, opts: true) {|arg, opts| "Hello, #{opts[:adjective]} #{arg}!" }
+      end
+    end
+
+    it 'expands the command with one argument (only)' do
+      input = '\hello{Kitty}'
+      expect(subject.call(input)).to eq 'Hello,  Kitty!'
+    end
+
+    it 'expands the command with argument and options' do
+      input = '\hello[adjective=pretty]{Kitty}'
+      expect(subject.call(input)).to eq 'Hello, pretty Kitty!'
+    end
+  end
 end

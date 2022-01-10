@@ -12,16 +12,24 @@ module Typographus
         .collect do |l|
         @commands.each do |c|
           l.gsub!(c.regexp) do
+            match = Regexp.last_match
+
             args =
               if c.has_variable_args?
-                Regexp.last_match[1].split('}{')
+                match[1].split('}{')
               elsif c.has_args?
                 1.upto(c.args)
-                  .collect {|i| Regexp.last_match[i * 2] }
+                  .collect {|i| Regexp.last_match[(c.opts ? 2 : 0) + i * 2] }
                   .yield_self {|a| a.size == 1 ? a[0] : a }
               else
                 nil
               end
+
+            if c.opts
+              args = [] if args.nil?
+              args = [args] unless args.is_a? Array
+              args << parse_options(match[2])
+            end
 
             c.proc.call(args)
           end
@@ -31,17 +39,18 @@ module Typographus
     end
 
     # define a new command
-    def command(name, args: nil, &blk)
+    def command(name, args: nil, opts: false, &blk)
       @commands << Command.new(
-        command_regexp(name, args: args),
+        command_regexp(name, args: args, opts: opts),
         blk,
-        args.is_a?(Range) ? args.max : args
+        args.is_a?(Range) ? args.max : args,
+        opts
       )
     end
 
     protected
 
-    Command = Struct.new(:regexp, :proc, :args) do
+    Command = Struct.new(:regexp, :proc, :args, :opts) do
       def has_args?
         !args.nil?
       end
@@ -51,7 +60,12 @@ module Typographus
       end
     end
 
-    def command_regexp(name, args:)
+    def command_regexp(name, args:, opts:)
+      opts_regexp =
+        if opts
+          '(\[(.*?)\])?'
+        end
+
       args_regexp =
         case args
         when nil
@@ -66,7 +80,17 @@ module Typographus
           raise 'unexpected value'
         end
 
-      /\\#{name}#{args_regexp}/
+      /\\#{name}#{opts_regexp}#{args_regexp}/
+    end
+
+    def parse_options(opts_str)
+      (opts_str || '')
+        .split(/,\s*/)
+        .inject({}) do |memo, i|
+        name, value = i.split(/\s*=\s*/, 2)
+        memo[name.to_sym] = value
+        memo
+      end
     end
   end
 end
