@@ -284,6 +284,12 @@ module Typographus
         r[:output] = {final_add_content: {append: '\doxologieZkratka'}}
       end
 
+      if options[:append]
+        r[:output] ||= {}
+        # this can overwrite the doxology shortcut, see above!
+        r[:output][:final_add_content] = {append: options[:append]}
+      end
+
       r
     end
 
