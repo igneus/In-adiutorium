@@ -84,8 +84,6 @@ module Typographus
 
       @split_music_files = {}
 
-      @doxology_noappend = ['kantikum_dan3iii.zalm', 'kantikum_zj19.zalm']
-
       init_psalmpreprocessor
       init_musicsplitter
       make_dirs
@@ -246,8 +244,8 @@ module Typographus
         prepare_psalm_tone($1) + "\n\n"
       end
 
-      l.gsub!(/\\psalm\{([^\}]*)\}(\{([^\}]*)\})*/) do
-        psalm_tone = $3
+      l.gsub!(/\\psalm(\[.*?\])?\{([^\}]*)\}(\{([^\}]*)\})*/) do
+        psalm_tone = $4
         psalm_tone = @last_psalm_tone if psalm_tone == '' or psalm_tone == nil
         @last_psalm_tone = psalm_tone
 
@@ -255,7 +253,7 @@ module Typographus
         if @setup[:psalm_tones] then
           r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
-        r += wrap_psalmody { prepare_psalm($1, psalm_tone) }
+        r += wrap_psalmody { prepare_psalm($2, psalm_tone) }
         r
       end
 
