@@ -276,10 +276,6 @@ module Typographus
       init_musicsplitter
     end
 
-    def expand_macros(l)
-      @command_expander.call l
-    end
-
     def prepare_generic_score(fial)
       src, id = decode_fial fial
 
@@ -510,7 +506,7 @@ module Typographus
           f.each_line do |l|
             li += 1
             begin
-              out.print expand_macros(l)
+              out.print @command_expander.call(l)
             rescue => ex
               STDERR.puts "tytex: #{fpath}:#{li}: #{ex.message} (#{ex.class})"
               raise
