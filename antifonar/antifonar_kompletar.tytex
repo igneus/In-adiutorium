@@ -10,6 +10,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 
+\input{spolecne.tex}
+\input{rubriky.tex}
+
 \newcommand{\autor}{Jakub Pavlík}
 \newcommand{\nazev}{Kompletář}
 \newcommand{\textDoTiraze}{
@@ -26,10 +29,19 @@
 \newcommand{\velikAntifonaObaZalmy}{%
   \rubrika{V době velikonoční se oba žalmy zpívají pod antifonou \upshape{Aleluja}, str. \pageref{velikant}.}}
 
+\newenvironment{psalmodia}{\begin{multicols}{2}}{\end{multicols}}
+\renewenvironment{psalmus}{}{}
+
+% Typographus
+\setChantBasedir{..}
+\setPsalmsDir{zalmy}
+\setTmpDir{generovane/kompletar_dev}
+\setConfig{setup_antifonar_kompletar.yml}
+\setIncludes{spolecne_antifonar.ly, ../dilyresponsorii.ly}
+\setChantSource{kompletar.ly}
+
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\input{spolecne.tex}
 
 % Nastaveni sazby do sloupcu:
 \setlength{\columnseprule}{1pt} % cara oddelujici sloupce
@@ -47,7 +59,7 @@
 
 \nadpisTypTextu{Úvodní verš}
 
-\lilypondfile{generovane/kompletar/zakladni_napevy_zacatek-bezny.ly}
+\simpleScore{zakladni_napevy.ly#zacatek-bezny}
 
 \phantomsection%
 \label{velikant}
@@ -60,7 +72,7 @@ antifonou:}
 \mbox{}\hfill%
 {\footnotesize {\it Liber usualis}, New York-Tournai 1961, s. 266.}
 
-\lilypondfile{generovane/kompletar/kompletar_pasch.ly}
+\simpleScore{#pasch}
 
 \rubrika{Mimo dobu velikonoční se každý žalm zpívá s vlastní antifonou,
 která je u něj uvedena.}
@@ -73,11 +85,9 @@ která je u něj uvedena.}
 
 \velikAntifonaObaZalmy
 
-\lilypondfile{generovane/kompletar/kompletar_nei1.ly}
-\input{generovane/kompletar/zalm4.tex}
+\antiphonWithPsalm[doxology=full,append=\vspace{1mm}\rubrikaPrvniDoxologie]{#nei1}
 
-\lilypondfile{generovane/kompletar/kompletar_nei2.ly}
-\input{generovane/kompletar/zalm134.tex}
+\antiphonWithPsalm{#nei2}
 
 \newpage % ZLOM
 
@@ -90,11 +100,11 @@ která je u něj uvedena.}
 se vezme jen část I, na Velký pátek části I a II,
 na Bílou sobotu pak se antifona zpívá celá.}
 
-\lilypondfile{generovane/kompletar/pust_triduum_resp-casti.ly}
+\simpleScore{pust_triduum.ly#resp-casti}
 
 \rubrika{2. ve Velikonočním oktávu.}
 
-\lilypondfile{generovane/kompletar/velikonoce_velikonocnioktav_resp.ly}
+\simpleScore{velikonoce_velikonocnioktav.ly#resp}
 
 \newpage % ZLOM
 
@@ -104,52 +114,53 @@ na Bílou sobotu pak se antifona zpívá celá.}
 
 \rubrika{V době adventní:}
 
-\lilypondfile{generovane/kompletar/kompletar_resp-adv.ly}
+\simpleScore{#resp-adv}
 
 \rubrika{Ve Velikonočním triduu a Velikonočním oktávu se místo
 responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \rubrika{V době velikonoční:}
 
-\lilypondfile{generovane/kompletar/kompletar_paschresp.ly}
+\simpleScore{#paschresp}
 
 \newpage % ZLOM
 
 \rubrika{V ostatních liturgických dobách:}
 
-\lilypondfile{generovane/kompletar/kompletar_resp.ly}
+\simpleScore{#resp}
 
 \nadpisTypTextu{Simeonovo kantikum}
 
-\lilypondfile{generovane/kompletar/kompletar_sim.ly}
-\input{generovane/kompletar/kantikum_nuncdimittis.tex}
+\antiphonWithPsalm[doxology=full]{#sim}
 
 \newpage % ZLOM
 
 \nadpisTypTextu{Zakončení}
 
-\lilypondfile{generovane/kompletar/zakladni_napevy_pokojnounoc.ly}
+\simpleScore{zakladni_napevy.ly#pokojnounoc}
 
 \rubrika{Připojí se některá ze závěrečných mariánských antifon:}
 
-\lilypondfile{generovane/kompletar/marianske_antifony_alma.ly}
+\setChantSource{marianske_antifony.ly}
+\simpleScore{#alma}
 
-\lilypondfile{generovane/kompletar/marianske_antifony_salve.ly}
+\simpleScore{#salve}
 
-\lilypondfile{generovane/kompletar/marianske_antifony_subtuum.ly}
+\simpleScore{#subtuum}
 
-\lilypondfile{generovane/kompletar/marianske_antifony_avemaria.ly}
+\simpleScore{#avemaria}
 
 \rubrika{(Viz také hymnář pro latinské antifony a české písňové parafráze.)}
 
 \newpage % ZLOM
 
+\setChantSource{kompletar.ly}
+
 \nadpisDen{Neděle po 2. nešporách}
 
 \velikAntifona
 
-\lilypondfile{generovane/kompletar/kompletar_neii.ly}
-\input{generovane/kompletar/zalm91.tex}
+\antiphonWithPsalm{#neii}
 
 \responsoriumOdkaz
 
@@ -158,8 +169,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \velikAntifona
 
-\lilypondfile{generovane/kompletar/kompletar_po.ly}
-\input{generovane/kompletar/zalm86.tex}
+\antiphonWithPsalm{#po}
 
 \responsoriumOdkaz
 
@@ -169,8 +179,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \velikAntifona
 
-\lilypondfile{generovane/kompletar/kompletar_ut.ly}
-\input{generovane/kompletar/zalm143.tex}
+\antiphonWithPsalm{#ut}
 
 \responsoriumOdkaz
 
@@ -180,11 +189,9 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \velikAntifonaObaZalmy
 
-\lilypondfile{generovane/kompletar/kompletar_st1.ly}
-\input{generovane/kompletar/zalm31.tex}
+\antiphonWithPsalm{#st1}
 
-\lilypondfile{generovane/kompletar/kompletar_st2.ly}
-\input{generovane/kompletar/zalm130.tex}
+\antiphonWithPsalm{#st2}
 
 \responsoriumOdkaz
 
@@ -194,8 +201,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \velikAntifona
 
-\lilypondfile{generovane/kompletar/kompletar_ct.ly}
-\input{generovane/kompletar/zalm16.tex}
+\antiphonWithPsalm{#ct}
 
 \responsoriumOdkaz
 
@@ -205,8 +211,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \velikAntifona
 
-\lilypondfile{generovane/kompletar/kompletar_pa.ly}
-\input{generovane/kompletar/zalm88.tex}
+\antiphonWithPsalm{#pa}
 
 \responsoriumOdkaz
 
