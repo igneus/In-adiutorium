@@ -12,6 +12,7 @@
 require_relative 'fial.rb'
 require_relative 'splitscores.rb'
 require_relative 'lib/typographus/scoremodifier.rb'
+require_relative 'lib/typographus/suffix_generator.rb'
 
 require 'pslm'
 
@@ -66,8 +67,7 @@ module Typographus
                                         }
                                       })
 
-      @psalm_counter = 0
-      @psalm_suffix_size = 5
+      @psalm_unique_suffix = SuffixGenerator.new
 
       @musicsplitter_setup = {
         :remove_headers => true,
@@ -382,7 +382,7 @@ module Typographus
     def pointed_text_path(input_filename)
       File.join(
         @setup.generated_dir,
-        File.basename(input_filename).sub(/\.zalm$/, '_'+psalm_unique_suffix+'.tex')
+        File.basename(input_filename).sub(/\.zalm$/, '_' + @psalm_unique_suffix.next + '.tex')
       )
     end
 
@@ -535,13 +535,6 @@ module Typographus
         end
 
       end
-    end
-
-    # Generates a unique suffix used for naming of files with pointed psalm texts.
-    def psalm_unique_suffix
-      r = @psalm_counter.to_s.rjust @psalm_suffix_size, '0'
-      @psalm_counter += 1
-      return r
     end
 
     def doxology_path
