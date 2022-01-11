@@ -1,0 +1,7 @@
+typographus:
+  doxology: true # print shortcut
+  psalm_tones: false
+psalmpreprocessor:
+  output:
+    pointing:
+      preparatory_style: none
