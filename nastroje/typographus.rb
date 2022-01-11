@@ -258,9 +258,7 @@ module Typographus
       end
 
       if conf.include? 'psalmpreprocessor' then
-        conf['psalmpreprocessor'].each_pair do |k,v|
-          @psalmpreprocessor_setup[k.to_sym] = v.deep_symbolize_keys
-        end
+        @psalmpreprocessor_setup.update conf['psalmpreprocessor'].deep_symbolize_keys
       end
 
       if conf.include? 'splitscores' then
