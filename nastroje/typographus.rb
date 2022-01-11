@@ -1,10 +1,16 @@
 #!/usr/bin/ruby
 # -*- coding: utf-8 -*-
 
-# Preprocesses a .tytex file and creates a .lytex file with
-# special TyTeX macros expanded to standard lytex ones.
-# At the same time generates necessary files to be included
-# like music scores or pointed psalm texts.
+# Problem solved: how to conveniently and with as little boilerplate
+#   code as possible create documents incorporating LilyPond scores
+#   (picked from files elsewhere in the directory tree)
+#   and psalm texts pointed for psalmody.
+#
+# Approach: typographus.rb is added as a preprocessing step
+#   before lilypond-book, expanding a few LaTeX-like commands
+#   and automating preparation of assets (LilyPond scores dissected
+#   from the sheets they normally live in and modified for the new use,
+#   psalm texts formatted and pointed)
 
 # It doesn't descend into eventual included tex files, so you have
 # to preprocess these separately if needed.
@@ -21,10 +27,6 @@ require 'fileutils'
 require 'ostruct'
 require 'yaml'
 require 'active_support/core_ext/hash/keys'
-
-if RUBY_VERSION.split('.')[0].to_i < 2 then
-  STDERR.puts "WARNING: typographus expects ruby 2.0.x, you're running #{RUBY_VERSION}."
-end
 
 module Typographus
 
