@@ -25,9 +25,9 @@
 \newcommand{\responsoriumOdkaz}{\rubrika{Ostatní zpěvy jako v neděli, str. \pageref{responsorium}.}}
 
 \newcommand{\velikAntifona}{%
-  \rubrika{V době velikonoční antifona \upshape{Aleluja}, str. \pageref{velikant}.}}
+  \rubrika{V době velikonoční antifona {\upshape Aleluja}, str. \pageref{velikant}.}}
 \newcommand{\velikAntifonaObaZalmy}{%
-  \rubrika{V době velikonoční se oba žalmy zpívají pod antifonou \upshape{Aleluja}, str. \pageref{velikant}.}}
+  \rubrika{V době velikonoční se oba žalmy zpívají pod antifonou {\upshape Aleluja}, str. \pageref{velikant}.}}
 
 \newenvironment{psalmodia}{\begin{multicols}{2}}{\end{multicols}}
 \renewenvironment{psalmus}{}{}
