@@ -533,7 +533,10 @@ module Typographus
             score_text,
             (score.header['quidbreve'] || score.header['quid'])
               &.sub('Benedictus', 'Ben.')
-              &.sub('Magnificat', 'Mag.'),
+              &.sub('Magnificat', 'Mag.')
+              &.sub('ke kantikům vigilie', '')
+              &.sub(/(do|v |od)poledne/, '')
+              &.strip,
             [score.header['modus'], score.header['differentia']].compact.join('.')
           )
         rescue RuntimeError => e
