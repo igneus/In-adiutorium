@@ -133,7 +133,6 @@
       ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
-      a na vě -- ky vě -- ků. A -- men.
     }
     \header {
       id = "zacatek-slavnost"
