@@ -75,7 +75,7 @@ def typographus(main, latex='pdflatex', biblatex=false, &blk)
 
   wd = Dir.pwd
 
-  file lytex => [main, '../nastroje/typographus.rb'] + Dir['../nastroje/lib/typographus/*.rb'] do
+  file lytex => [main, 'spolecne_antifonar.ly', '../nastroje/typographus.rb'] + Dir['../nastroje/lib/typographus/*.rb'] do
     ruby typographus, main
     sh "vlna #{lytex}"
   end
