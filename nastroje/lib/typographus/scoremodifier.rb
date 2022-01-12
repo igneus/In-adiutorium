@@ -46,6 +46,9 @@ module Typographus
     # and
     # `% block_end:block_id`
     # comments
+    #
+    # This kind of markup is used when a score contains one or more
+    # optional sections which in some use cases should be omitted.
     def remove_block(block_id, ly)
       ly.gsub(
         /(^\s*)?
