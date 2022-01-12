@@ -83,7 +83,7 @@ def typographus(main, latex='pdflatex', biblatex=false, &blk)
   file final => [lytex, 'spolecne.tex'] do
     FileUtils.mkdir_p outdir
 
-    sh "lilypond-book --output=#{outdir} --pdf #{lytex}"
+    sh "lilypond-book --left-padding=0 --output=#{outdir} --pdf #{lytex}"
 
     latex_commands = {
       'pdflatex' => "pdflatex  -shell-escape #{File.basename(tex)}",
