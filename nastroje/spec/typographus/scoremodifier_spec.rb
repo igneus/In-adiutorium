@@ -45,13 +45,13 @@ describe Typographus::ScoreModifier do
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
     c( d) c b( g) a a g g \barFinalis
-    
+
     f g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- ny za -- svě -- ce -- né Pá -- nu,
     chval -- te Pá -- na na -- vě -- ky.
-    
+
     A -- le -- lu -- ja.
   }
 }'
@@ -64,13 +64,13 @@ describe Typographus::ScoreModifier do
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
     c( d) c b( g) a a g g \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- ny za -- svě -- ce -- né Pá -- nu,
     chval -- te Pá -- na na -- vě -- ky.
-    
+
     A -- le -- lu -- ja.
   }
 }'
@@ -94,7 +94,7 @@ describe Typographus::ScoreModifier do
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
     c( d) c b( g) a a g g \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
 }'
@@ -114,13 +114,13 @@ describe Typographus::ScoreModifier do
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
     c( d) c b( g) a a g g \barFinalis
-    
+
     f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pan -- ny za -- svě -- ce -- né Pá -- nu,
     chval -- te Pá -- na na -- vě -- ky.
-    
+
     A -- le -- lu -- ja.
   }
 }'
@@ -136,6 +136,59 @@ describe Typographus::ScoreModifier do
     chval -- te Pá -- na na -- vě -- ky.
   }
 }'
+    end
+  end
+
+  describe '#remove_block' do
+    it 'removes block delimiter comments and everything in between' do
+      ly = '\score {
+  \relative c'' {
+    c c
+    % block_begin:block_id
+    c c( d) c c
+    % block_end:block_id
+  }
+  \addlyrics {
+    a -- men
+    % block_begin:block_id
+    a -- le -- lu -- ja
+    % block_end:block_id
+  }
+}'
+
+      expect(subject.remove_block('block_id', ly))
+        .to eq '\score {
+  \relative c'' {
+    c c
+
+  }
+  \addlyrics {
+    a -- men
+
+  }
+}'
+    end
+
+    it 'does not remove block with a different ID' do
+      ly = '\score {
+  \relative c'' {
+    c c
+    % block_begin:block_id
+    c c( d) c c
+    % block_end:block_id
+  }
+  \addlyrics {
+    a -- men
+    % block_begin:block_id
+    a -- le -- lu -- ja
+    % block_end:block_id
+  }
+}'
+
+      # "block_id" starts with "block", which is not just "some other ID",
+      # but a potential edge case
+      expect(subject.remove_block('block', ly))
+        .to eq ly
     end
   end
 end

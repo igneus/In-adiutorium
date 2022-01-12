@@ -40,5 +40,23 @@ module Typographus
       ly.insert closing_brace_i, "\\layout{ #{layout} }"
       return ly
     end
+
+    # removes code blocks enclosed between
+    # `% block_begin:block_id`
+    # and
+    # `% block_end:block_id`
+    # comments
+    def remove_block(block_id, ly)
+      ly.gsub(
+        /(^\s*)?
+         %\s*
+         block_begin:#{block_id}(\s+)
+         .*?
+         %\s*
+         block_end:#{block_id}
+         .*?$/mx,
+        ''
+      )
+    end
   end
 end
