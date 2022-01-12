@@ -125,7 +125,7 @@ class MusicSplitter
         newtext[i-1] = @setup[:insert_text]
       end
       
-      yield newtext, score if block_given?
+      newtext = yield newtext, score if block_given?
       
       newtext
     end
