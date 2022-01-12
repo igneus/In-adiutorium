@@ -106,5 +106,13 @@ module Typographus
     def remove_markups(ly)
       ly.gsub(/\^\\markup(\\\w+)*({.*?})?/, '')
     end
+
+    # from scores beginning with an invisible note and a mark
+    # in the lyrics delete both
+    def remove_initial_mark(ly)
+      ly
+        .sub(/\\neviditelna\s+[a-g]\s+/, '')
+        .sub(/(\\addlyrics\s*{\s*)(\\\w+)+(\{.*?\})?\s+/, '\1')
+    end
   end
 end

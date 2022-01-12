@@ -368,4 +368,32 @@ describe Typographus::ScoreModifier do
 }'
     end
   end
+
+  describe '#remove_initial_mark' do
+    it 'removes a simple variable' do
+      ly = '\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \addlyrics { \Response La }
+}'
+
+      expect(subject.remove_initial_mark(ly))
+        .to eq '\score {
+  \relative c'' { \choralniRezim c }
+  \addlyrics { La }
+}'
+    end
+
+    it 'removes a markup' do
+      ly = '\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \addlyrics { \markup\bold{hi} La }
+}'
+
+      expect(subject.remove_initial_mark(ly))
+        .to eq '\score {
+  \relative c'' { \choralniRezim c }
+  \addlyrics { La }
+}'
+    end
+  end
 end

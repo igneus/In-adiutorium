@@ -525,7 +525,9 @@ module Typographus
       end
 
       # initials
-      if is_antiphon?(score)
+      if is_antiphon?(score) || is_responsory?(score)
+        score_text = ScoreModifier.remove_initial_mark score_text if score.lyrics_raw[0] == "\\"
+
         begin
           score_text = ScoreModifier.make_initial(
             score_text,
