@@ -805,7 +805,6 @@ Dnes.
 \pointedText{zalmy/pascha_zalm42.zalm}
 
 \noindent\textsc{Modlitba}
-\pagebreak % ZLOM
 
 \noindent\textsc{Třetí čtení}
 
@@ -875,6 +874,7 @@ Dnes.
 
 \rubrikaKratkeCteni
 
+\pagebreak % ZLOM
 \typVers
 \rubrika{dopoledne, v poledne i odpoledne:}
 \simpleScore{antifonar/triduum_verse.ly#ne}
@@ -884,13 +884,13 @@ Dnes.
 
 \rubrikaOrace
 
-\pagebreak % ZLOM
 \nespory
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-nedele}
 
 \rubrikaHymnus
 
+\pagebreak % ZLOM
 \typZalmy
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant1}
 \antiphonWithPsalm{velikonoce_velikonocnioktav.ly#nesp-ant2}
