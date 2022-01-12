@@ -58,5 +58,10 @@ module Typographus
         ''
       )
     end
+
+    # removes inline markups `note^\markup{...}`
+    def remove_markups(ly)
+      ly.gsub(/\^\\markup(\\\w+)*({.*?})?/, '')
+    end
   end
 end

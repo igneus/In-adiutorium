@@ -191,4 +191,51 @@ describe Typographus::ScoreModifier do
         .to eq ly
     end
   end
+
+  describe '#remove_markups' do
+    it 'deletes markup with text content' do
+      ly = '\score {
+  \relative c'' {
+    c^\markup{text content} d
+  }
+}'
+
+      expect(subject.remove_markups(ly))
+        .to eq '\score {
+  \relative c'' {
+    c d
+  }
+}'
+    end
+
+    it 'deletes markup with text content and formatting commands' do
+      ly = '\score {
+  \relative c'' {
+    c^\markup\italic{text content} d
+  }
+}'
+
+      expect(subject.remove_markups(ly))
+        .to eq '\score {
+  \relative c'' {
+    c d
+  }
+}'
+    end
+
+    it 'deletes markup with variable' do
+      ly = '\score {
+  \relative c'' {
+    c^\markup\someMarkupVariable d
+  }
+}'
+
+      expect(subject.remove_markups(ly))
+        .to eq '\score {
+  \relative c'' {
+    c d
+  }
+}'
+    end
+  end
 end
