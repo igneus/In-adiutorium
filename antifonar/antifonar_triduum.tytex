@@ -853,6 +853,8 @@ Dnes.
 \pagebreak % ZLOM
 \modlitbaUprostredDne
 
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
+
 \rubrikaHymnus
 
 \typZalmy
@@ -884,6 +886,8 @@ Dnes.
 
 \pagebreak % ZLOM
 \nespory
+
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-nedele}
 
 \rubrikaHymnus
 
