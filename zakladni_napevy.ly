@@ -57,9 +57,13 @@
       c c c b( c) c c \barMax
       c c c c c c c \barMin c c c b( c) c c \barMax
       c c c c c c c c c c c c c c \barMin \break
+      % block_begin:nepust
       c^\markup\italic{mimo dobu postní:} c c c c c b( c) c \barMaior
       c d c( b) b \barFinalis
+      % block_end:nepust
+      % block_begin:pust
       c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
+      % block_end:pust
     }
     \addlyrics {
       \Verse Bo -- že, po -- spěš mi na po -- moc.
@@ -67,9 +71,13 @@
       Slá -- va Ot -- ci i Sy -- nu
       i Du -- chu sva -- té -- mu
       ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
       a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
     }
     \header {
       id = "zacatek-nedele"
@@ -86,10 +94,13 @@
       c c c b c c \barMax
       c c c c c c c \barMin c c c b c c \barMax
       c c c c c c c c c c c c c c \barMin \break
-
+      % block_begin:nepust
       c^\markup\italic{mimo dobu postní:} c c c c c b c \barMaior
       c d c( b) b \barFinalis
+      % block_end:nepust
+      % block_begin:pust
       c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
+      % block_end:pust
     }
     \addlyrics {
       \Verse Bo -- že, po -- spěš mi na po -- moc.
@@ -97,9 +108,13 @@
       Slá -- va Ot -- ci i Sy -- nu
       i Du -- chu sva -- té -- mu
       ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
       a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
     }
     \header {
       id = "zacatek-bezny"
@@ -122,8 +137,12 @@
       f4 g( a) a a a a a \barMin
       a g( a bes) a a g g( a) \barMaior
       f4 g( a) a a a a a a \barMin a g( a bes) a a a( g) g( a) \barMaior
-      a a a a a bes a g \barMaior
-      a^\markup\italic{mimo dobu postní:} bes a( g) g \barFinalis
+      a a a a a bes a g
+      % block_begin:nepust
+      \barMaior
+      a^\markup\italic{mimo dobu postní:} bes a( g) g
+      % block_end:nepust
+      \barFinalis
     }
     \addlyrics {
       \Verse Bo -- že, po -- spěš mi na po -- moc.
@@ -132,7 +151,9 @@
       i Du -- chu sva -- té -- mu
       ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
       a na vě -- ky vě -- ků. A -- men.
+      % block_begin:nepust
       A -- le -- lu -- ja.
+      % block_end:nepust
     }
     \header {
       id = "zacatek-slavnost"

@@ -129,7 +129,7 @@
 %%%
 \nesporyI
 
-\responsory{zakladni_napevy.ly#zacatek-slavnost}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-slavnost}
 
 \rubrika{Hymnus \textnormal{Z Hvězdy vyšlo Slunce,}
   hymnář,\footnote{Denní modlitba církve. Hymny,
@@ -162,7 +162,7 @@
 %%%
 \kompletar
 
-\responsory{zakladni_napevy.ly#zacatek-bezny}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
 \rubrika{Hymnus \textnormal{Již se přiblížil čas noční,} hymnář, str. 163.}
 
@@ -205,7 +205,7 @@
 
 \rubrika{Pokud modlitba se čtením není první modlitbou dne:}
 
-\responsory{zakladni_napevy.ly#zacatek-bezny}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
 \rubrika{Hymnus \textnormal{Věčný Syn jednorozený} - hymnář, str. 18.}
 
@@ -249,7 +249,7 @@
 
 \rubrika{Pokud ranní chvály nejsou první hodinkou dne:}
 
-\responsory{zakladni_napevy.ly#zacatek-nedele}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-nedele}
 
 \rubrika{Hymnus \textnormal{Dítě se nám narodilo} - hymnář, str. 20.}
 
@@ -276,7 +276,7 @@
 \rubrika{Pro modlitbu v poledne byla zvolena vlastní psalmodie z formuláře
   dne, pro dopoledne a odpoledne jsou otištěny žalmy z doplňovacího cyklu.}
 
-\responsory{zakladni_napevy.ly#zacatek-bezny}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
 \rubrika{Hymnus \textnormal{Radujme se všichni spolu} - hymnář, str. 21.}
 
@@ -323,7 +323,7 @@
 %%%
 \nesporyII
 
-\responsory{zakladni_napevy.ly#zacatek-slavnost}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-slavnost}
 
 \rubrika{Hymnus \textnormal{Kriste, světa Spasiteli} - hymnář, str. 22.}
 
@@ -350,7 +350,7 @@
 
 \rubrika{Hymnus \textnormal{Chvála tobě, Otče věčný,} hymnář, str. 163.}
 
-\responsory{zakladni_napevy.ly#zacatek-bezny}
+\responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
 \antiphonWithPsalm{kompletar.ly#neii}
 
