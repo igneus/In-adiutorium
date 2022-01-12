@@ -71,6 +71,7 @@ module Typographus
                                       })
 
       @psalm_unique_suffix = SuffixGenerator.new
+      @score_unique_suffix = SuffixGenerator.new
 
       @musicsplitter_setup = {
         :remove_headers => true,
@@ -173,13 +174,13 @@ module Typographus
       end
 
       %w[simpleScore antiphon responsory].each do |name|
-        c.command(name, args: 1) do |ref|
-          prepare_generic_score(ref) + "\n\n"
+        c.command(name, args: 1, opts: true) do |ref, opts|
+          prepare_generic_score(ref, opts) + "\n\n"
         end
       end
 
       c.command('antiphonWithPsalm', args: 1, opts: true) do |ref, opts|
-        r = prepare_generic_score(ref) + "\n\n"
+        r = prepare_generic_score(ref, opts) + "\n\n"
         if @setup[:psalm_tones]
           r += prepare_psalm_tone_f(ref) + "\n\n"
         end
@@ -187,8 +188,8 @@ module Typographus
         r
       end
 
-      c.command('antiphonWithPsalmTone', args: 1) do |ref|
-        r = prepare_generic_score(ref) + "\n\n"
+      c.command('antiphonWithPsalmTone', args: 1, opts: true) do |ref, opts|
+        r = prepare_generic_score(ref, opts) + "\n\n"
         if @setup[:psalm_tones]
           r += prepare_psalm_tone_f(ref) + "\n\n"
         end
@@ -307,8 +308,9 @@ module Typographus
       preprocessor
     end
 
-    def prepare_generic_score(fial)
+    def prepare_generic_score(fial, opts = {})
       src, id = decode_fial fial
+      score_opts = opts.slice :remove_block, :remove_markups
 
       src_name = File.basename(src)
       score_path = @setup.generated_dir + '/' + @splitter.chunk_name(src_name, id)
@@ -316,6 +318,15 @@ module Typographus
       score = get_score(src, id)
       if is_antiphon?(score) and score.header['modus'] then
         @last_psalm_tone = "#{score.header['modus']}.#{score.header['differentia']}"
+      end
+
+      unless score_opts.empty?
+        source = File.read score_path
+        source = ScoreModifier.remove_block(score_opts[:remove_block], source) if score_opts[:remove_block]
+        source = ScoreModifier.remove_markups(source) if score_opts.has_key? :remove_markups
+
+        score_path.sub! /\.ly$/, "_#{@score_unique_suffix.next}.ly"
+        File.write score_path, source
       end
 
       return "\\lilypondfile{#{score_path}}"
