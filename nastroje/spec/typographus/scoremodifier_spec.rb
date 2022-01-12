@@ -23,6 +23,136 @@ describe Typographus::ScoreModifier do
     end
   end
 
+  describe '#make_initial' do
+    it 'does not modify score without lyrics' do
+      ly = '\score {
+  \relative c'' { c }
+}'
+
+      expect(subject.make_initial(ly))
+        .to eq ly
+    end
+
+    it 'does not modify score with empty lyrics' do
+      ly = '\score {
+  \relative c'' { c }
+  \addlyrics { }
+}'
+
+      expect(subject.make_initial(ly))
+        .to eq ly
+    end
+
+    describe 'annotation' do
+      it 'builds initial without annotation' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { some -- thing }
+}'
+
+        expect(subject.make_initial(ly))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "" "" "S"
+ c c }
+  \addlyrics { ome -- thing }
+}'
+      end
+
+      it 'builds initial with one line annotation' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { hel -- lo }
+}'
+
+        expect(subject.make_initial(ly, 'annot.'))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "" "annot." "H"
+ c c }
+  \addlyrics { el -- lo }
+}'
+      end
+
+      it 'builds initial with two line annotation' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { yel -- low }
+}'
+
+        expect(subject.make_initial(ly, '1st annot.', '2nd'))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "1st annot." "2nd" "Y"
+ c c }
+  \addlyrics { el -- low }
+}'
+      end
+
+      it 'raises exception on more than two line annotation' do
+        expect { subject.make_initial('\score {}', '1', '2', 'too much') }
+          .to raise_exception ArgumentError
+      end
+    end
+
+    describe 'special cases' do
+      it 'handles a digraph' do
+        ly = '\score {
+  \relative c'' { c }
+  \addlyrics { Chval }
+}'
+
+        expect(subject.make_initial(ly))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "" "" "CH"
+ c }
+  \addlyrics { val }
+}'
+      end
+
+      it 'first syllable consisting of just the initial' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { a -- men }
+}'
+
+        expect(subject.make_initial(ly))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "" "" "A"
+ c c }
+  \addlyrics { _ -- men }
+}'
+      end
+
+      it 'first word consisting of just the initial' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { O Rex }
+}'
+
+        expect(subject.make_initial(ly))
+          .to eq '\score {
+  \relative c'' {
+\set Staff.instrumentName = \markup\iniciala "" "" "O"
+ c c }
+  \addlyrics { _ Rex }
+}'
+      end
+
+      it 'crashes when lyrics start with a command or variable' do
+        ly = '\score {
+  \relative c'' { c c }
+  \addlyrics { \markup\Verse La }
+}'
+
+        expect { subject.make_initial(ly) }
+          .to raise_exception(RuntimeError, /only regular lyrics supported/i)
+      end
+    end
+  end
+
   describe '#remove_optional_alleluia' do
     it 'does not remove alleluia if there is none' do
       ly = '\score {

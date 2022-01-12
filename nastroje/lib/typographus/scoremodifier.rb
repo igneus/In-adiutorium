@@ -1,4 +1,4 @@
-require_relative '../../musicreader.rb'
+require 'lyv'
 
 module Typographus
 
@@ -39,6 +39,46 @@ module Typographus
       closing_brace_i = ly.rindex '}'
       ly.insert closing_brace_i, "\\layout{ #{layout} }"
       return ly
+    end
+
+    def make_initial(ly, *annotation)
+      if annotation.size > 2
+        raise ArgumentError.new("#{annotation.size} annotation lines provided, up to 2 supported")
+      end
+      annotation.unshift nil until annotation.size >= 2
+
+      music = Lyv::LilyPondMusic.new ly
+      score = music.scores[0]
+      return ly if score.lyrics_raw.empty?
+
+      if score.lyrics_raw[0] == "\\"
+        raise "Lyrics start with a LilyPond command. Only regular lyrics supported."
+      end
+
+      initial =
+        if score.lyrics_raw =~ /^ch/i # Czech digraph ch
+          score.lyrics_raw[0..1]
+        else
+          score.lyrics_raw[0]
+        end
+
+      music_start_i = ly.index '{', ly.index('\relative')
+
+      ly[0 .. music_start_i] +
+        "\n\\set Staff.instrumentName = \\markup\\iniciala \"#{annotation[0]}\" \"#{annotation[1]}\" \"#{initial.upcase}\"\n" +
+        ly[music_start_i + 1 .. -1].yield_self do |lyy|
+        lyrics_start_i = lyy.index '{', lyy.index('\addlyrics')
+
+        lyy[0 .. lyrics_start_i] +
+          lyy[lyrics_start_i + 1 .. -1].sub(/#{initial}./) do |match|
+          if [' ', "\n"].include? match[-1]
+            # syllable consists only of the initial - provide lyrics filler
+            '_' + match[-1]
+          else
+            match[-1]
+          end
+        end
+      end
     end
 
     # removes code blocks enclosed between

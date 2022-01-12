@@ -78,7 +78,6 @@ module Typographus
         :prepend_text => '',
         :output_dir => @setup.generated_dir,
         :ids => true,
-        :mode_info => true,
         :verbose => false,
         :insert_text => nil,
         :one_clef => false
@@ -525,9 +524,24 @@ module Typographus
         score_text = ScoreModifier.remove_optional_alleluia score_text
       end
 
+      # initials
+      if is_antiphon?(score)
+        begin
+          score_text = ScoreModifier.make_initial(
+            score_text,
+            (score.header['quidbreve'] || score.header['quid'])
+              &.sub('Benedictus', 'Ben.')
+              &.sub('Magnificat', 'Mag.'),
+            [score.header['modus'], score.header['differentia']].compact.join('.')
+          )
+        rescue RuntimeError => e
+          STDERR.puts "initial failed: #{score.lyrics_readable}: #{e.message}"
+        end
+      end
+
       # no indent for scores of types without mode info
       unless is_antiphon?(score) or is_responsory?(score)
-        layout << 'indent = 0'
+        layout << '\layoutNoIndent'
       end
 
       unless layout.empty? || score_text.include?('\layout')

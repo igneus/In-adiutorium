@@ -7,7 +7,7 @@
 % vypnout cisla taktu na zacatku radku
 \layout {
   ragged-last = ##t
-  indent = 1.5\cm
+  indent = 1.2\cm
   short-indent = 0\cm
 
   \context {
