@@ -39,6 +39,7 @@ module Typographus
       :generated_dir => 'typographus_tmp',
       :output_dir => 'vystup',
       :doxology => false,
+      :initial => true,
       :remove_optional_alleluia => false
     }.freeze
 
@@ -525,7 +526,8 @@ module Typographus
       end
 
       # initials
-      if is_antiphon?(score) || is_responsory?(score)
+      if @setup[:initial] &&
+         (is_antiphon?(score) || is_responsory?(score))
         score_text = ScoreModifier.remove_initial_mark score_text if score.lyrics_raw[0] == "\\"
 
         begin
