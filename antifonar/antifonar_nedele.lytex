@@ -139,7 +139,7 @@ strofě.}
 
 \pagebreak % ZLOM1
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-1ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -156,7 +156,7 @@ strofě.}
 
 \pagebreak % ZLOM1
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-rch.ly}
 \end{hora}
 \rubrikaBenedictus
 
@@ -186,7 +186,7 @@ strofě.}
 
 \pagebreak % ZLOM1
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-2ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -206,7 +206,7 @@ strofě.}
 \input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-1ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -223,7 +223,7 @@ strofě.}
 \input{generovane/nedele/zalm150.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-rch.ly}
 \end{hora}
 \rubrikaBenedictus
 
@@ -252,7 +252,7 @@ strofě.}
 \lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-2ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -272,7 +272,7 @@ strofě.}
 \input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-1ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -288,7 +288,7 @@ strofě.}
 \input{generovane/nedele/zalm148.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_rch-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-rch.ly}
 \end{hora}
 \rubrikaBenedictus
 
@@ -319,7 +319,7 @@ strofě.}
 
 \pagebreak % ZLOM1
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden1_1nedele_2ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_1ne-2ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -339,7 +339,7 @@ strofě.}
 \input{generovane/nedele/kantikum_flp2.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_1ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-1ne.ly}
 \end{hora}
 \rubrikaMagnificat
 
@@ -355,7 +355,7 @@ strofě.}
 \input{generovane/nedele/zalm150.tex}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_rch-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-rch.ly}
 \end{hora}
 \rubrikaBenedictus
 
@@ -385,7 +385,7 @@ strofě.}
 \lilypondfile{kantikum-Zj19.ly}
 
 \typResponsorium
-\lilypondfile{generovane/nedele/tyden2_1nedele_2ne-resp.ly}
+\lilypondfile{generovane/nedele/responsoria_2ne-2ne.ly}
 \end{hora}
 \rubrikaMagnificat
 

@@ -93,7 +93,7 @@ cislazalmu_nedele = %w( 95 100 67 24
                   )
 
 nedelecommonoptions = $commonoptions+$o_warnmarks
-dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
+dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --output-append \"\\rubrikaPo{Na konci tohoto kantika se nepřipojuje doxologie Sláva Otci.}\""
 
 nedele_splitscores_command = $splitscores_command + " --output-dir #{adresar_nedele} "
 
@@ -128,6 +128,11 @@ file adresar_nedele+'invitatoria_t1ne.ly' => ['../antifony/invitatoria.ly'] do |
   sh nedele_splitscores_command + t.prerequisites.first
 end
 noty_nedele << adresar_nedele+'invitatoria_t1ne.ly'
+
+file adresar_nedele + 'responsoria_1ne-1ne.ly' => ['../responsoria.ly'] do |t|
+  sh nedele_splitscores_command + t.prerequisites.first
+end
+noty_nedele << adresar_nedele + 'responsoria_1ne-1ne.ly'
 
 file adresar_nedele+'nedele_verse_ne1v.ly' => ['nedele_verse.ly'] do |t|
   # verse nemaji odsazovani a proto maji svuj vlastni delici prikaz:
