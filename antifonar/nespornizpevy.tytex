@@ -24,8 +24,6 @@
 % \usepackage{bookman}
 \usepackage{tgschola}
 
-\usepackage{lettrine} % inicialky; jen docasne pro rychle rozchozeni, pak zase vyhodit
-
 \input{spolecne.tex}
 
 % typographus configuration
