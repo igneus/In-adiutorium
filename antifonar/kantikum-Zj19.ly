@@ -12,14 +12,14 @@ DoubleResponse = \lyricmode {
 }
 
 % melodie aleluja
-imal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
-imalal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
+imal = { \barFinalis \neviditelna f f f d c \barFinalis \break }
+imalal = { \barFinalis \neviditelna a a a( g) g f \barMin d f( g) g f \barFinalis \break }
 % text aleluja
 ial = \lyricmode { \Response A -- le -- lu -- ja. }
 ialal = \lyricmode { \DoubleResponse A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
-mal = { \bar "||" \neviditelna f \bar "||" \break }
-malal = { \bar "||" \neviditelna a \bar "||" \break }
+mal = { \barFinalis \neviditelna f \barFinalis \break }
+malal = { \barFinalis \neviditelna a \barFinalis \break }
 % text aleluja
 al = \lyricmode { \Response }
 alal = \lyricmode { \DoubleResponse }
@@ -30,8 +30,6 @@ alal = \lyricmode { \DoubleResponse }
     % Vitezstvi..
     \neviditelna f
     f f f f f f f f f e g a
-
-    \override Staff.Clef.stencil = ##f % Klic jenom na zacatku prvni radky, na dalsich uz ne
 
     \imal
     \neviditelna f
