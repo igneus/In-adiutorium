@@ -16,6 +16,8 @@ psalmpreprocessor:
       paragraphify: true
     strophes:
       end_marks: semantic
+    title:
+      template: :no
 splitscores:
   remove_headers: false
   mode_info: false
