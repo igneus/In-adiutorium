@@ -20,7 +20,7 @@
 #(set-global-staff-size 14)
 
 \paper {
-  markup-markup-spacing #'padding = #2
+  markup-markup-spacing.padding = #2
 
   scoreTitleMarkup = \markup\small{
     \fill-line {
@@ -40,6 +40,10 @@
                           "Helvetica"
                           "Courier"
      (/ myStaffSize 20)))
+}
+
+layoutNoIndent = \layout {
+  indent = 0
 }
 
 % sestavi titulek z ruznych semanticky vyznamnych polozek z header

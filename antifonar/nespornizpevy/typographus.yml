@@ -4,6 +4,7 @@
 typographus:
   doxology: 'full'
   # psalm_tones: true
+  initial: false
 psalmpreprocessor:
   output:
     skip_verses: 1

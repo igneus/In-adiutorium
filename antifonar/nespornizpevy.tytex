@@ -359,45 +359,45 @@ ze stránek http://www.op.cz}}
 
 %%% JEDNOTLIVA OFICIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\setChantBasedir{nespornizpevy}
+
 %% Vanocni okruh
 
 \nadpisOkruh{Vánoce}
 
-\setChantSource{nespornizpevy/antifony_vanoce.ly}
-
 \nadpisDen{Narození Páně (24.12.)} \cisloPisne{200}
 
 \cisloCastiPisne
-\simpleScore{#narozeni-ant1}
+\simpleScore{antifony_zalm110.ly#narozeni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#narozeni-ant2}
+\simpleScore{antifony_zalm130.ly#narozeni-ant2}
 
 \odkazZalm{z130}{130}
 
 \cisloCastiPisne
-\simpleScore{#narozeni-ant3}
+\simpleScore{antifony_kol1.ly#narozeni-ant3}
 
 \odkazKantikum{kkol1}{Kol 1}
 
 \cisloCastiPisne
-\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
+\simpleScore{../../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#narozeni-antmag}
+\simpleScore{antifony_magnificat.ly#narozeni-antmag}
 \odkazMagnificat
 
 \nadpisDen{Matky Boží, Panny Marie (1.1.)} \cisloPisne{201}
 
 \cisloCastiPisne
-\simpleScore{#mb-ant1}
+\simpleScore{antifony_zalm122.ly#mb-ant1}
 
 \odkazZalm{z122}{122}
 
 \cisloCastiPisne
-\simpleScore{#mb-ant2}
+\simpleScore{antifony_zalm127.ly#mb-ant2}
 
 \odkazZalm{z127}{127}
 
@@ -405,19 +405,19 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 % responsorium je opravdu stejne jako o Narozeni Pane
-\simpleScore{../vanoce_narozenipane.ly#narozeni-2ne-resp}
+\simpleScore{../../vanoce_narozenipane.ly#narozeni-2ne-resp}
 
 \odkazMagnificat
 
 \nadpisDen{Zjevení Páně (6.1.)} \cisloPisne{202}
 
 \cisloCastiPisne
-\simpleScore{#zjeveni-ant1}
+\simpleScore{antifony_zalm110.ly#zjeveni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#zjeveni-ant2}
+\simpleScore{antifony_zalm112.ly#zjeveni-ant2}
 
 \odkazZalm{z112}{112}
 
@@ -425,192 +425,188 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 % opravdu tak, opakuje se responsorium z 1. nespor
-\simpleScore{../vanoce_zjevenipane.ly#epifanie-1ne-resp}
+\simpleScore{../../vanoce_zjevenipane.ly#epifanie-1ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#zjeveni-antmag}
+\simpleScore{antifony_magnificat.ly#zjeveni-antmag}
 \odkazMagnificat
 
 %% Velikonocni okruh
 
 \nadpisOkruh{Velikonoce}
 
-\setChantSource{nespornizpevy/antifony_velikonoce.ly}
-
 \nadpisDen{Zmrtvýchvstání Páně} \cisloPisne{300} %%%%
 
 \cisloCastiPisne
-\simpleScore{#zmrtvychvstani-ant1}
+\simpleScore{antifony_zalm110.ly#zmrtvychvstani-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#zmrtvychvstani-ant2}
+\simpleScore{antifony_zalm114.ly#zmrtvychvstani-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\simpleScore{#zmrtvychvstani-ant3}
+\simpleScore{antifony_zj19.ly#zmrtvychvstani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 
 \cisloCastiPisne
-\simpleScore{../velikonoce_velikonocnioktav.ly#resp}
+\simpleScore{../../velikonoce_velikonocnioktav.ly#resp}
 
 \cisloCastiPisne
-\simpleScore{#zmrtvychvstani-antmag}
+\simpleScore{antifony_magnificat.ly#zmrtvychvstani-antmag}
 \odkazMagnificat
 
 \nadpisDen{Nanebevstoupení Páně} \cisloPisne{301} %%%%
 
 \cisloCastiPisne
-\simpleScore{#nanebevstoupeni-ant1}
+\simpleScore{antifony_zalm110.ly#nanebevstoupeni-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#nanebevstoupeni-ant2}
+\simpleScore{antifony_zalm47.ly#nanebevstoupeni-ant2}
 
 \odkazZalm{z47}{47}
 
 \cisloCastiPisne
-\simpleScore{#nanebevstoupeni-ant3}
+\simpleScore{antifony_zj11.ly#nanebevstoupeni-ant3}
 
 \odkazKantikum{kzj11}{Zj 11}
 
 \cisloCastiPisne
-\simpleScore{../velikonoce_nanebevstoupeni.ly#2ne-resp}
+\simpleScore{../../velikonoce_nanebevstoupeni.ly#2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#nanebevstoupeni-antmag}
+\simpleScore{antifony_magnificat.ly#nanebevstoupeni-antmag}
 \odkazMagnificat
 
 \nadpisDen{Seslání Ducha svatého} \cisloPisne{302} %%%%
 
 \cisloCastiPisne
-\simpleScore{#seslani-ant1}
+\simpleScore{antifony_zalm110.ly#seslani-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#seslani-ant2}
+\simpleScore{antifony_zalm114.ly#seslani-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\simpleScore{#seslani-ant3}
+\simpleScore{antifony_zj19.ly#seslani-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 
 \cisloCastiPisne
-\simpleScore{../velikonoce_seslaniduchasv.ly#2ne-resp}
+\simpleScore{../../velikonoce_seslaniduchasv.ly#2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#seslani-antmag}
+\simpleScore{antifony_magnificat.ly#seslani-antmag}
 \odkazMagnificat
 
 %% Slavnosti Pane v mezidobi
 
 \nadpisOkruh{Pohyblivé slavnosti Páně v liturgickém mezidobí}
 
-\setChantSource{nespornizpevy/antifony_slavnostipane.ly}
-
 \nadpisDen{Nejsvětější Trojice} \cisloPisne{400} %%%%
 
 \cisloCastiPisne
-\simpleScore{#trojice-ant1}
+\simpleScore{antifony_zalm110.ly#trojice-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#trojice-ant2}
+\simpleScore{antifony_zalm114.ly#trojice-ant2}
 
 \odkazZalm{z114}{114}
 
 \cisloCastiPisne
-\simpleScore{#trojice-ant3}
+\simpleScore{antifony_zj19.ly#trojice-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 
 \cisloCastiPisne
 % ano, opakuje se z prvnich nespor
-\simpleScore{../mezidobi_trojice.ly#1ne-resp}
+\simpleScore{../../mezidobi_trojice.ly#1ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#trojice-antmag}
+\simpleScore{antifony_magnificat.ly#trojice-antmag}
 \odkazMagnificat
 
 \nadpisDen{Těla a Krve Páně} \cisloPisne{401} %%%%
 
 \cisloCastiPisne
-\simpleScore{#tela-ant1}
+\simpleScore{antifony_zalm110.ly#tela-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#tela-ant2}
+\simpleScore{antifony_zalm116ii.ly#tela-ant2}
 
 \odkazZalm{z116ii}{116-II}
 
 \cisloCastiPisne
-\simpleScore{#tela-ant3}
+\simpleScore{antifony_zj19.ly#tela-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 
 \cisloCastiPisne
 % opakuje se z prvnich nespor
-\simpleScore{../mezidobi_telaakrvepane.ly#1ne-resp}
+\simpleScore{../../mezidobi_telaakrvepane.ly#1ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#tela-antmag}
+\simpleScore{antifony_magnificat.ly#tela-antmag}
 \odkazMagnificat
 
 \nadpisDen{Nejsvětějšího Srdce Ježíšova} \cisloPisne{402} %%%%
 
 \cisloCastiPisne
-\simpleScore{#srdce-ant1}
+\simpleScore{antifony_zalm110.ly#srdce-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#srdce-ant2}
+\simpleScore{antifony_zalm111.ly#srdce-ant2}
 
 \odkazZalm{z111}{111}
 
 \cisloCastiPisne
-\simpleScore{#srdce-ant3}
+\simpleScore{antifony_flp2.ly#srdce-ant3}
 
 \odkazKantikum{kflp2}{Fp 2}
 
 \cisloCastiPisne
-\simpleScore{../mezidobi_nejsvsrdce.ly#1ne-resp}
+\simpleScore{../../mezidobi_nejsvsrdce.ly#1ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#srdce-antmag}
+\simpleScore{antifony_magnificat.ly#srdce-antmag}
 \odkazMagnificat
 
 \nadpisDen{Ježíše Krista Krále} \cisloPisne{403} %%%%
 
 \cisloCastiPisne
-\simpleScore{#krale-ant1}
+\simpleScore{antifony_zalm110.ly#krale-ant1}
 
 \odkazZalm{z110}{110}
 
 \cisloCastiPisne
-\simpleScore{#krale-ant2}
+\simpleScore{antifony_zalm145i.ly#krale-ant2}
 
 \odkazZalm{z145i}{145-I}
 
 \cisloCastiPisne
-\simpleScore{#krale-ant3}
+\simpleScore{antifony_zj19.ly#krale-ant3}
 
 \odkazKantikum{kzj19}{Zj 19}
 
 \cisloCastiPisne
-\simpleScore{../mezidobi_kristakrale.ly#2ne-resp}
+\simpleScore{../../mezidobi_kristakrale.ly#2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{#krale-antmag}
+\simpleScore{antifony_magnificat.ly#krale-antmag}
 \odkazMagnificat
 
 %% Sanktoral - jaro+leto
@@ -625,10 +621,10 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj15}{Zj 15}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0319josef.ly#1ne-resp-post}
+\simpleScore{../../sanktoral/0319josef.ly#1ne-resp-post}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0319josef.ly#1ne-resp-velik}
+\simpleScore{../../sanktoral/0319josef.ly#1ne-resp-velik}
 
 \odkazMagnificat
 
@@ -639,10 +635,10 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kkol1}{Kol 1}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp}
+\simpleScore{../../sanktoral/0325zvestovanipane.ly#2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0325zvestovanipane.ly#2ne-resp-velik}
+\simpleScore{../../sanktoral/0325zvestovanipane.ly#2ne-resp-velik}
 
 \odkazMagnificat
 
@@ -653,10 +649,10 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj4}{Zj 4}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp}
+\simpleScore{../../sanktoral/0516jannepomucky.ly#ne-resp}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0516jannepomucky.ly#ne-resp-velik}
+\simpleScore{../../sanktoral/0516jannepomucky.ly#ne-resp-velik}
 
 \odkazMagnificat
 
@@ -668,7 +664,7 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 % ano, opakuje se z prvnich nespor
-\simpleScore{../sanktoral/0624narozenikrtitele.ly#1ne-resp}
+\simpleScore{../../sanktoral/0624narozenikrtitele.ly#1ne-resp}
 
 \odkazMagnificat
 
@@ -680,7 +676,7 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 % opakuje se z prvnich nespor
-\simpleScore{../sanktoral/0629petraapavla.ly#1ne-r}
+\simpleScore{../../sanktoral/0629petraapavla.ly#1ne-r}
 
 \odkazMagnificat
 
@@ -691,7 +687,7 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj15}{Zj 15}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0705cyrilmetodej.ly#2ne-resp}
+\simpleScore{../../sanktoral/0705cyrilametodej.ly#2ne-resp}
 
 \odkazMagnificat
 
@@ -702,7 +698,7 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kef1}{Ef 1}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/0815nanebevzetipm.ly#2ne-resp}
+\simpleScore{../../sanktoral/0815nanebevzetipm.ly#2ne-resp}
 
 \odkazMagnificat
 
@@ -716,7 +712,7 @@ ze stránek http://www.op.cz}}
 
 \cisloCastiPisne
 % opakuje se z prvnich nespor
-\simpleScore{../sanktoral/0928vaclav.ly#1ne-r}
+\simpleScore{../../sanktoral/0928vaclav.ly#1ne-r}
 
 \odkazMagnificat
 
@@ -727,7 +723,7 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj4}{Zj 4}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/1101vsichnisvati.ly#2ne-r}
+\simpleScore{../../sanktoral/1101vsichnisvati.ly#2ne-r}
 
 \odkazMagnificat
 
@@ -738,7 +734,7 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kflp2}{Fp 2}
 
 \cisloCastiPisne
-\simpleScore{../commune/zazemrele.ly#ne-r}
+\simpleScore{../../commune/zazemrele.ly#ne-resp}
 
 \odkazMagnificat
 
@@ -749,7 +745,7 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kef1}{Ef 1}
 
 \cisloCastiPisne
-\simpleScore{../sanktoral/1208pmpocatebezposkvrny.ly#2ne-resp}
+\simpleScore{../../sanktoral/1208pmpocatebezposkvrny.ly#2ne-resp}
 
 \odkazMagnificat
 
@@ -762,10 +758,10 @@ ze stránek http://www.op.cz}}
 \odkazKantikum{kzj15}{Zj 15} % v době postní
 
 \cisloCastiPisne
-\simpleScore{../commune/commune_kostel.ly#2ne-resp}
+\simpleScore{../../commune/commune_kostel.ly#2ne-resp}
 
 \cisloCastiPisne
-\simpleScore{../commune/commune_kostel.ly#2ne-resp-velik}
+\simpleScore{../../commune/commune_kostel.ly#2ne-resp-velik}
 
 \odkazMagnificat
 
