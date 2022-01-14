@@ -12,6 +12,8 @@
   dedication = \markup\italic "fr. Vavřinci Š. OPraem"
 }
 
+\markup\communia #'(#:mucednik)
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {

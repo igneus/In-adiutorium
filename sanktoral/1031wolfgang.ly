@@ -10,6 +10,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:pastyr)
+
 \score {
   \relative c' {
     \choralniRezim

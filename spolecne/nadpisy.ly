@@ -32,9 +32,39 @@
            titul))))
 
 #(define-markup-command (titleCommune layout props titul) (markup?)
-   "Sestavi header:title pro oficium svatku"
+   "Sestavi header:title pro oficium spolecnych textu"
    (interpret-markup layout props
      (markup #:titleSOddilem "společné texty" titul)))
+
+#(define-markup-command (communia layout props ckeywords) (list?)
+   "Sestavi rubriku o spolecnych textech pro dany svatek"
+   (let ((communia-alist
+          '(
+             (#:kostel . "o posvěcení kostela")
+             (#:maria . "o Panně Marii")
+             (#:apostol . "o apoštolech")
+             (#:evangelista . "o apoštolech (o evangelistech)")
+             (#:mucednici . "o více mučednících")
+             (#:mucednik . "o jednom mučedníkovi")
+             (#:mucednice . "o jedné mučednici")
+             (#:pastyr . "o duchovních pastýřích")
+             (#:ucitel . "o učitelích církve")
+             (#:panna . "o pannách")
+             (#:muz . "o svatých mužích")
+             (#:zena . "o svatých ženách")
+             (#:reholnik . "o svatých mužích (o řeholnících)")
+             (#:milosrdny . "o svatých mužích (kteří vynikali milosrdnými skutky)")
+             (#:vychovatel . "o svatých mužích (o vychovatelích)")
+             )))
+     (interpret-markup layout props
+       (markup #:italic
+         (string-append
+          "Společné texty "
+          (string-join
+           (map-in-order (lambda (i) (cdr (assoc i communia-alist))) ckeywords)
+           ", nebo ")
+          "."
+          )))))
 
 % procedure for \on-the-fly to only render markup argument
 % in a development build (i.e. build with the point-and-click feature);

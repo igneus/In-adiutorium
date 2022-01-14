@@ -12,6 +12,8 @@
   dedication = \markup\italic "Magdě k svátku"
 }
 
+\markup\communia #'(#:zena)
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -10,6 +10,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:mucednik)
+
 \score {
   \relative c'' {
     \choralniRezim

@@ -11,6 +11,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:muz)
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

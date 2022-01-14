@@ -10,6 +10,9 @@
   composer = "Jakub Pavlík"
 }
 
+% tak diurnál 1994; diurnál 2007 odkazuje na commune apoštolů a texty společné evangelistům přetiskuje
+\markup\communia #'(#:evangelista)
+
 \score {
   \relative c' {
     \choralniRezim

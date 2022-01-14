@@ -11,6 +11,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:panna)
+
 \score {
   \relative c'' {
     \choralniRezim

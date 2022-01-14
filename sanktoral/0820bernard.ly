@@ -11,6 +11,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:ucitel #:reholnik)
+
 \score {
   \relative c'' {
     \choralniRezim

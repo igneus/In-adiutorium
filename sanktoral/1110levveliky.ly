@@ -10,6 +10,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:pastyr #:ucitel)
+
 % začal jsem ji jako antifonu modu VIII, ale "spadla" mi
 % do V., aniž se mi podařilo ji odtud "vyzdvihnout" zpět.
 \score {

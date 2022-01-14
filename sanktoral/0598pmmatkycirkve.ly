@@ -12,6 +12,8 @@
 
 % http://www.liturgie.cz/ke-stazeni/dodatky-k-misalu-a-breviari/a/pamatka-panny-marie-matky-cirkve
 
+\markup\communia #'(#:maria)
+
 \score {
   \relative c'' {
     \choralniRezim
