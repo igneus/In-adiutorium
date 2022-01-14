@@ -123,8 +123,7 @@ strofě.}
 \end{hora}
 
 \clearpage
-% \nadpisTyden{První týden}{1. týden žaltáře}
-% \nadpisDen{Neděle}
+% 1. týden žaltáře
 \nadpisNedele{1}
 
 \nesporyI
@@ -191,8 +190,7 @@ strofě.}
 \rubrikaMagnificat
 
 \clearpage
-% \nadpisTyden{Druhý týden}{2. týden žaltáře}
-% \nadpisDen{Neděle}
+% 2. týden žaltáře
 \nadpisNedele{2}
 
 \nesporyI
@@ -257,8 +255,7 @@ strofě.}
 \rubrikaMagnificat
 
 \clearpage
-% \nadpisTyden{Třetí týden}{3. týden žaltáře}
-% \nadpisDen{Neděle}
+% 3. týden žaltáře
 \nadpisNedele{3}
 
 \nesporyI
@@ -324,8 +321,7 @@ strofě.}
 \rubrikaMagnificat
 
 \clearpage
-% \nadpisTyden{Čtvrtý týden}{4. týden žaltáře}
-% \nadpisDen{Neděle}
+% 4. týden žaltáře
 \nadpisNedele{4}
 
 \nesporyI
