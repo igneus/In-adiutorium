@@ -313,8 +313,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a
-    \bar ";" a( g) \parenthesize f a\breve \bar ";"
+    g4 a \bar ";" \neviditelna a
+
+    f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
+    a4( g f) g( a) a \bar ";"
+    a4( g) f g( a) a \bar ";"
+
     c4 d c b d( a) a g f( g f) e e( a) a \barMax
     a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
     d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
@@ -322,8 +326,12 @@
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
-    Sva -- tý
-    \markup\concat{\Nomen ,} \skip 1 \skip 1
+    Sva -- tý \markup{\Dagger \Nomen}
+
+    Pe -- tře, % Damiani / Chrysolog / Kanisius
+    Va -- vřin -- če, % z Brindisi
+    Hi -- la -- ri -- e,
+
     u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
     tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
     při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
@@ -335,9 +343,6 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "vyzkoušet konkrétní jména;
-    např. pro Vavřince z Brindisi zní lépe s jedním melismatem navíc:
-    Vavřinče ag fa a (nebo agf fa a)"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

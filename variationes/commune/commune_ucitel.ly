@@ -310,6 +310,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \markup\italic{Mimo dobu velikonoční:}
@@ -348,6 +350,42 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g( a) g f( g) f \barMin
+    f f f f f g( a) a( g) \barMax
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a \mark\sipka g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta,_*
+    na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \Verse Ob -- lé -- kl mu rou -- cho slá -- vy,_*
+    \Response na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
@@ -384,8 +422,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a
     \bar ";" a( g) \parenthesize f a\breve \bar ";"
@@ -412,6 +453,124 @@
     placet = "vyzkoušet konkrétní jména;
     např. pro Vavřince z Brindisi zní lépe s jedním melismatem navíc:
     Vavřinče ag fa a (nebo agf fa a)"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Odpovídající latinskou antifonou je tradiční \italic{O doctor optime,}
+  ale text má natolik odlišnou strukturu, že adaptaci nepovažuji za rozumně
+  proveditelnou.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a
+    \bar ";" a( g) \parenthesize f a\breve \bar ";"
+    \bar ";" a4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g) f( a) a \bar ";"
+    \bar ";" a4( g) f g( a) a \bar ";"
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý
+    \markup\concat{\Nomen ,} \skip 1 \skip 1
+    Va -- vřin -- če,
+    Hi -- la -- ri -- e,
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a
+    \bar ";" a( g) \parenthesize f a\breve \bar ";"
+    \bar ";" \mark\sipka a4( g f) f( a) a \bar ";"
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý
+    \markup\concat{\Nomen ,} \skip 1 \skip 1
+    Va -- vřin -- če,
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Prošel jsem celý sanktorál a jména svatých, jejichž antifony se mohou brát
+  z commune učitelů církve, ve vokativu opravdu všechna mají 2-4 slabiky.
+  Jednoslabičný by byl sv. Lev Veliký, ale ten má antifony vlastní;
+  pětislabičný (popř. delší) vokativ jsem nenašel žádný.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a \bar ";" \neviditelna a
+
+    f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
+    a4( g f) \mark\sipka g( a) a \bar ";"
+    a4( g) f g( a) a \bar ";"
+
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup{\Dagger \Nomen}
+
+    Pe -- tře, % Damiani / Chrysolog / Kanisius
+    Va -- vřin -- če, % z Brindisi
+    Hi -- la -- ri -- e,
+
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
