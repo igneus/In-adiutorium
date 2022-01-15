@@ -5,9 +5,10 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
     f4 a c a c a c d c c \barMaior
-    c c c b( a g) g \barMin f f g a f f f \barFinalis
+    c a c bes( a g) g \barMin f f g a g f f \barFinalis
   }
   \addlyrics {
     V_ga -- li -- lej -- ské Ká -- ně by -- la svat -- ba
