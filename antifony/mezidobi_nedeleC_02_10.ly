@@ -49,11 +49,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c d d e( d) d \barMin d d d( e) d c a g \barMaior
-    g f g a g a( c) c c b a g g \barFinalis
+    g4 a c c d( c e d) d \barMin
+    d c d( e) d c a( g) g \barMaior
+    a a a g f g( a) a a c b g g \barFinalis
   }
   \addlyrics {
-    V_ga -- li -- lej -- ské Ká -- ně Je -- žíš zje -- vil svou slá -- vu
+    V_ga -- li -- lej -- ské Ká -- ně
+    Je -- žíš zje -- vil svou slá -- vu
     a je -- ho u -- čed -- ní -- ci v_něj u -- vě -- ři -- li.
   }
   \header {

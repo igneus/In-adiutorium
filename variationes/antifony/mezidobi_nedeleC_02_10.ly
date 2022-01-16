@@ -116,8 +116,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d d e( d) d \barMin d d d( e) d c a g \barMaior
     g f g a g a( c) c c b a g g \barFinalis
@@ -136,6 +139,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c d( c e d) d \barMin
+    d c d( e) d c a( g) g \barMaior
+    a a a g f g( a) a a c b g g \barFinalis
+  }
+  \addlyrics {
+    V_ga -- li -- lej -- ské Ká -- ně
+    Je -- žíš zje -- vil svou slá -- vu
+    a je -- ho u -- čed -- ní -- ci v_něj u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne2c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c d( c e d) d \barMin
+    d c d( e) d c a( g) g \barMaior
+    a a a g f g( a) a a \mark\sipka g f g g \barFinalis
+  }
+  \addlyrics {
+    V_ga -- li -- lej -- ské Ká -- ně
+    Je -- žíš zje -- vil svou slá -- vu
+    a je -- ho u -- čed -- ní -- ci v_něj u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne2c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"3. neděle"}}
 
