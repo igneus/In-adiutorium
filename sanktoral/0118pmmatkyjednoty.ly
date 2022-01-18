@@ -85,7 +85,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
-    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?rozsireno"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?zacatek"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
