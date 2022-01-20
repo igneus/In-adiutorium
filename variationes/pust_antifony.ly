@@ -636,7 +636,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       f4 f( g) g( f) \barMin
@@ -654,6 +654,30 @@
       differentia = "F"
       psalmus = ""
       id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      f4 \mark\sipka g( a) a( g) \barMin
+      f g a f d e d( c) c \barMaior
+      d e f f g a g f f \barFinalis
+    }
+    \addlyrics {
+      Svou věr -- nost
+      ve služ -- bě Bo -- hu a bliž -- ním
+      pro -- ka -- zuj -- me u -- přím -- nou lás -- kou.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
