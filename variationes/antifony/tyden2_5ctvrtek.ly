@@ -596,10 +596,38 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d e( f) f \barMin f g f d e d4.( c) \barMaior
+    d4 d e( f) f f e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    V_Bo -- ha dů -- vě -- řu -- ji a ne -- bu -- du se bát,
+    co mi mů -- že u -- dě -- lat člo -- věk.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 56"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  První divisio není potřeba, už dlouho jsem zvyklý antifonu zpívat bez ohledu na ni:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d e( f) f f g f d e d4.( c) \barMaior
     d4 d e( f) f f e f d( c) d \barFinalis
   }
   \addlyrics {
