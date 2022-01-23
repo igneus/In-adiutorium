@@ -124,8 +124,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g f) g a g a c a a \barMin
-    c d c b g a g f \barFinalis
+    a4 g a c b g a a \barMin
+    a g f f( g) g e e e \barFinalis
   }
   \addlyrics {
     Dnes se na -- pl -- ni -- lo Pís -- mo,
@@ -133,8 +133,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne3c-2ne-mag"
