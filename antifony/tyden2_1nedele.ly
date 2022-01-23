@@ -21,6 +21,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 119-נ"
+    placet = "to je spíš modus VIII"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }

@@ -36,6 +36,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 63"
+    placet = "lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -172,6 +173,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
+    placet = "lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
