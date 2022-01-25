@@ -148,7 +148,7 @@
   \addlyrics {
     Ži -- vot je pro mě Kris -- tus
     a smrt je pro mě zisk.
-    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným
     než kří -- žem
     na -- še -- ho Pá -- na
     Je -- ží -- še Kris -- ta.

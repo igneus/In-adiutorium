@@ -378,6 +378,9 @@
     Je -- ží -- še Kris -- ta.
   }
   \header {
+    textus_approbatus = "Život, to je pro mě Kristus, a smrt je pro mě zisk.
+    Nechci se chlubit ničím jiným
+    než křížem našeho Pána Ježíše Krista."
     quid = "3. ant."
     modus = "I"
     differentia = "D"
