@@ -44,6 +44,40 @@ describe 'typographus.rb', type: :aruba do
       end
     end
 
+    describe '\scoreLyrics' do
+      it 'inserts score lyrics' do
+        write_file 'file.tytex', '\setChantSource{music.ly} \scoreLyrics{#id}'
+        write_file 'music.ly', <<~'EOS'
+        \score {
+          \relative c' { a a }
+          \addlyrics { A -- men. }
+          \header { id = "id" }
+        }
+        EOS
+        run_command_and_stop(cmd)
+
+        expect('file.lytex').to have_file_content file_content_including('Amen.')
+      end
+    end
+
+    describe '\scoreHeader' do
+      it 'inserts value of a score header field' do
+        write_file 'file.tytex', '\setChantSource{music.ly} \scoreHeader{#id}{header_name}'
+        write_file 'music.ly', <<~'EOS'
+        \score {
+          \relative c' { a a }
+          \header {
+            id = "id"
+            header_name = "desired value"
+          }
+        }
+        EOS
+        run_command_and_stop(cmd)
+
+        expect('file.lytex').to have_file_content file_content_including('desired value')
+      end
+    end
+
     describe '\psalm' do
       it 'produces and includes a psalm file' do
         write_file 'file.tytex', '\psalm{Žalm 117}{VIII.G}'

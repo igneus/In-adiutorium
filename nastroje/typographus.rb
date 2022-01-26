@@ -196,6 +196,16 @@ module Typographus
         r
       end
 
+      c.command('scoreLyrics', args: 1) do |ref|
+        score = get_score(*decode_fial(ref))
+        score.header['textus_approbatus'] || score.lyrics_readable
+      end
+
+      c.command('scoreHeader', args: 2) do |ref, header_name|
+        score = get_score(*decode_fial(ref))
+        score.header[header_name]
+      end
+
       c.command('psalmTone', args: 1) do |tone|
         prepare_psalm_tone(tone) + "\n\n"
       end
