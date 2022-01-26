@@ -13,10 +13,10 @@
 \markup\communia #'(#:pastyr)
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g( a) g \barMaior
-    f g a a \barMin a a a( c) g g( a) a \barMaior
+    f4 g g( a) g \barMin
+    f g a a a a a( c) g g( a) a \barMaior
     a g f
     a g f
     a g f( g f) \barMaior
