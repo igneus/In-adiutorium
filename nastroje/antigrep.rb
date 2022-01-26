@@ -19,7 +19,8 @@ scoredirs = [
              '.',
              'antifony',
              'sanktoral',
-             'commune'
+             'commune',
+             'reholni/*',
             ]
 masks = scoredirs.map {|s| s+'/*.ly'}
 masks = masks.join ' '
