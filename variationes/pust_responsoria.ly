@@ -151,6 +151,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g \mark\sipka a f \barMin f g f f g a a( g) \barMax
+    g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a \barMin a a a a g a g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+    zhře -- ši -- li jsme pro -- ti to -- bě.
+    \Verse Kris -- te, vy -- slyš na -- še vo -- lá -- ní a od -- pusť nám,_*
+    \Response zhře -- ši -- li jsme pro -- ti to -- bě.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
 \pageBreak
 
 \score {
