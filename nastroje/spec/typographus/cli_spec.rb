@@ -42,6 +42,22 @@ describe 'typographus.rb', type: :aruba do
         expect('file.lytex').to have_file_content file_content_including('\lilypondfile{typographus_tmp/file_tytex/music_id.ly}')
         expect('typographus_tmp/file_tytex/music_id.ly').to be_an_existing_file
       end
+
+      it 'relative path is relative to tytex file, regardless \setChantBasedir' do
+        write_file 'file.tytex', <<~'EOS'
+        \setChantBasedir{/tmp/somedir}
+        \simpleScore{./music.ly#id}'
+        EOS
+        write_file 'music.ly', <<~'EOS'
+        \score {
+          \relative c' { a b c }
+          \header { id = "id" }
+        }
+        EOS
+        run_command_and_stop(cmd)
+
+        expect('file.lytex').to have_file_content file_content_including('\lilypondfile{typographus_tmp/file_tytex/music_id.ly}')
+      end
     end
 
     describe '\scoreLyrics' do

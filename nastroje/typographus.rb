@@ -44,6 +44,8 @@ module Typographus
     }.freeze
 
     def initialize(fpath)
+      @source_dir = File.dirname fpath
+
       @setup = OpenStruct.new DEFAULT_SETUP
 
       @setup.generated_dir = File.join(@setup.generated_dir, File.basename(fpath).gsub('.', '_'))
@@ -514,7 +516,11 @@ module Typographus
         return
       end
 
-      full_path = File.join @setup.chant_basedir, path
+      # paths starting with . or .. are always considered relative to the tytex file,
+      # regardless chant basedir settings
+      dir = path.start_with?('.') ? @source_dir : @setup.chant_basedir
+
+      full_path = File.join dir, path
       #init_musicsplitter # always, to have fresh setup
       # the values of @split_music_files are LilyPondMusic instances
       @split_music_files[path] = @splitter.split_scores(full_path) do |score_text, score|
