@@ -43,8 +43,8 @@
     \choralniRezim
     c4 b a a g g \barMin
     a g a f e f( g) \barMaior
-    a g a b( c) a \barMin
-    c a g f( g) a( g) g \barFinalis
+    a g a a( c) c \barMin
+    c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě dal Hos -- po -- din
@@ -96,7 +96,7 @@
 
     % V
     \neviditelna a
-    a g f g g( a) \barMax
+    a( bes) a g g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -160,8 +160,8 @@
 
 \markup\justify\italic{
   Modlitba před spaním jako v neděli. Může být ukončena
-  antifonou \upright{Pod ochranu tvou} (\upright{Sub tuum praesidium confugimus})
-  nebo: \upright{Maria, Panno mocná}.
+  antifonou \upright{Pod ochranu tvou} \upright{(Sub tuum praesidium confugimus)}
+  nebo: \upright{Maria, Panno mocná.}
 }
 
 \markup\wordwrap\italic{

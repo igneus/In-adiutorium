@@ -66,12 +66,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b a a g g \barMin
     a g a f e f( g) \barMaior
     a g a b( c) a \barMin
     c a g f( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě dal Hos -- po -- din
+    hla -- do -- vě -- jí -- cím chléb,
+    si -- rot -- kům ot -- ce,
+    mlá -- de -- ži pří -- te -- le.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a a g g \barMin
+    a g a f e f( g) \barMaior
+    a g a \mark\sipka a( c) c \barMin
+    c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě dal Hos -- po -- din
@@ -312,7 +337,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -323,6 +348,36 @@
     % V
     \neviditelna a
     a g f \mark\sipka g g( a) \barMax
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ho za -- mi -- lo -- val_*
+    a za -- hr -- nul ho po -- cta -- mi.
+    \Verse O -- děl ho slá -- vou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g g( a) \barMax
+    a g a g f g f f \barFinalis
+
+    % V
+    \neviditelna a
+    \mark\sipka a( bes) a g g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
