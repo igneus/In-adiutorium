@@ -489,6 +489,17 @@
   }
 }
 
+\markup\italic{
+  O více svatých: responsorium \upright{Spravedliví se radují,}
+  viz společné texty o svatých mužích.
+}
+
+\markup\justify\italic\small{
+  (Toto responsorium figuruje pouze ve čtyřsvazkovém vydání breviáře,
+  a to pouze ve svazcích pro liturgické mezidobí. Mimo liturgické mezidobí
+  se i pro oslavy více svatých žen použijí responsoria výše.)
+}
+
 \score {
   \relative c'' {
     \choralniRezim
