@@ -397,10 +397,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"5. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( g) f a c \barMin
     d d c( a) f \barMin
@@ -423,7 +426,57 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( g) f \mark\sipka g( a) a \barMin
+    bes a g( a) g \barMin
+    g f( e) c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vstou -- pil na loď,
+    po -- sa -- dil se
+    a u -- čil zá -- stu -- py.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) f g( a) a \barMin
+    bes a g( a) \mark\sipka a \barMin
+    a g( a g) f g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vstou -- pil na loď,
+    po -- sa -- dil se
+    a u -- čil zá -- stu -- py.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g( f) g \barMin a bes c bes a g f g g \barMin
@@ -449,6 +502,106 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
+    g4( f) g \barMin a bes c bes a g f g g \barMin
+    g a g f e d d \barMaior
+    c c d e f( a) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, ce -- lou noc jsme se lo -- po -- ti -- li,
+    a nic jsme ne -- chy -- ti -- li.
+    A -- le na tvé slo -- vo spus -- tím sí -- tě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka f( g) g \barMin a bes c bes a g f g g \barMin
+    g a \mark\sipka f e f d d \barMaior
+    c c d e f( a) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, ce -- lou noc jsme se lo -- po -- ti -- li,
+    a nic jsme ne -- chy -- ti -- li.
+    A -- le na tvé slo -- vo spus -- tím sí -- tě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( g) g \barMin a bes c bes a g f g g \barMin
+    g a f e f d d \barMaior
+    c c d e \mark\sipka f( g) g \barMin f( e) f d d \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, ce -- lou noc jsme se lo -- po -- ti -- li,
+    a nic jsme ne -- chy -- ti -- li.
+    A -- le na tvé slo -- vo spus -- tím sí -- tě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4( g) g \barMin a bes c bes a g f g g \barMin
+    g a f e f d d \barMaior
+    c \mark\sipka d f e f( g) g f( e) f d d \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, ce -- lou noc jsme se lo -- po -- ti -- li,
+    a nic jsme ne -- chy -- ti -- li.
+    A -- le na tvé slo -- vo spus -- tím sí -- tě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 a a a b a g( a) g \barMaior
     e( d c) d( e) e \barMin
     f g a a g f g( a) g e e \barFinalis
@@ -468,6 +621,78 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a b g a a \barMaior
+    f g( a) a \barMin
+    a a a a g f g( a) g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ši -- mo -- no -- vi:
+    Ne -- boj se!
+    Od ny -- nějš -- ka bu -- deš lo -- vit li -- di.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g f e e \barMaior
+    d( f e) f( g) g \barMin
+    a a a a g f g( a) g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ši -- mo -- no -- vi:
+    Ne -- boj se!
+    Od ny -- nějš -- ka bu -- deš lo -- vit li -- di.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a g f e e \barMaior
+    d( f e) f( g) g \barMin
+    \mark\sipka f g a a g f g( a) g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ši -- mo -- no -- vi:
+    Ne -- boj se!
+    Od ny -- nějš -- ka bu -- deš lo -- vit li -- di.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"6. neděle"}}
 
