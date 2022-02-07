@@ -12,10 +12,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( a') f e( g) f e( f) d \barMaior
-    d( f d) d( c) c e( g) f d d \barFinalis
+    d4 d d c d f e d( e) d \barMin
+    f g f e d e d \barFinalis
 
-    e^\markup\rubrVelikAleluja g f( d) d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
@@ -25,12 +25,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 10-I"
-    placet = "_soudí spravedlivě_ si nejsem jist -
-    dá se to sice zazpívat důstojně a pěkně, ale je to poměrně divoké a spíš
-    ozdoba pro ozdobu než autentický hudební výraz zhudebněného textu"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -39,11 +36,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') f \barMin
-    e f g g a g e f d \barMaior
-    d d d d( f d) d( c) c e( g) f( d) d \barFinalis
+    d4 c d( f) f \barMin
+    f g f f g f e f d \barMaior
+    e d c d f e c d d \barFinalis
 
-    e^\rubrVelikAleluja g f( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -54,10 +51,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 10-II"
-    placet = "_ty sleduješ_ by šlo lépe"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }

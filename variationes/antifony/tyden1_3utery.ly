@@ -10,6 +10,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( a') f e( g) f e( f) d \barMaior
     d( f d) d( c) c e( g) f d d \barFinalis
@@ -30,6 +31,35 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d d( a') f e( g) f e( f) d \barMaior
+    d( f d) d( c) c e( g) f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    placet = "_soudí spravedlivě_ si nejsem jist -
+    dá se to sice zazpívat důstojně a pěkně, ale je to poměrně divoké a spíš
+    ozdoba pro ozdobu než autentický hudební výraz zhudebněného textu"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') f \barMin
     e f g g a g e f d \barMaior
@@ -46,6 +76,112 @@
     differentia = "D"
     psalmus = "Žalm 10-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( a') f \barMin
+    e f g g a g e f d \barMaior
+    d d d d( f d) d( c) c e( g) f( d) d \barFinalis
+
+    e^\rubrVelikAleluja g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ty sle -- du -- ješ ú -- tra -- py i žal,
+    na te -- be spo -- lé -- há u -- bo -- žák.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 10-II"
+    placet = "_ty sleduješ_ by šlo lépe"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d f e d( e) d \barMin
+    f g f e d e d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d( e) d \barMin
+    f \mark\sipka f d c d e d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d( f) f \barMin
+    f g f f g f e f d \barMaior
+    e d c d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ty sle -- du -- ješ ú -- tra -- py i žal,
+    na te -- be spo -- lé -- há u -- bo -- žák.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-II"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -104,6 +240,79 @@
     f d f g g f \barFinalis
 
     g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f g g \barMin
+    g f g a g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g a a \barMin
+    a g f g g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a a g a f( g) g( a) a \barMin
+    a g( a) g f g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- vy vý -- ro -- ky

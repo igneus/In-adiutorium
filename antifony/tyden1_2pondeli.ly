@@ -12,10 +12,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a b b c c b4. a \barMin
-    g4( a) f f( e) e \barFinalis
+    a4 a g a b c b a a \barMin
+    g4 a f( e) e \barFinalis
 
-    d^\markup\rubrVelikAleluja g g e \barFinalis
+    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Za -- chraň mě pro své sli -- to -- vá -- ní,
@@ -28,7 +28,6 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 6"
-    placet = "lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -37,10 +36,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d c b a c b a g f e f f e( f) e \barMaior
+    a4 a g a b c d c b a g f g g( a) a \barMaior
     f( g a) g( f) e e \barFinalis
 
-    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din bu -- de u -- tla -- čo -- va -- né -- mu ú -- to -- čiš -- těm
@@ -51,9 +50,8 @@
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "b"
+    differentia = "a"
     psalmus = "Žalm 9-I"
-    placet = "lépe"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -62,10 +60,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b b c d d \barMin c b a a \barMaior
-    c b a g( e) e g( a) f e e \barFinalis
+    a4 a g b( c) a c d c( b) a \barMaior
+    g f g g( a) a g( a) f e e \barFinalis
 
-    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Bu -- du tě chvá -- lit, Hos -- po -- di -- ne,
@@ -78,7 +76,6 @@
     modus = "III"
     differentia = "b"
     psalmus = "Žalm 9-II"
-    placet = "lépe"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
