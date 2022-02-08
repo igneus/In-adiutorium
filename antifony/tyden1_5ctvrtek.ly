@@ -12,9 +12,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
+    d4 d c d d( f) d d \barMin e( f d) c c d d \barFinalis
 
-    c^\rubrVelikAleluja d d d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
@@ -26,7 +26,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-IV"
-    placet = "všechny tři opravit"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -35,8 +34,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( c) c \barMin
-    d f e d c c d d \barFinalis
+    c4 d d( f) f \barMin
+    f g f e d c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
@@ -60,10 +59,10 @@
   \relative c' {
     \choralniRezim
     d4 e f d d c \barMaior
-    d( f) f f f( g) f \barMin
-    e d f( e d) c c( d) d \barFinalis
+    d f f f( g) f \barMin
+    e c f e d d \barFinalis
 
-    e^\rubrVelikAleluja f d d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ať ži -- je Hos -- po -- din,

@@ -10,6 +10,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
   }
@@ -28,6 +29,54 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d e f g( f g) e( d c) d \barMin f( e) c e( f) d d \barFinalis
+
+    c^\rubrVelikAleluja d d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-IV"
+    placet = "všechny tři opravit"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) d d \barMin e( f d) c c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) c \barMin
     d f e d c c d d \barFinalis
@@ -48,6 +97,57 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( c) c \barMin
+    d f e d c c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    tvá pra -- vi -- ce mě pod -- pí -- rá.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g f e d c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    tvá pra -- vi -- ce mě pod -- pí -- rá.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f d d c \barMaior
     d( f) f f f( g) f \barMin
@@ -64,6 +164,86 @@
     differentia = "D"
     psalmus = "Žalm 18-VI"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 e f d d c \barMaior
+    d( f) f f f( g) f \barMin
+    e d f( e d) c c( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je Hos -- po -- din,
+    slá -- va buď Bo -- hu,
+    mé -- mu spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-VI"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f d d c \barMaior
+    \mark\sipka d f f f( g) f \barMin
+    \mark\sipka e c f e d d \barFinalis
+
+    e^\rubrVelikAleluja f \mark\sipka d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je Hos -- po -- din,
+    slá -- va buď Bo -- hu,
+    mé -- mu spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-VI"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d f f \barMaior
+    g f g g( f) f \barMin
+    e c e f d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je Hos -- po -- din,
+    slá -- va buď Bo -- hu,
+    mé -- mu spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-VI"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
