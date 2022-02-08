@@ -12,10 +12,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c d) c( b) a g b c a a \barMin
-    c( d c) a a \barFinalis
+    a4 c d d e c d d \barMin
+    c( a) g( a) a \barFinalis
 
-    g^\rubrVelikAleluja g g( a) a \barFinalis
+    b^\rubrVelikAleluja c a a \barFinalis
   }
   \addlyrics {
     Mi -- lu -- ji tě, Hos -- po -- di -- ne,
@@ -28,7 +28,6 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 18-I"
-    placet = "tohle je jasný modus II"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -37,10 +36,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a c d d e( d c) d d( c) c \barMin
-    d c a g b( c) a \barFinalis
+    a c d d e c d d \barMin
+    c b a g b( c) a \barFinalis
 
-    g^\rubrVelikAleluja g g( a) a \barFinalis
+    b^\rubrVelikAleluja c a a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě vy -- svo -- bo -- dil,
@@ -61,10 +60,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c d c d e( d) d \barMin
-    c d d( c a) a \barFinalis
+    a4 c d d c e( d) d \barMin
+    c a b( c a) a \barFinalis
 
-    g^\rubrVelikAleluja g g( a) a \barFinalis
+    g^\rubrVelikAleluja c b( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé svět -- lo
