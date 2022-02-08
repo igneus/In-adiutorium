@@ -96,8 +96,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( b a) g( a) a \barMin g f d( e) e \barMaior
-    f g a( c) b a d( c b) a g a g g \barFinalis
+    a4 a g( f e) d( e) e \barMin c d d( e) e \barMaior
+    f g a a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Kdo se po -- ní -- ží ja -- ko dí -- tě,
@@ -105,10 +105,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 131"
-    placet = "lépe"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }

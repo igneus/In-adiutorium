@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( b a) g( a) a \barMin g f d( e) e \barMaior
     f g a( c) b a d( c b) a g a g g \barFinalis
@@ -26,6 +27,67 @@
     differentia = "G"
     psalmus = "Žalm 131"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g g \barMin f g g( a) a \barMaior
+    a a a g f g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( f e) d( e) e \barMin c d d( e) e \barMaior
+    f g a a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin c b a( b) b \barMaior
+    d f e c d( c) \barMin b( c) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
