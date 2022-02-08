@@ -10,6 +10,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 g a( c) a \barMin c( b) c d( c a) a \barMaior
     b( g) g a g f g g e e \barFinalis
@@ -29,7 +30,32 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    e4 g a( c) a \barMin c( b) c d( c a) a \barMaior
+    b( g) g a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
+    po -- hleď na na -- še po -- ha -- ně -- ní.
+
+    % v breviari neni aleluja
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 89-IV"
+    placet = "obě lépe"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d b b c a b g a f e \barMaior
     f( g a c) b g a f e e \barFinalis
@@ -44,6 +70,155 @@
     differentia = "a"
     psalmus = "Žalm 89-V"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 b c d b b c a b g a f e \barMaior
+    f( g a c) b g a f e e \barFinalis
+
+    d(^\rubrVelikAleluja e) f( g) a( f) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 89-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a a a g f g g f f \barMaior
+    f( g f) d( e) c f( g) g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a a a g f g g f f \barMaior
+    f( g f) \mark\sipka d d( f) \barMin g( a) g f f \barFinalis
+
+    g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( f) f \barMin g( a) g f( g) g \barMaior
+    a( g f g) f( d) \barMin f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
+    po -- hleď na na -- še po -- ha -- ně -- ní.
+
+    % v breviari neni aleluja
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 89-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e( d) c \barMin f( g) a a( g) g \barMaior
+    a( g f g) f( d) \barMin f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
+    po -- hleď na na -- še po -- ha -- ně -- ní.
+
+    % v breviari neni aleluja
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 89-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 c d d( a' bes) a a \barMin
+    a a g f g( a) g g \barMaior
+    a( bes a) g( f) d d( e) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je vý -- ho -- nek
+    z_Da -- vi -- do -- va ko -- ře -- ne,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 89-V"
+    id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

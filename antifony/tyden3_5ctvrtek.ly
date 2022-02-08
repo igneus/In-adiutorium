@@ -12,8 +12,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g a( c) a \barMin c( b) c d( c a) a \barMaior
-    b( g) g a g f g g e e \barFinalis
+    d4 f e( d) c \barMin f( g) a a( g) g \barMaior
+    a( g f g) f( d) \barMin f e c e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
@@ -23,33 +23,34 @@
   }
   \header {
     quid = "1. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 89-IV"
-    placet = "obě lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b c d b b c a b g a f e \barMaior
-    f( g a c) b g a f e e \barFinalis
+    e4 c d d( a' bes) a a \barMin
+    a a g f g( a) g g \barMaior
+    a( bes a) g( f) d d( e) c d d \barFinalis
 
-    d(^\rubrVelikAleluja e) f( g) a( f) e \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Kris -- tus je vý -- ho -- nek z_Da -- vi -- do -- va ko -- ře -- ne,
+    Kris -- tus je vý -- ho -- nek
+    z_Da -- vi -- do -- va ko -- ře -- ne,
     zá -- ři -- vá jitř -- ní hvěz -- da.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 89-V"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
