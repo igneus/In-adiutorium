@@ -60,12 +60,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g f e( f) d d \barMin
-    e e( g) f e d d \barFinalis
+    f4 f f g f g a a \barMin
+    g f g( a) g f f \barFinalis
 
-    f^\rubrVelikAleluja e c( d) d \barFinalis
+    g^\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- vy vý -- ro -- ky
@@ -75,10 +75,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 12"
-    placet = "aleluja k antifoně nesedí"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }

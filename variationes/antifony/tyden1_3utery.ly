@@ -210,7 +210,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g f e( f) d d \barMin
     e \mark\sipka e( g) f e d d \barFinalis
@@ -260,10 +260,83 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f g f g( a) a g \barMin
+    f g a a g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g f f g g \barMin
     g f g a g( f) f \barFinalis
 
     g^\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f f g f g a a \barMin
+    g f g a g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g f g a a \barMin
+    g f \mark\sipka g( a) g f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- no -- vy vý -- ro -- ky
@@ -307,6 +380,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g f g g a a \barMin
+    \mark\sipka g a( c) b g a g \barFinalis
+
+    f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     a4 a a g a f( g) g( a) a \barMin
@@ -324,6 +421,78 @@
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f f( g) f f \barMin
+    d f g a f f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d b c c a \barMin
+    f g a f g f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 12"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
