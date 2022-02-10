@@ -546,17 +546,40 @@
   Pro zhudebnění byl použit text nalezený na \sans\with-url #"http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz}
 }
 
+\markup\justify{
+  Jak jsem upravoval novodobý tkzv. tonus simplex Salve Regina
+  i pro ten nepěkný český text otištěný v Denní modlitbě církve,
+  přišla mi slina na to, ze stejné vody uvařit i nápěv pro
+  \italic{Maria, Panno mocná.}
+  A vzhledem k době vzniku té modlitby ráz použitého nápěvu snad i celkem sedí.
+}
+
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 c e g g a g \barMaior
+    g g( a) g a c b a g g \barMin
+    c,( d f) e d( c) c \barFinalis
+    g' a c c d c \barMin
+    d f e d c a a \barMaior
+    a f g g a g f f( g) f f \barMin
+    e d c( d) c d f e d( c) c \barFinalis
+    g'( a c) d( c) c \barMin
+    c b c a g f g a g g \barMaior
+    a g f e d c e f g g \barFinalis
+    g g f e d( c) d \barMin
+    d d c d f e d c c \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a, Pan -- no moc -- ná,
-    ty vel -- ká a slav -- ná zášti -- to sva -- té Cír -- kve;
-    ty po -- di -- vu -- hod -- ná po -- moc -- ni -- ce křes -- ťa -- nů;
-    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la všech -- ny blu -- dy na ce -- lém svě -- tě;
-    o -- chraň nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
+    ty vel -- ká a slav -- ná zá -- šti -- to
+    sva -- té Cír -- kve;
+    ty po -- di -- vu -- hod -- ná
+    po -- moc -- ni -- ce křes -- ťa -- nů;
+    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la
+    všech -- ny blu -- dy na ce -- lém svě -- tě;
+    o -- chraň
+    nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
     v_na -- šich zá -- pa -- sech a v_na -- šich tís -- ních,
     a v_ho -- di -- ně smr -- ti
     při -- jmi na -- ši du -- ši do rá -- je.
@@ -566,7 +589,51 @@
     % text z http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/
     % protože v propriu se na modlitbu pouze odkazuje, ale není otištěna
     quid = "ant."
-    modus = ""
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "pannomocna"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 c e g g a g \barMaior
+    g g( a) g a c b a g g \barMin
+    c,( d f) e d( c) c \barFinalis
+    g' a c c d c \barMin
+    \mark\sipka c d c b a g g \barMaior
+    \mark\sipka g f g g a g f \mark\sipka e d e \barMin
+    \mark\sipka c d d( e) e d f e d( c) c \barFinalis
+    g'( a c) d( c) c \barMin
+    c b c a g f g a g g \barMaior
+    a g f e d c e f g g \barFinalis
+    g g f e d( c) d \barMin
+    d d c d f e d c c \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a, Pan -- no moc -- ná,
+    ty vel -- ká a slav -- ná zá -- šti -- to
+    sva -- té Cír -- kve;
+    ty po -- di -- vu -- hod -- ná
+    po -- moc -- ni -- ce křes -- ťa -- nů;
+    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la
+    všech -- ny blu -- dy na ce -- lém svě -- tě;
+    o -- chraň
+    nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
+    v_na -- šich zá -- pa -- sech a v_na -- šich tís -- ních,
+    a v_ho -- di -- ně smr -- ti
+    při -- jmi na -- ši du -- ši do rá -- je.
+    A -- men. % nechat? vypustit? v antifonach nebyva
+  }
+  \header {
+    % text z http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/
+    % protože v propriu se na modlitbu pouze odkazuje, ale není otištěna
+    quid = "ant."
+    modus = "V"
     differentia = ""
     psalmus = ""
     id = "pannomocna"

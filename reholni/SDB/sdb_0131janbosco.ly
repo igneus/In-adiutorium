@@ -165,21 +165,36 @@
 }
 
 \markup\wordwrap\italic{
-  Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není, její znalost se zřejmě předpokládá.
-  Pro zhudebnění byl použit text nalezený na \sans\with-url "http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz}
+  (Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není, její znalost se zřejmě předpokládá.
+  Pro zhudebnění byl použit text nalezený na \concat { \with-url "http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz} ")" }
 }
 
 \score {
   \relative c' {
     \choralniRezim
-
+    e4 c e g g a g \barMaior
+    g g( a) g a c b a g g \barMin
+    c,( d f) e d( c) c \barFinalis
+    g' a c c d c \barMin
+    c d c b a g g \barMaior
+    g f g g a g f e d e \barMin
+    c d d( e) e d f e d( c) c \barFinalis
+    g'( a c) d( c) c \barMin
+    c b c a g f g a g g \barMaior
+    a g f e d c e f g g \barFinalis
+    g g f e d( c) d \barMin
+    d d c d f e d c c \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a, Pan -- no moc -- ná,
-    ty vel -- ká a slav -- ná zášti -- to sva -- té Cír -- kve;
-    ty po -- di -- vu -- hod -- ná po -- moc -- ni -- ce křes -- ťa -- nů;
-    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la všech -- ny blu -- dy na ce -- lém svě -- tě;
-    o -- chraň nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
+    ty vel -- ká a slav -- ná zá -- šti -- to
+    sva -- té Cír -- kve;
+    ty po -- di -- vu -- hod -- ná
+    po -- moc -- ni -- ce křes -- ťa -- nů;
+    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la
+    všech -- ny blu -- dy na ce -- lém svě -- tě;
+    o -- chraň
+    nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
     v_na -- šich zá -- pa -- sech a v_na -- šich tís -- ních,
     a v_ho -- di -- ně smr -- ti
     při -- jmi na -- ši du -- ši do rá -- je.
@@ -189,7 +204,7 @@
     % text z http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/
     % protože v propriu se na modlitbu pouze odkazuje, ale není otištěna
     quid = "ant."
-    modus = ""
+    modus = "V"
     differentia = ""
     psalmus = ""
     id = "pannomocna"
