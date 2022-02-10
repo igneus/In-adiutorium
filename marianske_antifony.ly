@@ -7,12 +7,6 @@
 
 \include "spolecne.ly"
 
-\markup\justify{
-  Texty antifon
-  \italic{Zdrávas, Královno} a \italic{Pod ochranu tvou}
-  podle Jednotného kancionálu (č. 007 a 008).
-}
-
 \score {
   \relative c' {
     \choralniRezim
@@ -104,13 +98,80 @@
     ó pře -- slad -- ká Pan -- no, Ma -- ri -- a!
   }
   \header {
-    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 368."
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 368; text Kancionál, 007"
     quid = "ant."
     modus = "V"
     differentia = ""
     psalmus = ""
     poet = "Jednotný kancionál (30. vyd., 2004) 007"
     id = "salve"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c e g a g \barMin
+    a c b g a g g \barMaior
+    c b a g \barMin
+    e g e \barMin
+    d d e f g e c d c \barFinalis
+
+    g' a b c g \barMin
+    a b c b g a g g \barFinalis
+    c g g a g f e d e \barMin
+    f d e f e d c c \barFinalis
+
+    g' g a b c b a g a g \barMin
+    g a g f e d( e) e \barFinalis
+    e e c e g a g g \barMin
+    a c b a g g \barMaior
+    g( a g) f( e) d e \barMin
+    c f e d c c \barFinalis
+
+    e( f g) e f d( c) c \barFinalis
+
+    g'( a b) c b a( g) g \barFinalis
+
+    g( a f e d) e \barMin
+    c d f( e) d( c) c \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Krá -- lov -- no,
+    Mat -- ko mi -- lo -- sr -- den -- ství;
+    ži -- vo -- te náš,
+    ra -- dos -- ti
+    a na -- dě -- je na -- še, buď zdrá -- va!
+
+    K_to -- bě vo -- lá -- me,
+    vy -- hna -- né dě -- ti E -- vi -- ny,
+
+    k_to -- bě se s_plá -- čem u -- tí -- ká -- me
+    v_tom -- to sl -- za -- vém ú -- do -- lí.
+
+    Ob -- rať k_nám své mi -- lo -- srd -- né o -- či,
+    o -- ro -- dov -- ni -- ce na -- še,
+
+    a po tom -- to pu -- to -- vá -- ní
+    nám u -- kaž Je -- ží -- še,
+    po -- žeh -- na -- ný
+    plod své -- ho ži -- vo -- ta.
+
+    Ó mi -- los -- ti -- vá,
+
+    ó pří -- vě -- ti -- vá,
+
+    sva -- tá
+    Pan -- no Ma -- ri -- a!
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 368."
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "salve2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -136,7 +197,7 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná!
   }
   \header {
-    fons_externus = "volně podle AR 1912, [92]."
+    fons_externus = "volně podle AR 1912, [92]; text Kancionál, 008"
     quid = "ant."
     modus = "VII"
     differentia = ""
