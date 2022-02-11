@@ -451,7 +451,7 @@
   \addlyrics {
     Pa -- ne,
     na -- uč nás mod -- lit se,
-    js -- ko i Jan na -- u -- čil své u -- čed -- ní -- ky.
+    ja -- ko i Jan na -- u -- čil své u -- čed -- ní -- ky.
   }
   \header {
     quid = "ant. k Magnificat"
