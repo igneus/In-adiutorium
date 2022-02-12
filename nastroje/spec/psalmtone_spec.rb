@@ -99,7 +99,7 @@ describe PsalmTone do
     end
 
     it 'adds recitanda by default' do
-      tone_ii.lilify(tone_ii.mediatio).should eq 'f4 f g-! \parenthesize f f'
+      tone_ii.lilify(tone_ii.mediatio).should eq 'f\breve*1/8 g4-! \parenthesize f f'
     end
 
     it 'translates h and b' do
@@ -146,9 +146,9 @@ describe PsalmTone do
   \relative c\' {
     \choralniRezim
     c4 d
-    f4 f f-! \parenthesize d d \barMin
-    f4 f g-! \parenthesize f f \barMaior
-    f4 f e c-! \parenthesize d d \barFinalis
+    f\breve*1/8 f4-! \parenthesize d d \barMin
+    f\breve*1/8 g4-! \parenthesize f f \barMaior
+    f\breve*1/8 e4 c-! \parenthesize d d \barFinalis
   }
   \header {
     modus = "II"

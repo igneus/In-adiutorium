@@ -103,7 +103,7 @@ class PsalmTone
   def lilify(part, recitanda=true)
     r = ''
     if recitanda then
-      r += ((tenor.is_a?(Array) ? tenor.first : tenor) + ' ') * 2
+      r += ((tenor.is_a?(Array) ? tenor.first : tenor) + '= ')
     end
     r += part
 
@@ -122,8 +122,10 @@ class PsalmTone
 
     r.gsub!('-', '-!') # accents
     r.gsub!(/\{(\w{1})\}/, '\parenthesize \1') # optional notes
+    r.gsub!('=', '\breve*1/8') # recitanda - breve taking horizontal space like a normal quarter note
 
-    r.sub!(/^(\w+)/) { $1 + '4' } # add duration to the very first note
+    add_duration_to = recitanda ? /(?<=\s)(\w+[,']*)/ : /^(\w+[,']*)/
+    r.sub!(add_duration_to) { $1 + '4' } # add duration to the first or second note
 
     return r
   end
