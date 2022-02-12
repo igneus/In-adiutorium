@@ -7,6 +7,13 @@
 
 \include "spolecne.ly"
 
+\markup\justify{
+  Antifony
+  \italic{Zdrávas, Královno} a \italic{Pod ochranu tvou}
+  jsou zhudebněny jednak ve známějším a latinské předloze bližším znění
+  z Kancionálu, jednak v tom, které je otištěno v Denní modlitbě církve.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -204,6 +211,36 @@
     psalmus = ""
     poet = "Jednotný kancionál (30. vyd., 2004) 008 - jen první část, odpovídající tomu, co jako text mariánské antifony uvádí DMC"
     id = "subtuum"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e c e g g a f g g \barMin
+    g g f e d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e f f( g) g \barMin
+    g g g f e d( e) e \barMaior
+    c d d( e) e e f d c c \barFinalis
+  }
+  \addlyrics {
+    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    Ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

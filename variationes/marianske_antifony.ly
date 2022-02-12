@@ -981,8 +981,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    e4 e c e g g a f g g \barMin
+    g g f e d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e d d( e) e \barMin
   }
   \addlyrics {
     Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
@@ -994,6 +999,100 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná.
   }
   \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e c e g g a f g g \barMin
+    g g f e d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e f g g \barMin
+    g g g f e d( e) e \barMaior
+    c d d( e) e e f d c c \barFinalis
+  }
+  \addlyrics {
+    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    Ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e c e g g a f g g \barMin
+    g g f e d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e f \mark\sipka f( g) g \barMin
+    g g g f e d( e) e \barMaior
+    c d d( e) e e f d c c \barFinalis
+  }
+  \addlyrics {
+    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    Ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d c d e e d \barMin
+    d d c a c c b \barMaior
+    g g b c d c d( e) d \barMin
+    d c d d d c b a( b) b \barMaior
+    a g a c b a c( d) d \barMin
+    d d d c b a( b) b \barMaior
+    a g a( c) b b c a g g \barFinalis
+  }
+  \addlyrics {
+    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    Ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    fons_externus = "volně podle AR 1912, [92]."
     quid = "ant."
     modus = "VII"
     differentia = ""
