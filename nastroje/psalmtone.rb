@@ -127,14 +127,7 @@ class PsalmTone
   end
 
   def octave
-    octave = "c'"
-
-    # this is quite dirty and not at all universal ...
-    if ['_II', 'III', 'IV', 'IV alt', 'VII', 'VIII', 'per'].include? @name then
-      octave = "c''"
-    end
-
-    return octave
+    @data['relative'] || "c'"
   end
 end
 

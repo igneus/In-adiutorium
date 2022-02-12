@@ -32,6 +32,7 @@ describe PsalmTone do
       terminatio:
         D: e c- {d} d
     VII:
+      relative: c''
       inchoatio: ch cd
       tenor: d
       flexa: d- {c} c
@@ -39,6 +40,7 @@ describe PsalmTone do
       terminatio:
         a: e- {d} d c- {c} ha
     VIII:
+      relative: c''
       inchoatio: g a
       tenor: c
       flexa: c- {a} a

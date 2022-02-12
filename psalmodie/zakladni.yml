@@ -26,6 +26,7 @@ II:
   terminatio:
     D: e c- {d} d
 _II:
+  relative: c''
   inchoatio: g a
   tenor: c
   flexa: c- {a} a
@@ -33,6 +34,7 @@ _II:
   terminatio:
     A: h g- {a} a
 III:
+  relative: c''
   inchoatio: g ac
   tenor: c
   flexa: c- {a} a
@@ -44,6 +46,7 @@ III:
     g: ch ah a- {g} g
     g2: a c h a- {g} g
 IV:
+  relative: c''
   inchoatio: a ga
   tenor: a
   flexa: a- {g} g
@@ -52,6 +55,7 @@ IV:
     g: a- {g} g
     E: g a ha {g} gf- e
 IV alt:
+  relative: c''
   inchoatio: d cd
   tenor: d
   flexa: d- {c} c
@@ -83,6 +87,7 @@ VI alt:
   terminatio:
     F: f ga g- {f} f
 VII:
+  relative: c''
   inchoatio: ch cd
   tenor: d
   flexa: d- {c} c
@@ -94,6 +99,7 @@ VII:
     c2: e- {d} d c- {c} dc
     d: e- {d} d c- {c} hd
 VIII:
+  relative: c''
   inchoatio: g a
   tenor: c
   flexa: c- {a} a
@@ -103,6 +109,7 @@ VIII:
     G*: h c a- {g} ga
     c: a c d- {c} c
 per:
+  relative: c''
   inchoatio: ab
   tenor: [a, g]
   flexa: a- {g} g
