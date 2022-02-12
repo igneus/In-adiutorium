@@ -52,6 +52,7 @@ describe PsalmTone do
         c: a c d- {c} c
     EOS
   end
+  let(:data) { YAML.load data_yaml }
 
   let(:group) { PsalmToneGroup.from_yaml data_yaml }
   let(:tone_ii) { group['II'] }
@@ -121,17 +122,21 @@ describe PsalmTone do
   end
 
   describe '#octave' do
+    let(:tone_data) { data['II'] }
+    let(:tone) { described_class.new tone_data, 'tone name' }
 
-    it "chooses c' for low tones" do
-      tone_ii.octave.should eq "c'"
+    describe 'by default' do
+      it "chooses c'" do
+        tone.octave.should eq "c'"
+      end
     end
 
-    it "chooses c'' for high tones" do
-      tone_viii.octave.should eq "c''"
-    end
+    describe 'key "relative" set' do
+      it "uses whatever is found there" do
+        tone_data.update('relative' => 'f,,')
 
-    it "chooses c'' for tones beginning 'low' and ending 'lower'" do
-      tone_vii.octave.should eq "c''"
+        tone.octave.should eq "f,,"
+      end
     end
   end
 
