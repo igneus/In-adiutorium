@@ -98,6 +98,8 @@ class PsalmTone
       terminatio == t2.terminatio
   end
 
+  # translate custom little "psalm tone definition language"
+  # to standard LilyPond notes
   def lilify(part, recitanda=true)
     r = ''
     if recitanda then
@@ -105,23 +107,23 @@ class PsalmTone
     end
     r += part
 
+    # melisms
     r.gsub!(/(\w{2,100})(-?)/) do 
-      notes_raw = $1
       accent_mark = $2
       notes = $1.split('')
-      notes[0] += '('
-      if accent_mark.start_with? '-' then
-        notes[0] += '-!'
-      end
+      notes[0] += "(#{accent_mark}"
       notes[-1] += ')'
       notes.join(' ')
     end
+
+    # note names
     r.gsub!('b', 'bes')
     r.gsub!('h', 'b')
-    r.gsub!(/((\w{1})-)/) { $2+'-!' }
-    r.gsub!(/(\{(\w{1})\})/) { '\parenthesize ' + $2}
 
-    r.insert((r.index(/[^\w]/) or -1), '4') # add duration to the very first note
+    r.gsub!('-', '-!') # accents
+    r.gsub!(/\{(\w{1})\}/, '\parenthesize \1') # optional notes
+
+    r.sub!(/^(\w+)/) { $1 + '4' } # add duration to the very first note
 
     return r
   end
