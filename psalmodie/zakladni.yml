@@ -1,20 +1,14 @@
 ---
 #podle Liber usualis 196x
 #- ta sada napevu, ktera je s projektem In adiutorium od zacatku
-#
-#format:
-#  - inchoatio
-#  - tenor
-#  - flexa
-#  - mediatio
-#  - terminatio(nes)
 
 I:
-  - f ga
-  - a
-  - a- {g} g
-  - b- {a} a g- {a} a
-  - D: g f ga- {g} gfed
+  inchoatio: f ga
+  tenor: a
+  flexa: a- {g} g
+  mediatio: b- {a} a g- {a} a
+  terminatio:
+    D: g f ga- {g} gfed
     "D'": g f g- {g} gfed
     D2: g f {g} gf- d
     f: g f ga- {g} gf
@@ -25,82 +19,92 @@ I:
     a2: g f g- {g} ga
     a3: g f ga- {g} ga
 II:
-  - c d
-  - f
-  - f- {d} d
-  - g- {f} f
-  - D: e c- {d} d
+  inchoatio: c d
+  tenor: f
+  flexa: f- {d} d
+  mediatio: g- {f} f
+  terminatio:
+    D: e c- {d} d
 _II:
-  - g a
-  - c
-  - c- {a} a
-  - d- {c} c
-  - A: h g- {a} a
+  inchoatio: g a
+  tenor: c
+  flexa: c- {a} a
+  mediatio: d- {c} c
+  terminatio:
+    A: h g- {a} a
 III:
-  - g ac
-  - c
-  - c- {a} a
-  - d- {c} c {c} ha- c
-  - b: a c- {c} h
+  inchoatio: g ac
+  tenor: c
+  flexa: c- {a} a
+  mediatio: d- {c} c {c} ha- c
+  terminatio:
+    h: a c- {c} h
     a: a c- {c} ha
     a2: ch ah a- {g} ga
     g: ch ah a- {g} g
     g2: a c h a- {g} g
 IV:
-  - a ga
-  - a
-  - a- {g} g
-  - g a h- {a} a
-  - g: a- {g} g
+  inchoatio: a ga
+  tenor: a
+  flexa: a- {g} g
+  mediatio: g a h- {a} a
+  terminatio:
+    g: a- {g} g
     E: g a ha {g} gf- e
 IV alt:
-  - d cd
-  - d
-  - d- {c} c
-  - c d e- {d} d
-  - c: d- {c} c
+  inchoatio: d cd
+  tenor: d
+  flexa: d- {c} c
+  mediatio: c d e- {d} d
+  terminatio:
+    c: d- {c} c
     A: c d e c- {a} a
     A*: c d e c- {a} ah
     d: c d e c- {d} d
 V:
-  - f a
-  - c
-  - c- {a} a
-  - d- {c} c
-  - a: d- {h} h c- {a} a
+  inchoatio: f a
+  tenor: c
+  flexa: c- {a} a
+  mediatio: d- {c} c
+  terminatio:
+    a: d- {h} h c- {a} a
 VI:
-  - f ga
-  - a
-  - a- {g} g
-  - a g a- {f} f
-  - F: f ga g- {f} f
+  inchoatio: f ga
+  tenor: a
+  flexa: a- {g} g
+  mediatio: a g a- {f} f
+  terminatio:
+    F: f ga g- {f} f
 VI alt:
-  - f ga
-  - a
-  - a- {g} g
-  - b- {a} a g- {a} a
-  - F: f ga g- {f} f
+  inchoatio: f ga
+  tenor: a
+  flexa: a- {g} g
+  mediatio: b- {a} a g- {a} a
+  terminatio:
+    F: f ga g- {f} f
 VII:
-  - ch cd
-  - d
-  - d- {c} c
-  - f- {e} e d- {e} e
-  - a: e- {d} d c- {c} ha
+  inchoatio: ch cd
+  tenor: d
+  flexa: d- {c} c
+  mediatio: f- {e} e d- {e} e
+  terminatio:
+    a: e- {d} d c- {c} ha
     b: e- {d} d c- {c} h
     c: e- {d} d c- {c} hc
     c2: e- {d} d c- {c} dc
     d: e- {d} d c- {c} hd
 VIII:
-  - g a
-  - c
-  - c- {a} a
-  - d- {c} c
-  - G: h c a- {g} g
+  inchoatio: g a
+  tenor: c
+  flexa: c- {a} a
+  mediatio: d- {c} c
+  terminatio:
+    G: h c a- {g} g
     G*: h c a- {g} ga
     c: a c d- {c} c
 per:
-  - ab
-  - [a, g]
-  - a- {g} g
-  - g b a g- {f} f
-  - d, f- {f} ed
+  inchoatio: ab
+  tenor: [a, g]
+  flexa: a- {g} g
+  mediatio: g b a g- {f} f
+  terminatio: d, f- {f} ed

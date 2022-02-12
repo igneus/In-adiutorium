@@ -10,14 +10,22 @@ require 'yaml'
 class PsalmTone
 
   def initialize(data, name)
-    @inchoatio, @tenor, @flexa, @mediatio, @terminatio = data
+    @data = data
     @name = name
   end
 
-  attr_reader :inchoatio, :tenor, :flexa, :mediatio, :terminatio
+  attr_reader :name
+
+  %w(inchoatio tenor flexa mediatio terminatio).each do |i|
+    define_method i do
+      raise "key #{i.inspect} not defined in tone #{name.inspect}" unless @data.key? i
+
+      @data[i]
+    end
+  end
 
   def differentiae
-    @terminatio.is_a?(Hash) ? @terminatio.size : 1
+    terminatio.is_a?(Hash) ? terminatio.size : 1
   end
 
   # gets a copy of self with just one termination variant
@@ -25,13 +33,10 @@ class PsalmTone
     if differentiae == 1 then
       return self
     else
-      return self.class.new([
-        inchoatio.dup,
-        tenor.dup,
-        flexa.dup,
-        mediatio.dup,
-        {differentia => terminatio[differentia].dup}
-      ], @name)
+      single_data = @data.merge(
+        'terminatio' => {differentia => terminatio[differentia].dup}
+      )
+      return self.class.new(single_data, @name)
     end
   end
 
@@ -39,7 +44,7 @@ class PsalmTone
     if differentiae == 1 then
       return [self]
     else
-      return @terminatio.collect do |t|
+      return terminatio.collect do |t|
         code, music = t
         get(code)
       end
@@ -51,14 +56,14 @@ class PsalmTone
       raise "This tone has #{differentiae} differentia. Use #get to reduce it to one, then call #to_lilypond..."
     end
 
-    inch = lilify @inchoatio, false
-    flex = lilify @flexa
-    med = lilify @mediatio
-    if @terminatio.is_a?(Hash) then
-      term = lilify(@terminatio.values.first) 
-      diff = @terminatio.keys.first
+    inch = lilify inchoatio, false
+    flex = lilify flexa
+    med = lilify mediatio
+    if terminatio.is_a?(Hash) then
+      term = lilify(terminatio.values.first)
+      diff = terminatio.keys.first
     else
-      term = lilify(@terminatio)
+      term = lilify(terminatio)
       diff = ''
     end
 
@@ -97,8 +102,7 @@ class PsalmTone
   def lilify(part, recitanda=true)
     r = ''
     if recitanda then
-      tenor = (@tenor.is_a?(Array) ? @tenor.first : @tenor)
-      r += (tenor+' ')*2
+      r += ((tenor.is_a?(Array) ? tenor.first : tenor) + ' ') * 2
     end
     r += part
 

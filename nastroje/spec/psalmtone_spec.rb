@@ -4,11 +4,11 @@ describe PsalmToneGroup do
 
   before :each do
     @data_yaml = "II:
-    - c d
-    - f
-    - f- {d} d
-    - g- {f} f
-    - e c- {d} d"
+    inchoatio: c d
+    tenor: f
+    flexa: f- {d} d
+    mediatio: g- {f} f
+    differentiae: e c- {d} d"
 
     @group = PsalmToneGroup.from_yaml @data_yaml
   end
@@ -25,25 +25,28 @@ describe PsalmTone do
   before :each do
     @data_yaml = "
     II:
-    - c d
-    - f
-    - f- {d} d
-    - g- {f} f
-    - D: e c- {d} d
+      inchoatio: c d
+      tenor: f
+      flexa: f- {d} d
+      mediatio: g- {f} f
+      terminatio:
+        D: e c- {d} d
     VII:
-    - ch cd
-    - d
-    - d- {c} c
-    - f- {e} e c- {e} e
-    - a: e- {d} d c- {c} ha
+      inchoatio: ch cd
+      tenor: d
+      flexa: d- {c} c
+      mediatio: f- {e} e c- {e} e
+      terminatio:
+        a: e- {d} d c- {c} ha
     VIII:
-    - g a
-    - c
-    - c- {a} a
-    - d- {c} c
-    - G: b c a- {g} g
-      G*: b c a- {g} ga
-      c: a c d- {c} c"
+      inchoatio: g a
+      tenor: c
+      flexa: c- {a} a
+      mediatio: d- {c} c
+      terminatio:
+        G: b c a- {g} g
+        G*: b c a- {g} ga
+        c: a c d- {c} c"
 
     @group = PsalmToneGroup.from_yaml @data_yaml
     @tone_ii = @group['II']
@@ -64,13 +67,13 @@ describe PsalmTone do
     end
 
     it 'returns a copy of self with just the selected differentia' do
-      viii_G = PsalmTone.new([
-        @tone_viii.inchoatio,
-        @tone_viii.tenor,
-        @tone_viii.flexa,
-        @tone_viii.mediatio,
-        {'G' => @tone_viii.terminatio['G']}
-      ], 'VIII')
+      viii_G = PsalmTone.new({
+        'inchoatio' => @tone_viii.inchoatio,
+        'tenor' => @tone_viii.tenor,
+        'flexa' => @tone_viii.flexa,
+        'mediatio' => @tone_viii.mediatio,
+        'terminatio' => {'G' => @tone_viii.terminatio['G']}
+      }, 'VIII')
       @tone_viii.get('G').should eq viii_G
     end
   end
