@@ -95,11 +95,11 @@ describe PsalmTone do
     end
 
     it 'converts accent and optional note' do
-      tone_ii.lilify(tone_ii.mediatio, false).should eq 'g4-! \parenthesize f f'
+      tone_ii.lilify(tone_ii.mediatio, false).should eq 'g4^! \parenthesize f f'
     end
 
     it 'adds recitanda by default' do
-      tone_ii.lilify(tone_ii.mediatio).should eq 'f\breve*1/8 g4-! \parenthesize f f'
+      tone_ii.lilify(tone_ii.mediatio).should eq 'f\breve*1/8 g4^! \parenthesize f f'
     end
 
     it 'translates h and b' do
@@ -117,7 +117,7 @@ describe PsalmTone do
     end
 
     it 'handles accentuated melisma correctly' do
-      tone_ii.lilify('f ga-', false).should eq 'f4 g(-! a)'
+      tone_ii.lilify('f ga-', false).should eq 'f4 g(^! a)'
     end
   end
 
@@ -144,11 +144,11 @@ describe PsalmTone do
     it 'produces lilypond score' do
       tone_ii.to_lilypond.should eq '\score{
   \relative c\' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4 d
-    f\breve*1/8 f4-! \parenthesize d d \barMin
-    f\breve*1/8 g4-! \parenthesize f f \barMaior
-    f\breve*1/8 e4 c-! \parenthesize d d \barFinalis
+    f\breve*1/8 f4^! \parenthesize d d \barMin
+    f\breve*1/8 g4^! \parenthesize f f \barMaior
+    f\breve*1/8 e4 c^! \parenthesize d d \barFinalis
   }
   \header {
     modus = "II"

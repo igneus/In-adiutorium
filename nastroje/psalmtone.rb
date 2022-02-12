@@ -74,7 +74,7 @@ class PsalmTone
 
     return "\\score{
   \\relative #{octave} {
-    \\choralniRezim
+    \\choralniRezimPsalmodie
     #{inch}
     #{flex} \\barMin
     #{med} \\barMaior
@@ -120,7 +120,7 @@ class PsalmTone
     r.gsub!('b', 'bes')
     r.gsub!('h', 'b')
 
-    r.gsub!('-', '-!') # accents
+    r.gsub!('-', '^!') # accents
     r.gsub!(/\{(\w{1})\}/, '\parenthesize \1') # optional notes
     r.gsub!('=', '\breve*1/8') # recitanda - breve taking horizontal space like a normal quarter note
 

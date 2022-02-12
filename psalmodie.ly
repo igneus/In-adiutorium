@@ -9,11 +9,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g(-! a) \parenthesize g g( f e d) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g(^! a) \parenthesize g g( f e d) \barFinalis
   }
   \header {
     modus = "I"
@@ -24,11 +24,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g-! \parenthesize g g( f e d) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g^! \parenthesize g g( f e d) \barFinalis
   }
   \header {
     modus = "I"
@@ -39,11 +39,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f \parenthesize g g(-! f) d \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f \parenthesize g g(^! f) d \barFinalis
   }
   \header {
     modus = "I"
@@ -54,11 +54,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g(-! a) \parenthesize g g( f) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g(^! a) \parenthesize g g( f) \barFinalis
   }
   \header {
     modus = "I"
@@ -69,11 +69,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g(-! a) \parenthesize g g \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g(^! a) \parenthesize g g \barFinalis
   }
   \header {
     modus = "I"
@@ -84,11 +84,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g-! \parenthesize g g( a g) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g^! \parenthesize g g( a g) \barFinalis
   }
   \header {
     modus = "I"
@@ -99,11 +99,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g-! \parenthesize g g \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "I"
@@ -114,11 +114,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g-! \parenthesize a a \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g^! \parenthesize a a \barFinalis
   }
   \header {
     modus = "I"
@@ -129,11 +129,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g-! \parenthesize g g( a) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g^! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "I"
@@ -144,11 +144,11 @@
 }
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f g(-! a) \parenthesize g g( a) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 f g(^! a) \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "I"
@@ -160,11 +160,11 @@
 
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4 d
-    f\breve*1/8 f4-! \parenthesize d d \barMin
-    f\breve*1/8 g4-! \parenthesize f f \barMaior
-    f\breve*1/8 e4 c-! \parenthesize d d \barFinalis
+    f\breve*1/8 f4^! \parenthesize d d \barMin
+    f\breve*1/8 g4^! \parenthesize f f \barMaior
+    f\breve*1/8 e4 c^! \parenthesize d d \barFinalis
   }
   \header {
     modus = "II"
@@ -176,11 +176,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \barMaior
-    c\breve*1/8 b4 g-! \parenthesize a a \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \barMaior
+    c\breve*1/8 b4 g^! \parenthesize a a \barFinalis
   }
   \header {
     modus = "II"
@@ -192,11 +192,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a( c)
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
-    c\breve*1/8 a4 c-! \parenthesize c b \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 a4 c^! \parenthesize c b \barFinalis
   }
   \header {
     modus = "III"
@@ -207,11 +207,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a( c)
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
-    c\breve*1/8 a4 c-! \parenthesize c b( a) \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 a4 c^! \parenthesize c b( a) \barFinalis
   }
   \header {
     modus = "III"
@@ -222,11 +222,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a( c)
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
-    c\breve*1/8 c4( b) a( b) a-! \parenthesize g g( a) \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 c4( b) a( b) a^! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "III"
@@ -237,11 +237,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a( c)
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
-    c\breve*1/8 c4( b) a( b) a-! \parenthesize g g \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 c4( b) a( b) a^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "III"
@@ -252,11 +252,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a( c)
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \parenthesize c b(-! a) c \barMaior
-    c\breve*1/8 a4 c b a-! \parenthesize g g \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 a4 c b a^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "III"
@@ -268,11 +268,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     a4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 g4 a b-! \parenthesize a a \barMaior
-    a\breve*1/8 a4-! \parenthesize g g \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 g4 a b^! \parenthesize a a \barMaior
+    a\breve*1/8 a4^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "IV"
@@ -283,11 +283,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     a4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 g4 a b-! \parenthesize a a \barMaior
-    a\breve*1/8 g4 a b( a) \parenthesize g g(-! f) e \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 g4 a b^! \parenthesize a a \barMaior
+    a\breve*1/8 g4 a b( a) \parenthesize g g(^! f) e \barFinalis
   }
   \header {
     modus = "IV"
@@ -299,11 +299,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     d4 c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 c4 d e-! \parenthesize d d \barMaior
-    d\breve*1/8 d4-! \parenthesize c c \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
+    d\breve*1/8 d4^! \parenthesize c c \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -314,11 +314,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     d4 c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 c4 d e-! \parenthesize d d \barMaior
-    d\breve*1/8 c4 d e c-! \parenthesize a a \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
+    d\breve*1/8 c4 d e c^! \parenthesize a a \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -329,11 +329,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     d4 c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 c4 d e-! \parenthesize d d \barMaior
-    d\breve*1/8 c4 d e c-! \parenthesize a a( b) \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
+    d\breve*1/8 c4 d e c^! \parenthesize a a( b) \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -344,11 +344,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     d4 c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 c4 d e-! \parenthesize d d \barMaior
-    d\breve*1/8 c4 d e c-! \parenthesize d d \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
+    d\breve*1/8 c4 d e c^! \parenthesize d d \barFinalis
   }
   \header {
     modus = "IV alt"
@@ -360,11 +360,11 @@
 
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 a
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \barMaior
-    c\breve*1/8 d4-! \parenthesize b b c-! \parenthesize a a \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \barMaior
+    c\breve*1/8 d4^! \parenthesize b b c^! \parenthesize a a \barFinalis
   }
   \header {
     modus = "V"
@@ -376,11 +376,11 @@
 
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 g4 a-! \parenthesize f f \barMaior
-    a\breve*1/8 f4 g( a) g-! \parenthesize f f \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 g4 a^! \parenthesize f f \barMaior
+    a\breve*1/8 f4 g( a) g^! \parenthesize f f \barFinalis
   }
   \header {
     modus = "VI"
@@ -392,11 +392,11 @@
 
 \score{
   \relative c' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     f4 g( a)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 bes4-! \parenthesize a a g-! \parenthesize a a \barMaior
-    a\breve*1/8 f4 g( a) g-! \parenthesize f f \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
+    a\breve*1/8 f4 g( a) g^! \parenthesize f f \barFinalis
   }
   \header {
     modus = "VI alt"
@@ -408,11 +408,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4( b) c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 f4-! \parenthesize e e d-! \parenthesize e e \barMaior
-    d\breve*1/8 e4-! \parenthesize d d c-! \parenthesize c b( a) \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 f4^! \parenthesize e e d^! \parenthesize e e \barMaior
+    d\breve*1/8 e4^! \parenthesize d d c^! \parenthesize c b( a) \barFinalis
   }
   \header {
     modus = "VII"
@@ -423,11 +423,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4( b) c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 f4-! \parenthesize e e d-! \parenthesize e e \barMaior
-    d\breve*1/8 e4-! \parenthesize d d c-! \parenthesize c b \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 f4^! \parenthesize e e d^! \parenthesize e e \barMaior
+    d\breve*1/8 e4^! \parenthesize d d c^! \parenthesize c b \barFinalis
   }
   \header {
     modus = "VII"
@@ -438,11 +438,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4( b) c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 f4-! \parenthesize e e d-! \parenthesize e e \barMaior
-    d\breve*1/8 e4-! \parenthesize d d c-! \parenthesize c b( c) \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 f4^! \parenthesize e e d^! \parenthesize e e \barMaior
+    d\breve*1/8 e4^! \parenthesize d d c^! \parenthesize c b( c) \barFinalis
   }
   \header {
     modus = "VII"
@@ -453,11 +453,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4( b) c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 f4-! \parenthesize e e d-! \parenthesize e e \barMaior
-    d\breve*1/8 e4-! \parenthesize d d c-! \parenthesize c d( c) \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 f4^! \parenthesize e e d^! \parenthesize e e \barMaior
+    d\breve*1/8 e4^! \parenthesize d d c^! \parenthesize c d( c) \barFinalis
   }
   \header {
     modus = "VII"
@@ -468,11 +468,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     c4( b) c( d)
-    d\breve*1/8 d4-! \parenthesize c c \barMin
-    d\breve*1/8 f4-! \parenthesize e e d-! \parenthesize e e \barMaior
-    d\breve*1/8 e4-! \parenthesize d d c-! \parenthesize c b( d) \barFinalis
+    d\breve*1/8 d4^! \parenthesize c c \barMin
+    d\breve*1/8 f4^! \parenthesize e e d^! \parenthesize e e \barMaior
+    d\breve*1/8 e4^! \parenthesize d d c^! \parenthesize c b( d) \barFinalis
   }
   \header {
     modus = "VII"
@@ -484,11 +484,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \barMaior
-    c\breve*1/8 b4 c a-! \parenthesize g g \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \barMaior
+    c\breve*1/8 b4 c a^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "VIII"
@@ -499,11 +499,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \barMaior
-    c\breve*1/8 b4 c a-! \parenthesize g g( a) \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \barMaior
+    c\breve*1/8 b4 c a^! \parenthesize g g( a) \barFinalis
   }
   \header {
     modus = "VIII"
@@ -514,11 +514,11 @@
 }
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     g4 a
-    c\breve*1/8 c4-! \parenthesize a a \barMin
-    c\breve*1/8 d4-! \parenthesize c c \barMaior
-    c\breve*1/8 a4 c d-! \parenthesize c c \barFinalis
+    c\breve*1/8 c4^! \parenthesize a a \barMin
+    c\breve*1/8 d4^! \parenthesize c c \barMaior
+    c\breve*1/8 a4 c d^! \parenthesize c c \barFinalis
   }
   \header {
     modus = "VIII"
@@ -530,11 +530,11 @@
 
 \score{
   \relative c'' {
-    \choralniRezim
+    \choralniRezimPsalmodie
     a4( bes)
-    a\breve*1/8 a4-! \parenthesize g g \barMin
-    a\breve*1/8 g4 bes a g-! \parenthesize f f \barMaior
-    a\breve*1/8 d,4 f-! \parenthesize f e( d) \barFinalis
+    a\breve*1/8 a4^! \parenthesize g g \barMin
+    a\breve*1/8 g4 bes a g^! \parenthesize f f \barMaior
+    a\breve*1/8 d,4 f^! \parenthesize f e( d) \barFinalis
   }
   \header {
     modus = "per"
