@@ -698,6 +698,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( g) f f e( d) e( d) d \barMaior
     c d d( f) f f g( a bes) a g( a) f f \barMax
@@ -724,7 +725,38 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f \mark\sipka f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a \mark\sipka g f f \barMax
+
+    g g g f d \barMin \mark\sipka g f g bes a g g \barMaior
+    \mark\sipka d f g g g g( a bes) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-ne1-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g bes g a \barMin a g f e d d \barMaior
     d d d d( g) f e d \barFinalis
@@ -743,6 +775,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g bes g a \barMin a g f e d d \barMaior
+    d \mark\sipka c d f e c d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

@@ -294,11 +294,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f( g) f f e( d) e( d) d \barMaior
-    c d d( f) f f g( a bes) a g( a) f f \barMax
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
 
-    g g g f d \barMin d c d d( f) e( d) e d \barMaior
-    f g( a) g( a) g f g( a bes) a g( f) f \barFinalis
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
@@ -322,7 +322,7 @@
   \relative c'' {
     \choralniRezim
     a4 g bes g a \barMin a g f e d d \barMaior
-    d d d d( g) f e d \barFinalis
+    d c d f e c d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
