@@ -30,14 +30,10 @@ class PsalmTone
 
   # gets a copy of self with just one termination variant
   def get(differentia=nil)
-    if differentiae == 1 then
-      return self
-    else
-      single_data = @data.merge(
-        'terminatio' => {differentia => terminatio[differentia].dup}
-      )
-      return self.class.new(single_data, @name)
-    end
+    single_data = @data.merge(
+      'terminatio' => {differentia => terminatio.fetch(differentia).dup}
+    )
+    return self.class.new(single_data, @name)
   end
 
   def all
