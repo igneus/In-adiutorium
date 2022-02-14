@@ -3,21 +3,42 @@ require_relative '../psalmtone'
 describe PsalmToneGroup do
   let :data do
     {
-      'II' => {
-        'inchoatio' => 'c d',
-        'tenor' => 'f',
-        'flexa' => 'f- {d} d',
-        'mediatio' =>  'g- {f} f',
-        'differentiae' => 'e c- {d} d'
+      'I' => {
+        'inchoatio' => 'f ga',
+        'tenor' => 'a',
+        'flexa' => 'a- {g} g',
+        'mediatio' =>  'b- {a} a g- {a} a',
+        'terminatio' => {
+          'D' => 'g f ga- {g} gfed',
+          'g' => 'g f ga- {g} g',
+        }
       }
     }
   end
 
-  let(:group) { PsalmToneGroup.new data }
+  let(:subject) { PsalmToneGroup.new data }
 
   describe "#size" do
     it 'has one member' do
-      group.size.should eq 1
+      subject.size.should eq 1
+    end
+  end
+
+  describe '#fetch_single' do
+    it 'fetches tone with a single differentia' do
+      t = subject.fetch_single 'I.D'
+      expect(t).to be_a PsalmTone
+      expect(t.terminatio.keys).to eq ['D']
+    end
+
+    it 'fails on missing differentia' do
+      expect { subject.fetch_single 'I.y' }
+        .to raise_exception KeyError
+    end
+
+    it 'fails on missing tone' do
+      expect { subject.fetch_single 'VIII.G' }
+        .to raise_exception KeyError
     end
   end
 end
@@ -157,6 +178,40 @@ describe PsalmTone do
     piece = \markup\sestavTitulekBezZalmu
   }
 }'
+    end
+  end
+
+  describe '#quantities' do
+    it 'works as expected for tone II' do
+      q = tone_ii.get('D').quantities
+
+      expect(q.first_accents).to eq 1
+      expect(q.first_preparatory).to eq 0
+      expect(q.second_accents).to eq 1
+      expect(q.second_preparatory).to eq 1
+
+      expect(q.accents).to eq [1, 1]
+      expect(q.preparatory).to eq [0, 1]
+    end
+
+    it 'works as expected for tone VII' do
+      q = tone_vii.get('a').quantities
+
+      expect(q.first_accents).to eq 2
+      expect(q.first_preparatory).to eq 0
+      expect(q.second_accents).to eq 2
+      expect(q.second_preparatory).to eq 0
+
+      expect(q.accents).to eq [2, 2]
+      expect(q.preparatory).to eq [0, 0]
+    end
+
+    it 'does not count optional notes' do
+      tone_iv = described_class.new({
+                                      'mediatio' => 'g a h- {a} a',
+                                      'terminatio' => 'g a ha {g} gf- e'
+                                    }, '')
+      expect(tone_iv.quantities.second_preparatory).to eq 3
     end
   end
 end

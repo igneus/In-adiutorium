@@ -24,6 +24,18 @@ class PsalmTone
     end
   end
 
+  def singular_terminatio
+    if differentiae > 1 then
+      raise "This tone has #{differentiae} differentia. Use #get to reduce it to one."
+    end
+
+    if terminatio.is_a?(Hash) then
+      terminatio.values.first
+    else
+      terminatio
+    end
+  end
+
   def differentiae
     terminatio.is_a?(Hash) ? terminatio.size : 1
   end
@@ -129,6 +141,41 @@ class PsalmTone
   def octave
     @data['relative'] || "c'"
   end
+
+  def quantities
+    PsalmToneQuantities.new(
+      accented_syllables(mediatio),
+      preparatory_syllables(mediatio),
+      accented_syllables(singular_terminatio),
+      preparatory_syllables(singular_terminatio),
+    )
+  end
+
+  private
+
+  def accented_syllables(part)
+    part
+      .scan('-')
+      .size
+  end
+
+  def preparatory_syllables(part)
+    part
+      .split(/\s+/)
+      .take_while {|i| !i.include?('-') }
+      .reject {|i| i.include?('{') }
+      .size
+  end
+end
+
+PsalmToneQuantities = Struct.new(:first_accents, :first_preparatory, :second_accents, :second_preparatory) do
+  def accents
+    [first_accents, second_accents]
+  end
+
+  def preparatory
+    [first_preparatory, second_preparatory]
+  end
 end
 
 class PsalmToneGroup < SimpleDelegator
@@ -141,7 +188,15 @@ class PsalmToneGroup < SimpleDelegator
     end
   end
 
-  def_delegators :@tones, :[], :each_pair, :size
+  # accepts psalm tone code like "I.g" or "II.D",
+  # returns PsalmTone with just the single specified differentia
+  def fetch_single(tone_code)
+    tone, differentia = tone_code.split('.', 2)
+
+    fetch(tone).get(differentia)
+  end
+
+  def_delegators :@tones, :[], :fetch, :each_pair, :size
 
   class << self
     def from_yaml(str)
