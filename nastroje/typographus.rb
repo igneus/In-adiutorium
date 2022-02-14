@@ -17,6 +17,7 @@
 
 require_relative 'fial.rb'
 require_relative 'splitscores.rb'
+require_relative 'psalmtone.rb'
 require_relative 'lib/typographus/scoremodifier.rb'
 require_relative 'lib/typographus/suffix_generator.rb'
 require_relative 'lib/typographus/command_expander.rb'
@@ -94,6 +95,8 @@ module Typographus
       init_musicsplitter
       init_command_expander
       make_dirs
+
+      @psalm_tones = PsalmToneGroup.from_file "#{__dir__}/../psalmodie/zakladni.yml"
 
       process_tytex fpath
 
@@ -200,7 +203,9 @@ module Typographus
 
       c.command('scoreLyrics', args: 1) do |ref|
         score = get_score(*decode_fial(ref))
-        score.header['textus_approbatus'] || score.lyrics_readable
+        lyrics = score.header['textus_approbatus'] || score.lyrics_readable
+        lyrics.sub!(/\s*Aleluja[.!]\s*\Z/, '') if @setup.remove_optional_alleluia # TODO: make sure the alleluia was optional
+        lyrics
       end
 
       c.command('scoreHeader', args: 2) do |ref, header_name|
@@ -422,7 +427,8 @@ module Typographus
 
     # Points a text for the specified psalm tone.
     def point_text(tone, source_files, result_path, preprocessor = nil)
-      opts = {output: {pointing: {tone: tone}}}
+      q = @psalm_tones.fetch_single(tone).quantities
+      opts = {output: {pointing: {accents: q.accents, preparatory: q.preparatory}}}
 
       (preprocessor || @psalmpreprocessor)
         .process(source_files, result_path, opts) do |ps|
