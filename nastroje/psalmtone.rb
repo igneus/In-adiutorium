@@ -151,8 +151,10 @@ class PsalmTone
     PsalmToneQuantities.new(
       accented_syllables(mediatio),
       preparatory_syllables(mediatio),
+      has_sliding_accent?(mediatio),
       accented_syllables(singular_terminatio),
       preparatory_syllables(singular_terminatio),
+      has_sliding_accent?(singular_terminatio),
     )
   end
 
@@ -171,6 +173,14 @@ class PsalmTone
       .size
   end
 
+  def has_sliding_accent?(part)
+    notes = part.split(/\s+/)
+
+    # last optional note is before, not after the accent it is related to
+    notes.rindex {|i| i.include? '{' } <
+      notes.rindex {|i| i.include? '-' }
+  end
+
   def mark_sliding_accents(part)
     notes = part.split /\s+/
     notes.each_with_index do |n, i|
@@ -187,13 +197,17 @@ class PsalmTone
   end
 end
 
-PsalmToneQuantities = Struct.new(:first_accents, :first_preparatory, :second_accents, :second_preparatory) do
+PsalmToneQuantities = Struct.new(:first_accents, :first_preparatory, :first_sliding_accent, :second_accents, :second_preparatory, :second_sliding_accent) do
   def accents
     [first_accents, second_accents]
   end
 
   def preparatory
     [first_preparatory, second_preparatory]
+  end
+
+  def sliding_accents
+    [first_sliding_accent, second_sliding_accent]
   end
 end
 

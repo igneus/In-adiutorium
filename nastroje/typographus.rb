@@ -428,7 +428,15 @@ module Typographus
     # Points a text for the specified psalm tone.
     def point_text(tone, source_files, result_path, preprocessor = nil)
       q = @psalm_tones.fetch_single(tone).quantities
-      opts = {output: {pointing: {accents: q.accents, preparatory: q.preparatory}}}
+      opts = {
+        output: {
+          pointing: {
+            accents: q.accents,
+            preparatory: q.preparatory,
+            sliding_accent: q.sliding_accents,
+          }
+        }
+      }
 
       (preprocessor || @psalmpreprocessor)
         .process(source_files, result_path, opts) do |ps|

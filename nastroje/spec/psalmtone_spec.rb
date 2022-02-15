@@ -230,5 +230,15 @@ describe PsalmTone do
                                     }, '')
       expect(tone_iv.quantities.second_preparatory).to eq 3
     end
+
+    it 'detects sliding accent' do
+      tone_iii = described_class.new({
+                                       'mediatio' => 'd- {c} c {c} ha- c',
+                                       'terminatio' => 'a c- {c} h'
+                                     }, '')
+      expect(tone_iii.quantities.first_sliding_accent).to be true
+      expect(tone_iii.quantities.second_sliding_accent).to be false
+      expect(tone_iii.quantities.sliding_accents).to eq [true, false]
+    end
   end
 end
