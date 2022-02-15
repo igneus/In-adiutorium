@@ -94,6 +94,7 @@ class PsalmTone
     id = \"#{score_id}\"
     piece = \\markup\\sestavTitulekBezZalmu
   }
+  \\layout { \\layoutPsalmodie }
 }"
   end
 
@@ -113,7 +114,7 @@ class PsalmTone
     if recitanda then
       r += ((tenor.is_a?(Array) ? tenor.first : tenor) + '= ')
     end
-    r += part
+    r += mark_sliding_accents part
 
     # melisms
     r.gsub!(/(\w{2,100})(-?)/) do
@@ -131,6 +132,10 @@ class PsalmTone
     r.gsub!('-', '^!') # accents
     r.gsub!(/\{(\w{1})\}/, '\parenthesize \1') # optional notes
     r.gsub!('=', '\breve*1/8') # recitanda - breve taking horizontal space like a normal quarter note
+
+    # sliding accent bracket
+    r.gsub!('<', ' -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup')
+    r.gsub!('>', ' \stopGroup')
 
     add_duration_to = recitanda ? /(?<=\s)(\w+[,']*)/ : /^(\w+[,']*)/
     r.sub!(add_duration_to) { $1 + '4' } # add duration to the first or second note
@@ -164,6 +169,21 @@ class PsalmTone
       .split(/\s+/)
       .take_while {|i| !(i.include?('-') || i.include?('{')) }
       .size
+  end
+
+  def mark_sliding_accents(part)
+    notes = part.split /\s+/
+    notes.each_with_index do |n, i|
+      # optional note before an accented note (rather than following it)
+      # always means a sliding accent
+      if n.start_with?('{') && (i == 0 || !notes[i-1].include?('-'))
+        notes[i] += '<'
+        notes[i + 1].sub!('-', '')
+      end
+      notes[i] += '>' if i > 0 && notes[i - 1].end_with?('<')
+    end
+
+    notes.join ' '
   end
 end
 

@@ -140,6 +140,22 @@ describe PsalmTone do
     it 'handles accentuated melisma correctly' do
       tone_ii.lilify('f ga-', false).should eq 'f4 g(^! a)'
     end
+
+    describe 'sliding accents' do
+      describe 'on first accent' do
+        it 'wraps the note group in a horizontal bracket' do
+          tone_ii.lilify('g f {g} gf- d', false)
+            .should eq 'g4 f \parenthesize g -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup g( f) \stopGroup d'
+        end
+      end
+
+      describe 'on second accent' do
+        it 'wraps the note group in a horizontal bracket' do
+          tone_ii.lilify('d- {c} c {c} ha- c', false)
+            .should eq 'd4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c'
+        end
+      end
+    end
   end
 
   describe '#octave' do
@@ -177,6 +193,7 @@ describe PsalmTone do
     id = "II-D"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }'
     end
   end

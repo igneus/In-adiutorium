@@ -21,6 +21,7 @@
     id = "I-D"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -36,6 +37,7 @@
     id = "I-D'"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -43,7 +45,7 @@
     f4 g( a)
     a\breve*1/8 a4^! \parenthesize g g \barMin
     a\breve*1/8 bes4^! \parenthesize a a g^! \parenthesize a a \barMaior
-    a\breve*1/8 g4 f \parenthesize g g(^! f) d \barFinalis
+    a\breve*1/8 g4 f \parenthesize g -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup g( f) \stopGroup d \barFinalis
   }
   \header {
     modus = "I"
@@ -51,6 +53,7 @@
     id = "I-D2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -66,6 +69,7 @@
     id = "I-f"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -81,6 +85,7 @@
     id = "I-g"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -96,6 +101,7 @@
     id = "I-g2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -111,6 +117,7 @@
     id = "I-g3"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -126,6 +133,7 @@
     id = "I-a"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -141,6 +149,7 @@
     id = "I-a2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c' {
@@ -156,6 +165,7 @@
     id = "I-a3"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -172,6 +182,7 @@
     id = "II-D"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -188,6 +199,7 @@
     id = "II-A"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -195,7 +207,7 @@
     \choralniRezimPsalmodie
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
     c\breve*1/8 a4 c^! \parenthesize c b \barFinalis
   }
   \header {
@@ -204,13 +216,14 @@
     id = "III-h"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
     \choralniRezimPsalmodie
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
     c\breve*1/8 a4 c^! \parenthesize c b( a) \barFinalis
   }
   \header {
@@ -219,13 +232,14 @@
     id = "III-a"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
     \choralniRezimPsalmodie
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
     c\breve*1/8 c4( b) a( b) a^! \parenthesize g g( a) \barFinalis
   }
   \header {
@@ -234,13 +248,14 @@
     id = "III-a2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
     \choralniRezimPsalmodie
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
     c\breve*1/8 c4( b) a( b) a^! \parenthesize g g \barFinalis
   }
   \header {
@@ -249,13 +264,14 @@
     id = "III-g"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
     \choralniRezimPsalmodie
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c b(^! a) c \barMaior
+    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
     c\breve*1/8 a4 c b a^! \parenthesize g g \barFinalis
   }
   \header {
@@ -264,6 +280,7 @@
     id = "III-g2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -280,6 +297,7 @@
     id = "IV-g"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -287,7 +305,7 @@
     a4 g( a)
     a\breve*1/8 a4^! \parenthesize g g \barMin
     a\breve*1/8 g4 a b^! \parenthesize a a \barMaior
-    a\breve*1/8 g4 a b( a) \parenthesize g g(^! f) e \barFinalis
+    a\breve*1/8 g4 a b( a) \parenthesize g -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup g( f) \stopGroup e \barFinalis
   }
   \header {
     modus = "IV"
@@ -295,6 +313,7 @@
     id = "IV-E"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -311,6 +330,7 @@
     id = "IValt-c"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -326,6 +346,7 @@
     id = "IValt-A"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -341,6 +362,7 @@
     id = "IValt-A*"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -356,6 +378,7 @@
     id = "IValt-d"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -372,6 +395,7 @@
     id = "V-a"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -388,6 +412,7 @@
     id = "VI-F"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -404,6 +429,7 @@
     id = "VIalt-F"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -420,6 +446,7 @@
     id = "VII-a"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -435,6 +462,7 @@
     id = "VII-b"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -450,6 +478,7 @@
     id = "VII-c"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -465,6 +494,7 @@
     id = "VII-c2"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -480,6 +510,7 @@
     id = "VII-d"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -496,6 +527,7 @@
     id = "VIII-G"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -511,6 +543,7 @@
     id = "VIII-G*"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 \score{
   \relative c'' {
@@ -526,6 +559,7 @@
     id = "VIII-c"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 
 \score{
@@ -542,5 +576,6 @@
     id = "per"
     piece = \markup\sestavTitulekBezZalmu
   }
+  \layout { \layoutPsalmodie }
 }
 

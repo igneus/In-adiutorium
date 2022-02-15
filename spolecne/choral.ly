@@ -33,6 +33,23 @@ choralniRezim = {
   \accidentalStyle forget % 2.15
 }
 
+choralniRezimPsalmodie = {
+  \choralniRezim
+  % aby se obloucky melismat nevyhybaly znackam akcentu (ktere jsou vzdy nad notou)
+  \stemDown
+  \slurDown
+}
+
+layoutPsalmodie = \layout {
+  \context {
+    \Voice
+    % zavorky nad osnovou pro vyznaceni klouzavych akcentu
+    \consists "Horizontal_bracket_engraver"
+    \override HorizontalBracket.direction = #UP
+    \override HorizontalBracket.bracket-flare = #'(0.0 . 0.0)
+  }
+}
+
 % modus a dalsi info predsazene pred osnovou --------------------
 
 choralniPredznamenaniIII =
