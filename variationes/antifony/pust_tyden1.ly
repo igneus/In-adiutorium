@@ -871,10 +871,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Čtvrtek}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g( f) \barMin
     g g g g a( g) \barMaior
@@ -901,6 +904,71 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{
+  Úprava na oficiální text:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g( f) \barMin
+    g g g g a( g) \barMaior
+    a a a g( f) f f g f g f d( c) c \barMax
+    d d( f) f \mark\sipka f f( g) f e d d \barMin
+    f e c d( c) c \barMin
+    d d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy,
+    tře -- ba -- že jste zlí,
+    u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
+    čím spí -- še váš ne -- bes -- ký O -- tec
+    dá dob -- ré vě -- ci
+    těm, kdo ho pro -- sí!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?upraveno"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( f) \barMin
+    g g g g a( g) \barMaior
+    a a a g( f) f f g f g f d( c) c \barMax
+    d d( f) f f f( g) f e d d \barMin
+    f e c d( c) c \barMin
+    d d f \mark\sipka e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy,
+    tře -- ba -- že jste zlí,
+    u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
+    čím spí -- še váš ne -- bes -- ký O -- tec
+    dá dob -- ré vě -- ci
+    těm, kdo ho pro -- sí!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?upraveno"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

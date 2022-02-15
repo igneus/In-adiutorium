@@ -376,7 +376,7 @@
     f4 f f g( f) \barMin
     g g g g a( g) \barMaior
     a a a g( f) f f g f g f d( c) c \barMax
-    d d( f) f f( g) f e d d \barMin
+    d d( f) f f f( g) f e d d \barMin
     f e c d( c) c \barMin
     d d f e( f d) d \barFinalis
   }
@@ -384,7 +384,7 @@
     Jest -- li -- že vy,
     tře -- ba -- že jste zlí,
     u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
-    čím spí -- še ne -- bes -- ký O -- tec
+    čím spí -- še váš ne -- bes -- ký O -- tec
     dá dob -- ré vě -- ci
     těm, kdo ho pro -- sí!
   }
@@ -469,7 +469,7 @@
     a tam si vzpo -- me -- neš,
     že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
     nech tam svůj dar před ol -- tá -- řem
-    a jdi se na -- před smí -- řit se svým brat -- rem;
+    a jdi se na -- před smí -- řit se svým brat -- rem,
     te -- pr -- ve po -- tom přijď
     a o -- bě -- tuj svůj dar.
   }
