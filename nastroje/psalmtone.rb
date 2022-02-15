@@ -162,8 +162,7 @@ class PsalmTone
   def preparatory_syllables(part)
     part
       .split(/\s+/)
-      .take_while {|i| !i.include?('-') }
-      .reject {|i| i.include?('{') }
+      .take_while {|i| !(i.include?('-') || i.include?('{')) }
       .size
   end
 end
