@@ -561,13 +561,13 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a \mark\sipka a( bes) a a a a a a g( a) g \barMin g f g a a( g) \barMax
     % R
     \neviditelna a
-    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -594,13 +594,13 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a a a a \mark\sipka g a g g \barMin g f g a a( g) \barMax
     % R
     \neviditelna a
-    \mark\sipka g( a) g g \barMin g f d f g g( f) f \barFinalis
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
