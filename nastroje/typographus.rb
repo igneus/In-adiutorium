@@ -634,9 +634,7 @@ end
 # all settings should be contained in the document itself,
 # just like in any normal LaTeX document
 if __FILE__ == $0
-  files_to_process = ARGV
-
-  files_to_process.each do |file|
-    Typographus::Typographus.preprocess(file)
+  ARGV.each do |file_name|
+    Typographus::Typographus.preprocess(file_name)
   end
 end
