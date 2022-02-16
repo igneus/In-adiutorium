@@ -159,6 +159,56 @@ describe 'typographus.rb', type: :aruba do
             .to have_file_content file_content_including("ends here.\\psalmStrophe\n\nGloria")
         end
       end
+
+      describe 'psalm tone notation' do
+        before :each do
+          write_file 'zalm117.zalm', "Psalm title\n\nThe psalm *\nends here."
+          write_file 'psalmodie.ly', '\score { \header { id = "VIII-G" } }'
+        end
+
+        describe 'globally disabled' do
+          before :each do
+            # no setup needed, is globally disabled by default
+            write_file 'config.yml', '{}'
+          end
+
+          it do
+            write_file 'file.tytex', '\setConfig{config.yml} \psalm{Žalm 117}{VIII.G}'
+            run_command_and_stop(cmd)
+
+            expect('file.lytex').not_to have_file_content file_content_including('\lilypondfile')
+          end
+
+          it 'but enabled by an option' do
+            write_file 'file.tytex', '\setConfig{config.yml} \psalm[psalm_tone=true]{Žalm 117}{VIII.G}'
+            run_command_and_stop(cmd)
+
+            expect('file.lytex')
+              .to have_file_content file_content_including('\lilypondfile{typographus_tmp/file_tytex/psalmodie_VIII-G.ly}')
+          end
+        end
+
+        describe 'globally enabled' do
+          before :each do
+            write_file 'config.yml', 'typographus: {psalm_tones: true}'
+          end
+
+          it do
+            write_file 'file.tytex', '\setConfig{config.yml} \psalm{Žalm 117}{VIII.G}'
+            run_command_and_stop(cmd)
+
+            expect('file.lytex')
+              .to have_file_content file_content_including('\lilypondfile{typographus_tmp/file_tytex/psalmodie_VIII-G.ly}')
+          end
+
+          it 'but disabled by an option' do
+            write_file 'file.tytex', '\setConfig{config.yml} \psalm[psalm_tone=false]{Žalm 117}{VIII.G}'
+            run_command_and_stop(cmd)
+
+            expect('file.lytex').not_to have_file_content file_content_including('\lilypondfile')
+          end
+        end
+      end
     end
   end
 end

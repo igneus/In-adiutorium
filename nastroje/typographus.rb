@@ -222,7 +222,8 @@ module Typographus
         @last_psalm_tone = psalm_tone
 
         r = ''
-        if @setup[:psalm_tones] then
+        if (@setup[:psalm_tones] && opts[:psalm_tone] != 'false') ||
+           opts[:psalm_tone] == 'true'
           r += prepare_psalm_tone(psalm_tone) + "\n\n"
         end
 
