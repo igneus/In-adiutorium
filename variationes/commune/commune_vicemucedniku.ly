@@ -671,6 +671,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
+    e( d c) d c c( a) a \barMax
+    c d d( f) \mark\sipka f f f( g) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
