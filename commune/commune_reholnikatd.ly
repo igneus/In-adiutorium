@@ -99,12 +99,6 @@
     }
   }
 
-  \markup {\nadpisHodinka {"invitatorium"}}
-
-  \markup\italic{
-    Antifony jako ve společných textech o svatých mužích.
-  }
-
   \markup {\nadpisHodinka {"ranní chvály"}}
 
   \score {
