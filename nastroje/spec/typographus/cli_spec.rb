@@ -211,4 +211,98 @@ describe 'typographus.rb', type: :aruba do
       end
     end
   end
+
+  describe 'producing LilyPond files' do
+    describe 'including LilyPond library/stylesheet files' do
+      before :each do
+        write_file 'music.ly', <<~'EOS'
+        \score {
+          \relative c' { a a }
+          \addlyrics { A -- men. }
+          \header { id = "id" }
+        }
+        EOS
+      end
+
+      describe 'score' do
+        let(:produced_ly_filename) { 'typographus_tmp/file_tytex/music_id.ly' }
+
+        it 'by default does not include any files' do
+          write_file 'file.tytex', '\simpleScore{music.ly#id}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename).to be_an_existing_file
+          expect(produced_ly_filename)
+            .not_to have_file_content file_content_including('\include')
+        end
+
+        it 'includes one file specified by \setIncludes' do
+          write_file 'file.tytex', '\setIncludes{included.ly} \simpleScore{music.ly#id}'
+          run_command_and_stop(cmd)
+
+          # path relative to the tytex file is changed to one relative to the output directory
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../included.ly"')
+        end
+
+        it 'includes multiple files specified by \setIncludes' do
+          write_file 'file.tytex', '\setIncludes{included.ly, another.ly} \simpleScore{music.ly#id}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../included.ly"')
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../another.ly"')
+        end
+
+        it 'is not affected by \setPsalmToneIncludes' do
+          write_file 'file.tytex', '\setIncludes{included.ly} \setPsalmToneIncludes{for_psalmtones_only.ly} \simpleScore{music.ly#id}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../included.ly"')
+          expect(produced_ly_filename)
+            .not_to have_file_content file_content_including('for_psalmtones_only.ly')
+        end
+      end
+
+      describe 'psalm tone' do
+        before :each do
+          write_file 'psalmodie.ly', <<~'EOS'
+          \score {
+            \relative c { a a }
+            \header { id = "VIII-G" }
+          }
+          EOS
+        end
+
+        let(:produced_ly_filename) { 'typographus_tmp/file_tytex/psalmodie_VIII-G.ly' }
+
+        it 'by default does not include any files' do
+          write_file 'file.tytex', '\psalmTone{VIII.G}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename).to be_an_existing_file
+          expect(produced_ly_filename)
+            .not_to have_file_content file_content_including('\include')
+        end
+
+        it 'includes file(s) specified by \setIncludes' do
+          write_file 'file.tytex', '\setIncludes{included.ly} \psalmTone{VIII.G}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../included.ly"')
+        end
+
+        it '\setPsalmToneIncludes overrides \setIncludes' do
+          write_file 'file.tytex', '\setIncludes{included.ly} \setPsalmToneIncludes{for_psalmtones_only.ly} \psalmTone{VIII.G}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "../../for_psalmtones_only.ly"')
+        end
+      end
+    end
+  end
 end

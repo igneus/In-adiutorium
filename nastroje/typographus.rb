@@ -37,6 +37,7 @@ module Typographus
       :chant_basedir => '.',
       :psalms_dir => '.',
       :includes => [],
+      :psalm_tone_includes => nil,
       :generated_dir => 'typographus_tmp',
       :output_dir => 'vystup',
       :doxology => false,
@@ -124,16 +125,29 @@ module Typographus
     def init_musicsplitter
       @musicsplitter_setup[:output_dir] = @setup.generated_dir
 
-      prepend_text = @setup.includes.collect do |inc|
-        # ../ because the paths are relative to the source but here we need them
-        # relative to the output directory.
-        # This solution is quite dirty and not universally working ...
-        "\\include \"../../#{inc}\""
+      prepend_text = lambda do |includes|
+        includes.collect do |inc|
+          # ../ because the paths are relative to the source but here we need them
+          # relative to the output directory.
+          # This solution is quite dirty and not universally working ...
+          "\\include \"../../#{inc}\""
+        end.join("\n")
       end
-      prepend_text = prepend_text.join("\n")
-      @musicsplitter_setup[:prepend_text] = prepend_text
 
-      @splitter = MusicSplitter.new(@musicsplitter_setup)
+      @splitter = MusicSplitter.new(
+        @musicsplitter_setup
+          .merge(:prepend_text => prepend_text.call(@setup.includes))
+      )
+
+      @psalm_tone_splitter =
+        if @setup.psalm_tone_includes
+          MusicSplitter.new(
+            @musicsplitter_setup
+              .merge(:prepend_text => prepend_text.call(@setup.psalm_tone_includes))
+          )
+        else
+          @splitter
+        end
     end
 
     def init_command_expander
@@ -174,6 +188,17 @@ module Typographus
         end
         incs = paths.split(',').collect(&:strip)
         @setup.includes += incs
+        init_musicsplitter # reinitialization needed
+        ''
+      end
+
+      c.command('setPsalmToneIncludes', args: 1) do |paths|
+        unless @split_music_files.empty?
+          STDERR.puts "Warning: setting common includes when some music files " +
+            "(#{@split_music_files.keys.join(', ')}) are already processed."
+        end
+        incs = paths.split(',').collect(&:strip)
+        @setup.psalm_tone_includes = incs
         init_musicsplitter # reinitialization needed
         ''
       end
@@ -531,6 +556,8 @@ module Typographus
         return
       end
 
+      splitter = path == 'psalmodie.ly' ? @psalm_tone_splitter : @splitter
+
       # paths starting with . or .. are always considered relative to the tytex file,
       # regardless chant basedir settings
       dir = path.start_with?('.') ? @source_dir : @setup.chant_basedir
@@ -538,7 +565,7 @@ module Typographus
       full_path = File.join dir, path
       #init_musicsplitter # always, to have fresh setup
       # the values of @split_music_files are LilyPondMusic instances
-      @split_music_files[path] = @splitter.split_scores(full_path) do |score_text, score|
+      @split_music_files[path] = splitter.split_scores(full_path) do |score_text, score|
         process_score score_text, score
       end
     end
