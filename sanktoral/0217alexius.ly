@@ -16,7 +16,7 @@
   \relative c' {
     \choralniRezim
     d4 c d f d f g( f d) d \barMin
-    f f f e( f) d c d d \barFinalis
+    e e e e( f) d c d d \barFinalis
   }
   \addlyrics {
     Hle, jak je dob -- ré a mi -- lé,
