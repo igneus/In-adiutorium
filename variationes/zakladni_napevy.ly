@@ -113,6 +113,58 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \markup\justify{
+    Původní verze postního zakončení (výše) ho koncipuje jako klausuli o dvou
+    přízvučných slabikách. Ale není nápěv aleluja, podle kterého je stavěná,
+    spíš klausule o jedné slabice přízvučné a jedné přípravné?
+    Srov. též předkoncilní postní zakončení
+    \box{\score{
+      \relative c'' { \choralniRezim \neviditelna c c c c d c c b }
+      \addlyrics { "..." Rex ae -- tér -- nae gló -- ri -- ae }
+    }}
+    které nápěv aleluja nekopíruje, je volnou variantou na něj, ale ono d
+    tu každopádně není nota přízvučná, nýbrž přípravná.
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c \barMin c( d) c c b( c) c c \barFinalis
+      \neviditelna c
+      c c c b( c) c c \barMax
+      c c c c c c c \barMin c c c b( c) c c \barMax
+      c c c c c c c c c c c c c c \barMin \break
+      % block_begin:nepust
+      c^\markup\italic{mimo dobu postní:} c c c c c b( c) c \barMaior
+      c d c( b) b \barFinalis
+      % block_end:nepust
+      % block_begin:pust
+      c^\markup\italic{v době postní:} c c c \mark\sipka c d c( b) b \barFinalis
+      % block_end:pust
+    }
+    \addlyrics {
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
+      a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
+    }
+    \header {
+      id = "zacatek-nedele"
+      piece = "k ranním chválám a nešporám nedělí a svátků"
+    }
+  }
+
+  \pageBreak
+
   \score {
     \relative c'' {
       \choralniRezim
