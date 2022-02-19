@@ -108,15 +108,15 @@
 
     % R
     \neviditelna f
-    f4 f( g) g \barMin g f g g( a) g g \barMin
-    g g g f g g( a) a( g) \barMax
-    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    f4 f f f f f f( g) f f \barMin
+    g f f f f g( a) a( g) \barMax
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
     % V
     \neviditelna a
     a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -131,7 +131,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "první část responsa"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

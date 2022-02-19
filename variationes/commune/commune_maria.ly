@@ -494,7 +494,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -544,6 +544,112 @@
     % R
     \neviditelna a
     g g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka f( g) f f \barMin
+    f f f g f g( a) a( g) \barMax
+    \mark\sipka f g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f f f f f f( g) f f \barMin
+    \mark\sipka g f f f f g( a) a( g) \barMax
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a, Bůh si tě vy -- vo -- lil
+    za mat -- ku své -- ho Sy -- na,_*
+    a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \Verse Zro -- di -- la jsi to -- ho, kte -- rý tě stvo -- řil,_*
+    \Response a na -- vě -- ky zůs -- tá -- váš pan -- nou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka g f g g f f \barMin
+    g f f f f g( a) a( g) \barMax
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f g( a) g g \bar "" f4( d) f g g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
