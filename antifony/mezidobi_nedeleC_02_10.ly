@@ -373,11 +373,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( f) g \barMin g a a( c) c b( d) c b a( g a) \barMaior
-    c c b( a g) a( g) f a a( g) \barFinalis
+    g4 g f g a a( c) c \barMin
+    b( c) a g a( g) \barMaior
+    a g f g( a) a a g \barFinalis
   }
   \addlyrics {
-    Co chce -- te, a -- by li -- dé dě -- la -- li vám,
+    Co chce -- te, a -- by li -- dé
+    dě -- la -- li vám,
     to i vy dě -- lej -- te jim.
   }
   \header {
@@ -399,9 +401,9 @@
     a4( c) c( d) d \barMin
     d c d e c d d d \barMaior
     d c d c( a) a \barMin
-    a c b a g g a a( g) g \barMaior
-    f( g a) c( d) d( c) c \barMin
-    d d e c( b a) g a a( g) g \barFinalis
+    a c b a g g a a( g) g \barMax
+    c d d( c) c \barMin
+    c b g g a g f( g) g \barFinalis
   }
   \addlyrics {
     Ne -- suď -- te,
@@ -423,11 +425,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f( d) d f g f a( g) g \barMaior
-    f g a a a f g( f) d d \barMin
-    d d d d c d d( g) f e d \barFinalis
+    c4 c c a c b a( g) g \barMaior
+    a g f g a c b( c) a a \barMin
+    c c c b a g f g a4. g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, a do -- sta -- ne -- te,
@@ -436,8 +438,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne7c-2ne-amag"

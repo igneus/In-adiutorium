@@ -829,10 +829,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"7. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( f) g \barMin g a a( c) c b( d) c b a( g a) \barMaior
     c c b( a g) a( g) f a a( g) \barFinalis
@@ -852,10 +855,127 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f( g) g \barMin g a a( c) c \mark\sipka c( d) c b a( g) \barMaior
+    c c b( a g) a( g) f a \mark\sipka g \barFinalis
+  }
+  \addlyrics {
+    Co chce -- te, a -- by li -- dé dě -- la -- li vám,
+    to i vy dě -- lej -- te jim.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( c) c \barMin
+    b( c) a g a( g) \barMaior
+    a a f( e d) f( g) a a g \barFinalis
+  }
+  \addlyrics {
+    Co chce -- te, a -- by li -- dé
+    dě -- la -- li vám,
+    to i vy dě -- lej -- te jim.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a a( c) c \barMin
+    b( c) a g a( g) \barMaior
+    a \mark\sipka g f g( a) a a g \barFinalis
+  }
+  \addlyrics {
+    Co chce -- te, a -- by li -- dé
+    dě -- la -- li vám,
+    to i vy dě -- lej -- te jim.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( c) c \barMin
+    \mark\sipka d c d d( c) \barMaior
+    c a g f( g) a a g \barFinalis
+  }
+  \addlyrics {
+    Co chce -- te, a -- by li -- dé
+    dě -- la -- li vám,
+    to i vy dě -- lej -- te jim.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a g a g \barMin
+    a g f g( a) \barMaior
+    c c b( a g) f g a g \barFinalis
+  }
+  \addlyrics {
+    Co chce -- te, a -- by li -- dé
+    dě -- la -- li vám,
+    to i vy dě -- lej -- te jim.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 % zacatek vypadal jako volna citace z jednoho stereotypniho
 % vzorce modu IV. alt., a pak to najednou spadlo do VII ...
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c) c( d) d \barMin
     d c d e c d d d \barMaior
@@ -884,7 +1004,69 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( c) c( d) d \barMin
+    d c d e c d d d \barMaior
+    d c d c( a) a \barMin
+    a c b a g g a a( g) g \barMax
+    \mark\sipka c d d( c) c \barMin
+    c b g g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- suď -- te,
+    a ne -- bu -- de -- te sou -- ze -- ni,
+    ne -- za -- vr -- huj -- te,
+    a ne -- bu -- de -- te za -- vr -- že -- ni.
+    Od -- pouš -- těj -- te,
+    a bu -- de vám od -- puš -- tě -- no.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c) c( d) d \barMin
+    d c d e c d d d \barMaior
+    d c \mark\sipka b g a \barMin
+    a c b a g g a \mark\sipka g g \barMax
+    c d d( c) c \barMin
+    c b g g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- suď -- te,
+    a ne -- bu -- de -- te sou -- ze -- ni,
+    ne -- za -- vr -- huj -- te,
+    a ne -- bu -- de -- te za -- vr -- že -- ni.
+    Od -- pouš -- těj -- te,
+    a bu -- de vám od -- puš -- tě -- no.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f( d) d f g f a( g) g \barMaior
     f g a a a f g( f) d d \barMin
@@ -905,6 +1087,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 e d c f g a( g) g \barMaior
+    f g a a a f g( f) d d \barMin
+    \mark\sipka c d f e d c f( g) f e d \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, a do -- sta -- ne -- te,
+    ne -- boť ja -- kou mí -- rou mě -- ří -- te,
+    ta -- ko -- vou se za -- se na -- mě -- ří vám.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c a c b a( g) g \barMaior
+    a g f g a c b( c) a a \barMin
+    c c c b a g f g a4. g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, a do -- sta -- ne -- te,
+    ne -- boť ja -- kou mí -- rou mě -- ří -- te,
+    ta -- ko -- vou se za -- se na -- mě -- ří vám.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne7c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"8. neděle"}}
 
