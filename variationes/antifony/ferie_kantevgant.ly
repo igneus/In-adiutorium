@@ -119,24 +119,6 @@
 \score {
   \relative c' {
     \choralniRezim
-    d f f f e c c \barMin d( c) d \barFinalis
-  }
-  \addlyrics {
-    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
-    psalmus = ""
-    id = "t1-po-ben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
     d( f g) f( e d e) e( d) \barMin d c( a c) c( d) d \barMin d( f e) d \barFinalis
   }
   \addlyrics {
