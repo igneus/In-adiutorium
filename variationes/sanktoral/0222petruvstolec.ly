@@ -237,10 +237,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f e( f) f \barMax
     g g f( d) d \barMin d d( e d) d c c d d \barMax
@@ -266,6 +269,141 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c e f d d \barMax
+    f e d( c) c \barMin d d( f e) f d c d d \barMax
+    f( e f) g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pet -- ře, mi -- lu -- ješ mě?
+    A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
+    Pas mé ov -- ce.
+  }
+  \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMax
+    f e d( c) c \barMin d d( f e) \mark\sipka d c c d d \barMax
+    \mark\sipka f f( g f) d d \barFinalis
+  }
+  \addlyrics {
+    Pet -- ře, mi -- lu -- ješ mě?
+    A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
+    Pas mé ov -- ce.
+  }
+  \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 1.1
+\markup\justify{
+  Jak by ne/pomohlo rozlišit hlas Páně a Petra tím,
+  že bude jeden zpívat v plagálním a druhý v autentickém registru?
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMax
+    a' g g( a) a \barMin a g( a) f e f d d \barMax
+    f f( g f) d d \barFinalis
+  }
+  \addlyrics {
+    Pet -- ře, mi -- lu -- ješ mě?
+    A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
+    Pas mé ov -- ce.
+  }
+  \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c e f d d \barMax
+    a' g g( a) a \barMin a \mark\sipka a( c) a g f d d \barMax
+    f f( g f) d d \barFinalis
+  }
+  \addlyrics {
+    Pet -- ře, mi -- lu -- ješ mě?
+    A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
+    Pas mé ov -- ce.
+  }
+  \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMax
+    a' g g( a) a \barMin a \mark\sipka g( f d) \barMin e d c d d \barMax
+    f f( g f) d d \barFinalis
+  }
+  \addlyrics {
+    Pet -- ře, mi -- lu -- ješ mě?
+    A -- no, Pa -- ne, ty víš, že tě mi -- lu -- ji.
+    Pas mé ov -- ce.
+  }
+  \header {
+    textus_approbatus = "Petře, miluješ mě?
+    Ano, Pane, ty víš, že tě miluji.
+    Pas moje ovce."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
     a a a g( a) a a a \bar "" c( b a) b( a) g( a) a( g) \barMaior
     f f f e( f g) f d c( d) d \barFinalis
@@ -281,6 +419,51 @@
     differentia = "D"
     psalmus = "Žalm 126"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f d) c f g g( a) a \barMaior
+    a a a \mark\sipka g a a a \mark\sipka c b c a( g) \barMin
+    \mark\sipka g f e e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě
+    za ně -- ho mod -- li -- la k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( f d) c f g g( a) a \barMaior
+    a a a g a a a \mark\sipka b( c a) g( a) a( g) g \barMin
+    g f e e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě
+    za ně -- ho mod -- li -- la k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -341,6 +524,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f a a g( f) f \barMin
     g f g g a f g g \barMaior
@@ -359,6 +543,63 @@
     differentia = "F"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Původní znění není úplně špatné, ale u relativně známé a obsahem závažné antifony,
+  jako je tahle, mi přijde vhodné alespoň částečně se nápěvem přihlásit k předloze.
+  (A původní znění není zase až tak hodnotné, abych mu kvůli tomu dal přednost.)
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a g f g a g g \barMaior
+    a a g f d e c c \barMin
+    f e d e d c d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi pas -- týř ov -- cí,
+    prv -- ní me -- zi a -- po -- što -- ly,
+    to -- bě by -- ly dá -- ny klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 512"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a g f g a g g \barMaior
+    a a g f d e c c \barMin
+    \mark\sipka d d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi pas -- týř ov -- cí,
+    prv -- ní me -- zi a -- po -- što -- ly,
+    to -- bě by -- ly dá -- ny klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 512"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
