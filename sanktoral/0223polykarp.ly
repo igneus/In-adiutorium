@@ -17,8 +17,8 @@
     \choralniRezim
     c4 c c b a c \barMin c( d) d a a \barMaior
     a c c c b a g( a) g \barMaior
-    f g a a g f g f d d \barMin
-    f g a a( c b) a( g) g \barFinalis
+    f g a g a c b g a a \barMin
+    a g f d e e \barFinalis
   }
   \addlyrics {
     O -- sm -- de -- sát šest let slou -- žím Kris -- tu
@@ -28,8 +28,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "c"
+    modus = "III"
+    differentia = "h"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -39,11 +39,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g \barMin a b a a g( a) a \barMaior
+    a4 a \barMin g a b g g( a) a \barMaior
     a g a e \barMin
     e f g g( a) a c b a a \barMaior
     a a a g( f e) d \barMaior
-    c d e e f g a g \barMin f( g) g e e \barFinalis
+    c d e e f g a g f( g) g e e \barFinalis
   }
   \addlyrics {
     Pa -- ne, vše -- mo -- hou -- cí Bo -- že,
