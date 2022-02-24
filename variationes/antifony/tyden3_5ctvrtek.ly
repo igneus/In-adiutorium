@@ -473,7 +473,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) a( g) a \barMin b c a( g) g( a) a \barMaior
     f4 g a b( c) a g g( a) \barFinalis
@@ -486,6 +486,32 @@
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Iz 40"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Vývoj výše zapříčinil zmatení ohledně diference.
+  Když IV, tak rozhodně d, ne A:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c) a( g) a \barMin b c a( g) g( a) a \barMaior
+    f4 g a b( c) a g g( a) \barFinalis
+  }
+  \addlyrics {
+    Pán při -- jde s_ve -- li -- kou mo -- cí
+    a je -- ho od -- pla -- ta s_ním.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d"
     psalmus = "Iz 40"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
