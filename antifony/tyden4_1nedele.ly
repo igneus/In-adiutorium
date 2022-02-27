@@ -241,13 +241,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b( c) c d e d d \barMin
-    c4 d c a b a g g \barMaior
+    c4 c c a( c) c b a g g \barMin
+    g a g f g a a( g) g \barMaior
     a b g g \barFinalis
   }
   \addlyrics {
-    Plň -- te své sli -- by Hos -- po -- di -- nu a při -- ná -- šej -- te
-    mu da -- ry.
+    Plň -- te své sli -- by Hos -- po -- di -- nu
+    a při -- ná -- šej -- te mu da -- ry.
     A -- le -- lu -- ja.
   }
   \header {
@@ -255,7 +255,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 76-II"
-    placet = "druhá půle stále není dobrá"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
