@@ -1141,11 +1141,39 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c c( f) d \barMin f e d f e d( c) \barMaior
     f f f f f( g) f \barMin g f e d e( f d) d( e d) \barMaior
     c d e f f( d) e c c \barMin
     bes c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- před vyn -- dej ze své -- ho o -- ka trám,
+    a te -- pr -- ve po -- tom bu -- deš dob -- ře vi -- dět,
+    a -- bys mo -- hl vyn -- dat třís -- ku
+    z_o -- ka své -- ho brat -- ra.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    placet = "málo zpěvná; retardace/ornamentace na _vidět_ je výrazně neústrojná"
+    id = "ne8c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c c( f) \mark\sipka f \barMin f \mark\sipka g f d e d( c) \barMaior
+    f f f f f( g) f \barMin \mark\sipka f e d f e( d) c \barMaior
+    \mark\sipka d c d f e f d d \barMin
+    \mark\sipka e c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Na -- před vyn -- dej ze své -- ho o -- ka trám,
@@ -1165,7 +1193,35 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( f) f \barMin \mark\sipka g f f d e d( c) \barMaior
+    f f f f f( g) f \barMin f e d f e( d) c \barMaior
+    d c d f e f d d \barMin
+    e c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- před vyn -- dej ze své -- ho o -- ka trám,
+    a te -- pr -- ve po -- tom bu -- deš dob -- ře vi -- dět,
+    a -- bys mo -- hl vyn -- dat třís -- ku
+    z_o -- ka své -- ho brat -- ra.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne8c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( b g) \barMin b a g a4.( b) a4 g a g g \barMaior
     a a f a a4.( c) \barMin b4 a b g g \barMax
@@ -1190,7 +1246,61 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( b g) \mark\sipka b a g a4.( b) a4 g a g g \barMaior
+    a \mark\sipka f a( c) c c \barMin b4 a b g g \barMax
+    f g a g \mark\sipka a( c) b \barMin \mark\sipka a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý strom ne -- mů -- že nést špat -- né o -- vo -- ce,
+    a -- ni špat -- ný strom o -- vo -- ce dob -- ré. % dob -- ré o -- vo -- ce.
+    Kaž -- dý strom se po -- zná po vlast -- ním o -- vo -- ci.
+  }
+  \header {
+    textus_approbatus = "Dobrý strom nemůže nést špatné ovoce, ani špatný strom dobré ovoce.
+    Každý strom se pozná po vlastním ovoci."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne8c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( b g) b a g a4.( b) a4 g a g g \barMaior
+    a f a( c) c c \barMin b4 a b g g \barMax
+    \mark\sipka c c d c c( d c) c \barMin a g \mark\sipka a a g g \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý strom ne -- mů -- že nést špat -- né o -- vo -- ce,
+    a -- ni špat -- ný strom o -- vo -- ce dob -- ré. % dob -- ré o -- vo -- ce.
+    Kaž -- dý strom se po -- zná po vlast -- ním o -- vo -- ci.
+  }
+  \header {
+    textus_approbatus = "Dobrý strom nemůže nést špatné ovoce, ani špatný strom dobré ovoce.
+    Každý strom se pozná po vlastním ovoci."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne8c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 a g( f) f \barMin g( e f) d( c) c \barMaior
     d c d( f e) f( g) f( e) e \barMin f( e) f g( a) f f( g) g \barMaior
@@ -1213,6 +1323,97 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g( a) f f \barMin
+    g f g a a a c g f g f( d) d \barMaior
+    c d f f( g) g g \barMin
+    f( e d) e( d) c( d) d \barMax
+    f e c( d) c \barMin
+    d c d( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý člo -- věk vy -- ná -- ší
+    z_dob -- ré po -- klad -- ni -- ce své -- ho srd -- ce dob -- ro,
+    a -- le zlý ze zlé -- ho
+    vy -- dá -- vá zlo.
+    Ús -- ta mlu -- ví
+    to, čím pře -- té -- ká srd -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    placet = "tady moc nesedí melodie začátku odporovací věty"
+    id = "ne8c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g( a) f f \barMin
+    g f g a a a c g f g f( d) d \barMaior
+    \mark\sipka f e d c( d) c c \barMin
+    d( e f) e( d) c( d) d \barMax
+    f g g( a) a \barMin
+    g f g( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý člo -- věk vy -- ná -- ší
+    z_dob -- ré po -- klad -- ni -- ce své -- ho srd -- ce dob -- ro,
+    a -- le zlý ze zlé -- ho
+    vy -- dá -- vá zlo.
+    Ús -- ta mlu -- ví
+    to, čím pře -- té -- ká srd -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne8c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a g( a) f f \barMin
+    g f g a a a c g f g f( d) d \barMaior
+    f e d c( d) c c \barMin
+    d( e f) e( d) c( d) d \barMax
+    \mark\sipka f( g a) f g( f) e \barMin
+    d c d( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý člo -- věk vy -- ná -- ší
+    z_dob -- ré po -- klad -- ni -- ce své -- ho srd -- ce dob -- ro,
+    a -- le zlý ze zlé -- ho
+    vy -- dá -- vá zlo.
+    Ús -- ta mlu -- ví
+    to, čím pře -- té -- ká srd -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne8c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"9. neděle"}}
 

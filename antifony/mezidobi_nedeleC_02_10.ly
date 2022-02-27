@@ -452,10 +452,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c c( f) d \barMin f e d f e d( c) \barMaior
-    f f f f f( g) f \barMin g f e d e( f d) d( e d) \barMaior
-    c d e f f( d) e c c \barMin
-    bes c d( f) e c( d) d \barFinalis
+    d4 c c( f) f \barMin f g f d e d( c) \barMaior
+    f f f f f( g) f \barMin f e d f e( d) c \barMaior
+    d c d f e f d d \barMin
+    e c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Na -- před vyn -- dej ze své -- ho o -- ka trám,
@@ -477,9 +477,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( b g) \barMin b a g a4.( b) a4 g a g g \barMaior
-    a a f a a4.( c) \barMin b4 a b g g \barMax
-    f g a g a( c b) a \barMin g a g f( g) a( g) g \barFinalis
+    c4 c c( b g) b a g a4.( b) a4 g a g g \barMaior
+    a f a( c) c c \barMin b4 a b g g \barMax
+    c c d c c( d c) c \barMin a g a a g g \barFinalis
   }
   \addlyrics {
     Dob -- rý strom ne -- mů -- že nést špat -- né o -- vo -- ce,
@@ -502,16 +502,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a g( f) f \barMin g( e f) d( c) c \barMaior
-    d c d( f e) f( g) f( e) e \barMin f( e) f g( a) f f( g) g \barMaior
-    a a f( g) f( e) d d \barMin d( f e) f( g f) e d \barMax
-    d( c) d f( d) c( d) d \barMin f f( e d) e d c( d) d \barFinalis
+    f4 g g( a) a g( a) f f \barMin
+    g f g a a a c g f g f( d) d \barMaior
+    f e d c( d) c c \barMin
+    d( e f) e( d) c( d) d \barMax
+    f( g a) f g( f) e \barMin
+    d c d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Dob -- rý člo -- věk vy -- ná -- ší
     z_dob -- ré po -- klad -- ni -- ce své -- ho srd -- ce dob -- ro,
-    a -- le zlý ze zlé -- ho vy -- dá -- vá zlo.
-    Ús -- ta mlu -- ví to, čím pře -- té -- ká srd -- ce.
+    a -- le zlý ze zlé -- ho
+    vy -- dá -- vá zlo.
+    Ús -- ta mlu -- ví
+    to, čím pře -- té -- ká srd -- ce.
   }
   \header {
     quid = "ant. k Magnificat"
