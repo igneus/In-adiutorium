@@ -167,14 +167,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d f f e \barMin
-    f e d c \barMaior
-    d d( f) e f d d \barFinalis
+    d4 c d f e f g f d d \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
-    Má mod -- lit -- ba,
-    Hos -- po -- di -- ne,
-    kéž pro -- nik -- ne k_to -- bě.
+    Kéž k_to -- bě pro -- nik -- ne má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
   }
   \header {
     textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
@@ -190,8 +188,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f f g f g a \barMaior
-    a g f g f e f d \barFinalis
+    d4 d f d f e d c \barMin
+    d c d f f e c d \barFinalis
   }
   \addlyrics {
     Vo -- lám k_to -- bě, Hos -- po -- di -- ne,

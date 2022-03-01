@@ -650,6 +650,28 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka c d f e f g f d d \barMin
+    \mark\sipka e f d d \barFinalis
+  }
+  \addlyrics {
+    Kéž k_to -- bě pro -- nik -- ne má mod -- lit -- ba,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    textus_approbatus = "Kéž pronikne k tobě má modlitba, Hospodine."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     f g g d \barMin
@@ -674,7 +696,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d f f e \barMin
     f e d c \barMaior
@@ -719,6 +741,27 @@
 \score {
   \relative c' {
     \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka d f d f e d c \barMin
+    d c d f f e c d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f f g f g a \barMaior
     a g f g f e f d \barFinalis
