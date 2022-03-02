@@ -12,14 +12,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 d( e) f g a( g) \barMin a c b( g) a \barMaior
-    c d c b( a b) g \barMin f e d e f f( a) f f( g) g \barFinalis
+    g4 g f g a( g) a c b( g) a \barMaior
+    c d c d d( c) \barMin
+    c c c a g f a a( g) g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
-    a ne -- za -- po -- meň na žád -- né z_je -- ho do -- bro -- di -- ní.
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
 
     A -- le -- lu -- ja.
   }
@@ -37,10 +39,10 @@
   \relative c'' {
     \choralniRezim
     g g g a b c b \barMin c d b a a \barMaior
-    g g a g f e d( e) d d \barMin
-    d e f g a a g g \barFinalis
+    g g a g f e d e e \barMin
+    f g g a f a g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
@@ -62,10 +64,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b c c c c \barMin
-    b g f a g g \barFinalis
+    g4 f g a c c c \barMin
+    a g f a g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te Hos -- po -- di -- na,
