@@ -88,7 +88,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&jiny_text"
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
