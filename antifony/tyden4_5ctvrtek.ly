@@ -90,9 +90,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a g \barMin
-    a g a a c c \barMin
-    b a g g \barFinalis
+    g4 a g( c) c \barMin
+    c( d) c b a g g \barMin
+    f g a g \barFinalis
   }
   \addlyrics {
     Dej, ať zá -- hy
@@ -104,7 +104,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 143"
-    placet = "spíš ještě jinak"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -134,17 +133,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4. a b4 c d a g( f g4.) g \barFinalis
+    c4. a c4 c b a g g \barFinalis
   }
   \addlyrics {
     Náš Bůh si za -- slou -- ží chvá -- ly.
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 147-I"
-    placet = "lépe"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
