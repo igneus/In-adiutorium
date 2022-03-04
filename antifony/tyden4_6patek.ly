@@ -32,6 +32,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 78-I"
+    placet = "všechny tři zpěvněji"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
