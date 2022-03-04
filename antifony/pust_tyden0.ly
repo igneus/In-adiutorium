@@ -99,12 +99,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a c a a d c b( c) a \barMin
+    a4 a g a c a a d c b( c) a \barMin
     g c c c b g g( a) a \barMaior
     a a( d) d d c e( d) d \barMin
     c( d c) b a a \barMaior
     f g g a a a
-    a( c) b a a a \barFinalis
+    a( c) b g a a \barFinalis
   }
   \addlyrics {
     Když u -- vi -- díš na -- hé -- ho, ob -- lék -- ni ho
@@ -129,8 +129,8 @@
   \relative c' {
     \choralniRezim
     d4 d d( c d) \barMin
-    d d d d d( f) e g f e d d \barMaior
-    a c d d( e) d d f d c( d) d \barFinalis
+    c d f e f( g) g g f e d( e) d( c) \barMaior
+    a c d d( f) e d e d c( d) d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
