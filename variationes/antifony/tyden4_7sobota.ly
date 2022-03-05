@@ -135,6 +135,31 @@
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
+    d4 d c( d) d( c) c \barMin
+    \mark\sipka a c b g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d c( d) c c( b c) \barMin
     c b g a( g) g \barFinalis
 
@@ -160,6 +185,29 @@
     \choralniRezim
     d4 b d c( b) g \barMin
     a g f g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) e( d) d \barMin
+    c( b a) b a g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
@@ -664,7 +712,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') g( f) f( a) a \barMaior
     a g bes a a \barMin g4 f e f( d) d \barFinalis
@@ -677,6 +725,90 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Ez 36"
+    placet = "melodie _nové_ je jaksi neadekvátní běžným zvukovým kvalitám slova i jeho významu v celku textu"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    g f e d c g'( a) bes a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g( f) e \barMin
+    e f d c c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMaior
+    d f e c( d) c \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás
+    no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c c c( d) d \barMaior
+    d c b a g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "c"
     psalmus = "Ez 36"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

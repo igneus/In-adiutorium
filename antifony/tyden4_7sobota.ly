@@ -14,13 +14,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) c c( b c) \barMin
-    c b g a( g) g \barFinalis
+    d4 d c( d) d( c) c \barMin
+    a c b g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
-    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
 
     A -- le -- lu -- ja.
   }
@@ -179,10 +180,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( a') g( f) f( a) a \barMaior
-    a g bes a a \barMin g4 f e f( d) d \barFinalis
+    c4 a c c c( d) d \barMaior
+    d c b a g a c b g( a) a \barFinalis
   }
   \addlyrics {
     Dám vám no -- vé srd -- ce
@@ -190,8 +191,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "c"
     psalmus = "Ez 36"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
