@@ -85,7 +85,7 @@ placet = \markup\large{
   \hspace #3
   \override #'(font-name . "Dynalight") % handwritten font
   \on-the-fly \development-build
-    \with-color #blue \fromproperty #'header:placet
+    \with-color #blue \wordwrap-field #'header:placet
 }
 % this one is used directly in the particular score's header field,
 % not in the following shared 'commands'
