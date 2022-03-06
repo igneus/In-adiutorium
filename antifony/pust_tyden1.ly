@@ -36,7 +36,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a( d) d \barMin
+    g4 a c( d) d \barMin
     d c b a g g a a \barMaior
     a c b( c) a a \barMin
     a g f g( a) a g g \barFinalis
@@ -62,8 +62,8 @@
     \choralniRezim
     g4 g a g f g g( a) g g \barMaior
     a c c c d c b a a a \barMaior
-    a g f g( a) a g g \barMax
-    g g g a g g f a g g \barMaior
+    c b a b( c) a g g \barMax
+    g g g a g f g a g g \barMaior
     a c c( d) d e( d c d) d( c) \barMin
     a g f( g) a g g \barFinalis
   }
@@ -159,7 +159,7 @@
   \relative c'' {
     \choralniRezim
     a4 a \barMin a a b a a g a f( e) e \barMaior
-    d f g f e e \barFinalis
+    d e f( g) g e e \barFinalis
   }
   \addlyrics {
     Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
@@ -199,7 +199,7 @@
   \relative c'' {
     \choralniRezim
     a4 g a c( d) d c d e c d d \barMaior
-    d a d c b a( g) a \barMin
+    d a d b c a( g) a( g) \barMin
     f g g( a) a c bes a g a a \barFinalis
   }
   \addlyrics {
