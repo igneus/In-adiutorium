@@ -144,6 +144,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "druhou půlku, zejm. _pokorné_, lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -211,6 +212,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "1 Petr 2"
+    placet = "hned tři verše tohoto krátkého kantika mají první poloverš tak krátký, že žádná slabika nezbyde na recitandu"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
