@@ -1,14 +1,66 @@
 \version "2.12.0"
-% -*- master: ../pust_antifony.ly;
+
+\include "../spolecne.ly"
 
 \markup\nadpisDen{1. neděle postní}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 c d d( g) d e f d d \barMin
+    d d c( a) a d( c) c( d) d \barMax
+    d d d( e f g) e f( e d) d \barMin c d c b( c a) \barMaior
+    c d f f e( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se vrá -- til od Jor -- dá -- nu
+    pl -- ný Du -- cha sva -- té -- ho.
+    Duch ho vo -- dil pouš -- tí čty -- ři -- cet dní
+    a ďá -- bel ho po -- kou -- šel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "zkulturnit"
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
     \choralniRezim
     d4 d d d( f) d e f d( c) c \barMin
     f g a g f( g) f f \barMax
-    a a g( a g) f f( g) g \barMin
+    f f e( f d) c d( c) c \barMin
+  }
+  \addlyrics {
+    Je -- žíš se vrá -- til od Jor -- dá -- nu
+    pl -- ný Du -- cha sva -- té -- ho.
+    Duch ho vo -- dil pouš -- tí
+    čty -- ři -- cet dní
+    a ďá -- bel ho po -- kou -- šel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( f) d e f d( c) c \barMin
+    f g a g f( g) f f \barMax
+    \mark\sipka a a g( a g) f f( g) g \barMin
     f e c d( c) \barMaior
     c d f f e( d) c( d) d \barFinalis
   }
@@ -29,17 +81,57 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
-    e e a a g f g( a) a \barMaior
-    g f d d( e) e \barMin
+    e e a a g f a( b) a \barMaior
+    e e e e( f) e \barMin
     g g a g a f e e \barMin
     d d d g( f) g e \barMax
 
-    e e e d( e d) c d( e) e \barMaior
-    e g( a) a \barMin
-    b a g e f( g) g e e \barFinalis
+    e e e d( e d) c e e \barMaior
+    e d( a') a \barMin
+    b a g e f f e e \barFinalis
+  }
+  \addlyrics {
+    Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
+    Jsi -- -li Syn Bo -- ží,
+    řek -- ni to -- mu -- to ka -- me -- ní,
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Je psá -- no:
+    Ne -- jen z_chle -- ba ži -- je člo -- věk.
+  }
+  \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    placet = "nepříliš libé neobvyklé postupy"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e e a a g f \mark\sipka g( a) a \barMaior
+    \mark\sipka g f d d( e) e \barMin
+    g g a g a f e e \barMin
+    d d d g( f) g e \barMax
+
+    e e e d( e d) c \mark\sipka d( e) e \barMaior
+    e \mark\sipka g( a) a \barMin
+    b a g e \mark\sipka f( g) g e e \barFinalis
   }
   \addlyrics {
     Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
@@ -64,8 +156,135 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 f g a c b c d c b a a \barMaior
+    g g g g a g \barMin
+    a a c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "první část je nepěkná"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a c c d c b c a a \barMaior
+    c b a g a g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Antifona je tak nějak tonálně nestabilní.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a c c d c b c a a \barMaior
+    c b a g a g \barMin
+    f g a c b g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Zvýraznění tóniky na začátku přispěje ke stabilisaci:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g a a c c d c b c a a \barMaior
+    c b a g a g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a c c d c b c a a \barMaior
+    c b a \mark\sipka g( a) g g \barMin
+    f g a c b g \mark\sipka g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Terciový skok na do-končil nějak drhne. Co to zkusit jinak:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c d d \barMin
     c d e c c( d) d \barMaior
@@ -87,6 +306,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup\nadpisDen{2. neděle postní}
 
