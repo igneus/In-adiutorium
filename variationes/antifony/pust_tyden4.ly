@@ -389,6 +389,50 @@
   \relative c'' {
     \choralniRezim
     g4 g( a) a \barMin
+    c c b a \mark\sipka g a a g g \barMaior
+    \mark\sipka f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
+    c c b a g a a g g \barMaior
+    \mark\sipka a b c a g g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
     c c b a b \mark\sipka c d c c \barMaior
     c a b a g g \barFinalis
   }
