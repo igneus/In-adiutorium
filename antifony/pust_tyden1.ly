@@ -239,7 +239,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=2"
+    fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?konec&-aleluja"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
