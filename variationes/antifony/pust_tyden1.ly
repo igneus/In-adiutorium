@@ -825,7 +825,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d c d e c d d \barMaior
     d a d \mark\sipka b c a( g) a( g) \barMin
@@ -840,6 +840,30 @@
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "1 Petr 2"
+    placet = "hned tři verše krátkého kantika mají první poloverš tak krátký, že žádná slabika nezbyde na recitandu"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d d( f) d f g f e d d \barMaior
+    d f e d e d( c) c \barMin
+    a c c( d) d e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Hle, jde -- me vzhů -- ru do Je -- ru -- za -- lé -- ma
+    a tam se spl -- ní všech -- no,
+    co je psá -- no o Sy -- nu člo -- vě -- ka.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
