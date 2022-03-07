@@ -225,7 +225,7 @@
     \choralniRezim
     d( a') a \barMin c c b a b c a a \barMaior
     f( g) g( a) a a g a( c) b a( b) a a \barMaior
-    a a a g f g g f( e) d \barMaior
+    a a a g f g g f( e) d \barMin
     e d c e f d d \barFinalis
   }
   \addlyrics {
@@ -248,8 +248,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a bes a g a f g e \barMaior
-    d d d d d f d f g f d d \barMaior
+    a bes a g a f g e \barMin
+    d d d c d f d f g f d d \barMaior
     a' g a g f e( f) d \barMin
     c d d \barFinalis
   }

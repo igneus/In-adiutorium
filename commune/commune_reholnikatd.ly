@@ -286,14 +286,14 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 g( a) f g a \barMaior
-      a bes a g a f g e \barMaior
-      d d d d d f d f g f d d \barMaior
+      g4 a f( g) a a \barMaior
+      a bes a g a f g e \barMin
+      d d d c d f d f g f d d \barMaior
       a' g a g f e( f) d \barMax
 
       d( a') a \barMin c c b a b c a a \barMaior
       f( g) g( a) a a g a( c) b a( b) a a \barMaior
-      a a a g f g g f( e) d \barMaior
+      a a a g f g g f( e) d \barMin
       e d c e f d d \barFinalis
 
       e^\markup\rubrVelikAleluja d c( d) d \barFinalis
@@ -314,7 +314,7 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "a2"
+      differentia = "g"
       psalmus = ""
       id = "milo-ne2-amag"
       piece = \markup {\sestavTitulekBezZalmu}

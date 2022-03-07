@@ -852,6 +852,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( a') a \barMin c c b a b c a a \barMaior
     f( g) g( a) a a g a( c) b a( b) a a \barMaior
@@ -875,8 +876,39 @@
   }
 }
 
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d( a') a \barMin c c b a b c a a \barMaior
+    f( g) g( a) a a g a( c) b a( b) a a \barMaior
+    a a a g f g g f( e) d \barMin
+    e d c e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?konec&-aleluja"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a bes a g a f g e \barMaior
     d d d d d f d f g f d d \barMaior
@@ -899,6 +931,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a bes a g a f g e \barMin
+    d d d c d f d f g f d d \barMaior
+    a' g a g f e( f) d \barMin
+    c d d \barFinalis
+  }
+  \addlyrics {
+    Co -- ko -- li jste u -- dě -- la -- li
+    pro jed -- no -- ho z_mých nej -- po -- sled -- něj -- ších brat -- ří,
+    pro mě jste u -- dě -- la -- li,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=1"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Úterý}
 
