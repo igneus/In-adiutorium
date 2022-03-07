@@ -66,6 +66,11 @@
 
   \pageBreak
 
+  \markup\justify{
+    Text nezávislý na latinské předloze:
+    \italic{Utinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra.}
+  }
+
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -89,7 +94,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 a g a \barMin
       a c c b a g a a \barFinalis
@@ -142,6 +147,108 @@
       quid = "ant."
       modus = "IV alt"
       differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      d4 e e d \barMin
+      d c a c b a g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka c4 d e d \barMin
+      d c a c b a g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka c4 b c( d) d \barMin
+      d c a c b a g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( e d) c( b) a( b) b \barMin
+      b c a a g f g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      c4 d d c \barMin
+      a c b a g a g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "c"
       psalmus = ""
       id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -245,6 +352,94 @@
       quid = "ant."
       modus = "VIII"
       differentia = "G"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g( f) g \barMin
+      a c a c b a g g \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Melisma (jen) na "\"obrať_te_ se\"" je poněkud nepřirozené,
+    ale mám za to, že nepáchá na textu netolerovatelné násilí
+    a má tu quasi-zvukomalebnou funkci. Zkrátka i při té mírné nepřirozenosti
+    je nápěv s ním lepší než bez něj.
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      e4 g g( a) a \barMin
+      a g e f e d e e \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g \mark\sipka a a \barMin
+      a g e f e d e e \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g( a) a \barMin
+      a bes a g a g f f \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
       id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}

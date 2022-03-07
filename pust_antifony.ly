@@ -38,10 +38,10 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      d4 a g a \barMin
-      a c c b a g a a \barFinalis
+      e4 g g( a) a \barMin
+      a g e f e d e e \barFinalis
     }
     \addlyrics {
       Ob -- rať -- te se
@@ -49,8 +49,8 @@
     }
     \header {
       quid = "ant."
-      modus = "IV alt"
-      differentia = "d"
+      modus = "IV"
+      differentia = "E"
       psalmus = ""
       id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
