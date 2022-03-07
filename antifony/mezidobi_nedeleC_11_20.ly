@@ -444,18 +444,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a \barMin
-    a g a f( d) e( d) d \barMaior
-    f f f g( f) \barMin g a g f e f d d \barFinalis
+    c4( d) d \barMin
+    f e d e( f) d d \barMaior
+    f g f e( d c) \barMin
+    d f f f e c d d \barFinalis
   }
   \addlyrics {
     Pa -- ne,
     na -- uč nás mod -- lit se,
-    ja -- ko i Jan na -- u -- čil své u -- čed -- ní -- ky.
+    ja -- ko i Jan
+    na -- u -- čil své u -- čed -- ní -- ky.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     annus = "C"

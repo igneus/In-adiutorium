@@ -990,6 +990,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a \barMin
     a g a f( d) e( d) d \barMaior
@@ -1010,6 +1011,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin
+    f e d e( f) d d \barMaior
+    f g f e( d c) \barMin
+    d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    na -- uč nás mod -- lit se,
+    ja -- ko i Jan
+    na -- u -- čil své u -- čed -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-1ne-amag"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
