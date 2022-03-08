@@ -60,11 +60,11 @@
   \markup {\nadpisHodinka {"nedělní vigilie"}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4 d( g) \barMin f g a f f( g) g \barMaior
-      g f e d( c) d d( c) \barMaior
-      f d d f g f d d \barFinalis
+      c4( d) d-- c d e c c( d) d \barMin
+      d c b a( g) a a( g) \barMaior
+      a g a b c a g( a) a \barFinalis
     }
     \addlyrics {
       Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
@@ -73,10 +73,9 @@
     }
     \header {
       quid = "ant. ke kantikům vigilie"
-      modus = "I"
-      differentia = "D"
+      modus = "IV alt"
+      differentia = "d"
       psalmus = ""
-      placet = "nic moc"
       id = "mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }

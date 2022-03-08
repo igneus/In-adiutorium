@@ -474,7 +474,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d( g) \barMin f g a f f( g) g \barMaior
       g f e \mark\sipka d( c) d d( c) \barMaior
@@ -513,6 +513,159 @@
       differentia = "D"
       psalmus = ""
       id = "mv-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( d) d-- c d e c c( d) d \barMin
+      d c b a( g) a a( g) \barMaior
+      f g a b c a g( a) a \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV alt"
+      differentia = "d"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d-- c d e c c( d) d \barMin
+      d c b a( g) a a( g) \barMaior
+      \mark\sipka a g a b c a g( a) a \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV alt"
+      differentia = "d"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( d) d-- c d e c c( d) d \barMin
+      d c b a( g) a a( g) \barMaior
+      f g a \mark\sipka c b g g( a) a \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV alt"
+      differentia = "d"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4 d f g f e c( d) d \barMin
+      f e d c( d) c c \barMaior
+      f d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka d4 c d e f d c( d) d \barMin
+      f e d c( d) c c \barMaior
+      f d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a b c b c( d) d \barMin
+      d e c c( d) d d \barMaior
+      c a a c b g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d f e d c( d) d \barMin
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
