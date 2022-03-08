@@ -552,6 +552,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin
+    f e d \mark\sipka f( g) a( g) g \barMaior
+    a bes a g( f d) \barMin
+    f f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    na -- uč nás mod -- lit se,
+    ja -- ko i Jan
+    na -- u -- čil své u -- čed -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne17c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -1143,6 +1143,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e f d( c) \barMin
+    f g a g f( g) \mark\sipka g( a) a \barMaior
+    a( c) a g( a) a \barMin
+    g f( e) d c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d d( f) \barMin
     g f g f e( f) d( c) c \barMaior
     d f e( d) c \barMin
