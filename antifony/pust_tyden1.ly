@@ -299,10 +299,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c c( d) \barMin
-    f e f g f( e) d( c) c \barMaior
-    d c c( d) d \barMin
-    d d( f) d d d( g) f d d \barFinalis
+    d4 f e f d( c) \barMin
+    f g a g f( g) f f \barMaior
+    d f f( g) g \barMin
+    g f( e) d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Když se mod -- líš ty,

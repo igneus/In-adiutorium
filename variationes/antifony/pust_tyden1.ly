@@ -1044,6 +1044,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c c( d) \barMin
     f e f g f( e) d( c) c \barMaior
@@ -1065,6 +1066,105 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin
+    f d f e d( e) d d \barMaior
+    c d d( f) f \barMin
+    f f( g) f f e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e \mark\sipka f d( c) \barMin
+    f d f e d( e) d d \barMaior
+    c d d( f) f \barMin
+    f f( g) f f e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f d( c) \barMin
+    \mark\sipka f g a g f( g) f f \barMaior
+    d f f( g) g \barMin
+    g f( e) d c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) \barMin
+    g f g f e( f) d( c) c \barMaior
+    d f e( d) c \barMin
+    d d( f) d d f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš ty,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Středa}
 
