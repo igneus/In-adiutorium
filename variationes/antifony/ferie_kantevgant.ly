@@ -2109,6 +2109,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( g a) c( d) d c \barMin
     d4 e c a( g) g \barMaior
@@ -2124,6 +2125,135 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    placet = "jedna z mých nejoblíbenějších antifon;
+    nejsem si však jist, že melodie úvodního oslovení odpovídá důstojnosti oslovovaného"
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d e c c( d) d \barMaior
+    a( d) b c a g a( g) \barMin
+    f( g) a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Hospodine, buď světlem pro ty,
+    kdo žijí v temnotě a v stínu smrti!"
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e d \barMin
+    c( d) e g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Hospodine, buď světlem pro ty,
+    kdo žijí v temnotě a v stínu smrti!"
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e \mark\sipka e \barMin
+    \mark\sipka e f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Hospodine, buď světlem pro ty,
+    kdo žijí v temnotě a v stínu smrti!"
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e e \barMin
+    \mark\sipka e( f) g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a v_stí -- nu smr -- ti!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e e \barMin
+    \mark\sipka e f( g) f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a v_stí -- nu smr -- ti!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "t1-so-ben"
     piece = \markup {\sestavTitulekBezZalmu}
