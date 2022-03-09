@@ -868,6 +868,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
 
       g4 g f g a b c( a) g g4. \breathe a4 b c c c d d c d a4. \breathe f4 g g4. \bar "||"
@@ -881,6 +882,58 @@
       differentia = "G"
       psalmus = ""
       id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+
+      g4 g f g a b c( a) g g4. \barMin
+      a4 b c c c d d c d a4. \barMin
+      f4 g g4. \barFinalis
+    }
+    \addlyrics {
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
+      dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
+      id = "sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      g4 g f g a b c( a) g g \barMaior
+      a4 b c c c d d c d a \barMin
+      f4 g g \barFinalis
+    }
+    \addlyrics {
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
+      dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
+      id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

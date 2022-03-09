@@ -108,9 +108,9 @@
     \relative c'' {
       \choralniRezim
 
-      g4 g f g a b c( a) g g4. \barMin
-      a4 b c c c d d c d a4. \barMin
-      f4 g g4. \barFinalis
+      g4 g f g a b c( a) g g \barMaior
+      a4 b c c c d d c d a \barMin
+      f4 g g \barFinalis
     }
     \addlyrics {
       Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
