@@ -143,18 +143,26 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \simpleScore{zakladni_napevy.ly#pokojnounoc}
 
-\rubrika{Připojí se některá ze závěrečných mariánských antifon:}
+\rubrika{Připojí se některá ze závěrečných mariánských antifon.}
+
+\rubrika{(Kromě českých chorálních antifon níže viz také hymnář
+  pro latinské antifony a české písňové parafráze.)}
 
 \setChantSource{marianske_antifony.ly}
 \simpleScore{#alma}
 
+\simpleScore{#averegina}
+
 \simpleScore{#salve}
+
+\simpleScore{#salve2}
 
 \simpleScore{#subtuum}
 
-\simpleScore{#avemaria}
+\simpleScore{#subtuum2}
 
-\rubrika{(Viz také hymnář pro latinské antifony a české písňové parafráze.)}
+\newpage % ZLOM
+\simpleScore{#avemaria}
 
 \newpage % ZLOM
 
