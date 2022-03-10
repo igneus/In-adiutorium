@@ -1131,6 +1131,8 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     ragged-last-bottom=##t
   }
 
+  \markup\nadpisSkupiny "Aleluja Miserere mihi"
+
   \markup {Následující antifona je převzatá z \italic{Liber usualis}, New York-Tournai, 1961, 266.}
 
   \score {
@@ -1153,6 +1155,42 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Liber usualis, New York-Tournai, 1961, 266."
+    }
+  }
+
+  \markup\justify{
+    Alelujatické antifony tradičního repertoáru jsou často založené na odpovídající
+    antifoně zpívané mimo dobu velikonoční. To je i případ antifony výše,
+    založené na antifoně \italic{Miserere mihi Domine} (CANTUS 203130).
+    V této logice by bylo možné postavit alelujatickou antifonu z odpovídající
+    antifony české - spíš z jedné vybrané než z každé, protože ne všechny
+    se k tomu délkou textu a charakterem nápěvu dobře hodí.
+    Třeba právě z antifony odpovídající oné zmiňované latinské:
+  }
+
+  \markup\nadpisSkupiny "Alelua Smiluj se nade mnou"
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f g \barMin
+      g f d d
+      e f( d) c( d) d \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k žalmům"
+      quidbreve = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "kompletar.ly#nei1?upraveno&jiny text"
+      id = "pasch2"
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 

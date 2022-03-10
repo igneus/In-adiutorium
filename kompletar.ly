@@ -332,6 +332,32 @@
     }
   }
 
+  \markup\italic{Nebo:}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f g \barMin
+      g f d d
+      e f( d) c( d) d \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k žalmům"
+      quidbreve = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "kompletar.ly#nei1?upraveno&jiny text"
+      id = "pasch2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \score {
     \relative c' {
       \choralniRezim
