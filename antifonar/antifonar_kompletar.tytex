@@ -148,21 +148,41 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \rubrika{(Kromě českých chorálních antifon níže viz také hymnář
   pro latinské antifony a české písňové parafráze.)}
 
+% viz v breviáři rubriku na konci formuláře slavnosti
+\rubrika{O slavnosti Nanebevzetí Panny Marie po druhých nešporách
+  je vhodné vybrat antifonu \textup{Zdráva buď, Královno nebe}
+  (níže, nebo pro tentýž text písnový nápěv v hymnáři)
+  nebo \textup{Zdráva buď Panno Maria, ó Královno} (v hymnáři).}
+
 \setChantSource{marianske_antifony.ly}
 \simpleScore{#alma}
 
+\rubrikaNebo
+
 \simpleScore{#averegina}
+
+\rubrikaNebo
 
 \simpleScore{#salve}
 
+\rubrikaNebo
+
 \simpleScore{#salve2}
+
+\rubrikaNebo
 
 \simpleScore{#subtuum}
 
+\rubrikaNebo
+
 \simpleScore{#subtuum2}
 
-\newpage % ZLOM
+\rubrikaNebo
+
 \simpleScore{#avemaria}
+
+\noindent\rubrika{V době velikonoční:
+  \textup{Vesel se, nebes Královno} (v hymnáři).}
 
 \newpage % ZLOM
 
