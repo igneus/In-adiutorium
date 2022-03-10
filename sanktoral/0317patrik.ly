@@ -25,7 +25,6 @@
     a křtě -- te je
     ve jmé -- nu Ot -- ce i Sy -- na
     i Du -- cha sva -- té -- ho.
-    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
