@@ -1194,6 +1194,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a b g g \barMin
     g a g f d e \barMaior
@@ -1217,6 +1218,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a b g g \barMin
+    g a g f d e \barMaior
+    d f g a a \barMin
+    a a a a a( b) a a \mark\sipka a g a f e e \barMin
+    \mark\sipka d f( g a) g f g g e e \barFinalis
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

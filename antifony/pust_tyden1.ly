@@ -328,8 +328,8 @@
     a4 a a b g g \barMin
     g a g f d e \barMaior
     d f g a a \barMin
-    a a a a a( b) a a g a g f e e \barMin
-    f f( g a) g f g g e e \barFinalis
+    a a a a a( b) a a a g a f e e \barMin
+    d f( g a) g f g g e e \barFinalis
   }
   \addlyrics {
     To -- to po -- ko -- le -- ní
