@@ -581,6 +581,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) a g a g f( g) g \barMaior
     a c c c d c b a \barMaior
@@ -601,6 +602,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) a g a g f( g) g \barMaior
+    a c c c d c \mark\sipka a a \barMaior
+    b g \barMin g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Pros -- te, a do -- sta -- ne -- te;
+    hle -- dej -- te, a na -- lez -- ne -- te;
+    tluč -- te, a o -- te -- vře se vám.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne17c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a g a g f( g) g \barMaior
+    a c c c d c a a \barMaior
+    \mark\sipka g( a) g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Pros -- te, a do -- sta -- ne -- te;
+    hle -- dej -- te, a na -- lez -- ne -- te;
+    tluč -- te, a o -- te -- vře se vám.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne17c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -630,6 +680,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( f) \barMin
+    g g g g a( g) \barMaior
+    a a a g( f) f f g f g f d( c) c \barMax
+    d d( f) f f( g) f e d d \barMin
+    f e \mark\sipka d c( d) c c \barMin
+    d d f \mark\sipka e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy,
+    tře -- ba -- že jste zlí,
+    u -- mí -- te dá -- vat svým dě -- tem dob -- ré da -- ry,
+    čím spí -- še ne -- bes -- ký O -- tec
+    dá Du -- cha sva -- té -- ho
+    těm, kdo ho pro -- sí!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne17c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"18. neděle"}}
 

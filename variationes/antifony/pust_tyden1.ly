@@ -1372,9 +1372,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) a g a g f( g) g \barMaior
     a c c c d c b a \barMaior
+    b g \barMin g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Pros -- te, a do -- sta -- ne -- te;
+    hle -- dej -- te, a na -- lez -- ne -- te;
+    tluč -- te, a o -- te -- vře se vám.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-rch-aben"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) a g a g f( g) g \barMaior
+    a c c c d c a a \barMaior
     b g \barMin g a g f g g \barFinalis
   }
   \addlyrics {

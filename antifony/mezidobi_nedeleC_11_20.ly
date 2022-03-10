@@ -470,7 +470,7 @@
   \relative c'' {
     \choralniRezim
     g4( c) a g a g f( g) g \barMaior
-    a c c c d c b a \barMaior
+    a c c c d c a a \barMaior
     b g \barMin g a g f g g \barFinalis
   }
   \addlyrics {
