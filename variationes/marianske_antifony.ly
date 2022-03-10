@@ -260,6 +260,62 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \key f \major
+
+    f4 e d c d f g f \barMaior
+    a c bes g a g f a g \barMaior
+    f e d c d f g f \barMaior
+    a g bes a g d g f \barMax
+
+    f g a a g a bes a \barMaior
+    c bes a g f d g f \barMax
+    bes a g bes a g f( g a) a \barMaior
+    c bes bes( c d) a a g f g f \barFinalis
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    f4 e d c d f g f \barMaior
+    a c \mark\sipka a g f g a g \barMaior
+    f e d c d f g f \barMaior
+    a g bes a g d g f \barMax
+
+    f g a a g a bes a \barMaior
+    c bes a g f d g f \barMax
+    bes a g bes a g f( g a) a \barMaior
+    \mark\sipka c( bes) bes( c d) a \barMin a g f \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Zdrá -- va buď, Krá -- lov -- no ne -- be,
+    an -- dě -- lů sbo -- ry ctí te -- be,
+    zdrá -- va buď, ne -- bes -- ká brá -- no,
+    z_níž svě -- tu svět -- lo je dá -- no.
+
+    Ple -- sej, Pan -- no o -- sla -- ve -- ná,
+    na -- de všech -- ny vy -- vo -- le -- ná,
+    zdrá -- va buď, Pan -- no pře -- čis -- tá,
+    při -- mluv se za nás u Kris -- ta.
+  }
+  \header {
+    fons_externus = "podle DMC. Hymny, Praha 1989, s. 367."
+    quid = "ant."
+    modus = "VI"
+    differentia = ""
+    psalmus = ""
+    id = "averegina"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     c4 e g a g \barMin
