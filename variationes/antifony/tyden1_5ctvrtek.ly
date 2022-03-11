@@ -716,12 +716,39 @@
   }
 }
 
-tIctvrtekNespAntIII = \score {
+\pageBreak
+
+%tIctvrtekNespAntIII =
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a b( c a) g g4.( a) \barMin
     c4 c( d) d d a( g) a4. \barMin
     d4 d d c( a) a c( d) a g a a \barFinalis
+  }
+  \addlyrics {
+    Bůh mu dal moc a čest
+    i krá -- lov -- skou vlá -- du;
+    bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 11"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a b( c a) g g( a) \barMin
+    c4 c( d) \mark\sipka e c c( d) d \barMaior
+    d4 c b a( g) g a( c) b g a a \barFinalis
   }
   \addlyrics {
     Bůh mu dal moc a čest
