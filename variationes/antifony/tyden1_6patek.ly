@@ -171,12 +171,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d f g f a f g g \barMaior
     g( a) f d e( d) d \barFinalis
 
     \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    U -- jmi se mě, Hos -- po -- di -- ne,
+    chraň mě svou mo -- cí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f g \mark\sipka g a f g g \barMaior
+    g( a) f d e( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     U -- jmi se mě, Hos -- po -- di -- ne,

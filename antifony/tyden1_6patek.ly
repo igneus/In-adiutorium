@@ -35,7 +35,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d f g f a f g g \barMaior
+    d f g g a f g g \barMaior
     g( a) f d e( d) d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
