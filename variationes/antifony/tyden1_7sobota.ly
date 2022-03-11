@@ -243,6 +243,55 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 d c f g a g \barMaior
+    g g a g f d d e f( d) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g a g \barMaior
+    \mark\sipka a a g f e d d d e( d) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d d( g a) g a bes a( g a) g \barMaior
     g g g g f e d d( e d) \barMaior
     d d( f e) f( g) g f e d d \barFinalis
@@ -258,6 +307,63 @@
     differentia = "D"
     psalmus = "Žalm 105-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( g a) g a bes a( g a) g \barMaior
+    g g g g f e d d( e d) \barMaior
+    d d( f e) f( g) g f e d d \barFinalis
+
+    e^\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a chrá -- nil ho před hříš -- ní -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-II"
+    placet = "jistě nejen mně se špatně zpívají po sobě dvě antifony stejného modu,
+    kde jedna začíná kvartou a druhá kvintou - sjednotit"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    \mark\sipka c4 d \mark\sipka d( a' bes) a g bes a( g a) g \barMaior
+    g g g g f e \mark\sipka d( e) d \barMaior
+    d d( f e) f( g) g f e d d \barFinalis
+
+    e^\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a chrá -- nil ho před hříš -- ní -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-II"
+    id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

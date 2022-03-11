@@ -40,9 +40,10 @@
 
 \score {
   \relative c' {
+    \key f \major
     \choralniRezim
-    d4 d d( g a) g a bes a( g a) g \barMaior
-    g g g g f e d d( e d) \barMaior
+    c4 d d( a' bes) a g bes a( g a) g \barMaior
+    g g g g f e d( e) d \barMaior
     d d( f e) f( g) g f e d d \barFinalis
 
     e^\rubrVelikAleluja d c( d) d \barFinalis
@@ -59,8 +60,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 105-II"
-    placet = "jistě nejen mně se špatně zpívají po sobě dvě antifony stejného modu,
-    kde jedna začíná kvartou a druhá kvintou - sjednotit"
     id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
   }
