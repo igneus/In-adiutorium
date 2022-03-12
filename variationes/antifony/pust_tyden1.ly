@@ -1669,7 +1669,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f d d \barMin
     d f e d e d c \barMaior
@@ -1689,6 +1689,114 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f d d \barMin
+    d f e d e d c \barMaior
+    d d \mark\sipka c d d( f) f \barMin
+    g f g a f e d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d d \barMin
+    \mark\sipka f d f e d c c \barMaior
+    d d c d d( f) f \barMin
+    g f g a f e d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d d \barMin
+    \mark\sipka f e f a a g g \barMaior
+    f f e d c( d) c \barMin
+    d c d f e c d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g( f) f \barMin
+    g f g a a g g \barMaior
+    f f f g g( f d) d \barMin
+    f e f g a g f f \barMaior
+    g a f \barFinalis
+  }
+  \addlyrics {
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne7a-1ne-amag?cast&upraveno"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
