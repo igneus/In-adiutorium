@@ -112,7 +112,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-II"
-    fial = "antifony/tyden1_1nedele.ly#rch-ant2?upraveno"
+    fial = "antifony/tyden1_1nedele.ly#rch-ant2?zacatek"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
