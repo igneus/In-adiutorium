@@ -64,7 +64,7 @@
     \choralniRezim
     g4 a a a b( g) g( a) a \barMaior
     g f e( f) e( d) d \barMin
-    e f g a g f e d e e \barFinalis
+    f f g a g f e d e e \barFinalis
 
     f^\rubrVelikAleluja f d( e) e \barFinalis
   }
