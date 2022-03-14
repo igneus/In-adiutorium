@@ -62,7 +62,7 @@
       c d c( b) b \barFinalis
       % block_end:nepust
       % block_begin:pust
-      c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
+      c^\markup\italic{v době postní:} c c c c d c( b) b \barFinalis
       % block_end:pust
     }
     \addlyrics {
@@ -99,7 +99,7 @@
       c d c( b) b \barFinalis
       % block_end:nepust
       % block_begin:pust
-      c^\markup\italic{v době postní:} c c c d c c( b) b \barFinalis
+      c^\markup\italic{v době postní:} c c c c d c( b) b \barFinalis
       % block_end:pust
     }
     \addlyrics {

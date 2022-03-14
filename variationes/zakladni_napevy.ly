@@ -93,6 +93,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \neviditelna c
       c4 c \barMin c( d) c c b( c) c c \barFinalis
@@ -128,6 +129,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       \neviditelna c
       c4 c \barMin c( d) c c b( c) c c \barFinalis
@@ -167,6 +169,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \neviditelna c
       c4 c \barMin d c c b c c \barFinalis
@@ -186,6 +189,44 @@ uvodniVers = \lyricmode {
       id = ""
       piece = \markup\column{"o nedělích a svátcích k hodinkám mimo ranní chvály a nešpory;"
                              "o památkách a fériích ke všem hodinkám"}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \neviditelna c
+      c4 c \barMin d c c b c c \barFinalis
+      \neviditelna c
+      c c c b c c \barMax
+      c c c c c c c \barMin c c c b c c \barMax
+      c c c c c c c c c c c c c c \barMin \break
+      % block_begin:nepust
+      c^\markup\italic{mimo dobu postní:} c c c c c b c \barMaior
+      c d c( b) b \barFinalis
+      % block_end:nepust
+      % block_begin:pust
+      c^\markup\italic{v době postní:} c c c \mark\sipka c d c( b) b \barFinalis
+      % block_end:pust
+    }
+    \addlyrics {
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
+      a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
+    }
+    \header {
+      id = "zacatek-bezny"
+      piece = "k ostatním příležitostem"
     }
   }
 
