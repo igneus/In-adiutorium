@@ -283,16 +283,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b a a \barMax
+    c4 c b g a( g) g \barMax
 
-    g a c c c( d) c c \barMin
+    g a g a a c c \barMin
     d d d c d( e) d c( b a) a \barMaior
     c c c g g f g( a) a \barMin
     a b a g g \barMax
 
-    g a c d d d c d( e) d c( b a) g a( g) \barMaior
-    a a c a g f g a a \barMin
-    g g \barFinalis
+    d' d c d d d d d( e) d c( b a) g a( g) \barMaior
+    a a c a g f g a a g g \barFinalis
   }
   \addlyrics {
     Vy všich -- ni jste brat -- ři.
@@ -309,7 +308,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

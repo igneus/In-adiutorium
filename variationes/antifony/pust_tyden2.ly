@@ -615,6 +615,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a b a a \barMax
 
@@ -643,6 +644,43 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 c b g a( g) g \barMax
+
+    \mark\sipka g a g a a c c \barMin
+    d d d c d( e) d c( b a) a \barMaior
+    c c c g g f g( a) a \barMin
+    a b a g g \barMax
+
+    \mark\sipka d' d c d d d d d( e) d c( b a) g a( g) \barMaior
+    a a c a g f g a a \mark\sipka
+    g g \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
