@@ -1,6 +1,6 @@
 \version "2.19.0"
 
-% -*- master: ../mezidobi_nedele.ly;
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"31. neděle"}}
 
@@ -25,8 +25,35 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a g a a a c( d) c c \barMin
+    d( e) c d( c a) \barMaior
+    g f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- nom je -- den je váš u -- či -- tel_–
+    Kris -- tus Pán_–
+    a ten je v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne31a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a g f g f d d \barMin
     c f g \barMaior
@@ -47,6 +74,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {

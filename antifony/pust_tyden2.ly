@@ -258,11 +258,11 @@
 \markup\nadpisDen{Úterý}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g a a a c( d) c c \barMin
-    d( e) c d( c a) \barMaior
-    g f g a( g) g \barFinalis
+    f4 g a g f g f d d \barMin
+    c f g \barMaior
+    g a g f f \barFinalis
   }
   \addlyrics {
     Je -- nom je -- den je váš u -- či -- tel_–
@@ -271,8 +271,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleA_31_33.ly#ne31a-rch-aben"
     id = "ut-aben"

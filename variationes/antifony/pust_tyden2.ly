@@ -557,10 +557,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Úterý}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g a a a c( d) c c \barMin
     d( e) c d( c a) \barMaior
@@ -581,6 +584,34 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g f g f d d \barMin
+    c f g \barMaior
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- nom je -- den je váš u -- či -- tel_–
+    Kris -- tus Pán_–
+    a ten je v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne31a-rch-aben"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
