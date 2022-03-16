@@ -720,13 +720,70 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a b( c) a a \barMin
     g a g g f e e \barMaior
     a b c c b( d) c( b a) \barMaior
     g f g g( a) a \barMin
     \mark\sipka a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka ne -- při -- šel,
+    a -- by si ne -- chal slou -- žit,
+    a -- le a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "b"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Malé intonační zjednodušení. Ta původní kvarta se mi trefovala opravdu těžko.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a b( c) a a \barMin
+    g a g g f e e \barMaior
+    \mark\sipka g a c c b( d) c( b a) \barMaior
+    g f g g( a) a \barMin
+    a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka ne -- při -- šel,
+    a -- by si ne -- chal slou -- žit,
+    a -- le a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "b"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) a a \barMin
+    g a g g f e e \barMaior
+    a b c c b( d) \mark\sipka c \barMaior
+    \mark\sipka c c c b( a g) g \barMin
+    a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka ne -- při -- šel,
