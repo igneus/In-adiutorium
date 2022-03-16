@@ -250,6 +250,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "začátek lépe"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
