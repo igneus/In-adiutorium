@@ -6,6 +6,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g g( a) a \barMin g( a) g( f) e f d d \barMaior
     f( g) a( c) b a \barMin c b( c) d( c) b a( c a) a \barMaior
@@ -27,11 +28,64 @@
   }
 }
 
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin c b a b g g \barMaior
+    a c c( d) d \barMin e e d c d( e d) d \barMaior
+    d d( c b) a( g) g f g a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
+    vy -- ve -- dl je na vy -- so -- kou ho -- ru
+    a u -- ká -- zal se jim ve slá -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 119-נ"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a1"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
     g a b c( a) \barMin b( c) d( c) b a g( f g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
+    a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    fial = "sanktoral/0806promenenipane.ly#rch-a1"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
+    g a b c( a) \barMin c c b a g( a g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
