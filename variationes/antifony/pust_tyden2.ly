@@ -100,12 +100,109 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f( a) g( f) g \barMin
     a c b a \mark\sipka c b \barMaior
     c c c d b c( a) a( g) g \barMin
     f g a g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( a) \mark\sipka a( g) g \barMin
+    a c b \mark\sipka c( a) a( g) g \barMaior
+    c c c \mark\sipka d c b( c) a( g) g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( a) a( g) g \barMin
+    a c b c( a) a( g) g \barMaior
+    c c c \mark\sipka d e c( b) a a \barMin
+    c b a g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g \mark\sipka f( g) g( a) a \barMin
+    \mark\sipka c b a c( b) a( g) g \barMaior
+    c c c d e c( b) a a \barMin
+    \mark\sipka g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit
+    v_Je -- ru -- za -- lé -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f( g) g( a) a \barMin
+    c b a \mark\sipka g( a) g g \barMaior
+    c c c d e c( b) a a \barMin
+    g a f f( g) g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
@@ -419,7 +516,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( e) d c b a( g) g \barMin
     f a c c b a b g g \barFinalis
@@ -432,6 +529,27 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4( d) d c b a( g) g \barMin
+    f a c c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na
+    na je -- ho vzne -- še -- né ob -- lo -- ze.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 150"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}

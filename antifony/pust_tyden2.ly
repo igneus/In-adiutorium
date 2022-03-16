@@ -52,10 +52,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f( a) g( f) g \barMin
-    a c b a c b \barMaior
-    c c c d b c( a) a( g) g \barMin
-    f g a g g \barFinalis
+    g4 g g f( g) g( a) a \barMin
+    c b a g( a) g g \barMaior
+    c c c d e c( b) a a \barMin
+    g a f f( g) g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
@@ -121,7 +121,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( e) d c b a( g) g \barMin
+    c4( d) d c b a( g) g \barMin
     f a c c b a b g g \barFinalis
   }
   \addlyrics {
@@ -131,7 +131,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Žalm 150"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
