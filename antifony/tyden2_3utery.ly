@@ -30,6 +30,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-I"
+    placet = "rytmus zakončení je nepěkný"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -78,6 +79,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-III"
+    placet = "rytmus zakončení je nepěkný"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
