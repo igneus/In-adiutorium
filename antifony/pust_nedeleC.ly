@@ -91,32 +91,30 @@
 \markup\nadpisDen{2. neděle postní}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e e f( g) e \barMin
-    g g g g a g a c b \barMaior
-    c c c a( g f) g g g f d d \barMax
+    g4 g a f f( g) g \barMin
+    a b c d c a g g \barMaior
+    c c c b( a g) \barMin
+    a a f e f( g) g \barMax
 
-    e e( f) \barMin g g f e g a g g \barMaior
-    a a a a( c) g g a( f) f( e) e \barFinalis
+    g f( g) \barMin a c c c d c a a \barMaior
+    c c c b g g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Když se Je -- žíš mod -- lil,
-    vý -- raz je -- ho tvá -- ře se změ -- nil % orig: výraz tvá -- ře se mu změ -- nil
-    a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
+    vý -- raz tvá -- ře se mu změ -- nil
+    a je -- ho šat
+    o -- sl -- ni -- vě zbě -- lel.
 
     A hle, roz -- mlou -- va -- li s_ním dva mu -- ži_–
     by -- li to Moj -- žíš a E -- li -- áš.
   }
   \header {
-    textus_approbatus = "Když se Ježíš modlil,
-    výraz tváře se mu změnil a jeho šat oslnivě zbělel.
-    A hle, rozmlouvali s ním dva muži – byli to Mojžíš a Eliáš."
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "nepěkná"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -125,14 +123,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g a) c( d) c b( c) a \barMin
-    c c c( d e) d( c) d \barMaior
-    d c b a a b a g a a( g) \barMin
-
-    % bylo by asi hezci, za cenu modifikace textu:
-    % f( g) g a( b c) a g g a a \barFinalis %%% vec -- ne -- ho zi -- vo -- ta
-
-    f( g) g a b c d c b c a a a \barFinalis
+    a4 g c d c( e) e \barMin
+    d b c a( g) g \barMaior
+    f g a a a c b c d d \barMin
+    d( e d c) d( c) \barMin c c c c b a g a g g \barFinalis
   }
   \addlyrics {
     Náš Pán Je -- žíš Kris -- tus
@@ -142,10 +136,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "_nepomíjejícího_ je škaredé, i jinak půjde lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
