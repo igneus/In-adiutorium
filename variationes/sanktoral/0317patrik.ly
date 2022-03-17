@@ -37,8 +37,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 c c b( c) c \barMin
+    b c c c c d c b( a) a \barMaior
+    a f a a g a b( c) a a \barMaior
+    c b c( d) d \barMin c d c b a a a \barMaior
+    g a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho jich při -- jde
+    od vý -- cho -- du i od zá -- pa -- du
+    a za -- u -- jmou mís -- to u sto -- lu
+    s_A -- bra -- há -- mem, I -- zá -- kem a Ja -- ku -- bem
+    v_ne -- bes -- kém krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne21c-rch-ben"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 b c d( e) d \barMin
     d d d c b c a a( g) g \barMaior

@@ -29,11 +29,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c b( c) c \barMin
-    b c c c c d c b( a) a \barMaior
-    a f a a g a b( c) a a \barMaior
-    c b c( d) d \barMin c d c b a a a \barMaior
-    g a f g( a) g g \barFinalis
+    c4 b c d( e) d \barMin
+    d d d c b c a a( g) g \barMaior
+    a f g a a( c) b c d d \barMaior
+    d e d d \barMin c d c b a g g \barMaior
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Mno -- ho jich při -- jde
@@ -44,8 +44,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne21c-rch-ben"
