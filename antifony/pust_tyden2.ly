@@ -156,6 +156,7 @@
     differentia = "a"
     psalmus = "Žalm 110"
     fial = "antifony/tyden4_1nedele.ly#2ne-ant1?-aleluja"
+    placet = "závěr není právě uspokojivý"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -197,6 +198,7 @@
     differentia = "D2"
     psalmus = "1 Petr 2"
     fial = "pust_triduum.ly#pa-rch-ant1"
+    placet = "kantikum má hodně veršů, kde mediace se dvěma akcenty nevychází dobře"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
