@@ -801,9 +801,32 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a a c( d) d( c) d \barMin
+    d f( e) d e c a \barMaior
+    a b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Od ny -- něj -- ška pa -- tří ví -- těz -- ství
+    a krá -- lov -- ská vlá -- da
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 11"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a \mark\sipka g a c( d) d( c) d \barMin
     d f( e) d e c a \barMaior
     a b g g( a) a \barFinalis
   }

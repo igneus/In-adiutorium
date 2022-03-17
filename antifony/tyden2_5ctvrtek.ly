@@ -258,7 +258,7 @@
 tIIctvrtekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a c( d) d( c) d \barMin
+    a4 a a a g a c( d) d( c) d \barMin
     d f( e) d e c a \barMaior
     a b g g( a) a \barFinalis
   }
