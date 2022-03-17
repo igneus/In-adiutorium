@@ -758,8 +758,74 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d \mark\sipka d( f) e d f g g( a) a \barMaior
+    \mark\sipka a a a g b( c a) a \barMaior
+    a( g f) g( f) f( d) d \barMin
+    c d e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa
+    roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \key f \major
     d4 d f g a a a \barMin a a a a a( bes) a a g( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán po -- mů -- že chu -- dá -- kům,
+    vy -- ma -- ní je z_křiv -- dy a ná -- si -- lí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f g a a a \barMaior
+    \mark\sipka a( g) b( c) a a \barMin
+  }
+  \addlyrics {
+    Pán po -- mů -- že chu -- dá -- kům,
+    vy -- ma -- ní je z_křiv -- dy a ná -- si -- lí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 d f g a a a \barMaior
+    \mark\sipka bes a g( a) g \barMin
+    f( d) d f e d d \barFinalis
   }
   \addlyrics {
     Pán po -- mů -- že chu -- dá -- kům,
