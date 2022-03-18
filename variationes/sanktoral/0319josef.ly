@@ -179,10 +179,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době postní:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -213,16 +216,86 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g g f g( a) \mark\sipka g \barMin f( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g g \barMin g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) \mark\sipka g \barMin f( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Jo -- sef byl muž spra -- ved -- li -- vý,_*
+    od -- da -- ně slou -- žil Bo -- ží -- mu Sy -- nu.
+    \Verse Byl to slu -- žeb -- ník moud -- rý a věr -- ný,_*
+    \Response od -- da -- ně slou -- žil Bo -- ží -- mu Sy -- nu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-post"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f f f g f g( a) f \barMin
     f f f f( g) f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Jo -- sef byl muž spra -- ved -- li -- vý,
+    od -- da -- ně slou -- žil Bo -- ží -- mu Sy -- nu._* \textRespAleluja
+    \Verse Byl to slu -- žeb -- ník moud -- rý a věr -- ný,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f \mark\sipka f f g f \barMin
+    f f f \mark\sipka f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
@@ -711,6 +784,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -741,10 +815,46 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f f g( a) a( g) \barMax
+    g( a) g g \mark\sipka \barMin g g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a( bes) a g( a) g \barMin g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g \mark\sipka \barMin g g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,_*
+    o -- pat -- ruj vše -- chen vy -- vo -- le -- ný lid Bo -- ží.
+    \Verse Bůh ti svě -- řil sva -- tou ro -- di -- nu,_*
+    \Response o -- pat -- ruj vše -- chen vy -- vo -- le -- ný lid Bo -- ží.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-post"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \markup\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -775,6 +885,42 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f \mark\sipka g f \barMin
+    f f f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f e g a a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slu -- žeb -- ní -- ku dob -- rý a věr -- ný,
+    o -- pat -- ruj vše -- chen vy -- vo -- le -- ný lid Bo -- ží._* \textRespAleluja
+    \Verse Bůh ti svě -- řil sva -- tou ro -- di -- nu,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
