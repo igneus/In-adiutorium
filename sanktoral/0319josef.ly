@@ -22,17 +22,15 @@
     f f g a
     g g \barFinalis
 
-    g(^\markup\rubrVelikAleluja a) g( f d) \barMin
-    f f( g) g g \barFinalis
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Ja -- kub byl O -- tec Jo -- se -- fa,
     mu -- že Ma -- ri -- e,
     z_kte -- ré se na -- ro -- dil Je -- žíš,
     na -- zý -- va -- ný
-    \markup{\Dagger Kris} -- tus.
+    Kris -- tus.
 
-    \markup{\Dagger Kris} -- tus.
     A -- le -- lu -- ja.
   }
   \header {
@@ -41,7 +39,7 @@
     differentia = "G"
     psalmus = "Žalm 113"
     fons = "svátek Svaté Rodiny, 1. nešp., 1. ant.; + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?+aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -56,17 +54,15 @@
     f g a g a( c) b \barMin
     c a c b g( a g) g \barFinalis
 
-    c4^\markup\rubrVelikAleluja a c b g( a) g( f d) \barMin
-    f f( g) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el byl po -- slán od Bo -- ha
     do ga -- li -- lej -- ské -- ho měs -- ta,
     kte -- ré se jme -- nu -- je Na -- za -- ret,
     k_pan -- ně, za -- snou -- be -- né
-    \markup{\Dagger s mu} -- žem jmé -- nem Jo -- sef.
+    s_mu -- žem jmé -- nem Jo -- sef.
 
-    \markup{\Dagger s mu} -- žem jmé -- nem Jo -- sef.
     A -- le -- lu -- ja.
   }
   \header {
@@ -179,24 +175,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d( c) c d d( f) e f f d d \barMaior
-    d d d d( e d) c d a a \barMin c c( d) d( e) e( d) d \barFinalis
+    g4 g( c) c c b( c) a g a g g \barMaior
+    c c c c( d c) \barMin d( e d) c( b) a a \barMaior
+    c a( g) f( g) a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
-
+    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Hle, věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
-    kte -- ré -- ho Pán u -- sta -- no -- vil nad svou ro -- di -- nou.
+    kte -- ré -- ho Pán u -- sta -- no -- vil
+    nad svou ro -- di -- nou.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
