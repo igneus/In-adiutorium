@@ -223,6 +223,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "aleluja lépe"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -237,9 +238,9 @@
     g f f g f d \barMin
     d d e f d c c \barMaior
     f f f f( g) f( e) \barMin
-    d c d f( g) f d d \barFinalis
+    d c d f e c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja c c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jo -- se -- fe,
@@ -263,11 +264,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c( d) d( f) d e( f) d d \barMaior
-    c c( d) d \barMin d d e f g f e( f) d( c) c \barMaior
+    d4 d d d c( d) d( f) f e( f) d( c) c \barMaior
+    f( g) f f \barMin f f g a f e d( e) d( c) c \barMaior
     a c d d e f d c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d d( e) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Když se Jo -- sef pro -- bu -- dil ze spán -- ku,
@@ -293,18 +294,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) g g f e f( g) g \barMin
-    g( c) c d c c b a g( a) a( g) \barMin
+    g4 g g g( a) g g f e f( g) g \barMaior
+    a( c) c d c c b c a( g) g \barMin
     a a a f e d f( g) g \barMaior
-    g g g g g( a) g a( b) a g g g \barFinalis
+    a b c b c( d) c \barMin
+    a( g) a a g g \barFinalis
 
-    a(^\markup\rubrVelikAleluja b) c( a) g( a) g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Jo -- sef se o -- de -- bral z_Na -- za -- re -- ta
     vzhů -- ru do měs -- ta Da -- vi -- do -- va,
     kte -- ré se jme -- nu -- je Bet -- lém,
-    a -- by se dal za -- psat spo -- lu s_Ma -- ri -- í.
+    a -- by se dal za -- psat
+    spo -- lu s_Ma -- ri -- í.
 
     A -- le -- lu -- ja.
   }
@@ -319,27 +322,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( f g) \barMin
-    g a f f e( f d c) c \barMaior
-    d( e f d) d f( g) f d d \barMin
-    e f d c( d) d \barFinalis
+    c4 c b( a g)
+    g f g a g g \barMaior
+    a( c) c \barMin
+    c c c( d) c b a g a( g) g \barFinalis
 
-    c^\markup\rubrVelikAleluja d f( e) d \barFinalis
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
-    Věr -- ný muž
-    je za -- hr -- nut chvá -- lou,
-    Pěs -- toun své -- ho Pá -- na
-    je o -- sla -- vo -- ván.
+    Věr -- ný muž je za -- hr -- nut chvá -- lou,
+    Pěs -- toun
+    své -- ho Pá -- na je o -- sla -- vo -- ván.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = "I"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
