@@ -368,7 +368,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "3. ant."
+    quid = "1. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
