@@ -50,7 +50,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g g a a \barMin
     a g a( c) b g( a) \barMaior
@@ -76,6 +76,39 @@
     psalmus = "Žalm 113"
     fons = "svátek Svaté Rodiny, 1. nešp., 1. ant.; + aleluja"
     fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?aleluja"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g a a \barMin
+    a g a( c) b g( a) \barMaior
+    a a a a( b c) a( g) g a( g) g( f d) \barMin
+    f f g a g g \barFinalis
+
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- kub byl O -- tec Jo -- se -- fa,
+    mu -- že Ma -- ri -- e,
+    z_kte -- ré se na -- ro -- dil Je -- žíš,
+    na -- zý -- va -- ný Kris -- tus.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    fons = "svátek Svaté Rodiny, 1. nešp., 1. ant.; + aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?+aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }

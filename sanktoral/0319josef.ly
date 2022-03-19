@@ -18,9 +18,8 @@
     \choralniRezim
     g4 g g f g g a a \barMin
     a g a( c) b g( a) \barMaior
-    a g a a( b c) a( g) g a( g) g( f d) \barMin
-    f f g a
-    g g \barFinalis
+    a a a a( b c) a( g) g a( g) g( f d) \barMin
+    f f g a g g \barFinalis
 
     a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -28,8 +27,7 @@
     Ja -- kub byl O -- tec Jo -- se -- fa,
     mu -- že Ma -- ri -- e,
     z_kte -- ré se na -- ro -- dil Je -- žíš,
-    na -- zý -- va -- ný
-    Kris -- tus.
+    na -- zý -- va -- ný Kris -- tus.
 
     A -- le -- lu -- ja.
   }
@@ -39,7 +37,7 @@
     differentia = "G"
     psalmus = "Žalm 113"
     fons = "svátek Svaté Rodiny, 1. nešp., 1. ant.; + aleluja"
-    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?+aleluja"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
