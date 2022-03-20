@@ -26,10 +26,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f e d e f e \barMin f g g e \barMaior
-    f f f g f g e e \barFinalis
+    f4 g a a g f f( g) g \barMin f e d( c) c \barMaior
+    d f f g a g f f \barFinalis
   }
   \addlyrics {
     Při -- ne -- su ti o -- běť dí -- ků, Hos -- po -- di -- ne,
@@ -37,8 +37,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 116-II"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -51,7 +51,7 @@
     a4 a g g( a) a \barMin
     f g f g a f e( f) d d \barMaior
     a' a g a c b g a( g) \barMin
-    g f e f4.( d) c4 d d \barFinalis
+    g f e e( f d) c d d \barFinalis
   }
   \addlyrics {
     Dá -- vám svůj ži -- vot
@@ -62,7 +62,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = "Flp 2"
     fial = "pust_svatytyden.ly#ut-ne-amag?delsi_text"
     id = "ne-1ne-a3"
@@ -117,7 +117,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a d c( b) a a b( c a) g a g g \barMin
+    d4 b d c( b) a a b( c a) g a g g \barMin
     f g a( c) b g g \barFinalis
   }
   \addlyrics {
@@ -139,9 +139,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a \barMin f g a a g( a) a \barMaior
-    a a a a a c( d) c a b( c a) g( a) a \barMaior
-    a g f e( f g) e f( e) d d \barFinalis
+    d4( a') a \barMin g a g f g( a) a \barMaior
+    a a a g a c( d) c a b( c a) g( a) a \barMaior
+    a g f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Bo -- že, vše -- mo -- hou -- cí krá -- li,
@@ -161,8 +161,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g a g a a \barMin
-    f g g( a) f e e \barMaior
+    d4 f g g( a) f f( g) g \barMin
+    g f g( a) f e e \barMaior
     g f e d c d e( f) d d \barFinalis
   }
   \addlyrics {
@@ -181,10 +181,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a c a g b a a \barMin
-    f g a a c a g a a \barFinalis
+    d4 d d d f d c e d d \barMin
+    f g f f e( f) d c d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
@@ -195,7 +195,7 @@
     a vzal na sebe naše bolesti."
     quid = "3. ant."
     modus = "II"
-    differentia = "A"
+    differentia = "D"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
