@@ -50,6 +50,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-II"
+    placet = "nepříliš zpěvná; ne úplně lehko se mi zpívá"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }

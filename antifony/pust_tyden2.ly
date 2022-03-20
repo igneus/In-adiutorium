@@ -392,6 +392,7 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast"
+    placet = "úryvek doslovně vystřižený z delší antifony nefunguje jako samostatný zpěv"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
