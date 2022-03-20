@@ -172,8 +172,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d f e g( a) \barMaior
-    a a a f g f( e) d \barMin c d e e d d \barFinalis
+    d4 f e d f g a \barMaior
+    a a f g f d d \barMin c f e c d d \barFinalis
   }
   \addlyrics {
     O -- brať -- te se, pra -- ví Pán,
@@ -192,23 +192,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c d c b c c( a) a \barMin
-    g a g f e d \barMaior
-    e a a g( a) a a c( a) a \barMin
-    c c c d d a a \barMin g g f g( e) e \barFinalis
+    g4 a a a g a g f e e \barMin
+    f g a a g( a) a \barMaior
+    a c c d c b g( a) a \barMaior
+    a a g( a) g f e e \barMin
+    f g f d( e) e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
     na zá -- kla -- dě ví -- ry,
     ži -- je -- me v_po -- ko -- ji s_Bo -- hem
-    skr -- ze na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "III"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "je tu co vylepšit"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -217,10 +218,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d c d( f) f g g f g f( e d) e( d) d \barMaior
-    d d d d( e) e( d) d \barMin f f f g g( f e d) \barMaior
-    c d c d f e c a \barMin
-    d d d d( e f) e d c( e) d d \barFinalis
+    c4 d d( f) f e f d c c d d \barMaior
+    f e f d c c f g f e d \barMin
+    f g a g f g( f) d( c) c \barMaior
+    a c d d( f) e d c d d \barFinalis
   }
   \addlyrics {
     Vi -- nař ře -- kl ma -- ji -- te -- li vi -- ni -- ce:
@@ -233,7 +234,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "bez spádu"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
