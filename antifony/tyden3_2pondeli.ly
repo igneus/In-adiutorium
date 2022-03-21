@@ -13,19 +13,17 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin
-    f g f f f e c d d \barFinalis
+    f g f f f e( f) d c d \barFinalis
 
-    e^\rubrVelikAleluja f d( c) d \barFinalis
+    c^\rubrVelikAleluja f e( d) d \barFinalis
   }
   \addlyrics {
     Náš Bůh při -- jde
-    a u -- ká -- že svou moc a slá -- vu.
+    a u -- ká -- že svou slá -- vu a moc.
 
     A -- le -- lu -- ja.
   }
   \header {
-    % prehozeno z rytmickych duvodu
-    textus_approbatus = "Náš Bůh přijde a ukáže svou slávu a moc. Aleluja."
     quid = "1. ant."
     modus = "II"
     differentia = "D"
@@ -64,8 +62,8 @@
     \choralniRezim
     f4 f e f d d \barMin
     e c c( d) d \barMaior
-    a c d d( f) f \barMin
-    f e c e f d d \barFinalis
+    a c d d( f) f
+    f g f e f d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
   }
