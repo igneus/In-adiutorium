@@ -935,8 +935,16 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  temer stejny text je na konci "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag"
+  ale uryvek melodie neni vhodny pro samostatne pouziti
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a g) f e f d d \barMin
     c c e d c d \barFinalis
@@ -956,6 +964,71 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) e f d d \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 f g f e f d d \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g f f( g) g \barMin
+    g f g a g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Úterý}
 

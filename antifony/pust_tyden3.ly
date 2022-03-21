@@ -228,10 +228,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g( a g) f e f d d \barMin
-    c c e d c d \barFinalis
+    f4 f g f e f d d \barMaior
+    d c e d c d \barFinalis
   }
   \addlyrics {
     Je -- žíš pro -- šel je -- jich stře -- dem
@@ -239,11 +239,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    % temer stejny text je na konci antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag
-    % ale uryvek melodie neni vhodny pro samostatne pouziti
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
