@@ -498,6 +498,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f g( a g) a a \barMaior
     c c d c( b a) a \barMin
@@ -518,10 +519,102 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g \barMin
+    f f g f( d) d \barMin
+    c d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Pet -- ro -- vi:
+    To -- bě dám klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g \barMin
+    \mark\sipka a g a g( f) f \barMin
+    g g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Pet -- ro -- vi:
+    To -- bě dám klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g \barMin
+    a g a g( f) f \barMin
+    \mark\sipka d f g g g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Pet -- ro -- vi:
+    To -- bě dám klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f a g g \barMin
+    \mark\sipka f g f( e) d( c) c \barMaior
+    d f g g g g( a) \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Pet -- ro -- vi:
+    To -- bě dám klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup\italic{Responsorium ze společných textů o apoštolech.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a g f e e e \barMaior
     a a b a g g( a) a \barMin
@@ -542,6 +635,143 @@
     differentia = "g"
     psalmus = ""
     id = ""
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka a a g a g f e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f g f \mark\sipka e d e e \barMin
+    \mark\sipka g a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
+    Já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la.
+    A ty po -- tom,  až se ob -- rá -- tíš,
+    u -- tvr -- zuj své brat -- ry.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a g f e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f \mark\sipka e f g f e e \barMin
+    \mark\sipka f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
+    Já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la.
+    A ty po -- tom,  až se ob -- rá -- tíš,
+    u -- tvr -- zuj své brat -- ry.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a g f e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f e f g \mark\sipka a g g \barMin
+    f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
+    Já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la.
+    A ty po -- tom,  až se ob -- rá -- tíš,
+    u -- tvr -- zuj své brat -- ry.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g a g f e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f e f g a g g \barMin
+    \mark\sipka a g f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
+    Já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la.
+    A ty po -- tom,  až se ob -- rá -- tíš,
+    u -- tvr -- zuj své brat -- ry.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    fial = "sanktoral/0629petraapavla.ly#2ne-a1?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a g f e e \barMaior
+    a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
+    d e f e f g a g g \barMin
+    \mark\sipka a a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
+    Já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la.
+    A ty po -- tom,  až se ob -- rá -- tíš,
+    u -- tvr -- zuj své brat -- ry.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -890,12 +1120,45 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c f g f( a) a \barMin
     a a g f g a g g \barMaior
     a a g f d e c c \barMin
     \mark\sipka d d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi pas -- týř ov -- cí,
+    prv -- ní me -- zi a -- po -- što -- ly,
+    to -- bě by -- ly dá -- ny klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 512"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Předchozí předpokládá přízvuk "\"od _ne_beského\"".
+  Následující varianta primárně přízvuk na předložce,
+  ale funguje tolerovatelně i s přízvukem na první slabice
+  dlouhého slova.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a g f g a \mark\sipka a( g) g \barMaior
+    a a g f d e c c \barMin
+    \mark\sipka d e f e d c d d \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,

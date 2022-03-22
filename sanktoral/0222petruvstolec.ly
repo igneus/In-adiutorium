@@ -146,9 +146,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f g( a g) a a \barMaior
-    c c d c( b a) a \barMin
-    g f e f g g f f \barFinalis
+    f4 g f a g g \barMin
+    f g f( e) d( c) c \barMaior
+    d f g g g g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Pet -- ro -- vi:
@@ -157,8 +157,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -170,11 +170,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a a g f e e e \barMaior
+    a4 a a g a g f e e \barMaior
     a a b a g g( a) a \barMin
     a a g f g f g f e e \barMaior
-    d e f g f d e e e \barMin
-    g g g a g( f) e \barFinalis
+    d e f e f g a g g \barMin
+    a g f g f( e) e \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
@@ -190,6 +190,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
+    fial = "sanktoral/0629petraapavla.ly#2ne-a1?cast"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -272,9 +273,9 @@
   \relative c' {
     \choralniRezim
     d4 c f g f( a) a \barMin
-    a a g f g a g g \barMaior
+    a a g f g a a( g) g \barMaior
     a a g f d e c c \barMin
-    d d f e d c d d \barFinalis
+    d e f e d c d d \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,
