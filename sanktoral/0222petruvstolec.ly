@@ -20,20 +20,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( g) g a g f g( a) a g g \barMaior
-    f f( g) g \barMin f g a a( b) a a \barMin
-    a c d c a a \barMaior
-    d c d( e) d c( b a) a \barMin
-    c c( b g) a( g) g f( a) a g g \barFinalis
+    g4 g g g a g f g a a( g) g \barMaior
+    a( c) c( d) d \barMin
+    d c d e d d
+    d c b a g( a) a \barMaior
+    c b c( d) d c c \barMin
+    c d( e d) c( b) a g f( a) a g g \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
-    Je -- ží -- še, pů -- vod -- ce ži -- vo -- ta,
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta,
     jste vy -- da -- li na smrt,
     a -- le Bůh ho vzkří -- sil
-    a po -- vý -- šil do své slá -- vy.
+    a po -- vý -- šil ho do své slá -- vy.
   }
   \header {
+    textus_approbatus = "Petr řekl shromážděnému lidu:
+    Ježíše, původce života, jste vydali na smrt,
+    ale Bůh ho vzkřísil a povýšil do své slávy."
     quid = "1. ant."
     modus = "VII"
     differentia = "a"

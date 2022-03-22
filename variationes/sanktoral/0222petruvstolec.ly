@@ -19,6 +19,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( g) g a g f g( a) a g g \barMaior
     f f( g) g \barMin f g a a( b) a a \barMin
@@ -49,6 +50,142 @@
 % dobre smiritelna.
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a \mark\sipka a a g a g f g a( g) g \barMaior
+    f \mark\sipka g( a) a \barMin
+    c b c d( e) d d c b a g a( g) g \barMaior
+    d' c d( e) d c( b a) a \barMin
+    c \mark\sipka c( b a) g( a) g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta, jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil do své slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a g f e d( e) e \barMaior
+    f( g) g( a) a \barMin
+    c b c d c c c b c a g( a) g \barMaior
+    a a f e f( g) g \barMin
+    g a( b c a) g( a) g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta, jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil do své slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a g f e d( e) e \barMaior
+    f( g) g( a) a \barMin
+    c b c d c c c b c a g( a) g \barMaior
+    a a f e \mark\sipka d( e) e \barMin
+    e f( g a) g( f) d f g e e \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta, jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil do své slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a g f g a a( g) g \barMaior
+    a( c) c( d) d \barMin
+    d c d e d d d c b a g( a) a \barMaior
+    c b c( d) d c c \barMin
+    c b( c a) a( g) g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta, jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil do své slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a g f g a a( g) g \barMaior
+    a( c) c( d) d \barMin
+    d c d e d d
+    d c b a g( a) a \barMaior
+    c b c( d) d c c \barMin
+    c \mark\sipka d( e d) c( b) a g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
+    Je -- ží -- še,
+    pů -- vod -- ce ži -- vo -- ta,
+    jste vy -- da -- li na smrt,
+    a -- le Bůh ho vzkří -- sil
+    a po -- vý -- šil ho do své slá -- vy.
+  }
+  \header {
+    textus_approbatus = "Petr řekl shromážděnému lidu:
+    Ježíše, původce života, jste vydali na smrt,
+    ale Bůh ho vzkřísil a povýšil do své slávy."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
     \choralniRezim
     d4 c( b g) g \barMin a( g) f g( a) a( g) g \barMaior
     a c b c c( d) \barMin c b a g f( g) g \barFinalis
