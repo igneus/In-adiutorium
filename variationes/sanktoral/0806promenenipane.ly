@@ -760,6 +760,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( g a) g( a) g f g( a g) f f( g) g \barMaior
     g a g g g f( g f) e e( f) d( c) c \barMax
@@ -781,6 +782,57 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 f g g g( a) f f( g) g \barMin
+    g g a g f d d e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g f e d \barMaior
+    f \mark\sipka e d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d d( e) c c( d) d \barMin
+    d d e d c a a b( c) a( g) g \barMaior
+    a a a( c d) \barMin c d c b a \barMaior
+    c b a( b) g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 121"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

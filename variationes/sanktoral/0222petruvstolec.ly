@@ -350,6 +350,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( g a) g( a) g f g( a g) f f( g) g \barMaior
     g a g g g f( g f) e e( f) d( c) c \barMax
@@ -368,6 +369,34 @@
     differentia = "D"
     psalmus = "Žalm 97"
     id = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f g g g( a) f f( g) g \barMin
+    g g a g f d d e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g f e d \barMaior
+    f e d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
     fial = "sanktoral/0806promenenipane.ly#2ne-a2"
     piece = \markup {\sestavTitulek}
   }
