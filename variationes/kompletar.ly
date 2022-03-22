@@ -100,10 +100,111 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e d c \barMin
+    f4 g f e d e d4 \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) f g f \barMin
+    f4 g f e d e d4 \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f d) c( d) e( f) f \barMin
     g( f) e d f e d \barMax
     f e( c) d e f \barMin
     e( c) f d4. d4. \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d e d( c) c \barMaior
+    f f e f d \barMin
+    e c d d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d e d( c) c \barMaior
+    f f \mark\sipka f f e( d c) \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d e d( c) c \barMaior
+    f \mark\sipka g f e d( c) \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
@@ -156,6 +257,25 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d e c c( a) a \barMin
+    c d( f) f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
 \pageBreak
 
 \score {
@@ -180,6 +300,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d( f) f \barMin g f d e( f) d \barMaior
+    c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e f d c c( d) d \barMin
     f f f f g f e c d d \barFinalis
   }
@@ -199,8 +340,47 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f g f e d e d \barMin
+    e e e e c a c c d d \barFinalis
+  }
+  \addlyrics {
+    Buď mi o -- chran -- nou ská -- lou, Bo -- že,
+    o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "středa - 1. antifona"
+    id = "st1"
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d e( f) f \barMin
     e c d d \barFinalis
+  }
+  \addlyrics {
+    Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "středa - 2. antifona"
+    id = "st2"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Z_hlu -- bin vo -- lám k_to -- bě, Hos -- po -- di -- ne.
@@ -429,6 +609,25 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f e f d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "čtvrtek - ant."
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    piece = \markup\sestavTitulek
+    id = "ct"
+  }
+}
+
+\score {
   \relative c'' {
     \key f \major
     \choralniRezim
@@ -554,6 +753,23 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e c \barMin d e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
 \markup\nadpisSkupiny "Nad upraveným textem"
 
 \score {
@@ -565,7 +781,7 @@
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
   }
   \header {
-    quid = ". ant."
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -583,7 +799,25 @@
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
   }
   \header {
-    quid = ". ant."
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e( d) c \barMin d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
