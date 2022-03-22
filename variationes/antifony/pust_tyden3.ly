@@ -1032,8 +1032,13 @@
 
 \markup\nadpisDen{Úterý}
 
+\markup\bold{
+  Ano, tahle antifona má "\"sedmasedmdesátkrát\"" přímo v neupraveném oficiálním znění.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d e d d c( d) d \barMin
     d d c b a c d d \barMaior
@@ -1057,6 +1062,60 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d \mark\sipka c c( d) d \barMin
+    d d c b a c d d \barMaior
+    d d d d
+    \mark\sipka d( e) d c d c a( g) g \barMin
+    f a g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ří -- kám ti, Pet -- ře,
+    a -- bys od -- pus -- til se -- dm -- krát,
+    a -- le tře -- ba se -- dma -- se -- dm -- de -- sát -- krát,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?volne"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e d c c( d) d \barMin
+    d d c b a c d d \barMaior
+    d d d d d( e) d c d c a( g) g \barMin
+    \mark\sipka a b g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ří -- kám ti, Pet -- ře,
+    a -- bys od -- pus -- til se -- dm -- krát,
+    a -- le tře -- ba se -- dma -- se -- dm -- de -- sát -- krát,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?volne"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

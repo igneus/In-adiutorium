@@ -240,11 +240,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c b a a a \barMaior
-    d d c( d) d \barMin
-    c c b a a a c c d d \barMaior
-    d d d d
-    d( f) d e d c b a \barFinalis
+    d4 d c b a g g \barMaior
+    d' e c( d) d \barMin
+    d d c b a c b c d d \barMaior
+    d d c b
+    a( b) g f a a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Pet -- ro -- vi:
@@ -252,25 +252,16 @@
     že máš od -- pus -- tit nej -- víc se -- dm -- krát,
     a -- le tře -- ba
     se -- dma -- se -- dm -- de -- sát -- krát.
-
-    % Rozslabikování se-DMA-sedmdesátkrát možná není úplně správné,
-    % ale je v hovorové češtině rozšířené a dá se,
-    % narozdíl od se-DM-a-sedmdesátkrát, snadno zazpívat.
-    %
-    % Sedmasedmdesátkrát místo sedmdesátsedmkrát jsem zvolil
-    % abych se vyhnul absolutnímu rýmu - mj. i rytmickému.
   }
   \header {
     textus_approbatus = "Ježíš řekl Petrovi:
     Neříkám ti, že máš odpustit nejvíc sedmkrát,
     ale třeba sedmdesátsedmkrát."
     quid = "ant. k Magnificat"
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d"
     psalmus = ""
     annus = "A"
-    placet = "od ní odvozená antifona sedla lépe do modu VII;
-    zdejší závěr není pěkný ani úplně přesvědčivý"
     id = "ne24a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

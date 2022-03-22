@@ -297,10 +297,22 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"24. neděle"}}
+
+\markup\justify{
+  Rozslabikování se-DMA-sedmdesátkrát možná není úplně správné,
+  ale je v hovorové češtině rozšířené a dá se,
+  narozdíl od se-DM-a-sedmdesátkrát, snadno zazpívat.
+  Sedmasedmdesátkrát místo sedmdesátsedmkrát jsem zvolil
+  abych se vyhnul absolutnímu rýmu - mj. i rytmickému.
+  (A v podobné antifoně doby postní je to tak i v oficiálním znění)
+}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c b a a a \barMaior
     d d c( d) d \barMin
@@ -337,6 +349,39 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c b a \mark\sipka g g \barMaior
+    d' \mark\sipka e c( d) d \barMin
+    \mark\sipka d d c b a c b c d d \barMaior
+    d d \mark\sipka c b
+    a( b) g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dma -- se -- dm -- de -- sát -- krát.
+  }
+  \header {
+    textus_approbatus = "Ježíš řekl Petrovi:
+    Neříkám ti, že máš odpustit nejvíc sedmkrát,
+    ale třeba sedmdesátsedmkrát."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

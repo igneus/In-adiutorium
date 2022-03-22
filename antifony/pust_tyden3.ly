@@ -253,11 +253,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d e d d c( d) d \barMin
+    d4 e d c c( d) d \barMin
     d d c b a c d d \barMaior
-    d d d d
-    d( f) d e d c b a \barMin
-    g f g \barFinalis
+    d d d d d( e) d c d c a( g) g \barMin
+    a b g \barFinalis
   }
   \addlyrics {
     Ne -- ří -- kám ti, Pet -- ře,
