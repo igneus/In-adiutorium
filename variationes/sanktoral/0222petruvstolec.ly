@@ -182,13 +182,6 @@
 
 \pageBreak
 
-\markup\justify{
-  Po uvaze a pokusu nebyla jako zaklad pouzita antifona
-  z oficia sv. Vavrince s podobne zacinajicim textem,
-  protoze jeji bohata melodie se nezda byt s takto kratkym textem
-  dobre smiritelna.
-}
-
 \score {
   \relative c'' {
     \zvyraznovacSedy
