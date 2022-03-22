@@ -44,10 +44,6 @@
   }
 }
 
-% Po uvaze a pokusu nebyla jako zaklad pouzita antifona
-% z oficia sv. Vavrince s podobne zacinajicim textem,
-% protoze jeji bohata melodie se nezda byt s takto kratkym textem
-% dobre smiritelna.
 \score {
   \relative c'' {
     \choralniRezim
@@ -186,6 +182,16 @@
 
 \pageBreak
 
+\markup\justify{
+  Po uvaze a pokusu nebyla jako zaklad pouzita antifona
+  z oficia sv. Vavrince s podobne zacinajicim textem,
+  protoze jeji bohata melodie se nezda byt s takto kratkym textem
+  dobre smiritelna.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( b g) g \barMin a( g) f g( a) a( g) g \barMaior
     a c b c c( d) \barMin c b a g f( g) g \barFinalis
@@ -203,6 +209,151 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin a( g) f g( a) \mark\sipka g( f) g \barMaior
+    a c b c c( d) \barMin c b a g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal své -- ho an -- dě -- la
+    a vy -- tr -- hl mě z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    \mark\sipka c d c d d( c) \barMin
+    c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    c d c d d( c) \barMin
+    c b a g \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    c d c d d( c) \barMin
+    \mark\sipka a c c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    c d c d d( c) \barMin
+    \mark\sipka a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    c( d e) c d d d \barMaior
+    d a( d) b c a( g) \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

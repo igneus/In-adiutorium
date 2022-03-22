@@ -163,7 +163,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
     \mark\sipka a( g) a b a( b c d) d \barMin
@@ -179,6 +179,84 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    a c b c( d) d \barMin
+    c( b a) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal_*
+    své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil
+    u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0222petruvstolec.ly#mc-a2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    a c b \mark\sipka c( d e d) c( d) \barMin
+    c( b a) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal_*
+    své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil
+    u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0222petruvstolec.ly#mc-a2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    a c b c( d e d) c( d) \barMin
+    \mark\sipka c( d c) b( g) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal_*
+    své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil
+    u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0222petruvstolec.ly#mc-a2?zacatek"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

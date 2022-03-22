@@ -48,19 +48,19 @@
   }
 }
 
-% Po uvaze a pokusu nebyla jako zaklad pouzita antifona
-% z oficia sv. Vavrince s podobne zacinajicim textem,
-% protoze jeji bohata melodie se nezda byt s takto kratkym textem
-% dobre smiritelna.
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( b g) g \barMin a( g) f g( a) a( g) g \barMaior
-    a c b c c( d) \barMin c b a g f( g) g \barFinalis
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    c d c d d( c) \barMin
+    a c c b a( g) g \barFinalis
   }
   \addlyrics {
-    Pán po -- slal své -- ho an -- dě -- la
-    a vy -- tr -- hl mě z_He -- ro -- do -- vých ru -- kou.
+    Pán po -- slal
+    své -- ho an -- dě -- la
+    a vy -- tr -- hl mě
+    z_He -- ro -- do -- vých ru -- kou.
   }
   \header {
     quid = "2. ant."

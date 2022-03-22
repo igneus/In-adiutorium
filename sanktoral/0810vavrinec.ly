@@ -119,12 +119,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 e( d c d) c( b c b) \barMin g( b c) a g( a) g( f) g \barMaior
-    a( g) a b a( b c d) d \barMin
-    d( c b) a( b) a f( g a) a( g) \barFinalis
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    a c b c( d e d) c( d) \barMin
+    c( d c) b( g) a a( g) g \barFinalis
   }
   \addlyrics {
-    Pán po -- slal_* své -- ho an -- dě -- la,
+    Pán po -- slal_*
+    své -- ho an -- dě -- la,
     a -- by mě chrá -- nil
     u -- pro -- střed oh -- ně.
   }
@@ -133,7 +135,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Dan 3-III"
-    placet = "spíš zjednodušit"
+    fial = "sanktoral/0222petruvstolec.ly#mc-a2?zacatek"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
