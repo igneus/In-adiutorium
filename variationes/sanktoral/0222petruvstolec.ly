@@ -92,10 +92,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a b a g( a) g \barMaior
     e( d c) d( e) e \barMin
@@ -113,6 +116,32 @@
     psalmus = "Žalm 63"
     fial = "fial://antifony/mezidobi_nedeleC_02_10.ly#ne5c-ne2-mag"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a g f e e \barMaior
+    d( f e) f( g) g \barMin
+    f g a a g f g( a) g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ši -- mo -- no -- vi:
+    Ne -- boj se!
+    Od ny -- nějš -- ka bu -- deš lo -- vit li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 63"
+    fial = "fial://antifony/mezidobi_nedeleC_02_10.ly#ne5c-ne2-mag"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
