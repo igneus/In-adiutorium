@@ -104,6 +104,32 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a( d) d d \barMaior
+    d d c d e c d d \barMin
+    c b g a( g) g \barFinalis
+
+    a^\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4( b) d \barMin e d c d d \barMaior
@@ -230,13 +256,44 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 b c d d \barMaior
     e d c d( b) g \barMin
     b a b g g \barFinalis
 
     \mark\sipka a^\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- zem -- ské ří -- še,
+    zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te Pá -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Jen prohození divisiones:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 b c d d \barMin
+    e d c d( b) g \barMaior
+    b a b g g \barFinalis
+
+    a^\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Po -- zem -- ské ří -- še,
