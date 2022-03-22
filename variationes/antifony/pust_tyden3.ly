@@ -1119,6 +1119,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( a) f f( g) g \barMin
     c a a c b a g( a) g \barMaior
@@ -1138,6 +1139,97 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c c d e c( a) a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c c d e c( a) a a \mark\sipka g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c \mark\sipka d c d d( c) c a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c \mark\sipka c( d) c b a( g) g g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Středa}
 

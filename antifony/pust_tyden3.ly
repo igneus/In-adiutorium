@@ -278,9 +278,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) f f( g) g \barMin
-    c a a c b a g( a) g \barMaior
-    f g a a g a a( c) b b a g f( g) g \barFinalis
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c c( d) c b a( g) g g f a a( g) g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že své -- mu brat -- ru
