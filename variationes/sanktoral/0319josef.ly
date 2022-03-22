@@ -151,7 +151,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g a g( c) b b( a g) \barMin a g f a g \[ g( a g \] \[ a c b) \] \barMaior
     c c c c a g a( g) f \barMin
@@ -180,10 +180,48 @@
   }
 }
 
+\markup{
+  Melodie dost podobná "#mc-a3" níže:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g \mark\sipka g g( c) a( g) g \barMin
+    a g f \mark\sipka g( a) g g \barMaior
+    c c c c \mark\sipka b a g( a) g \barMin
+    \mark\sipka a a a f e d f g g \barMaior
+    f g a g a( c) b \barMin
+    c a c b g( a g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el
+    byl po -- slán od Bo -- ha
+    do ga -- li -- lej -- ské -- ho měs -- ta,
+    kte -- ré se jme -- nu -- je Na -- za -- ret,
+    k_pan -- ně, za -- snou -- be -- né
+    s_mu -- žem jmé -- nem Jo -- sef.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f f( a) g f g f \barMin
     f f g f g a f e d \barMaior
@@ -192,6 +230,97 @@
     d( f g a) g f( g) f f \barFinalis
 
     g^\markup\rubrVelikAleluja f g( a) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- la za -- snou -- ne -- na s_Jo -- se -- fem.
+    A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f \mark\sipka g( a) g f g f \barMin
+    f f g f g a f e d \barMaior
+    c d d( f) f \barMin f f f \mark\sipka g a g f( g) f \barMaior
+    g g f e d \barMin g f( e) \mark\sipka d( c) c \barMin
+    d( f g a) g f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja \mark\sipka a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- la za -- snou -- ne -- na s_Jo -- se -- fem.
+    A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g( a) g f g f \barMin
+    f f g f g a f e d \barMaior
+    c d d( f) f \barMin f f f \mark\sipka g f g g( a) a \barMaior
+    \mark\sipka f g f e d \barMin g f( e) d( c) c \barMin
+    d( f g a) g f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- la za -- snou -- ne -- na s_Jo -- se -- fem.
+    A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f g( a) g f g f \barMin
+    f f g f g a f e d \barMaior
+    c d d( f) f \barMin f f f \mark\sipka g a f f( g) g \barMaior
+    f g f e d \barMin g f( e) d( c) c \barMin
+    d( f g a) g f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
