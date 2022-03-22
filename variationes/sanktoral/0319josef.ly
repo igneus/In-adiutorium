@@ -545,6 +545,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e d( e) c \barMin d e f d d \barMaior
     d f( g a) f( e) d( e) d \barMin
@@ -571,6 +572,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d( f) e d( e) c \barMin d e f d d \barMaior
     d f( g a) f( e) d( e) d \barMin
@@ -1159,6 +1161,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
     f g a c( b) c( d) d d c( b) a a \barMaior
@@ -1187,6 +1190,70 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
+    f g a c( b) c( d) d d c( b) a a \barMaior
+    c b( g) a g \barMin
+    a g f a a( g) g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja a a a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+    Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+    i dě -- ťát -- ko
+    \markup{\Dagger po} -- lo -- že -- né v_jes -- lích.
+
+    \markup{\Dagger po} -- lo -- že -- né v_jes -- lích.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    fons = "svátek Svaté Rodiny, 1. nešp., 3.ant. + aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a3?+aleluja"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
+    f g a c( b) c( d) d d c( b) a a \barMaior
+    c b( g) a g \barMin
+    a g f a a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+    Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+    i dě -- ťát -- ko
+    po -- lo -- že -- né v_jes -- lích.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    fons = "svátek Svaté Rodiny, 1. nešp., 3.ant. + aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a3?+aleluja"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

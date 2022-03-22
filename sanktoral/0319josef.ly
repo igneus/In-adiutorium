@@ -209,7 +209,7 @@
     d f( g a) f( e) d( e) d \barMin
     e e d c c d f e d( e d) c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d( e) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta, na -- še -- ho Pá -- na,
@@ -223,7 +223,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "aleluja lépe"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -358,19 +357,18 @@
     c b( g) a g \barMin
     a g f a a( g) g \barFinalis
 
-    a^\markup\rubrVelikAleluja g f f g f g a g g \barFinalis
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
     Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
     i dě -- ťát -- ko
-    \markup{\Dagger po} -- lo -- že -- né v_jes -- lích.
+    po -- lo -- že -- né v_jes -- lích.
 
-    \markup{\Dagger po} -- lo -- že -- né v_jes -- lích.
     A -- le -- lu -- ja.
   }
   \header {
-    quid = "1. ant."
+    quid = "3. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
