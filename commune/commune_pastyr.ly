@@ -770,6 +770,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "vypracovat varianty pro všechny potřebné délky jmen"
     id = "2ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
