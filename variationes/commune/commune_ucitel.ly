@@ -83,8 +83,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d e f g a g a bes a bes a g a a \barMin
     g e f( e) e \barMaior
@@ -108,6 +111,113 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    f f g( a) g f g f e d( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    \mark\sipka c d f g f e( f) d c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    c d \mark\sipka f( g) f e f d c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    c d \mark\sipka f( g) f f g( a g) f e d( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 

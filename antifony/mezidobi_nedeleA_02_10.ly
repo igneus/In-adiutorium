@@ -308,9 +308,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d e f g a g a bes a bes a g a a \barMin
-    g e f( e) e \barMaior
-    a a g( bes) a g a f e d( e) d d \barFinalis
+    d d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    c d f g f e( f) d c c d d \barFinalis
   }
   \addlyrics {
     Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
