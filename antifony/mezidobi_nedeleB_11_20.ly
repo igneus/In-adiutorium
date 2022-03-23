@@ -540,7 +540,7 @@
     psalmus = ""
     placet = "závěr nesedí (a není to jen tím, že mám v paměti stále zažraný ten původní)"
     id = "ne18b-rch-ben"
-    fial = "antifony/velikonoce_tyden3.ly#ut-aben?-aleluja&upraveno"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -638,7 +638,7 @@
     differentia = "c"
     psalmus = ""
     fons = "první část: Těla a Krve Páně, k Benedictus"
-    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?zacatek"
     id = "ne19b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -51,7 +51,7 @@
     differentia = "G"
     psalmus = ""
     id = "iiiben"
-    fial = "velikonoce_velikonocnioktav.ly#ct-mag?delsi_text"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

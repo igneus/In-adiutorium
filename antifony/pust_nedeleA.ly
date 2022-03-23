@@ -108,7 +108,7 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
-    fial = "sanktoral/0806promenenipane.ly#1ne-a3?+zacatek"
+    fial = "sanktoral/0806promenenipane.ly#1ne-a3?konec"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

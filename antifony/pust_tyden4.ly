@@ -131,7 +131,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 150"
-    fial = "antifony/tyden1_7sobota.ly#rch-ant3?upraveno"
+    fial = "antifony/tyden1_7sobota.ly#rch-ant3?zacatek"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }

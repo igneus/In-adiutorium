@@ -396,7 +396,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?upraveno"
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?zacatek"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

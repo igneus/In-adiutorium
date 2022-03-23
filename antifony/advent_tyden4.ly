@@ -198,7 +198,7 @@
     differentia = "G"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
-    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?cast&upraveno"
+    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?konec"
     piece = \markup {\sestavTitulek}
   }
 }

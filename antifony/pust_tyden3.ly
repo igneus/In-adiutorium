@@ -64,7 +64,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Flp 2"
-    fial = "pust_svatytyden.ly#ut-ne-amag?delsi_text"
+    fial = "pust_svatytyden.ly#ut-ne-amag?zacatek"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -221,7 +221,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?upraveno"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?konec"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -367,7 +367,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -483,7 +483,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?jiny_zacatek"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

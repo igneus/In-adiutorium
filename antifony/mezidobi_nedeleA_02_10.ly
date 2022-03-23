@@ -644,7 +644,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "sanktoral/0921matous.ly#aben?cast_spolecna"
+    fial = "sanktoral/0921matous.ly#aben?konec"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

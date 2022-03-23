@@ -225,7 +225,7 @@
     annus = "C"
     id = "ne23c-ne2-mag"
     fons = "viz nize, na zacatku i na konci melodie pouze zkracena podle textu"
-    fial = "sanktoral/0825benediktabratri.ly#aben?kratsi_text"
+    fial = "sanktoral/0825benediktabratri.ly#aben?cast"
     placet = "Po zkrácení o začátek a konec je jaksi nevyvážená. Možná půjde lépe bez závislosti na textově příbuzné antifoně."
     piece = \markup {\sestavTitulekBezZalmu}
   }
