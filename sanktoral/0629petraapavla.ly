@@ -14,21 +14,24 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a g( a) a \barMin
-    a b( c a) a \barMaior b b( c) c c c( d) \barMin c( d) c b a( g) g \barFinalis
+    a4 g f g( a) a \barMin
+    a b( c a) a \barMaior
+    c c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
   }
   \addlyrics {
     Ši -- mo -- ne Pet -- ře,_*
-    tys vy -- znal, že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 117"
-    placet = "odsazené _že_ není úplně libé; celkově sice neuráží, ale také žádný zázrak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }

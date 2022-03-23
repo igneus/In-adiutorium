@@ -15,6 +15,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g( a) a \barMin
     a b( c a) a \barMaior b b( c) c c c( d) \barMin c( d) c b a( g) g \barFinalis
@@ -97,6 +98,103 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) a \barMin
+    a c( d e d) c( d) \barMaior
+    d c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g \barMin
+    g f( g a) a( g) \barMaior
+    c c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g \barMin
+    g f( g a) \mark\sipka a \barMaior
+    c c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a \barMin
+    a b( c a) a \barMaior
+    c c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 117"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}

@@ -460,6 +460,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g( a) a \barMin
     a b( c a) a \barMaior b b( c) c c c( d) \barMin c( d) c b a( g) g \barFinalis
@@ -475,6 +476,34 @@
     psalmus = "Dan 3-III"
     fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a \barMin
+    a b( c a) a \barMaior
+    c c( d) c b a( g) \barMin
+    a( g) f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
