@@ -140,8 +140,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a( c) c \barMin
     d d c( d) a a b a g g \barFinalis
@@ -161,6 +164,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d) c \barMin
+    d d c( b) a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te na -- pro -- ti Kris -- tu Pá -- nu!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_panna.ly#mc-avig?-aleluja"
+    id = "ne32a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

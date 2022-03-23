@@ -372,7 +372,7 @@
   \header {
     quid = "ant. ke kantikům vigilie"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
