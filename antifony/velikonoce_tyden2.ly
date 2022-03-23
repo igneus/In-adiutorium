@@ -247,7 +247,7 @@
     d4 d d d( a' f) e f( g) d d \barMaior
     f( e d) c d d( c) c \barMax
     d d( f d) f( e) f( g a g) g \barMaior
-    g( a g) \bar ";" a(^\markup{možno vynechat} bes a g a g) \bar ";" f f f e c( d) d \barMaior
+    g( a g) \bar ";" a(^\markup\small\italic{možno vynechat} bes a g a g) \bar ";" f f f e c( d) d \barMaior
 
     c d( f) e( d) d \barFinalis
   }
