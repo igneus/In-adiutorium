@@ -186,9 +186,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b b( c) c \barMin d( c) b c d c b( g) e \barMaior
+    g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
     f g a b( c) a g( f) g \barMaior
-    g a g g \barFinalis
+    g g( a) g g \barFinalis
   }
   \addlyrics {
     Věč -- né svět -- lo_* sví -- tí tvým sva -- tým, Pa -- ne,
@@ -201,7 +201,6 @@
     differentia = "G*"
     psalmus = ""
     id = "1ne-resp-amag-velik"
-    fons = "commune jednoho mučedníka"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
