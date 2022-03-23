@@ -59,7 +59,7 @@
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
-    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast"
+    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?konec&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -286,7 +286,7 @@
     differentia = ""
     psalmus = ""
     placet = "začátek půjde lépe"
-    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?konec&-aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

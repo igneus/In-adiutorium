@@ -255,7 +255,7 @@
     differentia = "d"
     psalmus = ""
     id = "sexta"
-    fial = "sanktoral/0506jansarkander.ly#ne-amag?jiny_konec"
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

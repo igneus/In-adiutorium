@@ -48,7 +48,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Dan 3-III"
-    fial = "sanktoral/0530zdislava.ly#rch-a2?jiny_text"
+    fial = "sanktoral/0530zdislava.ly#rch-a2?zacatek"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

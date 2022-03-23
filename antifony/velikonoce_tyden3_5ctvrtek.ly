@@ -88,7 +88,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 132-I"
-    fial = "mezidobi_kristakrale.ly#1ne-amag?cast"
+    fial = "mezidobi_kristakrale.ly#1ne-amag?zacatek"
     placet = "jasný II.A"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

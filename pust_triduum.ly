@@ -542,7 +542,7 @@
     placet = "melisma na _pohřben_ nejde moc do pusy"
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
-    fial = "pust_triduum.ly#pa-invit?cast"
+    fial = "pust_triduum.ly#pa-invit?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -949,7 +949,7 @@
     differentia = "c"
     psalmus = ""
     id = "so-nesp-mag"
-    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?zacatek"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }

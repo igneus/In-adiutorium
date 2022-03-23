@@ -942,7 +942,7 @@
       differentia = "D"
       psalmus = "Žalm 135-I"
       id = "krtu-1ne-a1"
-      fial = "antifony/advent_nedeleB.ly#iiben?cast"
+      fial = "antifony/advent_nedeleB.ly#iiben?konec"
       piece = \markup {\sestavTitulek}
     }
   }

@@ -58,7 +58,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?delsi_text&upraveno"
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?konec"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

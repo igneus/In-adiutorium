@@ -68,7 +68,7 @@
     differentia = "f"
     psalmus = ""
     id = "amag"
-    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?-aleluja"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek"
     fons_externus = "volně podle AR1912, s. 564"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1345,7 +1345,7 @@
       psalmus = "Žalm 81"
       id = "ct-rch-a3"
       fons = "prvni cast prevzata:"
-      fial = "mezidobi_telaakrvepane.ly#1ne-a2?part"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
       piece = \markup {\sestavTitulek}
     }
   }

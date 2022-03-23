@@ -538,7 +538,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?upraveno"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&zacatek&konec"
     placet = "zejména _spravedlnost_ působí násilně"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}

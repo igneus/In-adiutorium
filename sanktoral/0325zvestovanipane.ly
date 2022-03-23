@@ -330,7 +330,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    fial = "antifony/advent_tyden2.ly#ut-aben?upraveno"
+    fial = "antifony/advent_tyden2.ly#ut-aben?zacatek"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -412,7 +412,7 @@
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
-    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&+aleluja"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?konec&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

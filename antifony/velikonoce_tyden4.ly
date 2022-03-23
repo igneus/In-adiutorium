@@ -470,7 +470,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleA.ly#vmag1?cast&upraveno"
+    fial = "antifony/velikonoce_nedeleA.ly#vmag1?konec"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

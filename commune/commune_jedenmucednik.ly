@@ -59,7 +59,7 @@
     differentia = "F"
     psalmus = "Žalm 118-III"
     id = "1ne-a2"
-    fial = "antifony/tyden3_4streda.ly#up-ant1?upraveno"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

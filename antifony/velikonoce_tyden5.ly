@@ -277,7 +277,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleC.ly#viben?delsi_text"
+    fial = "antifony/velikonoce_nedeleC.ly#viben?konec"
     placet = "_připomene vám_ je takové chcíplé, přitom polohou ve struktuře zpěvu si říká o druhý klimax"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}

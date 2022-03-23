@@ -321,7 +321,7 @@
     modus = "I"
     differentia = ""
     psalmus = ""
-    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?delsi_text"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek"
     id = "avemaria"
     piece = \markup {\sestavTitulekBezZalmu}
   }

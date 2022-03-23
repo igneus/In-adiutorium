@@ -85,7 +85,7 @@
     psalmus = "Ef 1"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
-    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?cast"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -536,7 +536,7 @@
     psalmus = ""
     id = "tercie"
     fons = "7. ne velikonoční cyk. B, 2. nešp., k Magnif., 1. část; upraven konec (navic E), doplněno aleluja"
-    fial = "antifony/velikonoce_nedeleB.ly#viimag2?cast&upraveno&+aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -482,7 +482,7 @@
     psalmus = "Žalm 111"
     placet = "_kdo se ho bojí_ takhle ne"
     fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
-    fial = "mezidobi_telaakrvepane.ly#1ne-a1?casti"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a1?zacatek"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

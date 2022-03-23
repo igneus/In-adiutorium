@@ -50,7 +50,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Žalm 2"
-      fial = "velikonoce_velikonocnioktav.ly#po-mc-a2?-aleluja"
+      fial = "velikonoce_velikonocnioktav.ly#po-mc-a2?zacatek"
       id = "mc-a1"
       piece = \markup {\sestavTitulek}
     }

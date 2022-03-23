@@ -361,7 +361,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 87"
-    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?upraveno"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?zacatek"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -479,7 +479,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
-    fial = "commune/commune_maria.ly#mc-avig?kratsi_text"
+    fial = "commune/commune_maria.ly#mc-avig?zacatek"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -659,7 +659,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0915pmbolestne.ly#ne-amag?cast&upraveno"
+    fial = "sanktoral/0915pmbolestne.ly#ne-amag?+aleluja&konec"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

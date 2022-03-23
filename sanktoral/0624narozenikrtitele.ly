@@ -485,7 +485,7 @@
     psalmus = "Žalm 15"
     id = "2ne-a1"
     fons = "3. ne adventní, cyklus B, 1. nešp., k Magnificat; jen první půlka"
-    fial = "antifony/advent_nedeleB.ly#iiimag1?cast&upraveno"
+    fial = "antifony/advent_nedeleB.ly#iiimag1?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -561,7 +561,7 @@
     psalmus = ""
     id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
-    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast"
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

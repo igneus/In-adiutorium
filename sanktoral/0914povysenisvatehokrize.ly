@@ -600,7 +600,7 @@
     differentia = "A"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
-    fial = "pust_triduum.ly#pa-rch-ant3?cast"
+    fial = "pust_triduum.ly#pa-rch-ant3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -33,7 +33,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    fial = "sanktoral/0928vaclav.ly#invit?jiny_text"
+    fial = "sanktoral/0928vaclav.ly#invit?zacatek&konec"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -138,7 +138,7 @@
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "Vavrinec; jen prvni pulka"
-    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?jiny_text"
+    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

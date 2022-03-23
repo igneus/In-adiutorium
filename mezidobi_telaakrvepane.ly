@@ -263,7 +263,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?jiny_text"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

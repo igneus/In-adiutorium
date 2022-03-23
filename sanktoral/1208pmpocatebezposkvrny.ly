@@ -238,7 +238,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 87"
-    fial = "commune/commune_maria.ly#mc-a3?delsi_text"
+    fial = "commune/commune_maria.ly#mc-a3?zacatek"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }

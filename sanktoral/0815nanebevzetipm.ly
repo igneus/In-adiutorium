@@ -170,7 +170,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "commune/commune_maria.ly#invit1?jiny_text"
+    fial = "commune/commune_maria.ly#invit1?konec&-aleluja"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -388,7 +388,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
-    fial = "commune/commune_maria.ly#rch-a1?kratsi_text"
+    fial = "commune/commune_maria.ly#rch-a1?zacatek"
     placet = "nedrží dobře pohromadě -
     první část převzatá z delší antifony vygraduje tak vysoko,
     že to kratší závěr nestihne absorbovat"

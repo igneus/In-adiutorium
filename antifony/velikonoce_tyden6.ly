@@ -23,7 +23,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 119-נ"
-    fial = "commune/commune_svatymuz.ly#rch-aben1?cast"
+    fial = "commune/commune_svatymuz.ly#rch-aben1?+aleluja&cast"
     placet = "takhle vytržený úryvek je citelně neúplný, nevyvážený - jinak"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}

@@ -35,7 +35,7 @@
       differentia = "E"
       psalmus = ""
       id = "rehol-amag1"
-      fial = "sanktoral/0825benediktabratri.ly#aben?+aleluja"
+      fial = "sanktoral/0825benediktabratri.ly#aben?zacatek&+aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

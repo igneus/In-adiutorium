@@ -189,7 +189,7 @@
     differentia = "f"
     psalmus = "Ef 1"
     id = "ne-a3"
-    fial = "antifony/tyden4_5ctvrtek.ly#up-ant1?jiny_text"
+    fial = "antifony/tyden4_5ctvrtek.ly#up-ant1?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

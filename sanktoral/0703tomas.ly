@@ -123,7 +123,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
-    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?jiny_text"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

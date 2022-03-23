@@ -118,7 +118,7 @@
     differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
-    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec"
     piece = \markup {\sestavTitulek}
   }
 }

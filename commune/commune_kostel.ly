@@ -592,7 +592,7 @@
     differentia = "G"
     psalmus = ""
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
-    fial = "commune/commune_pastyr.ly#nona?cast"
+    fial = "commune/commune_pastyr.ly#nona?konec"
     placet = "bezdůvodný skok na _chrám_ pryč"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}

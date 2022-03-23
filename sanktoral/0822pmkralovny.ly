@@ -87,7 +87,7 @@
     differentia = "G"
     psalmus = ""
     id = "amag"
-    fial = "commune/commune_maria.ly#2ne-amag?+zaver"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -77,7 +77,7 @@
     psalmus = "Žalm 19-A"
     id = "rch-a3"
     fons = "Druha cast z:"
-    fial = "commune/commune_apostol.ly#rch-aben?cast"
+    fial = "commune/commune_apostol.ly#rch-aben?konec"
     piece = \markup {\sestavTitulek}
   }
 }

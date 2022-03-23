@@ -1063,7 +1063,7 @@
       psalmus = "Žalm 149"
       id = "svrodiny-rch-a3"
       piece = \markup {\sestavTitulek}
-      fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec"
     }
   }
 
@@ -1149,7 +1149,7 @@
       psalmus = "Benedictus"
       annus = "B"
       id = "svrodiny-rch-abenB"
-      fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text&+aleluja"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec&+aleluja"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
