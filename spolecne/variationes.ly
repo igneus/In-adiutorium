@@ -44,6 +44,8 @@ sipka = \markup { \char ##x2193 }
 % cervene X oznacuje chybu, kterou je nutno opravit
 cerveneX = \markup\large\bold\sans{ \with-color #red "x" }
 
+aktualisace = \markup{Aktualisace ze zdroje:}
+
 % Napevy stejneho textu vetsinou vznikaji po "rodinach":
 % jeden hudebni napad je postupne ruzne rozvijen,
 % upravovan, pak prijde jiny novy a cela hra se opakuje.
