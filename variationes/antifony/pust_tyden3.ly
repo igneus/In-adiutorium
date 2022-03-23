@@ -1235,6 +1235,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c \barMin
     c c d c d e c a b c a g g \barMaior
@@ -1258,6 +1259,123 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    c c d c d e c a b c a g g \barMaior
+    \mark\sipka a a a g f g( a) a \barMin
+    c c \mark\sipka b( c) a a
+    g f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit Zá -- kon ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Melodie sama o sobě pěkná, ale text křičí o důraz už na _že_.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c \barMin
+    \mark\sipka d c d e c( a) a \barMin
+    c b a g a g g \barMaior
+    a a a g f g( a) a \barMin
+    c c b( c) a a
+    g f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit
+    Zá -- kon ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    c c \mark\sipka b a g a g g \barMin
+    f a a g g \barMaior
+    c d e d c c( d) d \barMin
+    c b g( a) g g
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit Zá -- kon
+    ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c c \barMin
+    c c b a \mark\sipka g( a) a g g \barMin
+    f a a g g \barMaior
+    c d e d c c( d) d \barMin
+    c b g( a) g \mark\sipka f
+    g a g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit Zá -- kon
+    ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

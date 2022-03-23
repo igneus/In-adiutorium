@@ -303,14 +303,16 @@
   \relative c'' {
     \choralniRezim
     c4 d c c \barMin
-    c c d c d e c a b c a g g \barMaior
-    f g a a a a( c) c \barMin
-    c c b( c a) g( a) a( g) \barMin
-    f g g \barFinalis
+    d c d e c( a) a \barMin
+    c b a g a g g \barMaior
+    a a a g f g( a) a \barMin
+    c c b( c) a a
+    g f g \barFinalis
   }
   \addlyrics {
     Ne -- mys -- le -- te,
-    že jsem při -- šel zru -- šit Zá -- kon ne -- bo Pro -- ro -- ky.
+    že jsem při -- šel zru -- šit
+    Zá -- kon ne -- bo Pro -- ro -- ky.
     Ne -- při -- šel jsem je zru -- šit,
     a -- le na -- pl -- nit,
     pra -- ví Pán.
