@@ -508,50 +508,6 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    \mark\sipka d4 d d c( d) d \barMin
-    d e( f d) d \barMaior \mark\sipka d e( f) f f f( g) \barMin f( g) f e \mark\sipka c( d) d \barFinalis
-  }
-  \addlyrics {
-    Ši -- mo -- ne Pet -- ře,_*
-    tys vy -- znal, že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
-    psalmus = "Dan 3-III"
-    fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\markup\nadpisSkupiny 2
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    d4 d d c( a) a c b( a g) a \barMaior
-    f g a a b( c a) \barMin b c a g g \barFinalis
-  }
-  \addlyrics {
-    Ši -- mo -- ne Pet -- ře,_* tys vy -- znal,
-    že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "VII"
-    differentia = "d"
-    psalmus = "Dan 3-III"
-    fial = "fial://sanktoral/0629petraapavla.ly#1ne-a1"
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
-
 \pageBreak
 
 \score {

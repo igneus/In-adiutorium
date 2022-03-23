@@ -201,6 +201,46 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c( d) d \barMin
+    d e( f d) d \barMaior d e( f) f f f( g) \barMin f( g) f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal, že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( a) a c b( a g) a \barMaior
+    f g a a b( c a) \barMin b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_* tys vy -- znal,
+    že Kris -- tus je Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
