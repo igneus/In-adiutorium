@@ -378,9 +378,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b( c a) g g4.( a) \barMin
-    c4 c( d) d d a( g) a4. \barMin
-    d4 d d c( a) a c( d) a g a a \barFinalis
+    a4 g a b( c a) g g( a) \barMin
+    c4 c( d) e c c( d) d \barMaior
+    d4 c b a( g) g a( c) b g a a \barFinalis
   }
   \addlyrics {
     Bůh mu dal moc a čest

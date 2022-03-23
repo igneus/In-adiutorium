@@ -1157,8 +1157,11 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a b( c a) g g4.( a) \barMin
     c4 c( d) d d a( g) a4. \barMin
@@ -1176,6 +1179,32 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     psalmus = "Žalm 149"
     id = ""
     fons = "žaltář, čtvrtek 1.t., nešp., 3.ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a b( c a) g g( a) \barMin
+    c4 c( d) e c c( d) d \barMaior
+    d4 c b a( g) g a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Bůh mu dal moc a čest
+    i krá -- lov -- skou vlá -- du;
+    bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fial = "antifony/tyden1_5ctvrtek.ly#ne-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
