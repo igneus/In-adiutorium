@@ -75,11 +75,11 @@
 \markup {\nadpisDen {"3. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d c c \barMin
-    c d c b a g g \barMin
-    f g a a g g \barFinalis
+    e4 g a a \barMaior
+    a g a g f e e
+    f g f d e e \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se,
@@ -88,8 +88,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     annus = "A"
     id = "ne3a-1ne-amag"
