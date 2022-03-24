@@ -12,8 +12,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e( d) c \barMin f( g) a a( g) g \barMaior
-    a( g f g) f( d) \barMin f e c e f d d \barFinalis
+    d4 f f( g) g \barMin a( bes) a g( f) g \barMaior
+    g( a g f) e( d) \barMin f d d c e d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, shléd -- ni z_ne -- be,
@@ -60,7 +60,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f( g) g g f g a g a b c c \barMaior
+    g4 g g( a) g g f g a g a b c c \barMaior
     d e d( b c) a \barMin f g a a g g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
