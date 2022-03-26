@@ -557,14 +557,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    c( f) \barMin f( e) f d( f e) e \barMin e e( f g) f( e) d d( c) c \barMaior
-    c d( f) f( e) d d \barMin f( g f) e( c) c( d) d \barFinalis
+    d4 c d d( f) f \barMin
+    f g f g g( f) f \barMaior
+    f d f e( d c) c \barMin
+    a c c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Hle, pan -- na poč -- ne a po -- ro -- dí sy -- na
-    a dá mu jmé -- no E -- ma -- nu -- el.
+    Hle, pan -- na poč -- ne
+    a po -- ro -- dí sy -- na
+    a dá mu jmé -- no
+    E -- ma -- nu -- el.
 
     A -- le -- lu -- ja.
   }
@@ -573,7 +577,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "plná nefunkčních melismat"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -582,17 +585,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f d c) c4.( d) \barMin
-    c4 d e( f) f g( f g) f e d c d( c) bes( a) a \barMaior
-    a a( f' e d4.) d \barMin d4( e f) f e f( g) g \barMin
-    f f( g f) e( d) d e( d) c( d) d \barFinalis
+    d4( f) f \barMin
+    f f f( g f) f \barMin
+    d f e d c d c c \barMaior
+    d c( d f) f \barMin
+    g( a) g f e( d) d \barMin
+    f e( f) d c c d d \barFinalis
 
-    d^\markup\rubrVelikAleluja e( d) c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- tus,
-    je -- hož pří -- chod o -- zna -- mo -- va -- li pro -- ro -- ci,
-    je Pá -- nem ce -- lé -- ho svě -- ta
+    je -- hož pří -- chod
+    o -- zna -- mo -- va -- li pro -- ro -- ci,
+    je Pá -- nem
+    ce -- lé -- ho svě -- ta
     a pů -- vod -- cem po -- ko -- je.
 
     A -- le -- lu -- ja.
@@ -602,7 +609,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_celého světa je divné_; celkem si nejsem jist"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -641,9 +647,9 @@
     \choralniRezim
     d4 d d e f f \barMin
     f f f g f e e( f) d c d d \barMax
-    d( f) f \barMin
+    c( f) f \barMin
     f g f g g( f) f \barMaior
-    f g f d( f) e( d c) \barMin
+    f d f e( d) c \barMin
     d( c) d d( f) e d d \barFinalis
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -769,14 +775,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d \barMin d( f) e f e d( e) d( c) c \barMax
+    d4 d d( f) d c f e f d c d d \barMax
 
     d4 f( d) d
     d e f g( f) e \barMin
     d c( d) d \barMaior
     d d c d d f e c d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
@@ -798,7 +804,7 @@
     zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
     a připravit další, alternativní"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
-    fial = "fial://advent_antifony.ly#spol-sexta?delsi_text"
+    fial = "fial://advent_antifony.ly#spol-sexta?konec&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
