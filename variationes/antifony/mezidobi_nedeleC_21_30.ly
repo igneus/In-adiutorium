@@ -843,14 +843,13 @@
   }
 }
 
-%{
-
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g( a) a a g( f d) f e( g a) a \barMin
+    a b g f e e \barFinalis
   }
   \addlyrics {
     Je tře -- ba se stá -- le mod -- lit
@@ -858,8 +857,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne29c-ne1-mag"
@@ -870,7 +869,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d( a' b) a a c b g a a \barMin
+    a a a a g( a) f f g( a) g g( a) a \barMaior
+    f g f d d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
@@ -879,8 +880,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne29c-rch-ben"
@@ -906,7 +907,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    fial = "advent_antifony.ly#predvanocni-zlm-po-a3"
+    fial = "antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-po-a3"
     id = "ne29c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -915,9 +916,12 @@
 \markup {\nadpisDen {"30. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g g f g a a g \barMin
+    a g a( c) a a b( c) a g g \barMaior
+    g g f d e d f e( d) d \barMaior
+    g f \barMin g a a g f f( g) g g \barFinalis
   }
   \addlyrics {
     Cel -- ník se ne -- od -- va -- žo -- val
@@ -927,8 +931,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = "ne30c-ne1-mag"
@@ -937,19 +941,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a a( d) a c( b a) g \barMin a( c d) c b a( g) a( g) \barMaior
+    d' d c a b( a) a \barMin
+    g f g a( c) b c a a \barMin
+    g f g( a) a g g \barFinalis
   }
   \addlyrics {
     Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
     ne však fa -- ri -- ze -- us,
-    kte -- rý si za -- klá -- dal na tom, že je spra -- ved -- li -- vý.
+    kte -- rý si za -- klá -- dal na tom,
+    že je spra -- ved -- li -- vý.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne30c-rch-ben"
@@ -981,5 +989,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-%}
