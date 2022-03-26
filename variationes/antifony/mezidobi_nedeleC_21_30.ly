@@ -913,10 +913,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"30. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g a a g \barMin
     a g a( c) a a b( c) a g g \barMaior
@@ -939,6 +942,59 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a \mark\sipka g g \barMin
+    a g a( c) a a b( c) a g g \barMaior
+    g g f d e d f e( d) d \barMaior
+    \mark\sipka f( g) g \barMin g a a g f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se ne -- od -- va -- žo -- val
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g a g g \barMin
+    a g a( c) a a b( c) a g g \barMaior
+    g g f d \mark\sipka f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se ne -- od -- va -- žo -- val
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

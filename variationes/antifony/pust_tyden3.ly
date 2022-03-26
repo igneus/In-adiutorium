@@ -1541,10 +1541,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Sobota}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f f f( g) g \barMaior
     g a g f g f f \barMin
@@ -1565,6 +1568,63 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?jiny_zacatek"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f f f( g) g \barMaior
+    g a g f g f f \barMin
+    a g a( c) a a b( c) a g g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník zů -- stal stát vza -- du
+    a ne -- od -- va -- žo -- val  se
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \mark\sipka f g a a( g) g \barMaior
+    \mark\sipka a c d c b a a \barMin
+    c b c( d) c b a g a( g) g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník zů -- stal stát vza -- du
+    a ne -- od -- va -- žo -- val  se
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

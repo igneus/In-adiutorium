@@ -467,11 +467,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f f f( g) g \barMaior
-    g a g f g f f \barMin
-    a g a( c) a a b( c) a g g \barMaior
-    g g f d e d f e( d) d \barMaior
-    g f \barMin g a a g f f( g) g g \barFinalis
+    g4 g f g a a( g) g \barMaior
+    a c d c b a a \barMin
+    c b c( d) c b a g a( g) g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Cel -- ník zů -- stal stát vza -- du

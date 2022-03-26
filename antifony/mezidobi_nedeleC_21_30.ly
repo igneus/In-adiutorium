@@ -687,10 +687,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g a a g \barMin
+    g4 g g f g a g g \barMin
     a g a( c) a a b( c) a g g \barMaior
-    g g f d e d f e( d) d \barMaior
-    g f \barMin g a a g f f( g) g g \barFinalis
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Cel -- ník se ne -- od -- va -- žo -- val
