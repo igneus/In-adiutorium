@@ -142,7 +142,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f g f e d c d d \barMaior
+    d4 d d c d f g f e c d d \barMaior
     f f e( d) c d e d d \barFinalis
   }
   \addlyrics {

@@ -78,9 +78,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f g f e d c d d \barMaior
+    d4 d d c d f g f e c d d \barMaior
     f f e( d) c d e d d \barMaior
-    c d d d \barFinalis
+    c d e d \barFinalis
   }
   \addlyrics {
     Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
@@ -100,9 +100,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c b a a \barMin
-    c( d) e e d d \barMaior
-    c d d d \barFinalis
+    f4 g f e d c c \barMin
+    d( f) e c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- ny

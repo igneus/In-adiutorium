@@ -176,6 +176,29 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f g a bes a g f g g \barMin
+    a g f( d) d c e( f) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
+    nad ži -- vý -- mi i mrt -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "na-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     \key f \major
@@ -269,7 +292,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f g f e d c d d \barMaior
     f f e( d) c \mark\sipka d e d d \barMaior
@@ -314,6 +337,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d d c d f g f e c d d \barMaior
+    f f e( d) c d e d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
+    nad ži -- vý -- mi i mrt -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "na-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 d d e c a a \barMaior
   }
@@ -334,7 +380,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c b a a \barMin
     c( d) e e d d \barMaior
@@ -384,6 +430,73 @@
     d4 d d f e f d \barMin
     c( d) e e d d \barMaior
     c d d d \barFinalis
+  }
+  \addlyrics {
+    V_něm bu -- dou po -- žeh -- ná -- ny
+    všech -- ny ná -- ro -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 72-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d e f d d \barMin
+    f( g f) e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    V_něm bu -- dou po -- žeh -- ná -- ny
+    všech -- ny ná -- ro -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 72-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d \mark\sipka f e f( g) g \barMin
+    f( g f) e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    V_něm bu -- dou po -- žeh -- ná -- ny
+    všech -- ny ná -- ro -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 72-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f e d c c \barMin
+    d( f) e c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- ny

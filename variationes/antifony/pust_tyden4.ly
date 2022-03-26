@@ -711,9 +711,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f g f e d c d d \barMaior
+    f f e( d) c d e d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Bo -- hem u -- sta -- no -- ve -- ný soud -- ce
+    nad ži -- vý -- mi i mrt -- vý -- mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#na-a1?-aleluja"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d f g f e c d d \barMaior
     f f e( d) c d e d d \barFinalis
   }
   \addlyrics {
