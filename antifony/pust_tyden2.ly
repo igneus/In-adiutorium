@@ -480,14 +480,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    e( a) a c a g \barMin a a a g f g g g( a) e \barMaior
-    a a a g( f e) d \barMin e e e e f e g f( d e) e \barMaior
-    d c b \barMin c d e e e g f f g e e \barFinalis
+    e4( a) a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f f f g a g f e e \barMaior
+    d( f g) a a \barMin
+    a a g( a) g f g g f g e e \barFinalis
   }
   \addlyrics {
-    Ot -- če, zhře -- šil jsem pro -- ti Bo -- hu i pro -- ti to -- bě.
-    Už ne -- jsem ho -- den, a -- bych se na -- zý -- val tvým sy -- nem.
-    Vez -- mi mě ja -- ko jed -- no -- ho ze svých ná -- de -- ní -- ků.
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě.
+    Už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
+    Vez -- mi mě
+    ja -- ko jed -- no -- ho ze svých ná -- de -- ní -- ků.
   }
   \header {
     quid = "ant. k Benedictus"

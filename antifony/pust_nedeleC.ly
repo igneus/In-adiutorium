@@ -244,21 +244,26 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d \barMin d d c d e f g f e e \barMaior
-    e( a) a c a g \barMin a a a g f g g g( a) e \barMaior
-    a a a g( f e) d \barMin e e e e f e g f( d e) e \barFinalis
+    f4( e d e) e \barMin
+    f f f f g( a) g f d e e \barMaior
+    e( a) a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f e f g a g f d( e) e \barFinalis
   }
   \addlyrics {
-    Vsta -- nu, pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
-    Ot -- če, zhře -- šil jsem pro -- ti Bo -- hu i pro -- ti to -- bě;
-    už ne -- jsem ho -- den, a -- bych se na -- zý -- val tvým sy -- nem.
+    Vsta -- nu,
+    pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě;
+    už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "závěr snad spíš zjednodušit, začátek možná upravit na typičtější"
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
