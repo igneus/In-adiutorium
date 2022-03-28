@@ -272,13 +272,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f e f d d \barMaior
-    f f f e( g) f f g( a) f g e( d) \barMaior
-    e d c a c d d \barFinalis
+    d4 d c d d f e f( d) d \barMaior
+    f g( a) g f( g) f f \barMin
+    d f e d( c) \barMaior
+    d f e d c d d \barFinalis
   }
   \addlyrics {
     O -- tec u -- vi -- děl své -- ho sy -- na
-    a po -- hnut sou -- ci -- tem vy -- šel mu vstříc,
+    a po -- hnut sou -- ci -- tem
+    vy -- šel mu vstříc,
     ob -- jal ho a po -- lí -- bil.
   }
   \header {
@@ -286,7 +288,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "začátek nezpěvný"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -295,12 +296,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 d \barMin f g a g f( g) f \barMaior
-    g g f g f( e d) e e d d \barMax
+    d4. d f4 f e d c( d) d \barMaior
+    d f g f d( c) \barMin a c c( d) d \barMax
 
-    f g a( bes) a g f g g g a g( a) g g( f) \barMaior
-    f f f f f f g f e d d \barMin d c d d( f) f \barMaior
-    f f( g) f \barMin g a bes a g f f \barFinalis
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    d f( g f d) e( d) \barMin c d f e c d d \barFinalis
   }
   \addlyrics {
     Dí -- tě, ty jsi po -- řád se mnou
@@ -319,10 +320,9 @@
     protože tento tvůj bratr byl mrtev a zase žije,
     byl ztracen, a je zase nalezen."
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "spíš modus I než VI; nemá spád"
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

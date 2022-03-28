@@ -963,6 +963,9 @@
 
 \pageBreak
 
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f e f d d \barMaior
     f f f e( g) f f g( a) f g e( d) \barMaior
@@ -986,6 +989,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d f e f( d) d \barMaior
+    f g( a) g f( g) f f \barMin
+    d f e d( c) \barMaior
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    O -- tec u -- vi -- děl své -- ho sy -- na
+    a po -- hnut sou -- ci -- tem
+    vy -- šel mu vstříc,
+    ob -- jal ho a po -- lí -- bil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 d \barMin f g a g f( g) f \barMaior
     g g f g f( e d) e e d d \barMax
@@ -1019,6 +1050,114 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    d f g f d( c) \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    f g( f d) d \barMin c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co
+    mám, %orig: je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    d f g f d( c) \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    \mark\sipka d f( g f d) e( d) \barMin c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co
+    mám, %orig: je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    d f g f d( c) \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    \mark\sipka d f( g f e) d( c) \barMin d e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co
+    mám, %orig: je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{5. neděle postní}
 
