@@ -252,6 +252,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "výrazný akcent na _jeho_ je neústrojný"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
