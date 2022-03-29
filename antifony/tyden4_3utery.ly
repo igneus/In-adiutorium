@@ -117,6 +117,8 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Dan 3-I"
+    placet = "závěr je co do práce s přízvukem hodně netypický
+    a právě to se mi na něm vždycky líbilo, ale teď vidím, že je nevhodný"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
