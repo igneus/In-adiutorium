@@ -1810,8 +1810,25 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
+\markup\justify{
+  Odpovídající latinská antifona je
+  \italic{De Iesse progénie procéssit Virgo María, in cuius thálamum introívit Spíritus Altíssimi,}
+  CANTUS 002110.
+  Je to antifona figurující v chorálním repertoáru, ale překvapivě obskurní -
+  CAO ji dokládá jediným rukopisem, CantusIndex aktuálně neregistruje ani jeden výskyt.
+}
+\markup\justify{
+  Překvapuje mě, že se taková antifona do pokoncilního breviáře dostala.
+  Každopádně je potřeba představu vzniku repertoáru jeho zpěvů doplnit
+  (vedle formulování nových textů a vybírání textů z předkoncilního římského breviáře
+  a případných dalších liturgických knih)
+  o někoho, kdo listoval (nespíš) v (tehdy čerstvém) CAO a vybíral hezké texty, aniž se zvlášť trápil tím,
+  jak moc nebo málo jsou v tradici zastoupeny.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) e e e( g) g \barMin g( f g a) a a( c) a g( f) f( g) g \barMaior
     g a( b) c( d c) b( a g) g \barMin g( a f e) d c( d) d d \barFinalis
@@ -1858,6 +1875,63 @@
     quid = "ant. dopoledne"
     modus = "V"
     differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    f( g a) b c( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    \mark\sipka f( g) a c( b) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}

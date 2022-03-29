@@ -530,25 +530,28 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4( d) e e e( g) g \barMin g( f g a) a a( c) a g( f) f( g) g \barMaior
-    g a( b) c( d c) b( a g) g \barMin g( a f e) d c( d) d d \barFinalis
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    f( g) a c( b) a a \barFinalis
 
-    f^\markup\rubrVelikAleluja g f( d) d \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
-    Z_ko -- ře -- ne Jes -- se vze -- šla Pan -- na Ma -- ri -- a,
-    kte -- rá po -- ča -- la z_Du -- cha sva -- té -- ho.
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "nemastná-neslaná"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
