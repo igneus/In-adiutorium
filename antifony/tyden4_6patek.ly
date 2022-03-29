@@ -14,11 +14,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c d d c c d d d \barMin
-    d d d d c b c( d e d) c( d) \barMaior
-    d c b a b a a( g) g \barFinalis
+    c4 c d e e e d c d d \barMaior
+    d e d c a b a( g) g \barMin
+    a a g f g( a) a g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
@@ -30,9 +30,8 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = "Žalm 78-I"
-    placet = "všechny tři zpěvněji"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -41,27 +40,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a d c d a \barMin c c b( a g) g \barMax
-    a a( d c) c \barMin d d d d( e d c) b( a) \barMaior
-    g a b c a a( g) g \barFinalis
+    c4 c d e c c( d) d \barMin
+    c b a( b g) g \barMaior
+    a g( f g a) a c d e d( c d) d \barMin
+    d c b c a a g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Sy -- no -- vé Iz -- ra -- e -- le jed -- li ma -- nu
+    Sy -- no -- vé Iz -- ra -- e -- le
+    jed -- li ma -- nu
     a pi -- li z_du -- chov -- ní ská -- ly,
-    kte -- rá je
-    % do --
-    pro -- vá -- ze -- la.
+    kte -- rá je do -- pro -- vá -- ze -- la.
 
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Synové Izraele jedli manu
-    a pili z duchovní skály, která je doprovázela. Aleluja."
     quid = "2. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = "Žalm 78-II"
     id = "mc-a-ant2"
     piece = \markup {\sestavTitulek}
@@ -71,10 +68,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g c c c( d) d \barMin
-    d e c b( c) a( g) g \barFinalis
+    c4 d e c c( d) d \barMin
+    d c b c( a) a( g) g \barFinalis
 
-    g^\rubrVelikAleluja g( a) g g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh je na -- ší ská -- lou
@@ -85,7 +82,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = "Žalm 78-III"
     id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
