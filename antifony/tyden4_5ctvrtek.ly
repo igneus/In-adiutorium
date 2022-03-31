@@ -12,12 +12,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a b b c b a d c b \barMin
+    g4 a b b c d c a b b \barMin
     d d d d e d c b \barMaior
     a g a b \barMin
     a g a c b g g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    a^\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství
@@ -43,7 +43,7 @@
     g4 a b b b b c d e d \barMaior
     c b c d b g g \barMin a( b) g \barFinalis
 
-    f^\rubrVelikAleluja g g g \barFinalis
+    a^\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,

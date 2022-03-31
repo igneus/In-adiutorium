@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b b c b a d c b \barMin
     d d d d e d c b \barMaior
@@ -31,6 +32,73 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b \mark\sipka c( d) c b a b b \barMin
+    d d d d e d c b \barMaior
+    a g a b \barMin
+    a g a c b g g \barFinalis
+
+    f^\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství
+    nad na -- ši -- mi ne -- přá -- te -- li,
+    za -- han -- bils ty,
+    kte -- ří nás ne -- ná -- vi -- dí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 44-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Začátek totožný s jinou antifonou ze žaltáře tady vyšel úplně nezamýšleně.
+  Až když byl nápěv hotový a vybraný pro zařazení do produkční verze,
+  vzpomněl jsem si na antifonu s podobným textem a zjistil,
+  že nápěv úvodní fráze je teď shodný.
+  Každopádně by se na tomhle vztahu při budoucích úpravách obou antifon
+  nemělo tratit úsilí.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b b \mark\sipka c d c a b b \barMin
+    d d d d e d c b \barMaior
+    a g a b \barMin
+    a g a c b g g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja b g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství
+    nad na -- ši -- mi ne -- přá -- te -- li,
+    za -- han -- bils ty,
+    kte -- ří nás ne -- ná -- vi -- dí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 44-I"
+    fial = "antifony/tyden2_5ctvrtek.ly#mc-ant1?zacatek"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -63,12 +131,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b b b b c d e d \barMaior
     c b c d b g g \barMin a( \mark\sipka b) g \barFinalis
 
     f^\rubrVelikAleluja g g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
+    on od vás ne -- od -- vrá -- tí svou tvář.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 44-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b b b b c d e d \barMaior
+    c b c d b g g \barMin a( b) g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
