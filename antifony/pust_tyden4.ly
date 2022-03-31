@@ -310,7 +310,7 @@
     e4 e( a) a b a g( a) a \barMin
     e d( e) e f( g a) g f g g e e \barMaior
     a b g a( f e) e \barMin
-    f g e \barFinalis
+    f d e \barFinalis
   }
   \addlyrics {
     Kdo sly -- ší mo -- je slo -- vo
@@ -333,12 +333,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) g f e \barMin
-    f g g f d e \barMaior
+    a4 g( a) f g g \barMin
+    a g g f d e \barMaior
     d d f g a a \barMin
-    a b g a( g) f e \barMaior
-    d c d e f e d c \barMin
-    e f d \barFinalis
+    a b g g( a) a a \barMaior
+    a a g f f g e e \barMin
+    f d e \barFinalis
   }
   \addlyrics {
     Já sám ze se -- be
@@ -350,8 +350,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a2"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}

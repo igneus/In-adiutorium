@@ -1235,6 +1235,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e( a) a b a g( a) a \barMin
     e d( e) e f( g a) g f g g e e \barMaior
@@ -1260,7 +1261,37 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e( a) a b a g( a) a \barMin
+    e d( e) e f( g a) g f g g e e \barMaior
+    a b g a( f e) e \barMin
+    f \mark\sipka d e \barFinalis
+  }
+  \addlyrics {
+    Kdo sly -- ší mo -- je slo -- vo
+    a vě -- ří to -- mu, kte -- rý mě po -- slal,
+    má věč -- ný ži -- vot,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Kdo slyší mé slovo a věří tomu, který mě poslal,
+    má věčný život, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) g f e \barMin
     f g g f d e \barMaior
@@ -1286,6 +1317,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) \mark\sipka f g g \barMin
+    \mark\sipka a g g f d e \barMaior
+    d d f g a a \barMin
+    a b g \mark\sipka g( a) a a \barMaior
+    \mark\sipka a a g f f g e e \barMin
+    f d e \barFinalis
+  }
+  \addlyrics {
+    Já sám ze se -- be
+    ne -- mo -- hu dě -- lat nic.
+    Sou -- dím po -- dle to -- ho,
+    co sly -- ším od Ot -- ce,
+    a můj soud je spra -- ved -- li -- vý,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Čtvrtek}
 
