@@ -363,11 +363,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c b a a \barMin
-    b a g g a a a \barMaior
-    c c c c( d) d d( e) d c c \barMin
-    d c b a g a a( g) g \barMin
-    f g g \barFinalis
+    d4 c b g g \barMin
+    a g f g( a) a g( a) g \barMaior
+    a c b c( d) d \barMin c( d e) c c( d) d \barMaior
+    d c b b c a g g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Já ne -- při -- jí -- mám
@@ -389,9 +389,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g d' c e d \barMin
-    c d c b a g g( a) a \barMin
-    g f g \barFinalis
+    g4 g d' c e d \barMaior
+    c d c b g a a( g) g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Skut -- ky, kte -- ré ko -- nám,
