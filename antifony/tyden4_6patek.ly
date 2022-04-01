@@ -303,6 +303,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 145-I"
+    placet = "_den_ je nepřirozené"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
