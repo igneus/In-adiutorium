@@ -32,6 +32,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 44-I"
+    fial = "antifony/tyden2_5ctvrtek.ly#mc-ant1?zacatek"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
