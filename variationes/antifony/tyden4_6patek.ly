@@ -615,6 +615,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e( a) a \barMin g a b a g a g a g f d e e \barMaior
     f f f( g) g \barMin g g g g f g e e \barFinalis
@@ -636,6 +637,56 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e( a) a \barMin
+    g a b a \mark\sipka a g a b a g f e e \barMaior
+    \mark\sipka e d( c) d( e) e \barMin
+    f g a g f g e e \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    ne -- od -- vra -- cej se od mé ú -- pěn -- li -- vé pros -- by
+    a za -- chraň mě
+    před ú -- kla -- dy bez -- bož -- ní -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a \barMin
+    g a b a a g a b a g f e e \barMaior
+    \mark\sipka e g( a) a( g) a \barMin
+    \mark\sipka a a g f f g e e \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    ne -- od -- vra -- cej se od mé ú -- pěn -- li -- vé pros -- by
+    a za -- chraň mě
+    před ú -- kla -- dy bez -- bož -- ní -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e d( f e) g a( f) e \barMin
     a a b a g f g g e e \barFinalis
@@ -656,9 +707,174 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka e4 g a g g( a) a \barMin
+    \mark\sipka g a b a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Pán mě vy -- svo -- bo -- dí
+    od těch, kte -- ří na mě do -- rá -- že -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-II"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4 e g( a) g g( a) a \barMin
+    g a b a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Pán mě vy -- svo -- bo -- dí
+    od těch, kte -- ří na mě do -- rá -- že -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-II"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4 d f g g( a) a \barMin
+    g a b a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Pán mě vy -- svo -- bo -- dí
+    od těch, kte -- ří na mě do -- rá -- že -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-II"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 d( c d) d \barMin e( f g) a f g g g \barMaior
     g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d e e f e f g g \barMaior
+    g a g f( d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d( e f) e \barMin e f g d d( e) e \barMaior
+    g a g f( d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 d( e f) e \barMin
+    \mark\sipka f g f g a a \barMin
+    a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost
+    hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d( e) e e f g f e e \barMin
+    g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d( e) e e f g f e e \barMin
+    g a g \mark\sipka f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Svou sta -- rost hoď na Hos -- po -- di -- na,

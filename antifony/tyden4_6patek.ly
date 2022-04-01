@@ -94,13 +94,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e( a) a \barMin g a b a g a g a g f d e e \barMaior
-    f f f( g) g \barMin g g g g f g e e \barFinalis
+    e4 e( a) a \barMin
+    g a b a a g a b a g f e e \barMaior
+    e d( c) d( e) e \barMin
+    f g a g f g e e \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
     ne -- od -- vra -- cej se od mé ú -- pěn -- li -- vé pros -- by
-    a za -- chraň mě před ú -- kla -- dy bez -- bož -- ní -- ka.
+    a za -- chraň mě
+    před ú -- kla -- dy bez -- bož -- ní -- ka.
   }
   \header {
     quid = "1. ant."
@@ -115,8 +118,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e d( f e) g a( f) e \barMin
-    a a b a g f g g e e \barFinalis
+    e4 g a g g( a) a \barMin
+    g a b a g f g g e e \barFinalis
   }
   \addlyrics {
     Pán mě vy -- svo -- bo -- dí
@@ -135,11 +138,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d( c d) d \barMin e( f g) a f g g g \barMaior
-    g a g f e e \barFinalis
+    e4 d( e f) e \barMin
+    f g f g a a \barMin
+    a g f d e e \barFinalis
   }
   \addlyrics {
-    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    Svou sta -- rost
+    hoď na Hos -- po -- di -- na,
     a on tě za -- cho -- vá.
   }
   \header {
