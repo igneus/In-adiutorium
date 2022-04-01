@@ -230,8 +230,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a c c \barMin
-    c a b a g g \barFinalis
+    c4 c c d( c d) d( c) \barMin
+    a( c) c b a g g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -242,7 +242,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 45-II"
-    placet = "moc úsečná"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
