@@ -1633,7 +1633,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a a d c b a g g( a) \barMaior
     a g a a b( c) a a c( d c) c d d \barMaior
@@ -1656,10 +1656,40 @@
   }
 }
 
+\markup{
+  Finála je jasně g, ne a:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a a d c b a g g( a) \barMaior
+    a g a a b( c) a a c( d c) c d d \barMaior
+    d c d e d c a( g) g \barMin
+    \mark\sipka a f g \barFinalis
+  }
+  \addlyrics {
+    Zná -- te mě a ví -- te, od -- kud jsem,
+    a pře -- ce jsem ne -- při -- šel sám od se -- be,
+    a -- le po -- slal mě můj O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e( d) d \barMin
     c d c b a a \barMaior
@@ -1680,6 +1710,57 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f( g) f( a) a \barMin
+    g a g f d d \barMaior
+    f f f e d c( d) c c \barMin
+    d( f) e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f( g) f( a) a \barMin
+    g a g f \mark\sipka g( f d) d \barMaior
+    f f f e d c( d) c c \barMin
+    d( f) e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Sobota}
 
