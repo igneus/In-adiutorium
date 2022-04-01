@@ -465,6 +465,29 @@
     }
   }
 
+  \markup\italic{Následuje-li propuštění lidu:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c c c c c a \barFinalis
+      \neviditelna c
+      c c c a \barFinalis
+    }
+    \addlyrics {
+      \Verse Jdě -- te ve jmé -- nu Pá -- ně.
+      \Response Bo -- hu dí -- ky.
+    }
+    \header {
+      id = "konec-propusteni"
+      piece = ""
+    }
+    \layout {
+      ragged-right = ##t
+    }
+  }
+
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
 
   \score {
