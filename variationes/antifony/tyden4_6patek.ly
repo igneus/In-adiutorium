@@ -1174,6 +1174,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a g( f) g g \barMaior
+    a g( a) g( f) f \barMin f d f g f f \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIIpatekAntBenedictus }
@@ -1201,6 +1221,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1219,6 +1241,28 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) d d \barMin
+    c d c b a( g) g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    O -- bec vě -- ří -- cích
+    mě -- la jed -- no srd -- ce a jed -- nu du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 133"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -1502,6 +1546,27 @@
     quid = "1. ant."
     modus = "I"
     differentia = "g"
+    psalmus = "Žalm 145-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key d \minor
+    \mark\sipka f4 g a a a a bes a g f g g \barMaior
+    g a bes a a f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit, můj Bo -- že,
+    a vy -- pra -- vo -- vat o tvých di -- vech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 145-I"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}

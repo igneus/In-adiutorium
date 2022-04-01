@@ -452,6 +452,31 @@
   }
 }
 
+\score {
+  <<
+  \chords {
+    d2:m f c c a:m c a:m
+  }
+  \new Staff \relative c' {
+    \time 2/4
+    r8 d d d f f f f g g e4 r
+    f8 g a a4 a8 c b g4 a \bar "|."
+  }
+  \addlyrics {
+    Po to -- bě tou -- ží v_no -- ci du -- še má
+    a mé srd -- ce tě hle -- dá zrá -- na.
+  }
+  >>
+  \header {
+    quid = "2. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Iz 26"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

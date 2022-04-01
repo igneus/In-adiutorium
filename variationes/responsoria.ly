@@ -1076,6 +1076,40 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f f f f f g( f) g( a) a( g) \barMax
+      f( d) f g \mark\sipka g f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f( d) f g \mark\sipka g f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
+      vždyť v_te -- be dou -- fám.
+      \Verse U -- kaž mi ces -- tu, po níž mám krá -- čet,_*
+      \Response vždyť v_te -- be dou -- fám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      placet = "Melisma na _vždyť_ je dost napováženou.
+      V normální řeči je to takové slůvko bytostně krátké, vyražené."
+      id = "1pa-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
       \zvyraznovacModry
       \choralniRezim
 

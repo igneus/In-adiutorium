@@ -459,6 +459,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e f e d c d d \barMaior
+    d c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d c b c a a \barMaior
+    a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

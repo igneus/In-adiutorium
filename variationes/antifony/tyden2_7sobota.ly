@@ -442,6 +442,103 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4( bes) g a \barMin
+    g f a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4( bes) g a \barMin
+    f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 f g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( d) f g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

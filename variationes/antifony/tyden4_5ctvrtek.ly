@@ -559,6 +559,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( b) g \barMin
+    f g a a c c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Dej, ať zá -- hy
+    do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 143"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka a( b g) g \barMin
+    f g a a c c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Dej, ať zá -- hy
+    do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 143"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 a b4. g \barMin
+    f4 g a a c c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Dej, ať zá -- hy
+    do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 143"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -910,6 +976,139 @@
     differentia = "f"
     psalmus = "Žalm 144-II"
     placet = "zdá se, že skutečnou finálou je spíš f než d"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g g f g a a g g \barMaior
+    g a g f( d) d \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f e d f g g a a \barMaior
+    a g f f( g) g \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f e d f g g a a \barMaior
+    a \mark\sipka g( a) g g( f) f \barMin
+    d f g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g g g g bes a f f( g) g \barMaior
+    g g( a) g g( f) f \barMin
+    d f g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f f f f g f g g( a) a \barMaior
+    a g( a) g g( f) f \barMin
+    d f g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) f g g \barMin
+    f4 g a( g) f g \mark\sipka g f f \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný ná -- rod, je -- hož Bo -- hem je Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144-II"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

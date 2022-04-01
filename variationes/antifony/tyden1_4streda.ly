@@ -1202,6 +1202,27 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4( d) d d d d c( a) c( d) d d e f d( c) c( d) \barMaior
+    \mark\sipka c a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvot -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4( d) d d c a c c b \barMin c a g a a \barMaior
   }

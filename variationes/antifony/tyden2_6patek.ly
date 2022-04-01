@@ -307,6 +307,34 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
+    placet = "nepříliš zpěvná"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Chtěl jsem zkusit napodobit antifonu \italic{Cor contritum et humiliatum}
+  z AR1912, ale nakonec z ní zůstal jen ten modus VI:
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g) g \barMin
+    g f g a bes a \barMaior
+    g f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným
+    a po -- kor -- ným srd -- cem,
+    Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 51"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -861,6 +889,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f4. g4 a g f( g) g4. \barMaior
+    a4 a a( b) g \barMin a4( g) f g g e4. \barFinalis
+  }
+  \addlyrics {
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{Nasazení na jiném tónu po cezuře nezdravě zdůrazňovalo sponu.}
 
 \score {
@@ -873,6 +921,26 @@
   \addlyrics {
     Spra -- ve -- dli -- vé a spo -- le -- hli -- vé jsou tvé ces -- ty,
     krá -- li ná -- ro -- dů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g4. a4 b a g( a) a4. \barMaior
+    a4 a a( b) g \barMin a4( g) f g g e4. \barFinalis
+  }
+  \addlyrics {
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
   }
   \header {
     quid = "3. ant."

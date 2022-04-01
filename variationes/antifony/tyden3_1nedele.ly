@@ -593,6 +593,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g f a c c b b c( a) a( g) g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4( a) b c c b \barMin

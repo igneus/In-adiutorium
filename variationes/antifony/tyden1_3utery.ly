@@ -544,6 +544,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -556,6 +558,67 @@
     quid = "3. ant."
     modus = "III"
     differentia = "a"
+    psalmus = "Žalm 33"
+    placet = "zkusit jinak, melodie je textu nepřiměřeně vážnosmutná"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b c a( g) g \barMin
+    f( g) g( a) a g f g g \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    a g f f g g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f g a g \barMin
+    a bes a g f g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 33"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

@@ -359,6 +359,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g f \barMin
+    g f g a a( g) g \barMaior
+    f \mark\sipka d f( g) g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du
+    ny -- ní i na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 125"
+    id = "sexta-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"třetí oddíl (odpoledne)"}}

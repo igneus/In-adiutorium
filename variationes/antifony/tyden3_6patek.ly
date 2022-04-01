@@ -280,6 +280,26 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d f f f e f d c c \barMaior
+    d4 d c a c( d) d d \barMin f4 f g f e d \barFinalis
+  }
+  \addlyrics {
+    Muž bo -- les -- ti byl o -- po -- vr -- že -- ný,
+    o -- puš -- tě -- ný od li -- dí, zna -- lý u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d e f e( d) d \barMin g g f e f( e) d \barFinalis

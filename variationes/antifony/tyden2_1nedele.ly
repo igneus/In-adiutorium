@@ -496,6 +496,62 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka b4(^\markup\small\italic{V době postní:} c a) a( g) g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka b4^\markup\small\italic{V době postní:} g g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
@@ -1307,6 +1363,52 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    \mark\sipka d c d e d c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    d c d e d c b \mark\sipka c a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c d c e d d \barMaior
     c b c d d d c b a( g) g \barMaior
     f g a( g) g \barFinalis
@@ -1332,6 +1434,28 @@ tIInedeleLaudResp = \score {
     c4 c \mark\sipka b c c d d \barMaior
     c b c d d d c b a( g) g \barMaior
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c d d \barMaior
+    c c d c b a g a a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky
