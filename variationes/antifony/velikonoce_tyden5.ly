@@ -508,10 +508,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Pátek}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
     a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barMaior
@@ -535,6 +538,38 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup{Aktualisace ze zdroje:}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d4.( f4 g) a g a a \barMaior
+    a( c) a g f g( f) d d \barMaior
+    d c d f( g f) \barMin g( f) e f d \barMaior
+
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_apostol.ly#rch-a1"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
