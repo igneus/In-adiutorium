@@ -39,11 +39,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g g( c) c \barMaior
+    g4 g g f g a( c) c \barMaior
     c( d c a) a4.( c) \barMin c4( d c) b( g) a g4.( f) \barMax
-    f4 e d f( g) g a( b c) c \barMin a( d c) b( g) c c( a) a \barMaior
+    f4 e d f g a a \barMin a( d c) b( g) c c( a) a \barMaior
     g a b c( d e) d( c d4.) a \barMaior
-    d4 c b c( a) g( a g4.) f \barMin  a4( b) c( a) g \barFinalis
+    d4 c b c( a) g g \barMin  a4( g) f( g) g \barFinalis
   }
   \addlyrics {
     E -- van -- ge -- lis -- ta Lu -- káš
@@ -65,14 +65,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( c) c \barMaior c( d c a) a4.( c) \barMin c4( d c) b( g) a g( f) f \barMaior
-    f e d f g a g g a a a( d c) b( g) c c( a) a \barMaior
-    a c d d c( b c a) a \barMin g( a g) f( g) a( g) g \barFinalis
+    f4 g a( c) c \barMin
+    c( d c a) a c b g( a) g g \barMaior
+    a g f g a c b c d d \barMin
+    c( d c) b( g) c c( a) a \barMaior
+    c d e d c( d c a) a \barMin
+    c( b g) a a( g) g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Lu -- káš na -- psal e -- van -- ge -- li -- um
-    o do -- bro -- tě a mi -- lo -- sr -- den -- ství Bo -- ží -- ho Sy -- na;
-    pro -- to ho dnes chvá -- lí ce -- lá cír -- kev.
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
   }
   \header {
     quid = "ant. k Magnificat"
