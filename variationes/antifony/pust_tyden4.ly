@@ -1766,9 +1766,51 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( g) f e d c d \barMin
     d f e( d c) c f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
+    ja -- ko mlu -- ví ten -- to člo -- věk.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d e( f) d d \barMin
+    a c d d e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
+    ja -- ko mlu -- ví ten -- to člo -- věk.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e d \mark\sipka e d c \barMin
+    a c d d e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy tak ne -- mlu -- vil,

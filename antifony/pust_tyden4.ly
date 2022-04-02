@@ -463,8 +463,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( g) f e d c d \barMin
-    d f e( d c) c f( g) f d d \barFinalis
+    d4 d f e d e d c \barMin
+    a c d d e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
