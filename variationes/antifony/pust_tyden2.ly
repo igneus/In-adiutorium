@@ -501,11 +501,56 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g g g f g a g g c b a( b) g g \barMaior
+    a a a a a f e d d \mark\sipka f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va pra -- vi -- ce moc -- ně za -- sáh -- la,
+    Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     g'4 f g a( c d c) a a \barMin
     b4 c b c( d) d \barMin
     d4( c4 b) a( g) g a( g) f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko tři mlá -- den -- ci
+    v_oh -- ni -- vé pe -- ci
+    zpí -- vej -- me Bo -- hu chva -- lo -- zpěv.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
+    fial = "antifony/tyden1_1nedele.ly#rch-ant2?upraveno"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    g'4 f g a( c d c) a a \barMin
+    b4 c b c( d) d \barMaior
+    d4( c4 b) a( g) g \mark\sipka g( a) f f g g \barFinalis
   }
   \addlyrics {
     Ja -- ko tři mlá -- den -- ci
@@ -635,6 +680,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -656,6 +703,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 f e d f( g) \barMin g g g a( c d) c( b) a( g) a \barMaior
+    c b( a g) g \mark\sipka g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jen je -- den je Bůh, kte -- ré -- ho u -- ctí -- vá -- me,
+    on stvo -- řil ne -- be i ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 115"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f e f( a) a g a bes a( g a) a \barMaior
@@ -675,6 +744,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup\nadpisDen{Pondělí}
 
@@ -1082,6 +1153,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1103,6 +1176,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d \mark\sipka c d f e d( e d c) c \barMaior
+    d e f \mark\sipka e d e( d) d \barMaior
+    \mark\sipka f f f f e d c c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Sobota}
 

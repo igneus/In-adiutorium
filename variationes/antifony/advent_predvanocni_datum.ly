@@ -2447,6 +2447,28 @@ podobně.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d e( d) c b( c g4.) g \barMaior
+    a4 b c a a \barMin
+    g( f) \mark\sipka f g g \barFinalis
+  }
+  \addlyrics {
+    Zít -- ra k_vám při -- jde spá -- sa,
+    pra -- ví Hos -- po -- din,
+    Bůh zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

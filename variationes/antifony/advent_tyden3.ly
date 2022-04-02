@@ -1347,6 +1347,32 @@
     \choralniRezim
     g4( d') d d c d e d c c( d) d \barMaior
     d e d c a \barMin
+    c c b a \mark\sipka g( a) g g \barMin
+    f g a( b) g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že Ma -- ri -- a po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( d') d d c d e d c c( d) d \barMaior
+    d e d c a \barMin
     c c b a g a g \barMin
     \mark\sipka a( b c) a b( a) g g \barMaior
     g a a( g) g \barFinalis

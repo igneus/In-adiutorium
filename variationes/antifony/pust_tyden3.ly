@@ -1208,6 +1208,28 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c a a c b a g g \barMaior
+    c c c d c d \mark\sipka c( a) a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     g4 g g f g g( a) a \barMin

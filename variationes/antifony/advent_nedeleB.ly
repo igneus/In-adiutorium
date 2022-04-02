@@ -281,6 +281,31 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d e f f \barMin
+    f \mark\sipka e f g f e e( f) d c d d \barMaior
+    d( c d) a \barMin
+    c d e f d d \barMaior % tady je melodii vynuceny presun prizvuku z _po_rodis na _a_
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se, Ma -- ri -- a,
+    ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha:
+    Poč -- neš a po -- ro -- díš sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d f f \barMin
     f f f g f e e( f) d c d d \barMaior
     \mark\sipka e( f d c) c \barMin

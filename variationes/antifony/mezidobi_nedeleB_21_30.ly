@@ -1684,6 +1684,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) c \barMin
+    b( c) a g g \barMaior
+    g f g g( a) a \barMin
+    a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka při -- šel,
+    a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    fial = "antifony/pust_tyden2.ly#st-aben?kratsi_text"
+    id = "ne29b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisDen {"30. neděle"}}
 
 \score {
@@ -1711,6 +1738,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d d d( f e) d( c) \barMax
+    d4( f) d d( a') a a \barMin g( bes) g g \barMin
+    f( e f) \mark\sipka g f e d d \barFinalis
+  }
+  \addlyrics {
+    Sle -- pec u Je -- ri -- cha vo -- lal:
+    Sy -- nu Da -- vi -- dův, Je -- ží -- ši,
+    smi -- luj se na -- de mnou!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne30b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

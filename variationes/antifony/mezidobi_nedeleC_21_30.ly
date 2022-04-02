@@ -593,6 +593,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -619,6 +621,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    f f f f f e c c( d) d \barMaior
+    d d d d d c d e( f \mark\sipka d4.) d \barMin
+    \mark\sipka f4 f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

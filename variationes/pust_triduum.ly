@@ -566,6 +566,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e \mark\sipka f( g) g a bes a g( f g) g \barMaior
+    a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,
+    a -- le vy -- dal ho za nás za všec -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 51"
+    id = "pa-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -686,6 +706,28 @@
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
     d d( c d) c( a) a b c a a( g) g( a) a \barMax
     a a g4.( e) \barMin f4 e f g( a) a c b c a( g a) a \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me tvé sva -- té vzkří -- še -- ní.
+    Ne -- boť kříž při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "pa-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( d) d d d( c d) e c c( d) d \barMaior
+    d d( c d) c( a) a b c a a( g) g( a) a \barMax
+    a a a4.( d) \barMin d4 c d e( d) d d c b a( g a) a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
@@ -2889,6 +2931,28 @@
     d4 d d d( f) f \barMin
     f f e f g f f e d e d( a) a \barMaior
     a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl Jo -- náš_*
+    v_bři -- še vel -- ké ry -- by tři dni a tři no -- ci,
+    tak bu -- de Syn člo -- vě -- ka v_nit -- ru ze -- mě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 143"
+    id = "so-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f) f \barMin
+    f f e f g f f e d e d( a) a \barMaior
+    a a g a a( d) d d \mark\sipka d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl Jo -- náš_*

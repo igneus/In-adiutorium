@@ -507,6 +507,35 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a g f g \mark\sipka a f g e \barMin
+    d e f g f d d \barMaior
+    d c d d d f g g f a g g \barMin
+    f g f d( c) c \barMaior
+    d e f e d e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
+    mno -- hem do -- ko -- na -- lej -- ší
+    než spra -- ve -- dl -- nost u -- či -- te -- lů Zá -- ko -- na
+    a fa -- ri -- ze -- ů,
+    do ne -- bes -- ké -- ho krá -- lov -- ství
+    ne -- ve -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne6a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a g f e f g a g \barMin
     f e f g f d d \barMaior
     d c d d d g g g f a g g \barMin

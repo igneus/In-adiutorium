@@ -84,6 +84,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 a c b( g) a \barMaior
+    f( g a) c a \barMin
+    c d d d c( b a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -435,6 +457,28 @@
     g4 g( a) a \barMin
     c c b a b \mark\sipka c d c c \barMaior
     c a b a g g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a \barMin
+    c c \mark\sipka a g a g f g g \barMaior
+    a a( c) b a g g \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -891,6 +935,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( g) g g a bes a g f g g \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Pondělí}
@@ -1077,6 +1141,26 @@
     \choralniRezim
     f4 f f g g f g g( a) a \barMaior
     \mark\sipka bes a g a f f g f \barFinalis
+  }
+  \addlyrics {
+    Ten, kdo mě u -- zdra -- vil, mi ře -- kl:
+    Vez -- mi své le -- hát -- ko a choď.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g g f g g( a) a \barMaior
+    \mark\sipka a g f g g f g f \barFinalis
   }
   \addlyrics {
     Ten, kdo mě u -- zdra -- vil, mi ře -- kl:
