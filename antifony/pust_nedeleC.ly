@@ -334,21 +334,21 @@
   \relative c'' {
     \choralniRezim
     a4 a a e( f) d \barMin e e d c d d \barMaior
-    f f g( a) a \barMin
-    a g( f e) g g( a) a a \barMin
-    f e d f e d c( d) d \barFinalis
+    f g g( a) a \barMaior
+    a g a a( bes) a a \barMin
+    a g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš se se -- hnul a psal prs -- tem na zem,
     po -- tom ře -- kl:
-    Kdo z_vás je bez hří -- chu, ať ho -- dí ka -- me -- nem prv -- ní!
+    Kdo z_vás je bez hří -- chu,
+    ať ho -- dí ka -- me -- nem prv -- ní!
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "_ať hodí_ snad začít ještě na a"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -357,32 +357,33 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g e f e f g f e e \barMin
-    d d d( f) f( d) \barMaior
-    d d d f( g) a g( f g) \barMin d c d e( d) d \barFinalis
+    f4 f g a a a g f g g \barMin
+    f e d( e) d( c) \barMaior
+    f g( a) g f g g( f) \barMin
+    d f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- den za dru -- hým se vy -- trá -- ce -- li,
     star -- ší na -- před,
-    až zů -- stal Je -- žíš sám a že -- na před ním.
+    až zů -- stal Je -- žíš sám
+    a že -- na před ním.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "začátek nezpěvný a nepatří k modu"
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g a b a b b( c) b \barMaior
-    c c c( d) c a g f e e \barMin
-    f g a a a g a a( g) g \barFinalis
+    f4 f g a f f( g) g \barMaior
+    a a g f e f d c c \barMaior
+    d( f) \barMin f g g g f e c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo tě ne -- od -- sou -- dil?
@@ -391,10 +392,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "nezpěvná"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
