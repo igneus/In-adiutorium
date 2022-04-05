@@ -236,23 +236,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d( c a) d e f d( e) d d \barMaior
-    f g a g f f g f d( e d c) c \barMaior
-    d e f e( d) d \barMin
-    c d d \barFinalis
+    a4 c d c( d) \barMin
+    d e c c d d \barMaior
+    d d c b a a g a a( c) c \barMaior
+    c d e c( b a) a \barMin
+    g a a \barFinalis
   }
   \addlyrics {
-    Ne -- je -- nom já svěd -- čím sám o so -- bě,
+    Ne -- je -- nom já
+    svěd -- čím sám o so -- bě,
     a -- le svěd -- čí o mně ta -- ké O -- tec,
     kte -- rý mě po -- slal,
     pra -- ví Pán.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -288,23 +290,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f e f g f d c( d) d \barMaior
-    e f d d f g g( f) f \barMaior
-    g g g g( f d) e f d( c) c \barMin
-    d e f d d \barFinalis
+    f4 f e f g f e c( d) d \barMaior
+    f g a a g f g( a) a \barMaior
+    a b c a( g f) g f d( e) d( c) \barMin
+    d d e f d d \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý mě po -- slal, je se mnou.
     Ne -- ne -- chal mě sa -- mot -- né -- ho,
-    pro -- to -- že já stá -- le ko -- nám,
-    co se mu lí -- bí.
+    pro -- to -- že já stá -- le ko -- nám
+    to, co se mu lí -- bí.
   }
   \header {
-    textus_approbatus = "Ten, který mě poslal, je se mnou.
-    Nenechal mě samotného, protože já stále konám to, co se mu líbí."
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
