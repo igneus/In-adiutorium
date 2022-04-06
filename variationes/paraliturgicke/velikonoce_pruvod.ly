@@ -39,6 +39,149 @@
   }
 }
 
+\markup\nadpisSkupiny "Kompletní sada alelujatických antifon"
+
+\markup\justify{
+  Pražské křestní nešpory mají celkem pět aleluatických antifon -
+  první tři k žalmům zpívaným v chóru, další dvě k žalmům doprovázejícím průvod
+  ke křtitelnici a ke kříži, resp. in medium ecclesiae.
+  Většina přetextovává nápěvy antifon spojených s nedělními nešporami,
+  byť ne vždycky s těmi pražskými.
+}
+
+\markup{
+  Podle antifony \italic{Dixit Dominus}
+  - obě hezky vedle sebe v karlštejnském žaltáři CZ-Pu XVI A 18, f. 54r
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) d
+    d( c b) a( c) b( a) g
+    a a f a
+    c( a) b( a) g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 134v"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c2"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Podle antifony \italic{Fidelia omnia}
+  - srov. CZ-Pu XVI A 18, f. 54r a 54v
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g( a) a
+    a g e f
+    g f( e) d( f) f
+    f f c( d f) f
+    e( f) g( f e) d e \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 134v"
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Tahle zatím zůstává záhadná
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( a) c c( g)
+    b( c) a( g) a( g) f
+    g f( a) c c( g)
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 134v"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Pravděpodobně podle antifony \italic{Sit nomen Domini,}
+  např. CZ-Pu XVI A 18, f. 54v
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d( e d) c
+    a b( c) a g( f)
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 136r"
+    quid = "4. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Podle antifony \italic{Nos qui vivimus}
+  (která, pokud vím, v pražském ritu vůbec nefiguruje).
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f( g) g
+    a b a g( f)
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 136r"
+    quid = "5. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisHodinka{zastavení u křtitelnice}
