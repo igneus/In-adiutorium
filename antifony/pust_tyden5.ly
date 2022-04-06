@@ -316,11 +316,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d e d c c( d c a) a \barMaior
-    g a b c c c d c d e e( d) d \barMin
-    c d d \barMax
+    a4 g a c c c d( e) d \barMaior
+    d c d d( e) e e d c d e d d \barMin
+    c d d \barMaior
     e d c c( d c a) a \barMin
-    a a( b) g g c b g( a) a \barFinalis
+    g a( c) c c b g g( a) a \barFinalis
   }
   \addlyrics {
     Když vy -- tr -- vá -- te v_mém slo -- vu,
@@ -332,7 +332,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "d"
+    differentia = "A"
     psalmus = ""
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -342,9 +342,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 e f g g f g a a \barMaior
-    b a b c a f e e \barMin
-    f g a g f e e \barFinalis
+    a4 a g a g f g a a \barMaior
+    a a a b a g( a) e e \barMin
+    d e f f( g) f e e \barFinalis
   }
   \addlyrics {
     Proč mi u -- klá -- dá -- te o ži -- vot?

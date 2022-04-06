@@ -1329,6 +1329,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d e d c c( d c a) a \barMaior
     g a b c c c d c d e e( d) d \barMin
@@ -1356,9 +1357,89 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g a c c c d( e) d \barMaior
+    d c d d e e d c d e d d \barMin
+    c d d \barMaior
+    e d c c( d c a) a \barMin
+    g a( c) c c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- te v_mém slo -- vu,
+    bu -- de -- te o -- prav -- du mý -- mi u -- čed -- ní -- ky,
+    pra -- ví Pán.
+    Po -- zná -- te prav -- du,
+    a prav -- da vás o -- svo -- bo -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c c c d( e) d \barMaior
+    d c d \mark\sipka d( e) e e d c d e d d \barMin
+    c d d \barMaior
+    e d c c( d c a) a \barMin
+    g a( c) c c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- te v_mém slo -- vu,
+    bu -- de -- te o -- prav -- du mý -- mi u -- čed -- ní -- ky,
+    pra -- ví Pán.
+    Po -- zná -- te prav -- du,
+    a prav -- da vás o -- svo -- bo -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 e f g g f g a a \barMaior
     b a b c a f e e \barMin
     f g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Proč mi u -- klá -- dá -- te o ži -- vot?
+    Proč chce -- te za -- bít člo -- vě -- ka,
+    kte -- rý vám mlu -- vil prav -- du?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    placet = "celkově hodně exotický nápěv"
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a g f g a a \barMaior
+    a a a b a g( a) e e \barMin
+    d e f f( g) f e e \barFinalis
   }
   \addlyrics {
     Proč mi u -- klá -- dá -- te o ži -- vot?
@@ -1485,6 +1566,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    c4 c a c bes a g( a) \barMin
+    bes( g) f \barMin g g f \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Pátek}
 
