@@ -494,6 +494,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    a c d e c c( d) d \barMaior
+    d a d b c a( g) a \barMin
+    g f g a c a a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsi ve -- li -- ký a slav -- ný,
+    po -- di -- vu -- hod -- ný mo -- cí
+    a ne -- pře -- mo -- ži -- tel -- ný.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Jdt 16"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1142,6 +1165,7 @@
 %tIstredaNespAntIII =
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d) d d d d c( a) c( d) d d e f d( c) c4.( d) \barMin
     d4 d c a b( c) a a4. \barFinalis
@@ -1202,7 +1226,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     a4( d) d d d d c( a) c( d) d d e f d( c) c( d) \barMaior
     \mark\sipka c a c b g a a \barFinalis

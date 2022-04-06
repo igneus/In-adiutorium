@@ -247,8 +247,8 @@
 tIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4( d) d d d d c( a) c( d) d d e f d( c) c4.( d) \barMin
-    d4 d c a b( c) a a4. \barFinalis
+    a4( d) d d d d c( a) c( d) d d e f d( c) c( d) \barMaior
+    c a c b g a a \barFinalis
   }
   \addlyrics {
     Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvot -- stvo,
@@ -259,7 +259,6 @@ tIstredaNespAntIII = \score {
     modus = "IV alt"
     differentia = "A"
     psalmus = "Kol 1"
-    placet = "snad raději bez melismatu na _pr_venství?"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
