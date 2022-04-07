@@ -116,6 +116,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "1 Kron 29"
+    placet = "značně netypický závěr"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
