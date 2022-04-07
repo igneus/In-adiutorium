@@ -122,10 +122,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMin
     f g f e d c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    tvá pra -- vi -- ce mě pod -- pí -- rá.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-V"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g \mark\sipka g f e c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }

@@ -35,7 +35,7 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin
-    f g f e d c d d \barFinalis
+    f g g f e c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
