@@ -368,9 +368,9 @@
     \choralniRezim
     a4 a g( a g) g \barMin
     f g a a g g a g f f \barMaior
-    d d f( g) g \barMin
-    g f f( g) f d d \barMax
-    f( g a) bes g g( a) a \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    f( g a) a( bes) g g( a) a \barMin
     g a g f d c( d) d \barFinalis
   }
   \addlyrics {
@@ -392,10 +392,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 a c d c b a( g) \barMin
-    a( b) g \barMin a f g \barFinalis
+    d4 d c d d f f \barMin
+    f( g) g( f) \barMin e f d \barFinalis
   }
   \addlyrics {
     Dří -- ve než byl A -- bra -- hám,
@@ -403,8 +403,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
