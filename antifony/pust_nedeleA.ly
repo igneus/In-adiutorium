@@ -33,9 +33,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d c( d) c g g \barMaior
-    f g a c b a a \barMin
-    c c d( c b) a( g) g g( a) a g \barFinalis
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
+    c c b( c) a a \barMin g f g \barFinalis
   }
   \addlyrics {
     Ne -- jen z_chle -- ba ži -- je člo -- věk,
@@ -362,18 +362,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d \barMin d e c c d d \barMaior
-    a( d) c( b a) a \barMin
-    g f g a( c) b g g \barFinalis
+    d4 d c( d) d \barMin
+    d e c c d d \barMaior
+    a( d) c( b) a( g) \barMin
+    a g a b( c) a g( a) a \barFinalis
   }
   \addlyrics {
-    Pa -- ne, vě -- řím, že ty jsi Me -- si -- áš,
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš,
     Syn Bo -- ží,
     kte -- rý má při -- jít na svět.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "IV alt"
     differentia = "d"
     psalmus = ""
     annus = "A"

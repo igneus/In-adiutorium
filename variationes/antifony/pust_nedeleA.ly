@@ -31,8 +31,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d c( d) c g g \barMaior
     f g a c b a a \barMin
@@ -53,6 +56,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
+    c c b( c) a a \barMin g f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -388,8 +417,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \barMin d e c c d d \barMaior
     a( d) c( b a) a \barMin
@@ -404,6 +436,80 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d \barMin
+    d e c c d d \barMaior
+    a( d) \mark\sipka c( b) a( g) \barMin
+    \mark\sipka a g a b( c) a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin
+    d f e d( e) d( c) c \barMaior
+    f g( f) f \barMin
+    f e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin
+    d f e f g g f a( g) g \barMaior
+    g f e e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš, Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "vmag2"
