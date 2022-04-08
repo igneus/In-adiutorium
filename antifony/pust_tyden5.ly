@@ -406,6 +406,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "stále to není ono, bude dobré se k ní po čase vrátit"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -414,21 +415,23 @@
 \markup\nadpisDen{Pátek}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d f d( c) \barMin
-    d d d f g f e d d \barMaior
-    a c d d( e d) e f e f d \barFinalis
+    g4 a c d d \barMin
+    d d c d e d c d d \barMaior
+    d b c a( g) \barMin
+    a c b g( a) a \barFinalis
   }
   \addlyrics {
     U -- ká -- zal jsem vám
     mno -- ho do -- brých skut -- ků, pra -- ví Pán.
-    Pro kte -- rý z_nich mě chce -- te za -- bít?
+    Pro kte -- rý z_nich
+    mě chce -- te za -- bít?
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -436,21 +439,23 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g f g a g f( g) \barMaior
-    a( c) c c d( c b c) c( a) \barMaior
-    c c b( c) a \barMin g a g f f \barFinalis
+    d4 c d f g f e d( c) \barMin
+    f g a g( f g) f \barMaior
+    d f f( g a g) f( g) \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Jest -- li -- že ne -- vě -- ří -- te mně,
     věř -- te těm skut -- kům,
-    kte -- ré ko -- nám ve jmé -- nu Bo -- žím.
+    kte -- ré ko -- nám
+    ve jmé -- nu Bo -- žím.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
