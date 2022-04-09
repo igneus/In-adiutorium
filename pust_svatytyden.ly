@@ -255,8 +255,8 @@
     \relative c'' {
       \choralniRezim
       a4 a a bes( a g) f( d) d \barMin
-      e e f a a g g( a) a \barMin
-      a bes a g a d, d \barFinalis
+      e e f a a g g( a) a \barMaior
+      a a g f e( f) d d \barFinalis
     }
     \addlyrics {
       Kris -- tus se po -- ní -- žil
@@ -303,8 +303,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g( a) a( g) \barMin
-      a a g f f g a g g \barMaior
+      g4 g g( a) a \barMin
+      a a g f g a a g g \barMaior
       c c c c c( d) c c \barMin
       c c c b a g a g g \barMaior
       a f( e) d d \barMin

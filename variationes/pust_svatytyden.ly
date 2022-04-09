@@ -857,8 +857,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a bes( a g) f( d) d \barMin
       e e f a a g g( a) a \barMin
@@ -873,9 +876,63 @@
       quid = "3. ant."
       modus = "I"
       differentia = "a"
-      psalmus = ""
-      id = ""
-      piece = \markup {\sestavTitulekBezZalmu}
+      psalmus = "Flp 2"
+      id = "ne-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a bes( a g) f( d) d \barMin
+      e e f a a g g( a) a \barMaior
+      a bes a g a d, d \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se po -- ní -- žil
+      a byl po -- sluš -- ný až k_smr -- ti,
+      a to k_smr -- ti na kří -- ži.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Flp 2"
+      id = "ne-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup\justify{
+    Ten závěr kvintovým skokem je hodně netypický.
+    Což tady samozřejmě bylo záměrem - dramaticky zhudebnit
+    dramatický klimax textu.
+    Ale antifony oficia jsou v dramatisaci obvykle spíš úsporné.
+    A tady je text sám o sobě tak silný, že vůbec nemá zapotřebí
+    extravagantního zhudebnění, aby jeho síla vynikla.
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a bes( a g) f( d) d \barMin
+      e e f a a g g( a) a \barMaior
+      a \mark\sipka a g f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus se po -- ní -- žil
+      a byl po -- sluš -- ný až k_smr -- ti,
+      a to k_smr -- ti na kří -- ži.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Flp 2"
+      id = "ne-1ne-a3"
+      piece = \markup {\sestavTitulek}
     }
   }
 
@@ -944,6 +1001,33 @@
       d d d c b a( b) a( g) g \barMaior
       a a a( c) a a \barMin
       c c a( g) g a g f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Řek -- ně -- te si -- ón -- ské dce -- ři:
+      Hle, tvůj král
+      k_to -- bě při -- chá -- zí po -- kor -- ný,
+      se -- dí na os -- lu,
+      na os -- lát -- ku, mlá -- dě -- ti sou -- ma -- ra.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "ne-1ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka d4 d d f e c c( d) d \barMaior
+      \mark\sipka d c( d) d \barMin
+      d d d c b a( b) a( g) g \barMaior
+      a a a( c) a a \barMin
+      \mark\sipka b c a( g) g a g f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Řek -- ně -- te si -- ón -- ské dce -- ři:
@@ -1040,10 +1124,40 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g( a) a( g) \barMin
       a a g f f g a g g \barMaior
+      c c c c c( d) c c \barMin
+      c c c b a g a g g \barMaior
+      a f( e) d d \barMin
+      f( g) a( c) c b g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Mno -- ho li -- dí
+      pro -- stí -- ra -- lo na ces -- tu pláš -- tě,
+      ji -- ní za -- se vět -- vič -- ky,
+      kte -- ré na -- ře -- za -- li na po -- lích,
+      a vo -- la -- li:
+      Ho -- sa -- na na vý -- sos -- tech!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "B"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "ne-1ne-amag-B"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g( a) \mark\sipka a \barMin
+      a a g f \mark\sipka g a a g g \barMaior
       c c c c c( d) c c \barMin
       c c c b a g a g g \barMaior
       a f( e) d d \barMin
@@ -1127,6 +1241,27 @@
       \choralniRezim
       e4 g g g a g f g a g f g e e \barMaior
       e d a' a a g f f( g) e e \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ní -- ci pře -- ho -- di -- li pláš -- tě přes os -- lát -- ko
+      a vy -- sa -- di -- li na ně Je -- ží -- še.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "C"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "ne-1ne-amag-C"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g g g a g f g a g f g e e \barMaior
+      e d a' a a \mark\sipka b a g( f) d( e) e \barFinalis
     }
     \addlyrics {
       U -- čed -- ní -- ci pře -- ho -- di -- li pláš -- tě přes os -- lát -- ko
