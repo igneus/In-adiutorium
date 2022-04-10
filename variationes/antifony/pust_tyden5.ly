@@ -2075,9 +2075,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c) b c( d) d \barMaior
     c b d d a a c b a( b g) a \barMin
+    g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- mřel pro -- to,
+    a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
+    shro -- máž -- dil vjed -- no.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( c) b c( d) d \barMaior
+    \mark\sipka c d d( f) e d( c) c d c b( c a) a \barMin
     g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
