@@ -385,7 +385,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a a a b( c) a b a g g( a) a( g) g \barMaior
+      a4 a a g a b( c b) a b a g g( a) a a \barMaior
       a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
       g e e g a g( a) a \barFinalis
     }
@@ -430,8 +430,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 b g a \barMin
-      g f g a a a a g a c b a g a \barMaior
+      g4 a f g \barMin
+      g f g g a a a g a c b a g a \barMaior
       a( c) c b( c) a a \barMin
       a b( g e4.) e \barMin
       d4 f f( e) e \barFinalis
@@ -515,19 +515,21 @@
     \relative c' {
       \key f \major
       \choralniRezim
-      d4 d d( g f) e f g g g \barMin
-      a g g g bes( c bes) a( g) g a( g f) g f( d) d \barMax
+      d4 d d( f e) d f g g g \barMaior
+      a g g g a( bes c) bes( a) g \barMin
+      a( g f) g f( d) d \barMaior
       c d e( f) d d \barMaior
-      f g a g f( g) \barMin
+      f g a f g \barMin
       a bes c bes a g g g( a g) \barMin
       g f e d c \barMaior
-      d e f d( c) c \barMin
+      d f g f( e) d \barMin
       f g( a g f) e( d) \barMin
-      e f d d \barFinalis
+      f e c( d) d \barFinalis
     }
     \addlyrics {
       Ce -- lý zá -- stup u -- čed -- ní -- ků
-      ra -- dost -- ně a hla -- si -- tě chvá -- lil Bo -- ha.
+      ra -- dost -- ně a hla -- si -- tě
+      chvá -- lil Bo -- ha.
       Pro -- vo -- lá -- va -- li:
       Po -- žeh -- na -- ný ten,
       kte -- rý při -- chá -- zí ja -- ko král
@@ -760,8 +762,8 @@
       d d d d e f e d c d e( d) d \barMaior
       d( e d) c( d) c c \barMin
       c b g a( g) g \barMaior
-      f a c d( e d) c( b a) \barMin
-      c c a a g g \barFinalis
+      f a c d( e d c) c( d) \barMin
+      b c a a g g \barFinalis
     }
     \addlyrics {
       Je -- žíš,
@@ -784,10 +786,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 f f f f( g) f \barMin
-      g( a) a g( a) g g \barMaior
-      f g a g f g( f) d \barMin
-      f e c e f d d \barFinalis
+      f4 f f f f( g) g \barMin
+      a( bes) a g( a) g g \barMaior
+      f g a g f g( f d) d \barMin
+      c d f e c c( d) d \barFinalis
     }
     \addlyrics {
       Spra -- ved -- li -- vý Ot -- če,
@@ -834,7 +836,7 @@
       a4 g f( g a) a( bes) a a \barMin
       a( f g) f d d e f g( a bes) a( g) a \barMaior
       a g f f f( g) f \barMin
-      f( g) f d d \barFinalis
+      e d c( d) d \barFinalis
     }
     \addlyrics {
       Své -- mu slu -- žeb -- ní -- ku
@@ -854,10 +856,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g f g a a( c) b b \barMin
-      c c c a c b g( a g) g \barMaior
+      g4 g f g a c c b \barMin
+      c a c c b a g( a) g \barMaior
       g( a) g f g f d d \barMin
-      f g g( a) a g \barFinalis
+      f g a a g \barFinalis
     }
     \addlyrics {
       Bůh nás ob -- da -- řil mi -- los -- tí
@@ -870,7 +872,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Ef 1"
-      placet = "lépe"
       id = "po-ne-a3"
       piece = \markup {\sestavTitulek}
     }
