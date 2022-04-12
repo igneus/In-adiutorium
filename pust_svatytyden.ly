@@ -933,7 +933,7 @@
     \relative c' {
       \choralniRezim
       c4( d) d \barMin
-      f e d f( g) f d c c \barMaior
+      f f e f( g) f d c c \barMaior
       d e f d d \barFinalis
     }
     \addlyrics {
@@ -1003,7 +1003,7 @@
     \relative c' {
       \choralniRezim
       d4( g) f f g a g f g g \barMaior
-      g g f g g g f( d) d \barMin
+      g f g a a g f( d) d \barMin
       d c f e d d \barFinalis
     }
     \addlyrics {
@@ -1024,8 +1024,9 @@
   \score {
     \relative c' {
       \choralniRezim
+      \key f \major
       d4( a') a( bes) a g a g \barMaior
-      f g a g g a bes a g f \barMin
+      g a bes a a g bes a g f \barMin
       f g f e d( e) d d \barFinalis
     }
     \addlyrics {
@@ -1044,10 +1045,10 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4 c f e d e \barMin
-      f f g f e f d c d \barFinalis
+      a4 g c b c d \barMin
+      d d e c b c a g a \barFinalis
     }
     \addlyrics {
       Byl jsi za -- bit, Pa -- ne,
@@ -1055,8 +1056,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = "II"
-      differentia = "D"
+      modus = "IV alt"
+      differentia = "A"
       psalmus = "Zj 4"
       id = "ut-ne-a3"
       piece = \markup {\sestavTitulek}
@@ -1076,7 +1077,7 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "a"
+      differentia = "a2"
       psalmus = ""
       id = "ut-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
