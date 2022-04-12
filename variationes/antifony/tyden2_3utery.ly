@@ -61,13 +61,41 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g( a) f f( g) g \barMaior
     bes a g( a) g g \barMin
     f d e f d d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-I"
+    placet = "rytmus zakončení je nepěkný"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g( a) f f( g) g \barMaior
+    bes a g( a) g g \barMin
+    f d \mark\sipka f e c( d) d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nu svěř svůj o -- sud,
@@ -302,12 +330,38 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( bes) g g( a) a \barMaior
     g \mark\sipka f d e f d d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej v_Hos -- po -- di -- na
+    a drž se je -- ho ces -- ty.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-III"
+    placet = "rytmus zakončení je nepěkný"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a( bes) g g( a) a \barMaior
+    g f d \mark\sipka f e c( d) d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Dou -- fej v_Hos -- po -- di -- na

@@ -14,9 +14,9 @@
     \choralniRezim
     g4 g g f g( a) f f( g) g \barMaior
     bes a g( a) g g \barMin
-    f d e f d d \barFinalis
+    f d f e c( d) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nu svěř svůj o -- sud,
@@ -30,7 +30,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-I"
-    placet = "rytmus zakončení je nepěkný"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -64,9 +63,9 @@
   \relative c'' {
     \choralniRezim
     g4 g a( bes) g g( a) a \barMaior
-    g f d e f d d \barFinalis
+    g f d f e c( d) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Dou -- fej v_Hos -- po -- di -- na
@@ -79,7 +78,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-III"
-    placet = "rytmus zakončení je nepěkný"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
