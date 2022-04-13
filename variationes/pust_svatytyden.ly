@@ -5208,6 +5208,36 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g( a) g f g( a) a \barMin
+      a a b c a b( c a g) g \barMaior
+      a a( d) d c d d( e d) c b c a a \barMax
+      a a a4.( e) \barMin
+      e4 f e f e g a a a g a c( b a) a \barMaior
+      a b c c( d) d c( b a4.) a \barMin
+      a4( b g) g e \mark\sipka f( g e) e \barFinalis
+    }
+    \addlyrics {
+      Kris -- tus při -- ne -- sl Bo -- hu
+      skr -- ze věč -- né -- ho Du -- cha
+      sám se -- be ja -- ko o -- běť bez po -- skvr -- ny.
+      Je -- ho krev
+      o -- čis -- tí na -- še svě -- do -- mí od mrt -- vých skut -- ků,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "a"
+      psalmus = ""
+      id = "st-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"nešpory"}}

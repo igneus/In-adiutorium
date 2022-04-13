@@ -1181,7 +1181,6 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
-      placet = "nehodila by se spíš do modu III? (_Bohu_ fge e)"
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
