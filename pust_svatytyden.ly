@@ -1112,8 +1112,8 @@
     \relative c'' {
       \choralniRezim
       g4 g g g g( c) a g( a) g g \barMaior
-      c b a c b( a) g \barMin
-      a g f g a a( g) \barFinalis
+      c b c d d( c) c \barMin
+      b c a g f g \barFinalis
     }
     \addlyrics {
       Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
@@ -1125,7 +1125,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "1 Sam 2"
-      placet = "lépe"
       id = "st-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1137,7 +1136,7 @@
       \key f \major
       f4 f e d f( g) g \barMin
       g f g( a) a g( a) g g \barMaior
-      bes bes a g f \barMin
+      bes a g f g \barMin
       g g g f e d e d d \barFinalis
     }
     \addlyrics {
@@ -1181,6 +1180,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
+      placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná"
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1215,8 +1215,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4-- f f f e d d \barMin
-      d c d f e d d \barFinalis
+      d4 c d d( f) e d( c) c \barMin
+      d f e d e d d \barFinalis
     }
     \addlyrics {
       Sám ne -- sl hří -- chy mno -- hých
@@ -1227,7 +1227,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 67"
-      placet = "slabší - vyzkoušet více variant"
       id = "st-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1236,9 +1235,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c b a g a g g \barMin
-      f a c c b \barMaior
-      b c a g a g g \barFinalis
+      a4 a a a f e d d \barMin
+      f g a a g \barMaior
+      g a f e f d d \barFinalis
     }
     \addlyrics {
       V_Kris -- tu má -- me vy -- kou -- pe -- ní
@@ -1247,8 +1246,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = "VIII"
-      differentia = "c"
+      modus = "I"
+      differentia = "a"
       psalmus = "Kol 1"
       id = "st-ne-a3"
       piece = \markup {\sestavTitulek}
@@ -1258,9 +1257,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c c( d) c g \barMin
-      c d c g g \barMaior
-      f a c c c d c d c b a a \barMin
+      c4 c c( d) c c \barMin
+      a c b g g \barMaior
+      f g a c c d c d c b a a \barMin
       a( c) c d c b a g a g g \barFinalis
     }
     \addlyrics {
@@ -1274,7 +1273,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
-      placet = "začátek bez té divoké repetice"
       id = "st-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
