@@ -377,6 +377,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d e e d \barMin d c a g( f) g \barFinalis
   }
@@ -386,6 +387,107 @@
   \header {
     quid = "3. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d e e d \barMin
+    \mark\sipka c b a( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g a a g \barMin
+    \mark\sipka f d f g f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g a \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka d c b a g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 97"
     id = "rch-ant3"
