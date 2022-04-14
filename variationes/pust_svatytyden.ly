@@ -6073,10 +6073,130 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      c4 a c b( a) g \barMin
+      \mark\sipka f g a a b a g g \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g a( c) b \barMin
+      c a g g f a g g \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacModry
       \choralniRezim
       a4 a a g( f) f \barMin
       e f g g a g f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 \mark\sipka g a g( f) f \barMin
+      \mark\sipka d f g g a g f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a g( a) a \barMin
+      g g f d f g g f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 a f f( g) g \barMin
+      a a g f f g g f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g( a) g \barMin
+      a a g f d f g( f) f \barFinalis
     }
     \addlyrics {
       Bůh je má spá -- sa;
@@ -6136,6 +6256,8 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
       \choralniRezim
@@ -6151,6 +6273,50 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4 f f d f e4.( d) \barMin
+      \mark\sipka c4 d( f) f f f f g a g f e f e c c \barMin
+      d c d f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Tou -- žeb -- ně jsem si přál
+      jíst s_vá -- mi to -- ho -- to ve -- li -- ko -- noč -- ní -- ho be -- rán -- ka,
+      dří -- ve než bu -- du tr -- pět.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d f e d( c) \barMin
+      f g( a) a a g f g a g f e f e c c \barMin
+      d c d f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Tou -- žeb -- ně jsem si přál
+      jíst s_vá -- mi to -- ho -- to ve -- li -- ko -- noč -- ní -- ho be -- rán -- ka,
+      dří -- ve než bu -- du tr -- pět.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
       differentia = "D"
       psalmus = ""
       id = ""
