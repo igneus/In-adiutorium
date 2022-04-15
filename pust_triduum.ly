@@ -225,9 +225,9 @@
     \choralniRezim
     d4 d( a') a b a g g( a) \barMin
     c b a g f g g( e) e \barMaior
-    f( g a) g( a) a b c a( g a) a( g) \barMaior
-    g f d e d c d( f g a) a \barMin
-    g( f e) e( f) d c d d \barFinalis
+    f( g) g( a) a c b a( b a) a \barMaior
+    a a g f d e d( c) c \barMin
+    d( e f) e( f) d c d d \barFinalis
   }
   \addlyrics {
     Když vo -- ják pro -- bo -- dl bok
@@ -432,7 +432,7 @@
     \choralniRezim
     a4 a a a( b) a g( a) a \barMin
     g e f e e \barMaior
-    d c d d f g e e \barFinalis
+    d c d d f e d( e) e \barFinalis
   }
   \addlyrics {
     Po -- zor -- ně na -- slou -- chej -- te,_*
@@ -494,7 +494,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d f e e( d) d \barMin
+    d4 d d c d f e d d \barMin
     f g g( a) f g g \barMaior
     a( bes a g) f( g) \barMin
     g g g f e d c d f e d d \barFinalis
