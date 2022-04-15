@@ -3,6 +3,7 @@
 
 require 'optparse'
 require 'tempfile'
+require 'yaml'
 
 require 'lyv'
 require_relative 'fial'
@@ -45,6 +46,28 @@ class MusicRepository
     @repo[f.path][f.id].tap do |score|
       raise "'#{fial}' not found" if score.nil?
     end
+  end
+end
+
+# File storing the result of the last run
+class MismatchesSave
+  def initialize(path, current_mismatches)
+    @path = path
+    @current_mismatches = current_mismatches
+    @last_mismatches = []
+    @last_mismatches = YAML.load File.read path if File.exist? path
+  end
+
+  def new_mismatches?
+    !new_mismatches.empty?
+  end
+
+  def new_mismatches
+    @current_mismatches - @last_mismatches
+  end
+
+  def save!
+    File.write @path, YAML.dump(@current_mismatches)
   end
 end
 
@@ -94,6 +117,7 @@ parser = OptionParser.new do |opts|
   opts.on '-f', '--diff-full-score', 'diff full scores, not just the music part'
   opts.on '-M', '--mismatches', 'print only mismatches'
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
+  opts.on '-s PATH', '--save=PATH', 'save list of mismatches to a file, report new mismatches not found in the save from the previous run'
 end
 
 options = {}
@@ -101,7 +125,7 @@ arguments = parser.parse ARGV, into: options
 
 music_repository = MusicRepository.new
 fial_count = 0
-mismatch_count = 0
+mismatches = []
 
 to_be_checked = lambda do |fial|
   options[:children].nil? || FIAL.parse(fial).path.start_with?(options[:children])
@@ -139,7 +163,7 @@ arguments.each do |file_or_fial|
 
     puts header + 'MISMATCH'
     debug.(comparison)
-    mismatch_count += 1
+    mismatches << score_ref
     if diffing_makes_sense?(parent_ref) || options[:'diff-all']
       print_diff diff_text.(parent), diff_text.(score)
     else
@@ -149,4 +173,18 @@ arguments.each do |file_or_fial|
 end
 
 puts
-puts "#{mismatch_count} mismatches in #{fial_count} fial references checked"
+puts "#{mismatches.size} mismatches in #{fial_count} fial references checked"
+
+if options[:save]
+  save = MismatchesSave.new(options[:save], mismatches)
+  if save.new_mismatches?
+    puts
+    puts 'NEW mismatches since the last run:'
+    puts
+    save.new_mismatches.each do |m|
+      puts " - #{m}"
+    end
+    puts
+  end
+  save.save!
+end
