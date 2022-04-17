@@ -30,10 +30,20 @@ $canticles_number_in_name = ['1sam', '1kron', '1petr', '1tim']
 # where the book sigle can't be prettified by mere capitalization
 $canticles_with_diacritics = {'pr' => 'Př', 'plac' => 'Pláč'}
 
-# string tokens translating particular LaTeX code
+# string tokens translating to particular LaTeX code
 $special_codes = {
-  'rchne1t' => '\laudyNedelePrvnihoTydne',
+  'rchne1t' => '\laudyNedelePrvnihoTydne{}',
 }
+# shortcut codes for rubrics referencing days of the psalter cycle
+1.upto(4).each do |week|
+  {
+    'ne' => 'neděle',
+    'ut' => 'úterý',
+    'pa' => 'pátku',
+  }.each_pair do |day_abbrev, day_name|
+    $special_codes["#{day_abbrev}#{week}t"] = "\\rubr{Z #{day_name} #{week}. týdne}"
+  end
+end
 
 
 
@@ -111,7 +121,7 @@ def hour_content(value, label_index_lookup)
   tokens.each_with_index do |t,ti|
     case t[0]
     when :code
-      puts $special_codes[t[1]]
+      print $special_codes[t[1]]
       puts '. '
     when :ps
       if t[2] == :canticle

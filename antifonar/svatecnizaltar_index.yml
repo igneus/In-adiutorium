@@ -92,7 +92,7 @@ Velikonoční triduum:
     vigilie:
       (Jako o postních nedělích.)
     ranní chvály:
-      (Z pátku 2. týdne.) # [51, hab3, 147ii]
+      pa2t # [51, hab3, 147ii]
     modlitba uprostřed dne:
       [40i, (+), 40ii, 54, 88i, (+), 88ii]
     nešpory:
@@ -116,25 +116,25 @@ Doba velikonoční:
     ranní chvály:
       rchne1t
     modlitba uprostřed dne:
-      (Z neděle 1. týdne.) # [118i, 118ii, 118iii]
+      ne1t # [118i, 118ii, 118iii]
     nešpory:
-      (Z neděle 1. týdne.) # [110, 114, zj19]
+      ne1t # [110, 114, zj19]
 
   pondělí ve velikonočním oktávu:
     modlitba se čtením:
-      (Z neděle 1. týdne.) # [1, 2, 3]
+      ne1t # [1, 2, 3]
     modlitba uprostřed dne:
       [8, 19a, 19b]
 
   úterý ve velikonočním oktávu:
     modlitba se čtením:
-      (Z neděle 4. týdne.) # [24, 66i, 66ii]
+      ne4t # [24, 66i, 66ii]
     modlitba uprostřed dne:
       [119alef, 16, 23]
 
   středa ve velikonočním oktávu:
     modlitba se čtením:
-      (Z neděle 2. týdne.) # [104i, 104ii, 104iii]
+      ne2t # [104i, 104ii, 104iii]
     modlitba uprostřed dne:
       [119beth, 28, 116ii]
 
@@ -155,13 +155,13 @@ Doba velikonoční:
 
   sobota ve velikonočním oktávu:
     modlitba se čtením:
-      (Z neděle 3. týdne.) # [145ci, 145cii, 145ciii]
+      ne3t # [145ci, 145cii, 145ciii]
     modlitba uprostřed dne:
       [119he, 96i, 96ii]
 
   Druhá neděle velikonoční:
     modlitba se čtením:
-      (Z neděle 1. týdne.) # [1, 2, 3]
+      ne1t # [1, 2, 3]
 
   Neděle:
     vigilie:
@@ -171,7 +171,7 @@ Doba velikonoční:
     1. nešpory:
       [113, 117, zj11]
     modlitba se čtením:
-      (Z úterý 3. týdne.) # [68i, 68ii, 68iii]
+      ut3t # [68i, 68ii, 68iii]
     vigilie:
       (Jako o velikonočních nedělích.)
     ranní chvály:
@@ -185,15 +185,15 @@ Doba velikonoční:
     1. nešpory:
       [113, 147i, zj15]
     modlitba se čtením:
-      (Z neděle 2. týdne.) # [104i, 104ii, 104iii]
+      ne2t # [104i, 104ii, 104iii]
     vigilie:
       (Jako o velikonočních nedělích.)
     ranní chvály:
       rchne1t
     modlitba uprostřed dne:
-      (Z neděle 1. týdne.) # [118i, 118ii, 118iii]
+      ne1t # [118i, 118ii, 118iii]
     2. nešpory:
-      (Z neděle 1. týdne.) # [110, 114, zj19]
+      ne1t # [110, 114, zj19]
 
 Liturgické mezidobí:
 
@@ -231,7 +231,7 @@ Liturgické mezidobí:
     ranní chvály:
       rchne1t
     2. nešpory:
-      (Z neděle 1. týdne.) # [110, 114, zj19]
+      ne1t # [110, 114, zj19]
 
   Těla a Krve Páně (slavnost):
     1. nešpory:
