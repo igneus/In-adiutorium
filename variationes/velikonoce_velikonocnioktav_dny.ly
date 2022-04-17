@@ -35,12 +35,38 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d( f) f g g g g f e d d \barMaior
       e( d) c c d c a a \barMin
       a c d f g f e d4. d \barMax
       \mark\sipka c4 c( f) e( d) d \barFinalis
+    }
+    \addlyrics {
+      Zá -- hy zrá -- na_* prv -- ní -- ho dne po so -- bo -- tě
+      při -- šly že -- ny ke hro -- bu,
+      když prá -- vě vy -- chá -- ze -- lo slun -- ce.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      quidbreve = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "zmrtvychvstani-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d( f) f \mark\sipka \barMin g g g g f e d d \barMaior
+      e( d) c c d c a a \barMin
+      a c d f g f e d4. d \mark\sipka \barMaior
+      c4 c( f) e( d) d \barFinalis
     }
     \addlyrics {
       Zá -- hy zrá -- na_* prv -- ní -- ho dne po so -- bo -- tě
