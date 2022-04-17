@@ -2371,6 +2371,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a) a \barMaior
+    a4 a \mark\sipka g f g( a) g( f) e( d) \barMin
+    e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen
+    a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny "sylabická verze"
 
 \score {
@@ -2491,6 +2519,24 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 g a g a f g f f \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     c d f g f e f d d \barFinalis
@@ -2528,9 +2574,64 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 d f g f e c d d \barFinalis
   }
   \addlyrics {
     Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
@@ -2603,6 +2704,33 @@
     \key f \major
     \choralniRezim
     \mark\sipka a4( bes a) g f f( g) \barMin
+    g f e d( e) d d \barMaior
+    f g g( a) a \barMin
+    bes a g a( f) d \barMin
+    e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- za -- ne -- cháš_*
+    mou du -- ši v_pod -- svě -- tí,
+    ne -- do -- pus -- tíš,
+    a -- by tvůj sva -- tý
+    spat -- řil po -- ru -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 16"
+    id = "so-mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    \mark\sipka a4 a g( a) g \barMin
     g f e d( e) d d \barMaior
     f g g( a) a \barMin
     bes a g a( f) d \barMin
@@ -3090,7 +3218,99 @@
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
+    a \mark\sipka g f g( a) g g f d e d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
     a a a g( a) g g \mark\sipka f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a \mark\sipka g f g( a g) f e( d) \barMin
+    f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný
+    Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    a g f g( a g) f e( d) \barMin
+    \mark\sipka c( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou nad ním na -- ří -- kat_*
+    ja -- ko se na -- ří -- ká nad je -- di -- ným sy -- nem,
+    pro -- to -- že ne -- vin -- ný
+    Pán byl za -- bit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "so-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f) e e \barMin
+    f e f g g g a g a bes a a \barMaior
+    \mark\sipka a g f g a g f d e d \barFinalis
   }
   \addlyrics {
     Bu -- dou nad ním na -- ří -- kat_*
@@ -3153,9 +3373,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \barMaior
     d d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
+    d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Byl jsem mr -- tev,_*
+    a hle, jsem živ na vě -- ky vě -- ků
+    a mám klí -- če od smr -- ti a pod -- svě -- tí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "so-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d \barMaior
+    \mark\sipka c d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
     d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
   }
   \addlyrics {
@@ -3472,10 +3716,32 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \mark\sipka g f e \barMaior
     e( g) g( a) a \barMin a c b a b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,_*
+    z_pod -- svě -- tí jsi vy -- ve -- dl mou du -- ši.
+  }
+  \header {
+    quid = "ant. v poledne"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "so-up-po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f e \barMaior
+    \mark\sipka f( g) g( a) a \barMin a c b a b g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,_*
@@ -3899,6 +4165,161 @@
     a Bůh
     je o -- sla -- ven v_něm;
     a zje -- ví se na něm Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c \mark\sipka b( c) a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c \mark\sipka c( d) c \barMin
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a \mark\sipka g f g( a) a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g \mark\sipka f g a a( c) c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g f g a a( c) c \barMin
+    \mark\sipka b( c) a g( a g^-) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
   }
   \header {
     quid = "ant. k Magnificat"

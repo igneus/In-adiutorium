@@ -552,7 +552,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f e f d c d d \barFinalis
+    f4 d f g f e c d d \barFinalis
   }
   \addlyrics {
     Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
@@ -686,7 +686,7 @@
   \relative c'' {
     \choralniRezim
     d4 d c( d) d \barMaior
-    d d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
+    c d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
     d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
   }
   \addlyrics {
@@ -816,7 +816,7 @@
   \relative c'' {
     \choralniRezim
     a4 g f e \barMaior
-    e( g) g( a) a \barMin a c b a b g( a) a \barFinalis
+    f( g) g( a) a \barMin a c b a b g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,_*
@@ -873,6 +873,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 116-II"
+    placet = "To melisma na _Ví_ se špatně zpívá - jednak že vykračuje z obvyklého
+    rozsahu modu hned na samém začátku melodie, jednak to asi má co dělat se samohláskou í"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
