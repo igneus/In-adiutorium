@@ -987,7 +987,27 @@
   \relative c' {
     \choralniRezim
     f4 f g( a) g f f g g \barMin
-    a a g f d f g g a \barFinalis
+    a a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus nás mi -- lu -- je_*
+    a svou kr -- ví nás zba -- vil hří -- chů.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Hab 3"
+    id = "pa-rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f \mark\sipka g f g g a a \barMin
+    a a g f d f g g4. f \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus nás mi -- lu -- je_*

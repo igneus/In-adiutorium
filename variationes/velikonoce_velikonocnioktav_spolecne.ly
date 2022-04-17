@@ -858,6 +858,30 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) a( g) \barMaior
+    \mark\sipka a-- g( f) g( a) a \barMin
+    \mark\sipka c c b a g g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{AR1912, s. 33}
 
 \score {
@@ -1446,6 +1470,50 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     f4 f a g f \barMin
     g f g a \mark\sipka g \barMin
     f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( f) g( a) a \barMin
+    g f g f f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f \mark\sipka g g( a) a \barMin
+    g f g f f \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*
