@@ -923,12 +923,12 @@ Dnes.
   Následuje závěrečná modlitba a zakončení jako obvykle.
 }
 
-\nadpisHodinka{Velký pátek a Bílá sobota}
+\nadpisHodinka{Velký pátek}
 
-\noindent\rubrika{Velký pátek}
 \antiphonWithPsalmTone{#pa-mc-avig}
 
-\noindent\rubrika{Bílá sobota}
+\nadpisHodinka{Bílá sobota}
+
 \antiphonWithPsalmTone{#so-mc-avig}
 
 \rubrika{Kantika se zpívají v oba dny stejná.}
@@ -938,19 +938,6 @@ Dnes.
 \input{generovane/triduum/kantikum_ez36.tex}
 \input{generovane/triduum/kantikum_plac5.tex}
 \end{psalmodia}
-
-\nadpisHodinka{Doba velikonoční}
-
-\rubrika{
-  Modlitba se čtením neděle Zmrtvýchvstání Páně má zvláštní uspořádání
-  a nezdá se příliš vhodné tímto způsobem ji rozšiřovat, ale rubriky breviáře
-  to výslovně nezakazují.
-}
-
-\antiphon{velikonoce_antifony.ly#mc-avig}
-
-% psalm tone and correct pointing matching the preceding antiphon added automatically by typographus
-\psalmGroup{Iz 63}{Oz 6}{Sof 3}
 
 \clearpage
 \nadpisDen{Doplňovací cyklus žalmů}
