@@ -95,7 +95,7 @@ def hour_content(value, label_index_lookup)
   tokens = tokenized_hour_content(value)
 
   # search for best combination of text references
-  # (some psalms reoccur in the psalter and we don't like page-flipping)
+  # (some psalms occur repeatedly in the psalter and we don't like page-flipping)
   labels =
     tokens
       .select {|t| t[0] == :ps }
