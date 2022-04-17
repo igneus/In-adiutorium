@@ -57,7 +57,12 @@ class PageRefOptimal
     end
 
     first_step = @labels[labels[0]].to_a.collect {|l| Sollution.new(0, [l[0]]) }
-    return collect_sollutions(first_step, labels).sort {|x,y| x.distance <=> y.distance }.first.indices
+    return \
+      collect_sollutions(first_step, labels)
+      .sort {|x,y| x.distance <=> y.distance }
+      .first
+      .tap {|s| STDERR.puts "direct neighbours: #{labels}" if s.distance == 2 } # three psalms next to each other
+      .indices
   end
 
   private
