@@ -4270,6 +4270,37 @@
     a( c) b( a) g( a) a \barMaior
     a c( a) \barMin
     a c b a g \barMaior
+    g a c c c( d) c \barMin
+    \mark\sipka b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
     g a \mark\sipka g f g( a) a \barMin
     g f g g \barFinalis
   }

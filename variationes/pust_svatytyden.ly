@@ -182,6 +182,38 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      % R
+      \neviditelna a
+      a4 a a a a b a g( e) e \barMax
+      e f f f g f e( d) e \barFinalis
+      % V
+      \neviditelna a
+      a( b a) g( e) e \barMin e d e f a g f( e) e \barMax
+      % R
+      \neviditelna a
+      e f f f g f e( d) e \barFinalis
+      % Slava
+      a a a( b) a g g( a) a \barMin a g \mark\sipka f f( g) e e \barFinalis
+    }
+    \addlyrics {
+      \Response Pa -- ne, ty ses dal při -- bít na kříž_*
+      a pro -- lil jsi za nás svou krev.
+      \Verse Vy -- dal ses za spá -- su ce -- lé -- ho svě -- ta_*
+      \Response a pro -- lil jsi za nás svou krev.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      id = "rch-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
   \pageBreak
 
 
