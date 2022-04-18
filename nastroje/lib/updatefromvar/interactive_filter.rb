@@ -3,12 +3,30 @@ require 'tempfile'
 class InteractiveFilter
   def initialize(highline)
     @highline = highline
+    @remaining = nil
   end
 
   def call(old_score, new_score_text)
+    return false if @remaining == :quit
+    return true if @remaining == :all
+
     print_diff(old_score, new_score_text)
 
-    @highline.agree "Update ##{old_score.header['id']}?"
+    answer = @highline.ask "Update ##{old_score.header['id']}?" do |q|
+      q.validate = /^[ynqa]$/i
+      q.case = :downcase
+    end
+
+    case answer
+    when 'q'
+      @remaining = :quit
+      return false
+    when 'a'
+      @remaining = :all
+      return true
+    end
+
+    {'y' => true, 'n' => false}.fetch answer
   end
 
   protected
