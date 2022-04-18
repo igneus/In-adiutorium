@@ -105,7 +105,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) g \barMin g f g g4.( a) \barMaior
+    g4 g( a) a \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
     f( d) d \barMin d d( f) f f e f d d \barFinalis
   }
@@ -118,7 +118,7 @@
     quid = "ant. k Magnificat"
     quidbreve = "ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a2"
     psalmus = ""
     id = "ct-nesp-mag"
     piece = \markup {\sestavTitulekBezZalmu}

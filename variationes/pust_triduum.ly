@@ -359,6 +359,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) g \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
@@ -405,6 +406,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka g4 g( a) a \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
