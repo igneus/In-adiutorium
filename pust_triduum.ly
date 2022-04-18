@@ -148,6 +148,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nevím"
     id = "pa-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -283,6 +284,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Hab 3"
+    placet = "zcela průběžná melodie _Ježíš Kristus_ působí nepatřičně"
     id = "pa-rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -349,6 +351,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "není úplně špatná, ale zkusit víc variant"
     id = "pa-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,6 +398,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "ta dramatická hloubka v závěru možná úplně neodpovídá (dosti plochému) textu"
     id = "pa-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -420,6 +424,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "neumím pojmenovat čím přesně, ale vadí mi melisma na _ho_diny"
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -486,6 +491,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
+    placet = "silný text, kterému nápěv nečiní úplně zadost - vyzkoušet víc variant"
     id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -657,6 +663,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
+    placet = "_protože nevinný_ lépe"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -921,6 +928,8 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
+    placet = "melodie _řekl to však_ mi v daném kontextu přijde něčím nelibá/nepřirozená,
+    neadekvátní danému syntaktickému vztahu"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -950,6 +959,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "závěr lépe - napadá mě řada variant a snad všechny znějí přirozeněji, než tato"
     id = "so-nesp-mag"
     fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?zacatek"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
