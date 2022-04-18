@@ -441,7 +441,7 @@
     \header {
       quid = "1. ant."
       modus = "I"
-      differentia = "g"
+      differentia = "a2"
       psalmus = "Žalm 1"
       id = "po-mc-a1"
       piece = \markup {\sestavTitulek}
@@ -525,7 +525,8 @@
       a a g f g a a
       b c a g g \barMax
       c c c c d c a a \barMaior
-      a c b g a g f g a b( g) g \barFinalis
+      a c b g a g f
+      g a a( g) g \barFinalis
     }
     \addlyrics {
       Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,

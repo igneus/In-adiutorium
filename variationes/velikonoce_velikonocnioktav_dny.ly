@@ -193,6 +193,141 @@
 
   \markup\nadpisDen {pondělí velikonoční}
 
+  \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      g4 g( a) f g( a) a \barMin
+      a a a a g f e f e d( e d) \barMaior
+      d f g a( c) b a( b) a \barMin
+      g g g f g f( e) d c \barMin
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Já jsem, kte -- rý jsem,_*
+      ne -- jed -- nám po -- dle ra -- dy bez -- bož -- ných,
+      a -- le mám za -- lí -- be -- ní
+      v_Hos -- po -- di -- no -- vě zá -- ko -- ně.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "g"
+      psalmus = "Žalm 1"
+      id = "po-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup{
+    (Jen změněná differentia)
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g( a) f g( a) a \barMin
+      a a a a g f e f e d( e d) \barMaior
+      d f g a( c) b a( b) a \barMin
+      g g g f g f( e) d c \barMin
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Já jsem, kte -- rý jsem,_*
+      ne -- jed -- nám po -- dle ra -- dy bez -- bož -- ných,
+      a -- le mám za -- lí -- be -- ní
+      v_Hos -- po -- di -- no -- vě zá -- ko -- ně.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a2"
+      psalmus = "Žalm 1"
+      id = "po-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4( g a) a( b) a a a( b) a g( f) e( d) \barMaior
+      c d( e) e e( f g) f e f( g) g g
+      a f e e \barFinalis
+    }
+    \addlyrics {
+      Po -- žá -- dal jsem_* své -- ho Ot -- ce,
+      a dal mi v_ma -- je -- tek ná -- ro -- dy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = "Žalm 2"
+      id = "po-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g f f \barMaior
+      g g( a) a f( g a) a c b g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Byl jsem mr -- tev,_*
+      a hle, jsem živ na vě -- ky vě -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 3"
+      id = "po-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a \barMaior
+      a c b c( a) \barMin
+      f g a a( g) g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Byl jsem mr -- tev,_*
+      a hle, jsem živ na vě -- ky vě -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 3"
+      id = "po-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
+
+  \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
+
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -251,6 +386,30 @@
       g g( a) a a g f g( a) a \barMaior
       a b4.( c) b4( c) a( g) g \barMax
       \mark\sipka f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te_*
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c b( g) g \barMin
+      g g( a) a a g f \mark\sipka g g \barMaior
+      \mark\sipka g a4.( c) b4( c) a( g) g \barMax
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Rych -- le jdě -- te_*
@@ -403,7 +562,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g( a) a c( b c) c( d) c b a a a \barMaior
       a a g f \mark\sipka g a a
@@ -411,6 +570,35 @@
       c c c c d c a a \barMaior
       \mark\sipka a c b g a g f \mark\sipka
       g a b( g) g \barFinalis
+    }
+    \addlyrics {
+      Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,
+      šel jim Je -- žíš na -- pro -- ti
+      a po -- zdra -- vil je;
+      o -- ny k_ně -- mu při -- stou -- pi -- ly
+      a po -- klo -- ni -- ly se mu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g( a) a c( b c) c( d) c b a a a \barMaior
+      a a g f g a a
+      b c a g g \barMax
+      c c c c d c a a \barMaior
+      a c b g a g f
+      g a \mark\sipka a( g) g \barFinalis
     }
     \addlyrics {
       Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,
