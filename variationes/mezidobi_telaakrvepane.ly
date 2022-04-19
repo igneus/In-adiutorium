@@ -948,7 +948,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) g \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
@@ -965,6 +965,34 @@
     quid = "ant. v poledne"
     modus = "I"
     differentia = "g"
+    psalmus = ""
+    id = "up-sexta"
+    fial = "pust_triduum.ly#ct-nesp-mag?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a \barMin g f g g4.( a) \barMaior
+    bes4 a g( f) g \barMaior
+    f( d) d \barMin d d( f) f f e f d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Když jed -- li,_* vzal Je -- žíš chléb,
+    po -- žeh -- nal ho,
+    lá -- mal a dá -- val svým u -- čed -- ní -- kům.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
     id = "up-sexta"
     fial = "pust_triduum.ly#ct-nesp-mag?+aleluja"
