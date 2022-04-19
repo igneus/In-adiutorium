@@ -626,7 +626,7 @@
     \relative c' {
       \choralniRezim
       f4 f e( d) d d( a' g) g( a) a \barMaior
-      a a a g f g a a g a b a a \barMaior
+      a a a g a b c a g a a g g \barMaior
       c( d c) a( g) g( a) \barMin
       a a( g f) g f d d \barMax
 
@@ -634,7 +634,7 @@
       a g f g g \barMaior
       a a a a a g a a( c) c( a) \barMin
       a f e d d \barMaior
-      d f( e) c d \barFinalis
+      f e c( d) d \barFinalis
     }
     \addlyrics {
       Je -- žíš ře -- kl:_* Ma -- ri -- e!
@@ -663,7 +663,7 @@
       \choralniRezim
       a4 g f e e d( f) f( e) e \barMaior
       a a g a b g a a \barMin
-      g a g( f) e \barFinalis
+      g f d( e) e \barFinalis
     }
     \addlyrics {
       Když jsem pla -- ka -- la u hro -- bu,_*

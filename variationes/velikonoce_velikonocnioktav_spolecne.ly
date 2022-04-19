@@ -882,6 +882,30 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) a( g) \barMaior
+    a-- g( f) g( a) a \barMin
+    c c b a g g
+    f a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{AR1912, s. 33}
 
 \score {
