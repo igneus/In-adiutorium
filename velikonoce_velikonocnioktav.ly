@@ -709,7 +709,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g g g g( c) c \barMin
+      g g g a( c) c \barMin
       a b c a g g \barMaior
       a g f( g) g \barFinalis
     }
@@ -745,6 +745,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-III"
+      placet = "_Hospodinova_ takhle ne"
       id = "st-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -785,10 +786,10 @@
       f g a a g a a \barMaior
       a b c a a b( g) g( e) e \barMaior
       e d( e) \barMin
-      e f e f( g) g a g g( a) a \barMaior
+      f e d f g a g g( a) a \barMaior
       a( b a) g( f) e e \barMin
-      d f g e e \barMaior
-      d f f( e) e \barFinalis
+      e f e d d
+      f g f( e) e \barFinalis
     }
     \addlyrics {
       Je -- žíš ve -- šel_*

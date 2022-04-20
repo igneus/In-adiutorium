@@ -1554,9 +1554,32 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g g g g( c) c \barMin
+      a b c a g g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ze -- mě se sy -- tí_*
+      plo -- dy tvé -- ho dí -- la.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-II"
+      id = "st-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g g g \mark\sipka a( c) c \barMin
       a b c a g g \barMaior
       a g f( g) g \barFinalis
     }
@@ -1887,11 +1910,77 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      g g( c) c b g \barMin
+      a g f g a \mark\sipka g g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Nechť věč -- ně tr -- vá_*
+      Hos -- po -- di -- no -- va slá -- va.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-III"
+      id = "st-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacModry
       \choralniRezim
       g g( c) c b g \barMin
       a g f a c b( a g) g \barMaior
       a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Nechť věč -- ně tr -- vá_*
+      Hos -- po -- di -- no -- va slá -- va.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-III"
+      id = "st-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g g( c) c b g \barMin
+      \mark\sipka a a b c a g( a g) g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Nechť věč -- ně tr -- vá_*
+      Hos -- po -- di -- no -- va slá -- va.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-III"
+      id = "st-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g f g a( c) b \barMin
+      c a a g f g g \barMaior
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Nechť věč -- ně tr -- vá_*
@@ -2259,7 +2348,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a( g) g \barMin
       f g a a g a a \barMaior
@@ -2269,6 +2358,71 @@
       a( b a) g( f) e e \barMin
       \mark\sipka d f g e e \barMaior
       d f f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ve -- šel_*
+      s_u -- čed -- ní -- ky do do -- mu,
+      a když byl s_ni -- mi u sto -- lu,
+      vzal chléb,
+      pro -- ne -- sl nad ním po -- žeh -- ná -- ní,
+      roz -- lá -- mal ho
+      a po -- dá -- val jim.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "st-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a( g) g \barMin
+      f g a a g a a \barMaior
+      a b c a a b( g) g( e) e \barMaior
+      e d( e) \barMin
+      \mark\sipka f e d f g a g g( a) a \barMaior
+      a( b a) g( f) e e \barMin
+      \mark\sipka e f e d d
+      f g f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ve -- šel_*
+      s_u -- čed -- ní -- ky do do -- mu,
+      a když byl s_ni -- mi u sto -- lu,
+      vzal chléb,
+      pro -- ne -- sl nad ním po -- žeh -- ná -- ní,
+      roz -- lá -- mal ho
+      a po -- dá -- val jim.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "st-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a( g) g \barMin
+      f g a a g a a \barMaior
+      a b c a a b( g) g( e) e \barMaior
+      \mark\sipka a g( a) \barMin
+      a b c a a b g g( a) a \barMaior
+      a( b a) g( f) e e \barMin
+      e f e d d
+      f g f( e) e \barFinalis
     }
     \addlyrics {
       Je -- žíš ve -- šel_*
