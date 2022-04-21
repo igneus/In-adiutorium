@@ -2984,10 +2984,35 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \mark\sipka a4 g f g g \barMin
       a g a( c) c c d b c a \barMaior
+      g f a a( g) \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Po -- dí -- vej -- te se_*
+      na mé ru -- ce a na mé no -- hy:
+      vždyť jsem to já!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "ct-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g f g g \barMin
+      \mark\sipka f g a( c) c c d b c a \barMaior
       g f a a( g) \barMin
       a g f( g) g \barFinalis
     }

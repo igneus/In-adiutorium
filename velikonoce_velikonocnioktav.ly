@@ -916,7 +916,7 @@
     \relative c'' {
       \choralniRezim
       a4 g f g g \barMin
-      a g a( c) c c d b c a \barMaior
+      f g a( c) c c d b c a \barMaior
       g f a a( g) \barMin
       a g f( g) g \barFinalis
     }
