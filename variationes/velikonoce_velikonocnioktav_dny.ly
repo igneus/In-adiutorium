@@ -3083,6 +3083,30 @@
   \score {
     \relative c'' {
       \choralniRezim
+      \mark\sipka c4 b a g g \barMin
+      a g a( c) c c d b c a \barMaior
+      g f a a( g) \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Po -- dí -- vej -- te se_*
+      na mé ru -- ce a na mé no -- hy:
+      vždyť jsem to já!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "ct-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       \mark\sipka g4 a g f g \barMin
       a g a( c) c c d b c a \barMaior
       g f a a( g) \barMin
@@ -3804,7 +3828,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( a g) f f( g) \barMin
       g g g a g a g f g( a) a \barMaior
@@ -3816,6 +3840,31 @@
       kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
       Pán je to!
       A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( a g) f f( g) \barMin
+      g g g \mark\sipka a a g( a) g f g( a) a \barMaior
+      c-- b a
+      c a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      Pán je to!
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Magnificat"
