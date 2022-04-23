@@ -4118,7 +4118,7 @@
       \[ c4 b c \] \[ d e d \] \[ e f e d e4. \] \barMin
       \[ e4 d c a \] \[ b a g a4. \] \barMin
       a4 \[ g a g f \] \[ g a4. \] \barMin
-      \[ a4 g a \] \[ c b a4. \] \barMaior
+      \[ a4 g a \] \[ c b a4.) \] \barMaior
 
     }
     \addlyrics {
