@@ -1026,7 +1026,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 c c d e c \mark\sipka a a \barMaior
       c c( d) d \barMin
@@ -1054,12 +1054,40 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 c c d e c a a \barMaior
+      c c( d) d \barMin
+      d d d c b a( b) a( g) g \barMaior
+      a a a( c) a a \barMin
+      \mark\sipka b c a( g) g a g f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Řek -- ně -- te si -- ón -- ské dce -- ři:
+      Hle, tvůj král
+      k_to -- bě při -- chá -- zí po -- kor -- ný,
+      se -- dí na os -- lu,
+      na os -- lát -- ku, mlá -- dě -- ti sou -- ma -- ra.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "ne-1ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \choralniRezim
       \mark\sipka d4 d d f e c c( d) d \barMaior
       \mark\sipka d c( d) d \barMin
       d d d c b a( b) a( g) g \barMaior
       a a a( c) a a \barMin
-      \mark\sipka b c a( g) g a g f g( a) a( g) g \barFinalis
+      b c a( g) g a g f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Řek -- ně -- te si -- ón -- ské dce -- ři:
@@ -1905,12 +1933,71 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 f g g( a) g \barMin
       a c a \mark\sipka g( b) \barMin
       c a a g g \barMaior
       \mark\sipka g f e d f( g a) a( g) g \barMaior
+      a( b c) b( a) g g \barMin
+      a f e f( g) g g \barFinalis
+    }
+    \addlyrics {
+      S_pal -- ma -- mi v_ru -- kou
+      spě -- chej -- me vstříc
+      na -- še -- mu Pá -- nu
+      a ra -- dost -- ně vo -- lej -- me:
+      Po -- žeh -- na -- ný
+      ten, kte -- rý při -- chá -- zí!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      annus = "A"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "ne-rch-aben-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 f g g( a) g \barMin
+      \mark\sipka a c b g( a) \barMin
+      \mark\sipka b c a g g \barMaior
+      g f e d f( g a) a( g) g \barMaior
+      \mark\sipka c( d c) b( a) g g \barMin
+      a f e f( g) g g \barFinalis
+    }
+    \addlyrics {
+      S_pal -- ma -- mi v_ru -- kou
+      spě -- chej -- me vstříc
+      na -- še -- mu Pá -- nu
+      a ra -- dost -- ně vo -- lej -- me:
+      Po -- žeh -- na -- ný
+      ten, kte -- rý při -- chá -- zí!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      annus = "A"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "ne-rch-aben-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g g( a) \mark\sipka a \barMin
+      \mark\sipka c d c a( c) \barMin
+      b c a g g \barMaior
+      g f e d f( g a) a( g) g \barMaior
       a( b c) b( a) g g \barMin
       a f e f( g) g g \barFinalis
     }
@@ -2877,6 +2964,34 @@
       Vy -- ku -- pi -- te -- li svě -- ta!
       O to -- bě
       před -- po -- ví -- da -- li pro -- ro -- ci,
+      že nám při -- ne -- seš spá -- su.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "B"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "ne-2ne-amag-B"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c d d \barMin
+      f( g) f( e) d \barMin
+      f g f e d \barMin
+      f e d c a c( d) d \barMaior
+      \mark\sipka d c d f f f e d c d d( c) \barMaior
+      d e f d d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Buď po -- zdra -- ven, náš Krá -- li,
+      sy -- nu Da -- vi -- dův,
+      Vy -- ku -- pi -- te -- li svě -- ta!
+      O to -- bě před -- po -- ví -- da -- li pro -- ro -- ci,
       že nám při -- ne -- seš spá -- su.
     }
     \header {

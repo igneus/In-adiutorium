@@ -280,7 +280,7 @@
       c c( d) d \barMin
       d d d c b a( b) a( g) g \barMaior
       a a a( c) a a \barMin
-      c c a( g) g a g f g( a) a( g) g \barFinalis
+      b c a( g) g a g f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Řek -- ně -- te si -- ón -- ské dce -- ři:
@@ -457,10 +457,10 @@
     \relative c'' {
       \choralniRezim
       g4 f g g( a) g \barMin
-      a c a g( b) \barMin
-      c a a g g \barMaior
+      a c b g( a) \barMin
+      b c a g g \barMaior
       g f e d f( g a) a( g) g \barMaior
-      a( b c) b( a) g g \barMin
+      c( d c) b( a) g g \barMin
       a f e f( g) g g \barFinalis
     }
     \addlyrics {
