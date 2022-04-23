@@ -4236,6 +4236,50 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      g4( a) a( c) c c d( c) c( b) g \barMaior
+      \mark\sipka f g a a a a c b g g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Ve -- li -- ký je Hos -- po -- din,_*
+      je -- ho ve -- li -- kost je ne -- vy -- stiž -- ná.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-I"
+      id = "so-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a( c) c c d( c) c( b) g \barMaior
+      f g a a a a \mark\sipka g f g g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Ve -- li -- ký je Hos -- po -- din,_*
+      je -- ho ve -- li -- kost je ne -- vy -- stiž -- ná.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-I"
+      id = "so-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacSedy
       \choralniRezim
       g4 g g g( a) g g g( c) b( c) c \barMaior
@@ -4265,6 +4309,30 @@
       g4 g g g( a) g \mark\sipka f g( a) a( c) c \barMaior
       c( d b c) \mark\sipka a( g) \barMin
       \mark\sipka g f( d) f( g) a g g \barMaior
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most_*
+      slá -- vu
+      své vzne -- še -- né ří -- še.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-II"
+      id = "so-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( a) g \mark\sipka g f( g) a( c) c \barMaior
+      c( d b c) a( g) \barMin
+      g f( d) f( g) a g g \barMaior
       f a a( g) g \barFinalis
     }
     \addlyrics {
@@ -4418,13 +4486,40 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g f( g a) a \barMin
       a \mark\sipka c( b) a( g) g \barMaior
       c c c( d) c c d( e d) c d( c) c \barMin
       c c c b( a) g
       f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Vše, co ži -- je,_*
+      ať ve -- le -- bí
+      Hos -- po -- di -- no -- vo sva -- té jmé -- no
+      po všech -- ny vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 145-III"
+      id = "so-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g f( g a) a \barMin
+      a c( b) a( g) g \barMaior
+      c c c( d) c c d( e d) c \mark\sipka b( a) a \barMin
+      c c c \mark\sipka b( a g) g
+      f a \mark\sipka g g \barFinalis
     }
     \addlyrics {
       Vše, co ži -- je,_*
@@ -4650,7 +4745,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 f g a g g \barMin
       g a g f( g a) a \barMin
@@ -4659,6 +4754,37 @@
       c c d c d( e d c) d( c) \barMin
       \mark\sipka c c c b( a) g
       f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Po svém zmrt -- vých -- vstá -- ní_*
+      se Je -- žíš zje -- vil
+      rá -- no prv -- ní -- ho dne po so -- bo -- tě
+      nej -- dří -- ve Ma -- ri -- i Mag -- dal -- ské,
+      z_kte -- ré kdy -- si vy -- hnal
+      se -- dm zlých du -- chů.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "so-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 f g a g g \barMin
+      g a g f( g a) a \barMin
+      a b c c c c b a g g \barMaior
+      a g f g a a c( d) c( a) a \barMaior
+      c c d c d( e d c) d( c) \barMin
+      c c c \mark\sipka b( a g) g
+      f a \mark\sipka g g \barFinalis
     }
     \addlyrics {
       Po svém zmrt -- vých -- vstá -- ní_*

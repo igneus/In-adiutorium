@@ -1118,9 +1118,9 @@
       \choralniRezim
       g4 g f( g a) a \barMin
       a c( b) a( g) g \barMaior
-      c c c( d) c c d( e d) c d( c) c \barMin
-      c c c b( a) g
-      f a a( g) g \barFinalis
+      c c c( d) c c d( e d) c b( a) a \barMin
+      c c c b( a g) g
+      f a g g \barFinalis
     }
     \addlyrics {
       Vše, co ži -- je,_*
@@ -1149,8 +1149,8 @@
       a b c c c c b a g g \barMaior
       a g f g a a c( d) c( a) a \barMaior
       c c d c d( e d c) d( c) \barMin
-      c c c b( a) g
-      f a a( g) g \barFinalis
+      c c c b( a g) g
+      f a g g \barFinalis
     }
     \addlyrics {
       Po svém zmrt -- vých -- vstá -- ní_*
@@ -1166,6 +1166,8 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "začátek až po _Magdalské_ je dost těžkopádný, ale nevím,
+      jestli se mi kdy podaří takovýhle text zhudebnit výrazně lépe"
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
