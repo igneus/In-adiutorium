@@ -139,7 +139,7 @@
   \relative c'' {
     \choralniRezim
     g4( a g) f f( g) \barMin
-    g g g a g a g f g( a) a \barMaior
+    g g g a a g( a) g f g( a) a \barMaior
     c-- b a
     c a a( g) g \barFinalis
   }

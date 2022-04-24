@@ -358,14 +358,43 @@
   }
 }
 
-\markup{Aktualisace ze zdroje:}
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( a g) f f( g) \barMin
+    g g g a g a g f g( a) a \barMaior
+    c-- b a
+    c a a( g) g \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ník,_*
+    kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+    Pán je to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fons = "Velikonoční oktáv, pátek, k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mag"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
 
 \score {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     g4( a g) f f( g) \barMin
-    g g g a g a g f g( a) a \barMaior
+    g g g a a g( a) g f g( a) a \barMaior
     c-- b a
     c a a( g) g \barFinalis
   }
