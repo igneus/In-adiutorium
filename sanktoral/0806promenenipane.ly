@@ -523,7 +523,7 @@
     quid = "3. ant."
     modus = "I"
     differentia = "g"
-    psalmus = "1Tim 3"
+    psalmus = "1 Tim 3"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
