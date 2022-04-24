@@ -302,6 +302,28 @@
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 f g g \barMaior
+      \mark\sipka f g( a) a f( g a) a c b g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Byl jsem mr -- tev,_*
+      a hle, jsem živ na vě -- ky vě -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 3"
+      id = "po-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
     \relative c' {
       \choralniRezim
       f4 g a a \barMaior
@@ -4999,10 +5021,36 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d c b c d( e d) d \barMin
       d d( f) e d d \barMaior
       f( g) a f( d) d f e( d) \barMax
+      e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po -- hleď na mé jiz -- vy_*
+      a do -- tkni se jich,
+      ne -- po -- chy -- buj a věř.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "ne2-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d c b c d( e d) d \barMin
+      d d( f) e d d \barMaior
+      f( g) a f( d) d f e( d) \mark\sipka \barMin
       e c c( d) d \barFinalis
     }
     \addlyrics {

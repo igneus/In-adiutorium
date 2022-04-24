@@ -153,6 +153,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "až moc úsečná"
     id = "up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -185,7 +186,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a c c( d) d \barMin
+    g a c( d) d \barMin
     c d e( c) c( d) d \barMaior
     e d c d c( a) a \barMin
     c c b a g g \barMaior
@@ -1214,7 +1215,7 @@
       \choralniRezim
       d c b c d( e d) d \barMin
       d d( f) e d d \barMaior
-      f( g) a f( d) d f e( d) \barMax
+      f( g) a f( d) d f e( d) \barMin
       e c c( d) d \barFinalis
     }
     \addlyrics {
