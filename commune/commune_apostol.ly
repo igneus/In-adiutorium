@@ -719,6 +719,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    placet = "doxologii lépe"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
