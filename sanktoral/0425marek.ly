@@ -33,6 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "druhou půli spíš lépe"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -60,6 +61,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -68,10 +70,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g( a) a \barMin a a a a g( f e d) \barMaior
-    a' a c b c d c( b a) \barMin
-    a g f g( a) f e f d d \barMaior
-    e d c( d) d \barFinalis
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f g( a) g f e d( c) \barMin
+    d e f e c f e d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:

@@ -12,6 +12,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
@@ -27,6 +28,76 @@
     differentia = "D"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
+    c d f( e d e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    \mark\sipka f4 g f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
+    c d f( e d e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    \mark\sipka c4 d f( g f e) d4.( c) \barMin d4 f e( f) d d \barMaior
+    c d f( e d e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -166,6 +237,11 @@
 
 \pageBreak
 
+\markup{
+  Pozor na responsorium s příbuzným textem
+  "fial://sanktoral/0705cyrilametodej.ly#2ne-resp"
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -194,7 +270,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) a \barMin a a a a g( f e d) \barMaior
     a' a c b c d c( b a) \barMin
@@ -213,6 +289,79 @@
     differentia = "f"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f g a a g( f) f \barMin
+    f f f e c e f d d \barMaior
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
+    slo -- vo e -- van -- ge -- li -- a,
+    kte -- ré vám by -- lo zvěs -- to -- vá -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f g a \mark\sipka g f d( c) \barMin
+    \mark\sipka d e f e c f e d d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
+    slo -- vo e -- van -- ge -- li -- a,
+    kte -- ré vám by -- lo zvěs -- to -- vá -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f \mark\sipka g( a) g f e d( c) \barMin
+    d e f e c f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
+    slo -- vo e -- van -- ge -- li -- a,
+    kte -- ré vám by -- lo zvěs -- to -- vá -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
