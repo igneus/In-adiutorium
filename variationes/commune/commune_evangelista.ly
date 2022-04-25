@@ -587,10 +587,59 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
     g a c( b c) c c( d c a) a \barMin \mark\sipka c a g f a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
+    a -- bych zís -- kal po -- díl na je -- ho za -- slí -- be -- ních.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
+    \mark\sipka c d e( d) c c( d c a) a \barMin \mark\sipka c c c b g a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
+    a -- bych zís -- kal po -- díl na je -- ho za -- slí -- be -- ních.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
+    c d e( d) c c( d c a) a \barMin \mark\sipka c b a g a a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
