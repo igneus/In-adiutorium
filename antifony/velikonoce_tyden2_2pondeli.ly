@@ -9,7 +9,7 @@
   \relative c' {
     \choralniRezim
     f4 f f g( a) a a g f g( f) e \barMaior
-    e d e f e d4.( e) \barMin e4 f e d d \barMaior
+    f g f e d c \barMin d4 f e d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -24,7 +24,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 42"
-    placet = "druhá polovina není právě zpěvná"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -33,10 +32,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( a) \barMin a b a g a g( e) e \barMax
-    e e( d e) d c c a \barMaior
-    c d e f e d f e e \barMax
-    e( a) g f( g f) e \barFinalis
+    e4 e e( a) \barMin a b a g a g( e) e \barMaior
+    e f e d( e) d d \barMin
+    c d e f e d f e e \barMaior
+    a g f( g f) e \barFinalis
   }
   \addlyrics {
     Bo -- že, dej,_* ať po -- zná -- me tvé skut -- ky
@@ -50,8 +49,6 @@
     differentia = "E"
     psalmus = "Sir 36"
     id = "rch-a2"
-    placet = "má ambitus přes oktávu - to je na feriální antifonu dost;
-    _Aleluja_ možná lépe e ag než ea g"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -75,6 +72,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19-A"
+    placet = "spíš jinak, vázat se na konec převzatý z delší antifony není třeba"
     id = "rch-a3"
     fons = "Druha cast z:"
     fial = "commune/commune_apostol.ly#rch-aben?konec"

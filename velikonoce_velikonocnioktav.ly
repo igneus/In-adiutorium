@@ -317,7 +317,7 @@
     \relative c' {
       \choralniRezim
       f4 f f g( a) a a g f g( f) e \barMaior
-      e d e f e d4.( e) \barMin e4 f e d d \barFinalis
+      f g f e d c \barMin d4 f e d d \barFinalis
     }
     \addlyrics {
       Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
