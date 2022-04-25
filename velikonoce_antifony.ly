@@ -209,27 +209,8 @@
 
   \markup\nadpisHodinka {"kompletář"}
 
-  \score {
-    \relative c'' {
-      \choralniRezim
-      g4 g a g4.( f) \barMin
-      a4 c b( c) a4.( g4 f)
-      g( a) a g4. g \barFinalis
-    }
-    \addlyrics {
-      A -- le -- lu -- ja,_*
-      a -- le -- lu -- ja,
-      a -- le -- lu -- ja.
-    }
-    \header {
-      quid = "ant. k žalmům"
-      modus = "VIII"
-      differentia = "G"
-      psalmus = ""
-      id = "komplet"
-      fons_externus = "AR 1912, 47"
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
+  \markup{
+    Viz velikonoční oddíl notového materiálu pro kompletář.
   }
 }
 
