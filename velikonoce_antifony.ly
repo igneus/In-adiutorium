@@ -107,10 +107,14 @@
   Původně náležejí čtyřem malým denním hodinkám,
   primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
   každý den. V současné době lze tam, kde se během dne slaví jen
-  jedna hodinka, buďto vybrat jednu, odpovídající denní době,
-  nebo během týdne vystřídat všechny čtyři.}
-
-  %ar14
+  jedna hodinka,
+  buďto použít jednu vybranou (např. tu, která odpovídá denní době),
+  nebo postupně prostřídat všechny čtyři
+  (např. podle dnů v týdnu
+  či – snad vhodněji – % neboť střídání antifon k hodinkám během dne podle týdnů má historické obdoby
+  podle týdnů velikonoční doby),
+  nebo je přiřadit jednotlivým stupňům slavení
+  (férie/památka/neděle/svátek).}
 
   \score {
     \relative c'' {
@@ -135,7 +139,6 @@
     }
   }
 
-  %ar 25
   \score {
     \relative c'' {
       \choralniRezim
@@ -159,7 +162,6 @@
     }
   }
 
-  % ar29
   \score {
     \relative c'' {
       \choralniRezim
@@ -183,7 +185,6 @@
     }
   }
 
-  % ar 34
   \score {
     \relative c' {
       \choralniRezim
