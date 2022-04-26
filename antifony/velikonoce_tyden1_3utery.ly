@@ -77,11 +77,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a c( d) d( c) d4. \barMin
-    d4 f( e) d e c4. a \barMin
-    a4 b c c( d) d \barMaior
-    d d( e) d c( d) d4.( a) \barMin
-    f4( g) a a c b a4. a \barMaior
+    a4 a a a g a c( d) d( c) d \barMin
+    d f( e) d e c a \barMin
+    g a c c( d) d \barMaior
+    d e d c( d) d( c) \barMin
+    a g a c b g( a) a \barMaior
     g4 a b a \barFinalis
   }
   \addlyrics {
@@ -99,6 +99,7 @@
     psalmus = "Žalm 20"
     id = "ne-a1"
     fons = "začátek: žaltář, čt 2.t., nešp., 3.ant."
+    fial = "antifony/tyden2_5ctvrtek.ly#ne-ant3?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -107,8 +108,8 @@
   \relative c'' {
     \choralniRezim
     c4 a a c b c a g( a g) \barMin
-    g f( a) c b g g \barMaior
-    f f f( g) g \barFinalis
+    f a c b g g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Při -- jal jsi svr -- cho -- va -- nou moc
