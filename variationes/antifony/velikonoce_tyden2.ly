@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../velikonoce_antifony.ly;
+
+\include "../spolecne.ly"
 
 % nedele je oktav Zmrtvychvstani
 
@@ -9,10 +10,66 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d( a') a a g a \barMaior
+    a4 c b c a g f g a f e e \barMaior
+    d f g g( f d) c \barMin d( f) e d( e) d d \barMaior
+    e f e( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo zno -- vu ne -- na -- ro -- dí,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') a a g a \barMaior
+    a4 c b c a \mark\sipka a g a g f e e \barMaior
+    \mark\sipka f g f e( d) c \barMin d( f) e d( e) d d \barMaior
+    e f \mark\sipka d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo zno -- vu ne -- na -- ro -- dí,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 d d( a') a a g a \barMaior
     a4 c b c a a g a g f e e \barMaior
-    f g f e( d) c \barMin d( f) e d( e) d d \barMaior
+    f g f e( d) c \barMin d( f) e \mark\sipka c d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -33,6 +90,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -84,12 +143,37 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    c4 c4.( a) c4 d d c d d \barMaior
+    d e d( c a) a \barMin c b a g( a) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a g f( g) g \barMaior
+    g4 f g a g f f( g) g \barMaior
     a c b( a g) g f g a a( g) g \barMaior
-    a g f( a) g \barFinalis
+    f g g g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,
@@ -105,6 +189,53 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka g f g a g f( g) g \barMaior
+    a c b( a g) g f g a a( g) g \barMaior
+    \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c b a g( a) g \barMaior
+    f g a( c) c b c a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Středa}}
 
