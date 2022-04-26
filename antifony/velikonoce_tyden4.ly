@@ -152,11 +152,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b b( d) d \barMin
-    e d c d d( e d4.) d \barMaior
-    b4 d c( b a) a \barMin
-    a g a a g g \barMaior
-    a b a( g) g \barFinalis
+    g4 a c c c( d) d \barMin
+    c d e c d d \barMaior
+    a4 d c( b a) a \barMin
+    c a g f( g) a( g) g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,

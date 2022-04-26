@@ -81,19 +81,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b b( d) d \barMin e d c d d( e d4.) d \barMaior
-    a4 g( a) a \barMin b a g( a) g g \barMaior
-    a b g g \barFinalis
+    g4 a c c c( d) d \barMin
+    c d e c d d \barMaior
+    d c a c b g a a \barMaior
+    g a b a \barFinalis
   }
   \addlyrics {
-    U -- si -- luj -- te o to, co po -- chá -- zí shů -- ry,
+    U -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry,
     ne o to, co je na ze -- mi.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -103,11 +105,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c d d( e) d \barMin d( c) d( e) c a( c a) g g \barMaior
-    c a g g \barFinalis
+    a4 c d d( e) d \barMin
+    d c b c( a) a( g) g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
-    Bůh vy -- svo -- bo -- dil mou du -- ši z_pod -- svě -- tí.
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
     A -- le -- lu -- ja.
   }
   \header {
