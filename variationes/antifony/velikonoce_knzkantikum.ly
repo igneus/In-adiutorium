@@ -125,6 +125,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c c( d) d \barMaior
+    a d b( c) a( g) \barMin
+    f( g) g( a) a c( b) a a \barMaior
+    g a c( b) a \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %velikTIstredaNespAntIII =
@@ -466,6 +491,7 @@
 %velikTIIstredaNespAntIII =
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d) c( e) e4.( d) \barMaior d4 d( e) e4.( c) \barMin d4( c) a g g( a) a \barMaior
     f g a c( d) c b a4. a \barMaior
@@ -482,6 +508,59 @@
     differentia = "A"
     psalmus = "Kol 1"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( a) a( c) c \barMaior
+    \mark\sipka c4 d( e) e( c) \barMin
+    d4( c) a g g( a) a \barMaior
+    f g a c( d) c b a a \barMin
+    b4 g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- be -- sa_*
+    jsou pl -- ná
+    tvé slá -- vy, Bo -- že,
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Kol 1"
+    id = "t2-st"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4( a) c( d) d \barMaior
+    \mark\sipka d d( e) e( c) \barMin
+    d4( c) a g g( a) a \barMaior
+    f g a c( d) c b a a \barMin
+    b4 g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- be -- sa_*
+    jsou pl -- ná
+    tvé slá -- vy, Bo -- že,
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Kol 1"
+    id = "t2-st"
     piece = \markup {\sestavTitulek}
   }
 }

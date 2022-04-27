@@ -176,12 +176,16 @@ velikTIIuteryNespAntIII = \score {
 velikTIIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4( d) c( e) e4.( d) \barMaior d4 d( e) e4.( c) \barMin d4( c) a g g( a) a \barMaior
-    f g a c( d) c b a4. a \barMaior
+    g4( a) c( d) d \barMaior
+    d d( e) e( c) \barMin
+    d4( c) a g g( a) a \barMaior
+    f g a c( d) c b a a \barMin
     b4 g g( a) a \barFinalis
   }
   \addlyrics {
-    Ne -- be -- sa_* jsou pl -- ná tvé slá -- vy, Bo -- že,
+    Ne -- be -- sa_*
+    jsou pl -- ná
+    tvé slá -- vy, Bo -- že,
     a ce -- lá ze -- mě tě chvá -- lí.
     A -- le -- lu -- ja.
   }

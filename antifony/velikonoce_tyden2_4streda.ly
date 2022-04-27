@@ -31,7 +31,7 @@
   \relative c' {
     \choralniRezim
     d4 d c f e f g \barMin
-    g a f e( f) d \barMaior
+    g a f e c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -56,7 +56,7 @@
     d( c) b a c4. b \barMaior
     g4 a( b) b \barMin
     c a g f g( a) g f( g f e) e \barMaior
-    d f( g) e e \barFinalis
+    f g f( e) e \barFinalis
   }
   \addlyrics {
     Svět -- lo vy -- chá -- zí
@@ -80,8 +80,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f e f g f e d \barMin
-    c d f e d d \barMaior
+    c4 d f e f g f d d \barMin
+    e c e f d d \barMaior
     e d c( d) d \barFinalis
   }
   \addlyrics {
@@ -102,11 +102,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g( f) g \barMin
-    c( a) d c b g a \barMaior
+    g4 a a( c) c \barMin
+    c( d) c b a g a \barMaior
     c c( d) d( c) c \barMin
     c c b( c) a g g( a g) g \barMaior
-    g a a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ať tě, Bo -- že,
