@@ -8,9 +8,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( b) c c4.( d) \barMaior
-    c4( a) a c b a( g) g \barMaior
-    f g a( g) g \barFinalis
+    c4 c d( e) d c4.( d) \barMaior
+    c4 a c b a( g) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Já jsem vin -- ný kmen,
@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Žalm 80"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -33,12 +33,12 @@
     a4( d c) b( c) c \barMin
     c d e e( f d) c c( a b) a4.( g) \barMaior
     a4 b c( a) b( a g4.) g \barMaior
-    g4 a a( g) g \barFinalis
+    a4 g f( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
     bu -- de -- te vá -- žit vo -- du
-    z_pra -- me -- mů spá -- sy.
+    z_pra -- me -- nů spá -- sy.
     A -- le -- lu -- ja.
   }
   \header {
@@ -56,11 +56,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( c a) a \barMin b( c) a g a g g \barMaior
-    a b g g \barFinalis
+    c4 c a( c) c \barMin
+    b( c) a g a g f \barMin
+    g a g g \barFinalis
   }
   \addlyrics {
-    Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí.
+    Bůh nás ži -- ví
+    ja -- dr -- nou pše -- ni -- cí.
     A -- le -- lu -- ja.
   }
   \header {
