@@ -2,6 +2,7 @@
 # with parent references ("fial" header field) if they still match the referenced parent.
 
 require 'optparse'
+require 'set'
 require 'tempfile'
 require 'yaml'
 
@@ -66,6 +67,10 @@ class MismatchesSave
     @current_mismatches - @last_mismatches
   end
 
+  def less_mismatches_than_last_time?
+    Set.new(@current_mismatches) < Set.new(@last_mismatches)
+  end
+
   def save!
     File.write @path, YAML.dump(@current_mismatches)
   end
@@ -118,6 +123,7 @@ parser = OptionParser.new do |opts|
   opts.on '-M', '--mismatches', 'print only mismatches'
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
   opts.on '-s PATH', '--save=PATH', 'save list of mismatches to a file, report new mismatches not found in the save from the previous run'
+  opts.on '--update_save', 'if save exists, update it'
 end
 
 options = {}
@@ -177,6 +183,7 @@ puts "#{mismatches.size} mismatches in #{fial_count} fial references checked"
 
 if options[:save]
   save = MismatchesSave.new(options[:save], mismatches)
+
   if save.new_mismatches?
     puts
     puts 'NEW mismatches since the last run:'
@@ -186,5 +193,11 @@ if options[:save]
     end
     puts
   end
-  save.save!
+
+  if save.less_mismatches_than_last_time? && !options[:update_save]
+    puts
+    puts 'LESS actual mismatches than saved - you should --update_save'
+  end
+
+  save.save! if options[:update_save] || !File.exist?(options[:save])
 end
