@@ -1744,7 +1744,7 @@
       d( c) b a c4. b \barMaior
       g4 a( b) b \barMin
       c a g f g( a) g f( g f e) e \barMaior
-      d f( g) e e \barFinalis
+      f g f( e) e \barFinalis
     }
     \addlyrics {
       Svět -- lo vy -- chá -- zí
