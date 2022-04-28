@@ -299,10 +299,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Čtvrtek}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a a( g) g \barMaior
     a c c c( b a) a g f a a( g) g \barMaior
@@ -326,6 +329,54 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    a c c \mark\sipka b( a g) g f g a g g \barMaior
+    f \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    O -- tec mi -- lu -- je Sy -- na
+    a všech -- no svě -- řil do je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f \mark\sipka e f f( g) g \barMaior
+    a c c c( b a) a g f a a( g) g \barMaior
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    O -- tec mi -- lu -- je Sy -- na
+    a všech -- no svě -- řil do je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g g( a) a \barMaior
     a a( c) c b( a g a) a( g) \barMin
@@ -345,6 +396,53 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f f( g) g \barMin
+    a c c b( a g) g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo vě -- ří v_Sy -- na,
+    má ži -- vot věč -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 f g g( a) a \barMaior
+    a c c b( a g) g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo vě -- ří v_Sy -- na,
+    má ži -- vot věč -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Pátek}}
 

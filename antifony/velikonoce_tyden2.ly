@@ -174,8 +174,8 @@
   \relative c'' {
     \choralniRezim
     g4 g f g a a( g) g \barMaior
-    a c c c( b a) a g f a a( g) g \barMaior
-    f g g g \barFinalis
+    a c c b( a g) g f g a g g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     O -- tec mi -- lu -- je Sy -- na
@@ -187,7 +187,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "pro _miluje Syna_ se mi kdoví odkud doporučuje f e f fg g"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -197,8 +196,8 @@
   \relative c'' {
     \choralniRezim
     g4 f g g( a) a \barMaior
-    a a( c) c b( a g a) a( g) \barMin
-    g a a( g) g \barFinalis
+    a c c b( a g) g
+    f a g g \barFinalis
   }
   \addlyrics {
     Kdo vě -- ří v_Sy -- na,
