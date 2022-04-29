@@ -93,7 +93,7 @@
   \addlyrics {
     S_ra -- dos -- tí
     bu -- de -- te vá -- žit vo -- du
-    z_pra -- me -- mů spá -- sy.
+    z_pra -- me -- nů spá -- sy.
   }
   \header {
     quid = "ant. po 5. čtení (Iz 55)"
