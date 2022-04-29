@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Kateřiny Sienské, panny a uč. círk., patronky Ev."
+            \center-column{ "sv. Kateřiny Sienské," "panny a učitelky církve, patronky Evropy" }
             "svátek"
             "29. 4."
   composer = "Jakub Pavlík"
@@ -15,10 +15,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f e d \barMin
+    d4 d f e d d \barMin
     e g f e f d d c( d) d \barMaior
-    d f g( e) e \barMin
-    f( e f) d c c( d) d \barMaior
+    f f e( d c) c \barMin
+    d( f) e d c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -42,10 +42,10 @@
     \choralniRezim
     g4 g g c b c a g f( g) g \barMin
     a b c( d) c a a a \barMin
-    c c( b a) g( a) g g \barMaior
-    g f( g f) e d d \barMin
+    a c b a( g) g \barMaior
+    a g( a f) e d d \barMin
     f g a a g g \barMaior
-    f g g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- tá Ka -- te -- ři -- na vždy a všu -- de
