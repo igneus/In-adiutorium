@@ -868,6 +868,14 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\markup\justify{
+  Shodný text má "fial://antifony/tyden1_6patek.ly#rch-ant3"
+  ale tady jsem se od ní odchýlil (aniž jsem si toho v té době všiml),
+  daná antifona ze žaltáře se mi jako invitatorium nezdá vhodná
+  a snad je v daném případě i lepší, že daný text má pro každou funkci
+  (invitatorium, běžná antifona k žalmu) extra nápěv.
+}
+
 \markup{Všechny následující možnosti mi připadají použitelné.}
 
 \markup\nadpisSkupiny 2
