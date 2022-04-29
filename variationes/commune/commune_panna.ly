@@ -632,6 +632,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a( d c d) d( c) c \barMin b( c d) e f( e) e \barMaior
     e d( c d) b \barMin b a( g) a( b) b( a) a \barFinalis
@@ -651,6 +652,34 @@
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "commune o svatých mužích, r.ch., 3. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a b( c) a a c d e( d) d \barMaior
+    e d( e d c) b( a) \barMin g a c( b) g( a) a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
+    vždyť sla -- ví skvě -- lé ví -- těz -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fial = "commune/commune_svatymuz.ly#rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
