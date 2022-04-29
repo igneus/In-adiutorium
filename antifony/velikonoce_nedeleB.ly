@@ -10,7 +10,7 @@
     b b( c) c c \barMin
     d( c b) c g4.( a) \barMax
 
-    a4 g( f) e( f e) e \barFinalis
+    g4 g( a) f( e) e \barFinalis
   }
   \addlyrics {
     Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky

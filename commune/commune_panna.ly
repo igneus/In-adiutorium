@@ -734,13 +734,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 c( d) d c d4. \barMin
-    d4 c a c( d) d \barMaior
-    a4 c d d d d b c a( g) g \barFinalis
+    f4 g a g f bes a g a g \barMaior
+    g g f e d d g( a bes) a g( f) f \barFinalis
 
-    a^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
@@ -750,11 +749,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 127"
     id = "2ne-a2"
-    placet = "zdrojová antifona se změnila"
     fial = "antifony/tyden1_2pondeli.ly#ne-ant2?+aleluja"
     piece = \markup {\sestavTitulek}
   }

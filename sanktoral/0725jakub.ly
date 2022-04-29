@@ -88,9 +88,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g g( a) a \barMin g( a) g( f) e f d d \barMaior
-    f( g) a( c) b a \barMin c b( c) d( c) b a( c a) a \barMaior
-    a g( f g) f( d) d f g g( a) g g \barFinalis
+    a4 a a g f g( a) a \barMin c b a b g g \barMaior
+    a c c( d) d \barMin e e d c d( e d) d \barMaior
+    d d( c b) a( g) g f g a( b) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
@@ -99,8 +99,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."

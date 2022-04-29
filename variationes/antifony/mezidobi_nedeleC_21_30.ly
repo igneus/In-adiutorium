@@ -139,8 +139,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') f f( g) g \barMin
     f e d( e) d d \barMaior
@@ -163,6 +166,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g f d d \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- vy -- šu -- je,
+    bu -- de po -- ní -- žen,
+    a kdo se po -- ni -- žu -- je,
+    bu -- de po -- vý -- šen.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
+    id = "ne22c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -1052,8 +1085,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') f f( g) g \barMin
     f e d( e) d d \barMaior
@@ -1072,6 +1108,34 @@
     differentia = "D"
     psalmus = ""
     fons = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
+    id = "ne30c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g f d d \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- vy -- šu -- je,
+    bu -- de po -- ní -- žen,
+    a kdo se po -- ni -- žu -- je,
+    bu -- de po -- vý -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
     id = "ne30c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

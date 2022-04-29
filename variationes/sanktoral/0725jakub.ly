@@ -594,8 +594,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g g( a) a \barMin g( a) g( f) e f d d \barMaior
     f( g) a( c) b a \barMin c b( c) d( c) b a( c a) a \barMaior
@@ -613,6 +616,33 @@
     psalmus = ""
     id = "rch-aben"
     fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin c b a b g g \barMaior
+    a c c( d) d \barMin e e d c d( e d) d \barMaior
+    d d( c b) a( g) g f g a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
+    vy -- ve -- dl je na vy -- so -- kou ho -- ru
+    a u -- ká -- zal se jim ve slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."
+    fial = "sanktoral/0806promenenipane.ly#2ne-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -4,6 +4,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( c) c c c b c d c a4. a4
     b b( c) c c \barMin
@@ -24,6 +25,35 @@
     psalmus = ""
     id = "iiimag1"
     fons = "zkopírována ze čtvrtka ve vel. oktávu - tam je k Benedictus"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a( c) c c c b c d c a4. a4
+    b b( c) c c \barMin
+    d( c b) c g4.( a) \barMax
+
+    g4 g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+    a ře -- kl jim:
+    Po -- koj vám!
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "iiimag1"
+    fial = "velikonoce_velikonocnioktav.ly#ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

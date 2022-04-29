@@ -106,10 +106,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') f f( g) g \barMin
-    f e d( e) d d \barMaior
-    d f g a( g f) g f( e d e) e( d) \barMin
-    c d f( e c) c( d) d \barFinalis
+    d4 d d( a') g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g f d d \barMin
+    c d e( f) d d \barFinalis
   }
   \addlyrics {
     Kdo se po -- vy -- šu -- je,
@@ -737,10 +737,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') f f( g) g \barMin
-    f e d( e) d d \barMaior
-    d f g a( g f) g f( e d e) e( d) \barMin
-    c d f( e c) c( d) d \barFinalis
+    d4 d d( a') g g( a) a \barMin
+    c c b( a) g( a) a \barMaior
+    a g f g f d d \barMin
+    c d e( f) d d \barFinalis
   }
   \addlyrics {
     Kdo se po -- vy -- šu -- je,
