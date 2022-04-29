@@ -122,7 +122,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fons = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
     id = "ne22c-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -753,7 +753,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fons = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-2ne-mag"
     id = "ne30c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

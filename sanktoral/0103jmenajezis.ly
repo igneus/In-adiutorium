@@ -27,7 +27,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fons = "volně podle antifony 'Dedit se, ut liberaret populum', AR1912, s. 507"
+    fons_externus = "volně podle AR1912, s. 507" % antifona 'Dedit se, ut liberaret populum'
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

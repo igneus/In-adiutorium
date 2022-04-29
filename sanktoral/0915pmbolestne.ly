@@ -35,7 +35,7 @@
     psalmus = ""
     placet = "_trpěla_ určitě lépe"
     id = "invit"
-    fons = "zejm. 1. část podle invitatoria z Narození sv. Jana Křtitele"
+    fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

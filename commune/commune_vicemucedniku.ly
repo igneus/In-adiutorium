@@ -60,7 +60,7 @@
     differentia = "A"
     psalmus = "Žalm 118-III"
     id = "1ne-a2"
-    fons = "podle 3. ant. nešp. Zeleného čtvrtku"
+    fons = "podle 3. ant. nešp. Zeleného čtvrtku" % hodně volný vztah, fial by tu ničemu nepomohl
     piece = \markup {\sestavTitulek}
   }
 }

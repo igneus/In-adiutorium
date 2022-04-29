@@ -31,7 +31,7 @@
     psalmus = "Žalm 113"
     placet = "nic moc"
     id = "1ne-a1"
-    fons = "první část: dnes, antifona k Benedictus"
+    fial = "mezidobi_nejsvsrdce.ly#rch-aben?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -76,6 +76,7 @@
     differentia = "d"
     psalmus = "Zj 4"
     id = "1ne-a3"
+    fial = "pust_svatytyden.ly#po?zacatek"
     fons = "první část a motiv třetí části: Svatý týden, modlitba uprostřed dne, ant. v poledne"
     piece = \markup {\sestavTitulek}
   }

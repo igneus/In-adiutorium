@@ -375,7 +375,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    fons = "Křtu Páně, 2. nešp., 1. ant."
+    fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?+aleluja"
     placet = "bude vhodné mírně prořezat;
     _v něm mám zalíbení_ jinak - těžko se to zpívá a nemá to žádnou zvláštní
     hodnotu, která by tu náročnost ospravedlňovala"

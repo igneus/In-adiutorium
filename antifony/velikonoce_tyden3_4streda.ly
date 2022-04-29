@@ -48,6 +48,7 @@
     id = "rch-a2"
     fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
     'Moje oči': Narození Páně, uprostřed dne, odpoledne"
+    fial = "vanoce_narozenipane.ly#vden-anona?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }

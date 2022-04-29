@@ -24,7 +24,7 @@
     differentia = "g"
     psalmus = ""
     id = "iiimag1"
-    fons = "zkopírována ze čtvrtka ve vel. oktávu - tam je k Benedictus"
+    fial = "velikonoce_velikonocnioktav.ly#ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

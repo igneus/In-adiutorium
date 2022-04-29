@@ -104,6 +104,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "6.8. Proměnění Páně, 2. nešp., 1. ant."
+    fial = "sanktoral/0806promenenipane.ly#2ne-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

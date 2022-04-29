@@ -258,7 +258,7 @@ tIIctvrtekInvitatorium = \score {
     modus = "VI"
     differentia = "F"
     id = "t2ct"
-    fons = "žaltář, pátek 1.t., rch, 3.ant."
+    fial = "antifony/tyden1_6patek.ly#rch-ant3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

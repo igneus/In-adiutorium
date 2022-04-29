@@ -230,7 +230,7 @@
     differentia = "F"
     psalmus = "Zj 11"
     id = "ne-a3"
-    fons = "melodie: podle zde, r.ch., 3. ant."
+    fial = "sanktoral/1002andelestrazni.ly#rch-a3?jiny_text"
     piece = \markup {\sestavTitulek}
   }
 }

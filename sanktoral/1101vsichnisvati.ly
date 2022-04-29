@@ -206,7 +206,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 8"
-    fons = "sanktoral/0705cyrilametodej.ly#2ne-a2"
+    fial = "sanktoral/0705cyrilametodej.ly#2ne-a2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -227,7 +227,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 15"
-    fons = "antifony/tyden1_2pondeli.ly#ne-ant2"
+    fial = "antifony/tyden1_2pondeli.ly#ne-ant2"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }

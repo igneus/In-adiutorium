@@ -34,7 +34,7 @@
     differentia = "D"
     psalmus = ""
     id = "invit"
-    fons = "první část je z invitatoria Narození Jana Křtitele"
+    fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

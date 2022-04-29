@@ -755,7 +755,7 @@
     psalmus = "Žalm 127"
     id = "2ne-a2"
     placet = "zdrojová antifona se změnila"
-    fons = "žaltář, po 1.t., nešp., 2. ant.; přidáno aleluja"
+    fial = "antifony/tyden1_2pondeli.ly#ne-ant2?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

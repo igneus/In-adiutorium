@@ -269,7 +269,7 @@
     differentia = "d"
     psalmus = ""
     id = "invit"
-    fons = "commune o apoštolech (upraven text, přidáno aleluja)"
+    fial = "commune/commune_apostol.ly#invit?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

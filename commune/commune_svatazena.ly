@@ -582,7 +582,7 @@
     differentia = "G*"
     psalmus = ""
     id = "sexta"
-    fons = "doba velikonoční, feriální cyklus, pondělí 3.t., r.ch., 1. ant. Odděleno aleluja."
+    fial = "antifony/velikonoce_tyden3_2pondeli.ly#rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -633,7 +633,7 @@
     differentia = "G"
     psalmus = "Žalm 122"
     id = "2ne-a1"
-    fons = "žaltář, lichá týdny, úterý, k Magnificat; upraven text, připojeno aleluja"
+    fial = "antifony/ferie_kantevgant.ly#t1-ut-mag?konec&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -19,7 +19,7 @@
     differentia = "g"
     psalmus = ""
     id = "ne21b-1ne-mag"
-    fons = "velikonoční feriální cyklus, sobota 3.t., r.ch., 1. ant.; konec upraven"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -562,7 +562,7 @@
     differentia = "G"
     psalmus = ""
     id = "ne28b-2ne-mag"
-    fons = "28.5., sv. Benedikta a bratří - k Magnificat"
+    fial = "sanktoral/0825benediktabratri.ly#amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
