@@ -389,7 +389,7 @@
     f g a bes bes bes a( g) a \barMaior
     bes( g a f) d \barMin d d( e) c c d d \barFinalis
 
-    d^\markup\rubrVelikAleluja e d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Pro Kris -- ta se svo -- bod -- ně roz -- ho -- du -- ji,
@@ -409,21 +409,20 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 a c( d) c d b g a a \barMax
-    c d c d b g a( g) \barMaior
-    f g f f g( a) f g g a \barMin
-    a b c b c c( b) a \barMaior
-    a( c b) a( g) f g f f \barFinalis
+    g4 a a( c) c \barMin
+    d( e) d c d d \barMaior
+    d d c d c a a \barMin
+    c c c c e c c d d \barMin
+    d c b a g a( g) g \barMaior
+    f( g) a( c) b a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja c( b g) a f \barFinalis
-    % tohle aleluja zni jako nejaka typicka formule z pasiji.
-    % Omylem. Ale snad je to tak dobre - muze to naznacovat,
-    % ktera je ta cesta, po ktere "je privedl k sobe".
+    a^\markup\rubrVelikAleluja f f( g) g \barFinalis
   }
   \addlyrics {
-    Sva -- té pan -- ny, ve -- leb -- te Pá -- na;
+    Sva -- té pan -- ny,
+    ve -- leb -- te Pá -- na;
     ten, kte -- rý vás po -- vo -- lal,
     a -- by -- ste ho ná -- sle -- do -- va -- ly
     s_ne -- roz -- dě -- le -- ným srd -- cem,
@@ -433,7 +432,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "V"
+    modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
@@ -508,7 +507,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f g f \barMin f f e g( a) \barMax
+    f4 f f f f g f \barMin f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
