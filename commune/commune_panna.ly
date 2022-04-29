@@ -709,11 +709,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c d c d( c b) a \barMin c( d e) d c d( c a g) g \barMaior
-    a( d) c c d( e f) d( c) c \barMin c( d) c c a a \barMaior
-    g f g a a( g) g \barFinalis
+    a4 a c d c c( d) d \barMin d c b a( g a) a( g) \barMaior
+    a c c b( c) a a c d e e( d) d \barMaior
+    c-- b c a g( a) a \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     To -- bě jsem za -- svě -- ti -- la ce -- lý svůj ži -- vot,
@@ -724,10 +724,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 122"
-    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -761,10 +760,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c g f g( a) a \barMaior
-    a a( b) b c c c a g g \barFinalis
+    c4 d d d c b a( g) g \barMaior
+    a f( g a) a \barMin c c b a g g \barFinalis
 
-    c^\markup\rubrVelikAleluja a( f) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Mé roz -- hod -- nu -- tí je pev -- né:
@@ -777,7 +776,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
-    placet = "_zůstat_ ať nezačíná na a, ale udělá nějaký krok"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -827,11 +825,11 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f g( a f e) f \barMaior f f f f f f g f f f e g a \barMax
+    f4 f f f f f f g f \barMin f f f f f f g f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f g( a f) e( f) f \barMaior f f f f f f e g a a \barMax
+    f4 f f f f g f f \barMin f f f f f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
