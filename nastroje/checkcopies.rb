@@ -186,7 +186,7 @@ if options[:save]
 
   if save.new_mismatches?
     puts
-    puts 'NEW mismatches since the last run:'
+    puts "#{save.new_mismatches.size} NEW mismatches since the last run:"
     puts
     save.new_mismatches.each do |m|
       puts " - #{m}"
