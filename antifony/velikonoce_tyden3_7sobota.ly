@@ -11,8 +11,8 @@
     g4( e g a) a \barMin
     a g a b( a) g( a) a \barMaior
     a g( a e) \barMin
-    g e e( d) d \barMaior
-    c d f( d) e \barFinalis
+    f e d( e) e \barMaior
+    f g f( e) e \barFinalis
   }
   \addlyrics {
     Slo -- va,_*
@@ -35,9 +35,9 @@
   \relative c'' {
     \choralniRezim
     a4( d) d \barMin
-    d( c) d c b c4.( d) \barMin c4 d( e d) d \barMaior
+    c d c b c4.( d) \barMin c4 d( e d) d \barMaior
     d d c( d) c( b) a( g) g \barMaior
-    f g b( g) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -50,7 +50,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Mdr 9"
-    placet = "běžnější/uměřenější aleluja"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

@@ -54,11 +54,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin
     f f f g f e f d d \barMaior
     c d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    f f f g f e f d d \barMaior
+    \mark\sipka e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -365,7 +388,27 @@ funkční, je nevyvážená.}
   }
 }
 
-\pageBreak
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e c a a \barMin
+    b c a a a g f g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c' {

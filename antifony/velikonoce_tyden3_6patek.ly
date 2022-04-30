@@ -10,7 +10,7 @@
     \choralniRezim
     d4( f) f \barMin
     f f f g f e f d d \barMaior
-    c d f( e) d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
