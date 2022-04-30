@@ -106,6 +106,29 @@
 \score {
   \relative c' {
     \zvyraznovacModry
+    \choralniRezim
+    f4 g a g g a g g( f) f \barMaior
+    g f d f f( e) c e f d d \barMaior
+    e \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te se mnou Hos -- po -- di -- na,
+    o -- sla -- vuj -- me spo -- lu je -- ho jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 g a g g a g g( f) f \barMaior
@@ -123,6 +146,28 @@
     differentia = "f"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g a g g( f) f \barMaior
+    g f d f f( e) c \mark\sipka d( f) e d d \barMaior
+    \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te se mnou Hos -- po -- di -- na,
+    o -- sla -- vuj -- me spo -- lu je -- ho jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

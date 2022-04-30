@@ -16,8 +16,8 @@
   \relative c' {
     \choralniRezim
     f4 g a g g a g g( f) f \barMaior
-    g f d f f( e) c e f f( d) d \barMaior
-    f g( f) d d \barFinalis
+    g f d f f( e) c e f d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te se mnou Hos -- po -- di -- na,
