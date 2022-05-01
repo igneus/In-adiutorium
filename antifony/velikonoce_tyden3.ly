@@ -10,10 +10,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g( b a) g( a) a \barMin
-    f g a a g( a) a( g) g \barMaior
-    e( f) f( e) e g( a) f e e \barMin
-    d f f( e) e \barFinalis
+    a4 a a a g( a) a( c) c \barMin
+    d e d c d( e) d d \barMaior
+    d c b a g a( g) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je po -- vzne -- sen
@@ -23,8 +23,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 113"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -34,8 +34,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g a f g g( a) g \barMin a( c) d d( c) c \barMaior
-    a( b c) b( c) a a g f g g \barMaior
+    c4 c b c d c d d4.( c) \barMin b4( c) a a( g) g \barMaior
+    f g a a c b g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -57,9 +57,9 @@
   \relative c'' {
     \choralniRezim
     a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
-    a a a a g( a b) a a \barMin g( a) f e e \barMaior
-    d e e \barMin e f g a( g f) g( f) e e \barMaior
-    f f d e \barFinalis
+    a a a a g( a b) a a \bar "" g( a) f e e \barMaior
+    f g a a g f g g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
@@ -72,7 +72,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Flp 2"
-    placet = "div. minima po _příčinou_ a po _pro všechny_ zbytečná - pryč"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -91,9 +90,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a( g) g \barMaior
-    f( a) a a g a c d c b a( b a) a( g) g \barMaior
-    a f( e) f( g) g \barFinalis
+    g4 g g( a) a \barMaior
+    g( a) a a g a c d c b a( b a) a( g) g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -210,7 +209,7 @@
   \relative c'' {
     \choralniRezim
     g4 g f g a a g g a( c b) g a( g) \barMaior
-    c c c c a( c) b a g g \barMaior
+    c c c c a( c) b a g g \barMin
     f a g g \barFinalis
   }
   \addlyrics {
@@ -231,21 +230,23 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( e f) d d f f( g f) d( c) c \barMaior
-    d d( f e) d( c) c \barMin a c d d( e) d d \barMaior
-    c d( e) d d \barFinalis
+    g4 a c c b a c( d) d d \barMaior
+    d d( e) c( a) a \barMin
+    c b a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus o -- čis -- til svět od hří -- chu
-    a za -- se -- dl po Bo -- ží pra -- vi -- ci.
+    a za -- se -- dl
+    po Bo -- ží pra -- vi -- ci.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -279,7 +280,7 @@
     \choralniRezim
     d4 d d( a') g4.( f4 g e4. d) \barMaior
     a'4 a( c) a \barMin a g f g a a \barMaior
-    d, d d d d( f) e c c( d) \barMaior
+    d, d d d d( f) e c d \barMaior
     a' g( f g4. e4) d( c) d \barFinalis
   }
   \addlyrics {
