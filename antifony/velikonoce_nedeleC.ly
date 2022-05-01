@@ -6,13 +6,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f e f g a( g) g \barMaior
-    a g g a g f g( a) \barMin
-    f f f f( g) f d d d \barMax
+    d4 d f e f g f d d \barMaior
+    c( d) d( f) f g a f g \barMin
+    g f e e( f) d c d d \barMax
 
-    d d d c c( f) d d \barMaior
-    d c( d e f) e f( g) f e( f e d) \barMaior
-    c c c( f) f f( e c)
+    d d c d e( f) d d \barMaior
+    f g( f g a) g f g f( e d) \barMaior
+    f f e d c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -26,7 +26,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "iiimag1"
@@ -54,7 +54,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    notice = "_přistoupil k nim a podal jim_ je zvlášť škaredé"
+    placet = "není celá špatná, ale potřebuje revizi"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -63,13 +63,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f( e) d \barMin e d e( f) e \barMin d d( g) g( f) e \barMax
-    a a \barMin a a( g) b g \barMaior
-    f f \barMin g f e e e \barMaior
-    d e f( g) e \barFinalis
+    e4 e e f e d( e) e \barMin
+    d g g( f) e \barMaior
+    a a g f g( a) a \barMin
+    g f g f e e e \barMin
+    d g g( f) e \barFinalis
   }
   \addlyrics {
-    Ši -- mo -- ne, sy -- nu Ja -- nův, mi -- lu -- ješ mě?
+    Ši -- mo -- ne, sy -- nu Ja -- nův,
+    mi -- lu -- ješ mě?
     Pa -- ne, ty víš všech -- no_–
     ty víš, že tě mi -- lu -- ji!
     A -- le -- lu -- ja.
