@@ -777,3 +777,73 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d( f) e f d c c \barMaior
+    f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g( a) a g f g g \barMaior
+    g f e d c \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_* a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( g) g( a) g \barMin
+    a4 bes c( bes) a g f g g \barMaior
+    g f e d c \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_* a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 15"
+    fial = "antifony/tyden1_1nedele.ly#up-ant2?zacatek"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}

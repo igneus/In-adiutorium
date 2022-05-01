@@ -263,6 +263,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin
+    a a a c b c a4.( g) \barMaior
+    a4( c) b c( d) d c b c a4. g \barMin
+    f4 g \mark\sipka g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,_*
+    vy -- šel jsi spa -- sit svůj lid,
+    spa -- sit své -- ho po -- ma -- za -- né -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Hab 3"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -311,6 +335,85 @@
     psalmus = "Žalm 147-II"
     id = "rch-a3"
     placet = "* (přestože si nejsem jistý, že ten konec je košer)"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Zdrojová antifona je samozřejmě VII. modu, ale tady mi z něj ta melodie
+  nějak vypadla a ne a ne ji tam dostat zpět.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d c( b) a a \barMaior
+    c d( c d) d( c) \barMin
+    a c c b a g( a) a \barMaior
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,_*
+    že zjed -- nal
+    tvé -- mu ú -- ze -- mí po -- koj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    fial = "antifony/tyden4_6patek.ly#rch-ant3?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d c( b) a a \barMaior
+    \mark\sipka c d( e) d \barMin
+    d c b c a g( a) a \barMaior
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,_*
+    že zjed -- nal
+    tvé -- mu ú -- ze -- mí po -- koj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    fial = "antifony/tyden4_6patek.ly#rch-ant3?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d \mark\sipka e( c) d d \barMaior
+    d c( d) d \barMin
+    c a c b a g( a) a \barMaior
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,_*
+    že zjed -- nal
+    tvé -- mu ú -- ze -- mí po -- koj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }

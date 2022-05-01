@@ -471,6 +471,32 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e c) c( d) d \barMaior
+    d f e c d \mark\sipka d \barMin
+    d c b g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d d( a' f) e f( g) d d \barMaior
@@ -499,6 +525,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Sobota}}
 
 \score {
@@ -506,6 +534,32 @@
     \choralniRezim
     a4 a a( c d) \barMin
     e c d \barMin
+    c b a( g) a \barMaior
+    b c a a \barMin
+    c d c( a) a \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám!
+    To jsem já!
+    A -- le -- lu -- ja.
+    Ne -- boj -- te se!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c d-- \barMin
+    e c d-- \barMin
     c b a( g) a \barMaior
     b c a a \barMin
     c d c( a) a \barFinalis
