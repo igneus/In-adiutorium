@@ -10,7 +10,7 @@
     \choralniRezim
     g4 a g f bes a g f g g \barMaior
     g f g a( f) e d c d d \barMaior
-    e c c( d) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Pů -- so -- bíš mi ra -- dost, Hos -- po -- di -- ne,_*
@@ -23,7 +23,6 @@
     differentia = "g"
     psalmus = "Žalm 92"
     id = "rch-a1"
-    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -31,8 +30,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c b g a \barMaior
-    a g a g f e e \barMaior
+    a4 g a a( c) b g a \barMaior
+    a g a g f d( e) e \barMaior
     f g e e \barFinalis
   }
   \addlyrics {
@@ -53,18 +52,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    f a b b( c) \barMin d( c) b a( b a g) g \barMaior
-    a( g) f g( a) a g g \barMaior
-    f f( a) g g \barFinalis
+    f4 a c( d) c \barMin
+    d( f) e d( c) c \barMin
+    a g bes a f( g f) f \barMaior
+    g a g( f) f \barFinalis
   }
   \addlyrics {
-    Bo -- že, tys dal_* své -- mu Kris -- tu všech -- nu čest i slá -- vu.
+    Bo -- že, tys dal_*
+    své -- mu Kris -- tu
+    všech -- nu čest i slá -- vu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 8"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
