@@ -2279,12 +2279,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 g a f g f \barMin
     g g f( e) d( c) \barMin
     f g a f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty jsi ces -- ta,
+    ty jsi prav -- da,
+    ty jsi ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    f e d( e) d( c) \barMin
+    f g a a g( f) f \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty jsi ces -- ta,

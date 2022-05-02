@@ -704,8 +704,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 d c d e f f \barMin
-    g a g f g( f d) c \barMaior
+    f4 f g a f g g \barMin
+    f g f e d( c) c \barMaior
     d f g( f) f \barFinalis
   }
   \addlyrics {
@@ -718,7 +718,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
-    placet = "půjde lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
