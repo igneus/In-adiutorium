@@ -49,9 +49,6 @@
   }
 }
 
-% Neni snadna - zacatek na d ani bes prechod mezi
-% antifonou a zalmem neusnadnuji - ale libi se mi.
-
 \score {
   \relative c'' {
     \choralniRezim
