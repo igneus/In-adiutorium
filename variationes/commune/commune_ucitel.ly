@@ -247,6 +247,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( g) g \barMin a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d e f( g a) g f( g) f f \barFinalis
+
+    d^\markup\rubrVelikAleluja \mark\sipka f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je pra -- men moud -- ros -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d e f( g a) g f( g) f f \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je pra -- men moud -- ros -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -361,6 +413,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -394,6 +447,43 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f f \mark\sipka g f \barMin
+    f f f f f f f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Li -- dé si vy -- prá -- vě -- jí o moud -- ros -- ti sva -- tých,
+    je -- jich jmé -- na zůs -- tá -- va -- jí v_ži -- vé pa -- mě -- ti._* \textRespAleluja
+    \Verse Cír -- kev je ne -- přes -- tá -- vá chvá -- lit._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
     a'4 a( c a) \barMin a bes g a a( bes) a a g a g f e e \barMaior
@@ -401,6 +491,63 @@
     g( a) f( e) d e( d c) d \barFinalis
 
     c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a( c a) \barMin a \mark\sipka a g a a( bes) a a g a g f e e \barMaior
+    d e d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a( c a) \barMin a a g a a( bes) a a g a g f e e \barMaior
+    \mark\sipka c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
@@ -500,11 +647,47 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f f f f f f f f f f f g( f) f \barMin
+    f f f f f f f f f e g a a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta,
+    na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu._* \textRespAleluja
+    \Verse Ob -- lé -- kl mu rou -- cho slá -- vy._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f f f \mark\sipka g f \barMin
     f f f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V

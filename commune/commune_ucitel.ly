@@ -181,7 +181,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f g( f) f \barMin
+    f4 f f f f f f f f f f g f \barMin
     f f f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -212,11 +212,11 @@
   \relative c' {
     \choralniRezim
     d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
-    a'4 a( c a) \barMin a bes g a a( bes) a a g a g f e e \barMaior
-    d e d( a' bes) a a( c a) g g( a) a \barMaior
+    a'4 a( c a) \barMin a a g a a( bes) a a g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
     g( a) f( e) d e( d c) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
@@ -282,7 +282,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f f g( f) f \barMin
+    f4 f f f f f f f f f f f g f \barMin
     f f f f f f f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
