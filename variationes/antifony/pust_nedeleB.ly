@@ -819,6 +819,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -832,6 +834,50 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d e( f) d( c) c \barMaior
+    f( g) g( f) f \barMin
+    e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu
+    všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d f( g) g( f) f \barMaior
+    g( a) f( e d) d \barMin
+    e c f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu
+    všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "vmag2"
