@@ -10,7 +10,7 @@
     \choralniRezim
     a4 c c b a b( g) g \barMin
     a( g) f g a( c) c \barMin c( d) c( a) b g g \barMaior
-    g f( a) a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Mé srd -- ce i mé tě -- lo_*
@@ -28,21 +28,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4( f g) a( c) b a b4. g \barMin a4( g a) a( c) b g a \barMax
-    a b c c d( c b c) a( g) \barMin g( f e) d d e e \barMaior
-    e e( f) e e \barFinalis
+    a4 c b a b g \barMin
+    a c b g a \barMaior
+    a c d c b( a) a \barMin
+    g( f) e d e e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
-    Do vý -- še se zdví -- há_* Hos -- po -- di -- nův dům,
-    bu -- dou k_ně -- mu prou -- dit všech -- ny ná -- ro -- dy.
+    Do vý -- še se zdví -- há_*
+    Hos -- po -- di -- nův dům,
+    bu -- dou k_ně -- mu prou -- dit
+    všech -- ny ná -- ro -- dy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
     modus = "III"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Iz 2"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -50,11 +54,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4( e d) c( d) d c b c d d \barMaior
-    c b a c( b) a( g) g \barMaior
-    f g g g \barFinalis
+    f4 f f g f g a a \barMin
+    a g f g f d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Hlá -- sej -- te me -- zi po -- ha -- ny:_*
@@ -63,8 +67,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 96"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -98,9 +102,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f a f g \barMin
-    g f e d( c) c \barMaior
-    d f g( f) f \barFinalis
+    f4 g f g a a \barMin
+    a g f g( f d) d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
