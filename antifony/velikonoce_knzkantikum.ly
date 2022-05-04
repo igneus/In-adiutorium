@@ -74,6 +74,7 @@ velikTIstredaNespAntIII = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Kol 1"
+    placet = "závěr není zrovna zpěvný"
     id = "t1-st"
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
     fial = "mezidobi_trojice.ly#rch-a3?+aleluja"
