@@ -409,12 +409,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c a d( a) a \barMin
-    g f( g f) e g( a) a \barMaior
-    a-- a( b) c a a \barMaior
-    c d d \[ e( c d \] \[ c a) \] b( a) \barMin
-    f g a a \barMaior
-    b c a( g) g \barFinalis
+    a4 a a b c a( g) g \barMin
+    a c b c( d) d \barMaior
+    d e d c( b a) a \barMaior
+    c b g a g \barMin
+    c b a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Kaž -- dý, kdo vi -- dí Sy -- na
