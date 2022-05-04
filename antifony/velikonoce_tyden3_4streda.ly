@@ -54,11 +54,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( d) d \barMin
-    c( d c) b a g a a \barMaior
-    b c a( g) a \barFinalis
+    f4 g g( a) a \barMin
+    g a g f d c \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Kaž -- dý člo -- věk_*
@@ -67,8 +67,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 98"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -81,8 +81,8 @@
   \relative c' {
     \choralniRezim
     e4 f( e) d( e) e \barMin
-    e4 g a b( a g) a \barMaior
-    g f e e \barFinalis
+    e4 f g a g
+    f g e e \barFinalis
   }
   \addlyrics {
     Váš zá -- rmu -- tek_*
@@ -100,12 +100,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f( e) f( g) g \barMin
-    g g f e d d \barMaior
-    c d e d d \barMin
-    f e c( d) d \barFinalis
+    a4 c( b) c( d) d \barMin
+    c d e c d d \barMaior
+    d c b a g
+    b c a a \barFinalis
   }
   \addlyrics {
     Ať ži -- je -- me_*
@@ -115,8 +115,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
