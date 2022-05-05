@@ -50,8 +50,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
     a a a a g( a b) a a \barMin g( a) f e e \barMaior
@@ -74,6 +77,36 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
+    a a a a g( a b) a a \bar "" g( a) f e e \barMaior
+    f g a a g f g g e e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
+    a tak se stal pří -- či -- nou věč -- né spá -- sy
+    pro všech -- ny, kte -- ří ho po -- slou -- cha -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    fial = "antifony/velikonoce_tyden3.ly#ne-1ne-a3"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -201,8 +234,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') g4.( f4 g e4. d) \barMaior
     a'4 a( c) a \barMin a g f g a a \barMaior
@@ -225,6 +261,36 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') g4.( f4 g e4. d) \barMaior
+    a'4 a( c) a \barMin a g f g a a \barMaior
+    d, d d d d( f) e c d \barMaior
+    a' g( f g4. e4) d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Pán, náš Bůh, se u -- jal krá -- lov -- ství;
+    já -- sej -- me a vzdej -- me mu čest.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 19"
+    fial = "antifony/velikonoce_tyden3.ly#ne-2ne-a3"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Pondělí}}
 

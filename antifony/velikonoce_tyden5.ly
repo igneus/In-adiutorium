@@ -53,9 +53,9 @@
   \relative c'' {
     \choralniRezim
     a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
-    a a a a g( a b) a a \barMin g( a) f e e \barMaior
-    d e e \barMin e f g a( g f) g( f) e e \barMaior
-    f f d e \barFinalis
+    a a a a g( a b) a a \bar "" g( a) f e e \barMaior
+    f g a a g f g g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
@@ -205,7 +205,7 @@
     \choralniRezim
     d4 d d( a') g4.( f4 g e4. d) \barMaior
     a'4 a( c) a \barMin a g f g a a \barMaior
-    d, d d d d( f) e c c( d) \barMaior
+    d, d d d d( f) e c d \barMaior
     a' g( f g4. e4) d( c) d \barFinalis
   }
   \addlyrics {
