@@ -85,8 +85,8 @@ velikTIstredaNespAntIII = \score {
 velikTIctvrtekNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMax
-    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMax
+    d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMaior
+    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMin
     e c d d \barFinalis
   }
   \addlyrics {

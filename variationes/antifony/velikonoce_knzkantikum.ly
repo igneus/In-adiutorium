@@ -178,9 +178,12 @@
   }
 }
 
+\pageBreak
+
 %velikTIctvrtekNespAntIII =
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMax
     a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMax
@@ -197,6 +200,33 @@
     differentia = "D"
     psalmus = "Zj 11"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Úprava divisiones:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMaior
+    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMin
+    e c d d \barFinalis
+  }
+  \addlyrics {
+    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,_*
+    kdo je ja -- ko ty vzne -- še -- ný ve sva -- tos -- ti?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t1-ct"
     piece = \markup {\sestavTitulek}
   }
 }
