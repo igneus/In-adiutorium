@@ -824,8 +824,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 c c b a b( g) g \barMin
     a( g) f g a( c) c \barMin c( d) c( a) b g g \barFinalis
@@ -848,6 +851,61 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b a b( g) g \barMin
+    a( g) f g a( c) c \barMin c( d) c( a) b g g \barFinalis
+
+    g^\markup\rubrVelikAleluja f( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce i mé tě -- lo_*
+    s_já -- so -- tem tíh -- nou k_ži -- vé -- mu Bo -- hu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "sexta"
+    fial = "antifony/velikonoce_tyden3_2pondeli.ly#rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c c b a b( g) g \barMin
+    a( g) f g a( c) c \barMin c( d) c( a) b g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce i mé tě -- lo_*
+    s_já -- so -- tem tíh -- nou k_ži -- vé -- mu Bo -- hu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "sexta"
+    fial = "antifony/velikonoce_tyden3_2pondeli.ly#rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

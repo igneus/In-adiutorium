@@ -568,7 +568,7 @@
     a4 c c b a b( g) g \barMin
     a( g) f g a( c) c \barMin c( d) c( a) b g g \barFinalis
 
-    g^\markup\rubrVelikAleluja f( a) a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Mé srd -- ce i mé tě -- lo_*
