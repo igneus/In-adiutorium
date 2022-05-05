@@ -473,7 +473,7 @@
     a4 a g( bes) a g f g \barMaior
     g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
 
-    f d( f) g( f) d \barFinalis
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     A -- mem, a -- men, pra -- vím vám:
@@ -501,7 +501,7 @@
     g f e d d \barMin f g g( a) a \barMaior
     a( c d) c b a( g) g( a) \barMin a b a a( g) g \barMaior
 
-    a a( c a g) f( g) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.

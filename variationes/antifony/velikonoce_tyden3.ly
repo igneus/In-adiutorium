@@ -1332,10 +1332,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Čtvrtek}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a g( bes) a g f g \barMaior
@@ -1360,10 +1363,38 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
+
+    \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
@@ -1403,6 +1434,38 @@
     a( c d) c b a( g) g( a) \barMin a b a a( g) g \barMaior
 
     \mark\sipka a b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
+    Kdo bu -- de jíst ten -- to chléb, bu -- de žít na -- vě -- ky.
+
+    Chléb, kte -- rý já dám,
+    je mé tě -- lo, o -- bě -- to -- va -- né za ži -- vot svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-2ne-mag?+aleluja"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
+    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
+
+    g f e d d \barMin f g g( a) a \barMaior
+    a( c d) c b a( g) g( a) \barMin a b a a( g) g \barMaior
+
+    \mark\sipka a g f( a) g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
