@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../velikonoce_antifony.ly;
+
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {6. neděle velikonoční}}
 
@@ -52,8 +53,37 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d d c( b a) g( a) \barMin c( b) c c( a) a \barMaior
+    c c d( e d) c( d c) \barMin b( c) a g g \barMaior
+    f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel pro -- jít bra -- nou smr -- ti,
+    a tak ve -- jít do své slá -- vy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Flp 2"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a3"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a g( a) a \barMin c b g( a) a \barMaior
     a a g( f e) d f g e e \barMaior
@@ -74,6 +104,8 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 

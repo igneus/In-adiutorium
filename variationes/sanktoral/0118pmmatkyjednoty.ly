@@ -179,6 +179,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g f d d \barMin
     d( f) f g f d( c) c \barMaior
@@ -200,6 +201,105 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d \mark\sipka c d f g f d d \barMin
+    \mark\sipka e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
+    k_ně -- mu jste by -- li po -- vo -- lá -- ni
+    v_jed -- nom tě -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d c d f g f d d \barMin
+    \mark\sipka e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
+    k_ně -- mu jste by -- li po -- vo -- lá -- ni
+    v_jed -- nom tě -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d c d f g f \mark\sipka f( g) g \barMin
+    \mark\sipka f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
+    k_ně -- mu jste by -- li po -- vo -- lá -- ni
+    v_jed -- nom tě -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f d d \barMin
+    d( f) f g f d( c) c \barMaior
+    d d c d f g \mark\sipka a g g \barMin
+    f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
+    k_ně -- mu jste by -- li po -- vo -- lá -- ni
+    v_jed -- nom tě -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a1?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

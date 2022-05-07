@@ -73,8 +73,8 @@
     \choralniRezim
     a4 a g f d d \barMin
     d( f) f g f d( c) c \barMaior
-    d d e f g a g a( g) g \barMin
-    f( g f) d c( d) d \barFinalis
+    d d c d f g f d d \barMin
+    e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:

@@ -9,8 +9,8 @@
   \relative c'' {
     \choralniRezim
     a4 a g f d d \barMin
-    d( f) f g f d d \barMaior
-    c c c( d) d \barFinalis
+    d( f) f g f d( c) c \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci
@@ -32,7 +32,7 @@
     \choralniRezim
     c4( d) d \barMin
     d f e d c e( f d) c( d) d \barMaior
-    c d( f) e( d) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- te,
@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d c( b a) g( a) \barMin c( b) c c( a) a \barMaior
-    c c d( e d) c( d c) \barMin b( c) a g g \barMaior
-    f g( a) a( g) g \barFinalis
+    a4 a a a g( a) a \barMin c b g( a) a \barMaior
+    a a g( f e) d f g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel pro -- jít bra -- nou smr -- ti,
@@ -63,10 +63,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Flp 2"
-    placet = "zejména první půlku lépe"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
