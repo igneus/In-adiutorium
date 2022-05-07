@@ -30,11 +30,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4 e f g a( bes a) a \barMaior
-    a g a bes a bes( a) a \barMin
-    bes a f d4. d \barMaior
-    e4 f d d \barFinalis
+    f4 f e f g( a g) g \barMaior
+    a bes a g f f( g) g \barMin
+    g f e d4. c \barMin
+    d4 f e( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le_*
@@ -48,7 +47,6 @@
     differentia = "f"
     psalmus = "Jer 14"
     id = "rch-a2"
-    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }

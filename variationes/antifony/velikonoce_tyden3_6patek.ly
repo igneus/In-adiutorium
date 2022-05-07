@@ -131,7 +131,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 e f g a( bes a) a \barMaior
@@ -150,6 +150,7 @@ funkční, je nevyvážená.}
     modus = "I"
     differentia = "f"
     psalmus = "Jer 14"
+    placet = "netypický závěr; nepříliš zpěvná"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -177,6 +178,31 @@ funkční, je nevyvážená.}
     differentia = "f"
     psalmus = "Jer 14"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e f g( a g) g \barMaior
+    a bes a g f f( g) g \barMin
+    g f e d4. c \barMin
+    d4 f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le_*
+    vy -- ne -- sl na -- še hří -- chy
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Jer 14"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
