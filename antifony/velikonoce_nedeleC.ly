@@ -91,9 +91,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( a) a c b a c( d c) \barMaior
-    c c( d) \barMin c b g( a) f( g) g \barMaior
-    g g( a) g g \barFinalis
+    c4 c c( a) a c b c c( d c) \barMaior
+    c a( c) \barMin b c a g a( g) \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce sly -- ší můj hlas;

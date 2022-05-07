@@ -262,6 +262,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( a) a c b a c( d c) \barMaior
     c c( d) \barMin c b g( a) f( g) g \barMaior
@@ -281,6 +282,53 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a c b a g( a g) \barMaior
+    g a( c) \barMin b c a g a( g) \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce sly -- ší můj hlas;
+    a já, je -- jich Pán, je znám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( a) a c b c c( d c) \barMaior
+    c a( c) \barMin b c a g a( g) \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce sly -- ší můj hlas;
+    a já, je -- jich Pán, je znám.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
