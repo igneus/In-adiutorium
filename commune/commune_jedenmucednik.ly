@@ -801,11 +801,11 @@
 
     % R
     \neviditelna f
-    f4 f f f f( g)f \barMin f f f f f f f f e g a \barMax
+    f4 f f f f f g f \barMin f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f f f f f f f e g a \barMax
+    f4 f f f f f f f g f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -813,8 +813,8 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response Sva -- tí bu -- dou zá -- řit
-    v ne -- bes -- kém krá -- lov -- ství ja -- ko slun -- ce._* \textRespAleluja
+    \Response Spra -- ved -- li -- ví bu -- dou zá -- řit
+    v_ne -- bes -- kém krá -- lov -- ství ja -- ko slun -- ce._* \textRespAleluja
     \Verse Všich -- ni, kdo jsou u -- přím -- né -- ho srd -- ce,
     bu -- dou já -- sat._*
     \Response \textRespAleluja
