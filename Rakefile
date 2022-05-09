@@ -111,7 +111,10 @@ namespace :sanity do
 
   desc "Check if copied scores still match the sources"
   task :copies do
-    sh 'ruby', 'nastroje/checkcopies.rb', '--save=.last_mismatches.yml', *all_ly_files
+    sh 'ruby', 'nastroje/checkcopies.rb',
+       '--save=.last_mismatches.yml',
+       # '--update_save',
+       *all_ly_files
   end
 
   desc 'As sanity:copies, but only check copies of scores from modified files'
