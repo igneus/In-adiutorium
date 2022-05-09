@@ -238,8 +238,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d c c( d) d \barMaior
     d( f) d d f e g a( bes a) \barMin
@@ -263,6 +266,37 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    e d c d f e c( d) d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ví -- těz -- ství,
+    slá -- va a moc
+    ná -- le -- ží na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 19"
+    fial = "antifony/velikonoce_tyden4.ly#ne-2ne-a3"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Pondělí}}
 

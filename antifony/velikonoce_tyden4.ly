@@ -104,9 +104,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d \barMin
-    d d d( f) d g f d d \barMaior
-    c c c( d) d \barFinalis
+    d4 d d c \barMin
+    bes c d f e c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- né
@@ -118,7 +118,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-II"
-    placet = "lépe"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -155,7 +154,7 @@
     c d e c d d \barMaior
     a4 d c( b a) a \barMin
     c a g f( g) a( g) g \barMaior
-    f a g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,
@@ -178,7 +177,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a b d d d( b d a) a \barMin
+    g4 b d d d( b d a) a \barMin
     g a a( b) a g( a) a( g) g \barMaior
     a b( a) g g \barFinalis
   }
@@ -200,10 +199,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d c c( d) d \barMaior
-    d( f) d d f e g a( bes a) \barMin
-    a a a a( c) a g g( a) a \barMaior
-    a( g e) f( e) d d \barFinalis
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    e d c d f e c( d) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -214,10 +213,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Zj 19"
-    placet = "lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }

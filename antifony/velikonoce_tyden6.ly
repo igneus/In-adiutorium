@@ -209,10 +209,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d c c( d) d \barMaior
-    d( f) d d f e g a( bes a) \barMin
-    a a a a( c) a g g( a) a \barMaior
-    a( g e) f( e) d d \barFinalis
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    e d c d f e c( d) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -223,7 +223,7 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Zj 19"
     fial = "antifony/velikonoce_tyden4.ly#ne-2ne-a3"
