@@ -226,9 +226,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a c( d) d \barMaior
-    d( e) c d( c) a4. a \barMin
-    a4 g( a) a c b g g( a) a \barMaior
+    c4 c b a c( d) d \barMin
+    d( e) c d( c) a4. a \barMaior
+    a4 g( a) a c b g g( a) a \barMin
     g a b a \barFinalis
   }
   \addlyrics {

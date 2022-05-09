@@ -57,8 +57,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMaior
     d( e) c d( c) a4. a \barMin
@@ -79,6 +82,37 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{
+  Úprava divisiones:
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d( e) c d( c) a4. a \barMaior
+    a4 g( a) a c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř,
+    pa -- su své ov -- ce,
+    a dá -- vám za ně svůj ži -- vot.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    fial = "pust_svatytyden.ly#po?zacatek"
+    fons = "první část a motiv třetí části: Svatý týden, modlitba uprostřed dne, ant. v poledne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

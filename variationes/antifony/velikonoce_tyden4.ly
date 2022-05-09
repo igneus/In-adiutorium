@@ -841,6 +841,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMaior
     d( e) c d( c) a4. a \barMin
@@ -866,6 +867,39 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d( e) c d( c) a4. a \barMaior
+    a4 g( a) a c b g g( a) a \barMin
+    g a b a \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř,
+    pa -- su své ov -- ce,
+    a dá -- vám za ně svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Já jsem pastýř dobrý;
+    já pasu své ovce a dávám za ně svůj život. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "mezidobi_nejsvsrdce.ly#1ne-a3?+aleluja"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
