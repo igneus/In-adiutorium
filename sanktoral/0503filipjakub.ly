@@ -140,6 +140,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 116-II"
+    placet = "_kdo viděl mne_ nezpěvně úsečné"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
