@@ -8,10 +8,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d c a g \barMin
-    a g f g a a \barMin
-    a c b a( g) g \barMaior
-    g a a( g) g \barFinalis
+    c4 d d c c \barMin
+    b c a g a( c) b \barMaior
+    c c c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Ať je nad ná -- mi_*
@@ -32,8 +32,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c d) \barMin d c d c b a( g) g( a) a \barMaior
-    a a( c) a( g) g( a) \barFinalis
+    c4 c d e d c a g g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Tmu_* před ni -- mi změ -- ním ve svět -- lo.
@@ -41,10 +41,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Iz 42"
-    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -53,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f e g a a( c) c \barMin
-    c b c( a) g( f) f( g) g \barMaior
-    g g( a) g g \barFinalis
+    g4 g g a g a( c) c \barMin
+    d c b a( b) a( g) g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- sku -- teč -- ní_*
