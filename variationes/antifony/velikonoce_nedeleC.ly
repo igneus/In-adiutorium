@@ -332,6 +332,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g( a) a a g f g f d( f e) d( c) \barMaior
     d d d( f) f e( f) g( f) f \barMaior
@@ -356,6 +357,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g( a) a a g f g f \mark\sipka d( c) c \barMaior
+    \mark\sipka c d d( f) f e( f) \mark\sipka f( g) g \barMaior
+    g \mark\sipka a a g f e f d c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Já dá -- vám svým ov -- cím věč -- ný ži -- vot.
+    Ne -- za -- hy -- nou na -- vě -- ky
+    a nik -- do mi je ne -- vy -- rve z_ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( c) c( d) \barMin d d( a') a g g( a) a \barMaior
     a a a g a a( bes a) \barMin
@@ -372,6 +401,76 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a a g f g g( f) f \barMaior
+    g( a) g f d e d( c) \barMin
+    c d d f f g( a g) f e d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Můj O -- tec je vět -- ší než všich -- ni;
+    ov -- ce, kte -- ré mi dal,
+    ni -- kdo ne -- mů -- že vy -- rvat z_je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g( a) a a g f g g( f) f \barMaior
+    g( a) g f d e d( c) \barMin
+    c d d f f g( a g) f \mark\sipka e( f) d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Můj O -- tec je vět -- ší než všich -- ni;
+    ov -- ce, kte -- ré mi dal,
+    ni -- kdo ne -- mů -- že vy -- rvat z_je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a a c a g g( a) a \barMaior
+  }
+  \addlyrics {
+    Můj O -- tec je vět -- ší než všich -- ni;
+    ov -- ce, kte -- ré mi dal,
+    ni -- kdo ne -- mů -- že vy -- rvat z_je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
