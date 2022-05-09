@@ -121,7 +121,7 @@ namespace :sanity do
   task :copies_of_modified do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     modified_ly_files.call.each do |m|
-      sh 'ruby', 'nastroje/checkcopies.rb', '-c', m, *all_ly_files
+      sh 'ruby', 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
     end
   end
 
