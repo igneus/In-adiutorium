@@ -10,6 +10,13 @@ require 'thor'
 
 # Understands knihovna.xml and novinky.txt
 class Repository
+  def self.from_dir(web_sources_dir)
+    new(
+      File.join(web_sources_dir, 'public', 'knihovna.xml'),
+      File.join(web_sources_dir, 'novinky.txt')
+    )
+  end
+
   def initialize(knihovna_xml, novinky_txt)
     @xml = Nokogiri::XML File.read knihovna_xml
     @release = Nokogiri::HTML.fragment latest_release File.read(novinky_txt)
@@ -76,20 +83,20 @@ end
 class ReleaseCLI < Thor
   class_option :dry_run, type: :boolean, aliases: :d, desc: 'print commands, do not execute them'
 
-  desc 'build KNIHOVNA_XML NOVINKY_TXT', 'build pdfs for the latest release'
+  desc 'build WEB_SOURCES', 'build pdfs for the latest release'
   option :prod, type: :boolean, aliases: :p, default: true, desc: 'build production pdf (without point-and-click)'
-  def build(knihovna_xml, novinky_txt)
+  def build(srcdir=nil)
     # TODO list TeX and external files which must be handled manually
-    Repository.new(knihovna_xml, novinky_txt).ly_to_compile.tap{|i| p i }.each do |f|
+    Repository.from_dir(sources_dir(srcdir)).ly_to_compile.tap{|i| p i }.each do |f|
       do_command build_command(f, options[:prod])
     end
   end
 
-  desc 'upload KNIHOVNA_XML NOVINKY_TXT', 'upload pdfs to the server'
-  def upload(knihovna_xml, novinky_txt)
+  desc 'upload WEB_SOURCES', 'upload pdfs to the server'
+  def upload(srcdir=nil)
     # TODO check that all files exist prior to attempting upload
     # TODO list TeX and external files which must be handled manually
-    do_command upload_command Repository.new(knihovna_xml, novinky_txt).pdf_to_upload
+    do_command upload_command Repository.from_dir(sources_dir(srcdir)).pdf_to_upload
   end
 
   private
@@ -113,6 +120,12 @@ class ReleaseCLI < Thor
         STDERR.puts ColorizedString.new("command returned error status #{$?}").red
       end
     end
+  end
+
+  def sources_dir(cmdline_dir)
+    cmdline_dir ||
+      ENV['WEB_SOURCES_DIR'] ||
+      raise('please specify web sources dir on the command line or define WEB_SOURCES_DIR')
   end
 end
 
