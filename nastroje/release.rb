@@ -87,7 +87,7 @@ class ReleaseCLI < Thor
   option :prod, type: :boolean, aliases: :p, default: true, desc: 'build production pdf (without point-and-click)'
   def build(srcdir=nil)
     # TODO list TeX and external files which must be handled manually
-    Repository.from_dir(sources_dir(srcdir)).ly_to_compile.tap{|i| p i }.each do |f|
+    Repository.from_dir(sources_dir(srcdir)).ly_to_compile.each do |f|
       do_command build_command(f, options[:prod])
     end
   end
