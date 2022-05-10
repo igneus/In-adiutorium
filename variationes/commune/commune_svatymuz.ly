@@ -288,6 +288,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -295,6 +297,30 @@
     \choralniRezim
     f4( d) d \barMin g( f) e d c( d) d \barMaior
     f g f f e d e c \barMin a c d( e d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d( e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g( f) e f d( c) c \barMaior
+    d f g f e d c c \barMin a c d( e d) d \barFinalis
 
     f^\markup\rubrVelikAleluja g( f) d( e) d \barFinalis
   }
@@ -646,6 +672,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b( c) a a c d e( d) d \barMaior
+    e d( e d c) \mark\sipka d( c) \barMin \mark\sipka a g a( c) b( a) a \barFinalis
+
+    \mark\sipka b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
+    vždyť sla -- ví skvě -- lé ví -- těz -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
@@ -840,8 +890,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g a( c a4.) a \barMin
     a4( g) a g f e f f( a) a \barMaior
@@ -867,6 +920,70 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g a( c a4.) a \barMin
+    a4( g) a g f e f f( a) a \barMaior
+    a( c b g) g \barMin
+    f e f g f d e e \barFinalis
+
+    f^\markup\rubrVelikAleluja g e e \barFinalis
+  }
+  \addlyrics {
+    Ten, kdo pl -- ní vů -- li_*
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+    ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kdo plní vůli mého nebeského Otce,
+    ten vejde do nebeského království. Aleluja."
+    quid = "ant. v poledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "sexta"
+    fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "oficiální text"
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    d d c d e c d d \barMaior
+    a( d) b( c) a( g) \barMin
+    f g a c b g a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo pl -- ní vů -- li_*
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+    ten ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

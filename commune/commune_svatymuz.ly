@@ -656,21 +656,23 @@
     a( c b g) g \barMin
     f e f g f d e e \barFinalis
 
-    f^\markup\rubrVelikAleluja d e e \barFinalis
+    f^\markup\rubrVelikAleluja g e e \barFinalis
   }
   \addlyrics {
     Ten, kdo pl -- ní vů -- li_*
     mé -- ho ne -- bes -- ké -- ho Ot -- ce,
     ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
+
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Kdo plní vůli mého nebeského Otce,
+    ten vejde do nebeského království. Aleluja."
     quid = "ant. v poledne"
     modus = "IV"
     differentia = "g"
     psalmus = ""
     id = "sexta"
-    fons = "doba velikonoční, úterý 4. týdne, r.ch., 1. ant.; odděleno aleluja; v breviáři se obě antifony nevýznamně textově liší"
     fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

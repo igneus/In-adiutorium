@@ -176,8 +176,16 @@
 
 \markup {\nadpisHodinka {"nešpory"}}
 
+\markup\justify{
+  Říkal jsem si, co je to za podivnost, že se stejná antifona žaltáře
+  opakuje dvakrát ve stejném týdnu, a při bližším pohledu se ukázalo,
+  že se neopakuje toliko antifona, ale i začátek žalmu 144
+  (v úterý jen první část v laudách, ve čtvrtek čelý žalm v nešporách).
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a a4 bes g f( d) d \barMin
     e c c( e) d4. d \barMaior
@@ -192,6 +200,32 @@
     quid = "1. ant."
     modus = "I"
     differentia = "g"
+    psalmus = "Žalm 144-I"
+    id = "ne-a1"
+    fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g f g f d d \barMin
+    f f e( d) c c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 144-I"
     id = "ne-a1"
     fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a3"
