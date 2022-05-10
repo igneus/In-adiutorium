@@ -156,7 +156,7 @@ velikTIIuteryNespAntIII = \score {
     \choralniRezim
     d4( f) f g f d d f e d c d4.( c) \barMaior
     c4 bes c d( f) e c d d \barMaior
-    c d d( e) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Tvá je, Hos -- po -- di -- ne,_* ve -- li -- kost a moc,
@@ -168,7 +168,6 @@ velikTIIuteryNespAntIII = \score {
     modus = "II"
     differentia = "D"
     psalmus = "Zj 4"
-    placet = "aleluja jinak"
     id = "t2-ut"
     piece = \markup {\sestavTitulek}
   }

@@ -495,7 +495,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f g f d d f e d c d4.( c) \barMaior
     c4 bes c d( f) e c d d \barMaior
@@ -512,6 +512,29 @@
     differentia = "D"
     psalmus = "Zj 4"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f g f d d f e d c d4.( c) \barMaior
+    c4 bes c d( f) e c d d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Hos -- po -- di -- ne,_* ve -- li -- kost a moc,
+    nád -- he -- ra, lesk i vzne -- še -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "t2-ut"
     piece = \markup {\sestavTitulek}
   }
 }
