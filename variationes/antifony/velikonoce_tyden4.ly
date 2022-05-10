@@ -934,10 +934,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Úterý}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g d' c e d \barMin
     c a a c b g g \barMaior
@@ -962,7 +965,61 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
+    f g a a \mark\sipka c b a g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
+    vy -- dá -- va -- jí o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
+    f g a a \mark\sipka g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
+    vy -- dá -- va -- jí o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c a c( d) d \barMin
     d e f f( g f) d( c) c \barMaior
@@ -980,10 +1037,62 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "závěr lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    d \mark\sipka f g f d( c) c \barMaior
+    d d \mark\sipka f( g) f e c d( c) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Já znám své ov -- ce
+    a o -- ny jdou za mnou;
+    já jim dá -- vám věč -- ný ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    d \mark\sipka f e f d( c) c \barMaior
+    \mark\sipka f g a g f g f( e d) c \bar ""
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Já znám své ov -- ce
+    a o -- ny jdou za mnou;
+    já jim dá -- vám věč -- ný ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Středa}}
 

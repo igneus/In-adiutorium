@@ -291,8 +291,8 @@
     \choralniRezim
     g4 g d' c e d \barMin
     c a a c b g g \barMaior
-    f g a a a a c( b) a( g) g \barMaior
-    f g g g \barFinalis
+    f g a a c b a g g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Skut -- ky, kte -- ré ko -- nám
@@ -315,9 +315,9 @@
   \relative c' {
     \choralniRezim
     d4 c a c( d) d \barMin
-    d e f f( g f) d( c) c \barMaior
-    d d d( f) f e d c( d c) c \barMin
-    c d d d \barFinalis
+    d f e f d( c) c \barMaior
+    f g a g f g f( e d) c \bar ""
+    e f d d \barFinalis
   }
   \addlyrics {
     Já znám své ov -- ce
@@ -330,7 +330,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "závěr lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
