@@ -956,6 +956,20 @@
 
 \markup\nadpisSkupiny "oficiální text"
 
+\markup\column{
+  \line{Antifony se liší i v latinském breviáři:
+    v úterý čtvrtého týdne velikonočního žaltáře je}
+  \line\italic{Qui facit voluntátem Patris mei, ipse intrábit in regnum cælórum, allelúia,}
+  \line{v commune svatých mužů pak}
+  \line\italic{Qui facit voluntátem Patris mei, \bold{qui in cælis est,} ipse intrábit in regnum cælórum (allelúia).}
+  \line{(Rozdíl není dán citovaným biblickým textem - obě podle všeho parafrázují Mt 7, 21.)}
+}
+\markup\justify{
+  Tedy zatímco latinské antifony se liší vsuvkou \italic{qui in cælis est,}
+  české antifony tuto vsuvku (transformovanou do adjektiva \bold{nebeského}) mají obě,
+  ale liší se slovosledem a určitým z toho plynoucím posunem důrazů.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
