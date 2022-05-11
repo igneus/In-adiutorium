@@ -31,12 +31,41 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a( g) g \barMin
     a g c b a( g) a \barMin
     b c a a g( f) g \barMaior
     g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    U -- kaž se_*
+    ve své vzne -- še -- nos -- ti
+    na ne -- be -- sích, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 57"
+    id = "rch-a1"
+    fons = "Velikonoční feriální cyklus, středa 4.t., r.ch., 1.ant."
+    fial = "antifony/velikonoce_tyden4_4streda.ly#rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) g( f) g \barMin
+    a g c b a( g) a \barMin
+    b c a a g( f) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     U -- kaž se_*

@@ -8,10 +8,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a( g) g \barMin
+    g4( a) g( f) g \barMin
     a g c b a( g) a \barMin
     b c a a g( f) g \barMaior
-    g a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     U -- kaž se_*
