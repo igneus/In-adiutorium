@@ -392,12 +392,12 @@
 \markup {\nadpisDen {Čtvrtek}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f4.( d) f4 f g a a \barMaior
-    a g g f g a f d( e) d( c) \barMaior
-    d d d e f e d c c d d \barMaior
-    e f d( c) d \barFinalis
+    c4 c a c b a g g \barMaior
+    c d e d c d c a a \barMin
+    c c c c b c a g a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ne -- ní žák nad u -- či -- te -- le.
@@ -407,8 +407,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -418,11 +418,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( f) d e e \barMaior
-    g a a \barMin
-    a g a( b) g e e \barMin
-    e d f g a( g f) g( f) e \barMaior
-    d e f( g) e \barFinalis
+    f4 g g( a) f f( g) g \barMaior
+    bes( a) g( a) g \barMin
+    g f g( a) f f( g) g \barMaior
+    a a g f g f d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Já jsem pas -- týř ov -- cí;
@@ -437,7 +437,6 @@
     differentia = "E"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
-    placet = "závěr lépe"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

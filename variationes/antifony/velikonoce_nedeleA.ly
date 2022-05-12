@@ -128,8 +128,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e( f) d e e \barMaior
     g g g( a) a \barMin
@@ -153,6 +156,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g( f d) d \barMaior
+    c d d( f) f \barMin
+    f f f g f g( a) f f( g) g \barMaior
+    a a a a g f g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř dob -- rý.
+    Já jsem při -- šel,
+    a -- by mé ov -- ce mě -- ly ži -- vot
+    a a -- by ho mě -- ly v_hoj -- nos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {5. neděle velikonoční}}
 

@@ -128,13 +128,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e( f) d e e \barMaior
-    g g g( a) a \barMin
-    a a a g f g( a) g e e \barMin
-    d d d d f g a( g f) g( f) e \barMaior
-    d e f( g) e \barFinalis
+    a4 a g f g( f d) d \barMaior
+    c d d( f) f \barMin
+    f f f g f g( a) f f( g) g \barMaior
+    a a a a g f g f d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Já jsem pas -- týř dob -- rý.
@@ -145,8 +145,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
