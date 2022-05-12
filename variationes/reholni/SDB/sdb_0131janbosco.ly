@@ -767,25 +767,58 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c e c c( d) d \barMaior
+    c( d) c b a( g) \barMin
+    a a a c a a g f
+    g a g g \barFinalis
   }
   \addlyrics {
     Chval -- te na -- še -- ho Bo -- ha tan -- ci,
-    zpí -- vej -- te mu za zvu -- ku bub -- nu a har -- fy,
+    zpí -- vej -- te mu
+    za zvu -- ku bub -- nu a har -- fy,
     a -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c e c c( d) d \barMaior
+    c( d) c b a( g) \barMin
+    a a a c a a g f
+    \mark\sipka g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha tan -- ci,
+    zpí -- vej -- te mu
+    za zvu -- ku bub -- nu a har -- fy,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
