@@ -340,10 +340,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d e d d c c( b c d) d \barMaior
+    d4 d d d e d c b c( d e) d \barMaior
     a a a( d) d \barMin d c b a( g) g \barMaior
-    f g a a( c b) a( g) g \barMin f g g \barMaior
-    g g( a) g g \barFinalis
+    f g a a( c) a a g f g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem při -- šel na svět ja -- ko svět -- lo,
@@ -356,7 +356,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "první část lépe"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -365,15 +364,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) a( g) g a g f a a( g) g \barMin
+    g4 g( c) a( g) a \barMin
+    g f g a a( g) g \barMaior
     a b c c( d c) b( a) a \barMaior
-    c c a g a( g f) \barMin
-    f f d f( g) a g g \barMaior
-
-    g g( a) g g \barFinalis
+    c c a g a( g) \barMin
+    g f g a f f( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Bůh ne -- po -- slal své -- ho Sy -- na na svět,
+    Bůh ne -- po -- slal
+    své -- ho Sy -- na na svět,
     a -- by svět od -- sou -- dil,
     a -- le a -- by svět
     byl skr -- ze ně -- ho spa -- sen.
