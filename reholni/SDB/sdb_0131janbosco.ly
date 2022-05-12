@@ -20,7 +20,7 @@
     \choralniRezim
     g4 g f g a a( g) g \barMaior
     c d c c( d c) a( \grace { c) } \barMin
-    c c b c a( g) g f( g) a a( g) g \barFinalis
+    c c b c a( g) g f( g) a g g \barFinalis
   }
   \addlyrics {
     Bůh tě po -- zve -- dl z_pra -- chu
@@ -165,7 +165,7 @@
 }
 
 \markup\wordwrap\italic{
-  (Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není, její znalost se zřejmě předpokládá.
+  (Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není.
   Pro zhudebnění byl použit text nalezený na \concat { \with-url "http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz} ")" }
 }
 

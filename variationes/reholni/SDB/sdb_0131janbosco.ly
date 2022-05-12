@@ -40,11 +40,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a a( g) g \barMaior
     c d c c( d c) a( \grace { c) } \barMin
     c c b c \mark\sipka a( g) g f( g) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě po -- zve -- dl z_pra -- chu
+    a po -- sa -- dil tě
+    me -- zi ve -- li -- ká -- ny
+    své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    c d c c( d c) a( \grace { c) } \barMin
+    c c b c a( g) g f( g) a \mark\sipka g g \barFinalis
   }
   \addlyrics {
     Bůh tě po -- zve -- dl z_pra -- chu
@@ -506,9 +530,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b( a) g \barMin
+    g c d e d d \barMaior
+    c a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo:}
+
+\markup\justify{
+  Mírně odlišný překlad antifony, která figuruje ve společných textech o vychovatelích -
+  "commune/commune_reholnikatd.ly#vych-amag"
+}
 
 \score {
   \relative c' {
@@ -608,6 +659,49 @@
     \mark\sipka c d c b a g g \barMaior
     \mark\sipka g f g g a g f \mark\sipka e d e \barMin
     \mark\sipka c d d( e) e d f e d( c) c \barFinalis
+    g'( a c) d( c) c \barMin
+    c b c a g f g a g g \barMaior
+    a g f e d c e f g g \barFinalis
+    g g f e d( c) d \barMin
+    d d c d f e d c c \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a, Pan -- no moc -- ná,
+    ty vel -- ká a slav -- ná zá -- šti -- to
+    sva -- té Cír -- kve;
+    ty po -- di -- vu -- hod -- ná
+    po -- moc -- ni -- ce křes -- ťa -- nů;
+    ty sa -- mo -- je -- di -- ná jsi po -- tře -- la
+    všech -- ny blu -- dy na ce -- lém svě -- tě;
+    o -- chraň
+    nás před ne -- pří -- te -- lem v_na -- šich úz -- ko -- stech,
+    v_na -- šich zá -- pa -- sech a v_na -- šich tís -- ních,
+    a v_ho -- di -- ně smr -- ti
+    při -- jmi na -- ši du -- ši do rá -- je.
+    A -- men. % nechat? vypustit? v antifonach nebyva
+  }
+  \header {
+    % text z http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/
+    % protože v propriu se na modlitbu pouze odkazuje, ale není otištěna
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "pannomocna"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c e g g a g \barMaior
+    g g( a) g a c b a g g \barMin
+    \mark\sipka c,( d e) f( e) d( c) c \barFinalis
+    g' a c c d c \barMin
+    c d c b a g g \barMaior
+    g f g g a g f e d e \barMin
+    c d d( e) e d f e d( c) c \barFinalis
     g'( a c) d( c) c \barMin
     c b c a g f g a g g \barMaior
     a g f e d c e f g g \barFinalis
@@ -1013,20 +1107,21 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f f f g f g g( a) \barMax
+    g( f) g g f f \barFinalis
     % V
     \neviditelna a
-
-    % R
-    \neviditelna a
-
+    a4 a a( bes) a a g f g g( a) \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Z_úst spra -- ved -- li -- vé -- ho vy -- chá -- ze -- jí_*
@@ -1037,11 +1132,42 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka g f f g f g g( a) \barMax
+    g( f) g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a g f g g( a) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Z_úst spra -- ved -- li -- vé -- ho vy -- chá -- ze -- jí_*
+    slo -- va moud -- ros -- ti.
+    \Verse Ve svém srd -- ci má Bo -- ží zá -- kon.
+    \Response
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
