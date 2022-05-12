@@ -11,17 +11,19 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( g a c) c \barMin d( e) d c d( c) c \barMaior
-    d d c( d c) b a( g a) g \barFinalis
+    f4 f g a f g g \barMin
+    f d f g g( f) f \barFinalis
 
-    a^\markup\rubrVelikAleluja c( a) g( f) g \barFinalis
+    f^\markup\rubrVelikAleluja g f e d( c) c \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Chval -- te na -- še -- ho Bo -- ha,
-    všich -- ni je -- ho sva -- tí.
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
 
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
     A -- le -- lu -- ja.
   }
   \header {
@@ -29,6 +31,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?zacatek"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
