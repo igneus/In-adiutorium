@@ -392,7 +392,8 @@
     \key f \major
     d f g( a) a a( g) a c( bes) a g g( a) \barMaior
     a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barFinalis
-    d^\markup\rubrVelikAleluja e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- má vět -- ší lás -- ku než ten,

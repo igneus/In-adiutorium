@@ -695,6 +695,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d f g( a) a a( g) a c( bes) a g g( a) \barMaior
@@ -714,6 +715,34 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     psalmus = "Dan 3-III"
     id = ""
     fons = "6. neděle velikonoční, 2. nešp., ant. k Magnificat, 2. část"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d f g( a) a a( g) a c( bes) a g g( a) \barMaior
+    a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
+    kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
     piece = \markup {\sestavTitulek}
   }
 }

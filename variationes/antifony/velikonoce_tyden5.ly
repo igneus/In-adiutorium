@@ -639,6 +639,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d f g( a) a a( g) a c( bes) a g g( a) \barMaior
@@ -661,6 +662,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d f g( a) a a( g) a c( bes) a g g( a) \barMaior
+    a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
+    kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_apostol.ly#rch-a2"
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Sobota}}
 
