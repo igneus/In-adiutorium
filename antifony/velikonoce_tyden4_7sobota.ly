@@ -10,7 +10,7 @@
     \choralniRezim
     g4 c b a g a b g g \barMin
     a g f( g) g \barMaior
-    e f g( a) g \barFinalis
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Jak vel -- ko -- le -- pá_* jsou tvá dí -- la,
@@ -30,8 +30,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a4. g \barMin a4 g f g( a) g \barMaior
-    f g g g \barFinalis
+    c4 b a4. g \barMin a4 g f g( a g) g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
@@ -50,9 +50,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( g) f g f( d) d \barMaior
-    d d f g a g g \barMaior
-    f g f e( d c) c \barMin
+    a4( g) f g f( d) d \barMaior
+    f d f g a g g \barMaior
+    f g f e( d c) c
     e f d d \barFinalis
   }
   \addlyrics {
