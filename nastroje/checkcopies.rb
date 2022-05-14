@@ -189,7 +189,8 @@ if options[:save]
     puts "#{save.new_mismatches.size} NEW mismatches since the last run:"
     puts
     save.new_mismatches.each do |m|
-      puts " - #{m}"
+      parent_ref = music_repository.score_by_fial(m).header['fial']
+      puts " - #{m} < #{parent_ref}"
     end
     puts
   end
