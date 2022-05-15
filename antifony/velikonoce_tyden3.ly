@@ -294,6 +294,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 19"
+    placet = "lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
