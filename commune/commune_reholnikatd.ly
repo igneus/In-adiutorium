@@ -257,9 +257,10 @@
       \choralniRezim
       d4 d d( f) f d c d c c \barMin
       d e f e f g a( g) g \barMaior
-      a a a a a g( f e d) d \barMin
-      c d e( f) d d \barFinalis
-      f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+      a a a g f e( f d) d \barMin
+      c d f( e) c( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
     }
     \addlyrics {
       Po -- dle to -- ho všich -- ni po -- zna -- jí,
@@ -274,8 +275,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      fial = "antifony/velikonoce_nedeleC.ly#vmagii?upraveno"
-      fons = "upraveno pro dobu nevelikonocni"
+      fial = "antifony/velikonoce_nedeleC.ly#vmagii"
       id = "milo-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

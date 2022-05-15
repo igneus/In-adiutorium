@@ -190,17 +190,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a c( d) d c( d) c c \barMaior
-    a a g f g a a \barMin
-    g a b c( a) \barMin c( d) a a a( g f) \barMin
-    f g g \barMaior
-    f g g g \barFinalis
+    c4 c d c b a g a( g) g \barMaior
+    f g a g a( c) b( a) a \barMaior
+    c c c b( a g) \barMin
+    f g a f f g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     No -- vé při -- ká -- zá -- ní vám dá -- vám:
     Mi -- luj -- te se na -- vzá -- jem,
-    ja -- ko jsem já mi -- lo -- val vás,
-    pra -- ví Pán.
+    ja -- ko jsem já
+    mi -- lo -- val vás, pra -- ví Pán.
     A -- le -- lu -- ja.
   }
   \header {
@@ -218,9 +218,9 @@
     \choralniRezim
     d4 d d( f) f d c d c c \barMin
     d e f e f g a( g) g \barMaior
-    a a a a a g( f e d) d \barMin
-    c d e( f) d d \barMaior
-    f g( f) d d \barFinalis
+    a a a g f e( f d) d \barMin
+    c d f( e) c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Po -- dle to -- ho všich -- ni po -- zna -- jí,

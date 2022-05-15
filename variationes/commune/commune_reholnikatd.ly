@@ -354,7 +354,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d( f) f d c d c c \barMin
       d e f e f g a( g) g \barMaior
@@ -378,6 +378,38 @@
       psalmus = ""
       fial = "antifony/velikonoce_nedeleC.ly#vmagii?upraveno"
       fons = "upraveno pro dobu nevelikonocni"
+      id = "milo-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d( f) f d c d c c \barMin
+      d e f e f g a( g) g \barMaior
+      a a a g f e( f d) d \barMin
+      c d f( e) c( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Po -- dle to -- ho všich -- ni po -- zna -- jí,
+      že jste mo -- ji u -- čed -- ní -- ci,
+      bu -- de -- te -li mít lás -- ku
+      k_so -- bě na -- vzá -- jem.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "antifony/velikonoce_nedeleC.ly#vmagii"
       id = "milo-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
