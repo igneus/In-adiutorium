@@ -193,7 +193,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d d( e c d) d \barMin
+    d4 d( e c d) d \barMin
     d c( b a) g g( a) a \barMin
     a a( c) b a g a a g g \barFinalis
   }
