@@ -66,7 +66,7 @@
     c4( d) d( c) \barMin
     c d e d c c d d \barMaior
     d c( b a) g( a) a( g) \barMin
-    f( g) a g g \barFinalis
+    f( a) a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -163,7 +163,7 @@
     e4 g a a( c) b a4. a \barMin c4 c d c b g e \barMaior
     f g a g f e e \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     O Bo -- žích při -- ká -- zá -- ních bu -- du mlu -- vit před krá -- li
@@ -187,9 +187,9 @@
   \relative c' {
     \choralniRezim
     d4 c a c( d) d \barMaior
-    d f e d c d( c) \barMin d c d( f) e c( d) d \barFinalis
+    d f e d c d( c) \barMin bes c d( f) e c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Tří -- bils mě oh -- něm
@@ -235,10 +235,10 @@
   \relative c' {
     \choralniRezim
     e4( a g) g( a) a \barMin
-    a b g a( f) e \barMaior
-    f g a g f f( a) g f e e \barFinalis
+    a b g a( f e) e \barMaior
+    f g a a g a g f e e \barFinalis
 
-    d^\markup\rubrVelikAleluja f f( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Pro -- šel jsem
@@ -335,7 +335,7 @@
     a a b c a b a a( g) g \barMaior
     a c d e( d) c( d) \barMin c b g a a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     V_o -- čích vlád -- ců vzbu -- dím ob -- div:
