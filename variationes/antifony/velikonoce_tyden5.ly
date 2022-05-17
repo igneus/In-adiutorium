@@ -1203,6 +1203,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c b c( d) d \barMaior
     d d b a b a g \barMin
@@ -1219,6 +1220,56 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d d f e c( d) d \barMaior
+    d c b a b a g \barMin
+    f g a a
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a f f( g) g \barMin
+    b c a g a g f \barMaior
+    d f g g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
