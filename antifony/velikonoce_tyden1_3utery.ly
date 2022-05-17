@@ -55,7 +55,7 @@
   \relative c'' {
     \choralniRezim
     g4( c) c c b g \barMin b a g a g f g g \barMaior
-    g a g g \barFinalis
+    a b g g \barFinalis
   }
   \addlyrics {
     Ze -- mě je pl -- ná
@@ -107,9 +107,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a a c b c a g( a g) \barMin
-    f a c b g g \barMaior
-    a g f( a) g \barFinalis
+    c4 a a c c b a g( a g) \barMin
+    f g a a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Při -- jal jsi svr -- cho -- va -- nou moc
