@@ -112,12 +112,61 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d f e d( e) d \barMin
     f g f e d e d \barFinalis
 
     c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d( e) d \barMin
+    f g f e d e d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d f e d( e) d \barMin
+    f g f e d e d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din sou -- dí spra -- ved -- li -- vě,

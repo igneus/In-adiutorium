@@ -15,7 +15,7 @@
     d4 d d c d f e d( e) d \barMin
     f g f e d e d \barFinalis
 
-    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+    e^\markup\rubrVelikAleluja c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
@@ -78,6 +78,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 12"
+    placet = "nějak to stále není úplně ono"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
