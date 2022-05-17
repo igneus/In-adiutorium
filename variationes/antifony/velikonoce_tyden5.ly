@@ -1274,6 +1274,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "podle AR1912, 391"
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"
