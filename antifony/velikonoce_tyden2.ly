@@ -272,25 +272,24 @@
 \markup {\nadpisDen {Sobota}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( c d) \barMin
-    e c d \barMin
-    c b a( g) a \barMaior
-    b c a a \barMin
-    c d c( a) a \barFinalis
+    f4 f e g g a \barMin
+    e f d c \barMaior
+    f e g a \barMin
+    a a( g) g( f) f \barFinalis
   }
   \addlyrics {
-    Po -- koj vám!
-    To jsem já!
+    Po -- koj vám! To jsem já!
     A -- le -- lu -- ja.
     Ne -- boj -- te se!
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "podle AR1912, 390"
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}

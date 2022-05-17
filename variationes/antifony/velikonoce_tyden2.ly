@@ -531,6 +531,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c d) \barMin
     e c d \barMin
@@ -575,6 +576,38 @@
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Odpovídající latinská antifona \italic{Pax vobis, ego sum} je tradiční
+  a používá jednoduchý stereotypní nápěv, který se tudíž hodí zachovat -
+  tím spíš, že dosavadní nápěv není nijak zvlášť hodnotný.
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e g g a \barMin
+    e f d c \barMaior
+    f e g a \barMin
+    a a( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám! To jsem já!
+    A -- le -- lu -- ja.
+    Ne -- boj -- te se!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle AR1912, 390"
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
