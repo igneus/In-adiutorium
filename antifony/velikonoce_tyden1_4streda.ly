@@ -10,7 +10,7 @@
     \choralniRezim
     a4 g f bes a f d \barMin
     e e( g f) e f d d \barMaior
-    e g( f) d( e) d \barFinalis
+    e g( f) d d \barFinalis
   }
   \addlyrics {
     U te -- be, Hos -- po -- di -- ne,
@@ -31,12 +31,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a g) a( g) g \barMin g( f) g a( c) b c( d) d \barMaior
-    d e c a g( a) a( g) g \barMaior
-    c a g( a) g \barFinalis
+    c4( b a) g( a) g \barMin
+    f g a( c) b c( d) d \barMaior
+    d e d c b( c) a( g) g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
-    Se -- slal jsi své -- ho Du -- cha, Pa -- ne,
+    Se -- slal jsi
+    své -- ho Du -- cha, Pa -- ne,
     a vše by -- lo stvo -- ře -- no.
     A -- le -- lu -- ja.
   }
@@ -51,21 +53,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g g( a) a \barMin a( g) f g g( f) f \barMaior
-    g g g g g( a g) g( f) f \barMaior
-    d f g( f) f \barFinalis
+    g4 a c( d) d \barMin
+    c( d) e c c( d) d \barMaior
+    a d b c a g a( g) \barMin
+    f( g) a( c) a a \barFinalis
   }
   \addlyrics {
-    Bůh je krá -- lem ce -- lé -- ho svě -- ta,
+    Bůh je krá -- lem
+    ce -- lé -- ho svě -- ta,
     zpí -- vej -- te mu chva -- lo -- zpěv.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 47"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -77,9 +81,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( a') a( f) f g( f) d( e d4.) d \barMin
-    a'4 b!( g) g a a \barMaior
-    a a a( bes a g) g f e f d d \barMaior
+    d4 d( a' bes) a( g) g f( g) e e \barMin
+    f g( a) g a a \barMaior
+    a g f( e) d c e( f) e d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
