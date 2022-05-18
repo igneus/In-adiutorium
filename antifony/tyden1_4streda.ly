@@ -39,7 +39,7 @@
     a c d d e c d d \barMin
     c b a g b( c) a \barFinalis
 
-    b^\rubrVelikAleluja c a a \barFinalis
+    c^\rubrVelikAleluja d( c) a a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě vy -- svo -- bo -- dil,
@@ -63,7 +63,7 @@
     a4 c d d c e( d) d \barMin
     c a b( c a) a \barFinalis
 
-    g^\rubrVelikAleluja c b( a) a \barFinalis
+    b^\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé svět -- lo
