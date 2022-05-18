@@ -534,6 +534,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g f g \mark\sipka f( d) d \barMaior
+    g a g g g a g f g \mark\sipka f( d) d \barMaior
+    g g g g( c) c a c( b a) a \barMaior
+    a a a f e d
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Zů -- sta -- ne -- te -li ve mně
+    a zů -- sta -- nou -li ve vás mo -- je slo -- va,
+    mů -- že -- te pro -- sit, oč chce -- te,
+    a do -- sta -- ne -- te to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g f g f( e) d \barMaior
     g a g g g a g f g f( e) d \barMaior
     \mark\sipka f g a a( c) c a c( b a) a \barMaior
