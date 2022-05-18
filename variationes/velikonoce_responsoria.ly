@@ -427,6 +427,51 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
     }
   }
 
+  \markup\justify{
+    Letos začátkem doby velikonoční, když jsem tohle responsorium po letech
+    zase začal den co den zpívat, měl jsem cukání kodifikovat prodloužení
+    prvního jednoslabičného slova, m.j. jako určitou kompensaci toho,
+    že tu na recitační tón vyjde nezvykle jen jediná slabika.
+    Ale s úpravou jsem váhal a záhy mě přesvědčení o její žádoucnosti
+    opustilo úplně a teď ji tu zaznamenávám jako vyzkoušenou slepou cestu.
+    Danou notu prodloužit je jistě jedna z legitimních možností interpretace,
+    ale jsem dalek toho, kodifikovat ji jako závaznou.
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna d
+      \mark\sipka f4-- e g( a) a \barMax
+      \respVIalelujaResponsum \barFinalis
+
+      %V
+      \neviditelna f
+      f f f f e g a a \barMax
+      \neviditelna f
+      \respVIalelujaResponsum \barFinalis
+
+      % Slava
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Pán vstal z_hro -- bu._*
+      \textRespAleluja
+      \Verse On za nás u -- mřel na kří -- ži.
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ferie-rch"
+      titulus = "pondělí až sobota - ranní chvály"
+      piece = \markup\sestavTitulekRespII
+    }
+  }
+
   \pageBreak
 
   \score {
