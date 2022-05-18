@@ -226,8 +226,8 @@ velikTIIpatekNespAntIII = \score {
     \choralniRezim
     d4 d d d d( f) d d \barMin
     d e( f) d( c) c \barMaior
-    f g f d d \barMaior
-    c c c( d) d \barFinalis
+    f g f d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je má sí -- la_*

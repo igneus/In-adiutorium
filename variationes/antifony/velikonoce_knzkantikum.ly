@@ -808,12 +808,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d( f) d d \barMin
     d e( f) d( c) c \barMaior
     f g f d d \barMaior
     \mark\sipka c c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Spíš to ještě není konečná verze, ale určitě je to zlepšení:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d( f) d d \barMin
+    d e( f) d( c) c \barMaior
+    f g f d d \barMin
+    \mark\sipka e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je má sí -- la_*
@@ -857,6 +886,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f e f( g) g g f e d \barMaior
+    e d c e( f d) d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_* a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f g f g( a) a g f g g \barMaior
     g f e d c \barMin
     d f g( f) f \barFinalis
@@ -883,6 +934,31 @@
     f4( g) g( a) g \barMin
     a4 bes c( bes) a g f g g \barMaior
     g f e d c \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_* a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 15"
+    fial = "antifony/tyden1_1nedele.ly#up-ant2?zacatek"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( g) g( a) g \barMin
+    a4 bes c( bes) a g f g g \barMaior
+    \mark\sipka a g f d c \barMin
     d f g( f) f \barFinalis
   }
   \addlyrics {
