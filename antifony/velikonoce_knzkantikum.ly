@@ -60,8 +60,8 @@ velikTIstredaNespAntIII = \score {
     \choralniRezim
     d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
     b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
-    g f g a( b a) g a g g \barMaior
-    f g( a) g g \barFinalis
+    f g a a( c) b a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Všech -- no po -- chá -- zí_* od te -- be, Bo -- že;
@@ -74,7 +74,6 @@ velikTIstredaNespAntIII = \score {
     modus = "VII"
     differentia = "d"
     psalmus = "Kol 1"
-    placet = "závěr není zrovna zpěvný"
     id = "t1-st"
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
     fial = "mezidobi_trojice.ly#rch-a3?+aleluja"

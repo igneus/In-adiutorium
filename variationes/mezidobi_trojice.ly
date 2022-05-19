@@ -1057,8 +1057,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
     b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
@@ -1072,6 +1075,97 @@
   \header {
     quid = "3. ant."
     modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
+    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    \mark\sipka f g a a( c) b a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
+    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    f g a \mark\sipka a( c b) g a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
+    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    f g a a( c) b \mark\sipka g a a \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 1.1
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) c c \barMin d( e) d c c( d) d \barMaior
+    b( d) c b a g a( g) g \barMin a( c) b a( g) g \barMaior
+    a g f a a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"

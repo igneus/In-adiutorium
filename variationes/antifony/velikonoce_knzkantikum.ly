@@ -155,6 +155,7 @@
 %velikTIstredaNespAntIII =
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
     b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
@@ -172,8 +173,38 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Kol 1"
+    placet = "závěr není zrovna zpěvný"
     id = ""
     fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
+    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    f g a a( c) b a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí_* od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Kol 1"
+    id = "t1-st"
+    fons = "slavnost Nejsvětější Trojice, r.ch., 3. ant.; přidáno aleluja"
+    fial = "mezidobi_trojice.ly#rch-a3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
