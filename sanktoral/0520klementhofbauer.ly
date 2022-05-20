@@ -15,12 +15,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 b c a g g a g a( c) c \barMin
-    a c b g g \barFinalis
+    g4 b c a g g a g a( c) b \barMaior
+    b c a g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Le -- ží mi na srd -- ci pro -- spěch círk -- ve
     a spá -- sa du -- ší.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
