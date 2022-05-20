@@ -64,7 +64,7 @@
     f g a a a( bes) g g( a) a \barMaior
     g f d e d \barFinalis
 
-    e^\rubrVelikAleluja f d d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Můj ja -- zyk
