@@ -6,11 +6,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f g a g g( a) a \barMaior
-    a c( d c a) a \barMin a g f g( a) f( d) d \barMaior
-    c f e( d) d \barFinalis
+    a4 c d e c c( d) d \barMaior
+    d c( b a) a \barMin b a g a( c) b( a) a \barMaior
+    b g a a \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj na mě, Pa -- ne,_*
@@ -19,8 +19,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 51"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -31,9 +31,9 @@
   \relative c'' {
     \choralniRezim
     c4 d d \barMin
-    e d c d c \barMaior
+    e d c d( c) c \barMaior
     d-- c d c b a g g \barMaior
-    f a g g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     O -- prav -- du,_*
@@ -54,13 +54,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g) g \barMin
-    f g a f g g a \barMin
-    a f f( e) f \barFinalis
+    f4 g a g f g f d d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
-    Služ -- te_*
-    Hos -- po -- di -- nu s_ra -- dos -- tí.
+    Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
     A -- le -- lu -- ja.
   }
   \header {
@@ -78,8 +76,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f e f g( a) a( g) \barMin
-    d d f e c d d \barMaior
+    d4 d d f e f d( c) c \barMin
+    f g( a g) f e c d d \barMaior
     e f d d \barFinalis
   }
   \addlyrics {
@@ -100,10 +98,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g \barMaior
-    g a( c) c( a) a
-    c b a g g \barMin
-    f e f( g) g \barFinalis
+    c4 c c( d c) c \barMaior
+    c b( c) a a
+    c b a g( a) g \barMaior
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*
