@@ -448,7 +448,7 @@
   \relative c'' {
     \choralniRezim
     c4 \mark\sipka d c b g a g( a g) \barMaior
-    f a c c c \mark\sipka c( d) c c \barMin
+    f a c c c c( d) c c \barMin
     b \mark\sipka c a a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
