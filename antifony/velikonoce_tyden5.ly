@@ -395,14 +395,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g a \barMin
-    a g a g e e \barMaior
-    f e d f g e e \barMaior
-    f g g e \barFinalis
+    a4 a a g e a g a b a a \barMaior
+    a a a g f e e \barMin
+    f f d( e) e \barFinalis
   }
   \addlyrics {
-    Za -- cho -- vá -- te -li
-    mo -- je při -- ká -- zá -- ní,
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
     zů -- sta -- ne -- te v_mé lás -- ce.
     A -- le -- lu -- ja.
   }
@@ -420,9 +418,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 f g g( f g) g \barMin
-    g a bes bes c bes a g g( a) a \barMaior
-    a a a a g f g( a g) f e f d( c) c \barMin d f e( d) d \barFinalis
+    d4 f g f( g) g \barMin
+    g a bes a g a f g g( a) a \barMaior
+    a a g f g a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     To jsem k_vám mlu -- vil,_*

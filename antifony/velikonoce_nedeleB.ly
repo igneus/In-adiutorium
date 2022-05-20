@@ -270,9 +270,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 f g g( f g) g \barMin
-    g a bes bes c bes a g g( a) a \barMaior
-    a a a a g f g( a g) f e f d( c) c \barMin d f e( d) d \barFinalis
+    d4 f g f( g) g \barMin
+    g a bes a g a f g g( a) a \barMaior
+    a a g f g a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     To jsem k_vám mlu -- vil,_*
@@ -286,7 +287,6 @@
     differentia = "D"
     psalmus = ""
     id = "viben"
-    placet = "r"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

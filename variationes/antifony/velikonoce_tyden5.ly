@@ -1364,10 +1364,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {Čtvrtek}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g a \barMin
     a g a g e e \barMaior
@@ -1391,12 +1394,111 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a \mark\sipka g a g f e e \barMaior
+    f e d f g e e \barMaior
+    f g \mark\sipka f( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
+    a a a g f e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
+    a a a g \mark\sipka a g f
+    e d e e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 f g g( f g) g \barMin
     g a bes bes c bes a g g( a) a \barMaior
     a a a a g f g( a g) f e f d( c) c \barMin d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    To jsem k_vám mlu -- vil,_*
+    a -- by mo -- je ra -- dost by -- la ve vás
+    a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleB.ly#viben"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 f g f( g) g \barMin
+    g a bes a g a f g g( a) a \barMaior
+    a a g f g a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     To jsem k_vám mlu -- vil,_*

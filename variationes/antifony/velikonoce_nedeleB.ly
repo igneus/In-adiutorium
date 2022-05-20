@@ -679,8 +679,11 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 f g g( f g) g \barMin
@@ -703,6 +706,34 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 f g \mark\sipka f( g) g \barMin
+    g a bes \mark\sipka a g a f g g( a) a \barMaior
+    a a \mark\sipka g f g a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    To jsem k_vám mlu -- vil,_*
+    a -- by mo -- je ra -- dost by -- la ve vás
+    a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
