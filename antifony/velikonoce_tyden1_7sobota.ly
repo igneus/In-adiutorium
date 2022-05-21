@@ -6,12 +6,12 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f e( d) e \barMaior
-    e f g a g \barMin
-    a( g f) d d e e \barMaior
-    f f e( d) e \barFinalis
+    a4 b g a a \barMaior
+    a g f e e
+    e( f) d d e e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Smi -- luj se, Bo -- že,_*
@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -32,24 +32,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d) c c( d) \barMin
-    d d e d c( d) c \barMaior
-    c a a c b c a g a g \barMaior
-    f g a b( c) a a( g) f
-    g( a) a g g \barFinalis
+    g4 f( g) g( a) a \barMin
+    c b a b g g \barMaior
+    c( d) c c \barMin
+    d e d c b a( g) g \barMaior
+    g a a f e d d
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Kdo zví -- tě -- zí,_*
     bu -- dou zpí -- vat pí -- seň
     Moj -- ží -- še,
-      Bo -- ží -- ho slu -- žeb -- ní -- ka,
+    Bo -- ží -- ho slu -- žeb -- ní -- ka,
     a pí -- seň Be -- rán -- ko -- vu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Ex 15"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -59,9 +60,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f f( g) g \barMaior
-    g f a g f e d \barMin
-    e c d d \barFinalis
+    e4 g a a a( b) a a \barMaior
+    b a g a g e e \barMin
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Moc -- ně vlád -- ne nad ná -- mi_*
@@ -70,8 +71,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 117"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
