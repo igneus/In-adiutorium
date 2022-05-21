@@ -17,8 +17,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e f g a bes a \barMaior
-    g g a g f d d e f( d) c d d \barFinalis
+    d4 d c f g g( a) a \barMaior
+    a g f g f d d e f( d) c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }

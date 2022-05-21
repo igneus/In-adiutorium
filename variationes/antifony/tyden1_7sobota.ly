@@ -217,7 +217,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) e f g a bes a \barMaior
     g g a g f d d \mark\sipka e f( d) c d d \barFinalis
@@ -235,6 +235,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 105-I"
+    placet = "netypický začátek"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -269,6 +270,55 @@
     \choralniRezim
     d4 d c f g a g \barMaior
     \mark\sipka a a g f e d d d e( d) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    g a g f d c c d f( e) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    \mark\sipka a g f g f d d e f( d) c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
