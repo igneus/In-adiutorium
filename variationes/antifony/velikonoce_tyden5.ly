@@ -1676,12 +1676,66 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c a g a( g) g \barMin
     f g( a) a( c b) c( d) d \barMaior
     d d c b c( a g a) a( g) \barMin
     a bes a( g) f g a a g g \barMaior
     f g g g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a( g) g \barMin
+    \mark\sipka g a( c b) c d d \barMaior
+    d d c b \mark\sipka c( a g) g \barMin
+    \mark\sipka a a a f e f g g g \barMaior
+    a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c a g a( g) g \barMin
+    g a( c b) c d d \barMaior
+    d d c b c( a g) g \barMin
+    a a a \mark\sipka g f g( a) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Prá -- vě pro -- to Kris -- tus u -- mřel

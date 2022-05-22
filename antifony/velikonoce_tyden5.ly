@@ -500,10 +500,10 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c a g a( g) g \barMin
-    f g( a) a( c b) c( d) d \barMaior
-    d d c b c( a g a) a( g) \barMin
-    a bes a( g) f g a a g g \barMaior
-    f g g g \barFinalis
+    g a( c b) c d d \barMaior
+    d d c b c( a g) g \barMin
+    a a a g f g( a) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Prá -- vě pro -- to Kris -- tus u -- mřel
