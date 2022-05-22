@@ -266,6 +266,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "lépe"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -304,22 +305,24 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f f e d c c \barMin
-    f f f( g) a f e \barMaior
-    d d d e d c d( c a) c d d d \barMax
-    d d d d f g f e d d e c a \barMin
-    c d d d \barFinalis
+    d4 d d c d d( f) f \barMin
+    g a g f g g \barMaior
+    a g f g f e d( c) \barMin
+    e f d d \barMax
+    a' a a g f g f d d f e d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Po -- koj vám za -- ne -- chá -- vám,
     svůj po -- koj vám dá -- vám;
-    ne ten, kte -- rý dá -- vá svět, já vám dá -- vám.
+    ne ten, kte -- rý dá -- vá svět,
+    já vám dá -- vám.
     Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "vimag2"

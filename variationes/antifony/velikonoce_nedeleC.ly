@@ -879,6 +879,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f f e d c c \barMin
     f f f( g) a f e \barMaior
@@ -902,6 +903,91 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e d c \barMin
+    f g f e d d \barMaior
+    f f g a g f d( c) \barMin
+    f e d d \barMaior
+    c d f e f g f d d f e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám za -- ne -- chá -- vám,
+    svůj po -- koj vám dá -- vám;
+    ne ten, kte -- rý dá -- vá svět,
+    já vám dá -- vám.
+    Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e d \mark\sipka d \barMin
+    f g f e d d \barMaior
+    \mark\sipka f g a g f g f( e d) c d d d \barMax
+    \mark\sipka d d f e f g f d d f e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám za -- ne -- chá -- vám,
+    svůj po -- koj vám dá -- vám;
+    ne ten, kte -- rý dá -- vá svět, já vám dá -- vám.
+    Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d d( f) f \barMin
+    g a g f g g \barMaior
+    a g f g f e d( c) \barMin
+    e f d d \barMax
+    a' a a g f g f d d f e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám za -- ne -- chá -- vám,
+    svůj po -- koj vám dá -- vám;
+    ne ten, kte -- rý dá -- vá svět,
+    já vám dá -- vám.
+    Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {7. neděle velikonoční}}
 
