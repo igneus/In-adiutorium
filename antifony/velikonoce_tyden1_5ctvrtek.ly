@@ -34,8 +34,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4-- f e f g a \barMin
-    f d e4. d \barFinalis
+    d4 f f e d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Pán_* vy -- kou -- pil svůj lid.
@@ -43,7 +43,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Jer 31"
     id = "rch-a2"
@@ -54,7 +54,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4. c d4 c b a g \barMin
+    c4 c b g a a g \barMin
     f a g g \barFinalis
   }
   \addlyrics {
@@ -64,7 +64,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 48"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -74,19 +74,21 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 f( e f e) e \barMin e f a g f( g e) e \barMaior
-    d f f( e) e \barFinalis
+    a4 g( a g) g \barMin
+    f g a g f( e) e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
-    Můj ná -- řek jsi ob -- rá -- til v_ra -- dost.
+    Můj ná -- řek
+    jsi ob -- rá -- til v_ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = "Žalm 30"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
