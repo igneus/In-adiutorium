@@ -783,8 +783,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a( g) c( d) c \barMin
     c c c c( d) d d( e d c) a \barMin c b g a( g) \barMaior
@@ -810,6 +813,69 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    d d d e d c( d c) c \barMin
+    c b g a( g) \barMaior
+    a g f g a a( g) g \barMaior
+    c d e d c c( d) \barMin
+    d d c b g a b g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý,
+    kte -- ré -- ho O -- tec po -- šle
+    ve jmé -- nu mém,
+    ten vás na -- u -- čí vše -- mu
+    a při -- po -- me -- ne vám
+    všech -- no, co jsem vám ře -- kl já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    d d d e d c( d c) c \barMin
+    c b g a( g) \barMaior
+    a g f g a a( g) g \barMaior
+    c d e d c c( d) \barMin
+    d d c b g a \mark\sipka a g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý,
+    kte -- ré -- ho O -- tec po -- šle
+    ve jmé -- nu mém,
+    ten vás na -- u -- čí vše -- mu
+    a při -- po -- me -- ne vám
+    všech -- no, co jsem vám ře -- kl já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

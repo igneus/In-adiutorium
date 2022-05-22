@@ -274,19 +274,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( g) c( d) c \barMin
-    c c c c( d) d d( e d c) a \barMin c b g a( g) \barMaior
-    a a a b c d( c) c \barMaior
-    d d d c b a( b) \barMin
-    b( c) c c b g a a g \barMaior
-    f g a( b) g \barFinalis
+    g4( a) c( d) d \barMin
+    d d d e d c( d c) c \barMin
+    c b g a( g) \barMaior
+    a g f g a a( g) g \barMaior
+    c d e d c c( d) \barMin
+    d d c b g a a g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý,
-    kte -- ré -- ho O -- tec po -- šle ve jmé -- nu mém,
+    kte -- ré -- ho O -- tec po -- šle
+    ve jmé -- nu mém,
     ten vás na -- u -- čí vše -- mu
-    a při -- po -- me -- ne vám všech -- no,
-    co jsem vám ře -- kl já.
+    a při -- po -- me -- ne vám
+    všech -- no, co jsem vám ře -- kl já.
     A -- le -- lu -- ja.
   }
   \header {
