@@ -155,11 +155,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g f d d( g) g \barMaior
-    a4 c a g a \barMin
-    a a g f e( f) d d \barFinalis
+    c4 c b a g( a) g \barMaior
+    g f a c( d) c \barMin
+    c a c b g( a) g g \barFinalis
   }
   \addlyrics {
     O -- te -- vři mé o -- či,
@@ -168,10 +168,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 119-ג"
-    placet = "lépe"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

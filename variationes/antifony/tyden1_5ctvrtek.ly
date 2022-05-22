@@ -594,7 +594,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f d d( g) g \barMaior
     a4 c a g a \barMin
@@ -631,6 +631,205 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f g g( a) a \barMin
+    a g f d d \barMin
+    f d f e c d d \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    g f e d( c) c \barMin
+    d f g( a) g f( g) f f \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMaior
+    g f e \mark\sipka d c
+    f g a a g f f \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f a a( g) g \barMin
+    a g f d( e) d( c) \barMin
+    d f f( g) a g f f \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a) g \barMaior
+    g f g a a
+    c c b a a g g \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a) g \barMaior
+    g f g a a
+    c c b a \mark\sipka g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a) g \barMaior
+    \mark\sipka g f a c( d) c \barMin
+    c a c b a g g \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a g( a) g \barMaior
+    g f a c( d) c \barMin
+    c a c b \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-ג"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a) g \barMaior
+    g f \mark\sipka g a( c) c \barMin
+    c a c b g( a) g g \barFinalis
+  }
+  \addlyrics {
+    O -- te -- vři mé o -- či,
+    ať po -- zo -- ru -- ji
+    di -- vy tvé -- ho zá -- ko -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 119-ג"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
