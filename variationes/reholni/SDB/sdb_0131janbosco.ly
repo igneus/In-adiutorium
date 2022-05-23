@@ -467,6 +467,73 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f f g( a) a
+    a g f g g( f) f \barMin
+    f d f g g f f \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g( a) g \barMin
+    f g a f g g \barMaior
+    f d f g g f f \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) g \barMin
+    a a g f e( f d c) c \barMaior
+    d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \key f \major
     \choralniRezim
     f4 g a f f \barMin
@@ -546,6 +613,50 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( e) d \barMin
+    c d c b a( g) g \barMaior
+    a a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c d e c d d \barMaior
+    c a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
+    dám do služ -- by mlá -- de -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "1ne-am"
     piece = \markup {\sestavTitulekBezZalmu}

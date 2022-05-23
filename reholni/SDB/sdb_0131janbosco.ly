@@ -117,16 +117,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f g( a) g \barMin
+    f g a f g g \barMaior
+    f d f g g f f \barFinalis
   }
   \addlyrics {
-    Ce -- lý svůj ži -- vot a všech -- ny své sí -- ly
+    Ce -- lý svůj ži -- vot
+    a všech -- ny své sí -- ly
     dám do služ -- by mlá -- de -- ži.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "f"
     psalmus = ""
     id = "1ne-am"
     piece = \markup {\sestavTitulekBezZalmu}
