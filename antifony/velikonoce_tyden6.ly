@@ -234,11 +234,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c b a d c d e d d \barMaior
-    a a a a( d) d c e c c( d) d \barMin
-    c c b g g a a( g) \barMaior
-    a b c c a g a g f( g) g \barMaior
-    g g( a) g g \barFinalis
+    d4 d c( d) c c d e c c d d \barMaior
+    a a a a( d) d e f e d( c d) d \barMin
+    d c b g g a a( g) \barMaior
+    f g a a a a c b a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh nás ob -- no -- vil k_no -- vé -- mu ži -- vo -- tu
@@ -260,13 +260,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d) d \barMin d d e c c d( c) a a \barMaior
-    c d c b g a g g \barMaior
-    f a( c) c \barMin d( e d) c( b) a a g( a) a( g) g \barMaior
-    f g( a) g g \barFinalis
+    c4 d( e) e \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a g( a) g g \barMaior
+    c d e c b a g a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
-    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
     ten vy -- dá o mně svě -- de -- ctví.
     Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
     A -- le -- lu -- ja.

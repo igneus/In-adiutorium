@@ -1392,6 +1392,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c b a d c d e d d \barMaior
     a a a a( d) d c e c c( d) d \barMin
@@ -1418,6 +1419,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) c c d e c c d d \barMaior
+    a a a a( d) d e f e d( c d) d \barMin
+    d c b g g a a( g) \barMaior
+    f g a a a a c b a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ob -- no -- vil k_no -- vé -- mu ži -- vo -- tu
+    a zmrt -- vých -- vstá -- ním Je -- ží -- še Kris -- ta
+    nám dal ži -- vou na -- dě -- ji
+    na dě -- dic -- tví, kte -- ré ne -- po -- mi -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( d) d \barMin d d e c c d( c) a a \barMaior
     c d c b g a g g \barMaior
@@ -1439,6 +1470,91 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d \barMin
+    d d e c c d( c) a a \barMaior
+    c d c b g a g g \barMaior
+    f \mark\sipka a c d e d c b a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d( e) e \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a g( a) g g \barMaior
+    c d e c b a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d( e) e \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a g( a) g g \barMaior
+    c d \mark\sipka c b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Úterý}}
 
