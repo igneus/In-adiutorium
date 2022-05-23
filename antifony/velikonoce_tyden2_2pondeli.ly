@@ -48,6 +48,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Sir 36"
+    placet = "aleluja si nejsem jist"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -110,10 +111,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g-- \barMin
-    f f a( f) f( g) g \barMaior
-    a a g f d e f d c c \barMaior
-    d f e( d) d \barFinalis
+    f4 g a \barMin
+    g f g( a) g g \barMaior
+    a a g f e f d c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Bla -- ze těm,_*
