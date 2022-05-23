@@ -58,7 +58,7 @@
     \choralniRezim
     d4 d d( c) c( d) d \barMin
     d( g) f g( d) d d( e) f d( c d) d \barMaior
-    d c d f( g f d) d d e( f) d d \barFinalis
+    d c d f( g f d) d d e( f) d d \barMaior
     e c c( d) d \barFinalis
   }
   \addlyrics {

@@ -276,7 +276,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) c( d) d \barMin
     d( g) f g( d) d d( e) f d( c d) d \barMaior
@@ -303,10 +303,37 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) c( d) d \barMin
+    d( g) f g( d) d d( e) f d( c d) d \barMaior
+    d c d f( g f d) d d e( f) d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?konec"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 d \mark\sipka c( d) c c \barMin
     \mark\sipka bes c d d d( f) e d( e d) d \barMaior
-    d c d f( g f d) d d e( f) d d \barFinalis
+    d c d f( g f d) d d e( f) d d \barMaior
     e c c( d) d \barFinalis
   }
   \addlyrics {
