@@ -8,8 +8,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f g f( e) d \barMin
-    e f d c e f d d \barMaior
+    d4 c d f e d( e) e \barMin
+    f f e d e c d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -28,12 +28,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a a a \barMin
-    a a a c b c a4.( g) \barMaior
-    a4( c) b c( d) d c b c a4. g \barMaior
-    f4 g a( g) g \barFinalis
+    c4 d d d \barMin
+    d d d f e f d( c) \barMaior
+    d4( f) e f( g) g f e f d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,_*
@@ -43,8 +43,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "Hab 3"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -82,7 +82,7 @@
     \choralniRezim
     d4 c d f e d c a b( c) c \barMaior
     c( d c) b( g) c a a \barMaior
-    g a c( b) a \barFinalis
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
@@ -104,7 +104,7 @@
     \choralniRezim
     a4 g a a( bes) a g f4.( g) \barMaior
     g4 g a g f( d) d d( e) c d d \barMaior
-    c d e d \barFinalis
+    c d e( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din chrá -- ní svůj lid_*
