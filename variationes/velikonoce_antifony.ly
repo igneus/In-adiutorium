@@ -224,9 +224,12 @@
   \markup{Od slavnosti Nanebevstoupení Páně:}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-
+      d4( c b a) a4.( b) \barMin
+      a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
+      d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
+      d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -236,10 +239,109 @@
     }
     \header {
       quid = "ant."
-      modus = ""
-      differentia = ""
+      modus = "VII"
+      differentia = "d"
       psalmus = ""
-      id = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( e d) d \barMin
+      d( c) b c d d \barMin e( g f) e( d) c d d \barMaior
+      d4 d c( b a b) b \barMin c a g( a) g g \barMaior
+      f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( e d) d \barMin
+      d( c) b c d d \barMin e( g f) e( d) c d d \barMaior
+      d4 \mark\sipka c d( e d) d \barMin c a c( b) a( g) g \barMaior
+      f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( e d) d \barMin
+      d( c) b c d d \barMin \mark\sipka e g f e( d c d) d \barMaior
+      d4 c d( e d) d \barMin \mark\sipka c( b) a c( b) a( g) g \barMaior
+      f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\nadpisSkupiny 2
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4( a bes c) c \barMin
+      c( d) c b! b( c a g) a4.( g) \barMin f4( g) a g f f \barMaior
+      a g a( c b c d c d) d( c) \barMin d( e f) c( a) g( a) a( c) c \barMaior
+      a( g) a( bes a g a) f( g f) f \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "V"
+      differentia = "a"
+      psalmus = ""
+      fial = "velikonoce_nanebevstoupeni.ly#invit?zacatek"
+      id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
