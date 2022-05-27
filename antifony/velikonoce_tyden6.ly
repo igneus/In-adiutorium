@@ -290,12 +290,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c b( g) \barMin
-    a a g a g f e e \barMaior
-    f g g( a) a a c( b c) a( g) g( a) a \barMaior
-    c c c c( d) c \[ b( a g \] \[ a g) \] \barMin
-    f f g a a g f e e \barMaior
-    d f( g) e e \barFinalis
+    a4 a a( c) a b \barMin
+    b c a g a g f( e) e \barMaior
+    f g a a a c( b c) d( c) a a \barMaior
+    a b c c( d) d a \barMin
+    a g a g a g f e e \barMin
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Ješ -- tě krát -- ký čas,
@@ -456,9 +456,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a( c b) g( a) g e f e d d( e) \barMaior
-    f g a a g f e \barMaior
-    d f g( f) e \barFinalis
+    a4 g a c c b a f g a a \barMaior
+    a g a a g f e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Je -- žíš je ko -- ru -- no -- ván slá -- vou a ctí,
@@ -476,12 +476,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d e f d( e d) d \barMin
-    d( a') a( g) a c( b) a a \barMaior
-    g f g a( f e) e \barMin
-    d f e( d) d \barFinalis
+    d4 d( f) e d c( d) d \barMin
+    d c b c( a) a( g) g \barMaior
+    a g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Váš ne -- bes -- ký O -- tec
@@ -491,8 +491,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
