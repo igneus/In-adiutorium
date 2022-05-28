@@ -32,9 +32,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( c) d f f \barMin g( f) g g( a) a \barMaior
-    a g a g( f d) f g g( f) f \barMaior
-    d f g( f) f \barFinalis
+    f4 g a a g f f( g) g \barMaior
+    a g a g( f) d f g( f) f \barMin
+    g a f f \barFinalis
   }
   \addlyrics {
     Dou -- fa -- li jsme v_Hos -- po -- di -- na_*
@@ -52,29 +52,22 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( f g) g4.( a) \barMin a4( c) b( a) a a a( g) g( a) a \barMaior
-    a( c d) c( d) d \barMin d c( d) c( b) a g a( g) g \barMaior
-    a f( a) a( g) g \barFinalis
+    f4 g a a g f g( a) g g \barMaior
+    a a g f g f d f e d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
-    Ze -- mě_* vy -- da -- la svou ú -- ro -- du;
-    já -- sej -- te a ra -- duj -- te se, li -- dé!
+    Ze -- mě vy -- da -- la svou ú -- ro -- du;_*
+    nechť se li -- dé ra -- du -- jí a já -- sa -- jí.
     A -- le -- lu -- ja.
   }
   \header {
-    % vyhodou oficialniho textu je doslovna citace zalmu
-    % v liturgickem prekladu;
-    % je nicmene tak nezpevny, ze jsem se rozhodl pro upravu
-    % nicici doslovnost citace
-    textus_approbatus = "Země vydala svou úrodu;
-    nechť se lidé radují a jásají. Aleluja."
     quid = "3. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 67"
-    placet = "zkusit zhudebnit doslovné znění"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
