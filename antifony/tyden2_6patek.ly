@@ -37,7 +37,7 @@
     d4 d d c( a) \barMin
     b c a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty víš
@@ -59,10 +59,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( e) d \barMin d e d c d c b g g \barMaior
+    d4 d c( d) c c \barMin d d c b g g \barMaior
     a f f a a c c b g g \barFinalis
 
-    f^\rubrVelikAleluja a a( g) g \barFinalis
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,

@@ -103,12 +103,62 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( e) d \barMin d e d c d c b g g \barMaior
     a f f a a c c b g g \barFinalis
 
     f^\rubrVelikAleluja a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,
+    ne -- o -- puš -- těj mě, Pa -- ne, má spá -- so.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-III"
+    placet = "melodie _Bože_ je divná"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( e) d \barMin d e d c d c b g g \barMaior
+    a f f a a c c b g g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,
+    ne -- o -- puš -- těj mě, Pa -- ne, má spá -- so.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d c( d) c c \barMin d d c b g g \barMaior
+    a f f a a c c b g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, vy -- zná -- vám před te -- bou svou vi -- nu,
@@ -219,12 +269,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( a) \barMin
     b c a a g g \barFinalis
     
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c( a) \barMin
+    b c a a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty víš

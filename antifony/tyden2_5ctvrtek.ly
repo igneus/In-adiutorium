@@ -15,7 +15,7 @@
     g4 a b b c d c a b b \barMaior
     c b c a g a c( d) b a g g \barFinalis
 
-    f^\rubrVelikAleluja a a( g) g \barFinalis
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
