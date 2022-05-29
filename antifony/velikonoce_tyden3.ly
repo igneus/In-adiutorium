@@ -34,7 +34,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b c d c d d4.( c) \barMin b4( c) a a( g) g \barMaior
+    c4 c b c d c d( e) d \barMin c b a( g) g \barMaior
     f g a a c b g g \barMin
     a g f( g) g \barFinalis
   }
@@ -45,7 +45,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = "Žalm 116-II"
     id = "ne-1ne-a2"
@@ -186,7 +186,7 @@
     c c c d c a a \barMaior
     a a( c) b c a g g( a g) \barMin
     g f d f( g) a g g \barMaior
-    f f f( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Tvor -- stvo bu -- de vy -- svo -- bo -- ze -- no
@@ -278,10 +278,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') g4.( f4 g e4. d) \barMaior
-    a'4 a( c) a \barMin a g f g a a \barMaior
-    d, d d d d( f) e c d \barMaior
-    a' g( f g4. e4) d( c) d \barFinalis
+    c4 d d( a') g( a) \barMaior
+    a4 a( c) a \barMin a g f g a a \barMaior
+    a( b c) a( g) g f e( f) d c d \barMaior
+    f e( c f d) c( d) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -294,7 +294,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 19"
-    placet = "lépe"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
