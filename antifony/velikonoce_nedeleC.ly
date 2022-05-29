@@ -335,12 +335,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g f( g) g \barMin
-    f g a a a( c) c \barMin c d c d d( c) c d b a a( g) g \barMax
-    g g( a) g g( f) g( a) a \barMaior
-    a a g( c) d b c a \barMin b c c( d) d \barMaior
-    d c d( c) a( b) g g \barMin g f( g a) a b g g \barMaior
-    f g a( g) g \barFinalis
+    g4 g g( a) g f( g) g \barMaior
+    f g a a a( c) c \barMin c d c d d( c) c b c a g( a) g \barMax
+    g a g g f( e) d \barMaior
+    f g a( c) d b c a \barMin b c c( d) d \barMaior
+    d c d d( e d) c( b a) a \barMin a c b a g( a) g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Pro -- sím ne -- jen za ně,
@@ -363,12 +363,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c( a c g) g \barMin f g a a( c) c b( d) c( b) \barMin
+    g( f g a) a \barMin a g a a( c) b c( d) d( c) \barMaior
     c c b( a g) a( g) \barMaior
-    g g f e d( e) d \barMin f e f( a) a g g \barMin
-    a a( b c) a a g g \barMaior
-    c b d d( c) c \barMin c b a g g g( a) g f
-    a b g g \barFinalis
+    g g f e d( e) d \barMin f e f( a) a g g \barMaior
+    a a( c b) c a g( a) g \barMaior
+    c d d c( d c) c \barMin a c b a g g( a) g f
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Slá -- vu, kte -- rou jsi, Ot -- če, dal mně,
@@ -389,13 +389,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 f g( a) \barMin
-    a b c a g g( a g) \barMaior
-    c c c a c g( f) \barMin d f g g a( f g) \barMaior
-    a a a( b c) a a a( b) g g \barMaior
-    f g( a) a( g) g \barFinalis
+    d4 c d
+    f e f d c d( c) \barMaior
+    f g a g f g f e d d c \barMaior
+    d c f g f e f( d c4.) c \barMin
+    a4 c c( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, chci,
@@ -406,8 +406,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
