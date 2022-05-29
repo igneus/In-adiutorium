@@ -10,8 +10,18 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup\justify{
+  Přišlo by mi vhodnější, aby buďto obě aleluja byla prostá,
+  nebo úvodní jednodušší a závěrečné zdobnější, ale zatím všechny moje pokusy,
+  které alespoň trochu za něco stály, dopadly právě opačně.
+  Asi dílem proto, že závěrečná aleluja jsou v repertoáru hojná a jsem zvyklý
+  sekat je určitým způsobem, dílem proto, že úvodní aleluja nemusí vytvořit
+  uspokojivý závěr a vznikající melodie tak má méně omezení v rozletu.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 a( g) a( b) g( f e) \barMaior
     e d( a') a a( b) a g g \barMin
@@ -36,6 +46,32 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a( g) a( b) g( f e) \barMaior
+    \mark\sipka d d( a') a a( b) a g g \barMin
+    f f( g a) g( a) f( e) e \barMaior
+    \mark\sipka f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Bůh vzkří -- sil Kris -- ta z_mrt -- vých
+    a o -- sla -- vil ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 145-I"
+    id = "ne-mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d( f) d4.( e4 f d4. c) \barMaior
     f4 g( f) g( f) e( d e f) e( d) \barMin e( f e) d c( b) a \barMaior
@@ -58,6 +94,103 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( f) d4.( e4 f d4. c) \barMaior
+    f4 g( a) g( f) e4. d \barMin e4 d c( d) c \barMaior
+    d c d f e( d) c( d) d \barMaior
+    f( g f) e( c) e( f) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vy -- vý -- še -- ný jsi, Hos -- po -- di -- ne,
+    na -- de všech -- na ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a \barMaior
+    a a( c) b a a \barMin g f g( a) a \barMaior
+    a a g f e( f) d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vy -- vý -- še -- ný jsi, Hos -- po -- di -- ne,
+    na -- de všech -- na ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') \mark\sipka g( a) \barMaior
+    a a( c) b a a \barMin g f g( a) a \barMaior
+    a a g f e( f) d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vy -- vý -- še -- ný jsi, Hos -- po -- di -- ne,
+    na -- de všech -- na ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( a') g( a) \barMaior
+    a a( c) \mark\sipka b( a) g g \barMin f g g( a) a \barMaior
+    a a g f e( f) d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vy -- vý -- še -- ný jsi, Hos -- po -- di -- ne,
+    na -- de všech -- na ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 % Od jiste doby jsem opatrny na to, abych finalu antifony
 % "neprebijel" pomoci aleluja na jinou, protoze to vetsinou
 % zni blbe, ale tady se mi, byt jsem se snazil, nepovedlo najit
@@ -66,6 +199,7 @@
 % a to G pred zaverecnym aleluja neni finala
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a( d) e( d c d) d \barMaior
     a4 g a( c) c d c d e( d) \barMin
@@ -88,11 +222,90 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g \barMaior
+    g a a( c) c d c d d( e c) \barMin
+    d c b c a a a \barMin
+    b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 145-III"
+    fial = "mezidobi_kristakrale.ly#2ne-amag?jiny text"
+    placet = "úvodní aleluja zrazuje, resp. falešně ohlašuje modus"
+    id = "ne-mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 d( c) b( c a g) a \barMaior
+    g a a( c) c d c d d( e c) \barMin
+    d c b c a a a \barMin
+    b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 145-III"
+    fial = "mezidobi_kristakrale.ly#2ne-amag?jiny text"
+    id = "ne-mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 g( c b a) g( a) a \barMaior
+    g a a( c) c d c d d( e c) \barMin
+    d c b c a a a \barMin
+    b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 145-III"
+    fial = "mezidobi_kristakrale.ly#2ne-amag?jiny text"
+    id = "ne-mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\italic{
   Koná-li se vigilie,
   antifona ke kantikům se bere
   ze slavnosti Nanebevstoupení Páně.
 }
+
+\pageBreak
 
 \markup {\nadpisDen {Pondělí}}
 

@@ -1901,6 +1901,29 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \mark\sipka g4 a a( c) c d c d d( e c) \barMin
+    d c b c a a a \barMin
+    b g a \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 b c c d c d d( e c) \barMin
     d c b c a a a \barMin

@@ -15,9 +15,9 @@
   \relative c' {
     \choralniRezim
     e4 a( g) a( b) g( f e) \barMaior
-    e d( a') a a( b) a g g \barMin
+    d d( a') a a( b) a g g \barMin
     f f( g a) g( a) f( e) e \barMaior
-    f f( d) d( f) e \barFinalis
+    f d d( e) e \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -38,10 +38,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d( f) d4.( e4 f d4. c) \barMaior
-    f4 g( f) g( f) e( d e f) e( d) \barMin e( f e) d c( b) a \barMaior
-    c d c( d) d f( d f) e( d) d \barMaior
-    d c( d) f( d f e f) d \barFinalis
+    c4 d d( a') g( a) \barMaior
+    a a( c) b( a) g g \barMin f g g( a) a \barMaior
+    a a g f e( f) d( c) c \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -51,7 +51,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 145-II"
     id = "ne-mc-a2"
@@ -59,19 +59,13 @@
   }
 }
 
-% Od jiste doby jsem opatrny na to, abych finalu antifony
-% "neprebijel" pomoci aleluja na jinou, protoze to vetsinou
-% zni blbe, ale tady se mi, byt jsem se snazil, nepovedlo najit
-% melodii aleluja vkusne koncici na G, takze soudim,
-% ze tu nejde o prebiti, ale opravdu o antifonu IV. alt. modu,
-% a to G pred zaverecnym aleluja neni finala
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a( d) e( d c d) d \barMaior
-    a4 g a( c) c d c d e( d) \barMin
-    c e d c a g g \barMaior
-    a( g) a( c b) g( a) a \barFinalis
+    a4 g( c b a) g( a) a \barMaior
+    g a a( c) c d c d d( e c) \barMin
+    d c b c a a a \barMin
+    b g a a \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -82,8 +76,9 @@
   \header {
     quid = "3. ant."
     modus = "IV alt"
-    differentia = "d"
+    differentia = "A"
     psalmus = "Žalm 145-III"
+    fial = "mezidobi_kristakrale.ly#2ne-amag?jiny text"
     id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
   }
