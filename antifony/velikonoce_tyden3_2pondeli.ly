@@ -81,8 +81,8 @@
   \relative c'' {
     \choralniRezim
     c d d d c d e d c b( c d) d \barMaior
-    d d( e d) \barMin d4 c b c( a g4.) g \barMaior
-    f4 a a( g) g \barFinalis
+    d d( e d) \barMin d4 c b c( a g4.) g \barMin
+    a4 g f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
