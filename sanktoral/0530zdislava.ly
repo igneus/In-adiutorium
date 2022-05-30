@@ -19,9 +19,9 @@
   \relative c'' {
     \choralniRezim
     a4 bes a g f g a f( e) d( c) \barMaior
-    d f e f d c d( e) d d \barFinalis
+    d f e f d c c d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Sklá -- da -- la svou na -- dě -- ji v_Bo -- ha
@@ -42,11 +42,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( a) a \barMin g a c c c( d) c \barMaior
-    d c d c b a \barMin
-    c a a g f g g \barFinalis
+    c4 c c( d) c \barMin d e d c c( d) d \barMaior
+    d c d c b a( g) \barMin
+    a g f g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Moud -- rá že -- na bu -- do -- va -- la svůj dům,
@@ -57,7 +57,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
@@ -68,8 +68,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g f g f4. d \barMin
-    f4( g) g( f) f \barFinalis
+    f4 g a a g f g f( d) f
+    g g f \barFinalis
 
     g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
@@ -97,13 +97,13 @@
     % R
     \neviditelna f
     f4 f f g f g( a) a( g) \barMax
-    g g g( a) g g \barMin g( a g) f( e) d d f g g f \barFinalis
+    g g g( a) g g \barMin a g f d f g g f \barFinalis
     % V
     \neviditelna a
-    a a a a( bes) a g( a) g \barMin a g f( g) g( a) \barMax
+    a a a a( bes) a g( a) g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g g \barMin g( a g) f( e) d d f g g f \barFinalis
+    g g g( a) g g \barMin a g f d f g g f \barFinalis
 
     % Slava
     \respVIdoxologie \barFinalis
@@ -131,7 +131,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f( g) f \barMin
+    f4 f f f f g f \barMin
     f f f f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -162,11 +162,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( g f e) d c d d \barMin bes c d d f( e) d \barMaior
-    f f g( d) d f( e d) c d( c) c \barMin
-    bes c d f e c( d) d \barFinalis
+    d4 c d( f) e d c c \barMin f g a f f( g) g \barMaior
+    g f g( a g) g \barMin f e d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
 
-    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Slun -- ce vy -- chá -- ze -- jí -- cí na vý -- ši -- nách Pá -- ně,
@@ -177,7 +177,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "rch-aben"
@@ -190,10 +190,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( e d) d \barMin
-    c b a( b) g a b a g \barFinalis
+    c4 c c( d c) c \barMin
+    c c b a g a a4. g \barFinalis
 
-    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Je -- jí tou -- hou
@@ -203,8 +203,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 122"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -214,10 +214,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c c c b( g) a a( g) g \barMin
-    a b g g f g a a g g \barFinalis
+    c4 c d c c b a g( a) g \barMin
+    f a c c b g a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Když po -- má -- ha -- la své -- mu li -- du,
@@ -236,12 +236,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g a c c( d c) \barMin b a g( a g f) f \barMaior
-    f g a a( g) g \barFinalis
+    f4 g a a g f g( a g) g \barMin
+    f d f g( f) f \barFinalis
 
-    f^\markup\rubrVelikAleluja g g g \barFinalis
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Ne -- vy -- mi -- zí je -- jí chvá -- la
@@ -251,8 +251,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Ef 1"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
@@ -268,28 +268,28 @@
     % R
     \neviditelna f
     f4 f f f f f g f g( a) a( g) \barMax
-    a a a a a bes a g( a) g g \barMin
-    f g a f d f g g f \barFinalis
+    g( a) g g \barMin f d f g g f f \barFinalis
     % V
     \neviditelna a
-    f f g f f \barMin f g f g a a g \barMax
+    a4 a a( bes) a a \barMin a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a a a a a bes a g( a) g g \barMin
-    f g a f d f g g f \barFinalis
+    g( a) g g \barMin f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,_*
-    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
-    kte -- ré je pro vás při -- pra -- ve -- né.
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
     \Verse Byl jsem ne -- mo -- cen, a na -- vští -- vi -- li jste mě,_*
-    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
     kte -- ré je pro vás při -- pra -- ve -- né.
     \textRespDoxologie
   }
   \header {
+    textus_approbatus = "Pojďte, požehnaní mého Otce, *
+    přijměte jako úděl království, které je pro vás připravené.
+    V. Byl jsem nemocen, a navštívili jste mě,"
     quid = "resp."
     modus = "VI"
     id = "ne-resp"
@@ -305,13 +305,13 @@
 
     % R
     \neviditelna f
-    f4 f f f f f g f f( g f) f \barMaior
-    f f f f f e f d c c \barMin
-    f f f g f f e g a \barMax
+    f4 f f f f f g a f f \barMaior
+    f f f f f f f g f f \barMin
+    f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f f f f f f e g( a) \barMax
+    f4 f f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
