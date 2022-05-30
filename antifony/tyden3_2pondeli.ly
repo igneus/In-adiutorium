@@ -15,7 +15,7 @@
     c4 d d( f) f \barMin
     f g f f f e( f) d c d \barFinalis
 
-    c^\rubrVelikAleluja f e( d) d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Náš Bůh při -- jde
@@ -65,7 +65,7 @@
     a c d d( f) f
     f g f e f d d \barFinalis
 
-    e^\rubrVelikAleluja f d( c) d \barFinalis
+    e^\rubrVelikAleluja c d d \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,

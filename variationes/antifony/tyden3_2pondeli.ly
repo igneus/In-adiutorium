@@ -159,12 +159,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMin
     f g f f f e( f) d c d \barFinalis
 
     \mark\sipka c^\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh při -- jde
+    a u -- ká -- že svou slá -- vu a moc.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g f f f e( f) d c d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Náš Bůh při -- jde
@@ -422,7 +447,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e f d d \barMin
     e c c( d) d \barMaior
@@ -430,6 +455,35 @@
     f \mark\sipka g f e f d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    a c d d( f) f
+    f g f e f d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja c d d \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
