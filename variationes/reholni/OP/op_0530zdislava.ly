@@ -142,6 +142,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c d c b a a \barMin
     c a g f g( a) g \barFinalis
@@ -163,6 +164,57 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d c b a \mark\sipka g \barMin
+    a g f a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- jí sy -- no -- vé ji chvá -- lí,
+    je -- jí muž jí žeh -- ná.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c d c b a g \barMin
+    a g f a a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- jí sy -- no -- vé ji chvá -- lí,
+    je -- jí muž jí žeh -- ná.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
 
@@ -444,7 +496,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 \mark\sipka g( a) g \barMin
     f g a a a( c) a a \barMaior
@@ -455,6 +507,44 @@
     f( a) a g g \barFinalis
 
     a^\markup\rubrVelikAleluja c( b) g( a) g \barFinalis
+  }
+  \addlyrics {
+    Svou ru -- ku o -- te -- vře -- la nuz -- né -- mu
+    a své dla -- ně
+    vztáh -- la k_chu -- dá -- ko -- vi.
+    Sí -- la a dů -- stoj -- nost jsou je -- jím rou -- chem
+    a bu -- de já -- sat
+    v_den po -- sled -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Otevřela svou ruku nuznému
+    a své dlaně vztáhla k chudákovi.
+    Síla a důstojnost jsou jejím rouchem
+    a bude jásat v poslední den. Aleluja."
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) g \barMin
+    f g a a a( c) a a \barMaior
+    \mark\sipka c c b( a g) g \barMin
+    a( g) f g a a( g) g \barMaior
+    a g \mark\sipka a a c c c d c c( d c a) a \barMaior
+    c c c b( a g) g \barMin
+    f( a) a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Svou ru -- ku o -- te -- vře -- la nuz -- né -- mu

@@ -57,10 +57,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c d c b a a \barMin
-    c a g f g( a) g \barFinalis
+    c4 c c d c b a g \barMin
+    a g f a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- jí sy -- no -- vé ji chvá -- lí,
@@ -261,13 +261,13 @@
     \choralniRezim
     g4 g( a) g \barMin
     f g a a a( c) a a \barMaior
-    a c b( a g) g \barMin
+    c c b( a g) g \barMin
     a( g) f g a a( g) g \barMaior
-    a g f a c c c d c c( d c a) a \barMaior
+    a g a a c c c d c c( d c a) a \barMaior
     c c c b( a g) g \barMin
     f( a) a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja c( b) g( a) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Svou ru -- ku o -- te -- vře -- la nuz -- né -- mu
