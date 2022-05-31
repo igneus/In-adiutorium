@@ -30,11 +30,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( a) a \barMin g a c c c( d) c \barMaior
-    d c d c b a \barMin
-    g f a g g \barFinalis
+    c4 c c( d) c \barMin d e d c c( d) d \barMaior
+    d c d c b a( g) \barMin
+    a f a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Moud -- rá že -- na bu -- do -- va -- la svůj dům,
@@ -45,7 +45,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
     fial = "sanktoral/0530zdislava.ly#rch-a2?zacatek"

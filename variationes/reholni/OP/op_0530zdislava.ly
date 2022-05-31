@@ -55,7 +55,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( a) a \barMin g a c c c( d) c \barMaior
     d c d c b a \barMin
@@ -76,6 +76,63 @@
     differentia = "c"
     psalmus = "Dan 3-III"
     fial = "sanktoral/0530zdislava.ly#rch-a2?jiny_text"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c \barMin d e d c c( d) d \barMaior
+    d c d c b a( g) \barMin
+    a f a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Moud -- rá že -- na bu -- do -- va -- la svůj dům,
+    šla čest -- ně ži -- vo -- tem,
+    chvá -- li -- la Pá -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0530zdislava.ly#rch-a2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c \barMin d e d c c( d) d \barMaior
+    d c d c b a( g) \barMin
+    \mark\sipka f a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Moud -- rá že -- na bu -- do -- va -- la svůj dům,
+    šla čest -- ně ži -- vo -- tem,
+    chvá -- li -- la Pá -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0530zdislava.ly#rch-a2?zacatek"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
