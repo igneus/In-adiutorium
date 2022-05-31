@@ -77,13 +77,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d) d d \barMaior
     d d c d e c d d \barMin
     c b g a( g) g \barFinalis
 
     a^\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( d) d d \barMaior
+    d d c d e c d d \barMin
+    c b g a( g) g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
@@ -187,6 +214,30 @@
     d c \mark\sipka b b c a a( g) g \barFinalis
 
     a^\rubrVelikAleluja b g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je Bo -- hem spá -- sy;
+    on dá -- vá u -- nik -- nout smr -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( b) d \barMin e d c d d \barMaior
+    d c b b c a a( g) g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Náš Bůh je Bo -- hem spá -- sy;

@@ -16,7 +16,7 @@
     d d c d e c d d \barMin
     c b g a( g) g \barFinalis
 
-    a^\rubrVelikAleluja b a( g) g \barFinalis
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá
