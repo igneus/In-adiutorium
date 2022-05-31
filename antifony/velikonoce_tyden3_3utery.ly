@@ -6,23 +6,21 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d a' a \barMin
-    f f( g) g \barMaior
-    g g g g f e d e d d \barMaior
-    c d e( d) d \barFinalis
+    c4 d e d c d c( a) a \barMaior
+    c c c c b a g a g g \barMaior
+    f g a( g) g \barFinalis
   }
   \addlyrics {
-    Bo -- že, da -- ruj nám_*
-    svůj ži -- vot,
+    Bo -- že, da -- ruj nám svůj ži -- vot,_*
     a -- by -- chom se v_to -- bě ra -- do -- va -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 85"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -80,7 +78,7 @@
     \choralniRezim
     a4( g) a a4.( g4 e) \barMaior
     a b( a) g( a) a \barMin g f d e \barMaior
-    d f e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Po -- koj vám!_*
@@ -98,22 +96,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d( c a) c4.( d) \barMin d4( f) e d( c) c d e d d \barMaior
-    e c( a) c( d) d \barFinalis
+    c4 d e d c d c b a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
-    Dou -- fej,_* Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 131"
     id = "ne-a2"
-    placet = "~"
     piece = \markup {\sestavTitulek}
   }
 }
