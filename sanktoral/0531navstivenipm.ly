@@ -19,9 +19,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 f f f e d e( f) f g( f) g g( a) a a \barMin
+    c4 d d d f( g) f e( d) d \barMin f( g) f g a a \barMaior
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
+
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
@@ -35,6 +36,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek&konec&+aleluja"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -45,29 +47,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) g g d( e f) f f e g g \barMaior
-    g a( b) a( g) g \barMin g g g g f( g) f e
+    c4 c c c d c d d c c \barMaior
+    c b( c) a( g) g \barMin
+    f a c c c b a c b g g \barFinalis
 
-    d e f( g) g \barFinalis
-
-    d^\markup\rubrVelikAleluja c d d \barMax
-    d( f) g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se vy -- da -- la na ces -- tu
-    a spě -- cha -- la do jed -- no -- ho jud -- ské -- ho
+    a spě -- cha -- la
+    do jed -- no -- ho jud -- ské -- ho měs -- ta v_ho -- rách.
 
-    \markup{\Dagger měs} -- ta v_ho -- rách.
-
-    \markup{\Dagger měs} -- ta v_ho -- rách.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 63"
-    placet = "R"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -76,11 +73,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f( g) g( f) g \barMin a g f( g) g a f g g( f d) d \barMaior
-    d d d d( e f) d( c) c f( g a) g f g a g g \barMaior
-    g f g g( a) f e( d) d e( d) c c( d) d \barFinalis
+    d4 d d f( g) g g a bes a g f g a f( e) d \barMaior
+    f d d f( g a) g( f) g \barMin a bes a g f g g \barMaior
+    g g g g( a) g f( e d) d \barMin e( d) c c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
@@ -133,12 +130,12 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d f( g) g( f) g \barMin f( g) a( bes) a g g( a) g f f( g) g \barMaior
-    g( a f) e( d) d e( d) c c( d) d \barMax
+    d4 d d f( g) g g a bes a g f g f f( g) g \barMaior
+    g( a f) e( d) d e d( c) c( d) d \barMax
     d( a' bes) a g a( bes a) g( f) f( g) g \barMaior
-    g g( a g) f f g d d \barMin f( e) d e( d) d \barFinalis
+    g g( a g) f e f d d \barMin d( e) c c( d) d \barFinalis
 
-    d^\markup\rubrVelikAleluja f( e) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
@@ -168,7 +165,7 @@
     g a b c a g a g g \barMaior
     g f e d d f( g) a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja f( g) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a ve -- šla
@@ -182,6 +179,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
+    placet = "nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
