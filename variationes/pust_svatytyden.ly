@@ -6260,7 +6260,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a g( f) f \barMin
       e f g g a g f f \barFinalis
@@ -6281,6 +6281,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       a4 \mark\sipka g a g( f) f \barMin
       \mark\sipka d f g g a g f f \barFinalis

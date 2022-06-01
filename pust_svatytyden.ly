@@ -1320,8 +1320,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a g( f) f \barMin
-      e f g g a g f f \barFinalis
+      a4 g a g( f) f \barMin
+      d f g g a g f f \barFinalis
     }
     \addlyrics {
       Bůh je má spá -- sa;
