@@ -20,6 +20,8 @@
     a a a g f e( f d) d \barMaior
     d d c d d( f) f g a g f f \barMin
     g f e d c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
   \addlyrics {
     Kdy -- ko -- li při -- ná -- ší -- me své da -- ry,
@@ -27,6 +29,8 @@
     Stvo -- ři -- te -- le všech vě -- cí
     skr -- ze je -- ho Sy -- na Je -- ží -- še Kris -- ta
     a skr -- ze Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -41,21 +45,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g( a) a \barMin
-    a c c c c b g b( c) a a \barMaior
-    a g( a) \barMin
-    b c d c b g a g g \barFinalis
+    g4 a g a a( c) c \barMin
+    c d e d c a b a g g \barMaior
+    f g g( a) a c b a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     V_mém srd -- ci vzplál o -- heň
     a za -- mi -- lo -- val jsem si pro -- ro -- ky
-    a ty,
-    kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
