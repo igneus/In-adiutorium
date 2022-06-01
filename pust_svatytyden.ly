@@ -101,6 +101,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "tou si nejsem jist, vyzkoušet víc variant"
     id = "dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -158,6 +159,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_křížem_ zkusit lépe, zní to jak cukrová vata"
     id = "odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -566,6 +568,7 @@
       modus = "I"
       differentia = "D2"
       psalmus = "Žalm 110"
+      placet = "explicitní délky jsou tu podle dnes v projektu zavedených notačních konvencí nadbytečné"
       id = "ne-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -675,6 +678,8 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "v _náš králi, synu Davidův_ teď slyším nějakou písničku, snad ze Zaklínače;
+      cesura po _O tobě_ je možná spíš nadbytečná"
       id = "ne-2ne-amag-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -700,6 +705,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
+      placet = "druhá půlka je značně neelegantní"
       id = "ne-2ne-amag-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -824,6 +830,7 @@
       modus = "I"
       differentia = "a2"
       psalmus = "Žalm 45-I"
+      placet = "krok na _ani_ je v daném kontextu nezpěvný - upravit začátek lépe"
       id = "po-ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -848,6 +855,7 @@
       modus = "I"
       differentia = "a"
       psalmus = "Žalm 45-II"
+      placet = "vzestupná stupnice _zástupy jako dě_ je nezpěvná"
       id = "po-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -896,6 +904,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_vyvýšen_ se mi moc nezdá"
       id = "po-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1207,6 +1216,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 62"
+      placet = "spíš lépe"
       id = "st-ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1227,6 +1237,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 67"
+      placet = "něco jí chybí"
       id = "st-ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1342,6 +1353,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 81"
+      placet = "nevím"
       id = "ct-rch-a3"
       fons = "prvni cast prevzata:"
       fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
