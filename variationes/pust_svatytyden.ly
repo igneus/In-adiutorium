@@ -3800,6 +3800,26 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      a4 a f e e \mark\sipka d f g( a) a \barMaior
+      a a bes( f) \barMin f f f g f e f d d \barFinalis
+    }
+    \addlyrics {
+      Ne -- měl po -- do -- bu a -- ni krá -- su,
+      ne -- měl vzhled, a -- by -- chom po něm za -- tou -- ži -- li.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a2"
+      psalmus = "Žalm 45-I"
+      id = "po-ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacSedy
       \key f \major
       \choralniRezim
@@ -4324,6 +4344,54 @@
       kdo v_ně -- ho vě -- ří,
       ne -- za -- hy -- nul,
       a -- le měl ži -- vot věč -- ný.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+      g g g g a( c) \mark\sipka c( d) d d c( b) a a \barMax
+      a a a( g) g \barMin g f g g( a) a \barMaior
+      c c b( a g) g \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
+      tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka,
+      a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+      ne -- za -- hy -- nul, a -- le měl ži -- vot věč -- ný.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+      g g g g \mark\sipka f( g) a( c) c c d( c) b( a) a \barMax
+      a a a( g) g \barMin g f g g( a) a \barMaior
+      c c b( a g) g \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
+      tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka,
+      a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+      ne -- za -- hy -- nul, a -- le měl ži -- vot věč -- ný.
     }
     \header {
       quid = "ant. k Magnificat"
@@ -5630,6 +5698,30 @@
       a g f g a( c) b a g g \barMaior
       c d c b( a) g \barMin
       a g f a g g \barFinalis
+    }
+    \addlyrics {
+      Bez -- bož -- ní řek -- li:
+      U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+      ne -- boť se sta -- ví
+      pro -- ti na -- šim skut -- kům.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 62"
+      id = "st-ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b c a( g) g \barMin
+      a g f g a( c) b a g g \barMaior
+      c d \mark\sipka d c( d) c \barMin
+      a c b a g g \barFinalis
     }
     \addlyrics {
       Bez -- bož -- ní řek -- li:
