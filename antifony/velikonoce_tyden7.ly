@@ -95,10 +95,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f f f e d c d d( c) \barMaior
-    d e f f e d f( g) g \barMin
-    d d f e c d \barMaior
-    e f d( c) d \barFinalis
+    d4 c d f f e d c d d( c) \barMaior
+    f g a a g f g( f) f \barMin
+    f d f e c d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
@@ -108,7 +108,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "po-aben"
@@ -117,12 +117,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 d d f g( d) d \barMin
-    f e d c c \barMaior
-    d d e f( d) d
-    g f d d \barFinalis
+    c4 c b a c( d) d \barMin
+    d c d e( d) d \barMaior
+    c d c b( a g) g
+    f a g g \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,
@@ -132,9 +132,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -143,11 +144,12 @@
 \markup {\nadpisDen {Úterý}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 d d f g f f f g( a) a \barMaior
-    f f( g) f d \barMin c c d f g f f \barMaior
-    g a f f \barFinalis
+    c4 c c c d d c d d( c) c \barMaior
+    d d( e) d b \barMin
+    c c b g a g g \barMaior
+    a b g g \barFinalis
   }
   \addlyrics {
     Já -- sej -- me a ra -- duj -- me se všich -- ni!
@@ -157,8 +159,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -168,10 +170,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a( g) f a a g( a) g g \barMaior
-    a a c c c( d) c a a \barMin
-    a c b a g( a) g \barMaior
-    f g a( g) g \barFinalis
+    g4 g g g a( c) c d c b( c) a a \barMaior
+    a c a a c b g( a) g \barMin
+    g f g a a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
@@ -224,9 +226,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f f g f d( e d) \barMin
-    c d f g f d d \barMaior
-    c d e( d) d \barFinalis
+    c4 d e d c c( d) \barMin
+    c a c b g g( a) a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Kris -- tus vás bu -- de křtít
@@ -235,8 +237,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "c"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
