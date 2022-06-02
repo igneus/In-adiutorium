@@ -49,10 +49,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4( c b a) a4.( b) \barMin
-      a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
-      d4 c d( e c d) d \barMin d( f g) d( c) f( e) c( d) d \barMax
-      d \[ d( a \] \[ c b g \] \[ a4. g4) \] f( g) g \barFinalis
+      d4( e d) d \barMin
+      d( c) b c d d \barMin e g f e( d c d) d \barMaior
+      d4 c d( e d) d \barMin c( b) a c( b) a( g) g \barMaior
+      f g a( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,

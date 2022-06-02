@@ -225,6 +225,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       d4( c b a) a4.( b) \barMin
       a4( b) c d d( e d) d \barMin e( g f) e( d) c d4. d \barMaior
@@ -297,6 +298,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       d4( e d) d \barMin
       d( c) b c d d \barMin \mark\sipka e g f e( d c d) d \barMaior
