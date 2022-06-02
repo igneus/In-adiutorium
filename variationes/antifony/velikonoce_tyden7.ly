@@ -960,8 +960,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e e( g) f \barMin
     g( a g) f( g) f d \barMin f e d c c \barMaior
@@ -980,6 +983,199 @@
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g) g \barMaior
+    g( a g) f( g) f f \barMin f e d c c \barMaior
+    c d( f) f( g) g g a g g( f) f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g) g \barMaior
+    g( a g) f( g) f f \barMin f e d c c \barMaior
+    c d( f) f( g) g g \mark\sipka g a g( f) f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g) g \barMaior
+    g( a g) f( g) f f \barMin f e d c c \barMaior
+    \mark\sipka c d f f f g a f f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g) g \barMaior
+    g( a g) f( g) f f \barMin f e d c c \barMaior
+    c d f f f \mark\sipka e f g g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    d( e d) c( d) c c \barMin c b a g g \barMaior
+    \mark\sipka f g a a a g f g( a) a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    c d e e d( c) d( e) e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    \mark\sipka e e d c d e e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    c d e e d( c) d( e) e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    \mark\sipka f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy
+    a o -- zná -- mí vám, co má při -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}

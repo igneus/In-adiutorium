@@ -276,25 +276,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f e e( g) f \barMin
-    g( a g) f( g) f d \barMin f e d c c \barMaior
-    c d( f) e( f) d d
-    f g g( f) f \barMaior
-    g a( g) f f \barFinalis
+    c4 c b a c( d) d \barMaior
+    c d e e d( c) d( e) e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Až při -- jde Duch prav -- dy,
     u -- ve -- de vás do ce -- lé prav -- dy
-    a o -- zná -- mí vám,
-    co má při -- jít.
+    a o -- zná -- mí vám, co má při -- jít.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
