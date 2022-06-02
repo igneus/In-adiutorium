@@ -182,7 +182,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c c d( e d c) c( d) \barMin
     d c( b) a
@@ -197,6 +197,51 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c \mark\sipka d( e) d c d d \barMin
+    d \mark\sipka c a
+    b a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g f g( a) a \barMin
+    a c b
+    a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 87"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -378,6 +423,54 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a g f g \mark\sipka g f f \barMaior
+    f f f d( f) e d c c
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř_*
+    shro -- maž -- ďu -- je be -- rán -- ky
+    a ve svém klí -- nu je ne -- se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 40"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a g f g g f f \barMaior
+    f f f d( f) e \mark\sipka f g g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř_*
+    shro -- maž -- ďu -- je be -- rán -- ky
+    a ve svém klí -- nu je ne -- se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 40"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -455,7 +548,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g a4. a4 b b c c \barMaior
     c a c c c d( c) b a b a g g \barMaior
@@ -478,10 +571,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g f g a4. a4 b b c c \barMaior
     c a c c c d( c) b a b a g g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*
+    a na -- de vše -- mi ná -- ro -- dy vy -- vý -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a4. a4 b b c c \barMaior
+    c a c c c d( c) b a b a g g \barMaior
+    \mark\sipka f a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*

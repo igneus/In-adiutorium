@@ -8,12 +8,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d) c c d( e d c) c( d) \barMin
-    d c( b) a
+    c4 c d( e) d c d d \barMin
+    d c a
     b a a( g) g \barFinalis
   }
   \addlyrics {
-    Všech -- na zříd -- la_* mé spá -- sy
+    Všech -- na zříd -- la mé spá -- sy_*
     jsou v_to -- bě.
     A -- le -- lu -- ja.
   }
@@ -56,7 +56,7 @@
     \choralniRezim
     g4 g g f g a4. a4 b b c c \barMaior
     c a c c c d( c) b a b a g g \barMaior
-    f g a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*
