@@ -130,6 +130,30 @@
   \relative c' {
     \choralniRezim
     f4 g a f f( g) g \barMin
+    f f f e d c d( f) g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
     f f f f g a g f f \barFinalis
 
     g^\rubrVelikAleluja a f f \barFinalis

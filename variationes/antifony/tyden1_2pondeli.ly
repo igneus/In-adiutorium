@@ -344,6 +344,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -356,6 +358,86 @@
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4. a a g4( a) bes c a( g) g \barMin
+    \mark\sipka f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g g a f f( g) g \barMin
+    f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka a a g f g g \barMin
+    f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c d) d( f) f f g f d d \barMin
+    f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "1 Kron 29"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

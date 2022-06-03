@@ -129,6 +129,36 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-I"
+    id = "mc-ant1"
+    fons = "žaltář, po 4.t., nešp., 1. ant."
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 f a a \barMin g a b b c c c \barMaior

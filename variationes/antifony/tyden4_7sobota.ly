@@ -228,6 +228,29 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    d4 b d( e) e( d) d \barMin
+    \mark\sipka c b g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d( e d) c( d) c \barMin d d c a g g \barFinalis

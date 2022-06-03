@@ -214,6 +214,30 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f g a g f d e d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
     a \mark\sipka a a g f e d e d d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis

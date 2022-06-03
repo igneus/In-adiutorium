@@ -80,6 +80,29 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f \mark\sipka f( g) g \barMaior a a f e d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 \mark\sipka d e f \barMaior a a f e d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
@@ -636,6 +659,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a a a g f f( g) g \barMaior
+    f e d( c) c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- vo -- lil jsem si ces -- tu prav -- dy,
+    dal jsem před -- nost tvým roz -- hod -- nu -- tím.
+  }
+  \header {
+    modus = "I"
+    differentia = "g"
+    quid = "1. ant."
+    psalmus = "Žalm 119-IV"
+    id = "rch-up1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{hudební a slovní přízvuk se hrubě rozcházejí}
@@ -716,6 +759,46 @@
   \header {
     modus = "II"
     differentia = "D"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f e f \barMaior
+    d f g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g a a \barMaior
+    f g a g f g f f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
     quid = "2. ant."
     psalmus = "Žalm 26"
     id = "up-ant2"

@@ -388,6 +388,86 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g f e \barMin
+    f e d c e f d d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g f e \barMin
+    \mark\sipka f f d d c e d d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d e d c \barMin
+    a c d d f e c d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c c d e c c( d) d \barMin
+    f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   Chtěl jsem zkusit napodobit antifonu \italic{Cor contritum et humiliatum}
   z AR1912, ale nakonec z ní zůstal jen ten modus VI:
