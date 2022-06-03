@@ -98,6 +98,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    f f f g f e f d d \barMaior
+    \mark\sipka e c d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{První dvě třetiny (po "\"hříchy\"") jsou úryvek z delší antifony, která
@@ -184,10 +206,35 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e f g( a g) g \barMaior
     a bes a g f f( g) g \barMin
+    g f e d4. c \barMin
+    d4 f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le_*
+    vy -- ne -- sl na -- še hří -- chy
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Jer 14"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e d e( f d) d \barMaior
+    f g a g f f( g) g \barMin
     g f e d4. c \barMin
     d4 f e( d) d \barFinalis
   }
@@ -394,6 +441,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( b) c b a \barMin
     b c a a c d c a( g) g \barMaior
@@ -430,6 +478,117 @@ funkční, je nevyvážená.}
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g g a a \barMin
+    b c a a g f g e e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g g a a \barMin
+    a g a g f e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g g a a \barMin
+    a g a g f e f \mark\sipka d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g g a a \barMin
+    a g a g f \mark\sipka g f d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    b c a g f g a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 135-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -491,7 +650,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
     g f e( f) d d \barMaior
@@ -510,6 +669,31 @@ funkční, je nevyvážená.}
     psalmus = "Žalm 135-II"
     id = "ne-a2"
     fial = "pust_svatytyden.ly#ne-rch-aben-B?cast&+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
+    g f e( f) d d \barMaior
+    \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na né krá -- lov -- ství_*
+    na -- še -- ho ot -- ce Da -- vi -- da,
+    kte -- ré při -- chá -- zí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-II"
+    id = "ne-a2"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec"
     piece = \markup {\sestavTitulek}
   }
 }
