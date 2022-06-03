@@ -1470,6 +1470,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a( g) g \barMaior
     f g a b4.( c) \barMin d4 c b c a( g) g \barMaior
@@ -1487,6 +1488,55 @@
     differentia = "G*"
     psalmus = "so-aben"
     fial = "commune/commune_apostol.ly#sexta?zacatek upraven"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) a \barMaior
+    c c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "so-aben"
+    fial = "commune/commune_apostol.ly#sexta?konec"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a f( g a4.) a \barMaior
+    c4 c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "so-aben"
+    fial = "commune/commune_apostol.ly#sexta?konec"
+    id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

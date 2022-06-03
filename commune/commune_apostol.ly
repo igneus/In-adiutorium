@@ -567,10 +567,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4.( c) \barMin a4 g a( g) g \barMaior
-    f g a b4.( c) \barMin d4 c b c a( g) g \barFinalis
+    a4 g f g( a) a \barMaior
+    c c b g b c a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Hle, já jsem s_vá -- mi

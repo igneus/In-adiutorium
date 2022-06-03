@@ -1106,8 +1106,11 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4.( c) \barMin a4 g a( g) g \barMaior
     f g a b4.( c) \barMin d4 c b c a( g) g \barFinalis
@@ -1126,6 +1129,79 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     differentia = "G*"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \barMin e c c( d) d \barMaior
+    d c b a( g) \barMin a g f a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hle, já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) a \barMaior
+    c c b g b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a \barMaior
+    c c b g b c a a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle, já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
