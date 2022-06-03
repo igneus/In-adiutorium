@@ -302,12 +302,12 @@
 \markup {\nadpisDen {Pátek}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f e d f( g) g \barMin
+    g4 g f d f( g) g \barMin
     g f g a f g \barMaior
     g g a b c c b \barMin
-    a c c b a g g \barMaior
+    a c c b a g g
     f a g g \barFinalis
   }
   \addlyrics {
