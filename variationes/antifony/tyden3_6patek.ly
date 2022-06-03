@@ -54,8 +54,6 @@
   }
 }
 
-\pageBreak
-
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -104,6 +102,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a bes( g) a \barMin
     f e f g f d( e) d d \barFinalis
@@ -118,6 +117,128 @@
     differentia = "a"
     psalmus = "Žalm 69-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 g a bes( g) a \barMin
+    f e f g f d( e) d d \barFinalis
+
+    d^\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a bes( g) a \barMin
+    f e f g f d( e) d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 bes a g( a) a \barMin
+    g f g f e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g( a) \mark\sipka g \barMin
+    g a a f e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a f( g a) a \barMin
+    g f g f e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

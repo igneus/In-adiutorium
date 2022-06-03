@@ -58,10 +58,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a bes( g) a \barMin
-    f e f g f d( e) d d \barFinalis
+    a4 bes a g( a) a \barMin
+    g f g f e c d d \barFinalis
 
-    d^\rubrVelikAleluja d( e) d d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te Bo -- ha,
