@@ -593,7 +593,7 @@
     d d d c a b a g \barMaior
     f g a a a a a( c) b g g g \barFinalis
 
-    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně

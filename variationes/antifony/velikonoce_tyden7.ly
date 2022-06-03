@@ -1305,7 +1305,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
@@ -1317,6 +1317,34 @@
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
     s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#tercie?jiny_text"
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a( c) b g g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
     A -- le -- lu -- ja.
   }
   \header {

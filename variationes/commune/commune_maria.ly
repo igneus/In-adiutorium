@@ -2109,6 +2109,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f c d e f f
     g f e( f) d c d c c( a) \barMaior
@@ -2195,13 +2196,40 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d c e d d \barMin
     d d d c a b a g \barMaior
     f g a a a a a( c) b g g g \barFinalis
 
     \mark\sipka a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    spo -- lu s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a a a( c) b g g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni jed -- no -- my -- sl -- ně
