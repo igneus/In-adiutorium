@@ -37,7 +37,7 @@
     a4( d) d \barMin
     c d c b c4.( d) \barMin c4 d( e d) d \barMaior
     d d c( d) c( b) a( g) g \barMaior
-    a g f( a) g \barFinalis
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -58,7 +58,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a \barMin a( g) f g g( f) f \barMaior
+    f4 g g( a) a \barMin a( g) f g g( f) f \barMin
     d f g( f) f \barFinalis
   }
   \addlyrics {
