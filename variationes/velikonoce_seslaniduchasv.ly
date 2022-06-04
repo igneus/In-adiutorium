@@ -246,6 +246,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) b( c) c( d) \barMin
+    c4 b a( b) c( a g4.) g a4( g) f( g) g \barMaior
+    g f( e) d \barMin
+    e( f) g a g g \barMax
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý,
+    kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten zje -- ví
+    Kris -- to -- vu slá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 15"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{Responsorium \italic{"\"Přímluvce, Duch svatý\""}. (Je mezi velikonočními responsorii.)}
