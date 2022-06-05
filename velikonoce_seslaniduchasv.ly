@@ -16,7 +16,7 @@
     \choralniRezim
     d4( a') g f f( a) a \barMin
     a bes bes a g a g f e f d d \barMaior
-    e f d d \barFinalis
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Na -- stal den let -- nic
@@ -41,7 +41,7 @@
     c( b a) b g g \barMaior
     g a c c c d( f) e d( c a) a \barMin
     c( b) a g( a) a( g) \barMaior
-    g g( a) g g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Nad a -- po -- što -- ly
@@ -64,11 +64,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) b( c) c4.( d) \barMin
+    g4( c) b( c) c( d) \barMin
     c4 b a( b) c( a g4.) g a4( g) f( g) g \barMaior
     g f( e) d \barMin
-    e( f) g a g4. g \barMax
-    g4 g( a) g4. g \barFinalis
+    e( f) g a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý,
@@ -93,15 +93,15 @@
   \relative c'' {
     \choralniRezim
     c4( d) d( a) a b( g) g \barMin
-    a g a c b a4. a \barMaior
-    a4 a( g f) g( f) g( a) \barMin g( f) e f d4. d \barMax
+    a g a c b a a \barMaior
+    a4 a( g f) g( f) g( a) \barMin g( f) e f d d \barMax
 
     d4 d d( a') a( g a) g( f) f( g) g g \barMin
     a( b c) b g a a \barMaior
     a g a( c) c c b( g) g \barMin
-    a( b a) g( f) f( g a) g g \barMax
+    a( b a) g( f) f( g a) g g \barMaior
 
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Přijď, Du -- chu sva -- tý,
@@ -120,6 +120,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "kvintová pes na _shro_ je nepříliš zpěvná, recitace kvartu pod finálou ke zpěvákům surová"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -130,11 +131,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( a b c) c \barMin
-    b c d d c( b) a a \barMaior
-    c( b c d) c( b a) \barMin
-    g a a( g) g \barMaior
-    a( b) a g g \barFinalis
+    d4 d( e d4.) d \barMin
+    c4 b c c d( e) d d \barMaior
+    d( e d c) a( b) \barMin
+    c a a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Duch Pá -- ně
@@ -166,8 +167,8 @@
     d4 d d( f d c) c d( e) d \barMax
     a c d e( d) d \barMaior
     d e f f e d e d c \barMin
-    d d( f d) c( d) \barMaior
-    f e( c) f( d) d \barFinalis
+    d d( f e) c( d) \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ví -- tr va -- ne, kam chce,
@@ -182,7 +183,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 104-I"
-    placet = "aleluja se špatně hodí"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -216,7 +216,7 @@
     d4 c c( d) c a( c b g) g( a) \barMin
     a b c a g g \barMaior
     a a( d) d( c) c e d( c b) b \barMin
-    a( g a) c( b) g( b) a \barFinalis
+    a( g a) c( b) g( a) a \barFinalis
   }
   \addlyrics {
     Se -- šli své -- ho Du -- cha,
@@ -238,8 +238,8 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) e d( e) d d \barMaior
-    a' a( d) d \barMin
-    d c b a g( a) a \barMaior
+    f g( a) a \barMin
+    a c b a g( a) a \barMaior
     a g f g( d) d d e d c d d \barMaior
     e f d( c) d \barFinalis
   }
@@ -255,7 +255,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "rozsah přes oktávu"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -292,8 +291,8 @@
     \choralniRezim
     g( f g) f( e) d( e) \barMin
     e f( g) g g g a( c) b d c c \barMaior
-    c( a c) b( g) a g g \barMax
-    g a a( g) g \barFinalis
+    c( a c) b( g) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Pra -- me -- ny
@@ -317,7 +316,7 @@
     g4 g g f g g( a) a g \barMin
     a( c) c g a g f \barMaior
     d d f( g) a g g \barMaior
-    f f( g) g g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     A -- po -- što -- lo -- vé hlá -- sa -- li
@@ -397,10 +396,10 @@
   \relative c'' {
     \choralniRezim
     d4( a) c( d) d \barMin
-    d( e f) d( c) c d d c b c( d) d \barMaior
+    d( e f) d( c) c d c b c c( d) d \barMaior
     d d( e) d c d4.( a) \barMin
     f4( g) a b c( a g4.) g \barMaior
-    g4 g( a) g4. g \barFinalis
+    f4 g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý
@@ -414,7 +413,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "aleluja lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -471,20 +469,22 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 f( e d) d \barMin
-    c d e c a a b \barMaior
-    c a g( a) g \barFinalis
+    d4 f( a g) g \barMin
+    f g a g f g( a) a \barMaior
+    g( f d) e( f) g( a) g \barFinalis
   }
   \addlyrics {
-    Duch Pá -- ně na -- pl -- ňu -- je ce -- lý svět.
+    Duch Pá -- ně
+    na -- pl -- ňu -- je ce -- lý svět.
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle AR1912, 423"
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -517,9 +517,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d e d d \barMin
-    e( f e) d c( d) d \barMaior
-    d d c b c( a g) g \barMin
+    c4 c b a g a g g
+    a( c) b c( d) d \barMaior
+    d d c b c( a g) g
     f a a( g) g \barFinalis
   }
   \addlyrics {
@@ -577,18 +577,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c b a( c) \barMin
+    g4 a a( c) c \barMin
     c c b a g( a) g \barMin
     f f g a g g \barMaior
     b c a a a b( c) a g g \barMax
 
-    g g g f e d d f( g) g \barMin
+    g g g f e d d f( g) g \barMaior
     a( c) c d c b( c) a a \barMin
     a a b c a g g \barMaior
     c d c a( c) \barMin
-    c d c d( e) d \barMaior
-    c b a( c) c \barMin
-    b a g( a) g \barFinalis
+    c b a g( a) g \barMaior
+    g g f( e d) d
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     O let -- ni -- cích
@@ -608,7 +608,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
