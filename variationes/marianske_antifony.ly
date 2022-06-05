@@ -1392,3 +1392,222 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g f g a bes a g bes a g f \barMaior
+    f c' c d c bes a f g a bes a g f \barMax
+    c' c d c c f, g f g a bes c \barMaior
+    c f, g bes a g f e g g f \barFinalis
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 g f a g a c d c \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c c d c bes a g a \barMin bes a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 g \mark\sipka a a g a c d c \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c c d c bes a g a \barMin \mark\sipka f( g) bes( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 g \mark\sipka f g a bes a g a \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c \mark\sipka f, g bes a g f f \barMin e g g f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 \mark\sipka f f g f g a bes a \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c f, g bes a g f f \barMin e g g f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 f f g f g \mark\sipka a f g \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c f, g bes a g f f \barMin e g g f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Struktura české parafráze zařazené do Denní modlitby církve
+  se od předlohy liší do té míry,
+  že nevidím žádnou rozumnou možnost, jak vyjít z nápěvu latinské předlohy.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f e d e e \barMin f e d c \barMaior
+    g' g a c b a g g \barMin f e f g \barMax
+
+    g a g a g e f g \barMin g a a g \barMaior
+    c c c c( d) c b( c) a g \barMin
+  }
+  \addlyrics {
+    Ve -- sel se, ne -- bes Krá -- lov -- no, a -- le -- lu -- ja,
+    za -- ple -- sej, tvor -- stva ko -- ru -- no, a -- le -- lu -- ja.
+
+    Neb Syn tvůj, je -- hožs no -- si -- la, a -- le -- lu -- ja,
+    vprav -- dě vstal, Kris -- tus, tvá chvá -- la, a -- le -- lu -- ja.
+
+    Z_ví -- těz -- ství je -- ho ra -- duj se, a -- le -- lu -- ja,
+    u ně -- ho za nás při -- mluv se, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = ""
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "reginacaeli2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f e d e e \barMin f e d c \barMaior
+    g' g a c b a g g \barMin f e f g \barMax
+
+    g a g a c d c c \barMin a g a c \barMaior
+    c c d d( c) c b( c) a( g) g \barMin g a a g \barMax
+
+    g4 a g f e d e e \barMin f e d c \barMaior
+    g' g g f e d e e \barMin f( e d) f( e) d( c) c \barFinalis
+  }
+  \addlyrics {
+    Ve -- sel se, ne -- bes Krá -- lov -- no, a -- le -- lu -- ja,
+    za -- ple -- sej, tvor -- stva ko -- ru -- no, a -- le -- lu -- ja.
+
+    Neb Syn tvůj, je -- hožs no -- si -- la, a -- le -- lu -- ja,
+    vprav -- dě vstal, Kris -- tus, tvá chvá -- la, a -- le -- lu -- ja.
+
+    Z_ví -- těz -- ství je -- ho ra -- duj se, a -- le -- lu -- ja,
+    u ně -- ho za nás při -- mluv se, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = ""
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "reginacaeli2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

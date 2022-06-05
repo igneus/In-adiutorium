@@ -12,6 +12,7 @@
   \italic{Zdrávas, Královno} a \italic{Pod ochranu tvou}
   jsou zhudebněny jednak ve známějším a latinské předloze bližším znění
   z Kancionálu, jednak v tom, které je otištěno v Denní modlitbě církve.
+  Antifona \italic{Raduj se, Královno nebeská} jen podle Kancionálu.
 }
 
 \score {
@@ -324,5 +325,32 @@
     fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek"
     id = "avemaria"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g a f g \barMin bes a g f \barMaior
+    f c' c d c bes a g a \barMin bes a g f \barMax
+    c' c d c bes a bes c \barMin g a bes c \barMaior
+    c f, g bes a g f f \barMin e g g f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, Krá -- lov -- no ne -- bes -- ká, a -- le -- lu -- ja,
+    pro -- to -- že spl -- nil Pán slo -- va svá, a -- le -- lu -- ja,
+    z_mrt -- vých vstal, Mat -- ko, Je -- žíš tvůj, a -- le -- lu -- ja,
+    u ně -- ho za nás o -- ro -- duj, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 371; text Kancionál, 006"
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    poet = "Jednotný kancionál, č. 006"
+    id = "reginacaeli"
+    piece = \markup\sestavTitulekBezZalmu
   }
 }
