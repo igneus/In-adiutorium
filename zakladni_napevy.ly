@@ -488,6 +488,38 @@
     }
   }
 
+  \markup\italic{
+    Ve velikonočním oktávu
+    a po druhých nešporách slavnosti Seslání Ducha svatého:
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      g4 g g g g g( a) a \barMin
+      g f g( a) a \barMin a \[ g( c \] \[ b a g) \] f( g a) a( g) \barFinalis
+      \neviditelna a
+      g4 g g( a) a \barMin
+      g f g( a) a \barMin a \[ g( c \] \[ b a g) \] f( g a) a( g) \barFinalis
+    }
+    \addlyrics {
+      \Verse Jdě -- te ve jmé -- nu Pá -- ně,
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+      \Response Bo -- hu dí -- ky,
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      % zpívací misál má ovšem chybně umístěný klíč, my melodii reprodukujeme správně
+      fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316."
+      id = "konec-propusteni-aleluja"
+      piece = ""
+    }
+    \layout {
+      ragged-right = ##t
+    }
+  }
+
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
 
   \score {
