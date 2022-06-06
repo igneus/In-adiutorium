@@ -1066,13 +1066,64 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 e f f e f g a a \barMaior
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
     \mark\sipka c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \barMaior
+    a g a bes( c bes a) a \barMin
+    a g f e( f d) d \barFinalis
+    \mark\sipka e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \barMaior
+    a g a bes( c bes a) a \barMin
+    a g f e( f d) d \barFinalis
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -1150,7 +1201,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a c( d) d \barMin
     d c d f e \barMaior
@@ -1158,6 +1209,35 @@
     d e f( d) c( d) d \barFinalis
 
     d^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    a o -- sla -- vuj -- me je -- ho Mat -- ku,
+    Pan -- nu Ma -- ri -- i!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a c( d) d \barMin
+    d c d f e \barMaior
+    e f d d d f e c( d) c \barMin
+    d e f( d) c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta,

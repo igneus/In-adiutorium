@@ -239,7 +239,7 @@
     d4 e f f e f g a a \barMaior
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
-    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
@@ -267,7 +267,7 @@
     e f d d d f e c( d) c \barMin
     d e f( d) c( d) d \barFinalis
 
-    d^\markup\rubrVelikAleluja e( f) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta,
