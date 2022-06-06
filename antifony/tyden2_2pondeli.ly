@@ -229,8 +229,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c d( c d) d( c) \barMin
-    a( c) c b a g g \barFinalis
+    g4 a f g g \barMin
+    f a c b( c) a( g) g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -239,7 +239,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 45-II"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
