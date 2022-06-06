@@ -149,7 +149,7 @@
   \relative c'' {
     \choralniRezim
     g4 a a g f d e \barMaior
-    e f e g a a( g) g \barMin
+    e f e f g g( a) a \barMin
     a g a g f e e \barFinalis
   }
   \addlyrics {
@@ -162,7 +162,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 119-ו"
-    placet = "není to ono"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

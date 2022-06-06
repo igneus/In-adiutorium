@@ -678,7 +678,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a g f d e \barMaior
     e f e g a a( g) g \barMin
@@ -694,6 +694,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 119-ו"
+    placet = "ten skok na _Boží_ je nějak nepatřičný"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -701,6 +702,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a a g f d e \barMaior
     e f e \mark\sipka f g g( a) a \barMin
