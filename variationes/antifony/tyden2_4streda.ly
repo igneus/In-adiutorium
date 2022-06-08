@@ -206,12 +206,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e f f e \barMin
     f g f e( d) c( d) d \barFinalis
 
     c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Stá -- le se spo -- lé -- hám
+    na Bo -- ží sli -- tov -- nost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 52"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e f f e \barMin
+    f g f e( d) c( d) d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Stá -- le se spo -- lé -- hám

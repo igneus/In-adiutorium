@@ -61,7 +61,7 @@
     c4 d e f f e \barMin
     f g f e( d) c( d) d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Stá -- le se spo -- lé -- hám
