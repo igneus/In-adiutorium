@@ -108,8 +108,8 @@
     \choralniRezim
     g4 g g f a \barMin
     c b a c( b) a( g) g \barMaior
-    a b c c c d d( c) \barMin
-    a a c b g g( a) g g \barFinalis
+    a b c c d( c) d d( c) \barMin
+    a a c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kris -- to -- vou kr -- ví
@@ -130,8 +130,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g g \barMin
-    f g g( a) f d e d d \barFinalis
+    a4 a a g( a) g g \barMin
+    f g g( a) g f e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Všech -- no je stvo -- ře -- no
@@ -166,6 +166,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "slabší"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -222,6 +223,7 @@
     psalmus = ""
     % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
     % ale utrzek nesel samostatne pouzit.
+    placet = "postup _všichni jedno_ je nezpěvný"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -253,10 +255,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a g) f( g) g \barMaior
-    g g a c( d) c c \barMin
-    c d d d d c b a( b) a( g) g \barMaior
-    g a a f( e) d \barMin
+    g4 g g g( a) g g \barMaior
+    g f g a c c
+    c d d c d c b a g g \barMaior
+    a a a f( e) d \barMin
     d f g a a g g \barFinalis
   }
   \addlyrics {
@@ -271,7 +273,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "prostřední část je nezpěvná"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -360,8 +361,8 @@
     \choralniRezim
     c4 c c c( d c) c \barMin
     c c c c b a g( a) g \barMaior
-    f a c( d) d( c) c \barMin
-    c b g a( g) g \barFinalis
+    a g a( c) b( a) a \barMin
+    g f a a( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus je ob -- raz
@@ -388,17 +389,17 @@
     % R
     \neviditelna f
     f4 f g f g g( a) a( g) \barMax
-    g g a g f d d \barMin e( f) e d c( d) d \barFinalis
+    g g g g g g( a g) g \barMin f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a'4 a a( bes) a a c a g( a) \barMin
-    a g f g( a) g g \barMaior
+    a4 a a( bes) a a a a g( a) \barMin
+    a a a g( a) g g \barMaior
     g g g a g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a g f d d \barMin e( f) e d c( d) d \barFinalis
+    g g g g g g( a g) g \barMin f( d) f g g( f) f \barFinalis
     % Slava
-    \relative c'' \respVIdoxologie \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Žij -- me v_po -- ko -- ji s_Bo -- hem_*
@@ -411,7 +412,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
