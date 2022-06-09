@@ -48,15 +48,84 @@
   }
 }
 
-\markup\italic{V době velikonoční:}
-
 \score {
   \relative c' {
     \choralniRezim
 
     % R
     \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    \mark\sipka f g f( d) f g g f \barFinalis
+    % V
+    \neviditelna a
+    a a g( a) g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g f( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ús -- ta spra -- ved -- li -- vé -- ho mlu -- ví moud -- ře;_*
+    to, co ří -- ká, je správ -- né.
+    \Verse Bo -- ží zá -- kon má ve svém srd -- ci;_*
+    \Response to, co ří -- ká, je správ -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    % R
+    \neviditelna f
     f4 f f f f f f f f g( f) f \barMin
+    f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ús -- ta spra -- ved -- li -- vé -- ho mlu -- ví moud -- ře;
+    to, co ří -- ká, je správ -- né._* \textRespAleluja
+    \Verse Bo -- ží zá -- kon má ve svém srd -- ci;_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f \mark\sipka g f \barMin
     f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -223,6 +292,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( a) g \barMin a g a f( e d) d \barMin
     d e f d( c) c \barMaior
@@ -275,6 +345,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4( g) g \barMin a g a f( e d) d \barMin
     d e f d( c) c \barMaior
@@ -622,6 +693,40 @@
     % R
     \neviditelna a
     g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta,_*
+    na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \Verse Ob -- lé -- kl mu rou -- cho slá -- vy,_*
+    \Response na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g( a) g f( g) f \barMin
+    f f f f f g( a) a( g) \barMax
+    g g g \mark\sipka f g( a) g \barMin f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g f( g) g( a) \barMax
+    % R
+    \neviditelna a
+    g g g \mark\sipka f g( a) g \barMin f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

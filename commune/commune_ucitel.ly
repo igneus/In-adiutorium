@@ -56,7 +56,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f g( f) f \barMin
+    f4 f f f f f f f f g f \barMin
     f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -114,11 +114,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) g \barMin a g a f( e d) d \barMin
+    f4( g) g \barMin a g a f( e d) d \barMin
     d e f d( c) c \barMaior
     d e f( g a) g f( g) f f \barFinalis
 
-    d^\markup\rubrVelikAleluja f( g) f f \barFinalis
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
