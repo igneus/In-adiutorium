@@ -327,6 +327,7 @@ tIIuteryAntBenedictus = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nápěv z Erfurtu, za dnešním standardem korpusu už zaostává - zejm. nadužitím třínotových skupin"
     id = "t2-ut-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,7 +396,7 @@ tIIstredaAntMagnificat = \score {
     modus = "III"
     differentia = "a"
     psalmus = ""
-    placet = "~"
+    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -419,7 +420,7 @@ tIIctvrtekAntBenedictus = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "~"
+    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

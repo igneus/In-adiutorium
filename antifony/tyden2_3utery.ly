@@ -230,6 +230,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 49-II"
+    placet = "slabší"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
