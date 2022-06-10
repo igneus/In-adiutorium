@@ -437,8 +437,15 @@
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
+  \markup\nadpisSkupiny "antifona z kompletáře"
+  \markup\justify{
+    Na začátku jsme pro modlitbu uprostřed dne nabízeli stejnou antifonu
+    jako pro kompletář, tedy aleluja \italic{Miserere mihi Domine.}
+  }
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g a g4.( f) \barMin
       a4 c b( c) a4.( g4 f)
@@ -457,6 +464,225 @@
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
       fons = "Liber usualis, New York-Tournai, 1961, 266."
+    }
+  }
+
+  \markup\nadpisSkupiny "antifony z AR1912"
+  \markup\justify{
+    Od června 2021 doporučujeme antifony podle předkoncilního antifonáře.
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 c c b \barMin
+      a g a f
+      g g( f) e e \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "III"
+      differentia = "b"
+      psalmus = ""
+      fons_externus = "AR 1912, 14"
+      id = "prima"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( f) g( a) g \barMin
+      a c a( g) f
+      g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      fons_externus = "AR 1912, 25"
+      id = "tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c( d) \[ c( b \] \[ c d c) \] \barMin
+      a( \grace c) c( b a g) a f
+      a b( a) g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      fons_externus = "AR 1912, 29"
+      id = "sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f( g) g( f) d( e \[ f e c) \] \barMin
+      f( a) a g( a) f( e d) e c( d) d d \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fons_externus = "AR 1912, 34"
+      id = "nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Korespondují také s nějakými antifonami nealelujatickými?
+    Byly nově vypracovány v rámci piánské reformy,
+    nebo je to starší materiál?
+  }
+  \markup\justify{
+    Každopádně v této funkci nefigurovaly v potridentském římském oficiu,
+    kde se k malým hodinkám v době velikonoční nezpívala tři, ale čtyři aleluja.
+    Tři aleluja se zpívala jednak o nedělích během roku (férie měly
+    antifony s normálním textem), jednak v době velikonoční k matutinu a nešporám.
+  }
+
+  \markup\justify{
+    Augustiniány vydaný římský antifonář z r. 1742, chovaný mj. i v Národní knihovně,
+    pro všechny malé hodinky nedělí per annum opakuje následující antifonu,
+    nápadně podobnou té, kterou AR1912 podává k tercii.
+    Pro nešpory doby velikonoční má na každý den jinou.
+    Antverpský antifonář z r. 1773 má stejnou antifonu jako poslední antifonu laud nedělí per annum
+    (augustiniánský antifonář materiál pro laudy neobsahuje) a pak opět i ke všem malým hodinkám.
+    Solesmeský antifonář 1891
+    (\italic\with-url "https://archive.org/details/libriantiphonari00cath/" {
+      Libri antiphonarii complementum pro Laudibus et Horis Officii Romani,
+    }
+    Solesmis 1891, s. 7)
+    ji má v identické podobě jako později AR1912.
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( f) g( a) g \barMaior
+      a bes a( g) f \barMaior
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      fons_externus = \markup{
+        \italic\with-url "https://aleph.nkp.cz/F/?func=direct&doc_number=006286445&local_base=SKC" {
+          Psalterio-Antiphonale Romanum,
+        }
+        Vienna 1742, s. 1;
+
+        \italic\with-url "https://books.google.cz/books?id=pRzS_AIJW3IC" {
+          Antiphonale Romanum,
+        }
+        Antverpiae 1773, s. 212
+      }
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g( a) g \barMax
+      a c a( g) f \barMax
+      g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      fons_externus = \markup{
+        \italic\with-url "https://books.google.cz/books?id=K41WX2CifKcC" {
+          Antiphonarium Romanum
+          quod ad cantum attinet ... ex veteribus manuscriptis
+        }
+        Parisiis 1890, s. 12
+      }
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Antifoně AR1912 k nóně je při dostatečné dávce fantasie vzdáleně podobná
+    tahle antifona z úterních velikonočních nešpor, s melodií podle antifony
+    \italic{Inclinavit Dominus} (první antifona úterních nešpor per annum).
+    Pro antifony AR1912 k primě a sextě jsem ve velikonočních matutinech ani nešporách
+    žádné jakkoli vzdáleně podobné nenašel.
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f( a) a \barMax
+      a g( a) g e( f) \barMaior
+      g f( e) d d \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I?" % v prameni je jen vynotovana differentia, kterou neumim zaradit
+      differentia = "a?"
+      psalmus = ""
+      fons_externus = \markup{
+        \italic\with-url "https://books.google.cz/books?id=pRzS_AIJW3IC" {
+          Antiphonale Romanum,
+        }
+        Antverpiae 1773, s. 232
+      }
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
     }
   }
 }

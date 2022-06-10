@@ -108,7 +108,9 @@
   primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
   každý den. V současné době lze tam, kde se během dne slaví jen
   jedna hodinka,
-  buďto použít jednu vybranou (např. tu, která odpovídá denní době),
+  buďto použít jednu vybranou (např. tu, která odpovídá denní době,
+  nebo tu druhou, která se k tomu dobře hodí svým liturgickým určením
+  z doby ještě před r. 1912),
   nebo postupně prostřídat všechny čtyři
   (např. podle dnů v týdnu
   či – snad vhodněji – % neboť střídání antifon k hodinkám během dne podle týdnů má historické obdoby
