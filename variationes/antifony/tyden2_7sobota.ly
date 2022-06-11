@@ -81,9 +81,32 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a a a g f g( a) g \barMaior
+    g f a g f e d \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- či -- nil vel -- ké di -- vy,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g a a a g f \mark\sipka f( g) g \barMaior
     g f a g f e d \barMin
     f g g f f \barFinalis
   }
