@@ -101,8 +101,6 @@
 
 \markup\italic{Mimo dobu velikonoční:}
 
-% Zvlastni napev jsem mu slozil proto, ze je nesoumerne
-% a pro klasicky v modu VI se mi delkami textu nezdalo
 \score {
   \relative c' {
     \choralniRezim
