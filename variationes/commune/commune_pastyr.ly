@@ -1533,7 +1533,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g \bar ";" g( a) a\breve \bar ";"
     a4 a a( b c) b c c( d) c b a a \barMaior
@@ -1564,6 +1564,39 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \bar ";" g( a) a\breve \bar ";"
+    a4 a a( b c) b c c( d) c b a a \barMaior
+    g g g g( a e) \barMin
+    f g a a b a c b a a \barMaior
+    c c c c( d c) b( g a) a \barMin
+    g( a) e f( g) a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup\with-color #red N _
+    je ten věr -- ný a roz -- váž -- ný správ -- ce,
+    kte -- ré -- ho Pán
+    u -- sta -- no -- vil nad svým slu -- žeb -- nic -- tvem,
+    a -- by jim roz -- dá -- val
+    po -- krm ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo:}
@@ -1571,6 +1604,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a b) c( d) c b a a \barMin c c d( e) d( c) d \barMaior
     d d c( d c) b( a g) g a a f a g g \barMax
@@ -1593,6 +1627,35 @@
     differentia = "a"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a b) c( d) c b a a \barMin c c d( e) d( c) d \barMaior
+    d d c( d c) b( a g) g a a f a g g \barMax
+    a( d c) \barMin d d e d c d( a) a \barMin d c( d) c b a( g a) g \barMaior
+    f g a b c( a g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Kris -- te, dob -- rý pas -- tý -- ři,
+    žes mě do -- ve -- dl do ne -- bes -- ké slá -- vy;
+    dej, ať na ní spo -- lu se mnou má po -- díl i stád -- ce,
+    kte -- ré jsi mi svě -- řil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

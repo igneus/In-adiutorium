@@ -753,7 +753,7 @@
     c c c c( d c) b( g a) a \barMin
     g( a) e f( g) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- tý \markup\with-color #red N _
@@ -787,7 +787,7 @@
     a( d c) \barMin d d e d c d( a) a \barMin d c( d) c b a( g a) g \barMaior
     f g a b c( a g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Dě -- ku -- ji ti, Kris -- te, dob -- rý pas -- tý -- ři,
