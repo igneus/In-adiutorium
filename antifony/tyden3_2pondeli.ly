@@ -80,6 +80,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 50-III"
+    placet = "postup _poznání Boha_ není moc typický a dramatičnost jeho nasazení úplně neodpovídá obsahu textu"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -102,6 +103,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 84"
+    placet = "začátek je pro modus VI netypický"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -141,6 +143,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 96"
+    placet = "melisma na _velebte_ úplně nesedí"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -168,6 +171,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ל"
+    placet = "je melisma (navíc takto exponované) na _skrze_ tolerovatelné?"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

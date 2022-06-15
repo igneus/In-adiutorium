@@ -22,6 +22,7 @@ tIpondeliAntBenedictus = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "úvodní melisma je hodně excentrické"
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

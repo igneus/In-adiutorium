@@ -224,6 +224,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 125"
+    placet = "není to ono"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -248,6 +249,7 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
+    placet = "neve_jdeetee_ (zvlášť to druhé melisma) není moc pěkné"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
