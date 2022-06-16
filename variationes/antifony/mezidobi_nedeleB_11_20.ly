@@ -1023,8 +1023,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a( c) c c d c b a( b) b \barMin
     b b c( b) a g a g g \barMaior
@@ -1046,6 +1049,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a( c) c c d c b a( b) b \barMaior
+    b b c( b) \barMin a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMaior
+    g f e f( g) g g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo je sku -- teč -- ný po -- krm
+    a má krev sku -- teč -- ný ná -- poj.
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    zů -- stá -- vá ve mně a já v_něm.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "ne20b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

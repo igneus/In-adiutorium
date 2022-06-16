@@ -244,11 +244,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a( c) c c d c b a( b) b \barMin
-    b b c( b) b a g a g g \barMaior
-    g f g a( c) c c d c b a( g) \barMin
-    g f e f( g) g \barMin
-    f g e \barFinalis
+    g4 a( c) c c d c b a( b) b \barMaior
+    b b c b a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMaior
+    g f g g( a) a
+    g( f) e e \barFinalis
   }
   \addlyrics {
     Mé tě -- lo je sku -- teč -- ný po -- krm

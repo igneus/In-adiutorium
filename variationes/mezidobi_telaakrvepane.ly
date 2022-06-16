@@ -761,6 +761,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a( c) c c d c b a( b) b \barMin
     b b c( b) b a g a g g \barMaior
@@ -785,6 +786,65 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c c d c b a( b) b \barMaior
+    b b c( b) \barMin b a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMaior
+    g f e f( g) g \barMin
+    f g e \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo je sku -- teč -- ný po -- krm
+    a má krev je sku -- teč -- ný ná -- poj.
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    má ži -- vot věč -- ný
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a( c) c c d c b a( b) b \barMaior
+    b b \mark\sipka c b a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMaior
+    \mark\sipka g f g g( a) a
+    g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo je sku -- teč -- ný po -- krm
+    a má krev je sku -- teč -- ný ná -- poj.
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    má ži -- vot věč -- ný
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
