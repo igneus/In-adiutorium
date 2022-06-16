@@ -237,7 +237,7 @@
     \choralniRezim
     d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
     d c b c( a g) g \barMin g f g a4. g \barFinalis
-    f4^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -260,9 +260,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c b g) g( a) \barMin f( g) a b c c \barMin c d d c( d c) c \barMaior
-    d d( f e) d( c) b g a( g f) g \barFinalis
-    f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    d c d c b g( a g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -275,7 +275,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "začátek (1,a.b) je nelibý"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -520,7 +520,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b \mark\sipka a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
     d c b c( a g) g \barMin g f g a4. g \barFinalis
@@ -542,10 +542,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    d c b c( a g) g \barMin g f g a4. g \barFinalis
+    \mark\sipka a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on si z_nás sta -- ví svůj du -- chov -- ní chrám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\italic{Nebo:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b g) g( a) \barMin f( g) a b c c \barMin c d d c( d c) c \barMaior
     d d( f e) d( c) b g a( g f) g \barFinalis
@@ -593,10 +618,104 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
-    \mark\sipka d c( d) c c b( c) a( g) g \barFinalis
+    d c d c b \mark\sipka g( a g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    \mark\sipka d c b a g a( g) g \barFinalis
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    d c b a g \mark\sipka a( g f g) g \barFinalis
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    \mark\sipka d c( b) a( g) g f( g) a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    \mark\sipka d d( e) c( d) d( c) \barMin
+    a( g) a( b g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -620,6 +739,32 @@
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
     c4 f f e d c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    c4 f f e \mark\sipka c c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
