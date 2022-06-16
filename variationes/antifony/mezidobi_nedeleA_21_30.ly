@@ -696,8 +696,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' g f a g \barMaior
     f g g g f( g) f( d) d \barMin
@@ -716,11 +719,69 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "úvod s těmi dvěma skoky je značně extravagantní, aniž to odpovídá textu"
     fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
     id = "ne28a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a' g f a g \barMaior
+    f g g g f( g) f( d) d \barMin
+    f f e d e d c \barMaior
+    \mark\sipka d( f) e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    všech -- no je při -- pra -- ve -- no,
+    pojď -- te na svat -- bu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
+    id = "ne28a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g a a \barMaior
+    c c b g b( c) a a \barMin
+    a g f e f d( c) c \barMaior
+    d( f) e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    všech -- no je při -- pra -- ve -- no,
+    pojď -- te na svat -- bu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
+    id = "ne28a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

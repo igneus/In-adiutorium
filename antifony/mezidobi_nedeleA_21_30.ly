@@ -581,12 +581,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 a' g f a g \barMaior
-    f g g g f( g) f( d) d \barMin
-    f f e d e d c \barMaior
-    g'( f) e d( e) d d \barFinalis
+    a4 g f g a a \barMaior
+    c c b g b( c) a a \barMin
+    a g f e f d( c) c \barMaior
+    d( f) e d( e) d d \barFinalis
   }
   \addlyrics {
     Řek -- ně -- te po -- zva -- ným:

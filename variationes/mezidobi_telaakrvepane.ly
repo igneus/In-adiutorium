@@ -385,6 +385,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' g f a g \barMaior
     f g g g f( g) f( d) d \barMin
@@ -402,7 +403,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 23"
-    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje."
+    placet = "část _pojďte ..._ na předchozí co do spádu úplně dobře nenavazuje;
+    úvod s těmi dvěma skoky je značně extravagantní, aniž to odpovídá textu"
     fial = "antifony/mezidobi_nedeleA_21_30.ly#ne28a-rch-aben?kratsi_text"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -585,6 +587,55 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f g a a \barMaior
+    c c b g \mark\sipka b( c) a a \barMin
+    g( a) f e( f) d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    pojď -- te na svat -- bu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 23"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g a a \barMaior
+    c c b g b( c) a a \barMin
+    g( a) f e( f) \mark\sipka d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    pojď -- te na svat -- bu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 23"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a g a g \barMaior
     f g a a a g a \barMin
     c b a( b) a a \barMaior
@@ -624,6 +675,30 @@
     quid = "1. ant."
     modus = "IV"
     differentia = "g"
+    psalmus = "Žalm 23"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d( e) d( c) c \barMaior
+    f g a g f( g) g( f) f \barMin
+    g( f e) c e( f) d d \barMaior
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    pojď -- te na svat -- bu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 23"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
