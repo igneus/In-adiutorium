@@ -160,6 +160,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-ס"
+    placet = "závěr netypický a ne úplně uspokojivý"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

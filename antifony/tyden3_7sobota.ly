@@ -89,6 +89,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-III"
+    placet = "nasazení _poznávají_ je pochybné"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }

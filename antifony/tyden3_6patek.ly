@@ -74,6 +74,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 69-III"
+    placet = "krok na _a_ je divný - chvíli mi nevadí, chvíli působí výrazně nelibě"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }

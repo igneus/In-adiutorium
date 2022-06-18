@@ -116,6 +116,7 @@ tIstredaAntBenedictus = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "melodie není úplně přiměřená textu, zvl. dramatické nasazení _rozpomeň se_"
     id = "t1-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
