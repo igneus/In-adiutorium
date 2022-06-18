@@ -17,7 +17,7 @@
     a a c b a g g \barMin
     f g a g g \barFinalis
 
-    a^\rubrVelikAleluja b a( g) g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na,
