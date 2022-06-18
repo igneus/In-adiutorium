@@ -55,7 +55,7 @@ tIInedeleInespAntIII = \score {
     g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b a b( c) c c \barMin
     d c a b a g g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu

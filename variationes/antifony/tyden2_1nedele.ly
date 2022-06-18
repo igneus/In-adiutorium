@@ -322,8 +322,10 @@
 
 \pageBreak
 
-tIInedeleInespAntIII = \score {
+%tIInedeleInespAntIII =
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) a( c) c c b( c a4.) a \barMin
     c4 c d c c b a b( c) c c \barMin
@@ -346,7 +348,59 @@ tIInedeleInespAntIII = \score {
   }
 }
 
-\score { \tIInedeleInespAntIII }
+%\score { \tIInedeleInespAntIII }
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b a b( c) c c \barMin
+    d c a b a g g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b a b( c) c c \barMin
+    d c a b a g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 tIInedeleInespResp = \score {
   \relative c'' {
