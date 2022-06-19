@@ -96,6 +96,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g( a b c) a( b) a \barMin g g g g e d d( e) e \barMaior
+    g a c4.( b4 a c4.) \barMin d4 a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Kdo smí vy -- stou -- pit na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Žalm 24"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -275,6 +295,46 @@
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy,
     na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f f g a f g g \barMaior
+    a a g f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) g g f g a a( g) g \barMaior
+    a a g f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
     On dal ži -- vot na -- ší du -- ši.
   }
   \header {
@@ -588,12 +648,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) \mark\sipka c( d) \barMaior
     c4 \mark\sipka b c( d) d c c \barMin
     b4 c a a( g) g \barMaior
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Vše -- chna dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c( d) \barMaior
+    c4 b c( d) d c c \barMin
+    b4 c a a( g) g \barMaior
+    \mark\sipka a g f( a) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -1044,6 +1129,28 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c b( g) \barMaior
+    a g f a c c \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 23"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}

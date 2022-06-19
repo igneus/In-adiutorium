@@ -88,6 +88,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
+    placet = "nasazením _On dal_ si nejsem jist"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -150,7 +151,7 @@
     g4 a a( c) c( d) \barMaior
     c4 b c( d) d c c \barMin
     b4 c a a( g) g \barMaior
-    f a a( g) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
