@@ -253,8 +253,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c bes c( d) c( d) d \barMin
     f( e) d d \barMaior
@@ -277,6 +280,159 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c bes c( d) \mark\sipka d d \barMin
+    f( e) d d \barMaior
+    f f f f f( g) g \mark\sipka f e d( e c) c( d) \barMin
+    \mark\sipka d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c bes c( d) d d \barMin
+    f( e) d d \barMaior
+    f f f f f( g) g f e d( e c) c( d) \barMin
+    \mark\sipka d f( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    d c d e f e f g g( a) a \barMin
+    g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    \mark\sipka f g a a b a g a f( g) g \barMin
+    f e d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    f g a a b a g a \mark\sipka a( g) g \barMin
+    a g f e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    f g a a \mark\sipka g a g f g( a) a \barMin
+    g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"13. neděle"}}
 

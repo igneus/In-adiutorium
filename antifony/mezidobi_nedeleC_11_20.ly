@@ -126,10 +126,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c bes c( d) c( d) d \barMin
-    f( e) d d \barMaior
-    f f f f f( g) g g f d( e c) c( d) \barMin
-    bes c( d) e( f) d d \barFinalis
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    f g a a g a g f g( a) a \barMin
+    g f d e e \barFinalis
   }
   \addlyrics {
     Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
@@ -139,8 +139,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     annus = "C"
     id = "ne12c-2ne-amag"
