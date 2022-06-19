@@ -564,11 +564,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior
     f g \mark\sipka a g( a) \barMin \mark\sipka a( b) g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a po třech dnech vsta -- ne z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne24b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) a a \mark\sipka a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g a g( a) \barMin a( b) g f( e) e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,

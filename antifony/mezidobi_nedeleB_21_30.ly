@@ -221,7 +221,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a4 g( a) a a a a g a c c b b \barMaior
     a a e( f d) e \barMaior
     f g a g( a) \barMin a( b) g f( e) e \barFinalis
   }

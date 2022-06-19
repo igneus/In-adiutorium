@@ -80,9 +80,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a a \barMin a a g a c c b b \barMaior
+    a4 g( a) a a a a g a c c b b \barMaior
     a a e( f d) e \barMaior
-    f g a a g( a) \barMin g a f( e) e \barFinalis
+    f g a a g( a) \barMin g f d( e) e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
