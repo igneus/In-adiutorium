@@ -48,6 +48,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 134"
+    placet = "_V nočních_ je hodně neobvyklé - mám tu antifonu takhle rád, ale spíš není způsobilá stát se součástí kánonu českého chorálu"
     piece = \markup\sestavTitulek
     id = "nei2"
   }
@@ -71,6 +72,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 91"
+    placet = "starý nápěv, dnes už z korpusu ve více ohledech nelibě vyčnívá"
     piece = \markup\sestavTitulek
     id = "neii"
   }
@@ -89,6 +91,7 @@
     quidbreve = "ant."
     modus = "II"
     differentia = "D"
+    placet = "ten velký skok působí nuceně/přehnaně/nepřirozeně"
     piece = \markup\sestavTitulek
     psalmus = "Žalm 86"
     id = "po"
@@ -111,6 +114,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
+    placet = "také moje oblíbená antifona, ale začátek není pro modus II zrovna typický"
     piece = \markup\sestavTitulek
     id = "ut"
   }
