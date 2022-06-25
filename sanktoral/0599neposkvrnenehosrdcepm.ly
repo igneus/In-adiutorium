@@ -27,6 +27,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
+    placet = "závěr nepřesvědčivý, to aleluja ze zdroje tu chybí"
     id = "aben"
     fons = "doba velikonoční, feriální cyklus, pondělí 3.t., r.ch., 1. ant. Odstraněno aleluja."
     fial = "antifony/velikonoce_tyden3_2pondeli.ly#rch-a1?-aleluja"

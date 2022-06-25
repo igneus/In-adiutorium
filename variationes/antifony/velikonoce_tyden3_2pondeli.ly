@@ -50,6 +50,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 c c b a b( g) g \barMin
+    a( g) f g a( c) c \barMin c( d) c( a) b g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce i mé tě -- lo_*
+    s_já -- so -- tem tíh -- nou k_ži -- vé -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 84"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b a b( g) g \barMin
+    a( g) f g a( c) c \barMin \mark\sipka c a b g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce i mé tě -- lo_*
+    s_já -- so -- tem tíh -- nou k_ži -- vé -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 84"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
