@@ -479,10 +479,31 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a f g \barMin
     g g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze kaž -- dé -- mu,
+    kdo se bo -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 128"
+    id = "nona-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a f g \barMin
+    \mark\sipka g a g( f) d f g g f \barFinalis
   }
   \addlyrics {
     Bla -- ze kaž -- dé -- mu,
