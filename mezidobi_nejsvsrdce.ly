@@ -372,14 +372,6 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
-\markup\justify\italic{
-  Místo následující může být vhodné použít známé zhudebnění identického
-  textu z pera Bohuslava Korejse, zpívaného v rámci obřadů
-  Velkého pátku - \upright{Zpěvy s odpovědí lidu,} s. 368.
-  K tomu se hodí (samozřejmě po transposici, aby se shodovala finála)
-  chorální nápěv psalmodie I.D.
-}
-
 \score {
   \relative c'' {
     \choralniRezim
