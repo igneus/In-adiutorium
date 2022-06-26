@@ -16,18 +16,18 @@ ciselnaRada = \markup\tiny\sans\concat{
 }
 
 \markup\justify{
-  Oficium Nejsvětější Trojice bylo jedním z prvních, kde antifony a responsoria
-  tvoří řady procházející postupně jednotlivé mody v číselném pořadí.
+  Oficium Nejsvětější Trojice bylo jedním z prvních, kde antifony
+  tvořily řady procházející postupně jednotlivé mody v číselném pořadí.
   \italic{Liturgia horarum} značnou část tradičních antifon přebírá,
-  s ohledem na změněnou strukturu hodinek pochopitelně ne v původním pořadí.
+  s ohledem na výrazně změněnou strukturu hodinek ovšem ne v původním uspořádání.
   Zhudebnění českých textů na tuto skutečnost odkazuje tím, že u vybraných
-  antifon (vybraných tak, aby byla alespoň jedna od každého modu)
-  zachovává alespoň modus, v několika
-  případech i určité rysy melodie odpovídajících latinských antifon,
-  a dřívější pozici antifony v číselné řadě uvádí kódem v hranatých
-  závorkách:
-  \sans{M1} = první z řady antifon k matutinu,
-  \sans{L1} = první antifona řady k laudám.
+  antifon (zvolených tak, aby byla alespoň jedna od každého modu)
+  zachovává modus, v několika
+  případech i určité rysy melodie odpovídajících latinských antifon.
+  Dotčené antifony jsou označeny kódem v hranatých závorkách:
+  \sans{M} = někdejší řada antifon k matutinu,
+  \sans{L} = řada antifon k laudám,
+  připojené číslo udává pořadí v dané řadě (a zároveň odpovídá modu antifony).
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
