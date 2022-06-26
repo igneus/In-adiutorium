@@ -843,14 +843,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d e) d( c) a b a( g) g \barMin g a c d c d d \barMax
+    g4 a c c c( d) d \barMin
+    c d e d c d d \barMaior
     d( e f) e( d) c( d) \barMaior
-    d d d c b e( d e) f( e) d d \barMaior
-    c( b c) d c b a g( a) a \barMax
-    g a( b) a a \barFinalis
+    d d d c b c a a( g) g \barMin
+    a g f g a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
-    Ra -- duj -- te se, sva -- tí,_* před Be -- rán -- ko -- vým trů -- nem,
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
     v_krá -- lov -- ství,
     kte -- ré je pro vás při -- pra -- ve -- né
     od za -- lo -- že -- ní svě -- ta.
@@ -858,10 +860,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "r"
     id = "2ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }

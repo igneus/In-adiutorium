@@ -1204,8 +1204,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d e) d( c) a b a( g) g \barMin g a c d c d d \barMax
     d( e f) e( d) c( d) \barMaior
@@ -1226,6 +1229,63 @@
     differentia = "A"
     psalmus = ""
     placet = "r"
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e d c d d \barMaior
+    d( e f) e( d) c( d) \barMin
+    d d d c b c a a( g) g \barMaior
+    a a a a a g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e d c d d \barMaior
+    d( e f) e( d) c( d) \barMaior
+    d d d c b c a a( g) g \barMin
+    \mark\sipka a g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
     id = "2ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
