@@ -2769,6 +2769,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c c c( b) a a( g) g \barMaior
+    g b g g( a) a \barMin
+    a( c) g f( e) d \barMin
+    f f g a a( g) g \barMaior
+    a c c b( c) a g( a) \mark\sipka a( g) \barMin
+    g f g( a) g f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Vě -- ří -- me a vy -- zná -- vá -- me,
+    že od věč -- nos -- ti
+    všech -- no tvo -- říš,
+    vše -- mu dá -- váš ži -- vot
+    a všech -- no moud -- ře ří -- díš,
+    sva -- tá Bo -- ží Tro -- ji -- ce.
+  }
+  \header {
+    fons_externus = "volně podle NR2002, 508"
+    quid = "ant. odpoledne"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

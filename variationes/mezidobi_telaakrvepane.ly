@@ -2878,6 +2878,95 @@
   }
 }
 
+\markup\justify{
+  Spíš \italic{u vědomí} než \italic{podle} latinské předlohy,
+  AR1912, s. 440:
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e( f d) d \barMin
+    f g( a) a( g) g \barMaior
+    a a b( c a) a \barMin
+    g a g f g( a) a \barMaior
+    a g f d d \barMin
+    e d c d d f g f d d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du
+    Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e( f d) d \barMin
+    f g( a) a( g) g \barMaior
+    a a b( c a) a \barMin
+    g a g f g( a) a \barMaior
+    a g f \mark\sipka d( e) d( c) \barMin
+    d c d f f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du
+    Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e( f d) d \barMin
+    f g( a) a( g) g \barMaior
+    a a b( c a) a \barMin
+    g a g f g( a) a \barMaior
+    \mark\sipka a b c a( g) g \barMin
+    a g f d d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš,
+    kněz na -- vě -- ky
+    po -- dle řá -- du
+    Mel -- chi -- ze -- de -- cho -- va,
+    se o -- bě -- tu -- je
+    pod způ -- so -- ba -- mi chle -- ba a ví -- na.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
