@@ -28,6 +28,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 102-I"
+    placet = "charakter nápěvu je nechorální, i když neumím říct, čím přesně to je"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -202,6 +203,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88-II"
+    placet = "_k tobě, Hospodine_ není moc pěkné"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

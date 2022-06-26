@@ -30,6 +30,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 103-I"
+    placet = "zkusit lépe"
     id = "cte-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -168,6 +169,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 119-ק"
+    placet = "půjde lépe"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -205,6 +207,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 94-II"
+    placet = "zkusit lépe"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

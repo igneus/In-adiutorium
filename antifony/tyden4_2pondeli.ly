@@ -28,6 +28,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 73-I"
+    placet = "začátek netypický, nejspíš půjde lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
