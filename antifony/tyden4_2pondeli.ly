@@ -65,7 +65,7 @@
     c c b g a a( g) g \barMaior
     a g f g a b c a g( a) g g \barFinalis
 
-    f^\rubrVelikAleluja a g g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mé štěs -- tí
@@ -126,7 +126,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a b4. g b4( d) c( b) g a a4 \barMaior
+    c4 a b4. g \barMin b4( d) c( b) g a a4 \barMaior
     b d d c( b) a a \barMin
     g a b c b a( g) g \barFinalis
   }
@@ -153,8 +153,8 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) a \barMaior
-    c c b a g( a) g g \barMin
-    f a a( g) g \barFinalis
+    c c b a g( a) g f
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     Veď mé kro -- ky
