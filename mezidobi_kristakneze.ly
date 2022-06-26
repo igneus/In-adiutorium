@@ -347,7 +347,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = "Žalm 111"
     % motiv není převzat doslovně
     fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"

@@ -54,6 +54,100 @@
   }
 }
 
+\markup\justify{
+  Podobně stručných a co do struktury textu podobných invitatorií,
+  z nichž by se dalo vyjít, v korpusu moc není.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c( d c b) c \barMaior
+    a g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t2po?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  ... spíš takhle:
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f( g f e) f \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Tohle volně napodobuje "commune/commune_maria.ly#invit1" a další podobná:
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e( f g a) a \barMin
+    g f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f \mark\sipka g( f g a) a \barMin
+    g f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -1845,7 +1939,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f g f g a bes a g f \barMaior
     g-- g a g f e d \barMin
@@ -1860,6 +1954,35 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 111"
+    % motiv není převzat doslovně
+    fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Jen opravená differentia:
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g f g a bes a g f \barMaior
+    g-- g a g f e d \barMin
+    c d e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- ko -- neč -- ně mi -- lo -- srd -- ný Bůh
+    nás při -- ve -- dl k_ži -- vo -- tu
+    zá -- ro -- veň s_Kris -- tem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 111"
     % motiv není převzat doslovně
     fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"
