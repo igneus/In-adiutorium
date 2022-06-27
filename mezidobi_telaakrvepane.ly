@@ -481,11 +481,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a \barMin
-    c a g a \barMin
+    g4 f( a) a \barMin
+    a b( c) a( g) g \barMin
     a a g f g f g a g g \barMaior
-    g f g a a \barMin
-    c c b a g f g a g g \barFinalis
+    g f g g( a) a \barMin
+    b c a g g f g a g g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
