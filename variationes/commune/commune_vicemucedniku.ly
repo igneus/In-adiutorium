@@ -1079,6 +1079,66 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e d c d d d \barMaior
+    d a d c( b) a( g) \barMin
+    f g a( c) b( a) a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a c c c c d( e) d d \barMin
+    d e c c( d) d \barMaior
+    d a d b( c) a( g) \barMin
+    f g a( c) b( a) a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci by -- li za -- bi -- ti_*
+    pro Bo -- ží slo -- vo
+    a pro svě -- dec -- tví,
+    kte -- ré vy -- da -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
