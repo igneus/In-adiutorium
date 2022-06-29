@@ -190,6 +190,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a b( c) a a \barMaior
     g f g( a) g( a) a \barMin a b4.( c) d4 e d c d( e) e \barMaior
@@ -213,6 +214,38 @@
   }
 }
 
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a b( c) a a \barMin
+    g f g( a) a( g) g \barMaior
+    a c( d) \barMin d4 e d c d( e) e \barMin
+    e d( e) e( f e) e \barMaior
+    e d c b( c) a g a( g) \barMin f g a( c b g) g \barFinalis
+  }
+  \addlyrics {
+    Vím, ko -- mu jsem u -- vě -- řil,_*
+    a jsem pře -- svěd -- čen,
+    že on, spra -- ved -- li -- vý soud -- ce,
+    má dost mo -- ci,
+    a -- by mi o -- chrá -- nil to, co mi svě -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    fial = "fial://sanktoral/0629petraapavla.ly#rch-a1"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -235,12 +268,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( b c) c( d) \barMin c d e f e d d \barMaior
     c d c b a g a( g) g \barMaior
     f g a( c) c c( d c) b a f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
+    ne -- zů -- sta -- la le -- žet la -- dem,
+    a -- le stá -- le zů -- stá -- vá ve mně.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    fial = "fial://sanktoral/0629petraapavla.ly#rch-a2"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( b c) c( d) \barMin c d e f e d d \barMaior
+    c d c b a g a( g) g \barMaior
+    f g a( c) c b( c) a g a( g) g \barFinalis
   }
   \addlyrics {
     Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
@@ -751,10 +813,36 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( c) d d( a') \barMin a g a a( bes a) a \barMin a( bes) c bes a g( bes) a( g) g \barMaior
     g g g g g( a g) f( e) d d \barMin d( e f) e( d) c c( d) \barFinalis
+  }
+  \addlyrics {
+    Vel -- mi rád_* se bu -- du chlu -- bit spí -- še svý -- mi sla -- bost -- mi,
+    a -- by na mně spo -- či -- nu -- la Kris -- to -- va moc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    fial = "fial://sanktoral/0629petraapavla.ly#2ne-a2"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( c) d d( a') \barMin a g a a( bes a) a \barMin a( bes) c bes a g( bes) a( g) g \barMaior
+    g g g g g( a) g f( e d) d \barMin e d c c( d) \barFinalis
   }
   \addlyrics {
     Vel -- mi rád_* se bu -- du chlu -- bit spí -- še svý -- mi sla -- bost -- mi,
