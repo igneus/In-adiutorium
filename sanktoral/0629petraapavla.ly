@@ -391,6 +391,7 @@
     modus = "I"
     differentia = "a3"
     psalmus = ""
+    placet = "ten terciový skok na _Kristus_ je nějak nelibý"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
