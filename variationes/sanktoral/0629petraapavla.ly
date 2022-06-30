@@ -739,6 +739,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     d4 d f( g) a g f f g f g f( d) d \barMaior
@@ -762,6 +763,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny 2.1
 
 \score {
   \relative c' {
@@ -787,6 +790,83 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\nadpisSkupiny 2.2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a a g g a g a g( f) f \barMaior
+    g g g a g a( c) a a \barMin a( b c) a g g( a) a \barMax
+    a a bes a g( a) g \barMaior a a g f e f d( c) c \barMax
+    c d f e f( g a) g( f) e \barMin e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
+    po ce -- lý ži -- vot spo -- leč -- ně slou -- ži -- li Kris -- tu,
+    o -- ba z_lás -- ky k_ně -- mu o -- bě -- to -- va -- li svůj ži -- vot
+    a při -- ja -- li od ně -- ho ko -- ru -- nu slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a a g g a g a g( f) f \barMaior
+    g g g a g a( c) a a \barMin a( b c) a g g( a) a \barMax
+    a \mark\sipka g a( c) c b( c a g) g \barMaior f g g a a b( c) a a \barMax
+    a a g f f( g) f f \barMin e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
+    po ce -- lý ži -- vot spo -- leč -- ně slou -- ži -- li Kris -- tu,
+    o -- ba z_lás -- ky k_ně -- mu o -- bě -- to -- va -- li svůj ži -- vot
+    a při -- ja -- li od ně -- ho ko -- ru -- nu slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g a a g g a g a g( f) f \barMaior
+    g g g a g a( c) a a \barMin a( b c) a g g( a) a \barMax
+    a g a( c) c b( c a g) g \barMaior f g g a a \mark\sipka g( f) e e \barMax
+    d d f e d( e) d( c) c \barMin d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
+    po ce -- lý ži -- vot spo -- leč -- ně slou -- ži -- li Kris -- tu,
+    o -- ba z_lás -- ky k_ně -- mu o -- bě -- to -- va -- li svůj ži -- vot
+    a při -- ja -- li od ně -- ho ko -- ru -- nu slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "varia"
 
 \score {
   \relative c' {

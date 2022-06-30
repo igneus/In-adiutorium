@@ -122,12 +122,11 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    d4 d f( g) a g f f g f g f( d) d \barMaior
-    d c d d( f) e d( e) d d \barMin f( g a) g f f( g) g \barMax
-    g g a( bes a) g g( a g f) f \barMaior g g g f e d e( d) d \barMax
-    d d( a' bes) a g bes( a) g( f) e \barMin f( e f) g( f) e d d \barFinalis
+    f4 f g a a g g a g a g( f) f \barMaior
+    g g g a g a( c) a a \barMin a( b c) a g g( a) a \barMax
+    a g a( c) c b( c a g) g \barMaior f g g a a g( f) e e \barMax
+    d d f e d( e) d( c) c \barMin d f e c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
@@ -138,9 +137,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = ""
-    placet = "melodie _apoštolové_ si nerozumí s přirozeným přízvukem"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
