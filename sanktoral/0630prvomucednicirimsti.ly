@@ -10,13 +10,14 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:mucednici)
+
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f e f g a( g) g \barMaior
+    g4 g g f d f g a( g) g \barMaior
     a a a a a( c) a b c a g g \barMaior
-    a a f e d \barMin
-    f g a g g \barFinalis
+    a a f e d d f( g) a g g \barFinalis
   }
   \addlyrics {
     Ne -- smír -- né množ -- ství mu -- čed -- ní -- ků
@@ -35,13 +36,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d c( e c) c( d) d \barMin
-    c b a g a( g) g \barMaior
-    f a c c c d c b a g c d d \barMaior
-    d d d d( e d) c( d) d( a) \barMin
-    g( a) a( g) g \barFinalis
+    c4 d d( f) d d \barMin
+    e f d c c( d) d \barMaior
+    c d f f f g f g f e d c c \barMaior
+    d d c d( f g) f( e) d( c) \barMin
+    e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Ve svém ži -- vo -- tě
@@ -52,8 +53,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
