@@ -308,24 +308,51 @@
   \markup\sekce{III.2 slavnostní nápěv}
 
   \markup\justify{
-    Slavnostní nápěv pro verše s aleluja.
     Původně k nešporám nejvýznamnějších svátků. Když dnes nešpory
     veršík neobsahují, nabízí se použít tento nápěv v modlitbě se čtením
-    zejm. o slavnostech velikonočního cyklu.
+    zejm. o největších slavnostech.
   }
 
+  \markup{Verše bez aleluja:}
 
   \score {
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c4 c c c c c c c( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
+      c\breve c4( d) \parenthesize c c \barMin
+      c\breve a4 g a( c) \parenthesize c c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
       \neviditelna c
-      c c c c c( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
+      c\breve c4( d) \parenthesize c c \barMin
+      c\breve a4 g a( c) \parenthesize c c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
     }
     \addlyrics {
-      \Verse U -- čed -- ní -- ci se \markup\underline{za} -- ra -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _ _
-      \Response když vi -- dě -- li \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _ _
+      % MČ Nejsvětější Trojice
+      \Verse "Slovem Hospo" -- \markup\underline{di} -- no -- vým
+      \skip 1 vznik -- la \markup\underline{ne} -- be -- sa _ _ _ _
+      \Response a \markup\underline{všech} -- "" -- no,
+      "co je" na -- pl -- \markup\underline{ňu} -- "" -- je. _ _ _ _
+    }
+    \layout {
+      ragged-last = ##f
+    }
+    \header {
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 693."
+    }
+  }
+
+  \markup{Verše s aleluja:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c\breve c4( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
+      \neviditelna c
+      c\breve c4( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
+    }
+    \addlyrics {
+      \Verse "Učedníci se zara" -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _ _
+      \Response "když viděli" \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _ _
     }
     \layout {
       ragged-last = ##f
