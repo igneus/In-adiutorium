@@ -332,6 +332,7 @@ tInedeleIInespAntI = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
+    placet = "netypické aleluja, resp. daný závěr antifony vůbec"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }

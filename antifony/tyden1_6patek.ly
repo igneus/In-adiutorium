@@ -125,6 +125,7 @@
     differentia = "c"
     quid = "2. ant."
     psalmus = "Iz 45"
+    placet = "ve více ohledech netypická"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

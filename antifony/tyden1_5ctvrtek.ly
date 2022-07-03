@@ -26,6 +26,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-IV"
+    placet = "aleluja spíš lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -189,6 +190,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 25-I"
+    placet = "_ve své pravdě_ je na takhle krátkém textu hodně extravagantní"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

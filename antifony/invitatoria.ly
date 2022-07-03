@@ -129,6 +129,7 @@ tIpatekInvitatorium = \score {
     modus = "I"
     differentia = "a"
     dies = "pátek"
+    placet = "zkusit krotší variantu"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }

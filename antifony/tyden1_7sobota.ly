@@ -253,6 +253,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 34-I"
+    placet = "_těm_ nevím"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

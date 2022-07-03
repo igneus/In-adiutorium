@@ -28,6 +28,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 6"
+    placet = "u všech třech si posvítit na aleluja - asi spíš jinak"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -161,6 +162,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 19"
+    placet = "závěrečný díl divný"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -204,6 +206,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-II"
+    placet = "_spravedlivý a mocný_ je dost excentrické, zvážit krotší variantu"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

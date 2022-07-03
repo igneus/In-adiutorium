@@ -129,6 +129,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-II"
+    placet = "modus VII je tady přání otcem myšlenky, fakticky je mnohem bližší VIII"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -151,6 +152,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
+    placet = "~"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
