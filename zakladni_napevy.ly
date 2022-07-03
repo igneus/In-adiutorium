@@ -431,7 +431,13 @@
 
   \markup\sekce{IV.1 Ranní chvály a nešpory}
 
-  \markup\sekce{IV.1.1 s knězem nebo jáhnem}
+  \markup\sekce{IV.1.1 požehnání}
+
+  % doslova rubrika z Uspořádání
+  \markup\justify{
+    Předsedá-li společnému slavení kněz nebo jáhen,
+    připojí závěrečný pozdrav a požehnání:
+  }
 
   \score {
     \relative c'' {
@@ -520,7 +526,12 @@
     }
   }
 
-  \markup\sekce{IV.1.2 bez ordinovaného služebníka}
+  \markup\sekce{IV.1.2 prosba o požehnání}
+
+  % srov. rubriku v Uspořádání
+  \markup\justify{
+    Není-li přítomen kněz nebo jáhen anebo modlí-li se někdo sám:
+  }
 
   \score {
     \relative c'' {
