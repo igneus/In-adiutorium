@@ -43,9 +43,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c a) g( f) f( g) g \barMaior
-    c b c c( d) d( c) \barMin
-    b a g a a( g) g \barFinalis
+    g4 a a( c) c \barMin
+    c b a g( a) g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,

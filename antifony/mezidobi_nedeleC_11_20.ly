@@ -226,10 +226,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a b a \barMin
-    g a b a g f( e) e \barMaior
-    f( g) f f f e d d( e) \barMin
-    e e f( g) g a g a g( f) e e \barFinalis
+    a4 a g f g( a) a \barMin
+    g f g a a g g \barMaior
+    a c d c b c a \barMin
+    a a g f g a a g( a) g g \barFinalis
   }
   \addlyrics {
     Žeň je si -- ce hoj -- ná,
@@ -239,8 +239,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     annus = "C"
     id = "ne14c-1ne-amag"
@@ -251,10 +251,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( f) d c e f f e( f) d d \barMaior
-    c( b c d) d f d f e( d) d \barMax
-    f f f f g( a) g f g f( e) d d \barMin
-    d c d f d f e( d c) d \barFinalis
+    d4 d d d( f) e d e f f \barMin e( f) d d \barMaior
+    f( g a g) f f g f d d \barMaior
+    f f f f f f e d e d c \barMin
+    d c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Když něk -- de ve -- jde -- te do do -- mu, řek -- ně -- te:
@@ -276,9 +276,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c a) g( f) f( g) g \barMaior
-    c b c c( d) d( c) \barMin
-    b a g a a( g) g \barFinalis
+    g4 a a( c) c \barMin
+    c b a g( a) g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,

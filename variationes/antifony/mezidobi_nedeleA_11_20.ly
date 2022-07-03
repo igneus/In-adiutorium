@@ -27,8 +27,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g a b a \barMin
     g a b a g f( e) e \barMaior
@@ -52,6 +55,37 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g( a) a \barMin
+    g f g a a g g \barMaior
+    a c d c b c a \barMin
+    a a g f g a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Žeň je si -- ce hoj -- ná,
+    a -- le děl -- ní -- ků má -- lo.
+    Pros -- te pro -- to Pá -- na žně,
+    a -- by po -- slal děl -- ní -- ky na svou žeň.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-1ne-amag"
+    id = "ne11a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

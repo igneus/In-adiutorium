@@ -196,11 +196,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c a) g( f) f( g) g \barMaior
     c b c c( d) \mark\sipka d( c) \barMin
     b a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-2ne-amag"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c b a g( a) g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Ra -- duj -- te se,
