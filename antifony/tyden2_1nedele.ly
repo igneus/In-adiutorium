@@ -215,7 +215,7 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     \key f \major
     f4. g a4 bes c a \barMin
-    a a a bes bes c bes a g g4 \barMin
+    a a a bes bes c bes a g g4 \barMaior
     g4 a f4. f \barFinalis
   }
   \addlyrics {
@@ -226,7 +226,6 @@ tIInedeleInespAntIII = \score {
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
-    placet = "před aleluja div. maior"
     psalmus = "Žalm 150"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
@@ -307,7 +306,7 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     a4 g f a( b c) c( d) d( c) c \barMaior
     d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
-    g4 g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky

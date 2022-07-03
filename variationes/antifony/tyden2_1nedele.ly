@@ -673,6 +673,28 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a c d c c d d \barMaior
+    d c a a bes a g( a) a \barMaior
+    bes^\markup\small\italic{Mimo dobu postní:} c bes( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -945,10 +967,34 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4. g a4 bes c a \barMin
     a a a bes bes c bes a g g4 \barMin
+    g4 a f4. f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na pro je -- ho svr -- cho -- va -- nou
+    ve -- leb -- nost. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 150"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4. g a4 bes c a \barMin
+    a a a bes bes c bes a g g4 \barMaior
     g4 a f4. f \barFinalis
   }
   \addlyrics {
@@ -1318,6 +1364,28 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a( c) b \barMin
+    c b g b c a a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když Bůh po -- vstal k_sou -- du,
+    ze -- mě se zdě -- si -- la a zmlk -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -1371,7 +1439,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f a( b c) c( d) d( c) c \barMaior
     d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
@@ -1383,6 +1451,30 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f a( b c) c( d) d( c) c \barMaior
+    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
@@ -1520,6 +1612,52 @@ tIInedeleLaudResp = \score {
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a c b \barMaior
+    c c a g a g f a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a c \mark\sipka c \barMaior
+    b c a g a g f a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
