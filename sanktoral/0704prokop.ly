@@ -65,7 +65,7 @@
   \relative c'' {
     \choralniRezim
     a4( e) e a g f e e \barMaior
-    d c d e( g) a g f g a( g) g \barMaior
+    d c d e( g) \barMin a g f g a( g) g \barMaior
     a g a( b a) g f( d) \barMin e f( g) f e e \barFinalis
   }
   \addlyrics {
@@ -89,19 +89,19 @@
 
     % R
     \neviditelna g
-    g4 g a c c d c b c c( a) \barMin
-    c c b( c) b a c( d) d \barMax
-    e d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
+    g4 a c( d) d d \barMin d c d( e) d d \barMaior
+    d d f( g) f e c( d) d \barMax
+    d e d c( d) c c \barMin c c c c b a g a g g \barFinalis
     % V
     \neviditelna c
-    d4 d c d d( e) e \barMin e f g f e d( c) c( d) d \barMaior
-    d d e( c a b g) g \barMin a( f) g a c c b c( d) \barMax
+    d4 d c d d( e) d \barMin d f g f e c( d) d d \barMaior
+    d d e d c( d) c \barMin b c a g c( d) \barMax
     % R
-    \neviditelna a
-    e' d c d( c b) c c( a) \barMin a a g f g( a) a g a g g \barFinalis
+    \neviditelna e
+    d e d c( d) c c \barMin c c c c b a g a g g \barFinalis
     % Slava
-    d'4 d c( d e d) c( d) \barMin e f( g f e) d \barMaior
-    d e( c a b) a( g) \barMin a( c) c( d) d \barFinalis
+    d'4 d e d c c( d) c \barMin
+    c b a c( d) d d \barFinalis
   }
   \addlyrics {
     \Response Chci ti u -- ká -- zat ces -- tu moud -- ros -- ti,
@@ -115,20 +115,18 @@
   \header {
     quid = "resp."
     modus = "VII"
-    placet = "věnovat něco péče. Možná změny nepotřebuje, ale relativně náročné
-    responsorium by nemělo zůstat dlouho bez dozoru."
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e) d4. d4 d c b a( b) a \barMaior
-    a b c d( e) e \barMin f g f e d d \barMax
-    f f f f f( g a) g f f( e) e \barMin
-    g f e f e d c d d \barFinalis
+    g4( a) g4. g4 g f e d( e) d \barMaior
+    d e f g( a) a \barMin bes c bes a g g \barMaior
+    a a g f e f d d( c) c \barMin
+    d c d d f e c d d \barFinalis
   }
   \addlyrics {
     Od rá -- na se ce -- lým srd -- cem
@@ -138,10 +136,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "g"
     psalmus = ""
-    placet = "do modu II moc nesedí"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -150,8 +147,8 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\justify\italic{
-  Následující vlastní texty pro nešpory jsou obsaženy ve vydáních breviáře
-  z let 1989 a 1994.
+  Následující vlastní texty pro nešpory jsou obsaženy ve vydání breviáře
+  z roku 1989 a jeho reprintech.
   Nejnovější vydání reflektují skutečnost, že oslava sv. Cyrila a Metoděje
   byla povýšena na slavnost i pro Čechy, a nešpory z památky sv. Prokopa již
   neobsahují.
@@ -160,9 +157,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d( e f) f \barMin
-    g f e d d d e d d( c) c \barMaior
-    d( b c) d a \barMin g( a) b a a g g \barFinalis
+    c4 c c c c( d c) c \barMin
+    a g a c c c b a g( a) g \barMaior
+    c( d e) c( b a) a \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Po -- do -- bá se stro -- mu
@@ -171,7 +169,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 15"
     id = "ne-a1"
@@ -183,8 +181,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    c( d) d( a') \barMin a( g) a bes a \barMaior
-    a g a a( bes a) g( f) e d( c) d f( e d) d \barFinalis
+    d4( a' bes) a \barMin a( bes) a g g \barMaior
+    g f g g( a) g g f e c( d) d \barFinalis
   }
   \addlyrics {
     Hlá -- sal Bo -- ží zá -- kon,
@@ -203,10 +201,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    a4 g a a( bes a) g f( e) e \barMaior
-    f g a a g a g f f( e) e \barMin
-    d d( f) f( d) d f f( g f) d d \barFinalis
+    a4 g f f( g) f d d \barMaior
+    f f e f g g f e d( c) c \barMin
+    d c( d) d( f) f f e( f) d d \barFinalis
   }
   \addlyrics {
     Bůh na něj shlé -- dl s_lás -- kou
@@ -288,6 +285,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "zejm. ta stupnice na _pomáhej nám svou přímluvou_ je nelibá"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
