@@ -14,11 +14,11 @@
   \relative c'' {
     \choralniRezim
     c4 c d( e) e( d) d \barMin
-    c a b a g g \barMaior
+    c b a b g g \barMaior
     f a c b c( d) \barMin
     b c a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Dám vám pas -- tý -- ře
@@ -41,11 +41,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b c d( c a) b( g) a a \barMaior
-    c c d( e f) e d( e) d d \barMin
-    c( b c) d c b g a g g \barFinalis
+    a4 g f g4.( a) g4( a) g g \barMaior
+    a b c d c a a \barMin
+    c b( a) g g f a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
   }
   \addlyrics {
     Já bu -- du pást své stá -- do;
@@ -56,8 +56,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -70,7 +70,7 @@
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barFinalis
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř

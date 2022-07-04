@@ -37,7 +37,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d( e) e( d) d \barMin
     c a b a g g \barMaior
@@ -64,10 +64,40 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin
+    \mark\sipka c b a b g g \barMaior
+    f a c b c( d) \barMin
+    b c a a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dám vám pas -- tý -- ře
+    po -- dle své -- ho srd -- ce
+    a bu -- dou vás pást
+    ro -- zum -- ně a moud -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d( c a) b( g) a a \barMaior
     c c d( e f) e d( e) d d \barMin
@@ -87,6 +117,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 146"
+    placet = "neuspokojivý závěr"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -94,6 +125,114 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g f( e d) f( a) g g \barMaior
+    a b c a g( a) g g \barMin
+    a( c) b( c) a g f g a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( e d) f( a) g g \barMaior
+    a b c a g( a) g g \barMin
+    a( c) \mark\sipka b( a) g g f a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g4.( a) g4( a) g g \barMaior
+    a b c d c a a \barMin
+    c b( a) g g f a a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g4.( a) g4( a) g g \barMaior
+    a b c d c a a \barMin
+    c \mark\sipka b( c) a a g f f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
@@ -113,6 +252,35 @@
     psalmus = "Ef 1"
     id = ""
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g( a) f g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a) a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř
+    dá -- vá za ov -- ce svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec"
     piece = \markup {\sestavTitulek}
   }
 }
