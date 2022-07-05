@@ -17,12 +17,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( g) g \barMaior
-    f4( g) g \barMin a g f f( g) e \barMin
+    a4 a g( f e) e \barMaior
+    g( a) a \barMin a g f f( g) e \barMin
     d c d e g f( e) e \barMax
 
     g a b a g a a \barMaior
-    a( b a) g a( e) e \barMin f( g) a g f( e) e \barFinalis
+    a( b) a g( e) e \barMin f( g) a g f( e) e \barFinalis
   }
   \addlyrics {
     To -- máš ře -- kl:
@@ -37,7 +37,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 63"
-    placet = "závěr _pravda a život_ zaslouží předělat; _Tomáš_ možná na a?"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -49,8 +48,8 @@
     d4( a') a \barMin f g a bes a a \barMaior
     c c c( a) a a g f e( g a) a \barMax
     a a a g f e d c d( f e) d d \barMaior
-    c( d f) g( a) g f d d \barMax
-    f e( c) f( d) d \barFinalis
+    c( d f) g( a) g f d d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     To -- máš, je -- den ze Dva -- nác -- ti,
@@ -136,11 +135,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) a g f g( a) a \barMin g a f d d \barMaior
-    f g a( b c) a \barMin c b c c( d) c b( a) a \barMaior
-    a g( f) g( f) f \barMaior
-    f( g a b) c( a) \barMin c c( d c4.) b \barMaior
-    a4 g( a) a( g) g \barFinalis
+    a4 a g f g( a) a \barMin g a f d d \barMaior
+    f g a( b c) a \barMin c b c c( d) c a a \barMin
+    g f( g) g( f) f \barMaior
+    f( g a g) f( g) \barMin g f( e) d( c) \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Vlo -- žil jsem své prs -- ty do ran po hře -- bech
@@ -151,10 +150,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G*"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "nesedí do modu VIII"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
