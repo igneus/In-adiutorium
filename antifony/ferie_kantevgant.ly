@@ -150,10 +150,9 @@ tIstredaAntMagnificat = \score {
 tIctvrtekAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
-    \key f\major
     g4 a f g a a \barMin
-    a a a g f g g \barMaior
-    g f g( a) g g( f) f \barMin
+    a bes a g f g g \barMaior
+    f g a a g( f) f \barMin
     g f e c e( f) d d \barFinalis
   }
   \addlyrics {
@@ -364,8 +363,9 @@ tIIstredaAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
     g4 a f g a a \barMin
-    a a a g f g g \barMaior
-    g f g g( a) g f d d d \barFinalis
+    a bes a g f g g \barMaior
+    g a g f( d) \barMin
+    f g g f f \barFinalis
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
@@ -373,8 +373,8 @@ tIIstredaAntBenedictus = \score {
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "t2-st-ben"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -956,7 +956,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     g4 a f g a a \barMin
@@ -987,6 +987,55 @@
     g4 a f g a a \barMin
     a a a g f g g \barMaior
     g f \mark\sipka g a g( f) f \barMin
+    g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu
+    zbož -- ně a spra -- ve -- dli -- vě;
+    on nás vy -- svo -- bo -- dí
+    z_ru -- kou na -- šich ne -- přá -- tel!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "t1-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f g a a \barMin
+    a \mark\sipka bes a g f g g \barMaior
+    g f g a g( f) f \barMin
+    g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu
+    zbož -- ně a spra -- ve -- dli -- vě;
+    on nás vy -- svo -- bo -- dí
+    z_ru -- kou na -- šich ne -- přá -- tel!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "t1-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a f g a a \barMin
+    a bes a g f g g \barMaior
+    \mark\sipka f g a a g( f) f \barMin
     g f e c e( f) d d \barFinalis
   }
   \addlyrics {
@@ -1038,7 +1087,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a f g a a \barMin
     a a a g f g g \barMaior
@@ -1064,6 +1113,72 @@
     g4 a f g a a \barMin
     a a a g f g g \barMaior
     g \mark\sipka a g g( f d) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
+    po vše -- chny dny své -- ho ži -- vo -- ta!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t2-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    g a g \mark\sipka f( d) \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
+    po vše -- chny dny své -- ho ži -- vo -- ta!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t2-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f g a a \barMin
+    a a a g f g g \barMaior
+    \mark\sipka a a g f d f g f f \barFinalis
+  }
+  \addlyrics {
+    Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
+    po vše -- chny dny své -- ho ži -- vo -- ta!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t2-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a f g a a \barMin
+    a \mark\sipka bes a g f g g \barMaior
+    g a g f( d) \barMin
+    f g g f f \barFinalis
   }
   \addlyrics {
     Služ -- me Hos -- po -- di -- nu zbož -- ně a spra -- ved -- li -- vě
