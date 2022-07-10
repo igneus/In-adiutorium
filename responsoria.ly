@@ -180,11 +180,11 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
-      f4 f f f f g( f) f \barMin g f f g( a) a( g) \barMax
+      f4 f f f f g f \barMin g f f g( a) a( g) \barMax
       g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
       % V
       \neviditelna e
-      a a a a a a a a g f g( a) a( g) \barMax
+      a( bes) a g( a) g \barMin g g a g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g( a) g( f) d d \barMin f g f g a g f f \barFinalis
