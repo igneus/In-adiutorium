@@ -318,31 +318,32 @@
     differentia = "a"
     psalmus = ""
     annus = "C"
+    placet = "lépe"
     id = "ne15c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f f
-    a a g f g( a) a g f g f f \barMin
-    g g g f e d( c) c \barMaior
-    d( e f) d c d( c) c \barMin
-    f g a g f g f f \barFinalis
+    a4 a a a g( a) g \barMin
+    f g g( a) a a f e d( e) e \barMaior
+    e d e f g e e \barMaior
+    a g a b( g e) e \barMin
+    e f g a g f e e \barFinalis
   }
   \addlyrics {
-    Sa -- ma -- ri -- tán
-    při -- šel na své ces -- tě ke zra -- ně -- né -- mu,
+    Sa -- ma -- ri -- tán při -- šel
+    na své ces -- tě ke zra -- ně -- né -- mu,
     a by -- lo mu ho lí -- to,
     při -- stou -- pil k_ně -- mu
     a ob -- vá -- zal je -- ho rá -- ny.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne15c-rch-aben"
@@ -351,21 +352,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f f g a a g f g g g
-    f d e c c \barMaior
-    d( f) \barMin f g( a) a g f g f \barFinalis
+    a4 a a a g( a) g g \barMin
+    f g g a a f e d e e \barMaior
+    a g a( b g) g \barMin
+    f g g e \barFinalis
   }
   \addlyrics {
-    Sa -- ma -- ri -- tán pro -- ká -- zal své -- mu bliž -- ní -- mu
-    mi -- lo -- sr -- den -- ství.
-    Jdi a stej -- ně jed -- nej i ty!
+    Sa -- ma -- ri -- tán pro -- ká -- zal
+    své -- mu bliž -- ní -- mu mi -- lo -- sr -- den -- ství.
+    Jdi a stej -- ně
+    jed -- nej i ty!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne15c-2ne-amag"
