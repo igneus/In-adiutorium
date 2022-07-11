@@ -114,6 +114,30 @@
   \relative c'' {
     \choralniRezim
     g4 a b b c d c a b b \barMaior
+    c b c a g f g a a g g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tys nám po -- mo -- hl k_ví -- těz -- ství,
+    na -- vě -- ky bu -- de -- me chvá -- lit tvé jmé -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 44-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b c d c a b b \barMaior
     c b c a g \mark\sipka f g( a) g f e e \barFinalis
 
     f^\rubrVelikAleluja g f( e) e \barFinalis
@@ -717,6 +741,26 @@
     \zvyraznovacModry
     \choralniRezim
     d4 d f e c \barMin
+    d f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Tvá mi -- lost, Bo -- že,
+    je ve -- li -- ká.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 57"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d( e) c
     d f( d) c d \barFinalis
   }
   \addlyrics {

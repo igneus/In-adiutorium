@@ -639,6 +639,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g \barMin
+    c b a( c) b \barMaior
+    a c c c b a g( a) g \barMin
+    g f a g g \barFinalis
+   }
+  \addlyrics {
+    U -- va -- žo -- val jsem
+    o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
+    k_tvým při -- ká -- zá -- ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ח"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

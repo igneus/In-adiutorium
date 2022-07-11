@@ -214,6 +214,30 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
+    a g f \mark\sipka g( a) g g f d e d \barFinalis
+
+    c^\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Chraň se zlé -- ho a čiň do -- bré;
+    Hos -- po -- din pod -- pí -- rá spra -- ved -- li -- vé.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 37-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f g a g f d e d \barFinalis
 
     \mark\sipka e^\rubrVelikAleluja f d d \barFinalis
@@ -617,6 +641,42 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d( e) c b c c \barMin b c c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g f f( g) g \barMin g f d f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -869,6 +929,26 @@
     \choralniRezim
     a4 c( d) d d c d c( b a g) a \barMin a b( c) a( g) g4. \barMin
     f4 g a b c a g a \barFinalis
+  }
+  \addlyrics {
+    Be -- rá -- nek, kte -- rý byl za -- bit, si za -- slou -- ží,
+    a -- by při -- jal slá -- vu a čest.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV-alt"
+    differentia = "A"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d d c d c( b a g) a \barMin a b( c) a( g) g \barMin
+    f4 g \mark\sipka g( a) a b( c) a g a \barFinalis
   }
   \addlyrics {
     Be -- rá -- nek, kte -- rý byl za -- bit, si za -- slou -- ží,

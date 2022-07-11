@@ -1125,3 +1125,92 @@ pojdmeKlanmeSeCele = {
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f g f g g( bes a) a4. \barMax
+    a4 a a g( e) f4. e \barMin
+    f4 f g a4. a \barMin
+    g4 f e d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+      a -- by -- chom do -- sáh -- li za -- slí -- be -- né -- ho od -- po -- či -- nu -- tí v_něm.
+  }
+  \header {
+    textus_approbatus = "Uposlechněme, když nás Bůh volá, abychom dosáhli slíbeného spočinutí v něm."
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f g f g g( bes a) a4. \barMaior
+    \mark\sipka a4 a a g( a) g g \barMin
+    f g a a g f e c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f e f d d( c) c \barMaior
+    d c d d( f) f f \barMin
+    g f f f e f d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f e f d d( c) c \barMaior
+    d \mark\sipka d d c( d) d( f) f \barMin
+    g a g f e f d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

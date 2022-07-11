@@ -1044,6 +1044,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d c e d d \barMin
+    c a b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -267,6 +267,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b g a g g \barMin
+    f a c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se nad ná -- mi, Bo -- že,
+    ty, kte -- rý trů -- níš na ne -- bi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 123"
+    id = "sexta-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -838,6 +838,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g( a) a \barMaior
+    a c c b a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

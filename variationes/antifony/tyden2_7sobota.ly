@@ -227,6 +227,30 @@
   \relative c' {
     \choralniRezim
     d4 d d d( f) e f e d c \barMaior
+    \mark\sipka d e f d d c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f) e f e d c \barMaior
     \mark\sipka f f f e c c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
@@ -754,6 +778,51 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+    \mark\sipka g f f( g) g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c \barMin
+    c d c b a( g) g \barMin
+    f g a( c) c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIIsobotaAntBenedictus }
@@ -801,6 +870,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -812,6 +883,26 @@
   \header {
     quid = "3. ant."
     modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 64"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f g \mark\sipka g( a) a \barMin
+    a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, chraň můj ži -- vot
+    před stra -- chem z_ne -- pří -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 64"
     id = "up-ant3"

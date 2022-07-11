@@ -286,6 +286,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) \mark\sipka a \barMin
+    \mark\sipka a a g a a( bes) a g( a) a \barMaior
+    a( g f) g( f) e f d c c \barMin
+    d d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, můj Bo -- že,
+    všech -- no, co jsem o -- bě -- to -- val,
+    da -- ro -- val jsem s_ra -- dos -- tí
+    a s_u -- přím -- ným srd -- cem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 132-I"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a4 a a bes a g( a) g g \barMin
@@ -809,6 +833,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a b c c \barMin c4 b c a( g) g \barMin
+    a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
+    stal se mou spá -- sou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Ex 15"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a b c c \barMin \mark\sipka c4 d c b( c) a \barMin
+    g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
+    stal se mou spá -- sou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Ex 15"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1012,6 +1076,24 @@
     \zvyraznovacModry
     \choralniRezim
     d4 d e f d( c d) \barMin d f g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f \mark\sipka d( c) \barMin d f g f e d e d \barFinalis
   }
   \addlyrics {
     Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.

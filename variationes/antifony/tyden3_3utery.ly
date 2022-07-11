@@ -587,6 +587,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d f f \barMin f e( f) d c( d) \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- kaž nám svou jas -- nou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 67"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIuteryAntBenedictus }
@@ -1378,6 +1396,102 @@
     a4 g a c( d) d \barMin
     c d d d e c c( d) d \barMaior
     a d \mark\sipka c b a( g) a( g) \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d c b a( g) \mark\sipka a \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d c b a( g) a \barMin
+    \mark\sipka g f g c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d c b a( g) a \barMin
+    g f g \mark\sipka a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    a d \mark\sipka b c a a \barMin
     f g a c b g a a \barFinalis
   }
   \addlyrics {

@@ -277,6 +277,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý den tě bu -- du ve -- le -- bit,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 145-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -512,6 +532,28 @@
     \choralniRezim
     g4 g f( e d) \barMin g a g c b a b \barMaior
     b c a g g \barMin f g g( a) g \barFinalis
+  }
+  \addlyrics {
+    V_sou -- že -- ní
+    jsem vo -- lal Hos -- po -- di -- na
+    a vy -- sly -- šel mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-I"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f( e d) \barMin g a g c b a b \barMaior
+    b c a g g \barMin \mark\sipka a g f( a) g \barFinalis
   }
   \addlyrics {
     V_sou -- že -- ní

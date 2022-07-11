@@ -210,6 +210,54 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d c d f e d( e) \mark\sipka e \barMin
+    f \mark\sipka d d c d e d \barFinalis
+
+    e^\markup\rubrVelikAleluja c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d( e) e \barMin
+    f \mark\sipka g f e d e d \barFinalis
+
+    e^\markup\rubrVelikAleluja c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 c d( f) f \barMin

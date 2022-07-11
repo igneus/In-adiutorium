@@ -441,6 +441,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c
+    b c a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě,
+    Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a
+    g f g g \barMin
+    a g f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě,
+    Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -148,6 +148,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d e f \barMaior \mark\sipka g a f e d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- vstaň mi na po -- moc!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d f g f a f g g \barMaior

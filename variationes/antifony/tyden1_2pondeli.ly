@@ -964,6 +964,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) g g \barMaior
+    g f g g( a) a a g( f) f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si nás vy -- vo -- lil
+    a skr -- ze Kris -- ta nás při -- jal
+    za své dě -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1,3-10"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a( g) g \barMaior
+    a a a a g a g( f) f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si nás vy -- vo -- lil
+    a skr -- ze Kris -- ta nás při -- jal
+    za své dě -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1,3-10"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIpondeliNespAntIII }
 
 %\score { \tIpondeliAntMagnificat }
