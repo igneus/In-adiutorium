@@ -950,11 +950,41 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
 
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ci Pá -- ně,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fons = "commune jednoho mučedníka, r.ch., 2. ant.; změněny první dvě slabiky"
+    fial = "fial://commune/commune_jedenmucednik.ly#rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( c) c \barMaior
+    c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ci Pá -- ně,

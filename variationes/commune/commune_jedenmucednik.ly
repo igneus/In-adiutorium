@@ -719,13 +719,41 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
 
     g^\markup\small\italic{V době velikonoční:} g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci Pá -- ně,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( c) c \barMaior
+    c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci Pá -- ně,

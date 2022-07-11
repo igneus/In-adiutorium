@@ -414,7 +414,7 @@
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ci Pá -- ně,
