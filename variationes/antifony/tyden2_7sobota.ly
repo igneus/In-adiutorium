@@ -538,6 +538,120 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d c \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f a \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c \barMin
+    c a b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \key f \major
     \choralniRezim
     a4 a g \barMin
@@ -615,7 +729,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a( g) \barMin
     f f g g( f) f \barFinalis
@@ -676,7 +790,45 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka a4 a g \barMin
+    f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 f g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) a f \barMin
     g a g f f \barFinalis
   }
   \addlyrics {
@@ -716,6 +868,44 @@
     \choralniRezim
     \mark\sipka f4( d) f g \barMin
     g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \barMin
+    g f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g \barMin
+    a g a f f \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
