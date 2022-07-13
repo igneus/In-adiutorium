@@ -121,7 +121,10 @@
 
   }
   \addlyrics {
-    Vznešená Matko Boží, slávo hory Karmel, odívej lid tobě zasvěcený svými ctnostmi a svou láskou ho vždy chraň před veškerým nebezpečím.
+    Vzne -- še -- ná Mat -- ko Bo -- ží,
+    slá -- vo ho -- ry Kar -- mel, o -- dí -- vej lid to -- bě za -- svě -- ce -- ný svý -- mi ctnost -- mi
+    a svou lás -- kou ho vždy chraň
+    před veš -- ke -- rým ne -- bez -- pe -- čím.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -134,25 +137,60 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"invitatorium"}}
+
+\markup{
+  (Vyšel jsem líně z "commune/commune_maria.ly#invit1" )
+}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 e f f f f e d c c f( g) f g a a \barMin
+    a( bes) a g( f) f( g) g \barMaior
+    g g( a g) f( e) d e c( d) d \barFinalis
   }
   \addlyrics {
-    Připomínejme si dobrodiní Panny Marie, Matky Karmelu, a radujme se v Pánu.
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f f f f e d c c f( g) f g a a \barMin
+    \mark\sipka a( c) b a( g) g( a) a \barMaior
+    a g( a g) f( e) d e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -162,7 +200,9 @@
 
   }
   \addlyrics {
-    Kdo smí vystoupit na Hospodinovu horu, kdo smí stát na jeho svatém místě? Ten, kdo má nevinné ruce a čisté srdce.
+    Kdo smí vy -- stou -- pit na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+    Ten, kdo má ne -- vin -- né ru -- ce a čis -- té srd -- ce.
   }
   \header {
     quid = "1. ant."
@@ -174,18 +214,74 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c a c b g( a g) g \barMaior
+    f g a a a g( f) g( a) a \barMin
+    g a a( c) b a g g \barFinalis
   }
   \addlyrics {
-    Přivedu je na svou svatou horu a naplním je radostí ve svém domě modlitby.
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a na -- pl -- ním je ra -- dos -- tí
+    ve svém do -- mě mod -- lit -- by.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d c d e e( d) d \barMaior
+    d c b a g a c c \barMin
+    c a a( c) b a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a na -- pl -- ním je ra -- dos -- tí
+    ve svém do -- mě mod -- lit -- by.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d c d e e( d) d \barMaior
+    d c b a g \mark\sipka a( b) g g \barMin
+    a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a na -- pl -- ním je ra -- dos -- tí
+    ve svém do -- mě mod -- lit -- by.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup\sestavTitulek
@@ -391,7 +487,9 @@
 
   }
   \addlyrics {
-    Blahoslavená jsi, Panno Maria, neboť jsi zrodila toho, který tě stvořil, a navěky zůstáváš pannou.
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť jsi zro -- di -- la to -- ho, kte -- rý tě stvo -- řil,
+    a na -- vě -- ky zů -- stá -- váš pan -- nou.
   }
   \header {
     quid = "3. ant."
@@ -444,9 +542,9 @@
 
   }
   \addlyrics {
-    Ježíš řekl své matce: „Ženo, to je tvůj syn.“
-    Potom řekl učedníkovi: „To je tvá matka.“
-    A od té chvíle si ji ten učedník vzal k sobě.
+    Je -- žíš ře -- kl své mat -- ce: „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi: „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -467,7 +565,8 @@
 
   }
   \addlyrics {
-    Tys Matka nadmíru obdivuhodná, Maria, tvé děti si tě budou připomínat navěky.
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná, Ma -- ri -- a,
+    tvé dě -- ti si tě bu -- dou při -- po -- mí -- nat na -- vě -- ky.
   }
   \header {
     quid = "ant. dopoledne"
@@ -485,7 +584,9 @@
 
   }
   \addlyrics {
-    Ať se vaše duše raduje z jeho milosrdenství, nepřestávejte ho chválit.
+    Ať se va -- še du -- še ra -- du -- je
+    z_je -- ho mi -- lo -- sr -- den -- ství,
+    ne -- pře -- stá -- vej -- te ho chvá -- lit.
   }
   \header {
     quid = "ant. v poledne"
@@ -497,23 +598,134 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    d c d e e d d \barMaior
+    a d b c a g a( g) \barMin
+    g f g a c a a \barFinalis
   }
   \addlyrics {
-    Z plodů svých rukou vysadila vinici, její děti povstávají a vzdávají jí chválu.
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti vstá -- va -- jí % po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
   }
   \header {
-    quid = ". ant."
-    modus = ""
-    differentia = ""
+    textus_approbatus = "Z plodů svých rukou vysadila vinici,
+    její děti povstávají a vzdávají jí chválu."
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    \mark\sipka c d e c d d d \barMaior
+    a d b c a g a( g) \barMin
+    g f g a c a a \barFinalis
+  }
+  \addlyrics {
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti vstá -- va -- jí % po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
+  }
+  \header {
+    textus_approbatus = "Z plodů svých rukou vysadila vinici,
+    její děti povstávají a vzdávají jí chválu."
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c d e c d d d \barMaior
+    \mark\sipka d d c b c a g g \barMin
+    g f g a c a a \barFinalis
+  }
+  \addlyrics {
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c d e c d d d \barMaior
+    d d c b c a g g \barMin
+    g f g a \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    d c d e e d d \barMaior
+    d d c b \mark\sipka g a c c \barMin
+    a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -545,7 +757,9 @@
     % jiny preklad sanktoral/0716pmkarmelske.ly#amag
   }
   \addlyrics {
-    Maria naslouchala Božímu slovu, uchovávala je v srdci a rozvažovala o něm.
+    Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
+    u -- cho -- vá -- va -- la je v_srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
   }
   \header {
     quid = "2. ant."
@@ -580,8 +794,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
     fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec&-aleluja"
     id = "2ne-a3"
@@ -632,10 +846,11 @@
 
   }
   \addlyrics {
-    Dnes slavíme Pannu Marii, Matku a ozdobu Karmelu.
-    Dnes si její milované děti připomínají její dobrodiní.
-    Dnes hvězda mořská svítí svému lidu na cestu jako znamení jisté naděje a útěchy.
-    Aleluja.
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i, Mat -- ku a o -- zdo -- bu Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes hvěz -- da moř -- ská sví -- tí své -- mu li -- du na ces -- tu
+    ja -- ko zna -- me -- ní jis -- té na -- dě -- je a útě -- chy.
+    Ale -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"

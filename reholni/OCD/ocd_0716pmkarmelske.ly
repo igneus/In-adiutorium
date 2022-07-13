@@ -137,15 +137,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 e f f f f e d c c f( g) f g a a \barMin
+    a( c) b a( g) g( a) a \barMaior
+    a g( a g) f( e) d e c( d) d \barFinalis
   }
   \addlyrics {
-    Připomínejme si dobrodiní Panny Marie, Matky Karmelu, a radujme se v Pánu.
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
@@ -381,17 +385,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c c( d) d \barMin
+    c d e c d d d \barMaior
+    d d c b c a g g \barMin
+    g f g a a g g \barFinalis
   }
   \addlyrics {
-    Z plodů svých rukou vysadila vinici, její děti povstávají a vzdávají jí chválu.
+    Z_plo -- dů svých ru -- kou
+    vy -- sa -- di -- la vi -- ni -- ci,
+    je -- jí dě -- ti po -- vstá -- va -- jí
+    a vzdá -- va -- jí jí chvá -- lu.
   }
   \header {
-    quid = ". ant."
-    modus = ""
-    differentia = ""
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
@@ -454,8 +464,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
     fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec&-aleluja"
     id = "2ne-a3"
