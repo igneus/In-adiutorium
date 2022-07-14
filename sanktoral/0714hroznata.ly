@@ -17,8 +17,8 @@
     \choralniRezim
     d4 d d d( f) \barMin
     g f e c( d) d \barMaior
-    d c f e f f( d) \barMin
-    f f( g) f d d \barFinalis
+    d c f e f d \barMin
+    d e c c( d) d \barFinalis
   }
   \addlyrics {
     I kdy -- bych šel
