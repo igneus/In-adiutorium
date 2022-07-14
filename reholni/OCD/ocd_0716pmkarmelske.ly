@@ -433,18 +433,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    % jiny preklad sanktoral/0716pmkarmelske.ly#amag
+    a4 a a g a g g a b c a a \barMaior
+    c b a b g f g( a) a \barMaior
+    a a g f e f d d \barFinalis
   }
   \addlyrics {
-    Maria naslouchala Božímu slovu, uchovávala je v srdci a rozvažovala o něm.
+    Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
+    u -- cho -- vá -- va -- la je v_srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 127"
+    fial = "sanktoral/0716pmkarmelske.ly#amag?jiny text"
     id = "2ne-a2"
     piece = \markup\sestavTitulek
   }

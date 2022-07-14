@@ -36,9 +36,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a f( g) f( d) d f e d( e d) d \barMaior
-    f g a c a a d c a( b g) g( a) \barMaior
-    a a g a f e d d \barFinalis
+    a4 a a g( a) g g f g g( a) a \barMaior
+    c b a b g g a b( c) a a \barMaior
+    a a g f e f d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,
@@ -50,7 +50,6 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    placet = "nic moc. melisma na _srdci_ raději pryč; zbytečně velký rozsah; _rozvažovala o něm_ má sklon k vadnému rytmu"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

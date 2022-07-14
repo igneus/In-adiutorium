@@ -751,10 +751,18 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Podle všeho jiný překlad stejné antifony, jako je v DMC k Magnificat.
+}
+
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    % jiny preklad sanktoral/0716pmkarmelske.ly#amag
+    a4 a a g a g g f g f g( a) a \barMaior
+    c b a b g f g( a) a \barMaior
+    a a g f e f d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
@@ -763,9 +771,64 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 127"
+    fial = "sanktoral/0716pmkarmelske.ly#amag?jiny text"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  Opakování motivu
+  \score { \relative c'' { \choralniRezim g4( a) a } }
+  v závěru dvou bezprostředně následujících částí je nepěkné
+  (ve zdrojové antifoně není, tady je následkem krácení nápěvu).
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g a g g \mark\sipka a b c a a \barMaior
+    c b a b g f g( a) a \barMaior
+    a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
+    u -- cho -- vá -- va -- la je v_srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    fial = "sanktoral/0716pmkarmelske.ly#amag?jiny text"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a g g f g f g( a) a \barMaior
+    c b a b \mark\sipka a g f( e) e \barMaior
+    e d e f g g e e \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
+    u -- cho -- vá -- va -- la je v_srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    fial = "sanktoral/0716pmkarmelske.ly#amag?jiny text"
     id = "2ne-a2"
     piece = \markup\sestavTitulek
   }
