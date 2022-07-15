@@ -293,7 +293,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g f g( a) a \barMin
     a b c a a \barMaior
@@ -327,6 +327,35 @@
     a b c a a \barMaior
     c c( d c) \mark\sipka c( b) c \barMin
     c b a g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Zro -- di -- la jsi to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš Pan -- nou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g f g( a) a \barMin
+    a b c a a \barMaior
+    c c( d c) \mark\sipka b( a g) g \barMin
+    a g f g( a g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }

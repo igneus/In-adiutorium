@@ -44,8 +44,8 @@
     \choralniRezim
     g4 a g f g( a) a \barMin
     a b c a a \barMaior
-    c c( d c) a a( c) \barMin
-    c b a g( a) g \barFinalis
+    c c( d c) b( a g) g \barMin
+    a g f g( a g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
