@@ -161,15 +161,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f( g) g( a) a \barMin
+    a a g f g a g g \barMaior
+    f g a a g f g f d( c) c \barMaior
+    d d d f e f d( c) c f f( g) f d d \barFinalis
   }
   \addlyrics {
-    Kdo smí vystoupit na Hospodinovu horu, kdo smí stát na jeho svatém místě? Ten, kdo má nevinné ruce a čisté srdce.
+    Kdo smí vy -- stou -- pit
+    na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+    Ten, kdo má ne -- vin -- né ru -- ce a čis -- té srd -- ce.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 24"
     id = "mc-a1"
     piece = \markup\sestavTitulek
@@ -179,15 +185,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g g( a) a \barMin
+    a a g f g( a g) g \barMaior
+    g f g a a g f d( c) \barMin
+    d f g g g( a) g( f) f \barFinalis
   }
   \addlyrics {
-    Přivedu je na svou svatou horu a naplním je radostí ve svém domě modlitby.
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a na -- pl -- ním je ra -- dos -- tí
+    ve svém do -- mě mod -- lit -- by.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup\sestavTitulek
@@ -274,18 +286,29 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b a g g \barMin
+    a g f g g \barMaior
+    g g g f e d f( g) g \barMin
+    a b c a a \barMaior
+    c c( d c) b( a g) g \barMin
+    a g f g( a g) g \barFinalis
   }
   \addlyrics {
-    Blahoslavená jsi, Panno Maria, neboť jsi zrodila toho, který tě stvořil, a navěky zůstáváš pannou.
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť jsi zro -- di -- la to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš pan -- nou.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
-    psalmus = ""
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    fial = "commune/commune_maria.ly#1ne-a2?konec&-aleluja"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
@@ -351,15 +374,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d( f) f \barMin
+    f f f f g( a g) f( e) d d \barMin
+    f( e c) c( d) d \barFinalis
   }
   \addlyrics {
-    Tys Matka nadmíru obdivuhodná, Maria, tvé děti si tě budou připomínat navěky.
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
@@ -367,17 +398,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 d e d c d c a a \barMin
+    c b a g a g g \barMaior
+    f g a a c b g g \barFinalis
   }
   \addlyrics {
-    Ať se vaše duše raduje z jeho milosrdenství, nepřestávejte ho chválit.
+    Ať se va -- še du -- še ra -- du -- je
+    z_je -- ho mi -- lo -- sr -- den -- ství,
+    ne -- pře -- stá -- vej -- te ho chvá -- lit.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
