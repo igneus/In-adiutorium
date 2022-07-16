@@ -1885,7 +1885,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1898,6 +1898,108 @@ je "\"skororepetice\"" melodie 2 v 4.}
     % R
     \neviditelna a
     \mark\sipka g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Slovo _vyvolil_ si sice říká o nějaké zvýraznění,
+  ale tady ruší celek, dělá melodii škobrtavou.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka f f f g f g( a) a( g) \barMax
+    g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a( bes) a a a g f \mark\sipka g g g( a) \barMax
+    % R
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a a \mark\sipka g( a) g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;_*
+    od vě -- ků měl s_ní své plá -- ny.
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Response od vě -- ků měl s_ní své plá -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4 a a a g( a) g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
