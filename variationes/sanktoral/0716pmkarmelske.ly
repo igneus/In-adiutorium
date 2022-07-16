@@ -14,6 +14,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) d \barMin d f e f f( g f d) d \barMaior
     d c d e f f \barMin f f g f e( f d) d \barFinalis
@@ -28,6 +29,29 @@
     differentia = "D"
     psalmus = ""
     placet = "extra mdlá"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e f f( g f d) d \barMaior
+    f e d c d c \barMin
+    d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
+    a ob -- dr -- že -- la jsem
+    je -- jí prv -- ní plo -- dy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -49,6 +73,28 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g( a) a \barMaior
+    a g a g f d( c) \barMin
+    d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
+    a ob -- dr -- že -- la jsem
+    je -- jí prv -- ní plo -- dy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}

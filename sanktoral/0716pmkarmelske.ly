@@ -15,19 +15,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) d \barMin d f e f f( g f d) d \barMaior
-    d c d e f f \barMin f f g f e( f d) d \barFinalis
+    d4 d c d f e f f( g f d) d \barMaior
+    f e d c d c \barMin
+    d e f d c( d) d \barFinalis
   }
   \addlyrics {
     V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
-    a ob -- dr -- že -- la jsem je -- jí prv -- ní plo -- dy.
+    a ob -- dr -- že -- la jsem
+    je -- jí prv -- ní plo -- dy.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "extra mdlá"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
