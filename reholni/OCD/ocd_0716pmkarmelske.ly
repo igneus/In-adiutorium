@@ -116,21 +116,32 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f g f( a) a \barMin
+    a( c b g) g f( g) f g( a) a \barMaior
+    a a g a g a c b a a \barMin
+    g( a) g f( e d c) c \barMaior
+    d f g a g f g( f) \barMin
+    f f e c e( f) d c( d) d \barFinalis
   }
   \addlyrics {
-    Vznešená Matko Boží, slávo hory Karmel, odívej lid tobě zasvěcený svými ctnostmi a svou láskou ho vždy chraň před veškerým nebezpečím.
+    Vzne -- še -- ná Mat -- ko Bo -- ží,
+    slá -- vo ho -- ry Kar -- mel,
+    o -- dí -- vej lid to -- bě za -- svě -- ce -- ný
+    svý -- mi ctnost -- mi
+    a svou lás -- kou ho vždy chraň
+    před veš -- ke -- rým ne -- bez -- pe -- čím.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    annus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
@@ -351,19 +362,27 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f e d e( d) d \barMin
+    c d f e d( e) e \barMaior
+    f f f f e d d e e \barMin
+    d c f e( d) d \barMaior
+    d e f d( c) c \barMin
+    d c d f f e d c( d) d \barFinalis
   }
   \addlyrics {
-    Ježíš řekl své matce: „Ženo, to je tvůj syn.“
-    Potom řekl učedníkovi: „To je tvá matka.“
-    A od té chvíle si ji ten učedník vzal k sobě.
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le
+    si ji ten u -- čed -- ník vzal k_so -- bě.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    annus = ""
+    fial = "commune/commune_maria.ly#nona?zacatek"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -550,20 +569,30 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a a bes a g a a \barMin
+    a( bes) a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    b( c a g) a( g) \barMin a g f g g( a) g g \barMaior
+    f g g a a \barMin c b c d c b c( a) g g \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
-    Dnes slavíme Pannu Marii, Matku a ozdobu Karmelu.
-    Dnes si její milované děti připomínají její dobrodiní.
-    Dnes hvězda mořská svítí svému lidu na cestu jako znamení jisté naděje a útěchy.
-    Aleluja.
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    Mat -- ku a o -- zdo -- bu Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes hvěz -- da moř -- ská
+    sví -- tí své -- mu li -- du na ces -- tu
+    ja -- ko zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
-    annus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

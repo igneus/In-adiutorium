@@ -13,6 +13,16 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\justify{
+  Při skládání první verze zpěvů jsem na to nehleděl,
+  ale některé antifony mají latinskou předlohu s nápěvem -
+  viz \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
+    \italic{Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,}
+    Parisiis-Tornaci-Romae 1950,
+  }
+  s. 91ff.
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -115,23 +125,88 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f g f( a) a \barMin
+    a( c b g) g f( g) f g( a) a \barMaior
+    a a g a g a c b a a \barMin
+    g( a) g f( e d c) c \barMaior
+    d f g a g f g( f) \barMin
+    g g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Vzne -- še -- ná Mat -- ko Bo -- ží,
-    slá -- vo ho -- ry Kar -- mel, o -- dí -- vej lid to -- bě za -- svě -- ce -- ný svý -- mi ctnost -- mi
+    slá -- vo ho -- ry Kar -- mel,
+    o -- dí -- vej lid to -- bě za -- svě -- ce -- ný
+    svý -- mi ctnost -- mi
     a svou lás -- kou ho vždy chraň
     před veš -- ke -- rým ne -- bez -- pe -- čím.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    annus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a( c b g) g f( g) f g( a) a \barMaior
+    a a g a g a c b a a \barMin
+    g( a) g f( e d c) c \barMaior
+    d f g a g f g( f) \barMin
+    \mark\sipka f f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Vzne -- še -- ná Mat -- ko Bo -- ží,
+    slá -- vo ho -- ry Kar -- mel,
+    o -- dí -- vej lid to -- bě za -- svě -- ce -- ný
+    svý -- mi ctnost -- mi
+    a svou lás -- kou ho vždy chraň
+    před veš -- ke -- rým ne -- bez -- pe -- čím.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a( c b g) g f( g) f g( a) a \barMaior
+    a a g a g a c b a a \barMin
+    g( a) g f( e d c) c \barMaior
+    d f g a g f g( f) \barMin
+    f f e c \mark\sipka e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vzne -- še -- ná Mat -- ko Bo -- ží,
+    slá -- vo ho -- ry Kar -- mel,
+    o -- dí -- vej lid to -- bě za -- svě -- ce -- ný
+    svý -- mi ctnost -- mi
+    a svou lás -- kou ho vždy chraň
+    před veš -- ke -- rým ne -- bez -- pe -- čím.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -732,22 +807,222 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d c d( f e) d d \barMax
+    d c d d( f) f f e f g f e d c( d) d \barFinalis
   }
   \addlyrics {
-    Je -- žíš ře -- kl své mat -- ce: „Že -- no, to je tvůj syn.“
-    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi: „To je tvá mat -- ka.“
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
     A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    annus = ""
+    fial = "commune/commune_maria.ly#nona?jiny text"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d c d( f e) d d \barMax
+    d c d d( f) f f e f \mark\sipka g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?jiny text"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d c d( f e) d d \barMax
+    d c d d( f) f f e f \mark\sipka g g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?jiny text"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d e( d) d \barMin
+    \mark\sipka c d f e d( e) e \barMaior
+    f f f f e d d e e \barMin
+    f e d e( d) d \barMaior
+    d c d d( f) f f e f g g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?zacatek"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d e( d) d \barMin
+    c d f e d( e) e \barMaior
+    f f f f e d d e e \barMin
+    \mark\sipka d c f e( d) d \barMaior
+    d c d d( f) f f e f g g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?zacatek"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f e d e( d) d \barMin
+    c d f e d( e) e \barMaior
+    f f f f e d d e e \barMin
+    d c f e( d) d \barMaior
+    \mark\sipka d e f d( c) c \barMin
+    d c d f f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le
+    si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?zacatek"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a a( g) g \barMaior
+    f f \barMin f e d( e) c \barMaior
+    f4 g g( a) a g f g a a \barMin
+    g f g g( f) f \barMaior
+    d f g g( a) a a g a g f f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a a( g) g \barMaior
+    f f \barMin f e d( e) c \barMaior
+    f4 g g( a) a g f g a a \barMin
+    g f g g( f) f \barMaior
+    d f g \mark\sipka a a \barMin
+    a g a g f f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl své mat -- ce:
+    „Že -- no, to je tvůj syn.“
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    „To je tvá mat -- ka.“
+    A od té chví -- le
+    si ji ten u -- čed -- ník vzal k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1245,24 +1520,68 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a a bes a g a a \barMin
+    a( bes) a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    b( c a g) a( g) \barMin a g f g g( a) g g \barMaior
+    a g a c c \barMin b c a g f g g f f \barMin
+    g a g( f) f \barFinalis
   }
   \addlyrics {
-    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i, Mat -- ku a o -- zdo -- bu Kar -- me -- lu.
-    Dnes si je -- jí mi -- lo -- va -- né dě -- ti při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
-    Dnes hvěz -- da moř -- ská sví -- tí své -- mu li -- du na ces -- tu
-    ja -- ko zna -- me -- ní jis -- té na -- dě -- je a útě -- chy.
-    Ale -- lu -- ja.
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    Mat -- ku a o -- zdo -- bu Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes hvěz -- da moř -- ská
+    sví -- tí své -- mu li -- du na ces -- tu
+    ja -- ko zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
-    annus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a bes a g a a \barMin
+    a( bes) a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    b( c a g) a( g) \barMin a g f g g( a) g g \barMaior
+    f g g a a \barMin c b c d c b c( a) g g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    Mat -- ku a o -- zdo -- bu Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes hvěz -- da moř -- ská
+    sví -- tí své -- mu li -- du na ces -- tu
+    ja -- ko zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
