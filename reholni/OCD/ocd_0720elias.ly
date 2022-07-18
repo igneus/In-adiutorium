@@ -19,15 +19,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) f \barMin
+    g f f g( a) g f f( g) g \barMaior
+    f e f( d c) c d( f) e c d d \barFinalis
   }
   \addlyrics {
-    Pojďme, klaňme se živému Bohu, on k nám mluví ústy proroků.
+    Pojď -- me,
+    klaň -- me se ži -- vé -- mu Bo -- hu,
+    on k_nám mlu -- ví ús -- ty pro -- ro -- ků.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
@@ -39,15 +43,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d f \barMin
+    e d c c \barMaior
+    d e f d c( d) d \barMaior
+    f g a g f( g) f \barMin
+    d f e c d d \barFinalis
   }
   \addlyrics {
-    Už je toho dost, Hospodine, vezmi si můj život, neboť nejsem lepší než moji otcové.
+    Už je to -- ho dost,
+    Hos -- po -- di -- ne,
+    vez -- mi si můj ži -- vot,
+    ne -- boť ne -- jsem lep -- ší
+    než mo -- ji ot -- co -- vé.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 11"
     id = "mc-a1"
     piece = \markup\sestavTitulek
@@ -57,15 +69,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f g f g g( f) f \barMaior
+    f d f f e \barMin
+    d c d( f) e f d c c f g f e d d \barFinalis
   }
   \addlyrics {
-    Hospodinův anděl mu řekl: Vstaň a najez se, neboť cesta by byla pro tebe příliš dlouhá.
+    Hos -- po -- di -- nův an -- děl mu ře -- kl:
+    Vstaň a na -- jez se,
+    ne -- boť ces -- ta by pro te -- be by -- la pří -- liš dlou -- há.
   }
   \header {
+    textus_approbatus = "Hospodinův anděl mu řekl: Vstaň a najez se,
+    neboť cesta by byla pro tebe příliš dlouhá."
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 28"
     id = "mc-a2"
     piece = \markup\sestavTitulek
@@ -75,15 +93,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f g a g f f( g) g \barMaior
+    a a g f d e d c c \barMin
+    d c d d( f) e d( e) d d \barFinalis
   }
   \addlyrics {
-    Eliáš se najedl a napil a šel v síle toho pokrmu až k Boží hoře Chorebu.
+    E -- li -- áš se na -- je -- dl a na -- pil
+    a šel v_sí -- le to -- ho po -- kr -- mu
+    až k_Bo -- ží ho -- ře Cho -- ré -- bu.
   }
   \header {
+    textus_approbatus = "Eliáš se najedl a napil
+    a šel v síle toho pokrmu až k Boží hoře Chorebu."
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 30"
     id = "mc-a3"
     piece = \markup\sestavTitulek
