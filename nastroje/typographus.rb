@@ -484,7 +484,7 @@ module Typographus
     def wrap_psalmody
       "\\begin{psalmodia}\n" +
         yield +
-        "\\end{psalmodia}\n"
+        "\n\\end{psalmodia}\n"
     end
 
     # score of a psalm tone specified by it's standard code
