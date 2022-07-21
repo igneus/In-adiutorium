@@ -16,6 +16,8 @@ module Typographus
 
         system("lilypond --png --output=#{no_ext_path} -dresolution=300 #{score_path}") ||
           raise("failed to process #{score_path}")
+        system("mogrify -trim #{png_path}") ||
+          raise("failed to crop #{png_path}")
 
         "\\includegraphics{#{png_path}}"
       end
