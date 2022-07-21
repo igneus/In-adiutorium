@@ -305,4 +305,26 @@ describe 'typographus.rb', type: :aruba do
       end
     end
   end
+
+  describe '--score-mode=graphicx' do
+    let(:cmd) { "ruby #{typographus} --score-mode=graphicx file.tytex" }
+
+    it 'includes score as png image' do
+      write_file 'file.tytex', <<~'EOS'
+      \setIncludes{inc.ly}
+      \simpleScore{music.ly#id}'
+      EOS
+      write_file 'inc.ly', 'layoutNoIndent = \layout {}'
+      write_file 'music.ly', <<~'EOS'
+      \score {
+        \relative c' { a b c }
+        \header { id = "id" }
+      }
+      EOS
+      run_command_and_stop(cmd)
+
+      expect('file.tex').to have_file_content file_content_including('\includegraphics{typographus_tmp/file_tytex/music_id.png}')
+      expect('typographus_tmp/file_tytex/music_id.png').to be_an_existing_file
+    end
+  end
 end
