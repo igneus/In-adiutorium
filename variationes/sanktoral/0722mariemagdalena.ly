@@ -38,6 +38,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e d \mark\sipka e( f) f \barMaior
+    f f f g a f e e4. \barMaior
+    d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Prv -- ní -- ho dne v_týd -- nu_*
+    při -- šla Ma -- ri -- e Mag -- dal -- ská
+    čas -- ně rá -- no ješ -- tě za tmy ke hro -- bu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f e d d( f) f \barMaior
     f f f g a f \mark\sipka d d \barMaior
     d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
@@ -206,6 +227,112 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e( f d) c c( d) d \barMaior
+    f( g a) g f( g) g f f \barMaior
+    a g f g( f d) d \barMin
+    e c f e c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je srd -- ce_* pla -- ne tou -- hou
+    spa -- třit mé -- ho Pá -- na;
+    hle -- dám a ne -- vím,
+    kam ho po -- lo -- ži -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e( f d) c c( d) d \barMaior
+    f( g a) g \mark\sipka f e d( c) c \barMaior
+    f( g) a g f( e d) d \barMin
+    f f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je srd -- ce_* pla -- ne tou -- hou
+    spa -- třit mé -- ho Pá -- na;
+    hle -- dám a ne -- vím,
+    kam ho po -- lo -- ži -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e( f d) c c( d) d \barMaior
+    f( g a) g f e d( c) c \barMaior
+    f( g) a \mark\sipka f g( f d) d \barMin
+    f f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je srd -- ce_* pla -- ne tou -- hou
+    spa -- třit mé -- ho Pá -- na;
+    hle -- dám a ne -- vím,
+    kam ho po -- lo -- ži -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e( f d) c c( d) d \barMaior
+    f( g a) g f e d( c) c \barMaior
+    f( g) a \mark\sipka g f( g f) f \barMin
+    e c f e c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je srd -- ce_* pla -- ne tou -- hou
+    spa -- třit mé -- ho Pá -- na;
+    hle -- dám a ne -- vím,
+    kam ho po -- lo -- ži -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -264,13 +391,106 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     f4 a a a bes( a) a \barMin
     g a f e f d d \barMaior
     e f d d f( g) g g \barMin
     g( a f) e \mark\sipka d d \barMaior
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a se s_plá -- čem_*
+    na -- klo -- ni -- la do hro -- bu;
+    spa -- tři -- la dva an -- dě -- ly
+    v_bí -- lém rou -- chu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 149"
+    placet = "druhá půlka prostě křičí po a, a když ho nedosáhne (letmý dotyk uprostřed torculu se zjevně nepočítá), vyznívá mdle a neúplně"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  Návrat k variantě, kterou jsem zavrhl už v létě 2021?
+  Problém jakési neúplnosti melodie řeší, dosahuje a,
+  ale v _anděly_ vytváří nepříliš libý důraz na nepřízvučné druhé slabice.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 a a a bes( a) a \barMin
+    g a f e f d d \barMaior
+    e f d d f( g) \mark\sipka a a
+    g( a f) e d d \barMaior
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a se s_plá -- čem_*
+    na -- klo -- ni -- la do hro -- bu;
+    spa -- tři -- la dva an -- dě -- ly
+    v_bí -- lém rou -- chu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  S touhle úpravou ten nelibý důraz na nepřízvučné slabice
+  v _anděly_ pokud úplně nemizí, tak rozhodně nepůsobí tak nepatřičně
+  a nepřitahuje tolik pozornosti. Ale nechtějte po mně, abych vysvětlil, čím to je.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 a a a bes( a) a \barMin
+    g a f e f d d \barMaior
+    e f d \mark\sipka c f( g) a a
+    g( a f) e d d \barMaior
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a se s_plá -- čem_*
+    na -- klo -- ni -- la do hro -- bu;
+    spa -- tři -- la dva an -- dě -- ly
+    v_bí -- lém rou -- chu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 a a a bes( a) a \barMin
+    g a f e f d d \barMaior
+    e f d d f( g) g g \barMin
+    \mark\sipka a( f e) d c( d) d \barMaior
     c f e( d) d \barFinalis
   }
   \addlyrics {
@@ -425,7 +645,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -436,6 +656,76 @@
     % V
     \neviditelna g
     a4 a a( bes) a g f g( a) a g g \barMax
+
+    % R
+    \neviditelna g
+    f g( a) g( f) f \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- e, proč plá -- češ?_* Pán vstal z_mrt -- vých.
+    \Verse Jdi a po -- věz je -- ho u -- čed -- ní -- kům:_*
+    \Response Pán vstal z_mrt -- vých.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "verš je nestandardní bez dobrého důvodu"
+    id = "rch-resp"
+    piece = \markup\sestavTitulekResp
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna c
+    f4 f f g( f) g( a) a( g) \barMax
+    f g( a) g( f) f \barFinalis
+
+    % V
+    \neviditelna g
+    a4 a a( bes) a \mark\sipka a a g f g( a) a( g) \barMax
+
+    % R
+    \neviditelna g
+    f g( a) g( f) f \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- e, proč plá -- češ?_* Pán vstal z_mrt -- vých.
+    \Verse Jdi a po -- věz je -- ho u -- čed -- ní -- kům:_*
+    \Response Pán vstal z_mrt -- vých.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup\sestavTitulekResp
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna c
+    f4 f f g( f) g( a) a( g) \barMax
+    f g( a) g( f) f \barFinalis
+
+    % V
+    \neviditelna g
+    a4 a \mark\sipka g a g f g g g( a) a \barMax
 
     % R
     \neviditelna g
@@ -532,6 +822,30 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4 c d d( a') bes( a) a \barMaior
+    g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
+    g g a g f( d) d \barMin f e d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vstal z_mrt -- vých,_*
+    zje -- vil se nej -- dří -- ve
+    Ma -- ri -- i Mag -- dal -- ské,
+    z_kte -- ré kdy -- si vy -- hnal
+    se -- dm zlých du -- chů.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
@@ -746,6 +1060,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 d d f g \mark\sipka g( a) a \barMaior
+    a g f e d f e d d \barFinalis
+  }
+  \addlyrics {
+    Od -- nes -- li mé -- ho Pá -- na_*
+    a ne -- vím, kam ho po -- lo -- ži -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 d d f g a a \barMaior
     a \mark\sipka g a g f e f d d \barFinalis
   }
@@ -769,6 +1103,26 @@
     \choralniRezim
     f4 d d f g \mark\sipka a( g) g \barMaior
     g a g f d f e d d \barFinalis
+  }
+  \addlyrics {
+    Od -- nes -- li mé -- ho Pá -- na_*
+    a ne -- vím, kam ho po -- lo -- ži -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4( f d) d( c) c f g g( a) a \barMaior
+    a g f e d f e d d \barFinalis
   }
   \addlyrics {
     Od -- nes -- li mé -- ho Pá -- na_*

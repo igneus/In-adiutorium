@@ -66,10 +66,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f\major
+    \key f \major
     f4 a a a bes( a) a \barMin
     g a f e f d d \barMaior
-    e f d d f( g) g g \barMin
+    e f d c f( g) a a
     g( a f) e d d \barMaior
     c f e( d) d \barFinalis
   }
@@ -101,7 +101,7 @@
 
     % V
     \neviditelna g
-    a4 a a( bes) a g f g( a) a g g \barMax
+    a4 a a( bes) a a a g f g( a) a( g) \barMax
 
     % R
     \neviditelna g
@@ -119,7 +119,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "verš je nestandardní bez dobrého důvodu"
     id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
@@ -146,6 +145,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "slabší"
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -168,6 +168,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 122"
+    placet = "závěr není z nejzpěvnějších"
     id = "ne-a1"
     piece = \markup\sestavTitulek
   }
@@ -212,6 +213,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
+    placet = "na konci by asi bylo vhodné explicitně vyznačit rytmus"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }
