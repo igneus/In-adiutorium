@@ -350,10 +350,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g( a) a g( f) g( f) d( c) \barMaior
-    f e f g a g f f \barFinalis
+    f4 g( a) g f f( g) g \barMaior
+    g f g a a g f f \barFinalis
 
-    d^\markup\rubrVelikAleluja f g f \barFinalis
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Má du -- še lne k_to -- bě,
@@ -400,10 +400,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a( c d) c b c( b) a a( g) \barMaior
-    a( f) a g f e e \barMin d( f g) a a( g) g \barFinalis
+    g4 g a c c a c c b \barMaior
+    a c b a g g \barMin f g a g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bu -- du se já -- sa -- vě ve -- se -- lit
@@ -503,16 +503,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c d) d( c) d d( e d) d( c) c( d) \barMaior
-    d d( c d) d( c) c d( c b) a( g) a g \barMaior
-    f g a( b c) a4.( g4 f) f g a( g) g \barMax
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    f g a( b c) a g f f( g) g \barMax
 
-    g a( c b c d) d \barMin d d d( e f) d( c) d c b( c d) d \barMaior
+    g a( c b c d) d \barMin d c d e d c d( e d) d \barMaior
     d4.( c) \barMin
-    d4 d d( e) d d d( c) \barMin
-    g g( a) g g \barFinalis
+    d4 d d( e) d c d( c) \barMin
+    a c( b) a( g) g \barFinalis
 
-    d'4 \[ d( e d c \] \[ d c b a \] \[ b a) \]   f( g a)   a( g) \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -737,30 +737,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c( b c d f g ) f( e d) \barMaior
-    f( e d c) d( c) \barMin c( b) a( g f) a a( g) g \barFinalis
+    g4 g a c( b c d) d \barMaior
+    f( e d c) d( c) \barMin a-- a( c) b a( g) g \barFinalis
 
-    % aleluja kopiruje melodii antifony
-    g^\markup\rubrVelikAleluja
-    g( a c b c d f g f e d) \barMaior
-    e( f e d c d c) \barMin
-    c( b a g)
-    f( g a b)
-    a( g)
-    \barFinalis
+    a^\markup\rubrVelikAleluja g f( a) g \barFinalis
   }
   \addlyrics {
     Mé srd -- ce já -- sá
     v_Bo -- hu, mém spa -- si -- te -- li.
 
-    A -- le- -- _ -- _ -- -lu -- ja.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
-    placet = "r"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
