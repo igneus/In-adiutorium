@@ -7,6 +7,29 @@
 
 \include "spolecne.ly"
 
+\paper {
+  % TODO: identical contents, reverse order - extract to a markup command
+  %   generating odd or even version depending on an argument
+  oddHeaderMarkup = \markup {
+    \on-the-fly #not-part-first-page {
+      \fill-line {
+        ""
+        \fromproperty #'header:subtitle
+        \fromproperty #'page:page-number-string
+      }
+    }
+  }
+  evenHeaderMarkup = \markup {
+    \on-the-fly #not-part-first-page {
+      \fill-line {
+        \fromproperty #'page:page-number-string
+        \fromproperty #'header:subtitle
+        ""
+      }
+    }
+  }
+}
+
 %{
 \markup {\nadpisDen {"X. neděle"}}
 
