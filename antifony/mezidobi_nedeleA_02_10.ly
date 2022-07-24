@@ -396,8 +396,8 @@
     \choralniRezim
     f4 g g g f g f f \barMaior
     f d f f f g( f) f \barMin g f g a a g g \barMaior
-    f f f g g( f d) d \barMin
-    f e f g a g f f \barFinalis
+    a a g f g( f d) d \barMin
+    c d f g a g f f \barFinalis
   }
   \addlyrics {
     Mi -- luj -- te své ne -- přá -- te -- le
@@ -419,11 +419,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a g a( c) c \barMin
-    c c b( c d) c b a a \barMin
+    g4 g( a) g f g( a) a \barMin
+    a g a( c d) c b a a \barMin
     c b g a g g \barMaior
-    g g( a) a a f( e d) \barMin
-    f g g g g a g f g g \barFinalis
+    g a a a f( e d) \barMin
+    f g a a a c b a g g \barFinalis
   }
   \addlyrics {
     Váš ne -- bes -- ký O -- tec
@@ -446,9 +446,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c( d e) c( b) c c \barMin
-    a a c b a g( a) g \barMin
-    f g( a) a a g g \barFinalis
+    a4 a c b c( d) d \barMaior
+    d d d d( e) d c( d) d( c) \barMin
+    c c b g a( g) g \barFinalis
   }
   \addlyrics {
     Buď -- te do -- ko -- na -- lí,
@@ -458,7 +458,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "ne7a-2ne-amag"

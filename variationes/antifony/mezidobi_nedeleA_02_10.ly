@@ -595,10 +595,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"7. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g g f g f f \barMaior
     f d f f f g( f) f \barMin g f g a a g g \barMaior
@@ -623,7 +626,36 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g g f g f f \barMaior
+    f d f f f g( f) f \barMin g f g a a g g \barMaior
+    \mark\sipka a a g f g( f d) d \barMin
+    c d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- te své ne -- přá -- te -- le
+    a mo -- dle -- te se za ty, kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a g a( c) c \barMin
     c c b( c d) c b a a \barMin
@@ -652,6 +684,64 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g( a) g f g( a) a \barMin
+    a g a c c b( c a) a \barMin
+    c b g a g g \barMaior
+    g a a a f( e d) \barMin
+    f g a a a g f f g g \barFinalis
+  }
+  \addlyrics {
+    Váš ne -- bes -- ký O -- tec
+    dá -- vá vy -- chá -- zet slun -- ci
+    pro zlé i pro dob -- ré
+    a se -- sí -- lá déšť
+    spra -- ved -- li -- vým i ne -- spra -- ved -- li -- vým.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) g f g( a) a \barMin
+    a g \mark\sipka a( c d) c b a a \barMin
+    c b g a g g \barMaior
+    g a a a f( e d) \barMin
+    f g a a a \mark\sipka c b a g g \barFinalis
+  }
+  \addlyrics {
+    Váš ne -- bes -- ký O -- tec
+    dá -- vá vy -- chá -- zet slun -- ci
+    pro zlé i pro dob -- ré
+    a se -- sí -- lá déšť
+    spra -- ved -- li -- vým i ne -- spra -- ved -- li -- vým.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     c4 b c( d e) c( b) c c \barMin
     a a c b a g( a) g \barMin
     f g( a) a a g g \barFinalis
@@ -671,6 +761,101 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a c b c( d) d \barMaior
+    d d d d( e) d c( d) d( c) \barMin
+    c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- ko -- na -- lí,
+    ja -- ko je do -- ko -- na -- lý
+    váš ne -- bes -- ký O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c( d) d \barMaior
+    d d d d( e) d c( d) d( c) \barMin
+    \mark\sipka a c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- ko -- na -- lí,
+    ja -- ko je do -- ko -- na -- lý
+    váš ne -- bes -- ký O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g g \barMin
+    a a a g f d d \barMin
+    c c( d) f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- ko -- na -- lí,
+    ja -- ko je do -- ko -- na -- lý
+    váš ne -- bes -- ký O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a( g) g \barMin
+    a b c d c d d( c) \barMin
+    a c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- ko -- na -- lí,
+    ja -- ko je do -- ko -- na -- lý
+    váš ne -- bes -- ký O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne7a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"8. neděle"}}
 
