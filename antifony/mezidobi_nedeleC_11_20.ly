@@ -502,7 +502,7 @@
     g g g g a( g) \barMaior
     a a a g( f) f f g f g f d( c) c \barMax
     d d( f) f f( g) f e d d \barMin
-    f e c d( c) d c \barMin
+    f e d c( d) c c \barMin
     d d f e( f d) d \barFinalis
   }
   \addlyrics {
