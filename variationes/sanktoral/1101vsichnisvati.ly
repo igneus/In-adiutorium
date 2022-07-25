@@ -182,8 +182,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -209,7 +212,73 @@
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    placet = "zejm. melisma na _a_ je nepěkné"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g a a( g) \barMax
+    a g( f d) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a g g \barMin g f g g a a( g) \barMax
+    % R
+    \neviditelna a
+    a g( f d) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví se ra -- du -- jí_*
+    a hle -- dí na Bo -- ží tvář.
+    \Verse Ve -- se -- lí se, já -- sa -- jí ra -- dos -- tí_*
+    \Response a hle -- dí na Bo -- ží tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g a a( g) \barMax
+    a g( f d) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4 a g( a) g \barMin g f g g a a( g) \barMax
+    % R
+    \neviditelna a
+    a g( f d) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví se ra -- du -- jí_*
+    a hle -- dí na Bo -- ží tvář.
+    \Verse Ve -- se -- lí se, já -- sa -- jí ra -- dos -- tí_*
+    \Response a hle -- dí na Bo -- ží tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }

@@ -1262,6 +1262,86 @@
 
 \pageBreak
 
+\markup\italic{O více svatých:}
+
+\markup\justify\italic\small{
+  (Toto responsorium figuruje pouze ve čtyřsvazkovém vydání breviáře,
+  a to pouze ve svazcích pro liturgické mezidobí. Mimo liturgické mezidobí
+  se i pro oslavy více svatých mužů použijí responsoria výše.)
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g( f) g( a) a( g) \barMax
+    g( a) g( f d) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g \barMin g f g g a a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g( f d) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví se ra -- du -- jí_*
+    a hle -- dí na Bo -- ží tvář.
+    \Verse Ve -- se -- lí se, já -- sa -- jí ra -- dos -- tí_*
+    \Response a hle -- dí na Bo -- ží tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "sanktoral/1101vsichnisvati.ly#1ne-r"
+    id = "rch-resp-vice"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g a a( g) \barMax
+    a g( f d) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g g a a( g) \barMax
+    % R
+    \neviditelna a
+    a g( f d) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví se ra -- du -- jí_*
+    a hle -- dí na Bo -- ží tvář.
+    \Verse Ve -- se -- lí se, já -- sa -- jí ra -- dos -- tí_*
+    \Response a hle -- dí na Bo -- ží tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "sanktoral/1101vsichnisvati.ly#1ne-r"
+    id = "rch-resp-vice"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
