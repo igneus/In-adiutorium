@@ -465,10 +465,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"16. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c d) d( c) d d( e d) d( c) c( d) \barMin
     d c b a b( a) a( g) g \barMaior
@@ -492,6 +495,89 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c( b) a( g) g \barMaior
+    a a b( c a) a \barMin
+    a a g f g( a) a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c( b) a( g) g \barMaior
+    a a b( c a) a \barMin
+    a a g f \mark\sipka g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c( b) a( g) g \barMaior
+    a a \mark\sipka c( b a g) a( g) \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -544,10 +630,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"17. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c d) d( c) d d( e d) d( c) c( d) \barMaior
     d d( c d) d( c) c d( c b) a( g) a g \barMaior
@@ -578,6 +667,44 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    f g a( b c) a g f f( g) g \barMax
+
+    g a( c b c d) d \barMin d c d e d c d( e d) d \barMaior
+    d4.( c) \barMin
+    d4 d d( e) d c d( c) \barMin
+    a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né ob -- chod -- ní -- ku,
+    kte -- rý hle -- dá vzác -- né per -- ly.
+
+    Když na -- jde jed -- nu dra -- ho -- cen -- nou per -- lu,
+    jde,
+    pro -- dá všech -- no, co má,
+    a kou -- pí ji.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_svatazena.ly#rch-aben?-aleluja"
+    id = "ne17a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

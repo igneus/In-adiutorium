@@ -378,10 +378,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c d) d( c) d d( e d) d( c) c( d) \barMin
-    d c b a b( a) a( g) g \barMaior
-    a a b( c a) a \barMin
-    a a g f g( a) a g( a) g g \barFinalis
+    a4 c d d( e) d d \barMin
+    d d c d c( b) a( g) g \barMaior
+    a a c( b a g) a( g) \barMin
+    a a g f g a a g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -457,14 +457,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c d) d( c) d d( e d) d( c) c( d) \barMaior
-    d d( c d) d( c) c d( c b) a( g) a g \barMaior
-    f g a( b c) a4.( g4 f) f g a( g) g \barMax
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    f g a( b c) a g f f( g) g \barMax
 
-    g a( c b c d) d \barMin d d d( e f) d( c) d c b( c d) d \barMaior
+    g a( c b c d) d \barMin d c d e d c d( e d) d \barMaior
     d4.( c) \barMin
-    d4 d d( e) d d d( c) \barMin
-    g g( a) g g \barFinalis
+    d4 d d( e) d c d( c) \barMin
+    a c( b) a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství

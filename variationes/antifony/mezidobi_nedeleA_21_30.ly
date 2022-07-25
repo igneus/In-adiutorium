@@ -460,8 +460,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( c d) d( c) d d( e d) d( c) c( d) \barMin
     d c b a g a g g \barMaior
@@ -485,6 +488,261 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d c b a g a g g \barMaior
+    g g f( g a) a b c a a \barMin
+    c c d c b a g g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    \mark\sipka d d c d c b a( g) g \barMaior
+    a a b( c a) a c b c( d) d \barMaior
+    e d c( d) c c \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    a a \mark\sipka c b c d e( d) d \barMaior
+    e d c( d) c c \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    \mark\sipka f g a b c a g g \barMaior
+    a a g( f) g( a) a \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    \mark\sipka a a g f g( a) a g g \barMaior
+    c( d e) d c( d) c c \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    a a g f \mark\sipka g a g g \barMaior
+    a( b c) d c( b) a a \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMin
+    a a g f g a \mark\sipka a( g) g \barMaior
+    a( c d) e d( c) b( a) a \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMin
+    a a g f g a a( g) g \barMaior
+    a( c d) e d( c) \mark\sipka c( d) d \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMin
+    a a g f g a a( g) g \barMaior
+    \mark\sipka g( a) g f( g) g( a) a \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
