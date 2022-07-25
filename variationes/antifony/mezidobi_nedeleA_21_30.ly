@@ -437,10 +437,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"25. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d a( d) c b a a a \barMaior
     f g( a) a \barMin a g a c b a a \barFinalis
@@ -453,6 +456,29 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
+    psalmus = ""
+    annus = "A"
+    placet = "zejm. melisma na _vy_ je nepěkné"
+    id = "ne25a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g a g f g a a \barMaior
+    a c( d c4.) c \barMin c4 a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te i vy na mou vi -- ni -- ci
+    a dám vám, co bu -- de spra -- ved -- li -- vé.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ne25a-1ne-amag"
@@ -746,6 +772,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d e( d) d \barMaior
     a d c b a g a a( b) a a \barMaior
@@ -766,6 +793,84 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d e( d) d \barMaior
+    d d d d c b a g( a) g g \barMaior
+    a g f g( a) a \barMin
+    c a a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d e( d) d \barMin
+    e f e d e d c d( e) d d \barMaior
+    d c( d) c b a( g) \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMaior
+    d d c d e d c d( e) d d \barMaior
+    d a d b( c) a( g) \barMin
+    f g a c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"26. neděle"}}
 

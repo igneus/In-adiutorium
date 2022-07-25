@@ -326,8 +326,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d a( d) c b a a a \barMaior
-    f g( a) a \barMin a g a c b a a \barFinalis
+    g4 g g a g f g a a \barMaior
+    a c( d c4.) c \barMin c4 a a c b a( g) g \barFinalis
   }
   \addlyrics {
     Jdě -- te i vy na mou vi -- ni -- ci
@@ -335,8 +335,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ne25a-1ne-amag"
@@ -375,14 +375,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d e( d) d \barMaior
-    a d c b a g a a( b) a a \barMaior
-    a a( c d) d( e) d d \barMin c b a g( a) a( g) g \barFinalis
+    d4 c d e( d) d \barMin
+    e f e d e d c d( e) d d \barMaior
+    d c( d) c b a( g) \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
     za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
-    a vy -- pla -- til jim slí -- be -- nou od -- mě -- nu.
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Magnificat"
