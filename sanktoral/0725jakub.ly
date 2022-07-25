@@ -20,8 +20,8 @@
     \choralniRezim
     c4 c c( d) c c \barMaior
     c b a g a b c d c c \barMin
-    c d d c b a( b a g) g \barMaior
-    g f g a g f( g) g \barFinalis
+    c d d c b a( b g) g \barMaior
+    g f g a f f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl
@@ -42,11 +42,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    a4 a g a g g \barMin
-    f g bes a g a a \barMaior
-    a g f e f d( c) c \barMin
-    d f g f d d \barFinalis
+    g4 g f e d d \barMin
+    f g a f f g g \barMaior
+    a b c d c a a \barMin
+    c a c b a( g) g \barFinalis
   }
   \addlyrics {
     O -- ni za -- ne -- cha -- li
@@ -56,8 +55,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -115,9 +114,9 @@
   \relative c' {
     \choralniRezim
     e4 e e f e d( e) e \barMin
-    f( a) g( a) g f e e \barMaior
+    f g a g f( e) e \barMaior
     a g a b( a) a \barMin
-    a g f e d f g f e e \barFinalis
+    a a a g f g( a) g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,
@@ -152,6 +151,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 126"
+    placet = "poměrně divoká; frázování není úplně nejšťastnější"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -163,7 +163,7 @@
     a4 a( b) a a a g a b c a a \barMin
     a a a g f g( a) a g( a) g f e e \barMaior
     f d d f e d( e) d( c) c \barMin
-    f f( g) f e d d \barFinalis
+    f f( g) f e c( d) d \barFinalis
   }
   \addlyrics {
     Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
