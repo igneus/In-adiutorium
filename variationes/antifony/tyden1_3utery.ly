@@ -356,6 +356,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g f \mark\sipka g( a) g g \barMin
+    f d f g g f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    jsou u -- přím -- ná slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 f f g f g( a) a g \barMin
     f g a a g( f) f \barFinalis
@@ -428,7 +453,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g f g a a \barMin
     g f \mark\sipka g( a) g f f \barFinalis
@@ -590,6 +615,32 @@
     quid = "3. ant."
     modus = "V"
     differentia = "a"
+    psalmus = "Žalm 12"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g( a) g g \barMin
+    f g a f f( g) g \barFinalis
+
+    a^\rubrVelikAleluja a a a g f
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- vy vý -- ro -- ky
+    \markup{\Dagger jsou} u -- přím -- ná slo -- va.
+
+    \markup{\Dagger jsou} u -- přím -- ná slo -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 12"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}

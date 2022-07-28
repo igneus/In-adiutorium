@@ -62,8 +62,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g f g a a \barMin
-    g f g( a) g f f \barFinalis
+    f4 f f g f g( a) g g \barMin
+    f d f g g f \barFinalis
 
     g^\rubrVelikAleluja a f f \barFinalis
   }
@@ -78,7 +78,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 12"
-    placet = "nějak to stále není úplně ono"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
