@@ -16,16 +16,20 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e d c d d( f) f \barMin
+    f g a g f( g) f d d \barMaior
+    f( g a g) f( e d) d( c) \barMin
+    e( f d) d \barFinalis
   }
   \addlyrics {
-    Je -- žíš ob -- rá -- til oči vzhů -- ru
+    Je -- žíš ob -- rá -- til o -- či vzhů -- ru
     a za -- vo -- lal moc -- ným hla -- sem:
-    La -- za -- re, pojď ven!
+    La -- za -- re,
+    pojď ven!
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "aben"
@@ -36,9 +40,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c( d) c( b c d) d \barMin
-    d c d d( e) d c( b a) b b( a) \barMin
-    c a g a g f( g) a( g) g \barFinalis
+    d4 d d d( c a) d( e d) d \barMin
+    d e f d c d c c \barMaior
+    c c c b g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš měl rád Mar -- tu
@@ -48,9 +52,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a"
+    differentia = "d"
     psalmus = ""
-    placet = "_i_ v poslední části je nevhodně zvýrazněné"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -67,13 +70,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f e) d f( a g) f f( g) g \barMaior
-    g g g( a) g f( e d) \barMin e( g) g( a) a \barMaior
-    a g a g( e f) d c( d) d \barFinalis
+    d4 d c d f e d d \barMaior
+    f g a( f) f( g) g \barMin
+    g f( e) d( c) \barMin
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Mar -- ta řek -- la Je -- ží -- šo -- vi:
-    Ty jsi Me -- si -- áš, Syn Bo -- ží,
+    Ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
     kte -- rý má při -- jít na svět.
   }
   \header {
