@@ -12,7 +12,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( f) d d \barMin e( f d) c c d d \barFinalis
+    d4 d c d d( f) d d \barMin f f e( d) c( d) d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
@@ -26,7 +26,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 18-IV"
-    placet = "aleluja spíš lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -110,7 +109,7 @@
     \choralniRezim
     g4( f g) a4.( c) \barMin
     c4 d c c c b c a( g) g \barMin
-    f a g( f) g g \barFinalis
+    a g f g g \barFinalis
   }
   \addlyrics {
     Můj lid
@@ -122,18 +121,17 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Jer 31"
-    placet = "_Hospodin_ divné"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a a a d( b) c c \barMin
-    b4 c d c b a( g) g \barMaior
-    a f a b a g g \barFinalis
+    d4 d d d c( d) d( f) f \barMin
+    g f f g f d d \barMaior
+    e c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je ve -- li -- ký,
@@ -142,10 +140,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 48"
-    placet = "lépe"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -222,7 +219,7 @@
   \relative c'' {
     \choralniRezim
     g4 f g( a) a \barMin a a a g( a) a a c a g( a) a \barMaior
-    g a bes( c a) a \barMin f4( e) d d \barFinalis
+    g f e( f d) d \barMin e( d) c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, vo -- lal jsem k_to -- bě a
@@ -233,7 +230,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 30"
-    placet = "_navěky_ je divné"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
