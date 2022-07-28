@@ -15,7 +15,7 @@
     a4 a g a b c b a a \barMin
     g4 a f( e) e \barFinalis
 
-    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Za -- chraň mě pro své sli -- to -- vá -- ní,
@@ -25,10 +25,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 6"
-    placet = "u všech třech si posvítit na aleluja - asi spíš jinak"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -40,7 +39,7 @@
     a4 a g a b c d c b a g f g g( a) a \barMaior
     f( g a) g( f) e e \barFinalis
 
-    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din bu -- de u -- tla -- čo -- va -- né -- mu ú -- to -- čiš -- těm
@@ -64,7 +63,7 @@
     a4 a g b( c) a c d c( b) a \barMaior
     g f g g( a) a g( a) f e e \barFinalis
 
-    d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Bu -- du tě chvá -- lit, Hos -- po -- di -- ne,
@@ -107,17 +106,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4. a a g4( a) bes c a( g) g \barMin f( g) e d \barFinalis
+    f4. a a g4( a) bes c a( g) g \barMin
+    f( e) c( d) d \barFinalis
   }
   \addlyrics {
-    Chvá -- lí -- me tvé slav -- né jmé -- no, náš Bo -- že.
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
   }
   \header {
     quid = "2. ant."
     modus = "I"
     differentia = "f"
     psalmus = "1 Kron 29"
-    placet = "značně netypický závěr"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
