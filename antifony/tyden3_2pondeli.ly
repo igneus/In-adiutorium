@@ -192,6 +192,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 71-I"
+    placet = "divoký závěr"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }

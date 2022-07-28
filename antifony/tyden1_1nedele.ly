@@ -43,6 +43,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 142"
+    placet = "není to spíš modus I? ; aktualisovat divisiones a zbytečná rytmická znaménka"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }

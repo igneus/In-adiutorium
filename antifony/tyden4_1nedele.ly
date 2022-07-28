@@ -68,6 +68,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 24"
+    placet = "prověřit, jestli by se antifona po žalmu nezačínala snáze s diff. III.a"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }

@@ -26,6 +26,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-I"
+    placet = "_Hospodine_ lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -75,6 +76,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-III"
+    placet = "začátek jsem opravoval nedávno, ale stále to není ono"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
