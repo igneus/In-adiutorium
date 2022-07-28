@@ -104,8 +104,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c b) c4. \barMin c4 d e d c a( g) g4. \barMax
-    a4 a b c a g( f) g4. \barMin c4 d c b c a4. g \barFinalis
+    g4( c b) c \barMin c4 d e d c a( g) g \barMaior
+    a4 a b c a g( f) g \barMin c4 d c b c a4. g \barFinalis
   }
   \addlyrics {
     Pa -- ne, jsi ve -- li -- ký a slav -- ný,

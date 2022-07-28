@@ -451,9 +451,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c b) c4. \barMin c4 d e d c a( g) g4. \barMax
     a4 a b c a g( f) g4. \barMin c4 d c b c a4. g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsi ve -- li -- ký a slav -- ný,
+    po -- di -- vu -- hod -- ný mo -- cí a ne -- pře -- mo -- ži -- tel -- ný.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Jdt 16"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Úprava divisiones, odstranění nadbytečných rytmických znamének.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c b) c \barMin c4 d e d c a( g) g \barMaior
+    a4 a b c a g( f) g \barMin c4 d c b c a4. g \barFinalis
   }
   \addlyrics {
     Pa -- ne, jsi ve -- li -- ký a slav -- ný,
