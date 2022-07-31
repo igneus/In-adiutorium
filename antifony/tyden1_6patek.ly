@@ -170,6 +170,7 @@
     differentia = "g"
     quid = "1. ant."
     psalmus = "Žalm 119-ד"
+    placet = "_Vyvolil_ dře, ozdoby druhé půlky jsou poměrně exotické a na daném textu ne zrovna přirozené"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
