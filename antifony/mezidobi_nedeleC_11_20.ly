@@ -529,9 +529,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) g g \barMin f g a f e d d \barMaior
-    c d f f f f e d d d \barMaior
-    f g g( a) a g a g f f \barMin g f e( f) \barFinalis
+    f4( g) g( a) a \barMin a g f e f d( c) c \barMaior
+    c d f f f g f a g g \barMaior
+    a a a a g a g f f \barMin g a f \barFinalis
   }
   \addlyrics {
     Chraň -- te se před kaž -- dou cham -- ti -- vos -- tí,
@@ -577,7 +577,7 @@
     \choralniRezim
     f4 f f g f e \barMin
     d d d e f d( e) d d \barMaior
-    c b c d f d f e( d) c( d) d \barFinalis
+    c d f f e f d c d d \barFinalis
   }
   \addlyrics {
     Mar -- ně se na -- má -- há,
