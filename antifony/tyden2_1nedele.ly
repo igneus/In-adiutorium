@@ -8,7 +8,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g c( d) d4. c4 d c( b a) a \barMin
+    c4 c a g c( d) d \barMin c d c( b a) a \barMin
     b c a( g) g \barMaior
     f a g( f) g \barFinalis
   }
@@ -18,10 +18,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 119-נ"
-    placet = "to je spíš modus VIII"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -282,7 +281,7 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     g4 g a g a( c) b \barMin
     c b g b c a a g g \barMaior
-    f a a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Když Bůh po -- vstal k_sou -- du,

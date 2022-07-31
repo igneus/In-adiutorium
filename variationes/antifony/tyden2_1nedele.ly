@@ -71,7 +71,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a g c( d) d4. c4 d c( b a) a \barMin
     b c a( g) g \barMaior
@@ -84,6 +84,29 @@
   \header {
     quid = "1. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 119-נ"
+    placet = "to je spíš modus VIII"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a g c( d) d \barMin c d c( b a) a \barMin
+    b c a( g) g \barMaior
+    f a g( f) g \barFinalis
+  }
+  \addlyrics {
+    Sví -- til -- nou mým no -- hám je tvé slo -- vo, Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 119-נ"
     id = "1ne-ant1"
@@ -1343,7 +1366,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a g a( c) b \barMin
     c b g b c a a g g \barMaior
@@ -1366,6 +1389,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g a g a( c) b \barMin
     c b g b c a a g g \barMaior
@@ -1632,6 +1656,50 @@ tIInedeleLaudResp = \score {
   }
   \header {
     textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a c b \barMaior
+    c c \mark\sipka b a g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a c b \barMaior
+    c c \mark\sipka b c a g f a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
