@@ -419,6 +419,55 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g f g g( a) a( g) g \barMaior
+    f( g a g) f( g) \barMin
+    g( a) g g f( g) f e d( c) c \barMaior
+    d( f) g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je slav -- nost sva -- té -- ho Ig -- ná -- ce:
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši Kris -- tu,
+    Krá -- li slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g( a) a( g) g \barMaior
+    f( g a g) f( g) \barMin
+    g( a) g g f( g) f e d( c) c \barMaior
+    d( f) \mark\sipka e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je slav -- nost sva -- té -- ho Ig -- ná -- ce:
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši Kris -- tu,
+    Krá -- li slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -431,15 +480,63 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f( g a) g f f( g) g \barMaior
+    a a a g( f) f \barMin
+    g f e d c e( f d) d \barFinalis
   }
   \addlyrics {
-    Bůh povýšil Krista a dal mu Jméno nad každé jiné jméno.
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 110"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g a) g f f( g) g \barMaior
+    a a a \mark\sipka g( a g) g \barMin
+    f g f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 110"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) a g a( g) g \barMaior
+    g f g a( c) c \barMin
+    d c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
     id = "mc-a1"
     piece = \markup\sestavTitulek
@@ -886,6 +983,29 @@
     \choralniRezim
     f4 f \barMin
     g f g g( a) g f g( a) a( g) g \barMaior
+    f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    dej mi svou lás -- ku a svou mi -- lost,
+    a to mi sta -- čí.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f \barMin
+    \mark\sipka f f f g( a) g f g( a) a( g) g \barMaior
     f d f g( f) f \barFinalis
   }
   \addlyrics {

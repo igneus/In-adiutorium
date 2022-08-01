@@ -137,15 +137,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f g f g g( a) a( g) g \barMaior
+    f( g a g) f( g) \barMin
+    g( a) g g f( g) f e d( c) c \barMaior
+    d( f) g g( f) f \barFinalis
   }
   \addlyrics {
-    Je slavnost svatého Ignáce: Pojďte, klaňme se Ježíši Kristu, Králi slávy.
+    Je slav -- nost sva -- té -- ho Ig -- ná -- ce:
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši Kris -- tu,
+    Krá -- li slá -- vy.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
@@ -379,15 +385,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f \barMin
+    f f f g( a) g f g( a) a( g) g \barMaior
+    f d f g( f) f \barFinalis
   }
   \addlyrics {
-    Pane, dej mi svou lásku a svou milost, a to mi stačí.
+    Pa -- ne,
+    dej mi svou lás -- ku a svou mi -- lost,
+    a to mi sta -- čí.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
