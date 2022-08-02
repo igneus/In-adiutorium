@@ -325,18 +325,167 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\markup\justify{
+  Ten absolutní rým \italic{chválu Boží / slávě Boží} je značně nepěkný,
+  ale sahat na text nebudu. Jak si to napsali, tak ať se to zpívá.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d d( e) d d c b g( a) g f g a a( g) g \barMaior
+    c c d( e) d c c( d) \barMin
+    c b a g a( g) g \barFinalis
   }
   \addlyrics {
-    Svatý Ignác hledal jedině větší službu a chválu Boží; všechno zaměřoval k větší slávě Boží.
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\markup\justify{
+  Ta césura po _jedině_ text nedělí zrovna přirozeně,
+  ale nevím, jak ho vkusně zazpívat bez ní.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c \barMin
+    d c d( e) d d \barMaior
+    d d c( d) c b a g a( g) g \barMaior
+    f g a( g) a c b \barMin
+    c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně
+    vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c \barMin
+    d c d( e) d d \barMaior
+    d d c( d) c b a g a( g) g \barMaior
+    f g a( g) a c b \barMin
+    \mark\sipka c a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně
+    vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c \barMin
+    d c d( e) d d \barMaior
+    d d c( d) c b a g a( g) g \barMaior
+    f g a( g) a c b \barMin
+    \mark\sipka a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně
+    vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c \barMin
+    d c d( e) d d \barMaior
+    d d c( d) c b a g a( g) g \barMaior
+    \mark\sipka a g f g a( c) c \barMin
+    a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně
+    vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c \barMin
+    d c d( e) d d \barMaior
+    d d c( d) c b a g a( g) g \barMaior
+    a g f g \mark\sipka g( a) a \barMin
+    c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    hle -- dal je -- di -- ně
+    vět -- ší služ -- bu a chvá -- lu Bo -- ží;
+    všech -- no za -- mě -- řo -- val
+    k_vět -- ší slá -- vě Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup\sestavTitulekBezZalmu
@@ -515,6 +664,29 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 110"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a' bes) a g g( a) a \barMaior
+    a g a a( bes a4.) a \barMin
+    a4 g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 110"
     id = "mc-a1"
     piece = \markup\sestavTitulek
@@ -722,16 +894,23 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    c4( d) f e f( g) g \barMin
+    g a g g f g g a a \barMaior
+    a a g f d( e) d( c) \barMin
+    d( f) e c d \barFinalis
   }
   \addlyrics {
-    Pane, náš Bože, jak mnoho jsi pro nás učinil! A jak mnoho dals nám z toho, co máš!
+    Pa -- ne, náš Bo -- že,
+    jak mno -- ho jsi pro nás u -- či -- nil!
+    A jak mno -- ho dals nám
+    z_to -- ho, co máš!
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup\sestavTitulek
@@ -740,39 +919,85 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 f f f g( f) \barMin
+    g f g g( a) g g \barMaior
+    a a a g f d( c) c \barMin
+    d d f e c d d \barFinalis
   }
   \addlyrics {
-    Požehnán buď Pán, který v nás přebývá, který nám dává život a činí nás svým chrámem.
+    Po -- žeh -- nán buď Pán,
+    kte -- rý v_nás pře -- bý -- vá,
+    kte -- rý nám dá -- vá ži -- vot
+    a či -- ní nás svým chrá -- mem.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f g( a) f f( g) g \barMin
+    a a a g( f) f f g g f e d c c \barMaior
+    d c d f g g \barMin
+    a g f g( a) g g \barMaior
+    a g( f d) d e( d) c( d) d \barFinalis
   }
   \addlyrics {
-    Vzdáváme díky, Pane, za všechno dobré, co sestupuje od tebe, jako sestupují paprsky od slunce a vody z pramene.
+    Vzdá -- vá -- me dí -- ky, Pa -- ne,
+    za všech -- no dob -- ré, co se -- stu -- pu -- je od te -- be,
+    ja -- ko se -- stu -- pu -- jí
+    pa -- prs -- ky od slun -- ce
+    a vo -- dy z_pra -- me -- ne.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c d( e) c c( d) d \barMin
+    e e e d( c) c c d d c b a g g \barMaior
+    \mark\sipka c c d e c c \barMin
+    d c b a( b) g g \barMaior
+    g f( g a) a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vá -- me dí -- ky, Pa -- ne,
+    za všech -- no dob -- ré, co se -- stu -- pu -- je od te -- be,
+    ja -- ko se -- stu -- pu -- jí
+    pa -- prs -- ky od slun -- ce
+    a vo -- dy z_pra -- me -- ne.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -1186,18 +1411,99 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d e e d c d e e( d) d \barMaior
+    d c( d c) b a( g) \barMin
+    a a g a c c b a g a g g \barFinalis
   }
   \addlyrics {
-    Svatý Ignác miloval Stvořitele ve všech tvorech a všechny v něm podle jeho nejsvětější božské vůle.
+    Sva -- tý Ig -- nác
+    mi -- lo -- val Stvo -- ři -- te -- le ve všech tvo -- rech
+    a všech -- ny v_něm
+    pod -- le je -- ho nej -- svě -- těj -- ší bož -- ské vů -- le.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d e e d c d e e( d) d \barMaior
+    d c( d c) b a( g) \barMin
+    a a g \mark\sipka f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    mi -- lo -- val Stvo -- ři -- te -- le ve všech tvo -- rech
+    a všech -- ny v_něm
+    pod -- le je -- ho nej -- svě -- těj -- ší bož -- ské vů -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d e e d c d e e( d) d \barMaior
+    d c( d c) b a( g) \barMin
+    a a g f g a a a \mark\sipka a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    mi -- lo -- val Stvo -- ři -- te -- le ve všech tvo -- rech
+    a všech -- ny v_něm
+    pod -- le je -- ho nej -- svě -- těj -- ší bož -- ské vů -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d e e d c d e e( d) d \barMaior
+    d c( d c) b a( g) \barMin
+    a a g f g a a a \mark\sipka g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ig -- nác
+    mi -- lo -- val Stvo -- ři -- te -- le ve všech tvo -- rech
+    a všech -- ny v_něm
+    pod -- le je -- ho nej -- svě -- těj -- ší bož -- ské vů -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup\sestavTitulekBezZalmu
