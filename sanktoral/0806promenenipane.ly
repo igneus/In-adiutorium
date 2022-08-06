@@ -41,14 +41,14 @@
   \relative c'' {
     \choralniRezim
     a4 a \barMin a g a g f g( a) a \barMaior
-    g g a g f f f( g) f e e \barMax
-    f f f( g) g \barMin
-    f f g( a) g g( a) a \barMaior
-    a a a g( a) g f e e \barFinalis
+    a a g a g f e d e e \barMax
+    c d d( e) e \barMin
+    f g a f g g \barMaior
+    g a a g f d e e \barFinalis
   }
   \addlyrics {
     Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
-    Chceš -- li, po -- sta -- ví -- me tu tři sta -- ny:
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
     je -- den to -- bě,
     je -- den Moj -- ží -- šo -- vi
     a je -- den E -- li -- á -- šo -- vi.
@@ -128,7 +128,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) d \barMin f d d g f e d d \barMaior
+    c4( d) d \barMin f d d g f e d d \barMaior
     c d c b( g a) g \barFinalis
   }
   \addlyrics {
@@ -138,7 +138,7 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = ""
     placet = "bez úprav zkopírovat hotovou melodii pro téměř shodný text bylo svůdné,
     jenže _králů_ (dvě dlouhé) má jiný rytmus než _slávy_ (dlouhá-krátká),
@@ -154,7 +154,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f a a a( b) a g( a) \barMin
+    a4 a a a( b) g g a a \barMin
     a g a g e \barFinalis
   }
   \addlyrics {
@@ -272,11 +272,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) a( b) b \barMin
-    a b c( d) d c( b) a4. a \barMin g4 a g f e d( e) e \barMax
-    a( g f) g( a) a a( c d) c b c( b a) b( a) a4.( g) \barMaior
-    a4 a( b c) c( b) c d( c) b( c) c4.( a) \barMaior
-    a4 g f g( a) a g( a g) f( g) g \barFinalis
+    a4 a a g( a) a( c) c \barMin
+    c c d( e) d c( d) c c \barMin
+    c b a g a a( g) g \barMax
+    f( g) g( a) a \barMin c b c d( e) d d \barMaior
+    d d e d c( d) c c \barMin
+    c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
@@ -288,11 +289,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "prořezat
-    2015 mě ruší hlavně _o smrti_ a _podstoupit_, zbytek by snad mohl zůstat"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -301,10 +300,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) \barMin g( a) g f e f( g a c) b( g) a \barMaior
-    c c( a c) d( c a) a \barMin b( c a) a g a( g) g( a) a \barMaior
-    f g( a) a a c( b) g g \barMin
-    g a( g a) g( a) g f f( g) g g \barFinalis
+    g4( a) a \barMin a a g f g a a \barMaior
+    c d( c) a a \barMin b( c) a g a g g \barMaior
+    g f g a b( c) a a \barMin
+    a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš,_* před -- sta -- vi -- tel Zá -- ko -- na,
@@ -317,7 +316,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "od _proroků_ dál je melodie taková divná a dosti statická"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -389,10 +387,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c( d e) d c b( c d) a a \barMaior
-    g a a( b) a( g) g f f( g) f g( a) a \barMax
-    a a a c( d e) d( c) c( d) \barMaior
-    c( d) c( b) a g a( b) a a \barFinalis
+    c4 c c d( e) d c d( e) d d \barMin
+    d d c d d d c b a( g) g \barMaior
+    a a a g( f) g( a) a \barMin
+    c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš se u -- ká -- zal ve slá -- vě_*
@@ -402,8 +400,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -411,23 +409,24 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g( a) g f g( a) g a( c) c \barMaior
-    c b g a g f( e) \barMin d( f) g g a( b c d) d( c) \barMaior
-    d( a) c b a g a g f g g \barFinalis
+    d4 d( f) d c f g f( a) a \barMin
+    a b c a g g( a) \barMaior
+    c b c d( c a) a \barMin
+    a g f e f d c c d d \barFinalis
   }
   \addlyrics {
     Náš spa -- si -- tel Je -- žíš Kris -- tus_*
-    nám v_e -- van -- ge -- li -- u při -- ne -- sl svět -- lo
+    nám v_e -- van -- ge -- li -- u
+    při -- ne -- sl svět -- lo
     ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
   }
   \header {
     quid = "ant. v poledne"
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "_přinesl_ je divné, _nepomíjejícího_ bezpodmínečně musí být jinak"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -484,8 +483,8 @@
     \choralniRezim
     d4 f g g g( a) f f( g) g \barMin
     g g a g f d d e( f) d( c) c \barMaior
-    d d d( f g) \barMin f g f e d \barMaior
-    f e d( e) c c( d) d \barFinalis
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
   }
   \addlyrics {
     Za -- stí -- nil je svět -- lý ob -- lak_*
@@ -506,11 +505,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a( g f) f g f e f( g f d) d \barMaior
+    a4 a( g f) f g f e f( g f d) d \barMaior
     c( d f) g( a) g f f( g) g \barMaior
-    g g f( g) g g g a g f d d \barMin d e f d c c \barMaior
-    d c d d( f) e( d) d \barMin d( f g a) g( f) e c( d) d \barMaior
-    c d e d \barFinalis
+    g g g( a) g g g a g f d d \barMin d e f d c c \barMaior
+    d c d d( f) e( d) d \barMin f( g a g) f( e) d c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Když se -- stu -- po -- va -- li s_ho -- ry,_*
@@ -522,7 +521,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "1 Tim 3"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -569,7 +568,7 @@
     a4( d) a a( g) a a( g) g \barMin
     f g( a) g f e e \barMax
 
-    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    a a a g( f) g( a) a \barMin b( c) b a g a a( c) c \barMaior
     c( d c a) a \barMin g( a) g( f) e e \barMaior
     e d( g) g( f) e \barFinalis
   }
