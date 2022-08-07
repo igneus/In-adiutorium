@@ -2808,6 +2808,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) f( g f) e( f) \barMin
     a a g f g( a) g f f \barFinalis
@@ -2829,6 +2830,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f g g( a) a \barMin
     a a g f d f g( f) f \barFinalis
@@ -2873,6 +2875,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f g f d d \barMin
     d d d( g f) g f( e) d( e) d d \barMin
@@ -2894,10 +2897,35 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e f \mark\sipka d e d d \barMaior
+    f f f e d c( d) c c \barMin
+    d( f) e c d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní slu -- žeb -- ní -- ci,
+    kte -- ré Pán při svém pří -- cho -- du
+    na -- jde, jak bdí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne19c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a c b g a g \barMin
     f f g a( c) b a g( a) g \barFinalis
@@ -2919,9 +2947,52 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d f e d d \barMin
     f f f f( g) f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Měj -- te bed -- ra pře -- pá -- sa -- ná
+    a va -- še lam -- py ať ho -- ří.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne19c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g a g \barMin
+    f e c e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Měj -- te bed -- ra pře -- pá -- sa -- ná
+    a va -- še lam -- py ať ho -- ří.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne19c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e f( g) g \barMin
+    d d d d( f) e c c( d) d \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná

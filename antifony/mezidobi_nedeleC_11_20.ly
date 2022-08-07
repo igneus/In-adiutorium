@@ -600,8 +600,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g( a) f( g f) e( f) \barMin
-    a a g f g( a) g f f \barFinalis
+    f4 f g g( a) a \barMin
+    a a g f d f g( f) f \barFinalis
   }
   \addlyrics {
     Kde je váš po -- klad,
@@ -621,9 +621,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f g f d d \barMin
-    d d d( g f) g f( e) d( e) d d \barMin
-    e c e( f) d \barFinalis
+    d4 d d e f d e d d \barMaior
+    f f f e d c( d) c c \barMin
+    d( f) e c d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní slu -- žeb -- ní -- ci,
@@ -642,10 +642,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g a c b g a g \barMin
-    f f g a( c) b a g( a) g \barFinalis
+    d4 d c d f e d d \barMin
+    f f f f( g) f e c( d) d \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná
@@ -653,8 +653,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne19c-2ne-amag"
