@@ -132,7 +132,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d c b a( g) g \barMin a( b) c a b a g4. g \barFinalis
+    c4 d d c b a( g) g \barMin
+    a g f g a g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Hos -- po -- di -- nu,
@@ -143,7 +144,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 96"
-    placet = "melisma na _velebte_ úplně nesedí"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

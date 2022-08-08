@@ -673,6 +673,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d c b a( g) g \barMin a( b) c a b a g4. g \barFinalis
   }
@@ -685,6 +686,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 96"
+    placet = "melisma na _velebte_ úplně nesedí"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -692,6 +694,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d d c b a( g) g \barMin
     \mark\sipka a g f g a g g \barFinalis
