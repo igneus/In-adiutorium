@@ -262,6 +262,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b g) g \barMin
+    a( g) f g( a) g( f) g \barMaior
+    a c b \mark\sipka c( d e4.) d \barMin
+    c4 b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán po -- slal_*
+    své -- ho an -- dě -- la,
+    a -- by mě chrá -- nil
+    u -- pro -- střed oh -- ně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/0222petruvstolec.ly#mc-a2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -303,6 +328,76 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "spíš zjednodušit, zejm. _vstoupit_ je nepěkné"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a g f f( g) g \barMaior
+    g a g f g( f) d \barMaior
+    f g a c( d c) c \barMin
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a f f( g) g \barMaior
+    a a g f g( f) d \barMaior
+    f e d f( g a g) f( g) \barMin
+    f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g a g f f( g) g \barMaior
+    a a g f g( f) d \barMaior
+    f e d f( g a g) f( g) \barMin
+    f( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -315,6 +410,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( f g) g( c) c \barMin c d b a( g) g \barMaior
     a a f( a) a a( g) a c4. b \barMin
@@ -329,6 +425,29 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     quid = "ant. k Benedictus"
     modus = "III"
     differentia = "g"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4( g a) a( c) c \barMin c d b a( g) g \barMaior
+    a a f( a) a a( g) a c4. b \barMin
+    \[ c4( a c \] \[ b g b) \] b( a) \barMin a a( g f) g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj se,_* vždyť já jsem s_te -- bou!
+    I když mu -- síš pro -- jít oh -- něm,
+    pla -- men ti ne -- u -- ško -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -361,10 +480,34 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d c c( d) d \barMaior
     f( g f e) f( e) d e d( c) c \barMin
     d c bes c d( f) \barMin g( f g) g( d) d c( d) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    placet = "_pro_ sylabicky; sestupná kvarta na _obětí_ je divná, zvlášť v rámci spění k závěru; celkově nic moc"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c c( d) d \barMaior
+    f( g f e) f( e) d e d( c) c \barMin
+    d c bes c d( f) \barMin g( f g) g( d) d \mark\sipka c d d \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec zvo -- lal:_*
@@ -384,14 +527,41 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f) d c c( d) d \barMaior
-    f( g f e) f( e) d e d( c) c \barMin
-    d c bes c d( f) \barMin g( f g) g( d) d \mark\sipka c d d \barFinalis
+    d4 d f e c c( d) d \barMaior
+    f g f e e( f d c) c \barMin
+    d c bes c d( f) \barMin
+    e( f) d c c d d \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec zvo -- lal:_*
     Ra -- du -- ji se z_to -- ho,
-    že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e f d( c) c \barMaior
+    f g a g f( g) f \barMin
+    e f d c d( c) \barMin
+    d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
   }
   \header {
     quid = "2. ant."

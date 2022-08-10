@@ -109,6 +109,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "melodie _páleno ohněm_ se mi stále líbí, ale je pro mě skoro nemožné čistě ji zazpívat"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -170,7 +171,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f g) g( c) c \barMin c d b a( g) g \barMaior
+    a4( g a) a( c) c \barMin c d b a( g) g \barMaior
     a a f( a) a a( g) a c4. b \barMin
     \[ c4( a c \] \[ b g b) \] b( a) \barMin a a( g f) g( a) f( e) e \barFinalis
   }
@@ -182,7 +183,7 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   \header {
     quid = "ant. k Benedictus"
     modus = "III"
-    differentia = "g"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -214,21 +215,22 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( f) d c c( d) d \barMaior
-    f( g f e) f( e) d e d( c) c \barMin
-    d c bes c d( f) \barMin g( f g) g( d) d c( d) d d \barFinalis
+    d4 d f e f d( c) c \barMaior
+    f g a g f( g) f \barMin
+    e f d c d( c) \barMin
+    d( f) e d c d d \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec zvo -- lal:_*
     Ra -- du -- ji se z_to -- ho,
-    že se mo -- hu stát o -- bě -- tí pro Kris -- ta.
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
   }
   \header {
     quid = "2. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 116-II"
-    placet = "_pro_ sylabicky; sestupná kvarta na _obětí_ je divná, zvlášť v rámci spění k závěru; celkově nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
