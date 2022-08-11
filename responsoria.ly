@@ -695,6 +695,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "torculus ve verši je netypický"
       id = "2po-rch"
       piece = \markup\sestavTitulekResp
     }
