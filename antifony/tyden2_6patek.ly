@@ -35,7 +35,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d c( a) \barMin
+    d4 d c( d) c \barMin
     b c a a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
@@ -51,7 +51,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-II"
-    placet = "nepříliš zpěvná; ne úplně lehko se mi zpívá"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -60,7 +59,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) c c \barMin d d c b g g \barMaior
+    d4 b d( e) d d \barMin c d c b g g \barMaior
     a f f a a c c b g g \barFinalis
 
     a^\rubrVelikAleluja g f( g) g \barFinalis
@@ -76,7 +75,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-III"
-    placet = "začátek jsem opravoval nedávno, ale stále to není ono"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
