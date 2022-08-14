@@ -174,7 +174,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d( c) d \barMin
     d d( f \mark\sipka g) e f( d) d e d c( d) d \barMaior
@@ -191,7 +191,104 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "_vyvýšena_ půjde lépe; zvlášť divné je e uprostřed"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) d( c) d \barMin
+    d d( f g) \mark\sipka f e( d) d e d c( d) d \barMaior
+    f( g a) g f e d d \barMin
+    \mark\sipka c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny "1.q"
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f g a g f e f d( c) c \barMaior
+    d f e d c( d) c \barMin
+    d e f d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f g a g f e f d( c) c \barMaior
+    \mark\sipka f f e d c( d) c \barMin
+    d e f d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f g a g f e f d( c) c \barMaior
+    \mark\sipka d d c d d( f) f \barMin
+    e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -434,7 +531,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) a \barMin
     b c d c b( c) a4.( g) \barMax
@@ -457,6 +554,35 @@
     differentia = "G*"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin
+    b c d c b( c) a( g) \barMaior
+    a4 b c c d( c) d d( c) \barMin
+    c4 b g a( g) g \barMin
+    g f e f g( a g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou mě bla -- ho -- sla -- vit
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil
+    ve -- li -- ké vě -- ci
+    ten, kte -- rý je moc -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    id = "1ne-amag"
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 

@@ -243,6 +243,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) a \barMin
     b c d c b( c) a4.( g) \barMax
@@ -264,6 +265,39 @@
     modus = "VIII"
     differentia = "G*"
     id = ""
+    psalmus = "Magnificat"
+    fons = "Nanebevzetí, 1. nešp., k Magnificat"
+    fial = "fial://sanktoral/0815nanebevzetipm.ly#1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin
+    b c d c b( c) a( g) \barMaior
+    a4 b c c d( c) d d( c) \barMin
+    c4 b g a( g) g \barMin
+    g f e f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou mě bla -- ho -- sla -- vit
+    vše -- chna po -- ko -- le -- ní,
+    pro -- to -- že mi u -- či -- nil
+    ve -- li -- ké vě -- ci
+    ten, kte -- rý je moc -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    id = "1ne-amag"
     psalmus = "Magnificat"
     fons = "Nanebevzetí, 1. nešp., k Magnificat"
     fial = "fial://sanktoral/0815nanebevzetipm.ly#1ne-amag"

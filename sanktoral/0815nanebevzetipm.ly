@@ -68,9 +68,9 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) d( c) d \barMin
-    d d( f g) e f( d) d e d c( d) d \barMaior
+    d d( f g) f e( d) d e d c( d) d \barMaior
     f( g a) g f e d d \barMin
-    e( c) a c d( e d) d \barFinalis
+    c f e c( d) d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
@@ -82,7 +82,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
-    placet = "_vyvýšena_ půjde lépe; zvlášť divné je e uprostřed"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -127,11 +126,11 @@
   \relative c'' {
     \choralniRezim
     a4 a a g f g( a) a \barMin
-    b c d c b( c) a4.( g) \barMax
-    a4 b c c d( c) d d4.( c) \barMin
-    c4 b g a( g) g \barMaior
-    g f e f g( a g) g \barMax
-    g g( a) g4. g \barFinalis
+    b c d c b( c) a( g) \barMaior
+    a4 b c c d( c) d d( c) \barMin
+    c4 b g a( g) g \barMin
+    g f e f g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Bu -- dou mě bla -- ho -- sla -- vit
