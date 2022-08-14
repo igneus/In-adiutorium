@@ -92,7 +92,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) d c d e f g g( a) a \barMin
-    a a g f e d f( e) d d \barFinalis
+    a a g a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
@@ -113,7 +113,7 @@
     \choralniRezim
     \key f \major
     g4 g a( bes) bes( a) a f g g( a) a \barMaior
-    a bes( f) g( a) g \barMin
+    a bes( a) g( a) g \barMin
     f g a f e d d \barFinalis
   }
   \addlyrics {

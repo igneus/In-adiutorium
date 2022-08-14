@@ -266,6 +266,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d( f) d c d e f g g( a) a \barMin
     a a \mark\sipka g a g f e( f) d d \barFinalis
@@ -286,10 +287,31 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d c d e f g g( a) a \barMin
     a a \mark\sipka g f e d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
+    pl -- né dů -- vě -- ry je mé srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 108"
+    placet = "druhé _důvěry_ je nepěkně nasazené"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c d e f g g( a) a \barMin
+    \mark\sipka g a g f e d f( e) d d \barFinalis
   }
   \addlyrics {
     Pl -- né dů -- vě -- ry je mé srd -- ce, Bo -- že,
@@ -352,11 +374,57 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g4 g a( bes) bes( a) a f g g( a) a \barMaior
     a bes( f) g( a) g \barMin
+    f g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Bůh mě ob -- lé -- kl v_rou -- cho spá -- sy
+    a o -- děl mě ša -- tem spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Iz 61"
+    placet = "_oděl_ je divoké"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 g a( bes) bes( a) a f g g( a) a \barMaior
+    a \mark\sipka g( f) g( a) g \barMin
+    f g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Bůh mě ob -- lé -- kl v_rou -- cho spá -- sy
+    a o -- děl mě ša -- tem spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Iz 61"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    g4 g a( bes) bes( a) a f g g( a) a \barMaior
+    a \mark\sipka bes( a) g( a) g \barMin
     f g a f e d d \barFinalis
   }
   \addlyrics {
