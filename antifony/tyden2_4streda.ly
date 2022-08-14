@@ -167,6 +167,7 @@
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 119-ח"
+    placet = "první část není moc pěkná"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
