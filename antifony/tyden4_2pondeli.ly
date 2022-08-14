@@ -152,7 +152,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a \barMaior
+    g4 f g( a) a \barMaior
     c c b a g( a) g f
     g a a( g) g \barFinalis
   }
