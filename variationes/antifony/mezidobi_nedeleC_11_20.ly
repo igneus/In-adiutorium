@@ -3030,11 +3030,13 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    id = "ne20c-2ne-amag"
+    id = "ne20c-1ne-amag"
     fial = "mezidobi_nejsvsrdce.ly#1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -3060,9 +3062,101 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( b) g g \barMin
+    a f e d( e) e \barMaior
+    f f f g e e \barMin
+    e f e d e e \barFinalis
+  }
+  \addlyrics {
+    Mám být po -- no -- řen
+    v_křest u -- tr -- pe -- ní,
+    a jak je mi úz -- ko,
+    než bu -- de vy -- ko -- nán!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne20c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d( a') a \barMin f g g( a) a g( f) g g a a \barMaior
+    c a( g) f f \barMin g d f e d d \barFinalis
+  }
+  \addlyrics {
+    Mys -- lí -- te, že jsem při -- šel dát mír na ze -- mi?
+    Ne, ří -- kám vám, a -- le roz -- dě -- le -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne20c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d( a') a \barMin f g g( a) a g( f) g g a a \barMaior
+    c a( g) \mark\sipka a g \barMin f d f e d d \barFinalis
+  }
+  \addlyrics {
+    Mys -- lí -- te, že jsem při -- šel dát mír na ze -- mi?
+    Ne, ří -- kám vám, a -- le roz -- dě -- le -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne20c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') a \barMin a a g a g f f g g \barMaior
+    a g( f) d d \barMin e c f e d d \barFinalis
+  }
+  \addlyrics {
+    Mys -- lí -- te, že jsem při -- šel dát mír na ze -- mi?
+    Ne, ří -- kám vám, a -- le roz -- dě -- le -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne20c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a') a \barMin a a g a g f g a a \barMaior
     c a( g) f f \barMin g d f e d d \barFinalis
   }
   \addlyrics {

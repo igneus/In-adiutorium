@@ -714,7 +714,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( a') a \barMin f g g( a) a g( f) g g a a \barMaior
+    d4 d( a') a \barMin a a g a g f g a a \barMaior
     c a( g) f f \barMin g d f e d d \barFinalis
   }
   \addlyrics {

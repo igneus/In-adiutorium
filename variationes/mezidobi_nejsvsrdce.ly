@@ -387,6 +387,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( d e) e( a) \barMin a g a \mark\sipka g f d( e) e \barMaior
+    a4 a a a( b g) g \barMin g f \mark\sipka g f( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- heň jsem při -- šel vrh -- nout na zem,
+    a jak si pře -- ji, a -- by už vzpla -- nul!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
