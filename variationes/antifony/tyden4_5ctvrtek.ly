@@ -156,12 +156,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b b b b c d e d \barMaior
     c b c d b g g \barMin a( b) g \barFinalis
 
     \mark\sipka a^\rubrVelikAleluja b g g \barFinalis
+  }
+  \addlyrics {
+    Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,
+    on od vás ne -- od -- vrá -- tí svou tvář.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 44-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b b b b c d e d \barMaior
+    c b c d b g g \mark\sipka a( b) g \barFinalis
+
+    a^\rubrVelikAleluja b g g \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -- te -- -li se k_Hos -- po -- di -- nu,

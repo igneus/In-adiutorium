@@ -42,7 +42,7 @@
   \relative c'' {
     \choralniRezim
     g4 a b b b b c d e d \barMaior
-    c b c d b g g \barMin a( b) g \barFinalis
+    c b c d b g g a( b) g \barFinalis
 
     a^\rubrVelikAleluja b g g \barFinalis
   }
