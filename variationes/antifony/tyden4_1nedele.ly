@@ -246,10 +246,31 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f a g g bes a f \mark\sipka g g \barMaior
     g g f e g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
+    On dal ži -- vot na -- ší du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-I"
+    placet = "nasazením _On dal_ si nejsem jist"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a g g bes a f f( g) g \barMaior
+    \mark\sipka a a g f g a g( f) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
@@ -267,9 +288,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    f4 g f a g g bes a f f( g) g \barMaior
-    \mark\sipka a a g f g a g( f) f \barFinalis
+    f4 g f a g g bes a f g g \barMaior
+    a a g f \mark\sipka d f g( f) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!

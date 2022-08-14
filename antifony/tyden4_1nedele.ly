@@ -78,7 +78,7 @@
   \relative c' {
     \choralniRezim
     f4 g f a g g bes a f g g \barMaior
-    g g f e g a g( f) f \barFinalis
+    a a g f d f g( f) f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te, ná -- ro -- dy, na -- še -- ho Bo -- ha!
@@ -89,7 +89,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 66-I"
-    placet = "nasazením _On dal_ si nejsem jist"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
