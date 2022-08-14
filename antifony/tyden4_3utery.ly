@@ -191,7 +191,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f d f e d c \barMin
+    c4 d d( f) f \barMin e d c c \barMaior
     d c d f f e c d \barFinalis
   }
   \addlyrics {
@@ -203,7 +203,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 88-II"
-    placet = "_k tobě, Hospodine_ není moc pěkné"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

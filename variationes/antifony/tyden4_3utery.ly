@@ -831,9 +831,51 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 \mark\sipka d f d f e d c \barMin
+    d c d f f e c d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    placet = "_k tobě, Hospodine_ není moc pěkné"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka d( f) e f e d c \barMin
+    d c d f f e c d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 d d( f) f \barMin e d c c \barMaior
     d c d f f e c d \barFinalis
   }
   \addlyrics {
@@ -864,6 +906,46 @@
   \header {
     quid = "3. ant."
     modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e d c c \barMaior
+    d c d f f e c d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f d) d \barMin d c f g a a \barMaior
+    a g f g g f e d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    ne -- skrý -- vej pře -- de mnou svou tvář.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 88-II"
     id = "up-ant3"
