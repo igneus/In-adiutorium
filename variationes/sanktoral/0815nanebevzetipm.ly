@@ -672,10 +672,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c b a \barMin g g a g f g a g g \barMaior
     g g( b c) d c c( d) c \barMin b g a g g \barFinalis
@@ -694,6 +697,30 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c b a \barMin g g a g f g a g g \barMaior
+    g \mark\sipka f a c b c( d c) \barMin b g a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    Bůh do -- vr -- šil tvé vy -- kou -- pe -- ní
+    a ko -- ru -- no -- val tě ne -- bes -- kou slá -- vou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -773,6 +800,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -792,6 +821,54 @@
     g4 f( g) g \barMin a b c a g( a) g g \barMin
     a g a c c b a a \barMaior
     c c c( d) c d( e d c) b( a) \barMin c c d c d( e) d d \barMaior
+    c( d c) b( g) g( a) g \barMax
+    % R
+    \neviditelna a
+    c4 f e( d) d \barFinalis
+  }
+  \addlyrics {
+    \Response Dnes je ten pře -- slav -- ný den,
+    kdy Ro -- dič -- ka Bo -- ží
+    vstou -- pi -- la
+    do věč -- né ra -- dos -- ti v_ne -- bi;
+    ra -- du -- je -- me se spo -- lu s_ní a vo -- lá -- me:_*
+    Po -- žeh -- na -- ná tys me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho.
+    \Verse Šťast -- ná jsi, sva -- tá Pan -- no Ma -- ri -- a,
+    hod -- ná jsi veš -- ke -- ré chvá -- ly,
+    ne -- boť z_te -- be vze -- šlo slun -- ce spra -- ve -- dl -- nos -- ti,
+    Kris -- tus, náš Bůh._*
+    \Response Po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "2. resp."
+    modus = "V"
+    placet = "_kdy Rodička_ se musí zpívat jako jeden rytmický celek;
+    _šťastná jsi_ asi lépe posunout o sekundu výš"
+    id = "mc-r2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d e d c \[ b( a g \] \[ a g) \] \barMaior
+    f f f a g( a) g \barMin
+    f f( c') c4.( d4 \[ f e d c \] \[ d c) \] \barMin
+    \key f \major c bes c c( d) c bes bes( c) c \barMaior
+    \key c \major c( d c) c( d) d c c \barMin b a g a a g g \barMax
+    c4 f e( d) d \barMin d f e d c c \barMaior
+    c d d d d bes( a g) \barMin a g a f f \barFinalis
+
+    % V
+    \neviditelna a
+    \mark\sipka a4 g( a) a \barMin a b c a g( a) g g \barMin
+    a g a c c b a a \barMaior
+    c c \mark\sipka d c d( e d c) b( a) \barMin c c d c d( e) d d \barMaior
     c( d c) b( g) g( a) g \barMax
     % R
     \neviditelna a
@@ -1296,6 +1373,29 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    \mark\sipka c d( e) d( c) a b a g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 690"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     g4 g g b c d c d( e) d d \barMaior
@@ -1312,6 +1412,51 @@
     quid = "1. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g b c d c d( e) d d \barMaior
+    d d d d c a c c b \barMin
+    b \mark\sipka b( c) d( e) d c( a) b g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 690"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 b a b c d c d( e) d d \barMaior
+    \mark\sipka e e d c a c b a g \barMin
+    \mark\sipka g f( a) c( d) c b( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a by -- la vza -- ta do ne -- be,
+    an -- dě -- lé se z_to -- ho ra -- du -- jí
+    a zpí -- va -- jí Pá -- nu chvá -- ly.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 122"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -1647,6 +1792,29 @@
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) d e( f) g( f) d( c) \barMin d \mark\sipka c d( a') a bes( c) bes( a) a \barMax
+    a( bes) a g( a) a \barMaior
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
