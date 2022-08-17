@@ -2240,7 +2240,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -2287,6 +2287,39 @@ doxologieResponsoriumVI = {}
       g g g g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response U -- sta -- vič -- ně chci ve -- le -- bit Hos -- po -- di -- na,_*
+      vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
+      \Verse Vy -- svo -- bo -- dil mě ze všech mých o -- bav,_*
+      \Response vždy bu -- de v_mých ús -- tech je -- ho chvá -- la.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2st-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      g g \mark\sipka f g( a) g( f d) d f g g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a a a g( a) g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g \mark\sipka f g( a) g( f d) d f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- sta -- vič -- ně chci ve -- le -- bit Hos -- po -- di -- na,_*

@@ -805,13 +805,13 @@ doxologieResponsoriumVI = \relative c'' {
       % R
       \neviditelna f
       f4 f f f f f f f g f g( a) a( g) \barMax
-      g g g g( a) g( f d) d f g g( f) f \barFinalis
+      g g f g( a) g( f d) d f g g( f) f \barFinalis
       % V
       \neviditelna g
-      a a a a a a g f g( a) a( g) \barMax
+      a a a a a g( a) g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g g( a) g( f d) d f g g( f) f \barFinalis
+      g g f g( a) g( f d) d f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
