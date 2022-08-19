@@ -68,7 +68,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d e c c( d) d \barMin
+    c4 d e c d d \barMin
     d c b c( a) a( g) g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
@@ -288,10 +288,10 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key d \minor
-    g4 g g( a) \barMin a g a bes a g f g g \barMaior
+    f4 g a a a a bes a g f g g \barMaior
     g a bes a a f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -301,19 +301,18 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = "Žalm 145-I"
-    placet = "_den_ je nepřirozené"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \key f \major
-    g4 g g( a) \barMin a g a bes a f g a a \barMaior
+    f4 g g( a) \barMin a g a bes a f g a a \barMaior
     a g f g \barMin f e f d d \barFinalis
   }
   \addlyrics {
@@ -323,7 +322,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = "Žalm 145-II"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
