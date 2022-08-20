@@ -41,11 +41,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 d f( g) g \barMin
-    a c b( a g) g a( f) e f g g \barMaior
+    g4 g g( a) a \barMin
+    c c b( a g) g g( a) f f g g \barMaior
     a a a( c d) d d( e c a) a \barMaior
     g a g f g a a \barMin
-    a c c b( a) g f( g) a g g \barFinalis
+    a c c b( a g) g f( g) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ber -- nard,
