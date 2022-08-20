@@ -73,7 +73,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d e e c d d \barMaior
-    d c b g a a g g \barFinalis
+    d c d c b a g g \barFinalis
   }
   \addlyrics {
     Smi -- luj se nad ná -- mi, Bo -- že,
@@ -137,8 +137,8 @@
   \relative c'' {
     \choralniRezim
     g4 a a( g) \barMin
-    a g a c b g a a \barMaior
-    c a g f a a( g) g \barFinalis
+    a g a c b a g a \barMaior
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Vel -- kou věc s_ná -- mi u -- dě -- lal Hos -- po -- din,

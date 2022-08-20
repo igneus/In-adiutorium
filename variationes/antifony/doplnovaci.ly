@@ -116,6 +116,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 c d f e d( e) d d \barMin
+    f f g-- f( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -228,7 +248,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e e c d d \barMaior
     d c b \mark\sipka g a a g g \barFinalis
@@ -252,6 +272,27 @@
     \choralniRezim
     d4 d d e e c d d \barMaior
     d c \mark\sipka a b c a g g \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se nad ná -- mi, Bo -- že,
+    ty, kte -- rý trů -- níš na ne -- bi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 123"
+    id = "sexta-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e e c d d \barMaior
+    d c \mark\sipka d c b a g g \barFinalis
   }
   \addlyrics {
     Smi -- luj se nad ná -- mi, Bo -- že,
@@ -430,11 +471,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( g) \barMin
     a g a c b g a a \barMaior
     c a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vel -- kou věc s_ná -- mi u -- dě -- lal Hos -- po -- din,
+    na -- pl -- ni -- la nás ra -- dost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 126"
+    id = "nona-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( g) \barMin
+    a g a c b \mark\sipka a g a \barMaior
+    \mark\sipka a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Vel -- kou věc s_ná -- mi u -- dě -- lal Hos -- po -- din,
@@ -524,6 +587,26 @@
     \choralniRezim
     f4 g a f g \barMin
     \mark\sipka g a g( f) d f g g f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze kaž -- dé -- mu,
+    kdo se bo -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 128"
+    id = "nona-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g \barMin
+    \mark\sipka a a g f d f g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ze kaž -- dé -- mu,
