@@ -14,7 +14,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d( c) c \barMin
+    d4 d e( f) d( c) c \barMin
     a c b g g \barFinalis
 
     f^\rubrVelikAleluja g a( g) g \barFinalis

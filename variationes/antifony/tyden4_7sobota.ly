@@ -133,7 +133,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d( c) c \barMin
     \mark\sipka a c b g g \barFinalis
@@ -167,6 +167,55 @@
   }
   \addlyrics {
     Bůh je vy -- kou -- pil od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( f) d( c) c \barMin
+    d c b g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d e( f) d( c) c \barMin
+    \mark\sipka a c b g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
 
     A -- le -- lu -- ja.
   }
@@ -488,6 +537,32 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    d e \mark\sipka d( c) d( c) \barMaior
+    c b a g( a) g \barMin
+    f( g) g( a) a \barMin
+    c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a( d a) g( c a) a \barMin c( d e) d( c b) a \barMaior
@@ -535,6 +610,27 @@
     \choralniRezim
     d4 e d c d \mark\sipka d( c) \barMaior
     c d c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzý -- vej mě v_sou -- že -- ní,
+    a já tě vy -- svo -- bo -- dím.
+  }
+  \header {
+    textus_approbatus = "Vzývej mě v soužení, a vysvobodím tě."
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-II"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d c d d( c) \barMaior
+    \mark\sipka a c b a g a( g) g \barFinalis
   }
   \addlyrics {
     Vzý -- vej mě v_sou -- že -- ní,
@@ -643,6 +739,28 @@
     \zvyraznovacModry
     \choralniRezim
     d4 c( d) d( e) d \barMin
+    d c b g g \barMaior
+    a b g \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- ná -- ší
+    o -- bě -- ti chvá -- ly,
+    ten mě ctí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \mark\sipka d( e) e( d) d \barMin
     d c b g g \barMaior
     a b g \barFinalis
   }
@@ -951,6 +1069,42 @@
     \zvyraznovacModry
     \choralniRezim
     \mark\sipka c4-- b( c) c( d) d \barMin d d d b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 45-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4-- d( e c) c( d) d \barMin d d d b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 45-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4-- d( e c) c( d) d \barMin \mark\sipka d c a c b a( g) g \barFinalis
   }
   \addlyrics {
     Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
