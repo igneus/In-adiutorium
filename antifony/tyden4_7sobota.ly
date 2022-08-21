@@ -107,6 +107,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 50-I"
+    placet = "_lid_ dlouhé melisma nenese zrovna dobře"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
