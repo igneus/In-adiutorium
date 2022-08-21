@@ -6,9 +6,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g g( a) a \barMin
-    f g f d( e) d( c) \barMin
-    d d d f( e) d \barFinalis
+    f4 g a f f( g) g \barMin
+    g f e d( e) d( c) \barMin
+    d d f e( f d) d \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,
@@ -56,8 +56,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e d f g a a a \barMaior
-    f a g f g e d \barFinalis
+    f4 e d f g a a g \barMaior
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Po -- sled -- ní bu -- dou prv -- ní -- mi

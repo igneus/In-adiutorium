@@ -4,6 +4,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g g( a) a \barMin
     f g f d( e) d( c) \barMin
@@ -18,6 +19,99 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g( a) a \barMin
+    f g f d( e) d( c) \barMin
+    d d \mark\sipka f e( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    a -- bys -- te ve -- šli
+    těs -- ný -- mi dveř -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    g f e d( e) d( c) \barMin
+    d d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    a -- bys -- te ve -- šli
+    těs -- ný -- mi dveř -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    g f e d( e) d( c) \barMin
+    d d f \mark\sipka e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    a -- bys -- te ve -- šli
+    těs -- ný -- mi dveř -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    d c b a( b) a( g) \barMaior
+    a a c b( c a) a \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    a -- bys -- te ve -- šli
+    těs -- ný -- mi dveř -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "C"
     id = "ne21c-ne1-mag"
@@ -87,10 +181,65 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    d d d c b c a a( g) g \barMaior
+    \mark\sipka a a g f g( a) a c( d) d( c) c \barMaior
+    d e d d \barMin c d c b a g g \barMaior
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho jich při -- jde
+    od vý -- cho -- du i od zá -- pa -- du
+    a za -- u -- jmou mís -- to u sto -- lu
+    s_A -- bra -- há -- mem, I -- zá -- kem a Ja -- ku -- bem
+    v_ne -- bes -- kém krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    d d d c b c a a( g) g \barMaior
+    \mark\sipka g g( a) g g a( c) b c d d \barMaior
+    d e d d \barMin c d c b a g g \barMaior
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho jich při -- jde
+    od vý -- cho -- du i od zá -- pa -- du
+    a za -- u -- jmou mís -- to u sto -- lu
+    s_A -- bra -- há -- mem, I -- zá -- kem a Ja -- ku -- bem
+    v_ne -- bes -- kém krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 e d f g a a a \barMaior
     f a g f g e d \barFinalis
@@ -109,6 +258,156 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f g a a a \barMaior
+    \mark\sipka g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e d f g a a \mark\sipka g \barMaior
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g( a) g g \barMaior
+    a a g( f d) e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f g a a g \barMaior
+    a g e f e d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f g a a g \barMaior
+    a g \mark\sipka f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f d c( d) d( f) f \barMaior
+    f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g a c c b \barMaior
+    c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"22. neděle"}}
 
