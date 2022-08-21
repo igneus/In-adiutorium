@@ -209,6 +209,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g f f f e( f) d c d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh při -- jde
+    a u -- ká -- že svou slá -- vu a moc.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 e f e( d) c \barMin
@@ -532,6 +556,34 @@
     \choralniRezim
     f4 f e f d d \barMin
     e c c( d) d \barMaior
+    \mark\sipka d c a c( d) d
+    f g f e f d d \barFinalis
+
+    e^\rubrVelikAleluja c d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
     \mark\sipka f e d c( d) c
     d f e d e d d \barFinalis
 
@@ -583,6 +635,90 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    \mark\sipka c d f f( g) g
+    f g f e f d d \barFinalis
+
+    e^\rubrVelikAleluja c d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    c d f f( g) g
+    f \mark\sipka e d e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    c d f f( g) g
+    f \mark\sipka e c e f d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -595,6 +731,28 @@
   }
   \addlyrics {
     Bla -- ze těm, kdo pře -- bý -- va -- jí v_tvém do -- mě,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) g f( g) \barMin
+    g a a a g a g( f) f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,
+    kdo pře -- bý -- va -- jí v_tvém do -- mě,
     Hos -- po -- di -- ne.
   }
   \header {
@@ -769,6 +927,29 @@
     d c( d) e f e e4. \barMin
     f4( a) g f( e) e \barMaior
     a \mark\sipka b c a a g f f( g e) e \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
+    Hos -- po -- di -- ne,
+    vždyť skr -- ze ně jsi mi dal ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 119-XII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f g a g f e e \barMin
+    d c( d) e f e e \barMin
+    f4( a) g f( e) e \barMaior
+    a \mark\sipka g a g g f d d( e) e \barFinalis
   }
   \addlyrics {
     Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,

@@ -562,6 +562,31 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin
+    g( a) g f g g g( a) a \barMaior
+    a c( b) g a \barMin
+    a g f e f d( c) c \barMaior
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Hos -- po -- di -- nu;
+    jsme je -- ho lid
+    a stád -- ce je -- ho past -- vy, a -- le -- lu -- ja.
+  }
+  \header {
+    dies = "neděle"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2ne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 %tIIpondeliInvitatorium =

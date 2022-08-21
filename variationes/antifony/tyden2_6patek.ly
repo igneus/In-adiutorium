@@ -895,6 +895,33 @@
 }
 
 \markup\justify{
+  (Průběh melodie je - přinejmenším co do frázování a co do rozmístění a směřování melismat -
+  podobný antifoně z materiálu \typewriter{zalm51.ly} z rané fáze projektu.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4( d) d( f) f \barMin
+    f f( g) f e d( c) c \barMaior
+    d( f) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným
+    a po -- kor -- ným srd -- cem,
+    Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
   Chtěl jsem zkusit napodobit antifonu \italic{Cor contritum et humiliatum}
   z AR1912, ale nakonec z ní zůstal jen ten modus VI:
 }
@@ -1621,6 +1648,46 @@
     \choralniRezim
     a4 a a g4. a4 b a g( a) a4. \barMaior
     a4 a a( b) g \barMin a4( g) f g g e4. \barFinalis
+  }
+  \addlyrics {
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g \barMin a bes g f( g) f( e) \barMaior
+    c d d( e) e \barMin f( g) f d e e \barFinalis
+  }
+  \addlyrics {
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g \barMin a bes g f( g) f( e) \barMaior
+    c d d( e) e \barMin \mark\sipka f( g a) g f e e \barFinalis
   }
   \addlyrics {
     Spra -- ve -- dli -- vé a spo -- le -- hli -- vé

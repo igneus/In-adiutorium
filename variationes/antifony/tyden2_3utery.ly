@@ -644,6 +644,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 a( c) c d( e) \mark\sipka c c \barMin b c c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d( e) c b c c \barMin b c c a g f g g \barFinalis
   }
   \addlyrics {
@@ -887,6 +905,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     f4 g g a a a g a g( f) f \barMin \mark\sipka g a f \barFinalis
   }
@@ -907,6 +926,24 @@
   \relative c' {
     \choralniRezim
     f4 g a a a a g f f( g) g \barMin a g f \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 49-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f f g f g g( a) a \barMin f g f \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.

@@ -832,6 +832,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f g( c) d c( b) a \barMin
+    \mark\sipka c a c a b g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4( c) a a b c a( g) g \barMin
     a g f g a g g \barFinalis
   }
@@ -854,6 +874,87 @@
     \choralniRezim
     g4 g f g a a( c) c \barMin
     b g b c a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( c) c \barMin
+    \mark\sipka b a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( c) c \barMin
+    \mark\sipka b( c) a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    \mark\sipka a b c a b g g \barFinalis
   }
   \addlyrics {
     Po -- hleď -- te k_Hos -- po -- di -- nu,

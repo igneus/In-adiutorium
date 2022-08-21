@@ -468,6 +468,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g c( d) d \barMin
+    d( e) d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c c c d( e d4.) d \barMin
+    c4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -587,6 +631,67 @@
     \choralniRezim
     g4 g( a) a a a g f g( a) a \barMin
     g f g( a) g f g f e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- vo -- lil jsem si ces -- tu prav -- dy,
+    dal jsem před -- nost tvým roz -- hod -- nu -- tím.
+  }
+  \header {
+    modus = "IV"
+    differentia = "g"
+    quid = "1. ant."
+    psalmus = "Žalm 119-IV"
+    id = "rch-up1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a a g f g( a) a \barMin
+    g f g( a) g f \mark\sipka e d e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- vo -- lil jsem si ces -- tu prav -- dy,
+    dal jsem před -- nost tvým roz -- hod -- nu -- tím.
+  }
+  \header {
+    modus = "IV"
+    differentia = "g"
+    quid = "1. ant."
+    psalmus = "Žalm 119-IV"
+    id = "rch-up1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 \mark\sipka a a a a g f g( a) a \barMin
+    \mark\sipka a a g( a) g f g f e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- vo -- lil jsem si ces -- tu prav -- dy,
+    dal jsem před -- nost tvým roz -- hod -- nu -- tím.
+  }
+  \header {
+    modus = "IV"
+    differentia = "g"
+    quid = "1. ant."
+    psalmus = "Žalm 119-IV"
+    id = "rch-up1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g( a) a \barMin
+    g f g( a) \mark\sipka a a g f e e \barFinalis
   }
   \addlyrics {
     Vy -- vo -- lil jsem si ces -- tu prav -- dy,
@@ -795,6 +900,87 @@
     \choralniRezim
     f4 g a g f g f e f \barMaior
     d f g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f e f \barMaior
+    \mark\sipka g g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 g a g f g f e f \barMaior
+    g g f \mark\sipka d f g g f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f e f \barMaior
+    g g f d \mark\sipka c d f( g) f \barFinalis
+  }
+  \addlyrics {
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    a pro -- to jsem ne -- vrá -- vo -- ral.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Žalm 26"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f e f \barMaior
+    \mark\sipka g a g f d f g f \barFinalis
   }
   \addlyrics {
     Spo -- lé -- hal jsem na Hos -- po -- di -- na

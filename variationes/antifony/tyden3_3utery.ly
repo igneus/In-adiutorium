@@ -705,6 +705,42 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f f g f f \barFinalis
+  }
+  \addlyrics {
+    Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-XIII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g a g f g f f \barFinalis
+  }
+  \addlyrics {
+    Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-XIII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a g f a f e f d d \barFinalis
@@ -1493,6 +1529,54 @@
     c d d d e c c( d) d \barMaior
     a d \mark\sipka b c a a \barMin
     f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    \mark\sipka c a c b g( a) a \barMin
+    g f g a a b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    c a c b g( a) a \barMin
+    g f g a a \mark\sipka b( c a) g( a) a \barFinalis
   }
   \addlyrics {
     Jest -- li -- že zno -- vu

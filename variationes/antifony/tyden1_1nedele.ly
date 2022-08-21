@@ -2185,6 +2185,50 @@ tInedeleIInespAntI = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a( b) b c d c( b a) a \barMaior
+    c( d e) d c c d d \barMin
+    \mark\sipka a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu:
+    Seď po mé pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a( b) b c d c( b a) a \barMaior
+    \mark\sipka c d e d( c) c( d) d \barMin
+    d a( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu:
+    Seď po mé pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
