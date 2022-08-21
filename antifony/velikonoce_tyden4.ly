@@ -449,9 +449,9 @@
     \choralniRezim
     c4 c b( a) g f g a g g \barMaior
     a a( c) b a c( d) d \barMaior
-    d c b c b( g) \barMin
-    f g a b a g \barMaior
-    f g g g \barFinalis
+    e d c d d( c) \barMin
+    c c a b a g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to.
@@ -462,10 +462,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleA.ly#vmag1?konec"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -477,12 +476,11 @@
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř
     dá -- vá za ov -- ce svůj ži -- vot.
-
     A -- le -- lu -- ja.
   }
   \header {
