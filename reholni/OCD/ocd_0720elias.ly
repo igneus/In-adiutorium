@@ -135,17 +135,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4( d) d c \barMin
+    c c b a b( c) a a c b a g g \barMaior
+    g f( g) \barMin
+    a b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
-    Vyjdi ven a postav se na hoře před Hospodinem. A hle: Hospodin přecházel.
+    Vy -- jdi ven
+    a po -- stav se na ho -- ře před Hos -- po -- di -- nem.
+    A hle:
+    Hos -- po -- din pře -- chá -- zel.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup\sestavTitulek

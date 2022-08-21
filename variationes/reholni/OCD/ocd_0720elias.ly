@@ -39,6 +39,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f f g( a) g f f( g) g \barMaior
+    f e \mark\sipka d( e c) c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se ži -- vé -- mu Bo -- hu,
+    on k_nám mlu -- ví ús -- ty pro -- ro -- ků.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -318,6 +340,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 e f d \barMin
+    \mark\sipka d c d d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vý je Bůh,
+    před je -- hož tvá -- ří sto -- jím.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g( a) \barMin
     a g f g( a) g f f \barFinalis
   }
@@ -384,6 +426,31 @@
     c c b a b( c) a a c b a g g \barMaior
     g f( g) \barMin
     a( b c) a a g( f) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- jdi ven
+    a po -- stav se na ho -- ře před Hos -- po -- di -- nem.
+    A hle:
+    Hos -- po -- din pře -- chá -- zel.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d c \barMin
+    c c b a b( c) a a c b a g g \barMaior
+    g f( g) \barMin
+    \mark\sipka a b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Vy -- jdi ven
@@ -495,6 +562,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b \mark\sipka a( g) g \barMaior
+    f g a c c \barMin
+    b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \markup\justify{
   Začátek volně podle
   \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
@@ -520,6 +609,116 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d( e) d \barMaior
+    e d c a a \barMin
+    \mark\sipka g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d( e) d \barMaior
+    e d c \mark\sipka d c \barMin
+    a g f g g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f d) d c d d( f) f \barMaior
+    g f f d d \barMin
+    f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMaior
+    b c a g g \barMin
+    f e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a g g( a) a \barMaior
+    b a g e e \barMin
+    f e d e e \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup\sestavTitulek
@@ -558,6 +757,39 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g a g g f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka g a g g \barMin g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g a g g f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Až pro -- cit -- nu, Hos -- po -- di -- ne,_* na -- sy -- tím se po -- hle -- dem na te -- be.
+    \Verse Ve spra -- ve -- dl -- nos -- ti u -- zřím tvou tvář._*
+    \Response Na -- sy -- tím se po -- hle -- dem na te -- be.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -615,6 +847,26 @@
     quid = "ant. dopoledne"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e f e d( c) c \barMaior
+    d d e( f) d d e c d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- áš vo -- lal k_Hos -- po -- di -- nu
+    a On vy -- sly -- šel je -- ho hlas.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
@@ -833,25 +1085,69 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d c \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 115"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d f f e
+    d f f e d c d d \barFinalis
   }
   \addlyrics {
-    Hospodin dá odměnu svým služebníkům prorokům.
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 11"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f f e \barMin
+    d f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
