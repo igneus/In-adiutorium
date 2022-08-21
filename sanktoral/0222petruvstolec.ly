@@ -77,8 +77,8 @@
     \choralniRezim
     d4 f g g g( a) f f( g) g \barMin
     g g a g f d d e( f) d( c) c \barMaior
-    d d d( f g) \barMin f g f e d \barMaior
-    f e d( e) c c( d) d \barFinalis
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
   }
   \addlyrics {
     Za -- stí -- nil je svět -- lý ob -- lak_*

@@ -374,7 +374,35 @@
   }
 }
 
-\markup{Aktualisace ze zdroje:}
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 f g g g( a) f f( g) g \barMin
+    g g a g f d d e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g f e d \barMaior
+    f e d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
 
 \score {
   \relative c' {
@@ -382,8 +410,8 @@
     \choralniRezim
     d4 f g g g( a) f f( g) g \barMin
     g g a g f d d e( f) d( c) c \barMaior
-    d d d( f g) \barMin f g f e d \barMaior
-    f e d( e) c c( d) d \barFinalis
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
   }
   \addlyrics {
     Za -- stí -- nil je svět -- lý ob -- lak_*
