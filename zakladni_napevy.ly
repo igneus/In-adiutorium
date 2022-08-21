@@ -271,7 +271,7 @@
   \markup\sekce{III.1 nápěv s neumou}
 
   \markup\justify{
-    Takto se zpívají verše v modlitbě se čtením mezi psalmodií
+    Takto se zpívá verš v modlitbě se čtením mezi psalmodií
     a prvním čtením, stejně jako v modlitbě uprostřed dne
     po krátkém čtení.
   }
@@ -289,12 +289,12 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c4 c c c c c c c c c c c c c c b c( b a g) a( b) b( a) \barMax
-      \neviditelna c
-      c c c c c c c c c c c c c c c b c( b a g) a( b) b( a) \barFinalis
+      c4 c c c c c c c c c c c c c c b c( b a g) a( b) b( a) \barFinalis
     }
     \addlyrics {
       \Verse Kris -- to -- va na -- u -- ka ať je u vás ve své pl -- né sí -- le: _ _ _
+    }
+    \addlyrics {
       \Response moud -- ře se na -- vzá -- jem po -- u -- čuj -- te a na -- po -- mí -- nej -- te.
     }
     \layout {
@@ -313,8 +313,6 @@
     zejm. o největších slavnostech.
   }
 
-  \markup{Verše bez aleluja:}
-
   \score {
     \relative c'' {
       \choralniRezim
@@ -328,9 +326,9 @@
     \addlyrics {
       % MČ Nejsvětější Trojice
       \Verse "Slovem Hospo" -- \markup\underline{di} -- no -- vým
-      \skip 1 vznik -- la \markup\underline{ne} -- be -- sa _ _ _ _
+      \skip 1 \markup\italic{vznik} -- \markup\italic{la} \markup\underline{ne} -- be -- sa _ _ _ _
       \Response a \markup\underline{všech} -- "" -- no,
-      "co je" na -- pl -- \markup\underline{ňu} -- "" -- je. _ _ _ _
+      "co je" \markup\italic{na} -- \markup\italic{pl} -- \markup\underline{ňu} -- "" -- je. _ _ _ _
     }
     \layout {
       ragged-last = ##f
@@ -346,13 +344,13 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c\breve c4( d) c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
-      \neviditelna c
-      c\breve c4( d) c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
+      c\breve c4( d) \parenthesize c c \barMin c a( g) a( c) c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
     }
     \addlyrics {
       \Verse "Učedníci se zara" -- \markup\underline{do} -- va -- li, a -- le -- lu -- ja, _ _ _ _
-      \Response "když viděli" \markup\underline{Pá} -- na, a -- le -- lu -- ja. _ _ _ _
+    }
+    \addlyrics {
+      \Response "když viděli" \markup\underline{Pá} -- "" -- na, a -- le -- lu -- ja. _ _ _ _
     }
     \layout {
       ragged-last = ##f
@@ -379,32 +377,77 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c4 c c c c c c c c c c-! a \parenthesize a \barMax
-      \neviditelna c
-      c4 c c c c c c c c-! a \parenthesize a \barFinalis
+      c4 c c c c c c c c c c-! a \parenthesize a \barFinalis
     }
     \addlyrics {
       \Verse Na -- kloň mé srd -- ce, Bo -- že, k_svým \markup\underline{při} -- ká -- \markup\underline{zá} -- ním, \skip 1
-      \Response a bu -- du je věr -- ně \markup\underline{za} -- cho -- \markup\underline{vá} -- vat.
+    }
+    \addlyrics {
+      \Response a bu -- du je věr -- ně _ _ \markup\underline{za} -- cho -- \markup\underline{vá} -- vat.
     }
     \layout {
       ragged-right = ##t
     }
   }
 
-  \markup\justify{S aleluja:}
+  \markup\justify{Verše s aleluja:}
 
   \score {
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      c4 c c c c c c c c c c c c-! a \barMax
-      \neviditelna c
-      c4 c c c c c c c c-! a \barFinalis
+      c4 c c c c c c c c c c c c-! a \barFinalis
     }
     \addlyrics {
       \Verse U -- čed -- ní -- ci se za -- ra -- do -- va -- li, \markup\underline{a} -- le -- \markup\underline{lu} -- ja,
-      \Response když vi -- dě -- li Pá -- na, \markup\underline{a} -- le -- \markup\underline{lu} -- ja.
+    }
+    \addlyrics {
+      \Response když vi -- dě -- li Pá -- na, _ _ _ _ \markup\underline{a} -- le -- \markup\underline{lu} -- ja.
+    }
+  }
+
+  \markup\sekce{III.4 nápěv pro Triduum}
+  % AR1912 v sekci Toni communes některé nápěvy pro matutinum obsahuje, ale tyto ne.
+  % Vyskytují se jen v publikacích se zpěvy temných hodinek.
+
+  \markup\justify{
+    V modlitbě se čtením a modlitbě uprostřed dne Velkého pátku a Bílé soboty
+    se použije následující nápěv.
+  }
+
+  % MČ Velkého pátku
+  \score{
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      a4 a a a a a a a b a g-! \parenthesize g g \barFinalis }
+    \addlyrics {
+      \Verse Pro -- ti mně po -- vsta -- li _ _ \markup\italic{kři} -- \markup\italic{ví} \markup\underline{svěd} -- ko -- vé,
+    }
+    \addlyrics {
+      \Response a -- le je -- jich svě -- dec -- tví ne -- \markup\italic{by} -- \markup\italic{lo} \markup\underline{shod} -- "" -- né.
+    }
+    \header {
+      fons_externus = "podle Liber Usualis, Tournai - New York 1961, 630."
+    }
+  }
+
+  \markup{Nebo:}
+
+  \score{
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c c c c c c c c d c-! \parenthesize c c( b) \barFinalis
+    }
+    \addlyrics {
+      \Verse Pro -- ti mně po -- vsta -- li _ _ kři -- \markup\italic{ví} \markup\underline{svěd} -- ko -- vé,
+    }
+    \addlyrics {
+      \Response a -- le je -- jich svě -- dec -- tví ne -- by -- \markup\italic{lo} \markup\underline{shod} -- "" -- né.
+    }
+    \header {
+      fons_externus = "podle Liber Usualis, Tournai - New York 1961, 631."
     }
   }
 }
