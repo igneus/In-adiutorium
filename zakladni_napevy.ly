@@ -46,7 +46,7 @@
 
   \markup\sekce{I.2.1 nápěvy podle \italic{Antiphonale Romanum (1912)}}
 
-  \markup{Podle: \italic{Antiphonale Romanum}, Romae 1912, 1*nn.}
+  \markup{Podle \italic{Antiphonale Romanum,} Romae 1912, 1*nn.}
 
   \score {
     \relative c'' {
@@ -166,7 +166,7 @@
   \markup\justify{
     Podle \italic{Antiphonale monasticum,} Parisiis-Tornaci-Romae 1934, s. 1205nn.
     (Za pro projekt In adiutorium určitým způsobem směrodatnou považuji
-    tradici římského "\"sekulárního\"", tedy ne-mnišského oficia;
+    tradici římského "\"sekulárního\"," tedy ne-mnišského oficia;
     nápěvy podle Antiphonale Monasticum jsou tu však uvedeny jako možnost,
     zejm. proto, že s projektem In adiutorium ušly kus cesty a nechci je teď
     hned zahodit.)
@@ -646,7 +646,7 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      fons_externus = \markup{Volně podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
+      fons_externus = "Volně podle Antiphonale Romanum, Romae 1912, 47*."
       id = "dobrorecme2"
       piece = ""
     }
@@ -693,7 +693,7 @@
       \Response A -- men.
     }
     \header {
-      fons_externus = \markup{podle \italic{Antiphonale Romanum,} Romae 1912, 44.}
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 44."
       modus = "II"
       id = "pokojnounoc"
       piece = ""
