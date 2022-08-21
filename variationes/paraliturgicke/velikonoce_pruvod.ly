@@ -18,9 +18,42 @@
   byť ne vždycky s těmi pražskými.
 }
 
+\markup\column{
+  \line{Zkratky:}
+  \line{
+    Hr4 =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MVCHK_HR_4_II_A_4_2F5P07D-cs" {CZ-HKm Hr-4 (II A 4)}
+    : 117r
+  }
+  \line{
+    JK =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___II_C_7______4347P97-cs" {CZ-Pn II C 7}
+    - Jistebnický kancionál
+    : 92r
+  }
+  \line{
+    KA =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_22____0YK1T6C-cs" {CZ-Pn XII A 22}
+    - Kolínský antifonář
+    : 134v
+  }
+  \line{
+    KZ =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XVI_A_18____1W6DDX6-cs" {CZ-Pn XVI A 18}
+    - Karlštejnský žaltář
+    : 54r
+  }
+  \line{
+    PI =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-ZMP___504_C_004___107P3BA-cs" {CZ-PLm 504 C 004}
+    - Plzeň, kniha incipitů a sólových částí
+    : 26r
+  }
+}
+
 \markup{
   Podle antifony \italic{Dixit Dominus}
-  - obě hezky vedle sebe v karlštejnském žaltáři CZ-Pu XVI A 18, f. 54r
+  - obě hezky vedle sebe v KZ, f. 54r
 }
 
 \score {
@@ -47,7 +80,7 @@
 
 \markup{
   Podle antifony \italic{Fidelia omnia}
-  - srov. CZ-Pu XVI A 18, f. 54r a 54v
+  - srov. KZ, f. 54r a 54v
 }
 
 \score {
