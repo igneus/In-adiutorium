@@ -83,6 +83,21 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna a
+      a4 a g a a b( c) c \barMax
+      \neviditelna e
+      c c c( d) c c b g a a \barFinalis
+    }
+    \addlyrics {
+      \paneOtevri
+    }
+    \header {
+    }
+  }
+
   \pageBreak
 
   \markup\sekce{I.2 Ostatní hodinky}
@@ -606,6 +621,28 @@ uvodniVers = \lyricmode {
     }
     \header {
       id = ""
+      piece = ""
+    }
+  }
+
+  \markup\justify{
+    Tady by možná bylo vhodné vyznačit rytmické hodnoty,
+    protože rytmisovaný jinak ten nápěv nemusí dávat smysl:
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c c4 c c( d) d d( c b4.) b \barMax
+      \neviditelna c d4 d d( c b4.) b \barFinalis
+    }
+    \addlyrics {
+      \Verse Do -- bro -- řeč -- me Pá -- nu.
+      \Response Bo -- hu dí -- ky.
+    }
+    \header {
+      fons_externus = \markup{Volně podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
+      id = "dobrorecme2"
       piece = ""
     }
   }
