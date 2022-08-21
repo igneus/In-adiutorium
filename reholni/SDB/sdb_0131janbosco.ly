@@ -441,7 +441,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a g f g f d d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Služ -- te Hos -- po -- di -- nu s_ra -- dos -- tí,
@@ -449,9 +450,10 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
+    fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a3"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
