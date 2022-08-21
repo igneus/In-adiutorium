@@ -240,7 +240,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "aleluja lépe"
+    placet = "aleluja lépe; sestupný začátek je nepěkný"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

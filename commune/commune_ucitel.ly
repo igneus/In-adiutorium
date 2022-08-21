@@ -231,6 +231,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "začátek je dost divoký; melisma na _skvít_ se poměrně těžko zpívá"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
