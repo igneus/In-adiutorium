@@ -205,10 +205,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') g4.( f4 g e4. d) \barMaior
-    a'4 a( c) a \barMin a g f g a a \barMaior
-    d, d d d d( f) e c d \barMaior
-    a' g( f g4. e4) d( c) d \barFinalis
+    c4 d d( a') g( a) \barMaior
+    a4 a( c) a \barMin a g f g a a \barMaior
+    a( b c) a( g) g f e( f) d c d \barMaior
+    f e( c f d) c( d) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
