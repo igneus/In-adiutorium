@@ -8,37 +8,6 @@
 
 \include "../spolecne.ly"
 
-\markup\justify\italic{
-  Tyto zpěvy nejsou součástí Denní modlitby církve.
-}
-\markup\justify\italic{
-  Alelujatické antifony byly vybrány z formuláře velikonočních
-  nešpor v Kolínském antifonáři
-  (Knihovna národního muzea v Praze, sig. XII A 22).
-}
-
-\markup\nadpisHodinka{průvod ke křtitelnici}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    d4 c d( e d) c \barMin
-    a b( c) a g( f) g( a) a g g \barFinalis
-  }
-  \addlyrics {
-    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
-  }
-  \header {
-    fons_externus = "KA, f. 136r"
-    quid = "ant."
-    modus = "VII"
-    differentia = "c"
-    psalmus = "Žalm 113"
-    id = "aleluja1"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
 \markup\nadpisSkupiny "Kompletní sada alelujatických antifon"
 
 \markup\justify{
@@ -179,6 +148,41 @@
     psalmus = ""
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup\nadpisSkupiny "Zpěvy pro dnešní praktické účely"
+
+\markup\justify\italic{
+  Tyto zpěvy nejsou součástí Denní modlitby církve.
+}
+\markup\justify\italic{
+  Alelujatické antifony byly vybrány z formuláře velikonočních
+  nešpor v Kolínském antifonáři
+  (Knihovna národního muzea v Praze, sig. XII A 22).
+}
+
+\markup\nadpisHodinka{průvod ke křtitelnici}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d( e d) c \barMin
+    a b( c) a g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 136r"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "aleluja1"
+    piece = \markup {\sestavTitulek}
   }
 }
 
