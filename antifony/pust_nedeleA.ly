@@ -85,13 +85,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a b a g( a) g \barMax
+    a4 a a a g f e e \barMax
 
-    a4 a \barMin a g a g f g( a) a \barMaior
-    g g a g f f f( g) f e e \barMax
-    f f f( g) g \barMin
-    f f g( a) g g( a) a \barMaior
-    a a a g( a) g f e e \barFinalis
+    a4 a \barMin a g a b g a a \barMaior
+    a a g a g f e d e e \barMax
+    c d d( e) e \barMin
+    f g a f g g \barMaior
+    g a a g f d e e \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
@@ -105,7 +105,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "d"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0806promenenipane.ly#1ne-a3?konec"

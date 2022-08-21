@@ -144,13 +144,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a \barMin a g a g f g( a) a \barMaior
     a a g a g f e d e e \barMax
     c d d( e) e \barMin
     f g a f g g \barMaior
     g a \mark\sipka a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
+    je -- den to -- bě,
+    je -- den Moj -- ží -- šo -- vi
+    a je -- den E -- li -- á -- šo -- vi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Zj 19"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a \barMin a g a \mark\sipka b g a a \barMaior
+    a a g a g f e d e e \barMax
+    c d d( e) e \barMin
+    f g a f g g \barMaior
+    g a a g f d e e \barFinalis
   }
   \addlyrics {
     Pa -- ne,_* je dob -- ře, že jsme ta -- dy.

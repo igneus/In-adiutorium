@@ -110,10 +110,13 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{2. neděle postní}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a b a g( a) g \barMax
 
@@ -143,6 +146,75 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a b a g( a) g \barMax
+
+    a4 a \barMin a g a b g a a \barMaior
+    a a g a g f e d e e \barMax
+    c d d( e) e \barMin
+    f g a f g g \barMaior
+    g a a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl Je -- ží -- šo -- vi:
+
+    Pa -- ne, je dob -- ře, že jsme ta -- dy.
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
+    je -- den to -- bě,
+    je -- den Moj -- ží -- šo -- vi
+    a je -- den E -- li -- á -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0806promenenipane.ly#1ne-a3?konec"
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a \mark\sipka g f e e \barMax
+
+    a4 a \barMin a g a b g a a \barMaior
+    a a g a g f e d e e \barMax
+    c d d( e) e \barMin
+    f g a f g g \barMaior
+    g a a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr ře -- kl Je -- ží -- šo -- vi:
+
+    Pa -- ne, je dob -- ře, že jsme ta -- dy.
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
+    je -- den to -- bě,
+    je -- den Moj -- ží -- šo -- vi
+    a je -- den E -- li -- á -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0806promenenipane.ly#1ne-a3?konec"
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

@@ -40,7 +40,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a \barMin a g a g f g( a) a \barMaior
+    a4 a \barMin a g a b g a a \barMaior
     a a g a g f e d e e \barMax
     c d d( e) e \barMin
     f g a f g g \barMaior
