@@ -358,23 +358,27 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g a c b g a g \barMin
-    f f g a( c) b a g( a) g \barFinalis
+    d4 d c d f e d d \barMin
+    f f f f( g) f e
+    c( d) d \barFinalis
 
-    f^\markup\rubrVelikAleluja g g g \barFinalis
+    d^\markup\rubrVelikAleluja c
+    e f d d \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná
-    a va -- še lam -- py ať ho -- ří.
+    a va -- še lam -- py ať
+    \markup{\Dagger ho} -- ří.
 
+    \markup{\Dagger ho} -- ří.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne19c-2ne-amag?+aleluja"
     id = "mc-avig"
