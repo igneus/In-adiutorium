@@ -57,6 +57,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "není z nejzpěvnějších"
     id = "amag"
     fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
     fial = "sanktoral/0423vojtech.ly#ne-amag?zacatek&jiny_text"

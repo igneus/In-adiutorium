@@ -44,6 +44,7 @@
   \header {
     quid = "resp."
     modus = "VIII"
+    placet = "celý formulář potřebuje předělat"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
