@@ -1591,6 +1591,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f g a( c) c c d c b a( g) \barMin
     g f e f( g) g g( f) e e \barMaior
@@ -1616,6 +1617,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g f g a( c) c c d c b a( g) \barMin
     g f e f( g) g g( f) e e \barMaior
@@ -1633,7 +1635,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?cast&+aleluja"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
