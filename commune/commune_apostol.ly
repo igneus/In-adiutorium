@@ -539,19 +539,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a f) g \barMin a b( c b) a( g) g a( g f) g( a) g( a) a a \barMin b c d c( b) a( g) g \barMax
-    c c b a b( g) g g \barMin a g f g( a) g g \barFinalis
+    g4( a) a \barMin
+    a a( b c b) a( g) g f g g a a \barMin
+    c d c b( c) a a \barMaior
+    c c b a g( a) g g \barMin
+    f g a a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja a a f e d
+    f f( g) g g \barFinalis
   }
   \addlyrics {
     Jdě -- te
     a hlá -- sej -- te e -- van -- ge -- li -- um
-    o Bo -- žim krá -- lov -- ství:
-
+    o Bo -- žím krá -- lov -- ství:
     Za -- dar -- mo jste do -- sta -- li,
-    za -- dar -- mo dá -- vej -- te.
+    \markup{\Dagger za} -- dar -- mo dá -- vej -- te.
 
+    \markup{\Dagger za} -- dar -- mo dá -- vej -- te.
     A -- le -- lu -- ja.
   }
   \header {
@@ -590,22 +594,24 @@
 
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( c d) c( b) c a a4.( g) \barMin
-    f4 g a a b( a) g( a g) g \barFinalis
+    f4 g g a a \barMin
+    a a g f d f g( f) f \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
-    Vy -- tr -- va -- los -- tí za -- chrá -- ní -- te svou du -- ši.
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svo -- ji du -- ši.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Vytrvalostí zachráníte svou duši. Aleluja."
     quid = "ant. odpoledne"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}

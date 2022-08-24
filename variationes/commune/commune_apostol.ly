@@ -1113,25 +1113,68 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
+    g4( a f) g \barMin a b( c b) a( g) g a( g f) g( a) g( a) a a \barMin b c d c( b) a( g) g \barMax
+    c c b a b( g) g g \barMin a g f g( a) g g \barFinalis
 
+    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Jdě -- te a hlá -- sej -- te e -- van -- ge -- li -- um o Bo -- žim krá -- lov -- ství:
-    Za -- dar -- mo jste do -- sta -- li, za -- dar -- mo dá -- vej -- te.
+    Jdě -- te
+    a hlá -- sej -- te e -- van -- ge -- li -- um
+    o Bo -- žim krá -- lov -- ství:
+
+    Za -- dar -- mo jste do -- sta -- li,
+    za -- dar -- mo dá -- vej -- te.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    id = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a \barMin
+    a a( b c b) a( g) g f g g a a \barMin
+    c d c b( c) a a \barMaior
+    c c b a g( a) g g \barMin
+    f g a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja a a f e d
+    f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te
+    a hlá -- sej -- te e -- van -- ge -- li -- um
+    o Bo -- žím krá -- lov -- ství:
+    Za -- dar -- mo jste do -- sta -- li,
+    \markup{\Dagger za} -- dar -- mo dá -- vej -- te.
+
+    \markup{\Dagger za} -- dar -- mo dá -- vej -- te.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -1240,6 +1283,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( c d) c( b) c a a4.( g) \barMin
     f4 g a a b( a) g( a g) g \barFinalis
@@ -1264,6 +1308,100 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 c b c a( g) \barMin
+    a a g f g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí za -- chrá -- ní -- te svou du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a b c a g f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí za -- chrá -- ní -- te svou du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a a \barMin
+    a a g f g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svou du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a( g) \barMin
+    a a g f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svou du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a d c b g \barMin f g a b c( a) g( a) a \barFinalis
 
     a^\markup\rubrVelikAleluja a( b) a a \barFinalis
@@ -1279,6 +1417,106 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     differentia = "A"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g a a \barMin
+    a a g f d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svo -- ji du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vytrvalostí zachráníte svou duši. Aleluja."
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a \barMin
+    a a g f \mark\sipka g( a) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svou du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g \mark\sipka a a g \barMin
+    a a g f d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svo -- ji du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vytrvalostí zachráníte svou duši. Aleluja."
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \mark\sipka f g \barMin
+    a a g f d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svo -- ji du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vytrvalostí zachráníte svou duši. Aleluja."
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
