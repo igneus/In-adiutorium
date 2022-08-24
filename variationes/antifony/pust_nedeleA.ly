@@ -318,8 +318,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a a( d) c a a \barMaior
     c c( d) d \barMin
@@ -340,6 +343,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c b c( d) d \barMaior
+    c e( d) d \barMin
+    d d c b a g g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ta -- ké my jsme u -- vě -- ři -- li,
+    a ví -- me,
+    že Je -- žíš je sku -- teč -- ně Spa -- si -- tel svě -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{4. neděle postní}
 

@@ -219,9 +219,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a a( d) c a a \barMaior
-    c c( d) d \barMin
-    d c d d d( e) d c( b a) \barMin g f g g( a) a \barFinalis
+    a4 a g a c b c( d) d \barMaior
+    c e( d) d \barMin
+    d d c b a g g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Ta -- ké my jsme u -- vě -- ři -- li,
@@ -230,8 +230,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "iiimag2"
