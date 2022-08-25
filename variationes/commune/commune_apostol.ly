@@ -62,8 +62,11 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e d( c) d d( c) c( a) a \barMaior
     g a a b( c d) c( d) c b a( g) g( a) a \barFinalis
@@ -85,6 +88,34 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( b) g g a a \barMaior
+    a a a g f e d f( g) e e \barFinalis
+
+    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Vy jste mo -- ji přá -- te -- lé,
+    pro -- to -- že zů -- stá -- vá -- te v_mé lás -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Ef 1"
+    fial = "commune/commune_apostol.ly#rch-a3?zacatek"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
 

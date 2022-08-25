@@ -64,10 +64,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 e d( c) d d( c) c( a) a \barMaior
-    g a a b( c d) c( d) c b a( g) g( a) a \barFinalis
+    g4 a a( b) g g a a \barMaior
+    a a a g f e d f( g) e e \barFinalis
 
-    a^\markup\rubrVelikAleluja b a a \barFinalis
+    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
   }
   \addlyrics {
     Vy jste mo -- ji přá -- te -- lé,
@@ -77,9 +77,10 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Ef 1"
+    fial = "commune/commune_apostol.ly#rch-a3?zacatek"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
