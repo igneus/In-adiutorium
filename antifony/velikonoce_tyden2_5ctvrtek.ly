@@ -94,7 +94,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 72-I"
-    id = "na-a1"
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }

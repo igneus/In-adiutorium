@@ -154,7 +154,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
-    fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#na-a1?-aleluja"
+    fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#ne-a1?-aleluja"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
