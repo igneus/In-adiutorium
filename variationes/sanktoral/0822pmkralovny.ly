@@ -15,6 +15,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( g a) a \barMin bes( a) g a g g \barMin f g a f( e d) d \barMaior
@@ -35,15 +36,93 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
+    g a g f( e d c) c \barMax
+    d c( d) d( f) f \barMin
+    f g( a) g f e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on u -- či -- nil
+    svou Mat -- ku na -- ší Krá -- lov -- nou.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a c) b( a g) a \barMaior
     c d e d( c) d c \barMaior
     b b( c) d e c b a a \barMaior
     c( b a) g a g f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    vzne -- še -- ná Krá -- lov -- no,
+    tys nám po -- ro -- di -- la Kris -- ta,
+    spa -- si -- te -- le svě -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a c) b( a g) a \barMin
+    c d e d( c) d c \barMaior
+    b \mark\sipka c d e c b a a \barMin
+    c( b a) g a g \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    vzne -- še -- ná Krá -- lov -- no,
+    tys nám po -- ro -- di -- la Kris -- ta,
+    spa -- si -- te -- le svě -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a c) b( a g) a \barMin
+    c d e d( c) d c \barMaior
+    b c d e c b a a \barMin
+    \mark\sipka c b a g f( g a) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -120,7 +199,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMax
@@ -196,6 +275,65 @@
     psalmus = ""
     id = "amag"
     fial = "commune/commune_maria.ly#2ne-amag?+zaver"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b \mark\sipka c e e d \barMaior
+    e d c b( c) a( g) a( g) \barMin
+    a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    \mark\sipka a a a a c b a c d d \barMaior
+    e d c b( c) a( g) a( g) \barMin
+    \mark\sipka f( g a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
