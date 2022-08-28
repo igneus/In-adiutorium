@@ -79,11 +79,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( a) a f g g( a) a \barMaior
-    f f d( f) f \barMin g g g f d d \barMax
-    d c d d d f d f g f d( e d) \barMaior
-    a' a a a a( c) g g( a) a \barMin
-    f f f f g f e( f) d d \barFinalis
+    a4 a a g a f g g( a) a \barMaior
+    a a g( f) f \barMin g g g f d d \barMax
+    d c d d d f e d f( g a) a( g) g \barMaior
+    a a g f f( g) f d d \barMin
+    c d e f g f e( f) d d \barFinalis
   }
   \addlyrics {
     Když bu -- deš po -- zván na hos -- ti -- nu,
@@ -95,7 +95,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne22c-ne1-mag"
@@ -131,10 +131,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b( c a) a b a g( a g) \barMaior
-    g( c) d d( c) \barMin d d c d c b c d d \barMaior
-    a a( d) d d c b a( g) \barMin
-    g a a a c b a a \barFinalis
+    a4 g a f( g) g( a) a \barMaior
+    f( g) f d \barMin f f e f d c c d d \barMaior
+    d f e d f( g a) a( g) g \barMin
+    a a g f e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Když stro -- jíš hos -- ti -- nu,
@@ -144,8 +144,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne22c-ne2-mag"
