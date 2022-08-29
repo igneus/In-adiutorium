@@ -20,7 +20,7 @@
     d4( a') a \barMin g( a) bes c bes( a) a \barMin
     bes a g a g f( e) e \barMaior
     f g a g a a( bes) a a \barMin
-    a a( g f) f( g) f e d d \barFinalis
+    a g a f e d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -114,13 +114,13 @@
     % R
     \neviditelna f
     f4 f f f g a a( g) \barMaior
-    g g( a) g \barMin f( d) f g g f \barFinalis
+    g g( a) g \barMin f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
     a( bes) a g( a) g \barMin g g g f g g g( a) \barMax
     % R
     \neviditelna a
-    g g( a) g \barMin f( d) f g g f \barFinalis
+    g g( a) g \barMin f( d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -143,8 +143,8 @@
   \relative c'' {
     \choralniRezim
     g4 f g a( c) c \barMin
-    c c( d) c c b c a g f( g) g \barMaior
-    c c d( e) d d c d c( a) g f g( a) \barMaior
+    c c( d) c c b c a g a( g) g \barMaior
+    c c d( e) d d c d c( b) a g a( g) \barMaior
     a b c a g( a) g g \barFinalis
   }
   \addlyrics {
@@ -168,11 +168,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g a a g \barMin f a g f( e) e \barMin
-    f f d e e \barFinalis
+    g a a g \barMin
+    g a g f e
+    d f f e e \barFinalis
   }
   \addlyrics {
-    Ne -- boj se jich, vždyť já jsem s_te -- bou,
+    Ne -- boj se jich,
+    vždyť já jsem s_te -- bou,
     pra -- ví Hos -- po -- din.
   }
   \header {
@@ -188,9 +190,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g a a g f e d e( f) e e \barMaior
-    f e f g a g \barMin
-    a-- f f g f( e) e \barFinalis
+    a4 a a g a g f g a a \barMaior
+    g a b g a a \barMin
+    a-- g a g f( e) e \barFinalis
   }
   \addlyrics {
     He -- ro -- des po -- slal ka -- ta s_roz -- ka -- zem,
@@ -210,8 +212,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d e f g f e f d d \barMaior
-    f f e d e( f d c) c \barMaior
+    d e f g f e f d( c) c \barMaior
+    d d c a c( d) d \barMin
     d c d f f f e( d) c( d) d \barFinalis
   }
   \addlyrics {
@@ -235,7 +237,7 @@
 
     % R
     \neviditelna f
-    f4 f f f g f g a a( g) \barMax
+    f4 f( g) f f g f g a a( g) \barMax
     g g( a) g \barMin g f d f g g f f \barFinalis
     % V
     \neviditelna a
@@ -267,8 +269,8 @@
     f4 g( a g) f g g g( a) \barMaior
     a g( a) g \barMin
     g f g f e d c c \barMaior
-    d f g g( a g) \barMin
-    f( d) e f d d \barFinalis
+    d f g f( g) \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Já ne -- jsem Me -- si -- áš,
