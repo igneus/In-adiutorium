@@ -56,7 +56,7 @@
     e4 e f f a g f( e) e \barFinalis
 
     \neviditelna d
-    d4( e) e4. \barMin f4 f f f g a g f e d d \barMax
+    d4( e) e \barMin f4 f f f g a g f e d d \barMax
     \neviditelna e
     e4 e f f a g f( e) e \barFinalis \break
 
@@ -89,12 +89,12 @@
 
     \neviditelna g
     g4 g f g a c b( a) a \barMax
-    a4 g f g a( c) c4. b4 a c( d) a a \barFinalis
+    a4 g f g a( c) c \barMin b4 a c( d) a a \barFinalis
 
     \neviditelna  a
     a4( g a) b( c) a a \barMin b4 c d a4. a \barMax
     \neviditelna a
-    a4 g f g a( c) c4. b4 a c( d) a a4. \barFinalis
+    a4 g f g a( c) c \barMin b4 a c( d) a a \barFinalis
 
     a4 a g( a) a \barMin a4 b( c) a4.( g) \barMin a4 g a b( c) a4. a \barFinalis
   }
