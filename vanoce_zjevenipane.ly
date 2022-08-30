@@ -776,14 +776,15 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
-      d4 d d d c d d f( g) g( f) f \barMaior
-      g g g g a bes a g a( bes) a g f f \barMaior
-      g g g f e c d d \barFinalis
+      d4 d d d f e d f( g a) a( g) g \barMaior
+      a a a a g a g g \barMin
+      f( g a) f e d d \barMaior
+      f f f e d c e( f d) d \barFinalis
     }
     \addlyrics {
       He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
-      na do -- bu, kdy u -- vi -- dě -- li zá -- ří -- cí hvěz -- du
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
       no -- vo -- ro -- ze -- né -- ho Krá -- le.
     }
     \header {
@@ -791,7 +792,6 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      placet = "jinak"
       id = "9-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

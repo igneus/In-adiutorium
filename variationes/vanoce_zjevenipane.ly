@@ -1987,6 +1987,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       d4 d d d c d d f( g) g( f) f \barMaior
@@ -2003,10 +2004,86 @@ ale na diferenci žalmového nápěvu?}
       modus = "I"
       differentia = "D"
       psalmus = ""
-      id = ""
+      placet = "jinak"
+      id = "9-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d f e d f( g a) a( g) g \barMaior
+      a a a a g a g g \barMin
+      f( g a) f e d d \barMaior
+      f e d c e f d d \barFinalis
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d f e d f( g a) a( g) g \barMaior
+      a a a a g a g g \barMin
+      f( g a) f e d d \barMaior
+      \mark\sipka f f f f e c e( f d) d \barFinalis
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d d f e d f( g a) a( g) g \barMaior
+      a a a a g a g g \barMin
+      f( g a) f e d d \barMaior
+      f f f \mark\sipka e d c e( f d) d \barFinalis
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisDen {10. ledna}}
 
