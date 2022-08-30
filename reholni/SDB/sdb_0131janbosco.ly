@@ -210,6 +210,7 @@
     modus = "V"
     differentia = ""
     psalmus = ""
+    adiutor_genre = "antiphon_standalone"
     id = "pannomocna"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -70,6 +70,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    adiutor_genre = "antiphon_standalone"
     id = "vidiaquam"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -131,6 +132,7 @@
     differentia = "D"
     psalmus = ""
     scriptura = "Řím 6,9-10"
+    adiutor_genre = "antiphon_standalone"
     id = "chresurgens"
     piece = \markup {\sestavTitulekBezZalmu}
   }
