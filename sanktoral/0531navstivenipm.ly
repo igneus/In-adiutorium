@@ -192,7 +192,7 @@
     a a a bes a g g a a \barMin
     f a g f d d \barFinalis
 
-    e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jak -- mi -- le za -- zněl tvůj po -- zdrav v_mých u -- ších,
