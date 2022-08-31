@@ -79,6 +79,7 @@ class ChildParentComparison
         .gsub(/\s+/, ' ')
         .gsub('^\markup\rubrVelikAleluja', '')
         .gsub(/\\stem(Up|Down)\s*/, '')
+        .gsub('\doxologieResponsoriumVI', '\respVIdoxologie \barFinalis')
     n = strip_alleluia(n) if strip_aeuia
 
     p n if @debug

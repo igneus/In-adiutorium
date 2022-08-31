@@ -55,6 +55,17 @@ describe ChildParentComparison do
           .not_to be_match
       end
     end
+
+    describe 'responsoria.ly peculiarities' do
+      it 'understands the special doxology variable' do
+        expect(
+          described_class.new(
+            score(music: '\respVIdoxologie \barFinalis'),
+            score(music: '\doxologieResponsoriumVI')
+          )
+        ).to be_match
+      end
+    end
   end
 
   describe '+aleluja' do
