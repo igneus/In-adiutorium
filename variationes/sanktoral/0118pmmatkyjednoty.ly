@@ -530,8 +530,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c) b c( d) d \barMaior
     c b d d a a c b a( b g) a \barMin
@@ -553,6 +556,35 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( c) b c( d) d \barMaior
+    c d d( f) e d( c) c d c b( c a) a \barMin
+    g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- mřel pro -- to,
+    a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
+    shro -- máž -- dil vjed -- no.
+  }
+  \header {
+    textus_approbatus = "Ježíš umřel, aby rozptýlené Boží děti shromáždil vjedno."
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    fial = "antifony/pust_tyden5.ly#so-aben"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
