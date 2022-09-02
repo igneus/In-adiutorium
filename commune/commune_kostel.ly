@@ -363,7 +363,7 @@
     d c b c( a) a( g) g \barMin
     a g f g( a) a c b g g \bar ";"
 
-    f^\markup\small\italic{Mimo dobu postní:} a a( g) g \barFinalis
+    f^\markup\rubrMimoPust a a( g) g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný jsi, Pa -- ne,
@@ -542,7 +542,7 @@
     f g( a bes) a g bes a a \barMaior
     g( a bes a) g( a) \barMin f g f e d c f e d d \barFinalis
 
-    e^\markup\small\italic{Mimo dobu postní:} f d( c) d \barFinalis
+    e^\markup\rubrMimoPust f d( c) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
