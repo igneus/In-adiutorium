@@ -139,7 +139,7 @@
   \addlyrics {
     \Response Pán vstal z_hro -- bu._*
     \textRespAleluja
-    \Verse On za nás u -- mřel na kří -- ži.
+    \Verse On za nás u -- mřel na kří -- ži._*
     \Response \textRespAleluja
     \textRespDoxologie
   }
@@ -173,7 +173,7 @@
   \addlyrics {
     \Response Pán se u -- ká -- zal svým u -- če -- dní -- kům._*
     \textRespAleluja
-    \Verse Vi -- dě -- li ho a ra -- do -- va -- li se.
+    \Verse Vi -- dě -- li ho a ra -- do -- va -- li se._*
     \Response \textRespAleluja
     \textRespDoxologie
   }

@@ -116,7 +116,7 @@
     pro -- je -- vuj -- te na -- ve -- nek
     mi -- lo -- srd -- né srd -- ce.
     \Verse Bla -- ze to -- mu, kdo si vší -- má
-    chu -- dá -- ka a u -- bo -- žá -- ka.
+    chu -- dá -- ka a u -- bo -- žá -- ka._*
     \Response pro -- je -- vuj -- te na -- ve -- nek
     mi -- lo -- srd -- né srd -- ce.
     \textRespDoxologie

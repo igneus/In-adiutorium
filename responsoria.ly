@@ -124,7 +124,7 @@ doxologieResponsoriumVI = \relative c'' {
     \addlyrics {
       \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
       vše -- chno jsi mou -- dře u -- či -- nil.
-      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,_*
       \Response vše -- chno jsi mou -- dře u -- či -- nil.
       \textRespDoxologie
     }
@@ -188,7 +188,7 @@ doxologieResponsoriumVI = \relative c'' {
     \addlyrics {
       \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
       Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
-      \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
+      \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no._*
       \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
       \textRespDoxologie
     }
@@ -252,7 +252,7 @@ doxologieResponsoriumVI = \relative c'' {
     }
     \addlyrics {
       \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
-      \Verse Smi -- luj se na -- de mnou,
+      \Verse Smi -- luj se na -- de mnou,_*
       \Response zhře -- šil jsem pro -- ti to -- bě.
       \textRespDoxologie
     }

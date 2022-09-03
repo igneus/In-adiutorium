@@ -477,7 +477,7 @@
   \addlyrics {
     \Response Bůh se k_ní sklo -- nil
     a po -- má -- hal jí.* \textRespAleluja
-    \Verse On byl je -- jí ú -- to -- čiš -- tě.
+    \Verse On byl je -- jí ú -- to -- čiš -- tě._*
     \Response \textRespAleluja
     \textRespDoxologie
   }
@@ -722,7 +722,7 @@
   \addlyrics {
     \Response Bůh si ji vy -- vo -- lil
     a u -- ve -- dl ji do své slá -- vy._* \textRespAleluja
-    \Verse Po -- vo -- lal ji svou mi -- los -- tí.
+    \Verse Po -- vo -- lal ji svou mi -- los -- tí._*
     \Response \textRespAleluja
     \textRespDoxologie
   }

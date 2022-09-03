@@ -445,7 +445,7 @@
     \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
     Pán s_te -- bou!
     \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!_*
     \Response Pán s_te -- bou!
     \textRespDoxologie
   }
@@ -484,7 +484,7 @@
     \Response Buď zdrá -- va, Ma -- ri -- a,
     mi -- los -- ti -- pl -- ná! Pán s_te -- bou!_* \textRespAleluja
     \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
-    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!_*
     \Response \textRespAleluja
     \textRespDoxologie
   }

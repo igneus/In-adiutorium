@@ -460,7 +460,7 @@
   \addlyrics {
     \Response Ma -- ri -- a dnes vstou -- pi -- la do ne -- bes -- kých pří -- byt -- ků;_*
     Kris -- tus jí dal ú -- čast na své slá -- vě.
-    \Verse Kra -- lu -- je s_Kris -- tem na -- vě -- ky;
+    \Verse Kra -- lu -- je s_Kris -- tem na -- vě -- ky;_*
     \Response Kris -- tus jí dal ú -- čast na své slá -- vě.
     \textRespDoxologie
   }
