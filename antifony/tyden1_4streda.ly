@@ -251,7 +251,7 @@ tIstredaNespAntIII = \score {
     c a c b g a a \barFinalis
   }
   \addlyrics {
-    Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvot -- stvo,
+    Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvor -- stvo,
     on má ve všem pr -- ven -- ství.
   }
   \header {
