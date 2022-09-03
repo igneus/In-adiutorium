@@ -120,7 +120,7 @@
     }
     \addlyrics {
       Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
-      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+      Krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
     }
     \header {
       quid = "ant. k Magnificat"

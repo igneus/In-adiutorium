@@ -476,7 +476,7 @@
     f g( f) d d \barFinalis
   }
   \addlyrics {
-    A -- mem, a -- men, pra -- vím vám:
+    A -- men, a -- men, pra -- vím vám:
     Kdo vě -- ří, má ži -- vot věč -- ný.
 
     A -- le -- lu -- ja.

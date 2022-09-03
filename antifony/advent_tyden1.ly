@@ -380,6 +380,7 @@
     a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
   }
   \header {
+    textus_approbatus = "Anděl Páně zvěstoval Marii a ona počala z Ducha svatého."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"

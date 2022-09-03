@@ -1410,7 +1410,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d d d e d c b c b a \barMaior
     g c b g g( a) a a \barFinalis
@@ -1419,6 +1419,38 @@
   }
   \addlyrics {
     An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    za -- snou -- be -- né s_Jo -- se -- fem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fons = "4. neděle adventní, cyklus B, k Benedictus"
+    fial = "fial://antifony/advent_nedeleB.ly#ivben"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  Pouze odebírám čárku po \italic{Marii.}
+  Daný text má v breviáři tři výskyty. Dva s čárkou, tenhle jeden
+  (konsistentně mezi vydáními) bez čárky.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c d d d e d c b c b a \barMaior
+    g c b g g( a) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i
     za -- snou -- be -- né s_Jo -- se -- fem.
 
     A -- le -- lu -- ja.

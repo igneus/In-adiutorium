@@ -351,7 +351,7 @@
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
-    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i,
+    An -- děl Ga -- bri -- el byl pos -- lán k_Pan -- ně Ma -- ri -- i
     za -- snou -- be -- né s_Jo -- se -- fem.
 
     A -- le -- lu -- ja.
@@ -634,6 +634,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Anděl Páně zvěstoval Marii a ona počala z Ducha svatého. Aleluja."
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
