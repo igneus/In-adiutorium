@@ -721,7 +721,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d d( e f d) d \barMaior
     d c d d f e f( d) d \barMin
@@ -784,9 +784,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c d d d( e f d) d \barMaior
-    d c d d \mark\sipka f( g) f d d \barMin
+    d c d d \mark\sipka f( g) f d d \barMaior
     f g( f) f \barMin
     g f g g( a) a \barMaior
     a a a a( b c) a a \barMin
@@ -859,6 +860,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a a a( g f) e d e( d) e f e \barMaior
     f g a g f g g e e \barFinalis
@@ -873,6 +875,7 @@
     differentia = "E"
     psalmus = ""
     annus = "C"
+    placet = "Po zkrácení o začátek a konec je jaksi nevyvážená. Možná půjde lépe bez závislosti na textově příbuzné antifoně."
     id = "ne23c-ne2-mag"
     fons = "viz nize, na zacatku i na konci melodie pouze zkracena podle textu"
     fial = "sanktoral/0825benediktabratri.ly#aben"
@@ -882,6 +885,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka a4 g f e d e( d) e f e \barMaior
     f g a g f g g e e \barFinalis
@@ -893,7 +897,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne23c-ne2-mag"
@@ -949,6 +953,48 @@
     \choralniRezim
     d4 \mark\sipka f g a a c b c a \barMin
     a g f e d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a a \mark\sipka c( b) a b a \barMin
+    g a g f d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a a c( b) a b a \barMin
+    \mark\sipka a a g f d c d d d \barFinalis
   }
   \addlyrics {
     Kdo se ne -- zřek -- ne vše -- ho, co má,

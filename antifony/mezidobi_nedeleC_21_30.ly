@@ -159,9 +159,9 @@
   \relative c' {
     \choralniRezim
     d4 c d d d( e f d) d \barMaior
-    d c d d f e f( d) d \barMin
-    f g f \barMin
-    g f f g( a) a \barMaior
+    d c d d f( g) f d d \barMaior
+    f g( f) f \barMin
+    g f g g( a) a \barMaior
     a a a a( b c) a a \barMin
     a a g f g( f) f \barMaior
     g g g f d c d d d \barFinalis
@@ -210,7 +210,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a a a( g f) e d e( d) e f e \barMaior
+    a4 g f e d e( d) e f e \barMaior
     f g a g f g g e e \barFinalis
   }
   \addlyrics {
@@ -220,13 +220,11 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne23c-ne2-mag"
-    fons = "viz nize, na zacatku i na konci melodie pouze zkracena podle textu"
-    fial = "sanktoral/0825benediktabratri.ly#aben?cast"
-    placet = "Po zkrácení o začátek a konec je jaksi nevyvážená. Možná půjde lépe bez závislosti na textově příbuzné antifoně."
+    fial = "sanktoral/0825benediktabratri.ly#aben?jiny text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
