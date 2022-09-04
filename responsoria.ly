@@ -195,6 +195,7 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "možná to je prostě jenom o letitém zvyku, ale _Bože_ si říká zpátky o clivis gf"
       id = "1ne-2ne"
       piece = \markup\sestavTitulekResp
     }

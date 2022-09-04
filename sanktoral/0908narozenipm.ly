@@ -29,6 +29,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "asi bude vhodnější použít stejný nápěv, jako má Navštívení a Nanebevzetí"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
