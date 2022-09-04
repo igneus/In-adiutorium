@@ -295,11 +295,109 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f f f f f g f \barMin f g f g a a( g) \barMax
+    f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ve -- leb -- me Ot -- ce i Sy -- na i Du -- cha Sva -- té -- ho._*
+    Chval -- me ho na -- vě -- ky.
+    \Verse Je -- di -- né -- mu Bo -- hu čest a slá -- va._*
+    \Response Chval -- me ho na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka g( f) f \barMin f g f g a a( g) \barMax
+    f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ve -- leb -- me Ot -- ce i Sy -- na i Du -- cha Sva -- té -- ho._*
+    Chval -- me ho na -- vě -- ky.
+    \Verse Je -- di -- né -- mu Bo -- hu čest a slá -- va._*
+    \Response Chval -- me ho na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g( f) f \barMin f g f g \mark\sipka g( a) a( g) \barMax
+    f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g \barMin g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ve -- leb -- me Ot -- ce i Sy -- na i Du -- cha Sva -- té -- ho._*
+    Chval -- me ho na -- vě -- ky.
+    \Verse Je -- di -- né -- mu Bo -- hu čest a slá -- va._*
+    \Response Chval -- me ho na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka g f g g( f) f \barMin f g f g g( a) a( g) \barMax
     f( d) f g g f f \barFinalis
     % V
     \neviditelna a
