@@ -243,7 +243,7 @@
   }
   \addlyrics {
     O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
-    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+    klaň -- me se Kris -- tu, je -- jí -- mu Sy -- nu!
 
     A -- le -- lu -- ja.
   }
@@ -544,7 +544,7 @@
   \addlyrics {
     \Response Bůh si ji vy -- vo -- lil od pra -- dáv -- na;
     od vě -- ků měl s_ní své plá -- ny._* \textRespAleluja
-    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek;_*
+    \Verse U -- či -- nil si v_ní svůj pří -- by -- tek._*
     \Response \textRespAleluja
     \textRespDoxologie
   }

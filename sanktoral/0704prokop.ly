@@ -130,7 +130,7 @@
   }
   \addlyrics {
     Od rá -- na se ce -- lým srd -- cem
-    o -- bra -- cí k_Bo -- hu, své -- mu Stvo -- ři -- te -- li,
+    o -- bra -- cí k_Bo -- hu, své -- mu stvo -- ři -- te -- li,
     k_Nej -- vyš -- ší -- mu zdvi -- há svou du -- ši,
     k_mod -- lit -- bě o -- tví -- rá svá ús -- ta.
   }

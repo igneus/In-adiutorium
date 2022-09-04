@@ -373,7 +373,7 @@
   \addlyrics {
     Slá -- vu, kte -- rou jsi, Ot -- če, dal mně,
     dal jsem já jim,
-    a -- by by -- li jed -- no, ja -- ko my jsme jed -- no;
+    a -- by by -- li jed -- no, ja -- ko my jsme jed -- no:
     já v_nich a ty ve mně,
     tak ať i o -- ni jsou v_do -- ko -- na -- lé jed -- no -- tě.
     A -- le -- lu -- ja.

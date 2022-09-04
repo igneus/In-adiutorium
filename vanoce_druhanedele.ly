@@ -42,7 +42,7 @@
     g a g( f e) e \barFinalis
   }
   \addlyrics {
-    Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
+    Ple -- sej -- te s_Je -- ru -- za -- lé -- mem;
     Hos -- po -- din ho za -- pla -- vil bla -- hem
     ja -- ko ře -- kou.
   }
@@ -67,7 +67,7 @@
   }
   \addlyrics {
     Na -- ro -- dil se nám ten,
-    kte -- rý je věč -- ný,
+    kte -- rý je Věč -- ný,
     Bůh z_Bo -- ha,
     Svět -- lo ze Svět -- la.
   }
@@ -232,7 +232,7 @@
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
-    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží Slo -- vo,
 
     a to se v_je -- jím čis -- tém tě -- le
     sta -- lo člo -- vě -- kem;
@@ -307,7 +307,7 @@
     f g g g \barFinalis
   }
   \addlyrics {
-    Na -- ro -- dil se nám Král krá -- lů,
+    Na -- ro -- dil se nám král krá -- lů,
     Kris -- tus Pán:
     při -- šla k_nám spá -- sa svě -- ta,
     na -- še vy -- kou -- pe -- ní.

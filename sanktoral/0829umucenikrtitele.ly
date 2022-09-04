@@ -249,7 +249,7 @@
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Jan ře -- kl: já ne -- jsem Me -- si -- áš,_*
+    \Response Jan ře -- kl: Já ne -- jsem Me -- si -- áš,_*
     jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.
     \Verse On mu -- sí růst, já však se men -- šit,_*
     \Response jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.

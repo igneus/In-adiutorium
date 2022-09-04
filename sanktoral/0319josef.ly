@@ -24,7 +24,7 @@
     a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
-    Ja -- kub byl O -- tec Jo -- se -- fa,
+    Ja -- kub byl o -- tec Jo -- se -- fa,
     mu -- že Ma -- ri -- e,
     z_kte -- ré se na -- ro -- dil Je -- žíš,
     na -- zý -- va -- ný Kris -- tus.

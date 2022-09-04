@@ -309,7 +309,7 @@
     f g( a) g g \barFinalis
   }
   \addlyrics {
-    Ve -- leb -- te Krá -- le krá -- lů
+    Ve -- leb -- te Krá -- le Krá -- lů
     a zpí -- vej -- te Bo -- hu chva -- lo -- zpěv.
     A -- le -- lu -- ja.
   }

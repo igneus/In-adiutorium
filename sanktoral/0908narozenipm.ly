@@ -22,7 +22,7 @@
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- ro -- ze -- ní Pan -- ny Ma -- ri -- e;
-    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+    klaň -- me se Kris -- tu, je -- jí -- mu Sy -- nu!
   }
   \header {
     quid = "ant."
@@ -298,7 +298,7 @@
   }
   \addlyrics {
     Bůh shlé -- dl na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci
-    a vy -- vo -- lil ji za mat -- ku své -- ho Sy -- na;
+    a vy -- vo -- lil ji za Mat -- ku své -- ho Sy -- na;
     pro -- to dnes sla -- ví -- me je -- jí na -- ro -- ze -- ní.
   }
   \header {

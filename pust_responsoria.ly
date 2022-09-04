@@ -132,10 +132,10 @@
     a4 a a g a c a \barMin b c a g f g \barFinalis
   }
   \addlyrics {
-    \Response Vo -- lám k_to -- bě, Bo -- že,
+    \Response Vo -- lám k_to -- bě, Bo -- že,_*
     smi -- luj se na -- de mnou.
 
-    \Verse U -- zdrav mě, zhře -- šil jsem pro -- ti to -- bě,
+    \Verse U -- zdrav mě, zhře -- šil jsem pro -- ti to -- bě,_*
     \Response smi -- luj se na -- de mnou.
 
     \textRespDoxologie

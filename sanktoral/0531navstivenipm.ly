@@ -27,7 +27,7 @@
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- vští -- ve -- ní Pan -- ny Ma -- ri -- e;
-    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+    klaň -- me se Kris -- tu, je -- jí -- mu Sy -- nu!
 
     A -- le -- lu -- ja.
   }

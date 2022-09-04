@@ -660,7 +660,7 @@
   \addlyrics {
     Ne -- boj se, Ma -- ri -- a,
     ne -- boť jsi na -- lez -- la mi -- lost u Bo -- ha.
-    Poč -- neš a po -- ro -- díš sy -- na
+    Poč -- neš a po -- ro -- díš Sy -- na
     a bu -- de na -- zván Sy -- nem Nej -- vyš -- ší -- ho.
 
     A -- le -- lu -- ja.
@@ -687,7 +687,7 @@
     g^\markup\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
-    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    Jsem slu -- žeb -- ni -- ce Pá -- ně;
     ať se mi sta -- ne
     po -- dle tvé -- ho slo -- va.
 

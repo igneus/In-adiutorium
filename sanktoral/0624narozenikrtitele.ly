@@ -50,7 +50,7 @@
     Ne -- plod -- ná do -- sta -- la
     ve svém stá -- ří sy -- na:
     na -- ro -- dil se Jan,
-    Před -- chůd -- ce Pá -- ně.
+    před -- chůd -- ce Pá -- ně.
   }
   \header {
     quid = "2. ant."

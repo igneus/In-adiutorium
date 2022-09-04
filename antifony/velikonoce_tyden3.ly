@@ -39,7 +39,7 @@
     a g f( g) g \barFinalis
   }
   \addlyrics {
-    Roz -- vá -- zal jsi mo -- je pou -- ta, Hos -- po -- di -- ne,
+    Roz -- vá -- zal jsi mo -- je pou -- ta, Hos -- po -- di -- ne;
     při -- ne -- su ti o -- běť dí -- ků.
     A -- le -- lu -- ja.
   }

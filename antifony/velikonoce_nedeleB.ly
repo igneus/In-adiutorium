@@ -157,6 +157,8 @@
     A -- le -- lu -- ja!
   }
   \header {
+    textus_approbatus = "Mám také jiné ovce, které nejsou z tohoto ovčince.
+    Také ty musím přivést; a uposlechnou mého hlasu a bude jen jedno stádce, jeden pastýř. Aleluja!"
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"

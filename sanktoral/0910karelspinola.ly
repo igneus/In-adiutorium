@@ -20,7 +20,7 @@
     g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
   }
   \addlyrics {
-    By -- la mi dá -- na mi -- lost:
+    By -- la mi dá -- na mi -- lost
     zvěs -- to -- vat po -- ha -- nům
     ne -- vy -- sti -- ži -- tel -- né Kris -- to -- vo bo -- hat -- ství.
   }

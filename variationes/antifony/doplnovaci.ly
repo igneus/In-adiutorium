@@ -373,6 +373,11 @@
 
 \pageBreak
 
+\markup\justify{
+  Ve čtyřsvazkovém vydání je po \italic{lidu} čárka,
+  v diurnálu (včetně vydání 2007) chybí.
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy

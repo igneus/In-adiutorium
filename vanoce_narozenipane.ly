@@ -97,9 +97,9 @@
       \respVIdoxologie \barFinalis
     }
     \addlyrics {
-      \Response Dnes po -- zná -- te, že při -- jde Pán_*
+      \Response Dnes po -- zná -- te, že při -- jde Pán,_*
       a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
-      \Verse On sám při -- jde a spa -- sí vás_*
+      \Verse On sám při -- jde a spa -- sí vás,_*
       \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
       \textRespDoxologie
     }
@@ -697,7 +697,7 @@
       f f g a g g \barFinalis
     }
     \addlyrics {
-      Ja -- kub byl O -- tec Jo -- se -- fa,
+      Ja -- kub byl o -- tec Jo -- se -- fa,
       mu -- že Ma -- ri -- e,
       z_kte -- ré se na -- ro -- dil Je -- žíš,
       na -- zý -- va -- ný Kris -- tus.
@@ -982,7 +982,7 @@
     \addlyrics {
       O -- prav -- du,_*
       ty jsi Bůh skry -- tý,
-      Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+      Bůh Iz -- ra -- e -- le, spa -- si -- tel.
     }
     \header {
       quid = "ant. ke kantikům vigilie"
@@ -1562,7 +1562,7 @@
     }
     \addlyrics {
       Syn Bo -- ží se stal člo -- vě -- kem
-      a na -- ro -- dil se z_Pan -- ny Ma -- ri -- e;
+      a na -- ro -- dil se z_Pan -- ny Ma -- ri -- e,
       při -- šel z_ne -- be na svět,
       a -- by lid -- stvo pro -- pad -- lé hří -- chu
       po -- vo -- lal zpět
@@ -1841,7 +1841,7 @@
       Po -- di -- vu -- hod -- ná zá -- mě -- na:
       Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
       a na -- ro -- dil se z_pan -- ny;
-      při -- jal  ú -- čast na na -- šem lid -- ství
+      při -- jal  ú -- čast na na -- šem lid -- ství,
       a nám dal ú -- čast
       na svém bož -- ství.
     }
@@ -1900,8 +1900,8 @@
       je nám,
       Ro -- dič -- ko Bo -- ží,
       zna -- me -- ním tvé -- ho
-      slav -- né -- ho, ne -- po -- ru -- še -- né -- ho pa -- nen -- ství.
-      Při -- mlou -- vej se za nás.
+      slav -- né -- ho, ne -- po -- ru -- še -- né -- ho pa -- nen -- ství:
+      Při -- mlou -- vej se za nás!
     }
     \header {
       quid = "3. ant."

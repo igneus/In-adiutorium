@@ -38,7 +38,7 @@
   \addlyrics {
     O -- prav -- du,_*
     ty jsi Bůh skry -- tý,
-    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    Bůh Iz -- ra -- e -- le, spa -- si -- tel.
     A -- le -- lu -- ja.
   }
   \header {

@@ -282,7 +282,7 @@
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
     mě -- li ú -- čast na slá -- vě
-    pro -- mě -- ně -- né -- ho Pá -- na;
+    pro -- mě -- ně -- né -- ho Pá -- na:
     sly -- še -- li Ot -- co -- vo svě -- dec -- tví
     a mlu -- vi -- li o smr -- ti,
     kte -- rou měl Je -- žíš pod -- stou -- pit.

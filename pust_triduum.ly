@@ -170,7 +170,7 @@
     po -- zem -- ští krá -- lo -- vé
     a vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
     pro -- ti Hos -- po -- di -- nu
-    a je -- ho po -- ma -- za -- né -- mu.
+    a je -- ho Po -- ma -- za -- né -- mu.
   }
   \header {
     quid = "1. ant."
@@ -949,7 +949,7 @@
     Ny -- ní je o -- sla -- ven_*
     Syn člo -- vě -- ka
     a Bůh
-    je o -- sla -- ven v_něm;
+    je o -- sla -- ven v_něm,
     a zje -- ví se na něm
     Bo -- ží slá -- va.
   }

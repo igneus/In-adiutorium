@@ -246,7 +246,7 @@
     a b g a( c d) c a g a a \barFinalis
   }
   \addlyrics {
-    Buď věr -- ný až do smr -- ti,
+    Buď věr -- ný až do smr -- ti
     a dám ti ko -- ru -- nu ži -- vo -- ta.
   }
   \header {

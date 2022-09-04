@@ -60,7 +60,7 @@
     g a f e f d d \barFinalis
   }
   \addlyrics {
-    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    Po -- sled -- ní bu -- dou prv -- ní -- mi,
     a prv -- ní po -- sled -- ní -- mi.
   }
   \header {

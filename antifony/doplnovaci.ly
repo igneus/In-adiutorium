@@ -118,7 +118,7 @@
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
-    ko -- lem své -- ho li -- du
+    ko -- lem své -- ho li -- du,
     ny -- ní i na -- vě -- ky.
   }
   \header {
@@ -162,7 +162,7 @@
     g a( bes a) g f d( f) e( d) \barFinalis
   }
   \addlyrics {
-    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
+    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům
     a chraň na -- še měs -- to.
   }
   \header {

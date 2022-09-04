@@ -240,7 +240,7 @@
     g a( bes a) g f d( f) e( d) \barFinalis
   }
   \addlyrics {
-    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům,
+    Zbu -- duj nám, Hos -- po -- di -- ne, náš dům
     a chraň na -- še měs -- to.
   }
   \header {

@@ -64,7 +64,7 @@ velikTIstredaNespAntIII = \score {
     f a g g \barFinalis
   }
   \addlyrics {
-    Všech -- no po -- chá -- zí_* od te -- be, Bo -- že;
+    Všech -- no po -- chá -- zí_* od te -- be, Bo -- že:
     v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
     to -- bě buď slá -- va na -- vě -- ky.
     A -- le -- lu -- ja.

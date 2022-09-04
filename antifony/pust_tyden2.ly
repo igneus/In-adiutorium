@@ -268,7 +268,7 @@
     g a g f f \barFinalis
   }
   \addlyrics {
-    Je -- nom je -- den je váš u -- či -- tel_–
+    Je -- nom je -- den je váš U -- či -- tel_–
     Kris -- tus Pán_–
     a ten je v_ne -- bi.
   }

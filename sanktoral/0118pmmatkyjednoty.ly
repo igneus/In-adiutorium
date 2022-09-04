@@ -139,7 +139,7 @@
     Všich -- ni jed -- no -- my -- sl -- ně
     se -- tr -- vá -- va -- li v_mod -- lit -- bách
     spo -- lu se že -- na -- mi,
-    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í
+    s_Je -- ží -- šo -- vou Mat -- kou Ma -- ri -- í
     a s_je -- ho pří -- buz -- ný -- mi.
   }
   \header {

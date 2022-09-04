@@ -53,7 +53,7 @@
     g f e c( d) d \barFinalis
   }
   \addlyrics {
-    Zdrá -- vas, Ma -- ri -- a,
+    Zdrá -- vas Ma -- ri -- a,
     mi -- los -- ti -- pl -- ná,
     Pán s_te -- bou,
 

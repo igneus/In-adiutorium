@@ -757,7 +757,7 @@
   \addlyrics {
     \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
     o Hos -- po -- di -- no -- vých či -- nech,
-    o -- sla -- vuj -- te je -- ho jmé -- no.* \textRespAleluja
+    o -- sla -- vuj -- te je -- ho jmé -- no._* \textRespAleluja
     \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
     \Response \textRespAleluja
     \textRespDoxologie

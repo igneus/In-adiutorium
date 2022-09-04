@@ -427,7 +427,7 @@
     b c a a \barFinalis
   }
   \addlyrics {
-    Roz -- množ v_nás, Pa -- ne, svou ví -- ru,
+    Roz -- množ v_nás, Pa -- ne, svou ví -- ru
     a o -- svěť nás
     svět -- lem Du -- cha sva -- té -- ho.
     A -- le -- lu -- ja.

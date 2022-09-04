@@ -183,7 +183,7 @@
     f g a g f d e d \barFinalis
   }
   \addlyrics {
-    Spo -- lé -- hal jsem na Hos -- po -- di -- na
+    Spo -- lé -- hal jsem na Hos -- po -- di -- na,
     a pro -- to jsem ne -- vrá -- vo -- ral.
   }
   \header {

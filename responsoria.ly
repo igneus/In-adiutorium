@@ -122,10 +122,10 @@ doxologieResponsoriumVI = \relative c'' {
       \doxologieResponsoriumVI
     }
     \addlyrics {
-      \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
-      vše -- chno jsi mou -- dře u -- či -- nil.
-      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,_*
-      \Response vše -- chno jsi mou -- dře u -- či -- nil.
+      \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne!_*
+      Vše -- chno jsi mou -- dře u -- či -- nil.
+      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva._*
+      \Response Vše -- chno jsi mou -- dře u -- či -- nil.
       \textRespDoxologie
     }
     \header {
@@ -477,7 +477,7 @@ doxologieResponsoriumVI = \relative c'' {
       \doxologieResponsoriumVI
     }
     \addlyrics {
-      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
+      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti,_*
       vždyť v_te -- be dou -- fám.
       \Verse U -- kaž mi ces -- tu, po níž mám krá -- čet,_*
       \Response vždyť v_te -- be dou -- fám.
@@ -715,7 +715,7 @@ doxologieResponsoriumVI = \relative c'' {
     \addlyrics {
       \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
       ja -- ko vů -- ně ka -- did -- la.
-      \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť_*
+      \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť,_*
       \Response ja -- ko vů -- ně ka -- did -- la.
       \textRespDoxologie
     }

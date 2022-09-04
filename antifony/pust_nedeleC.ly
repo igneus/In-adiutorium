@@ -310,14 +310,14 @@
     je i tvo -- je.
 
     A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
-    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev, a za -- se ži -- je,
     byl ztra -- cen, a je za -- se na -- le -- zen.
   }
   \header {
     textus_approbatus = "Dítě, ty jsi pořád se mnou
     a všechno, co je moje, je i tvoje.
     Ale máme proč se veselit a radovat,
-    protože tento tvůj bratr byl mrtev a zase žije,
+    protože tento tvůj bratr byl mrtev, a zase žije,
     byl ztracen, a je zase nalezen."
     quid = "ant. k Magnificat"
     modus = "II"

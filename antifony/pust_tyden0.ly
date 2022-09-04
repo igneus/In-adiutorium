@@ -158,7 +158,7 @@
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
-    kde je a -- ni mol,
+    kde je a -- ni mol
     a -- ni rez ne -- ka -- zí.
   }
   \header {

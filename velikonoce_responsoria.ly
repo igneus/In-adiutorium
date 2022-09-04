@@ -68,7 +68,7 @@
   \addlyrics {
     \Response Pán sku -- teč -- ně vstal._*
     \textRespAleluja
-    \Verse Zje -- vil se Ši -- mo -- no -- vi.
+    \Verse Zje -- vil se Ši -- mo -- no -- vi._*
     \Response \textRespAleluja
     \textRespDoxologie
   }

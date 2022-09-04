@@ -46,7 +46,7 @@
   \addlyrics {
     Vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
     pro -- ti Hos -- po -- di -- nu
-    a je -- ho po -- ma -- za -- né -- mu.
+    a je -- ho Po -- ma -- za -- né -- mu.
   }
   \header {
     quid = "1. ant."

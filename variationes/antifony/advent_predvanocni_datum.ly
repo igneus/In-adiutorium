@@ -1187,6 +1187,11 @@ podobně.}
 
 \markup\nadpisSkupiny "O clavis David"
 
+\markup\justify{
+  Po \italic{neotevře} je ve čtyřsvazkovém vydání středník,
+  v jednosvazkovém dvojtečka.
+}
+
 \score {
   \relative c' {
     \choralniRezim

@@ -361,7 +361,7 @@
     d d( c b) a g g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Kris -- tus je krá -- lem ce -- lé -- ho svě -- ta
+    Kris -- tus je Krá -- lem ce -- lé -- ho svě -- ta
     a pů -- vod -- cem po -- ko -- je.
   }
   \header {

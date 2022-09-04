@@ -88,7 +88,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \addlyrics {
     Slá -- va a čest je -- di -- né -- mu Bo -- hu:
-    Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
+    Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu!
   }
   \header {
     quid = "3. ant."

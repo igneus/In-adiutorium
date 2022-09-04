@@ -22,7 +22,7 @@
     Pán nás mi -- lo -- val věč -- nou lás -- kou;
     smi -- lo -- val se nad ná -- mi,
     a když byl vy -- vý -- šen na kříž,
-    táh -- ne nás k_své -- mu srd -- ci.
+    táh -- ne nás k_své -- mu Srd -- ci.
   }
   \header {
     quid = "1. ant."
@@ -464,7 +464,7 @@
     g g( a g) f e( d) \barMin e f e d( e d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din je mi -- lo -- srd -- ný a do -- bro -- ti -- vý;
+    Hos -- po -- din je mi -- lo -- srd -- ný a do -- bro -- ti -- vý:
     dal po -- krm těm, kdo se ho bo -- jí.
   }
   \header {

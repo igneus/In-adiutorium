@@ -122,7 +122,7 @@
   \addlyrics {
     Své -- mu mi -- lo -- va -- né -- mu u -- čed -- ní -- ku Ja -- no -- vi
     svě -- řil Kris -- tus na kří -- ži
-    do o -- chra -- ny svou mat -- ku.
+    do o -- chra -- ny svou Mat -- ku.
   }
   \header {
     quid = "2. ant."

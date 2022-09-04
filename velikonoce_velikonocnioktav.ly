@@ -68,7 +68,7 @@
     f g( a) g4. g \barFinalis
   }
   \addlyrics {
-    Náš Vy -- ku -- pi -- tel_* vstal z_hro -- bu,
+    Náš Vy -- ku -- pi -- tel_* vstal z_hro -- bu:
     za -- pěj -- me chva -- lo -- zpěv
     Pá -- nu, na -- še -- mu Bo -- hu.
     A -- le -- lu -- ja.
@@ -220,7 +220,7 @@
   }
   \addlyrics {
     Ma -- ri -- e Mag -- dal -- ská_* a dru -- há Ma -- ri -- e
-    při -- šly ke hro -- bu, tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
+    při -- šly ke hro -- bu; tě -- lo Pá -- na Je -- ží -- še však ne -- na -- šly.
     A -- le -- lu -- ja.
   }
   \header {
@@ -1221,7 +1221,7 @@
     \addlyrics {
       Po -- hleď na mé jiz -- vy_*
       a do -- tkni se jich,
-      ne -- po -- chy -- buj a věř.
+      ne -- po -- chy -- buj, a věř.
       A -- le -- lu -- ja.
     }
     \header {

@@ -36,7 +36,7 @@
   \addlyrics {
     \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
     a vy -- kou -- pil svůj lid.
-    \Verse Vzbu -- dil nám moc -- né -- ho Spa -- si -- te -- le
+    \Verse Vzbu -- dil nám moc -- né -- ho spa -- si -- te -- le
     z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
     \Response a vy -- kou -- pil svůj lid.
     \textRespDoxologie
@@ -60,7 +60,7 @@
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din, Bůh Iz -- ra -- e -- le!
-    Vzbu -- dil nám moc -- né -- ho Spa -- si -- te -- le
+    Vzbu -- dil nám moc -- né -- ho spa -- si -- te -- le
     z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da.
   }
   \header {

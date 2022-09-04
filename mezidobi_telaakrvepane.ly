@@ -153,7 +153,7 @@
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
-    on je chléb ži -- vo -- ta.
+    on je Chléb ži -- vo -- ta.
   }
   \header {
     quid = "ant."

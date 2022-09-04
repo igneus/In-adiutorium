@@ -54,7 +54,7 @@
     g f e e( f d) c d d \barFinalis
   }
   \addlyrics {
-    Dá -- vám svůj ži -- vot
+    Dá -- vám svůj ži -- vot,
     a za -- se ho při -- jmu na -- zpá -- tek;
     ni -- kdo mi ho ne -- mů -- že vzít,
     dá -- vám ho sám od se -- be.

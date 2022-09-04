@@ -108,7 +108,7 @@
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Ře -- kl jsem: dám si po -- zor na své cho -- vá -- ní,_*
+    \Response Ře -- kl jsem: Dám si po -- zor na své cho -- vá -- ní,_*
     a -- bych ne -- zhře -- šil svým ja -- zy -- kem.
     \Verse Bu -- du dr -- žet na uz -- dě svá ús -- ta,_*
     \Response a -- bych ne -- zhře -- šil svým ja -- zy -- kem.
@@ -143,7 +143,7 @@
     \respVIalelujaDoxologie \barFinalis
   }
   \addlyrics {
-    \Response Ře -- kl jsem: dám si po -- zor na své cho -- vá -- ní,
+    \Response Ře -- kl jsem: Dám si po -- zor na své cho -- vá -- ní,
     a -- bych ne -- zhře -- šil svým ja -- zy -- kem._* \textRespAleluja
     \Verse Bu -- du dr -- žet na uz -- dě svá ús -- ta,_*
     \Response \textRespAleluja
