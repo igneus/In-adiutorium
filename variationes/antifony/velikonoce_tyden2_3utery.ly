@@ -58,7 +58,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a) g c( a) g( a g) g \barMaior
     g( a c) c d( c) d d( e c) a a4.( g) \barMaior
@@ -75,6 +75,64 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 43"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\wordwrap{
+  Až se zpožděním po napsání varianty níže mi došlo, že podobná melodie už v korpusu je:
+  "antifony/velikonoce_tyden1_3utery.ly#rch-a1"
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( a) f( g f) f \barMin
+    f g a( c) c c( d) c c \barMaior
+    c4 c( d c a) a \barMin
+    g a g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Smí -- me při -- stou -- pit
+    k_Bo -- ží ho -- ře Si -- ó -- nu
+    a k_měs -- tu
+    ži -- vé -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 43"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( a) f( g f) f \barMin
+    f g a( c) c c( d) c c \barMaior
+    c4 c( d c a) a \barMin
+    g a g f f \barMaior
+    g \mark\sipka g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Smí -- me při -- stou -- pit
+    k_Bo -- ží ho -- ře Si -- ó -- nu
+    a k_měs -- tu
+    ži -- vé -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 43"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -108,11 +166,122 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d( g) f e f( d) d( c) c \barMaior
     \mark\sipka bes c d f( e d4.) d \barMaior
     d4 e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( g) f e f( d) d( c) c \barMaior
+    bes c d f( e d4.) d \barMaior
+    \mark\sipka e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d d( e) e \barMin
+    e f d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d d( e) e \barMin
+    \mark\sipka e( f d) d( c) d f( e d4.) d \barMaior
+    e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f f e d e( d) c \barMin
+    d c d f( e d4.) d \barMaior
+    e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d e( d) c \barMin
+    \mark\sipka a c d d( e d) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
@@ -227,7 +396,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d \barMin
     e f g f f( g) g \barMaior
@@ -245,6 +414,81 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d
+    f g a f f( g) g \barMaior
+    g a a g f e( f) d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin
+    f g a f f( g) g \barMaior
+    g a a g f e( f) \mark\sipka d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c) c( d) \barMin
+    f f g a f( d) d \barMaior
+    f g a a a bes( a) g( bes) a \barMin
+    g f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 65"
+    fial = "antifony/tyden2_4streda.ly#rch-ant1?jiny text"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

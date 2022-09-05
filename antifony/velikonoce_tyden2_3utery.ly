@@ -8,22 +8,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( a) g c( a) g( a g) g \barMaior
-    g( a c) c d( c) d d( e c) a a4.( g) \barMaior
-    c4 d( c a) a \barMin b( c) a g a( g) g \barMaior
-    f g( a) g g \barFinalis
+    c4 c c( a) f( g f) f \barMin
+    f g a( c) c c( d) c c \barMaior
+    c4 c( d c a) a \barMin
+    g a g f f \barMaior
+    g g( a) f f \barFinalis
   }
   \addlyrics {
     Smí -- me při -- stou -- pit
     k_Bo -- ží ho -- ře Si -- ó -- nu
-    a k_měs -- tu ži -- vé -- ho Bo -- ha.
+    a k_měs -- tu
+    ži -- vé -- ho Bo -- ha.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "c"
-
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 43"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -33,9 +34,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d d( g) f e f( d) d( c) c \barMaior
-    bes c d f( e d4.) d \barMaior
-    d4 e c( d) d \barFinalis
+    d4 c d f f e d e( d) c \barMin
+    d c d f( e d4.) d \barMaior
+    e4 f d( c) d \barFinalis
   }
   \addlyrics {
     Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
@@ -56,9 +57,9 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin
-    e f g f f( g) g \barMaior
-    g a f e c e( f) d d \barMin
-    e f d d \barFinalis
+    f g a f f( g) g \barMaior
+    g a a g f e( f) d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že,
