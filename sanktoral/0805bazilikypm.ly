@@ -17,10 +17,10 @@
     \choralniRezim
     c4 a c b g( a) g g \barMin
     g f g a a \barMaior
-    a( c d) d( c) a a \barMin
-    a b c a g g \barMaior
-    g f g a a g( a) \barMin
-    a c b g g \barFinalis
+    c( d) c( b) a a \barMin
+    a c b a g g \barMaior
+    g f g g( a) a \barMin
+    a a c b g g \barFinalis
   }
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,

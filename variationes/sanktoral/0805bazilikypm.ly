@@ -167,7 +167,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c b g( a) g g \barMin
     g f g a a \barMaior
@@ -188,6 +188,122 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    placet = "špatně drží pohromadě"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c b g( a) g g \barMin
+    g f g a a \barMaior
+    \mark\sipka c( d) c( b) a a \barMin
+    a \mark\sipka c b a g g \barMaior
+    g f g \mark\sipka g( a) a \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g f g g a a \barMin
+    c b g a a \barMaior
+    c( d) \mark\sipka d( c) a a \barMin
+    a c b a g g \barMaior
+    g f g g( a) a \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 4
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f f g g \barMin
+    a b a g g \barMaior
+    c c c( d) c \barMin
+    c a c b a g \barMaior
+    g f g g( a) a \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g c a \barMin
+    b c a g g \barMaior
+    a a g( a) g \barMin
+    g f g g a a \barMaior
+    a c( d) c( b) a a \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
