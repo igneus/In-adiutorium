@@ -2553,13 +2553,55 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
-  \pageBreak
-
   \score {
     \relative c' {
       \choralniRezim
+      d4 d \barMin
+      f e d c d c \barMin
+      d e f d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      ať se ti s_ra -- dos -- tí
+      ko -- ří ce -- lá ze -- mě.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-I"
+      id = "krtu-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacSedy
+      \choralniRezim
       d4 f e d c \barMin
       d d d f g f d d \barFinalis
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "krtu-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 f e d c \barMin
+      d \mark\sipka c d f g f d d \barFinalis
     }
     \addlyrics {
       Bůh buď ve -- le -- ben,

@@ -1139,7 +1139,7 @@
     \relative c' {
       \choralniRezim
       d4 f e d c \barMin
-      d d d f g f d d \barFinalis
+      d c d f g f d d \barFinalis
     }
     \addlyrics {
       Bůh buď ve -- le -- ben,
