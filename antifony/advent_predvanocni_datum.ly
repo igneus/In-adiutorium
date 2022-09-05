@@ -539,7 +539,7 @@
     Na -- pl -- nil se čas,
     kdy mě -- la Pan -- na Ma -- ri -- a
     po -- ro -- dit své -- ho
-    pr -- vo -- ro -- ze -- né -- ho sy -- na.
+    pr -- vo -- ro -- ze -- né -- ho Sy -- na.
   }
   \header {
     quid = "ant. k Benedictus"
