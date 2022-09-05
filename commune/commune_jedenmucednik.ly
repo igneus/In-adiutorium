@@ -395,14 +395,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) a( g a) \barMin a b c b a b( g) g \barMaior
-    f g( a) g( f e) e \barMin e e( f) d d( f) e( f) e \barFinalis
+    e4 f f e d c d d( e) e \barMaior
+    e g g( a) a \barMin
+    a g( a) g f e e \barFinalis
 
-    g^\markup\rubrVelikAleluja f e( f) e \barFinalis
+    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
   }
   \addlyrics {
     Mé rty tě bu -- dou chvá -- lit, Bo -- že,
-    vždyť tvá mi -- lost je lep -- ší než ži -- vot.
+    vždyť tvá mi -- lost
+    je lep -- ší než ži -- vot.
 
     A -- le -- lu -- ja.
   }
@@ -411,7 +413,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 63"
-    placet = "lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -447,7 +448,7 @@
     a4 a( d) c c( d) \barMaior
     e d c d c( b a) \barMin b g a a \barFinalis
 
-    b4^\markup\small\italic{V době velikonoční:} c a( g) a \barFinalis
+    b4^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     Kdo zví -- tě -- zí,
@@ -457,8 +458,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}

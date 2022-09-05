@@ -693,10 +693,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) a( g a) \barMin a b c b a b( g) g \barMaior
     f g( a) g( f e) e \barMin e e( f) d d( f) e( f) e \barFinalis
@@ -706,6 +709,33 @@
   \addlyrics {
     Mé rty tě bu -- dou chvá -- lit, Bo -- že,
     vždyť tvá mi -- lost je lep -- ší než ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 f f e d c d d( e) e \barMaior
+    e g g( a) a \barMin
+    a g( a) g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mé rty tě bu -- dou chvá -- lit, Bo -- že,
+    vždyť tvá mi -- lost
+    je lep -- ší než ži -- vot.
 
     A -- le -- lu -- ja.
   }
@@ -801,7 +831,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d) c c( d) \barMaior
     e d c d c( b a) \barMin b g a a \barFinalis
@@ -818,6 +848,83 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen zapomenutý modus zkopírovaný z původní verze nahrazen tím, který odpovídá nápěvu.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( d) c c( d) \barMaior
+    e d c d c( b a) \barMin b g a a \barFinalis
+
+    b4^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,
+    bu -- de ja -- ko sloup v_Bo -- žím chrá -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a( c) c \barMaior
+    d e d c d( c) \barMin b c a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,
+    bu -- de ja -- ko sloup v_Bo -- žím chrá -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 g( a) c( d) d \barMaior
+    e d c d d( c) \barMin a( g) a c( b a4.) a \barFinalis
+
+    b4^\markup\rubrVelikAleluja g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,
+    bu -- de ja -- ko sloup v_Bo -- žím chrá -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
