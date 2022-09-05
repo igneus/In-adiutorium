@@ -19,7 +19,7 @@
     \key f \major
     d4( a') a \barMin g( a) bes c bes( a) a \barMin
     bes( a) g a g f( e) e \barMaior
-    f g a a( bes) a a g f g( f) e e \barMin
+    f g a a( bes) a a g f g f e \barMin
     f( g) f d d \barFinalis
   }
   \addlyrics {
@@ -33,7 +33,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_trpěla_ určitě lépe"
     id = "invit"
     fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -143,7 +142,7 @@
   \relative c'' {
     \choralniRezim
     c4( b c) c( d) d \barMin
-    c4 b a a( g) g \barMaior
+    d c b a( g) g \barMaior
     f g a a( c) b b( c) c \barMin
     d d a c b \barMax
 
@@ -161,7 +160,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    placet = "odsazené _bolestná_ je nepřirozené"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}

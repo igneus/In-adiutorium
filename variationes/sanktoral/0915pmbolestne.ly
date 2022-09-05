@@ -15,6 +15,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a') a \barMin g( a) bes c bes( a) a \barMin
@@ -39,6 +40,35 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a') a \barMin g( a) bes c bes( a) a \barMin
+    bes( a) g a g f( e) e \barMaior
+    f g a a( bes) a a g f \mark\sipka g f e \barMin
+    f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    Spa -- si -- te -- li svě -- ta;
+    pod je -- ho kří -- žem
+    spo -- lu s_ním tr -- pě -- la je -- ho Mat -- ka.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    fons = "zejm. 1. část podle invitatoria z Narození sv. Jana Křtitele"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -61,12 +91,36 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
     a4 f g g g( a) a \barMaior
     a c a b g \barMin
     f f f f g f e e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_to -- ho,
+    že má -- me ú -- čast
+    na Kris -- to -- vě u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g g g( a) a \barMaior
+    a c a b g \barMin
+    f \mark\sipka g g g f d e e \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se z_to -- ho,
@@ -166,15 +220,48 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( b c) c( d) d \barMin
     c4 b a a( g) g \barMaior
     f g a a( c) b b( c) c \barMin
     d d a c b \barMax
 
-    c b a c( d e) c( b( a) \barMin
+    c b a c( d e) c( b a) \barMin
+    a( d c) a( g) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    placet = "odsazené _bolestná_ je nepřirozené"
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    \mark\sipka d c b a( g) g \barMaior
+    f g a a( c) b b( c) c \barMin
+    d d a c b \barMax
+
+    c b a c( d e) c( b a) \barMin
     a( d c) a( g) a a( g) g \barFinalis
   }
   \addlyrics {
@@ -193,6 +280,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
