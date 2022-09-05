@@ -360,10 +360,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 c d d( f e) d c \barMin
-      f e f g f d d \barMin d( e) d c( d) d \barFinalis
+      d4 c d d( f e) d( c) c \barMaior
+      f e f g f d d \barMin d( e) c c( d) d \barFinalis
 
-      e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
     }
     \addlyrics {
       Jen ten, kdo mi -- lu -- je,
@@ -387,9 +387,9 @@
     \relative c'' {
       \choralniRezim
       d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
-      f g a a a b( c d) d( c) \barMin a( g) f g( a) a( g) g \barFinalis
+      f g a c b c( d) d( c) \barMin a( g) a a g g \barFinalis
 
-      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Nech -- te dě -- ti při -- chá -- zet ke mně,
