@@ -41,7 +41,7 @@
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f g a g f d e d \barFinalis
 
-    c^\rubrVelikAleluja d e( d) d \barFinalis
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Chraň se zlé -- ho a čiň do -- bré;
@@ -54,7 +54,6 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-II"
-    placet = "aleluja si nejsem jistý"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }

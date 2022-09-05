@@ -187,7 +187,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f \mark\sipka g a g f d e d \barFinalis
@@ -205,6 +205,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 37-II"
+    placet = "aleluja si nejsem jistý"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -236,6 +237,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( a) a \barMin f g g( a) a \barMaior
     a g f g a g f d e d \barFinalis
