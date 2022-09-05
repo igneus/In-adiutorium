@@ -9,7 +9,7 @@
   \relative c' {
     \choralniRezim
     d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
-    f e e( f) d c d d \barFinalis
+    f e e( f) d c d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -33,7 +33,7 @@
     \choralniRezim
     g4( a) c b c c \barMin c( d) e d( c) d \barMaior
     d c( b) a( g a) g \barMin a g f g( a g) g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me,_* měs -- to Bo -- ží,
@@ -46,7 +46,6 @@
     differentia = "a"
     psalmus = "Tob 13"
     id = "rch-a2"
-    placet = "ale závěr je slabší"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -54,19 +53,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a g c b a b \barMaior
-    b c c a g a( g) f \barMin
-    g a g g \barFinalis
+    g4 a a( c) c \barMin
+    d c e d c d \barMaior
+    c d d c b a( g) g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
-    U -- vi -- děl jsem no -- vý Je -- ru -- za -- lém,_*
+    U -- vi -- děl jsem_*
+    no -- vý Je -- ru -- za -- lém,
     jak se -- stu -- pu -- je z_ne -- be.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 147-II"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -79,8 +80,8 @@
   \relative c'' {
     \choralniRezim
     a4 g4.( a) a4( b) g e e \barMaior
-    a a g( e) e g f e d c d d( e) e \barMaior
-    e f( d) d( e) e \barFinalis
+    c d d( e) e f g a g f g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Tak Bůh mi -- lo -- val svět,_*
@@ -94,7 +95,6 @@
     psalmus = "Žalm 145-I"
     id = "ne-a1"
     fial = "antifony/pust_nedeleB.ly#ivben?zacatek"
-    placet = "R - nevyvážená protože vytržená"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -105,7 +105,7 @@
     a4 a g( a) a \barMaior
     a( e) f e d d d f g a g a a \barMaior
     a g( a) a a( b) g g( f e) e \barMaior
-    g g( f) e e \barFinalis
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Krá -- li vě -- ků,_*
