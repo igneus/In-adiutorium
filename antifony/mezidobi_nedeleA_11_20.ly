@@ -56,14 +56,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a f) g \barMin a b( c b) a( g) g a( g f) g( a) g( a) a a \barMin b c d c( b) a( g) g \barMax
-    c c b a b( g) g g \barMin a g f g( a) g g \barFinalis
+    g4( a) a \barMin
+    a a( b c b) a( g) g f g g a a \barMin
+    c d c b( c) a a \barMaior
+    c c b a g( a) g g \barMin
+    f g a a g g \barFinalis
   }
   \addlyrics {
     Jdě -- te
     a hlá -- sej -- te e -- van -- ge -- li -- um
     o Bo -- žim krá -- lov -- ství:
-
     Za -- dar -- mo jste do -- sta -- li,
     za -- dar -- mo dá -- vej -- te.
   }

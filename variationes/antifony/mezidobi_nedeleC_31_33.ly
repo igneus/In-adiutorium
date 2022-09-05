@@ -1,5 +1,6 @@
 \version "2.12.0"
-% -*- master: ../mezidobi_nedele.ly;
+
+\include "../spolecne.ly"
 
 \markup {\nadpisDen {"31. neděle"}}
 
@@ -181,8 +182,34 @@
   }
 }
 
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( c d) c( b) c a a4.( g) \barMin
+    f4 g a a b( a) g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svou du -- ši.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    fial = "commune/commune_apostol.ly#nona?-aleluja"
+    id = "ne33c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g a a \barMin
     a a g f d f g( f) f \barFinalis
