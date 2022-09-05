@@ -15,14 +15,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c( b) c \barMin
-    c c c c c( d) c c c c c b a a \barMin
+    g4 a a( c) c \barMin
+    c c c c c( d) c c a c b a g g \barMin
     a a g f g a a g g \barMaior
-    f g a g a \barMin
-    a c d d( e) d c( b a) \barMin
+    c b c d d( c) \barMin
+    d c c d( e) d c( b a) \barMin
     c b a g a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- den z_mu -- žů,
