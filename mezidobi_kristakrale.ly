@@ -147,7 +147,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c) d \barMin f d d g f e d d \barMaior
+    c4( d) d \barMin f d d g f e d d \barMaior
     c d c b( g a) g \barFinalis
   }
   \addlyrics {
@@ -157,9 +157,8 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = ""
-    placet = "nepřirozená"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

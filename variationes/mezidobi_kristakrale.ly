@@ -705,7 +705,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) d \barMin f d d g f e d d \barMaior
     \mark\sipka c d c b( g a) g \barFinalis
@@ -719,6 +719,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "nepřirozená"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -726,6 +727,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka c4( d) d \barMin f d d g f e d d \barMaior
     c d c b( g a) g \barFinalis
