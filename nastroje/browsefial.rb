@@ -3,7 +3,7 @@
 
 require 'uri'
 
-ADIUTOR_URI = 'http://localhost:3001/chants/fial/'
+ADIUTOR_URI = 'http://localhost:3000/chants/fial/'
 
 def browse_fial(fial)
   uri = ADIUTOR_URI + URI.encode_www_form_component(fial)
