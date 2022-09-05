@@ -667,6 +667,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka c4( d) d \barMin d( f) e d c( d) d \barMaior
+    f g f f e d e c \barMin a c d( e d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d( e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka d( f) f \barMin g( f) e f d( c) c \barMaior
     \mark\sipka d f g f e d c c \barMin a c d( e d) d \barFinalis
 
@@ -681,6 +705,78 @@
   \header {
     quid = "ant."
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin f( g) a f f( g) g \barMaior
+    g a a a g f e( f d) d \barMin e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin f( g) a f f( g) g \barMaior
+    g a a a g f e( f d) d \barMin \mark\sipka c d e( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c( d) d \barMin f( g) a f f( g) g \barMaior
+    g a a \mark\sipka g f e( f) d d \barMin e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "invit1"
@@ -1242,6 +1338,38 @@
     % V
     \neviditelna a
     a a a( bes) a \barMin a a a a g( a) g f( g) g( a) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Měl Bo -- ží zá -- kon ve svém srd -- ci,_*
+    a Bůh dá -- val sí -- lu je -- ho kro -- kům.
+    \Verse Dou -- fal v_Bo -- ha a dr -- žel se je -- ho ces -- ty,_*
+    \Response a Bůh dá -- val sí -- lu je -- ho kro -- kům.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f g( a) a( g) \barMax
+    g g g a g( f) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka g( a) g \barMin g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g a g( f) d f g g( f) f \barFinalis

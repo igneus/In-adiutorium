@@ -212,6 +212,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -240,6 +242,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin \mark\sipka g( a) bes a g g \barMaior
+    g g g f e d( c) d \barFinalis
+
+    c^\markup\rubrVelikAleluja f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král pa -- nen.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup\italic{Nebo:}
 
 \score {
@@ -263,6 +292,85 @@
     quid = "ant."
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin \mark\sipka g( a) bes a g g \barMaior
+    g g g( a g) f( e) d \barMin
+    d c d \mark\sipka f f e c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin a g a f( g f) f \barMaior
+    g g f( e) d( c) c \barMin
+    d c d f g a a g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin a g a f( g f) f \barMaior
+    g \mark\sipka a g( f) d( c) c \barMin
+    d c d f g a a g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -391,6 +499,30 @@
     d d c( b) a a b a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te na -- pro -- ti Kris -- tu Pá -- nu!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c \barMin
+    \mark\sipka a c b( a) g g f a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -699,6 +831,38 @@
     % V
     \neviditelna a
     a4 a a g( a) g f( g) g( a) \barMax
+    % R
+    \neviditelna a
+    f( d) f( g) g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slyš, Hos -- po -- di -- ne, můj hlas,_*
+    hle -- dám tvou tvář.
+    \Verse Mé srd -- ce k_to -- bě mlu -- ví,_*
+    \Response hle -- dám tvou tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g f f f g( a) a( g) \barMax
+    f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a \mark\sipka g f g( a) a( g) \barMax
     % R
     \neviditelna a
     f( d) f( g) g f \barFinalis

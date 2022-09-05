@@ -196,6 +196,8 @@
     }
   }
 
+  \pageBreak
+
   \markup\italic{Nebo:}
 
   \score {
@@ -221,6 +223,32 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 e f g( a) g \mark\sipka \barMin bes a g( a) g \barMaior
+      g g( a) g \mark\sipka f( g) \barMin f g g( a) f f \barFinalis
+
+      \mark\sipka g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+    }
+    \addlyrics {
+      Bůh je můj po -- díl, po němž tou -- žím;
+      je dob -- rý k_těm, kdo ho hle -- da -- jí.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "rehol-aben2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -254,6 +282,8 @@
     }
   }
 
+  \pageBreak
+
   \markup\italic{Nebo:}
 
   \score {
@@ -264,6 +294,58 @@
       a g f a( c) b g g \barFinalis
 
       f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c( d c) c \barMin
+      a b c b a g g \barMin
+      a g f g a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c( d c) c \barMin
+      a b c b a g g \barMin
+      a g f g a a( g) g \barFinalis
+
+      \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
     }
     \addlyrics {
       Bůh žeh -- ná
@@ -513,6 +595,110 @@
       c( a c) g \barMin f g a( c) b g g \barFinalis
 
       g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vych-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a a( g) g \barMaior
+      a( c) c c( d c a) a \barMin c b g( a) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vych-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a \mark\sipka a( c) b \barMaior
+      c c c( d c a) a \barMin c b g( a) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vych-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a a( g) g \barMaior
+      c( d c) c \barMin c b g a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vych-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a a( g) g \barMaior
+      \mark\sipka c( d e d) c( d) \barMin c b g a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce

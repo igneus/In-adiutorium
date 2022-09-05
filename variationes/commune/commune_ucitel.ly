@@ -478,6 +478,44 @@
   }
 }
 
+\markup\justify{
+  Pokud chceme ozdobu před cesurou zjednodušit, v tomhle případě
+  se zdá správné umístit ji na slabiku nepřízvučnou dlouhou.
+  Zní to lépe, než když se položí na vedlejší přízvučnou slabiku _vě_.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka f g f f \barMin f f f f g( a) a( g) \barMax
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g( a) g f g g( f) f \barMin f( d) f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Li -- dé si vy -- prá -- vě -- jí o moud -- ros -- ti sva -- tých,_*
+    je -- jich jmé -- na zůs -- tá -- va -- jí v_ži -- vé pa -- mě -- ti.
+    \Verse Cír -- kev je ne -- přes -- tá -- vá chvá -- lit,_*
+    \Response je -- jich jmé -- na zůs -- tá -- va -- jí v_ži -- vé pa -- mě -- ti.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
@@ -619,6 +657,62 @@
     g( a) f( e) d e( d c) d \barFinalis
 
     \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 \mark\sipka g( a) \barMin a a g a a( bes) a a g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 \mark\sipka a f g g( a) a \barMin a( bes) a a g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
@@ -957,6 +1051,90 @@
     Pe -- tře, % Damiani / Chrysolog / Kanisius
     Va -- vřin -- če, % z Brindisi
     Hi -- la -- ri -- e,
+
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Přeci jen jsem přehlédl pětislabičné jméno:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \bar ";" \neviditelna a
+
+    f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
+    a4( g f) g( a) a \bar ";"
+    a4( g) f g( a) a \bar ";"
+    \mark\sipka a4( g) f g g( a) a \bar ";"
+
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup{\Dagger \Nomen}
+
+    Pe -- tře, % Damiani / Chrysolog / Kanisius
+    Va -- vřin -- če, % z Brindisi
+    Hi -- la -- ri -- e,
+    Bo -- na -- ven -- tu -- ro,
+
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \bar ";" \neviditelna a
+
+    f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
+    a4( g f) g( a) a \bar ";"
+    a4( g) f g( a) a \bar ";"
+    \mark\sipka a4 g f g( a) a \bar ";"
+
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup{\Dagger \Nomen}
+
+    Pe -- tře, % Damiani / Chrysolog / Kanisius
+    Va -- vřin -- če, % z Brindisi
+    Hi -- la -- ri -- e,
+    Bo -- na -- ven -- tu -- ro,
 
     u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
     tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;

@@ -615,6 +615,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f a c \mark\sipka d c c( d) c c \barMin
+    b g a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 \mark\sipka d c b g a g( a g) \barMaior
     f a c c c c( d) c c \barMin
     b \mark\sipka c a a g g \barFinalis
@@ -663,6 +689,31 @@
     differentia = "a"
     psalmus = ""
     placet = "_nejvyšší_ je příliš velký důraz na nepřízvučné slabice"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d c) c \barMin d e c a a \barMin f g a b( c d) d \barMaior
+    c c a( c) b( g a) g \barMin a( g f) a g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -913,6 +964,174 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g f) f \barMin g a f d d \barMin f e d c( d) c \barMaior
+    c d f f( g) g g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a g) f( g) \barMin
+    g f g a( g) g \barMin
+    g f e d4. c \barMaior
+    d4 c d( f) f f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a g) f( g) \barMin
+    g f g a( g) g \barMin
+    g f e d4. c \barMaior
+    d4 c \mark\sipka d d( f) f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a g) f( g) \barMin
+    \mark\sipka a g a g( f) f \barMin
+    g f e d4. c \barMaior
+    d4 c d d( f) f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    c d f f( g) g a g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    c d f f( g) g \mark\sipka g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1578,6 +1797,38 @@
     % R
     \neviditelna a
     g g( f d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Do -- brý pas -- týř dá -- vá ži -- vot za své ov -- ce_*
+    a mod -- lí se za ně.
+    \Verse Mi -- lu -- je své brat -- ry_*
+    \Response a mod -- lí se za ně.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g( a) a( g) \barMax
+    \mark\sipka f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

@@ -86,6 +86,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
     \choralniRezim
     g4 a g c b a b \barMaior
     c c c b a g g \mark\sipka a g f g g \barFinalis
@@ -154,6 +155,34 @@
     quid = "2. ant."
     modus = "III"
     differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g g \barMin
+    f g a a c c c \barMaior
+    c d( b c) a( g) g( a) \barMin
+    a g f g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na:
+    on po -- žeh -- nal
+    tvým sy -- nům v_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -306,6 +335,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -329,6 +360,112 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( g f) g g( f) \barMin g g g f e d( c) c \barMaior
+    d f f( g) g \barMin g a a g a f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Dej -- te jí z_vý -- těž -- ku je -- jích ru -- kou,
+    ne -- boť u bran ji chvá -- lí je -- jí dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( g f) g g( f) \barMin g g g f e d( c) c \barMaior
+    d f f( g) g \barMin g \mark\sipka g( a g4.) g f4 g g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Dej -- te jí z_vý -- těž -- ku je -- jích ru -- kou,
+    ne -- boť u bran ji chvá -- lí je -- jí dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d( c) \barMin
+    b g g a g f( g) g \barMaior
+    a c d( e d) c \barMin
+    d c( b) a g a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dej -- te jí
+    z_vý -- těž -- ku je -- jích ru -- kou,
+    ne -- boť u bran
+    ji chvá -- lí je -- jí dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d( c) \barMin
+    b g g a g f( g) g \barMaior
+    \mark\sipka a a f( e d) d \barMin
+    d f( g) g a g f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dej -- te jí
+    z_vý -- těž -- ku je -- jích ru -- kou,
+    ne -- boť u bran
+    ji chvá -- lí je -- jí dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{O více ženách:}
 
@@ -357,6 +494,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c b c d d \barMin
+    d d( e) d c b c a( g) g \barMaior
+    a a g( f) g( a) a \barMin
+    a a c b g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ze srd -- ce ať se ra -- du -- jí,
+    kdo hle -- da -- jí Hos -- po -- di -- na,
+    ať se ho -- no -- sí
+    je -- ho sva -- tým jmé -- nem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
