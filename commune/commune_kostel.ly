@@ -139,14 +139,14 @@
 
     % R
     \neviditelna f
-    f4 f f( g) g a f g f \barMin f f f g( a) a( g) \barMax
-    g a g( f d) d \barMin d f f f( g) g( f) f \barFinalis
+    f4 f f f f f g f \barMin g f f g( a) a( g) \barMax
+    g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( g) f g( a) a( g) g \barMax
+    a4 a a g( a) g f g g( a) \barMax
     % R
     \neviditelna a
-    g a g( f d) d \barMin d f f f( g) g( f) f \barFinalis
+    g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -161,7 +161,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "melodie je neelegantní, klopýtavá - nedá se zpívat plynule, působí nepřirozeně"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -175,7 +174,7 @@
 
     % R
     \neviditelna f
-    f4 f f( g) f f e d d \barMin f f f f( g) f \barMaior
+    f4 f f f f f f f f f f g f \barMaior
     f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -198,7 +197,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "jsou extra ozdoby pěkné a účelné? jsou potřeba?"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -753,7 +751,7 @@
     % R
     \neviditelna f
     f4 f f f f f( g) f f \barMaior
-    f f f f g( f) g( a) a( g) \barMax
+    g g g f g a a( g) \barMax
     g g g f g a g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
@@ -788,7 +786,7 @@
 
     % R
     \neviditelna f
-    f f f f f f( e) d d \barMin f f f f g f f \barMaior
+    f f f f f f f f f f f f g f f \barMaior
     f f f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -811,7 +809,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "jsou netypické ozdoby pěkné? jsou potřeba?"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
