@@ -906,6 +906,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a c b a( g) g \barMin
+    f g a a
+    c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1470,6 +1492,32 @@
     g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
 
     \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
+
+    \mark\sipka e f d( c) d \barFinalis
   }
   \addlyrics {
     A -- mem, a -- men, pra -- vím vám:

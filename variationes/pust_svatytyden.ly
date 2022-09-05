@@ -324,6 +324,111 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f f f e c c( d) d \barMaior
+    f f g( a g) g \barMin
+    g f( e d) d e d c d d \barMaior
+    d c d d f g a a( g) g \barMin
+    a a g f e( f) d c f e d d \barFinalis
+  }
+  \addlyrics {
+    By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky.
+    Je -- žíš vě -- děl,
+    že při -- šla je -- ho ho -- di -- na.
+    A pro -- to -- že mi -- lo -- val svo -- je,
+    pro -- je -- vil jim lás -- ku až do kraj -- nos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f f f e c e( f d) d \barMaior
+    c d d( f) f \barMin
+    f g f e f d c c \barMaior
+    d d d d f e d f( g) g \barMin
+    f g f e d( c) c d f e d d \barFinalis
+  }
+  \addlyrics {
+    By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky.
+    Je -- žíš vě -- děl,
+    že při -- šla je -- ho ho -- di -- na.
+    A pro -- to -- že mi -- lo -- val svo -- je,
+    pro -- je -- vil jim lás -- ku až do kraj -- nos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d f f f f f e c e( f d) d \barMaior
+    c d d( f) f \barMin
+    f g f \mark\sipka g a a g g \barMaior
+    a a g f e f d d( c) c \barMin
+    d f e c d-- c d f e d d \barFinalis
+  }
+  \addlyrics {
+    By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky.
+    Je -- žíš vě -- děl,
+    že při -- šla je -- ho ho -- di -- na.
+    A pro -- to -- že mi -- lo -- val svo -- je,
+    pro -- je -- vil jim lás -- ku až do kraj -- nos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f f f e c e( f d) d \barMaior
+    c d d( f) f \barMin
+    f g f g a a g g \barMaior
+    a a g f e f d d( c) c \barMin
+    \mark\sipka d d c d d( f) e d e c d d \barFinalis
+  }
+  \addlyrics {
+    By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky.
+    Je -- žíš vě -- děl,
+    že při -- šla je -- ho ho -- di -- na.
+    A pro -- to -- že mi -- lo -- val svo -- je,
+    pro -- je -- vil jim lás -- ku až do kraj -- nos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -6246,6 +6351,11 @@
   }
 
   \pageBreak
+
+  \markup\justify{
+    Při úpravách brát zřetel na případné sjednocení nápěvu s
+    "mezidobi_nejsvsrdce.ly#mc-avig"
+  }
 
   \score {
     \relative c'' {

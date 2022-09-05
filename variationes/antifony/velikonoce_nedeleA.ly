@@ -212,6 +212,103 @@
   }
 }
 
+\markup\justify{
+  V částečné kopii se vyvrbilo pěkné zakončení,
+  zkusme ho zpětně promítnout sem:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMin
+    a c b a b g g \barMaior
+    c( d) d c( b a) a \barMin
+    a c c b a c( d) d \barMaior
+    e d c d d( c) \barMin
+    c c a b a g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když o -- de -- jdu
+    a při -- pra -- vím vám mís -- to,
+    za -- se při -- jdu
+    a vez -- mu si vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMin
+    a c b a b g g \barMaior
+    \mark\sipka c c c( b a) a \barMin
+    a c c b a c( d) d \barMaior
+    e d c d d( c) \barMin
+    c c a b a g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když o -- de -- jdu
+    a při -- pra -- vím vám mís -- to,
+    za -- se při -- jdu
+    a vez -- mu si vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMin
+    a c b a b g g \barMaior
+    \mark\sipka d' c b( c a) a \barMin
+    a c c b a c( d) d \barMaior
+    e d c d d( c) \barMin
+    c c a b a g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když o -- de -- jdu
+    a při -- pra -- vím vám mís -- to,
+    za -- se při -- jdu
+    a vez -- mu si vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -358,6 +455,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -383,6 +482,34 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g( a) g g \barMin
+    a a b c b g g f g( a) a \barMaior
+    c c c b a g a a g g \barMin
+    f g( a) a b c a
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat
+    a dám se mu po -- znat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {7. neděle velikonoční}}
 

@@ -591,6 +591,62 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4( a) a \barMin
+    c c b g b( c a) g a( g) g \barMaior
+    g f d f( g) g \barMin
+    g a( c) c b( c a) a \barMin
+    b a g f g \barMaior
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če,
+    zje -- vil jsem tvé jmé -- no li -- dem;
+    ny -- ní jdu k_to -- bě
+    a pro -- sím za ty,
+    kte -- ré jsi mi dal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    c c b g a g f( g) g \barMaior
+    g a c c( d) d \barMin
+    d d( e) d c( d c) c \barMin
+    b c a a g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če,
+    zje -- vil jsem tvé jmé -- no li -- dem;
+    ny -- ní jdu k_to -- bě
+    a pro -- sím za ty,
+    kte -- ré jsi mi dal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( a) a( c) \barMin
     d d c d e c c( d) d \barMaior
     d c b a( g) a \barMin

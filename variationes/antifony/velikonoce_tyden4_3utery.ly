@@ -634,6 +634,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d f e d e d( c) \barMaior
+    f g g( a) a a \mark\sipka g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d d f f \barMin
     g a g f e d c
     e f d d \barFinalis

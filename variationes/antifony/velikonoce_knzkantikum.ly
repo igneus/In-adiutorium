@@ -292,6 +292,50 @@
     \choralniRezim
     e4 e( a) a b( a) g g( a) a \barMin
     a g a a( b a) g f e e \barMaior
+    \mark\sipka f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 \mark\sipka g( a) a b( a) g g( a) a \barMin
+    a g a a( b a) g f e e \barMaior
+    e f( d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a b( a) g g( a) a \barMin
+    a g a a( b a) g f e e \barMaior
     \mark\sipka e( d e) e( g f d) d( e) e \barFinalis
   }
   \addlyrics {
@@ -698,6 +742,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e d4. d \barMaior
+    f4 d f g( f) \mark\sipka e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c c \barMaior
+    d c d f e c d d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c b( c) a g b b \barMin
@@ -896,6 +984,29 @@
     \choralniRezim
     d4 d d c d d( f) e f d c c \barMaior
     f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f( e) f g f d d \barMaior
+    c a c d d \barMin
     e c c( d) d \barFinalis
   }
   \addlyrics {

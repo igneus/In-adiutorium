@@ -1429,6 +1429,32 @@
     }
   }
 
+  \markup\nadpisSkupiny 2
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b c( d) \barMin
+      d c( d) d d e d c( d) d \barMaior
+      d c b c( a g) g \barMin
+      f a c c b a g g \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -2365,6 +2391,78 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "d"
+      psalmus = "Žalm 127"
+      id = "svrodiny-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c b c( d) d \barMin
+      c d c b a a \barMaior
+      \mark\sipka d c b a b g
+      f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 127"
+      id = "svrodiny-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c b c( d) d \barMin
+      c d c b a a \barMaior
+      \mark\sipka d c b g a a
+      a a( c) b g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 127"
+      id = "svrodiny-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g a c( d) d \barMin
+      c d e c d d \barMaior
+      a d b c a( g) a( g) \barMin
+      f g( a) c( b) a a \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "IV alt"
+      differentia = "A"
       psalmus = "Žalm 127"
       id = "svrodiny-2ne-a2"
       piece = \markup {\sestavTitulek}

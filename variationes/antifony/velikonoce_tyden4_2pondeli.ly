@@ -623,6 +623,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a g a a \barMin
+    \mark\sipka g f d f g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se stal křes -- ťa -- nem,_*
+    pat -- ří Kris -- tu na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \mark\sipka a g g \barMin
+    a g f g g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se stal křes -- ťa -- nem,_*
+    pat -- ří Kris -- tu na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g( a) a \barMin
     a g f g f( d) d \barMin
     f g g f \barMaior

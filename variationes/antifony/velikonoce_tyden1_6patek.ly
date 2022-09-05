@@ -172,6 +172,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c( d) d \barMin
+    e d c d( c) c \barMaior
+    d-- c d c b a g g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
+    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Iz 45"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -414,6 +438,26 @@
     \choralniRezim
     f4 g a g f g f d d \barMin
     f g \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 100"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g a g f f \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.

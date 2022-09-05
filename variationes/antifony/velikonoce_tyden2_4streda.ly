@@ -81,6 +81,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a f( e d) f a( b) a \barMaior
+    a b a g g( a) g e e \barMaior
+    \mark\sipka f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Po -- slech -- ly tě vo -- dy, Bo -- že;
+    pře -- ve -- dl jsi svůj lid mo -- řem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 77"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f a f f( g) g \barMaior
+    a a g f d f g g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Po -- slech -- ly tě vo -- dy, Bo -- že;
+    pře -- ve -- dl jsi svůj lid mo -- řem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 77"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f a f f( g) g \barMaior
+    a a g f d f \mark\sipka f( g) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Po -- slech -- ly tě vo -- dy, Bo -- že;
+    pře -- ve -- dl jsi svůj lid mo -- řem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 77"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -460,6 +526,32 @@
     g4 a( b) b \barMin
     c a g f g( a) g \mark\sipka e e \barMaior
     f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo vy -- chá -- zí
+    spra -- ved -- li -- vé -- mu
+    a li -- dem
+    u -- přím -- né -- ho srd -- ce ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 97"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e g( a b) b( c b) b \barMin
+    d( c) b a c4. b \barMaior
+    g4 a( b) b \barMin
+    c a g f g( a) g \mark\sipka f( e) e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Svět -- lo vy -- chá -- zí

@@ -31,6 +31,72 @@
   }
 }
 
+\markup\justify{
+  Poměrně známá tradiční antifona.
+  Asi už i první verzi jsem skládal alespoň s vágním povědomím o nápěvu latinské předlohy -
+  AR1912, s. 308.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c( d) d( e) d \mark\sipka f g f d d \barMaior
+    f g a f( e) d d e( f) d( c) c \barMax
+    d c d d( f) f g a g f( g) \barMin
+    f f e c d( c) c \barMaior
+    d f f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl vy -- ve -- den od Du -- cha na poušť,
+    a -- by byl po -- kou -- šen od ďáb -- la.
+    A když se pos -- til čty -- ři -- cet dní
+    a čty -- ři -- cet no -- cí,
+    na -- ko -- nec vy -- hla -- do -- věl.
+  }
+  \header {
+    textus_approbatus = "Ježíš byl vyveden od Ducha na poušť,
+    aby byl pokoušen od ďábla.
+    Když se postil čtyřicet dní a čtyřicet nocí, nakonec vyhladověl."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d \mark\sipka e( f) d( c) c f g f d d \barMaior
+    f g a f( e) d d e( f) d( c) c \barMax
+    d c d d( f) f g a g f( g) \barMin
+    f f e c d( c) c \barMaior
+    d f f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl vy -- ve -- den od Du -- cha na poušť,
+    a -- by byl po -- kou -- šen od ďáb -- la.
+    A když se pos -- til čty -- ři -- cet dní
+    a čty -- ři -- cet no -- cí,
+    na -- ko -- nec vy -- hla -- do -- věl.
+  }
+  \header {
+    textus_approbatus = "Ježíš byl vyveden od Ducha na poušť,
+    aby byl pokoušen od ďábla.
+    Když se postil čtyřicet dní a čtyřicet nocí, nakonec vyhladověl."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
