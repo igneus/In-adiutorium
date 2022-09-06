@@ -173,9 +173,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c( b c) c( d) d \barMin d d d( e d) c( b a) a \barMaior
-    a( b) b4. a \barMin b4( c d) c( d) d \barMaior
-    e d c d( c) b g a( f g) g \barFinalis
+    a4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
+    d( e d) c b c c b( a g) \barMaior
+    a g a a( c) b g a a \barFinalis
   }
   \addlyrics {
     Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
@@ -184,10 +184,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "_přicházet_ a dál půjde lépe"
     id = "ne33b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

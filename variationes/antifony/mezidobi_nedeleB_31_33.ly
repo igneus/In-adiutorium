@@ -169,10 +169,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"33. neděle"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a c( b c) c( d) d \barMin d d d( e d) c( b a) a \barMaior
     a( b) b4. a \barMin b4( c d) c( d) d \barMaior
@@ -193,6 +196,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
+    d( e d) c b c c b( a g) \barMaior
+    a g a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
+    při -- chá -- zet v_ob -- la -- cích
+    s_ve -- li -- kou mo -- cí a slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne33b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
