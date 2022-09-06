@@ -104,7 +104,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d) d d \barMaior
     d d c d e c d d \barMin
@@ -137,6 +137,33 @@
     c b g a( g) g \barFinalis
 
     a^\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vstá -- vá
+    a ti, kdo ho ne -- ná -- vi -- dí,
+    pr -- cha -- jí před ním.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka g( d') d d \barMaior
+    d d c d e c d d \barMin
+    c b g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- vstá -- vá

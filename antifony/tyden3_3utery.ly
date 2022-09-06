@@ -12,7 +12,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( d) d d \barMaior
+    g4 g( d') d d \barMaior
     d d c d e c d d \barMin
     c b g a( g) g \barFinalis
 
