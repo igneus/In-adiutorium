@@ -105,7 +105,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e d( c) c \barMaior
     f f g \mark\sipka a g f f( g) \barMin
@@ -119,6 +119,339 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f g a g \mark\sipka f( g) f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f g a g f( g) f \barMin
+    \mark\sipka e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f g a g \mark\sipka f g( f) \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f \mark\sipka f g( a) g f( g) g( f) \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka c( d) d f( e d c) c \barMaior
+    f f g a g f f( g) \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d f( e d c) c \barMaior
+    f f g a g f \mark\sipka g( f) \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d f( e d c) c \barMaior
+    f f g a g f g( f) \barMin
+    \mark\sipka e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMaior
+    f f f g a g f( e d) \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMaior
+    f f f \mark\sipka g( a) g f( g) f \barMin
+    e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMaior
+    f f f g a g f( e d) \barMin
+    \mark\sipka d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' bes) a bes a g( a) g \barMaior
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fons_externus = "volně podle AR1912, s. 509"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a g( a) g \barMaior
+    g f g a( c) a g a( g) \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fons_externus = "volně podle AR1912, s. 509"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMaior
+    a a a g( a) g f( g) f \barMin
+    e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMaior
+    a a a \mark\sipka g( a g) f f( g) f \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 c f g f( a) a \barMaior
+    \mark\sipka a g f g( a) g f( e) d( c) \barMin
+    d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "amag"

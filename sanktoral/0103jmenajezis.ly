@@ -37,8 +37,8 @@
   \relative c' {
     \choralniRezim
     d4 d f e d( c) c \barMaior
-    f f g a g f f( g) \barMin
-    f e c( d) d \barFinalis
+    f f g a g f g( f) \barMin
+    e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Dáš mu jmé -- no Je -- žíš,
