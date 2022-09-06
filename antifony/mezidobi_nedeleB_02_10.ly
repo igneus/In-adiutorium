@@ -76,14 +76,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g f g( a) g( a) a \barMaior
-    a b( c) c( a) a \barMin
-    a( g) f g( f) e e( f) d d \barMax
+    f4 g a a g f g a a \barMaior
+    a b( c) a( g) g \barMin
+    a a g f e( f) d d \barMax
 
     d d d c d \barMin
-    f g g g g g g f g( a) a a \barMaior
-    bes( a g) a( g) f( e) f4.( d) \barMin
-    d4 c( d) d f e d( e) d d \barFinalis
+    d f g g g g g f g( a) g g \barMaior
+    a( bes) a( g) f g \barMin
+    g f d f e c d d \barFinalis
   }
   \addlyrics {
     Je -- žíš při -- šel do Ga -- li -- le -- je
@@ -100,8 +100,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "_Boží evangelium_ je přetížené; i pokračování věnovat trochu péče;
-    v první části snad spíš jemně ozdobit _přišel_ a odlehčit _Galileje_"
     id = "ne3b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

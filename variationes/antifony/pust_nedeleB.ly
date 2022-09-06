@@ -57,6 +57,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g f g( a) g( a) a \barMaior
     a b( c) c( a) a \barMin
@@ -66,6 +67,43 @@
     f g g g g g g f g( a) a a \barMaior
     bes( a g) a( g) f( e) f4.( d) \barMin
     d4 c( d) d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš při -- šel do Ga -- li -- le -- je
+    a hlá -- sal tam
+    Bo -- ží e -- van -- ge -- li -- um:
+
+    Na -- pl -- nil se čas
+    a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
+    Ob -- rať -- te se
+    a věř -- te e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne3b-ne1-mag"
+    fons = "3. neděle v mezidobí, cyklus B, 1. nešpory, k Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g f g a a \barMaior
+    a b( c) a( g) g \barMin
+    a a g f e( f) d d \barMax
+
+    d d d c d \barMin
+    d f g g g g g f g( a) g g \barMaior
+    a( bes) a( g) f g \barMin
+    g f d f e c d d \barFinalis
   }
   \addlyrics {
     Je -- žíš při -- šel do Ga -- li -- le -- je
