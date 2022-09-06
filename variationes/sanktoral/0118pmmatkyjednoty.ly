@@ -15,6 +15,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c c c( d e d) d \barMin
     d c b a g( a) a \barMaior
@@ -59,6 +60,33 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d c) c \barMin
+    c c b a g( a) g \barMaior
+    f g a g( a) a \barMin
+    c c c b( a) g g \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- di -- ným svět -- lem
+    je Kris -- to -- va cír -- kev;
+    všu -- de se ší -- ří,
+    a při -- tom zů -- stá -- vá
+    je -- di -- ným tě -- lem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -303,6 +331,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -316,6 +345,143 @@
     % R
     \neviditelna a
     g g g g( a) g f( d) d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
+    Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
+    \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g f( d) d \mark\sipka \barMin d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g( a) g f( d) d \mark\sipka \barMin d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
+    Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
+    \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g f( d) d \barMin \mark\sipka f f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g( a) g f( d) d \barMin \mark\sipka f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
+    Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
+    \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g \mark\sipka f( g) f \barMin f( d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g( a) g \mark\sipka f( g) f \barMin f( d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
+    Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
+    \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g g( a) g \mark\sipka f f \barMin f d f g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g( a) g \mark\sipka f f \barMin f d f g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -484,6 +650,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a f g g e \barMin
     f f e d f g g \barMaior
@@ -507,12 +674,63 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g g e \barMin
+    f f e d f g g \barMaior
+    a b c d c \mark\sipka a a \barMin
+    c c c b( a) g g a a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni se -- tr -- vá -- va -- li
+    v_a -- po -- štol -- ském u -- če -- ní,
+    v_bra -- trs -- kém spo -- le -- čen -- ství,
+    v_lá -- má -- ní chle -- ba a v_mod -- lit -- bách.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     f4 e d c d f e d d \barMaior
     d c f f f g( f) f \barMin
     g a g f g f e d e d d( c) \barMaior
     a c d e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sná -- šej -- te se na -- vzá -- jem v_lás -- ce
+    a hor -- li -- vě se snaž -- te
+    za -- cho -- vá -- vat jed -- no -- tu ve smýš -- le -- ní
+    spo -- je -- ni pou -- tem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d c d f e d d \barMaior
+    d c f f f g( f) f \barMin
+    g a g f g f e d e d d( c) \barMaior
+    \mark\sipka d c d d( f) e c d d \barFinalis
   }
   \addlyrics {
     Sná -- šej -- te se na -- vzá -- jem v_lás -- ce

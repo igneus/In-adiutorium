@@ -18,11 +18,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c c c( d e d) d \barMin
-    d c b a g( a) a \barMaior
-    c c c a( g a g) g \barMin
-    f g a a( c) c c \barMin
-    c b a g g \barFinalis
+    c4 c c c( d c) c \barMin
+    c c b a g( a) g \barMaior
+    f g a g( a) a \barMin
+    c c c b( a) g g \barMin
+    f g a a( g) g \barFinalis
   }
   \addlyrics {
     Je -- di -- ným svět -- lem
@@ -33,10 +33,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
-    placet = "lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -99,14 +98,14 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    g g g g( a) g f( d) d d f g g( f) f \barFinalis
+    g g g g( a) g f f \barMin f d f g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a a a( bes) a g( a) g \barMin
     g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g g( a) g f( d) d d f g g( f) f \barFinalis
+    g g g g( a) g f f \barMin f d f g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -159,7 +158,7 @@
     \choralniRezim
     g4 g a f g g e \barMin
     f f e d f g g \barMaior
-    a b c d c a( c) b \barMin
+    a b c d c a a \barMin
     c c c b( a) g g a a g \barFinalis
   }
   \addlyrics {
@@ -173,7 +172,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
-    placet = "lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
