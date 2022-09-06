@@ -2119,6 +2119,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g c b d c \barMin
+      b c a g f g g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Nechť věč -- ně tr -- vá_*
+      Hos -- po -- di -- no -- va slá -- va.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-III"
+      id = "st-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}

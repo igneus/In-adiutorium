@@ -1824,6 +1824,31 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \mark\sipka g f( g) \barMin
+    f e d c d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svo -- ji du -- ši.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vytrvalostí zachráníte svou duši. Aleluja."
+    quid = "ant. odpoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

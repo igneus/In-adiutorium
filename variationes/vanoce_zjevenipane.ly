@@ -2403,6 +2403,33 @@ ale na diferenci žalmového nápěvu?}
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "značně jednotvárná"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f e f( g) g \barMin
+      f( e) d f( e) d d \barMaior
+      \mark\sipka f f f f e c d d c \barMaior
+      d d c d d f f
+      f g( a) f e c d d \barFinalis
+    }
+    \addlyrics {
+      Spa -- si -- tel se dal po -- křtít
+      vo -- dou Jor -- dá -- nu,
+      a vo -- da se sta -- la zna -- me -- ním
+      no -- vé spra -- ve -- dl -- nos -- ti
+      a no -- vé -- ho ži -- vo -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -2428,6 +2455,32 @@ ale na diferenci žalmového nápěvu?}
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f e f( g) g \barMin
+      f d f( e) d( c) c \barMaior
+      d4 d d d f g f d d \barMaior
+      d d c d d f f
+      f g( a) f e c d d \barFinalis
+    }
+    \addlyrics {
+      Spa -- si -- tel se dal po -- křtít
+      vo -- dou Jor -- dá -- nu,
+      a vo -- da se sta -- la zna -- me -- ním
+      no -- vé spra -- ve -- dl -- nos -- ti
+      a no -- vé -- ho ži -- vo -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
