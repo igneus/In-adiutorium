@@ -41,6 +41,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d( f e d4. c) \barMin d4 d d4( f e) d c e( d) \barMaior
     f( g a) g f4.( e4 d) \barMin f( e g) f( e) d( e) d d \barMaior
@@ -134,6 +135,54 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4-- d d d( f) e f g \barMaior
+    a a g( f e) \barMin
+    e( f) d c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám
+    stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4-- f g a g f g \barMaior
+    g f e e( f) d c d d \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "147-II"
+    fial = "antifony/tyden1_1nedele.ly#mc-ant1?konec&+aleluja"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
@@ -163,6 +212,29 @@
     d4-- d d c d e( c) d \barMaior
     d a d c b a g g \barMin
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4-- d d d( f) e c d \barMaior
+    c b a c b a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Kříž, kte -- rý zna -- me -- nal smrt,
