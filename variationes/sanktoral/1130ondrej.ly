@@ -126,6 +126,8 @@
   }
 }
 
+\pageBreak
+
 \markup\justify\italic{
   Responsorium ze společných textů o apoštolech \upright{Poslals je do celého světa.}
 }
@@ -147,10 +149,34 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a' g) \mark\sipka g( a) a \barMin c c b( a g a) a \barMaior
+    a bes a g( a g f) e \barMin f f d f e e \barMax
+    d d d( f) g f( e d) \barMin c d e f d d \barFinalis
+  }
+  \addlyrics {
+    Buď po -- zdra -- ven, sva -- tý kří -- ži,
+    na to -- bě vi -- sel můj u -- či -- tel Kris -- tus;
+    při -- jmi ta -- ké mě, je -- ho u -- čed -- ní -- ka.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
@@ -344,7 +370,7 @@
     \key f \major
     f4 f f( a) g f \barMin g e f d( c) c \barMaior
     c d e f( g) f g a bes a g( a) a \barMaior
-    a bes bes a g a g f^\mark\sipka e c( d) d \barFinalis
+    a bes bes a g a g f \mark\sipka e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,

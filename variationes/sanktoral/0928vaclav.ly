@@ -147,6 +147,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f \barMin f g( f) g( a) a( g) \barMax
+    f g a \mark\sipka g( f) g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g g \barMin g g g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    f g a \mark\sipka g( f) g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zr -- no, kte -- ré pad -- ne do ze -- mě a o -- du -- mře,_*
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+    \Verse Kdo je o -- cho -- ten po -- lo -- žit ži -- vot za brat -- ry,_*
+    \Response při -- ne -- se hoj -- ný u -- ži -- tek.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1386,6 +1418,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f bes( a) g( a) a \barMin
+    a a \mark\sipka g f g( a) g f e d d \barFinalis
+  }
+  \addlyrics {
+    Za -- čá -- tek moud -- ros -- ti
+    je u -- přím -- ná tou -- ha po -- u -- čit se.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f( g) a( g) g \barMin
@@ -1573,6 +1625,29 @@
     a4( bes) a g( a) \barMin
     a a a g e( f) d d \barMaior
     c d f( \mark\sipka e) f( g) f e d4. d \barFinalis
+  }
+  \addlyrics {
+    Ne -- do -- pusť,
+    a -- by tě zlo pře -- moh -- lo,
+    a -- le pře -- má -- hej zlo dob -- rem.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4( bes) \mark\sipka g( a) a \barMin
+    a a \mark\sipka g f e( f) d d \barMaior
+    c d \mark\sipka f g f e c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- do -- pusť,

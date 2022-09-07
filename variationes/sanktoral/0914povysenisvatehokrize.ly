@@ -408,6 +408,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -431,6 +433,32 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e) d d \barMin c d c b( c d4.) d \barMaior
+    d4 d d c( d) c b a g g \barMin
+    a a a a g( a) g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
+    před ním se skloň kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 8"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -605,6 +633,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -633,6 +663,36 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g \mark\sipka f g g( a) \barMaior
+    g a c d( c a c b g) a( g) \barMin f f f f( g) g \barMax
+    d( f g) g g g( a f) f( g) g \barMaior
+    a( c g) a( g) f f \mark\sipka f f f( g) g \barMaior
+    g g( f g) g( a) a \barMin a( b) a g g \barMax
+    \mark\sipka a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ži -- vo -- to -- dár -- ný kříž
+    při -- ná -- ší ra -- dost ce -- lé -- mu svě -- tu:
+    ví -- těz -- ně kra -- lu -- je,
+    za -- hla -- zu -- je kaž -- dou vi -- nu
+    a při -- ná -- ší svě -- tu spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

@@ -1771,6 +1771,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1789,6 +1791,94 @@
     differentia = "a"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g f g a a \barMaior
+    a c( d c) a g a g \barMin
+    f g a a a( g f) g g f f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g a \barMaior
+    f f( g) a a c b \barMin
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a) g g \barMin
+    f g a a a( c) b \barMin
+    c c a g a( g f) g g f f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    fial = "sanktoral/0805bazilikypm.ly#aben?zacatek"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \barMin
+    c c b c a a \barMin
+    c c b a g( f g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -2376,9 +2466,23 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    placet = "není špatná, ale antifona k Magnificat uzavírající třetí největší
+    svátek liturgického roku by měla být patřičně velkolepá"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}
   }
+}
+
+\markup\justify{
+  K představě, že
+  \italic{"\"antifona" k Magnificat uzavírající třetí největší
+    svátek liturgického roku by měla být patřičně "velkolepá:\""}
+  tahle antifona patří k tradičnímu repertoáru
+  (Hodie Maria Virgo, AR1912 693)
+  a latinská předloha po hudební stránce nijak velkolepá není.
+  Je ovšem pravda, že přinejmenším jeden \italic{Prachtstück}
+  oficium Nanebevzetí mělo - v antifoně k Magnificat prvních nešpor
+  \italic{Virgo prudentissima} (AR1912 689).
 }
 
 \score {
@@ -2445,6 +2549,77 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f f g( a) g f( g) f f \barMaior
+    d f e( d) c \barMin
+    d c d d f f e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f f g( a) g f( g) f f \barMaior
+    d f e( d) c \barMin
+    \mark\sipka d d d c( d) d( f) f \barMin
+    e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je
+    s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    f f g( a) g f( g) f f \barMaior
+    \mark\sipka f g g( f) f \barMin
+    f d f e d c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -1407,6 +1407,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a \mark\sipka g a( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
+    f g a a a c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a b( c d c d) d( c) \barMin
     d( e d c) b( g) a \barMaior
     \mark\sipka g a a g f g( a) g g \barFinalis
@@ -1418,8 +1440,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 122"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}

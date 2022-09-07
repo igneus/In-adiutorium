@@ -316,6 +316,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -337,10 +339,81 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "moc se mi nelíbí frázování _spravedlivý a bohabojný_, ale také zatím nevidím, jak jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a a c b c( d) d
+    d c a a( b) b \barMax
+    b c a g a c c c d( e) d c( b a g) g \barMaior
+    a b c a g( f g) g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on byl člo -- věk spra -- ved -- li -- vý
+    a bo -- ha -- boj -- ný,
+    o -- če -- ká -- val po -- tě -- še -- ní Iz -- ra -- e -- le
+    a byl v_něm Duch sva -- tý.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g g g g a bes a( g) f g a f g g \barMaior
+    d g g g a bes a g a g f( e d) d \barMaior
+    c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on byl člo -- věk spra -- ved -- li -- vý a bo -- ha -- boj -- ný,
+    o -- če -- ká -- val po -- tě -- še -- ní Iz -- ra -- e -- le
+    a byl v_něm Duch sva -- tý.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d d d d e f e( d) c d e c d d \barMaior
+    a d d d \mark\sipka c b c( d) d e( f) e d( c d) d \barMaior
+    c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on byl člo -- věk spra -- ved -- li -- vý a bo -- ha -- boj -- ný,
+    o -- če -- ká -- val po -- tě -- še -- ní Iz -- ra -- e -- le
+    a byl v_něm Duch sva -- tý.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

@@ -407,6 +407,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
@@ -427,10 +429,34 @@
     differentia = "a"
     psalmus = "Žalm 8"
     placet = "melodie _králi_ je na daném místě nevhodně retardující; také si nejsem docela jist, že g je pravou finálou"
-    id = ""
+    id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c d c \barMin
+    d e c d c a \barMin
+    \mark\sipka g( f) a a g g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils ne -- be -- sa,
+    krá -- li an -- dě -- lů.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 8"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -478,6 +504,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -509,10 +537,82 @@
     quid = "resp."
     modus = "VI"
     placet = "nepotřebná a nevhodná ozdoba na _kadidelnice_"
-    id = ""
+    id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    f4 f f f f f f f g f f \barMin
+    f f f g f g g a a( g) \barMax
+    g( a g) f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a a a a a g( a) g \barMin g g g g g g \mark\sipka f g g( a) \barMax
+    % R
+    \neviditelna a
+    g( a g) f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response An -- dě -- lo -- vi by -- lo dá -- no ka -- did -- lo,
+    a -- by ho po -- lo -- žil na ol -- tář_*
+    s_mod -- lit -- ba -- mi vě -- ří -- cích.
+    \Verse Z_ka -- di -- del -- ni -- ce v_je -- ho ru -- ce
+    vy -- stou -- pil před Bo -- ha von -- ný kouř_*
+    \Response s_mod -- lit -- ba -- mi vě -- ří -- cích.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    f4 f f f f f f f g f f \barMin
+    f f f g f \mark\sipka f g g( a) a( g) \barMax
+    \mark\sipka f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a a a g( a) g \barMin g g g \mark\sipka a g g f g g( a) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response An -- dě -- lo -- vi by -- lo dá -- no ka -- did -- lo,
+    a -- by ho po -- lo -- žil na ol -- tář_*
+    s_mod -- lit -- ba -- mi vě -- ří -- cích.
+    \Verse Z_ka -- di -- del -- ni -- ce v_je -- ho ru -- ce
+    vy -- stou -- pil před Bo -- ha von -- ný kouř_*
+    \Response s_mod -- lit -- ba -- mi vě -- ří -- cích.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -531,7 +631,32 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    id = ""
+    placet = "_Počneš_ se mi moc nelíbí; _jméno_ by udělalo lépe, kdyby ctilo obvyklé pořádky závěru modu VIII
+    ze spodního tetrachordu, nesahalo na a, a už vůbec ne obkrok"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) a g a g f g g \barMax
+    d'( b d e) d \barMin d d( e) d c c( b) c( d c) \barMaior
+    c a g a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Ma -- ri -- i:
+    Poč -- neš
+    a po -- ro -- díš sy -- na
+    a dáš mu jmé -- no Je -- žíš.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
