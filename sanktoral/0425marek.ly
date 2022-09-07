@@ -20,8 +20,8 @@
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
-    g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
-    c d f( e d e) d \barFinalis
+    f4 f f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -33,7 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "druhou půli spíš lépe"
+    fial = "pust_svatytyden.ly#invit?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

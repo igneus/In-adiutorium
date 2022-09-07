@@ -10,12 +10,45 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\column{
+  \line{Když commune evangelistů používali (ve starším vydání diurnálu) stejně jenom právě Marek a Lukáš}
+  \line{( \sans{grep :evangelista sanktoral/*.ly} ),}
+  \line{nerozumím, proč do něj nebylo zahrnuto i tohle invitatorium.}
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
     g4 f( g) f( e d c) d4.( c) \barMin d4 f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    fons = "evangelista Marek, 25.4."
+    fial = "sanktoral/0425marek.ly#invit?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    f4 f f( e d c) d4.( c) \barMin d4 f e( f) d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;

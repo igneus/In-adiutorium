@@ -34,7 +34,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
@@ -51,6 +51,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "druhou půli spíš lépe"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -74,6 +75,31 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    \mark\sipka f4 f f( e d c) d4.( c) \barMin d4 f e( f) d d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
