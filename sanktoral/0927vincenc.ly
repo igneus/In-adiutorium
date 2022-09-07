@@ -13,21 +13,23 @@
 \markup\communia #'(#:pastyr #:milosrdny)
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( f d) d c d f e d d \barMaior
-    f f f f g f g f d c \barMin
-    d d f e c d d \barFinalis
+    g4 a c( d) d \barMin
+    c d e c d d \barMaior
+    d d c b c b a g a a( g) \barMin
+    g f g a a g g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Vin -- cenc tě -- šil za -- rmou -- ce -- né,
+    Sva -- tý Vin -- cenc
+    tě -- šil za -- rmou -- ce -- né,
     hor -- li -- vě se za -- stá -- val si -- rot -- ků
     a pod -- po -- ro -- val vdo -- vy.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
