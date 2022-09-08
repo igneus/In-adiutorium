@@ -265,6 +265,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f f e d c c f( g) f g a a \barMin
+    a( c) b a( g) g( a) a \barMaior
+    a \mark\sipka g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f f e d c c f( g) f g a a \barMin
+    \mark\sipka c c b( a) g( a) a \barMaior
+    \mark\sipka g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

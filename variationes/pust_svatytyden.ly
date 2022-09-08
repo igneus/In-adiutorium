@@ -2523,6 +2523,28 @@
     \relative c' {
       \choralniRezim
       d4 d d f f f e d e d d \barMaior
+      \mark\sipka f a a g( d) \barMin
+      f4( e) c d d \barFinalis
+    }
+    \addlyrics {
+      Kris -- ta zbi -- té -- ho a po -- ní -- že -- né -- ho
+      po -- vý -- šil Bůh
+      svou pra -- vi -- cí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D2"
+      psalmus = "Žalm 110"
+      id = "ne-2ne-a1"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d f f f e d e d d \barMaior
       \mark\sipka f4( g) a g f( g) \barMin
       f4( e) c d d \barFinalis
     }
@@ -2644,6 +2666,94 @@
       quid = "2. ant."
       modus = "I"
       differentia = "f"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a a g f g g \barMaior
+      \mark\sipka a g g f g a( c) c \barMin
+      a c b g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c c a c b g g \barMaior
+      a a a g f g( a) a \barMin
+      a c b g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c c a c b g g \barMaior
+      a a a g f g( a) a \barMin
+      \mark\sipka g( f) g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 c c c a c b g g \barMaior
+      a a a g f g( a) a \barMin
+      a c b g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G*"
       psalmus = "Žalm 115"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
@@ -2812,6 +2922,28 @@
       c4 d c c a c b g g \barMin
       a \mark\sipka b c a g a( g) g \barMin
       a( g) f a g g \barFinalis
+    }
+    \addlyrics {
+      Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
+      a -- by -- chom moh -- li slou -- žit
+      ži -- vé -- mu Bo -- hu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 115"
+      id = "ne-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 d c c a c b g g \barMin
+      a \mark\sipka a a g f g( a) a \barMin
+      a c b g g \barFinalis
     }
     \addlyrics {
       Krev Kris -- to -- va nás o -- čiš -- ťu -- je,

@@ -137,6 +137,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g g g( a) a \barMaior
+    a c a b g \barMin
+    \mark\sipka a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_to -- ho,
+    že má -- me ú -- čast
+    na Kris -- to -- vě u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g f g( a) a \barMaior
+    a c a b g \barMin
+    a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_to -- ho,
+    že má -- me ú -- čast
+    na Kris -- to -- vě u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -215,6 +259,38 @@
   \header {
     quid = "resp."
     modus = "II"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a g g( a) \barMax
+    % R
+    \neviditelna f
+    g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
+    čer -- pá -- me mi -- lost spá -- sy.
+    \Verse Z_Kris -- to -- vých ran_*
+    \Response čer -- pá -- me mi -- lost spá -- sy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
