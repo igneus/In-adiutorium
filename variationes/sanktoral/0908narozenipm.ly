@@ -216,10 +216,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) e e e( g) g \barMin g( f g a) a a( c) a g( f) f( g) g \barMaior
     g a( b) c( d c) b( a g) g \barMin g( a f e) d c( d) d d \barFinalis
@@ -239,6 +242,36 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    f( g) a c( b) a a \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    fial = "sanktoral/0325zvestovanipane.ly#tercie?-aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
