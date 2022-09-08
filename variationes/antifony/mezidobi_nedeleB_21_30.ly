@@ -988,6 +988,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g( a) a \barMin a a g( a) a a( c d) c b a( g a) a \barMaior
     g g g g f( g) \barMin a a g f a( g) g \barMax
@@ -1002,6 +1003,118 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "ne26b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a f( g a4.) a \barMin
+    b4( c) a g g( a) a \barMaior
+    a g f g f( d) \barMin
+    f f d c c( d) d \barMax
+    d f g a g f( g) \barMin
+    d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo v_mém jmé -- nu
+    vy -- ko -- ná zá -- zrak,
+    ne -- mů -- že tak hned
+    o mně mlu -- vit špat -- ně.
+    Kdo ne -- ní pro -- ti nám,
+    je s_ná -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne26b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a f( g a4.) a \barMin
+    b4( c) a g g( a) a \barMaior
+    a g f g f( d) \barMin
+    f f d c c( d) d \barMax
+    d f g a g f( g) \barMin
+    \mark\sipka g f( e d4.) d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo v_mém jmé -- nu
+    vy -- ko -- ná zá -- zrak,
+    ne -- mů -- že tak hned
+    o mně mlu -- vit špat -- ně.
+    Kdo ne -- ní pro -- ti nám,
+    je s_ná -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne26b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a f( g a4.) a \barMin
+    b4( c) a g g( a) a \barMaior
+    a g f g f( d) \barMin
+    f f d c c( d) d \barMax
+    d f g a g \mark\sipka f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo v_mém jmé -- nu
+    vy -- ko -- ná zá -- zrak,
+    ne -- mů -- že tak hned
+    o mně mlu -- vit špat -- ně.
+    Kdo ne -- ní pro -- ti nám, je s_ná -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne26b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a g a f( g a4.) a \barMin
+    b4( c) a g g( a) a \barMaior
+    a g f g f( d) \barMin
+    f f d c c( d) d \barMax
+    d f g \mark\sipka f e d( c) \barMin
+    d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo v_mém jmé -- nu
+    vy -- ko -- ná zá -- zrak,
+    ne -- mů -- že tak hned
+    o mně mlu -- vit špat -- ně.
+    Kdo ne -- ní pro -- ti nám,
+    je s_ná -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "ne26b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
