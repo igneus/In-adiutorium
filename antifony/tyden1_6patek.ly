@@ -158,8 +158,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a a a g f g( a) g \barMaior
-    f e d( a') a a g( a g) f e e \barFinalis
+    g4 a a a a g f g( a) a \barMaior
+    a a b( c) a a g f e e \barFinalis
   }
   \addlyrics {
     Vy -- vo -- lil jsem si ces -- tu prav -- dy,
@@ -170,7 +170,6 @@
     differentia = "g"
     quid = "1. ant."
     psalmus = "Žalm 119-ד"
-    placet = "_Vyvolil_ dře, ozdoby druhé půlky jsou poměrně exotické a na daném textu ne zrovna přirozené"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
