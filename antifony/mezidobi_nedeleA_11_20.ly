@@ -175,7 +175,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?jiny_text"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?zacatek"
     id = "ne13a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
