@@ -111,10 +111,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d g( a bes) g( a bes) a \barMaior
-    a( bes c) c c( d) c bes a g( a bes) g( f) f( g) \barMax
-    d c( d) d e( f g) f e f( e d) \barMaior
-    g a bes( a g) f e d c d d \barFinalis
+    c4 d d( a' bes) a( g a) g \barMin
+    a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
+    g a g f( g) f e d( c) \barMin
+    d d f e c e f d d \barFinalis
   }
   \addlyrics {
     Slav -- ný rod Jes -- se

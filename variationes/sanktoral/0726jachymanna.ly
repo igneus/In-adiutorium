@@ -316,6 +316,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d g( a bes) g( a bes) a \barMaior
@@ -397,6 +398,82 @@
     a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
     \mark\sipka g a g f( g) f e d( c) \barMin
     d d f e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a( g a) g \barMin
+    a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
+    g a g f( g) f e d( c) \barMin
+    d d f e \mark\sipka c e f d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a( g a) g \barMin
+    \mark\sipka f( g a) a g( a) g f e d( e d) c( d) d \barMaior
+    f f f g( a) g f e( d) \barMin
+    c d f f f e c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a( g a) g \barMin
+    f( g a) a \mark\sipka g a g f e( f d) c( d) d \barMaior
+    f e d f( g) a g f( g) \barMin
+    g g f e c e f d d \barFinalis
   }
   \addlyrics {
     Slav -- ný rod Jes -- se
