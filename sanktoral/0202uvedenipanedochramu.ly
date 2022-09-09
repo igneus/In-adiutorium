@@ -410,10 +410,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f g f f f f( g) f( e) d( c) \barMin
-    d d f e d e c( d) d \barMax
-    g f e d4.( c) \barMin
-    d4 f f e c d d \barFinalis
+    d4 e f e f d d c( d) d( f) f \barMin
+    f f g a f e d d \barMaior
+    f g g f \barMin
+    f e c e f d d \barFinalis
   }
   \addlyrics {
     Při -- nes -- li Hos -- po -- di -- nu svou o -- běť,
@@ -426,7 +426,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 130"
-    placet = "lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -458,29 +457,32 @@
 \markup {Responsorium jako v prvních nešporách, str. \page-ref #'respInesp "0" "?" }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4( d) c d( e) e( f) f4.( e) \barMin
-    e4 f g a a a g( a) g( f e) e \barMaior
-    e e e e( a) g g( a g) f e f f( e) e \barMax
-    e e e e d c c d f f( e) e \barMaior
-    e f f( g) g g a g f f g f e( f e) e \barMaior
-    e e( d c) f( e) d d( f e) e \barFinalis
+    g4 a c d d \barMin
+    d c d e d c d( e) d d \barMaior
+    d d d c d c b c a a( g) g \barMax
+    a a a a g( f) g( a) a \barMin
+    c( d) e d( c d) d \barMaior
+    e d c( d) c c \barMin
+    d d c b c a a( g) g \barMaior
+    g f( g) a a g g \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
     při -- nes -- la Je -- ží -- še do chrá -- mu,
     a -- by ho za -- svě -- ti -- la Hos -- po -- di -- nu;
-    Si -- me -- on byl na -- pl -- něn Du -- chem sva -- tým,
-    po -- znal v_dí -- tě -- ti slí -- be -- né -- ho Me -- si -- á -- še
+    Si -- me -- on byl na -- pl -- něn
+    Du -- chem sva -- tým,
+    po -- znal v_dí -- tě -- ti
+    slí -- be -- né -- ho Me -- si -- á -- še
     a ve -- le -- bil Bo -- ha.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "nezpěvná"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
