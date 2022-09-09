@@ -2943,6 +2943,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka c4 d f f( g) g \barMin
+    a a g( f) e f d \barMaior
+    e f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 e d e( f d) d \barMin
     c d e( f d) c d d \barMaior
     e f d d \barFinalis
@@ -3034,6 +3056,50 @@
     d4 e c d d \barMin
     f g f e( d) c( d) d \barMaior
     e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e f) \barMin e( d e) d \barMaior
+    f g a( f) e f d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e f) \barMin e( d e) d \barMaior
+    f g a( f) e f d \barMaior
+    \mark\sipka c f e( d) d \barFinalis
   }
   \addlyrics {
     U -- pev -- ňuj, Bo -- že,
