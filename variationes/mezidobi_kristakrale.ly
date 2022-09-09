@@ -1473,8 +1473,11 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f d4.) d \barMin g4 f g( a) f( d) d \barMaior
     a' b c b( a g) \barMin a( g a) g f g a a( g) a \barMaior
@@ -1490,7 +1493,31 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "I"
     differentia = "D"
     psalmus = ""
-    id = ""
+    placet = "od _rozkvete_ dál lépe"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f d4.) d \barMin g4 f g( a) f( d) d \barMaior
+    a' b c b( a g) \barMin \mark\sipka f( g) g( a) a g f e e \barMaior
+    e e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- de vlád -- nout s_ve -- li -- kou mo -- cí
+    a v_je -- ho dnech roz -- kve -- te spra -- ve -- dl -- nost
+    a hoj -- nost po -- ko -- je.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
