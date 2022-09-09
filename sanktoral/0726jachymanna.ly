@@ -16,22 +16,22 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna g
-    g4 g g( a) g a( b) c b g a a \barMin b( c d c) b( a) b \barMax
-    b c( d c) b( a g) g f( g a) g \barFinalis
+    \neviditelna f
+    f4 f f f f f f f g f g a a( g) \barMax
+    g g( a) g( f d) d f( g) f \barFinalis
     % V
-    \neviditelna c
-    c4 a g a( c) c c d( c) d d( c) c \barMaior
-    c c c( d) c b c b b \barMin c( d c) b( a) a( b) \barMax
+    \neviditelna a
+    a4( bes) a a \barMin a a a a a g( a) g \barMaior
+    g g g g g a g f g a a( g) \barMax
     % R
     \neviditelna a
-    b c( d c) b( a g) g f( g a) g \barFinalis
+    g g( a) g( f d) d f( g) f \barFinalis
     % Slava
-    c c c( d) c b a( b) b \barMin g a( b) b c( b) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
@@ -43,8 +43,7 @@
   }
   \header {
     quid = "resp."
-    modus = "VIII"
-    placet = "celý formulář potřebuje předělat"
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -53,19 +52,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) g( f e) e a a( b c) a( g) a \barMaior
-    d( e c) d( c b) c a a \barMax
-    a( e f) e( d) e \barMaior e( f g) f e f( g a) c b( a) b \barMaior
-    c c c( d) c b( c) b a a \barMin f( g a g) f( e) e \barFinalis
+    a4 a g f g( a) a( g) g \barMin
+    a-- g f d( c) c \barMaior
+    d( f) f( g) g \barMin
+    a g f g a a( g) g \barMaior
+    a a g f e f d d \barMin
+    c( f e) c( d) d \barFinalis
   }
   \addlyrics {
-    Po -- chvá -- len buď Hos -- po -- din, Bůh Iz -- ra -- e -- le!
-    Vzbu -- dil nám moc -- né -- ho spa -- si -- te -- le
-    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da.
+    Po -- chvá -- len buď Hos -- po -- din,
+    Bůh Iz -- ra -- e -- le!
+    Vzbu -- dil nám
+    moc -- né -- ho spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka
+    Da -- vi -- da.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "III"
+    modus = "I"
     differentia = "a"
     psalmus = ""
     id = "rch-aben"
@@ -80,17 +84,17 @@
     \choralniRezim
 
     % R
-    \neviditelna d
-    d4 d d( f) d g( f) g d c d d \barMin f( g) a g( a) a \barMax
-    a( c d) a g( a) a \barMin a g( f) a( g) f e d( e) d \barFinalis
+    \neviditelna f
+    f4 f f( g) f \barMin f f f g f f g f g( a) a( g) \barMax
+    g f g( a) g \barMin f d f g g f f \barFinalis
     % V
     \neviditelna a
-    d4( a') a( c b g) a \barMin g( f) g g( a) a \barMax
+    a4 a( bes) a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a( c d) a g( a) a \barMin a g( f) a( g) f e d( e) d \barFinalis
+    g f g( a) g \barMin f d f g g f f \barFinalis
     % Slava
-    d( a') a a( c b g) g( a) \barMin g f( g a) a \barMin a g( a b a) a( g) f( g) g( a) a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Bůh se u -- jal své -- ho slu -- žeb -- ní -- ka Iz -- ra -- e -- le,_*
@@ -101,7 +105,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }

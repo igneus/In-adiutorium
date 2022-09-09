@@ -17,6 +17,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -117,10 +118,152 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g a a( g) \barMax
+    \mark\sipka g g( a) g( f d) d f( g) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4( bes) a a \mark\sipka \barMin a a a \mark\sipka a a g( a) g \barMaior
+    g g g g \mark\sipka a g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g g( a) g( f d) d f( g) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
+    a vy -- kou -- pil svůj lid.
+    \Verse Vzbu -- dil nám moc -- né -- ho Spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
+    \Response a vy -- kou -- pil svůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Nejsem si jistý, proč přesně (melodie slova \italic{služebník} v mluvené řeči?),
+  ale ten krok mi tu na nepřízvučné slabice zní přirozeněji než na přízvučné (výše).
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g a a( g) \barMax
+    g g( a) g( f d) d f( g) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a a a g( a) g \barMaior
+    g g g g \mark\sipka g a g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) g( f d) d f( g) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
+    a vy -- kou -- pil svůj lid.
+    \Verse Vzbu -- dil nám moc -- né -- ho spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
+    \Response a vy -- kou -- pil svůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g a a( g) \barMax
+    g g( a) g( f d) d f( g) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a a a g( a) g \barMaior
+    g g g g g a g \mark\sipka g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g( a) g( f d) d f( g) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
+    a vy -- kou -- pil svůj lid.
+    \Verse Vzbu -- dil nám moc -- né -- ho Spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
+    \Response a vy -- kou -- pil svůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f \mark\sipka g( a) g g \barMax
+    \mark\sipka a g( a) g( f d) d f( g) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a a a g( a) g \barMaior
+    g g g g a g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka a g( a) g( f d) d f( g) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
+    a vy -- kou -- pil svůj lid.
+    \Verse Vzbu -- dil nám moc -- né -- ho Spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
+    \Response a vy -- kou -- pil svůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( g a) g( f e) e a a( b c) a( g) a \barMaior
     d( e c) d( c b) c a a \barMax
@@ -250,6 +393,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a g f g( a) \mark\sipka a( g) g \barMin
     a-- g f d( c) c \barMaior
@@ -262,7 +406,7 @@
     Po -- chvá -- len buď Hos -- po -- din,
     Bůh Iz -- ra -- e -- le!
     Vzbu -- dil nám
-    moc -- né -- ho Spa -- si -- te -- le
+    moc -- né -- ho spa -- si -- te -- le
     z_ro -- du své -- ho slu -- žeb -- ní -- ka
     Da -- vi -- da.
   }
@@ -282,6 +426,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -307,6 +452,107 @@
   \header {
     quid = "resp."
     modus = "I"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f f f g f g( a) a( g) \barMax
+    g( a) g( f) d d \barMin f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g( f) d d \barMin f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh se u -- jal své -- ho slu -- žeb -- ní -- ka Iz -- ra -- e -- le,_*
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \Verse Jak slí -- bil na -- šim před -- kům,_*
+    \Response pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka f( g) f \barMin f f \mark\sipka g f f f g f g( a) a( g) \barMax
+    \mark\sipka g f g( a) g \barMin f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 \mark\sipka a( bes) a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g \barMin f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh se u -- jal své -- ho slu -- žeb -- ní -- ka Iz -- ra -- e -- le,_*
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \Verse Jak slí -- bil na -- šim před -- kům,_*
+    \Response pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  K přesunu "\"hudebního přízvuku\"" na nepřízvučnou slabiku
+  viz u responsoria ranních chval.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f( g) f \barMin f f \mark\sipka f g f f g f g( a) a( g) \barMax
+    g f g( a) g \barMin f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a( bes) a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g \barMin f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh se u -- jal své -- ho slu -- žeb -- ní -- ka Iz -- ra -- e -- le,_*
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \Verse Jak slí -- bil na -- šim před -- kům,_*
+    \Response pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
