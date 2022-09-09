@@ -848,7 +848,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
     \mark\sipka a g( f) a( c) c b a g g \barFinalis
@@ -869,6 +869,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
     a g( f) \mark\sipka g( a) a a( c) b g g \barFinalis

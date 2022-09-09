@@ -228,7 +228,7 @@
   \relative c'' {
     \choralniRezim
     d4 a c d d d \barMin e4 d c b c a( g) g \barMaior
-    a g( f) a( c) c b a g g \barFinalis
+    a g( f) g( a) a a( c) b g g \barFinalis
   }
   \addlyrics {
     Do -- me Iz -- ra -- e -- lův, ve -- leb -- te Hos -- po -- di -- na;
