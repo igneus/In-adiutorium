@@ -2155,8 +2155,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g f g g( a g) e \barMin f f f e c c \barMaior
       d e f g( a g f) f( g) g \barMin f g a a g f e e \barFinalis
@@ -2170,10 +2173,54 @@ ale na diferenci žalmového nápěvu?}
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      id = ""
+      placet = "divná"
+      id = "11-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g f g g( a) a \barMin g a g f e e \barMaior
+      f g a a( b) a a c b a( b) a \barMin g( a) g e e \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
+      a -- by se vrá -- ti -- li do své ze -- mě ji -- nou ces -- tou.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "11-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g f g g( a) a \barMin g a g f e e \barMaior
+      \mark\sipka d f g g( a) a a c b a( b a) a \barMin g( a) g e e \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
+      a -- by se vrá -- ti -- li do své ze -- mě ji -- nou ces -- tou.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "11-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisDen {12. ledna}}
 
@@ -3026,8 +3073,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
 
@@ -3078,6 +3128,48 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup\sestavTitulekResp
     }
   }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f g f \barMin
+      f f f f f( g) f f g f g a a( g) \barMax
+      g g a g( f d) d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4( bes) a a \barMin
+      a a a a a g( a) g \barMin
+      g f g g( a) \barMax
+      % R
+      \neviditelna a
+      g g a g( f d) d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bůh u -- sta -- no -- vil své -- ho Sy -- na
+      pro -- střed -- ní -- kem smlou -- vy a svět -- lem ná -- ro -- dů,_
+      a vlo -- žil na něj své -- ho Du -- cha.
+      \Verse Po -- slal ho,
+      a -- by při -- ne -- sl chu -- dým
+      ra -- dost -- nou zvěst,_*
+      \Response a vlo -- žil na něj
+      své -- ho Du -- cha.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "krtu-2ne-resp"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
