@@ -305,8 +305,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f( d) f f( g) g g a g a g f f \barMaior
     f g( a g f) g( f) f( d) \barMin
@@ -326,6 +329,125 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  S akcentem \italic{se} vydali:
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a a a g f g a a \barMaior
+    a c( d c a) g g \barMin
+    a a g f f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
+    a hlá -- sa -- li,
+    že je tře -- ba se ob -- rá -- tit.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne15b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  S akcentem se \concat{\italic{vy} dali:}
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a a \mark\sipka g f g g a a \barMaior
+    a c( d c a) g g \barMin
+    a a g f f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
+    a hlá -- sa -- li,
+    že je tře -- ba se ob -- rá -- tit.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne15b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a a a g f g a a \barMaior
+    a c( d c a) g g \barMin
+    \mark\sipka f g a g a f( g) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
+    a hlá -- sa -- li,
+    že je tře -- ba se ob -- rá -- tit.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne15b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a a a g f g a a \barMaior
+    \mark\sipka a g( a g) f( g) g( f) \barMin
+    d f g g g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
+    a hlá -- sa -- li,
+    že je tře -- ba se ob -- rá -- tit.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne15b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g a a a a g f g a a \barMaior
+    a g( a g) f( g) g( f) \barMin
+    d f g g \mark\sipka f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
+    a hlá -- sa -- li,
+    že je tře -- ba se ob -- rá -- tit.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne15b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -970,6 +1092,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin \mark\sipka g a g f( d e) d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne19b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

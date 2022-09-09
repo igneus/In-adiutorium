@@ -309,9 +309,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f( d) f f( g) g g a g a g f f \barMaior
-    f g( a g f) g( f) f( d) \barMin
-    c d f( g) g g f( g) f f \barFinalis
+    f g a a a a g f g a a \barMaior
+    a g( a g) f( g) g( f) \barMin
+    d f g g f g( a) f f \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
@@ -323,7 +323,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    placet = "lépe"
     id = "ne15b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
