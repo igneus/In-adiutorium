@@ -1454,7 +1454,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d \barMin
     c d d d e c c( d) d \barMaior
@@ -1472,6 +1472,7 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
+    placet = "neve_jdeetee_ (zvlášť to druhé melisma) není moc pěkné"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -1604,6 +1605,79 @@
     c d d d e c c( d) d \barMaior
     c a c b g( a) a \barMin
     g f g a a \mark\sipka b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    c a c b \mark\sipka a( g) g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    c a \mark\sipka b c a( g) g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "A"
+    psalmus = "Žalm 131"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d d d e c c( d) d \barMaior
+    \mark\sipka c d c b a( g) g \barMin
+    f g a c b g a a \barFinalis
   }
   \addlyrics {
     Jest -- li -- že zno -- vu

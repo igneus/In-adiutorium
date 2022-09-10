@@ -235,7 +235,7 @@
     \choralniRezim
     a4 g a c( d) d \barMin
     c d d d e c c( d) d \barMaior
-    a d c b a( g) a( g) \barMin
+    c a c b a( g) g \barMin
     f g a c b g a a \barFinalis
   }
   \addlyrics {
@@ -249,7 +249,6 @@
     modus = "IV"
     differentia = "A"
     psalmus = "Žalm 131"
-    placet = "neve_jdeetee_ (zvlášť to druhé melisma) není moc pěkné"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
