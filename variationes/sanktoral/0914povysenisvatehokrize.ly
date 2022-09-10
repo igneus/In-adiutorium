@@ -412,6 +412,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) c( b) a \barMin g a b a a \barMaior
     g a c c( b c) \barMin d d d( e) c a( b) \barMaior
@@ -441,6 +442,31 @@
     d4 d d c( d) c b a g g \barMin
     a a a a g( a) g f
     g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
+    před ním se skloň kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 8"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
+    a a a g( a) g f g a a \barMin
+    c c b a g( a) g g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,

@@ -196,10 +196,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) c( b) a \barMin g a b a a \barMaior
-    g a c c( b c) \barMin d d d( e) c a( b) \barMaior
-    c a g f g( a) a( g) g \barMaior
-    f g g g \barFinalis
+    d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
+    a a a g( a) g f g a a \barMin
+    c c b a g( a) g g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
@@ -212,7 +212,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 8"
-    placet = "zkusit lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
