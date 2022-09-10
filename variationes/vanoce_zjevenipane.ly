@@ -1197,6 +1197,8 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1217,9 +1219,85 @@ ale na diferenci žalmového nápěvu?}
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_a_ je lepší podržet g"
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a( g) f g g( f) f \barMaior
+    g-- g g g f e d( e) d d \barMaior
+    c d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a( g) f g g( f) f \barMaior
+    g-- g g g f e d( e) d d \barMaior
+    c d f g \mark\sipka a g f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c( d) e c c( d) d \barMaior
+    a d b c a g a g g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 % Antifona je zkopirovana z nespor ctvrtka 2. tydne zaltare:
 

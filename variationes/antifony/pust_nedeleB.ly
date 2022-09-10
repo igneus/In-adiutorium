@@ -537,6 +537,35 @@
   }
 }
 
+\markup\justify{
+  Závěr převzatý ze zdrojové antifony s tou úpravou vynucenou odlišným textem
+  nefunguje zdaleka tak dobře, jako tam. Možná bude lepší od zdrojové antifony
+  se tady oddělit.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d f( g) \mark\sipka a( g) g \barMin f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

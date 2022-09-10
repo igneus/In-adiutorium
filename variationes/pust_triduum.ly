@@ -3934,6 +3934,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c d) d( c) c \barMin b c d d d( e) d d \barMaior
+    c a c c b a a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( c) c \barMin d c d e e d d \barMaior
+    c a c c b a a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

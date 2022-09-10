@@ -1897,6 +1897,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c d c b a( g) g \barMaior
+    f g g a a \barMin b( c) a a \barMin
+    g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Sle -- pec u Je -- ri -- cha vo -- lal:
+    Sy -- nu Da -- vi -- dův, Je -- ží -- ši,
+    smi -- luj se na -- de mnou!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne30b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

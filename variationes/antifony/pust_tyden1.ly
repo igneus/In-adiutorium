@@ -453,6 +453,86 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c b a g a g \barMin
+    \mark\sipka g f( g) g( a) a a( c) b g g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi -- lu -- je svůj ná -- rod
+    a po -- kor -- né zdo -- bí ví -- těz -- stvím.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f g g \barMin
+    g a g g f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi -- lu -- je svůj ná -- rod
+    a po -- kor -- né zdo -- bí ví -- těz -- stvím.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f g g \barMin
+    g \mark\sipka g( a) g g f g g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi -- lu -- je svůj ná -- rod
+    a po -- kor -- né zdo -- bí ví -- těz -- stvím.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f g g \barMaior
+    g g( a) \mark\sipka g( f) f \barMin f( d) f( g) g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi -- lu -- je svůj ná -- rod
+    a po -- kor -- né zdo -- bí ví -- těz -- stvím.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

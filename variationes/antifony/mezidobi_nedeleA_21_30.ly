@@ -381,6 +381,147 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a g g \barMaior
+    \mark\sipka c b c( d) d \barMin
+    d d \mark\sipka e d d c b c d d \barMaior
+    d d c b
+    a( b) g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dma -- se -- dm -- de -- sát -- krát.
+  }
+  \header {
+    textus_approbatus = "Ježíš řekl Petrovi:
+    Neříkám ti, že máš odpustit nejvíc sedmkrát,
+    ale třeba sedmdesátsedmkrát."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a g g \barMaior
+    c b c( d) d \barMin
+    d d e d d c b c d d \barMaior
+    d d \mark\sipka d d
+    c( b) a b a b g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dma -- se -- dm -- de -- sát -- krát.
+  }
+  \header {
+    textus_approbatus = "Ježíš řekl Petrovi:
+    Neříkám ti, že máš odpustit nejvíc sedmkrát,
+    ale třeba sedmdesátsedmkrát."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a g g \barMaior
+    c b c( d) d \barMin
+    d d e d d c b c d d \barMaior
+    d d d d
+    \mark\sipka c d c b a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dm -- de -- sát -- se -- dm -- krát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a g g \barMaior
+    c b c( d) d \barMin
+    d d e d d c b c d d \barMaior
+    d d \mark\sipka c b
+    c c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dm -- de -- sát -- se -- dm -- krát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a g g \barMaior
+    c b c( d) d \barMin
+    d d e d d c b c d d \barMaior
+    d d c b
+    \mark\sipka a b a g f g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dm -- de -- sát -- se -- dm -- krát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
