@@ -790,8 +790,11 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 a a c b c c( d) d \barMin
       d d d( e c4.) c \barMin
@@ -821,6 +824,45 @@
       quid = "3. ant."
       modus = "VII"
       differentia = "d"
+      psalmus = "Žalm 149"
+      placet = "úvodní skok pryč; _trvá navěky_ lépe"
+      id = "bohorodicka-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 a a c b c c( d) d \barMin
+      e d c( d c4.) c \barMin
+      b4 c a g g \barMax
+
+      f g g( a) a c b a c d d \barMaior
+      d c b a a \barMin a4( b) c a g g \barMaior
+
+      a g f a c c
+      b a g( a) g g \barMaior
+
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ro -- dič -- ka zro -- di -- la Krá -- le,
+      je -- hož jmé -- no
+      tr -- vá na -- vě -- ky;
+
+      ra -- du -- je se ze své -- ho ma -- teř -- ství
+      a zů -- stá -- vá jí slá -- va pa -- nen -- ství.
+
+      Ne -- ní jí po -- dob -- né me -- zi že -- na -- mi.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "c"
       psalmus = "Žalm 149"
       id = "bohorodicka-rch-a3"
       piece = \markup {\sestavTitulek}

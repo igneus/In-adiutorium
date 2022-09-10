@@ -2152,17 +2152,17 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4 a a c b c c( d) d \barMin
-      d d d( e c4.) c \barMin
-      d4 c( a) b b g \barMax
+      c4 a a c b c c( d) d \barMin
+      e d c( d c4.) c \barMin
+      b4 c a g g \barMax
 
-      a( c) b c( d) d d c b c d d \barMaior
-      d c b a4. a a4( b) c a g g \barMax
+      f g g( a) a c b a c d d \barMaior
+      d c b a a \barMin a4( b) c a g g \barMaior
 
-      a f g a c c \barMin
-      b a g( a) g g \barMax
+      a g f a c c
+      b a g( a) g g \barMaior
 
-      g f( a) g4. g \barFinalis
+      f g( a) g g \barFinalis
     }
     \addlyrics {
       Ro -- dič -- ka zro -- di -- la Krá -- le,
@@ -2179,9 +2179,8 @@
     \header {
       quid = "3. ant."
       modus = "VII"
-      differentia = "d"
+      differentia = "c"
       psalmus = "Žalm 149"
-      placet = "úvodní skok pryč; _trvá navěky_ lépe"
       id = "bohorodicka-rch-a3"
       piece = \markup {\sestavTitulek}
     }
