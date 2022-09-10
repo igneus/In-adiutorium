@@ -133,6 +133,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "zdrojová antifona se změnila"
     fial = "antifony/velikonoce_tyden2_3utery.ly#rch-a1?delsi_text"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -217,13 +218,13 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    g g( a) g( f) d d f f f g g( f) f \barFinalis
+    g g f g( a) g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a g( a) g g f g a a( g) \barMax
+    a4( bes) a a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g( f) d d f f f g g( f) f \barFinalis
+    g g f g( a) g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -346,7 +347,7 @@
     \choralniRezim
     a4 b c d c \barMin
     d e c d c a \barMin
-    g( f g) a a g g \barFinalis
+    g( f) a a g g \barFinalis
   }
   \addlyrics {
     Svou ve -- leb -- nos -- tí
@@ -358,7 +359,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 8"
-    placet = "melodie _králi_ na daném místě rytmicky nesedí"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -416,15 +416,15 @@
 
     % R
     \neviditelna d
-    f4 f f f f f f f g f f \barMin
-    f f f g f g g a a( g) \barMax
-    g( a g) f( d) f g g f f \barFinalis
+    f4 f f f f f f f f( g) f f \barMin
+    f f f g f f g a a( g) \barMax
+    f d f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a a a a g( a) g \barMin g g g g g g g f g( a) \barMax
+    a4 a a a a a a g( a) g \barMin g g g g( a) g g f g g( a) \barMax
     % R
     \neviditelna a
-    g( a g) f( d) f g g f f \barFinalis
+    f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -440,7 +440,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "nepotřebná a nevhodná ozdoba na _kadidelnice_"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -449,13 +448,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c) a g a f f g g \barMax
-    a( d c) c \barMin b c( d) b g a( g) f \barMaior
-    d e f a( g) f f( g) g \barFinalis
+    g4 g g( c) a g a g f g g \barMaior
+    a( c) c \barMin c d c d d( c) c \barMaior
+    c b g a g f( g) g \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el ře -- kl Ma -- ri -- i:
-    Poč -- neš a po -- ro -- díš sy -- na
+    Poč -- neš
+    a po -- ro -- díš sy -- na
     a dáš mu jmé -- no Je -- žíš.
   }
   \header {
@@ -463,8 +463,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_Počneš_ se mi moc nelíbí; _jméno_ by udělalo lépe, kdyby ctilo obvyklé pořádky závěru modu VIII
-    ze spodního tetrachordu, nesahalo na a, a už vůbec ne obkrok"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
