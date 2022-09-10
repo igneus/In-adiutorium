@@ -39,7 +39,7 @@ def edit_fial(fial_str, variationes: false)
 
   unless id_line
     STDERR.puts "could not find #{fial_str}"
-    return
+    return false
   end
 
   score_line =
@@ -47,6 +47,8 @@ def edit_fial(fial_str, variationes: false)
     line.to_i
 
   `frescobaldi --line #{score_line} #{file}`
+
+  true
 end
 
 
@@ -60,6 +62,9 @@ end.parse!
 
 STDERR.puts 'please specify FIAL' if ARGV.empty?
 
+success = true
 ARGV.each do |fial|
-  edit_fial fial, variationes: variationes
+  success &&= edit_fial(fial, variationes: variationes)
 end
+
+exit 1 unless success
