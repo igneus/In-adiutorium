@@ -58,8 +58,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') f f( g) g \barMin g f g g a g( bes) a \barMaior
     a g a g g g g f e d( c) c( d) d \barFinalis
@@ -73,10 +76,62 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    id = ""
+    placet = "nic moc; _ruce k nebi_ je nezpěvné"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a( c) a a g f g( a) g \barMaior
+    g a g f( e) d( c) \barMin
+    d f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Mar -- tin po -- zdvi -- ho -- val
+    o -- či i ru -- ce k_ne -- bi
+    a ne -- ú -- nav -- ně
+    se -- tr -- vá -- val v_mod -- lit -- bě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a( c) a a g f g( a) g \barMaior
+    g \mark\sipka f g f( e) d( c) \barMin
+    d f \mark\sipka f f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mar -- tin po -- zdvi -- ho -- val
+    o -- či i ru -- ce k_ne -- bi
+    a ne -- ú -- nav -- ně
+    se -- tr -- vá -- val v_mod -- lit -- bě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
