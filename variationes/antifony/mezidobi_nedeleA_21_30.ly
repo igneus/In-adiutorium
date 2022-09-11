@@ -1387,6 +1387,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"30. neděle"}}
 
 \score {
@@ -1415,6 +1417,34 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin d( e) f d d \barMin
+    f e d c c \barMaior
+    a c d d( f) f \barMin
+    f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší
+    a ce -- lou svou mys -- lí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?zacatek&zjednoduseno"
+    id = "ne30a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
