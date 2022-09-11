@@ -232,12 +232,12 @@
 \markup {\nadpisDen {"24. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f( a) \barMin a g f g( f) f \barMin f g g g f( e d c) c \barMaior
-    d d d d f e f f g f e d( e) d d \barMaior
-    d f( g a) g g a g f( g) g( f) f \barMin
-    e f g f( e) d d \barFinalis
+    a4 g( a) \barMin a g a c( a) a \barMin a a g f e( f d c) c \barMaior
+    d f f f g f g g a g f f( g) f f \barMaior
+    f g f f e f d c c \barMin
+    d c d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Kdo z_vás, když má sto ov -- cí a jed -- nu z_nich ztra -- tí,
@@ -248,11 +248,10 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f"
+    differentia = "a2"
     psalmus = ""
     annus = "C"
     id = "ne24c-ne1-mag"
-    fons = "melodie volně podle antifony k Magnificat druhých nešpor této neděle"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -260,10 +259,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f f( a) g g( a bes a) a \barMin
-    a a a a a g a bes( a) g( a) g \barMaior
-    g a g f e d d \barMin
-    d d f e f g a g f f \barFinalis
+    f4 f f f g( a) f f( g) g \barMin
+    a a g f e f d d c c \barMaior
+    c d f g f g g \barMaior
+    a g f( g) f f \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
     V_ne -- bi bu -- de vět -- ší ra -- dost
@@ -274,8 +273,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne24c-rch-ben"
@@ -287,11 +286,11 @@
   \relative c' {
     \choralniRezim
     f4 g f( a) a \barMin
-    a a a a g f f g( f) f \barMin
+    a a g f g f g g( f) f \barMin
     f g g g f( e d c) c \barMaior
-    d d d( f) e d( e) d d \barMin
-    d f( g a) g f g( f g) g( f) f \barMin
-    e f g f( e) d d \barFinalis
+    c d d( f) f g( a) f f \barMin
+    f g f f e( f) d( c) d( c) \barMin
+    d c d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Kte -- rá že -- na,
