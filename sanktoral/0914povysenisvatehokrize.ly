@@ -389,12 +389,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g f( g) \barMaior
-    g a c d( c a c b g) a( g) \barMin f f f f( g) g \barMax
+    g4 g g f g g( a) \barMaior
+    a b c \[ d( c a \] \[ c b g) \] a( g) \barMin f f f f( g) g \barMax
     d( f g) g g g( a f) f( g) g \barMaior
-    a( c g) a( g) f f \barMin f f f( g) g \barMaior
-    g g( f g) g( a) a \barMin a( b) a g g \barMax
-
+    a( c g) a( g) f f f f f( g) g \barMaior
+    g g( f g) g( a) a \barMin a( b) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ži -- vo -- to -- dár -- ný kříž
@@ -409,7 +409,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "cézura po _zahlazuje_ pryč"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

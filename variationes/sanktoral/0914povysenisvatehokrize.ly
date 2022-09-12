@@ -663,6 +663,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g f( g) \barMaior
     g a c d( c a c b g) a( g) \barMin f f f f( g) g \barMax
@@ -699,6 +700,63 @@
     a( c g) a( g) f f \mark\sipka f f f( g) g \barMaior
     g g( f g) g( a) a \barMin a( b) a g g \barMax
     \mark\sipka a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ži -- vo -- to -- dár -- ný kříž
+    při -- ná -- ší ra -- dost ce -- lé -- mu svě -- tu:
+    ví -- těz -- ně kra -- lu -- je,
+    za -- hla -- zu -- je kaž -- dou vi -- nu
+    a při -- ná -- ší svě -- tu spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g( a) \barMaior
+    \mark\sipka a b c \[ d( c a \] \[ c b g) \] a( g) \barMin f f f f( g) g \barMax
+    d( f g) g g g( a f) f( g) g \barMaior
+    a( c g) a( g) f f f f f( g) g \barMaior
+    g g( f g) g( a) a \barMin a( b) a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ži -- vo -- to -- dár -- ný kříž
+    při -- ná -- ší ra -- dost ce -- lé -- mu svě -- tu:
+    ví -- těz -- ně kra -- lu -- je,
+    za -- hla -- zu -- je kaž -- dou vi -- nu
+    a při -- ná -- ší svě -- tu spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) \barMaior
+    a b c \[ d( c a \] \[ c b g) \] a( g) \barMin f f f f( g) g \barMax
+    \mark\sipka d( f) f( g) g g( a f) f( g) g \barMaior
+    a( c g) a( g) f f f f f( g) g \barMaior
+    g \mark\sipka f( g) g( a) a \barMin a( b) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ži -- vo -- to -- dár -- ný kříž
