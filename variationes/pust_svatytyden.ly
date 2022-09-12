@@ -3062,7 +3062,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 g( a) a \barMin
       a e a g( f) e e \barMaior
@@ -3087,6 +3087,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "od _vás předejdu_ lépe"
       id = "ne-2ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -3117,6 +3118,69 @@
       annus = "A"
       modus = "IV"
       differentia = "E"
+      psalmus = ""
+      id = "ne-2ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( a) a \barMin
+      a e a g( f) e e \barMin
+      d c d f( g) f e d e e \barMax
+      a a g a a( b a) g g( a) \barMin
+      a \mark\sipka a g f a g f e e \barMaior
+      \mark\sipka f g a g e e \barMin
+      f d e \barFinalis
+    }
+    \addlyrics {
+      Je psá -- no:
+      Bu -- du bít pas -- tý -- ře
+      a ov -- ce stá -- da se roz -- prch -- nou.
+      A -- le po svém vzkří -- še -- ní
+      vás pře -- de -- jdu do Ga -- li -- le -- je,
+      tam mě u -- vi -- dí -- te,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ne-2ne-amag-A"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g( a) a \barMin
+      a e a g( f) e e \barMin
+      d c d f( g) f e d e e \barMax
+      a a g a a( b a) g g( a) \barMin
+      a a g f a g f e e \barMaior
+      \mark\sipka a a b g e e \barMin
+      f d e \barFinalis
+    }
+    \addlyrics {
+      Je psá -- no:
+      Bu -- du bít pas -- tý -- ře
+      a ov -- ce stá -- da se roz -- prch -- nou.
+      A -- le po svém vzkří -- še -- ní
+      vás pře -- de -- jdu do Ga -- li -- le -- je,
+      tam mě u -- vi -- dí -- te,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "A"
+      modus = "IV"
+      differentia = "g"
       psalmus = ""
       id = "ne-2ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}

@@ -625,12 +625,12 @@
     \relative c'' {
       \choralniRezim
       a4 g( a) a \barMin
-      a e a g( f) e e \barMaior
+      a e a g( f) e e \barMin
       d c d f( g) f e d e e \barMax
       a a g a a( b a) g g( a) \barMin
-      a g( a) g f a g f e e \barMaior
-      f( g a) a b g e e \barMin
-      g f e \barFinalis
+      a a g f a g f e e \barMaior
+      a a b g e e \barMin
+      f d e \barFinalis
     }
     \addlyrics {
       Je psá -- no:
@@ -647,7 +647,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "od _vás předejdu_ lépe"
       id = "ne-2ne-amag-A"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
