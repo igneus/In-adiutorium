@@ -521,6 +521,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -566,6 +567,103 @@
     % R
     \neviditelna a
     g g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response K_to -- bě se u -- tí -- kám, Hos -- po -- di -- ne,_*
+    ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \Verse Bu -- du já -- sat nad tvým sli -- to -- vá -- ním,_*
+    \Response ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka g( a) g \barMin g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response K_to -- bě se u -- tí -- kám, Hos -- po -- di -- ne,_*
+    ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \Verse Bu -- du já -- sat nad tvým sli -- to -- vá -- ním,_*
+    \Response ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka g( a g) g \barMin g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response K_to -- bě se u -- tí -- kám, Hos -- po -- di -- ne,_*
+    ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \Verse Bu -- du já -- sat nad tvým sli -- to -- vá -- ním,_*
+    \Response ať ne -- jsem za -- han -- ben na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a g( a g) g \barMin g g \mark\sipka f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g( f) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
