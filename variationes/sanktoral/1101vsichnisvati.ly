@@ -1016,10 +1016,53 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    id = ""
+    placet = "začátek o sekundu nahoru; zkusit celou lépe?"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g g( a) a \barMin b c a g a g f \barMaior
+    \mark\sipka c' d d c \barMin a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin b c a g a g f \barMaior
+    \mark\sipka c' b c a \barMin g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

@@ -1170,6 +1170,168 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f g a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g f f( g) g \barMax
+
+    g g g a g a b( c) c \barMin
+    c b a b g g \barMaior
+    g g( a) a a f( g) g( a) a \barMin
+    c c d c b a a( b) g g \barMaior
+
+    g4 a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    všech -- ny je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Dnešního dne se zasnoubila církev s nebeským ženichem,
+    protože Kristus smyl v Jordáně její viny;
+    mudrci spěchají s dary na královskou svatbu
+    a hosté se radují z vody proměněné ve víno. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    placet = "melisma na _hosté_ se mi zdá nadbytečné; _ve víno_ půjde lépe; snese se změna z _nebeskou_ na oficiální _královskou_ s aktuální melodií?"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{Oficiální text:}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f g a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    \mark\sipka b4( c) a g g \barMax
+
+    g g g a g a b( c) c \barMin
+    c b a b g g \barMaior
+    g g( a) a a f( g) g( a) a \barMin
+    c c d c b a a( b) g g \barMaior
+
+    g4 a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f g a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g g \barMax
+
+    g g g a g a b( c) c \barMin
+    c b a b g g \barMaior
+    g \mark\sipka a a a f( g) g( a) a \barMin
+    c c d c b a a( b) g g \barMaior
+
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f g a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g g \barMax
+
+    g g g a g a \mark\sipka a( c) c \barMin
+    \mark\sipka d c b c a a \barMaior
+    \mark\sipka a g a a f( g) g( a) a \barMin
+    c c \mark\sipka b c a g a( g) f( g) g \barMaior
+
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
