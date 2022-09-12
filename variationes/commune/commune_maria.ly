@@ -2346,7 +2346,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior
@@ -2375,6 +2375,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior

@@ -44,7 +44,7 @@
     c( d e) d c d( c a g) g \barMaior
     c( d c) b( g) a( g) \barMin
     f a c c b a g( a) g \barMaior
-    g a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la

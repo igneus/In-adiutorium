@@ -72,13 +72,43 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( b) a( b) a \barMin
     c( d e) d c d( c a g) g \barMaior
     c( d c) b( g) a( g) \barMin
     f a c c b a g( a) g \barMaior
     g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 147-II"
+    fial = "commune/commune_maria.ly#rch-aben"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c( b) a( b) a \barMin
+    c( d e) d c d( c a g) g \barMaior
+    c( d c) b( g) a( g) \barMin
+    f a c c b a g( a) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la

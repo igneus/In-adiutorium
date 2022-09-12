@@ -564,7 +564,7 @@
     c( d c) b( g) a( g) \barMin
     f a c c b a g( a) g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la
