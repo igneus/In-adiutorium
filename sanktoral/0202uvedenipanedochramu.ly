@@ -122,12 +122,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c) d d( f) f g( f g) f e d4. d \barMaior
-    d4 d( e) c4. c \barMin
-    d4 c b c a a \barMax
-    a( e') e e f( d) d \barMin
-    d e f e e \barMaior
-    e f g f e d d \barFinalis
+    d4 d c d f g a g g \barMaior
+    g g( a) g f( g) \barMin f d f e d( c) c \barMax
+    c( d) d d f( g a g) f( g) \barMin
+    a bes a g( f g) g \barMaior
+    f d d f e c( d) d \barFinalis
   }
   \addlyrics {
     Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
@@ -138,10 +137,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "nezpěvná; závěr divný, nesedí v modu"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

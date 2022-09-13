@@ -189,8 +189,18 @@
 
 \pageBreak
 
+\markup\justify{
+  Tradiční antifona (AR1912 529, CANTUS 004864).
+  Český překlad je značně zplošťující.
+}
+\markup\justify\italic{
+  Senex púerum portábat, puer autem senem regébat;
+  quem Virgo péperit, et post partum Virgo permánsit; ipsum quem génuit adorávit.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) d d( f) f g( f g) f e d4. d \barMaior
     d4 d( e) c4. c \barMin
@@ -211,10 +221,94 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nezpěvná; závěr divný, nesedí v modu"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f g) f e d d \barMaior
+    d4 d( e) c c \barMin
+    a c d e d d \barMax
+    f e d e( c) c \barMin
+    d c b a a \barMaior
+    c d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f g) f e d d \barMaior
+    d4 d( e) c c \barMin
+    a c d e d d \barMax
+    f e \mark\sipka f f( g) g \barMin
+    g f e d d \barMaior
+    d e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f g a g g \barMaior
+    g g( a) g f( g) \barMin f d f e d( c) c \barMax
+    c( d) d d f( g a g) f( g) \barMin
+    a bes a g( f g) g \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
