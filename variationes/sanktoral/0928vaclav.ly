@@ -1800,6 +1800,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g f d e \barMaior
     f g g bes a( g) f \barMin e d c c( d) d \barFinalis
@@ -1844,6 +1845,51 @@
 \markup{
   Zatím se mi původní varianta s krokem na _a_
   líbí víc než všechny její vyzkoušené úpravy, které ho eliminují.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g f d e \barMaior
+    \mark\sipka e f( g) g bes a( g) f \barMin
+    e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vel -- ko -- duš -- ně při -- jal smrt
+    a svě -- řil svou du -- ši
+    do ru -- kou Bo -- žích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 bes a g f d e \barMaior
+    e f( g) g bes a( g) f \barMin
+    e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vel -- ko -- duš -- ně při -- jal smrt
+    a svě -- řil svou du -- ši
+    do ru -- kou Bo -- žích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
 \pageBreak
