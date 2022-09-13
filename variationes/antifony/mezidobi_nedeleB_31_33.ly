@@ -123,8 +123,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) g f f( g f4. d) \barMaior
     f4 f g( f) f \barMin f g a f e d e( f) d d \barMaior
@@ -145,6 +148,57 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a g) \barMaior
+    f4 g g( a) a \barMin
+    a a a g f g g f f \barMaior
+    g-- f( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý ať dá
+    po -- dle to -- ho,
+    jak se sám u se -- be roz -- ho -- dl,
+    ne s_těž -- kým srd -- cem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 \mark\sipka g a g( a) \barMin
+    g f f( g) g \barMaior
+    a a a g f g g f f \barMaior
+    g-- f( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý ať dá
+    po -- dle to -- ho,
+    jak se sám u se -- be roz -- ho -- dl,
+    ne s_těž -- kým srd -- cem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

@@ -125,12 +125,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) g f f( g f4. d) \barMaior
-    f4 f g( f) f \barMin f g a f e d e( f) d d \barMaior
-    \[ f( g f \] \[ a f e) \] d c c( d) d \barFinalis
+    f4 g a g( a) \barMin
+    g f f( g) g \barMaior
+    a a a g f g g f f \barMaior
+    g-- f( g f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Kaž -- dý ať dá po -- dle to -- ho,
+    Kaž -- dý ať dá
+    po -- dle to -- ho,
     jak se sám u se -- be roz -- ho -- dl,
     ne s_těž -- kým srd -- cem.
   }
@@ -139,7 +141,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "na _ne_ dlouhé melisma rozhodně nepatří"
     id = "ne32b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
