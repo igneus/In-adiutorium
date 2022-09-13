@@ -191,26 +191,22 @@
 % a stal se jeho druhem v utrpení.
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    f4 f f( a) g f \barMin g e f d( c) c \barMaior
-    c d e f( g) f g a bes a g( a) a \barMaior
-    a bes bes a g a g f e c( d) d \barFinalis
+    g4 a c d d \barMin d e c c( d) d \barMaior
+    d e d c( d) c \barMin b c a g a( g) g \barMaior
+    a f( g a) a \barMin c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
     byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
-    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+    a o -- ba pod -- stou -- pi -- li smrt na kří -- ži.
   }
   \header {
-    fons_externus = "text podle breviáře OP"
-    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "zkusit zhudebnit oficiální text z DMC"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -365,7 +365,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f f( a) g f \barMin g e f d( c) c \barMaior
@@ -385,6 +385,224 @@
     differentia = "f"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    \key f \major
+    f4 f f( a) g f \barMin g e f d( c) c \barMaior
+    c d e f( g) f g a bes a g( a) a \barMaior
+    a bes bes a g a g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    placet = "zkusit zhudebnit oficiální text z DMC"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f f( g) f f \barMin g e f d( c) c \barMaior
+    c d f f( g) g a bes a g f( g) g \barMaior
+    g a a g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d \barMin d e c c( d) d \barMaior
+    d c d c b c c a g a( g) g \barMaior
+    g f g a b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 b c d d \barMin d e c c( d) d \barMaior
+    d \mark\sipka d d c( d) c \barMin b c a g a( g) g \barMaior
+    g f g a b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d \barMin d e c c( d) d \barMaior
+    d d d c( d) c \barMin b c a g a( g) g \barMaior
+    \mark\sipka g f( g a) a \barMin c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a o -- ba pod -- stou -- pi -- li smrt na kří -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d \barMin d e c c( d) d \barMaior
+    d d d c( d) c \barMin b c a g a( g) g \barMaior
+    \mark\sipka a f( g a) a \barMin c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a o -- ba pod -- stou -- pi -- li smrt na kří -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a c d d \barMin d e c c( d) d \barMaior
+    d \mark\sipka e d c( d) c \barMin b c a g a( g) g \barMaior
+    a f( g a) a \barMin c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a o -- ba pod -- stou -- pi -- li smrt na kří -- ži.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c d( e) d d \barMin d e c c( d) d \barMaior
+    d d d c( d) c \barMin b c a g a( g) g \barMaior
+    g f g a b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin d c b a( g) g \barMaior
+    a g f g( a) a \barMin c b c e e( d) d \barMaior
+    d c d c b a( g) g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
+    byl rod -- ným brat -- rem a -- po -- što -- la Pet -- ra
+    a stal se je -- ho dru -- hem v_u -- tr -- pe -- ní.
+  }
+  \header {
+    fons_externus = "text podle breviáře OP"
+    textus_approbatus = "Kristův služebník, apoštol Ondřej, byl rodným bratrem apoštola Petra a oba podstoupili smrt na kříži."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
