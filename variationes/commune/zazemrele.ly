@@ -375,6 +375,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) d d e e( f) f \barMin
     f g d d f( e) d d \barFinalis
@@ -399,6 +400,27 @@
     \choralniRezim
     d4 c f e f g \barMin
     g a f f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f e f g \barMin
+    g a f \mark\sipka e f d d \barFinalis
   }
   \addlyrics {
     Za -- chraň, Hos -- po -- di -- ne,

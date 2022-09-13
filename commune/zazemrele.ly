@@ -278,8 +278,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c) d d e e( f) f \barMin
-    f g d d f( e) d d \barFinalis
+    d4 c f e f g \barMin
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Za -- chraň, Hos -- po -- di -- ne,
@@ -290,7 +290,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_Hospodine_ je divné"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -440,8 +439,6 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
-
-\pageBreak % ZLOM
 
 \markup\italic{Nebo:}
 
