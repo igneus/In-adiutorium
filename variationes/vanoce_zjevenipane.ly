@@ -2349,8 +2349,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4 g a( b) a g( a g) g( f e) e \barMaior
       e e( f) f( e) e g g a g( f) e e \barMaior
@@ -2366,10 +2369,176 @@ ale na diferenci žalmového nápěvu?}
       modus = "IV"
       differentia = "E"
       psalmus = ""
-      id = ""
+      placet = "nepříliš zpěvná, hlavně v druhé části"
+      id = "10-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g g( a) a g( a g) g( f e) e \barMaior
+      e d( c) d( e) e \barMin f e d f( g) a g
+      f g f( e) e \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a g a( g) f( g) g \barMaior
+      g f( a) c( d) c \barMin
+      c c c b( a) g g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      fons_externus = "volně podle AR1912, 276"
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a g a( g) f( g) g \barMaior
+      g f( a) c( d) c \barMin
+      c c c \mark\sipka b( c) a a
+      b a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      fons_externus = "volně podle AR1912, 276"
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a g a( g) f( g) g \barMaior
+      g f( a) c( d) c \barMin
+      \mark\sipka d e c d( c) a a
+      g f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "V"
+      differentia = "a"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a c d d \barMaior
+      d d( e) d d \barMin
+      c b a c( b) a( g) g \barMin
+      f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a c d d \barMaior
+      d \mark\sipka e( d) c( d) c \barMin
+      c c c b( a) g g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c b a \mark\sipka c( d) e( d) d \barMaior
+      d e( d) c( d) c \barMin
+      c c c b( a) g g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisDen {11. ledna}}
 

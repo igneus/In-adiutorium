@@ -823,11 +823,12 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      e4 g a( b) a g( a g) g( f e) e \barMaior
-      e e( f) f( e) e g g a g( f) e e \barMaior
-      d c d( e) e \barFinalis
+      c4 c b a c( d) e( d) d \barMaior
+      d e( d) c( d) c \barMin
+      c c c b( a) g g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Při -- jdou všich -- ni ze Sá -- by
@@ -836,10 +837,9 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "IV"
-      differentia = "E"
+      modus = "VII"
+      differentia = "c"
       psalmus = ""
-      placet = "nepříliš zpěvná, hlavně v druhé části"
       id = "10-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
