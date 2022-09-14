@@ -1034,6 +1034,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e( d) c \barMin
+    f( g a) a( g) g \barMaior
+    a g f d d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c d d \barMin

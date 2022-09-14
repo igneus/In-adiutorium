@@ -2966,6 +2966,34 @@ ale na diferenci žalmového nápěvu?}
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "melisma z _v něm_ pryč; závěr lépe"
+      id = "krtu-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( f e c) d \barMin
+      c( a) b c d d \barMin
+      \mark\sipka c4 b g a( g) g \barMaior
+      a a g f
+      g a g g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      v_něm má O -- tec
+      za -- lí -- be -- ní.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "krtu-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
