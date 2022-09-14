@@ -223,7 +223,7 @@
     d4 d d( a') a \barMin
     a c c b a g( a) a \barMaior
     a( g f) g-- d d d( f) e c( d) d \barMaior
-    c d e( d) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Sva -- tý kří -- ži,
@@ -381,6 +381,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "_září_ je intonačně náročné, v tradičním repertoáru antifon oficia se motiv nezdá být obvyklý"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -477,7 +478,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a( g) g( a) \barMin a( c) c c b a b( c) a a \barMaior
+    d4( a') a( g) g( a) \barMin a( c) c c b g b( c) a a \barMaior
     a a a g( f) f f g g e e \barMax
     a a c( b c) a( g) g \barMin f g g( a) f( e) e \barMaior
     d( f e) f( d) d c c( d) d d \barFinalis
@@ -528,8 +529,8 @@
     \choralniRezim
     d4 a' a g b( c a) a \barMin
     g f f g g e e \barMax
-    a a g g( a) a g f g g a a \barMaior
-    g f f( g) f( e) d( e) \barMin
+    a g a c a \barMin c b c a( g) g( a) a \barMaior
+    f d f( g a) g f( g) \barMin
     e( f) d c c( d) d \barFinalis
   }
   \addlyrics {
@@ -549,6 +550,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
@@ -557,7 +560,7 @@
     g4 a b c b a b \barMin
     b b c d c b a a \barMaior
     a a g g f( e d e) d \barMin
-    f g( a c) b( a) a \barMin c( d a) a( g) f( g a) g \barFinalis
+    f g( a c) b( a) b \barMin c( d a) a( g) f( g a) g \barFinalis
   }
   \addlyrics {
     Po -- di -- vu -- hod -- né dí -- lo
@@ -570,7 +573,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
-    placet = "_zemřel_ drhne"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -634,16 +636,15 @@
 
     % R
     \neviditelna c
-    % c4 c c( a) c d d \barMin c c c c c c( a) a c c d d \barMax
     d d e( f g) a f e \barMaior
     f g a a( bes) a \barMin bes( c d) c bes a( bes) a a \barMax
-    a a g f g( a) g \barMin g( f g) f e d( e d) d \barFinalis
+    a a g f g( a) g \barMin g f e d( e d) d \barFinalis
     % V
     \neviditelna a'
     a a( bes) a \barMin bes( c d) c bes a bes bes a a \barMax
     % R
     \neviditelna a
-    a a g f g( a) g \barMin g( f g) f e d( e d) d \barFinalis
+    a a g f g( a) g \barMin g f e d( e d) d \barFinalis
     % Slava
     a' a a( bes) a c d( c bes c) a \barMin a g f g( bes) a a \barFinalis
   }
