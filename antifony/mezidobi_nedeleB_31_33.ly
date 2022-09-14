@@ -68,12 +68,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g( bes) a \barMin
-    a a g f g( f) f( g) g \barMin f g f e f( e) d d \barMin
-    e( f) d d \barMaior
-    d( a' f) g f e d( c) \barMin d f e d c( d) d d \barFinalis
+    f4 e d f( g a) g \barMin
+    a a a a g f f e f d c d c c \barMin
+    d( e f) d d \barMaior
+    f( g a) g f( g) f f \barMin e f d c c d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš vi -- děl,
@@ -84,9 +84,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = ""
-    placet = "lépe"
     id = "ne31b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

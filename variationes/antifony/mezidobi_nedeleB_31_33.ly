@@ -68,8 +68,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( bes) a \barMin
     a a g f g( f) f( g) g \barMin f g f e f( e) d d \barMin
@@ -92,6 +95,129 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g a) g \barMin
+    a a g f f( g) f f e f d c d c c \barMin
+    d( f g) f f \barMaior
+    g( a) g f( g) f f \barMin e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vi -- děl,
+    že u -- či -- tel Zá -- ko -- na od -- po -- vě -- děl ro -- zum -- ně,
+    ře -- kl mu:
+    Ne -- jsi da -- le -- ko od Bo -- ží -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne31b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g a) g \barMin
+    a a \mark\sipka a a g f f e f d c d c c \barMin
+    d( f g) f f \barMaior
+    g( a) g f( g) f f \barMin e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vi -- děl,
+    že u -- či -- tel Zá -- ko -- na od -- po -- vě -- děl ro -- zum -- ně,
+    ře -- kl mu:
+    Ne -- jsi da -- le -- ko od Bo -- ží -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne31b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g a) g \barMin
+    a a a a g f f e f d c d c c \barMin
+    \mark\sipka d( e f) d d \barMaior
+    f( g) a g f e( d) \barMin e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vi -- děl,
+    že u -- či -- tel Zá -- ko -- na od -- po -- vě -- děl ro -- zum -- ně,
+    ře -- kl mu:
+    Ne -- jsi da -- le -- ko od Bo -- ží -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne31b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g a) g \barMin
+    a a a a g f f e f d c d c c \barMin
+    d( e f) d d \barMaior
+    \mark\sipka f( g a) g f g g( f) \barMin e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vi -- děl,
+    že u -- či -- tel Zá -- ko -- na od -- po -- vě -- děl ro -- zum -- ně,
+    ře -- kl mu:
+    Ne -- jsi da -- le -- ko od Bo -- ží -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne31b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e d f( g a) g \barMin
+    a a a a g f f e f d c d c c \barMin
+    d( e f) d d \barMaior
+    f( g a) g \mark\sipka f( g) f f \barMin e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš vi -- děl,
+    že u -- či -- tel Zá -- ko -- na od -- po -- vě -- děl ro -- zum -- ně,
+    ře -- kl mu:
+    Ne -- jsi da -- le -- ko od Bo -- ží -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne31b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"32. neděle"}}
 
