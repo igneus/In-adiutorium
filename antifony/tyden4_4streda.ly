@@ -196,7 +196,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a a a b a g( f) e \barMin c d d d d f f e \barFinalis
+    a4 a a a g f g f g( a) a \barMin
+    a g a g f d e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
@@ -207,7 +208,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 94-II"
-    placet = "zkusit lépe"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

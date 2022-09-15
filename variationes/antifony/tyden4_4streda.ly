@@ -823,6 +823,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a a a b a g( f) e \barMin c d d d d f f e \barFinalis
   }
@@ -882,9 +883,29 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     g4 a a a g f g f g( a) a \barMin
+    a g a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
+    a po -- si -- lou mé na -- dě -- je.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 94-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a a a g f g f g( a) a \barMin
     a g a g f d e e \barFinalis
   }
   \addlyrics {
