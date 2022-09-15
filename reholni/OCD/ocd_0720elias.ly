@@ -117,17 +117,19 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 d d c \barMin
+    c c a c b g g \barFinalis
   }
   \addlyrics {
-    Živý je Bůh, před jehož tváří stojím.
+    Ži -- vý je Bůh,
+    před je -- hož tvá -- ří sto -- jím.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup\sestavTitulek
@@ -159,17 +161,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g b c d( e) d \barMaior
+    e d c a a \barMin
+    c b a g g \barFinalis
   }
   \addlyrics {
-    Planu horlivostí pro Hospodina, Boha zástupů.
+    Pla -- nu hor -- li -- vos -- tí
+    pro Hos -- po -- di -- na,
+    Bo -- ha zá -- stu -- pů.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup\sestavTitulek
@@ -228,17 +234,19 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 b c d d c d e d \barMaior
+    c b a( b) g g a b g \barFinalis
   }
   \addlyrics {
-    Eliáš volal k Hospodinu a On vyslyšel jeho hlas.
+    E -- li -- áš vo -- lal k_Hos -- po -- di -- nu
+    a On vy -- sly -- šel je -- ho hlas.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
@@ -246,17 +254,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 b c d( e) d \barMin
+    e f e d c d d \barMaior
+    c b a c b a( g) g \barFinalis
   }
   \addlyrics {
-    Eliáš planul horlivostí pro Zákon a byl vzat na nebesa.
+    E -- li -- áš pla -- nul
+    hor -- li -- vos -- tí pro Zá -- kon
+    a byl vzat na ne -- be -- sa.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
@@ -264,17 +276,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d d b d d c b g g \barMaior
+    a f( g a) a \barMin
+    c b a g g f g a a( g) g \barFinalis
   }
   \addlyrics {
-    Z nebe spadl Hospodinův oheň a pozřel Eliášovu zápalnou oběť.
+    Z_ne -- be spa -- dl Hos -- po -- di -- nův o -- heň
+    a po -- zřel
+    E -- li -- á -- šo -- vu zá -- pal -- nou o -- běť.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
@@ -286,15 +302,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d f( g) g \barMin a( bes) a g( f g) g \barMaior
+    g a g f( e d) d \barMin
+    e c f e d( e) d d \barFinalis
   }
   \addlyrics {
-    Eliáš povstal jako oheň a jeho slovo plálo jako pochodeň.
+    E -- li -- áš po -- vstal ja -- ko o -- heň
+    a je -- ho slo -- vo
+    plá -- lo ja -- ko po -- cho -- deň.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 111"
     id = "ne-a1"
     piece = \markup\sestavTitulek
@@ -302,17 +322,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a c b a b g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
-    Jestliže Hospodin je Bůh, jděte za ním!
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 115"
     id = "ne-a2"
     piece = \markup\sestavTitulek
