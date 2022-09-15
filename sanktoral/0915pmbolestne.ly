@@ -20,7 +20,7 @@
     d4( a') a \barMin g( a) bes c bes( a) a \barMin
     bes( a) g a g f( e) e \barMaior
     f g a a( bes) a a g f g f e \barMin
-    f( g) f d d \barFinalis
+    f d c( d e) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -64,9 +64,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g g g( a) a \barMaior
+    a4 f g g g( a) a \barMin
     a c a b g \barMin
-    f f f f g f e e \barFinalis
+    f g a a g f e e \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se z_to -- ho,
@@ -160,19 +160,22 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "půjde lépe - chybí jí kus spádu a zpěvnosti"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a( d c) a a d d \barMaior
-    c c d e4. c \barMin d4 c b c( a) a \barFinalis
+    a4 a a a( c) b c d d \barMaior
+    d c d e4. c \barMin d4 c b c( a) a \barFinalis
   }
   \addlyrics {
     Kris -- tus je dár -- ce po -- ko -- je,
@@ -216,10 +219,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d f d c( e) d \barMin
-    d e c c a \barMaior
-    a bes c d f( e d e) d \barMin
-    f f f g f d c( d e) d \barFinalis
+    d4 d d d f e d( e) c \barMin
+    d f e e d \barMaior
+    f f f f e( f d c) c \barMin
+    d d d f e d c( d e) d \barFinalis
   }
   \addlyrics {
     V_Kris -- tu má -- me vy -- kou -- pe -- ní
@@ -232,7 +235,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
-    placet = "zkusit lépe mj. _vykoupení_"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
