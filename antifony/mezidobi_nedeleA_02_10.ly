@@ -593,24 +593,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f( g) g \barMin g g f e d( e) d d \barMaior
-    a' a a a g a c b g f( g) a \barMaior
-    a a a f( g f) d d \barMin c e( f) d d \barFinalis
+    d4 d e f f( g) g \barMin g g g f e d( e) d d \barMaior
+    a' a a a c b c a g g( a) a \barMaior
+    a g f e f d c e( f) d d \barFinalis
   }
   \addlyrics {
-    Kdo má slo -- va sly -- ší a po -- dle nich ne -- jed -- ná,
-    po -- do -- bá se mu -- ži po -- še -- ti -- lé -- mu,
+    Kdo má slo -- va sly -- ší, a -- le po -- dle nich ne -- jed -- ná,
+    po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
     kte -- rý si po -- sta -- vil dům na pís -- ku.
   }
   \header {
-    textus_approbatus = "Kdo má slova slyší, ale podle nich nejedná,
-    podobá se pošetilému muži, který si postavil dům na písku."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
     psalmus = ""
     annus = "A"
-    placet = "pokud možno upravit na oficiální text"
     id = "ne9a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
