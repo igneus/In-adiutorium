@@ -754,6 +754,8 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -784,6 +786,66 @@
       quid = "2. ant."
       modus = "VII"
       differentia = "b"
+      psalmus = "Dan 3-III"
+      placet = "_Maria ... Spasitele_ hodně slabé"
+      id = "bohorodicka-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a
+      b c a g a g f( g) g \barMaior
+      g g g f( e) d d f( g) g \barMaior
+      a a( c) b a g( a) a \barMaior
+      a g a c4. a \barMin
+      b4 c a( g) g \barMaior
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a nám
+      po -- ro -- di -- la Spa -- si -- te -- le.
+      Když ho Jan u -- vi -- děl, zvo -- lal:
+      Hle, Be -- rá -- nek Bo -- ží,
+      ten, kte -- rý sní -- má
+      hří -- chy svě -- ta.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Dan 3-III"
+      id = "bohorodicka-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d
+      e f e d e c d d \barMaior
+      d d d c b a c( d) d \barMin
+      d d( f) e d c( d) d \barMin
+      d c b a a c( d) d f( e d) d \barMaior
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a nám
+      po -- ro -- di -- la Spa -- si -- te -- le.
+      Když ho Jan u -- vi -- děl, zvo -- lal:
+      Hle, Be -- rá -- nek Bo -- ží,
+      ten, kte -- rý sní -- má
+      hří -- chy svě -- ta.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
       psalmus = "Dan 3-III"
       id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}

@@ -2344,7 +2344,30 @@ ale na diferenci žalmového nápěvu?}
       modus = "V"
       differentia = "a"
       psalmus = ""
-      id = ""
+      placet = "zejm. druhá část je hrozná"
+      id = "10-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g( a) a a g( f) g g f f \barMaior
+      f d f g g
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      Všech -- ny ná -- ro -- dy při -- jdou z_da -- le -- ka
+      se svý -- mi da -- ry.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "10-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

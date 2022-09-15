@@ -1235,6 +1235,140 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) f f e d d d( a') f f( g) f( e) \barMaior
+    d d c f e g( f) f \barMaior
+    g g( a g) f( e) d \barMin d d c d d( e) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    placet = "melisma na _bylo_ určitě pryč"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin d e d c d e e( d) d \barMaior
+    e d c b c a( g) g \barMaior
+    a g( a) a( c) c \barMin d d c b c a g a a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin d e d c d e e( d) d \barMaior
+    e d c b c a( g) g \barMaior
+    a g( a) a( c) c \barMin d \mark\sipka c d e c b g a a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a \mark\sipka c( d) d \barMin e e d c d e e( d) d \barMaior
+    e d c b c a( g) g \barMaior
+    a g( a) a( c) c \barMin d c d e c b g a a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin e e d c d e e( d) d \barMaior
+    e d c b c a( g) g \barMaior
+    a \mark\sipka f( g) g( a) a \barMin c c b c a g g a a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d e d c b c a( g) g \barMaior
+    a a a g f g( a) a \barMaior
+    c b( c) a a \barMin c c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
