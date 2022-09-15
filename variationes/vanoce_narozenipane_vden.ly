@@ -1188,11 +1188,58 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 a a( c) c \barMin
       \mark\sipka a c b( a g) g \barMaior
       a4 f f f e( g) g \barFinalis
+    }
+    \addlyrics {
+      Pán mi ře -- kl:
+      Ty jsi můj Syn,
+      já jsem tě dnes zplo -- dil.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 2"
+      placet = "ten sestupný krok na _Ty_ mi nějak nesedí;;
+      v době opravy mě až tolik nedráždí a víc mi vadí rytmus _můj Syn_"
+      id = "vden-cte-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a( c) c \barMin
+      a c \mark\sipka b( a) g \barMaior
+      a4 a f e f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pán mi ře -- kl:
+      Ty jsi můj Syn,
+      já jsem tě dnes zplo -- dil.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 2"
+      id = "vden-cte-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a a( c) c \barMin
+      \mark\sipka c a c b \barMaior
+      a4 a f e f( g) g \barFinalis
     }
     \addlyrics {
       Pán mi ře -- kl:

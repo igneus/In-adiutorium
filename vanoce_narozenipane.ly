@@ -161,8 +161,8 @@
     \relative c'' {
       \choralniRezim
       g4 a a( c) c \barMin
-      a c b( a g) g \barMaior
-      a4 f f f e( g) g \barFinalis
+      c a c b \barMaior
+      a4 a f e f( g) g \barFinalis
     }
     \addlyrics {
       Pán mi ře -- kl:
@@ -174,7 +174,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 2"
-      placet = "ten sestupný krok na _Ty_ mi nějak nesedí"
       id = "vden-cte-a1"
       piece = \markup {\sestavTitulek}
     }
