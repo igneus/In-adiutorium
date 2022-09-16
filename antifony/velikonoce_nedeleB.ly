@@ -247,9 +247,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') a g( f g) f e f( g) \barMaior
-    g g a4.( g) g4( f) e f d \barMaior
-    d( e f) g( f) e f d( c) c \barMin d f e( d) d \barFinalis
+    d4 d d( a') a g( a) g f g( a) \barMaior
+    a a g( f e) \barMin e( f) d c d \barMaior
+    f f e d c c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Ja -- ko O -- tec mi -- lo -- val mne,_*
@@ -262,7 +263,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "zaslouží trochu péče"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
