@@ -175,6 +175,60 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f f g g \barMin
+    g( a g) f( e) d e( f d) d \barMaior
+    f g a( bes) g g( a) a \barMin
+    a( c) d c( b a b) c( a) \barMaior
+    g( a g d) d \barMin
+    c d \mark\sipka d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- sy -- pa -- la ka -- did -- lo
+    na ol -- tář mod -- lám,
+    a -- le při -- ná -- še -- la
+    o -- běť chvá -- ly
+    Bo -- hu, své -- mu spa -- si -- te -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \mark\sipka bes g g a a \barMin
+    g( a g) f( e) d e( f d) d \barMaior
+    f g a( bes) g g( a) a \barMin
+    a( c) d c( b a b) c( a) \barMaior
+    g( a g d) d \barMin
+    c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- sy -- pa -- la ka -- did -- lo
+    na ol -- tář mod -- lám,
+    a -- le při -- ná -- še -- la
+    o -- běť chvá -- ly
+    Bo -- hu, své -- mu spa -- si -- te -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -517,6 +571,37 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka f4 g a g f( g) d d \barMin
+    f \mark\sipka f( g a) g f g g \barMaior
+    \mark\sipka g a bes( g a g f) g \barMin g( a) f e d( e) d d \barMax
+
+    \mark\sipka d d f( g a) bes( a) g bes a( f) f( g) g \barMaior
+    \mark\sipka f( g) g( a) f e d( e) d d \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- la o -- kem sle -- pé -- mu
+    a no -- hou chro -- mé -- mu;
+    by -- la mat -- kou chu -- dých a si -- rot -- ků;
+
+    je -- jí al -- muž -- ny a mod -- lit -- by
+    vy -- stou -- pi -- ly před Bo -- ha
+    a on si na ně vzpo -- mněl.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -562,7 +647,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -575,6 +660,73 @@
     % R
     \neviditelna a
     g g g a g( f d) d \barMin f f \mark\sipka f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bez -- bož -- ní -- ci na mě čí -- ha -- jí,
+    a -- by mě za -- hu -- bi -- li,_*
+    já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \Verse Kní -- ža -- ta mě stí -- ha -- jí bez dů -- vo -- du._*
+    \Response Já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f( g) f f \barMin f f f g f g( a) a( g) \barMax
+    g \mark\sipka f g a g( f d) d \barMin f f f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \mark\sipka g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka f g a g( f d) d \barMin f f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bez -- bož -- ní -- ci na mě čí -- ha -- jí,
+    a -- by mě za -- hu -- bi -- li,_*
+    já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \Verse Kní -- ža -- ta mě stí -- ha -- jí bez dů -- vo -- du._*
+    \Response Já však dá -- vám po -- zor na tvá při -- ká -- zá -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f( g) f f \barMin \mark\sipka g f f g f g( a) a( g) \barMax
+    g f g a g( f d) d \barMin f \mark\sipka d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g a g( f d) d \barMin f \mark\sipka d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -694,6 +846,66 @@
     d c b c d e e( d) d \barMax
     d d( e) d \barMin
     \mark\sipka d c b a g a g g \barMaior
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
+    se za -- lí -- be -- ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    d d( e) d \barMin
+    \mark\sipka d d c( d) c b a g g \barMaior
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
+    se za -- lí -- be -- ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    d \mark\sipka d( e d) d \barMin
+    c a c b a g( a) g g \barMaior
     f g a a( g) g \barFinalis
   }
   \addlyrics {

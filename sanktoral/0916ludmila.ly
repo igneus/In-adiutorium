@@ -174,13 +174,13 @@
     % R
     \neviditelna f
     f4 f f f f f f( g) f f \barMin f f f g f g( a) a( g) \barMax
-    g g g a g( f d) d \barMin f f f g g( f) f \barFinalis
+    g f g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a g( a) g g \barMin g f g( a) a( g) \barMax
+    a4 a a a g( a) g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g a g( f d) d \barMin f f f g g( f) f \barFinalis
+    g f g a g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
