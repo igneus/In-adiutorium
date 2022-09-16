@@ -1203,6 +1203,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1224,10 +1226,98 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "melodie se mi líbí, ale převrací strukturu souvětí -
+    i ta převrácená výpověď je pravověrná, ale neodpovídá tomu, co je v breviáři napsáno"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c d e( d) d \barMin
+    d e( f) e d c( d) d \barMaior
+    d d d c b a b a a( g) g \barMin
+    a g a c c b c a g a \barMax
+    c d e d c b( a) \barMin
+    b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c d e( d) d \barMin
+    d e( f) e d c( d) d \barMaior
+    d d d c b a b a a( g) g \barMin
+    a g a c c b c a g a \barMax
+    \mark\sipka a c d d( e d) c( b) a( g) \barMin
+    b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c d e( d) d \barMin
+    d e( f) e d c( d) d \barMaior
+    d d d \mark\sipka e d c b g b( c a) a \barMin
+    a g a c c b c a g a \barMax
+    \mark\sipka c d e d c b( a) \barMin
+    b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 

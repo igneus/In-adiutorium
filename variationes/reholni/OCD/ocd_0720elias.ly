@@ -1603,6 +1603,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d c( d) d( f) f \barMin
+    f g g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d c( d) c c \barMin
     d c d f e c d d \barFinalis
   }
@@ -1674,6 +1694,26 @@
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g a) g g \barMin
+    g a a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Zj 11"
     id = "ne-a3"
     piece = \markup\sestavTitulek
