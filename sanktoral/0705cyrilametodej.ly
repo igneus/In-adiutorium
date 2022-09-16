@@ -90,8 +90,6 @@
   }
 }
 
-% Tahle antifona me obzvlast stve:
-% co ma lidska slava spolecneho s Bozim kralovstvim?
 \score {
   \relative c'' {
     \choralniRezim
@@ -107,8 +105,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "_si_ je divné, asi by mělo zůstat na d;
-    pro vyřešení komentáře výše najít, odkud je text vzat - nejspíš je biblický"
+    placet = "_si_ je divné, asi by mělo zůstat na d"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

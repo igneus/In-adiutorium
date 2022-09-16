@@ -290,6 +290,12 @@
 
 \pageBreak
 
+\markup\justify{
+  Odpovídající latinská antifona je volnou parafrází Sir 44, 4.
+  V češtině tenhle subtilní vztah zachován není a jde spíš o prostou
+  hagiografickou výpověď.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -520,8 +526,25 @@
 
 \pageBreak
 
-% Tahle antifona me obzvlast stve:
-% co ma lidska slava spolecneho s Bozim kralovstvim?
+\markup\justify{
+  2012-03-17 (commit 72c40ca6e), tzn. ještě před složením prvního nápěvu antifony,
+  jsem si k ní poznamenal:
+  \italic{"\"Tahle" antifona me obzvlast stve:
+    co ma lidska slava spolecneho s Bozim "kralovstvim?\""}
+}
+\markup\justify{
+  To je samozřejmě ukázka hodně povrchního čtení.
+  Ve skutečnosti nejde o prostou průpověď o úctě u současníků a obdržené chvále,
+  ale o citát Sir 44, 7
+  (\with-url "https://www.obohu.cz/bible/index.php?styl=KLP&k=Sir&kap=44&v=7#v7" {ČLP;}
+  k latinskému textu antifony
+  \with-url "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_vt_ecclesiasticus_lt.html#44" { Neovulgáta }).
+  Biblický kontext pak odpovídá i na otázku mého mladšího já, co má pozemská sláva
+  společného s Božím královstvím. (Mnohdy samozřejmě nic, ale) je i taková pozemská sláva,
+  kterou lze právem považovat za kus pozemské odměny spravedlivých,
+  a sláva sv. Cyrila a Metoděje bezesporu je tohoto druhu.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
