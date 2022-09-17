@@ -4143,6 +4143,26 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      a4 a \mark\sipka bes a g f g g( a) a \barMaior
+      a a bes( f) \barMin f f f g f e f d d \barFinalis
+    }
+    \addlyrics {
+      Ne -- měl po -- do -- bu a -- ni krá -- su,
+      ne -- měl vzhled, a -- by -- chom po něm za -- tou -- ži -- li.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a2"
+      psalmus = "Žalm 45-I"
+      id = "po-ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacSedy
       \key f \major
       \choralniRezim

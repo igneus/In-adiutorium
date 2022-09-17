@@ -784,6 +784,59 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d( f) f \barMin f( g) a f f( g) g \barMaior
+    g a a g f e( f) d d \barMin c d e( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin f( g) a f f( g) g \barMaior
+    g a a g f e( f) d d \barMin
+    c d e( d) d \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja f e( d c) c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu
+    \markup{\Dagger na} svých sva -- tých.
+
+    \markup{\Dagger na} svých sva -- tých.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo:}
