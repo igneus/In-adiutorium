@@ -486,9 +486,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
-    e( d c) d c c( a) a \barMax
-    c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+    d4 f e d c \barMin d e f g e f d d \barMin
+    f e d c c \barMaior
+    c d d( f) f \barMin f g( a g) f( e) d c d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,_*
@@ -501,7 +501,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "bude lepší připravit verzi ne tak přetíženou melismaty"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -678,11 +678,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
     e( d c) d c c( a) a \barMax
     \mark\sipka c d d( f) e \barMin e f( g f) e d e( d c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "bude lepší připravit verzi ne tak přetíženou melismaty"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
+    e( d c) d c c( a) a \barMax
+    c d d( f) \mark\sipka f f f( g) f e c d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,_*
@@ -703,9 +727,79 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d c \barMin d e f(  g f) e( f) d e d d \barMaior
-    e( d c) d c c( a) a \barMax
-    c d d( f) \mark\sipka f f f( g) f e c d d \barFinalis
+    d4 f e d c \barMin d e f g e f d d \barMin
+    f e d c c \barMaior
+    c d d( f) f \barMin f g( a) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d c \barMin d e f g e f d d \barMin
+    f e d c c \barMaior
+    c d d( f) f \barMin \mark\sipka f g( a g) f( e) d c d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d f f \barMin f f g a g f d d \barMin
+    f e d c c \barMaior
+    c d d( f) f \barMin f g( a g) f( e) d c d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,_*
+    kdo jsou pro -- ná -- sle -- do -- vá -- ni
+    pro spra -- ve -- dl -- nost,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d f f \barMin f f g \mark\sipka f e f d d \barMin
+    f e d c c \barMaior
+    c d d( f) f \barMin f g( a g) f( e) d c d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,_*
