@@ -849,6 +849,24 @@ si hrát:}
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a g f g g \barMin g f g \mark\sipka f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne, a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g f g g \barMin g f \mark\sipka e d( e) d d \barFinalis
   }
   \addlyrics {
@@ -884,6 +902,7 @@ si hrát:}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g a g f g g \barMin
     g f \mark\sipka g g( a) f f \barFinalis
@@ -896,6 +915,26 @@ si hrát:}
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g \barMin
+    \mark\sipka f d d c( e) d d \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 119-XV"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -992,6 +1031,26 @@ si hrát:}
     \choralniRezim
     g4 a a c( a) a \barMin a b c a a \barMaior
     a a g f \mark\sipka f( g e) e \barFinalis
+  }
+  \addlyrics {
+    Po -- moz nám, Bo -- že, náš spa -- si -- te -- li,
+    a od -- pusť nám hří -- chy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 79"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a c( a) a \barMin a b c a a \barMaior
+    a \mark\sipka g( a) g f d( e) e \barFinalis
   }
   \addlyrics {
     Po -- moz nám, Bo -- že, náš spa -- si -- te -- li,

@@ -182,6 +182,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4 c a g f g a f f( g) g \barMin
+    \mark\sipka g f a c c c a g g f f \barFinalis
+  }
+  \addlyrics {
+    Za -- ra -- do -- val jsem se, když mi řek -- li:
+    Do do -- mu Hos -- po -- di -- no -- va pů -- jde -- me.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "tercie-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     d4 d d d c d e c c( d) d \barMaior

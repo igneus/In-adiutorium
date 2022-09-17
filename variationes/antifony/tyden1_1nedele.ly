@@ -1935,6 +1935,29 @@ tInedeleLaudResp = \score {
     \choralniRezim
     \key f \major
     f4 g a a g f g g \barMin
+    g f g \mark\sipka a( bes) a a
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- ji ti, Hos -- po -- di -- ne,
+    že jsi mě vy -- sly -- šel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a a g f g g \barMin
     g \mark\sipka a g g f f \barMaior
     d f g( f) f \barFinalis
   }
@@ -2209,6 +2232,7 @@ tInedeleIInespAntI = \score {
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
     \choralniRezim
     g4 a g a( b) b c d c( b a) a \barMaior
     \mark\sipka c d e d( c) c( d) d \barMin

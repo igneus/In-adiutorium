@@ -1410,6 +1410,28 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \mark\sipka f g g( a) a \barMin
+    c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když Bůh po -- vstal k_sou -- du,
+    ze -- mě se zdě -- si -- la a zmlk -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -1443,6 +1465,94 @@ tIInedeleLaudResp = \score {
     a4 c b c c d d \barMin
     d d \mark\sipka c b a( g f) g( a) a g( a) g g \barMin
     g4 g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMin
+    d d e e d c b c a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMin
+    d d e e d c b c \mark\sipka a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMin
+    d d e \mark\sipka c b g b c a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMaior
+    e d c( d c4.) c \barMin b4 c a a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky
@@ -1669,6 +1779,29 @@ tIInedeleLaudResp = \score {
   \relative c'' {
     \choralniRezim
     g4 g a g a c b \barMaior
+    c c \mark\sipka c c b a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a c b \barMaior
     c c \mark\sipka b a g f g a g g \barMaior
     a g f( g) g \barFinalis
   }
@@ -1726,6 +1859,55 @@ tIInedeleLaudResp = \score {
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Melodii první části nejspíš někomu kradu, ale nevím komu/odkud.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b g a a g \barMaior
+    f g a a g f g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b g a a g \barMaior
+    \mark\sipka a a g f g f g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 110"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}

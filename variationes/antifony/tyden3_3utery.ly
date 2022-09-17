@@ -898,6 +898,46 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f( g) g f e d( c) \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Bo -- že, na svůj lid, kte -- rý sis vy -- vo -- lil.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 74-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f f f e d( c) c \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- jmi se své vě -- ci, ne -- pří -- tel se ti rou -- hal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 74-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -1060,6 +1100,26 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g f \barMin
+    e f \mark\sipka d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 125"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}

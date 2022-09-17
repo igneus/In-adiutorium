@@ -597,6 +597,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 \mark\sipka g g f e d f g( a) a \barMaior
+    a c c c b a c( a) a \barMin
+    a g f e e \barFinalis
+   }
+  \addlyrics {
+    U -- va -- žo -- val jsem o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
+    k_tvým při -- ká -- zá -- ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 119-ח"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a g f e d f g( a) a \barMaior
     a c c c b a \mark\sipka a( c) c \barMin
     c b c a( g) g \barFinalis
@@ -657,6 +679,28 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 119-ח"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
+    f g( a) a g g \barFinalis
+   }
+  \addlyrics {
+    U -- va -- žo -- val jsem o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
+    k_tvým při -- ká -- zá -- ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 119-ח"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}

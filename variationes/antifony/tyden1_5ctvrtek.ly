@@ -1439,6 +1439,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     d4 d c d d( f) f \barMin \mark\sipka e d e d \barFinalis
   }
@@ -1768,6 +1769,50 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 32"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) a \barMin
+    a g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný je člo -- věk,
+    kte -- ré -- mu Hos -- po -- din
+    ne -- při -- čí -- tá vi -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 32"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a( g f g) g \barMaior
+    f g a c c b \barMin
+    c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný je člo -- věk,
+    kte -- ré -- mu Hos -- po -- din
+    ne -- při -- čí -- tá vi -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 32"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}

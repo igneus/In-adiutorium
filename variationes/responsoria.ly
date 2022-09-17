@@ -766,6 +766,37 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g( a) a( g) \barMax
+      f( d) f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) \mark\sipka a g( a) g \barMin g f g g( a) \barMax
+      % R
+      \neviditelna g
+      f( d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Bůh je má sí -- la,_* k_ně -- mu se u -- tí -- kám.
+      \Verse On je mé ú -- to -- čiš -- tě, můj za -- chrán -- ce,_*
+      \Response k_ně -- mu se u -- tí -- kám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ut-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -1537,6 +1568,38 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f( g) f \barMin f f f f g( f) g( a) a( g) \barMax
+      g \mark\sipka f g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a a g( a) g \barMin g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g \mark\sipka f g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
+      ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě._*
+      \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ne-1ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -1720,6 +1783,102 @@ doxologieResponsoriumVI = {}
       % V
       \neviditelna a
       a4 a a a a( bes a) g g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g a g g f d f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
+      slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \Verse Zpí -- vej -- te mu pí -- seň no -- vou:_*
+      \Response slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      g a g g f d f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a \mark\sipka a( bes) a g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g a g g f d f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
+      slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \Verse Zpí -- vej -- te mu pí -- seň no -- vou:_*
+      \Response slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      g a g g f d f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a a( bes) \mark\sipka g g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g a g g f d f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*
+      slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \Verse Zpí -- vej -- te mu pí -- seň no -- vou:_*
+      \Response slu -- ší se, a -- by ho všich -- ni chvá -- li -- li.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f f g f g( a) a( g) \barMax
+      g a g g f d f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a \mark\sipka g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g a g g f d f g g f f \barFinalis
@@ -2657,6 +2816,38 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna g
       f( d) f g g f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din je můj pas -- týř,_*
+      nic ne -- po -- strá -- dám.
+      \Verse Dá -- vá mi pro -- dlé -- vat na svě -- žích past -- vi -- nách,_*
+      \Response nic ne -- po -- strá -- dám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f g( a) a( g) \barMax
+      \mark\sipka f g a g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a g( a) g g \barMin g g f g a a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka f g a g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
     }

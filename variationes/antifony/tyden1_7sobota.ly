@@ -530,6 +530,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    \mark\sipka a a g f e d d e f( d) c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    pa -- ma -- tuj -- te na di -- vy, kte -- ré u -- či -- nil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d( g a) g a bes a( g a) g \barMaior
@@ -1110,6 +1134,43 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 \mark\sipka e f d c( d) \barMin d f g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) d( f) f \barMin
+    g g f e d c d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 f e( d) c \barMin d f f e f d \barFinalis
@@ -1123,6 +1184,46 @@
     differentia = "D"
     psalmus = "Žalm 34-II"
     id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a \barMin
+    a a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 \mark\sipka g( a) a( g) g \barMin
+    a a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -65,9 +65,87 @@
     \choralniRezim
     g4 g f g a( g) a c b( g) a \barMaior
     c d c d d( c) \barMin
+    c c c a g f a \mark\sipka g g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má, Hos -- po -- di -- na,
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( g) a c b( g) a \barMaior
+    c d c d d( c) \barMin
     c c c \mark\sipka b a g a a( g) g \barFinalis
 
     f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má, Hos -- po -- di -- na,
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( g) a c b( g) a \barMaior
+    \mark\sipka a c b c( d) c \barMin
+    c c c \mark\sipka b g a g f( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má, Hos -- po -- di -- na,
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( g) a c b( g) a \barMaior
+    \mark\sipka c a c b( a) g \barMin
+    a a a g f g a g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
@@ -756,6 +834,46 @@
   \header {
     quid = "1. ant."
     modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g a g g \barMaior
+    a a g( f d--) \barMin d( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g a g g \barMaior
+    a a \mark\sipka g--( f e) f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 119-ק"
     id = "up-ant1"

@@ -836,6 +836,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d( f) f f g f e \barMaior d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák, Bo -- že, po -- moz mi!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   Následující pokusy se nesnaží text ilustrovat, nebo vystihnout jeho
   náladu, nebo kdovíco, ale prostě jen podchytit strukturu

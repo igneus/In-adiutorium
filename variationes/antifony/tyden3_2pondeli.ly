@@ -765,6 +765,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) f g \barMaior
+    g f g a a g( a) g( f) f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,
+    kdo pře -- bý -- va -- jí v_tvém do -- mě,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -966,6 +988,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f g a g f e e \barMin
+    d c( d) e f e e \barMin
+    f4( a) g f( e) e \barMaior
+    \mark\sipka g f g a a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
+    Hos -- po -- di -- ne,
+    vždyť skr -- ze ně jsi mi dal ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 119-XII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1092,6 +1137,26 @@
     \choralniRezim
     e4 e( f) d c d \barMaior
     d f g a a \barMin g d e e \barFinalis
+  }
+  \addlyrics {
+    Tys má dů -- vě -- ra
+    od mé -- ho mlá -- dí, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 71-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( f) d c d \barMaior
+    d f g a a \barMin g \mark\sipka f e e \barFinalis
   }
   \addlyrics {
     Tys má dů -- vě -- ra

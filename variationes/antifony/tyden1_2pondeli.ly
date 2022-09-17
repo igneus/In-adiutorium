@@ -961,6 +961,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 c bes a g4. a \barMin
+    a4 g a bes c bes( a) a \barMaior
+    a4 bes \mark\sipka g bes a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
+    a o -- svět -- lu -- je o -- či.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 19"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1196,6 +1218,46 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f g g \barMin a g f f( g) g \barMaior
+    a a g f d d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 15(14)"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d d d c b a( g) g \barMaior
+    f g a a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 15(14)"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     e4 g g a a b a g g( a) a \barMaior
     a a g f e e f e d( e) e \barFinalis
   }
@@ -1223,6 +1285,29 @@
     f4 g a g( a) f( d) d \barMaior
     f g a a g a a( bes a) a \barMin
     g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh si nás vy -- vo -- lil
+    a skr -- ze Kris -- ta nás při -- jal
+    za své dě -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ef 1,3-10"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a g( a) f( d) d \barMaior
+    f g a \mark\sipka a( bes) a g f( g) g\barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Bůh si nás vy -- vo -- lil

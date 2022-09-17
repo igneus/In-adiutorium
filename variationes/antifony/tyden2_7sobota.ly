@@ -578,6 +578,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c d d d c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g a \barMin
     a c b g g \barFinalis
   }
@@ -1094,6 +1112,46 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 64"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, chraň můj ži -- vot
+    před stra -- chem z_ne -- pří -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 64"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    a g f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, chraň můj ži -- vot
+    před stra -- chem z_ne -- pří -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 64"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}

@@ -429,6 +429,34 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c b g g \barMaior
+    a a g( f) g( a) a \barMin
+    c c b a a( g) g \barFinalis
+
+    f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 37-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

@@ -1777,6 +1777,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a \mark\sipka a( c) b c d d \barMin
+    d e c c( d) d \barMaior
+    c a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
+    on má ve všem pr -- ven -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIstredaNespAntIII }
 
 %\score { \tIstredaAntMagnificat }

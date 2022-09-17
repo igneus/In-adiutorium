@@ -756,6 +756,66 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f a f f( g) g \barMin
+    g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f a f f( g) g \barMin
+    \mark\sipka a g f d f g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f a f f( g) g \barMin
+    a g f \mark\sipka f g g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 e d f g a g \barMin
     a bes a g f g f \barFinalis
   }
@@ -903,12 +963,36 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
     g4 g g( a) g f f4.( g) \barMin
     g4 a c c c c d d d c a a4. \barMin
     b4 c a g f( g a) a4.( g) \barFinalis
+  }
+  \addlyrics {
+    Kde se roz -- mno -- žil hřích,
+    tam se v_mí -- ře ješ -- tě da -- le -- ko ště -- dřej -- ší
+    u -- ká -- za -- la mi -- lost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 14"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g f f( g) \barMaior
+    g4 a c c c c d d d c a a \barMin
+    b4 c a g f( g a) a( g) \barFinalis
   }
   \addlyrics {
     Kde se roz -- mno -- žil hřích,

@@ -391,6 +391,54 @@ pojdmeKlanmeSeCele = {
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a \barMin
+    a g f d( e) e \barMaior
+    f g a g g a a \barMin
+    g f d e e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a \barMin
+    a g f d( e) e \barMaior
+    f g a g \mark\sipka f g e \barMin
+    f e d e e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "g"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     a4 a g f c' a g a \barMin
@@ -407,6 +455,33 @@ pojdmeKlanmeSeCele = {
   \header {
     quid = "ant."
     modus = "I"
+    differentia = "a"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Melodie má vícero společných prvků s "antifony/tyden4_2pondeli.ly#ne-ant1"
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c c b c c( d) d \barMin
+    d e c c( d) d \barMaior
+    c a c b a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
     differentia = "a"
     dies = "pátek"
     id = "t1pa"
@@ -700,6 +775,146 @@ pojdmeKlanmeSeCele = {
     \choralniRezim
     c4 d e d c d c( b) c \barMaior
     d d( c b) a( g) g g \mark\sipka f g a( f) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c( b) c \barMaior
+    d d( c b) a( g) g g \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c( b) c \barMaior
+    d d( c b) a( g) g g \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c( b) c \barMaior
+    \mark\sipka c d d c b c a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f( e) f \barMaior
+    f \mark\sipka e( f) f( g) g g a g f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g( a) a \barMaior
+    a a a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d c b a( g) g \barMaior
+    g f( g) g( a) a a c b g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 d d d c b a( g) g \barMaior
+    g f( g) g( a) a a c b g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Hos -- po -- di -- na

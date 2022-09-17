@@ -135,6 +135,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c \mark\sipka d d c \barMin
+    c c a g f a g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jak dob -- rý je Bůh
+    k_těm, kdo ma -- jí čis -- té srd -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c b c a \barMin
     g a c c b g g( a) a \barFinalis
 
@@ -525,6 +549,59 @@
     \mark\sipka f g a c c b( c) a g a g g \barFinalis
 
     f^\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí
+    je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c \barMin
+    c c b g a a( g) g \barMaior
+    f g a \mark\sipka a a b( c) a g a g g \barFinalis
+
+    f^\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí
+    je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 c( d) c \barMin
+    c c b g a a( g) g \barMaior
+    f g a a a \mark\sipka c b a g( a) g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mé štěs -- tí
