@@ -12,7 +12,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f g a \barMin
     a a a a g e g f e d d \barFinalis
@@ -55,6 +55,47 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f g a \barMin
+    a a a a g e \mark\sipka f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vzác -- ná je smrt,
+    kte -- rá pla -- tí kr -- ví za ne -- smr -- tel -- nost.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a \barMin
+    a a \mark\sipka g a g e f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vzác -- ná je smrt,
+    kte -- rá pla -- tí kr -- ví za ne -- smr -- tel -- nost.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 e f d \barMaior
     c d f g a g
@@ -81,6 +122,28 @@
     f4 e f d \barMaior
     \mark\sipka f f g a g e
     f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vzác -- ná je smrt,
+    kte -- rá pla -- tí kr -- ví
+    za ne -- smr -- tel -- nost.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e d \barMin
+    f f e f d d
+    e d c d d \barFinalis
   }
   \addlyrics {
     Vzác -- ná je smrt,
@@ -146,7 +209,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d d d( f) d d \barMin
     c d e( f d) d \barMaior
@@ -176,6 +239,31 @@
     c d e( f d) d \barMaior
     f( g a) \mark\sipka g f d d \barMin
     e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Círk -- vi Kris -- to -- va,
+    na -- še mat -- ko,
+    krev mu -- čed -- ní -- ků
+    je tvou slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d c d f f \barMin
+    g( a) g f( e d) d \barMaior
+    f e d c c \barMin
+    d f e( d c d) d \barFinalis
   }
   \addlyrics {
     Círk -- vi Kris -- to -- va,

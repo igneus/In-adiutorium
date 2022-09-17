@@ -16,7 +16,7 @@
   \relative c' {
     \choralniRezim
     d4 f g a \barMin
-    a a a a g e g f e d d \barFinalis
+    a a a a g e f e c d d \barFinalis
   }
   \addlyrics {
     Vzác -- ná je smrt,
@@ -35,10 +35,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d d d( f) d d \barMin
-    c d e( f d) d \barMaior
-    f( g a) g( f e) f d d \barMin
-    c d e( d) d \barFinalis
+    d c d f f \barMin
+    g( a) g f( e d) d \barMaior
+    f e d c c \barMin
+    d f e( d c d) d \barFinalis
   }
   \addlyrics {
     Círk -- vi Kris -- to -- va,
