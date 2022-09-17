@@ -579,6 +579,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d d d( e) c \barMin
     d c b c a4. a \barFinalis
@@ -597,6 +598,32 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup{
+  (Jen změněná differentia.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d d d( e) c \barMin
+    d c b c a4. a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din tě chrá -- ní
+    o -- de vše -- ho zlé -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 121"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
