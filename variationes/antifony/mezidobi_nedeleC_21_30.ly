@@ -1637,7 +1637,7 @@
   }
 }
 
-̈́\markup\nadpisSkupiny{2}
+\markup\nadpisSkupiny{2}
 
 \score {
   \relative c' {
