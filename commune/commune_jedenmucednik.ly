@@ -307,11 +307,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f e g( a) \barMin b a g g( a) a \barMaior
-    a a c c b( c a) a b c a g( a) g \barMaior
+    g4 f d f( g) \barMin a g f f( g) g \barMaior
+    g a c c b( c a) a c b a g( a) g \barMaior
     g f d f( g) a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     U -- tr -- pe -- ní to -- ho -- to ča -- su
@@ -325,7 +325,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 11"
-    placet = "začátek bych dnes určitě udělal jinak"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
