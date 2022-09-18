@@ -30,26 +30,24 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a \barMin a g f g( a) g f d d \barMax
-    d c( d) d \barMin d c d d c c \barMaior
-    d c d f( g a) a \barMaior
-    a( c a) g( f) g( f) \barMin e f g a a g f e e( f) d d \barFinalis
+    f4 g a( f) f( g) g \barMin g f g g( a) g f d d \barMax
+    d c( d) d d f e d c c \barMaior
+    f g a a( c a) a \barMaior
+    a( g f) f( g) g( f) \barMin
+    g g f e e f d c d d \barFinalis
   }
   \addlyrics {
     Bo -- ží krá -- lov -- ství je ja -- ko hoř -- čič -- né zrn -- ko:
     je men -- ší než všech -- na se -- me -- na,
     a -- le když vze -- jde,
-    pře -- růs -- tá všech -- ny os -- tat -- ní rost -- li -- ny v_za -- hra -- dě.
+    pře -- růs -- tá
+    všech -- ny ji -- né za -- hrad -- ní rostliny.
   }
   \header {
-    textus_approbatus = "Boží království je jako hořčičné zrnko:
-    je menší než všechna semena, ale když vzejde,
-    přerůstá všechny jiné zahradní rostliny."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "_je menší ..._ je nezpěvné; _všechny ..._ by také šlo lépe"
     id = "ne11b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -130,7 +128,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b a a a a( b) a g f d e e \barMaior
+    a4 a a g a a( b) a a g f e e \barMaior
     f f f g e \barMin
     f g a a a g( a) g f d( e) e \barFinalis
   }
@@ -144,7 +142,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "_Učedníci si říkali_ je rytmicky nepěkné"
     id = "ne12b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

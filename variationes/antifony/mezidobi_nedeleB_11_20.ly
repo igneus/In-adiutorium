@@ -2,6 +2,13 @@
 
 \markup {\nadpisDen {"11. neděle"}}
 
+\markup\justify{
+  Jediné dvě antifony z celého korpusu začínající \italic{Boží království je...}
+  jsou tu pěkně vedle sebe.
+  Za zmínku stojí, že antifony \italic{Simile est...} z AR1912 jsou každá úplně jiná,
+  společný úvodní motiv nemají.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -28,6 +35,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a a \barMin a g f g( a) g f d d \barMax
     d c( d) d \barMin d c d d c c \barMaior
@@ -53,6 +61,61 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a a \barMin a g f g( a) g f d d \barMax
+    d c( d) d \mark\sipka d f e d c c \barMaior
+    f g a a( c a) a \barMaior
+    a( g f) f( g) g( f) \barMin
+    g g f e e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží krá -- lov -- ství je ja -- ko hoř -- čič -- né zrn -- ko:
+    je men -- ší než všech -- na se -- me -- na,
+    a -- le když vze -- jde,
+    pře -- růs -- tá
+    všech -- ny ji -- né za -- hrad -- ní rostliny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne11b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g \mark\sipka a( f) f( g) g \barMin g f g g( a) g f d d \barMax
+    d c( d) d d f e d c c \barMaior
+    f g a a( c a) a \barMaior
+    a( g f) f( g) g( f) \barMin
+    g g f e e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží krá -- lov -- ství je ja -- ko hoř -- čič -- né zrn -- ko:
+    je men -- ší než všech -- na se -- me -- na,
+    a -- le když vze -- jde,
+    pře -- růs -- tá
+    všech -- ny ji -- né za -- hrad -- ní rostliny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne11b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -126,8 +189,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b a a a a( b) a g f d e e \barMaior
     f f f g e \barMin
@@ -148,6 +214,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a a g a a( b) a a g f e e \barMaior
+    f f f g e \barMin
+    f g a a a g( a) g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci si ří -- ka -- li me -- zi se -- bou:
+    Kdo to a -- si je,
+    že ho po -- slou -- chá ví -- tr a mo -- ře?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne12b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a a( b) a \mark\sipka g f g e e \barMaior
+    f f f g e \barMin
+    f g a a a g( a) g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci si ří -- ka -- li me -- zi se -- bou:
+    Kdo to a -- si je,
+    že ho po -- slou -- chá ví -- tr a mo -- ře?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne12b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"13. neděle"}}
 
