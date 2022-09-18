@@ -316,16 +316,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c a g a g g( a g) \barMin
-    g g g g f g a( c b) a( g) g \barMaior
-    c c c c( d) c b g a \barMin
-    f g a( c) a a \barMin b c a a g g \barFinalis
+    c4 c c a g a g g \barMin
+    a a a a g f g( a) a( g) g \barMaior
+    f g a a( c) b c d d \barMaior
+    e d c( d) c c \barMin
+    b c a a g g \barFinalis
   }
   \addlyrics {
     Zí -- ská -- vej -- te si přá -- te -- le
     z_ne -- spra -- ved -- li -- vé -- ho ma -- mo -- nu,
     a -- by -- ste, až ho ne -- bu -- de,
-    by -- li při -- ja -- ti do pří -- byt -- ků věč -- ných.
+    by -- li při -- ja -- ti
+    do pří -- byt -- ků věč -- ných.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -341,8 +343,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g f g g( a) a \barMaior
-    c c( b a) a \barMin a a b a a( g) g \barFinalis
+    g4 g g( a) a f g g( a) a \barMaior
+    a b( c a) a \barMin a a b a g g \barFinalis
   }
   \addlyrics {
     Kdo je věr -- ný v_ma -- lič -- kos -- ti,
@@ -360,12 +362,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f( g) f f \barMin
-    f g a a( g) a bes c g g \barMaior
-    f f f e d d \barMin
-    f g f g( a) f f \barFinalis
+    f4 g g a a \barMin
+    a a a g( f) f g( f) g g( f) f \barMaior
+    g a g f d( c) c \barMin
+    f f f g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Žád -- ný slu -- žeb -- ník
