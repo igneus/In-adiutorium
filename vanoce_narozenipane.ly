@@ -2114,16 +2114,16 @@
   \score {
     \relative c'' {
       \choralniRezim
-      b4 c d c4.( b) \barMin
-      c4 b a a a( b) a g g \barMax
+      d4 d c b
+      c b a g a b g g \barMaior
 
-      g f g a( c) c c c( d) d \barMax
+      g f g a( c) c c c( d) d \barMaior
 
       d d( f) e d c( d) d \barMaior
-      d c d b( c a4.) a \barMin
-      c4 b a( g) g \barMax
+      d c b c4. a \barMin
+      c4 b a( g) g \barMaior
 
-      g g( a) g4. g \barFinalis
+      f g( a) g g \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a nám
@@ -2140,9 +2140,8 @@
     \header {
       quid = "2. ant."
       modus = "VII"
-      differentia = "b"
+      differentia = "d"
       psalmus = "Dan 3-III"
-      placet = "_Maria ... Spasitele_ hodně slabé"
       id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}
     }
