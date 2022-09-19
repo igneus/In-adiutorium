@@ -149,9 +149,9 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4 c bes a g4. a \barMaior
+    a4 c bes a g4. a \barMin
     a4 g a bes c bes( a) a \barMaior
-    a4 g( a g) f e d e d \barFinalis
+    g a a g f e( f d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
@@ -162,7 +162,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 19"
-    placet = "závěrečný díl divný"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

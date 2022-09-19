@@ -852,7 +852,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 c bes a g4. a \barMaior
@@ -868,6 +868,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 19"
+    placet = "závěrečný díl divný"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -919,11 +920,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     a4 c bes a g4. a \barMin
     a4 g a bes c bes( a) a \barMaior
     g a a g f \mark\sipka e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
+    a o -- svět -- lu -- je o -- či.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 19"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 c bes a g4. a \barMin
+    a4 g a bes c bes( a) a \barMaior
+    g a \mark\sipka f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
@@ -977,6 +1001,52 @@
     quid = "1. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Žalm 19"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c d d \barMin
+    e d c b c a( g) g \barMaior
+    g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
+    a o -- svět -- lu -- je o -- či.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 19"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Beze všeho by šla transponovat do normálního IV. modu,
+  jen tam tenhle typ melodií není moc běžný.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    d c d e c c( d) d \barMaior
+    d c d c bes a( g a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
+    a o -- svět -- lu -- je o -- či.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 19"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
