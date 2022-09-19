@@ -6824,6 +6824,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4 c a( g) g a g f g( a) g g \barMaior
       g f( e) d \barMin e f g( a g) f( g) g \barFinalis
@@ -6840,6 +6841,91 @@
       id = "ct-rch-a3"
       fons = "prvni cast prevzata:"
       fial = "mezidobi_telaakrvepane.ly#1ne-a2?part"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a( g) g a g f g( a) g g \barMaior
+      g f( e) d \barMin e f \mark\sipka g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
+      sy -- tí nás me -- dem ze ská -- ly.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 81"
+      id = "ct-rch-a3"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a( g) g a g f g( a) g g \barMaior
+      \mark\sipka f g( a) a \barMin c b a( b) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
+      sy -- tí nás me -- dem ze ská -- ly.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 81"
+      id = "ct-rch-a3"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c a( g) g a g f g( a) g g \barMaior
+      f g( a) a \barMin c b a( b) \mark\sipka g g \barFinalis
+    }
+    \addlyrics {
+      Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
+      sy -- tí nás me -- dem ze ská -- ly.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 81"
+      id = "ct-rch-a3"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a( g) g a g f g( a) g g \barMaior
+      f g( a) a \barMin \mark\sipka g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
+      sy -- tí nás me -- dem ze ská -- ly.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 81"
+      id = "ct-rch-a3"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
       piece = \markup {\sestavTitulek}
     }
   }

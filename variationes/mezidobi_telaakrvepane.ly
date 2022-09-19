@@ -200,6 +200,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin c d e( c) d d d \barMaior
+    d a d b( c) a( g) \barMin g f g a( c b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

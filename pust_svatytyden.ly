@@ -1341,7 +1341,7 @@
     \relative c'' {
       \choralniRezim
       c4 c a( g) g a g f g( a) g g \barMaior
-      g f( e) d \barMin e f g( a g) f( g) g \barFinalis
+      f g( a) a \barMin c b a( b) g g \barFinalis
     }
     \addlyrics {
       Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
@@ -1352,9 +1352,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 81"
-      placet = "nevím"
       id = "ct-rch-a3"
-      fons = "prvni cast prevzata:"
       fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
       piece = \markup {\sestavTitulek}
     }
