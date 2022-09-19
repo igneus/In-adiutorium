@@ -1125,6 +1125,28 @@
   }
 
   \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g f g g a a \barMaior
+      a a g f g( f) f \barMin
+      d f g g g( a) g( f) f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
     \relative c'' {
       \choralniRezim
       c4 a c b g b a g f \barMaior

@@ -860,6 +860,52 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d d( e c d) d \barMin
+    d c( b a) g g( a) a \barMin
+    a \mark\sipka c c b g a a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo žíz -- ní,
+    ať při -- jde ke mně
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 42"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d d( e c d) d \barMin
+    d c( b a) g g( a) a \barMin
+    a \mark\sipka g f g a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo žíz -- ní,
+    ať při -- jde ke mně
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 42"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify\italic{

@@ -1646,6 +1646,62 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) \barMin
+    c c b a g g f g a a( g) g \barMaior
+    f g a g( a) a \barMin
+    b c a g a g f \barMaior
+    g g a g a a c c \mark\sipka d c d( e d) d \barMin
+    c b a( b a g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu z_nás
+    by -- ly u -- dě -- le -- ny du -- chov -- ní da -- ry
+    v_ta -- ko -- vé mí -- ře,
+    v_ja -- ké je chtěl Kris -- tus dát,
+    a -- by dě -- la -- lo po -- kro -- ky je -- ho tě -- lo,
+    to je cír -- kev.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) \barMin
+    c c b a g g f g a a( g) g \barMaior
+    f g a g( a) a \barMin
+    b c a g a g f \barMaior
+    g g a g a a c c d c d( e d) d \barMin
+    c b \mark\sipka a( b g4.) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu z_nás
+    by -- ly u -- dě -- le -- ny du -- chov -- ní da -- ry
+    v_ta -- ko -- vé mí -- ře,
+    v_ja -- ké je chtěl Kris -- tus dát,
+    a -- by dě -- la -- lo po -- kro -- ky je -- ho tě -- lo,
+    to je cír -- kev.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a g( a) \barMin
