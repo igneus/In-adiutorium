@@ -280,7 +280,7 @@
   \relative c'' {
     \choralniRezim
     a4 a( g a) g \barMin
-    f g( a) g f e e \barFinalis
+    f g bes g bes a \barFinalis
   }
   \addlyrics {
     Bůh se -- slal
@@ -288,10 +288,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "I"
+    differentia = "g3"
     psalmus = "Žalm 115"
-    placet = "melisma na _seslal_ je rušivě těžkopádné"
     id = "ne2-a2"
     piece = \markup {\sestavTitulek}
   }
