@@ -967,6 +967,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) g f f4.( g) \barMin
     g4 a c c c c d d d c a a4. \barMin
@@ -989,6 +990,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( a) g f f( g) \barMaior
     g4 a c c c c d d d c a a \barMin

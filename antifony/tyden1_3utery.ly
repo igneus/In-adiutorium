@@ -191,9 +191,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g f f4.( g) \barMin
-    g4 a c c c c d d d c a a4. \barMin
-    b4 c a g f( g a) a4.( g) \barFinalis
+    g4 g g( a) g f f( g) \barMaior
+    g4 a c c c c d d d c a a \barMin
+    b4 c a g f( g a) a( g) \barFinalis
   }
   \addlyrics {
     Kde se roz -- mno -- žil hřích,
@@ -205,7 +205,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 14"
-    placet = "obě div. spíš maior"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
