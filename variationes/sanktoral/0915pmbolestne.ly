@@ -787,6 +787,13 @@
   }
 }
 
+\markup\justify{
+  V roce 2016 jsem si k této variantě poznamenal
+  \italic{cesura po _městu_ pryč,}
+  ale podle dnešního nejlepšího vědomí to byl mylný postřeh.
+  Melodie tu cesuru potřebuje a ani mě nenapadá žádná alternativní,
+  kde by první polovina byla nedělená a zněla lépe.
+}
 \score {
   \relative c'' {
     \zvyraznovacModry

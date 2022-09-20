@@ -210,7 +210,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 127"
-    placet = "cesura po _městu_ pryč"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
