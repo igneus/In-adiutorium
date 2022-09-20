@@ -1263,6 +1263,8 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
@@ -1279,6 +1281,38 @@
     % R
     \neviditelna a
     g g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- vým při -- chá -- zí spá -- sa od Hos -- po -- di -- na,_*
+    v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
+    \Verse Hos -- po -- din jim po -- má -- há a chrá -- ní je,_*
+    \Response v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f f g f g g( a) a( g) \barMax
+    \mark\sipka f g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin f g( a) g g \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g( a) g( f d) d \barMin f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

@@ -574,6 +574,190 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    d c b a( g) g \barMaior
+    f g a c b c( d) d \barMin
+    d d a c b \barMax
+
+    \mark\sipka c d e c( b a4.) a \barMin
+    g4 a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    d c b a( g) g \barMaior
+    f g a c b c( d) d \barMin
+    d d a c b \barMax
+
+    c d e c( b a4.) a \barMin
+    \mark\sipka c4 b a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    d c b a( g) g \barMaior
+    f g a c b c( d) d \barMin
+    d d a c b \barMax
+
+    \mark\sipka c b c d( e d) c( d) \barMin
+    c4 b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a( g) a \barMin
+    a g f g( a g) g \barMaior
+    g g g f e d( e) d \barMin
+    f g a g g \barMax
+
+    c c c b( c a) a \barMin
+    g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d e d c c( d) d \barMaior
+    d d d c b a a \barMin c d e d d \barMax
+    f g f e( d c4.) c \barMin
+    d4 f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d e d c c( d) d \barMaior
+    d d d c b a a \barMin c d e d d \barMax
+    f g f e( d c4.) c \barMin
+    d4 f \mark\sipka f e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 e d e d c c( d) d \barMaior
+    d d d c b a a \barMin c d e d d \barMax
+    f g f \mark\sipka e( f d4.) d \barMin
+    c4 f f e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -819,6 +1003,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) \mark\sipka a \barMin
+    a b g a a \barMaior
+    a c( b) a( g) g \barMin
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{
   Podle "antifony/velikonoce_tyden2_3utery.ly#rch-a1"
 }
@@ -840,6 +1048,54 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka a f f( g f) f \barMin
+    f g a a( c) c \barMaior
+    c \mark\sipka d( e f e) d( c) c \barMin
+    c c a g a g f f \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    f e c d d \barMaior
+    d c( b) a( g) g \barMin
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

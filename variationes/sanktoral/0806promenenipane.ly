@@ -477,6 +477,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4( d) d \barMin f d d g f e d d \barMaior
+    \mark\sipka c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    fial = "mezidobi_kristakrale.ly#invit?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( d) d \barMin d( f) d d e( f) d c c( d) d \barMaior
     c b g a( g) g \barFinalis
   }

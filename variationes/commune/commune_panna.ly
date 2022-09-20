@@ -1695,6 +1695,172 @@
   }
 }
 
+\markup\justify{
+  Pokus vyjít z odpovídající latinské antifony (AR1912, [63]).
+  Výsledek je ale tak nepodobný, že deklarovat nějaký vztah by bylo spíš zavádějící.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin c( d) e c d d d \barMaior
+    d c b c( a) a( g) g \barMaior
+    a g f a c c \barMin b c a g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin c( d) e c d d d \barMaior
+    d c b c( a) a( g) g \barMaior
+    a \mark\sipka f a a c c \barMin \mark\sipka b( c) a a g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  AR1912 má ještě druhou antifonu stejného textu:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a a g f g( a) a( g) g \barMaior
+    c c a c c b \barMaior
+    d c c d( e) d c( b c d c) \barMin a g a a( g) \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [56]"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a a g f g( a) \mark\sipka a g \barMaior
+    c c a c c b \barMaior
+    d c c d( e) d c( b c d c) \barMin a g \mark\sipka f( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [56]"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a a g f g( a) a g \barMaior
+    \mark\sipka g a f g( a) a( c) c \barMaior
+    c b a g( a) g g \barMin g f a g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d e) d \barMin d c b c( a) a( g) g \barMaior
+    a a a f( g) g( a) a \barMaior
+    c c c b( c) a a \barMin g f a g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{O více pannách:}
