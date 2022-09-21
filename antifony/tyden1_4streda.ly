@@ -149,7 +149,7 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g( a) a a bes c a g \barMin bes bes a f g f f4. \barFinalis
+    f4 g a a bes c a g \barMin bes bes a f g f f \barFinalis
   }
   \addlyrics {
     Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.

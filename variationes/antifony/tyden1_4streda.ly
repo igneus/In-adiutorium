@@ -710,6 +710,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     f4 g( a) a a bes c a g \barMin bes bes a f g f f4. \barFinalis
@@ -722,6 +723,26 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 119-II"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f\major
+    f4 \mark\sipka g a a bes c a g \barMin bes bes a f g f f \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ב"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
