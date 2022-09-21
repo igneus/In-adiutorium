@@ -117,6 +117,118 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e \mark\sipka d f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    \mark\sipka c e( d) d \barMaior
+    d \mark\sipka d( e f) \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c e( d) d \barMaior
+    \mark\sipka c c( d f) \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g( a) a( g) g \barMin
+    a f d e( f) d d \barMaior
+    c d d
+    f( g f) d( c) c \barMaior
+    d d( e f) \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g( a) a( g) g \barMin
+    a \mark\sipka g f e( f) d d \barMaior
+    c d d
+    f( g f) d( c) c \barMaior
+    d d( e f) \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e d f g a \barMin
     a g f f( g) g g \barMin
     g f( e) d d \barMaior
@@ -136,6 +248,32 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d e c c d d \barMin
+    d c( d c) b a g g \barMaior
+    a g f a( c) b( a g) g \barMaior
+    a f( g a) \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu: Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -376,12 +514,65 @@ působí poněkud těžkopádně.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c b a b \barMin
     c c a g a g f \barMaior
     g a a a a a \mark\sipka c( d) c c d( e) d c d( c) \barMin
     a g a g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Tady asi bude vhodné vyznačit explicitní délky, protože rytmus je to netypický,
+  neintuitivní, a bez něj melodie nedává smysl.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
+    a g \mark\sipka a4. g g4 \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
+    \mark\sipka b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,

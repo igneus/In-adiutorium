@@ -46,7 +46,7 @@
     d4 d c b a b \barMin
     c c a g a g f \barMaior
     g a a a a a c( d) c c d( e) d c d( c) \barMin
-    a g a g g \barFinalis
+    a g a4. g g4 \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
