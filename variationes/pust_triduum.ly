@@ -1490,6 +1490,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4( f) e d e e \barMin
+    e( a) a b( g) g \barMin a g( f) e( d e) e \barMaior
+    e e e4.( a) \barMin g4( a) g( f) e \barMaior
+    e( d g) f e d( f) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Ve tři ho -- di -- ny_*
+    zvo -- lal Je -- žíš moc -- ným hla -- sem:
+    Bo -- že můj, Bo -- že můj,
+    proč jsi mě o -- pus -- til?
+  }
+  \header {
+    quid = "ant. odpoledne"
+    quidbreve = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "pa-up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup{
   _proč_ je docela těžké. Jaké se nabízí zjednodušení?
 }
