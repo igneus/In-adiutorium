@@ -13,12 +13,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c a g) a \barMin
-    a( c) a g e e \barMin
-    f e d d( e) e \barMaior
-    c d e f e d \barMin
-    f g a a g e e \barMaior
-    f e d( e) d \barFinalis
+    g4( a) a \barMin
+    a g a a( b a) a \barMin
+    a g f d( e) e \barMaior
+    c d e f e e \barMin
+    f g a a g e e \bar ""
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -33,7 +33,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "překlep ve finále; celkově bída"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -68,11 +67,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a e' d( c) d \barMin
+    c4 c e d( c) d \barMin
     d c b c a g a a( g) \barMaior
-    g a a a b( c) a( g) g
-    f a g g \barMaior
-    f g g g \barFinalis
+    f g a a b( c) a a \barMaior
+    c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
@@ -84,9 +83,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = ""
-    placet = "bída"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
