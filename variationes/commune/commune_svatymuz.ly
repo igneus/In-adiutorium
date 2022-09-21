@@ -642,8 +642,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( d) d \barMin g( f) e d c( d) d \barMaior
+    f g f f e d e c \barMin a c d( e d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d( e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu;
+    on u -- ka -- zu -- je svou slá -- vu na svých sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "aleluja lépe; sestupný začátek je nepěkný"
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4( f) f \barMin g( f) e d c( d) d \barMaior
     f g f f e d e c \barMin a c d( e d) d \barFinalis
 
     f^\markup\rubrVelikAleluja g( f) d( e) d \barFinalis
@@ -786,7 +812,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d( f) f \barMin f( g) a f f( g) g \barMaior
     g a a g f e( f) d d \barMin c d e( d) d \barFinalis
