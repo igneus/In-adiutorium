@@ -6681,6 +6681,26 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4 c c b( c a g) g \barMin
+      f g a a g a g g \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       g4 g g a( c) b \barMin
       c a g g f a g g \barFinalis
     }
@@ -6784,6 +6804,86 @@
     \relative c' {
       \choralniRezim
       f4 f f g( a) g \barMin
+      a a g f d f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g( a) a \barMin
+      a a g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f \mark\sipka g g( a) a \barMin
+      a a g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 e d f( g) g \barMin
+      a a g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je má spá -- sa;
+      bez o -- ba -- vy mo -- hu dou -- fat.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Iz 12"
+      id = "ct-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 e d f( g a g) g \barMin
       a a g f d f g( f) f \barFinalis
     }
     \addlyrics {

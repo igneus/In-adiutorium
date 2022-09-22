@@ -950,6 +950,14 @@
   ale nepřijde mi, že by stejně dobře fungoval tady,
   nebo že by nějaký odtud bylo vhodné tam přenést.
 }
+\markup{
+  Mimochodem, zatímco v českém překladu jsou texty identické,
+  latinské mají pouze stejný začátek.
+}
+\markup{RCH čtvrtka Svatého týdne:}
+\markup\italic{\underline "Ecce Deus salvátor meus; fiduciáliter agam," et non timébo.}
+\markup{Vigilie Nejsvětějšího Srdce Ježíšova:}
+\markup\italic{\underline "Ecce Deus salvátor meus; fiduciáliter agam," quia factus est mihi in salútem, allelúia.}
 
 \score {
   \relative c' {
