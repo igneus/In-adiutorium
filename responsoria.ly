@@ -421,7 +421,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "sylabická sestupná část r2 je sice netradiční, ale zní dobře (narozdíl od melismatických variant)"
       id = "1ct-rch"
       piece = \markup\sestavTitulekResp
     }
