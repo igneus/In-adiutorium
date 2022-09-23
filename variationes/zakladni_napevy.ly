@@ -555,12 +555,15 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \pageBreak
+
   \markup\sekce{IV.1.2 bez ordinovaného služebníka}
 
   \markup{Podle \italic{Antiphonale Romanum}, Romae 1912, 29*n. (Nápěv absoluce před čteními matutina.)}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \neviditelna c
       \stemUp % kvuli poloze akcentovych znacek
@@ -581,6 +584,75 @@ uvodniVers = \lyricmode {
       piece = ""
     }
   }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      \neviditelna c
+      \stemUp % kvuli poloze akcentovych znacek
+      c4 c c c c c c c-! a \barMin
+      c c b a c-! c \barMin \break
+      c c c c c c c c c a a \barFinalis
+      \neviditelna c
+      b c \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
+      chraň nás vše -- ho zlé -- ho
+      a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
+      \Response A -- men.
+    }
+    \header {
+      textus_approbatus = "Dej nám, Bože, své požehnání,
+      chraň nás všeho zlého a doveď nás do věčného života."
+      fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
+      placet = "měl by se nápěv amen sjednotit s předchozím?"
+      id = "konec-prosba"
+      piece = ""
+    }
+    \layout {
+      ragged-right = ##t
+    }
+  }
+
+  \markup\justify{
+    Celý život jsem recitoval text výše, v dobré víře, že je oficiální.
+    Možná ho před lety užívali na Proglasu, možná jsem při recitování po paměti
+    nevědomky sklouzl k libozvučnějšímu znění.
+    Každopádně český antifonář by neměl sahat k neoficiálním zněním jenom
+    proto, že se mi oficiální text zdá méně pěkný.
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \neviditelna c
+      \stemUp % kvuli poloze akcentovych znacek
+      c4 c c c c c c c-! a \barMin
+      c c b a c-! c \barMin \break
+      c c c c c c c c c a a \barFinalis
+      \neviditelna c
+      b c \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
+      chraň nás vše -- ho zlé -- ho
+      a do -- veď nás do věč -- né -- ho ži -- vo -- ta.
+      \Response A -- men.
+    }
+    \header {
+      fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
+      id = "konec-prosba"
+      piece = ""
+    }
+    \layout {
+      ragged-right = ##t
+    }
+  }
+
+  \pageBreak
 
   \markup\sekce{IV.2 Modlitba se čtením a modlitba uprostřed dne}
 

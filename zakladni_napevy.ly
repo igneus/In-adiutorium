@@ -617,12 +617,10 @@
     \addlyrics {
       \Verse Dej nám, Bo -- že, své po -- žeh -- ná -- ní,
       chraň nás vše -- ho zlé -- ho
-      a do -- veď nás do ži -- vo -- ta věč -- né -- ho.
+      a do -- veď nás do věč -- né -- ho ži -- vo -- ta.
       \Response A -- men.
     }
     \header {
-      textus_approbatus = "Dej nám, Bože, své požehnání,
-      chraň nás všeho zlého a doveď nás do věčného života."
       fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
       placet = "měl by se nápěv amen sjednotit s předchozím?"
       id = "konec-prosba"
