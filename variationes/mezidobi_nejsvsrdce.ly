@@ -1788,6 +1788,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     g g( a g) f e( d) \barMin e f e d( e d) d \barFinalis
@@ -1801,6 +1802,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 111"
+    placet = "_kdo se ho bojí_ takhle ne"
     fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
     fial = "mezidobi_telaakrvepane.ly#1ne-a1?casti"
     id = "2ne-a2"
@@ -1854,9 +1856,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
-    \mark\sipka g f( g f) e d( c) \barMin d f e \mark\sipka c( d) d \barFinalis
+    \mark\sipka g f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mi -- lo -- srd -- ný a do -- bro -- ti -- vý:
+    dal po -- krm těm, kdo se ho bo -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 111"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a1?zacatek&konec"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g g a4 bes a( g) f g a f g g \barMaior
+    g f( g f) e d( c) \barMin d f e \mark\sipka c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý;

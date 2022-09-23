@@ -35,11 +35,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     d g g g f( e) f( g) g f e( f) f( g) g \barMaior
     \mark\sipka f f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
+    u -- sta -- no -- vil pa -- mát -- ku na své di -- vy,
+    dal po -- krm těm, kdo se ho bo -- jí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 111"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g g a4 bes a( g) f g a f g g \barMaior
+    d g g g f( e) f( g) g f e( f) f( g) g \barMaior
+    \mark\sipka g f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:

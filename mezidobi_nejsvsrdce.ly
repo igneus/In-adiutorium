@@ -461,7 +461,7 @@
   \relative c' {
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
-    g g( a g) f e( d) \barMin e f e d( e d) d \barFinalis
+    g f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a do -- bro -- ti -- vý:
@@ -472,9 +472,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 111"
-    placet = "_kdo se ho bojí_ takhle ne"
-    fons = "Těla a Krve Páně, 1. nešp., 1. ant.: první třetina doslovně+třetí třetina upravená."
-    fial = "mezidobi_telaakrvepane.ly#1ne-a1?zacatek"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a1?zacatek&konec"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

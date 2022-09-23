@@ -15,7 +15,7 @@
     \choralniRezim
     f g g g a4 bes a( g) f g a f g g \barMaior
     d g g g f( e) f( g) g f e( f) f( g) g \barMaior
-    f f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
+    g f( g f) e d( c) \barMin d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mi -- lo -- srd -- ný a dob -- ro -- ti -- vý:
