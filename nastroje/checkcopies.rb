@@ -118,13 +118,13 @@ end
 
 parser = OptionParser.new do |opts|
   opts.on '-d', '--debug', 'print debugging information'
+  opts.on '-v', '--verbose', 'print extra verbose output'
   opts.on '-a', '--diff-all', 'print diff for all mismatches'
   opts.on '-f', '--diff-full-score', 'diff full scores, not just the music part'
   opts.on '-M', '--mismatches', 'print only mismatches'
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
   opts.on '-s PATH', '--save=PATH', 'save list of mismatches to a file, report new mismatches not found in the save from the previous run'
   opts.on '--update_save', 'if save exists, update it'
-  opts.on '-v', '--verbose', 'print extra verbose output'
 end
 
 options = {}
