@@ -11,8 +11,20 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\justify{
+  Latinsky
+  \italic{Tulérunt Iesum \underline "paréntes eius" in Ierúsalem, ut sísterent eum Dómino.}
+  (Alespoň podle CantusIndexu se nejedná o tradiční antifonu, odpovídající text
+  figuruje jen v offertoriu svátku Svaté Rodiny - CANTUS g00611.)
+  Zdálo by se, že překladatelé měli strach mluvit souhrnně o Ježíšových rodičích,
+  když Josef skutečným rodičem není (přestože Lukášovo evangelium toho termínu užívá),
+  ale tomu protiřečí antifona k Benedictus, která se řeči o rodičích nebojí.
+  Možná tu tedy byly ve hře spíš ohledy na jazykově pěkný výsledek.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g f e( f e) e \barMin
     e f e d d d f g a a c4. b \barMax
@@ -32,6 +44,75 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( e) d \barMin
+    d c d e e e d e d c d d \barMaior
+    d c b c c a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a a Jo -- sef
+    při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+    a -- by ho před -- sta -- vi -- li Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( e) d \barMin
+    d c d e e e d e d c d d \barMaior
+    d c b \mark\sipka c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a a Jo -- sef
+    při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+    a -- by ho před -- sta -- vi -- li Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c( e) d \barMin
+    d c d e e e d e d c d d \barMaior
+    \mark\sipka d d d c d c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a a Jo -- sef
+    při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+    a -- by ho před -- sta -- vi -- li Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

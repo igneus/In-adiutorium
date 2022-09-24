@@ -658,6 +658,14 @@
 
   \pageBreak
 
+  \markup\justify{
+    Liturgia horarum:
+    \italic{\underline "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis,"
+    tulérunt illum in Hierosólymam ut sísterent Dómino.}
+    Nechápu, proč se překladatelé DMC tak báli starozákonní kultické nečistoty,
+    když v evangeliu při mši se o tom normálně čte.
+  }
+
   \score {
     \relative c' {
       \zvyraznovacSedy
@@ -703,7 +711,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c \mark\sipka g a g f g a g a( c) c \barMaior
       c c c b a g a g g \barFinalis
@@ -781,6 +789,119 @@
       differentia = "c"
       psalmus = "Magnificat"
       annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \markup\nadpisSkupiny 3
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a c d d c d e c d d \barMaior
+      d d d c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Magnificat"
+      annus = "B"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a c c d d c d e c d d \barMaior
+      d d d c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Magnificat"
+      annus = "B"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b c d( e) d d \barMin c d e c d d \barMaior
+      d d d c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 e d c( d) c c \barMin d c d e d d \barMaior
+      d d d c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      annus = "B"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d c d e e e d e d c d d \barMaior
+      d d d c d c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Magnificat"
+      annus = "B"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
