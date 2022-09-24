@@ -142,7 +142,7 @@
     a4 a a bes a g( a) g g \barMin
     f f g a a a a( bes) a g( a) a \barMaior
     a( g a) g( f) f \barMin
-    g g g( a) f e f d d \barFinalis
+    e f f( g) f e c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din spl -- nil pří -- sa -- hu,
