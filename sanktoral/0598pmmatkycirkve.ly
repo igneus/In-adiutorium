@@ -53,8 +53,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_maria.ly#nona?-aleluja"
     id = "amag"

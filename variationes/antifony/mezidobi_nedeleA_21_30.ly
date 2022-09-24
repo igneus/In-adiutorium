@@ -1260,7 +1260,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g a a \barMaior
     c c b g b( c) a a \barMin
@@ -1277,6 +1277,35 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
+    id = "ne28a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{(Jen opravena differentia)}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g a a \barMaior
+    c c b g b( c) a a \barMin
+    a g f e f d( c) c \barMaior
+    d( f) e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Řek -- ně -- te po -- zva -- ným:
+    Hos -- ti -- nu jsem při -- chys -- tal,
+    všech -- no je při -- pra -- ve -- no,
+    pojď -- te na svat -- bu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"

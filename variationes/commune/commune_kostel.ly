@@ -1439,7 +1439,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 c d b c a \barMin
     g f g g( a) g \barFinalis
@@ -1456,6 +1456,34 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 149"
+    fial = "antifony/tyden1_7sobota.ly#rch-ant3?zacatek"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{(Jen opravena differentia)}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c d b c a \barMin
+    g f g g( a) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na
+    ve sbo -- ru sva -- tých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 149"
     fial = "antifony/tyden1_7sobota.ly#rch-ant3?zacatek"
     id = "rch-a3"

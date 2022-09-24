@@ -448,7 +448,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 149"
     fial = "antifony/tyden1_7sobota.ly#rch-ant3?zacatek"
     id = "rch-a3"

@@ -67,7 +67,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4-- f e d e( d) d \barMaior
     f f \barMin f d f4. e \barMaior
@@ -84,6 +84,34 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#nona?-aleluja"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{(Jen opraven modus)}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4-- f e d e( d) d \barMaior
+    f f \barMin f d f4. e \barMaior
+    f4 g g( a) a g f g f e \barMin
+    d c d( f e) d d \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl své mat -- ce:
+    Že -- no, to je tvůj syn.
+    Po -- tom ře -- kl u -- čed -- ní -- ko -- vi:
+    To je tvá mat -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "commune/commune_maria.ly#nona?-aleluja"
     id = "amag"

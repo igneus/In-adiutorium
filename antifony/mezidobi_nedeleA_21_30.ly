@@ -601,7 +601,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"

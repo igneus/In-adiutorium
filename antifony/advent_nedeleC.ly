@@ -255,7 +255,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = "Žalm 122"
     id = "ivben"
     fial = "sanktoral/0531navstivenipm.ly#ne-a1?-aleluja"

@@ -42,7 +42,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
     f g a b( c) a g( f) g \barMaior
@@ -57,6 +57,32 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{(Jen opravena differentia)}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
+    f g a b( c) a g( f) g \barMaior
+    g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Věč -- né svět -- lo sví -- tí tvým sva -- tým, Pa -- ne,
+    pat -- ří jim ce -- lá věč -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"

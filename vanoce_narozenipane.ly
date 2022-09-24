@@ -986,7 +986,7 @@
     \header {
       quid = "ant. ke kantikům vigilie"
       modus = "VII"
-      differentia = "d"
+      differentia = "c"
       psalmus = ""
       fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
       id = "svrodiny-cte-avig"
@@ -1755,7 +1755,7 @@
     \header {
       quid = "2. ant."
       modus = "III"
-      differentia = "a"
+      differentia = "g"
       psalmus = "Žalm 97"
       fial = "antifony/velikonoce_tyden2_4streda.ly#rch-a3"
       id = "31-mc-a2"

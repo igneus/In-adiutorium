@@ -198,7 +198,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = ""
     id = "1ne-resp-amag-velik"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
