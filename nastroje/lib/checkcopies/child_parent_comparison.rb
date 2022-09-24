@@ -37,6 +37,16 @@ class ChildParentComparison
   attr_reader :child, :parent
 
   def match?
+    if Set.new(@fial.additional.keys) < Set.new(%w(+aleluja -aleluja)) &&
+       child.header['modus'] != parent.header['modus']
+      return false
+    end
+
+    if Set.new(@fial.additional.keys) < Set.new(%w(+aleluja -aleluja zacatek)) &&
+       differentia_mismatch?
+      return false
+    end
+
     if @fial.additional.has_key?('cast')
       return normalized_parent.include? strip_wrappers(normalized_child)
     end
@@ -113,6 +123,13 @@ class ChildParentComparison
 
   def simple_copy?
     @fial.additional.empty?
+  end
+
+  def differentia_mismatch?
+    (child.header['modus'] == parent.header['modus']) &&
+      !(child.header['differentia'].nil? || parent.header['differentia'].nil? ||
+        child.header['differentia'].empty? || parent.header['differentia'].empty?) &&
+      (child.header['differentia'] != parent.header['differentia'])
   end
 
   def normalize_last_bar(music)

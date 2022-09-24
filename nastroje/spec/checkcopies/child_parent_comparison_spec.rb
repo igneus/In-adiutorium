@@ -1,9 +1,19 @@
 require_relative '../../lib/checkcopies/child_parent_comparison'
 
 describe ChildParentComparison do
-  def score(music: 'a \barFinalis', lyrics: 'a', fial: 'parent_path#id')
+  def score(music: 'a \barFinalis', lyrics: 'a', fial: 'parent_path#id', modus: 'I', differentia: 'g')
     Lyv::LilyPondScore.new(
-      "\\score { \\relative c { #{music} } \\addlyrics { #{lyrics} } \\header { fial = \"#{fial}\" } }"
+      <<~EOS
+      \\score {
+        \\relative c { #{music} }
+        \\addlyrics { #{lyrics} }
+        \\header {
+          fial = "#{fial}"
+          modus = "#{modus}"
+          differentia = "#{differentia}"
+        }
+      }
+      EOS
     )
   end
 
@@ -21,6 +31,16 @@ describe ChildParentComparison do
     it 'lyrics differ' do
       expect(described_class.new(score, score(lyrics: 'b')))
         .to be_match # it does not matter, only music is compared
+    end
+
+    it 'modus differs' do
+      expect(described_class.new(score(modus: 'I'), score(modus: 'II')))
+        .not_to be_match
+    end
+
+    it 'differentia differs' do
+      expect(described_class.new(score(differentia: 'a'), score(differentia: 'b')))
+        .not_to be_match
     end
 
     # often an antifon ending with alleluia exists in copies differing
@@ -187,6 +207,56 @@ describe ChildParentComparison do
           score(music: 'a b c d e   c c c')
         )
       ).to be_match
+    end
+
+    describe 'handling mode and differentia' do
+      let(:mode_a) { 'I' }
+      let(:mode_b) { 'II' }
+      let(:diff_a) { 'a' }
+      let(:diff_b) { 'g' }
+      let(:music) { 'a a a a a' }
+
+      describe 'mode the same' do
+        let(:mode) { mode_a }
+
+        it 'differentia the same' do
+          expect(
+            described_class.new(
+              score(music: music, modus: mode, differentia: diff_a, fial: fial),
+              score(music: music, modus: mode, differentia: diff_a)
+            )
+          ).to be_match
+        end
+
+        it 'differentia differs' do
+          expect(
+            described_class.new(
+              score(music: music, modus: mode, differentia: diff_a, fial: fial),
+              score(music: music, modus: mode, differentia: diff_b)
+            )
+          ).not_to be_match
+        end
+
+        it 'differentia empty' do
+          expect(
+            described_class.new(
+              score(music: music, modus: mode, differentia: '', fial: fial),
+              score(music: music, modus: mode, differentia: diff_a)
+            )
+          ).to be_match
+        end
+      end
+
+      describe 'mode different' do
+        it 'differentia differs, but that\'s OK in this case' do
+          expect(
+            described_class.new(
+              score(music: music, modus: mode_a, differentia: diff_a, fial: fial),
+              score(music: music, modus: mode_b, differentia: diff_b)
+            )
+          ).to be_match
+        end
+      end
     end
   end
 
