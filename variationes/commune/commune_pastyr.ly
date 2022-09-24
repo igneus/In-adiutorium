@@ -1519,10 +1519,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin d, e f g( a) a( g a) g f( g) g( a) a \barMaior
     a a c a g a g e( f) d d \barMax
@@ -1540,11 +1543,165 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    id = ""
+    id = "tercie"
     fons = "7. ne velikonoční cyk. B, 2. nešp., k Magnif., 1. část; upraven konec (navic E), doplněno aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a c a g a f e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a \mark\sipka g f f g f e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a g f f \mark\sipka e( f d) c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a g f f \mark\sipka e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a g f f \mark\sipka g( a g) f e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    \mark\sipka b c a-- g f g d f( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

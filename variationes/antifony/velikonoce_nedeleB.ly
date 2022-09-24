@@ -891,8 +891,11 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin d, e f g( a) a( g a) g f( g) g( a) a \barMaior
     a a c a g a g f d d \barMax
@@ -914,6 +917,38 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     psalmus = ""
     placet = "_zasvěcuji_ snad lépe dab a ga G;
     torculus z _posvěceni_ rozhodně pryč"
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Vztah se zdrojovou antifonou jsem neplánoval, prostě mi po načrtnutí nápěvu
+  přišlo, že daný nápěv pro daná slova už odněkud znám, a nemýlil jsem se.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a \barMin \mark\sipka a a a g( a) g f g a a \barMaior
+    a a c a g a \mark\sipka f e( f) d d \barMax
+    d \mark\sipka f e d f g g( a) a \barMaior
+    a a a \mark\sipka g( f) f \barMin e f g a f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,_*
+    tak i já jsem je pos -- lal do svě -- ta;
+    a pro ně se za -- svě -- cu -- ji,
+    a -- by i o -- ni by -- li po -- svě -- ce -- ni v_prav -- dě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "mezidobi_kristakneze.ly#ne-amag?konec&+aleluja"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

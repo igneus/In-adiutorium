@@ -518,10 +518,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin d, e f g( a) a( g a) g f( g) g( a) a \barMaior
-    a a c a g a g e( f) d d \barMax
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a g f f e c e( f) d d \barFinalis
 
-    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
@@ -535,7 +535,6 @@
     differentia = "a2"
     psalmus = ""
     id = "tercie"
-    fons = "7. ne velikonoční cyk. B, 2. nešp., k Magnif., 1. část; upraven konec (navic E), doplněno aleluja"
     fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }

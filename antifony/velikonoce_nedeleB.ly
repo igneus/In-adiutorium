@@ -375,10 +375,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin d, e f g( a) a( g a) g f( g) g( a) a \barMaior
-    a a c a g a g f d d \barMax
-    d d d d d( a' bes) a g( a) a \barMaior
-    a a a bes( a) a \barMin a a g( a g) g f e e( f) d \barMaior
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a c a g a f e( f) d d \barMax
+    d f e d f g g( a) a \barMaior
+    a a a g( f) f \barMin e f g a f e d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -393,8 +393,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    placet = "_zasvěcuji_ snad lépe dab a ga G;
-    torculus z _posvěceni_ rozhodně pryč"
+    fial = "mezidobi_kristakneze.ly#ne-amag?konec&+aleluja"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
