@@ -1,3 +1,5 @@
+require 'logger'
+
 class String
   # Longest shared substring at the beginning of both Strings
   def shared_beginning(other)
@@ -27,11 +29,13 @@ end
 # Comparison of two scores, checking if 'child' is (still) a copy
 # (or deterministically modified copy) of 'parent'.
 class ChildParentComparison
-  def initialize(child, parent)
+  def initialize(child, parent, logger: nil)
     @child = child
     @parent = parent
 
     @fial = FIAL.parse @child.header['fial']
+
+    @logger = logger || Logger.new('/dev/null')
   end
 
   attr_reader :child, :parent
@@ -52,20 +56,32 @@ class ChildParentComparison
     end
 
     if @fial.additional.has_key?('zacatek')
+      size = @fial.additional['zacatek']&.to_i
+      if size.nil?
+        @logger.warn '`zacatek` size not specified, default used'
+        size = 5
+      end
+
       return \
         strip_wrappers(normalized_parent)
         .shared_beginning(strip_wrappers(normalized_child))
         .split(/\s+/)
-        .size >= 5
+        .size >= size
     end
 
     if @fial.additional.has_key?('konec') ||
        @fial.additional.has_key?('zaver')
+      size = (@fial.additional['konec'] || @fial.additional['zaver'])&.to_i
+      if size.nil?
+        @logger.warn '`konec` size not specified, default used'
+        size = 5
+      end
+
       return \
         strip_wrappers(normalized_parent)
         .shared_ending(strip_wrappers(normalized_child))
         .split(/\s+/)
-        .size >= 5
+        .size >= size
     end
 
     normalized_parent == normalized_child ||

@@ -209,6 +209,28 @@ describe ChildParentComparison do
       ).to be_match
     end
 
+    describe 'length specified' do
+      let(:fial) { 'parent_path#id?zacatek=7' }
+
+      it 'common beginning too short' do
+        expect(
+          described_class.new(
+            score(music: 'a b c d e   a a a', fial: fial),
+            score(music: 'a b c d e   c c c')
+          )
+        ).not_to be_match
+      end
+
+      it 'common beginning of sufficient length' do
+        expect(
+          described_class.new(
+            score(music: 'a b c d e f g   a a a', fial: fial),
+            score(music: 'a b c d e f g   c c c')
+          )
+        ).to be_match
+      end
+    end
+
     describe 'handling mode and differentia' do
       let(:mode_a) { 'I' }
       let(:mode_b) { 'II' }

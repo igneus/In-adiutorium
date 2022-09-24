@@ -124,6 +124,7 @@ parser = OptionParser.new do |opts|
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
   opts.on '-s PATH', '--save=PATH', 'save list of mismatches to a file, report new mismatches not found in the save from the previous run'
   opts.on '--update_save', 'if save exists, update it'
+  opts.on '-v', '--verbose', 'print extra verbose output'
 end
 
 options = {}
@@ -138,6 +139,7 @@ to_be_checked = lambda do |fial|
 end
 
 debug = lambda {|comparison| debug_comparison comparison if options[:debug] }
+logger = options[:verbose] && Logger.new(STDOUT)
 diff_text = (options[:'diff-full-score'] ? :text : :music).to_proc
 
 arguments.each do |file_or_fial|
@@ -157,7 +159,7 @@ arguments.each do |file_or_fial|
       raise
     end
 
-    comparison = ChildParentComparison.new score, parent
+    comparison = ChildParentComparison.new score, parent, logger: logger
 
     header = "#{score_ref} < #{parent_ref} : "
     if comparison.match?
