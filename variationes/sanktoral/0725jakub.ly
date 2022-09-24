@@ -1114,6 +1114,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 d c d( e) e \barMin
+    f e d f g e e \barMaior
+    g a a g e e f e d e e \barFinalis
+  }
+  \addlyrics {
+    Teh -- dy jim ře -- kl:
+    Bdě -- te a mod -- le -- te se,
+    a -- bys -- te ne -- přiš -- li do po -- ku -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e d( f e) e \barMin
+    g a( g) f e e \barMaior
+    a a a g e e f e d e e \barMaior
+  }
+  \addlyrics {
+    Teh -- dy jim ře -- kl: Bdě -- te
+    a mod -- le -- te se,
+    a -- bys -- te ne -- přiš -- li do po -- ku -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g( a) a \barMin
     g( a) g f e f d d \barMaior
     f e d f g g f e c d d \barFinalis

@@ -1685,7 +1685,51 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-I"
-    id = ""
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) a a \barMaior
+    a g( a) \barMin b c d c e( d) \barMaior
+    d c b c a g( f g4.) g4 \barFinalis
+  }
+  \addlyrics {
+    Byl sta -- teč -- ným vla -- da -- řem
+    a Pán, je -- ho Bůh, byl s_ním
+    a dal mu věč -- nou slá -- vu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) a a \barMaior
+    a g( a) \barMin b c d c e( d) \barMaior
+    d c b \mark\sipka b( c) a g( a g4.) g4 \barFinalis
+  }
+  \addlyrics {
+    Byl sta -- teč -- ným vla -- da -- řem
+    a Pán, je -- ho Bůh, byl s_ním
+    a dal mu věč -- nou slá -- vu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
