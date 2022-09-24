@@ -1184,7 +1184,36 @@
   }
 }
 
-\markup{Aktualisace ze zdroje:}
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
+    a g a g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0921matous.ly#amag"
+    id = "ne10a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
 
 \score {
   \relative c'' {
@@ -1193,7 +1222,7 @@
     d4 d c b a b \barMin
     c c a g a g f \barMaior
     g a a a a a c( d) c c d( e) d c d( c) \barMin
-    a g a g g \barFinalis
+    a g a4. g g4 \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
