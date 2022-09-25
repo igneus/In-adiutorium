@@ -417,8 +417,8 @@
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
     f f f f f e c c( d) d \barMaior
-    d d d d d c d e( f e4.) d \barMin
-    d4 d d( f e) c( d) d \barFinalis
+    d d d d d c d e( f d4.) d \barMin
+    f4 f e( c) c( d) d \barFinalis
   }
   \addlyrics {
     Sy -- nu, u -- vě -- dom si,
@@ -441,14 +441,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c c d d f e( f d) d \barMaior
-    d d c( a) a c d( f e) c c d d \barMax
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
 
-    d c c d d \barMin d e f d c c( a) a \barMaior
-    d d c d d d( f) d c( d) d \barMax
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barMax
 
-    d d g f g \barMin g f g f( e) d d \barMaior
-    d c d d( g) f e d \barFinalis
+    g f f g g \barMin g f g a g g \barMaior
+    a bes a g( f) g a f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
@@ -462,10 +462,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne6c-ne1-amag?zacatek=50"
     id = "ne26c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

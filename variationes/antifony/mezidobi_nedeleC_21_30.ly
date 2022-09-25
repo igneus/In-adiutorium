@@ -1868,10 +1868,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d e d d \barMin c d e( f) e d( e) e \barMaior
+    \mark\sipka a( g f g) f( d) \barMin f g f e e \barFinalis
+  }
+  \addlyrics {
+    Bo -- háč,
+    kte -- rý ne -- dal La -- za -- ro -- vi a -- ni drob -- ty chle -- ba,
+    pro -- sil
+    o kap -- ku vo -- dy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
@@ -1899,6 +1923,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
@@ -1928,6 +1953,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c c d d f e( f d) d \barMaior
     d d c( a) a c d( f e) c c d d \barMax
@@ -1954,6 +1980,115 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
+    id = "ne26c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+\markup\justify{
+  K antifoně koncipované jako dvoudílná prostě jenom přilepit třetí díl
+  je postup pochybný, ale přijde mi, že v tomhle případě mi to celkem prošlo.
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
+
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barMax
+
+    g g g f d \barMin g f g a g g \barMaior
+    a bes a g f g( a) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne6c-ne1-amag?zacatek"
+    id = "ne26c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
+
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barMax
+
+    g g g f d \barMin g f g a g g \barMaior
+    a bes a \mark\sipka g( f) g a f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne6c-ne1-amag?zacatek"
+    id = "ne26c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
+
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barMax
+
+    g \mark\sipka f f g g \barMin g f g a g g \barMaior
+    a bes a g( f) g a f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne6c-ne1-amag?zacatek=50"
     id = "ne26c-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
