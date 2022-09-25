@@ -62,11 +62,16 @@ class ChildParentComparison
         size = 5
       end
 
-      return \
+      shared_size =
         strip_wrappers(normalized_parent)
         .shared_beginning(strip_wrappers(normalized_child))
         .split(/\s+/)
-        .size >= size
+        .size
+      if shared_size > size
+        @logger.info "expected common beginning of size #{size}, found #{shared_size}"
+      end
+
+      return shared_size >= size
     end
 
     if @fial.additional.has_key?('konec') ||
@@ -77,11 +82,16 @@ class ChildParentComparison
         size = 5
       end
 
-      return \
+      shared_size =
         strip_wrappers(normalized_parent)
         .shared_ending(strip_wrappers(normalized_child))
         .split(/\s+/)
-        .size >= size
+        .size
+      if shared_size > size
+        @logger.info "expected common end of size #{size}, found #{shared_size}"
+      end
+
+      return shared_size >= size
     end
 
     normalized_parent == normalized_child ||
