@@ -1785,6 +1785,81 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\markup{
+  Volně podle "antifony/tyden1_6patek.ly#ne-ant3" :
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d e( f) d d \barMin
+    f e d c d d( c) c \barMaior
+    a( c d) d \barMin
+    d f d d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d e( f) d d \barMin
+    f e d \mark\sipka e d d( c) c \barMaior
+    a( c d) d \barMin
+    d f d d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d e( f) d d \barMin
+    f e d e d d( c) c \barMaior
+    a( c d) d \barMin
+    d f \mark\sipka f f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic {Responsorium jako v 1. nešporách.}

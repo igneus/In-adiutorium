@@ -2163,6 +2163,25 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \barMin f f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, dej nám ví -- ce ví -- ry!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne27c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

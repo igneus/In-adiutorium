@@ -460,6 +460,30 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c' {
     \choralniRezim
+    d4 d \mark\sipka d d c d d( a') a( g) g( a) \barMaior
+    a c( b c) a g f( g) g( a) a \barMax
+    a b c c( d) d d c( b) a( b) a( g) \barMaior
+    g f e d( e) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d d( a') a b( c) a( g) g( a) \barMaior
     a c( b c) a g f( g) g( a) a \barMax
     a b c \mark\sipka a( g) g g f( g) g( a) a \barMaior
@@ -545,6 +569,38 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     quid = "resp."
     modus = "VI"
     id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g f g a \mark\sipka a \barMax
+    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 \mark\sipka a( bes) a g a a( g) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,_*
+    to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \Verse Ty vlád -- neš na -- de vším,_*
+    \Response to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -1155,6 +1211,72 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     differentia = "a"
     psalmus = "Dan 3-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( d) d \barMin
+    c( d) c b a( g) g \barMaior
+    g a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( d) d \barMin
+    c( d) c b a( g) g \barMaior
+    g \mark\sipka g( a) g f a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( d) d \barMin
+    c( d) c b a( g) g \barMaior
+    \mark\sipka a c b a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
