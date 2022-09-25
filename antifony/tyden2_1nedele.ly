@@ -21,6 +21,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 119-נ"
+    placet = "tady ty dvě antifony stejného modu a končící stejným aleluja působí nelibě jednotvárně"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
