@@ -697,6 +697,42 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d( a) a b( g) g \barMin
+    a g a c b a a \barMaior
+    a4 a( g f) g( f) g( a) \barMin g( f) e f d d \barMax
+
+    \mark\sipka a' a g( a) g f g( a) a a \barMin
+    a( b c) b g a a \barMaior
+    a g a( c) c c b( g) g \barMin
+    a( b a) g( f) f( g a) g g \barMaior
+
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Přijď, Du -- chu sva -- tý,
+    na -- plň srd -- ce svých věr -- ných
+    a za -- pal v_nich o -- heň své lás -- ky;
+
+    ty jsi shro -- máž -- dil ná -- ro -- dy
+    v_jed -- no -- tě ví -- ry,
+    i když kaž -- dý z_nich mlu -- ví
+    ji -- ným ja -- zy -- kem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}

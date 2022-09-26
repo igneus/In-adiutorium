@@ -1941,6 +1941,66 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a f e a a \barMaior
+    c( b c) a \barMin g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a f e a a \barMaior
+    \mark\sipka a( g a) e \barMin f( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a f e a a \barMaior
+    \mark\sipka a( g) f( e) \barMin d( f) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

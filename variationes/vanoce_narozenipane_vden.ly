@@ -1478,6 +1478,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a( g) a( c) c \barMin
+      \mark\sipka a g f g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 45"
+      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1?zacatek"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \markup\nadpisSkupiny 2
 
   \score {
