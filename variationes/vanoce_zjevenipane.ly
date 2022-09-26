@@ -1866,6 +1866,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -1905,6 +1906,105 @@ ale na diferenci žalmového nápěvu?}
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "aktualisovat divisiones; některé obraty půjdou vylepšit"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Jen divisiones a rytmická znaménka - na _víno_ jsou nadbytečná,
+  na _vykoupil_ škodlivá a dávno to tak nezpívám.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    d4 g f g \barMin
+    a f f f e f d d \barMax
+
+    d c( d) d d e( f) f \barMin
+    g f e d d d \barMaior
+
+    d f g g( a) a a \barMin
+    bes g g g g a g( f) \mark\sipka d d \barMaior
+
+    d4( f) e f f( g) g \barMin
+    g g a g g f g a( bes) a a \barMaior
+    a g f g( a) f( e \mark\sipka d) d \barMin
+
+    e4 f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Sla -- ví -- me den
+    pro -- sla -- ve -- ný tře -- mi di -- vy:
+
+    dnes při -- ved -- la hvěz -- da
+    mu -- dr -- ce k_jes -- lič -- kám,
+
+    dnes by -- la na svat -- bě
+    pro -- mě -- ně -- na vo -- da ve ví -- no,
+
+    dnes chtěl být Kris -- tus
+    v_ře -- ce Jor -- dá -- nu po -- křtěn od Ja -- na,
+    a -- by nás vy -- kou -- pil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    d4 g f g \barMin
+    a f f f e f d d \barMax
+
+    d \mark\sipka d c d e( f) f \barMin
+    g f e d d d \barMaior
+
+    d f g g( a) a a \barMin
+    bes g g g g a g( f) d d \barMaior
+
+    d4( f) e f f( g) g \barMin
+    g g a g g f g a( bes) a a \barMaior
+    a g f g( a) f( e d) d \barMin
+
+    e4 f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Sla -- ví -- me den
+    pro -- sla -- ve -- ný tře -- mi di -- vy:
+
+    dnes při -- ved -- la hvěz -- da
+    mu -- dr -- ce k_jes -- lič -- kám,
+
+    dnes by -- la na svat -- bě
+    pro -- mě -- ně -- na vo -- da ve ví -- no,
+
+    dnes chtěl být Kris -- tus
+    v_ře -- ce Jor -- dá -- nu po -- křtěn od Ja -- na,
+    a -- by nás vy -- kou -- pil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

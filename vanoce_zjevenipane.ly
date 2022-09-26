@@ -589,15 +589,15 @@
     d4 g f g \barMin
     a f f f e f d d \barMax
 
-    d c( d) d d e( f) f \barMin
-    g f e d d d \barMax
+    d d c d e( f) f \barMin
+    g f e d d d \barMaior
 
     d f g g( a) a a \barMin
-    bes g g g g a g( f) d4. d \barMax
+    bes g g g g a g( f) d d \barMaior
 
     d4( f) e f f( g) g \barMin
     g g a g g f g a( bes) a a \barMaior
-    a g f g( a) f( e d4.) d \barMax
+    a g f g( a) f( e d) d \barMin
 
     e4 f( d) c d \barFinalis
   }
@@ -622,7 +622,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "aktualisovat divisiones; některé obraty půjdou vylepšit"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
