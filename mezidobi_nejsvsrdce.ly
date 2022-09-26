@@ -374,19 +374,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a a( c) \barMin d c b a g a \barMaior
-    a( g a) d, \barMin f g a b( c) a a \barFinalis
+    a4 g( f) e \barMin
+    f g a a g( a) a \barMaior
+    c a a g f g( a) g( f e) e \barFinalis
   }
   \addlyrics {
-    Li -- de můj, co jsem ti u -- či -- nil?
+    Li -- de můj,
+    co jsem ti u -- či -- nil?
     Řek -- ni, čím jsem tě za -- rmou -- til?
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "spíš II"
     id = "up-tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,8 +396,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g e a g( a) a( b) a g g( e) e \barMaior
-    f e f g( a) g f e e \barFinalis
+    a4 g e g a c b g g( a) a \barMaior
+    a g f g( a) g f e e \barFinalis
   }
   \addlyrics {
     Zdr -- ce -- no je mé srd -- ce v_mém nit -- ru,
@@ -415,9 +416,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( c) a a( c) \barMin
-    c4( a) a b a( g) g \barMin a( g) f d d( e) \barMaior
-    e g a( b a) a \barMin b( c) b a( g) g \barFinalis
+    a4 a g( a) e e \barMin
+    a g a b a c b g a \barMaior
+    g f f( g a) a \barMin g( a) g f( e) e \barFinalis
   }
   \addlyrics {
     Je -- den z_vo -- já -- ků
@@ -426,10 +427,9 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "to rozhodně není modus VIII; snad III; závěr je bídný"
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
