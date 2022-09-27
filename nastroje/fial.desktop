@@ -1,0 +1,20 @@
+# Desktop entry telling the system to open URLs of the fial:// scheme
+# using editfial.rb
+#
+# Usage:
+# - make sure that editfial.rb is working, e.g. by running `ruby editfial.rb --default-dir kompletar.ly#nei1` and checking that it opens the specified antiphon in Frescobaldi
+# - copy this file to ~/.local/share/applications/
+# - in the Exec key below update absolute path to nastroje/editfial.rb
+# - run `xdg-mime default fial.desktop x-scheme-handler/fial`
+#
+# If the steps above were successful, `xdg-open fial://kompletar.ly#nei1`
+# will open the very first Compline antiphon in Frescobaldi.
+#
+# Credits: https://unix.stackexchange.com/questions/497146/create-a-custom-url-protocol-handler/497147#497147
+# Spec: https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+[Desktop Entry]
+Type=Application
+Name=FIAL Scheme Handler
+Exec=ruby /ABSOLUTE/PATH/TO/In-adiutorium/nastroje/editfial.rb --default-dir %u
+StartupNotify=false
+MimeType=x-scheme-handler/fial;
