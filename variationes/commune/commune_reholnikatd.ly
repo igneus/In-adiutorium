@@ -589,6 +589,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4( c) b \barMin c c c a g a a g g \barMaior
       a f a g g( a) g \barMin a b c d c a( b a) a \barMaior
@@ -647,6 +648,33 @@
       c c c( d c a) a \barMin c b g( a) g \barFinalis
 
       f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce
+      a měj na pa -- mě -- ti na -- u -- če -- ní své mat -- ky:
+      nos je stá -- le ve svém srd -- ci.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vych-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a a( g) g \barMaior
+      \mark\sipka c c b( c a) a \barMin a( b) a g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
     }
     \addlyrics {
       Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce

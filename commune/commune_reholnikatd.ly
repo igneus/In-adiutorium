@@ -332,11 +332,11 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( c) b \barMin c c c a g a a g g \barMaior
-      a f a g g( a) g \barMin a b c d c a( b a) a \barMaior
-      c( a c) g \barMin f g a( c) b g g \barFinalis
+      g4( c) c \barMin c c c( d) c c b( c) a g g \barMaior
+      a f a a g( a) g \barMin a g f g a a( g) g \barMaior
+      c c b( c a) a \barMin a( b) a g g \barFinalis
 
-      g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
     }
     \addlyrics {
       Sy -- nu, drž se pří -- ka -- zů své -- ho ot -- ce

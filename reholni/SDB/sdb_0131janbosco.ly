@@ -139,9 +139,11 @@
 \markup\italic{Nebo:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g( c) c \barMin c c c c c( d) c c b( c) a g g \barMaior
+    a a g( a) g \barMin a a g f g a a( g) g \barMaior
+    c d c d e d c( b a4.) a \barMin g4( f) a g g \barFinalis
   }
   \addlyrics {
     Můj sy -- nu,
@@ -151,9 +153,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#vych-amag?jiny text&-aleluja"
     id = "1ne-am2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
