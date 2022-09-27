@@ -14,8 +14,8 @@ end
 
 def edit_fial(fial_str, variationes: false)
   line = 0
-  if fial_str.include? ':'
-    fial_str, line = fial_str.split(':', 2)
+  if fial_str =~ /:\d+$/
+    fial_str, _, line = fial_str.rpartition(':')
   end
 
   fial = FIAL.parse(fial_str)
