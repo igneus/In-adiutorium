@@ -957,6 +957,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( a g) f( g) g \barMin
+    f g a a g( a) a \barMaior
+    a c c c b c d e d c b c a a \barMaior
+    a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    O -- tec všech -- no pod -- ří -- dil
+    pod Kris -- to -- vy no -- hy
+    a je -- ho dal ja -- ko svr -- cho -- va -- nou hla -- vu círk -- vi,
+    kte -- rá je je -- ho tělem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a a g( a g) f( g) g \barMin
+    f g a a g( a) a \barMaior
+    a c c c b c d e d c b c \mark\sipka a( g) g \barMaior
+    a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    O -- tec všech -- no pod -- ří -- dil
+    pod Kris -- to -- vy no -- hy
+    a je -- ho dal ja -- ko svr -- cho -- va -- nou hla -- vu círk -- vi,
+    kte -- rá je je -- ho tělem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

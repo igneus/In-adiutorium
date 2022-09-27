@@ -844,6 +844,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g f \mark\sipka g( a) \barMin c b c( d c) b a a \barMaior
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

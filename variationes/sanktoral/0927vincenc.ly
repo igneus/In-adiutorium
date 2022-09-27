@@ -176,6 +176,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
     \choralniRezim
     g4 a c( d) d \barMin
     c d e c d d \barMaior

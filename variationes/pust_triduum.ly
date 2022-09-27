@@ -1025,6 +1025,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b g a g g \barMin
+    f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus nás mi -- lu -- je_*
+    a svou kr -- ví nás zba -- vil hří -- chů.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Hab 3"
+    id = "pa-rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

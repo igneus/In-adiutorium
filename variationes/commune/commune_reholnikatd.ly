@@ -799,6 +799,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a a c c \barMaior
+      d e d c b a a \barMin a( b) g g( a) a \barFinalis
+
+      b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV alt"
+      differentia = "A"
+      psalmus = ""
+      id = "vych-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}

@@ -3593,6 +3593,31 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4 c c d( e) d \barMin
+      d c a a c b a g g \barMaior
+      \mark\sipka a a a c b g \barMin
+      a g f g a \mark\sipka a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je o mně psá -- no:
+      Byl po -- čí -- tán me -- zi zlo -- čin -- ce.
+      Mu -- sí se to spl -- nit,
+      už se to na -- pl -- ňu -- je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "C"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "ne-2ne-amag-C"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       c4 c c d( e \mark\sipka d c) c( d) \barMin
       d c a a c b a g g \barMaior
       f g a c b g \barMin
@@ -3609,6 +3634,31 @@
       annus = "C"
       modus = "VII"
       differentia = "c"
+      psalmus = ""
+      id = "ne-2ne-amag-C"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a c( d) d \barMin
+      d e d c d e e d d \barMaior
+      a d b c a( g) a( g) \barMin
+      f g a c b a a \barFinalis
+    }
+    \addlyrics {
+      Je o mně psá -- no:
+      Byl po -- čí -- tán me -- zi zlo -- čin -- ce.
+      Mu -- sí se to spl -- nit,
+      už se to na -- pl -- ňu -- je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "C"
+      modus = "IV alt"
+      differentia = "A"
       psalmus = ""
       id = "ne-2ne-amag-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
