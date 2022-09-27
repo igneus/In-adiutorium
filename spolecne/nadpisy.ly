@@ -74,6 +74,17 @@
          (markup #:fill-line ("" #:fromproperty propertySymbol #:fromproperty 'page:page-number-string))
          (markup #:fill-line (#:fromproperty 'page:page-number-string #:fromproperty propertySymbol "")))))
 
+#(define-markup-command (url-link layout props url) (string?)
+   "Odkaz, URL se pouzije jako cil i text"
+   (interpret-markup layout props
+     #{ \markup\with-url #url { #url } #} ))
+
+#(define-markup-command (fial-link layout props url) (string?)
+   "FIAL odkaz, URL se pouzije jako cil i text"
+   (let ((urlWithScheme (string-append "fial://" url)))
+     (interpret-markup layout props
+       #{ \markup\with-url #urlWithScheme { #url } #} )))
+
 % procedure for \on-the-fly to only render markup argument
 % in a development build (i.e. build with the point-and-click feature);
 #(define (development-build layout props arg)

@@ -1786,7 +1786,7 @@ ale na diferenci žalmového nápěvu?}
 }
 
 \markup{
-  Volně podle "antifony/tyden1_6patek.ly#ne-ant3" :
+  Volně podle \fial-link "antifony/tyden1_6patek.ly#ne-ant3" :
 }
 \score {
   \relative c' {
