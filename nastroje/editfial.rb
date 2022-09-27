@@ -58,6 +58,12 @@ OptionParser.new do |opts|
   opts.on '-V', '--variationes', 'open development version of the score' do
     variationes = true
   end
+  opts.on '-d', '--dir DIR', 'resolve FIALs relative to the specified directory, not to the current working directory' do |dir|
+    Dir.chdir dir
+  end
+  opts.on '--default-dir', 'resolve FIALs relative to the In-adiutorium directory, not to the current working directory' do
+    Dir.chdir File.dirname File.dirname __FILE__
+  end
 end.parse!
 
 STDERR.puts 'please specify FIAL' if ARGV.empty?
