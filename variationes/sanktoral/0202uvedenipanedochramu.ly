@@ -612,8 +612,15 @@
 
 \pageBreak
 
+\markup\justify{
+  (Tradiční antifona, \italic{Accipiens Simeon,} AR1912 530,
+  ale melodie stojí na struktuře a rytmu latinského znění
+  a nedá se rozumně přenést na hodně odlišné znění české.)
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a a f g g( a) a \barMin
     a g( f) g f d( c d) d \barFinalis
@@ -632,6 +639,49 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g f g g( a) a \barMin
+    a a( c) b a g g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on vzal dí -- tě do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g g( a) g f g g( a) a \barMin
+    a \mark\sipka c c b( a g) f( a g) g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on vzal dí -- tě do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

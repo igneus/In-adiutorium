@@ -277,8 +277,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a a a f g g( a) a \barMin
-    a g( f) g f d( c d) d \barFinalis
+    g4 g g g g( a) g f g g( a) a \barMin
+    a c c b( a g) f( a g) g \barFinalis
   }
   \addlyrics {
     Si -- me -- on vzal dí -- tě do ná -- ru -- čí
@@ -286,10 +286,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
