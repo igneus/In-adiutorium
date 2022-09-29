@@ -126,6 +126,11 @@ namespace :sanity do
     end
   end
 
+  desc 'Report scores with b flat in key signature, but no b flat in music'
+  task :bflat_unused do
+    sh 'ruby', 'nastroje/bflat_unused.rb', *all_ly_files
+  end
+
   task :all => [:length]
 end
 
