@@ -3565,6 +3565,8 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
   \score {
@@ -3586,10 +3588,58 @@ ale na diferenci žalmového nápěvu?}
       modus = "III"
       differentia = "b"
       psalmus = ""
+      id = "krtu-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
       notitia = "Antifona nekončí na finále modu - tázací věty mohou končit netypicky výš."
+      placet = "začátek je divný, konec také"
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 c c b a g g \barMaior
+      a a a a f e d( e) d d \barMaior
+      f e f( g) a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 c c b a g g \barMaior
+      a a a a f e d( e) d d \barMaior
+      \mark\sipka d f g a a g g \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
