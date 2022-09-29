@@ -16,11 +16,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f e g) f \barMin g( a) f g d d \barMin g f e d( c d) c \barMaior
-    bes c d( e) d f e d c d d \barFinalis
+    d4( f) f \barMin d( f) f f f( g) g \barMin
+    g f e d( c d) c \barMaior
+    bes c c( d) d \barMin d( f) e d c d d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
     je -- mu slou -- ží zá -- stu -- py an -- dě -- lů.
   }
   \header {
@@ -28,6 +30,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek=12"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -38,10 +41,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f bes a \barMin
+    a4 g f g a a
     a g a f e d d \barMaior
     f f d c f( g) g g
-    g a f e c( d) d \barFinalis
+    a a f e c( d) d \barFinalis
   }
   \addlyrics {
     Mo -- ře se o -- třás -- lo
@@ -62,11 +65,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g g g g( a g) g \barMin
-    f g a a a g a a( c) c \barMaior
-    c c c( d) c c( d) c c \barMin
-    c c b a g( a) a( g) \barMin
-    d f g g( a g) f g \barFinalis
+    g4 d f g g f g( a g) g \barMin
+    a b c a g g f g( a) a \barMaior
+    c a c b g( a) g g \barMin
+    f g a a c b \barMaior
+    b c a a( b) a g \barFinalis
   }
   \addlyrics {
     An -- děl Gab -- ri -- el se zje -- vil
@@ -78,7 +81,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 103-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -88,11 +91,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c b g( a) g g \barMin
-    g f a c b c d d \barMaior
-    d e d c a a \barMin
-    c b a g( a) a( g) \barMaior
-    g g f d f e f g( a) a g g \barFinalis
+    g4 d f g a( g) f( g) g \barMin
+    a c b a g a g g \barMaior
+    c c d c b( c) a \barMaior
+    a g f g( a) a \barMin
+    c c b a c b a g a g g \barFinalis
   }
   \addlyrics {
     Já jsem an -- děl Ra -- fa -- el
@@ -104,7 +107,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 103-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -145,11 +148,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d( e) f e( g) f \barMin
-    g g a g a bes( a) g g \barMaior
-    a a a a( c) a g( a) g \barMin g g( a) bes a( g) f d( e) d d \barMax
-    d4( a' g) a \barMin d,( a' bes a g c bes a g) a \barMaior g( f d e) e( d) \barFinalis
+    c4 d d( f) f \barMin
+    f f g f g g a a \barMaior
+    a a a a( c) a g( a) a \barMin g a a g f e( f) d d \barMax
+    d4( a' g) a \barMin c( b a b) a \barMin g( f d e) e( d) \barFinalis
   }
   \addlyrics {
     Chval -- me Bo -- ha
@@ -162,25 +164,26 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
-    placet = "_cherubové a serafové_ zkusit elegantněji"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 b c a( g) g \barMin a a f( a) b a g g \barFinalis
+    d4 c d f( g) g \barMin
+    a( bes) a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     An -- dě -- lé Bo -- ží,
     chval -- te Pá -- na na -- vě -- ky.
   }
   \header {
+    fons_externus = "volně podle AR1912, 724"
     quid = "2. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "per"
+    differentia = ""
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -191,9 +194,9 @@
   \relative c'' {
     \choralniRezim
     a4 g g( a) a \barMin
-    g( e) f d c d f f( g) \barMaior
-    f g a a( g) a a( c a) a( g) g( a) \barMax
-    a a \[ b( c a \] \[ c d c b) \] a( g) \barMin a g f( g f) e( d) d \barFinalis
+    c c b g a c b \barMaior
+    a b c a a c( b) a( g) g \barMax
+    a c b( c a) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Te -- be, Bo -- že,
@@ -203,8 +206,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a2"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -249,8 +252,8 @@
     d4 e f d e c d \barMaior
     f g g g a f g f d d \barMin
     d e f d c c \barMaior
-    d( f g) a( bes) g g \barMin a a( f g) f( e) d d \barMin
-    e d c c d d \barFinalis
+    c d d( f) f f g( a g) f d d \barMin
+    d e c c d d \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
@@ -264,7 +267,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "rytmus _vystupovat a sestupovat_ působí těžkopádně"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -275,9 +277,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g( d') c \barMin
-    a g a f a g \barMin
-    f a f f g g \barFinalis
+    g4 a a( c) \barMin
+    d c d e d d \barMaior
+    c a b a g g \barFinalis
   }
   \addlyrics {
     Mi -- cha -- el,
@@ -286,8 +288,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -386,11 +388,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 bes g a( f) d d \barMin
-    e e e f e f e d( e) d d \barMax
-    d d( g f) f( g) g g a( g a) \barMin
-    a a a a g( a) a g f d( f) \barMaior
-    d f f f e f d d \barFinalis
+    a4 bes a g( a) g g \barMin
+    f g g a a f e d( e) d d \barMaior
+    c d f f f e( d c) \barMaior
+    f g a a a( c) a g a a \barMin
+    a a g f e f d d \barFinalis
   }
   \addlyrics {
     Spat -- řil jsem Be -- rán -- ka,
@@ -404,7 +406,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
-    placet = "_množství_ možná lépe ga f; od věci by ale možná nebyla důkladnější reforma"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -421,7 +422,7 @@
     f d f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a a a g( a) g \barMin g g g g( a) g g f g g( a) \barMax
+    a4 a a a a a a g( a) g \barMin g g g a g g f g g( a) \barMax
     % R
     \neviditelna a
     f d f g g f f \barFinalis
