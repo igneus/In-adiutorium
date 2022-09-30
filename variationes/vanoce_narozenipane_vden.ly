@@ -2452,7 +2452,6 @@
     \relative c' {
       \zvyraznovacModry
       \choralniRezim
-      \key f \major
       f4 f f g a g f d f f e d \barMaior
       d d c d f g \mark\sipka g \barMin
       a g f a a f e d( e) d d \barFinalis

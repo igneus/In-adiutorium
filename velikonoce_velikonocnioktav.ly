@@ -601,7 +601,6 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
       f4( g) f f g( a f e) f \barMaior
       g f g a a a g( f) d \barMaior
       f g g( f) f \barFinalis

@@ -473,7 +473,6 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
       f4 f f g a g f d f f e d \barMaior
       d d c d f g g \barMin
       a g f a a f e d( e) d d \barFinalis
@@ -1046,7 +1045,6 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
       d4 d f e f d( c) c \barMaior
       d d c d f g g \barMin
       a g f a a f e d( e) d d \barFinalis
@@ -1130,7 +1128,6 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
       f4 e d c d c \barMaior
       d d c d f g g \barMin
       a g f a a f e d( e) d d \barMaior

@@ -1910,7 +1910,6 @@ tInedeleLaudResp = \score {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    \key f \major
     f4 g a a g f g g \barMin
     g f g \mark\sipka g( a) g( f) f \barMaior
     d f g( f) f \barFinalis

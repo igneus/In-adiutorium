@@ -294,7 +294,6 @@ tInedeleInespAntIII = \score {
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
     f4 g a a g f g g \barMin
     g f g g( a) g( f) f \barMaior
     d f g( f) f \barFinalis

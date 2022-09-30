@@ -3684,7 +3684,6 @@
 \score {
   \relative c' {
     \zvyraznovacModry
-    \key f \major
     \choralniRezim
     f4 g a f f( g) g \barMin
     f e d( e) d( c) \barMin
