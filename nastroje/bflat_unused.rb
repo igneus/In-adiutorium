@@ -3,6 +3,11 @@
 
 require 'lyv'
 
+def uses_bflat?(music)
+  music =~ /[\s^]bes[^a-zA-Z]/ ||
+    music.include?('\respVIdoxologie')
+end
+
 def report(score, filename)
   fial = "#{filename}##{score.header['id']}"
   puts fial
@@ -15,7 +20,7 @@ ARGV.each do |filename|
   music.scores.each do |score|
     next unless score.music =~ /\\key\s+(f\s*\\major|d\s*\\minor)/
 
-    unless score.music =~ /[\s^]bes[^\w]/
+    unless uses_bflat?(score.music)
       report(score, filename)
       found += 1
     end
