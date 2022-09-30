@@ -3,6 +3,10 @@
 
 require 'lyv'
 
+def has_bflat_key_signature?(music)
+  music =~ /\\key\s+(f\s*\\major|d\s*\\minor)/
+end
+
 def uses_bflat?(music)
   music =~ /[\s^]bes[^a-zA-Z]/ ||
     music.include?('\respVIdoxologie')
@@ -18,9 +22,7 @@ found = 0
 ARGV.each do |filename|
   music = Lyv::LilyPondMusic.new filename
   music.scores.each do |score|
-    next unless score.music =~ /\\key\s+(f\s*\\major|d\s*\\minor)/
-
-    unless uses_bflat?(score.music)
+    if has_bflat_key_signature?(score.music) && !uses_bflat?(score.music)
       report(score, filename)
       found += 1
     end
