@@ -5,7 +5,7 @@ require 'lyv'
 
 def report(score, filename)
   fial = "#{filename}##{score.header['id']}"
-  STDERR.puts fial
+  puts fial
 end
 
 found = 0
