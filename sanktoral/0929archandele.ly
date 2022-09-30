@@ -297,12 +297,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4 d( f) f \barMin
-    f g f e f g bes a g g \barMaior
-    d g g( f e) d( c) d( c) \barMin
-    d f e d f g f d d \barFinalis
+    c4( d) d( c) c \barMin
+    b c a g a g f a g g \barMaior
+    f g g a a \barMin
+    b c a g f g a g g \barFinalis
   }
   \addlyrics {
     Ga -- bri -- el,
@@ -312,8 +312,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -323,9 +323,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( b a) a( g) g \barMaior
-    a f( a b c) b \barMin c c c b a b g g \barMaior
-    f g a g( a) g g \barFinalis
+    g4 g g( c) a( g) g \barMaior
+    a f( g a) a \barMin c c c b a b g g \barMaior
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     An -- děl Ra -- fa -- el
@@ -335,8 +335,9 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = ""
+    fial = "sanktoral/0319josef.ly#1ne-a2?zacatek=8"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
