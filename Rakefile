@@ -65,6 +65,11 @@ build_standalone_ly = standalone_ly_files.collect do |source|
   target
 end
 
+desc 'Print all LilyPond source files, one per line'
+task :all_ly_files do
+  all_ly_files.each(&method(:puts))
+end
+
 desc "build all sheet music"
 task :build => build_standalone_ly + [:psalmodie]
 
