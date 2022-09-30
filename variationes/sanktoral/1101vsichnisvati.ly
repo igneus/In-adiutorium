@@ -1020,7 +1020,28 @@
     modus = "I"
     differentia = "f"
     psalmus = "Dan 3-III"
+    placet = "zkusit lépe - spíš prostěji a zpěvněji"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f( g) g \barMin
+    a bes a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí Bo -- ží,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }

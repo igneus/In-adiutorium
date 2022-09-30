@@ -935,6 +935,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci Pá -- ně,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [32]"
+    quid = "2. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -1020,6 +1020,8 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{O více pannách:}
 
 \score {
@@ -1045,6 +1047,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f g a g g \barMaior
+    a( bes) a g f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "per"
+    differentia = ""
+    psalmus = ""
+    id = "rch-aben3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
