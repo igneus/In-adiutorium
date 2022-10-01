@@ -34,6 +34,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "asi ještě tolerovatelná, ale ne pěkná - recyklace existujícího nápěvu se tu moc nepovedla"
     fial = "antifony/tyden3_3utery.ly#ne-ant2?konec"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
