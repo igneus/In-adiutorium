@@ -3237,7 +3237,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
@@ -3253,6 +3253,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
+    placet = "_protože nevinný_ lépe"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -3282,6 +3283,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
@@ -3374,6 +3376,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior

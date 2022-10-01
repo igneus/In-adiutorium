@@ -651,7 +651,7 @@
     \choralniRezim
     a4 a a a g( f) e e \barMin
     f e f g g g a g a bes a a \barMaior
-    a a a g f e f c e d \barFinalis
+    a g f g( a) g g f d e d \barFinalis
   }
   \addlyrics {
     Bu -- dou nad ním na -- ří -- kat_*
@@ -663,7 +663,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 64"
-    placet = "_protože nevinný_ lépe"
     id = "so-rch-ant1"
     piece = \markup {\sestavTitulek}
   }
