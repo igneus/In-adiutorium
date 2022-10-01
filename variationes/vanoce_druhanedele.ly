@@ -602,6 +602,43 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "_Panna Maria_ nepřirozené; krok na _a to se_ raději pryč"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka f4 e f d d \barMin
+    c d f( g) g g a bes a g f( g) g \barMaior
+
+    \mark\sipka g g g a bes a g f( g) g \barMin
+    g( a) f e d d \barMax
+
+    d d d c d f f f e d( e) d d \barMaior
+
+    a' g a d, \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

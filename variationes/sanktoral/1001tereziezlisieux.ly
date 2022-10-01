@@ -170,6 +170,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c d e c d \barMaior
+    d c d e( d) d \barMin
+    c d c b a g \mark\sipka a( g) g \barMaior
+    f g a c b( a) a \barMin
+    c c c b g a g g \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

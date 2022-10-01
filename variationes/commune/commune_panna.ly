@@ -884,6 +884,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g f f f g( a) a( g) \barMax
+    f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a4 \mark\sipka g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f( d) f( g) g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slyš, Hos -- po -- di -- ne, můj hlas,_*
+    hle -- dám tvou tvář.
+    \Verse Mé srd -- ce k_to -- bě mlu -- ví,_*
+    \Response hle -- dám tvou tvář.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
