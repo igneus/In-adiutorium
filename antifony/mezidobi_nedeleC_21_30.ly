@@ -477,7 +477,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a \barMin g a f d e d \barFinalis
+    a4 g \barMin f g bes g bes a \barFinalis
   }
   \addlyrics {
     Pa -- ne, dej nám ví -- ce ví -- ry!
@@ -485,7 +485,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "g3"
     psalmus = ""
     annus = "C"
     id = "ne27c-ne1-mag"
@@ -494,14 +494,14 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a b a g( a) a( g) \barMin
-    f g a g g g( a) a \barMaior
-    a a( b) a g( a) g f e e \barMaior
-    d( e f) e e g f e e \barMin
-    f f( a) g f e e e \barMaior
-    f f d f e \barFinalis
+    d4 d d c d d( f) f \barMin
+    g f g( a) g f d d \barMaior
+    f f d f e d c c \barMaior
+    f g a a g a a \barMin
+    a c a g a( g) f( d) d \barMaior
+    f e d e d \barFinalis
   }
   \addlyrics {
     Kdy -- by -- ste mě -- li ví -- ru
@@ -513,8 +513,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "g"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne27c-rch-ben"
@@ -523,11 +523,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 e f g f d c \barMaior
-    d d c d d \barMin
-    d d c d f f e d( e) d d \barFinalis
+    c4 b a c b g g \barMaior
+    f g g a a \barMin
+    c c b a c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Jsme je -- nom slu -- žeb -- ní -- ci.
@@ -536,8 +536,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne27c-ne2-mag"
