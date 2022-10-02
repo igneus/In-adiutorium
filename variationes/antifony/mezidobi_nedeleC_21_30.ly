@@ -2553,6 +2553,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a c( a) a \barMin
+    a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d4( f d) d c d e d \barMin

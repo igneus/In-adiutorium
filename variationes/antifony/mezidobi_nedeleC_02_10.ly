@@ -1511,6 +1511,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1537,6 +1539,89 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMin
+    f g a g f g f( d) d \barMaior
+    c d d( f) e d c c \barMaior
+    f g g( a) g( f) f \barMin
+    e d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ne -- jsem ho -- den,
+    a -- bys ve -- šel pod mou stře -- chu;
+    a -- le řek -- ni jen slo -- vo,
+    a můj slu -- žeb -- ník
+    bu -- de u -- zdra -- ven.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMin
+    f g a g f \mark\sipka e f( g f d) d \barMaior
+    c d d( f) e \mark\sipka f d d \barMaior
+    f g g( a) g( f) f \barMin
+    e d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ne -- jsem ho -- den,
+    a -- bys ve -- šel pod mou stře -- chu;
+    a -- le řek -- ni jen slo -- vo,
+    a můj slu -- žeb -- ník
+    bu -- de u -- zdra -- ven.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMin
+    f g a g f e f( g f d) d \barMaior
+    c d d( f) e \mark\sipka d f( g) g \barMaior
+    a g f( g) f f \barMin
+    e d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ne -- jsem ho -- den,
+    a -- bys ve -- šel pod mou stře -- chu;
+    a -- le řek -- ni jen slo -- vo,
+    a můj slu -- žeb -- ník
+    bu -- de u -- zdra -- ven.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

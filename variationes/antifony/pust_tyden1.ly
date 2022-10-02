@@ -474,6 +474,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c b a g a g \barMin
+    g f( g) g( a) a a( c) b g \mark\sipka a a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi -- lu -- je svůj ná -- rod
+    a po -- kor -- né zdo -- bí ví -- těz -- stvím.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f f g a g f g g \barMin

@@ -1431,7 +1431,51 @@
     \choralniRezim
     a4 a a b( c d c d) d( c) \barMin
     d( e d c) b( g) a \barMaior
+    f g a a a c( b) \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
     \mark\sipka g a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
+    \mark\sipka a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Ce -- lá jsi krás -- ná,
