@@ -1145,8 +1145,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a c( d e) c d d \barMaior
     c d c b a g a( g f) a g g \barFinalis
@@ -1160,10 +1163,37 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "melodické ozdoby na slovech _budou_ a _jako_ ...
+    obě stejným způsobem nepatřičné (zvýraznění slova, které nemá být
+    zvýrazňováno), ale nepobuřují mě. Antifona s nimi není bezchybná,
+    ale přesto se mi líbí. Bez nich by se musela úplně přepsat."
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 d e c d d \barMaior
+    c d c b a g \mark\sipka f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí bu -- dou zá -- řit
+    v_ne -- bes -- kém krá -- lov -- ství ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 

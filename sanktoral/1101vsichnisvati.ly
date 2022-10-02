@@ -394,8 +394,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c( d e) c d d \barMaior
-    c d c b a g a( g f) a g g \barFinalis
+    c4 d e c d d \barMaior
+    c d c b a g f( a) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tí bu -- dou zá -- řit
@@ -404,12 +404,8 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = ""
-    placet = "melodické ozdoby na slovech _budou_ a _jako_ ...
-    obě stejným způsobem nepatřičné (zvýraznění slova, které nemá být
-    zvýrazňováno), ale nepobuřují mě. Antifona s nimi není bezchybná,
-    ale přesto se mi líbí. Bez nich by se musela úplně přepsat."
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
