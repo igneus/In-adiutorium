@@ -157,9 +157,9 @@
   \relative c' {
     \choralniRezim
     e4 f g a g f e e \barMin
-    d c( d) e f e e4. \barMin
+    d c( d) e f e e \barMin
     f4( a) g f( e) e \barMaior
-    a c( b) c a a g f f( g e) e \barFinalis
+    g f g a a g f d( e) e \barFinalis
   }
   \addlyrics {
     Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
@@ -171,7 +171,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ל"
-    placet = "je melisma (navíc takto exponované) na _skrze_ tolerovatelné?"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

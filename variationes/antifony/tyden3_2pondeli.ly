@@ -921,6 +921,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 f g a g f e e \barMin
     d c( d) e f e e4. \barMin
@@ -937,6 +938,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-XII"
+    placet = "je melisma (navíc takto exponované) na _skrze_ tolerovatelné?"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -990,6 +992,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4 f g a g f e e \barMin
     d c( d) e f e e \barMin
@@ -1005,7 +1008,7 @@
     quid = "1. ant."
     modus = "IV"
     differentia = "E"
-    psalmus = "Žalm 119-XII"
+    psalmus = "Žalm 119-ל"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
