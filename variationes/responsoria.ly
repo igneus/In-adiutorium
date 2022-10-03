@@ -1538,6 +1538,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -1570,6 +1571,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
 
       % R
@@ -1583,7 +1585,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g \mark\sipka f g( a) g( f d) d \barMin f f f g a g( f) f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
