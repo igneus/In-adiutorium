@@ -1373,6 +1373,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1394,6 +1396,113 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a d c( b) a a \barMin
+    g a b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a d c( b) a a \barMin
+    \mark\sipka b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g( a) g g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g) a( g) g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a g) f f( g) \barMin
+    a g f( g f) f \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
