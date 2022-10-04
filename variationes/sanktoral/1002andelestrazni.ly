@@ -59,6 +59,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
+    \mark\sipka bes a g( a) g g \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    on nám po -- sí -- lá
+    své an -- dě -- ly.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -233,6 +256,30 @@
     d d d f f g g \barMaior
     bes( a g) f g \barMin
     g g bes a g f f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na,
+    všich -- ni je -- ho an -- dě -- lé,
+    chval -- te ho,
+    všech -- ny je -- ho zá -- stu -- py.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a) g a f g f \barMin
+    d d d f f g g \barMaior
+    bes( a g) f g \barMin
+    g \mark\sipka f g a g f f \barFinalis
   }
   \addlyrics {
     Chval -- te Hos -- po -- di -- na,
@@ -489,6 +536,26 @@
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 34-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d( f) e c d c \barMaior
+    d f e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl mě chrá -- ní
+    na všech mých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 34-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

@@ -73,6 +73,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin a \mark\sipka a g( a) g g f( e) d f e \barMaior
+    f g a g f g g e e \barMin f g e \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo se ne -- zřek -- ne vše -- ho, co má,
+    ne -- mů -- že být mým u -- čed -- ní -- kem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
