@@ -10,10 +10,14 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\communia #'(#:reholnik)
+
 \score {
   \relative c'' {
     \choralniRezim
-
+    c4 d d \barMin e d c c d d \barMaior
+    d d d c b a( b) a a \barMaior
+    c a c b a g a g g \barFinalis
   }
   \addlyrics {
     Fran -- ti -- šek, chu -- dý a po -- kor -- ný,
@@ -22,9 +26,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
+    fial = "sanktoral/1111martin.ly#rch-a3?jiny_text"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
