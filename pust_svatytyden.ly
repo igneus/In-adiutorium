@@ -556,8 +556,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d f f f e d e d4. d \barMaior
-      f4( a) a a g4.( d) f4( e) c d d \barFinalis
+      d4 d d f f f e d e d d \barMaior
+      f4( a) a a g( d) \barMin f4( e) c d d \barFinalis
     }
     \addlyrics {
       Kris -- ta zbi -- té -- ho a po -- ní -- že -- né -- ho
@@ -568,7 +568,6 @@
       modus = "I"
       differentia = "D2"
       psalmus = "Žalm 110"
-      placet = "explicitní délky jsou tu podle dnes v projektu zavedených notačních konvencí nadbytečné"
       id = "ne-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
