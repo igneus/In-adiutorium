@@ -577,8 +577,8 @@
     \relative c'' {
       \choralniRezim
       c4 d c c a c b g g \barMaior
-      a g f g a c( d) c \barMin
-      b( c) a a g g \barFinalis
+      a a a g f g( a) a \barMin
+      a c b g g \barFinalis
     }
     \addlyrics {
       Krev Kris -- to -- va nás o -- čiš -- ťu -- je,
@@ -590,7 +590,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 115"
-      placet = "zejm. _sloužit živému Bohu_ lépe"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }

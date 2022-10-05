@@ -2918,7 +2918,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 d c c a c b g g \barMaior
       a g f g a \mark\sipka c( d) c \barMin
@@ -2934,6 +2934,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 115"
+      placet = "zejm. _sloužit živému Bohu_ lépe"
       id = "ne-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -2963,8 +2964,9 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
-      c4 d c c a c b g g \barMin
+      c4 d c c a c b g g \barMaior
       a \mark\sipka a a g f g( a) a \barMin
       a c b g g \barFinalis
     }
