@@ -320,6 +320,55 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka c4 b c a g( a) g \barMin
+    g f4.( a) b4 c a g g \barMaior
+    \mark\sipka c c d c d e d c c( d) c c \barMin
+    c b( c) a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c a g( a) g \barMin
+    g f4.( a) b4 c a g g \barMaior
+    c c d c \mark\sipka b( c) a \barMin c b a( g) a( g) g \barMaior
+    g g( a) g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f e d e( f d c) c \barMin

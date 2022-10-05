@@ -395,7 +395,52 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 118"
-    id = ""
+    placet = "melodie druhé části je taková 'kramářská'"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') a c( b) g g( a) a \barMaior
+    a a g f e f d c d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
+    na -- ro -- dil se Spa -- si -- tel všech li -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 118"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( a') a c( b) g g( a) a \barMaior
+    a a g f e f \mark\sipka g f e( d) d \barMin
+    e c d d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
+    na -- ro -- dil se Spa -- si -- tel všech li -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 118"
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
