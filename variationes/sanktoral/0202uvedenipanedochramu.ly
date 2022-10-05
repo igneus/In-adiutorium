@@ -395,6 +395,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d d( a') a a g f g4.( a) \barMin
@@ -413,10 +414,39 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_klanějme se_ (resp. _-me se_) vysloveně nepěkné, _pojďme_ pochybné"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d d( a') a a g f g( a) \barMin
+    a4( bes) a g( f g) g \barMaior
+    \mark\sipka g( a f d) d \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Do své -- ho chrá -- mu při -- chá -- zí Pán,
+    vlád -- ce moc -- ný:
+    pojď -- me,
+    kla -- něj -- me se!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 

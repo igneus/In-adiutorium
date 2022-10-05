@@ -150,10 +150,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d d( a') a a g f g4.( a) \barMin
-    a4( bes) a g( f g) g \barMax
-    a( f d4.) d \barMin
-    e4 f e( c) d \barFinalis
+    d4 d d d( a') a a g f g( a) \barMin
+    a4( bes) a g( f g) g \barMaior
+    g( a f d) d \barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Do své -- ho chrá -- mu při -- chá -- zí Pán,
@@ -166,7 +166,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "melodií _klanějme se_ si nejsem jistý"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
