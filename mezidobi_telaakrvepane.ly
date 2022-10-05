@@ -37,7 +37,7 @@
   \relative c'' {
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
-    g f g a a a b a a g g \barFinalis
+    g f g a a a a( b) a a g g \barFinalis
   }
   \addlyrics {
     Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
@@ -48,7 +48,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 147-II"
-    placet = "nevyvážená"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }

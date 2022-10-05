@@ -104,7 +104,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
     g \mark\sipka f g a a a b a a g g \barFinalis
@@ -118,6 +118,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 147-II"
+    placet = "nevyvážená"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -145,9 +146,90 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
     g f g a a a \mark\sipka a( b) a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    g f g a a \mark\sipka \barMin a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    g f g a a \barMin a \mark\sipka a( c) b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    g f g a a \barMin a \mark\sipka a( c b) g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    g f g a a \mark\sipka \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
@@ -208,6 +290,46 @@
     \choralniRezim
     c4 c a( g) g a g f g( a) g g \barMaior
     a c b c a \barMin a \mark\sipka b a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    \mark\sipka c d c d d( c) \barMin c b( c) a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
+    on na -- pl -- ňu -- je svou cír -- kev po -- ko -- jem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    \mark\sipka c d( e) d( c) a a \barMin a c b a g g \barFinalis
   }
   \addlyrics {
     Bůh nás sy -- tí ja -- dr -- nou pše -- ni -- cí,
