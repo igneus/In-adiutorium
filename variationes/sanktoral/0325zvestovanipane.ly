@@ -2283,6 +2283,59 @@
   }
 }
 
+\markup{
+  Oficiální text:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin c( d) e c d d d \barMaior
+    d a d b c a( g) \barMin f( g) a c( b) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( f) f \barMin g( a) g f e( f) d( c) c \barMaior
+    f g f e( f) d( c) c \barMin d( c) d f( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, s. 192"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

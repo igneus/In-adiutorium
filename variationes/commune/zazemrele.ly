@@ -573,6 +573,52 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e) f( g) g g f e d d \barMaior
+    d d( f) e d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f( g) a( g) g a bes a g( a) g \barMaior
+    g f( d) d d e c d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

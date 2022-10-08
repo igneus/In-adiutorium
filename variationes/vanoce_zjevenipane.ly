@@ -3679,6 +3679,54 @@ ale na diferenci žalmového nápěvu?}
   \score {
     \relative c'' {
       \choralniRezim
+      a4 g a g f e e \barMaior
+      f f e d
+      f4( g) d f e e \barMaior
+      f e f g g e e \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být
+      po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a g f e e \barMaior
+      \mark\sipka d e f f
+      g d f e e \barMaior
+      \mark\sipka f g g( a) g f e e \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být
+      po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 c c b a g g \barMaior
       a a a a f e d( e) d d \barMaior
       f e f( g) a f f( g) g \barFinalis
@@ -3714,6 +3762,28 @@ ale na diferenci žalmového nápěvu?}
       quid = "ant. dopoledne"
       modus = "VIII"
       differentia = "G*"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g g g f f \barMaior
+      g a g f g f d c c \barMaior
+      d c d( f) g a f f \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
       id = "krtu-tercie"
       piece = \markup {\sestavTitulekBezZalmu}

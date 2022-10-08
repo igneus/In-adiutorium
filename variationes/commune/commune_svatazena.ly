@@ -242,12 +242,84 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c4. a d4 c b( g) g \barMin
+    a( g) f a a g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě má Bůh za -- lí -- be -- ní,
+    te -- be si vy -- vo -- lil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c4. a d4 c b( g) g \barMin
+    \mark\sipka a g f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě má Bůh za -- lí -- be -- ní,
+    te -- be si vy -- vo -- lil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a a g f f( g) g \barMin
     f g a g f f \barFinalis
 
     d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě má Bůh za -- lí -- be -- ní,
+    te -- be si vy -- vo -- lil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f f( g) g \barMin
+    \mark\sipka a g f g( a) g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,

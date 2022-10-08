@@ -358,6 +358,75 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a \mark\sipka a g f( g) g \barMaior
+    g a g f g( f) d \barMaior
+    f g a c( d c) c \barMin
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a g f( g) g \barMaior
+    \mark\sipka f g a g a( c) b \barMaior
+    c d c b( c a) a \barMin
+    g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a g f( g) g \barMaior
+    \mark\sipka c d e d c( d c a) a \barMaior
+    c b a g( a) g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec se mod -- lil:_*
+    Dě -- ku -- ji ti, Bo -- že,
+    že mo -- hu vstou -- pit do tvé slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f f g a f f( g) g \barMaior

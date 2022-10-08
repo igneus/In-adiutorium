@@ -204,8 +204,81 @@
     \choralniRezim
     c4 d e c c( d) d \barMin
     d c( b a) c a b g g \barMaior
+    a a g f \mark\sipka g a c b c d d \barMin
+    d \mark\sipka d( e) d c b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c( d) d \barMin
+    d c( b a) c a b g g \barMaior
     a a \mark\sipka b c a g a f a c b \barMin
     c c( d) c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 d e c c( d) d \barMin
+    d c( b a) c a b g g \barMaior
+    a a b c a g a f \mark\sipka g a a \barMin
+    a b( c) a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c( d) d \barMin
+    d c( b a) c a b g g \barMaior
+    a a b c a g a f g a a \barMin
+    a b( c) a \mark\sipka g a g f( g) g \barFinalis
   }
   \addlyrics {
     Mou je -- di -- nou chlou -- bou
