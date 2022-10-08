@@ -430,8 +430,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c b c a \barMin
     c c b( g) a( f g) g \barMaior
@@ -451,6 +454,80 @@
     psalmus = ""
     id = "viben"
     placet = "_bude_: není vhodné takto akcentovat pomocné sloveso"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c b( c) a a \barMaior
+    c b a g( a) g \barMin
+    g f g g( a) a a g f a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ne -- chám vás si -- rot -- ky;
+    za -- se k_vám při -- jdu,
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c b( c) a a \barMaior
+    c b a g( a) g \barMin
+    g f g g( a) a a \mark\sipka c b a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ne -- chám vás si -- rot -- ky;
+    za -- se k_vám při -- jdu,
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) e d( e) d d \barMaior
+    f g a g( a) a \barMin
+    a g f g( d) d d e d c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- ne -- chám vás si -- rot -- ky;
+    za -- se k_vám při -- jdu,
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=24"
+    id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

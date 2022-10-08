@@ -262,12 +262,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c( d) c b c a \barMin
-    c c b( g) a( f g) g \barMaior
-    d f g g( a) g g a( b c) a g( a) a( g) g \barMin
-    f g g g \barFinalis
+    d4 d d( f) e d( e) d d \barMaior
+    f g a g( a) a \barMin
+    a g f g( d) d d e d c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ne -- ne -- chám vás si -- rot -- ky;
@@ -277,11 +277,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=24"
     id = "viben"
-    placet = "_bude_: není vhodné takto akcentovat pomocné sloveso"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
