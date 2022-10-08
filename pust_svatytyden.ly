@@ -687,8 +687,8 @@
       \choralniRezim
       c4 c c d( e) d \barMin
       d c a a c b a g g \barMaior
-      f g a c b g \barMin
-      a g f g a g g \barFinalis
+      a a a c b g \barMin
+      a g f g a a( g) g \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
@@ -702,7 +702,6 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
-      placet = "druhá půlka je značně neelegantní"
       id = "ne-2ne-amag-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }

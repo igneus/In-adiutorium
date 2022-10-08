@@ -3591,12 +3591,39 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c d( e) d \barMin
       d c a a c b a g g \barMaior
       \mark\sipka f g a c b g \barMin
       a g f g a g g \barFinalis
+    }
+    \addlyrics {
+      Je o mně psá -- no:
+      Byl po -- čí -- tán me -- zi zlo -- čin -- ce.
+      Mu -- sí se to spl -- nit,
+      už se to na -- pl -- ňu -- je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      annus = "C"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      placet = "druhá půlka je značně neelegantní"
+      id = "ne-2ne-amag-C"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c d( e) d \barMin
+      d c a a c b a g g \barMaior
+      \mark\sipka a a a c b g \barMin
+      a g f g a \mark\sipka a( g) g \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
@@ -3620,8 +3647,8 @@
       \choralniRezim
       c4 c c d( e) d \barMin
       d c a a c b a g g \barMaior
-      \mark\sipka a a a c b g \barMin
-      a g f g a \mark\sipka a( g) g \barFinalis
+      \mark\sipka a c b g a g \barMin
+      a g f g a a( g) g \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
