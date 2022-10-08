@@ -328,6 +328,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) g f( g) g \barMin
     g g f( g) f e d d \barMaior
@@ -344,6 +345,73 @@
     differentia = "f"
     psalmus = ""
     placet = "lépe"
+    id = "ne32b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g a) f f( g) g \barMin
+    g g f( g) f e d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chu -- dá vdo -- va
+    da -- la všech -- no, co mě -- la,
+    ce -- lé své ži -- vo -- by -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g f( a) a \barMin
+    a a g( a) g f d( c) c \barMaior
+    d c d \mark\sipka d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chu -- dá vdo -- va
+    da -- la všech -- no, co mě -- la,
+    ce -- lé své ži -- vo -- by -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f( a) a \barMin
+    a a g( a) g f \mark\sipka g( f) f \barMaior
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Chu -- dá vdo -- va
+    da -- la všech -- no, co mě -- la,
+    ce -- lé své ži -- vo -- by -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
     id = "ne32b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

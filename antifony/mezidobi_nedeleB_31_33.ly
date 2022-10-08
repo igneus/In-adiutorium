@@ -148,9 +148,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) g f( g) g \barMin
-    g g f( g) f e d d \barMaior
-    f( g a) f( e d4. c) \barMin bes4( c) d( f) e c( d) d \barFinalis
+    f4( g a) f f( g) g \barMin
+    g g f( g) f e d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Chu -- dá vdo -- va
@@ -162,7 +162,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "lépe"
     id = "ne32b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
