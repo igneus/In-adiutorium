@@ -417,7 +417,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 a a g f e f( d) d \barMax
+    f4 a a g f g g( f) f \barMax
     f g a c c \barMin d c bes bes c c \barMaior
     c c c f,( g) f f \barMin f( g) a g f g f \barFinalis
   }
@@ -431,7 +431,6 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    placet = "bez úletu do plagálního tetrachordu se dá dobře obejít"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -440,8 +439,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a bes a g( a) g \barMin g g g f g( a) a( g) \barMaior
-    f g d d \barMin f g f e d c( d) d \barFinalis
+    c4 c a c b g g \barMin f g a g a( c) b \barMaior
+    c d( e) c( b a4.) a \barMin c4 a a c b a( g) g \barFinalis
   }
   \addlyrics {
     Li -- dé si vy -- prá -- vě -- jí o moud -- ros -- ti sva -- tých,
@@ -449,12 +448,9 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    placet = "první část nepříliš vhodně napodobuje verš 
-    stereotypních krátkých responsorií modu VI;
-    předělat"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -463,9 +459,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f( g) f f e d d d( a') f f( g) f( e) \barMaior
-    d d c f e g( f) f \barMaior
-    g g( a g) f( e) d \barMin d d c d d( e) d c d d \barFinalis
+    d4 d c d d( f) e d( c) c d e d d \barMaior
+    f f d f e d( c) c \barMaior
+    d c( d) d( f) f \barMin g g f e f d c d d \barFinalis
   }
   \addlyrics {
     Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
@@ -474,10 +470,9 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "melisma na _bylo_ určitě pryč"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
