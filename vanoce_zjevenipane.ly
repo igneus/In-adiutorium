@@ -637,16 +637,17 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 d d( g) g f g a b a g a a a \barMaior
-      a g a g f e d e e \barMax
+      d4 c c( d) d \barMin f e f g f e d d d \barMaior
+      f e d f e d e c c \barMax
 
-      e e e e f f e e e \barMaior
-      e d e d c b b c d d( e) e \barMax
+      d d d c a c d d d \barMaior
+      d f f e f d d e c c( d) d \barMax
 
-      e( a) a g a g f g( a) a \barMaior
-      e( a) a a b a b c( a) a \barMaior
-      a a( b) a g f e e \barMaior
-      f f d e \barFinalis
+      c d f e f g f( d) d \barMaior
+      f d d f e d c c \barMaior
+      c a( c d) d d( f) e c( d) d \barMax
+
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Od vý -- cho -- du při -- šli do Bet -- lé -- ma mu -- dr -- ci,
@@ -663,10 +664,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "IV"
-      differentia = "E"
+      modus = "II"
+      differentia = "D"
       psalmus = ""
-      placet = "postup f g a h je nelibý"
       id = "7-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
