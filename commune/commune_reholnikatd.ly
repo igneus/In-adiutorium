@@ -196,9 +196,9 @@
       \choralniRezim
       c4 c( b d) c \barMin
       b c d b a g g \barMin
-      a g f a( c) b g g \barFinalis
+      a g f g a a( g) g \barFinalis
 
-      f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Bůh žeh -- ná

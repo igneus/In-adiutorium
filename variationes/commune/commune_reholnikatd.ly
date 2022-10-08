@@ -288,12 +288,40 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4 c( b d) c \barMin
       b c d b a g g \barMin
       a g f a( c) b g g \barFinalis
 
       f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c( b d) c \barMin
+      b c d b a g g \barMin
+      a g f \mark\sipka g a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) \mark\sipka g g \barFinalis
     }
     \addlyrics {
       Bůh žeh -- ná
@@ -358,6 +386,32 @@
       quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "c"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g( a) a( g) \barMin
+      f g a c b c( d) c \barMaior
+      c b g a g f( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
       psalmus = ""
       id = "rehol-ne2-amag2"
       piece = \markup {\sestavTitulekBezZalmu}
