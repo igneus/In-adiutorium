@@ -602,10 +602,10 @@
 \markup\italic{O více pannách:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( b c a) a \barMin c d e c d d \barMaior
-    c( d) c b( g) a a g g \barFinalis
+    c4 d f f g a g g \barMaior
+    a( bes) a g f g( a) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -617,8 +617,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "c"
+    modus = "per"
+    differentia = ""
     psalmus = ""
     id = "rch-aben3"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -412,10 +412,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g f g a( c) c \barMaior
-    c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
+    d4 d c d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -431,8 +431,7 @@
     differentia = "G"
     psalmus = "Dan 3-III"
     id = "rch-a2"
-    fons = "commune jednoho mučedníka, r.ch., 2. ant.; změněny první dvě slabiky"
-    fial = "fial://commune/commune_jedenmucednik.ly#rch-a2"
+    fial = "fial://commune/commune_jedenmucednik.ly#rch-a2?jiny text"
     piece = \markup {\sestavTitulek}
   }
 }

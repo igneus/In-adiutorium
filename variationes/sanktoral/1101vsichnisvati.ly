@@ -1010,7 +1010,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) f g( f) e \barMin
     d c d d( f) e c d d \barFinalis
@@ -1032,6 +1032,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d f( g) g \barMin
     a bes a g f g( a) a( g) g \barFinalis

@@ -418,10 +418,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g f g a( c) c \barMaior
-    c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
+    d4 d c d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -432,9 +432,10 @@
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle AR1912 [32]"
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "per"
+    differentia = ""
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

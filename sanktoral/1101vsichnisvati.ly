@@ -318,8 +318,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) f g( f) e \barMin
-    d c d d( f) e c d d \barFinalis
+    c4 d f( g) g \barMin
+    a bes a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Sva -- tí Bo -- ží,
@@ -327,10 +327,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "per"
+    differentia = ""
     psalmus = "Dan 3-III"
-    placet = "zkusit lépe - spíš prostěji a zpěvněji"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

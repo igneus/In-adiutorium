@@ -888,7 +888,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
@@ -937,6 +937,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d f( g) g \barMaior
     a bes a g f g( a) a( g) g \barFinalis

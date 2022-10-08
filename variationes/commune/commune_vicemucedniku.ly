@@ -458,10 +458,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{V době postní:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a( c) c \barMaior
     c( d c) b( c) c4.( a) \barMin a4( g) f g( a) a( g) g \barFinalis
@@ -481,6 +484,31 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci Pá -- ně,_*
+    ve -- leb -- te Pá -- na na -- vě -- ky.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [32]"
+    quid = "2. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Dan 3-III"
+    id = "rch-a2-pust"
+    fial = "fial://commune/commune_jedenmucednik.ly#rch-a2?-aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

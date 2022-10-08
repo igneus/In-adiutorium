@@ -1058,6 +1058,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( b c a) a \barMin c d e c d d \barMaior
     c( d) c b( g) a a g g \barFinalis
@@ -1082,6 +1083,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d f f g a g g \barMaior
     a( bes) a g f g( a) a( g) g \barFinalis
