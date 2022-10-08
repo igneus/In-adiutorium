@@ -18,13 +18,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( b a) g( a) a( g) \barMin
-    g f( a) c b c( d) c \barMin
-    b c a a g g \barFinalis
+    c4 c b a b c a g( a) g \barMin
+    f f g a g g \barFinalis
   }
   \addlyrics {
-    Z_Ma -- ri -- e
-    se na -- ro -- dil Je -- žíš,
+    Z_Ma -- ri -- e se na -- ro -- dil Je -- žíš,
     na -- zý -- va -- ný Kris -- tus.
   }
   \header {
@@ -32,6 +30,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 63"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?konec=7"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -66,7 +65,7 @@
     \choralniRezim
     e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
     g f d d e e \barMax
-    e f e e f( g f d) d( e) \barMaior
+    e f e e f( g f e) e \barMaior
     e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
   }
   \addlyrics {
@@ -138,10 +137,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a g f f( g f d) d \barMin
-    d( c) d f e c( d) d \barFinalis
+    a4 g f g g e e \barMin
+    f( g a g) g f e c( d) d \barFinalis
   }
   \addlyrics {
     U Je -- ží -- šo -- va kří -- že
@@ -150,7 +149,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f"
+    differentia = "a"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -191,7 +190,7 @@
       d4 d d c d e d c d d \barMaior
       d( f) f f e f g( a) g g \barMin
       f d e d( c) c \barMaior
-      c d( f) e d e d c( d) d  \barFinalis
+      c d c d f e c( d) d  \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
