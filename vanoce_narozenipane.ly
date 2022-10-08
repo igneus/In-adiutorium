@@ -543,7 +543,7 @@
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
       d( e c) c \barMin
       d c b a( g) g \barMaior
-      c c a g f a g g \barFinalis
+      a a g f g a g g \barFinalis
     }
     \addlyrics {
       O -- de dne zro -- ze -- ní je ti ur -- če -- no
@@ -556,7 +556,6 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Žalm 110"
-      placet = "napojení závěrečného dílu k převzaté melodii je nepřesvědčivé"
       id = "vden-2ne-a1"
       fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
       piece = \markup {\sestavTitulek}

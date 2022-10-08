@@ -2730,12 +2730,37 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacZeleny
+      \zvyraznovacModry
       \choralniRezim
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
       d( e c) c \barMin
       d c b a( g) g \barMaior
       \mark\sipka a a g f g a g g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no
+      vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d( e c) c \barMin
+      d c b a( g) g \barMaior
+      a a g f \mark\sipka g( a) f f( g) g \barFinalis
     }
     \addlyrics {
       O -- de dne zro -- ze -- ní je ti ur -- če -- no
@@ -2831,6 +2856,31 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d( e c) c \barMin
+      d c b a( g) g \barMaior
+      \mark\sipka a( c) b a( g) g f a g g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no
+      vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacZeleny
       \choralniRezim
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
@@ -2857,12 +2907,38 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
       d( e c) c \barMin
       d c b a( g) g \barMaior
       \mark\sipka c c a g f a g g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no
+      vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      placet = "napojení závěrečného dílu k převzaté melodii je nepřesvědčivé"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      \mark\sipka d( e) d
+      c d c a a \barMaior
+      c c b g a g f( g) g \barFinalis
     }
     \addlyrics {
       O -- de dne zro -- ze -- ní je ti ur -- če -- no
@@ -2899,6 +2975,33 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup\justify{
+    Pokus napodobit odpovídající latinskou antifonu,
+    AR1912 236, ale výsledek je spíš už příliš vzdálený předloze,
+    než aby mělo smysl nějaký vztah deklarovat.
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 c d d( a' bes) a a g f g( a) g g \barMin
+      g( a) g g f e d( c) c \barMaior
+      d f g f e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no
+      vlád -- nout v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
       psalmus = "Žalm 110"
       id = "vden-2ne-a1"
       piece = \markup {\sestavTitulek}
