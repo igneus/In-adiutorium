@@ -470,7 +470,7 @@
   \addlyrics {
     Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
     ko -- na -- li spra -- ve -- dl -- nost
-    a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+    a do -- sáh -- li to -- ho, co jim by -- lo slí -- be -- no.
   }
   \header {
     quid = "ant. odpoledne"
