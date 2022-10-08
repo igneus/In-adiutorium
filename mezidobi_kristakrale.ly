@@ -482,23 +482,24 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( g a g f) f( g) \barMin f( g a bes) a a( bes a) a \barMaior
-    a a c( d c) b!( g) g a( g a) g f e e \barMaior
-    g( a) a a b!( c a) a \barMin g f d d( e) e \barFinalis
+    f4 f g( a) f f( g) g \barMin
+    g g f d d f e d c c \barMaior
+    d d d f( g f d) d \barMin
+    f e c c( d) d \barFinalis
   }
   \addlyrics {
     Prou -- dy ži -- vé vo -- dy
     bu -- dou vy -- té -- kat z_Je -- ru -- za -- lé -- ma;
-    Pán bu -- de krá -- lem nad ce -- lou ze -- mí.
+    Pán bu -- de krá -- lem
+    nad ce -- lou ze -- mí.
   }
   \header {
     quid = "ant. v poledne"
-    modus = "IV" % vim, ze prekracuje rozsah, ale porad je, myslim, vic IV nez III.
-    differentia = "g"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "přetížená nefunkční snahou o zvukomalbu"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
