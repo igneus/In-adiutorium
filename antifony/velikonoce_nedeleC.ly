@@ -244,13 +244,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a g) f( g) g( f) \barMin
-    a a b a b c a a( g) g \barMaior
-    f f f( g) f f d f g( a) a( g) g \barMax
+    g4 f g a a \barMin
+    a a c b c d c a a \barMaior
+    c c b g g a g f g g \barMax
 
-    g g( a b c) b a b( g) g \barMin
-    a g f e d d e f g g( a) a( g) g \barMaior
-    a c( b) g g \barFinalis
+    g f( e) d d f( g) g \barMaior
+    a c b a g g f g a a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kdo mě  mi -- lu -- je,
@@ -266,7 +266,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "lépe"
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2?zacatek=8"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

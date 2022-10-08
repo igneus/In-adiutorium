@@ -755,6 +755,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a g) f( g) g( f) \barMin
     a a b a b c a a( g) g \barMaior
@@ -778,6 +779,38 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g a a \barMin
+    a a c b c d c a a \barMaior
+    c c b g g a g f g g \barMax
+
+    g f( e) d d f( g) g \barMaior
+    a c b a g g f g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě  mi -- lu -- je,
+    bu -- de za -- cho -- vá -- vat mé slo -- vo
+    a můj O -- tec ho bu -- de mi -- lo -- vat;
+
+    a při -- jde -- me k_ně -- mu
+    a u -- či -- ní -- me si u ně -- ho pří -- by -- tek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2?zacatek=8"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
