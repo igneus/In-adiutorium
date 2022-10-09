@@ -479,10 +479,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( a') \barMin a( b) a g g( a) a \barMaior
-    a g a a( b) a g a( e) \barMin f( g) f e( d) d \barFinalis
+    a4 a( bes) a g f( g) g \barMaior
+    g f g g( a) g f e( d) \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Hle, Be -- rá -- nek Bo -- ží,
@@ -491,7 +491,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = "Flp 2"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}

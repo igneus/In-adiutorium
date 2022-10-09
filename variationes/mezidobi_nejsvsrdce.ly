@@ -2127,6 +2127,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') \barMin a( b) a g g( a) a \barMaior
     a g a a( b) a g a( e) \barMin f( g) f e( d) d \barFinalis
@@ -2139,6 +2140,28 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Flp 2"
+    placet = "_Hle_ melisma nenese moc dobře"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( bes) a g f( g) g \barMaior
+    g f g g( a) g f e( d) \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, Be -- rá -- nek Bo -- ží,
+    ten, kte -- rý na se -- be vzal hří -- chy svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
     psalmus = "Flp 2"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}

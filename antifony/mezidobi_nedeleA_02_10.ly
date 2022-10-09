@@ -5,10 +5,10 @@
 \markup {\nadpisDen {"2. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( a') \barMin a( b) a g g( a) a \barMaior
-    a g a a( b) a g a( e) \barMin f( g) f e( d) d \barFinalis
+    a4 a( bes) a g f( g) g \barMaior
+    g f g g( a) g f e( d) \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Hle, Be -- rá -- nek Bo -- ží,
@@ -17,7 +17,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     fial = "mezidobi_nejsvsrdce.ly#2ne-a3"
