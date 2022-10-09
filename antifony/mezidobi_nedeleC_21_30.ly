@@ -550,16 +550,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a d( c b c) c( b) \barMin
-    a g f g( a) g g \barFinalis
+    c4 b a c( a) a \barMin
+    a g a g( f) e e \barFinalis
   }
   \addlyrics {
     Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "III"
+    differentia = "h"
     psalmus = ""
     annus = "C"
     id = "ne28c-ne1-mag"
@@ -570,10 +570,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f d) d c d e d \barMin
-    e d e( f) d c d d \barMaior
-    g f g a( f d) d \barMin
-    c f e d d \barFinalis
+    d4 c f g f( a) a \barMin
+    a a g f g( a) a( g) g \barMaior
+    a g f e( f) d c f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- den z_ma -- lo -- moc -- ných,
@@ -582,7 +581,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     annus = "C"
@@ -594,8 +593,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e f( g f) \barMin
-    f e( d) d d e c d d \barFinalis
+    f4 g a \barMin
+    a g( a) g f e f d d \barFinalis
   }
   \addlyrics {
     Vstaň a jdi!
@@ -603,8 +602,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne28c-ne2-mag"

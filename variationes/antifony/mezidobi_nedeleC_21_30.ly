@@ -2532,10 +2532,59 @@
 
 \markup {\nadpisDen {"28. neděle"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Occurrérunt decem viri leprósi, qui stetérunt a longe, et levavérunt vocem dicéntes:
+    \bold{Iesu præcéptor, miserére nostri.}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    c4 c a d( c b c) c( b) \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a d( c b c) c( b) \barMin
+    c4 a a c( b) g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a \mark\sipka c( b g) g \barMin
     a g f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -2572,10 +2621,53 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a c( a) a \barMin
+    a g a g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, Mis -- tře, smi -- luj se nad ná -- mi!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d) d c d e d \barMin
     e d e( f) d c d d \barMaior
@@ -2601,6 +2693,111 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g f g( a) a \barMin
+    g f e( f) d d c c \barMaior
+    d e f d( c) c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den z_ma -- lo -- moc -- ných,
+    kte -- ré Je -- žíš u -- zdra -- vil,
+    ve -- le -- bil Bo -- ha a dě -- ko -- val mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    b c a g f( g) g( a) a \barMaior
+    a g f e( f) d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den z_ma -- lo -- moc -- ných,
+    kte -- ré Je -- žíš u -- zdra -- vil,
+    ve -- le -- bil Bo -- ha a dě -- ko -- val mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    b c a g \mark\sipka f g g \barMaior
+    a g f e( f) d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den z_ma -- lo -- moc -- ných,
+    kte -- ré Je -- žíš u -- zdra -- vil,
+    ve -- le -- bil Bo -- ha a dě -- ko -- val mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    \mark\sipka a a g f g( a) a( g) g \barMaior
+    a g f e( f) d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den z_ma -- lo -- moc -- ných,
+    kte -- ré Je -- žíš u -- zdra -- vil,
+    ve -- le -- bil Bo -- ha a dě -- ko -- val mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Non sunt invénti qui redírent et darent glóriam Deo, nisi hic alienígena?
+    Et ait illi:
+    \bold{Surge, vade: fides tua te salvum fecit.}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4( f) e f( g f) \barMin
     f e( d) d d e c d d \barFinalis
   }
@@ -2618,6 +2815,93 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) g f( g) \barMin
+    g f( d) d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vstaň a jdi!
+    Tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a g( a) \barMin
+    a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Vstaň a jdi!
+    Tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g g( a) \barMin
+    a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Vstaň a jdi!
+    Tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 g a \barMin
+    a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Vstaň a jdi!
+    Tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne28c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"29. neděle"}}
 

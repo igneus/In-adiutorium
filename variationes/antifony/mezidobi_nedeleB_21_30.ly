@@ -2003,6 +2003,18 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ait Iesus cæco:
+    \bold{Vade, fides tua te salvum fecit.}
+    Et conféstim vidit, et sequebátur eum in via.
+  }
+}
+\markup\justify{
+  Srov. též antifony 27. a 28. neděle cyklu C.
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -2036,6 +2048,64 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 \barMin a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne28c-ne2-mag?konec=11"
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4( g a) \barMin a g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne28c-ne2-mag?konec=11"
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4( e f) \barMin f g f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "ne30b-2ne-mag"
@@ -2045,9 +2115,8 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
-    d4( e f) \barMin f g f e d e d d \barFinalis
+    f4 \barMin d f f f e d c( d) d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.

@@ -693,18 +693,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( e f) \barMin f g f e d e d d \barFinalis
+    a4( g a) \barMin a g( a) g f e f d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "a2"
     psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne28c-ne2-mag?konec=11"
     id = "ne30b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
