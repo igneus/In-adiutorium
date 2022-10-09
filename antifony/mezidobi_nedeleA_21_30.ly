@@ -670,8 +670,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 a d c( b) a a \barMin
-    g a b( c a) a \barFinalis
+    a4 g f g( a) g g \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te kaž -- dé -- mu,
@@ -679,11 +679,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
-    placet = "differentia d; zkusit, jestli by nebylo lepší v VII. modu"
     id = "ne29a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -693,7 +692,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d( c) c \barMin c c b c a g a g g \barMaior
-    g f e d d f( g a) g \barFinalis
+    g f g a f g( a g) g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,

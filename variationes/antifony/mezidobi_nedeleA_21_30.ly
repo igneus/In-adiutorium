@@ -1375,8 +1375,20 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{Sciant ab ortu solis et ab occidénte quóniam absque me nullus est. Ego Dóminus, et non est alter.}
+  (Citát z prvního čtení.)
+}
+\markup\justify{
+  Čili česká verze s předlohou vůbec nesouvisí, nejedná se o překlad.
+  Navíc nejde o citát z evangelia dne, jak se může na první pohled zdát,
+  ale o (obecnější/zobecňující) parafrázi toho citátu, který už posloužil jako antifona k Magnificat.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a d c( b) a a \barMin
     g a b( c a) a \barFinalis
@@ -1461,6 +1473,28 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 g f g( a) g g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 e d f( g) a( g) g \barMin
@@ -1506,9 +1540,53 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d( c) c \barMin c c b c a g a g g \barMaior
     g f e d d f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
+    a co je Bo -- ží, Bo -- hu!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d( c) c \barMin c c b c a g a g g \barMaior
+    g f \mark\sipka g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
+    a co je Bo -- ží, Bo -- hu!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d( c) c \barMin c c b c a g a g g \barMaior
+    g f g a f \mark\sipka f( g) g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
