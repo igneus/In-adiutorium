@@ -2052,10 +2052,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d( a') a \barMin a g a g f g( a g) f g( f) d( c) c \barMaior
-      d d d c d f e d d \barMin
-      d f g g g a( bes) a g( f) d \barMin
-      d( e) c d d \barFinalis
+      c4 d d( a') a a g a g f g( a g) f e( f) d( c) c \barMaior
+      d d d c d f e d c \barMin
+      f g a g f g f d d
+      d( e) c c( d) d \barFinalis
     }
     \addlyrics {
       Čis -- tá Mat -- ko
@@ -2069,7 +2069,6 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      placet = "půjde lépe"
       id = "bohorodicka-mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
