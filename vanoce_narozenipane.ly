@@ -872,9 +872,9 @@
     \relative c' {
       \choralniRezim
       d4( f) f \barMin
-      g f g a( g) g \barMin
-      f g f d( e d) d \barMaior
-      f f e( f d) d( c) \barMin
+      d( f) f f f( g) g \barMin
+      g f e d( e d) d \barMaior
+      f f e( d c) c \barMin
       d f f f e c d d \barFinalis
     }
     \addlyrics {
@@ -889,7 +889,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "lépe, zvlášť první půlku"
+      fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=20"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }

@@ -1069,7 +1069,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4( f) f \barMin
       g f g a( g) g \barMin
@@ -1089,6 +1089,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      placet = "lépe, zvlášť první půlku"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1115,6 +1116,113 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f \barMin
+      g f g a( g) g \barMin
+      \mark\sipka a bes a g( f g) g \barMaior
+      a a g( f d e) d( c) \barMin
+      d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f \barMin
+      g f g a( g) g \barMin
+      a bes a g( f g) g \barMaior
+      a \mark\sipka g f( e) d( c) \barMin
+      d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f \barMin
+      \mark\sipka d( f) f f f( g) g \barMin
+      \mark\sipka g f e d( e d) d \barMaior
+      f f e( f d) d( c) \barMin
+      d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=20"
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin
+      g f e d( e d) d \barMaior
+      f f \mark\sipka e( d c) c \barMin
+      d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=20"
       id = "svrodiny-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }

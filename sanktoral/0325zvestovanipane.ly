@@ -218,6 +218,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek=12"
     id = "invit"
     piece = \markup{\sestavTitulekBezZalmu}
   }
