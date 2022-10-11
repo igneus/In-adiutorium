@@ -1411,7 +1411,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d \mark\sipka f e f( g) g \barMaior
     f( g) a a g4.( d) \barMin f4 e f \mark\sipka d( c) c \barMaior
@@ -1428,6 +1428,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "ta dramatická hloubka v závěru možná úplně neodpovídá (dosti plochému) textu"
     id = "pa-up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1435,6 +1436,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d f e f( g) g \barMaior
     f( g) a a g4.( d) \barMin f4 e f d( c) c \barMaior
