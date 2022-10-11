@@ -215,6 +215,66 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a g g( a) a g f d e( d) d \barMaior
+    c d d( f) f \barMin e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c c( d) d d d( f) e d d \barMaior
+    f g g( f d) d \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d d f e d e c c( d) d \barMaior
+    f g g( f d) d \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c c( d) d d e c d d \barMaior
     c b g( a) g \barMin
     f( g) a g g \barFinalis
@@ -254,6 +314,26 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d d e c d d \barMaior
+    c a b c a \mark\sipka g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Kol 1"
     id = "1ne-a3-pust"
     piece = \markup {\sestavTitulek}
