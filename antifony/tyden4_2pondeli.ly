@@ -12,10 +12,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a c \barMin
+    c4 c b d c \barMin
     c c a g f a g g \barFinalis
 
-    f^\rubrVelikAleluja a a( g) g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Jak dob -- rý je Bůh
@@ -28,7 +28,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 73-I"
-    placet = "začátek netypický, nejspíš půjde lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
