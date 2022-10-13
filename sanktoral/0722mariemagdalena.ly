@@ -201,7 +201,7 @@
     f4 g a( c d) c \barMin
     d( e f e) d( c) c \barMax
     c4 c c a c bes a g f g g \barMin
-    g( bes a f) f \barFinalis
+    g( bes a f4.) f \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:_*
@@ -213,7 +213,6 @@
     modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
-    placet = "na konci by asi bylo vhodné explicitně vyznačit rytmus"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }

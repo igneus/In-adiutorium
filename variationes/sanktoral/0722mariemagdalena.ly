@@ -1221,13 +1221,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g a( c d) c \barMin
     d( e f e) d( c) \mark\sipka c \barMax
     c4 c c a c bes a g f g g \barMin
     g( \mark\sipka bes a f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:_*
+    Ma -- ri -- e!
+    O -- na se o -- brá -- ti -- la a zvo -- la -- la: Mis -- tře!
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  (Jen doplněna rytmická znaménka, protože rytmus není zjevný a jinak to nedává smysl.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 g a( c d) c \barMin
+    d( e f e) d( c) c \barMax
+    c4 c c a c bes a g f g g \barMin
+    g( bes a f4.) f \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:_*
