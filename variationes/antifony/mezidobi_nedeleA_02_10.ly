@@ -185,6 +185,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a e f e d e e \barMin
     e d e f g g e e \barMin
@@ -209,6 +210,63 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a e f e d \mark\sipka d( e) e \barMin
+    e d e f g g e e \barMin
+    \mark\sipka a g( a) g( f) e e \barMaior
+    a a a a g a b( g e) e \barMin
+    f g \mark\sipka a g f e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl dva brat -- ry,
+    jak vr -- ha -- jí síť do mo -- ře,
+    a po -- vo -- lal je.
+    O -- ni hned ne -- cha -- li sí -- tě
+    a ná -- sle -- do -- va -- li ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne3a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a e f e d d( e) e \barMin
+    e d e f g g e e \barMin
+    a g( a) g( f) e e \barMaior
+    \mark\sipka a g a b a b c( a) a \barMin
+    a g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl dva brat -- ry,
+    jak vr -- ha -- jí síť do mo -- ře,
+    a po -- vo -- lal je.
+    O -- ni hned ne -- cha -- li sí -- tě
+    a ná -- sle -- do -- va -- li ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne3a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

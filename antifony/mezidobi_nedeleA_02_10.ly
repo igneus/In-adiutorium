@@ -101,11 +101,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a e f e d e e \barMin
+    a4 a e f e d d( e) e \barMin
     e d e f g g e e \barMin
-    e d c d d \barMaior
-    a' a a a g a b( g e) e \barMin
-    f g g g f e e \barFinalis
+    a g( a) g( f) e e \barMaior
+    a a a a g a b( g e) e \barMin
+    f g a g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl dva brat -- ry,
