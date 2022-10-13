@@ -185,6 +185,15 @@
 
 \pageBreak
 
+\markup\justify{
+  Tato antifona má jednu \bold{kopii, která je součástí dvojice antifon k dělenému žalmu.}
+  Při zásadnějších úpravách (zejm. napsání úplně nové melodie v jiném modu)
+  je třeba na to myslet.
+  (Kdyby k takovým úpravám došlo, asi by bylo vhodné při té příležitosti
+  obrátit směr závislosti, aby vývoj probíhal přímo tam, kde je víc omezení
+  plynoucích z kontextu.)
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
