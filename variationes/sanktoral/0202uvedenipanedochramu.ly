@@ -475,6 +475,74 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f g a g g \barMaior
+    c a a c( d) c c \barMin
+    b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ten -- to je u -- sta -- no -- ven
+    k_pá -- du a k_po -- vstá -- ní
+    mno -- hých v_Iz -- ra -- e -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a g g \barMaior
+    \mark\sipka a c b c( d) c c \barMin
+    b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ten -- to je u -- sta -- no -- ven
+    k_pá -- du a k_po -- vstá -- ní
+    mno -- hých v_Iz -- ra -- e -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a f g a a \barMaior
+    c b c d( c) a a \barMin
+    g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ten -- to je u -- sta -- no -- ven
+    k_pá -- du a k_po -- vstá -- ní
+    mno -- hých v_Iz -- ra -- e -- li.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4( g a) \barMin c a a d c b a a \barMaior
     a a g( c) c b( c) e( d c d) d \barMaior
     c c b a g f g g g( a g) \barMin
@@ -730,7 +798,9 @@
   I když možná jsem tady trochu nespravedlivý a ve skutečnosti to bylo tak,
   že za tupého laika (který bibli doma nečte, v kostele neposlouchá
   a kompletář se nemodlí) měli překladatelé posluchače antifon
-  z misálu/lekcionáře/procesionálu, a v breviáři, který se dělal skoro nakonec,
+  z misálu/lekcionáře/procesionálu, (kde se ovšem antifona zpívá
+  přímo s verši textu, který cituje!)
+  a v breviáři, který se dělal skoro nakonec,
   už se akorát (ne)překládalo konkordantně.
 }
 \markup\justify\small{
@@ -809,6 +879,26 @@
   \relative c'' {
     \choralniRezim
     g4 a b b c a b \barMaior
+    c c b g f a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g f g g a a \barMaior
     c c b g f a g g \barFinalis
   }
   \addlyrics {
@@ -912,6 +1002,47 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g g \barMaior
+    a g f d e f d d \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMaior
+    g f e( f d4.) d \barMin
+    d4( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -960,7 +1091,7 @@
     \zvyraznovacSedy
     \choralniRezim
     g4 g g g f( e) f( g) g \barMin
-    a( c) c b g g a( g) f( g) g \barMaior
+    a( c)  c b g g a( g) f( g) g \barMaior
     a b b( c) c c d c b( g) g \barMin
     g g( c) b g a( f g) g \barFinalis
   }
@@ -1179,6 +1310,30 @@
     g4 g g g f( e) f( g) g \barMin
     a( c) c b g g a( g) f( g) g \barMaior
     a b c \mark\sipka b a c b a( g) g \barMin
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    \mark\sipka a g a c c d c b( g) g \barMin
     g f( g) a a g g \barFinalis
   }
   \addlyrics {
