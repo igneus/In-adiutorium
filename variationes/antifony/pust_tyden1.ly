@@ -435,6 +435,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f e d c d c \barMin
     d c( b) a( g) g g( a) f f g g \barFinalis
@@ -448,6 +449,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
+    placet = "druhou půlku, zejm. _pokorné_, lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -475,6 +477,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c b a g a g \barMin
     g f( g) g( a) a a( c) b g \mark\sipka a a \barFinalis

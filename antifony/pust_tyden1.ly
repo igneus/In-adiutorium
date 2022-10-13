@@ -132,8 +132,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d f e d c d c \barMin
-    d c( b) a( g) g g( a) f f g g \barFinalis
+    a4 g a c b a g a g \barMin
+    g f( g) g( a) a a( c) b g a a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi -- lu -- je svůj ná -- rod
@@ -141,10 +141,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "II"
+    differentia = "A"
     psalmus = "Žalm 149"
-    placet = "druhou půlku, zejm. _pokorné_, lépe"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
