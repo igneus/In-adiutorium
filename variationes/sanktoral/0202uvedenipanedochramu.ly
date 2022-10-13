@@ -713,6 +713,32 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{Lumen ad revelatiónem géntium, et glóriam plebis tuæ Israel.}
+}
+\markup\justify{
+  Latinská antifona je citát z Lukášova evangelia
+  (modlící se silný evangelní úryvek samozřejmě zná a trkne ho to!),
+  český překlad urputně vysvětluje, o co jde, za cenu zastření
+  skutečnosti, že v předloze jde o citát
+  (modlící se je v očích překladatele tupý laik, který doma bibli nečte,
+  v kostele neposlouchá, a citát nepozná ani když jde o text,
+  který se den co den zpívá v kompletáři).
+}
+\markup\justify{
+  I když možná jsem tady trochu nespravedlivý a ve skutečnosti to bylo tak,
+  že za tupého laika (který bibli doma nečte, v kostele neposlouchá
+  a kompletář se nemodlí) měli překladatelé posluchače antifon
+  z misálu/lekcionáře/procesionálu, a v breviáři, který se dělal skoro nakonec,
+  už se akorát (ne)překládalo konkordantně.
+}
+\markup\justify\small{
+  Nebo je to projev odporu k citátům sestávajícím z hrubě neúplné věty,
+  jaký se patrně propsal i do římského breviáře v rámci piánské reformy žaltáře,
+  když z něj byly vymýceny antifony jako \italic{Et omnis mansuetudinis eius} apod.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -734,6 +760,159 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a a g \barMaior
+    f g a a g f a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Předloze vzdálený vysledek pokusu vyjít (i při dosti odlišném rytmu a kvantitě textu)
+  z jejího nápěvu, AR1912 530.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g a c b \barMaior
+    c a g g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b c a b \barMaior
+    c c b g f a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a f g \barMaior
+    a c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Aneb, jak se mi k typickému začátku VII.c nepodařilo
+  v VII. modus složit závěr a melodie překvapivě spadla úplně jinam.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f g g \barMaior
+    a c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    c4 c d bes c c a \barMaior
+    f g a a bes g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d e( f) d( c) d \barMaior
+    f f e( d c4.) c \barMin
+    d4( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va
+    své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

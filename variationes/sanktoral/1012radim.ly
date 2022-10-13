@@ -100,6 +100,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d e f g f e( f) d c \barMaior
+    d \mark\sipka c d f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    textus_approbatus = "Bratr, kterému pomáhá bratr, je jak opevněné město."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d e f g f \mark\sipka d( e) d c \barMaior
     d d e f d c c( d) d \barFinalis
   }
@@ -140,6 +161,8 @@
   }
 }
 
+\markup\nadpisSkupiny "oficiální text"
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -154,6 +177,126 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g g f g a g g \barMaior
+    \mark\sipka f g a c b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a a c b a g g \barMaior
+    f g a c b a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e d c f e c d d \barMaior
+    d c d f g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e d c f e c d d \barMaior
+    d c \mark\sipka f e f g f( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e d c f e c d d \barMaior
+    \mark\sipka f f e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g f e d d \barMaior
+    f f e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
