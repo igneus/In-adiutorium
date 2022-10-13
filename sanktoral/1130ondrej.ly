@@ -130,9 +130,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( a) b \barMaior
-    g a b g4.( e) \barMin
-    f4 g a a( g) g \barFinalis
+    g4 a c( d) d \barMin
+    e d c d( c) \barMin
+    b c a g( a) a \barFinalis
   }
   \addlyrics {
     Pojď -- te za mnou;
@@ -140,8 +140,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 126"
     id = "ne-a2"
     fial="fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-rch-ben"
@@ -150,10 +150,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f f f e( d e4.) e \barMin
-    e4 f( e) d c d e e( d) d \barFinalis
+    a4 a g f e( f d c) c \barMaior
+    d f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- cha -- li své sí -- tě
@@ -161,8 +161,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "a"
     psalmus = "Ef 1"
     id = "ne-a3"
     fons = "3. ne v mez, cyk. B, 2. nešp. k Magnificat"

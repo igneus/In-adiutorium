@@ -108,9 +108,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( a) b \barMaior
-    g a b g4.( e) \barMin
-    f4 g a a( g) g \barFinalis
+    g4 a c( d) d \barMin
+    e d c d( c) \barMin
+    b c a g( a) a \barFinalis
   }
   \addlyrics {
     Pojď -- te za mnou;
@@ -118,20 +118,19 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "nic moc"
     id = "ne3b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f f f e( d e4.) e \barMin
-    e4 f( e) d c d e e( d) d \barFinalis
+    a4 a g f e( f d c) c \barMaior
+    d f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- cha -- li své sí -- tě
@@ -139,10 +138,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
-    placet = "zkusit alternativy"
     id = "ne3b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

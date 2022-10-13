@@ -200,8 +200,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b( a) b \barMaior
     g a b g4.( e) \barMin
@@ -216,14 +219,42 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 126"
-    id = ""
+    id = "ne-a2"
     fial="fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-rch-ben"
     piece = \markup {\sestavTitulek}
   }
 }
 
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    e d c d( c) \barMin
+    b c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te za mnou;
+    u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    fial="fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-rch-ben"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f f f e( d e4.) e \barMin
     e4 f( e) d c d e e( d) d \barFinalis
@@ -237,7 +268,30 @@
     modus = "II"
     differentia = "D"
     psalmus = "Ef 1"
-    id = ""
+    id = "ne-a3"
+    fons = "3. ne v mez, cyk. B, 2. nešp. k Magnificat"
+    fial = "fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-ne2-mag"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f e( f d c) c \barMaior
+    d f f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- cha -- li své sí -- tě
+    a ná -- sle -- do -- va -- li Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "ne-a3"
     fons = "3. ne v mez, cyk. B, 2. nešp. k Magnificat"
     fial = "fial://antifony/mezidobi_nedeleB_02_10.ly#ne3b-ne2-mag"
     piece = \markup {\sestavTitulek}
