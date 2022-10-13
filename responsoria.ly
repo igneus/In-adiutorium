@@ -902,7 +902,7 @@ doxologieResponsoriumVI = \relative c'' {
 
       % R
       \neviditelna f
-      f4 f f f f g( a) a( g) \barMax
+      f4 f f g f g( a) a( g) \barMax
       g g( f d) f( g) g( f) f \barFinalis
       % V
       \neviditelna g
@@ -923,7 +923,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "_je_ by možná bylo lepší g, jak už původně bylo"
       id = "2ct-ne"
       piece = \markup\sestavTitulekResp
     }

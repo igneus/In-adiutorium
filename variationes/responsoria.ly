@@ -2740,7 +2740,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -2755,6 +2755,44 @@ doxologieResponsoriumVI = {}
       g g( f d) f( g) g( f) f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din je můj pas -- týř,_*
+      nic ne -- po -- strá -- dám.
+      \Verse Dá -- vá mi pro -- dlé -- vat na svě -- žích past -- vi -- nách,_*
+      \Response nic ne -- po -- strá -- dám.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      placet = "_je_ by možná bylo lepší g, jak už původně bylo"
+      id = "2ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \markup{
+    Tady krok na _je_ není akcentem zvýrazňujícím slovo,
+    jako přípravou následující ozdoby, a bez něj zní responsorium ploše.
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f \mark\sipka g f g( a) a( g) \barMax
+      g g( f d) f( g) g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a a a g( a) g g \barMin g g f g a a( g) \barMax
+      % R
+      \neviditelna g
+      g g( f d) f( g) g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- din je můj pas -- týř,_*
