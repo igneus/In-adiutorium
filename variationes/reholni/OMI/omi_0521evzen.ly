@@ -594,7 +594,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g f g a a \barMin
     a g f f f g f d d \barMaior
@@ -625,7 +625,7 @@
     \choralniRezim
     a4 a a a g f g a a \barMin
     a g f f f g f d d \barMaior
-    f g a f e( d) d \barFinalis
+    \mark\sipka f g a f e( d) d \barFinalis
 
     a'^\markup\rubrVelikAleluja a c c g g \barMin
     f e d d \barFinalis
@@ -636,6 +636,59 @@
     u -- smiř -- te se s_Bo -- hem.
 
     u -- smiř -- te se s_Bo -- hem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g f g a a \barMin
+    a g f f f g f d d \barMaior
+    \mark\sipka f( g) g( a) f e c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d d( f) d \barFinalis
+  }
+  \addlyrics {
+    Pro -- chá -- zel měs -- ta i ves -- ni -- ce
+    a vy -- zý -- val ve jmé -- nu Kris -- ta:
+    u -- smiř -- te se s_Bo -- hem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a g f g a a \barMin
+    a g f f f g f d d \barMaior
+    \mark\sipka c( d) d( f) e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pro -- chá -- zel měs -- ta i ves -- ni -- ce
+    a vy -- zý -- val ve jmé -- nu Kris -- ta:
+    u -- smiř -- te se s_Bo -- hem.
+
     A -- le -- lu -- ja.
   }
   \header {

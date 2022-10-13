@@ -266,9 +266,9 @@
     \choralniRezim
     a4 a a a g f g a a \barMin
     a g f f f g f d d \barMaior
-    f e d e c( d) d \barFinalis
+    c( d) d( f) e d c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d d( f) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Pro -- chá -- zel měs -- ta i ves -- ni -- ce
@@ -282,7 +282,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 92-I"
-    placet = "zkusit výraznější závěr, tento je poněkud mdlý"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
