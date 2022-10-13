@@ -287,8 +287,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d) c( b) a b \barMaior
-    g f g a a g( a) a( g) g \barMin f g g \barFinalis
+    g4 a c c b \barMaior
+    b c c a g a g f \barMin g a g \barFinalis
   }
   \addlyrics {
     Mé jho ne -- tla -- čí
@@ -297,10 +297,9 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = ""
     annus = "A"
-    placet = "úvodní motiv (melodii _mé jho netlačí_) jako bych slyšel v nějaké tupé taneční písničce - ale nevím, ve které"
     id = "ne14a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

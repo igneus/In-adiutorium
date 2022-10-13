@@ -408,8 +408,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( d) c( b) a b \barMaior
     g f g a a g( a) a( g) g \barMin f g g \barFinalis
@@ -429,6 +432,57 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  Následující melodie dost spoléhá na to, že se \italic{mé břemeno}
+  zazpívá jako jeden přízvučný celek, tzn. s přízvuky
+  \italic{\underline{mé} \concat{bře\underline{me}no}}
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b \barMaior
+    b c c a g a g f \barMin g a g \barFinalis
+  }
+  \addlyrics {
+    Mé jho ne -- tla -- čí
+    a mé bře -- me -- no ne -- tí -- ží, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne14a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMaior
+    b c c a g a g f \barMin \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mé jho ne -- tla -- čí
+    a mé bře -- me -- no ne -- tí -- ží, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne14a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"15. neděle"}}
 
