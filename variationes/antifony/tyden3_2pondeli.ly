@@ -466,6 +466,34 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    \mark\sipka e f d( c) c \barMaior
+    a c d d( f) f \mark\sipka
+    f e c e f d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     f4 f e f d d \barMin
@@ -524,7 +552,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e f d d \barMin
     e c c( d) d \barMaior
@@ -546,6 +574,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 50-III"
+    placet = "postup _poznání Boha_ není moc typický a dramatičnost jeho nasazení úplně neodpovídá obsahu textu"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -586,6 +615,34 @@
     e c c( d) d \barMaior
     \mark\sipka f e d c( d) c
     d f e d e d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    e c c( d) d \barMaior
+    f e d c( d) c
+    \mark\sipka c d f e c d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -693,11 +750,41 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 f e f d d \barMin
     e c c( d) d \barMaior
     c d f f( g) g
     f \mark\sipka e c e f d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť:
+    po -- zná -- ní Bo -- ha
+    je víc než ce -- lo -- pa -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e f d d \barMin
+    \mark\sipka e f d( c) c \barMaior
+    \mark\sipka d c d d( f) f
+    f g f e f d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
   }

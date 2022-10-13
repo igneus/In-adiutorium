@@ -61,11 +61,11 @@
   \relative c' {
     \choralniRezim
     f4 f e f d d \barMin
-    e c c( d) d \barMaior
-    a c d d( f) f
+    e f d( c) c \barMaior
+    d c d d( f) f
     f g f e f d d \barFinalis
 
-    e^\rubrVelikAleluja c d d \barFinalis
+    e^\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
@@ -80,7 +80,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 50-III"
-    placet = "postup _poznání Boha_ není moc typický a dramatičnost jeho nasazení úplně neodpovídá obsahu textu"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
