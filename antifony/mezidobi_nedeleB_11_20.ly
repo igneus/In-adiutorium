@@ -326,12 +326,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e e e( a g) f g g \barMin
-    a b a g a g f f( g) e \barMaior
-    d c d e e e( f) e e f( g) a g f e \barMin
-    a g f e d e e \barFinalis
+    a4 a g f g a a( g) g \barMin
+    a a g f e f d d( c) c \barMaior
+    d d d c d d( f) f f \barMin g( a) g f( g) f f \barMaior
+    d f e d e d d \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- vi u -- čed -- ní -- ci
@@ -341,10 +341,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
-    placet = "lépe"
     id = "ne15b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
