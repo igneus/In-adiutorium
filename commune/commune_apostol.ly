@@ -41,10 +41,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a g( f) d d d( f) f( g) g \barMin
-    f f( g) f e d d \barFinalis
+    a a g f e( f) d( c) c \barMin
+    d f e c d d \barFinalis
 
-    d^\markup\rubrVelikAleluja e d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     O -- pus -- ti -- li své sí -- tě
