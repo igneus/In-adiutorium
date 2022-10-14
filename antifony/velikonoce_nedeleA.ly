@@ -307,6 +307,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_toho bude ... já ho budu milovat_ lépe"
     id = "vimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
