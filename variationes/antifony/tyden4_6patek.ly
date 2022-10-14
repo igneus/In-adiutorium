@@ -900,7 +900,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 d( e f) e \barMin
     \mark\sipka f g f g a a \barMin
@@ -946,6 +946,47 @@
     \choralniRezim
     e4 d( e) e e f g f e e \barMin
     g a g \mark\sipka f( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f e e f g f e e \barMin
+    a g a g( f) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 f e e f g f e e \barMin
+    a g \mark\sipka f d e e \barFinalis
   }
   \addlyrics {
     Svou sta -- rost hoď na Hos -- po -- di -- na,

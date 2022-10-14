@@ -138,13 +138,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d( e f) e \barMin
-    f g f g a a \barMin
+    e4 f e e f g f e e \barMin
     a g f d e e \barFinalis
   }
   \addlyrics {
-    Svou sta -- rost
-    hoď na Hos -- po -- di -- na,
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
     a on tě za -- cho -- vá.
   }
   \header {
