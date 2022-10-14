@@ -1,9 +1,9 @@
 \version "2.19.80"
 
 \include "../../spolecne.ly"
-\include "../../spolecne/reholni.ly"
+\include "../../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
-\include "ocd.ly"
+\include "../../../reholni/OCD/ocd.ly"
 
 \header {
   title = \markup\titleSvatek
@@ -18,6 +18,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c b a c b g g \barMin
     a a g f g a a( g) g \barFinalis
@@ -36,10 +37,31 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Zdá se, že tohle je jediná antifona převzatá z předkoncilního formuláře
+  (tam k Magnificat druhých nešpor):
+  \italic{Sapiéntiam eius enarrábunt gentes, et laudem eius enuntiábit ecclésia.}
+}
+\markup\small{
+  (\italic\with-url #"https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
+    Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,
+  }
+  Parisiis-Tornaci-Romae: Desclée 1950,
+  s. 201.)
+}
+\markup\justify{
+  Kdyby nic jiného (také nejsem kdovíjaký nadšenec pro ten druh snubní mystiky,
+  kterým je jinak starý formulář prodchnutý), je věčná škoda, že se do pokoncilního formuláře
+  nedostala alespoň antifona \italic{Sancta Mater Terésia, réspice} (tamtéž, s. 194)
+  a \italic{Induit me Génitrix Dómini} (s. 181).
+}
+
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c b g g \barMin a g a a( c) c( b) b \barMaior
+    c4 c a c b g g \barMin a g f a c b \barMaior
     c c a c c b a g g \barFinalis
   }
   \addlyrics {
@@ -57,6 +79,75 @@
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin a g f \mark\sipka a( c) b b \barMaior
+    c c a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a c b g g \barMin a g \mark\sipka a a( c) c( b) b \barMaior
+    c c a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin a g a \mark\sipka a c b \barMaior
+    c c \mark\sipka c b c a g g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -106,22 +197,139 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  IT:
+  \italic{
+    Santa Madre Teresa,
+    \bold{luce della Chiesa di Cristo,}
+    insegnaci il cammino della perfezione che
+    \bold{conduce all’unione eterna con Dio.}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin f e f d c d d \barMaior
+    f e d f( g a) g g \barMaior
+    a g f e( f) d c d d \barFinalis
   }
   \addlyrics {
-    Svatá matko Terezie, ukaž nám cestu dokonalosti, po které přijdeme s Kristem do věčných příbytků.
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me
+    s_Kris -- tem do věč -- ných pří -- byt -- ků.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin f e f d c d d \barMaior
+    f e d \mark\sipka f( g) a g f( g) g \barMaior
+    g( f e) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin \mark\sipka e( g a) a c b g a a \barMax
+    a g f g( a) g f d( e) d( c) \barMaior
+    d( c d) d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin e( g a) a c b g a a \barMax
+    \mark\sipka a a a g( a) g f d( e) d( c) \barMaior
+    \mark\sipka d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin e( g a) a c b g a a \barMax
+    a a a \mark\sipka b( c) a g a( g f d) d \barMaior
+    d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
