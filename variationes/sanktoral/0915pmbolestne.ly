@@ -362,6 +362,40 @@
     \choralniRezim
 
     % R
+    \neviditelna d
+    \mark\sipka c4 d d( f) f \barMin e d e f d \barMax
+    f e g f e d d \barFinalis
+    % V
+    \neviditelna d
+    \mark\sipka d( e) d c e( f d) \barMax
+    % R
+    \neviditelna f
+    f e g f e d d \barFinalis
+    % Slava
+    \mark\sipka d c c( d) d \mark\sipka d e( f d) d \barMin f e g f( e) d d \barFinalis
+  }
+  \addlyrics {
+    \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
+    čer -- pá -- me mi -- lost spá -- sy.
+    \Verse Z_Kris -- to -- vých ran_*
+    \Response čer -- pá -- me mi -- lost spá -- sy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
     g f d f g g( f) f \barFinalis
@@ -400,6 +434,38 @@
     % V
     \neviditelna a
     a( bes) a g \mark\sipka g( a g) \barMax
+    % R
+    \neviditelna f
+    g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
+    čer -- pá -- me mi -- lost spá -- sy.
+    \Verse Z_Kris -- to -- vých ran_*
+    \Response čer -- pá -- me mi -- lost spá -- sy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a \mark\sipka a g( a g) \barMax
     % R
     \neviditelna f
     g f d f g g( f) f \barFinalis
@@ -640,6 +706,34 @@
 
     \mark\sipka c b c d( e d) c( d) \barMin
     c4 b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    d c b a( g) g \barMaior
+    \mark\sipka a a a c b a( g) g \barMin
+    a f a g g \barMax
+
+    c d e c( b a4.) a \barMin
+    c4 a a g( f g4.) g \barFinalis
   }
   \addlyrics {
     Ra -- duj se, bo -- lest -- ná Mat -- ko,
@@ -1318,6 +1412,39 @@
   \header {
     quid = "resp."
     modus = "I"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f f f f f f g f g a a( g) \barMax
+    g g g f g a g g \barMin f( d) f g g f \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g f g a g g \barMin f( d) f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }

@@ -642,6 +642,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4( g) g \barMin a bes c bes a g f g g \barMin
+    g a f e f d d \barMaior
+    c d f e \mark\sipka f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, ce -- lou noc jsme se lo -- po -- ti -- li,
+    a nic jsme ne -- chy -- ti -- li.
+    A -- le na tvé slo -- vo spus -- tím sí -- tě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
