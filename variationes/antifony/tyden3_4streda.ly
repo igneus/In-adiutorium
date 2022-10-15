@@ -1043,6 +1043,66 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e d f( e) d( c) c \barMin
+    d e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka d f d d f( e) d( c) c \barMin
+    d e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d e c d f e \barMin
+    d c e d d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a g e e f e d \barMin

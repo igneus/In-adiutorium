@@ -232,6 +232,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d \mark\sipka d( e d) c( d) c \barMin
+    a c b g g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 b d c( b) g \barMin
     a g f g g \barFinalis
 
@@ -539,10 +563,140 @@
   \relative c'' {
     \choralniRezim
     d4 d d c( d) c c \barMin
+    d e d c( b a) \barMaior
+    c b a g( a) g \mark\sipka \barMaior
+    f( g) g( a) a \barMin
+    \mark\sipka c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
     d e \mark\sipka d( c) d( c) \barMaior
     c b a g( a) g \barMin
     f( g) g( a) a \barMin
     c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    \mark\sipka d( e) d c d( c) \barMaior
+    c b a g( a) g \barMin
+    f( g) g( a) a \barMin
+    c c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    \mark\sipka d e d c( d) \barMaior
+    d c b a( g) a \barMin
+    f( g) g( a) a \barMin
+    c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a b g \barMin
+    a f a( c) b \barMaior
+    c d e d( c d) c \barMin
+    c a a
+    c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí
+    je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a b g \barMin
+    a f a( c) b \barMaior
+    c d e \mark\sipka d( c) d \barMin
+    c a a
+    g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din při -- chá -- zí
@@ -761,6 +915,28 @@
   \relative c'' {
     \choralniRezim
     d4 \mark\sipka d( e) e( d) d \barMin
+    d c b g g \barMaior
+    a b g \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- ná -- ší
+    o -- bě -- ti chvá -- ly,
+    ten mě ctí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \mark\sipka e( f) d( c) c \barMin
     d c b g g \barMaior
     a b g \barFinalis
   }

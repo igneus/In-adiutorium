@@ -245,6 +245,127 @@ sestavInvitTitulek = \markup {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    g( f) g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    \mark\sipka g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g a \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f g a g g \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f g a g g \barMin
+    \mark\sipka f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c b a g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Před -- stup -- me před Hos -- po -- di -- na
+    s_chva -- lo -- zpě -- vy!
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "c"
+    dies = "pondělí"
+    id = "t1po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 pojdmeKlanmeSeI = {
@@ -462,14 +583,88 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMin
+    a g f d( c) c \barMaior
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "f"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e e d c d d \barMin
+    \mark\sipka d c b a( g) g \barMaior
+    a a c b a g a \barMin
+    a b a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
-  Melodie má vícero společných prvků s "antifony/tyden4_2pondeli.ly#ne-ant1"
+  ... ale nepřijde mi příliš žádoucí, aby invitatorium
+  mělo stejný nápěv jako antifona (téměř) shodného textu
+  z běžné psalmodie, takže tohle je spíš poznámka, že tu tahle možnost je,
+  než cesta, kterou bych chtěl využít.
 }
 \score {
   \relative c'' {
     \choralniRezim
+    g4 c c c b c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    dies = "pátek"
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 c c c b c c( d) d \barMin
-    d e c c( d) d \barMaior
+    \mark\sipka d e c c( d) d \barMaior
     c a c b a g g \barMin
     f g a g g \barFinalis
   }

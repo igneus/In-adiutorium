@@ -210,6 +210,24 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d f f e c d \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d c( d) c c e( f) d \barFinalis
   }
   \addlyrics {
@@ -1974,6 +1992,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c( d) c c d c a a \barMaior
+    a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacZeleny
     \choralniRezim
@@ -3096,6 +3134,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g \mark\sipka a a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e e \barMin
+    e f( g) f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a v_stí -- nu smr -- ti!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % SUDE TYDNY -----------------------------------------------
@@ -3727,6 +3789,27 @@ se bude hodit.}
 \score {
   \relative c' {
     \choralniRezim
+    c d d4.( f) e4 d e e \barMaior
+    e( f) d e( d) \barMin
+    c d \mark\sipka e c e d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d( f) e d( c) c \barMaior
     d( e f) d( e) d( c) \barMin
     d c f e c( d) d \barFinalis
@@ -3793,6 +3876,49 @@ se bude hodit.}
     d4 d d( e f) \barMin e d e d \barMaior
     \mark\sipka d( e) d c( b a) \barMin
     c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e f--) \barMin e d e d \barMaior
+    \mark\sipka f( e) f d( c) \barMin
+    d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d d( e f--) \barMin e d e d \barMaior
+    \mark\sipka d( e d) c d( c) \barMin
+    d e f d c( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Hos -- po -- di -- ne,
@@ -3894,6 +4020,72 @@ se bude hodit.}
   \relative c' {
     \choralniRezim
     d4 e f d c d d \barMaior
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e d c c \barMaior
+    d( e) c d( e f) \barMin
+    e d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Z hlediska srozumitelnosti asi není úplně cool mít dvě clivis,
+  obě dlouhé, ale jen jednu s explicitními délkami,
+  protože druhá je dlouhá díky následující cesuře.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d4.( c) a4 c d d \barMaior
+    f( e) f d( c) \barMin d d e f d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d4.( c) a4 c d d \barMaior
+    f( e) f d( c) \barMin d d \mark\sipka f d c( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Hos -- po -- di -- ne,

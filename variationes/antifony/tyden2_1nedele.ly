@@ -718,6 +718,28 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d c e d d \barMaior
+    d c a a c b g( a) a \barMaior
+    b^\markup\rubrMimoPust c a a \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -789,6 +811,48 @@ Potřebuje výraznější úpravu:}
     quid = "1. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g( a) g g \barMin
+    a a a g f d( c) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
+    jmé -- nu. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \mark\sipka a g f g g \barMin
+    a a a g f d( c) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný, kdo při -- chá -- zí v_Hos -- po -- di -- no -- vě
+    jmé -- nu. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 118"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
@@ -968,6 +1032,28 @@ Potřebuje výraznější úpravu:}
     g4( a g) g( c) c c( d) c c( b a) \barMaior
     a( g f) g( a) a g g \barMaior
     b c( a) g( a) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a c c b \barMaior
+    c c c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv
@@ -1736,6 +1822,74 @@ tIInedeleLaudResp = \score {
     c4 d e c c d d \barMaior
     c c d c b a g a a( g) g \barMaior
     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d d \barMaior
+    e d c( d c) c \barMin b c a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d d \barMaior
+    e \mark\sipka e d c b c a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d d \barMaior
+    \mark\sipka e d c d c a b a g g \barMaior
+    a g f( g) a \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky

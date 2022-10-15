@@ -874,6 +874,90 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \barMaior
+    g a a a g f g( f) d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,
+    kdo pře -- bý -- va -- jí v_tvém do -- mě,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g \barMaior
+    g f g a a g( f) g( f) d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,
+    kdo pře -- bý -- va -- jí v_tvém do -- mě,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g f d d \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo pře -- bý -- va -- jí
+    v_tvém do -- mě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMin
+    a g( f d) d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo pře -- bý -- va -- jí
+    v_tvém do -- mě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

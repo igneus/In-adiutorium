@@ -459,6 +459,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g( a) g g f g a g a b c c \barMaior
+    d e d( b c) a \barMin f g a a g g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- še lé -- ta jsou ja -- ko trá -- va, kte -- rá vad -- ne,
+    jen ty, Bo -- že, zů -- stá -- váš na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 90"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g f( g) g g f g a g a b c c \barMaior
     d e \mark\sipka d( c d) d \barMin c a b a g g \barFinalis
 

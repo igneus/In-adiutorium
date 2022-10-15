@@ -1868,6 +1868,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b( c a) g g( a) \barMin
+    c4 c( d) e c c( d) d \barMaior
+    \mark\sipka d4 e d c( d) c \barMin b( c a) g g a a \barFinalis
+  }
+  \addlyrics {
+    Bůh mu dal moc a čest
+    i krá -- lov -- skou vlá -- du;
+    bu -- dou mu slou -- žit vše -- chny ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Zj 11"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIctvrtekNespAntIII }
 
 %\score { \tIctvrtekAntMagnificat }

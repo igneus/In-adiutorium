@@ -1108,6 +1108,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMaior
+    f e d( e) d( c) \barMin d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
@@ -1265,6 +1285,46 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f( g) g f( e) d d \barMaior
+    \mark\sipka d c( d) d( f) f \barMin f e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 147-II"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f( g) g f( e) d d \barMaior
+    \mark\sipka f e( f) d d \barMin c c( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 147-II"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 b c c( d) d e( c) d d \barMaior
@@ -1368,6 +1428,71 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 119-XXI"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f g( a) a( g) a \barMin a bes bes a g a( g) g \barMin
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Hoj -- ný po -- koj těm, kdo mi -- lu -- jí tvůj zá -- kon,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-ש"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d c) c \barMaior
+    c a c c b a g g \barMin
+    f g a g \barFinalis
+  }
+  \addlyrics {
+    Hoj -- ný po -- koj
+    těm, kdo mi -- lu -- jí tvůj zá -- kon,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-ש"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMaior
+    g g f g a b c a
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Hoj -- ný po -- koj
+    těm, kdo mi -- lu -- jí tvůj zá -- kon,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 119-ש"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

@@ -1148,6 +1148,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a( g) g \barMin f g a( c) b a b a g g \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -1226,8 +1244,159 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 \mark\sipka f e f d \barMin d f g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka d c e d \barMin d f g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
     d4 c( d) d( f) f \barMin
     g g f e d c d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e \barMin
+    f f d c c d e d d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g g f \barMin
+    \mark\sipka e f d c c d e d d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f d \barMin
+    c d f e d c d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin
+    c d c d f e f d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d \barMin
+    d f e d c d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d \barMin
+    d \mark\sipka c d e f e c d \barFinalis
   }
   \addlyrics {
     Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
@@ -1295,6 +1464,49 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Takové zdůraznění dvou dlouhých posledních samohlásek je samozřejmě
+  zrůdné, ale je to zrůdnost čímsi okouzlující, tak jsem si ji musel poznamenat.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f-- \barMin
+    g a f e d-- \barMin
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g \barMin
+    g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 34-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
