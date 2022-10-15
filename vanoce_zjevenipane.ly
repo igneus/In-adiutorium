@@ -458,13 +458,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4( f) d f( g) g \barMin
-    a bes( a) g a f( g) g \barMaior
-    bes4.( g) a4 a bes c bes g g g \barMaior
-    a f e e e f d4. d \barFinalis
+    g4 a c( d) d \barMin
+    d c( d) e c c( d) d \barMaior
+    d d c b c a a g g \barMaior
+    f g a c b g a a \barFinalis
   }
   \addlyrics {
     Kris -- tus při -- šel
@@ -474,10 +473,9 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "_a_ je lepší podržet g"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -849,9 +847,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d f d c d e f f \barMin
-      g( f) d e( c) d \barMaior
-      d d d d c( d a) a \barMin a c c( d) d \barFinalis
+      d4 d f e d e c d d \barMin
+      f( g) a a( g) g \barMaior
+      a a g f e( f d) d e c c( d) d \barFinalis
     }
     \addlyrics {
       Ti, kte -- ří te -- bou po -- hr -- da -- li,
@@ -860,10 +858,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "II"
+      modus = "I"
       differentia = "D"
       psalmus = ""
-      placet = "lépe"
       id = "11-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1328,8 +1325,8 @@
     \relative c'' {
       \choralniRezim
       a4 g e a \barMin
-      a b( c) a a c( b) g4. e \barMax
-      f4 f f f f f f d f e4. e \barMin
+      a b( c) a a c( b) g4. e \barMaior
+      f4 f f f f f f d f e e \barMaior
       f4 g a a g a b( c) c \barMin
       d c a b g g \barMin
       g a( g) f d( e) e \barFinalis
@@ -1347,7 +1344,6 @@
       modus = "III"
       differentia = "a"
       psalmus = "Benedictus"
-      placet = "divisiones"
       id = "krtu-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

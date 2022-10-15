@@ -1363,6 +1363,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( f) d f( g) g \barMin
@@ -1382,6 +1383,31 @@ ale na diferenci žalmového nápěvu?}
     differentia = "D"
     psalmus = ""
     placet = "_a_ je lepší podržet g"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka c4 d f( g) g \barMin
+    \mark\sipka g bes( a) g a f( g) g \barMaior
+    bes4.( g) a4 a bes c bes g g g \barMaior
+    a f e e e f d4. d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1441,6 +1467,55 @@ ale na diferenci žalmového nápěvu?}
     g4 a c( d) d \barMin
     d c( d) e c c( d) d \barMaior
     a d b c a g a g g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c( d) e c c( d) d \barMaior
+    \mark\sipka d d c b c a a g g \barMaior
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    \mark\sipka d f( e) d e c( d) d \barMaior
+    d d c b c a a g g \barMaior
     f g a c b g a a \barFinalis
   }
   \addlyrics {
@@ -2823,6 +2898,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d f d c d e f f \barMin
       g( f) d e( c) d \barMaior
@@ -2838,7 +2914,31 @@ ale na diferenci žalmového nápěvu?}
       modus = "II"
       differentia = "D"
       psalmus = ""
-      id = ""
+      placet = "lépe"
+      id = "11-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d f e d e c d d \barMin
+      f( g) a a( g) g \barMaior
+      a a g f e( f d) d e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Ti, kte -- ří te -- bou po -- hr -- da -- li,
+      při -- jdou k_to -- bě
+      a bu -- dou se ko -- řit u tvých no -- hou.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "11-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -3619,8 +3719,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 g e a \barMin
       a b( c) a a c( b) g4. e \barMax
@@ -3642,6 +3745,38 @@ ale na diferenci žalmového nápěvu?}
       modus = "III"
       differentia = "a"
       psalmus = "Benedictus"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{
+    (Jen divisiones a rytmická znaménka)
+  }
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g e a \barMin
+      a b( c) a a c( b) g4. e \barMaior
+      f4 f f f f f f d f e e \barMaior
+      f4 g a a g a b( c) c \barMin
+      d c a b g g \barMin
+      g a( g) f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Kris -- to -- vým křtem
+      byl po -- svě -- cen ce -- lý svět;
+      do -- sta -- lo se nám od -- puš -- tě -- ní hří -- chů,
+      pro -- to -- že jsme by -- li všich -- ni
+      o -- čiš -- tě -- ni vo -- dou
+      a Du -- chem sva -- tým.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "a"
+      psalmus = "Benedictus"
+      id = "krtu-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
