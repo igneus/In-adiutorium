@@ -1209,11 +1209,48 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f f f f g( a) a( g) \barMax
+    g g( f d) f( g) g( f) f \barFinalis
+    % V
+    \neviditelna g
+    a a a g( a) g g \barMin g g f g a a( g) \barMax
+    % R
+    \neviditelna g
+    g g( f d) f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- din je můj pas -- týř,_*
+    nic ne -- po -- strá -- dám.
+    \Verse Dá -- vá mi pro -- dlé -- vat na svě -- žích past -- vi -- nách,_*
+    \Response nic ne -- po -- strá -- dám.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "responsoria.ly#2ct-ne"
+    id = "rch-r"
+    piece = \markup\sestavTitulekResp
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
     g g( f d) f( g) g( f) f \barFinalis
     % V
     \neviditelna g
