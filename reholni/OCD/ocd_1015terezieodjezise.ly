@@ -125,27 +125,8 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\score {
-  \relative c' {
-    \choralniRezim
-    f4( g) g \barMin a g a f( e d) d \barMin
-    d e f d( c) c \barMaior
-    d e f( g a) g f( g) f f \barFinalis
-  }
-  \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu,
-    na -- še -- mu Pá -- nu,
-    on je pra -- men moud -- ros -- ti.
-  }
-  \header {
-    quid = "ant."
-    modus = "VI"
-    differentia = "F"
-    psalmus = ""
-    fial = "commune/commune_ucitel.ly#invit?-aleluja"
-    id = "invit"
-    piece = \markup\sestavTitulekBezZalmu
-  }
+\markup\italic{
+  Invitatorium ze společných textů o učitelích církve.
 }
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -264,36 +245,9 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-
-    % R
-    \neviditelna f
-    f4 g f f f g( a) a( g) \barMax
-    f( d) f( g) g f \barFinalis
-    % V
-    \neviditelna a
-    a4 a a g( a) g f( g) g( a) \barMax
-    % R
-    \neviditelna a
-    f( d) f( g) g f \barFinalis
-    % Slava
-    \respVIdoxologie \barFinalis
-  }
-  \addlyrics {
-    \Response Slyš, Hos -- po -- di -- ne můj hlas,_* hle -- dám tvou tvář.
-    \Verse Mé srd -- ce k_to -- bě mlu -- ví,_*
-    \Response hle -- dám tvou tvář.
-    \textRespDoxologie
-  }
-  \header {
-    quid = "resp."
-    modus = "VI"
-    fial = "commune/commune_panna.ly#rch-resp"
-    id = "rch-r"
-    piece = \markup {\sestavTitulekResp}
-  }
+\markup\italic{
+  Responsorium \upright{Slyš, Hospodine, můj hlas}
+  ze společných textů o pannách.
 }
 
 \score {
