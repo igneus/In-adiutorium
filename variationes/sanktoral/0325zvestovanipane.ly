@@ -2274,6 +2274,33 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Anděl Páně zvěstoval Marii a ona počala z Ducha svatého. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    placet = "takhle se mi líbí,
+    ale přesto by se měla vyzkoušet jinak zvláště druhá část"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin a4( b) c( d) d d( e d) c b a a \barMaior
+    \mark\sipka c b a g( a) g g \barMin f g a( c) b( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Pan -- ně Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
@@ -2285,6 +2312,103 @@
 
 \markup{
   Oficiální text:
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin \mark\sipka d4( e) d c b( c) a( g) g \barMaior
+    a g f a c b \barMin c a g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin d4( e) d c b( c) a( g) g \barMaior
+    a g f \mark\sipka g( a) a( c) c \barMin b a g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e( c d4.) d \barMin d4( e) d c b( c) a( g) g \barMaior
+    a g f \mark\sipka g a a \barMin b a g( a) g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d e( c d4.) d \barMin d4( e) d c b( c) a( g) g \barMaior
+    a g f g a a \barMin \mark\sipka a( c) b a( b) g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
+    a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
 }
 
 \score {

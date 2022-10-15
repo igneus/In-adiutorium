@@ -283,11 +283,36 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d d( a' bes) a c a g( a) a \barMaior
+    a( g f) d( e) d( c) \barMin e( g a) a c b g a a \barMax
+    a g f g( a) g f d( e) d( c) \barMaior
+    \mark\sipka d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     c4 d d( a' bes) a c a g( a) a \barMaior
     a( g f) d( e) d( c) \barMin e( g a) a c b g a a \barMax
     \mark\sipka a a a g( a) g f d( e) d( c) \barMaior
-    \mark\sipka d( e f) e( f) d c d d \barFinalis
+    d( e f) e( f) d c d d \barFinalis
   }
   \addlyrics {
     Sva -- tá mat -- ko Te -- re -- zi -- e,
@@ -417,38 +442,50 @@
   }
 }
 
+\pageBreak
+
 % antifonu pro vigilii breviar.cz (zatím?) nemá
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    d4 f f g f e f d d( c) c \barMaior
+    d d d f e c d d \barFinalis
   }
   \addlyrics {
-    Má duše po tobě žízní, Bože, prahne po tobě mé tělo.
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup\sestavTitulek
   }
 }
 
+\pageBreak
+
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    c4 c b a c( d) d \barMin
+    e d c d d \barMaior
+    d c b c a g a a( g) g \barFinalis
   }
   \addlyrics {
-    Všechna díla Páně, velebte Pána, chvalte ho všichni jeho svatí.
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho všich -- ni je -- ho sva -- tí.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup\sestavTitulek
@@ -458,19 +495,72 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d e c d d \barMin
+    d c b a( g) g \barMaior
+    a g f a c b a g g \barFinalis
   }
   \addlyrics {
-    Ve sboru svatých budu zpívat o tvém milosrdenství, Hospodine.
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho všich -- ni je -- ho sva -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c a b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g \barFinalis
+  }
+  \addlyrics {
+    Ve sbo -- ru sva -- tých bu -- du zpí -- vat
+    o tvém mi -- lo -- sr -- den -- ství,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d e d c d d \barMaior
+    e d c d c a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve sbo -- ru sva -- tých bu -- du zpí -- vat
+    o tvém mi -- lo -- sr -- den -- ství,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -529,24 +619,65 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e( d c) c \barMin
+    f g a g f( g) f f \barMaior
+    d f f( g) g \barMin
+    g f( e) d c d( f) e d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
-    Když se modlíš, vejdi do své komůrky, zavři dveře a modli se k svému Otci, který je ve skrytosti.
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "antifony/pust_tyden1.ly#ut-amag?delsi text"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( d c) c \barMin
+    f g a g f( g) f f \barMaior
+    d f f( g) g \barMin
+    g \mark\sipka a g g f e d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#ut-amag?delsi text"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
