@@ -194,13 +194,13 @@
 \markup {\nadpisDen {Středa}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( f) g a bes( a g) f f( d) d \barMax
-    d c( d) d( f) e f f( a bes) a a \barMaior
-    a a a g f d d \barMaior
-    d( e f) e d c( d) d \barMax
-    c d e( d) d \barFinalis
+    d4 d c d( f) e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    f d f e d c c \barMin
+    d( f) e d c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
@@ -210,12 +210,11 @@
     A -- le -- lu -- ja.
   }
   \header {
-    % myslím, že rozdíl v textu je nahodilá nekonsistence způsobená redakční nepozorností.
     textus_approbatus = "Děkujme Bohu,
     on nám popřává vítězství skrze našeho Pána Ježíše Krista. Aleluja."
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
     id = "st-aben"

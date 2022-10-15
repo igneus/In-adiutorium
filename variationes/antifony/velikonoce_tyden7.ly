@@ -843,6 +843,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( f) g a bes( a g) f f( d) d \barMax
     d c( d) d( f) e f f( a bes) a a \barMaior
@@ -863,6 +864,69 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d( f) e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    f d f e d c c \barMin
+    d( f) e d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Děkujme Bohu,
+    on nám popřává vítězství skrze našeho Pána Ježíše Krista. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Šlo by upravit i na oficiální text, ale vzhledem k tomu, že v originálu
+  je se zdrojovou antifonou shodná, přijde mi zbytečné udržovat dvě různé verze.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 f e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    f d f e d c c \barMin
+    d( f) e d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Dě -- kuj -- me Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"
     id = "st-aben"
