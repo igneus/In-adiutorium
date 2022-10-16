@@ -2279,6 +2279,28 @@ tInedeleIInespAntI = \score {
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d d c b c a a( g) g \barMaior
+    a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din ře -- kl mé -- mu Pá -- nu:
+    Seď po mé pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c d c d e d d \barMaior
     d c b a( b) a( g) g \barMaior
     f a g g \barFinalis

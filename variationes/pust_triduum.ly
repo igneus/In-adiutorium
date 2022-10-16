@@ -1980,6 +1980,121 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d c d d( f) f \barMin
+    g g f e d \barMaior
+    d4 c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d d d c d d( f) f \barMin
+    g g f e d \barMaior
+    d4 \mark\sipka d d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d c d d( f) f \barMin
+    g g f e d \barMaior
+    d4 \mark\sipka f e d c d f( e d) d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    bes a g g a f( e) d \barMaior
+    g a g f( g) f e d d  \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet,_*
+    ře -- kl: Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 369"
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    bes a g g a f( e) d \barMaior
+    g a g f( g) \mark\sipka e c e d  \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet,_*
+    ře -- kl: Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 369"
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

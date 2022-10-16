@@ -151,6 +151,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d \mark\sipka f g g \barMin
+    f g f e4. c \barMin
+    e4( f) d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {úterý}}
