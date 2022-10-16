@@ -152,21 +152,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c b c( d) d \barMin
-    d d( e d) c d c b c a a \barMaior
-    g a a( c d) a a( g) g \barMin f g a b g g \barFinalis
+    a4 a c b c c( d) d \barMin
+    d d( e d c) d( c) \barMin d c b c a a \barMaior
+    c c b a g g \barMin
+    a g a( b c) a g( a) a \barFinalis
   }
   \addlyrics {
     Jed -- na ne -- moc -- ná že -- na
     se do -- tkla Je -- ží -- šo -- vých ša -- tů,
-    a hned po -- cí -- ti -- la, že je vy -- lé -- če -- na.
+    a hned po -- cí -- ti -- la,
+    že je vy -- lé -- če -- na.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "od _a hned pocítila_ lépe"
     id = "ne13b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -175,9 +176,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( c) d c( d) d \barMaior
-    d d( e f4.) e4 d c d c( b) a \barMin
-    g( a b) a g g \barFinalis
+    a4 a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
+    a c( b) g( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl že -- ně:
@@ -186,8 +187,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ne13b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -195,10 +196,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g a c c( d) c c \barMin c c( b a) a \barMaior
-    g( f g) d \barMin d f g f( g) \barFinalis
+    d4 d d f e f g f e d d \barMaior
+    f e d e c d \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal dí -- tě za ru -- ku a ře -- kl:
@@ -206,10 +207,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "_Děvče_ rozhodně jinak"
     id = "ne13b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
