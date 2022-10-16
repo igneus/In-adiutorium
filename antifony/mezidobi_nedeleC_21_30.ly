@@ -616,8 +616,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a a g( f d) f e( g a) a \barMin
-    a b g f e e \barFinalis
+    a4 a g a a( c) b g g \barMin
+    g a g f e e \barFinalis
   }
   \addlyrics {
     Je tře -- ba se stá -- le mod -- lit
@@ -635,11 +635,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( a' b) a a c b g a a \barMin
-    a a a a g( a) f f g( a) g g( a) a \barMaior
-    f g f d d d( e) c c( d) d \barFinalis
+    g4 g g( d' e) d d f e c d d \barMin
+    d d d d d( e) d c b c a( g) g \barMaior
+    a f g a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
@@ -648,8 +648,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne29c-rch-ben"

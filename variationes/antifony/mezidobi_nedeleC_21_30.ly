@@ -2905,8 +2905,16 @@
 
 \markup {\nadpisDen {"29. neděle"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Dicébat Iesus discípulis suis quóniam} opórtet semper oráre et non defícere.
+  }
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a g( f d) f e( g a) a \barMin
     a b g f e e \barFinalis
@@ -2927,7 +2935,95 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a a( c) b g g \barMin
+    g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Je tře -- ba se stá -- le mod -- lit
+    a ne -- o -- cha -- bo -- vat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a( c) b g g \barMin
+    g \mark\sipka f e d e e \barFinalis
+  }
+  \addlyrics {
+    Je tře -- ba se stá -- le mod -- lit
+    a ne -- o -- cha -- bo -- vat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f f( g) f d d \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Je tře -- ba se stá -- le mod -- lit
+    a ne -- o -- cha -- bo -- vat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a c c g g \barMin
+    g f g g a a \barFinalis
+  }
+  \addlyrics {
+    Je tře -- ba se stá -- le mod -- lit
+    a ne -- o -- cha -- bo -- vat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a' b) a a c b g a a \barMin
     a a a a g( a) f f g( a) g g( a) a \barMaior
@@ -2948,6 +3044,78 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( d' e) d d f e c d d \barMin
+    d d d d \mark\sipka e( f) d( c) c b c a( g) g \barMaior
+    a f g a a a( c) b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
+    kte -- ří k_ně -- mu vo -- la -- jí ve dne v_no -- ci,
+    a ne -- ne -- chá je dlou -- ho če -- kat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( d' e) d d f e c d d \barMin
+    d d d d e( f) d( c) c b c a( g) g \barMaior
+    a f g a a a( c) b \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
+    kte -- ří k_ně -- mu vo -- la -- jí ve dne v_no -- ci,
+    a ne -- ne -- chá je dlou -- ho če -- kat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( d' e) d d f e c d d \barMin
+    d d d d \mark\sipka d( e) d c b c a( g) g \barMaior
+    a f g a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
+    kte -- ří k_ně -- mu vo -- la -- jí ve dne v_no -- ci,
+    a ne -- ne -- chá je dlou -- ho če -- kat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne29c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
