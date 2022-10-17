@@ -372,21 +372,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d e( c d4.) d \barMin a4( b) c( d) d d( e d) c b a a \barMaior
-    a g a c( d) c( b a) a \barMin b( a) g g( a) g g \barFinalis
+    d4 d e( c d4.) d \barMin d4( e) d c b( c) a( g) g \barMaior
+    a g f g a a \barMin a( c) b a( b) g g \barFinalis
   }
   \addlyrics {
-    An -- děl Pá -- ně zvěs -- to -- val Pan -- ně Ma -- ri -- i
+    An -- děl Pá -- ně zvěs -- to -- val Ma -- ri -- i
     a o -- na po -- ča -- la z_Du -- cha sva -- té -- ho.
   }
   \header {
-    textus_approbatus = "Anděl Páně zvěstoval Marii a ona počala z Ducha svatého."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 122"
     id = "po-amag"
-    fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
     fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
