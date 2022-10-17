@@ -356,19 +356,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d c( d) d e d c d( a) a \barMaior
-    d d( c b) a g g( a) a( g) g \barFinalis
+    c4 b c d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    g a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Kris -- tus je Krá -- lem ce -- lé -- ho svě -- ta
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
     a pů -- vod -- cem po -- ko -- je.
   }
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Dan 3-III"
-    placet = "zkusit lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

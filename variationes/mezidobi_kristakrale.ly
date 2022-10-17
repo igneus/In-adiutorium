@@ -1101,6 +1101,12 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{Ecce vir Oriens nomen eius; sedébit et dominábitur, et loquétur pacem géntibus.}
+  V latině volný citát Zach 6, 12-13.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1195,8 +1201,18 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{Magnificábitur usque ad términos terræ, et erit iste pax.}
+}
+\markup\justify{
+  V latině doslovný citát z Mich 5,4-5 (Vulgáta),
+  v češtině mělká explicitní teologická výpověď.
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( d) d e d c d( a) a \barMaior
     d d( c b) a g g( a) a( g) g \barFinalis
@@ -1274,6 +1290,95 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "2. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c \mark\sipka d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    g a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( e) d \barMin
+    c( b) a c b( a) a \barMaior
+    g f( g) a a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    c( d) e c c( d) d \barMaior
+    d c( d) c b c( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g( a) g \barMin
+    g f g g( a) a \barMaior
+    c b( c) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
