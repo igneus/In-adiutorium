@@ -3904,6 +3904,28 @@ ale na diferenci žalmového nápěvu?}
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      a4 c c b a g g \barMaior
+      a a a a f e \mark\sipka f g g \barMin
+      a g a( c) b c a a \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "II"
+      differentia = "A"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
     \relative c' {
       \choralniRezim
       f4 f g g g f f \barMaior
@@ -3947,6 +3969,31 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d c b a a g \barMaior
+      a f( g a) a \barMin
+      c c c b a b a g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba,
+      a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c' {
