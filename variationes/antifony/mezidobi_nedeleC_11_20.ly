@@ -50,8 +50,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a( c) d c( d) d \barMaior
     d d( e f4.) e4 d c d c( b) a \barMin
@@ -66,6 +69,33 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim
+    id = "ne11c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
+    a c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl že -- ně:
+    Tvá ví -- ra tě za -- chrá -- ni -- la,
+    jdi v_po -- ko -- ji!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim

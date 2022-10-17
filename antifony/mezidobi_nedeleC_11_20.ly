@@ -54,9 +54,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a( c) d c( d) d \barMaior
-    d d( e f4.) e4 d c d c( b) a \barMin
-    g( a b) a g g \barFinalis
+    a4 a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
+    a c( b) g( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl že -- ně:
@@ -65,8 +65,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne13b-rch-ben" % evangelium o Jairove dceri a zene s krvacenim
