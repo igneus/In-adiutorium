@@ -68,6 +68,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "melisma na _Bůh_ není pěkné, bezprostředně následující terciový skok zpátky dolů také ne"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
