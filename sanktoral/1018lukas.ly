@@ -70,7 +70,7 @@
     a g f g a c b c d d \barMin
     c( d c) b( g) c c( a) a \barMaior
     c d e d c( d c a) a \barMin
-    c( b g) a a( g) g \barFinalis
+    c( b) a g( a g4.) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Lu -- káš
