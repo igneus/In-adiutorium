@@ -1288,10 +1288,55 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    e4 f d( c) c( d) \barMin
+    f4 f \mark\sipka e( d) c e f( d) d \barMaior
+    d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh je soud -- ce
+    spra -- ved -- li -- vý a moc -- ný;
+    on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin
     g g f( e) d e f( d) d \barMaior
     f e( d) c( d) c \barMin d c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh je soud -- ce
+    spra -- ved -- li -- vý a moc -- ný;
+    on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g a g( f) d e d( c) c \barMaior
+    d c( d) d( f) f \barMin f f g f e c d d \barFinalis
   }
   \addlyrics {
     Bůh je soud -- ce

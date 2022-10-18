@@ -122,6 +122,36 @@
   }
 }
 
+\markup\justify{
+  Dosavadní dělení lépe odpovídá logické struktuře textu,
+  ale spád nápěvu si říká spíš o tohle:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a( c) c \barMaior
+    c( d c a) a4.( c) \barMin c4( d c) b( g) a g4.( f) \mark\sipka \barMaior
+    f4 e d f g a a \barMin a( d c) b( g) c c( a) a \mark\sipka \barMax
+    g a b c( d e) d( c d4.) a \barMaior
+    d4 c b c( a) g g \barMin  a4( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    E -- van -- ge -- lis -- ta Lu -- káš
+    hlá -- sal ra -- dost -- nou zvěst
+    o mi -- lo -- srd -- né lás -- ce na -- še -- ho Bo -- ha,
+    s_kte -- rou nás na -- vští -- vil
+    ten, kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII" % std. rozsah modu VIII opousti az v zaveru
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
