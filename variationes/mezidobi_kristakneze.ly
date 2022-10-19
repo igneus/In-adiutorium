@@ -862,7 +862,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f g f( d) e( d) d \barMin
     c d c b a a \barMaior
@@ -951,6 +951,55 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f f( g) f f \barMin
+    e f d d c c \barMaior
+    d c d d f e f g a g f g g( a) a \barMaior
+    a g f e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- tec všech -- no pod -- ří -- dil
+    pod Kris -- to -- vy no -- hy
+    a je -- ho dal ja -- ko svr -- cho -- va -- nou hla -- vu círk -- vi,
+    kte -- rá je je -- ho tělem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f f( g) f f \barMin
+    e f d d c c \barMaior
+    \mark\sipka d d( f) f f g f g a g f e f d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- tec všech -- no pod -- ří -- dil
+    pod Kris -- to -- vy no -- hy
+    a je -- ho dal ja -- ko svr -- cho -- va -- nou hla -- vu círk -- vi,
+    kte -- rá je je -- ho tělem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}

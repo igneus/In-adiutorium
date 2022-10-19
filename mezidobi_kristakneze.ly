@@ -148,12 +148,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d f g f( d) e( d) d \barMin
-    c d c b a a \barMaior
-    c c( d) d d c d e f e d e( f) e d( c) c \barMin
-    a c d d( f) e d d \barFinalis
+    a4 a g f f( g) f f \barMin
+    e f d d c c \barMaior
+    d d( f) f f g f g a g f e f d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     O -- tec všech -- no pod -- ří -- dil
@@ -163,10 +163,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 149"
-    placet = "slabší"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
