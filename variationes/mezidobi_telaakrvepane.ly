@@ -3954,7 +3954,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d( f) e d( e d) c( d) d( c) \barMaior
     d d d c( d) d g( f g) g \barMin g g( a g) g( f d) g g( f) d( c) c \barMaior
@@ -3978,9 +3978,17 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "na více místech působí ploše; obzvlášť divná je část _a přijímáme záruku_"
     id = ""
     piece = \markup {\sestavTitulekBezZalmu}
   }
+}
+
+\markup\justify\small{
+  Antifona byla doteď v produkčních notách ve dvou verzích,
+  v předchozí (autorské) a verzi níže (volná adaptace latinské antifony).
+  Protože autorská verze je jedna velká bída a není na ní co zachraňovat,
+  bez náhrady ji ruším.
 }
 
 \markup{Zkusme výrazně zjednodušenou verzi následující:}

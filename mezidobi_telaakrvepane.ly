@@ -547,49 +547,6 @@
 
 \markup\italic{Responsorium jako v prvních nešporách.}
 
-\pageBreak
-
-\markup\justify{Antifona k Magnificat následuje ve dvou úpravách
-na výběr. První vznikla u mého stolu a je snazší.
-Druhá je pokusem o přenesení nápěvu latinské verze této antifony
-\concat{( \italic{"O sacrum convivium"} ),} nakolik to bylo možné,
-na český text. Podle \italic{Antiphonale Romanum,} Romae 1912, 448.
-
-Části melodie přenést nešly a musel jsem vytvořit
-vlastní. Kromě toho jsem uznal za vhodné vedle originálního
-dlouhého melismatického aleluja nabídnout ještě jedno jednodušší.}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    d( f) e d( e d) c( d) d( c) \barMaior
-    d d d c( d) d g( f g) g \barMin g g( a g) g( f d) g g( f) d( c) c \barMaior
-    d d d e( f) f( g) g \barMin g( f) g a( g) f f( g) g \barMaior
-    f g g g g a( bes a g) a g( f) f \barMaior
-    g f g g g g( f g) g( f) f \barMin d( f g) f d c( d) d \barMax
-    c f( e) d d \barFinalis
-  }
-  \addlyrics {
-    % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
-    % sdeleni.
-    Sva -- tá hos -- ti -- no,
-    při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
-    sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
-    do du -- še se nám vlé -- vá mi -- lost
-    a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
-    A -- le -- lu -- ja.
-  }
-  \header {
-    quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
-    psalmus = ""
-    placet = "na více místech působí ploše; obzvlášť divná je část _a přijímáme záruku_"
-    id = "2ne-amag-var1"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
 \score {
   \relative c'' {
     \choralniRezim
