@@ -4121,6 +4121,27 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \mark\sipka c( b c) c( d) d \barMin c b a g a g g \barMaior
+    \mark\sipka a f a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     \mark\sipka g4( a g) g( c) c \barMin c b a g a g g \barMaior
     f a c c b a a g g \barFinalis
@@ -4224,6 +4245,46 @@
     \choralniRezim
     f4( g) g( a) a  \barMin a g f g g f f \barMaior
     d f g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( a g) g( a) a  \barMin a g f g g f f \barMaior
+    d f g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a g) g( a) a  \barMin a g f g g f f \barMaior
+    \mark\sipka g f g f g a g f f \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!

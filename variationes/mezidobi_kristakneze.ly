@@ -775,6 +775,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 g f f( g) f f \barMin
+    e f g( a) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Všech -- no je stvo -- ře -- no
+    skr -- ze Kris -- ta a pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     a4 \mark\sipka a a g( a) g g \barMin
@@ -828,6 +848,46 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) g g \barMin
+    f g a( g) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Všech -- no je stvo -- ře -- no
+    skr -- ze Kris -- ta a pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b( a) g g \barMin
+    f g a( c) b g a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no je stvo -- ře -- no
+    skr -- ze Kris -- ta a pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

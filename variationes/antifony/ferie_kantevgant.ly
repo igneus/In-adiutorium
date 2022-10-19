@@ -1166,9 +1166,77 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 e f d c4. a e'4 f d d \barMaior
+    \mark\sipka f e d( e) c \barMin
+    d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
+    roz -- po -- meň se
+    na svou sva -- tou smlou -- vu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d c4. a e'4 f d d \barMaior
+    \mark\sipka f f e( f) d \barMin
+    c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sli -- tuj se nad ná -- mi, Hos -- po -- di -- ne,
+    roz -- po -- meň se
+    na svou sva -- tou smlou -- vu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4 d f e f( g) g \barMin
     f g a g \barMaior
     a a g( f e) d \barMin
+    e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Sli -- tuj se nad ná -- mi,
+    Hos -- po -- di -- ne,
+    roz -- po -- meň se
+    na svou sva -- tou smlou -- vu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-st-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f4. f
+    g4 f g( a) a \barMaior
+    a g f( e) d \barMin
     e c e f d d \barFinalis
   }
   \addlyrics {
