@@ -4201,7 +4201,7 @@ zpetOranz = { \revert NoteHead #'color }
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     \mark\sipka a4( g g) f4( a c d) c d( e f e) d( c) c \barMaior
@@ -4218,6 +4218,62 @@ zpetOranz = { \revert NoteHead #'color }
 
     \mark\sipka f
     \once \override Slur #'stencil = ##f
+    \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
+    \[ c d c \] \[ a g a \] \[ f g a) \]
+    bes( a g f) f \barFinalis
+  }
+  \addlyrics {
+    % Jedno dlouhe rozvite osloveni - bez jakehokoli nasledneho
+    % sdeleni.
+    Ó sva -- tá hos -- ti -- no,
+    při níž nás Kris -- tus ži -- ví svým tě -- lem a svou kr -- ví,
+
+    sla -- ví -- me pa -- mát -- ku je -- ho u -- tr -- pe -- ní,
+
+    do du -- še se nám vlé -- vá mi -- lost
+
+    a při -- jí -- má -- me zá -- ru -- ku bu -- dou -- cí slá -- vy!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Svatá hostino,
+    při níž nás Kristus živí svým tělem a svou krví,
+    slavíme památku jeho utrpení,
+    do duše se nám vlévá milost
+    a přijímáme záruku budoucí slávy! Aleluja."
+    fons_externus = "volně podle AR1912, 448"
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag-var2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Malá úprava frázování.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4( g g) f4( a c d) c d( e f e) d( c) c \barMaior
+    c c a bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \mark\sipka a g g( f) f \barMax
+
+    a( c d e) d( c) c \mark\sipka \barMin f,( a bes c) d( bes c) c \barMaior
+    c e f( g f) e d( c) c \barMax
+
+    d( bes) c( d) c( a) \barMin c c c( bes a) g( a)
+    bes( a g) f( g a) \barMax
+
+    bes a( g) c( d) bes a \barMin
+    c( d f) f( g) g \barMin f( e d c) d( e) d c c \barMax
+
+    f
+    \once \override Slur.stencil = ##f
     \[ f( e d c \] \[ d c bes a \] \[ bes c c \] \[ c a \] \[ bes g \]  \[ f g a bes \] \[ a g a \] \barMin
     \[ c d c \] \[ a g a \] \[ f g a) \]
     bes( a g f) f \barFinalis

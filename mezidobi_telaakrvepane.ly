@@ -552,9 +552,9 @@
     \choralniRezim
     \key f \major
     a4( g g) f4( a c d) c d( e f e) d( c) c \barMaior
-    c c a bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g \barMin a g g( f) f \barMax
+    c c a bes( c) bes( a g a) \barMin a( g a bes) bes( a) \barMaior a g( f g) g a g g( f) f \barMax
 
-    a( c d e) d( c) c f,( a bes c) d( bes c) c \barMaior
+    a( c d e) d( c) c \barMin f,( a bes c) d( bes c) c \barMaior
     c e f( g f) e d( c) c \barMax
 
     d( bes) c( d) c( a) \barMin c c c( bes a) g( a)
