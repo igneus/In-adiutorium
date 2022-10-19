@@ -346,8 +346,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a a g g g( a) g g a a \barMaior
     a a c c b a a( b) g g \barMin
@@ -368,6 +371,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( a) g g a a a( b) g g a a \barMaior
+    a a c c b a a( b) g g \barMin
+    a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
+    ne -- boť o -- ni bu -- dou na -- zvá -- ni
+    Bo -- ží -- mi sy -- ny.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "ne4a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') g g a a a( c) b g a a \barMaior
+    f g a a g f d( e) d( c) c \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
+    ne -- boť o -- ni bu -- dou na -- zvá -- ni
+    Bo -- ží -- mi sy -- ny.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne4a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"5. neděle"}}
 

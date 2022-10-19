@@ -206,9 +206,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a a g g g( a) g g a a \barMaior
-    a a c c b a a( b) g g \barMin
-    f f g f( d) d \barFinalis
+    d4( a') g g a a a( c) b g a a \barMaior
+    f g a a g f d( e) d( c) c \barMin
+    d f e c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
