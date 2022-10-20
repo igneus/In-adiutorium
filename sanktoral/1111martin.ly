@@ -149,13 +149,14 @@
     f g a a g a f( e) \barFinalis
   }
   \addlyrics {
-    % text upraven
     Sva -- tý Mar -- tin se ne -- dal zdo -- lat pra -- cí,
-    a -- ni pře -- mo -- ci smr -- tí;
+    a -- ni pře -- mo -- ci smr -- tí,
     ne -- bál se ze -- mřít,
     a -- ni se ne -- vzpí -- ral žít.
   }
   \header {
+    textus_approbatus = "Svatý Martin se nedal ani zdolat prací, ani přemoci smrtí,
+    ani se nebál zemřít, ani se nevzpíral žít."
     quid = "1. ant."
     modus = "IV"
     differentia = "E"
