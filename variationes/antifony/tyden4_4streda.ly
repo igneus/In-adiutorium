@@ -192,6 +192,32 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g f g a( g) a c b( g) a \barMaior
+    \mark\sipka c b a g( a) g \barMin
+    a a a g f g a g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má, Hos -- po -- di -- na,
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g g g a b c b \barMin c d b a a \barMaior

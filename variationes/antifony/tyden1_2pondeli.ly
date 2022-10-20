@@ -1620,6 +1620,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g a a \mark\sipka a g a b a \barMaior
+    a a g f e e d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 15(14)"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %tIpondeliNespAntIII =
