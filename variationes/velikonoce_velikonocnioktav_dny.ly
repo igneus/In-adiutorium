@@ -1698,9 +1698,32 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g g g \mark\sipka a( c) c \barMin
+      a b c a g g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ze -- mě se sy -- tí_*
+      plo -- dy tvé -- ho dí -- la.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-II"
+      id = "st-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g \mark\sipka a g g( c) c \barMin
       a b c a g g \barMaior
       a g f( g) g \barFinalis
     }

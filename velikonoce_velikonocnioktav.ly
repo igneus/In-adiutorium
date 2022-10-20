@@ -709,7 +709,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g g g a( c) c \barMin
+      g a g g( c) c \barMin
       a b c a g g \barMaior
       a g f( g) g \barFinalis
     }
