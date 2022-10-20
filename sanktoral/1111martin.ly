@@ -141,27 +141,24 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e d( e) e e f e f g a( g) g \barMaior
-    g g a g f e e \barMax
-    f f f e( d) e \barMaior
-    f g a a g a f( e) \barFinalis
+    g4 g g( a) a a g f g f g a g g \barMaior
+    a g a c b g( a) a \barMax
+    c c c d b c a \barMaior
+    a g f g a a g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Mar -- tin se ne -- dal zdo -- lat pra -- cí,
+    Sva -- tý Mar -- tin se ne -- dal a -- ni zdo -- lat pra -- cí,
     a -- ni pře -- mo -- ci smr -- tí,
-    ne -- bál se ze -- mřít,
+    a -- ni se ne -- bál ze -- mřít,
     a -- ni se ne -- vzpí -- ral žít.
   }
   \header {
-    textus_approbatus = "Svatý Martin se nedal ani zdolat prací, ani přemoci smrtí,
-    ani se nebál zemřít, ani se nevzpíral žít."
     quid = "1. ant."
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 15"
-    placet = "není úplně marná, ale přeci zkusit lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -170,21 +167,22 @@
 \score {
   \relative c' {
     \choralniRezim
-    f( g) g \barMin g g g g a g bes g a g f \barMaior
-    g g g g f e d( e) d d \barMaior
-    d d \[ f( g \] \[ a g) \] f e( f) d d \barFinalis
+    c4( d) d \barMin d d d d f f e d e d c \barMaior
+    d e f e d d( e) d d \barMaior
+    f g a( g f) d e( f) d d \barFinalis
   }
   \addlyrics {
-    Pa -- ne, jsem -- li do -- sud tvé -- mu li -- du po -- třeb -- ný,
-    ne -- od -- mí -- tám dá -- le pra -- co -- vat;
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
     ať se sta -- ne tvá vů -- le.
   }
   \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 112"
-    placet = "_tvému lidu potřebný_ rozhodně jinak"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -193,8 +191,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d) c \barMin c c( b) a g g g( a g) \barMaior
-    f g a a( c) g g( f) \barMin g g a( f) f \barFinalis
+    c4 c c( d) c \barMin c b a g g g( a g) \barMaior
+    g f g g( a) a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Bis -- kup Mar -- tin o -- pus -- til ten -- to svět
@@ -202,10 +200,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Zj 15"
-    placet = "_opustil_ rozhodně bez melismatu na druhé slabice"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
