@@ -749,22 +749,36 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
+    c4 c c( d) c b c a g g( a) \barMaior
+    a g a g f f( d) \barMin
+    f g a a( c) a c( d) c b a a \barMaior
+    c c c d( e d) c b c a a \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
-    Na svém těle doplňuji to, co zbývá vytrpět do plné míry Kristových útrap; má z toho prospěch jeho tělo, to je církev.
+    Na svém tě -- le do -- pl -- ňu -- ji to,
+    co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo, to je cír -- kev.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Kol 1"
+    fial = "commune/commune_jedenmucednik.ly#mc-avig?-aleluja"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
