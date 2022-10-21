@@ -1258,6 +1258,11 @@
 
   \pageBreak
 
+  \markup\justify{
+    Liturgia horarum:
+    \italic{Tamquam sponsus Dóminus procédens de thálamo suo.}
+  }
+
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -1349,6 +1354,16 @@
   }
 
   \pageBreak
+
+  \markup\justify{
+    Liturgia horarum:
+    \italic{Diffúsa est grátia in lábiis tuis, proptérea benedíxit te Deus in ætérnum.}
+  }
+  \markup\justify{
+    Čili LH ze Žalmu 45, 3 cituje část druhou a třetí
+    (ČLP: půvab se rozlévá po tvých rtech, proto ti Bůh požehnal navěky),
+    DMC z nějakého důvodu místo toho část první.
+  }
 
   \score {
     \relative c'' {
@@ -1459,6 +1474,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZelenyII
       \choralniRezim
       g4 g a( g) a( c) c \barMin
       \mark\sipka a f a a( g) g \barFinalis
@@ -1543,6 +1559,27 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      c4 c c( d) c c \barMin
+      \mark\sipka b c a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacZeleny
       \choralniRezim
       g4 a c c b \barMin
@@ -1576,6 +1613,47 @@
       quid = "3. ant."
       modus = "VIII"
       differentia = "G"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 f a c b \barMin
+      c a g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Žalm 45"
+      id = "vden-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      a4 f a c b \barMin
+      a f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Krá -- sou vy -- ni -- káš
+      nad lid -- ské sy -- ny.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
       psalmus = "Žalm 45"
       id = "vden-cte-a3"
       piece = \markup {\sestavTitulek}
@@ -1684,6 +1762,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacZelenyII
       \choralniRezim
       d4 c d f e \barMin
       f d c c( d) d \barFinalis

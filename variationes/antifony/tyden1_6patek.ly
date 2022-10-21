@@ -534,6 +534,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c( d) d \barMin
+    c4 b a b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
