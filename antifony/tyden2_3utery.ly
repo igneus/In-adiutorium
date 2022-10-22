@@ -221,7 +221,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g f bes a g a g \barMin f g f \barFinalis
+    f4 g g a a a g a g( f) f \barMin g a f \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.
@@ -231,7 +231,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 49-II"
-    placet = "slabší"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }

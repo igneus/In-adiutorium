@@ -808,7 +808,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g f bes a g a g \barMin f g f \barFinalis
   }
@@ -935,7 +935,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     f4 g g a a a g a g( f) f \barMin \mark\sipka g a f \barFinalis
   }
