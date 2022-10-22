@@ -3787,6 +3787,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       b4 c c c c a4. a \barMaior
       g4( f) e d d4.( e) \barMin
@@ -3842,6 +3843,31 @@ ale na diferenci žalmového nápěvu?}
       \mark\sipka d e f f
       g d f e e \barMaior
       \mark\sipka f g g( a) g f e e \barFinalis
+    }
+    \addlyrics {
+      Jan Je -- ží -- šo -- vi ří -- kal:
+      Já bych měl být
+      po -- křtěn od te -- be,
+      a ty při -- chá -- zíš ke mně?
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "krtu-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g a g f e e \barMaior
+      d e f f
+      g d f e e \barMaior
+      f g g( a) g f \mark\sipka d( e) e \barFinalis
     }
     \addlyrics {
       Jan Je -- ží -- šo -- vi ří -- kal:
@@ -3951,6 +3977,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       a4 g( f) g( a) a b( c) a( g) g \barMaior
       g a( c) c c c c b c d( c) b( a g) g \barMaior
@@ -3966,6 +3993,7 @@ ale na diferenci žalmového nápěvu?}
       modus = "VIII"
       differentia = "G*"
       psalmus = ""
+      placet = "po _Je třeba_ cesura; _splnili_ lépe; závěr lépe"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
@@ -3993,10 +4021,144 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a( c) b a g g \barMaior
+      c c( d e) d \barMin e d c b c a g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a f a c b \barMaior
+      c d( c) c \barMin c b a g a a g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a f a c b \barMaior
+      c \mark\sipka c( d c) c \barMin c b a g a a g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g a f a c b \barMaior
+      c c( d c) c \barMin \mark\sipka c c c a c b a g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a f a c b \barMaior
+      c c( d c) c \barMin c c c a c b a g \barMin
+      f \mark\sipka g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a f a c b \barMaior
+      c c( d c) c \barMin c c c \mark\sipka d b c a g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl Ja -- no -- vi:
+      Je tře -- ba, a -- by -- chom zce -- la spl -- ni -- li
+      Bo -- ží vů -- li.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4 g( a) a b( a) g( a) a \barMax
       b( a g) g( a) f4.( e) \barMaior
@@ -4016,9 +4178,66 @@ ale na diferenci žalmového nápěvu?}
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "nezpěvná"
+      id = "krtu-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 f e d( f) e e \barMax
+      e g( a) a \barMin
+      a g a( b) a g g( a) a \barMin
+      g f a g f( e) e \barMaior
+      e e( f) d d( e) e \barFinalis
+    }
+    \addlyrics {
+      Jan vy -- dal svě -- dec -- tví:
+      Vi -- děl jsem,
+      jak Duch se -- stou -- pil z_ne -- be
+      ja -- ko ho -- lu -- bi -- ce
+      a zů -- stal na něm.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "krtu-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      e4 f e d( f) e e \barMax
+      e g( a) a \barMin
+      a g a( b) a g g( a) a \barMin
+      g f a g f( e) e \barMaior
+      e \mark\sipka f( g f) e d( e) e \barFinalis
+    }
+    \addlyrics {
+      Jan vy -- dal svě -- dec -- tví:
+      Vi -- děl jsem,
+      jak Duch se -- stou -- pil z_ne -- be
+      ja -- ko ho -- lu -- bi -- ce
+      a zů -- stal na něm.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "krtu-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -4045,8 +4264,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d( f) e4. e \barMin
       e4 f e f g g g f g( a) a \barMaior
@@ -4064,9 +4286,110 @@ ale na diferenci žalmového nápěvu?}
       modus = "I"
       differentia = "D"
       psalmus = "Žalm 112"
+      placet = "libější závěr; celou snad bude lepší upravit na typičtější mod. I"
+      id = "krtu-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4 d d( f) d d \barMin
+      f e d c( d) c c f( g) a a( g) g \barMaior
+      g a g f( e d) d
+      d( e) c c( d) d \barFinalis
+    }
+    \addlyrics {
+      V_ře -- ce Jor -- dá -- nu
+      roz -- dr -- til Spa -- si -- tel hla -- vu ha -- da
+      a všech -- ny vy -- rval
+      z_je -- ho mo -- ci.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 112"
+      id = "krtu-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4 d d( f) d d \barMin
+      f e d c( d) c c f( g) a a( g) g \barMaior
+      \mark\sipka g f g g( a g) f( e d) \barMin
+      d( e) c c( d) d \barFinalis
+    }
+    \addlyrics {
+      V_ře -- ce Jor -- dá -- nu
+      roz -- dr -- til Spa -- si -- tel hla -- vu ha -- da
+      a všech -- ny vy -- rval
+      z_je -- ho mo -- ci.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 112"
+      id = "krtu-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 d d( f) d d \barMin
+      f e d c( d) c c f( g) a a( g) g \barMaior
+      g f g \mark\sipka g( a g f) e( d) \barMin
+      d( e) c c( d) d \barFinalis
+    }
+    \addlyrics {
+      V_ře -- ce Jor -- dá -- nu
+      roz -- dr -- til Spa -- si -- tel hla -- vu ha -- da
+      a všech -- ny vy -- rval
+      z_je -- ho mo -- ci.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 112"
+      id = "krtu-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4 d d( f) d d \barMin
+      f e d c( d) c c f( g) a a( g) g \barMaior
+      g f g g( a g f) \mark\sipka g( f) \barMin
+      e( f) d c( d) d \barFinalis
+    }
+    \addlyrics {
+      V_ře -- ce Jor -- dá -- nu
+      roz -- dr -- til Spa -- si -- tel hla -- vu ha -- da
+      a všech -- ny vy -- rval
+      z_je -- ho mo -- ci.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 112"
+      id = "krtu-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {

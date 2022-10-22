@@ -1354,10 +1354,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      b4 c c c c a4. a \barMaior
-      g4( f) e d d4.( e) \barMin
-      f4( g) d f e e \barMaior
-      f g a( c) b c a4. a \barFinalis
+      a4 g a g f e e \barMaior
+      d e f f
+      g d f e e \barMaior
+      f g g( a) g f d( e) e \barFinalis
     }
     \addlyrics {
       Jan Je -- ží -- šo -- vi ří -- kal:
@@ -1367,22 +1367,20 @@
     }
     \header {
       quid = "ant. dopoledne"
-      modus = "III"
-      differentia = "b"
+      modus = "IV"
+      differentia = "g"
       psalmus = ""
       id = "krtu-tercie"
       piece = \markup {\sestavTitulekBezZalmu}
-      notitia = "Antifona nekončí na finále modu - tázací věty mohou končit netypicky výš."
-      placet = "začátek je divný, konec také"
     }
   }
 
   \score {
     \relative c'' {
       \choralniRezim
-      a4 g( f) g( a) a b( c) a( g) g \barMaior
-      g a( c) c c c c b c d( c) b( a g) g \barMaior
-      f( e) f( g) a( b g4.) g \barFinalis
+      g4 g a f a c b \barMaior
+      c c( d c) c \barMin c c c a c b a g \barMin
+      f a g g \barFinalis
     }
     \addlyrics {
       Je -- žíš ře -- kl Ja -- no -- vi:
@@ -1392,9 +1390,8 @@
     \header {
       quid = "ant. v poledne"
       modus = "VIII"
-      differentia = "G*"
+      differentia = "G"
       psalmus = ""
-      placet = "po _Je třeba_ cesura; _splnili_ lépe; závěr lépe"
       id = "krtu-sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1403,11 +1400,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 g( a) a b( a) g( a) a \barMax
-      b( a g) g( a) f4.( e) \barMaior
-      f4 g( a) g( a g) f( e d4.) d4( f) f( e) d \barMaior
-      c d e f f( e) e \barMaior
-      e g( f e f) d d( f e) e \barFinalis
+      e4 f e d( f) e e \barMax
+      e g( a) a \barMin
+      a g a( b) a g g( a) a \barMin
+      g f a g f( e) e \barMaior
+      e f( g f) e d( e) e \barFinalis
     }
     \addlyrics {
       Jan vy -- dal svě -- dec -- tví:
@@ -1421,7 +1418,6 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
-      placet = "nezpěvná"
       id = "krtu-nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1457,10 +1453,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d( f) e4. e \barMin
-      e4 f e f g g g f g( a) a \barMaior
-      a g a g( f e) e \barMin
-      e( f) e d d \barFinalis
+      c4 d d( f) d d \barMin
+      f e d c( d) c c f( g) a a( g) g \barMaior
+      g f g g( a g f) e( d) \barMin
+      d( e) c c( d) d \barFinalis
     }
     \addlyrics {
       V_ře -- ce Jor -- dá -- nu
@@ -1473,7 +1469,6 @@
       modus = "I"
       differentia = "D"
       psalmus = "Žalm 112"
-      placet = "libější závěr; celou snad bude lepší upravit na typičtější mod. I"
       id = "krtu-2ne-a2"
       piece = \markup {\sestavTitulek}
     }
