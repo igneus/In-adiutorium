@@ -3537,6 +3537,47 @@ ale na diferenci žalmového nápěvu?}
     \relative c' {
       \choralniRezim
       d4 f e d c \barMin
+      d c d f \mark\sipka f e f d \barFinalis
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "krtu-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      d4 f e d c \barMin
+      d c d f f e \mark\sipka f( d) d \barFinalis
+    }
+    \addlyrics {
+      Bůh buď ve -- le -- ben,
+      že ne -- od -- mí -- tl mou pros -- bu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 66-II"
+      id = "krtu-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e d c \barMin
       f f f f e c e( f d) d \barFinalis
     }
     \addlyrics {
