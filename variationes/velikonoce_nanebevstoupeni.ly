@@ -2461,7 +2461,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a( d) d c( b) a a \barMin
     b a( g) a c b c a( g) g \barMaior
@@ -2548,10 +2548,56 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) b c( d) c c \barMin
+    c a b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstou -- pil do ne -- be,
+    se -- dí po pra -- vi -- ci Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) \mark\sipka c b( c) a a \barMin
+    c a b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstou -- pil do ne -- be,
+    se -- dí po pra -- vi -- ci Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g( a c4.) b4( a) c b a( g) g \barMaior
     a f e e g g g a a g a g \barMax
@@ -2567,7 +2613,59 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 47"
-    id = ""
+    placet = "aleluja spíš lépe"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g( a c4.) b4( a) c b a( g) g \barMaior
+    a f e e g g g a a g a g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se vzná -- ší za já -- so -- tu,
+    Hos -- po -- din vy -- stu -- pu -- je za hla -- ho -- lu trub.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 47"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Zdrojová antifona je v denním antifonáři zahrnuta na svátek PM Růžencové,
+  její původní a hlavní místo bylo ale v matutinu Nanebevstoupení.
+  Srov. Sandhofe, s. 474.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin e c c( d) d \barMaior
+    d a d b c a g a c b g a \barMaior
+    g( a) a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Bůh se vzná -- ší za já -- so -- tu,
+    Hos -- po -- din vy -- stu -- pu -- je za hla -- ho -- lu trub.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Liber antiphonarius, Solesmes 1960, s. 875"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 47"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

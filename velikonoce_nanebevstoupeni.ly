@@ -481,8 +481,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d) d c( b) a a \barMin
-    b a( g) a c b c a( g) g \barMaior
+    g4( c) b c( d) c c \barMin
+    c a b c a a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -492,10 +492,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
-    placet = "asi spíš lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -505,8 +504,8 @@
   \relative c'' {
     \choralniRezim
     g4 f g( a c4.) b4( a) c b a( g) g \barMaior
-    a f e e g g g a a g a g \barMax
-    g a a( g) g \barFinalis
+    a f e e g g g a a g a g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh se vzná -- ší za já -- so -- tu,
@@ -518,7 +517,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 47"
-    placet = "aleluja spíš lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
