@@ -155,12 +155,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d e f f f \barMin
-    d f g a( bes) a a \barMaior
-    a g a g f g f e d c d d d \barMaior
-    d( e f) d d g f e d( e) d d \barMaior
-    a' a a g g a g g( a) a \barMin
-    f g a g f g( a) f e d d d \barFinalis
+    d4 c d d f e d( e) d d \barMin
+    f g a a( bes) a a \barMaior
+    a g a g f g g f e d e d d \barMaior
+    d( e f) d d d c d e( f) d d \barMaior
+    a' g g a a c b a( b) a \barMin
+    f g g( a) a a g( a) f e c d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl zá -- stu -- py,

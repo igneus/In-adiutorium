@@ -293,10 +293,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"4. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e f f f \barMin
     d f g a( bes) a a \barMaior
@@ -323,6 +326,38 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d d f e d( e) d d \barMin
+    f g a a( bes) a a \barMaior
+    a g a g f g g f e d e d d \barMaior
+    d( e f) d d d c d e( f) d d \barMaior
+    a' g g a a c b a( b) a \barMin
+    f g g( a) a a g( a) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš u -- vi -- děl zá -- stu -- py,
+    vy -- stou -- pil na ho -- ru;
+    a při -- stou -- pi -- li k_ně -- mu je -- ho u -- čed -- ní -- ci.
+    O -- te -- vřel ús -- ta a u -- čil je:
+    Bla -- ho -- sla -- ve -- ní chu -- dí v_du -- chu,
+    ne -- boť je -- jich je ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne4a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
