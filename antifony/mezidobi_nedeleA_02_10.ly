@@ -488,6 +488,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "půjde lépe"
     id = "ne8a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -511,6 +512,7 @@
     differentia = "c"
     psalmus = ""
     annus = "A"
+    placet = "lépe"
     id = "ne8a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -534,6 +536,7 @@
     differentia = "c"
     psalmus = ""
     annus = "A"
+    placet = "půjde lépe"
     id = "ne8a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -561,6 +564,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "_Pane, Pane_ méně dramaticky a zpívatelněji; melisma na _ten_ pokud možno pryč"
     id = "ne9a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -585,6 +589,7 @@
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatymuz.ly#1ne-amag1?-aleluja"
+    placet = "poslední část je přepjatá, nápěv neodpovídá textu"
     id = "ne9a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
