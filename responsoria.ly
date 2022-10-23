@@ -722,7 +722,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "a co _večerní_ a g f?"
       id = "2po-ne"
       piece = \markup\sestavTitulekResp
     }
