@@ -345,7 +345,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g( a) \mark\sipka g \barMin
     \mark\sipka a g f g a g g \barMaior
@@ -367,6 +367,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-III"
+    placet = "nasazení _poznávají_ je pochybné"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -402,6 +403,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g g g( a) g \barMin
     a g f g a g g \barMaior

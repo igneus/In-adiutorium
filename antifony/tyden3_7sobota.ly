@@ -72,9 +72,9 @@
     g4 g g g g( a) g \barMin
     a g f g a g g \barMaior
     c c( d) d c c \barMin
-    c b a g a b g g \barFinalis
+    b c a g f a g g \barFinalis
 
-    f^\rubrVelikAleluja g a( g) g \barFinalis
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví vi -- dí
@@ -89,7 +89,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 107-III"
-    placet = "nasazení _poznávají_ je pochybné"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
