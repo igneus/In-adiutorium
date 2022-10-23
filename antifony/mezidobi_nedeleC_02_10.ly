@@ -550,6 +550,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
+    placet = "nemá spád"
     id = "ne9c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -577,6 +578,7 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
+    placet = "_Pane_ určitě jinak; celá půjde lépe"
     id = "ne9c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -604,6 +606,7 @@
     differentia = "f"
     psalmus = ""
     annus = "C"
+    placet = "lépe"
     id = "ne9c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -631,6 +634,7 @@
     differentia = "E"
     psalmus = ""
     annus = "C"
+    placet = "závěr scestný; melodie je modu IV celkově spíš cizorodá"
     id = "ne10c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
