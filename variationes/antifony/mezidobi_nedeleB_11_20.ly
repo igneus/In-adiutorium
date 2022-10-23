@@ -1666,3 +1666,25 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) a a b c c( d) d \barMin
+    d d f( g f) e d d \barMaior
+    d d c( a) \barMin d c( b a) a \barMin g f g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko mne po -- slal ži -- vý O -- tec
+    a já ži -- ji z_Ot -- ce,
+    tak i ten, kdo jí mne, bu -- de žít ze mne.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne20b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

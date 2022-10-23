@@ -125,6 +125,31 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g c( d) c c \barMin b( c a) g a g f( g) g \barMaior
+    g f( e) f g a( c) c \barMaior
+    d c d d( c) \barMin c b( c a) g g \barMaior
+    a a f( e) d
+    f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d d e( f) d d c a c d d d \barMin
