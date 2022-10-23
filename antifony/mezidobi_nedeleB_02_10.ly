@@ -501,6 +501,8 @@
     Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
   }
   \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "b"
