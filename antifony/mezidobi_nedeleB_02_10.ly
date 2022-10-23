@@ -613,10 +613,10 @@ o slabiku později.}
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( d) d( c) c( d) \barMin e d c d c( a) a \barMaior
-    d d c d c( b a) a \barMin c a g a( g) f f( g) g g \barFinalis
+    e4 e d d( e) e g( f e) \barMin g g g g( a) a \barMaior
+    a a a a a( b a g) g( e) \barMin g g g g( a) g f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Ny -- ní na -- stá -- vá soud nad tím -- to svě -- tem,
@@ -624,10 +624,10 @@ o slabiku později.}
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
-    placet = "_tohoto světa vypuzen_ není moc povedené; sjednotit melodii s pust_svatytyden.ly#po-rch-a2"
+    fial = "pust_svatytyden.ly#po-rch-a2?zacatek=21&konec=22" % přidána jedna nota, jinak nápěv stejný
     id = "ne10b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -752,7 +752,6 @@
       psalmus = "Sir 36"
       placet = "tady nevím; asi zkusit zpěvněji"
       id = "po-rch-a2"
-      notitia = "podobný text na jiný, asi spíš chabější nápěv 10. neděle per annum B; možná melodicky sjednotit?"
       piece = \markup {\sestavTitulek}
     }
   }

@@ -1307,8 +1307,16 @@ o slabiku později.}
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{Cum fortis armátus custódit átrium suum, in pace sunt ómnia quæ póssidet.}
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d) d( c) c( d) \barMin e d c d c( a) a \barMaior
     d d c d c( b a) a \barMin c a g a( g) f f( g) g g \barFinalis
@@ -1327,6 +1335,30 @@ o slabiku později.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e d d( e) e g( f e) \barMin g g g g( a) a \barMaior
+    a a a a a( b a g) g( e) \barMin g g g g( a) g f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní na -- stá -- vá soud nad tím -- to svě -- tem,
+    ny -- ní bu -- de vlád -- ce to -- ho -- to svě -- ta vy -- pu -- zen.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po-rch-a2?zacatek=21&konec=22" % přidána jedna nota, jinak nápěv stejný
+    id = "ne10b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
