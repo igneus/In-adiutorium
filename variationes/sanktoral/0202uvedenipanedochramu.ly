@@ -1233,7 +1233,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g f( e) f( g) g \barMin
     a( c) c b g g a( g) f( g) g \barMaior
@@ -1251,6 +1251,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_vzal ho Simeon_ lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1335,6 +1336,79 @@
     a( c) c b g g a( g) f( g) g \barMaior
     \mark\sipka a g a c c d c b( g) g \barMin
     g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    \mark\sipka g a a c c d c b( g) g \barMin
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    g a \mark\sipka a( c) b a c b a( g) g \barMin
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Když ro -- di -- če při -- nes -- li
+    dí -- tě Je -- ží -- še do chrá -- mu,
+    vzal ho Si -- me -- on do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( e) f( g) g \barMin
+    a( c) c b g g a( g) f( g) g \barMaior
+    \mark\sipka f e d( e) d d f g g( a) a \barMin
+    a a( c) b a g g \barFinalis
   }
   \addlyrics {
     Když ro -- di -- če při -- nes -- li
