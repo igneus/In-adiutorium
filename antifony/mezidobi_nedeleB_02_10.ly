@@ -389,6 +389,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "_Synu_ je nepřiměřeně zdůrazněné"
     id = "ne7b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -409,6 +410,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "půjde lépe"
     id = "ne7b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -438,6 +440,7 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
+    placet = "lépe"
     id = "ne7b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -461,6 +464,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "lépe; _Dokud_ je úplně mimo"
     id = "ne8b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -485,6 +489,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "ne8b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -507,6 +512,7 @@
     modus = "III"
     differentia = "b"
     psalmus = ""
+    placet = "stupnice na _Mladé víno_ je nepěkná, i jinde půjde lépe"
     id = "ne8b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -534,6 +540,7 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "ne9b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -552,6 +559,7 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "ne9b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -576,6 +584,7 @@ o slabiku později.}
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "ne9b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
