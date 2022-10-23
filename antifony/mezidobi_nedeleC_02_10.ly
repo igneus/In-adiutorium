@@ -639,8 +639,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f a g g \barMin a a( bes) a f f \barMaior
-    g g a f( e d e) e( d) \barMin f g g( f) f \barFinalis
+    f4 e f f g g g a( bes) a g( f g) g \barMaior
+    a g f e( f d c) c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Mrt -- vý se po -- sa -- dil a za -- čal mlu -- vit.
@@ -648,8 +648,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne10c-rch-aben"
@@ -660,18 +660,16 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( a' bes a) g( a) \barMin
-    a g( a) a bes a( g) g \barMaior
-    f( g) \barMin g( a f) e( d) d e( c) d \barFinalis
+    e4 c d d( a' bes) a \barMin
+    a g( a) a( bes) a g g \barMaior
+    g f g( a g) f( e d) d e( c) d \barFinalis
   }
   \addlyrics {
     Ve -- li -- ký pro -- rok
     po -- vstal me -- zi ná -- mi;
-    % a
-    Bůh na -- vští -- vil svůj lid.
+    a Bůh na -- vští -- vil svůj lid.
   }
   \header {
-    textus_approbatus = "Veliký prorok povstal mezi námi a Bůh navštívil svůj lid."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"

@@ -4,6 +4,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( b a) g( a) a \barMin f g a a f e d( e) e( d) \barMaior
     d c c( d) d f( e) f( d) d \barMin f( e) f f( a g) g \barMaior
@@ -27,6 +28,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( bes) a a \barMin g a g f e f d d \barMaior
+    f f e d f g g a( bes) a g g \barMaior
+    g g f g g( a) g f e( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Že -- na hříš -- ni -- ce při -- stou -- pi -- la k_Je -- ží -- šo -- vi,
+    za -- ča -- la mu sl -- za -- mi smá -- čet no -- hy
+    a vlast -- ní -- mi vla -- sy je u -- tí -- rat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne11c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g f a( g a) c( b) a( g) g \barMin a( b) a g g \barMaior
     a a a a g f e d f g a( g) g \barMax
@@ -43,6 +71,32 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne11c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b a g a g f g a g g \barMaior
+    a a a a g f e d f g a( g) g \barMax
+    a b c c d c a a \barMin
+    c g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mu -- se -- lo jí být od -- puš -- tě -- no mno -- ho hří -- chů,
+    když mi ny -- ní pro -- ka -- zu -- je to -- lik lás -- ky.
+    Ko -- mu se od -- pouš -- tí má -- lo,
+    má -- lo mi -- lu -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne11c-rch-aben"

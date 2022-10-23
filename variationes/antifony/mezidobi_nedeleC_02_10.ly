@@ -1701,8 +1701,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 e f a g g \barMin a a( bes) a f f \barMaior
     g g a f( e d e) e( d) \barMin f g g( f) f \barFinalis
@@ -1724,6 +1727,52 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e f f g g g a( bes) a g( f g) g \barMaior
+    a g f e( f d c) c \barMin d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mrt -- vý se po -- sa -- dil a za -- čal mlu -- vit.
+    Je -- žíš ho vrá -- til je -- ho mat -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f f g g g a( bes) a g( f g) g \barMaior
+    a g f \mark\sipka f( g f4.) f4 \barMin e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mrt -- vý se po -- sa -- dil a za -- čal mlu -- vit.
+    Je -- žíš ho vrá -- til je -- ho mat -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( a' bes a) g( a) \barMin
     a g( a) a bes a( g) g \barMaior
@@ -1737,6 +1786,30 @@
   }
   \header {
     textus_approbatus = "Veliký prorok povstal mezi námi a Bůh navštívil svůj lid."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 c d d( a' bes) a \barMin
+    a g( a) a( bes) a g g \barMaior
+    g f g( a g) f( e d) d e( c) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- li -- ký pro -- rok
+    po -- vstal me -- zi ná -- mi;
+    a Bůh na -- vští -- vil svůj lid.
+  }
+  \header {
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
