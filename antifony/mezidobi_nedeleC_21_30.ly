@@ -709,23 +709,23 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a( d) a c( b a) g \barMin a( c d) c b a( g) a( g) \barMaior
-    d' d c a b( a) a \barMin
-    g f g a( c) b c a a \barMin
-    g f g( a) a g g \barFinalis
+    d4 d d d( f) f d d \barMin f e c d d \barMaior
+    a' g f g g( a) a \barMaior
+    a g f f( g) f f \barMin
+    e f d c f e c( d) d \barFinalis
   }
   \addlyrics {
     Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
     ne však fa -- ri -- ze -- us,
-    kte -- rý si za -- klá -- dal na tom,
-    že je spra -- ved -- li -- vý.
+    kte -- rý si za -- klá -- dal
+    na tom, že je spra -- ved -- li -- vý.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne30c-rch-ben"
