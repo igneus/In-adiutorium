@@ -451,20 +451,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d( a) c b g( a) a( g) \barMin g f g g a a c b c( d) d \barMaior
-    d( e d) c( b) a g a( g) g \barFinalis
+    g4 g a g g( c) c \barMin
+    c c c b( c) a g a g f( g) g \barMaior
+    a b c a g( a g) g \barFinalis
   }
   \addlyrics {
-    Do -- kud ma -- jí hos -- té na svat -- bě že -- ni -- cha
-    me -- zi se -- bou,
+    Do -- kud ma -- jí hos -- té
+    na svat -- bě že -- ni -- cha me -- zi se -- bou,
     ne -- mo -- hou se pos -- tit.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "lépe; _Dokud_ je úplně mimo"
     id = "ne8b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
