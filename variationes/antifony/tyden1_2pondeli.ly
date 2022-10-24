@@ -1645,6 +1645,7 @@
 %tIpondeliNespAntIII =
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g a g( a) f( d) d \barMaior
@@ -1661,6 +1662,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1,3-10"
+    placet = "ozdoba na _přijal_ a frázování divné"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -1668,6 +1670,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 g a g( a) f( d) d \barMaior
@@ -1683,7 +1686,7 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
-    psalmus = "Ef 1,3-10"
+    psalmus = "Ef 1"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }

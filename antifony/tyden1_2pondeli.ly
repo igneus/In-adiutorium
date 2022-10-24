@@ -257,8 +257,8 @@ tIpondeliNespAntIII = \score {
     \choralniRezim
     \key f \major
     f4 g a g( a) f( d) d \barMaior
-    f g a a g a a( bes a) a \barMin
-    g f e( d) d \barFinalis
+    f g a a( bes) a g f( g) g\barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Bůh si nás vy -- vo -- lil
@@ -270,7 +270,6 @@ tIpondeliNespAntIII = \score {
     modus = "I"
     differentia = "f"
     psalmus = "Ef 1"
-    placet = "ozdoba na _přijal_ a frázování divné"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}
   }
