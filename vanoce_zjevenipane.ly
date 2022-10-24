@@ -1032,10 +1032,10 @@
     \relative c' {
       \choralniRezim
       d4 d d f e f( g) g \barMin
-      f( e) d f( e) d4. d \barMaior
-      d4 d d d f g f d d \barMaior
-      d d c d e f f \barMin
-      f g f e c d d \barFinalis
+      f( e) d f( e) d d \barMaior
+      f f f f e d e d c \barMaior
+      d d c d d f f
+      f g( a) f e c d d \barFinalis
     }
     \addlyrics {
       Spa -- si -- tel se dal po -- křtít
@@ -1049,7 +1049,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
-      placet = "značně jednotvárná"
       id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

@@ -3217,8 +3217,22 @@ ale na diferenci žalmového nápěvu?}
 
   \pageBreak
 
+  \markup\justify{
+    Liturgia horarum:
+    \italic{
+      Véterem hóminem rénovans, Salvátor venit ad baptísmum,
+      ut natúram, quæ corrúpta est, per aquam recuperáret,
+      incorruptíbili veste circumíciens nos.
+    }
+  }
+  \markup\justify{
+    Tady těžko říci něco jiného, než že český překlad učí svou vlastní,
+    nižší, teologii křtu.
+  }
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d f e f( g) g \barMin
       f( e) d f( e) d4. d \barMaior
@@ -3249,6 +3263,33 @@ ale na diferenci žalmového nápěvu?}
       d4 d d f e f( g) g \barMin
       f( e) d f( e) d d \barMaior
       \mark\sipka f f f f e c d d c \barMaior
+      d d c d d f f
+      f g( a) f e c d d \barFinalis
+    }
+    \addlyrics {
+      Spa -- si -- tel se dal po -- křtít
+      vo -- dou Jor -- dá -- nu,
+      a vo -- da se sta -- la zna -- me -- ním
+      no -- vé spra -- ve -- dl -- nos -- ti
+      a no -- vé -- ho ži -- vo -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "krtu-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d f e f( g) g \barMin
+      f( e) d f( e) d d \barMaior
+      f f f f e \mark\sipka d e d c \barMaior
       d d c d d f f
       f g( a) f e c d d \barFinalis
     }
