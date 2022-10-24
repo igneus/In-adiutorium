@@ -81,13 +81,13 @@
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 b d d d d d c b c( d) d \barMaior
-    d4 d c( d) c \barMin
-    c b a c b a g g \barMax
-    d' d d d f e c c( d) d \barMin
-    c b c d a4. g4 g c b g g \barFinalis
+    c4 d f f f f f e c e( f d) d \barMaior
+    c d d( f) f \barMin
+    f g f g a a g g \barMaior
+    a a g f e f d d( c) c \barMin
+    d f e c d-- c d f e d d \barFinalis
   }
   \addlyrics {
     By -- lo před ve -- li -- ko -- noč -- ní -- mi svát -- ky.
@@ -98,10 +98,9 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "tou si nejsem jist, vyzkoušet víc variant"
     id = "dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }

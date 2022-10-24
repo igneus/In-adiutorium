@@ -247,7 +247,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 b d d d d d c b \mark\sipka c( d) d \barMaior
     d4 d \mark\sipka c( d) c \barMin
@@ -267,6 +267,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "tou si nejsem jist, vyzkoušet víc variant"
     id = "dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -378,7 +379,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     c4 d f f f f f e c e( f d) d \barMaior
     c d d( f) f \barMin
