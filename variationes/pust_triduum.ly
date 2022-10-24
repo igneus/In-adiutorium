@@ -1937,7 +1937,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d \mark\sipka c d f e d d \barMin
     \mark\sipka c f e c d \barMaior
@@ -2004,7 +2004,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d4 d d d d c d d( f) f \barMin
     g g f e d \barMaior
@@ -2047,6 +2047,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d( f) f \barMin
+    e f g g a f( e) d \barMaior
+    f f f e( f) d c e d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -2064,7 +2086,7 @@
   \header {
     fons_externus = "volně podle AR1912, 369"
     quid = "3. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Flp 2"
     id = "pa-nesp-ant3"
@@ -2087,7 +2109,7 @@
   \header {
     fons_externus = "volně podle AR1912, 369"
     quid = "3. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Flp 2"
     id = "pa-nesp-ant3"

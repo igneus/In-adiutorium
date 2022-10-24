@@ -476,9 +476,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d f e d d \barMin
-    c f e c d \barMaior
-    f f f g f e c( d) d \barFinalis
+    d4 d d d d c d d( f) f \barMin
+    g g f e d \barMaior
+    d4 d d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
@@ -490,7 +490,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
-    placet = "silný text, kterému nápěv nečiní úplně zadost - vyzkoušet víc variant"
     id = "pa-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
