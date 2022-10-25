@@ -2132,6 +2132,38 @@ doxologieResponsoriumVI = {}
 
       % R
       \neviditelna f
+      f f f f f f \mark\sipka g f \barMin f g f g( a) a( g) \barMax
+      g g g( f d) f( g) g f f \barFinalis
+      % V
+      \neviditelna a
+      a a( bes) a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
+      % R
+      \neviditelna f
+      g g g( f d) f( g) g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Má mod -- lit -- ba, Hos -- po -- di -- ne, ať stou -- pá k_to -- bě_*
+      ja -- ko vů -- ně ka -- did -- la.
+      \Verse Mé zved -- nu -- té dla -- ně ať jsou ja -- ko ve -- čer -- ní o -- běť_*
+      \Response ja -- ko vů -- ně ka -- did -- la.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2po-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
       f f f f f f f f f g f g( a) a( g) \barMax
       g g g( f d) f( g) g f f \barFinalis
       % V

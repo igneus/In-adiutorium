@@ -1101,6 +1101,12 @@
   }
 }
 
+\pageBreak
+
+\markup{
+  Srov. podobnou antifonu níže o 9. neděli.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1120,6 +1126,48 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e c d( e f) \barMin
+    g f f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka má moc
+    od -- pouš -- tět na ze -- mi hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne7b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e g f \barMin
+    g a f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka má moc
+    od -- pouš -- tět na ze -- mi hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne7b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -1295,6 +1343,10 @@ o slabiku později.}
   }
 }
 
+\markup{
+  K následující srov. podobnou antifonu výše o 7. neděli.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1312,6 +1364,62 @@ o slabiku později.}
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e d c( d) c d e f d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d d d( f) f f e f d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d d f( g) g g a f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
