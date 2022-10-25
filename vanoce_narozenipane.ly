@@ -902,7 +902,7 @@
       \choralniRezim
       g4 g g g f( e) f( g) g \barMin
       a( c) c b g g a( g) f( g) g \barMaior
-      a b c c c d c b( g) g \barMin
+      g a a c c d c b( g) g \barMin
       g f( g) a a g g \barFinalis
     }
     \addlyrics {

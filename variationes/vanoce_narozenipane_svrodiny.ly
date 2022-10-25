@@ -1262,7 +1262,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g f( e) f( g) g \barMin
       a( c) c b g g a( g) f( g) g \barMaior
@@ -1283,6 +1283,34 @@
       fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
       id = "svrodiny-cte-a1"
       piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g g f( e) f( g) g \barMin
+      a( c) c b g g a( g) f( g) g \barMaior
+      g a a c c d c b( g) g \barMin
+      g f( g) a a g g \barFinalis
+    }
+    \addlyrics {
+      Když ro -- di -- če při -- nes -- li
+      dí -- tě Je -- ží -- še do chrá -- mu,
+      vzal ho Si -- me -- on do ná -- ru -- čí
+      a ve -- le -- bil Bo -- ha.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 24"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#rch-aben"
+      id = "svrodiny-cte-a1"
+      piece = \markup {\sestavTitulek}
     }
   }
 
