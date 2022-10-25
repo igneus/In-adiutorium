@@ -178,6 +178,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    fial = "commune/commune_jedenmucednik.ly#1ne-resp-velik"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -651,6 +652,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#nona"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -834,6 +836,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    fial = "commune/commune_jedenmucednik.ly#2ne-resp-velik"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
