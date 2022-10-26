@@ -331,6 +331,7 @@ modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g 
   }
   \header {
     modus = "VII"
+    placet = "potřebuje revizi"
     id = "vii"
   }
 }
