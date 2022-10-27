@@ -60,11 +60,11 @@
   \relative c'' {
     \choralniRezim
     a4 a g( a) a \barMin
-    a b c c d a \barMaior
-    a a g a g( d) \barMin f g g( a) a \barMax
-    a a c( b a4.) a \barMin a4 b b( c) c c d b b \barMaior
-    c b a( g) a e e \barMin a g a c b g a4. a \barMax
-    a4 a( c) g( b) a \barFinalis
+    c b c d c a \barMaior
+    a c b g a( g) \barMin f g g( a) a \barMax
+    c c b( c a4.) a \barMin c4 d e d c b( c) a( g) g \barMaior
+    a g a a c c \barMin c c d c b c a a \barMaior
+    b a g( a) a \barFinalis
   }
   \addlyrics {
     Tak je psá -- no:_*
@@ -76,10 +76,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
+    modus = "II"
     differentia = "A"
     psalmus = ""
-    placet = "II.A"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

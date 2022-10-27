@@ -125,6 +125,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a \barMin
     a b c c d a \barMaior
@@ -147,6 +148,35 @@
     differentia = "A"
     psalmus = ""
     placet = "II.A"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) a \barMin
+    c b c d c a \barMaior
+    a c b g a( g) \barMin f g g( a) a \barMax
+    c c b( c a4.) a \barMin c4 d e d c b( c) a( g) g \barMaior
+    a g a a c c \barMin c c d c b c a a \barMaior
+    b a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Tak je psá -- no:_*
+    Kris -- tus bu -- de tr -- pět
+    a tře -- tí -- ho dne vsta -- ne z_mrt -- vých.
+    V_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
+    a -- by všem ná -- ro -- dům by -- ly od -- puš -- tě -- ny hří -- chy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
