@@ -1486,6 +1486,27 @@
   \relative c' {
     \choralniRezim
     \key f \major
+    d4 d d( a') a a g( a) bes c a g g( a) a \barMaior
+    \mark\sipka g f e( f) d d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še po -- moc je ve jmé -- nu Hos -- po -- di -- na,
+    kte -- rý u -- či -- nil ne -- be a ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 124"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
     d4 d d( a') a a \mark\sipka bes a g f g g( a) a \barMin
     g f e( f) d d c f e c( d) d \barFinalis
   }

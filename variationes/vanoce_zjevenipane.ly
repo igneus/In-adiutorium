@@ -1647,6 +1647,73 @@ ale na diferenci žalmového nápěvu?}
     differentia = "G"
     psalmus = "Žalm 110"
     fons = "cast z Narozeni Pane, 1. nesp., 1.a."
+    placet = "ozdoba _slávou_ je neorganická"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a a c( b) a( g) g \barMin
+    a a g f g( a) a \barMin
+    c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je
+    pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a a c( b) a( g) g \barMin
+    f g a a a( c) b \barMin
+    c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je
+    pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c b a( b) a( g) g \barMin
+    a a g f g( a) a \barMin
+    c a c b g g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je
+    pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }

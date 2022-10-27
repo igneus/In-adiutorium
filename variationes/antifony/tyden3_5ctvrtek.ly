@@ -890,6 +890,7 @@ si hrát:}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g a g f g g \barMin g f \mark\sipka e d( e) d d \barFinalis
   }
