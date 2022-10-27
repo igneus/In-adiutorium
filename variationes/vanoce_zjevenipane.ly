@@ -4475,6 +4475,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 a( c) c c b c b( d) c4. b4 a c( b) a( g) g \barMax
       g g a f g g( a) a \barMaior
@@ -4492,6 +4493,33 @@ ale na diferenci žalmového nápěvu?}
       modus = "VIII"
       differentia = "G"
       psalmus = "Zj 15"
+      placet = "délky nejsou potřeba; první díl lépe"
+      id = "krtu-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a( c) c \mark\sipka \barMin c b c \mark\sipka c( d) c4. b4 a c( b) a( g) g \barMax
+      g g a f g g( a) a \barMaior
+      a b( c) a a \barMin
+      \mark\sipka c d c b g a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ta -- jem -- ství, kte -- ré dnes sla -- ví -- me, je ve -- li -- ké:
+      Ten, kte -- rý všech -- no stvo -- řil,
+      nás v_Jor -- dá -- nu
+      o -- čis -- til z_na -- šich ne -- pra -- vos -- tí.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Zj 15"
+      id = "krtu-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
   }

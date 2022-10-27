@@ -1476,10 +1476,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a( c) c c b c b( d) c4. b4 a c( b) a( g) g \barMax
+      g4 a( c) c \barMin c b c c( d) c4. b4 a c( b) a( g) g \barMax
       g g a f g g( a) a \barMaior
-      a4. b4( c) a4. a \barMin
-      b4 c d c( b) a g f f( g) g \barFinalis
+      a b( c) a a \barMin
+      c d c b g a g f( g) g \barFinalis
     }
     \addlyrics {
       Ta -- jem -- ství, kte -- ré dnes sla -- ví -- me, je ve -- li -- ké:
@@ -1492,7 +1492,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Zj 15"
-      placet = "délky nejsou potřeba; první díl lépe"
       id = "krtu-2ne-a3"
       piece = \markup {\sestavTitulek}
     }
