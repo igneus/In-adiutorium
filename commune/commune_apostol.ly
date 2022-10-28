@@ -673,9 +673,9 @@
     f4 g g a a a g f d d \barMax
     d( f) d d c d( f) g( a) a \barMaior
     a a a g4.( a) \barMin a4 c( a b) a g g( a) a \barMaior
-    a g f( g d) d \barMin g f e d4. d \barFinalis
+    g f e( f d) d \barMin c f e c( d) d \barFinalis
 
-    d4^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Už vás ne -- na -- zý -- vám slu -- žeb -- ní -- ky;
@@ -779,7 +779,7 @@
     c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
     f g a( f e d) d \barMin f e f g f e d c( d) d \barFinalis
 
-    d^\markup\rubrVelikAleluja e d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Až Syn člo -- vě -- ka
