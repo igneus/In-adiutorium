@@ -1923,6 +1923,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( g a) a( g) \barMin f f f g g g( a) a a \barMaior
     f( g f d) d \barMin c( f) e( d) d \barFinalis
@@ -1935,6 +1936,27 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a g f g f g g a a \barMaior
+    f( g f d) d \barMin \mark\sipka f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "ne30b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}

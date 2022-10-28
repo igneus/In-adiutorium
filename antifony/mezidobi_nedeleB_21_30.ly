@@ -674,8 +674,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) a( g) \barMin f f f g g g( a) a a \barMaior
-    f( g f d) d \barMin c( f) e( d) d \barFinalis
+    a4 a g f g f g g a a \barMaior
+    f( g f d) d \barMin f( e) c( d) d \barFinalis
   }
   \addlyrics {
     Co chceš, a -- bych pro te -- be u -- dě -- lal?
@@ -684,9 +684,8 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a2"
+    differentia = "a"
     psalmus = ""
-    placet = "lépe"
     id = "ne30b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
