@@ -842,6 +842,11 @@
 
 \pageBreak
 \markup\nadpisDen "Sobotní památka Panny Marie"
+
+\markup\italic{
+  Invitatorium ze společných textů o Panně Marii.
+}
+
 \markup\nadpisHodinka "ranní chvály"
 
 \markup\italic\justify{
