@@ -16,8 +16,8 @@ Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu
 }
 
 % melodie aleluja
-mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
-malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
+mal = { \barFinalis \neviditelna f f f d c \barFinalis \break }
+malal = { \barFinalis \neviditelna a a a( g) g f \barMin d f( g) g f \barFinalis \break }
 % text aleluja
 al = \lyricmode { \Response A -- le -- lu -- ja. }
 alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
