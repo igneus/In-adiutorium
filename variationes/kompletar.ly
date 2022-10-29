@@ -813,6 +813,23 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \barMin c d d( f) f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
 \markup\nadpisSkupiny "Nad upraveným textem"
 
 \score {
@@ -855,6 +872,24 @@
   \relative c' {
     \choralniRezim
     d4 e f e( d) c \barMin d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \barMin g g f e d d \barFinalis
   }
   \addlyrics {
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
