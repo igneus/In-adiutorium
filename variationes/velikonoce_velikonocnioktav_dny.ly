@@ -1721,11 +1721,38 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g \mark\sipka a g g( c) c \barMin
       a b c a g g \barMaior
       a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ze -- mě se sy -- tí_*
+      plo -- dy tvé -- ho dí -- la.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-II"
+      id = "st-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup\justify{
+    (Měním proto, že série tří antifon hodně podobného rázu
+    a s identickým aleluja působí únavně.)
+  }
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g a g g( c) c \barMin
+      a b c a g g \barMaior
+      \mark\sipka f g g( a) g \barFinalis
     }
     \addlyrics {
       Ze -- mě se sy -- tí_*
@@ -2076,6 +2103,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g g( c) c b g \barMin
       a g f g a \mark\sipka g g \barMaior
@@ -2120,7 +2148,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g g( c) c b g \barMin
       a g f a c b( a g) g \barMaior
@@ -2136,6 +2164,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-III"
+      placet = "_Hospodinova_ takhle ne"
       id = "st-mc-a3"
       piece = \markup {\sestavTitulek}
     }

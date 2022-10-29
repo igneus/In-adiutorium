@@ -711,7 +711,7 @@
       \choralniRezim
       g a g g( c) c \barMin
       a b c a g g \barMaior
-      a g f( g) g \barFinalis
+      f g g( a) g \barFinalis
     }
     \addlyrics {
       Ze -- mě se sy -- tí_*
@@ -732,7 +732,7 @@
     \relative c'' {
       \choralniRezim
       g g( c) c b g \barMin
-      a g f a c b( a g) g \barMaior
+      a g f g a g g \barMaior
       a g f( g) g \barFinalis
     }
     \addlyrics {
@@ -745,7 +745,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-III"
-      placet = "_Hospodinova_ takhle ne"
       id = "st-mc-a3"
       piece = \markup {\sestavTitulek}
     }
