@@ -762,6 +762,88 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a g a g g \barMin
+    g f g g( a) a \barMin
+    c d c b a g a a \barMaior
+    c c c b g b( c) a a \barMax
+    g a a( c) c \barMin b c d( c b c) a \barFinalis
+    % V
+    \neviditelna a
+    c c c b( c) a a \barMin
+    b g a( b) a a \barMax
+    % R
+    \neviditelna a
+    g a a( c) c \barMin b c d( c b c) a \barFinalis
+    % Slava
+    c c b( c) a g g( a) a \barMin
+    a g a b( c) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a g a g g \barMin
+    g f g g( a) a \barMin
+    c d c b a g a a \barMaior
+    c c c b g b( c) a a \barMax
+    g a a( c) c \barMin b \mark\sipka g a( c b g) a \barFinalis
+    % V
+    \neviditelna a
+    c c c b( c) a a \barMin
+    b g a( b) a a \barMax
+    % R
+    \neviditelna a
+    g a a( c) c \barMin b \mark\sipka g a( c b g) a \barFinalis
+    % Slava
+    c c b( c) a g g( a) a \barMin
+    a g a b( c) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
+    spo -- je -- ni pou -- ty
+    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {

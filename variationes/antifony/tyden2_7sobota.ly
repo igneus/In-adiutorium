@@ -510,6 +510,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( f) f \barMin
+    g g g f e d d \barMaior
+    \mark\sipka d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj -- me
+    na smlou -- vu s_Hos -- po -- di -- nem,
+    na -- ším Bo -- hem.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-II"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d a \barMin d d d e f g e \barMaior
     f f( g f) e( d) d \barMin f f e d c d \barFinalis
   }
@@ -523,6 +547,33 @@
     differentia = "D"
     psalmus = "Žalm 106-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen vynechána césura.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d a \barMin d d d e f g e \barMaior
+    f f( g f) e( d) d \mark\sipka f f e d c d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás, Hos -- po -- di -- ne, náš Bo -- že,
+    a shro -- máž -- di svůj roz -- ptý -- le -- ný lid.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-III"
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }

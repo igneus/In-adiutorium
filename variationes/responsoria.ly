@@ -3268,4 +3268,36 @@ doxologieResponsoriumVI = {}
       piece = \markup\sestavTitulekResp
     }
   }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f f f g( a) a( g) \barMax
+      f g a g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a \mark\sipka a( bes) a \barMin a a g( a) g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f g a g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Bu -- du tě o -- sla -- vo -- vat, Bo -- že,_*
+      bu -- du ti zpí -- vat.
+      \Verse Můj ja -- zyk bu -- de chvá -- lit tvou spra -- ve -- dl -- nost,_*
+      \Response bu -- du ti zpí -- vat.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2so-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
 }
