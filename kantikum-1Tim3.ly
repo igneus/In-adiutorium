@@ -57,6 +57,7 @@ mRespI = \relative c' { \neviditelna f f4 f f( g) g \barMin g f g a a \barFinali
     quid = "kantikum"
     modus = "I"
     differentia = "f"
+    id = "i-f"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -92,6 +93,7 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
     quid = "kantikum"
     modus = "I"
     differentia = "a"
+    id = "i-a"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -126,6 +128,7 @@ mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinal
     quid = "kantikum"
     modus = "VI"
     differentia = "a"
+    id = "vi-a"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
@@ -160,6 +163,7 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
     quid = "kantikum"
     modus = "VIII"
     differentia = "c"
+    id = "viii-c"
     piece = \markup\sestavTitulekBezZalmu
   }
 }

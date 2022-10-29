@@ -42,6 +42,7 @@ zalmXCVtonusVI = \score {
     modus = "VI"
     placet = "_své spásy_ je divné"
     fons_externus = \markup{volně podle \italic{Liber hymnarius,} Solesmes 1983, 149nn.}
+    id = "vi"
     piece = \markup\sestavTitulekBezZalmu
   }
 }

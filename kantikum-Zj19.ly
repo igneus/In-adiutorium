@@ -93,5 +93,6 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
   }
   \header {
     piece = "kantikum Zj 19 - modus VI"
+    id = "vi"
   }
 }

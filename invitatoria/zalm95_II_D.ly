@@ -52,6 +52,7 @@ zalmXCVtonusIID = \score {
     modus = "II"
     differentia = "D"
     fons_externus = \markup{volně podle \italic{Liber hymnarius,} Solesmes 1983, 133nn.}
+    id = "ii-d"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
