@@ -2901,6 +2901,32 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c \mark\sipka c( d) c c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c b c a a c b( a) g g \barMaior
     g f4.( a) \barMin
     a4 b a g g \barMaior

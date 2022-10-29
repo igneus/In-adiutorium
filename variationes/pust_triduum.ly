@@ -4601,7 +4601,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c( d c) b( c) c \barMin
     a( c) b( a) g( a) a \barMaior
@@ -4624,8 +4624,103 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "závěr lépe - napadá mě řada variant a snad všechny znějí přirozeněji, než tato"
     id = "so-nesp-mag"
     fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c b g \barMin
+    \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c b g \barMin
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm;
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?delsi_text"
+    fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d c) b( c) c \barMin
+    a( c) b( a) g( a) a \barMaior
+    a c( a) \barMin
+    a c b a g \barMaior
+    g a c c b g \barMin
+    \mark\sipka a f g( a g4.) g4 \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven_*
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm,
+    a zje -- ví se na něm
+    Bo -- ží slá -- va.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "so-nesp-mag"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?zacatek=28"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }

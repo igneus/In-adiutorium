@@ -940,7 +940,7 @@
     a c( a) \barMin
     a c b a g \barMaior
     g a c c b g \barMin
-    f( a) a g g \barFinalis
+    a f g( a g4.) g4 \barFinalis
   }
   \addlyrics {
     Ny -- ní je o -- sla -- ven_*
@@ -956,9 +956,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "závěr lépe - napadá mě řada variant a snad všechny znějí přirozeněji, než tato"
     id = "so-nesp-mag"
-    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?zacatek"
+    fial = "velikonoce_nanebevstoupeni.ly#2ne-a3?zacatek=28"
     fons = "První část z Nanebevstoupení Páně, 2. nešp., 3. ant."
     piece = \markup {\sestavTitulekBezZalmu}
   }
