@@ -9,8 +9,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d \barMin c c d c( b g) g \barMin
-    a g f g( a) a a g g \barFinalis
+    c4 c b a c g a( g) f \barMaior
+    g f g g a g f f \barFinalis
   }
   \addlyrics {
     Za -- che -- e, pojď rych -- le do -- lů;
@@ -18,8 +18,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne31c-1ne-amag"
@@ -28,19 +28,20 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a( b c b) b \barMin a a a g g( a) g e e \barFinalis
+    f4 f( g a g) g \barMin f e d c f e d d \barFinalis
   }
   \addlyrics {
     Dnes při -- šla do to -- ho -- to do -- mu spá -- sa.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "g"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
+    fial = "commune/commune_kostel.ly#rch-aben?konec=8&-aleluja"
     id = "ne31c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -49,8 +50,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d) c c b a a( b) b( a) \barMin
-    a g( a c) c( b) g a g f e e \barFinalis
+    c4 c( d) c c b a g( a) a( g) \barMaior
+    g f( g) g( a) a a g f e e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka při -- šel hle -- dat
