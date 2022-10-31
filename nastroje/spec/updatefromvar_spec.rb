@@ -21,6 +21,12 @@ describe Updater do
       expect(@updater.clean_score(s)).to eq s_cleaned
     end
 
+    it 'removes arrow mark at the end of line' do
+      s = "d e \\mark\\sipka\nd e"
+      s_cleaned = "d e\nd e"
+      expect(@updater.clean_score(s)).to eq s_cleaned
+    end
+
     it 'removes whole line with colour marking' do
       s = "  \\zvyraznovacModry  \n  a b c"
       s_cleaned = '  a b c'
