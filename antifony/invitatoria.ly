@@ -25,6 +25,7 @@ tInedeleInvitatorium = \score {
     modus = "I"
     differentia = "D"
     dies = "neděle"
+    placet = "_oslavujme_ si nejsem jist"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
