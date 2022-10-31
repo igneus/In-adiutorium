@@ -6138,7 +6138,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 b c a( g) g \barMin
       a g f g a( c) b a g g \barMaior
@@ -6203,6 +6203,31 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "c"
+      psalmus = "Žalm 62"
+      id = "st-ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka g4 f g g( a) a \barMin
+      c c b a b c a g g \barMaior
+      c d c b( a) g \barMin
+      a g f a g g \barFinalis
+    }
+    \addlyrics {
+      Bez -- bož -- ní řek -- li:
+      U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+      ne -- boť se sta -- ví
+      pro -- ti na -- šim skut -- kům.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
       psalmus = "Žalm 62"
       id = "st-ne-a1"
       piece = \markup {\sestavTitulek}

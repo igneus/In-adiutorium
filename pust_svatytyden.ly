@@ -1194,8 +1194,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 b c a( g) g \barMin
-      a g f g a( c) b a g g \barMaior
+      g4 f g g( a) a \barMin
+      c c b a b c a g g \barMaior
       c d c b( a) g \barMin
       a g f a g g \barFinalis
     }
@@ -1208,9 +1208,8 @@
     \header {
       quid = "1. ant."
       modus = "VIII"
-      differentia = "c"
+      differentia = "G"
       psalmus = "Žalm 62"
-      placet = "spíš lépe"
       id = "st-ne-a1"
       piece = \markup {\sestavTitulek}
     }
