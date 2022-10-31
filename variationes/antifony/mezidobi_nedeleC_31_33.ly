@@ -408,6 +408,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 d f( g a g) g \barMin
+    f( d) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f( g a g) g \barMin
+    \mark\sipka a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a a( c) c c \barMin a( c) c c g g \barMaior

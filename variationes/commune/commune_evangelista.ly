@@ -296,6 +296,37 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka f4 g g a a g a g f f( g) \barMin
+    \mark\sipka g f g g( a) a \barMaior
+    \mark\sipka a g a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin \mark\sipka e4( f) e d c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

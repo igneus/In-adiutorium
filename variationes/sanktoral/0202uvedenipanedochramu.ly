@@ -565,6 +565,56 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g g( a) a \barMin c b g g( a) a \barMaior
+    g a a( b c a) a g( f) e e \barMaior
+    e f f f e d f( g) a( g) g \barMin
+    a( g) f d e e \barFinalis
+  }
+  \addlyrics {
+    Vstaň, roz -- sviť se, Je -- ru -- za -- lé -- me,
+    ne -- boť vze -- šlo tvé svět -- lo
+    a Hos -- po -- di -- no -- va ve -- leb -- nost
+    zá -- ří nad te -- bou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 19A"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g g( a) a \barMin c b g g( a) a \barMaior
+    g \mark\sipka f g( a g) g f( e) d( e) e \barMaior
+    e f f f e d f( g) a( g) g \barMin
+    a( g) f d e e \barFinalis
+  }
+  \addlyrics {
+    Vstaň, roz -- sviť se, Je -- ru -- za -- lé -- me,
+    ne -- boť vze -- šlo tvé svět -- lo
+    a Hos -- po -- di -- no -- va ve -- leb -- nost
+    zá -- ří nad te -- bou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 19A"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a a a g( e) e \barMin a a g( a) e e \barMin
