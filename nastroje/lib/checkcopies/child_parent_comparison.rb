@@ -52,7 +52,15 @@ class ChildParentComparison
     end
 
     if @fial.additional.has_key?('cast')
-      return normalized_parent.include? strip_wrappers(normalized_child)
+      parts = @fial.additional['cast']
+      if parts
+        child_sections = normalized_child.split(/\\bar\w+/)
+        return parts.split(',').all? do |i|
+          normalized_parent.include? child_sections[i.to_i - 1]
+        end
+      else
+        return normalized_parent.include? strip_wrappers(normalized_child)
+      end
     end
 
     if @fial.additional.has_key?('zacatek')

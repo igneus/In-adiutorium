@@ -136,24 +136,90 @@ describe ChildParentComparison do
   end
 
   describe 'cast' do
-    let(:fial) { 'parent_path#id?cast' }
+    describe 'without argument - the whole child melody is part of parent' do
+      let(:fial) { 'parent_path#id?cast' }
 
-    it 'part of parent' do
-      expect(
-        described_class.new(
-          score(music: 'c d \barFinalis', fial: fial),
-          score(music: 'a b c d e f \barFinalis')
-        )
-      ).to be_match
+      it 'part of parent' do
+        expect(
+          described_class.new(
+            score(music: 'c d \barFinalis', fial: fial),
+            score(music: 'a b c d e f \barFinalis')
+          )
+        ).to be_match
+      end
+
+      it 'not a part of parent' do
+        expect(
+          described_class.new(
+            score(music: 'a a a \barFinalis', fial: fial),
+            score(music: 'a b c d e f \barFinalis')
+          )
+        ).not_to be_match
+      end
     end
 
-    it 'not a part of parent' do
-      expect(
-        described_class.new(
-          score(music: 'a a a \barFinalis', fial: fial),
-          score(music: 'a b c d e f \barFinalis')
-        )
-      ).not_to be_match
+    describe 'with argument - specified section(s) of child melody is (are) part of parent' do
+      it 'section 1 match' do
+        fial = 'parent_path#id?cast=1'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'a b g b g')
+          )
+        ).to be_match
+      end
+
+      it 'section 2 match' do
+        fial = 'parent_path#id?cast=2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'c d g b g')
+          )
+        ).to be_match
+      end
+
+      it 'mismatch' do
+        fial = 'parent_path#id?cast=1'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'g b g')
+          )
+        ).not_to be_match
+      end
+    end
+
+    describe 'with multiple arguments' do
+      it 'all match' do
+        fial = 'parent_path#id?cast=1,2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'a b c d')
+          )
+        ).to be_match
+      end
+
+      it 'mismatch first' do
+        fial = 'parent_path#id?cast=1,2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'g g c d')
+          )
+        ).not_to be_match
+      end
+
+      it 'mismatch second' do
+        fial = 'parent_path#id?cast=1,2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barFinalis', fial: fial),
+            score(music: 'a b g g')
+          )
+        ).not_to be_match
+      end
     end
   end
 
