@@ -1521,6 +1521,7 @@ o slabiku později.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d) d \barMin d f e d c d( a) a \barMaior
     g f g g( a) a b c a g( f) g( a g) g \barFinalis
@@ -1535,6 +1536,49 @@ o slabiku později.}
     differentia = "a"
     psalmus = ""
     placet = "závěr je slabší. Možná by _i_ nemělo po předchozí kadenci začínat stoupání"
+    id = "ne10b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a a b a g f g( a) a \barMaior
+    a b c a( g) g a a f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo pl -- ní vů -- li Bo -- ží,
+    to je můj bra -- tr i ses -- tra i mat -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#rehol-aben1?cast=2"
+    id = "ne10b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a a g a g f g( a) a \barMaior
+    a b c a( g) g a a f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo pl -- ní vů -- li Bo -- ží,
+    to je můj bra -- tr i ses -- tra i mat -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#rehol-aben1?cast=2"
     id = "ne10b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
