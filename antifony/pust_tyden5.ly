@@ -395,7 +395,7 @@
   \relative c' {
     \choralniRezim
     d4 d c d d f f \barMin
-    f( g) g( f) \barMin e f d \barFinalis
+    g4. f e4 f d \barFinalis
   }
   \addlyrics {
     Dří -- ve než byl A -- bra -- hám,
@@ -406,7 +406,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "stále to není ono, bude dobré se k ní po čase vrátit"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

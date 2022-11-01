@@ -1736,10 +1736,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d f f \barMin
     f( g) g( f) \barMin \mark\sipka e f d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Samozřejmě se nemá zazpívat dlouze \italic{jáá jseem,}
+  ale zvolnit tempo.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d f f \barMin
+    \mark\sipka g4. f e4 f d \barFinalis
   }
   \addlyrics {
     Dří -- ve než byl A -- bra -- hám,
