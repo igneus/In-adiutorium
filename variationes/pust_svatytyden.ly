@@ -6381,7 +6381,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 c d d( f) e d( c) c \barMin
       \mark\sipka d f e d e d d \barFinalis
@@ -6393,6 +6393,128 @@
     \header {
       quid = "2. ant."
       modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      placet = "něco jí chybí"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 \mark\sipka d c d( f) e d( c) c \barMin
+      d f e d e d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f d f e d( c) c \barMin
+      d f e d e d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka d4 d f e f d( c) c \barMin
+      d f e d e d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka d4 d c a c c( d) d \barMin
+      d f e d e d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c f g f( a) a \barMin
+      a g( a g) f e f d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 67"
+      id = "st-ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c f g f( a) a \barMin
+      a \mark\sipka g e f e d d \barFinalis
+    }
+    \addlyrics {
+      Sám ne -- sl hří -- chy mno -- hých
+      a pro -- sil za vi -- ní -- ky.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
       differentia = "D"
       psalmus = "Žalm 67"
       id = "st-ne-a2"

@@ -1218,7 +1218,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 c d d( f) e d( c) c \barMin
+      d4 d c d( f) e d( c) c \barMin
       d f e d e d d \barFinalis
     }
     \addlyrics {
@@ -1230,7 +1230,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 67"
-      placet = "něco jí chybí"
       id = "st-ne-a2"
       piece = \markup {\sestavTitulek}
     }
