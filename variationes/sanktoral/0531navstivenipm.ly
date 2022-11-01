@@ -713,6 +713,58 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g \barMin
+    \mark\sipka a g f g a a a g g \barMaior
+    a c c b a g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
+    a po -- zdra -- vi -- la Alž -- bě -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g \barMin
+    a g f g a a a g g \barMaior
+    a c c b a \mark\sipka c( b) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
+    a po -- zdra -- vi -- la Alž -- bě -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

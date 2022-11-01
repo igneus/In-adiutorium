@@ -123,7 +123,7 @@
     \choralniRezim
     f4 g a a g4.( a) g4 f g g \barMin
     g a g f d( c) c \barMaior
-    f g a a a a( c) bes a g( a) \barMin
+    f g a a \mark\sipka a a( c) bes a g( a) \barMin
     a a g f e f d d \barFinalis
   }
   \addlyrics {
