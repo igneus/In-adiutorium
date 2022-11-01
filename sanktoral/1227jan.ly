@@ -18,7 +18,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g c c b \barMin
+    g4 f g g a a \barMin
     c c d c( b g) g \barMin
     a( g) f( g) a g g \barFinalis
   }
@@ -32,7 +32,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
-    placet = "lépe; asi zrušit první cézuru"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -41,8 +40,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g a \barMin
-    f f f f( g) f d( e) d d \barFinalis
+    f4 g a g a a \barMin
+    f f f g f e( f) d d \barFinalis
   }
   \addlyrics {
     Jan je ten u -- čed -- ník,
@@ -53,7 +52,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 64"
-    placet = "druhá polovina nezpěvná"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -62,10 +60,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f e d d \barMin
+    d4 f e f e d d
     c d e f d d \barMax
     f f g( a g) f( g) f \barMin
-    f f e d e d c \barMin
+    f f e d e d c \barMaior
     d( e f) e( f) d c d d \barFinalis
   }
   \addlyrics {
@@ -115,9 +113,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( g a) e d e e f f e d d e e \barMaior
-    f( g) a a g a( g) e e \barMin
-    f f f g f f( e) e \barFinalis
+    d4 d f e d c c \barMin f g a a g a a \barMaior
+    a( c) a g f g( f) d d \barMin
+    f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Své -- mu mi -- lo -- va -- né -- mu u -- čed -- ní -- ku Ja -- no -- vi
@@ -126,10 +124,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "E"
+    modus = "I"
+    differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "jinak"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -167,7 +164,7 @@
   \relative c' {
     \choralniRezim
     d4 c d f g f( d) d \barMin
-    f g a g f g( a) a g g \barMin
+    f g a g f g( a) a g g \barMaior
     a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
     c d e d \barFinalis
   }
@@ -182,7 +179,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "po _námi_ div. maior;
+    placet = "
     vzhledem k tomu, jak silný je to text, zaslouží si něco úsilí
     o co nejvýstižnější melodii"
     id = "rch-aben"
