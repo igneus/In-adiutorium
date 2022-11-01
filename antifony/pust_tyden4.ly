@@ -231,9 +231,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') a \barMin
-    a a c a g g a a g a bes a a \barMaior
-    f g a a g( a) g \barMin
+    c4 d d( a') a \barMin
+    a a a g f g a a g a bes a a \barMaior
+    a a g f g( a) g \barMin
     f g g e \barMaior
     d f e f g \barMin
     f g g f d c( d) d \barFinalis
@@ -252,7 +252,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "výrazný akcent na _jeho_ je neústrojný"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

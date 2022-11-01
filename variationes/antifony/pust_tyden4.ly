@@ -1085,10 +1085,42 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') a \barMin
     a a c a g g a a g a bes a a \barMaior
     f g a a g( a) g \barMin
+    f g g e \barMaior
+    d f e f g \barMin
+    f g g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- tec po -- znal,
+    že se je -- ho syn u -- zdra -- vil
+    prá -- vě v_tu chví -- li,
+    kdy mu Je -- žíš ře -- kl:
+    „Tvůj syn je živ“;
+    a u -- vě -- řil on
+    i všich -- ni v_je -- ho do -- mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "výrazný akcent na _jeho_ je neústrojný"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 d d( a') a \barMin
+    a a \mark\sipka a g f g a a g a bes a a \barMaior
+    \mark\sipka a a g f g( a) g \barMin
     f g g e \barMaior
     d f e f g \barMin
     f g g f d c( d) d \barFinalis
