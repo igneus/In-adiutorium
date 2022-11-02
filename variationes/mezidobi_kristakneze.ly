@@ -1307,7 +1307,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g \mark\sipka g g a g c( b) b \barMaior
     c c a( g) a g f \barMin
@@ -1326,6 +1326,29 @@
     % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
     % ale utrzek nesel samostatne pouzit.
     placet = "postup _všichni jedno_ je nezpěvný"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a g \mark\sipka b( a) a \barMaior
+    c \mark\sipka b g a g f \barMin
+    f \mark\sipka g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1419,6 +1442,72 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a g a( c) c \barMaior
+    d e d c( d) c c \barMin
+    a c b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a \barMaior
+    c b g a g f \barMin
+    d f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f g g( a) a \barMaior
+    c b g a g f \barMin
+    \mark\sipka f g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ať jsou všich -- ni jed -- no,
+    a -- by svět u -- vě -- řil,
+    že ty jsi mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1527,7 +1616,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e( a) a \barMin
     a a g f e d c d e e \barFinalis
@@ -1560,6 +1649,67 @@
     quid = "ant. dopoledne"
     modus = "I"
     differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( bes a) a \barMin
+    a a g f e c f e d d \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta
+    má -- me v_jed -- nom Du -- chu pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( bes a) a \barMin
+    f g a a g f e f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta
+    má -- me v_jed -- nom Du -- chu pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g a a g f e f d( c) c \barMin
+    d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta má -- me v_jed -- nom Du -- chu
+    pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}

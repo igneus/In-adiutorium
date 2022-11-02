@@ -206,9 +206,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a g c( b) b \barMaior
-    c c a( g) a g f \barMin
-    f f-! g a g g \barFinalis
+    g4 g g g a g b( a) a \barMaior
+    c b g a g f \barMin
+    f g a a g g \barFinalis
   }
   \addlyrics {
     Ot -- če, ať jsou všich -- ni jed -- no,
@@ -220,9 +220,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    % antifony/velikonoce_nedeleC.ly#viimag1 ma hodne podobny text,
-    % ale utrzek nesel samostatne pouzit.
-    placet = "postup _všichni jedno_ je nezpěvný"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -233,19 +230,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( a) a \barMin
-    a a g f e d c d e e \barFinalis
+    f g a a g f e f d( c) c \barMin
+    d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Skr -- ze Kris -- ta
-    má -- me v_jed -- nom Du -- chu pří -- stup k_Ot -- ci.
+    Skr -- ze Kris -- ta má -- me v_jed -- nom Du -- chu
+    pří -- stup k_Ot -- ci.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "IV"
-    differentia = "E"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
