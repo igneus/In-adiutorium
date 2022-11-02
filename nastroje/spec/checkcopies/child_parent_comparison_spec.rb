@@ -378,4 +378,35 @@ describe ChildParentComparison do
       ).to be_match
     end
   end
+
+  describe 'zacatek & konec' do
+    let(:fial) { 'parent_path#id?zacatek&konec' }
+
+    it 'match' do
+      expect(
+        described_class.new(
+          score(music: 'a a a a a   b b b   f f f f f', fial: fial),
+          score(music: 'a a a a a   c d e   f f f f f')
+        )
+      ).to be_match
+    end
+
+    it 'facatek fails' do
+      expect(
+        described_class.new(
+          score(music: 'a a a a a   b b b   f f f f f', fial: fial),
+          score(music: 'b b b b b   c d e   f f f f f')
+        )
+      ).not_to be_match
+    end
+
+    it 'konec fails' do
+      expect(
+        described_class.new(
+          score(music: 'a a a a a   b b b   f f f f f', fial: fial),
+          score(music: 'a a a a a   c d e   e e e e e')
+        )
+      ).not_to be_match
+    end
+  end
 end

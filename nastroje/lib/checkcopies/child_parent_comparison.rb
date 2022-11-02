@@ -34,6 +34,7 @@ class ChildParentComparison
     @parent = parent
 
     @fial = FIAL.parse @child.header['fial']
+    @fial_keys = Set.new(@fial.additional.keys)
 
     @logger = logger || Logger.new('/dev/null')
   end
@@ -41,12 +42,12 @@ class ChildParentComparison
   attr_reader :child, :parent
 
   def match?
-    if Set.new(@fial.additional.keys) < Set.new(%w(+aleluja -aleluja)) &&
+    if @fial_keys < Set.new(%w(+aleluja -aleluja)) &&
        child.header['modus'] != parent.header['modus']
       return false
     end
 
-    if Set.new(@fial.additional.keys) < Set.new(%w(+aleluja -aleluja zacatek)) &&
+    if @fial_keys < Set.new(%w(+aleluja -aleluja zacatek)) &&
        differentia_mismatch?
       return false
     end
@@ -55,11 +56,11 @@ class ChildParentComparison
       parts = @fial.additional['cast']
       if parts
         child_sections = normalized_child.split(/\\bar\w+/)
-        return parts.split(',').all? do |i|
+        return false unless parts.split(',').all? do |i|
           normalized_parent.include? child_sections[i.to_i - 1]
         end
       else
-        return normalized_parent.include? strip_wrappers(normalized_child)
+        return false unless normalized_parent.include? strip_wrappers(normalized_child)
       end
     end
 
@@ -79,7 +80,7 @@ class ChildParentComparison
         @logger.info "expected common beginning of size #{size}, found #{shared_size}"
       end
 
-      return shared_size >= size
+      return false unless shared_size >= size
     end
 
     if @fial.additional.has_key?('konec') ||
@@ -99,8 +100,10 @@ class ChildParentComparison
         @logger.info "expected common end of size #{size}, found #{shared_size}"
       end
 
-      return shared_size >= size
+      return false unless shared_size >= size
     end
+
+    return true if Set.new(%w(zacatek konec zaver cast)).intersect? @fial_keys
 
     normalized_parent == normalized_child ||
       (simple_copy? && both_lyrics_end_with_alleluia? && difference_in_last_bar_only?)
