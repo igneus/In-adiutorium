@@ -151,7 +151,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a a g a g f g a a \barMaior
+    g4 g g( a) g \barMin a g a g f g a a \barMaior
     c c c c d c b c a g a a4.( g) \barFinalis
   }
   \addlyrics {
@@ -164,7 +164,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "závěr dává smysl jen s přízvukem na _ten_ - zachytit v notaci"
     id = "ne4b-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -471,25 +470,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d f g g( a) g g( a) a \barMaior
-    a( g a g) f a( g) f g g \barMaior
-    d g g( f g) a( g) f e f d d \barMin
-    c d f( e c d) d \barFinalis
+    a4 g g( a) \barMin g f f( g) g \barMaior
+    a a g( f) f e f d( c) c \barMaior
+    d d f g a g f( g) f f \barMin
+    d f e( d c d) d \barFinalis
   }
   \addlyrics {
-    Bůh nám dal skr -- ze Kris -- ta schop -- nost
-    slou -- žit no -- vé smlou -- vě,
+    Bůh nám dal skr -- ze Kris -- ta
+    schop -- nost slou -- žit no -- vé smlou -- vě,
     kte -- rá ne -- spo -- čí -- vá v_li -- te -- ře,
     a -- le v_du -- chu.
   }
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D"
+    differentia = "a2"
     psalmus = ""
-    placet = "lépe"
     id = "ne8b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
