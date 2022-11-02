@@ -280,7 +280,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=24"
+    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=19"
     id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
