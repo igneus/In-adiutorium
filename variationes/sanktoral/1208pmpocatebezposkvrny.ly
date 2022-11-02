@@ -1294,10 +1294,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
     a( g) f a a g g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě má Bůh za -- lí -- be -- ní,
+    te -- be si vy -- vo -- lil.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    fial = "fial://commune/commune_svatazena.ly#1ne-a3?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c4. a d4 c b( g) g \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,

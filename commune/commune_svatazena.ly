@@ -62,9 +62,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
-    a( g) f a a g g \barFinalis
+    a g f g( a) a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,
@@ -77,7 +77,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
-    placet = "melisma na _tebe_ je nějak nepatřičné"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }

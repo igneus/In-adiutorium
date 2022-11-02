@@ -442,7 +442,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c4. a d4 c b( g) g \barMin
-    a( g) f a a g g \barFinalis
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě má Bůh za -- lí -- be -- ní,
