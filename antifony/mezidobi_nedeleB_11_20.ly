@@ -78,10 +78,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) a( g e) \barMin a g a g a( g) e \barMin
-    d c d e e f( g) a a \barMaior
-    g( a b) a \barMin g( a b) a a( e) \barMin
-    f( g) f( e) e \barFinalis
+    a4 a g a b g g( a) a \barMin
+    f g g f e d( e) d d \barMaior
+    a' g a( b c) a g( e) \barMin
+    f( g) e e \barFinalis
   }
   \addlyrics {
     Vl -- ny do -- rá -- že -- ly na loď
@@ -94,7 +94,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "_Vlny_ rozhodně jinak; navíc je antifona vícenásobně repetitivní a nesluší jí to"
     id = "ne12b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -103,10 +102,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) a \barMin a( b) a g g( a) a \barMin
-    a a g f e( d) e \barMaior
-    c d e( f) e \barMin
-    f f g g g f e d( e) e \barFinalis
+    a4 a a g a b( a) a \barMin
+    a a g f e e \barMaior
+    c d d( e) e \barMin
+    e f g a a g f d( e) e \barFinalis
   }
   \addlyrics {
     Je -- žíš po -- hro -- zil vět -- ru
@@ -119,7 +118,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "melisma na _Ježíš_ působí neúčelnou a nepěknou retardaci"
     id = "ne12b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
