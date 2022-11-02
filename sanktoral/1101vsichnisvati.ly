@@ -157,27 +157,20 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    d4( a') a \barMin a( g a) g( f) e \barMaior
-    d d d d e f g( bes a g) f( g) \barMaior
-    g( a g) f( e) d d d e c d d \barFinalis
+    d( f) f \barMin f( g) a f f( g) g \barMaior
+    a( g f) g g( f) \barMin d f f f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se;
-    ve spo -- le -- čen -- ství všech sva -- tých
-    o -- sla -- vuj -- me na -- še -- ho Bo -- ha.
+    Pojď -- me, klaň -- me se Bo -- hu,
+    chval -- me ho ve spo -- le -- čen -- ství všech sva -- tých!
   }
   \header {
-    % Vtipne je, ze me zneni, z rytmickych duvodu nahrazujici
-    % "chvalme" za "oslavujme", by mohlo vznaset narok,
-    % ze je o spetku vernejsim prekladem latinskeho originalu.
-    textus_approbatus = "Pojďme, klaňme se Bohu,
-    chvalme ho ve společenství všech svatých!"
     quid = "ant."
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "commune/commune_svatymuz.ly#invit1?zacatek=12"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -236,11 +229,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g) g g g( a g) g( a) a \barMin
-    a( b c) a b( c) a( g) g \barMin
-    e g a a \barMaior
-    a a a a g f e( d) \barMin
-    f d f f e e \barFinalis
+    a4 g( a) a a b( c) a( g) g \barMin
+    f g g a a
+    c b c( a) a \barMaior
+    a a g f e f e( d) \barMin
+    f g a f e e \barFinalis
   }
   \addlyrics {
     Svým sva -- tým jsi u -- ká -- zal
