@@ -36,7 +36,7 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin d a bes c d d \barMaior
-    d d f e f g g f \barMin
+    d d f e f g g f
     e( f) e d d \barMaior
     d d d( c) c( d) d f e d d \barFinalis
   }
@@ -196,16 +196,16 @@
 
     % R
     \neviditelna a
-    a4 a g( a) a \barMin c( d) c( b g) a \barMax
+    a4 g g( a) a \barMin c( d) c( b g) a \barMax
     f g a b c( a) g( a) a \barFinalis
     % V
     \neviditelna a
-    a4 a( d c d4.) a a4 b c c b( c a g) g \barMax
+    a4 a( d c d4.) a \barMin a4 b c c b( c a g) g \barMax
     % R
     \neviditelna a
     f g a b c( a) g( a) a \barFinalis
     % Slava
-    d4 d c( a) a \barMin g f( g a) a \barMin a c c b( c) a( g) g \barFinalis
+    d4 d c( a) a g f( g a) a \barMin a c c b( c) a( g) g \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- di -- ne, můj Bo -- že,_*
@@ -319,8 +319,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( f) f g( f) g( a) a \barMin c b c a4. a \barMaior
-    a4 \stemUp g( bes) a g f g f( d) d \barFinalis
+    f4 f g( f) g( a) a c b c a a \barMaior
+    g4 \stemUp g( bes) a g f g f( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- chraň mě
@@ -332,9 +332,8 @@
     textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "D2"
+    differentia = "f"
     psalmus = ""
-    placet = "není zlá, ale pravděpodobně by šla lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -367,7 +366,7 @@
     \choralniRezim
     d4 d d d( a') bes a( g) g \barMin
     g f g g( a) a g f e e \barMaior
-    f( d) d \barMin f e d d \barFinalis
+    f( d) d f e d d \barFinalis
   }
   \addlyrics {
     Bu -- deš -- -li u -- cho -- vá -- vat
