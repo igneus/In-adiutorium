@@ -337,3 +337,63 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin \mark\sipka a g a g( f d) d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta,_* prav -- da a ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g \barMin f g a f( e d) d
+    c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta,_* prav -- da a ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a \barMin g( a) b g g( a) a \barMin
+    g f e( d) e \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta,_* prav -- da a ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}

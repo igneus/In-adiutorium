@@ -1003,6 +1003,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1027,6 +1029,80 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d f \mark\sipka e f( g) \barMin
+    g f( g f) e d( c) \barMaior
+    d4 d d d \mark\sipka f e d c d( c) c \barMin
+    d d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d f e f( g) \barMin
+    g f( g f) e d( c) \barMaior
+    d4 d d d f e d \mark\sipka e d( c) c \barMin
+    d d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c d( f) \barMin
+    f g( a) g f( e d) \barMaior
+    f f f f e f d c d( c) c \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
