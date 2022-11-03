@@ -559,11 +559,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c( b) \barMin a g a( g) g \barMin
-    f g a( c) c b g a( g f g) g \barMaior
-    g g f e f f( g) g \barMaior
-    a a a( b c) d d( c) \barMin
-    b a g( a g) f( g) g \barFinalis
+    g4 g a g b( a) a \barMin
+    c c b g a g f( g) g \barMaior
+    f g a g f g( a) a \barMaior
+    c c b( c) a a \barMin
+    g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ne -- jsem ho -- den,
@@ -578,7 +578,6 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
-    placet = "_Pane_ určitě jinak; celá půjde lépe"
     id = "ne9c-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
