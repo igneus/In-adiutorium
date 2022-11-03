@@ -57,6 +57,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "spíš lépe - rušivé je snad hlavně jak všechny fráze začínají i končí (navíc často recitací) na d"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
