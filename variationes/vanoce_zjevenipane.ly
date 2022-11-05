@@ -1359,6 +1359,175 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a4. a \barMin
+    b4 c d c b c a a a \barMaior
+    b c b a g g \barMaior
+    f g g( a4.) a4 g f e e \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    placet = "myslím, že půjde lépe"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a a
+    b4 c d c b c a a a \barMin
+    \mark\sipka a c b a g g \barMaior
+    f g \mark\sipka a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4( b) a( b) a \barMin
+    b4 c d c b c a a a \barMin
+    a c b a g g \barMaior
+    f g a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) a( b) a \barMin
+    b4 c d c b c a a a \barMin
+    a c b a g g \barMaior
+    f g a a \mark\sipka g( a) g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e f) \barMin
+    f f g f e f d d d \barMin
+    d c a c d d \barMaior
+    f f e c f e d d \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e f) \barMin
+    f f g f e f d d d \barMin
+    d c a c d d \barMaior
+    \mark\sipka d d f d c e d d \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    d d c d e c d d d \barMin
+    d a d b c a( g) \barMaior
+    f g a a c b a a \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -344,6 +344,30 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( d c) c( d) d \barMin
+    \mark\sipka c b a g a( g) g \barMaior
+    f g a c b a c d e( d) d \barMin
+    d c a a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho krá -- lov -- ství
+    je krá -- lov -- ství věč -- né;
+    všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
+    a bu -- dou ho po -- slou -- chat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 117"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {

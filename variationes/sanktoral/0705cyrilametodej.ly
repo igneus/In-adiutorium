@@ -645,6 +645,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c c d c b c a a \barMaior
+    c c b a g a g \mark\sipka g f g a g g \barFinalis
+  }
+  \addlyrics {
+    By -- li vá -- že -- ní u svých sou -- čas -- ní -- ků
+    a za své -- ho ži -- vo -- ta si zís -- ka -- li chvá -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak % ZLOM
 
 \score {

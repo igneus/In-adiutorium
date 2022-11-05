@@ -1465,6 +1465,8 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1590,6 +1592,8 @@
   }
 }
 
+\markup\nadpisSkupiny "2b"
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1660,6 +1664,60 @@
     differentia = "G"
     psalmus = ""
     annus = "C"
+    id = "ne15c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin d( e) f d d \barMin
+    e d c c( d) d \barMaior
+    f g f e( d) c c \barMin
+    d c d( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem
+    a své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne30a-1ne-amag?zacatek"
+    id = "ne15c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin d( e) f d d \barMin
+    e d c c( d) d \barMaior
+    f g f e( d) c c \barMin
+    d c \mark\sipka f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem
+    a své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne30a-1ne-amag?zacatek"
     id = "ne15c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -671,6 +671,25 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f g g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "čtvrtek - ant."
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    piece = \markup\sestavTitulek
+    id = "ct"
+  }
+}
+
+\score {
   \relative c'' {
     \key f \major
     \choralniRezim
@@ -740,6 +759,25 @@
     differentia = "D"
     piece = "pátek"
     id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMin f g f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě_* ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "pátek - ant."
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 88"
+    piece = \markup\sestavTitulek
+    id = "pa"
   }
 }
 
@@ -817,6 +855,23 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin c d d( f) f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin f g f d d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
