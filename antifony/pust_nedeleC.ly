@@ -145,11 +145,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( a) a( g) g a a( c b) g a \barMaior
-    c c c d c b c a \barMin
-    g g a g f f \barFinalis
+    a4 a g f g( f e) f d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
   }
   \addlyrics {
     Z_ob -- la -- ku se o -- zval hlas:
@@ -158,10 +158,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V"
+    modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "melodie není pro modus V moc typická, půjde lépe"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

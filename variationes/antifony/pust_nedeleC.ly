@@ -514,6 +514,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( a) a( g) g a a( c b) g a \barMaior
     c c c d c b c a \barMin
@@ -596,6 +597,30 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g( f e) f d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj vy -- vo -- le -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

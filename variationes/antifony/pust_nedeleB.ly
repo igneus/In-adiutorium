@@ -410,6 +410,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d) d( f) f f e( g a) a \barMin a g( f) e( f) d d \barMax
     d4 d d d e( f) f e4.( c) \barMaior
@@ -432,6 +433,134 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g g( a) g g a f f( g) g \barMin
+    a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g g( a) g \mark\sipka f e f f( g) g \barMin
+    a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( a) g \mark\sipka f e f f( g) g \barMin
+    a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a a g( a) g f e f f( g) g \barMin
+    a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f g g g( a) g f e f \mark\sipka d( c) c \barMaior
+    d d d d d( f e) c d \barMax
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{3. neděle postní}
 
