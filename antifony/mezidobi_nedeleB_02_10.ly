@@ -298,10 +298,10 @@
   \relative c'' {
     \choralniRezim
     g4 f g( a) a \barMin
-    c c c d( c) a a4.( g) \barMax
-    g4 g( a) f( d) d \barMaior
-    f4.( g) \barMin
-    g4( a) g( f g) g \barFinalis
+    c b a g( a) g g \barMax
+    c c( d) c( b a) a \barMaior
+    c \barMin
+    a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, chceš -- -li,
@@ -315,7 +315,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "nepovedená"
     id = "ne6b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
