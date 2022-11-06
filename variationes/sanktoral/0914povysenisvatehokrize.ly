@@ -994,6 +994,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka a4 a a( c b d4.) c \barMin d4 d d( e) c c( d) d \barMaior
+    c c c b( a g) a( g) \barMin f( g) a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Slav -- ně zá -- ří sva -- té dře -- vo kří -- že,
+    na kte -- rém vi -- sel Spa -- si -- tel svě -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 c c( d c d e) d \barMin \mark\sipka c4 d d( e) c c( d) d \barMaior
     c c c b( a g) a( g) \barMin f( e f) g( a) f f( g) g \barFinalis
   }

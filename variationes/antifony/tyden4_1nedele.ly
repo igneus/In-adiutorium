@@ -1416,6 +1416,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a( c) c b a g g \barMin
+    g a \mark\sipka a a g f g( a g) g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Plň -- te své sli -- by Hos -- po -- di -- nu
+    a při -- ná -- šej -- te mu da -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -1592,6 +1614,30 @@
     d e d c a a \barMin
     c b \mark\sipka a g a( g) g \barMaior
     \mark\sipka f g a a a a g a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f g a a \mark\sipka g f g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
