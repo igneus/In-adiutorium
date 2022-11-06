@@ -1,0 +1,140 @@
+# coding: utf-8
+
+require 'erb'
+require_relative '../nastroje/fial'
+
+HourData = Struct.new(
+  :basename,
+  :title,
+  :subtitle,
+  :psalm_antiphons,
+  :short_responsory,
+  :gospel_antiphons
+) do
+  def all_chants
+    (psalm_antiphons +
+     [short_responsory] +
+     gospel_antiphons.values)
+      .compact
+    # TODO: add others
+  end
+
+  def lent?
+    false
+  end
+end
+
+# Constructs Rake tasks building a set of Divine Office booklets.
+class BaseBookletTasks
+  include Rake::DSL
+
+  def initialize(dir)
+    @dir = dir
+  end
+
+  def call
+    data
+      .collect(&method(:generate_source_task))
+      .collect {|data, tytex| build_task(data, tytex) }
+  end
+
+  def data
+    []
+  end
+
+  def generate_source_task(data)
+    outfile = "#{@dir}/#{data.basename}.tytex"
+    template = 'sablony/sesit.tytex.erb'
+
+    file outfile => [__FILE__, template] do
+      FileUtils.mkdir_p @dir
+      result = ERB.new(File.read(template)).result binding
+      File.write(outfile, result)
+    end
+
+    [data, outfile]
+  end
+
+  def build_task(data, tytex)
+    typographus = File.expand_path('../nastroje/typographus.rb', __dir__)
+
+    lytex = "#{@dir}/#{data.basename}.lytex"
+    tex = "#{@dir}/vystup/#{data.basename}.tex"
+    pdf = "#{@dir}/#{data.basename}.pdf"
+    all_source_files = data.all_chants.collect do |c|
+      File.expand_path '../' + FIAL.parse(c).path, __dir__
+    end
+
+    file lytex => [tytex] + all_source_files do
+      Dir.chdir(@dir) do
+        sh 'ruby', typographus, File.basename(tytex)
+      end
+    end
+
+    file tex => [lytex] do
+      Dir.chdir(@dir) do
+        sh 'lilypond-book', '--left-padding=0', '--output=vystup', '--pdf', File.basename(lytex)
+      end
+    end
+
+    file pdf => [tex] do
+      Dir.chdir(@dir + '/vystup') do
+        sh 'pdflatex', '-shell-escape', File.basename(tex)
+      end
+    end
+
+    pdf
+  end
+end
+
+class AdventTasks < BaseBookletTasks
+  def data
+    # TODO all Sundays
+    (1..3).flat_map do |sunday|
+      title = "#{sunday}. neděle adventní"
+      sunday_roman = sunday == 4 ? 'iv' : 'i' * sunday
+
+      [
+        HourData.new(
+          "advent_tyden#{sunday}_nedele_1ne",
+          title,
+          '1. nešpory',
+          (1..3).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-1ne-a#{i}" },
+          'advent_responsoria.ly#ne-ne',
+          %w(A B C).inject({}) do |result, i|
+            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag1"
+            result
+          end
+        ),
+        HourData.new(
+          "advent_tyden#{sunday}_nedele_rch",
+          title,
+          'ranní chvály',
+          (1..3).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-rch-a#{i}" },
+          'advent_responsoria.ly#ne-rch',
+          %w(A B C).inject({}) do |result, i|
+            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}ben"
+            result
+          end
+        ),
+        HourData.new(
+          "advent_tyden#{sunday}_nedele_2ne",
+          title,
+          '2. nešpory',
+          (1..2).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-2ne-a#{i}" },
+          'advent_responsoria.ly#ne-ne',
+          %w(A B C).inject({}) do |result, i|
+            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag2"
+            result
+          end
+        ),
+      ]
+    end
+  end
+end
+
+desc 'booklets for Advent Sundays'
+task :advent => AdventTasks.new('temporale/advent').call
+
+desc 'generate and build all known booklets'
+task default: %i(advent)

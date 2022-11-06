@@ -1,0 +1,78 @@
+\documentclass[a5paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.5cm, right=1cm, top=2cm, bottom=1cm]{geometry} % okraje stranky
+\usepackage[hidelinks]{hyperref} % hypertextove odkazy
+\usepackage{datetime} % formaty data
+\usepackage{lettrine} % inicialky
+\usepackage{fancyhdr} % hlavicky stranek
+
+\usepackage[T1]{fontenc}
+\usepackage{bookman}
+
+% Typographus config
+\setChantBasedir{../../../}
+\setPsalmsDir{../../../antifonar/zalmy}
+\setIncludes{../../../antifonar/spolecne_antifonar.ly, ../../../dilyresponsorii.ly}
+
+% Commands expected by Typographus
+\newenvironment{psalmodia}{}{}
+\newenvironment{psalmus}{}{}
+\newcommand{\titulusPsalmi}[2][]{%
+  \vspace{2mm}%
+  \begin{center}%
+    \textbf{#2}%
+  \end{center}%
+}
+\newcommand{\lectionaryYear}[1]{%
+  \begin{center}%
+    \textbf{#1}%
+  \end{center}%
+}
+
+\newcommand{\asterisk}{%
+\nobreak\hskip \fontdimen1\font plus \fontdimen2\font minus \fontdimen1\font
+* }
+\newcommand{\flex}{%
+\nobreak\hskip \fontdimen1\font plus \fontdimen2\font minus \fontdimen1\font
+\dag\mbox{} }
+\newcommand{\psalmStrophe}{\hspace*{0pt}\hfill{}--}
+\newcommand{\zalmVersUpozorneni}[1]{}
+
+\begin{document}
+
+\begin{center}
+  {\Large <%= data.title %>}
+
+  \vspace{3mm}
+  \textbf{<%= data.subtitle %>}
+\end{center}
+\vspace{10mm}
+
+\simpleScore[remove_block=<%= data.lent? ? 'nepust' : 'pust' %>,remove_markups]{zakladni_napevy.ly#zacatek-nedele}
+
+<% data.psalm_antiphons.each do |a| %>
+  \antiphonWithPsalm{<%= a %>}
+<% end %>
+
+\responsory{<%= data.short_responsory %>}
+
+<% data.gospel_antiphons.each_pair do |label, fial| %>
+  \lectionaryYear{<%= label %>}
+
+  \antiphon{<%= fial %>}
+
+  \psalm{<%= fial.include?('ben') ? 'Benedictus' : 'Magnificat' %>}
+<% end %>
+
+\simpleScore{zakladni_napevy.ly#otcenas}
+
+Předsedá-li slavení kněz nebo jáhen:
+
+\simpleScore{zakladni_napevy.ly#konec-pozehnani}
+\simpleScore{zakladni_napevy.ly#konec-propusteni}
+
+Není-li přítomen kněz ani jáhen nebo modlí-li se někdo sám:
+
+\simpleScore{zakladni_napevy.ly#konec-prosba}
+
+\end{document}
