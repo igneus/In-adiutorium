@@ -83,6 +83,11 @@ class BaseBookletTasks
       end
     end
 
+    # should I want to build the booklets one by one
+    short = File.basename(pdf).split('.')[0]
+    desc "#{data.title} #{data.subtitle}"
+    task short => pdf
+
     pdf
   end
 end

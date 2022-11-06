@@ -23,6 +23,7 @@ running LilyPond over them
 * .ly files in other directories are included in other ones and shouldn't be compiled themselves
 * you can build all sheets at once by running `rake build` in the root directory
 * in directory [antifonar](./antifonar) volumes of the Czech antiphonal may be compiled by running rake tasks (run `rake -T` to see what is available)
+* in directory [sesity](./sesity) run `rake` to compile all the booklets at once or `rake -T` to see how to build them one by one
 
 The lilypond sheets often contain the author's personal
 notes concerning future development.
@@ -43,7 +44,8 @@ LilyPond 2.19.x is currently being used in development.
 
 - `/` chants from the ordinary, psalter and proper of seasons (temporale)
 - `/antifony`, `/invitatoria` partial files for some of the larger materials in `/`
-- `/antifonar` books and booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
+- `/antifonar` books and larger booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
+- `/sesity` booklets for Lauds and Vespers of Sundays and major feasts (one hour per booklet, all proper chants and common tones included)
 - `/commune` chants from the common of saints
 - `/sanktoral` chants from the proper of saints
 - `/spolecne` shared LilyPond definitions
