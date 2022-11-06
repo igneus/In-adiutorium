@@ -974,6 +974,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"5. neděle"}}
 
 \score {
@@ -1003,10 +1005,115 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a c b a( g) f( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a c b a( g) f( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
+    \mark\sipka d f g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a c b a( g) f( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
+    d f g \mark\sipka g( a g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a c b a( g) f( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
+    d f g \mark\sipka g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d f g f4.( e) \barMin
     e4 f( e d) e c4.( d) \barMaior
@@ -1102,10 +1209,60 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d e c d \barMin
+    d c( d c) b a( g) \barMaior
+    a c c c d e d c d( c) c \barMin
+    c b a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f( g) g a f g \barMin
+    f g( a) a g \barMaior
+    c c c c c c d b c a \barMin
+    g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a a( g f) g( f) g4.( a) \barMin
@@ -1124,6 +1281,53 @@
     differentia = "a"
     psalmus = ""
     placet = "melodie _kázal_ tady působí kýčovitě"
+    id = "ne5b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g g \barMin
+    f g bes a g( a) a \barMaior
+    a a( g a4.) g \barMin
+    f4 d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- chá -- zel
+    ce -- lou Ga -- li -- le -- jí
+    a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "ne5b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) g g \barMin
+    f g bes a g( a) a \barMaior
+    a \mark\sipka g( a g e) e \barMin
+    f4 d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- chá -- zel
+    ce -- lou Ga -- li -- le -- jí
+    a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
     id = "ne5b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1633,6 +1837,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a g a g \barMin a a g( e) e f e f d( e) e \barMaior
     f( g a) b c c \barMin c c( b g) a( g) g \barMin f e d d( e) e \barFinalis
@@ -1646,10 +1851,102 @@
     modus = "III"
     differentia = "b"
     psalmus = ""
+    placet = "stupnice na _Mladé víno_ je nepěkná, i jinde půjde lépe"
     id = "ne8b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g a g \barMin f g g( a) a a g f g( f) f \barMaior
+    f a c( d) c c b( c) a a \barMin g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
+    Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "ne8b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g a g \barMin f g g( a) a a g f g( f) f \barMaior
+    f a c( d) c c \mark\sipka d( f e) d c( a) \barMin g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
+    Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "ne8b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g a g \barMin f g g( a) a a g f g( f) f \barMaior
+    f a c( d) c c d( f e) d c( a) \barMin \mark\sipka g f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
+    Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "ne8b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a g g \barMin f g g( a) a a g f g( f) f \barMaior
+    g g f( e d c) c \barMin d c( d) d( f) f \barMin g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
+    Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne8b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"9. neděle"}}
 

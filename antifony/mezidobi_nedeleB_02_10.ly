@@ -243,12 +243,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d c( d) d f g f4.( e) \barMin
-    e4 f( e d) e c4.( d) \barMaior
-    d4 d d d c d c a c( d) d \barMin
-    d e f d( c d) d \barFinalis
+    g4 g f( g) g a f g \barMin
+    f g( a) a g \barMaior
+    c c c c c c d b c a \barMin
+    g f a a( g) g \barFinalis
   }
   \addlyrics {
     Br -- zo rá -- no Je -- žíš vstal
@@ -258,10 +258,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "druhou polovinu lépe"
     id = "ne5b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -270,11 +269,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    a4 a a( g f) g( f) g4.( a) \barMin
-    g4 bes( c) bes g g( a) a \barMaior
-    a a( g f g4.) d \barMin
-    f4 f g f d d \barFinalis
+    a4 a g( a) g g \barMin
+    f g bes a g( a) a \barMaior
+    a g( a g e) e \barMin
+    f4 d f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš pro -- chá -- zel
@@ -284,9 +282,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = ""
-    placet = "melodie _kázal_ tady působí kýčovitě"
     id = "ne5b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -491,8 +488,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a g a g \barMin a a g( e) e f e f d( e) e \barMaior
-    f( g a) b c c \barMin c c( b g) a( g) g \barMin f e d d( e) e \barFinalis
+    a4 a g a g g \barMin f g g( a) a a g f g( f) f \barMaior
+    g g f( e d c) c \barMin d c( d) d( f) f \barMin g a g f f \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
@@ -502,10 +499,9 @@
     textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
     ale mladé víno se nalévá do nových měchů."
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "b"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "stupnice na _Mladé víno_ je nepěkná, i jinde půjde lépe"
     id = "ne8b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
