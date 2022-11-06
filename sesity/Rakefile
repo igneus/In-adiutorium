@@ -65,7 +65,7 @@ class BaseBookletTasks
       File.expand_path '../' + FIAL.parse(c).path, __dir__
     end
 
-    file lytex => [tytex] + all_source_files do
+    file lytex => [tytex, 'typographus_setup.yml'] + all_source_files do
       Dir.chdir(@dir) do
         sh 'ruby', typographus, File.basename(tytex)
       end

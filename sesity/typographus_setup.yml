@@ -1,0 +1,8 @@
+typographus:
+  doxology: full
+  psalm_tones: true
+psalmpreprocessor:
+  output:
+    lettrine: false
+splitscores:
+  remove_headers: false

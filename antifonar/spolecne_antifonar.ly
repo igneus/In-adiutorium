@@ -28,6 +28,20 @@ layoutNoIndent = \layout {
   indent = 0
 }
 
+layoutPsalmodie = \layout {
+  \layoutNoIndent
+
+  system-count = 1
+
+  \context {
+    \Voice
+    % zavorky nad osnovou pro vyznaceni klouzavych akcentu
+    \consists "Horizontal_bracket_engraver"
+    \override HorizontalBracket.direction = #UP
+    \override HorizontalBracket.bracket-flare = #'(0.0 . 0.0)
+  }
+}
+
 myStaffSize = #16
 #(set-global-staff-size myStaffSize)
 
@@ -64,6 +78,12 @@ choralniRezim = {
 
   % vzdycky vypsat becka
   \accidentalStyle forget
+}
+
+choralniRezimPsalmodie = {
+  \choralniRezim
+  \stemDown
+  \slurDown
 }
 
 % Vytvori hlavicku "piece" pro antifonu
@@ -128,6 +148,9 @@ neviditelna = #(define-music-function (note)
   #})
 
 sestavTitulek = \markup {}
+sestavTitulekBezZalmu = \markup {}
+sestavTitulekResp = \markup {}
+sestavTitulekRespII = \markup {}
 
 % oznacuje volitelne aleluja na konci
 rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
