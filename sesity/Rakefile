@@ -107,7 +107,7 @@ class AdventTasks < BaseBookletTasks
           (1..3).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-1ne-a#{i}" },
           'advent_responsoria.ly#ne-ne',
           %w(A B C).inject({}) do |result, i|
-            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag1"
+            result["cyklus #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag1"
             result
           end
         ),
@@ -118,7 +118,7 @@ class AdventTasks < BaseBookletTasks
           (1..3).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-rch-a#{i}" },
           'advent_responsoria.ly#ne-rch',
           %w(A B C).inject({}) do |result, i|
-            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}ben"
+            result["cyklus #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}ben"
             result
           end
         ),
@@ -129,7 +129,7 @@ class AdventTasks < BaseBookletTasks
           (1..2).collect {|i| "antifony/advent_tyden#{sunday}.ly#ne-2ne-a#{i}" },
           'advent_responsoria.ly#ne-ne',
           %w(A B C).inject({}) do |result, i|
-            result["rok #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag2"
+            result["cyklus #{i}"] = "antifony/advent_nedele#{i}.ly##{sunday_roman}mag2"
             result
           end
         ),
