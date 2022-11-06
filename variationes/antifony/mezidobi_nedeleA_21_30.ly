@@ -4,8 +4,17 @@
 
 \markup {\nadpisDen {"21. neděle"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Tu es Christus, Fílius Dei vivi.
+    \bold{Et tu beátus, Simon Bar Iona.}
+  }
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e c b( a) \barMin
     b-- b a b g g \barFinalis
@@ -23,6 +32,91 @@
     placet = "transponovaná o sekundu dolů funguje i jako modus V s b -
     srov. také závěrečnou kadenci, alespoň u mě pro modus V typickou;
     snad právě proto mi v modu VII moc nesedí a jsem pro předělání"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d bes a( g) \barMin
+    a-- a g a f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    \mark\sipka a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d( e) d( c) c \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
     id = "ne21a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

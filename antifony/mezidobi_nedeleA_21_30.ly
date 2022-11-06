@@ -7,8 +7,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d e c b( a) \barMin
-    b-- b a b g g \barFinalis
+    c4 c d( e) d( c) c \barMin
+    a a c b g g \barFinalis
   }
   \addlyrics {
     Ty jsi Me -- si -- áš,
@@ -16,13 +16,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
-    placet = "transponovaná o sekundu dolů funguje i jako modus V s b -
-    srov. také závěrečnou kadenci, alespoň u mě pro modus V typickou;
-    snad právě proto mi v modu VII moc nesedí a jsem pro předělání"
     id = "ne21a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
