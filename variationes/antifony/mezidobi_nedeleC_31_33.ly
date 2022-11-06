@@ -387,6 +387,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( a' bes a) a \barMin
     g( a) f e f d d \barFinalis
@@ -449,10 +450,159 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g4.) g \barMin
+    f4( d) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a( g) f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    c b g \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    \mark\sipka c( b) g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    \mark\sipka c( d) c b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    \mark\sipka b c b g g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vzkří -- sí
+    k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c c \barMin a( c) c c g g \barMaior
     a a a a g f g a a( g) g \barFinalis
@@ -475,6 +625,73 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a a( c) c c \barMin a( c) c \mark\sipka b g g \barMaior
+    a a a a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
+    ne -- bu -- dou se že -- nit a -- ni vdá -- vat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c c \barMin c( d) e c c( d) d \barMaior
+    d d c b a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
+    ne -- bu -- dou se že -- nit a -- ni vdá -- vat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin c( b) a b a( g) g \barMaior
+    a a g f g( a) a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
+    ne -- bu -- dou se že -- nit a -- ni vdá -- vat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     g4 a( c) c b a b a \barMin g a a( c) c( d) \barMaior
     c c b( g) g \barMin a( g f) a a g g \barFinalis
   }
@@ -492,6 +709,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a g f g( a) a \barMin c c b( c a) a \barMaior
+    c c b( a g) g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- ní Bo -- hem mrt -- vých, a -- le ži -- vých,
+    ne -- boť všich -- ni ži -- jí pro ně -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne32c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"33. neděle"}}
 

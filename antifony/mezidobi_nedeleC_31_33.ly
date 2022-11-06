@@ -71,10 +71,10 @@
 \markup {\nadpisDen {"32. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4 d d( a' bes a) a \barMin
-    g( a) f e f d d \barFinalis
+    d4 b d( e f d) d \barMin
+    c b g a g g \barFinalis
   }
   \addlyrics {
     Bůh nás vzkří -- sí
@@ -82,12 +82,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "C"
     id = "ne32c-1ne-amag"
-    placet = "r - banalni"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -95,8 +94,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a( c) c c \barMin a( c) c c g g \barMaior
-    a a a a g f g a a( g) g \barFinalis
+    d4 b d( e) d d \barMin c( b) a b a( g) g \barMaior
+    a a g f g( a) a c b g g \barFinalis
   }
   \addlyrics {
     Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
@@ -104,8 +103,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "C"
     id = "ne32c-rch-aben"
@@ -116,8 +115,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a( c) c b a b a \barMin g a a( c) c( d) \barMaior
-    c c b( g) g \barMin a( g f) a a g g \barFinalis
+    g4 a a g f g( a) a \barMin c c b( c a) a \barMaior
+    c c b( a g) g f a a g g \barFinalis
   }
   \addlyrics {
     Bůh ne -- ní Bo -- hem mrt -- vých, a -- le ži -- vých,
