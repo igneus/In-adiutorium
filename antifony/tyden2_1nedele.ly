@@ -68,6 +68,7 @@ tIInedeleInespAntIII = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "_koleno_ jaksi drhne"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
   }
