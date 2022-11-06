@@ -509,7 +509,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c a) c( d) d d( f) d c f( e) d \barMaior
     d( f g f) f( d c) \barMin a c c( d) d \barFinalis
@@ -532,6 +532,30 @@ ale na diferenci žalmového nápěvu?}
     \choralniRezim
     d4( c a) c( d) d d( f) d c f( e) d \barMaior
     d( f g f) f( d c) \barMin a c \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Zje -- vil se Spa -- si -- tel svě -- ta:
+    pojď -- me, kla -- něj -- me se!
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "invitatorium"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (S cesurou po _Zjevil se_ jsem to zpíval snad odjakživa.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c a) c( d) d \mark\sipka \barMin d( f) d c f( e) d \barMaior
+    d( f g f) f( d c) \barMin a c d d \barFinalis
   }
   \addlyrics {
     Zje -- vil se Spa -- si -- tel svě -- ta:
@@ -2896,6 +2920,7 @@ ale na diferenci žalmového nápěvu?}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 a c b c d d b a g \barMaior
       a a a f g
@@ -2933,6 +2958,53 @@ ale na diferenci žalmového nápěvu?}
       quid = "ant. k Benedictus"
       modus = "VI"
       differentia = "F"
+      psalmus = ""
+      id = "10-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c d( e) d d c( a) b a g g \barMaior
+      a a a g f
+      g a g g \barFinalis
+    }
+    \addlyrics {
+      Všech -- ny ná -- ro -- dy při -- jdou z_da -- le -- ka
+      se svý -- mi da -- ry.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c d d \barMin
+      c( d) e( c) d d d \barMaior
+      d c b a( g) a( g) \barMin
+      f( g) a( c) a a \barFinalis
+    }
+    \addlyrics {
+      Všech -- ny ná -- ro -- dy
+      při -- jdou z_da -- le -- ka
+      se svý -- mi da -- ry.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV alt"
+      differentia = "A"
       psalmus = ""
       id = "10-aben"
       piece = \markup {\sestavTitulekBezZalmu}

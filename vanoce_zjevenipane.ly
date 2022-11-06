@@ -153,8 +153,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c a) c( d) d d( f) d c f( e) d \barMaior
-    d( f g f) f( d c) \barMin a c c( d) d \barFinalis
+    d4( c a) c( d) d \barMin d( f) d c f( e) d \barMaior
+    d( f g f) f( d c) \barMin a c d d \barFinalis
   }
   \addlyrics {
     Zje -- vil se Spa -- si -- tel svě -- ta:
@@ -165,7 +165,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "invitatorium"
-    placet = "zaslouží poštelovat"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -797,11 +796,11 @@
   \markup {\nadpisDen {10. ledna}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 a c b c d d b a g \barMaior
-      a a a f g
-      a g f f \barFinalis
+      c4 c d( e) d d c( a) b a g g \barMaior
+      a a a g f
+      g a g g \barFinalis
     }
     \addlyrics {
       Všech -- ny ná -- ro -- dy při -- jdou z_da -- le -- ka
@@ -810,10 +809,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "V"
-      differentia = "a"
+      modus = "VII"
+      differentia = "c"
       psalmus = ""
-      placet = "zejm. druhá část je hrozná"
       id = "10-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
