@@ -417,19 +417,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    g4 g g f4.( g) \barMin
-    a4 bes c bes a bes( g) g( f) f \barMaior
-    f f f( g) g( d) d4 d e( c) c( d) d \barMax
-
-    d c d( f) f g( f g) g4.( a) \barMin
-    a4 a( g) f e f d d \barFinalis
+    g4 f g g( a) \barMin
+    a a a g f g( a) a( g) g \barMaior
+    a a g a g f e( f) d( c) c \barMaior
+    d d c d d( f) f \barMin
+    f g a f e c( d) d \barFinalis
   }
   \addlyrics {
     O -- chr -- nu -- lý,
     kte -- ré -- ho Kris -- tus u -- zdra -- vil,
     vzal své le -- hát -- ko a o -- de -- šel,
-
     tak -- že všich -- ni žas -- li
     a ve -- le -- bi -- li Bo -- ha.
   }
@@ -438,7 +435,6 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "lépe"
     id = "ne7b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
