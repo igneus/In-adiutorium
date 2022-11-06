@@ -423,6 +423,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b \mark\sipka c a g g \barMin
+    a a g f g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b \mark\sipka g a c b \barMaior
+    c c a g a g f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 tIInedeleInespResp = \score {

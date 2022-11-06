@@ -3200,6 +3200,29 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a c( d) e( d) d \barMaior
+      d e( d) c( d) c \barMin
+      c c c \mark\sipka b( c) a a
+      g f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisDen {11. ledna}}

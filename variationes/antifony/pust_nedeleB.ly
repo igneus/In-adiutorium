@@ -586,6 +586,29 @@
   }
 }
 
+\markup{
+  (Varianta schovaná v původní verzi v komentáři.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a b( c) c \barMaior
+    d e d c b a g a c b a( b) a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Ne -- dě -- lej -- te z_do -- mu mé -- ho Ot -- ce trž -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -2543,6 +2543,29 @@
   \relative c' {
     \choralniRezim
     \key f \major
+    \mark\sipka c4 d e( f d) c( d) d \barMin \mark\sipka c d d( a') a bes( c) bes( a) a \barMaior
+    a( bes) a g( a) a \barMin
+    a g f g( a) g g g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a by -- la vza -- ta do ne -- be;
+    ra -- duj -- te se,
+    pro -- to -- že kra -- lu -- je s_Kris -- tem na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
     d4( c) d e( f) g( f) d( c) \barMin d d e( a) a bes( c) bes( a) a \barMax
     \mark\sipka a( g) bes a( g) g \barMaior
     a g f g( a) g g g( a) f e d d \barFinalis

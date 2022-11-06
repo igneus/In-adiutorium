@@ -1319,6 +1319,66 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g( a) a \barMin b c a g a g f \barMaior
+    c' b c a \barMin g f \mark\sipka g a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c c( d) d \barMin c b a b a g g \barMaior
+    c b c a \barMin g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) d \barMin c d e c d d d \barMaior
+    d c b a( g) \barMin a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c( d) d \barMin c d e c d d d \barMaior
     a( d) b c a( g) \barMin f g a c( b a) a \barFinalis
   }
@@ -1382,6 +1442,26 @@
     \choralniRezim
     d4 b d( e) d \barMin c b a b a g g \barMaior
     a g f g( a) \barMin \mark\sipka a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d \barMin c b a b a g g \barMaior
+    a g f g( a) \barMin a c b \mark\sipka g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,

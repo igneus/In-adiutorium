@@ -2498,6 +2498,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     \key f \major
     % R
@@ -2547,6 +2548,40 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     % R
     \neviditelna a
     g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,_*
+    o -- sla -- vuj -- te je -- ho jmé -- no.
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response o -- sla -- vuj -- te je -- ho jmé -- no.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f f \barMin
+    f f f f g f g( a) a( g) \barMax
+    \mark\sipka g f g( a) g \barMin f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a a g( a) g \barMin g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g \barMin f( d) f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

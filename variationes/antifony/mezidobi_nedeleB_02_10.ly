@@ -1354,6 +1354,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g a \barMin
+    a g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka má moc
+    od -- pouš -- tět na ze -- mi hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne7b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
