@@ -174,6 +174,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( g a) a( b) a a a( b) a g( f) e( d) \barMaior
+    c d( e) e \mark\sipka f( g) f e d e e \barFinalis
+  }
+  \addlyrics {
+    Po -- žá -- dal jsem_* své -- ho Ot -- ce,
+    a dal mi v_ma -- je -- tek ná -- ro -- dy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 2"
+    fial = "velikonoce_velikonocnioktav.ly#po-mc-a2?zacatek=19"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
