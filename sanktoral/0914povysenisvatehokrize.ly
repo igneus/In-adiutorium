@@ -121,9 +121,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d a' a f( g a) a( g a) \barMin
-    a a( c g) a( g) f \barMaior
-    g g f( e d e) e( d) \barMin d( f) d c( d) d \barFinalis
+    d4 c f g f( a) a \barMin
+    a a( b c) a a \barMaior
+    g f e( f d) d e d c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel tr -- pět
@@ -135,7 +135,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_do_ odsadit"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

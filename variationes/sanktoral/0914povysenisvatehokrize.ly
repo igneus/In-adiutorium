@@ -382,6 +382,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d a' a f( g a) a( g a) \barMin
     a a( c g) a( g) f \barMaior
@@ -464,6 +465,29 @@
     a vstát z_mrt -- vých,
     a tak ve -- jít
     do své slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a( b c) a a \barMaior
+    g f \mark\sipka e( f d) d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel tr -- pět
+    a vstát z_mrt -- vých,
+    a tak ve -- jít do své slá -- vy.
   }
   \header {
     quid = "ant. k Magnificat"
