@@ -4119,6 +4119,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 116-II"
+    placet = "_Vítězně_ by možná mohlo znít méně chcíple a více vítězně"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
