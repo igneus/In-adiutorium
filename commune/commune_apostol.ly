@@ -13,12 +13,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    d d c( d) d e( f g) g( a) g g f g g( a) a \barMaior
-    a a( bes a) a( bes) a g g( a) a \barMin
-    a a g( a g) f e f d d \barFinalis
+    d4 d c d f g f e d c d d \barMaior
+    d f e d e d( c) c \barMin
+    a c d d e d c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Je -- žíš k_so -- bě po -- vo -- lal své u -- čed -- ní -- ky
@@ -29,10 +28,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 117"
-    placet = "bída"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
