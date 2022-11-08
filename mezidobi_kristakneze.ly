@@ -277,11 +277,11 @@
   \relative c'' {
     \choralniRezim
     c4 c c c( d c) \barMin
-    c c b a g g a g f g( a g) g \barMaior
+    c c b a g g f g a a( g) g \barMaior
     f g a g( a) a \barMin
     b c a g a g f \barMaior
-    g g a g a a g g f a c( d c) c \barMin
-    b a g( a) g \barFinalis
+    g g a g a a c c b a g( a g) g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Kaž -- dé -- mu z_nás
@@ -296,7 +296,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "nápadně a nelibě moc torculů"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

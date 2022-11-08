@@ -1897,7 +1897,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c( d c) \barMin
     c c b a g g a g f g( a g) g \barMaior
@@ -1919,6 +1919,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "nápadně a nelibě moc torculů"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1926,6 +1927,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c c( d c) \barMin
     c c b a g g \mark\sipka f g a a( g) g \barMaior
