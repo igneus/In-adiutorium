@@ -4128,6 +4128,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c( b c) a( g) g \mark\sipka \barMin a g f g g( a) a( g) g \barMaior
+    \mark\sipka a g a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c( e d) c( d) d \barMin c b a g a g g \barMaior
     f( a) a \barMin c b a g a g g \barFinalis
   }
@@ -4290,8 +4310,68 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4( g a) a( g) g  \barMin a g f g g( a) a( g) g \barMaior
+    f g a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g a) a( g) g  \barMin \mark\sipka f g a a g( a) a( g) g \barMaior
+    f g a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4( b c) c( d) d \barMin c b a g a g g \barMaior
     f g a c b a g a a \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g a) a( g) g  \barMin f g a a b( c) a a \barMaior
+    c a c d c b g a a \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
