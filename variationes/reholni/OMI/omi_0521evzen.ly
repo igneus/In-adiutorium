@@ -1,7 +1,7 @@
 \version "2.19.32"
 
 \include "../../spolecne.ly"
-%\include "../../spolecne/reholni.ly"
+\include "../../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
 
 \header {
