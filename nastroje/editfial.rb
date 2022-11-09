@@ -9,7 +9,7 @@ def grep_line_number(grep_output_line)
 end
 
 def score_id_line_number(file_path, score_id)
-  grep_line_number `grep --line-number --max-count=1 'id = "#{score_id}"' #{file_path}`
+  grep_line_number `grep --no-messages --line-number --max-count=1 'id = "#{score_id}"' #{file_path}`
 end
 
 def edit_fial(fial_str, variationes: false)
