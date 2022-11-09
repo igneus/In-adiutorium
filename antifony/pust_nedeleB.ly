@@ -209,7 +209,7 @@
     psalmus = ""
     id = "iiiben"
     fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
-    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    fial = "pust_triduum.ly#so-nesp-ant3?cast=4,6"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
