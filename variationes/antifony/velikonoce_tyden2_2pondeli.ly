@@ -198,12 +198,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e( a) \barMin a b a g a g( e) e \barMaior
     e \mark\sipka f e d( e) d d \barMin
     c d e f e d f e e \barMaior
     \mark\sipka a g f( g f) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, dej,_* ať po -- zná -- me tvé skut -- ky
+    a vy -- pra -- vu -- je -- me
+    o tvých po -- di -- vu -- hod -- ných či -- nech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Sir 36"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 \mark\sipka g a a b a g a g( e) e \barMaior
+    e f e d( e) d d \barMin
+    c d e f e d f e e \barMaior
+    a g f( g f) e \barFinalis
   }
   \addlyrics {
     Bo -- že, dej,_* ať po -- zná -- me tvé skut -- ky

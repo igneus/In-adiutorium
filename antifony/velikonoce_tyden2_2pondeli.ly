@@ -32,7 +32,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( a) \barMin a b a g a g( e) e \barMaior
+    e4 g a a b a g a g( e) e \barMaior
     e f e d( e) d d \barMin
     c d e f e d f e e \barMaior
     a g f( g f) e \barFinalis
