@@ -117,7 +117,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "antifony/advent_tyden2.ly#ut-amag?cast"
+    fial = "antifony/advent_tyden2.ly#ut-amag?zacatek=27"
     placet = "závěr lépe"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
