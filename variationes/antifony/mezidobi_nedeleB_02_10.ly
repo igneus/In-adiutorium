@@ -1578,6 +1578,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f e f d( c) \barMin
+    d e f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka má moc
+    od -- pouš -- tět na ze -- mi hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne7b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2037,6 +2057,24 @@ o slabiku později.}
   \relative c' {
     \choralniRezim
     d4 c d d d f( g) g g a f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f e( f) d c a c d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.

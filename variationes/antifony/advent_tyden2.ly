@@ -1190,6 +1190,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( c d) \barMin f f f e c e( f) d d \barMaior
+    d( a' bes) a a c a g( a) a \barMaior
+    a g f g f( d) d c d e d d \barFinalis
+  }
+  \addlyrics {
+    Hlas
+    vo -- la -- jí -- cí -- ho na pouš -- ti:
+    Při -- prav -- te ces -- tu Pá -- nu,
+    vy -- rov -- nej -- te stez -- ky na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa 2. týdne}}

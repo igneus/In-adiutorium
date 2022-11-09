@@ -1210,6 +1210,77 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 b a g g a g f g( a) g g \barMaior
+    a a( c) b c a g f g a \barMin
+    c b c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
+    váš ne -- bes -- ký O -- tec pře -- ce ví,
+    co všech -- no po -- tře -- bu -- je -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g g a g f g( a) g g \barMaior
+    a a( c) \mark\sipka c c d c b c a( g) \barMin
+    a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
+    váš ne -- bes -- ký O -- tec pře -- ce ví,
+    co všech -- no po -- tře -- bu -- je -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g g a g f g( a) g g \barMaior
+    \mark\sipka a c b c d c b c a( g) \barMin
+    a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
+    váš ne -- bes -- ký O -- tec pře -- ce ví,
+    co všech -- no po -- tře -- bu -- je -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c b( c) a a d( c) b a a a \barMin
     f g a c( d) c c( d) d \barMaior
     d e d c( b) a a \barMin f g a b( c a) g g \barFinalis

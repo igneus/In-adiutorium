@@ -631,6 +631,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d d c( d) d \barMin e( f) d \barMaior
+    f g a g f( e) d( c) \barMin
+    d c d( f) e c d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus, náš Pán,
+    je ten, kte -- rý při -- šel
+    skr -- ze vo -- du a krev.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "6aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin

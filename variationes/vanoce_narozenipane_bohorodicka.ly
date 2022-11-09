@@ -805,6 +805,90 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      \mark\sipka c( d) c b( a) g a( g) f( g) g \barMaior
+      g g f e d d f g g( a) a \barMaior
+      c( d) c b( a g) \barMin
+      a f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      c( d) c b( a) g a( g) f( g) g \barMaior
+      g g f e d d f g g( a) a \barMaior
+      \mark\sipka c c b( a g) \barMin
+      a f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      c( d) c b( a) g a( g) f( g) g \barMaior
+      g g f e d d f g g( a) a \barMaior
+      c c \mark\sipka b( c a) \barMin
+      g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {

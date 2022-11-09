@@ -1368,6 +1368,52 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c e d c d \barMin
+      d e f f( g) g \barMaior
+      a g f d d c e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 96"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c e d c d \barMin
+      d e f f( g) g \barMaior
+      a g f d d \mark\sipka f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 96"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
