@@ -2387,6 +2387,58 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka d4( e) c d( e f) \barMin
+      g f g( a) g f g g \barMax
+      a a a g a g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka d4 d d( e f) \barMin
+      g f g( a) g f g g \barMax
+      a a a g a g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {

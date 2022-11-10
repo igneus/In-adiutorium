@@ -1751,6 +1751,28 @@
   \score {
     \relative c'' {
       \choralniRezim
+      a4 a a a a b( c) a b a g g( a) a( g) g \barMaior
+      a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
+      \mark\sipka f( g) g( a) a c b g( a) a \barFinalis
+    }
+    \addlyrics {
+      Zá -- stu -- py, kte -- ré při -- šly na svát -- ky, vo -- la -- ly:
+      Po -- žeh -- na -- ný, jenž při -- chá -- zí ve jmé -- nu Pá -- ně,
+      ho -- sa -- na na vý -- sos -- tech.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "IV alt"
+      differentia = "A"
+      psalmus = "Žalm 118"
+      id = "ne-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       c4 c c c c b a g( a) g g \barMin a( g) f( g) g \barMaior
       g g g( a) a \barMin a b( c) a a b( c) a a g g \barMaior
       a g f g a a( g) g \barFinalis
