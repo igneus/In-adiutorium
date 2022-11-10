@@ -4,6 +4,13 @@
 require 'optparse'
 require_relative 'fial'
 
+def frescobaldi_running?
+  # This expects the Frescobaldi command line (shown in ps output) to look the way
+  # it looks on my system, where it's executed in quite a specific fashion.
+  # Portability issues expected.
+  `ps --user $USER -f` =~ /python.+frescobaldi/
+end
+
 def grep_line_number(grep_output_line)
   grep_output_line.match(/\A(\d+)/) {|m| m[1].to_i }
 end
@@ -63,6 +70,12 @@ OptionParser.new do |opts|
   end
   opts.on '--default-dir', 'resolve FIALs relative to the In-adiutorium directory, not to the current working directory' do
     Dir.chdir File.dirname File.dirname __FILE__
+  end
+  opts.on '--require-running-frescobaldi', 'make sure the opening will happen in an already running Frescobaldi instance, not in a new one (which results in the script waiting until Frescobaldi terminates)' do
+    unless frescobaldi_running?
+      STDERR.puts 'Frescobaldi is not running.'
+      exit 1
+    end
   end
 end.parse!
 
