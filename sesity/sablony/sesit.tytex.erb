@@ -17,9 +17,8 @@
 \newenvironment{psalmodia}{}{}
 \newenvironment{psalmus}{}{}
 \newcommand{\titulusPsalmi}[2][]{%
-  \vspace{2mm}%
   \begin{center}%
-    \textbf{#2}%
+    \textbf{\small #2}%
   \end{center}%
 }
 \newcommand{\lectionaryYear}[1]{%
@@ -30,7 +29,7 @@
 
 \newcommand{\asterisk}{~* }
 \newcommand{\flex}{~\dag\mbox{} }
-\newcommand{\psalmStrophe}{\hspace*{0pt}\hfill{}--}
+\newcommand{\psalmStrophe}{ --\vspace{3mm}}
 \newcommand{\zalmVersUpozorneni}[1]{}
 
 \begin{document}
@@ -52,6 +51,8 @@
 \responsory{<%= data.short_responsory %>}
 
 <% data.gospel_antiphons.each_pair do |label, fial| %>
+  \hrulefill{}
+
   \lectionaryYear{<%= label %>}
 
   \antiphon{<%= fial %>}
