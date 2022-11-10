@@ -19,9 +19,9 @@
     \choralniRezim
     g4 g f g g( a g) g \barMin
     a b c a( g) f( g) g \barMaior
-    c c c c( d) c c( d) c \barMin
+    c c c d c c( d) c \barMin
     c c a( c g f) f \barMaior
-    f d f g a( g) g \barMin
+    f g f g g( a) a \barMin
     g a g f f \barFinalis
   }
   \addlyrics {
@@ -45,7 +45,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g( a) g g \barMin
+    a4 g f g g( a) g g \barMin
     f g g( f) f \barMaior
     a a a( c) g( f) f \barMin
     g g a g f f \barFinalis
@@ -58,10 +58,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V" % nebo spis VI? V nechavam pro spolecny motiv s predchozi
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "začátek zkusit zpěvnější, možná celou jinak"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
