@@ -558,19 +558,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c b a \barMin c b c d d e( d b c) b( a) \barMaior
-    g( a) a \barMin a g a a b d c a a \barFinalis
+    g4 a c d d \barMin
+    e f e d c d( e d) d \barMaior
+    c( b g a) a( g) \barMin
+    f g a a b c a g( a) a \barFinalis
   }
   \addlyrics {
-    Všech -- ny ná -- ro -- dy, kte -- ré jsi, Bo -- že, stvo -- řil,
-    při -- jdou a bu -- dou se před te -- bou kla -- nět.
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou
+    a bu -- dou se před te -- bou kla -- nět.
   }
   \header {
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 15"
-    placet = "nepříliš povedená"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
