@@ -18,8 +18,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d( c) d e f e d( c d) d \barMaior
-    d d d d c b c( b) a( g) g \barMin
+    c4( d) d e f e d( c d) d \barMaior
+    d d d d c b c( a) a( g) g \barMin
     a f g( a) a g g \barFinalis
   }
   \addlyrics {
@@ -30,7 +30,7 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -43,7 +43,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g d' c d f( e c) c( d) d \barMaior
-    d d d c b a( g) a \barMaior
+    d e d c b a( g) g \barMaior
     a( b c) a( g) g f( g) a g g \barFinalis
   }
   \addlyrics {
@@ -90,7 +90,8 @@
     \choralniRezim
     c4( d) d \barMin d c d e d c c( d) d \barMaior
     d d d c b a( b) a a \barMaior
-    f g a a a( c a) g f g a g g \barFinalis
+    a c c c b( c) a g f( a) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Mar -- tin, na ze -- mi chu -- dý a skrom -- ný,
@@ -213,17 +214,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( c) c b c d e( d) d \barMin c c d c b a g \barMaior
-    f g a c b a b( a) a \barMax
+    g4 a c( d) d d c d e d \barMin
+    c d c b c a( g) g \barMaior
+    g f g a g f g( a g) g \barMax
 
-    c c c c c d c d d( e) e \barMin
-    d d c d c b a g a \barMaior
-    a a c( b) b c c d d( e) d c( d) c c \barMaior
-    a g g a a a \barFinalis
+    c c c c c d c d d( e) d \barMin
+    c d c b a g a g g \barMaior
+    a a g f g( a) a a \barMin c( d e) d c( b) a a \barMaior
+    g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Sva -- tý bis -- kup
-    z_ce -- lé -- ho srd -- ce mi -- lo -- val Kris -- ta krá -- le
+    Sva -- tý bis -- kup z_ce -- lé -- ho srd -- ce
+    mi -- lo -- val Kris -- ta krá -- le
     a ne -- za -- le -- kl se moc -- ných;
 
     ne -- skon -- čil si -- ce po -- zem -- ský ži -- vot
@@ -233,10 +235,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "na více místech zadrhává"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
