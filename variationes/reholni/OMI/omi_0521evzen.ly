@@ -1261,7 +1261,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b( c) a a d( c) b a a a \barMin
     g c( d) c c( d) d \barMaior
@@ -1283,6 +1283,46 @@
     psalmus = ""
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?upraveno"
     placet = "zejména _spravedlnost_ působí násilně"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\markup\justify{
+  (Daná melodie, zdá se mi, o něco lépe sedí na _nejprve_ zdrojové antifony
+  než na _především_ zde, ale snad je tu alespoň tolerovatelná.)
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 c d d( a' bes) a a \barMin
+    a a a g a( bes a g) \barMin
+    f g a f( e) d( c) \barMaior
+    d c d d( f) f f \barMin
+    g a g f( e d) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te pře -- de -- vším
+    Bo -- ží krá -- lov -- ství
+    a spra -- ve -- dl -- nost
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&zacatek=21&konec=18"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -517,28 +517,32 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c b( c) a a d( c) b a a a \barMin
-    g c( d) c c( d) d \barMaior
-    d e d c( b) a a \barMin f g a b( c a) g g \barFinalis
+    \key f \major
+    f4 c d d( a' bes) a a \barMin
+    a a a g a( bes a g) \barMin
+    f g a f( e) d( c) \barMaior
+    d c d d( f) f f \barMin
+    g a g f( e d) c( d) d \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Hle -- dej -- te pře -- de -- vším Bo -- ží krá -- lov -- ství
+    Hle -- dej -- te pře -- de -- vším
+    Bo -- ží krá -- lov -- ství
     a spra -- ve -- dl -- nost
-    a všech -- no o -- stat -- ní vám bu -- de při -- dá -- no.
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. v poledne"
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&zacatek&konec"
-    placet = "zejména _spravedlnost_ působí násilně"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&zacatek=21&konec=18"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

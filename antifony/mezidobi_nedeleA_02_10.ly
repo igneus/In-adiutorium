@@ -469,12 +469,12 @@
 \markup {\nadpisDen {"8. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f e d e( f) d d \barMaior
-    c d d c d d( f) f \barMin
-    f f g f f g f e d( e d) d \barMaior
-    d d c( d) d f e f g f e d c( d) d \barFinalis
+    c4 c c b a c( b) a( g) g \barMaior
+    a g g f g g( a) a \barMin
+    c b c d c b c a a( g) g \barMaior
+    g a f( e d) d \barMin f e f g a a a g g \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se na ptá -- ky:
@@ -484,11 +484,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
-    placet = "půjde lépe"
     id = "ne8a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -497,9 +496,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a a a b c a g g g \barMaior
-    a a a a f( e d) d e f f( g) \barMin
-    a b c a g g( a) g g \barFinalis
+    c4 b a g g a g f g( a) g g \barMaior
+    a c b c d c b c a( g) \barMin
+    a g f g a a g g \barFinalis
   }
   \addlyrics {
     Ne -- dě -- lej -- te si zby -- teč -- né sta -- ros -- ti,
@@ -512,31 +511,35 @@
     differentia = "c"
     psalmus = ""
     annus = "A"
-    placet = "lépe"
     id = "ne8a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c b( c) a a d( c) b a a a \barMin
-    f g a c( d) c c( d) d \barMaior
-    d e d c( b) a a \barMin f g a b( c a) g g \barFinalis
+    \key f \major
+    f4 c d d( a' bes) a a \barMin
+    a a a g a( bes a g) \barMin
+    f g a f e d( e) d( c) \barMaior
+    d c d d( f) f f \barMin
+    g a g f( e d) c( d) d \barFinalis
   }
   \addlyrics {
-    Hle -- dej -- te nej -- pr -- ve Bo -- ží krá -- lov -- ství
+    Hle -- dej -- te nej -- pr -- ve
+    Bo -- ží krá -- lov -- ství
     a je -- ho spra -- ve -- dl -- nost
-    a všech -- no o -- stat -- ní vám bu -- de při -- dá -- no.
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
   }
   \header {
+    fons_externus = "volně podle AR1912, 474"
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
-    placet = "půjde lépe"
     id = "ne8a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
