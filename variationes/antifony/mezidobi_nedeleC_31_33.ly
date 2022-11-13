@@ -736,8 +736,22 @@
 
 \markup {\nadpisDen {"33. neděle"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Cum audiéritis prœ́lia et seditiónes, nolíte terréri;
+    opórtet enim primum hæc fíeri, sed non statim finis, dicit Dóminus.
+  }
+}
+\markup\justify{
+  DMC bere text pro antifonu o verš dříve (Lk 21, 8) než LH,
+  při zjevné preferenci stručného citátu.
+  Nebo v tomhle případě spíš než o stručnost šlo o nechuť k eschatologii?
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a( g) g \barMin
     f f f f g g g f d \barFinalis
@@ -758,12 +772,176 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( g) g \barMin
+    \mark\sipka f g a a a g f g e \barFinalis
+  }
+  \addlyrics {
+    Dej -- te si po -- zor,
+    a -- by -- ste se ne -- ne -- cha -- li svést.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a g( f) f \barMin
+    e f g g a g f g f \barFinalis
+  }
+  \addlyrics {
+    Dej -- te si po -- zor,
+    a -- by -- ste se ne -- ne -- cha -- li svést.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a a a a a g f g f \barFinalis
+  }
+  \addlyrics {
+    Dej -- te si po -- zor,
+    a -- by -- ste se ne -- ne -- cha -- li svést.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a a \mark\sipka g f g f e f d \barFinalis
+  }
+  \addlyrics {
+    Dej -- te si po -- zor,
+    a -- by -- ste se ne -- ne -- cha -- li svést.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f e d c e( f d) d \barMaior
     f f g f g a f e f \barMin
     f f g e d d \barMaior
     d d d c c d d d \barFinalis
+  }
+  \addlyrics {
+    Já vám dám vý -- mluv -- nost i moud -- rost,
+    kte -- ré ne -- do -- ve -- dou o -- do -- lat
+    a -- ni od -- po -- ro -- vat
+    žád -- ní va -- ši pro -- tiv -- ní -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e d c e( f d) d \barMaior
+    \mark\sipka f g a g f g f d d \barMin
+    f f e d c c \barMaior
+    d e f d c d d d \barFinalis
+  }
+  \addlyrics {
+    Já vám dám vý -- mluv -- nost i moud -- rost,
+    kte -- ré ne -- do -- ve -- dou o -- do -- lat
+    a -- ni od -- po -- ro -- vat
+    žád -- ní va -- ši pro -- tiv -- ní -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e d c e( f d) d \barMaior
+    f g a g f g f d d \barMin
+    f f e d c c \barMaior
+    d e f \mark\sipka f e f d d \barFinalis
+  }
+  \addlyrics {
+    Já vám dám vý -- mluv -- nost i moud -- rost,
+    kte -- ré ne -- do -- ve -- dou o -- do -- lat
+    a -- ni od -- po -- ro -- vat
+    žád -- ní va -- ši pro -- tiv -- ní -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne33c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f \mark\sipka f e c e( f d) d \barMaior
+    f g a g f g f d d \barMin
+    f f e d c c \barMaior
+    d e f d c d d d \barFinalis
   }
   \addlyrics {
     Já vám dám vý -- mluv -- nost i moud -- rost,

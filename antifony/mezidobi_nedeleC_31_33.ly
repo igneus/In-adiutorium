@@ -136,10 +136,10 @@
 \markup {\nadpisDen {"33. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g a a( g) g \barMin
-    f f f f g g g f d \barFinalis
+    f4 f g g( a) a \barMin
+    a a g f g f e f d \barFinalis
   }
   \addlyrics {
     Dej -- te si po -- zor,
@@ -148,7 +148,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne33c-1ne-amag"
@@ -159,10 +159,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f e d c e( f d) d \barMaior
-    f f g f g a f e f \barMin
-    f f g e d d \barMaior
-    d d d c c d d d \barFinalis
+    d4 c d f f e c e( f d) d \barMaior
+    f g a g f g f d d \barMin
+    f f e d c c \barMaior
+    d e f d c d d d \barFinalis
   }
   \addlyrics {
     Já vám dám vý -- mluv -- nost i moud -- rost,
