@@ -1497,6 +1497,30 @@ moc rád a nechci ji měnit.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) e( d) d \barMin
+    d e( d) c( d) d( c) \barMin
+    b( c) a g g \barMaior
+    a g f( a) g  \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Si -- ó -- nu
+    ať já -- sa -- jí
+    nad svým krá -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {

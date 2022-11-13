@@ -861,6 +861,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
+      \mark\sipka a f e g4. g4 a( b c) a g( a) g \barMaior
+      \mark\sipka a b c a g a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"invitatorium"}}

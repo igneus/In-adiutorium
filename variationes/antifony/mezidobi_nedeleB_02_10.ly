@@ -1138,6 +1138,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e d d \barMin
+    e f( e d) c d( e) d d \barMaior
+    f g a g f e d d \barMin
+    f f e f d c c \barMin
+    d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
