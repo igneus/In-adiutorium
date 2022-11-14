@@ -647,11 +647,11 @@
 \markup {\nadpisDen {"30. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d c d d d d( f e) d( c) \barMax
-    d4( f) d d( a') a a \barMin g( bes) g g \barMin
-    f( e f) f g f e e \barFinalis
+    a4 a g a g f g( a) a \barMaior
+    c c b( c) a a \barMin d( c) a a \barMin
+    g f g f e e \barFinalis
   }
   \addlyrics {
     Sle -- pec u Je -- ri -- cha vo -- lal:
@@ -660,12 +660,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "III"
+    differentia = "a"
     psalmus = ""
-    placet = "U teto antifony si jsem krajne nejisty.
-    Vetsina melodie jevi typicke znaky modu I, ale sedi k ni
-    zaver na e. Co s ni?"
     id = "ne30b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
