@@ -251,11 +251,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a a( c b) g a( g) \barMaior
-    c c c d c b c a \barMin
-    g g g a g f f \barFinalis
+    a4 a a g( f e) f d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d d f e c( d) d \barFinalis
   }
   \addlyrics {
     Z_ne -- be se o -- zval hlas:
@@ -264,10 +264,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V"
+    modus = "I"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/pust_nedeleC.ly#iimag2?upraveno"
+    fial = "antifony/pust_nedeleC.ly#iimag2?cast=2,3&konec=6"
     id = "6amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
