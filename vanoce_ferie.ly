@@ -42,21 +42,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f( g) g \barMin f g g( a) a \barMaior
-    a a a g( f e) e \barMin
-    f f f g g g( a) a g a e e \barFinalis
+    g4 g g g( a) a \barMin
+    g f g( a) a \barMaior
+    c c c b( c a) a \barMin
+    c c c b a g g f a g g \barFinalis
   }
   \addlyrics {
-    Bet -- lém -- ské dí -- tě, Sy -- nu Bo -- ží,
+    Bet -- lém -- ské dí -- tě,
+    Sy -- nu Bo -- ží,
     O -- tec tě po -- slal,
     a -- by -- chom mě -- li ži -- vot skr -- ze te -- be.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "nezpěvná"
     id = "2amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -224,27 +225,24 @@
 \markup\nadpisDen{6. ledna}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    % nejsem si jisty, ze zvolene frazovani je stastne.
-    % Je z hlediska vyznamu textu lepsi,
-    % aby na "je ten" koncila prvni fraze, jak jsem to udelal,
-    % nebo aby jim zacinala nova?
-    d4 d c( d) d f( e) d( e d) c c( d) \barMin
-    d d c( d e f) e \barMin
-    f f f e f d \barFinalis
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    d d c b a( b) g \barMin
+    f g a( c) b g a \barFinalis
   }
   \addlyrics {
-    Je -- žíš Kris -- tus, náš Pán, je ten,
-    kte -- rý při -- šel
+    Je -- žíš Kris -- tus,
+    náš Pán,
+    je ten, kte -- rý při -- šel
     skr -- ze vo -- du a krev.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
-    placet = "lépe"
     id = "6aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -278,8 +276,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f e d d f c( d) \barMin c a c c( d) d \barMaior
-    d d d( e f) g( f) g \barMin e d c e d d \barFinalis
+    d4 f e d c f g a \barMin
+    a c a g( a) a \barMaior
+    g f e( f) d d \barMin
+    e c c e d d \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám Kris -- tus Pán, o němž je psá -- no:
@@ -287,10 +287,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "r - závěr je takový jakoby s přistřiženými křídly"
     id = "7aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

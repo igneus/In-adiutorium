@@ -313,6 +313,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d( c) \barMin
+    d f e f g g \barMaior
+    a-- g( f d) d \barMin
+    c d e( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám
+    ten, kte -- rý je věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
