@@ -642,6 +642,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4. a a g4( a) bes c a( g) g \barMin
+    f( e) \mark\sipka c d \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g g g a f f( g) g \barMin
     f( e) c( d) d \barFinalis
   }
@@ -1686,6 +1706,28 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Ef 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g( f) f( g) g \barMaior
+    a a a a( g) f g f( d) d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si nás vy -- vo -- lil
+    a skr -- ze Kris -- ta nás při -- jal
+    za své dě -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Ef 1"
     id = "ne-ant3"
     piece = \markup {\sestavTitulek}

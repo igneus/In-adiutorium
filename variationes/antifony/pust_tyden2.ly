@@ -680,6 +680,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( f) g( a) a g a c( d) d d \barMaior
+    d4( e c4.) c \mark\sipka \barMin a4 g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
+    v_po -- svát -- ném les -- ku.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    fial = "antifony/tyden4_1nedele.ly#2ne-ant1?-aleluja"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
