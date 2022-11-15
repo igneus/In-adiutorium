@@ -3520,8 +3520,11 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 f e f g( a) a f( e) e \barMin
       g f e f d4. d \barMaior
@@ -3564,6 +3567,38 @@ ale na diferenci žalmového nápěvu?}
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \markup{
+    (Jen odstranění nevhodných délek.)
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 f e f g( a) a f( e) e \barMin
+      g f e f \mark\sipka d d \barMaior
+
+      d4( g f) g( a) g f e f f( g) g \barMaior
+      g a( f) f f e( f e) c d \barFinalis
+    }
+    \addlyrics {
+      Jak -- mi -- le byl Je -- žíš po -- křtěn,
+      vy -- stou -- pil hned z_vo -- dy.
+
+      O -- tev -- ře -- lo se mu ne -- be
+      a z_ne -- be se o -- zval hlas.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "1 Tim 3"
+      id = "krtu-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
