@@ -177,6 +177,42 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 e g f e d d \barMaior
+    c d e g a e \barMin g a c b a b a \barMax
+    a a g a g( f e) e \barMin f( d) f f e e \barFinalis
+    % V
+    \neviditelna a
+    a4 g a c b a b( g) g( a) a \barMax
+    % R
+    \neviditelna a
+    a a g a g( f e) e \barMin f( d) f f e e \barFinalis
+    % Slava
+    a4 a a g a c( a) a \barMin a b g \mark\sipka g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Lá -- mej chléb hla -- do -- vé -- mu,
+    po -- přej po -- hos -- tin -- ství blou -- dí -- cím u -- bo -- žá -- kům;_*
+    ne -- od -- mí -- tej po -- moc své -- mu bliž -- ní -- mu.
+    \Verse Když vi -- díš na -- hé -- ho, ob -- leč ho,_*
+    \Response ne -- od -- mí -- tej po -- moc své -- mu bliž -- ní -- mu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     \key f \major

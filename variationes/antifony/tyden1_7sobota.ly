@@ -1413,6 +1413,25 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 f e f d \barMin
+    d c d e f e \mark\sipka f d \barFinalis
+  }
+  \addlyrics {
+    Nic ne -- chy -- bí těm, kdo hle -- da -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 f e( d) c \barMin d f f e f d \barFinalis
