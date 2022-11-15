@@ -704,15 +704,15 @@
     d4( a' bes) a( g) g( a) a \barMin
     g a a( bes a) g a g g \barMaior
     f g a bes a g a( bes a) a \barMax
-    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    a( c d) a( g) g( d) d d( f) e d d \barFinalis
     % V
     \neviditelna a
     d( a' bes) a( g) g( a) a \barMin g f g g bes a( bes a) a \barMax
     % R
     \neviditelna a
-    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    a( c d) a( g) g( d) d d( f) e d d \barFinalis
     % Slava
-    d4( a' bes) a a( g) g a g( a) g \barMin g g( f e) f g( a) a a \barFinalis
+    d4( a' bes) a g( a) g f f( g) g \barMin g g( a g) f g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Vy -- pra -- vuj -- te
@@ -726,7 +726,6 @@
   \header {
     quid = "resp."
     modus = "I"
-    placet = "doxologii lépe"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

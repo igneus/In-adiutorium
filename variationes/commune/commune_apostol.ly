@@ -2477,7 +2477,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     % R
@@ -2507,6 +2507,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "I"
+    placet = "doxologii lépe"
     id = ""
     piece = \markup {\sestavTitulekResp}
   }
@@ -2584,6 +2585,43 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     quid = "resp."
     modus = "I"
     id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna d
+    d4( a' bes) a( g) g( a) a \barMin
+    g a a( bes a) g a g g \barMaior
+    f g a bes a g a( bes a) a \barMax
+    a( c d) a( g) g( d) d d( f) e d d \barFinalis
+    % V
+    \neviditelna a
+    d( a' bes) a( g) g( a) a \barMin g f g g bes a( bes a) a \barMax
+    % R
+    \neviditelna a
+    a( c d) a( g) g( d) d d( f) e d d \barFinalis
+    % Slava
+    d4( a' bes) a g( a) g f f( g) g \barMin g \mark\sipka g( a g) f g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,_*
+    o -- sla -- vuj -- te je -- ho jmé -- no.
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response o -- sla -- vuj -- te je -- ho jmé -- no.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
