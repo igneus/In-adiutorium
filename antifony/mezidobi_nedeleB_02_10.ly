@@ -369,11 +369,11 @@
 \markup {\nadpisDen {"7. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g( a) a g f g g( a) a \barMaior
-    c( b c) a4.( g) \barMin
-    g4 a g f e f d4. d \barFinalis
+    d4 d c d f e d c c \barMaior
+    d( f) f \barMin
+    g a g f e f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl o -- chr -- nu -- lé -- mu:
@@ -381,10 +381,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "_Synu_ je nepřiměřeně zdůrazněné"
     id = "ne7b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -393,8 +392,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f f f e4.( c) \barMin
-    a4 c d e d c c( d) d \barFinalis
+    d4 f f e f d( c) \barMin
+    d e f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka má moc
@@ -405,7 +404,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "půjde lépe"
     id = "ne7b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -509,7 +507,7 @@
 
 \markup {\nadpisDen {"9. neděle"}}
 
-\markup\italic\justify{V závěru dvou následujících antifon je potřeba
+\markup\italic\justify{V závěru následující antifony je potřeba
 položit přízvuk tak, jak to odpovídá logice jazyka (poznačeno
 "\"kapkou\"" pod notou), ne tak, jak by k tomu sváděla melodie,
 o slabiku později.}
@@ -517,8 +515,8 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
-    d( c) d( f) f f g f e( d) d \barMaior
-    c a a( c) c d-! e d d \barFinalis
+    d f f f g f e( d) d \barMaior
+    f f e( d c) c d-! e d d \barFinalis
   }
   \addlyrics {
     So -- bo -- ta je pro člo -- vě -- ka,
@@ -529,7 +527,6 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "lépe"
     id = "ne9b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -538,7 +535,7 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f f f e( c) c c d-! e d d \barFinalis
+    d4 d f f f g( a) g f e f d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
@@ -548,7 +545,6 @@ o slabiku později.}
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "lépe"
     id = "ne9b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -557,23 +553,20 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f g g f g a g f g g( d) \barMax
-    g f( e) f( g f) d d \barMin c d f e( d) d \barFinalis
+    d4 c d f f e f g( a) g f e f d( c) \barMaior
+    d f e( d) c c \barMin d f e c( d) d \barFinalis
   }
   \addlyrics {
     Smí se v_so -- bo -- tu jed -- nat dob -- ře,
-    % a --
-    ne -- bo zle?
+    a -- ne -- bo zle?
     Ži -- vot za -- chrá -- nit,
     a -- ne -- bo za -- bít?
   }
   \header {
-    textus_approbatus = "Smí se v sobotu jednat dobře, anebo zle? Život zachránit, anebo zabít?"
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "lépe"
     id = "ne9b-mag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
