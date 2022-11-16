@@ -748,6 +748,27 @@
   }
 }
 
+\markup\justify{
+  Možná ta melodie patří spíš modu VIII:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b b c d b a \barMin c c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ב"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -929,6 +950,24 @@
     \zvyraznovacModry
     \choralniRezim
     \mark\sipka f4 e f g f d \barMin e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, veď mé kro -- ky po svých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 17-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f g \mark\sipka f( d) d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, veď mé kro -- ky po svých ces -- tách.
