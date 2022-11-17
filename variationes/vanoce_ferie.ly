@@ -330,6 +330,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f g f( d) d \barMin
     f g a g f g g g( a) a \barMaior
@@ -357,6 +358,65 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a a a g f g( a) a g g \barMaior
+    a a g a g f e( f d c) c \barMax
+    d c d f f f g( a) g f( g) f f \barMaior
+    f f e( d c) c f e c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo se sta -- lo tě -- lem
+    a pře -- bý -- va -- lo me -- zi ná -- mi,
+    pl -- né mi -- los -- ti a prav -- dy;
+    z_je -- ho pl -- nos -- ti jsme všich -- ni dos -- ta -- li,
+    a to mi -- lost za mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "3aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a a a g f g( a) a g g \barMaior
+    a a g a g f e( f d c) c \barMax
+    d c d f f f g( a) g f( g) f f \barMaior
+    \mark\sipka g f e( d c) c f e c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo se sta -- lo tě -- lem
+    a pře -- bý -- va -- lo me -- zi ná -- mi,
+    pl -- né mi -- los -- ti a prav -- dy;
+    z_je -- ho pl -- nos -- ti jsme všich -- ni dos -- ta -- li,
+    a to mi -- lost za mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "3aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

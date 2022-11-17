@@ -68,12 +68,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f g f( d) d \barMin
-    f g a g f g g g( a) a \barMaior
-    c c b a g a a( g) g \barMax
-    f g g a a a f e d( e) d d \barMaior
-    f g a( bes a) g f e c( d) d \barMaior
-    f e c( d) d \barFinalis
+    d4 d c f g f( a) a \barMin
+    a a a g f g( a) a g g \barMaior
+    a a g a g f e( f d c) c \barMax
+    d c d f f f g( a) g f( g) f f \barMaior
+    g f e( d c) c f e c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Slo -- vo se sta -- lo tě -- lem
@@ -88,8 +88,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/1227jan.ly#rch-aben?zacatek"
-    placet = "r - text by stál za trochu víc práce a lépe padnoucí melodii s lepším spádem"
     id = "3aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
