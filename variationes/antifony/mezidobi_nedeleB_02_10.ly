@@ -2293,6 +2293,24 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka c4 d f f f g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f f e d c( d) c d e f d d \barFinalis
   }
   \addlyrics {

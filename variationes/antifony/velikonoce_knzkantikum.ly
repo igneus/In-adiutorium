@@ -150,6 +150,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    e e d c d( e d) d \barMaior
+    c b a( g) a \barMin
+    b( c) a a g( f) g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    e e d c d( e d) d \barMaior
+    c \mark\sipka d c( a) a \barMin
+    c b a g( a) g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %velikTIstredaNespAntIII =
