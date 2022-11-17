@@ -176,9 +176,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c a b g \barMin
-    a( f) f g g( c) c( d) c \barMin
-    a( b c) a g f f( g) g \barFinalis
+    c4 c c b a g g \barMaior
+    g( a) f e f( g) g( a) a \barMin
+    c a c b a( g) g \barFinalis
   }
   \addlyrics {
     Ten -- to je u -- sta -- no -- ven
@@ -188,21 +188,20 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*"
+    differentia = "c"
     psalmus = "Žalm 2"
-    placet = "začátek nějaký normálnější"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( g a) \barMin c a a d c b a a \barMaior
-    a a g( c) c b( c) e( d c d) d \barMaior
-    c c b a g f g g g( a g) \barMin
-    a( b c) a g( a) g g \barFinalis
+    c4.( d) e4( f) d d f( g) f e d d \barMaior
+    d c d( f) e f a( g f g) g \barMaior
+    g a a a g f e( f) d( c) c \barMin
+    d( f) e d( e) d d \barFinalis
   }
   \addlyrics {
     Vstaň, roz -- sviť se, Je -- ru -- za -- lé -- me,
@@ -212,10 +211,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 19A"
-    placet = "začátek tíhne spíš k modu II, aniž by byl nějak zvlášť krásný - upravit"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
