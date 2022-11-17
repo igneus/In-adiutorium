@@ -932,10 +932,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisDen {"19. neděle"}}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( c) d d( c) c \barMaior
     bes( c) c( d) d f e d( e) d d \barMin
@@ -957,6 +960,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e f d d \barMaior
+    c( d) d( f) f g f g( a) g g \barMin
+    a g f e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    vy -- stou -- pil Je -- žíš na ho -- ru,
+    a -- by se o sa -- mo -- tě mod -- lil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {

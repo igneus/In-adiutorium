@@ -631,9 +631,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( c) d d( c) c \barMaior
-    bes( c) c( d) d f e d( e) d d \barMin
-    d e f g f e d e( d) d \barFinalis
+    f4 e f d d \barMaior
+    c( d) d( f) f g f g( a) g g \barMin
+    a g f e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
@@ -642,11 +642,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
-    placet = "neuspokojivý závěr; nesedí v modu"
     id = "ne19a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
