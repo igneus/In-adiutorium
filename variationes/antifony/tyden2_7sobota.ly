@@ -1155,6 +1155,29 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+    g f \mark\sipka g( a) a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d d c \barMin
     c d c b a( g) g \barMin
     f g a( c) c c b a g g \barFinalis

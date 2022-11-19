@@ -2906,6 +2906,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a b c( a) g( a) g g \barMin
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f d \barMin
@@ -3091,6 +3113,28 @@
     \choralniRezim
     d4 e c d d \barMin
     f g f e( d) c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d d \barMin
+    c d f( e) c d d \barMaior
     e f d d \barFinalis
   }
   \addlyrics {

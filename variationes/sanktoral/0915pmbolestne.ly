@@ -1488,6 +1488,39 @@
 
     % R
     \neviditelna f
+    f g f e d d \barMin f e \mark\sipka f g g \barMax
+    \mark\sipka a a g f g f e( f) d \barMin e g f d d \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin f g bes a g( a) a \barMax
+    % R
+    \neviditelna a
+    \mark\sipka a a g f g f e( f) d \barMin e g f d d \barFinalis
+    % Slava
+    a' a \mark\sipka g( a) g f g( a) a \barMin a \mark\sipka g a a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
     f f f f f f g f g a a( g) \barMax
     g g g f g a g g \barMin f( d) f g g f \barFinalis
     % V
