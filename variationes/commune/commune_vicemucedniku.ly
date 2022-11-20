@@ -1147,6 +1147,34 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g( a) g \barMin
+    a b c a \mark\sipka g g( a) g g \barMaior
+    c d c b( a g) g \barMin
+    \mark\sipka a( g) f g( a) a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4( a g) f( g) a a \barMin

@@ -4117,6 +4117,8 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \pageBreak
+
   \score {
     \relative c'' {
       \choralniRezim
@@ -4152,9 +4154,45 @@ ale na diferenci žalmového nápěvu?}
       modus = "VII"
       differentia = "a"
       psalmus = "Dan 3-III"
+      placet = "má několik drhnoucích míst"
+      id = "krtu-rch-a2"
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a( c) c \barMin
+      d e d c d( e) d d \barMaior
+      d e d c( b a) \barMin
+      c a g a a( g) g \barMax
+    }
+    \addlyrics {
+      Když se Kris -- tus
+      zje -- vil svě -- tu ve slá -- vě,
+      pra -- me -- ny vod
+      by -- ly po -- svě -- ce -- ny.
+
+      S_ra -- dos -- tí
+      čer -- pej -- te vo -- du
+      z_pra -- me -- nů spá -- sy;
+
+      Kris -- tus, náš Bůh,
+      to -- tiž dnes po -- svě -- til
+      všech -- no tvor -- stvo.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Dan 3-III"
+      id = "krtu-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \score {
     \relative c'' {
