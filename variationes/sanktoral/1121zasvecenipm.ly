@@ -14,6 +14,35 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#2ne-amag?-aleluja"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Při zakládání notového materiálu mi aleluja nějak vypadlo,
+  ale v breviáři je.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barMaior
@@ -37,6 +66,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
