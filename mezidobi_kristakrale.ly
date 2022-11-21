@@ -556,7 +556,7 @@
   \relative c' {
     \choralniRezim
     d4 f( g) g( a) a \barMin a g a g f f( g) g \barMaior
-    d d( f) d( c) c \barMin c d f e f e c c( d) d \barFinalis
+    d d( f) d( c) c \barMin c d f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Tvé krá -- lov -- ství je krá -- lov -- ství všech vě -- ků

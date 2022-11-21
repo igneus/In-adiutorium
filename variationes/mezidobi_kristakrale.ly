@@ -1898,6 +1898,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f( g) g( a) a \barMin a g a g f f( g) g \barMaior
     d d( f) d( c) c \barMin c d f e f e c c( d) d \barFinalis
@@ -1912,6 +1913,27 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     differentia = "D"
     psalmus = "Žalm 145-I"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f( g) g( a) a \barMin a g a g f f( g) g \barMaior
+    d d( f) d( c) c \barMin c d f \mark\sipka f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tvé krá -- lov -- ství je krá -- lov -- ství všech vě -- ků
+    a tvá vlá -- da tr -- vá po všech -- na po -- ko -- le -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-I"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
