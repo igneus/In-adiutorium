@@ -588,6 +588,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "slabší"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
