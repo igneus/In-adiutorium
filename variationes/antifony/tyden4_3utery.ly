@@ -87,6 +87,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d d e f \barMin f g f g a \barMaior
+    a4 \mark\sipka a b c a( g) \barMin f e( f) d c c( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
+    a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d d e f \barMin f g( a) g f d( c) \barMaior
     f g( a g) f( e) d d \barMin c f e c c( d) d \barFinalis
 

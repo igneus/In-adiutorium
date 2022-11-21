@@ -692,6 +692,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d d c( d) c c \barMin
+    \mark\sipka d c d( e) d \barMaior
+    d e f d( c) c \barMin
+    c c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c b a b g \barMin
     a f a( c) b \barMaior
     c d e d( c d) c \barMin
