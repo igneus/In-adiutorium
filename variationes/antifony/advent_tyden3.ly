@@ -31,6 +31,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 b c d d \barMin
+    e d c f e d c d d \barMaior
+    d( c d) c( b a) a \barMin f g a b( c a) \mark\sipka a( g) g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    ra -- duj se ve -- li -- kou ra -- dos -- tí,
+    při -- chá -- zí k_to -- bě tvůj Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka g4 a c c( d) d \barMin
     e d c f e d c d d \barMaior
     d( c d) c( b a) a \barMin f g a b( c a) g( a) a \barMaior

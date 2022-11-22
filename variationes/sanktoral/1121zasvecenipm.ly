@@ -96,3 +96,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 c f e d( e) d d \barMin
+    f g a a a g a bes( a) a \barMaior
+    a c( a) a g a \barMin
+    a a( c) a b c a g g \barMaior
+    f f f g f d d \mark\sipka e f d( c) c \barMin
+    d d( e f) \mark\sipka e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Ma -- ri -- a, u -- sta -- vič -- ná Pan -- no,
+    tys chrá -- mem Bo -- žím
+    a stán -- kem Du -- cha sva -- té -- ho,
+    jen v_to -- bě je -- di -- né má za -- lí -- be -- ní
+    náš Pán Je -- žíš Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
