@@ -61,6 +61,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f f g( a) g f f( g) g \barMaior
+    f \mark\sipka f e( d c) c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se ži -- vé -- mu Bo -- hu,
+    on k_nám mlu -- ví ús -- ty pro -- ro -- ků.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -497,6 +519,30 @@
   \relative c'' {
     \choralniRezim
     c4( d) d c \barMin
+    c c b a b( c) a \mark\sipka g a g f g g \barMaior
+    g f( g) \barMin
+    a b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- jdi ven
+    a po -- stav se na ho -- ře před Hos -- po -- di -- nem.
+    A hle:
+    Hos -- po -- din pře -- chá -- zel.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d c \barMin
     c d d d c a a c b a g g \barMaior
     g f( g) \barMin
     a b c a( g) f( g) g \barFinalis
@@ -791,10 +837,72 @@
     % R
     \neviditelna f
     f4 f f f g f g( a) a( g) \barMax
+    \mark\sipka g f g( a) g \barMin f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a a a a g( a) g \barMin g f g g( a) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g \barMin f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Až pro -- cit -- nu, Hos -- po -- di -- ne,_* na -- sy -- tím se po -- hle -- dem na te -- be.
+    \Verse Ve spra -- ve -- dl -- nos -- ti u -- zřím tvou tvář._*
+    \Response Na -- sy -- tím se po -- hle -- dem na te -- be.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
     g a g g f( d) f g g f f \barFinalis
     % V
     \neviditelna a
     a a \mark\sipka g a g g \barMin g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g a g g f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Až pro -- cit -- nu, Hos -- po -- di -- ne,_* na -- sy -- tím se po -- hle -- dem na te -- be.
+    \Verse Ve spra -- ve -- dl -- nos -- ti u -- zřím tvou tvář._*
+    \Response Na -- sy -- tím se po -- hle -- dem na te -- be.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g a g g f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka a g a g \barMin g f g g( a) \barMax
     % R
     \neviditelna a
     g a g g f( d) f g g f f \barFinalis
@@ -1714,6 +1822,46 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f( g) f f \barMin
+    d f f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c d( e) d d \barMin
+    d c a b a g g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Zj 11"
     id = "ne-a3"
     piece = \markup\sestavTitulek
