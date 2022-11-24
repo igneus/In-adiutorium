@@ -769,6 +769,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "melisma na _Tříbil_ není moc pěkné"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
