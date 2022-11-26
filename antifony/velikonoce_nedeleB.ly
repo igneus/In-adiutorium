@@ -347,12 +347,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4( a) a \barMin d, e e( f g) g( a) a \barMax
-    a a g( f) f g( f g) g \barMin g( f) g f d d \barMaior
-    d d c( d) d d( f) f \barMin g( a bes) a g bes( a g) f( g) g( d) \barMaior
-    e c c( d) d \barFinalis
+    c( d) d \barMin f e d f( g a g) g \barMaior
+    a a g f d d d( e) f d c c \barMaior
+    d d c d d( f) f \barMin g a g f( g) f f
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, ny -- ní jdu k_to -- bě,_*
@@ -363,9 +363,8 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a2"
+    differentia = "D"
     psalmus = ""
-    placet = "_toto mluvím ještě ve světě_ jinak; závěr před aleluja také jinak"
     id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

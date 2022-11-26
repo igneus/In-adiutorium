@@ -900,6 +900,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin d, e e( f g) g( a) a \barMax
     a a g( f) f g( f g) g \barMin g( f) g f d d \barMaior
@@ -989,6 +990,79 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( d) d \barMin f e f g( a g) g \barMaior
+    a a g f d d d( e) f d c c \barMaior
+    d d c d d( f) f \barMin g( a) g f e( f d) c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( d) d \barMin f e \mark\sipka d e( f d) d \barMaior
+    f g a a g f e( f) d d c c \barMaior
+    d d c d d( f) f \barMin g( a) g f \mark\sipka e( f) d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( d) d \barMin f e d \mark\sipka f( g a g) g \barMaior
+    a a g f d d d( e) f d c c \barMaior
+    d d c d d( f) f \barMin \mark\sipka g a g f( g) f f
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "viiben"
     piece = \markup {\sestavTitulekBezZalmu}
