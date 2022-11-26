@@ -1481,6 +1481,52 @@ ale na diferenci žalmového nápěvu?}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) \barMin
+    c c d c b c a a a \barMaior
+    a c b a g g \barMaior
+    f g a a g a g g \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) \barMin
+    c c d c b c a a a \barMaior
+    a c b a g g \barMaior
+    \mark\sipka a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d( e f) \barMin

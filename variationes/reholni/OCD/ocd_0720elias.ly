@@ -931,7 +931,10 @@
 
   }
   \addlyrics {
-    Hospodine, Bože Abrahámův, Izákův a Izraelův, ať se dnes ukáže, že ty jsi Bůh v Izraeli, že já jsem tvůj služebník a že jsem všechno toto učinil na tvé slovo.
+    Hos -- po -- di -- ne, Bo -- že A -- bra -- há -- mův, I -- zá -- kův a Iz -- ra -- e -- lův,
+    ať se dnes u -- ká -- že, že ty jsi Bůh v_Iz -- ra -- e -- li,
+    že já jsem tvůj slu -- žeb -- ník
+    a že jsem všech -- no to -- to u -- či -- nil na tvé slo -- vo.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -1566,6 +1569,46 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka d d f f e d c \barMin
+    d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 115"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e \mark\sipka f g \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 115"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g f g a f g \barMin
@@ -1731,8 +1774,48 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d d( f) d d \barMin
+    f g g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d c( d) c c \barMin
     d c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d c( d) c c \barMin
+    d \mark\sipka d f e d c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá od -- mě -- nu
@@ -1907,7 +1990,9 @@
 
   }
   \addlyrics {
-    V minulosti mluvil Bůh k našim předkům skrze proroky. V této poslední době však promluvil k nám skrze svého Syna. Jeho ustanovil dědicem všeho.
+    V_mi -- nu -- los -- ti mlu -- vil Bůh k_na -- šim před -- kům skr -- ze pro -- ro -- ky.
+    V_té -- to po -- sled -- ní do -- bě však pro -- mlu -- vil k_nám skr -- ze své -- ho Sy -- na.
+    Je -- ho usta -- no -- vil dě -- di -- cem vše -- ho.
   }
   \header {
     quid = "ant. k Magnificat"
