@@ -314,6 +314,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 114"
+    placet = "druhou půlku by bylo žádoucí zpěvněji"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
   }

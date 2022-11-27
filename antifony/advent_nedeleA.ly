@@ -70,6 +70,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_počneš Božího Syna_ je jaksi tvrdě úsečné"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

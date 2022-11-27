@@ -28,6 +28,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
+    placet = "tím, jak se stále drží při finále, poněkud únavná a málo zpěvná"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -75,6 +76,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 4"
+    placet = "druhá půle je nejen extravagantní rozsahem, ale také nedrží úplně dobře pohromadě"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -348,6 +350,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "_přináší_ lépe; možná zkusit i celou melodii jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -477,6 +480,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "melodie první půle dost extravagantní, vyzkoušet uměřenější varianty"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -649,6 +653,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Magnificat"
+    placet = "dost vyčnívá tím, jak má (jako antifona k Magnificat druhých nešpor)
+    snad nejprostší nápěv z celého formuláře. Vyzkoušet o trochu zdobnější varianty."
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
