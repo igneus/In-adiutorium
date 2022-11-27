@@ -789,6 +789,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( a g) \barMin
+    f g a a a c a a \barMin
+    b c a( g) g \barMaior
+    c c( d c a) a \barMin
+    c c b( a) g g \barMin
+    f g a g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_ten den
+    bu -- dou pa -- hor -- ky o -- plý -- vat
+    mla -- dým ví -- nem
+    a ho -- ry
+    bu -- dou pře -- té -- kat
+    mlé -- kem a me -- dem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -928,6 +958,28 @@
     c4 c a c d( c b a) a \barMin g g g g( a) g \barMaior
     f g a b c a a \barMin c( d c b) \mark\sipka a( g) g \barMaior
     f g g g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se a já -- sej, si -- ón -- ská dce -- ro,
+    dce -- ro je -- ru -- za -- lém -- ská, za -- ple -- sej.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c d( c b a) a \barMin g g g g( a) g \barMaior
+    f g a b c a a \barMin c( d c b) a( g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Ra -- duj se a já -- sej, si -- ón -- ská dce -- ro,

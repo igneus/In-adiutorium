@@ -123,6 +123,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 d c( d) d d f( e d) c c d d \barMaior
     f g f e( d c) \barMin d \mark\sipka c f e d( e) d d \barFinalis
@@ -156,6 +157,28 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \header {
     quid = "1. ant."
     modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d d \mark\sipka f( g a) f f g g \barMaior
+    g a g f( e d) \barMin
+    e c f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn
+    sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 113"
     id = "1ne-a1"
@@ -1045,6 +1068,26 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \choralniRezim
     f g a a g bes a \barMin g g g a g f( e) d \barMaior
     g g g( a) g f e( d) d d( e) c c d d \barFinalis
+  }
+  \addlyrics {
+    V_něm bu -- dou po -- žeh -- ná -- na všech -- na ple -- me -- na ze -- mě,
+    bla -- ho -- sla -- vit ho bu -- dou všech -- ny ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 72-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g a a g bes a \barMin g g g a g f( e) d \barMaior
+    g g g( a) g f e( d) d \mark\sipka \barMin d( e) c c d d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- na všech -- na ple -- me -- na ze -- mě,
@@ -2027,6 +2070,30 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g( a) f f( g) g \barMin
+    g g \mark\sipka a( bes) a g f( g) f e d( c) c \barMaior
+    d \mark\sipka c d f( g f d) d \barMin
+    f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy ži -- vé vo -- dy
+    bu -- dou vy -- té -- kat z_Je -- ru -- za -- lé -- ma;
+    Pán bu -- de krá -- lem
+    nad ce -- lou ze -- mí.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f g( a) f f( g) g \barMaior
     \mark\sipka a g f( g) f f \barMin g f e d( c) c \barMaior
     d \mark\sipka c d f( g f d) d \barMin
@@ -2172,6 +2239,28 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c( d) c \barMin b c d c b a a \barMaior
+    c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c( d) c \barMin \mark\sipka c d e d c d d \barMaior
     d c( d c a) a \barMin c c c b a
     g a g g \barFinalis
@@ -2236,6 +2325,15 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 }
 
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Habet in vestiménto et in fémore suo scriptum:}
+    Rex regum et Dóminus dominántium.
+    Ipsi glória et impérium in sǽcula sæculórum.
+  }
+}
 
 \score {
   \relative c' {

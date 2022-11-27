@@ -1464,6 +1464,46 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d e d d \barMaior
+    c d c( b a) \barMin a( b) g g a a \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d e d d \barMaior
+    c d \mark\sipka d( c a) \barMin a( b) g g a a \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     \key f \major

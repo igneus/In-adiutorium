@@ -3196,6 +3196,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d f( g a) g \barMaior
+    f e f( d) c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

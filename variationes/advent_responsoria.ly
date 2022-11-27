@@ -334,6 +334,42 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4( c) a( g) g4.( a) g4 f e e \barMin
+    e d( g) f g a a \barMax
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % V
+    \neviditelna b
+    c4 b c a(b c) b \barMin
+    a g( a) f g( a) a \barMax
+    % R
+    \neviditelna b
+    b4 c d4. c4( d) c( b a g) g \barFinalis
+    % Slava
+    c4 c \mark\sipka c( d) c b a( b c) b \barMin
+    \mark\sipka b a g f( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    \Response U -- kaž nám, Hos -- po -- di -- ne, své mi -- lo -- sr -- den -- ství_*
+    a dej nám svou spá -- su.
+    \Verse Ob -- nov nás, Bo -- že, náš spa -- si -- te -- li,_*
+    \Response a dej nám svou spá -- su.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
 \markup\nadpisSkupiny "tradiční nápěv"
 
 \score {
