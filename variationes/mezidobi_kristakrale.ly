@@ -1217,7 +1217,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior
@@ -1244,6 +1244,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior

@@ -308,8 +308,8 @@
     \choralniRezim
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior
-    g g g f d e d c c \barMaior
-    d d d e( f g) \barMin
+    g g f e d e d c c \barMaior
+    d d d d( f g) \barMin
     f( e) d \barFinalis
   }
   \addlyrics {
