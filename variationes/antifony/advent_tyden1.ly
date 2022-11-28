@@ -1454,16 +1454,6 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-    quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
-    psalmus = "Žalm 122"
-    id = "po-amag"
-    fons = "Zvěstování Páně, 2. nešp., 1. ant.; ubráno aleluja"
-    fial = "fial://sanktoral/0325zvestovanipane.ly#2ne-a1?-aleluja"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
 
 \pageBreak
 
