@@ -37,6 +37,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -63,6 +65,94 @@
     differentia = "a"
     psalmus = ""
     placet = "_je_ nesmí být takto odsazené"
+    id = "ne31b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  I když výrazně vybočuje do svrchního tetrachordu,
+  převládá charakter odpovídající modu IV, kterému ji tudíž připisuji.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g g( a) \barMin a g f g e \barMax
+    f f g a g( a) a \barMin a( b) c a a \barMin
+    g f g g( a) a \barMaior
+    a b c c( d c a) a \barMin
+    c b g g( e) e \barMaior
+    e f( g a) g f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din, náš Bůh, je je -- di -- ný Pán.
+    Pro -- to mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší,
+    ce -- lou svou mys -- lí
+    a ce -- lou svou si -- lou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne31b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g g( a) \barMin a g f g e \barMax
+    f f g \mark\sipka f g( a) a \barMin a( b) c a a \barMin
+    \mark\sipka b a g g( a) a \barMaior
+    a b c c( d c a) a \barMin
+    c b \mark\sipka a g( a) g \barMaior
+    g f( g a) \mark\sipka g f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din, náš Bůh, je je -- di -- ný Pán.
+    Pro -- to mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší,
+    ce -- lou svou mys -- lí
+    a ce -- lou svou si -- lou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne31b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin a g f g e \barMax
+    f g a a g( a) a \barMin a( b) c a a \barMin
+    b a g g( a) a \barMaior
+    g f g g( a) a \barMin
+    b( c) a g a( g) g \barMaior
+    a g( a) g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din, náš Bůh, je je -- di -- ný Pán.
+    Pro -- to mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší,
+    ce -- lou svou mys -- lí
+    a ce -- lou svou si -- lou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
     id = "ne31b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

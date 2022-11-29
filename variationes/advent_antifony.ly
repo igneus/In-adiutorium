@@ -1071,6 +1071,28 @@
     }
   }
 
+\score {
+    \relative c'' {
+      \choralniRezim
+      g4 c d c b a g a \barMin
+      f g( a) a \barMin
+      c c c b g a g f g g \barFinalis
+    }
+    \addlyrics {
+      Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+      Pán s_te bou!
+      Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "spol-sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {

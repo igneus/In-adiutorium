@@ -1522,6 +1522,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c4( d) d( a') a a( bes) a a \barMin
+    g a g f( d) e \barMaior
+  }
+  \addlyrics {
+    Vy -- ra -- zí ra -- to -- lest
+    z_ko -- ře -- ne Jes -- se,
+    ze -- mě bu -- de pl -- ná
+    Hos -- po -- di -- no -- vy slá -- vy
+    a kaž -- dý člo -- věk
+    u -- zří Bo -- ží spá -- su.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

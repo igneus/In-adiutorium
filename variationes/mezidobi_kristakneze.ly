@@ -130,6 +130,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 e f f \mark\sipka g( f g a) a \barMin
     g f e( f) d c c( d) d \barFinalis
