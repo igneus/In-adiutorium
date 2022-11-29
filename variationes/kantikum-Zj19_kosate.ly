@@ -149,6 +149,7 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % Vitezstvi
@@ -198,6 +199,72 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
     modus = "IV"
     id = "iv"
   }
+}
+
+modIVial = \relative c'' { \neviditelna a a g g( a) a \barMax }
+modIVal = \relative c' { \neviditelna e e g g( a) a \barFinalis }
+modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \barFinalis \break }
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIVial
+    a4 a a a( b) a g g( a) \barMin a g f d( e) e \barFinalis
+    \modIVal
+    \neviditelna a
+    a4 a g a a( b) a a g a g f g a a a \barFinalis
+    \modIValal
+
+    % Chvalte naseho Boha
+    \modIVial
+    a4 a a( b) a g g( a) a \barMin a a g f d( e) e e \barFinalis
+    \modIVal
+    \neviditelna a
+    a4 a g a a( b) g g \barMin g f g g( a) a \barFinalis
+    \modIValal
+
+    % Pan, nas Buh
+    \modIVial
+    a4-- g a a( b) a a \barMin a g f d e e \barFinalis
+    \modIVal
+    \neviditelna a
+    a4 a g a a( b) g g \barMin f g f g a \barFinalis
+    \modIValal
+
+    % Nebot nadesla
+    \modIVial
+    g4 a a( b) a a \barMin g a g f d( e) e \barFinalis
+    \modIVal
+    \neviditelna a
+    a4 a b g g g f g a a \barFinalis
+    \modIValal
+
+    % Slava
+    \modIVial
+    a4 a a( b) a g g( a) a \barMin a g f d( e) e e \barFinalis
+    \modIVal
+    \neviditelna a
+    a4 a a g a b g a a \barFinalis
+    \modIValal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "IV"
+    id = "iv"
+  }
+}
+
+\score {
+  \relative c'' { \choralniRezim \neviditelna a a4 a g a a( b) a a \barMin a g f g a \barFinalis }
+  \addlyrics { \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest! }
+}
+
+\score {
+  \relative c'' { \choralniRezim \neviditelna a a4 a g a a a b g a a \barFinalis }
+  \addlyrics { \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la. }
 }
 
 modVIIial = \relative c'' { \neviditelna c a c( b) c( d) d \barMax }

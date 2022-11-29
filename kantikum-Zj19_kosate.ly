@@ -221,8 +221,8 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
 }
 
 modIVial = \relative c'' { \neviditelna a a g g( a) a \barMax }
-modIVal = \relative c' { \neviditelna e e g a( g) g \barFinalis }
-modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinalis \break }
+modIVal = \relative c' { \neviditelna e e g g( a) a \barFinalis }
+modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \barFinalis \break }
 
 \score {
   \relative c'' {
@@ -230,42 +230,42 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
 
     % Vitezstvi
     \modIVial
-    a4 a a b a g g( e) \barMin f e d e e \barFinalis
+    a4 a a a( b) a g g( a) \barMin a g f d( e) e \barFinalis
     \modIVal
     \neviditelna a
-    a4 a a a g g \barMin g f g f e f g a a \barFinalis
+    a4 a g a a( b) a a g a g f g a a a \barFinalis
     \modIValal
 
     % Chvalte naseho Boha
     \modIVial
-    a4 a b a g g( e) e \barMin f f e d d( e) e e \barFinalis
+    a4 a a( b) a g g( a) a \barMin a a g f d( e) e e \barFinalis
     \modIVal
     \neviditelna a
-    a4 a a a g e e \barMin f e f g( a) a \barFinalis
+    a4 a g a a( b) g g \barMin g f g g( a) a \barFinalis
     \modIValal
 
     % Pan, nas Buh
     \modIVial
-    a4 a b( a) g e e e f e d e e \barFinalis
+    a4-- g a a( b) a a \barMin a g f d e e \barFinalis
     \modIVal
     \neviditelna a
-    a4 a a g a g e e f e g a \barFinalis
+    a4 a g a a( b) g g \barMin f g f g a \barFinalis
     \modIValal
 
     % Nebot nadesla
     \modIVial
-    a4 a a( b) a( g e) e f f e d d( e) e \barFinalis
+    g4 a a( b) a a \barMin g a g f d( e) e \barFinalis
     \modIVal
     \neviditelna a
-    a4 a g f e e f g a a \barFinalis
+    a4 a b g g g f g a a \barFinalis
     \modIValal
 
     % Slava
     \modIVial
-    a4 a b a g g( e) e \barMin f e d d( e) e e \barFinalis
+    a4 a a( b) a g g( a) a \barMin a g f d( e) e e \barFinalis
     \modIVal
     \neviditelna a
-    a4 a a g( a g) e f g g( a) a \barFinalis
+    a4 a a g a b g a a \barFinalis
     \modIValal
   }
   \addlyrics {
@@ -274,7 +274,6 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinal
   \header {
     modus = "IV"
     id = "iv"
-    placet = "lépe"
   }
 }
 
