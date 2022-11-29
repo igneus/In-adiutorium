@@ -1553,7 +1553,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a b c b a b \barMin
     c d e e c d d \barMaior
@@ -1572,6 +1572,59 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a b c b a b \barMin
+    c d e e c d d \barMaior
+    e( d c) b a g \barMin
+    f( a) a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c b a b \barMin
+    c d e e c d d \barMaior
+    \mark\sipka e( d) c d d( a) \barMin
+    g( c) b a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

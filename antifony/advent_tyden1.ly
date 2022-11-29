@@ -429,7 +429,7 @@
     c d e e c d d \barMaior
     e( d c) b a g \barMin
     f( a) a g g \barMaior
-    g a a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te Hos -- po -- di -- na,
@@ -443,6 +443,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "melisma na _vzývejte ho_ úplně nesedí"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
