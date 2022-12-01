@@ -1788,6 +1788,56 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d f( g) g g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    g a b a g a a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d c( d) f( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    g a b a g a a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

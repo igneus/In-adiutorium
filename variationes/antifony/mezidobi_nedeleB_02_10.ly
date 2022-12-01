@@ -391,6 +391,27 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    e d c d( c) \barMin
+    b c a \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te za mnou;
+    u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne3b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacZeleny
     \choralniRezim

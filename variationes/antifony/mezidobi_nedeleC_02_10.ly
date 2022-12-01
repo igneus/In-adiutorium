@@ -1731,6 +1731,89 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a( g) f( g) g \barMin
+    a c c c b( c a g) g \barMin
+    a b g g \barMaior
+    a a f e d d \barMaior
+    f g a a c a b g g \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš u -- sly -- šel
+    set -- ní -- ko -- va slo -- va,
+    po -- di -- vil se:
+    A -- ni v_Iz -- ra -- e -- li
+    jsem ne -- na -- šel ta -- ko -- vou ví -- ru!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a( g) f( g) g \barMin
+    a c c c b( c a g) g \barMin
+    \mark\sipka a g f( g) g \barMaior
+    g g f e d d \barMin
+    d f g g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš u -- sly -- šel
+    set -- ní -- ko -- va slo -- va,
+    po -- di -- vil se:
+    A -- ni v_Iz -- ra -- e -- li
+    jsem ne -- na -- šel ta -- ko -- vou ví -- ru!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g( a) g g
+    f g a a g( a) a \barMin
+    c b a( g) g \barMaior
+    c d c b a a \barMin
+    a b( c) a a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš u -- sly -- šel
+    set -- ní -- ko -- va slo -- va,
+    po -- di -- vil se:
+    A -- ni v_Iz -- ra -- e -- li
+    jsem ne -- na -- šel ta -- ko -- vou ví -- ru!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisDen {"10. neděle"}}
 
 \score {
