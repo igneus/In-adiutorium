@@ -2021,6 +2021,11 @@
 
 \markup {\nadpisDen {Pátek 1. týdne}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{Ecce véniet Deus et homo de domo David, sedére in throno, allelúia.}
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -2091,6 +2096,58 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d
+    d e c d( e) d d \barMaior
+    d c( d) c c b c a g a( g) \barMin
+    f g a a c( b) g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d
+    d e c d( e) d d \barMaior
+    d c( d) c c b c a g a( g) \barMin
+    \mark\sipka a a g f g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2169,6 +2226,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d c b a g g a g f( g) g \barMaior
+    \mark\sipka a( g a c) c \barMin
+    b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4( a g) g( c) c c d c c e c c( d) d \barMaior
     c( b g a) g \barMin
     f a c c b( a) g \barFinalis
@@ -2226,6 +2305,54 @@
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g f( g) g( a) a \barMin
+    c b g( a) a \barMaior
+    c( d c) c \barMin
+    b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal
+    své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g g
+    f g g( a) a \barMaior
+    c( d c a) a \barMin
+    b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal
+    své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
