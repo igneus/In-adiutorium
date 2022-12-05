@@ -229,7 +229,7 @@
     differentia = "D"
     psalmus = ""
     % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
-    fial = "sanktoral/0503filipjakub.ly#rch-a1?upraveno&+#rch-a2"
+    fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=10&+#rch-a2"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

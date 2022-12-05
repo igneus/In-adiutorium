@@ -78,7 +78,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 145-III"
-    fial = "mezidobi_kristakrale.ly#2ne-amag?jiny text"
+    fial = "mezidobi_kristakrale.ly#2ne-amag?cast=3"
     id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -345,7 +345,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "commune/commune_maria.ly#tercie?jiny_text"
+    fial = "commune/commune_maria.ly#tercie?cast=1,2,4"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -435,7 +435,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f\major
     f4 g a a bes c a4. a \barMin
@@ -454,6 +454,37 @@
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
     fial = "antifony/tyden2_1nedele.ly#rch-ant1?upraveno"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\markup{
+  (Jen odstraněny explicitní délky.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f\major
+    f4 g a a bes c a a \barMin
+    g( a) bes c a g \barMaior
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný,_* jenž při -- chá -- zí
+    ve jmé -- nu Pá -- ně!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 45-I"
+    fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant1?cast=1,3"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

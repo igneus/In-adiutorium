@@ -87,9 +87,9 @@
   \relative c' {
     \choralniRezim
     \key f\major
-    f4 g a a bes c a4. a \barMin
-    g4( a) bes c a4. g \barMaior
-    f4 e c( d) d \barFinalis
+    f4 g a a bes c a a \barMin
+    g( a) bes c a g \barMaior
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný,_* jenž při -- chá -- zí
@@ -102,7 +102,7 @@
     differentia = "f"
     psalmus = "Žalm 45-I"
     fons = "Melodie z: žaltář, neděle 2.t., r.ch., 1.ant. (upravena pro mírně odlišný text)"
-    fial = "antifony/tyden2_1nedele.ly#rch-ant1?upraveno"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant1?cast=1,3"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
