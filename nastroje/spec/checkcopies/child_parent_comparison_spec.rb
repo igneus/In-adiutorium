@@ -188,6 +188,28 @@ describe ChildParentComparison do
           )
         ).not_to be_match
       end
+
+      describe 'handling of first/last section' do
+        it 'first section from in the middle of the source score' do
+          fial = 'parent_path#id?cast=1'
+          expect(
+            described_class.new(
+              score(music: 'a a a \barMin c d', fial: fial),
+              score(music: 'b b a a a f f')
+            )
+          ).to be_match
+        end
+
+        it 'last section from in the middle of the source score' do
+          fial = 'parent_path#id?cast=2'
+          expect(
+            described_class.new(
+              score(music: 'c d \barMin a a a', fial: fial),
+              score(music: 'b b a a a f f')
+            )
+          ).to be_match
+        end
+      end
     end
 
     describe 'with multiple arguments' do

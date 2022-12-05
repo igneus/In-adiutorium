@@ -55,7 +55,7 @@ class ChildParentComparison
     if @fial.additional.has_key?('cast')
       parts = @fial.additional['cast']
       if parts
-        child_sections = normalized_child.split(/\\bar\w+/)
+        child_sections = strip_wrappers(normalized_child).split(/\\bar\w+/)
         return false unless parts.split(',').all? do |i|
           normalized_parent.include? child_sections[i.to_i - 1]
         end
@@ -145,7 +145,7 @@ class ChildParentComparison
   def strip_wrappers(music)
     music
       .sub(/^\\relative.+?\{\s*(\\choralniRezim\s*)?/, '')
-      .sub(/\s*\\barFinalis\s*\}$/, '')
+      .sub(/\s*(\\barFinalis\s*)?\}$/, '')
   end
 
   def both_lyrics_end_with_alleluia?
