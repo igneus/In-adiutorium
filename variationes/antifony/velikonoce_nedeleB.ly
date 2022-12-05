@@ -844,6 +844,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d4.( f4 g) a g a a \barMaior
@@ -869,6 +870,41 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  (Nápěv aleluja převzat z odvozené antifony.)
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d4.( f4 g) a g a a \barMaior
+    a( c) a g f g( f) d d \barMin d c d f( g f) \barMin g( f) e f d \barMax
+    d f g( a) a a( g) a c( bes) a g g( a) \barMaior
+    a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:_*
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+    Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
+    kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {7. neděle velikonoční}}
 
