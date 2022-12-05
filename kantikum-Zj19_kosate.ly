@@ -113,7 +113,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
 
     % Pan, nas Buh
     \modIial
-    a'4.( c) \barMin a4( g) a4.( g) a4( g) f( d) d \barMin d e( f) f e( f) d d \barFinalis
+    a'4.( c) \barMin a4( g) a4.( g) a4( g) f( d) d \barMin d e f e( f) d d \barFinalis
     \modIal
     \neviditelna a
     c'4 c b a c( b) g g \barMin f g f g a \barFinalis
@@ -121,7 +121,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
 
     % Nebot nadesla
     \modIial
-    a4( g) a c( b) a( g) g \barMin a g f g f( d) d \barFinalis
+    a4 a c( b) a( g) g \barMin a g f g f( d) d \barFinalis
     \modIal
     \neviditelna a
     a'4 a a( c) c( a) a a g f e e \barFinalis
@@ -141,11 +141,7 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
   \header {
     modus = "I"
     id = "i"
-    placet = "má několik drsnějších míst:
-    _se ujal království_,
-    _Neboť nadešla_,
-    doxologie;
-    plnou doxologii"
+    placet = "doxologii lépe a pokud možno standardní text"
   }
 }
 

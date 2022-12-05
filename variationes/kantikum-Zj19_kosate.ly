@@ -125,11 +125,49 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d \mark\sipka e f e( f) d d \barFinalis
   }
   \addlyrics {
     se u -- jal krá -- lov -- ství!
+  }
+  \header {
+    quid = ""
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a c( b) a( g) g \barMin a g f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
+  }
+  \header {
+    quid = ""
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    a'4 \mark\sipka g a c c c b g e e \barFinalis
+  }
+  \addlyrics {
+    je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
   }
   \header {
     quid = ""
