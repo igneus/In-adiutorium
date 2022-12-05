@@ -224,7 +224,7 @@
     psalmus = ""
     annus = "C"
     id = "ne23c-ne2-mag"
-    fial = "sanktoral/0825benediktabratri.ly#aben?jiny text"
+    fial = "sanktoral/0825benediktabratri.ly#aben?cast=2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

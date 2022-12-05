@@ -655,7 +655,7 @@
     differentia = "c"
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
-    fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?-aleluja&cast=2&konec=22"
     id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
