@@ -1614,6 +1614,30 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 g g( a) \barMin
+      a g( a) g g f g g( f) f \barMaior
+      f d f f( g) g \barMin
+      g f e d e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       d4 c d( f) \barMin
       f f( g) f f e d c( d) c \barMaior
       bes c d f( e d) d \barMin

@@ -2359,6 +2359,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g g
+    f g g( a) a \barMaior
+    c( d c a) a \barMin
+    \mark\sipka c c b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal
+    své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Sobota 1. týdne}}

@@ -719,6 +719,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a \barMin
+    a g a \mark\sipka b g e e \barMin
+    f g f d e e \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -899,6 +921,30 @@
   \relative c' {
     \choralniRezim
     c4 c c c( d) d \barMin f f \mark\sipka e d e f d d \barMaior
+    a' a c c a b a a \barMin a c a b c a \barMaior
+    a a a a a( g f) \barMin
+    d d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
+    a -- le ten, kte -- rý má při -- jít, je moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 c c c( d) d \barMin f \mark\sipka g f e d e d d \barMaior
     a' a c c a b a a \barMin a c a b c a \barMaior
     a a a a a( g f) \barMin
     d d f e c c( d) d \barFinalis
