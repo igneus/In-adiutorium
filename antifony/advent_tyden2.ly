@@ -54,7 +54,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a g f( a) g g \barMaior
+    g4 g g g a f g( a) g g \barMaior
     c a c b( g) a \barMin
     a a g f g a a g g \barFinalis
   }
@@ -116,7 +116,7 @@
   \relative c' {
     \choralniRezim
     d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
-    d c d d f c d \barMin f f f g f e d d \barMaior
+    d c d d f c d \barMin f f f g f e d d \barMin
     e f d d \barFinalis
   }
   \addlyrics {
@@ -140,7 +140,7 @@
     \choralniRezim
     d4 c d e d f e c d d \barMaior
     a c( d) c( d) d \barMin c b a c b g g \barMaior
-    f g a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí

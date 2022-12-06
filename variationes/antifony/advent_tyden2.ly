@@ -356,9 +356,32 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g g g a g f( a) g g \barMaior
+    c a c b( g) a \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Zá -- kon byl dán skr -- ze Moj -- ží -- še,
+    mi -- lost a prav -- da
+    při -- sla skr -- ze Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a \mark\sipka f g( a) g g \barMaior
     c a c b( g) a \barMin
     a a g f g a a g g \barFinalis
   }
@@ -503,10 +526,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
     \mark\sipka d c d d f c d \barMin f f f g f e d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni, kdo žíz -- ní -- te, pojď -- te k_vo -- dám:
+    hle -- dej -- te Hos -- po -- di -- na,
+    do -- kud je mož -- né ho na -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
+    d c d d f c d \barMin f f f g f e d d \mark\sipka \barMin
     e f d d \barFinalis
   }
   \addlyrics {
@@ -602,11 +649,56 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d e d f e c d d \barMaior
     a c( d) c( d) d \barMin c b a c b g g \barMaior
     f \mark\sipka g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d e d f e c d d \barMaior
+    a c( d) c( d) d \barMin c b a c b g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d e d f e c d d \barMaior
+    \mark\sipka d c( d) c( b a4.) a \barMin c4 b a c b g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
