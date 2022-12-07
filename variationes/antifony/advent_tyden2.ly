@@ -1494,6 +1494,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) f g a g g \barMin
+    \mark\sipka c b a( g) a \barMaior
+    a b( c) a( g) g f g f g( a) a \barMin
+    c c b a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš zno -- vu zbu -- do -- vá -- no,
+    Bo -- ží měs -- to,
+    a u -- vi -- díš spra -- ved -- li -- vé -- ho,
+    kte -- rý k_to -- bě při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Čtvrtek 2. týdne}}
