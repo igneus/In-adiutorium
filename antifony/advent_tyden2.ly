@@ -359,6 +359,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "totožný text s mezidobi_kristakrale.ly#2ne-a1 - vybrat lepší melodii a sjednotit"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
