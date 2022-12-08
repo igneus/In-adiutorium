@@ -118,6 +118,7 @@ namespace :sanity do
   task :copies do
     sh 'ruby', 'nastroje/checkcopies.rb',
        '--save=.last_mismatches.yml',
+       '--mismatches',
        # invoke `UPDATE=1 rake sanity:copies` to update the save
        (ENV['UPDATE'] ? '--update_save' : ''),
        *all_ly_files
