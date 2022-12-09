@@ -1359,6 +1359,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \key d \minor
 
     \choralniRezim
@@ -1385,6 +1386,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \key d \minor
 
     \choralniRezim
@@ -1402,7 +1404,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Žalm 24"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}

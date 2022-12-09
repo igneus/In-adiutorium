@@ -296,10 +296,10 @@
     \key d \minor
 
     \choralniRezim
-    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    a4 a a g( a) g g \barMin f g a a bes a g a a \barMaior
     c c c a g f \barMin g d f e d d \barFinalis
 
-    d^\markup\rubrVelikAleluja d( e) c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
@@ -310,7 +310,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Žalm 24"
     placet = "druhá půle, zdá se mi, do chorálního repertoáru stylově nezapadá"
     id = "mc-a1"

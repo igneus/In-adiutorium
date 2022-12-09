@@ -47,7 +47,7 @@
     a g f g a \barMin
     f g d \barMaior
 
-    g a g f e \barMin
+    g a g f e
     f e c d d \barMaior
     e c d f f g( f) \barMin
     g f e c( d) d \barFinalis
@@ -68,7 +68,7 @@
     differentia = "f"
     psalmus = ""
     id = "amag"
-    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek=40"
     fons_externus = "volně podle AR1912, s. 564"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -89,13 +89,13 @@
     % R
     \neviditelna f
     f4 f g f f f g( a) a( g) \barMax
-    g g g g g( a) g( f) d f( g) g f f \barFinalis
+    g g g f g( a) g( f) d f( g) g f f \barFinalis
     % V
     \neviditelna a
     a a( bes) a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g g g( a) g( f) d f( g) g f f \barFinalis
+    g g g f g( a) g( f) d f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -144,6 +144,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -178,7 +180,7 @@
     \key d \minor
 
     \choralniRezim
-    a4 a a g( a) g g \barMin f g a( bes) a bes a g a a \barMaior
+    a4 a a g( a) g g \barMin f g a a bes a g a a \barMaior
     c c c a g f \barMin g d f e d d \barFinalis
   }
   \addlyrics {
@@ -188,7 +190,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Žalm 24"
     fial = "commune/commune_maria.ly#mc-a1?-aleluja"
     id = "mc-a1"
@@ -531,7 +533,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a a c b a g a \barMaior
+    g4 g( a) g a c b a g a \barMaior
     c c c b( a g) f a g g \barFinalis
   }
   \addlyrics {
@@ -555,14 +557,14 @@
     % R
     \neviditelna f
     f4 f f f g f g( a) a( g) \barMax
-    g g g g( a) g g f d f g g f \barFinalis
+    g g g g( a) g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a a g f g g \barMin
-    g f g g g f g g( a) \barMax
+    a4 a a( bes) a a a a g( a) g \barMin
+    g a g g g f g g( a) \barMax
     % R
     \neviditelna a
-    g g g g( a) g g f d f g g f \barFinalis
+    g g g g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -589,7 +591,7 @@
     a g f g a \barMin
     f g d \barMaior
 
-    g a g f e \barMin
+    g a g f e
     f e c d d \barMaior
     e c d f f g( f) \barMin
     g f e d c
