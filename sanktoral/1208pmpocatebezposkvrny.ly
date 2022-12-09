@@ -216,6 +216,7 @@
     differentia = "f"
     psalmus = "Žalm 46"
     fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    placet = "vyzkoušet alternativy"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -473,6 +474,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "půjde lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
