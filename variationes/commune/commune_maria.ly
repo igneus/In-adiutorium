@@ -1471,6 +1471,54 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( a) a( g) g \barMin
+    f e \mark\sipka e( f d) c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( a) a( g) g \barMin
+    f \mark\sipka g a f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3270,6 +3318,36 @@ je "\"skororepetice\"" melodie 2 v 4.}
 \score {
   \relative c' {
     \choralniRezim
+    d4 e c d d( a' bes) a \barMin
+    a g f g a \mark\sipka \barMaior
+    g(-- f e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    fons_externus = "volně podle AR1912, s. 220"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Upravený text)
+}
+\score {
+  \relative c' {
+    \choralniRezim
     f4 c d d( a' bes) a \barMin
     a g f g a \barMin
     g(-- f e) c( d) d \barFinalis
@@ -3285,6 +3363,33 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
   \header {
     textus_approbatus = "Buď zdráva, Maria, milostiplná! Pán s tebou! Aleluja."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    fons_externus = "volně podle AR1912, s. 220"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e c d d( a' bes) a \barMin
+    a g f \mark\sipka g( a) g \barMin
+    f( e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    Pán s_te -- bou!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
     quid = "1. ant."
     modus = "I"
     differentia = "D"
