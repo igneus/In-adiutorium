@@ -1635,11 +1635,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c( d) \barMin
     d c d f( g) f e d \barMaior
     f f f \mark\sipka g f d \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Po mně při -- jde ten,
+    kte -- rý byl dří -- ve než já;
+    je -- mu ne -- jsem ho -- den
+    roz -- vá -- zat o -- pán -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d \mark\sipka c d \barMin
+    d c d f( g) f e d \barMaior
+    f f f g f d \barMin
     f e c e( f) d d \barFinalis
   }
   \addlyrics {
@@ -1669,6 +1694,30 @@
   \addlyrics {
     Po mně při -- jde ten,
     kte -- rý byl dří -- ve než já;
+    je -- mu ne -- jsem ho -- den
+    roz -- vá -- zat o -- pán -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( f) f \barMin
+    g g f g g( a) g f d( c) \barMaior
+    f f f g f d \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Po mně při -- jde
+    ten, kte -- rý byl dří -- ve než já;
     je -- mu ne -- jsem ho -- den
     roz -- vá -- zat o -- pán -- ky.
   }
