@@ -232,13 +232,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f d d \barMin
-    f e f g g g f g a a \barMaior
-    a a a a a( c) c c b( g) g( a) a \barMin
-    a a a g a g( f) e e \barMin
-    d( f) e d \barFinalis
+    f4 g a g g \barMin
+    a a a a g f e f d d \barMaior
+    c d f e f( g) g g a( f) f( g) g \barMin
+    a a a g f e( f) d d \barMin
+    e c d \barFinalis
   }
   \addlyrics {
     Ne -- od -- su -- zuj -- te,
@@ -250,9 +250,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = ""
-    placet = "začátek lépe"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

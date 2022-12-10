@@ -799,6 +799,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f d d \barMin
     f e f g g g f g a a \barMaior
@@ -818,6 +819,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "začátek lépe"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -877,6 +879,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a g g \barMin
     a \mark\sipka a a a g f e f d d \barMaior
