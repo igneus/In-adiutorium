@@ -118,6 +118,11 @@
 
 \pageBreak
 
+\markup\justify{
+  (V době adventní je varianta tohoto textu s civilnějším/modernějším \italic{čerpat,}
+  ale tady je v tištěném breviáři skutečně \italic{vážit.})
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy

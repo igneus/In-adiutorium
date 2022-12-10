@@ -508,6 +508,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d f( e) f \mark\sipka a( g) f( g) g \barMax
+    a( g) f g( f) e( f) d \barFinalis
+    % V
+    \neviditelna f
+    a4( bes) a g g( a) g \barMin g a g g f g g( a) \barMax
+    % R
+    \neviditelna g
+    a( g) f g( f) e( f) d \barFinalis
+    % Slava
+    a'4 a a( bes) a g g( a) g \barMin g a g f g g( a) \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    piece = "ferie - nešpory (I)"
+    id = "fe-ne"
+  }
+}
+
 \markup\nadpisSkupiny "tradiční nápěv"
 
 \score {
