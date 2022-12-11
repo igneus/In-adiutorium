@@ -107,13 +107,13 @@
     a bes a g f f( g) g g a f e d d d \barFinalis
     % V
     \neviditelna g
-    g4 g g g( a) a \barMin a a a a bes( c) a4. a \barMin
+    g4 g g g( a) a \barMin a a g a bes( c) a a \barMin
     bes4 g bes a a \barFinalis
     % R
     \neviditelna a
     a bes a g f f( g) g g a f e d d d \barFinalis
     % Slava
-    a'4 a a( bes) a g g( a) a \barMin a bes g g( bes) a4. a \barFinalis
+    a'4 a a( bes) a g g( a) a \barMin a g a a( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Je -- ru -- za -- lé -- me, vze -- šlo tvé svět -- lo;_*
