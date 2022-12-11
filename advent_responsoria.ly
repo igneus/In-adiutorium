@@ -160,6 +160,7 @@
     modus = "II"
     titulus = "ferie - nešpory"
     piece = \markup\sestavTitulekRespII
+    placet = "melisma na _zástupů_ trochu drhne"
     id = "fe-ne"
   }
 }

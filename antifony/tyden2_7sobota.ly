@@ -33,6 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
+    placet = "nepříliš zpěvná"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -226,7 +227,7 @@
     modus = "I"
     differentia = "g"
     psalmus = "Žalm 8"
-    placet = "je přijatelný krok na _je_?"
+    placet = "je přijatelný krok na _je_?; závěr je netypický"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
