@@ -71,6 +71,28 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4( g a g) f( g) \barMin
+      f( g) f e d( c) c \barMaior
+      f g a a g f f \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se krá -- li,
+      na kte -- ré -- ho če -- ká -- me.
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit1"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {

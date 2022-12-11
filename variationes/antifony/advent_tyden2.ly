@@ -1944,6 +1944,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka e4 d e g( a) g f g( a) g f e \barMin
+    d f f e e \barMaior
+    e d( c d) e( f) f( e) \barMin
+    f g a a g( f) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- zved -- ne svou ko -- rou -- hev
+    ne -- zi ná -- ro -- dy
+    a shro -- máž -- dí
+    roz -- ptý -- le -- ný Iz -- ra -- el.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d a' a g g a a \barMin
     c a g a a \barMaior
     f g f f( d) \barMin

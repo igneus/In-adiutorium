@@ -137,6 +137,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( a') a a a( c) a g g( a) a \barMaior
+    a g a g f g( a) g g \barMin
+    g( a g f) d d d( e f d) d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še při -- lnu -- la_* k_to -- bě, můj Bo -- že,
+    mé tě -- lo by -- lo pro te -- be pá -- le -- no oh -- něm.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

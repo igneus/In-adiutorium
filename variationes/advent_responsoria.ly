@@ -513,6 +513,11 @@
 
 \markup\nadpisSkupiny "tradiční nápěv"
 
+\markup\justify{
+  Tradičního adventního nápěvu jsem nenašel žádný příklad,
+  který by měl srovnatelně dlouhý text druhé části responsa.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -520,13 +525,13 @@
     % R
     \neviditelna f
     f4 f f f f f f f( d) e( f) g \barMax
-    \repeat unfold 14 { f } \barFinalis
+    g g g e f d c c d f e d e e \barFinalis
     % V
     \neviditelna c
     c d( f) f e( f) f \barMin
     f f f f f f f f f d e( f) g \barMax
     % R
-    \repeat unfold 14 { f } \barFinalis
+    g g g e f d c c d f e d e e \barFinalis
     % Slava
     \respIVdoxologie \barFinalis
   }
@@ -540,9 +545,44 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "IV"
     id = "ne-rch"
-    piece = \markup {\sestavTitulekResp}
+    titulus = "ferie - ranní chvály"
+    piece = \markup\sestavTitulekRespII
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f \mark\sipka d e( f) g \barMax
+    g g g e f d c c d f e d e e \barFinalis
+    % V
+    \neviditelna c
+    \mark\sipka c c c d( f) f \barMaior
+    f f f f \mark\sipka f( g) f f \barMin f f d e( f) g \barMax
+    % R
+    g g g e f d c c d f e d e e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Je -- ru -- za -- lé -- me, vze -- šlo tvé svět -- lo;_*
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
+    \Verse U -- vi -- díš ra -- dost,
+    kte -- rá k_to -- bě při -- chá -- zí od tvé -- ho Bo -- ha;_*
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-rch"
+    titulus = "ferie - ranní chvály"
+    piece = \markup\sestavTitulekRespII
   }
 }
 
@@ -564,6 +604,38 @@
     a( g) f g( f) e( f) d \barFinalis
     % Slava
     f4 f f( g) f d f( g) g \barMin g f g a( f) g4. g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    piece = "ferie - nešpory (II)"
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d f( e) f \mark\sipka f g g( f) \barMax
+    g( f) e e( f) d d \barFinalis
+    % V
+    \neviditelna f
+    f4( g) f d f( g) g \barMin g f g g a( g) f( g) \mark\sipka g( f) \barMax
+    % R
+    \neviditelna g
+    g( f) e e( f) d d \barFinalis
+    % Slava
+    f4 f f( g) f d f( g) g \barMin g f g a( f) g g \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
