@@ -155,10 +155,10 @@
   \relative c'' {
     \choralniRezim
     c4 c b a g( a) g \barMaior
-    f a c c b \barMin
-    b c a a( g) g \barMaior
-    a a a f( e) d( e) d \barMin
-    f g( a) a g g \barFinalis
+    f a c d c \barMin
+    c b a g( a) g \barMax
+    c d e c( b) a( g) g \barMin
+    a f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Ob -- rať -- te se ke mně,
@@ -180,10 +180,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g f g a a \barMin c c b a c( b a g) g \barMaior
-    g g g g g g g a( b) a g g \barMin a( g) f( e) e \barMaior
+    g4 a g f g a a \barMin c c b a g( a g) g \barMaior
+    g g g g g f g a b g g \barMin a( g) f( g) g \barMaior
     g( c) d d( c) \barMin d c d c( b) a \barMaior
-    c c c c b a g( a) g g \barFinalis
+    c c c b c a g f( a) g g \barFinalis
   }
   \addlyrics {
     Jan sly -- šel ve vě -- ze -- ní
@@ -191,11 +191,9 @@
     Po -- slal te -- dy k_ně -- mu své u -- čed -- ní -- ky
     s_do -- ta -- zem:
     Ty jsi ten, kte -- rý má při -- jít,
-    ne -- bo má -- me če -- kat ji -- né -- ho?
+    a -- ne -- bo má -- me če -- kat ji -- né -- ho?
   }
   \header {
-    textus_approbatus = "Jan slyšel ve vězení o Kristových činech.
-    Poslal tedy k němu své učedníky s dotazem: Ty jsi ten, který má přijít, anebo máme čekat jiného?"
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
@@ -209,9 +207,9 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin a g a a b a g e e( a) a a \barMax
-    e e e( f) e \barMin f e g( a) a g \barMaior
+    a a g( a) g \barMin a g a( b) b a \barMaior
     a a a b( a g a) a( g) \barMin f g g e \barMaior
-    f f d( e) e \barFinalis
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Jdě -- te a o -- znam -- te Ja -- no -- vi, co vi -- dí -- te:
