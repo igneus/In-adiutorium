@@ -115,7 +115,7 @@
     g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
     f f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
     a b c b c c \barMin b c a g g \barMax
-    g( a g d) g( a) a \barMin c d c a g \barMaior
+    g( a g d) g( a) a \barMin c d c a g \barMin
     f f f( g) g \barFinalis
   }
   \addlyrics {
@@ -204,7 +204,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f e f d e c( d) d \barMaior
+    c4 d f e f d e c( d) d \barMaior
     d c a c d e d d \barMin
     f e d c( d) c c \barMaior
     c( d e f) e( d) \barMin
