@@ -94,6 +94,86 @@ podobného znění, tu teď ale nemohu najít.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c a c d d d e( d c) d \barMaior
+    \mark\sipka f f f g( a) g f( g) f \barMin e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d c a c( d) d \barMaior
+    f f f g f d d \barMin e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d c a c( d) d \barMaior
+    f f f g f d d \barMin \mark\sipka d e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g a g f f( g) g \barMaior
+    a a a g f d d \barMin e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
