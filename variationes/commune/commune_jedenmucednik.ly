@@ -1651,7 +1651,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1677,6 +1677,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "melisma na _Tříbil_ není moc pěkné"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -1693,6 +1694,45 @@
     % V
     \neviditelna a
     \mark\sipka a4 a a a \mark\sipka g( a g) g \barMin g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g( f) d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zkou -- šel jsi nás, Bo -- že,_*
+    a -- le ne -- od -- ňals nám svou lás -- ku.
+    \Verse Tří -- bil jsi nás oh -- něm, ja -- ko se tří -- bí stříb -- ro,_*
+    \Response a -- le ne -- od -- ňals nám svou lás -- ku.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Ta tři \italic{(s)tří,} z toho dvě hodně těsně za sebou,
+  jsou značně nelibozvučná. Tahle varianta z jednoho z nich poněkud
+  snímá důraz (přízvučná slabika není dále zdůrazněna tím,
+  že na ní melodie dělá krok, jako ve variantě předchozí).
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g( a) a( g) \barMax
+    g f g( a) g( f) d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a g) g \barMin g g g \mark\sipka g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g f g( a) g( f) d f g g f \barFinalis

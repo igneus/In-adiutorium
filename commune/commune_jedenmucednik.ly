@@ -752,7 +752,7 @@
     g f g( a) g( f) d f g g f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a a a g( a) g \barMin g g g f g g( a) a( g) \barMax
+    a4 a a a g( a g) g \barMin g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g f g( a) g( f) d f g g f \barFinalis
@@ -769,7 +769,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "melisma na _Tříbil_ není moc pěkné"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
