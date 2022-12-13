@@ -170,6 +170,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ל"
+    placet = "_Hospodine_ je jaksi nevážné; terciový skok na _vždyť_ se mi těžko trefuje"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
