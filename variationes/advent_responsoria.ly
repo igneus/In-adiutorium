@@ -627,13 +627,45 @@
     % R
     \neviditelna d
     d4 d d d f( e) f \mark\sipka f g g( f) \barMax
-    g( f) e e( f) d d \barFinalis
+    \mark\sipka g( f) e e( f) d d \barFinalis
     % V
     \neviditelna f
     f4( g) f d f( g) g \barMin g f g g a( g) f( g) \mark\sipka g( f) \barMax
     % R
     \neviditelna g
     g( f) e e( f) d d \barFinalis
+    % Slava
+    f4 f f( g) f d f( g) g \barMin g f g a( f) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    piece = "ferie - nešpory (II)"
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d \mark\sipka c d( f) f g( f) g( a) a \barMax
+    a( g) f g( f) e( f) d \barFinalis
+    % V
+    \neviditelna f
+    f4( g) f d f( g) g \barMin g f g g a( g) f( g) g \barMax
+    % R
+    \neviditelna g
+    a( g) f g( f) e( f) d \barFinalis
     % Slava
     f4 f f( g) f d f( g) g \barMin g f g a( f) g g \barFinalis
   }

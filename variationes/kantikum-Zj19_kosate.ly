@@ -207,6 +207,224 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
 
 \pageBreak
 
+modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMax }
+modIIal = \relative c' { \neviditelna d d d( e) d( c) c \barFinalis }
+modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinalis \break }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIIial
+    f4 f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Chvalte naseho Boha
+    \modIIial
+    f4 f f f f g f \barMin f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Pan, nas Buh
+    \modIIial
+    f4 f f f f f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f f f e c c( d) \barFinalis
+    \modIIalal
+
+    % Nebot nadesla
+    \modIIial
+    f4 f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Slava
+    \modIIial
+    f4 f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    % podle logiky toho napevu ze Solesmes by "svatemu" nebylo "cd d d", ale "c cd d"
+    % ale v ramci projektu In adiutorium tenhle styl terminace modu II neni obvykly
+    % a tady mi to k ceskemu textu nesedi
+    c4 d( f) f f( e) c( d) d \barFinalis
+    \modIIalal
+
+    % Jako byla
+    \modIIial
+    f4 f f f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 d( f) f f f e c( d) d \barFinalis
+    \modIIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtextII
+  }
+  \header {
+    % AR2 nemá aleluja na začátku veršů, my sledujeme co možná doslovně text v breviáři;
+    % také rozdělení delších veršů malým akcentem je moje úprava
+    fons_externus = "podle Antiphonale Romanum II, Solesmis 2009, s. 30"
+    modus = "II"
+    id = "ii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIIial
+    f4 f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 \mark\sipka d f f f f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Chvalte naseho Boha
+    \modIIial
+    f4 f f f f g f \barMin f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 \mark\sipka d f f f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Pan, nas Buh
+    \modIIial
+    f4 f f f f f f e d e( f) d d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 \mark\sipka d f f f f f f f e \mark\sipka c( d) d \barFinalis
+    \modIIalal
+
+    % Nebot nadesla
+    \modIIial
+    f4 f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 \mark\sipka d f f f f f e c( d) d \barFinalis
+    \modIIalal
+
+    % Slava
+    \modIIial
+    f4 f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    % podle logiky toho napevu ze Solesmes by "svatemu" nebylo "cd d d", ale "c cd d"
+    % ale v ramci projektu In adiutorium tenhle styl terminace modu II neni obvykly
+    % a tady mi to k ceskemu textu nesedi
+    c4 \mark\sipka d f f( e) c( d) d \barFinalis
+    \modIIalal
+
+    % Jako byla
+    \modIIial
+    f4 f f f f f f f f f e d e( f) d \barFinalis
+    \modIIal
+    \neviditelna d
+    c4 \mark\sipka d f f f e c( d) d \barFinalis
+    \modIIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtextII
+  }
+  \header {
+    % AR2 nemá aleluja na začátku veršů, my sledujeme co možná doslovně text v breviáři;
+    % také rozdělení delších veršů malým akcentem je moje úprava
+    fons_externus = "podle Antiphonale Romanum II, Solesmis 2009, s. 30"
+    modus = "II"
+    id = "ii"
+  }
+}
+
+\score {
+  \relative c' { \choralniRezim \neviditelna c c4 d f f f f f f f e \mark\sipka c d \barFinalis }
+  \addlyrics { \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest! }
+}
+
+modIIial = \relative c' { \neviditelna d c4 d d( f) f( g) \barMax }
+modIIal = \relative c'' { \neviditelna g g g f( g) f \barFinalis }
+modIIalal = \relative c' { \neviditelna d f f e( f) d \barMin d( c) d( f) e( c) d \barFinalis \break }
+
+\markup\justify{
+  Verze nezávislá na solesmeské a košatější:
+}
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIIial
+    f4( g) f f \barMin e( f) d c d( c) \barMin d c d d( f) f \barFinalis
+    \modIIal
+    \neviditelna d
+    f f f f g( a) g f e f d c d f e e \barFinalis
+    \modIIalal
+
+    % Chvalte naseho Boha
+    \modIIial
+    f4 f f f f f( g) f \barMin e f d c d( f) f f \barFinalis
+    \modIIal
+    \neviditelna d
+    f f f f g( a) g( f) f \barMin f d c d( f) e \barFinalis
+    \modIIalal
+
+    % Pan, nas Buh
+    \modIIial
+    f4 f f f( g) f f \barMin f d c d( f) f( g) f \barFinalis
+    \modIIal
+    \neviditelna d
+    f f f f g( a) g( f) f \barMin e f d f e \barFinalis
+    \modIIalal
+
+    % Nebot nadesla
+    \modIIial
+    f4 f f( g) f f \barMin e f d c d( f) f \barFinalis
+    \modIIal
+    \neviditelna d
+    f f g( a) g( f) f f d c d( f) e \barFinalis
+    \modIIalal
+
+    % Slava
+    \modIIial
+    f4 f f f f f( g) f \barFinalis
+    \modIIal
+    \neviditelna d
+    f d c d f e \barFinalis
+    \modIIalal
+
+    % Jako byla
+    \modIIial
+    f4 f f f f g f f \barMin e f d c d( f) f \barFinalis
+    \modIIal
+    \neviditelna d
+    f g( a) g f d c d( f) e \barFinalis
+    \modIIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtextII
+  }
+  \header {
+    modus = "II"
+    id = "ii"
+  }
+}
+
+\score {
+  \relative c' { \choralniRezim \neviditelna d f f e( f) d \barMin d( c) \mark\sipka d( f e d) c( d) d \barFinalis \break }
+  \addlyrics { \alal }
+}
+
+\pageBreak
+
 modIVial = \relative c'' { \neviditelna a a g g( a) a \barMax }
 modIVal = \relative c' { \neviditelna e e g a( g) g \barFinalis }
 modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin f g e e \barFinalis \break }
