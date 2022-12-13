@@ -17,7 +17,11 @@
       " "
     }
 
-    \on-the-fly \development-build \line{ \placet }
+    \fill-line{
+      \on-the-fly \development-build \placet
+      ""
+      \small { \fromproperty #'header:fons_externus }
+    }
   }
 }
 
@@ -29,7 +33,7 @@ ial = \lyricmode { \markup\bold\large\with-color #red {A} -- le -- lu -- ja. }
 al = \lyricmode { \Response A -- le -- lu -- ja. }
 alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
-kantikumZjXIXtext = \lyricmode {
+kantikumZjXIXverse = \lyricmode {
   \Verse \ial
   Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
   \al
@@ -53,12 +57,34 @@ kantikumZjXIXtext = \lyricmode {
   \al
   \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
   \alal
-
+}
+kantikumZjXIXdoxologiekratka = \lyricmode {
   \Verse \ial
   Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
   \al
   \Verse po všech -- ny vě -- ky vě -- ků. A -- men.
   \alal
+}
+kantikumZjXIXdoxologie = \lyricmode {
+  \Verse \ial
+  Slá -- va Ot -- ci i Sy -- nu
+  \al
+  \Verse i Du -- chu sva -- té -- mu.
+  \alal
+
+  \Verse \ial
+  Ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
+  \al
+  \Verse a na vě -- ky vě -- ků. A -- men.
+  \alal
+}
+kantikumZjXIXtext = \lyricmode {
+  \kantikumZjXIXverse
+  \kantikumZjXIXdoxologiekratka
+}
+kantikumZjXIXtextII = \lyricmode {
+  \kantikumZjXIXverse
+  \kantikumZjXIXdoxologie
 }
 
 modIial = \relative c'' { \neviditelna a a4 c( b) a( b g) g( a) \barMax }
