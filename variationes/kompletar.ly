@@ -339,6 +339,43 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d( f) f \barMin g f d e( c) d \barMaior
+    c d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g d) d( c) c \barMin
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
 \pageBreak
 
 \score {
