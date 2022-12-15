@@ -216,15 +216,29 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c c( d) d \barMaior
+    f f e f d d \barMin
+    f g a g f g f( d) d \barMaior
+    f e d c( d) c c \barMin
+    d e f g f d c( d) d \barMax
+    f g a g f( g) f f \barMaior
+    f f f g f e f d c c \barMin
+    d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Hospodine, Bože Abrahámův, Izákův a Izraelův, ať se dnes ukáže, že ty jsi Bůh v Izraeli, že já jsem tvůj služebník a že jsem všechno toto učinil na tvé slovo.
+    Hos -- po -- di -- ne,
+    Bo -- že A -- bra -- há -- mův,
+    I -- zá -- kův a Iz -- ra -- e -- lův,
+    ať se dnes u -- ká -- že,
+    že ty jsi Bůh v_Iz -- ra -- e -- li,
+    že já jsem tvůj slu -- žeb -- ník
+    a že jsem všech -- no to -- to u -- či -- nil
+    na tvé slo -- vo.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
