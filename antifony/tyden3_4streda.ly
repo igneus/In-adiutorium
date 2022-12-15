@@ -227,6 +227,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 126"
+    placet = "netypický a nepříliš uspokojivý závěr"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
