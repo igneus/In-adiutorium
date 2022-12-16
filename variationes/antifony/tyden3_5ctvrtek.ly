@@ -846,6 +846,27 @@ si hrát:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 c c c b c c( d) d \barMin d c b a( g) g \barMaior
+    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?zacatek=17"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIctvrtekAntBenedictus }

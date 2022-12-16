@@ -531,6 +531,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f g f( g) d d \barMaior
+    f f e f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -821,6 +841,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f f e d e( f) f f \barMin
+    g f e c d \barMaior
+    \mark\sipka f( e c d) d( c) \barMin
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Byl člo -- věk po -- sla -- ný od Bo -- ha,
+    jme -- no -- val se Jan;
+    při -- šel,
+    a -- by svěd -- čil o svět -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -983,6 +1027,35 @@
     bes g a g( f) d d \barMaior
 
     f4 f e f g( a g) f d d \barFinalis
+  }
+  \addlyrics {
+    Já křtím vo -- dou.
+
+    Me -- zi vá -- mi sto -- jí ten,
+    ko -- ho vy ne -- zná -- te;
+
+    ten, kte -- rý má při -- jít po mně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = "Magnificat"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 g( a) g( f d) d \barMaior
+
+    c d d( a') a bes g a \barMin
+    bes g a g( f) d d \barMaior
+
+    f4 f e f \mark\sipka g( f e) d c( d) d \barFinalis
   }
   \addlyrics {
     Já křtím vo -- dou.

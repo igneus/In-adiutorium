@@ -613,6 +613,58 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d \barMin e c d( e) d d \barMaior
+    d \mark\sipka c a c b a g( a) g \barMin
+    f g a a a c b g g \barMaior
+    a g a a( c) c \barMin
+    d e d c b( c) a g a a( g) \barFinalis
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d \barMin e c d( e) d d \barMaior
+    d c a c b a g( a) g \barMin
+    f g a a a c b g g \barMaior
+    a g a a( c) c \barMin
+    d e d c \mark\sipka b( c a) g a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
