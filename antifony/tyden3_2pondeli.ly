@@ -241,8 +241,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d( a') a a g( a) bes c a g g( a) a \barMin
-    c c d a a a g f g( d) d \barFinalis
+    d4 d d( a') a a g( a) bes c a g g( a) a \barMaior
+    g f e( f) d d c f e c( d) d \barFinalis
   }
   \addlyrics {
     Na -- še po -- moc je ve jmé -- nu Hos -- po -- di -- na,
@@ -253,7 +253,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 124"
-    placet = "neobvyklý divoký závěr, zbytečný rozsah"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
   }
