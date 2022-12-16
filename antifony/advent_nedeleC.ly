@@ -166,7 +166,7 @@
     \choralniRezim
     a4 g bes g a a \barMin
     a a a g f g f e f d d \barMaior
-    c c d f g a g \barMin
+    f f d f g a g \barMin
     f e c c( d) d \barFinalis
   }
   \addlyrics {

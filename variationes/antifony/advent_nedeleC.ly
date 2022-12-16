@@ -724,10 +724,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g bes g a a \barMin
     a a a g f g f e f d d \barMaior
     c c d f g a g \barMin
+    f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo má dvo -- je ša -- ty,
+    ať se roz -- dě -- lí s_tím, kdo ne -- má žád -- né;
+    a kdo má ně -- co k_jíd -- lu,
+    ať jed -- ná stej -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g bes g a a \barMin
+    a a a g f g f e f d d \barMaior
+    \mark\sipka f f d f g a g \barMin
     f e c c( d) d \barFinalis
   }
   \addlyrics {
