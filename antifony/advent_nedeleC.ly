@@ -205,6 +205,7 @@
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
+    placet = "nevím"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -233,6 +234,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "hlavně úvodní části moc nedrží pohromadě"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -118,6 +118,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "první půlka není moc zpěvná"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -174,6 +175,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "druhá půlka stále není ono"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

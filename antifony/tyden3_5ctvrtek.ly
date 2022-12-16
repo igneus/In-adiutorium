@@ -138,6 +138,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 99"
+    placet = "dlouhé melisma na _Hospodina_ je čímsi neorganické/nadbytečné"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
