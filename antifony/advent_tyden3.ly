@@ -445,6 +445,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "_Jednejte_ si nejsem jist"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
