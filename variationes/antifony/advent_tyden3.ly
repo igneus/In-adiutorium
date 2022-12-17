@@ -2008,6 +2008,95 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( c) c \barMin
+    c c d( e) d c d( e) d c a a \barMaior
+    a a g a c b a a \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( c) c \barMin
+    c c d( e) d c d( e) d c a a \barMaior
+    a a g a \mark\sipka a( c) b a a \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( c) c \barMin
+    c c d( e) d c d( e) d c \mark\sipka d d \barMaior
+    c b a g c b a a \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4( a) a( c) c \barMin
+    c c d( e) d c d( e) d c d d \barMaior
+    c b a g \mark\sipka f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
