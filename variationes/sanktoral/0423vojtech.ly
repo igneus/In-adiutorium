@@ -1322,6 +1322,32 @@
     d4 d d( a') a a \barMin c b a g a4. e \barMaior
     f4 f g( a) a( g) a \barMin a( b) g e( a) a \barMaior
     f4 g a a a( b) g e4. e \barMin
+    g4 f( g) f d d( e) e \barMaior
+    \mark\sipka f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Voj -- tě -- chu, slav -- ný mu -- čed -- ní -- ku,
+    dob -- rý pas -- tý -- ři, chlou -- bo Če -- chů,
+    při -- mlou -- vej se za náš ná -- rod
+    i za ce -- lou cír -- kev.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a a \barMin c b a g a4. e \barMaior
+    f4 f g( a) a( g) a \barMin a( b) g e( a) a \barMaior
+    f4 g a a a( b) g e4. e \barMin
     \mark\sipka e4 d e f f( d) d
     f g e e \barFinalis
   }

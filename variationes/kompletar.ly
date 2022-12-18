@@ -376,6 +376,44 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f e d \barMaior
+    f g d d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( e) d \barMin f g f e( f) d( c) \barMaior
+    d d f e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
 \pageBreak
 
 \score {
@@ -909,6 +947,23 @@
   \relative c' {
     \choralniRezim
     d4 d c d d( f) f \barMin f g f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f f e( f) d \barMin f e c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.

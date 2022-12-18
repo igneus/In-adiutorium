@@ -1712,6 +1712,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c c c( d) c a b( c) c \barMaior
+    d c b c( b) a b g g \barMaior
+    a4 f \mark\sipka a c c b( c a) a \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ro -- su dej -- te, ne -- be -- sa, shů -- ry,
+    ob -- la -- ka, spusť -- te déšť prá -- va;
+    ať se o -- tev -- ře ze -- mě
+    a zplo -- dí spá -- su.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-so-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup{
   Stejný model melodie, jako má latinská předloha:
 }

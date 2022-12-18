@@ -82,6 +82,28 @@ v předvánočním týdnu latinsky.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f f f f g f e f d d \barMaior
+    \mark\sipka d c a c c( d) \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Věz -- te, že Bo -- ží krá -- lov -- ství je blíz -- ko.
+    A -- men, pra -- vím vám,
+    ne -- dá se za -- dr -- žet.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-17-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {18. prosince}}
