@@ -42,6 +42,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 130"
+    placet = "melismata na _Přijď, Pane_ jsou tu jaksi navíc - zkusit jinak"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
