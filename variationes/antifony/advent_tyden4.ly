@@ -232,6 +232,46 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e f d( c) c \barMaior
+    \mark\sipka d f e( f d) d d( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e f d( c) c \barMaior
+    d f e( f d) d \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -319,6 +359,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a c b c d a a \barMin
+    c d e d c d d \mark\sipka \barMaior
+    d-- c( b a) g( a) a \barMin
+    g a b a \barFinalis
+  }
+  \addlyrics {
+    Za -- trub -- te na Si -- ó -- nu,
+    při -- blí -- žil se den spá -- sy:
+    Pán při -- chá -- zí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -329,6 +393,32 @@
     a a a a( d) c b c b a g a a \barMaior
     c d e d( c b) a \barMin c( a g) g \barMin f f f g g \barMaior
     g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán při -- chá -- zí, jdě -- te mu na -- pro -- ti:
+    By -- la mu dá -- na ve -- li -- ká moc
+    a je -- ho krá -- lov -- ství ne -- bu -- de mít kon -- ce,
+    on je Bůh sil -- ný, Vlád -- ce, kní -- že po -- ko -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b) a a \barMin f g a b( c a) a( g) g \barMax
+    d' e f d d \barMin c d c b( c d) \barMaior
+    a a a a( d) c b c b a g a a \barMaior
+    c d e d( c b) a \barMin c( a g) g \barMin f f f g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Pán při -- chá -- zí, jdě -- te mu na -- pro -- ti:
@@ -419,6 +509,32 @@
     d4 d( a' bes) a a c a bes( a) g( a) \barMin
     g( a g) f( e) e \barMaior
     d d d d d( f e) c c( d) d \barMax
+    c f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Tvé vzne -- še -- né Slo -- vo, Bo -- že,
+    se -- stou -- pí z_krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
+    fial = "fial://vanoce_narozenipane.ly#26-amag?cast&volne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d( a' bes) a a c a bes( a) g( a) \barMin
+    g( a g) f( e) e \barMaior
+    d d \mark\sipka c d d( f e) c c( d) d \barMaior
     c f( e) d d \barFinalis
   }
   \addlyrics {
