@@ -90,10 +90,6 @@
   }
 }
 
-\markup{
-  Responsorium \italic{Ukaž nám} se kromě nedělí zpívá také 17. a 18. prosince.
-}
-
 \pageBreak
 
 \score {
@@ -163,4 +159,8 @@
     placet = "melisma na _zástupů_ trochu drhne"
     id = "fe-ne"
   }
+}
+
+\markup{
+  17. a 18. prosince se o nešporách zpívá responsorium \italic{Ukaž nám,} viz výše pro neděle.
 }
