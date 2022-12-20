@@ -208,7 +208,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f d f( g a) a bes bes a a \barMaior
@@ -239,6 +239,82 @@ v předvánočním týdnu latinsky.}
     d4 d d f d f( g a) a bes bes a a \barMaior
     a4 a g f a g f d( e) d( c) \barMin
     d e f \mark\sipka d( e) d d \barMaior
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f \mark\sipka g a g f( e) d( c) \barMin
+    d e f e( c) c( d) d \barMaior
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f g a g f( e) d( c) \barMin
+    d e f \mark\sipka e( f) d d \barMaior
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f g a g f( e) d( c) \barMin
+    d \mark\sipka c d( f e) c d d \barMaior
     e4 f d d \barFinalis
   }
   \addlyrics {

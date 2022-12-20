@@ -118,7 +118,7 @@
     \choralniRezim
     \key f \major
     d4 d d f d f( g a) a bes bes a a \barMaior
-    a4 a g f a g f d( e) d( c) \barMin
+    a4 a g f g a g f( e) d( c) \barMin
     d e f e( c) c( d) d \barMaior
     e4 f d d \barFinalis
   }
