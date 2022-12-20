@@ -31,7 +31,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c c( d4.) \barMin
     c4 a g g( a) a \barMaior
@@ -47,6 +47,39 @@
     na set -- ká -- ní s_ním.
   }
   \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Tohle melisma jsem zvyklý zpívat jako normální melisma před divisio,
+  ne s prodloužením závěrečné noty, jak bylo zapsáno.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c \mark\sipka c( d) \barMin
+    c4 a g g( a) a \barMaior
+    f g a \barMin
+    a a g a f e \barMin
+    e f d d e \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán,
+    Král krá -- lů ze -- mě;
+    bla -- ze těm,
+    kdo jsou při -- pra -- ve -- ni
+    na set -- ká -- ní s_ním.
+  }
+  \header {
+    textus_approbatus = "Hle, přijde Pán, Král králů země;
+    blažení, kdo jsou připraveni na setkání s ním."
     quid = "1. ant."
     modus = "III"
     differentia = "a"
