@@ -321,8 +321,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f( a) a( g) g \barMin
-    f e f( d) c d d \barFinalis
+    f4 f g( a) a( g) g \barMin
+    f e e( f d) c d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }

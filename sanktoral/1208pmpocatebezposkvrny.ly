@@ -201,10 +201,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f( a) a( g) g \barMaior
+    f4 f f g( a) a( g) g \barMaior
     g f g a g g a bes a g( a) g g \barMaior
-    a a( g f) e( f) d d \barMin
-    c d e( f d) c d d \barFinalis
+    a a( g f) e( f) d( c) c \barMin
+    d c d( f e) c d d \barFinalis
   }
   \addlyrics {
     Bůh si ji vy -- vo -- lil

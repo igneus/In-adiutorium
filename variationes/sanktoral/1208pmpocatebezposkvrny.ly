@@ -581,12 +581,65 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f( a) a( g) g \barMaior
     g f g a g g a bes a g( a) g g \barMaior
     a a( g f) e( f) d d \barMin
     c d e( f d) c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f \mark\sipka g( a) a( g) g \barMaior
+    g f g a g g a bes a g( a) g g \barMaior
+    a a( g f) e( f) d d \barMin
+    c d e( f d) c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g( a) a( g) g \barMaior
+    g f g a g g a bes a g( a) g g \barMaior
+    a a( g f) e( f) \mark\sipka d( c) c \barMin
+    d c d( f e) c d d \barFinalis
   }
   \addlyrics {
     Bůh si ji vy -- vo -- lil
