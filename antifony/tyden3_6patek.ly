@@ -59,7 +59,7 @@
   \relative c'' {
     \choralniRezim
     a4 bes a g( a) a \barMin
-    g f g f e c d d \barFinalis
+    a g f e g f d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
@@ -74,7 +74,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 69-III"
-    placet = "krok na _a_ je divný - chvíli mi nevadí, chvíli působí výrazně nelibě"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
