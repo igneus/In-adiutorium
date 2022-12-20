@@ -26,16 +26,16 @@
     \choralniRezim
 
     \neviditelna a
-    a4( c) b a a g f g( a) f( e) d4. \barMax
-    f4 g a f e4. e \barFinalis
+    a4( c) b a a g f g( a) f( e) d \barMax
+    f4 g a f e e \barFinalis
 
     \neviditelna a
-    a4 b c c c b( g) e4. e \barMax
+    a4 b c c c b( g) e e \barMax
     \neviditelna e
-    f4 g a f e4. e \barFinalis
+    f4 g a f e e \barFinalis
 
-    a4 a c b c a a4. \barMin
-    a4 b g f e e4. \barFinalis
+    a4 a c b c a a \barMin
+    a4 b g f e e \barFinalis
   }
   \addlyrics {
     \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*

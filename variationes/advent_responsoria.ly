@@ -23,6 +23,7 @@
 % z responsoria pro dobu postni.
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     \neviditelna a
@@ -49,6 +50,43 @@
     quid = "resp."
     modus = "III"
     piece = "neděle - ranní chvály (III)"
+    id = "ne-rch"
+  }
+}
+
+\markup\justify{
+  (Jen odstraněny nadbytečné explicitní délky.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    \neviditelna a
+    a4( c) b a a g f g( a) f( e) d \barMax
+    f4 g a f e e \barFinalis
+
+    \neviditelna a
+    a4 b c c c b( g) e e \barMax
+    \neviditelna e
+    f4 g a f e e \barFinalis
+
+    a4 a c b c a a \barMin
+    a4 b g f e e \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, na kte -- ré -- ho če -- ká -- me,_*
+    \Response smi -- luj se nad ná -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "III"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
     id = "ne-rch"
   }
 }
