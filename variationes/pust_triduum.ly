@@ -776,6 +776,29 @@
   }
 }
 
+\markup\justify{
+  Tyhle divisiones jsem si už dávno zvykl ignorovat:
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f( a) a g a bes a( g a) a \barMaior
+    a a a( f) e( d) d \mark\sipka c d4.( f) e4( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,
+    a -- le vy -- dal ho za nás za všec -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 51"
+    id = "pa-rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
