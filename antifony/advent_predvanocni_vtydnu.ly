@@ -70,6 +70,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "nápěv _až přijde_ úplně nesedí"
     id = "predvanocni-zlm-po-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
