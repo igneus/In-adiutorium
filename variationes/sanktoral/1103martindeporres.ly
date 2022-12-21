@@ -115,6 +115,58 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b c( d) d \barMaior
+    d d d c d e f e d d \barMin
+    c d c b a g g \barMaior
+    a( g f) g( a c d) c \barMin
+    b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- me Bo -- ha,
+    ne -- boť on své -- ho po -- ní -- že -- né -- ho
+    slu -- žeb -- ní -- ka Mar -- ti -- na
+    po -- vý -- šil
+    do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b c( d) d \barMaior
+    d d d c d e f e d d \barMin
+    c d c b a g g \barMaior
+    a( g f) g( a c d) c \barMin
+    b c a \mark\sipka g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- me Bo -- ha,
+    ne -- boť on své -- ho po -- ní -- že -- né -- ho
+    slu -- žeb -- ní -- ka Mar -- ti -- na
+    po -- vý -- šil
+    do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
@@ -175,6 +227,32 @@
     d( f e) f( g) f d e d d \barMaior
     \mark\sipka f( g a) f( e d4.) d \barMin
     c4 d f e d d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- me Bo -- ha,
+    ne -- boť on své -- ho po -- ní -- že -- né -- ho
+    slu -- žeb -- ní -- ka Mar -- ti -- na
+    po -- vý -- šil
+    do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c( d) d \barMaior
+    d d d c d f e d c c \barMin
+    \mark\sipka d e f e f g g \barMaior
+    a( g f) e( f d c) c \barMin
+    d f e c d d \barFinalis
   }
   \addlyrics {
     Ve -- leb -- me Bo -- ha,

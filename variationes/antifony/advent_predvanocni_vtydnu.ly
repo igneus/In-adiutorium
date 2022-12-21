@@ -279,6 +279,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d \mark\sipka d c( b) a( g) g \barMin
+    a f f e e f f( g) g \barMaior
+    a( c) c b( g) g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- stou -- pí
+    ze své -- ho sva -- té -- ho síd -- la,
+    při -- jde spa -- sit svůj lid.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -348,6 +370,33 @@
     a d c d4. a \barMin
     g4( a) f e d \barMaior
     d4( a' f) g( f) e( f) d \barFinalis
+  }
+  \addlyrics {
+    Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
+    Spa -- si -- tel je v_něm hrad -- bou a va -- lem:
+    o -- tevř -- te brá -- ny,
+    s_ná -- mi je Bůh.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes a g f f( g) g \barMin
+    f g g g g a g a a( bes a) a \barMaior
+    a d c d4. a \barMin
+    g4( a) f e d \barMaior
+    \mark\sipka a'( g f) g( f) e( f) d \barFinalis
   }
   \addlyrics {
     Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
@@ -446,6 +495,28 @@
     \choralniRezim
     c4 c c c d c b a b g \barMaior
     f g( a) a a a( c) b \mark\sipka c( d) d( c) c \barMin
+    b c a g g \barFinalis
+  }
+  \addlyrics {
+    Kéž se po -- zná na ze -- mi, jak jed -- náš,
+    kéž po -- zna -- jí všech -- ny ná -- ro -- dy,
+    jak za -- chra -- ňu -- ješ.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d c b a b g \barMaior
+    f g( a) a a \mark\sipka g a c d c
     b c a g g \barFinalis
   }
   \addlyrics {
