@@ -12,7 +12,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e d c f g( a) a \barMaior
     a a a( c a) g( a) a a( b) c a g g \barMaior
@@ -37,6 +37,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 e d c f g( a) a \barMaior
     a a a( c a) g( a) a a( b) c a g g \barMaior

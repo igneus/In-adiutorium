@@ -17,8 +17,8 @@
     \choralniRezim
     d4 e d c f g( a) a \barMaior
     a a a( c a) g( a) a a( b) c a g g \barMaior
-    g a g f g f( d) d \barMin
-    d c d f e d c e f d d \barFinalis
+    g a a g f e( f d) d \barMin
+    d c d f f f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din,
