@@ -1007,6 +1007,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c c( d) d \barMaior
+    a d b c a( g) a \barMin
+    \mark\sipka g f g a( c) a a \barFinalis
+  }
+  \addlyrics {
+    K_to -- bě, Pa -- ne,
+    po -- zve -- dám svou du -- ši,
+    přijď a vy -- svo -- boď mě,
+    k_to -- bě se u -- tí -- kám.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
