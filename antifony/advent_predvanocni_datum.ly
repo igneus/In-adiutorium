@@ -278,6 +278,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-20-o?konec=21"
     id = "predvanocni-21-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
