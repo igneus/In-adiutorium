@@ -53,6 +53,7 @@
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
+    placet = "aktualisovat ze zdroje, upravit fial na automaticky ověřitelný"
     fial = "fial://antifony/tyden4_4streda.ly#rch-ant2?jiny_text"
     piece = \markup {\sestavTitulek}
   }
