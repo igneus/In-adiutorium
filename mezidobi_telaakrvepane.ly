@@ -208,7 +208,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 42"
-    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast=1,2"
     placet = "se závěrem si zkusit trochu pohrát"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}

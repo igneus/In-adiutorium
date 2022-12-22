@@ -69,7 +69,7 @@
     differentia = "d"
     psalmus = "Flp 2"
     id = "ne-1ne-a3"
-    fial = "pust_triduum.ly#so-resp?cast&jiny_text"
+    fial = "pust_triduum.ly#ct-resp?konec=17"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -241,7 +241,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    fial = "sanktoral/0806promenenipane.ly#2ne-amag?-aleluja&upraveno&jiny_text"
+    fial = "sanktoral/0806promenenipane.ly#2ne-amag?zacatek=12&cast=3&konec=23&-aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -589,7 +589,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    fial = "sanktoral/0806promenenipane.ly#nona?delsi_text"
+    fial = "sanktoral/0806promenenipane.ly#nona?zacatek=34"
     id = "2ne-amag"
     fons = "1. část: zde, uprostřed dne, odpoledne"
     piece = \markup {\sestavTitulekBezZalmu}

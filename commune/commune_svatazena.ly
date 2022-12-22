@@ -285,7 +285,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
-    fial = "sanktoral/0916ludmila.ly#rch-a2?jiny_text"
+    fial = "sanktoral/0916ludmila.ly#rch-a2?zacatek=18&konec=9&+aleluja"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }

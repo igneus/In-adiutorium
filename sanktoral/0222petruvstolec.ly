@@ -194,7 +194,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
-    fial = "sanktoral/0629petraapavla.ly#2ne-a1?cast"
+    fial = "sanktoral/0629petraapavla.ly#2ne-a1?cast=2,3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

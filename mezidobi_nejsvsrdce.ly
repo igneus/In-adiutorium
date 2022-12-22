@@ -255,7 +255,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g4.( a) \barMin a4 b a b b( d) d \barMaior
-    d d( e c d) d \barMin d c( b a) g g( a) a \barMin a a( b g) g \barFinalis
+    d4 d( e c d) d \barMin d c( b a) g g( a) a \barMin a a( b g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš stál a hla -- si -- tě vo -- lal:

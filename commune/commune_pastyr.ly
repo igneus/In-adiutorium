@@ -616,7 +616,7 @@
     psalmus = "Žalm 15"
     id = "2ne-a1"
     fons = "Cyril a Metoděj, dopoledne; úprava textu z pl. do sg. + doplněno aleluja"
-    fial = "sanktoral/0705cyrilametodej.ly#tercie?jiny_text&+aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#tercie?zacatek=16&konec=16&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

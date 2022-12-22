@@ -675,7 +675,7 @@
     psalmus = "Žalm 112"
     id = "2ne-a2"
     fons = "kousek z: Svaté Rodiny, cyklus C, k Benedictus"
-    fial = "vanoce_narozenipane.ly#svrodiny-rch-abenC?cast"
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-abenC?cast=2,3,4,5"
     piece = \markup {\sestavTitulek}
   }
 }

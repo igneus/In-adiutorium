@@ -436,7 +436,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleA.ly#ivmag2?upraveno"
+    fial = "antifony/velikonoce_nedeleA.ly#ivmag2?cast=3&konec=14"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

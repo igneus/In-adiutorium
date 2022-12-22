@@ -1808,7 +1808,7 @@
       differentia = "c"
       psalmus = "Benedictus"
       id = "31-aben"
-      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?delsi_text"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?konec=34"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

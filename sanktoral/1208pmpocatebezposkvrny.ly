@@ -30,7 +30,7 @@
     differentia = "g"
     psalmus = "Žalm 113"
     id = "1ne-a1"
-    fial = "fial://sanktoral/1208pmpocatebezposkvrny.ly#rch-aben?cast"
+    fial = "fial://sanktoral/1208pmpocatebezposkvrny.ly#rch-aben?cast=1,2"
     piece = \markup {\sestavTitulek}
   }
 }
