@@ -231,7 +231,7 @@
     g4 a c( d) d \barMin
     c d e c c( d) d \barMaior
     a d b c a( g) a \barMin
-    f g a c( b) a a \barFinalis
+    g f g a( c) a a \barFinalis
   }
   \addlyrics {
     K_to -- bě, Pa -- ne,

@@ -984,7 +984,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( d) d \barMin
     c d e c c( d) d \barMaior
@@ -1009,6 +1009,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a c( d) d \barMin
     c d e c c( d) d \barMaior
