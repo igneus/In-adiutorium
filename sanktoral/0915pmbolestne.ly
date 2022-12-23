@@ -110,17 +110,17 @@
     \choralniRezim
 
     % R
-    \neviditelna d
-    d d d( f) d \barMin c d e f d \barMax
-    f e g f e d d \barFinalis
+    \neviditelna f
+    f4 f f( g) f \barMin g f g g( a) a( g) \barMax
+    g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a( c d) d c e( f d) \barMax
+    a( bes) a a g( a) \barMax
     % R
     \neviditelna f
-    f e g f e d d \barFinalis
+    g f d f g g( f) f \barFinalis
     % Slava
-    a c c( d) d c e( f d) d \barMin f e g f( e) d d \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
@@ -131,8 +131,7 @@
   }
   \header {
     quid = "resp."
-    modus = "II"
-    placet = "zkusit tradiční nápěv"
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

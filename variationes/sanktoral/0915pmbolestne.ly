@@ -327,6 +327,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -352,6 +353,8 @@
   \header {
     quid = "resp."
     modus = "II"
+    placet = "zkusit tradiční nápěv;
+    melisma na _Kristových_ je značně nezpěvné"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -497,6 +500,38 @@
     g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
+    \mark\sipka a a a g( a g) \barMax
+    % R
+    \neviditelna f
+    g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
+    čer -- pá -- me mi -- lost spá -- sy.
+    \Verse Z_Kris -- to -- vých ran_*
+    \Response čer -- pá -- me mi -- lost spá -- sy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
     a( bes) a a \mark\sipka g( a) \barMax
     % R
     \neviditelna f
@@ -594,6 +629,39 @@
     % V
     \neviditelna a
     a g f g( a) \barMax
+    % R
+    \neviditelna f
+    g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Skr -- ze te -- be, Pan -- no Ma -- ri -- a,_*
+    čer -- pá -- me mi -- lost spá -- sy.
+    \Verse Z_Kris -- to -- vých ran_*
+    \Response čer -- pá -- me mi -- lost spá -- sy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka f( g) f \barMin g f g g( a) a( g) \barMax
+    g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a( bes) a a g( a) \barMax
     % R
     \neviditelna f
     g f d f g g( f) f \barFinalis
@@ -1498,6 +1566,39 @@
     \mark\sipka a a g f g f e( f) d \barMin e g f d d \barFinalis
     % Slava
     a' a \mark\sipka g( a) g f g( a) a \barMin a \mark\sipka g a a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna a
+    \mark\sipka a4 a a( bes) a g g \barMin g f g a a \barMax
+    a a g f g f e( f) d \barMin e g f d d \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin f g bes a g( a) a \barMax
+    % R
+    \neviditelna a
+    a a g f g f e( f) d \barMin e g f d d \barFinalis
+    % Slava
+    a' a g( a) g f g( a) a \barMin a g a a( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
