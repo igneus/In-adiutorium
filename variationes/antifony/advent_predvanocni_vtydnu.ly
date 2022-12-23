@@ -206,6 +206,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
+    f g f \mark\sipka e( f) d
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {úterý}}
@@ -1377,6 +1399,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e g a a b( g) a \barMaior
+    g( a) g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, o -- brať k_nám svou tvář,
+    přijď už a ne -- pro -- dlé -- vej.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "predvanocni-zlm-ct-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak % ZLOM
 
 \markup\nadpisDen {pátek}
@@ -1617,6 +1659,26 @@
     \choralniRezim
     g4 a c c c d e d d \barMaior
     c d \mark\sipka d( c a) \barMin a( b) g g a a \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d e d d \barMaior
+    \mark\sipka d c b b( c) a g a a \barFinalis
   }
   \addlyrics {
     Vy -- tr -- vej -- te a u -- vi -- dí -- te,

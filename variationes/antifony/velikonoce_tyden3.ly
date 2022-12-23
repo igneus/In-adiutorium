@@ -1215,6 +1215,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( a) a a a( b) g g( a) a \barMaior
+    a g f e( d) e \barMin
+    e f( g a) g f( g) e e \barMax
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be
+    vám dá -- vá můj O -- tec.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

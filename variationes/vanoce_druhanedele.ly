@@ -469,6 +469,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g \barMin a( bes a) g f( g) g \barMaior
+    a a g f g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
+    na -- ro -- dil se Spa -- si -- tel všech li -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 118"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
