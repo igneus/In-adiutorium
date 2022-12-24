@@ -977,6 +977,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f f e( f d c) c \barMin d c f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f f e( f) g \barMin a g f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
 \markup\nadpisSkupiny "Nad upraveným textem"
 
 \score {
