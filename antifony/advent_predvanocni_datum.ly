@@ -359,6 +359,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "_anděl_ nezpěvné"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
