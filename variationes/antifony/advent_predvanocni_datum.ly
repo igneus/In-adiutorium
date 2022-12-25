@@ -2260,6 +2260,26 @@ podobně.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' d d c b c( d) \barMaior
+    d c b c a \mark\sipka g( a) g \barMin f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Dnes po -- zná -- te, že při -- jde Pán,
+    a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "invitatorium"
+    id = "predvanocni-24-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisHodinka {ranní chvály}
@@ -2365,6 +2385,36 @@ podobně.}
     d d d( f) f e( f) d( c) c \barMax
 
     d \mark\sipka d c d f f f g( a g f4.) d \barMaior
+    f4 e d e d a a \barMin
+    a( d) d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    A ty, Bet -- lé -- me
+    v_jud -- ské ze -- mi,
+    ne -- jsi vů -- bec nej -- men -- ší,
+
+    pro -- to -- že z_te -- be vy -- jde vlád -- ce,
+    kte -- rý bu -- de pa -- no -- vat
+    mé -- mu iz -- ra -- el -- ské -- mu li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-24-rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d c( d) d( f) f \barMin
+    g( a) f f( g) g \barMaior
+    a a g f e( f) d( c) c \barMaior
+
+    d c d d f f f g( a g f4.) d \barMaior
     f4 e d e d a a \barMin
     a( d) d f f f e c d d \barFinalis
   }
@@ -2552,6 +2602,28 @@ podobně.}
     c4( d) e c c( d) d \barMin
     c \mark\sipka b a b g g \barMin
     a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) e c c( d) d \barMin
+    c b a b g g \barMin
+    a g \mark\sipka f( g) a a( g) g \barFinalis
   }
   \addlyrics {
     Zdvih -- ně -- te hla -- vu,
@@ -2821,6 +2893,38 @@ podobně.}
     % R
     \neviditelna a
     \mark\sipka g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+    při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
+    \Verse Bu -- de nad ná -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Response při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "predvanocni-24-rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a( bes) a a g( a) g \barMin a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

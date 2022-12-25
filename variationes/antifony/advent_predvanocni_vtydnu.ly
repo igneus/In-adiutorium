@@ -1742,6 +1742,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     \mark\sipka d4 f g a4. a \barMaior
     a4 g a g( f) e \barMin

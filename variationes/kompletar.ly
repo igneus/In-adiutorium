@@ -689,6 +689,23 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 c d f g f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "čtvrtek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZeleny
     \choralniRezim
     d4 c d d( f) e c d d \barFinalis
@@ -711,6 +728,25 @@
   \relative c' {
     \choralniRezim
     d4 f f e d f d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "čtvrtek - ant."
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    piece = \markup\sestavTitulek
+    id = "ct"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.

@@ -1406,4 +1406,30 @@
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g( c) a( g) g \mark\sipka \barMin
+      a g f g a a g g \barMaior
+      a a a a a( c) c \mark\sipka \barMin
+      d c d d( c) c \barMaior
+      a c c c b a g g \barFinalis
+    }
+    \addlyrics {
+      An -- děl Ga -- bri -- el
+      o -- zná -- mil Pan -- ně Ma -- ri -- i,
+      že se má stát mat -- kou
+      Bo -- ží -- ho Sy -- na,
+      a ne -- pře -- sta -- ne být pan -- nou.
+    }
+    \header {
+      quid = "ant. odpoledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "spol-nona"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
 }
