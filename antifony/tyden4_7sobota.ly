@@ -90,24 +90,21 @@
   \relative c'' {
     \choralniRezim
     d4 d d c( d) c c \barMin
-    d e d c( b a) \barMaior
-    c b a g( a) g \barMin
-    f( g) g( a) a \barMin
-    c c b g a( g) g \barFinalis
+    d c d( e) d \barMaior
+    d c b a( g) a \barMin
+    c a a g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din při -- chá -- zí
     sou -- dit svůj lid;
     ne -- be i ze -- mě
-    zvěs -- tu -- jí
-    je -- ho spra -- ve -- dl -- nost.
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 50-I"
-    placet = "_lid_ dlouhé melisma nenese zrovna dobře"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -117,7 +114,7 @@
   \relative c'' {
     \choralniRezim
     d4 e d c d d( c) \barMaior
-    c d c b g a( g) g \barFinalis
+    a c b a g a( g) g \barFinalis
   }
   \addlyrics {
     Vzý -- vej mě v_sou -- že -- ní,

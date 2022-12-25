@@ -256,6 +256,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d \mark\sipka e( f d) d c( d) \barMin
+    c b g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 b d c( b) g \barMin
     a g f g g \barFinalis
 
@@ -481,6 +505,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d d e d e f( d) d \barMin e e d c b \barMaior
+    d c b c a g g \barMin \mark\sipka a g f( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
+    Da -- vi -- da za pas -- tý -- ře své -- ho li -- du.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-VI"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V liturgickém mezidobí:}
@@ -534,7 +582,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4 d d c( d) c c \barMin
     d e d c( b a) \barMaior
@@ -554,6 +602,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 50-I"
+    placet = "_lid_ dlouhé melisma nenese zrovna dobře"
     id = "mc-b-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -691,10 +740,35 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c( d) c c \barMin
     \mark\sipka d c d( e) d \barMaior
-    d e f d( c) c \barMin
+    d c b a( g) a \barMin
+    c a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    d c d( e) d \barMaior
+    \mark\sipka d e f d( c) c \barMin
     c c c b a g a g g \barFinalis
   }
   \addlyrics {
@@ -810,7 +884,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e d c d \mark\sipka d( c) \barMaior
     c d c b g a( g) g \barFinalis
@@ -832,6 +906,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 e d c d d( c) \barMaior
     \mark\sipka a c b a g a( g) g \barFinalis
