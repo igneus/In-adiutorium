@@ -178,6 +178,7 @@
     differentia = "D"
     psalmus = "Žalm 16"
     piece = \markup\sestavTitulek
+    placet = "spíš lépe"
     id = "ct"
   }
 }
@@ -197,6 +198,7 @@
     differentia = "D"
     psalmus = "Žalm 88"
     piece = \markup\sestavTitulek
+    placet = "nepříliš zpěvná"
     id = "pa"
   }
 }
