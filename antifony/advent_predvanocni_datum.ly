@@ -348,7 +348,7 @@
   \relative c' {
     \choralniRezim
     d4 d d f e d d( e) e \barMin
-    f f f e( d) d e f d c d d \barFinalis
+    f e d c c d f e c d d \barFinalis
   }
   \addlyrics {
     Ny -- ní se spl -- ni -- lo všech -- no,
@@ -359,7 +359,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "_anděl_ nezpěvné"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

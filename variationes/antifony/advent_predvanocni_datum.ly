@@ -706,7 +706,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f e d d( e) e \barMin
     f f f \mark\sipka e( d) d e f d c d d \barFinalis
@@ -720,6 +720,7 @@ v předvánočním týdnu latinsky.}
     modus = "II"
     differentia = "D"
     psalmus = "Benedictus"
+    placet = "_anděl_ nezpěvné"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -747,7 +748,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d4 d d f e d d( e) e \barMin
     f e d c c \mark\sipka d f e c d d \barFinalis
