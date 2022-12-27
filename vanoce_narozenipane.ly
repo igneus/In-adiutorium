@@ -1383,6 +1383,7 @@
       modus = "I"
       differentia = "g"
       psalmus = "Magnificat"
+      placet = "věnovat jí trochu péče"
       id = "26-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
