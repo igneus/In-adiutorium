@@ -44,12 +44,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d \barMin
-    c b a g c d d \barMin
+    c4( d) d \barMin
+    c b a g c( d) d d \barMin
     c d e e( d) d \barMaior
-    a a( d) d c b c( b a) a \barMaior
-    a c( a) g g \barMin
-    a g f g a a a g g \barFinalis
+    d a( d) d c b c( a g4.) g \barMaior
+    a4 b( c) a a \barMin
+    a g f g a a g( a) g g \barFinalis
   }
   \addlyrics {
     Ště -- pán,
@@ -62,7 +62,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Žalm 2"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -72,9 +72,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f e f d d \barMin
+    d4 d c d f e d d \barMin
     d e d c c( d) d \barMaior
-    a' a g a a \barMin
+    a' g a( b) a a \barMin
     a g f e d e c d \barFinalis
   }
   \addlyrics {
@@ -86,7 +86,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "f"
+    differentia = "D"
     psalmus = "Žalm 11"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -96,20 +96,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a \barMaior
+    a4 a a g f g( a) a \barMin
     a a a b( c a) g( a) a \barMaior
-    a b( c) a a \barMin
-    g f g f( d) d \barFinalis
+    a g( f g) g( f) \barMin
+    e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mo -- hl ob -- stát
     před je -- ho moud -- ros -- tí
-    a před Du -- chem,
-    kte -- rý z_něj mlu -- vil.
+    a Du -- chem,
+    kte -- rý z_ně -- ho mlu -- vil.
   }
   \header {
-    textus_approbatus = "Nikdo nemohl obstát před jeho moudrostí
-    a Duchem, který z něho mluvil."
     quid = "3. ant."
     modus = "I"
     differentia = "a"
@@ -170,9 +168,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 \barMin g a c a g d' c a( b) a \barMaior
-    c d e d( c) c( d) d \barMin
-    c b c b a g g( a) a( g) g \barFinalis
+    d4 c d e d c e e d d \barMaior
+    d c b c( a) a( g) g \barMaior
+    a b( c a) a \barMin a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Hle, vi -- dím ne -- be -- sa o -- tev -- ře -- ná
@@ -182,7 +180,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "a"
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -197,8 +195,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c d d( c d) e( d) d \barMin c d e e d( c b) a \barMaior
-    a a a b a g c( d c) a g a a a \barFinalis
+    d4 d e c d( e) d d \barMin c d c b a( g) g \barMaior
+    a a f g a a \barMin c( d c) b c a g g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
@@ -206,8 +204,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
