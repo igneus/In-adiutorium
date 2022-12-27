@@ -708,6 +708,24 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c d( e) d d \barMin d c b a b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g( a) g f f( g) g \barMin g f d f g g f f \barFinalis
