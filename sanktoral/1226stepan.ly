@@ -203,10 +203,13 @@
     a byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
   }
   \header {
+    textus_approbatus = "Svatý Štěpán uviděl otevřené nebe
+    a jako první byl korunován slávou mučedníků."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "rozhodně upravit na oficiální text"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
