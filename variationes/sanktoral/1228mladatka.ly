@@ -83,7 +83,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g a a a g a b g g( a) a \barMaior
     a a a( f) g f( d) d \barMin
@@ -93,6 +93,32 @@
     Vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
     pro -- ti Hos -- po -- di -- nu
     a je -- ho po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 2"
+    fial = "pust_triduum.ly#pa-mc-ant1?cast"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g a a a g a b g g( a) a \barMaior
+    a a a( f) g f( d) d \barMin
+    \mark\sipka d c d f g f e e \barFinalis
+  }
+  \addlyrics {
+    Vla -- da -- ři se spo -- lu u -- mlou -- va -- jí
+    pro -- ti Hos -- po -- di -- nu
+    a je -- ho Po -- ma -- za -- né -- mu.
   }
   \header {
     quid = "1. ant."
