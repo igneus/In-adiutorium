@@ -1481,7 +1481,7 @@
     \relative c' {
       \choralniRezim
       d4 d d d( f) d f g f d d \barMaior
-      f f f e( d c) \barMin a c d d( e) d c d d \barFinalis
+      f f f e( d c) \barMin a c d d( f) e c d d \barFinalis
     }
     \addlyrics {
       Pán bu -- de vlád -- nout od mo -- ře k_mo -- ři
@@ -1500,8 +1500,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 f f e d e( f) d d \barMin
-      c d e f f e d c d d \barFinalis
+      d4 f f e d d e e \barMin
+      e d e f f e c e( f) d d \barFinalis
     }
     \addlyrics {
       Pán vy -- svo -- bo -- dí chu -- dá -- ka,
@@ -1512,6 +1512,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 72-II"
+      fial = "pust_triduum.ly#ct-nesp-ant2?zacatek=12"
       id = "29-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1520,13 +1521,13 @@
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      a4 d c d e c b c a a \barMin
-      b c d c a a \barMaior
-      c c c c d c \barMin
-      d c d e( d) d \barMin
-      e d c a c( b) a a \barFinalis
+      d4 f e f g f e f d d \barMin
+      d( f) d f e c c \barMaior
+      d f f f g f \barMin
+      g f g a( g) g \barMaior
+      a g f d e( f) d d \barFinalis
     }
     \addlyrics {
       Pas -- tý -- ři si řek -- li me -- zi se -- bou:
@@ -1537,8 +1538,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "IV alt"
-      differentia = "A"
+      modus = "II"
+      differentia = "D"
       psalmus = "Benedictus"
       id = "29-aben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -1552,9 +1553,9 @@
       d4 d c f g f( g) a a \barMaior
       a a( c) a g( a) g \barMin
       f e f( d) c( d) d \barMax
-      a'( c) c b a b( c a) a \barMin
+      a'( c) c b g b( c a) a \barMin
       a a g( a) a a g f e e \barMaior
-      d f f e( d c) \barMin
+      d e f d( c) \barMin
       d e f d d c d d \barFinalis
     }
     \addlyrics {
