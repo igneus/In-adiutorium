@@ -212,7 +212,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g( a) a a b c a a \barMin
     b a g g( a) a \barMaior
@@ -237,7 +237,32 @@
   }
 }
 
-\pageBreak
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a a b c a a \barMin
+    b a g g( a) a \barMaior
+    e e e( f) d d( e) e \barMin
+    f g a a b g a a \mark\sipka \barMin
+    g a g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
+    před trů -- nem Bo -- žím,
+    by -- ly vy -- kou -- pe -- ny
+    z_li -- dí ja -- ko pr -- vo -- ti -- ny
+    pro Bo -- ha a pro Be -- rán -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c'' {

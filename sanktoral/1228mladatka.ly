@@ -66,8 +66,8 @@
     a4 g f g( a) a a b c a a \barMin
     b a g g( a) a \barMaior
     e e e( f) d d( e) e \barMin
-    f g a a b g a a \barMaior
-    g e e e f g e e \barFinalis
+    f g a a b g a a \barMin
+    g a g f e d e e \barFinalis
   }
   \addlyrics {
     Bet -- lém -- ské dě -- ti jsou bez po -- skvr -- ny
