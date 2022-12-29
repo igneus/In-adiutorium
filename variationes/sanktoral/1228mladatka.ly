@@ -285,6 +285,66 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g f e e \barMaior
+    e \mark\sipka f e e f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- jich bo -- lest a ná -- řek
+    se změ -- ni -- ly ve věč -- nou ra -- dost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g f \mark\sipka g g \barMaior
+    a a( b) a a \barMin a g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- jich bo -- lest a ná -- řek
+    se změ -- ni -- ly ve věč -- nou ra -- dost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g f g g \barMaior
+    a a( b) \mark\sipka g g \barMin a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- jich bo -- lest a ná -- řek
+    se změ -- ni -- ly ve věč -- nou ra -- dost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 33-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -325,6 +385,26 @@
     quid = "1. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b g a( b) a g g \barMaior
+    a a a a a c b g \barMin a f g \barFinalis
+  }
+  \addlyrics {
+    Bu -- dou se mnou cho -- dit v_bí -- lých ša -- tech,
+    pro -- to -- že jsou to -- ho hod -- ni, pra -- ví Pán.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}

@@ -400,6 +400,34 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      c4( d) d d f e f d d c d e( f) \mark\sipka d d \barMaior
+      d c b a a c( d) d \barMin
+      c d d d \mark\sipka f e d( e) d d \barMin
+      d4 f d f e( d) d \barMax
+      a' g f f( g) f d d \barMin
+      \mark\sipka f f f e c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnigicat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisDen {29. prosince}}
