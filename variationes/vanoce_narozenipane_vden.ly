@@ -59,6 +59,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 \mark\sipka b( d) d d c( b) a( g) g \barMin
+      a b c a g( f g) g \barMaior
+      a4( d) d e( f d) d \barMin c a b c a g g \barFinalis
+    }
+    \addlyrics {
+      Král mí -- ru a po -- ko -- je je ob -- klo -- pen slá -- vou,
+      ce -- lá ze -- mě tou -- ží spa -- třit je -- ho tvář.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 113"
+      id = "vden-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -627,6 +648,42 @@
       % R
       \neviditelna a
       \mark\sipka f g a g f d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Dnes po -- zná -- te, že při -- jde Pán_*
+      a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \Verse On sám při -- jde a spa -- sí vás_*
+      \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \textRespDoxologie
+    }
+    \header {
+      id = "narozeni-1ne-resp"
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \markup\justify{
+    (Přesunem hudebního akcentu v r1 z přízvučné slabiky na nepřízvučnou dlouhou
+    si nejsem úplně jistý, ale přijde mi, že by to tady mohla být legitimní možnost.)
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 \mark\sipka f g f f g a a( g) \barMax
+      f g a g f d d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a g( a) g f g \mark\sipka a a( g) \barMax
+      % R
+      \neviditelna a
+      f g a g f d d f g g( f) f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
