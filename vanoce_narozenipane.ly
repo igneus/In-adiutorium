@@ -104,6 +104,7 @@
       \textRespDoxologie
     }
     \header {
+      placet = "_Dnes poznáte_: akcent na druhém slově fráze není moc pěkný, celkově má r1 nepěkný rytmus"
       id = "narozeni-1ne-resp"
       quid = "resp."
       modus = "VI"
@@ -270,7 +271,8 @@
     \header {
       quid = "1. resp."
       modus = "VII"
-      placet = "má úplně jiný ráz než klasická noční responsoria"
+      placet = "má úplně jiný ráz než klasická noční responsoria;
+      melodie _do nebeského_ úplně nesedí k rytmu fráze"
       id = "vden-cte-r1"
       piece = \markup {\sestavTitulekResp}
     }
