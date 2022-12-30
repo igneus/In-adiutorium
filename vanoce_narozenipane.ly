@@ -133,6 +133,8 @@
     }
   }
 
+  \pageBreak % ZLOM
+
   \markup {\nadpisHodinka {"invitatorium"}}
 
   \score {
@@ -204,8 +206,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g a( g) a( c) c4. \barMin
-      d4 c b a( b g) g \barFinalis
+      g4 g a( g) a( c) c \barMin
+      b c a a( g) g \barFinalis
     }
     \addlyrics {
       Krá -- sou vy -- ni -- káš
@@ -216,9 +218,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 45"
-      placet = "nepřesvědčivý závěr; bude lepší odpoutat se od zdroje"
-      fons = "Nápěv doslova z pondělí 2. týdne žaltáře, nešpory, 1. ant."
-      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1?cast"
+      fial = "fial://antifony/tyden2_2pondeli.ly#ne-ant1?zacatek=8"
       id = "vden-cte-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -231,13 +231,13 @@
       % R
       \neviditelna a
       g4 g g \[ g( d' c \] \[ d f e d) \] c( d) d( c) \barMaior
-      b b c b a b( c a) g( f) g \barMax
+      c c b c a b( c a) g( f) g \barMax
 
-      g g f( g) g( f) f \barMin
+      g g g( a) g g \barMin
       g a g f g a a c( d c) \barMaior
       d e d c e e d d \barMax
 
-      c c c e d c d c a a \barMaior
+      d d d e d c d c a a \barMaior
       g a b c d( e) d c d d( c) \barMin
       a( g) f g g \barFinalis \break
 
@@ -247,7 +247,7 @@
       d d d d c b c b \barMin
       a b c( d) c b c d d d \barFinalis
 
-      c c c \barFinalis
+      d d d \barFinalis
     }
     \addlyrics {
       \Response Dnes se nám na -- ro -- dil
@@ -312,8 +312,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4 d d c( b a) a \barMin
-      b a a( g) g \barMaior
+      d4 d d c( b a4.) a \barMin
+      b4 a a( g) g \barMaior
       f a c c b( a) g g \barFinalis
     }
     \addlyrics {
@@ -368,7 +368,7 @@
       c c c c d b c b( a g) g \barMaior
       f f g a( c) b( a) a \barMin
       b( c) a a g( f) g \barMaior
-      c b( c) a( g) g \barFinalis
+      f g( a) g g \barFinalis
     }
     \addlyrics {
       An -- děl ře -- kl pas -- tý -- řům:
@@ -381,7 +381,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Dan 3-III"
-      placet = "skok na aleluja pryč"
       id = "vden-rch-a2"
       piece = \markup {\sestavTitulek}
     }
