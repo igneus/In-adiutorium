@@ -1258,6 +1258,33 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin
+      g f e d( e d) d \barMaior
+      \mark\sipka d f e( f d) d \barMin
+      c f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=20"
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -1689,7 +1716,31 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 g g( a) \barMin
+      f4 a a( g) \barMin
+      g \mark\sipka g( a) g g f g g( f) f \barMaior
+      \mark\sipka f d f f( g) g \barMin
+      g f e d e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef vstal,
+      vzal dí -- tě i je -- ho mat -- ku
+      a ješ -- tě v_no -- ci
+      se o -- de -- bral do E -- gyp -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 87"
+      id = "svrodiny-cte-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4 g g( a) \barMin
       a g( a) g g f g g( f) f \barMaior
       f d f f( g) g \barMin
       g f e d e d c( d) d \barFinalis
@@ -2325,6 +2376,181 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a g( a) g \barMin
+      f g a c c d c b c a a \barMaior
+      c c c( d) c c b c a( g) g \barMaior
+      f g( a) a \barMin c c c b a g g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a g( a) g \barMin
+      f g a c c d c b c a a \barMaior
+      c c \mark\sipka b( c) a a g f g( a) a \barMaior
+      c b( c) a \barMin a g f g a g g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a g( a) g \barMin
+      f g a c c d c b c a a \barMaior
+      c c b( c) a a g f g( a) a \barMaior
+      c \mark\sipka b( a g) g \barMin a g f g a \mark\sipka a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a g( a) g \barMin
+      f g \mark\sipka g a a c b c a g g \barMaior
+      c c b( c) a a g f g( a) a \barMaior
+      c b( a g) g \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g a a( c) c \barMin
+      c c d( e) d c d c b c a a \barMaior
+      c c a( g) g g a g a( c) c \barMaior
+      c b( c a) a \barMin c c c b a g g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g f g( a) a \barMin
+      c c b( c) a a c b c a g g \barMaior
+      g g g( a) a a g f g( a) a \barMaior
+      c b( c a) a \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g f g( a) a \barMin
+      c c b( c) a a \mark\sipka g f g a g g \barMaior
+      g g g( a) a a g f g( a) a \barMaior
+      c b( c a) a \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -2926,6 +3152,31 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      d4 d d c b c( d) d \barMin
+      c \mark\sipka b a b g g \barMaior
+      a g f g a a
+      a c b g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 127"
+      id = "svrodiny-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \choralniRezim
       a4 a a g a c( d) d \barMin
       c d e c d d \barMaior
@@ -3040,6 +3291,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d e c c d d \barMin
+      \mark\sipka e d c b( c) a( g) g \barMaior
+      a a g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš pro -- spí -- val moud -- ros -- tí,
+      vě -- kem i ob -- li -- bou
+      u Bo -- ha i u li -- dí.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Ef 1"
+      id = "svrodiny-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -3089,6 +3362,40 @@
       % V
       \neviditelna a4
       \mark\sipka a( bes) a g( a) g g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g f d f g g( f) f \barFinalis
+      % Slava
+      a4 a a( bes) a a g( a) g \barMin
+      g a g f g g( a)
+      \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- tus byl vy -- zkou -- šen ve všem ja -- ko my,_*
+      a pro -- to má s_ná -- mi sou -- cit.
+      \Verse Stal se člo -- vě -- kem a žil me -- zi lid -- mi,_*
+      \Response a pro -- to má s_ná -- mi sou -- cit.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-2ne-resp"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g a a( g) \barMax
+      g g f d f g g( f) f \barFinalis
+      % V
+      \neviditelna a4
+      a( bes) a g( a) g g \barMin g g \mark\sipka f g g( a) a( g) \barMax
       % R
       \neviditelna g
       g g f d f g g( f) f \barFinalis

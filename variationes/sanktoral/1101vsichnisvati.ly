@@ -2319,6 +2319,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a c d c b a g a \barMaior
+    c b a g( a) g \barMin g f g a( c) b a g a a \barMaior
+    a g a a a a c b c d c b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- te, svou kr -- ví jsi nás vy -- kou -- pil
+    z_kaž -- dé -- ho kme -- ne, ja -- zy -- ka, li -- du i ná -- ro -- da
+    a vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

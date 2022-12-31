@@ -1042,6 +1042,16 @@ uvodniVers = \lyricmode {
   }
 
   \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
+
+  \markup\justify{
+    (Kdybychom to s vynecháváním poslední části mysleli vážně, chtělo by to
+    připravit pro takový případ extra variantu nápěvu
+    \italic{Dej, ať se radují s tvými svatými ve věčné slávě,}
+    tvořící uspokojivý závěr.
+    Avšak nikdo soudný, když už modlitbu se čtením zpívá, této bugninistické
+    rubriky užívat nebude, a pokud někdo bude, hudební kvality zmrzačeného
+    nápěvu ať jsou mu zaslouženým trestem.)
+  }
 }
 
 \bookpart {

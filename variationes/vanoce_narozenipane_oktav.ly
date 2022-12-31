@@ -1081,6 +1081,26 @@
   \score {
     \relative c'' {
       \choralniRezim
+      g4 g a g a a c c \barMin
+      c c a g f( g) a g g \barFinalis
+    }
+    \addlyrics {
+      Věr -- nost vy -- pu -- čí ze ze -- mě,
+      spra -- ve -- dl -- nost shléd -- ne z_ne -- be.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 85"
+      id = "30-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 g c c c b a g \barMin
       a a g f g a g g \barFinalis
     }
@@ -1189,6 +1209,30 @@
       \zvyraznovacModry
       \choralniRezim
       c4 c c g( a) g \barMin
+      a g a c b a a \barMaior
+      c( d c) b( a) g \barMin
+      a g f( g) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem
+      své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším
+      me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka c4 b a g( a) g \barMin
       a g a c b a a \barMaior
       c( d c) b( a) g \barMin
       a g f( g) a g g \barFinalis
