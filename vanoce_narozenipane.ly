@@ -927,8 +927,8 @@
     \relative c'' {
       \choralniRezim
       a4 a a g a g f( g) f f \barMaior
-      f f f f e( c d) c \barMin
-      d d f g g f f \barFinalis
+      g g f e d( e c4.) c \barMin
+      d4 d f g g f f \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci vstou -- pi -- li do do -- mu
@@ -940,7 +940,6 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 46"
-      placet = "spíš lépe"
       id = "svrodiny-cte-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -999,7 +998,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 f f f g f f \barMin
+      f4 f f f f( g) f f \barMin
       f g a g f g g f( e d) \barMin
       g a f g f f \barMaior
       g g f e d c f( e c d) d \barFinalis

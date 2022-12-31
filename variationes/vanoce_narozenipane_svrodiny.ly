@@ -1390,7 +1390,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \mark\sipka a4 a a g a g f( g) f f \barMaior
       f f f f e( c d) c \barMin
@@ -1412,10 +1412,55 @@
   }
 
   \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g a g f( g) f f \barMaior
+      \mark\sipka g g f e d( e c4.) c \barMin
+      d4 d f g g f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
     \relative c' {
       \choralniRezim
       f4 f f g f g g a a \barMaior
       a a g f g( f) f \barMin
+      d f g g g( a) g( f) f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f g f g g( a) g g \barMaior
+      a a g a g( f) f \barMin
       d f g g g( a) g( f) f \barFinalis
     }
     \addlyrics {
@@ -1967,10 +2012,35 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f f g f f \barMin
       f g a g f \mark\sipka g g f( e d) \barMin
+      g a f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f f f \mark\sipka f( g) f f \barMin
+      f g a g f g g f( e d) \barMin
       g a f g f f \barMaior
       g g f e d c f( e c d) d \barFinalis
     }
