@@ -3090,6 +3090,86 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a \mark\sipka g( a g) f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a \mark\sipka g( f d) d e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a' bes) a a c c a bes a \barMin
+    a g( f d) d \mark\sipka e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f g( a) a \barMin
+    a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Zvyš -- te se,_* pra -- sta -- ré vcho -- dy,
+    ať ve -- jde král slá -- vy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "so-mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
