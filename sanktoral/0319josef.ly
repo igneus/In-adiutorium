@@ -539,7 +539,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g f f \barMin
+    f4 f f f f( g) f f \barMin
     f g a g f g g f( e d) \barMin
     g a f g f f \barMaior
     g g f e d c f( e c d) d \barFinalis

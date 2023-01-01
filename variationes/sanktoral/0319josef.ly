@@ -1871,9 +1871,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f g f f \barMin
+    f g a g f g g f( e d) \barMin
+    g a f g f f \barMaior
+    g g f e d c f( e c d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- vi ro -- di -- če
+    pu -- to -- vá -- va -- li kaž -- dý rok
+    do Je -- ru -- za -- lé -- ma
+    na ve -- li -- ko -- noč -- ní svát -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "tercie"
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f f( g) f f \barMin
     f g a g f g g f( e d) \barMin
     g a f g f f \barMaior
     g g f e d c f( e c d) d \barFinalis
