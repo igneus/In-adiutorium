@@ -1767,8 +1767,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c c c( d) c c b c a a g g \barMin
-      f a a( g) g \barFinalis
+      c4 a c d d c \barMin b c a a g g \barMin
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
@@ -1779,7 +1779,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 98"
-      placet = "pro daný text asi až moc primitivní/žalmovitá"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1790,9 +1789,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 d d d d e d e d \barMin
-      d( e) d c a g g \barMaior
-      f g a a( c) b a g g \barMax
+      c4 d d d d f e d( e) d \barMin
+      c d c c( b) a( g) g \barMaior
+      a c a b( c) b a g g \barMax
       c4( d) d f e d e c( d) d \barMaior
       d c b a b c b g \barMin
       a a f e f g g g \barMaior
