@@ -1674,6 +1674,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Benedictus"
+      placet = "lépe; dílčí ohavnost zvlášť hodná řešení je césura před _je_"
       id = "30-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1702,6 +1703,7 @@
       modus = "II"
       differentia = "A"
       psalmus = "Magnificat"
+      placet = "v rámci korpusu má značně exotický ráz a není moc pěkná"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
