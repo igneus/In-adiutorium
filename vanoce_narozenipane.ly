@@ -1833,7 +1833,7 @@
       f g a a( bes) a a g f e f g4.( a) \barMin
       a4 g a g f e( f d) d \barMaior
       c d f( g) g g f g a( bes a) a \barMaior
-      a a( bes) a g( a) g \barMin
+      a bes a g( a) g \barMin
       f e c( d) d \barFinalis
     }
     \addlyrics {
@@ -1953,11 +1953,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      \key f \major
-      d4 e f f e d e( f) f \barMin
-      g f g a a \barMaior
-      a g a bes( c bes a) a \barMin
-      a g f e( f d) d \barFinalis
+      d4 e f f g f g( a) a \barMin
+      c c b( a) g( a) a \barMaior
+      a g f g( f d) d \barMin
+      f e c c( d) d \barFinalis
     }
     \addlyrics {
       O -- sla -- vuj -- me Mat -- ku Bo -- ží,
@@ -1970,7 +1969,7 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
-      fial = "commune/commune_maria.ly#invit1?-aleluja&konec"
+      fial = "sanktoral/1208pmpocatebezposkvrny.ly#invit?konec=15"
       id = "bohorodicka-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -2026,8 +2025,8 @@
       \choralniRezim
       g4 c4.( a) \barMin
       a4 b( c) c( b) b \barMaior
-      d c( b) a( b) g f g a f f g g \barMaior
-      a b b( c) g a( g) g \barFinalis
+      d c( b) a( b) g \barMin f g a f f g g \barMaior
+      a c b( c a) g a( g) g \barFinalis
     }
     \addlyrics {
       Náš Pán
@@ -2041,7 +2040,6 @@
       differentia = "G"
       psalmus = "Žalm 99"
       fial = "vanoce_zjevenipane.ly#1ne-a1"
-      placet = "půjde lépe; přinejmenším opravit hrubá místa"
       id = "bohorodicka-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -2079,62 +2077,53 @@
       \choralniRezim
       g4( a) g( f) e g a a g \barMin
       a( b) c a g( f) g \barMaior
-      a( b c) d c( b) a c( b) a( g) g \barMaior
-      g( a) f g a a a g a g g \barMax
-
-      a( b) c c4.( d) \barMin
-      c4 b a( g) a( f) g \barFinalis
+      c( d) c b( a) g a( g) f( g) g \barMaior
+      g g f e d d f g g( a) a \barMaior
+      c c b( c a) \barMin
+      g f g( a) g g \barFinalis
     }
     \addlyrics {
       Ra -- to -- lest vy -- ra -- zi -- la
       z_ko -- ře -- ne Jes -- se,
       vy -- šla hvěz -- da z_Ja -- ku -- ba:
       Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
-
-      Bo -- že náš, te -- be chvá -- lí -- me.
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
     }
     \header {
       quid = "1. ant."
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 63"
-      placet = "melisma na _vyšla_ působí nepřirozeně, těžkopádně;
-      podobně _Bože náš_; _chválíme_ také jinak"
       id = "bohorodicka-rch-a1"
       piece = \markup {\sestavTitulek}
     }
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      d4 d c b
-      c b a g a b g g \barMaior
-
-      g f g a( c) c c c( d) d \barMaior
-
-      d d( f) e d c( d) d \barMaior
-      d c b c4. a \barMin
-      c4 b a( g) g \barMaior
-
-      f g( a) g g \barFinalis
+      d4 d d d
+      e f e d e c d d \barMaior
+      d d d c b a c( d) d \barMaior
+      f f( g) a f g( f) e \barMin
+      f e d c c \barMin
+      d( f) e c( d) d \barMaior
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a nám
       po -- ro -- di -- la Spa -- si -- te -- le.
-
       Když ho Jan u -- vi -- děl, zvo -- lal:
-
       Hle, Be -- rá -- nek Bo -- ží,
       ten, kte -- rý sní -- má
       hří -- chy svě -- ta.
-
       A -- le -- lu -- ja.
     }
     \header {
       quid = "2. ant."
-      modus = "VII"
-      differentia = "d"
+      modus = "II"
+      differentia = "D"
       psalmus = "Dan 3-III"
       id = "bohorodicka-rch-a2"
       piece = \markup {\sestavTitulek}
@@ -2144,7 +2133,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 a a c b c c( d) d \barMin
+      c4 c c d e c c( d) d \barMin
       e d c( d c4.) c \barMin
       b4 c a g g \barMax
 
@@ -2223,11 +2212,11 @@
     \relative c' {
       \choralniRezim
       d4 e f e d e( c) c \barMin
-      d e f e c d4. d \barMaior
+      d e f e c d d \barMaior
 
       d4 f e d c d d( f) f \barMin
       f f g f g a( f) e \barMin
-      d d d d f e c d d \barMaior
+      d d d d f e c c( d) d \barMaior
 
       c f e( d) d \barFinalis
     }

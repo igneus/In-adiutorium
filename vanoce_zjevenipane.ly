@@ -15,8 +15,8 @@
     \choralniRezim
     g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
-    d c( b) a( b) g f g a f f g g \barMaior
-    a b b( c) g a( g) g \barFinalis
+    d c( b) a( b) g \barMin f g a f f g g \barMaior
+    a c b( c a) g a( g) g \barFinalis
   }
   \addlyrics {
     Náš Pán
@@ -29,7 +29,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 135-I"
-    placet = "kritika u kopie"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }

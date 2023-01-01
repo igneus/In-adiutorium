@@ -39,7 +39,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \zvyraznovacModry
+    \zvyraznovacSedy
     g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
     d c( b) \mark\sipka a( b) g f g a f f g g \barMaior
@@ -90,7 +90,152 @@
     g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
     d c( b) a( b) g f g a f f g g \barMaior
+    g g \mark\sipka f( e d) d f( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g f g a f f g g \barMaior
     \mark\sipka g c b( c a) g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g \mark\sipka \barMin f g a f f g g \barMaior
+    \mark\sipka a c b( c a) g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g \barMin f g a f f g g \barMaior
+    \mark\sipka g g g( a) f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g \barMin \mark\sipka a a g f g a a \barMaior
+    c b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g \barMin \mark\sipka f g a g a c b \barMaior
+    c b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) \mark\sipka a( g) g \barMaior
+    f g g( a) a \barMin c c b a b a g \barMaior
+    a c b g f( a g) g \barFinalis
   }
   \addlyrics {
     Náš Pán
