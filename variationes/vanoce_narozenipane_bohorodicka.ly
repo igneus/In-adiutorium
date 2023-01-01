@@ -110,6 +110,58 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a g( f) g a( f) g e \barMaior
+      f g a a( bes) a a g f e f g4.( a) \barMin
+      a4 g a g f e( f d) d \barMaior
+      c d f( g) g g f g a( bes a) a \barMaior
+      a \mark\sipka bes a g( a) g \barMin
+      f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 113"
+      id = "bohorodicka-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g f e f( g a) g g \barMaior
+    }
+    \addlyrics {
+      Po -- di -- vu -- hod -- ná zá -- mě -- na:
+      Stvo -- ři -- tel člo -- vě -- ka se stal jed -- ním z_nás
+      a na -- ro -- dil se z_pan -- ny;
+      při -- jal  ú -- čast na na -- šem lid -- ství
+      a nám dal ú -- čast
+      na svém bož -- ství.
+    }
+    \header {
+      quid = "1. ant."
+      modus = ""
+      differentia = ""
+      psalmus = "Žalm 113"
+      id = "bohorodicka-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {

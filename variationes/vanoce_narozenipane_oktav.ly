@@ -1253,6 +1253,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 g f g g \barMin
+      a g a c b a a \barMaior
+      c( d c) b( a) g \barMin
+      a g f( g) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem
+      své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším
+      me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
