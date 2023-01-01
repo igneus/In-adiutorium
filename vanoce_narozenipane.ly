@@ -1921,25 +1921,21 @@
     \relative c' {
       \choralniRezim
       \key f \major
-      d4 d d( a') g f a( f e4.) e \barMin
-      f4 g a a a( bes) g g( a) a \barMin
+      d4 d f e d f( g a4.) a \barMin
+      a4 a a a a( c) a g( a) a \barMaior
       a g f g a g( f) e \barMin
-      f d d d d( f) e c d d \barMax
-
-      d( a') g c( bes) a g( f) g \barMin
-      g g a f e e( f) d d \barMax
-
-      d e( c) f( e) d \barFinalis
+      f d d d d( f) e c d d \barMaior
+      a'( g) f a( bes) a g( f) g \barMin
+      g g a f e e( f) d d \barMin
+      e c f( e) d \barFinalis
     }
     \addlyrics {
       Ve své ve -- li -- ké lás -- ce
       pos -- lal nám Bůh své -- ho Sy -- na,
       a -- by nás o -- svo -- bo -- dil
       od zá -- ko -- na hří -- chu a smr -- ti;
-
       na -- ro -- dil se z_že -- ny
       a byl pod -- ro -- ben Zá -- ko -- nu.
-
       A -- le -- lu -- ja.
     }
     \header {
@@ -1947,7 +1943,6 @@
       modus = "I"
       differentia = "D"
       psalmus = "Magnificat"
-      placet = "zkusit lépe"
       id = "bohorodicka-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
