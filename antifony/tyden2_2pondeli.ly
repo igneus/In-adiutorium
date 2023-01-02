@@ -251,9 +251,9 @@ tIIpondeliNespAntIII = \score {
     \choralniRezim
     \key f \major
     d4 e f f f g a a( bes) a \barMin
-    a a a bes( g) f g g( a) a \barMax
-    a a a g f f4.( g) \barMin \bar ""
-    g4 a f d4. d \barFinalis
+    a a a bes( g) f g g( a) a \barMaior
+    a a a g f f( g) \barMin
+    g4 a f d d \barFinalis
   }
   \addlyrics {
     Bůh sám u se -- be u -- sta -- no -- vil,
