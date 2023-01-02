@@ -61,10 +61,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c b g \barMin
+    c4 b a g a g \barMin
     f g a g g \barMaior
-    c-- d c \barMin
-    a g a g g \barFinalis
+    c d c \barMin
+    b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám ten,
@@ -90,7 +90,7 @@
     g4 f e g a f e g g \barMin
     a4 b g g a g a f( e) e \barMaior
     e e e( f e) d d( e) d \barMin
-    d e f g( f) g g( f) e e \barFinalis
+    f g a a( g) a g( f) e e \barFinalis
   }
   \addlyrics {
     Po -- kor -- nou slu -- žeb -- ni -- ci Pá -- ně
