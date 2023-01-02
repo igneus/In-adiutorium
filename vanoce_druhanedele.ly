@@ -52,6 +52,7 @@
     differentia = "h"
     psalmus = "Žalm 116"
     fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
+    placet = "zkusit lépe"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -271,6 +272,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "napojení závěrečné části je v rámci korpusu hodně exotické"
     id = "ne2-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -291,6 +293,7 @@
     modus = "I"
     differentia = "g3"
     psalmus = "Žalm 115"
+    placet = "spíš lépe"
     id = "ne2-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -317,6 +320,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Zj 19"
+    placet = "aleluja rozhodně jinak; celou zkusit lépe"
     id = "ne2-a3"
     piece = \markup {\sestavTitulek}
   }
