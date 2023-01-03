@@ -324,6 +324,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) a \barMin
+    g f g( a) a \barMaior
+    \mark\sipka c b a b( c a) a \barMin
+    \mark\sipka a a a g f e e d f e e \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dí -- tě,
+    Sy -- nu Bo -- ží,
+    O -- tec tě po -- slal,
+    a -- by -- chom mě -- li ži -- vot skr -- ze te -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "2amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{3. ledna}
@@ -435,6 +459,52 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    \mark\sipka a4 a g a a( bes a4.) a \barMin g4 f g( a) g g \barMaior
+    g g g( a) a a g( f) e c f e d d \barMaior
+    c c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g a a( bes a4.) a \barMin g4 f g( a) g g \barMaior
+    \mark\sipka g f g( a) g f f( g) f f \barMin e( f) d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "3amag"
     piece = \markup {\sestavTitulekBezZalmu}

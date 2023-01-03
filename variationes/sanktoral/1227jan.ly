@@ -772,5 +772,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d c f g f( a) a \barMin
+    a a a g f g( a) a g g \barMaior
+    a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo se sta -- lo tě -- lem
+    a pře -- bý -- va -- lo me -- zi ná -- mi.
+    Vi -- dě -- li jsme je -- ho slá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "
+    vzhledem k tomu, jak silný je to text, zaslouží si něco úsilí
+    o co nejvýstižnější melodii"
+    fial = "vanoce_ferie.ly#3aben?zacatek=20"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"nešpory"}}
 \markup\italic{Vše z oktávu Narození Páně.}

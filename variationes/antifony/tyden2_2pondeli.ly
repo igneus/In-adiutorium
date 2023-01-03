@@ -657,6 +657,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a g f e f \barMin
+    f \mark\sipka g f e f d( c) c \barMaior
+    d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g bes a g f g \barMin
+    g a g f e d( c) c \barMaior
+    d f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f g a f g \barMin
     g a g bes a g( a g) g \barMin
     g f g a g f f \barFinalis
@@ -670,6 +714,29 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 g a a a g a \barMaior
+    a bes bes a g a g \barMin
+    g f( e) d( c) e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 119-ו"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -726,6 +793,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka a4 a a g f d e \barMaior
+    e f e f g g( a) a \barMin
+    a g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a a g f d e \barMaior
     e f e \mark\sipka d f g( a) a \barMin
     a g a g f e e \barFinalis
@@ -739,6 +828,28 @@
     quid = "1. ant."
     modus = "IV"
     differentia = "g"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g a a g g( a) \barMaior
+    a b a g a a( g) g \barMin
+    g g( a) g( f) e d e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 119-ו"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
