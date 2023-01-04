@@ -111,6 +111,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "pes na _srrrdce_ se nehodí; _světu se_ melodie nesedí"
     id = "3amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
