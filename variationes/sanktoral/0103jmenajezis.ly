@@ -195,6 +195,50 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f g a g f g( f) \barMin
+    \mark\sipka e( f d) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d( c) c \barMaior
+    f f g a g f g( f) \barMin
+    \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZeleny
     \choralniRezim
     d4 d f e d( c) c \barMaior

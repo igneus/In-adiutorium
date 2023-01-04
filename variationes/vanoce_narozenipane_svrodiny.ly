@@ -335,6 +335,126 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b c a g a g f( g) g \barMaior
+      a g f g a a c b( c) a a \barMaior
+      c b( c) a( g) g \barMin
+      a g f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b c a g a g f( g) g \barMaior
+      a g f \mark\sipka a c b a c d c \barMaior
+      c d( e) d( c) c \barMin
+      b c a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b c a g a g f( g) g \barMaior
+      \mark\sipka a a a c b a c c d d \barMaior
+      d c( d) d( c) c \barMin
+      b c a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b c a g a g f( g) g \barMaior
+      a a a c b a \mark\sipka g a c b \barMaior
+      c c( d) d( c) c \barMin
+      b c a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g a a g f g( a) a g g \barMaior
+      a c b c d c b c( a) g g \barMaior
+      a f( e) d d \barMin
+      f g a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisSkupiny 0

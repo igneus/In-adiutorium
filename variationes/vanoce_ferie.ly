@@ -511,6 +511,75 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 g bes a g g \barMin a( bes a) g f g g \barMaior
+    g f g( a) g f e d c d( f) e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g a a( bes a4.) a \barMin \mark\sipka g4( a g) f f g g \barMaior
+    g g g( a) g f e d c \mark\sipka \barMin d( f) e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 g f g g( d') d \barMin e c d( e) d d \barMaior
+    d d c( d) c b a g g f( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{4. ledna}
@@ -1029,6 +1098,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a g( f e) f d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be se o -- zval hlas:
+    Ty jsi můj mi -- lo -- va -- ný Syn,
+    v_to -- bě mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "antifony/pust_nedeleC.ly#iimag2?cast=2,3&konec=6"
+    id = "6amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{7. ledna}
@@ -1129,6 +1221,28 @@
     a c a g( a) a \barMaior
     g f e( f) \mark\sipka d( c) c \barMin
     d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám Kris -- tus Pán, o němž je psá -- no:
+    Je -- ho krá -- lov -- ství ne -- bu -- de mít kon -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "7aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f \mark\sipka f e d f g a \barMin
+    a c a g( a) a \barMaior
+    g f e( f) d d \barMin
+    e c c e d d \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám Kris -- tus Pán, o němž je psá -- no:

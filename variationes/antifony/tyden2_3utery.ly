@@ -726,9 +726,117 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a( b) a( g) g \barMin g a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a( b) a( g) g \barMin g \mark\sipka f g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g( a) g g \barMin g f g a f f g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g( a) g f f( g) g \barMin g f d f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g f f( g) g \barMin g \mark\sipka a g f g g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g f f( g) g \barMin g a \mark\sipka a g f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a( f) f( g) g \barMin g f g a a g f f \barFinalis
   }
   \addlyrics {
     Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
@@ -777,6 +885,24 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 54"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d b d d c b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh mi po -- má -- há, Pán mě u -- dr -- žu -- je na -- ži -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 54"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}

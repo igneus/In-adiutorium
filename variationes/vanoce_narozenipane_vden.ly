@@ -901,6 +901,27 @@
     \relative c'' {
       \choralniRezim
       g4 a g g( c) c b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      \mark\sipka g g g a f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
       g f e g4. g4 a( b c) \mark\sipka b c( d) d \barMaior
       d c b a a b a a( g) g \barFinalis
     }
@@ -1415,6 +1436,28 @@
       \mark\sipka g4 g a g a c c c( d) d( c) c \barMaior
       c c( d c a) a \barMin
       c b a g( a) g \barFinalis
+    }
+    \addlyrics {
+      Slun -- ce spra -- ve -- dl -- nos -- ti vy -- chá -- zí
+      a zá -- ří
+      ce -- lé -- mu svě -- tu.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 19A"
+      id = "vden-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a g a c c c( d) d( c) c \barMaior
+      c \mark\sipka c( d c4.) a \barMin
+      c4 b a g( a) g \barFinalis
     }
     \addlyrics {
       Slun -- ce spra -- ve -- dl -- nos -- ti vy -- chá -- zí
