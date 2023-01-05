@@ -142,6 +142,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "napojení _stal se..._ je dost exotické;
+    _učinil_ drhne"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
