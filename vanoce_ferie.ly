@@ -217,7 +217,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0503filipjakub.ly#rch-aben?-aleluja&zaver"
+    fial = "sanktoral/0503filipjakub.ly#rch-aben?-aleluja&cast=1&konec=18"
     id = "5amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

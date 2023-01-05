@@ -92,7 +92,7 @@
   \relative c' {
     \choralniRezim
     d4 d c( d) d f e f e( d) c d e d d \barMaior
-    d( c a) c( d) d c( d) d \barMin
+    d4( c a) c( d) d c( d) d \barMin
     d e f g f d \barMin
     f e( d) c( d) d( c) \barMaior
     d f e( d c) c \barMin
