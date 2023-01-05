@@ -788,7 +788,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f( c') c c \barMin
     c c( d c) b( g) a a( g) g \barMaior
@@ -807,6 +807,32 @@
     differentia = "G"
     psalmus = ""
     fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek"
+    id = "4amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    \mark\sipka a b g g a g f g a a \barMin
+    g a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    ne -- při -- šel jsem to -- tiž sám od se -- be,
+    a -- le po -- slal mě můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "velikonoce_nanebevstoupeni.ly#1ne-a1?zacatek=19"
     id = "4amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
