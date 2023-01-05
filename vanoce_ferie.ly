@@ -94,12 +94,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \key f \major
     \choralniRezim
-    c4 d d( a') a bes a bes a g f g \barMaior
-    g g g( a) a a g( f) e c f e d d \barMaior
-    c c c( d) d \barFinalis
+    a4 a g a a( bes a4.) a \barMin g4 f g( a) g g \barMaior
+    g g g( a) g f e d c \barMin d( f) e d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
@@ -109,9 +109,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = ""
-    placet = "pes na _srrrdce_ se nehodí; _světu se_ melodie nesedí"
     id = "3amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -230,7 +229,7 @@
     \choralniRezim
     g4 a a( c) c \barMin
     d( e) d \barMaior
-    d d c b a( b) g \barMin
+    d d c b a( g) a \barMin
     f g a( c) b g a \barFinalis
   }
   \addlyrics {

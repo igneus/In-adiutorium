@@ -444,6 +444,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     c4 d d( a') a bes a bes a g f g \barMaior
@@ -460,6 +461,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "pes na _srrrdce_ se nehodí; _světu se_ melodie nesedí"
     id = "3amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -540,6 +542,53 @@
     \choralniRezim
     a4 a g a a( bes a4.) a \barMin \mark\sipka g4( a g) f f g g \barMaior
     g g g( a) g f e d c \mark\sipka \barMin d( f) e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 a g a a( bes a4.) a \barMin \mark\sipka g4 f g( a) g g \barMaior
+    g g g( a) g f e d c \barMin d( f) e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g a a( bes a4.) a \barMin g4 f g( a) g g \barMaior
+    g g g( a) g f \mark\sipka g f d \barMin e c d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -1121,11 +1170,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c \barMin
     d( e) d \barMaior
     d d c b a( b) g \barMin
+    f g a( c) b g a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus,
+    náš Pán,
+    je ten, kte -- rý při -- šel
+    skr -- ze vo -- du a krev.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "6aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    d d c b \mark\sipka a( g) a \barMin
     f g a( c) b g a \barFinalis
   }
   \addlyrics {
