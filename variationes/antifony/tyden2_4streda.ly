@@ -707,6 +707,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a b a a( g) g \barMaior
+    a c( d) d d c b a( g) g \barMin
+    f g( a) a g g \barFinalis
+   }
+  \addlyrics {
+    U -- va -- žo -- val jsem o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
+    k_tvým při -- ká -- zá -- ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ח"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a b a a( g) g \barMaior
+    \mark\sipka c d( e) d c b c a( g) g \barMin
+    f \mark\sipka g a a( g) g \barFinalis
+   }
+  \addlyrics {
+    U -- va -- žo -- val jsem o svých ces -- tách
+    a o -- brá -- til jsem své no -- hy
+    k_tvým při -- ká -- zá -- ním.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ח"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -876,6 +920,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -894,6 +940,27 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g g a a g bes g a \barMaior f g( a) g f \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- kaž nám svou jas -- nou tvář a žeh -- nej nám.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 67"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 tIIstredaNespAntIII = \score {
   \relative c'' {

@@ -584,6 +584,20 @@
 
 \markup\nadpisDen{4. ledna}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Christus Deus noster,} in quo divinitátis est plenitúdo,
+    carnis nostræ infírma suscípiens,
+    \bold{novus natus est homo,}
+    allelúia.
+  }
+}
+\markup\justify{
+  Ale v tomhle případě bych byl nakloněn souhlasit, že jde o slušný dynamický překlad,
+  a že přeložit tuhle antifonu těsně a zároveň pěkně a srozumitelně je netriviální až nemožné.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -697,6 +711,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b c( d) d \barMax
+    a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    \mark\sipka a c d d( e) d d \barMin c b g \mark\sipka a g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup{
   Tónina mi ujela z modu VII do dur a je mi líto tuhle verzi úplně zahodit:
 }
@@ -726,6 +768,36 @@
     quid = "ant. k Benedictus"
     modus = ""
     differentia = ""
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) d( c) c \barMin
+    b c a( g) g \barMaior
+    a g f g g( a) \barMaior
+    a c b c( d) d d e d c d c( a) a \barMaior
+    c b a g( a) g g \barMin
+    a a a g f
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil
+    no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
