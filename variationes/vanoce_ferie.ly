@@ -853,6 +853,66 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) g( f) f \barMin
+    e f d( c) c \barMaior
+    \mark\sipka d f e f f( g) \barMin
+    g a g f( g) f f e f d c d( c) c \barMaior
+    d d f e( f) d d \barMin
+    f e c c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil
+    no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) g( f) f \barMin
+    e f d( c) c \barMaior
+    d f e \mark\sipka c c( d) \barMin
+    d c d d( f) f f g a g f f( g) g \barMaior
+    a g f f( g) f f \barMin
+    f e d c c
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil
+    no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

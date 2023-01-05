@@ -2669,6 +2669,46 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e( f) d d \barMin
+    f g( a) g f e( f) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 c d e( f) d d \barMin
+    f g( a) g f e( f) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na -- vští -- vil
+    a vy -- kou -- pil svůj lid.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c a c( b) a( g) g \barMin
