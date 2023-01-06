@@ -123,9 +123,9 @@
     d d d( g) g g a g f g f( d) d \barMaior
     f( d) d \barMin
     g f f d c \barMin
-    c d f f e c d d \barMaior
-    e( f d) d \barMin
-    c f e c d4. d \barFinalis
+    d f f f e c d d \barMaior
+    e( f d c) c \barMin
+    d f e c d d \barFinalis
   }
   \addlyrics {
     Když mu -- dr -- ci vi -- dě -- li hvěz -- du,
@@ -174,9 +174,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d e d c b c d d \barMaior
-    d c b b( c a) g a( g) g \barMin
-    f( a) a g g \barFinalis
+    c4 b c d d c b c d d \barMin
+    d c b b( c) a g g \barMaior
+    a( g) f g( a g4.) g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
@@ -186,9 +186,8 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = "Žalm 72"
-    placet = "mdlá"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -198,7 +197,7 @@
   \relative c'' {
     \choralniRezim
     c4 a c b( a) g \barMin a f a g g \barMaior
-    g a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -271,11 +270,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( f e) f( g) g \barMin
-    g a c b a( g) f g g g \barMaior
-    g a( c) b a b a g g \barMaior
-    a( c b g) g \barMin a f f a g g \barMaior
-    g4 g( a) g g \barFinalis
+    g4 g g
+    a a g f e f g g g \barMin
+    g a c a b a g g \barMaior
+    c( d c a) a \barMin c c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Mu -- dr -- ci
@@ -289,7 +288,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
-    placet = "těžkopádná"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -302,7 +300,7 @@
     a( b) c a g g \barMaior
     c4 d( c) b( a) g \barMin
     a( f) e e g g \barMaior
-    g a a( g) g \barFinalis
+    a a g( a) g \barFinalis
   }
   \addlyrics {
     Mo -- ře a ře -- ky,
@@ -391,38 +389,33 @@
     a b c c c b( a g4.) g4 \barMin
     a f e e( g) g g \barMaior
     g a b c c c d( c) a a \barMin
-    b4( c) a g f f( g) g \barMax
+    b4( c) a g g \barMax
 
-    g g g a g a b( c) c \barMin
-    c b a b g g \barMaior
-    g g( a) a a f( g) g( a) a \barMin
-    c c d c b a a( b) g g \barMaior
+    g g g a g a a( c) c \barMin
+    d c b c a a \barMaior
+    a c c c b( c) a( g) g \barMin
+    f g a a g f g( a) g g \barMaior
 
-    g4 a a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Dneš -- ní -- ho dne
     se za -- snou -- bi -- la cír -- kev
     s_ne -- bes -- kým že -- ni -- chem,
     pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
-    všech -- ny je -- jí vi -- ny;
+    je -- jí vi -- ny;
 
-    mu -- dr -- ci spě -- cha -- jí s_da -- ry na ne -- bes -- kou svat -- bu
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
     a hos -- té se ra -- du -- jí
     z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
 
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Dnešního dne se zasnoubila církev s nebeským ženichem,
-    protože Kristus smyl v Jordáně její viny;
-    mudrci spěchají s dary na královskou svatbu
-    a hosté se radují z vody proměněné ve víno. Aleluja."
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
-    placet = "melisma na _hosté_ se mi zdá nadbytečné; _ve víno_ půjde lépe; snese se změna z _nebeskou_ na oficiální _královskou_ s aktuální melodií?"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -433,10 +426,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) a4. a \barMin
-    b4 c d c b c a a a \barMaior
-    b c b a g g \barMaior
-    f g g( a4.) a4 g f e e \barFinalis
+    g4 a( c) c \barMin
+    c c d c b c a a a \barMin
+    a c b a g g \barMaior
+    a a g f g a g g \barFinalis
   }
   \addlyrics {
     Ta -- jem -- ství,
@@ -446,10 +439,9 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "III"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "myslím, že půjde lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
