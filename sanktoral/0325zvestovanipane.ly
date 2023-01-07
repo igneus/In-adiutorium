@@ -732,7 +732,7 @@
   \header {
     quid = "resp."
     modus = "VI"
-    fial = "vanoce_narozenipane.ly#svrodiny-1ne-resp?jiny vers"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-resp?jiny_vers"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
