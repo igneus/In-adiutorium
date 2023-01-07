@@ -127,7 +127,9 @@ class ChildParentComparison
         .gsub('^\markup\rubrVelikAleluja', '')
         .gsub(/\\stem(Up|Down)\s*/, '')
         .gsub('\doxologieResponsoriumVI', '\respVIdoxologie \barFinalis')
+
     n = strip_alleluia(n) if strip_aeuia
+    n = delete_responsory_verse(n) if @fial.additional.has_key?('jiny_vers')
 
     p n if @debug
 
@@ -140,6 +142,10 @@ class ChildParentComparison
     second_last_bar = music.rindex '\bar', last_bar - 1
 
     music[0..second_last_bar-1] + music[last_bar..-1]
+  end
+
+  def delete_responsory_verse(music)
+    music.sub(/(?<=\\barFinalis).*?\\barMax/, '')
   end
 
   def strip_wrappers(music)

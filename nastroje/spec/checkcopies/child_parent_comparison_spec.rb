@@ -431,4 +431,38 @@ describe ChildParentComparison do
       ).not_to be_match
     end
   end
+
+  describe 'jiny_vers' do
+    # responsory verse is expected to start after the first \barFinalis
+    # and end with the first subsequent \barMax
+
+    let(:fial) { 'parent_path#id?jiny_vers' }
+
+    it 'differs in the verse' do
+      expect(
+        described_class.new(
+          score(music: 'a a \barFinalis b b \barMax a a', fial: fial),
+          score(music: 'a a \barFinalis c c \barMax a a')
+        )
+      ).to be_match
+    end
+
+    it 'differs before the verse' do
+      expect(
+        described_class.new(
+          score(music: 'a a \barFinalis b b \barMax a a', fial: fial),
+          score(music: 'c c \barFinalis b b \barMax a a')
+        )
+      ).not_to be_match
+    end
+
+    it 'differs after the verse' do
+      expect(
+        described_class.new(
+          score(music: 'a a \barFinalis b b \barMax a a', fial: fial),
+          score(music: 'a a \barFinalis b b \barMax c c')
+        )
+      ).not_to be_match
+    end
+  end
 end
