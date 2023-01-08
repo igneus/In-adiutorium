@@ -49,6 +49,7 @@
     quid = "resp."
     modus = "III"
     titulus = "neděle - ranní chvály"
+    fial = "pust_responsoria.ly#ne-rch?zacatek=13&konec=15"
     piece = \markup\sestavTitulekRespII
     id = "ne-rch"
   }
