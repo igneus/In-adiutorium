@@ -1476,7 +1476,7 @@
     \addlyrics {
       Ta -- jem -- ství, kte -- ré dnes sla -- ví -- me, je ve -- li -- ké:
       Ten, kte -- rý všech -- no stvo -- řil,
-      nás v_Jor -- dá -- nu
+      nás v_Jor -- dá -- ně
       o -- čis -- til z_na -- šich ne -- pra -- vos -- tí.
     }
     \header {
@@ -1511,7 +1511,7 @@
     }
     \addlyrics {
       \Response Bůh u -- sta -- no -- vil své -- ho Sy -- na
-      pro -- střed -- ní -- kem smlou -- vy a svět -- lem ná -- ro -- dů,_
+      pro -- střed -- ní -- kem smlou -- vy a svět -- lem ná -- ro -- dů,_*
       a vlo -- žil na něj své -- ho Du -- cha.
       \Verse Po -- slal ho,
       a -- by při -- ne -- sl chu -- dým
