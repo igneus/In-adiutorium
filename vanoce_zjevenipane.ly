@@ -928,6 +928,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 135-I"
+      placet = "lépe"
       id = "krtu-1ne-a1"
       fial = "antifony/advent_nedeleB.ly#iiben?konec"
       piece = \markup {\sestavTitulek}
@@ -1164,6 +1165,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      placet = "lépe"
       id = "krtu-mc-avig"
       piece = \markup {\sestavTitulekBezZalmu}
     }
