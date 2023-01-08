@@ -342,6 +342,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d( f) e f e d c \barMaior
+    \mark\sipka d f e d c e( f) d d \barFinalis
+
+    e^\rubrVelikAleluja f \mark\sipka d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d d( f) \mark\sipka f e d e e \barMaior
     f f f e c c d d \barFinalis
 
@@ -438,6 +462,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f f \mark\sipka g f d d \barMaior
+    f e f d c c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d( f) f g f g a \barMaior
     a a a g d f( e) c( d) d \barFinalis
 
@@ -452,6 +500,54 @@
   \header {
     quid = "1. ant."
     modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f) d d \barMin e d c a c( d) d \barMaior
+    f g f e c e( f) d d \barFinalis
+
+    e^\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f) d d \barMin e d c a c( d) d \barMaior
+    f g f e d \mark\sipka e( d) c( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
     id = "mc-a-ant1"
@@ -782,6 +878,42 @@
     \zvyraznovacZeleny
     \choralniRezim
     c4 a c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a b \barMin c a b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a b \barMin \mark\sipka g a b a( g) g \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
