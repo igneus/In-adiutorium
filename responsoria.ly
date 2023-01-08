@@ -770,13 +770,13 @@ doxologieResponsoriumVI = \relative c'' {
       % R
       \neviditelna f
       f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
-      g g g g g( f d) f( g) g( f) f \barFinalis
+      g g f d f g g( f) f \barFinalis
       % V
       \neviditelna g
       a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
       % R
       \neviditelna g
-      g g g g g( f d) f( g) g( f) f \barFinalis
+      g g f d f g g( f) f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -790,7 +790,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "_hooojná radost_ se mi moc nelíbí"
       id = "2ut-ne"
       piece = \markup\sestavTitulekResp
     }

@@ -2359,76 +2359,78 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
+      g g g g g( f d) f( g) g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
+      % R
+      \neviditelna g
+      g g g g g( f d) f( g) g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
+      u te -- be je hoj -- ná ra -- dost.
+      \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
+      \Response u te -- be je hoj -- ná ra -- dost.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      placet = "_hooojná radost_ se mi moc nelíbí"
+      id = "2ut-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
+      g g g g \mark\sipka f( d) f( g) g( f) f \barFinalis
+      % V
+      \neviditelna g
+      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
+      % R
+      \neviditelna g
+      g g g g \mark\sipka f( d) f( g) g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
+      u te -- be je hoj -- ná ra -- dost.
+      \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
+      \Response u te -- be je hoj -- ná ra -- dost.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ut-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
       \zvyraznovacModry
       \choralniRezim
 
       % R
       \neviditelna f
       f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
-      g g g g g( f d) f( g) g( f) f \barFinalis
-      % V
-      \neviditelna g
-      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
-      % R
-      \neviditelna g
-      g g g g g( f d) f( g) g( f) f \barFinalis
-      % Slava
-      %\doxologieResponsoriumVI
-    }
-    \addlyrics {
-      \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
-      u te -- be je hoj -- ná ra -- dost.
-      \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
-      \Response u te -- be je hoj -- ná ra -- dost.
-      \textRespDoxologie
-    }
-    \header {
-      quid = "resp."
-      modus = "VI"
-      id = "2ut-ne"
-      piece = \markup\sestavTitulekResp
-    }
-  }
-
-  \score {
-    \relative c' {
-      \choralniRezim
-
-      % R
-      \neviditelna f
-      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
-      g g g g \mark\sipka f( d) f( g) g( f) f \barFinalis
-      % V
-      \neviditelna g
-      a4 a a( bes) a a \barMin a g( a g) f g( a) \barMax
-      % R
-      \neviditelna g
-      g g g g \mark\sipka f( d) f( g) g( f) f \barFinalis
-      % Slava
-      %\doxologieResponsoriumVI
-    }
-    \addlyrics {
-      \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
-      u te -- be je hoj -- ná ra -- dost.
-      \Verse Po tvé pra -- vi -- ci je věč -- ná slast,_*
-      \Response u te -- be je hoj -- ná ra -- dost.
-      \textRespDoxologie
-    }
-    \header {
-      quid = "resp."
-      modus = "VI"
-      id = "2ut-ne"
-      piece = \markup\sestavTitulekResp
-    }
-  }
-
-  \score {
-    \relative c' {
-      \choralniRezim
-
-      % R
-      \neviditelna f
-      f4 f f f f f g f f \barMin g f g( a) a( g) \barMax
       g g \mark\sipka f d f g g( f) f \barFinalis
       % V
       \neviditelna g
@@ -2437,7 +2439,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g \mark\sipka f d f g g( f) f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response U -- ká -- žeš mi ces -- tu k_ži -- vo -- tu, Hos -- po -- di -- ne,_*
